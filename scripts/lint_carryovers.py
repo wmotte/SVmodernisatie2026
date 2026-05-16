@@ -1019,6 +1019,11 @@ STOPLIST: frozenset[str] = frozenset({
     # MRK 2:7-8 carry-overs (legitiem)
     "lasteringen",    # mv. zelfst. nw. — gewoon modern NL (v7, Gr. βλασφημίας; vgl. 'godslasteringen')
     "overdachten",   # verleden tijd 'overdenken' — gewoon modern NL (v8, Gr. διαλογίζονται; concordantie met 'overdenkingen' al gangbaar)
+    # MRK 3:1 carry-overs (legitiem)
+    "verklaren",      # infinitief — gewoon modern NL (v1, kanttekening 'de wet te horen verklaren' = uitleggen/expliciteren); productief in modern register (oorlog verklaren, iets verklaren)
+    # MRK 3:5-6 carry-overs (legitiem)
+    "eelt",           # zelfst. nw. — gewoon modern NL (v5, kanttekening over πώρωσις 'door weer of eelt')
+    "herodianen",     # eigennaam mv. — partijbenaming, één-op-één (v6, hoofdtekst en kanttekening); vgl. 'herodes', 'herodias' reeds op STOPLIST
 })
 
 
