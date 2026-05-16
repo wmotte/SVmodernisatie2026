@@ -99,7 +99,7 @@ ARCHAISM_BLACKLIST = [
 SPELLING_EQUIV = {
     "Mattheus": ["Matteüs", "Mattheüs"],
     "Marcus": ["Marcus", "Markus"],
-    "Lucas": ["Lukas", "Lucas"],
+    "Lucas": ["Lucas"],
     "Bethlehem": ["Betlehem", "Bethlehem"],
     "Iesus": ["Jezus"],
     "Iesum": ["Jezus"],

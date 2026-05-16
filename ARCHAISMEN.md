@@ -194,7 +194,7 @@ tabel staat — de tabel zelf documenteert de afweging.
 | Iesus       | Jezus           |
 | Iohannes / Ioannes | Johannes |
 | Iudas / Judas      | Judas    |
-| Lucas       | Lukas (boektitel) — in lopende tekst meestal "Lucas" |
+| Lucas       | Lucas (lopende tekst + boektitel `LUCAS` in kolofon); afkorting blijft `Lk.` (projectstandaard `sv-bibref`, niet NBV21-`Lc.`) |
 | Marcus      | Markus          |
 | Iesa(ja)    | Jesaja          |
 | Ierem(ia)   | Jeremia         |

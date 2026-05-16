@@ -27,7 +27,7 @@ TEMPLATE_DIR = ROOT / "template"
 BUILD_DIR = ROOT / "build"
 
 BOOK_TITLES = {
-    "LUK": "Het Evangelie naar Lukas",
+    "LUK": "Het Evangelie naar Lucas",
     "MRK": "Het Evangelie naar Markus",
     "MAT": "Het Evangelie naar Mattheus",
     "JHN": "Het Evangelie naar Johannes",
