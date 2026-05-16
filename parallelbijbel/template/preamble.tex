@@ -219,6 +219,19 @@
 
 % Verspair: één ondeelbare horizontale rij. Page break valt tussen verzen;
 % kanttekeningen worden onderaan de pagina verzameld.
+% Voor verzen met kanttekeningen reserveert build_book.py vooraf genoeg
+% verticale ruimte, zodat de noot niet naar de volgende pagina overloopt.
+\newcommand{\ktneedspace}[1]{%
+  \par
+  \begingroup
+    \dimen0=#1\baselineskip
+    \dimen2=\pagegoal
+    \advance\dimen2 by -\pagetotal
+    \ifdim\dimen2<\dimen0
+      \ifdim\pagetotal>0pt\pagebreak[4]\fi
+    \fi
+  \endgroup}
+
 % Args: #1=nr #2=SVbody #3=SVrefs(may be empty) #4=Mbody #5=Mrefs(empty)
 \newcommand{\verspair}[5]{%
   \parallelpair{\vrsnr{#1}#2#3}{\vrsnr{#1}#4#5}%
