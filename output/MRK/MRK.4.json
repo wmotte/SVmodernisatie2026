@@ -317,8 +317,38 @@
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5,
       "notes": [
-        {"type": "afwijking", "text": "'na dat' / 'naardat' (Gr. καθὼς) gemoderniseerd naar 'naarmate' (drempel-§2.7, HSV-spiegel bevestigt met 'voor zover'). Conservatieve renovatie: SV-zinsbouw blijft staan."}
+        {
+          "type": "afwijking",
+          "text": "'na dat' / 'naardat' (Gr. καθὼς) gemoderniseerd naar 'naarmate' (drempel-§2.7, HSV-spiegel bevestigt met 'voor zover'). Conservatieve renovatie: SV-zinsbouw blijft staan."
+        }
       ]
+    },
+    {
+      "verse_number": 34,
+      "original": "Ende sonder gelijckenisse en sprack hy haer niet: maer hy verklaerde alles sijnen discipelen in ’t bysonder.",
+      "modernized": "En zonder gelijkenis sprak hij tot hen niet; maar hij verklaarde alles aan zijn discipelen in het bijzonder.",
+      "source_text": "χωρὶς δὲ παραβολῆς οὐκ ἐλάλει αὐτοῖς· κατ’ ἰδίαν δὲ τοῖς μαθηταῖς αὐτοῦ ἐπέλυε πάντα.",
+      "generated_at": "2026-05-16T18:53:33.586794Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 35,
+      "original": "$Matth. 8.23. Luce 8.22.$ Ende op den selven dagh, als ’t nu avont geworden was, seyde hy tot haer, Laet ons over varen <Namelick, van de Galileesche zee, tegen Capernaum over, na het lant der Gadarenen, als blijckt uyt het volgende Capit. vers 1.> aen d’ander zijde.",
+      "modernized": "$Mt. 8:23; Lk. 8:22$ En op diezelfde dag, toen het nu avond geworden was, zei hij tot hen: Laat ons overvaren <Namelijk, van de Galilese zee, tegenover Kapernaum, naar het land van de Gadarenen, zoals blijkt uit het volgende hoofdstuk, vers 1.> naar de andere zijde.",
+      "source_text": "Καὶ λέγει αὐτοῖς ἐν ἐκείνῃ τῇ ἡμέρᾳ, ὀψίας γενομένης, Διέλθωμεν εἰς τὸ πέραν.",
+      "generated_at": "2026-05-16T18:54:00.833182Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 36,
+      "original": "Ende sy de schare gelaten hebbende namen hem mede, gelijck hy in het schip was: ende daer waren noch andere schipkens met hem.",
+      "modernized": "En toen zij de schare verlaten hadden, namen zij hem mee, zoals hij in het schip was; en er waren nog andere scheepjes met hem.",
+      "source_text": "καὶ ἀφέντες τὸν ὄχλον, παραλαμβάνουσιν αὐτὸν ὡς ἦν ἐν τῷ πλοίῳ. καὶ ἄλλα δὲ πλοιάρια ἦν μετ’ αὐτοῦ.",
+      "generated_at": "2026-05-16T18:54:23.878325Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
