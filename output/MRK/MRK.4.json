@@ -289,6 +289,36 @@
       "generated_at": "2026-05-16T18:42:54.432351Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 31,
+      "original": "[Namelick] <Wat dese gelijckenisse beduydt, siet Matth. 13.31.> by een mostaertzaet, het welcke, wanneer het in de aerde gezaeyt wort, <Gr. het minder.> het minste is van alle de zaden die op der aerden [zijn.]",
+      "modernized": "[Namelijk] <Wat deze gelijkenis betekent, zie $Mt. 13:31$.> bij een mosterdzaad, dat, wanneer het in de aarde gezaaid wordt, <Gr. het kleinere.> het kleinste is van alle zaden die op de aarde [zijn.]",
+      "source_text": "ὡς κόκκῳ σινάπεως, ὅς, ὅταν σπαρῇ ἐπὶ τῆς γῆς, μικρότερος πάντων τῶν σπερμάτων ἐστὶ τῶν ἐπὶ τῆς γῆς·",
+      "generated_at": "2026-05-16T18:47:35.348774Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 32,
+      "original": "Ende wanneer het gezaeyt is, gaet het op ende wort <Gr. het meerder, ofte, grooter.> het meeste van alle de moeskruyden, ende maeckt groote tacken, alsoo dat de vogelen des hemels onder sijne schaduwe konnen nestelen.",
+      "modernized": "En wanneer het gezaaid is, gaat het op en wordt <Gr. het grotere, of: groter.> het grootste van alle moeskruiden, en maakt grote takken, zodat de vogels van de hemel onder zijn schaduw kunnen nestelen.",
+      "source_text": "καὶ ὅταν σπαρῇ, ἀναβαίνει, καὶ γίνεται πάντων τῶν λαχάνων μείζων, καὶ ποιεῖ κλάδους μεγάλους, ὥστε δύνασθαι ὑπὸ τὴν σκιὰν αὐτοῦ τὰ πετεινὰ τοῦ οὐρανοῦ κατασκηνοῦν.",
+      "generated_at": "2026-05-16T18:47:57.709678Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 33,
+      "original": "$Matth. 13.34.$ Ende door sulcke gelijckenissen vele, sprack hy haer <Namelick, des Euangeliums.> het woort, <Dat is, na datse dese gemeene aerdsche dingen verstonden, hoewel sy het geestelicke dat daer mede afgebeelt wort, niet en begrepen.> na dat sy het hooren konden.",
+      "modernized": "$Mt. 13:34$ En door vele zulke gelijkenissen sprak hij tot hen <Namelijk, van het Evangelie.> het woord, <Dat is, naarmate zij deze gewone aardse dingen verstonden, hoewel zij het geestelijke dat daarmee afgebeeld wordt, niet begrepen.> naarmate zij het horen konden.",
+      "source_text": "Καὶ τοιαύταις παραβολαῖς πολλαῖς ἐλάλει αὐτοῖς τὸν λόγον, καθὼς ἠδύναντο ἀκούειν·",
+      "generated_at": "2026-05-16T18:48:20.914956Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {"type": "afwijking", "text": "'na dat' / 'naardat' (Gr. καθὼς) gemoderniseerd naar 'naarmate' (drempel-§2.7, HSV-spiegel bevestigt met 'voor zover'). Conservatieve renovatie: SV-zinsbouw blijft staan."}
+      ]
     }
   ]
 }
