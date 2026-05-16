@@ -913,6 +913,7 @@ STOPLIST: frozenset[str] = frozenset({
     # LUK 20:16-18 carry-overs (legitiem)
     "overkomen",      # voltooid deelw./inf. — gewoon modern NL ('ons zou overkomen' v16 kanttekening, Gr. context)
     "steen",          # zelfst. nw. ev. — gewoon modern NL (v17/v18 Ps. 118:22 hoeksteen-citaat, Gr. λίθος); 'stenen' (mv) al gangbaar
+    "steenachtige",   # bnw. — gewoon modern NL (rotsachtige grond); SV-rendering Gr. πετρῶδες (MRK 4:5 zaaiergelijkenis)
     "bouwlieden",     # SV-vaste rendering van Gr. οἱ οἰκοδομοῦντες (Ps. 118:22 / Mt. 21:42 / 1Pt. 2:7 concordantie); behoudt SV-eigenheid t.o.v. HSV 'bouwers'
     # LUK 20:46-47 carry-overs (legitiem)
     "beminnen",       # inf. van 'beminnen' — productief modern NL register; SV-rendering Gr. φιλούντων (cf. 'bemint' al in stoplist; concordantie Lk 11:43)
