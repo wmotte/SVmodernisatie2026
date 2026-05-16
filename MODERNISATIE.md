@@ -112,7 +112,7 @@ omgezet als `aan hem werd gesien` / `wierd gesien een Engel des Heeren`
 (Lk. 1:11). De moderne weergave is invariant **`verscheen aan iem.`**
 — ook in Lk. 24:34 (`is gesien geweest van Simon` → `is verschenen aan
 Simon`), Hd. 7:30 (`wert ... gesien een Engel` → `verscheen ... een
-engel`), enz. Geldt door heel Lukas/Handelingen.
+engel`), enz. Geldt door heel Lucas/Handelingen.
 
 **4. Vocatief met "u + zelfstandig naamwoord".**
 SV vormt anspreek-vocatieven als `u begenadigde` (Lk. 1:28),

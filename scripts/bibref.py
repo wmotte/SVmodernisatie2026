@@ -88,7 +88,7 @@ PROJECT_CODE_TO_FULLNAME = {
     "MAL": "Maleachi",
     "MAT": "Mattheüs",
     "MRK": "Markus",
-    "LUK": "Lukas",
+    "LUK": "Lucas",
     "JHN": "Johannes",
     "ACT": "Handelingen",
     "ROM": "Romeinen",
@@ -135,7 +135,7 @@ def _load_oldabbr_to_fullname() -> dict[str, str]:
 
 
 def _load_fullname_to_modabbr() -> dict[str, str]:
-    """Full Name (Dutch) -> korte afk (bv. 'Lukas' -> 'Lk.')."""
+    """Full Name (Dutch) -> korte afk (bv. 'Lucas' -> 'Lk.')."""
     mapping: dict[str, str] = {}
     path = REFDATA / "afkortingen.csv"
     with path.open(encoding="utf-8-sig") as f:
