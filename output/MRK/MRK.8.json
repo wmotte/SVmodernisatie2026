@@ -1,0 +1,52 @@
+{
+  "book": "MRK",
+  "chapter": 8,
+  "introduction": {
+    "original": "1 Christus spijsight vier duysent mannen met seven brooden, ende weynigh viskens. 11 Weygert den Pharizeen een teecken uyt den hemel. 14 waerschouwt sijne discipelen voor den deessem der Pharizeen ende Herodis. 22 Maeckt eenen blinden siende. 27 Verscheyden gevoelen der Ioden van Christo, ende de belijdenisse Petri, dat hy de Christus was. 31 Voorseght sijn lijden, doot, ende opstandinge. 32 Bestraft Petrum, die hem van het lijden afriedt. 34 vermaent sijne navolgers haer kruys op haer te nemen, haer selven te versaken, ende door geene vreese haer sijns ende sijner leere te schamen.",
+    "modernized": "1 Christus spijzigt vierduizend mannen met zeven broden, en weinige visjes. 11 Weigert de Farizeeën een teken uit de hemel. 14 Waarschuwt zijn discipelen voor het zuurdesem van de Farizeeën en van Herodes. 22 Geeft een blinde het gezicht terug. 27 Verschillende meningen van de Joden over Christus, en de belijdenis van Petrus, dat hij de Christus was. 31 Voorzegt zijn lijden, dood, en opstanding. 32 Bestraft Petrus, die hem van het lijden afried. 34 Vermaant zijn volgelingen hun kruis op zich te nemen, zichzelf te verloochenen, en zich door geen vrees over hem en zijn leer te schamen.",
+    "generated_at": "2026-05-16T20:23:30.624808Z",
+    "model": "claude-opus-4-7[1m]"
+  },
+  "verses": [
+    {
+      "verse_number": 1,
+      "original": "$Matth. 15.32.$ IN deselve <D. ontrent deselve tijt. Hebr.> dagen, als daer een geheel groote schare was, ende niet en hadden wat sy eten souden, riep Iesus sijne discipelen tot hem, ende seyde tot haer,",
+      "modernized": "$Mt. 15:32$ In diezelfde <Dat is, omtrent diezelfde tijd. Hebr.> dagen, toen er een geheel grote schare was, en zij niets hadden om te eten, riep Jezus zijn discipelen tot zich, en zei tot hen:",
+      "source_text": "Ἐν ἐκείναις ταῖς ἡμέραις, παμπόλλου ὄχλου ὄντος, καὶ μὴ ἐχόντων τί φάγωσι, προσκαλεσάμενος ὁ Ἰησοῦς τοὺς μαθητὰς αὐτοῦ λέγει αὐτοῖς,",
+      "generated_at": "2026-05-16T20:23:12.976706Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "subject": "Hebr.",
+          "context": "kanttekening 1",
+          "choice": "letterlijk laten staan",
+          "alternatives": [
+            "weglaten",
+            "vertalen"
+          ],
+          "reason": "Hebr. staat hier midden in de kanttekening als Hebraisme-marker, geen vertaalglosse (zie KANTTEKENINGEN.md)."
+        }
+      ]
+    },
+    {
+      "verse_number": 2,
+      "original": "Ick worde <Ofte, van herten, hertelick.> innerlick met ontferminge beweeght over de schare, want sy nu <In de heete Oostersche landen konden de menschen den honger langer verdragen, als men in dese landen kan doen.> drie dagen by my gebleven zijn, ende en hebben niet wat sy eten souden.",
+      "modernized": "Ik word <Of, van harten, hartelijk.> innerlijk met ontferming bewogen over de schare, want zij zijn nu <In de hete Oosterse landen konden de mensen de honger langer verdragen, dan men in deze landen kan doen.> drie dagen bij mij gebleven, en hebben niets om te eten.",
+      "source_text": "Σπλαγχνίζομαι ἐπὶ τὸν ὄχλον· ὅτι ἤδη ἡμέρας τρεῖς προσμένουσί μοι, καὶ οὐκ ἔχουσι τί φάγωσι·",
+      "generated_at": "2026-05-16T20:23:58.470556Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 3,
+      "original": "Ende indien ickse <D. sonder eten.> nuchteren na haer huys late gaen, soo sullen sy op den wegh beswijcken: want sommige van haer komen van verre.",
+      "modernized": "En als ik hen <Dat is, zonder eten.> nuchter naar hun huis laat gaan, dan zullen zij onderweg bezwijken; want sommigen van hen komen van ver.",
+      "source_text": "καὶ ἐὰν ἀπολύσω αὐτοὺς νήστεις εἰς οἶκον αὐτῶν, ἐκλυθήσονται ἐν τῇ ὁδῷ· τινὲς γὰρ αὐτῶν μακρόθεν ἥκουσι.",
+      "generated_at": "2026-05-16T20:24:16.496071Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    }
+  ]
+}
