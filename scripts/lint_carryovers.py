@@ -558,6 +558,7 @@ STOPLIST: frozenset[str] = frozenset({
     # LUK 3:37-38 carry-overs (legitiem)
     "adam", "enos",  # eigennamen geslachtsregister
     "geschapen",  # past participle van 'scheppen' — gewoon modern NL
+    "schapen",  # mv van 'schaap' — gewoon modern NL (MRK 4:11)
     # LUK 5:1-3 carry-overs (legitiem)
     "schepen", "schip",  # gewoon modern NL — visserstaal
     "netten",  # mv 'net' — gewoon modern NL
