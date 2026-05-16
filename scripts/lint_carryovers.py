@@ -1077,6 +1077,9 @@ STOPLIST: frozenset[str] = frozenset({
     "sponden",        # zelfst.nw. mv. 'spond' (bedrand) — gewoon (formeel-)modern NL (v4, kanttekening)
     "wandelen",       # ww. infinitief — gewoon modern NL; in kanttekening v5 als gloss 'leven' uitgelegd, in hoofdtekst behouden (Hebraïsme)
     "xestes",         # Griekse transliteratie (ξέστης) — eigennaam-achtig (v4, kanttekening)
+    # MRK 7:10-12 carry-overs (legitiem)
+    "gave",           # zelfst.nw. 'gave' = geschenk/offergave — gewoon modern NL (v11, 'Korban (dat is een gave)'); SV-glosse op κορβᾶν/δῶρον
+    "voldoet",        # tegenw. tijd 3e p. 'voldoen' — gewoon modern NL (v11, '[daarmee voldoet hij]'; SV-toevoeging in [...])
 })
 
 
