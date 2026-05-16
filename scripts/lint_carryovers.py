@@ -215,7 +215,7 @@ STOPLIST: frozenset[str] = frozenset({
     "tegen", "tegenover", "zonder", "binnen", "buiten", "langs",
     "door", "samen", "alleen", "even", "graag", "eerst", "later",
     "hier", "daar", "ergens", "nergens", "overal",
-    "soms", "altijd", "nooit", "weer", "ooit", "steeds", "vaak",
+    "soms", "altijd", "nooit", "weer", "wederom", "ooit", "steeds", "vaak",
     # Demonstratief/relatief
     "welk", "welke", "wiens", "diens", "wier",
     # Frequente werkwoorden in beide vormen herkenbaar

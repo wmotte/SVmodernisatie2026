@@ -131,7 +131,7 @@ SPELLING_EQUIV = {
     "Aaron": ["Aäron", "Aaron"],
     "Aarons": ["Aärons", "Aäron", "Aarons"],
     "Cainan": ["Kenan", "Kainan"],
-    "Capernaum": ["Kafarnaüm", "Kapernaüm"],
+    "Capernaum": ["Kafarnaüm", "Kapernaüm", "Kapernaum"],
     "Keyser": ["Keizer"],
     "Keysers": ["Keizers", "Keizer"],
     "Salighmaker": ["Zaligmaker"],
