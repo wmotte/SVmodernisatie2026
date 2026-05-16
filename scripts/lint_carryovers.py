@@ -1080,6 +1080,8 @@ STOPLIST: frozenset[str] = frozenset({
     # MRK 7:10-12 carry-overs (legitiem)
     "gave",           # zelfst.nw. 'gave' = geschenk/offergave — gewoon modern NL (v11, 'Korban (dat is een gave)'); SV-glosse op κορβᾶν/δῶρον
     "voldoet",        # tegenw. tijd 3e p. 'voldoen' — gewoon modern NL (v11, '[daarmee voldoet hij]'; SV-toevoeging in [...])
+    # MRK 7:13 carry-overs (legitiem)
+    "krachteloos",    # bnw — gewoon modern NL ('Gods woord krachteloos maken'); productief in modern Nederlands
 })
 
 
