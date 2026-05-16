@@ -221,7 +221,7 @@ STOPLIST: frozenset[str] = frozenset({
     # Frequente werkwoorden in beide vormen herkenbaar
     "menen", "zeggen", "zegt", "spreken", "sprak", "spraken", "gesproken",
     "horen", "gehoord", "zien", "gezien", "gaan", "gegaan",
-    "komen", "gekomen", "blijven", "bleef", "gebleven",
+    "komen", "gekomen", "afgekomen", "blijven", "bleef", "gebleven",
     "geven", "gegeven", "gaven", "nemen", "neemt", "genomen", "maken", "gemaakt",
     "eten", "gegeten", "at", "aten",
     "synagoge", "synagogen",
