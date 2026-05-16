@@ -1051,6 +1051,9 @@ STOPLIST: frozenset[str] = frozenset({
     "voordoet",       # 3e p. enk. 'zich voordoen' — gewoon modern NL (v29, 'als de vrucht [zich] voordoet')
     "voortkomen",     # ww. — gewoon modern NL (kanttekening v28, 'uit het voortkomen van de vruchten')
     "wasdom",         # zelfst.nw. — bijbels en in modern NL nog gangbaar (kanttekening v28, 'zijn wasdom krijgt')
+    # MRK 4:31-32 carry-over — gewone moderne NL woorden
+    "zaden",          # mv. van 'zaad' — gewoon modern NL (v31, 'het kleinste van alle zaden')
+    "nestelen",       # ww. infinitief — gewoon modern NL (v32, 'de vogels kunnen nestelen'); vgl. STOPLIST 'nestelden'
 })
 
 
