@@ -208,6 +208,39 @@
       "generated_at": "2026-05-16T14:52:45.307619Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 22,
+      "original": "$Matth. 9.17.$ Ende niemant en doet nieuwen wijn in oude [leder-]sacken: anders de nieuwe wijn doet de [leder-]sacken <Of, scheuren.> bersten, ende de wijn wort uytgestort, ende de [leder-]sacken <Ofte, gaen verloren.> verderven: maer nieuwen wijn moet men in nieuwe [leder-]sacken doen.",
+      "modernized": "$Mt. 9:17$ En niemand doet nieuwe wijn in oude [leren] zakken; anders doet de nieuwe wijn de [leren] zakken <Of: scheuren.> barsten, en de wijn wordt uitgestort, en de [leren] zakken <Of: gaan verloren.> verloren gaan; maar nieuwe wijn moet men in nieuwe [leren] zakken doen.",
+      "source_text": "καὶ οὐδεὶς βάλλει οἶνον νέον εἰς ἀσκοὺς παλαιούς· εἰ δὲ μή, ῥήσσει ὁ οἶνος ὁ νέος τοὺς ἀσκούς, καὶ ὁ οἶνος ἐκχεῖται καὶ οἱ ἀσκοὶ ἀπολοῦνται· ἀλλὰ οἶνον νέον εἰς ἀσκοὺς καινοὺς βλητέον.",
+      "generated_at": "2026-05-16T14:58:49.382783Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "reason": "semantic-review: 'bederven' → 'verloren gaan' (concordantie + lexicaal). Gr. ἀπολοῦνται = 'verloren gaan'. Modern NL 'bederven' voor lerenzakken die barsten is awkward. Concordantie-parallel LUK 5:37 (zelfde Grieks, zelfde SV 'verderven') is gemoderniseerd als 'verloren gaan'. SV-kanttekening flagt al 'Ofte, gaen verloren' als alternatief. HSV-spiegel bevestigt."
+        }
+      ]
+    },
+    {
+      "verse_number": 23,
+      "original": "$Matth. 12.1. Luce 6.1. Deuter. 23.25.$ Ende het geschiedde, dat hy op eenen <Gr. Sabbathen.> Sabbathdagh <Siet hier van oock de verklaringe in de aenteeckeninge op Matth. 12.1.> door het gezaeyde gingh, ende sijne discipelen begonsten <Gr. te gaen aren pluckende.> al gaende aren te plucken.",
+      "modernized": "$Mt. 12:1; Lk. 6:1; Dt. 23:25$ En het gebeurde dat hij op een <Grieks: Sabbatten.> Sabbatdag <Zie hiervan ook de verklaring in de aantekening op $Mt. 12:1$.> door het gezaaide ging, en zijn discipelen begonnen <Grieks: te gaan aren plukken.> al gaande aren te plukken.",
+      "source_text": "Καὶ ἐγένετο παραπορεύεσθαι αὐτὸν ἐν τοῖς σάββασι διὰ τῶν σπορίμων, καὶ ἤρξαντο οἱ μαθηταὶ αὐτοῦ ὁδὸν ποιεῖν τίλλοντες τοὺς στάχυας.",
+      "generated_at": "2026-05-16T14:59:15.662605Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 24,
+      "original": "Ende de Pharizeen seyden tot hem, Siet, waerom doen sy op den <Gr. Sabbathen.> Sabbathdag $Exod. 20.10.$ dat niet geoorloft en is?",
+      "modernized": "En de Farizeeën zeiden tot hem: Zie, waarom doen zij op de <Grieks: Sabbatten.> Sabbatdag $Ex. 20:10$ dat wat niet geoorloofd is?",
+      "source_text": "καὶ οἱ Φαρισαῖοι ἔλεγον αὐτῷ, Ἴδε, τί ποιοῦσιν ἐν τοῖς σάββασιν ὃ οὐκ ἔξεστι;",
+      "generated_at": "2026-05-16T14:59:34.916760Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
