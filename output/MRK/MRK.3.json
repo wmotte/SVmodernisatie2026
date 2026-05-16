@@ -142,6 +142,33 @@
       "generated_at": "2026-05-16T16:06:16.366317Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 16,
+      "original": "Ende <Sommige hebben, namelick, Simon, dien hy den toenaem gaf van Petrus.> Simoni gaf hy den [toe-]naem <Dat is, steen, Ioan. 1.43. De reden hier van wort verklaert Matth. 16. vers 18.> Petrus.",
+      "modernized": "En <Sommigen hebben: namelijk, Simon, aan wie hij de bijnaam Petrus gaf.> Simon gaf hij de [bij]naam <Dat is, steen, $Jh. 1:43$. De reden hiervan wordt verklaard $Mt. 16:18$.> Petrus.",
+      "source_text": "καὶ ἐπέθηκε τῷ Σίμωνι ὄνομα Πέτρον·",
+      "generated_at": "2026-05-16T16:10:22.606906Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 17,
+      "original": "Ende Iacobum den [sone] Zebedei, ende Ioannem den broeder Iacobi, ende gaf haer [toe]namen <Dit is een gebroken Hebreeusch ofte Syrisch woort, beteeckenende, gelijck hier verklaert wort, sonen des donders: ende wort haer desen name gegeven van wegen haren bysonderen yver ende doordringende kracht in ’t prediken, gelijck men noch sien kan in de schriften Ioannis.> Boanerges, het welck is, sonen des donders.",
+      "modernized": "En Jakobus, de [zoon] van Zebedeüs, en Johannes, de broer van Jakobus; en hij gaf hun de [bij]namen <Dit is een gebroken Hebreeuws of Syrisch woord, dat betekent, zoals hier verklaard wordt, zonen van de donder: en hun is deze naam gegeven vanwege hun bijzondere ijver en doordringende kracht in het prediken, zoals men nog zien kan in de geschriften van Johannes.> Boanerges, hetwelk is, zonen van de donder.",
+      "source_text": "καὶ Ἰάκωβον τὸν τοῦ Ζεβεδαίου, καὶ Ἰωάννην τὸν ἀδελφὸν τοῦ Ἰακώβου· καὶ ἐπέθηκεν αὐτοῖς ὀνόματα Βοανεργές, ὅ ἐστιν, Υἱοὶ βροντῆς·",
+      "generated_at": "2026-05-16T16:10:58.031971Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 18,
+      "original": "Ende Andream ende Philippum, ende Bartholomeum, ende Mattheum, ende Thomam, ende Iacobum, den [sone] Alphei, ende <Anders genaemt Lebbeus. siet Matth. 10.3.> Thaddeum, ende Simonem <Siet Matth. 10. vers 4. gelijck oock van de andere.> Cananiten:",
+      "modernized": "En Andreas en Filippus, en Bartolomeüs, en Matteüs, en Tomas, en Jakobus, de [zoon] van Alfeüs, en <Anders genaamd Lebbeüs. Zie $Mt. 10:3$.> Taddeüs, en Simon <Zie $Mt. 10:4$, zoals ook van de anderen.> de Kananeeër:",
+      "source_text": "καὶ Ἀνδρέαν, καὶ Φίλιππον, καὶ Βαρθολομαῖον, καὶ Ματθαῖον, καὶ Θωμᾶν, καὶ Ἰάκωβον τὸν τοῦ Ἀλφαίου, καὶ Θαδδαῖον, καὶ Σίμωνα τὸν Κανανίτην,",
+      "generated_at": "2026-05-16T16:11:47.018124Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
