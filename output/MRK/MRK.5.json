@@ -223,6 +223,33 @@
       "generated_at": "2026-05-16T20:10:17.179563Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 25,
+      "original": "$Levit. 15.25. Matth. 9.20. Luce 8.43.$ Ende een seker vrouwe, die twaelf jaren den vloet des bloets gehadt hadde,",
+      "modernized": "$Lv. 15:25; Mt. 9:20; Lk. 8:43$ En een zekere vrouw, die twaalf jaar lang de vloed van het bloed had gehad,",
+      "source_text": "Καὶ γυνή τις οὖσα ἐν ῥύσει αἵματος ἔτη δώδεκα,",
+      "generated_at": "2026-05-16T20:25:48.544564Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 26,
+      "original": "Ende veel geleden hadde van vele medicijnmeesters, ende alle het hare [daer aen] te koste geleyt, ende geen bate gevonden hadde, maer met welcke het veel eer erger geworden was.",
+      "modernized": "En veel had geleden van vele medicijnmeesters, en al het hare [daaraan] te koste had gelegd, en geen baat had gevonden, maar bij wie het veeleer erger geworden was.",
+      "source_text": "καὶ πολλὰ παθοῦσα ὑπὸ πολλῶν ἰατρῶν, καὶ δαπανήσασα τὰ παρ’ ἑαυτῆς πάντα, καὶ μηδὲν ὠφεληθεῖσα, ἀλλὰ μᾶλλον εἰς τὸ χεῖρον ἐλθοῦσα,",
+      "generated_at": "2026-05-16T20:26:08.348605Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 27,
+      "original": "[Dese] van Iesu hoorende, quam onder de schare van achteren, ende raeckte sijn kleet aen.",
+      "modernized": "[Deze] had van Jezus gehoord, kwam onder de schare van achteren, en raakte zijn kleed aan.",
+      "source_text": "ἀκούσασα περὶ τοῦ Ἰησοῦ, ἐλθοῦσα ἐν τῷ ὄχλῳ ὄπισθεν, ἥψατο τοῦ ἱματίου αὐτοῦ·",
+      "generated_at": "2026-05-16T20:26:24.964967Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
