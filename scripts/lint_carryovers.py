@@ -1043,6 +1043,9 @@ STOPLIST: frozenset[str] = frozenset({
     # MRK 4:24 carry-over — gewone moderne NL woorden
     "gemeten",        # volt. deelw. van 'meten' — gewoon modern NL ('met welke maat u meet, zal u gemeten worden')
     "vermeerderen",   # ww. — gewoon modern NL (kanttekening v24, 'zal de Heere u die ook vermeerderen')
+    # MRK 4:27 carry-over — gewone moderne NL woorden
+    "voorts",         # SV-toevoeging in [voorts] — bracket-marker behouden; 'voorts' is bovendien productief modern NL bijwoord
+    "opgeschoten",    # volt. deelw. — gewoon modern NL (kanttekening v27, 'groot of hoog opgeschoten')
 })
 
 
