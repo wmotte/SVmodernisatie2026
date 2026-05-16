@@ -1040,6 +1040,9 @@ STOPLIST: frozenset[str] = frozenset({
     "syrisch",        # taal-/volkbnw. — gewoon modern NL (v17, kanttekening 'Hebreeuws of Syrisch woord')
     # MRK 4:19 carry-over (legitiem in kanttekening)
     "wellusten",      # mv. van 'wellust' — modern NL literair/theologisch (vgl. LUK 8:14 'wellust')
+    # MRK 4:24 carry-over — gewone moderne NL woorden
+    "gemeten",        # volt. deelw. van 'meten' — gewoon modern NL ('met welke maat u meet, zal u gemeten worden')
+    "vermeerderen",   # ww. — gewoon modern NL (kanttekening v24, 'zal de Heere u die ook vermeerderen')
 })
 
 
