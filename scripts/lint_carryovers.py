@@ -1046,6 +1046,11 @@ STOPLIST: frozenset[str] = frozenset({
     # MRK 4:27 carry-over — gewone moderne NL woorden
     "voorts",         # SV-toevoeging in [voorts] — bracket-marker behouden; 'voorts' is bovendien productief modern NL bijwoord
     "opgeschoten",    # volt. deelw. — gewoon modern NL (kanttekening v27, 'groot of hoog opgeschoten')
+    # MRK 4:28-29 carry-over — gewone moderne NL woorden
+    "volle",          # bnw. 'vol' — gewoon modern NL ('het volle koren in de aar', v28)
+    "voordoet",       # 3e p. enk. 'zich voordoen' — gewoon modern NL (v29, 'als de vrucht [zich] voordoet')
+    "voortkomen",     # ww. — gewoon modern NL (kanttekening v28, 'uit het voortkomen van de vruchten')
+    "wasdom",         # zelfst.nw. — bijbels en in modern NL nog gangbaar (kanttekening v28, 'zijn wasdom krijgt')
 })
 
 
