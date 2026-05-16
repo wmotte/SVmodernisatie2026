@@ -61,6 +61,45 @@
       "generated_at": "2026-05-16T19:53:58.057695Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 7,
+      "original": "$Matth. 10.1. Luce 6.13. ende 9.1.$ Ende hy riep tot hem <Namel. die hy tot sijne Apostelen hadde verkoren, Cap. 3. vers 13.> de twaelve, ende begon haer uyt te senden twee en twee, ende gaf haer macht <Namelick, om deselve te konnen uytdrijven uyt de besetene.> over de onreyne geesten.",
+      "modernized": "$Mt. 10:1; Lk. 6:13; 9:1$ En hij riep tot zich <Namelijk die hij tot zijn Apostelen had verkoren, $Mk. 3:13$.> de twaalf, en begon hen uit te zenden twee aan twee, en gaf hun macht <Namelijk, om die te kunnen uitdrijven uit de bezetenen.> over de onreine geesten.",
+      "source_text": "Καὶ προσκαλεῖται τοὺς δώδεκα, καὶ ἤρξατο αὐτοὺς ἀποστέλλειν δύο δύο, καὶ ἐδίδου αὐτοῖς ἐξουσίαν τῶν πνευμάτων τῶν ἀκαθάρτων.",
+      "generated_at": "2026-05-16T19:59:11.827862Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 8,
+      "original": "Ende hy geboodt haer, dat sy niets en souden nemen tot den wegh, dan alleenlick <Namelick, om in ’t gaen op te steunen: maer geenen die u soude beswaren op den wegh, gelijck Matth. 10.10. te sien is.> eenen staf, geen male, geen broot, geen <Gr. koper, om dat eertijts het gelt van koper veel plach te wesen, ende kan daer door hier oock selfs de minste voorraet van geldt verstaen worden.> gelt in den gordel.",
+      "modernized": "En hij gebood hun, dat zij niets zouden meenemen voor onderweg dan alleen <Namelijk, om bij het gaan op te steunen: maar geen die u zou bezwaren op de weg, zoals in $Mt. 10:10$ te zien is.> een staf, geen reiszak, geen brood, geen <Grieks: koper, omdat vroeger het geld vaak van koper was, en daardoor hier ook zelfs de minste voorraad van geld verstaan kan worden.> geld in de gordel.",
+      "source_text": "καὶ παρήγγειλεν αὐτοῖς ἵνα μηδὲν αἴρωσιν εἰς ὁδόν, εἰ μὴ ῥάβδον μόνον· μὴ πήραν, μὴ ἄρτον, μὴ εἰς τὴν ζώνην χαλκόν·",
+      "generated_at": "2026-05-16T20:00:47.764981Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 9,
+      "original": "$Actor. 12.8.$ Maer datse <Gr. Sandalia, welcke waren lichte schoenen, bestaende alleen uyt solen met banden, om aen de voeten vast te maken, welcke in die heete landen seer gebruyckelick waren, Actor. 12.8.> schoensolen souden <Namelick, niet meer als een paer om te reysen: want meer schoenen op den wegh mede te nemen wort haer oock verboden, Matth. 10.10.> aenbinden, ende met <D. geen meer als ghy sult aen hebben, sonder noch eenen rock mede te dragen tot veranderinge.> geen twee rocken gekleet zijn.",
+      "modernized": "$Hand. 12:8$ Maar dat zij <Grieks: Sandalia, welke lichte schoenen waren, bestaande alleen uit zolen met banden, om aan de voeten vast te maken, die in die hete landen zeer gebruikelijk waren, $Hand. 12:8$.> schoensolen zouden <Namelijk, niet meer dan één paar om te reizen: want meer schoenen op de weg mee te nemen wordt hun ook verboden, $Mt. 10:10$.> aanbinden, en met <Dat is, niet meer dan u zult aanhebben, zonder nog een onderkleed mee te dragen om te wisselen.> geen twee onderkleren gekleed zijn.",
+      "source_text": "ἀλλ’ ὑποδεδεμένους σανδάλια· καὶ μὴ ἐνδύσασθαι δύο χιτῶνας.",
+      "generated_at": "2026-05-16T20:01:43.706831Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "schoensolen",
+          "context": "hoofdtekst + kanttekening 1",
+          "choice": "schoensolen behouden (SV-keuze) i.p.v. HSV-keus sandalen",
+          "alternatives": [
+            "sandalen"
+          ],
+          "reason": "renovatie geen hervertaling; de kanttekening van de SV verklaart Sandalia uitdrukkelijk via schoensolen — vervangen door sandalen maakt de kanttekening tautologisch"
+        }
+      ]
     }
   ]
 }
