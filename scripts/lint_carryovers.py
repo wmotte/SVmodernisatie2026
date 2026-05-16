@@ -1038,6 +1038,8 @@ STOPLIST: frozenset[str] = frozenset({
     "gebroken",       # volt. deelw. van 'breken' als bnw. — gewoon modern NL (v17, kanttekening 'een gebroken Hebreeuws of Syrisch woord'); productief
     "doordringende",  # teg. deelw. als bnw. — gewoon modern NL (v17, kanttekening 'doordringende kracht'); productief in modern register
     "syrisch",        # taal-/volkbnw. — gewoon modern NL (v17, kanttekening 'Hebreeuws of Syrisch woord')
+    # MRK 4:19 carry-over (legitiem in kanttekening)
+    "wellusten",      # mv. van 'wellust' — modern NL literair/theologisch (vgl. LUK 8:14 'wellust')
 })
 
 
