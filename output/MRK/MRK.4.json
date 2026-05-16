@@ -88,6 +88,45 @@
       "generated_at": "2026-05-16T17:29:57.277202Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 10,
+      "original": "$Matth. 13.10. Luce 8.9.$ Ende als hy nu alleen was, de gene <Gelijck daer waren de gene, uyt dewelcke hy sijne seventigh discipelen genomen heeft.> die ontrent hem [waren,] met de twaelve, vraeghden hem na de gelijckenisse.",
+      "modernized": "$Mt. 13:10; Lk. 8:9$ En toen hij nu alleen was, vroegen degenen <Zoals daar waren degenen uit wie hij zijn zeventig discipelen genomen heeft.> die om hem heen [waren,] met de twaalf, hem naar de gelijkenis.",
+      "source_text": "Ὅτε δὲ ἐγένετο καταμόνας, ἠρώτησαν αὐτὸν οἱ περὶ αὐτὸν σὺν τοῖς δώδεκα τὴν παραβολήν.",
+      "generated_at": "2026-05-16T17:44:42.364910Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 11,
+      "original": "Ende hy seyde tot haer, $Matth. 11.25. 2 Corinth. 2.14.$ Het is u gegeven <Namel. klaerlick ende duydelick.> te verstaen de verborgentheyt des Koninckrijcks Godts: $2.Corinth. 3.14.$ maer den genen <Namelick, die buyten het getal van mijne schapen zijn, ofte die geen rechte leden der gemeynte en zijn, Ioan. 10.26. Rom. 9.6, 7, 8.> die buyten zijn, geschieden alle dese dingen door gelijckenissen.",
+      "modernized": "En hij zei tot hen: $Mt. 11:25; 2Kor. 2:14$ Het is u gegeven <Namelijk, klaar en duidelijk.> te verstaan de verborgenheid van het Koninkrijk Gods; $2Kor. 3:14$ maar voor degenen <Namelijk, die buiten het getal van mijn schapen zijn, of die geen ware leden van de gemeente zijn, $Jh. 10:26; Rm. 9:6,7,8$.> die buiten zijn, gebeuren al deze dingen door gelijkenissen.",
+      "source_text": "καὶ ἔλεγεν αὐτοῖς, Ὑμῖν δέδοται γνῶναι τὸ μυστήριον τῆς βασιλείας τοῦ Θεοῦ· ἐκείνοις δὲ τοῖς ἔξω, ἐν παραβολαῖς τὰ πάντα γίνεται·",
+      "generated_at": "2026-05-16T17:45:49.504469Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 12,
+      "original": "$Iesai. 6.9. Matth. 13.14. Luce 8.10. Ioan. 12.40. Actor. 28.26. Rom. 11.8.$ <Met dese woorden, genomen uyt Iesa. 6.9. wort verklaert het oordeel Godts over de gene die den Euangelio ongehoorsaem zijn. siet Matth. 13.14. ende 2.Thessal. 2. versen 11, 12.> Op dat sy siende sien, ende niet en bemercken: ende hoorende hooren, ende niet en verstaen: op dat sy haer niet t’eeniger tijt en bekeeren, ende haer de sonden vergeven worden.",
+      "modernized": "$Js. 6:9; Mt. 13:14; Lk. 8:10; Jh. 12:40; Hd. 28:26; Rm. 11:8$ <Met deze woorden, genomen uit $Js. 6:9$, wordt het oordeel Gods verklaard over degenen die het Evangelie ongehoorzaam zijn. Zie $Mt. 13:14$ en $2 Th. 2:11,12$.> opdat zij wel zien, maar niet bemerken; en wel horen, maar niet verstaan; opdat zij zich niet te eniger tijd bekeren en hun de zonden vergeven worden.",
+      "source_text": "ἵνα βλέποντες βλέπωσι, καὶ μὴ ἴδωσι· καὶ ἀκούοντες ἀκούωσι, καὶ μὴ συνιῶσι· μήποτε ἐπιστρέψωσι, καὶ ἀφεθῇ αὐτοῖς τὰ ἁμαρτήματα.",
+      "generated_at": "2026-05-16T17:47:10.604548Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "figura etymologica ziende-zien/horende-horen",
+          "context": "hoofdtekst",
+          "choice": "opdat zij wel zien, maar niet bemerken; en wel horen, maar niet verstaan",
+          "alternatives": [
+            "opdat zij ziende zien en niet bemerken, en horende horen en niet verstaan"
+          ],
+          "reason": "§2.3 verbiedt finiet tegenwoordig participium (ziende/horende) in moderne hoofdtekst; ontvouwd naar wel...maar-constructie die de adversatieve kracht van de Hebraïsche figura etymologica behoudt."
+        }
+      ]
     }
   ]
 }
