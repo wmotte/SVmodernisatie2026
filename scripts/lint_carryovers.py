@@ -562,6 +562,8 @@ STOPLIST: frozenset[str] = frozenset({
     "schapen",  # mv van 'schaap' — gewoon modern NL (MRK 4:11)
     # LUK 5:1-3 carry-overs (legitiem)
     "schepen", "schip",  # gewoon modern NL — visserstaal
+    "achterschip",  # gewoon modern NL — nautische term (MRK 4:38)
+    "oorkussen",  # gewoon modern NL — Van Dale, conservatieve register-keuze (MRK 4:38)
     "netten",  # mv 'net' — gewoon modern NL
     "oever",  # gewoon modern NL
     "schare",  # mv 'scharen' staat al op stoplist; enkelvoud nu ook (bewust register-behoud)
