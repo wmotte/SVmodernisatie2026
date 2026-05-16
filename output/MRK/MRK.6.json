@@ -174,7 +174,9 @@
           "subject": "Vierkante haken-inhoud",
           "context": "[eenige] uytgesonden hebbende",
           "choice": "[enkelen]",
-          "alternatives": ["[enkele dienaren] (voegt 'dienaren' toe — niet in SV1657-haken; HSV-spiegel: '[enigen]')"],
+          "alternatives": [
+            "[enkele dienaren] (voegt 'dienaren' toe — niet in SV1657-haken; HSV-spiegel: '[enigen]')"
+          ],
           "reason": "SV1657-haken bevatten alleen het pronomen [eenige]; 'dienaren' invullen is exegese in de hoofdtekst (MODERNISATIE.md §3.4/§3.5). HSV bevestigt met [enigen]."
         }
       ],
@@ -203,6 +205,33 @@
           "reason": "Validator vereist chapter:verse-formaat; Lv. 18:16 is de specifieke verbodsbepaling op de vrouw van een broer waar SV1657 met de algemene verwijzing naar Lv. 18 op doelt."
         }
       ]
+    },
+    {
+      "verse_number": 19,
+      "original": "Ende Herodias leyde op hem toe, ende wilde hem dooden, ende en konde niet.",
+      "modernized": "En Herodias had het op hem gemunt, en wilde hem doden, en kon het niet.",
+      "source_text": "ἡ δὲ Ἡρωδιὰς ἐνεῖχεν αὐτῷ, καὶ ἤθελεν αὐτὸν ἀποκτεῖναι· καὶ οὐκ ἠδύνατο·",
+      "generated_at": "2026-05-16T20:46:17.073053Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 20,
+      "original": "Want Herodes vreesde Ioannem, wetende dat hy een $Matth. 14.5. ende 21.26.$ rechtveerdigh ende heyligh man was, ende <Ofte, bewaerde hem.> hielt hem in weerde: ende als hy hem hoorde, dede hy vele dingen, ende <Namel. in het eerste: want daer na opgemaeckt zijnde door Herodias socht hy hem te dooden, hoewel hy sulcks liet uyt vreese des volcks, tot dat dese gelegentheyt voor quam, Matth. 14.5.> hoorde hem geerne.",
+      "modernized": "Want Herodes vreesde Johannes, omdat hij wist dat hij een $Mt. 14:5; 21:26$ rechtvaardig en heilig man was, en <Of, beschermde hem.> hield hem in ere: en als hij hem hoorde, deed hij vele dingen, en <Namelijk in het begin: want toen hij daarna door Herodias was opgestookt, zocht hij hem te doden, hoewel hij dit naliet uit vrees voor het volk, totdat deze gelegenheid zich voordeed, $Mt. 14:5$.> hoorde hem graag.",
+      "source_text": "ὁ γὰρ Ἡρώδης ἐφοβεῖτο τὸν Ἰωάννην, εἰδὼς αὐτὸν ἄνδρα δίκαιον καὶ ἅγιον, καὶ συνετήρει αὐτόν· καὶ ἀκούσας αὐτοῦ, πολλὰ ἐποίει, καὶ ἡδέως αὐτοῦ ἤκουε.",
+      "generated_at": "2026-05-16T20:47:41.766827Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 21,
+      "original": "Ende als’er <D. bequame tijt: daer Herodias op toeleyde, om tot haer voornemen te komen.> een welgelegen dagh gekomen was, doe Herodes $Genes. 40.20. Matth. 14.6.$ op den dagh sijner geboorte een maeltijt aenrichtede voor sijne Groote, ende de Overste over duysent, ende de voornaemste van Galilea:",
+      "modernized": "En toen er <Dat is, een geschikte tijd, waar Herodias het op gemunt had, om tot haar voornemen te komen.> een gunstige dag gekomen was, toen Herodes $Gn. 40:20; Mt. 14:6$ op de dag van zijn geboorte een maaltijd aanrichtte voor zijn Groten, en de Oversten over duizend, en de voornaamsten van Galilea:",
+      "source_text": "καὶ γενομένης ἡμέρας εὐκαίρου, ὅτε Ἡρώδης τοῖς γενεσίοις αὐτοῦ δεῖπνον ἐποίει τοῖς μεγιστᾶσιν αὐτοῦ καὶ τοῖς χιλιάρχοις καὶ τοῖς πρώτοις τῆς Γαλιλαίας,",
+      "generated_at": "2026-05-16T20:49:21.558914Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
