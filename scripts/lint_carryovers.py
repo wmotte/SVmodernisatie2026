@@ -1056,6 +1056,24 @@ STOPLIST: frozenset[str] = frozenset({
     # MRK 4:31-32 carry-over — gewone moderne NL woorden
     "zaden",          # mv. van 'zaad' — gewoon modern NL (v31, 'het kleinste van alle zaden')
     "nestelen",       # ww. infinitief — gewoon modern NL (v32, 'de vogels kunnen nestelen'); vgl. STOPLIST 'nestelden'
+    # MRK 7:1-3 carry-overs (legitiem)
+    "berispten",      # verleden tijd mv. 'berispen' — gewoon modern NL (v2, 'berispten zij hen'); vgl. 'berispen' productief in modern register
+    "meenden",        # verleden tijd mv. 'menen' — gewoon modern NL (v2, kanttekening 'de Farizeeën meenden')
+    "plachten",       # verleden tijd mv. 'plegen' (idiomatisch 'plachten te ...') — gewoon (formeel-)modern NL (v3, kanttekening 'plachten te wrijven')
+    "schoon",         # bnw. — gewoon modern NL (v3, kanttekening 'goed schoon willen wassen')
+    "vasthoudende",   # Grieks-literale gloss-participium κρατοῦντες — bewust behouden in <Grieks: vasthoudende de overlevering.> (v3); vgl. STOPLIST 'wrijvende'
+    "wrijven",        # ww. infinitief — gewoon modern NL (v3, kanttekening 'plachten te wrijven')
+    # MRK 7:4-6 carry-overs (legitiem)
+    "bedden",         # zelfst.nw. mv. 'bed' — gewoon modern NL (v4, 'en bedden')
+    "bedsteden",      # zelfst.nw. mv. — gewoon modern NL (v4, kanttekening 'de bedsteden')
+    "congius",        # Romeinse maat-naam — eigennaam-achtig, transliteratie (v4, kanttekening)
+    "handelden",      # verleden tijd mv. 'handelen' (omgaan met) — gewoon modern NL (v4, kanttekening)
+    "houdt",          # tegenw. tijd 3e p. 'houden' — gewoon modern NL (v6, 'houdt zich verre van mij')
+    "kannen",         # zelfst.nw. mv. 'kan' — gewoon modern NL (v4, 'en kannen')
+    "lippen",         # zelfst.nw. mv. 'lip' — gewoon modern NL (v6, 'eert mij met de lippen')
+    "sponden",        # zelfst.nw. mv. 'spond' (bedrand) — gewoon (formeel-)modern NL (v4, kanttekening)
+    "wandelen",       # ww. infinitief — gewoon modern NL; in kanttekening v5 als gloss 'leven' uitgelegd, in hoofdtekst behouden (Hebraïsme)
+    "xestes",         # Griekse transliteratie (ξέστης) — eigennaam-achtig (v4, kanttekening)
 })
 
 
