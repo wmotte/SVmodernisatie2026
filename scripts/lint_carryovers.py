@@ -272,7 +272,8 @@ STOPLIST: frozenset[str] = frozenset({
     "licht", "lichten", "duisternis", "heerlijkheid",
     "liefde", "genade", "barmhartigheid", "rechtvaardig", "rechtvaardige",
     "priester", "priesters", "hogepriester", "voorhof", "voorhoven",
-    "dienst", "diensten", "gewoonte", "loten", "lot",
+    "dienst", "diensten", "dienste",  # 'ten dienste staan' — vast modern idioom (MRK 3:20)
+    "gewoonte", "loten", "lot",
     "baren", "morgens", "altaar", "reukwerk", "reukoffer",
     "wijn", "drank", "moederschoot", "behouden",
     "gebed", "gebeden", "tijden", "roepen", "medicijnmeester",
@@ -1029,6 +1030,11 @@ STOPLIST: frozenset[str] = frozenset({
     # MRK 3:10 carry-overs (legitiem)
     "gebreken",       # mv. zelfst. nw. — gewoon modern NL (v10, kanttekening 'ziekten en gebreken'); productief in modern register
     "overvielen",     # ovt. mv. van 'overvallen' — gewoon modern NL (v10, hoofdtekst 'hem overvielen om hem te kunnen aanraken')
+    # MRK 3:17-18 carry-overs (legitiem)
+    "boanerges",      # eigennaam/transliteratie van Aramees/Hebreeuws — bewaard zoals SV (v17, hoofdtekst); brontekstwoord, geen Nederlands archaïsme
+    "gebroken",       # volt. deelw. van 'breken' als bnw. — gewoon modern NL (v17, kanttekening 'een gebroken Hebreeuws of Syrisch woord'); productief
+    "doordringende",  # teg. deelw. als bnw. — gewoon modern NL (v17, kanttekening 'doordringende kracht'); productief in modern register
+    "syrisch",        # taal-/volkbnw. — gewoon modern NL (v17, kanttekening 'Hebreeuws of Syrisch woord')
 })
 
 
