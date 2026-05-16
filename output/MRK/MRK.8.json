@@ -47,6 +47,33 @@
       "generated_at": "2026-05-16T20:24:16.496071Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 4,
+      "original": "<Van dit geheel mirakel siet oock Matth. 15.32.> Ende sijne discipelen antwoordden hem, Van waer sal yemant dese met brooden hier in de woestijne konnen verzadigen?",
+      "modernized": "<Over dit hele wonder zie ook $Mt. 15:32$.> En zijn discipelen antwoordden hem: Vanwaar zal iemand dezen met broden hier in de woestijn kunnen verzadigen?",
+      "source_text": "καὶ ἀπεκρίθησαν αὐτῷ οἱ μαθηταὶ αὐτοῦ, Πόθεν τούτους δυνήσεταί τις ὧδε χορτάσαι ἄρτων ἐπ’ ἐρημίας;",
+      "generated_at": "2026-05-16T20:50:06.296179Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 0
+    },
+    {
+      "verse_number": 5,
+      "original": "Ende hy vraeghde haer, Hoe veel brooden hebt ghy? Ende sy seyden, Seven.",
+      "modernized": "En hij vroeg hun: Hoeveel broden hebt u? En zij zeiden: Zeven.",
+      "source_text": "καὶ ἐπηρώτα αὐτούς, Πόσους ἔχετε ἄρτους; οἱ δὲ εἶπον, Ἑπτά.",
+      "generated_at": "2026-05-16T20:50:47.606601Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 1
+    },
+    {
+      "verse_number": 6,
+      "original": "Ende hy geboodt de schare <Gr. neder te vallen.> neder te sitten op d’aerde, ende hy nam de seven brooden, ende gedanckt hebbende brack hyse, ende gafse sijnen discipelen, op dat syse souden voorleggen, ende sy leydense de schare voor.",
+      "modernized": "En hij gebood de schare <Grieks: neer te vallen.> op de grond te gaan zitten, en hij nam de zeven broden, en nadat hij gedankt had brak hij ze, en gaf ze aan zijn discipelen, opdat zij ze zouden voorleggen, en zij legden ze de schare voor.",
+      "source_text": "καὶ παρήγγειλε τῷ ὄχλῳ ἀναπεσεῖν ἐπὶ τῆς γῆς· καὶ λαβὼν τοὺς ἑπτὰ ἄρτους, εὐχαριστήσας ἔκλασε καὶ ἐδίδου τοῖς μαθηταῖς αὐτοῦ, ἵνα παραθῶσι· καὶ παρέθηκαν τῷ ὄχλῳ.",
+      "generated_at": "2026-05-16T20:51:37.149277Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 1
     }
   ]
 }
