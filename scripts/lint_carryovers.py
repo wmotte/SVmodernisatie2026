@@ -1012,6 +1012,10 @@ STOPLIST: frozenset[str] = frozenset({
     "opende",         # verleden tijd 'openen' — gewoon modern NL (v45, 'opende hij hun verstand'); vgl. 'open' reeds op STOPLIST
     # LUK 24:53 carry-overs (legitiem)
     "amen",           # theologische term — één-op-één (v53, slotwoord van het evangelie)
+    # MRK 2:4 carry-overs (kanttekening over Krabbaton-bedje — legitiem)
+    "matras",         # zelfst. nw. — gewoon modern NL (v4, kanttekening 'zoals een matras')
+    "plat",           # bnw — gewoon modern NL (v4, kanttekening 'de daken waren bovenop plat')
+    "rusten",         # ww. — gewoon modern NL (v4, kanttekening 'placht op te rusten'); vgl 'rust' eventueel ook
 })
 
 
