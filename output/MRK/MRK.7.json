@@ -150,6 +150,49 @@
           "choice": "'die zijn het die de mens verontreinigen' (plural) gekozen om SV1657-plurale 'ontreynigen' en Gr. τὰ κοινοῦντα (plurale participium) te volgen; tijdens semantic-review gewijzigd vanuit 'dat zijn het wat de mens verontreinigt' (singular) na HSV-spiegelbevinding"
         }
       ]
+    },
+    {
+      "verse_number": 16,
+      "original": "<Siet Matth. 11. vers 15.> Soo yemant ooren heeft om te hooren, die hoore.",
+      "modernized": "<Zie $Mt. 11:15$.> Als iemand oren heeft om te horen, die hore.",
+      "source_text": "εἴ τις ἔχει ὦτα ἀκούειν ἀκουέτω.",
+      "generated_at": "2026-05-16T20:53:49.861447Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 17,
+      "original": "$Matth. 15.15.$ Ende doe hy van de schare in huys gekomen was, vraeghden hem sijne discipelen van de <Gr. Parabel, welck woort beteeckent niet alleen eene gelijckenisse, maer oock eene bysondere leeringe ofte spreucke.> gelijckenisse.",
+      "modernized": "$Mt. 15:15$ En toen hij van de schare in huis gekomen was, vroegen hem zijn discipelen naar de <Grieks: Parabel; welk woord betekent niet alleen een gelijkenis, maar ook een bijzondere leer of spreuk.> gelijkenis.",
+      "source_text": "καὶ ὅτε εἰσῆλθεν εἰς οἶκον ἀπὸ τοῦ ὄχλου, ἐπηρώτων αὐτὸν οἱ μαθηταὶ αὐτοῦ περὶ τῆς παραβολῆς.",
+      "generated_at": "2026-05-16T20:54:33.071254Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "preterite van 'vragen'",
+          "context": "hoofdtekst",
+          "choice": "'vraagden' → 'vroegen' (modern sterk-werkwoord preteritum); HSV-spiegel bevestigt; consistent met v.5 in dit hoofdstuk en MRK 4:10"
+        }
+      ]
+    },
+    {
+      "verse_number": 18,
+      "original": "Ende hy seyde tot haer, Zijt oock ghy alsoo onwetende? En verstaet ghy niet, dat al wat van buyten in den mensche ingaet, hem niet en kan ontreynigen?",
+      "modernized": "En hij zei tot hen: Bent ook u zo onwetend? Verstaat u niet, dat alles wat van buiten in de mens ingaat, hem niet kan verontreinigen?",
+      "source_text": "καὶ λέγει αὐτοῖς, Οὕτω καὶ ὑμεῖς ἀσύνετοί ἐστε; οὐ νοεῖτε ὅτι πᾶν τὸ ἔξωθεν εἰσπορευόμενον εἰς τὸν ἄνθρωπον οὐ δύναται αὐτὸν κοινῶσαι,",
+      "generated_at": "2026-05-16T20:55:27.036949Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "concordantie 'verstaen'",
+          "context": "hoofdtekst",
+          "choice": "'Begrijpt u niet' → 'Verstaat u niet' (concordantie met MRK 4:13 'gelijkenissen verstaan'; SV-verstaen consistent als verstaan gerendeerd)"
+        }
+      ]
     }
   ]
 }
