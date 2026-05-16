@@ -115,6 +115,41 @@
       "generated_at": "2026-05-16T20:37:52.420375Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 13,
+      "original": "$Matth. 15.6. 1.Timoth. 4.3. 2.Timoth. 3.2.$ <Gr. afkeurende, ofte, sijn aensien ende kracht benemende.> Makende [alsoo] Godts woort krachteloos door uwe insettinge, die ghy ingeset hebt, ende diergelijcke dingen doet ghy vele.",
+      "modernized": "$Mt. 15:6; 1Tm. 4:3; 2Tm. 3:2$ <Gr. afkeurend, of, zijn aanzien en kracht benemend.> [Zo] maakt u het woord van God krachteloos door uw inzetting die u ingesteld hebt; en vele dergelijke dingen doet u.",
+      "source_text": "ἀκυροῦντες τὸν λόγον τοῦ Θεοῦ τῇ παραδόσει ὑμῶν ᾗ παρεδώκατε· καὶ παρόμοια τοιαῦτα πολλὰ ποιεῖτε.",
+      "generated_at": "2026-05-16T20:44:35.162612Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 14,
+      "original": "$Matth. 15.10.$ Ende tot hem de gantsche schare geroepen hebbende, seyde hy tot haer, Hoort my alle ende verstaet:",
+      "modernized": "$Mt. 15:10$ En nadat hij de gehele schare tot zich geroepen had, zei hij tot hen: Luister allen naar mij en begrijp het:",
+      "source_text": "καὶ προσκαλεσάμενος πάντα τὸν ὄχλον, ἔλεγεν αὐτοῖς, Ἀκούετέ μου πάντες, καὶ συνίετε.",
+      "generated_at": "2026-05-16T20:45:11.733055Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 15,
+      "original": "$Actor. 10.15. Rom. 14.17, 20. Tit. 1.15.$ Daer en is <Nam. van spijse ofte dranck, matelick ende met dancksegginge gebruyckt zijnde, 1.Tim. 4.4.> niet van buyten den mensche in hem ingaende, ’t welck hem kan <Gr. gemeyn maken.> ontreynigen. Maer de dingen die van hem uytgaen, die zijn het welcke den mensche ontreynigen.",
+      "modernized": "$Hd. 10:15; Rm. 14:17,20; Tt. 1:15$ Er is <Namelijk, van spijs of drank, matig en met dankzegging gebruikt, $1Tm. 4:4$.> niets van buiten de mens dat in hem ingaat dat hem kan <Grieks: gemeen maken.> verontreinigen. Maar de dingen die van hem uitgaan, die zijn het die de mens verontreinigen.",
+      "source_text": "οὐδέν ἐστιν ἔξωθεν τοῦ ἀνθρώπου εἰσπορευόμενον εἰς αὐτόν, ὃ δύναται αὐτὸν κοινῶσαι· ἀλλὰ τὰ ἐκπορευόμενα ἀπ’ αὐτοῦ, ἐκεῖνά ἐστι τὰ κοινοῦντα τὸν ἄνθρωπον.",
+      "generated_at": "2026-05-16T20:46:05.507141Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "subject": "getal-congruentie slot",
+          "context": "hoofdtekst tweede helft",
+          "choice": "'die zijn het die de mens verontreinigen' (plural) gekozen om SV1657-plurale 'ontreynigen' en Gr. τὰ κοινοῦντα (plurale participium) te volgen; tijdens semantic-review gewijzigd vanuit 'dat zijn het wat de mens verontreinigt' (singular) na HSV-spiegelbevinding"
+        }
+      ]
     }
   ]
 }
