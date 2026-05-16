@@ -154,6 +154,55 @@
       "generated_at": "2026-05-16T20:30:11.105383Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 16,
+      "original": "Maer als het Herodes hoorde, seyde hy, Dese is Ioannes, dien ick onthooft hebbe: die is van de dooden opgeweckt.",
+      "modernized": "Maar toen Herodes het hoorde, zei hij, Deze is Johannes, die ik onthoofd heb: die is uit de doden opgewekt.",
+      "source_text": "ἀκούσας δὲ ὁ Ἡρώδης εἶπεν ὅτι Ὃν ἐγὼ ἀπεκεφάλισα Ἰωάννην, οὗτός ἐστιν· αὐτὸς ἠγέρθη ἐκ νεκρῶν.",
+      "generated_at": "2026-05-16T20:36:32.180487Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 17,
+      "original": "$Matth. 14.3. Luce 3.19. ende 9.9.$ Want deselve Herodes [eenige] uytgesonden hebbende, hadde Ioannem gevangen genomen, ende hem in de gevangenisse gebonden, uyt oorsake van Herodias de huysvrouwe sijns broeders Philippi, om dat hy haer getrouwt hadde.",
+      "modernized": "$Mt. 14:3; Lk. 3:19; 9:9$ Want diezelfde Herodes had [enkelen] uitgestuurd en had Johannes gevangen genomen, en had hem in de gevangenis gebonden, vanwege Herodias, de vrouw van zijn broer Filippus, omdat hij haar getrouwd had.",
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "Vierkante haken-inhoud",
+          "context": "[eenige] uytgesonden hebbende",
+          "choice": "[enkelen]",
+          "alternatives": ["[enkele dienaren] (voegt 'dienaren' toe — niet in SV1657-haken; HSV-spiegel: '[enigen]')"],
+          "reason": "SV1657-haken bevatten alleen het pronomen [eenige]; 'dienaren' invullen is exegese in de hoofdtekst (MODERNISATIE.md §3.4/§3.5). HSV bevestigt met [enigen]."
+        }
+      ],
+      "source_text": "αὐτὸς γὰρ ὁ Ἡρώδης ἀποστείλας ἐκράτησε τὸν Ἰωάννην, καὶ ἔδησεν αὐτὸν ἐν τῇ φυλακῇ, διὰ Ἡρωδιάδα τὴν γυναῖκα Φιλίππου τοῦ ἀδελφοῦ αὐτοῦ, ὅτι αὐτὴν ἐγάμησεν.",
+      "generated_at": "2026-05-16T20:37:16.531199Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 18,
+      "original": "Want Ioannes seyde tot Herodes, $Levit. cap. 18. ende 20, 21.$ Het en is u niet geoorloft de huysvrouwe uwes broeders te hebben.",
+      "modernized": "Want Johannes zei tot Herodes, $Lv. 18:16; 20:21$ Het is u niet geoorloofd de vrouw van uw broer te hebben.",
+      "source_text": "ἔλεγε γὰρ ὁ Ἰωάννης τῷ Ἡρώδῃ ὅτι Οὐκ ἔξεστί σοι ἔχειν τὴν γυναῖκα τοῦ ἀδελφοῦ σου.",
+      "generated_at": "2026-05-16T20:39:13.950987Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "subject": "Bibrefspecificatie",
+          "context": "hoofdtekst, Levit. cap. 18. ende 20, 21",
+          "choice": "Lv. 18:16; 20:21",
+          "alternatives": [
+            "Lv. 18; 20:21 (chapter-only, niet toegestaan door validator)"
+          ],
+          "reason": "Validator vereist chapter:verse-formaat; Lv. 18:16 is de specifieke verbodsbepaling op de vrouw van een broer waar SV1657 met de algemene verwijzing naar Lv. 18 op doelt."
+        }
+      ]
     }
   ]
 }
