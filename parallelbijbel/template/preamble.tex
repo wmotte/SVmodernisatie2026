@@ -1,0 +1,232 @@
+% Parallelbijbel preamble — SVmodernisatie2026
+% Engine: LuaLaTeX
+% Trimsize 170 x 249 mm
+\documentclass[10pt,twoside]{article}
+
+\usepackage[
+  paperwidth=170mm,
+  paperheight=249mm,
+  inner=11mm,
+  outer=10mm,
+  top=12mm,
+  bottom=13mm,
+  footskip=7mm,
+  headheight=13pt,
+  headsep=4mm,
+  columnsep=5mm
+]{geometry}
+
+\usepackage{fontspec}
+\defaultfontfeatures{Ligatures=TeX}
+% Hoofdfont: probeer eerst EB Garamond, fallback Garamond Premier Pro,
+% laatste val-back Latin Modern Roman (altijd aanwezig in TeX Live).
+\IfFontExistsTF{EB Garamond}{%
+  \setmainfont{EB Garamond}[Numbers=OldStyle]
+}{%
+  \IfFontExistsTF{GaramondPremrPro.otf}{%
+    \setmainfont{GaramondPremrPro.otf}[
+      ItalicFont      = GaramondPremrPro-It.otf,
+      BoldFont        = GaramondPremrPro-Bd.otf,
+      BoldItalicFont  = GaramondPremrPro-BdIt.otf,
+      Numbers         = OldStyle
+    ]
+  }{%
+    \setmainfont{Latin Modern Roman}
+  }%
+}
+
+\usepackage{microtype}
+\usepackage{ragged2e}
+\usepackage{xcolor}
+\definecolor{accent}{HTML}{3B5BA5} % marine blauw, iets lichter
+\usepackage[hidelinks,hyperfootnotes=false]{hyperref}
+\usepackage[perpage,hang,flushmargin,bottom]{footmisc}
+\usepackage{fancyhdr}
+\usepackage{etoolbox}
+
+% Compacte voetnoot-rule onderaan de pagina.
+\setlength{\skip\footins}{4pt plus 1pt minus 1pt}
+\renewcommand\footnoterule{%
+  \vspace*{1mm}\noindent\rule{30mm}{0.3pt}\vspace*{0.6mm}}
+
+% Body-typografie.
+\setlength\parindent{0pt}
+\setlength\parskip{0.4pt plus 0.2pt minus 0.1pt}
+\linespread{1.00}
+\emergencystretch=2.5em
+
+% Vermijd één-regel-restanten rond pagina-grenzen.
+\widowpenalty=10000
+\clubpenalty=10000
+\displaywidowpenalty=10000
+\interfootnotelinepenalty=10000
+
+% Marker-stijl voor voetnoten: superscript bold cijfertjes.
+\renewcommand{\thefootnote}{\arabic{footnote}}
+
+% Vervang \textsuperscript zodat het de body-font gebruikt (niet de cmr
+% math-fallback waar de gebruikelijke 4.2pt sizes ontbreken in TinyTeX).
+\makeatletter
+\renewcommand{\textsuperscript}[1]{%
+  \mbox{\raisebox{0.6ex}{\fontsize{4.6}{5.4}\selectfont #1}}}
+% Footnote-marker apart, klein maar stevig, in accent-kleur.
+\newcommand{\fnmarksize}{\fontsize{4.8}{5.6}\selectfont\bfseries}
+\renewcommand{\@makefnmark}{%
+  \hbox{\mbox{\raisebox{0.55ex}{\fnmarksize\textcolor{accent}{\@thefnmark}}}}}
+\long\def\@makefntext#1{%
+  \noindent\hbox to 1.2em{\hss\raisebox{0.55ex}{\fnmarksize\textcolor{accent}{\@thefnmark}}\hskip 0.25em}#1}
+\makeatother
+
+% Voetnoot-tekst klein.
+\renewcommand\footnotesize{\fontsize{6.4}{7.6}\selectfont}
+
+% Headers / footers.
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.3pt}
+\renewcommand{\footrulewidth}{0pt}
+\fancyhead[LE]{\small\textsc{\bookname}}
+\fancyhead[RE]{\small\textbf{\hoofdstuknr}}
+\fancyhead[LO]{\small\textbf{\hoofdstuknr}}
+\fancyhead[RO]{\small\textsc{\bookname}}
+\fancyfoot[C]{\small\thepage}
+
+% Boekmeta — wordt door build_book.py gevuld via \renewcommand.
+\newcommand{\bookname}{Bijbel}
+\newcommand{\hoofdstuknr}{}
+
+% ---------- Tekst-macros ----------
+
+% Versnummer: eigen superscript-routine, groter dan kanttekening-marker,
+% in accent-kleur.
+\newcommand{\vrsnr}[1]{%
+  \mbox{\raisebox{0.5ex}{\fontsize{6.2}{7.4}\selectfont\textbf{\textcolor{accent}{#1}}}}\,}
+
+% Vers: nummer + tekst, minimale afstand erna.
+\newcommand{\vrs}[2]{\vrsnr{#1}#2\par}
+
+% Kanttekening = voetnoot. Inhoud klein.
+\newcommand{\kt}[1]{\footnote{#1}}
+
+% Kanttekeningen binnen parallelle versboxen: de SV en modernisatie hebben
+% eigen tellers en worden onderaan de pagina als links/rechts-blok gezet.
+\newcounter{svkt}
+\newcounter{modkt}
+\MakePerPage{svkt}
+\MakePerPage{modkt}
+\newcommand{\ktmarkstyle}[1]{%
+  \mbox{\raisebox{0.55ex}{\fnmarksize\textcolor{accent}{#1}}}}
+\newcommand{\ktmarkinline}[1]{%
+  \nobreak\hspace{0.16em}\ktmarkstyle{#1}\nobreak\hspace{0.16em}}
+\newcommand{\ktmarksv}[1]{%
+  \stepcounter{svkt}%
+  \expandafter\xdef\csname ktfn@#1\endcsname{\arabic{svkt}}%
+  \ktmarkinline{\arabic{svkt}}}
+\newcommand{\ktmarkmod}[1]{%
+  \stepcounter{modkt}%
+  \expandafter\xdef\csname ktfn@#1\endcsname{\arabic{modkt}}%
+  \ktmarkinline{\arabic{modkt}}}
+\newcommand{\ktitem}[2]{%
+  \noindent\hbox to 1.2em{\hss\ktmarkstyle{\csname ktfn@#1\endcsname}\hskip 0.25em}#2\par}
+\newcommand{\ktnotecell}[1]{%
+  \vtop{%
+    \hsize=\parallelcolwidth
+    \linewidth=\parallelcolwidth
+    \parindent=0pt
+    \parskip=0pt
+    #1%
+  }}
+\newcommand{\ktpairnotes}[2]{%
+  \insert\footins{%
+    \footnotesize
+    \interlinepenalty\interfootnotelinepenalty
+    \splittopskip\footnotesep
+    \splitmaxdepth\dp\strutbox
+    \floatingpenalty=20000
+    \noindent\hbox to \textwidth{\ktnotecell{#1}\hfil\ktnotecell{#2}}%
+    \par}}
+
+% Bijbelverwijzing inline (in kanttekeningen): cursief.
+\newcommand{\bref}[1]{{\textit{#1}}}
+
+% Marker in body voor cross-reference: superscript cursief letter (a,b,c)
+% in hetzelfde grijs als de tekstverwijzingen. Body-markers krijgen bewust
+% wat witruimte; labels in de verwijzingenlijst blijven compact.
+\newcommand{\refmarkstyle}[1]{%
+  \mbox{\raisebox{0.55ex}{\fontsize{4.6}{5.4}\selectfont\textit{\textcolor{black!60}{#1}}}}}
+\newcommand{\refmark}[1]{%
+  \nobreak\hspace{0.22em}\refmarkstyle{#1}\nobreak\hspace{0.18em}}
+\newcommand{\reflabel}[1]{\refmarkstyle{#1}}
+
+% Tekstverwijzingen ná de verszin: klein cursief grijs, inline om geen
+% extra regelhoogte onder het vers te veroorzaken.
+\newcommand{\vrsrefs}[1]{%
+  \nobreak\hspace{0.85em}{\fontsize{6.2}{7.2}\selectfont\textcolor{black!60}{#1}}}
+
+% SV-invoeging tussen [..]: cursief inline (handhaaft conventie).
+\newcommand{\svins}[1]{\textit{[#1]}}
+
+% Small caps voor HEERE/HEERE.
+\newcommand{\smc}[1]{\textsc{\MakeLowercase{#1}}}
+
+% Hoofdstuktitel boven kolommen, in accent-kleur.
+\newcommand{\hoofdstuktitel}[1]{%
+  \par\vspace{2.5mm}%
+  \begin{center}\fontsize{14}{16}\selectfont\textbf{\textcolor{accent}{Hoofdstuk #1}}\end{center}%
+  \vspace{0.5mm}}
+
+% Parallelle kolombreedte. De versrij zelf is ondeelbaar, zodat links en
+% rechts nooit over verschillende pagina's uit elkaar lopen.
+\newlength{\parallelcolwidth}
+\setlength{\parallelcolwidth}{\dimexpr(\textwidth-\columnsep)/2\relax}
+
+\newcommand{\parallelcell}[1]{%
+  \vtop{%
+    \hsize=\parallelcolwidth
+    \linewidth=\parallelcolwidth
+    \parindent=0pt
+    \parskip=0.4pt plus 0.2pt minus 0.1pt
+    #1\par
+  }}
+
+\newcommand{\parallelpair}[2]{%
+  \par\noindent
+  \hbox to \textwidth{\parallelcell{#1}\hfil\parallelcell{#2}}%
+  \par}
+
+% Intro/epilog blok over twee gesynchroniseerde kolommen.
+\newcommand{\introblok}[2]{%
+  \parallelpair{\footnotesize\textit{#1}}{\footnotesize\textit{#2}}%
+  \par\vspace{1.2mm}}
+
+\newcommand{\epilogblok}[2]{%
+  \par\vspace{5mm}\introblok{#1}{#2}}
+
+% Epilog onder hoofdstuk: gecentreerd, beide versies onder elkaar,
+% los van de versrijen (om ‘gek-geplaatst’-effect te vermijden).
+\newcommand{\epilogcenter}[2]{%
+  \par\vspace{4mm}%
+  \begin{center}%
+    \rule{30mm}{0.3pt}\par\vspace{1.5mm}%
+    {\small\textit{#1}}\par\vspace{1mm}%
+    {\small\textit{#2}}%
+  \end{center}%
+  \par\vspace{2mm}}
+
+% Kolomkop boven elke kolom binnen een hoofdstuk.
+\newcommand{\kolomkop}[1]{%
+  {\fontsize{7.2}{8.4}\selectfont\textsc{\textcolor{accent}{#1}}}\par\vspace{0.6mm}}
+
+% Verspair: één ondeelbare horizontale rij. Page break valt tussen verzen;
+% kanttekeningen worden onderaan de pagina verzameld.
+% Args: #1=nr #2=SVbody #3=SVrefs(may be empty) #4=Mbody #5=Mrefs(empty)
+\newcommand{\verspair}[5]{%
+  \parallelpair{\vrsnr{#1}#2#3}{\vrsnr{#1}#4#5}%
+  \vspace{0.5pt}}
+
+% Header-pair boven verzen in een hoofdstuk (kolomkoppen).
+\newcommand{\headerpair}[2]{%
+  \parallelpair{\kolomkop{#1}}{\kolomkop{#2}}}
+
+% Body fontsize na \begin{document}: krap maar leesbaar.
+\AtBeginDocument{\fontsize{8.4}{10.2}\selectfont}

@@ -1,0 +1,313 @@
+{
+  "book": "LUK",
+  "chapter": 18,
+  "reviewed_at": "2026-05-15T05:08:56+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-15T04:21:57+00:00",
+      "mode": "scan",
+      "issues_total": 20
+    },
+    {
+      "pass": 1.5,
+      "ran_at": "2026-05-15T04:26:06.775445+00:00",
+      "mode": "in-context-review",
+      "rebutted": 19,
+      "fixed": 1
+    },
+    {
+      "pass": 2.5,
+      "ran_at": "2026-05-15T04:27:20+00:00",
+      "mode": "verify",
+      "actions": [
+        "LUK-18-7-001: rebuttal verified",
+        "LUK-18-8-001: rebuttal verified",
+        "LUK-18-8-002: rebuttal verified",
+        "LUK-18-17-001: rebuttal verified",
+        "LUK-18-17-002: rebuttal verified",
+        "LUK-18-29-001: rebuttal verified",
+        "LUK-18-31-001: rebuttal verified",
+        "LUK-18-31-002: rebuttal verified",
+        "LUK-18-31-003: reopened (te generiek)",
+        "LUK-18-32-001: reopened (te generiek)",
+        "LUK-18-35-001: rebuttal verified",
+        "LUK-18-41-001: rebuttal verified",
+        "LUK-18-42-001: rebuttal verified",
+        "LUK-18-43-001: verified",
+        "LUK-18-1-001: rebuttal verified",
+        "LUK-18-2-001: rebuttal verified",
+        "LUK-18-3-001: rebuttal verified",
+        "LUK-18-4-001: rebuttal verified",
+        "LUK-18-11-001: rebuttal verified",
+        "LUK-18-18-001: rebuttal verified"
+      ]
+    },
+    {
+      "pass": 2.5,
+      "ran_at": "2026-05-15T04:27:57.061525+00:00",
+      "mode": "rebuttal-strengthen",
+      "strengthened": 2
+    },
+    {
+      "pass": 3.5,
+      "ran_at": "2026-05-15T04:29:26+00:00",
+      "mode": "verify",
+      "actions": [
+        "LUK-18-31-003: rebuttal verified",
+        "LUK-18-32-001: rebuttal verified"
+      ]
+    },
+    {
+      "pass": 4.5,
+      "ran_at": "2026-05-15T05:08:56+00:00",
+      "mode": "scan",
+      "issues_total": 15
+    }
+  ],
+  "issues": [
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 8,
+      "severity": "hard",
+      "quote_modernized": "…   spoedig recht zal doen. Maar de Zoon des mensen, als hij   komt,   zal hij da…",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'des mensen' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de mensen' of 'van het mensen', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de mensen",
+      "location": "hoofdtekst",
+      "id": "LUK-18-8-001",
+      "status": "verified",
+      "rebuttal": "'Zoon des mensen' is gefossiliseerde bijbeluitdrukking voor ὁ υἱὸς τοῦ ἀνθρώπου, expliciet in MODERNISATIE.md §2.3b en de scanner-explanation als rebuttable genoemd. Christologische zelfbenaming, concordant met LUK 5:24, 6:5, 9:22, 9:26, 9:44, 12:8, 12:10, 12:40, 17:24, 17:26, 17:30 (alle als 'Zoon des mensen' in onze modernisatie). Niet vervangen door 'van de mensen' (zou semantisch breken).",
+      "verified_at": "2026-05-15T04:27:20+00:00"
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 17,
+      "severity": "soft",
+      "quote_modernized": "Voorwaar zeg ik u: wie het Koninkrijk Go…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'voorwaar' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "LUK-18-17-001",
+      "status": "verified",
+      "rebuttal": "'voorwaar' is vaste SV-evangelische introductieformule voor ἀμὴν λέγω ὑμῖν (Jezus' plechtige zelfbenadrukking); concordant met LUK 4:24, 9:27, 11:51, 12:37, 13:35, 17:34, 21:32, 23:43 (alle 'voorwaar' in onze modernisatie). Behoud van eerbiedwaardig SV-register voor de amèn-formule is bewuste theologische keuze; HSV/NBG behouden eveneens 'voorwaar'.",
+      "verified_at": "2026-05-15T04:27:20+00:00"
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 29,
+      "severity": "soft",
+      "quote_modernized": "En hij zei tot hen: Voorwaar ik zeg u,   dat er niemand is, …",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'voorwaar' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "LUK-18-29-001",
+      "status": "verified",
+      "rebuttal": "'voorwaar' identiek aan LUK-18-17-002: ἀμὴν λέγω ὑμῖν-renderings consequent als 'voorwaar zeg ik u' door heel Lucas (LUK 4:24, 9:27, 11:51, 12:37, 13:35, 17:34, 18:17, 21:32, 23:43). Concordantie en theologisch register zwaarwegender dan productiviteitstest. Vers-specifiek: hier introduceert Jezus de belofte aan wie alles om het Koninkrijk verlaat — plechtig amèn-formule past.",
+      "verified_at": "2026-05-15T04:27:20+00:00"
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 31,
+      "severity": "hard",
+      "quote_modernized": "…lles zal volbracht worden   aan de Zoon des mensen,   dat geschreven is door de …",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'des mensen' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de mensen' of 'van het mensen', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de mensen",
+      "location": "hoofdtekst",
+      "id": "LUK-18-31-001",
+      "status": "verified",
+      "rebuttal": "'Zoon des mensen' identiek aan LUK-18-8-001: gefossiliseerde christologische zelfbenaming voor ὁ υἱὸς τοῦ ἀνθρώπου, expliciet als rebuttable in MODERNISATIE.md §2.3b en scanner-explanation. Vers-specifiek: hier in de derde lijdensaankondiging, plechtige zelfbenoeming; vervanging door 'van de mensen' zou de christologische lading breken.",
+      "verified_at": "2026-05-15T04:27:20+00:00"
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 31,
+      "severity": "hard",
+      "quote_modernized": "…hreven is door de Profeten over de Zoon des mensen.",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'des mensen' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de mensen' of 'van het mensen', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de mensen",
+      "location": "kanttekening",
+      "id": "LUK-18-31-002",
+      "status": "verified",
+      "rebuttal": "'Zoon des mensen' in kanttekening v31 verwijst woordelijk terug naar de hoofdtekst-zelfbenaming; concordantie binnen het vers vereist behoud. Identiek aan LUK-18-31-001 / LUK-18-8-001.",
+      "verified_at": "2026-05-15T04:27:20+00:00"
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 31,
+      "severity": "soft",
+      "quote_modernized": "dat geschreven is door",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'dat geschreven is door' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "LUK-18-31-003",
+      "status": "verified",
+      "rebuttal": "Geen redundantie volgens KANTTEKENINGEN.md §3.2 (parafrastische herhaling). Vers 31 hoofdtekst hangt 'dat geschreven is door de Profeten' aan ὁ υἱὸς τοῦ ἀνθρώπου als laatste bepaling van τελεσθήσεται; kanttekening 'Anders: dat geschreven is door de Profeten over de Zoon des mensen' biedt expliciet alternatieve syntactische lezing met 'Anders:'-marker — variantia syntactica voor τὰ γεγραμμένα ... τῷ Υἱῷ τοῦ ἀνθρώπου (datief van betrekking 'over' vs ethische datief 'aan'). Type SV-kanttekening dat juist twee leeswijzen voor de Griekse datief aanbiedt; conform KANTTEKENINGEN.md §1 (variantenmarkers blijven behouden), niet redundant.",
+      "verified_at": "2026-05-15T04:29:26+00:00"
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 32,
+      "severity": "soft",
+      "quote_modernized": "…rd worden, en hij zal bespot worden, en smadelijk behandeld worden, en bespogen …",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'smadelijk' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "LUK-18-32-001",
+      "status": "verified",
+      "rebuttal": "MODERNISATIE.md §2.7 productiviteits- en verwarringstest: 'smadelijk' is in modern Nederlands productief (Van Dale: 'op smadende, beledigende wijze'; juridisch register 'smadelijke uitlating') en kan niet verward worden met een ander modern lemma. Vers-specifiek: rendert hier het Gr. ὑβρισθήσεται (passief van ὑβρίζω, 'smadelijk behandelen / honen / vernederen') in een lijdensaankondiging-passage waar SV-vakwoord behouden blijft (concordant met Hd. 14:5 'smadelijk'-cluster, 1Th. 2:2 'smadelijk gehandeld'). Drempel-archaïsme niet bevestigd; alternatief 'beledigend' zou de SV-passietekst-term breken.",
+      "verified_at": "2026-05-15T04:29:26+00:00"
+    },
+    {
+      "category": "§2.3 finiet participium",
+      "verse": 41,
+      "severity": "hard",
+      "quote_modernized": "…u doen zal? En hij zei: Heere,   dat ik ziende mag worden.",
+      "rule_reference": "MODERNISATIE.md §2.3",
+      "explanation": "'ziende' — always-adverbial -ende uit SV-syntaxis. Ontvouw naar finiete bijzin ('en X', 'terwijl X', 'toen X').",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "LUK-18-41-001",
+      "status": "verified",
+      "rebuttal": "'ziende mag worden' is predicatief complement bij 'worden' (worden + predicaat 'ziende'), geen bijwoordelijk -ende. Vers-specifiek: vaste SV-genezings-idiomatiek voor ἀναβλέπω; concordant met v42 'Word ziende', LUK 7:22 ('blinden ziende worden'); HSV-spiegel bevestigt 'Word ziende' in v42. Reeds gedocumenteerd in notes-veld v41 met deze rebuttal-precedent.",
+      "verified_at": "2026-05-15T04:27:20+00:00"
+    },
+    {
+      "category": "§2.3 finiet participium",
+      "verse": 42,
+      "severity": "hard",
+      "quote_modernized": "En Jezus zei tot hem: Word ziende; uw geloof heeft u behouden.",
+      "rule_reference": "MODERNISATIE.md §2.3",
+      "explanation": "'ziende' — always-adverbial -ende uit SV-syntaxis. Ontvouw naar finiete bijzin ('en X', 'terwijl X', 'toen X').",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "LUK-18-42-001",
+      "status": "verified",
+      "rebuttal": "'Word ziende' is predicatief complement bij imperatief 'word' (worden + predicaat 'ziende'); HSV gebruikt LETTERLIJK identieke formulering 'Word ziende', wat onafhankelijk bewijst dat dit binnen modern bijbels Nederlands aanvaardbaar is. Concordantie met v41 en LUK 7:22-precedent. Reeds gedocumenteerd in notes-veld v42.",
+      "verified_at": "2026-05-15T04:27:20+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 1,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'gelijck' in 3 verzen — verzen [11] renderen het stam anders dan [1, 9]",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        1,
+        9,
+        11
+      ],
+      "id": "LUK-18-1-001",
+      "status": "verified",
+      "rebuttal": "Scanner-prefix-heuristiek faalt op morfologische klassen: v1 'gelijckenisse' (zelfst.nw, parable, → 'gelijkenis'); v9 'gelijckenisse' identiek (→ 'gelijkenis'); v11 'gelijck' (voegwoord, comparatief, → 'zoals'). Verschillende renderings zijn bewust morfologisch onderscheid (zelfst.nw vs voegwoord), niet drift. Concordantie binnen klasse is intact (v1==v9 = 'gelijkenis').",
+      "verified_at": "2026-05-15T04:27:20+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 2,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'seggend' in 6 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 6 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        2,
+        3,
+        13,
+        18,
+        38,
+        41
+      ],
+      "id": "LUK-18-2-001",
+      "status": "verified",
+      "rebuttal": "Scanner-prefix-heuristiek faalt: alle 6 verzen renderen het Gr. λέγων-equivalent in lijn met §2.3 als ontvouwd finiet werkwoord ('zei', 'sprak', 'en zei', 'hij zei') — losse 'zeggend'/'seggende' is juist verboden door §2.3. Lexicaal verschil is bewuste regel-toepassing per vers-context (interpunctie + onderwerps-anafora), niet concordantie-drift.",
+      "verified_at": "2026-05-15T04:27:20+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 3,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'deselve' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        3,
+        15,
+        16
+      ],
+      "id": "LUK-18-3-001",
+      "status": "verified",
+      "rebuttal": "Scanner-prefix-heuristiek faalt op anaforisch SV-pronomen 'deselve': v3 → 'dezelfde' (attributief bij 'stad'), v15 → '[dat]' + 'hen' (anaforisch object), v16 → 'die' (anaforisch demonstratief). §2.3b vermijdt juist het archaïsche anaforisch 'dezelve(n)'; per context contextuele weergave kiezen is conform regel, geen drift.",
+      "verified_at": "2026-05-15T04:27:20+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 4,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'hemselv' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        4,
+        11,
+        14
+      ],
+      "id": "LUK-18-4-001",
+      "status": "verified",
+      "rebuttal": "Scanner-prefix-heuristiek faalt op orthografische overgang: alle 3 verzen renderen 'hemselven/haerselven' als 'zichzelf' (v4 'bij zichzelf', v11 'bij zichzelf', v14 'zichzelf verhoogt/vernedert'). Lemma is consistent; scanner mist door modern spelling-update zonder gemeenschappelijke prefix met SV-vorm.",
+      "verified_at": "2026-05-15T04:27:20+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 11,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'staende' in 3 verzen — verzen [11, 13] renderen het stam anders dan [40]",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        11,
+        13,
+        40
+      ],
+      "id": "LUK-18-11-001",
+      "status": "verified",
+      "rebuttal": "Bewust syntactisch verschil per Griekse vorm: v11/v13 hebben 'staende' als deel van een verb-cluster (predicatief-verbaal: 'staende badt' → 'stond en bad'; 'van verre staende' → 'stond van verre'); v40 heeft Gr. aor.pass.part. σταθεὶς als vooropgeplaatste circumstantial met SV-toevoeging '[stil]' — modern formeel NL kent vooropgeplaatste participium-clauses ('staande de vergadering ...'). Verschillende rendering is bewust contextverschil, geen drift.",
+      "verified_at": "2026-05-15T04:27:20+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 18,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'vraeghd' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        18,
+        36,
+        40
+      ],
+      "id": "LUK-18-18-001",
+      "status": "verified",
+      "rebuttal": "Scanner-prefix-heuristiek faalt: alle 3 verzen renderen 'vraeghde' als 'vroeg' (v18 'vroeg hem en zei', v36 'vroeg hij wat dat was', v40 'vroeg hij hem'). Lemma is consistent; scanner mist door orthografische overgang 'vraeghd' → 'vroeg'.",
+      "verified_at": "2026-05-15T04:27:20+00:00"
+    }
+  ]
+}

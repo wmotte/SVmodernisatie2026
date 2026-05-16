@@ -1,0 +1,140 @@
+{
+  "book": "LUK",
+  "chapter": 10,
+  "reviewed_at": "2026-05-15T05:02:28+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-11T09:56:19+00:00",
+      "mode": "scan",
+      "issues_total": 9
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-11T10:00:34+00:00",
+      "mode": "verify",
+      "actions": [
+        "LUK-10-8-001: reopened (luie rebuttal)",
+        "LUK-10-10-001: rebuttal verified",
+        "LUK-10-13-001: rebuttal verified",
+        "LUK-10-17-001: verified",
+        "LUK-10-20-001: rebuttal verified",
+        "LUK-10-21-001: verified",
+        "LUK-10-23-001: verified",
+        "LUK-10-31-001: rebuttal verified",
+        "LUK-10-27-001: rebuttal verified"
+      ]
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-05-11T10:01:24+00:00",
+      "mode": "verify",
+      "actions": [
+        "LUK-10-8-001: rebuttal verified"
+      ]
+    },
+    {
+      "pass": 4,
+      "ran_at": "2026-05-15T04:56:47+00:00",
+      "mode": "scan",
+      "issues_total": 6
+    },
+    {
+      "pass": 5,
+      "ran_at": "2026-05-15T05:02:28+00:00",
+      "mode": "scan",
+      "issues_total": 6
+    }
+  ],
+  "issues": [
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 8,
+      "severity": "soft",
+      "quote_modernized": "En in welke stad u zult binnengaan, en zij …",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "LUK-10-8-001",
+      "status": "verified",
+      "rebuttal": "'welke' staat hier vóór een zelfstandig naamwoord ('welke stad'); dit is een determinatieve constructie, geen relatief-pronominale (vgl. ARCHAISMEN.md syntax). Modern Nederlands gebruikt 'in welke X' productief in vrije relatieve bijzinnen voor Gr. εἰς ἣν ἂν πόλιν (LUK 10:8). De scanner-regex onderscheidt determinatief 'welke + N' niet van relatief 'welke' substituut voor 'die/dat'.",
+      "verified_at": "2026-05-11T10:01:24+00:00"
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 10,
+      "severity": "soft",
+      "quote_modernized": "  Maar in welke stad u zult binnengaan, en zij …",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "LUK-10-10-001",
+      "status": "verified",
+      "rebuttal": "Identiek aan LUK-10-8-001 maar in v10: 'welke' staat vóór 'stad' als determinatief in een vrije relatieve bijzin (Gr. εἰς ἣν δ' ἂν πόλιν εἰσέρχησθε). Modern Nederlands accepteert 'in welke stad u zult binnengaan' als productieve constructie. Scanner mis-categoriseert determinatief-vóór-N als relatief-pronominaal.",
+      "verified_at": "2026-05-11T10:00:34+00:00"
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 13,
+      "severity": "soft",
+      "quote_modernized": "Wee u, Chorazin, wee u, Betsaïda: want indien in Tyrus en Sidon de   krachten g…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "LUK-10-13-001",
+      "status": "verified",
+      "rebuttal": "'indien' is productief in modern formeel Nederlands (juridisch, journalistiek, bijbelse register) — verschijnt in NBG51, HSV, Statenvertaling-updates voor εἰ. §2.7-drempel-test (productiviteit + verwarrings-risico) wordt voor formeel register gehaald; geen verwarring met andere woorden. SV2027's keuze voor 'als' is registerkeuze, niet normatief voor dit project.",
+      "verified_at": "2026-05-11T10:00:34+00:00"
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 20,
+      "severity": "hard",
+      "quote_modernized": "… onreine geesten. Namelijk, in het boek des levens. Zie de verklaring daarvan $F…",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'des levens' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de levens' of 'van het levens', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de levens",
+      "location": "kanttekening",
+      "id": "LUK-10-20-001",
+      "status": "verified",
+      "rebuttal": "'boek des levens' is een gefossiliseerde bijbelse uitdrukking voor τὸ βιβλίον τῆς ζωῆς (Op. 3:5; 13:8; 17:8; 20:12,15; 21:27; Fp. 4:3). De genitief-constructie is in modern bijbels Nederlands productief gebleven (NBG51, HSV, NBV21 gebruiken eveneens 'boek des levens'). Vergelijkbaar met de gefossiliseerde 'Koninkrijk der hemelen' en 'Zoon des mensen' — categorie ARCHAISMEN.md gefossiliseerde-genitief-uitzondering.",
+      "verified_at": "2026-05-11T10:00:34+00:00"
+    },
+    {
+      "category": "voornaamwoordelijk bijwoord gesplitst",
+      "verse": 31,
+      "severity": "hard",
+      "quote_modernized": "En   kwam er bij toeval een zeker Priester die weg…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'er bij' — SV-gesplitst voornaamwoordelijk bijwoord. Modern Nederlands voegt samen: 'erbij' (bv. daarin, waarmee, hierop).",
+      "proposed_fix": "erbij",
+      "location": "hoofdtekst",
+      "id": "LUK-10-31-001",
+      "status": "verified",
+      "rebuttal": "'er' in 'kwam er bij toeval een zeker Priester' is geen pronominaal-bijwoord-element maar het existentiële/expletieve 'er' (dummy-subject met inversie). 'bij toeval' is een onafhankelijke prepositionele bepaling (= 'door coïncidentie', Gr. κατὰ συγκυρίαν). Samenvoegen tot 'erbij' zou de zin betekenisloos maken ('kwam erbij toeval ...' is onleesbaar). Scanner-regex matcht 'er bij' als losse buurwoorden zonder hun functie te onderscheiden.",
+      "verified_at": "2026-05-11T10:00:34+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 27,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'naesten' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        27,
+        29,
+        36
+      ],
+      "id": "LUK-10-27-001",
+      "status": "verified",
+      "rebuttal": "Scanner-prefix-heuristiek mist orthografische overgang s→z (SV 'naesten' → modern 'naaste'). Alle drie verzen waar πλησίον voorkomt (LUK 10:27, 29, 36, 37) renderen consistent 'naaste' — concordantie is intact. False-positive door scanner-implementatie, niet een echte concordantie-drift.",
+      "verified_at": "2026-05-11T10:00:34+00:00"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+Werkdirectory: <REPO_ROOT>   # output van `git rev-parse --show-toplevel`
+
+Opdracht: voer de kritische beoordeling uit van de zojuist
+gemoderniseerde batch <BOEK> <H>:<V_START>-<V_EIND>. Een modernisatie-
+subagent heeft de verzen al naar output/<BOEK>/<BOEK>.<H>.json
+geschreven en aan de memory-DB toegevoegd. Jij beoordeelt onafhankelijk,
+past correcties toe, en rapporteert kort terug.
+
+Lees AGENTS.md voor projectconventies (vertaalprincipes, archaïsme-
+tabel, kanttekeningconventies, hoofdletterdiscipline, MODERNISATIE.md
+§2.7, ARCHAISMEN.md).
+
+KRITIEKE INSTRUCTIES — STRIKT:
+- Doe ABSOLUUT GEEN git-acties: geen git add/commit/checkout/branch/
+  stash/status/diff, geen gh-commando's. Niet impliciet, niet expliciet.
+  De git-workflow is volledig de verantwoordelijkheid van de
+  orchestrator buiten jouw context.
+- Bij wegschrijven van output JSON: EXACT 2-space indent,
+  ensure_ascii=False:
+    `json.dump(d, f, ensure_ascii=False, indent=2); f.write('\n')`.
+  Niet 4-space, geen tab — anders ontstaat een 1300-regel diff.
+
+Stappen — in volgorde:
+
+1. Lees output/<BOEK>/<BOEK>.<H>.json. Bevestig dat verzen
+   <V_START>-<V_EIND> aanwezig zijn met modernized, source_text
+   (byte-exact uit input.sv/<BOEK>/<BOEK>.<H>.json), generated_at,
+   model, memory_examples_used. Inspecteer notes-velden.
+
+2. Validator:
+   uv run python scripts/validate.py check \
+       --input input.sv/<BOEK>/<BOEK>.<H>.json \
+       --output output/<BOEK>/<BOEK>.<H>.json \
+       --verses <V_LIJST> --terse
+   Waarschuwingen → geen actie. Hard failed > 0 → potentiële blokker,
+   maar eerst stap 4 (semantic-review doet flag-arbitrage).
+
+3. Linters:
+   uv run python scripts/lint_carryovers.py lint \
+       --output output/<BOEK>/<BOEK>.<H>.json --verses <V_LIJST> --terse
+   uv run python scripts/lint_archaismen.py lint --root output/ --terse
+   uv run python scripts/lint_false_friends.py lint \
+       --output output/<BOEK>/<BOEK>.<H>.json --terse
+
+4. Semantic-review — VERPLICHT. Roep de skill aan via de Skill-tool:
+   Skill(skill="sv-semantic-review", args="<BOEK> <H>:<V_START>-<V_EIND>")
+   Voer het protocol uit: laad de drie verzen, query
+   scripts/memory.py query top-3 sv-axis (eigen vers excluded),
+   doorloop de checklist (projectreikwijdte / niet markeren / wel
+   markeren / anti-hallucinatie), regenereer
+   docs/diff_hsv_<BOEK>_<H>.json via scripts/compare_hsv.py voor de
+   HSV-spiegel, pas edits direct toe via Edit-tool. De "lees SKILL.md"-
+   bypass telt niet — de Skill-tool-aanroep moet daadwerkelijk in het
+   transcript staan. Stap 3.7 van die skill doet flag-arbitrage:
+   validator-hardfouten in hoofdletter-discipline / §2.3-participium
+   kunnen `overruled` worden met motivatie ≥40 tekens + woordcitaat +
+   reikwijdteverwijzing. Bij ontbrekende concordantie-DB of HSV-bestand:
+   rapporteer dat en ga door op de overige categorieën — geen blokker.
+
+5. Regelbestandwijzigingen — pas toe volgens deze tabel:
+
+   | Bevinding | Actie |
+   |---|---|
+   | Lint-carryovers-kandidaat is gewoon Nederlands / eigennaam / theol. term | `STOPLIST` in `scripts/lint_carryovers.py` aanvullen |
+   | Lint-carryovers-kandidaat is écht archaïsch (nog niet gemoderniseerd) | Vers corrigeren + woord op `validate.py`-blacklist + `ARCHAISMEN.md` + terugwerkende linter draaien |
+   | Lint-archaismen vindt issue in eerder samengevoegd vers (na blacklist-uitbreiding) | Hermodernisatie van dat vers in deze batch meenemen |
+   | Lint-false-friends-match in SV-betekenis bewust gebruikt (bv. `menen` = van mening zijn) | Geen actie — beoordelingsprompt was correct |
+   | Lint-false-friends-match is écht verschoven (`ontroerd`, `dagorde`) | Vers corrigeren + entry op false-friends-tabel in `ARCHAISMEN.md` |
+   | Semantic-review-bevinding in `false_friends`/`idiomatic` bevestigt een echte misser | Vers corrigeren; bij patroon ook regelbestandupdate (false-friends-tabel of `lint_false_friends` `FALSE_FRIENDS`-lijst) |
+   | Semantic-review-bevinding in `concordantie` over een bewuste keuze (bv. false-friendcorrectie die SV-concordantie breekt) | Geen actie — in `notes` documenteren als afwijking |
+   | HSV-spiegelbevinding 4a (taalfout / lexicale fout / semantische misser in onze modernisatie, onafhankelijk bevestigd tegen SV1657/Grieks) | Vers corrigeren; bij ≥2× herhaling ook `ARCHAISMEN.md` False-friends-tabel + `FALSE_FRIENDS` in `lint_false_friends.py`, of `MODERNISATIE.md §2.7` voor grammaticale patronen |
+   | HSV-spiegelbevinding 4b (drempel-archaïsme dat HSV modern oplost binnen reikwijdte) | Vers corrigeren; bij ≥2× herhaling ook `validate.py`-blacklist + `ARCHAISMEN.md`-archaïsme-tabel + `lint_archaismen.py lint --root output/` terugwerkende linter |
+   | HSV-spiegelbevinding 4c (hoofdletters / kanttekening / parafrase / exegese in hoofdtekst / structurele herbouw / lexicaal register / vierkante haken) | Geen actie — bewuste afwijking; meld in aggregaat in de REGELBESTAND-regel |
+   | Subagent-`note` van type `afwijking` met patroon dat ≥2× voorkomt | Patroon documenteren in `ARCHAISMEN.md` of relevante doc |
+   | Subagent-`note` eenmalige `twijfel` | Geen actie — note documenteert al |
+   | Validatorwaarschuwing structureel terugkerend (`Ende`, eigennaam-hoofdlettermismatch) | Geen actie — bewust SV→modern patroon |
+   | Validator harde fout (`hoofdletterdiscipline` of `§2.3-participium`) door arbiter (`sv-semantic-review` Stap 3.7) als `overruled` gemarkeerd | Geen blokker; de arbitermotivatie hoort in de SEMANTIC-regel |
+   | Validator harde fout / 0 verzen geschreven | BLOKKER — zie stap 7 |
+
+6. Pas alle concrete correcties toe via Edit-tool. Na elke correctie:
+   her-valideer het gewijzigde vers (scripts/validate.py check ...
+   --verses <N> --terse) en draai lint_false_friends.py opnieuw. Update
+   de memory-DB voor elk gewijzigd vers:
+   uv run python scripts/memory.py add --from-output \
+       output/<BOEK>/<BOEK>.<H>.json --verse <N> --terse
+
+7. Bepaal de BLOKKER-status:
+   - Harde validator-fout (failed > 0) die NIET door de arbiter als
+     `overruled` is gemarkeerd → BLOKKER: ja.
+   - Harde fout in kanttekeningen / vierkante haken / bibref-formaat /
+     archaïsme-blacklist / source_text → altijd BLOKKER: ja (niet
+     arbitreerbaar).
+   - Overruled hoofdletter-/participium-flag → geen blokker.
+   - 0 verzen geschreven → BLOKKER: ja.
+   - Anders → BLOKKER: nee.
+
+Eindrapport — exact dit format, niets anders, geen prosa:
+
+VALIDATOR: <verdict-regel van validate.py --terse na alle correcties>
+LINT: <1-regel: carryovers/archaismen/false-friends — schoon, of welke flags, met "pre-existing" voor andere hoofdstukken>
+SEMANTIC: <per gewijzigd vers 1 frase; of "geen actie">
+HSV-SPIEGEL: <1 regel uitkomst; of "geen bestand">
+REGELBESTAND: <STOPLIST/ARCHAISMEN/blacklist-delta's met korte motivatie; of "geen">
+BLOKKER: <nee | ja — vers <N>: <issuetekst>>
+
+Stop na het eindrapport.

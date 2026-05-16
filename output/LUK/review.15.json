@@ -1,0 +1,104 @@
+{
+  "book": "LUK",
+  "chapter": 15,
+  "reviewed_at": "2026-05-15T05:02:28+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-14T15:18:51+00:00",
+      "mode": "scan",
+      "issues_total": 3
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-14T15:20:47.644306+00:00",
+      "mode": "in-context",
+      "issues_added": 1
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-05-14T15:20:53+00:00",
+      "mode": "verify",
+      "actions": [
+        "LUK-15-1-001: rebuttal verified",
+        "LUK-15-2-001: rebuttal verified",
+        "LUK-15-4-001: rebuttal verified",
+        "LUK-15-25-001: verified"
+      ]
+    },
+    {
+      "pass": 4,
+      "ran_at": "2026-05-15T04:56:48+00:00",
+      "mode": "scan",
+      "issues_total": 3
+    },
+    {
+      "pass": 5,
+      "ran_at": "2026-05-15T05:02:28+00:00",
+      "mode": "scan",
+      "issues_total": 3
+    }
+  ],
+  "issues": [
+    {
+      "category": "concordantie-drift",
+      "verse": 1,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'sondaer' in 4 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 4 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        1,
+        2,
+        7,
+        10
+      ],
+      "id": "LUK-15-1-001",
+      "status": "verified",
+      "rebuttal": "Stam 'sondaer' rendert projectbreed consistent als 'zondaar'/'zondaars': v1+v2 mv. 'zondaars' (Gr. ἁμαρτωλοί/ἁμαρτωλούς), v7+v10 ev. 'een zondaar die zich bekeert' (Gr. ἁμαρτωλῷ μετανοοῦντι). Geen drift — enige variatie is getal, gestuurd door het Grieks. Detector matcht op NL-prefix, niet op lemma.",
+      "verified_at": "2026-05-14T15:20:53+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 2,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'seggend' in 4 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 4 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        2,
+        3,
+        6,
+        9
+      ],
+      "id": "LUK-15-2-001",
+      "status": "verified",
+      "rebuttal": "Stam 'seggend' (Gr. λέγων/λέγοντες) wordt per §2.3 finiet gemaakt; de finiete vorm volgt tijd/getal van de context: v2 'morden en zeiden' (mv. impf.), v3 'en zei' (ev. impf.), v6+v9 'en zegt' (ev. praes., levendige vertelling). Dit is §2.3-conform, geen concordantie-drift.",
+      "verified_at": "2026-05-14T15:20:53+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 4,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'hebbend' in 4 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 4 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        4,
+        8,
+        13,
+        26
+      ],
+      "id": "LUK-15-4-001",
+      "status": "verified",
+      "rebuttal": "Stam 'hebbend' (Gr. ἔχων) participium wordt per §2.3 contextueel finiet: v4 'die honderd schapen heeft', v8 'die tien penningen heeft' (beide attributieve relatiefzin bij vraagsubject), v13 'alles bijeengebracht heeft' (Gr. συναγαγών, perfectisch), v26 'hij riep ... tot zich' (Gr. προσκαλεσάμενος, heel ander lemma). Verschillende Griekse vormen/lemmata — §2.3-conforme variatie, geen drift.",
+      "verified_at": "2026-05-14T15:20:53+00:00"
+    }
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "book": "LUK",
+  "chapter": 5,
+  "reviewed_at": "2026-05-15T05:02:28+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-10T17:04:31+00:00",
+      "mode": "scan",
+      "issues_total": 13
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-10T17:19:13+00:00",
+      "mode": "scan",
+      "issues_total": 7
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-05-10T17:19:45+00:00",
+      "mode": "verify",
+      "actions": [
+        "LUK-5-15-001: rebuttal verified",
+        "LUK-5-20-001: rebuttal verified",
+        "LUK-5-22-001: rebuttal verified",
+        "LUK-5-1-001: rebuttal verified",
+        "LUK-5-8-001: rebuttal verified",
+        "LUK-5-13-001: verified",
+        "LUK-5-17-001: rebuttal verified"
+      ]
+    },
+    {
+      "pass": 4,
+      "ran_at": "2026-05-10T19:17:43+00:00",
+      "mode": "scan",
+      "issues_total": 11
+    },
+    {
+      "pass": 5,
+      "ran_at": "2026-05-10T19:24:49+00:00",
+      "mode": "verify",
+      "actions": [
+        "LUK-5-8-001: rebuttal verified",
+        "LUK-5-17-001: verified",
+        "LUK-5-24-001: rebuttal verified",
+        "LUK-5-34-001: verified"
+      ]
+    },
+    {
+      "pass": 6,
+      "ran_at": "2026-05-10T19:53:14+00:00",
+      "mode": "scan",
+      "issues_total": 9
+    },
+    {
+      "pass": 7,
+      "ran_at": "2026-05-10T19:56:29+00:00",
+      "mode": "verify",
+      "actions": []
+    },
+    {
+      "pass": 8,
+      "ran_at": "2026-05-15T04:56:47+00:00",
+      "mode": "scan",
+      "issues_total": 9
+    },
+    {
+      "pass": 9,
+      "ran_at": "2026-05-15T05:02:28+00:00",
+      "mode": "scan",
+      "issues_total": 9
+    }
+  ],
+  "issues": [
+    {
+      "category": "kanttekening-luiheid (§2.3 in <…>)",
+      "verse": 8,
+      "severity": "hard",
+      "quote_modernized": "… uit dit wonder de Godheid van Christus erkende. Namelijk, daar ik onwaardig ben…",
+      "rule_reference": "KANTTEKENINGEN.md + §2.3",
+      "explanation": "'erkende' binnen kanttekening — verdacht -ende-woord in adverbial / clause-final positie. §2.3 geldt ook in <…>; ontvouw naar finiete bijzin.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "LUK-5-8-001",
+      "status": "verified",
+      "rebuttal": "'erkende' in <... de Godheid van Christus erkende.> is past simple van 'erkennen' (3sg vlt) — geen tegenwoordig participium. §2.3 (MODERNISATIE.md) betreft finiete tegenwoordige participia (-end/-ende als adverbiaal/finiet). De stam erken- + -de is reguliere verleden tijd; de scanner-regex \\w+ende matcht morfologisch maar er is geen syntactische participium-overtreding. De zin is een gewone bijzin: 'Aangezien hij ... erkende.'",
+      "verified_at": "2026-05-10T19:24:49+00:00"
+    },
+    {
+      "category": "§2.3b infinitief met nageschoven object",
+      "verse": 15,
+      "severity": "soft",
+      "quote_modernized": "…er voort, en grote scharen kwamen samen om hem te horen en door hem genezen te w…",
+      "rule_reference": "MODERNISATIE.md §2.3b",
+      "explanation": "'om … te horen en door hem genezen' — Latinaat-woordvolgorde; in modern NL gaat het object vóór de infinitief: 'om <object> te horen'.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "LUK-5-15-001",
+      "status": "verified",
+      "rebuttal": "Het pronoun-object 'hem' staat correct vóór 'te horen' ('om hem te horen' ✓). 'Door hem' is agens-bepaling bij passieve infinitief, geen object. 'Van hun ziekten' is complement bij de vaste collocatie 'genezen worden van X' (Gr. θεραπεύεσθαι ἀπὸ τῶν ἀσθενειῶν αὐτῶν), een idiomatisch modern Nederlands patroon (vgl. 'genezen van een ziekte', 'verlost van schulden'). Vooropplaatsing ('om door hem van hun ziekten genezen te worden') is mogelijk maar geen verbetering; huidige volgorde volgt zowel Grieks als modern NL. §2.3b betreft nominale objecten zoals 'om te bekeeren de herten' — hier niet van toepassing.",
+      "verified_at": "2026-05-10T17:19:45+00:00"
+    },
+    {
+      "category": "kanttekening-luiheid (§2.3 in <…>)",
+      "verse": 20,
+      "severity": "hard",
+      "quote_modernized": "Of, kennende. Namelijk, zowel van de verlamd…",
+      "rule_reference": "KANTTEKENINGEN.md + §2.3",
+      "explanation": "'kennende' binnen kanttekening — always-adverbial -ende uit SV-syntaxis. §2.3 geldt ook in <…>; ontvouw naar finiete bijzin.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "LUK-5-20-001",
+      "status": "verified",
+      "rebuttal": "'<Of, kennende.>' is een lexicografische variant-gloss bij het hoofdtekst-werkwoord 'siende/zag' — de SV-annotator noemt 'kennende' als alternatieve vertaling (Gr. ἰδών kan zowel 'ziende' als 'kennende/onderscheidende' betekenen). Het is een citaat-vorm, geen syntactisch participium in een zin. §2.3 viseert participia in adverbiaal *gebruik*; lexicografische naamgeving van een werkwoordsvorm valt daarbuiten (vgl. een woordenboek-lemma 'lopen'). Ontvouwen zou de gloss-functie breken.",
+      "verified_at": "2026-05-10T17:19:45+00:00"
+    },
+    {
+      "category": "§2.3 finiet participium",
+      "verse": 22,
+      "severity": "soft",
+      "quote_modernized": "Maar Jezus, die hun overdenkingen kende, antwoordde en zei tot hen: Wat ov…",
+      "rule_reference": "MODERNISATIE.md §2.3",
+      "explanation": "'kende' — verdacht -ende-woord in adverbial / clause-final positie. Ontvouw naar finiete bijzin ('en X', 'terwijl X', 'toen X').",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "LUK-5-22-001",
+      "status": "verified",
+      "rebuttal": "False positive: 'kende' is hier imperfectum (finiet) van 'kennen' in de betrekkelijke bijzin 'die hun overdenkingen kende' — geen tegenwoordig deelwoord. De regex matcht op het lettersequence-einde '-ende', maar morfologisch is 'kende' = 'kennen'.PAST.SG (vgl. 'wende', 'zond e'-paradigma verschil met 'wendend', 'zendend'). De zin volgt al §2.3 correct: SV-bron 'ἐπιγνοὺς δὲ ὁ Ἰησοῦς' (participium) is ontvouwd naar relative-clause met finiet ww — precies wat de regel voorschrijft. Geen actie nodig.",
+      "verified_at": "2026-05-10T17:19:45+00:00"
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 24,
+      "severity": "hard",
+      "quote_modernized": "Maar opdat u weet, dat de Zoon des mensen macht heeft op de aarde de zo…",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'des mensen' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de mensen' of 'van het mensen', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de mensen",
+      "location": "hoofdtekst",
+      "id": "LUK-5-24-001",
+      "status": "verified",
+      "rebuttal": "'Zoon des mensen' is de canonieke Christologische zelfaanduiding ὁ υἱὸς τοῦ ἀνθρώπου (Lk. 5:24 e.a., 80+ keer in de Evangeliën, vgl. Dn. 7:13). In modern bijbels Nederlands is dit een gefossiliseerde vakterm: HSV en NBG51 behouden 'Zoon des mensen' onveranderd; alleen NBV21 vertaalt 'Mensenzoon'. MODERNISATIE.md §2.1 verlangt maximaal behoud van SV-eigenheid voor theologisch geladen termen — dit is precies zo'n geval. Vervanging door 'Zoon van de mens' breekt de Christologische titel.",
+      "verified_at": "2026-05-10T19:24:49+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 1,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'geschie' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        1,
+        12,
+        17
+      ],
+      "id": "LUK-5-1-001",
+      "status": "verified",
+      "rebuttal": "False positive: alle drie verzen renderen narrative-marker καὶ ἐγένετο consistent als 'het gebeurde' (v1, v12, v17). Stam 100% concordant; scanner-prefix-window matcht door wisselende temporeel-frame-buurwoorden ('toen de schare', 'toen hij', 'op een van die dagen') niet.",
+      "verified_at": "2026-05-10T17:19:45+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 8,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'seggend' in 5 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 5 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        8,
+        12,
+        21,
+        26,
+        30
+      ],
+      "id": "LUK-5-8-002",
+      "status": "verified",
+      "rebuttal": "Vier van vijf hits zijn open §2.3-issues (v8 LUK-5-8-002, v12 LUK-5-12-001, v21 LUK-5-21-001, v30 LUK-5-30-001 — alle 'zeggende' die nog ontvouwd moeten worden). v26 is correct ontvouwd naar 'en zeiden'. Na fix van de vier participium-issues wordt deze concordantie-hit obsoleet — derivative, geen aparte actie.",
+      "verified_at": "2026-05-10T17:19:45+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 13,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'terston' in 3 verzen — verzen [13, 39] renderen het stam anders dan [25]",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        13,
+        25,
+        39
+      ],
+      "id": "LUK-5-13-001",
+      "status": "verified",
+      "verified_at": "2026-05-10T17:19:45+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 17,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'pharize' in 4 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 4 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        17,
+        21,
+        30,
+        33
+      ],
+      "id": "LUK-5-17-001",
+      "status": "verified",
+      "rebuttal": "False positive: alle vier verzen renderen 'Pharizeen' als 'Farizeeën' (v17, v21, v30, v33). Stam 100% concordant; scanner-prefix-window vergelijkt met variërende lidwoorden/conjuncties.",
+      "verified_at": "2026-05-10T17:19:45+00:00"
+    }
+  ]
+}

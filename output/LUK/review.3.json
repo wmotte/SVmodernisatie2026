@@ -1,0 +1,152 @@
+{
+  "book": "LUK",
+  "chapter": 3,
+  "reviewed_at": "2026-05-15T05:02:28+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-10T17:11:54+00:00",
+      "mode": "scan",
+      "issues_total": 9
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-10T17:26:48+00:00",
+      "mode": "scan",
+      "issues_total": 9
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-05-10T17:31:26+00:00",
+      "mode": "verify",
+      "actions": [
+        "LUK-3-4-001: verified",
+        "LUK-3-10-001: verified",
+        "LUK-3-14-001: verified",
+        "LUK-3-16-001: verified",
+        "LUK-3-22-001: verified",
+        "LUK-3-23-001: rebuttal verified",
+        "LUK-3-2-001: rebuttal verified",
+        "LUK-3-10-002: rebuttal verified",
+        "LUK-3-23-002: rebuttal verified",
+        "LUK-3-3-001: verified",
+        "LUK-3-8-002: verified"
+      ]
+    },
+    {
+      "pass": 4,
+      "ran_at": "2026-05-10T19:17:43+00:00",
+      "mode": "scan",
+      "issues_total": 4
+    },
+    {
+      "pass": 5,
+      "ran_at": "2026-05-10T19:24:56+00:00",
+      "mode": "verify",
+      "actions": []
+    },
+    {
+      "pass": 6,
+      "ran_at": "2026-05-10T19:53:14+00:00",
+      "mode": "scan",
+      "issues_total": 7
+    },
+    {
+      "pass": 7,
+      "ran_at": "2026-05-10T19:56:29+00:00",
+      "mode": "verify",
+      "actions": [
+        "LUK-3-1-001: verified",
+        "LUK-3-17-001: verified",
+        "LUK-3-31-001: verified"
+      ]
+    },
+    {
+      "pass": 8,
+      "ran_at": "2026-05-15T04:56:47+00:00",
+      "mode": "scan",
+      "issues_total": 4
+    },
+    {
+      "pass": 9,
+      "ran_at": "2026-05-15T05:02:28+00:00",
+      "mode": "scan",
+      "issues_total": 4
+    }
+  ],
+  "issues": [
+    {
+      "category": "§2.3 finiet participium",
+      "verse": 23,
+      "severity": "soft",
+      "quote_modernized": "…jaar oud te zijn, en hij was (zoals men meende)   de zoon van Jozef,   de zoon v…",
+      "rule_reference": "MODERNISATIE.md §2.3",
+      "explanation": "'meende' — verdacht -ende-woord in adverbial / clause-final positie. Ontvouw naar finiete bijzin ('en X', 'terwijl X', 'toen X').",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "LUK-3-23-001",
+      "status": "verified",
+      "rebuttal": "'meende' in '(zoals men meende)' is finiet verleden van 'menen' (3sg pret. ind.) — niet een adverbiaal -ende-participium. Vergelijk Gr. 'ὡς ἐνομίζετο' (impf. pass. 'zoals (algemeen) gedacht werd'); de SV vertaalt dit met 'meynde' (verl.tijd), niet met participium. §2.3 betreft het tegenwoordig deelwoord op -ende; deze hit is heuristische false-positive op het suffix '-ende' in de pret.indicatief 'meende'.",
+      "verified_at": "2026-05-10T17:31:26+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 2,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'geschie' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        2,
+        21,
+        22
+      ],
+      "id": "LUK-3-2-001",
+      "status": "verified",
+      "rebuttal": "Origineel-stam 'geschie' (van γίνομαι/ἐγένετο) bestrijkt drie verschillende semantische contexten in dit hoofdstuk: (v2) profetische woord-formule 'ἐγένετο ῥῆμα Θεοῦ ἐπί' = OT-idioom 'het woord van JHWH kwam tot' → 'kwam het woord' is correct (vgl. Jr. 1:2, Jh. 1:1 LXX-patroon); (v21) narratieve 'Ἐγένετο δὲ ἐν τῷ' = klassiek Lukaans 'het gebeurde toen' → 'het gebeurde'; (v22) 'φωνὴν γενέσθαι' = 'er klonk een stem' (γίνομαι hier als 'tot stand komen' van geluid). MODERNISATIE.md §2.7 + concordantie-principe: concordantie is richtlijn waar het Griekse woord eenduidig is; γίνομαι is polyseem en context-gevoelig. Drie verschillende renderingen zijn hier vertaaltechnisch verantwoord, niet drift.",
+      "verified_at": "2026-05-10T17:31:26+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 10,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'seggend' in 4 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 4 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        10,
+        14,
+        16,
+        22
+      ],
+      "id": "LUK-3-10-001",
+      "status": "verified",
+      "rebuttal": "Artefact van s→z spellingsnormalisatie (§2.1 + ARCHAISMEN.md): SV-origineel 'seggende' wordt consistent gerenderd als 'zeggende' in alle vier verzen (v10, v14, v16, v22). Concordantie is dus volledig bewaard; de prefix-overlap heuristiek mist dit omdat 'zeggende' niet met 's' begint. NB: alle vier hits vallen samen met de openstaande §2.3-issues (LUK-3-{4,10,14,16,22}-001); na uniforme unfolding daar blijft concordantie automatisch behouden.",
+      "verified_at": "2026-05-10T17:31:26+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 23,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'iosephs' in 4 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 4 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        23,
+        24,
+        26,
+        30
+      ],
+      "id": "LUK-3-23-002",
+      "status": "verified",
+      "rebuttal": "Artefact van NBV21-eigennamen-normalisatie (§2.4 + ARCHAISMEN.md 'Eigennamen-mapping'): SV-origineel 'Iosephs' (gen. van Ioseph) wordt consistent gerenderd als '(van) Jozef' in v23, v24, v26, v30. Concordantie volledig bewaard; prefix-overlap heuristiek faalt door I→J + os→oz spellingsverandering. Geen drift.",
+      "verified_at": "2026-05-10T17:31:26+00:00"
+    }
+  ]
+}

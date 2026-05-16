@@ -1,0 +1,956 @@
+<!DOCTYPE html>
+<html lang="nl" class="dark">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-759RQ3B53S"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-759RQ3B53S');
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SVmodernisatie 2026</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+      }
+    </script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Inter:wght@400;500;700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Frank+Ruhl+Libre:wght@400;700&display=swap');
+
+      body {
+        font-family: 'Roboto', 'Inter', sans-serif;
+      }
+
+      /* Kopjes: Roboto */
+      h1, h2, h3, h4, h5, h6 {
+        font-family: 'Roboto', 'Inter', sans-serif;
+      }
+
+      /* Lopende tekst: Libre Baskerville */
+      .verse-main-text p {
+        font-family: 'Libre Baskerville', Georgia, serif;
+        line-height: 1.6;
+      }
+
+      .verse-references-block {
+        font-family: 'Libre Baskerville', Georgia, serif;
+      }
+
+      .intro-text, .epilogue-text {
+        font-family: 'Libre Baskerville', Georgia, serif;
+      }
+
+      /* Hebreeuwse tekst: Frank Ruhl Libre */
+      .hebrew-text {
+        font-family: 'Frank Ruhl Libre', 'SBL Hebrew', serif;
+        direction: rtl;
+        line-height: 1.8;
+        font-size: 1.125rem; /* 18px - groter voor Hebreeuws */
+      }
+
+      /* Griekse tekst */
+      .greek-text {
+        font-family: 'Frank Ruhl Libre', serif;
+        line-height: 1.7;
+        font-size: 0.875rem; /* 14px - kleiner voor Grieks */
+      }
+
+      /* UI-elementen: Roboto/Inter */
+      button, label, input, select, textarea {
+        font-family: 'Roboto', 'Inter', sans-serif;
+      }
+
+      sup {
+        line-height: 0;
+        position: relative;
+        vertical-align: baseline;
+        top: -0.5em;
+        font-size: 0.75em;
+        padding: 0 0.1em;
+        color: #f97316;
+      }
+      .font-bold sup {
+        font-weight: normal;
+      }
+
+      /* SV-vertalers-toevoegingen: vierkante haken visueel onderscheiden */
+      .sv-bracket {
+        color: #b45309;
+        font-style: italic;
+      }
+      .dark .sv-bracket {
+        color: #fbbf24;
+      }
+
+      /* table cells stay top-aligned */
+      .verse-row td:nth-child(2),
+      .verse-row td:nth-child(3) {
+        vertical-align: top;
+      }
+    </style>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body class="bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-gray-200">
+    <div id="root"></div>
+
+    <script type="text/babel">
+        const { useState, useCallback, useMemo, useEffect, useRef } = React;
+
+        /* ================= Bible Books Data (66 books) ================= */
+
+        // Boeken met (deels) gemoderniseerde output. Source-language is per
+        // boek bekend zodat de viewer de brontekst-kolom correct kan stylen.
+        const BIBLE_BOOKS = [
+          { abbr: 'LUK', name: 'Lucas', chapters: 22, sourceLanguage: 'Grieks' },
+          { abbr: 'MRK', name: 'Marcus', chapters: 1, sourceLanguage: 'Grieks' },
+        ];
+
+        const OT_BOOKS = BIBLE_BOOKS.filter(b => b.sourceLanguage === 'Hebreeuws');
+        const NT_BOOKS = BIBLE_BOOKS.filter(b => b.sourceLanguage === 'Grieks');
+
+        /* ================= Icons ================= */
+
+        const InfoIcon = ({ className }) => (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className={className}
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            aria-hidden="true"
+          >
+            <circle cx="12" cy="12" r="10" />
+            <line x1="12" y1="16" x2="12" y2="12" stroke="white" strokeWidth="2" strokeLinecap="round" />
+            <circle cx="12" cy="8" r="1" fill="white" />
+          </svg>
+        );
+
+        const MoonIcon = ({ className }) => (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className={className}
+            viewBox="0 0 20 20"
+            fill="currentColor"
+          >
+            <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z" />
+          </svg>
+        );
+
+        const SunIcon = ({ className }) => (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className={className}
+            viewBox="0 0 20 20"
+            fill="currentColor"
+          >
+            <path fillRule="evenodd" d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" clipRule="evenodd" />
+          </svg>
+        );
+
+        /* ================= Book/Chapter Selector ================= */
+
+        const BookChapterSelector = ({ onLoad, currentBook, currentChapter, loading }) => {
+          const [selectedBook, setSelectedBook] = useState(currentBook || 'LUK');
+          const [selectedChapter, setSelectedChapter] = useState(currentChapter || 1);
+
+          const selectedBookData = useMemo(() =>
+            BIBLE_BOOKS.find(b => b.abbr === selectedBook) || BIBLE_BOOKS[0],
+            [selectedBook]
+          );
+
+          const chapters = useMemo(() =>
+            Array.from({ length: selectedBookData.chapters }, (_, i) => i + 1),
+            [selectedBookData]
+          );
+
+          useEffect(() => {
+            if (selectedChapter > selectedBookData.chapters) {
+              setSelectedChapter(1);
+            }
+          }, [selectedBook, selectedBookData.chapters, selectedChapter]);
+
+          useEffect(() => {
+            setSelectedBook(currentBook);
+            setSelectedChapter(currentChapter);
+          }, [currentBook, currentChapter]);
+
+          return (
+            <div className="flex items-center gap-2 flex-wrap">
+              <select
+                value={selectedBook}
+                disabled={loading}
+                onChange={(e) => {
+                  const book = e.target.value;
+                  setSelectedBook(book);
+                  setSelectedChapter(1);
+                  onLoad(book, 1);
+                }}
+                className="px-3 py-2 text-sm border border-gray-300 dark:border-gray-600 rounded-md focus:ring-2 focus:ring-sky-500 focus:border-sky-500 bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-200 disabled:opacity-50"
+              >
+                {OT_BOOKS.length > 0 && (
+                  <optgroup label="Oude Testament">
+                    {OT_BOOKS.map(book => (
+                      <option key={book.abbr} value={book.abbr}>
+                        {book.name}
+                      </option>
+                    ))}
+                  </optgroup>
+                )}
+                {NT_BOOKS.length > 0 && (
+                  <optgroup label="Nieuwe Testament">
+                    {NT_BOOKS.map(book => (
+                      <option key={book.abbr} value={book.abbr}>
+                        {book.name}
+                      </option>
+                    ))}
+                  </optgroup>
+                )}
+              </select>
+
+              <select
+                value={selectedChapter}
+                disabled={loading}
+                onChange={(e) => {
+                  const ch = parseInt(e.target.value);
+                  setSelectedChapter(ch);
+                  onLoad(selectedBook, ch);
+                }}
+                className="px-3 py-2 text-sm border border-gray-300 dark:border-gray-600 rounded-md focus:ring-2 focus:ring-sky-500 focus:border-sky-500 bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-200 w-20 disabled:opacity-50"
+              >
+                {chapters.map(ch => (
+                  <option key={ch} value={ch}>
+                    {ch}
+                  </option>
+                ))}
+              </select>
+
+              {loading && (
+                <span className="text-sm text-gray-500 dark:text-gray-400">Laden...</span>
+              )}
+            </div>
+          );
+        };
+
+        /* ================= Header ================= */
+
+        const Header = ({ fileName, onLoadNew, onLoadBookChapter, currentBook, currentChapter, loading, darkMode, toggleDarkMode }) => {
+          return (
+            <header className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm sticky top-0 z-10 w-full border-b border-gray-200 dark:border-gray-700">
+              <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div className="flex items-center justify-between h-16">
+                  <div className="flex items-center gap-4 flex-wrap">
+                    <h1 className="text-xl font-bold text-sky-600 dark:text-sky-400">
+                      SVmodernisatie 2026
+                    </h1>
+                    <BookChapterSelector
+                      onLoad={onLoadBookChapter}
+                      currentBook={currentBook}
+                      currentChapter={currentChapter}
+                      loading={loading}
+                    />
+                  </div>
+                  <div className="flex items-center space-x-4">
+                    {fileName && (
+                      <button
+                        onClick={onLoadNew}
+                        className="px-4 py-2 text-sm font-medium text-gray-800 dark:text-gray-200 bg-gray-200 dark:bg-gray-700 rounded-md hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 dark:focus:ring-offset-gray-800 focus:ring-gray-400"
+                      >
+                        Nieuw Bestand
+                      </button>
+                    )}
+                    <button
+                      onClick={toggleDarkMode}
+                      className="p-2 text-gray-600 dark:text-gray-300 hover:text-sky-600 dark:hover:text-sky-400 transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-sky-500 rounded-md"
+                      aria-label="Toggle dark mode"
+                      title={darkMode ? 'Lichte modus' : 'Donkere modus'}
+                    >
+                      {darkMode ? (
+                        <SunIcon className="w-6 h-6" />
+                      ) : (
+                        <MoonIcon className="w-6 h-6" />
+                      )}
+                    </button>
+                    <a
+                      href="https://github.com/wmotte/SVmodernisatie2026"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="p-2 text-sky-600 dark:text-sky-400 hover:text-sky-700 dark:hover:text-sky-300 transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-sky-500 rounded-md"
+                      aria-label="Informatie"
+                      title="Meer informatie"
+                    >
+                      <InfoIcon className="w-6 h-6" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </header>
+          );
+        };
+
+        /* ================= File Upload ================= */
+
+        const FileUpload = ({ onFileUpload, setFileName }) => {
+          const handleFileChange = useCallback((event) => {
+            const file = event.target.files?.[0];
+            if (file) {
+              setFileName(file.name);
+              const reader = new FileReader();
+              reader.onload = (e) => {
+                try {
+                  const content = e.target?.result;
+                  if (typeof content === 'string') {
+                    const data = JSON.parse(content);
+                    onFileUpload(data);
+                  }
+                } catch (error) {
+                  console.error("Fout bij het parsen van JSON:", error);
+                  alert("Ongeldig JSON-bestand.");
+                }
+              };
+              reader.readAsText(file);
+            }
+          }, [onFileUpload, setFileName]);
+
+          return (
+            <div className="w-full flex justify-center p-8 border-2 border-dashed border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-800 hover:bg-gray-50 dark:hover:bg-gray-750 transition-colors">
+              <label htmlFor="file-upload" className="cursor-pointer flex flex-col items-center text-center">
+                <svg xmlns="http://www.w3.org/2000/svg" className="w-12 h-12 text-gray-400 dark:text-gray-500 mb-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12" />
+                </svg>
+                <span className="text-lg font-semibold text-sky-600 dark:text-sky-400">Kies een bestand</span>
+                <span className="mt-1 text-sm text-gray-500 dark:text-gray-400">of sleep het hierheen</span>
+                <span className="mt-1 text-xs text-gray-400 dark:text-gray-500">JSON-formaat vereist</span>
+              </label>
+              <input
+                id="file-upload"
+                type="file"
+                accept=".json"
+                className="hidden"
+                onChange={handleFileChange}
+              />
+            </div>
+          );
+        };
+
+        /* ================= Helpers ================= */
+
+        // SV-vertalers gebruiken [...] voor toevoegingen die niet in de
+        // brontekst staan. We renderen die haken visueel onderscheidend
+        // (italic + amber). Dit gebeurt alleen op de plain-text gedeeltes
+        // tussen de $...$ en <...> markers, om interferentie met
+        // marker-content te vermijden.
+        const renderBrackets = (s) =>
+          s.replace(/\[([^\]]+)\]/g, '<span class="sv-bracket">[$1]</span>');
+
+        // Turn $...$ and <...> markers into <sup>1</sup> etc. and collect notes
+        const parseTextWithMarkers = (text) => {
+            if (!text) return { textWithMarkers: '', references: [], annotations: [] };
+
+            let counter = 0;
+            const references = [];
+            const annotations = [];
+
+            // $...$   -> reference
+            // <...>   -> annotation
+            const regex = /(\$(.*?)\$)|(<(.*?)>)/g;
+
+            let lastIndex = 0;
+            const parts = [];
+
+            let match;
+            while ((match = regex.exec(text)) !== null) {
+              parts.push(renderBrackets(text.substring(lastIndex, match.index)));
+
+              counter++;
+              const refContent = match[2];
+              const noteContent = match[4];
+
+              if (refContent !== undefined) {
+                references.push({ id: counter, content: refContent.trim() });
+              } else if (noteContent !== undefined) {
+                const processedNote = noteContent.trim().replace(/\$(.*?)\$/g, '«$1»');
+                annotations.push({ id: counter, content: processedNote });
+              }
+
+              parts.push(`<sup>${counter}</sup>`);
+
+              lastIndex = regex.lastIndex;
+
+              // Skip a single space after the marker if present
+              if (lastIndex < text.length && text[lastIndex] === ' ') {
+                lastIndex++;
+              }
+            }
+
+            parts.push(renderBrackets(text.substring(lastIndex)));
+
+            const textWithMarkers = parts.join('');
+
+            return { textWithMarkers, references, annotations };
+        };
+
+        /* ================= TextContent =================
+           mainRef: ref to the main verse text block
+           offsetTopPx: how much to push the Kanttekeningen block down
+        =================================================*/
+        const TextContent = ({
+          textWithMarkers,
+          references,
+          annotations,
+          className,
+          mainRef,
+          offsetTopPx
+        }) => {
+
+          const hasNotesOrRefs = references.length > 0 || annotations.length > 0;
+          const hasBoth = references.length > 0 && annotations.length > 0;
+
+          const combinedItems = hasBoth
+            ? [...references, ...annotations].sort((a, b) => a.id - b.id)
+            : null;
+
+          return (
+            <div>
+              {/* main text */}
+              <div className="verse-main-text" ref={mainRef}>
+                <p
+                  className={className}
+                  dangerouslySetInnerHTML={{ __html: textWithMarkers }}
+                />
+              </div>
+
+              {/* kanttekeningen / verwijzingen */}
+              {hasNotesOrRefs && (
+                <div
+                  className="verse-references-block"
+                  style={{
+                    marginTop: (offsetTopPx ?? 0) + 16, // 16px == 1rem gap
+                  }}
+                >
+                  {hasBoth ? (
+                    <div>
+                      <p className="text-sm font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wider mb-2 text-center">
+                        Verwijzingen &amp; Kanttekeningen
+                      </p>
+                      <div className="space-y-1">
+                        {combinedItems.map(item => (
+                          <div
+                            key={item.id}
+                            className="flex items-start text-sm text-gray-600 dark:text-gray-300"
+                          >
+                            <span
+                              className="w-3 flex-shrink-0 text-right mr-1"
+                              style={{ color: '#f97316' }}
+                            >
+                              {item.id}
+                            </span>
+                            <span>{item.content}</span>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  ) : (
+                    <div className="flex flex-row gap-8">
+                      {references.length > 0 && (
+                        <div className="flex-1 min-w-0">
+                          <p className="text-sm font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wider mb-2 text-center">
+                            Verwijzingen
+                          </p>
+                          <div className="space-y-1">
+                            {references.map(ref => (
+                              <div
+                                key={ref.id}
+                                className="flex items-start text-sm text-gray-600 dark:text-gray-300"
+                              >
+                                <span
+                                  className="w-3 flex-shrink-0 text-right mr-1"
+                                  style={{ color: '#f97316' }}
+                                >
+                                  {ref.id}
+                                </span>
+                                <span>{ref.content}</span>
+                              </div>
+                            ))}
+                          </div>
+                        </div>
+                      )}
+                      {annotations.length > 0 && (
+                        <div className="flex-1 min-w-0">
+                          <p className="text-sm font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wider mb-2 text-center">
+                            Kanttekeningen
+                          </p>
+                          <div className="space-y-1">
+                            {annotations.map(note => (
+                              <div
+                                key={note.id}
+                                className="flex items-start text-sm text-gray-600 dark:text-gray-300"
+                              >
+                                <span
+                                  className="w-3 flex-shrink-0 text-right mr-1"
+                                  style={{ color: '#f97316' }}
+                                >
+                                  {note.id}
+                                </span>
+                                <span>{note.content}</span>
+                              </div>
+                            ))}
+                          </div>
+                        </div>
+                      )}
+                    </div>
+                  )}
+                </div>
+              )}
+            </div>
+          );
+        };
+
+        /* ================= NotesPanel =================
+           Toont het optionele `notes`-array per vers (zie OUTPUT_SCHEMA.md):
+           type ∈ {twijfel, afwijking, context}, subject, context, choice,
+           alternatives, reason. Standaard ingeklapt; toggle via header.
+        =================================================*/
+        const TYPE_BADGE_COLORS = {
+          twijfel: 'bg-amber-100 text-amber-800 dark:bg-amber-900/40 dark:text-amber-200',
+          afwijking: 'bg-rose-100 text-rose-800 dark:bg-rose-900/40 dark:text-rose-200',
+          context: 'bg-sky-100 text-sky-800 dark:bg-sky-900/40 dark:text-sky-200',
+        };
+
+        const NotesPanel = ({ notes: rawNotes }) => {
+          const [open, setOpen] = useState(false);
+          // Defensief: notes hoort een array-van-objects te zijn (zie
+          // OUTPUT_SCHEMA.md), maar oudere data kan een losse string of
+          // array-van-strings bevatten — normaliseer naar dict-vorm.
+          const notesArr = typeof rawNotes === 'string'
+            ? [{ type: 'context', reason: rawNotes }]
+            : (Array.isArray(rawNotes) ? rawNotes : []);
+          const notes = notesArr.map(n => (typeof n === 'string') ? { type: 'context', reason: n } : n);
+          if (notes.length === 0) return null;
+
+          return (
+            <div className="mt-4 border-l-4 border-amber-400 dark:border-amber-500 bg-amber-50 dark:bg-amber-900/20 rounded-r">
+              <button
+                onClick={() => setOpen(o => !o)}
+                className="w-full flex items-center justify-between px-3 py-2 text-left text-sm font-medium text-amber-900 dark:text-amber-100 hover:bg-amber-100 dark:hover:bg-amber-900/30 transition-colors rounded-r"
+              >
+                <span>Notes ({notes.length})</span>
+                <span className="text-xs">{open ? '▾' : '▸'}</span>
+              </button>
+              {open && (
+                <div className="px-3 pb-3 space-y-3">
+                  {notes.map((note, idx) => (
+                    <div key={idx} className="text-xs text-amber-900 dark:text-amber-100">
+                      <div className="flex items-center gap-2 mb-1">
+                        <span className={`px-2 py-0.5 rounded text-[10px] uppercase tracking-wider ${TYPE_BADGE_COLORS[note.type] || 'bg-gray-200 text-gray-800 dark:bg-gray-700 dark:text-gray-200'}`}>
+                          {note.type || 'note'}
+                        </span>
+                        {note.subject && (
+                          <span className="font-semibold">{note.subject}</span>
+                        )}
+                      </div>
+                      {note.context && (
+                        <div><span className="font-medium">Context:</span> {note.context}</div>
+                      )}
+                      {note.choice && (
+                        <div><span className="font-medium">Keuze:</span> {note.choice}</div>
+                      )}
+                      {Array.isArray(note.alternatives) && note.alternatives.length > 0 && (
+                        <div>
+                          <span className="font-medium">Alternatieven:</span>{' '}
+                          {note.alternatives.join(' / ')}
+                        </div>
+                      )}
+                      {note.reason && (
+                        <div><span className="font-medium">Reden:</span> {note.reason}</div>
+                      )}
+                    </div>
+                  ))}
+                </div>
+              )}
+            </div>
+          );
+        };
+
+        /* ================= VerseDisplay =================
+           For each verse row:
+           - measure both main text blocks
+           - compute max height
+           - push the references block in the *shorter* column down
+        =================================================*/
+        const VerseDisplay = ({ verse, sourceLanguage }) => {
+          const original = useMemo(() => parseTextWithMarkers(verse.original), [verse.original]);
+          const final = useMemo(() => parseTextWithMarkers(verse.modernized), [verse.modernized]);
+
+          // Detecteer of het Grieks of Hebreeuws is via regex
+          const isGreek = /Grieks/i.test(sourceLanguage);
+
+          const originalMainRef = useRef(null);
+          const finalMainRef = useRef(null);
+
+          const [offsets, setOffsets] = useState({ left: 0, right: 0 });
+
+          useEffect(() => {
+            const syncOffsets = () => {
+              const hLeft = originalMainRef.current ? originalMainRef.current.offsetHeight : 0;
+              const hRight = finalMainRef.current ? finalMainRef.current.offsetHeight : 0;
+              const maxH = Math.max(hLeft, hRight);
+
+              setOffsets({
+                left: maxH - hLeft,
+                right: maxH - hRight,
+              });
+            };
+
+            // run now and whenever the window is resized (reflow might change line breaks)
+            syncOffsets();
+            window.addEventListener('resize', syncOffsets);
+            return () => {
+              window.removeEventListener('resize', syncOffsets);
+            };
+          }, []);
+
+          return (
+            <tr className="verse-row hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors align-top">
+              {/* verse number */}
+              <td className="px-4 py-4 align-top text-left">
+                <span className="text-2xl font-bold text-sky-600 dark:text-sky-400 font-sans">
+                  {verse.verse_number}
+                </span>
+              </td>
+
+              {/* left column (Statenvertaling 1657) */}
+              <td className="px-4 py-4 align-top">
+                <TextContent
+                  textWithMarkers={original.textWithMarkers}
+                  references={original.references}
+                  annotations={original.annotations}
+                  className="text-gray-700 dark:text-gray-300"
+                  mainRef={originalMainRef}
+                  offsetTopPx={offsets.left}
+                />
+              </td>
+
+              {/* right column (In hedendaagse taal) */}
+              <td className="px-4 py-4 align-top">
+                <TextContent
+                  textWithMarkers={final.textWithMarkers}
+                  references={final.references}
+                  annotations={final.annotations}
+                  className="text-gray-900 dark:text-gray-100 font-bold"
+                  mainRef={finalMainRef}
+                  offsetTopPx={offsets.right}
+                />
+                <NotesPanel notes={verse.notes} />
+              </td>
+
+              {/* source text */}
+              <td className="px-4 py-4 align-top">
+                <p
+                  className={`${isGreek ? 'greek-text' : 'hebrew-text'} text-gray-400 dark:text-gray-500`}
+                  style={{ fontFamily: "'Frank Ruhl Libre', 'SBL Hebrew', serif" }}
+                >
+                  {verse.source_text}
+                </p>
+              </td>
+            </tr>
+          );
+        };
+
+        /* ================= ScrollToTopButton ================= */
+
+        const ScrollToTopButton = () => {
+          const scrollToTop = useCallback(() => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+          }, []);
+
+          return (
+            <button
+              onClick={scrollToTop}
+              aria-label="Naar boven"
+              title="Naar boven"
+              style={{ position: 'fixed', bottom: '1.5rem', right: '1.5rem', zIndex: 50 }}
+              className="p-3 rounded-full bg-sky-600 hover:bg-sky-700 text-white shadow-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-sky-500 transition-colors"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2.5">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M5 15l7-7 7 7" />
+              </svg>
+            </button>
+          );
+        };
+
+        /* ================= Main App ================= */
+
+        const App = () => {
+          const [bibleData, setBibleData] = useState(null);
+          const [fileName, setFileName] = useState(null);
+          const [currentBook, setCurrentBook] = useState('LUK');
+          const [currentChapter, setCurrentChapter] = useState(1);
+          const [loading, setLoading] = useState(false);
+          const [error, setError] = useState(null);
+          const [darkMode, setDarkMode] = useState(() => {
+            const saved = localStorage.getItem('darkMode');
+            return saved ? JSON.parse(saved) : true;
+          });
+
+          useEffect(() => {
+            if (darkMode) {
+              document.documentElement.classList.add('dark');
+            } else {
+              document.documentElement.classList.remove('dark');
+            }
+            localStorage.setItem('darkMode', JSON.stringify(darkMode));
+          }, [darkMode]);
+
+          const toggleDarkMode = useCallback(() => {
+            setDarkMode(prev => !prev);
+          }, []);
+
+          const loadChapter = useCallback(async (bookAbbr, chapter) => {
+            setLoading(true);
+            setError(null);
+            const filePath = `inputs/${bookAbbr}/${bookAbbr}.${chapter}.json`;
+
+            try {
+              const response = await fetch(filePath);
+              if (!response.ok) {
+                throw new Error(`Bestand niet gevonden: ${filePath}`);
+              }
+              const data = await response.json();
+              if (data && data.book && Array.isArray(data.verses)) {
+                setBibleData(data);
+                setFileName(filePath);
+                setCurrentBook(bookAbbr);
+                setCurrentChapter(chapter);
+              } else {
+                throw new Error("Onverwachte bestandsstructuur");
+              }
+            } catch (err) {
+              console.error("Fout bij het laden:", err);
+              setError(`Kon ${filePath} niet laden. Controleer of het bestand bestaat.`);
+              setBibleData(null);
+            } finally {
+              setLoading(false);
+            }
+          }, []);
+
+          // Load default chapter on mount (Lucas 1)
+          useEffect(() => {
+            loadChapter('LUK', 1);
+          }, [loadChapter]);
+
+          const handleFileUpload = useCallback((data) => {
+            if (data && data.book && Array.isArray(data.verses)) {
+              setBibleData(data);
+              setError(null);
+            } else {
+              alert("Het geüploade bestand heeft niet de verwachte structuur.");
+            }
+          }, []);
+
+          const handleLoadNew = useCallback(() => {
+            setBibleData(null);
+            setFileName(null);
+            setError(null);
+          }, []);
+
+          return (
+            <div className="min-h-screen bg-gray-100 dark:bg-gray-900">
+              <Header
+                fileName={fileName}
+                onLoadNew={handleLoadNew}
+                onLoadBookChapter={loadChapter}
+                currentBook={currentBook}
+                currentChapter={currentChapter}
+                loading={loading}
+                darkMode={darkMode}
+                toggleDarkMode={toggleDarkMode}
+              />
+              <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+                {error && (
+                  <div className="mb-6 p-4 bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800 rounded-lg text-red-700 dark:text-red-300">
+                    <p className="font-medium">{error}</p>
+                    <div className="mt-4">
+                      <FileUpload
+                        onFileUpload={handleFileUpload}
+                        setFileName={setFileName}
+                      />
+                    </div>
+                  </div>
+                )}
+
+                {loading && (
+                  <div className="text-center py-12">
+                    <div className="inline-block animate-spin rounded-full h-8 w-8 border-4 border-sky-600 dark:border-sky-400 border-t-transparent"></div>
+                    <p className="mt-4 text-gray-600 dark:text-gray-400">Laden...</p>
+                  </div>
+                )}
+
+                {!loading && !error && !bibleData && (
+                  <div className="text-center">
+                    <h2 className="text-3xl font-extrabold text-gray-900 dark:text-gray-100 sm:text-4xl mb-4">
+                      Welkom
+                    </h2>
+                    <p className="mt-4 text-lg text-gray-600 dark:text-gray-400 mb-8">
+                      Kies een bijbelboek en hoofdstuk hierboven, of upload een JSON-bestand om de vertalingen te vergelijken.
+                    </p>
+                    <FileUpload
+                      onFileUpload={handleFileUpload}
+                      setFileName={setFileName}
+                    />
+                  </div>
+                )}
+
+                {!loading && !error && bibleData && (() => {
+                  const bookData = BIBLE_BOOKS.find(b => b.abbr === bibleData.book);
+                  const sourceLanguage = bookData?.sourceLanguage || 'Grieks';
+                  const bookName = bookData?.name || bibleData.book;
+                  return (
+                  <div>
+                    <div className="mb-8 p-6 bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg">
+                      <div className="text-center">
+                        <h2 className="text-4xl font-bold text-gray-900 dark:text-gray-100">
+                          {bookName} {bibleData.chapter}
+                        </h2>
+                      </div>
+
+                      {bibleData.introduction?.original && (
+                        <div className="mt-6 pt-6 border-t border-gray-200 dark:border-gray-700">
+                          <h3 className="text-center text-lg font-semibold text-gray-700 dark:text-gray-300 mb-4">
+                            Inleiding
+                          </h3>
+                          <div className="grid md:grid-cols-2 gap-x-8">
+                            <div>
+                              <h4 className="text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wider mb-2">
+                                Statenvertaling 1657
+                              </h4>
+                              <p
+                                className="intro-text text-base text-gray-700 dark:text-gray-300"
+                                style={{
+                                  fontFamily: "'Libre Baskerville', Georgia, serif",
+                                  lineHeight: 1.6,
+                                }}
+                              >
+                                {bibleData.introduction.original}
+                              </p>
+                            </div>
+                            <div>
+                              <h4 className="text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wider mb-2">
+                                In hedendaagse taal
+                              </h4>
+                              <p
+                                className="intro-text text-base font-bold text-gray-900 dark:text-gray-100"
+                                style={{
+                                  fontFamily: "'Libre Baskerville', Georgia, serif",
+                                  lineHeight: 1.6,
+                                }}
+                              >
+                                {bibleData.introduction.modernized}
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      )}
+                    </div>
+
+                    <div className="bg-white dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-700 shadow-sm overflow-hidden">
+                      <div className="overflow-x-auto">
+                        <table className="min-w-full">
+                          <thead className="bg-gray-50 dark:bg-gray-900">
+                            <tr>
+                              <th
+                                scope="col"
+                                className="w-16 px-4 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wider"
+                              >
+                                Vers
+                              </th>
+                              <th
+                                scope="col"
+                                className="px-4 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wider"
+                              >
+                                Statenvertaling 1657
+                              </th>
+                              <th
+                                scope="col"
+                                className="px-4 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wider"
+                              >
+                                In hedendaagse taal
+                              </th>
+                              <th
+                                scope="col"
+                                className="w-64 px-4 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wider"
+                              >
+                                Brontekst ({sourceLanguage})
+                              </th>
+                            </tr>
+                          </thead>
+                          <tbody className="divide-y divide-gray-200 dark:divide-gray-700">
+                            {bibleData.verses.map((verse) => (
+                              <VerseDisplay
+                                key={verse.verse_number}
+                                verse={verse}
+                                sourceLanguage={sourceLanguage}
+                              />
+                            ))}
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+
+                    {bibleData.epilogue?.original && (
+                      <div className="mt-8 p-6 bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg">
+                        <h3 className="text-center text-lg font-semibold text-gray-700 dark:text-gray-300 mb-4">
+                          Nawoord
+                        </h3>
+                        <div className="grid md:grid-cols-2 gap-x-8">
+                          <div>
+                            <h4 className="text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wider mb-2">
+                              Statenvertaling 1657
+                            </h4>
+                            <p
+                              className="epilogue-text text-base text-gray-700 dark:text-gray-300"
+                              style={{
+                                fontFamily: "'Libre Baskerville', Georgia, serif",
+                                lineHeight: 1.6,
+                              }}
+                            >
+                              {bibleData.epilogue.original}
+                            </p>
+                          </div>
+                          <div>
+                            <h4 className="text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wider mb-2">
+                              In hedendaagse taal
+                            </h4>
+                            <p
+                              className="epilogue-text text-base font-bold text-gray-900 dark:text-gray-100"
+                              style={{
+                                fontFamily: "'Libre Baskerville', Georgia, serif",
+                                lineHeight: 1.6,
+                              }}
+                            >
+                              {bibleData.epilogue.modernized}
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    )}
+                  </div>
+                  );
+                })()}
+              </main>
+              <ScrollToTopButton />
+            </div>
+          );
+        };
+
+        /* ================= Render ================= */
+
+        const root = ReactDOM.createRoot(document.getElementById('root'));
+        root.render(<App />);
+    </script>
+</body>
+</html>

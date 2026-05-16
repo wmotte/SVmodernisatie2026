@@ -1,0 +1,186 @@
+{
+  "book": "LUK",
+  "chapter": 4,
+  "reviewed_at": "2026-05-15T05:02:28+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-10T17:08:00+00:00",
+      "mode": "scan",
+      "issues_total": 15
+    },
+    {
+      "pass": 1,
+      "ran_at": "2026-05-10T17:25:00+00:00",
+      "mode": "in-context-aanvulling",
+      "rebutted": 4,
+      "added": 1
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-10T17:20:07+00:00",
+      "mode": "scan",
+      "issues_total": 15
+    },
+    {
+      "pass": 1,
+      "ran_at": "2026-05-10T17:24:42+00:00",
+      "mode": "fixes-applied",
+      "fixes": 10,
+      "rebuttals": 1,
+      "open": 0
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-10T17:24:50+00:00",
+      "mode": "verify",
+      "actions": [
+        "LUK-4-3-001: verified",
+        "LUK-4-4-001: verified",
+        "LUK-4-7-001: verified",
+        "LUK-4-9-001: verified",
+        "LUK-4-18-001: verified",
+        "LUK-4-19-001: verified",
+        "LUK-4-24-001: rebuttal verified",
+        "LUK-4-26-001: verified",
+        "LUK-4-34-001: verified",
+        "LUK-4-35-001: verified",
+        "LUK-4-36-001: verified",
+        "LUK-4-41-001: rebuttal verified",
+        "LUK-4-4-002: rebuttal verified",
+        "LUK-4-6-001: rebuttal verified",
+        "LUK-4-19-002: rebuttal verified"
+      ]
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-05-10T19:15:31+00:00",
+      "mode": "scan",
+      "issues_total": 7
+    },
+    {
+      "pass": 4,
+      "ran_at": "2026-05-10T19:24:49+00:00",
+      "mode": "verify",
+      "actions": [
+        "LUK-4-16-001: verified",
+        "LUK-4-22-001: verified"
+      ]
+    },
+    {
+      "pass": 5,
+      "ran_at": "2026-05-10T19:53:14+00:00",
+      "mode": "scan",
+      "issues_total": 6
+    },
+    {
+      "pass": 6,
+      "ran_at": "2026-05-10T19:56:29+00:00",
+      "mode": "verify",
+      "actions": [
+        "LUK-4-23-001: verified"
+      ]
+    },
+    {
+      "pass": 7,
+      "ran_at": "2026-05-15T04:56:47+00:00",
+      "mode": "scan",
+      "issues_total": 5
+    },
+    {
+      "pass": 8,
+      "ran_at": "2026-05-15T05:02:28+00:00",
+      "mode": "scan",
+      "issues_total": 5
+    }
+  ],
+  "issues": [
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 24,
+      "severity": "soft",
+      "quote_modernized": "En hij zei: Voorwaar, ik zeg u,   dat geen   Profeet…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'voorwaar' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "LUK-4-24-001",
+      "status": "verified",
+      "rebuttal": "'Voorwaar, ik zeg u' is de gestolde Nederlandse renderering van Grieks ἀμὴν λέγω ὑμῖν — een religieus-formulaire vakterm die in elke reformatorische bijbeltraditie (SV, NBG'51, HSV) onveranderd doorloopt. §2.7 productiviteitstest erkent vaste vakuitdrukkingen als acceptabel buiten de zakelijk-NL norm; vergelijk 'amen' zelf. Geen drempel-archaïsme maar een lexicale formule.",
+      "verified_at": "2026-05-10T17:24:50+00:00"
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 41,
+      "severity": "soft",
+      "quote_modernized": "zij wisten dat hij",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'zij wisten dat hij' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "LUK-4-41-001",
+      "status": "verified",
+      "rebuttal": "Geen redundantie maar een vertaal-alternatief. Hoofdtekst leest Grieks ὅτι als 'omdat' ('omdat zij wisten dat hij de Christus was'); kanttekening biedt het alternatief ὅτι='dat' ('zeggen dat zij wisten dat hij die Christus was') — ander syntactisch parsing van het Grieks. De woord-overlap 'zij wisten dat hij' is onvermijdelijk omdat beide lezingen dezelfde inbedding bevatten. KANTTEKENINGEN.md redundantie-regel betreft parafrastische herhaling, niet alternatieve ὅτι-lezing.",
+      "verified_at": "2026-05-10T17:24:50+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 4,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'seggend' in 5 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 5 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        4,
+        34,
+        35,
+        36,
+        41
+      ],
+      "id": "LUK-4-4-001",
+      "status": "verified",
+      "rebuttal": "Derivative-issue: alle 4 'seggend'-verzen (v4, v34, v35, v36) zijn nu ontvouwd naar finiete 'zei/zeiden'. v41 ('zeiden') was al finiet. Concordantie post-fix 100% consistent: v4 'zei', v34 'zei', v35 'zei', v36 'zeiden', v41 'zeiden'. Geen drift meer.",
+      "verified_at": "2026-05-10T17:24:50+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 6,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'gegeven' in 3 verzen — verzen [6, 20] renderen het stam anders dan [17]",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        6,
+        17,
+        20
+      ],
+      "id": "LUK-4-6-001",
+      "status": "verified",
+      "rebuttal": "Drie verschillende Griekse werkwoordsvormen: v6 δώσω (futurum δίδωμι, 'zal geven'), v17 ἐπεδόθη (passief van ἐπιδίδωμι, 'werd aangereikt'), v20 ἀποδοὺς (participium aoristus van ἀποδίδωμι, 'teruggegeven'). ἀποδίδωμι is een lexicaal aparte compound (terug-geven), niet dezelfde stam als simplex δίδωμι. AGENTS.md concordantie geldt op Grieks-stam-niveau; verschillende stammen mogen verschillend renderen. Detector matcht op Nederlandse oppervlakte-prefix 'gegeven', niet op Grieks lemma.",
+      "verified_at": "2026-05-10T17:24:50+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 19,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'aengena' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        19,
+        22,
+        24
+      ],
+      "id": "LUK-4-19-001",
+      "status": "verified",
+      "rebuttal": "False positive van prefix-detector. Alle drie verzen renderen consistent 'aangename(n)/aangenaam' — v19 'het aangename jaar', v22 'aangename woorden', v24 'aangenaam'. Detector vergelijkt SV-stam 'aengena' tegen modern-prefix 'aengena' en mist door spelling-flip (aen→aan) dat de moderniseringen identiek zijn. SV1657 koos zelf 'aengenaem' voor zowel δεκτός (v19, v24) als χάριτος (v22) — concordantie volgt SV-keuze conform AGENTS.md.",
+      "verified_at": "2026-05-10T17:24:50+00:00"
+    }
+  ]
+}

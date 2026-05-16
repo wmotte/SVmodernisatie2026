@@ -1,0 +1,30 @@
+{
+  "_comment_skillOverrides": "Hide skills from auto-suggest while keeping /<name> invocation. Useful voor de gsd.disabled-* skills die in dit project niet actief gebruikt worden.",
+  "skillOverrides": {
+    "grill-me": "name-only"
+  },
+
+  "_comment_hooks": "PreToolUse hook draait clash check vóór elke Write/Edit — vangt parallelle worktree-conflicten op zelfde output-bestand. Zie WORKTREE_WORKFLOW.md.",
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "clash check"
+          }
+        ]
+      }
+    ]
+  },
+
+  "_comment_permissions": "Allowlist die routine-prompts onderdrukt. uv run * voor scripts, Edit/Write op scripts/ omdat de orchestrator lint_carryovers.py per batch aanvult met legitieme carry-overs.",
+  "permissions": {
+    "allow": [
+      "Bash(uv run *)",
+      "Edit(scripts/**)",
+      "Write(scripts/**)"
+    ]
+  }
+}

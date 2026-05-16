@@ -1,0 +1,188 @@
+{
+  "book": "MRK",
+  "chapter": 1,
+  "reviewed_at": "2026-05-15T19:29:25+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-15T19:29:25+00:00",
+      "mode": "scan",
+      "issues_total": 8
+    }
+  ],
+  "issues": [
+    {
+      "category": "voornaamwoordelijk bijwoord gesplitst",
+      "verse": 2,
+      "severity": "hard",
+      "quote_modernized": "…3:1$, want deze beide profetieën worden hier bij elkaar gevoegd. Of: Gezant. Wan…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'hier bij' — SV-gesplitst voornaamwoordelijk bijwoord. Modern Nederlands voegt samen: 'hierbij' (bv. daarin, waarmee, hierop).",
+      "proposed_fix": "hierbij",
+      "location": "kanttekening",
+      "id": "MRK-1-2-001",
+      "status": "rebutted",
+      "rebuttal": "Geen gesplitst voornaamwoordelijk bijwoord: in 'worden hier bij elkaar gevoegd' is 'bij elkaar' een moderne idiomatische PP (vgl. 'bij elkaar leggen', 'bij elkaar komen'); 'hier' fungeert locatief-deiktisch op de tekstuele context. 'Hierbij' (= 'hierop volgend / in dezen') heeft een andere betekenis dan 'bij elkaar' (= 'samen'). De ARCHAISMEN.md-regel voor gesplitste pronominale bijwoorden (`hierin`/`waarmee`) geldt niet voor 'hier' + vaste-PP-'bij elkaar'. False positive van regex.",
+      "verified_at": "2026-05-15T19:33:15+00:00"
+    },
+    {
+      "category": "§2.3 finiet participium",
+      "verse": 4,
+      "severity": "hard",
+      "quote_modernized": "  Johannes was dopende in de woestijn, en predikte de D…",
+      "rule_reference": "MODERNISATIE.md §2.3",
+      "explanation": "'Johannes was dopende in de woestijn' is letterlijke -ende-overzetting van Gr. ἐγένετο Ἰωάννης βαπτίζων. MODERNISATIE.md §2.3 vereist ontvouwing van het finiete tegenwoordige participium naar nevenschikking met finiet werkwoord. Niet attributief, geen gestolde uitdrukking, geen vakterm. Standaard §2.3-violatie.",
+      "proposed_fix": "Johannes doopte in de woestijn, en predikte de Doop ...",
+      "location": "hoofdtekst",
+      "id": "MRK-1-4-001",
+      "status": "fixed",
+      "fix_commit": "(pending)"
+    },
+    {
+      "category": "§2.3 finiet participium",
+      "verse": 5,
+      "severity": "hard",
+      "quote_modernized": "…opt in de rivier de Jordaan, hun zonden belijdende.",
+      "rule_reference": "MODERNISATIE.md §2.3",
+      "explanation": "'hun zonden belijdende' is letterlijke -ende-overzetting van Gr. ἐξομολογούμενοι. MODERNISATIE.md §2.3 vereist ontvouwing naar nevenschikking met finiet werkwoord. Niet attributief, geen gestolde uitdrukking. Standaard §2.3-violatie aan zinseinde.",
+      "proposed_fix": "... werden allen door hem gedoopt in de rivier de Jordaan, en zij beleden hun zonden.",
+      "location": "hoofdtekst",
+      "id": "MRK-1-5-001",
+      "status": "fixed",
+      "fix_commit": "(pending)"
+    },
+    {
+      "category": "voornaamwoordelijk bijwoord gesplitst",
+      "verse": 38,
+      "severity": "hard",
+      "quote_modernized": "…lea waren, waarvan Josephus getuigt dat er in elk daarvan niet minder dan tiendu…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'er in' — SV-gesplitst voornaamwoordelijk bijwoord. Modern Nederlands voegt samen: 'erin' (bv. daarin, waarmee, hierop).",
+      "proposed_fix": "erin",
+      "location": "kanttekening",
+      "id": "MRK-1-38-001",
+      "status": "rebutted",
+      "rebuttal": "Geen gesplitst voornaamwoordelijk bijwoord: 'er in elk daarvan' = existentieel 'er' + PP 'in elk daarvan'. Modern NL: 'dat er in elk daarvan niet minder dan tienduizend mensen waren' is correcte existentiële constructie ('er waren X in Y'). 'erin' zou hier betekenis-loos zijn; daarvan = pronominaal bijwoord blijft staan. Regex matcht 'er in' ten onrechte; ARCHAISMEN.md SV-syntax-regel geldt alleen waar 'er + voorzetsel' samen ÉÉN pronominaal bijwoord vormt.",
+      "verified_at": "2026-05-15T19:33:15+00:00"
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 40,
+      "severity": "soft",
+      "quote_modernized": "…l voor hem op de knieën en zei tot hem: Indien u wilt, u kunt mij reinigen.",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "MRK-1-40-001",
+      "status": "rebutted",
+      "rebuttal": "'indien' is in dit project consistent voor εἰ/ἐάν-conditionalis (vgl. LUK 10:13, LUK 11:18, LUK 14:34 — alle gerebutteerd in eerdere reviews met identieke motivering). 'indien' slaagt §2.7-productiviteitstest in formeel/juridisch/bijbels register (HSV, NBG51 gebruiken 'indien' systematisch voor εἰ); slaagt verwarringstest (geen homoniem in modern NL). Concrete context v.40: Gr. Ἐὰν θέλῃς in directe rede van de melaatse — formeel-eerbiedige conditionalis past bij het register. Wijziging naar 'als' zou concordantie met andere Mk/Lk-passages breken zonder leesbaarheidswinst.",
+      "verified_at": "2026-05-15T19:33:15+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 1,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'euangel' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        1,
+        14,
+        15
+      ],
+      "id": "MRK-1-1-001",
+      "status": "rebutted",
+      "rebuttal": "False-positive concordantie-drift: scanner-prefix 'euangel' matcht niet met moderne 'Evangelie' wegens spelwijziging (Eu→Ev). Feitelijk zijn alle drie verzen consistent gerenderd: v.1 'het Evangelie van Jezus Christus', v.14 'het Evangelie van het Koninkrijk Gods', v.15 'geloof het Evangelie'. Concordantie εὐαγγέλιον → 'Evangelie' is 100% gehandhaafd. AGENTS.md concordantie-eis wordt vervuld.",
+      "verified_at": "2026-05-15T19:33:15+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 7,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'seggend' in 6 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 6 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        7,
+        15,
+        24,
+        25,
+        27,
+        40
+      ],
+      "id": "MRK-1-7-001",
+      "status": "rebutted",
+      "rebuttal": "False-positive concordantie-drift: scanner-prefix 'seggend' matcht niet met moderne finiete vormen omdat λέγων/λέγοντες systematisch §2.3-ontvouwd zijn (MODERNISATIE.md §2.3 expliciet: 'finiete tegenwoordige participium dat als bijwoordelijke bepaling fungeert' → 'nevenschikking met finiet werkwoord'). Concrete renderings: v.7 'predikte en zei', v.15 'En hij zei', v.24 'En zei', v.25 'bestrafte hem en zei', v.27 'vraagden en zeiden', v.40 'zei tot hem'. Concordantie λέγων → finiete vorm van 'zeggen' is 100% gehandhaafd. Drift-melding is artefact van prefix-heuristiek vs. legitieme §2.3-ontvouwing.",
+      "verified_at": "2026-05-15T19:33:15+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 10,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'terston' in 10 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam 'terstont' (Gr. εὐθέως/εὐθὺς) in 10 verzen. Modern rendering inconsistent: v.10,12,18,20,21,28,30 → 'meteen' (7×); v.31,42,43 → 'onmiddellijk' (3×). AGENTS.md concordantie-eis: gelijke origineel-stam → gelijke moderne rendering binnen hoofdstuk. Verschil 'meteen'/'onmiddellijk' is stilistisch, geen contextverschil. Harmoniseer naar één keuze (voorkeur 'meteen': dominant, kortst, modern register).",
+      "proposed_fix": "Vervang 'onmiddellijk' door 'meteen' in v.31, v.42, v.43.",
+      "location": "cross-vers",
+      "verses_involved": [
+        10,
+        12,
+        18,
+        20,
+        21,
+        28,
+        30,
+        31,
+        42,
+        43
+      ],
+      "id": "MRK-1-10-001",
+      "status": "fixed",
+      "fix_commit": "(pending)"
+    },
+    {
+      "id": "MRK-1-16-001",
+      "verse": 16,
+      "category": "§2.3 finiet participium",
+      "severity": "hard",
+      "quote_modernized": "zag hij <...> Simon en Andreas, zijn broer, het net in de zee werpend (want zij waren vissers).",
+      "rule_reference": "MODERNISATIE.md §2.3",
+      "explanation": "'het net in de zee werpend' is letterlijke -end-overzetting van Gr. βάλλοντας ἀμφίβληστρον. Adverbiaal participium dat de actie van Simon/Andreas karakteriseert. Niet attributief (volgt geen zelfstandig naamwoord), niet gestold. §2.3 vereist ontvouwing naar finiete bijzin. Scanner mist het omdat 'werpend' niet door komma voorafgegaan wordt (regex `-end,`) maar door (haakje).",
+      "proposed_fix": "zag hij ... Simon en Andreas, zijn broer, die het net in de zee wierpen (want zij waren vissers).",
+      "location": "hoofdtekst",
+      "status": "fixed",
+      "fix_commit": "(pending)"
+    },
+    {
+      "id": "MRK-1-26-001",
+      "verse": 26,
+      "category": "§2.3 finiet participium",
+      "severity": "hard",
+      "quote_modernized": "En de onreine geest, hem <...> scheurend, en roepend met een grote stem, ging uit hem weg.",
+      "rule_reference": "MODERNISATIE.md §2.3",
+      "explanation": "'hem ... scheurend, en roepend met een grote stem' bevat twee adverbiale -end-participia (Gr. σπαράξαν, κράξαν — aoristus-participia). §2.3 vereist ontvouwing naar finiete bijzin met nevenschikking. Niet attributief, geen gestolde uitdrukking. Scanner mist omdat geen komma direct na -end (regex `-end,` matcht alleen exacte komma-grens; hier komma na 'scheurend,' maar 'roepend met' valt buiten patroon).",
+      "proposed_fix": "En de onreine geest scheurde hem <...> heen en weer, en hij riep met een grote stem, en ging uit hem weg.",
+      "location": "hoofdtekst",
+      "status": "fixed",
+      "fix_commit": "(pending)"
+    },
+    {
+      "id": "MRK-1-26-002",
+      "verse": 26,
+      "category": "kanttekening-luiheid (§2.3 in <…>)",
+      "severity": "hard",
+      "quote_modernized": "<Dat is, heen en weer trekkend en werpend, alsof hij hem wilde verscheuren, zonder hem echter te kunnen kwetsen.>",
+      "rule_reference": "MODERNISATIE.md §2.3 (geldt ook binnen `<…>`)",
+      "explanation": "MODERNISATIE.md §2.3 expliciet: 'geldt ook binnen `<…>` kanttekeningen'. De uitlegtekst 'heen en weer trekkend en werpend' is geen citaat in `<Of, ...>`/`<Gr. ...>`-blok, maar eigenlijke uitleg-tekst (begint met 'Dat is, ...'). De twee adverbiale participia moeten ontvouwd naar finiete bijzin.",
+      "proposed_fix": "<Dat is, hij trok en wierp hem heen en weer, alsof hij hem wilde verscheuren, zonder hem echter te kunnen kwetsen.>",
+      "location": "kanttekening",
+      "status": "fixed",
+      "fix_commit": "(pending)"
+    }
+  ]
+}

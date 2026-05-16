@@ -1,0 +1,312 @@
+{
+  "book": "LUK",
+  "chapter": 7,
+  "reviewed_at": "2026-05-15T05:02:28+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-10T16:57:02+00:00",
+      "mode": "scan",
+      "issues_total": 19
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-10T17:15:08+00:00",
+      "mode": "verify",
+      "actions": [
+        "LUK-7-2-001: rebuttal verified",
+        "LUK-7-3-001: rebuttal verified",
+        "LUK-7-3-002: verified",
+        "LUK-7-4-001: verified",
+        "LUK-7-4-002: rebuttal verified",
+        "LUK-7-4-003: rebuttal verified",
+        "LUK-7-4-004: rebuttal verified",
+        "LUK-7-9-001: verified",
+        "LUK-7-18-001: rebuttal verified",
+        "LUK-7-19-001: rebuttal verified",
+        "LUK-7-22-001: rebuttal verified",
+        "LUK-7-24-001: rebuttal verified",
+        "LUK-7-30-001: rebuttal verified",
+        "LUK-7-34-001: verified",
+        "LUK-7-34-002: verified",
+        "LUK-7-34-003: rebuttal verified",
+        "LUK-7-38-001: verified",
+        "LUK-7-38-002: verified",
+        "LUK-7-39-001: verified",
+        "LUK-7-39-002: verified",
+        "LUK-7-39-003: verified",
+        "LUK-7-45-001: verified"
+      ]
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-05-10T19:15:31+00:00",
+      "mode": "scan",
+      "issues_total": 14
+    },
+    {
+      "pass": 4,
+      "ran_at": "2026-05-10T19:24:49+00:00",
+      "mode": "verify",
+      "actions": [
+        "LUK-7-3-001: verified",
+        "LUK-7-33-001: verified",
+        "LUK-7-34-001: rebuttal verified"
+      ]
+    },
+    {
+      "pass": 5,
+      "ran_at": "2026-05-10T19:53:14+00:00",
+      "mode": "scan",
+      "issues_total": 14
+    },
+    {
+      "pass": 6,
+      "ran_at": "2026-05-10T19:56:29+00:00",
+      "mode": "verify",
+      "actions": [
+        "LUK-7-4-001: verified",
+        "LUK-7-42-001: verified"
+      ]
+    },
+    {
+      "pass": 7,
+      "ran_at": "2026-05-15T04:56:47+00:00",
+      "mode": "scan",
+      "issues_total": 12
+    },
+    {
+      "pass": 8,
+      "ran_at": "2026-05-15T05:02:28+00:00",
+      "mode": "scan",
+      "issues_total": 12
+    }
+  ],
+  "issues": [
+    {
+      "category": "§2.3 finiet participium",
+      "verse": 22,
+      "severity": "hard",
+      "quote_modernized": "…gehoord hebt, namelijk   dat de blinden ziende worden, de kreupelen wandelen, de…",
+      "rule_reference": "MODERNISATIE.md §2.3",
+      "explanation": "'ziende' — always-adverbial -ende uit SV-syntaxis. Ontvouw naar finiete bijzin ('en X', 'terwijl X', 'toen X').",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "LUK-7-22-001",
+      "status": "verified",
+      "rebuttal": "'ziende worden' (Lk. 7:22, Gr. ἀναβλέπουσι) is hier predicatief complement bij 'worden' (worden + bn/dw), geen adverbiaal -ende. §2.3 viseert finiete tegenwoordige participia *als bijwoordelijke bepaling*; hier vormt 'ziende' samen met 'worden' het werkwoordelijk gezegde (vgl. 'genezen worden', 'opgewekt worden' in dezelfde opsomming). De parallelle constructies in dit vers zijn alle passieve resultatieven met finiet werkwoord; vervangen door 'gaan zien' breekt het ritme van de zes-leden-opsomming en verschuift lexicaal van 'zien' naar 'beginnen'.",
+      "verified_at": "2026-05-10T17:15:08+00:00"
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 34,
+      "severity": "hard",
+      "quote_modernized": "De Zoon des mensen is gekomen, hij eet en drinkt…",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'des mensen' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de mensen' of 'van het mensen', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de mensen",
+      "location": "hoofdtekst",
+      "id": "LUK-7-34-001",
+      "status": "verified",
+      "rebuttal": "'Zoon des mensen' is de canonieke Christologische zelfaanduiding ὁ υἱὸς τοῦ ἀνθρώπου (Lk. 7:34 e.a., 80+ keer in de Evangeliën, vgl. Dn. 7:13). In modern bijbels Nederlands is dit een gefossiliseerde vakterm: HSV en NBG51 behouden 'Zoon des mensen' onveranderd. MODERNISATIE.md §2.1 verlangt maximaal behoud van SV-eigenheid voor theologisch geladen termen.",
+      "verified_at": "2026-05-10T19:24:49+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 2,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'hondert' in 3 verzen — verzen [41] renderen het stam anders dan [2, 6]",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        2,
+        6,
+        41
+      ],
+      "id": "LUK-7-2-001",
+      "status": "verified",
+      "rebuttal": "False positive: alle drie verzen renderen 'hondert' als 'honderd' (v2 'Hoofdman over honderd', v6 idem, v41 'vijfhonderd penningen'). Scanner-prefix-heuristiek splitste 'vijfhonderd' niet als compositum maar zag het als ander stam-prefix. Concordantie is 100% intact.",
+      "verified_at": "2026-05-10T17:15:08+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 3,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'hebbend' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        3,
+        8,
+        19
+      ],
+      "id": "LUK-7-3-001",
+      "status": "verified",
+      "rebuttal": "Concordantie-drift door §2.3 ontvouwing: SV1657 gebruikt drie keer 'hebbende'-participium als adverbiale carrier, telkens met andere Griekse syntactische rol — v3 (ἀκούσας, ontvouwd naar 'toen hij gehoord had'), v8 (ἔχων, finite 'en heb krijgsknechten'), v19 (προσκαλεσάμενος, 'riep ... bij zich'). §2.3 schrijft contextuele ontvouwing voor; één-op-één-rendering zou de §2.3-overtreding creëren die issues 1-8 juist aanklagen.",
+      "verified_at": "2026-05-10T17:15:08+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 4,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'gekomen' in 6 verzen — verzen [45] renderen het stam anders dan [4, 20, 33, 34, 44]",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 6 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        4,
+        20,
+        33,
+        34,
+        44,
+        45
+      ],
+      "id": "LUK-7-4-001",
+      "status": "verified",
+      "rebuttal": "Concordantie-drift gerechtvaardigd door verschil in Grieks: v4/v20 παραγενόμενοι (aoristus part., ontvouwd naar 'gekomen waren'), v33/v34 ἐλήλυθε (perfectum, 'is gekomen'), v44 εἰσῆλθον (aoristus, 'ben gekomen'), v45 εἰσῆλθεν → 'binnengekomen' (compositum, ingressief aspect). Stam 'kom' is consistent; tijdsvorm volgt Grieks.",
+      "verified_at": "2026-05-10T17:15:08+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 4,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'weerdig' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        4,
+        6,
+        7
+      ],
+      "id": "LUK-7-4-002",
+      "status": "verified",
+      "rebuttal": "False positive: v4 'waardig', v6 'waardig', v7 'waardig geacht' — drie consistente renderings naar 'waardig'. Scanner-prefix-match wordt door diakritische verschillen ('geacht' suffix in v7) als drift gelezen, maar lexeme is identiek.",
+      "verified_at": "2026-05-10T17:15:08+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 4,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'seggend' in 5 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 5 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        4,
+        16,
+        19,
+        20,
+        39
+      ],
+      "id": "LUK-7-4-003",
+      "status": "verified",
+      "rebuttal": "Drie van de vijf hits (v16 'en zeiden', v19 'en zei', v20 'om te zeggen') zijn correct ontvouwd per §2.3. De resterende twee (v4 'zeggende', v39 'zeggende') zijn juist de open §2.3-issues LUK-7-4-001 en LUK-7-39-002 — wordt door fix daar opgelost; geen afzonderlijke actie nodig.",
+      "verified_at": "2026-05-10T17:15:08+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 18,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'ioannis' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        18,
+        24,
+        29
+      ],
+      "id": "LUK-7-18-001",
+      "status": "verified",
+      "rebuttal": "False positive: 'Ioannis' is genitief-vorm van Ioannes; alle drie verzen renderen consistent als 'van Johannes' (v18 'discipelen van Johannes', v24 'boden van Johannes', v29 'doop van Johannes'). NBV21-naam-mapping (§2.4) + genitief→van-prepositie is uniform toegepast.",
+      "verified_at": "2026-05-10T17:15:08+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 19,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'ioannes' in 4 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 4 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        19,
+        20,
+        28,
+        33
+      ],
+      "id": "LUK-7-19-001",
+      "status": "verified",
+      "rebuttal": "False positive: alle vier 'Ioannes' / 'Ioannes de Dooper' renderings zijn 'Johannes' resp. 'Johannes de Doper' — 100% concordant per NBV21 (§2.4).",
+      "verified_at": "2026-05-10T17:15:08+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 24,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'uytgega' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        24,
+        25,
+        26
+      ],
+      "id": "LUK-7-24-001",
+      "status": "verified",
+      "rebuttal": "False positive: v24/v25/v26 alle 'uytgegaen' → 'uitgegaan' (perfectum bij ἐξεληλύθατε in retorische trits). Concordantie 100%.",
+      "verified_at": "2026-05-10T17:15:08+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 30,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'pharize' in 4 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 4 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        30,
+        36,
+        37,
+        39
+      ],
+      "id": "LUK-7-30-001",
+      "status": "verified",
+      "rebuttal": "False positive: 'Pharizeen' → 'Farizeeën' (v30, v36), 'Pharizeen' (genitief) → 'van de Farizeeër' (v37 incl. enkelvoud-context), 'Pharizeus' → 'Farizeeër' (v39). Stam 'Farizee-' is consistent; verbuiging volgt Grieks (gen.sg/pl).",
+      "verified_at": "2026-05-10T17:15:08+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 34,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'sondare' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        34,
+        37,
+        39
+      ],
+      "id": "LUK-7-34-002",
+      "status": "verified",
+      "rebuttal": "False positive: 'sondaren' → 'zondaars' (v34, m.pl), 'sondaresse' → 'zondares' (v37, v39, vrouwelijke vorm). Lexeem 'zondaar/zondares' consistent; gender volgt SV-origineel.",
+      "verified_at": "2026-05-10T17:15:08+00:00"
+    }
+  ]
+}

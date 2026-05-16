@@ -1,0 +1,1113 @@
+"""Carry-over linter — vind woorden die letterlijk ongewijzigd door­lopen
+van SV-origineel naar moderne tekst.
+
+Doel: borderline-archaïsmen vangen die de validator-blacklist mist.
+Voorbeeld: "Doch" stond niet op de blacklist en passeerde stilletjes;
+deze lint had het bij LUK 1:1 al gerapporteerd. Dit is een **lint-tool**,
+geen hard-validatie — output is een ranglijst die menselijk oordeel
+vraagt: échte archaïsmen → naar de blacklist + archaïsme-tabel; legitieme
+carry-overs (eigennamen, theologische termen) → naar de stoplist of
+laat staan.
+
+Methode:
+1. Tokenize originele tekst + moderne tekst (>= 4 tekens, alfabetisch,
+   markup gestript).
+2. Vind tokens die in beide voorkomen (case-insensitive).
+3. Filter via STOPLIST (gewone NL woorden, eigennamen, theologische
+   termen die terecht ongewijzigd zijn).
+4. Aggregeer over de gevraagde verzen, rangschik op frequentie.
+
+Werkrichtlijn: run dit ná een batch-modernisatie. Top-N candidates
+zijn geen fouten maar gespreksstof: per woord een keuze maken.
+
+CLI:
+    python scripts/lint_carryovers.py lint --output output/LUK/LUK.1.json
+    python scripts/lint_carryovers.py lint --output output/LUK/LUK.1.json --verses 1,2,3
+    python scripts/lint_carryovers.py lint --output output/LUK/LUK.1.json --top 10
+"""
+
+import argparse
+import json
+import re
+import sys
+from collections import Counter
+from pathlib import Path
+
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+
+# Token-regex: alfabetisch incl. NL diakrieten + apostrof.
+_TOKEN_RE = re.compile(r"[A-Za-zëéüïöäÀ-ÿ']+")
+
+# Stoplist: woorden waarvan een carry-over uit SV → modern volkomen
+# normaal is. Geen archaïsmen, geen behoefte aan modernisering. Bewust
+# beperkt — laat liever 1× ruis door dan een echte miss filteren. Groei
+# deze lijst conservatief op basis van wat de lint herhaaldelijk meldt
+# en bij review als "OK" wordt afgedaan.
+STOPLIST: frozenset[str] = frozenset({
+    # LUK 10:30 — moderne NL woorden
+    "bergen", "liggen", "slagen", "wonden",
+    # LUK 11:19-21 — gewone moderne NL woorden
+    "gewapende", "rechters", "vinger",
+    # LUK 11:28-30 — gewone moderne NL woorden
+    "boos", "leert", "ontkent",
+    # LUK 11:25-27 — gewone moderne NL woorden
+    "borsten", "erger", "gedragen", "gezogen", "vindt",
+    # LUK 11:37-39 — gewone moderne NL woorden
+    "binnenste", "buitenste", "roof", "schotel", "schotels", "verwonderde",
+    # LUK 11:46-48 — gewone moderne NL woorden
+    "behagen", "dragen", "lasten", "opbouwt", "schijnen",
+    # LUK 12:1-3 — gewone moderne NL woorden
+    "bedrogen", "binnenkamers", "wacht",
+    # LUK 12:4-6 — gewone moderne NL woorden + Griekse transliteratie
+    "assariois", "overvloediger", "vergeten", "verkocht",
+    # LUK 12:7-9 — gewone moderne NL theologische termen
+    "belijden", "verloochenen",
+    # LUK 12:10-12 — gewone moderne NL woorden
+    "ingeven", "lastert", "machten", "overheden",
+    # LUK 12:16-18 — gewone moderne NL woorden
+    "afbreken", "bouwen", "gewas",
+    # LUK 12:25-27 — gewone moderne NL woorden
+    "spinnen",
+    # LUK 12:28-30 — gewone moderne NL woorden
+    "drijven", "gras", "lucht", "morgen", "oven", "weest",
+    # LUK 12:34-36 — gewone moderne NL woorden
+    "brandende", "droegen", "klopt", "lendenen", "nachts", "ontslagen", "wachten",
+    # LUK 12:49-51 — gewone moderne NL woorden
+    "begeerte", "geperst", "tweedracht", "volbracht",
+    # LUK 12:52-54 — gewone moderne NL woorden
+    "regen", "schoondochter", "schoonmoeder", "westen",
+    # LUK 12:55-57 — gewone moderne NL woorden
+    "beproeft", "beproeven", "gedwongen", "gestalte", "hitte", "oordeelt",
+    # LUK 13:11-12 — gewone moderne NL woorden
+    "gebogen", "ontbonden",
+    # LUK 13:14-15 — gewone moderne NL woorden
+    "ezel", "oversten",
+    # LUK 13:19,21 — gewone moderne NL woorden
+    "maten", "nestelden",
+    # LUK 13:22-24 carry-overs (legitiem)
+    "enge",     # adj. — modern NL ("de enge poort", geijkte SV-uitdrukking)
+    "makende",  # tegenw. deelw. — Griekse glos van πορείαν ποιούμενος in kanttekening
+    # LUK 13:25 carry-overs (legitiem)
+    "kloppen", "open",   # gewone moderne NL woorden ("aan de deur kloppen", "doe ons open")
+    # LUK 13:28-29 — gewone moderne NL woorden
+    "tanden", "oosten", "noorden",
+    # LUK 14:1-3 carry-overs (legitiem)
+    "berispen",   # gewoon modern NL werkwoord ("om hem te berispen")
+    "nicodemus",  # eigennaam (kanttekening verwijst naar Joh. 3:1)
+    # LUK 14:34-35 carry-overs (legitiem)
+    "smakeloos",  # bijv. nw. — modern NL ("smakeloos zout"); ook HSV
+    "mesthoop",   # zelfstandig nw — modern NL ("op de mesthoop")
+    "verdorven",  # voltooid deelw. / bijv. nw. — modern NL ("verdorven mens")
+    # LUK 16:1-3 carry-overs (legitiem)
+    "rentmeester", "rentmeesterschap",  # SV-gekozen term, modern NL (vgl. LUK 12:42)
+    "bedelen",     # gewoon modern NL werkwoord
+    "doorbracht",  # 'goederen doorbrengen' = verspillen — modern NL ("doorbrengen")
+    # LUK 16:7-9 carry-overs (legitiem)
+    "coros",       # Griekse transliteratie van κόρος in kanttekening (vgl. "assariois")
+    "mammon",      # theologische term / parabel-onderwerp (Gr. μαμωνᾶς)
+    "prees",       # verl. tijd van 'prijzen' — gewoon modern NL
+    "toekomende",  # 'het toekomende' = de toekomst — gewoon modern NL
+    "begeven",     # 'goederen begeven u' — gewoon modern NL werkwoord
+    "ontbreken",   # gewoon modern NL werkwoord
+    "klagen",      # gewoon modern NL werkwoord
+    "zegenen",     # gewoon modern NL / theologisch werkwoord
+    # LUK 16:10-12 carry-overs (legitiem)
+    "getrouw",     # bijv. nw. — gewoon modern NL ("getrouw blijven"); SV-concordantiewoord
+    "leent",       # tegenw. tijd van 'lenen' — gewoon modern NL werkwoord
+    # LUK 16:13-15 carry-overs (legitiem)
+    "haten",       # gewoon modern NL werkwoord ("de een haten")
+    "verachten",   # gewoon modern NL werkwoord ("de ander verachten")
+    "beschimpten", # verl. tijd van 'beschimpen' — gewoon modern NL werkwoord
+    "kent",        # tegenw. tijd van 'kennen' — gewoon modern NL werkwoord
+    # LUK 16:31 carry-overs (legitiem)
+    "overreden",   # gewoon modern NL werkwoord (kanttekening <Of, overreden.>); SV-origineel gebruikt al deze moderne vorm
+    # LUK 17:6 carry-overs (legitiem)
+    "oprecht",     # bijv. nw. — gewoon modern NL ("als het maar oprecht is")
+    "sycaminos",   # Griekse transliteratie in kanttekening (Gr. συκάμινος; vgl. "assariois", "coros")
+    # LUK 17:7-9 carry-overs (legitiem)
+    "beesten",     # zelfstandig nw — staat in SV-toevoeging [de beesten]; inhoud van vierkante haken blijft behouden
+    "neen",        # gewoon modern NL — emfatische ontkenning ("Ik meen, neen")
+    # LUK 17:10-12 carry-overs (legitiem)
+    "onnutte",     # bijv. nw. — gewoon modern NL ("onnutte dienstknechten"); SV-concordantiewoord
+    "tien",        # telwoord — gewoon modern NL ("tien melaatse mannen")
+    "verre",       # gewoon modern NL — geijkte uitdrukking ("van verre")
+    # LUK 17:13-15 carry-overs (legitiem)
+    "verhieven",   # verl. tijd van 'verheffen' — gewoon modern NL ("de stem verheffen")
+    "voorstander", # Griekse glos van ἐπιστάτης in kanttekening (<Grieks: voorstander.>); gewoon modern NL woord
+    # LUK 17:16-18 carry-overs (legitiem)
+    "negen",       # telwoord — gewoon modern NL ("waar zijn de negen?"); vgl. "tien"
+    "gesproten",   # volt. deelw. van 'spruiten' in kanttekening — formeel modern NL ("uit een geslacht gesproten")
+    # LUK 17:19-21 carry-overs (legitiem)
+    "pracht",      # zelfstandig nw — gewoon modern NL ("uiterlijke pracht") in kanttekening v20
+    # LUK 17:28-30 carry-overs (legitiem)
+    "kochten",     # verl. tijd van 'kopen' — gewoon modern NL werkwoord
+    "verkochten",  # verl. tijd van 'verkopen' — gewoon modern NL werkwoord
+    "bouwden",     # verl. tijd van 'bouwen' — gewoon modern NL werkwoord (vgl. "bouwen")
+    "regende",     # verl. tijd van 'regenen' — gewoon modern NL werkwoord
+    # LUK 18:7-9 carry-overs (legitiem)
+    "straffen",    # gewoon modern NL werkwoord ("het straffen der goddelozen")
+    "verlossen",   # gewoon modern NL / theologisch werkwoord
+    "getal",       # zelfstandig nw — gewoon modern NL ("het getal van de gelovigen")
+    "vertrouwden", # verl. tijd van 'vertrouwen' — gewoon modern NL werkwoord
+    # LUK 18:19-21 carry-overs (legitiem)
+    "overspel",    # zelfstandig nw — gewoon modern NL ("geen overspel doen")
+    "stelen",      # gewoon modern NL werkwoord ("niet stelen")
+    "eert",        # gebiedende wijs van 'eren' — gewoon modern NL ("eert uw vader")
+    "onderhouden", # 'de geboden onderhouden' — gangbaar modern NL theologisch idioom
+    # LUK 18:22-24 carry-overs (legitiem)
+    "verder",      # bijwoord — gewoon modern NL ("zie hiervan verder ..."); kanttekening v22
+    # LUK 18:25-27 carry-overs (legitiem)
+    "kabel",       # zelfstandig nw — SV-eigen alternatiefvertaling in kanttekening <Of, kabel.> (Gr. κάμηλον); inhoud van SV-kanttekening blijft behouden
+    # LUK 18:31-33 carry-overs (legitiem)
+    "bespot",      # volt. deelw. van 'bespotten' — gewoon modern NL ("hij zal bespot worden")
+    "bespogen",    # volt. deelw. van 'bespugen' — gewoon modern NL ("bespogen worden")
+    # LUK 18:34-36 carry-overs (legitiem)
+    "blinde",      # zelfst. gebruikt bnw — gewoon modern NL ("een zekere blinde"); vgl 'blinden' (mv) reeds op STOPLIST
+    "ingenomen",   # volt. deelw. 'innemen' — gewoon modern NL ("ingenomen zijn met iets")
+    # LUK 19:10-12 carry-overs (legitiem)
+    "burgers",     # gewoon modern NL ("burgers van een stad"); SV-kanttekening duidt op hardnekkige Joden
+    "inbeeldden",  # ovt. van 'inbeelden' — gewoon modern NL ("zich iets inbeelden")
+    "ponden",      # munt-eenheid (Gr. μνᾶ, mina); historisch zelfst. nw, productief in NL
+    "wederkomen",  # theologische term (parousia); productief in formeel modern NL
+    # LUK 19:13-15 carry-overs (legitiem)
+    "denarius",    # Romeinse muntnaam — citaat in SV-kanttekening (Gr./Lat. transliteratie)
+    "drachmen",    # Griekse muntnaam (mv.) — citaat in SV-kanttekening
+    "gewonnen",    # volt. deelw. van 'winnen' — gewoon modern NL ("wat hij gewonnen had")
+    "latijn",      # taalnaam — citaat in SV-kanttekening ("in het Latijn Mina")
+    "mina",        # Grieks-oosterse muntnaam — citaat in SV-kanttekening (vgl. "ponden")
+    # LUK 19:22-24 carry-overs (legitiem)
+    "wist",        # verleden tijd van 'weten' — gewoon modern NL ("u wist dat ik...")
+    "wisten",      # mv. verleden tijd van 'weten' — gewoon modern NL (LUK 20:7)
+    "antwoordden", # mv. verleden tijd van 'antwoorden' — gewoon modern NL (LUK 20:7)
+    "besteden",    # infinitief — gewoon modern NL werkwoord ("zijn gaven besteden")
+    "wissel",      # zelfst. nw — modern NL bankterm ("op wissel of winst") in SV-kanttekening
+    # LUK 19:34-36 carry-overs (legitiem)
+    "mantels",     # zelfst. nw mv. — gewoon modern NL ("bovenkleren of mantels") in SV-kanttekening
+    # LUK 19:37 carry-overs (legitiem)
+    "daden",       # zelfst. nw mv. — gewoon modern NL ("krachtige daden")
+    "krachten",    # zelfst. nw mv. — gewoon modern NL ("Gr. de krachten" in kanttekening)
+    "krachtige",   # bnw — gewoon modern NL ("krachtige daden")
+    "loven",       # werkw. inf. — gewoon modern NL ("God te loven")
+    # LUK 19:41 carry-overs (legitiem)
+    "weende",      # ovt. van 'wenen' — formeel/Bijbels NL, productief; SV-paradigma consistent behouden (LUK 7:38, 8:52, 19:41)
+    "weenden",     # ovt. mv. van 'wenen' — zelfde paradigma als 'weende' (LUK 8:52, 23:27)
+    # LUK 20:22-24 carry-overs (legitiem)
+    "opschrift",   # zelfst. nw — gewoon modern NL ("beeld en opschrift" op een munt); ook door HSV gebruikt
+    # LUK 20:26-27 carry-overs (legitiem; binnen kanttekening-gloss)
+    "achterhalen",  # ww. — gewoon modern NL ('iemand achterhalen, betrappen'); kanttekening-gloss (LUK 20:26)
+    "tegenspreken", # ww. — gewoon modern NL ('iemand tegenspreken, ontkennen'); kanttekening-gloss + hoofdtekst (LUK 20:27)
+    # LUK 20:44 carry-overs (legitiem; binnen kanttekening-gloss)
+    "erkende",      # past tense 'erkennen' — gewoon modern NL ('geen heer boven zich erkende'); kanttekening-gloss (LUK 20:44)
+    "heer",         # zelfst. nw — gewoon modern NL ('geen heer boven zich'); niet de SV-cap 'Heere'; kanttekening-gloss (LUK 20:44)
+    # Function/bridge woorden
+    "deze", "dezen", "dezelfde", "diezelfde", "ander", "andere", "anderen",
+    "alle", "alles", "elke", "elkaar", "geen", "ieder", "iedere", "noch",
+    "veel", "vele", "weinig", "weinige", "enkele", "enige", "sommige",
+    "sommigen", "menig", "zelf", "zich", "zichzelf",
+    # Hulpwerkwoorden + frequente vormen
+    "hebben", "heeft", "hebt", "hadden", "gehad",
+    "zijn", "wezen", "geweest", "worden", "wordt", "werden", "geworden",
+    "zullen", "zouden", "kunnen", "konden", "gekund",
+    "moeten", "moest", "moesten", "mogen", "mocht", "mochten",
+    "willen", "wil", "wilden", "gewild",
+    # Prep / adv
+    "naar", "voor", "over", "onder", "boven", "tussen", "achter",
+    "tegen", "tegenover", "zonder", "binnen", "buiten", "langs",
+    "door", "samen", "alleen", "even", "graag", "eerst", "later",
+    "hier", "daar", "ergens", "nergens", "overal",
+    "soms", "altijd", "nooit", "weer", "ooit", "steeds", "vaak",
+    # Demonstratief/relatief
+    "welk", "welke", "wiens", "diens", "wier",
+    # Frequente werkwoorden in beide vormen herkenbaar
+    "menen", "zeggen", "zegt", "spreken", "sprak", "spraken", "gesproken",
+    "horen", "gehoord", "zien", "gezien", "gaan", "gegaan",
+    "komen", "gekomen", "blijven", "bleef", "gebleven",
+    "geven", "gegeven", "gaven", "nemen", "neemt", "genomen", "maken", "gemaakt",
+    "eten", "gegeten", "at", "aten",
+    "synagoge", "synagogen",
+    "verblijden", "verblijdt", "verblijdde", "verblijd",
+    "onthouden", "onthoudt", "onthield", "onthielden",
+    "doen", "gedaan", "laten", "gelaten", "stellen", "gesteld",
+    "schrijven", "geschreven", "lezen", "gelezen",
+    "vinden", "gevonden", "kennen", "gekend", "weten", "geweten",
+    "letten",  # 'letten op' — gewoon modern NL
+    "krijgen", "gekregen", "ontvangen", "verkrijgen", "verkregen",
+    "begint", "begin", "begonnen", "beginnen", "schijnt", "scheen",
+    "doende",  # tegenw. deelw. van 'doen' — gewoon modern NL ('zo doende')
+    "knechten",  # mv. 'knecht' — gewoon modern NL (parabel-personage)
+    "beschrijven", "beschrijft", "beschreven", "beschrijving",
+    "niet", "want", "zoals", "hoewel", "tweede", "eerste", "derde", "vierde",
+    "specerijen",  # aromatische kruiden/specerijen — gewoon modern NL
+    "reden", "redenen",
+    # Hoofd-zelfstandig nw
+    "ding", "dingen", "woord", "woorden", "naam", "namen",
+    "tijd", "dagen", "jaar", "jaren", "weg", "wegen",
+    "huis", "stad", "land", "volk", "vader", "moeder", "ouders", "zoon",
+    "dochter", "dochters", "kind", "kinderen", "broeder", "zuster",
+    "neven",  # bloedverwanten/neven — legitiem modern Nederlands woord
+
+    "stem", "hand", "voet", "oog", "oor", "hart", "ziel", "grootte",
+    "borst",  # anatomie — modern NL
+    "greep", "sloegen",  # past tense van grijpen / slaan — modern NL
+    "gedachten", "geslachten",
+    "boek", "tafel", "deur", "venster", "boom", "veld",
+    "leven", "levende", "dood", "doodden", "sterven", "geboorte",
+    "kracht", "macht", "mijn", "toegerust", "vaders",
+    "kennis", "knowledge", "drijving", "voren", "zorgvuldig",
+    "handelingen",  # bijbelboek (citatie-context) + algemeen woord
+    "christenen", "christen", "joden", "jood", "heiden", "heidenen",
+    # Adjectieven/adverbia
+    "groot", "grote", "klein", "kleine", "goed", "goede", "slecht",
+    "slechte", "lang", "lange", "kort", "korte", "hoog", "lage", "beter",
+    "veel", "weinig", "vol", "lege", "nieuw", "nieuwe", "oud", "oude",
+    "rijk", "arm", "sterk", "zwak", "wijd", "breed", "diep",
+    "voortreffelijk", "voortreffelijke", "grondig", "grondige",
+    "aanzienlijk", "aanzienlijke", "bijzonder", "bijzondere",
+    "nauwkeurig", "nauwkeurige", "zorgvuldig", "zorgvuldige",
+    # Bijbel / theologisch
+    "heere", "engel", "engelen", "apostelen", "discipel", "discipelen", "tempel",
+    "evangelie", "evangeliën", "kerk", "geest", "heilig", "heilige",
+    "heiligen", "profeet", "profeten", "profetie", "wonder", "wonderen",
+    "zonde", "zonden", "gebod", "geboden", "verbond", "geloof", "hoop",
+    "licht", "lichten", "duisternis", "heerlijkheid",
+    "liefde", "genade", "barmhartigheid", "rechtvaardig", "rechtvaardige",
+    "priester", "priesters", "hogepriester", "voorhof", "voorhoven",
+    "dienst", "diensten", "gewoonte", "loten", "lot",
+    "baren", "morgens", "altaar", "reukwerk", "reukoffer",
+    "wijn", "drank", "moederschoot", "behouden",
+    "gebed", "gebeden", "tijden", "roepen", "medicijnmeester",
+    "eten", "drinken", "drinkt",
+    # Algemene moderne werkwoorden / zelfstandige naamwoorden
+    "brengen", "leggen", "mannen", "slap", "vast",
+    "vertoonden", "vertrouwen", "woestijnen", "zenuwen",
+    "splinter", "splinters", "leermeester", "leermeesters",
+    "leerling", "leerlingen",
+    # Boom/vrucht-gelijkenis (Lk 6:43-45)
+    "vijgen", "doornen", "bramen", "verrotte", "snijdt", "leest",
+    "schat", "schatten",
+    # Zaaier-gelijkenis (Lk 8:5-8) — gewone moderne woorden
+    "viel", "vielen",
+    "bracht",        # past tense van 'brengen'
+    "grootste",      # superlatief van 'groot'
+    "overvloedige",  # gewoon modern NL adjectief
+    "mede",          # nog modern (medeleven, medeplichtig, mede-eigenaar)
+    "blijft",        # imperatief / 3e pers — modern NL
+    "stof",          # modern NL zelfstandig nw
+    "verblijf",      # modern NL zelfstandig nw
+    "overschaduwde", # modern NL verleden tijd van 'overschaduwen' (transfiguratie Lk 9:34)
+    "stil",          # modern NL bijwoord/adjectief ("zwegen stil")
+    "ingingen",      # imperfectum van 'ingaan' — modern NL (transfiguratie Lk 9:34)
+    # Vossen-logion (Lk 9:58) — gewone moderne NL woorden
+    "vossen", "holen", "nesten",
+    # Zending zeventig (Lk 10:1-3) — gewone moderne NL woorden
+    "getrouwe",  # bijv. naamw. — "getrouwe Leraars" (= trouwe), modern NL
+    "lammeren",  # plurale van 'lam' — modern NL
+    "oogst",     # zelfstandig nw — modern NL
+    "stelde",    # past tense van 'stellen' — modern NL ("stelde aan")
+    "stelden",   # plur. past van 'stellen' — modern NL ("zich tegen hem stelden")
+    "verkoren",  # voltooid deelw. van 'verkiezen' — modern NL (uitgekozen)
+    "wolven",    # plurale van 'wolf' — modern NL
+    # Zending zeventig vervolg (Lk 10:7-9)
+    "geneest",    # imperatief van 'genezen' — modern NL
+    "verblijven", # infinitief — modern NL ("verblijfplaats")
+    # Wetgeleerde-vraag (Lk 10:25)
+    "eeuwige",     # bijv. nw. — modern NL ("het eeuwige leven")
+    "wetgeleerde", # zelfstandig nw — modern NL (juridisch / bijbels)
+    # Bidden / Onze Vader (Lk 11:1-3) — gewone moderne NL woorden
+    "voorschrift", # zelfstandig nw — modern NL ("een voorschrift voor het gebed")
+    # Vraag om teken / Beëlzebul (Lk 11:16-18) — gewone moderne NL woorden
+    "begeerden",   # verleden tijd van 'begeren' — modern NL (formeel/religieus register)
+    "satan",       # eigennaam (de tegenstander) — modern NL, lowercase per SV-patroon
+    "verwoest",    # voltooid deelw. van 'verwoesten' — modern NL ("wordt verwoest")
+    # Let op: de hele 'geschieden'-paradigma (geschied/geschiedt/geschiedde/
+    # geschiedden) is archaïsch (zie validate.py blacklist) — bewust NIET op
+    # STOPLIST om lint-detectabel te blijven mocht het opnieuw opduiken.
+    "verschenen",    # verleden tijd van 'verschijnen' — modern NL ("Elia verschenen was")
+    "ouden",         # zelfstandig nw 'de ouden' (de oude profeten / ancients) — bijbels-idiomatisch behouden
+    # Zacheüs-pericoop (Lk 19:4-5) — botanische kanttekening + glosse
+    "bladeren",      # zelfstandig nw mv. — gewoon modern NL (boombladeren in SV-kanttekening)
+    "kernen",        # zelfstandig nw mv. — gewoon modern NL (vruchtkernen in SV-kanttekening)
+    "sycomoraea",    # Latijnse botanische naam — citaat in SV-kanttekening (Plinius)
+    "plin",          # afkorting Plinius — auteursverwijzing in SV-kanttekening
+    "herbergen",     # infinitief — modern NL ("logeren / onderdak verschaffen") in <D. herbergen>-glosse
+    # Lk 20:34-36 carry-overs (legitiem)
+    "geacht",        # volt. deelw. 'achten' — gewoon modern NL ("waardig geacht worden", "geacht zijn als ...")
+    "verwerven",     # infinitief — gewoon modern NL ("een prijs / het eeuwig leven verwerven")
+    # Lk 20:41-42 carry-overs (legitiem)
+    "davids",        # genitief van eigennaam 'David' — bijbels-idiomatisch ("Davids zoon")
+    "psalmen",       # zelfst. nw. mv. — gewoon modern NL (boektitel 'de Psalmen')
+    # Eigennamen (Lk 1 + algemeen). Lower-cased.
+    "lucas", "lukas", "maria", "elisabet", "zacharia", "theofilus",
+    "simeon", "anna",
+    "matteüs", "mattheüs", "markus", "marcus", "johannes", "judas",
+    "jezus", "christus", "gabriël", "felix", "festus", "abraham",
+    "izak", "jakob", "david", "salomo", "mozes", "elia", "elias",
+    "israël", "juda", "galilea", "judea", "nazareth", "betlehem",
+    "jeruzalem", "egypte", "hebron", "kirjath", "arba", "levieten",
+    "arimathea",  # plaatsnaam (Lk 23:51)
+    "gadarenen", "gergesenen",
+    "siloa", "siloam",  # plaats-/beeknaam (Lk 13:4) — modern NL behouden
+    # LUK 13:4-6 — gewone moderne NL woorden
+    "bekeert",   # 'zich bekeren' — productief modern NL werkwoord
+    "geplant",   # voltooid deelw. van 'planten' — modern NL
+    "toren",     # zelfstandig nw — modern NL
+    # LUK 13:7-9 carry-overs (legitiem)
+    "gegraven",     # voltooid deelw. van 'graven' — modern NL
+    "mest",         # zelfst.nw. — modern NL
+    "voortbrengen", # samenstelling met 'voort' — gewoon modern NL werkwoord
+    # Staande uitdrukkingen die als gewoon NL gangbaar zijn
+    "gevallen",  # 'ten deel gevallen' is productief modern NL
+    # Gewone NL-werkwoorden/zelfst.nw. die toevallig SV-spelling delen
+    "hoorde", "komt", "riep", "vrouwen", "vrucht",
+    "bieden", "goederen", "helpende", "opgenomen", "verlaten", "wanneer",
+    "gebiedt", "graven",
+    # Bijbels register: bewust behouden uit SV-traditie / concordantie
+    "knecht",   # SV-vertaling van παῖς/δοῦλος (vgl. 'knecht des Heren')
+    "vaderen",  # bijbelse pluralis voor patriarchen / voorouders
+    # LUK 2:1-3 carry-overs (legitiem)
+    "caesar", "cyrenius", "quirinus",  # eigennamen
+    "antiq",  # afkorting Antiquitates (Josephus-citaat)
+    "bewoonde", "deel", "geschat", "gingen", "moet",
+    "onderdanen", "vermogen", "woonde",  # gewone moderne NL-woorden
+    # LUK 2:4-6 carry-overs (legitiem)
+    "bethlehem",  # eigennaam
+    "geboren", "leefde", "waren", "volgens", "evenwel", "bevel", "beval",
+    "ondertrouwde",  # bewuste behoud van bijbels register (vgl. Mt. 1:18)
+    # LUK 2:7-9 carry-overs (legitiem)
+    "onverwacht",  # gewoon modern NL bijvoeglijk/bijwoord
+    "vreesden",  # past tense van 'vrezen' — formeel maar modern NL
+    "eerstgeboren",  # bijbels-theologische term (vgl. Rom. 8:29, Hebr. 1:6)
+    "herders",  # gewoon modern NL
+    "hielden",  # past tense van 'houden' — gewoon modern NL
+    "kribbe",  # bijbels register, kerstverhaal-term
+    "kudde",  # gewoon modern NL
+    "nachtwacht",  # gewoon modern NL
+    # LUK 2:10-12 carry-overs (legitiem)
+    "vreest",  # imperatief 2e p mv 'vrees niet' — formeel modern NL
+    "blijde",  # 'blijde tijding/boodschap' — vaste collocatie, modern
+    "heden",  # formeel-modern NL (vgl. 'heden ten dage')
+    "bevinden",  # gewoon modern NL ('bevinden dat', 'naar bevinden')
+    "bevonden",  # voltooid deelw. van 'bevinden' — modern NL ('schuldig bevonden')
+    "verbiedt",  # 3e p. ev. presens van 'verbieden' — gewoon modern NL
+    "euangelizeere",  # SV-transliteratie van Grieks εὐαγγελίζομαι in <Gr. ...>
+    # LUK 2:13-15 carry-overs (legitiem)
+    "anders",  # 'Anders: ...' — alternatief-marker in kanttekening, modern NL
+    "beschermt",  # gewoon modern NL
+    "hebr",  # SV-marker voor hebraïsme in kanttekening (zie note V15)
+    "hemel", "hemelen",  # gewoon modern NL ('hoogste hemelen')
+    "straft",  # gewoon modern NL
+    "vrede",  # gewoon modern NL ('vrede op aarde')
+    "welbehagen", "welbehagens",  # theologische term (Gr. εὐδοκία) — bewust behouden
+    # LUK 2:16-18 carry-overs (legitiem)
+    "vonden",  # past tense van 'vinden' — gewoon modern NL
+    "hoorden",  # past tense van 'horen' — gewoon modern NL
+    "hoort",  # 2e/3e pers. presens / imperatief van 'horen' — gewoon modern NL
+    "verborgen",  # voltooid deelwoord van 'verbergen' — gewoon modern NL
+    "verwonderden",  # past tense van 'verwonderen' — gewoon modern NL
+    # LUK 2:19-21 carry-overs (legitiem)
+    "acht",  # telwoord — gewoon modern NL
+    "achtste",  # rangtelwoord — gewoon modern NL
+    "besnijden",  # theologische/cultuur-term — gewoon modern NL
+    "keerden",  # past tense van 'keren' — gewoon modern NL
+    "meer",  # gewoon modern NL bijwoord
+    "overleggende",  # present participle — direct uit Gr. συμβάλλουσα, modern NL nog mogelijk
+    # LUK 2:22-24 carry-overs (legitiem)
+    "brachten",  # past tense van 'brengen' — gewoon modern NL
+    "geringe",  # formeel modern NL ('geringe lieden')
+    "jonge",  # gewoon modern NL
+    "lieden",  # formeel-bijbels register ('geringe lieden')
+    "offer",  # theologische/gewoon NL term
+    "opent",  # 3e pers. ev. van 'openen' — gewoon modern NL
+    "opofferen",  # formeel modern NL ('een offer opofferen')
+    "twee",  # telwoord
+    "vijf",  # telwoord
+    # LUK 2:28-30 carry-overs (legitiem)
+    "loofde",  # past tense van 'loven' — gewoon modern NL
+    "zegende",  # past tense van 'zegenen' — gewoon modern NL (carry-over in <Grieks: ...>)
+    "ontbindt",  # 3e pers. ev. van 'ontbinden' — gewoon modern NL (carry-over in <Grieks: ...>)
+    "dienstknecht",  # bijbels register voor δοῦλος — bewust behouden uit SV-traditie
+    "dienstknechten",  # mv. van 'dienstknecht' — zelfde register
+    "dienstboden",  # mv. van 'dienstbode' — staat in modern Van Dale; bewust SV-register voor θεραπείας (Lk. 12:42)
+    "doorgraven",  # bijbels begrip (huis doorgraven, Mt. 24:43 / Lk. 12:39) — modern NL begrijpelijk
+    "omgorden",  # bijbelse vaste uitdrukking (lendenen omgorden) — modern NL register
+    "vier",  # telwoord — gewoon modern NL
+    "wake",  # 'nachtwake' — gewoon modern NL register
+    "waken",  # werkw./zelfst.nw. — gewoon modern NL
+    "wakende",  # tegenw. deelw. van 'waken' — gewoon modern NL
+    "armen",  # plural van 'arm' (lichaamsdeel) — gewoon modern NL
+    "belofte",  # gewoon modern NL
+    # LUK 2:34-36 carry-overs (legitiem)
+    "bittere",  # gewoon modern NL bijvoeglijk ('bittere smarten')
+    "doelwit",  # gewoon modern NL
+    "gebracht",  # past participle van 'brengen' — gewoon modern NL
+    "lijden",  # gewoon modern NL (zelfst.nw. + werkw.) — theologisch register
+    "ouderdom",  # gewoon modern NL
+    "schiet",  # 3e pers. ev. van 'schieten' — gewoon modern NL
+    # LUK 2:37-39 carry-overs (legitiem)
+    "allen",  # gewoon modern NL ('allen die')
+    "beleden",  # past tense van 'belijden' — gewoon modern NL / theologisch register
+    "bidden",  # gewoon modern NL
+    # 'geschieden' (inf./presens) NIET op STOPLIST: hele paradigma → 'gebeuren'
+    # voor concordantie (γίνομαι), zie validate.py blacklist.
+    "messias",  # eigennaam / theologische term
+    "nacht",  # gewoon modern NL
+    "middernacht",  # gewoon modern NL (LUK 11:5)
+    # LUK 11:13-15 carry-overs (legitiem)
+    "stom",  # zelfst.nw./bijv.nw. — gewoon modern NL (κωφός = stom/doof)
+    "werpt",  # 3e pers. ev. van 'werpen' — gewoon modern NL ('werpt duivelen uit')
+    "wierp",  # past tense van 'werpen' — gewoon modern NL
+    "wierpen",  # past tense mv 'werpen' — gewoon modern NL (LUK 20:12)
+    "verwondden",  # past tense mv 'verwonden' — gewoon modern NL (LUK 20:12)
+    "rijp",  # bijv.nw. 'rijp' (vruchten) — gewoon modern NL (LUK 20:10)
+    "vasten",  # gewoon modern NL (zelfst.nw. + werkw.)
+    "verwachte",  # past participle 'verwachten' — gewoon modern NL
+    "weduwe",  # gewoon modern NL
+    "feest", "feesten",  # gewoon modern NL ('het feest van Pascha')
+    "mate",  # gewoon modern NL ('niet met mate')
+    "pascha",  # eigennaam / Joods feest
+    # LUK 2:46-48 carry-overs (legitiem)
+    "antwoorden",  # zelfst.nw. mv. — gewoon modern NL
+    "drie",  # telwoord
+    "handelen",  # gewoon modern NL ('te spreken en te handelen')
+    "midden",  # gewoon modern NL ('in het midden van')
+    "noemen",  # gewoon modern NL
+    "ondervragende",  # present participle, direct uit Gr. ἐπερωτῶντα — modern nog mogelijk in formeel register
+    "verslagen",  # past participle van 'verslaan' — bijbels register voor ἐξεπλάγησαν, gangbaar
+    "zijnde",  # present participle — bewust behouden in formeel SV-register
+    # LUK 2:49-51 carry-overs (legitiem)
+    "bevolen",  # past participle van 'bevelen' — gewoon modern NL
+    "bevelen",  # infinitief 'bevelen' (toevertrouwen/opdragen) — gewoon modern NL
+    "onderworpen",  # past participle van 'onderwerpen' — gewoon modern NL
+    "verstonden",  # past tense van 'verstaan' (begrijpen) — formeel maar modern NL
+    # LUK 3:1-5 carry-overs (legitiem)
+    "abilene", "annas", "augustus", "herodes", "iturea", "lysanias",
+    "pilatus", "pontius", "trachonitis",  # eigennamen
+    "viervorst", "viervorsten",  # SV-bestuurstitel τετράρχης — bewust behouden
+    "bedienden",  # past tense 'bedienen' — gewoon modern NL
+    "doop",  # zelfst.nw. — bijbels en modern NL
+    "gestorven",  # past participle 'sterven' — gewoon modern NL
+    "stierf",  # past tense 'sterven' — gewoon modern NL — LUK 20:29,30
+    "sterft",  # 3e pers. enk. 'sterven' — gewoon modern NL — LUK 20:28
+    "heuvel",  # gewoon modern NL
+    "heuvelen",  # mv 'heuvel' — gewoon modern NL — LUK 23:30
+    "kromme",  # bijvoeglijk — gewoon modern NL ('kromme wegen')
+    "landen",  # mv 'land' — gewoon modern NL
+    "omliggende",  # bijvoeglijk participle — gewoon modern NL
+    "overige",  # bijvoeglijk — gewoon modern NL
+    "paden",  # mv 'pad' — gewoon modern NL
+    "rechte",  # bijvoeglijk — gewoon modern NL ('rechte weg')
+    "recht",  # gewoon modern NL ('recht maken')
+    "rechter",  # gewoon modern NL ('rechter en scheidsman') — LUK 12:14
+    "leeft",  # 3e pers. enk. 'leven' — gewoon modern NL — LUK 12:15
+    "regeerde",  # past tense 'regeren' — gewoon modern NL
+    "schoonvader",  # gewoon modern NL
+    "vijfde", "vijftiende",  # rangtelwoorden
+    # LUK 3:6-10 carry-overs (legitiem)
+    "scharen",  # mv 'schare' (menigte) — bijbels en in modern NL nog gangbaar
+    "vruchten",  # mv 'vrucht' — gewoon modern NL
+    "voort",  # bijwoord ('voortbrengen') — gewoon modern NL
+    "wortel",  # gewoon modern NL
+    "toorn",  # zelfst.nw. — bijbels en modern NL
+    "slangen",  # mv 'slang' — gewoon modern NL
+    "soorten",  # mv 'soort' — gewoon modern NL
+    "gedoopt",  # past participle 'dopen' — gewoon modern NL
+    "geworpen",  # past participle 'werpen' — gewoon modern NL
+    "ware",  # bijvoeglijk ('ware bekering') — gewoon modern NL
+    # LUK 3:11-15 carry-overs (legitiem)
+    "beschuldigen",  # gewoon modern NL ('valselijk beschuldigen')
+    "doet",  # imperatief 2e p mv 'doet' — formeel maar modern NL register
+    "liever",  # comparatief — gewoon modern NL
+    "meester",  # gewoon modern NL (aanspreektitel) / bijbels διδάσκαλε
+    "overlast",  # gewoon modern NL ('overlast veroorzaken')
+    "schudden",  # gewoon modern NL
+    "slingeren",  # gewoon modern NL
+    "verboden",  # past participle 'verbieden' — gewoon modern NL
+    # LUK 3:16-18 carry-overs (legitiem)
+    "antwoordde",  # past tense van 'antwoorden' — gewoon modern NL
+    "ontbinden",  # gewoon modern NL ('riem ontbinden')
+    "riem",  # gewoon modern NL
+    "schoenen",  # mv 'schoen' — gewoon modern NL
+    "verbranden",  # gewoon modern NL
+    "water",  # gewoon modern NL
+    # LUK 3:19-21 carry-overs (legitiem)
+    "bestraft",  # past participle van 'bestraffen' — gewoon modern NL
+    "gesloten",  # past participle van 'sluiten' — gewoon modern NL
+    "herodias",  # eigennaam (vrouw van Herodes / Filippus)
+    # LUK 3:22-24 carry-overs (legitiem)
+    "bedienen",  # gewoon modern NL ('het ambt bedienen')
+    "begon",  # past tense van 'beginnen' — gewoon modern NL
+    "geliefde",  # bijvoeglijk/zelfst.nw. — gewoon modern NL ('geliefde Zoon')
+    "heli", "levi", "melchi", "ruth",  # eigennamen geslachtsregister
+    # LUK 3:25-27 carry-overs (legitiem)
+    "gebeurt",  # 3e pers. enk. van 'gebeuren' — gewoon modern NL
+    "koningen",  # gewoon modern NL
+    "nakomelingen",  # gewoon modern NL
+    "amos", "esli", "naggai", "neri",  # eigennamen geslachtsregister
+    # LUK 3:28-30 carry-overs (legitiem)
+    "addi",  # eigennaam geslachtsregister
+    # LUK 3:31-33 carry-overs (legitiem)
+    "minder",  # gewoon modern NL ('niet minder dan')
+    "veertien",  # gewoon modern NL telwoord
+    "vers",  # verwijzingswoord in kanttekening (vers N)
+    "obed",  # eigennaam geslachtsregister
+    # LUK 3:34-36 carry-overs (legitiem)
+    "lamech", "nachor",  # eigennamen geslachtsregister
+    # LUK 3:37-38 carry-overs (legitiem)
+    "adam", "enos",  # eigennamen geslachtsregister
+    "geschapen",  # past participle van 'scheppen' — gewoon modern NL
+    # LUK 5:1-3 carry-overs (legitiem)
+    "schepen", "schip",  # gewoon modern NL — visserstaal
+    "netten",  # mv 'net' — gewoon modern NL
+    "oever",  # gewoon modern NL
+    "schare",  # mv 'scharen' staat al op stoplist; enkelvoud nu ook (bewust register-behoud)
+    "spoelden",  # past tense van 'spoelen' — gewoon modern NL
+    "leerde",  # past tense van 'leren' (onderwijzen) — gewoon modern NL
+    # LUK 5:4-6 carry-overs (legitiem)
+    "simon",  # eigennaam (Petrus) — bijbels personage
+    "epistata", "rabbi",  # transliteraties van Griekse/Hebreeuwse aanspreektitels in <Gr. ...>
+    "diepte",  # gewoon modern NL
+    "vangen", "gevangen",  # gewoon modern NL — visserstaal
+    "scheurde", "scheurt",  # vormen van 'scheuren' — gewoon modern NL
+    "parabel",  # synoniem van gelijkenis — gewoon modern NL, in kanttekening
+    "begrepen",  # past participle van 'begrijpen' — gewoon modern NL
+    # LUK 5:19-21 carry-overs (legitiem)
+    "vergeven",  # gewoon modern NL — theologisch register
+    "vergeeft",  # 3e p ev van 'vergeven' — gewoon modern NL
+    "daken",  # mv 'dak' — gewoon modern NL
+    "kennende",  # present participle in <Of, kennende.> — kanttekening-alternatief
+    "klommen",  # past tense van 'klimmen' — gewoon modern NL
+    "lieten",  # past tense van 'laten' — gewoon modern NL
+    "tichelen",  # vakterm (dakplaten van klei), in kanttekening verklaard — bewust behouden
+    # LUK 5:25-27 carry-overs (legitiem)
+    "gelegen",  # past participle van 'liggen' — gewoon modern NL ('waarop hij gelegen had')
+    # LUK 6 intro + 6:1-3 carry-overs (legitiem)
+    "aren",  # mv 'aar' (korenaar) — gewoon modern NL
+    "eerstelingen",  # theologische term (vgl. Lev. 23) — bijbels register
+    "handen",  # mv 'hand' — gewoon modern NL
+    "rijpe",  # bijvoeglijk 'rijp' — gewoon modern NL ('rijpe vruchten')
+    "tabernakelen",  # theologische/cultuur-term ('feest der tabernakelen')
+    "voorname",  # bijvoeglijk — gewoon modern NL ('voorname leraars')
+    "wrijvende",  # present participle — bewust behouden in [die] wrijvende met de handen (SV-constructie)
+    # LUK 6:7-9 carry-overs (legitiem)
+    "helpt",  # 3e pers. ev. 'helpen' — gewoon modern NL
+    "kende",  # past tense 'kennen' — gewoon modern NL
+    "kenden",  # past tense plural 'kennen' — gewoon modern NL (MRK 1:34)
+    "leugenachtige",  # bijvoeglijk — gewoon modern NL ('leugenachtige geesten'; MRK 1:34 kanttekening)
+    "overleggingen",  # mv 'overlegging' — gewoon modern NL (gedachten/overwegingen)
+    "overtreder",  # zelfst.nw. — gewoon modern NL ('overtreder van de wet')
+    "verdacht",  # past participle 'verdenken' — gewoon modern NL
+    "verderf",  # zelfst.nw. — gewoon modern NL / bijbels register
+    "verderven",  # werkw. — gewoon modern NL / bijbels register
+    "vernielen",  # werkw. — gewoon modern NL (LUK 19:47 kanttekening-gloss naast 'verderven')
+    "vragen",  # werkw./zelfst.nw. — gewoon modern NL
+    # LUK 6:13-15 carry-overs (legitiem)
+    "noemde",  # past tense 'noemen' — gewoon modern NL
+    "prediken",  # theologische kernterm — bijbels en modern NL register
+    "zelotes",  # apostel-bijnaam (Simon de Zeloot) — eigennaam, SV-spelling behouden in lopende tekst
+    # LUK 6:16-18 carry-overs (legitiem)
+    "geesten",  # mv 'geest' — gewoon modern NL (incl. 'onreine geesten')
+    "sidon",  # eigennaam (stad)
+    "tyrus",  # eigennaam (stad)
+    "verrader",  # zelfst.nw. — gewoon modern NL
+    # LUK 6:31-33 carry-overs (legitiem)
+    "gehouden",  # past participle 'houden' — gewoon modern NL ('voor X gehouden worden')
+    "genadige",  # bijvoeglijk 'genadig' — gewoon modern NL
+    "lief",  # 'liefhebben' / 'lief hebben' — gewoon modern NL
+    "openbare",  # bijvoeglijk — gewoon modern NL ('openbare zondaars')
+    "wilt",  # 2e pers. 'willen' — gewoon modern NL ('zoals u wilt')
+    # LUK 7 intro + 7:1-3 carry-overs (legitiem)
+    "ouderlingen",  # bijbels-theologische term voor presbyteros (vgl. NBV 'oudsten' / SV 'ouderlingen') — bewust behouden in SV-traditie
+    "politie",  # SV-term voor stadsbestuur in kanttekening (Grieks πολιτεία) — bewust behouden in SV-register
+    # LUK 7:4-6 carry-overs (legitiem)
+    "baden",  # past tense van 'bidden' (mv) — gewoon modern NL
+    "liet",  # past tense van 'laten' — gewoon modern NL
+    "volgende",  # bijvoeglijk — gewoon modern NL ('het volgende vers')
+    "vrienden",  # mv 'vriend' — gewoon modern NL
+    # LUK 7:10-12 carry-overs (legitiem)
+    "begraven",  # gewoon modern NL (verleden deelwoord van 'begraven')
+    "hermon",  # eigennaam (berg)
+    "kison",  # eigennaam (beek)
+    "steden",  # gewoon modern NL (mv 'stad')
+    # LUK 7:19-21 carry-overs (legitiem)
+    "verwachten",  # gewoon modern NL ('verwachten wij een ander')
+    "blinden",  # gewoon modern NL (mv 'blinde') — bijbels register
+    "genas",  # past tense van 'genezen' — gewoon modern NL
+    # LUK 7:31-33 carry-overs (legitiem)
+    "gedanst",  # past participle van 'dansen' — gewoon modern NL
+    "toeroepen",  # gewoon modern NL ('elkaar toeroepen')
+    # LUK 7:34-36 carry-overs (legitiem)
+    "etende",  # present participle in formeel SV-register ('etende en drinkende')
+    "eter",  # SV-gloss van Gr. φάγος in <Grieks: eter en wijndrinker.>
+    # LUK 8 intro + 8:1-3 carry-overs (legitiem)
+    "dienden",  # past tense van 'dienen' — gewoon modern NL
+    "dienen",  # infinitief — gewoon modern NL ('tot iets dienen')
+    "dient",  # 3e p enk 'dienen' — gewoon modern NL ('wat tot vrede dient')
+    "epitropou",  # transliteratie van Grieks ἐπίτροπος in <Grieks: ...>
+    "susanna",  # eigennaam (volgeling van Christus)
+    "weldaden",  # mv 'weldaad' — gewoon modern NL ('weldaden ontvangen')
+    # LUK 8:13-15 carry-overs (legitiem)
+    "valt",  # 3e p enk 'vallen' — gewoon modern NL
+    "vallen",  # infinitief 'vallen' — gewoon modern NL ('in een put vallen')
+    "bewaren",  # gewoon modern NL werkwoord
+    "voldragen",  # gewoon modern NL ('voldragen vrucht', 'voldragen kind')
+    # LUK 8:22-24 carry-overs (legitiem)
+    "staken",  # past tense van 'afsteken' — 'zij staken af' is bijbels register, modern NL
+    "voeren",  # past tense van 'varen' — gewoon modern NL ('zij voeren over het meer')
+    "zijde",  # gewoon modern NL ('aan de andere zijde')
+    "stilte",  # gewoon modern NL zelfstandig naamwoord
+    "watergolven",  # samenstelling — formeel maar modern begrijpelijk
+    "winden",  # mv 'wind' — gewoon modern NL
+    "bestrafte",  # past tense van 'bestraffen' — gewoon modern NL
+    # LUK 8:28-30 carry-overs (legitiem)
+    "banden",  # mv 'band' — gewoon modern NL ('hij verbrak de banden')
+    "bevangen",  # voltooid deelwoord van 'bevangen' — gewoon modern NL ('door angst bevangen')
+    "gebonden",  # voltooid deelwoord van 'binden' — gewoon modern NL
+    "gedreven",  # voltooid deelwoord van 'drijven' — gewoon modern NL
+    "gevaren",  # voltooid deelwoord van 'varen' (in iemand varen) — modern NL bijbels register
+    "ketenen",  # mv 'keten' — gewoon modern NL
+    "leden",  # mv 'lid' (lichaamsdelen) — gewoon modern NL
+    "legio",  # eigennaam/term (Gr. λεγεών), bijbelse persoonsnaam
+    "legioen",  # gewoon modern NL militair-zelfstandig naamwoord
+    "vallende",  # present participle 'vallen' — 'vallende ziekte' is gewoon modern NL
+    "wildernissen",  # mv 'wildernis' — gewoon modern NL
+    "woeste",  # bijvoeglijk nw 'woest' — gewoon modern NL
+    "woest",  # bijvoeglijk nw — gewoon modern NL ('uw huis wordt woest gelaten')
+    "broedsel",  # zelfstandig nw (kuikens van een vogel) — gewoon modern NL
+    # LUK 8:31-33 carry-overs (legitiem)
+    "varen",  # 'in/uit/heen varen' — bijbels-modern NL voor demonen/geesten
+    "gebieden",  # gewoon modern NL werkwoord
+    "toelaten",  # gewoon modern NL werkwoord
+    "versmoorde",  # past tense van 'versmoren' (verdrinken) — register-behoud, nog modern bekend
+    "wilde",  # past tense enk. van 'willen' — gewoon modern NL ('mv 'wilden' staat al op stoplist)
+    # LUK 8:34-36 carry-overs (legitiem)
+    "gevlucht",  # voltooid deelw. 'vluchten' — gewoon modern NL
+    "verlost",  # voltooid deelw. 'verlossen' — gewoon modern NL, ook bijbels-modern
+    "voeten",  # mv. 'voet' — gewoon modern NL
+    # LUK 11:34-36 carry-overs (legitiem)
+    "verlicht",  # voltooid deelw. 'verlichten' — gewoon modern NL
+    # LUK 7:37-39 carry-overs (legitiem)
+    "indien",  # gewoon modern NL voegwoord ('indien ... dan')
+    "kuste",  # past tense van 'kussen' — gewoon modern NL
+    "petrus",  # eigennaam (in kanttekening)
+    "tranen",  # mv. 'traan' — gewoon modern NL
+    # LUK 8:37-39 carry-overs (legitiem)
+    "decapolis",  # eigennaam — geografische streek
+    "gadara",  # eigennaam — stad in Decapolis
+    "gewin",  # gewoon modern NL ('zijn gewin behouden') — formeel register
+    "keerde",  # past tense enk. van 'keren' — gewoon modern NL
+    "schade",  # gewoon modern NL zelfstandig naamwoord
+    "verkondigende",  # present participle — bijbels-modern register, formeel NL
+    # LUK 7:40-42 carry-overs (legitiem)
+    "betalen",  # gewoon modern NL werkwoord
+    "liefhebben",  # gewoon modern NL werkwoord (bijbels-modern register)
+    "penningen",  # SV-gloss/munteenheid — bijbels register, modern begrijpelijk
+    "toepast",  # 3e p enk. van 'toepassen' — gewoon modern NL
+    "toont",  # 3e p enk. van 'tonen' — gewoon modern NL
+    "past",  # 3e p enk. van 'passen' — gewoon modern NL ('deze rede past op vers 24')
+    # LUK 7:43-45 carry-overs (legitiem)
+    "elders",  # gewoon modern NL bijwoord
+    "gasten",  # mv. 'gast' — gewoon modern NL
+    "ingekomen",  # voltooid deelw. 'inkomen' — kanttekening-variant, register-behoud
+    "kussen",  # werkw. 'kussen' — gewoon modern NL
+    "meeste",  # superlatief — gewoon modern NL
+    "vreemde",  # bijvoeglijk — gewoon modern NL ('vreemde gasten')
+    # LUK 7:46-48 carry-overs (legitiem)
+    "bewijs",  # gewoon modern NL zelfst. nw. ('vrucht, bewijs, en teken')
+    "bewijst",  # 3e p. enk. 'bewijzen' — gewoon modern NL (LUK 20:37 kantt. 'Christus bewijst')
+    "geheel",  # gewoon modern NL ('het geheel oogmerk')
+    "houden",  # gewoon modern NL werkwoord ('voor X houden')
+    "olie",  # gewoon modern NL zelfst. nw.
+    "olijven",  # gewoon modern NL zelfst. nw. mv. (LUK 19:29 'der olijven')
+    "veulen",  # gewoon modern NL zelfst. nw. (LUK 19:30)
+    # LUK 8:40-42 carry-overs (legitiem)
+    "overste",  # SV-cap-bewaring (Overste der Synagoge) — bijbels-modern register
+    "verdrongen",  # voltooid deelw. 'verdringen' — gewoon modern NL
+    # LUK 8:43-45 carry-overs (legitiem)
+    "achteren",  # 'van achteren' — gewoon modern NL
+    "komende",  # participle 'komen' — gewoon modern NL
+    "medicijnmeesters",  # SV-vakterm voor 'artsen' — bewust behouden in SV-register (vgl. Mk. 5:26)
+    "middelen",  # gewoon modern NL ('financiële middelen')
+    "stelpte",  # past tense van 'stelpen' (bloed stelpen) — gewoon modern NL
+    "verdringen",  # gewoon modern NL ('zich verdringen om iemand')
+    "zoom",  # gewoon modern NL ('zoom van een kleed')
+    # LUK 8:46-48 carry-overs (legitiem)
+    "bevende",  # participle 'beven' — gewoon modern NL ('met bevende stem/handen')
+    # LUK 9:1-3 carry-overs (legitiem)
+    "geroepen",  # past participle van 'roepen' — gewoon modern NL
+    "niets",  # ontkennend voornaamwoord — gewoon modern NL
+    "staf",  # zelfst.nw. — gewoon modern NL (loopstaf, pelgrimsstaf)
+    "staven",  # mv van 'staf' — gewoon modern NL
+    "werpen",  # werkw. — gewoon modern NL ('uit te werpen')
+    # LUK 9:13-15 carry-overs (legitiem)
+    "deden",  # past tense mv van 'doen' — gewoon modern NL ('zij deden zo')
+    "geeft",  # imperatief 2e p mv van 'geven' — gewoon modern NL ('geeft u hun te eten')
+    # LUK 9:16-18 carry-overs (legitiem)
+    "korven",  # mv van 'korf' — gewoon modern NL (mand-synoniem, bijbels register)
+    # LUK 9:22-24 carry-overs (legitiem)
+    "verworpen",  # past participle van 'verwerpen' — gewoon modern NL
+    "overpriesters",  # SV-cap bijbels-bestuurstitel ἀρχιερεῖς — bewust behouden uit SV-traditie
+    "noemt",  # 3e pers. ev. van 'noemen' — gewoon modern NL
+    "derden",  # rangtelwoord in staande uitdrukking 'ten derden dage' — bijbels register
+    "dage",  # naamval-vorm in staande uitdrukking 'ten derden dage' — bijbels register
+    "neme",  # subjunctieve imperatief — formeel-bijbels register (vgl. 'doet', 'vreest')
+    "volge",  # subjunctieve imperatief — formeel-bijbels register
+    "verloochene",  # subjunctieve imperatief van 'verloochenen' — formeel-bijbels register
+    "verloochende",  # imperfectum van 'verloochenen' — legitiem theologisch werkwoord (LUK 22:57)
+    # LUK 9:25-27 carry-overs (legitiem)
+    "halen",  # werkw. — gewoon modern NL ('verderf over zichzelf halen')
+    "schamen",  # werkw. — gewoon modern NL ('zich schamen voor')
+    "smaken",  # werkw. — gewoon modern NL; bijbelse uitdrukking 'de dood smaken' (γεύσονται θανάτου)
+    "winnen",  # werkw. — gewoon modern NL ('de wereld winnen')
+    # LUK 9:31-33 carry-overs (legitiem)
+    "stonden",  # past tense mv van 'staan' — gewoon modern NL
+    "vervullen",  # werkw. — gewoon modern NL; staat in kanttekening als Griekse glosse op 'volbrengen'
+    "volbrengen",  # werkw. — gewoon modern NL, formeel-bijbels register
+    # LUK 9:37-39 carry-overs (legitiem)
+    "medelijdende",  # tegenwoordig deelwoord van 'medelijden' — gewoon modern NL
+    "plegen",  # werkw. ('plegen te gebeuren') — gewoon modern NL, formeel register
+    "verpletteren", "verplettert",  # werkw. — gewoon modern NL
+    # LUK 9:40-42 carry-overs (legitiem)
+    "verdragen",  # werkw. — gewoon modern NL ("u verdragen")
+    "verscheurde",  # past tense van 'verscheuren' — gewoon modern NL
+    "verscheuren",  # infinitief — gewoon modern NL ("een papier verscheuren")
+    # LUK 9:46-48 carry-overs (legitiem)
+    "meerder",  # comparatief μείζων in <Gr. ...>-gloss (citaat-vorm)
+    "mindere",  # comparatief μικρότερος in <Gr. ...>-gloss (citaat-vorm)
+    "minste",   # superlatief — gewoon modern NL ("de minste onder u")
+    # LUK 9:49-51 carry-overs (legitiem)
+    "verhindert",  # 3e pers. enk. 'verhinderen' in <Of, ...>-gloss — gewoon modern NL
+    # LUK 9:52-54 carry-overs (legitiem)
+    "samaritanen",  # volksnaam — gewoon modern NL
+    "boden",  # mv 'bode' — gewoon modern NL (boodschappers)
+    "garizim",  # toponiem — berg Gerizim
+    "ioseph",  # eigennaam (Flavius Josephus, in literatuurverwijzing kanttekening)
+    # LUK 9:55-57 carry-overs (legitiem)
+    "behoort",  # 3e pers. enk. 'behoren' — gewoon modern NL
+    "volgen",  # gewoon modern NL werkwoord
+    "weet",  # 1e/2e/3e pers. enk. 'weten' — gewoon modern NL
+    "zielen",  # mv 'ziel' — gewoon modern NL ("zielen van de mensen")
+    # LUK 10:10-12 carry-overs (legitiem)
+    "kleeft",  # 3e pers. enk. van 'kleven' — gewoon modern NL ('aan ons kleeft')
+    "straten",  # mv van 'straat' — gewoon modern NL
+    # LUK 10:22-24 carry-overs (legitiem)
+    "bedienende",  # tegenw. deelw. 'bedienen' — gewoon modern NL ('zijn ambt bedienend(e)')
+    "openbaren",  # infinitief 'openbaren' — gewoon modern NL ('hij zal het openbaren')
+    # LUK 10:34-36 carry-overs (legitiem)
+    "koste",  # in idioom 'te koste leggen aan' — gewoon modern NL
+    "plicht",  # gewoon modern NL zelfstandig naamwoord
+    "voerde",  # past tense van 'voeren' (leiden/brengen) — gewoon modern NL
+    # LUK 10:37-39 carry-overs (legitiem)
+    "martha",  # eigennaam (zuster van Maria en Lazarus)
+    "toehoorders",  # gewoon modern NL (mv 'toehoorder') — in kanttekening
+    # LUK 10:40-42 carry-overs (legitiem)
+    "bekommert",  # 2e/3e pers. enk. 'bekommeren' — gewoon modern NL ('zich bekommeren om')
+    # LUK 11:22-24 carry-overs (legitiem)
+    "bevorderen",  # infinitief — gewoon modern NL ('Gods eer bevorderen')
+    "deelt",  # 3e pers. enk. 'delen' — gewoon modern NL ('deelt zijn buit uit')
+    "dorre",  # bijv. nw. 'dor' — gewoon modern NL ('dorre plaatsen / dorre vlakte')
+    "overwint",  # 3e pers. enk. 'overwinnen' — gewoon modern NL
+    "vaten",  # mv. 'vat' — gewoon modern NL (kanttekening citeert Mattheüs)
+    "vergadert",  # 3e pers. enk. 'vergaderen' (bijeenbrengen) — gewoon modern NL
+    "vertrouwde",  # past tense 'vertrouwen' — gewoon modern NL ('waarop hij vertrouwde')
+    # LUK 11:31-33 carry-overs (legitiem)
+    "oordeel",  # gewoon modern NL ('het laatste oordeel')
+    "nineve",  # eigennaam — stad Ninevé/Nineve (NBV21 spelling)
+    "persoon",  # gewoon modern NL — in kanttekening ('van persoon als van ambt')
+    "schijnsel",  # gewoon modern NL — staat in kanttekening als Griekse glosse
+    # LUK 11:43-45 carry-overs (legitiem)
+    "begroetingen",   # gewoon modern NL — plurale van 'begroeting' (Gr. ἀσπασμούς)
+    "bemint",         # productief modern NL (3e pers. enk. van 'beminnen')
+    "voorgestoelte",  # SV-eigen technische term voor de ereplaats in de synagoge
+    "voorste",        # gewoon modern NL bijv. nw. — in kanttekening 'voorste zitplaats'
+    # LUK 11:49-51 carry-overs (legitiem)
+    "vergoten",       # voltooid deelw. 'vergieten' — vaste uitdrukking 'vergoten bloed' / 'bloed vergieten', modern NL
+    # LUK 11:52-54 carry-overs (legitiem)
+    "sleutel",        # gewoon modern NL ('sleutel van de kennis') — Gr. κλείς
+    "toegesloten",    # voltooid deelw. 'toesluiten' (= afsluiten/vergrendelen) — modern NL in formeel register
+    # LUK 12:31-33 carry-overs (legitiem)
+    "dief",           # gewoon modern NL — Gr. κλέπτης
+    "toegeworpen",    # voltooid deelw. 'toewerpen' — formeel modern NL, gebruikt als renovatie van SV 'toegeworpen' (Gr. προστεθήσεται)
+    "verderft",       # 3e p enk. 'verderven' — bijbels-modern register (cf. 'verderf', 'verderven' al in stoplist)
+    "verkoopt",       # imperatief mv. 'verkopen' — formeel modern NL imperatief, concordant met SV-imperatieven ('vreest', 'weest')
+    # LUK 12:46-48 carry-overs (legitiem)
+    "geslagen",       # voltooid deelw. 'slaan' — gewoon modern NL ('geslagen worden')
+    "houwen",         # ww. — modern NL register ('in tweeën houwen') — Gr. διχοτομέω
+    "ontrouwen",      # mv. zelfst. nw. 'ontrouwe' — modern NL, SV-renderingen Gr. ἄπιστοι
+    "verwacht",       # 3e p enk. 'verwachten' — gewoon modern NL (cf. 'verwachten', 'verwachte' al in stoplist)
+    # LUK 12:58-59 carry-overs (legitiem)
+    "maner",          # zelfst. nw. in kanttekening — iemand die maant tot betaling; SV-uitleg van 'Practor', concordant met origineel
+    "misschien",      # gewoon modern NL bijwoord — Gr. μήποτε
+    # LUK 14:7 carry-overs (legitiem)
+    "vermanen",       # ww. — gewoon modern NL en gangbaar in religieus/ethisch register (NBV21, HSV); SV-renovatie van 'vermanen'
+    # LUK 14:10-12 carry-overs (legitiem)
+    "vernedert",      # 3e p enk. 'vernederen' — gewoon modern NL (cf. 'vernederd' voltooid deelw.); SV-rendering Gr. ταπεινόω
+    # LUK 14:13-15 carry-overs (legitiem)
+    "eeuwigen",       # 'ten eeuwigen leven' — vaste idiomatische SV-collocatie, modern NL nog gangbaar (cf. NBV21 'het eeuwige leven')
+    "vergelden",      # inf. — gewoon modern NL ('iemand iets vergelden')
+    "vergolden",      # voltooid deelw. van 'vergelden' — gewoon modern NL
+    # LUK 14:16-17 carry-overs (legitiem)
+    "achten",         # ww. — gewoon modern NL ('iets hoog achten', 'het groot te achten')
+    "schenen",        # verleden tijd van 'schijnen' — gewoon modern NL ('zij leken / schenen iets te doen')
+    # LUK 14:18-20 carry-overs (legitiem)
+    "gekocht",        # voltooid deelw. van 'kopen' — gewoon modern NL
+    "koppel",         # zelfst.nw. — modern NL ('een koppel ossen / vogels')
+    "ossen",          # plurale van 'os' — modern NL (parabel-personage)
+    "voorwenden",     # ww. — gewoon modern NL ('een excuus voorwenden')
+    # LUK 14:21-23 carry-overs (legitiem)
+    "heggen",         # zelfst.nw. — gewoon modern NL ('langs de heggen en wegen')
+    "trouwen",        # ww. — gewoon modern NL
+    "verhinderen",    # ww. — gewoon modern NL
+    "vertoornt",      # 3e pers. ev. van 'vertoornen' — modern NL (formeel-religieus register)
+    # LUK 14:28-29 carry-overs (legitiem)
+    "bespotten",      # ww. — gewoon modern NL ('hem bespotten')
+    "kosten",         # zelfst.nw./ww. — gewoon modern NL ('de kosten berekenen')
+    # LUK 16:4-6 carry-overs (legitiem)
+    "batos",          # getranslitereerde Griekse maatnaam in kanttekening — staat verbatim zo in SV1657 (<Gr. Batos, ...>)
+    "natte",          # bijv.nw. 'nat' — gewoon modern NL ('natte waren' = vloeibare goederen, in kanttekening)
+    # LUK 16:25-27 carry-overs (legitiem)
+    "lazarus",        # eigennaam — bedelaar in de gelijkenis
+    "lijdt",          # 3e/2e pers. enk. van 'lijden' — gewoon modern NL (cf. 'lijden' al in stoplist)
+    "vertroost",      # voltooid deelw./3e pers. enk. van 'vertroosten' — gewoon modern NL, religieus register
+    "wijde",          # bijv.nw. 'wijd' — gewoon modern NL ('een wijde en diepe tussenscheiding')
+    "diepe",          # bijv.nw. 'diep' — gewoon modern NL
+    # LUK 16:28-30 carry-overs (legitiem)
+    "schriften",      # zelfst.nw. mv. 'schrift' — gewoon modern NL ('de schriften van Mozes', in kanttekening)
+    # LUK 17:1-3 carry-overs (legitiem)
+    "ergernissen",    # zelfst.nw. mv. 'ergernis' — gewoon modern NL (SV-concordantiewoord σκάνδαλα)
+    "ergeren",        # werkwoord 'ergeren' — gewoon modern NL (SV-concordantiewoord σκανδαλίσῃ)
+    "gebeuren",       # infinitief — gewoon modern NL (Griekse glos in kanttekening)
+    "gestraft",       # voltooid deelw. van 'straffen' — gewoon modern NL
+    "hals",           # zelfst.nw. — gewoon modern NL
+    "bekent",         # 3e pers. enk. van 'bekennen' — gewoon modern NL (kanttekening)
+    "begeert",        # 3e pers. enk. van 'begeren' — gewoon modern NL, religieus register (kanttekening)
+    "paulus",         # eigennaam — apostel, in kanttekening genoemd
+    # LUK 17:22-24 carry-overs (legitiem)
+    "genieten",       # infinitief 'genieten' — gewoon modern NL (kanttekening, 'tegenwoordigheid genieten')
+    "snelle",         # bijv.nw. 'snel' — gewoon modern NL (kanttekening, 'snelle verbreiding')
+    # LUK 17:34-36 carry-overs (legitiem)
+    "malen",          # werkwoord 'malen' (graan malen) — gewoon modern NL, formele equivalent van Gr. ἀλήθουσαι
+    # LUK 18:1-3 carry-overs (legitiem)
+    "verloren",       # voltooid deelw. van 'verliezen' — gewoon modern NL ('de moed verloren geven', in kanttekening)
+    "vreesde",        # 3e pers. enk. verleden tijd van 'vrezen' — gewoon modern NL (cf. 'vreesden', 'vreest' al in stoplist)
+    # LUK 18:4-6 carry-overs (legitiem)
+    "versuft",        # voltooid deelw. van 'versuffen' — staat in Van Dale, modern NL; letterlijke glos van Gr. ὑπωπιάζω in kanttekening v5
+    # LUK 18:10-12 carry-overs (legitiem)
+    "moria",          # eigennaam — de tempelberg, in kanttekening v10 genoemd
+    "tienden",        # zelfst. nw. 'tiende' (mv.) — gewoon modern NL voor de tempelbelasting, SV-rendering Gr. ἀποδεκατῶ in v12
+    # LUK 18:37-39 carry-overs (legitiem)
+    "nazarener",      # eigennaam-afgeleide SV-epitheton voor ὁ Ναζωραῖος (v37) — herkenbaar modern NL, behoudt SV-eigenheid
+    "bestraften",     # verl. tijd mv. van 'bestraffen' — gewoon modern NL, vaste SV-rendering van Gr. ἐπιτιμάω (cf. v15/16)
+    # LUK 19:1-3 carry-overs (legitiem)
+    "opperste",       # superlatief van 'boven' — gewoon modern NL, SV-rendering van Gr. ἀρχι- (ἀρχιτελώνης, v2)
+    "statuere",       # Latijns lemma binnen Grieks-kanttekening v3 — vreemd-woord-citaat, geen Nederlands
+    "tollen",         # mv. van 'tol' — gewoon modern NL (belasting/tol), SV-context v2
+    "verantwoorden",  # infinitief — gewoon modern NL ('rekenschap geven'), in kanttekening v2
+    # LUK 19:7-9 carry-overs (legitiem)
+    "spannen",        # infinitief 'spannen' — gewoon modern NL; in 'uit te spannen' (paardenmetafoor in Grieks-kanttekening v7)
+    "helft",          # zelfst. nw. — gewoon modern NL (v8 'helft van mijn goederen', Gr. τὰ ἡμίση)
+    "afgenomen",      # voltooid deelw. van 'afnemen' — gewoon modern NL (v8 kanttekening 'afgenomen heb', Gr. συκοφαντέω)
+    "verwerpen",      # infinitief — gewoon modern NL (v9 kanttekening 'deze genade verwerpen'); cf. 'verworpen' al in stoplist
+    # LUK 20:16-18 carry-overs (legitiem)
+    "overkomen",      # voltooid deelw./inf. — gewoon modern NL ('ons zou overkomen' v16 kanttekening, Gr. context)
+    "steen",          # zelfst. nw. ev. — gewoon modern NL (v17/v18 Ps. 118:22 hoeksteen-citaat, Gr. λίθος); 'stenen' (mv) al gangbaar
+    "bouwlieden",     # SV-vaste rendering van Gr. οἱ οἰκοδομοῦντες (Ps. 118:22 / Mt. 21:42 / 1Pt. 2:7 concordantie); behoudt SV-eigenheid t.o.v. HSV 'bouwers'
+    # LUK 20:46-47 carry-overs (legitiem)
+    "beminnen",       # inf. van 'beminnen' — productief modern NL register; SV-rendering Gr. φιλούντων (cf. 'bemint' al in stoplist; concordantie Lk 11:43)
+    "stolais",        # Griekse transliteratie binnen <Grieks: Stolais.>-kanttekening — vreemd-woord-citaat uit SV1657, geen Nederlands (v46)
+    "weduwen",        # mv. van 'weduwe' (al in stoplist) — gewoon modern NL (v47, Gr. χηρῶν)
+    "schijn",         # zelfst. nw. — gewoon modern NL ('voor de schijn lange gebeden') — SV-rendering Gr. προφάσει (v47)
+    # MRK 1:4-6 carry-overs (legitiem)
+    "belijdende",     # tegenw. deelw. van 'belijden' (al in stoplist) — bijbels-NL register, ook in NBV/HSV gangbaar (v5, Gr. ἐξομολογούμενοι)
+    "beloofden",      # 3e p. mv. verleden tijd van 'beloven' — gewoon modern NL (v4 kanttekening 'bekering beloofden')
+    "gordel",         # zelfst. nw. — gewoon modern NL (v6 'leren gordel om zijn lendenen', Gr. ζώνην)
+    # MRK 1:10-12 carry-overs (legitiem)
+    "dreef",          # 3e p. enk. verleden tijd van 'drijven' (al in stoplist) — gewoon modern NL (v12, Gr. ἐκβάλλει)
+    "gekloven",       # voltooid deelw. van 'klieven' binnen <Grieks: gescheurd, of, gekloven.>-kanttekening — Griekse alternatief-gloss SV1657 (v10, Gr. σχιζομένους)
+    # MRK 1:13-15 carry-overs (legitiem)
+    "gevast",         # volt. deelw. van 'vasten' — gewoon modern NL ('hij had veertig dagen gevast'); kanttekening v13
+    "nachten",        # mv. van 'nacht' — gewoon modern NL ('veertig dagen en nachten'); kanttekening v13
+    # MRK 1:16-18 carry-overs (legitiem)
+    "vergeleken",     # volt. deelw. van 'vergelijken' — gewoon modern NL (v17 kanttekening 'met het vissen vergeleken')
+    # MRK 1:28-30 carry-overs (legitiem)
+    "simons",         # possessieve eigennaam (Simon → Simons schoonmoeder) — eigennaam, 'simon' al op stoplist (v30)
+    "apostel",        # enkelvoud theologische term (kanttekening 'toen hij Apostel werd'); 'apostelen' al op stoplist (v30)
+    # MRK 1:31-33 carry-overs (legitiem)
+    "diende",         # 3e p. enk. verleden tijd van 'dienen' — gewoon modern NL (v31, 'zij diende hen'); 'dienden' (mv) al op stoplist
+    "verliet",        # 3e p. enk. verleden tijd van 'verlaten' — gewoon modern NL (v31, 'de koorts verliet haar')
+    # MRK 1:37-39 carry-overs (legitiem)
+    "dorpsteden",     # Griekse gloss binnen <Grieks: dorpsteden, dat is, ...>-kanttekening — vertaling van Gr. κωμοπόλεις, SV-coinage die in kanttekening expliciet uitgelegd wordt (v38)
+    # MRK 1:43-45 carry-overs (legitiem)
+    "kanten",         # mv. van 'kant' — gewoon modern NL (v45, 'van alle kanten')
+    "toeloop",        # zelfstandig nw — gewoon modern NL (kanttekening v45, 'grote toeloop van het volk')
+    "verkondigen",    # infinitief — gewoon modern NL, ook bijbels-modern register (v45, 'vele dingen te verkondigen')
+    # LUK 21:16-18 carry-overs (legitiem)
+    "verraden",       # inf. — gewoon modern NL ('verraden worden'); SV-alternatief-gloss in <Of, verraden worden.> bij παραδοθήσεσθε (v16)
+    # LUK 22:34-36 carry-overs (legitiem)
+    "ontbroken",      # volt. deelw. van 'ontbreken' — gewoon modern NL ('heeft u iets ontbroken'); 'ontbreken' staat al in STOPLIST
+    "overval",        # zelfst. nw. — gewoon modern NL ('geweldige overval en nood van vijanden' in kanttekening v36)
+    # LUK 22:40-42 carry-overs (legitiem)
+    "knielde",        # past tense van 'knielen' — gewoon modern NL ('knielde neer', Lk. 22:41)
+    "steenworp",      # zelfst.nw. — gewoon modern NL (afstandsmaat, Lk. 22:41 'ongeveer een steenworp')
+    # LUK 22:43-45 carry-overs (legitiem)
+    "ernstiger",      # comparatief van 'ernstig' — gewoon modern NL ('te ernstiger', Lk. 22:44, intensifier-idioom)
+    "last",           # zelfst.nw. — gewoon modern NL ('last van Gods toorn', kanttekening Lk. 22:44)
+    # LUK 22:50-51 carry-overs (legitiem)
+    "malchus",        # eigennaam (de dienstknecht van de Hogepriester, $Jh. 18:10$), kanttekening v50
+    "hieuw",          # verleden tijd van 'houwen' — gewoon modern NL register (v50, 'hieuw [hem] zijn rechteroor af')
+    "heelde",         # verleden tijd van 'helen' — gewoon modern NL ('genezen', v51, 'heelde hem')
+    # LUK 22:64-66 carry-overs (legitiem)
+    "leveren",        # inf. — gewoon modern NL (kanttekening v66, 'aan Pilatus over te leveren')
+    "synedrion",      # Grieks-Joodse term — kanttekening v66 als Griekse glosse op 'Raad'
+    "vergaderden",    # verleden tijd mv. 'vergaderen' — gewoon modern NL (v66, 'vergaderden de Ouderlingen'); vgl. STOPLIST 'vergadert'
+    # LUK 23:7-9 carry-overs (legitiem)
+    "antipas",        # eigennaam (Herodes Antipas), kanttekening v7
+    "hoopte",         # verleden tijd 'hopen' — gewoon modern NL (v8, 'hij hoopte enig teken te zien')
+    "mirakel",        # zelfst. nw — gewoon modern NL register, kanttekening v8 (gloss op 'teken')
+    "voeden",         # inf. — gewoon modern NL ('nieuwsgierigheid voeden' = aanwakkeren), kanttekening v8
+    # LUK 23:10-12 carry-overs (legitiem)
+    "purperen",       # bn. — gewoon modern NL (v11, 'purperen kleed' — synoniem purper-kleurig)
+    "soldaten",       # mv. — gewoon modern NL (v11, 'soldaten')
+    "spotten",        # inf. — gewoon modern NL (v11, 'spotten met')
+    "veracht",        # volt. deelw. — gewoon modern NL (v11, 'veracht hebbende')
+    # LUK 23:13-15 carry-overs (legitiem)
+    "ondervragen",    # inf. — gewoon modern NL ('rechtelijk ondervragen of examineren', kanttekening v14)
+    "oordeelde",      # verleden tijd 'oordelen' — gewoon modern NL ('hij oordeelde hem de dood waardig', kanttekening v15)
+    # LUK 23:16-18 carry-overs (legitiem)
+    "kastijden",      # inf. — gewoon modern NL (Van Dale: straffen, tuchtigen); productief religieus register (v16, 'hem kastijden en loslaten')
+    # LUK 23:19-21 carry-overs (legitiem)
+    "oproer",         # zelfst.nw. — gewoon modern NL (v19, 'een zekere oproer die in de stad had plaatsgevonden')
+    "riepen",         # verleden tijd mv. 'roepen' — gewoon modern NL (v21, 'zij riepen daartegen'); vgl. STOPLIST 'riep'
+    # LUK 23:22-24 carry-overs (legitiem)
+    "geroep",         # zelfst.nw. — gewoon modern NL (v23, 'met groot geroep'; ook in kanttekening 'geroep ... werd geweldiger')
+    "geweldiger",     # vergrotende trap van 'geweldig' — gewoon modern NL (v23, 'werd geweldiger'); SV 'wiert geweldiger' letterlijk gevolgd
+    "langer",         # vergrotende trap van 'lang' — gewoon modern NL (v23, kanttekening 'hoe langer hoe sterker'); vgl. STOPLIST 'lang/lange'
+    "stemmen",        # meervoud van 'stem' — gewoon modern NL (v23, kanttekening 'Grieks: met grote stemmen'); vgl. STOPLIST 'stem'
+    # LUK 23:28-30 carry-overs (legitiem)
+    "woont",          # 3e p. enk. pres. 'wonen' — gewoon modern NL (v28, kanttekening 'die binnen Jeruzalem woont')
+    # LUK 23:31-33 carry-overs (legitiem)
+    "groene",         # bijv. nw. — gewoon modern NL (v31, 'het groene hout'); vaste SV-uitdrukking ook in HSV
+    "hout",           # zelfst. nw. — gewoon modern NL (v31, 'groene hout / dorre hout')
+    "schuldigen",     # zelfst. gebruikt bnw mv. — gewoon modern NL (v31, kanttekening 'de goddelozen en schuldigen')
+    # LUK 23:37-39 carry-overs (legitiem)
+    "gehangen",       # volt. deelw. 'hangen' — gewoon modern NL (v39, 'kwaaddoeners die gehangen waren')
+    "gehecht",        # volt. deelw. 'hechten' — gewoon modern NL (v38, kanttekening 'op het kruis gehecht')
+    "lasterde",       # verleden tijd 'lasteren' — gewoon modern NL (v39, 'lasterde hem'); vgl. 'lasteren'
+    "letters",        # mv. — gewoon modern NL (v38, 'met Griekse, Romeinse en Hebreeuwse letters')
+    # LUK 24:7-9 carry-overs (legitiem)
+    "graf",           # zelfst. nw. — gewoon modern NL ('zij keerden terug van het graf', v9; ook v1, v2, v12, v22, v24)
+    # LUK 24:10-12 carry-overs (legitiem)
+    "geklap",         # zelfst. nw. — gewoon modern NL register (v11, 'ijdel geklap'); SV/HSV-register
+    "geloofden",      # 3e p. mv. verleden tijd 'geloven' — gewoon modern NL (v11, 'zij geloofden hen niet')
+    "liep",           # 3e p. enk. verleden tijd 'lopen' — gewoon modern NL (v12, 'liep naar het graf')
+    # LUK 23:43-45 carry-overs (legitiem)
+    "paradijs",       # zelfst. nw. — gewoon modern NL (v43, 'in het paradijs zijn'); theologische term, één-op-één
+    "negende",        # rangtelwoord — gewoon modern NL (v44, 'tot het negende uur'); vgl. 'achtste', 'vijfde' reeds op STOPLIST
+    "tellen",         # infinitief — gewoon modern NL (v44, kanttekening 'over het tellen van deze uren')
+    "uren",           # mv. van 'uur' — gewoon modern NL (v44, kanttekening 'het tellen van deze uren')
+    # LUK 23:52-54 carry-overs (legitiem)
+    "breken",         # infinitief — gewoon modern NL (v54, kanttekening 'begon aan te breken' = ochtendgloren)
+    "fijn",           # bnw — gewoon modern NL (v53, 'fijn linnen'); ook door HSV gebruikt
+    "sterren",        # zelfst. nw. mv. — gewoon modern NL (v54, kanttekening 'met het opgaan van de sterren')
+    # LUK 24:44-46 carry-overs (legitiem)
+    "opende",         # verleden tijd 'openen' — gewoon modern NL (v45, 'opende hij hun verstand'); vgl. 'open' reeds op STOPLIST
+    # LUK 24:53 carry-overs (legitiem)
+    "amen",           # theologische term — één-op-één (v53, slotwoord van het evangelie)
+})
+
+
+def tokens(text: str) -> list[str]:
+    """Lowercase content-tokens >= 4 tekens, met markup gestript."""
+    cleaned = re.sub(r"\$[^$]+\$", " ", text)              # strip $bibrefs$
+    cleaned = re.sub(r"\[([^\]]+)\]", r"\1", cleaned)       # houd [SV-toevoegingen] inhoud
+    cleaned = re.sub(r"[<>]", " ", cleaned)                 # strip kant-haken (houd inhoud)
+    return [t.lower() for t in _TOKEN_RE.findall(cleaned) if len(t) >= 4]
+
+
+def find_carryovers(orig: str, mod: str) -> set[str]:
+    """Tokens die zowel in origineel als modern voorkomen (case-insensitive)."""
+    return set(tokens(orig)) & set(tokens(mod))
+
+
+def cmd_lint(args: argparse.Namespace) -> int:
+    out_path = Path(args.output)
+    if not out_path.exists():
+        print(json.dumps({"error": f"output niet gevonden: {out_path}"}))
+        return 2
+
+    with out_path.open(encoding="utf-8") as f:
+        data = json.load(f)
+
+    target = None
+    if args.verses:
+        target = {int(v) for v in args.verses.split(",")}
+
+    counter: Counter[str] = Counter()
+    where: dict[str, set[int]] = {}
+    n_checked = 0
+
+    for v in data.get("verses", []):
+        vn = v["verse_number"]
+        if target is not None and vn not in target:
+            continue
+        n_checked += 1
+        carries = find_carryovers(v.get("original", ""), v.get("modernized", ""))
+        carries -= STOPLIST
+        for w in carries:
+            counter[w] += 1
+            where.setdefault(w, set()).add(vn)
+
+    items = [
+        (w, c) for w, c in sorted(counter.items(), key=lambda x: (-x[1], x[0]))
+        if c >= args.min_occurrences
+    ]
+    if args.top:
+        items = items[: args.top]
+
+    if args.terse:
+        if not items:
+            print(f"lint 0 candidates ({n_checked} verses)")
+        else:
+            parts = []
+            for w, _ in items:
+                vs = ",".join(f"v{v}" for v in sorted(where[w]))
+                parts.append(f"{w}({vs})")
+            print(f"lint {len(items)} candidates: " + " ".join(parts))
+        return 0
+
+    result = {
+        "checked_verses": n_checked,
+        "stoplist_size": len(STOPLIST),
+        "candidates": [
+            {"word": w, "occurrences": c, "verses": sorted(where[w])}
+            for w, c in items
+        ],
+    }
+    print(json.dumps(result, ensure_ascii=False, indent=2))
+    # Lint-tool — geen hard-fail. Exit 0 zelfs bij candidates; exit 1
+    # alleen bij IO-fout (hierboven al).
+    return 0
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser(description=__doc__)
+    sub = parser.add_subparsers(dest="cmd", required=True)
+
+    sp = sub.add_parser("lint", help="Vind carry-over woorden in modernisatie.")
+    sp.add_argument("--output", required=True,
+                    help="Pad naar output/<BOEK>/<BOEK>.<H>.json")
+    sp.add_argument("--verses", default=None,
+                    help="Komma-gescheiden vers-nummers (default: alle in output)")
+    sp.add_argument("--min-occurrences", type=int, default=1,
+                    help="Toon alleen woorden met >= N occurrences (default 1)")
+    sp.add_argument("--top", type=int, default=30,
+                    help="Toon top-N candidates (default 30)")
+    sp.add_argument("--terse", action="store_true",
+                    help="Compacte tekstuele output ipv. JSON.")
+    sp.set_defaults(func=cmd_lint)
+
+    args = parser.parse_args()
+    sys.exit(args.func(args))
+
+
+if __name__ == "__main__":
+    main()
