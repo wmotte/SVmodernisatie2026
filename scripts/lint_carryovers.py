@@ -346,6 +346,8 @@ STOPLIST: frozenset[str] = frozenset({
     "jeruzalem", "egypte", "hebron", "kirjath", "arba", "levieten",
     "arimathea",  # plaatsnaam (Lk 23:51)
     "gadarenen", "gergesenen",
+    "esau", "edomieten", "idumea",  # MRK 3:8 — patriarch / volk / regio
+    "tyrus", "sidon",  # MRK 3:8 — Fenicische steden
     "siloa", "siloam",  # plaats-/beeknaam (Lk 13:4) — modern NL behouden
     # LUK 13:4-6 — gewone moderne NL woorden
     "bekeert",   # 'zich bekeren' — productief modern NL werkwoord
@@ -368,7 +370,7 @@ STOPLIST: frozenset[str] = frozenset({
     "caesar", "cyrenius", "quirinus",  # eigennamen
     "antiq",  # afkorting Antiquitates (Josephus-citaat)
     "bewoonde", "deel", "geschat", "gingen", "moet",
-    "onderdanen", "vermogen", "woonde",  # gewone moderne NL-woorden
+    "onderdanen", "vermogen", "woonde", "woonden",  # gewone moderne NL-woorden
     # LUK 2:4-6 carry-overs (legitiem)
     "bethlehem",  # eigennaam
     "geboren", "leefde", "waren", "volgens", "evenwel", "bevel", "beval",
@@ -1024,6 +1026,9 @@ STOPLIST: frozenset[str] = frozenset({
     # MRK 3:5-6 carry-overs (legitiem)
     "eelt",           # zelfst. nw. — gewoon modern NL (v5, kanttekening over πώρωσις 'door weer of eelt')
     "herodianen",     # eigennaam mv. — partijbenaming, één-op-één (v6, hoofdtekst en kanttekening); vgl. 'herodes', 'herodias' reeds op STOPLIST
+    # MRK 3:10 carry-overs (legitiem)
+    "gebreken",       # mv. zelfst. nw. — gewoon modern NL (v10, kanttekening 'ziekten en gebreken'); productief in modern register
+    "overvielen",     # ovt. mv. van 'overvallen' — gewoon modern NL (v10, hoofdtekst 'hem overvielen om hem te kunnen aanraken')
 })
 
 
