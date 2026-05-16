@@ -249,7 +249,7 @@ STOPLIST: frozenset[str] = frozenset({
     "stem", "hand", "voet", "oog", "oor", "hart", "ziel", "grootte",
     "borst",  # anatomie — modern NL
     "greep", "sloegen",  # past tense van grijpen / slaan — modern NL
-    "gedachten", "geslachten",
+    "gedacht", "gedachten", "geslachten",
     "boek", "tafel", "deur", "venster", "boom", "veld",
     "leven", "levende", "dood", "doodden", "sterven", "geboorte",
     "kracht", "macht", "mijn", "toegerust", "vaders",
