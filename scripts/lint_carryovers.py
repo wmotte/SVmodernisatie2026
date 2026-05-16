@@ -1056,6 +1056,9 @@ STOPLIST: frozenset[str] = frozenset({
     # MRK 4:31-32 carry-over — gewone moderne NL woorden
     "zaden",          # mv. van 'zaad' — gewoon modern NL (v31, 'het kleinste van alle zaden')
     "nestelen",       # ww. infinitief — gewoon modern NL (v32, 'de vogels kunnen nestelen'); vgl. STOPLIST 'nestelden'
+    # MRK 5:26 carry-over — gewone moderne NL woorden
+    "geleden",        # volt. dlw. van 'lijden' — gewoon modern NL ('veel had geleden')
+    "hare",           # bezittelijk vnw. 'het hare' = haar bezit — gewoon (formeel) modern NL ('al het hare')
     # MRK 7:1-3 carry-overs (legitiem)
     "berispten",      # verleden tijd mv. 'berispen' — gewoon modern NL (v2, 'berispten zij hen'); vgl. 'berispen' productief in modern register
     "meenden",        # verleden tijd mv. 'menen' — gewoon modern NL (v2, kanttekening 'de Farizeeën meenden')
