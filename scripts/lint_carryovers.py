@@ -567,7 +567,7 @@ STOPLIST: frozenset[str] = frozenset({
     "epistata", "rabbi",  # transliteraties van Griekse/Hebreeuwse aanspreektitels in <Gr. ...>
     "diepte",  # gewoon modern NL
     "vangen", "gevangen",  # gewoon modern NL — visserstaal
-    "scheurde", "scheurt",  # vormen van 'scheuren' — gewoon modern NL
+    "scheurde", "scheurt", "scheuren",  # vormen van 'scheuren' — gewoon modern NL
     "parabel",  # synoniem van gelijkenis — gewoon modern NL, in kanttekening
     "begrepen",  # past participle van 'begrijpen' — gewoon modern NL
     # LUK 5:19-21 carry-overs (legitiem)
@@ -1016,6 +1016,9 @@ STOPLIST: frozenset[str] = frozenset({
     "matras",         # zelfst. nw. — gewoon modern NL (v4, kanttekening 'zoals een matras')
     "plat",           # bnw — gewoon modern NL (v4, kanttekening 'de daken waren bovenop plat')
     "rusten",         # ww. — gewoon modern NL (v4, kanttekening 'placht op te rusten'); vgl 'rust' eventueel ook
+    # MRK 2:7-8 carry-overs (legitiem)
+    "lasteringen",    # mv. zelfst. nw. — gewoon modern NL (v7, Gr. βλασφημίας; vgl. 'godslasteringen')
+    "overdachten",   # verleden tijd 'overdenken' — gewoon modern NL (v8, Gr. διαλογίζονται; concordantie met 'overdenkingen' al gangbaar)
 })
 
 
