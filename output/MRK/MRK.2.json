@@ -67,6 +67,39 @@
       "generated_at": "2026-05-16T14:22:53.907272Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 7,
+      "original": "Wat spreeckt dese aldus <Siet hier van de aent. Matth. 9.3.> [Godts-]lasteringen? $Psalm 32.5. ende 51.3. Iesa. 43.25.$ Wie kan de sonden vergeven dan alleen Godt?",
+      "modernized": "Wat spreekt deze zo <Zie hiervan de aantekening $Mt. 9:3$.> [Gods-]lasteringen? $Ps. 32:5; 51:3; Js. 43:25$ Wie kan de zonden vergeven dan alleen God?",
+      "source_text": "Τί οὗτος οὕτω λαλεῖ βλασφημίας; τίς δύναται ἀφιέναι ἁμαρτίας εἰ μὴ εἷς, ὁ Θεός;",
+      "generated_at": "2026-05-16T14:31:39.070067Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 8,
+      "original": "Ende Iesus terstont in sijnen <D. in sijne ziele, namelick door de openbaringe sijner Godtheyt die oock door het woort geest dickwils uytgedruckt wort, Rom. 1. vers 4. Hebr. 9.14. 1.Petr. cap. 3. vers 18.> geest bekennende dat sy alsoo in haer selven overdachten, seyde tot haer, Wat overdenckt ghy dese dingen in uwe herten?",
+      "modernized": "En Jezus, die meteen in zijn <Dat is, in zijn ziel, namelijk door de openbaring van zijn Godheid, die ook door het woord 'geest' dikwijls uitgedrukt wordt, $Rm. 1:4; Hb. 9:14; 1Pt. 3:18$.> geest kende dat zij zo bij zichzelf overdachten, zei tot hen: Wat overdenkt u deze dingen in uw harten?",
+      "notes": [
+        {
+          "type": "afwijking",
+          "reason": "semantic-review: 'bekennende' → 'kende' (was 'erkende'). Modern NL 'erkennen' = toegeven; Gr. ἐπιγνοὺς = doorgrondend/kennend. Concordantie-parallel LUK 5:22 ('bekennende' → 'kende'). HSV-spiegel bevestigt (HSV: 'onderkende')."
+        }
+      ],
+      "source_text": "καὶ εὐθέως ἐπιγνοὺς ὁ Ἰησοῦς τῷ πνεύματι αὐτοῦ ὅτι οὕτως διαλογίζονται ἐν ἑαυτοῖς, εἶπεν αὐτοῖς, Τί ταῦτα διαλογίζεσθε ἐν ταῖς καρδίαις ὑμῶν;",
+      "generated_at": "2026-05-16T14:30:29.774630Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 9,
+      "original": "<Siet hier van, ende van het volgende, d’aent. Matth. 9. vers 5, etc.> Wat is lichtelicker, te seggen tot den geraeckten, De sonden zijn u vergeven: ofte te seggen, Staet op, ende neemt uw’ beddeken op, ende wandelt?",
+      "modernized": "<Zie hiervan, en van het volgende, de aantekening $Mt. 9:5$, etc.> Wat is gemakkelijker, te zeggen tot de verlamde: De zonden zijn u vergeven; of te zeggen: Sta op, en neem uw bedje op, en wandel?",
+      "source_text": "τί ἐστιν εὐκοπώτερον, εἰπεῖν τῷ παραλυτικῷ, Ἀφέωνταί σοι αἱ ἁμαρτίαι, ἢ εἰπεῖν, Ἔγειραι, καὶ ἆρόν σου τὸν κράββατον, καὶ περιπάτει;",
+      "generated_at": "2026-05-16T14:30:54.342445Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
