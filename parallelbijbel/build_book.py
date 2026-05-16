@@ -94,6 +94,46 @@ def render_text(text: str) -> str:
 
 REF_LABELS = "abcdefghijklmnopqrstuvwxyz"
 
+LATEX_ESTIMATE_RE = re.compile(r"\\[a-zA-Z]+\*?(?:\[[^\]]*\])?")
+
+
+def _estimate_text_len(latex: str) -> int:
+    """Approximate visible text length from generated LaTeX."""
+    text = LATEX_ESTIMATE_RE.sub("", latex)
+    text = re.sub(r"[{}]", "", text)
+    text = re.sub(r"\\([#$%&_{}])", r"\1", text)
+    return len(re.sub(r"\s+", " ", text).strip())
+
+
+def _estimate_wrapped_lines(latex: str, chars_per_line: int) -> int:
+    visible_len = _estimate_text_len(latex)
+    if visible_len == 0:
+        return 0
+    return max(1, (visible_len + chars_per_line - 1) // chars_per_line)
+
+
+def estimate_needspace_lines(
+    orig_body: str,
+    orig_refs_tex: str,
+    modr_body: str,
+    modr_refs_tex: str,
+    orig_notes: list[tuple[str, str]],
+    modr_notes: list[tuple[str, str]],
+) -> int:
+    """Estimate body-baseline lines needed to keep verse and notes together."""
+    body_lines = max(
+        _estimate_wrapped_lines(orig_body + orig_refs_tex, 58),
+        _estimate_wrapped_lines(modr_body + modr_refs_tex, 58),
+    )
+    note_lines = max(
+        sum(_estimate_wrapped_lines(text, 78) for _, text in orig_notes),
+        sum(_estimate_wrapped_lines(text, 78) for _, text in modr_notes),
+    )
+    # Footnotes use a smaller baseline (7.6pt vs. 10.2pt body). Add slack for
+    # the footnote rule, inter-block glue, and estimation error.
+    note_body_lines = (note_lines * 76 + 101) // 102
+    return max(3, body_lines + note_body_lines + 3)
+
 
 def render_verse(
     text: str,
@@ -236,6 +276,21 @@ def render_chapter(ch: dict) -> str:
         )
         orig_refs_tex = r"\vrsrefs{" + format_refs(orig_refs) + "}" if orig_refs else ""
         modr_refs_tex = r"\vrsrefs{" + format_refs(modr_refs) + "}" if modr_refs else ""
+        if orig_notes or modr_notes:
+            lines.append(
+                r"\ktneedspace{"
+                + str(
+                    estimate_needspace_lines(
+                        orig_body,
+                        orig_refs_tex,
+                        modr_body,
+                        modr_refs_tex,
+                        orig_notes,
+                        modr_notes,
+                    )
+                )
+                + "}"
+            )
         lines.append(
             r"\verspair{" + str(vn) + "}"
             + "{" + orig_body + "}"
