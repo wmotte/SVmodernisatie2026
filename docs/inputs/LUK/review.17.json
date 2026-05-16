@@ -1,0 +1,304 @@
+{
+  "book": "LUK",
+  "chapter": 17,
+  "reviewed_at": "2026-05-15T05:02:28+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-14T20:47:30+00:00",
+      "mode": "scan",
+      "issues_total": 16
+    },
+    {
+      "pass": 1,
+      "ran_at": "2026-05-14T20:50:55.491170+00:00",
+      "mode": "in-context-aanvulling",
+      "issues_total": 17,
+      "note": "2 fixed (LUK-17-32-001, LUK-17-8-002 nieuw), 14 rebutted"
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-14T20:51:58+00:00",
+      "mode": "verify",
+      "actions": [
+        "LUK-17-3-001: rebuttal verified",
+        "LUK-17-3-002: rebuttal verified",
+        "LUK-17-4-001: rebuttal verified",
+        "LUK-17-8-001: rebuttal verified",
+        "LUK-17-21-001: rebuttal verified",
+        "LUK-17-22-001: rebuttal verified",
+        "LUK-17-24-001: reopened (luie rebuttal)",
+        "LUK-17-26-001: rebuttal verified",
+        "LUK-17-27-001: rebuttal verified",
+        "LUK-17-30-001: rebuttal verified",
+        "LUK-17-31-001: rebuttal verified",
+        "LUK-17-32-001: verified",
+        "LUK-17-1-001: rebuttal verified",
+        "LUK-17-11-001: rebuttal verified",
+        "LUK-17-24-002: rebuttal verified",
+        "LUK-17-34-001: rebuttal verified",
+        "LUK-17-8-002: verified"
+      ]
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-05-14T20:53:20+00:00",
+      "mode": "verify",
+      "actions": [
+        "LUK-17-24-001: rebuttal verified"
+      ]
+    },
+    {
+      "pass": 4,
+      "ran_at": "2026-05-15T04:55:55+00:00",
+      "mode": "scan",
+      "issues_total": 15
+    },
+    {
+      "pass": 5,
+      "ran_at": "2026-05-15T04:56:48+00:00",
+      "mode": "scan",
+      "issues_total": 15
+    },
+    {
+      "pass": 6,
+      "ran_at": "2026-05-15T05:02:28+00:00",
+      "mode": "scan",
+      "issues_total": 15
+    }
+  ],
+  "issues": [
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 3,
+      "severity": "soft",
+      "quote_modernized": "Wacht uzelf.   En indien uw broeder tegen u zondigt, bestr…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "LUK-17-3-001",
+      "status": "verified",
+      "rebuttal": "§2.7: 'indien' faalt noch de productiviteits- noch de verwarringstest. Productief in modern formeel Nederlands ('indien nodig', 'indien van toepassing') en ondubbelzinnig = 'als'. Vers-specifiek v3: voorwaardelijke bijzin 'indien uw broeder tegen u zondigt' (Gr. ἐὰν ἁμάρτῃ) — conditioneel, geen drempel-archaïsme. Scanner-suggesties ('omdat'/'hoewel') zijn bovendien geen conditionelen.",
+      "verified_at": "2026-05-14T20:51:58+00:00"
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 3,
+      "severity": "soft",
+      "quote_modernized": "… tegen u zondigt, bestraf hem dan; en   indien het hem leed is, vergeef het hem …",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "LUK-17-3-002",
+      "status": "verified",
+      "rebuttal": "§2.7: 'indien' is productief modern formeel Nederlands, ondubbelzinnig conditioneel = 'als'. Vers-specifiek v3, tweede voorkomen: 'indien het hem leed is' (Gr. ἐὰν μετανοήσῃ-context) — voorwaarde voor vergeving, geen drempel-archaïsme.",
+      "verified_at": "2026-05-14T20:51:58+00:00"
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 4,
+      "severity": "soft",
+      "quote_modernized": "  En indien hij   zevenmaal per dag tegen u z…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "LUK-17-4-001",
+      "status": "verified",
+      "rebuttal": "§2.7: 'indien' productief modern formeel Nederlands, ondubbelzinnig conditioneel. Vers-specifiek v4: 'indien hij zevenmaal per dag tegen u zondigt' (Gr. ἐὰν ἑπτάκις ... ἁμάρτῃ) — conditioneel, geen drempel-archaïsme.",
+      "verified_at": "2026-05-14T20:51:58+00:00"
+    },
+    {
+      "category": "SV-verbuiging (demonstratief dezer/dien/...)",
+      "verse": 8,
+      "severity": "hard",
+      "quote_modernized": "… ik vanavond zal eten, en   omgord u en dien mij, totdat ik gegeten en gedronken…",
+      "rule_reference": "ARCHAISMEN.md (SV-verbuigingen)",
+      "explanation": "'dien mij' — verbogen demonstratief (SV-genitief/datief). Modern Nederlands: 'deze' / 'die' / 'in deze ...' / 'op die ...'. Gefossiliseerde uitdrukkingen ('dezer dagen', 'te dien einde') zijn whitelist; rebut zo nodig met register-argument.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "LUK-17-8-001",
+      "status": "verified",
+      "rebuttal": "Scanner-regex-artefact: 'dien' in 'dien mij' is de imperatief van 'dienen' (Gr. διακόνει μοι), geen verbogen demonstratief pronomen. SV-origineel 'dient my'. Geen ARCHAISMEN.md-overtreding.",
+      "verified_at": "2026-05-14T20:51:58+00:00"
+    },
+    {
+      "category": "genitief pronomen wiens/wier",
+      "verse": 21,
+      "severity": "hard",
+      "quote_modernized": "…$ of ook van de gelovigen onder hen, in wier harten hij door zijn woord en Geest…",
+      "rule_reference": "ARCHAISMEN.md (SV-pronomina)",
+      "explanation": "'wier harten' — formeel-archaïsch genitief-pronomen. Modern Nederlands: 'van wie harten' of zinsherbouw met bezittelijk voornaamwoord ('die zijn harten', 'die haar harten'). NBV21 vermijdt 'wiens' grotendeels.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "LUK-17-21-001",
+      "status": "verified",
+      "rebuttal": "'wier' is relatief genitief meervoud, productief in modern formeel Nederlands ('de mensen wier huizen verwoest zijn'); geen fossiel. ARCHAISMEN.md viseert het verouderde bezittelijke 'wiens', niet de relatieve genitief. Vers-specifiek v21-kanttekening: antecedent 'de gelovigen' is meervoud → 'wier harten' grammaticaal correct (SV 'in welcker herten').",
+      "verified_at": "2026-05-14T20:51:58+00:00"
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 22,
+      "severity": "hard",
+      "quote_modernized": "… begeren   een van de dagen van de Zoon des mensen te zien, en u zult die niet z…",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'des mensen' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de mensen' of 'van het mensen', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de mensen",
+      "location": "hoofdtekst",
+      "id": "LUK-17-22-001",
+      "status": "verified",
+      "rebuttal": "Gefossiliseerde Christologische titel 'Zoon des mensen' (Gr. ὁ Υἱὸς τοῦ ἀνθρώπου), expliciet als geldig fossiel-rebuttal genoemd in de scanner-toelichting; HSV/NBV21 behouden de uitdrukking onverkort. Vers-specifiek v22: 'een van de dagen van de Zoon des mensen'.",
+      "verified_at": "2026-05-14T20:51:58+00:00"
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 24,
+      "severity": "hard",
+      "quote_modernized": "…er de hemel schijnt, zo zal ook de Zoon des mensen wezen   in zijn dag.",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'des mensen' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de mensen' of 'van het mensen', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de mensen",
+      "location": "hoofdtekst",
+      "id": "LUK-17-24-001",
+      "status": "verified",
+      "rebuttal": "Het Griekse ὁ Υἱὸς τοῦ ἀνθρώπου heeft τοῦ ἀνθρώπου in het enkelvoud-genitief; de SV calqueert dat met de genitiefconstructie des mensen. De scanner-voorgestelde fix van de mensen pluraliseert het naamwoord onterecht en breekt de enkelvoudige Christologische titel. Vers-specifiek v24: de titel staat hier in de bliksem-gelijkenis (zo zal ook de Zoon des mensen wezen in zijn dag) als subject van de parousie-vergelijking — geen losse genitief maar een vaste calque-titel. ARCHAISMEN.md viseert verbogen lidwoorden als des Heeren -> van de Heere, niet de gefixeerde titel die de scanner-toelichting zelf als geldig fossiel-rebuttal noemt.",
+      "verified_at": "2026-05-14T20:53:20+00:00"
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 26,
+      "severity": "hard",
+      "quote_modernized": "…al het ook zijn in de dagen van de Zoon des mensen.",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'des mensen' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de mensen' of 'van het mensen', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de mensen",
+      "location": "hoofdtekst",
+      "id": "LUK-17-26-001",
+      "status": "verified",
+      "rebuttal": "Gefossiliseerde Christologische titel 'Zoon des mensen' (Gr. ὁ Υἱὸς τοῦ ἀνθρώπου), geldig fossiel-rebuttal per scanner-toelichting; HSV/NBV21 behouden onverkort. Vers-specifiek v26: 'in de dagen van de Zoon des mensen'.",
+      "verified_at": "2026-05-14T20:51:58+00:00"
+    },
+    {
+      "category": "§2.3b bijwoord-coda",
+      "verse": 27,
+      "severity": "soft",
+      "quote_modernized": "… Zij aten, zij dronken,   zij namen ten huwelijk,   zij werden ten huwelijk gege…",
+      "rule_reference": "MODERNISATIE.md §2.3b",
+      "explanation": "'huwelijk,' aan zinseind — verifieer of dit bijwoord niet als coda achteraf is blijven hangen ('wandelende … onberispelick' → 'wandelden onberispelijk in …').",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "LUK-17-27-001",
+      "status": "verified",
+      "rebuttal": "Scanner-regex-artefact: 'ten huwelijk' is geen adverbiale coda maar vaste werkwoordelijke verbinding ('ten huwelijk nemen' / 'ten huwelijk geven', Gr. ἐγάμουν / ἐξεγαμίζοντο). Vers-specifiek v27: de komma na 'huwelijk' is lijstscheiding tussen de vier werkwoorden (aten, dronken, namen ten huwelijk, werden ten huwelijk gegeven), geen nageschoven bijwoord.",
+      "verified_at": "2026-05-14T20:51:58+00:00"
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 30,
+      "severity": "hard",
+      "quote_modernized": "…zal het zijn   op de dag waarop de Zoon des mensen   geopenbaard zal worden.",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'des mensen' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de mensen' of 'van het mensen', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de mensen",
+      "location": "hoofdtekst",
+      "id": "LUK-17-30-001",
+      "status": "verified",
+      "rebuttal": "Gefossiliseerde Christologische titel 'Zoon des mensen' (Gr. ὁ Υἱὸς τοῦ ἀνθρώπου), geldig fossiel-rebuttal per scanner-toelichting; HSV/NBV21 behouden onverkort. Vers-specifiek v30: 'op de dag waarop de Zoon des mensen geopenbaard zal worden'.",
+      "verified_at": "2026-05-14T20:51:58+00:00"
+    },
+    {
+      "category": "aanvoegende wijs (gebod)",
+      "verse": 31,
+      "severity": "soft",
+      "quote_modernized": "…k zal zijn, en   zijn huisraad in huis, die kome niet af, om die weg te nemen; e…",
+      "rule_reference": "ARCHAISMEN.md (SV-werkwoordsvormen)",
+      "explanation": "'die kome' — SV-aanvoegende wijs als gebod/wens. Modern Nederlands: 'laat die komen' of 'die moet ...'. Soft: subjunctief in plechtig modern register komt nog voor.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "LUK-17-31-001",
+      "status": "verified",
+      "rebuttal": "§2.3: 'kome'/'keere' is de SV-weergave van de Griekse 3e-persoons imperatief (μὴ καταβάτω, μὴ ἐπιστρεψάτω). De jussief-constructie is productief in plechtig modern Nederlands en concordant met de parallelle weergave (LUK 9:23). Vers-specifiek v31, reeds gedocumenteerd in vers-notes: renovatie, geen herstructurering naar 'moet niet'.",
+      "verified_at": "2026-05-14T20:51:58+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 1,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'welcken' in 4 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 4 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        1,
+        27,
+        29,
+        30
+      ],
+      "id": "LUK-17-1-001",
+      "status": "verified",
+      "rebuttal": "Scanner-prefix-heuristiek: 'welcken' is relatief voornaamwoord, contextafhankelijk correct gemoderniseerd — v1 'door welcken sy komen' → 'door wie' (personen), v27/29/30 'op welcken dagh' → 'waarop' (tijd). Geen drift maar correcte contextuele weergave; de heuristiek mist dat één SV-stam meerdere moderne relativa vergt.",
+      "verified_at": "2026-05-14T20:51:58+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 11,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'geschie' in 4 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 4 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        11,
+        14,
+        26,
+        28
+      ],
+      "id": "LUK-17-11-001",
+      "status": "verified",
+      "rebuttal": "Scanner-prefix-heuristiek: 'geschieden' is consistent met 'gebeuren' weergegeven in v11/14/26/28 ('het geschiedde' → 'het gebeurde'/'het gebeurd is'). Lexicale vervanging — de prefix-overlap-heuristiek mist dat geschie→gebeur dezelfde keuze is over alle vier verzen.",
+      "verified_at": "2026-05-14T20:51:58+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 24,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'gelijck' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        24,
+        26,
+        28
+      ],
+      "id": "LUK-17-24-002",
+      "status": "verified",
+      "rebuttal": "Scanner-prefix-heuristiek: 'gelijck' is consistent met 'zoals' weergegeven in v24/26/28 ('gelijck de blicksem' → 'zoals de bliksem'; 'gelijck het geschiet is' → 'zoals het gebeurd is'). Lexicale vervanging gelijck→zoals — geen drift, heuristiek mist de prefix-overgang.",
+      "verified_at": "2026-05-14T20:51:58+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 34,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'aengeno' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        34,
+        35,
+        36
+      ],
+      "id": "LUK-17-34-001",
+      "status": "verified",
+      "rebuttal": "Scanner-prefix-heuristiek: 'aengenomen' is consistent met 'aangenomen' weergegeven in v34/35/36. Louter orthografische overgang ae→aa; de prefix-overlap-heuristiek mist deze spellingmodernisatie. Geen drift.",
+      "verified_at": "2026-05-14T20:51:58+00:00"
+    }
+  ]
+}

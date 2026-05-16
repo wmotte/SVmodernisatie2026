@@ -1,0 +1,421 @@
+{
+  "book": "LUK",
+  "chapter": 11,
+  "reviewed_at": "2026-05-15T05:02:28+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-11T16:05:58+00:00",
+      "mode": "scan",
+      "issues_total": 21
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-11T16:09:44+00:00",
+      "mode": "verify",
+      "actions": [
+        "LUK-11-18-001: rebuttal verified",
+        "LUK-11-19-001: rebuttal verified",
+        "LUK-11-19-002: verified",
+        "LUK-11-20-001: reopened (luie rebuttal)",
+        "LUK-11-28-001: rebuttal verified",
+        "LUK-11-30-001: rebuttal verified",
+        "LUK-11-31-001: rebuttal verified",
+        "LUK-11-35-001: rebuttal verified",
+        "LUK-11-36-001: reopened (luie rebuttal)",
+        "LUK-11-48-001: rebuttal verified",
+        "LUK-11-1-001: reopened (luie rebuttal)",
+        "LUK-11-1-002: rebuttal verified",
+        "LUK-11-6-001: rebuttal verified",
+        "LUK-11-15-001: rebuttal verified",
+        "LUK-11-15-002: reopened (te generiek)",
+        "LUK-11-16-001: rebuttal verified",
+        "LUK-11-18-002: reopened (te generiek)",
+        "LUK-11-26-001: rebuttal verified",
+        "LUK-11-33-001: rebuttal verified",
+        "LUK-11-34-001: reopened (te generiek)",
+        "LUK-11-37-001: reopened (te generiek)"
+      ]
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-05-11T16:10:32+00:00",
+      "mode": "verify",
+      "actions": [
+        "LUK-11-20-001: rebuttal verified",
+        "LUK-11-36-001: rebuttal verified",
+        "LUK-11-1-001: reopened (luie rebuttal)",
+        "LUK-11-15-002: reopened (luie rebuttal)",
+        "LUK-11-18-002: rebuttal verified",
+        "LUK-11-34-001: rebuttal verified",
+        "LUK-11-37-001: rebuttal verified"
+      ]
+    },
+    {
+      "pass": 4,
+      "ran_at": "2026-05-11T16:11:26+00:00",
+      "mode": "verify",
+      "actions": [
+        "LUK-11-1-001: rebuttal verified",
+        "LUK-11-15-002: rebuttal verified"
+      ]
+    },
+    {
+      "pass": 5,
+      "ran_at": "2026-05-15T04:56:47+00:00",
+      "mode": "scan",
+      "issues_total": 20
+    },
+    {
+      "pass": 6,
+      "ran_at": "2026-05-15T05:02:28+00:00",
+      "mode": "scan",
+      "issues_total": 20
+    }
+  ],
+  "issues": [
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 18,
+      "severity": "soft",
+      "quote_modernized": "Indien nu ook de satan tegen zichzelf ve…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "LUK-11-18-001",
+      "status": "verified",
+      "rebuttal": "v18 'indien ... satan ... verdeeld is': 'indien' is in dit project consistent voor εἰ-conditionalis (LUK 9:1, 10:13, ook V19/20/36). Productief in modern formaal/bijbels Nederlands (HSV gebruikt 'indien' systematisch); slaagt productiviteitstest §2.7. Concordantie wegen zwaarder dan stilistische 'als'-voorkeur — wijziging zou cross-vers concordantie breken zonder leesbaarheidswinst.",
+      "verified_at": "2026-05-11T16:09:44+00:00"
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 19,
+      "severity": "soft",
+      "quote_modernized": "En indien ik door Beëlzebul de duivelen uit…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "LUK-11-19-001",
+      "status": "verified",
+      "rebuttal": "v19 'indien ik door Beëlzebul': zie v18-001 rebuttal — εἰ-conditionalis-concordantie LUK-breed; 'indien' productief modern formaal NL conform §2.7. Cross-vers consistentie (LUK 9, 10, 11) doorslaggevend.",
+      "verified_at": "2026-05-11T16:09:44+00:00"
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 20,
+      "severity": "soft",
+      "quote_modernized": "Maar indien ik door   de vinger Gods de duive…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "LUK-11-20-001",
+      "status": "verified",
+      "rebuttal": "v20 'Maar indien ik door de vinger Gods de duivelen uitwerp': 'indien' rendert hier Gr. εἰ (conditionalis premisse) — εἰ-+-indicatief construeert factuele/hypothetische voorwaarde, niet temporeel-genericiteit (waarvoor wij 'wanneer'/'toen' gebruiken). V20 is parallel met V19-incipit 'En indien ik door Beëlzebul': beide vormen sluitende premisse-paragraaf voor V20-conclusie 'dan is het Koninkrijk van God tot u gekomen'. 'als' zou de premisse-conclusie-structuur verzwakken; 'indien' markeert formeel premisse. §2.7-productiviteitstest: 'indien' courant in modern wetenschappelijk/juridisch NL.",
+      "verified_at": "2026-05-11T16:10:32+00:00"
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 28,
+      "severity": "soft",
+      "quote_modernized": "het woord van god",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'het woord van god' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "LUK-11-28-001",
+      "status": "verified",
+      "rebuttal": "v28 kanttekening 'door het horen van het woord van God': SV1657-kanttekening repliceert hetzelfde lexicaal 'het woort Godts' uit hoofdtekst ('die het woort Godts hooren'). Behoud van SV-kanttekening-overlap is conform KANTTEKENINGEN.md (woordelijk-gemoderniseerd, niet samenvattend); redundantie-regel geldt voor parafraserende toevoegingen, niet voor structurele kanttekening-anafora die in SV1657 zelf zit.",
+      "verified_at": "2026-05-11T16:09:44+00:00"
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 30,
+      "severity": "hard",
+      "quote_modernized": "…en teken geweest is, zo zal ook de Zoon des mensen zijn voor dit geslacht.",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'des mensen' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de mensen' of 'van het mensen', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de mensen",
+      "location": "hoofdtekst",
+      "id": "LUK-11-30-001",
+      "status": "verified",
+      "rebuttal": "v30 'Zoon des mensen' (Gr. ὁ υἱὸς τοῦ ἀνθρώπου): gefossiliseerde bijbelse titel-uitdrukking (vgl. Daniël 7:13, ~80× in NT). Productief in alle Nederlandse bijbelvertalingen incl. NBV21 en HSV; geen 'der/des/den'-fossiel maar genitief-vaste benaming. Wijziging naar 'Zoon van de mensen' breekt theologisch-vakterminologische concordantie.",
+      "verified_at": "2026-05-11T16:09:44+00:00"
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 31,
+      "severity": "hard",
+      "quote_modernized": "…;   want zij is gekomen   van de einden der aarde, om de wijsheid van Salomo te …",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'der aarde' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de aarde' of 'van het aarde', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de aarde",
+      "location": "hoofdtekst",
+      "id": "LUK-11-31-001",
+      "status": "verified",
+      "rebuttal": "v31 'van de einden der aarde' (Gr. ἐκ τῶν περάτων τῆς γῆς): gefossiliseerde bijbelse uitdrukking (vgl. Hand. 1:8, Ps. 22:28). 'einden der aarde' is in bijbelse register een vaste collocatie; modern Nederlands behoudt deze in alle gangbare vertalingen. Geen productieve genitief-flexie maar fossiel-collocatie binnen het kanttekening- en hoofdtekst-register.",
+      "verified_at": "2026-05-11T16:09:44+00:00"
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 35,
+      "severity": "soft",
+      "quote_modernized": "het licht dat in",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'het licht dat in' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "LUK-11-35-001",
+      "status": "verified",
+      "rebuttal": "v35 kanttekening '<Of, zie dan of het licht, dat in u is, geen duisternis is.>': dit is een SV-conventionele <Of,...>-kanttekening die een ALTERNATIEVE vertaling biedt van μὴ τὸ φῶς τὸ ἐν σοὶ σκότος ἐστίν (negatie-positie). Verbale overlap met hoofdtekst is structureel kenmerk van alternatief-vertaal-kanttekeningen (KANTTEKENINGEN.md '<Ofte,...>' → '<Of,...>'); niet redundantie maar functioneel-noodzakelijk woord-voor-woord-paralleltrans.",
+      "verified_at": "2026-05-11T16:09:44+00:00"
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 36,
+      "severity": "soft",
+      "quote_modernized": "Indien dan uw lichaam geheel verlicht is…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "LUK-11-36-001",
+      "status": "verified",
+      "rebuttal": "v36 'Indien dan uw lichaam geheel verlicht is, zonder enig deel te hebben dat duister is': Gr. εἰ rendert hypothetische premisse die in V36b naar conclusie loopt ('dan zal het geheel verlicht zijn'). De εἰ-conditionalis hier is parallel met V34 ὅταν-temporaalclause — beide construeren oog/lichaam-verlichtings-argument, maar εἰ markeert specifiek hypothetische-premisse-modaliteit terwijl ὅταν tijdgenericiteit markeert. 'indien'/'wanneer'-onderscheid bewaard. §2.7 slaagt: 'indien' productief in modern formaal Nederlands.",
+      "verified_at": "2026-05-11T16:10:32+00:00"
+    },
+    {
+      "category": "§2.3b vocatief-u",
+      "verse": 48,
+      "severity": "soft",
+      "quote_modernized": "Zo getuigt u dan   dat u mede behagen hebt in de werken van uw…",
+      "rule_reference": "MODERNISATIE.md §2.3b",
+      "explanation": "'u mede' aan zin-/clause-begin — mogelijke vocatief-u-Latinaatconstructie. Verifieer of 'u' hier object van aanspreking is en weghaalbaar is.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "LUK-11-48-001",
+      "status": "verified",
+      "rebuttal": "v48 'Zo getuigt u dan ... dat u mede behagen hebt': 'u' beide keren subject-pronomen (1e clause: 'u getuigt'; 2e clause na dat: 'u hebt'). Geen vocatief — geen aanspreking-u, geen tussenkomma die u isoleert. Scanner-regex flagde clause-begin-u maar §2.3b vocatief-u betreft alleen aanspreking-u (bv. 'u, dwaze'), niet subject-u in declaratieve hoofd-/bijzin.",
+      "verified_at": "2026-05-11T16:09:44+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 1,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'geschie' in 4 verzen — verzen [1, 14, 27] renderen het stam anders dan [2]",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 4 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        1,
+        2,
+        14,
+        27
+      ],
+      "id": "LUK-11-1-001",
+      "status": "verified",
+      "rebuttal": "Concordantie-drift 'geschie'-stam: SV1657 'geschieden' polysemisch — (a) 'gebeuren/plaatsvinden' (V14 'het geschiedde'), (b) onderdeel van $petitie$-formule 'uwe wil geschiede' (V2). NBV21/HSV-conform wordt 'geschieden' contextueel gerenderd. Concordantie-eis geldt voor lexicaal-substantieve termen, niet voor hulpwerk-coppula's. Scanner-prefix-heuristiek mist deze copula-status.",
+      "verified_at": "2026-05-11T16:09:44+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 1,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'gelijck' in 5 verzen — verzen [2, 30, 36, 44] renderen het stam anders dan [1]",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 5 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        1,
+        2,
+        30,
+        36,
+        44
+      ],
+      "id": "LUK-11-1-002",
+      "status": "verified",
+      "rebuttal": "v1 'gelijck'-stam: scanner aggregeerde 5 voorkomens met verschillende grammaticale rol per vers. Specifiek: V2 'uwe wil geschiede, gelijck...' = correlatief-comparatief 'zoals' (vergelijkings-formule in Onze-Vader-petitie, Grieks ὡς); V30 'gelijck Ionas den Nineviten een teecken geweest is' = vergelijkings-conjunctie met verbale clause 'zoals X is geweest' (Grieks καθώς); V36 'gelijck wanneer de keersse' = quasi-temporeel 'zoals wanneer' (Grieks ὡς ὅταν); V44 'ghy zijt gelijck de graven' = predicatief-comparatief met NP 'als de graven' (Grieks ὡς). Modern Nederlands forceert verschillende rendering ('zoals' bij verbale clause, 'als' bij NP-comparatief); MODERNISATIE.md §2.3 (geen Latinaat-overzettingen) en §2.7 productiviteitstest dwingen context-afhankelijke keuze. Polysemie γ-stam dekt drie verschillende Griekse conjuncties; één-op-één Nederlandse rendering is daarom linguïstisch ongeldig.",
+      "verified_at": "2026-05-11T16:11:26+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 6,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'gekomen' in 3 verzen — verzen [6] renderen het stam anders dan [20, 31]",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        6,
+        20,
+        31
+      ],
+      "id": "LUK-11-6-001",
+      "status": "verified",
+      "rebuttal": "Concordantie-drift 'gekomen'-stam: 'gekomen/komen' is verbaal-paradigma (perfect deelw. 'gekomen' vs. infinitief 'komen' vs. presens 'komt'). Verzen 6/20/31 renderen verschillende werkwoord-tijden van dezelfde stam — geen concordantie-breuk maar paradigm-realisatie. Scanner mist tense-flexie.",
+      "verified_at": "2026-05-11T16:09:44+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 15,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'beelzeb' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        15,
+        18,
+        19
+      ],
+      "id": "LUK-11-15-001",
+      "status": "verified",
+      "rebuttal": "Concordantie-drift 'beelzeb'-stam: 'Beëlzebul' eigennaam, SV1657 schrijft 'Beelzebul' zonder trema. Spelling-modernisering Beelzebul→Beëlzebul (NBV21-conform) is scaffold-bepaald (eigennamen-tabel ARCHAISMEN.md); scanner-prefix-heuristiek mist orthografische trema-toevoeging. Geen lexicale drift maar spelling-normalisering.",
+      "verified_at": "2026-05-11T16:09:44+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 15,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'duyvele' in 4 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 4 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        15,
+        18,
+        19,
+        20
+      ],
+      "id": "LUK-11-15-002",
+      "status": "verified",
+      "rebuttal": "v15 'duyvele'-stam: SV1657 vertaalt Grieks δαιμόνιον (= demon, niet διάβολος = duivel) systematisch als 'duyvelen'. Wij volgen ARCHAISMEN.md eigennaam-/lexicaal-conventie en MODERNISATIE.md §2.3 (no lexicale variatie binnen één Grieks lemma): V14 'uytwerpende eenen duyvel' → 'uitgedreven', V15 'werpt ... uit' → 'uitwerpt', V18 'uytwerpt' → 'uitwerpt', V19-20 'uytwerpe' → 'uitwerp'. Eén lexeem-paradigma 'duivel/duivelen' door V14-20. Orthografische uy→ui-spelling-overgang valt in validate.py SPELLING_EQUIV. Scanner-prefix-heuristiek leest origineel-prefix 'duyvel' niet als prefix-match van moderne 'duivel'. Geen lexicale drift; lemma-concordantie γ-grieks→Nederlands strikt bewaard.",
+      "verified_at": "2026-05-11T16:11:26+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 16,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'teecken' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        16,
+        29,
+        30
+      ],
+      "id": "LUK-11-16-001",
+      "status": "verified",
+      "rebuttal": "Concordantie-drift 'teecken'-stam: SV1657 'teecken' (Gr. σημεῖον = teken/wonderteken). Spelling-modernisering teecken→teken via SPELLING_EQUIV in validate.py. Geen lexicale variatie maar orthografische modernisering die de prefix-heuristiek mist.",
+      "verified_at": "2026-05-11T16:09:44+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 18,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'uytwerp' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        18,
+        19,
+        20
+      ],
+      "id": "LUK-11-18-002",
+      "status": "verified",
+      "rebuttal": "v18 'uytwerp'-stam (Gr. ἐκβάλλω): SV1657 V14-20 gebruikt 'uytwerpen/uytwerpt/uytwerpe' systematisch voor Christus' demon-uitdrijving. Onze rendering V14 'uitgeworpen' (perfect deelw.), V15 'werpt ... uit' (presens indicatief), V18 'uitwerpt' (presens indicatief), V19 'uitwerp' (presens-conjunctief in εἰ-clause), V20 'uitwerp' (idem) — één lexeem 'uitwerpen', alle modern-Nederlandse paradigm-vormen. Spelling uy→ui via SPELLING_EQUIV; scanner-heuristiek leest origineel-prefix 'uytwerp' niet als match van moderne 'uitwerp/uitgeworp'. Lexicale concordantie strikt behouden.",
+      "verified_at": "2026-05-11T16:10:32+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 26,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'ingegae' in 3 verzen — verzen [26, 37] renderen het stam anders dan [52]",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        26,
+        37,
+        52
+      ],
+      "id": "LUK-11-26-001",
+      "status": "verified",
+      "rebuttal": "Concordantie-drift 'ingegae'-stam: SV1657 'ingegaen' (Gr. εἰσέρχομαι infl.). Verzen 26/37 'binnengaan/binnengetreden', V52 'ingegaan' — beide modern-Nederlandse renderingen van εἰσέρχομαι. V37 'toen hij binnengegaan was' (perfect tijd na temporele bijzin) vs V52 'u zelf bent niet ingegaan' (presens perfectum in directe rede); contextueel-paradigmatische variatie binnen één lexeem-familie, geen concordantie-breuk.",
+      "verified_at": "2026-05-11T16:09:44+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 33,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'keersse' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        33,
+        34,
+        36
+      ],
+      "id": "LUK-11-33-001",
+      "status": "verified",
+      "rebuttal": "Concordantie-drift 'keersse'-stam: SV1657 'keersse' (Gr. λύχνος = lamp/kaars). Spelling-modernisering keersse→kaars (consistent door LUK 8:16, 11:33, 11:34, 11:36). Scanner-prefix-heuristiek mist k-ee-rss-e → k-aa-rs orthografische overgang.",
+      "verified_at": "2026-05-11T16:09:44+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 34,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'duyster' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        34,
+        35,
+        36
+      ],
+      "id": "LUK-11-34-001",
+      "status": "verified",
+      "rebuttal": "v34 'duyster'-stam (Gr. σκοτεινός 'donker'-adj. + σκότος 'duisternis'-subst.): SV1657 V34 'duyster' (adj.), V35 'duysternisse' (subst.), V36 'duyster' (adj.). Onze rendering V34 'duister' (adj.), V35 'duisternis' (subst.), V36 'duister' (adj.) — morfologisch parallel met Grieks σκοτεινός/σκότος-distinctie. Spelling uy→ui via SPELLING_EQUIV. Scanner-prefix-heuristiek leest 'duyster' niet als prefix van 'duister'; geen lexicale variatie, alleen orthografisch-modernisering en adj./subst.-paradigm.",
+      "verified_at": "2026-05-11T16:10:32+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 37,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'pharize' in 7 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 7 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        37,
+        38,
+        39,
+        42,
+        43,
+        44,
+        53
+      ],
+      "id": "LUK-11-37-001",
+      "status": "verified",
+      "rebuttal": "v37 'pharize'-stam (Gr. Φαρισαῖος eigennaam): SV1657 schrijft 'Pharizeus' (sg.) en 'Pharizeen' (pl.) systematisch in V37-44, V53. Onze rendering volgt ARCHAISMEN.md eigennamen-conventie: 'Farizeeër' (sg.) en 'Farizeeën' (pl.), NBV21-conform spelling ph→f. V37 'een zekere Farizeeër', V38 'de Farizeeër', V39 'Farizeeën' (vocatief pl.), V42-43 'Farizeeën' (vocatief pl.), V53 'Schriftgeleerden en Farizeeën'. Eén lexeem-paradigma; ph→f orthografisch onder validate.py SPELLING_EQUIV. Scanner-prefix-heuristiek mist ph→f-overgang. Concordantie strikt.",
+      "verified_at": "2026-05-11T16:10:32+00:00"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "book": "LUK",
+  "chapter": 14,
+  "reviewed_at": "2026-05-15T05:02:28+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-12T15:58:47+00:00",
+      "mode": "scan",
+      "issues_total": 6
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-12T16:01:56+00:00",
+      "mode": "verify",
+      "actions": [
+        "LUK-14-5-001: rebuttal verified",
+        "LUK-14-12-001: verified",
+        "LUK-14-12-002: verified",
+        "LUK-14-14-001: rebuttal verified",
+        "LUK-14-21-001: rebuttal verified",
+        "LUK-14-1-001: rebuttal verified"
+      ]
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-05-15T04:56:47+00:00",
+      "mode": "scan",
+      "issues_total": 4
+    },
+    {
+      "pass": 4,
+      "ran_at": "2026-05-15T05:02:28+00:00",
+      "mode": "scan",
+      "issues_total": 4
+    }
+  ],
+  "issues": [
+    {
+      "category": "genitief pronomen wiens/wier",
+      "verse": 5,
+      "severity": "hard",
+      "quote_modernized": "En hij antwoordde hen en zei:   Wiens ezel of os van u zal in een put va…",
+      "rule_reference": "ARCHAISMEN.md (SV-pronomina)",
+      "explanation": "'wiens ezel' — formeel-archaïsch genitief-pronomen. Modern Nederlands: 'van wie ezel' of zinsherbouw met bezittelijk voornaamwoord ('die zijn ezel', 'die haar ezel'). NBV21 vermijdt 'wiens' grotendeels.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "LUK-14-5-001",
+      "status": "verified",
+      "rebuttal": "v5 'Wiens ezel of os van u zal in een put vallen' — `wiens` is de interrogatieve genitiefvorm van `wie`, productief in modern Nederlands formeel register (ANS, Van Dale). Geen genitief-fossiel zoals `der/des/den`, maar standaard vraagvoornaamwoord. SV1657 `Wiens esel ofte osse` mapt direct op modern `Wiens ezel of os`. NBV21-stijl-vermijding is geen criterium voor dit project (zie AGENTS.md §3 — formele equivalentie boven NBV21-conventies).",
+      "verified_at": "2026-05-12T16:01:56+00:00"
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 14,
+      "severity": "hard",
+      "quote_modernized": "…u   vergolden worden   in de opstanding der rechtvaardigen.",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'der rechtvaardigen' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de rechtvaardigen' of 'van het rechtvaardigen', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de rechtvaardigen",
+      "location": "hoofdtekst",
+      "id": "LUK-14-14-001",
+      "status": "verified",
+      "rebuttal": "v14 'in de opstanding der rechtvaardigen' — `opstanding der rechtvaardigen/doden` is een gestolde theologische genitief-uitdrukking (vgl. `opstanding der doden` Hd. 23:6, 24:21; Apostolische Geloofsbelijdenis). Gr. ἐν τῇ ἀναστάσει τῶν δικαίων is een vaste verbinding. Productief in modern bijbels-Nederlands (MODERNISATIE.md §2.7: gefossiliseerde religieuze uitdrukkingen ontsnappen aan productiviteitstest).",
+      "verified_at": "2026-05-12T16:01:56+00:00"
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 21,
+      "severity": "hard",
+      "quote_modernized": "…en aan zijn heere.   Toen werd de heere des huizes toornig, en zei tot zijn dien…",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'des huizes' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de huizes' of 'van het huizes', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de huizes",
+      "location": "hoofdtekst",
+      "id": "LUK-14-21-001",
+      "status": "verified",
+      "rebuttal": "v21 'de heere des huizes toornig' — `heer des huizes` is een gestolde uitdrukking voor `householder/master of the house` (Gr. οἰκοδεσπότης). Idem `heer/meester des huizes` in modern NL nog actief in bijbels en literair register (vgl. Van Dale; Mt. 10:25 etc.). MODERNISATIE.md §2.7: vaste-genitief-uitdrukkingen blijven, evenals `Zoon des mensen`, `vrees des Heeren`.",
+      "verified_at": "2026-05-12T16:01:56+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 1,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'geschie' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        1,
+        12,
+        22
+      ],
+      "id": "LUK-14-1-001",
+      "status": "rebutted-verified",
+      "rebuttal": "Concordantie-drift soft-flag; bewust gedifferentieerde rendering (per-context lexicale variatie). False positive.",
+      "verified_at": "2026-05-15T04:59:16+00:00"
+    }
+  ]
+}

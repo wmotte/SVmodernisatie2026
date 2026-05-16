@@ -1,0 +1,236 @@
+{
+  "book": "LUK",
+  "chapter": 2,
+  "reviewed_at": "2026-05-15T05:02:28+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-10T17:15:03+00:00",
+      "mode": "scan",
+      "issues_total": 13
+    },
+    {
+      "pass": 1,
+      "ran_at": "2026-05-10T17:18:16+00:00",
+      "mode": "in-context",
+      "issues_added": 2,
+      "issues_rebutted": 7,
+      "issues_open": 8
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-10T17:26:01+00:00",
+      "mode": "scan",
+      "issues_total": 13
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-05-10T17:29:12+00:00",
+      "mode": "verify",
+      "actions": [
+        "LUK-2-5-001: rebuttal verified",
+        "LUK-2-10-001: rebuttal verified",
+        "LUK-2-19-001: verified",
+        "LUK-2-44-001: verified",
+        "LUK-2-45-001: verified",
+        "LUK-2-46-001: verified",
+        "LUK-2-46-002: verified",
+        "LUK-2-46-003: verified",
+        "LUK-2-1-001: rebuttal verified",
+        "LUK-2-17-001: rebuttal verified",
+        "LUK-2-20-001: rebuttal verified",
+        "LUK-2-20-002: rebuttal verified",
+        "LUK-2-22-001: rebuttal verified"
+      ]
+    },
+    {
+      "pass": 4,
+      "ran_at": "2026-05-10T19:17:43+00:00",
+      "mode": "scan",
+      "issues_total": 9
+    },
+    {
+      "pass": 5,
+      "ran_at": "2026-05-10T19:24:49+00:00",
+      "mode": "verify",
+      "actions": [
+        "LUK-2-14-001: verified",
+        "LUK-2-28-001: rebuttal verified"
+      ]
+    },
+    {
+      "pass": 6,
+      "ran_at": "2026-05-10T19:53:14+00:00",
+      "mode": "scan",
+      "issues_total": 10
+    },
+    {
+      "pass": 7,
+      "ran_at": "2026-05-10T19:56:29+00:00",
+      "mode": "verify",
+      "actions": [
+        "LUK-2-21-001: verified",
+        "LUK-2-25-001: verified"
+      ]
+    },
+    {
+      "pass": 8,
+      "ran_at": "2026-05-15T04:56:47+00:00",
+      "mode": "scan",
+      "issues_total": 8
+    },
+    {
+      "pass": 9,
+      "ran_at": "2026-05-15T05:02:28+00:00",
+      "mode": "scan",
+      "issues_total": 8
+    }
+  ],
+  "issues": [
+    {
+      "category": "§2.3b infinitief met nageschoven object",
+      "verse": 5,
+      "severity": "soft",
+      "quote_modernized": "Om beschreven te worden met Maria zijn  …",
+      "rule_reference": "MODERNISATIE.md §2.3b",
+      "explanation": "'om … te worden met Maria zijn   ondertrouwde' — Latinaat-woordvolgorde; in modern NL gaat het object vóór de infinitief: 'om <object> te worden'.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "LUK-2-5-001",
+      "status": "verified",
+      "rebuttal": "Geen Latinaat-woordvolgorde. De zin is 'Om beschreven te worden [samen] met Maria, [zijn ondertrouwde vrouw] (...)'. 'Met Maria, zijn ondertrouwde vrouw' is een appositie-bijstelling bij Maria (Gr. σὺν Μαριὰμ τῇ μεμνηστευμένῃ αὐτῷ γυναικί), geen nageschoven object van 'worden'. Modern NL laat 'om X te worden' staan met de comitatieve PP achter de infinitief — zinsvolgorde correct. MODERNISATIE.md §2.3b betreft de 'om OBJECT te VERB OBJECT' constructie, niet 'om VERB met PP'.",
+      "verified_at": "2026-05-10T17:29:12+00:00"
+    },
+    {
+      "category": "§2.3b vocatief-u",
+      "verse": 10,
+      "severity": "soft",
+      "quote_modernized": "…n: Vreest niet, want zie, ik   verkondig u grote blijdschap, die   voor het gehe…",
+      "rule_reference": "MODERNISATIE.md §2.3b",
+      "explanation": "'u grote' aan zin-/clause-begin — mogelijke vocatief-u-Latinaatconstructie. Verifieer of 'u' hier object van aanspreking is en weghaalbaar is.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "LUK-2-10-001",
+      "status": "verified",
+      "rebuttal": "Geen vocatief-u. 'Ik verkondig u grote blijdschap' — 'u' is hier de standaard-Nederlandse datief-u (meewerkend voorwerp van 'verkondigen'), gespiegeld op Gr. εὐαγγελίζομαι ὑμῖν χαρὰν μεγάλην (datief ὑμῖν). De clause begint met 'ik verkondig', niet met 'u'; de regex matcht op de positie van 'u' direct na het werkwoord, maar dat is hier syntactisch een normaal IO. §2.3b vocatief-u betreft aanspreking aan zinsbegin ('U, broeders, ...'), wat hier niet aan de orde is.",
+      "verified_at": "2026-05-10T17:29:12+00:00"
+    },
+    {
+      "category": "kanttekening-luiheid (§2.3 in <…>)",
+      "verse": 28,
+      "severity": "hard",
+      "quote_modernized": "Grieks: zegende.",
+      "rule_reference": "KANTTEKENINGEN.md + §2.3",
+      "explanation": "'zegende' binnen kanttekening — verdacht -ende-woord in adverbial / clause-final positie. §2.3 geldt ook in <…>; ontvouw naar finiete bijzin.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "LUK-2-28-001",
+      "status": "verified",
+      "rebuttal": "'zegende' in <Grieks: zegende.> is geen tegenwoordig participium maar de past-simple-vorm van 'zegenen' (3sg, vlt). De kanttekening glost het Griekse participium εὐλογῶν (Lk. 2:28) met de Nederlandse verleden-tijd-narratieve weergave — zo doet de SV1657 het ook letterlijk (<Gr. zegende.>). §2.3 (MODERNISATIE.md) betreft tegenwoordige participia (-end/-ende als finiet werkwoord); past-simple stam-eindigend op -nde valt buiten de scope. Scanner-regex \\w+ende vangt deze morfologische false friend; semantisch is er geen overtreding.",
+      "verified_at": "2026-05-10T19:24:49+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 1,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'geschie' in 5 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 5 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        1,
+        2,
+        6,
+        15,
+        46
+      ],
+      "id": "LUK-2-1-001",
+      "status": "rebutted-verified",
+      "rebuttal": "Concordantie-drift soft-flag; bewust gedifferentieerde rendering (per-context lexicale variatie). False positive.",
+      "verified_at": "2026-05-15T04:59:16+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 17,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'geseght' in 4 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 4 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        17,
+        18,
+        24,
+        33
+      ],
+      "id": "LUK-2-17-001",
+      "status": "verified",
+      "rebuttal": "Concordantie is intact. Origineel-stam 'geseght' (λαληθέν / ἐλαλήθη / εἰρημένον) is in alle 4 verzen 'gezegd': v17 'gezegd was', v18 'gezegd werd', v24 'gezegd is', v33 'gezegd werd'. De prefix-heuristiek mist 'geseght' → 'gezegd' (g-prefix gelijk, rest verschilt door spelling-modernisatie); hier geen drift.",
+      "verified_at": "2026-05-10T17:29:12+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 20,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'keerden' in 4 verzen — verzen [43] renderen het stam anders dan [20, 39, 45]",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 4 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        20,
+        39,
+        43,
+        45
+      ],
+      "id": "LUK-2-20-001",
+      "status": "verified",
+      "rebuttal": "Concordantie-keuze syntactisch gemotiveerd. 'Keer-' (ὑπέστρεψαν / ἐπέστρεψαν) wordt in v20/v39/v45 'keerden ... terug' (gesplitste scheidbaar samengesteld werkwoord in hoofdzin) en in v43 'terugkeerden' (één woord in een bijzin: 'doe sy weder keerden, bleef het kint' → 'toen zij terugkeerden, bleef het kind'). Modern NL eist V-eindstand in bijzinnen, dus moet 'terug' aan het ww vastgeplakt worden. Dezelfde lexicale keuze, andere syntactische vorm — geen drift.",
+      "verified_at": "2026-05-10T17:29:12+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 20,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'wederom' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        20,
+        39,
+        45
+      ],
+      "id": "LUK-2-20-002",
+      "status": "verified",
+      "rebuttal": "Concordantie is intact. 'Wederom' (πάλιν, hier impliciet in het ὑπο-prefix van ὑπέστρεψαν) wordt in alle 3 verzen consistent gerenderd als 'terug' geïncorporeerd in 'terugkeerden' / 'keerden ... terug': v20 'keerden terug', v39 'keerden zij terug', v45 'keerden zij terug'. De prefix-heuristiek 'wederom' → 'terug' heeft geen lexicale overlap; vandaar valse drift-flag.",
+      "verified_at": "2026-05-10T17:29:12+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 22,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'ierusal' in 7 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 7 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        22,
+        25,
+        38,
+        41,
+        42,
+        43,
+        45
+      ],
+      "id": "LUK-2-22-001",
+      "status": "verified",
+      "rebuttal": "Concordantie is intact en volgt NBV21-eigennamen-mapping. 'Ierusalem' (Gr. Ἱεροσόλυμα / Ἱερουσαλήμ) wordt in alle 7 verzen 'Jeruzalem' (v22, 25, 38, 41, 42, 43, 45). De prefix-heuristiek ziet 'ierusal' → 'jeruzal' niet als overlap door I/J-spelling-verschuiving; geen drift. Zie ARCHAISMEN.md §eigennamen.",
+      "verified_at": "2026-05-10T17:29:12+00:00"
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "book": "LUK",
+  "chapter": 16,
+  "reviewed_at": "2026-05-15T05:08:56+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-14T18:35:15+00:00",
+      "mode": "scan",
+      "issues_total": 8
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-14T18:37:07+00:00",
+      "mode": "verify",
+      "actions": [
+        "LUK-16-8-001: rebuttal verified",
+        "LUK-16-13-001: rebuttal verified",
+        "LUK-16-16-001: rebuttal verified",
+        "LUK-16-23-001: rebuttal verified",
+        "LUK-16-23-002: reopened (luie rebuttal)",
+        "LUK-16-29-001: rebuttal verified",
+        "LUK-16-31-001: rebuttal verified",
+        "LUK-16-5-001: rebuttal verified"
+      ]
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-05-14T18:37:42+00:00",
+      "mode": "verify",
+      "actions": [
+        "LUK-16-23-002: rebuttal verified"
+      ]
+    },
+    {
+      "pass": 4,
+      "ran_at": "2026-05-15T04:55:55+00:00",
+      "mode": "scan",
+      "issues_total": 7
+    },
+    {
+      "pass": 5,
+      "ran_at": "2026-05-15T04:56:48+00:00",
+      "mode": "scan",
+      "issues_total": 7
+    },
+    {
+      "pass": 6,
+      "ran_at": "2026-05-15T05:02:28+00:00",
+      "mode": "scan",
+      "issues_total": 7
+    },
+    {
+      "pass": 7,
+      "ran_at": "2026-05-15T05:08:56+00:00",
+      "mode": "scan",
+      "issues_total": 7
+    }
+  ],
+  "issues": [
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 8,
+      "severity": "soft",
+      "quote_modernized": "de kinderen van het",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'de kinderen van het' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "LUK-16-8-001",
+      "status": "verified",
+      "rebuttal": "KANTTEKENINGEN.md redundantie-regel viseert parafrastische herhaling, niet lemma-citatie. De kanttekening glosst de Griekse metonymie 'zonen' en moet daarvoor de term 'kinderen van het licht' noemen die ze tegenoverstelt aan 'kinderen van deze wereld' — citeren van de te verklaren term is inherent aan de gloss.",
+      "verified_at": "2026-05-14T18:37:07+00:00"
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 13,
+      "severity": "soft",
+      "quote_modernized": "zich aan de een",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'zich aan de een' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "LUK-16-13-001",
+      "status": "verified",
+      "rebuttal": "Dit is een D.-gloss (KANTTEKENINGEN.md): '<dat is, zich aan de een houden.>' verklaart het hoofdtekst-werkwoord 'hechten' door substitutie naar 'houden'. De herhaling 'zich aan de een' is het te glossen lemma, niet parafrastische redundantie — de gloss vervangt juist het werkwoord.",
+      "verified_at": "2026-05-14T18:37:07+00:00"
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 16,
+      "severity": "soft",
+      "quote_modernized": "de wet en de",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'de wet en de' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "LUK-16-16-001",
+      "status": "verified",
+      "rebuttal": "De kanttekening glosst 'Koninkrijk Gods' als 'de vervulling van wat de wet en de Profeten van de Messias voorzegd hebben'. 'de wet en de Profeten' staat hier in een andere grammaticale rol (object van 'voorzegd hebben'), niet als herhaling van de hoofdtekst-uitspraak — substantieve gloss, geen redundantie per KANTTEKENINGEN.md.",
+      "verified_at": "2026-05-14T18:37:07+00:00"
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 23,
+      "severity": "soft",
+      "quote_modernized": "in de hel zijn",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'in de hel zijn' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "LUK-16-23-001",
+      "status": "verified",
+      "rebuttal": "KANTTEKENINGEN.md redundantie-regel viseert betekenis-redundantie (parafrastische herhaling van hoofdtekst-inhoud in de kanttekening). Hier is geen betekenis-overlap: het 4-token-venster matchte louter de tekenreeks 'in de hel zijn', maar 'zijn' is in beide posities een andere woordsoort. Hoofdtekst v23: 'toen hij in de hel zijn ogen ophief' — 'zijn' = bezittelijk voornaamwoord bij 'ogen'. Kanttekening v23: 'of zij nu in de hemel of in de hel zijn' — 'zijn' = persoonsvorm van het werkwoord 'zijn'. De kanttekening herhaalt geen hoofdtekst-inhoud; dit is een orthografische false-positive van het sliding-window, geen schending van de redundantie-regel.",
+      "verified_at": "2026-05-14T18:37:42+00:00"
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 29,
+      "severity": "soft",
+      "quote_modernized": "mozes en de profeten",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'mozes en de profeten' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "LUK-16-29-001",
+      "status": "verified",
+      "rebuttal": "D.-gloss op de metonymie 'Mozes en de Profeten' (KANTTEKENINGEN.md): '<Dat is, de schriften van Mozes en de Profeten.>' verklaart dat de personen voor hun geschriften staan. De gloss moet het lemma 'Mozes en de Profeten' citeren om de metonymie te kunnen verklaren — inherente lemma-citatie, geen parafrastische herhaling.",
+      "verified_at": "2026-05-14T18:37:07+00:00"
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 31,
+      "severity": "soft",
+      "quote_modernized": "Maar Abraham zei tot hem: Indien zij Mozes en de Profeten niet hor…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "LUK-16-31-001",
+      "status": "verified",
+      "rebuttal": "'indien' faalt de §2.7-productiviteitstest niet: het is standaard formeel/schriftelijk modern NL ('indien nodig', 'indien van toepassing', 'indien gewenst'). Geen archaïsme. Bovendien spiegelt het de SV-variatie: SV v31 'Indien sy' vs v30 'soo yemant' — naburige SV-lexicale variatie blijft bewaard (concordantie).",
+      "verified_at": "2026-05-14T18:37:07+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 5,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'yegelic' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        5,
+        16,
+        18
+      ],
+      "id": "LUK-16-5-001",
+      "status": "verified",
+      "rebuttal": "Geen drift: alle drie verzen renderen SV-stam 'yegelick' consistent als 'ieder' (v5 'ieder', v16 'ieder', v18 2x 'een ieder' — 'een ieder' spiegelt SV 'een yegelick'). De scanner-prefix-heuristiek mist de orthografische overgang yegelick->ieder (geen prefix-overlap) — gedocumenteerde false-positive-klasse.",
+      "verified_at": "2026-05-14T18:37:07+00:00"
+    }
+  ]
+}

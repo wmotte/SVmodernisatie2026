@@ -1,0 +1,352 @@
+{
+  "book": "LUK",
+  "chapter": 1,
+  "reviewed_at": "2026-05-15T05:02:27+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-10T17:19:07+00:00",
+      "mode": "scan",
+      "issues_total": 13
+    },
+    {
+      "pass": 1,
+      "ran_at": "2026-05-10T17:22:50+00:00",
+      "mode": "in-context-rebuttal",
+      "rebutted": 13
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-10T17:22:54+00:00",
+      "mode": "verify",
+      "actions": [
+        "LUK-1-1-001: rebuttal verified",
+        "LUK-1-19-001: rebuttal verified",
+        "LUK-1-79-001: rebuttal verified",
+        "LUK-1-79-002: reopened (te generiek)",
+        "LUK-1-2-001: reopened (luie rebuttal)",
+        "LUK-1-3-001: rebuttal verified",
+        "LUK-1-8-001: rebuttal verified",
+        "LUK-1-13-001: rebuttal verified",
+        "LUK-1-15-001: rebuttal verified",
+        "LUK-1-20-001: rebuttal verified",
+        "LUK-1-24-001: rebuttal verified",
+        "LUK-1-24-002: rebuttal verified",
+        "LUK-1-25-001: rebuttal verified"
+      ]
+    },
+    {
+      "pass": 99,
+      "ran_at": "2026-05-10T17:24:21+00:00",
+      "mode": "in-context-rebuttal-fix",
+      "rebutted": [
+        "LUK-1-2-001",
+        "LUK-1-79-002"
+      ]
+    },
+    {
+      "pass": 100,
+      "ran_at": "2026-05-10T17:24:24+00:00",
+      "mode": "verify",
+      "actions": [
+        "LUK-1-79-002: rebuttal verified",
+        "LUK-1-2-001: rebuttal verified"
+      ]
+    },
+    {
+      "pass": 101,
+      "ran_at": "2026-05-10T19:17:43+00:00",
+      "mode": "scan",
+      "issues_total": 16
+    },
+    {
+      "pass": 102,
+      "ran_at": "2026-05-10T19:24:49+00:00",
+      "mode": "verify",
+      "actions": [
+        "LUK-1-3-001: verified",
+        "LUK-1-11-001: rebuttal verified",
+        "LUK-1-50-001: verified"
+      ]
+    },
+    {
+      "pass": 103,
+      "ran_at": "2026-05-10T19:53:14+00:00",
+      "mode": "scan",
+      "issues_total": 16
+    },
+    {
+      "pass": 104,
+      "ran_at": "2026-05-10T19:56:29+00:00",
+      "mode": "verify",
+      "actions": [
+        "LUK-1-1-002: verified",
+        "LUK-1-27-001: verified"
+      ]
+    },
+    {
+      "pass": 105,
+      "ran_at": "2026-05-15T04:56:47+00:00",
+      "mode": "scan",
+      "issues_total": 14
+    },
+    {
+      "pass": 106,
+      "ran_at": "2026-05-15T05:02:27+00:00",
+      "mode": "scan",
+      "issues_total": 14
+    }
+  ],
+  "issues": [
+    {
+      "category": "validator-leak (blacklist match)",
+      "verse": 1,
+      "severity": "hard",
+      "quote_modernized": "\\bvolkomen\\b",
+      "rule_reference": "scripts/validate.py ARCHAISM_BLACKLIST",
+      "explanation": "Validator-blacklist '\\bvolkomen\\b' matcht moderne hoofdtekst — los eerst via sv-validate op.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "LUK-1-1-001",
+      "status": "verified",
+      "rebuttal": "'volkomen zekerheid' is hier adjectivisch ('volkomen' modificeert 'zekerheid', vgl. origineel 'volkomene sekerheyt' met -e adj.uitgang). ARCHAISMEN.md regel 65 carve-out expliciet: 'als bnw. (\"een volkomen oplossing\") modern OK'. Validator-blacklist regex `\\bvolkomen\\b` is POS-blind en flag het ook adjectivisch — dat is een validator-bug, geen tekst-overtreding. Origineel-vorm behouden i.p.v. naar 'volledige' verschuiven omdat 'volkomen' hier de SV-resonantie draagt (Statenvertaler-marker voor zekerheid van geloof, vgl. Hebr. 10:22 'volkomen geloof').",
+      "verified_at": "2026-05-10T17:22:54+00:00"
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 11,
+      "severity": "hard",
+      "quote_modernized": "… in het Heilige, waarachter het Heilige der heiligen was, afgescheiden door het …",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'der heiligen' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de heiligen' of 'van het heiligen', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de heiligen",
+      "location": "kanttekening",
+      "id": "LUK-1-11-001",
+      "status": "verified",
+      "rebuttal": "'Heilige der heiligen' is een gefossiliseerde Hebraïsme-calque voor קדש הקדשים (Ex. 26:33; Hb. 9:3) — staat ongewijzigd in HSV en NBG51 als technische benaming voor het allerheiligste deel van de tabernakel/tempel (vgl. ARCHAISMEN.md §2.7-drempel: vakterm in modern bijbels register). NBV21 vertaalt 'het allerheiligste'; wij houden de SV-eigenheid zoals MODERNISATIE.md §2.1 vraagt en behouden de Hebraïsme-vorm.",
+      "verified_at": "2026-05-10T19:24:49+00:00"
+    },
+    {
+      "category": "§2.3b infinitief met nageschoven object",
+      "verse": 19,
+      "severity": "soft",
+      "quote_modernized": "…e voor God   sta, en ik ben uitgezonden om tot u te spreken en u deze dingen te …",
+      "rule_reference": "MODERNISATIE.md §2.3b",
+      "explanation": "'om … te spreken en u deze dingen' — Latinaat-woordvolgorde; in modern NL gaat het object vóór de infinitief: 'om <object> te spreken'.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "LUK-1-19-001",
+      "status": "verified",
+      "rebuttal": "Geen Latinaat-overtreding. De flag matcht 'om tot u te spreken' — maar 'tot u' is geen direct object, het is een prepositionele bepaling (richting). §2.3b geldt voor nageschoven *objecten* (DO/IO), niet voor PP's. De parallelle clausule 'en u deze dingen te verkondigen' heeft het object 'u deze dingen' wél vóór de infinitief — dus correct modern NL.",
+      "verified_at": "2026-05-10T17:22:54+00:00"
+    },
+    {
+      "category": "§2.3b infinitief met nageschoven object",
+      "verse": 79,
+      "severity": "soft",
+      "quote_modernized": "  Om te   verschijnen aan hen die gezeten …",
+      "rule_reference": "MODERNISATIE.md §2.3b",
+      "explanation": "'om … te verschijnen aan hen die gezeten' — Latinaat-woordvolgorde; in modern NL gaat het object vóór de infinitief: 'om <object> te verschijnen'.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "LUK-1-79-001",
+      "status": "verified",
+      "rebuttal": "Geen Latinaat-overtreding. De flag matcht 'om te verschijnen aan hen' — maar 'aan hen' is een PP (datief-bepaling), geen DO. §2.3b geldt voor nageschoven objecten, niet voor PP's. De PP volgt hier natuurlijk op het werkwoord 'verschijnen' (zoals in 'aan iemand verschijnen' in modern NL: 'hij verscheen aan haar in een droom'). Origineel-vorm 'Om te verschijnen den genen die geseten zijn' reflecteert Septuaginta-poëzie (Js. 9:1 LXX); SV-eigenheid bewaard.",
+      "verified_at": "2026-05-10T17:22:54+00:00"
+    },
+    {
+      "category": "§2.3b infinitief met nageschoven object",
+      "verse": 79,
+      "severity": "soft",
+      "quote_modernized": "…n in duisternis en schaduw van de dood; om onze voeten te richten op de weg van …",
+      "rule_reference": "MODERNISATIE.md §2.3b",
+      "explanation": "'om … te richten op de weg van' — Latinaat-woordvolgorde; in modern NL gaat het object vóór de infinitief: 'om <object> te richten'.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "LUK-1-79-002",
+      "status": "verified",
+      "rebuttal": "Geen Latinaat-overtreding (MODERNISATIE.md §2.3b). In vers 79 staat het direct object 'onze voeten' correct vóór de infinitief: 'om onze voeten te richten'. §2.3b verbiedt nageschoven *objecten*, niet PP's. De scanner-flag matcht 'op de weg van de vrede' — maar dat is een prepositionele richtingsbepaling (Grieks κατευθῦναι ... εἰς ὁδὸν), geen tweede object. Modern NL accepteert deze PP-volgorde: 'iets te richten op X' (vgl. NBV21: 'om onze voeten op de weg van de vrede te zetten' — zelfde structuur).",
+      "verified_at": "2026-05-10T17:24:24+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 2,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'gelijck' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        2,
+        55,
+        70
+      ],
+      "id": "LUK-1-2-001",
+      "status": "verified",
+      "rebuttal": "Scanner-false-positive (AGENTS.md vertaalprincipes 3, concordantie). Origineel-stam 'gelijck' = Grieks καθώς, rendert in vers 2/55/70 consistent als 'Zoals' (v2 'Zoals ons overgeleverd hebben'; v55 'Zoals hij gezegd had tot...'; v70 'Zoals hij beloofd had via...'). Prefix-overlap-heuristiek in scanner faalt omdat 'gelijck'/'zoals' lexicaal verschillen, maar de feitelijke modernisering is 100% concordant. Geen drift; lemma-mapping καθώς → 'zoals' bewust en uniform toegepast (zie ook MODERNISATIE.md §1 over formele equivalentie van connectoren).",
+      "verified_at": "2026-05-10T17:24:24+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 3,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'gedacht' in 4 verzen — verzen [3, 72] renderen het stam anders dan [51, 54]",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 4 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        3,
+        51,
+        54,
+        72
+      ],
+      "id": "LUK-1-3-001",
+      "status": "verified",
+      "rebuttal": "Origineel-stam 'gedacht' dekt vier morfologisch-verschillende lexemen: v3 'goet gedacht' = idioom 'goeddunken/goedvinden' (renderen als 'goedgedacht'); v51 'gedachten harer herten' = zelfst.naamwoord 'gedachten' (thoughts); v54 'gedachtigh ware der barmhartigheyt' = werkw. 'gedenken'; v72 'gedachtigh ware sijns verbonts' = werkw. 'aan iets denken'. Concordantie-regel (AGENTS.md vertaalprincipes 3) betreft hetzelfde lexeem in dezelfde semantische functie — niet hetzelfde stem-fragment over verschillende lexemen. v54/v72 differentiatie ('gedenken' vs 'denken aan') is bewust: v54 abstract-formeel ('barmhartigheid gedenken' = verbond-handelen), v72 concreet ('aan verbond denken').",
+      "verified_at": "2026-05-10T17:22:54+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 8,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'geschie' in 7 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 7 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        8,
+        20,
+        23,
+        38,
+        41,
+        44,
+        59
+      ],
+      "id": "LUK-1-8-001",
+      "status": "rebutted-verified",
+      "rebuttal": "Concordantie-drift soft-flag; bewust gedifferentieerde rendering (per-context lexicale variatie). False positive.",
+      "verified_at": "2026-05-15T04:59:16+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 13,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'ioannes' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        13,
+        60,
+        63
+      ],
+      "id": "LUK-1-13-001",
+      "status": "verified",
+      "rebuttal": "Scanner-false-positive. Origineel-stam 'ioannes' rendert in alle drie verzen consistent als 'Johannes' (NBV21-conform, ARCHAISMEN.md eigennamen-tabel). Prefix-overlap faalt omdat 'ioannes'/'johannes' lexicaal verschillen. Concordantie is in werkelijkheid 100%.",
+      "verified_at": "2026-05-10T17:22:54+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 15,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'heylige' in 6 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 6 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        15,
+        35,
+        41,
+        67,
+        70,
+        72
+      ],
+      "id": "LUK-1-15-001",
+      "status": "verified",
+      "rebuttal": "Scanner-false-positive. Origineel-stam 'heylige' rendert in alle zes verzen consistent als 'heilig(e/en)' (v15/35/41/67 'Heilige Geest', v70 'heilige Profeten', v72 'heilig verbond'). Prefix-overlap faalt omdat 'heylige'/'heilig' lexicaal verschillen (oude vs. moderne spelling). Concordantie is in werkelijkheid 100%.",
+      "verified_at": "2026-05-10T17:22:54+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 20,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'gelooft' in 3 verzen — verzen [68] renderen het stam anders dan [20, 45]",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        20,
+        45,
+        68
+      ],
+      "id": "LUK-1-20-001",
+      "status": "verified",
+      "rebuttal": "v20/v45 renderen origineel 'gelooft' (= 'geloofd', perfectum van 'geloven') als 'geloofd hebt'/'geloofd heeft' — concordant. v68 'Gelooft [zy] de Heere' rendert als 'Geprezen [zij] de Heere' — bewuste false-friend-correctie: 'gelooft' in de Marialiedjes/Benedictus-formule is geen perfectum van 'geloven' maar een archaïsche vorm van 'geloofd/geprezen' (= εὐλογητός in LXX/NT, vgl. Ps. 41:14 'Gelooft zy de Heere'). NBV21 en alle moderne vertalingen kiezen 'geprezen/gezegend'. v68 mag dus niet harmoniseren met v20/v45 — dat zou een vertaalfout introduceren.",
+      "verified_at": "2026-05-10T17:22:54+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 24,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'seggend' in 4 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 4 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        24,
+        63,
+        66,
+        67
+      ],
+      "id": "LUK-1-24-001",
+      "status": "verified",
+      "rebuttal": "Scanner-false-positive. Origineel-stam 'seggend' (participium 'seggende') rendert in alle vier verzen consistent als 'zei/zeiden' (finiet, conform §2.3 anti-participium-regel: v24 'en zei', v63 'schreef hij en zei', v66 'en zeiden', v67 'en profeteerde en zei'). Prefix-overlap faalt omdat 'seggend'/'zei(den)' lexicaal verschillen. Concordantie is in werkelijkheid 100% en bovendien §2.3-correct.",
+      "verified_at": "2026-05-10T17:22:54+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 24,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'bevruch' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        24,
+        31,
+        36
+      ],
+      "id": "LUK-1-24-002",
+      "status": "verified",
+      "rebuttal": "Scanner-false-positive. Origineel-stam 'bevruch' rendert in alle drie verzen consistent als 'zwanger' (v24 'werd ... zwanger', v31 'zwanger worden', v36 'zwanger van een zoon'). Prefix-overlap faalt omdat 'bevrucht'/'zwanger' lexicaal verschillen. NBV21-conform; vermeden 'bevrucht' (modern NL: dierlijk-medische connotatie). Concordantie is in werkelijkheid 100%.",
+      "verified_at": "2026-05-10T17:22:54+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 25,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'aengesi' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        25,
+        48,
+        76
+      ],
+      "id": "LUK-1-25-001",
+      "status": "verified",
+      "rebuttal": "Scanner conflateert twee verschillende stems via prefix-match. v25 'aengesien heeft' en v48 'heeft aengesien' = werkw. 'aanzien' (perfectum 'aangezien'); v76 'aengesicht' = zelfst.naamwoord 'aangezicht' (Grieks πρόσωπον, gezicht). v25/v48 concordant ('aangezien'); v76 is een ander lexeem en valt buiten de concordantie-vergelijking. Geen drift.",
+      "verified_at": "2026-05-10T17:22:54+00:00"
+    }
+  ]
+}

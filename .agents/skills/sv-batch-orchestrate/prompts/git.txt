@@ -1,0 +1,81 @@
+Werkdirectory: <REPO_ROOT>   # output van `git rev-parse --show-toplevel`
+Actieve branch: <BRANCH>     # al gecheckt-out door orchestrator vanaf
+                              # origin/main; verifieer maar checkout niet.
+
+Opdracht: voer het git-ceremoniel uit voor een orchestrator-batch.
+Werk uitsluitend met git/gh. Doe GEEN inhoudelijke wijzigingen aan
+bestanden behalve de optionele 2-space reformat hieronder.
+
+Te committen bestanden (alleen indien gewijzigd t.o.v. origin/main):
+- output/<BOEK>/<BOEK>.<H>.json   # primair
+<EXTRA_FILES>                      # bv. scripts/lint_carryovers.py of
+                                    # output/<BOEK>/review.<H>.json
+
+Commit-message: <COMMIT_MESSAGE>
+PR-title:       <PR_TITLE>
+PR-body:        <PR_BODY>
+
+Stappen — strikt in deze volgorde:
+
+1. Verifieer state:
+   git status --short
+   git branch --show-current      # moet = <BRANCH>
+   Niet wat verwacht? Stop en rapporteer "STATE_DRIFT: <uitleg>".
+
+2. Diff-sanity-check op output/<BOEK>/<BOEK>.<H>.json:
+   git diff --stat output/<BOEK>/<BOEK>.<H>.json
+   Als >50 regels diff voor een batch van 3 verzen: 4-space-indent
+   detected — reformatteer naar 2-space:
+     python3 -c "
+     import json
+     p = 'output/<BOEK>/<BOEK>.<H>.json'
+     with open(p) as f: d = json.load(f)
+     with open(p, 'w') as f:
+         json.dump(d, f, ensure_ascii=False, indent=2); f.write('\n')
+     "
+   Vermeld in eindrapport: REFORMATTED: yes (anders REFORMATTED: no).
+
+3. Stage + commit + push:
+   git add output/<BOEK>/<BOEK>.<H>.json
+   # extra files alleen indien daadwerkelijk gewijzigd:
+   git add <EXTRA_FILES> 2>/dev/null || true
+   git commit -m "<COMMIT_MESSAGE>"
+   git push -u origin <BRANCH>
+
+4. PR aanmaken:
+   gh pr create --base main \
+       --title "<PR_TITLE>" \
+       --body "<PR_BODY>"
+   Bewaar de URL.
+
+5. Merge — eerst gh, fallback lokaal:
+   gh pr merge --merge || (
+       # Lokale fallback (vereist `main` als checkout-baar; binnen een
+       # worktree waar main elders zit: rapporteer "MERGED: no — main
+       # geclaimd door andere worktree" en stop)
+       git checkout main && \
+       git merge --no-ff <BRANCH> -m "merge <BRANCH>" && \
+       git push origin main
+   )
+
+6. Refresh:
+   git fetch origin main --quiet
+   # Niet `git checkout main` in een worktree.
+
+VERBODEN:
+- Agent-attributietrailers (bv. `Co-Authored-By: …`, `Generated with …`)
+  of vergelijkbare trailers in commit-message of PR-body.
+- `--no-verify` op commit.
+- `--delete-branch` op `gh pr merge`.
+- `git push --force` op main.
+
+Eindrapport — exact dit format, niets anders, geen prosa:
+
+BRANCH: <BRANCH>
+PR: <pr-url-van-gh-pr-create>
+MERGED: yes
+SHA: <commit-sha-van-git-rev-parse-HEAD-na-commit>
+REFORMATTED: <yes|no>
+
+Bij mislukte merge of state-drift: vervang MERGED-regel door
+"MERGED: no — <reden>" en stop. Geen nieuwe pogingen — orchestrator beslist.

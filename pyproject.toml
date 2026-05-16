@@ -1,0 +1,16 @@
+[project]
+name = "svmodernisatie2026"
+version = "0.1.0"
+description = "Modernisering van de Statenvertaling 1657 (2e druk), gestuurd door een agent-CLI via AGENTS.md + skills."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "beautifulsoup4>=4.14.3",
+    "google-genai>=0.3.0",
+    "numpy>=1.26",
+    "python-dotenv>=1.0",
+    "requests>=2.33.1",
+]
+
+[tool.uv]
+package = false

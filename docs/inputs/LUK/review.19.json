@@ -1,0 +1,224 @@
+{
+  "book": "LUK",
+  "chapter": 19,
+  "reviewed_at": "2026-05-15T08:20:21+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-15T08:09:33+00:00",
+      "mode": "scan",
+      "issues_total": 10
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-15T08:09:33+00:00",
+      "mode": "review",
+      "issues_total": 11
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-05-15T08:19:20+00:00",
+      "mode": "verify",
+      "actions": [
+        "LUK-19-2-001: verified",
+        "LUK-19-8-001: rebuttal verified",
+        "LUK-19-10-001: rebuttal verified",
+        "LUK-19-10-002: rebuttal verified",
+        "LUK-19-17-001: verified",
+        "LUK-19-31-001: reopened (te generiek)",
+        "LUK-19-40-001: verified",
+        "LUK-19-7-001: rebuttal verified",
+        "LUK-19-9-001: rebuttal verified",
+        "LUK-19-13-001: rebuttal verified",
+        "LUK-19-22-001: verified"
+      ]
+    },
+    {
+      "pass": 4,
+      "ran_at": "2026-05-15T08:20:21+00:00",
+      "mode": "verify",
+      "actions": [
+        "LUK-19-31-001: rebuttal verified"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 2,
+      "severity": "hard",
+      "quote_modernized": "…cheüs heette, en deze was een   Overste der tollenaars, en hij was rijk:",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'der tollenaars' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de tollenaars' of 'van het tollenaars', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de tollenaars",
+      "location": "hoofdtekst",
+      "id": "LUK-19-2-001",
+      "status": "verified",
+      "fix_commit": null,
+      "fix_note": "Hoofdtekst v2: 'Overste der tollenaars' → 'Overste van de tollenaars'. Niet op de §2.3c fossiel-whitelist; concordantie wijst dezelfde kant op (LUK 11:15 'Overste van de duivelen', LUK 8:41 'Overste van de Synagoge' — beide met 'van de', geen 'der').",
+      "verified_at": "2026-05-15T08:19:20+00:00"
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 8,
+      "severity": "soft",
+      "quote_modernized": "…n goederen, Heere, geef ik de armen; en indien ik iemand iets   door bedrog ontv…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "LUK-19-8-001",
+      "status": "verified",
+      "rebuttal": "'Indien' is in LUK 19:8 conditionele conjunctie voor εἰ in voorwaardelijke bijzin ('εἴ τινός τι ἐσυκοφάντησα') — geen drempel-archaïsme maar boek-brede concordantie. SV2026/LUK gebruikt 'indien' al ruim 25× voor εἰ/ἐάν door LUK 10–18 heen (10:6, 11:18/19/20, 12:39/45, 13:3/9/5, 14:34, 15:8 e.v.); 'als' is in dit corpus gereserveerd voor temporeel ὡς/ὅτε. Vervanging hier zou de boekbrede concordantie-koppeling εἰ→indien doorbreken voor één vers.",
+      "verified_at": "2026-05-15T08:19:20+00:00"
+    },
+    {
+      "category": "§2.3b infinitief met nageschoven object",
+      "verse": 10,
+      "severity": "soft",
+      "quote_modernized": "  Want de Zoon des mensen is gekomen, om te zoeken en zalig te maken wat verlo…",
+      "rule_reference": "MODERNISATIE.md §2.3b",
+      "explanation": "'om … te zoeken en zalig te maken' — Latinaat-woordvolgorde; in modern NL gaat het object vóór de infinitief: 'om <object> te zoeken'.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "LUK-19-10-001",
+      "status": "verified",
+      "rebuttal": "Het object van de twee infinitieven is hier het zelfstandig gebruikte relatiefzin 'wat verloren was' (Gr. τὸ ἀπολωλός, gesubstantiveerd perfectum-participium). §2.3b pat. 1 beschrijft naamwoord-objecten ('om een wegh te bereyden') — bij een complete bijzin als object is voorop-plaatsing in modern NL juist stilistisch slechter ('om wat verloren was te zoeken en zalig te maken' is dubbelzinnig: relatief- vs. infinitief-bijzin). Bovendien wordt dezelfde Lukaanse ζητῆσαι καὶ σῶσαι τὸ ἀπολωλός in 9:56 ('om te behouden') hetzelfde gehanteerd.",
+      "verified_at": "2026-05-15T08:19:20+00:00"
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 10,
+      "severity": "hard",
+      "quote_modernized": "  Want de Zoon des mensen is gekomen, om te zoeken en z…",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'des mensen' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de mensen' of 'van het mensen', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de mensen",
+      "location": "hoofdtekst",
+      "id": "LUK-19-10-002",
+      "status": "verified",
+      "rebuttal": "MODERNISATIE.md §2.3c noemt 'Zoon des mensen' (Sone des menschen, Gr. ὁ Υἱὸς τοῦ ἀνθρώπου) expliciet in de fossiel-whitelist-tabel naast 'Koninkrijk Gods'. Het is een gefossiliseerde titel voor Christus die in de moderne theologische traditie ongewijzigd zo geschreven blijft; SV1657 gebruikt deze formule >80× in de evangeliën en SV2026 heeft hem in LUK 5:24, 6:22, 7:34, 9:22/26/44/56/58, 11:30, 12:8/10/40, 17:22/24/26/30, 18:8/31 al consistent zo aangehouden.",
+      "verified_at": "2026-05-15T08:19:20+00:00"
+    },
+    {
+      "category": "§2.3b vocatief-u",
+      "verse": 17,
+      "severity": "soft",
+      "quote_modernized": "En hij zei tot hem: Wel, u goede dienstknecht, omdat u in het m…",
+      "rule_reference": "MODERNISATIE.md §2.3b",
+      "explanation": "'u goede' aan zin-/clause-begin — mogelijke vocatief-u-Latinaatconstructie. Verifieer of 'u' hier object van aanspreking is en weghaalbaar is.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "LUK-19-17-001",
+      "status": "verified",
+      "fix_commit": null,
+      "fix_note": "Hoofdtekst v17: 'Wel, u goede dienstknecht' → 'Wel, goede dienstknecht'. Greek vocatief ἀγαθὲ δοῦλε (adj.+nom., zonder pronomen); SV's 'ghy' = Latinaat-aanvulling. §2.3b pat. 4 schrijft hier u-schrap voor (precedent LUK 1:28 'u begenadigde' → 'begenadigde').",
+      "verified_at": "2026-05-15T08:19:20+00:00"
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 31,
+      "severity": "soft",
+      "quote_modernized": "En indien iemand u vraagt: Waarom ontbindt …",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "LUK-19-31-001",
+      "status": "verified",
+      "rebuttal": "§2.7 productiviteitstest: 'indien' is in formeel-juridisch en bijbels NL nog volledig productief (vergelijk wetteksten, NBG51, HSV). Hier vertaalt het Gr. ἐάν in een voorwaardelijke bijzin met conjunctief ('ἐάν τις ὑμᾶς ἐρωτᾷ') — exact dezelfde εἰ/ἐάν→indien-koppeling als LUK 10:6 ('indien aldaar een zoon des vredes is'), LUK 13:9, 14:34, 17:3, 19:8. Vers-specifiek: parallellie met v34 directe rede ('Indien iemand u dit zegt') vereist identieke conditionele markering binnen dezelfde Jezus-instructie.",
+      "verified_at": "2026-05-15T08:20:21+00:00"
+    },
+    {
+      "category": "SV-verbuiging (demonstratief dezer/dien/...)",
+      "verse": 40,
+      "severity": "hard",
+      "quote_modernized": "…ordde en zei tot hen: Ik zeg u dat, als dezen zwijgen,   de stenen haastig zulle…",
+      "rule_reference": "ARCHAISMEN.md (SV-verbuigingen)",
+      "explanation": "'dezen zwijgen' — verbogen demonstratief (SV-genitief/datief). Modern Nederlands: 'deze' / 'die' / 'in deze ...' / 'op die ...'. Gefossiliseerde uitdrukkingen ('dezer dagen', 'te dien einde') zijn whitelist; rebut zo nodig met register-argument.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "LUK-19-40-001",
+      "status": "verified",
+      "fix_commit": null,
+      "fix_note": "Hoofdtekst v40: 'als dezen zwijgen' → 'als deze zwijgen'. Greek οὗτοι is nominatief mv. (subject van σιωπήσωσιν), SV-origineel 'dese' (zonder -n). Modern formeel-register 'dezen' voor personen mv. is OK, maar SV-origineel én concordantie wijzen naar 'deze' zonder buigings-n; -n was hier door modernisator toegevoegd zonder bron in 1657.",
+      "verified_at": "2026-05-15T08:19:20+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 7,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'seggend' in 7 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 7 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        7,
+        14,
+        20,
+        30,
+        38,
+        42,
+        46
+      ],
+      "id": "LUK-19-7-001",
+      "status": "verified",
+      "rebuttal": "Alle 7 verzen (7,14,20,30,38,42,46) hebben 'seggende' = Gr. participium praesens λέγοντες/λέγων. MODERNISATIE.md §2.3 schrijft voor: ontvouw participium tot finiete werkwoordsvorm. Resultaat consistent: v7 'morden en zeiden', v14 'haatten… en zeiden', v20 'kwam en zei', v30 'En hij zei', v38 'En zij zeiden', v42 'En zei', v46 'En hij zei tot hen'. Scanner-prefix-heuristiek 'seggend→z*' mist de orthografische én morfologische overgang (sch→g; participium→finiete vorm); false positive.",
+      "verified_at": "2026-05-15T08:19:20+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 9,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'geschie' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        9,
+        15,
+        29
+      ],
+      "id": "LUK-19-9-001",
+      "status": "verified",
+      "rebuttal": "Twee Griekse constructies achter dezelfde SV-stam 'geschie': v15+v29 'het geschiedde' = idiomatisch ἐγένετο als verteller-markeerder (LXX-formule) → modern 'het gebeurde' (consistent met LUK 1:5/8/41, 2:1, 6:1). V9 'saligheyt geschiet' = σωτηρία ἐγένετο, een Lukaanse uitdrukking waar 'is gebeurd' archaïsch klinkt; 'is ten deel gevallen' bewaart het perfectum-aspect en de huis-als-ontvanger-rol. De prefix-heuristiek negeert de syntactische rolwisseling van ἐγένετο (impersonaal vs. lexicaal subject σωτηρία). False positive.",
+      "verified_at": "2026-05-15T08:19:20+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 13,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'hebbend' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        13,
+        28,
+        35
+      ],
+      "id": "LUK-19-13-001",
+      "status": "verified",
+      "rebuttal": "Alle drie de verzen hebben 'X hebbende' = SV-rendering van Grieks aorist-participium (v13 καλέσας → 'geroepen hebbende'; v28 εἰπὼν → 'geseght hebbende'; v35 ἐπιρρίψαντες → 'geworpen hebbende'). §2.3 schrijft ontvouwing voor: v13 'toen hij … geroepen had', v28 'toen hij dit gezegd had', v35 'nadat zij … geworpen hadden'. Drie verschillende tijds- en voegwoorden ('toen'/'nadat') reflecteren contextverschillen, maar de onderliggende keuze (participium→finiete bijzin met perfectum) is identiek. Scanner mist de participium→finite-overgang.",
+      "verified_at": "2026-05-15T08:19:20+00:00"
+    },
+    {
+      "category": "consistente vocatief",
+      "verse": 22,
+      "severity": "soft",
+      "quote_modernized": "…oordelen, u boze dienstknecht. U wist dat ik een streng mens ben…",
+      "rule_reference": "MODERNISATIE.md §2.3b pat. 4",
+      "explanation": "Aanvullend gevonden in Stap 2a: vocatief 'u boze dienstknecht' (SV 'ghy boose dienstknecht', Gr. πονηρὲ δοῦλε — adj.+vocatief zonder pronomen) volgt zelfde §2.3b pat. 4-constructie als v17. Voor consistentie binnen dit hoofdstuk (en met LUK 1:28 'begenadigde') gelijk fixen.",
+      "proposed_fix": "boze dienstknecht",
+      "location": "hoofdtekst",
+      "id": "LUK-19-22-001",
+      "status": "verified",
+      "fix_commit": null,
+      "fix_note": "Hoofdtekst v22: 'u boze dienstknecht' → 'boze dienstknecht'. Parallel aan v17-fix; eliminieert intra-chapter inconsistentie bij identieke Griekse vocatief-constructie (adjectief + δοῦλε).",
+      "verified_at": "2026-05-15T08:19:20+00:00"
+    }
+  ]
+}

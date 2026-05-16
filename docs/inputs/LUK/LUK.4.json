@@ -1,0 +1,456 @@
+{
+  "book": "LUK",
+  "chapter": 4,
+  "introduction": {
+    "original": "1 Christus vast in de woestijne veertigh dagen, ende wort van den duyvel versocht. 14 Keert wederom na Galileam, ende leert in de Synagoge tot Nazareth, uyt Esaie Cap. 61. dat hy de beloofde Messias was. 23 ende wijst aen met de exempelen Elie ende Elisei, waerom hy daer geen wonderwercken en dede. 28 Waerom sy toornigh zijnde trachten hem te dooden. 31 Leert te Capernaum op den Sabbath. 33 ende drijft aldaer eenen duyvel uyt. 38 Geneest de schoonmoeder Petri van de kortse, ende vele andere krancke ende besetene. 42 Gaet van daer ende predickt oock in de andere steden van Galilea.",
+    "modernized": "1 Christus vast in de woestijn veertig dagen, en wordt door de duivel verzocht. 14 Keert weer terug naar Galilea, en onderwijst in de Synagoge te Nazareth, uit Jesaja 61, dat hij de beloofde Messias was. 23 en wijst aan met de voorbeelden van Elia en Elisa, waarom hij daar geen wonderwerken deed. 28 Waarom zij, toornig geworden, trachten hem te doden. 31 Onderwijst te Kapernaum op de Sabbath. 33 en drijft daar een duivel uit. 38 Geneest de schoonmoeder van Petrus van de koorts, en vele andere zieken en bezetenen. 42 Gaat vandaar en predikt ook in de andere steden van Galilea.",
+    "generated_at": "2026-05-10T05:35:14Z",
+    "model": "claude-opus-4-7"
+  },
+  "verses": [
+    {
+      "verse_number": 1,
+      "original": "ENde $Matth. 4.1. Marc. 1.12.$ Iesus vol des Heyligen Geests keerde wederom van den Iordaen, ende wiert <Gr. in den Geest, namelick, van welcke hy te voren gesproken hadde.> door den Geest geleydet in de woestijne,",
+      "modernized": "En $Mt. 4:1; Mk. 1:12$ Jezus, vol van de Heilige Geest, keerde terug van de Jordaan, en werd <Grieks: in de Geest, namelijk, van wie hij hiervoor gesproken had.> door de Geest geleid in de woestijn,",
+      "source_text": "Ἰησοῦς δὲ Πνεύματος Ἁγίου πλήρης ὑπέστρεψεν ἀπὸ τοῦ Ἰορδάνου, καὶ ἤγετο ἐν τῷ Πνεύματι εἰς τὴν ἔρημον,",
+      "generated_at": "2026-05-10T05:35:14Z",
+      "model": "claude-opus-4-7",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 2,
+      "original": "Ende wert <Doch voornamelick op ’t eynde wanneer hem de satan op ’t allerheftighste versocht heeft, gelijck blijckt uyt Matth. cap. 4. vers 2.> veertigh dagen versocht van den duyvel: $Exod. 34.28. 1.Reg. 19.8.$ ende <Van dit vasten Christi, mitsgaders dese versoeckingen, siet de verklaringen op Matth. cap. 4.> en at gantsch niet in die dagen, ende als deselve ge-eyndight waren, soo hongerde hem ten laetsten.",
+      "modernized": "En hij werd <Maar voornamelijk op het einde, toen de satan hem op het allerheftigst verzocht heeft, zoals blijkt uit $Mt. 4:2$.> veertig dagen verzocht door de duivel: $Ex. 34:28; 1Kn. 19:8$ en <Van dit vasten van Christus, alsmede van deze verzoekingen, zie de verklaringen op $Mt. 4:1$.> hij at helemaal niets in die dagen, en toen die ten einde waren, kreeg hij tenslotte honger.",
+      "source_text": "ἡμέρας τεσσαράκοντα πειραζόμενος ὑπὸ τοῦ διαβόλου. καὶ οὐκ ἔφαγεν οὐδὲν ἐν ταῖς ἡμέραις ἐκείναις· καὶ συντελεσθεισῶν αὐτῶν, ὕστερον ἐπείνασε.",
+      "generated_at": "2026-05-10T05:37:09Z",
+      "model": "claude-opus-4-7",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "subject": "ten laatste → tenslotte",
+          "reason": "SV2027-spiegel: 'ten laatste' (= 'op zijn laatst' in modern NL) → 'tenslotte' (drempel-§2.7)."
+        }
+      ]
+    },
+    {
+      "verse_number": 3,
+      "original": "Ende de duyvel seyde tot hem, Indien ghy Godts Sone zijn, seght tot desen steen, dat hy broot worde.",
+      "modernized": "En de duivel zei tot hem: Als u Gods Zoon bent, zeg tot deze steen, dat hij brood wordt.",
+      "source_text": "καὶ εἶπεν αὐτῷ ὁ διάβολος, Εἰ Υἱὸς εἶ τοῦ Θεοῦ, εἰπὲ τῷ λίθῳ τούτῳ ἵνα γένηται ἄρτος.",
+      "generated_at": "2026-05-10T05:38:23Z",
+      "model": "claude-opus-4-7",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 4,
+      "original": "Ende Iesus antwoordde hem, seggende, $Deut. 8.3. Matth. 4.4.$ Daer is geschreven, dat de mensche by broot alleen niet en sal leven, maer by alle woort Godts.",
+      "modernized": "En Jezus antwoordde hem en zei: $Dt. 8:3; Mt. 4:4$ Er is geschreven, dat de mens niet bij brood alleen zal leven, maar bij alle woord van God.",
+      "source_text": "καὶ ἀπεκρίθη Ἰησοῦς πρὸς αὐτόν, λέγων, Γέγραπται ὅτι Οὐκ ἐπ’ ἄρτῳ μόνῳ ζήσεται ὁ ἄνθρωπος, ἀλλ’ ἐπὶ παντὶ ῥήματι Θεοῦ.",
+      "generated_at": "2026-05-10T06:14:06Z",
+      "model": "claude-opus-4-7",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 5,
+      "original": "<Mattheus verhaelt dit voor de derde versoeckinge, c. 4. vers 8. waer uyt blijckt dat de Euangelisten haer soo seer niet en binden aen de ordre als aen de sake selve.> Ende als hem de duyvel geleyt hadde op eenen hoogen bergh, toonde hy hem alle de Koninckrijcken der werelt, in eenen <Gr. stipken, ofte puntgen des tijts.> oogenblick tijts.",
+      "modernized": "<Mattheus verhaalt dit als de derde verzoeking, $Mt. 4:8$, waaruit blijkt dat de Evangelisten zich niet zozeer aan de volgorde binden als aan de zaak zelf.> En toen de duivel hem op een hoge berg geleid had, toonde hij hem alle Koninkrijken van de wereld, in een <Grieks: stipje, of puntje van tijd.> ogenblik tijds.",
+      "source_text": "καὶ ἀναγαγὼν αὐτὸν ὁ διάβολος εἰς ὄρος ὑψηλὸν ἔδειξεν αὐτῷ πάσας τὰς βασιλείας τῆς οἰκουμένης ἐν στιγμῇ χρόνου.",
+      "generated_at": "2026-05-10T06:14:07Z",
+      "model": "claude-opus-4-7",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 6,
+      "original": "Ende de duyvel seyde tot hem, Ick sal u alle dese macht ende de heerlickheyt der selver [Koninckrijcken] geven: <Hoewel de duyvel tegen de waerheyt hemselven dit toeschrijft, als zijnde een leugenaer, Ioan. cap. 8. vers 44. nochtans soo misbruyckt hy dickwils, door Godts toelatinge ende rechtveerdigh oordeel tegen de sonden der menschen, de eere ende de rijckdommen der werelt, om de menschen te verleyden, hemselven dragende als een Overste ende Godt deser werelt, Ioan. c. 12. vers 31. Eph. 6. vers 12. 2.Cor. 4.4.> want sy is my over gegeven, ende ick geefse wien ick oock wil.",
+      "modernized": "En de duivel zei tot hem: Ik zal u al deze macht en de heerlijkheid van die [Koninkrijken] geven; <Hoewel de duivel tegen de waarheid in dit zichzelf toeschrijft, als zijnde een leugenaar, $Jh. 8:44$, toch misbruikt hij dikwijls, door Gods toelating en rechtvaardig oordeel tegen de zonden van de mensen, de eer en de rijkdommen van de wereld, om de mensen te verleiden, terwijl hij zichzelf voordoet als een Overste en God van deze wereld, $Jh. 12:31; Ef. 6:12; 2Kor. 4:4$.> want zij is mij overgegeven, en ik geef haar aan wie ik ook wil.",
+      "source_text": "καὶ εἶπεν αὐτῷ ὁ διάβολος, Σοὶ δώσω τὴν ἐξουσίαν ταύτην ἅπασαν καὶ τὴν δόξαν αὐτῶν· ὅτι ἐμοὶ παραδέδοται, καὶ ᾧ ἐὰν θέλω δίδωμι αὐτήν.",
+      "generated_at": "2026-05-10T06:14:08Z",
+      "model": "claude-opus-4-7",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 7,
+      "original": "Indien ghy dan my sult <Ofte, voor my neder vallen, Namelick, om my aen te bidden.> aenbidden, soo sal het all’ uwe zijn.",
+      "modernized": "Als u mij dan zult <Of, voor mij neervallen, Namelijk, om mij te aanbidden.> aanbidden, dan zal het alles van u zijn.",
+      "source_text": "σὺ οὖν ἐὰν προσκυνήσῃς ἐνώπιόν μου, ἔσται σου πάντα.",
+      "generated_at": "2026-05-10T06:17:54Z",
+      "model": "claude-opus-4-7",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 8,
+      "original": "Ende Iesus antwoordende seyde tot hem, <Gr. gaet wech achter my.> Gaet wech van my satan: want daer is geschreven, $Deuter. 6.13. ende 10.20. 1.Sam. 7.3.$ Ghy sult den Heere uwen Godt aenbidden, ende hem alleene dienen.",
+      "modernized": "En Jezus antwoordde en zei tot hem: <Grieks: ga weg achter mij.> Ga weg van mij, satan; want er is geschreven: $Dt. 6:13; 10:20; 1Sm. 7:3$ U zult de Heere uw God aanbidden, en hem alleen dienen.",
+      "source_text": "καὶ ἀποκριθεὶς αὐτῷ εἶπεν ὁ Ἰησοῦς, Ὕπαγε ὀπίσω μου, Σατανᾶ· γέγραπται γάρ, Προσκυνήσεις Κύριον τὸν Θεόν σου, καὶ αὐτῷ μόνῳ λατρεύσεις.",
+      "generated_at": "2026-05-10T06:18:49Z",
+      "model": "claude-opus-4-7",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 9,
+      "original": "Ende hy leydde hem na Ierusalem, ende stelde hem op de tinne des tempels, ende seyde tot hem, Indien ghy de Sone Godts zijt, worpt u selven van hier nederwaerts.",
+      "modernized": "En hij leidde hem naar Jeruzalem, en stelde hem op de tinne van de tempel, en zei tot hem: Als u de Zoon van God bent, werp uzelf van hier naar beneden.",
+      "source_text": "καὶ ἤγαγεν αὐτὸν εἰς Ἱερουσαλήμ, καὶ ἔστησεν αὐτὸν ἐπὶ τὸ πτερύγιον τοῦ ἱεροῦ, καὶ εἶπεν αὐτῷ, Εἰ ὁ Υἱὸς εἶ τοῦ Θεοῦ, βάλε σεαυτὸν ἐντεῦθεν κάτω·",
+      "generated_at": "2026-05-10T06:19:31Z",
+      "model": "claude-opus-4-7",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "twijfel",
+          "subject": "tinne",
+          "context": "hoofdtekst",
+          "choice": "tinne van de tempel",
+          "alternatives": [
+            "rand van de tempel",
+            "pinakel van de tempel"
+          ],
+          "reason": "Grieks πτερύγιον duidt een uitstekend gedeelte van de tempel aan (vleugeltje, pinakel). 'Tinne' is in modern NL weinig productief, maar wel de traditionele en architectonisch-precieze term. Andere modernisaties (NBV21, HSV) kiezen 'rand', wat algemener is. In renovatie-modus blijft 'tinne' staan als formeel-equivalente tempel-term."
+        }
+      ]
+    },
+    {
+      "verse_number": 10,
+      "original": "Want daer is geschreven, $Psalm 91.11.$ dat hy sijne Engelen van u bevelen sal, dat sy u bewaren sullen.",
+      "modernized": "Want er is geschreven: $Ps. 91:11$ dat hij zijn Engelen aangaande u bevelen zal, dat zij u bewaren zullen.",
+      "source_text": "γέγραπται γὰρ ὅτι Τοῖς ἀγγέλοις αὐτοῦ ἐντελεῖται περὶ σοῦ, τοῦ διαφυλάξαι σε·",
+      "generated_at": "2026-05-10T06:23:56Z",
+      "model": "claude-opus-4-7",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 11,
+      "original": "Ende dat sy u op de handen nemen sullen, op dat ghy uwen voet niet t’eeniger tijt aen eenen steen en stootet.",
+      "modernized": "En dat zij u op de handen nemen zullen, opdat u uw voet niet ooit aan een steen stoot.",
+      "source_text": "καὶ ὅτι Ἐπὶ χειρῶν ἀροῦσί σε, μήποτε προσκόψῃς πρὸς λίθον τὸν πόδα σου.",
+      "generated_at": "2026-05-10T06:23:58Z",
+      "model": "claude-opus-4-7",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "subject": "concordantie 'nemen'",
+          "reason": "Concordantie SV1657 'nemen' bewaard (subagent had 'dragen' gekozen — NBV21-stijl)."
+        }
+      ]
+    },
+    {
+      "verse_number": 12,
+      "original": "Ende Iesus antwoordende seyde tot hem, daer is geseght, $Deuter. 6.16.$ Ghy en sult den Heere uwen Godt niet versoecken.",
+      "modernized": "En Jezus antwoordde en zei tot hem: Er is gezegd: $Dt. 6:16$ U zult de Heere uw God niet verzoeken.",
+      "source_text": "καὶ ἀποκριθεὶς εἶπεν αὐτῷ ὁ Ἰησοῦς ὅτι Εἴρηται, Οὐκ ἐκπειράσεις Κύριον τὸν Θεόν σου.",
+      "generated_at": "2026-05-10T06:24:00Z",
+      "model": "claude-opus-4-7",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 13,
+      "original": "Ende als de duyvel alle versoeckinge voleyndight hadde, weeck hy van hem <Want het blijckt, dat hy tegen den tijt van sijn lijden hem wederom heftelick aengevallen is, Ioa. cap. 14. vers 30.> voor eenen tijt.",
+      "modernized": "En toen de duivel alle verzoeking voleindigd had, week hij van hem <Want het blijkt dat hij tegen de tijd van zijn lijden hem opnieuw heftig aangevallen is, $Jh. 14:30$.> voor een tijd.",
+      "source_text": "καὶ συντελέσας πάντα πειρασμὸν ὁ διάβολος ἀπέστη ἀπ’ αὐτοῦ ἄχρι καιροῦ.",
+      "generated_at": "2026-05-10T06:28:11.452173Z",
+      "model": "claude-opus-4-7",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 14,
+      "original": "$Matth. 4.12. Marc. 1.14. Ioan. 4.43. Actor. 10.37.$ Ende Iesus keerde wederom <Gr. in de kracht.> door de kracht des Geests na Galileen: ende het geruchte van hem gingh uyt door het geheele omliggende lant.",
+      "modernized": "$Mt. 4:12; Mk. 1:14; Jh. 4:43; Hd. 10:37$ En Jezus keerde terug <Grieks: in de kracht.> door de kracht van de Geest naar Galilea; en het gerucht over hem ging uit door het hele omliggende land.",
+      "source_text": "Καὶ ὑπέστρεψεν ὁ Ἰησοῦς ἐν τῇ δυνάμει τοῦ Πνεύματος εἰς τὴν Γαλιλαίαν· καὶ φήμη ἐξῆλθε καθ’ ὅλης τῆς περιχώρου περὶ αὐτοῦ.",
+      "generated_at": "2026-05-10T06:28:58.484157Z",
+      "model": "claude-opus-4-7",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 15,
+      "original": "Ende hy leerde in hare Synagogen, ende wiert van allen <Gr. verheerlickt.> gepresen.",
+      "modernized": "En hij onderwees in hun Synagogen, en werd door allen <Grieks: verheerlijkt.> geprezen.",
+      "source_text": "καὶ αὐτὸς ἐδίδασκεν ἐν ταῖς συναγωγαῖς αὐτῶν, δοξαζόμενος ὑπὸ πάντων.",
+      "generated_at": "2026-05-10T06:29:27.387497Z",
+      "model": "claude-opus-4-7",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "subject": "leerde → onderwees",
+          "reason": "False-friend: 'leren' (= modern primair 'learn') vermeden — SV1657 'leerde' = 'taught' → 'onderwees'."
+        }
+      ]
+    },
+    {
+      "verse_number": 16,
+      "original": "$Matth. 13.54. Marc. 6.1. Ioan. 4.43.$ Ende hy quam tot Nazareth, daer hy opgevoedt was, ende gingh, na sijne gewoonte, op den dagh <Gr. der Sabbathen.> des Sabbaths in de Synagoge: $Nehem. 8.5, 6.$ ende stont op om te lesen.",
+      "modernized": "$Mt. 13:54; Mk. 6:1; Jh. 4:43$ En hij kwam te Nazareth, waar hij opgevoed was, en ging, naar zijn gewoonte, op de dag <Grieks: van de Sabbatten.> van de Sabbat in de Synagoge: $Ne. 8:5,6$ en stond op om te lezen.",
+      "source_text": "Καὶ ἦλθεν εἰς τὴν Ναζαρέθ, οὗ ἦν τεθραμμένος· καὶ εἰσῆλθε, κατὰ τὸ εἰωθὸς αὐτῷ, ἐν τῇ ἡμέρᾳ τῶν σαββάτων εἰς τὴν συναγωγήν, καὶ ἀνέστη ἀναγνῶναι.",
+      "generated_at": "2026-05-10T06:35:38Z",
+      "model": "claude-opus-4-7",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 17,
+      "original": "Ende hem wiert <D. gelanght, ofte toegereyckt. Siet Actor. 13.15.> gegeven het boeck des Propheten Esaie, ende als hy het boeck <Gr. ontvouwt, of, ontrolt hadde, gelijck veeltijts de boecken in oude tijden op parkementen ofte papieren rollen geschreven wierden, Psalm 40. vers 8. Hebr. 10.7. Apoc. 6.14.> open gedaen hadde vondt hy <Hier schijnt Christus twee plaetsen uyt Iesaia te samen gevoeght te hebben: Want sommige van dese woorden staen Iesa. 61. vers 1. ende sommige Iesa. 42.7.> de plaetse daer geschreven was,",
+      "modernized": "En hem werd <dat is, aangereikt, of toegereikt. Zie $Hd. 13:15$.> gegeven het boek van de Profeet Jesaja, en toen hij het boek <Grieks: ontvouwd, of ontrold had, zoals vaak de boeken in oude tijden op perkamenten of papieren rollen geschreven werden, $Ps. 40:8; Hb. 10:7; Op. 6:14$.> opengedaan had, vond hij <Hier schijnt Christus twee plaatsen uit Jesaja samengevoegd te hebben: Want sommige van deze woorden staan $Js. 61:1$, en sommige $Js. 42:7$.> de plaats waar geschreven was,",
+      "source_text": "καὶ ἐπεδόθη αὐτῷ βιβλίον Ἠσαΐου τοῦ προφήτου. καὶ ἀναπτύξας τὸ βιβλίον, εὗρε τὸν τόπον οὗ ἦν γεγραμμένον,",
+      "generated_at": "2026-05-10T06:36:28Z",
+      "model": "claude-opus-4-7",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 18,
+      "original": "$Iesa. 61.1.$ De Geest des Heeren [is] op my, daerom heeft hy my gesalft: hy heeft my gesonden $Matth. 11.5.$ om den armen het Euangelium te verkondigen, om te genesen die gebroken zijn van herten,",
+      "modernized": "$Js. 61:1$ De Geest van de Heere [is] op mij, daarom heeft hij mij gezalfd: hij heeft mij gezonden $Mt. 11:5$ om de armen het Evangelie te verkondigen, om hen die gebroken zijn van hart te genezen,",
+      "source_text": "Πνεῦμα Κυρίου ἐπ’ ἐμέ, οὗ ἕνεκεν ἔχρισέ με· εὐαγγελίζεσθαι πτωχοῖς ἀπέσταλκέ με, ἰάσασθαι τοὺς συντετριμμένους τὴν καρδίαν·",
+      "generated_at": "2026-05-10T06:37:26Z",
+      "model": "claude-opus-4-7",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 19,
+      "original": "$Iesa. 61.1, 2. ende 42.7.$ Om den gevangenen te prediken loslatinge, ende den blinden <Gr. het verkrijgen des gesichts.> ’t gesichte, om <Of, verwondde.> de verslagene henen te senden <Gr. in loslatinge.> in vryheyt: om te prediken <Soo wort de tijt van de toekomste des Messiae, ende der predicatie des Euangeliums genaemt, om dat het aengenaem Iubeljaer daer van een voorbeelt is geweest, op welcke alle goederen die vervreemt waren tot haren eersten eygenaer quamen, ende alle dienstknechten uyt de Israëliten in vryheyt gestelt wierden, Levit. 25.8, etc.> het aengenaem jaer des Heeren.",
+      "modernized": "$Js. 61:1,2; 42:7$ Om aan de gevangenen vrijlating te prediken, en aan de blinden <Grieks: het verkrijgen van het gezicht.> het gezicht, om <Of, verwonde.> de verslagenen heen te zenden <Grieks: in vrijlating.> in vrijheid; om <Zo wordt de tijd van de komst van de Messias, en van de prediking van het Evangelie genoemd, omdat het aangename Jubeljaar daarvan een voorbeeld is geweest, waarop alle goederen die vervreemd waren tot hun eerste eigenaar terugkwamen, en alle dienstknechten uit de Israëlieten in vrijheid gesteld werden, $Lv. 25:8$, etc.> het aangename jaar van de Heere te prediken.",
+      "source_text": "κηρύξαι αἰχμαλώτοις ἄφεσιν, καὶ τυφλοῖς ἀνάβλεψιν, ἀποστεῖλαι τεθραυσμένους ἐν ἀφέσει· κηρύξαι ἐνιαυτὸν Κυρίου δεκτόν.",
+      "generated_at": "2026-05-10T06:40:01.012395Z",
+      "model": "claude-opus-4-7",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 20,
+      "original": "Ende als hy het boeck toegedaen, ende <Nam. van den Oversten der Synagoge.> den dienaer weder gegeven hadde, sat hy neder: ende de oogen van allen in de Synagoge waren op hem geslagen.",
+      "modernized": "En toen hij het boek dichtgedaan en <Namelijk, aan de Overste van de Synagoge.> de dienaar teruggegeven had, ging hij zitten; en de ogen van allen in de Synagoge waren op hem gericht.",
+      "source_text": "καὶ πτύξας τὸ βιβλίον, ἀποδοὺς τῷ ὑπηρέτῃ, ἐκάθισε· καὶ πάντων ἐν τῇ συναγωγῇ οἱ ὀφθαλμοὶ ἦσαν ἀτενίζοντες αὐτῷ.",
+      "generated_at": "2026-05-10T06:40:31.975627Z",
+      "model": "claude-opus-4-7",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 21,
+      "original": "Ende hy begon tot haer te seggen, <D. ghy hoort nu met uwe ooren dat huyden geschiet, ’t gene in dese prophetie te voren geseght is.> Heden is dese Schrift in uwe ooren vervult.",
+      "modernized": "En hij begon tot hen te zeggen: <Dat is, u hoort nu met uw oren dat heden gebeurt, wat in deze profetie tevoren gezegd is.> Heden is deze Schrift in uw oren vervuld.",
+      "source_text": "ἤρξατο δὲ λέγειν πρὸς αὐτοὺς ὅτι Σήμερον πεπλήρωται ἡ γραφὴ αὕτη ἐν τοῖς ὠσὶν ὑμῶν.",
+      "generated_at": "2026-05-10T06:40:59.291749Z",
+      "model": "claude-opus-4-7",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 22,
+      "original": "Ende sy gaven hem alle <Nam. dat hy een voortreflick Leeraer was. Siet Marc. 6.2.> getuygenisse, $Iesa. 50.4. Matth. 13.54. Marc. 6.2. Luce 2.47.$ ende verwonderden haer <Gr. over de woorden der genade, ofte, aengenaemheyt. Siet Psalm 45.3. Ioan. 1.14.> over de aengename woorden, die uyt sijnen mont voort quamen: ende seyden, $Ioan. 6.42.$ Is dese niet de sone Iosephs?",
+      "modernized": "En zij allen gaven hem <Namelijk, dat hij een voortreffelijk Leraar was. Zie $Mk. 6:2$.> getuigenis, $Js. 50:4; Mt. 13:54; Mk. 6:2; Lk. 2:47$ en verwonderden zich <Grieks: over de woorden van de genade, of, aangenaamheid. Zie $Ps. 45:3; Jh. 1:14$.> over de aangename woorden, die uit zijn mond voortkwamen: en zeiden, $Jh. 6:42$ Is deze niet de zoon van Jozef?",
+      "source_text": "καὶ πάντες ἐμαρτύρουν αὐτῷ, καὶ ἐθαύμαζον ἐπὶ τοῖς λόγοις τῆς χάριτος τοῖς ἐκπορευομένοις ἐκ τοῦ στόματος αὐτοῦ, καὶ ἔλεγον, Οὐχ οὗτός ἐστιν ὁ Υἱὸς Ἰωσήφ;",
+      "generated_at": "2026-05-10T06:43:42.681664Z",
+      "model": "claude-opus-4-7",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 23,
+      "original": "Ende hy seyde tot haer, Ghy sult sonder twijffel tot my <Gr. dese parabel.> dit spreeckwoort seggen, Medicijnmeester geneest u selven: al wat wy gehoort hebben, $Matth. 4.13.$ dat in <Daer Christus sijne woonplaetse voor desen genomen hadde, ende vele mirakelen gedaen, Matth. 4.13. ende 11.23.> Capernaum geschiet is, doet [dat] oock hier in uw’ vaderlant.",
+      "modernized": "En hij zei tot hen: U zult ongetwijfeld tot mij <Grieks: deze parabel.> dit spreekwoord zeggen, Medicijnmeester, genees uzelf; al wat wij gehoord hebben, $Mt. 4:13$ dat in <Waar Christus voorheen zijn woonplaats genomen had, en vele wonderen gedaan, $Mt. 4:13; 11:23$.> Kapernaum gebeurd is, doet [dat] ook hier in uw vaderland.",
+      "source_text": "καὶ εἶπε πρὸς αὐτούς, Πάντως ἐρεῖτέ μοι τὴν παραβολὴν ταύτην, Ἰατρέ, θεράπευσον σεαυτόν· ὅσα ἠκούσαμεν γενόμενα ἐν τῇ Καπερναούμ, ποίησον καὶ ὧδε ἐν τῇ πατρίδι σου.",
+      "generated_at": "2026-05-10T06:44:32.157406Z",
+      "model": "claude-opus-4-7",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 24,
+      "original": "Ende hy seyde, Voorwaer ick segge u, $Matth. 13.57. Marc. 6.4. Ioan. 4.44.$ dat geen <D. Leeraer des woorts Godts.> Propheet aengenaem en is in sijn vaderlant.",
+      "modernized": "En hij zei: Voorwaar, ik zeg u, $Mt. 13:57; Mk. 6:4; Jh. 4:44$ dat geen <Dat is, Leraar van het woord van God.> Profeet aangenaam is in zijn vaderland.",
+      "source_text": "εἶπε δέ, Ἀμὴν λέγω ὑμῖν ὅτι οὐδεὶς προφήτης δεκτός ἐστιν ἐν τῇ πατρίδι αὐτοῦ.",
+      "generated_at": "2026-05-10T06:45:04.705139Z",
+      "model": "claude-opus-4-7",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 25,
+      "original": "Maer ick segge u in der waerheyt, Daer waren $1.Reg. 17.7. Iacob. 5.17.$ vele weduwen in Israël in de dagen Elie, doe den hemel drie jaren ende ses maenden <D. sonder regenen, 1.Reg. 17.1, 7.> gesloten was: soo dat daer grooten hongers noot wiert over het geheele lant.",
+      "modernized": "Maar ik zeg u, naar waarheid, er waren $1Kn. 17:7; Jk. 5:17$ vele weduwen in Israël in de dagen van Elia, toen de hemel drie jaar en zes maanden <Dat is, zonder regen, $1Kn. 17:1,7$.> gesloten was: zodat er grote hongersnood kwam over het gehele land.",
+      "source_text": "ἐπ’ ἀληθείας δὲ λέγω ὑμῖν, πολλαὶ χῆραι ἦσαν ἐν ταῖς ἡμέραις Ἠλίου ἐν τῷ Ἰσραήλ, ὅτε ἐκλείσθη ὁ οὐρανὸς ἐπὶ ἔτη τρία καὶ μῆνας ἕξ, ὡς ἐγένετο λιμὸς μέγας ἐπὶ πᾶσαν τὴν γῆν·",
+      "generated_at": "2026-05-10T07:15:00Z",
+      "model": "claude-opus-4-7",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 26,
+      "original": "Ende tot geene van haer en wiert Elias gesonden, dan na Sarepta <D. liggende onder het gebiedt der stadt Sidon.> Sidonis, tot een vrouwe, [die] weduwe [was.]",
+      "modernized": "En tot geen van hen werd Elia gezonden, dan naar Sarepta <Dat is, dat onder het gebied van de stad Sidon ligt.> bij Sidon, tot een vrouw, [die] weduwe [was].",
+      "source_text": "καὶ πρὸς οὐδεμίαν αὐτῶν ἐπέμφθη Ἠλίας, εἰ μὴ εἰς Σάρεπτα τῆς Σιδῶνος πρὸς γυναῖκα χήραν.",
+      "generated_at": "2026-05-10T07:16:30Z",
+      "model": "claude-opus-4-7",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 27,
+      "original": "Ende daer waren $2.Reg. 5.14.$ vele melaetsche in Israël <Ofte, onder den Propheet Eliseus.> ten tijden des Propheten Elisei, ende geen van haer en wiert gereynight dan Naaman de Syrier.",
+      "modernized": "En er waren $2Kn. 5:14$ vele melaatsen in Israël ten tijde van de Profeet Elisa <Of, onder de Profeet Elisa.>, en geen van hen werd gereinigd dan Naäman de Syriër.",
+      "source_text": "καὶ πολλοὶ λεπροὶ ἦσαν ἐπὶ Ἐλισσαίου τοῦ προφήτου ἐν τῷ Ἰσραήλ· καὶ οὐδεὶς αὐτῶν ἐκαθαρίσθη, εἰ μὴ Νεεμὰν ὁ Σύρος.",
+      "generated_at": "2026-05-10T07:18:00Z",
+      "model": "claude-opus-4-7",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 28,
+      "original": "Ende sy wierden alle in de Synagoge met toorne vervult, als sy dit hoorden.",
+      "modernized": "En zij werden allen in de Synagoge met toorn vervuld, toen zij dit hoorden.",
+      "source_text": "καὶ ἐπλήσθησαν πάντες θυμοῦ ἐν τῇ συναγωγῇ, ἀκούοντες ταῦτα,",
+      "generated_at": "2026-05-10T06:52:38.209182Z",
+      "model": "claude-opus-4-7",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 29,
+      "original": "Ende opstaende wierpen sy hem uyt buyten de stadt, ende leydden hem op den top des berghs, op den welcken hare stadt gebouwt was, om hem van de steylte af te werpen.",
+      "modernized": "En zij stonden op, wierpen hem de stad uit, en leidden hem op de top van de berg waarop hun stad gebouwd was, om hem van de steilte af te werpen.",
+      "source_text": "καὶ ἀναστάντες ἐξέβαλον αὐτὸν ἔξω τῆς πόλεως, καὶ ἤγαγον αὐτὸν ἕως τῆς ὀφρύος τοῦ ὄρους ἐφ’ οὗ ἡ πόλις αὐτῶν ᾠκοδόμητο, εἰς τὸ κατακρημνίσαι αὐτόν.",
+      "generated_at": "2026-05-10T06:52:38.209331Z",
+      "model": "claude-opus-4-7",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 30,
+      "original": "Maer hy door het midden van haer <Namelick, hare oogen door sijne Goddelicke kracht houdende, datse hem niet en sagen, ofte haer wederhoudende, alsoo sijne ure noch niet gekomen en was, Ioan. c. 7. vers 30.> doorgegaen zijnde gingh wech.",
+      "modernized": "Maar hij ging door het midden van hen <Namelijk, hetzij dat hij door zijn Goddelijke kracht hun ogen vasthield zodat zij hem niet zagen, hetzij dat hij hen weerhield, omdat zijn ure nog niet gekomen was, $Jh. 7:30$.> heen, en ging weg.",
+      "source_text": "αὐτὸς δὲ διελθὼν διὰ μέσου αὐτῶν ἐπορεύετο.",
+      "generated_at": "2026-05-10T06:52:38.209334Z",
+      "model": "claude-opus-4-7",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 31,
+      "original": "$Matth. 4.13. Marc. 1.21.$ Ende hy quam af tot Capernaum, een stadt van Galilea, ende leerde haer op de Sabbathdagen.",
+      "modernized": "$Mt. 4:13; Mk. 1:21$ En hij kwam af tot Kapernaum, een stad van Galilea, en onderwees hen op de Sabbatdagen.",
+      "source_text": "Καὶ κατῆλθεν εἰς Καπερναοὺμ πόλιν τῆς Γαλιλαίας· καὶ ἦν διδάσκων αὐτοὺς ἐν τοῖς σάββασι.",
+      "generated_at": "2026-05-10T06:55:08.211313Z",
+      "model": "claude-opus-4-7",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 32,
+      "original": "$Matth. 7.29. Marc. 1.22.$ Ende sy versloegen haer over sijne leere, want sijn woort was <Gr. in macht, D. van groot aensien ende kracht, Matth. cap. 7. vers 29.> met macht.",
+      "modernized": "$Mt. 7:29; Mk. 1:22$ En zij stonden versteld over zijn leer, want zijn woord was <Grieks: in macht, dat is, van groot aanzien en kracht, $Mt. 7:29$.> met macht.",
+      "source_text": "καὶ ἐξεπλήσσοντο ἐπὶ τῇ διδαχῇ αὐτοῦ, ὅτι ἐν ἐξουσίᾳ ἦν ὁ λόγος αὐτοῦ.",
+      "generated_at": "2026-05-10T06:55:47.915594Z",
+      "model": "claude-opus-4-7",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 33,
+      "original": "$Marc. 1.23.$ Ende in de Synagoge was een mensche hebbende eenen geest <D. die eenen onreynen duyvel was.> eens onreynen duyvels, ende riep uyt met grooter stemme,",
+      "modernized": "$Mk. 1:23$ En in de Synagoge was een mens die een geest <Dat is, die een onreine duivel was.> van een onreine duivel had, en hij riep met luide stem,",
+      "source_text": "καὶ ἐν τῇ συναγωγῇ ἦν ἄνθρωπος ἔχων πνεῦμα δαιμονίου ἀκαθάρτου, καὶ ἀνέκραξε φωνῇ μεγάλῃ,",
+      "generated_at": "2026-05-10T06:56:22.021949Z",
+      "model": "claude-opus-4-7",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 34,
+      "original": "Seggende, Laet af, wat hebben wy met u [te doen,] ghy Iesu Nazarener? Zijt ghy gekomen om ons te verderven? Ick kenne u wie ghy zijt, [namelick] <D. de Salighmaker, die daer toe van Godt geheylight ofte afgesondert is, Ioan. 10.36.> de Heylige Godts.",
+      "modernized": "En zei: Laat af, wat hebben wij met u [te doen,] u Jezus van Nazareth? Bent u gekomen om ons te verderven? Ik ken u, wie u bent, [namelijk] <Dat is, de Zaligmaker, die daartoe door God geheiligd of afgezonderd is, $Jh. 10:36$.> de Heilige van God.",
+      "source_text": "λέγων, Ἔα, τί ἡμῖν καὶ σοί, Ἰησοῦ Ναζαρηνέ; ἦλθες ἀπολέσαι ἡμᾶς; οἶδά σε τίς εἶ, ὁ ἅγιος τοῦ Θεοῦ.",
+      "generated_at": "2026-05-10T06:59:16Z",
+      "model": "claude-opus-4-7",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 35,
+      "original": "Ende Iesus bestrafte hem, seggende, <Gr. wort gemuyl-bant. Siet de aent. op Marc. 1.25.> Swijght stil, ende gaet van hem uyt. Ende de duyvel hem in het midden geworpen hebbende, voer van hem uyt, sonder hem yet <Of, te quetsen.> te beschadigen.",
+      "modernized": "En Jezus bestrafte hem en zei: <Grieks: word gemuilband. Zie de aantekening op $Mk. 1:25$.> Zwijg stil, en ga uit hem weg. En nadat de duivel hem in het midden geworpen had, ging hij uit hem weg, zonder hem iets <Of, te kwetsen.> aan te doen.",
+      "source_text": "καὶ ἐπετίμησεν αὐτῷ ὁ Ἰησοῦς, λέγων, Φιμώθητι, καὶ ἔξελθε ἐξ αὐτοῦ. καὶ ῥίψαν αὐτὸν τὸ δαιμόνιον εἰς τὸ μέσον ἐξῆλθεν ἀπ’ αὐτοῦ, μηδὲν βλάψαν αὐτόν.",
+      "generated_at": "2026-05-10T06:59:48Z",
+      "model": "claude-opus-4-7",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "subject": "concordantie 'nemen'",
+          "reason": "False-friend: 'uitgaan van' (modern primair = 'aannemen') / 'uitvaren' (modern = 'afvaren / lashen') vermeden — exorcisme-context vereist 'uit hem weggaan'."
+        }
+      ]
+    },
+    {
+      "verse_number": 36,
+      "original": "Ende daer quam een verbaestheyt over alle, ende sy spraken te samen tot malkanderen, seggende, Wat woort is dit, dat hy met macht ende kracht den onreynen geesten gebiedt, ende sy varen uyt?",
+      "modernized": "En er kwam een verbazing over allen, en zij spraken samen tot elkaar en zeiden: Wat is dit voor een woord, dat hij met macht en kracht de onreine geesten gebiedt, en zij weggaan?",
+      "source_text": "καὶ ἐγένετο θάμβος ἐπὶ πάντας, καὶ συνελάλουν πρὸς ἀλλήλους, λέγοντες, Τίς ὁ λόγος οὗτος, ὅτι ἐν ἐξουσίᾳ καὶ δυνάμει ἐπιτάσσει τοῖς ἀκαθάρτοις πνεύμασι, καὶ ἐξέρχονται;",
+      "generated_at": "2026-05-10T07:00:31Z",
+      "model": "claude-opus-4-7",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "subject": "uitvaren → weggaan",
+          "reason": "Concordantie met v35: SV 'varen uyt' → 'weggaan' (vermijdt modern 'uitgaan' = socializing)."
+        }
+      ]
+    },
+    {
+      "verse_number": 37,
+      "original": "Ende het geruchte van hem gingh uyt in alle plaetsen des omliggenden lants.",
+      "modernized": "En het gerucht over hem ging uit naar alle plaatsen van het omliggende land.",
+      "source_text": "καὶ ἐξεπορεύετο ἦχος περὶ αὐτοῦ εἰς πάντα τόπον τῆς περιχώρου.",
+      "generated_at": "2026-05-10T07:05:04.288687+00:00",
+      "model": "claude-opus-4-7",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 38,
+      "original": "$Matth. 8.14. Marc. 1.29.$ Ende [Jesus] opgestaen zijnde uyt de Synagoge, gingh in het huys <Namel. Petri. Siet Matth. 8.14.> Simonis: ende Simonis wijfs moeder was met een groote kortse bevangen, ende sy baden hem voor haer.",
+      "modernized": "$Mt. 8:14; Mk. 1:29$ En toen [Jezus] opgestaan was uit de Synagoge, ging hij in het huis <Namelijk, van Petrus. Zie $Mt. 8:14$.> van Simon; en de schoonmoeder van Simon was met een zware koorts bevangen, en zij vroegen hem voor haar.",
+      "source_text": "Ἀναστὰς δὲ ἐκ τῆς συναγωγῆς, εἰσῆλθεν εἰς τὴν οἰκίαν Σίμωνος· ἡ πενθερὰ δὲ τοῦ Σίμωνος ἦν συνεχομένη πυρετῷ μεγάλῳ· καὶ ἠρώτησαν αὐτὸν περὶ αὐτῆς.",
+      "generated_at": "2026-05-10T07:05:04.289864+00:00",
+      "model": "claude-opus-4-7",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 39,
+      "original": "Ende staende <Ofte, over haer. Namelick, met sijn hooft over haer buygende, om haer aen te spreken.> boven haer, bestrafte hy de kortse, ende [de kortse] verliet haer: ende sy van stonden aen opstaende diende haerlieden.",
+      "modernized": "En staande <Of, over haar. Namelijk, met zijn hoofd over haar buigend, om haar aan te spreken.> boven haar, bestrafte hij de koorts, en [de koorts] verliet haar; en zij stond onmiddellijk op en diende hen.",
+      "source_text": "καὶ ἐπιστὰς ἐπάνω αὐτῆς, ἐπετίμησε τῷ πυρετῷ, καὶ ἀφῆκεν αὐτήν· παραχρῆμα δὲ ἀναστᾶσα διηκόνει αὐτοῖς.",
+      "generated_at": "2026-05-10T07:05:04.290873+00:00",
+      "model": "claude-opus-4-7",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 40,
+      "original": "$Matth. 8.16. Marc. 1.32.$ Ende <D. als de Sabbath over was. siet Marc. 1.32.> als de sonne onder gingh, alle die krancke hadden, met verscheydene sieckten [bevangen,] brachten die tot hem, $Marc. 7.32. ende 8.23, 25.$ ende hy leyde een yegelick van haer de handen op, ende genas deselve.",
+      "modernized": "$Mt. 8:16; Mk. 1:32$ En <dat is, toen de Sabbat voorbij was. Zie $Mk. 1:32$.> toen de zon onderging, brachten allen die zieken hadden, met verschillende ziekten [bevangen,] die tot hem; $Mk. 7:32; 8:23,25$ en hij legde een ieder van hen de handen op, en genas hen.",
+      "source_text": "Δύνοντος δὲ τοῦ ἡλίου, πάντες ὅσοι εἶχον ἀσθενοῦντας νόσοις ποικίλαις ἤγαγον αὐτοὺς πρὸς αὐτόν· ὁ δὲ ἑνὶ ἑκάστῳ αὐτῶν τὰς χεῖρας ἐπιθεὶς ἐθεράπευσεν αὐτούς.",
+      "generated_at": "2026-05-10T07:09:05.139878Z",
+      "model": "claude-opus-4-7",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 41,
+      "original": "$Marc. 1.34. ende 3.11.$ Ende daer voeren oock duyvelen uyt van velen, roepende, ende seggende, Ghy zijt de Christus, de Sone Godts. Ende [haer] bestraffende en liet hy die niet <Of, seggen dat sy wisten dat hy die Christus was. De reden hier van siet Marc. 1.25.> spreken, om dat sy wisten dat hy de Christus was.",
+      "modernized": "$Mk. 1:34; 3:11$ En er gingen ook duivels uit velen weg, die schreeuwden en zeiden: U bent de Christus, de Zoon van God. En hij bestrafte [hen] en liet hen niet <Of, zeggen dat zij wisten dat hij de Christus was. De reden hiervan zie $Mk. 1:25$.> spreken, omdat zij wisten dat hij de Christus was.",
+      "source_text": "ἐξήρχετο δὲ καὶ δαιμόνια ἀπὸ πολλῶν, κράζοντα καὶ λέγοντα ὅτι Σὺ εἶ ὁ Χριστὸς ὁ Υἱὸς τοῦ Θεοῦ. καὶ ἐπιτιμῶν οὐκ εἴα αὐτὰ λαλεῖν, ὅτι ᾔδεισαν τὸν Χριστὸν αὐτὸν εἶναι.",
+      "generated_at": "2026-05-10T07:09:06.139878Z",
+      "model": "claude-opus-4-7",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 42,
+      "original": "$Marc. 1.35.$ Ende als het dagh wiert, gingh hy uyt ende trock na <D. een eensame plaetse, om alleen te zijn.> een woeste plaetse: ende de scharen sochten hem, ende quamen tot by hem, ende hielden hem op, dat hy van haer niet en soude wech gaen.",
+      "modernized": "$Mk. 1:35$ En toen het dag werd, ging hij naar buiten en trok naar <dat is, een eenzame plaats, om alleen te zijn.> een woeste plaats; en de scharen zochten hem, en kwamen tot bij hem, en hielden hem op, dat hij niet van hen weg zou gaan.",
+      "source_text": "Γενομένης δὲ ἡμέρας, ἐξελθὼν ἐπορεύθη εἰς ἔρημον τόπον, καὶ οἱ ὄχλοι ἐζήτουν αὐτόν, καὶ ἦλθον ἕως αὐτοῦ, καὶ κατεῖχον αὐτὸν τοῦ μὴ πορεύεσθαι ἀπ’ αὐτῶν.",
+      "generated_at": "2026-05-10T07:09:07.139878Z",
+      "model": "claude-opus-4-7",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 43,
+      "original": "Maer hy seyde tot haer, Ick moet oock andere steden <Gr. het Koninckrijcke Godts Euangelizeeren.> ’t Euangelium des Koninckrijcks Godts verkondigen: want daer toe ben ick <Namelick, van Godt den Vader.> uytgesonden.",
+      "modernized": "Maar hij zei tot hen: Ik moet ook andere steden <Grieks: het Koninkrijk Gods Evangeliseren.> het Evangelie van het Koninkrijk Gods verkondigen; want daartoe ben ik <Namelijk, door God de Vader.> uitgezonden.",
+      "source_text": "ὁ δὲ εἶπε πρὸς αὐτοὺς ὅτι Καὶ ταῖς ἑτέραις πόλεσιν εὐαγγελίσασθαί με δεῖ τὴν βασιλείαν τοῦ Θεοῦ· ὅτι εἰς τοῦτο ἀπέσταλμαι.",
+      "generated_at": "2026-05-10T07:11:38.882137Z",
+      "model": "claude-opus-4-7",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 44,
+      "original": "Ende hy predickte in de Synagogen van Galilea.",
+      "modernized": "En hij predikte in de Synagogen van Galilea.",
+      "source_text": "Καὶ ἦν κηρύσσων ἐν ταῖς συναγωγαῖς τῆς Γαλιλαίας.",
+      "generated_at": "2026-05-10T07:11:38.882258Z",
+      "model": "claude-opus-4-7",
+      "memory_examples_used": 5
+    }
+  ]
+}

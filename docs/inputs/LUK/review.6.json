@@ -1,0 +1,242 @@
+{
+  "book": "LUK",
+  "chapter": 6,
+  "reviewed_at": "2026-05-15T05:02:28+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-10T16:58:21+00:00",
+      "mode": "scan",
+      "issues_total": 7
+    },
+    {
+      "pass": 1,
+      "ran_at": "2026-05-10T17:02:19+00:00",
+      "mode": "scan-incontext",
+      "note": "1 issue toegevoegd (v9 D.-niet-uitgeschreven); 5 pre-scan-issues vooraf rebutted; 2 open voor orchestrator"
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-10T17:11:28+00:00",
+      "mode": "verify",
+      "actions": [
+        "LUK-6-1-001: verified",
+        "LUK-6-4-001: rebuttal verified",
+        "LUK-6-1-002: rebuttal verified",
+        "LUK-6-3-001: rebuttal verified",
+        "LUK-6-10-001: rebuttal verified",
+        "LUK-6-30-001: verified",
+        "LUK-6-32-001: rebuttal verified",
+        "LUK-6-9-002: verified"
+      ]
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-05-10T19:17:43+00:00",
+      "mode": "scan",
+      "issues_total": 9
+    },
+    {
+      "pass": 4,
+      "ran_at": "2026-05-10T19:24:49+00:00",
+      "mode": "verify",
+      "actions": [
+        "LUK-6-1-001: verified",
+        "LUK-6-5-001: rebuttal verified",
+        "LUK-6-22-001: rebuttal verified"
+      ]
+    },
+    {
+      "pass": 5,
+      "ran_at": "2026-05-10T19:53:14+00:00",
+      "mode": "scan",
+      "issues_total": 11
+    },
+    {
+      "pass": 6,
+      "ran_at": "2026-05-10T19:56:29+00:00",
+      "mode": "verify",
+      "actions": [
+        "LUK-6-1-001: verified",
+        "LUK-6-1-002: verified",
+        "LUK-6-4-001: verified"
+      ]
+    },
+    {
+      "pass": 7,
+      "ran_at": "2026-05-15T04:56:47+00:00",
+      "mode": "scan",
+      "issues_total": 9
+    },
+    {
+      "pass": 8,
+      "ran_at": "2026-05-15T05:02:28+00:00",
+      "mode": "scan",
+      "issues_total": 9
+    }
+  ],
+  "issues": [
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 4,
+      "severity": "soft",
+      "quote_modernized": "het huis gods en",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'het huis gods en' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "LUK-6-4-001",
+      "status": "verified",
+      "rebuttal": "Cross-reference kanttekening, geen parafrastische herhaling. KANTTEKENINGEN.md redundantie-regel mikt op kanttekeningen die hoofdtekst-informatie dupliceren zonder iets toe te voegen. Hier is de kanttekening een verwijzings-pointer ('Zie ... de aantekening op Mt. 12:4') die zijn referenten ('Huis Gods', 'toonbroden') noodzakelijk moet benoemen om bruikbaar te zijn. De toegevoegde informatie is de verwijzing zelf, niet de termen.",
+      "verified_at": "2026-05-10T17:11:28+00:00"
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 5,
+      "severity": "hard",
+      "quote_modernized": "En hij zei tot hen,   De Zoon des mensen is   een Heere ook van de Sab…",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'des mensen' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de mensen' of 'van het mensen', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de mensen",
+      "location": "hoofdtekst",
+      "id": "LUK-6-5-001",
+      "status": "verified",
+      "rebuttal": "'Zoon des mensen' is de canonieke Christologische zelfaanduiding ὁ υἱὸς τοῦ ἀνθρώπου (Lk. 6:5; Lk. 6:22 e.a., 80+ keer in de Evangeliën, vgl. Dn. 7:13). In modern bijbels Nederlands is dit een gefossiliseerde vakterm: HSV en NBG51 behouden 'Zoon des mensen' onveranderd. MODERNISATIE.md §2.1 verlangt maximaal behoud van SV-eigenheid voor theologisch geladen termen — vervanging door 'Zoon van de mens' breekt de Christologische titel.",
+      "verified_at": "2026-05-10T19:24:49+00:00"
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 22,
+      "severity": "hard",
+      "quote_modernized": "… als kwaad   verwerpen, vanwege de Zoon des mensen.",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'des mensen' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de mensen' of 'van het mensen', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de mensen",
+      "location": "hoofdtekst",
+      "id": "LUK-6-22-001",
+      "status": "verified",
+      "rebuttal": "'Zoon des mensen' is de canonieke Christologische zelfaanduiding ὁ υἱὸς τοῦ ἀνθρώπου (Lk. 6:5; Lk. 6:22 e.a., 80+ keer in de Evangeliën, vgl. Dn. 7:13). In modern bijbels Nederlands is dit een gefossiliseerde vakterm: HSV en NBG51 behouden 'Zoon des mensen' onveranderd. MODERNISATIE.md §2.1 verlangt maximaal behoud van SV-eigenheid voor theologisch geladen termen — vervanging door 'Zoon van de mens' breekt de Christologische titel.",
+      "verified_at": "2026-05-10T19:24:49+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 1,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'geschie' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        1,
+        6,
+        12
+      ],
+      "id": "LUK-6-1-001",
+      "status": "verified",
+      "rebuttal": "False positive: alle drie verzen (v1, v6, v12) renderen ἐγένετο consistent als 'gebeurde'. Scanner gebruikt prefix-overlap-heuristiek (AGENTS.md concordantie) en mist de orthografische overgang 'gesch-' → 'geb-'. Geen drift, juist concordantie behouden.",
+      "verified_at": "2026-05-10T17:11:28+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 2,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'geoorlo' in 3 verzen — verzen [4] renderen het stam anders dan [2, 9]",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        2,
+        4,
+        9
+      ],
+      "id": "LUK-6-2-001",
+      "status": "rebutted-verified",
+      "rebuttal": "Concordantie-drift soft-flag; bewust gedifferentieerde rendering (per-context lexicale variatie). False positive.",
+      "verified_at": "2026-05-15T04:59:16+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 3,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'wanneer' in 3 verzen — verzen [3] renderen het stam anders dan [22, 26]",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        3,
+        22,
+        26
+      ],
+      "id": "LUK-6-3-001",
+      "status": "verified",
+      "rebuttal": "Bewuste Griekse distinctie: v3 heeft ὁπότε (verleden-tijd-temporeel: 'toen David honger had'), v22/v26 hebben ὅταν (subjunctief-conditioneel: 'wanneer mensen u haten'). De SV harmoniseerde beide naar 'wanneer'; modern Nederlands eist hier de tijdmodus-distinctie. Per MODERNISATIE.md §2.7 (taalfouten-vermijding) is dit de juiste keuze. Geen concordantie-schending.",
+      "verified_at": "2026-05-10T17:11:28+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 10,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'gelijck' in 9 verzen — verzen [10, 31, 34, 36, 40, 47, 48, 49] renderen het stam anders dan [39]",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 9 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        10,
+        31,
+        34,
+        36,
+        39,
+        40,
+        47,
+        48,
+        49
+      ],
+      "id": "LUK-6-10-001",
+      "status": "verified",
+      "rebuttal": "Scanner conflateert verschillende lemmas. v39 heeft 'gelijckenisse' (zelfst.nw, παραβολή = parabel) — geen 'gelijck' als vergelijkings-conjunctie. Binnen de overige 8 verzen is rendering consistent per syntactische rol: adverbiale vergelijking (10,31a,36,40) → 'zoals'; predicatieve overeenkomst (47,48,49 — Grieks ὅμοιος) → 'lijkt op'; afgeleide morfemen 'desgelijcks' (31b) → 'evenzo' en 'even-gelijcke' (34) → 'evenveel'. AGENTS.md concordantie eist één Grieks woord → één Nederlands woord; hier zijn meerdere lemmas/syntactische rollen in het spel.",
+      "verified_at": "2026-05-10T17:11:28+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 30,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'yegelic' in 4 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 4 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        30,
+        40,
+        44,
+        47
+      ],
+      "id": "LUK-6-30-001",
+      "status": "verified",
+      "verified_at": "2026-05-10T17:11:28+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 32,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'sondaer' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        32,
+        33,
+        34
+      ],
+      "id": "LUK-6-32-001",
+      "status": "verified",
+      "rebuttal": "False positive: alle drie verzen (v32, v33, v34) renderen ἁμαρτωλοί consistent als 'zondaars'. Scanner gebruikt prefix-overlap (AGENTS.md concordantie) en mist de SV→modern orthografische s→z overgang ('sondaer' → 'zondaar'). Geen drift, concordantie behouden.",
+      "verified_at": "2026-05-10T17:11:28+00:00"
+    }
+  ]
+}

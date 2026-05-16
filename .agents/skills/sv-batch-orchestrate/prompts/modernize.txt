@@ -1,0 +1,72 @@
+Werkdirectory: <REPO_ROOT>   # uitvoer van `git rev-parse --show-toplevel`
+                              # Hoofdrepository of een worktree onder
+                              # .../SVmodernisatie2026.wt/<suffix>/.
+
+Opdracht: moderniseer <BOEK> <H>:<V_START>-<V_EIND> volgens de
+sv-modernize skill (.agents/skills/sv-modernize/SKILL.md).
+
+De orchestrator heeft de batch-branch al klaargezet vanaf
+origin/main. Schrijf gewoon op de huidige branch — niet checkouten.
+
+Lees AGENTS.md voor projectconventies (vertaalprincipes, archaïsme-
+tabel, kanttekeningconventies, hoofdletterdiscipline, uitvoerschema,
+drempel-tests in MODERNISATIE.md §2.7 en ARCHAISMEN.md).
+
+KRITIEKE INSTRUCTIES — STRIKT:
+- Doe ABSOLUUT GEEN git-acties: GEEN git checkout, GEEN git commit,
+  GEEN git stash, GEEN git branch, GEEN git add, GEEN git status,
+  GEEN git diff, GEEN gh-commando's. Niet impliciet, niet expliciet.
+  De git-workflow is volledig de verantwoordelijkheid van de
+  orchestrator buiten jouw context.
+- Raak ALLEEN deze bestanden aan:
+  - output/<BOEK>/<BOEK>.<H>.json (upsert per vers)
+  - eventueel scripts/lint_carryovers.py (STOPLIST-uitbreiding voor
+    aantoonbare carry-over-false-positives uit deze batch)
+  - eventueel docs/diff_<BOEK>_<H>.json en docs/inputs/<BOEK>/
+    (alleen als auto-gegenereerd door bestaande scripts)
+  RAAK NIET AAN: docs/index.html, andere viewer-bestanden,
+  regelbestandsdocumentatie (AGENTS.md, ARCHAISMEN.md, MODERNISATIE.md, etc.),
+  andere skills, validate.py, lint_archaismen.py, lint_false_friends.py.
+  Zie je een verbeterpunt buiten je reikwijdte? Rapporteer in je eindrapport,
+  pas niets aan.
+- Wegschrijven van output JSON gaat UITSLUITEND via
+  `scripts/upsert_verse.py` (subcommands `verse`, `intro`, `epilogue`).
+  Dit script leest input.sv voor `original`+`source_text` byte-exact,
+  zet de timestamp, schrijft met 2-space indent en `ensure_ascii=False`.
+  Voorbeelden:
+    uv run python scripts/upsert_verse.py verse --book <BOEK> --chapter <H> \
+        --verse <N> --modernized "<tekst>" --examples <K> \
+        [--notes-json '[{...}]']
+    uv run python scripts/upsert_verse.py intro --book <BOEK> --chapter <H> \
+        --modernized "<tekst>"
+    uv run python scripts/upsert_verse.py epilogue --book <BOEK> --chapter <H> \
+        --modernized "<tekst>"
+  STRIKT VERBODEN: ad-hoc Python-heredocs zoals
+  `uv run python - <<'EOF' ... EOF`, `python -c "..."` of inline scripts
+  die output JSON bewerken. Dit voorkomt indent-fouten, NFC-drift op
+  `source_text`, en ~20 regels ruis per vers in de subagent-log.
+  Notes geef je via `--notes-json` als JSON-array; ontbreekt de vlag,
+  dan krijgt het vers geen `notes`-veld.
+
+Eindeisen:
+- Schrijf elk vers/intro/epilogue via `scripts/upsert_verse.py`.
+- Voeg elk gepasseerd vers toe aan de memory-DB
+  (uv run python scripts/memory.py add --from-output ... --verse N --terse).
+- Geef een eindrapport van MAX 2 regels:
+    DONE <BOEK> <H>:<V_START>-<V_EIND> verses=<aantal_geschreven> \
+        validator=<PASS|FAIL_v<N>> lint=<0|N> notes=<0|N>
+    [optioneel] BLOCKER: <vers + issue>  (alleen bij hard residu na 3× retry)
+  Géén verbose uitleg — de output-JSON, validator-logs en
+  upsert-stdoutregels spreken voor zich. Een review-subagent draait
+  daarna alsnog validator+lint+semantic onafhankelijk.
+
+Stop na het eindrapport.
+
+---
+NIEUWE-POGING-ADDENDUM (alleen invoegen bij een retry; orchestrator voegt
+dit blok zelf toe vóór "Stop na het eindrapport"):
+
+LET OP — dit is een nieuwe poging. De vorige poging faalde:
+- Vers <N>: <validator-issue-tekst>
+Pak dit gericht aan, schrijf opnieuw, valideer en bevestig in je rapport
+dat de issue is opgelost.

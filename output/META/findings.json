@@ -1,0 +1,36 @@
+{
+  "book": "LUK",
+  "generated_at": "2026-05-16T00:00:00Z",
+  "chapters": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24],
+  "min_freq": 2,
+  "issues": [
+    {
+      "id": "META-LUK-22-15-001",
+      "verse": 15,
+      "chapter": 22,
+      "category": "carryover",
+      "severity": "hard",
+      "quote_modernized": "grotelijks begeerd dit Pascha met u te eten, eer ik lijd.",
+      "hsv_quote": "Ik heb er vurig naar verlangd dit Pascha met u te eten, voordat Ik ga lijden.",
+      "rule_reference": "MODERNISATIE.md §2.7 / ARCHAISMEN.md (drempel-archaïsme 'eer' = 'voordat')",
+      "explanation": "Voegwoord 'eer' (= 'voordat') is een drempel-archaïsme: moderne lezer leest 'eer' primair als 'honor', niet als temporeel voegwoord. SV1657 'eer dat ick lijde' is letterlijk gehandhaafd in SV2026; HSV moderniseert naar 'voordat'. Confusion-test §2.7 zakt: 'eer' heeft dominant andere betekenis in modern NL.",
+      "proposed_fix": "voordat ik lijd",
+      "location": "hoofdtekst",
+      "status": "open"
+    },
+    {
+      "id": "META-LUK-22-61-002",
+      "verse": 61,
+      "chapter": 22,
+      "category": "carryover",
+      "severity": "hard",
+      "quote_modernized": "Eer de haan zal gekraaid hebben, zult u mij driemaal verloochenen.",
+      "hsv_quote": "Voordat de haan gekraaid zal hebben, zult u Mij driemaal verloochend hebben.",
+      "rule_reference": "MODERNISATIE.md §2.7 / ARCHAISMEN.md (drempel-archaïsme 'eer' = 'voordat')",
+      "explanation": "Idem 'eer' als temporeel voegwoord aan zinsbegin. Confusion-test §2.7 zakt. Cross-vers consistent met v15: zelfde lemma binnen één hoofdstuk.",
+      "proposed_fix": "Voordat de haan gekraaid zal hebben, zult u mij driemaal verloochenen.",
+      "location": "hoofdtekst",
+      "status": "open"
+    }
+  ]
+}

@@ -1,0 +1,291 @@
+{
+  "book": "LUK",
+  "chapter": 9,
+  "reviewed_at": "2026-05-15T05:02:28+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-11T08:27:42+00:00",
+      "mode": "scan",
+      "issues_total": 15
+    },
+    {
+      "pass": 1,
+      "ran_at": "2026-05-11T08:29:23+00:00",
+      "mode": "in-context-review",
+      "issues_total": 15
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-11T08:30:42+00:00",
+      "mode": "verify",
+      "actions": [
+        "LUK-9-22-001: rebuttal verified",
+        "LUK-9-25-001: rebuttal verified",
+        "LUK-9-26-001: rebuttal verified",
+        "LUK-9-27-001: rebuttal verified",
+        "LUK-9-44-001: rebuttal verified",
+        "LUK-9-48-001: rebuttal verified",
+        "LUK-9-54-001: verified",
+        "LUK-9-56-001: rebuttal verified",
+        "LUK-9-58-001: rebuttal verified",
+        "LUK-9-7-001: rebuttal verified",
+        "LUK-9-7-002: rebuttal verified",
+        "LUK-9-17-001: rebuttal verified",
+        "LUK-9-18-001: rebuttal verified",
+        "LUK-9-29-001: rebuttal verified",
+        "LUK-9-31-001: rebuttal verified"
+      ]
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-05-15T04:56:47+00:00",
+      "mode": "scan",
+      "issues_total": 14
+    },
+    {
+      "pass": 4,
+      "ran_at": "2026-05-15T05:02:28+00:00",
+      "mode": "scan",
+      "issues_total": 14
+    }
+  ],
+  "issues": [
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 22,
+      "severity": "hard",
+      "quote_modernized": "En hij zei:   De Zoon des mensen moet veel lijden, en   verwor…",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'des mensen' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de mensen' of 'van het mensen', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de mensen",
+      "location": "hoofdtekst",
+      "id": "LUK-9-22-001",
+      "status": "verified",
+      "rebuttal": "'Zoon des mensen' is gefossiliseerde bijbeluitdrukking voor Gr. ὁ υἱὸς τοῦ ἀνθρώπου. Ook in NBV21 zo bewaard ('Mensenzoon' of 'Zoon des mensen'); MODERNISATIE.md §2.7 erkent lexicale fossielen die als zelfstandige theologische term functioneren — niet productief-genitief 'des'.",
+      "verified_at": "2026-05-11T08:30:42+00:00"
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 25,
+      "severity": "soft",
+      "quote_modernized": "Want wat baat het een mens, indien hij de gehele wereld zou winnen, …",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "LUK-9-25-001",
+      "status": "verified",
+      "rebuttal": "'indien' faalt productiviteitstest niet in formeel/hoog register (juridisch, contracten, retorische wijsheidsvragen). MODERNISATIE.md §2.7 — productiviteit wordt per register beoordeeld. Vers 25 is exact zo'n retorische vraag ('Want wat baat het...indien...').",
+      "verified_at": "2026-05-11T08:30:42+00:00"
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 26,
+      "severity": "hard",
+      "quote_modernized": "… hebben geschaamd, voor die zal de Zoon des mensen zich schamen, wanneer hij kom…",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'des mensen' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de mensen' of 'van het mensen', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de mensen",
+      "location": "hoofdtekst",
+      "id": "LUK-9-26-001",
+      "status": "verified",
+      "rebuttal": "'Zoon des mensen' is gefossiliseerde bijbeluitdrukking voor Gr. ὁ υἱὸς τοῦ ἀνθρώπου. Ook in NBV21 zo bewaard ('Mensenzoon' of 'Zoon des mensen'); MODERNISATIE.md §2.7 erkent lexicale fossielen die als zelfstandige theologische term functioneren — niet productief-genitief 'des'.",
+      "verified_at": "2026-05-11T08:30:42+00:00"
+    },
+    {
+      "category": "§2.3b bijwoord-coda",
+      "verse": 27,
+      "severity": "soft",
+      "quote_modernized": "  En ik zeg u waarlijk: er zijn sommigen van hen die h…",
+      "rule_reference": "MODERNISATIE.md §2.3b",
+      "explanation": "'waarlijk:' aan zinseind — verifieer of dit bijwoord niet als coda achteraf is blijven hangen ('wandelende … onberispelick' → 'wandelden onberispelijk in …').",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "LUK-9-27-001",
+      "status": "verified",
+      "rebuttal": "'waarlijk:' is geen §2.3b-coda (eind-bijwoord). Staat in formule-aankondiging 'ik zeg u waarlijk:' (Gr. ἀμὴν λέγω ὑμῖν) midden in de zin, gevolgd door object-DP via dubbele punt. Regex-misfire op interpunctie. SV-bibels conform.",
+      "verified_at": "2026-05-11T08:30:42+00:00"
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 44,
+      "severity": "hard",
+      "quote_modernized": "…deze woorden in uw oren:   Want de Zoon des mensen zal overgeleverd worden in de…",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'des mensen' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de mensen' of 'van het mensen', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de mensen",
+      "location": "hoofdtekst",
+      "id": "LUK-9-44-001",
+      "status": "verified",
+      "rebuttal": "'Zoon des mensen' is gefossiliseerde bijbeluitdrukking voor Gr. ὁ υἱὸς τοῦ ἀνθρώπου. Ook in NBV21 zo bewaard ('Mensenzoon' of 'Zoon des mensen'); MODERNISATIE.md §2.7 erkent lexicale fossielen die als zelfstandige theologische term functioneren — niet productief-genitief 'des'.",
+      "verified_at": "2026-05-11T08:30:42+00:00"
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 48,
+      "severity": "hard",
+      "quote_modernized": "…nederigste. Namelijk, in het Koninkrijk der hemelen, $Mt. 18:1,2$.",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'der hemelen' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de hemelen' of 'van het hemelen', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de hemelen",
+      "location": "kanttekening",
+      "id": "LUK-9-48-001",
+      "status": "verified",
+      "rebuttal": "'Koninkrijk der hemelen' is gefossiliseerde bijbeluitdrukking voor Gr. βασιλεία τῶν οὐρανῶν. Standaard in NL bijbelvertalingen (NBV21, HSV); MODERNISATIE.md §2.7 erkent lexicale fossielen — geen productieve genitief.",
+      "verified_at": "2026-05-11T08:30:42+00:00"
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 56,
+      "severity": "hard",
+      "quote_modernized": "  Want de Zoon des mensen is niet gekomen om de zielen …",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'des mensen' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de mensen' of 'van het mensen', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de mensen",
+      "location": "hoofdtekst",
+      "id": "LUK-9-56-001",
+      "status": "verified",
+      "rebuttal": "'Zoon des mensen' is gefossiliseerde bijbeluitdrukking voor Gr. ὁ υἱὸς τοῦ ἀνθρώπου. Ook in NBV21 zo bewaard ('Mensenzoon' of 'Zoon des mensen'); MODERNISATIE.md §2.7 erkent lexicale fossielen die als zelfstandige theologische term functioneren — niet productief-genitief 'des'.",
+      "verified_at": "2026-05-11T08:30:42+00:00"
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 58,
+      "severity": "hard",
+      "quote_modernized": "…ogels van de hemel nesten: maar de Zoon des mensen heeft niet, waar hij het hoof…",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'des mensen' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de mensen' of 'van het mensen', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de mensen",
+      "location": "hoofdtekst",
+      "id": "LUK-9-58-001",
+      "status": "verified",
+      "rebuttal": "'Zoon des mensen' is gefossiliseerde bijbeluitdrukking voor Gr. ὁ υἱὸς τοῦ ἀνθρώπου. Ook in NBV21 zo bewaard ('Mensenzoon' of 'Zoon des mensen'); MODERNISATIE.md §2.7 erkent lexicale fossielen die als zelfstandige theologische term functioneren — niet productief-genitief 'des'.",
+      "verified_at": "2026-05-11T08:30:42+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 7,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'ioannes' in 4 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 4 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        7,
+        19,
+        49,
+        54
+      ],
+      "id": "LUK-9-7-001",
+      "status": "verified",
+      "rebuttal": "Scanner-prefix-heuristiek mist orthografische SV→modern overgangen: Io→Jo (Ioannes→Johannes), ie→je (Ierusalem→Jeruzalem), s→z (seggende→zeggend, aengesicht→aangezicht), wier→wer (wierden→werden), of bewuste woordkeuze 'geschieden→gebeuren'. Geen daadwerkelijke drift — sv-memory bevestigt consistente keuze in alle voorkomens. v7: Ioannes → Johannes consistent.",
+      "verified_at": "2026-05-11T08:30:42+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 7,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'geschie' in 9 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 9 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        7,
+        18,
+        28,
+        33,
+        35,
+        36,
+        37,
+        51,
+        57
+      ],
+      "id": "LUK-9-7-002",
+      "status": "rebutted-verified",
+      "rebuttal": "Concordantie-drift soft-flag; bewust gedifferentieerde rendering (per-context lexicale variatie). False positive.",
+      "verified_at": "2026-05-15T04:59:16+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 17,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'wierden' in 4 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 4 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        17,
+        34,
+        43,
+        51
+      ],
+      "id": "LUK-9-17-001",
+      "status": "verified",
+      "rebuttal": "Scanner-prefix-heuristiek mist orthografische SV→modern overgangen: Io→Jo (Ioannes→Johannes), ie→je (Ierusalem→Jeruzalem), s→z (seggende→zeggend, aengesicht→aangezicht), wier→wer (wierden→werden), of bewuste woordkeuze 'geschieden→gebeuren'. Geen daadwerkelijke drift — sv-memory bevestigt consistente keuze in alle voorkomens. v17: 'wierden' → 'werden' spelling-modernisatie.",
+      "verified_at": "2026-05-11T08:30:42+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 18,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'seggend' in 4 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 4 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        18,
+        22,
+        35,
+        38
+      ],
+      "id": "LUK-9-18-001",
+      "status": "verified",
+      "rebuttal": "Scanner-prefix-heuristiek mist orthografische SV→modern overgangen: Io→Jo (Ioannes→Johannes), ie→je (Ierusalem→Jeruzalem), s→z (seggende→zeggend, aengesicht→aangezicht), wier→wer (wierden→werden), of bewuste woordkeuze 'geschieden→gebeuren'. Geen daadwerkelijke drift — sv-memory bevestigt consistente keuze in alle voorkomens. v18: 'seggende' → finiete vorm of 'zeggend' (§2.3); s→z prefix-mismatch.",
+      "verified_at": "2026-05-11T08:30:42+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 29,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'aengesi' in 4 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 4 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        29,
+        51,
+        52,
+        53
+      ],
+      "id": "LUK-9-29-001",
+      "status": "verified",
+      "rebuttal": "Scanner-prefix-heuristiek mist orthografische SV→modern overgangen: Io→Jo (Ioannes→Johannes), ie→je (Ierusalem→Jeruzalem), s→z (seggende→zeggend, aengesicht→aangezicht), wier→wer (wierden→werden), of bewuste woordkeuze 'geschieden→gebeuren'. Geen daadwerkelijke drift — sv-memory bevestigt consistente keuze in alle voorkomens. v29: 'aengesicht' → 'aangezicht' spelling-modernisatie.",
+      "verified_at": "2026-05-11T08:30:42+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 31,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'ierusal' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        31,
+        51,
+        53
+      ],
+      "id": "LUK-9-31-001",
+      "status": "verified",
+      "rebuttal": "Scanner-prefix-heuristiek mist orthografische SV→modern overgangen: Io→Jo (Ioannes→Johannes), ie→je (Ierusalem→Jeruzalem), s→z (seggende→zeggend, aengesicht→aangezicht), wier→wer (wierden→werden), of bewuste woordkeuze 'geschieden→gebeuren'. Geen daadwerkelijke drift — sv-memory bevestigt consistente keuze in alle voorkomens. v31: 'Ierusalem' → 'Jeruzalem' spelling-modernisatie.",
+      "verified_at": "2026-05-11T08:30:42+00:00"
+    }
+  ]
+}

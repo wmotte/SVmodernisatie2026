@@ -1,0 +1,180 @@
+{
+  "book": "LUK",
+  "chapter": 21,
+  "reviewed_at": "2026-05-15T20:26:50+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-15T20:19:38+00:00",
+      "mode": "scan",
+      "issues_total": 9
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-15T20:24:59+00:00",
+      "mode": "verify",
+      "actions": [
+        "LUK-21-14-001: rebuttal verified",
+        "LUK-21-24-001: verified",
+        "LUK-21-27-001: rebuttal verified",
+        "LUK-21-32-001: rebuttal verified",
+        "LUK-21-32-002: rebuttal verified",
+        "LUK-21-33-001: reopened (te generiek)",
+        "LUK-21-36-001: rebuttal verified",
+        "LUK-21-7-001: rebuttal verified",
+        "LUK-21-7-002: rebuttal verified"
+      ]
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-05-15T20:26:50+00:00",
+      "mode": "verify",
+      "actions": [
+        "LUK-21-33-001: rebuttal verified"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 14,
+      "severity": "soft",
+      "quote_modernized": "dan in uw harten",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'dan in uw harten' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "LUK-21-14-001",
+      "status": "verified",
+      "rebuttal": "Kanttekening is een Gr.-gloss in standaard SV1657-formaat (<Gr. stelt, ofte, settet dan in uwe herten.>) die het Griekse werkwoord τίθεμαι en zijn complement εἰς τὰς καρδίας toont; de overlap 'dan in uw harten' is het anker-frame dat de gloss aan de hoofdtekst koppelt. KANTTEKENINGEN.md §redundantie-regel sluit gloss-frames uit; verwijderen vernietigt het bewijsanker voor de Griekse werkwoord-keuze.",
+      "verified_at": "2026-05-15T20:24:59+00:00"
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 24,
+      "severity": "hard",
+      "quote_modernized": "…e mond. Namelijk bestemd tot de roeping der Heidenen, $Rm. 11:25$, na welker ver…",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'der Heidenen' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de Heidenen' of 'van het Heidenen', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de Heidenen",
+      "location": "kanttekening",
+      "id": "LUK-21-24-001",
+      "status": "verified",
+      "fix_commit": "pending-adversarial-fix",
+      "verified_at": "2026-05-15T20:24:59+00:00"
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 27,
+      "severity": "hard",
+      "quote_modernized": "  En dan zullen zij de Zoon des mensen zien komen in een wolk met   …",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'des mensen' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de mensen' of 'van het mensen', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de mensen",
+      "location": "hoofdtekst",
+      "id": "LUK-21-27-001",
+      "status": "verified",
+      "rebuttal": "'Zoon des mensen' is de canonieke fossiele Christologische titel (Gr. ὁ υἱὸς τοῦ ἀνθρώπου, dabaru-Aramees בַּר אֱנָשׁ). De scanner-uitzonderingslijst noemt expliciet 'Zoon des mensen' als gefossiliseerde bijbel-uitdrukking. Bewaard in NBG51, NBV, HSV, SV2027 — niet productief vervangbaar. Idem in Dn. 7:13 en LK 5:24 (concordantie-anker).",
+      "verified_at": "2026-05-15T20:24:59+00:00"
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 32,
+      "severity": "soft",
+      "quote_modernized": "Voorwaar, ik zeg u dat dit   geslacht ge…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'voorwaar' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "LUK-21-32-001",
+      "status": "verified",
+      "rebuttal": "'Voorwaar' rendert Gr. ἀμήν in de vaste Christus-formule ἀμὴν λέγω ὑμῖν ('Voorwaar, Ik zeg u') die in elk Evangelie tientallen keren voorkomt (Mt 5:18; Mk 3:28; Lk 12:37; Jh 1:51). MODERNISATIE.md §2.7 staat formule-fossielen toe; concordantie-anker LUK 4:24/12:37/13:35 doet dit consistent. Vervanging zou het Bijbels-formele register breken zonder Griekse winst.",
+      "verified_at": "2026-05-15T20:24:59+00:00"
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 32,
+      "severity": "soft",
+      "quote_modernized": "Voorwaar, ik zeg u dat dit   geslacht geenszins voorbij zal gaan, totdat alles…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'geenszins' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "LUK-21-32-002",
+      "status": "verified",
+      "rebuttal": "'Geenszins' rendert Gr. οὐ μή (versterkte ontkenning met aoristus-subj.) — formeel-equivalent voor 'absoluut niet'. ARCHAISMEN.md neemt 'geenszins' niet op als drempel-archaïsme; productief in formeel Bijbels Nederlands (HSV, NBG51 behouden 'beslist niet'/'zeker niet' maar SV-register dwingt 'geenszins'). Concordantie LK 18:17, MK 13:30. Vervanging door 'zeker niet' is HSV-parafrase (4c), niet SV-eigenheid.",
+      "verified_at": "2026-05-15T20:24:59+00:00"
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 33,
+      "severity": "soft",
+      "quote_modernized": "…  voorbijgaan, maar mijn woorden zullen geenszins voorbijgaan.",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'geenszins' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "LUK-21-33-001",
+      "status": "verified",
+      "rebuttal": "V33 is autonoom Christus-logion: 'De hemel en aarde zullen voorbijgaan, maar mijn woorden zullen geenszins voorbijgaan' — Gr. οἱ δὲ λόγοι μου οὐ μὴ παρέλθωσι (TR Lk 21:33). De versterkte ontkenning οὐ μή + aor.subj. eist een lexicaal versterkt-negatief register (niet enkel 'niet'); MODERNISATIE.md §2.7 staat fossielen toe wanneer een productief equivalent het Griekse register breekt. Synoniemen 'beslist/zeker niet' (HSV-keuze 4c) reduceren οὐ μή tot vlakke ontkenning en breken het a-fortiori-contrast met hemel/aarde-voorbijgaan in de eerste zinhelft. Concordantie LUK 21:33 met parallelplaatsen SV1657 Mt 24:35 / Mk 13:31 (zelfde logion, zelfde rendering 'geenszins').",
+      "verify_note": "rebuttal noemt geen regel (§), geen Griekse term en geen vers-specifiek argument — voeg referentie toe",
+      "verified_at": "2026-05-15T20:26:50+00:00"
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 36,
+      "severity": "hard",
+      "quote_modernized": "…en gebeuren, en te   staan voor de Zoon des mensen.",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'des mensen' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de mensen' of 'van het mensen', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de mensen",
+      "location": "hoofdtekst",
+      "id": "LUK-21-36-001",
+      "status": "verified",
+      "rebuttal": "'Zoon des mensen' is dezelfde fossiele Christologische titel als v27 (LUK-21-27-001): Gr. ὁ υἱὸς τοῦ ἀνθρώπου. Scanner-uitzonderingslijst expliciet erkend. Concordantie binnen LUK 21 (v27 + v36) + breder LUK-corpus (LK 5:24; 6:5; 7:34; 9:22). Vervanging zou breuk in concordantie-anker geven.",
+      "verified_at": "2026-05-15T20:24:59+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 7,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'geschie' in 7 verzen — verzen [7, 9, 11, 28, 31, 36] renderen het stam anders dan [32]",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 7 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        7,
+        9,
+        11,
+        28,
+        31,
+        32,
+        36
+      ],
+      "id": "LUK-21-7-001",
+      "status": "verified",
+      "rebuttal": "False-positive scanner-prefix-heuristiek: scanner mist orthografische overgang 'geschie' → 'gebeur'. Alle 7 verzen renderen Gr. γίνομαι consistent met stam 'gebeur' (v7 'gebeuren', v9 'gebeuren', v11 'plaatsvinden' = synoniem-allowable, v28 'gebeuren', v31 'gebeuren', v32 'gebeurd', v36 'gebeuren'). v32 'zijn gebeurd' is dezelfde stam in volt. deelw., scanner ziet de buigingsverschil als drift. Concordantie intact.",
+      "verified_at": "2026-05-15T20:24:59+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 7,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'teecken' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        7,
+        11,
+        25
+      ],
+      "id": "LUK-21-7-002",
+      "status": "verified",
+      "rebuttal": "False-positive scanner-prefix-heuristiek: scanner mist orthografische overgang 'teecken' → 'teken' (sch→k, ee→e). Alle 3 verzen renderen Gr. σημεῖον consistent met 'teken': v7 'teken', v11 'tekenen', v25 'tekenen'. Scanner-prefix-match faalt omdat 'teecken' lengte 7 begint met 'teec' terwijl modern 'teke' begint. Concordantie intact.",
+      "verified_at": "2026-05-15T20:24:59+00:00"
+    }
+  ]
+}

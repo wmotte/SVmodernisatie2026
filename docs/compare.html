@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-759RQ3B53S"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-759RQ3B53S');
+    </script>
+    <script>
+        (function() {
+            const saved = localStorage.getItem('theme');
+            const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+            if (saved === 'dark' || (!saved && prefersDark)) {
+                document.documentElement.classList.add('dark');
+            }
+        })();
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SV2027 Vergelijker</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = { darkMode: 'class' };
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/diff_match_patch/20121119/diff_match_patch.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;700&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+        .bible-text { font-family: 'Libre Baskerville', serif; line-height: 1.8; }
+
+        /* Onze modernisatie + kanttekeningen: net wat zwaardere tekst dan extern. */
+        .ours-text { text-shadow: 0 0 0.35px currentColor; }
+        .ours-notes ol { text-shadow: 0 0 0.3px currentColor; color: #4b5563; }
+        .dark .ours-notes ol { color: #d1d5db; }
+        
+        /* Pastel diff highlights */
+        .diff-added { background-color: #dcfce7; color: #166534; }
+        .diff-removed { background-color: #fee2e2; color: #991b1b; }
+        .dark .diff-added { background-color: #064e3b; color: #34d399; }
+        .dark .diff-removed { background-color: #7f1d1d; color: #f87171; }
+        
+        .marker { color: #f97316; font-size: 0.8em; font-weight: bold; vertical-align: super; margin: 0 2px; cursor: help; }
+        .footnote-list { font-size: 0.85em; color: #6b7280; border-top: 1px solid #e5e7eb; padding-top: 0.75rem; margin-top: 1rem; }
+        .dark .footnote-list { border-color: #374151; color: #9ca3af; }
+
+        /* Notes panel — zelfde look-and-feel als viewer.html */
+        .notes-panel { border-left: 4px solid #fbbf24; background-color: #fffbeb; border-radius: 0 0.25rem 0.25rem 0; margin-top: 1rem; }
+        .dark .notes-panel { border-color: #f59e0b; background-color: rgba(120, 53, 15, 0.2); }
+        .notes-toggle { width: 100%; display: flex; align-items: center; justify-content: space-between; padding: 0.5rem 0.75rem; text-align: left; font-size: 0.875rem; font-weight: 500; color: #78350f; background: transparent; border: 0; cursor: pointer; border-radius: 0 0.25rem 0.25rem 0; }
+        .notes-toggle:hover { background-color: #fef3c7; }
+        .dark .notes-toggle { color: #fef3c7; }
+        .dark .notes-toggle:hover { background-color: rgba(120, 53, 15, 0.3); }
+        .notes-body { padding: 0 0.75rem 0.75rem 0.75rem; display: flex; flex-direction: column; gap: 0.75rem; }
+        .note-item { font-size: 0.75rem; color: #78350f; }
+        .dark .note-item { color: #fef3c7; }
+        .note-badge { display: inline-block; padding: 0.1rem 0.5rem; border-radius: 0.25rem; font-size: 0.625rem; text-transform: uppercase; letter-spacing: 0.05em; margin-right: 0.5rem; }
+        .badge-twijfel { background-color: #fef3c7; color: #92400e; }
+        .dark .badge-twijfel { background-color: rgba(120, 53, 15, 0.4); color: #fde68a; }
+        .badge-afwijking { background-color: #ffe4e6; color: #9f1239; }
+        .dark .badge-afwijking { background-color: rgba(136, 19, 55, 0.4); color: #fecdd3; }
+        .badge-context { background-color: #e0f2fe; color: #075985; }
+        .dark .badge-context { background-color: rgba(7, 89, 133, 0.4); color: #bae6fd; }
+        .badge-default { background-color: #e5e7eb; color: #1f2937; }
+        .dark .badge-default { background-color: #374151; color: #e5e7eb; }
+
+        /* Scroll to top button */
+        #scroll-top-btn {
+            position: fixed;
+            bottom: 1.5rem;
+            right: 1.5rem;
+            z-index: 50;
+            padding: 0.75rem;
+            border-radius: 9999px;
+            background-color: #0284c7;
+            color: white;
+            border: 0;
+            cursor: pointer;
+            box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -4px rgba(0,0,0,0.1);
+            transition: background-color 0.2s;
+        }
+        #scroll-top-btn:hover { background-color: #0369a1; }
+    </style>
+</head>
+<body class="bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-gray-200 min-h-screen">
+    <div id="app" class="max-w-5xl mx-auto px-4 py-8">
+        <header class="mb-12 flex flex-col md:flex-row justify-between items-center gap-4">
+            <div>
+                <h1 class="text-3xl font-bold text-sky-600 dark:text-sky-400">SV2027 Vergelijker</h1>
+                <p id="chapter-label" class="text-lg font-medium text-gray-500"></p>
+                <p class="text-xs text-gray-400 mt-1">SV1657 ↔ Initiatief SV2027 ↔ SV-modernisatie 2026 &nbsp;·&nbsp; <a class="underline hover:text-purple-500" href="compare_hsv.html">→ HSV-versie</a> &nbsp;·&nbsp; <a class="underline hover:text-green-500" href="compare_all.html">→ alle vier</a></p>
+            </div>
+            
+            <div class="flex items-center gap-4">
+                <nav class="flex rounded-lg shadow-sm gap-2">
+                    <select id="book-select" aria-label="Kies boek" class="px-4 py-2 bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-700 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors focus:outline-none focus:ring-2 focus:ring-sky-500"></select>
+                    <select id="chapter-select" aria-label="Kies hoofdstuk" class="px-4 py-2 bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-700 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors focus:outline-none focus:ring-2 focus:ring-sky-500"></select>
+                </nav>
+                <button id="theme-toggle" aria-label="Wissel donker/licht" class="px-3 py-2 bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-700 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors">
+                    <svg id="theme-icon-sun" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 hidden dark:block" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2m0 14v2M5.64 5.64l1.42 1.42m9.88 9.88l1.42 1.42M3 12h2m14 0h2M5.64 18.36l1.42-1.42m9.88-9.88l1.42-1.42M12 7a5 5 0 100 10 5 5 0 000-10z"/></svg>
+                    <svg id="theme-icon-moon" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 block dark:hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
+                </button>
+                <div id="metadata" class="text-right text-xs text-gray-500 font-mono"></div>
+            </div>
+        </header>
+
+        <div id="content" class="space-y-12">
+            <div class="text-center py-24">
+                <p class="animate-pulse">Laden van data...</p>
+            </div>
+        </div>
+        
+        <footer class="mt-24 pt-8 border-t border-gray-200 dark:border-gray-800 text-center text-gray-500 text-xs">
+            <p>Gegenereerd voor SV Modernisatie Project 2026</p>
+        </footer>
+    </div>
+
+    <button id="scroll-top-btn" aria-label="Naar boven" title="Naar boven">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M5 15l7-7 7 7" />
+        </svg>
+    </button>
+
+    <script>
+        const dmp = new diff_match_patch();
+
+        function extractNotes(text) {
+            if (!text) return { cleanText: "", notes: [] };
+            const notes = [];
+            const combinedRegex = /(<.*?>|\$.*?\$)/g;
+            // Use Private Use Area characters (\uE000+) as single-character placeholders
+            // These cannot be split by the diff engine.
+            const cleanText = text.replace(combinedRegex, (match) => {
+                const noteContent = match.replace(/[<>\$]/g, '').trim();
+                notes.push(noteContent);
+                return String.fromCharCode(0xE000 + notes.length - 1);
+            });
+
+            return { cleanText, notes };
+        }
+
+        function stripLeadingVerseNum(text) {
+            if (!text) return text;
+            return text.replace(/^\s*\d+\s+/, '');
+        }
+
+        function renderOriginal(text) {
+            if (!text) return { html: '-', notes: [] };
+            const n = extractNotes(text);
+            const html = n.cleanText
+                .replace(/&/g, '&amp;')
+                .replace(/</g, '&lt;')
+                .replace(/>/g, '&gt;')
+                .replace(/[-]/g, (m) => {
+                    const idx = m.charCodeAt(0) - 0xE000;
+                    const note = n.notes[idx] || "";
+                    return `<span class="marker" title="${note.replace(/"/g, '&quot;')}">[${idx + 1}]</span>`;
+                });
+            return { html, notes: n.notes };
+        }
+
+        function renderDualDiff(text2026, text2027) {
+            const n2026 = extractNotes(stripLeadingVerseNum(text2026));
+            const n2027 = extractNotes(stripLeadingVerseNum(text2027));
+
+            if (!text2026) {
+                const html2027 = n2027.cleanText
+                    .replace(/&/g, '&amp;')
+                    .replace(/</g, '&lt;')
+                    .replace(/>/g, '&gt;')
+                    .replace(/[\uE000-\uF8FF]/g, (m) => {
+                        const idx = m.charCodeAt(0) - 0xE000;
+                        const note = n2027.notes[idx] || "";
+                        return `<span class="marker" title="${note.replace(/"/g, '&quot;')}">[${idx + 1}]</span>`;
+                    });
+                return { html2026: null, html2027, notes2026: [], notes2027: n2027.notes };
+            }
+
+            const diffs = dmp.diff_main(n2026.cleanText, n2027.cleanText);
+            dmp.diff_cleanupSemantic(diffs);
+
+            let raw2026 = "";
+            let raw2027 = "";
+
+            diffs.forEach(part => {
+                const type = part[0];
+                const text = part[1].replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+
+                if (type === 0) { // Equal
+                    raw2026 += text;
+                    raw2027 += text;
+                } else if (type === 1) { // Added in 2027
+                    raw2027 += `<span class="diff-added">${text}</span>`;
+                } else if (type === -1) { // Removed from 2027 (meaning it's in 2026)
+                    raw2026 += `<span class="diff-removed">${text}</span>`;
+                }
+            });
+
+            // Re-inject markers using the single-character mapping
+            const inject = (html, notes) => {
+                return html.replace(/[\uE000-\uF8FF]/g, (m) => {
+                    const idx = m.charCodeAt(0) - 0xE000;
+                    const note = notes[idx] || "";
+                    return `<span class="marker" title="${note.replace(/"/g, '&quot;')}">[${idx + 1}]</span>`;
+                });
+            };
+
+            return { 
+                html2026: inject(raw2026, n2026.notes), 
+                html2027: inject(raw2027, n2027.notes), 
+                notes2026: n2026.notes, 
+                notes2027: n2027.notes 
+            };
+        }
+
+        function escapeHtml(s) {
+            return String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+        }
+
+        function renderNoteText(s) {
+            return escapeHtml(String(s ?? '').replace(/\$([^$]+)\$/g, '$1'));
+        }
+
+        function renderNotesPanel(notes, verseNumber) {
+            if (typeof notes === 'string') notes = [{ type: 'context', reason: notes }];
+            if (!Array.isArray(notes) || notes.length === 0) return '';
+            const normalized = notes.map(n => (typeof n === 'string') ? { type: 'context', reason: n } : n);
+            const panelId = `notes-panel-v${verseNumber}`;
+            const items = normalized.map(note => {
+                const type = note.type || 'note';
+                const badgeClass = ['twijfel', 'afwijking', 'context'].includes(type) ? `badge-${type}` : 'badge-default';
+                const lines = [];
+                lines.push(`<div><span class="note-badge ${badgeClass}">${escapeHtml(type)}</span>${note.subject ? `<span class="font-semibold">${renderNoteText(note.subject)}</span>` : ''}</div>`);
+                if (note.context) lines.push(`<div><span class="font-medium">Context:</span> ${renderNoteText(note.context)}</div>`);
+                if (note.choice) lines.push(`<div><span class="font-medium">Keuze:</span> ${renderNoteText(note.choice)}</div>`);
+                if (Array.isArray(note.alternatives) && note.alternatives.length) {
+                    lines.push(`<div><span class="font-medium">Alternatieven:</span> ${note.alternatives.map(renderNoteText).join(' / ')}</div>`);
+                }
+                if (note.reason) lines.push(`<div><span class="font-medium">Reden:</span> ${renderNoteText(note.reason)}</div>`);
+                return `<div class="note-item">${lines.join('')}</div>`;
+            }).join('');
+
+            return `
+                <div class="notes-panel">
+                    <button class="notes-toggle" type="button" data-target="${panelId}" aria-expanded="false">
+                        <span>Notes (${notes.length})</span>
+                        <span class="notes-caret">▸</span>
+                    </button>
+                    <div class="notes-body" id="${panelId}" hidden>${items}</div>
+                </div>
+            `;
+        }
+
+        function createFootnoteSection(notes, title) {
+            if (!notes || notes.length === 0) return "";
+            return `
+                <div class="footnote-list">
+                    <span class="text-[10px] uppercase font-bold block mb-1 opacity-50 text-gray-400">${title}</span>
+                    <ol class="list-decimal list-inside space-y-1 text-gray-500 dark:text-gray-400">
+                        ${notes.map(n => `<li>${n}</li>`).join('')}
+                    </ol>
+                </div>
+            `;
+        }
+
+        const MAX_CHAPTER = { LUK: 22, MRK: 1 };
+        const BOOK_NAMES = { LUK: 'Lucas', MRK: 'Marcus' };
+
+        async function init() {
+            const params = new URLSearchParams(window.location.search);
+            const book = params.get('book') || 'LUK';
+            const chapter = parseInt(params.get('chapter') || '1');
+            const maxCh = MAX_CHAPTER[book] || 1;
+
+            const contentEl = document.getElementById('content');
+            const chapterLabel = document.getElementById('chapter-label');
+
+            const bookSelect = document.getElementById('book-select');
+            for (const b of Object.keys(MAX_CHAPTER)) {
+                const opt = document.createElement('option');
+                opt.value = b;
+                opt.textContent = BOOK_NAMES[b] || b;
+                if (b === book) opt.selected = true;
+                bookSelect.appendChild(opt);
+            }
+            bookSelect.onchange = () => {
+                window.location.search = `?book=${bookSelect.value}&chapter=1`;
+            };
+
+            const chapterSelect = document.getElementById('chapter-select');
+            for (let i = 1; i <= maxCh; i++) {
+                const opt = document.createElement('option');
+                opt.value = i;
+                opt.textContent = `Hoofdstuk ${i}`;
+                if (i === chapter) opt.selected = true;
+                chapterSelect.appendChild(opt);
+            }
+            chapterSelect.onchange = () => {
+                window.location.search = `?book=${book}&chapter=${chapterSelect.value}`;
+                window.scrollTo(0,0);
+            };
+            document.getElementById('theme-toggle').onclick = () => {
+                const isDark = document.documentElement.classList.toggle('dark');
+                localStorage.setItem('theme', isDark ? 'dark' : 'light');
+            };
+
+            contentEl.addEventListener('click', (e) => {
+                const btn = e.target.closest('.notes-toggle');
+                if (!btn) return;
+                const body = document.getElementById(btn.dataset.target);
+                if (!body) return;
+                const open = body.hasAttribute('hidden');
+                if (open) {
+                    body.removeAttribute('hidden');
+                    btn.setAttribute('aria-expanded', 'true');
+                    btn.querySelector('.notes-caret').textContent = '▾';
+                } else {
+                    body.setAttribute('hidden', '');
+                    btn.setAttribute('aria-expanded', 'false');
+                    btn.querySelector('.notes-caret').textContent = '▸';
+                }
+            });
+
+            try {
+                const response = await fetch(`diff_${book}_${chapter}.json`);
+                if (!response.ok) throw new Error(`Hoofdstuk ${chapter} niet gevonden`);
+                const data = await response.json();
+
+                chapterLabel.innerText = `${data.book} ${data.chapter}`;
+
+                contentEl.innerHTML = '';
+
+                // Render Introduction
+                if (data.introduction && (data.introduction.sv2026 || data.introduction.sv2027)) {
+                    const diff = renderDualDiff(data.introduction.sv2026, data.introduction.sv2027);
+                    contentEl.innerHTML += `
+                        <div class="bg-sky-50/50 dark:bg-sky-900/10 rounded-xl p-8 border border-sky-100 dark:border-sky-900/30">
+                            <h3 class="text-center text-xs font-bold mb-8 uppercase tracking-widest text-sky-600 dark:text-sky-400">Inleiding / Kopjes</h3>
+                            <div class="space-y-6">
+                                ${data.introduction.original ? `<div><h4 class="text-[9px] uppercase text-gray-400 mb-1">SV1657</h4><p class="text-xs italic text-gray-500">${data.introduction.original}</p></div>` : ''}
+                                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                                    <div><h4 class="text-[9px] uppercase text-green-500 mb-1">Initiatief SV2027 (extern)</h4><p class="bible-text">${diff.html2027}</p></div>
+                                    <div><h4 class="text-[9px] uppercase text-sky-500 mb-1">SV-modernisatie (dit project)</h4><p class="bible-text ours-text">${diff.html2026 || '-'}</p></div>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                }
+
+                // Render Verses — tonen zodra origineel of één moderne kolom data heeft
+                data.verses.filter(v => v.sv2026 || v.sv2027 || v.original).forEach(v => {
+                    const card = document.createElement('div');
+                    card.className = 'group space-y-4 pb-8 border-b border-gray-200 dark:border-gray-800 last:border-0';
+
+                    const hasSv2027 = !!v.sv2027;
+                    const diff = hasSv2027
+                        ? renderDualDiff(v.sv2026, v.sv2027)
+                        : (() => {
+                            const r = renderOriginal(v.sv2026);
+                            return { html2026: r.html, html2027: null, notes2026: r.notes, notes2027: [] };
+                          })();
+                    const orig = renderOriginal(v.original);
+
+                    card.innerHTML = `
+                        <div class="flex items-center gap-2 mb-2">
+                            <span class="text-lg font-bold text-sky-600">Vers ${v.verse_number}</span>
+                            ${v.status !== 'modernized' ? `<span class="text-[9px] bg-amber-100 dark:bg-amber-900/30 text-amber-700 px-1.5 py-0.5 rounded uppercase font-bold">Pending</span>` : ''}
+                        </div>
+
+                        <div class="space-y-6 pl-4 border-l-2 border-gray-100 dark:border-gray-800">
+                            <!-- Original -->
+                            <div>
+                                <h4 class="text-[9px] uppercase text-gray-400 mb-1">Statenvertaling 1657</h4>
+                                <p class="bible-text text-xl text-gray-500 dark:text-gray-400">${orig.html}</p>
+                            </div>
+
+                            <!-- SV2027 -->
+                            <div>
+                                <h4 class="text-[9px] uppercase text-green-500 mb-1 font-bold">Initiatief SV2027 (extern)</h4>
+                                <p class="bible-text text-xl">${v.sv2027 ? diff.html2027 : `<span class="italic text-gray-400 text-sm">Nog niet beschikbaar bij SV2027</span>`}</p>
+                            </div>
+
+                            <!-- SV2026 -->
+                            <div>
+                                <h4 class="text-[9px] uppercase text-sky-500 mb-1 font-bold">SV-modernisatie (dit project)</h4>
+                                <p class="bible-text text-xl ours-text">
+                                    ${diff.html2026 || `<span class="italic text-gray-400 text-sm">Nog niet gemoderniseerd</span>`}
+                                </p>
+                                ${renderNotesPanel(v.notes, v.verse_number)}
+                            </div>
+                        </div>
+
+                        <!-- Footnotes -->
+                        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 pl-4">
+                            <div>${createFootnoteSection(orig.notes, "Kanttekeningen SV1657")}</div>
+                            <div>${createFootnoteSection(diff.notes2027, "Voetnoten SV2027")}</div>
+                            <div class="ours-notes">${createFootnoteSection(diff.notes2026, "Kanttekeningen SV-modernisatie")}</div>
+                        </div>
+                    `;
+                    contentEl.appendChild(card);
+                });
+
+            } catch (err) {
+                contentEl.innerHTML = `
+                    <div class="bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800 rounded-xl p-12 text-center">
+                        <p class="text-red-700 dark:text-red-300 font-bold text-xl">Data niet gevonden</p>
+                        <p class="text-gray-600 dark:text-gray-400 mt-2">${err.message}</p>
+                        <div class="mt-8 flex justify-center gap-4">
+                             <a href="?book=LUK&chapter=1" class="text-sky-600 underline">Lucas 1</a>
+                             <a href="?book=MRK&chapter=1" class="text-sky-600 underline">Marcus 1</a>
+                        </div>
+                    </div>
+                `;
+            }
+        }
+
+        init();
+
+        // Scroll to top button
+        document.getElementById('scroll-top-btn').addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    </script>
+</body>
+</html>
