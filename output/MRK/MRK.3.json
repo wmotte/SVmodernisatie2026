@@ -277,6 +277,39 @@
       "generated_at": "2026-05-16T16:35:26.260936Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 31,
+      "original": "$Matth. 12.46. Luce 8.19.$ Soo quamen dan sijne <D. bloetverwanten. Siet in d’aent. Matth. 12. vers 46. ende 13.55.> broeders ende sijne moeder: ende buyten staende sonden sy tot hem, ende riepen hem.",
+      "modernized": "$Mt. 12:46; Lk. 8:19$ Zo kwamen dan zijn <Dat is, bloedverwanten. Zie de aantekening bij $Mt. 12:46$ en $Mt. 13:55$.> broers en zijn moeder; en buiten staande zonden zij naar hem toe en riepen hem.",
+      "source_text": "Ἔρχονται οὖν οἱ ἀδελφοὶ καὶ ἡ μήτηρ αὐτοῦ, καὶ ἔξω ἑστῶτες ἀπέστειλαν πρὸς αὐτόν, φωνοῦντες αὐτόν.",
+      "generated_at": "2026-05-16T16:39:11.753838Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "reason": "'iemand' uit hoofdtekst verwijderd (was exegetische toevoeging zonder vierkante haken; SV1657 'sonden sy tot hem' heeft geen expliciet object, evenmin als Gr. 'ἀπέστειλαν πρὸς αὐτόν'). SV-elliptische constructie bewaard."
+        }
+      ]
+    },
+    {
+      "verse_number": 32,
+      "original": "Ende de schare sat rontom hem: ende sy seyden tot hem, Siet, uwe moeder ende uwe broeders daer buyten soecken u.",
+      "modernized": "En de schare zat rondom hem; en zij zeiden tot hem: Zie, uw moeder en uw broers zoeken u daar buiten.",
+      "source_text": "καὶ ἐκάθητο ὄχλος περὶ αὐτόν· εἶπον δὲ αὐτῷ, Ἰδού, ἡ μήτηρ σου καὶ οἱ ἀδελφοί σου ἔξω ζητοῦσί σε.",
+      "generated_at": "2026-05-16T16:39:31.486531Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 33,
+      "original": "Ende hy antwoordde haer, seggende, <Christus en wil hier mede sijn moeder niet verachten, maer toonen dat het geestelick maeghschap in saken der saligheyt gestelt moet worden voor ’t vleeschelick.> Wie is mijne moeder, ofte mijne broeders?",
+      "modernized": "En hij antwoordde hun en zei: <Christus wil hiermee zijn moeder niet verachten, maar tonen dat de geestelijke verwantschap in zaken van de zaligheid boven de vleselijke gesteld moet worden.> Wie is mijn moeder, of mijn broers?",
+      "source_text": "καὶ ἀπεκρίθη αὐτοῖς λέγων, Τίς ἐστιν ἡ μήτηρ μου ἢ οἱ ἀδελφοί μου;",
+      "generated_at": "2026-05-16T16:39:59.808528Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
