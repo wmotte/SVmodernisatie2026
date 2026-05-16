@@ -256,6 +256,7 @@ STOPLIST: frozenset[str] = frozenset({
     "kennis", "knowledge", "drijving", "voren", "zorgvuldig",
     "handelingen",  # bijbelboek (citatie-context) + algemeen woord
     "christenen", "christen", "joden", "jood", "heiden", "heidenen",
+    "belijder", "belijders",  # theologische term — gewoon modern NL ('belijders van het Evangelie')
     # Adjectieven/adverbia
     "groot", "grote", "klein", "kleine", "goed", "goede", "slecht",
     "slechte", "lang", "lange", "kort", "korte", "hoog", "lage", "beter",
