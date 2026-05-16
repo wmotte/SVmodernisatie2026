@@ -34,6 +34,39 @@
       "generated_at": "2026-05-16T14:15:10.654009Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 4,
+      "original": "Ende niet konnende tot hem genaken overmits de schare, ontdeckten sy het <Of, solderinge.> dack daer hy was: ende [dat] <Gr. uytgegraven. Want de daken waren boven plat, ende met gebackene steenen ofte tegelen gedeckt, diese hier uytgroeven. siet Luce 5.19.> opgebroken hebbende, lieten sy het <Gr. Crabbaton, het welck was een licht beddeken, gelijck een matras, daer men des middaeghs plagh op te rusten, ende daer men de siecke veel op plagh te leggen om bequaemlick van de eene plaetse tot d’andere te dragen.> beddeken neder daer de geraeckte op lagh.",
+      "modernized": "En omdat zij niet bij hem konden komen vanwege de schare, legden zij het <Of, zoldering.> dak bloot waar hij was, en nadat zij [dat] <Grieks: uitgegraven. Want de daken waren bovenop plat en met gebakken stenen of tegels gedekt, die zij hier uitgroeven. Zie $Lk. 5:19$.> hadden opengebroken, lieten zij het <Grieks: Krabbaton, dat een licht bedje was, zoals een matras, waar men 's middags placht op te rusten, en waar men de zieke vaak op placht te leggen om hem gemakkelijk van de ene plaats naar de andere te dragen.> bedje neer waar de verlamde op lag.",
+      "source_text": "καὶ μὴ δυνάμενοι προσεγγίσαι αὐτῷ διὰ τὸν ὄχλον, ἀπεστέγασαν τὴν στέγην ὅπου ἦν, καὶ ἐξορύξαντες χαλῶσι τὸν κράββατον ἐφ’ ᾧ ὁ παραλυτικὸς κατέκειτο.",
+      "generated_at": "2026-05-16T14:22:19.169292Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "reason": "False-friend gecorrigeerd: SV 'ontdeckten ... het dack' → 'legden ... het dak bloot'. Modern 'ontdekken' = 'voor het eerst vinden'; de SV-betekenis 'blootleggen/uncoveren' is niet meer productief en zou de zin onleesbaar maken. HSV-spiegel bevestigt ('verwijderden zij de dakbedekking'); we kozen conservatiever 'blootleggen' om de SV-zinsbouw te bewaren."
+        }
+      ]
+    },
+    {
+      "verse_number": 5,
+      "original": "Ende Iesus <Namel. soo des geraeckten, als der gene die hem droegen.> haer geloove siende, seyde tot den geraeckten, Sone, uwe sonden zijn u vergeven.",
+      "modernized": "En toen Jezus <Namelijk, zowel van de verlamde als van degenen die hem droegen.> hun geloof zag, zei hij tot de verlamde: Zoon, uw zonden zijn u vergeven.",
+      "source_text": "ἰδὼν δὲ ὁ Ἰησοῦς τὴν πίστιν αὐτῶν λέγει τῷ παραλυτικῷ, Τέκνον, ἀφέωνταί σοι αἱ ἁμαρτίαι σου.",
+      "generated_at": "2026-05-16T14:22:44.156886Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 6,
+      "original": "Ende sommige van de Schriftgeleerde saten aldaer, ende overdachten in hare herten,",
+      "modernized": "En sommigen van de Schriftgeleerden zaten daar en overlegden in hun harten:",
+      "source_text": "ἦσαν δέ τινες τῶν γραμματέων ἐκεῖ καθήμενοι, καὶ διαλογιζόμενοι ἐν ταῖς καρδίαις αὐτῶν,",
+      "generated_at": "2026-05-16T14:22:53.907272Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }

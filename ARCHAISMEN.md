@@ -130,6 +130,7 @@ trefzeker overbrengt.
 | `de uwe` / `het uwe` (zelfst. possessief) | wat van u is, uw bezit / uw discipelen / uw kant (zelfst. gebruikt poss.) | bestaat in vaste formules ("de uwe" als slotgroet) maar werkt niet idiomatisch in lopend proza | "wat van u is", "die van u", "uw bezit" — alleen handhaven in vaste parallel-formules zoals "al het mijne is van u" (LUK 5:33, 6:30, 15:31) |
 | `ten <ordinaal> dage` | oude dativus-tijdsbepaling | bestaat niet productief in modern Nederlands | "op de N-de dag" (LUK 9:22, 13:32) |
 | `ter ure (van)` | oude dativus-tijdsbepaling | bestaat niet productief in modern Nederlands | "op het uur", "tegen het uur" (LUK 14:17) |
+| `ontdeckten` / `ontdekken` (transitief, fysiek object — dak, hoofd) | blootleggen, onbedekt maken (Gr. ἀποστεγάζω) | dominant modern: "voor het eerst vinden" (discover); fysiek-blootleggende lezing is residueel/literair en werkt niet meer in actief proza | "blootleggen" / "vrijmaken" / "opengooien" (MRK 2:4). Niet uitbreiden naar passieve-revelatie-context (LUK 12:2 `ontdeckt worden` = onthuld worden — daar werkt "ontdekt worden" modern wel door overlap met "aan het licht komen"). |
 
 ### Bewuste uitzonderingen op de drempel
 
