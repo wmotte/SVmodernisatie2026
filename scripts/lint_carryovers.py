@@ -1116,6 +1116,8 @@ STOPLIST: frozenset[str] = frozenset({
     "geschil",        # zelfst.nw. — gewoon modern NL ('in dispuut en geschil'); kanttekening v11
     "afgebroken",     # volt. deelw. van 'afbreken' — gewoon modern NL ('een afgebroken manier van spreken'); kanttekening v12
     "bevestigen",     # ww. infinitief — gewoon modern NL ('met een eed wil bevestigen'); kanttekening v12
+    # MRK 8:16-18 carry-overs (legitiem)
+    "vereelt",        # SV-glosse op Gr. πεπωρωμένην ('vereelt of verweerd'); kanttekening v17 bewaart de SV-gloss-terminologie expliciet (anatomisch 'vereeld/eelt'); geen archaïsme-in-hoofdtekst maar verklarende glosse
 })
 
 
