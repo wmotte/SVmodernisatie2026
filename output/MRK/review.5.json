@@ -1,7 +1,7 @@
 {
   "book": "MRK",
   "chapter": 5,
-  "reviewed_at": "2026-05-17T04:34:08+00:00",
+  "reviewed_at": "2026-05-17T04:35:05+00:00",
   "passes": [
     {
       "pass": 1,
@@ -43,6 +43,12 @@
       "actions": [
         "MRK-5-17-001: verified"
       ]
+    },
+    {
+      "pass": 5,
+      "ran_at": "2026-05-17T04:35:05+00:00",
+      "mode": "verify",
+      "actions": []
     }
   ],
   "issues": [
