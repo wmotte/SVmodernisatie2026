@@ -1125,6 +1125,8 @@ STOPLIST: frozenset[str] = frozenset({
     "beelden",        # infinitief-deel van 'afbeelden' (v25-kanttekening: 'om af te beelden dat onze geestelijke verlichting...') — gewoon modern NL
     # MRK 8:28-30 carry-overs (legitiem)
     "beloofde",       # verleden tijd / volt. deelw. van 'beloven' — gewoon modern NL ('de beloofde Messias'); vgl. STOPLIST 'beloofden' (v29 kanttekening)
+    # MRK 8:34-36 carry-overs (legitiem)
+    "baten",          # ww. infinitief — gewoon modern NL ('wat zou het de mens baten', MRK 8:36); productief in vaste verbindingen ('wat baat het', 'het mag niet baten')
 })
 
 
