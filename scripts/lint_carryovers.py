@@ -1104,6 +1104,11 @@ STOPLIST: frozenset[str] = frozenset({
     "voorleggen",     # gewoon modern NL werkwoord ('ter beoordeling voorleggen'); SV-concordant met v6 ('voorleggen')
     "overschot",      # zelfstandig nw — gewoon modern NL ('het overschot van de brokken'); productief synoniem van 'restant'
     "manden",         # zelfst. nw. meervoud — gewoon modern NL ('zeven manden'); geen archaïsme
+    # MRK 5:41-42 carry-overs (legitiem)
+    "talitha",        # Aramese transliteratie — eigennaam-achtig; SV bewaart bewust de Syrische woorden van Christus (v41, kanttekening verklaart dit)
+    "kumi",           # Aramese transliteratie — eigennaam-achtig; SV bewaart bewust de Syrische woorden van Christus (v41)
+    "syrische",       # taal-/volkbnw. (verbogen vorm) — gewoon modern NL (v41, kanttekening 'de Syrische woorden'); vgl. STOPLIST 'syrisch'
+    "wandelde",       # ww. verleden tijd 'wandelen' — gewoon modern NL (v42, 'stond op en wandelde'); vgl. STOPLIST 'wandelen' (Hebraïsme-behoud)
 })
 
 
