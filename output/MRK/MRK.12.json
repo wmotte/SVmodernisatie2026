@@ -378,6 +378,45 @@
           "reason": "Origineel is chapter-only multi-ref (capp.). Validator REF_RE eist H:V; gekozen openingsverzen van beide hoofdstukken om de hoofdstuk-verwijzing intact te houden zonder content toe te voegen."
         }
       ]
+    },
+    {
+      "verse_number": 34,
+      "original": "Ende Iesus siende dat hy verstandelick geantwoort hadde seyde tot hem, Ghy en zijt <Overmits dese sijne belijdenisse uyt een leersaem gemoedt scheen voort te komen, vers 32. ende met de leere Christi dus verre over een quam: ende de bekentenisse van de wet een middel konde zijn om hem verder te brengen tot kennisse van hemselven, ende alsoo voorts tot Christum, Gal. 3.19.> niet verre van het Koninckrijcke Godts. Ende niemant en durfde hem meer vragen.",
+      "modernized": "En toen Jezus zag dat hij verstandig geantwoord had, zei hij tot hem: U bent <Omdat deze zijn belijdenis uit een leerzaam gemoed scheen voort te komen, vers 32, en met de leer van Christus tot dusver overeenkwam, en de bekentenis van de wet een middel kon zijn om hem verder te brengen tot kennis van zichzelf, en zo voorts tot Christus, $Gl. 3:19$.> niet ver van het Koninkrijk van God. En niemand durfde hem meer te vragen.",
+      "source_text": "καὶ ὁ Ἰησοῦς ἰδὼν αὐτὸν ὅτι νουνεχῶς ἀπεκρίθη, εἶπεν αὐτῷ, Οὐ μακρὰν εἶ ἀπὸ τῆς βασιλείας τοῦ Θεοῦ. καὶ οὐδεὶς οὐκέτι ἐτόλμα αὐτὸν ἐπερωτῆσαι.",
+      "generated_at": "2026-05-17T20:14:48.466956Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "tekst": "siende (participium praesens) vermeden conform §2.3 ALWAYS_BAD: En toen Jezus zag dat (HSV-spiegel). verstandelick → verstandig (klassiek bijwoord). niemant en durfde → niemand durfde (concordant LUK 20:40 modernisering). Koninckrijcke Godts → Koninkrijk van God."
+        }
+      ]
+    },
+    {
+      "verse_number": 35,
+      "original": "$Matth. 22.41. Luce 20.41.$ Ende Iesus antwoordde ende seyde, leerende in den tempel, Hoe seggen de Schriftgeleerde, dat de Christus een Sone Davids is?",
+      "modernized": "$Mt. 22:41; Lk. 20:41$ En Jezus antwoordde en zei, terwijl hij in de tempel onderwees: Hoe zeggen de Schriftgeleerden dat de Christus een zoon van David is?",
+      "source_text": "Καὶ ἀποκριθεὶς ὁ Ἰησοῦς ἔλεγε, διδάσκων ἐν τῷ ἱερῷ, Πῶς λέγουσιν οἱ γραμματεῖς ὅτι ὁ Χριστὸς Υἱός ἐστι Δαβίδ;",
+      "generated_at": "2026-05-17T20:14:09.243117Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 36,
+      "original": "Want $Psalm 110.1. Actor. 2.34. 1.Corinth. 15.25. Hebr. 1.13. ende 10.13.$ David selve heeft door den Heyligen Geest geseght, De Heere heeft geseght tot mijnen Heere, <Siet hier van breeder Matth. 22. vers 44.> Sit aen mijne rechter [hant,] tot dat ick uwe vyanden sal geset hebben tot een voetbanck uwer voeten.",
+      "modernized": "Want $Ps. 110:1; Hd. 2:34; 1Kor. 15:25; Hb. 1:13; 10:13$ David zelf heeft door de Heilige Geest gezegd: De Heere heeft tot mijn Heere gezegd: <Zie hierover uitvoeriger $Mt. 22:44$.> Zit aan mijn rechter [hand,] totdat ik uw vijanden zal gezet hebben tot een voetbank van uw voeten.",
+      "source_text": "αὐτὸς γὰρ Δαβὶδ εἶπεν ἐν τῷ Πνεύματι τῷ Ἁγίῳ, Εἶπεν ὁ Κύριος τῷ Κυρίῳ μου, Κάθου ἐκ δεξιῶν μου, ἕως ἂν θῶ τοὺς ἐχθρούς σου ὑποπόδιον τῶν ποδῶν σου.",
+      "generated_at": "2026-05-17T20:14:17.754321Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "tekst": "Psalmcitaat-formule consistent met v10-11 patroon: bibrefs uitgebreid ($Ps. 110:1; Hd. 2:34; 1Kor. 15:25; Hb. 1:13; 10:13$). aen mijne rechter [hant] → aan mijn rechter [hand] (concordant LUK 20:42 modernisering). tot dat ick … sal geset hebben → totdat ik … zal gezet hebben (concordant LUK 20:43). voetbanck uwer voeten → voetbank van uw voeten (concordant LUK 20:43)."
+        }
+      ]
     }
   ]
 }
