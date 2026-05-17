@@ -1082,6 +1082,10 @@ STOPLIST: frozenset[str] = frozenset({
     "voldoet",        # tegenw. tijd 3e p. 'voldoen' — gewoon modern NL (v11, '[daarmee voldoet hij]'; SV-toevoeging in [...])
     # MRK 7:13 carry-overs (legitiem)
     "krachteloos",    # bnw — gewoon modern NL ('Gods woord krachteloos maken'); productief in modern Nederlands
+    # MRK 8:7-9 carry-overs (legitiem)
+    "voorleggen",     # gewoon modern NL werkwoord ('ter beoordeling voorleggen'); SV-concordant met v6 ('voorleggen')
+    "overschot",      # zelfstandig nw — gewoon modern NL ('het overschot van de brokken'); productief synoniem van 'restant'
+    "manden",         # zelfst. nw. meervoud — gewoon modern NL ('zeven manden'); geen archaïsme
 })
 
 
