@@ -1120,6 +1120,8 @@ STOPLIST: frozenset[str] = frozenset({
     "vereelt",        # SV-glosse op Gr. πεπωρωμένην ('vereelt of verweerd'); kanttekening v17 bewaart de SV-gloss-terminologie expliciet (anatomisch 'vereeld/eelt'); geen archaïsme-in-hoofdtekst maar verklarende glosse
     # MRK 8:22-24 carry-overs (legitiem)
     "andreas",        # eigennaam apostel — kanttekening v22 noemt Petrus, Andreas en Filippus als afkomstig uit Betsaïda ($Jh. 1:45$)
+    # MRK 8:25-27 carry-overs (legitiem)
+    "beelden",        # infinitief-deel van 'afbeelden' (v25-kanttekening: 'om af te beelden dat onze geestelijke verlichting...') — gewoon modern NL
 })
 
 
