@@ -1,0 +1,174 @@
+{
+  "book": "MRK",
+  "chapter": 7,
+  "reviewed_at": "2026-05-17T00:52:40+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-17T00:47:48+00:00",
+      "mode": "scan",
+      "issues_total": 7
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-17T00:47:53+00:00",
+      "mode": "scan",
+      "issues_total": 7
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-05-17T00:50:37+00:00",
+      "mode": "in-context-review",
+      "rebutted_by_reviewer": [
+        "MRK-7-11-001",
+        "MRK-7-1-001",
+        "MRK-7-3-001",
+        "MRK-7-14-001",
+        "MRK-7-15-001"
+      ],
+      "open_for_orchestrator": [
+        "MRK-7-25-001",
+        "MRK-7-34-001"
+      ]
+    },
+    {
+      "pass": 4,
+      "ran_at": "2026-05-17T00:52:40+00:00",
+      "mode": "verify",
+      "actions": [
+        "MRK-7-11-001: rebuttal verified",
+        "MRK-7-25-001: verified",
+        "MRK-7-34-001: verified",
+        "MRK-7-1-001: rebuttal verified",
+        "MRK-7-3-001: rebuttal verified",
+        "MRK-7-14-001: rebuttal verified",
+        "MRK-7-15-001: rebuttal verified"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 11,
+      "severity": "soft",
+      "quote_modernized": "wat u van mij",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'wat u van mij' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "MRK-7-11-001",
+      "status": "verified",
+      "rebuttal": "v11 kanttekening luidt 'wat u van mij zou mogen ten goede komen' (modaal MOGEN), hoofdtekst 'wat u van mij zou kunnen ten goede komen' (modaal KUNNEN). Het zijn twee verschillende modale werkwoorden — de kanttekening geeft een alternatieve lezing van de Griekse potentialis-constructie 'ὃ ἐὰν... ὠφεληθῇς'. Conform KANTTEKENINGEN.md §'Geen redundantie': de kanttekening geeft een alternatief gloss, en de hoofdtekst kiest niet dat alternatief maar een ander modaal synoniem (kunnen). Geen redundantie maar correcte differentiatie tussen Or-gloss en hoofdtekst-keuze.",
+      "verified_at": "2026-05-17T00:52:40+00:00"
+    },
+    {
+      "category": "genitief pronomen wiens/wier",
+      "verse": 25,
+      "severity": "hard",
+      "quote_modernized": "Want een vrouw, wier dochtertje een onreine geest had, k…",
+      "rule_reference": "ARCHAISMEN.md (SV-pronomina)",
+      "explanation": "'wier dochtertje' — formeel-archaïsch genitief-pronomen. Modern Nederlands: 'van wie dochtertje' of zinsherbouw met bezittelijk voornaamwoord ('die zijn dochtertje', 'die haar dochtertje'). NBV21 vermijdt 'wiens' grotendeels.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "MRK-7-25-001",
+      "status": "verified",
+      "fix_commit": "pending",
+      "fix_note": "'wier dochtertje' → 'van wie het dochtertje' conform ARCHAISMEN.md 'wier + zn → van wie de ...'; relatief-zin behouden.",
+      "verified_at": "2026-05-17T00:52:40+00:00"
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 34,
+      "severity": "hard",
+      "quote_modernized": "…amelijk, uit medelijden over de ellende der mensen, waarvan deze man als een spi…",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'der mensen' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de mensen' of 'van het mensen', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de mensen",
+      "location": "kanttekening",
+      "id": "MRK-7-34-001",
+      "status": "verified",
+      "fix_commit": "pending",
+      "fix_note": "'ellende der mensen' → 'ellende van de mensen' — losse possessief-genitief, geen fossielformule (§2.3c MODERNISATIE.md 'Wat dus niet fossielt').",
+      "verified_at": "2026-05-17T00:52:40+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 1,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'pharize' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        1,
+        3,
+        5
+      ],
+      "id": "MRK-7-1-001",
+      "status": "verified",
+      "rebuttal": "Origineel-stam 'pharize' = Φαρισαῖοι, in MRK 7 in vv. 1, 3, 5 consequent weergegeven als 'Farizeeën' (v1 'de Farizeeën', v3 'de Farizeeën en alle Joden', v5 'de Farizeeën en de Schriftgeleerden'). Volledige concordantie; scanner-prefix-heuristiek matcht 'Fariz' niet op 'pharize' door de F/Ph-spellingsmodernisatie. Geen drift — false positive.",
+      "verified_at": "2026-05-17T00:52:40+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 3,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'insetti' in 5 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 5 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        3,
+        5,
+        8,
+        9,
+        13
+      ],
+      "id": "MRK-7-3-001",
+      "status": "verified",
+      "rebuttal": "Origineel-stam 'insetti' = παράδοσιν, in MRK 7 in vv. 3, 5, 8, 9, 13 consequent weergegeven als 'inzetting'/'inzettingen' (v3 'inzetting van de Ouden', v5 'inzetting van de Ouden', v8 'inzettingen van de mensen', v9 'uw inzetting', v13 'uw inzetting'). Volledige concordantie; scanner-prefix-heuristiek matcht 'inzett' niet op 'insetti' door s/z-spellingsmodernisatie. Geen drift — false positive.",
+      "verified_at": "2026-05-17T00:52:40+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 14,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'hebbend' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        14,
+        25,
+        33
+      ],
+      "id": "MRK-7-14-001",
+      "status": "verified",
+      "rebuttal": "Origineel-stam 'hebbend' verwijst naar SV-participia 'geroepen hebbende' (v14), 'gehoort hebbende' (v25), 'genomen hebbende' (v33). Dit zijn finiete participium-constructies die conform §2.3 MODERNISATIE.md verplicht ontvouwen worden naar finiet hoofdwerkwoord + tijdsbepaling: v14 'nadat hij... geroepen had', v25 'toen zij... gehoord had', v33 'toen hij... genomen had'. De concordantie ligt consistent op het finiete hulpwerkwoord 'had' — niet op een SV-pendant 'hebbende'. Concordantie in §2.3-modernisatie is intentioneel verschoven naar de finiete vorm. Geen drift.",
+      "verified_at": "2026-05-17T00:52:40+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 15,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'ontreyn' in 4 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 4 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        15,
+        18,
+        20,
+        23
+      ],
+      "id": "MRK-7-15-001",
+      "status": "verified",
+      "rebuttal": "Origineel-stam 'ontreyn' = κοινῶσαι/κοινοῖ (vv. 15, 18, 20, 23) consequent weergegeven als 'verontreinigen'/'verontreinigt': v15 'verontreinigen' (2×), v18 'verontreinigen', v20 'verontreinigt', v23 'verontreinigen'. Volledige concordantie. Scanner-prefix matcht 'veront' niet op 'ontreyn' door het prefix 'ver-'-toevoegsel. Geen drift — false positive.",
+      "verified_at": "2026-05-17T00:52:40+00:00"
+    }
+  ]
+}
