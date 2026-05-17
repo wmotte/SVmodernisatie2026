@@ -73,6 +73,39 @@
       "generated_at": "2026-05-17T12:35:22.711453Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 7,
+      "original": "Maer die lantlieden seyden onder malkanderen, $Psalm 2.8.$ Dese is d’erfgenaem, $Genes. 37.18. Matth. 26.3. Ioan. 11.53.$ komt, laet ons hem dooden, ende d’erfenisse sal onse zijn.",
+      "modernized": "Maar die landlieden zeiden onder elkaar: $Ps. 2:8$ Deze is de erfgenaam; $Gn. 37:18; Mt. 26:3; Jh. 11:53$ komt, laten wij hem doden, en de erfenis zal van ons zijn.",
+      "source_text": "ἐκεῖνοι δὲ οἱ γεωργοὶ εἶπον πρὸς ἑαυτοὺς ὅτι Οὗτός ἐστιν ὁ κληρονόμος· δεῦτε, ἀποκτείνωμεν αὐτόν, καὶ ἡμῶν ἔσται ἡ κληρονομία.",
+      "generated_at": "2026-05-17T12:40:11.336249Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 8,
+      "original": "Ende sy namen ende doodden hem, ende wierpen [hem] uyt buyten den wijngaert.",
+      "modernized": "En zij namen en doodden hem, en wierpen [hem] uit buiten de wijngaard.",
+      "source_text": "καὶ λαβόντες αὐτὸν ἀπέκτειναν, καὶ ἐξέβαλον ἔξω τοῦ ἀμπελῶνος.",
+      "generated_at": "2026-05-17T12:40:34.881108Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 9,
+      "original": "Wat sal dan de heere des wijngaerts doen? <Dit antwoorden de Pharizeen selve op de vrage Christi by Matth. 21.41. ende wort hier Christo toegeschreven, om dat hy deselve antwoorde verhaelde, ende voor goet kende.> Hy sal komen ende de lantlieden verderven, ende den wijngaert aen andere geven.",
+      "modernized": "Wat zal dan de heer van de wijngaard doen? <Dit antwoordden de Farizeeën zelf op de vraag van Christus bij $Mt. 21:41$, en wordt hier aan Christus toegeschreven, omdat hij dat antwoord verhaalde en voor goed erkende.> Hij zal komen en de landlieden verderven, en de wijngaard aan anderen geven.",
+      "source_text": "τί οὖν ποιήσει ὁ κύριος τοῦ ἀμπελῶνος; ἐλεύσεται καὶ ἀπολέσει τοὺς γεωργούς, καὶ δώσει τὸν ἀμπελῶνα ἄλλοις.",
+      "generated_at": "2026-05-17T14:02:09.309393Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "tekst": "Kanttekening: 'voor goet kende' (SV-idioom: 'als goed erkende / goedkeurde') vervangen door 'voor goed erkende'. Modern 'kende' (= 'wist') verliest de SV-betekenis van erkenning/goedkeuring; semantische verschuiving (false friend in kanttekening)."
+        }
+      ]
     }
   ]
 }
