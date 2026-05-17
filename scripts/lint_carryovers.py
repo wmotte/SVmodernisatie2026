@@ -1109,6 +1109,12 @@ STOPLIST: frozenset[str] = frozenset({
     "kumi",           # Aramese transliteratie — eigennaam-achtig; SV bewaart bewust de Syrische woorden van Christus (v41)
     "syrische",       # taal-/volkbnw. (verbogen vorm) — gewoon modern NL (v41, kanttekening 'de Syrische woorden'); vgl. STOPLIST 'syrisch'
     "wandelde",       # ww. verleden tijd 'wandelen' — gewoon modern NL (v42, 'stond op en wandelde'); vgl. STOPLIST 'wandelen' (Hebraïsme-behoud)
+    # MRK 8:10-12 carry-overs (legitiem)
+    "dalmanutha",     # eigennaam — plaatsnaam (v10, 'in de streken van Dalmanutha')
+    "twisten",        # ww. infinitief — gewoon modern NL ('begonnen met hem te twisten'); SV-glosse op Gr. συζητεῖν (v11)
+    "geschil",        # zelfst.nw. — gewoon modern NL ('in dispuut en geschil'); kanttekening v11
+    "afgebroken",     # volt. deelw. van 'afbreken' — gewoon modern NL ('een afgebroken manier van spreken'); kanttekening v12
+    "bevestigen",     # ww. infinitief — gewoon modern NL ('met een eed wil bevestigen'); kanttekening v12
 })
 
 
