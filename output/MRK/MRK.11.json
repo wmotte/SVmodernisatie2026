@@ -175,6 +175,45 @@
       "generated_at": "2026-05-17T11:53:51.879474Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 19,
+      "original": "Ende als het nu late geworden was, gingh hy uyt buyten de stadt.",
+      "modernized": "En toen het nu laat geworden was, ging hij uit buiten de stad.",
+      "source_text": "Καὶ ὅτε ὀψὲ ἐγένετο, ἐξεπορεύετο ἔξω τῆς πόλεως.",
+      "generated_at": "2026-05-17T11:59:50.138001Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 20,
+      "original": "Ende des morgens vroegh voorby gaende sagen sy dat de vijgeboom verdorret was van de wortelen af.",
+      "modernized": "En 's morgens vroeg, toen zij voorbijgingen, zagen zij dat de vijgenboom van de wortels af verdord was.",
+      "source_text": "Καὶ πρωῒ παραπορευόμενοι, εἶδον τὴν συκῆν ἐξηραμμένην ἐκ ῥιζῶν.",
+      "generated_at": "2026-05-17T11:59:59.093589Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "text": "Participium \"voorby gaende\" → \"toen zij voorbijgingen\" (§2.3 ontvouwing); patroon zoals MRK 2:14 \"voorby gaende\" → \"toen hij voorbijging\". Woordvolgorde \"van de wortels af verdord was\" volgt SV-syntaxis (ἐκ ῥιζῶν achteraan); HSV-spiegel bevestigt eindpositie van \"verdord\" (drempel-§2.7)."
+        }
+      ]
+    },
+    {
+      "verse_number": 21,
+      "original": "Ende Petrus <Namelick, het gene te voren vers 14. van Christo geseght was.> [sulcks] indachtigh geworden zijnde, seyde tot hem, Rabbi, siet, de vijgeboom, dien ghy vervloeckt hebt, is verdorret.",
+      "modernized": "En toen Petrus <Namelijk, hetgeen tevoren in vers 14 van Christus gezegd was.> [zulks] indachtig was geworden, zei hij tot hem: Rabbi, zie, de vijgenboom, die u vervloekt hebt, is verdord.",
+      "source_text": "καὶ ἀναμνησθεὶς ὁ Πέτρος λέγει αὐτῷ, Ῥαββί, ἴδε, ἡ συκῆ ἣν κατηράσω ἐξήρανται.",
+      "generated_at": "2026-05-17T12:00:07.390625Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "text": "Participium \"indachtigh geworden zijnde\" → \"toen Petrus [zulks] indachtig was geworden\" (§2.3 ontvouwing van \"zijnde\"-constructie); patroon zoals MRK 6:26 \"bedroeft geworden zijnde\" → \"toen ... bedroefd was geworden\"."
+        }
+      ]
     }
   ]
 }
