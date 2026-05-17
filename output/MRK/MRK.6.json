@@ -259,6 +259,34 @@
       "generated_at": "2026-05-16T20:56:01.218683Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 25,
+      "original": "Ende sy terstont met haeste ingaende tot den Koningh, heeft’et ge-eyscht, seggende, Ick wil dat ghy my nu terstont in een schotel geeft het hooft Ioannis des Doopers.",
+      "modernized": "En zij ging meteen met haast naar de Koning toe en eiste het, en zei: Ik wil dat u mij nu meteen op een schotel het hoofd van Johannes de Doper geeft.",
+      "source_text": "καὶ εἰσελθοῦσα εὐθέως μετὰ σπουδῆς πρὸς τὸν βασιλέα, ᾐτήσατο, λέγουσα, Θέλω ἵνα μοι δῷς ἐξαυτῆς ἐπὶ πίνακι τὴν κεφαλὴν Ἰωάννου τοῦ Βαπτιστοῦ.",
+      "generated_at": "2026-05-17T04:18:06.830534Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 26,
+      "original": "Ende de Koningh seer bedroeft geworden zijnde, [nochtans] om de eeden, ende de gene die mede aensaten, en wilde hy haer [’t selve] niet <Gr. haer niet afsetten: D. haer versoeck verwerpen.> afslaen.",
+      "modernized": "En toen de Koning zeer bedroefd was geworden, wilde hij [toch], om de eden en degenen die mee aanzaten, haar [het] niet <Grieks: haar niet afzetten; dat is, haar verzoek afwijzen.> afslaan.",
+      "source_text": "καὶ περίλυπος γενόμενος ὁ βασιλεύς, διὰ τοὺς ὅρκους καὶ τοὺς συνανακειμένους οὐκ ἠθέλησεν αὐτὴν ἀθετῆσαι.",
+      "generated_at": "2026-05-17T04:19:17.439680Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 27,
+      "original": "$Matth. 14.10.$ Ende de Koningh sondt terstont ee-nen <Ofte, trauwant, hellebardier, lijfwacht.> scherprechter, ende geboodt sijn hooft daer te brengen. Dese nu gingh henen, ende onthoofde hem in de gevangenisse.",
+      "modernized": "$Mt. 14:10$ En de Koning zond meteen een <Of: trawant, hellebaardier, lijfwacht.> scherprechter, en gebood zijn hoofd daar te brengen. Deze nu ging heen en onthoofdde hem in de gevangenis.",
+      "source_text": "καὶ εὐθέως ἀποστείλας ὁ βασιλεὺς σπεκουλάτωρα ἐπέταξεν ἐνεχθῆναι τὴν κεφαλὴν αὐτοῦ. ὁ δὲ ἀπελθὼν ἀπεκεφάλισεν αὐτὸν ἐν τῇ φυλακῇ,",
+      "generated_at": "2026-05-17T04:19:51.511334Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [{"type": "afwijking", "reason": "'onthoofde' -> 'onthoofdde' (modern verbvervoeging onthoofden: stam onthoofd + de = onthoofdde); HSV-spiegel bevestigt."}]
     }
   ]
 }
