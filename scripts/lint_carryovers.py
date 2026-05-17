@@ -1141,6 +1141,11 @@ STOPLIST: frozenset[str] = frozenset({
     "beker",          # zelfst. nw. — gewoon modern NL (v41 'een beker water', Gr. ποτήριον)
     "loon",           # zelfst. nw. — gewoon modern NL (v41 'hij zal zijn loon geenszins verliezen', Gr. μισθόν)
     "ergert",         # 3e p. enk. praesens van 'ergeren' (al in STOPLIST) — SV-concordantiewoord σκανδαλίσῃ (v42); vgl. 'ergeren', 'ergernissen'
+    # MRK 9:43-45 carry-overs (legitiem)
+    "worm",           # zelfst. nw. — gewoon modern NL (v44 'hun worm niet sterft', Gr. σκώληξ); ook in kanttekening 'als een worm altijd zal knagen'
+    "knagen",         # infinitief — gewoon modern NL ('knagend geweten' is vast idioom); v44 kanttekening
+    "kreupel",        # bnw. — gewoon modern NL (v45 'kreupel het leven in te gaan', Gr. χωλόν)
+    "gehenne",        # transliteratie van Gr. γέεννα in kanttekening v45 ('Of: gehenne van het vuur'); theologische term zoals 'mammon', 'coros'
 })
 
 
