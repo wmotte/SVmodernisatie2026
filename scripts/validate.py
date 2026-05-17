@@ -153,6 +153,7 @@ SPELLING_EQUIV = {
     "Christi": ["Christus", "Christi"],
     "JESU": ["Jezus"],
     "CHRISTI": ["Christus"],
+    "Een": ["Eén", "Een"],
 }
 
 # §2.3 participium-check — SV-stijl finiete tegenwoordige participia (en hun
