@@ -92,6 +92,7 @@ ARCHAISM_BLACKLIST = [
     r"\bvolkomen\b",        # → "volledig / geheel" (als bijwoord)
     r"\btijding(en)?\b",    # → "boodschap / nieuws"
     r"\bderhalve\b",        # → "daarom / dus"
+    r"\brantsoen\b",        # → "losprijs" (Gr. λύτρον); modern NL = voedseltoewijzing
 ]
 
 # Bekende spelling-mappings voor hoofdletter-check (origineel-vorm: moderne-vorm).
