@@ -1129,6 +1129,8 @@ STOPLIST: frozenset[str] = frozenset({
     "baten",          # ww. infinitief — gewoon modern NL ('wat zou het de mens baten', MRK 8:36); productief in vaste verbindingen ('wat baat het', 'het mag niet baten')
     # MRK 9:10-12 carry-overs (legitiem)
     "twijfelden",     # ovt. mv. van 'twijfelen' — gewoon modern NL ('zij twijfelden aan de algemene opstanding'); kanttekening v10
+    # MRK 9:19-21 carry-overs (legitiem)
+    "wentelde",       # ovt. van 'wentelen' — gewoon modern NL ('hij wentelde zich al schuimende', v20); productief werkwoord
 })
 
 
