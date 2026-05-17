@@ -1,0 +1,227 @@
+{
+  "book": "MRK",
+  "chapter": 11,
+  "reviewed_at": "2026-05-17T12:27:30+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-17T12:27:27+00:00",
+      "mode": "scan",
+      "issues_total": 15
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-17T12:27:30+00:00",
+      "mode": "scan",
+      "issues_total": 15
+    }
+  ],
+  "issues": [
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 3,
+      "severity": "soft",
+      "quote_modernized": "En indien iemand tot u zegt: Waarom doet u …",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "MRK-11-3-001",
+      "status": "rebutted",
+      "rebuttal": "MRK 11:3 'indien' behouden conform projectbeleid (concordantie): 'indien' is consistent gehandhaafd door heel MRK voor Gr. ἐάν / εἰ — vgl. MRK 1:40; 3:24-27; 9:35,43,45,47. Renovatie, geen hervertaling (MODERNISATIE.md §1)."
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 10,
+      "severity": "soft",
+      "quote_modernized": "in de hoogste hemelen",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'in de hoogste hemelen' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "MRK-11-10-001",
+      "status": "fixed",
+      "fix_commit": "pending"
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 13,
+      "severity": "soft",
+      "quote_modernized": "… gewone mensen gewoonlijk gegeten werden, welke Christus daarop schijnt gemeend …",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "MRK-11-13-001",
+      "status": "fixed",
+      "fix_commit": "pending"
+    },
+    {
+      "category": "kanttekening-luiheid (§2.3 in <…>)",
+      "verse": 16,
+      "severity": "hard",
+      "quote_modernized": "Namelijk, niet tot de godsdienst behorende.",
+      "rule_reference": "KANTTEKENINGEN.md + §2.3",
+      "explanation": "'behorende' binnen kanttekening — verdacht -ende-woord in adverbial / clause-final positie. §2.3 geldt ook in <…>; ontvouw naar finiete bijzin.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "MRK-11-16-001",
+      "status": "fixed",
+      "fix_commit": "pending"
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 23,
+      "severity": "soft",
+      "quote_modernized": "  Want voorwaar, ik zeg u, Dat wie tot deze ber…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'voorwaar' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "MRK-11-23-001",
+      "status": "rebutted",
+      "rebuttal": "MRK 11:23 'voorwaar' behouden in vaste formule ἀμὴν λέγω ὑμῖν — ARCHAISMEN.md regel 49 expliciet: 'in formule Voorwaar, Ik zeg u wél behouden'. Concordantie met MRK 3:28; 6:11; 8:12; 9:1,41."
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 25,
+      "severity": "soft",
+      "quote_modernized": "…er u   staat   om te bidden,   vergeeft indien u iets hebt tegen iemand, opdat o…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "MRK-11-25-001",
+      "status": "rebutted",
+      "rebuttal": "MRK 11:25 'indien' behouden conform projectbeleid (concordantie Gr. εἴ τι): identiek aan MRK 1:40; 3:24-27; 9:35,43,45,47. Renovatie, geen hervertaling (MODERNISATIE.md §1)."
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 26,
+      "severity": "soft",
+      "quote_modernized": "  Maar indien u niet vergeeft, zo zal uw Vader,…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "MRK-11-26-001",
+      "status": "rebutted",
+      "rebuttal": "MRK 11:26 'indien' behouden conform projectbeleid (concordantie Gr. εἰ δὲ): consistent met MRK 1:40; 3:24-27; 9:35,43,45,47. Renovatie, geen hervertaling (MODERNISATIE.md §1)."
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 27,
+      "severity": "soft",
+      "quote_modernized": "  En zij kwamen wederom te Jeruzalem; en toen hij in de …",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'wederom' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "MRK-11-27-001",
+      "status": "rebutted",
+      "rebuttal": "MRK 11:27 'wederom' behouden conform projectbeleid (concordantie Gr. πάλιν): consistent met MRK 2:1,13; 3:1. SV-formule-register past in dit Markaans-recurrente πάλιν-kader. Renovatie, geen hervertaling (MODERNISATIE.md §1)."
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 28,
+      "severity": "soft",
+      "quote_modernized": "En zij zeiden tot hem:     Door welke macht doet u deze dingen? En …",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "MRK-11-28-001",
+      "status": "rebutted",
+      "rebuttal": "MRK 11:28 'door welke macht' is interrogatief (Gr. Ἐν ποίᾳ ἐξουσίᾳ als vraag), géén relatief pronomen — scanner-tekst zelf: 'welke modern alleen in vraagzinnen'. Geldig modern Nederlands; geen ingreep nodig."
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 29,
+      "severity": "soft",
+      "quote_modernized": "…ntwoordt mij ook, en zo zal ik u zeggen door welke macht ik deze dingen doe.",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "MRK-11-29-001",
+      "status": "rebutted",
+      "rebuttal": "MRK 11:29 'door welke macht' is indirecte vraag (Gr. ἐν ποίᾳ ἐξουσίᾳ) — interrogatief gebruik dat scanner zelf als modern markeert ('welke modern alleen in vraagzinnen'). Geen relatief pronomen."
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 31,
+      "severity": "soft",
+      "quote_modernized": "… zij overlegden onder elkaar en zeiden: Indien wij zeggen: Uit de hemel, dan zal…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "MRK-11-31-001",
+      "status": "rebutted",
+      "rebuttal": "MRK 11:31 'indien' behouden conform projectbeleid (concordantie Gr. ἐὰν εἴπωμεν): consistent met MRK 1:40; 3:24-27; 9:35,43,45,47. Renovatie, geen hervertaling (MODERNISATIE.md §1)."
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 32,
+      "severity": "soft",
+      "quote_modernized": "Maar indien wij zeggen: Uit de mensen,   dan …",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "MRK-11-32-001",
+      "status": "rebutted",
+      "rebuttal": "MRK 11:32 'indien' behouden conform projectbeleid (concordantie Gr. ἐὰν εἴπωμεν, parallel aan v31): consistent met MRK 1:40; 3:24-27; 9:35,43. Renovatie, geen hervertaling (MODERNISATIE.md §1)."
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 33,
+      "severity": "soft",
+      "quote_modernized": "…de en zei tot hen: Zo zeg ik u ook niet door welke macht ik deze dingen doe.",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "MRK-11-33-001",
+      "status": "rebutted",
+      "rebuttal": "MRK 11:33 'door welke macht' is indirecte vraag (Gr. ἐν ποίᾳ ἐξουσίᾳ, antwoordweigering door Jezus, parallel aan v29) — interrogatief gebruik dat scanner zelf als modern markeert. Geen relatief pronomen."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 1,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'ierusal' in 4 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 4 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        1,
+        11,
+        15,
+        27
+      ],
+      "id": "MRK-11-1-001",
+      "status": "rebutted",
+      "rebuttal": "MRK 11:1,11,15,27: scanner-false-positive door orthografische overgang Ierusalem→Jeruzalem (§2.4 NBV21-eigennamen). Alle vier verzen renderen consistent 'Jeruzalem' voor zowel Gr. Ἱερουσαλήμ (v1) als Ἱεροσόλυμα (v11,15,27); concordantie is doelmatig gehandhaafd op Nederlandse zijde."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 9,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'seggend' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        9,
+        17,
+        31
+      ],
+      "id": "MRK-11-9-001",
+      "status": "rebutted",
+      "rebuttal": "MRK 11:9,17,31: scanner-false-positive door participium→finiet ontvouwing (§2.3): SV-'seggende' (Gr. λέγων/λέγοντες) is in alle drie verzen consistent ontvouwd naar finiete vorm 'zei(den)' resp. 'en zei'; v9 'riepen, en zeiden', v17 'onderwees en zei', v31 'overlegden... en zeiden'. Bewust patroon."
+    }
+  ]
+}
