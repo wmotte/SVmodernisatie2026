@@ -76,7 +76,7 @@ ARCHAISM_BLACKLIST = [
     r"\bhebbende\b",        # participle 'gekregen hebbende' etc. → unfold (AGENTS.md)
     r"\bnagetracht\b",      # archaïsch "nagestreefd"
     r"\bgeschied(t|de|den|en)?\b",  # hele 'geschieden'-paradigma → "gebeuren"-vormen (γίνομαι), concordantie. 'geschiede' (Onze Vader, Lk 11:2) en 'geschiedenis' blijven buiten schot.
-    r"\bgelijk\b",          # voegwoord → "zoals"; verbuigingen (gelijke, gelijkenis) niet door \b geraakt
+    r"(?<!hieraan )(?<!daaraan )(?<!eraan )(?<!hieraan\] )(?<!daaraan\] )(?<!eraan\] )(?<!aan dit )(?<!aan deze )(?<!aan dat )(?<!aan die )(?<!aan dit\] )(?<!aan deze\] )(?<!aan dat\] )(?<!aan die\] )\bgelijk\b(?! aan)",          # voegwoord → "zoals"; predicatief "[hieraan] gelijk" / "gelijk aan" mag
     r"\bvertoefde?\b",      # "vertoeven" is uitstervend literair → "blijven"
     r"\bvertoefden\b",
     r"\bhoedanig\b",        # archaïsch → "wat voor / van welke aard"
