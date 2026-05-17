@@ -1059,6 +1059,10 @@ STOPLIST: frozenset[str] = frozenset({
     # MRK 5:26 carry-over — gewone moderne NL woorden
     "geleden",        # volt. dlw. van 'lijden' — gewoon modern NL ('veel had geleden')
     "hare",           # bezittelijk vnw. 'het hare' = haar bezit — gewoon (formeel) modern NL ('al het hare')
+    # MRK 5:38-39 carry-overs (legitiem)
+    "getier",         # zelfst.nw. — gewoon modern NL ('lawaai, kabaal'); kanttekening-gloss op 'beroering' (v38)
+    "gewoel",         # zelfst.nw. — gewoon modern NL ('woelende drukte'); kanttekening-gloss op 'beroering' (v38)
+    "weent",          # 2e p. mv. 'wenen' — zelfde paradigma als STOPLIST 'weende'/'weenden' (v39, 'waarom weent u?')
     # MRK 7:1-3 carry-overs (legitiem)
     "berispten",      # verleden tijd mv. 'berispen' — gewoon modern NL (v2, 'berispten zij hen'); vgl. 'berispen' productief in modern register
     "meenden",        # verleden tijd mv. 'menen' — gewoon modern NL (v2, kanttekening 'de Farizeeën meenden')
