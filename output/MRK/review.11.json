@@ -1,7 +1,7 @@
 {
   "book": "MRK",
   "chapter": 11,
-  "reviewed_at": "2026-05-17T12:27:30+00:00",
+  "reviewed_at": "2026-05-17T12:32:27+00:00",
   "passes": [
     {
       "pass": 1,
@@ -14,6 +14,34 @@
       "ran_at": "2026-05-17T12:27:30+00:00",
       "mode": "scan",
       "issues_total": 15
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-05-17T12:32:20+00:00",
+      "mode": "verify",
+      "actions": [
+        "MRK-11-3-001: rebuttal verified",
+        "MRK-11-10-001: verified",
+        "MRK-11-13-001: verified",
+        "MRK-11-16-001: verified",
+        "MRK-11-23-001: rebuttal verified",
+        "MRK-11-25-001: rebuttal verified",
+        "MRK-11-26-001: rebuttal verified",
+        "MRK-11-27-001: rebuttal verified",
+        "MRK-11-28-001: rebuttal verified",
+        "MRK-11-29-001: rebuttal verified",
+        "MRK-11-31-001: rebuttal verified",
+        "MRK-11-32-001: rebuttal verified",
+        "MRK-11-33-001: rebuttal verified",
+        "MRK-11-1-001: rebuttal verified",
+        "MRK-11-9-001: rebuttal verified"
+      ]
+    },
+    {
+      "pass": 4,
+      "ran_at": "2026-05-17T12:32:27+00:00",
+      "mode": "verify",
+      "actions": []
     }
   ],
   "issues": [
@@ -27,8 +55,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "MRK-11-3-001",
-      "status": "rebutted",
-      "rebuttal": "MRK 11:3 'indien' behouden conform projectbeleid (concordantie): 'indien' is consistent gehandhaafd door heel MRK voor Gr. ἐάν / εἰ — vgl. MRK 1:40; 3:24-27; 9:35,43,45,47. Renovatie, geen hervertaling (MODERNISATIE.md §1)."
+      "status": "verified",
+      "rebuttal": "MRK 11:3 'indien' behouden conform projectbeleid (concordantie): 'indien' is consistent gehandhaafd door heel MRK voor Gr. ἐάν / εἰ — vgl. MRK 1:40; 3:24-27; 9:35,43,45,47. Renovatie, geen hervertaling (MODERNISATIE.md §1).",
+      "verified_at": "2026-05-17T12:32:20+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -40,8 +69,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "MRK-11-10-001",
-      "status": "fixed",
-      "fix_commit": "pending"
+      "status": "verified",
+      "fix_commit": "pending",
+      "verified_at": "2026-05-17T12:32:20+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -53,8 +83,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "MRK-11-13-001",
-      "status": "fixed",
-      "fix_commit": "pending"
+      "status": "verified",
+      "fix_commit": "pending",
+      "verified_at": "2026-05-17T12:32:20+00:00"
     },
     {
       "category": "kanttekening-luiheid (§2.3 in <…>)",
@@ -66,8 +97,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "MRK-11-16-001",
-      "status": "fixed",
-      "fix_commit": "pending"
+      "status": "verified",
+      "fix_commit": "pending",
+      "verified_at": "2026-05-17T12:32:20+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -79,8 +111,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "MRK-11-23-001",
-      "status": "rebutted",
-      "rebuttal": "MRK 11:23 'voorwaar' behouden in vaste formule ἀμὴν λέγω ὑμῖν — ARCHAISMEN.md regel 49 expliciet: 'in formule Voorwaar, Ik zeg u wél behouden'. Concordantie met MRK 3:28; 6:11; 8:12; 9:1,41."
+      "status": "verified",
+      "rebuttal": "MRK 11:23 'voorwaar' behouden in vaste formule ἀμὴν λέγω ὑμῖν — ARCHAISMEN.md regel 49 expliciet: 'in formule Voorwaar, Ik zeg u wél behouden'. Concordantie met MRK 3:28; 6:11; 8:12; 9:1,41.",
+      "verified_at": "2026-05-17T12:32:20+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -92,8 +125,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "MRK-11-25-001",
-      "status": "rebutted",
-      "rebuttal": "MRK 11:25 'indien' behouden conform projectbeleid (concordantie Gr. εἴ τι): identiek aan MRK 1:40; 3:24-27; 9:35,43,45,47. Renovatie, geen hervertaling (MODERNISATIE.md §1)."
+      "status": "verified",
+      "rebuttal": "MRK 11:25 'indien' behouden conform projectbeleid (concordantie Gr. εἴ τι): identiek aan MRK 1:40; 3:24-27; 9:35,43,45,47. Renovatie, geen hervertaling (MODERNISATIE.md §1).",
+      "verified_at": "2026-05-17T12:32:20+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -105,8 +139,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "MRK-11-26-001",
-      "status": "rebutted",
-      "rebuttal": "MRK 11:26 'indien' behouden conform projectbeleid (concordantie Gr. εἰ δὲ): consistent met MRK 1:40; 3:24-27; 9:35,43,45,47. Renovatie, geen hervertaling (MODERNISATIE.md §1)."
+      "status": "verified",
+      "rebuttal": "MRK 11:26 'indien' behouden conform projectbeleid (concordantie Gr. εἰ δὲ): consistent met MRK 1:40; 3:24-27; 9:35,43,45,47. Renovatie, geen hervertaling (MODERNISATIE.md §1).",
+      "verified_at": "2026-05-17T12:32:20+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -118,8 +153,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "MRK-11-27-001",
-      "status": "rebutted",
-      "rebuttal": "MRK 11:27 'wederom' behouden conform projectbeleid (concordantie Gr. πάλιν): consistent met MRK 2:1,13; 3:1. SV-formule-register past in dit Markaans-recurrente πάλιν-kader. Renovatie, geen hervertaling (MODERNISATIE.md §1)."
+      "status": "verified",
+      "rebuttal": "MRK 11:27 'wederom' behouden conform projectbeleid (concordantie Gr. πάλιν): consistent met MRK 2:1,13; 3:1. SV-formule-register past in dit Markaans-recurrente πάλιν-kader. Renovatie, geen hervertaling (MODERNISATIE.md §1).",
+      "verified_at": "2026-05-17T12:32:20+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -131,8 +167,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "MRK-11-28-001",
-      "status": "rebutted",
-      "rebuttal": "MRK 11:28 'door welke macht' is interrogatief (Gr. Ἐν ποίᾳ ἐξουσίᾳ als vraag), géén relatief pronomen — scanner-tekst zelf: 'welke modern alleen in vraagzinnen'. Geldig modern Nederlands; geen ingreep nodig."
+      "status": "verified",
+      "rebuttal": "MRK 11:28 'door welke macht' is interrogatief (Gr. Ἐν ποίᾳ ἐξουσίᾳ als vraag), géén relatief pronomen — scanner-tekst zelf: 'welke modern alleen in vraagzinnen'. Geldig modern Nederlands; geen ingreep nodig.",
+      "verified_at": "2026-05-17T12:32:20+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -144,8 +181,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "MRK-11-29-001",
-      "status": "rebutted",
-      "rebuttal": "MRK 11:29 'door welke macht' is indirecte vraag (Gr. ἐν ποίᾳ ἐξουσίᾳ) — interrogatief gebruik dat scanner zelf als modern markeert ('welke modern alleen in vraagzinnen'). Geen relatief pronomen."
+      "status": "verified",
+      "rebuttal": "MRK 11:29 'door welke macht' is indirecte vraag (Gr. ἐν ποίᾳ ἐξουσίᾳ) — interrogatief gebruik dat scanner zelf als modern markeert ('welke modern alleen in vraagzinnen'). Geen relatief pronomen.",
+      "verified_at": "2026-05-17T12:32:20+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -157,8 +195,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "MRK-11-31-001",
-      "status": "rebutted",
-      "rebuttal": "MRK 11:31 'indien' behouden conform projectbeleid (concordantie Gr. ἐὰν εἴπωμεν): consistent met MRK 1:40; 3:24-27; 9:35,43,45,47. Renovatie, geen hervertaling (MODERNISATIE.md §1)."
+      "status": "verified",
+      "rebuttal": "MRK 11:31 'indien' behouden conform projectbeleid (concordantie Gr. ἐὰν εἴπωμεν): consistent met MRK 1:40; 3:24-27; 9:35,43,45,47. Renovatie, geen hervertaling (MODERNISATIE.md §1).",
+      "verified_at": "2026-05-17T12:32:20+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -170,8 +209,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "MRK-11-32-001",
-      "status": "rebutted",
-      "rebuttal": "MRK 11:32 'indien' behouden conform projectbeleid (concordantie Gr. ἐὰν εἴπωμεν, parallel aan v31): consistent met MRK 1:40; 3:24-27; 9:35,43. Renovatie, geen hervertaling (MODERNISATIE.md §1)."
+      "status": "verified",
+      "rebuttal": "MRK 11:32 'indien' behouden conform projectbeleid (concordantie Gr. ἐὰν εἴπωμεν, parallel aan v31): consistent met MRK 1:40; 3:24-27; 9:35,43. Renovatie, geen hervertaling (MODERNISATIE.md §1).",
+      "verified_at": "2026-05-17T12:32:20+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -183,8 +223,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "MRK-11-33-001",
-      "status": "rebutted",
-      "rebuttal": "MRK 11:33 'door welke macht' is indirecte vraag (Gr. ἐν ποίᾳ ἐξουσίᾳ, antwoordweigering door Jezus, parallel aan v29) — interrogatief gebruik dat scanner zelf als modern markeert. Geen relatief pronomen."
+      "status": "verified",
+      "rebuttal": "MRK 11:33 'door welke macht' is indirecte vraag (Gr. ἐν ποίᾳ ἐξουσίᾳ, antwoordweigering door Jezus, parallel aan v29) — interrogatief gebruik dat scanner zelf als modern markeert. Geen relatief pronomen.",
+      "verified_at": "2026-05-17T12:32:20+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -202,8 +243,9 @@
         27
       ],
       "id": "MRK-11-1-001",
-      "status": "rebutted",
-      "rebuttal": "MRK 11:1,11,15,27: scanner-false-positive door orthografische overgang Ierusalem→Jeruzalem (§2.4 NBV21-eigennamen). Alle vier verzen renderen consistent 'Jeruzalem' voor zowel Gr. Ἱερουσαλήμ (v1) als Ἱεροσόλυμα (v11,15,27); concordantie is doelmatig gehandhaafd op Nederlandse zijde."
+      "status": "verified",
+      "rebuttal": "MRK 11:1,11,15,27: scanner-false-positive door orthografische overgang Ierusalem→Jeruzalem (§2.4 NBV21-eigennamen). Alle vier verzen renderen consistent 'Jeruzalem' voor zowel Gr. Ἱερουσαλήμ (v1) als Ἱεροσόλυμα (v11,15,27); concordantie is doelmatig gehandhaafd op Nederlandse zijde.",
+      "verified_at": "2026-05-17T12:32:20+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -220,8 +262,9 @@
         31
       ],
       "id": "MRK-11-9-001",
-      "status": "rebutted",
-      "rebuttal": "MRK 11:9,17,31: scanner-false-positive door participium→finiet ontvouwing (§2.3): SV-'seggende' (Gr. λέγων/λέγοντες) is in alle drie verzen consistent ontvouwd naar finiete vorm 'zei(den)' resp. 'en zei'; v9 'riepen, en zeiden', v17 'onderwees en zei', v31 'overlegden... en zeiden'. Bewust patroon."
+      "status": "verified",
+      "rebuttal": "MRK 11:9,17,31: scanner-false-positive door participium→finiet ontvouwing (§2.3): SV-'seggende' (Gr. λέγων/λέγοντες) is in alle drie verzen consistent ontvouwd naar finiete vorm 'zei(den)' resp. 'en zei'; v9 'riepen, en zeiden', v17 'onderwees en zei', v31 'overlegden... en zeiden'. Bewust patroon.",
+      "verified_at": "2026-05-17T12:32:20+00:00"
     }
   ]
 }
