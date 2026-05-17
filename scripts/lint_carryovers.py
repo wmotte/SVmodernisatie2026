@@ -460,6 +460,8 @@ STOPLIST: frozenset[str] = frozenset({
     "middernacht",  # gewoon modern NL (LUK 11:5)
     # LUK 11:13-15 carry-overs (legitiem)
     "stom",  # zelfst.nw./bijv.nw. — gewoon modern NL (κωφός = stom/doof)
+    "stomme",  # verbogen vorm van 'stom' — gewoon modern NL (MRK 9:25 'stomme en dove geest')
+    "toeliep",  # 3e pers. ev. 'toelopen' — gewoon modern NL (MRK 9:25 'de schare toeliep')
     "werpt",  # 3e pers. ev. van 'werpen' — gewoon modern NL ('werpt duivelen uit')
     "wierp",  # past tense van 'werpen' — gewoon modern NL
     "wierpen",  # past tense mv 'werpen' — gewoon modern NL (LUK 20:12)
