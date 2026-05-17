@@ -319,6 +319,8 @@ STOPLIST: frozenset[str] = frozenset({
     "voorschrift", # zelfstandig nw — modern NL ("een voorschrift voor het gebed")
     # Vraag om teken / Beëlzebul (Lk 11:16-18) — gewone moderne NL woorden
     "begeerden",   # verleden tijd van 'begeren' — modern NL (formeel/religieus register)
+    "begeerten",   # mv. van 'begeerte' — modern NL (formeel/religieus register, kanttekening MRK 7:22)
+    "boosheden",   # mv. van 'boosheid' — modern NL in opsomming van zonden (MRK 7:22, Greek πονηρίαι)
     "satan",       # eigennaam (de tegenstander) — modern NL, lowercase per SV-patroon
     "verwoest",    # voltooid deelw. van 'verwoesten' — modern NL ("wordt verwoest")
     # Let op: de hele 'geschieden'-paradigma (geschied/geschiedt/geschiedde/
