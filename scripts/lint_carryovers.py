@@ -1082,6 +1082,13 @@ STOPLIST: frozenset[str] = frozenset({
     "voldoet",        # tegenw. tijd 3e p. 'voldoen' — gewoon modern NL (v11, '[daarmee voldoet hij]'; SV-toevoeging in [...])
     # MRK 7:13 carry-overs (legitiem)
     "krachteloos",    # bnw — gewoon modern NL ('Gods woord krachteloos maken'); productief in modern Nederlands
+    # MRK 7:19 carry-overs (legitiem)
+    "blijvende",      # tegenw. deelw. 'blijven' — gewoon modern NL ('het blijvende voedsel'); kanttekening v19
+    "voedsel",        # zelfst.nw. — gewoon modern NL ('alle spijzen / voedsel'); kanttekening v19
+    # MRK 7:21 carry-overs (legitiem) — SV-plurale-eigenheid bij zonde-catalogus (Gr. μοιχεῖαι, πορνεῖαι, διαλογισμοὶ)
+    "overspelen",     # zelfst.nw. mv. 'overspel' — SV-plurale concordantie met Gr. μοιχεῖαι; SV-eigenheid behouden
+    "hoererijen",     # zelfst.nw. mv. 'hoererij' — SV-plurale concordantie met Gr. πορνεῖαι; SV-eigenheid behouden
+    "samensprekingen",# zelfst.nw. mv. — SV-glosse op διαλογισμοί in kanttekening v21; productief NL
 })
 
 
