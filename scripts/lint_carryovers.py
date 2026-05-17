@@ -662,6 +662,7 @@ STOPLIST: frozenset[str] = frozenset({
     # LUK 8:22-24 carry-overs (legitiem)
     "staken",  # past tense van 'afsteken' — 'zij staken af' is bijbels register, modern NL
     "voeren",  # past tense van 'varen' — gewoon modern NL ('zij voeren over het meer')
+    "voer",  # 3sg past tense van 'varen' — gewoon modern NL ('voer hij weg naar de andere zijde', MRK 8:13)
     "zijde",  # gewoon modern NL ('aan de andere zijde')
     "stilte",  # gewoon modern NL zelfstandig naamwoord
     "watergolven",  # samenstelling — formeel maar modern begrijpelijk
