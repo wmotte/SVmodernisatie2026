@@ -205,6 +205,45 @@
       "generated_at": "2026-05-17T19:30:46.536665Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 19,
+      "original": "$Deuter. 25.5, 6.$ Meester, <Dese wet behoorde tot de Politijcke wetten der Ioden, ende hadde oock yet ceremoniaels, ende heeft daerom met der Ioden Politie opgehouden.> Moses heeft ons geschreven, indien yemants broeder sterft, ende een wijf achter laet, ende geene kinderen na en laet, dat sijn broeder des selfs wijf nemen sal, ende sijnen broeder <D. eenen sone, die des afgestorvenen name voerde, ende sijn erfgenaem was.> zaet verwecken.",
+      "modernized": "$Dt. 25:5,6$ Meester, <Deze wet behoorde tot de burgerlijke wetten van de Joden, en had ook iets ceremonieels, en heeft daarom met de Joodse staatsorde opgehouden.> Mozes heeft ons geschreven: indien iemands broer sterft, en een vrouw achterlaat, en geen kinderen nalaat, dat zijn broer diens vrouw zal nemen, en voor zijn broer <Dat is, een zoon, die de naam van de overledene zou voeren, en zijn erfgenaam was.> nageslacht verwekken.",
+      "source_text": "Διδάσκαλε, Μωσῆς ἔγραψεν ἡμῖν, ὅτι ἐάν τινος ἀδελφὸς ἀποθάνῃ, καὶ καταλίπῃ γυναῖκα, καὶ τέκνα μὴ ἀφῇ, ἵνα λάβῃ ὁ ἀδελφὸς αὐτοῦ τὴν γυναῖκα αὐτοῦ, καὶ ἐξαναστήσῃ σπέρμα τῷ ἀδελφῷ αὐτοῦ·",
+      "generated_at": "2026-05-17T20:15:00.000000Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "tekst": "σπέρμα → 'nageslacht' (niet 'zaad'): in context zwagerhuwelijk (Dt. 25:5-6) is σπέρμα = nakomeling/erfgenaam, niet letterlijk zaadkorrel. HSV-spiegel bevestigt 'nageslacht'. 'Politijcke wetten / Politie' in kanttekening → 'burgerlijke wetten / Joodse staatsorde' (Politie = polis-orde, niet modern 'politie')."
+        }
+      ]
+    },
+    {
+      "verse_number": 20,
+      "original": "Daer waren nu seven broeders, ende de eerste nam een wijf, ende stervende en liet geen zaet na.",
+      "modernized": "Er waren nu zeven broers, en de eerste nam een vrouw, en bij zijn sterven liet hij geen nageslacht na.",
+      "source_text": "ἑπτὰ οὖν ἀδελφοὶ ἦσαν· καὶ ὁ πρῶτος ἔλαβε γυναῖκα, καὶ ἀποθνήσκων οὐκ ἀφῆκε σπέρμα·",
+      "generated_at": "2026-05-17T20:15:30.000000Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "tekst": "'broeders' → 'broers' (concordant LUK 20:29). 'zaet' → 'nageslacht' (concordant v19, σπέρμα = nakomeling). 'stervende' (participium praesens ἀποθνήσκων) → 'bij zijn sterven' (HSV-spiegel; vermijdt -ende-participium, conform §2.3 ALWAYS_BAD)."
+        }
+      ]
+    },
+    {
+      "verse_number": 21,
+      "original": "De tweede nam haer oock, ende is gestorven, ende oock dese en liet geen zaet na: ende de derde desgelijcks.",
+      "modernized": "De tweede nam haar ook, en is gestorven, en ook deze liet geen nageslacht na; en de derde evenzo.",
+      "source_text": "καὶ ὁ δεύτερος ἔλαβεν αὐτήν, καὶ ἀπέθανε, καὶ οὐδὲ αὐτὸς ἀφῆκε σπέρμα· καὶ ὁ τρίτος ὡσαύτως.",
+      "generated_at": "2026-05-17T20:16:00.000000Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }

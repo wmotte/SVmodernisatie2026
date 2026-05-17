@@ -172,22 +172,34 @@
     },
     {
       "verse_number": 19,
-      "status": "pending",
-      "sv2026": "",
+      "status": "modernized",
+      "sv2026": "$Dt. 25:5,6$ Meester, <Deze wet behoorde tot de burgerlijke wetten van de Joden, en had ook iets ceremonieels, en heeft daarom met de Joodse staatsorde opgehouden.> Mozes heeft ons geschreven: indien iemands broer sterft, en een vrouw achterlaat, en geen kinderen nalaat, dat zijn broer diens vrouw zal nemen, en voor zijn broer <Dat is, een zoon, die de naam van de overledene zou voeren, en zijn erfgenaam was.> nageslacht verwekken.",
       "hsv": "$Deut. 25:5; 6$ Meester, Mozes heeft ons [voor] geschreven: Als iemands broer sterft en een vrouw achterlaat en geen kinderen nalaat, dat dan zijn broer diens vrouw [tot vrouw] moet nemen en voor zijn broer nageslacht verwekken.",
-      "original": "$Deuter. 25.5, 6.$ Meester, <Dese wet behoorde tot de Politijcke wetten der Ioden, ende hadde oock yet ceremoniaels, ende heeft daerom met der Ioden Politie opgehouden.> Moses heeft ons geschreven, indien yemants broeder sterft, ende een wijf achter laet, ende geene kinderen na en laet, dat sijn broeder des selfs wijf nemen sal, ende sijnen broeder <D. eenen sone, die des afgestorvenen name voerde, ende sijn erfgenaem was.> zaet verwecken."
+      "original": "$Deuter. 25.5, 6.$ Meester, <Dese wet behoorde tot de Politijcke wetten der Ioden, ende hadde oock yet ceremoniaels, ende heeft daerom met der Ioden Politie opgehouden.> Moses heeft ons geschreven, indien yemants broeder sterft, ende een wijf achter laet, ende geene kinderen na en laet, dat sijn broeder des selfs wijf nemen sal, ende sijnen broeder <D. eenen sone, die des afgestorvenen name voerde, ende sijn erfgenaem was.> zaet verwecken.",
+      "notes": [
+        {
+          "type": "context",
+          "tekst": "σπέρμα → 'nageslacht' (niet 'zaad'): in context zwagerhuwelijk (Dt. 25:5-6) is σπέρμα = nakomeling/erfgenaam, niet letterlijk zaadkorrel. HSV-spiegel bevestigt 'nageslacht'. 'Politijcke wetten / Politie' in kanttekening → 'burgerlijke wetten / Joodse staatsorde' (Politie = polis-orde, niet modern 'politie')."
+        }
+      ]
     },
     {
       "verse_number": 20,
-      "status": "pending",
-      "sv2026": "",
+      "status": "modernized",
+      "sv2026": "Er waren nu zeven broers, en de eerste nam een vrouw, en bij zijn sterven liet hij geen nageslacht na.",
       "hsv": "Nu waren er zeven broers; en de eerste nam een vrouw en liet bij zijn sterven geen nageslacht na.",
-      "original": "Daer waren nu seven broeders, ende de eerste nam een wijf, ende stervende en liet geen zaet na."
+      "original": "Daer waren nu seven broeders, ende de eerste nam een wijf, ende stervende en liet geen zaet na.",
+      "notes": [
+        {
+          "type": "context",
+          "tekst": "'broeders' → 'broers' (concordant LUK 20:29). 'zaet' → 'nageslacht' (concordant v19, σπέρμα = nakomeling). 'stervende' (participium praesens ἀποθνήσκων) → 'bij zijn sterven' (HSV-spiegel; vermijdt -ende-participium, conform §2.3 ALWAYS_BAD)."
+        }
+      ]
     },
     {
       "verse_number": 21,
-      "status": "pending",
-      "sv2026": "",
+      "status": "modernized",
+      "sv2026": "De tweede nam haar ook, en is gestorven, en ook deze liet geen nageslacht na; en de derde evenzo.",
       "hsv": "Ook de tweede nam haar [tot vrouw] en stierf, en ook deze liet geen nageslacht na; en de derde evenzo.",
       "original": "De tweede nam haer oock, ende is gestorven, ende oock dese en liet geen zaet na: ende de derde desgelijcks."
     },
