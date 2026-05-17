@@ -1097,6 +1097,9 @@ STOPLIST: frozenset[str] = frozenset({
     "samensprekingen",# zelfst.nw. mv. — SV-glosse op διαλογισμοί in kanttekening v21; productief NL
     # MRK 7:32 carry-overs (legitiem)
     "gewoon",         # bijw. — 'gewoon zijn te ...' = gewend zijn; productief modern NL (kanttekening v32)
+    # MRK 7:34 carry-overs (legitiem)
+    "medelijden",     # zelfst.nw. — gewoon modern NL ('uit medelijden over ...'); kanttekening v34
+    "spiegel",        # zelfst.nw. — gewoon modern NL ('als een spiegel zijn'); kanttekening v34
 })
 
 
