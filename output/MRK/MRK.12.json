@@ -1,0 +1,45 @@
+{
+  "book": "MRK",
+  "chapter": 12,
+  "introduction": {
+    "original": "1 Door de gelijckenisse van eenen wijngaert verhuert aen de lantlieden, die haers heeren dienstknechten ende sone mishandelden ende doodden, verkondight Christus den Ioden hare verwerpinge ende ondergangh. 13 Beantwoort de vrage, of ’t geoorloft is den Keyser schattinge te geven. 18 Gelijck oock de vrage der Sadduceen van een vrouwe die seven mans gehadt hadde, ende bewijst tegen henlieden de opstandinge uyt den dooden. 28 Verklaert welck het grootste gebodt is. 35 Leert dat de Messias beyde een Heere ende een sone Davids is. 38 Waerschouwt sijne toehoorders voor de eergierigheyt ende geveynstheyt der Schriftgeleerde. 41 Prijst de geringe aelmoesse van een arme weduwe.",
+    "modernized": "1 Door de gelijkenis van een wijngaard verhuurd aan de landlieden, die de dienstknechten en zoon van hun heer mishandelden en doodden, verkondigt Christus de Joden hun verwerping en ondergang. 13 Beantwoordt de vraag of het geoorloofd is de Keizer schatting te geven. 18 Evenals ook de vraag van de Sadduceeën over een vrouw die zeven mannen had gehad, en bewijst tegen hen de opstanding uit de doden. 28 Verklaart welk het grootste gebod is. 35 Leert dat de Messias zowel een Heer als een zoon van David is. 38 Waarschuwt zijn toehoorders voor de eerzucht en geveinsdheid van de Schriftgeleerden. 41 Prijst de geringe aalmoes van een arme weduwe.",
+    "generated_at": "2026-05-17T11:30:10.457832Z",
+    "model": "claude-opus-4-7[1m]"
+  },
+  "verses": [
+    {
+      "verse_number": 1,
+      "original": "$Matth. 21.33. Luce 20.9.$ ENde hy begon door <Gr. parabelen. siet daer van de verklaringe Matth. 13.3.> gelijckenissen tot haer te seggen, <Van dese gelijckenisse siet de verklaringe Matth. 21.33.> Een mensche $Psalm 80.9. Iesa. 5.1. Ierem. 2.21. ende 12.10.$ plantede eenen wijngaert, ende settede eenen <Ofte, heyninge, hegge.> tuyn daer om, ende groef eenen <Namel. daer de wijn onder de persse in loopt, ende vergadert wort.> wijnparsback, ende bouwde eenen toren, ende <Gr. gaf uyt.> verhuerde dien aen <Of, lantbouwers, waer door hier voornamelick wijngaerdeniers verstaen worden.> de lantlieden, ende reysde buyten lants.",
+      "modernized": "$Mt. 21:33; Lk. 20:9$ En hij begon door <Grieks: parabelen. Zie daarvan de verklaring $Mt. 13:3$.> gelijkenissen tot hen te zeggen: <Van deze gelijkenis zie de verklaring $Mt. 21:33$.> Een mens $Ps. 80:9; Js. 5:1; Jr. 2:21; 12:10$ plantte een wijngaard, en zette er een <Of, heining, hegge.> tuin om, en groef een <Namelijk, daar de wijn onder de pers in loopt en vergaderd wordt.> wijnpersbak, en bouwde een toren, en <Grieks: gaf uit.> verhuurde die aan <Of, landbouwers, waardoor hier voornamelijk wijngaardeniers verstaan worden.> de landlieden, en reisde buitenslands.",
+      "source_text": "Καὶ ἤρξατο αὐτοῖς ἐν παραβολαῖς λέγειν, Ἀμπελῶνα ἐφύτευσεν ἄνθρωπος, καὶ περιέθηκε φραγμόν, καὶ ὤρυξεν ὑπολήνιον, καὶ ᾠκοδόμησε πύργον, καὶ ἐξέδοτο αὐτὸν γεωργοῖς, καὶ ἀπεδήμησε.",
+      "generated_at": "2026-05-17T11:29:40.174801Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 2,
+      "original": "Ende als de <D. ter bequamer ofte rechter tijt, als de vruchten rijp zijnde ingesamelt waren.> tijt was, sondt hy eenen dienstknecht tot de lantlieden, op dat hy van de lantlieden ontfinge van de vrucht des wijngaert.",
+      "modernized": "En toen het <Dat is, op de gepaste of juiste tijd, wanneer de vruchten rijp en ingezameld waren.> de tijd was, zond hij een dienstknecht tot de landlieden, opdat hij van de landlieden zou ontvangen van de vrucht van de wijngaard.",
+      "source_text": "καὶ ἀπέστειλε πρὸς τοὺς γεωργοὺς τῷ καιρῷ δοῦλον, ἵνα παρὰ τῶν γεωργῶν λάβῃ ἀπὸ τοῦ καρποῦ τοῦ ἀμπελῶνος.",
+      "generated_at": "2026-05-17T11:30:59.767070Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "tekst": "Toegevoegd 'de' in 'toen het de tijd was' (HSV-spiegel + concordantie LUK 20:10): SV 'als de tijt was' verwijst naar DE bepaalde tijd (oogst), niet generiek 'het is tijd'."
+        }
+      ]
+    },
+    {
+      "verse_number": 3,
+      "original": "Maer sy namen ende sloegen hem, ende sonden [hem] ledigh henen.",
+      "modernized": "Maar zij namen hem en sloegen hem, en zonden [hem] leeg heen.",
+      "source_text": "οἱ δὲ λαβόντες αὐτὸν ἔδειραν, καὶ ἀπέστειλαν κενόν.",
+      "generated_at": "2026-05-17T11:31:39.089822Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    }
+  ]
+}
