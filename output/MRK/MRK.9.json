@@ -412,6 +412,45 @@
       "generated_at": "2026-05-17T06:51:35.945457Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 46,
+      "original": "Daer haren worm niet en sterft, ende dat vyer niet uytgebluscht en wort.",
+      "modernized": "Waar hun worm niet sterft, en dat vuur niet wordt uitgeblust.",
+      "source_text": "ὅπου ὁ σκώληξ αὐτῶν οὐ τελευτᾷ, καὶ τὸ πῦρ οὐ σβέννυται.",
+      "generated_at": "2026-05-17T06:57:17.167445Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 47,
+      "original": "Ende indien uwe ooge u ergert, werptse uyt: het is u beter maer een ooge hebbende in het Koninckrijcke Godts in te gaen, dan twee oogen hebbende in ’t helsche vyer geworpen te worpen:",
+      "modernized": "En indien uw oog u ergert, werp het uit: het is u beter met één oog het Koninkrijk van God in te gaan, dan met twee ogen in het helse vuur geworpen te worden:",
+      "source_text": "καὶ ἐὰν ὁ ὀφθαλμός σου σκανδαλίζῃ σε, ἔκβαλε αὐτόν· καλόν σοι ἐστὶ μονόφθαλμον εἰσελθεῖν εἰς τὴν βασιλείαν τοῦ Θεοῦ, ἢ δύο ὀφθαλμοὺς ἔχοντα βληθῆναι εἰς τὴν γέενναν τοῦ πυρός,",
+      "generated_at": "2026-05-17T06:57:52.333998Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "subject": "drukfout",
+          "context": "slot van v47",
+          "choice": "vertaald als passief \"geworpen te worden\"",
+          "alternatives": [
+            "geworpen te worpen (letterlijk)"
+          ],
+          "reason": "SV1657 heeft \"geworpen te worpen\"; dit is evident een drukfout voor \"te worden\" (vgl. v45 en parallelle constructie βληθῆναι, aoristus passief)."
+        }
+      ]
+    },
+    {
+      "verse_number": 48,
+      "original": "Daer haren worm niet en sterft, ende het vyer niet uytgebluscht en wort.",
+      "modernized": "Waar hun worm niet sterft, en het vuur niet wordt uitgeblust.",
+      "source_text": "ὅπου ὁ σκώληξ αὐτῶν οὐ τελευτᾷ, καὶ τὸ πῦρ οὐ σβέννυται.",
+      "generated_at": "2026-05-17T06:58:06.107985Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
