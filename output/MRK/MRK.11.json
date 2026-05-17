@@ -115,6 +115,39 @@
       "generated_at": "2026-05-17T11:40:01.809968Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 13,
+      "original": "Ende siende van verre eenen vijgeboom, die bladeren hadde, gingh hy [om te sien] of hy oock yet op den selven soude vinden, ende daer by gekomen zijnde, vondt hy niet dan bladeren: want het en was <D. den rechten ende ordinaren tijt dat de vijgeboomen hare volle ende rijpe vruchten hebben: hoewel in die heete landen de vijgeboomen buyten tijts oock eenige ontijdige vruchten dragen, die van de gemeyne lieden plachten gegeten te worden, welcke Christus schijnt gemeynt te hebben daer op te vinden.> de tijt der vijgen niet.",
+      "modernized": "En toen hij van verre een vijgenboom zag, die bladeren had, ging hij [om te zien] of hij ook iets daarop zou vinden; en daarbij gekomen, vond hij niets dan bladeren, want het was <dat is, de juiste en gewone tijd waarop de vijgenbomen hun volle en rijpe vruchten hebben; hoewel in die hete landen de vijgenbomen buiten die tijd ook enige ontijdige vruchten dragen, die door de gewone mensen gewoonlijk gegeten werden, welke Christus daarop schijnt gemeend te hebben te vinden.> niet de tijd van de vijgen.",
+      "source_text": "καὶ ἰδὼν συκῆν μακρόθεν, ἔχουσαν φύλλα, ἦλθεν εἰ ἄρα εὑρήσει τι ἐν αὐτῇ· καὶ ἐλθὼν ἐπ’ αὐτήν, οὐδὲν εὗρεν εἰ μὴ φύλλα· οὐ γὰρ ἦν καιρὸς σύκων.",
+      "generated_at": "2026-05-17T11:44:50.477496Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 14,
+      "original": "Ende Iesus <Het woort antwoorden na de Hebreeusche maniere van spreken, beteeckent dickmael een reden beginnen, gelijck hier klaerlick blijckt.> antwoordende seyde tot den selven, Niemant en ete [eenige] vrucht meer van u in der eeuwigheyt. Ende sijne discipelen hoorden ’t.",
+      "modernized": "En Jezus <Het woord 'antwoorden' betekent volgens de Hebreeuwse manier van spreken dikwijls: een gesprek beginnen, zoals hier duidelijk blijkt.> antwoordde en zei tot hem: Laat niemand [enige] vrucht meer van u eten in eeuwigheid. En zijn discipelen hoorden het.",
+      "source_text": "καὶ ἀποκριθεὶς ὁ Ἰησοῦς εἶπεν αὐτῇ, Μηκέτι ἐκ σοῦ εἰς τὸν αἰῶνα μηδεὶς καρπὸν φάγοι. καὶ ἤκουον οἱ μαθηταὶ αὐτοῦ.",
+      "generated_at": "2026-05-17T11:45:29.296918Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "text": "Optatief 'Niemant en ete' → 'Laat niemand eten': SV-negatieve optatief zonder hulpwerkwoord (Gr. μηδεὶς...φάγοι) is niet productief in modern Nederlands; jussive 'Laat ...' bewaart SV-zinsbouw en bevel-modaliteit. HSV-spiegel bevestigt (drempel-§2.7)."
+        }
+      ]
+    },
+    {
+      "verse_number": 15,
+      "original": "Ende sy quamen te Ierusalem, $Matth. 21.12. Luce 19.45. Ioan. 2.14.$ ende Iesus in den tempel gegaen zijnde, begon de gene, die in den tempel verkochten ende kochten, uyt te drijven: ende de tafelen der wisselaers ende de sitstoelen der gene die de duyven verkochten keerde hy om.",
+      "modernized": "En zij kwamen te Jeruzalem, $Mt. 21:12; Lk. 19:45; Jh. 2:14$ en toen Jezus in de tempel was gegaan, begon hij hen die in de tempel verkochten en kochten, uit te drijven; en hij keerde de tafels van de wisselaars en de stoelen van hen die de duiven verkochten om.",
+      "source_text": "Καὶ ἔρχονται εἰς Ἱεροσόλυμα· καὶ εἰσελθὼν ὁ Ἰησοῦς εἰς τὸ ἱερὸν ἤρξατο ἐκβάλλειν τοὺς πωλοῦντας καὶ ἀγοράζοντας ἐν τῷ ἱερῷ· καὶ τὰς τραπέζας τῶν κολλυβιστῶν, καὶ τὰς καθέδρας τῶν πωλούντων τὰς περιστερὰς κατέστρεψε·",
+      "generated_at": "2026-05-17T11:46:11.284485Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
