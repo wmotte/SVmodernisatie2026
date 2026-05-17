@@ -257,11 +257,17 @@
     {
       "verse_number": 23,
       "original": "In de opstandinge dan, wanneer sy sullen opgestaen zijn, wiens wijf sal sy van dese zijn? want die seven hebben haer tot een wijf gehadt.",
-      "modernized": "In de opstanding dan, wanneer zij zullen opgestaan zijn, wiens vrouw zal zij van dezen zijn? Want die zeven hebben haar tot vrouw gehad.",
+      "modernized": "In de opstanding dan, wanneer zij zullen opgestaan zijn, wiens vrouw zal zij van hen zijn? Want die zeven hebben haar tot vrouw gehad.",
       "source_text": "ἐν τῇ οὖν ἀναστάσει, ὅταν ἀναστῶσι, τίνος αὐτῶν ἔσται γυνή; οἱ γὰρ ἑπτὰ ἔσχον αὐτὴν γυναῖκα.",
       "generated_at": "2026-05-17T19:42:17.690422Z",
       "model": "claude-opus-4-7[1m]",
-      "memory_examples_used": 5
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "tekst": "'van dese' → 'van hen' (concordantie met LUK 20:33 modernisering 'wiens vrouw van hen zal zij zijn'); SV-verbogen demonstratief 'dezen' (gen./dat. plur.) vervangen door persoonlijk voornaamwoord, omdat het antecedent (de zeven mannen) helder is en HSV/LUK 20:33 hetzelfde patroon volgen."
+        }
+      ]
     },
     {
       "verse_number": 24,
