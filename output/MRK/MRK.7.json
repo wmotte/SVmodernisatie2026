@@ -150,6 +150,220 @@
           "choice": "'die zijn het die de mens verontreinigen' (plural) gekozen om SV1657-plurale 'ontreynigen' en Gr. τὰ κοινοῦντα (plurale participium) te volgen; tijdens semantic-review gewijzigd vanuit 'dat zijn het wat de mens verontreinigt' (singular) na HSV-spiegelbevinding"
         }
       ]
+    },
+    {
+      "verse_number": 16,
+      "original": "<Siet Matth. 11. vers 15.> Soo yemant ooren heeft om te hooren, die hoore.",
+      "modernized": "<Zie $Mt. 11:15$.> Als iemand oren heeft om te horen, die hore.",
+      "source_text": "εἴ τις ἔχει ὦτα ἀκούειν ἀκουέτω.",
+      "generated_at": "2026-05-16T20:53:49.861447Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 17,
+      "original": "$Matth. 15.15.$ Ende doe hy van de schare in huys gekomen was, vraeghden hem sijne discipelen van de <Gr. Parabel, welck woort beteeckent niet alleen eene gelijckenisse, maer oock eene bysondere leeringe ofte spreucke.> gelijckenisse.",
+      "modernized": "$Mt. 15:15$ En toen hij van de schare in huis gekomen was, vroegen hem zijn discipelen naar de <Grieks: Parabel; welk woord betekent niet alleen een gelijkenis, maar ook een bijzondere leer of spreuk.> gelijkenis.",
+      "source_text": "καὶ ὅτε εἰσῆλθεν εἰς οἶκον ἀπὸ τοῦ ὄχλου, ἐπηρώτων αὐτὸν οἱ μαθηταὶ αὐτοῦ περὶ τῆς παραβολῆς.",
+      "generated_at": "2026-05-16T20:54:33.071254Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "preterite van 'vragen'",
+          "context": "hoofdtekst",
+          "choice": "'vraagden' → 'vroegen' (modern sterk-werkwoord preteritum); HSV-spiegel bevestigt; consistent met v.5 in dit hoofdstuk en MRK 4:10"
+        }
+      ]
+    },
+    {
+      "verse_number": 18,
+      "original": "Ende hy seyde tot haer, Zijt oock ghy alsoo onwetende? En verstaet ghy niet, dat al wat van buyten in den mensche ingaet, hem niet en kan ontreynigen?",
+      "modernized": "En hij zei tot hen: Bent ook u zo onwetend? Verstaat u niet, dat alles wat van buiten in de mens ingaat, hem niet kan verontreinigen?",
+      "source_text": "καὶ λέγει αὐτοῖς, Οὕτω καὶ ὑμεῖς ἀσύνετοί ἐστε; οὐ νοεῖτε ὅτι πᾶν τὸ ἔξωθεν εἰσπορευόμενον εἰς τὸν ἄνθρωπον οὐ δύναται αὐτὸν κοινῶσαι,",
+      "generated_at": "2026-05-16T20:55:27.036949Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "concordantie 'verstaen'",
+          "context": "hoofdtekst",
+          "choice": "'Begrijpt u niet' → 'Verstaat u niet' (concordantie met MRK 4:13 'gelijkenissen verstaan'; SV-verstaen consistent als verstaan gerendeerd)"
+        }
+      ]
+    },
+    {
+      "verse_number": 19,
+      "original": "Want het en gaet niet in sijn herte, maer in den buyck, ende gaet in de heymelickheyt uyt, <D. ’t gene onbequaem is tot voedsel, wort daer door als onreyn uytgeworpen, ende wort het blijvende voedsel daer door gereynight.> reynigende alle de spijsen.",
+      "modernized": "Want het gaat niet in zijn hart, maar in de buik, en gaat in het verborgene uit, <Dat is, wat ongeschikt is tot voedsel wordt daardoor als onrein uitgeworpen, en het blijvende voedsel wordt daardoor gereinigd.> en zo reinigt het alle spijzen.",
+      "source_text": "ὅτι οὐκ εἰσπορεύεται αὐτοῦ εἰς τὴν καρδίαν, ἀλλ’ εἰς τὴν κοιλίαν· καὶ εἰς τὸν ἀφεδρῶνα ἐκπορεύεται, καθαρίζον πάντα τὰ βρώματα.",
+      "generated_at": "2026-05-16T21:01:41.811564Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 20,
+      "original": "Ende hy seyde, Het gene uytgaet uyt den mensche, dat ontreynight den mensche.",
+      "modernized": "En hij zei: Wat uit de mens uitgaat, dat verontreinigt de mens.",
+      "source_text": "ἔλεγε δὲ ὅτι Τὸ ἐκ τοῦ ἀνθρώπου ἐκπορευόμενον, ἐκεῖνο κοινοῖ τὸν ἄνθρωπον.",
+      "generated_at": "2026-05-16T21:02:10.639931Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 21,
+      "original": "$Genes. 6.5. ende 8.21. Ierem. 17.9. Proverb. 6.14.$ Want van binnen uyt het herte der menschen komen voort, quade <Of, overleggingen, overdenckingen, of, t’samensprekingen.> gedachten, overspelen, hoererijen, dootslagen,",
+      "modernized": "$Gn. 6:5; 8:21; Jr. 17:9; Sp. 6:14$ Want van binnen, uit het hart van de mensen, komen voort: kwade <Of, overleggingen, overdenkingen, of: samensprekingen.> gedachten, overspelen, hoererijen, doodslagen,",
+      "source_text": "ἔσωθεν γάρ, ἐκ τῆς καρδίας τῶν ἀνθρώπων, οἱ διαλογισμοὶ οἱ κακοὶ ἐκπορεύονται, μοιχεῖαι, πορνεῖαι, φόνοι,",
+      "generated_at": "2026-05-17T00:02:01.173967Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 22,
+      "original": "Dieverijen, <Ofte, begeerten van altijt meer ende meer te hebben.> gierigheden, boosheden, bedrogh, <Of, dertelheyt, geyligheyt.> ontuchtigheyt, <D. nijdigheyt, ofte afgunstigheyt. siet Matth. 20.15.> boose ooge, lasteringe, hoovaerdije, <Of, dwaesheyt.> onverstant.",
+      "modernized": "Diefstallen, <Of, begeerten om altijd meer en meer te hebben.> hebzucht, boosheden, bedrog, <Of, dartelheid, geilheid.> ontucht, <Dat is, nijdigheid of afgunst. Zie $Mt. 20:15$.> een boos oog, lastering, hoogmoed, <Of, dwaasheid.> onverstand.",
+      "source_text": "κλοπαί, πλεονεξίαι, πονηρίαι, δόλος, ἀσέλγεια, ὀφθαλμὸς πονηρός, βλασφημία, ὑπερηφανία, ἀφροσύνη·",
+      "generated_at": "2026-05-17T00:08:40.277468Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 23,
+      "original": "Alle dese boose dingen <Dat is, hebben haren oorspronck in het herte, ende worden daer na uyterlick volbracht. Siet Iacob. 1.15.> komen voort van binnen, ende ontreynigen den mensche.",
+      "modernized": "Al deze boze dingen <Dat is, hebben hun oorsprong in het hart, en worden daarna uiterlijk volbracht. Zie $Jk. 1:15$.> komen van binnen voort, en verontreinigen de mens.",
+      "source_text": "πάντα ταῦτα τὰ πονηρὰ ἔσωθεν ἐκπορεύεται, καὶ κοινοῖ τὸν ἄνθρωπον.",
+      "generated_at": "2026-05-17T00:09:17.335426Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 24,
+      "original": "$Matth. 15.21.$ Ende van daer opstaende gingh hy wech <D. tot ontrent. Want Christus en schijnt selve noyt in de steden der Heydenen gepredickt te hebben. Siet vers 27, ende 31. Matth. 15. vers 24.> na de lantpalen van Tyrus ende Sidon: ende in een huys gegaen zijnde, en wilde hy niet dat het yemant wiste, ende hy en konde [nochtans] niet verborgen zijn.",
+      "modernized": "$Mt. 15:21$ En toen hij vandaar opstond, ging hij weg <Dat is, tot in de omgeving. Want Christus schijnt zelf nooit in de steden van de Heidenen gepredikt te hebben. Zie vers 27 en 31. $Mt. 15:24$.> naar de grensgebieden van Tyrus en Sidon; en toen hij in een huis was gegaan, wilde hij niet dat iemand het wist, en hij kon [toch] niet verborgen blijven.",
+      "source_text": "Καὶ ἐκεῖθεν ἀναστὰς ἀπῆλθεν εἰς τὰ μεθόρια Τύρου καὶ Σιδῶνος. καὶ εἰσελθὼν εἰς τὴν οἰκίαν, οὐδένα ἤθελε γνῶναι, καὶ οὐκ ἠδυνήθη λαθεῖν.",
+      "generated_at": "2026-05-17T00:11:05.373303Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 25,
+      "original": "Want een vrouwe, welckers dochterken eenen onreynen geest hadde, van hem gehoort hebbende, quam ende viel neder aen sijne voeten.",
+      "modernized": "Want een vrouw van wie het dochtertje een onreine geest had, kwam, toen zij van hem gehoord had, en viel neer aan zijn voeten.",
+      "source_text": "ἀκούσασα γὰρ γυνὴ περὶ αὐτοῦ, ἧς εἶχε τὸ θυγάτριον αὐτῆς πνεῦμα ἀκάθαρτον, ἐλθοῦσα προσέπεσε πρὸς τοὺς πόδας αὐτοῦ·",
+      "generated_at": "2026-05-17T00:15:51.379978Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 26,
+      "original": "Dese nu was een <D. Heydensche: gelijck de Ioden ende Griecken doorgaens tegen malkanderen gestelt worden.> Griecksche vrouwe, <D. van afkomste.> van geboorte uyt <Want Tyrus ende Sidon waren gelegen in Phenicien, welck een deel van Syrien was, gelegen aen de Middelantsche zee.> Syrophenicien, ende sy badt hem, dat hy den duyvel uytwierpe uyt hare dochter.",
+      "modernized": "Deze nu was een <Dat is, een Heidense; zoals de Joden en Grieken doorgaans tegenover elkaar gesteld worden.> Griekse vrouw, <Dat is, van afkomst.> van geboorte uit <Want Tyrus en Sidon waren gelegen in Fenicië, dat een deel van Syrië was, gelegen aan de Middellandse Zee.> Syrofenicië, en zij smeekte hem dat hij de duivel uit haar dochter zou uitwerpen.",
+      "source_text": "ἦν δὲ ἡ γυνὴ Ἑλληνίς, Συροφοίνισσα τῷ γένει· καὶ ἠρώτα αὐτὸν ἵνα τὸ δαιμόνιον ἐκβάλλῃ ἐκ τῆς θυγατρὸς αὐτῆς.",
+      "generated_at": "2026-05-17T00:16:40.027618Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 27,
+      "original": "Maer Iesus seyde tot haer, Laet eerst de kinderen verzadight worden: Want het en is niet <Gr. eerlick, ofte, goet.> betamelick, dat men het broot der kinderen neme, ende den <Siet Matth. cap. 15. vers 26.> hondekens [voor] werpe.",
+      "modernized": "Maar Jezus zei tot haar: Laat eerst de kinderen verzadigd worden; want het is niet <Grieks: eerlijk, of: goed.> betamelijk dat men het brood van de kinderen neemt en het <Zie $Mt. 15:26$.> aan de hondjes [voor]werpt.",
+      "source_text": "ὁ δὲ Ἰησοῦς εἶπεν αὐτῇ, Ἄφες πρῶτον χορτασθῆναι τὰ τέκνα· οὐ γὰρ καλόν ἐστι λαβεῖν τὸν ἄρτον τῶν τέκνων καὶ βαλεῖν τοῖς κυναρίοις.",
+      "generated_at": "2026-05-17T00:17:09.102498Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 28,
+      "original": "Maer sy antwoordde ende seyde tot hem, Ia Heere, doch oock de hondekens eten onder de tafel van de kruymkens der kinderen.",
+      "modernized": "Maar zij antwoordde en zei tot hem: Ja Heere, maar ook de hondjes eten onder de tafel van de kruimels van de kinderen.",
+      "source_text": "ἡ δὲ ἀπεκρίθη καὶ λέγει αὐτῷ, Ναί, Κύριε· καὶ γὰρ τὰ κυνάρια ὑποκάτω τῆς τραπέζης ἐσθίει ἀπὸ τῶν ψιχίων τῶν παιδίων.",
+      "generated_at": "2026-05-17T00:23:23.683651Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 29,
+      "original": "Ende hy seyde tot haer, Om deses <Namel. waer mede ghy u geloove ende betrouwen op my betuyght hebt.> woorts wille gaet henen, de duyvel is uyt uwe dochter uytgevaren.",
+      "modernized": "En hij zei tot haar: Om dit <Namelijk, waarmee u uw geloof en vertrouwen op mij betuigd hebt.> woord ga heen; de duivel is uit uw dochter uitgevaren.",
+      "source_text": "καὶ εἶπεν αὐτῇ, Διὰ τοῦτον τὸν λόγον ὕπαγε· ἐξελήλυθε τὸ δαιμόνιον ἐκ τῆς θυγατρός σου.",
+      "generated_at": "2026-05-17T00:24:04.954929Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 30,
+      "original": "Ende als sy in haer huys quam, vondt sy dat de duyvel <Gr. uytgegaen.> uytgevaren was, ende de dochter <Gr. geworpen.> liggende op het bedde.",
+      "modernized": "En toen zij in haar huis kwam, vond zij dat de duivel <Grieks: uitgegaan.> uitgevaren was, en de dochter <Grieks: geworpen.> liggend op het bed.",
+      "source_text": "καὶ ἀπελθοῦσα εἰς τὸν οἶκον αὐτῆς, εὗρε τὸ δαιμόνιον ἐξεληλυθός, καὶ τὴν θυγατέρα βεβλημένην ἐπὶ τῆς κλίνης.",
+      "generated_at": "2026-05-17T00:24:34.246838Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 31,
+      "original": "$Matth. 15.29.$ Ende hy wederom wech gegaen zijnde van de lantpalen Tyri ende Sidonis, quam aen de zee van Galilea, door het midden der lantpalen van <Siet van dit lant Matth. 4.25.> Decapolis.",
+      "modernized": "$Mt. 15:29$ En toen hij weer was weggegaan uit de grensgebieden van Tyrus en Sidon, kwam hij aan de zee van Galilea, door het midden van de grensgebieden van <Zie over dit land $Mt. 4:25$.> Decapolis.",
+      "source_text": "Καὶ πάλιν ἐξελθὼν ἐκ τῶν ὁρίων Τύρου καὶ Σιδῶνος, ἦλθε πρὸς τὴν θάλασσαν τῆς Γαλιλαίας, ἀνὰ μέσον τῶν ὁρίων Δεκαπόλεως.",
+      "generated_at": "2026-05-17T00:29:44.948034Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 32,
+      "original": "$Matth. 9.32. Luce 11.14.$ Ende sy brachten tot hem eenen dooven, die swaerlick sprack, ende baden hem dat hy <Namelick, om hem te genesen: alsoo hy gewoon was sulcks met oplegginge sijner handen, aenraken, ende andere uytwendige teeckenen te doen.> de hant op hem leyde.",
+      "modernized": "$Mt. 9:32; Lk. 11:14$ En zij brachten tot hem een dove, die moeilijk sprak, en smeekten hem dat hij <Namelijk, om hem te genezen, aangezien hij gewoon was zulks met het opleggen van zijn handen, het aanraken, en andere uiterlijke tekenen te doen.> de hand op hem zou leggen.",
+      "source_text": "καὶ φέρουσιν αὐτῷ κωφὸν μογιλάλον, καὶ παρακαλοῦσιν αὐτὸν ἵνα ἐπιθῇ αὐτῷ τὴν χεῖρα.",
+      "generated_at": "2026-05-17T00:30:26.231377Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 33,
+      "original": "Ende hem van der schare <Ofte, bezijden.> alleen genomen hebbende, <Dese teeckenen heeft Christus gebruyckt, om dat tusschen deselve, ende de kracht Godts, in het doorbooren van de ooren, ende losmakinge van de tonge eenige gelijckenisse is.> stack hy sijne vingeren in sijne ooren, ende gespogen hebbende raeckte hy sijne tonge aen.",
+      "modernized": "En toen hij hem van de schare <Of, terzijde.> alleen genomen had, <Deze tekenen heeft Christus gebruikt, omdat er tussen deze, en de kracht Gods, in het doorboren van de oren, en het losmaken van de tong, enige gelijkenis is.> stak hij zijn vingers in zijn oren, en nadat hij gespuwd had, raakte hij zijn tong aan.",
+      "source_text": "καὶ ἀπολαβόμενος αὐτὸν ἀπὸ τοῦ ὄχλου κατ’ ἰδίαν, ἔβαλε τοὺς δακτύλους αὐτοῦ εἰς τὰ ὦτα αὐτοῦ, καὶ πτύσας ἥψατο τῆς γλώσσης αὐτοῦ,",
+      "generated_at": "2026-05-17T00:31:01.626319Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 34,
+      "original": "Ende <Namelick, om sijnen Vader te bidden, gelijck te sien is Ioan. 11.41.> opwaerts siende na den hemel, <Namelick, uyt medelijden over de elende der menschen, waer van dese man als een spiegel was.> suchtede hy, ende seyde tot hem, Ephphatha, dat is, wort geopent.",
+      "modernized": "En <Namelijk, om zijn Vader te bidden, zoals te zien is $Jh. 11:41$.> keek hij omhoog naar de hemel, en <Namelijk, uit medelijden over de ellende van de mensen, waarvan deze man als een spiegel was.> zuchtte, en zei tot hem: Effatha, dat is: word geopend.",
+      "source_text": "καὶ ἀναβλέψας εἰς τὸν οὐρανόν, ἐστέναξε, καὶ λέγει αὐτῷ, Ἐφφαθά, ὅ ἐστι, Διανοίχθητι.",
+      "generated_at": "2026-05-17T00:37:24.605275Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 35,
+      "original": "Ende terstont wierden sijne ooren geopent, ende de bandt sijner tonge wiert los, ende hy sprack recht.",
+      "modernized": "En onmiddellijk werden zijn oren geopend, en de band van zijn tong werd los, en hij sprak goed.",
+      "source_text": "καὶ εὐθέως διηνοίχθησαν αὐτοῦ αἱ ἀκοαί· καὶ ἐλύθη ὁ δεσμὸς τῆς γλώσσης αὐτοῦ, καὶ ἐλάλει ὀρθῶς.",
+      "generated_at": "2026-05-17T00:37:59.383540Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 36,
+      "original": "Ende hy geboodt henlieden dat sy het <De reden hier van siet Matth. 12. vers 16.> niemant seggen en souden: maer wat hy haer oock geboodt, soo verkondighden sy het des te <Gr. overvloediger.> meer.",
+      "modernized": "En hij gebood hun dat zij het <De reden hiervan zie $Mt. 12:16$.> aan niemand zouden zeggen; maar hoezeer hij het hun ook gebood, des te <Grieks: overvloediger.> meer verkondigden zij het.",
+      "source_text": "καὶ διεστείλατο αὐτοῖς ἵνα μηδενὶ εἴπωσιν· ὅσον δὲ αὐτὸς αὐτοῖς διεστέλλετο, μᾶλλον περισσότερον ἐκήρυσσον.",
+      "generated_at": "2026-05-17T00:38:34.446307Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 37,
+      "original": "Ende sy ontsetteden haer boven maten seer, seggende, $Genes. 1.31.$ Hy heeft alles wel gedaen, ende hy maeckt dat de doove hooren, ende de stomme spreken.",
+      "modernized": "En zij raakten buitengewoon buiten zichzelf, en zeiden: $Gn. 1:31$ Hij heeft alles goed gedaan, en hij maakt dat de doven horen en de stommen spreken.",
+      "source_text": "καὶ ὑπερπερισσῶς ἐξεπλήσσοντο, λέγοντες, Καλῶς πάντα πεποίηκε· καὶ τοὺς κωφοὺς ποιεῖ ἀκούειν, καὶ τοὺς ἀλάλους λαλεῖν.",
+      "generated_at": "2026-05-17T00:43:55.196816Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
