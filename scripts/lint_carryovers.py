@@ -1136,6 +1136,11 @@ STOPLIST: frozenset[str] = frozenset({
     "wentelde",       # ovt. van 'wentelen' — gewoon modern NL ('hij wentelde zich al schuimende', v20); productief werkwoord
     # MRK 9:37-39 carry-overs (legitiem)
     "lasteren",       # infinitief — gewoon modern NL (v39, kanttekening 'lasteren of vloeken'); vgl. STOPLIST 'lasterde', 'lasteringen', 'lastert'
+    # MRK 9:40-42 carry-overs (legitiem)
+    "stelt",          # 3e p. enk. praesens van 'stellen' / 'zich stellen' — gewoon modern NL (v40 kanttekening 'die zich niet alleen niet tegen ons stelt')
+    "beker",          # zelfst. nw. — gewoon modern NL (v41 'een beker water', Gr. ποτήριον)
+    "loon",           # zelfst. nw. — gewoon modern NL (v41 'hij zal zijn loon geenszins verliezen', Gr. μισθόν)
+    "ergert",         # 3e p. enk. praesens van 'ergeren' (al in STOPLIST) — SV-concordantiewoord σκανδαλίσῃ (v42); vgl. 'ergeren', 'ergernissen'
 })
 
 
