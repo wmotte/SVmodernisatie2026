@@ -433,6 +433,33 @@
       "generated_at": "2026-05-17T05:04:03.400302Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 3
+    },
+    {
+      "verse_number": 43,
+      "original": "Ende sy namen op twaelf volle korven brocken, ende van de visschen.",
+      "modernized": "En zij namen twaalf volle korven met brokken op, en van de vissen.",
+      "source_text": "καὶ ἦραν κλασμάτων δώδεκα κοφίνους πλήρεις, καὶ ἀπὸ τῶν ἰχθύων.",
+      "generated_at": "2026-05-17T05:10:02.153229Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 44,
+      "original": "Ende die daer de brooden gegeten hadden, waren ontrent vijf duysent mannen.",
+      "modernized": "En die de broden gegeten hadden, waren ongeveer vijfduizend mannen.",
+      "source_text": "καὶ ἦσαν οἱ φαγόντες τοὺς ἄρτους ὡσεὶ πεντακισχίλιοι ἄνδρες.",
+      "generated_at": "2026-05-17T05:10:08.977858Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 45,
+      "original": "$Matth. 14.22. Ioan. 6.17.$ Ende terstont dwangh hy sijne discipelen in ’t schip te gaen, ende voor henen te varen aen d’ander zijde <Want Ioan. 6. vers 17. staet datse na Capernaum voeren, het welck tegen over Bethsaida lagh.> tegen [over] Bethsaida, terwijlen hy de schare van hem soude laten.",
+      "modernized": "$Mt. 14:22; Jh. 6:17$ En meteen dwong hij zijn discipelen in het schip te gaan en vooruit te varen naar de andere zijde <Want $Jh. 6:17$ staat dat zij naar Kapernaüm voeren, dat tegenover Bethsaïda lag.> tegen [over] Bethsaïda, terwijl hij de schare van hem zou laten.",
+      "source_text": "Καὶ εὐθέως ἠνάγκασε τοὺς μαθητὰς αὐτοῦ ἐμβῆναι εἰς τὸ πλοῖον, καὶ προάγειν εἰς τὸ πέραν πρὸς Βηθσαϊδάν, ἕως αὐτὸς ἀπολύσῃ τὸν ὄχλον.",
+      "generated_at": "2026-05-17T05:11:16.303232Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
