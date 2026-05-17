@@ -106,6 +106,51 @@
           "tekst": "Kanttekening: 'voor goet kende' (SV-idioom: 'als goed erkende / goedkeurde') vervangen door 'voor goed erkende'. Modern 'kende' (= 'wist') verliest de SV-betekenis van erkenning/goedkeuring; semantische verschuiving (false friend in kanttekening)."
         }
       ]
+    },
+    {
+      "verse_number": 10,
+      "original": "En hebt ghy oock dese Schrift niet gelesen? <Siet hier van de verklaringe Matth. cap. 21. vers 42.> De $Psalm 118.22. Iesa. 28.16. Matth. 21.42. Luce 20.17. Actor. 4.11. Rom. 9.33. 1.Petr. 2.6.$ steen, dien de bouwlieden verworpen hebben, dese is geworden tot een hooft des hoecks.",
+      "modernized": "En hebt u ook deze Schrift niet gelezen? <Zie hiervan de verklaring $Mt. 21:42$.> De $Ps. 118:22; Js. 28:16; Mt. 21:42; Lk. 20:17; Hd. 4:11; Rm. 9:33; 1Pt. 2:6$ steen die de bouwlieden verworpen hebben, deze is geworden tot een hoofd van de hoek.",
+      "source_text": "οὐδὲ τὴν γραφὴν ταύτην ἀνέγνωτε, Λίθον ὃν ἀπεδοκίμασαν οἱ οἰκοδομοῦντες, οὗτος ἐγενήθη εἰς κεφαλὴν γωνίας·",
+      "generated_at": "2026-05-17T14:30:15.000000Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "tekst": "'hooft des hoecks' → 'hoofd van de hoek' (SV-getrouw, niet HSV 'hoeksteen'). Concordant met LUK 20:17 modernisering en parallelle perikoop MAT 21:42 (psalmcitaat Ps. 118:22)."
+        }
+      ]
+    },
+    {
+      "verse_number": 11,
+      "original": "Van den Heere is <And. dese sake, ofte, dit, namelick, hooft des hoecks, is van den Heere geworden.> dit geschiet, ende het is wonderlick in onse oogen.",
+      "modernized": "Van de Heere is <Anders: deze zaak, of, dit, namelijk, hoofd van de hoek, is van de Heere geworden.> dit gebeurd, en het is wonderlijk in onze ogen.",
+      "source_text": "παρὰ Κυρίου ἐγένετο αὕτη, καὶ ἔστι θαυμαστὴ ἐν ὀφθαλμοῖς ἡμῶν;",
+      "generated_at": "2026-05-17T14:31:05.000000Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "tekst": "'geschiet/geschiedt' → 'gebeurd' conform ARCHAISMEN.md (paradigma γίνομαι, ook in kanttekening: 'geworden' blijft als perfectum). SV-woordvolgorde 'Van de Heere is dit gebeurd' behouden (niet HSV 'Dit is door de Heere geschied'). Kanttekening 'hooft des hoecks' → 'hoofd van de hoek' (concordantie)."
+        }
+      ]
+    },
+    {
+      "verse_number": 12,
+      "original": "Ende sy sochten hem te vangen, maer sy vreesden de schare: want sy verstonden dat hy die gelijckenisse op haer sprack: ende sy verlieten hem ende gingen wech.",
+      "modernized": "En zij zochten hem te vangen, maar zij vreesden de schare; want zij verstonden dat hij die gelijkenis op hen sprak; en zij verlieten hem en gingen weg.",
+      "source_text": "καὶ ἐζήτουν αὐτὸν κρατῆσαι, καὶ ἐφοβήθησαν τὸν ὄχλον· ἔγνωσαν γὰρ ὅτι πρὸς αὐτοὺς τὴν παραβολὴν εἶπε· καὶ ἀφέντες αὐτὸν ἀπῆλθον.",
+      "generated_at": "2026-05-17T14:31:55.000000Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "tekst": "'sy verstonden' → 'zij verstonden' (SV-getrouw, conform MRK 9:32, LUK 2:50, LUK 9:45, LUK 18:34). 'schare' behouden (niet HSV 'menigte'). 'zochten' behouden (niet HSV 'probeerden')."
+        }
+      ]
     }
   ]
 }
