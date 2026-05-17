@@ -319,6 +319,8 @@ STOPLIST: frozenset[str] = frozenset({
     "voorschrift", # zelfstandig nw — modern NL ("een voorschrift voor het gebed")
     # Vraag om teken / Beëlzebul (Lk 11:16-18) — gewone moderne NL woorden
     "begeerden",   # verleden tijd van 'begeren' — modern NL (formeel/religieus register)
+    "begeerten",   # mv. van 'begeerte' — modern NL (formeel/religieus register, kanttekening MRK 7:22)
+    "boosheden",   # mv. van 'boosheid' — modern NL in opsomming van zonden (MRK 7:22, Greek πονηρίαι)
     "satan",       # eigennaam (de tegenstander) — modern NL, lowercase per SV-patroon
     "verwoest",    # voltooid deelw. van 'verwoesten' — modern NL ("wordt verwoest")
     # Let op: de hele 'geschieden'-paradigma (geschied/geschiedt/geschiedde/
@@ -1059,6 +1061,10 @@ STOPLIST: frozenset[str] = frozenset({
     # MRK 5:26 carry-over — gewone moderne NL woorden
     "geleden",        # volt. dlw. van 'lijden' — gewoon modern NL ('veel had geleden')
     "hare",           # bezittelijk vnw. 'het hare' = haar bezit — gewoon (formeel) modern NL ('al het hare')
+    # MRK 5:38-39 carry-overs (legitiem)
+    "getier",         # zelfst.nw. — gewoon modern NL ('lawaai, kabaal'); kanttekening-gloss op 'beroering' (v38)
+    "gewoel",         # zelfst.nw. — gewoon modern NL ('woelende drukte'); kanttekening-gloss op 'beroering' (v38)
+    "weent",          # 2e p. mv. 'wenen' — zelfde paradigma als STOPLIST 'weende'/'weenden' (v39, 'waarom weent u?')
     # MRK 7:1-3 carry-overs (legitiem)
     "berispten",      # verleden tijd mv. 'berispen' — gewoon modern NL (v2, 'berispten zij hen'); vgl. 'berispen' productief in modern register
     "meenden",        # verleden tijd mv. 'menen' — gewoon modern NL (v2, kanttekening 'de Farizeeën meenden')
@@ -1082,6 +1088,18 @@ STOPLIST: frozenset[str] = frozenset({
     "voldoet",        # tegenw. tijd 3e p. 'voldoen' — gewoon modern NL (v11, '[daarmee voldoet hij]'; SV-toevoeging in [...])
     # MRK 7:13 carry-overs (legitiem)
     "krachteloos",    # bnw — gewoon modern NL ('Gods woord krachteloos maken'); productief in modern Nederlands
+    # MRK 7:19 carry-overs (legitiem)
+    "blijvende",      # tegenw. deelw. 'blijven' — gewoon modern NL ('het blijvende voedsel'); kanttekening v19
+    "voedsel",        # zelfst.nw. — gewoon modern NL ('alle spijzen / voedsel'); kanttekening v19
+    # MRK 7:21 carry-overs (legitiem) — SV-plurale-eigenheid bij zonde-catalogus (Gr. μοιχεῖαι, πορνεῖαι, διαλογισμοὶ)
+    "overspelen",     # zelfst.nw. mv. 'overspel' — SV-plurale concordantie met Gr. μοιχεῖαι; SV-eigenheid behouden
+    "hoererijen",     # zelfst.nw. mv. 'hoererij' — SV-plurale concordantie met Gr. πορνεῖαι; SV-eigenheid behouden
+    "samensprekingen",# zelfst.nw. mv. — SV-glosse op διαλογισμοί in kanttekening v21; productief NL
+    # MRK 7:32 carry-overs (legitiem)
+    "gewoon",         # bijw. — 'gewoon zijn te ...' = gewend zijn; productief modern NL (kanttekening v32)
+    # MRK 7:34 carry-overs (legitiem)
+    "medelijden",     # zelfst.nw. — gewoon modern NL ('uit medelijden over ...'); kanttekening v34
+    "spiegel",        # zelfst.nw. — gewoon modern NL ('als een spiegel zijn'); kanttekening v34
     # MRK 8:7-9 carry-overs (legitiem)
     "voorleggen",     # gewoon modern NL werkwoord ('ter beoordeling voorleggen'); SV-concordant met v6 ('voorleggen')
     "overschot",      # zelfstandig nw — gewoon modern NL ('het overschot van de brokken'); productief synoniem van 'restant'
