@@ -423,6 +423,8 @@ STOPLIST: frozenset[str] = frozenset({
     "jonge",  # gewoon modern NL
     "lieden",  # formeel-bijbels register ('geringe lieden')
     "offer",  # theologische/gewoon NL term
+    "offerande",  # liturgisch/bijbels register ('zout-offerande', $Lv. 2:13$); modern NL (Van Dale)
+    "offeranden",  # mv. van 'offerande'
     "opent",  # 3e pers. ev. van 'openen' — gewoon modern NL
     "opofferen",  # formeel modern NL ('een offer opofferen')
     "twee",  # telwoord
