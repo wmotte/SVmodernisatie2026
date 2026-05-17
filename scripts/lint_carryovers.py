@@ -1148,6 +1148,17 @@ STOPLIST: frozenset[str] = frozenset({
     "knagen",         # infinitief — gewoon modern NL ('knagend geweten' is vast idioom); v44 kanttekening
     "kreupel",        # bnw. — gewoon modern NL (v45 'kreupel het leven in te gaan', Gr. χωλόν)
     "gehenne",        # transliteratie van Gr. γέεννα in kanttekening v45 ('Of: gehenne van het vuur'); theologische term zoals 'mammon', 'coros'
+    # MRK 11:1-3 carry-overs (legitiem)
+    "gereden",        # volt. deelw. van 'rijden' — gewoon modern NL ('Christus daarop gereden heeft', v2 kanttekening); productief werkwoord
+    # MRK 11:9 carry-overs (legitiem)
+    "hosanna",        # Hebreeuws/Aramees-transliteratie van een liturgische roep (v9, ook in origineel); theologische term zoals 'amen', 'abba'
+    # MRK 11:13-15 carry-overs (legitiem)
+    "ontijdige",      # bnw. — gewoon modern NL ('ontijdige bevalling/geboorte/overlijden'); v13-kanttekening 'enige ontijdige vruchten dragen' (out-of-season fruit, παρακαιριάδων-context)
+    # MRK 11:16-18 carry-overs (legitiem)
+    "afvallen",       # infinitief — gewoon modern NL (religieus/politiek 'van het geloof afvallen'); v18-kanttekening 'en hen zou afvallen'
+    # MRK 11:25-27 carry-overs (legitiem)
+    "misdaden",       # zelfst. nw mv. — gewoon modern NL voor SV-concordantiewoord παραπτώματα ('overtredingen/misdaden'); v25, v26 hoofdtekst
+    "verschijnt",     # tegenw. tijd 'verschijnen' — gewoon modern NL ('voor God verschijnt', v25 kanttekening); productief werkwoord
 })
 
 
