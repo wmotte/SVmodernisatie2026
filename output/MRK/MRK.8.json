@@ -155,6 +155,33 @@
       "generated_at": "2026-05-17T04:34:30.154239Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 16,
+      "original": "Ende sy overleyden onder malkanderen, seggende, [Het is,] om dat wy geen brooden en hebben.",
+      "modernized": "En zij overlegden onderling en zeiden: [Het is,] omdat wij geen broden hebben.",
+      "source_text": "καὶ διελογίζοντο πρὸς ἀλλήλους, λέγοντες ὅτι Ἄρτους οὐκ ἔχομεν.",
+      "generated_at": "2026-05-17T04:39:14.634319Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 17,
+      "original": "Ende Iesus [dat] bekennende, seyde tot haer, Wat overleght ghy dat ghy geen brooden en hebt? En bemerckt ghy noch niet, noch en verstaet ghy niet? $Marc. 6.52.$ Hebt ghy noch uw’ <Gr. verweert, of, vereelt. siet de aent. Marc. 6.52.> verhardet herte?",
+      "modernized": "En toen Jezus [dat] bemerkte, zei hij tot hen: Wat overlegt u dat u geen broden hebt? Bemerkt u nog niet en begrijpt u niet? $Mk. 6:52$ Hebt u nog uw <Grieks: vereelt of verweerd. Zie de aantekening bij $Mk. 6:52$.> verharde hart?",
+      "source_text": "καὶ γνοὺς ὁ Ἰησοῦς λέγει αὐτοῖς, Τί διαλογίζεσθε ὅτι ἄρτους οὐκ ἔχετε; οὔπω νοεῖτε, οὐδὲ συνίετε; ἔτι πεπωρωμένην ἔχετε τὴν καρδίαν ὑμῶν;",
+      "generated_at": "2026-05-17T04:40:10.933275Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 18,
+      "original": "Oogen hebbende en siet ghy niet? ende ooren hebbende en hoort ghy niet?",
+      "modernized": "Hebt u ogen en ziet u niet? En hebt u oren en hoort u niet?",
+      "source_text": "ὀφθαλμοὺς ἔχοντες οὐ βλέπετε; καὶ ὦτα ἔχοντες οὐκ ἀκούετε;",
+      "generated_at": "2026-05-17T04:40:31.401194Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
