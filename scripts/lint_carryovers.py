@@ -537,6 +537,7 @@ STOPLIST: frozenset[str] = frozenset({
     "water",  # gewoon modern NL
     # LUK 3:19-21 carry-overs (legitiem)
     "bestraft",  # past participle van 'bestraffen' — gewoon modern NL
+    "bestraffen",  # infinitief van 'bestraffen' — gewoon modern NL (MRK 8:32, 'begon hem te bestraffen'); vgl. STOPLIST 'bestraft', 'bestrafte', 'bestraften'
     "gesloten",  # past participle van 'sluiten' — gewoon modern NL
     "herodias",  # eigennaam (vrouw van Herodes / Filippus)
     # LUK 3:22-24 carry-overs (legitiem)
@@ -1120,6 +1121,12 @@ STOPLIST: frozenset[str] = frozenset({
     "vereelt",        # SV-glosse op Gr. πεπωρωμένην ('vereelt of verweerd'); kanttekening v17 bewaart de SV-gloss-terminologie expliciet (anatomisch 'vereeld/eelt'); geen archaïsme-in-hoofdtekst maar verklarende glosse
     # MRK 8:22-24 carry-overs (legitiem)
     "andreas",        # eigennaam apostel — kanttekening v22 noemt Petrus, Andreas en Filippus als afkomstig uit Betsaïda ($Jh. 1:45$)
+    # MRK 8:25-27 carry-overs (legitiem)
+    "beelden",        # infinitief-deel van 'afbeelden' (v25-kanttekening: 'om af te beelden dat onze geestelijke verlichting...') — gewoon modern NL
+    # MRK 8:28-30 carry-overs (legitiem)
+    "beloofde",       # verleden tijd / volt. deelw. van 'beloven' — gewoon modern NL ('de beloofde Messias'); vgl. STOPLIST 'beloofden' (v29 kanttekening)
+    # MRK 8:34-36 carry-overs (legitiem)
+    "baten",          # ww. infinitief — gewoon modern NL ('wat zou het de mens baten', MRK 8:36); productief in vaste verbindingen ('wat baat het', 'het mag niet baten')
     # MRK 9:10-12 carry-overs (legitiem)
     "twijfelden",     # ovt. mv. van 'twijfelen' — gewoon modern NL ('zij twijfelden aan de algemene opstanding'); kanttekening v10
 })
