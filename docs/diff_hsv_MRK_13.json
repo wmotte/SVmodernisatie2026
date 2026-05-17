@@ -154,24 +154,37 @@
     },
     {
       "verse_number": 16,
-      "status": "pending",
-      "sv2026": "",
+      "status": "modernized",
+      "sv2026": "En wie op <Of, in het veld.> de akker is, die keere niet terug, <Grieks: tot de dingen die achter zijn.> om zijn kleed te nemen.",
       "hsv": "en wie op de akker is, moet niet terugkeren naar wat hij achterliet, om zijn bovenkleed te halen.",
       "original": "Ende die <Ofte, in ’t velt.> op den acker is, en keere niet weder <Gr. tot die dingen die achter zijn.> te rugge, om sijn kleet te nemen."
     },
     {
       "verse_number": 17,
-      "status": "pending",
-      "sv2026": "",
+      "status": "modernized",
+      "sv2026": "Maar wee de zwangeren, en de zogenden [vrouwen] in die dagen.",
       "hsv": "Maar wee de zwangere en de zogende [vrouwen] in die dagen!",
       "original": "Maer wee den bevruchten ende den zoogenden [vrouwen] in die dagen."
     },
     {
       "verse_number": 18,
-      "status": "pending",
-      "sv2026": "",
+      "status": "modernized",
+      "sv2026": "Maar bidt dat uw vlucht niet geschiede in de winter.",
       "hsv": "En bid dat uw vlucht niet zal plaatsvinden in de winter.",
-      "original": "Doch biddet dat uwe vlucht niet en geschiede des winters."
+      "original": "Doch biddet dat uwe vlucht niet en geschiede des winters.",
+      "notes": [
+        {
+          "type": "context",
+          "subject": "liturgische conjunctief geschiede behouden",
+          "context": "hoofdtekst",
+          "choice": "3e-pers. presens-conjunctief geschiede aangehouden in gebedsformule (vgl. Onze Vader, $Lk. 11:2$ uw wil geschiede; $Lk. 22:42$ de uwe, geschiede)",
+          "alternatives": [
+            "plaatsvinde",
+            "gebeure"
+          ],
+          "reason": "Jezus introduceert hier expliciet een gebedspetitie (biddet dat); de stoplist-comment laat geschiede als optatief-vorm bewust buiten de validate-blacklist voor dit register."
+        }
+      ]
     },
     {
       "verse_number": 19,
