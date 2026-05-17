@@ -88,6 +88,33 @@
       "generated_at": "2026-05-17T11:35:22.560149Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 10,
+      "original": "Gezegent [zy] het Koninckrijck onses vaders Davids, het welck komt in den name des Heeren: Hosanna <D. ghy die daer zijt in de hooghste hemelen.> in de hooghste [hemelen.]",
+      "modernized": "Gezegend [zij] het Koninkrijk van onze vader David, dat komt in de naam van de Heere: Hosanna <Dat is, u die daar bent in de hoogste hemelen.> in de hoogste [hemelen].",
+      "source_text": "εὐλογημένη ἡ ἐρχομένη βασιλεία ἐν ὀνόματι Κυρίου τοῦ πατρὸς ἡμῶν Δαβίδ· Ὡσαννὰ ἐν τοῖς ὑψίστοις.",
+      "generated_at": "2026-05-17T11:39:13.161283Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 11,
+      "original": "$Matth. 21.12, 14. Luce 19.45. Ioan. 2 14.$ Ende Iesus quam binnen Ierusalem, ende in den tempel, ende als hy alles rontom besien hadde, ende het nu <Gr. avonts ure.> avontstont was, gingh hy uyt na Bethanien met de twaelve.",
+      "modernized": "$Mt. 21:12,14; Lk. 19:45; Jh. 2:14$ En Jezus kwam binnen Jeruzalem, en in de tempel; en toen hij alles rondom bekeken had, en het nu <Grieks: avondure.> avondstond was, ging hij naar Bethanië, met de twaalf.",
+      "source_text": "Καὶ εἰσῆλθεν εἰς Ἱεροσόλυμα ὁ Ἰησοῦς, καὶ εἰς τὸ ἱερόν· καὶ περιβλεψάμενος πάντα, ὀψίας ἤδη οὔσης τῆς ὥρας, ἐξῆλθεν εἰς Βηθανίαν μετὰ τῶν δώδεκα.",
+      "generated_at": "2026-05-17T11:39:43.213166Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 12,
+      "original": "$Matth. 21.18.$ Ende des anderen daeghs, als sy uyt Bethanien gingen, hongerde hem.",
+      "modernized": "$Mt. 21:18$ En de volgende dag, toen zij uit Bethanië gingen, had hij honger.",
+      "source_text": "Καὶ τῇ ἐπαύριον ἐξελθόντων αὐτῶν ἀπὸ Βηθανίας, ἐπείνασε.",
+      "generated_at": "2026-05-17T11:40:01.809968Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
