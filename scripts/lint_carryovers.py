@@ -1010,6 +1010,7 @@ STOPLIST: frozenset[str] = frozenset({
     # LUK 24:10-12 carry-overs (legitiem)
     "geklap",         # zelfst. nw. — gewoon modern NL register (v11, 'ijdel geklap'); SV/HSV-register
     "geloofden",      # 3e p. mv. verleden tijd 'geloven' — gewoon modern NL (v11, 'zij geloofden hen niet')
+    "gelooft",        # 3e p. enk. praesens van 'geloven' — gewoon modern NL (MRK 9:23, 'voor hem die gelooft')
     "liep",           # 3e p. enk. verleden tijd 'lopen' — gewoon modern NL (v12, 'liep naar het graf')
     # LUK 23:43-45 carry-overs (legitiem)
     "paradijs",       # zelfst. nw. — gewoon modern NL (v43, 'in het paradijs zijn'); theologische term, één-op-één
