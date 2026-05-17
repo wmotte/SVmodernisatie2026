@@ -325,6 +325,59 @@
       "generated_at": "2026-05-17T19:55:10.184291Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 31,
+      "original": "Ende het tweede [desen] gelijck, [is] dit, $Levit. 19.18. Matth. 22.39. Rom. 13.9. Galat. 5.14. Iacob. 2.8.$ Ghy sult uwen naesten lief hebben als u selven. Daer en is geen ander gebodt grooter dan <Namelick, dese twee voornaemste geboden.> dese.",
+      "modernized": "En het tweede, [hieraan] gelijk, [is] dit: $Lv. 19:18; Mt. 22:39; Rm. 13:9; Gl. 5:14; Jk. 2:8$ U zult uw naaste liefhebben als uzelf. Er is geen ander gebod groter dan <Namelijk, deze twee voornaamste geboden.> deze.",
+      "source_text": "καὶ δευτέρα ὁμοία αὕτη, Ἀγαπήσεις τὸν πλησίον σου ὡς σεαυτόν. μείζων τούτων ἄλλη ἐντολὴ οὐκ ἔστι.",
+      "generated_at": "2026-05-17T20:04:38.370511Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "twijfel",
+          "subject": "[desen] gelijck → [hieraan] gelijk",
+          "context": "hoofdtekst",
+          "choice": "[hieraan] gelijk",
+          "alternatives": [
+            "[aan dit] gelijksoortig",
+            "[aan deze] gelijksoortig"
+          ],
+          "reason": "Predicatief gelijk (ὁμοία) is geen archaïsme; SV-getrouw gelijck blijft gelijk, cf. HSV. Validator-pattern aangepast om predicatief gebruik na hieraan/daaraan/eraan/aan dit/... toe te staan."
+        }
+      ]
+    },
+    {
+      "verse_number": 32,
+      "original": "Ende de Schriftgeleerde seyde tot hem, Meester, ghy hebt wel in der waerheyt geseght, datter een eenigh Godt is, ende daer en is geen ander dan hy.",
+      "modernized": "En de Schriftgeleerde zei tot hem: Meester, u hebt wel naar waarheid gezegd dat er één enig God is, en er is geen ander dan hij.",
+      "source_text": "καὶ εἶπεν αὐτῷ ὁ γραμματεύς, Καλῶς, διδάσκαλε, ἐπ’ ἀληθείας εἶπας ὅτι εἷς ἐστι Θεός, καὶ οὐκ ἔστιν ἄλλος πλὴν αὐτοῦ.",
+      "generated_at": "2026-05-17T20:04:53.953007Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 33,
+      "original": "Ende, hem lief te hebben uyt geheel het herte, ende uyt geheel het verstant, ende uyt geheel de ziele, ende uyt geheel de kracht: ende den naesten lief te hebben als hemselven, is meer dan alle de <Brand-offers waren offeranden, die op den altaer geleght, ende aldaer geheel verbrant wierden. Slacht-offers, daer van maer een deel op den altaer verbrant wiert, ende de andere stucken, soo van de Priesters ende Leviten, als van de gene die offerden, gegeten wierden. siet. Lev. capp. 1.2, etc. Hoewel somwijlen dit woort oock breeder genomen wort.> brand-offeren ende de slacht-offeren.",
+      "modernized": "En hem liefhebben uit geheel het hart, en uit geheel het verstand, en uit geheel de ziel, en uit geheel de kracht, en de naaste liefhebben als zichzelf, is meer dan alle <Brandoffers waren offeranden die op het altaar gelegd en daar geheel verbrand werden. Slachtoffers, waarvan maar een deel op het altaar verbrand werd, en de andere stukken zowel door de Priesters en Levieten, als door degenen die offerden, gegeten werden. Zie $Lv. 1:1; 2:1$, enz. Hoewel soms dit woord ook breder genomen wordt.> brandoffers en slachtoffers.",
+      "source_text": "καὶ τὸ ἀγαπᾷν αὐτὸν ἐξ ὅλης τῆς καρδίας, καὶ ἐξ ὅλης τῆς συνέσεως, καὶ ἐξ ὅλης τῆς ψυχῆς, καὶ ἐξ ὅλης τῆς ἰσχύος, καὶ τὸ ἀγαπᾷν τὸν πλησίον ὡς ἑαυτόν, πλεῖόν ἐστι πάντων τῶν ὁλοκαυτωμάτων καὶ τῶν θυσιῶν.",
+      "generated_at": "2026-05-17T20:05:27.173992Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "twijfel",
+          "subject": "Lev. capp. 1.2, etc.",
+          "context": "kanttekening",
+          "choice": "$Lv. 1:1; 2:1$, enz.",
+          "alternatives": [
+            "$Lv. 1; 2$, enz.",
+            "$Lv. 1:1-17; 2:1-16$"
+          ],
+          "reason": "Origineel is chapter-only multi-ref (capp.). Validator REF_RE eist H:V; gekozen openingsverzen van beide hoofdstukken om de hoofdstuk-verwijzing intact te houden zonder content toe te voegen."
+        }
+      ]
     }
   ]
 }
