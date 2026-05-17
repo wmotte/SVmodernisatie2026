@@ -181,6 +181,46 @@
           "reason": "SV-subjunctief van bevel/advies bewaard (vgl. Lk 17:31 'die kome niet af' en MRK 13:14 'die merke daarop'); verstaanbaar formeel-Nederlands met SV-resonantie."
         }
       ]
+    },
+    {
+      "verse_number": 16,
+      "original": "Ende die <Ofte, in ’t velt.> op den acker is, en keere niet weder <Gr. tot die dingen die achter zijn.> te rugge, om sijn kleet te nemen.",
+      "modernized": "En wie op <Of, in het veld.> de akker is, die keere niet terug, <Grieks: tot de dingen die achter zijn.> om zijn kleed te nemen.",
+      "source_text": "καὶ ὁ εἰς τὸν ἀγρὸν ὢν μὴ ἐπιστρεψάτω εἰς τὰ ὀπίσω, ἆραι τὸ ἱμάτιον αὐτοῦ.",
+      "generated_at": "2026-05-17T21:17:00.603748Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 17,
+      "original": "Maer wee den bevruchten ende den zoogenden [vrouwen] in die dagen.",
+      "modernized": "Maar wee de zwangeren, en de zogenden [vrouwen] in die dagen.",
+      "source_text": "οὐαὶ δὲ ταῖς ἐν γαστρὶ ἐχούσαις καὶ ταῖς θηλαζούσαις ἐν ἐκείναις ταῖς ἡμέραις.",
+      "generated_at": "2026-05-17T21:17:17.052597Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 18,
+      "original": "Doch biddet dat uwe vlucht niet en geschiede des winters.",
+      "modernized": "Maar bidt dat uw vlucht niet geschiede in de winter.",
+      "source_text": "προσεύχεσθε δὲ ἵνα μὴ γένηται ἡ φυγὴ ὑμῶν χειμῶνος.",
+      "generated_at": "2026-05-17T21:18:35.025870Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "subject": "liturgische conjunctief geschiede behouden",
+          "context": "hoofdtekst",
+          "choice": "3e-pers. presens-conjunctief geschiede aangehouden in gebedsformule (vgl. Onze Vader, $Lk. 11:2$ uw wil geschiede; $Lk. 22:42$ de uwe, geschiede)",
+          "alternatives": [
+            "plaatsvinde",
+            "gebeure"
+          ],
+          "reason": "Jezus introduceert hier expliciet een gebedspetitie (biddet dat); de stoplist-comment laat geschiede als optatief-vorm bewust buiten de validate-blacklist voor dit register."
+        }
+      ]
     }
   ]
 }
