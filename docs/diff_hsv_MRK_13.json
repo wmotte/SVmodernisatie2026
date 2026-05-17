@@ -52,22 +52,35 @@
     },
     {
       "verse_number": 7,
-      "status": "pending",
-      "sv2026": "",
+      "status": "modernized",
+      "sv2026": "En wanneer u zult horen van oorlogen, en geruchten van oorlogen, wees dan niet verschrikt; want [dit] moet gebeuren. Maar het is nog niet het einde.",
       "hsv": "En wanneer u hoort van oorlogen en geruchten van oorlogen, word [dan] niet verschrikt, want [dit] moet gebeuren, maar het [is] nog niet het einde.",
       "original": "Ende wanneer ghy sult hooren van oorlogen, ende geruchten van oorlogen, soo en wort niet verschrickt: want [dit] moet geschieden. Maer noch en is het eynde niet."
     },
     {
       "verse_number": 8,
-      "status": "pending",
-      "sv2026": "",
+      "status": "modernized",
+      "sv2026": "$Js. 19:2$ Want het [ene] volk zal tegen het [andere] volk opstaan, en het [ene] Koninkrijk tegen het [andere] Koninkrijk, en er zullen aardbevingen zijn <Grieks: van plaats tot plaats.> op verscheidene plaatsen, en er zullen hongersnoden zijn, en beroeringen. Deze dingen zijn [maar] beginselen van de weeën.",
       "hsv": "$Jes. 19:2$ Want het [ene] volk zal tegen het [andere] volk opstaan en het [ene] koninkrijk tegen het [andere] koninkrijk; en er zullen aardbevingen zijn in verscheidene plaatsen en er zullen hongersnoden zijn en onlusten. Deze dingen zijn het begin van de weeën.",
-      "original": "$Iesa. 19.2.$ Want het [een] volck sal tegen het [ander] volck opstaen, ende het [een] Koninckrijck tegen het [ander] Koninckrijck, ende daer sullen aerdtbevingen zijn <Gr. van plaetse tot plaetse.> in verscheyden plaetsen, ende daer sullen hongers-nooden wesen, ende beroerten. Dese dingen zijn [maer] beginselen der smerten."
+      "original": "$Iesa. 19.2.$ Want het [een] volck sal tegen het [ander] volck opstaen, ende het [een] Koninckrijck tegen het [ander] Koninckrijck, ende daer sullen aerdtbevingen zijn <Gr. van plaetse tot plaetse.> in verscheyden plaetsen, ende daer sullen hongers-nooden wesen, ende beroerten. Dese dingen zijn [maer] beginselen der smerten.",
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "beginselen der smerten",
+          "context": "hoofdtekst",
+          "choice": "beginselen van de weeën",
+          "alternatives": [
+            "het begin van de weeën",
+            "beginselen van de smarten"
+          ],
+          "reason": "Grieks ἀρχαὶ ὠδίνων = aanvang van geboorteweeën. SV-pluraal 'beginselen' bewaard (ἀρχαί is meervoud); 'smerten' → 'weeën' moderniseert het archaïsche woord. Boek-concordantie: MRK 8:35 en MRK 10:29 gebruiken 'om mijnentwil' voor ἕνεκεν ἐμοῦ."
+        }
+      ]
     },
     {
       "verse_number": 9,
-      "status": "pending",
-      "sv2026": "",
+      "status": "modernized",
+      "sv2026": "$Mt. 10:17; 24:9; Lk. 21:12; Jh. 15:19; 16:2; Op. 2:10$ Maar <Of, wacht u voor uzelf.> ziet u voor uzelf toe: want zij zullen u overleveren aan de <Grieks: Synedria. Zie hierover $Mt. 5:22; 10:17$.> Raadsvergaderingen, en in de Synagogen: U zult geslagen worden, en voor Stadhouders en Koningen zult u gesteld worden, om mijnentwil, hun tot een getuigenis.",
       "hsv": "$Matt. 10:17; 24:9; Luk. 21:12; Joh. 15:19; 16:2; Openb. 2:10$ Past u op uzelf; want ze zullen u overleveren aan raadsvergaderingen, en in de synagogen zult u geslagen worden; en u zult voor stadhouders en koningen geplaatst worden omwille van Mij, tot een getuigenis voor hen.",
       "original": "$Matth. 10.17. ende 24.9. Luce 21.12. Ioan. 15.19. ende 16.2. Apoc. 2.10.$ Maer <Ofte, wacht ghy u selven.> siet ghy voor u selven toe: want sy sullen u overleveren in de <Gr. Synedria. siet daer van Matth. 5. vers 22. ende 10.17.> Raetsvergaderingen, ende in de Synagogen: Ghy sult geslagen worden, ende voor Stadthouders ende Koningen sult ghy gestelt worden, om mijnent wille, haer tot een getuygenisse."
     },

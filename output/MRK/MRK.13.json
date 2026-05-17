@@ -61,6 +61,46 @@
       "generated_at": "2026-05-17T20:47:02.380056Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 7,
+      "original": "Ende wanneer ghy sult hooren van oorlogen, ende geruchten van oorlogen, soo en wort niet verschrickt: want [dit] moet geschieden. Maer noch en is het eynde niet.",
+      "modernized": "En wanneer u zult horen van oorlogen, en geruchten van oorlogen, wees dan niet verschrikt; want [dit] moet gebeuren. Maar het is nog niet het einde.",
+      "source_text": "ὅταν δὲ ἀκούσητε πολέμους καὶ ἀκοὰς πολέμων, μὴ θροεῖσθε· δεῖ γὰρ γενέσθαι· ἀλλ’ οὔπω τὸ τέλος.",
+      "generated_at": "2026-05-17T20:54:31.525114Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 8,
+      "original": "$Iesa. 19.2.$ Want het [een] volck sal tegen het [ander] volck opstaen, ende het [een] Koninckrijck tegen het [ander] Koninckrijck, ende daer sullen aerdtbevingen zijn <Gr. van plaetse tot plaetse.> in verscheyden plaetsen, ende daer sullen hongers-nooden wesen, ende beroerten. Dese dingen zijn [maer] beginselen der smerten.",
+      "modernized": "$Js. 19:2$ Want het [ene] volk zal tegen het [andere] volk opstaan, en het [ene] Koninkrijk tegen het [andere] Koninkrijk, en er zullen aardbevingen zijn <Grieks: van plaats tot plaats.> op verscheidene plaatsen, en er zullen hongersnoden zijn, en beroeringen. Deze dingen zijn [maar] beginselen van de weeën.",
+      "source_text": "ἐγερθήσεται γὰρ ἔθνος ἐπὶ ἔθνος, καὶ βασιλεία ἐπὶ βασιλείαν· καὶ ἔσονται σεισμοὶ κατὰ τόπους, καὶ ἔσονται λιμοὶ καὶ ταραχαί· ἀρχαὶ ὠδίνων ταῦτα.",
+      "generated_at": "2026-05-17T20:54:32.111000Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "beginselen der smerten",
+          "context": "hoofdtekst",
+          "choice": "beginselen van de weeën",
+          "alternatives": [
+            "het begin van de weeën",
+            "beginselen van de smarten"
+          ],
+          "reason": "Grieks ἀρχαὶ ὠδίνων = aanvang van geboorteweeën. SV-pluraal 'beginselen' bewaard (ἀρχαί is meervoud); 'smerten' → 'weeën' moderniseert het archaïsche woord. Boek-concordantie: MRK 8:35 en MRK 10:29 gebruiken 'om mijnentwil' voor ἕνεκεν ἐμοῦ."
+        }
+      ]
+    },
+    {
+      "verse_number": 9,
+      "original": "$Matth. 10.17. ende 24.9. Luce 21.12. Ioan. 15.19. ende 16.2. Apoc. 2.10.$ Maer <Ofte, wacht ghy u selven.> siet ghy voor u selven toe: want sy sullen u overleveren in de <Gr. Synedria. siet daer van Matth. 5. vers 22. ende 10.17.> Raetsvergaderingen, ende in de Synagogen: Ghy sult geslagen worden, ende voor Stadthouders ende Koningen sult ghy gestelt worden, om mijnent wille, haer tot een getuygenisse.",
+      "modernized": "$Mt. 10:17; 24:9; Lk. 21:12; Jh. 15:19; 16:2; Op. 2:10$ Maar <Of, wacht u voor uzelf.> ziet u voor uzelf toe: want zij zullen u overleveren aan de <Grieks: Synedria. Zie hierover $Mt. 5:22; 10:17$.> Raadsvergaderingen, en in de Synagogen: U zult geslagen worden, en voor Stadhouders en Koningen zult u gesteld worden, om mijnentwil, hun tot een getuigenis.",
+      "source_text": "Βλέπετε δὲ ὑμεῖς ἑαυτούς· παραδώσουσι γὰρ ὑμᾶς εἰς συνέδρια, καὶ εἰς συναγωγὰς δαρήσεσθε, καὶ ἐπὶ ἡγεμόνων καὶ βασιλέων σταθήσεσθε ἕνεκεν ἐμοῦ, εἰς μαρτύριον αὐτοῖς.",
+      "generated_at": "2026-05-17T20:54:33.812000Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
