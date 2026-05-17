@@ -452,6 +452,33 @@
       "generated_at": "2026-05-17T15:31:20.682448Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 49,
+      "original": "Ende Iesus [stil] staende, seyde dat men hem roepen soude: ende sy riepen den blinden, seggende tot hem, Hebt goeden moedt, staet op, hy roept u.",
+      "modernized": "En Jezus bleef [stil] staan, en zei dat men hem zou roepen; en zij riepen de blinde, en zeiden tot hem: Heb goede moed, sta op, hij roept u.",
+      "source_text": "καὶ στὰς ὁ Ἰησοῦς εἶπεν αὐτὸν φωνηθῆναι· καὶ φωνοῦσι τὸν τυφλόν, λέγοντες αὐτῷ, Θάρσει· ἔγειραι, φωνεῖ σε.",
+      "generated_at": "2026-05-17T15:35:49.623847Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 50,
+      "original": "Ende hy <Gr. sijn kleet, D. sijn opperkleet.> sijnen mantel afgeworpen hebbende, stont op, ende quam tot Iesum.",
+      "modernized": "En nadat hij <Grieks: zijn kleed, dat is, zijn bovenkleed.> zijn mantel had afgeworpen, stond hij op en kwam tot Jezus.",
+      "source_text": "ὁ δὲ ἀποβαλὼν τὸ ἱμάτιον αὐτοῦ ἀναστὰς ἦλθε πρὸς τὸν Ἰησοῦν.",
+      "generated_at": "2026-05-17T15:36:22.362805Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 51,
+      "original": "Ende Iesus antwoordende seyde tot hem, Wat wilt ghy dat ick u doen sal? ende de blinde seyde tot hem, <Dit beteeckent het selve dattet woort Rabbi, ’t welck uytgeleght wort Meester, Ioan. 20.16.> Rabboni, dat ick siende mach worden.",
+      "modernized": "En Jezus antwoordde en zei tot hem: Wat wilt u dat ik u doen zal? En de blinde zei tot hem: <Dit betekent hetzelfde als het woord Rabbi, dat uitgelegd wordt als Meester, $Jh. 20:16$.> Rabboni, dat ik ziende mag worden.",
+      "source_text": "καὶ ἀποκριθεὶς λέγει αὐτῷ ὁ Ἰησοῦς, Τί θέλεις ποιήσω σοί; ὁ δὲ τυφλὸς εἶπεν αὐτῷ, Ῥαββονί, ἵνα ἀναβλέψω.",
+      "generated_at": "2026-05-17T15:37:20.396819Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
