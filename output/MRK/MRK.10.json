@@ -88,6 +88,33 @@
       "generated_at": "2026-05-17T14:20:55.438165Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 10,
+      "original": "Ende in het huys vraeghden hem sijne discipelen wederom van het selve.",
+      "modernized": "En in het huis vroegen zijn discipelen hem opnieuw daarnaar.",
+      "source_text": "καὶ ἐν τῇ οἰκίᾳ πάλιν οἱ μαθηταὶ αὐτοῦ περὶ τοῦ αὐτοῦ ἐπηρώτησαν αὐτόν.",
+      "generated_at": "2026-05-17T14:25:07.269566Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 11,
+      "original": "$Matth. 5.32. ende 19.9. Luce 16.18. 1.Corinth. 7.10.$ Ende hy seyde tot haer, Soo wie sijn wijf verlatet, ende een andere trouwet, die doet overspel <N. die hy verlaet: om dat hy de trouwe niet en houdt, die hy haer belooft heeft, Malach. 2.14.> tegen haer.",
+      "modernized": "$Mt. 5:32; 19:9; Lk. 16:18; 1Kor. 7:10$ En hij zei tot hen: Wie zijn vrouw verlaat en een andere trouwt, die pleegt overspel <Namelijk, tegen haar die hij verlaat: omdat hij de trouw niet houdt die hij haar beloofd heeft, $Ml. 2:14$.> tegen haar.",
+      "source_text": "καὶ λέγει αὐτοῖς, Ὃς ἐὰν ἀπολύσῃ τὴν γυναῖκα αὐτοῦ καὶ γαμήσῃ ἄλλην, μοιχᾶται ἐπ’ αὐτήν·",
+      "generated_at": "2026-05-17T14:25:29.786481Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 12,
+      "original": "Ende indien een wijf haren man sal verlaten, ende met een ander trouwen, die doet overspel.",
+      "modernized": "En indien een vrouw haar man zal verlaten en met een ander trouwen, die pleegt overspel.",
+      "source_text": "καὶ ἐὰν γυνὴ ἀπολύσῃ τὸν ἄνδρα αὐτῆς καὶ γαμηθῇ ἄλλῳ, μοιχᾶται.",
+      "generated_at": "2026-05-17T14:25:45.061183Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
