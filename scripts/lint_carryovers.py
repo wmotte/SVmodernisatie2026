@@ -1134,6 +1134,8 @@ STOPLIST: frozenset[str] = frozenset({
     "twijfelden",     # ovt. mv. van 'twijfelen' — gewoon modern NL ('zij twijfelden aan de algemene opstanding'); kanttekening v10
     # MRK 9:19-21 carry-overs (legitiem)
     "wentelde",       # ovt. van 'wentelen' — gewoon modern NL ('hij wentelde zich al schuimende', v20); productief werkwoord
+    # MRK 9:37-39 carry-overs (legitiem)
+    "lasteren",       # infinitief — gewoon modern NL (v39, kanttekening 'lasteren of vloeken'); vgl. STOPLIST 'lasterde', 'lasteringen', 'lastert'
 })
 
 
