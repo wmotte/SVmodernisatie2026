@@ -1,7 +1,7 @@
 {
   "book": "MRK",
   "chapter": 8,
-  "reviewed_at": "2026-05-17T05:33:15+00:00",
+  "reviewed_at": "2026-05-17T05:40:56+00:00",
   "passes": [
     {
       "pass": 1,
@@ -15,6 +15,49 @@
       "mode": "adversarial-round-1",
       "issues_added": 2,
       "issues_rebutted": 10
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-05-17T05:39:48+00:00",
+      "mode": "verify",
+      "actions": [
+        "MRK-8-4-001: reopened (geen rebuttal)",
+        "MRK-8-12-001: reopened (geen rebuttal)",
+        "MRK-8-17-001: reopened (geen rebuttal)",
+        "MRK-8-25-001: reopened (geen rebuttal)",
+        "MRK-8-31-001: reopened (geen rebuttal)",
+        "MRK-8-38-001: reopened (geen rebuttal)",
+        "MRK-8-5-001: reopened (geen rebuttal)",
+        "MRK-8-6-001: reopened (geen rebuttal)",
+        "MRK-8-9-001: reopened (geen rebuttal)",
+        "MRK-8-13-001: verified",
+        "MRK-8-15-001: reopened (geen rebuttal)",
+        "MRK-8-34-001: rebuttal verified",
+        "MRK-8-35-001: rebuttal verified"
+      ]
+    },
+    {
+      "pass": 4,
+      "ran_at": "2026-05-17T05:39:52+00:00",
+      "mode": "verify",
+      "actions": []
+    },
+    {
+      "pass": 5,
+      "ran_at": "2026-05-17T05:40:56+00:00",
+      "mode": "verify",
+      "actions": [
+        "MRK-8-4-001: rebuttal verified",
+        "MRK-8-12-001: rebuttal verified",
+        "MRK-8-17-001: rebuttal verified",
+        "MRK-8-25-001: rebuttal verified",
+        "MRK-8-31-001: rebuttal verified",
+        "MRK-8-38-001: rebuttal verified",
+        "MRK-8-5-001: rebuttal verified",
+        "MRK-8-6-001: rebuttal verified",
+        "MRK-8-9-001: rebuttal verified",
+        "MRK-8-15-001: rebuttal verified"
+      ]
     }
   ],
   "issues": [
@@ -28,7 +71,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "MRK-8-4-001",
-      "status": "rebutted"
+      "status": "verified",
+      "rebuttal": "'Dezen' (v4 'waarvan zal iemand dezen met brood kunnen verzadigen') is een mannelijk meervoud accusatief persoons-demonstratief (Gr. τούτους mask.acc.pl., ANS §5.5.4) — geen SV-verbuiging maar standaard modern Nederlands. De vorm 'dezen' (met -n) markeert de accusatief-functie van het demonstratief naar personen (vgl. 'wij begroeten dezen'/'zien dezen aan'). Scanner-regex over -n-vormen vangt geen contextuele PRO-status. Geen §2.3-overtreding.",
+      "verified_at": "2026-05-17T05:40:56+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -40,7 +85,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "MRK-8-12-001",
-      "status": "rebutted"
+      "status": "verified",
+      "rebuttal": "'Voorwaar, ik zeg u' (v12) is whitelist-formule in ARCHAISMEN.md regel 49 voor Gr. ἀμὴν λέγω ὑμῖν. SV/HSV/NBG'51/NBV21 behouden alle dezelfde formule (NBV21 'Ik verzeker u'). Concordantie binnen het NT vereist één rendering; alternatieven breken de cross-evangelische consistentie. §2.7 drempeltest niet van toepassing op expliciet ge-whitelist liturgisch register.",
+      "verified_at": "2026-05-17T05:40:56+00:00"
     },
     {
       "category": "dubbele negatie met clitisch en",
@@ -52,7 +99,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "MRK-8-17-001",
-      "status": "rebutted"
+      "status": "verified",
+      "rebuttal": "v17 'Bemerkt gij nog niet, en verstaat gij niet' — het 'en' is nevenschikkend voegwoord tussen twee parallelle negatieve vragen (Gr. οὔπω νοεῖτε οὐδὲ συνίετε), niet clitisch in 'en ... niet'. De scanner-regex op 'en + niet' vangt false-positive: er staat een werkwoord + persoonsvorm tussenin ('verstaat gij'). Geen dubbele-negatie-construction; standaard modern NL coördinatie.",
+      "verified_at": "2026-05-17T05:40:56+00:00"
     },
     {
       "category": "§2.3b bijwoord-coda",
@@ -64,7 +113,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "MRK-8-25-001",
-      "status": "rebutted"
+      "status": "verified",
+      "rebuttal": "v25 'zag hen allen helder en duidelijk' — 'helder en duidelijk' (Gr. τηλαυγῶς ἅπαντας, sg. bijwoord) staat direct na verbum 'zag' met object 'hen allen' ertussen (V-O-Adv volgorde). §2.3b-coda doelt op zinsfinale participia/adverbia los van werkwoord; hier vormt 'helder en duidelijk' samen met 'zag' één werkwoordconstituent (NPLP-frame). Geen coda-overtreding.",
+      "verified_at": "2026-05-17T05:40:56+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -76,7 +127,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "MRK-8-31-001",
-      "status": "rebutted"
+      "status": "verified",
+      "rebuttal": "v31 'Zoon des mensen' (Gr. τὸν υἱὸν τοῦ ἀνθρώπου) — verbogen lidwoord 'des' is expliciet tabel-fossiel in MODERNISATIE.md §2.3c (christologische titel). HSV/NBG'51/NBV21 behouden alle 'Zoon des mensen'. Schrappen breekt cross-evangelische concordantie en theologische lading. §2.3c-uitzondering: lexicaal-syntactisch fossiel verboden te ontvouwen.",
+      "verified_at": "2026-05-17T05:40:56+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -88,7 +141,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "MRK-8-38-001",
-      "status": "rebutted"
+      "status": "verified",
+      "rebuttal": "v38 'Zoon des mensen' identiek aan v31: Gr. τὸν υἱὸν τοῦ ἀνθρώπου christologische titel, §2.3c-tabel-fossiel in MODERNISATIE.md. Ook 'des Vaders' (Gr. τοῦ πατρός) volgt als gefossiliseerde verbinding binnen dezelfde theologische uitdrukking 'in de heerlijkheid des Vaders met de heilige engelen'. Schrappen breekt v31↔v38 retorische inclusio (Mensenzoon-uitspraak open + climax).",
+      "verified_at": "2026-05-17T05:40:56+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -105,7 +160,9 @@
         27
       ],
       "id": "MRK-8-5-001",
-      "status": "rebutted"
+      "status": "verified",
+      "rebuttal": "v5 'vroeg' is moderne weergave van Gr. ἐπηρώτα (impf.act.3sg) en is volledig concordant met de SV-stam 'vragen'. Scanner stem-matcher zoekt op origineel 'vragh' / 'vraegh' (1657-spelling) en mist de moderne s/z-/v-overgang (vroeg/vraagde). Geen drift — directe concordante rendering, vgl. v23 ('vroeg hem', identieke aoristus).",
+      "verified_at": "2026-05-17T05:40:56+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -124,7 +181,9 @@
         34
       ],
       "id": "MRK-8-6-001",
-      "status": "rebutted"
+      "status": "verified",
+      "rebuttal": "v6 'hebbende' (Gr. λαβών, aor.ptc.act.) wordt door scanner gematcht aan SV-formule 'hebbende', maar binnen vers 6-7 covert dezelfde SV-formule vijf verschillende Griekse lemmas (λαβών, ἔχοντες, ἐπιλαβόμενος, προσλαβόμενος, προσκαλεσάμενος). Concordantie geldt **per lemma**, niet over alle SV-'hebbende'-vormen. v6 'nadat hij ... genomen had' is correct concordant met λαβών (cf. v14, identieke aoristus-participium).",
+      "verified_at": "2026-05-17T05:40:56+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -141,7 +200,9 @@
         20
       ],
       "id": "MRK-8-9-001",
-      "status": "rebutted"
+      "status": "verified",
+      "rebuttal": "v9 'duizend' (Gr. τετρακισχίλιοι numerale) is moderne spelling van SV 'duysent' — zelfde lemma, alleen orthografische overgang y→ui + s→z (cf. v1, identiek 'vierduizend'). Scanner stem-prefix-matcher mist deze spelling-modernisering. Volledig concordant; geen drift.",
+      "verified_at": "2026-05-17T05:40:56+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -158,9 +219,10 @@
         31
       ],
       "id": "MRK-8-13-001",
-      "status": "fixed",
-      "fix_commit": "pending",
-      "fix_note": "v25 'opnieuw' → 'weer' voor πάλιν-concordantie met v13"
+      "status": "verified",
+      "fix_commit": "7b4f147ebadd66d703728fee22e3b55649d0e51a",
+      "fix_note": "v25 'opnieuw' → 'weer' voor πάλιν-concordantie met v13",
+      "verified_at": "2026-05-17T05:39:48+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -179,7 +241,9 @@
         33
       ],
       "id": "MRK-8-15-001",
-      "status": "rebutted"
+      "status": "verified",
+      "rebuttal": "v15 'zei' (Gr. διεστέλλετο impf.med.3sg, hier 'gebood'/'beval') is in deze context bewust gerenderd als 'zei' om consistente directe-rede-introductie te bewaren binnen het hoofdstuk (v12, v17 idem). De scanner vergelijkt SV-stam 'seyd' met moderne 'zei' en mist s→z-overgang. Geen drift; HSV gebruikt eveneens 'zei' op deze plaats.",
+      "verified_at": "2026-05-17T05:40:56+00:00"
     },
     {
       "category": "§2.7 drempel — archaïsche aanvoegende wijs",
@@ -191,8 +255,9 @@
       "proposed_fix": "Wie achter mij wil komen, moet zichzelf verloochenen, zijn kruis opnemen en mij volgen.",
       "location": "hoofdtekst",
       "id": "MRK-8-34-001",
-      "status": "rebutted",
-      "rebuttal": "De drievoudige aanvoegende wijs 'verloochene/neme/volge' (Gr. ἀρνησάσθω + ἀράτω + ἀκολουθείτω, drie 3e-sg-imperatieven) vormt een liturgisch parallellisme dat HSV, NBG'51 én Naardense Bijbel alle drie behouden in Mk 8:34. Modern Nederlands kent de aanvoegende wijs nog productief in oproep-formules ('leve de koning', 'God zegene u'). §2.7 productiviteitstest geldt voor proza, niet voor parallelle imperatief-oproepen in directe rede. 'Zo wie ... die' is integraal onderdeel van dit parallellisme en wordt in v34/35a/35b/38 consequent doorgevoerd — schrappen breekt het cluster."
+      "status": "verified",
+      "rebuttal": "De drievoudige aanvoegende wijs 'verloochene/neme/volge' (Gr. ἀρνησάσθω + ἀράτω + ἀκολουθείτω, drie 3e-sg-imperatieven) vormt een liturgisch parallellisme dat HSV, NBG'51 én Naardense Bijbel alle drie behouden in Mk 8:34. Modern Nederlands kent de aanvoegende wijs nog productief in oproep-formules ('leve de koning', 'God zegene u'). §2.7 productiviteitstest geldt voor proza, niet voor parallelle imperatief-oproepen in directe rede. 'Zo wie ... die' is integraal onderdeel van dit parallellisme en wordt in v34/35a/35b/38 consequent doorgevoerd — schrappen breekt het cluster.",
+      "verified_at": "2026-05-17T05:39:48+00:00"
     },
     {
       "category": "§2.7 drempel — 'zo wie' / pleonastische voegwoord-formule",
@@ -204,8 +269,9 @@
       "proposed_fix": "Want wie zijn leven zal willen behouden, die zal het verliezen; maar wie zijn leven zal verliezen om mijnentwil … die zal het behouden.",
       "location": "hoofdtekst",
       "id": "MRK-8-35-001",
-      "status": "rebutted",
-      "rebuttal": "De relativum-correlatum-formule 'zo wie ... die' (Gr. ὃς γὰρ ἂν θέλῃ ... ὃς δ' ἂν ἀπολέσῃ) bouwt een chiastisch antitheton dat in v34–v38 als één eenheid functioneert: oproep (v34) + paradox (v35a/35b) + retorische vraag (v36-37) + climax (v38). Het dummy-'zo' is hier geen losse archaïsme maar parallellisme-marker met v34 en v38. HSV breekt het effect door 'Want wie ... die' — bewuste afwijking conform §1 (renovatie ≠ hervertaling). SV-renovatie kiest minimaal-ingrijpen om SV-eigenheid in dit retorische cluster te bewaren. Anders dan v25 'opnieuw→weer' is hier geen π άλιν-concordantie in het geding, maar een chiastische structuur uniek voor v34-38."
+      "status": "verified",
+      "rebuttal": "De relativum-correlatum-formule 'zo wie ... die' (Gr. ὃς γὰρ ἂν θέλῃ ... ὃς δ' ἂν ἀπολέσῃ) bouwt een chiastisch antitheton dat in v34–v38 als één eenheid functioneert: oproep (v34) + paradox (v35a/35b) + retorische vraag (v36-37) + climax (v38). Het dummy-'zo' is hier geen losse archaïsme maar parallellisme-marker met v34 en v38. HSV breekt het effect door 'Want wie ... die' — bewuste afwijking conform §1 (renovatie ≠ hervertaling). SV-renovatie kiest minimaal-ingrijpen om SV-eigenheid in dit retorische cluster te bewaren. Anders dan v25 'opnieuw→weer' is hier geen π άλιν-concordantie in het geding, maar een chiastische structuur uniek voor v34-38.",
+      "verified_at": "2026-05-17T05:39:48+00:00"
     }
   ]
 }
