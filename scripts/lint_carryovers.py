@@ -1095,6 +1095,8 @@ STOPLIST: frozenset[str] = frozenset({
     "overspelen",     # zelfst.nw. mv. 'overspel' — SV-plurale concordantie met Gr. μοιχεῖαι; SV-eigenheid behouden
     "hoererijen",     # zelfst.nw. mv. 'hoererij' — SV-plurale concordantie met Gr. πορνεῖαι; SV-eigenheid behouden
     "samensprekingen",# zelfst.nw. mv. — SV-glosse op διαλογισμοί in kanttekening v21; productief NL
+    # MRK 7:32 carry-overs (legitiem)
+    "gewoon",         # bijw. — 'gewoon zijn te ...' = gewend zijn; productief modern NL (kanttekening v32)
 })
 
 
