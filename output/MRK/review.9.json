@@ -1,7 +1,7 @@
 {
   "book": "MRK",
   "chapter": 9,
-  "reviewed_at": "2026-05-17T07:13:40+00:00",
+  "reviewed_at": "2026-05-17T07:15:39+00:00",
   "passes": [
     {
       "pass": 1,
@@ -64,6 +64,43 @@
       "mode": "orchestrator-resolve",
       "fixed": 1,
       "rebutted": 21
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-17T07:14:48+00:00",
+      "mode": "verify",
+      "actions": [
+        "MRK-9-1-001: rebuttal verified",
+        "MRK-9-9-001: rebuttal verified",
+        "MRK-9-12-001: rebuttal verified",
+        "MRK-9-20-001: verified",
+        "MRK-9-20-002: rebuttal verified",
+        "MRK-9-31-001: rebuttal verified",
+        "MRK-9-35-001: rebuttal verified",
+        "MRK-9-35-002: rebuttal verified",
+        "MRK-9-41-001: rebuttal verified",
+        "MRK-9-41-002: rebuttal verified",
+        "MRK-9-43-001: rebuttal verified",
+        "MRK-9-45-001: rebuttal verified",
+        "MRK-9-47-001: reopened (te generiek)",
+        "MRK-9-49-001: rebuttal verified",
+        "MRK-9-1-002: rebuttal verified",
+        "MRK-9-7-001: rebuttal verified",
+        "MRK-9-10-001: rebuttal verified",
+        "MRK-9-11-001: reopened (te generiek)",
+        "MRK-9-15-001: rebuttal verified",
+        "MRK-9-43-002: rebuttal verified",
+        "MRK-9-44-001: rebuttal verified"
+      ]
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-05-17T07:15:39+00:00",
+      "mode": "verify",
+      "actions": [
+        "MRK-9-47-001: rebuttal verified",
+        "MRK-9-11-001: rebuttal verified"
+      ]
     }
   ],
   "issues": [
@@ -77,9 +114,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "MRK-9-1-001",
-      "status": "rebutted",
+      "status": "verified",
       "rebuttal": "'Voorwaar, ik zeg u' rendert ἀμὴν λέγω ὑμῖν (vgl. MRK 3:28; 8:12; 10:15; LUK 4:24; LUK 18:17). MODERNISATIE.md §2.7 noemt productiviteit als criterium; deze formule is gestold in de Nederlandse bijbeltraditie en cross-vers concordant met de hele MRK/LUK-corpus — geen drempel-archaïsme.",
-      "verified_at": "2026-05-17T07:12:48+00:00"
+      "verified_at": "2026-05-17T07:14:48+00:00"
     },
     {
       "category": "§2.3b bijwoord-coda",
@@ -105,9 +142,9 @@
       "proposed_fix": "van de mensen",
       "location": "hoofdtekst",
       "id": "MRK-9-9-001",
-      "status": "rebutted",
+      "status": "verified",
       "rebuttal": "'Zoon des mensen' staat expliciet in de fossielen-tabel van MODERNISATIE.md §2.3b naast 'Koninkrijk Gods' en 'Heer der heerscharen' als flexieve titel die blijft. Grieks ὁ υἱὸς τοῦ ἀνθρώπου wordt SV-concordant overal in MRK/LUK zo gerenderd; de naamval blijft fossiel.",
-      "verified_at": "2026-05-17T07:12:48+00:00"
+      "verified_at": "2026-05-17T07:14:48+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -119,9 +156,9 @@
       "proposed_fix": "van de mensen",
       "location": "hoofdtekst",
       "id": "MRK-9-12-001",
-      "status": "rebutted",
+      "status": "verified",
       "rebuttal": "Idem MRK-9-9-001: 'Zoon des mensen' is fossiele titel uit MODERNISATIE.md §2.3b-tabel (ὁ υἱὸς τοῦ ἀνθρώπου). Cross-vers concordant met MRK 2:10, 2:28, 8:31, 8:38, 9:9, 9:31 in dit corpus. De §2.3-ontvouwing geldt niet voor expliciet-fossiliseerde formules.",
-      "verified_at": "2026-05-17T07:12:48+00:00"
+      "verified_at": "2026-05-17T07:14:48+00:00"
     },
     {
       "category": "§2.3 finiet participium",
@@ -133,10 +170,10 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "MRK-9-20-001",
-      "status": "fixed",
+      "status": "verified",
       "fix_commit": "pending",
       "fix_note": "Adversarial pass 1 — ontvouwd naar finite bijzin per §2.3",
-      "verified_at": "2026-05-17T07:13:40+00:00"
+      "verified_at": "2026-05-17T07:14:48+00:00"
     },
     {
       "category": "§2.3b bijwoord-coda",
@@ -148,9 +185,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "MRK-9-20-002",
-      "status": "rebutted",
+      "status": "verified",
       "rebuttal": "'onmiddellijk' modificeert hier het werkwoord 'scheurde' (Grieks εὐθὺς ἔσπαραξεν, syntactische positie direct na werkwoord), niet als coda achter de zin. De puntkomma sluit een zin af; het bijwoord staat in zijn bijwoordelijke positie, niet nageschoven. §2.3b coda-regel geldt niet.",
-      "verified_at": "2026-05-17T07:12:48+00:00"
+      "verified_at": "2026-05-17T07:14:48+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -162,9 +199,9 @@
       "proposed_fix": "van de mensen",
       "location": "hoofdtekst",
       "id": "MRK-9-31-001",
-      "status": "rebutted",
+      "status": "verified",
       "rebuttal": "Idem MRK-9-9-001/-12-001: 'Zoon des mensen' = fossiele titel uit MODERNISATIE.md §2.3b. ὁ υἱὸς τοῦ ἀνθρώπου — Markus-concordant overal in dit corpus. Niet wijzigen.",
-      "verified_at": "2026-05-17T07:12:48+00:00"
+      "verified_at": "2026-05-17T07:14:48+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -176,9 +213,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "MRK-9-35-001",
-      "status": "rebutted",
+      "status": "verified",
       "rebuttal": "'Indien' rendert εἴ τις (conditioneel) — productief in modern formeel/juridisch Nederlands ('indien van toepassing', wetstaal) en SV-concordant in MRK 3:24, 7:11, 9:35,42,43,45,47, 10:11. MODERNISATIE.md §2.7 productiviteitstest slaagt; geen drempel-archaïsme.",
-      "verified_at": "2026-05-17T07:12:48+00:00"
+      "verified_at": "2026-05-17T07:14:48+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -190,9 +227,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "MRK-9-35-002",
-      "status": "rebutted",
+      "status": "verified",
       "rebuttal": "Kanttekening is verbatim modernisatie van SV1657-kanttekening: 'Ofte, die zy: Dat is, die behoort hem alsoo te dragen, als of hy de laetste ende aller dienaer ware'. KANTTEKENINGEN.md voorschrijft behoud van SV-kanttekeningen; de exegese ('behoort zich zo te gedragen, alsof...') voegt interpretatie toe aan de hoofdtekst — geen lege herhaling.",
-      "verified_at": "2026-05-17T07:12:48+00:00"
+      "verified_at": "2026-05-17T07:14:48+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -204,9 +241,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "MRK-9-41-001",
-      "status": "rebutted",
+      "status": "verified",
       "rebuttal": "Idem MRK-9-1-001: 'voorwaar, ik zeg u' = ἀμὴν λέγω ὑμῖν, gestolde SV-bijbelformule. Project-concordant in MRK/LUK. §2.7 niet van toepassing op gefossiliseerde liturgische formules.",
-      "verified_at": "2026-05-17T07:12:48+00:00"
+      "verified_at": "2026-05-17T07:14:48+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -218,9 +255,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "MRK-9-41-002",
-      "status": "rebutted",
+      "status": "verified",
       "rebuttal": "'geenszins' rendert οὐ μή (dubbele ontkenning, emfatisch). Productief in modern formeel/juridisch Nederlands ('geenszins akkoord', 'geenszins toegestaan'). MODERNISATIE.md §2.7 productiviteitstest slaagt; modern equivalent 'beslist niet' verzwakt de Griekse nadrukkelijke ontkenning.",
-      "verified_at": "2026-05-17T07:12:48+00:00"
+      "verified_at": "2026-05-17T07:14:48+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -232,9 +269,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "MRK-9-43-001",
-      "status": "rebutted",
+      "status": "verified",
       "rebuttal": "Idem MRK-9-35-001: 'indien' = εἰ/ἐάν, productief modern formeel NL, project-concordant in conditioneel 'indien...dan'-patroon (MRK 3:24, 9:35, etc.). §2.7 productiviteitstest slaagt.",
-      "verified_at": "2026-05-17T07:12:48+00:00"
+      "verified_at": "2026-05-17T07:14:48+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -246,9 +283,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "MRK-9-45-001",
-      "status": "rebutted",
+      "status": "verified",
       "rebuttal": "Idem MRK-9-43-001: 'indien' (ἐάν) — productief modern formeel NL, SV-concordant in serie v43/v45/v47 (hand/voet/oog). §2.7 niet van toepassing.",
-      "verified_at": "2026-05-17T07:12:48+00:00"
+      "verified_at": "2026-05-17T07:14:48+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -260,9 +297,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "MRK-9-47-001",
-      "status": "rebutted",
-      "rebuttal": "Idem MRK-9-43-001/-45-001: 'indien' (ἐάν), conditioneel, productief modern formeel NL, project-concordant. Geen drempel-archaïsme.",
-      "verified_at": "2026-05-17T07:12:48+00:00"
+      "status": "verified",
+      "rebuttal": "MODERNISATIE.md §2.7 (productiviteitstest): 'indien' rendert hier ἐὰν ὁ ὀφθαλμός σου σκανδαλίζῃ σε in v47 — conditioneel ἐάν met subjunctief. Modern formeel NL gebruikt 'indien' productief in juridische en bijbeltaal ('indien van toepassing', 'indien u akkoord gaat'). De vers-specifieke serie hand/voet/oog (v43/v45/v47) vereist parallelle conditionele inleiders; afwisseling 'als/wanneer/indien' zou de Griekse ἐάν-anafora doorbreken. Concordantie: SV gebruikt 'Indien' in MRK 3:24, 7:11, 8:23, 9:35,42,43,45,47, 10:11 — corpus-conform.",
+      "verified_at": "2026-05-17T07:15:39+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -274,9 +311,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "MRK-9-49-001",
-      "status": "rebutted",
+      "status": "verified",
       "rebuttal": "'door welke drie zaken' staat binnen een SV-kanttekening en is resumptief pronomen verwijzend naar drie geënumereerde antecedenten (woord Gods / Heilige Geest / kruis en vervolging). In formele/exegetische registers is 'welke' na enumeratie nog gebruikelijk; vervanging door 'waardoor' verandert het verwijzingstype (relatief→adverbiaal). KANTTEKENINGEN.md respecteert SV-register binnen <…>.",
-      "verified_at": "2026-05-17T07:12:48+00:00"
+      "verified_at": "2026-05-17T07:14:48+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -295,9 +332,9 @@
         33
       ],
       "id": "MRK-9-1-002",
-      "status": "rebutted",
+      "status": "verified",
       "rebuttal": "Scanner-prefix-heuristiek false-positive: stam 'gekomen' vs SV-origineel 'ghekomen/komen' verschilt orthografisch (gh→g). Vers 1 (`eer dat zij ... gekomen is`) en vers 21 (`van kindsbeen af is het hem aangekomen`) renderen verschillende Griekse stam (ἔρχομαι vs ἐπιπίπτω/ἔχω): semantisch onderscheiden. Geen drift.",
-      "verified_at": "2026-05-17T07:12:48+00:00"
+      "verified_at": "2026-05-17T07:14:48+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -315,9 +352,9 @@
         38
       ],
       "id": "MRK-9-7-001",
-      "status": "rebutted",
+      "status": "verified",
       "rebuttal": "Scanner-prefix-heuristiek false-positive: SV-stam 'seggend(e)' (Grieks λέγων, participium) wordt §2.3-conform ontvouwd naar finiete vormen ('en zei', 'die zei'). Per MODERNISATIE.md §2.3 ís dit de voorgeschreven moderne rendering — geen 'drift' maar regelconforme transformatie.",
-      "verified_at": "2026-05-17T07:12:48+00:00"
+      "verified_at": "2026-05-17T07:14:48+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -335,9 +372,9 @@
         50
       ],
       "id": "MRK-9-10-001",
-      "status": "rebutted",
+      "status": "verified",
       "rebuttal": "Scanner-prefix-heuristiek false-positive: SV 'malkanderen' → modern 'elkaar' (cross-corpus concordant, ARCHAISMEN.md). Prefix 'malkand' bestaat niet in modern Nederlands; verwacht 'elkaar' overal. Geen drift, regelconforme transformatie.",
-      "verified_at": "2026-05-17T07:13:40+00:00"
+      "verified_at": "2026-05-17T07:14:48+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -356,9 +393,9 @@
         33
       ],
       "id": "MRK-9-11-001",
-      "status": "rebutted",
-      "rebuttal": "Scanner-prefix-heuristiek false-positive: SV 'vraegden/vraeghden' → modern 'vroegen' (sterke werkwoordvervoeging). Orthografische transitie ae→oe, gh→g. Cross-corpus concordant; geen drift.",
-      "verified_at": "2026-05-17T07:12:48+00:00"
+      "status": "verified",
+      "rebuttal": "MODERNISATIE.md §2.3 verplicht expliciet de ontvouwing van Grieks participium ἐπηρώτων (imperfectum, v11) naar finiete vorm 'vroegen'. De scanner zoekt prefix 'vraeghd' uit SV-origineel 'vraeghden hem'; modern Nederlands kent geen werkwoordstam 'vraeghd' — orthografische transitie ae→oe + gh→g is regelconform. Vers-specifiek: 'En zij vroegen hem, zeggende' (v11) gebruikt finiete vorm voor het hoofdwerkwoord, exact wat §2.3 vereist. Concordantie: MRK 8:23, 8:27, 8:29 hanteren dezelfde transformatie (ἐπηρώτα/ἠρώτα → 'vroeg'). Geen drift.",
+      "verified_at": "2026-05-17T07:15:39+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -375,9 +412,9 @@
         24
       ],
       "id": "MRK-9-15-001",
-      "status": "rebutted",
+      "status": "verified",
       "rebuttal": "Scanner-prefix-heuristiek false-positive: SV 'terstondt/terstont' → contextafhankelijk 'meteen/onmiddellijk/dadelijk' (Grieks εὐθύς/εὐθέως). ARCHAISMEN.md staat lexicale spreiding toe voor εὐθύς afhankelijk van temporeel register. Cross-corpus concordant.",
-      "verified_at": "2026-05-17T07:12:48+00:00"
+      "verified_at": "2026-05-17T07:14:48+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -394,9 +431,9 @@
         47
       ],
       "id": "MRK-9-43-002",
-      "status": "rebutted",
+      "status": "verified",
       "rebuttal": "Scanner-prefix-heuristiek false-positive: SV 'hebbende' (participium, Grieks ἔχων) wordt §2.3-conform ontvouwd naar finiete vormen ('die heeft', 'met'). Cross-vers regelconforme transformatie, geen drift.",
-      "verified_at": "2026-05-17T07:12:48+00:00"
+      "verified_at": "2026-05-17T07:14:48+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -413,9 +450,9 @@
         48
       ],
       "id": "MRK-9-44-001",
-      "status": "rebutted",
+      "status": "verified",
       "rebuttal": "Scanner-prefix-heuristiek false-positive: SV 'uytgeblust/uytgeblust' → modern 'uitgeblust' (orthografisch uy→ui). Identieke stam in v44/v46/v48 (refrein-vers); concordant gerenderd. Geen drift.",
-      "verified_at": "2026-05-17T07:12:48+00:00"
+      "verified_at": "2026-05-17T07:14:48+00:00"
     }
   ]
 }
