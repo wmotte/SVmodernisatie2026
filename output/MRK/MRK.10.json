@@ -385,6 +385,46 @@
       "generated_at": "2026-05-17T15:19:19.653200Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 43,
+      "original": "$1.Petr. 5.3.$ Doch alsoo en sal het onder u niet zijn, maer soo wie onder u groot sal willen worden, die sal uwe dienaer zijn.",
+      "modernized": "$1Pt. 5:3$ Maar zo zal het onder u niet zijn; maar wie onder u groot zal willen worden, die zal uw dienaar zijn.",
+      "source_text": "οὐχ οὕτω δὲ ἔσται ἐν ὑμῖν· ἀλλ’ ὃς ἐὰν θέλῃ γενέσθαι μέγας ἐν ὑμῖν, ἔσται διάκονος ὑμῶν·",
+      "generated_at": "2026-05-17T15:22:49.067926Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 44,
+      "original": "Ende soo wie van u de eerste sal willen worden, die sal aller dienstknecht zijn.",
+      "modernized": "En wie van u de eerste zal willen worden, die zal dienstknecht van allen zijn.",
+      "source_text": "καὶ ὃς ἂν θέλῃ ὑμῶν γενέσθαι πρῶτος, ἔσται πάντων δοῦλος.",
+      "generated_at": "2026-05-17T15:24:58.149695Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 45,
+      "original": "Want oock de Sone des menschen en is niet gekomen $Ioan. 13.14. Philip. 2.7.$ om gedient te worden, maer om te dienen, ende $Ephes. 1.7. Coloss. 1.14. 1.Timoth. 2.6. Titum 2.14.$ sijne <Ofte, leven.> ziele te geven [tot] <Ofte, los-gelt, dat gegeven wort voor de verlossinge der gevangene.> een rantsoen voor vele.",
+      "modernized": "Want ook de Zoon des mensen is niet gekomen $Jh. 13:14; Fp. 2:7$ om gediend te worden, maar om te dienen, en $Ef. 1:7; Ko. 1:14; 1Tm. 2:6; Tt. 2:14$ zijn <Of, leven.> ziel te geven [tot] <Of, losgeld, dat gegeven wordt voor de verlossing van de gevangenen.> een losprijs voor velen.",
+      "source_text": "καὶ γὰρ ὁ Υἱὸς τοῦ ἀνθρώπου οὐκ ἦλθε διακονηθῆναι, ἀλλὰ διακονῆσαι, καὶ δοῦναι τὴν ψυχὴν αὐτοῦ λύτρον ἀντὶ πολλῶν.",
+      "generated_at": "2026-05-17T15:24:34.734555Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "rantsoen → losprijs",
+          "context": "hoofdtekst, vertaling van Gr. λύτρον",
+          "choice": "losprijs",
+          "alternatives": [
+            "rantsoen",
+            "losgeld"
+          ],
+          "reason": "SV1657 'rantsoen' is in modern NL primair 'voedseltoewijzing' geworden; carryover-linter en HSV-spiegel bevestigen drempel-archaïsme (§2.7). 'losprijs' is formeel-equivalent voor λύτρον, behoudt SV-zinsbouw en [haken]; kanttekening 'Of, losgeld' glosseert correct."
+        }
+      ]
     }
   ]
 }

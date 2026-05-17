@@ -65,6 +65,7 @@ Standaard-substituties voor de hoofdtekst:
 | volkomen (bijwoord) | volledig / geheel — `volkomen` als bijwoord is formeel-archaïsch; als bnw. ("een volkomen oplossing") modern OK |
 | tijding(en)        | boodschap / nieuws — productiviteit-FAIL in 2020+; collocatie `blijde tijding` → `blijde boodschap` |
 | derhalve           | daarom / dus — leeft alleen nog juridisch; in religieus register vervangen |
+| rantsoen           | losprijs — modern NL primair 'voedseltoewijzing'; voor Gr. λύτρον is 'losprijs' formeel-equivalent (Mk. 10:45; Mt. 20:28) |
 
 Geen letterlijke vervanging als de zinsbouw eronder lijdt; herformuleer
 de zin zodat hij modern Nederlands oplevert.
