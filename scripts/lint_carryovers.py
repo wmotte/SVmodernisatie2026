@@ -1100,6 +1100,10 @@ STOPLIST: frozenset[str] = frozenset({
     # MRK 7:34 carry-overs (legitiem)
     "medelijden",     # zelfst.nw. — gewoon modern NL ('uit medelijden over ...'); kanttekening v34
     "spiegel",        # zelfst.nw. — gewoon modern NL ('als een spiegel zijn'); kanttekening v34
+    # MRK 8:7-9 carry-overs (legitiem)
+    "voorleggen",     # gewoon modern NL werkwoord ('ter beoordeling voorleggen'); SV-concordant met v6 ('voorleggen')
+    "overschot",      # zelfstandig nw — gewoon modern NL ('het overschot van de brokken'); productief synoniem van 'restant'
+    "manden",         # zelfst. nw. meervoud — gewoon modern NL ('zeven manden'); geen archaïsme
 })
 
 
