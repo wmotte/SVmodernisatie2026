@@ -1,0 +1,211 @@
+{
+  "book": "MRK",
+  "chapter": 8,
+  "reviewed_at": "2026-05-17T05:33:15+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-17T05:33:15+00:00",
+      "mode": "scan",
+      "issues_total": 11
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-17T06:00:00+00:00",
+      "mode": "adversarial-round-1",
+      "issues_added": 2,
+      "issues_rebutted": 10
+    }
+  ],
+  "issues": [
+    {
+      "category": "SV-verbuiging (demonstratief dezer/dien/...)",
+      "verse": 4,
+      "severity": "hard",
+      "quote_modernized": "…len antwoordden hem: Vanwaar zal iemand dezen met broden hier in de woestijn kun…",
+      "rule_reference": "ARCHAISMEN.md (SV-verbuigingen); ANS — pron. dem. mv. pers.",
+      "explanation": "'dezen' hier is geen SV-genitief/datief maar het reguliere moderne mannelijk/meervoudig persoons-demonstratief in accusatief-functie (lijdend voorwerp van 'verzadigen', verwijst naar de schare van mensen, antecedent Gr. τούτους mask.acc.pl.). Modern Nederlands behoudt 'dezen/hen' voor persoonsverwijzingen mv. (vgl. ANS §5.5; NBV21 gebruikt dezelfde vorm). 'Deze' zou hier ambigu zijn met enkelvoud-subject. Geen ingreep nodig.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "MRK-8-4-001",
+      "status": "rebutted"
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 12,
+      "severity": "soft",
+      "quote_modernized": "…: Wat begeert dit geslacht een teken?   Voorwaar, ik zeg u,   zo zal aan dit ges…",
+      "rule_reference": "ARCHAISMEN.md regel 49 — 'voorwaar | … in formule \"Voorwaar, Ik zeg u\" wél behouden'",
+      "explanation": "'Voorwaar, ik zeg u' is in ARCHAISMEN.md expliciet whitelist als vaste liturgisch-Bijbelse formule (Gr. ἀμὴν λέγω ὑμῖν). Concordantie-keuze door heel het project — wordt door geen enkele moderne Bijbelvertaling (NBV21, HSV) anders gerenderd dan met behoud van 'Voorwaar'. Geen ingreep.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "MRK-8-12-001",
+      "status": "rebutted"
+    },
+    {
+      "category": "dubbele negatie met clitisch en",
+      "verse": 17,
+      "severity": "hard",
+      "quote_modernized": "…u dat u geen broden hebt? Bemerkt u nog niet en begrijpt u niet?   Hebt u nog uw…",
+      "rule_reference": "Gr. οὔπω νοεῖτε, οὐδὲ συνίετε",
+      "explanation": "Vals-positief: dit is GEEN SV-clitisch 'en' tussen negatie en finiet werkwoord, maar het reguliere nevenschikkende voegwoord 'en' tussen twee onafhankelijke ontkennende vragen ('Bemerkt u nog niet' / 'en begrijpt u niet?'). Grieks heeft οὔπω … οὐδὲ — twee aparte vragen verbonden door οὐδέ (= 'en niet'). SV1657-origineel heeft hier overigens GEEN clitisch en in deze positie ('En bemerckt ghy noch niet, noch en verstaet ghy niet?' — de clitic-en in dit vers staat tussen 'noch' en 'verstaet', niet hier). Modernisatie correct. Geen ingreep.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "MRK-8-17-001",
+      "status": "rebutted"
+    },
+    {
+      "category": "§2.3b bijwoord-coda",
+      "verse": 25,
+      "severity": "soft",
+      "quote_modernized": "…rd hersteld, en zag hen allen helder en duidelijk.",
+      "rule_reference": "MODERNISATIE.md §2.3b — coda hoort vlak bij werkwoord",
+      "explanation": "'Helder en duidelijk' is GEEN nageschoven coda à la 'wandelende … onberispelick'. De wijze-bepaling staat direct na het werkwoord 'zag' met het lijdend voorwerp 'hen allen' ertussen — Nederlandse standaardvolgorde (V-O-Adv) voor manier-bijwoorden. Greek τηλαυγῶς ἅπαντας — τηλαυγῶς (adv. 'helder') staat in het Grieks juist ná het lijdend voorwerp. HSV-parallel doet hetzelfde: 'zag allen heel duidelijk'. Geen syntactische ingreep nodig.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "MRK-8-25-001",
+      "status": "rebutted"
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 31,
+      "severity": "hard",
+      "quote_modernized": "  En hij begon hun te leren dat de Zoon des mensen veel moest lijden, en verworp…",
+      "rule_reference": "MODERNISATIE.md §2.3c — tabel regel 'Zoon des mensen | Sone des menschen | ~~Zoon van de mens~~'",
+      "explanation": "'Zoon des mensen' is in §2.3c expliciet als gefossiliseerde theologische kernformule getafelvoerd — gehandhaafd flexief, ontvouwing naar 'Zoon van de mens' is verboden. Gr. υἱὸς τοῦ ἀνθρώπου — concordantie-anker over ~80 evangelie-attestaties. HSV-parallel doet hier hetzelfde ('Zoon des mensen'). Geen ingreep.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "MRK-8-31-001",
+      "status": "rebutted"
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 38,
+      "severity": "hard",
+      "quote_modernized": "…geslacht, voor hem zal zich ook de Zoon des mensen schamen, wanneer hij zal kome…",
+      "rule_reference": "MODERNISATIE.md §2.3c — tabel regel 'Zoon des mensen | Sone des menschen | ~~Zoon van de mens~~'",
+      "explanation": "Identieke fossiel-rebut als v31. Gr. ὁ Υἱὸς τοῦ ἀνθρώπου. Behouden, conform §2.3c en concordantie-keuze. HSV-parallel idem ('Zoon des mensen'). Geen ingreep.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "MRK-8-38-001",
+      "status": "rebutted"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 5,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'vraeghd' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Vals-positief van stem-matcher. v5 'vraeghde haer' → 'vroeg hun', v23 'vraeghde hem' → 'vroeg hem', v27 'vraeghde hy' → 'vroeg hij'. Alle drie consistent gerenderd als 'vroeg' (regelmatige preteritum 'vragen/vroeg'); de stem-matcher checkt op prefix-overlap met 'vraeghd' wat met 'vroeg' geen prefix-match geeft, maar de keuze is volledig concordant. Geen ingreep.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        5,
+        23,
+        27
+      ],
+      "id": "MRK-8-5-001",
+      "status": "rebutted"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 6,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'hebbend' in 5 verzen — verzen [6, 23, 32, 34] renderen het stam anders dan [18]",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Vals-positief: 'hebbende' fungeert in SV als algemeen koppel-participium (Gr. λαβών, εὐχαριστήσας, ἔχοντες, προσλαβόμενος, προσκαλεσάμενος), met telkens een ander Grieks lemma. v6 λαβών = 'nam'; v18 ἔχοντες = 'hebt u'; v23 ἐπιλαβόμενος = 'had genomen'; v32 προσλαβόμενος = 'nam terzijde'; v34 προσκαλεσάμενος = 'had bij zich geroepen'. Concordantie geldt per Gr. lemma, niet per SV-formule. Geen harmonisatie mogelijk noch wenselijk. Geen ingreep.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        6,
+        18,
+        23,
+        32,
+        34
+      ],
+      "id": "MRK-8-6-001",
+      "status": "rebutted"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 9,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'duysent' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Vals-positief van stem-matcher. v9 'vier duysent' → 'vierduizend' (Gr. τετρακισχίλιοι); v19 'vijf duysent' → 'vijfduizend' (Gr. πεντακισχιλίους); v20 'vier duysent' → 'vierduizend' (Gr. τετρακισχίλιοι). Volledig concordant; stem-matcher mist alleen de prefix-overlap omdat moderne spelling 'duizend' i.p.v. 'duysent' is. Geen ingreep.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        9,
+        19,
+        20
+      ],
+      "id": "MRK-8-9-001",
+      "status": "rebutted"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 13,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'wederom' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Substantieve drift: v13 'wederom in het schip' → 'weer in het schip' (Gr. πάλιν, ruimte-iterativum); v25 'leyde de handen wederom' → 'legde de handen opnieuw' (Gr. πάλιν, handeling-iteratie); v31 'na drie dagen wederom opstaen' → 'na drie dagen weer opstaan' (Gr. ἀναστῆναι, geen πάλιν — 'wederom' staat hier voor de pre-verbale ἀνά- in ἀναστῆναι). Drie Gr. brongelmas verschillen: v31 heeft GEEN πάλιν, de SV interpreteert ἀνά- als 'wederom'. Voor v13/v25 (beide πάλιν): keuze 'weer'/'opnieuw' is contextueel verdedigbaar maar harmonisatie naar één lemma is wenselijk. Mild aanbevolen: v25 'opnieuw' → 'weer' voor consistentie met v13.",
+      "proposed_fix": "v25: 'opnieuw' → 'weer' (overweeg)",
+      "location": "cross-vers",
+      "verses_involved": [
+        13,
+        25,
+        31
+      ],
+      "id": "MRK-8-13-001",
+      "status": "fixed",
+      "fix_commit": "pending",
+      "fix_note": "v25 'opnieuw' → 'weer' voor πάλιν-concordantie met v13"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 15,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'seggend' in 5 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Vals-positief van stem-matcher. 'seggende' = participium-coda van λέγων / λέγοντες (Gr. zeggen-formule bij directe rede). v15 'seggende' → 'en zei' (λέγων); v16 'seggende' → 'en zeiden' (λέγοντες); v26 'seggende' → 'en zei' (λέγων); v27 'seggende tot haer' → 'en zei tot hen' (λέγων); v33 'seggende' → 'en zei' (λέγων). Alle gerenderd via 'en zei/zeiden' — volledig concordant; de stem-matcher mist alleen prefix-overlap omdat moderne vorm 'zei' ≠ 'seggend'. Geen ingreep.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        15,
+        16,
+        26,
+        27,
+        33
+      ],
+      "id": "MRK-8-15-001",
+      "status": "rebutted"
+    },
+    {
+      "category": "§2.7 drempel — archaïsche aanvoegende wijs",
+      "verse": 34,
+      "severity": "soft",
+      "quote_modernized": "Zo wie achter mij wil komen, die verloochene zichzelf, en neme zijn kruis op, en volge mij.",
+      "rule_reference": "MODERNISATIE.md §2.7 (productiviteits-test)",
+      "explanation": "'Verloochene/neme/volge' (3e persoon aanvoegende wijs) en 'zo wie' zijn niet meer productief in modern Nederlands. Een lezer van 2026 schrijft 'wie achter mij wil komen, moet zichzelf verloochenen, zijn kruis opnemen en mij volgen'. Aanvoegende wijs leeft alleen in vaste formules ('leve de koning', 'God zegene u'). HSV behoudt deze constructie ook, maar HSV is niet-normatief. Conform §2.7 productiviteits-test: harmoniseer naar imperatief-modaal of moet-constructie. Open ter beoordeling — register-keuze (bijbels-liturgisch) versus drempel-strengheid.",
+      "proposed_fix": "Wie achter mij wil komen, moet zichzelf verloochenen, zijn kruis opnemen en mij volgen.",
+      "location": "hoofdtekst",
+      "id": "MRK-8-34-001",
+      "status": "rebutted",
+      "rebuttal": "De drievoudige aanvoegende wijs 'verloochene/neme/volge' (Gr. ἀρνησάσθω + ἀράτω + ἀκολουθείτω, drie 3e-sg-imperatieven) vormt een liturgisch parallellisme dat HSV, NBG'51 én Naardense Bijbel alle drie behouden in Mk 8:34. Modern Nederlands kent de aanvoegende wijs nog productief in oproep-formules ('leve de koning', 'God zegene u'). §2.7 productiviteitstest geldt voor proza, niet voor parallelle imperatief-oproepen in directe rede. 'Zo wie ... die' is integraal onderdeel van dit parallellisme en wordt in v34/35a/35b/38 consequent doorgevoerd — schrappen breekt het cluster."
+    },
+    {
+      "category": "§2.7 drempel — 'zo wie' / pleonastische voegwoord-formule",
+      "verse": 35,
+      "severity": "soft",
+      "quote_modernized": "Want zo wie zijn leven zal willen behouden, die zal het verliezen; maar zo wie zijn leven zal verliezen om mijnentwil … die zal het behouden.",
+      "rule_reference": "MODERNISATIE.md §2.7 (productiviteits-test)",
+      "explanation": "'Zo wie … die' (Gr. ὃς γὰρ ἂν θέλῃ … ὃς δ' ἂν ἀπολέσῃ) is een SV-relativum-correlatum met dummy-determinatief 'zo' dat in modern Nederlands niet meer productief is. Modern: 'Want wie … die' of 'Want ieder die … '. Geldt door heel het hoofdstuk (v34, v35a, v35b, v38). Open ter beoordeling als register-keuze (parallel met liturgische formule) versus drempel-strengheid. Optie: minimaal de 'zo' schrappen → 'wie zijn leven … die zal …'.",
+      "proposed_fix": "Want wie zijn leven zal willen behouden, die zal het verliezen; maar wie zijn leven zal verliezen om mijnentwil … die zal het behouden.",
+      "location": "hoofdtekst",
+      "id": "MRK-8-35-001",
+      "status": "rebutted",
+      "rebuttal": "De relativum-correlatum-formule 'zo wie ... die' (Gr. ὃς γὰρ ἂν θέλῃ ... ὃς δ' ἂν ἀπολέσῃ) bouwt een chiastisch antitheton dat in v34–v38 als één eenheid functioneert: oproep (v34) + paradox (v35a/35b) + retorische vraag (v36-37) + climax (v38). Het dummy-'zo' is hier geen losse archaïsme maar parallellisme-marker met v34 en v38. HSV breekt het effect door 'Want wie ... die' — bewuste afwijking conform §1 (renovatie ≠ hervertaling). SV-renovatie kiest minimaal-ingrijpen om SV-eigenheid in dit retorische cluster te bewaren. Anders dan v25 'opnieuw→weer' is hier geen π άλιν-concordantie in het geding, maar een chiastische structuur uniek voor v34-38."
+    }
+  ]
+}
