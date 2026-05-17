@@ -34,6 +34,33 @@
       "generated_at": "2026-05-17T11:31:59.511459Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 4,
+      "original": "Ende sy seyden, $Deuter. 24.1. Ierem. 3.1. Matth. 5.31.$ Moses heeft toegelaten eenen <Van den scheytbrief, ende dese geheele antwoorde Christi, siet Matth. cap. 19. vers 3, etc.> scheytbrief te schrijven, ende [haer] te verlaten.",
+      "modernized": "En zij zeiden: $Dt. 24:1; Jr. 3:1; Mt. 5:31$ Mozes heeft toegelaten een <Van de scheidbrief, en deze gehele antwoord van Christus, zie $Mt. 19:3$, enz.> scheidbrief te schrijven, en [haar] te verlaten.",
+      "source_text": "οἱ δὲ εἶπον, Μωσῆς ἐπέτρεψε βιβλίον ἀποστασίου γράψαι, καὶ ἀπολῦσαι.",
+      "generated_at": "2026-05-17T12:34:38.531732Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 5,
+      "original": "Ende Iesus antwoordende seyde tot haer, van wegen de hardigheyt uwer her-ten heeft hy u-lieden dat gebodt geschreven.",
+      "modernized": "En Jezus antwoordde en zei tot hen: Vanwege de hardheid van uw harten heeft hij u dit gebod geschreven.",
+      "source_text": "καὶ ἀποκριθεὶς ὁ Ἰησοῦς εἶπεν αὐτοῖς, Πρὸς τὴν σκληροκαρδίαν ὑμῶν ἔγραψεν ὑμῖν τὴν ἐντολὴν ταύτην·",
+      "generated_at": "2026-05-17T12:35:05.361403Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 6,
+      "original": "$Genes. 1.27. Matth. 19 4.$ Maer van het begin der scheppinge, heeftse Godt man ende wijf gemaeckt.",
+      "modernized": "$Gn. 1:27; Mt. 19:4$ Maar van het begin van de schepping heeft God hen man en vrouw gemaakt.",
+      "source_text": "ἀπὸ δὲ ἀρχῆς κτίσεως, ἄρσεν καὶ θῆλυ ἐποίησεν αὐτοὺς ὁ Θεός.",
+      "generated_at": "2026-05-17T12:35:37.436755Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
