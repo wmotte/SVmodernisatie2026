@@ -142,6 +142,33 @@
       "generated_at": "2026-05-17T05:53:38.663031Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 16,
+      "original": "Ende hy vraeghde de Schriftgeleerde, Wat twistet ghy <And. onder malkanderen.> met dese?",
+      "modernized": "En hij vroeg de Schriftgeleerden: Wat twist u <Anderen: onder elkaar.> met hen?",
+      "source_text": "καὶ ἐπηρώτησε τοὺς γραμματεῖς, Τί συζητεῖτε πρὸς αὐτούς;",
+      "generated_at": "2026-05-17T05:59:23.647448Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 3
+    },
+    {
+      "verse_number": 17,
+      "original": "$Matth. 17.14. Luce 9.37, 38.$ Ende een uyt de schare antwoordende seyde, Meester, ick hebbe mijnen sone tot u gebracht, die eenen <Gr. spraeckloosen, D. die hem sijne sprake benomen hadde ofte verhinderde.> stommen geest heeft.",
+      "modernized": "$Mt. 17:14$ $Lk. 9:37,38$ En een uit de schare antwoordde en zei: Meester, ik heb mijn zoon tot u gebracht, die een <Grieks: spraakloze, dat is, die hem zijn spraak benomen had of belette.> stomme geest heeft.",
+      "source_text": "καὶ ἀποκριθεὶς εἷς ἐκ τοῦ ὄχλου εἶπε, Διδάσκαλε, ἤνεγκα τὸν υἱόν μου πρός σε, ἔχοντα πνεῦμα ἄλαλον.",
+      "generated_at": "2026-05-17T05:58:56.086062Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 3
+    },
+    {
+      "verse_number": 18,
+      "original": "Ende<Ofte, soo wanneer.> waer hy hem oock aengrijpt, soo scheurt hy hem, ende schuymt, ende knersset met sijne tanden, ende <D. verdwijnt, of vergaet door dese quellinge.> verdorret: ende ick hebbe uwe discipelen <Dat is, van haer versocht.> geseght, dat sy hem souden uytwerpen, ende sy en hebben niet gekonnen.",
+      "modernized": "En <Of, zo wanneer.> waar hij hem ook aangrijpt, daar scheurt hij hem, en hij schuimt, en knarst met zijn tanden, en <Dat is, verdwijnt, of vergaat door deze kwelling.> verdort; en ik heb uw discipelen <Dat is, hun verzocht.> gezegd, dat zij hem zouden uitwerpen, en zij hebben het niet gekund.",
+      "source_text": "καὶ ὅπου ἂν αὐτὸν καταλάβῃ, ῥήσσει αὐτόν· καὶ ἀφρίζει, καὶ τρίζει τοὺς ὀδόντας αὐτοῦ, καὶ ξηραίνεται· καὶ εἶπον τοῖς μαθηταῖς σου ἵνα αὐτὸ ἐκβάλωσι, καὶ οὐκ ἴσχυσαν.",
+      "generated_at": "2026-05-17T05:59:02.530545Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 4
     }
   ]
 }
