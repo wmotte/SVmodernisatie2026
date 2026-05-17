@@ -1118,6 +1118,8 @@ STOPLIST: frozenset[str] = frozenset({
     "bevestigen",     # ww. infinitief — gewoon modern NL ('met een eed wil bevestigen'); kanttekening v12
     # MRK 8:16-18 carry-overs (legitiem)
     "vereelt",        # SV-glosse op Gr. πεπωρωμένην ('vereelt of verweerd'); kanttekening v17 bewaart de SV-gloss-terminologie expliciet (anatomisch 'vereeld/eelt'); geen archaïsme-in-hoofdtekst maar verklarende glosse
+    # MRK 8:22-24 carry-overs (legitiem)
+    "andreas",        # eigennaam apostel — kanttekening v22 noemt Petrus, Andreas en Filippus als afkomstig uit Betsaïda ($Jh. 1:45$)
 })
 
 
