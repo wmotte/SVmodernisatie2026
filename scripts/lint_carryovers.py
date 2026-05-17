@@ -1104,6 +1104,12 @@ STOPLIST: frozenset[str] = frozenset({
     "voorleggen",     # gewoon modern NL werkwoord ('ter beoordeling voorleggen'); SV-concordant met v6 ('voorleggen')
     "overschot",      # zelfstandig nw — gewoon modern NL ('het overschot van de brokken'); productief synoniem van 'restant'
     "manden",         # zelfst. nw. meervoud — gewoon modern NL ('zeven manden'); geen archaïsme
+    # MRK 8:10-12 carry-overs (legitiem)
+    "dalmanutha",     # eigennaam — plaatsnaam (v10, 'in de streken van Dalmanutha')
+    "twisten",        # ww. infinitief — gewoon modern NL ('begonnen met hem te twisten'); SV-glosse op Gr. συζητεῖν (v11)
+    "geschil",        # zelfst.nw. — gewoon modern NL ('in dispuut en geschil'); kanttekening v11
+    "afgebroken",     # volt. deelw. van 'afbreken' — gewoon modern NL ('een afgebroken manier van spreken'); kanttekening v12
+    "bevestigen",     # ww. infinitief — gewoon modern NL ('met een eed wil bevestigen'); kanttekening v12
 })
 
 
