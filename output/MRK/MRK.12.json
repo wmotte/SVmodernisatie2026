@@ -417,6 +417,33 @@
           "tekst": "Psalmcitaat-formule consistent met v10-11 patroon: bibrefs uitgebreid ($Ps. 110:1; Hd. 2:34; 1Kor. 15:25; Hb. 1:13; 10:13$). aen mijne rechter [hant] → aan mijn rechter [hand] (concordant LUK 20:42 modernisering). tot dat ick … sal geset hebben → totdat ik … zal gezet hebben (concordant LUK 20:43). voetbanck uwer voeten → voetbank van uw voeten (concordant LUK 20:43)."
         }
       ]
+    },
+    {
+      "verse_number": 37,
+      "original": "David dan selve noemt hem [sijnen] Heere: ende <Gr. van waer.> hoe is hy sijne sone? Ende de menighte der schare hoorde hem geerne.",
+      "modernized": "David dan zelf noemt hem [zijn] Heere; en <Grieks: vanwaar.> hoe is hij zijn zoon? En de grote menigte van de schare hoorde hem graag.",
+      "source_text": "Αὐτὸς οὖν Δαβὶδ λέγει αὐτὸν Κύριον· καὶ πόθεν Υἱὸς αὐτοῦ ἐστι; καὶ ὁ πολὺς ὄχλος ἤκουεν αὐτοῦ ἡδέως.",
+      "generated_at": "2026-05-17T20:18:53.503808Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 38,
+      "original": "$Matth. 23.5, 6. Luce 11.43. ende 20.46.$ Ende hy seyde tot haer in sijne leere, <Gr. siet voor u, Namelick, dat ghy door hare schijnheyligheyt niet bedrogen, ofte door haer exempel tot diergelijcke geveynstheyt niet gebracht en wort.> Wacht u voor de Schriftgeleerde, die daer geerne willen wandelen in <Gr. Stolais, het welck beteeckent lange rocken ofte tabbaerden tot de voeten toe, om daer door te aensienlicker by de menschen te wesen: Soo dat Christus hier niet en verwerpt de kleederen, maer de eergierigheyt, die daer onder schuylde.> lange kleederen, ende <Gr. de groetenissen, Namelick, hebben.> gegroet zijn op de marckten.",
+      "modernized": "$Mt. 23:5,6; Lk. 11:43; 20:46$ En hij zei tot hen in zijn leer: <Grieks: zie voor u, Namelijk, dat u door hun schijnheiligheid niet bedrogen, of door hun voorbeeld niet tot dergelijke geveinsdheid gebracht wordt.> Wacht u voor de Schriftgeleerden, die graag willen wandelen in <Grieks: Stolais, wat lange rokken of tabbaarden tot de voeten toe betekent, om daardoor des te aanzienlijker bij de mensen te zijn; zodat Christus hier niet de kleren verwerpt, maar de eerzucht die daaronder schuilging.> lange klederen, en <Grieks: de begroetingen, Namelijk, hebben.> gegroet worden op de markten.",
+      "source_text": "Καὶ ἔλεγεν αὐτοῖς ἐν τῇ διδαχῇ αὐτοῦ, Βλέπετε ἀπὸ τῶν γραμματέων, τῶν θελόντων ἐν στολαῖς περιπατεῖν, καὶ ἀσπασμοὺς ἐν ταῖς ἀγοραῖς,",
+      "generated_at": "2026-05-17T20:19:45.294952Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 39,
+      "original": "Ende de voorgestoelten [hebben] in de Synagogen, ende de vooraensittingen in de <Gr. avontmalen.> maeltijden.",
+      "modernized": "En de voorgestoelten [hebben] in de Synagogen, en de voorste zitplaatsen aan de <Grieks: avondmalen.> maaltijden.",
+      "source_text": "καὶ πρωτοκαθεδρίας ἐν ταῖς συναγωγαῖς, καὶ πρωτοκλισίας ἐν τοῖς δείπνοις·",
+      "generated_at": "2026-05-17T20:20:07.134291Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
