@@ -537,6 +537,7 @@ STOPLIST: frozenset[str] = frozenset({
     "water",  # gewoon modern NL
     # LUK 3:19-21 carry-overs (legitiem)
     "bestraft",  # past participle van 'bestraffen' — gewoon modern NL
+    "bestraffen",  # infinitief van 'bestraffen' — gewoon modern NL (MRK 8:32, 'begon hem te bestraffen'); vgl. STOPLIST 'bestraft', 'bestrafte', 'bestraften'
     "gesloten",  # past participle van 'sluiten' — gewoon modern NL
     "herodias",  # eigennaam (vrouw van Herodes / Filippus)
     # LUK 3:22-24 carry-overs (legitiem)
