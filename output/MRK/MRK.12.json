@@ -40,6 +40,39 @@
       "generated_at": "2026-05-17T11:31:39.089822Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 4,
+      "original": "Ende hy sondt wederom eenen anderen dienstknecht tot haer, ende dien steenighden sy, ende wondeden hem ’t hooft, ende sonden [hem] henen <Gr. onteert.> schandelick gehandelt zijnde.",
+      "modernized": "En hij zond opnieuw een andere dienstknecht tot hen, en die stenigden zij, en wondden hem aan het hoofd, en zonden [hem] heen <Grieks: onteerd.> nadat hij schandelijk behandeld was.",
+      "source_text": "καὶ πάλιν ἀπέστειλε πρὸς αὐτοὺς ἄλλον δοῦλον· κἀκεῖνον λιθοβολήσαντες ἐκεφαλαίωσαν, καὶ ἀπέστειλαν ἠτιμωμένον.",
+      "generated_at": "2026-05-17T12:34:18.977502Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "tekst": "Passieve constructie behouden: SV 'schandelick gehandelt zijnde' (absolute passieve constructie bij object) + Gr. perfectum passief participium ἠτιμωμένον → 'nadat hij schandelijk behandeld was' i.p.v. actief 'nadat zij hem ... hadden'. HSV-spiegel bevestigt passief."
+        }
+      ]
+    },
+    {
+      "verse_number": 5,
+      "original": "Ende wederom sondt hy eenen anderen, ende dien doodden sy: ende vele andere, [waer van] sy de sommige sloegen, ende de sommige doodden.",
+      "modernized": "En opnieuw zond hij een andere, en die doodden zij; en vele anderen, [van wie] zij sommigen sloegen en sommigen doodden.",
+      "source_text": "καὶ πάλιν ἄλλον ἀπέστειλε· κἀκεῖνον ἀπέκτειναν· καὶ πολλοὺς ἄλλους, τοὺς μὲν δέροντες, τοὺς δὲ ἀποκτείνοντες.",
+      "generated_at": "2026-05-17T12:34:52.096001Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 6,
+      "original": "Als hy dan noch eenen sone hadde, die hem lief was, soo heeft hy oock dien <Gr. den laetsten.> ten laetsten tot haer gesonden, seggende, Sy sullen immers mijnen sone ontsien.",
+      "modernized": "Als hij dan nog één zoon had, die hem lief was, heeft hij ook deze <Grieks: de laatste.> als laatste tot hen gezonden, en zei: Zij zullen immers mijn zoon ontzien.",
+      "source_text": "ἔτι οὖν ἕνα υἱὸν ἔχων ἀγαπητὸν αὐτοῦ, ἀπέστειλε καὶ αὐτὸν πρὸς αὐτοὺς ἔσχατον, λέγων ὅτι Ἐντραπήσονται τὸν υἱόν μου.",
+      "generated_at": "2026-05-17T12:35:22.711453Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
