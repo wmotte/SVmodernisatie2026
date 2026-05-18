@@ -317,9 +317,7 @@ def render_chapter(ch: dict) -> str:
             + "}"
         )
 
-    # Reset footnote-counter at chapter boundary — perpage already does
-    # this per page; this is belt+suspenders for clean numbering.
-    lines.append(r"\clearpage")
+    lines.append(r"\addvspace{6mm}")
     return "\n".join(lines)
 
 
