@@ -250,6 +250,46 @@
       "generated_at": "2026-05-18T10:44:34.264979Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 28,
+      "original": "$Iesa. 53.12. Luce 22.37.$ Ende de Schrift is vervult geworden, die daer seght, Ende hy is met de misdadige gereeckent:",
+      "modernized": "$Js. 53:12; Lk. 22:37$ En de Schrift is vervuld geworden, die zegt: En hij is met de misdadige gerekend.",
+      "source_text": "καὶ ἐπληρώθη ἡ γραφὴ ἡ λέγουσα, Καὶ μετὰ ἀνόμων ἐλογίσθη.",
+      "generated_at": "2026-05-18T10:49:32.200701Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 29,
+      "original": "$Psalm 22.8. ende 69.21. ende 109.25. Matth. 27.39. Luce 23.35.$ Ende die voorby gingen lasterden hem, schuddende hare hoofden, ende seggende, Ha! $Ioan. 2.19.$ ghy die den tempel afbreeckt, ende in drie dagen opbouwt.",
+      "modernized": "$Ps. 22:8; 69:21; 109:25; Mt. 27:39; Lk. 23:35$ En zij die voorbijgingen lasterden hem, schudden hun hoofden en zeiden: Ha! $Jh. 2:19$ u die de tempel afbreekt en in drie dagen opbouwt.",
+      "source_text": "καὶ οἱ παραπορευόμενοι ἐβλασφήμουν αὐτόν, κινοῦντες τὰς κεφαλὰς αὐτῶν, καὶ λέγοντες, Οὐά, ὁ καταλύων τὸν ναόν, καὶ ἐν τρισὶν ἡμέραις οἰκοδομῶν,",
+      "generated_at": "2026-05-18T10:50:08.421563Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 30,
+      "original": "Behoudt u selven, ende komt af van het kruys.",
+      "modernized": "Red uzelf en kom af van het kruis.",
+      "source_text": "σῶσον σεαυτόν, καὶ κατάβα ἀπὸ τοῦ σταυροῦ.",
+      "generated_at": "2026-05-18T10:50:50.852124Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "Behoudt → Red",
+          "context": "hoofdtekst",
+          "choice": "Red uzelf",
+          "alternatives": [
+            "Behoud uzelf",
+            "Verlos uzelf"
+          ],
+          "reason": "σῶσον σεαυτόν in de spotcontext aan het kruis betekent fysieke redding/bevrijding; modern Nederlands gebruikt hier productief Red uzelf. Behoud heeft soteriologische bijklank die de spot vervlakt."
+        }
+      ]
     }
   ]
 }
