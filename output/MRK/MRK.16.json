@@ -169,6 +169,34 @@
       "generated_at": "2026-05-18T09:25:16.127968Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 19,
+      "original": "De Heere dan <Namel. veertigh dagen langh, van het Koninckrijcke Godts, Actor. 1.3.> na dat hy tot haer gesproken hadde, $Luce 24. versen 50, 51. Actor. 1.9.$ is opgenomen in den hemel, ende is geseten aen de rechter [hant] Godts.",
+      "modernized": "De Heere dan <Namelijk, veertig dagen lang, over het Koninkrijk Gods, $Hd. 1:3$.> nadat Hij tot hen gesproken had, $Lk. 24:50,51; Hd. 1:9$ is opgenomen in de hemel, en is gezeten aan de rechter [hand] Gods.",
+      "source_text": "Ὁ μὲν οὖν Κύριος, μετὰ τὸ λαλῆσαι αὐτοῖς, ἀνελήφθη εἰς τὸν οὐρανόν, καὶ ἐκάθισεν ἐκ δεξιῶν τοῦ Θεοῦ.",
+      "generated_at": "2026-05-18T09:31:30.007926Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "subject": "bibref-output handmatig gecorrigeerd",
+          "context": "hoofdtekst-refs",
+          "choice": "$Lk. 24:50,51; Hd. 1:9$",
+          "alternatives": [],
+          "reason": "bibref.py output gaf foutief $Mk. 50:51; Hd. 1:9$ voor input \"Luce 24. versen 50, 51.\" — handmatig hersteld."
+        }
+      ]
+    },
+    {
+      "verse_number": 20,
+      "original": "Ende $Actor. 1.2. 1.Timoth. 3.16.$ sy uytgegaen zijnde predickten <Dat is, door de geheele werelt, Actor. 10. versen 28, 42.> over al, ende $Actor. 14.3. Hebr. 2.4.$ de Heere <Ofte, bekrachtighde, namelick, door de werckinge sijnes Geests de predicatie sijnes woorts in de herten der menschen, tot hare bekeeringe. Siet Actor. 14. vers 3. ende 16.14. 1.Corinth. 3.7.> wrocht mede, ende <Ofte, bekrachtighde, namelick, door de werckinge sijnes Geests de predicatie sijnes woorts in de herten der menschen, tot hare bekeeringe. Siet Actor. 14. vers 3. ende 16.14. 1.Corinth. 3.7.> bevestighde <Namelick, van de predicatie des Euangeliums.> het woort door teeckenen die daer op volghden. Amen.",
+      "modernized": "En $Hd. 1:2; 1Tm. 3:16$ toen zij uitgegaan waren, predikten zij <Dat is, door de gehele wereld, $Hd. 10:28,42$.> overal, en $Hd. 14:3; Hb. 2:4$ de Heere <Of, bekrachtigde, namelijk door de werking van zijn Geest de prediking van zijn woord in de harten der mensen, tot hun bekering. Zie $Hd. 14:3; 16:14; 1Kor. 3:7$.> werkte mede, en <Of, bekrachtigde, namelijk door de werking van zijn Geest de prediking van zijn woord in de harten der mensen, tot hun bekering. Zie $Hd. 14:3; 16:14; 1Kor. 3:7$.> bevestigde <Namelijk, van de prediking van het Evangelie.> het woord door tekenen die daarop volgden. Amen.",
+      "source_text": "ἐκεῖνοι δὲ ἐξελθόντες ἐκήρυξαν πανταχοῦ, τοῦ Κυρίου συνεργοῦντος, καὶ τὸν λόγον βεβαιοῦντος διὰ τῶν ἐπακολουθούντων σημείων. Ἀμήν.",
+      "generated_at": "2026-05-18T09:32:13.153561Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ],
   "epilogue": {
