@@ -466,7 +466,12 @@
       "verse_number": 50,
       "original": "$Iob 19.13. Psalm 88.9.$ Ende <Namelick, sijne discipelen.> sy hem verlatende zijn alle gevloden.",
       "modernized": "$Jb. 19:13; Ps. 88:9$ En <Namelijk, zijn discipelen.> zij verlieten hem en zijn allen gevlucht.",
-      "notes": [{"type": "afwijking", "text": "gevloden → gevlucht (drempel-§2.7); HSV-spiegel bevestigt en eigen concordantie in MRK 5:14, LUK 8:34 gebruikt 'gevlucht'."}],
+      "notes": [
+        {
+          "type": "afwijking",
+          "text": "gevloden → gevlucht (drempel-§2.7); HSV-spiegel bevestigt en eigen concordantie in MRK 5:14, LUK 8:34 gebruikt 'gevlucht'."
+        }
+      ],
       "source_text": "καὶ ἀφέντες αὐτὸν πάντες ἔφυγον.",
       "generated_at": "2026-05-18T05:54:30.048209Z",
       "model": "claude-opus-4-7[1m]",
@@ -478,6 +483,33 @@
       "modernized": "En een zekere jongeling volgde hem, met een linnen doek <Gr. omgeworpen.> omgedaan over het naakte [lijf,] en <Dit schijnen enkele jonge soldaten te zijn geweest. Deze geschiedenis wordt verhaald om de wreedheid aan te wijzen van hen die Christus gevangen namen.> de jongelingen grepen hem.",
       "source_text": "Καὶ εἷς τις νεανίσκος ἠκολούθει αὐτῷ, περιβεβλημένος σινδόνα ἐπὶ γυμνοῦ. καὶ κρατοῦσιν αὐτὸν οἱ νεανίσκοι·",
       "generated_at": "2026-05-18T05:54:58.423001Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 52,
+      "original": "Ende hy het lijnwaet verlatende is naeckt van haer gevloden.",
+      "modernized": "En hij liet de linnen doek achter en is naakt van hen weggevlucht.",
+      "source_text": "ὁ δὲ καταλιπὼν τὴν σινδόνα γυμνὸς ἔφυγεν ἀπ’ αὐτῶν.",
+      "generated_at": "2026-05-18T05:59:57.663086Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 53,
+      "original": "$Matth. 26.57. Luce 22.54. Ioan. 18.13, 24.$ Ende sy leyden Iesum henen tot <N. Cajaphas. siet Matth. 26.57. Ioan. 18.13.> den Hoogenpriester: ende by hem vergaderden alle de Overpriesters, ende de Ouderlingen, ende de Schriftgeleerde.",
+      "modernized": "$Mt. 26:57; Lk. 22:54; Jh. 18:13,24$ En zij leidden Jezus heen tot <Namelijk Kajafas; zie $Mt. 26:57$; $Jh. 18:13$.> de Hogepriester; en bij hem kwamen alle Overpriesters, en de Ouderlingen, en de Schriftgeleerden bijeen.",
+      "source_text": "Καὶ ἀπήγαγον τὸν Ἰησοῦν πρὸς τὸν ἀρχιερέα· καὶ συνέρχονται αὐτῷ πάντες οἱ ἀρχιερεῖς καὶ οἱ πρεσβύτεροι καὶ οἱ γραμματεῖς.",
+      "generated_at": "2026-05-18T06:00:28.659896Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 54,
+      "original": "Ende Petrus volghde hem van verre, tot binnen in de zale des Hoogenpriesters, ende hy was mede sittende met de dienaren, ende hem warmende <Gr. by het licht.> by het vyer.",
+      "modernized": "En Petrus volgde hem van verre, tot binnen in de zaal van de Hogepriester; en hij zat mede met de dienaren, en warmde zich <Grieks: bij het licht.> bij het vuur.",
+      "source_text": "καὶ ὁ Πέτρος ἀπὸ μακρόθεν ἠκολούθησεν αὐτῷ ἕως ἔσω εἰς τὴν αὐλὴν τοῦ ἀρχιερέως· καὶ ἦν συγκαθήμενος μετὰ τῶν ὑπηρετῶν, καὶ θερμαινόμενος πρὸς τὸ φῶς.",
+      "generated_at": "2026-05-18T06:00:50.803519Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
     }
