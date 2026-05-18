@@ -296,24 +296,37 @@
     },
     {
       "verse_number": 40,
-      "status": "pending",
-      "sv2026": "",
+      "status": "modernized",
+      "sv2026": "$Mt. 27:55; Lk. 23:49$ En er waren ook vrouwen $Ps. 38:12$ die [dit] van verre aanschouwden, onder wie ook was Maria Magdalena, en <De vrouw van Alfeüs; zie $Mt. 10:3$ en $Mt. 27:56$.> Maria, de moeder van Jakobus <Dat is, de jongere, die zo bijgenaamd werd ter onderscheiding van een andere Jakobus die de zoon van Zebedeüs was; of van zijn oom, de broer van Alfeüs, zoals sommigen menen.> de kleine, en van Joses, en <Deze is de vrouw van Zebedeüs geweest, zoals blijkt uit deze plaats, vergeleken met $Mt. 27:56$.> Salome.",
       "hsv": "$Matt. 27:55; Luk. 23:49$ En er waren [daar] ook vrouwen, die $Ps. 38:12$ uit de verte toekeken; onder hen waren ook Maria Magdalena, en Maria, de moeder van Jakobus de kleine en van Joses, en Salome,",
       "original": "$Matth. 27.55. Luce 23.49.$ Ende daer waren oock vrouwen $Psalm 38.12.$ van verre [dit] aenschouwende, onder welcke oock was Maria Magdalene, ende <De huysvrouwe Alphei. siet Matth. cap. 10. vers 3. ende cap. 27. vers 56.> Maria Iacobi <D. des jongeren, die alsoo toegenaemt wiert tot onderscheyt van een ander Iacobus die Zebedei sone was: ofte van sijnen oom, de broeder Alphei, gelijck sommige meynen.> des kleynen, ende Iose moeder, ende <Dese is geweest de huysvrouwe van Zebedeus, gelijck blijckt uyt dese plaetse, vergeleecken met Matth. 27.56.> Salome."
     },
     {
       "verse_number": 41,
-      "status": "pending",
-      "sv2026": "",
+      "status": "modernized",
+      "sv2026": "Die hem ook, toen hij in Galilea was, gevolgd waren, en $Lk. 8:2,3$ hem gediend hadden, en vele andere [vrouwen,] die met hem naar Jeruzalem opgegaan waren.",
       "hsv": "die, ook toen Hij in Galilea was, Hem gevolgd waren en $Luk. 8:2; 3$ gediend hadden, en veel andere [vrouwen] die met Hem naar Jeruzalem opgegaan waren.",
       "original": "Welcke oock, doe hy in Galilea was, hem waren gevolght, ende $Luce 8.2, 3.$ hem gedient hadden, ende vele andere [vrouwen,] die met hem na Ierusalem opgekomen waren."
     },
     {
       "verse_number": 42,
-      "status": "pending",
-      "sv2026": "",
+      "status": "modernized",
+      "sv2026": "$Mt. 27:57; Lk. 23:50; Jh. 19:38$ En toen het nu <Namelijk op de dag voor de Sabbat.> avond geworden was, omdat het <Namelijk, van het Pascha, dat de Joden ditmaal hadden uitgesteld tot op de Sabbat. De redenen hiervoor worden verhaald in de aantekening op $Mt. 26:20$.> de voorbereiding was, die de voor-Sabbat is,",
       "hsv": "$Matt. 27:57; Luk. 23:50; Joh. 19:38$ En toen het al avond geworden was, [en] omdat het de voorbereiding [op het Pascha] was, dat is de voorsabbat,",
-      "original": "$Matth. 27.57. Luce 23.50. Ioan. 19 38.$ Ende als het nu <Namel. op den dagh voor den Sabbath.> avont was geworden, dewijle het <Namelick, van het Pascha, ’t welck de Ioden op die reyse hadden uytgestelt tot op den Sabbath. De redenen hier van worden verhaelt in d’aenteeckeninge op Matth. 26.20.> de voorbereydinge was, welcke is de voor-Sabbath,"
+      "original": "$Matth. 27.57. Luce 23.50. Ioan. 19 38.$ Ende als het nu <Namel. op den dagh voor den Sabbath.> avont was geworden, dewijle het <Namelick, van het Pascha, ’t welck de Ioden op die reyse hadden uytgestelt tot op den Sabbath. De redenen hier van worden verhaelt in d’aenteeckeninge op Matth. 26.20.> de voorbereydinge was, welcke is de voor-Sabbath,",
+      "notes": [
+        {
+          "type": "twijfel",
+          "subject": "op die reyse",
+          "context": "kanttekening 2",
+          "choice": "ditmaal",
+          "alternatives": [
+            "dit keer",
+            "toen"
+          ],
+          "reason": "SV1657 idioom voor keer/maal; modern op die reis zou false friend zijn (lijkt op een verplaatsing)."
+        }
+      ]
     },
     {
       "verse_number": 43,

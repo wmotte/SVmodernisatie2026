@@ -371,6 +371,46 @@
       "generated_at": "2026-05-18T11:09:45.748141Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 40,
+      "original": "$Matth. 27.55. Luce 23.49.$ Ende daer waren oock vrouwen $Psalm 38.12.$ van verre [dit] aenschouwende, onder welcke oock was Maria Magdalene, ende <De huysvrouwe Alphei. siet Matth. cap. 10. vers 3. ende cap. 27. vers 56.> Maria Iacobi <D. des jongeren, die alsoo toegenaemt wiert tot onderscheyt van een ander Iacobus die Zebedei sone was: ofte van sijnen oom, de broeder Alphei, gelijck sommige meynen.> des kleynen, ende Iose moeder, ende <Dese is geweest de huysvrouwe van Zebedeus, gelijck blijckt uyt dese plaetse, vergeleecken met Matth. 27.56.> Salome.",
+      "modernized": "$Mt. 27:55; Lk. 23:49$ En er waren ook vrouwen $Ps. 38:12$ die [dit] van verre aanschouwden, onder wie ook was Maria Magdalena, en <De vrouw van Alfeüs; zie $Mt. 10:3$ en $Mt. 27:56$.> Maria, de moeder van Jakobus <Dat is, de jongere, die zo bijgenaamd werd ter onderscheiding van een andere Jakobus die de zoon van Zebedeüs was; of van zijn oom, de broer van Alfeüs, zoals sommigen menen.> de kleine, en van Joses, en <Deze is de vrouw van Zebedeüs geweest, zoals blijkt uit deze plaats, vergeleken met $Mt. 27:56$.> Salome.",
+      "source_text": "ἦσαν δὲ καὶ γυναῖκες ἀπὸ μακρόθεν θεωροῦσαι, ἐν αἷς ἦν καὶ Μαρία ἡ Μαγδαληνή, καὶ Μαρία ἡ τοῦ Ἰακώβου τοῦ μικροῦ καὶ Ἰωσῆ μήτηρ, καὶ Σαλώμη,",
+      "generated_at": "2026-05-18T11:14:21.094861Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 41,
+      "original": "Welcke oock, doe hy in Galilea was, hem waren gevolght, ende $Luce 8.2, 3.$ hem gedient hadden, ende vele andere [vrouwen,] die met hem na Ierusalem opgekomen waren.",
+      "modernized": "Die hem ook, toen hij in Galilea was, gevolgd waren, en $Lk. 8:2,3$ hem gediend hadden, en vele andere [vrouwen,] die met hem naar Jeruzalem opgegaan waren.",
+      "source_text": "αἳ καί, ὅτε ἦν ἐν τῇ Γαλιλαίᾳ, ἠκολούθουν αὐτῷ, καὶ διηκόνουν αὐτῷ, καὶ ἄλλαι πολλαὶ αἱ συναναβᾶσαι αὐτῷ εἰς Ἱεροσόλυμα.",
+      "generated_at": "2026-05-18T11:16:08.112802Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 4
+    },
+    {
+      "verse_number": 42,
+      "original": "$Matth. 27.57. Luce 23.50. Ioan. 19 38.$ Ende als het nu <Namel. op den dagh voor den Sabbath.> avont was geworden, dewijle het <Namelick, van het Pascha, ’t welck de Ioden op die reyse hadden uytgestelt tot op den Sabbath. De redenen hier van worden verhaelt in d’aenteeckeninge op Matth. 26.20.> de voorbereydinge was, welcke is de voor-Sabbath,",
+      "modernized": "$Mt. 27:57; Lk. 23:50; Jh. 19:38$ En toen het nu <Namelijk op de dag voor de Sabbat.> avond geworden was, omdat het <Namelijk, van het Pascha, dat de Joden ditmaal hadden uitgesteld tot op de Sabbat. De redenen hiervoor worden verhaald in de aantekening op $Mt. 26:20$.> de voorbereiding was, die de voor-Sabbat is,",
+      "source_text": "Καὶ ἤδη ὀψίας γενομένης, ἐπεὶ ἦν Παρασκευή, ὅ ἐστι προσάββατον,",
+      "generated_at": "2026-05-18T11:15:39.288272Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 4,
+      "notes": [
+        {
+          "type": "twijfel",
+          "subject": "op die reyse",
+          "context": "kanttekening 2",
+          "choice": "ditmaal",
+          "alternatives": [
+            "dit keer",
+            "toen"
+          ],
+          "reason": "SV1657 idioom voor keer/maal; modern op die reis zou false friend zijn (lijkt op een verplaatsing)."
+        }
+      ]
     }
   ]
 }
