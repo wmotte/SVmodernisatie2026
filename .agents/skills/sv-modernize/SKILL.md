@@ -261,6 +261,9 @@ enkele observatie schrijf je `"notes": [{...}]` — niet
 de documentatieweergave (`notes.map is not a function`); de validator vangt
 dit als HARDE fout (`_check_notes_shape`). `type` is verplicht en moet
 één van `twijfel`/`afwijking`/`context` zijn — geen andere waarden.
+**`upsert_verse.py` weigert pre-write** (exit 2) bij onbekende
+`type`-waarde of ontbrekend `type`-veld; je merkt fouten direct bij
+de upsert ipv. pas in de validator-pass.
 
 **Geen modelmerken in notes.** De inhoud van notes-velden (`subject`,
 `context`, `choice`, `reason`, `alternatives`) wordt door de
