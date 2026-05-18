@@ -93,6 +93,9 @@ ARCHAISM_BLACKLIST = [
     r"\btijding(en)?\b",    # → "boodschap / nieuws"
     r"\bderhalve\b",        # → "daarom / dus"
     r"\brantsoen\b",        # → "losprijs" (Gr. λύτρον); modern NL = voedseltoewijzing
+    r"\beertijds\b",        # → "vroeger / voorheen" (drempel-archaisme; PHM 1:11)
+    r"\bdieverij\b",        # → "diefstal" (PHM 1:18 kt)
+    r"\bdaar\s+(?:ik|wij|u|gij)\s+\w+\b",  # causaal 'daar' + 1/2-persoon → "nu / aangezien / omdat" (PHM 1:9)
 ]
 
 # Bekende spelling-mappings voor hoofdletter-check (origineel-vorm: moderne-vorm).

@@ -21,7 +21,9 @@ Standaard-substituties voor de hoofdtekst:
 | soo           | zo                           |
 | dese / desen  | deze                         |
 | welcke        | welke                        |
-| voortijts     | eertijds                     |
+| voortijts / eertijds | vroeger / voorheen          |
+| dieverij      | diefstal                     |
+| daar (causaal, vóór ik/wij/u/gij) | nu / aangezien / omdat — `daar` als causale voegw. (`daar ik dit ben`) is drempel-archaisme; modern NL leest `daar` primair locatief (`daar staat hij`) |
 | ergernisse    | ergernis                     |
 | vrouwe        | vrouw                        |
 | sulcks        | zulks → "iets dergelijks"    |
