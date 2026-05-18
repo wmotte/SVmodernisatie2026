@@ -354,6 +354,7 @@ def main() -> int:
     ap.add_argument("book", help="Book code, e.g. LUK")
     ap.add_argument("--only", type=int, default=None, help="Build only chapter N")
     ap.add_argument("--no-pdf", action="store_true", help="Emit .tex without running latexmk")
+    ap.add_argument("--no-publish", action="store_true", help="Skip copying PDF to <BOOK>_voorbeeld.pdf")
     args = ap.parse_args()
 
     book = args.book.upper()
@@ -368,7 +369,14 @@ def main() -> int:
 
     if args.no_pdf:
         return 0
-    return run_latex(tex_path)
+    rc = run_latex(tex_path)
+    if rc == 0 and args.only is None and not args.no_publish:
+        src = BUILD_DIR / f"{book}.pdf"
+        dst = ROOT / f"{book}_voorbeeld.pdf"
+        if src.exists():
+            shutil.copy2(src, dst)
+            print(f"published {dst}")
+    return rc
 
 
 if __name__ == "__main__":
