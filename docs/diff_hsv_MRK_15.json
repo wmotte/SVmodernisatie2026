@@ -179,7 +179,7 @@
     {
       "verse_number": 25,
       "status": "modernized",
-      "sv2026": "En het was <Deze uren moeten naar de wijze van de Joden gerekend worden, van de opgang van de zon tot de ondergang. Zie $Mt. 20:3$. en $Jh. 11:9$. En aangezien Pasen toen kwam omtrent de tijd dat de dagen en nachten even lang zijn, komt het derde uur overeen met ons negende, het zesde met ons twaalfde, en het negende met ons derde na de middag. Johannes zegt $Jh. 19:14$. dat het omtrent het zesde uur was toen hij hem voortbracht. Hoe dit overeenkomt, zie de aantekening aldaar.> het derde uur, en zij kruisigden hem.",
+      "sv2026": "En het was <Deze uren moeten naar de wijze van de Joden gerekend worden, van de opgang van de zon tot de ondergang. Zie $Mt. 20:3$. en $Jh. 11:9$. En aangezien Pasen toen kwam omtrent de tijd dat de dagen en nachten even lang zijn, komt het derde uur overeen met ons negende, het zesde met ons twaalfde, en het negende met ons derde na de middag. Johannes zegt $Jh. 19:14$. dat het omtrent het zesde uur was toen hij hem voortbracht. Hoe dit overeenkomt, zie de aantekening daar.> het derde uur, en zij kruisigden hem.",
       "hsv": "En het was het derde uur en zij kruisigden Hem.",
       "original": "Ende het was <Dese uren moeten na der Ioden wijse gereeckent worden, van den opgangh der sonne tot den nedergangh. siet Matth. 20.3. ende Ioan. 11.9. Ende alsoo Paesschen doen quam ontrent den tijt, dat de dagen ende nachten even langh zijn, soo komt de derde ure over een met onse negende, de seste met onse twaelfste, ende de negende met onse derde na den middagh. Ioannes seght cap. 19. vers 14. dat het was ontrent de seste ure als hy hem voort bracht. Hoe dit over een komt siet de aenteeck. aldaer.> de derde ure, ende sy kruycighden hem."
     },
@@ -199,24 +199,37 @@
     },
     {
       "verse_number": 28,
-      "status": "pending",
-      "sv2026": "",
+      "status": "modernized",
+      "sv2026": "$Js. 53:12; Lk. 22:37$ En de Schrift is vervuld geworden, die zegt: En hij is met de misdadige gerekend.",
       "hsv": "$Jes. 53:12; Luk. 22:37$ En het Schriftwoord is in vervulling gegaan dat zegt: En Hij is onder de misdadigers gerekend. <HSV-aant: Dit vers komt niet in alle Griekse manuscripten voor.>",
       "original": "$Iesa. 53.12. Luce 22.37.$ Ende de Schrift is vervult geworden, die daer seght, Ende hy is met de misdadige gereeckent:"
     },
     {
       "verse_number": 29,
-      "status": "pending",
-      "sv2026": "",
+      "status": "modernized",
+      "sv2026": "$Ps. 22:8; 69:21; 109:25; Mt. 27:39; Lk. 23:35$ En zij die voorbijgingen lasterden hem, schudden hun hoofden en zeiden: Ha! $Jh. 2:19$ u die de tempel afbreekt en in drie dagen opbouwt.",
       "hsv": "$Ps. 22:8; 69:21; 109:25; Matt. 27:39; Luk. 23:35$ En de voorbijgangers lasterden Hem en schudden hun hoofd en zeiden: Ha! $Joh. 2:19$ U Die de tempel afbreekt en in drie dagen opbouwt,",
       "original": "$Psalm 22.8. ende 69.21. ende 109.25. Matth. 27.39. Luce 23.35.$ Ende die voorby gingen lasterden hem, schuddende hare hoofden, ende seggende, Ha! $Ioan. 2.19.$ ghy die den tempel afbreeckt, ende in drie dagen opbouwt."
     },
     {
       "verse_number": 30,
-      "status": "pending",
-      "sv2026": "",
+      "status": "modernized",
+      "sv2026": "Red uzelf en kom af van het kruis.",
       "hsv": "verlos Uzelf en kom van het kruis af!",
-      "original": "Behoudt u selven, ende komt af van het kruys."
+      "original": "Behoudt u selven, ende komt af van het kruys.",
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "Behoudt → Red",
+          "context": "hoofdtekst",
+          "choice": "Red uzelf",
+          "alternatives": [
+            "Behoud uzelf",
+            "Verlos uzelf"
+          ],
+          "reason": "σῶσον σεαυτόν in de spotcontext aan het kruis betekent fysieke redding/bevrijding; modern Nederlands gebruikt hier productief Red uzelf. Behoud heeft soteriologische bijklank die de spot vervlakt."
+        }
+      ]
     },
     {
       "verse_number": 31,
