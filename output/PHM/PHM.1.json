@@ -2,7 +2,10 @@
   "book": "FILE",
   "chapter": 1,
   "introduction": {
-    "original": ""
+    "original": "",
+    "modernized": "",
+    "generated_at": "2026-05-18T13:34:23.987208Z",
+    "model": "claude-opus-4-7[1m]"
   },
   "verses": [
     {
@@ -31,9 +34,39 @@
       "generated_at": "2026-05-18T13:30:08.129284Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 4,
+      "original": "$1.Thess. 1.2. 2.Thess. 1.3.$ Ick dancke mijnen Godt, uwer altijdt gedachtigh zijnde in mijne gebeden:",
+      "modernized": "$1Th. 1:2; 2Th. 1:3$ Ik dank mijn God, altijd aan u denkend in mijn gebeden:",
+      "source_text": "Εὐχαριστῶ τῷ Θεῷ μου, πάντοτε μνείαν σου ποιούμενος ἐπὶ τῶν προσευχῶν μου,",
+      "generated_at": "2026-05-18T13:34:11.796778Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 5,
+      "original": "Alsoo ick hoore uwe liefde, ende geloove, welck ghy hebt aen <Dit moet gevoeght worden met het woort geloove, gelijck de volgende woorden tot het woort liefde.> den Heere Iesum, ende tegen alle de <Dat is, geloovige, hier op der aerden noch zijnde, die door het bloet ende den Geest Christi geheylight zijn.> heylige:",
+      "modernized": "Omdat ik hoor van uw liefde en geloof, dat u hebt jegens <Dit moet gevoegd worden bij het woord geloof, zoals de volgende woorden bij het woord liefde.> de Heere Jezus, en jegens al de <Dat is, gelovigen, hier op de aarde nog zijnde, die door het bloed en de Geest van Christus geheiligd zijn.> heiligen:",
+      "source_text": "ἀκούων σου τὴν ἀγάπην, καὶ τὴν πίστιν ἣν ἔχεις πρὸς τὸν Κύριον Ἰησοῦν καὶ εἰς πάντας τοὺς ἁγίους,",
+      "generated_at": "2026-05-18T13:35:01.664235Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 6,
+      "original": "Op dat <D. uw’ geloove, het welck ghy met ons gemeyn hebt. Ofte, de mededeelinge van de vruchten uwes geloofs, voornamelick uwe goetdadigheyt die uyt het geloove spruyt. Siet Hebr. 13.16.> de gemeynschap uwes geloofs <D. krachtelick sich betoone door de krachtige werckinge des selven. Siet gelijcke plaetse 1.Cor. 16.9.> krachtigh worde <Gr. erkentenisse, Dat is, op dat allen daer door bekent gemaeckt worde alle dat goet.> in de bekentmakinge <Dat is, aller Christelicke deughden.> alles goets, ’t welck in u-lieden is <Gr. eis, D. in Christum Iesum. Eis voor dia, Dat is, door, gelijck 1.Corinth. 10.2. Want wy hebben niet goets dan door de weldaet Christi ende sijnes Geests, Ioan. cap. 15. vers 5. Of, tegen Christum betoont. Want al het goet dat wy aen de heylige betoonen, reeckent Christus als of het hem gedaen ware, Matth. 25. vers 35, etc.> door Christum Iesum.",
+      "modernized": "Opdat <Dat is, uw geloof, dat u met ons gemeen hebt. Of, de mededeling van de vruchten van uw geloof, voornamelijk uw goeddadigheid die uit het geloof voortkomt. Zie $Hb. 13:16$.> de gemeenschap van uw geloof <Dat is, krachtig zich betoont door de krachtige werking ervan. Zie de gelijke plaats $1Kor. 16:9$.> krachtig wordt <Grieks: erkentenis, dat is, opdat allen daardoor bekendgemaakt wordt al het goede.> in de bekendmaking <Dat is, van alle Christelijke deugden.> van alles wat goed is, dat in u is <Grieks: eis, dat is, in Christus Jezus. Eis voor dia, dat is, door, zoals $1Kor. 10:2$. Want wij hebben niets goeds dan door de weldaad van Christus en zijn Geest, $Jh. 15:5$. Of, jegens Christus betoond. Want al het goede dat wij aan de heiligen betonen, rekent Christus alsof het hem gedaan was, $Mt. 25:35$, enz.> door Christus Jezus.",
+      "source_text": "ὅπως ἡ κοινωνία τῆς πίστεώς σου ἐνεργὴς γένηται ἐν ἐπιγνώσει παντὸς ἀγαθοῦ τοῦ ἐν ὑμῖν εἰς Χριστὸν Ἰησοῦν.",
+      "generated_at": "2026-05-18T13:35:50.915726Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ],
   "epilogue": {
-    "original": "De [Sendtbrief] aen Philemon is geschreven van Roomen [ende gesonden] door den huysknecht Onesimum. Eynde van den Sendtbrief PAULI aen Philemon."
+    "original": "De [Sendtbrief] aen Philemon is geschreven van Roomen [ende gesonden] door den huysknecht Onesimum. Eynde van den Sendtbrief PAULI aen Philemon.",
+    "modernized": "De [Brief] aan Filemon is geschreven uit Rome [en gezonden] door de huisknecht Onesimus. Einde van de Brief van PAULUS aan Filemon.",
+    "generated_at": "2026-05-18T13:34:24.022340Z",
+    "model": "claude-opus-4-7[1m]"
   }
 }
