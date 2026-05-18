@@ -411,6 +411,33 @@
           "reason": "SV1657 idioom voor keer/maal; modern op die reis zou false friend zijn (lijkt op een verplaatsing)."
         }
       ]
+    },
+    {
+      "verse_number": 43,
+      "original": "Quam Ioseph, die van Arimathea [was,] een eerlick Raetsheer, die oock selve <Namelick, dat door den Messiam soude opgerecht worden, Luce 2.25, 38.> het Koninckrijcke Godts was verwachtende, ende hem verstoutende gingh hy in tot Pilatum, ende begeerde het lichaem Iesu.",
+      "modernized": "Jozef kwam, die van Arimathea [was,] een aanzienlijk Raadsheer, die ook zelf <Namelijk, dat door de Messias zou opgericht worden, $Lk. 2:25,38$.> het Koninkrijk Gods verwachtte, en hij vatte moed en ging naar Pilatus, en vroeg om het lichaam van Jezus.",
+      "source_text": "ἦλθεν Ἰωσὴφ ὁ ἀπὸ Ἀριμαθαίας, εὐσχήμων βουλευτής, ὃς καὶ αὐτὸς ἦν προσδεχόμενος τὴν βασιλείαν τοῦ Θεοῦ· τολμήσας εἰσῆλθε πρὸς Πιλάτον, καὶ ᾐτήσατο τὸ σῶμα τοῦ Ἰησοῦ.",
+      "generated_at": "2026-05-18T11:21:13.525909Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 44,
+      "original": "Ende Pilatus verwonderde hem, dat <Gr. Of, indien.> hy alreede gestorven was: ende den Hooftman over hondert tot hem geroepen hebbende vraeghde hem, of hy lange gestorven was.",
+      "modernized": "En Pilatus verwonderde zich dat <Gr. Of, indien.> hij al gestorven was; en hij riep de Hoofdman over honderd bij zich en vroeg hem of hij al lang gestorven was.",
+      "source_text": "ὁ δὲ Πιλάτος ἐθαύμασεν εἰ ἤδη τέθνηκε· καὶ προσκαλεσάμενος τὸν κεντυρίωνα, ἐπηρώτησεν αὐτὸν εἰ πάλαι ἀπέθανε.",
+      "generated_at": "2026-05-18T11:20:47.016013Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 45,
+      "original": "Ende als hy het van den Hooftman over hondert verstaen hadde, schonck hy Ioseph het lichaem.",
+      "modernized": "En toen hij dat van de Hoofdman over honderd vernomen had, schonk hij Jozef het lichaam.",
+      "source_text": "καὶ γνοὺς ἀπὸ τοῦ κεντυρίωνος, ἐδωρήσατο τὸ σῶμα τῷ Ἰωσήφ.",
+      "generated_at": "2026-05-18T11:21:31.656697Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
