@@ -673,6 +673,20 @@ def _validate_verse(orig: dict, mod: dict) -> dict:
                 f"via bibref.py --include-kanttekeningen"
             )
 
+    # 4c. Spurieus sluitpunt na `$bibref$`. SV1657 zet de terminator-punt binnen
+    # het bibref-blok (`Luce 7.27.$`); de modernisering moet die punt niet
+    # buiten `$...$` herhalen omdat renderers `$...$` als superscript-letter
+    # tonen, wat dan ", a." oplevert (zie commit-historie MRK 1:2-3).
+    # Trigger alleen als origineel ergens `.$` (punt-direct-voor-sluit-$) heeft
+    # zonder een extra punt erbuiten — dan is `$.` in modern bewijs van een
+    # dubbele punt.
+    if re.search(r"\.\$(?!\.)", orig_text) and re.search(r"\$\.(\s|$)", mod_text):
+        issues.append(
+            "bibref-terminator: `$bibref$.` gevonden terwijl origineel `.$` "
+            "binnen het blok zet — strip de punt na `$` (SV-bibrefs eindigen "
+            "in het blok, niet erbuiten)"
+        )
+
     # 5. Archaïsme-blacklist
     for pattern in ARCHAISM_BLACKLIST:
         # Alleen in de hoofdtekst (buiten kanttekeningen) checken — kanttekeningen

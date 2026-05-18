@@ -139,6 +139,13 @@ samengesteld `$Boek H:V; H:W$` (boeknaam alleen bij wisseling). De
 inclusief losse verwijzingen binnen kanttekeningen via
 `--include-kanttekeningen`.
 
+**Geen sluitpunt na `$...$`:** SV1657 zet de terminator-punt binnen het
+bibref-blok (`Luce 7.27.$`). In de modernisering eindigt het `$...$`-blok
+zonder externe punt erbuiten — dus `… $Lk. 7:27$ Zie, ik zend …`, niet
+`… $Lk. 7:27$. Zie, …`. Een renderer toont `$...$` als
+superscript-letter, dus een spurieus extern punt levert `, a.` op in de
+gerenderde tekst. `validate.py` check 4c vangt dit.
+
 ## Introductie en epiloog
 
 > **Volledige regels:** zie `INTRO_EPILOOG.md`.
