@@ -260,12 +260,21 @@
       "generated_at": "2026-05-18T14:13:27.807408Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 3
+    },
+    {
+      "verse_number": 25,
+      "original": "De genade onses Heeren Iesu Christi zy <Dat is, met u-lieder geest. Siet Galat. 6.18. 2.Timoth. 4.22.> met uwen geest. Amen.",
+      "modernized": "De genade van onze Heere Jezus Christus zij <Dat is, met uw geest. Zie $Gl. 6:18; 2Tm. 4:22$> met uw geest. Amen.",
+      "source_text": "Ἡ χάρις τοῦ Κυρίου ἡμῶν Ἰησοῦ Χριστοῦ μετὰ τοῦ πνεύματος ὑμῶν. ἀμήν.",
+      "generated_at": "2026-05-18T14:19:41.908134Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 6
     }
   ],
   "epilogue": {
     "original": "De [Sendtbrief] aen Philemon is geschreven van Roomen [ende gesonden] door den huysknecht Onesimum. Eynde van den Sendtbrief PAULI aen Philemon.",
     "modernized": "De [Brief] aan Filemon is geschreven uit Rome [en gezonden] door de huisknecht Onesimus. Einde van de Brief van PAULUS aan Filemon.",
-    "generated_at": "2026-05-18T13:34:24.022340Z",
+    "generated_at": "2026-05-18T14:19:46.638672Z",
     "model": "claude-opus-4-7[1m]"
   }
 }
