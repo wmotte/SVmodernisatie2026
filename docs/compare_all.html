@@ -366,8 +366,8 @@
             `;
         }
 
-        const MAX_CHAPTER = { LUK: 24, MRK: 16 };
-        const BOOK_NAMES = { LUK: 'Lucas', MRK: 'Marcus' };
+        const MAX_CHAPTER = { LUK: 24, MRK: 16, PHM: 1 };
+        const BOOK_NAMES = { LUK: 'Lucas', MRK: 'Marcus', PHM: 'Filemon' };
 
         async function init() {
             const params = new URLSearchParams(window.location.search);
@@ -532,6 +532,7 @@
                         <div class="mt-8 flex justify-center gap-4">
                              <a href="?book=LUK&chapter=1" class="text-sky-600 underline">Lucas 1</a>
                              <a href="?book=MRK&chapter=1" class="text-sky-600 underline">Marcus 1</a>
+                             <a href="?book=PHM&chapter=1" class="text-sky-600 underline">Filemon 1</a>
                         </div>
                     </div>
                 `;
