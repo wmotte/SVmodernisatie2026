@@ -60,14 +60,17 @@ werkwoord: `… ze wandelden in al de geboden …`. Bewaar daarbij de
 zinsvolgorde en de inhoud zo letterlijk mogelijk; dit is een
 syntactische verschuiving, geen herformulering.
 
-§2.3 geldt **ook binnen `<…>` kanttekeningen** — Latinate participia
-(`evenals enige navolgende`, `ziende gemaakt`, `daartoe strekkende dat`)
-worden óók in uitlegtekst ontvouwd. Citaten in `<Of, …>` / `<Gr. …>` /
-`<D. …>` blokken zijn vrij om SV-formuleringen te citeren, maar de
-eigenlijke uitleg-tekst van de kanttekening is modern Nederlands.
-Validator draait een soft-pass over kanttekeningen (`hoofdtekst <kant>:
-… (soft)`); adversarial review beoordeelt of een hit een legitieme
-citatie is of een ontvouwing vereist.
+§2.3 geldt **ook binnen `<…>` kanttekeningen — zonder uitzondering voor
+citatie-blokken**. Latinate participia (`evenals enige navolgende`,
+`ziende gemaakt`, `daartoe strekkende dat`) worden óók in uitlegtekst
+ontvouwd. Dat geldt ook voor `<Of, …>` / `<Gr. …>` / `<D. …>`-blokken:
+SV-formuleringen die uit een SV-participium bestaan, worden ontvouwd
+naar moderne Nederlandse syntaxis. Voor literale `<Gr. X-ende.>`-glossen
+(één-woord-vorm-aanduidingen van een Grieks participium) is de standaard
+het **infinitief-lemma**: `<Gr. werpende.>` → `<Grieks: werpen.>`,
+`<Gr. staende.>` → `<Grieks: staan.>`, `<Gr. liggende.>` → `<Grieks:
+liggen.>`. Validator draait dezelfde §2.3-check HARD over kanttekeningen
+als over hoofdtekst (geen soft-pass meer). Adversarial review bevestigt.
 
 ### 2.3a Datief-bezit blijft datief-bezit
 

@@ -193,6 +193,11 @@ PARTICIPLE_ALWAYS_BAD_ENDE: frozenset[str] = frozenset({
     # Latinaat-participiale doorlopers (toegevoegd na LUK 18:1 / 16:23 / 18:35 gap)
     "strekkende",   # 'daartoe strekkende dat …' — ontvouw naar 'die ertoe strekt dat …'
     "navolgende",   # 'enige navolgende' — modern: 'enkele die hierna volgen'
+    # Kanttekening-glossen die als SV-style participium-form gloss opduiken
+    # in <Gr. ...> / <Of, ...> / <D. ...> citaten. Per MODERNISATIE.md §2.3
+    # geldt het verbod ook in kanttekeningen — citatie-uitzondering vervalt.
+    "werpende", "aanvangende", "uitberstende", "uitbarstende",
+    "kennende", "makende", "vasthoudende",
 })
 
 # `-ende` participia die context-afhankelijk zijn: attributief OK
@@ -379,28 +384,22 @@ def _check_participles_in_kanttekening(
 ) -> tuple[list[str], list[str]]:
     """Pass over kanttekening-inhoud `<…>` voor §2.3-participia.
 
-    Kanttekeningen zijn uitlegregister, maar Latinate participia
-    (`navolgende`, `strekkende`, `ziende gemaakt`) moeten óók daar
-    ontvouwd zijn. Splitsing:
-      - ALWAYS_BAD hits → hard issue (zelfde register als hoofdtekst)
-      - CONTEXT/onbekend hits → soft warning (mogelijk citaat)
+    Kanttekeningen — inclusief `<Of, …>` / `<Gr. …>` / `<D. …>`-citaten —
+    mogen geen SV-style finiete tgw. participia bevatten. Citatie-
+    uitzondering vervalt per MODERNISATIE.md §2.3. Alle hits zijn HARD,
+    op dezelfde gronden als de hoofdtekst-pass.
 
-    Returns (issues, warnings).
+    Voor literale `<Gr. X-ende.>`-glossen is het infinitief-lemma de
+    standaard (`<Gr. werpende.>` → `<Grieks: werpen.>`); zie
+    KANTTEKENINGEN.md.
+
+    Returns (issues, warnings). `warnings` is altijd leeg — behouden
+    voor API-compat met callers.
     """
     kanttekening_text = " ".join(_bracket_contents(mod_text, "<", ">"))
     kanttekening_text = re.sub(r"\$[^$]+\$", " ", kanttekening_text)
-    raw = _run_participle_checks(kanttekening_text, f"{location} <kant>")
-    issues: list[str] = []
-    warnings: list[str] = []
-    for msg in raw:
-        # Onderscheid op woord uit msg: '... §2.3-participium 'XXX' ...'
-        m = re.search(r"§2\.3-participium '(\w+)'", msg)
-        word = m.group(1).lower() if m else ""
-        if word in PARTICIPLE_ALWAYS_BAD_ENDE:
-            issues.append(msg)
-        else:
-            warnings.append(msg + " (soft)")
-    return issues, warnings
+    issues = _run_participle_checks(kanttekening_text, f"{location} <kant>")
+    return issues, []
 
 
 def _count_blocks(text: str, open_ch: str, close_ch: str) -> int:
