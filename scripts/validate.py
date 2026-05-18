@@ -282,16 +282,54 @@ def _run_participle_checks(text: str, location: str) -> list[str]:
                 f"ontvouw naar finiete bijzin (zie MODERNISATIE.md §2.3)"
             )
 
-    # C) Modern-gespeld -end, adverbial clause-intro voor specifieke stammen.
-    for m in re.finditer(r"\b(\w+end)\b\s*,", text, flags=re.IGNORECASE):
+    # C) Modern-gespeld -end, adverbial: flag bij interpunctie OF wanneer
+    #    direct gevolgd door een ADVERBIAL_TRIGGER (in/aan/op/tot/dat/...).
+    #    Parity met Pattern B (-ende). PHM 1:4 gap — 'denkend in mijn
+    #    gebeden' (geen komma, wel trigger 'in') glipte door.
+    for m in re.finditer(
+        r"\b(\w+end)\b(\s*[,:;.]|\s+(\w+))?",
+        text,
+        flags=re.IGNORECASE,
+    ):
         word = m.group(1).lower()
-        if any(word == stem + "end" or word.endswith(stem + "end")
-               for stem in PARTICIPLE_BAD_END_STEMS):
-            issues.append(
-                f"{location}: §2.3-participium '{m.group()}' — modern-gespeld "
-                f"adverbiaal participium; ontvouw naar 'terwijl X …' of 'en …' "
-                f"(zie MODERNISATIE.md §2.3)"
-            )
+        # Stems-lijst bevat zowel ruwe stammen ('zegg' → 'zeggend') als
+        # complete -end vormen ('denkend'). Match in beide richtingen:
+        # word == form, word.endswith(form), word == form+'end',
+        # word.endswith(form+'end').
+        if not any(
+            word == s or word.endswith(s) or
+            word == s + "end" or word.endswith(s + "end")
+            for s in PARTICIPLE_BAD_END_STEMS
+        ):
+            continue
+        trailing = m.group(2) or ""
+        next_word = (m.group(3) or "").lower()
+        is_adverbial = bool(re.match(r"\s*[,:;.]", trailing)) or \
+                       next_word in ADVERBIAL_TRIGGERS_AFTER_PARTICIPLE
+        if not is_adverbial:
+            continue
+        issues.append(
+            f"{location}: §2.3-participium '{m.group(1)}' — modern-gespeld "
+            f"adverbiaal participium; ontvouw naar 'terwijl X …' of 'en …' "
+            f"(zie MODERNISATIE.md §2.3)"
+        )
+
+    # C2) 'zijnde' als adverbiaal participium. Eindigt op `-nde` (niet
+    #     `-ende`), dus Pattern A/B missen het. PHM 1:5 gap — kanttekening
+    #     'hier op de aarde nog zijnde, die ...' glipte door omdat de
+    #     ARCHAISM_BLACKLIST `\bzijnde\b(?! een)` alleen op hoofdtekst
+    #     draait. Werkt hier nu in beide passes (hoofdtekst + <kant>),
+    #     met dezelfde 'zijnde een X'-exceptie om apposities (LUK 4:6
+    #     '<… als zijnde een leugenaar …>') niet te breken.
+    for m in re.finditer(r"\b(zijnde)\b", text, flags=re.IGNORECASE):
+        rest = text[m.end():]
+        if re.match(r"\s+een\b", rest):
+            continue
+        issues.append(
+            f"{location}: §2.3-participium '{m.group(1)}' — finiet tgw. "
+            f"participium 'zijnde'; ontvouw naar finiete bijzin "
+            f"('die … is/zijn', 'terwijl … is') (zie MODERNISATIE.md §2.3)"
+        )
 
     # D) Attributief-vereist: flag tenzij voorafgegaan door determinant.
     #    Vangt 'buiten staande zonden' (geen determinant) en 'is, staande

@@ -138,7 +138,12 @@ KANTTEKENING_ARCHAISMEN: tuple[str, ...] = (
 )
 
 PARTICIPLE_RE = re.compile(r"\b(\w+ende)\b", re.IGNORECASE)
-END_CLAUSE_RE = re.compile(r"\b(\w+end)\b\s*[,:;]", re.IGNORECASE)
+# -end clause-final: interpunctie OF adverbial-trigger-woord. PHM 1:4 gap —
+# 'denkend in mijn gebeden' werd gemist toen alleen `[,:;]` werd gematcht.
+END_CLAUSE_RE = re.compile(
+    r"\b(\w+end)\b(\s*[,:;.]|\s+(\w+))?",
+    re.IGNORECASE,
+)
 KANTT_RE = re.compile(r"<([^>]+)>")
 SQB_RE = re.compile(r"\[([^\]]+)\]")
 BIBREF_RE = re.compile(r"\$[^$]+\$")
@@ -229,21 +234,28 @@ def scan_participles_main(verse_num: int, mod_text: str) -> list[dict]:
         # Alleen flaggen als de stam matcht een SV-participium-stam:
         # voorkomt false positives op gewone -end-vormen ('eind',
         # 'vriend', 'bekend' — die hebben geen \b...\b match op stem).
-        if any(word == stem + "end" or word.endswith(stem + "end")
-               for stem in PARTICIPLE_BAD_END_STEMS):
-            issues.append({
-                "category": "§2.3 finiet participium (-end clause)",
-                "verse": verse_num,
-                "severity": "hard",
-                "quote_modernized": context_around(main, m.start()),
-                "rule_reference": "MODERNISATIE.md §2.3",
-                "explanation": (
-                    f"'{m.group(0)}' — modern-gespeld adverbiaal "
-                    f"participium; ontvouw naar 'terwijl X …' of 'en …'."
-                ),
-                "proposed_fix": None,
-                "location": "hoofdtekst",
-            })
+        if not any(word == stem + "end" or word.endswith(stem + "end")
+                   for stem in PARTICIPLE_BAD_END_STEMS):
+            continue
+        trailing = m.group(2) or ""
+        next_word = (m.group(3) or "").lower()
+        is_adverbial = bool(re.match(r"\s*[,:;.]", trailing)) or \
+                       next_word in ADVERBIAL_TRIGGERS_AFTER_PARTICIPLE
+        if not is_adverbial:
+            continue
+        issues.append({
+            "category": "§2.3 finiet participium (-end clause)",
+            "verse": verse_num,
+            "severity": "hard",
+            "quote_modernized": context_around(main, m.start()),
+            "rule_reference": "MODERNISATIE.md §2.3",
+            "explanation": (
+                f"'{m.group(1)}' — modern-gespeld adverbiaal "
+                f"participium; ontvouw naar 'terwijl X …' of 'en …'."
+            ),
+            "proposed_fix": None,
+            "location": "hoofdtekst",
+        })
 
     return issues
 
