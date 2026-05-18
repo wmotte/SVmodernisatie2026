@@ -34,6 +34,46 @@
       "generated_at": "2026-05-18T04:23:36.962698Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 4,
+      "original": "Ende daer waren <Van dewelcke de voornaemste was Iudas de verrader. Siet Ioan. 12.4.> sommige die dat seer qualick namen by haer selven, ende seyden, Waer toe is dit verlies der salve geschiet?",
+      "modernized": "En er waren <Onder wie de voornaamste Judas de verrader was; zie $Jh. 12:4$.> sommigen die dat zeer kwalijk namen bij zichzelf, en zeiden: Waartoe dient deze verkwisting van de zalf?",
+      "source_text": "ἦσαν δέ τινες ἀγανακτοῦντες πρὸς ἑαυτούς, καὶ λέγοντες, Εἰς τί ἡ ἀπώλεια αὕτη τοῦ μύρου γέγονεν;",
+      "generated_at": "2026-05-18T04:28:09.838722Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 5,
+      "original": "Want deselve hadde konnen boven de drie hondert <Gr. Denarien. Waer van de weerde verklaert wort Matth. 18.28. soo dat dese somma soude bedragen omtrent negentigh guldens.> penningen verkocht, ende [die] den armen gegeven worden: ende sy <Ofte, morreden met verstoortheyt.> vergrimden tegen haer.",
+      "modernized": "Want deze had voor meer dan driehonderd <Grieks: Denariën. Waarvan de waarde verklaard wordt $Mt. 18:28$; zodat dit bedrag ongeveer negentig guldens zou bedragen.> penningen verkocht kunnen worden, en [die] aan de armen gegeven kunnen worden; en zij <Of: morden met verstoordheid.> voeren tegen haar uit.",
+      "source_text": "ἠδύνατο γὰρ τοῦτο πραθῆναι ἐπάνω τριακοσίων δηναρίων, καὶ δοθῆναι τοῖς πτωχοῖς. καὶ ἐνεβριμῶντο αὐτῇ.",
+      "generated_at": "2026-05-18T04:29:55.948815Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "twijfel",
+          "subject": "vergrimden",
+          "context": "hoofdtekst",
+          "choice": "voeren tegen haar uit",
+          "alternatives": [
+            "vergrimden tegen haar",
+            "waren verontwaardigd op haar"
+          ],
+          "reason": "SV vergrimden is markant maar onproductief in modern NL; gekozen voor voeren tegen haar uit (vgl. ἐνεβριμῶντο). Kanttekening glosseert nog steeds: morden met verstoordheid."
+        }
+      ]
+    },
+    {
+      "verse_number": 6,
+      "original": "Maer Iesus seyde, Laet af van haer: wat doet ghy haer moeyte aen? Sy heeft een goet werck aen my gewrocht.",
+      "modernized": "Maar Jezus zei: Laat haar met rust; waarom doet u haar moeite aan? Zij heeft een goed werk aan mij verricht.",
+      "source_text": "ὁ δὲ Ἰησοῦς εἶπεν, Ἄφετε αὐτήν· τί αὐτῇ κόπους παρέχετε; καλὸν ἔργον εἰργάσατο εἰς ἐμέ.",
+      "generated_at": "2026-05-18T04:29:02.170834Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
