@@ -11,7 +11,7 @@
     {
       "verse_number": 1,
       "original": "$Matth. 26.2. Luce 22.1. Ioan. 11.55. ende 13.1.$ ENde het <Siet hier van Matth. 26.2.> Pascha, ende [het feest] <Soo wort het feest van Pascha genaemt, om dat men op dat feest seven dagen langh geen gehevelt broot en mocht eten. siet Exod. 12. vers 15. Levit. 23.6.> der ongehevelde [brooden] was na twee dagen, ende de Overpriesters ende de Schriftgeleerde sochten, hoe sy hem met listigheyt vangen ende dooden souden.",
-      "modernized": "$Mt. 26:2; Lk. 22:1; Jh. 11:55; 13:1$ En het <Zie hierover $Mt. 26:2$.> Pascha, en [het feest] <Zo wordt het feest van Pascha genoemd, omdat men op dat feest zeven dagen lang geen gezuurd brood mocht eten; zie $Ex. 12:15$; $Lv. 23:6$.> van de ongezuurde [broden] was na twee dagen, en de Overpriesters en de Schriftgeleerden zochten hoe zij hem met list zouden vangen en doden.",
+      "modernized": "$Mt. 26:2; Lk. 22:1; Jh. 11:55; 13:1$ En het <Zie hierover $Mt. 26:2$.> Pascha, en [het feest] <Zo wordt het feest van Pascha genoemd, omdat men op dat feest zeven dagen lang geen gezuurd brood mocht eten; zie $Ex. 12:15$; $Lv. 23:6$.> van de ongezuurde [broden] was na twee dagen, en de Overpriesters en de Schriftgeleerden zochten naar een manier om hem met list te grijpen en te doden.",
       "source_text": "Ἦν δὲ τὸ πάσχα καὶ τὰ ἄζυμα μετὰ δύο ἡμέρας· καὶ ἐζήτουν οἱ ἀρχιερεῖς καὶ οἱ γραμματεῖς πῶς αὐτὸν ἐν δόλῳ κρατήσαντες ἀποκτείνωσιν·",
       "generated_at": "2026-05-18T04:21:21.967290Z",
       "model": "claude-opus-4-7[1m]",
@@ -114,7 +114,7 @@
     {
       "verse_number": 11,
       "original": "Ende sy [dat] hoorende waren verblijdt, ende beloofden hem <Gr. silver, Namelick, dertigh silvere penningen, gelijck Matth. 26.15.> gelt te geven, ende hy socht hoe hy hem <Gr. ter bequamer tijt, ofte, met goede gelegentheyt.> bequamelick overleveren soude.",
-      "modernized": "En toen zij [dat] hoorden, waren zij verblijd, en beloofden hem <Grieks: zilver, Namelijk dertig zilveren penningen, zoals $Mt. 26:15$.> geld te geven; en hij zocht hoe hij hem <Grieks: te gelegener tijd, of: met goede gelegenheid.> op een geschikt moment zou overleveren.",
+      "modernized": "En toen zij [dat] hoorden, waren zij verblijd, en beloofden hem <Grieks: zilver, Namelijk dertig zilveren penningen, zoals $Mt. 26:15$.> geld te geven; en hij zocht naar een gelegenheid om hem <Grieks: te gelegener tijd, of: met goede gelegenheid.> op een geschikt moment over te leveren.",
       "source_text": "οἱ δὲ ἀκούσαντες ἐχάρησαν, καὶ ἐπηγγείλαντο αὐτῷ ἀργύριον δοῦναι· καὶ ἐζήτει πῶς εὐκαίρως αὐτὸν παραδῷ.",
       "generated_at": "2026-05-18T04:40:32.337820Z",
       "model": "claude-opus-4-7[1m]",
@@ -261,6 +261,430 @@
       "modernized": "$Mt. 26:31; Jh. 16:32$ En Jezus zei tot hen: U zult in deze nacht allen <Dat is, u zult in uw geloof aanstoot nemen, door hetgeen mij zal overkomen.> aan mij aanstoot nemen. Want er is geschreven: $Zc. 13:7$ Ik zal de herder slaan, en de schapen zullen verstrooid worden.",
       "source_text": "Καὶ λέγει αὐτοῖς ὁ Ἰησοῦς ὅτι Πάντες σκανδαλισθήσεσθε ἐν ἐμοὶ ἐν τῇ νυκτὶ ταύτῃ· ὅτι γέγραπται, Πατάξω τὸν ποιμένα, καὶ διασκορπισθήσεται τὰ πρόβατα.",
       "generated_at": "2026-05-18T05:04:57.053232Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 28,
+      "original": "$Matth. 26.32. ende 28.10. Marc. 16.7.$ Maer na dat ick sal opgestaen zijn, sal ick u voorgaen na Galileen.",
+      "modernized": "$Mt. 26:32; 28:10; Mk. 16:7$ Maar nadat ik opgestaan zal zijn, zal ik u voorgaan naar Galilea.",
+      "source_text": "ἀλλὰ μετὰ τὸ ἐγερθῆναί με, προάξω ὑμᾶς εἰς τὴν Γαλιλαίαν.",
+      "generated_at": "2026-05-18T05:11:47.637001Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 29,
+      "original": "Ende Petrus seyde tot hem, Of sy oock alle ge-ergert wierden, soo en sal ick doch <Namelick, aen u, gelijck uytgedruckt wort Matth. cap. 26. vers 31.> niet [ge-ergert worden.]",
+      "modernized": "En Petrus zei tot hem: Ook al zouden zij allen aanstoot nemen, toch zal ik <Namelijk, aan u, zoals uitgedrukt wordt $Mt. 26:31$.> [niet aanstoot nemen.]",
+      "source_text": "ὁ δὲ Πέτρος ἔφη αὐτῷ, Καὶ εἰ πάντες σκανδαλισθήσονται, ἀλλ’ οὐκ ἐγώ.",
+      "generated_at": "2026-05-18T05:12:18.343893Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 30,
+      "original": "$Matth. 26.34. Luce 22.34. Ioan. 13.38.$ Ende Iesus seyde tot hem, Voorwaer ick segge u, dat heden in desen nacht, eer de haen <Andere Euangelisten seggen simpelick, eer de haen kraeijen sal, ofte, sal gekraeyt hebben: doch Marcus seght twee mael, om datse gemeenlick op twee stonden plegen te kraeijen, eens na de middernacht, ende eens tegen den dagh, welcke beyde stonden hier worden verstaen.> twee mael gekraeyt sal hebben, ghy my drie mael sult verloochenen.",
+      "modernized": "$Mt. 26:34; Lk. 22:34; Jh. 13:38$ En Jezus zei tot hem: Voorwaar, ik zeg u, dat heden in deze nacht, voordat de haan <Andere Evangelisten zeggen eenvoudig: voordat de haan kraaien zal, of zal gekraaid hebben; maar Marcus zegt tweemaal, omdat zij gewoonlijk op twee tijdstippen plegen te kraaien, eens na middernacht, en eens tegen de dag, welke beide tijdstippen hier worden bedoeld.> tweemaal gekraaid zal hebben, u mij driemaal zult verloochenen.",
+      "source_text": "καὶ λέγει αὐτῷ ὁ Ἰησοῦς, Ἀμὴν λέγω σοι, ὅτι σήμερον ἐν τῇ νυκτὶ ταύτῃ, πρὶν ἢ δὶς ἀλέκτορα φωνῆσαι, τρὶς ἀπαρνήσῃ με.",
+      "generated_at": "2026-05-18T05:13:43.209432Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 31,
+      "original": "$Ioan. 13.37.$ Maer hy seyde noch dies te meer, Al moeste ick met u sterven, soo en sal ick u geensins verloochenen. Ende insgelijcks seyden sy oock alle.",
+      "modernized": "$Jh. 13:37$ Maar hij zei nog des te meer: Al moest ik met u sterven, zo zal ik u geenszins verloochenen. En insgelijks zeiden zij ook allen.",
+      "source_text": "ὁ δὲ ἐκ περισσοῦ ἔλεγε μᾶλλον, Ἐάν με δέῃ συναποθανεῖν σοι, οὐ μή σε ἀπαρνήσομαι. ὡσαύτως δὲ καὶ πάντες ἔλεγον.",
+      "generated_at": "2026-05-18T05:17:38.458372Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 32,
+      "original": "$Matth. 26.36. Luce 22.39. Ioan. 18.1.$ Ende sy quamen in een <Ofte, gehuchte van huysen, ofte hofsteden. siet Matth. cap. 26. vers 36.> plaetse, welcker name was Gethsemane, ende hy seyde tot sijne discipelen, Sit hier neder tot dat ick gebeden sal hebben.",
+      "modernized": "$Mt. 26:36; Lk. 22:39; Jh. 18:1$ En zij kwamen in een <Of, gehucht van huizen, of hofsteden. Zie $Mt. 26:36$.> plaats, waarvan de naam Gethsemané was, en hij zei tot zijn discipelen: Ga hier zitten totdat ik gebeden zal hebben.",
+      "source_text": "Καὶ ἔρχονται εἰς χωρίον οὗ τὸ ὄνομα Γεθσημανῆ· καὶ λέγει τοῖς μαθηταῖς αὐτοῦ, Καθίσατε ὧδε, ἕως προσεύξωμαι.",
+      "generated_at": "2026-05-18T05:18:07.301493Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 33,
+      "original": "Ende hy nam met hem Petrum, ende Iacobum, ende Ioannem, ende begon verbaest ende seer beanghst te worden.",
+      "modernized": "En hij nam Petrus, en Jakobus, en Johannes met zich mee, en begon ontsteld en zeer beangst te worden.",
+      "source_text": "καὶ παραλαμβάνει τὸν Πέτρον καὶ τὸν Ἰάκωβον καὶ Ἰωάννην μεθ’ ἑαυτοῦ, καὶ ἤρξατο ἐκθαμβεῖσθαι καὶ ἀδημονεῖν.",
+      "generated_at": "2026-05-18T05:18:35.730050Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 34,
+      "original": "Ende seyde tot haer, $Ioan. 12.27.$ Mijn ziele is <Ofte, aen alle zijden.> geheel bedroeft tot der doot toe: Blijft hier ende waeckt.",
+      "modernized": "En hij zei tot hen: $Jh. 12:27$ Mijn ziel is <Of, aan alle zijden.> geheel bedroefd tot de dood toe: Blijft hier en waakt.",
+      "source_text": "καὶ λέγει αὐτοῖς, Περίλυπός ἐστιν ἡ ψυχή μου ἕως θανάτου· μείνατε ὧδε καὶ γρηγορεῖτε.",
+      "generated_at": "2026-05-18T05:23:08.649264Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 35,
+      "original": "$Luce 22.41.$ Ende een weynigh voort gegaen zijnde viel hy op de aerde, ende badt, soo’t mogelick ware, dat <Namelick, van dit swaer aenstaende lijden. Van dit geheel gebedt siet de aenteeck. Matt. 26. vers 39.> die ure van hem voorby ginge.",
+      "modernized": "$Lk. 22:41$ En toen hij een weinig verder gegaan was, viel hij op de aarde, en bad, dat, zo het mogelijk was, <Namelijk, van dit zware aanstaande lijden. Van dit hele gebed zie de aantekening $Mt. 26:39$.> die ure van hem voorbij zou gaan.",
+      "source_text": "καὶ προελθὼν μικρόν, ἔπεσεν ἐπὶ τῆς γῆς, καὶ προσηύχετο ἵνα, εἰ δυνατόν ἐστι, παρέλθῃ ἀπ’ αὐτοῦ ἡ ὥρα.",
+      "generated_at": "2026-05-18T05:23:34.174387Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 36,
+      "original": "Ende hy seyde, <Dit is een Syrisch woort, ende beteeckent Vader: welck woort Vader de Euangelist oock daer by voeght, niet alleen tot verklaringe, maer om door dit dobbel verhael uyt te drucken d’overgroote beweginge Christi in dit gebedt. Siet hier van Rom. 8.15. Galat. 4.6.> Abba, Vader, alle dingen zijn u mogelick: Neemt desen drinckbeker van my wech: $Ioan. 6.38.$ Doch niet wat ick wil, maer wat ghy [wilt.]",
+      "modernized": "En hij zei: <Dit is een Syrisch woord, en betekent Vader; welk woord Vader de Evangelist er ook bij voegt, niet alleen tot verklaring, maar om door dit dubbele verhaal de zeer grote ontroering van Christus in dit gebed uit te drukken. Zie hierover $Rm. 8:15; Gl. 4:6$.> Abba, Vader, alle dingen zijn u mogelijk: Neemt deze drinkbeker van mij weg; $Jh. 6:38$ maar niet wat ik wil, maar wat u [wilt.]",
+      "source_text": "καὶ ἔλεγεν, Ἀββᾶ, ὁ Πατήρ, πάντα δυνατά σοι. παρένεγκε τὸ ποτήριον ἀπ’ ἐμοῦ τοῦτο· ἀλλ’ οὐ τί ἐγὼ θέλω, ἀλλὰ τί σύ.",
+      "generated_at": "2026-05-18T05:24:24.868350Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 37,
+      "original": "$Matth. 26.40. Luce 22.45.$ Ende hy quam ende vandt haer slapende, ende seyde tot Petrum, Simon slaept ghy? En kondt ghy niet een ure waken?",
+      "modernized": "$Mt. 26:40; Lk. 22:45$ En hij kwam en vond hen slapend, en zei tot Petrus: Simon, slaapt u? Kunt u niet één uur waken?",
+      "source_text": "καὶ ἔρχεται καὶ εὑρίσκει αὐτοὺς καθεύδοντας, καὶ λέγει τῷ Πέτρῳ, Σίμων, καθεύδεις; οὐκ ἴσχυσας μίαν ὥραν γρηγορῆσαι;",
+      "generated_at": "2026-05-18T05:29:46.109847Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 38,
+      "original": "Waket ende biddet, op dat ghy niet in versoeckinge en komt: $Galat. 5.17.$ De geest [is] wel gewilligh, maer het vleesch is swack.",
+      "modernized": "Waakt en bidt, opdat u niet in verzoeking komt: $Gl. 5:17$ De geest [is] wel gewillig, maar het vlees is zwak.",
+      "source_text": "γρηγορεῖτε καὶ προσεύχεσθε, ἵνα μὴ εἰσέλθητε εἰς πειρασμόν. τὸ μὲν πνεῦμα πρόθυμον, ἡ δὲ σὰρξ ἀσθενής.",
+      "generated_at": "2026-05-18T05:30:07.176376Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 39,
+      "original": "Ende wederom henen gegaen zijnde, badt hy, sprekende deselve <Gr. woort, of, reden.> woorden.",
+      "modernized": "En toen hij wederom heengegaan was, bad hij, en sprak dezelfde <Grieks: woord, of, rede.> woorden.",
+      "source_text": "καὶ πάλιν ἀπελθὼν προσηύξατο, τὸν αὐτὸν λόγον εἰπών.",
+      "generated_at": "2026-05-18T05:30:27.632658Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 40,
+      "original": "Ende weder gekeert zijnde vondt hyse wederom slapende: want hare oogen waren beswaert, ende sy en wisten niet wat sy hem antwoorden souden.",
+      "modernized": "En toen hij terugkeerde, vond hij hen wederom slapend: want hun ogen waren bezwaard, en zij wisten niet wat zij hem moesten antwoorden.",
+      "source_text": "καὶ ὑποστρέψας εὗρεν αὐτοὺς πάλιν καθεύδοντας· ἦσαν γὰρ οἱ ὀφθαλμοὶ αὐτῶν βεβαρημένοι, καὶ οὐκ ᾔδεισαν τί αὐτῷ ἀποκριθῶσι.",
+      "generated_at": "2026-05-18T05:35:20.833120Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 41,
+      "original": "Ende hy quam ten derden mael, ende seyde tot haer, <Siet Matth. cap. 26. vers 45.> Slaept [nu] voorts ende rust. Het is genoegh: de ure is gekomen. Siet de Sone des menschen wort overgelevert in de handen <Dat is, der Heydenen: gelijck Matth. 20.19.> der sondaren.",
+      "modernized": "En hij kwam voor de derde maal, en zei tegen hen: <Zie $Mt. 26:45$.> Slaap [nu] voort en rust. Het is genoeg: het uur is gekomen. Zie, de Zoon des mensen wordt overgeleverd in de handen <Dat is, van de Heidenen; zoals $Mt. 20:19$.> van de zondaren.",
+      "source_text": "καὶ ἔρχεται τὸ τρίτον, καὶ λέγει αὐτοῖς, Καθεύδετε τὸ λοιπὸν καὶ ἀναπαύεσθε. ἀπέχει· ἦλθεν ἡ ὥρα· ἰδού, παραδίδοται ὁ Υἱὸς τοῦ ἀνθρώπου εἰς τὰς χεῖρας τῶν ἁμαρτωλῶν.",
+      "generated_at": "2026-05-18T05:36:03.021311Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 42,
+      "original": "Staet op, laet ons gaen: Siet die my verraet is na by.",
+      "modernized": "Sta op, laat ons gaan: zie, hij die mij verraadt, is nabij.",
+      "source_text": "ἐγείρεσθε, ἄγωμεν· ἰδού, ὁ παραδιδούς με ἤγγικε.",
+      "generated_at": "2026-05-18T05:36:24.632634Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 43,
+      "original": "$Matth. 26.47. Luce 22.47. Ioan. 18.3.$ Ende terstont als hy noch sprack, quam Iudas aen, die een was van de twaelve, ende met hem een groote schare met sweerden ende <Gr. houten, D. spiessen ofte lancien.> stocken, [gesonden] van de Overpriesters, ende de Schriftgeleerden, ende de Ouderlingen.",
+      "modernized": "$Mt. 26:47; Lk. 22:47; Jh. 18:3$ En meteen, terwijl hij nog sprak, kwam Judas eraan, die een was van de twaalf, en met hem een grote schare met zwaarden en <Grieks: houten; dat is, spiesen of lansen.> stokken, [gezonden] door de Overpriesters, en de Schriftgeleerden, en de Ouderlingen.",
+      "source_text": "Καὶ εὐθέως, ἔτι αὐτοῦ λαλοῦντος, παραγίνεται Ἰούδας, εἷς ὢν τῶν δώδεκα, καὶ μετ’ αὐτοῦ ὄχλος πολὺς μετὰ μαχαιρῶν καὶ ξύλων, παρὰ τῶν ἀρχιερέων καὶ τῶν γραμματέων καὶ τῶν πρεσβυτέρων.",
+      "generated_at": "2026-05-18T05:41:42.506689Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 44,
+      "original": "Ende die hem verriedt, hadde haer <D. een lose, die sy onder malkanderen souden verstaen.> een gemeyn teecken gegeven, seggende, Dien ick kussen sal, die is ’t, grijpt hem, ende leyt hem sekerlick henen.",
+      "modernized": "En hij die hem verried, had hun <dat is, een afgesproken teken, dat zij onder elkaar zouden begrijpen.> een gezamenlijk teken gegeven, en gezegd: Die ik kussen zal, die is het; grijpt hem, en leidt hem onder bewaking weg.",
+      "source_text": "δεδώκει δὲ ὁ παραδιδοὺς αὐτὸν σύσσημον αὐτοῖς, λέγων, Ὃν ἂν φιλήσω, αὐτός ἐστι· κρατήσατε αὐτόν, καὶ ἀπαγάγετε ἀσφαλῶς.",
+      "generated_at": "2026-05-18T05:42:37.802934Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 45,
+      "original": "Ende als hy gekomen was, gingh hy terstont tot hem, ende seyde, Rabbi, Rabbi: ende $2.Sam. 20.9.$ kuste hem.",
+      "modernized": "En toen hij gekomen was, ging hij meteen naar hem toe, en zei: Rabbi, Rabbi! en $2Sm. 20:9$ kuste hem.",
+      "source_text": "καὶ ἐλθών, εὐθέως προσελθὼν αὐτῷ λέγει, Ῥαββί, ῥαββί· καὶ κατεφίλησεν αὐτόν.",
+      "generated_at": "2026-05-18T05:42:57.523469Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 46,
+      "original": "Ende sy sloegen hare handen aen hem, ende grepen hem.",
+      "modernized": "En zij sloegen hun handen aan hem, en grepen hem.",
+      "source_text": "οἱ δὲ ἐπέβαλον ἐπ’ αὐτὸν τὰς χεῖρας αὐτῶν, καὶ ἐκράτησαν αὐτόν.",
+      "generated_at": "2026-05-18T05:48:15.319904Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 47,
+      "original": "Ende <Namelick, Simon Petrus, gelijck blijckt uyt Ioan. 18. vers 10.> een der gene, die daer by stonden, het sweert treckende, sloegh den dienstknecht des Hoogenpriesters, ende hieuw hem sijne oore af.",
+      "modernized": "En <Namelijk, Simon Petrus, zoals blijkt uit $Jh. 18:10$.> een van hen die daarbij stonden, die het zwaard trok, sloeg de dienstknecht van de Hogepriester, en hieuw hem zijn oor af.",
+      "source_text": "εἷς δέ τις τῶν παρεστηκότων σπασάμενος τὴν μάχαιραν ἔπαισε τὸν δοῦλον τοῦ ἀρχιερέως, καὶ ἀφεῖλεν αὐτοῦ τὸ ὠτίον.",
+      "generated_at": "2026-05-18T05:48:42.679308Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 48,
+      "original": "Ende Iesus antwoordende seyde tot haer, <Dese woorden spreeckt hy eygentlick tot eenige Overpriesters ende Hooftmannen des tempels, die dese krijghslieden mede gebracht hadden, Luce c. 22. vers 52.> Zijt ghy uytgegaen met sweerden ende stocken als tegen <Ofte, een straetschender.> eenen moordenaer om my te vangen?",
+      "modernized": "En Jezus antwoordde en zei tot hen: <Deze woorden spreekt hij eigenlijk tot enige Overpriesters en Hoofdmannen van de tempel, die deze krijgslieden mee hadden gebracht, $Lk. 22:52$.> Bent u uitgegaan met zwaarden en stokken als tegen <Of, een struikrover.> een moordenaar om mij te vangen?",
+      "source_text": "καὶ ἀποκριθεὶς ὁ Ἰησοῦς εἶπεν αὐτοῖς, Ὡς ἐπὶ λῃστὴν ἐξήλθετε μετὰ μαχαιρῶν καὶ ξύλων συλλαβεῖν με;",
+      "generated_at": "2026-05-18T05:49:18.467916Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 49,
+      "original": "Dagelijcks was ick by u-lieden in den tempel leerende, ende ghy en hebt my niet gegrepen: maer <Alsoo verhaelt dit Matth. 26.56.> [dit geschiet] $Psalm 22.7. ende 69.10. Luce 24.25.$ op dat de Schriften vervult souden worden.",
+      "modernized": "Dagelijks was ik bij u in de tempel om te onderwijzen, en u hebt mij niet gegrepen; maar <Zo verhaalt $Mt. 26:56$ dit.> [dit gebeurt] $Ps. 22:7; 69:10; Lk. 24:25$ opdat de Schriften vervuld zouden worden.",
+      "source_text": "καθ’ ἡμέραν ἤμην πρὸς ὑμᾶς ἐν τῷ ἱερῷ διδάσκων, καὶ οὐκ ἐκρατήσατέ με· ἀλλ’ ἵνα πληρωθῶσιν αἱ γραφαί.",
+      "generated_at": "2026-05-18T05:54:07.860643Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 50,
+      "original": "$Iob 19.13. Psalm 88.9.$ Ende <Namelick, sijne discipelen.> sy hem verlatende zijn alle gevloden.",
+      "modernized": "$Jb. 19:13; Ps. 88:9$ En <Namelijk, zijn discipelen.> zij verlieten hem en zijn allen gevlucht.",
+      "notes": [
+        {
+          "type": "afwijking",
+          "text": "gevloden → gevlucht (drempel-§2.7); HSV-spiegel bevestigt en eigen concordantie in MRK 5:14, LUK 8:34 gebruikt 'gevlucht'."
+        }
+      ],
+      "source_text": "καὶ ἀφέντες αὐτὸν πάντες ἔφυγον.",
+      "generated_at": "2026-05-18T05:54:30.048209Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 51,
+      "original": "Ende een seker jongelingh volghde hem, hebbende een lijnwaet <Gr. omgeworpen.> omgedaen over het naeckte [lijf,] ende <Dit schijnen geweest te zijn eenige jonge soldaten. Dese historie wort verhaelt om aen te wijsen de wreetheyt der gene die Christum vingen.> de jongelingen grepen hem.",
+      "modernized": "En een zekere jongeling volgde hem, met een linnen doek <Gr. omgeworpen.> omgedaan over het naakte [lijf,] en <Dit schijnen enkele jonge soldaten te zijn geweest. Deze geschiedenis wordt verhaald om de wreedheid aan te wijzen van hen die Christus gevangen namen.> de jongelingen grepen hem.",
+      "source_text": "Καὶ εἷς τις νεανίσκος ἠκολούθει αὐτῷ, περιβεβλημένος σινδόνα ἐπὶ γυμνοῦ. καὶ κρατοῦσιν αὐτὸν οἱ νεανίσκοι·",
+      "generated_at": "2026-05-18T05:54:58.423001Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 52,
+      "original": "Ende hy het lijnwaet verlatende is naeckt van haer gevloden.",
+      "modernized": "En hij liet de linnen doek achter en is naakt van hen weggevlucht.",
+      "source_text": "ὁ δὲ καταλιπὼν τὴν σινδόνα γυμνὸς ἔφυγεν ἀπ’ αὐτῶν.",
+      "generated_at": "2026-05-18T05:59:57.663086Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 53,
+      "original": "$Matth. 26.57. Luce 22.54. Ioan. 18.13, 24.$ Ende sy leyden Iesum henen tot <N. Cajaphas. siet Matth. 26.57. Ioan. 18.13.> den Hoogenpriester: ende by hem vergaderden alle de Overpriesters, ende de Ouderlingen, ende de Schriftgeleerde.",
+      "modernized": "$Mt. 26:57; Lk. 22:54; Jh. 18:13,24$ En zij leidden Jezus heen tot <Namelijk Kajafas; zie $Mt. 26:57$; $Jh. 18:13$.> de Hogepriester; en bij hem kwamen alle Overpriesters, en de Ouderlingen, en de Schriftgeleerden bijeen.",
+      "source_text": "Καὶ ἀπήγαγον τὸν Ἰησοῦν πρὸς τὸν ἀρχιερέα· καὶ συνέρχονται αὐτῷ πάντες οἱ ἀρχιερεῖς καὶ οἱ πρεσβύτεροι καὶ οἱ γραμματεῖς.",
+      "generated_at": "2026-05-18T06:00:28.659896Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 54,
+      "original": "Ende Petrus volghde hem van verre, tot binnen in de zale des Hoogenpriesters, ende hy was mede sittende met de dienaren, ende hem warmende <Gr. by het licht.> by het vyer.",
+      "modernized": "En Petrus volgde hem van verre, tot binnen in de zaal van de Hogepriester; en hij zat mede met de dienaren, en warmde zich <Grieks: bij het licht.> bij het vuur.",
+      "source_text": "καὶ ὁ Πέτρος ἀπὸ μακρόθεν ἠκολούθησεν αὐτῷ ἕως ἔσω εἰς τὴν αὐλὴν τοῦ ἀρχιερέως· καὶ ἦν συγκαθήμενος μετὰ τῶν ὑπηρετῶν, καὶ θερμαινόμενος πρὸς τὸ φῶς.",
+      "generated_at": "2026-05-18T06:00:50.803519Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 55,
+      "original": "$Matth. 26.59. Actor. 6.13.$ Ende de Overpriesters ende de geheele <Gr. Synedrion. siet daer van Matt. cap 5. vers 22.> Raet sochten getuygenisse tegen Iesum, om hem te dooden, ende en vonden niet.",
+      "modernized": "$Mt. 26:59; Hd. 6:13$ En de Overpriesters en de gehele <Grieks: Synedrion; zie daarvan $Mt. 5:22$.> Raad zochten getuigenis tegen Jezus, om hem te doden, en vonden niet.",
+      "source_text": "οἱ δὲ ἀρχιερεῖς καὶ ὅλον τὸ συνέδριον ἐζήτουν κατὰ τοῦ Ἰησοῦ μαρτυρίαν, εἰς τὸ θανατῶσαι αὐτόν· καὶ οὐχ εὕρισκον.",
+      "generated_at": "2026-05-18T06:05:04.386480Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 56,
+      "original": "Want vele getuyghden valschelick tegen hem, ende de getuygenissen <D. en quamen niet over een.> en waren niet eenparigh.",
+      "modernized": "Want velen getuigden valselijk tegen hem, en de getuigenissen <Dat is, kwamen niet met elkaar overeen.> waren niet gelijkluidend.",
+      "source_text": "πολλοὶ γὰρ ἐψευδομαρτύρουν κατ’ αὐτοῦ, καὶ ἴσαι αἱ μαρτυρίαι οὐκ ἦσαν.",
+      "generated_at": "2026-05-18T06:06:08.750381Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "eenparig → gelijkluidend",
+          "context": "slot van vers",
+          "choice": "gelijkluidend",
+          "alternatives": [
+            "eenparig",
+            "overeenstemmend"
+          ],
+          "reason": "\"eenparig\" voor getuigenissen is niet meer productief in modern NL; \"gelijkluidend\" is modern-journalistiek en sluit aan op de kanttekening die expliciet \"kwamen niet met elkaar overeen\" glost."
+        }
+      ]
+    },
+    {
+      "verse_number": 57,
+      "original": "Ende <Mattheus c. 26. vers 61. seght van twee, waer van d’een anders sprack als de ander, gelijck oock de Euangelisten der selver getuygenissen verscheydelick verhalen.> eenige opstaende getuyghden valschelick tegen hem, seggende,",
+      "modernized": "En <$Mt. 26:61$ spreekt van twee, waarvan de een anders sprak dan de ander, zoals ook de Evangelisten dezelfde getuigenissen op verschillende wijze verhalen.> enigen stonden op en getuigden valselijk tegen hem, en zeiden,",
+      "source_text": "καί τινες ἀναστάντες ἐψευδομαρτύρουν κατ’ αὐτοῦ, λέγοντες",
+      "generated_at": "2026-05-18T06:06:42.237107Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 58,
+      "original": "Wy hebben hem hooren seggen, $Marc. 15.29. Ioan. 2.19.$ Ick sal desen tempel, die met handen gemaeckt is, afbreken, ende in drie dagen eenen anderen sonder handen gemaeckt, bouwen.",
+      "modernized": "Wij hebben hem horen zeggen: $Mk. 15:29; Jh. 2:19$ Ik zal deze tempel, die met handen gemaakt is, afbreken, en in drie dagen een andere, zonder handen gemaakt, bouwen.",
+      "source_text": "ὅτι Ἡμεῖς ἠκούσαμεν αὐτοῦ λέγοντος ὅτι Ἐγὼ καταλύσω τὸν ναὸν τοῦτον τὸν χειροποίητον, καὶ διὰ τριῶν ἡμερῶν ἄλλον ἀχειροποίητον οἰκοδομήσω.",
+      "generated_at": "2026-05-18T06:10:43.599984Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 59,
+      "original": "Ende oock alsoo en was haer getuygenisse niet eenparigh.",
+      "modernized": "En ook zo was hun getuigenis niet gelijkluidend.",
+      "source_text": "καὶ οὐδὲ οὕτως ἴση ἦν ἡ μαρτυρία αὐτῶν.",
+      "generated_at": "2026-05-18T06:10:56.797344Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 60,
+      "original": "$Matth. 26.62.$ Ende de Hoogepriester in het midden opstaende vraeghde Iesum, seggende, En antwoort ghy niets? Wat getuygen dese tegen u?",
+      "modernized": "$Mt. 26:62$ En de Hogepriester stond op in het midden en vroeg Jezus, en zei: Antwoordt u niets? Wat getuigen dezen tegen u?",
+      "source_text": "καὶ ἀναστὰς ὁ ἀρχιερεὺς εἰς τὸ μέσον ἐπηρώτησε τὸν Ἰησοῦν, λέγων, Οὐκ ἀποκρίνῃ οὐδέν; τί οὗτοί σου καταμαρτυροῦσιν;",
+      "generated_at": "2026-05-18T06:11:22.234834Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 61,
+      "original": "$Iesa. 53.7. Actor. 8.32.$ Maer hy sweegh stille ende en antwoordde niets. Wederom vraeghde hem de Hoogepriester, ende seyde tot hem, Zijt ghy de Christus, de Sone des gezegenden [Godts?]",
+      "modernized": "$Js. 53:7; Hd. 8:32$ Maar hij zweeg stil en antwoordde niets. Opnieuw vroeg de Hogepriester hem, en zei tot hem: Bent u de Christus, de Zoon van de Gezegende [God?]",
+      "source_text": "ὁ δὲ ἐσιώπα, καὶ οὐδὲν ἀπεκρίνατο. πάλιν ὁ ἀρχιερεὺς ἐπηρώτα αὐτόν, καὶ λέγει αὐτῷ, Σὺ εἶ ὁ Χριστός, ὁ Υἱὸς τοῦ εὐλογητοῦ;",
+      "generated_at": "2026-05-18T06:15:02.157646Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 62,
+      "original": "Ende Iesus seyde, Ick ben het: $Dan. 7.13. Matth. 16.27. ende 24.30. ende 25.31. Luce 21.27. Actor. 1.11. 1.Thess. 4.16. 2.Thess. 1.10. Apoc. 1.7.$ Ende ghylieden sult den Sone des menschen sien sitten <Dat is, aen de krachtige rechter hant Godts.> ter rechter [hant] der kracht [Godts,] ende komen <D. op de wolcken, Matth. 26.64. Ofte in de wolcken, gelijck Marc. 13.26.> met de wolcken des hemels.",
+      "modernized": "En Jezus zei: Ik ben het. $Dn. 7:13; Mt. 16:27; 24:30; 25:31; Lk. 21:27; Hd. 1:11; 1Th. 4:16; 2Th. 1:10; Op. 1:7$ En u zult de Zoon des mensen zien zitten <Dat is, aan de krachtige rechterhand van God.> aan de rechter [hand] van de kracht [Gods,] en komen <Dat is, op de wolken, $Mt. 26:64$. Of in de wolken, zoals $Mk. 13:26$.> met de wolken van de hemel.",
+      "source_text": "ὁ δὲ Ἰησοῦς εἶπεν, Ἐγώ εἰμι. καὶ ὄψεσθε τὸν Υἱὸν τοῦ ἀνθρώπου καθήμενον ἐκ δεξιῶν τῆς δυνάμεως, καὶ ἐρχόμενον μετὰ τῶν νεφελῶν τοῦ οὐρανοῦ.",
+      "generated_at": "2026-05-18T06:15:35.687452Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 63,
+      "original": "Ende de Hoogepriester verscheurende sijne <Gr. rocken.> kleederen, seyde, Wat hebben wy noch getuygen van nooden?",
+      "modernized": "En de Hogepriester scheurde zijn <Grieks: rokken.> kleren en zei: Wat hebben wij nog getuigen nodig?",
+      "source_text": "ὁ δὲ ἀρχιερεὺς διαρρήξας τοὺς χιτῶνας αὐτοῦ λέγει, Τί ἔτι χρείαν ἔχομεν μαρτύρων;",
+      "generated_at": "2026-05-18T06:16:01.755070Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 64,
+      "original": "Ghy hebt de [Godts-] lasteringe gehoort: wat dunckt u-lieden? Ende sy alle veroordeelden hem des doots schuldigh te zijn.",
+      "modernized": "U hebt de [Gods-]lastering gehoord; wat dunkt u? En zij allen veroordeelden hem dat hij de dood schuldig was.",
+      "source_text": "ἠκούσατε τῆς βλασφημίας· τί ὑμῖν φαίνεται; οἱ δὲ πάντες κατέκριναν αὐτὸν εἶναι ἔνοχον θανάτου.",
+      "generated_at": "2026-05-18T06:20:00.284459Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 65,
+      "original": "Ende sommige begonden hem te bespouwen, ende sijn aengesicht te bedecken, ende $Iesa. 50.6. Iob 16.10. Ioan. 19.3.$ met vuysten te slaen, ende tot hem te seggen, Propheteert: ende de dienaers <Ofte, sloegen hem met stocken ofte garden.> gaven hem kinnebackslagen.",
+      "modernized": "En sommigen begonnen hem te bespuwen, en zijn aangezicht te bedekken, en $Js. 50:6; Jb. 16:10; Jh. 19:3$ met vuisten te slaan, en tegen hem te zeggen: Profeteer! En de dienaars <Of, sloegen hem met stokken of roeden.> gaven hem kaakslagen.",
+      "source_text": "καὶ ἤρξαντό τινες ἐμπτύειν αὐτῷ, καὶ περικαλύπτειν τὸ πρόσωπον αὐτοῦ, καὶ κολαφίζειν αὐτόν, καὶ λέγειν αὐτῷ, Προφήτευσον· καὶ οἱ ὑπηρέται ῥαπίσμασιν αὐτὸν ἔβαλλον.",
+      "generated_at": "2026-05-18T06:20:46.943092Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 66,
+      "original": "$Matth. 26.58, 69. Luce 22.55. Ioan. 18.16, 17.$ Ende als Petrus beneden in de zale was, quam eene van de dienstmaeghden des Hoogenpriesters,",
+      "modernized": "$Mt. 26:58,69; Lk. 22:55; Jh. 18:16,17$ En toen Petrus beneden in de zaal was, kwam een van de dienstmaagden van de Hogepriester,",
+      "source_text": "Καὶ ὄντος τοῦ Πέτρου ἐν τῇ αὐλῇ κάτω, ἔρχεται μία τῶν παιδισκῶν τοῦ ἀρχιερέως,",
+      "generated_at": "2026-05-18T06:21:12.248119Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 67,
+      "original": "Ende siende Petrum hem warmende, sagh sy hem aen, ende seyde, Oock ghy waert <Namel. als een van sijne discipelen.> met Iesu den Nazarener.",
+      "modernized": "En toen zij Petrus zag terwijl hij zich warmde, zag zij hem aan en zei: Ook u was <Namelijk, als een van zijn discipelen.> met Jezus de Nazarener.",
+      "source_text": "καὶ ἰδοῦσα τὸν Πέτρον θερμαινόμενον, ἐμβλέψασα αὐτῷ λέγει, Καὶ σὺ μετὰ τοῦ Ναζαρηνοῦ Ἰησοῦ ἦσθα.",
+      "generated_at": "2026-05-18T06:27:34.999585Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 68,
+      "original": "Maer hy heeft het geloochent, seggende, Ick en kenne [hem] niet, noch ick en weet niet wat ghy seght. Ende hy gingh buyten in de <Ofte, portael.> voorzale, ende de haen <Namelick, voor d’eerste mael, gelijck blijckt vers 72.> kraeyde.",
+      "modernized": "Maar hij heeft het geloochend en zei: Ik ken [hem] niet, en ik weet niet wat u zegt. En hij ging naar buiten in de <Of: portaal.> voorhal, en de haan <Namelijk, voor de eerste maal, zoals blijkt uit vers 72.> kraaide.",
+      "source_text": "ὁ δὲ ἠρνήσατο, λέγων, Οὐκ οἶδα, οὐδὲ ἐπίσταμαι τί σὺ λέγεις. καὶ ἐξῆλθεν ἔξω εἰς τὸ προαύλιον· καὶ ἀλέκτωρ ἐφώνησε.",
+      "generated_at": "2026-05-18T06:27:59.399219Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 69,
+      "original": "$Matth. 26.71. Luce 22.58. Ioan. 18.25.$ Ende de dienstmaeght hem <Namelick, ontrent een ure daer na. Siet Luce 22.59.> wederom siende begon te seggen, tot de gene die daer by stonden, Dese is een van die.",
+      "modernized": "$Mt. 26:71; Lk. 22:58; Jh. 18:25$ En de dienstmaagd zag hem <Namelijk, ongeveer een uur daarna. Zie $Lk. 22:59$.> wederom en begon te zeggen tot degenen die daarbij stonden: Deze is een van die.",
+      "source_text": "καὶ ἡ παιδίσκη ἰδοῦσα αὐτὸν πάλιν ἤρξατο λέγειν τοῖς παρεστηκόσιν ὅτι Οὗτος ἐξ αὐτῶν ἐστίν.",
+      "generated_at": "2026-05-18T06:28:23.304241Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 70,
+      "original": "Maer hy loochende het wederom. Ende een weynigh daer na <Namelick, een dienaer des Hoogenpriesters die maeghschap was van de gene dien Petrus de oore afgehouwen hadde. Siet Ioan. cap. 18. vers 26.> die daer by stonden seyden wederom tot Petrum, Waerlick ghy zijt een van die: want ghy zijt oock een Galileer, ende uwe sprake <Dat is, komt met hare sprake over een.> gelijckt.",
+      "modernized": "Maar hij loochende het wederom. En een weinig daarna zeiden degenen die daarbij stonden wederom tot Petrus <Namelijk, een dienaar van de Hogepriester die maagschap was van degene wiens oor Petrus afgehouwen had. Zie $Jh. 18:26$.>: Waarlijk, u bent een van die; want u bent ook een Galileeër, en uw spraak <Dat is, komt met hun spraak overeen.> lijkt erop.",
+      "source_text": "ὁ δὲ πάλιν ἠρνεῖτο. καὶ μετὰ μικρὸν πάλιν οἱ παρεστῶτες ἔλεγον τῷ Πέτρῳ, Ἀληθῶς ἐξ αὐτῶν εἶ· καὶ γὰρ Γαλιλαῖος εἶ, καὶ ἡ λαλιά σου ὁμοιάζει.",
+      "generated_at": "2026-05-18T06:32:09.608319Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 71,
+      "original": "Ende hy begon [hemselven] te vervloecken ende te sweeren, Ick en kenne desen mensche niet, dien ghy segget.",
+      "modernized": "En hij begon [zichzelf] te vervloeken en te zweren: Ik ken die mens niet, van wie u spreekt.",
+      "source_text": "ὁ δὲ ἤρξατο ἀναθεματίζειν καὶ ὀμνύειν ὅτι Οὐκ οἶδα τὸν ἄνθρωπον τοῦτον ὃν λέγετε.",
+      "generated_at": "2026-05-18T06:32:31.763410Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 72,
+      "original": "Ende de haen kraeyde de tweede mael, ende Petrus wiert indachtigh des woorts, ’t welck Iesus tot hem geseght hadde, $Matth. 26.34, 75. Luce 22.61. Ioan. 13.38. ende 18.27.$ Eer de haen twee mael gekraeyt sal hebben, sult ghy my drie mael verloochenen. Ende hy <Gr. werpende, namelick hemselven in, ofte, door, ofte onder, namelick, het volck. Ofte, aenvangende, uytberstende, namelick, tot schreijen.> [hem] van daer makende, weende.",
+      "modernized": "En de haan kraaide voor de tweede maal, en Petrus werd het woord indachtig, dat Jezus tot hem gezegd had: $Mt. 26:34,75; Lk. 22:61; Jh. 13:38; 18:27$ Voordat de haan tweemaal gekraaid zal hebben, zult u mij driemaal verloochenen. En hij maakte <Grieks: werpen, namelijk zichzelf in, of, door, of onder, namelijk, het volk. Of, aanvangen, uitbarsten, namelijk, tot wenen.> [zich] vandaar weg, en weende.",
+      "source_text": "καὶ ἐκ δευτέρου ἀλέκτωρ ἐφώνησε. καὶ ἀνεμνήσθη ὁ Πέτρος τοῦ ῥήματος οὗ εἶπεν αὐτῷ ὁ Ἰησοῦς ὅτι Πρὶν ἀλέκτορα φωνῆσαι δίς, ἀπαρνήσῃ με τρίς. καὶ ἐπιβαλὼν ἔκλαιε.",
+      "generated_at": "2026-05-18T06:32:55.633480Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
     }

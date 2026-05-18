@@ -1,0 +1,91 @@
+{
+  "book": "MRK",
+  "generated_at": "2026-05-18T00:00:00Z",
+  "min_freq": 2,
+  "issues": [
+    {
+      "id": "META-MRK-3-8-001",
+      "verse": 8,
+      "chapter": 3,
+      "category": "carryover",
+      "severity": "soft",
+      "quote_modernized": "toen zij gehoord hadden hoe grote dingen hij deed, kwamen tot hem",
+      "hsv_quote": "een grote menigte uit de omgeving van Tyrus en Sidon",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'hoe grote dingen' = archaïsche intensifier-constructie; modern Nederlands gebruikt 'wat voor grote dingen' of 'hoeveel'.",
+      "proposed_fix": "wat voor grote dingen hij deed",
+      "location": "hoofdtekst",
+      "status": "open"
+    },
+    {
+      "id": "META-MRK-4-40-001",
+      "verse": 40,
+      "chapter": 4,
+      "category": "carryover",
+      "severity": "hard",
+      "quote_modernized": "Waarom bent u zo bevreesd? Hoe hebt u geen geloof?",
+      "hsv_quote": "Waarom bent u zo angstig? Hebt u dan geen geloof?",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'Hoe + ontkenning' = drempel-archaïsche Statenvertaling-syntaxis; modern NL: 'Hebt u dan geen geloof?' of 'Hoe kan het dat u geen geloof hebt?'.",
+      "proposed_fix": "Hebt u dan geen geloof?",
+      "location": "hoofdtekst",
+      "status": "open"
+    },
+    {
+      "id": "META-MRK-8-21-001",
+      "verse": 21,
+      "chapter": 8,
+      "category": "carryover",
+      "severity": "hard",
+      "quote_modernized": "Hoe begrijpt u niet?",
+      "hsv_quote": "Waarom begrijpt u het dan niet?",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'Hoe + ontkenning' = drempel-archaïsche SV-syntaxis; modern: 'Waarom begrijpt u het dan niet?' of 'Hoe komt het dat u het niet begrijpt?'.",
+      "proposed_fix": "Waarom begrijpt u het dan niet?",
+      "location": "hoofdtekst",
+      "status": "open"
+    },
+    {
+      "id": "META-MRK-11-18-001",
+      "verse": 18,
+      "chapter": 11,
+      "category": "carryover",
+      "severity": "soft",
+      "quote_modernized": "zochten hoe zij hem zouden doden",
+      "hsv_quote": "zochten naar een manier om Hem om te brengen",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'zochten hoe zij … zouden …' = SV-fossielconstructie (ζητέω πῶς); modern: 'zochten naar een manier om … te …'.",
+      "proposed_fix": "zochten naar een manier om hem te doden",
+      "location": "hoofdtekst",
+      "status": "open"
+    },
+    {
+      "id": "META-MRK-14-1-001",
+      "verse": 1,
+      "chapter": 14,
+      "category": "carryover",
+      "severity": "soft",
+      "quote_modernized": "zochten hoe zij hem met list zouden vangen en doden",
+      "hsv_quote": "zochten naar een manier om Hem met een list te grijpen en te doden",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'zochten hoe zij … zouden …' = fossielconstructie; modern: 'zochten naar een manier om … te …'.",
+      "proposed_fix": "zochten naar een manier om hem met list te grijpen en te doden",
+      "location": "hoofdtekst",
+      "status": "open"
+    },
+    {
+      "id": "META-MRK-14-11-001",
+      "verse": 11,
+      "chapter": 14,
+      "category": "carryover",
+      "severity": "soft",
+      "quote_modernized": "hij zocht hoe hij hem op een geschikt moment zou overleveren",
+      "hsv_quote": "hij zocht naar een geschikte manier om Hem over te leveren",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'zocht hoe hij … zou …' = fossielconstructie; modern: 'zocht naar een manier om … te …'.",
+      "proposed_fix": "hij zocht naar een geschikt moment om hem over te leveren",
+      "location": "hoofdtekst",
+      "status": "open"
+    }
+  ]
+}
