@@ -105,6 +105,11 @@
 % Vers: nummer + tekst, minimale afstand erna.
 \newcommand{\vrs}[2]{\vrsnr{#1}#2\par}
 
+% Counter — \vrsrefs stept hem, \verspair leest hem om bij verzen met
+% tekstverwijzingen extra inter-vers-witruimte toe te voegen, zodat de
+% witruimte boven en onder een gewrapte ref-regel visueel gelijk oogt.
+\newcounter{vrsrefcount}
+
 % Kanttekening = voetnoot. Inhoud klein.
 \newcommand{\kt}[1]{\footnote{#1}}
 
@@ -131,9 +136,13 @@
     \hsize=\parallelcolwidth
     \linewidth=\parallelcolwidth
     \parindent=0pt
-    \parskip=0pt
+    \parskip=1.4pt plus 0.4pt minus 0.2pt
     #1%
   }}
+% Tussen opeenvolgende ktpairnotes-inserts plaatst TeX standaard géén
+% separator-glue. Voeg aan het begin van elke insert een vskip toe gelijk
+% aan parskip binnen ktnotecell, zodat inter-vers-gap == intra-vers-gap
+% (geen lelijke sprongen tussen kanttekening-blokken van verschillende verzen).
 \newcommand{\ktpairnotes}[2]{%
   \insert\footins{%
     \footnotesize
@@ -141,6 +150,7 @@
     \splittopskip\footnotesep
     \splitmaxdepth\dp\strutbox
     \floatingpenalty=20000
+    \vskip 1.4pt plus 0.4pt minus 0.2pt
     \noindent\hbox to \textwidth{\ktnotecell{#1}\hfil\ktnotecell{#2}}%
     \par}}
 
@@ -159,7 +169,8 @@
 % Tekstverwijzingen ná de verszin: klein cursief grijs, inline om geen
 % extra regelhoogte onder het vers te veroorzaken.
 \newcommand{\vrsrefs}[1]{%
-  \nobreak\hspace{0.85em}{\fontsize{6.2}{7.2}\selectfont\textcolor{black!60}{#1}}}
+  \nobreak\hspace{0.85em}{\fontsize{6.2}{7.2}\selectfont\textcolor{black!60}{#1}}%
+  \stepcounter{vrsrefcount}}
 
 % SV-invoeging tussen [..]: cursief inline (handhaaft conventie).
 \newcommand{\svins}[1]{\textit{[#1]}}
@@ -232,8 +243,10 @@
 
 % Args: #1=nr #2=SVbody #3=SVrefs(may be empty) #4=Mbody #5=Mrefs(empty)
 \newcommand{\verspair}[5]{%
+  \setcounter{vrsrefcount}{0}%
   \parallelpair{\vrsnr{#1}#2#3}{\vrsnr{#1}#4#5}%
-  \vspace{0.5pt}}
+  \vspace{0.5pt}%
+  \ifnum\value{vrsrefcount}>0\nopagebreak\vskip 1.6pt plus 0.3pt minus 0.2pt\fi}
 
 % Header-pair boven verzen in een hoofdstuk (kolomkoppen).
 \newcommand{\headerpair}[2]{%
