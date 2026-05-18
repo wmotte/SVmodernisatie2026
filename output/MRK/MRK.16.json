@@ -34,6 +34,33 @@
       "generated_at": "2026-05-18T08:25:00.720168Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 4,
+      "original": "(Ende opsiende sagen sy dat de steen <Namelick, van den Engel, Matth. cap. 28. vers 2.> afgewentelt was) want hy was seer groot.",
+      "modernized": "(En toen zij opkeken, zagen zij dat de steen <Namelijk, door de Engel, $Mt. 28:2$.> afgewenteld was) want hij was zeer groot.",
+      "source_text": "καὶ ἀναβλέψασαι θεωροῦσιν ὅτι ἀποκεκύλισται ὁ λίθος ἦν γὰρ μέγας σφόδρα.",
+      "generated_at": "2026-05-18T08:30:03.334084Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 5,
+      "original": "$Matth. 28.2. Ioan. 20.12.$ Ende in het graf ingegaen zijnde sagen sy <D. eenen Engel in de gedaente eens jongelinghs.> eenen jongelingh sittende ter rechter [zijde,] bekleet met een wit <Gr. Stole. Siet daer van Marc. 12. vers 38.> langh kleet, ende wierden verbaest.",
+      "modernized": "$Mt. 28:2; Jh. 20:12$ En toen zij in het graf binnengegaan waren, zagen zij <Dat is, een Engel in de gedaante van een jongeling.> een jongeling zitten aan de rechter [zijde,] bekleed met een wit <Gr. Stolè. Zie daarover $Mk. 12:38$.> lang kleed, en zij werden ontsteld.",
+      "source_text": "καὶ εἰσελθοῦσαι εἰς τὸ μνημεῖον, εἶδον νεανίσκον καθήμενον ἐν τοῖς δεξιοῖς, περιβεβλημένον στολὴν λευκήν· καὶ ἐξεθαμβήθησαν.",
+      "generated_at": "2026-05-18T08:30:33.417583Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 6,
+      "original": "Maer hy seyde tot haer, $Matth. 28.5. Luce 24.5.$ En zijt niet verbaest: ghy soeckt Iesum den Nazarener, die gekruyst was: hy is opgestaen, hy en is hier niet: siet de plaetse daer sy hem geleght hadden.",
+      "modernized": "Maar hij zei tegen hen: $Mt. 28:5; Lk. 24:5$ Wees niet ontsteld; u zoekt Jezus de Nazaréner, die gekruisigd was; hij is opgestaan, hij is hier niet; zie de plaats waar zij hem gelegd hadden.",
+      "source_text": "ὁ δὲ λέγει αὐταῖς, Μὴ ἐκθαμβεῖσθε· Ἰησοῦν ζητεῖτε τὸν Ναζαρηνὸν τὸν ἐσταυρωμένον· ἠγέρθη, οὐκ ἔστιν ὧδε· ἴδε, ὁ τόπος ὅπου ἔθηκαν αὐτόν.",
+      "generated_at": "2026-05-18T08:31:03.165597Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ],
   "epilogue": {
