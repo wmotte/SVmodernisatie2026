@@ -1,5 +1,5 @@
 {
-  "book": "MRK",
+  "book": "LUK",
   "chapters": [
     1,
     2,
@@ -14,7 +14,11 @@
     11,
     12,
     13,
-    14
+    14,
+    15,
+    16,
+    17,
+    18
   ],
   "min_freq": 2,
   "kinds": [
@@ -23,203 +27,185 @@
     "latinaat-window",
     "cap-asym"
   ],
-  "total_patterns": 14,
+  "total_patterns": 17,
   "patterns_by_kind": {
     "cap-asym": [
       {
+        "pattern_id": "p-0003",
+        "kind": "cap-asym",
+        "key": "profeten",
+        "frequency": 11,
+        "hsv_alternatives": [],
+        "severity_hint": "soft",
+        "occurrences": [
+          {
+            "book": "LUK",
+            "chapter": 1,
+            "verse": 70,
+            "sv2026_excerpt": "…hij gesproken heeft door de mond van zijn heilige Profeten, die   van het begin van de wereld gewees…",
+            "hsv_excerpt": "  zoals Hij gesproken had bij monde van Zijn heilige profeten, die er door de eeuwen heen geweest zijn ,",
+            "original_excerpt": ""
+          },
+          {
+            "book": "LUK",
+            "chapter": 6,
+            "verse": 23,
+            "sv2026_excerpt": "…e hemel:   want hun vaders deden hetzelfde met de Profeten.",
+            "hsv_excerpt": "  Verblijd u op die dag en spring op van vreugde , want zie, uw loon is groot in de hemel.   Hun vaderen deden immers evenzo met de profeten",
+            "original_excerpt": ""
+          },
+          {
+            "book": "LUK",
+            "chapter": 10,
+            "verse": 24,
+            "sv2026_excerpt": "  Want ik zeg u, dat vele Profeten en Koningen   hebben begeerd te zien wat …",
+            "hsv_excerpt": "  Want Ik zeg u dat veel profeten en koningen de dingen hebben willen zien die u ziet, en zij hebben ze niet gezien; en te horen de dingen d",
+            "original_excerpt": ""
+          },
+          {
+            "book": "LUK",
+            "chapter": 11,
+            "verse": 47,
+            "sv2026_excerpt": "  Wee u, want u bouwt de graven van de Profeten, en uw vaders hebben hen gedood.",
+            "hsv_excerpt": "  Wee u, want u bouwt de grafmonumenten voor de profeten, maar uw vaderen hebben hen gedood.",
+            "original_excerpt": ""
+          },
+          {
+            "book": "LUK",
+            "chapter": 11,
+            "verse": 49,
+            "sv2026_excerpt": "Daarom zegt ook   de wijsheid van God  :   Ik zal Profeten en Apostelen tot hen zenden, en van die z…",
+            "hsv_excerpt": "Daarom heeft de wijsheid van God gezegd:   Ik zal profeten en apostelen naar hen toe zenden, en van hen zullen zij sommigen doden en anderen",
+            "original_excerpt": ""
+          },
+          {
+            "book": "LUK",
+            "chapter": 11,
+            "verse": 50,
+            "sv2026_excerpt": "Opdat van   dit geslacht het bloed van al de Profeten opgeëist wordt, dat vergoten is vanaf de …",
+            "hsv_excerpt": "opdat van dit geslacht afgeëist wordt het bloed van alle profeten dat van de grondlegging van de wereld af vergoten is,",
+            "original_excerpt": ""
+          },
+          {
+            "book": "LUK",
+            "chapter": 13,
+            "verse": 28,
+            "sv2026_excerpt": "… u zult zien Abraham, en Izak, en Jakob, en al de Profeten in het   Koninkrijk Gods, maar uzelf buit…",
+            "hsv_excerpt": "  Daar zal gejammer zijn en tandengeknars,   wanneer u Abraham, Izak en Jakob en alle profeten in het Koninkrijk van God zult zien, maar u b",
+            "original_excerpt": ""
+          },
+          {
+            "book": "LUK",
+            "chapter": 13,
+            "verse": 34,
+            "sv2026_excerpt": "    Jeruzalem, Jeruzalem, u die de Profeten doodt, en stenigt die tot u gezonden zijn…",
+            "hsv_excerpt": "  Jeruzalem, Jeruzalem, u die de profeten doodt en stenigt die naar u toe gezonden zijn,   hoe vaak heb Ik uw kinderen bijeen willen brengen",
+            "original_excerpt": ""
+          },
+          {
+            "book": "LUK",
+            "chapter": 16,
+            "verse": 29,
+            "sv2026_excerpt": "Abraham zei tot hem:   Zij hebben   Mozes en de Profeten: laten zij naar hen   horen.",
+            "hsv_excerpt": "Abraham zei tegen hem:   Zij hebben Mozes en de profeten. Laten zij naar hen luisteren.",
+            "original_excerpt": ""
+          },
+          {
+            "book": "LUK",
+            "chapter": 16,
+            "verse": 31,
+            "sv2026_excerpt": "Maar Abraham zei tot hem: Indien zij Mozes en de Profeten niet horen, zo zullen zij zich ook, al wa…",
+            "hsv_excerpt": "Maar Abraham zei tegen hem: Als zij niet naar Mozes en de profeten luisteren, zullen zij zich ook niet laten overtuigen, als iemand uit de d",
+            "original_excerpt": ""
+          },
+          {
+            "book": "LUK",
+            "chapter": 18,
+            "verse": 31,
+            "sv2026_excerpt": "…n de Zoon des mensen,   dat geschreven is door de Profeten.",
+            "hsv_excerpt": "  En Hij nam de twaalf bij Zich en zei tegen hen: Zie, wij gaan naar Jeruzalem en alles   wat geschreven is door de profeten zal aan de Zoon",
+            "original_excerpt": ""
+          }
+        ]
+      },
+      {
         "pattern_id": "p-0009",
         "kind": "cap-asym",
-        "key": "schriftgeleerden",
+        "key": "sabbat",
         "frequency": 9,
         "hsv_alternatives": [],
         "severity_hint": "soft",
         "occurrences": [
           {
-            "book": "MRK",
-            "chapter": 7,
-            "verse": 1,
-            "sv2026_excerpt": "… hem vergaderden de Farizeeën, en sommigen van de Schriftgeleerden,   die van Jeruzalem gekomen ware…",
-            "hsv_excerpt": "En   bij Hem verzamelden zich de Farizeeën en sommigen van de schriftgeleerden, die uit Jeruzalem gekomen waren.",
+            "book": "LUK",
+            "chapter": 4,
+            "verse": 16,
+            "sv2026_excerpt": "…, en ging, naar zijn gewoonte, op de dag   van de Sabbat in de Synagoge:   en stond op om te lezen.",
+            "hsv_excerpt": "  En Hij kwam in Nazareth, waar Hij opgevoed was, en ging naar Zijn gewoonte op de dag van de sabbat naar de synagoge,   en Hij stond op om ",
             "original_excerpt": ""
           },
           {
-            "book": "MRK",
-            "chapter": 7,
-            "verse": 5,
-            "sv2026_excerpt": "Daarna vroegen de Farizeeën en de Schriftgeleerden hem: Waarom   wandelen uw discipe…",
-            "hsv_excerpt": "Daarna vroegen de Farizeeën en de schriftgeleerden Hem: Waarom wandelen Uw discipelen niet volgens de overlevering van de ouden, maar eten z",
-            "original_excerpt": ""
-          },
-          {
-            "book": "MRK",
-            "chapter": 8,
-            "verse": 31,
-            "sv2026_excerpt": "…en worden door de Ouderlingen en Overpriesters en Schriftgeleerden, en gedood worden, en   na drie d…",
-            "hsv_excerpt": "  En Hij begon hun te onderwijzen dat de Zoon des mensen veel moest lijden en verworpen worden door de oudsten en overpriesters en schriftge",
-            "original_excerpt": ""
-          },
-          {
-            "book": "MRK",
-            "chapter": 9,
-            "verse": 11,
-            "sv2026_excerpt": "En zij vroegen hem en zeiden: Waarom zeggen de Schriftgeleerden,   dat Elia eerst moet komen?",
-            "hsv_excerpt": "En zij vroegen Hem: Waarom zeggen de schriftgeleerden   dat Elia eerst moet komen?",
-            "original_excerpt": ""
-          },
-          {
-            "book": "MRK",
-            "chapter": 10,
-            "verse": 33,
-            "sv2026_excerpt": "…de Zoon des mensen zal aan de Overpriesters en de Schriftgeleerden overgeleverd worden, en zij zulle…",
-            "hsv_excerpt": "Zie, wij gaan op naar Jeruzalem en de Zoon des mensen zal aan de overpriesters en de schriftgeleerden overgeleverd worden, en zij zullen Hem",
-            "original_excerpt": ""
-          },
-          {
-            "book": "MRK",
-            "chapter": 11,
-            "verse": 27,
-            "sv2026_excerpt": "…l wandelde, kwamen tot hem de Overpriesters en de Schriftgeleerden, en de   Ouderlingen.",
-            "hsv_excerpt": "  En zij kwamen weer in Jeruzalem. En toen Hij in de tempel rondliep, kwamen de overpriesters en de schriftgeleerden en de oudsten naar Hem ",
-            "original_excerpt": ""
-          },
-          {
-            "book": "MRK",
-            "chapter": 12,
-            "verse": 35,
-            "sv2026_excerpt": "…terwijl hij in de tempel onderwees: Hoe zeggen de Schriftgeleerden dat de Christus een zoon van Davi…",
-            "hsv_excerpt": "  En Jezus antwoordde en zei, terwijl Hij onderwijs gaf in de tempel: Hoe kunnen de schriftgeleerden zeggen dat de Christus een Zoon van Dav",
-            "original_excerpt": ""
-          },
-          {
-            "book": "MRK",
-            "chapter": 12,
-            "verse": 38,
-            "sv2026_excerpt": "…n hij zei tot hen in zijn leer:   Wacht u voor de Schriftgeleerden, die graag willen wandelen in   l…",
-            "hsv_excerpt": "  En Hij zei tegen hen in Zijn onderricht: Pas op voor de schriftgeleerden, die gesteld zijn op het rondlopen in lange gewaden, op begroetin",
-            "original_excerpt": ""
-          },
-          {
-            "book": "MRK",
-            "chapter": 14,
-            "verse": 1,
-            "sv2026_excerpt": "…oden was na twee dagen, en de Overpriesters en de Schriftgeleerden zochten hoe zij hem met list zoud…",
-            "hsv_excerpt": "En na twee dagen was   het Pascha en het Feest van de ongezuurde broden . En de overpriesters en de schriftgeleerden zochten naar een manier",
-            "original_excerpt": ""
-          }
-        ]
-      },
-      {
-        "pattern_id": "p-0011",
-        "kind": "cap-asym",
-        "key": "overpriesters",
-        "frequency": 6,
-        "hsv_alternatives": [],
-        "severity_hint": "soft",
-        "occurrences": [
-          {
-            "book": "MRK",
-            "chapter": 8,
-            "verse": 31,
-            "sv2026_excerpt": "…ijden, en verworpen worden door de Ouderlingen en Overpriesters en Schriftgeleerden, en gedood worde…",
-            "hsv_excerpt": "  En Hij begon hun te onderwijzen dat de Zoon des mensen veel moest lijden en verworpen worden door de oudsten en overpriesters en schriftge",
-            "original_excerpt": ""
-          },
-          {
-            "book": "MRK",
-            "chapter": 10,
-            "verse": 33,
-            "sv2026_excerpt": "… naar Jeruzalem, en de Zoon des mensen zal aan de Overpriesters en de Schriftgeleerden overgeleverd …",
-            "hsv_excerpt": "Zie, wij gaan op naar Jeruzalem en de Zoon des mensen zal aan de overpriesters en de schriftgeleerden overgeleverd worden, en zij zullen Hem",
-            "original_excerpt": ""
-          },
-          {
-            "book": "MRK",
-            "chapter": 11,
-            "verse": 18,
-            "sv2026_excerpt": "En de Schriftgeleerden en Overpriesters hoorden dat, en   zochten hoe zij he…",
-            "hsv_excerpt": "En de schriftgeleerden en de overpriesters hoorden het en   zochten naar een manier om Hem om te brengen, want zij waren bevreesd voor Hem, ",
-            "original_excerpt": ""
-          },
-          {
-            "book": "MRK",
-            "chapter": 11,
-            "verse": 27,
-            "sv2026_excerpt": "…toen hij in de tempel wandelde, kwamen tot hem de Overpriesters en de Schriftgeleerden, en de   Oude…",
-            "hsv_excerpt": "  En zij kwamen weer in Jeruzalem. En toen Hij in de tempel rondliep, kwamen de overpriesters en de schriftgeleerden en de oudsten naar Hem ",
-            "original_excerpt": ""
-          },
-          {
-            "book": "MRK",
-            "chapter": 14,
-            "verse": 1,
-            "sv2026_excerpt": "…van de ongezuurde broden was na twee dagen, en de Overpriesters en de Schriftgeleerden zochten hoe z…",
-            "hsv_excerpt": "En na twee dagen was   het Pascha en het Feest van de ongezuurde broden . En de overpriesters en de schriftgeleerden zochten naar een manier",
-            "original_excerpt": ""
-          },
-          {
-            "book": "MRK",
-            "chapter": 14,
-            "verse": 10,
-            "sv2026_excerpt": "…n Judas Iskariot, een van de twaalf, ging naar de Overpriesters toe, opdat hij hem aan hen zou overl…",
-            "hsv_excerpt": "  En Judas Iskariot, een van de twaalf, ging weg naar de overpriesters om Hem aan hen over te leveren.",
-            "original_excerpt": ""
-          }
-        ]
-      },
-      {
-        "pattern_id": "p-0002",
-        "kind": "cap-asym",
-        "key": "synagoge",
-        "frequency": 6,
-        "hsv_alternatives": [],
-        "severity_hint": "soft",
-        "occurrences": [
-          {
-            "book": "MRK",
-            "chapter": 1,
-            "verse": 21,
-            "sv2026_excerpt": "…rnaum; en meteen ging hij op de   Sabbatdag in de Synagoge en onderwees.",
-            "hsv_excerpt": "  En zij kwamen in Kapernaüm; en op de sabbat ging Hij meteen naar de synagoge en gaf Hij onderwijs.",
-            "original_excerpt": ""
-          },
-          {
-            "book": "MRK",
-            "chapter": 5,
-            "verse": 22,
-            "sv2026_excerpt": "  En zie, daar kwam een van de   Overste van de Synagoge, genaamd Jaïrus, en toen hij hem zag, vie…",
-            "hsv_excerpt": "  En zie, er kwam een van de hoofden van de synagoge, wiens naam Jaïrus was; en toen hij Hem zag, wierp hij zich neer aan Zijn voeten",
-            "original_excerpt": ""
-          },
-          {
-            "book": "MRK",
-            "chapter": 5,
-            "verse": 35,
-            "sv2026_excerpt": "… kwamen enigen van het huis van de Overste van de Synagoge, en zeiden: Uw dochter is gestorven, wat …",
-            "hsv_excerpt": "  Terwijl Hij nog sprak, kwamen er enigen van het huis van het hoofd van de synagoge, die zeiden: Uw dochter is gestorven; waarom valt u de ",
-            "original_excerpt": ""
-          },
-          {
-            "book": "MRK",
-            "chapter": 5,
-            "verse": 36,
-            "sv2026_excerpt": "… er gesproken werd, zei hij tot de Overste van de Synagoge: Vrees niet, geloof alleen.",
-            "hsv_excerpt": "En zodra Jezus het woord gehoord had dat er gesproken werd, zei Hij tegen het hoofd van de synagoge: Wees niet bevreesd, geloof alleen.",
-            "original_excerpt": ""
-          },
-          {
-            "book": "MRK",
-            "chapter": 5,
-            "verse": 38,
-            "sv2026_excerpt": "  En hij kwam in het huis van de Overste van de Synagoge, en zag de   beroering, en degenen die ze…",
-            "hsv_excerpt": "En Hij kwam bij het huis van het hoofd van de synagoge en zag de opschudding en hen die luid huilden en jammerden.",
-            "original_excerpt": ""
-          },
-          {
-            "book": "MRK",
+            "book": "LUK",
             "chapter": 6,
-            "verse": 2,
-            "sv2026_excerpt": "En toen het Sabbat geworden was, begon hij in de Synagoge te onderwijzen, en velen die hem hoorden …",
-            "hsv_excerpt": "En toen het sabbat geworden was, begon Hij in de synagoge te onderwijzen; en velen die luisterden, stonden er versteld van en zeiden: Waar h",
+            "verse": 5,
+            "sv2026_excerpt": "…n,   De Zoon des mensen is   een Heere ook van de Sabbat.",
+            "hsv_excerpt": "En Hij zei tegen hen:   De Zoon des mensen is Heere, óók van de sabbat.",
+            "original_excerpt": ""
+          },
+          {
+            "book": "LUK",
+            "chapter": 6,
+            "verse": 7,
+            "sv2026_excerpt": "…erden en de Farizeeën letten op hem, of hij op de Sabbat zou genezen: opdat zij enige   beschuldigin…",
+            "hsv_excerpt": "De schriftgeleerden en de Farizeeën letten scherp op Hem of Hij op de sabbat genezen zou, om iets te kunnen vinden om Hem te beschuldigen.",
+            "original_excerpt": ""
+          },
+          {
+            "book": "LUK",
+            "chapter": 13,
+            "verse": 14,
+            "sv2026_excerpt": "… de Synagoge, die het kwalijk nam dat Jezus op de Sabbat genezen had, antwoordde en zei tot de schar…",
+            "hsv_excerpt": "En het hoofd van de synagoge, die verontwaardigd was dat Jezus op de sabbat genas, antwoordde en zei tegen de menigte:   Er zijn zes dagen w",
+            "original_excerpt": ""
+          },
+          {
+            "book": "LUK",
+            "chapter": 13,
+            "verse": 15,
+            "sv2026_excerpt": "…n zei: Huichelaar,   maakt niet ieder van u op de Sabbat zijn os of ezel van de kribbe los, en leidt…",
+            "hsv_excerpt": "De Heere dan antwoordde hem en zei: Huichelaar,   maakt niet ieder van u op de sabbat zijn os of ezel van de voederbak los en leidt hem weg ",
+            "original_excerpt": ""
+          },
+          {
+            "book": "LUK",
+            "chapter": 13,
+            "verse": 16,
+            "sv2026_excerpt": "…losgemaakt worden van deze band, op de dag van de Sabbat?",
+            "hsv_excerpt": "En moest dan deze vrouw , die een dochter van Abraham is en die de satan, zie, nu achttien jaar gebonden had, niet losgemaakt worden van dez",
+            "original_excerpt": ""
+          },
+          {
+            "book": "LUK",
+            "chapter": 14,
+            "verse": 1,
+            "sv2026_excerpt": "…van   een van de Oversten van de Farizeeën, op de Sabbat, om brood te eten, dat zij   op hem letten.",
+            "hsv_excerpt": "En het gebeurde, toen Hij in het huis van een van de leiders van de Farizeeën gekomen was op een sabbat om brood te eten, dat zij scherp op ",
+            "original_excerpt": ""
+          },
+          {
+            "book": "LUK",
+            "chapter": 14,
+            "verse": 3,
+            "sv2026_excerpt": "… Farizeeën, en sprak: Is het ook geoorloofd op de Sabbat gezond te maken?",
+            "hsv_excerpt": "En Jezus antwoordde en zei tegen de wetgeleerden en Farizeeën: Is het geoorloofd op de sabbat gezond te maken?",
+            "original_excerpt": ""
+          },
+          {
+            "book": "LUK",
+            "chapter": 14,
+            "verse": 5,
+            "sv2026_excerpt": "…em niet meteen eruit zal trekken op de dag van de Sabbat?",
+            "hsv_excerpt": "En Hij zei, terwijl Hij Zich tot hen richtte:   Wie van u zal, wanneer zijn ezel of os in een put valt, deze er niet meteen uittrekken op de",
             "original_excerpt": ""
           }
         ]
@@ -228,210 +214,72 @@
         "pattern_id": "p-0007",
         "kind": "cap-asym",
         "key": "profeet",
-        "frequency": 4,
+        "frequency": 8,
         "hsv_alternatives": [],
         "severity_hint": "soft",
         "occurrences": [
           {
-            "book": "MRK",
-            "chapter": 6,
-            "verse": 4,
-            "sv2026_excerpt": "En Jezus zei tot hen,   Een Profeet is niet ongeëerd, behalve in zijn vaderlan…",
-            "hsv_excerpt": "En Jezus zei tegen hen:   Een profeet is niet ongeëerd, behalve in zijn vaderstad en bij zijn familie en in zijn huis.",
-            "original_excerpt": ""
-          },
-          {
-            "book": "MRK",
-            "chapter": 6,
-            "verse": 15,
-            "sv2026_excerpt": "…eiden: Hij is Elia; en anderen zeiden: Hij is een Profeet, of als een   van de Profeten.",
-            "hsv_excerpt": "Anderen zeiden: Hij is Elia; en weer anderen zeiden: Hij is een profeet, of Hij is als een van de profeten.",
-            "original_excerpt": ""
-          },
-          {
-            "book": "MRK",
-            "chapter": 11,
-            "verse": 32,
-            "sv2026_excerpt": "… hielden allen van Johannes, dat hij waarlijk een Profeet was.",
-            "hsv_excerpt": "Maar als wij zeggen: Uit de mensen, dan hebben wij bevreesd te zijn voor het volk;   want allen hielden het ervoor dat Johannes werkelijk ee",
-            "original_excerpt": ""
-          },
-          {
-            "book": "MRK",
-            "chapter": 13,
-            "verse": 14,
-            "sv2026_excerpt": "…zien de   gruwel der verwoesting, waarvan door de Profeet   Daniël gesproken is, en die staat   waar…",
-            "hsv_excerpt": "  Wanneer u dan de gruwel van de verwoesting, waarover door de profeet   Daniël gesproken is, zult zien staan waar het niet behoort –   laat",
-            "original_excerpt": ""
-          }
-        ]
-      },
-      {
-        "pattern_id": "p-0001",
-        "kind": "cap-asym",
-        "key": "profeten",
-        "frequency": 4,
-        "hsv_alternatives": [],
-        "severity_hint": "soft",
-        "occurrences": [
-          {
-            "book": "MRK",
-            "chapter": 1,
-            "verse": 2,
-            "sv2026_excerpt": "Zoals geschreven is   in de Profeten,  . Zie, ik zend mijn   Engel voor   uw a…",
-            "hsv_excerpt": "Het is zoals er geschreven staat in de profeten:   Zie, Ik zend Mijn engel   voor Uw aangezicht, die voor U uit Uw weg gereed zal maken,",
-            "original_excerpt": ""
-          },
-          {
-            "book": "MRK",
-            "chapter": 6,
-            "verse": 15,
-            "sv2026_excerpt": "…n zeiden: Hij is een Profeet, of als een   van de Profeten.",
-            "hsv_excerpt": "Anderen zeiden: Hij is Elia; en weer anderen zeiden: Hij is een profeet, of Hij is als een van de profeten.",
-            "original_excerpt": ""
-          },
-          {
-            "book": "MRK",
-            "chapter": 8,
-            "verse": 28,
-            "sv2026_excerpt": "…e Doper; en anderen, Elia; en anderen, Een van de Profeten.",
-            "hsv_excerpt": "En zij antwoordden:   Johannes de Doper; en anderen: Elia; en weer anderen: Een van de profeten.",
-            "original_excerpt": ""
-          },
-          {
-            "book": "MRK",
-            "chapter": 13,
-            "verse": 22,
-            "sv2026_excerpt": "  Want er zullen valse Christussen en valse Profeten opstaan, en zullen tekenen en wonderen   …",
-            "hsv_excerpt": "  Want er zullen valse christussen en valse profeten opstaan en zij zullen tekenen en wonderen doen om – als het mogelijk zou zijn – ook de ",
-            "original_excerpt": ""
-          }
-        ]
-      },
-      {
-        "pattern_id": "p-0012",
-        "kind": "cap-asym",
-        "key": "engelen",
-        "frequency": 3,
-        "hsv_alternatives": [],
-        "severity_hint": "soft",
-        "occurrences": [
-          {
-            "book": "MRK",
-            "chapter": 8,
-            "verse": 38,
-            "sv2026_excerpt": "…in de heerlijkheid van zijn Vader, met de heilige Engelen.",
-            "hsv_excerpt": "  Want wie zich voor Mij en Mijn woorden geschaamd zal hebben in dit overspelig en zondig geslacht, voor hem zal de Zoon des mensen Zich ook",
-            "original_excerpt": ""
-          },
-          {
-            "book": "MRK",
-            "chapter": 12,
-            "verse": 25,
-            "sv2026_excerpt": "…ij ten huwelijk gegeven; maar zij zijn   zoals de Engelen, die in de hemelen zijn.",
-            "hsv_excerpt": "Want wanneer ze uit de doden opgestaan zullen zijn, trouwen ze niet en worden ze niet ten huwelijk gegeven, maar zijn ze   als engelen in de",
-            "original_excerpt": ""
-          },
-          {
-            "book": "MRK",
-            "chapter": 13,
-            "verse": 32,
-            "sv2026_excerpt": "…Maar van die dag en die ure weet niemand, noch de Engelen die in de hemel zijn,   noch de Zoon, dan …",
-            "hsv_excerpt": "  Maar die dag en dat moment is aan niemand bekend, ook aan de engelen in de hemel niet, ook aan de Zoon niet, maar alleen aan de Vader.",
-            "original_excerpt": ""
-          }
-        ]
-      },
-      {
-        "pattern_id": "p-0013",
-        "kind": "cap-asym",
-        "key": "keizer",
-        "frequency": 3,
-        "hsv_alternatives": [],
-        "severity_hint": "soft",
-        "occurrences": [
-          {
-            "book": "MRK",
-            "chapter": 12,
-            "verse": 14,
-            "sv2026_excerpt": "… de weg van God in waarheid: Is het geoorloofd de Keizer schatting te geven of niet? Zullen wij geve…",
-            "hsv_excerpt": "Dezen nu kwamen en zeiden tegen Hem: Meester, wij weten dat U waarachtig bent en Zich door niemand laat beïnvloeden; want U ziet de persoon ",
-            "original_excerpt": ""
-          },
-          {
-            "book": "MRK",
-            "chapter": 12,
-            "verse": 16,
-            "sv2026_excerpt": "…, en het opschrift? En zij zeiden tot hem: Van de Keizer.",
-            "hsv_excerpt": "En zij brachten er een . En Hij zei tegen hen: Van wie is deze afbeelding en het opschrift? En zij zeiden tegen Hem: Van de keizer.",
-            "original_excerpt": ""
-          },
-          {
-            "book": "MRK",
-            "chapter": 12,
-            "verse": 17,
-            "sv2026_excerpt": "…n Jezus antwoordde en zei tot hen:   Geeft dan de Keizer wat van de Keizer is, en aan God wat van Go…",
-            "hsv_excerpt": "Toen antwoordde Jezus hun:   Geef dan aan de keizer wat van de keizer is, en aan God wat van God is. En zij verwonderden zich over Hem.",
-            "original_excerpt": ""
-          }
-        ]
-      },
-      {
-        "pattern_id": "p-0005",
-        "kind": "cap-asym",
-        "key": "koninkrijk",
-        "frequency": 3,
-        "hsv_alternatives": [],
-        "severity_hint": "soft",
-        "occurrences": [
-          {
-            "book": "MRK",
+            "book": "LUK",
             "chapter": 3,
+            "verse": 4,
+            "sv2026_excerpt": "… het boek van de woorden  ;  ;  ;   van Jesaja de Profeet:   De stem van een die roept in de woestij…",
+            "hsv_excerpt": "zoals geschreven staat in het boek van de woorden van de profeet   Jesaja: De stem van iemand die roept in de woestijn: Maak de weg van de H",
+            "original_excerpt": ""
+          },
+          {
+            "book": "LUK",
+            "chapter": 4,
             "verse": 24,
-            "sv2026_excerpt": "…oninkrijk tegen zichzelf verdeeld is, dan kan dat Koninkrijk niet bestaan.",
-            "hsv_excerpt": "En als een koninkrijk tegen zichzelf verdeeld is, kan dat koninkrijk niet standhouden.",
+            "sv2026_excerpt": "En hij zei: Voorwaar, ik zeg u,   dat geen   Profeet aangenaam is in zijn vaderland.",
+            "hsv_excerpt": "Hij zei: Voorwaar, Ik zeg u   dat geen profeet welgevallig is in zijn vaderstad.",
             "original_excerpt": ""
           },
           {
-            "book": "MRK",
-            "chapter": 6,
-            "verse": 23,
-            "sv2026_excerpt": "…t eisen zal ik u geven, ook tot de helft van mijn Koninkrijk.",
-            "hsv_excerpt": "  En hij zwoer haar: Wat je van mij ook maar vraagt, ik zal het je geven, tot zelfs de helft van mijn koninkrijk.",
+            "book": "LUK",
+            "chapter": 4,
+            "verse": 27,
+            "sv2026_excerpt": "…waren   vele melaatsen in Israël ten tijde van de Profeet Elisa  , en geen van hen werd gereinigd da…",
+            "hsv_excerpt": "Ook waren er   veel melaatsen in Israël in de tijd van de profeet Elisa, en geen van hen werd gereinigd, maar wel Naäman, de Syriër.",
             "original_excerpt": ""
           },
           {
-            "book": "MRK",
+            "book": "LUK",
+            "chapter": 7,
+            "verse": 26,
+            "sv2026_excerpt": "Maar wat bent u uitgegaan om te zien? Een Profeet? Ja, ik zeg u, ook veel meer dan een Profe…",
+            "hsv_excerpt": "Maar waar bent u dan naar gaan kijken? Naar een profeet? Ja, Ik zeg u, zelfs naar veel meer dan een profeet.",
+            "original_excerpt": ""
+          },
+          {
+            "book": "LUK",
+            "chapter": 7,
+            "verse": 28,
+            "sv2026_excerpt": "…e uit vrouwen geboren zijn, is niemand een groter Profeet dan Johannes de Doper; maar de   minste in…",
+            "hsv_excerpt": "Want Ik zeg u: Onder hen die uit vrouwen geboren zijn, is niemand een groter profeet dan Johannes de Doper, maar de minste in het Koninkrijk",
+            "original_excerpt": ""
+          },
+          {
+            "book": "LUK",
+            "chapter": 7,
+            "verse": 39,
+            "sv2026_excerpt": "… hij bij zichzelf en zei:   Deze zou, als hij een Profeet was, wel weten wie en wat voor vrouw deze …",
+            "hsv_excerpt": "Toen de Farizeeër die Hem uitgenodigd had, dat zag, zei hij bij zichzelf:   Deze Man zou, als Hij een profeet was, wel weten wie en wat voor",
+            "original_excerpt": ""
+          },
+          {
+            "book": "LUK",
+            "chapter": 11,
+            "verse": 29,
+            "sv2026_excerpt": "…teken gegeven worden, dan   het teken van Jona de Profeet.",
+            "hsv_excerpt": "Toen de menigte te hoop liep, begon Hij te zeggen: Dit geslacht is een verdorven geslacht; het verlangt een teken, maar het zal geen teken g",
+            "original_excerpt": ""
+          },
+          {
+            "book": "LUK",
             "chapter": 13,
-            "verse": 8,
-            "sv2026_excerpt": "…olk zal tegen het andere volk opstaan, en het ene Koninkrijk tegen het andere Koninkrijk, en er zull…",
-            "hsv_excerpt": "  Want het ene volk zal tegen het andere volk opstaan en het ene koninkrijk tegen het andere koninkrijk; en er zullen aardbevingen zijn in v",
-            "original_excerpt": ""
-          }
-        ]
-      },
-      {
-        "pattern_id": "p-0008",
-        "kind": "cap-asym",
-        "key": "groten",
-        "frequency": 2,
-        "hsv_alternatives": [],
-        "severity_hint": "soft",
-        "occurrences": [
-          {
-            "book": "MRK",
-            "chapter": 6,
-            "verse": 21,
-            "sv2026_excerpt": "…n zijn geboorte een maaltijd aanrichtte voor zijn Groten, en de Oversten over duizend, en de voornaa…",
-            "hsv_excerpt": "En toen er een geschikte dag aangebroken was en Herodes   op zijn verjaardag een maaltijd had aangericht voor zijn rijks groten en de overst",
-            "original_excerpt": ""
-          },
-          {
-            "book": "MRK",
-            "chapter": 10,
-            "verse": 42,
-            "sv2026_excerpt": "…n de volken, heerschappij voeren over hen, en hun Groten macht gebruiken over hen.",
-            "hsv_excerpt": "Maar Jezus riep hen bij Zich en zei tegen hen: U weet   dat zij die geacht worden leiders te zijn van de volken, heerschappij over hen voere",
+            "verse": 33,
+            "sv2026_excerpt": "…ende dag reizen; want het gebeurt   niet, dat een Profeet gedood wordt buiten Jeruzalem.",
+            "hsv_excerpt": "Intussen moet Ik heden en morgen en de dag daarna reizen. Het gaat immers niet aan dat een profeet omkomt buiten Jeruzalem.",
             "original_excerpt": ""
           }
         ]
@@ -439,247 +287,529 @@
       {
         "pattern_id": "p-0010",
         "kind": "cap-asym",
-        "key": "ouden",
-        "frequency": 2,
+        "key": "synagoge",
+        "frequency": 7,
         "hsv_alternatives": [],
         "severity_hint": "soft",
         "occurrences": [
           {
-            "book": "MRK",
-            "chapter": 7,
-            "verse": 3,
-            "sv2026_excerpt": "…n,   en zij houden vast aan de inzetting van de   Ouden.",
-            "hsv_excerpt": "Want de Farizeeën en alle Joden eten niet, als zij niet eerst grondig de handen gewassen hebben, omdat zij zich houden aan de overlevering v",
+            "book": "LUK",
+            "chapter": 4,
+            "verse": 16,
+            "sv2026_excerpt": "…ar zijn gewoonte, op de dag   van de Sabbat in de Synagoge:   en stond op om te lezen.",
+            "hsv_excerpt": "  En Hij kwam in Nazareth, waar Hij opgevoed was, en ging naar Zijn gewoonte op de dag van de sabbat naar de synagoge,   en Hij stond op om ",
             "original_excerpt": ""
           },
           {
-            "book": "MRK",
+            "book": "LUK",
+            "chapter": 4,
+            "verse": 38,
+            "sv2026_excerpt": "  En toen Jezus opgestaan was uit de Synagoge, ging hij in het huis   van Simon; en de …",
+            "hsv_excerpt": "  Nadat Jezus opgestaan en uit de synagoge vertrokken was, ging Hij naar het huis van Simon. De schoonmoeder van Simon had hoge koorts en ze",
+            "original_excerpt": ""
+          },
+          {
+            "book": "LUK",
+            "chapter": 6,
+            "verse": 6,
+            "sv2026_excerpt": "… gebeurde ook op een andere Sabbat, dat hij in de Synagoge ging, en onderwees. En daar was een mens,…",
+            "hsv_excerpt": "  Het gebeurde ook op een andere sabbat dat Hij in de synagoge kwam en onderwijs gaf. En er was daar iemand van wie de rechterhand verschrom",
+            "original_excerpt": ""
+          },
+          {
+            "book": "LUK",
             "chapter": 7,
             "verse": 5,
-            "sv2026_excerpt": "…len uw discipelen niet naar de inzetting van de   Ouden, maar eten het brood met ongewassen handen?",
-            "hsv_excerpt": "Daarna vroegen de Farizeeën en de schriftgeleerden Hem: Waarom wandelen Uw discipelen niet volgens de overlevering van de ouden, maar eten z",
+            "sv2026_excerpt": "…eeft   ons volk lief, en heeft zelf voor ons de   Synagoge gebouwd.",
+            "hsv_excerpt": "want hij heeft ons volk lief en heeft zelf de synagoge voor ons gebouwd.",
+            "original_excerpt": ""
+          },
+          {
+            "book": "LUK",
+            "chapter": 8,
+            "verse": 41,
+            "sv2026_excerpt": "…ie Jaïrus heette, en hij was een   Overste van de Synagoge: en hij viel aan de voeten van Jezus, en …",
+            "hsv_excerpt": "  En zie, er kwam een man, van wie de naam Jaïrus was. Hij was een leidinggevende in de synagoge. Hij viel aan de voeten van Jezus en smeekt",
+            "original_excerpt": ""
+          },
+          {
+            "book": "LUK",
+            "chapter": 8,
+            "verse": 49,
+            "sv2026_excerpt": "…k, kwam er een van het huis van de Overste van de Synagoge, en zei tot hem: Uw dochter is gestorven;…",
+            "hsv_excerpt": "  Terwijl Hij nog sprak, kwam er iemand van het huis van het hoofd van de synagoge en zei tegen hem: Uw dochter is gestorven; val de Meester",
+            "original_excerpt": ""
+          },
+          {
+            "book": "LUK",
+            "chapter": 13,
+            "verse": 14,
+            "sv2026_excerpt": "En   de Overste van de Synagoge, die het kwalijk nam dat Jezus op de Sabb…",
+            "hsv_excerpt": "En het hoofd van de synagoge, die verontwaardigd was dat Jezus op de sabbat genas, antwoordde en zei tegen de menigte:   Er zijn zes dagen w",
             "original_excerpt": ""
           }
         ]
       },
       {
-        "pattern_id": "p-0003",
+        "pattern_id": "p-0002",
         "kind": "cap-asym",
-        "key": "sabbat",
+        "key": "engel",
+        "frequency": 5,
+        "hsv_alternatives": [],
+        "severity_hint": "soft",
+        "occurrences": [
+          {
+            "book": "LUK",
+            "chapter": 1,
+            "verse": 13,
+            "sv2026_excerpt": "Maar de Engel zei tot hem: Vrees niet, Zacharia, want uw g…",
+            "hsv_excerpt": "Maar de engel zei tegen hem: Wees niet bevreesd, Zacharias, want uw gebed is verhoord en uw vrouw Elizabet zal u een zoon baren en u zult he",
+            "original_excerpt": ""
+          },
+          {
+            "book": "LUK",
+            "chapter": 1,
+            "verse": 18,
+            "sv2026_excerpt": "En Zacharia zei tot de Engel: Waardoor zal ik dat weten? Want   ik ben ou…",
+            "hsv_excerpt": "En Zacharias zei tegen de engel: Hoe zal ik dat weten?   Want ik ben oud en mijn vrouw is op leeftijd gekomen.",
+            "original_excerpt": ""
+          },
+          {
+            "book": "LUK",
+            "chapter": 1,
+            "verse": 34,
+            "sv2026_excerpt": "En Maria zei tot de Engel:   Hoe zal dat zijn, aangezien ik geen man k…",
+            "hsv_excerpt": "Maria zei tegen de engel: Hoe zal dat mogelijk zijn, aangezien ik geen gemeenschap heb met een man?  ",
+            "original_excerpt": ""
+          },
+          {
+            "book": "LUK",
+            "chapter": 1,
+            "verse": 38,
+            "sv2026_excerpt": "…Heere; laat met mij gebeuren naar uw woord. En de Engel ging van haar weg.",
+            "hsv_excerpt": "Maria zei: Zie, de dienares van de Heere, laat met mij geschieden overeenkomstig uw woord. En de engel ging van haar weg.  ",
+            "original_excerpt": ""
+          },
+          {
+            "book": "LUK",
+            "chapter": 7,
+            "verse": 27,
+            "sv2026_excerpt": "…s het over wie geschreven is:   Zie, ik zend mijn Engel voor uw aangezicht uit, die uw weg voor u ui…",
+            "hsv_excerpt": "Deze is het over wie geschreven staat:   Zie, Ik zend Mijn engel voor Uw aangezicht, die voor U uit Uw weg gereed zal maken.",
+            "original_excerpt": ""
+          }
+        ]
+      },
+      {
+        "pattern_id": "p-0008",
+        "kind": "cap-asym",
+        "key": "engelen",
+        "frequency": 5,
+        "hsv_alternatives": [],
+        "severity_hint": "soft",
+        "occurrences": [
+          {
+            "book": "LUK",
+            "chapter": 4,
+            "verse": 10,
+            "sv2026_excerpt": "Want er is geschreven:   dat hij zijn Engelen aangaande u bevelen zal, dat zij u bewaren…",
+            "hsv_excerpt": "want er staat geschreven   dat Hij Zijn engelen voor U bevel zal geven om U te bewaren,",
+            "original_excerpt": ""
+          },
+          {
+            "book": "LUK",
+            "chapter": 9,
+            "verse": 26,
+            "sv2026_excerpt": "…n de heerlijkheid van de Vader, en van de heilige Engelen.",
+            "hsv_excerpt": "  Want wie zich voor Mij en Mijn woorden geschaamd zal hebben, voor hem zal de Zoon des mensen Zich schamen, wanneer Hij zal komen in Zijn h",
+            "original_excerpt": ""
+          },
+          {
+            "book": "LUK",
+            "chapter": 12,
+            "verse": 8,
+            "sv2026_excerpt": "…, die zal ook de Zoon des mensen belijden voor de Engelen van God.",
+            "hsv_excerpt": "  En Ik zeg u: Ieder die Mij belijden zal voor de mensen, die zal ook de Zoon des mensen belijden voor de engelen van God.",
+            "original_excerpt": ""
+          },
+          {
+            "book": "LUK",
+            "chapter": 12,
+            "verse": 9,
+            "sv2026_excerpt": "…oor de mensen, die zal verloochend worden voor de Engelen van God.",
+            "hsv_excerpt": "  Maar wie Mij verloochenen zal voor de mensen, die zal verloochend worden voor de engelen van God.",
+            "original_excerpt": ""
+          },
+          {
+            "book": "LUK",
+            "chapter": 15,
+            "verse": 10,
+            "sv2026_excerpt": "Evenzo, (zeg ik u,) is er blijdschap voor de Engelen van God over een zondaar die zich bekeert.",
+            "hsv_excerpt": "Zo zeg Ik u, is er blijdschap vóór de engelen van God over één zondaar die zich bekeert.  ",
+            "original_excerpt": ""
+          }
+        ]
+      },
+      {
+        "pattern_id": "p-0012",
+        "kind": "cap-asym",
+        "key": "wetgeleerden",
+        "frequency": 4,
+        "hsv_alternatives": [],
+        "severity_hint": "soft",
+        "occurrences": [
+          {
+            "book": "LUK",
+            "chapter": 7,
+            "verse": 30,
+            "sv2026_excerpt": "Maar de Farizeeën en de Wetgeleerden hebben   de raad Gods   tegen zichzel…",
+            "hsv_excerpt": "maar de Farizeeën en de wetgeleerden verwierpen het raadsbesluit van God met betrekking tot zichzelf, omdat ze niet door hem gedoopt wilden ",
+            "original_excerpt": ""
+          },
+          {
+            "book": "LUK",
+            "chapter": 11,
+            "verse": 46,
+            "sv2026_excerpt": "  Maar hij zei: Wee ook u, Wetgeleerden, want u belast de mensen met lasten, …",
+            "hsv_excerpt": "  Maar Hij zei: Wee ook u, wetgeleerden, want u legt de mensen lasten op die moeilijk zijn om te dragen, en zelf raakt u die lasten niet met",
+            "original_excerpt": ""
+          },
+          {
+            "book": "LUK",
+            "chapter": 11,
+            "verse": 52,
+            "sv2026_excerpt": "  Wee u, Wetgeleerden, want u hebt   de sleutel van de kenn…",
+            "hsv_excerpt": "  Wee u, wetgeleerden, want u hebt de sleutel van de kennis weggenomen. Zelf bent u niet binnengegaan en u hebt hen die binnengingen, tegeng",
+            "original_excerpt": ""
+          },
+          {
+            "book": "LUK",
+            "chapter": 14,
+            "verse": 3,
+            "sv2026_excerpt": "En Jezus antwoordde en zei tot de   Wetgeleerden en Farizeeën, en sprak: Is het ook ge…",
+            "hsv_excerpt": "En Jezus antwoordde en zei tegen de wetgeleerden en Farizeeën: Is het geoorloofd op de sabbat gezond te maken?",
+            "original_excerpt": ""
+          }
+        ]
+      },
+      {
+        "pattern_id": "p-0017",
+        "kind": "cap-asym",
+        "key": "mammon",
+        "frequency": 3,
+        "hsv_alternatives": [],
+        "severity_hint": "soft",
+        "occurrences": [
+          {
+            "book": "LUK",
+            "chapter": 16,
+            "verse": 9,
+            "sv2026_excerpt": "…  Maakt uzelf   vrienden uit de onrechtvaardige   Mammon, opdat wanneer   het u zal ontbreken, zij u…",
+            "hsv_excerpt": "En Ik zeg u:   Maak uzelf vrienden met behulp van de onrechtvaardige mammon, opdat zij u, als u gebrek lijdt, zullen ontvangen in de eeuwige",
+            "original_excerpt": ""
+          },
+          {
+            "book": "LUK",
+            "chapter": 16,
+            "verse": 11,
+            "sv2026_excerpt": "Als u dan in de   onrechtvaardige Mammon niet getrouw bent geweest, wie zal u   het …",
+            "hsv_excerpt": "Als u dan wat betreft de onrechtvaardige mammon niet trouw bent geweest, wie zal u het ware toevertrouwen?",
+            "original_excerpt": ""
+          },
+          {
+            "book": "LUK",
+            "chapter": 16,
+            "verse": 13,
+            "sv2026_excerpt": "… de ander verachten. U kunt God niet dienen en de Mammon.",
+            "hsv_excerpt": "  Geen huisslaaf kan twee heren dienen, want hij zal of de ene haten en de ander liefhebben, of hij zal zich aan de ene hechten en de ander ",
+            "original_excerpt": ""
+          }
+        ]
+      },
+      {
+        "pattern_id": "p-0014",
+        "kind": "cap-asym",
+        "key": "schriftgeleerden",
+        "frequency": 3,
+        "hsv_alternatives": [],
+        "severity_hint": "soft",
+        "occurrences": [
+          {
+            "book": "LUK",
+            "chapter": 9,
+            "verse": 22,
+            "sv2026_excerpt": "… worden door de Ouderlingen, en Overpriesters, en Schriftgeleerden, en gedood worden: en op de derde…",
+            "hsv_excerpt": "Hij zei:   De Zoon des mensen moet veel lijden en verworpen worden door de oudsten, overpriesters en schriftgeleerden, en Hij moet gedood en",
+            "original_excerpt": ""
+          },
+          {
+            "book": "LUK",
+            "chapter": 11,
+            "verse": 44,
+            "sv2026_excerpt": "  Wee u, Schriftgeleerden en Farizeeën, huichelaars: want u…",
+            "hsv_excerpt": "  Wee u, schriftgeleerden en Farizeeën, huichelaars, want u bent net als de graven die niet zichtbaar zijn: de mensen die erover lopen, wete",
+            "original_excerpt": ""
+          },
+          {
+            "book": "LUK",
+            "chapter": 15,
+            "verse": 2,
+            "sv2026_excerpt": "En de Farizeeën en de Schriftgeleerden morden en zeiden: Deze ontvangt d…",
+            "hsv_excerpt": "En de Farizeeën en de schriftgeleerden morden onder elkaar en zeiden: Deze Man ontvangt zondaars en eet met hen.",
+            "original_excerpt": ""
+          }
+        ]
+      },
+      {
+        "pattern_id": "p-0006",
+        "kind": "cap-asym",
+        "key": "viervorst",
+        "frequency": 3,
+        "hsv_alternatives": [],
+        "severity_hint": "soft",
+        "occurrences": [
+          {
+            "book": "LUK",
+            "chapter": 3,
+            "verse": 1,
+            "sv2026_excerpt": "…latus Stadhouder over Judea was, en Herodes   een Viervorst over Galilea, en Filippus zijn broer een…",
+            "hsv_excerpt": "In het vijftiende jaar van de regering van keizer Tiberius, toen Pontius Pilatus stadhouder was over Judea, Herodes viervorst over Galilea, ",
+            "original_excerpt": ""
+          },
+          {
+            "book": "LUK",
+            "chapter": 3,
+            "verse": 19,
+            "sv2026_excerpt": "  Maar toen   Herodes de Viervorst door hem bestraft werd vanwege Herodias,…",
+            "hsv_excerpt": "  Maar toen Herodes, de viervorst, door hem terechtgewezen werd omwille van Herodias, de vrouw van zijn broer Filippus, en om alle slechte d",
+            "original_excerpt": ""
+          },
+          {
+            "book": "LUK",
+            "chapter": 9,
+            "verse": 7,
+            "sv2026_excerpt": "  En Herodes de   Viervorst hoorde alle dingen die door hem gebeurde…",
+            "hsv_excerpt": "  Herodes, de viervorst, hoorde al de dingen die door Hem gebeurden. En hij verkeerde in onzekerheid, omdat door sommigen gezegd werd dat Jo",
+            "original_excerpt": ""
+          }
+        ]
+      },
+      {
+        "pattern_id": "p-0005",
+        "kind": "cap-asym",
+        "key": "heidenen",
         "frequency": 2,
         "hsv_alternatives": [],
         "severity_hint": "soft",
         "occurrences": [
           {
-            "book": "MRK",
+            "book": "LUK",
             "chapter": 2,
-            "verse": 27,
-            "sv2026_excerpt": "…bat is   gemaakt   om de mens, niet de mens om de Sabbat.",
-            "hsv_excerpt": "En Hij zei tegen hen: De sabbat is gemaakt ter wille van de mens, niet de mens ter wille van de sabbat.",
+            "verse": 32,
+            "sv2026_excerpt": "  Een licht tot   verlichting van de Heidenen, en tot heerlijkheid van uw volk Israël.",
+            "hsv_excerpt": "  een licht om de heidenen te verlichten en om Uw volk Israël te verheerlijken.  ",
             "original_excerpt": ""
           },
           {
-            "book": "MRK",
-            "chapter": 2,
-            "verse": 28,
-            "sv2026_excerpt": "…Zo is dan de Zoon des mensen een Heere ook van de Sabbat.",
-            "hsv_excerpt": "  Daarom, de Zoon des mensen is Heere, óók van de sabbat.",
+            "book": "LUK",
+            "chapter": 18,
+            "verse": 32,
+            "sv2026_excerpt": "  Want hij zal aan de Heidenen overgeleverd worden, en hij zal bespot wo…",
+            "hsv_excerpt": "  Want Hij zal aan de heidenen worden overgeleverd en bespot worden en smadelijk behandeld en bespuwd worden.",
             "original_excerpt": ""
+          }
+        ]
+      },
+      {
+        "pattern_id": "p-0001",
+        "kind": "cap-asym",
+        "key": "koning",
+        "frequency": 2,
+        "hsv_alternatives": [],
+        "severity_hint": "soft",
+        "occurrences": [
+          {
+            "book": "LUK",
+            "chapter": 1,
+            "verse": 5,
+            "sv2026_excerpt": "In   de dagen   van Herodes, de Koning van Judea, was een zeker Priester met de na…",
+            "hsv_excerpt": "In de dagen van Herodes, de koning van Judea, was er een priester   van de afdeling van Abia, van wie de naam Zacharias was. En zijn vrouw b",
+            "original_excerpt": ""
+          },
+          {
+            "book": "LUK",
+            "chapter": 14,
+            "verse": 31,
+            "sv2026_excerpt": "… Koning die ten strijde trekt om tegen een andere Koning slag te leveren, gaat niet eerst zitten en …",
+            "hsv_excerpt": "Of welke koning die een oorlog in gaat om te strijden met een andere koning, gaat niet eerst zitten om te beraadslagen of hij bij machte is ",
+            "original_excerpt": ""
+          }
+        ]
+      },
+      {
+        "pattern_id": "p-0004",
+        "kind": "cap-asym",
+        "key": "stadhouder",
+        "frequency": 2,
+        "hsv_alternatives": [],
+        "severity_hint": "soft",
+        "occurrences": [
+          {
+            "book": "LUK",
+            "chapter": 2,
+            "verse": 2,
+            "sv2026_excerpt": "…ze   eerste beschrijving gebeurde toen   Cyrenius Stadhouder over Syrië was.",
+            "hsv_excerpt": "Deze eerste inschrijving vond plaats toen Cyrenius over Syrië stadhouder was.",
+            "original_excerpt": ""
+          },
+          {
+            "book": "LUK",
+            "chapter": 3,
+            "verse": 1,
+            "sv2026_excerpt": "…ing van Keizer   Tiberius, toen   Pontius Pilatus Stadhouder over Judea was, en Herodes   een Viervo…",
+            "hsv_excerpt": "In het vijftiende jaar van de regering van keizer Tiberius, toen Pontius Pilatus stadhouder was over Judea, Herodes viervorst over Galilea, ",
+            "original_excerpt": ""
+          }
+        ]
+      },
+      {
+        "pattern_id": "p-0015",
+        "kind": "cap-asym",
+        "key": "synagogen",
+        "frequency": 2,
+        "hsv_alternatives": [],
+        "severity_hint": "soft",
+        "occurrences": [
+          {
+            "book": "LUK",
+            "chapter": 11,
+            "verse": 43,
+            "sv2026_excerpt": "…arizeeën, want u bemint   het voorgestoelte in de Synagogen, en de begroetingen op de markten.",
+            "hsv_excerpt": "  Wee u, Farizeeën, want u hebt de voorste plaatsen in de synagogen en de begroetingen op de markten lief.",
+            "original_excerpt": ""
+          },
+          {
+            "book": "LUK",
+            "chapter": 13,
+            "verse": 10,
+            "sv2026_excerpt": "En hij onderwees op   de Sabbat in een van de Synagogen.",
+            "hsv_excerpt": "En Hij gaf onderwijs op de sabbat in één van de synagogen.",
+            "original_excerpt": ""
+          }
+        ]
+      }
+    ],
+    "latinaat-window": [
+      {
+        "pattern_id": "p-0011",
+        "kind": "latinaat-window",
+        "key": "lijkt een mens die een",
+        "frequency": 2,
+        "hsv_alternatives": [],
+        "severity_hint": "soft",
+        "occurrences": [
+          {
+            "book": "LUK",
+            "chapter": 6,
+            "verse": 48,
+            "sv2026_excerpt": "lijkt een mens die een",
+            "hsv_excerpt": "Hij is gelijk aan een man die een huis bouwde: hij groef en diepte uit en legde het fundament op de rots. Toen de hoge vloed kwam, sloeg de ",
+            "original_excerpt": "Hy is gelijck een mensche die een huys bouwde, ende groef,   ende verdiepte, ende leyde het fondament op een steenrotze: als nu   de hooge v"
+          },
+          {
+            "book": "LUK",
+            "chapter": 6,
+            "verse": 49,
+            "sv2026_excerpt": "lijkt een mens die een",
+            "hsv_excerpt": "Maar wie ze gehoord en niet gedaan zal hebben, is gelijk aan een man die een huis bouwde op de aarde zonder fundament. Toen de waterstroom e",
+            "original_excerpt": "Maer diese gehoort, ende niet gedaen en sal hebben, is gelijck een mensche die een huys bouwde op de aerde sonder fondament: tegen het welck"
           }
         ]
       }
     ],
     "carryover": [
       {
-        "pattern_id": "p-0004",
+        "pattern_id": "p-0013",
         "kind": "carryover",
         "key": "hoe",
-        "frequency": 8,
+        "frequency": 4,
         "hsv_alternatives": [
-          "manier",
-          "hoelang",
-          "kwam",
+          "nadat",
+          "neergevallen",
+          "onopgemerkt",
           "toe",
-          "angstig",
-          "waarom",
-          "jongs",
-          "overkomt"
+          "vertelde",
+          "hoelang",
+          "ontaard",
+          "staat"
         ],
         "severity_hint": "soft",
         "occurrences": [
           {
-            "book": "MRK",
-            "chapter": 3,
-            "verse": 8,
-            "sv2026_excerpt": "…don,   een grote menigte, toen zij gehoord hadden hoe grote dingen hij deed, kwamen tot hem.",
-            "hsv_excerpt": "en uit Jeruzalem en uit Idumea en van over de Jordaan; ook een grote menigte uit de omgeving van Tyrus en Sidon, die geh",
-            "original_excerpt": "Ende van Ierusalem, ende van   Idumea, ende van over den Iordaen: ende die van ontrent   Tyrus ende Sidon,   een groote "
-          },
-          {
-            "book": "MRK",
-            "chapter": 4,
-            "verse": 40,
-            "sv2026_excerpt": "En hij zei tot hen: Waarom bent u zo bevreesd? Hoe hebt u   geen geloof?",
-            "hsv_excerpt": "En Hij zei tegen hen: Waarom bent u zo angstig? Hebt u dan geen geloof?",
-            "original_excerpt": "Ende hy seyde tot haer, Wat zijt ghy soo vreesachtigh? Hoe en hebt ghy   geen geloove?"
-          },
-          {
-            "book": "MRK",
+            "book": "LUK",
             "chapter": 8,
-            "verse": 21,
-            "sv2026_excerpt": "En hij zei tot hen: Hoe   begrijpt u niet?",
-            "hsv_excerpt": "En Hij zei tegen hen: Waarom begrijpt u het dan niet?",
-            "original_excerpt": "Ende hy seyde tot haer, Hoe   en verstaet ghy niet?"
+            "verse": 47,
+            "sv2026_excerpt": "…et volk om welke reden zij hem had aangeraakt, en hoe zij onmiddellijk genezen was.",
+            "hsv_excerpt": "Toen de vrouw zag dat zij niet onopgemerkt was, kwam zij bevend naar Hem toe, en nadat zij voor Hem neergevallen was, ve",
+            "original_excerpt": "De vrouwe nu siende dat sy niet verborgen en was, quam bevende, ende voor hem neder vallende verklaerde hem voor alle he"
           },
           {
-            "book": "MRK",
+            "book": "LUK",
             "chapter": 9,
-            "verse": 19,
-            "sv2026_excerpt": "… hij antwoordde hem en zei: O ongelovig geslacht, hoe lang zal ik nog bij u zijn? Hoe lang zal ik u …",
-            "hsv_excerpt": "En Hij antwoordde hem en zei: O ongelovig geslacht, hoelang zal Ik nog bij u zijn? Hoelang zal Ik u nog verdragen? Breng",
-            "original_excerpt": "Ende hy antwoordde hem, ende seyde, O ongeloovigh geslachte, hoe lange sal ick noch by u-lieden zijn? Hoe lange sal ick "
+            "verse": 41,
+            "sv2026_excerpt": "…ordde en zei: O ongelovig en   verkeerd geslacht, hoe lang zal ik nog bij u zijn en u verdragen? Bre…",
+            "hsv_excerpt": "Jezus antwoordde en zei: O ongelovig en ontaard geslacht, hoelang zal Ik nog bij u zijn en u verdragen? Breng uw zoon hi",
+            "original_excerpt": "Ende Iesus antwoordende seyde, O ongeloovigh ende   verkeert geslachte, hoe lange sal ick noch by u-lieden zijn, ende u-"
           },
           {
-            "book": "MRK",
-            "chapter": 9,
-            "verse": 21,
-            "sv2026_excerpt": "En hij vroeg zijn vader: Hoe lang is het, dat hem dit overkomen is? En hij …",
-            "hsv_excerpt": "En Hij vroeg aan zijn vader: Hoelang is het al dat dit hem overkomt? En hij zei: Van jongs af aan.",
-            "original_excerpt": "Ende hy vraeghde sijnen vader, Hoe langen tijt is’t, dat hem dit over gekomen is? Ende hy seyde hem, Van sijne kintsheyt"
+            "book": "LUK",
+            "chapter": 10,
+            "verse": 26,
+            "sv2026_excerpt": "En hij zei tot hem: Wat is in de wet geschreven? Hoe leest u?",
+            "hsv_excerpt": "En Hij zei tegen hem: Wat staat er in de Wet geschreven? Wat leest u daar ?",
+            "original_excerpt": "Ende hy seyde tot hem, Wat is in de wet geschreven? hoe leest ghy?"
           },
           {
-            "book": "MRK",
-            "chapter": 11,
-            "verse": 18,
-            "sv2026_excerpt": "…eerden en Overpriesters hoorden dat, en   zochten hoe zij hem   zouden doden; want zij vreesden hem,…",
-            "hsv_excerpt": "En de schriftgeleerden en de overpriesters hoorden het en   zochten naar een manier om Hem om te brengen, want zij waren",
-            "original_excerpt": "Ende de Schriftgeleerde ende Overpriesters hoorden dat, ende   sochten hoe sy hem   dooden souden: want sy vreesden hem,"
-          },
-          {
-            "book": "MRK",
-            "chapter": 14,
-            "verse": 1,
-            "sv2026_excerpt": "…n de Overpriesters en de Schriftgeleerden zochten hoe zij hem met list zouden vangen en doden.",
-            "hsv_excerpt": "En na twee dagen was   het Pascha en het Feest van de ongezuurde broden . En de overpriesters en de schriftgeleerden zoc",
-            "original_excerpt": "  ENde het   Pascha, ende het feest   der ongehevelde brooden was na twee dagen, ende de Overpriesters ende de Schriftge"
-          },
-          {
-            "book": "MRK",
-            "chapter": 14,
-            "verse": 11,
-            "sv2026_excerpt": "…d, en beloofden hem   geld te geven; en hij zocht hoe hij hem   op een geschikt moment zou overlever…",
-            "hsv_excerpt": "En toen zij dat hoorden, verblijdden zij zich en beloofden zij hem geld te geven. En hij zocht naar een geschikte manier",
-            "original_excerpt": "Ende sy dat hoorende waren verblijdt, ende beloofden hem   gelt te geven, ende hy socht hoe hy hem   bequamelick overlev"
+            "book": "LUK",
+            "chapter": 16,
+            "verse": 2,
+            "sv2026_excerpt": "En hij riep hem en zei tot hem: Hoe hoor ik dit van u? Geef rekenschap van uw   re…",
+            "hsv_excerpt": "En hij riep hem en zei tegen hem: Wat is dit wat ik over u hoor? Geef rekenschap van uw rentmeesterschap, want u kunt ni",
+            "original_excerpt": "Ende hy riep hem, ende seyde tot hem, Hoe hoore ick dit van u? Geeft reeckenschap van uw’   rentmeesterschap: want ghy e"
           }
         ]
       },
       {
-        "pattern_id": "p-0006",
+        "pattern_id": "p-0016",
         "kind": "carryover",
         "key": "toe",
-        "frequency": 6,
+        "frequency": 2,
         "hsv_alternatives": [
-          "pas",
-          "eropuit",
-          "luister",
+          "bezit",
+          "hoede",
           "kijk",
-          "zuurdeeg",
-          "misleidt",
-          "geplaatst",
-          "hen"
-        ],
-        "severity_hint": "soft",
-        "occurrences": [
-          {
-            "book": "MRK",
-            "chapter": 4,
-            "verse": 3,
-            "sv2026_excerpt": "Hoort toe. Zie, een zaaier ging uit om te zaaien.",
-            "hsv_excerpt": "Luister! Zie, een zaaier ging eropuit om te zaaien.",
-            "original_excerpt": "Hoort toe, Siet, een zaeijer gingh uyt om te zaeijen."
-          },
-          {
-            "book": "MRK",
-            "chapter": 8,
-            "verse": 15,
-            "sv2026_excerpt": "En hij gebood hun en zei:   Zie toe,   wacht u voor de   zuurdesem van de Farizeeë…",
-            "hsv_excerpt": "En Hij gebood hun en zei:   Kijk uit, pas op voor het zuurdeeg van de Farizeeën en voor het zuurdeeg van Herodes.",
-            "original_excerpt": "Ende hy geboodt haer, seggende,   Siet toe,   wacht u van den   suerdeessem der Pharizeen, ende van den suerdeessem   He"
-          },
-          {
-            "book": "MRK",
-            "chapter": 13,
-            "verse": 5,
-            "sv2026_excerpt": "…n Jezus antwoordde hun en begon te zeggen:   Ziet toe dat niemand u verleidt.",
-            "hsv_excerpt": "En Jezus antwoordde hun en begon te zeggen:   Pas op dat niemand u misleidt.",
-            "original_excerpt": "Ende Iesus haer antwoordende begon te seggen,   Siet toe dat u niemant en verleyde."
-          },
-          {
-            "book": "MRK",
-            "chapter": 13,
-            "verse": 9,
-            "sv2026_excerpt": "  Maar   ziet u voor uzelf toe: want zij zullen u overleveren aan de   Raadsv…",
-            "hsv_excerpt": "  Past u op uzelf; want ze zullen u overleveren aan raadsvergaderingen, en in de synagogen zult u geslagen worden; en u ",
-            "original_excerpt": "  Maer   siet ghy voor u selven toe: want sy sullen u overleveren in de   Raetsvergaderingen, ende in de Synagogen: Ghy "
-          },
-          {
-            "book": "MRK",
-            "chapter": 13,
-            "verse": 23,
-            "sv2026_excerpt": "Maar ulieden ziet toe: Zie, ik heb u alles voorzegd.",
-            "hsv_excerpt": "Maar past u op; zie, Ik heb u alles van tevoren gezegd!",
-            "original_excerpt": "Maer ghylieden siet toe: Siet, ick hebbe u alles voorseght."
-          },
-          {
-            "book": "MRK",
-            "chapter": 13,
-            "verse": 33,
-            "sv2026_excerpt": "  Ziet toe, waakt en bidt, want u weet niet wanneer de ti…",
-            "hsv_excerpt": "  Let op: waak en bid, want u weet niet wanneer het de tijd is.",
-            "original_excerpt": "  Siet toe, waeckt ende bidt, want ghy en weet niet wanneer de tijt is."
-          }
-        ]
-      },
-      {
-        "pattern_id": "p-0014",
-        "kind": "carryover",
-        "key": "ure",
-        "frequency": 3,
-        "hsv_alternatives": [
-          "moment",
-          "bedenk",
-          "spreek",
           "wees",
-          "wegleiden",
-          "bekend",
-          "iets",
-          "ter"
+          "snelde",
+          "tegemoet",
+          "verwijderd"
         ],
         "severity_hint": "soft",
         "occurrences": [
           {
-            "book": "MRK",
-            "chapter": 13,
-            "verse": 11,
-            "sv2026_excerpt": "…eken zult, en bedenkt het niet: maar wat u in die ure gegeven zal worden, dat spreekt. Want u bent h…",
-            "hsv_excerpt": "  En wanneer ze u zullen wegleiden om u over te leveren, wees dan van tevoren niet bezorgd wat u spreken moet, en bedenk",
-            "original_excerpt": "  Doch wanneer sy u leyden sullen om u over te leveren,   soo en zijt te voren niet besorght, wat ghy spreken sult, noch"
+            "book": "LUK",
+            "chapter": 12,
+            "verse": 15,
+            "sv2026_excerpt": "En hij zei tot hen: Zie toe en wacht u   voor   de hebzucht:   want het is…",
+            "hsv_excerpt": "En Hij zei tegen hen: Kijk uit en wees op uw hoede   voor de hebzucht. Immers, al heeft iemand overvloed, zijn leven beh",
+            "original_excerpt": "Ende hy seyde tot haer, Siet toe ende wacht u   van   de gierigheyt:   want het en is niet in den overvloet gelegen, dat"
           },
           {
-            "book": "MRK",
-            "chapter": 13,
-            "verse": 32,
-            "sv2026_excerpt": "  Maar van die dag en die ure weet niemand, noch de Engelen die in de hemel …",
-            "hsv_excerpt": "  Maar die dag en dat moment is aan niemand bekend, ook aan de engelen in de hemel niet, ook aan de Zoon niet, maar alle",
-            "original_excerpt": "  Maer van dien dagh ende die ure en weet niemant, noch de Engelen die in den hemel zijn,   noch de Sone, dan de Vader."
-          },
-          {
-            "book": "MRK",
-            "chapter": 14,
-            "verse": 35,
-            "sv2026_excerpt": "…de aarde, en bad, dat, zo het mogelijk was,   die ure van hem voorbij zou gaan.",
-            "hsv_excerpt": "  En toen Hij iets verder gegaan was, wierp Hij Zich ter aarde en bad dat, als het mogelijk was, dat uur aan Hem voorbij",
-            "original_excerpt": "  Ende een weynigh voort gegaen zijnde viel hy op de aerde, ende badt, soo’t mogelick ware, dat   die ure van hem voorby"
+            "book": "LUK",
+            "chapter": 15,
+            "verse": 20,
+            "sv2026_excerpt": "…rd met innerlijke ontferming bewogen; en hij liep toe en viel hem om zijn hals, en kuste hem.",
+            "hsv_excerpt": "En hij stond op en ging naar zijn vader. En   toen hij nog ver van hem verwijderd was, zag zijn vader hem en deze was me",
+            "original_excerpt": "Ende opstaende gingh hy na sijnen vader. Ende   als hy noch verre van hem was, sagh hem sijn vader, ende wiert met inner"
           }
         ]
       }

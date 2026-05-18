@@ -104,10 +104,23 @@
     {
       "verse_number": 11,
       "status": "modernized",
-      "sv2026": "$Mt. 10:19; Lk. 12:11; 21:14$ Maar wanneer zij u zullen brengen om u over te leveren, <Zie hiervan de aantekening op $Mt. 10:19$.> weest dan niet van tevoren bezorgd wat u spreken zult, en bedenkt het niet: maar wat u in die ure gegeven zal worden, dat spreekt. Want u bent het niet die spreekt, maar <Namelijk, die in en door u spreekt, $Mt. 10:20$.> de Heilige Geest.",
+      "sv2026": "$Mt. 10:19; Lk. 12:11; 21:14$ Maar wanneer zij u zullen brengen om u over te leveren, <Zie hiervan de aantekening op $Mt. 10:19$.> weest dan niet van tevoren bezorgd wat u spreken zult, en bedenkt het niet: maar wat u op dat moment gegeven zal worden, dat spreekt. Want u bent het niet die spreekt, maar <Namelijk, die in en door u spreekt, $Mt. 10:20$.> de Heilige Geest.",
       "sv2027": "",
       "hsv": "$Matt. 10:19; Luk. 12:11; 21:14$ En wanneer ze u zullen wegleiden om u over te leveren, wees [dan] van tevoren niet bezorgd wat u spreken moet, en bedenk het niet; maar wat u op dat moment gegeven zal worden, spreek dat, want u bent het niet die spreekt, maar de Heilige Geest.",
-      "original": "$Matth. 10.19. Luce 12.11. ende 21.14.$ Doch wanneer sy u leyden sullen om u over te leveren, <Siet hier van d’aenteeckeninge op Matth. 10.19.> soo en zijt te voren niet besorght, wat ghy spreken sult, noch en bedenckt het niet: maer soo wat u in die ure gegeven sal worden, dat spreeckt. Want ghy en zijt het niet die spreeckt, maer <Namel. die in ende door u spreeckt, Matth. 10.20.> de Heylige Geest."
+      "original": "$Matth. 10.19. Luce 12.11. ende 21.14.$ Doch wanneer sy u leyden sullen om u over te leveren, <Siet hier van d’aenteeckeninge op Matth. 10.19.> soo en zijt te voren niet besorght, wat ghy spreken sult, noch en bedenckt het niet: maer soo wat u in die ure gegeven sal worden, dat spreeckt. Want ghy en zijt het niet die spreeckt, maer <Namel. die in ende door u spreeckt, Matth. 10.20.> de Heylige Geest.",
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "ure → op dat moment",
+          "context": "hoofdtekst",
+          "choice": "op dat moment",
+          "alternatives": [
+            "dat uur",
+            "die ure"
+          ],
+          "reason": "meta-review bucket-B fix: ure staat in DREMPEL_ARCHAISMEN. In vervolgings-/spreek-context is op dat moment het natuurlijke modern-NL equivalent; sluit aan bij HSV en bij de aantekening over moment van spreken."
+        }
+      ]
     },
     {
       "verse_number": 12,
@@ -311,10 +324,23 @@
     {
       "verse_number": 32,
       "status": "modernized",
-      "sv2026": "$Mt. 24:36; Hd. 1:7$ Maar van die dag en die ure weet niemand, noch de Engelen die in de hemel zijn, <Namelijk, naar zijn menselijke natuur, en in de staat van zijn vernedering; want naar zijn Godheid weet hij alle dingen, $Jh. 21:17$; en na zijn verhoging is hem het boek der voorzienigheid Gods, met zeven zegelen verzegeld, nader geopend, $Op. 5:5,7,9$.> noch de Zoon, dan de Vader.",
+      "sv2026": "$Mt. 24:36; Hd. 1:7$ Maar van die dag en dat uur weet niemand, noch de Engelen die in de hemel zijn, <Namelijk, naar zijn menselijke natuur, en in de staat van zijn vernedering; want naar zijn Godheid weet hij alle dingen, $Jh. 21:17$; en na zijn verhoging is hem het boek der voorzienigheid Gods, met zeven zegelen verzegeld, nader geopend, $Op. 5:5,7,9$.> noch de Zoon, dan de Vader.",
       "sv2027": "",
       "hsv": "$Matt. 24:36; Hand. 1:7$ Maar die dag en dat moment is aan niemand bekend, ook aan de engelen in de hemel niet, ook aan de Zoon niet, maar alleen aan de Vader.",
-      "original": "$Matth. 24.36. Actor. 1.7.$ Maer van dien dagh ende die ure en weet niemant, noch de Engelen die in den hemel zijn, <Namelick, na sijne menschelicke nature, ende in den staet sijner nederigheyt, want na sijne Godtheyt weet hy alle dingen, Ioan. cap. 21. vers 17. ende na sijne verhooginge is hem het boeck der voorsienigheyt Godts, met seven zegelen verzegelt, naerder geopent, Apoc. 5.5, 7, 9.> noch de Sone, dan de Vader."
+      "original": "$Matth. 24.36. Actor. 1.7.$ Maer van dien dagh ende die ure en weet niemant, noch de Engelen die in den hemel zijn, <Namelick, na sijne menschelicke nature, ende in den staet sijner nederigheyt, want na sijne Godtheyt weet hy alle dingen, Ioan. cap. 21. vers 17. ende na sijne verhooginge is hem het boeck der voorsienigheyt Godts, met seven zegelen verzegelt, naerder geopent, Apoc. 5.5, 7, 9.> noch de Sone, dan de Vader.",
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "ure → uur",
+          "context": "hoofdtekst",
+          "choice": "dat uur",
+          "alternatives": [
+            "dat moment",
+            "die ure"
+          ],
+          "reason": "meta-review bucket-B fix: ure staat in DREMPEL_ARCHAISMEN. Eschatologisch koppel met dag → uur leest natuurlijker dan moment; sluit aan bij Lk. 12:40 en de traditionele formule dag-en-uur."
+        }
+      ]
     },
     {
       "verse_number": 33,
