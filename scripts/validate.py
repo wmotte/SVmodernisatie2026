@@ -201,7 +201,7 @@ PARTICIPLE_ALWAYS_BAD_ENDE: frozenset[str] = frozenset({
 # Met name: gevolgd door `[,:;]` of door een voorzetsel (`op`, `in`,
 # `tot`, `aan`, `uit`, `van`, …) is een sterk adverbial-signaal.
 PARTICIPLE_CONTEXT_ENDE: frozenset[str] = frozenset({
-    "komende", "staande", "zittende", "weidende", "vallende", "varende",
+    "komende", "zittende", "weidende", "vallende", "varende",
     "liggende", "wandelende", "lopende", "bevende", "wakende",
     "wonende", "rustende", "slapende", "zwijgende",
     "toekomende",  # 'toekomende eeuw' attributief; adverbial flag
@@ -217,7 +217,25 @@ ADVERBIAL_TRIGGERS_AFTER_PARTICIPLE = frozenset({
     # Subordinators direct na participium = altijd participium-clause, geen attributief gebruik
     # ('daartoe strekkende dat …', 'menende dat …', 'wetende waarom …').
     "dat", "toen", "terwijl", "omdat", "zodat", "wanneer", "waarom",
-    "hoe", "of",
+    "hoe", "of", "waar",
+})
+
+# Participia die default als ALWAYS-BAD gelden, maar attributief OK zijn
+# wanneer voorafgegaan door een determinant ('de staande orde'). MAX-fix
+# voor MRK 3:32 / 13:14 waar 'buiten staande zonden' en 'staande waar'
+# door de CONTEXT-vooruitkijker glipten. Toegevoegd: 'staande' (was
+# CONTEXT). Uitbreidbaar voor andere participia met substantief-paar.
+PARTICIPLE_ATTRIBUTIVE_REQUIRES_DETERMINER: frozenset[str] = frozenset({
+    "staande",
+})
+
+# Determinanten die attributief gebruik van bovenstaande participia
+# autoriseren. 'de staande orde' / 'een staande commissie'.
+PARTICIPLE_ATTRIBUTIVE_DETERMINERS: frozenset[str] = frozenset({
+    "de", "het", "een", "deze", "die", "dit", "dat",
+    "mijn", "uw", "zijn", "haar", "onze", "hun",
+    "enkele", "enige", "vele", "veel", "alle", "sommige", "geen",
+    "elke", "elk", "ieder", "iedere",
 })
 
 # Specifieke werkwoordstammen waarvan de modern-gespelde participium-vorm
@@ -305,6 +323,26 @@ def _run_participle_checks(text: str, location: str) -> list[str]:
             issues.append(
                 f"{location}: §2.3-participium '{m.group()}' — modern-gespeld "
                 f"adverbiaal participium; ontvouw naar 'terwijl X …' of 'en …' "
+                f"(zie MODERNISATIE.md §2.3)"
+            )
+
+    # D) Attributief-vereist: flag tenzij voorafgegaan door determinant.
+    #    Vangt 'buiten staande zonden' (geen determinant) en 'is, staande
+    #    waar' (komma vóór → geen determinant). 'de staande orde' blijft OK.
+    #    NB: 'staande' eindigt op '-ande' niet '-ende', dus generieke
+    #    `\w+ende` patronen missen het. Hier expliciet per-woord matchen.
+    for target in PARTICIPLE_ATTRIBUTIVE_REQUIRES_DETERMINER:
+        pat = re.compile(
+            rf"(?:(\w+)\s+)?\b({re.escape(target)})\b",
+            flags=re.IGNORECASE,
+        )
+        for m in pat.finditer(text):
+            prev = (m.group(1) or "").lower()
+            if prev in PARTICIPLE_ATTRIBUTIVE_DETERMINERS:
+                continue
+            issues.append(
+                f"{location}: §2.3-participium '{m.group(2)}' — adverbiaal/onbepaald "
+                f"gebruik (geen determinant ervoor); ontvouw naar finiete bijzin "
                 f"(zie MODERNISATIE.md §2.3)"
             )
 
