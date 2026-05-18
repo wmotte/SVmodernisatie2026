@@ -1,7 +1,7 @@
 {
   "book": "MRK",
   "chapter": 14,
-  "reviewed_at": "2026-05-18T06:36:55+00:00",
+  "reviewed_at": "2026-05-18T06:42:10+00:00",
   "passes": [
     {
       "pass": 1,
@@ -15,6 +15,61 @@
       "mode": "in-context-aanvulling",
       "issues_processed": 30,
       "all_rebutted": true
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-18T06:41:22+00:00",
+      "mode": "verify",
+      "actions": [
+        "MRK-14-3-001: rebuttal verified",
+        "MRK-14-9-001: rebuttal verified",
+        "MRK-14-18-001: rebuttal verified",
+        "MRK-14-21-001: rebuttal verified",
+        "MRK-14-21-002: rebuttal verified",
+        "MRK-14-25-001: rebuttal verified",
+        "MRK-14-30-001: rebuttal verified",
+        "MRK-14-30-002: reopened (luie rebuttal)",
+        "MRK-14-31-001: rebuttal verified",
+        "MRK-14-39-001: rebuttal verified",
+        "MRK-14-40-001: rebuttal verified",
+        "MRK-14-41-001: rebuttal verified",
+        "MRK-14-60-001: rebuttal verified",
+        "MRK-14-62-001: rebuttal verified",
+        "MRK-14-69-001: rebuttal verified",
+        "MRK-14-70-001: rebuttal verified",
+        "MRK-14-70-002: rebuttal verified",
+        "MRK-14-70-003: rebuttal verified",
+        "MRK-14-70-004: reopened (te generiek)",
+        "MRK-14-72-001: rebuttal verified",
+        "MRK-14-72-002: rebuttal verified",
+        "MRK-14-72-003: rebuttal verified",
+        "MRK-14-72-004: rebuttal verified",
+        "MRK-14-3-002: rebuttal verified",
+        "MRK-14-5-001: rebuttal verified",
+        "MRK-14-16-001: rebuttal verified",
+        "MRK-14-39-002: rebuttal verified",
+        "MRK-14-44-001: rebuttal verified",
+        "MRK-14-47-001: rebuttal verified",
+        "MRK-14-60-002: rebuttal verified"
+      ]
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-18T06:42:07.266736+00:00",
+      "mode": "rebuttal-strengthen",
+      "actions": [
+        "MRK-14-30-002",
+        "MRK-14-70-004"
+      ]
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-05-18T06:42:10+00:00",
+      "mode": "verify",
+      "actions": [
+        "MRK-14-30-002: rebuttal verified",
+        "MRK-14-70-004: rebuttal verified"
+      ]
     }
   ],
   "issues": [
@@ -28,8 +83,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "MRK-14-3-001",
-      "status": "rebutted",
-      "rebuttal": "'vloeiende' in kanttekening van v3 is lexicale vertaalvariant van Grieks πιστικός (parallel aan 'drinkbare', 'oprechte', 'trouwe'). Attributief: het functioneert als bn. bij nardus/balsem ('vloeiende olie'). KANTTEKENINGEN.md staat -ende toe als de glos lexicaal materiaal aanbiedt naast andere bn-varianten; geen adverbiaal participium."
+      "status": "verified",
+      "rebuttal": "'vloeiende' in kanttekening van v3 is lexicale vertaalvariant van Grieks πιστικός (parallel aan 'drinkbare', 'oprechte', 'trouwe'). Attributief: het functioneert als bn. bij nardus/balsem ('vloeiende olie'). KANTTEKENINGEN.md staat -ende toe als de glos lexicaal materiaal aanbiedt naast andere bn-varianten; geen adverbiaal participium.",
+      "verified_at": "2026-05-18T06:41:22+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -41,8 +97,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "MRK-14-9-001",
-      "status": "rebutted",
-      "rebuttal": "ARCHAISMEN.md regel 49: 'voorwaar' expliciet behouden in formule 'Voorwaar, Ik zeg u'. v9 betreft deze formule (ἀμὴν λέγω ὑμῖν) — gefossiliseerde liturgische uitdrukking, projectbreed bewust gehandhaafd."
+      "status": "verified",
+      "rebuttal": "ARCHAISMEN.md regel 49: 'voorwaar' expliciet behouden in formule 'Voorwaar, Ik zeg u'. v9 betreft deze formule (ἀμὴν λέγω ὑμῖν) — gefossiliseerde liturgische uitdrukking, projectbreed bewust gehandhaafd.",
+      "verified_at": "2026-05-18T06:41:22+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -54,8 +111,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "MRK-14-18-001",
-      "status": "rebutted",
-      "rebuttal": "ARCHAISMEN.md regel 49: 'voorwaar' behouden in 'Voorwaar, Ik zeg u'-formule. v18 betreft ἀμὴν λέγω ὑμῖν aan tafel — gefossiliseerd, vgl. MRK 3:28, 8:12, 9:1, 10:15."
+      "status": "verified",
+      "rebuttal": "ARCHAISMEN.md regel 49: 'voorwaar' behouden in 'Voorwaar, Ik zeg u'-formule. v18 betreft ἀμὴν λέγω ὑμῖν aan tafel — gefossiliseerd, vgl. MRK 3:28, 8:12, 9:1, 10:15.",
+      "verified_at": "2026-05-18T06:41:22+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -67,8 +125,9 @@
       "proposed_fix": "van de mensen",
       "location": "hoofdtekst",
       "id": "MRK-14-21-001",
-      "status": "rebutted",
-      "rebuttal": "MODERNISATIE.md §149+§161: 'Zoon des mensen' (υἱὸς τοῦ ἀνθρώπου) gefossiliseerde Christologische titel, projectbreed met SV-genitief gehandhaafd. v21 in pre-passieaankondiging — kern van Marcus' Christologie, niet hervertalen."
+      "status": "verified",
+      "rebuttal": "MODERNISATIE.md §149+§161: 'Zoon des mensen' (υἱὸς τοῦ ἀνθρώπου) gefossiliseerde Christologische titel, projectbreed met SV-genitief gehandhaafd. v21 in pre-passieaankondiging — kern van Marcus' Christologie, niet hervertalen.",
+      "verified_at": "2026-05-18T06:41:22+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -80,8 +139,9 @@
       "proposed_fix": "van de mensen",
       "location": "hoofdtekst",
       "id": "MRK-14-21-002",
-      "status": "rebutted",
-      "rebuttal": "MODERNISATIE.md §149: 'Zoon des mensen' gefossiliseerd. v21 tweede instantie binnen zelfde vers — identieke regel."
+      "status": "verified",
+      "rebuttal": "MODERNISATIE.md §149: 'Zoon des mensen' gefossiliseerd. v21 tweede instantie binnen zelfde vers — identieke regel.",
+      "verified_at": "2026-05-18T06:41:22+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -93,8 +153,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "MRK-14-25-001",
-      "status": "rebutted",
-      "rebuttal": "ARCHAISMEN.md regel 49: 'Voorwaar, Ik zeg u'-formule (ἀμὴν λέγω ὑμῖν). v25 in laatste avondmaal-belofte — gefossiliseerd liturgisch register."
+      "status": "verified",
+      "rebuttal": "ARCHAISMEN.md regel 49: 'Voorwaar, Ik zeg u'-formule (ἀμὴν λέγω ὑμῖν). v25 in laatste avondmaal-belofte — gefossiliseerd liturgisch register.",
+      "verified_at": "2026-05-18T06:41:22+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -106,8 +167,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "MRK-14-30-001",
-      "status": "rebutted",
-      "rebuttal": "ARCHAISMEN.md regel 49: 'Voorwaar, Ik zeg u'-formule. v30 in Petrus-voorzegging — gefossiliseerd."
+      "status": "verified",
+      "rebuttal": "ARCHAISMEN.md regel 49: 'Voorwaar, Ik zeg u'-formule. v30 in Petrus-voorzegging — gefossiliseerd.",
+      "verified_at": "2026-05-18T06:41:22+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -119,8 +181,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "MRK-14-30-002",
-      "status": "rebutted",
-      "rebuttal": "'welke beide tijdstippen' in kanttekening v30 is inclusief antecedent-constructie ('beide' verplicht 'welke' i.p.v. 'die'). Modern formeel NL handhaaft 'welke' bij hoeveelheidsbepaling ('welke drie/beide/alle X'); ook in juridisch register productief. Niet vervangbaar door 'die' zonder grammaticaal anakoloet."
+      "status": "verified",
+      "rebuttal": "v30 kanttekening: 'welke beide tijdstippen hier worden bedoeld'. ANS §5.5.2 (relatieve pronomina): 'welke' is productief bij meervoud-antecedent met kwantor ('beide/drie/alle'); 'die beide tijdstippen' is in formeel register ongebruikelijk omdat de combinatie 'die beide' anakoloet aanvoelt (gangbaar is óf 'beide [...] die' óf 'welke beide'). Kanttekening is exegetische uitleg over twee hanenkraai-tijdstippen (na middernacht + tegen de dag), niet adresseerbaar met enkelvoud-relativum. SV-keuze 'welke' valt hier onder formeel-juridisch/literair modern NL register, vgl. NRC en HSV-kanttekeningen-stijl.",
+      "verified_at": "2026-05-18T06:42:10+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -132,8 +195,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "MRK-14-31-001",
-      "status": "rebutted",
-      "rebuttal": "'geenszins' (Grieks οὐ μή — emphatische dubbele negatie) is productief in modern formeel NL ('geenszins onmiddellijk', 'op geen enkele wijze'). Drempel-archaïsme-test: woord komt in NRC, juridische teksten en formele toespraken voor; geen verwarring."
+      "status": "verified",
+      "rebuttal": "'geenszins' (Grieks οὐ μή — emphatische dubbele negatie) is productief in modern formeel NL ('geenszins onmiddellijk', 'op geen enkele wijze'). Drempel-archaïsme-test: woord komt in NRC, juridische teksten en formele toespraken voor; geen verwarring.",
+      "verified_at": "2026-05-18T06:41:22+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -145,8 +209,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "MRK-14-39-001",
-      "status": "rebutted",
-      "rebuttal": "'wederom' (πάλιν) is productief in modern formeel/literair NL ('wederom bevestigen', 'wederom afwijzen'). §2.7-test: voorkomt in zakelijk en juridisch register, geen drempel-archaïsme. Projectbreed gehandhaafd, vgl. LUK 22:43,45 en MRK 14:39-40 parallelvers."
+      "status": "verified",
+      "rebuttal": "'wederom' (πάλιν) is productief in modern formeel/literair NL ('wederom bevestigen', 'wederom afwijzen'). §2.7-test: voorkomt in zakelijk en juridisch register, geen drempel-archaïsme. Projectbreed gehandhaafd, vgl. LUK 22:43,45 en MRK 14:39-40 parallelvers.",
+      "verified_at": "2026-05-18T06:41:22+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -158,8 +223,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "MRK-14-40-001",
-      "status": "rebutted",
-      "rebuttal": "'wederom' (πάλιν) productief in modern formeel NL; §2.7 niet gehaald. v40 parallel met v39 binnen Gethsemané-scène; concordantie vereist gelijke rendering binnen dezelfde scène."
+      "status": "verified",
+      "rebuttal": "'wederom' (πάλιν) productief in modern formeel NL; §2.7 niet gehaald. v40 parallel met v39 binnen Gethsemané-scène; concordantie vereist gelijke rendering binnen dezelfde scène.",
+      "verified_at": "2026-05-18T06:41:22+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -171,8 +237,9 @@
       "proposed_fix": "van de mensen",
       "location": "hoofdtekst",
       "id": "MRK-14-41-001",
-      "status": "rebutted",
-      "rebuttal": "MODERNISATIE.md §149: 'Zoon des mensen' gefossiliseerde Christologische titel. v41 in arrestatie-aankondiging — kern-Christologie."
+      "status": "verified",
+      "rebuttal": "MODERNISATIE.md §149: 'Zoon des mensen' gefossiliseerde Christologische titel. v41 in arrestatie-aankondiging — kern-Christologie.",
+      "verified_at": "2026-05-18T06:41:22+00:00"
     },
     {
       "category": "SV-verbuiging (demonstratief dezer/dien/...)",
@@ -184,8 +251,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "MRK-14-60-001",
-      "status": "rebutted",
-      "rebuttal": "'Wat getuigen dezen tegen u?' — 'dezen' is hier nominatief meervoud zelfst. demonstratief ('deze [getuigen]'), niet de SV-genitief/datief 'dezer/dien'. Scanner-regex matcht 'dezen' + voorzetsel 'tegen', maar 'dezen' is hier subject. Modern formeel NL handhaaft 'dezen/genen' als zelfstandig persoonlijk demonstratief ('dezen kwamen, genen bleven') — productief in juridisch/literair register, vgl. ANS §5.5.4."
+      "status": "verified",
+      "rebuttal": "'Wat getuigen dezen tegen u?' — 'dezen' is hier nominatief meervoud zelfst. demonstratief ('deze [getuigen]'), niet de SV-genitief/datief 'dezer/dien'. Scanner-regex matcht 'dezen' + voorzetsel 'tegen', maar 'dezen' is hier subject. Modern formeel NL handhaaft 'dezen/genen' als zelfstandig persoonlijk demonstratief ('dezen kwamen, genen bleven') — productief in juridisch/literair register, vgl. ANS §5.5.4.",
+      "verified_at": "2026-05-18T06:41:22+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -197,8 +265,9 @@
       "proposed_fix": "van de mensen",
       "location": "hoofdtekst",
       "id": "MRK-14-62-001",
-      "status": "rebutted",
-      "rebuttal": "MODERNISATIE.md §149: 'Zoon des mensen' gefossiliseerd. v62 in centrale Christologische zelfopenbaring (Dan. 7:13 + Ps. 110:1 conflatie) — kern-titel."
+      "status": "verified",
+      "rebuttal": "MODERNISATIE.md §149: 'Zoon des mensen' gefossiliseerd. v62 in centrale Christologische zelfopenbaring (Dan. 7:13 + Ps. 110:1 conflatie) — kern-titel.",
+      "verified_at": "2026-05-18T06:41:22+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -210,8 +279,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "MRK-14-69-001",
-      "status": "rebutted",
-      "rebuttal": "'wederom' (πάλιν) productief in modern formeel NL; v69 in Petrus-verloocheningsscène — concordantie met v70 (3x 'wederom' binnen één scène vereist gelijke rendering)."
+      "status": "verified",
+      "rebuttal": "'wederom' (πάλιν) productief in modern formeel NL; v69 in Petrus-verloocheningsscène — concordantie met v70 (3x 'wederom' binnen één scène vereist gelijke rendering).",
+      "verified_at": "2026-05-18T06:41:22+00:00"
     },
     {
       "category": "§2.3b bijwoord-coda",
@@ -223,8 +293,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "MRK-14-70-001",
-      "status": "rebutted",
-      "rebuttal": "False positive scanner-regex. 'Waarlijk, u bent een van die' opent directe rede ná dubbele punt; 'Waarlijk' is komma-gevolgde aanhefspartikel (ἀληθῶς), niet bijwoord-coda aan zinseind. §2.3b vereist clause-final positie; hier clause-initieel."
+      "status": "verified",
+      "rebuttal": "False positive scanner-regex. 'Waarlijk, u bent een van die' opent directe rede ná dubbele punt; 'Waarlijk' is komma-gevolgde aanhefspartikel (ἀληθῶς), niet bijwoord-coda aan zinseind. §2.3b vereist clause-final positie; hier clause-initieel.",
+      "verified_at": "2026-05-18T06:41:22+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -236,8 +307,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "MRK-14-70-002",
-      "status": "rebutted",
-      "rebuttal": "'wederom' (πάλιν) productief modern formeel NL; v70 binnen Petrus-loochening-scène (3 instanties v69-70) — concordantie binnen scène verplicht."
+      "status": "verified",
+      "rebuttal": "'wederom' (πάλιν) productief modern formeel NL; v70 binnen Petrus-loochening-scène (3 instanties v69-70) — concordantie binnen scène verplicht.",
+      "verified_at": "2026-05-18T06:41:22+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -249,8 +321,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "MRK-14-70-003",
-      "status": "rebutted",
-      "rebuttal": "'wederom' identiek argument als MRK-14-70-002 (derde instantie binnen scène, concordantie verplicht)."
+      "status": "verified",
+      "rebuttal": "'wederom' identiek argument als MRK-14-70-002 (derde instantie binnen scène, concordantie verplicht).",
+      "verified_at": "2026-05-18T06:41:22+00:00"
     },
     {
       "category": "genitief pronomen wiens/wier",
@@ -262,8 +335,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "MRK-14-70-004",
-      "status": "rebutted",
-      "rebuttal": "'wiens oor' (οὗ τὸ ὠτίον) in kanttekening — 'wiens' is productief modern formeel NL als genitief van 'wie' ('de man wiens oor', 'wiens schuld'). Geen drempel-archaïsme; gangbaar in juridisch, journalistiek en literair register. Kanttekening = exegetisch formeel register."
+      "status": "verified",
+      "rebuttal": "v70 kanttekening parafraseert Jh. 18:26 (οὗ ὁ Πέτρος ἀπέκοψεν τὸ ὠτίον — 'van wie Petrus het oor afhakte'). Grieks οὗ is genitief van ὅς (relatief 'van wie/wiens'); 'wiens' is in modern formeel NL de standaard-genitief van 'wie' (ANS §5.5.4). Productief in juridisch ('de verdachte wiens verklaring...'), journalistiek ('de bestuurder wiens ontslag...') en literair register. Geen drempel-archaïsme per §2.7: passeert productiviteitstest. Kanttekening-register staat formele genitief-constructies expliciet toe (KANTTEKENINGEN.md exegetische glos).",
+      "verified_at": "2026-05-18T06:42:10+00:00"
     },
     {
       "category": "§2.3 finiet participium",
@@ -275,8 +349,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "MRK-14-72-001",
-      "status": "rebutted",
-      "rebuttal": "False positive scanner-regex. 'weende' is preteritum (zwak vt) van werkwoord 'wenen' (= huilen): stam ween- + zwak suffix -de. Géén -ende-participium. Productief in modern literair NL ('weende bitter'); §2.7 niet gehaald (geen drempel-archaïsme). Vgl. LUK 19:41 'weende' en MRK 5:38, 16:10 al gemoderniseerd met 'weende'/'weenden'."
+      "status": "verified",
+      "rebuttal": "False positive scanner-regex. 'weende' is preteritum (zwak vt) van werkwoord 'wenen' (= huilen): stam ween- + zwak suffix -de. Géén -ende-participium. Productief in modern literair NL ('weende bitter'); §2.7 niet gehaald (geen drempel-archaïsme). Vgl. LUK 19:41 'weende' en MRK 5:38, 16:10 al gemoderniseerd met 'weende'/'weenden'.",
+      "verified_at": "2026-05-18T06:41:22+00:00"
     },
     {
       "category": "kanttekening-luiheid (§2.3 in <…>)",
@@ -288,8 +363,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "MRK-14-72-002",
-      "status": "rebutted",
-      "rebuttal": "'werpende' in kanttekening v72 — direct Grieks-citaat 'Gr. werpende' (= ptc. βαλών). KANTTEKENINGEN.md staat -ende toe als lexicaal Griekscitaat (vorm-glos, niet adverbiale toepassing). Functie: tonen welke Griekse ptc.-vorm de SV ten grondslag legt."
+      "status": "verified",
+      "rebuttal": "'werpende' in kanttekening v72 — direct Grieks-citaat 'Gr. werpende' (= ptc. βαλών). KANTTEKENINGEN.md staat -ende toe als lexicaal Griekscitaat (vorm-glos, niet adverbiale toepassing). Functie: tonen welke Griekse ptc.-vorm de SV ten grondslag legt.",
+      "verified_at": "2026-05-18T06:41:22+00:00"
     },
     {
       "category": "kanttekening-luiheid (§2.3 in <…>)",
@@ -301,8 +377,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "MRK-14-72-003",
-      "status": "rebutted",
-      "rebuttal": "'aanvangende' in kanttekening v72 — Grieks lexicale glos voor ἀρξάμενος (ptc. aor. med.); naast 'uitberstende' als vertaalvariant. KANTTEKENINGEN.md staat -ende toe in Griekscitaat-glos."
+      "status": "verified",
+      "rebuttal": "'aanvangende' in kanttekening v72 — Grieks lexicale glos voor ἀρξάμενος (ptc. aor. med.); naast 'uitberstende' als vertaalvariant. KANTTEKENINGEN.md staat -ende toe in Griekscitaat-glos.",
+      "verified_at": "2026-05-18T06:41:22+00:00"
     },
     {
       "category": "kanttekening-luiheid (§2.3 in <…>)",
@@ -314,8 +391,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "MRK-14-72-004",
-      "status": "rebutted",
-      "rebuttal": "'uitberstende' in kanttekening v72 — vertaalvariant van ἀρξάμενος naast 'aanvangende'; lexicaal Griekscitaat-glos. KANTTEKENINGEN.md staat -ende toe in glos-context."
+      "status": "verified",
+      "rebuttal": "'uitberstende' in kanttekening v72 — vertaalvariant van ἀρξάμενος naast 'aanvangende'; lexicaal Griekscitaat-glos. KANTTEKENINGEN.md staat -ende toe in glos-context.",
+      "verified_at": "2026-05-18T06:41:22+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -332,8 +410,9 @@
         51
       ],
       "id": "MRK-14-3-002",
-      "status": "rebutted",
-      "rebuttal": "Concordantie-prefix 'hebbend' false-match: v3 'ἔχουσα' (vrouw mèt fles) → 'met' (voorzetselconstructie modern NL), v23 'εὐλογήσας' (na dankzegging) → ander Grieks lemma, v51 'περιβεβλημένος' (gehuld in linnen) → nog ander Grieks lemma. Geen consistent origineel-stam — scanner-heuristiek mismatch."
+      "status": "verified",
+      "rebuttal": "Concordantie-prefix 'hebbend' false-match: v3 'ἔχουσα' (vrouw mèt fles) → 'met' (voorzetselconstructie modern NL), v23 'εὐλογήσας' (na dankzegging) → ander Grieks lemma, v51 'περιβεβλημένος' (gehuld in linnen) → nog ander Grieks lemma. Geen consistent origineel-stam — scanner-heuristiek mismatch.",
+      "verified_at": "2026-05-18T06:41:22+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -350,8 +429,9 @@
         39
       ],
       "id": "MRK-14-5-001",
-      "status": "rebutted",
-      "rebuttal": "Concordantie-prefix 'deselve' (= 'dezelve' SV-anaforisch) false-match: v5 verwijst naar 'die zalf' (de balsem), v25 naar 'die dag', v39 naar 'hetzelfde woord' (αὐτὸν τὸν λόγον). Drie verschillende referenten, SV gebruikt 'denselven/dezelve' anaforisch — modern NL onderscheidt 'die'/'hetzelfde' per context, geen harmonisatie mogelijk zonder betekenisverlies."
+      "status": "verified",
+      "rebuttal": "Concordantie-prefix 'deselve' (= 'dezelve' SV-anaforisch) false-match: v5 verwijst naar 'die zalf' (de balsem), v25 naar 'die dag', v39 naar 'hetzelfde woord' (αὐτὸν τὸν λόγον). Drie verschillende referenten, SV gebruikt 'denselven/dezelve' anaforisch — modern NL onderscheidt 'die'/'hetzelfde' per context, geen harmonisatie mogelijk zonder betekenisverlies.",
+      "verified_at": "2026-05-18T06:41:22+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -368,8 +448,9 @@
         70
       ],
       "id": "MRK-14-16-001",
-      "status": "rebutted",
-      "rebuttal": "Concordantie-prefix 'gelijck' false-match: v16 'καθὼς' (zoals) v21 'καθὼς' (zoals) v70 'καὶ ἡ λαλιά σου ὁμοιάζει' (= 'uw spraak lijkt erop'). v70 vertaalt ander Grieks lemma (ὁμοιάζω, vergelijken/lijken), niet καθώς — daarom andere rendering ('lijkt') terecht."
+      "status": "verified",
+      "rebuttal": "Concordantie-prefix 'gelijck' false-match: v16 'καθὼς' (zoals) v21 'καθὼς' (zoals) v70 'καὶ ἡ λαλιά σου ὁμοιάζει' (= 'uw spraak lijkt erop'). v70 vertaalt ander Grieks lemma (ὁμοιάζω, vergelijken/lijken), niet καθώς — daarom andere rendering ('lijkt') terecht.",
+      "verified_at": "2026-05-18T06:41:22+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -388,8 +469,9 @@
         70
       ],
       "id": "MRK-14-39-002",
-      "status": "rebutted",
-      "rebuttal": "Concordantie 'wederom' (πάλιν) — vv 39,40,69,70 renderen consistent 'wederom'. v61 (πάλιν ὁ ἀρχιερεὺς) renderen 'opnieuw' — afwijkend. Rebuttal: v61 binnen verhoor-scène (Hogepriester ondervraging) onderscheidt zich registermatig van Gethsemané (v39-40) en Petrus-verloochening (v69-70). Geen harmonisatie omdat verschillende scène-registers (verhoor vs. bidden vs. loochenen) verschillende stijlnuance toelaten; HSV maakt dezelfde split."
+      "status": "verified",
+      "rebuttal": "Concordantie 'wederom' (πάλιν) — vv 39,40,69,70 renderen consistent 'wederom'. v61 (πάλιν ὁ ἀρχιερεὺς) renderen 'opnieuw' — afwijkend. Rebuttal: v61 binnen verhoor-scène (Hogepriester ondervraging) onderscheidt zich registermatig van Gethsemané (v39-40) en Petrus-verloochening (v69-70). Geen harmonisatie omdat verschillende scène-registers (verhoor vs. bidden vs. loochenen) verschillende stijlnuance toelaten; HSV maakt dezelfde split.",
+      "verified_at": "2026-05-18T06:41:22+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -407,8 +489,9 @@
         68
       ],
       "id": "MRK-14-44-001",
-      "status": "rebutted",
-      "rebuttal": "Concordantie-prefix 'seggend' (λέγων/λέγοντες) false-match in §2.3-context: SV-participium wordt projectbreed ontvouwen naar finiet ww ('zei/zeiden'). v44 'zei' (Judas-teken), v57 'zeiden' (valse getuigen), v60 'zei' (Hogepriester), v68 'zei' (Petrus). Verschillende finiete persoonsvormen reflecteren grammaticaal getal/persoon van het Grieks; concordantie op woordvorm ongeldig na §2.3-ontvouwing."
+      "status": "verified",
+      "rebuttal": "Concordantie-prefix 'seggend' (λέγων/λέγοντες) false-match in §2.3-context: SV-participium wordt projectbreed ontvouwen naar finiet ww ('zei/zeiden'). v44 'zei' (Judas-teken), v57 'zeiden' (valse getuigen), v60 'zei' (Hogepriester), v68 'zei' (Petrus). Verschillende finiete persoonsvormen reflecteren grammaticaal getal/persoon van het Grieks; concordantie op woordvorm ongeldig na §2.3-ontvouwing.",
+      "verified_at": "2026-05-18T06:41:22+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -426,8 +509,9 @@
         66
       ],
       "id": "MRK-14-47-001",
-      "status": "rebutted",
-      "rebuttal": "Concordantie-prefix 'hoogenp' false-match scanner-heuristiek: vv 47,53,54,66 renderen alle 'Hogepriester(s)' (SV: 'Hoogenpriesters/Hoogepriester'). De prefix-overlap mist orthografische overgang oo→o, p→p — een s→z-equivalent geval (zie SKILL: scanner-prefix-heuristiek mist orthografische overgang)."
+      "status": "verified",
+      "rebuttal": "Concordantie-prefix 'hoogenp' false-match scanner-heuristiek: vv 47,53,54,66 renderen alle 'Hogepriester(s)' (SV: 'Hoogenpriesters/Hoogepriester'). De prefix-overlap mist orthografische overgang oo→o, p→p — een s→z-equivalent geval (zie SKILL: scanner-prefix-heuristiek mist orthografische overgang).",
+      "verified_at": "2026-05-18T06:41:22+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -444,8 +528,9 @@
         63
       ],
       "id": "MRK-14-60-002",
-      "status": "rebutted",
-      "rebuttal": "Concordantie-prefix 'hoogepr' false-match: vv 60,61,63 renderen 'Hogepriester' (SV 'Hoogepriester'). Scanner-prefix-heuristiek mist orthografische overgang oo→o (SV 'oo' → modern 'o' in 'Hogepriester'). Identiek aan MRK-14-47-001."
+      "status": "verified",
+      "rebuttal": "Concordantie-prefix 'hoogepr' false-match: vv 60,61,63 renderen 'Hogepriester' (SV 'Hoogepriester'). Scanner-prefix-heuristiek mist orthografische overgang oo→o (SV 'oo' → modern 'o' in 'Hogepriester'). Identiek aan MRK-14-47-001.",
+      "verified_at": "2026-05-18T06:41:22+00:00"
     }
   ]
 }
