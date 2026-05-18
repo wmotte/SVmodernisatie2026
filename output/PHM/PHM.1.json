@@ -100,6 +100,46 @@
           "reason": "nochtans is drempel-archaisme (MODERNISATIE 2.7); SV-haakje markeert NL-invoeging die in het Grieks ontbreekt, dus modernisatie van de inhoud is consistent met haken-conventie"
         }
       ]
+    },
+    {
+      "verse_number": 10,
+      "original": "$Coloss. 4.9.$ Ick bidde u [dan] voor <Gr. mijn kint. siet 1.Tim. 1.2, 18. 2.Timoth. 1. vers 2. ende 2.1.> mijnen sone, $1.Corinth. 4.15. Galat. 4.19.$ den welcken ick in mijne banden <Of, gewonnen, gegenereert, Dat is, door ’t Euangelium hebbe bekeert.> hebbe geteelt [namelick] Onesimus.",
+      "modernized": "$Ko. 4:9$ Ik bid u [dan] voor <Grieks: mijn kind. Zie $1Tm. 1:2,18; 2Tm. 1:2; 2:1$.> mijn zoon, $1Kor. 4:15; Gl. 4:19$ die ik in mijn banden <Of, gewonnen, gegenereerd, Dat is, door het Evangelie heb bekeerd.> heb verwekt [namelijk] Onesimus.",
+      "source_text": "παρακαλῶ σε περὶ τοῦ ἐμοῦ τέκνου, ὃν ἐγέννησα ἐν τοῖς δεσμοῖς μου, Ὀνήσιμον,",
+      "generated_at": "2026-05-18T13:45:51.081163Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "geteelt -> verwekt",
+          "context": "hoofdtekst",
+          "choice": "verwekt",
+          "alternatives": [
+            "geteeld",
+            "voortgebracht"
+          ],
+          "reason": "SV-geteelt (ἐγέννησα) klinkt modern verkeerd over een mens; verwekt is staand bijbels Nederlands voor geestelijke generatie (1Kor. 4:15)"
+        }
+      ]
+    },
+    {
+      "verse_number": 11,
+      "original": "Die eertijts <Namelick, door sijne ontrouwigheyt, als hy van u wech liep, ende u yet ontdroegh.> u onnut was, maer nu u ende my <Het schijnt dat den Apostel siet op sijnen name Onesimus, waer van siet vers 20. welcken hy wel te voren niet en hadde betracht, maer dat nu doet.> seer nuttigh: den welcken ick weder gesonden hebbe:",
+      "modernized": "Die eertijds <Namelijk, door zijn ontrouw, toen hij van u wegliep en u iets ontvreemdde.> u onnut was, maar nu u en mij <Het schijnt dat de Apostel doelt op zijn naam Onesimus, waarvan zie vers 20, die hij wel tevoren niet had waargemaakt, maar dat nu doet.> zeer nuttig: die ik heb teruggezonden:",
+      "source_text": "τόν ποτέ σοι ἄχρηστον, νυνὶ δὲ σοὶ καὶ ἐμοὶ εὔχρηστον, ὃν ἀνέπεμψα·",
+      "generated_at": "2026-05-18T13:46:32.522322Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 12,
+      "original": "Doch ghy, neemt hem, dat is, <Dat is, dien ick van herten lief hebbe: Ofte, die my soo lief is als mijn eygen herte.> mijne ingewanden, [weder] <Namel. in genade, ende in uwen dienst.> aen:",
+      "modernized": "Maar u, neem hem, dat is, <Dat is, die ik van harte liefheb: Of, die mij zo lief is als mijn eigen hart.> mijn ingewanden, [weer] <Namelijk, in genade, en in uw dienst.> aan:",
+      "source_text": "σὺ δὲ αὐτόν, τοῦτ’ ἔστι τὰ ἐμὰ σπλάγχνα, προσλαβοῦ·",
+      "generated_at": "2026-05-18T13:47:00.543735Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ],
   "epilogue": {
