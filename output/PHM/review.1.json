@@ -1,0 +1,111 @@
+{
+  "book": "PHM",
+  "chapter": 1,
+  "reviewed_at": "2026-05-18T14:22:50+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-18T14:22:50+00:00",
+      "mode": "scan",
+      "issues_total": 6
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-18T14:24:43+00:00",
+      "mode": "in-context-fix-and-rebut",
+      "actions": [
+        "PHM-1-9-001:fixed",
+        "PHM-1-14-001:fixed",
+        "PHM-1-17-001:rebutted",
+        "PHM-1-18-001:rebutted",
+        "PHM-1-19-001:fixed",
+        "PHM-1-10-001:rebutted"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 9,
+      "severity": "hard",
+      "quote_modernized": "Of, om der liefde wil. Dit kan verstaan worden …",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'der liefde' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de liefde' of 'van het liefde', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de liefde",
+      "location": "kanttekening",
+      "id": "PHM-1-9-001",
+      "status": "fixed",
+      "fix_note": "'om der liefde wil' (fossiele genitief in kanttekening, SV §1657-vorm) gemoderniseerd naar 'ter wille van de liefde'. Productieve modern-NL uitdrukking 'ter wille van' behoudt de causale-instrumentale lading van Gr. διὰ τὴν ἀγάπην (PHM 1:9)."
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 14,
+      "severity": "soft",
+      "quote_modernized": "…oedvinden niets willen doen, opdat   uw weldadigheid niet zou zijn als naar   dw…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'weldadigheid' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "PHM-1-14-001",
+      "status": "fixed",
+      "fix_note": "'weldadigheid' → 'weldaad' (Gr. τὸ ἀγαθόν σου, kanttekening expliceert 'uw goed'). 'Weldaad' is productief modern NL; 'weldadigheid' is zachter en archaïscher. §2.7-test gehaald door substitutie naar concreet zelfst.naamwoord (PHM 1:14)."
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 17,
+      "severity": "soft",
+      "quote_modernized": "Indien u mij dan houdt voor   een metgez…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "PHM-1-17-001",
+      "status": "rebutted",
+      "rebuttal": "'indien' is in modern formeel/juridisch/zakelijk Nederlands volledig productief (Van Dale, Algemene Voorwaarden-genre). §2.7 productiviteitstest slaagt: 'indien levering uitblijft', 'indien van toepassing' etc. zijn courant. Geen drempel-archaïsme; SV-keuze blijft staan in PHM 1:17 conditioneel ('εἰ οὖν ἐμὲ ἔχεις κοινωνόν')."
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 18,
+      "severity": "soft",
+      "quote_modernized": "En indien hij u   in iets onrecht heeft ged…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "PHM-1-18-001",
+      "status": "rebutted",
+      "rebuttal": "'indien' is productief modern formeel NL (zie rebuttal PHM-1-17-001). PHM 1:18 'εἰ δέ τι ἠδίκησέ σε' = conditioneel 'als/indien hij u in iets onrecht heeft gedaan'; 'indien' bewaart de juridische toon van een schuldsom-clausule. §2.7-productiviteitstest gehaald."
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 19,
+      "severity": "soft",
+      "quote_modernized": "…u tot Christus bekeerd en behouden heb: voor welke grote weldaad u niet alleen u…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "PHM-1-19-001",
+      "status": "fixed",
+      "fix_note": "'voor welke grote weldaad' (zinscontinuator-welke in kanttekening) → 'waarvoor'. ARCHAISMEN.md: modern NL gebruikt 'waarvoor' voor 'voor welke' bij verwijzing naar antecedent. Inhoud kanttekening blijft; zinsbouw moderner (PHM 1:19)."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 10,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'welcken' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        10,
+        11,
+        13
+      ],
+      "id": "PHM-1-10-001",
+      "status": "rebutted",
+      "rebuttal": "Concordantie-drift soft-flag: origineel-stam 'welcken' in PHM 1:10,11,13 dekt drie syntactisch verschillende contexten — v10 'welcken ick geteelt hebbe' (zoon-antecedent, relatieve bijzin: 'die ik heb verwekt'), v11 'welcken ick wedergesonden hebbe' (object-antecedent: 'die ik heb teruggezonden'), v13 'welcken ick wel had willen by my houden' (object-antecedent: 'die ik wel bij mij had willen houden'). Alle drie renderen als 'die'-relatief in modern NL — concordantie is consistent ('welcken' → 'die'); prefix-overlap-heuristiek mist orthografische overgang welcken→die."
+    }
+  ]
+}
