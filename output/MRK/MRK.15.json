@@ -34,6 +34,33 @@
       "generated_at": "2026-05-18T10:00:53.492671Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 4,
+      "original": "$Matth. 27.13. Ioan. 19.10.$ Ende Pilatus vraeghde hem wederom, seggende, En antwoort ghy niet? Siet, hoe vele [saken] sy tegen u getuygen.",
+      "modernized": "$Mt. 27:13; Jh. 19:10$ En Pilatus vroeg hem opnieuw, en zei: Antwoordt u niets? Zie, hoeveel [zaken] zij tegen u getuigen.",
+      "source_text": "ὁ δὲ Πιλάτος πάλιν ἐπηρώτησεν αὐτόν, λέγων, Οὐκ ἀποκρίνῃ οὐδέν; ἴδε, πόσα σου καταμαρτυροῦσιν.",
+      "generated_at": "2026-05-18T10:05:28.946656Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 5,
+      "original": "Ende Iesus en heeft <Gr. niet meer yet. De reden van dit swijgen siet Matth. cap. 27. vers 14.> niet meer geantwoort, soo dat Pilatus hem verwonderde.",
+      "modernized": "En Jezus heeft <Grieks: niets meer. De reden van dit zwijgen, zie $Mt. 27:14$.> niets meer geantwoord, zodat Pilatus zich verwonderde.",
+      "source_text": "ὁ δὲ Ἰησοῦς οὐκέτι οὐδὲν ἀπεκρίθη, ὥστε θαυμάζειν τὸν Πιλάτον.",
+      "generated_at": "2026-05-18T10:05:55.021404Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 6,
+      "original": "$Matth. 27.15. Luce 23.17. Ioan. 18.39.$ Ende <Of, op elck feest, namelick van Paesschen. siet Ioan. 18. vers 39.> op het feest liet hy haer eenen gevangenen los, wien sy oock begeerden.",
+      "modernized": "$Mt. 27:15; Lk. 23:17; Jh. 18:39$ En <Of, op elk feest, namelijk van Pasen, zie $Jh. 18:39$.> op het feest liet hij hun één gevangene los, die zij ook begeerden.",
+      "source_text": "Κατὰ δὲ ἑορτὴν ἀπέλυεν αὐτοῖς ἕνα δέσμιον, ὅνπερ ᾐτοῦντο.",
+      "generated_at": "2026-05-18T10:06:49.687781Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
