@@ -88,6 +88,33 @@
       "generated_at": "2026-05-18T10:12:06.242666Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 10,
+      "original": "(Want hy wist, dat hem de Overpriesters door nijdt overgelevert hadden)",
+      "modernized": "(Want hij wist, dat de Overpriesters hem uit nijd overgeleverd hadden)",
+      "source_text": "ἐγίνωσκε γὰρ ὅτι διὰ φθόνον παραδεδώκεισαν αὐτὸν οἱ ἀρχιερεῖς.",
+      "generated_at": "2026-05-18T10:17:02.012739Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 11,
+      "original": "$Matth. 27.20. Luce 23.18. Ioan. 18.40. Actor. 3.14.$ Maer de Overpriesters beweeghden de schare, dat hy haer liever Barabbam soude los laten.",
+      "modernized": "$Mt. 27:20; Lk. 23:18; Jh. 18:40; Hd. 3:14$ Maar de Overpriesters hitsten de schare op, dat hij hun liever Barabbas zou loslaten.",
+      "source_text": "οἱ δὲ ἀρχιερεῖς ἀνέσεισαν τὸν ὄχλον, ἵνα μᾶλλον τὸν Βαραββᾶν ἀπολύσῃ αὐτοῖς.",
+      "generated_at": "2026-05-18T10:17:26.689624Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 12,
+      "original": "Ende Pilatus antwoordende seyde wederom tot haer, Wat wilt ghy dan dat ick [met hem] doen sal, dien ghy een Koningh der Ioden noemt?",
+      "modernized": "En Pilatus antwoordde opnieuw en zei tot hen: Wat wilt u dan dat ik [met hem] doen zal, die u een Koning der Joden noemt?",
+      "source_text": "ὁ δὲ Πιλάτος ἀποκριθεὶς πάλιν εἶπεν αὐτοῖς, Τί οὖν θέλετε ποιήσω ὃν λέγετε βασιλέα τῶν Ἰουδαίων;",
+      "generated_at": "2026-05-18T10:17:51.554729Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
