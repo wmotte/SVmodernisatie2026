@@ -8,8 +8,6 @@
   <p><a href="parallelbijbel/LUK_voorbeeld.pdf">Open de parallelbijbel-PDF van Lucas.</a></p>
 </object>
 
-<p align="center"><em>Markus (1–14, in opbouw)</em></p>
-
 <object data="parallelbijbel/MRK_voorbeeld.pdf" type="application/pdf" width="100%" height="900">
   <p><a href="parallelbijbel/MRK_voorbeeld.pdf">Open de parallelbijbel-PDF van Markus.</a></p>
 </object>
@@ -17,7 +15,7 @@
 ---
 
 **Modernisering van de Statenvertaling 1657 (2e druk) — met maximaal
-behoud van de SV-eigenheid.**
+behoud van de SV-eigenheid (100% gedaan door taalmodellen).**
 
 > **Lees eerst [`MODERNISATIE.md`](MODERNISATIE.md).** Daar staat
 > expliciet *wat* modernisatie in dit project is, *wat het niet is*,
