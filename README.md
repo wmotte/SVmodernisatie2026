@@ -17,8 +17,7 @@
 ---
 
 **Modernisering van de Statenvertaling 1657 (2e druk) — met maximaal
-behoud van de SV-eigenheid.** Eerste focus: het evangelie naar Lucas
-(24 hoofdstukken; de invoer staat klaar in `input.sv/LUK/`).
+behoud van de SV-eigenheid.**
 
 > **Lees eerst [`MODERNISATIE.md`](MODERNISATIE.md).** Daar staat
 > expliciet *wat* modernisatie in dit project is, *wat het niet is*,
