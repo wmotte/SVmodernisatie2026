@@ -37,6 +37,11 @@
 
 \usepackage{microtype}
 \usepackage{ragged2e}
+
+% Nederlandse afbreekpatronen (anders splitst LuaLaTeX als Engels en
+% breekt 'dienstmaagden' verkeerd af als 'dien-stmaagden').
+\usepackage{polyglossia}
+\setdefaultlanguage{dutch}
 \usepackage{xcolor}
 \definecolor{accent}{HTML}{3B5BA5} % marine blauw, iets lichter
 \usepackage[hidelinks,hyperfootnotes=false]{hyperref}
