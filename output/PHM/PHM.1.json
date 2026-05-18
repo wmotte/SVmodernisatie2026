@@ -61,6 +61,45 @@
       "generated_at": "2026-05-18T13:35:50.915726Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 7,
+      "original": "Want wy hebben groote <Gr. charan, Dat is, vreughde. Waer voor andere lesen charin, Dat is, aengenaemheyt.> vreughde ende vertroostinge over uwe liefde, dat <Dat is, de herten. Hebr. Siet 2.Corinth. 6.12. ende 7.15. ende hier versen 12, 20. 1.Ioan. 3.17.> de ingewanden der heyligen <Gr. tot ruste zijn gebracht, namelick, door uwe weldadigheyt aen haer betoont.> verquickt zijn geworden door u, <Dit vriendelick woort doet hy daer by, om daer mede uyt te drucken de grootheyt van sijne genegentheyt tot hem.> broeder.",
+      "modernized": "Want wij hebben grote <Grieks: charan, dat is, vreugde. Waarvoor anderen lezen charin, dat is, aangenaamheid.> vreugde en vertroosting over uw liefde, dat <Dat is, de harten. Hebreeuws. Zie $2Kor. 6:12; 7:15$. en hier verzen 12, 20; $1Jh. 3:17$.> de ingewanden van de heiligen <Grieks: tot rust gebracht zijn, namelijk door uw weldadigheid aan hen betoond.> verkwikt zijn door u, <Dit vriendelijke woord voegt hij erbij, om daarmee de grootheid van zijn genegenheid tot hem uit te drukken.> broeder.",
+      "source_text": "χαρὰν γὰρ ἔχομεν πολλὴν καὶ παράκλησιν ἐπὶ τῇ ἀγάπῃ σου, ὅτι τὰ σπλάγχνα τῶν ἁγίων ἀναπέπαυται διὰ σοῦ, ἀδελφέ.",
+      "generated_at": "2026-05-18T13:40:15.818243Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 8,
+      "original": "Daerom hoewel ick groote vrymoedigheyt hebbe <D. van wegen mijn Apostel-ampt, daer in my de Heere Christus gestelt heeft, ende ’twelck Christus met sulcke autoriteyt voorsien heeft.> in Christo om u te bevelen het gene betamelick is:",
+      "modernized": "Daarom, hoewel ik grote vrijmoedigheid heb <Dat is, vanwege mijn Apostelambt, waarin de Heere Christus mij gesteld heeft, en waaraan Christus zulk gezag verleend heeft.> in Christus om u te bevelen wat betamelijk is:",
+      "source_text": "Διὸ πολλὴν ἐν Χριστῷ παρρησίαν ἔχων ἐπιτάσσειν σοι τὸ ἀνῆκον,",
+      "generated_at": "2026-05-18T13:40:53.751230Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 9,
+      "original": "Soo bidde ick [nochtans] liever <Of, om der liefde wille. Dit kan verstaen worden ofte van de liefde Philemonis tot Paulum, ofte Pauli tot hem, het welck ’t waerschijnlickste is. Want dese liefde wort gestelt tegen de autoriteyt.> door de liefde, daer ick soodanigh een ben, te weten Paulus, een oudt man, ende nu oock <Siet vers 1.> een gevangen Iesu Christi.",
+      "modernized": "Zo bid ik [toch] liever <Of, om der liefde wil. Dit kan verstaan worden of van de liefde van Filemon tot Paulus, of van Paulus tot hem, wat het waarschijnlijkst is. Want deze liefde wordt gesteld tegenover het gezag.> door de liefde, daar ik zo iemand ben, namelijk Paulus, een oud man, en nu ook <Zie vers 1.> een gevangene van Jezus Christus.",
+      "source_text": "διὰ τὴν ἀγάπην μᾶλλον παρακαλῶ, τοιοῦτος ὢν ὡς Παῦλος πρεσβύτης, νυνὶ δὲ καὶ δέσμιος Ἰησοῦ Χριστοῦ.",
+      "generated_at": "2026-05-18T13:41:42.772440Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "[nochtans] -> [toch]",
+          "context": "hoofdtekst, SV-haakje",
+          "choice": "inhoud van [] gemoderniseerd, haken behouden",
+          "alternatives": [
+            "[nochtans] laten staan"
+          ],
+          "reason": "nochtans is drempel-archaisme (MODERNISATIE 2.7); SV-haakje markeert NL-invoeging die in het Grieks ontbreekt, dus modernisatie van de inhoud is consistent met haken-conventie"
+        }
+      ]
     }
   ],
   "epilogue": {
