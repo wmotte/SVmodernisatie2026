@@ -1,0 +1,269 @@
+{
+  "book": "MRK",
+  "chapter": 5,
+  "reviewed_at": "2026-05-17T04:35:05+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-17T04:22:29+00:00",
+      "mode": "scan",
+      "issues_total": 11
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-17T04:33:42+00:00",
+      "mode": "in_context_review",
+      "issues_added": 2,
+      "fixed": 6,
+      "rebutted": 7
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-05-17T04:33:46+00:00",
+      "mode": "verify",
+      "actions": [
+        "MRK-5-13-001: verified",
+        "MRK-5-21-001: verified",
+        "MRK-5-22-001: verified",
+        "MRK-5-30-001: rebuttal verified",
+        "MRK-5-30-002: rebuttal verified",
+        "MRK-5-32-001: rebuttal verified",
+        "MRK-5-2-001: verified",
+        "MRK-5-9-001: rebuttal verified",
+        "MRK-5-11-001: rebuttal verified",
+        "MRK-5-14-001: rebuttal verified",
+        "MRK-5-15-001: rebuttal verified",
+        "MRK-5-22-002: verified"
+      ]
+    },
+    {
+      "pass": 4,
+      "ran_at": "2026-05-17T04:34:08+00:00",
+      "mode": "verify",
+      "actions": [
+        "MRK-5-17-001: verified"
+      ]
+    },
+    {
+      "pass": 5,
+      "ran_at": "2026-05-17T04:35:05+00:00",
+      "mode": "verify",
+      "actions": []
+    }
+  ],
+  "issues": [
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 13,
+      "severity": "soft",
+      "quote_modernized": "…t is, in het meer dat omtrent Gadara was, hetwelk voor de Galilese zee zelf word…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'hetwelk' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": "'hetwelk' -> 'dat' (relativum voor neutrum 'meer'); kanttekening v13.",
+      "location": "kanttekening",
+      "id": "MRK-5-13-001",
+      "status": "verified",
+      "fix_note": "Kanttekening v13 'hetwelk voor de Galilese zee zelf wordt gehouden' -> 'dat voor de Galilese zee zelf wordt gehouden'.",
+      "verified_at": "2026-05-17T04:33:46+00:00"
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 21,
+      "severity": "soft",
+      "quote_modernized": "  En toen Jezus wederom in het schip overgevaren was naa…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'wederom' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": "'wederom' -> 'weer' (drempel-archaïsme §2.7; faalt productiviteitstest).",
+      "location": "hoofdtekst",
+      "id": "MRK-5-21-001",
+      "status": "verified",
+      "fix_note": "v21: 'wederom in het schip overgevaren was' -> 'weer in het schip overgevaren was'.",
+      "verified_at": "2026-05-17T04:33:46+00:00"
+    },
+    {
+      "category": "SV-verbuiging (demonstratief dezer/dien/...)",
+      "verse": 22,
+      "severity": "hard",
+      "quote_modernized": "Dezen waren als Kerkenraden over de Syna…",
+      "rule_reference": "ARCHAISMEN.md (SV-verbuigingen)",
+      "explanation": "'Dezen waren' — verbogen demonstratief (SV-genitief/datief). Modern Nederlands: 'deze' / 'die' / 'in deze ...' / 'op die ...'. Gefossiliseerde uitdrukkingen ('dezer dagen', 'te dien einde') zijn whitelist; rebut zo nodig met register-argument.",
+      "proposed_fix": "'Dezen waren' -> 'Zij waren' (nominatief-meervoud verbogen demonstratief; antecedent 'Oversten der Synagoge').",
+      "location": "kanttekening",
+      "id": "MRK-5-22-001",
+      "status": "verified",
+      "fix_note": "Kanttekening v22: 'Dezen waren als Kerkenraden' -> 'Zij waren als Kerkenraden'.",
+      "verified_at": "2026-05-17T04:33:46+00:00"
+    },
+    {
+      "category": "§2.3b bijwoord-coda",
+      "verse": 30,
+      "severity": "soft",
+      "quote_modernized": "En onmiddellijk, toen Jezus in zichzelf bem…",
+      "rule_reference": "MODERNISATIE.md §2.3b",
+      "explanation": "'onmiddellijk,' aan zinseind — verifieer of dit bijwoord niet als coda achteraf is blijven hangen ('wandelende … onberispelick' → 'wandelden onberispelijk in …').",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "MRK-5-30-001",
+      "status": "verified",
+      "rebuttal": "v30: 'En onmiddellijk, toen Jezus in zichzelf bemerkte ...' — het bijwoord (nu 'meteen' na concordantie-harmonisatie εὐθέως→'meteen') staat aan ZINSBEGIN als temporele aanloop, gevolgd door een 'toen'-bijzin. Dat is geen achteraan blijvende coda zoals §2.3b beschrijft ('wandelende ... onberispelijk' aan zinseind). Het scanner-criterium (`…lijk[.,;:]`) raakt deze positie via aaneenlopende komma's, maar de §2.3b-strekking betreft zin-finaal afhangende bijwoorden, niet kop-bijwoorden.",
+      "verified_at": "2026-05-17T04:33:46+00:00"
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 30,
+      "severity": "soft",
+      "quote_modernized": "van hem was uitgegaan",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'van hem was uitgegaan' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "MRK-5-30-002",
+      "status": "verified",
+      "rebuttal": "v30: de kanttekening biedt TWEE alternatieve lezingen van τὴν ἐξ αὐτοῦ δύναμιν ἐξελθοῦσαν: (1) 'de werking die ... was gebeurd' (kracht als datief-object van bemerken) en (2) 'dat deze kracht van hem was uitgegaan' (kracht als subject van uitgaan). De woordelijke overlap met de hoofdtekst is intrinsiek omdat optie (2) precies de hoofdtekst-parsering bevestigt — dit is geen parafrastische herhaling maar een interpretatieve disjunctie ('Of, ...'). KANTTEKENINGEN.md redundantie-regel geldt voor inhoudsloze echo, niet voor expliciete alternative-translation-glossen die de andere lezing nadrukkelijk introduceren met 'Of, ...'.",
+      "verified_at": "2026-05-17T04:33:46+00:00"
+    },
+    {
+      "category": "§2.3b infinitief met nageschoven object",
+      "verse": 32,
+      "severity": "soft",
+      "quote_modernized": "En hij zag rondom, om haar te zien die dat gedaan had.",
+      "rule_reference": "MODERNISATIE.md §2.3b",
+      "explanation": "'om … te zien die dat gedaan had' — Latinaat-woordvolgorde; in modern NL gaat het object vóór de infinitief: 'om <object> te zien'.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "MRK-5-32-001",
+      "status": "verified",
+      "rebuttal": "v32: 'om haar te zien die dat gedaan had' — 'die dat gedaan had' is geen NAGESCHOVEN OBJECT bij 'zien' (object is 'haar', τὴν τοῦτο ποιήσασαν), maar een RESTRICTIEVE RELATIEVE BIJZIN bij 'haar'. In modern NL is een relatieve bijzin na de infinitief-constructie volkomen idiomatisch ('om haar te ontmoeten die dit gedaan heeft'). §2.3b geldt voor Latinaat-woordvolgorde 'om X te VERB OBJECT' waar OBJECT vóór VERB moet — dat patroon is hier niet aanwezig, want 'die dat gedaan had' bepaalt 'haar', niet 'zien'.",
+      "verified_at": "2026-05-17T04:33:46+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 2,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'terston' in 6 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 6 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": "Harmoniseer εὐθέως consequent naar 'meteen' (project-dominante keuze: 29× 'meteen' vs 15× 'onmiddellijk' in MRK+LUK).",
+      "location": "cross-vers",
+      "verses_involved": [
+        2,
+        13,
+        29,
+        30,
+        36,
+        42
+      ],
+      "id": "MRK-5-2-001",
+      "status": "verified",
+      "fix_note": "v2/v13/v36/v42 reeds 'meteen'; v29 en v30 'onmiddellijk' -> 'meteen' geharmoniseerd. Alle 6 verzen nu één rendering.",
+      "verified_at": "2026-05-17T04:33:46+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 9,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'seggend' in 4 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 4 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        9,
+        12,
+        23,
+        35
+      ],
+      "id": "MRK-5-9-001",
+      "status": "verified",
+      "rebuttal": "Scanner-prefix-artefact: SV-stam 'segg' versus moderne stam 'zegg' geeft per definitie geen prefix-overlap. Feitelijke renderings: v9 'zei' (λέγων + ἀπεκρίθη samengetrokken), v12 'zeiden' (λέγοντες), v23 'zei' (λέγων), v35 'zeiden' (λέγοντες). Allemaal vormen van WERKWOORD 'zeggen' — concordantie op lexeem-niveau is consistent; variatie is correct finiet (enkelv. vs meervoud) per Grieks subject.",
+      "verified_at": "2026-05-17T04:33:46+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 11,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'swijnen' in 5 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 5 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        11,
+        12,
+        13,
+        14,
+        16
+      ],
+      "id": "MRK-5-11-001",
+      "status": "verified",
+      "rebuttal": "Scanner-prefix-artefact: SV-spelling 'swijnen' versus moderne 'zwijnen' (s->z); prefix 'swij' matcht nooit prefix 'zwij'. Feitelijke renderings v11/v12/v13/v14/v16: alle vijf 'zwijnen' (χοίρων/χοίρους). Concordantie is PERFECT, niet inconsistent. False positive door spelling-modernisering.",
+      "verified_at": "2026-05-17T04:33:46+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 14,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'geschie' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        14,
+        16,
+        33
+      ],
+      "id": "MRK-5-14-001",
+      "status": "verified",
+      "rebuttal": "Scanner-prefix-artefact: SV-werkwoord 'geschieden' is bewust vervangen door 'gebeuren' in heel het project (§2.7 drempel — 'geschieden' op grens van archaïsme). Feitelijke renderings: v14 'gebeurd was' (τὸ γεγονός), v16 'gebeurd was' (ἐγένετο), v33 'gebeurd was' (γέγονεν). Drie verzen, één rendering 'gebeuren' — concordantie consistent op moderne stam.",
+      "verified_at": "2026-05-17T04:33:46+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 15,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'beseten' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        15,
+        16,
+        18
+      ],
+      "id": "MRK-5-15-001",
+      "status": "verified",
+      "rebuttal": "Scanner-prefix-artefact: SV-spelling 'beseten' versus moderne 'bezeten' (s->z). Feitelijke renderings: v15 'bezetene' (δαιμονιζόμενον), v16 'bezetene' (δαιμονιζομένῳ), v18 'bezeten was geweest' (δαιμονισθείς aor.pass.part.). Stam 'bezeten' consistent; variatie 'bezetene' (gesubstantiveerd participium) vs 'bezeten' (predicatief) is grammaticaal vereist door Griekse vorm.",
+      "verified_at": "2026-05-17T04:33:46+00:00"
+    },
+    {
+      "id": "MRK-5-17-001",
+      "verse": 17,
+      "category": "§2.7 drempel-archaïsme",
+      "severity": "soft",
+      "quote_modernized": "dat hij van hun landpalen weg zou gaan",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'landpalen' (ὁρίων) is een SV-archaïsme dat niet meer in modern Nederlands productief is; modern: 'gebied'/'grondgebied'/'streek'. Staat niet in DREMPEL_ARCHAISMEN maar faalt zowel productiviteits- als verwarringstest (lezer interpreteert 'landpalen' niet zonder context).",
+      "proposed_fix": "'landpalen' -> 'gebied' (vgl. NBG '51 / HSV 'gebied' voor ὅρια in deze pericoop)",
+      "location": "hoofdtekst",
+      "status": "verified",
+      "fix_note": "v17: 'van hun landpalen weg zou gaan' -> 'uit hun gebied weg zou gaan'.",
+      "verified_at": "2026-05-17T04:34:08+00:00"
+    },
+    {
+      "id": "MRK-5-22-002",
+      "verse": 22,
+      "category": "§2.7 false friend",
+      "severity": "soft",
+      "quote_modernized": "Overste van de Synagoge, genaamd Jaïrus",
+      "rule_reference": "MODERNISATIE.md §2.7 (false friends)",
+      "explanation": "Oorspronkelijk 'met name Iairus' (= 'genaamd', ὀνόματι Ἰάειρος). In modern Nederlands betekent 'met name' = 'vooral/in het bijzonder', NIET 'met de naam'. False friend; veroorzaakt betekenisverschuiving.",
+      "proposed_fix": "'met name Jaïrus' -> 'genaamd Jaïrus' (semantisch correct voor ὀνόματι)",
+      "location": "hoofdtekst",
+      "status": "verified",
+      "fix_note": "v22 reeds aangepast: 'met name Jaïrus' -> 'genaamd Jaïrus'.",
+      "verified_at": "2026-05-17T04:33:46+00:00"
+    }
+  ]
+}

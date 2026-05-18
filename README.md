@@ -184,6 +184,21 @@ ln -s AGENTS.md CLAUDE.md
 ln -s .agents   .claude
 ```
 
+> **Let op — als `.claude/` lokaal al bestaat als echte directory**
+> (bijv. omdat Claude Code daar `settings.local.json` of `worktrees/`
+> heeft aangemaakt), faalt `ln -s .agents .claude`. Symlink dan
+> alleen de skills-submap, zodat `sv-batch-orchestrate` en de andere
+> skills vindbaar zijn:
+>
+> ```bash
+> ln -s ../.agents/skills .claude/skills
+> ```
+>
+> Zonder deze symlink krijg je bij `moderniseer …` de melding
+> `Error: Unknown skill: sv-batch-orchestrate`. Een nieuwe sessie
+> (`/clear` of opnieuw starten) is nodig nadat de symlink is gelegd,
+> omdat Claude Code de skill-lijst bij sessiestart inlaadt.
+
 Daarna kun je in de agent-CLI, vanuit de hoofdmap van de repository, aanroepen doen in
 natuurlijke taal:
 
