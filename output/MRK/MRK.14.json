@@ -512,6 +512,46 @@
       "generated_at": "2026-05-18T06:00:50.803519Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 55,
+      "original": "$Matth. 26.59. Actor. 6.13.$ Ende de Overpriesters ende de geheele <Gr. Synedrion. siet daer van Matt. cap 5. vers 22.> Raet sochten getuygenisse tegen Iesum, om hem te dooden, ende en vonden niet.",
+      "modernized": "$Mt. 26:59; Hd. 6:13$ En de Overpriesters en de gehele <Grieks: Synedrion; zie daarvan $Mt. 5:22$.> Raad zochten getuigenis tegen Jezus, om hem te doden, en vonden niet.",
+      "source_text": "οἱ δὲ ἀρχιερεῖς καὶ ὅλον τὸ συνέδριον ἐζήτουν κατὰ τοῦ Ἰησοῦ μαρτυρίαν, εἰς τὸ θανατῶσαι αὐτόν· καὶ οὐχ εὕρισκον.",
+      "generated_at": "2026-05-18T06:05:04.386480Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 56,
+      "original": "Want vele getuyghden valschelick tegen hem, ende de getuygenissen <D. en quamen niet over een.> en waren niet eenparigh.",
+      "modernized": "Want velen getuigden valselijk tegen hem, en de getuigenissen <Dat is, kwamen niet met elkaar overeen.> waren niet gelijkluidend.",
+      "source_text": "πολλοὶ γὰρ ἐψευδομαρτύρουν κατ’ αὐτοῦ, καὶ ἴσαι αἱ μαρτυρίαι οὐκ ἦσαν.",
+      "generated_at": "2026-05-18T06:06:08.750381Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "eenparig → gelijkluidend",
+          "context": "slot van vers",
+          "choice": "gelijkluidend",
+          "alternatives": [
+            "eenparig",
+            "overeenstemmend"
+          ],
+          "reason": "\"eenparig\" voor getuigenissen is niet meer productief in modern NL; \"gelijkluidend\" is modern-journalistiek en sluit aan op de kanttekening die expliciet \"kwamen niet met elkaar overeen\" glost."
+        }
+      ]
+    },
+    {
+      "verse_number": 57,
+      "original": "Ende <Mattheus c. 26. vers 61. seght van twee, waer van d’een anders sprack als de ander, gelijck oock de Euangelisten der selver getuygenissen verscheydelick verhalen.> eenige opstaende getuyghden valschelick tegen hem, seggende,",
+      "modernized": "En <$Mt. 26:61$ spreekt van twee, waarvan de een anders sprak dan de ander, zoals ook de Evangelisten dezelfde getuigenissen op verschillende wijze verhalen.> enigen stonden op en getuigden valselijk tegen hem, en zeiden,",
+      "source_text": "καί τινες ἀναστάντες ἐψευδομαρτύρουν κατ’ αὐτοῦ, λέγοντες",
+      "generated_at": "2026-05-18T06:06:42.237107Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
