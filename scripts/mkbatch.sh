@@ -5,15 +5,15 @@
 # niet vol loopt met herhaalde commandotekst.
 #
 # Gebruik:  scripts/mkbatch.sh <boek-lowercase> <H> <V_START> <V_EIND>
-#       of: scripts/mkbatch.sh <boek-lowercase> <H> adversarial-fix
+#       of: scripts/mkbatch.sh <boek-lowercase> <H> adversarial-fix[-<suffix>]
 # Uitvoer:  BRANCH=<branch-naam>
 set -euo pipefail
 
 BOEK=$1
 H=$2
 
-if [ "${3:-}" = "adversarial-fix" ]; then
-    BRANCH="feature/${BOEK}-${H}-adversarial-fix"
+if [[ "${3:-}" == adversarial-fix* ]]; then
+    BRANCH="feature/${BOEK}-${H}-${3}"
 else
     V_START=$3
     V_EIND=$4
