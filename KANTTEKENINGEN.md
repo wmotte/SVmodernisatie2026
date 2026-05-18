@@ -81,6 +81,30 @@ Vuistregel: zoekt een geletterde lezer dit woord op in een modern
 woordenboek en vindt hij het? Dan moderniseer de spelling. Zo niet,
 laat staan en geef context in dezelfde of een aansluitende kanttekening.
 
+## Geen SV-participia in kanttekeningen
+
+Finiete tegenwoordige participia in SV-stijl (`werpende`, `kennende`,
+`liggende`, `staende`, `makende`, `vasthoudende`, `aanvangende`,
+`uitberstende`) zijn óók in kanttekeningen verboden — zonder
+uitzondering voor `<Of, …>` / `<Gr. …>` / `<D. …>`-citaten. Zie
+MODERNISATIE.md §2.3.
+
+Voor literale `<Gr. X-ende.>`-glossen (één-woord-aanduiding van de
+Griekse werkwoordsvorm) is de standaard het **infinitief-lemma**:
+
+| Origineel              | Modern                  |
+|------------------------|-------------------------|
+| `<Gr. werpende.>`      | `<Grieks: werpen.>`     |
+| `<Gr. staende.>`       | `<Grieks: staan.>`      |
+| `<Gr. liggende.>`      | `<Grieks: liggen.>`     |
+| `<Gr. makende.>`       | `<Grieks: maken.>`      |
+
+Wanneer de kanttekening méér is dan een enkel woord, ontvouw naar een
+finiete bijzin: `<Gr. vasthoudende de overleveringe.>` →
+`<Grieks: zij hielden de overlevering vast.>`. Modern attributief
+gebruik van `-ende` (`volgende dag`, `voldoende geld`, `levende
+schepselen`) blijft, dat is geen SV-carry-over maar modern Nederlands.
+
 ## Geen redundantie met de hoofdtekst
 
 **Geen redundantie** tussen kanttekening en hoofdtekst. Als een
