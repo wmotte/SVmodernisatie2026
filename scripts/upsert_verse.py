@@ -29,6 +29,26 @@ from pathlib import Path
 
 DEFAULT_MODEL = "claude-opus-4-7[1m]"
 
+# Whitelist voor notes[*].type. Spiegelt _NOTES_ALLOWED_TYPES in validate.py.
+# Pre-write enforcement voorkomt dat verse-objecten met type='retro-fix' of
+# andere legacy/typo-waarden überhaupt naar disk gaan; validate.py vangt ze
+# anders pas na de schrijfactie.
+_NOTES_ALLOWED_TYPES = frozenset({"twijfel", "afwijking", "context"})
+
+
+def _validate_notes(notes: list) -> str | None:
+    """Return None bij OK, anders foutbericht-string."""
+    for i, n in enumerate(notes):
+        if not isinstance(n, dict):
+            return f"notes[{i}]: moet object zijn, kreeg {type(n).__name__}"
+        t = n.get("type")
+        if t is None:
+            return f"notes[{i}]: veld 'type' ontbreekt"
+        if t not in _NOTES_ALLOWED_TYPES:
+            allowed = ", ".join(sorted(_NOTES_ALLOWED_TYPES))
+            return f"notes[{i}]: type={t!r} niet toegestaan (gebruik: {allowed})"
+    return None
+
 
 def _utc_now() -> str:
     return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S.%fZ")
@@ -89,6 +109,10 @@ def cmd_verse(args) -> int:
             return 2
         if not isinstance(notes, list):
             print("FOUT: --notes-json moet een JSON-array zijn.", file=sys.stderr)
+            return 2
+        err = _validate_notes(notes)
+        if err is not None:
+            print(f"FOUT: --notes-json {err}", file=sys.stderr)
             return 2
         entry["notes"] = notes
     out = _load_output_or_skeleton(args.book, args.chapter, inp)

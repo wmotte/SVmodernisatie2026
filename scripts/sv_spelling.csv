@@ -1,0 +1,67 @@
+sv_form,modern_variants
+# SV1657 spelling-mappings voor hoofdletter-discipline in validate.py.
+# Eén regel per SV-vorm. Modern_variants = pipe-gescheiden lijst.
+# Als origineel deze vorm heeft en modern één van de varianten, dan geen caseflip.
+# Comment-regels (#) en lege regels worden genegeerd.
+#
+# Onderhoud: voeg nieuwe SV→modern paren toe hier ipv. validate.py.
+# Voor nieuwe boeken (MAT, JOH, ACT, …) groeit deze tabel; geen Python-edit nodig.
+Mattheus,Matteüs|Mattheüs
+Marcus,Marcus|Markus
+Lucas,Lucas
+Bethlehem,Betlehem|Bethlehem
+Iesus,Jezus
+Iesum,Jezus
+Iesu,Jezus
+Iudas,Judas
+Iuda,Juda
+Iudea,Judea
+Iudaeae,Judea
+Ioden,Joden
+Ioodsche,Joodse
+Iohannes,Johannes
+Ioannes,Johannes
+Ioannem,Johannes
+Ioannis,Johannes
+Ioannen,Johannes
+Ioan,Johannes
+Ioseph,Jozef
+Iosephs,Jozefs|Jozef
+Iordaen,Jordaan
+Iordane,Jordaan
+Iordanes,Jordaan
+Iacob,Jakob
+Iacobus,Jakobus
+Iacobum,Jakobus
+Iacobi,Jakobus
+Ierusalem,Jeruzalem
+Israel,Israël|Israel
+Israëls,Israëls|Israels
+Aaron,Aäron|Aaron
+Aarons,Aärons|Aäron|Aarons
+Cainan,Kenan|Kainan
+Capernaum,Kafarnaüm|Kapernaüm|Kapernaum
+Keyser,Keizer
+Keysers,Keizers|Keizer
+Salighmaker,Zaligmaker
+Sone,Zoon
+Sones,Zoons|Zoon
+Wort,Woord|Word|Wordt
+Yemant,Iemand
+Niemant,Niemand
+Godts,Gods|God
+Godtheyt,Godheid
+Godtlick,Goddelijk
+Godtlicke,Goddelijke|Goddelijk
+Godtloos,Goddeloos
+Leeraer,Leraar
+Leeraers,Leraren|Leraars|Leraar
+Christus,Christus
+GODT,GOD
+Godt,God
+HEERE,HEERE|HEER
+Heere,Heere|Heer
+Christi,Christus|Christi
+JESU,Jezus
+CHRISTI,Christus
+Een,Eén|Een
