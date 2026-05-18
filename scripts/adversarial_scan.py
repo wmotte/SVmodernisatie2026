@@ -104,6 +104,8 @@ DREMPEL_ARCHAISMEN: frozenset[str] = frozenset({
     "nochthans",
     # meta-review LUK 1-18: drempel-archaïsmen recurrent over hoofdstukken
     "uwe",  # zelfst. gebruikt possessief 'de uwe' / 'het uwe' — LUK 5:33, 6:30, 15:31
+    # meta-review MRK 1-14: 'ure' single-word drempel — MRK 13:11, 13:32, 14:35
+    "ure",
 })
 
 # Idiomatische drempel-fossielen — multi-word, regex-based.
@@ -115,6 +117,10 @@ DREMPEL_FOSSIELEN: tuple[str, ...] = (
     # 'ter ure (van)' — oude dativus
     # LUK 14:17 (meta-review LUK 1-18)
     r"\bter\s+ure\b",
+    # '(zie|ziet|hoort) toe' — SV-imperatief, drempel-fossiel
+    # incl. tussenwoorden (max 4) voor 'ziet u voor uzelf toe' (MRK 13:9)
+    # meta-review MRK 1-14: MRK 4:3, 8:15, 13:5, 13:9, 13:23, 13:33
+    r"\b(?:[Hh]oort|[Zz]iet|[Zz]ie)\b(?:\s+\w+){0,4}\s+toe\b",
 )
 
 # Lexicale carry-overs uit kanttekeningen die SV-caps zijn waar de
