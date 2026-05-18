@@ -14,7 +14,9 @@
     11,
     12,
     13,
-    14
+    14,
+    15,
+    16
   ],
   "min_freq": 2,
   "kinds": [
@@ -23,14 +25,14 @@
     "latinaat-window",
     "cap-asym"
   ],
-  "total_patterns": 14,
+  "total_patterns": 17,
   "patterns_by_kind": {
     "cap-asym": [
       {
-        "pattern_id": "p-0009",
+        "pattern_id": "p-0010",
         "kind": "cap-asym",
         "key": "schriftgeleerden",
-        "frequency": 9,
+        "frequency": 13,
         "hsv_alternatives": [],
         "severity_hint": "soft",
         "occurrences": [
@@ -102,17 +104,49 @@
             "book": "MRK",
             "chapter": 14,
             "verse": 1,
-            "sv2026_excerpt": "…oden was na twee dagen, en de Overpriesters en de Schriftgeleerden zochten hoe zij hem met list zoud…",
+            "sv2026_excerpt": "…oden was na twee dagen, en de Overpriesters en de Schriftgeleerden zochten naar een manier om hem me…",
             "hsv_excerpt": "En na twee dagen was   het Pascha en het Feest van de ongezuurde broden . En de overpriesters en de schriftgeleerden zochten naar een manier",
+            "original_excerpt": ""
+          },
+          {
+            "book": "MRK",
+            "chapter": 14,
+            "verse": 43,
+            "sv2026_excerpt": "…   stokken, gezonden door de Overpriesters, en de Schriftgeleerden, en de Ouderlingen.",
+            "hsv_excerpt": "  En meteen, terwijl Hij nog sprak, kwam Judas eraan, die een van de twaalf was, en met hem een grote menigte met zwaarden en stokken, gestu",
+            "original_excerpt": ""
+          },
+          {
+            "book": "MRK",
+            "chapter": 14,
+            "verse": 53,
+            "sv2026_excerpt": "…amen alle Overpriesters, en de Ouderlingen, en de Schriftgeleerden bijeen.",
+            "hsv_excerpt": "  En ze leidden Jezus weg naar de hogepriester; en bij hem kwamen al de overpriesters, de oudsten en de schriftgeleerden bijeen.",
+            "original_excerpt": ""
+          },
+          {
+            "book": "MRK",
+            "chapter": 15,
+            "verse": 1,
+            "sv2026_excerpt": "… Overpriesters tezamen raad met de Ouderlingen en Schriftgeleerden, en de hele Raad, en nadat zij Je…",
+            "hsv_excerpt": "En   meteen, 's morgens vroeg, beraadslaagden de overpriesters met de oudsten en schriftgeleerden en heel de Raad, en nadat zij Jezus gebond",
+            "original_excerpt": ""
+          },
+          {
+            "book": "MRK",
+            "chapter": 15,
+            "verse": 31,
+            "sv2026_excerpt": "En evenzo zeiden ook de Overpriesters met de Schriftgeleerden onder elkaar al spottend: Hij hee…",
+            "hsv_excerpt": "En evenzo spotten ook de overpriesters, samen met de schriftgeleerden, onder elkaar en zeiden: Anderen heeft Hij verlost, Zichzelf kan Hij n",
             "original_excerpt": ""
           }
         ]
       },
       {
-        "pattern_id": "p-0011",
+        "pattern_id": "p-0012",
         "kind": "cap-asym",
         "key": "overpriesters",
-        "frequency": 6,
+        "frequency": 10,
         "hsv_alternatives": [],
         "severity_hint": "soft",
         "occurrences": [
@@ -136,7 +170,7 @@
             "book": "MRK",
             "chapter": 11,
             "verse": 18,
-            "sv2026_excerpt": "En de Schriftgeleerden en Overpriesters hoorden dat, en   zochten hoe zij he…",
+            "sv2026_excerpt": "En de Schriftgeleerden en Overpriesters hoorden dat, en   zochten naar een m…",
             "hsv_excerpt": "En de schriftgeleerden en de overpriesters hoorden het en   zochten naar een manier om Hem om te brengen, want zij waren bevreesd voor Hem, ",
             "original_excerpt": ""
           },
@@ -152,7 +186,7 @@
             "book": "MRK",
             "chapter": 14,
             "verse": 1,
-            "sv2026_excerpt": "…van de ongezuurde broden was na twee dagen, en de Overpriesters en de Schriftgeleerden zochten hoe z…",
+            "sv2026_excerpt": "…van de ongezuurde broden was na twee dagen, en de Overpriesters en de Schriftgeleerden zochten naar …",
             "hsv_excerpt": "En na twee dagen was   het Pascha en het Feest van de ongezuurde broden . En de overpriesters en de schriftgeleerden zochten naar een manier",
             "original_excerpt": ""
           },
@@ -162,6 +196,38 @@
             "verse": 10,
             "sv2026_excerpt": "…n Judas Iskariot, een van de twaalf, ging naar de Overpriesters toe, opdat hij hem aan hen zou overl…",
             "hsv_excerpt": "  En Judas Iskariot, een van de twaalf, ging weg naar de overpriesters om Hem aan hen over te leveren.",
+            "original_excerpt": ""
+          },
+          {
+            "book": "MRK",
+            "chapter": 14,
+            "verse": 43,
+            "sv2026_excerpt": "…chare met zwaarden en   stokken, gezonden door de Overpriesters, en de Schriftgeleerden, en de Ouder…",
+            "hsv_excerpt": "  En meteen, terwijl Hij nog sprak, kwam Judas eraan, die een van de twaalf was, en met hem een grote menigte met zwaarden en stokken, gestu",
+            "original_excerpt": ""
+          },
+          {
+            "book": "MRK",
+            "chapter": 14,
+            "verse": 53,
+            "sv2026_excerpt": "…een tot   de Hogepriester; en bij hem kwamen alle Overpriesters, en de Ouderlingen, en de Schriftgel…",
+            "hsv_excerpt": "  En ze leidden Jezus weg naar de hogepriester; en bij hem kwamen al de overpriesters, de oudsten en de schriftgeleerden bijeen.",
+            "original_excerpt": ""
+          },
+          {
+            "book": "MRK",
+            "chapter": 15,
+            "verse": 10,
+            "sv2026_excerpt": "(Want hij wist, dat de Overpriesters hem uit nijd overgeleverd hadden)",
+            "hsv_excerpt": "Want hij wist dat de overpriesters Hem uit afgunst overgeleverd hadden.",
+            "original_excerpt": ""
+          },
+          {
+            "book": "MRK",
+            "chapter": 15,
+            "verse": 11,
+            "sv2026_excerpt": "  Maar de Overpriesters hitsten de schare op, dat hij hun li…",
+            "hsv_excerpt": "  Maar de overpriesters hitsten de menigte op, dat hij liever Barabbas voor hen zou loslaten.",
             "original_excerpt": ""
           }
         ]
@@ -225,7 +291,57 @@
         ]
       },
       {
-        "pattern_id": "p-0007",
+        "pattern_id": "p-0003",
+        "kind": "cap-asym",
+        "key": "hogepriester",
+        "frequency": 5,
+        "hsv_alternatives": [],
+        "severity_hint": "soft",
+        "occurrences": [
+          {
+            "book": "MRK",
+            "chapter": 2,
+            "verse": 26,
+            "sv2026_excerpt": "… is in het huis Gods, ten tijde   van Abjathar de Hogepriester, en de toonbroden gegeten heeft, die …",
+            "hsv_excerpt": "Hoe hij het huis van God binnengegaan is ten tijde van Abjathar, de hogepriester, en de toonbroden gegeten heeft, die niemand mag eten   beh",
+            "original_excerpt": ""
+          },
+          {
+            "book": "MRK",
+            "chapter": 14,
+            "verse": 53,
+            "sv2026_excerpt": "  En zij leidden Jezus heen tot   de Hogepriester; en bij hem kwamen alle Overpriesters…",
+            "hsv_excerpt": "  En ze leidden Jezus weg naar de hogepriester; en bij hem kwamen al de overpriesters, de oudsten en de schriftgeleerden bijeen.",
+            "original_excerpt": ""
+          },
+          {
+            "book": "MRK",
+            "chapter": 14,
+            "verse": 54,
+            "sv2026_excerpt": "…olgde hem van verre, tot binnen in de zaal van de Hogepriester; en hij zat mede met de dienaren, en …",
+            "hsv_excerpt": "En Petrus volgde Hem op een afstand, tot binnen het paleis van de hogepriester, en hij zat er samen met de dienaars en warmde zich bij het v",
+            "original_excerpt": ""
+          },
+          {
+            "book": "MRK",
+            "chapter": 14,
+            "verse": 61,
+            "sv2026_excerpt": "… zweeg stil en antwoordde niets. Opnieuw vroeg de Hogepriester hem, en zei tot hem: Bent u de Christ…",
+            "hsv_excerpt": "  Maar Hij zweeg en antwoordde niets. Opnieuw stelde de hogepriester Hem een vraag, en zei tegen Hem: Bent U de Christus, de Zoon van de Gez",
+            "original_excerpt": ""
+          },
+          {
+            "book": "MRK",
+            "chapter": 14,
+            "verse": 66,
+            "sv2026_excerpt": "…de zaal was, kwam een van de dienstmaagden van de Hogepriester,",
+            "hsv_excerpt": "  En toen Petrus beneden op de binnenplaats was, kwam een van de dienstmeisjes van de hogepriester;",
+            "original_excerpt": ""
+          }
+        ]
+      },
+      {
+        "pattern_id": "p-0008",
         "kind": "cap-asym",
         "key": "profeet",
         "frequency": 4,
@@ -309,7 +425,7 @@
         ]
       },
       {
-        "pattern_id": "p-0012",
+        "pattern_id": "p-0013",
         "kind": "cap-asym",
         "key": "engelen",
         "frequency": 3,
@@ -343,7 +459,7 @@
         ]
       },
       {
-        "pattern_id": "p-0013",
+        "pattern_id": "p-0014",
         "kind": "cap-asym",
         "key": "keizer",
         "frequency": 3,
@@ -411,7 +527,7 @@
         ]
       },
       {
-        "pattern_id": "p-0008",
+        "pattern_id": "p-0009",
         "kind": "cap-asym",
         "key": "groten",
         "frequency": 2,
@@ -437,7 +553,7 @@
         ]
       },
       {
-        "pattern_id": "p-0010",
+        "pattern_id": "p-0011",
         "kind": "cap-asym",
         "key": "ouden",
         "frequency": 2,
@@ -463,7 +579,7 @@
         ]
       },
       {
-        "pattern_id": "p-0003",
+        "pattern_id": "p-0004",
         "kind": "cap-asym",
         "key": "sabbat",
         "frequency": 2,
@@ -490,89 +606,6 @@
       }
     ],
     "carryover": [
-      {
-        "pattern_id": "p-0004",
-        "kind": "carryover",
-        "key": "hoe",
-        "frequency": 8,
-        "hsv_alternatives": [
-          "manier",
-          "hoelang",
-          "kwam",
-          "toe",
-          "angstig",
-          "waarom",
-          "jongs",
-          "overkomt"
-        ],
-        "severity_hint": "soft",
-        "occurrences": [
-          {
-            "book": "MRK",
-            "chapter": 3,
-            "verse": 8,
-            "sv2026_excerpt": "…don,   een grote menigte, toen zij gehoord hadden hoe grote dingen hij deed, kwamen tot hem.",
-            "hsv_excerpt": "en uit Jeruzalem en uit Idumea en van over de Jordaan; ook een grote menigte uit de omgeving van Tyrus en Sidon, die geh",
-            "original_excerpt": "Ende van Ierusalem, ende van   Idumea, ende van over den Iordaen: ende die van ontrent   Tyrus ende Sidon,   een groote "
-          },
-          {
-            "book": "MRK",
-            "chapter": 4,
-            "verse": 40,
-            "sv2026_excerpt": "En hij zei tot hen: Waarom bent u zo bevreesd? Hoe hebt u   geen geloof?",
-            "hsv_excerpt": "En Hij zei tegen hen: Waarom bent u zo angstig? Hebt u dan geen geloof?",
-            "original_excerpt": "Ende hy seyde tot haer, Wat zijt ghy soo vreesachtigh? Hoe en hebt ghy   geen geloove?"
-          },
-          {
-            "book": "MRK",
-            "chapter": 8,
-            "verse": 21,
-            "sv2026_excerpt": "En hij zei tot hen: Hoe   begrijpt u niet?",
-            "hsv_excerpt": "En Hij zei tegen hen: Waarom begrijpt u het dan niet?",
-            "original_excerpt": "Ende hy seyde tot haer, Hoe   en verstaet ghy niet?"
-          },
-          {
-            "book": "MRK",
-            "chapter": 9,
-            "verse": 19,
-            "sv2026_excerpt": "… hij antwoordde hem en zei: O ongelovig geslacht, hoe lang zal ik nog bij u zijn? Hoe lang zal ik u …",
-            "hsv_excerpt": "En Hij antwoordde hem en zei: O ongelovig geslacht, hoelang zal Ik nog bij u zijn? Hoelang zal Ik u nog verdragen? Breng",
-            "original_excerpt": "Ende hy antwoordde hem, ende seyde, O ongeloovigh geslachte, hoe lange sal ick noch by u-lieden zijn? Hoe lange sal ick "
-          },
-          {
-            "book": "MRK",
-            "chapter": 9,
-            "verse": 21,
-            "sv2026_excerpt": "En hij vroeg zijn vader: Hoe lang is het, dat hem dit overkomen is? En hij …",
-            "hsv_excerpt": "En Hij vroeg aan zijn vader: Hoelang is het al dat dit hem overkomt? En hij zei: Van jongs af aan.",
-            "original_excerpt": "Ende hy vraeghde sijnen vader, Hoe langen tijt is’t, dat hem dit over gekomen is? Ende hy seyde hem, Van sijne kintsheyt"
-          },
-          {
-            "book": "MRK",
-            "chapter": 11,
-            "verse": 18,
-            "sv2026_excerpt": "…eerden en Overpriesters hoorden dat, en   zochten hoe zij hem   zouden doden; want zij vreesden hem,…",
-            "hsv_excerpt": "En de schriftgeleerden en de overpriesters hoorden het en   zochten naar een manier om Hem om te brengen, want zij waren",
-            "original_excerpt": "Ende de Schriftgeleerde ende Overpriesters hoorden dat, ende   sochten hoe sy hem   dooden souden: want sy vreesden hem,"
-          },
-          {
-            "book": "MRK",
-            "chapter": 14,
-            "verse": 1,
-            "sv2026_excerpt": "…n de Overpriesters en de Schriftgeleerden zochten hoe zij hem met list zouden vangen en doden.",
-            "hsv_excerpt": "En na twee dagen was   het Pascha en het Feest van de ongezuurde broden . En de overpriesters en de schriftgeleerden zoc",
-            "original_excerpt": "  ENde het   Pascha, ende het feest   der ongehevelde brooden was na twee dagen, ende de Overpriesters ende de Schriftge"
-          },
-          {
-            "book": "MRK",
-            "chapter": 14,
-            "verse": 11,
-            "sv2026_excerpt": "…d, en beloofden hem   geld te geven; en hij zocht hoe hij hem   op een geschikt moment zou overlever…",
-            "hsv_excerpt": "En toen zij dat hoorden, verblijdden zij zich en beloofden zij hem geld te geven. En hij zocht naar een geschikte manier",
-            "original_excerpt": "Ende sy dat hoorende waren verblijdt, ende beloofden hem   gelt te geven, ende hy socht hoe hy hem   bequamelick overlev"
-          }
-        ]
-      },
       {
         "pattern_id": "p-0006",
         "kind": "carryover",
@@ -641,7 +674,55 @@
         ]
       },
       {
-        "pattern_id": "p-0014",
+        "pattern_id": "p-0007",
+        "kind": "carryover",
+        "key": "hoe",
+        "frequency": 4,
+        "hsv_alternatives": [
+          "hoelang",
+          "angstig",
+          "waarom",
+          "jongs",
+          "overkomt"
+        ],
+        "severity_hint": "soft",
+        "occurrences": [
+          {
+            "book": "MRK",
+            "chapter": 4,
+            "verse": 40,
+            "sv2026_excerpt": "En hij zei tot hen: Waarom bent u zo bevreesd? Hoe komt het dat u   geen geloof hebt?",
+            "hsv_excerpt": "En Hij zei tegen hen: Waarom bent u zo angstig? Hebt u dan geen geloof?",
+            "original_excerpt": "Ende hy seyde tot haer, Wat zijt ghy soo vreesachtigh? Hoe en hebt ghy   geen geloove?"
+          },
+          {
+            "book": "MRK",
+            "chapter": 8,
+            "verse": 21,
+            "sv2026_excerpt": "En hij zei tot hen: Hoe komt het dat u   het niet begrijpt?",
+            "hsv_excerpt": "En Hij zei tegen hen: Waarom begrijpt u het dan niet?",
+            "original_excerpt": "Ende hy seyde tot haer, Hoe   en verstaet ghy niet?"
+          },
+          {
+            "book": "MRK",
+            "chapter": 9,
+            "verse": 19,
+            "sv2026_excerpt": "… hij antwoordde hem en zei: O ongelovig geslacht, hoe lang zal ik nog bij u zijn? Hoe lang zal ik u …",
+            "hsv_excerpt": "En Hij antwoordde hem en zei: O ongelovig geslacht, hoelang zal Ik nog bij u zijn? Hoelang zal Ik u nog verdragen? Breng",
+            "original_excerpt": "Ende hy antwoordde hem, ende seyde, O ongeloovigh geslachte, hoe lange sal ick noch by u-lieden zijn? Hoe lange sal ick "
+          },
+          {
+            "book": "MRK",
+            "chapter": 9,
+            "verse": 21,
+            "sv2026_excerpt": "En hij vroeg zijn vader: Hoe lang is het, dat hem dit overkomen is? En hij …",
+            "hsv_excerpt": "En Hij vroeg aan zijn vader: Hoelang is het al dat dit hem overkomt? En hij zei: Van jongs af aan.",
+            "original_excerpt": "Ende hy vraeghde sijnen vader, Hoe langen tijt is’t, dat hem dit over gekomen is? Ende hy seyde hem, Van sijne kintsheyt"
+          }
+        ]
+      },
+      {
+        "pattern_id": "p-0015",
         "kind": "carryover",
         "key": "ure",
         "frequency": 3,
@@ -655,7 +736,7 @@
           "iets",
           "ter"
         ],
-        "severity_hint": "soft",
+        "severity_hint": "hard",
         "occurrences": [
           {
             "book": "MRK",
@@ -680,6 +761,84 @@
             "sv2026_excerpt": "…de aarde, en bad, dat, zo het mogelijk was,   die ure van hem voorbij zou gaan.",
             "hsv_excerpt": "  En toen Hij iets verder gegaan was, wierp Hij Zich ter aarde en bad dat, als het mogelijk was, dat uur aan Hem voorbij",
             "original_excerpt": "  Ende een weynigh voort gegaen zijnde viel hy op de aerde, ende badt, soo’t mogelick ware, dat   die ure van hem voorby"
+          }
+        ]
+      }
+    ],
+    "fossiel-lidwoord": [
+      {
+        "pattern_id": "p-0017",
+        "kind": "fossiel-lidwoord",
+        "key": "der joden",
+        "frequency": 5,
+        "hsv_alternatives": [],
+        "severity_hint": "hard",
+        "occurrences": [
+          {
+            "book": "MRK",
+            "chapter": 15,
+            "verse": 2,
+            "sv2026_excerpt": "  En Pilatus vroeg hem: Bent u de Koning der Joden? En hij antwoordde en zei tot hem:   U z…",
+            "hsv_excerpt": "  En Pilatus vroeg Hem: U bent de Koning van de Joden? En Hij antwoordde hem en zei: U zegt het.",
+            "original_excerpt": "  Ende Pilatus vraeghde hem, Zijt ghy de Koningh der Ioden? Ende hy antwoordende seyde tot hem,   Ghy seght het."
+          },
+          {
+            "book": "MRK",
+            "chapter": 15,
+            "verse": 9,
+            "sv2026_excerpt": "… antwoordde hun en zei: Wilt u dat ik u de Koning der Joden loslaat?",
+            "hsv_excerpt": "En Pilatus antwoordde hun: Wilt u dat ik de Koning van de Joden voor u loslaat?",
+            "original_excerpt": "Ende Pilatus antwoordde haer, seggende, Wilt ghy dat ick u den Koningh der Ioden los late?"
+          },
+          {
+            "book": "MRK",
+            "chapter": 15,
+            "verse": 12,
+            "sv2026_excerpt": "…t u dan dat ik met hem doen zal, die u een Koning der Joden noemt?",
+            "hsv_excerpt": "En Pilatus antwoordde opnieuw en zei tegen hen: Wat wilt u dan dat ik met Hem doen zal Die u de Koning van de Joden noemt?",
+            "original_excerpt": "Ende Pilatus antwoordende seyde wederom tot haer, Wat wilt ghy dan dat ick met hem doen sal, dien ghy een Koningh der Ioden noemt?"
+          },
+          {
+            "book": "MRK",
+            "chapter": 15,
+            "verse": 18,
+            "sv2026_excerpt": "…hem te groeten, en zeiden: Wees gegroet, u Koning der Joden.",
+            "hsv_excerpt": "en begonnen Hem te begroeten: Gegroet, Koning van de Joden!",
+            "original_excerpt": "Ende begonden hem te groeten, seggende, Weest gegroet, ghy Koningh der Ioden."
+          },
+          {
+            "book": "MRK",
+            "chapter": 15,
+            "verse": 26,
+            "sv2026_excerpt": "…beschuldiging was boven hem geschreven: DE KONING DER JODEN.",
+            "hsv_excerpt": "  En het opschrift met Zijn beschuldiging was boven Hem geschreven: DE KONING VAN DE JODEN.",
+            "original_excerpt": "  Ende het opschrift sijner beschuldinge was boven hem geschreven, DE KONINGH DER JODEN."
+          }
+        ]
+      },
+      {
+        "pattern_id": "p-0016",
+        "kind": "fossiel-lidwoord",
+        "key": "des te",
+        "frequency": 2,
+        "hsv_alternatives": [],
+        "severity_hint": "hard",
+        "occurrences": [
+          {
+            "book": "MRK",
+            "chapter": 14,
+            "verse": 31,
+            "sv2026_excerpt": "  Maar hij zei nog des te meer: Al moest ik met u sterven, zo zal ik …",
+            "hsv_excerpt": "  Maar hij zei nog krachtiger: Al moest ik met U sterven, ik zal U beslist niet verloochenen! En evenzo spraken zij ook allen.",
+            "original_excerpt": "  Maer hy seyde noch dies te meer, Al moeste ick met u sterven, soo en sal ick u geensins verloochenen. Ende insgelijcks seyden sy oock alle."
+          },
+          {
+            "book": "MRK",
+            "chapter": 15,
+            "verse": 14,
+            "sv2026_excerpt": "…at heeft hij dan voor kwaad gedaan? En zij riepen des te meer: Kruisig hem.",
+            "hsv_excerpt": "Maar Pilatus zei tegen hen: Wat voor kwaad heeft Hij dan gedaan? En zij riepen nog harder: Kruisig Hem!",
+            "original_excerpt": "Doch Pilatus seyde tot haer, Wat heeft hy dan quaets gedaen? Ende sy riepen te meer, Kruyst hem."
           }
         ]
       }
