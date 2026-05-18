@@ -97,67 +97,27 @@ ARCHAISM_BLACKLIST = [
 
 # Bekende spelling-mappings voor hoofdletter-check (origineel-vorm: moderne-vorm).
 # Als origineel "Mattheus" heeft en modern "Matteüs", dan is dat OK.
-SPELLING_EQUIV = {
-    "Mattheus": ["Matteüs", "Mattheüs"],
-    "Marcus": ["Marcus", "Markus"],
-    "Lucas": ["Lucas"],
-    "Bethlehem": ["Betlehem", "Bethlehem"],
-    "Iesus": ["Jezus"],
-    "Iesum": ["Jezus"],
-    "Iesu": ["Jezus"],
-    "Iudas": ["Judas"],
-    "Iuda": ["Juda"],
-    "Iudea": ["Judea"],
-    "Iudaeae": ["Judea"],
-    "Ioden": ["Joden"],
-    "Ioodsche": ["Joodse"],
-    "Iohannes": ["Johannes"],
-    "Ioannes": ["Johannes"],
-    "Ioannem": ["Johannes"],
-    "Ioannis": ["Johannes"],
-    "Ioannen": ["Johannes"],
-    "Ioan": ["Johannes"],
-    "Ioseph": ["Jozef"],
-    "Iosephs": ["Jozefs", "Jozef"],
-    "Iordaen": ["Jordaan"],
-    "Iordane": ["Jordaan"],
-    "Iordanes": ["Jordaan"],
-    "Iacob": ["Jakob"],
-    "Iacobus": ["Jakobus"],
-    "Iacobum": ["Jakobus"],
-    "Iacobi": ["Jakobus"],
-    "Ierusalem": ["Jeruzalem"],
-    "Israel": ["Israël", "Israel"],
-    "Israëls": ["Israëls", "Israels"],
-    "Aaron": ["Aäron", "Aaron"],
-    "Aarons": ["Aärons", "Aäron", "Aarons"],
-    "Cainan": ["Kenan", "Kainan"],
-    "Capernaum": ["Kafarnaüm", "Kapernaüm", "Kapernaum"],
-    "Keyser": ["Keizer"],
-    "Keysers": ["Keizers", "Keizer"],
-    "Salighmaker": ["Zaligmaker"],
-    "Sone": ["Zoon"],
-    "Sones": ["Zoons", "Zoon"],
-    "Wort": ["Woord", "Word", "Wordt"],
-    "Yemant": ["Iemand"],
-    "Niemant": ["Niemand"],
-    "Godts": ["Gods", "God"],
-    "Godtheyt": ["Godheid"],
-    "Godtlick": ["Goddelijk"],
-    "Godtlicke": ["Goddelijke", "Goddelijk"],
-    "Godtloos": ["Goddeloos"],
-    "Leeraer": ["Leraar"],
-    "Leeraers": ["Leraren", "Leraars", "Leraar"],
-    "Christus": ["Christus"],
-    "GODT": ["GOD"],
-    "Godt": ["God"],
-    "HEERE": ["HEERE", "HEER"],
-    "Heere": ["Heere", "Heer"],
-    "Christi": ["Christus", "Christi"],
-    "JESU": ["Jezus"],
-    "CHRISTI": ["Christus"],
-    "Een": ["Eén", "Een"],
-}
+#
+# Tabel is geëxternaliseerd naar `scripts/sv_spelling.csv` zodat nieuwe boeken
+# (MAT, JOH, ACT, …) hun SV-spelling-paren kunnen toevoegen zonder Python-edit.
+def _load_spelling_equiv() -> dict[str, list[str]]:
+    csv_path = Path(__file__).resolve().parent / "sv_spelling.csv"
+    mapping: dict[str, list[str]] = {}
+    with csv_path.open(encoding="utf-8") as fh:
+        for raw in fh:
+            line = raw.strip()
+            if not line or line.startswith("#") or line.startswith("sv_form,"):
+                continue
+            if "," not in line:
+                continue
+            sv_form, variants_str = line.split(",", 1)
+            variants = [v.strip() for v in variants_str.split("|") if v.strip()]
+            if sv_form.strip() and variants:
+                mapping[sv_form.strip()] = variants
+    return mapping
+
+
+SPELLING_EQUIV: dict[str, list[str]] = _load_spelling_equiv()
 
 # §2.3 participium-check — SV-stijl finiete tegenwoordige participia (en hun
 # modern-gespelde varianten op `-end,`) moeten ontvouwd zijn naar een finiete
