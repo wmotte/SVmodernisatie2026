@@ -363,7 +363,16 @@ identiek. Geen verzen samenvoegen, splitsen, of herordenen. Geen
 toegevoegde tussenkopjes. Geen alinea-herstructurering buiten wat de
 invoer aanlevert.
 
-### 3.7 Geen tekstkritische correcties
+### 3.7 Geen em-dash
+
+Voor parenthetische pauzes en gedachtestrepen gebruiken we de Nederlandse
+**en-dash `–` (U+2013, spaties eromheen)**, niet de Engelse em-dash `—`
+(U+2014). De em-dash is in Nederlandse tekstconventies ongebruikelijk en
+visueel dominant; de en-dash sluit aan bij de typografische traditie van
+Nederlandstalige bijbeluitgaven. Geldt in zowel hoofdtekst als
+`<kanttekeningen>`. `sv-validate` blokkeert iedere `—` hard.
+
+### 3.8 Geen tekstkritische correcties
 
 Als de Textus Receptus afwijkt van moderne kritische edities (bv.
 NA28), volgen wij de Textus Receptus. Het doel is een leesbare SV1657,

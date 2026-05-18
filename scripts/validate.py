@@ -682,6 +682,13 @@ def _validate_verse(orig: dict, mod: dict) -> dict:
         if m:
             issues.append(f"archaïsme: '{m.group(0)}' (regex={pattern}) in moderne hoofdtekst")
 
+    # 5a. Em-dash (U+2014) verboden — NL-conventie gebruikt en-dash (U+2013, '–').
+    if "—" in mod_text:
+        issues.append(
+            "punctuatie: em-dash '—' (U+2014) gebruikt; vervang door en-dash '–' (U+2013) "
+            "(NL-conventie)"
+        )
+
     # 5b. §2.3 participium-check — finiete tgw. participia moeten ontvouwd zijn.
     issues.extend(_check_participles(mod_text, "hoofdtekst"))
     # 5c. Kanttekening-pass: ALWAYS_BAD = hard, anders soft.
@@ -734,6 +741,13 @@ def _validate_section(name: str, orig_text: str, mod_text: str) -> dict:
         issues.append(
             f"vierkante haken: origineel heeft {n_orig_haken}, modern heeft "
             f"{n_mod_haken} (moet identiek)"
+        )
+
+    # Em-dash verboden — gebruik en-dash '–' (NL-conventie).
+    if "—" in mod_text:
+        issues.append(
+            f"punctuatie: em-dash '—' (U+2014) in moderne {name}; vervang door en-dash '–' "
+            "(U+2013) (NL-conventie)"
         )
 
     # Archaïsme-blacklist op de hele moderne tekst (geen kanttekeningen om
