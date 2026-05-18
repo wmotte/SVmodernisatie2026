@@ -452,6 +452,34 @@
       "generated_at": "2026-05-18T05:49:18.467916Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 49,
+      "original": "Dagelijcks was ick by u-lieden in den tempel leerende, ende ghy en hebt my niet gegrepen: maer <Alsoo verhaelt dit Matth. 26.56.> [dit geschiet] $Psalm 22.7. ende 69.10. Luce 24.25.$ op dat de Schriften vervult souden worden.",
+      "modernized": "Dagelijks was ik bij u in de tempel om te onderwijzen, en u hebt mij niet gegrepen; maar <Zo verhaalt $Mt. 26:56$ dit.> [dit gebeurt] $Ps. 22:7; 69:10; Lk. 24:25$ opdat de Schriften vervuld zouden worden.",
+      "source_text": "καθ’ ἡμέραν ἤμην πρὸς ὑμᾶς ἐν τῷ ἱερῷ διδάσκων, καὶ οὐκ ἐκρατήσατέ με· ἀλλ’ ἵνα πληρωθῶσιν αἱ γραφαί.",
+      "generated_at": "2026-05-18T05:54:07.860643Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 50,
+      "original": "$Iob 19.13. Psalm 88.9.$ Ende <Namelick, sijne discipelen.> sy hem verlatende zijn alle gevloden.",
+      "modernized": "$Jb. 19:13; Ps. 88:9$ En <Namelijk, zijn discipelen.> zij verlieten hem en zijn allen gevlucht.",
+      "notes": [{"type": "afwijking", "text": "gevloden → gevlucht (drempel-§2.7); HSV-spiegel bevestigt en eigen concordantie in MRK 5:14, LUK 8:34 gebruikt 'gevlucht'."}],
+      "source_text": "καὶ ἀφέντες αὐτὸν πάντες ἔφυγον.",
+      "generated_at": "2026-05-18T05:54:30.048209Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 51,
+      "original": "Ende een seker jongelingh volghde hem, hebbende een lijnwaet <Gr. omgeworpen.> omgedaen over het naeckte [lijf,] ende <Dit schijnen geweest te zijn eenige jonge soldaten. Dese historie wort verhaelt om aen te wijsen de wreetheyt der gene die Christum vingen.> de jongelingen grepen hem.",
+      "modernized": "En een zekere jongeling volgde hem, met een linnen doek <Gr. omgeworpen.> omgedaan over het naakte [lijf,] en <Dit schijnen enkele jonge soldaten te zijn geweest. Deze geschiedenis wordt verhaald om de wreedheid aan te wijzen van hen die Christus gevangen namen.> de jongelingen grepen hem.",
+      "source_text": "Καὶ εἷς τις νεανίσκος ἠκολούθει αὐτῷ, περιβεβλημένος σινδόνα ἐπὶ γυμνοῦ. καὶ κρατοῦσιν αὐτὸν οἱ νεανίσκοι·",
+      "generated_at": "2026-05-18T05:54:58.423001Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
