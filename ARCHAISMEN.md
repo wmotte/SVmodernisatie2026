@@ -66,6 +66,8 @@ Standaard-substituties voor de hoofdtekst:
 | tijding(en)        | boodschap / nieuws — productiviteit-FAIL in 2020+; collocatie `blijde tijding` → `blijde boodschap` |
 | derhalve           | daarom / dus — leeft alleen nog juridisch; in religieus register vervangen |
 | rantsoen           | losprijs — modern NL primair 'voedseltoewijzing'; voor Gr. λύτρον is 'losprijs' formeel-equivalent (Mk. 10:45; Mt. 20:28) |
+| ure                | uur / moment — `ure` (oud-dativisch) leeft niet meer; `uur` (klok) of `moment` (eschatologisch / 'dat uur') context-afhankelijk (Mk. 13:11; 13:32; 14:35) |
+| (Hoort\|Ziet\|Zie) toe (imperatief) | luister / let op / pas op / kijk uit — SV-imperatief-formule (`hoort toe`, `ziet toe`) leeft niet meer; modern alternatief context-afhankelijk: bij waarschuwing `pas op` / `kijk uit`, bij oproep tot aandacht `luister` / `let op` (Mk. 4:3; 8:15; 13:5; 13:9; 13:23; 13:33) |
 
 Geen letterlijke vervanging als de zinsbouw eronder lijdt; herformuleer
 de zin zodat hij modern Nederlands oplevert.
