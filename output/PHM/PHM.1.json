@@ -221,6 +221,45 @@
       "generated_at": "2026-05-18T14:04:27.470104Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 22,
+      "original": "<Dit doet hy daer by op dat Philemon verstaende dat Paulus selve daer soude komen, te minder dit hem soude weygeren.> Ende bereyt my oock te gelijcke $Hebr. 13.2.$ een herberge: $Philip. 1.25.$ want ick hope dat ick <Die ghy voor mijne verlossinge doet.> door uwe gebeden u-lieden <Sal van Godt uyt genade verlost worden, ende u-lieden gelijck als uyt den doot weder gegeven worden. Siet dergelijcke wijse van spreken Actor. 27.24. Philip. 1.25.> sal geschoncken worden.",
+      "modernized": "<Dit voegt hij eraan toe, opdat Filemon, die verstaat dat Paulus zelf daar zou komen, dit hem des te minder zou weigeren.> En bereid mij ook tegelijk $Hb. 13:2$ een herberge: $Fp. 1:25$ want ik hoop dat ik <Die u voor mijn verlossing doet.> door uw gebeden u <Zal door God uit genade verlost worden, en u als uit de dood teruggegeven worden. Zie dergelijke wijze van spreken $Hd. 27:24; Fp. 1:25$> geschonken zal worden.",
+      "source_text": "ἅμα δὲ καὶ ἑτοίμαζέ μοι ξενίαν· ἐλπίζω γὰρ ὅτι διὰ τῶν προσευχῶν ὑμῶν χαρισθήσομαι ὑμῖν.",
+      "generated_at": "2026-05-18T14:11:39.909498Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 23,
+      "original": "U groeten, $Coloss. 1.7. ende 4.12.$ Epaphras mijn medegevangen in Christo Iesu,",
+      "modernized": "U groeten $Ko. 1:7; 4:12$ Epafras, mijn medegevangene in Christus Jezus,",
+      "source_text": "Ἀσπάζονταί σε Ἐπαφρᾶς ὁ συναιχμάλωτός μου ἐν Χριστῷ Ἰησοῦ,",
+      "generated_at": "2026-05-18T14:12:49.845965Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "subject": "U groeten X (VOS-volgorde)",
+          "context": "hoofdtekst, ook geldend voor v24",
+          "choice": "behoud SV-structuur \"U groeten Epafras... [en v24] Marcus...\"",
+          "alternatives": [
+            "herstructureren naar \"Epafras... groet u\""
+          ],
+          "reason": "Grieks Aspazontai staat vooraan en regeert beide verzen; herstructurering naar SVO zou versgrenzen breken. Structuur U+verbum+namen is in modern NL marginaal productief (literair/formeel); renovatie boven hervertaling (MODERNISATIE 3.1a)."
+        }
+      ]
+    },
+    {
+      "verse_number": 24,
+      "original": "$Actor. 12. versen 12, 25. ende 15.37. Coloss. 4.10. 2.Timoth. 4.11. 1.Petr. 5.13.$ Marcus, $Actor. 19.29. ende 20.4. ende 27.2. Coloss. 4.10.$ Aristarchus, $Coloss. 4.14. 2.Timoth. 4.10.$ Demas, $Coloss. 4.14. 2.Timoth. 4.11.$ Lucas, mijne mede-arbeyders.",
+      "modernized": "$Hd. 12:12,25; 15:37; Ko. 4:10; 2Tm. 4:11; 1Pt. 5:13$ Marcus, $Hd. 19:29; 20:4; 27:2; Ko. 4:10$ Aristarchus, $Ko. 4:14; 2Tm. 4:10$ Demas, $Ko. 4:14; 2Tm. 4:11$ Lucas, mijn medearbeiders.",
+      "source_text": "Μάρκος, Ἀρίσταρχος, Δημᾶς, Λουκᾶς, οἱ συνεργοί μου.",
+      "generated_at": "2026-05-18T14:13:27.807408Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 3
     }
   ],
   "epilogue": {
