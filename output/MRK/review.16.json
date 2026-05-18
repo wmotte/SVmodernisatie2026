@@ -1,0 +1,93 @@
+{
+  "book": "MRK",
+  "chapter": 16,
+  "reviewed_at": "2026-05-18T09:36:07+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-18T09:36:07+00:00",
+      "mode": "scan",
+      "issues_total": 6
+    }
+  ],
+  "issues": [
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 2,
+      "severity": "hard",
+      "quote_modernized": "…en was geweest; welke dag daarom de dag des Heeren is genoemd geworden, omdat Hi…",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'des Heeren' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de Heeren' of 'van het Heeren', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de Heeren",
+      "location": "kanttekening",
+      "id": "MRK-16-2-001",
+      "status": "rebutted",
+      "rebuttal": "'dag des Heeren' is een liturgisch-gefossiliseerde uitdrukking voor de zondag — kerklatijn 'dies Domini', Grieks 'κυριακή ἡμέρα' ($Op. 1:10$ kanttekening expliciteert exact dit referent). De kanttekening definieert hier juist deze theologische term; alternatieven als 'dag van de Heere' breken de vakterm. Vgl. NBV21 noten en HSV-handhaving in $Op. 1:10$."
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 2,
+      "severity": "soft",
+      "quote_modernized": "…e dag was nadat Hij begraven was geweest; welke dag daarom de dag des Heeren is …",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "MRK-16-2-002",
+      "status": "fixed",
+      "fix_commit": "pending"
+    },
+    {
+      "category": "SV-verbuiging (demonstratief dezer/dien/...)",
+      "verse": 11,
+      "severity": "hard",
+      "quote_modernized": "En toen dezen hoorden dat hij leefde, en door ha…",
+      "rule_reference": "ARCHAISMEN.md (SV-verbuigingen)",
+      "explanation": "'dezen hoorden' — verbogen demonstratief (SV-genitief/datief). Modern Nederlands: 'deze' / 'die' / 'in deze ...' / 'op die ...'. Gefossiliseerde uitdrukkingen ('dezer dagen', 'te dien einde') zijn whitelist; rebut zo nodig met register-argument.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "MRK-16-11-001",
+      "status": "rebutted",
+      "rebuttal": "'dezen' is hier zelfstandig gebruikt mv.-demonstratief verwijzend naar personen (= 'zij' / 'die mensen' = Maria + de discipelen die met Hem geweest waren). Volgens ANS §5.5.6.1.iii is de -n-vorm bij zelfstandig gebruik en persoonverwijzing standaard-Nederlands in hogere/formele stijl. Bijbeltaal valt onder hogere stijl; bovendien expliciteert de -n hier het onderscheid met andere groepen in de pericoop (Maria v10, twee discipelen v12-13, de elf v14)."
+    },
+    {
+      "category": "SV-verbuiging (demonstratief dezer/dien/...)",
+      "verse": 13,
+      "severity": "hard",
+      "quote_modernized": "Ook dezen gingen heen en boodschapten het aa…",
+      "rule_reference": "ARCHAISMEN.md (SV-verbuigingen)",
+      "explanation": "'dezen gingen' — verbogen demonstratief (SV-genitief/datief). Modern Nederlands: 'deze' / 'die' / 'in deze ...' / 'op die ...'. Gefossiliseerde uitdrukkingen ('dezer dagen', 'te dien einde') zijn whitelist; rebut zo nodig met register-argument.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "MRK-16-13-001",
+      "status": "rebutted",
+      "rebuttal": "Idem als v11: 'dezen' is zelfstandig gebruikt mv.-demonstratief naar de twee discipelen (v12 Emmaüsgangers). ANS §5.5.6.1.iii erkent de -n-vorm bij persoonverwijzing in hogere stijl. Hier functioneel: 'dezen' onderscheidt de twee Emmaüsgangers van 'de anderen' (de elf) waaraan zij boodschap brachten — schrappen van -n maakt het anaforisch onderscheid onduidelijker."
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 20,
+      "severity": "hard",
+      "quote_modernized": "…e prediking van zijn woord in de harten der mensen, tot hun bekering. Zie $Hd. 1…",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'der mensen' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de mensen' of 'van het mensen', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de mensen",
+      "location": "kanttekening",
+      "id": "MRK-16-20-001",
+      "status": "fixed",
+      "fix_commit": "pending"
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 20,
+      "severity": "hard",
+      "quote_modernized": "…e prediking van zijn woord in de harten der mensen, tot hun bekering. Zie $Hd. 1…",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'der mensen' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de mensen' of 'van het mensen', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de mensen",
+      "location": "kanttekening",
+      "id": "MRK-16-20-002",
+      "status": "fixed",
+      "fix_commit": "pending"
+    }
+  ]
+}
