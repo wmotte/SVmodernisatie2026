@@ -28,6 +28,7 @@ from bs4 import BeautifulSoup, Comment, NavigableString, Tag
 BOOK_TO_HSV_SLUG = {
     "LUK": "lukas",
     "MRK": "markus",
+    "PHM": "filemon",
 }
 
 
