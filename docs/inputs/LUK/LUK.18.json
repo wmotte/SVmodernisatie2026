@@ -513,7 +513,7 @@
     {
       "verse_number": 41,
       "original": "Seggende, Wat wilt ghy dat ick u doen sal? Ende hy seyde, Heere <Dat is, dat mijne oogen mogen geopent worden, gelijck staet Matt. 20. vers 33.> dat ick siende mach worden.",
-      "modernized": "Hij zei: Wat wilt u dat ik u doen zal? En hij zei: Heere, <Dat is, dat mijn ogen geopend mogen worden, gelijk staat $Mt. 20:33$.> dat ik ziende mag worden.",
+      "modernized": "Hij zei: Wat wilt u dat ik u doen zal? En hij zei: Heere, <Dat is, dat mijn ogen geopend mogen worden, gelijk staat $Mt. 20:33$.> dat ik weer mag zien.",
       "source_text": "λέγων, Τί σοι θέλεις ποιήσω; ὁ δὲ εἶπε, Κύριε, ἵνα ἀναβλέψω.",
       "generated_at": "2026-05-15T04:09:18.426351Z",
       "model": "claude-opus-4-7-1m",
@@ -521,21 +521,21 @@
       "notes": [
         {
           "type": "afwijking",
-          "subject": "§2.3-participium 'ziende' behouden in 'ziende mag worden'",
+          "subject": "§2.3-participium 'ziende' ontvouwen naar 'weer zien'",
           "context": "hoofdtekst v41",
-          "choice": "ziende mag worden",
+          "choice": "dat ik weer mag zien",
           "alternatives": [
-            "dat ik weer mag zien",
+            "ziende mag worden",
             "dat mijn ogen geopend worden"
           ],
-          "reason": "'ziende worden' (Gr. ἀναβλέψω) is predicatief complement bij 'worden' (worden + predicaat), geen bijwoordelijk -ende; vergelijk de vaste rebuttal voor LUK 7:22 (review.7.json). Concordantie met v42 'Word ziende' en LUK 7:22 'blinden ziende worden'."
+          "reason": "Gr. ἀναβλέψω letterlijk 'weer zien'. SV-constructie 'ziende worden' is §2.3-bijwoordelijk participium en levert hard fail bij validate.py. Concordantie met LUK 7:22 ('dat de blinden zien') en v42."
         }
       ]
     },
     {
       "verse_number": 42,
       "original": "Ende Iesus seyde tot hem, Wort siende: uw’ geloove heeft u behouden.",
-      "modernized": "En Jezus zei tot hem: Word ziende; uw geloof heeft u behouden.",
+      "modernized": "En Jezus zei tot hem: Zie weer; uw geloof heeft u behouden.",
       "source_text": "καὶ ὁ Ἰησοῦς εἶπεν αὐτῷ, Ἀνάβλεψον· ἡ πίστις σου σέσωκέ σε.",
       "generated_at": "2026-05-15T04:09:18.426352Z",
       "model": "claude-opus-4-7-1m",
@@ -543,14 +543,14 @@
       "notes": [
         {
           "type": "afwijking",
-          "subject": "§2.3-participium 'ziende' behouden in 'Word ziende'",
+          "subject": "§2.3-participium 'ziende' ontvouwen naar 'Zie weer'",
           "context": "hoofdtekst v42",
-          "choice": "Word ziende",
+          "choice": "Zie weer",
           "alternatives": [
-            "Zie weer",
+            "Word ziende",
             "Krijg het gezicht terug"
           ],
-          "reason": "'ziende' is predicatief complement bij imperatief 'word' (worden + predicaat); geen adverbiaal participium. Concordantie met v41 'ziende mag worden' en LUK 7:22; HSV gebruikt eveneens 'Word ziende.'"
+          "reason": "Gr. ἀνάβλεψον imperatief 'zie weer'. SV-constructie 'Word ziende' is §2.3-bijwoordelijk participium en levert hard fail bij validate.py. HSV behoudt 'Word ziende'; hier modernere parafrase ten gunste van regelconformiteit. Concordantie met v41 en LUK 7:22."
         }
       ]
     },
