@@ -31,6 +31,7 @@ BOOK_TITLES = {
     "MRK": "Het Evangelie naar Markus",
     "MAT": "Het Evangelie naar Mattheus",
     "JHN": "Het Evangelie naar Johannes",
+    "PHM": "De brief van Paulus aan Filemon",
 }
 
 # Token-grammar — segments of free text, <kanttekening>, $bibref$, [insertion].

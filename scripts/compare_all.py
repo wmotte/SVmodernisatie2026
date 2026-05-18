@@ -32,6 +32,7 @@ def strip_verse_number_prefix(text: str) -> str:
 BOOK_CHAPTERS = {
     "LUK": 24,
     "MRK": 16,
+    "PHM": 1,
 }
 
 
