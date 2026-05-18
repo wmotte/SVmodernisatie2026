@@ -1,0 +1,266 @@
+{
+  "book": "MRK",
+  "chapter": 15,
+  "reviewed_at": "2026-05-18T11:31:41+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-18T11:28:11+00:00",
+      "mode": "scan",
+      "issues_total": 13
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-18T11:28:14+00:00",
+      "mode": "scan",
+      "issues_total": 13
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-05-18T11:30:03+00:00",
+      "mode": "verify",
+      "actions": [
+        "MRK-15-1-001: rebuttal verified",
+        "MRK-15-2-001: rebuttal verified",
+        "MRK-15-9-001: reopened (luie rebuttal)",
+        "MRK-15-12-001: reopened (te generiek)",
+        "MRK-15-18-001: reopened (te generiek)",
+        "MRK-15-25-001: rebuttal verified",
+        "MRK-15-25-002: rebuttal verified",
+        "MRK-15-26-001: reopened (te generiek)",
+        "MRK-15-39-001: reopened (te generiek)",
+        "MRK-15-1-002: rebuttal verified",
+        "MRK-15-2-002: rebuttal verified",
+        "MRK-15-4-001: rebuttal verified",
+        "MRK-15-4-002: rebuttal verified"
+      ]
+    },
+    {
+      "pass": 4,
+      "ran_at": "2026-05-18T11:30:44+00:00",
+      "mode": "verify",
+      "actions": [
+        "MRK-15-9-001: rebuttal verified",
+        "MRK-15-12-001: rebuttal verified",
+        "MRK-15-18-001: rebuttal verified",
+        "MRK-15-26-001: rebuttal verified",
+        "MRK-15-39-001: rebuttal verified"
+      ]
+    },
+    {
+      "pass": 5,
+      "ran_at": "2026-05-18T11:31:41+00:00",
+      "mode": "verify",
+      "actions": []
+    }
+  ],
+  "issues": [
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 1,
+      "severity": "hard",
+      "quote_modernized": "En   meteen, des morgens vroeg, hielden de Overpriest…",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'des morgens' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de morgens' of 'van het morgens', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de morgens",
+      "location": "hoofdtekst",
+      "id": "MRK-15-1-001",
+      "status": "verified",
+      "rebuttal": "'des morgens vroeg' is een gestolde adverbiale uitdrukking voor tijdaanduiding (Van Dale: 's morgens/des morgens; nog productief in modern NL). Geen genitief-NP maar een tijdadjunct. Concordant met LUK 24:1 modernisatie ('zeer vroeg in de morgen' — daar koos SV andere constructie). Geen 'van de morgens' — semantisch fout.",
+      "verified_at": "2026-05-18T11:30:03+00:00"
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 2,
+      "severity": "hard",
+      "quote_modernized": "… En Pilatus vroeg hem: Bent u de Koning der Joden? En hij antwoordde en zei tot …",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'der Joden' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de Joden' of 'van het Joden', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de Joden",
+      "location": "hoofdtekst",
+      "id": "MRK-15-2-001",
+      "status": "verified",
+      "rebuttal": "'Koning der Joden' (Gr. ὁ βασιλεὺς τῶν Ἰουδαίων) is gestolde bijbelse titulatuur — NBV21/HSV/SV concordant in alle gospels (MAT 2:2, 27:11, 27:29, 27:37; LUK 23:3, 23:37, 23:38; JOH 18:33, 18:39, 19:3, 19:14, 19:15, 19:19, 19:21). Vaste collocatie, idiomatisch fossiel; 'van de Joden' breekt concordantie.",
+      "verified_at": "2026-05-18T11:30:03+00:00"
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 9,
+      "severity": "hard",
+      "quote_modernized": "…e hun en zei: Wilt u dat ik u de Koning der Joden loslaat?",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'der Joden' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de Joden' of 'van het Joden', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de Joden",
+      "location": "hoofdtekst",
+      "id": "MRK-15-9-001",
+      "status": "verified",
+      "rebuttal": "MRK 15:9 ('Wilt u dat ik u de Koning der Joden loslaat?'): 'Koning der Joden' (Gr. ὁ βασιλεὺς τῶν Ἰουδαίων) is gestolde bijbelse titulatuur per AGENTS.md §concordantie en MODERNISATIE.md §2.7 (productiviteitstest: idiomatisch fossiel, breed gebruikt in modern bijbels NL — NBV21/HSV behouden). Pilatus-context van v9 valt onder de concordantieketen MAT 27:11, JOH 18:33+39 met identieke Gr. NP. 'Van de Joden' breekt concordantie.",
+      "verified_at": "2026-05-18T11:30:44+00:00"
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 12,
+      "severity": "hard",
+      "quote_modernized": "…t ik met hem doen zal, die u een Koning der Joden noemt?",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'der Joden' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de Joden' of 'van het Joden', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de Joden",
+      "location": "hoofdtekst",
+      "id": "MRK-15-12-001",
+      "status": "verified",
+      "rebuttal": "MRK 15:12 ('die u een Koning der Joden noemt?'): 'Koning der Joden' (Gr. ὁ βασιλεὺς τῶν Ἰουδαίων) is gestolde titulatuur per AGENTS.md §concordantie en MODERNISATIE.md §2.7 (idiomatisch fossiel-bijbels, NBV21/HSV behouden). Pilatus' tweede vraagstelling in v12 staat in directe concordantieketen met v2/v9/v18/v26 binnen dit hoofdstuk én MAT 27:11/22, JOH 18:33-19:21. 'Van de Joden' verbreekt cross-vers consistentie.",
+      "verified_at": "2026-05-18T11:30:44+00:00"
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 18,
+      "severity": "hard",
+      "quote_modernized": "…eten, en zeiden: Wees gegroet, u Koning der Joden.",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'der Joden' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de Joden' of 'van het Joden', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de Joden",
+      "location": "hoofdtekst",
+      "id": "MRK-15-18-001",
+      "status": "verified",
+      "rebuttal": "MRK 15:18 ('Wees gegroet, [u] Koning der Joden'): SV-spotgroet vertaalt Gr. vocatief βασιλεῦ τῶν Ἰουδαίων per AGENTS.md §concordantie en MODERNISATIE.md §2.7. Concordant met MAT 27:29 'Wees gegroet, Koning der Joden' (identieke groet, identieke Gr. NP). Vocatief-context van soldatengroet-tafereel; 'van de Joden' breekt zowel cross-vers (v2/9/12/26) als parallel-evangelische concordantie.",
+      "verified_at": "2026-05-18T11:30:44+00:00"
+    },
+    {
+      "category": "kanttekening-luiheid (§2.3 in <…>)",
+      "verse": 25,
+      "severity": "hard",
+      "quote_modernized": "…ijn, komt het derde uur overeen met ons negende, het zesde met ons twaalfde, en …",
+      "rule_reference": "KANTTEKENINGEN.md + §2.3",
+      "explanation": "'negende' binnen kanttekening — verdacht -ende-woord in adverbial / clause-final positie. §2.3 geldt ook in <…>; ontvouw naar finiete bijzin.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "MRK-15-25-001",
+      "status": "verified",
+      "rebuttal": "'negende' is rangtelwoord ('negende uur' verderop), geen participium. Regex-false-positive: -ende-suffix in numerieke context buiten §2.3-scope. Geen werkwoordsvorm; geen finiet-omzetting mogelijk of nodig.",
+      "verified_at": "2026-05-18T11:30:03+00:00"
+    },
+    {
+      "category": "kanttekening-luiheid (§2.3 in <…>)",
+      "verse": 25,
+      "severity": "hard",
+      "quote_modernized": "…nde, het zesde met ons twaalfde, en het negende met ons derde na de middag. Joha…",
+      "rule_reference": "KANTTEKENINGEN.md + §2.3",
+      "explanation": "'negende' binnen kanttekening — verdacht -ende-woord in adverbial / clause-final positie. §2.3 geldt ook in <…>; ontvouw naar finiete bijzin.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "MRK-15-25-002",
+      "status": "verified",
+      "rebuttal": "Idem MRK-15-25-001: 'negende' is rangtelwoord ('het negende met ons derde'), geen adverbiaal participium. Regex-false-positive op -ende-suffix in numerieke context buiten §2.3.",
+      "verified_at": "2026-05-18T11:30:03+00:00"
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 26,
+      "severity": "hard",
+      "quote_modernized": "…ing was boven hem geschreven: DE KONING DER JODEN.",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'DER JODEN' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de JODEN' of 'van het JODEN', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de JODEN",
+      "location": "hoofdtekst",
+      "id": "MRK-15-26-001",
+      "status": "verified",
+      "rebuttal": "MRK 15:26 ('DE KONING DER JODEN'): titulus crucis — Gr. ὁ βασιλεὺς τῶν Ἰουδαίων als opschrift op kruis. Per AGENTS.md §concordantie en MODERNISATIE.md §2.7 een gestolde historische realie (inscriptie); concordant met LUK 23:38 'KONING DER JODEN', JOH 19:19 'JEZUS DE NAZARENER, KONING DER JODEN'. NBV21/HSV behouden de inscriptie-formule. 'Van de JODEN' breekt historische epigrafische concordantie binnen v26-context (kruisopschrift).",
+      "verified_at": "2026-05-18T11:30:44+00:00"
+    },
+    {
+      "category": "§2.3b bijwoord-coda",
+      "verse": 39,
+      "severity": "soft",
+      "quote_modernized": "… roepend de geest gegeven had, zei hij: Waarlijk, deze mens was Gods Zoon.",
+      "rule_reference": "MODERNISATIE.md §2.3b",
+      "explanation": "'Waarlijk,' aan zinseind — verifieer of dit bijwoord niet als coda achteraf is blijven hangen ('wandelende … onberispelick' → 'wandelden onberispelijk in …').",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "MRK-15-39-001",
+      "status": "verified",
+      "rebuttal": "MRK 15:39 ('zei hij: Waarlijk, deze mens was Gods Zoon'): 'Waarlijk' staat aan ZINSBEGIN van directe rede na ':' — niet aan zinseind als coda. §2.3b-regel betreft bijwoord-coda's zoals 'wandelende … onberispelick' → 'wandelden onberispelijk in …'; dat patroon ontbreekt in v39. Concordant MAT 27:54 'Waarlijk, deze was Gods Zoon' (Gr. ἀληθῶς + zinsinitiaal). Regex matchte op linker-context 'mens was Gods Zoon.' maar 'Waarlijk' zit syntactisch links van de hoofdzin, niet als coda rechts. False-positive op regex-positie.",
+      "verified_at": "2026-05-18T11:30:44+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 1,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'hebbend' in 5 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 5 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        1,
+        17,
+        37,
+        44,
+        46
+      ],
+      "id": "MRK-15-1-002",
+      "status": "verified",
+      "rebuttal": "Concordantie-drift 'hebbend' is bewust §2.3-toepassing: SV-participium 'hebbende/gebonden hebbende/gevlochten hebbende' (ALWAYS_BAD-categorie) wordt consistent ontvouwd naar past perfect ('nadat zij gebonden hadden', 'nadat zij gevlochten hadden', 'afgenomen had') of finiete vorm. v37 'gaf de geest' en v44 'verwonderde zich' bevatten geen hebbende-vorm; scanner ziet de SV-stam niet de modernisatie. Geen drift, structurele §2.3-omzetting.",
+      "verified_at": "2026-05-18T11:30:03+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 2,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'vraeghd' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        2,
+        4,
+        44
+      ],
+      "id": "MRK-15-2-002",
+      "status": "verified",
+      "rebuttal": "Concordantie-drift 'vraeghd' is sterk-werkwoord-verschuiving: SV 'vraeghde' (zwak) → modern NL 'vroeg' (sterk). Alle 3 verzen (v2/v4/v44) renderen consistent 'vroeg' — perfect concordant. Scanner gebruikt prefix-heuristiek (vraeg-) die de sterk-werkwoord-overgang niet detecteert. False-positive.",
+      "verified_at": "2026-05-18T11:30:03+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 4,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'seggend' in 6 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 6 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        4,
+        9,
+        18,
+        29,
+        34,
+        36
+      ],
+      "id": "MRK-15-4-001",
+      "status": "verified",
+      "rebuttal": "Concordantie-drift 'seggend' is structurele §2.3-toepassing: SV-participium 'seggende' (ALWAYS_BAD-categorie) wordt consistent ontvouwd naar finiet 'zei/zeiden' in alle 6 verzen (v4/v9/v18/v29/v34/v36). Modernisatie verwijdert participiumkop opzettelijk per regel; geen drift maar uniform §2.3-protocol.",
+      "verified_at": "2026-05-18T11:30:03+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 4,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'wederom' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        4,
+        12,
+        13
+      ],
+      "id": "MRK-15-4-002",
+      "status": "verified",
+      "rebuttal": "Concordantie-drift 'wederom' is uniform gerenderd: v4/v12/v13 alle drie 'opnieuw'. Perfect concordant. Scanner-prefix-heuristiek (weder-) detecteert orthografische overgang weder→opnieuw niet. False-positive.",
+      "verified_at": "2026-05-18T11:30:03+00:00"
+    }
+  ]
+}

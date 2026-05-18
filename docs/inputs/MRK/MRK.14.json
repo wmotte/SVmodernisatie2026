@@ -330,11 +330,24 @@
     {
       "verse_number": 35,
       "original": "$Luce 22.41.$ Ende een weynigh voort gegaen zijnde viel hy op de aerde, ende badt, soo’t mogelick ware, dat <Namelick, van dit swaer aenstaende lijden. Van dit geheel gebedt siet de aenteeck. Matt. 26. vers 39.> die ure van hem voorby ginge.",
-      "modernized": "$Lk. 22:41$ En toen hij een weinig verder gegaan was, viel hij op de aarde, en bad, dat, zo het mogelijk was, <Namelijk, van dit zware aanstaande lijden. Van dit hele gebed zie de aantekening $Mt. 26:39$.> die ure van hem voorbij zou gaan.",
+      "modernized": "$Lk. 22:41$ En toen hij een weinig verder gegaan was, viel hij op de aarde, en bad, dat, zo het mogelijk was, <Namelijk, van dit zware aanstaande lijden. Van dit hele gebed zie de aantekening $Mt. 26:39$.> dat uur van hem voorbij zou gaan.",
       "source_text": "καὶ προελθὼν μικρόν, ἔπεσεν ἐπὶ τῆς γῆς, καὶ προσηύχετο ἵνα, εἰ δυνατόν ἐστι, παρέλθῃ ἀπ’ αὐτοῦ ἡ ὥρα.",
-      "generated_at": "2026-05-18T05:23:34.174387Z",
+      "generated_at": "2026-05-18T12:05:26.641775Z",
       "model": "claude-opus-4-7[1m]",
-      "memory_examples_used": 5
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "ure → uur",
+          "context": "hoofdtekst",
+          "choice": "dat uur",
+          "alternatives": [
+            "dat moment",
+            "die ure"
+          ],
+          "reason": "meta-review bucket-B fix: ure staat in DREMPEL_ARCHAISMEN. Getsemane-lijdensuur is bijbels-traditioneel uur (parallel Mk. 14:41 ook uur); modern NL uur is hier productief en idiomatisch."
+        }
+      ]
     },
     {
       "verse_number": 36,
@@ -592,7 +605,7 @@
     {
       "verse_number": 62,
       "original": "Ende Iesus seyde, Ick ben het: $Dan. 7.13. Matth. 16.27. ende 24.30. ende 25.31. Luce 21.27. Actor. 1.11. 1.Thess. 4.16. 2.Thess. 1.10. Apoc. 1.7.$ Ende ghylieden sult den Sone des menschen sien sitten <Dat is, aen de krachtige rechter hant Godts.> ter rechter [hant] der kracht [Godts,] ende komen <D. op de wolcken, Matth. 26.64. Ofte in de wolcken, gelijck Marc. 13.26.> met de wolcken des hemels.",
-      "modernized": "En Jezus zei: Ik ben het. $Dn. 7:13; Mt. 16:27; 24:30; 25:31; Lk. 21:27; Hd. 1:11; 1Th. 4:16; 2Th. 1:10; Op. 1:7$ En u zult de Zoon des mensen zien zitten <Dat is, aan de krachtige rechterhand van God.> aan de rechter [hand] van de kracht [Gods,] en komen <Dat is, op de wolken, $Mt. 26:64$. Of in de wolken, zoals $Mk. 13:26$.> met de wolken van de hemel.",
+      "modernized": "En Jezus zei: Ik ben het. $Dn. 7:13; Mt. 16:27; 24:30; 25:31; Lk. 21:27; Hd. 1:11; 1Th. 4:16; 2Th. 1:10; Op. 1:7$ En u zult de Zoon des mensen zien zitten <Dat is, aan de krachtige rechterhand van God.> aan de rechter [hand] van de kracht [Gods,] en komen <Dat is, op de wolken, $Mt. 26:64$ Of in de wolken, zoals $Mk. 13:26$.> met de wolken van de hemel.",
       "source_text": "ὁ δὲ Ἰησοῦς εἶπεν, Ἐγώ εἰμι. καὶ ὄψεσθε τὸν Υἱὸν τοῦ ἀνθρώπου καθήμενον ἐκ δεξιῶν τῆς δυνάμεως, καὶ ἐρχόμενον μετὰ τῶν νεφελῶν τοῦ οὐρανοῦ.",
       "generated_at": "2026-05-18T06:15:35.687452Z",
       "model": "claude-opus-4-7[1m]",
