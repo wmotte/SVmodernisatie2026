@@ -1,0 +1,87 @@
+{
+  "book": "MRK",
+  "chapter": 13,
+  "reviewed_at": "2026-05-17T21:32:29+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-17T21:32:29+00:00",
+      "mode": "scan",
+      "issues_total": 6
+    }
+  ],
+  "issues": [
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 14,
+      "severity": "hard",
+      "quote_modernized": "  Wanneer u dan zult zien de   gruwel der verwoesting, waarvan door de Profeet…",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'der verwoesting' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de verwoesting' of 'van het verwoesting', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de verwoesting",
+      "location": "hoofdtekst",
+      "id": "MRK-13-14-001",
+      "status": "open"
+    },
+    {
+      "category": "aanvoegende wijs (gebod)",
+      "verse": 15,
+      "severity": "soft",
+      "quote_modernized": "En wie op   het dak is, die kome niet af in het huis, en ga niet…",
+      "rule_reference": "ARCHAISMEN.md (SV-werkwoordsvormen)",
+      "explanation": "'die kome' — SV-aanvoegende wijs als gebod/wens. Modern Nederlands: 'laat die komen' of 'die moet ...'. Soft: subjunctief in plechtig modern register komt nog voor.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "MRK-13-15-001",
+      "status": "open"
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 19,
+      "severity": "soft",
+      "quote_modernized": "… die dagen zullen zulke verdrukking zijn, welker gelijke niet geweest is van het…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welker' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "MRK-13-19-001",
+      "status": "open"
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 20,
+      "severity": "soft",
+      "quote_modernized": "En indien de Heere de dagen niet   verkort …",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "MRK-13-20-001",
+      "status": "open"
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 22,
+      "severity": "soft",
+      "quote_modernized": "…en en wonderen   doen, om te verleiden, indien het mogelijk ware, ook de uitverk…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "MRK-13-22-001",
+      "status": "open"
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 24,
+      "severity": "hard",
+      "quote_modernized": "En nadat de tijden der Heidenen ook zullen vervuld zijn, zo…",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'der Heidenen' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de Heidenen' of 'van het Heidenen', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de Heidenen",
+      "location": "kanttekening",
+      "id": "MRK-13-24-001",
+      "status": "open"
+    }
+  ]
+}
