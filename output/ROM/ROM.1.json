@@ -326,6 +326,161 @@
           "reason": "Semantic-review/HSV-spiegel: SV 'in de begeerlickheden' (Gr. ἐν ταῖς ἐπιθυμίαις, locatief/instrumenteel) — God gaf hen over IN/DOOR hun begeerten, niet AAN hun begeerten als ontvanger. HSV bevestigt 'in de begeerten'. 'aan' verschuift de constructie semantisch; teruggebracht naar SV/Grieks-conforme 'in'."
         }
       ]
+    },
+    {
+      "verse_number": 25,
+      "original": "[Als] die <D. de kennisse die sy van Godt hadden. Siet vers 18.> de waerheyt Godts <Ofte, verwisselt voor leugenachtige versierselen van ydele goden ende godtsdiensten.> verandert hebben in de leugen, ende het schepsel ge-eert ende gedient hebben <D. meer dan den Schepper selve, die sy nevens hare afgoden wel somwijlen, maer weynigh hebben gedient, Actor. 17.23. ofte oock den Schepper voorby gaende, dien ’t meerder deel van haer noch en hebben gekent noch gedient, Galat. 4.8.> boven den Schepper, die te prijsen is in der eeuwighet, Amen.",
+      "modernized": "[namelijk] zij die <Dat is, de kennis die zij van God hadden. Zie vers 18.> de waarheid Gods <Of, verwisseld voor leugenachtige verzinsels van ijdele goden en godsdiensten.> veranderd hebben in de leugen, en het schepsel geëerd en gediend hebben <Dat is, meer dan de Schepper zelf, die zij naast hun afgoden wel somtijds, maar weinig hebben gediend, $Hd. 17:23$, of ook met voorbijgaan van de Schepper, die het meerdere deel van hen noch heeft gekend noch gediend, $Gl. 4:8$.> boven de Schepper, die te prijzen is tot in eeuwigheid, Amen.",
+      "source_text": "οἵτινες μετήλλαξαν τὴν ἀλήθειαν τοῦ Θεοῦ ἐν τῷ ψεύδει, καὶ ἐσεβάσθησαν καὶ ἐλάτρευσαν τῇ κτίσει παρὰ τὸν κτίσαντα, ὅς ἐστιν εὐλογητὸς εἰς τοὺς αἰῶνας. ἀμήν.",
+      "generated_at": "2026-05-19T15:48:39.370811Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "[Als] -> [namelijk]",
+          "context": "hoofdtekst, opening",
+          "choice": "[namelijk] zij die",
+          "alternatives": [
+            "[als] die"
+          ],
+          "reason": "SV [Als] hier in apponerende betekenis (= namelijk/te weten), niet comparatief. Modern als = comparatief/voorbeeld; false friend. Idem v.18, daar al toegepast."
+        },
+        {
+          "type": "afwijking",
+          "subject": "versierselen -> verzinsels",
+          "context": "kanttekening 2",
+          "choice": "leugenachtige verzinsels",
+          "alternatives": [
+            "versierselen (decoratie, false friend)",
+            "fabrikaten"
+          ],
+          "reason": "SV versierselen hier = bedenksels/fabricaties (vgl. v.21 versieren -> verzinnen); modern versiersel = ornament. False friend, concordant gemoderniseerd."
+        },
+        {
+          "type": "afwijking",
+          "subject": "voorby gaende -> met voorbijgaan van",
+          "context": "kanttekening 3",
+          "choice": "met voorbijgaan van de Schepper",
+          "alternatives": [
+            "voorbijgaande aan de Schepper (ppr.)",
+            "de Schepper voorbijgaande"
+          ],
+          "reason": "§2.3 — participium praesens voorbijgaande ontvouwd. Nominalisatie (met voorbijgaan van) houdt zinsbouw en betekenis intact; vermijdt drempel-archaisme."
+        },
+        {
+          "type": "afwijking",
+          "subject": "in der eeuwighet -> tot in eeuwigheid",
+          "context": "hoofdtekst, doxologie",
+          "choice": "tot in eeuwigheid",
+          "alternatives": [
+            "in der eeuwigheid (renoveren maar genitief blijft stug)",
+            "tot in der eeuwigheid"
+          ],
+          "reason": "SV in der eeuwighet (Gr. eis tous aionas) = de gangbare doxologie-formule. Genitief der is in modern NL niet meer productief in deze constructie; tot in eeuwigheid is de productieve modern-NL doxologie en concordant met latere ROM-doxologieën."
+        }
+      ]
+    },
+    {
+      "verse_number": 26,
+      "original": "Daerom heeftse Godt over gegeven $Levit. 18.22, 23$ tot <Gr. bewegingen der oneere, D. oneerlicke ofte schandelicke bewegingen. Want gelijck 1.Thess. 4.4, 5. wy vermaent worden ons vat te besitten in eere, dat is, onse lichamen te onthouden van onkuysheyt, alsoo de gene die haer tot onkuysheyt begeven, die onteeren haer selven ende hare lichamen, 1.Corinth. 6.18. voornamelick die sulcke stomme sonden doe bedreven, het zy datse sulcks deden, ofte leden.> oneerlicke bewegingen. Want oock hare vrouwen hebben ’t natuerlick gebruyck verandert in het [gebruyck] tegen nature.",
+      "modernized": "Daarom heeft God hen overgegeven $Lv. 18:22,23$ tot <Grieks: hartstochten van oneer, dat is, oneerbare of schandelijke hartstochten. Want zoals $1Th. 4:4,5$ wij vermaand worden ons vat te bezitten in eer, dat is, onze lichamen te onthouden van onkuisheid, zo onteren degenen die zich tot onkuisheid begeven zichzelf en hun lichamen, $1Kor. 6:18$, voornamelijk zij die zulke onnoembare zonden toen bedreven, of het nu was dat zij dit deden of ondergingen.> oneerbare hartstochten. Want ook hun vrouwen hebben het natuurlijke gebruik veranderd in het [gebruik] tegen de natuur.",
+      "source_text": "Διὰ τοῦτο παρέδωκεν αὐτοὺς ὁ Θεὸς εἰς πάθη ἀτιμίας· αἵ τε γὰρ θήλειαι αὐτῶν μετήλλαξαν τὴν φυσικὴν χρῆσιν εἰς τὴν παρὰ φύσιν·",
+      "generated_at": "2026-05-19T15:49:55.289582Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "oneerlicke bewegingen -> oneerbare hartstochten",
+          "context": "hoofdtekst + kanttekening",
+          "choice": "oneerbare hartstochten",
+          "alternatives": [
+            "oneerlijke bewegingen (false friend)",
+            "schandelijke aandoeningen",
+            "oneerbare aandoeningen"
+          ],
+          "reason": "SV oneerlick = oneerbaar (Gr. ἀτιμίας); modern oneerlijk = bedrieglijk -> false friend. SV bewegingen (Gr. πάθη) = passies/hartstochten, niet fysieke beweging. Concordant met aankondiging in kantt. v.24 (hartstochten)."
+        },
+        {
+          "type": "afwijking",
+          "subject": "stomme sonden -> onnoembare zonden",
+          "context": "kanttekening",
+          "choice": "onnoembare zonden",
+          "alternatives": [
+            "stomme zonden (semantisch leeg in modern NL)",
+            "zwijgende zonden",
+            "sodomitische zonden"
+          ],
+          "reason": "SV stom hier = onuitsprekelijk/niet bij naam te noemen (peccata muta — vaste traditie voor sodomie). Modern stom = dom of mute. Onnoembare zonden bewaart het kantt.-eufemisme zonder te concretiseren."
+        },
+        {
+          "type": "afwijking",
+          "subject": "doe bedreven -> toen bedreven",
+          "context": "kanttekening",
+          "choice": "zij die zulke onnoembare zonden toen bedreven",
+          "alternatives": [
+            "destijds bedreven",
+            "ten tijde van Paulus bedreven"
+          ],
+          "reason": "SV doe is verouderd voor toen (temporeel adverb)."
+        },
+        {
+          "type": "afwijking",
+          "subject": "het zy datse sulcks deden, ofte leden",
+          "context": "kanttekening, slot",
+          "choice": "of het nu was dat zij dit deden of ondergingen",
+          "alternatives": [
+            "of zij dit nu deden of leden",
+            "actief of passief"
+          ],
+          "reason": "SV leden = ondergingen (passief seksueel ondergaan, vgl. patior); modern leden = ledematen (false friend) of leed (verleden tijd lijden). Ondergingen vangt de passieve rol modern."
+        },
+        {
+          "type": "context",
+          "subject": "vat te besitten in eer",
+          "context": "kanttekening",
+          "choice": "vat te bezitten in eer",
+          "alternatives": [
+            "zijn lichaam in eer te houden"
+          ],
+          "reason": "SV citeert 1Th. 4:4 letterlijk; HSV doet idem (skeuos kektasthai en time). Behoud lexicale equivalentie van het bijbelse vat-beeld."
+        }
+      ]
+    },
+    {
+      "verse_number": 27,
+      "original": "Ende insgelijcks oock de mannen nalatende het natuerlick gebruyck der vrouwe, zijn verhittet geworden in haren lust tegen malkanderen, mannen met mannen schandelickheyt bedrijvende, ende <D. de rechtveerdige straffe van haren afgodendienst ofte den rechten loon. Want de afgodendienst, die geestelicke hoererije is, wort gemeenlick van Godt gestraft met lichamelicke, gelijck men die twee sonden gemeenlick by malkanderen siet regneeren. Siet Numer. 25.1, 2. Apoc. 17. versen 1, 2, etc.> de vergeldinge van hare dwalinge, die [daer toe] behoorde, in haer selven ontfangende.",
+      "modernized": "En evenzo hebben ook de mannen het natuurlijke gebruik van de vrouw verlaten en zijn zij verhit geworden in hun lust jegens elkaar, en zij hebben mannen met mannen schandelijkheid bedreven, en hebben <Dat is, de rechtvaardige straf van hun afgodendienst of het rechte loon. Want de afgodendienst, die geestelijke hoererij is, wordt gewoonlijk door God gestraft met lichamelijke, zoals men deze twee zonden gewoonlijk samen ziet heersen. Zie $Nm. 25:1,2; Op. 17:1,2$, etc.> de vergelding van hun dwaling, die [daartoe] behoorde, in zichzelf ontvangen.",
+      "source_text": "ὁμοίως τε καὶ οἱ ἄρσενες, ἀφέντες τὴν φυσικὴν χρῆσιν τῆς θηλείας, ἐξεκαύθησαν ἐν τῇ ὀρέξει αὐτῶν εἰς ἀλλήλους, ἄρσενες ἐν ἄρσεσι τὴν ἀσχημοσύνην κατεργαζόμενοι, καὶ τὴν ἀντιμισθίαν ἣν ἔδει τῆς πλάνης αὐτῶν ἐν ἑαυτοῖς ἀπολαμβάνοντες.",
+      "generated_at": "2026-05-19T15:51:20.609447Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "drie participia praesentia ontvouwd",
+          "context": "hoofdtekst",
+          "choice": "finiete coordinatieketen: hebben verlaten, zijn verhit geworden, hebben bedreven, hebben ontvangen",
+          "alternatives": [
+            "nalatende ... bedrijvende ... ontvangende (deelwoordstapeling, drempel-archaisch)",
+            "behouden in laatste positie (ontvangen)"
+          ],
+          "reason": "§2.3 — drie -ende-participia in een ritmische SV-keten zijn samen onleesbaar in modern NL. Finiete coordinatie houdt syntactische helderheid. Drempel-archaisme van Romeinen 1 vereist de zwaarste renovatie hier."
+        },
+        {
+          "type": "afwijking",
+          "subject": "regneeren -> heersen",
+          "context": "kanttekening",
+          "choice": "samen ziet heersen",
+          "alternatives": [
+            "regneren (uitsterft latinisme)",
+            "gedijen",
+            "floreren"
+          ],
+          "reason": "SV regneeren = regeren/heersen (lat. regnare); modern regneren is geen courant woord. Heersen vangt de SV-betekenis (overheersend voorkomen) productief modern."
+        }
+      ]
     }
   ]
 }
