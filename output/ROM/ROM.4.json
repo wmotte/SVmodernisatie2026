@@ -175,6 +175,46 @@
       "generated_at": "2026-05-19T21:30:15.649024Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 19,
+      "original": "Ende niet verswackt zijnde in het geloove, en heeft hy sijn eygen lichaem <Namelick, om uyt de aenmerckinge der swackheyt, in sijn betrouwen geswackt te worden. Want andersins heeft hy selfs sijnen ouderdom ende den ouderdom van Sara Gode voorgehouden, Genes. cap.17. vers 17.> niet aengemerckt, dat alreede verstorven was, soo hy ontrent hondert jaren oudt was, [noch] oock <Gr. de verstorvenheyt des baermoeders van Sara.> dat de moeder in Sara verstorven was.",
+      "modernized": "En zonder in het geloof te verzwakken, heeft hij zijn eigen lichaam <Namelijk, om uit de aanmerking van de zwakheid in zijn vertrouwen verzwakt te worden. Want anders heeft hij zelfs zijn ouderdom en de ouderdom van Sara aan God voorgehouden, $Gn. 17:17$.> niet aangemerkt, dat reeds verstorven was, daar hij ongeveer honderd jaar oud was, [noch] ook <Grieks: de verstorvenheid van de baarmoeder van Sara.> dat de moederschoot in Sara verstorven was.",
+      "source_text": "καὶ μὴ ἀσθενήσας τῇ πίστει, οὐ κατενόησε τὸ ἑαυτοῦ σῶμα ἤδη νενεκρωμένον, ἑκατονταέτης που ὑπάρχων, καὶ τὴν νέκρωσιν τῆς μήτρας Σάρρας·",
+      "generated_at": "2026-05-19T21:35:48.139941Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "twijfel",
+          "subject": "de moeder in Sara",
+          "context": "hoofdtekst slot",
+          "choice": "de moederschoot in Sara",
+          "alternatives": [
+            "de moeder in Sara",
+            "de baarmoeder van Sara"
+          ],
+          "reason": "SV1657 gebruikt moeder in de verouderde betekenis baarmoeder (vgl. de Griekse kanttekening verstorvenheyt des baermoeders); modern moeder dekt die betekenis niet meer, daarom moederschoot."
+        }
+      ]
+    },
+    {
+      "verse_number": 20,
+      "original": "$Ioan. 8.56. Hebr. cap. 11. versen 11, 18.$ Ende hy en heeft <Dit is het ander steunsel van het geloove Abrahams, Namelick, de versekertheyt die hy hadde van Godts trouwe ende stantvastigheyt in sijne beloften, Hebr. cap. 6. versen 17, 18.> aen de beloftenisse Godts niet getwijffelt door ongeloove: maer is gesterckt geweest in ’t geloove, <Dat is, hier mede betoonende te gelooven dat Godt konde en soude doen het gene hy belooft hadde: ende heeft alsoo verzegelt dat Godt waerachtigh is. Ioan. 3. vers 33.> gevende Godt de eere:",
+      "modernized": "$Jh. 8:56; Hb. 11:11,18$ En hij heeft <Dit is het tweede steunsel van het geloof van Abraham, Namelijk, de verzekerdheid die hij had van Gods trouw en standvastigheid in zijn beloften, $Hb. 6:17,18$.> aan de belofte Gods niet getwijfeld door ongeloof, maar is gesterkt geweest in het geloof, <Dat is, hiermee betonende te geloven dat God kon en zou doen wat hij beloofd had, en heeft zo verzegeld dat God waarachtig is. $Jh. 3:33$.> en heeft God de eer gegeven:",
+      "source_text": "εἰς δὲ τὴν ἐπαγγελίαν τοῦ Θεοῦ οὐ διεκρίθη τῇ ἀπιστίᾳ, ἀλλ’ ἐνεδυναμώθη τῇ πίστει, δοὺς δόξαν τῷ Θεῷ,",
+      "generated_at": "2026-05-19T21:36:12.500678Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 21,
+      "original": "$Psalm 115.3.$ Ende ten vollen versekert zijnde dat het gene belooft was, hy oock <Namelick, al scheen het tegen alle menschelicke reden te zijn.> machtigh was te doen.",
+      "modernized": "$Ps. 115:3$ En hij was er ten volle van verzekerd dat hij ook <Namelijk, al scheen het tegen alle menselijke rede te zijn.> machtig was te doen wat beloofd was.",
+      "source_text": "καὶ πληροφορηθεὶς ὅτι ὃ ἐπήγγελται, δυνατός ἐστι καὶ ποιῆσαι.",
+      "generated_at": "2026-05-19T21:36:31.143185Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
