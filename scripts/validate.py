@@ -529,6 +529,14 @@ def _check_cap_form(orig_word: str, modern_text: str) -> str:
     return "missing"
 
 
+# ALL-CAPS tokens die WEL letterlijk in caps bewaard moeten blijven (escape-hatch
+# voor toekomstige uitzonderingen; nu leeg). Per AGENTS.md §5 zijn ALL-CAPS
+# tokens van ≥3 letters standaard SV-drukkersconventie (heilige namen mid-zin,
+# brief-opener/colofon-auteursnaam) en worden in modern zinsstijl. Voeg een
+# token toe als er een uitzondering bewezen is.
+ALL_CAPS_PRESERVE: frozenset[str] = frozenset()
+
+
 def _check_caps(orig_text: str, mod_text: str, location: str) -> tuple[list[str], list[str]]:
     """Hoofdletter-discipline check, herbruikbaar voor hoofdtekst, kanttekening
     of meta-secties (intro/epilogue).
@@ -543,6 +551,11 @@ def _check_caps(orig_text: str, mod_text: str, location: str) -> tuple[list[str]
     orig_caps = _capitalized_words(orig_text)
     for word in orig_caps:
         if len(word) < 3:
+            continue
+        # AGENTS.md §5 Uitzondering 2: ALL-CAPS tokens (≥3 letters) zijn
+        # SV-drukkersconventie tenzij in ALL_CAPS_PRESERVE — skip cap-check
+        # zodat `PAULUS`/`CHRISTI JESU` in modern naar zinsstijl mogen.
+        if word.isupper() and word not in ALL_CAPS_PRESERVE:
             continue
         status = _check_cap_form(word, mod_text)
         if status == "caseflip":
