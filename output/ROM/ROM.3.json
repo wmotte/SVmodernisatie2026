@@ -115,6 +115,33 @@
       "generated_at": "2026-05-19T19:19:24.783128Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 13,
+      "original": "$Psalm 5.10.$ Hare kele is <Namelick, daer niet dan vuyligheyt in en is, ende niet dan stanck uyt komt.> een geopent graf: met hare tongen plegen sy bedrogh: $Psalm 140.4.$ <D. dootlick vergift van quaet spreken.> slangen fenijn is onder hare lippen:",
+      "modernized": "$Ps. 5:10$ Hun keel is <Namelijk, waarin niets dan vuiligheid is, en waaruit niets dan stank komt.> een geopend graf; met hun tongen plegen zij bedrog; $Ps. 140:4$ <Dat is, dodelijk venijn van kwaadspreken.> slangenvenijn is onder hun lippen:",
+      "source_text": "τάφος ἀνεῳγμένος ὁ λάρυγξ αὐτῶν, ταῖς γλώσσαις αὐτῶν ἐδολιοῦσαν· ἰὸς ἀσπίδων ὑπὸ τὰ χείλη αὐτῶν·",
+      "generated_at": "2026-05-19T19:23:24.964695Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 14,
+      "original": "$Psalm 10.7.$ Welcker mont is vol van vervloeckinge ende bitterheyt:",
+      "modernized": "$Ps. 10:7$ Hun mond is vol van vervloeking en bitterheid:",
+      "source_text": "ὧν τὸ στόμα ἀρᾶς καὶ πικρίας γέμει·",
+      "generated_at": "2026-05-19T19:23:47.249788Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 4
+    },
+    {
+      "verse_number": 15,
+      "original": "$Prov. 1.16. Iesa. 59.7.$ Hare voeten zijn snel om <D. allerley wreetheyt ende gewelt te doen.> bloet te vergieten:",
+      "modernized": "$Sp. 1:16; Js. 59:7$ Hun voeten zijn snel om <Dat is, allerlei wreedheid en geweld te bedrijven.> bloed te vergieten:",
+      "source_text": "ὀξεῖς οἱ πόδες αὐτῶν ἐκχέαι αἷμα·",
+      "generated_at": "2026-05-19T19:24:03.276059Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 3
     }
   ]
 }
