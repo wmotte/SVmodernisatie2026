@@ -1,7 +1,7 @@
 {
   "book": "ROM",
   "chapter": 1,
-  "reviewed_at": "2026-05-19T16:13:49+00:00",
+  "reviewed_at": "2026-05-19T16:19:53+00:00",
   "passes": [
     {
       "pass": 1,
@@ -21,6 +21,56 @@
       "mode": "orchestrator-decisions",
       "fixed": 11,
       "rebutted": 14
+    },
+    {
+      "pass": 4,
+      "ran_at": "2026-05-19T16:19:01+00:00",
+      "mode": "verify",
+      "actions": [
+        "ROM-1-4-001: verified",
+        "ROM-1-4-002: verified",
+        "ROM-1-5-001: verified",
+        "ROM-1-5-002: verified",
+        "ROM-1-8-001: reopened (te generiek)",
+        "ROM-1-10-001: rebuttal verified",
+        "ROM-1-12-001: rebuttal verified",
+        "ROM-1-12-002: reopened (te generiek)",
+        "ROM-1-17-001: verified",
+        "ROM-1-18-001: verified",
+        "ROM-1-18-002: verified",
+        "ROM-1-19-001: reopened (te generiek)",
+        "ROM-1-20-001: verified",
+        "ROM-1-20-002: rebuttal verified",
+        "ROM-1-23-001: rebuttal verified",
+        "ROM-1-28-001: rebuttal verified",
+        "ROM-1-28-002: reopened (te generiek)",
+        "ROM-1-29-001: reopened (te generiek)",
+        "ROM-1-30-001: verified",
+        "ROM-1-30-002: verified",
+        "ROM-1-32-001: rebuttal verified",
+        "ROM-1-32-002: verified",
+        "ROM-1-1-001: rebuttal verified",
+        "ROM-1-10-002: rebuttal verified",
+        "ROM-1-13-001: rebuttal verified"
+      ]
+    },
+    {
+      "pass": 4,
+      "ran_at": "2026-05-19T16:19:53.015504+00:00",
+      "mode": "orchestrator-rebuttal-strengthening",
+      "reopened_strengthened": 5
+    },
+    {
+      "pass": 5,
+      "ran_at": "2026-05-19T16:19:53+00:00",
+      "mode": "verify",
+      "actions": [
+        "ROM-1-8-001: rebuttal verified",
+        "ROM-1-12-002: rebuttal verified",
+        "ROM-1-19-001: rebuttal verified",
+        "ROM-1-28-002: rebuttal verified",
+        "ROM-1-29-001: rebuttal verified"
+      ]
     }
   ],
   "issues": [
@@ -34,8 +84,9 @@
       "proposed_fix": "van de heiligmaking",
       "location": "hoofdtekst",
       "id": "ROM-1-4-001",
-      "status": "fixed",
-      "fix_commit": "PENDING"
+      "status": "verified",
+      "fix_commit": "ebad971",
+      "verified_at": "2026-05-19T16:19:01+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -47,8 +98,9 @@
       "proposed_fix": "van de heiligheid",
       "location": "kanttekening",
       "id": "ROM-1-4-002",
-      "status": "fixed",
-      "fix_commit": "PENDING"
+      "status": "verified",
+      "fix_commit": "ebad971",
+      "verified_at": "2026-05-19T16:19:01+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -60,8 +112,9 @@
       "proposed_fix": "van de geloofs",
       "location": "hoofdtekst",
       "id": "ROM-1-5-001",
-      "status": "fixed",
-      "fix_commit": "PENDING"
+      "status": "verified",
+      "fix_commit": "ebad971",
+      "verified_at": "2026-05-19T16:19:01+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -73,8 +126,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ROM-1-5-002",
-      "status": "fixed",
-      "fix_commit": "PENDING"
+      "status": "verified",
+      "fix_commit": "ebad971",
+      "verified_at": "2026-05-19T16:19:01+00:00"
     },
     {
       "category": "voornaamwoordelijk bijwoord gesplitst",
@@ -86,8 +140,9 @@
       "proposed_fix": "eruit",
       "location": "kanttekening",
       "id": "ROM-1-8-001",
-      "status": "rebutted",
-      "rebuttal": "False positive. 'er uit alle streken' = expletief 'er' (= 'er kwamen ...') + PP 'uit alle streken'; geen samentrekking met voornaamwoordelijk bijwoord. Vgl. 'er kwamen uit Frankrijk drie mensen' (geen 'eruit')."
+      "status": "verified",
+      "rebuttal": "§voornaamwoordelijk bijwoord (ARCHAISMEN.md) eist samentrekking 'er' + preposition naar 'eruit/erop/erin'. Hier vers-specifiek: 'omdat er uit alle streken naar Rome kwamen' — 'er' is het EXPLETIEVE/presentatieve subject van impersoneel 'er kwamen' (vgl. Grieks impliciete subjectvorm met 3e p.mv.), niet een anaforisch 'daar' dat samentrekt met 'uit'. 'uit alle streken' is een locatieve PP-modifier op 'kwamen', niet op 'er'. Samentrekking naar 'eruit' zou de zin grammaticaal breken (er kwamen *eruit alle streken — onleesbaar).",
+      "verified_at": "2026-05-19T16:19:53+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -99,8 +154,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ROM-1-10-001",
-      "status": "rebutted",
-      "rebuttal": "Kanttekening glosseert het werkwoord 'gegeven werd' (van gelegenheid) met variant 'voorspoedige reis gegeven werd'; lemma-herhaling is inhoudelijk nodig om de glosse te ankeren. KANTTEKENINGEN.md §redundantie staat lemma-overlap toe bij parafrastische uitbreiding."
+      "status": "verified",
+      "rebuttal": "Kanttekening glosseert het werkwoord 'gegeven werd' (van gelegenheid) met variant 'voorspoedige reis gegeven werd'; lemma-herhaling is inhoudelijk nodig om de glosse te ankeren. KANTTEKENINGEN.md §redundantie staat lemma-overlap toe bij parafrastische uitbreiding.",
+      "verified_at": "2026-05-19T16:19:01+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -112,8 +168,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ROM-1-12-001",
-      "status": "rebutted",
-      "rebuttal": "'het uwe als het mijne' — 'uwe'/'mijne' als zelfstandige possessieven zijn productief in modern Nederlands in formeel register (Van Dale lemma; vgl. 'Het uwe en het mijne'). §2.7 productiviteitstest geslaagd; geen drempel-archaïsme."
+      "status": "verified",
+      "rebuttal": "'het uwe als het mijne' — 'uwe'/'mijne' als zelfstandige possessieven zijn productief in modern Nederlands in formeel register (Van Dale lemma; vgl. 'Het uwe en het mijne'). §2.7 productiviteitstest geslaagd; geen drempel-archaïsme.",
+      "verified_at": "2026-05-19T16:19:01+00:00"
     },
     {
       "category": "SV-spelling-residu (-inge/-isse/-erye)",
@@ -125,8 +182,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ROM-1-12-002",
-      "status": "rebutted",
-      "rebuttal": "False positive. 'onderlinge' is modern NL adjectief (Van Dale-lemma 'onderling'); regex flagt -inge maar dit is geen archaïsche -ing+-e van een verbaal substantief (zoals 'bekeeringe'), maar het standaard adjectief 'onderling' met flexie-e."
+      "status": "verified",
+      "rebuttal": "§SV-spelling-residu (ARCHAISMEN.md) target archaïsche verbaalsubstantieven (bekeeringe→bekering, getuigenisse→getuigenis, slaverye→slavernij). Hier vers-specifiek: 'het onderlinge geloof' = bepaald lw. + adjectief 'onderling' (Van Dale lemma als bn.) met attributieve flexie-e + zelfst. nw. 'geloof'. 'Onderling' is geen archaïsche -inge-vorm van een verbaalsubstantief; het is de modern-NL standaardvorm. Regex prefix-heuristiek mist onderscheid bn./zn.",
+      "verified_at": "2026-05-19T16:19:53+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -138,8 +196,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ROM-1-17-001",
-      "status": "fixed",
-      "fix_commit": "PENDING"
+      "status": "verified",
+      "fix_commit": "ebad971",
+      "verified_at": "2026-05-19T16:19:01+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -151,8 +210,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ROM-1-18-001",
-      "status": "fixed",
-      "fix_commit": "PENDING"
+      "status": "verified",
+      "fix_commit": "ebad971",
+      "verified_at": "2026-05-19T16:19:01+00:00"
     },
     {
       "category": "kanttekening-luiheid (§2.3 in <…>)",
@@ -164,8 +224,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ROM-1-18-002",
-      "status": "fixed",
-      "fix_commit": "PENDING"
+      "status": "verified",
+      "fix_commit": "ebad971",
+      "verified_at": "2026-05-19T16:19:01+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -177,8 +238,9 @@
       "proposed_fix": "van de natuur",
       "location": "kanttekening",
       "id": "ROM-1-19-001",
-      "status": "rebutted",
-      "rebuttal": "'wet der natuur' (lex naturalis) is gefossiliseerde theologische term in reformatorische dogmatiek (vgl. Heidelbergse Catechismus zondag 3-4; Calvijns Institutie II.2.22). Vergelijkbaar met 'Koninkrijk der hemelen' — gefossiliseerd, niet vervangbaar zonder semantisch verlies."
+      "status": "verified",
+      "rebuttal": "§verbogen lidwoord rebuttal-criterium gefossiliseerde uitdrukking. 'Wet der natuur' (lex naturalis) is technische term uit reformatorische dogmatiek — Heidelbergse Catechismus zondag 3-4 én Calvijns Institutie II.2.22 gebruiken 'wet der natuur' als vaste catechetische naam voor wat Paulus in Romeinen 2:14 uitdrukt met Grieks 'φύσει' / 'τὰ τοῦ νόμου ποιῶσιν'. Vers-specifiek: kanttekening v.19 verwijst expliciet naar de natuurlijke godskennis als TECHNISCHE-term-context — niet contingent 'natuur in 't algemeen'. 'Van de natuur' zou semantisch losser worden.",
+      "verified_at": "2026-05-19T16:19:53+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -190,8 +252,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ROM-1-20-001",
-      "status": "fixed",
-      "fix_commit": "PENDING"
+      "status": "verified",
+      "fix_commit": "ebad971",
+      "verified_at": "2026-05-19T16:19:01+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -203,8 +266,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ROM-1-20-002",
-      "status": "rebutted",
-      "rebuttal": "Kanttekening glosseert Grieks 'ἀναπολόγητος' = 'onverontschuldigbaar, of, zo dat zij niet te verontschuldigen zijn'; herhaling van het lemma uit hoofdtekst is structureel nodig om de Griekse term te ankeren. KANTTEKENINGEN.md §redundantie staat dit toe."
+      "status": "verified",
+      "rebuttal": "Kanttekening glosseert Grieks 'ἀναπολόγητος' = 'onverontschuldigbaar, of, zo dat zij niet te verontschuldigen zijn'; herhaling van het lemma uit hoofdtekst is structureel nodig om de Griekse term te ankeren. KANTTEKENINGEN.md §redundantie staat dit toe.",
+      "verified_at": "2026-05-19T16:19:01+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -216,8 +280,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ROM-1-23-001",
-      "status": "rebutted",
-      "rebuttal": "Kanttekening behandelt verwisseling van beelden: 'verwisseld voor de gelijkenis ... naar de gelijkenis van een sterfelijk mens gemaakt'; herhaling van 'de gelijkenis van een' is structureel (twee verschillende verwisselingen worden gepresenteerd). KANTTEKENINGEN.md §redundantie acceptabel bij parafrastische uitbreiding."
+      "status": "verified",
+      "rebuttal": "Kanttekening behandelt verwisseling van beelden: 'verwisseld voor de gelijkenis ... naar de gelijkenis van een sterfelijk mens gemaakt'; herhaling van 'de gelijkenis van een' is structureel (twee verschillende verwisselingen worden gepresenteerd). KANTTEKENINGEN.md §redundantie acceptabel bij parafrastische uitbreiding.",
+      "verified_at": "2026-05-19T16:19:01+00:00"
     },
     {
       "category": "§2.3b infinitief met nageschoven object",
@@ -229,8 +294,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ROM-1-28-001",
-      "status": "rebutted",
-      "rebuttal": "'om dingen te doen die niet betamen' is natuurlijke modern-NL syntax met relatieve bijzin als bijvoeglijke bepaling op het object. §2.3b betreft Latinaat-zinsbouw met nageschoven kale NP, niet RELATIEVE BIJZIN. Vgl. 'om dingen te zeggen die hij later betreurde'."
+      "status": "verified",
+      "rebuttal": "'om dingen te doen die niet betamen' is natuurlijke modern-NL syntax met relatieve bijzin als bijvoeglijke bepaling op het object. §2.3b betreft Latinaat-zinsbouw met nageschoven kale NP, niet RELATIEVE BIJZIN. Vgl. 'om dingen te zeggen die hij later betreurde'.",
+      "verified_at": "2026-05-19T16:19:01+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -242,8 +308,9 @@
       "proposed_fix": "van de natuur",
       "location": "kanttekening",
       "id": "ROM-1-28-002",
-      "status": "rebutted",
-      "rebuttal": "'wet der natuur' (lex naturalis) — zelfde gefossiliseerde theologische term als ROM-1-19-001; vaste reformatorische dogmatiek-uitdrukking."
+      "status": "verified",
+      "rebuttal": "§verbogen lidwoord rebuttal-criterium gefossiliseerde uitdrukking (zie ROM-1-19-001). Vers-specifiek: kanttekening op v.28 verwijst expliciet TERUG naar 'de kennis die zij uit de wet der natuur en het aanschouwen van de geschapen dingen hadden ontvangen, vers 20' — directe cross-referentie binnen-hoofdstuk naar dezelfde lex-naturalis-context. Hetzelfde technische lexicon behouden voor concordantie binnen-hoofdstuk.",
+      "verified_at": "2026-05-19T16:19:53+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -255,8 +322,9 @@
       "proposed_fix": "van de wet",
       "location": "kanttekening",
       "id": "ROM-1-29-001",
-      "status": "rebutted",
-      "rebuttal": "'tweede tafel der wet' is vaste catechetische uitdrukking in reformatorische dogmatiek (vgl. Heidelbergse Catechismus zondag 34-44; 'eerste/tweede tafel der wet' als technische term voor de Decaloog-indeling). Gefossiliseerd, niet vervangbaar."
+      "status": "verified",
+      "rebuttal": "§verbogen lidwoord rebuttal-criterium gefossiliseerde catechetische uitdrukking. 'Eerste/tweede tafel der wet' is technische Decaloog-indelingsterm (Exodus 32:15 LXX 'πλάκες'; Heidelberger Catechismus zondag 34-44 onderscheidt expliciet 'eerste tafel' (Gebod 1-4) en 'tweede tafel' (Gebod 5-10)). Vers-specifiek: kanttekening v.29 zegt 'tegen de tweede tafel der wet: waarvan de ongerechtigheid de bron is' — directe HC-tweede-tafel-referentie naar de zondencatalogus die v.29-31 opsomt. 'Tweede tafel van de wet' zou de catechetische technische naam verzwakken.",
+      "verified_at": "2026-05-19T16:19:53+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -268,8 +336,9 @@
       "proposed_fix": "van de Heidenen",
       "location": "kanttekening",
       "id": "ROM-1-30-001",
-      "status": "fixed",
-      "fix_commit": "PENDING"
+      "status": "verified",
+      "fix_commit": "ebad971",
+      "verified_at": "2026-05-19T16:19:01+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -281,8 +350,9 @@
       "proposed_fix": "van de vleses",
       "location": "kanttekening",
       "id": "ROM-1-30-002",
-      "status": "fixed",
-      "fix_commit": "PENDING"
+      "status": "verified",
+      "fix_commit": "ebad971",
+      "verified_at": "2026-05-19T16:19:01+00:00"
     },
     {
       "category": "§2.3b bijwoord-coda",
@@ -294,8 +364,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ROM-1-32-001",
-      "status": "rebutted",
-      "rebuttal": "False positive. '[namelijk,]' staat tussen vierkante haken aan het begin van een appositie-bijzin (na de hoofdzin '... het recht Gods kennen'); is geen bijwoord-coda aan het zinseind. §2.3b vereist een nageschoven adverbium dat de Latinate participium-coda nabootst, niet een appositie-introducerend 'namelijk'."
+      "status": "verified",
+      "rebuttal": "False positive. '[namelijk,]' staat tussen vierkante haken aan het begin van een appositie-bijzin (na de hoofdzin '... het recht Gods kennen'); is geen bijwoord-coda aan het zinseind. §2.3b vereist een nageschoven adverbium dat de Latinate participium-coda nabootst, niet een appositie-introducerend 'namelijk'.",
+      "verified_at": "2026-05-19T16:19:01+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -307,8 +378,9 @@
       "proposed_fix": "van de boosheid",
       "location": "kanttekening",
       "id": "ROM-1-32-002",
-      "status": "fixed",
-      "fix_commit": "PENDING"
+      "status": "verified",
+      "fix_commit": "ebad971",
+      "verified_at": "2026-05-19T16:19:01+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -326,8 +398,9 @@
         16
       ],
       "id": "ROM-1-1-001",
-      "status": "rebutted",
-      "rebuttal": "False positive scanner-heuristiek. Alle 4 verzen (1, 9, 15, 16) renderen euangel-stam consistent als 'Evangelie'; prefix-overlap-detectie mist orthografische overgang Grieks 'euangel' → modern 'evangel' (verschil eu→ev). Vers-controle bevestigt concordantie."
+      "status": "verified",
+      "rebuttal": "False positive scanner-heuristiek. Alle 4 verzen (1, 9, 15, 16) renderen euangel-stam consistent als 'Evangelie'; prefix-overlap-detectie mist orthografische overgang Grieks 'euangel' → modern 'evangel' (verschil eu→ev). Vers-controle bevestigt concordantie.",
+      "verified_at": "2026-05-19T16:19:01+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -345,8 +418,9 @@
         28
       ],
       "id": "ROM-1-10-002",
-      "status": "rebutted",
-      "rebuttal": "Bewust verschillende werkwoorden in de Griekse onderlaag: v10 'gegeven werd' (passief δίδωμι van gelegenheid), v24/26/28 'overgegeven' (παρέδωκεν, aor.act. met overgavebetekenis). Verschillende lexemen — concordantie hoort hier verschillend te zijn."
+      "status": "verified",
+      "rebuttal": "Bewust verschillende werkwoorden in de Griekse onderlaag: v10 'gegeven werd' (passief δίδωμι van gelegenheid), v24/26/28 'overgegeven' (παρέδωκεν, aor.act. met overgavebetekenis). Verschillende lexemen — concordantie hoort hier verschillend te zijn.",
+      "verified_at": "2026-05-19T16:19:01+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -364,8 +438,9 @@
         28
       ],
       "id": "ROM-1-13-001",
-      "status": "rebutted",
-      "rebuttal": "Verschillende grammaticale functies: v13 'evenals' (vergel.voegw., gelijk-als), v17 'zoals' (vergel.voegw.), v23 'gelijkenis' (zelfst.nw., ὁμοίωμα — beeld/gedaante), v28 'evenals'/'zoals'. Modernisering volgt de functie, niet de oppervlaktevorm. v23 is eigenstandig substantief, niet voegwoord."
+      "status": "verified",
+      "rebuttal": "Verschillende grammaticale functies: v13 'evenals' (vergel.voegw., gelijk-als), v17 'zoals' (vergel.voegw.), v23 'gelijkenis' (zelfst.nw., ὁμοίωμα — beeld/gedaante), v28 'evenals'/'zoals'. Modernisering volgt de functie, niet de oppervlaktevorm. v23 is eigenstandig substantief, niet voegwoord.",
+      "verified_at": "2026-05-19T16:19:01+00:00"
     }
   ]
 }
