@@ -1,7 +1,7 @@
 {
   "book": "ROM",
   "chapter": 3,
-  "reviewed_at": "2026-05-19T20:47:45+00:00",
+  "reviewed_at": "2026-05-19T20:52:21+00:00",
   "passes": [
     {
       "pass": 1,
@@ -15,6 +15,26 @@
       "mode": "orchestrator-decisions",
       "fixed": 8,
       "rebutted": 5
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-19T20:52:21+00:00",
+      "mode": "verify",
+      "actions": [
+        "ROM-3-5-001: rebuttal verified",
+        "ROM-3-7-001: rebuttal verified",
+        "ROM-3-19-001: verified",
+        "ROM-3-19-002: verified",
+        "ROM-3-23-001: verified",
+        "ROM-3-24-001: verified",
+        "ROM-3-24-002: verified",
+        "ROM-3-25-001: verified",
+        "ROM-3-25-002: verified",
+        "ROM-3-27-001: rebuttal verified",
+        "ROM-3-4-001: rebuttal verified",
+        "ROM-3-7-002: rebuttal verified",
+        "ROM-3-8-001: verified"
+      ]
     }
   ],
   "issues": [
@@ -28,8 +48,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ROM-3-5-001",
-      "status": "rebutted",
-      "rebuttal": "'indien' faalt §2.7-test niet: HSV gebruikt 'indien' consistent in conditionele bijzinnen (Rm. 3:5, 11:18); Van Dale markeert het als formeel-productief register, niet archaïsch. Binnen ROM 3 concordant gebruikt in v3, v5, v7."
+      "status": "verified",
+      "rebuttal": "'indien' faalt §2.7-test niet: HSV gebruikt 'indien' consistent in conditionele bijzinnen (Rm. 3:5, 11:18); Van Dale markeert het als formeel-productief register, niet archaïsch. Binnen ROM 3 concordant gebruikt in v3, v5, v7.",
+      "verified_at": "2026-05-19T20:52:21+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -41,8 +62,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ROM-3-7-001",
-      "status": "rebutted",
-      "rebuttal": "'indien' is in modern formeel-bijbels Nederlands productief (HSV ROM 3:7 ook 'Want indien'); §2.7-drempel niet overschreden. Concordantie met v3, v5 binnen hoofdstuk."
+      "status": "verified",
+      "rebuttal": "'indien' is in modern formeel-bijbels Nederlands productief (HSV ROM 3:7 ook 'Want indien'); §2.7-drempel niet overschreden. Concordantie met v3, v5 binnen hoofdstuk.",
+      "verified_at": "2026-05-19T20:52:21+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -54,8 +76,9 @@
       "proposed_fix": "van de verdoemenis",
       "location": "kanttekening",
       "id": "ROM-3-19-001",
-      "status": "fixed",
-      "fix_commit": "pending"
+      "status": "verified",
+      "fix_commit": "2fb901f",
+      "verified_at": "2026-05-19T20:52:21+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -67,8 +90,9 @@
       "proposed_fix": "van de rechtvaardigen",
       "location": "kanttekening",
       "id": "ROM-3-19-002",
-      "status": "fixed",
-      "fix_commit": "pending"
+      "status": "verified",
+      "fix_commit": "2fb901f",
+      "verified_at": "2026-05-19T20:52:21+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -80,8 +104,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ROM-3-23-001",
-      "status": "fixed",
-      "fix_commit": "pending"
+      "status": "verified",
+      "fix_commit": "2fb901f",
+      "verified_at": "2026-05-19T20:52:21+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -93,8 +118,9 @@
       "proposed_fix": "van de zonden",
       "location": "kanttekening",
       "id": "ROM-3-24-001",
-      "status": "fixed",
-      "fix_commit": "pending"
+      "status": "verified",
+      "fix_commit": "2fb901f",
+      "verified_at": "2026-05-19T20:52:21+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -106,8 +132,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ROM-3-24-002",
-      "status": "fixed",
-      "fix_commit": "pending"
+      "status": "verified",
+      "fix_commit": "2fb901f",
+      "verified_at": "2026-05-19T20:52:21+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -119,8 +146,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ROM-3-25-001",
-      "status": "fixed",
-      "fix_commit": "pending"
+      "status": "verified",
+      "fix_commit": "2fb901f",
+      "verified_at": "2026-05-19T20:52:21+00:00"
     },
     {
       "category": "kanttekening-luiheid (§2.3 in <…>)",
@@ -132,8 +160,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ROM-3-25-002",
-      "status": "fixed",
-      "fix_commit": "pending"
+      "status": "verified",
+      "fix_commit": "2fb901f",
+      "verified_at": "2026-05-19T20:52:21+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -145,8 +174,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ROM-3-27-001",
-      "status": "rebutted",
-      "rebuttal": "'Door welke wet?' is interrogatief, geen relatief pronomen. §2.3b-regel beperkt 'welke' alleen als RELATIEF; vraagwoorden 'welke/welk' zijn modern productief (Van Dale; HSV ROM 3:27 'Door wat voor wet?'). Pre-scan-regex onderscheidt vraag- en relatiefcontext niet."
+      "status": "verified",
+      "rebuttal": "'Door welke wet?' is interrogatief, geen relatief pronomen. §2.3b-regel beperkt 'welke' alleen als RELATIEF; vraagwoorden 'welke/welk' zijn modern productief (Van Dale; HSV ROM 3:27 'Door wat voor wet?'). Pre-scan-regex onderscheidt vraag- en relatiefcontext niet.",
+      "verified_at": "2026-05-19T20:52:21+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -163,8 +193,9 @@
         10
       ],
       "id": "ROM-3-4-001",
-      "status": "rebutted",
-      "rebuttal": "False-positive concordantie-drift: alle drie 'gelijck'-voorkomens (v4, v8, v10) zijn naar 'zoals' gerenderd. Scanner-prefix-heuristiek mist orthografische overgang ck→s+l. Bewuste concordantie."
+      "status": "verified",
+      "rebuttal": "False-positive concordantie-drift: alle drie 'gelijck'-voorkomens (v4, v8, v10) zijn naar 'zoals' gerenderd. Scanner-prefix-heuristiek mist orthografische overgang ck→s+l. Bewuste concordantie.",
+      "verified_at": "2026-05-19T20:52:21+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -181,8 +212,9 @@
         21
       ],
       "id": "ROM-3-7-002",
-      "status": "rebutted",
-      "rebuttal": "v7+v12 'is geworden' = koppelwerkwoord-perfect (γέγονεν/ἐπερίσσευσεν); v21 'geopenbaert geworden' = SV-passief-past-perfect-dubbelconstructie (πεφανέρωται). Modern Nederlands behoudt 'is X geworden' voor het eerste maar verwijdert de aux 'geworden' bij passief-past-perfect (HSV v21 'is geopenbaard'). Verschil syntactisch gemotiveerd."
+      "status": "verified",
+      "rebuttal": "v7+v12 'is geworden' = koppelwerkwoord-perfect (γέγονεν/ἐπερίσσευσεν); v21 'geopenbaert geworden' = SV-passief-past-perfect-dubbelconstructie (πεφανέρωται). Modern Nederlands behoudt 'is X geworden' voor het eerste maar verwijdert de aux 'geworden' bij passief-past-perfect (HSV v21 'is geopenbaard'). Verschil syntactisch gemotiveerd.",
+      "verified_at": "2026-05-19T20:52:21+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -203,8 +235,9 @@
         30
       ],
       "id": "ROM-3-8-001",
-      "status": "fixed",
-      "fix_commit": "pending"
+      "status": "verified",
+      "fix_commit": "2fb901f",
+      "verified_at": "2026-05-19T20:52:21+00:00"
     }
   ]
 }
