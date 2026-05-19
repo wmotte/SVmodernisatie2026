@@ -142,6 +142,33 @@
       "generated_at": "2026-05-19T19:24:03.276059Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 3
+    },
+    {
+      "verse_number": 16,
+      "original": "Vernielinge ende <Namel. die sy anderen aendoen.> elendigheyt is in hare wegen:",
+      "modernized": "Vernieling en <Namelijk, die zij anderen aandoen.> ellende is in hun wegen;",
+      "source_text": "σύντριμμα καὶ ταλαιπωρία ἐν ταῖς ὁδοῖς αὐτῶν,",
+      "generated_at": "2026-05-19T19:27:23.841075Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 17,
+      "original": "Ende <N. om selve in ruste te leven, ende andere in ruste te laten.> den wegh des vredes en hebben sy niet gekent.",
+      "modernized": "En <Namelijk, om zelf in rust te leven, en anderen in rust te laten.> de weg van de vrede hebben zij niet gekend.",
+      "source_text": "καὶ ὁδὸν εἰρήνης οὐκ ἔγνωσαν·",
+      "generated_at": "2026-05-19T19:27:47.236606Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 18,
+      "original": "$Psalm 36.2.$ Daer en is geen <Namelick, die de gront ende fonteyne is van alle andere deughden: waer mede de Apostel besluyt, niet dat alle dese ondeughden in alle natuerlicke menschen even krachtelick altijt uytbreken, maer om dat de quade fonteyne van dese alle in haer is, ende dat altijt eenige van dien in haer leven openbaer zijn.> vreese Godts voor hare oogen.",
+      "modernized": "$Ps. 36:2$ Er is geen <Namelijk, die de grond en bron is van alle andere deugden, waarmee de Apostel besluit, niet dat al deze ondeugden in alle natuurlijke mensen altijd even krachtig uitbreken, maar omdat de kwade bron daarvan in hen allen is, en dat altijd enige daarvan in hun leven openbaar zijn.> vrees Gods voor hun ogen.",
+      "source_text": "οὐκ ἔστι φόβος Θεοῦ ἀπέναντι τῶν ὀφθαλμῶν αὐτῶν.",
+      "generated_at": "2026-05-19T19:28:12.802979Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
