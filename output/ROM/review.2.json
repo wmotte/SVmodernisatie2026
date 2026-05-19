@@ -1,0 +1,111 @@
+{
+  "book": "ROM",
+  "chapter": 2,
+  "reviewed_at": "2026-05-19T18:03:06+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-19T18:03:06+00:00",
+      "mode": "scan",
+      "issues_total": 7
+    }
+  ],
+  "issues": [
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 4,
+      "severity": "soft",
+      "quote_modernized": "…erenheid, en   verdraagzaamheid, en     lankmoedigheid,   terwijl u niet weet da…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'lankmoedigheid' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "ROM-2-4-001",
+      "status": "rebutted",
+      "rebuttal": "'lankmoedigheid' (μακροθυμία) is theologische deugd-term: concordant met Gal. 5:22 (vrucht van de Geest) en 1Kor. 13:4 ('liefde is lankmoedig'). Corpus-wide gebruikt in 3 verzen (SVm2026); HSV kiest 'geduld' als 4c-register-shift, geen 4a/4b-correctie. SV-conforme weergave handhaaft concordantie. MODERNISATIE.md §2.7 productiviteitstest geldt minder strikt voor theologische vaktermen die in liturgisch/dogmatisch modern NL gangbaar blijven."
+    },
+    {
+      "category": "kanttekening-luiheid (§2.3 in <…>)",
+      "verse": 4,
+      "severity": "hard",
+      "quote_modernized": "…stonden, omdat God hun goed deed en hen zegende naar de wereld, zoals hij de Rom…",
+      "rule_reference": "KANTTEKENINGEN.md + §2.3",
+      "explanation": "'zegende' binnen kanttekening — verdacht -ende-woord in adverbial / clause-final positie. §2.3 geldt ook in <…>; ontvouw naar finiete bijzin.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "ROM-2-4-002",
+      "status": "rebutted",
+      "rebuttal": "'zegende' in kanttekening v4 is ovt 3e p.ev. van 'zegenen' ('omdat God hun goed deed en hen zegende naar de wereld') — finiete bijzin-werkwoord, geen adverbiaal -ende-participium. §2.3 geldt niet voor reguliere ovt-vormen op -ende; scanner-regex faalt op suffix-overlap (zegen-de vs zeg-ende)."
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 25,
+      "severity": "soft",
+      "quote_modernized": "Want de besnijdenis is wel nuttig,   indien u de wet doet; maar indien u een …",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "ROM-2-25-001",
+      "status": "rebutted",
+      "rebuttal": "'indien' is corpus-wide 289× gebruikt in reeds-gemoderniseerde verzen — geaccepteerde modern bijbels-NL keuze voor SV conditioneel ('εἰ', 'ἐάν'). Hier vervangen door 'als' zou onverantwoorde concordantiebreuk creëren t.o.v. de rest van het corpus. §2.7 drempel-status onvoldoende voor solo-batch afwijking; pas hooguit corpus-breed aan via regelbestand-besluit."
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 25,
+      "severity": "soft",
+      "quote_modernized": "…el nuttig,   indien u de wet doet; maar indien u een overtreder van de wet bent,…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "ROM-2-25-002",
+      "status": "rebutted",
+      "rebuttal": "Idem ROM-2-25-001: 'indien' v25 tweede voorkomen in antithese-paar ('indien u de wet doet; maar indien u overtreder bent'). Parallel-structuur vereist identiek voegwoord; vervangen zou de spanning breken. Corpus-keuze 289× indien handhaaft concordantie."
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 26,
+      "severity": "soft",
+      "quote_modernized": "Indien dan   de voorhuid de   verordenin…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "ROM-2-26-001",
+      "status": "rebutted",
+      "rebuttal": "Idem ROM-2-25-001: 'indien' v26 zinsinitieel ('Indien dan de voorhuid ...') in vervolg op v25-antithese — concordant met v25-tweetal en met 289 corpus-instances. Solo-vervanging zou lokale inconsistentie binnen één zinsketen creëren. Rebut."
+    },
+    {
+      "category": "genitief pronomen wiens/wier",
+      "verse": 29,
+      "severity": "hard",
+      "quote_modernized": "…iet   in de letter is de besnijdenis;   wiens lof   niet is uit de mensen,   maa…",
+      "rule_reference": "ARCHAISMEN.md (SV-pronomina)",
+      "explanation": "'wiens lof' — formeel-archaïsch genitief-pronomen. Modern Nederlands: 'van wie lof' of zinsherbouw met bezittelijk voornaamwoord ('die zijn lof', 'die haar lof'). NBV21 vermijdt 'wiens' grotendeels.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "ROM-2-29-001",
+      "status": "rebutted",
+      "rebuttal": "'wiens' is in modern Nederlands productief formeel genitief-pronomen (Van Dale, ANS) — vgl. 'een man wiens werk bekend is'. Geen SV-fossiel zoals 'dezelve' of 'denzelven'. NBV21 vermijdt het stilistisch maar het blijft modern correct; SV-conforme weergave van SV1657 'wiens'. ARCHAISMEN.md noemt 'wiens' niet expliciet op de blacklist."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 2,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'waerhey' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        2,
+        8,
+        20
+      ],
+      "id": "ROM-2-2-001",
+      "status": "rebutted",
+      "rebuttal": "Alle drie verzen (v2/v8/v20) gebruiken 'waarheid' voor SV 'waerheyt' — perfect concordant. Scanner's prefix-overlap-heuristiek mist de orthografische overgang ae→aa en ey→ei, waardoor 'waerhey'-prefix niet matcht met moderne 'waarh'-prefix. False positive."
+    }
+  ]
+}
