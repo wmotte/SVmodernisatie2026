@@ -184,6 +184,24 @@ in NBV21 of HSV; wordt hij dáár ook nog flexief gespeld (zoals
 `Koninkrijk van God` *niet*, maar in liturgisch gebruik wel), dan is
 het een fossiel.
 
+**Validator-handhaving.** `scripts/validate.py` flag iedere
+`der/des/den + zn` in de moderne hoofdtekst als HARD issue, tenzij
+het paar in `FOSSIL_GENITIVE_PAIRS` (validate.py) staat. De huidige
+allowlist dekt `Zoon des mensen`, `Koning der Joden/heerlijkheid`,
+`Koninkrijk der hemelen`, `Heer der heerscharen`, `dag des oordeels`,
+`dag der voorbereiding`, `heer des huizes`, `dag des Heeren`,
+`boek des levens`, `Heilige der heiligen`, `gruwel der verwoesting`,
+`knersing der tanden`, `werkers der ongerechtigheid`,
+`opstanding der rechtvaardigen/doden`, `aanzien des persoons`,
+`einden der aarde`, `volken der wereld`. Moderne adverbiale formules
+met `des` (`des te meer`, `des avonds`, `des morgens`, `des nachts`,
+`des middags`, `des zondags`, …) zijn gemaskeerd. Vindt de validator
+een nieuw legitiem fossiel — voeg het paar toe aan de lijst met een
+korte motivatie als comment, en documenteer in deze sectie waarom
+het fossielstatus heeft (NBV21/HSV-spelling, attestatie-frequentie).
+Voor kanttekening-inhoud geldt deze hard-check (nog) niet — die loopt
+via adversariële review.
+
 **Verschil met HSV en SV2027.** Beide ontvouwen alle genitieven naar
 `van`-constructies (`Koninkrijk van God`, `Zoon van de mens`). Dat
 hangt samen met hun bredere parafrase-vrijheid (zie §2.7) en is een

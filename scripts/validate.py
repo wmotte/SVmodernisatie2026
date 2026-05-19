@@ -98,6 +98,60 @@ ARCHAISM_BLACKLIST = [
     r"\bdaar\s+(?:ik|wij|u|gij)\s+\w+\b",  # causaal 'daar' + 1/2-persoon → "nu / aangezien / omdat" (PHM 1:9)
 ]
 
+# §2.3c flexieve genitief — `der/des/den + zn` in hoofdtekst is per default
+# een SV carry-over (`Geest der heiligmaking`, `gehoorzaamheid des geloofs`,
+# `wijsheid des vleses`). Moderne weergave: `van`-constructie. Enige
+# uitzondering: een kleine groep gefossiliseerde formules (`Zoon des
+# mensen`, `Koninkrijk der hemelen`, `dag des oordeels` …) die in de
+# Nederlandse theologische traditie tot vandaag flexief blijven. Zie
+# MODERNISATIE.md §2.3c.
+#
+# Allowlist als (artikel, zn)-paar in lowercase. Iedere `der/des/den + zn`
+# in hoofdtekst die hier niet in staat = HARD issue. Modernisator moet
+# óf ontvouwen, óf — bij een nieuwe attestatie van een gefossiliseerde
+# formule — deze lijst uitbreiden met motivatie in MODERNISATIE.md §2.3c.
+FOSSIL_GENITIVE_PAIRS: frozenset[tuple[str, str]] = frozenset({
+    ("des", "mensen"),         # Zoon des mensen (Gr. ὁ υἱὸς τοῦ ἀνθρώπου)
+    ("der", "joden"),          # Koning der Joden
+    ("der", "heerlijkheid"),   # Koning der heerlijkheid
+    ("der", "heerscharen"),    # Heer der heerscharen
+    ("der", "hemelen"),        # Koninkrijk der hemelen
+    ("des", "oordeels"),       # dag des oordeels
+    ("des", "huizes"),         # heer des huizes
+    ("des", "heeren"),         # dag des Heeren
+    ("des", "levens"),         # boek des levens
+    ("der", "heiligen"),       # Heilige der heiligen
+    ("der", "voorbereiding"),  # dag der voorbereiding
+    ("der", "verwoesting"),    # gruwel der verwoesting
+    ("der", "tanden"),         # knersing der tanden
+    ("der", "ongerechtigheid"),# werkers der ongerechtigheid
+    ("der", "rechtvaardigen"), # opstanding der rechtvaardigen
+    ("der", "doden"),          # opstanding der doden
+    ("des", "persoons"),       # aanzien des persoons (Gr. προσωπολημψία)
+    ("der", "aarde"),          # einden der aarde
+    ("der", "wereld"),         # volken der wereld
+})
+
+# Moderne adverbiale formules met `des +` zijn geen flexieve genitief.
+#   • `des te + comparatief` (`des te meer`, `des te later`)
+#   • Temporeel: `des avonds / morgens / nachts / middags / daags / zomers /
+#     winters / zondags / maandags …` — vaste moderne uitdrukkingen voor
+#     dagdeel of weekdag/seizoen.
+# Vóór de scan maskeren zodat geen false positive ontstaat.
+ARCHAIC_GENITIVE_DESTE_RE = re.compile(
+    r"\bdes\s+(?:te|avonds|morgens|nachts|middags|daags|zomers|winters|"
+    r"maandags|dinsdags|woensdags|donderdags|vrijdags|zaterdags|zondags)\b",
+    re.IGNORECASE,
+)
+
+# Trigger: `der/des/den` + woord. Matcht in hoofdtekst na strippen van
+# `<…>` en `$…$`. Hoofdletter `Der/Des/Den` (zinsbegin) zeldzaam in SV-
+# moderniseringen maar regex is case-insensitive om ze ook te vangen.
+ARCHAIC_GENITIVE_RE = re.compile(
+    r"\b(der|des|den)\s+([A-Za-zà-ÿ]+)",
+    re.IGNORECASE,
+)
+
 # Bekende spelling-mappings voor hoofdletter-check (origineel-vorm: moderne-vorm).
 # Als origineel "Mattheus" heeft en modern "Matteüs", dan is dat OK.
 #
@@ -725,6 +779,22 @@ def _validate_verse(orig: dict, mod: dict) -> dict:
     kant_issues, kant_warnings = _check_participles_in_kanttekening(mod_text, "hoofdtekst")
     issues.extend(kant_issues)
     warnings.extend(kant_warnings)
+
+    # 5d. §2.3c flexieve genitief in hoofdtekst — `der/des/den + zn` is per
+    # default SV carry-over; alleen gefossiliseerde formules (FOSSIL_GENITIVE_PAIRS)
+    # mogen blijven staan. Strippen van `<…>` (kanttekening) en `$…$` (bibref).
+    gen_text = re.sub(r"<[^>]+>", " ", mod_text)
+    gen_text = re.sub(r"\$[^$]+\$", " ", gen_text)
+    gen_text = ARCHAIC_GENITIVE_DESTE_RE.sub(" __DESTE__ ", gen_text)
+    for m in ARCHAIC_GENITIVE_RE.finditer(gen_text):
+        pair = (m.group(1).lower(), m.group(2).lower())
+        if pair in FOSSIL_GENITIVE_PAIRS:
+            continue
+        issues.append(
+            f"genitief-archaisme: '{m.group(0)}' — flexieve genitief in moderne "
+            f"hoofdtekst; ontvouw naar van-constructie (MODERNISATIE.md §2.3c) "
+            f"of breid FOSSIL_GENITIVE_PAIRS uit bij nieuw gefossiliseerd formulier"
+        )
 
     # 6. Brontekst ongewijzigd. NFC-normaliseren vóór vergelijking — bytewise
     # gelijk is ideaal, maar Greek-polytonic vs -monotonic codepoints (U+1F75
