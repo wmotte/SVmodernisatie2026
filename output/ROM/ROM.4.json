@@ -61,6 +61,36 @@
       "generated_at": "2026-05-19T21:04:49.278899Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 7,
+      "original": "<Namel. in ’t begin van den 32 Psalm, welck bewijs Pauli onwedersprekelick is. Want die uyt sijne wercken gerechtveerdight is, die en heeft geen vergevinge der sonden van nooden, om gelucksaligh te zijn: ende wie bidt dat Godt hem sijne sonden niet toe en reeckene, die bidt oock dat Godt hem de rechtveerdigheyt Iesu Christi toe reeckene, alsoo dese twee dingen in Godts oordeel niet en konnen gescheyden worden. Siet Rom. 3.24. ende 5.19. Ephes. 1. vers 7, etc.> [Seggende,] $Psalm 32.1.$ Saligh zijnse welcker ongerechtigheden vergeven zijn, ende welcker sonden bedeckt zijn:",
+      "modernized": "<Namelijk, in het begin van de 32ste Psalm, welk bewijs van Paulus onweersprekelijk is. Want wie uit zijn werken gerechtvaardigd is, die heeft geen vergeving van zonden nodig om gelukzalig te zijn; en wie bidt dat God hem zijn zonden niet toerekent, die bidt ook dat God hem de rechtvaardigheid van Jezus Christus toerekent, omdat deze twee dingen in Gods oordeel niet gescheiden kunnen worden. Zie $Rm. 3:24; 5:19; Ef. 1:7$, etc.> [hij zegt:] $Ps. 32:1$ Zalig zijn zij wier ongerechtigheden vergeven zijn, en wier zonden bedekt zijn;",
+      "source_text": "Μακάριοι ὧν ἀφέθησαν αἱ ἀνομίαι, καὶ ὧν ἐπεκαλύφθησαν αἱ ἁμαρτίαι.",
+      "generated_at": "2026-05-19T21:10:49.895882Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 8,
+      "original": "Saligh is de man, welcken de Heere de sonden niet toe en reeckent.",
+      "modernized": "Zalig is de man aan wie de Heere de zonden niet toerekent.",
+      "notes": [
+        {"type": "afwijking", "text": "SV1657 'welcken' is datief; pronoun in modern NL vereist 'aan wie'. Plural 'sonden' uit SV1657 bewaard (HSV-spiegel koos enkelvoud, niet overgenomen — SV-getal blijft leidend bij renovatie)."}
+      ],
+      "source_text": "μακάριος ἀνὴρ ᾧ οὐ μὴ λογίσηται Κύριος ἁμαρτίαν.",
+      "generated_at": "2026-05-19T21:11:11.785296Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 9,
+      "original": "Dese <Of, salighmakinge, waer uyt blijckt dat het woort salighspreken, of, salighmaken, hier van David genomen wort voor ’t selve, dat de Schrifture Genes. 15.6. van Abraham de toereeckeninge der rechtveerdigheyt noemt. De reden is om dat de gront onser saligheyt gelegen is in de vergevinge der sonden, ende toereeckeninge der gerechtigheyt Christi.> salighsprekinge dan, is die [alleen] over de besnijdenisse, ofte oock over de voorhuydt? Want wy seggen dat Abraham het geloove gereeckent is tot rechtveerdigheyt.",
+      "modernized": "Deze <Of, zaligmaking, waaruit blijkt dat het woord zaligspreken, of zaligmaken, hier door David genomen wordt voor hetzelfde wat de Schrift $Gn. 15:6$ bij Abraham de toerekening van de rechtvaardigheid noemt. De reden is dat de grond van onze zaligheid gelegen is in de vergeving van de zonden, en de toerekening van de gerechtigheid van Christus.> zaligspreking dan, is die [alleen] over de besnijdenis, of ook over de voorhuid? Want wij zeggen dat aan Abraham het geloof gerekend is tot rechtvaardigheid.",
+      "source_text": "ὁ μακαρισμὸς οὖν οὗτος ἐπὶ τὴν περιτομήν, ἢ καὶ ἐπὶ τὴν ἀκροβυστίαν; λέγομεν γὰρ ὅτι Ἐλογίσθη τῷ Ἀβραὰμ ἡ πίστις εἰς δικαιοσύνην.",
+      "generated_at": "2026-05-19T21:11:41.660405Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
