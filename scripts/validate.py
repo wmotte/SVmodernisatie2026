@@ -301,7 +301,7 @@ CAP_CHECK_STOPLIST = {
     "siet", "ofte", "gelijck", "ghy", "gy", "des", "nademael", "aangezien",
     "aengaende", "aengezien", "voortijts", "sulcks", "alsoo", "alsdan",
     "terstondt", "want", "maer", "ook", "overmits", "wijl", "alsoo",
-    "doe", "alhoewel", "hoewel", "het",
+    "doe", "alhoewel", "hoewel", "het", "welck", "welcke",
     # Drop-cap-equivalents: leading-cap variants gevangen door .lower().
     "ende.", "ende,",
 }
