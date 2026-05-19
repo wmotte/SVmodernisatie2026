@@ -28,6 +28,8 @@ def chapter_range_for_book(book: str) -> list[int]:
         return list(range(1, 17))
     if book == "PHM":
         return [1]
+    if book == "ROM":
+        return list(range(1, 17))
     raise ValueError(f"Geen hoofdstuk-range bekend voor {book}")
 
 

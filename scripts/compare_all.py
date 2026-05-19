@@ -33,6 +33,7 @@ BOOK_CHAPTERS = {
     "LUK": 24,
     "MRK": 16,
     "PHM": 1,
+    "ROM": 16,
 }
 
 
