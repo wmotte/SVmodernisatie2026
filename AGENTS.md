@@ -92,11 +92,23 @@ Volledige tekst: `research/vertaalprincipes.txt`. Praktisch:
    blijft "Apostelen", "Christelicke Kercke" wordt "Christelijke Kerk"
    (hoofdletters op beide). Geldt zowel in hoofdtekst als binnen
    `<kanttekeningen>` — "Leeraers" wordt "Leraars", niet "leraars".
-   **Uitzondering:** SV-typografische initiaalhoofdletters aan vers- of zinsbegin
-   (`NAdemael`, `IN de dagen`, `DE Sone Godts`) tellen niet als
-   SV-hoofdletters; dat is een drukkersconventie van 1657. Modern Nederlands
-   gebruikt zinsstijl: `Aangezien`, `In de dagen`, `De Zoon van
-   God`. De validator markeert hoofdletterwisselingen als harde fout (apart op
+   **Uitzondering 1 — initiaalhoofdletters aan vers- of zinsbegin:**
+   SV-typografische drop-caps (`NAdemael`, `IN de dagen`, `DE Sone Godts`)
+   tellen niet als SV-hoofdletters; dat is een drukkersconventie van 1657.
+   Modern Nederlands gebruikt zinsstijl: `Aangezien`, `In de dagen`, `De
+   Zoon van God`.
+
+   **Uitzondering 2 — ALL-CAPS mid-zin op heilige namen / auteursaanduiding:**
+   SV-druk zet bepaalde eigennamen mid-zin in volledige kapitalen
+   (`CHRISTI JESU`, `IEHOVAH`) of in brief-opener / colofon van een
+   Sendtbrief de naam van de auteur (`PAULUS ... een gevangen CHRISTI JESU`;
+   `Eynde van den Sendtbrief PAULI aen Philemon`). Dat is óók een
+   drukkersconventie en wordt in modern Nederlands gewone zinsstijl:
+   `Christus Jezus`, `Paulus`. Geldt zowel in vers-tekst als in epiloog/
+   colofon. De naamvorm wordt daarbij wèl gemoderniseerd (genitief `PAULI`
+   → nominatief `Paulus`, `IESU CHRISTO` → `Jezus Christus`).
+
+   De validator markeert hoofdletterwisselingen als harde fout (apart op
    hoofdtekst en kanttekeningen).
 6. **Vierkante haken `[…]` markeren toevoegingen** door de SV-vertalers
    (woorden niet in de Griekse brontekst). **Bewaar ze exact** — zelfde
