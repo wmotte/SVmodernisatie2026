@@ -1,7 +1,7 @@
 {
   "book": "ROM",
   "chapter": 4,
-  "reviewed_at": "2026-05-19T21:48:16+00:00",
+  "reviewed_at": "2026-05-19T21:52:21+00:00",
   "passes": [
     {
       "pass": 1,
@@ -15,6 +15,36 @@
       "mode": "orchestrator-decisions",
       "fixed": 6,
       "rebutted": 8
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-19T21:51:36+00:00",
+      "mode": "verify",
+      "actions": [
+        "ROM-4-2-001: rebuttal verified",
+        "ROM-4-2-002: verified",
+        "ROM-4-7-001: verified",
+        "ROM-4-7-002: verified",
+        "ROM-4-9-001: reopened (te generiek)",
+        "ROM-4-11-001: verified",
+        "ROM-4-11-002: reopened (te generiek)",
+        "ROM-4-13-001: rebuttal verified",
+        "ROM-4-14-001: rebuttal verified",
+        "ROM-4-16-001: verified",
+        "ROM-4-16-002: rebuttal verified",
+        "ROM-4-17-001: verified",
+        "ROM-4-3-001: rebuttal verified",
+        "ROM-4-6-001: rebuttal verified"
+      ]
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-05-19T21:52:21+00:00",
+      "mode": "verify",
+      "actions": [
+        "ROM-4-9-001: rebuttal verified",
+        "ROM-4-11-002: rebuttal verified"
+      ]
     }
   ],
   "issues": [
@@ -28,8 +58,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ROM-4-2-001",
-      "status": "rebutted",
-      "rebuttal": "'indien' is in modern formeel-bijbels Nederlands productief conditioneel register (Van Dale: formeel, niet archaïsch); HSV behoudt 'indien'/'als' in conditionele bijzinnen. §2.7-drempel niet overschreden. Concordant met v14 binnen ROM 4."
+      "status": "verified",
+      "rebuttal": "'indien' is in modern formeel-bijbels Nederlands productief conditioneel register (Van Dale: formeel, niet archaïsch); HSV behoudt 'indien'/'als' in conditionele bijzinnen. §2.7-drempel niet overschreden. Concordant met v14 binnen ROM 4.",
+      "verified_at": "2026-05-19T21:51:36+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -41,8 +72,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ROM-4-2-002",
-      "status": "fixed",
-      "fix_commit": "pending"
+      "status": "verified",
+      "fix_commit": "d2401fd",
+      "verified_at": "2026-05-19T21:51:36+00:00"
     },
     {
       "category": "genitief pronomen wiens/wier",
@@ -54,8 +86,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ROM-4-7-001",
-      "status": "fixed",
-      "fix_commit": "pending"
+      "status": "verified",
+      "fix_commit": "d2401fd",
+      "verified_at": "2026-05-19T21:51:36+00:00"
     },
     {
       "category": "genitief pronomen wiens/wier",
@@ -67,8 +100,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ROM-4-7-002",
-      "status": "fixed",
-      "fix_commit": "pending"
+      "status": "verified",
+      "fix_commit": "d2401fd",
+      "verified_at": "2026-05-19T21:51:36+00:00"
     },
     {
       "category": "voornaamwoordelijk bijwoord gesplitst",
@@ -80,8 +114,9 @@
       "proposed_fix": "hierdoor",
       "location": "kanttekening",
       "id": "ROM-4-9-001",
-      "status": "rebutted",
-      "rebuttal": "False-positive: 'hier door David' is geen gesplitst voornaamwoordelijk bijwoord. 'door David' = agens-bepaling (Gr. ὑπὸ Δαβίδ-equivalent), 'hier' = plaatsbijwoord ('op deze plaats'). Betekenis: 'het woord wordt hier door David genomen voor hetzelfde'. Samenvoegen tot 'hierdoor' zou de agens David vernietigen. Scanner-regex onderscheidt agens-'door' niet van pronominale-adverb-'door'."
+      "status": "verified",
+      "rebuttal": "MODERNISATIE.md §2.3b (pronominaal-bijwoord-samenvoeging) geldt uitsluitend voor 'hier/daar/er/waar' + voorzetsel als één pronominaal cluster (hierdoor = m.b.v. dit). In v9 is 'door David' een agens-bepaling bij de passief 'genomen wordt' (wie neemt het woord μακαρισμός voor hetzelfde: David), en 'hier' een zelfstandig plaatsbijwoord. Samenvoegen tot 'hierdoor' zou de agens David elimineren. Vers-specifiek: alleen v9 heeft deze agens-'door'-constructie binnen de kanttekening.",
+      "verified_at": "2026-05-19T21:52:21+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -93,8 +128,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ROM-4-11-001",
-      "status": "fixed",
-      "fix_commit": "pending"
+      "status": "verified",
+      "fix_commit": "d2401fd",
+      "verified_at": "2026-05-19T21:51:36+00:00"
     },
     {
       "category": "genitief pronomen wiens/wier",
@@ -106,8 +142,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ROM-4-11-002",
-      "status": "rebutted",
-      "rebuttal": "'wiens' (betrekkelijk vnw, genitief, mannelijk enkelvoud) is productief standaard-Nederlands (ANS: 'de man wiens auto...'); antecedent = Abraham (enkelvoud mannelijk). 'naar wiens voorbeeld' is idiomatisch modern. Onderscheidt zich van v7 'wier' (meervoud, vervangen door 'van wie') — 'wiens' valt niet onder het archaïsme-verbod."
+      "status": "verified",
+      "rebuttal": "MODERNISATIE.md §2.7 archaïsme-verbod treft 'wier' (mv./fem., zie v7-fix) maar niet 'wiens' (genitief betrekkelijk vnw, mannelijk enkelvoud), dat productief standaard-NL is (ANS: 'de schrijver wiens boek'). Vers-specifiek: antecedent = Abraham (enkelvoud mannelijk), Gr. κατέναντι οὗ (v17). 'naar wiens voorbeeld' is idiomatisch modern; onderscheidt zich expliciet van v7 'wier ongerechtigheden' (meervoud → 'van wie' gefixt).",
+      "verified_at": "2026-05-19T21:52:21+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -119,8 +156,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ROM-4-13-001",
-      "status": "rebutted",
-      "rebuttal": "False-positive kanttekening-redundantie: 'gedaan namelijk dat hij' is volledig hoofdtekst ('...aan zijn zaad [gedaan], namelijk dat hij <kt> een erfgenaam...'). De scanner concateneert hoofdtekst over de ingevoegde kanttekening-grens heen; geen van beide kanttekeningen in v13 herhaalt deze frase. Geen parafrastische herhaling."
+      "status": "verified",
+      "rebuttal": "False-positive kanttekening-redundantie: 'gedaan namelijk dat hij' is volledig hoofdtekst ('...aan zijn zaad [gedaan], namelijk dat hij <kt> een erfgenaam...'). De scanner concateneert hoofdtekst over de ingevoegde kanttekening-grens heen; geen van beide kanttekeningen in v13 herhaalt deze frase. Geen parafrastische herhaling.",
+      "verified_at": "2026-05-19T21:51:36+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -132,8 +170,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ROM-4-14-001",
-      "status": "rebutted",
-      "rebuttal": "'indien' productief formeel-conditioneel register in modern bijbels NL (HSV ROM 4:14 'Want als'); §2.7-drempel niet overschreden. Concordant met v2 binnen ROM 4. Identiek argument als v2 maar vers-specifiek: hier conditioneel 'indien...dan' (εἰ...)."
+      "status": "verified",
+      "rebuttal": "'indien' productief formeel-conditioneel register in modern bijbels NL (HSV ROM 4:14 'Want als'); §2.7-drempel niet overschreden. Concordant met v2 binnen ROM 4. Identiek argument als v2 maar vers-specifiek: hier conditioneel 'indien...dan' (εἰ...).",
+      "verified_at": "2026-05-19T21:51:36+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -145,8 +184,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ROM-4-16-001",
-      "status": "fixed",
-      "fix_commit": "pending"
+      "status": "verified",
+      "fix_commit": "d2401fd",
+      "verified_at": "2026-05-19T21:51:36+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -158,8 +198,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ROM-4-16-002",
-      "status": "rebutted",
-      "rebuttal": "Functionele lemma-citatie, geen redundantie: de kanttekening <die het geloof van Abraham navolgen, al zijn zij niet uit Abraham naar het vlees gesproten> verklaart wié 'uit het geloof van Abraham' (hoofdtekst) zijn. KANTTEKENINGEN.md staat lemma-herhaling toe wanneer de kanttekening het geglosste begrip disambigueert (navolgers vs. vleselijke afstammelingen)."
+      "status": "verified",
+      "rebuttal": "Functionele lemma-citatie, geen redundantie: de kanttekening <die het geloof van Abraham navolgen, al zijn zij niet uit Abraham naar het vlees gesproten> verklaart wié 'uit het geloof van Abraham' (hoofdtekst) zijn. KANTTEKENINGEN.md staat lemma-herhaling toe wanneer de kanttekening het geglosste begrip disambigueert (navolgers vs. vleselijke afstammelingen).",
+      "verified_at": "2026-05-19T21:51:36+00:00"
     },
     {
       "category": "voornaamwoordelijk bijwoord gesplitst",
@@ -171,8 +212,9 @@
       "proposed_fix": "hieraf",
       "location": "kanttekening",
       "id": "ROM-4-17-001",
-      "status": "fixed",
-      "fix_commit": "pending"
+      "status": "verified",
+      "fix_commit": "d2401fd",
+      "verified_at": "2026-05-19T21:51:36+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -191,8 +233,9 @@
         22
       ],
       "id": "ROM-4-3-001",
-      "status": "rebutted",
-      "rebuttal": "SV-getrouw onderscheid: v10 SV 'toe gereeckent' (met prefix 'toe', in de toerekenen-context van vss 4-8) → 'toegerekend'; v3/v5/v9/v22 SV 'gereeckent' (zonder prefix, Abraham-citaat Gn. 15:6) → 'gerekend'. Beide λογίζομαι maar SV markeert v10 met 'toe' wegens discourse-context. Onze rendering volgt SV's eigen lexicale markering."
+      "status": "verified",
+      "rebuttal": "SV-getrouw onderscheid: v10 SV 'toe gereeckent' (met prefix 'toe', in de toerekenen-context van vss 4-8) → 'toegerekend'; v3/v5/v9/v22 SV 'gereeckent' (zonder prefix, Abraham-citaat Gn. 15:6) → 'gerekend'. Beide λογίζομαι maar SV markeert v10 met 'toe' wegens discourse-context. Onze rendering volgt SV's eigen lexicale markering.",
+      "verified_at": "2026-05-19T21:51:36+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -210,8 +253,9 @@
         24
       ],
       "id": "ROM-4-6-001",
-      "status": "rebutted",
-      "rebuttal": "False-positive: alle 'welcken'-datief-voorkomens (v6, v8, v24) zijn consistent als 'aan wie' gerenderd (datief-relativum ᾧ/οἷς). Scanner-prefix-heuristiek mist de orthografische transitie welck→wie en ziet daarom 'geen gemeenschappelijke prefix'. Concordant gemoderniseerd."
+      "status": "verified",
+      "rebuttal": "False-positive: alle 'welcken'-datief-voorkomens (v6, v8, v24) zijn consistent als 'aan wie' gerenderd (datief-relativum ᾧ/οἷς). Scanner-prefix-heuristiek mist de orthografische transitie welck→wie en ziet daarom 'geen gemeenschappelijke prefix'. Concordant gemoderniseerd.",
+      "verified_at": "2026-05-19T21:51:36+00:00"
     }
   ]
 }
