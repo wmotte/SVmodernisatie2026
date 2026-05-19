@@ -115,6 +115,45 @@
       "generated_at": "2026-05-19T15:05:24.648967Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 13,
+      "original": "Doch ick en wil niet dat u onbekent zy, broeders, $1.Thess. 2.18.$ dat ick menighmael voorgenomen hebbe tot u te komen (ende ben tot noch toe <Namelick, ofte door voorvallende swarigheden, of door Godts bevel, gelijck Actor. 16.7.> verhindert geweest) op dat ick oock onder u <Namelick, van mijnen dienst, ende beroepinge tot een Apostel Christi onder de Heydenen, om haer tot Christum te bekeeren, of ten minsten in haer geloove meer ende meer te bevestigen.> eenige vrucht soude hebben, gelijck als oock onder de andere Heydenen.",
+      "modernized": "Maar ik wil niet dat u onbekend is, broeders, $1Th. 2:18$ dat ik mij menigmaal heb voorgenomen tot u te komen (en ben tot nu toe <Namelijk, of door optredende moeilijkheden, of door Gods bevel, zoals $Hd. 16:7$.> verhinderd geweest) opdat ik ook onder u <Namelijk, van mijn dienst en roeping tot een Apostel van Christus onder de Heidenen, om hen tot Christus te bekeren, of ten minste in hun geloof meer en meer te bevestigen.> enige vrucht zou hebben, zoals ook onder de andere Heidenen.",
+      "source_text": "οὐ θέλω δὲ ὑμᾶς ἀγνοεῖν, ἀδελφοί, ὅτι πολλάκις προεθέμην ἐλθεῖν πρὸς ὑμᾶς καὶ ἐκωλύθην ἄχρι τοῦ δεῦρο, ἵνα καρπόν τινα σχῶ καὶ ἐν ὑμῖν, καθὼς καὶ ἐν τοῖς λοιποῖς ἔθνεσιν.",
+      "generated_at": "2026-05-19T15:09:41.067804Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 14,
+      "original": "$1.Corinth. 9 16.$ Beyde <Onder dese twee eerste worden alle soorten van Heydenen verstaen, Actor. cap. 28. vers 2. ende door wijse ende onwijse allerley menschen in het bysonder onder de Griecken ofte Barbaren: ende ’t schijnt dat Paulus daer mede de gunste der Romeynen wil verwecken, om dat sy haer selven de kloeckste ende wijste van alle menschen hielden.> Griecken ende Barbaren, beyde wijsen ende onwijsen <D. ben ick gehouden, uyt kracht van mijn beroep, het Euangelium te prediken.> ben ick een schuldenaer.",
+      "modernized": "$1Kor. 9:16$ Zowel <Onder deze twee eerste worden alle soorten van Heidenen verstaan, $Hd. 28:2$, en door wijzen en onwijzen allerlei mensen in het bijzonder onder de Grieken of Barbaren: en het schijnt dat Paulus daarmee de gunst van de Romeinen wil opwekken, omdat zij zichzelf voor de verstandigste en wijste van alle mensen hielden.> Grieken als Barbaren, zowel wijzen als onwijzen <Dat is, ik ben gehouden, krachtens mijn roeping, het Evangelie te prediken.> ben ik een schuldenaar.",
+      "source_text": "Ἕλλησί τε καὶ βαρβάροις, σοφοῖς τε καὶ ἀνοήτοις ὀφειλέτης εἰμί·",
+      "generated_at": "2026-05-19T15:10:44.937454Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "concordantie kanttekening 2",
+          "context": "SV 'uyt kracht van mijn beroep'",
+          "choice": "'krachtens mijn roeping'",
+          "alternatives": [
+            "'krachtens mijn beroep' (letterlijk)"
+          ],
+          "reason": "SV 'beroep' = roeping/ambt (vgl. v.1 'beroepinge' → 'roeping'); modern NL 'beroep' = professie, dus false-friend. Concordant gerenoveerd."
+        }
+      ]
+    },
+    {
+      "verse_number": 15,
+      "original": "Alsoo <Ofte, wat my aengaet, ick ben volveerdigh.> het gene in my is, dat is volveerdigh om u oock die te Roomen zijt, het Euangelium te verkondigen.",
+      "modernized": "Aldus, wat in mij is, dat is bereid <Of, wat mij aangaat, ik ben bereid.> om ook u, die te Rome bent, het Evangelie te verkondigen.",
+      "source_text": "οὕτω τὸ κατ’ ἐμὲ πρόθυμον καὶ ὑμῖν τοῖς ἐν Ῥώμῃ εὐαγγελίσασθαι.",
+      "generated_at": "2026-05-19T15:11:23.969521Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
