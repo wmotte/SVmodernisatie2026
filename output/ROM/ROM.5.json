@@ -73,6 +73,47 @@
           "reason": "de bronlezing bevat een spatie-zetfout (2 13) waar 2.13 bedoeld is; de verwijzing naar Kolossenzen 2:13 is contextueel ondubbelzinnig"
         }
       ]
+    },
+    {
+      "verse_number": 7,
+      "original": "Want nauwlick sal yemant voor eenen rechtveerdigen sterven: want voor <Ofte, nuttigen, Dat is, die hem ofte andere dienstigh ende nuttigh is.> den goeden sal <Dit seght de Apostel, om dat, insonderheyt in de Romeynsche historien, hoe wel seer weynige, nochtans eenige worden gevonden, die haer in den doot hebben begeven, om hare vrienden ende medeburgers te verlossen van swarigheyt: maer niemant van die en is van sijne vyanden gestorven, gelijck Christus gedaen heeft.> mogelick yemant oock <Gr. durven.> bestaen te sterven.",
+      "modernized": "Want nauwelijks zal iemand voor een rechtvaardige sterven: want voor <Of, nuttige, Dat is, die hem of anderen dienstig en nuttig is.> de goede zal <Dit zegt de Apostel, omdat, inzonderheid in de Romeinse historiën, hoewel zeer weinige, toch enige worden gevonden, die zich in de dood hebben begeven, om hun vrienden en medeburgers te verlossen van zwarigheid: maar niemand van die is voor zijn vijanden gestorven, zoals Christus gedaan heeft.> mogelijk iemand ook <Grieks: durven.> het wagen te sterven.",
+      "source_text": "μόλις γὰρ ὑπὲρ δικαίου τις ἀποθανεῖται· ὑπὲρ γὰρ τοῦ ἀγαθοῦ τάχα τις καὶ τολμᾷ ἀποθανεῖν.",
+      "generated_at": "2026-05-20T05:02:52.187800Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "bestaan te sterven",
+          "context": "hoofdtekst slot",
+          "choice": "het wagen te sterven",
+          "alternatives": [
+            "bestaan te sterven",
+            "durven sterven",
+            "ondernemen te sterven"
+          ],
+          "reason": "SV bestaan te = zich verstouten/ondernemen; modern bestaan is false friend (existeren). Gr.-kanttekening bevestigt durven; wagen behoudt de waagmoed-lading zonder de Gr.-note te dupliceren."
+        }
+      ]
+    },
+    {
+      "verse_number": 8,
+      "original": "Maer Godt <Ofte, recommandeert, aenprijst.> bevestight sijne liefde tegen ons, dat Christus $Hebr. 9.15. 1.Petr. 3.18.$ voor ons gestorven is, als wy <Dat is, als de sonde over ons noch hare heerschappije hadde, Ioan. cap. 9. vers 31. Rom. 6.17, 19, 20.> noch sondaers waren.",
+      "modernized": "Maar God <Of, beveelt aan, prijst aan.> bevestigt zijn liefde jegens ons, dat Christus $Hb. 9:15; 1Pt. 3:18$ voor ons gestorven is, toen wij <Dat is, toen de zonde over ons nog haar heerschappij had, $Jh. 9:31; Rm. 6:17,19,20$.> nog zondaars waren.",
+      "source_text": "συνίστησι δὲ τὴν ἑαυτοῦ ἀγάπην εἰς ἡμᾶς ὁ Θεός, ὅτι ἔτι ἁμαρτωλῶν ὄντων ἡμῶν Χριστὸς ὑπὲρ ἡμῶν ἀπέθανε.",
+      "generated_at": "2026-05-20T05:03:13.423430Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 9,
+      "original": "Veel meer dan, zijnde nu gerechtveerdight <Gr. in sijn bloet, Dat is, door sijne gehoorsaemheyt tot den doot des kruyces, Philip. cap. 2. vers 8. welcke is de bewegende oorsake, waerom ons Godt rechtveerdight, ende daer het geloove op steunt, Rom. cap. 3. vers 25.> door sijn bloet, sullen wy door hem behouden worden <Dat is, van de straffe des toekomenden oordeels, 1.Thessal. cap. 1. vers 10. het welck oock de dagh des toorns genaemt wort, Rom. cap. 2. vers 5.> van den toorn.",
+      "modernized": "Veel meer dan zullen wij, nu wij gerechtvaardigd zijn <Grieks: in zijn bloed, Dat is, door zijn gehoorzaamheid tot de dood van het kruis, $Fp. 2:8$. welke de bewegende oorzaak is, waarom God ons rechtvaardigt, en waar het geloof op steunt, $Rm. 3:25$.> door zijn bloed, door hem behouden worden <Dat is, van de straf van het toekomende oordeel, $1Th. 1:10$. hetwelk ook de dag van de toorn genoemd wordt, $Rm. 2:5$.> van de toorn.",
+      "source_text": "πολλῷ οὖν μᾶλλον, δικαιωθέντες νῦν ἐν τῷ αἵματι αὐτοῦ, σωθησόμεθα δι’ αὐτοῦ ἀπὸ τῆς ὀργῆς.",
+      "generated_at": "2026-05-20T05:03:52.386801Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
