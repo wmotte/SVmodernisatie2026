@@ -25,11 +25,46 @@ from datetime import datetime, timezone
 import requests
 from bs4 import BeautifulSoup, Comment, NavigableString, Tag
 
+# OSIS-boekcode -> HSV-slug (herzienestatenvertaling.nl/teksten/<slug>/<H>).
+# Genummerde boeken zonder streepje (1korinthe), umlaut als rauwe UTF-8 (mattheüs).
 BOOK_TO_HSV_SLUG = {
-    "LUK": "lukas",
+    "MAT": "mattheüs",
     "MRK": "markus",
-    "PHM": "filemon",
+    "LUK": "lukas",
+    "JHN": "johannes",
+    "ACT": "handelingen",
     "ROM": "romeinen",
+    "1CO": "1korinthe",
+    "2CO": "2korinthe",
+    "GAL": "galaten",
+    "EPH": "efeze",
+    "PHP": "filippenzen",
+    "COL": "kolossenzen",
+    "1TH": "1thessalonicenzen",
+    "2TH": "2thessalonicenzen",
+    "1TI": "1timotheüs",
+    "2TI": "2timotheüs",
+    "TIT": "titus",
+    "PHM": "filemon",
+    "HEB": "hebreeën",
+    "JAS": "jakobus",
+    "1PE": "1petrus",
+    "2PE": "2petrus",
+    "1JN": "1johannes",
+    "2JN": "2johannes",
+    "3JN": "3johannes",
+    "JUD": "judas",
+    "REV": "openbaring",
+}
+
+# Aantal hoofdstukken per NT-boek.
+BOOK_CHAPTER_COUNT = {
+    "MAT": 28, "MRK": 16, "LUK": 24, "JHN": 21, "ACT": 28,
+    "ROM": 16, "1CO": 16, "2CO": 13, "GAL": 6, "EPH": 6,
+    "PHP": 4, "COL": 4, "1TH": 5, "2TH": 3, "1TI": 6,
+    "2TI": 4, "TIT": 3, "PHM": 1, "HEB": 13, "JAS": 5,
+    "1PE": 5, "2PE": 3, "1JN": 5, "2JN": 1, "3JN": 1,
+    "JUD": 1, "REV": 22,
 }
 
 
@@ -194,13 +229,10 @@ def write_output(data: dict, book: str, chapter: int) -> str:
 
 
 def chapter_range_for_book(book: str) -> list[int]:
-    if book == "LUK":
-        return list(range(1, 25))
-    if book == "MRK":
-        return list(range(1, 17))
-    if book == "ROM":
-        return list(range(1, 17))
-    raise ValueError(f"Geen hoofdstuk-range bekend voor {book}")
+    n = BOOK_CHAPTER_COUNT.get(book)
+    if n is None:
+        raise ValueError(f"Geen hoofdstuk-range bekend voor {book}")
+    return list(range(1, n + 1))
 
 
 def main() -> int:

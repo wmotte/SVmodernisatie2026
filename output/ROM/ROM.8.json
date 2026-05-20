@@ -34,6 +34,47 @@
       "generated_at": "2026-05-20T14:39:50.798542Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 4,
+      "original": "Op dat <Dat is, het gene de wet eyschte, die het leven beloofde aen de gene die de wet volkomelick hielden, welcken eysch Christus voor ons vervult heeft, Galat. cap. 3. versen 13, 14. ende cap. 4. versen 4, 5.> het recht der wet vervult soude worden in ons, <Dit verhaelt de Apostel wederom uyt het eerste vers, niet als een oorsake der rechtveerdighmakinge, het welck hy selfs van Abraham ende David heeft ontkent, Cap. 4. maer als een merckteecken waer aen de geloovige van de waerheyt hares geloofs, ende volgens harer rechtveerdighmakinge konnen gekent ende versekert zijn: ende stelt dit merckteecken als eenen gront om de volgende vermaninge daer op te bouwen.> die niet na den vleesche en wandelen, maer na den Geest.",
+      "modernized": "Opdat <Dat is, wat de wet eiste, die het leven beloofde aan degenen die de wet volledig hielden, welke eis Christus voor ons vervuld heeft, $Gl. 3:13,14; 4:4,5$.> het recht van de wet vervuld zou worden in ons, <Dit haalt de Apostel wederom aan uit het eerste vers, niet als een oorzaak van de rechtvaardigmaking, wat hij zelf van Abraham en David heeft ontkend, Cap. 4. maar als een kenteken waaraan de gelovigen van de waarheid van hun geloof, en bijgevolg van hun rechtvaardigmaking gekend en verzekerd kunnen zijn; en stelt dit kenteken als een grond om de volgende vermaning daarop te bouwen.> die niet naar het vlees wandelen, maar naar de Geest.",
+      "source_text": "ἵνα τὸ δικαίωμα τοῦ νόμου πληρωθῇ ἐν ἡμῖν, τοῖς μὴ κατὰ σάρκα περιπατοῦσιν, ἀλλὰ κατὰ πνεῦμα.",
+      "generated_at": "2026-05-20T14:43:29.862171Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 5,
+      "original": "$1.Cor. 2.14.$ Want <Dat is, in dewelcke de natuerlicke verdorventheyt noch hare volle kracht heeft, als voren.> die na den vleesche zijn, <Ofte, versinnen, bevroeden, Dat is, met haer verstant ende met alle hare sinnen na vleeschelicke saken trachten, waer van de vruchten in het breede beschreven worden, Galat. cap. 5. versen 19, 20, 21.> bedencken dat des vleesches is: maer <Dat is, die door den Geest Godts zijn wedergeboren.> die na den Geest zijn, <Dat is, begeven haer, ende trachten na geestelicke saken, welcke van den Apostel oock in het breede beschreven worden, Galat. cap. 5. vers 22.> [bedencken] dat des Geestes is.",
+      "modernized": "$1Kor. 2:14$ Want <Dat is, in wie de natuurlijke verdorvenheid nog haar volle kracht heeft, als voren.> die naar het vlees zijn, <Of, zinnen op, begrijpen, Dat is, met hun verstand en met al hun zinnen naar vleselijke zaken trachten, waarvan de vruchten uitvoerig beschreven worden, $Gl. 5:19,20,21$.> bedenken wat van het vlees is: maar <Dat is, die door de Geest van God zijn wedergeboren.> die naar de Geest zijn, <Dat is, begeven zich, en trachten naar geestelijke zaken, die door de Apostel ook uitvoerig beschreven worden, $Gl. 5:22$.> [bedenken] wat van de Geest is.",
+      "source_text": "οἱ γὰρ κατὰ σάρκα ὄντες τὰ τῆς σαρκὸς φρονοῦσιν· οἱ δὲ κατὰ πνεῦμα τὰ τοῦ πνεύματος.",
+      "generated_at": "2026-05-20T14:44:15.403446Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "twijfel",
+          "subject": "bevroeden",
+          "context": "kanttekening 2 (synoniemen-gloss bij φρονοῦσιν)",
+          "choice": "begrijpen",
+          "alternatives": [
+            "bevroeden",
+            "beseffen",
+            "begrijpen"
+          ],
+          "reason": "SV-gloss somt synoniemen op voor het werkwoord; bevroeden is archaisch, begrijpen behoudt de glossbedoeling in modern NL."
+        }
+      ]
+    },
+    {
+      "verse_number": 6,
+      "original": "Want het bedencken des vleeschs <Dat is, leydt ende brenght den mensche tot de doot.> is de doot: maer het bedencken des Geests <Dat is, is de wegh tot het eeuwige leven, ende tot den eeuwigen vrede, Rom. cap. 2. vers 10.> is het leven ende vrede:",
+      "modernized": "Want het bedenken van het vlees <Dat is, leidt en brengt de mens tot de dood.> is de dood: maar het bedenken van de Geest <Dat is, is de weg tot het eeuwige leven, en tot de eeuwige vrede, $Rm. 2:10$.> is het leven en vrede:",
+      "source_text": "τὸ γὰρ φρόνημα τῆς σαρκὸς θάνατος· τὸ δὲ φρόνημα τοῦ πνεύματος ζωὴ καὶ εἰρήνη·",
+      "generated_at": "2026-05-20T14:44:35.553353Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
