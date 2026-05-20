@@ -26,7 +26,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from validate import ARCHAISM_BLACKLIST  # noqa: E402
+from rules_data import ARCHAISM_BLACKLIST  # noqa: E402
 
 
 def _split_hoofdtekst_kanttekeningen(text: str) -> tuple[str, str]:

@@ -34,28 +34,9 @@ from collections import Counter
 from pathlib import Path
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
-STOPLIST_PATH = Path(__file__).resolve().parent / "stoplist.txt"
-
-# Token-regex: alfabetisch incl. NL diakrieten + apostrof.
+sys.path.insert(0, str(PROJECT_ROOT / "scripts"))
+from rules_data import STOPLIST
 _TOKEN_RE = re.compile(r"[A-Za-zëéüïöäÀ-ÿ']+")
-
-
-def _load_stoplist() -> frozenset[str]:
-    """Lees stoplist.txt: één woord per regel, '#' = comment, blanks genegeerd."""
-    words: set[str] = set()
-    for raw in STOPLIST_PATH.read_text(encoding="utf-8").splitlines():
-        line = raw.split("#", 1)[0].strip()
-        if line:
-            words.add(line)
-    return frozenset(words)
-
-# Stoplist: woorden waarvan een carry-over uit SV → modern volkomen
-# normaal is. Geen archaïsmen, geen behoefte aan modernisering. Bewust
-# beperkt — laat liever 1× ruis door dan een echte miss filteren. Groei
-# deze lijst conservatief op basis van wat de lint herhaaldelijk meldt
-# en bij review als "OK" wordt afgedaan. Bron: scripts/stoplist.txt
-# (één woord per regel, '#' = comment, perikoop-headers behouden).
-STOPLIST: frozenset[str] = _load_stoplist()
 
 
 def tokens(text: str) -> list[str]:

@@ -48,89 +48,20 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from bibref import find_loose_refs  # noqa: E402
+from rules_data import (
+    ARCHAISM_BLACKLIST,
+    FOSSIL_GENITIVE_PAIRS,
+    PARTICIPLE_ALWAYS_BAD_ENDE,
+    PARTICIPLE_CONTEXT_ENDE,
+    ADVERBIAL_TRIGGERS_AFTER_PARTICIPLE,
+    PARTICIPLE_ATTRIBUTIVE_REQUIRES_DETERMINER,
+    PARTICIPLE_ATTRIBUTIVE_DETERMINERS,
+    PARTICIPLE_BAD_END_STEMS,
+    CAP_CHECK_STOPLIST,
+)
 
-# Archaïsmen die NIET in moderne tekst mogen staan. Word-boundaries.
-ARCHAISM_BLACKLIST = [
-    r"\bende\b",
-    r"\bghy\b",
-    r"\baldaer\b",
-    r"\baldaar\b",
-    r"\bsoo\b",
-    r"\bdese\b",
-    r"\bwelcke\b",
-    r"\bvoortijts\b",
-    r"\bdaerom\b",
-    r"\bvrouwe\b",
-    r"\bergernisse\b",
-    r"\bsulcks\b",
-    r"\bsulks\b",
-    r"\bdoch\b",
-    r"\bdaer\b",  # 'daer' is altijd fout; 'daar' is OK
-    r"\bsy\b",
-    r"\bhy\b",
-    r"\bhaer\b",
-    r"\bonse\b",
-    r"\bgesproken hebbende\b",
-    r"\bgegaan zijnde\b",
-    r"\bzijnde\b(?! een)",  # 'zijnde' staan-alone is verdacht; "zijnde een" is OK
-    r"\bhebbende\b",        # participle 'gekregen hebbende' etc. → unfold (AGENTS.md)
-    r"\bnagetracht\b",      # archaïsch "nagestreefd"
-    r"\bgeschied(t|de|den|en)?\b",  # hele 'geschieden'-paradigma → "gebeuren"-vormen (γίνομαι), concordantie. 'geschiede' (Onze Vader, Lk 11:2) en 'geschiedenis' blijven buiten schot.
-    r"(?<!hieraan )(?<!daaraan )(?<!eraan )(?<!hieraan\] )(?<!daaraan\] )(?<!eraan\] )(?<!aan dit )(?<!aan deze )(?<!aan dat )(?<!aan die )(?<!aan dit\] )(?<!aan deze\] )(?<!aan dat\] )(?<!aan die\] )\bgelijk\b(?! aan)",          # voegwoord → "zoals"; predicatief "[hieraan] gelijk" / "gelijk aan" mag
-    r"\bvertoefde?\b",      # "vertoeven" is uitstervend literair → "blijven"
-    r"\bvertoefden\b",
-    r"\bhoedanig\b",        # archaïsch → "wat voor / van welke aard"
-    r"\bhoedanige\b",
-    r"\baanschouwer\b",     # → "ooggetuige" (Gr. αὐτόπτης)
-    r"\baanschouwers\b",
-    r"\bnochtans\b",        # → "toch"
-    r"\balsdan\b",          # → "dan / vervolgens"
-    r"\bterstond\b",        # → "onmiddellijk / meteen" (productiviteits-FAIL)
-    r"\bonderwijzing\b",    # → "onderwijs / onderricht"
-    r"\bonbillijk(e)?\b",   # → "onrechtvaardig"
-    r"\bsmart(en)?\b",      # → "pijn(en) / verdriet"
-    r"\bvolkomen\b",        # → "volledig / geheel" (als bijwoord)
-    r"\btijding(en)?\b",    # → "boodschap / nieuws"
-    r"\bderhalve\b",        # → "daarom / dus"
-    r"\brantsoen\b",        # → "losprijs" (Gr. λύτρον); modern NL = voedseltoewijzing
-    r"\beertijds\b",        # → "vroeger / voorheen" (drempel-archaisme; PHM 1:11)
-    r"\bdieverij\b",        # → "diefstal" (PHM 1:18 kt)
-    r"\bdaar\s+(?:ik|wij|u|gij)\s+\w+\b",  # causaal 'daar' + 1/2-persoon → "nu / aangezien / omdat" (PHM 1:9)
-]
+# Rule configurations imported from rules_data.py
 
-# §2.3c flexieve genitief — `der/des/den + zn` in hoofdtekst is per default
-# een SV carry-over (`Geest der heiligmaking`, `gehoorzaamheid des geloofs`,
-# `wijsheid des vleses`). Moderne weergave: `van`-constructie. Enige
-# uitzondering: een kleine groep gefossiliseerde formules (`Zoon des
-# mensen`, `Koninkrijk der hemelen`, `dag des oordeels` …) die in de
-# Nederlandse theologische traditie tot vandaag flexief blijven. Zie
-# MODERNISATIE.md §2.3c.
-#
-# Allowlist als (artikel, zn)-paar in lowercase. Iedere `der/des/den + zn`
-# in hoofdtekst die hier niet in staat = HARD issue. Modernisator moet
-# óf ontvouwen, óf — bij een nieuwe attestatie van een gefossiliseerde
-# formule — deze lijst uitbreiden met motivatie in MODERNISATIE.md §2.3c.
-FOSSIL_GENITIVE_PAIRS: frozenset[tuple[str, str]] = frozenset({
-    ("des", "mensen"),         # Zoon des mensen (Gr. ὁ υἱὸς τοῦ ἀνθρώπου)
-    ("der", "joden"),          # Koning der Joden
-    ("der", "heerlijkheid"),   # Koning der heerlijkheid
-    ("der", "heerscharen"),    # Heer der heerscharen
-    ("der", "hemelen"),        # Koninkrijk der hemelen
-    ("des", "oordeels"),       # dag des oordeels
-    ("des", "huizes"),         # heer des huizes
-    ("des", "heeren"),         # dag des Heeren
-    ("des", "levens"),         # boek des levens
-    ("der", "heiligen"),       # Heilige der heiligen
-    ("der", "voorbereiding"),  # dag der voorbereiding
-    ("der", "verwoesting"),    # gruwel der verwoesting
-    ("der", "tanden"),         # knersing der tanden
-    ("der", "ongerechtigheid"),# werkers der ongerechtigheid
-    ("der", "rechtvaardigen"), # opstanding der rechtvaardigen
-    ("der", "doden"),          # opstanding der doden
-    ("des", "persoons"),       # aanzien des persoons (Gr. προσωπολημψία)
-    ("der", "aarde"),          # einden der aarde
-    ("der", "wereld"),         # volken der wereld
-})
 
 # Moderne adverbiale formules met `des +` zijn geen flexieve genitief.
 #   • `des te + comparatief` (`des te meer`, `des te later`)
@@ -192,90 +123,8 @@ SPELLING_EQUIV: dict[str, list[str]] = _load_spelling_equiv()
 
 # `-ende` participia die in modern Nederlands ALTIJD een SV-carry-over zijn
 # (geen productieve attributief gebruik). Lower-cased.
-PARTICIPLE_ALWAYS_BAD_ENDE: frozenset[str] = frozenset({
-    # Direct-speech intros
-    "zeggende", "seggende", "sprekende", "antwoordende", "roepende",
-    "vragende", "ondervragende", "smekende",
-    # Zien/horen
-    "ziende", "horende", "hoorende",
-    # Bewegen
-    "uitvarende", "ingaande", "uitgaande", "heengaande",
-    "neervallende", "neerknielende", "neerbuigende",
-    "omkerende", "voortgaande",
-    # Activiteiten (adverbial in SV)
-    "etende", "drinkende", "wenende", "huilende", "lachende",
-    "schreiende", "biddende", "wrijvende",
-    "verkondigende", "predikende", "lezende", "schrijvende",
-    "denkende", "menende", "wetende", "kennende",
-    "begeerende", "begerende",
-    "overleggende", "zoekende",
-    # Latinaat-participiale doorlopers (toegevoegd na LUK 18:1 / 16:23 / 18:35 gap)
-    "strekkende",   # 'daartoe strekkende dat …' — ontvouw naar 'die ertoe strekt dat …'
-    "navolgende",   # 'enige navolgende' — modern: 'enkele die hierna volgen'
-    # Kanttekening-glossen die als SV-style participium-form gloss opduiken
-    # in <Gr. ...> / <Of, ...> / <D. ...> citaten. Per MODERNISATIE.md §2.3
-    # geldt het verbod ook in kanttekeningen — citatie-uitzondering vervalt.
-    "werpende", "aanvangende", "uitberstende", "uitbarstende",
-    "kennende", "makende", "vasthoudende",
-})
+# Participle configurations imported from rules_data.py
 
-# `-ende` participia die context-afhankelijk zijn: attributief OK
-# ('komende eeuw', 'staande orde'), adverbial NIET ('komende uit').
-# Flag wanneer gevolgd door punctuatie of niet-zelfst.naamwoord.
-# Met name: gevolgd door `[,:;]` of door een voorzetsel (`op`, `in`,
-# `tot`, `aan`, `uit`, `van`, …) is een sterk adverbial-signaal.
-PARTICIPLE_CONTEXT_ENDE: frozenset[str] = frozenset({
-    "komende", "zittende", "weidende", "vallende", "varende",
-    "liggende", "wandelende", "lopende", "bevende", "wakende",
-    "wonende", "rustende", "slapende", "zwijgende",
-    "toekomende",  # 'toekomende eeuw' attributief; adverbial flag
-    "neerzittende",
-})
-
-# Adverbial-trigger woorden direct na een CONTEXT participium: voorzetsels
-# en interpunctie. Als context-participium hierdoor wordt gevolgd, flag.
-ADVERBIAL_TRIGGERS_AFTER_PARTICIPLE = frozenset({
-    "op", "in", "tot", "aan", "uit", "van", "met", "naar", "over",
-    "onder", "boven", "tussen", "achter", "voor", "bij", "om", "door",
-    "wat",  # "ziende wat ..." (zelfs al in always-bad, maar context handhaaft)
-    # Subordinators direct na participium = altijd participium-clause, geen attributief gebruik
-    # ('daartoe strekkende dat …', 'menende dat …', 'wetende waarom …').
-    "dat", "toen", "terwijl", "omdat", "zodat", "wanneer", "waarom",
-    "hoe", "of", "waar",
-})
-
-# Participia die default als ALWAYS-BAD gelden, maar attributief OK zijn
-# wanneer voorafgegaan door een determinant ('de staande orde'). MAX-fix
-# voor MRK 3:32 / 13:14 waar 'buiten staande zonden' en 'staande waar'
-# door de CONTEXT-vooruitkijker glipten. Toegevoegd: 'staande' (was
-# CONTEXT). Uitbreidbaar voor andere participia met substantief-paar.
-PARTICIPLE_ATTRIBUTIVE_REQUIRES_DETERMINER: frozenset[str] = frozenset({
-    "staande",
-})
-
-# Determinanten die attributief gebruik van bovenstaande participia
-# autoriseren. 'de staande orde' / 'een staande commissie'.
-PARTICIPLE_ATTRIBUTIVE_DETERMINERS: frozenset[str] = frozenset({
-    "de", "het", "een", "deze", "die", "dit", "dat",
-    "mijn", "uw", "zijn", "haar", "onze", "hun",
-    "enkele", "enige", "vele", "veel", "alle", "sommige", "geen",
-    "elke", "elk", "ieder", "iedere",
-})
-
-# Specifieke werkwoordstammen waarvan de modern-gespelde participium-vorm
-# (`-end[,]`) als adverbiale clause-intro een §2.3-overtreding is. Catch
-# bv. "Dit zeggend, riep hij" / "Bevende, viel zij neer". Voeg toe wanneer
-# een nieuwe stam in review opduikt.
-PARTICIPLE_BAD_END_STEMS: tuple[str, ...] = (
-    "zegg", "sprek", "roep", "zien", "ziend", "horend", "hoorend",
-    "gaand", "staand", "komend", "vallend", "brengend", "wandelend",
-    "neervallend", "neerknielend", "neerbuigend", "antwoord",
-    "doend", "lezend", "schrijvend", "etend", "drinkend", "weidend",
-    "varend", "uitvarend", "ingaand", "uitgaand", "heengaand",
-    "verkondigend", "predikend", "biddend", "smekend", "vragend",
-    "denkend", "menend", "wetend", "kennend", "begeerd",
-    "wenend", "huilend", "lachend", "schreiend",
-)
 
 REF_RE = re.compile(r"\$([^$]+)\$")
 # Een geldige moderne ref: optionele afk + H:V[,W][-X][; ...]
@@ -295,16 +144,8 @@ BIBREF_ABBREV_TOKEN_RE = re.compile(r"\b[A-Z][a-zà-ÿ]{1,9}\.(?=\s*\d)")
 # een lowercase modern equivalent worden vertaald. Cap-check zou anders bij
 # elke voorkomen warning genereren ("Ende" → "En" is verwacht; geen signaal).
 # Filter case-insensitief in `_capitalized_words`.
-CAP_CHECK_STOPLIST = {
-    # Sentence-starters / voegwoorden / aanwijzingen (modernisering: lowercase).
-    "ende", "doch", "soo", "dese", "desen", "deser", "daer", "daerom",
-    "siet", "ofte", "gelijck", "ghy", "gy", "des", "nademael", "aangezien",
-    "aengaende", "aengezien", "voortijts", "sulcks", "alsoo", "alsdan",
-    "terstondt", "want", "maer", "ook", "overmits", "wijl", "alsoo",
-    "doe", "alhoewel", "hoewel", "het", "welck", "welcke", "wat",
-    # Drop-cap-equivalents: leading-cap variants gevangen door .lower().
-    "ende.", "ende,",
-}
+# Capitalization stoplist imported from rules_data.py
+
 
 
 def _run_participle_checks(text: str, location: str) -> list[str]:
@@ -719,6 +560,25 @@ def _validate_verse(orig: dict, mod: dict) -> dict:
         kc_i, kc_w = _check_caps(orig_kant, mod_kant, "kanttekening")
         issues.extend(kc_i)
         warnings.extend(kc_w)
+
+    # 3c. Kanttekening afkortingen-normalisatie check
+    kant_contents = _bracket_contents(mod_text, "<", ">")
+    abbrev_blacklist = [
+        (r"\b[Dd]\.\s+", "dat is"),
+        (r"\b[Gg]r\.\s+", "Grieks:"),
+        (r"\b[Hh]ebr\.\s+", "Hebreeuws:"),
+        (r"\b[Oo]fte\b", "Of"),
+        (r"\b[Nn]amelick\b", "Namelijk"),
+        (r"\b[Ss]iet\b", "Zie"),
+    ]
+    for content in kant_contents:
+        for old_pat, replacement in abbrev_blacklist:
+            if re.search(old_pat, content):
+                issues.append(
+                    f"kanttekening: '{content}' bevat een archaïsche afkorting. "
+                    f"Moderniseer deze volgens KANTTEKENINGEN.md (vervang door '{replacement}')"
+                )
+
 
     # 4. Bijbelref-formaat
     for ref in REF_RE.findall(mod_text):
