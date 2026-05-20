@@ -1,7 +1,7 @@
 {
   "book": "ROM",
   "chapter": 6,
-  "reviewed_at": "2026-05-20T12:47:15+00:00",
+  "reviewed_at": "2026-05-20T12:54:02+00:00",
   "passes": [
     {
       "pass": 1,
@@ -14,6 +14,49 @@
       "ran_at": "2026-05-20T12:51:30.029113+00:00",
       "mode": "scan+resolve",
       "issues_total": 21
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-20T12:52:46+00:00",
+      "mode": "verify",
+      "actions": [
+        "ROM-6-3-001: verified",
+        "ROM-6-3-002: reopened (te generiek)",
+        "ROM-6-4-001: verified",
+        "ROM-6-4-002: verified",
+        "ROM-6-4-003: verified",
+        "ROM-6-4-004: rebuttal verified",
+        "ROM-6-5-001: verified",
+        "ROM-6-5-002: verified",
+        "ROM-6-5-003: verified",
+        "ROM-6-6-001: verified",
+        "ROM-6-6-002: verified",
+        "ROM-6-7-001: verified",
+        "ROM-6-12-001: reopened (te generiek)",
+        "ROM-6-14-001: reopened (te generiek)",
+        "ROM-6-15-001: reopened (te generiek)",
+        "ROM-6-19-001: reopened (te generiek)",
+        "ROM-6-19-002: rebuttal verified",
+        "ROM-6-19-003: reopened (te generiek)",
+        "ROM-6-20-001: rebuttal verified",
+        "ROM-6-23-001: reopened (te generiek)",
+        "ROM-6-4-005: reopened (te generiek)"
+      ]
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-05-20T12:54:02+00:00",
+      "mode": "verify",
+      "actions": [
+        "ROM-6-3-002: rebuttal verified",
+        "ROM-6-12-001: rebuttal verified",
+        "ROM-6-14-001: rebuttal verified",
+        "ROM-6-15-001: rebuttal verified",
+        "ROM-6-19-001: rebuttal verified",
+        "ROM-6-19-003: rebuttal verified",
+        "ROM-6-23-001: rebuttal verified",
+        "ROM-6-4-005: rebuttal verified"
+      ]
     }
   ],
   "issues": [
@@ -27,8 +70,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ROM-6-3-001",
-      "status": "fixed",
-      "fix_commit": "pending"
+      "status": "verified",
+      "fix_commit": "pending",
+      "verified_at": "2026-05-20T12:52:46+00:00"
     },
     {
       "category": "genitief pronomen wiens/wier",
@@ -40,8 +84,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ROM-6-3-002",
-      "status": "rebutted",
-      "rebuttal": "'wiens' is een productief genitief-betrekkelijk voornaamwoord in modern verzorgd Nederlands (ANS; 'de schrijver wiens boek...'), geen SV-fossiel. Hier verwijst het naar de Heilige Geest ('door wiens werking'); zinsherbouw met 'van wie' zou stroever en minder helder zijn. Geen §-overtreding."
+      "status": "verified",
+      "rebuttal": "Geen overtreding: 'wiens' is een productief genitief-betrekkelijk voornaamwoord in modern verzorgd Nederlands (ANS; 'de schrijver wiens boek...'), geen SV-fossiel. In vers 3 verwijst het naar de Heilige Geest (Grieks relatief antecedent, 'door wiens werking'); zinsherbouw met 'van wie' zou stroever en minder helder zijn. Valt buiten elke §-archaïsmecategorie.",
+      "verified_at": "2026-05-20T12:54:02+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -53,8 +98,9 @@
       "proposed_fix": "van de levens",
       "location": "hoofdtekst",
       "id": "ROM-6-4-001",
-      "status": "fixed",
-      "fix_commit": "pending"
+      "status": "verified",
+      "fix_commit": "pending",
+      "verified_at": "2026-05-20T12:52:46+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -66,8 +112,9 @@
       "proposed_fix": "van de levens",
       "location": "kanttekening",
       "id": "ROM-6-4-002",
-      "status": "fixed",
-      "fix_commit": "pending"
+      "status": "verified",
+      "fix_commit": "pending",
+      "verified_at": "2026-05-20T12:52:46+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -79,8 +126,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ROM-6-4-003",
-      "status": "fixed",
-      "fix_commit": "pending"
+      "status": "verified",
+      "fix_commit": "pending",
+      "verified_at": "2026-05-20T12:52:46+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -92,8 +140,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ROM-6-4-004",
-      "status": "rebutted",
-      "rebuttal": "Kanttekening-redundantie soft-FP: '<...> tot de heerlijkheid van de Vader' citeert het hoofdtekst-lemma als gloss-anker vóór de uitleg over Grieks 'dia'; de 4-token-overlap is de verklaarde tekst zelf, geen parafrastische herhaling (KANTTEKENINGEN.md: lemma-aanhaling is standaardpraktijk)."
+      "status": "verified",
+      "rebuttal": "Kanttekening-redundantie soft-FP: '<...> tot de heerlijkheid van de Vader' citeert het hoofdtekst-lemma als gloss-anker vóór de uitleg over Grieks 'dia'; de 4-token-overlap is de verklaarde tekst zelf, geen parafrastische herhaling (KANTTEKENINGEN.md: lemma-aanhaling is standaardpraktijk).",
+      "verified_at": "2026-05-20T12:52:46+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -105,8 +154,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ROM-6-5-001",
-      "status": "fixed",
-      "fix_commit": "pending"
+      "status": "verified",
+      "fix_commit": "pending",
+      "verified_at": "2026-05-20T12:52:46+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -118,8 +168,9 @@
       "proposed_fix": "van de levens",
       "location": "kanttekening",
       "id": "ROM-6-5-002",
-      "status": "fixed",
-      "fix_commit": "pending"
+      "status": "verified",
+      "fix_commit": "pending",
+      "verified_at": "2026-05-20T12:52:46+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -131,8 +182,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ROM-6-5-003",
-      "status": "fixed",
-      "fix_commit": "pending"
+      "status": "verified",
+      "fix_commit": "pending",
+      "verified_at": "2026-05-20T12:52:46+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -144,8 +196,9 @@
       "proposed_fix": "van de zonde",
       "location": "kanttekening",
       "id": "ROM-6-6-001",
-      "status": "fixed",
-      "fix_commit": "pending"
+      "status": "verified",
+      "fix_commit": "pending",
+      "verified_at": "2026-05-20T12:52:46+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -157,8 +210,9 @@
       "proposed_fix": "van de zonde",
       "location": "kanttekening",
       "id": "ROM-6-6-002",
-      "status": "fixed",
-      "fix_commit": "pending"
+      "status": "verified",
+      "fix_commit": "pending",
+      "verified_at": "2026-05-20T12:52:46+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -170,8 +224,9 @@
       "proposed_fix": "van de zonde",
       "location": "kanttekening",
       "id": "ROM-6-7-001",
-      "status": "fixed",
-      "fix_commit": "pending"
+      "status": "verified",
+      "fix_commit": "pending",
+      "verified_at": "2026-05-20T12:52:46+00:00"
     },
     {
       "category": "§2.3b infinitief met nageschoven object",
@@ -183,8 +238,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ROM-6-12-001",
-      "status": "rebutted",
-      "rebuttal": "'om haar te gehoorzamen in zijn begeerten' — het object 'haar' staat al vóór de infinitief; 'in zijn begeerten' is een voorzetselbepaling (PP), geen nageschoven object. Volledig grammaticaal modern NL (vgl. Gr. ἐν ταῖς ἐπιθυμίαις). Scanner-regex leest de PP foutief als Latinaat-object."
+      "status": "verified",
+      "rebuttal": "§2.3b geldt voor een nominaal nageschoven object; in vers 12 is 'haar' het object dat al vóór de infinitief staat ('om haar te gehoorzamen') en is 'in zijn begeerten' een voorzetselbepaling (Grieks ἐν ταῖς ἐπιθυμίαις), geen object. De scanner-regex leest de PP foutief als Latinaat-object. Geen §2.3b-overtreding.",
+      "verified_at": "2026-05-20T12:54:02+00:00"
     },
     {
       "category": "dubbele negatie met clitisch en",
@@ -196,8 +252,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ROM-6-14-001",
-      "status": "rebutted",
-      "rebuttal": "False positive: de 'en' in 'verkwikt ons niet en spoort ons niet aan' is het nevenschikkend voegwoord 'en' (Gr. parallelle ontkenning), dat twee onafhankelijke ontkende zinsdelen verbindt — niet het SV-clitisch negatie-'en' (dat zou 'niet en + finiet ww' zijn, type 'niet en dienen'). Enkele negatie per deelzin is intact."
+      "status": "verified",
+      "rebuttal": "False positive in vers 14: de 'en' in 'verkwikt ons niet en spoort ons niet aan' is het nevenschikkend voegwoord 'en' (Grieks: parallelle ontkenning), dat twee ontkende deelzinnen verbindt — niet het SV-clitisch negatie-'en' (dat 'niet en + finiet ww' zou zijn, type 'niet en dienen'). Enkele negatie per deelzin is intact.",
+      "verified_at": "2026-05-20T12:54:02+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -209,8 +266,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ROM-6-15-001",
-      "status": "rebutted",
-      "rebuttal": "Kanttekening-redundantie soft-FP: 'niet onder de wet' is het verklaarde hoofdtekst-lemma; de kanttekening legt uit hoe 'niet onder de wet' verkeerd opgevat kon worden. Lemma-aanhaling is verklaringsanker, geen redundante parafrase."
+      "status": "verified",
+      "rebuttal": "KANTTEKENINGEN.md: lemma-aanhaling is standaardpraktijk. In vers 15 citeert '<...> niet onder de wet' het hoofdtekst-lemma als verklaringsanker; de kanttekening legt uit hoe 'niet onder de wet' verkeerd opgevat kon worden. Geen redundante parafrase maar de te-verklaren tekst zelf.",
+      "verified_at": "2026-05-20T12:54:02+00:00"
     },
     {
       "category": "§2.3b infinitief met nageschoven object",
@@ -222,8 +280,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ROM-6-19-001",
-      "status": "rebutted",
-      "rebuttal": "'om dienstbaar te zijn aan de onreinheid' — geen nageschoven object maar een voorzetselvoorwerp (aan + NP) dat in modern NL correct ná de infinitief staat (Gr. δοῦλα τῇ ἀκαθαρσίᾳ). 'om dienstbaar te zijn aan X' is idiomatisch modern Nederlands; geen Latinaat-woordvolgorde."
+      "status": "verified",
+      "rebuttal": "§2.3b geldt voor een nominaal nageschoven object; in vers 19 is 'aan de onreinheid' een voorzetselvoorwerp (Grieks δοῦλα τῇ ἀκαθαρσίᾳ, dat./aan + NP) dat in modern NL correct ná de infinitief staat. 'om dienstbaar te zijn aan X' is idiomatisch modern Nederlands, geen Latinaat-woordvolgorde.",
+      "verified_at": "2026-05-20T12:54:02+00:00"
     },
     {
       "category": "§2.3b infinitief met nageschoven object",
@@ -235,8 +294,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ROM-6-19-002",
-      "status": "rebutted",
-      "rebuttal": "'om dienstbaar te zijn aan de gerechtigheid' — identiek aan v19-001 maar tweede helft van de antithese (Gr. δοῦλα τῇ δικαιοσύνῃ); voorzetselvoorwerp aan + NP staat correct ná de infinitief in modern NL. Geen nageschoven object, geen overtreding."
+      "status": "verified",
+      "rebuttal": "'om dienstbaar te zijn aan de gerechtigheid' — identiek aan v19-001 maar tweede helft van de antithese (Gr. δοῦλα τῇ δικαιοσύνῃ); voorzetselvoorwerp aan + NP staat correct ná de infinitief in modern NL. Geen nageschoven object, geen overtreding.",
+      "verified_at": "2026-05-20T12:52:46+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -248,8 +308,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ROM-6-19-003",
-      "status": "rebutted",
-      "rebuttal": "Kanttekening-redundantie soft-FP: 'de zwakheid van uw [verstand]' herneemt het hoofdtekst-lemma 'zwakheid van uw vlees' om het te glosseren (verstand i.p.v. vlees); inhoudelijk onderscheidend, geen lege herhaling."
+      "status": "verified",
+      "rebuttal": "KANTTEKENINGEN.md: lemma-aanhaling is standaardpraktijk. In vers 19 herneemt '<...> de zwakheid van uw [verstand]' het hoofdtekst-lemma 'zwakheid van uw vlees' om het te glosseren (verstand i.p.v. vlees); inhoudelijk onderscheidend, geen lege herhaling.",
+      "verified_at": "2026-05-20T12:54:02+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -261,8 +322,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ROM-6-20-001",
-      "status": "rebutted",
-      "rebuttal": "Kanttekening-redundantie soft-FP: '<Grieks: vrij van de gerechtigheid, dat is...>' citeert het Griekse lemma vóór de uitleg ('ontbloot van alle ware gerechtigheid'); de overlap is de te-verklaren grondtekst, niet parafrastische redundantie."
+      "status": "verified",
+      "rebuttal": "Kanttekening-redundantie soft-FP: '<Grieks: vrij van de gerechtigheid, dat is...>' citeert het Griekse lemma vóór de uitleg ('ontbloot van alle ware gerechtigheid'); de overlap is de te-verklaren grondtekst, niet parafrastische redundantie.",
+      "verified_at": "2026-05-20T12:52:46+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -274,8 +336,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ROM-6-23-001",
-      "status": "rebutted",
-      "rebuttal": "Kanttekening-redundantie soft-FP: 'door Jezus Christus onze [Heere]' wordt in de kanttekening expliciet aangehaald als de te-verklaren slotwoorden ('zoals de volgende woorden ... bewijzen'); lemma-aanhaling, geen redundante parafrase."
+      "status": "verified",
+      "rebuttal": "KANTTEKENINGEN.md: lemma-aanhaling is standaardpraktijk. In vers 23 worden de slotwoorden 'door Jezus Christus onze [Heere]' expliciet aangehaald als de te-verklaren tekst ('zoals de volgende woorden ... bewijzen'); geen redundante parafrase.",
+      "verified_at": "2026-05-20T12:54:02+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -292,8 +355,9 @@
         19
       ],
       "id": "ROM-6-4-005",
-      "status": "rebutted",
-      "rebuttal": "Concordantie-drift soft-FP: origineel-stam 'gelijck' dekt verschillende betekenissen — v5 'gelijkmaking/gelijkenis' (Gr. ὁμοίωμα, gelijkvormigheid) vs comparatief 'zoals' elders (Gr. ὥσπερ, 'gelijk als'). Divergente rendering is correcte betekenisdisambiguatie, geen inconsistentie."
+      "status": "verified",
+      "rebuttal": "Concordantie-drift-FP: origineel-stam 'gelijck' dekt in vers 4/5 verschillende betekenissen — Grieks ὁμοίωμα (gelijkvormigheid, v5 'gelijkmaking') vs comparatief ὥσπερ ('zoals'). Divergente rendering is correcte betekenisdisambiguatie conform §2.7-productiviteitstoets, geen inconsistentie.",
+      "verified_at": "2026-05-20T12:54:02+00:00"
     }
   ]
 }
