@@ -29,6 +29,7 @@ CLI:
 import argparse
 import json
 import re
+import sqlite3
 import sys
 from collections import Counter
 from pathlib import Path
@@ -45,6 +46,31 @@ def tokens(text: str) -> list[str]:
     cleaned = re.sub(r"\[([^\]]+)\]", r"\1", cleaned)       # houd [SV-toevoegingen] inhoud
     cleaned = re.sub(r"[<>]", " ", cleaned)                 # strip kant-haken (houd inhoud)
     return [t.lower() for t in _TOKEN_RE.findall(cleaned) if len(t) >= 4]
+
+
+def _load_dynamic_stoplist() -> set[str]:
+    """Laad alle unieke modernisatie-tokens uit verses.db."""
+    db_path = PROJECT_ROOT / "memory" / "verses.db"
+    if not db_path.exists():
+        return set()
+    try:
+        conn = sqlite3.connect(str(db_path), timeout=5.0)
+        cursor = conn.cursor()
+        cursor.execute("SELECT name FROM sqlite_master WHERE type='table' AND name='verses'")
+        if not cursor.fetchone():
+            conn.close()
+            return set()
+        cursor.execute("SELECT modernisatie FROM verses")
+        rows = cursor.fetchall()
+        conn.close()
+        
+        dynamic_words = set()
+        for (text,) in rows:
+            dynamic_words.update(tokens(text))
+        return dynamic_words
+    except Exception as e:
+        print(f"Waarschuwing: kon dynamische stoplijst niet laden: {e}", file=sys.stderr)
+        return set()
 
 
 def find_carryovers(orig: str, mod: str) -> set[str]:
@@ -65,6 +91,8 @@ def cmd_lint(args: argparse.Namespace) -> int:
     if args.verses:
         target = {int(v) for v in args.verses.split(",")}
 
+    active_stoplist = set(STOPLIST) | _load_dynamic_stoplist()
+
     counter: Counter[str] = Counter()
     where: dict[str, set[int]] = {}
     n_checked = 0
@@ -75,7 +103,7 @@ def cmd_lint(args: argparse.Namespace) -> int:
             continue
         n_checked += 1
         carries = find_carryovers(v.get("original", ""), v.get("modernized", ""))
-        carries -= STOPLIST
+        carries -= active_stoplist
         for w in carries:
             counter[w] += 1
             where.setdefault(w, set()).add(vn)
@@ -100,7 +128,8 @@ def cmd_lint(args: argparse.Namespace) -> int:
 
     result = {
         "checked_verses": n_checked,
-        "stoplist_size": len(STOPLIST),
+        "stoplist_size": len(active_stoplist),
+        "static_stoplist_size": len(STOPLIST),
         "candidates": [
             {"word": w, "occurrences": c, "verses": sorted(where[w])}
             for w, c in items

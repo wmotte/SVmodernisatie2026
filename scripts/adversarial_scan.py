@@ -1308,6 +1308,54 @@ SCANNER_REGISTRY: tuple[tuple[str, callable], ...] = (
 )
 
 
+def _clean_quote(quote: str) -> str:
+    return quote.strip("…").strip().lower()
+
+
+def _extract_match_phrase(issue: dict) -> str:
+    explanation = issue.get("explanation", "")
+    m = re.match(r"^'([^']+)'", explanation)
+    if m:
+        return m.group(1).lower().strip()
+    return _clean_quote(issue.get("quote_modernized", ""))
+
+
+def _load_historical_rebuttals() -> dict[tuple[str, str], str]:
+    """Walkt door de output/ map om alle review.*.json bestanden te vinden en
+    laadt geverifieerde/weerlegde issues, waarbij we (category, cleaned_phrase) -> rebuttal mapping maken.
+    """
+    rebuttals = {}
+    output_dir = PROJECT_ROOT / "output"
+    if not output_dir.exists():
+        return rebuttals
+    
+    # Sorteer om determinisme te garanderen
+    for review_path in sorted(output_dir.glob("**/review.*.json")):
+        try:
+            with review_path.open(encoding="utf-8") as f:
+                data = json.load(f)
+            for issue in data.get("issues", []):
+                status = issue.get("status")
+                rebuttal_text = issue.get("rebuttal", "").strip()
+                if status in ("rebutted", "verified") and rebuttal_text:
+                    cat = issue.get("category")
+                    if cat:
+                        phrase = _extract_match_phrase(issue)
+                        
+                        # Heuristiek: voorkom dat een rebuttal voor een andere term per ongeluk matcht.
+                        # Als de phrase kort is (meestal een specifiek woord/frase), moet tenminste één
+                        # van de betekenisvolle woorden (>=3 tekens) in de rebuttal-tekst voorkomen.
+                        if len(phrase) < 30:
+                            words = [w for w in re.findall(r"[a-zëéüïöäÀ-ÿ']{3,}", phrase)]
+                            if words and not any(w in rebuttal_text.lower() for w in words):
+                                continue
+                                
+                        rebuttals[(cat, phrase)] = rebuttal_text
+        except Exception:
+            continue
+    return rebuttals
+
+
 def assign_ids(book: str, chapter: int, issues: list[dict]) -> None:
     counters: Counter = Counter()
     for issue in issues:
@@ -1376,6 +1424,8 @@ def cmd_scan(args: argparse.Namespace) -> int:
                issue.get("quote_modernized"))
         existing_by_key[key] = issue
 
+    historical_rebuttals = _load_historical_rebuttals()
+
     merged: list[dict] = []
     for issue in all_issues:
         key = (issue["category"], issue["verse"], issue["quote_modernized"])
@@ -1384,6 +1434,13 @@ def cmd_scan(args: argparse.Namespace) -> int:
             for keep in ("status", "fix_commit", "rebuttal", "verified_at"):
                 if keep in prior:
                     issue[keep] = prior[keep]
+        else:
+            # Check of we een historische verified/rebutted issue hebben met dezelfde categorie en phrase
+            phrase = _extract_match_phrase(issue)
+            hist_rebuttal = historical_rebuttals.get((issue["category"], phrase))
+            if hist_rebuttal:
+                issue["status"] = "rebutted"
+                issue["rebuttal"] = f"[Automated Propagation] {hist_rebuttal}"
         merged.append(issue)
 
     passes = list(existing.get("passes", []))
