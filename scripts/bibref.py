@@ -181,7 +181,7 @@ _REF_RE = re.compile(
     (?:cap\.\s*)?
     (?P<chapter>\d+)
     \s*[\.,]\s*
-    (?:vers\s*)?
+    (?:vers(?:en)?\s*)?
     (?P<verses>\d+(?:\s*,\s*\d+)*)
     """,
     re.VERBOSE,
@@ -278,20 +278,20 @@ _ATOM_WITH_BOOK_RE = re.compile(
     r"\s+(?:cap\.\s*)?"
     r"(?P<chapter>\d+)"
     r"\s*[\.,:]\s*"
-    r"(?:vers\s*)?"
+    r"(?:vers(?:en)?\s*)?"
     r"(?P<verses>\d+(?:\s*[-,]\s*\d+)*)"
 )
 # Continuation: zelfde boek via `ende`/`en` (oude vorm) of `;` (moderne vorm).
 _ENDE_CHAIN_RE = re.compile(
     r"(?:\.?\s+(?:ende|en)|\s*;)\s*(?:cap\.\s*)?"
-    r"\d+\s*[\.,:]\s*(?:vers\s*)?\d+(?:\s*[-,]\s*\d+)*"
+    r"\d+\s*[\.,:]\s*(?:vers(?:en)?\s*)?\d+(?:\s*[-,]\s*\d+)*"
 )
 # Continuation: nieuwe boek (na optionele leidende `.` of `;`). Trailing punt
 # na boeknaam ook hier optioneel.
 _NEW_BOOK_CONTINUATION_RE = re.compile(
     r"(?:\.?\s+|\s*;\s*)(?P<book>(?:\d\s*\.?\s*)?[A-Z][a-zëéüíéëïöóôú]+\.?)"
     r"\s+(?:cap\.\s*)?"
-    r"\d+\s*[\.,:]\s*(?:vers\s*)?\d+(?:\s*[-,]\s*\d+)*"
+    r"\d+\s*[\.,:]\s*(?:vers(?:en)?\s*)?\d+(?:\s*[-,]\s*\d+)*"
 )
 
 
