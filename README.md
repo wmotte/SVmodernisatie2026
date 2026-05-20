@@ -16,6 +16,10 @@
   <p><a href="parallelbijbel/PHM_voorbeeld.pdf">Open de parallelbijbel-PDF van Filemon.</a></p>
 </object>
 
+<object data="parallelbijbel/ROM_voorbeeld.pdf" type="application/pdf" width="100%" height="900">
+  <p><a href="parallelbijbel/ROM_voorbeeld.pdf">Open de parallelbijbel-PDF van Romeinen.</a></p>
+</object>
+
 ---
 
 **Modernisering van de Statenvertaling 1657 (2e druk) — met maximaal
