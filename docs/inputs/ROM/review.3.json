@@ -1,0 +1,243 @@
+{
+  "book": "ROM",
+  "chapter": 3,
+  "reviewed_at": "2026-05-19T20:52:21+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-19T20:47:45+00:00",
+      "mode": "scan",
+      "issues_total": 13
+    },
+    {
+      "pass": 1,
+      "ran_at": "2026-05-19T20:51:10.330271+00:00",
+      "mode": "orchestrator-decisions",
+      "fixed": 8,
+      "rebutted": 5
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-19T20:52:21+00:00",
+      "mode": "verify",
+      "actions": [
+        "ROM-3-5-001: rebuttal verified",
+        "ROM-3-7-001: rebuttal verified",
+        "ROM-3-19-001: verified",
+        "ROM-3-19-002: verified",
+        "ROM-3-23-001: verified",
+        "ROM-3-24-001: verified",
+        "ROM-3-24-002: verified",
+        "ROM-3-25-001: verified",
+        "ROM-3-25-002: verified",
+        "ROM-3-27-001: rebuttal verified",
+        "ROM-3-4-001: rebuttal verified",
+        "ROM-3-7-002: rebuttal verified",
+        "ROM-3-8-001: verified"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 5,
+      "severity": "soft",
+      "quote_modernized": "Indien nu onze ongerechtigheid   Gods ge…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "ROM-3-5-001",
+      "status": "verified",
+      "rebuttal": "'indien' faalt §2.7-test niet: HSV gebruikt 'indien' consistent in conditionele bijzinnen (Rm. 3:5, 11:18); Van Dale markeert het als formeel-productief register, niet archaïsch. Binnen ROM 3 concordant gebruikt in v3, v5, v7.",
+      "verified_at": "2026-05-19T20:52:21+00:00"
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 7,
+      "severity": "soft",
+      "quote_modernized": "Want indien de waarheid Gods   door mijn leug…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "ROM-3-7-001",
+      "status": "verified",
+      "rebuttal": "'indien' is in modern formeel-bijbels Nederlands productief (HSV ROM 3:7 ook 'Want indien'); §2.7-drempel niet overschreden. Concordantie met v3, v5 binnen hoofdstuk.",
+      "verified_at": "2026-05-19T20:52:21+00:00"
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 19,
+      "severity": "hard",
+      "quote_modernized": "… Profeten tot de Joden spreekt. Dat is, der verdoemenis, of des rechtvaardigen o…",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'der verdoemenis' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de verdoemenis' of 'van het verdoemenis', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de verdoemenis",
+      "location": "kanttekening",
+      "id": "ROM-3-19-001",
+      "status": "verified",
+      "fix_commit": "2fb901f",
+      "verified_at": "2026-05-19T20:52:21+00:00"
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 19,
+      "severity": "hard",
+      "quote_modernized": "…en spreekt. Dat is, der verdoemenis, of des rechtvaardigen oordeels Gods schuldi…",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'des rechtvaardigen' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de rechtvaardigen' of 'van het rechtvaardigen', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de rechtvaardigen",
+      "location": "kanttekening",
+      "id": "ROM-3-19-002",
+      "status": "verified",
+      "fix_commit": "2fb901f",
+      "verified_at": "2026-05-19T20:52:21+00:00"
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 23,
+      "severity": "soft",
+      "quote_modernized": "Grieks: Hysterountai, hetwelk eigenlijk betekent: in het ver…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'hetwelk' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "ROM-3-23-001",
+      "status": "verified",
+      "fix_commit": "2fb901f",
+      "verified_at": "2026-05-19T20:52:21+00:00"
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 24,
+      "severity": "hard",
+      "quote_modernized": "…van Gods gerechtigheid, en de vergeving der zonden. De eigenschap is dat alle ro…",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'der zonden' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de zonden' of 'van het zonden', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de zonden",
+      "location": "kanttekening",
+      "id": "ROM-3-24-001",
+      "status": "verified",
+      "fix_commit": "2fb901f",
+      "verified_at": "2026-05-19T20:52:21+00:00"
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 24,
+      "severity": "soft",
+      "quote_modernized": "…er enige verdienste. Grieks: apolytrosis, hetwelk, hoewel het soms wat ruimer ge…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'hetwelk' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "ROM-3-24-002",
+      "status": "verified",
+      "fix_commit": "2fb901f",
+      "verified_at": "2026-05-19T20:52:21+00:00"
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 25,
+      "severity": "soft",
+      "quote_modernized": "…arin de tafels van de wet lagen, bedekte; hetwelk ook hilasterion genoemd wordt …",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'hetwelk' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "ROM-3-25-001",
+      "status": "verified",
+      "fix_commit": "2fb901f",
+      "verified_at": "2026-05-19T20:52:21+00:00"
+    },
+    {
+      "category": "kanttekening-luiheid (§2.3 in <…>)",
+      "verse": 25,
+      "severity": "hard",
+      "quote_modernized": "… tijd gestraft heeft, tot die tijd deze voorbijziende ($Hb. 9:15$); of die de me…",
+      "rule_reference": "KANTTEKENINGEN.md + §2.3",
+      "explanation": "'voorbijziende' binnen kanttekening — verdacht -ende-woord in adverbial / clause-final positie. §2.3 geldt ook in <…>; ontvouw naar finiete bijzin.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "ROM-3-25-002",
+      "status": "verified",
+      "fix_commit": "2fb901f",
+      "verified_at": "2026-05-19T20:52:21+00:00"
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 27,
+      "severity": "soft",
+      "quote_modernized": "…r is dan   de roem? Hij is uitgesloten. Door welke wet? Door die van de werken? …",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "ROM-3-27-001",
+      "status": "verified",
+      "rebuttal": "'Door welke wet?' is interrogatief, geen relatief pronomen. §2.3b-regel beperkt 'welke' alleen als RELATIEF; vraagwoorden 'welke/welk' zijn modern productief (Van Dale; HSV ROM 3:27 'Door wat voor wet?'). Pre-scan-regex onderscheidt vraag- en relatiefcontext niet.",
+      "verified_at": "2026-05-19T20:52:21+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 4,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'gelijck' in 3 verzen — verzen [4, 10] renderen het stam anders dan [8]",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        4,
+        8,
+        10
+      ],
+      "id": "ROM-3-4-001",
+      "status": "verified",
+      "rebuttal": "False-positive concordantie-drift: alle drie 'gelijck'-voorkomens (v4, v8, v10) zijn naar 'zoals' gerenderd. Scanner-prefix-heuristiek mist orthografische overgang ck→s+l. Bewuste concordantie.",
+      "verified_at": "2026-05-19T20:52:21+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 7,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'geworde' in 3 verzen — verzen [21] renderen het stam anders dan [7, 12]",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        7,
+        12,
+        21
+      ],
+      "id": "ROM-3-7-002",
+      "status": "verified",
+      "rebuttal": "v7+v12 'is geworden' = koppelwerkwoord-perfect (γέγονεν/ἐπερίσσευσεν); v21 'geopenbaert geworden' = SV-passief-past-perfect-dubbelconstructie (πεφανέρωται). Modern Nederlands behoudt 'is X geworden' voor het eerste maar verwijdert de aux 'geworden' bij passief-past-perfect (HSV v21 'is geopenbaard'). Verschil syntactisch gemotiveerd.",
+      "verified_at": "2026-05-19T20:52:21+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 8,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'rechtve' in 7 verzen — verzen [21, 22] renderen het stam anders dan [8, 10, 25, 26, 30]",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 7 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        8,
+        10,
+        21,
+        22,
+        25,
+        26,
+        30
+      ],
+      "id": "ROM-3-8-001",
+      "status": "verified",
+      "fix_commit": "2fb901f",
+      "verified_at": "2026-05-19T20:52:21+00:00"
+    }
+  ]
+}
