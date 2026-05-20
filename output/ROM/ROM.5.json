@@ -168,6 +168,69 @@
       "generated_at": "2026-05-20T05:17:06.726466Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 16,
+      "original": "Ende niet gelijck [de schult was] door <Namelick, Adam, als voren.> den eenen die gesondight heeft, [alsoo is] de gifte. Want <Ofte, oordeel, Dat is, schult, gelijck 1.Timoth. 5. vers 12. Namelick, waer door wy om de sonde voor Godts oordeel des tijtlicken ende eeuwigen doots schuldigh zijn, gelijck uyt het volgende blijckt.> de schult is wel uyt eene [misdaet] tot <Namelick, voor de gene die door het geloove in Christum van desen verdoemelicken staet niet verlost en worden.> verdoemenisse: maer de genadengifte is uyt <Namelick, der gene die dese gemeene sonde met vele bysondere sonden hebben verswaert, gelijck alle menschen doen die tot hare jaren gekomen zijn.> vele misdaden tot rechtveerdigh-makinge.",
+      "modernized": "En niet zoals [de schuld was] door <Namelijk, Adam, als voren.> de ene die gezondigd heeft, [alzo is] de gift. Want <Of, oordeel, Dat is, schuld, zoals $1Tm. 5:12$. Namelijk, waardoor wij om de zonde voor Gods oordeel van de tijdelijke en eeuwige dood schuldig zijn, zoals uit het volgende blijkt.> de schuld is wel uit één [misdaad] tot <Namelijk, voor degenen die door het geloof in Christus van deze verdoemelijke staat niet verlost worden.> verdoemenis; maar de genadengift is uit <Namelijk, van degenen die deze gemeenschappelijke zonde met vele bijzondere zonden hebben verzwaard, zoals alle mensen doen die tot hun jaren gekomen zijn.> vele misdaden tot rechtvaardigmaking.",
+      "source_text": "καὶ οὐχ ὡς δι’ ἑνὸς ἁμαρτήσαντος, τὸ δώρημα· τὸ μὲν γὰρ κρίμα ἐξ ἑνὸς εἰς κατάκριμα, τὸ δὲ χάρισμα ἐκ πολλῶν παραπτωμάτων εἰς δικαίωμα.",
+      "generated_at": "2026-05-20T05:20:53.961629Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "gelijk (voegw.)",
+          "context": "kanttekening",
+          "choice": "zoals",
+          "alternatives": [
+            "gelijk"
+          ],
+          "reason": "drempel-archaïsme op ARCHAISM_BLACKLIST (gelijk voegw. = zoals, ARCHAISMEN.md r.42); blacklist geldt ook binnen kanttekeningen. 2x in dit vers gemoderniseerd. HSV-spiegel idem."
+        }
+      ]
+    },
+    {
+      "verse_number": 17,
+      "original": "Want indien door de misdaet van eenen de doot geheerscht heeft door <Namel. eersten Adam, als voren.> dien eenen, veel meer sullen de gene, die den overvloet der genade ende der gave der rechtveerdigheyt <Of, aennemen, Namel. door den waren geloove, Ioan. cap.1. vers 12.> ontfangen, <Dat is, deses geestelicken levens deelachtigh zijnde de overhant hebben over de sonde ende schult der selve, Galat. cap. 2. versen 19, 20. Ephes. cap. 2. versen 5, 6. ende hier na des eeuwigen levens deelachtigh worden, gelijck vers 21. nader verklaert wort.> in het leven heerschen door dien eenen [namelick] Iesum Christum.",
+      "modernized": "Want indien door de misdaad van één de dood geheerst heeft door <Namelijk, de eerste Adam, als voren.> die ene, veel meer zullen zij die de overvloed van de genade en van de gave van de gerechtigheid <Of, aannemen, Namelijk, door het ware geloof, $Jh. 1:12$.> ontvangen, <Dat is, terwijl zij van dit geestelijke leven deelachtig zijn de overhand hebben over de zonde en de schuld daarvan, $Gl. 2:19,20; Ef. 2:5,6$. en hierna van het eeuwige leven deelachtig worden, zoals vers 21. nader verklaard wordt.> in het leven heersen door die ene, [namelijk] Jezus Christus.",
+      "source_text": "εἰ γὰρ τῷ τοῦ ἑνὸς παραπτώματι ὁ θάνατος ἐβασίλευσε διὰ τοῦ ἑνός, πολλῷ μᾶλλον οἱ τὴν περισσείαν τῆς χάριτος καὶ τῆς δωρεᾶς τῆς δικαιοσύνης λαμβάνοντες ἐν ζωῇ βασιλεύσουσι διὰ τοῦ ἑνὸς Ἰησοῦ Χριστοῦ.",
+      "generated_at": "2026-05-20T05:21:48.566252Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "gelijk (voegw.)",
+          "context": "kanttekening",
+          "choice": "zoals",
+          "alternatives": [
+            "gelijk"
+          ],
+          "reason": "drempel-archaïsme op ARCHAISM_BLACKLIST (gelijk voegw. = zoals, ARCHAISMEN.md r.42); blacklist geldt ook binnen kanttekeningen. HSV-spiegel idem."
+        }
+      ]
+    },
+    {
+      "verse_number": 18,
+      "original": "Soo dan gelijck door eene misdaet [de schult gekomen is] over alle menschen <Dat is, haer in sulcken staet gebracht, daer in sy voor Godt verdoemelick zijn, Rom. cap. 3. vers 19. Ephes. 2. versen 1, 3.> tot verdoemenisse: alsoo oock door eene <Gr. dikajoma. Alsoo noemt hy de gehoorsaemheyt Christi, om dat sy de kracht heeft om oock andere te rechtveerdigen, gelijck het Griecks woort hier mede brenght: ende wort gestelt tegen de overtredinge Adams, in welcke oock de kracht was om andere tot sondaers te maken, vers 19.> rechtveerdigheyt [komt de genade] <Namelick, die in hem gelooven: ofte, die dese gave aennemen, vers 17.> over alle menschen tot rechtveerdighmakinge des levens.",
+      "modernized": "Zo dan, zoals door één misdaad [de schuld gekomen is] over alle mensen <Dat is, hen in zulk een staat gebracht, waarin zij voor God verdoemelijk zijn, $Rm. 3:19; Ef. 2:1,3$.> tot verdoemenis, alzo ook door één <Grieks: dikajoma. Alzo noemt hij de gehoorzaamheid van Christus, omdat zij de kracht heeft om ook anderen te rechtvaardigen, zoals het Griekse woord hier meebrengt; en wordt gesteld tegen de overtreding van Adam, waarin ook de kracht was om anderen tot zondaars te maken, vers 19.> gerechtigheid [komt de genade] <Namelijk, die in hem geloven; of, die deze gave aannemen, vers 17.> over alle mensen tot rechtvaardigmaking van het leven.",
+      "source_text": "ἄρα οὖν ὡς δι’ ἑνὸς παραπτώματος εἰς πάντας ἀνθρώπους εἰς κατάκριμα, οὕτω καὶ δι’ ἑνὸς δικαιώματος εἰς πάντας ἀνθρώπους εἰς δικαίωσιν ζωῆς.",
+      "generated_at": "2026-05-20T05:22:24.199997Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "gelijk (voegw.)",
+          "context": "kanttekening",
+          "choice": "zoals",
+          "alternatives": [
+            "gelijk"
+          ],
+          "reason": "drempel-archaïsme op ARCHAISM_BLACKLIST (gelijk voegw. = zoals, ARCHAISMEN.md r.42); blacklist geldt ook binnen kanttekeningen. HSV-spiegel idem."
+        }
+      ]
     }
   ]
 }
