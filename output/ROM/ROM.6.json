@@ -61,6 +61,45 @@
       "generated_at": "2026-05-20T11:40:30.797436Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 7,
+      "original": "$1.Petr. 4.1.$ Want <Dit is een reden genomen van de gelijckenisse van een doot mensche, die de wercken van levendige niet meer en doet, noch aen geene diensten meer en is verbonden, daer aen hy in sijn leven verbonden was.> die gestorven is, die is <D. van hare macht vry gemaeckt ofte verlost. Want hier en wort eygentlick niet gesproken van de vergevinge der sonden, gelijck in de vijf voorgaende Capittelen; maer van de vernietinge van de macht der sonde. Een gelijckenisse genomen van een mensche die van den Rechter gerechtveerdight ofte vry gesproken zijnde, oock met eenen van de banden verlost ende vry gelaten wort.> gerechtveerdight van de sonde:",
+      "modernized": "$1Pt. 4:1$ Want <Dit is een redenering genomen van de gelijkenis van een dode mens, die de werken van levenden niet meer doet, noch aan enige diensten meer verbonden is, waaraan hij in zijn leven verbonden was.> die gestorven is, die is <Dat is, van haar macht vrijgemaakt of verlost. Want hier wordt eigenlijk niet gesproken van de vergeving van de zonden, gelijk in de vijf voorgaande hoofdstukken; maar van de vernietiging van de macht der zonde. Een gelijkenis genomen van een mens die, door de Rechter gerechtvaardigd of vrijgesproken, ook meteen van de banden verlost en vrijgelaten wordt.> gerechtvaardigd van de zonde:",
+      "source_text": "ὁ γὰρ ἀποθανὼν δεδικαίωται ἀπὸ τῆς ἁμαρτίας.",
+      "generated_at": "2026-05-20T11:45:07.905996Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 8,
+      "original": "$2.Timot. 2.11.$ Indien wy nu <Siet de aenteeck. op versen 3, 4.> met Christo gestorven zijn, soo gelooven wy dat wy oock <Namel. in dit leven een geestelick leven, ende hier namaels het eeuwige leven. Siet Rom. 8.10, 11. Ephes. 2.5. Coloss. 2.13. ende 3.1, 2, 3, 4.> met hem sullen leven.",
+      "modernized": "$2Tm. 2:11$ Als wij nu <Zie de aantekening op vers 3, 4.> met Christus gestorven zijn, zo geloven wij dat wij ook <Namelijk, in dit leven een geestelijk leven, en hier namaals het eeuwige leven. Zie $Rm. 8:10,11; Ef. 2:5; Ko. 2:13; 3:1,2,3,4$.> met hem zullen leven.",
+      "source_text": "εἰ δὲ ἀπεθάνομεν σὺν Χριστῷ, πιστεύομεν ὅτι καὶ συζήσομεν αὐτῷ·",
+      "generated_at": "2026-05-20T11:45:39.791439Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 9,
+      "original": "$Apoc. 1.18.$ Wetende dat Christus opgeweckt zijnde uyt de dooden, niet meer en sterft: de doot <Dat is, en heeft geen macht meer over hem.> en heerscht niet meer over hem.",
+      "modernized": "$Op. 1:18$ Wij weten dat Christus, die uit de doden opgewekt is, niet meer sterft; de dood <Dat is, heeft geen macht meer over hem.> heerst niet meer over hem.",
+      "source_text": "εἰδότες ὅτι Χριστὸς ἐγερθεὶς ἐκ νεκρῶν οὐκέτι ἀποθνήσκει· θάνατος αὐτοῦ οὐκέτι κυριεύει.",
+      "generated_at": "2026-05-20T11:46:12.836999Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "participium-ontvouwing aanvang",
+          "context": "hoofdtekst, vers-begin",
+          "choice": "Wij weten dat",
+          "alternatives": [
+            "Wetende dat"
+          ],
+          "reason": "SV-aanvangsparticipium Wetende is per MODERNISATIE.md §2.3 ontvouwd naar een finiete bijzin (Wij weten dat); de validator-cap-discipline-flag op Wetende is hierdoor een false positive (geen hoofdletterwijziging maar herformulering)."
+        }
+      ]
     }
   ]
 }
