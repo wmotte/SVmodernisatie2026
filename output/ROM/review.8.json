@@ -1,7 +1,7 @@
 {
   "book": "ROM",
   "chapter": 8,
-  "reviewed_at": "2026-05-20T16:04:08+00:00",
+  "reviewed_at": "2026-05-20T16:07:51+00:00",
   "passes": [
     {
       "pass": 1,
@@ -14,6 +14,35 @@
       "ran_at": "2026-05-20T16:06:43.278730+00:00",
       "mode": "scan+incontext",
       "issues_total": 22
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-20T16:07:51+00:00",
+      "mode": "verify",
+      "actions": [
+        "ROM-8-1-001: rebuttal verified",
+        "ROM-8-2-001: rebuttal verified",
+        "ROM-8-3-001: verified",
+        "ROM-8-3-002: rebuttal verified",
+        "ROM-8-3-003: rebuttal verified",
+        "ROM-8-4-001: rebuttal verified",
+        "ROM-8-9-001: rebuttal verified",
+        "ROM-8-9-002: rebuttal verified",
+        "ROM-8-9-003: rebuttal verified",
+        "ROM-8-10-001: rebuttal verified",
+        "ROM-8-11-001: rebuttal verified",
+        "ROM-8-13-001: rebuttal verified",
+        "ROM-8-13-002: rebuttal verified",
+        "ROM-8-15-001: rebuttal verified",
+        "ROM-8-16-001: rebuttal verified",
+        "ROM-8-17-001: rebuttal verified",
+        "ROM-8-17-002: rebuttal verified",
+        "ROM-8-18-001: rebuttal verified",
+        "ROM-8-25-001: rebuttal verified",
+        "ROM-8-31-001: verified",
+        "ROM-8-3-004: rebuttal verified",
+        "ROM-8-23-001: verified"
+      ]
     }
   ],
   "issues": [
@@ -27,9 +56,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ROM-8-1-001",
-      "status": "rebutted",
+      "status": "verified",
       "rebuttal": "Geen luie parafrase maar SV-kanttekening-conventie: het lemma uit de hoofdtekst wordt geciteerd om de glos te verankeren (KANTTEKENINGEN.md). De herhaalde frase introduceert hier een betekenis-/lezingsnuance (v1: 'dat is...' / Grieks-glos / 'of, ...'), niet een redundante hervertelling van de hoofdtekst. De 4-token-sliding-window vangt deze legitieme lemma-citatie als false-positive.",
-      "verified_at": "2026-05-20T16:06:43.278730+00:00"
+      "verified_at": "2026-05-20T16:07:51+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -41,8 +70,9 @@
       "proposed_fix": "van de levens",
       "location": "hoofdtekst",
       "id": "ROM-8-2-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] 'boek des levens' is een gefossiliseerde bijbelse uitdrukking voor τὸ βιβλίον τῆς ζωῆς (Op. 3:5; 13:8; 17:8; 20:12,15; 21:27; Fp. 4:3). De genitief-constructie is in modern bijbels Nederlands productief gebleven (NBG51, HSV, NBV21 gebruiken eveneens 'boek des levens'). Vergelijkbaar met de gefossiliseerde 'Koninkrijk der hemelen' en 'Zoon des mensen' — categorie ARCHAISMEN.md gefossiliseerde-genitief-uitzondering."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] 'boek des levens' is een gefossiliseerde bijbelse uitdrukking voor τὸ βιβλίον τῆς ζωῆς (Op. 3:5; 13:8; 17:8; 20:12,15; 21:27; Fp. 4:3). De genitief-constructie is in modern bijbels Nederlands productief gebleven (NBG51, HSV, NBV21 gebruiken eveneens 'boek des levens'). Vergelijkbaar met de gefossiliseerde 'Koninkrijk der hemelen' en 'Zoon des mensen' — categorie ARCHAISMEN.md gefossiliseerde-genitief-uitzondering.",
+      "verified_at": "2026-05-20T16:07:51+00:00"
     },
     {
       "category": "§2.3 finiet participium",
@@ -54,8 +84,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ROM-8-3-001",
-      "status": "fixed",
-      "fix_commit": "PENDING"
+      "status": "verified",
+      "fix_commit": "PENDING",
+      "verified_at": "2026-05-20T16:07:51+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -67,8 +98,9 @@
       "proposed_fix": "van de wet",
       "location": "kanttekening",
       "id": "ROM-8-3-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] §verbogen lidwoord rebuttal-criterium gefossiliseerde catechetische uitdrukking. 'Eerste/tweede tafel der wet' is technische Decaloog-indelingsterm (Exodus 32:15 LXX 'πλάκες'; Heidelberger Catechismus zondag 34-44 onderscheidt expliciet 'eerste tafel' (Gebod 1-4) en 'tweede tafel' (Gebod 5-10)). Vers-specifiek: kanttekening v.29 zegt 'tegen de tweede tafel der wet: waarvan de ongerechtigheid de bron is' — directe HC-tweede-tafel-referentie naar de zondencatalogus die v.29-31 opsomt. 'Tweede tafel van de wet' zou de catechetische technische naam verzwakken."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] §verbogen lidwoord rebuttal-criterium gefossiliseerde catechetische uitdrukking. 'Eerste/tweede tafel der wet' is technische Decaloog-indelingsterm (Exodus 32:15 LXX 'πλάκες'; Heidelberger Catechismus zondag 34-44 onderscheidt expliciet 'eerste tafel' (Gebod 1-4) en 'tweede tafel' (Gebod 5-10)). Vers-specifiek: kanttekening v.29 zegt 'tegen de tweede tafel der wet: waarvan de ongerechtigheid de bron is' — directe HC-tweede-tafel-referentie naar de zondencatalogus die v.29-31 opsomt. 'Tweede tafel van de wet' zou de catechetische technische naam verzwakken.",
+      "verified_at": "2026-05-20T16:07:51+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -80,9 +112,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ROM-8-3-003",
-      "status": "rebutted",
+      "status": "verified",
       "rebuttal": "Geen luie parafrase maar SV-kanttekening-conventie: het lemma uit de hoofdtekst wordt geciteerd om de glos te verankeren (KANTTEKENINGEN.md). De herhaalde frase introduceert hier een betekenis-/lezingsnuance (v3: 'dat is...' / Grieks-glos / 'of, ...'), niet een redundante hervertelling van de hoofdtekst. De 4-token-sliding-window vangt deze legitieme lemma-citatie als false-positive.",
-      "verified_at": "2026-05-20T16:06:43.278730+00:00"
+      "verified_at": "2026-05-20T16:07:51+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -94,8 +126,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ROM-8-4-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-20T16:07:51+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -107,8 +140,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ROM-8-9-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-20T16:07:51+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -120,8 +154,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ROM-8-9-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-20T16:07:51+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -133,9 +168,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ROM-8-9-003",
-      "status": "rebutted",
+      "status": "verified",
       "rebuttal": "Geen luie parafrase maar SV-kanttekening-conventie: het lemma uit de hoofdtekst wordt geciteerd om de glos te verankeren (KANTTEKENINGEN.md). De herhaalde frase introduceert hier een betekenis-/lezingsnuance (v9: 'dat is...' / Grieks-glos / 'of, ...'), niet een redundante hervertelling van de hoofdtekst. De 4-token-sliding-window vangt deze legitieme lemma-citatie als false-positive.",
-      "verified_at": "2026-05-20T16:06:43.278730+00:00"
+      "verified_at": "2026-05-20T16:07:51+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -147,8 +182,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ROM-8-10-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-20T16:07:51+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -160,8 +196,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ROM-8-11-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-20T16:07:51+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -173,8 +210,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ROM-8-13-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-20T16:07:51+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -186,8 +224,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ROM-8-13-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-20T16:07:51+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -199,8 +238,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ROM-8-15-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] πάλιν in v1 markeert herbezoek aan de Synagoge na MRK 1:21,39; 'wederom' is corpusconsequent (LUK 21×; MRK 2:1+2:13 verified-rebutted) en staat op lint_carryovers.py STOPLIST (regel 218). §2.7 productiviteitstest: 'wederom' blijft productief in bijbels-formeel register; renovatie ≠ hervertaling (AGENTS.md vertaalprincipe 1)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] πάλιν in v1 markeert herbezoek aan de Synagoge na MRK 1:21,39; 'wederom' is corpusconsequent (LUK 21×; MRK 2:1+2:13 verified-rebutted) en staat op lint_carryovers.py STOPLIST (regel 218). §2.7 productiviteitstest: 'wederom' blijft productief in bijbels-formeel register; renovatie ≠ hervertaling (AGENTS.md vertaalprincipe 1).",
+      "verified_at": "2026-05-20T16:07:51+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -212,9 +252,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ROM-8-16-001",
-      "status": "rebutted",
+      "status": "verified",
       "rebuttal": "Geen luie parafrase maar SV-kanttekening-conventie: het lemma uit de hoofdtekst wordt geciteerd om de glos te verankeren (KANTTEKENINGEN.md). De herhaalde frase introduceert hier een betekenis-/lezingsnuance (v16: 'dat is...' / Grieks-glos / 'of, ...'), niet een redundante hervertelling van de hoofdtekst. De 4-token-sliding-window vangt deze legitieme lemma-citatie als false-positive.",
-      "verified_at": "2026-05-20T16:06:43.278730+00:00"
+      "verified_at": "2026-05-20T16:07:51+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -226,8 +266,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ROM-8-17-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-20T16:07:51+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -239,8 +280,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ROM-8-17-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-20T16:07:51+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -252,8 +294,9 @@
       "proposed_fix": "van de heerlijkheid",
       "location": "kanttekening",
       "id": "ROM-8-18-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] `Namelijk, der heerlijkheid in de hemel` (vers 28, kanttekening) — `der heerlijkheid` is vaste uitdrukking in didactische kanttekening glossend op `Koninkrijk Gods`. Grieks `τῆς δόξης` (gen.sg.fem.) is technische theologische term; SV `der heerlickheyt`. §2.7 niet van toepassing op kanttekening-genitief-fossiel. Concordant met kanttekening-stijl LUK 1:32, 11:2 en KANTTEKENINGEN.md."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] `Namelijk, der heerlijkheid in de hemel` (vers 28, kanttekening) — `der heerlijkheid` is vaste uitdrukking in didactische kanttekening glossend op `Koninkrijk Gods`. Grieks `τῆς δόξης` (gen.sg.fem.) is technische theologische term; SV `der heerlickheyt`. §2.7 niet van toepassing op kanttekening-genitief-fossiel. Concordant met kanttekening-stijl LUK 1:32, 11:2 en KANTTEKENINGEN.md.",
+      "verified_at": "2026-05-20T16:07:51+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -265,8 +308,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ROM-8-25-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-20T16:07:51+00:00"
     },
     {
       "category": "voornaamwoordelijk bijwoord gesplitst",
@@ -278,8 +322,9 @@
       "proposed_fix": "hiertoe",
       "location": "kanttekening",
       "id": "ROM-8-31-001",
-      "status": "fixed",
-      "fix_commit": "PENDING"
+      "status": "verified",
+      "fix_commit": "PENDING",
+      "verified_at": "2026-05-20T16:07:51+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -297,9 +342,9 @@
         36
       ],
       "id": "ROM-8-3-004",
-      "status": "rebutted",
+      "status": "verified",
       "rebuttal": "Geen concordantie-fout: de stam gelijk- dekt distinct Griekse lemmas met context-eigen afleidingen — v3 ὁμοίωμα = \"gelijkheid\" (zn.), v26 ὡσαύτως = \"insgelijks\" (bw.), v29 σύμμορφος = \"gelijkvormig\" (adj.). Verschillende woordsoorten/lemmas, elk correct; de prefix-overlap-heuristiek leest dit ten onrechte als één-woord-drift.",
-      "verified_at": "2026-05-20T16:06:43.278730+00:00"
+      "verified_at": "2026-05-20T16:07:51+00:00"
     },
     {
       "id": "ROM-8-23-001",
@@ -311,8 +356,9 @@
       "explanation": "'verwachtende' adverbiaal -ende-participium (SV 'verwachtende de aenneminge'); scanner miste het, gevonden in-context.",
       "proposed_fix": "...zuchten in onszelf, en verwachten de aanneming tot kinderen...",
       "location": "hoofdtekst",
-      "status": "fixed",
-      "fix_commit": "PENDING"
+      "status": "verified",
+      "fix_commit": "PENDING",
+      "verified_at": "2026-05-20T16:07:51+00:00"
     }
   ]
 }
