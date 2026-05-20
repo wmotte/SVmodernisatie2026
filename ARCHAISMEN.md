@@ -38,7 +38,7 @@ Standaard-substituties voor de hoofdtekst:
 | `wandelende …`     | finiet participium → "ze wandelden …" (zie MODERNISATIE.md §2.3) |
 | `u sal … zijn` (datief-bezit) | "voor u zal er ... zijn" — niét "u zult … hebben" (zie §2.3a) |
 | nagetracht         | nagestreefd                          |
-| geschied / geschiedt / geschiedde / geschiedden / geschieden | gebeurd / gebeurt / gebeurde / gebeurden / gebeuren — hele paradigma, voor concordantie (γίνομαι); geldt ook in kanttekeningen. Uitzondering: `geschiede` (Onze Vader, Lk 11:2) blijft. |
+| geschied / geschiedt / geschiedde / geschiedden / geschieden | gebeurd / gebeurt / gebeurde / gebeurden / gebeuren — hele paradigma, voor concordantie (γίνομαι); geldt ook in kanttekeningen. **Uitzonderingen (blijven staan):** de gefossiliseerde formule `(en) het geschiedde …` / `'t geschiedde …` (narratief, καὶ ἐγένετο) en `geschiedde het woord van God …` (profetisch, Lk 3:2) — zie MODERNISATIE.md §2.3d; plus `geschiede` (Onze Vader, Lk 11:2). Concrete betekenis (`geschiedde een stem`, Lk 9:35) wél moderniseren → `kwam`. |
 | gelijk (voegw.)    | zoals                                |
 | vaderen            | vaders                               |
 | reukofferen (ww.)  | het reukoffer brengen                |
