@@ -209,6 +209,46 @@ bewuste keuze van die projecten — wij volgen die keuze niet. De
 HSV/SV2027-spiegel in `sv-semantic-review` mag deze categorie dus
 **nooit** als afwijking flaggen.
 
+### 2.3d Gefossiliseerde `geschiedde`-formule blijft staan
+
+Het werkwoord `geschieden` (γίνομαι) moderniseren we als regel naar de
+`gebeuren`-vormen — `geschiedde` → `gebeurde`, voor concordantie. Eén
+gefossiliseerde **formule** is daarvan uitgezonderd, analoog aan §2.3c:
+de narratieve verbindingsformule **`(En/Maar) het geschiedde …`** (Grieks
+καὶ ἐγένετο), kenmerkend voor de Lukaanse stijl die bewust aansluit bij
+het Septuaginta-Oudtestamentische verteltaalgebruik. Ook de profetische
+variant **`geschiedde het woord van God …`** (Lk. 3:2, ἐγένετο ῥῆμα θεοῦ)
+blijft staan; die uitdrukking komt zo ook in de Profeten voor.
+
+**Wat blijft, wat moderniseert:**
+
+| Vorm | Behandeling |
+|------|-------------|
+| `het geschiedde …` / `'t geschiedde …` (narratief) | **blijft** |
+| `geschiedde het woord van God …` (profetisch) | **blijft** |
+| `geschiedde een stem` (concreet 'kwam/ontstond', Lk. 9:35) | → `kwam` |
+| kale `geschiedt` / `geschieden` (γίνομαι = 'gebeuren') | → `gebeurt` / `gebeuren` |
+| `geschiede` (Onze Vader, Lk. 11:2) | blijft (viel al buiten de regel) |
+
+**Waarom een uitzondering?** Dezelfde drie gronden als §2.3c. (1)
+*Herkenbaarheid:* `en het geschiedde` is in de Nederlandse Bijbeltraditie
+een vaste verteltoon, geen drempel-archaïsme. (2) *Formele equivalentie:*
+καὶ ἐγένετο is een Semitisme dat de SV bewust calqueert — de formule is
+informatie, geen schil. (3) *Concordantie:* de formule opent tientallen
+perikopen in Lukas/Markus; één-op-één naar `het gebeurde` ontkoppelt dat
+verteltechnische anker. Bij de concrete betekenis ('een stem kwam') is er
+gée formule en weegt leesbaarheid (§2.7) wél: dán moderniseren.
+
+**Validator-handhaving.** `ARCHAISM_BLACKLIST` (rules_data.py) blokkeert
+`geschied*` HARD, maar de regex zondert de formule uit via lookbehind
+(`het `/`'t `) en lookahead (` het woord`); `geschiedde een stem` valt er
+niet onder en blijft dus HARD.
+
+**Verschil met SV2027.** SV2027 maakt exact dezelfde keuze (zie
+`research/Toelichtingen-Lukasevangelie-Statenvertaling-2027.pdf`, lemma
+"Geschieden"): formule handhaven, concrete betekenis aanpassen (Lk. 9:35
+→ `kwam`, met voetnoot). Dit project volgt die nuance, zonder de voetnoot.
+
 ### 2.4 Eigennamen volgens NBV21
 
 Eigennamen worden gespeld conform de NBV21-conventie (`Iesus` →

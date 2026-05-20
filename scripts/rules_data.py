@@ -42,7 +42,14 @@ ARCHAISM_BLACKLIST = [
     r"\bzijnde\b(?! een)",  # 'zijnde' stand-alone is verdacht; "zijnde een" is OK
     r"\bhebbende\b",        # participle 'gekregen hebbende' etc. → unfold (AGENTS.md)
     r"\bnagetracht\b",      # archaïsch "nagestreefd"
-    r"\bgeschied(t|de|den|en)?\b",  # hele 'geschieden'-paradigma → "gebeuren"-vormen (γίνομαι), concordantie. 'geschiede' (Onze Vader, Lk 11:2) en 'geschiedenis' blijven buiten schot.
+    # 'geschieden'-paradigma → "gebeuren"-vormen (γίνομαι), concordantie.
+    # UITZONDERING (gefossiliseerde formule, analoog aan §2.3c genitief-fossielen,
+    # SV27-conform): de Lukaanse/Septuaginta-formule καὶ ἐγένετο blijft staan —
+    #   narratief  'het geschiedde …' / ''t geschiedde …'  (lookbehind 'het '/''t ')
+    #   profetisch 'geschiedde het woord …'                 (lookahead ' het woord')
+    # 'geschiede' (Onze Vader, Lk 11:2) en 'geschiedenis' vallen al buiten de \b-groep.
+    # Concrete betekenis ('geschiedde een stem' Lk 9:35 → 'kwam') blijft WEL HARD.
+    r"(?<!het )(?<!'t )\bgeschied(t|de|den|en)?\b(?!\s+het woord)",
     r"(?<!hieraan )(?<!daaraan )(?<!eraan )(?<!hieraan\] )(?<!daaraan\] )(?<!eraan\] )(?<!aan dit )(?<!aan deze )(?<!aan dat )(?<!aan die )(?<!aan dit\] )(?<!aan deze\] )(?<!aan dat\] )(?<!aan die\] )\bgelijk\b(?! aan)",          # voegwoord → "zoals"; predicatief "[hieraan] gelijk" / "gelijk aan" mag
     r"\bvertoefde?\b",      # "vertoeven" is uitstervend literair → "blijven"
     r"\bvertoefden\b",
