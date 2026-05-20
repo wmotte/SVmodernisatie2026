@@ -174,28 +174,41 @@
     {
       "verse_number": 17,
       "status": "modernized",
-      "sv2026": "<Namelijk, naar de inwendige mens, gelijk hij verklaart vers 22.> Ik dan doe datzelve nu niet meer, maar <Dat is, de overblijfselen van de verdorvenheid die nog in mij zijn, gelijk hij verklaart verzen 18, 20.> de zonde die in mij woont.",
+      "sv2026": "<Namelijk, naar de inwendige mens, gelijk hij verklaart vers 22.> Ik dan doe datzelfde nu niet meer, maar <Dat is, de overblijfselen van de verdorvenheid die nog in mij zijn, gelijk hij verklaart verzen 18, 20.> de zonde die in mij woont.",
       "hsv": "Nu ben ik het echter niet meer die dit teweegbrengt, maar de zonde die in mij woont.",
-      "original": "<Namelick, na den inwendigen mensche, gelijck hy verklaert vers 22.> Ick dan en doe dat selve nu niet meer, maer <D. de overblijfselen der verdorventheyt die noch in my zijn, gelijck hy verklaert versen 18, 20.> de sonde die in my woont."
+      "original": "<Namelick, na den inwendigen mensche, gelijck hy verklaert vers 22.> Ick dan en doe dat selve nu niet meer, maer <D. de overblijfselen der verdorventheyt die noch in my zijn, gelijck hy verklaert versen 18, 20.> de sonde die in my woont.",
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "dat selve → datzelfde",
+          "context": "hoofdtekst",
+          "choice": "datzelfde",
+          "alternatives": [
+            "datzelve",
+            "dat"
+          ],
+          "reason": "SV dat selve (αὐτό). datzelve hoort tot de archaïsche dezelve/denzelven-pronomenreeks die niet meer productief is in modern Nederlands; de projectconcordantie rendert dat selve / het selve consequent als datzelfde / hetzelfde (vgl. v10, v11 in dit hoofdstuk). datzelfde behoudt de anaforische lading SV-conform zonder hervertaling."
+        }
+      ]
     },
     {
       "verse_number": 18,
-      "status": "pending",
-      "sv2026": "",
+      "status": "modernized",
+      "sv2026": "$Gn. 6:5; 8:21$ Want ik weet dat in mij, dat is, in mijn vlees geen goed woont: want het willen <Grieks: ligt mij bij, Namelijk, door de genade van God die dit in mij werkt. $Fp. 2:13$.> is [wel] bij mij, maar <Namelijk, in zijn volmaaktheid. zie $Fp. 3:12,13,14$.> het goede te doen dat vind ik niet.",
       "hsv": "$Gen. 6:5; 8:21$ Want ik weet dat in mij, dat is in mijn vlees, niets goeds woont. Immers, het willen is [er] bij mij [wel] , maar het goede teweegbrengen, dat vind ik niet.",
       "original": "$Genes. cap. 6. vers 5. ende 8.21.$ Want ick weet dat in my, dat is, in mijnen vleesche geen goet en woont: want het willen <Gr. light my by, Nam. door de genade Godts die het selve in my werckt. Phil. 2.13.> is [wel] by my, maer <Namel. in sijne volmaecktheyt. siet Phil. 3.12, 13, 14.> het goet te doen dat en vinde ick niet."
     },
     {
       "verse_number": 19,
-      "status": "pending",
-      "sv2026": "",
+      "status": "modernized",
+      "sv2026": "Want het goede dat ik wil, doe ik niet, maar het kwaad dat ik niet wil, dat doe ik.",
       "hsv": "Want het goede dat ik wil, doe ik niet, maar het kwade, dat ik niet wil, dat doe ik.",
       "original": "Want het goet dat ick wil, en doe ick niet, maer het quaet dat ick niet en wil, dat doe ick."
     },
     {
       "verse_number": 20,
-      "status": "pending",
-      "sv2026": "",
+      "status": "modernized",
+      "sv2026": "Indien ik hetgeen doe dat ik niet wil, zo doe ik nu datzelfde niet meer, maar de zonde die in mij woont.",
       "hsv": "Als ik nu dat doe wat ik niet wil, breng ík dat niet meer teweeg, maar de zonde die in mij woont.",
       "original": "Indien ick het gene doe dat ick niet en wil, soo en doe ick nu het selve niet meer, maer de sonde die in my woont."
     },
