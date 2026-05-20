@@ -111,36 +111,49 @@
     },
     {
       "verse_number": 10,
-      "status": "pending",
-      "sv2026": "",
+      "status": "modernized",
+      "sv2026": "En het gebod <Namelijk, voor degenen die de wet volledig zouden onderhouden, $Rm. 10:5; Gl. 3:12$, etc. wat de mens onmogelijk is, $Rm. 8:3$.> dat ten leven was, datzelfde is mij <Namelijk, door mijn verdorvenheid en overtreding.> ten dood bevonden.",
       "hsv": "En het gebod, dat tot leven [had moeten leiden] , bleek [voor mij] de dood [te betekenen] .",
-      "original": "Ende het gebodt <Namelick, voor de gene die de wet souden volkomelick onderhouden, Rom. 10.5. Galat. 3. vers 12, etc. het welck den mensche onmogelick is, Rom. cap. 8. vers 3.> dat ten leven was, het selve is my <Namelick, door mijne verdorventheyt ende overtredinge.> ten doot bevonden."
+      "original": "Ende het gebodt <Namelick, voor de gene die de wet souden volkomelick onderhouden, Rom. 10.5. Galat. 3. vers 12, etc. het welck den mensche onmogelick is, Rom. cap. 8. vers 3.> dat ten leven was, het selve is my <Namelick, door mijne verdorventheyt ende overtredinge.> ten doot bevonden.",
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "volkomelick → volledig",
+          "context": "kanttekening, de wet onderhouden",
+          "choice": "volledig",
+          "alternatives": [
+            "volkomen",
+            "geheel"
+          ],
+          "reason": "SV volkomelick (bijwoord bij onderhouden). volkomen staat op de archaïsme-blacklist als bijwoord (§2.7); validate.py strip kanttekeningen vóór de archaïsme-check, maar lint_archaismen scant ze wel als hard issue. volledig behoudt de bijwoordelijke lading zonder hervertaling. HSV-spiegel niet bruikbaar (HSV parafraseert hoofdtekst met exegetische haken)."
+        }
+      ]
     },
     {
       "verse_number": 11,
-      "status": "pending",
-      "sv2026": "",
+      "status": "modernized",
+      "sv2026": "Want de zonde, die door het gebod oorzaak nam, <Zie de aantekening vers 8.> heeft mij verleid, en door datzelfde gedood.",
       "hsv": "Want de zonde heeft door het gebod een aanleiding gevonden en mij misleid en daardoor gedood.",
       "original": "Want de sonde oorsake genomen hebbende door het gebodt, <Siet de aenteeckeninge vers 8.> heeft my verleydt, ende door het selve gedoot."
     },
     {
       "verse_number": 12,
-      "status": "pending",
-      "sv2026": "",
+      "status": "modernized",
+      "sv2026": "$1Tm. 1:8$ Zo is dan de wet heilig, en het gebod is heilig, en rechtvaardig, en goed.",
       "hsv": "$1 Tim. 1:8$ Zo is dan de wet heilig, en het gebod is heilig en rechtvaardig en goed.",
       "original": "$1.Timoth. 1.8.$ Alsoo is dan de wet heyligh, ende het gebodt is heyligh, ende rechtveerdigh, ende goet."
     },
     {
       "verse_number": 13,
-      "status": "pending",
-      "sv2026": "",
+      "status": "modernized",
+      "sv2026": "Is dan het goede mij <Dat is, een oorzaak van de dood, gelijk vers 7.> de dood geworden? Dat zij verre. Maar de zonde [is mij de dood geworden,] opdat zij openbaar zou worden zonde [te zijn,] mij door het goede de dood bewerkende, opdat de zonde bovenmate zou worden zondigende <Namelijk, gelijk tevoren op het 8e vers verklaard is.> door het gebod.",
       "hsv": "Is dan het goede [de oorzaak van] mijn dood geworden? Volstrekt niet! Maar de zonde heeft – opdat zij als zonde zichtbaar zou worden – door het goede voor mij de dood teweeggebracht, opdat door het gebod de zonde uitermate zondig zou [blijken te] zijn.",
       "original": "Is dan ’t goede my <Dat is, een oorsaecke des doots, gelijck vers 7.> de doot geworden? Dat zy verre. Maer de sonde [is my de doot geworden:] op dat sy soude openbaer worden sonde [te zijn,] werckende my door het goede den doot: op dat de sonde boven maten wierde sondigende <Namel. gelijck te voren op het 8 vers verklaert is.> door het gebodt."
     },
     {
       "verse_number": 14,
-      "status": "pending",
-      "sv2026": "",
+      "status": "modernized",
+      "sv2026": "<Tot hiertoe heeft de Apostel gesproken van de macht van de wet en van de zonde in de verdorven en onwedergeboren mens, gelijk hij ook zelf vroeger ervaren had, toen hij nog in zulk een staat was, vers 9. maar nu komt hij en spreekt van zichzelf, gelijk hij toen was, en verklaart welke macht de overblijfselen van het zondige vlees nog in hem hadden, nadat hij nu van de heerschappij van de zonde verlost was, gelijk al zijn redenen, die volgen, van de tegenwoordige tijd spreken, en niet van de verleden tijd.> Want wij weten dat de wet <Dat is, die niet alleen een uitwendige maar ook een inwendige gehoorzaamheid van het hart vereist, en de volmaakte regel van een geestelijk en heilig leven voorschrijft, gelijk Christus de som daarvan verklaart, $Mt. 22:37$> geestelijk is, maar <Namelijk, nog ten dele, ten aanzien van de overblijfselen van het vlees die nog in mij zijn, gelijk hij verklaart versen 18, 23. Want dat ook de wedergeborenen, ten aanzien van enige gebreken die nog in hen zijn, vleselijk genoemd kunnen worden, blijkt $1Kor. 3:1$> ik ben vleselijk $Js. 52:3$ <Namelijk, niet als een gewillige slaaf, die de begeerte van de zonde in alles zou volgen, gelijk van Achab gezegd wordt $1Kn. 21:20$ maar die tegen zijn dank en wil de begeerten en aanvallen van de zonde nog onderworpen is, zonder dat hij zich daarvan nog geheel kan ontslaan, hoewel hij die ernstig weerstaat, en ten meerderen dele door de Geest van God, die in hem is, overwint. Zie dergelijk $Gl. 5:17,18$> verkocht onder de zonde.",
       "hsv": "Want wij weten dat de wet geestelijk is, maar ik ben vleselijk, $Jes. 52:3$ verkocht onder de zonde.",
       "original": "<Tot hier toe heeft d’Apostel gesproken van de macht der wet ende der sonde in den verdorvenen ende onwedergeborenen mensche, gelijck hy oock selve eertijts ervaren hadde, doe hy noch in sulcken stant was, vers 9. maer nu komt hy ende spreeckt van hemselven, gelijck hy doe was, ende verklaert wat macht de overblijfselen des sondigen vleeschs noch in hem hadden, na dat hy nu van de heerschappije der sonde was verlost, gelijck alle sijne redenen, die volgen, van den tegenwoordigen tijt spreken, ende niet van den voorledenen.> Want wy weten dat de wet <D. die niet alleen een uytwendige maer oock een inwendige gehoorsaemheyt des herten vereyscht, ende den volmaeckten regel van een geestelick ende heyligh leven voorschrijft, gelijck Christus de somme daer van verklaert, Mat. cap. 22. vers 37.> geestelick is, maer <Namel. noch ten deele, ten aensien van de overblijfselen des vleeschs die noch in my zijn, gelijck hy verklaert versen 18, 23. Want dat oock de wedergeborene, ten aensien van eenige gebreken die noch in haer zijn, vleeschelick konnen genaemt worden, blijckt 1.Cor. 3.1.> ick ben vleeschelick $Iesa. 52.3.$ <Namel. niet als een gewillige slave, die de begeerte der sonde in allen soude volgen, gelijck van Achab geseght wort 1.Reg. 21. vers 20. maer die tegen sijnen danck ende wille de begeerten ende aenvallen der sonde noch is onderworpen, sonder dat hy hem daer van noch teenemael kan ontslaen, hoe wel hy die ernstelick wederstaet, ende ten meerderen deele door den Geest Godts, die in hem is, overwint. Siet diergelijck Galat. 5.17, 18.> verkocht onder de sonde."
     },
