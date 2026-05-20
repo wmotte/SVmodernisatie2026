@@ -126,6 +126,46 @@
       "generated_at": "2026-05-20T13:17:45.658792Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 10,
+      "original": "Ende het gebodt <Namelick, voor de gene die de wet souden volkomelick onderhouden, Rom. 10.5. Galat. 3. vers 12, etc. het welck den mensche onmogelick is, Rom. cap. 8. vers 3.> dat ten leven was, het selve is my <Namelick, door mijne verdorventheyt ende overtredinge.> ten doot bevonden.",
+      "modernized": "En het gebod <Namelijk, voor degenen die de wet volledig zouden onderhouden, $Rm. 10:5; Gl. 3:12$, etc. wat de mens onmogelijk is, $Rm. 8:3$.> dat ten leven was, datzelfde is mij <Namelijk, door mijn verdorvenheid en overtreding.> ten dood bevonden.",
+      "source_text": "καὶ εὑρέθη μοι ἡ ἐντολὴ ἡ εἰς ζωήν, αὕτη εἰς θάνατον·",
+      "generated_at": "2026-05-20T13:22:55.121975Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "volkomelick → volledig",
+          "context": "kanttekening, de wet onderhouden",
+          "choice": "volledig",
+          "alternatives": [
+            "volkomen",
+            "geheel"
+          ],
+          "reason": "SV volkomelick (bijwoord bij onderhouden). volkomen staat op de archaïsme-blacklist als bijwoord (§2.7); validate.py strip kanttekeningen vóór de archaïsme-check, maar lint_archaismen scant ze wel als hard issue. volledig behoudt de bijwoordelijke lading zonder hervertaling. HSV-spiegel niet bruikbaar (HSV parafraseert hoofdtekst met exegetische haken)."
+        }
+      ]
+    },
+    {
+      "verse_number": 11,
+      "original": "Want de sonde oorsake genomen hebbende door het gebodt, <Siet de aenteeckeninge vers 8.> heeft my verleydt, ende door het selve gedoot.",
+      "modernized": "Want de zonde, die door het gebod oorzaak nam, <Zie de aantekening vers 8.> heeft mij verleid, en door datzelfde gedood.",
+      "source_text": "ἡ γὰρ ἁμαρτία ἀφορμὴν λαβοῦσα διὰ τῆς ἐντολῆς ἐξηπάτησέ με, καὶ δι’ αὐτῆς ἀπέκτεινεν.",
+      "generated_at": "2026-05-20T13:23:07.717815Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 12,
+      "original": "$1.Timoth. 1.8.$ Alsoo is dan de wet heyligh, ende het gebodt is heyligh, ende rechtveerdigh, ende goet.",
+      "modernized": "$1Tm. 1:8$ Zo is dan de wet heilig, en het gebod is heilig, en rechtvaardig, en goed.",
+      "source_text": "ὥστε ὁ μὲν νόμος ἅγιος, καὶ ἡ ἐντολὴ ἁγία καὶ δικαία καὶ ἀγαθή.",
+      "generated_at": "2026-05-20T13:23:14.323551Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
