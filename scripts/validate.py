@@ -466,6 +466,102 @@ def _check_caps(orig_text: str, mod_text: str, location: str) -> tuple[list[str]
     return issues, warnings
 
 
+# Eerbiedshoofdletter-detectie. AGENTS.md §5: "Voeg NOOIT eerbiedshoofdletters
+# toe." SV1657 schrijft persoonlijke/bezittelijke voornaamwoorden voor God en
+# Christus consequent klein (mid-zin); een mid-zins kapitaal in de modernisatie
+# is dus vrijwel altijd een toegevoegde eerbiedskapitaal. `_check_caps` toetst
+# alleen de omgekeerde richting (bron-cap → modern-klein) en slaat woorden <3
+# letters over, waardoor `U`/`Ik`/`Mij` sowieso ontsnappen — vandaar deze
+# losse check op een gesloten voornaamwoord-set.
+REVERENCE_PRONOUNS: frozenset[str] = frozenset({
+    "U", "Uw", "Uwe", "Gij", "Gijzelf", "Ik", "Mij", "Mijn", "Mijne",
+    "Hem", "Hij", "Hijzelf", "Zijn", "Zijne", "Zelf", "Wie", "Wien", "Wiens",
+})
+
+# SV1657-bronvormen per modern voornaamwoord. Nodig omdat de wissel vaak
+# *lexicaal* is (`ghy`→`U`, `welcken`→`wie`), niet enkel orthografisch — een
+# kale `word in orig_text`-guard zou een mid-zins kapitaal als toegevoegd
+# aanmerken terwijl de SV de bronvorm zélf al kapitaliseerde (`Ghy en sult...`
+# in een geboden-lijst). Staat de bronvorm mét hoofdletter in het origineel,
+# dan volgt de modernisatie het SV-cap-patroon en is er geen eerbied toegevoegd.
+_SV_PRONOUN_SOURCE_FORMS: dict[str, frozenset[str]] = {
+    "U": frozenset({"ghy", "gy", "gij", "u"}),
+    "Uw": frozenset({"uwe", "uwen", "uwer", "uw"}),
+    "Uwe": frozenset({"uwe", "uwen", "uwer", "uw"}),
+    "Gij": frozenset({"ghy", "gy", "gij"}),
+    "Gijzelf": frozenset({"ghy", "gy", "gij"}),
+    "Ik": frozenset({"ick", "ik"}),
+    "Mij": frozenset({"my", "mij"}),
+    "Mijn": frozenset({"mijn", "mijne", "mijnen"}),
+    "Mijne": frozenset({"mijn", "mijne", "mijnen"}),
+    "Hij": frozenset({"hy", "hij"}),
+    "Hijzelf": frozenset({"hy", "hij"}),
+    "Hem": frozenset({"hem"}),
+    "Zijn": frozenset({"sijn", "sijne", "sijnen", "zijn", "zijne"}),
+    "Zijne": frozenset({"sijn", "sijne", "sijnen", "zijn", "zijne"}),
+    "Wie": frozenset({"wie", "welck", "welcke", "welcken", "dewelcke", "dewelcken"}),
+    "Wien": frozenset({"wien", "welcken", "dewelcken"}),
+    "Wiens": frozenset({"wiens", "welckers"}),
+}
+
+
+def _source_form_capitalized(modern_word: str, orig_text: str) -> bool:
+    """Komt een SV-bronvorm van `modern_word` mét hoofdletter in het origineel
+    voor? Zo ja, dan volgt de modernisatie het SV-cap-patroon (geen toegevoegde
+    eerbiedskapitaal)."""
+    forms = _SV_PRONOUN_SOURCE_FORMS.get(modern_word, frozenset({modern_word.lower()}))
+    for form in forms:
+        cap = form[0].upper() + form[1:]
+        if re.search(r"\b" + re.escape(cap) + r"\b", orig_text):
+            return True
+    return False
+
+
+def _check_added_caps(orig_text: str, mod_text: str, location: str) -> list[str]:
+    """Detecteer toegevoegde eerbiedshoofdletters (bron-klein → modern-kapitaal).
+
+    Flag een voornaamwoord uit REVERENCE_PRONOUNS dat in de modernisatie
+    *mid-clause* (voorafgegaan door een letter) met hoofdletter staat terwijl het
+    in het origineel niet met hoofdletter voorkomt — dat is vrijwel altijd een
+    toegevoegde eerbiedskapitaal (`komt Hij die`, `maar Hij zal`, `Geest Hem uit`).
+    HARD issue.
+
+    Bewust NIET geflagd: een kapitaal na leesteken (komma/dubbelepunt/punt) of na
+    de rand van een `<…>`/`$…$`/`[…]`-blok. Daar kan het legitiem zins- of
+    citaatbegin zijn (bv. `Vader, Ik …`, geboden-lijst `…: U zult …`); die
+    ambiguïteit hoort bij semantic-review/mens, niet bij een HARD linter.
+    """
+    # Blokken met eigen cap-regime maskeren zodat hun rand als grens telt.
+    cleaned = re.sub(r"<[^>]+>", " ", mod_text)
+    cleaned = re.sub(r"\$[^$]+\$", " ", cleaned)
+    cleaned = re.sub(r"\[[^\]]+\]", " ", cleaned)
+    issues: list[str] = []
+    seen: set[str] = set()
+    for m in re.finditer(r"\b([A-ZÀ-Ÿ][a-zà-ÿ]*)\b", cleaned):
+        word = m.group(1)
+        if word not in REVERENCE_PRONOUNS or word in seen:
+            continue
+        # Voorafgaand niet-witruimteteken bepalen — alleen mid-clause (letter
+        # ervoor) is een eenduidige toegevoegde kapitaal.
+        j = m.start() - 1
+        while j >= 0 and cleaned[j].isspace():
+            j -= 1
+        prev = cleaned[j] if j >= 0 else ""
+        if not prev.isalpha():
+            continue  # zins-/citaat-/blokgrens → niet eenduidig, skip
+        # SV-bronvorm zelf gekapitaliseerd? Dan volgt modern het SV-cap-patroon
+        # (bv. `Ghy`→`U` in een geboden-lijst), geen toegevoegde eerbiedskapitaal.
+        if _source_form_capitalized(word, orig_text):
+            continue
+        seen.add(word)
+        issues.append(
+            f"eerbiedshoofdletter ({location}): '{word}' staat mid-zin met "
+            f"hoofdletter maar niet in het origineel — AGENTS.md §5 verbiedt "
+            f"toegevoegde eerbiedshoofdletters"
+        )
+    return issues
+
+
 _NOTES_ALLOWED_TYPES = {"twijfel", "afwijking", "context"}
 
 
@@ -550,6 +646,7 @@ def _validate_verse(orig: dict, mod: dict) -> dict:
     caps_i, caps_w = _check_caps(orig_text, mod_text, "hoofdtekst")
     issues.extend(caps_i)
     warnings.extend(caps_w)
+    issues.extend(_check_added_caps(orig_text, mod_text, "hoofdtekst"))
 
     # 3b. Hoofdletter-discipline binnen kanttekeningen. `_capitalized_words` strijkt
     # `<...>` weg, dus voor deze check vergelijken we de geconcateneerde
@@ -560,6 +657,7 @@ def _validate_verse(orig: dict, mod: dict) -> dict:
         kc_i, kc_w = _check_caps(orig_kant, mod_kant, "kanttekening")
         issues.extend(kc_i)
         warnings.extend(kc_w)
+        issues.extend(_check_added_caps(orig_kant, mod_kant, "kanttekening"))
 
     # 3c. Kanttekening afkortingen-normalisatie check
     kant_contents = _bracket_contents(mod_text, "<", ">")
@@ -725,6 +823,7 @@ def _validate_section(name: str, orig_text: str, mod_text: str) -> dict:
     caps_i, caps_w = _check_caps(orig_text, mod_text, name)
     issues.extend(caps_i)
     warnings.extend(caps_w)
+    issues.extend(_check_added_caps(orig_text, mod_text, name))
 
     return {
         "section": name,
