@@ -32,6 +32,7 @@ BOOK_TITLES = {
     "MAT": "Het Evangelie naar Mattheus",
     "JHN": "Het Evangelie naar Johannes",
     "PHM": "De brief van Paulus aan Filemon",
+    "ROM": "De brief van Paulus aan de Romeinen",
 }
 
 # Token-grammar — segments of free text, <kanttekening>, $bibref$, [insertion].
