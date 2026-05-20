@@ -184,6 +184,46 @@
       "generated_at": "2026-05-20T13:28:25.538135Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 15,
+      "original": "Want het gene ick <Gr. wercke, ofte, volbrenge. De Apostel neemt hier het woort doen, gelijck oock in het volgende, niet altijt van de uytwendige daet: want de wedergeborene en wandelen niet na den vleesche maer na den Geest, Rom. 8.1. hoewel sy hare gebreken hebben, die sy met leetwesen beklagen, Iob 9.2, 3. Psalm 130.3. maer hy spreeckt hier voornamelick van de inwendige bewegingen der sonde, die hy haet, ende die de verdorvene nature in hem menighmael doet rijsen tegen sijnen danck, gelijck hy oock spreeckt van de begeerlickheyt des vleeschs, Galat. 5.17. Alsoo dat ghy niet en doet dat ghy wilt: Daer hy nochtans te voren in ’t 16 vers geseght hadde, Wandelt na den Geest, ende ghy en sult de begeerlickheyt des vleeschs niet volbrengen.> doe, dat <Namelick, voor goet, D. dat en stae ick niet toe, gelijck hy daer na verklaert. Siet Psalm 1.6. Matth. cap. 7. vers 23.> en kenne ick niet. $Galat. 5.17.$ Want <Dat is, het goet dat ick wil, gelijck vers 19.> het gene ick wil dat <Namelick, in sulcke volmaecktheyt als ick wel wilde, gelijck vers 18.> en doe ick niet, maer <Dat is het quaet daer ick eenen afkeer van hebbe, ende dat ick niet en wil: gelijck vers 19.> het gene ick hate dat doe ick.",
+      "modernized": "Want hetgeen ik <Grieks: werk, of: volbreng. De Apostel neemt hier het woord doen, gelijk ook in het volgende, niet altijd voor de uitwendige daad: want de wedergeborenen wandelen niet naar het vlees maar naar de Geest, $Rm. 8:1$ hoewel zij hun gebreken hebben, die zij met leedwezen beklagen, $Jb. 9:2,3; Ps. 130:3$ maar hij spreekt hier voornamelijk van de inwendige bewegingen van de zonde, die hij haat, en die de verdorven natuur in hem menigmaal doet rijzen tegen zijn wil, gelijk hij ook spreekt van de begeerlijkheid van het vlees, $Gl. 5:17$ zodat u niet doet wat u wilt: terwijl hij toch tevoren in het 16e vers gezegd had, Wandelt naar de Geest, en u zult de begeerlijkheid van het vlees niet volbrengen.> doe, dat <Namelijk, voor goed, dat is, dat sta ik niet toe, gelijk hij daarna verklaart. Zie $Ps. 1:6; Mt. 7:23$> ken ik niet. $Gl. 5:17$ Want <Dat is, het goede dat ik wil, gelijk vers 19.> hetgeen ik wil dat <Namelijk, in zulke volmaaktheid als ik wel wilde, gelijk vers 18.> doe ik niet, maar <Dat is het kwaad waar ik een afkeer van heb, en dat ik niet wil: gelijk vers 19.> hetgeen ik haat dat doe ik.",
+      "source_text": "ὃ γὰρ κατεργάζομαι, οὐ γινώσκω· οὐ γὰρ ὃ θέλω, τοῦτο πράσσω· ἀλλ’ ὃ μισῶ, τοῦτο ποιῶ.",
+      "generated_at": "2026-05-20T13:56:53.411952Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 16,
+      "original": "Ende indien ick het gene doe dat ick niet en wil, <Namelick, dewijle ick niet en wil noch voor goet en houde de begeerlickheyt die sy verbiedt.> soo stemme ick de wet toe dat sy goet is.",
+      "modernized": "En indien ik hetgeen doe dat ik niet wil, <Namelijk, dewijl ik niet wil noch voor goed houd de begeerlijkheid die zij verbiedt.> zo stem ik de wet toe dat zij goed is.",
+      "source_text": "εἰ δὲ ὃ οὐ θέλω, τοῦτο ποιῶ, σύμφημι τῷ νόμῳ ὅτι καλός.",
+      "generated_at": "2026-05-20T13:57:07.838122Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 17,
+      "original": "<Namelick, na den inwendigen mensche, gelijck hy verklaert vers 22.> Ick dan en doe dat selve nu niet meer, maer <D. de overblijfselen der verdorventheyt die noch in my zijn, gelijck hy verklaert versen 18, 20.> de sonde die in my woont.",
+      "modernized": "<Namelijk, naar de inwendige mens, gelijk hij verklaart vers 22.> Ik dan doe datzelfde nu niet meer, maar <Dat is, de overblijfselen van de verdorvenheid die nog in mij zijn, gelijk hij verklaart verzen 18, 20.> de zonde die in mij woont.",
+      "source_text": "νυνὶ δὲ οὐκέτι ἐγὼ κατεργάζομαι αὐτό, ἀλλ’ ἡ οἰκοῦσα ἐν ἐμοὶ ἁμαρτία.",
+      "generated_at": "2026-05-20T13:57:28.576044Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "dat selve → datzelfde",
+          "context": "hoofdtekst",
+          "choice": "datzelfde",
+          "alternatives": [
+            "datzelve",
+            "dat"
+          ],
+          "reason": "SV dat selve (αὐτό). datzelve hoort tot de archaïsche dezelve/denzelven-pronomenreeks die niet meer productief is in modern Nederlands; de projectconcordantie rendert dat selve / het selve consequent als datzelfde / hetzelfde (vgl. v10, v11 in dit hoofdstuk). datzelfde behoudt de anaforische lading SV-conform zonder hervertaling."
+        }
+      ]
     }
   ]
 }
