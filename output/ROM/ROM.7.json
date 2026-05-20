@@ -74,6 +74,58 @@
       "generated_at": "2026-05-20T13:09:15.333020Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 7,
+      "original": "Wat sullen wy dan seggen? <Dat is, oorsake der sonde: welcke tegenwerpinge hier uyt rijst dat de Apostel te voren vers 5. geseght hadde dat de sonde door de wet krachtigh was in ons, daerom verklaert hy in de 7 volgende verssen hoe dit moet verstaen worden.> Is de wet sonde? Dat zy verre: Ia $Rom. cap. 3. vers 20. Hebr. 7.18.$ <Namelick, ten vollen ende alsoo ick behoorde. Want andersins leert oock de nature een onderscheyt van goet ende quaet in vele dingen, Rom. cap. 2. vers 15.> ick en kende de sonde niet dan door de wet. Want oock en hadde ick <Hier wort de begeerlickheyt genomen voor den gront van alle quaden begeerten, ende voor de eerste bewegingen der selve. Want de begeerlickheyt daer wy in bewilligen wisten oock de Heydenen wel dat sonde was: maer dese eerste bewegingen tot het quaet en hielden sy voor geen sonde, gelijck oock niet de Pharizeen, waer onder Paulus geweest was. Siet Matth. cap. 5. versen 20, 22, 28. ende 23.25, etc.> de begeerlickheyt niet geweten [sonde te zijn,] indien de wet niet en seyde, $Exod. 20.17. Deuter. 5.21.$ Ghy en sult niet begeeren.",
+      "modernized": "Wat zullen wij dan zeggen? <Dat is, oorzaak van de zonde: welke tegenwerping hieruit rijst dat de Apostel tevoren vers 5. gezegd had dat de zonde door de wet krachtig was in ons, daarom verklaart hij in de 7 volgende verzen hoe dit verstaan moet worden.> Is de wet zonde? Dat zij verre: Ja $Rm. 3:20; Hb. 7:18$ <Namelijk, ten volle en zoals ik behoorde. Want anders leert ook de natuur een onderscheid van goed en kwaad in vele dingen, $Rm. 2:15$.> ik kende de zonde niet dan door de wet. Want ook had ik <Hier wordt de begeerlijkheid genomen voor de grond van alle kwade begeerten, en voor de eerste bewegingen daarvan. Want de begeerlijkheid waarin wij bewilligen wisten ook de Heidenen wel dat zonde was: maar deze eerste bewegingen tot het kwaad hielden zij voor geen zonde, gelijk ook niet de Farizeeën, waaronder Paulus geweest was. Zie $Mt. 5:20,22,28; 23:25$ etc.> de begeerlijkheid niet geweten [zonde te zijn,] indien de wet niet zei, $Ex. 20:17; Dt. 5:21$ U zult niet begeren.",
+      "source_text": "Τί οὖν ἐροῦμεν; ὁ νόμος ἁμαρτία; μὴ γένοιτο· ἀλλὰ τὴν ἁμαρτίαν οὐκ ἔγνων, εἰ μὴ διὰ νόμου· τήν τε γὰρ ἐπιθυμίαν οὐκ ᾔδειν, εἰ μὴ ὁ νόμος ἔλεγεν, Οὐκ ἐπιθυμήσεις·",
+      "generated_at": "2026-05-20T13:14:37.815928Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 8,
+      "original": "$Ioan. 15.22. Rom. 4.15. ende 5.20. Galat. 3.19.$ Maer <Dat is, de verdorventheyt die in ons is.> de sonde <Ofte, gaende geworden zijnde. Want de wet niet alleen de sonde ontdeckt ende verdoemt, gelijck in het voorgaende vers is betuyght, maer de verdorventheyt die in de mensche is, wort door dese kennisse verweckt ende gaende gemaeckt tegen het gebodt, wanneer Godts Geest het selve niet en belet.> oorsake genomen hebbende door het gebodt, heeft in my <Dat is, allerley soorte van dadelicke begeerlickheyt.> alle begeerlickheyt gewrocht. Want <Dat is, sonder de rechte kennisse der wet.> sonder de wet is de sonde <Dat is, toont hare kracht soo niet.> doot.",
+      "modernized": "$Jh. 15:22; Rm. 4:15; 5:20; Gl. 3:19$ Maar <Dat is, de verdorvenheid die in ons is.> de zonde, <Of: gaande geworden. Want de wet niet alleen de zonde ontdekt en verdoemt, gelijk in het voorgaande vers is betuigd, maar de verdorvenheid die in de mens is, wordt door deze kennis verwekt en gaande gemaakt tegen het gebod, wanneer Gods Geest dit niet belet.> die door het gebod oorzaak nam, heeft in mij <Dat is, allerlei soort van daadwerkelijke begeerlijkheid.> alle begeerlijkheid bewerkt. Want <Dat is, zonder de rechte kennis van de wet.> zonder de wet is de zonde <Dat is, toont haar kracht zo niet.> dood.",
+      "source_text": "ἀφορμὴν δὲ λαβοῦσα ἡ ἁμαρτία διὰ τῆς ἐντολῆς κατειργάσατο ἐν ἐμοὶ πᾶσαν ἐπιθυμίαν· χωρὶς γὰρ νόμου ἁμαρτία νεκρά.",
+      "generated_at": "2026-05-20T13:16:18.260429Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "gewrocht → bewerkt",
+          "context": "hoofdtekst, slot eerste zin",
+          "choice": "bewerkt",
+          "alternatives": [
+            "gewrocht",
+            "teweeggebracht",
+            "voortgebracht"
+          ],
+          "reason": "Grieks κατειργάσατο (aor. κατεργάζομαι, voortbrengen/bewerken). SV gewrocht is een archaïsch participium dat in modern Nederlands niet meer productief is in deze betekenis; bewerkt behoudt de formele lading zonder hervertaling."
+        },
+        {
+          "type": "afwijking",
+          "subject": "participium ontvouwd",
+          "context": "hoofdtekst en kanttekening bij de zonde",
+          "choice": "oorzaak genomen hebbende → die door het gebod oorzaak nam; gaande geworden zijnde → gaande geworden",
+          "alternatives": [
+            "oorzaak genomen hebbende",
+            "gaande geworden zijnde"
+          ],
+          "reason": "§2.3: SV-participia (λαβοῦσα) ontvouwd naar finiete bijzin; zijnde geschrapt conform §2.3-participiumregel, ook binnen de kanttekening."
+        }
+      ]
+    },
+    {
+      "verse_number": 9,
+      "original": "Ende sonder de wet, <Ofte, was ick levendigh, Dat is, ick meynde dat ick rechtveerdigh was, ende was daer op gerust. Siet diergelijck exempel in dien jongelingh, Matth. cap. 19. versen 16, 17, 18, etc. ende in de Pharizeen in het gemeyn, Matth. cap. 23. vers 28.> soo leefde ick <Namelick, noch een Pharizeer zijnde.> eertijts, maer <Namelick, tot mijne rechte kennisse, ende dat ick verstont dat oock de inwendige begeerten tegen de wet sonde zijn.> als het gebodt gekomen is, soo is de sonde weder <Dat is, ick hebbe de menighte der sonde, die in my wacker geworden was, levendigh gevoelt.> levendigh geworden, <D. ick ben in mijn gemoedt overtuyght dat ick midden in de doot lagh, ende hebbe den moedt verloren, van door de gehoorsaemheyt der wet te konnen behouden worden, Rom. 4. vers 15. 2.Corinth. cap. 3. versen 6, 7, 9.> doch ick ben gestorven.",
+      "modernized": "En zonder de wet, <Of: was ik levend, dat is, ik meende dat ik rechtvaardig was, en was daarop gerust. Zie een dergelijk voorbeeld in die jongeling, $Mt. 19:16,17,18$ etc. en in de Farizeeën in het algemeen, $Mt. 23:28$.> zo leefde ik <Namelijk, toen ik nog een Farizeeër was.> vroeger, maar <Namelijk, tot mijn rechte kennis, en dat ik verstond dat ook de inwendige begeerten tegen de wet zonde zijn.> toen het gebod gekomen is, zo is de zonde weer <Dat is, ik heb de menigte van de zonde, die in mij wakker geworden was, levend gevoeld.> levend geworden, <Dat is, ik ben in mijn gemoed overtuigd dat ik midden in de dood lag, en heb de moed verloren, om door de gehoorzaamheid aan de wet behouden te kunnen worden, $Rm. 4:15; 2Kor. 3:6,7,9$.> maar ik ben gestorven.",
+      "source_text": "ἐγὼ δὲ ἔζων χωρὶς νόμου ποτέ· ἐλθούσης δὲ τῆς ἐντολῆς, ἡ ἁμαρτία ἀνέζησεν, ἐγὼ δὲ ἀπέθανον·",
+      "generated_at": "2026-05-20T13:17:45.658792Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
