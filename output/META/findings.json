@@ -1,50 +1,7 @@
 {
-  "book": "LUK",
-  "generated_at": "2026-05-18T00:00:00Z",
-  "chapters": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18],
+  "book": "ROM",
+  "generated_at": "2026-05-20T00:00:00Z",
+  "chapters": [1, 2, 3, 4],
   "min_freq": 2,
-  "issues": [
-    {
-      "id": "META-LUK-10-26-001",
-      "verse": 26,
-      "chapter": 10,
-      "category": "carryover",
-      "severity": "soft",
-      "quote_modernized": "Wat is in de wet geschreven? Hoe leest u?",
-      "hsv_quote": "Wat staat er in de Wet geschreven? Wat leest u daar?",
-      "rule_reference": "MODERNISATIE.md §2.7 (drempel-archaïsme — 'hoe'-vraag op leestrant)",
-      "explanation": "'Hoe leest u?' is in modern NL dubbelzinnig — slaat eerder op leeswijze/leestechniek dan op interpretatie. HSV vertaalt 'Wat leest u daar?', wat de bedoelde betekenis (welke uitleg geeft u) eenduidig overdraagt. SV1657 'hoe leest ghy' is een idiomatische leesformule die in modern NL niet meer functioneert.",
-      "proposed_fix": "Wat is in de wet geschreven? Wat leest u daar?",
-      "location": "hoofdtekst",
-      "status": "open"
-    },
-    {
-      "id": "META-LUK-16-2-001",
-      "verse": 2,
-      "chapter": 16,
-      "category": "carryover",
-      "severity": "soft",
-      "quote_modernized": "Hoe hoor ik dit van u? Geef rekenschap van uw rentmeesterschap",
-      "hsv_quote": "Wat is dit wat ik over u hoor? Geef rekenschap van uw rentmeesterschap",
-      "rule_reference": "MODERNISATIE.md §2.7 (drempel-archaïsme — verouderd vraagregister)",
-      "explanation": "'Hoe hoor ik dit van u?' is in modern NL ongebruikelijk; 'hoe'-aanhef voor een hoor-gerucht klinkt archaïsch. Modern equivalent volgt HSV: 'Wat is dit wat ik over u hoor?' of 'Wat hoor ik daar over u?'. SV1657-letterlijkheid wijkt hier voor begrijpelijkheid.",
-      "proposed_fix": "Wat hoor ik daar over u? Geef rekenschap van uw rentmeesterschap",
-      "location": "hoofdtekst",
-      "status": "open"
-    },
-    {
-      "id": "META-LUK-12-15-001",
-      "verse": 15,
-      "chapter": 12,
-      "category": "carryover",
-      "severity": "soft",
-      "quote_modernized": "Zie toe en wacht u voor de hebzucht",
-      "hsv_quote": "Kijk uit en wees op uw hoede voor de hebzucht",
-      "rule_reference": "MODERNISATIE.md §2.7 (drempel-archaïsme — 'zie toe' + reflexief 'wacht u voor')",
-      "explanation": "'Zie toe' (= let op / kijk uit) en het reflexieve 'wacht u voor' zijn beide drempel-archaïsmen. Modern NL: 'pas op voor' / 'wees op uw hoede voor'. Combinatie maakt de zin tweemaal drempelig binnen één imperatief.",
-      "proposed_fix": "Pas op en wees op uw hoede voor de hebzucht",
-      "location": "hoofdtekst",
-      "status": "open"
-    }
-  ]
+  "issues": []
 }
