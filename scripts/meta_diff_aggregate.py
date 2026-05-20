@@ -31,10 +31,9 @@ from pathlib import Path
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(PROJECT_ROOT / "scripts"))
 
-# Hergebruik bestaande stoplists.
-from lint_carryovers import STOPLIST as CARRYOVER_STOPLIST  # noqa: E402
-from validate import CAP_CHECK_STOPLIST  # noqa: E402
-from adversarial_scan import (  # noqa: E402
+from rules_data import (  # noqa: E402
+    STOPLIST as CARRYOVER_STOPLIST,
+    CAP_CHECK_STOPLIST,
     DREMPEL_ARCHAISMEN,
     ENDE_WHITELIST,
 )

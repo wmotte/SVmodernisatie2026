@@ -42,99 +42,17 @@ from pathlib import Path
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(PROJECT_ROOT / "scripts"))
 
-# Hergebruik bestaande lijsten zodat we niet duplicaat-onderhouden.
-from validate import (  # noqa: E402
+# Hergebruik bestaande lijsten uit de centrale rules_data module.
+from rules_data import (  # noqa: E402
     PARTICIPLE_ALWAYS_BAD_ENDE,
     PARTICIPLE_CONTEXT_ENDE,
     ADVERBIAL_TRIGGERS_AFTER_PARTICIPLE,
     PARTICIPLE_BAD_END_STEMS,
     ARCHAISM_BLACKLIST,
-)
-
-# -ende-vormen die in modern Nederlands evident geen participium-
-# overtreding zijn: ordinalen, past-tense-met-d, gewone werkwoord-
-# vormen, en als adjectief-gestold woord ('volgende', 'komende dag').
-# Deze lijst hoeft niet uitputtend te zijn — onbekende -ende-woorden
-# worden opzettelijk geflagd; orchestrator filtert false positives en
-# vult deze WHITELIST aan via PR.
-ENDE_WHITELIST: frozenset[str] = frozenset({
-    # Ordinalen
-    "tiende", "elfde", "twaalfde", "dertiende", "veertiende",
-    "vijftiende", "zestiende", "zeventiende", "achttiende",
-    "negentiende", "twintigste", "honderdste",
-    # Stof-/registernamen
-    "einde", "vriende", "ellende", "leende", "wende",
-    "kruimende", "duizende",
-    # Stand-alone gestolde adjectieven
-    "volgende", "komende", "voorgaande",
-    "aanstaande", "afgelopen",
-    # Past-tense -de vormen die een -ende-suffix lijken te hebben maar
-    # niet zijn (door re-boundaries onmogelijk te onderscheiden van
-    # -ende-participia zonder POS-tagger). We laten ze met rust.
-    # NB: 'kende' (van kennen) past bij \w+ende; in adverbial positie
-    # blijft het echter past-tense; word-grenzen werken: \bkende\b
-    # matcht maar valt buiten ons \w+ende{participial} stam-criterium
-    # — alleen woorden die eindigen op `-ende` als suffix, niet op
-    # `-de` na een werkwoordstam.
-})
-
-# §2.7 drempel-archaïsmen die de validator-blacklist (nog) niet vangt
-# maar in MODERNISATIE.md §2.7 als probleem worden genoemd, of die
-# uit SV2027-spiegel-werk regelmatig terugkomen. Adversarial scan
-# flagt ze als kandidaat; orchestrator bepaalt of de woordkeus in
-# context acceptabel is.
-DREMPEL_ARCHAISMEN: frozenset[str] = frozenset({
-    "alzo", "voorts", "wijl", "overmits", "alhoewel", "zoo",
-    "indien", "ofschoon", "alsook",
-    "weldra", "weldadig", "weldadigheid",
-    "gewis", "voorzeker",
-    "wederom", "wederkeren", "wederkeer", "wederkomst",
-    "voorwaar",
-    "zekerlijk", "geenszins",
-    "ootmoed", "ootmoedig", "ootmoediglijk",
-    "lankmoedig", "lankmoedigheid",
-    "barmhartiglijk", "rechtvaardiglijk",
-    "ongeveinsd", "ongeveinsdheid",
-    "vermits", "dewijl", "dewelke", "hetwelk", "hetwelke",
-    "evenwel",  # 'evenwel' is op de grens; flag maar accepteer mogelijk
-    "alom", "voorhanden",
-    "smadelijk", "smaadlijk",
-    "luttel",
-    # uit gebruikte voorbeelden in MODERNISATIE.md / sv-semantic-review
-    "nochthans",
-    # meta-review LUK 1-18: drempel-archaïsmen recurrent over hoofdstukken
-    "uwe",  # zelfst. gebruikt possessief 'de uwe' / 'het uwe' — LUK 5:33, 6:30, 15:31
-    # meta-review MRK 1-14: 'ure' single-word drempel — MRK 13:11, 13:32, 14:35
-    "ure",
-})
-
-# Idiomatische drempel-fossielen — multi-word, regex-based.
-# Naast de single-word DREMPEL_ARCHAISMEN. Hard flag.
-DREMPEL_FOSSIELEN: tuple[str, ...] = (
-    # 'ten <ordinaal> dage' — oude dativus, drempel
-    # LUK 9:22, 13:32 (meta-review LUK 1-18)
-    r"\bten\s+\w+den\s+dage\b",
-    # 'ter ure (van)' — oude dativus
-    # LUK 14:17 (meta-review LUK 1-18)
-    r"\bter\s+ure\b",
-    # '(zie|ziet|hoort) toe' — SV-imperatief, drempel-fossiel
-    # incl. tussenwoorden (max 4) voor 'ziet u voor uzelf toe' (MRK 13:9)
-    # meta-review MRK 1-14: MRK 4:3, 8:15, 13:5, 13:9, 13:23, 13:33
-    r"\b(?:[Hh]oort|[Zz]iet|[Zz]ie)\b(?:\s+\w+){0,4}\s+toe\b",
-)
-
-# Lexicale carry-overs uit kanttekeningen die SV-caps zijn waar de
-# moderne tekst gewoon Nederlands hoort te gebruiken. De validator
-# vangt dit alleen als de SV-spelling exact in modern voorkomt;
-# adversarial scan flagt SV-spelling-vormen die ongemoderniseerd
-# binnen <…> staan, ongeacht caseflip.
-KANTTEKENING_ARCHAISMEN: tuple[str, ...] = (
-    r"\bLeeraers?\b", r"\bLeeraren\b",
-    r"\bAengaende\b", r"\bAengezien\b",
-    r"\bDiscipulen\b", r"\bDiscipulinnen\b",
-    r"\bMenschen?\b",
-    r"\bzeggens?\b\s+(is|wil)\b",  # SV-formule "te zeggen is"
-    r"\bSeggens?\b",
+    ENDE_WHITELIST,
+    DREMPEL_ARCHAISMEN,
+    DREMPEL_FOSSIELEN,
+    KANTTEKENING_ARCHAISMEN,
 )
 
 PARTICIPLE_RE = re.compile(r"\b(\w+ende)\b", re.IGNORECASE)

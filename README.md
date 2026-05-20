@@ -65,77 +65,12 @@ behoud van de SV-eigenheid (100% gedaan door taalmodellen).**
 
 ## Cumulatieve kennisopbouw — wat dit project anders doet
 
-Dit project is een samenhangende modernisering van de Statenvertaling
-1657, geen losse vertaling van één bijbelvers. Elk afzonderlijk vers
-moet leesbaar worden, terwijl woordkeus, stijl, kanttekeningen,
-hoofdletterpatroon en theologische precisie over honderden verzen heen
-gelijkmatig blijven.
-Juist daar schiet een gewone AI-aanpak snel tekort. Doorgaans laat je
-een AI geïsoleerd vertalen: elk vers wordt apart aangeboden, eventueel
-met een vaste woordenlijst erbij, en de AI levert de vertaling in één
-keer. Wat bij vers 5 is gekozen, heeft geen enkele invloed op vers 6.
-En als honderd verzen verderop hetzelfde Griekse woord weer langskomt,
-kan de AI er zomaar een ander Nederlands woord aan koppelen — terwijl
-juist consistente woordkeuze (concordantie) onmisbaar is voor een
-vertaling die de brontekst zo letterlijk mogelijk volgt.
+Dit project moderniseert de Statenvertaling 1657 met behoud van theologische consistentie (concordantie) over het hele boek heen. In plaats van verzen geïsoleerd te moderniseren, gebruikt het een gesloten feedback-loop gebaseerd op vier pilaren:
 
-Dit project doet het anders. Het bouwt **een terugkoppelingsmechanisme
-dat het hele project omspant**, met vier samenwerkende onderdelen:
-
-1. **Een groeiend geheugen van eigen keuzes.** De database begint leeg en
-   groeit mee: na elk vers dat door de controle is gekomen, worden zowel
-   het origineel als de modernisatie opgeslagen. Bij elk nieuw vers zoekt
-   het systeem automatisch naar eerdere verzen met vergelijkbare tekst
-   en toont die als voorbeeld. Vers 11 profiteert zo van wat in vers 10
-   is gekozen — als een Grieks woord in LUK 1:78 met "innerlijk
-   ontfermd" is weergegeven, krijgt de modernisatie van LUK 7:13 dat als
-   referentie mee.
-2. **Zoeken in twee richtingen.** Het systeem zoekt niet alleen op de
-   originele tekst, maar ook op de moderne vertaling. Dat tweede
-   zoekvlak helpt bij de diepgaande beoordeling: als een modern woord hier
-   voor het eerst opduikt, kan de beoordelaar zich afvragen of het wel
-   past bij wat elders voor hetzelfde Griekse woord is gekozen.
-3. **Schone context per groepje verzen.** Voor elke drie verzen start
-   het systeem een nieuwe, schone AI-sessie — zonder dat eerdere
-   gesprekken meekomen. Dat dwingt het model om het geheugen
-   daadwerkelijk te raadplegen in plaats van terug te vallen op wat
-   toevallig nog in het gesprek staat. Of het model die voorbeelden
-   ook echt overneemt is niet gegarandeerd, maar de opzet maakt het
-   waarschijnlijker.
-4. **Groeiende regels naast het geheugen.** Wat in het ene groepje verzen
-   misging, wordt in het volgende opgespoord door geautomatiseerde
-   controles: een verbodenlijst van archaïsmen, een tabel van woorden met
-   verschoven betekenis, en een stoplijst van bewust behouden oude woorden.
-   Die controles werken met terugwerkende kracht: als de verbodenlijst
-   wordt uitgebreid, gaan ook al afgeleverde verzen er opnieuw doorheen
-   en worden ze zo nodig gemarkeerd voor correctie. De kennisopbouw
-   gebeurt zo op twee niveaus: **impliciet** (eerdere keuzes als
-   voorbeeld, hopelijk gevolgd) én **expliciet** (strikte regels die
-   harde controles afdwingen).
-
-**Waarin dit afwijkt van de gangbare aanpak.** Meestal laat je een AI
-zoeken in een bestaande verzameling vertalingen, of geef je een vaste
-woordenlijst mee. Hier vormt het werk zélf de kennisbron — gaandeweg,
-terwijl het ontstaat. Die aanpak past bij een concordantie-gedreven
-vertaling: als consistentie het doel is, ligt het voor de hand de
-eigen eerdere keuzes als ijkpunt te nemen. Bij een vrijere vertaling
-is die noodzaak minder dwingend, al kan ook daar het teruggrijpen op
-eigen keuzes de stijl helpen samenhangen. De combinatie van een
-zelfgroeiend geheugen, schone sessies per groepje, zoeken in twee
-richtingen en controles die met terugwerkende kracht werken, komen
-wij in geautomatiseerde bijbelvertaling niet eerder tegen — al is
-dat een smal werkveld, dus harde uitspraken liggen niet voor het
-oprapen.
-
-**Wat dit systeem níet doet — om de verwachting reëel te houden.** Het
-systeem slaat steeds meer op en krijgt steeds meer regels, maar het
-AI-model zelf verandert niet. Er is geen sprake van training,
-bijscholing of aanpassing van het model. Alle kennisopbouw zit in de
-database met eerdere keuzes en in de groeiende regelbestanden — het
-model zelf blijft onveranderd. Wel krijgt het model bij elk vers
-doorgaans *relevante eerdere keuzes* mee als voorbeeld, in plaats van
-enkel algemene woordenboek-instructies — al haalt de automatische
-zoekactie soms ook minder relevante voorbeelden boven.
+1. **Zelfgroeiend geheugen**: Voltooide moderniseringen worden opgeslagen in `memory/verses.db`. Bij elk nieuw vers worden de meest gelijkaardige eerdere vertalingen automatisch als few-shot voorbeelden geladen.
+2. **Bi-directioneel zoeken**: Zoekacties in het geheugen vinden plaats op zowel het SV-origineel als op de moderne vertaling om eerdere woordkeuzes snel te spiegelen.
+3. **Schone context per batch**: De modernisatie-subagent start voor elke batch van 3 verzen met een schone AI-sessie om drift en hallucinaties in de context te voorkomen.
+4. **Terugkoppelingslus**: Regels en stoplists groeien mee tijdens het werk. Zodra we een archaïsme aan de blacklist toevoegen, flaggen de linters dit met terugwerkende kracht over de hele uitvoer-JSON.
 
 ---
 
@@ -328,110 +263,15 @@ De **orchestrator (hoofdagent) doet de beoordeling en git-afhandeling** (stappen
 zorgt dat elke batch een eigen commit + PR krijgt vóór de volgende
 begint.
 
-**Semantic-review** (`sv-semantic-review` skill) is onderdeel van de
-batch-loop — in-context door de orchestrator (het agent-model zelf). De
-enige API-call is een goedkope embedding-query naar `memory.py` voor
-concordantie-context. Vangt idioom en concordantie-issues die de
-deterministische linters missen. Zie
-[Diepere beoordeling](#diepere-beoordeling-in-context) hieronder.
-
 ---
 
 ## Portabiliteit — andere modellen of uitvoeromgevingen
 
-Het project draait nu op **het agent-model in een agent-CLI**, maar de
-afhankelijkheid is gelaagd: de meeste ondersteuning is aanbiedersonafhankelijk
-en zou met beperkte aanpassing op Codex (OpenAI), Gemini CLI, of OpenCode
-(open-source uitvoeromgeving) kunnen draaien.
+De modernisatie-pipeline is gelaagd en grotendeels model- en aanbiederonafhankelijk:
 
-### Wat is aanbiedersonafhankelijk (geen wijziging nodig)
-
-- **Alle Python-scripts in `scripts/`** — `memory.py`, `bibref.py`,
-  `validate.py`, `lint_*.py`, `adversarial_scan.py`,
-  `compare_hsv.py`, `compare_sv2027.py`, `compare_all.py`.
-  Deterministisch, geen LLM-aanroep (`grep anthropic scripts/` levert
-  niets op).
-- **Memory embeddings** — gebruiken een externe embeddings-service
-  (nu Gemini `text-embedding-004`, 768 dim, verwisselbaar via
-  `scripts/memory.py`), losgekoppeld van het agent-model. Volledig
-  vrije keuze welke LLM bovenop draait.
-- **Regelbestanden** — `ARCHAISMEN.md`, `BIJBELVERWIJZINGEN.md`,
-  `KANTTEKENINGEN.md`, `validate.py`-blacklist,
-  `lint_false_friends`-tabel, `STOPLIST` in `lint_carryovers`.
-  Domeinkennis, niet modelspecifiek.
-- **Uitvoer-JSON-schema, invoerformaat, refdata-CSV's** —
-  model-onafhankelijk.
-
-### Wat is uitvoeromgeving-specifiek (uitvoeromgevingslaag)
-
-- **Skill-formaat**: `.agents/skills/*/SKILL.md` met YAML-frontmatter
-  (`name:`, `description:`) en activering via natuurlijke taal in de
-  skill-detectie van de uitvoeromgeving. Codex, OpenCode en Gemini CLI
-  hebben elk hun eigen conventies voor skills en promptsjablonen.
-- **Subagent-spawning**: de orchestrator-flow
-  (`sv-batch-orchestrate`) start per batch een schone modernisatie-
-  subagent via de `Agent`-tool van de uitvoeromgeving. Codex heeft
-  sub-agents in eigen vorm; OpenCode ondersteunt vergelijkbaar; pure
-  SDK-gebruik zonder uitvoeromgeving vereist een zelfgebouwde "schone
-  client per batch"-loop.
-- **Tool-namen**: Read/Edit/Write/Bash/Agent — conventies van de
-  uitvoeromgeving. Equivalenten in andere uitvoeromgevingen, maar de
-  SKILL.md's noemen ze expliciet.
-- **Hooks en `.agents/settings.local.json`** — config-laag van de
-  uitvoeromgeving (PreToolUse-hooks, permission-allowlist).
-
-### Wat is model-specifiek
-
-- **Lange-contextgeheugen** — het agent-model met ruime context houdt het hele
-  hoofdstuk + voorbeeldparen + skill-inhoud in één ronde overzichtelijk.
-  Modellen met kortere context (≤200k) kunnen het ook, maar de
-  rondes per hoofdstuk (semantic-review, adversarial-review)
-  worden krapper.
-- **Instructie-discipline** — de adversarial-review skill leunt op
-  "uitgangspunt = overtreding", strikte criteria voor weerleggingen, weigeren te
-  hallucineren. Modellen met sterkere parafrase-tendens hebben
-  extra prompt-versteviging nodig om §2.3, hoofdletter-discipline
-  en vierkante-haken-behoud consistent door te zetten.
-- **Promptcache** — de promptcache van de aanbieder op skill-inhoud en
-  voorbeeldcontext maakt orchestrator-flow betaalbaar. OpenAI heeft
-  vergelijkbaar (auto), Gemini 3+ ook (impliciet); ruwe
-  SDK-aanroepen zonder cache worden per vers duurder.
-
-### Concreet: wat moet je doen om over te stappen?
-
-| Stap | Aanpassing |
-|------|------------|
-| 1. Uitvoeromgeving kiezen | Codex (OpenAI) / OpenCode (open-source) / Gemini CLI / eigen Python-orchestrator. |
-| 2. SKILL.md → skill voor die omgeving | Behoud per skill de inhoud (Nederlandse instructies + voorbeelden); porteer alleen de YAML-frontmatter en activeringsconventie naar het doelformaat. |
-| 3. Toolnamen vertalen | Read/Edit/Write/Bash/Agent → equivalenten van de doelomgeving (vrijwel altijd één-op-één). |
-| 4. Subagentpatroon | Als de uitvoeromgeving het niet ondersteunt: implementeer "schone client per batch" handmatig met de SDK. |
-| 5. Modelcontrole | Draai `sv-modernize` op een testbatch (bv. LUK 9:1-3); draai validator + 3 linters + semantic-review + adversarial-review; controleer of §2.3 en hoofdletterdiscipline gehandhaafd worden. Pas prompts aan waar nodig (vooral in `sv-modernize/SKILL.md`). |
-| 6. Embeddings (optioneel) | Het geheugen gebruikt al Gemini; dat kan zo blijven, of overstappen naar OpenAI `text-embedding-3-small` / lokaal `bge-m3`. Pas `scripts/memory.py` op één plek aan (de embedfunctie). |
-
-### Realistische verwachtingen per alternatief
-
-- **Codex (GPT-5.5)** — sterk op tool-use en code-edit; vereist
-  promptversteviging op "geen parafrase" en strikt behoud van formaat.
-  Kosten vergelijkbaar bij gebruik van promptcache.
-- **Gemini 3.1 Pro** — sterk in meertalig en lange context;
-  historisch iets losser op strikte JSON-/format-naleving. De
-  validator vangt het meeste op, adversarial-review pakt de rest.
-- **OpenCode + open-weight model** (Qwen3.6 Max, DeepSeek V4, Kimi K2,
-  GLM-5.1, e.d.) — goedkoop, privacyvriendelijk, maar
-  concordantie en §2.3-discipline verzwakken bij modellen onder
-  ~70B. Compenseer met meer voorbeeldparen uit het geheugen
-  (`--k 7` i.p.v. `--k 5`) en strengere adversarial-review-
-  drempel.
-- **Geen uitvoeromgeving, alleen SDK** — alles werkt; je verliest wel de
-  handige slash-commando's, bestandsbewaker en toestemmingsprompts, en
-  moet de orkestratie per batch in Python zelf bouwen.
-
-**Vuistregel**: hoe verder het doelmodel staat van het agent-model in
-instructietrouw en contextgeheugen, hoe meer **deterministische
-controles** het werk doen — en daar is dit project juist op gebouwd
-(validator + 3 linters + adversarial-review zijn allemaal modelonafhankelijk).
-De modulariteit zorgt ervoor dat in beginsel alleen de modernisatie-
-prompt opnieuw moet worden bijgesteld; het vangnet blijft staan.
+- **Aanbiederonafhankelijk**: Alle Python-scripts (`validate.py`, `lint_*.py`, `memory.py`, etc.), de JSON-invoer/uitvoer-schemas en de regelbestanden (`ARCHAISMEN.md`, `rules_data.py`) zijn volledig deterministisch en vereisen geen LLM-aanroepen.
+- **Model- en cache-eisen**: De promptcache op skill-instructies en voorbeeldcontext maakt de orchestrator-flow kostenefficiënt. Modellen met grote context (≥200k) hebben de voorkeur voor reviews.
+- **Uitvoeromgeving-specifiek**: De skills (`.agents/skills/*/SKILL.md`) en subagent-spawning (`Agent`-tool) zijn geoptimaliseerd voor de agent-CLI (Claude Code). Om over te stappen naar een andere SDK of LLM (zoals GPT-4o, Gemini Pro, of Llama-3), hoef je in essentie alleen de skill-prompts te adapteren en de subagent-orkestratie handmatig in Python/Bash te implementeren.
 
 ---
 
@@ -503,108 +343,46 @@ Per hoofdstuk één bestand: `output/<BOEK>/<BOEK>.<H>.json`. Velden op hoofdniv
       "generated_at": "2026-05-08T12:34:56Z",
       "model":        "<agent-model-id>",
       "memory_examples_used": 3,
-      "notes": [/* optioneel — twijfels, afwijkingen, context */]
+      "notes":        [/* optioneel — twijfels, afwijkingen, context */]
     }
   ]
 }
 ```
 
-**Incrementeel.** Een nieuwe aanroep voor `LUK 1:4-10` voegt verzen
-toe aan het bestaande `verses`-array (upsert op `verse_number`);
-eerder gemoderniseerde verzen blijven onaangeraakt. Bij de éérste
-aanroep voor een hoofdstuk wordt ook automatisch de introductie
-(en, indien aanwezig, de epiloog) gemoderniseerd.
-
-`source_text` wordt **byte-exact** gekopieerd uit de invoer — niet
-hertypen. SV-invoer bevat polytonische Griekse codepoints die door
-Write-tools soms NFC-genormaliseerd worden; de validator detecteert
-dit als harde fout. Volledig schema: [`OUTPUT_SCHEMA.md`](OUTPUT_SCHEMA.md).
-
 ---
 
 ## Validatie en kwaliteit
 
-Elke modernisatie passeert vier poorten voordat deze naar het geheugen mag:
+Elke modernisatie passeert strikte validatie- en lintcontroles voordat deze naar de database mag:
 
-**Harde fouten** (validatiefout, maximaal 3× corrigeren):
+**Harde fouten (validatiefout, max. 3× corrigeren)**:
+- Aantal `<…>`-kanttekeningen < origineel.
+- Aantal `[…]`-vertalerstoevoegingen ≠ origineel.
+- Archaïsmen uit de blacklist (gecentraliseerd in `rules_data.py`).
+- Ongeldig bijbelverwijzingsformaat (`$Boek H:V$`) of losse refs in kanttekeningen.
+- Gewijzigde `source_text` (NFC-vergelijking).
+- Schending van de hoofdletterdiscipline (typografische initiële drop-caps daargelaten).
+- Archaïsche afkortingen in kanttekeningen (bijv. `<D. ` of `<Gr. ` moeten worden genormaliseerd naar `<dat is, ` of `<Grieks: `).
 
-- aantal `<…>`-blokken < origineel
-- aantal `[…]`-blokken ≠ origineel
-- archaïsme uit blacklist in hoofdtekst (`ende`, `ghy`, `daer`, …)
-- bijbelref niet in modern formaat (`$Boek H:V$`)
-- losse bijbelverwijzing binnen kanttekening (alle refs moeten in `$…$`)
-- `source_text` semantisch gewijzigd (NFC-vergelijking)
-- hoofdletterdiscipline geschonden (`Engel` → `engel` is een fout)
+**Waarschuwingen**:
+- Hoofdletter-woord helemaal afwezig (door herformulering).
+- `source_text` byte-anders maar NFC-equivalent.
 
-**Waarschuwingen** (rapporteren, dan doorgaan):
+### Unified Quality Dashboard (`lint_all.py`)
 
-- hoofdletter-woord helemaal afwezig (zin geherformuleerd)
-- `source_text` byte-anders maar NFC-equivalent
-
-Daarnaast draait `lint_carryovers.py` als slotcontrole op
-borderline-archaïsmen die de blacklist mist (`Doch`, `nochtans`,
-`alsdan`, participia als `hebbende`). Per kandidaat zijn er drie
-acties: (1) corrigeren en op blacklist zetten, (2) als legitieme
-carry-over op de stoplist zetten, of (3) als bewuste twijfel in
-`notes` documenteren.
-
-### Aanvullende linters (deterministisch, snel, geen API-aanroepen)
-
-> **Wat is een "lint"?** De term komt uit de programmeerwereld (1978,
-> Stephen Johnson, Bell Labs). De oorspronkelijke `lint`-tool scande
-> C-code op verdachte constructies; de naam slaat op textielpluis —
-> kleine onvolkomenheden die je eraf wilt borstelen vóór ze een
-> probleem worden. Modern: een **linter** is een statisch-analyse-tool
-> die code (of in dit project: vertaaluitvoer) scant op patronen
-> *zonder* hem uit te voeren. Snel, deterministisch, regel-gebaseerd.
-> Verschil met testen: een test verifieert *gedrag*; een linter
-> herkent *patronen* die op problemen wijzen. In dit project zijn de
-> drie linters statische scanners over `output/<BOEK>/<BOEK>.<H>.json`
-> — ze lezen de JSON, matchen tegen interne lijsten (blacklist /
-> false-friends-tabel / carry-over-stoplist), en rapporteren. Geen
-> API-aanroepen, geen LLM, milliseconden snel.
-
-Drie scripts in `scripts/`, elk met een eigen rol in de flow:
-
-| Script                                     | Type            | Exit  | Wat het vangt |
-|--------------------------------------------|-----------------|-------|---------------|
-| `scripts/lint_archaismen.py`               | harde fout      | 1 bij match | Alle uitvoer (recursief) tegen huidige `ARCHAISM_BLACKLIST` in [`validate.py`](scripts/validate.py). Hoofdtekst en kanttekeninginhoud apart. Vangt al samengevoegde verzen die archaïsmen bevatten zodra de blacklist wordt uitgebreid (bv. toevoeging van `\bgelijk\b` markeert eerdere verzen met terugwerkende kracht). |
-| `scripts/lint_false_friends.py`            | waarschuwing    | 1 bij match | Woorden die in modern Nederlands bestaan maar waarvan de betekenis is verschoven t.o.v. SV1657 / brontekst (`vervolgens`, `gemeen`, `ontroerd`, `menen`, `wijf`, …). Synchroniseert met de "False friends"-tabel in [`ARCHAISMEN.md`](ARCHAISMEN.md). Contextafhankelijk, dus geen blokker — `menen` kan in modernisatie correct zijn als SV-betekenis óók "denken" was. |
-| `scripts/lint_carryovers.py`               | suggestierangschikking | altijd 0 | Tokens (≥ 4 tekens) die letterlijk doorlopen van SV-origineel naar modernisatie, gefilterd via een interne `STOPLIST` met legitieme carry-overs. Uitvoer is een gerangschikte kandidatenlijst; **geen geslaagd/gefaald**. Vangt grensgevallen van archaïsmen die de blacklist mist (`Doch` was hét voorbeeld — passeerde stilletjes in vroege LUK 1-verzen; deze linter had het direct gerapporteerd). |
+In plaats van de afzonderlijke linterscripts handmatig te draaien, is er een unified linter die ze allemaal in één keer uitvoert en een overzichtelijk dashboard toont:
 
 ```bash
-uv run python scripts/lint_archaismen.py     lint --root output/
-uv run python scripts/lint_false_friends.py  lint --root output/
-uv run python scripts/lint_carryovers.py     lint --output output/LUK/LUK.1.json
-uv run python scripts/lint_carryovers.py     lint --output output/LUK/LUK.8.json --verses 37,38,39 --top 10
+python3 scripts/lint_all.py --output output/LUK/LUK.1.json [--terse]
+python3 scripts/lint_all.py --root output/ [--terse]
 ```
 
-**Hoe de regelbestanden groeien.** Elke linter heeft een eigen regelbestand dat per
-batch wordt bijgewerkt — dat is het terugkoppelingsmechanisme dat het project
-cumulatief slimmer maakt:
+Het script voert de volgende linters uit en geeft een non-zero exit code bij harde fouten (ideaal voor pre-commit hooks):
+1. **`lint_archaismen.py`** (hard): Scant de uitvoer recursief tegen de `ARCHAISM_BLACKLIST` in `rules_data.py`.
+2. **`lint_false_friends.py`** (waarschuwing): Spoort woorden op met verschoven betekenis t.o.v. SV/Grieks (bijv. `menen`, `dagorde`).
+3. **`lint_carryovers.py`** (suggesties): Geeft een gerangschikte lijst van onveranderde tokens (≥4 tekens) die niet op de legitieme `STOPLIST` staan.
 
-- `lint_archaismen` → de blacklist staat in [`validate.py`](scripts/validate.py)
-  (`ARCHAISM_BLACKLIST`). Echte archaïsmen die door de mazen glippen
-  (gevonden via `lint_carryovers` of `sv-semantic-review`) worden hier
-  toegevoegd. Daarna flagt `lint_archaismen` retro-actief alle eerdere
-  uitvoer die het woord nog bevat.
-- `lint_false_friends` → de `FALSE_FRIENDS`-lijst in het script zelf,
-  spiegelt de tabel in [`ARCHAISMEN.md`](ARCHAISMEN.md).
-- `lint_carryovers` → de `STOPLIST` in het script. Per batch (3 verzen)
-  voegt de orchestrator een blok toe met legitieme carry-overs uit die
-  batch — eigennamen (`Decapolis`, `Gadara`), gewone moderne woorden
-  (`voeten`, `schade`), bijbels-modern register (`varen`,
-  `verkondigende`). Dit is **niet** "alles negeren": elk kandidaat-woord
-  uit de linter krijgt een beoordelingskeuze — naar blacklist (echt archaïsme)
-  of naar stoplist (legitieme carry-over). Vandaar dat dit bestand zo
-  vaak bewerkt wordt.
-
-**Plek in de batch-flow.** De orchestrator (`sv-batch-orchestrate`) draait
-`validate.py` en de drie linters na elke nieuwe batch van 3 verzen, vóór
-de semantische beoordeling. Harde fouten uit `validate.py` of `lint_archaismen`
-blokkeren de commit; waarschuwingen uit `lint_false_friends` en suggesties uit
-`lint_carryovers` zijn invoer voor de kritische beoordelingsstap, niet
-automatisch een blokker.
+In de batch-flow van de orchestrator (`sv-batch-orchestrate`) draait `lint_all.py` na elke nieuwe batch van 3 verzen. Harde fouten blokkeren de commit; waarschuwingen en suggesties zijn input voor de kritische semantische beoordelingsstap.
 
 Voor consistentie van de geheugen-DB (draai handmatig na een correctiesessie als
 je geen orchestrator-batch start; de orchestrator zelf doet dit
@@ -880,55 +658,25 @@ patronen: [`GIT_WORKFLOW.md`](GIT_WORKFLOW.md).
 
 ### Parallelle agent-sessies — worktrees + clash
 
-Wil je twee agent-sessies tegelijk laten werken (bv. de ene op LUK 3, de andere
-op LUK 4) zonder dat ze elkaars feature branches of geheugen-DB
-corrumperen? Gebruik git worktrees, beheerd via `scripts/wt.sh`.
-Conflict-detectie loopt via [`clash`](https://github.com/clash-sh/clash).
+Voor het gelijktijdig draaien van meerdere agent-sessies gebruiken we Git worktrees via `scripts/wt.sh`.
+Conflict-detectie is volledig self-contained en draait via [wt_clash.py](file:///Users/wmotte/Desktop/projects/SVmodernisatie2026/scripts/wt_clash.py) (wat de noodzaak voor een externe `clash`-binary vervangt).
 
 **Snel aan de slag:**
-
 ```bash
-./scripts/wt.sh new luk4              # maakt worktree + branch + symlinks
-cd ../SVmodernisatie2026.wt/luk4      # sibling-directory naast de hoofdrepository
-# start de agent-CLI hier — tweede sessie, eigen branch
-# … na afloop, vanuit de hoofdrepository:
+./scripts/wt.sh new luk4              # Maakt worktree + branch + symlinks
+cd ../SVmodernisatie2026.wt/luk4      # Ga naar de parallelle directory
+# Start de agent-CLI hier...
+# Na afloop, vanaf de hoofdrepository:
 ./scripts/wt.sh rm luk4
 ```
 
 **Subcommando's:**
+- `wt new <suffix> [base]`: Maakt een nieuwe worktree aan en branch `feature/<suffix>`. Symlinkt `memory/` en kopieert `.env` en permission settings.
+- `wt list`: Voert `wt_clash.py` uit om een overzicht van actieve worktrees, hun branches en eventuele conflicten te tonen.
+- `wt rm <suffix>`: Verwijdert de worktree (branch blijft bestaan conform branchbeleid).
+- `wt clash`: Handmatige pass-through naar de python conflict detector.
 
-| Commando | Wat het doet |
-|---|---|
-| `wt new <suffix> [base]` | Worktree onder `~/...wt/<suffix>/`, branch `feature/<suffix>` vanaf `origin/main` (standaardbasis). Symlinkt `memory/` naar de hoofdrepository en kopieert `.env`. |
-| `wt list` | `git worktree list` + `clash status` (toont conflicten tussen worktrees). |
-| `wt rm <suffix>` | Verwijdert de worktree. Branch blijft staan (conform `GIT_WORKFLOW.md`). |
-| `wt clash` | Geeft argumenten door aan `clash status`. |
-| `wt root` | Print het pad van de hoofdrepository. |
-
-**Welke suffix kiezen?** De suffix wordt zowel de directorynaam als
-de branchnaam (`feature/<suffix>`). Gebruik kleine letters in kebab-case. Eén worktree
-= één onderwerp, niet één batch — een worktree leeft voor het hele
-hoofdstuk of een regelbestandtak. Batchbranches worden binnen de
-worktree automatisch aangemaakt door de orchestrator.
-
-| Gebruikssituatie | Goede suffix |
-|---|---|
-| Hoofdstukwerk | `luk4`, `luk5`, `mat1` |
-| Tweede sessie op hetzelfde hoofdstukgebied | `luk4-parallel` |
-| Regelbestandtak (linter, viewer, bibref) | `lint-uitbreiding`, `viewer-update` |
-| Slecht — te specifiek | ❌ `luk4-batch-1-3` (batches zijn per batch een aparte branch) |
-
-**Gelijktijdigheidsvuistregel:** één worktree per hoofdstuk. Verschillende
-hoofdstukken parallel mag (`luk3` + `luk4`); twee batches uit
-hetzelfde hoofdstuk niet (zelfde `output/<BOEK>/<H>.json` →
-verloren update). De `clash check`-PreToolUse-hook vangt het als vangnet.
-
-**De geheugen-DB wordt gedeeld via symlink** — alle worktrees voeden dezelfde
-`memory/*.db`. SQLite-WAL handelt gelijktijdige leesacties af; schrijfacties
-(`memory.py add`/`sync`) gebruiken de standaard CLI.
-
-Volledig protocol, indeling, foutgevallen en de opt-in PreToolUse-hook
-voor `clash check`: zie [`WORKTREE_WORKFLOW.md`](WORKTREE_WORKFLOW.md).
+**Vuistregel voor concurrency**: Eén worktree per hoofdstuk (verschillende hoofdstukken parallel mag, twee batches uit hetzelfde hoofdstuk niet wegens write-race gevaren). De database `memory/verses.db` is gedeeld via symlink; SQLite WAL-modus handelt gelijktijdige leesacties af.
 
 ### Lokale agent-configuratie — `.agents/settings.local.json`
 

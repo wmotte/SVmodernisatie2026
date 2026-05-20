@@ -78,14 +78,7 @@ cmd_new() {
 
 cmd_list() {
     cd "$MAIN_REPO"
-    git worktree list
-    echo
-    if command -v clash >/dev/null 2>&1; then
-        echo "--- clash status ---"
-        clash status || true
-    else
-        echo "(clash niet gevonden — installeer voor conflict-detectie)"
-    fi
+    python3 scripts/wt_clash.py
 }
 
 cmd_rm() {
@@ -107,7 +100,7 @@ cmd_rm() {
 
 cmd_clash() {
     cd "$MAIN_REPO"
-    clash status "$@"
+    python3 scripts/wt_clash.py
 }
 
 cmd_root() {
