@@ -52,43 +52,55 @@
     },
     {
       "verse_number": 7,
-      "status": "pending",
-      "sv2026": "",
+      "status": "modernized",
+      "sv2026": "$1Pt. 4:1$ Want <Dit is een redenering genomen van de gelijkenis van een dode mens, die de werken van levenden niet meer doet, noch aan enige diensten meer verbonden is, waaraan hij in zijn leven verbonden was.> die gestorven is, die is <Dat is, van haar macht vrijgemaakt of verlost. Want hier wordt eigenlijk niet gesproken van de vergeving van de zonden, gelijk in de vijf voorgaande hoofdstukken; maar van de vernietiging van de macht der zonde. Een gelijkenis genomen van een mens die, door de Rechter gerechtvaardigd of vrijgesproken, ook meteen van de banden verlost en vrijgelaten wordt.> gerechtvaardigd van de zonde:",
       "hsv": "$1 Petr. 4:1$ Want wie gestorven is, is rechtens vrij van de zonde.",
       "original": "$1.Petr. 4.1.$ Want <Dit is een reden genomen van de gelijckenisse van een doot mensche, die de wercken van levendige niet meer en doet, noch aen geene diensten meer en is verbonden, daer aen hy in sijn leven verbonden was.> die gestorven is, die is <D. van hare macht vry gemaeckt ofte verlost. Want hier en wort eygentlick niet gesproken van de vergevinge der sonden, gelijck in de vijf voorgaende Capittelen; maer van de vernietinge van de macht der sonde. Een gelijckenisse genomen van een mensche die van den Rechter gerechtveerdight ofte vry gesproken zijnde, oock met eenen van de banden verlost ende vry gelaten wort.> gerechtveerdight van de sonde:"
     },
     {
       "verse_number": 8,
-      "status": "pending",
-      "sv2026": "",
+      "status": "modernized",
+      "sv2026": "$2Tm. 2:11$ Als wij nu <Zie de aantekening op vers 3, 4.> met Christus gestorven zijn, zo geloven wij dat wij ook <Namelijk, in dit leven een geestelijk leven, en hier namaals het eeuwige leven. Zie $Rm. 8:10,11; Ef. 2:5; Ko. 2:13; 3:1,2,3,4$.> met hem zullen leven.",
       "hsv": "$2 Tim. 2:11$ Als wij nu met Christus gestorven zijn, geloven wij dat wij ook met Hem zullen leven.",
       "original": "$2.Timot. 2.11.$ Indien wy nu <Siet de aenteeck. op versen 3, 4.> met Christo gestorven zijn, soo gelooven wy dat wy oock <Namel. in dit leven een geestelick leven, ende hier namaels het eeuwige leven. Siet Rom. 8.10, 11. Ephes. 2.5. Coloss. 2.13. ende 3.1, 2, 3, 4.> met hem sullen leven."
     },
     {
       "verse_number": 9,
-      "status": "pending",
-      "sv2026": "",
+      "status": "modernized",
+      "sv2026": "$Op. 1:18$ Wij weten dat Christus, die uit de doden opgewekt is, niet meer sterft; de dood <Dat is, heeft geen macht meer over hem.> heerst niet meer over hem.",
       "hsv": "$Openb. 1:18$ Wij weten toch dat Christus, nu Hij is opgewekt uit de doden, niet meer sterft. De dood heerst niet meer over Hem.",
-      "original": "$Apoc. 1.18.$ Wetende dat Christus opgeweckt zijnde uyt de dooden, niet meer en sterft: de doot <Dat is, en heeft geen macht meer over hem.> en heerscht niet meer over hem."
+      "original": "$Apoc. 1.18.$ Wetende dat Christus opgeweckt zijnde uyt de dooden, niet meer en sterft: de doot <Dat is, en heeft geen macht meer over hem.> en heerscht niet meer over hem.",
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "participium-ontvouwing aanvang",
+          "context": "hoofdtekst, vers-begin",
+          "choice": "Wij weten dat",
+          "alternatives": [
+            "Wetende dat"
+          ],
+          "reason": "SV-aanvangsparticipium Wetende is per MODERNISATIE.md §2.3 ontvouwd naar een finiete bijzin (Wij weten dat); de validator-cap-discipline-flag op Wetende is hierdoor een false positive (geen hoofdletterwijziging maar herformulering)."
+        }
+      ]
     },
     {
       "verse_number": 10,
-      "status": "pending",
-      "sv2026": "",
+      "status": "modernized",
+      "sv2026": "$1Pt. 2:24$ Want dat hij gestorven is, dat is hij <Namelijk, tot verzoening en vernietiging ervan.> aan de zonde <Want door één offerande heeft hij voor eeuwig hen volmaakt die geheiligd worden, $Hb. 10:14$.> eenmaal gestorven; en dat hij leeft, dat leeft hij <Dat is, bij God, en tot heerlijkheid van God, nu hij aan zijn rechterhand gezet is.> voor God.",
       "hsv": "$1 Petr. 2:24$ Want wat Zijn sterven betreft, is Hij eens en voor altijd voor de zonde gestorven, en wat Zijn leven betreft, leeft Hij voor God.",
       "original": "$1.Petr. cap. 2. vers 24.$ Want dat hy gestorven is, dat is hy <Namelick, tot versoeninge ende vernietinge der selve.> der sonde <Want door eene offerande heeft hy in der eeuwigheyt volmaeckt die geheylight worden, Hebr. 10.14.> eenmael gestorven: ende dat hy leeft, dat leeft hy <D. by Godt, ende ter heerlickheyt Godts, tot sijner rechter hant geset zijnde.> Gode."
     },
     {
       "verse_number": 11,
-      "status": "pending",
-      "sv2026": "",
+      "status": "modernized",
+      "sv2026": "Zo moet ook u het ervoor houden dat u wel <Dat is, aan de zonde gestorven bent. Zie de aantekening vers 2.> aan de zonde dood bent, maar <Dat is, de kracht ontvangen hebt door de Geest van Christus om voor God en tot eer van God te leven, en de zonde meer en meer te doden. Daaruit vloeit dan de vermaning in de volgende verzen voort. Zie ook $Rm. 8:1$, etc.> voor God levend bent in Christus Jezus, onze Heere.",
       "hsv": "Zo dient ook u uzelf te rekenen als dood voor de zonde, maar levend voor God in Christus Jezus, onze Heere.",
       "original": "Alsoo oock ghylieden houdt het daer voor dat ghy wel <D. der sonde gestorven zijt. Siet de aenteeck. vers 2.> der sonde doot zijt, maer <D. de kracht hebt ontfangen door den Geest Christi om voor Godt ende ter eeren Godts te leven, ende de sonde meer ende meer te dooden. Daer uyt vloeyt dan de vermaninge in de volgende verssen. Siet oock Rom. 8.1, etc.> Gode levende zijt in Christo Iesu onsen Heere."
     },
     {
       "verse_number": 12,
-      "status": "pending",
-      "sv2026": "",
+      "status": "modernized",
+      "sv2026": "Laat <Dat is, omdat u wedergeboren bent en verlost van de macht van de zonde.> dan de <Dat is, de overblijfselen van de verdorvenheid, die in ons tot onze oefening en vernedering overig zijn.> zonde niet <Dat is, de overhand heeft, Namelijk, over de kracht en de bewegingen van de Geest in u. Zie $Rm. 8:13,14; Gl. 5:16,17,18$.> heersen in uw <Dit wordt gezegd niet omdat de kwade begeerten alleen in het lichaam zijn, of hun oorsprong alleen uit het lichaam en niet uit de ziel hebben: want dat strijdt tegen hetgeen Christus zegt $Mt. 15:18,19$, en Paulus, $Gl. 5:19,20$; maar omdat deze kwade begeerten zich in het lichaam het meest openbaren, en door het lichaam uitgevoerd worden.> sterfelijk lichaam, om haar <Dat is, te volgen of te doen, waartoe de zonde ons door verscheidene begeerten verlokt, $Jk. 1:14$.> te gehoorzamen in zijn begeerten [van het lichaam.]",
       "hsv": "Laat de zonde dan niet in uw sterfelijk lichaam regeren om aan de begeerten daarvan te gehoorzamen.",
       "original": "Dat <D. dewijle ghy wedergeboren zijt ende verlost van de macht der sonde.> dan de <D. de overblijfselen der verdorventheyt, die in ons tot onser oeffeninge ende vernederinge overigh zijn.> sonde niet en <D. de overhant hebbe, Namelick, over de kracht ende bewegingen des Geests in u. Siet Rom. cap. 8. versen 13, 14. Galat. 5.16, 17, 18.> heersche in uw’ <Dit wort geseght niet om dat de quade begeerlickheden alleen in het lichaem zijn, ofte haren oorspronck alleen uyt het lichaem ende niet uyt de ziele hebben: want dat strijt tegen het gene Christus seght Matth. 15. versen 18, 19. ende Paulus, Galat. cap. 5. versen 19, 20. maer om dat dese quade begeerlickheden haer in het lichaem meest openbaren, ende door het lichaem uytgevoert worden.> sterflick lichaem, om haer <Dat is, te volgen, ofte te doen, daer de sonde ons door verscheydene begeerlickheden toe verlockt, Iacob. cap. 1. vers 14.> te gehoorsamen in de begeerlickheden des selven [lichaems.]"
     },
