@@ -75,6 +75,9 @@ Dit project moderniseert de Statenvertaling 1657 met behoud van theologische con
 2. **Bi-directioneel zoeken**: Zoekacties in het geheugen vinden plaats op zowel het SV-origineel als op de moderne vertaling om eerdere woordkeuzes snel te spiegelen.
 3. **Schone context per batch**: De modernisatie-subagent start voor elke batch van 3 verzen met een schone AI-sessie om drift en hallucinaties in de context te voorkomen.
 4. **Terugkoppelingslus**: Regels en stoplists groeien mee tijdens het werk. Zodra we een archaïsme aan de blacklist toevoegen, flaggen de linters dit met terugwerkende kracht over de hele uitvoer-JSON.
+5. **Recursieve scaffolding-verbeteringen**:
+   - **Dynamische stoplijsten**: De carry-over linter (`lint_carryovers.py`) laadt geverifieerde `modernisatie`-tokens dynamisch uit `memory/verses.db` en voegt deze samen met de statische stoplijst. Dit elimineert de noodzaak om veelgebruikte Nederlandse woorden handmatig aan de stoplijst toe te voegen.
+   - **Automatische rebuttal-propagatie**: Weerleggingen van adversariële issues die in eerdere hoofdstukken al zijn gecontroleerd en geverifieerd (bijv. specifieke spellingresidu's of theologische keuzes zoals `'indien'`, `'voorwaar'`, of `'der tanden'`), worden door de adversarial scanner (`adversarial_scan.py`) automatisch gedetecteerd, overgedragen en gemarkeerd met status `"rebutted"` (inclusief contextuele safeguards). Dit voorkomt dat we dezelfde linguïstische uitzonderingen in elk hoofdstuk opnieuw moeten onderbouwen.
 
 ---
 
@@ -384,7 +387,7 @@ python3 scripts/lint_all.py --root output/ [--terse]
 Het script voert de volgende linters uit en geeft een non-zero exit code bij harde fouten (ideaal voor pre-commit hooks):
 1. **`lint_archaismen.py`** (hard): Scant de uitvoer recursief tegen de `ARCHAISM_BLACKLIST` in `rules_data.py`.
 2. **`lint_false_friends.py`** (waarschuwing): Spoort woorden op met verschoven betekenis t.o.v. SV/Grieks (bijv. `menen`, `dagorde`).
-3. **`lint_carryovers.py`** (suggesties): Geeft een gerangschikte lijst van onveranderde tokens (≥4 tekens) die niet op de legitieme `STOPLIST` staan.
+3. **`lint_carryovers.py`** (suggesties): Geeft een gerangschikte lijst van onveranderde tokens (≥4 tekens) die niet op de legitieme (statische + dynamische uit `verses.db` geladen) `STOPLIST` staan.
 
 In de batch-flow van de orchestrator (`sv-batch-orchestrate`) draait `lint_all.py` na elke nieuwe batch van 3 verzen. Harde fouten blokkeren de commit; waarschuwingen en suggesties zijn input voor de kritische semantische beoordelingsstap.
 
@@ -560,7 +563,12 @@ review LUK 8 streng
 Werkt op elk hoofdstuk waar `output/<BOEK>/<BOEK>.<H>.json` bestaat.
 Bij heraanroep wordt een bestaande bevindingenlijst (`review.<H>.json`)
 geërfd: status-/`fix_commit`-/`rebuttal`-waarden blijven staan voor
-identieke issues. Voor een nieuwe start: vlag `--fresh`.
+identieke issues. 
+
+**Automatische Weerleggings-Propagatie (Rebuttal Propagation)**:
+Als een issue in het huidige hoofdstuk nog geen status heeft, maar er is in een ander (reeds verwerkt) hoofdstuk al een weerlegging voor deze categorie en specifieke term geschreven én geverifieerd (status `"rebutted"` of `"verified"`), dan wordt deze weerlegging automatisch gekopieerd (geprefixed met `[Automated Propagation]`) en de status op `"rebutted"` gezet. Een heuristisch filter controleert hierbij of de term ook daadwerkelijk voorkomt in de rebuttal-tekst om foutieve cross-matching te voorkomen.
+
+Voor een volledig nieuwe start (zonder erfenis uit het huidige hoofdstuk, maar nog wel met historische propagatie): vlag `--fresh`.
 
 ### Meta-adversariële review per boek
 
