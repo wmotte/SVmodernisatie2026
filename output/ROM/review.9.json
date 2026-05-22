@@ -1,13 +1,44 @@
 {
   "book": "ROM",
   "chapter": 9,
-  "reviewed_at": "2026-05-22T06:03:59+00:00",
+  "reviewed_at": "2026-05-22T06:08:15+00:00",
   "passes": [
     {
       "pass": 1,
       "ran_at": "2026-05-22T06:03:59+00:00",
       "mode": "scan",
       "issues_total": 15
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-22T06:07:23+00:00",
+      "mode": "verify",
+      "actions": [
+        "ROM-9-1-001: reopened (luie rebuttal)",
+        "ROM-9-6-001: rebuttal verified",
+        "ROM-9-11-001: rebuttal verified",
+        "ROM-9-22-001: rebuttal verified",
+        "ROM-9-22-002: rebuttal verified",
+        "ROM-9-22-003: rebuttal verified",
+        "ROM-9-23-001: rebuttal verified",
+        "ROM-9-24-001: rebuttal verified",
+        "ROM-9-28-001: verified",
+        "ROM-9-29-001: reopened (patroon nog aanwezig)",
+        "ROM-9-33-001: rebuttal verified",
+        "ROM-9-33-002: rebuttal verified",
+        "ROM-9-12-001: rebuttal verified",
+        "ROM-9-13-001: rebuttal verified",
+        "ROM-9-28-002: rebuttal verified"
+      ]
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-05-22T06:08:15+00:00",
+      "mode": "verify",
+      "actions": [
+        "ROM-9-1-001: rebuttal verified",
+        "ROM-9-29-001: rebuttal verified"
+      ]
     }
   ],
   "issues": [
@@ -21,8 +52,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ROM-9-1-001",
-      "status": "rebutted",
-      "rebuttal": "§KANTTEKENINGEN: geen redundantie. De kanttekening bij 'door de Heilige Geest' licht het bewogen gemoed/geweten toe ($2Kor. 1:12$-context), niet de hoofdtekst-frase zelf; 4-token-overlap is incidenteel gedeelde terminologie tussen annotatie en geannoteerde verstekst, vers 1."
+      "status": "verified",
+      "rebuttal": "KANTTEKENINGEN.md: geen redundantie. De hoofdtekst zegt dat het geweten 'getuigenis geeft door de Heilige Geest'; de kanttekening voegt een ándere propositie toe — dat Paulus' uitspraak voortkomt uit een ernstig gemoed 'dat door de Heilige Geest bewogen wordt', ter weerlegging van overhaaste/vleselijke beweging. 'Door de Heilige Geest' vervult hier een causale rol bij 'bewogen', niet bij 'getuigenis'; de annotatie heeft eigen argumentatieve inhoud, vers 1.",
+      "verified_at": "2026-05-22T06:08:15+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -34,8 +66,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ROM-9-6-001",
-      "status": "rebutted",
-      "rebuttal": "§KANTTEKENINGEN: 'Of, maar het is niet mogelijk dat het woord Gods uitgevallen zou zijn' is een ALTERNATIEVE SV-lezing (inleidend 'Of,'), geen parafrastische herhaling; SV-variantweergave is verplicht behoud, vers 6."
+      "status": "verified",
+      "rebuttal": "§KANTTEKENINGEN: 'Of, maar het is niet mogelijk dat het woord Gods uitgevallen zou zijn' is een ALTERNATIEVE SV-lezing (inleidend 'Of,'), geen parafrastische herhaling; SV-variantweergave is verplicht behoud, vers 6.",
+      "verified_at": "2026-05-22T06:07:23+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -47,8 +80,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ROM-9-11-001",
-      "status": "rebutted",
-      "rebuttal": "§KANTTEKENINGEN: 'Of, opdat het voornemen dat naar de verkiezing Gods is, vast bleef' is een alternatieve SV-vertaling (inleidend 'Of,') van de hoofdtekst-clausule, zelfstandige annotatie-inhoud, vers 11."
+      "status": "verified",
+      "rebuttal": "§KANTTEKENINGEN: 'Of, opdat het voornemen dat naar de verkiezing Gods is, vast bleef' is een alternatieve SV-vertaling (inleidend 'Of,') van de hoofdtekst-clausule, zelfstandige annotatie-inhoud, vers 11.",
+      "verified_at": "2026-05-22T06:07:23+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -60,8 +94,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ROM-9-22-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] 'lankmoedigheid' (μακροθυμία) is theologische deugd-term: concordant met Gal. 5:22 (vrucht van de Geest) en 1Kor. 13:4 ('liefde is lankmoedig'). Corpus-wide gebruikt in 3 verzen (SVm2026); HSV kiest 'geduld' als 4c-register-shift, geen 4a/4b-correctie. SV-conforme weergave handhaaft concordantie. MODERNISATIE.md §2.7 productiviteitstest geldt minder strikt voor theologische vaktermen die in liturgisch/dogmatisch modern NL gangbaar blijven."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] 'lankmoedigheid' (μακροθυμία) is theologische deugd-term: concordant met Gal. 5:22 (vrucht van de Geest) en 1Kor. 13:4 ('liefde is lankmoedig'). Corpus-wide gebruikt in 3 verzen (SVm2026); HSV kiest 'geduld' als 4c-register-shift, geen 4a/4b-correctie. SV-conforme weergave handhaaft concordantie. MODERNISATIE.md §2.7 productiviteitstest geldt minder strikt voor theologische vaktermen die in liturgisch/dogmatisch modern NL gangbaar blijven.",
+      "verified_at": "2026-05-22T06:07:23+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -73,8 +108,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ROM-9-22-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-22T06:07:23+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -86,8 +122,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ROM-9-22-003",
-      "status": "rebutted",
-      "rebuttal": "§KANTTEKENINGEN: de kanttekening bij 'de vaten van de toorn' geeft tweeledige exegese (ten dele door henzelf / ten dele door Gods oordeel, met Farao-parallel); 'de vaten van de'-overlap is de geannoteerde naamwoordgroep, geen lege herhaling, vers 22."
+      "status": "verified",
+      "rebuttal": "§KANTTEKENINGEN: de kanttekening bij 'de vaten van de toorn' geeft tweeledige exegese (ten dele door henzelf / ten dele door Gods oordeel, met Farao-parallel); 'de vaten van de'-overlap is de geannoteerde naamwoordgroep, geen lege herhaling, vers 22.",
+      "verified_at": "2026-05-22T06:07:23+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -99,8 +136,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ROM-9-23-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-22T06:07:23+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -112,8 +150,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ROM-9-24-001",
-      "status": "rebutted",
-      "rebuttal": "§KANTTEKENINGEN: de openingskanttekening duidt 'roeping als kenteken waardoor uitverkorenen onderscheiden worden' — theologische toelichting met eigen inhoud; 'uit de joden maar'-overlap is incidenteel, vers 24."
+      "status": "verified",
+      "rebuttal": "§KANTTEKENINGEN: de openingskanttekening duidt 'roeping als kenteken waardoor uitverkorenen onderscheiden worden' — theologische toelichting met eigen inhoud; 'uit de joden maar'-overlap is incidenteel, vers 24.",
+      "verified_at": "2026-05-22T06:07:23+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -125,9 +164,10 @@
       "proposed_fix": "van de anderen",
       "location": "kanttekening",
       "id": "ROM-9-28-001",
-      "status": "fixed",
+      "status": "verified",
       "rebuttal": null,
-      "explanation_fix": "Genitief 'der anderen' → 'van de anderen' (geen FOSSIL_GENITIVE_PAIR; modern bijbels NL kent geen productief 'der anderen'). Kanttekening §verbogen-lidwoord, vers 28."
+      "explanation_fix": "Genitief 'der anderen' → 'van de anderen' (geen FOSSIL_GENITIVE_PAIR; modern bijbels NL kent geen productief 'der anderen'). Kanttekening §verbogen-lidwoord, vers 28.",
+      "verified_at": "2026-05-22T06:07:23+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -139,9 +179,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ROM-9-29-001",
-      "status": "fixed",
-      "rebuttal": null,
-      "explanation_fix": "Drempel-archaïsme 'gelijk' (vergelijkend voegw.) → 'zoals' in kanttekening v29, conform ARCHAISMEN.md gelijk(voegw.)→zoals; consistent met v13/25/27. Onderscheidt van compound 'gelijkgemaakt' (werkw.) in hoofdtekst, dat blijft."
+      "status": "verified",
+      "rebuttal": "MODERNISATIE.md §2.7: 'indien' slaagt voor de productiviteitstest — het is een in modern formeel/schriftelijk Nederlands volop levend voorwaardelijk voegwoord (juridisch, contractueel, ambtelijk register; = 'als'), geen drempel-archaïsme zoals 'vermits'/'aangezien'-vervangers. Hoofdtekst 'Indien de Heere Sebaoth ons geen zaad had overgelaten' (v29) houdt SV-conditioneel correct aan; geen verwarringstest-zakker.",
+      "verified_at": "2026-05-22T06:08:15+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -153,8 +193,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ROM-9-33-001",
-      "status": "rebutted",
-      "rebuttal": "Scanner-relativum-false-positive: 'welke twee plaatsen' is hier aanwijzend-samenvattend ('deze twee plaatsen'), correct modern relativum na komma met antecedent 'hoofdstuk 8 vers 14 en hoofdstuk 28 vers 16', niet de archaïsche welken/hetwelk-verbuiging, vers 33 kanttekening."
+      "status": "verified",
+      "rebuttal": "Scanner-relativum-false-positive: 'welke twee plaatsen' is hier aanwijzend-samenvattend ('deze twee plaatsen'), correct modern relativum na komma met antecedent 'hoofdstuk 8 vers 14 en hoofdstuk 28 vers 16', niet de archaïsche welken/hetwelk-verbuiging, vers 33 kanttekening.",
+      "verified_at": "2026-05-22T06:07:23+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -166,8 +207,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ROM-9-33-002",
-      "status": "rebutted",
-      "rebuttal": "§KANTTEKENINGEN: de kanttekening identificeert WIE de 'steen van aanstoot' is (Christus, t.a.v. de weerspannige, met $1Pt. 2:7,8$); zelfstandige duiding, geen parafrastische herhaling van de hoofdtekst, vers 33."
+      "status": "verified",
+      "rebuttal": "§KANTTEKENINGEN: de kanttekening identificeert WIE de 'steen van aanstoot' is (Christus, t.a.v. de weerspannige, met $1Pt. 2:7,8$); zelfstandige duiding, geen parafrastische herhaling van de hoofdtekst, vers 33.",
+      "verified_at": "2026-05-22T06:07:23+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -184,8 +226,9 @@
         29
       ],
       "id": "ROM-9-12-001",
-      "status": "rebutted",
-      "rebuttal": "Concordantie-drift false-positive: origineel-stam 'geseght' wordt overal als 'gezegd' weergegeven (v12 'werd tot haar gezegd'); de prefix-heuristiek mist de match door voorafgaand hulpwerkwoord 'werd', niet door inconsistente woordkeuze, vers 12."
+      "status": "verified",
+      "rebuttal": "Concordantie-drift false-positive: origineel-stam 'geseght' wordt overal als 'gezegd' weergegeven (v12 'werd tot haar gezegd'); de prefix-heuristiek mist de match door voorafgaand hulpwerkwoord 'werd', niet door inconsistente woordkeuze, vers 12.",
+      "verified_at": "2026-05-22T06:07:23+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -204,8 +247,9 @@
         33
       ],
       "id": "ROM-9-13-001",
-      "status": "rebutted",
-      "rebuttal": "Concordantie-drift false-positive: origineel-stam 'gelijck' splitst legitiem in vergelijkend voegw. → 'zoals' [13,25,27,29-ktt na fix] en compound werkw. 'gelijk gemaeckt' → 'gelijkgemaakt' [29 hoofdtekst]; semantisch onderscheiden contexten, geen drift, vers 13."
+      "status": "verified",
+      "rebuttal": "Concordantie-drift false-positive: origineel-stam 'gelijck' splitst legitiem in vergelijkend voegw. → 'zoals' [13,25,27,29-ktt na fix] en compound werkw. 'gelijk gemaeckt' → 'gelijkgemaakt' [29 hoofdtekst]; semantisch onderscheiden contexten, geen drift, vers 13.",
+      "verified_at": "2026-05-22T06:07:23+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -222,8 +266,9 @@
         31
       ],
       "id": "ROM-9-28-002",
-      "status": "rebutted",
-      "rebuttal": "Concordantie-drift false-positive: origineel-stam 'rechtve' wordt consistent als 'rechtvaardig(heid)' weergegeven; prefix-heuristiek mist match door flexie (rechtvaardigheid/rechtvaardige), niet door inconsistente woordkeuze, vers 28."
+      "status": "verified",
+      "rebuttal": "Concordantie-drift false-positive: origineel-stam 'rechtve' wordt consistent als 'rechtvaardig(heid)' weergegeven; prefix-heuristiek mist match door flexie (rechtvaardigheid/rechtvaardige), niet door inconsistente woordkeuze, vers 28.",
+      "verified_at": "2026-05-22T06:07:23+00:00"
     }
   ]
 }
