@@ -236,6 +236,15 @@ memory/
 # Ruwe SV2027-downloads (alleen lokaal gebruikt voor vergelijking)
 research/
 
+# Auteursrechtelijk materiaal van derden — alleen lokaal voor vergelijking/
+# validatie, NIET publiek herdistribueren. HSV = Stichting HSV;
+# initiatiefsv27 = Initiatief Statenvertaling 2027.
+hsv/
+initiatiefsv27/
+
+# Lokale backup/scratch
+_tmp/
+
 # Per-machine agent-instellingen (sjabloon: .agents/settings.local.example.json)
 .agents/settings.local.json
 

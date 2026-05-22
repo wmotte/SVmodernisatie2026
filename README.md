@@ -64,6 +64,7 @@ behoud van de SV-eigenheid (100% gedaan door taalmodellen).**
 - [Stopregels](#stopregels)
 - [Status](#status)
 - [Viewer](#viewer)
+- [Licentie](#licentie)
 
 ---
 
@@ -853,3 +854,31 @@ python3 -m http.server 8000 --directory docs
 `docs/inputs/` is een lokale cache (gitignored) — bron van waarheid is
 `output/`. Na elke `sv-modernize`-run het sync-script opnieuw draaien.
 Voor publicatie via GitHub Pages: repo-instelling op `docs/`-root.
+
+---
+
+## Licentie
+
+Dit project kent een **dubbele licentie** — code en gemoderniseerde tekst
+vallen onder verschillende voorwaarden.
+
+| Onderdeel | Wat | Licentie |
+| --- | --- | --- |
+| **Code** | Scripts (`scripts/`), skills, viewer-code (`docs/*.html`), build- en validatietooling | [MIT](LICENSE) |
+| **Content** | De gemoderniseerde SV-tekst en redactionele toevoegingen: `output/`, `parallelbijbel/`, gerenderde viewer-data | [CC BY-SA 4.0](LICENSE-CONTENT) |
+
+**Code — MIT.** Vrij te gebruiken, wijzigen en herdistribueren, mits de
+copyright- en licentievermelding behouden blijft. Volledige tekst:
+[`LICENSE`](LICENSE).
+
+**Content — CC BY-SA 4.0.** De gemoderniseerde tekst mag worden gedeeld en
+bewerkt (ook commercieel), mits met **naamsvermelding** en onder
+**dezelfde licentie** (GelijkDelen). Volledige tekst:
+[`LICENSE-CONTENT`](LICENSE-CONTENT) ·
+[samenvatting](https://creativecommons.org/licenses/by-sa/4.0/deed.nl).
+
+De onderliggende Statenvertaling 1657 (2e druk) is **publiek domein**; de
+CC-licentie geldt voor de modernisatie en redactionele toevoegingen, niet
+voor de publiek-domein-bron.
+
+Copyright © 2026 Wim Otte.
