@@ -1,6 +1,6 @@
 # Projectoverzicht — SVmodernisatie2026
 
-*Van initiatie tot heden. Bijgewerkt: 20 mei 2026.*
+*Van initiatie tot heden. Bijgewerkt: 22 mei 2026.*
 
 Modernisering van de Statenvertaling 1657 (2e druk) met maximaal behoud
 van de SV-eigenheid, volledig uitgevoerd door taalmodellen volgens de
@@ -12,12 +12,12 @@ methode in [`MODERNISATIE.md`](../MODERNISATIE.md).
 
 | | Verzen |
 |---|---:|
-| **Gemoderniseerd** | **2.080** |
+| **Gemoderniseerd** | **2.134** |
 | **Totaal NT (SV1657-corpus, `input.sv/`)** | **7.959** |
-| **Voortgang** | **26,1 %** |
+| **Voortgang** | **26,8 %** |
 
 ```
-[██████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 26,1 %
+[███████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 26,8 %
 ```
 
 ### Per boek
@@ -27,8 +27,8 @@ methode in [`MODERNISATIE.md`](../MODERNISATIE.md).
 | Markus (MRK)   | 16 / 16 | 678   | 678   | ✅ compleet |
 | Lukas (LUK)    | 24 / 24 | 1.151 | 1.151 | ✅ compleet |
 | Filemon (PHM)  | 1 / 1   | 25    | 25    | ✅ compleet |
-| Romeinen (ROM) | 8 / 16  | 226   | 434   | 🔧 in uitvoering |
-| **Subtotaal**  |         | **2.080** | **2.288** | |
+| Romeinen (ROM) | 10 / 16 | 280   | 434   | 🔧 in uitvoering |
+| **Subtotaal**  |         | **2.134** | **2.288** | |
 
 Resterende NT-boeken (nog niet gestart): MAT, JHN, ACT, 1CO, 2CO, GAL,
 EPH, PHP, COL, 1TH, 2TH, 1TI, 2TI, TIT, HEB, JAS, 1PE, 2PE, 1JN, 2JN,
@@ -45,8 +45,9 @@ EPH, PHP, COL, 1TH, 2TH, 1TI, 2TI, TIT, HEB, JAS, 1PE, 2PE, 1JN, 2JN,
 | **18 mei 2026** | Lukas afgerond (24 hoofdstukken). Filemon gestart. Meta-review-aggregator (cross-chapter HSV-diff bucketing) toegevoegd. |
 | **19 mei 2026** | Romeinen gestart (`ROM 1:1-3`). |
 | **20 mei 2026** | Romeinen t/m hoofdstuk 8. Eerbiedskapitaal- en genitief-archaïsme-checks HARD in validator. SV27-vergelijking toegevoegd. |
+| **22 mei 2026** | Romeinen hoofdstuk 9 en 10 afgerond (t/m ROM 10). Adversariële genitief- en participium-opschoning in kanttekeningen. |
 
-Looptijd tot heden: **5 dagen** (16–20 mei 2026).
+Looptijd tot heden: **7 dagen** (16–22 mei 2026).
 
 ---
 
@@ -54,11 +55,11 @@ Looptijd tot heden: **5 dagen** (16–20 mei 2026).
 
 | Metriek | Waarde |
 |---|---:|
-| Commits totaal | 752 |
-| Gemergede pull requests | 326 |
-| Commits per dag | 139 / 215 / 175 / 104 / 119 |
+| Commits totaal | 797 |
+| Gemergede pull requests | 403 |
+| Commits per dag | 139 / 215 / 175 / 104 / 120 / 44 |
 | Boeken compleet | 3 (MRK, LUK, PHM) |
-| Verzen per dag (gem.) | ~416 |
+| Verzen per dag (gem.) | ~356 |
 
 ---
 
