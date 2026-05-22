@@ -1,0 +1,51 @@
+{
+  "book": "ROME",
+  "chapter": 10,
+  "introduction": {
+    "original": "1 Na eene betuyginge van sijne genegentheyt tot de Ioden, handelt d’Apostel breeder van de naeste oorsake harer wederspannigheyt tegen Christum. 5 Stelt daer na een onderscheyt, selfs met de woorden Mosis, tusschen de rechtveerdigheyt der wet, daer de Ioden haer aen hielden, ende de rechtveerdigheyt des geloofs, dat sy verwierpen, ende beschrijftse beyde met hare eygenschappen. 12 Verklaert voorder dat Godt door de predicatie des Euangeliums nu in de geheele werelt beyde Ioden ende Griecken roept tot het geloove in Christum. 16 maer dat het meerderen deel der Ioden dese roepinge ongehoorsaem waren, ende dat de Heydenen daer en tegen deselve gehoorsaemden. 19 het welck hy bewijst alsoo door de Propheten voorseght te zijn.",
+    "modernized": "1 Na een betuiging van zijn genegenheid tot de Joden, handelt de Apostel breder over de naaste oorzaak van hun weerspannigheid tegen Christus. 5 Stelt daarna een onderscheid, zelfs met de woorden van Mozes, tussen de rechtvaardigheid van de wet, waar de Joden zich aan hielden, en de rechtvaardigheid van het geloof, dat zij verwierpen, en beschrijft beide met hun eigenschappen. 12 Verklaart verder dat God door de prediking van het Evangelie nu in de gehele wereld zowel Joden als Grieken roept tot het geloof in Christus. 16 maar dat het grootste deel van de Joden deze roeping ongehoorzaam was, en dat de Heidenen daarentegen die gehoorzaamden. 19 hetgeen hij bewijst dat zo door de Profeten voorzegd is.",
+    "generated_at": "2026-05-22T06:33:50.234350Z",
+    "model": "claude-opus-4-7[1m]"
+  },
+  "verses": [
+    {
+      "verse_number": 1,
+      "original": "BRoeders, de toegenegentheyt mijns herten, ende het gebedt dat [ick] tot Godt voor Israël [doe,] is <D. op dat sy bekeert, ende alsoo saligh mochten worden: het welck verstaen wort van de gene die uyt onwetenheyt dwaelden, gelijck uyt het volgende vers blijckt: niet van de gene die in den H. Geest sondighden, van welcke Christus spreeckt Matth. 12.31.> tot [hare] saligheyt.",
+      "modernized": "Broeders, de toegenegenheid van mijn hart, en het gebed dat [ik] tot God voor Israël [doe,] is <dat is, opdat zij bekeerd, en zo zalig mochten worden: hetgeen verstaan wordt van degenen die uit onwetendheid dwaalden, zoals uit het volgende vers blijkt: niet van degenen die tegen de H. Geest zondigden, van wie Christus spreekt $Mt. 12:31$.> tot [hun] zaligheid.",
+      "source_text": "Ἀδελφοί, ἡ μὲν εὐδοκία τῆς ἐμῆς καρδίας καὶ ἡ δέησις ἡ πρὸς τὸν Θεὸν ὑπὲρ τοῦ Ἰσραήλ ἐστιν εἰς σωτηρίαν.",
+      "generated_at": "2026-05-22T06:34:23.587373Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "BRoeders → Broeders",
+          "context": "begin hoofdtekst",
+          "choice": "sentence-case Broeders",
+          "alternatives": [
+            "BRoeders behouden"
+          ],
+          "reason": "SV1657 drop-cap (typografische initiaal), valt onder AGENTS.md Uitzondering 1; modern Nederlands gebruikt zinsstijl. Validator-hoofdletterflag is hier false-positive."
+        }
+      ]
+    },
+    {
+      "verse_number": 2,
+      "original": "Want ick geve haer getuygenisse, dat sy <Gr. yver Godts, Dat is, eene vyerige begeerte hebben om de wet Godts, ende den Godtsdienst door Mosem ingestelt, voor te staen, ende tegen te staen de gene welcke dien schenen te willen veranderen.> $Rom. 9.31. Actor. 22.3. Galat. cap. 4. vers 17.$ eenen yver tot Godt hebben, maer <Gr. niet na kennisse, Dat is, niet met rechte kennisse waer toe de Wet ende de Godtsdienst in het Oude Testament was ingestelt, gelijck het volgende vers oock mede brenght.> niet met verstant.",
+      "modernized": "Want ik geef hun getuigenis, dat zij <Grieks: ijver Gods, Dat is, een vurige begeerte hebben om de wet Gods en de Godsdienst, door Mozes ingesteld, voor te staan, en tegen te staan degenen die deze schenen te willen veranderen.> $Rm. 9:31; Hd. 22:3; Gl. 4:17$ een ijver tot God hebben, maar <Grieks: niet naar kennis, Dat is, niet met rechte kennis waartoe de Wet en de Godsdienst in het Oude Testament was ingesteld, zoals het volgende vers ook meebrengt.> niet met verstand.",
+      "source_text": "μαρτυρῶ γὰρ αὐτοῖς ὅτι ζῆλον Θεοῦ ἔχουσιν, ἀλλ’ οὐ κατ’ ἐπίγνωσιν.",
+      "generated_at": "2026-05-22T06:35:04.766489Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 3,
+      "original": "Want alsoo sy <Dat is, die Godt in den Euangelio geopenbaert heeft, ende die ons Godt door Christum schenckt, 2.Corinth. 5. vers 21. Philip. cap. 3. vers 9.> de rechtveerdigheyt Godts niet en kennen, ende <Namelick, door hare eygene wercken, ofte door de gehoorsaemheyt der wet: daer in sy nochtans verre te kort komen, gelijck bewesen is van alle menschen, Cap. 3. ende van Abraham ende David, Cap. 4.> hare eygene gerechtigheyt soecken <Gr. te stellen. Hier wort de vermetelheyt van het menschelick gemoedt beteeckent, dat sijne eygene gerechtigheyt voor Godt staende wil houden, gelijck de Pharizeen, Luce cap. 18. versen 11, 12.> op te richten, soo en zijn sy der rechtveerdigheyt Godts <Dat is, en willen haer selven die niet onderwerpen: ende daerom en konnen sy tot de gerechtigheyt die voor Godt bestaet niet komen: gelijck Rom. cap. 8. vers 7.> niet onderworpen.",
+      "modernized": "Want aangezien zij <Dat is, die God in het Evangelie geopenbaard heeft, en die ons God door Christus schenkt, $2Kor. 5:21; Fp. 3:9$.> de rechtvaardigheid Gods niet kennen, en <Namelijk, door hun eigen werken, of door de gehoorzaamheid der wet: waarin zij nochtans verre te kort komen, zoals bewezen is van alle mensen, Cap. 3. en van Abraham en David, Cap. 4.> hun eigen gerechtigheid zoeken <Grieks: te stellen. Hier wordt de vermetelheid van het menselijk gemoed aangeduid, dat zijn eigen gerechtigheid voor God wil handhaven, zoals de Farizeeën, $Lk. 18:11,12$.> op te richten, zo zijn zij aan de rechtvaardigheid Gods <Dat is, en willen zich die niet onderwerpen: en daarom kunnen zij tot de gerechtigheid die voor God bestaat niet komen: zoals $Rm. 8:7$.> niet onderworpen.",
+      "source_text": "ἀγνοοῦντες γὰρ τὴν τοῦ Θεοῦ δικαιοσύνην, καὶ τὴν ἰδίαν δικαιοσύνην ζητοῦντες στῆσαι, τῇ δικαιοσύνῃ τοῦ Θεοῦ οὐχ ὑπετάγησαν.",
+      "generated_at": "2026-05-22T06:35:54.988519Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    }
+  ]
+}
