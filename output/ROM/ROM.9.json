@@ -289,6 +289,45 @@
       "generated_at": "2026-05-22T05:52:27.734839Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 31,
+      "original": "Maer Israël, $Rom. 10.2. ende 11.7.$ die <Namel. in de uytwendige onderhoudinge der wet ende der ceremonien.> de wet der rechtveerdigheyt socht, en is <Dat is, tot de verkrijginge ofte het recht besit der rechtveerdigheyt, die voor Godt bestaet, niet gekomen.> tot de wet der rechtveerdigheyt niet gekomen.",
+      "modernized": "Maar Israël, $Rm. 10:2; 11:7$ dat <Namelijk, in het uitwendige onderhouden van de wet en van de ceremoniën.> de wet van de gerechtigheid zocht, is <Dat is, tot de verkrijging of het rechte bezit van de gerechtigheid, die voor God bestaat, niet gekomen.> tot de wet van de gerechtigheid niet gekomen.",
+      "source_text": "Ἰσραὴλ δέ, διώκων νόμον δικαιοσύνης, εἰς νόμον δικαιοσύνης οὐκ ἔφθασε.",
+      "generated_at": "2026-05-22T05:59:55.629492Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 32,
+      "original": "Waerom? Om datse [die sochten] niet <Namelick, in Christum, gelijck in het volgende vers wort uytgedruckt.> uyt den geloove, maer als <Namel. daer inne sy verre te kort zijn gekomen, gelijck de Apostel te voren geleert heeft, Rom. cap. 3. vers 20.> uyt de wercken der wet. Want sy hebben haer gestooten <Dat is, sy hebben haer ge-ergert aen den geringen uyterlicken stant ende kruyce Christi. Siet 1.Corinth. cap. 1. vers 23.> aen den steen des aenstoots.",
+      "modernized": "Waarom? Omdat zij [die zochten] niet <Namelijk, in Christus, zoals in het volgende vers wordt uitgedrukt.> uit het geloof, maar als <Namelijk, waarin zij verre tekort zijn geschoten, zoals de Apostel tevoren geleerd heeft, $Rm. 3:20$.> uit de werken van de wet. Want zij hebben zich gestoten <Dat is, zij hebben zich geërgerd aan de geringe uiterlijke staat en het kruis van Christus. Zie $1Kor. 1:23$.> aan de steen van aanstoot.",
+      "source_text": "διατί; ὅτι οὐκ ἐκ πίστεως, ἀλλ’ ὡς ἐξ ἔργων νόμου. προσέκοψαν γὰρ τῷ λίθῳ τοῦ προσκόμματος,",
+      "generated_at": "2026-05-22T06:00:05.610748Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 4
+    },
+    {
+      "verse_number": 33,
+      "original": "<Namelick, by den Propheet Iesaiam, Cap. 8. vers 14. ende cap. 28. vers 16. welcke twee plaetsen de Apostel by een voeght. Ende wort Christus hier genaemt een steen des aenstoots, ten aensien van de ongehoorsame ende wederspannige, gelijck Petrus verklaert 1.Petr. cap. 2. versen 7, 8.> Gelijck geschreven is, $Psalm 118. vers 22. Iesai. 8.14. ende 28.16. Matth. 21.42. 1.Petr. 2.6.$ Siet, ick legge in Sion eenen steen des aenstoots, ende een rotze der ergernisse: $Psalm 2.12. Prov. 16.20. Iesai. 28.16. Ierem. 17.7.$ Ende een yegelijck die in hem gelooft, en sal niet beschaemt worden.",
+      "modernized": "<Namelijk, bij de Profeet Jesaja, hoofdstuk 8 vers 14 en hoofdstuk 28 vers 16, welke twee plaatsen de Apostel bijeenvoegt. En Christus wordt hier een steen van aanstoot genoemd, ten aanzien van de ongehoorzame en weerspannige, zoals Petrus verklaart $1Pt. 2:7,8$.> Zoals geschreven is, $Ps. 118:22; Js. 8:14; 28:16; Mt. 21:42; 1Pt. 2:6$ Zie, ik leg in Sion een steen van aanstoot, en een rots van struikeling: $Ps. 2:12; Sp. 16:20; Js. 28:16; Jr. 17:7$ En een ieder die in hem gelooft, zal niet beschaamd worden.",
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "ergernis -> struikeling (false friend, hoofdtekst)",
+          "context": "hoofdtekst v33",
+          "choice": "een rots van struikeling",
+          "alternatives": [
+            "een rots van ergernis (modern: irritatie)"
+          ],
+          "reason": "SV1657 'rotze der ergernisse' (Gr. πέτραν σκανδάλου) = struikelblok/aanstoot; modern 'ergernis' = irritatie (false friend, ARCHAISMEN.md regel 120, LUK 1 precedent). 'aanstoot' al gebruikt voor πρόσκομμα ('steen des aanstoots') in dezelfde zin, dus 'struikeling' om de twee Griekse termen onderscheiden te houden. HSV-spiegel ('struikelblok') bevestigt de strekking."
+        }
+      ],
+      "source_text": "καθὼς γέγραπται, Ἰδοὺ τίθημι ἐν Σιὼν λίθον προσκόμματος καὶ πέτραν σκανδάλου· καὶ πᾶς ὁ πιστεύων ἐπ’ αὐτῷ οὐ καταισχυνθήσεται.",
+      "generated_at": "2026-05-22T06:00:14.221163Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 4
     }
   ]
 }
