@@ -251,3 +251,7 @@ _tmp/
 # Parallelbijbel — LaTeX build-artefacten (PDF/aux/log) regenereerbaar uit output/
 parallelbijbel/build/
 parallelbijbel/__pycache__/
+
+# Word-bronbestanden achtergrondartikel (alleen PDF in repo)
+achtergrondartikel/*.docx
+achtergrondartikel/.DS_Store

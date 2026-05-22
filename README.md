@@ -1,5 +1,8 @@
 # SVmodernisatie2026
 
+> 📄 **[Achtergrondinformatie (PDF)](achtergrondartikel/Achtergrondinformatie.pdf)** — leesstuk over de
+> achtergrond, methode en uitgangspunten van dit project. Begin hier.
+
 <p align="center">
   <img src="parallelbijbel/LUK_voorbeeld.png" alt="Voorbeeldpagina parallelbijbel Lucas" width="520">
 </p>
