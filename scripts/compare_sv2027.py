@@ -109,8 +109,6 @@ def generate_diff(book, chapter):
 def chapter_range_for_book(book):
     if book == "LUK":
         return range(1, 25)
-    if book == "MRK":
-        return range(1, 17)
     raise ValueError(f"Geen hoofdstuk-range bekend voor {book}")
 
 

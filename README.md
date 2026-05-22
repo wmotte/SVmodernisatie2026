@@ -833,12 +833,14 @@ protocol en de waarborgen rond de HSV-spiegel.
 
 ## Viewer
 
-`docs/index.html` is een minimale redirect-pagina die direct
-doorverwijst naar `compare_all.html` (de viervoudige vergelijker
-SV1657 ↔ HSV ↔ Initiatief SV2027 ↔ Modernisatie). Daarnaast is er
-een standalone, zero-build React-viewer (`docs/viewer.html`) die
-SV1657 en de modernisatie naast elkaar toont op basis van een
-geüploade JSON-file. Kanttekeningen verschijnen als zijkolom,
+De publieke viewer toont **uitsluitend Lucas**. `docs/index.html` is een
+minimale redirect-pagina die direct doorverwijst naar `compare_all.html`
+(de viervoudige vergelijker SV1657 ↔ HSV ↔ Initiatief SV2027 ↔
+Modernisatie). De HSV- en SV2027-kolommen zijn diff-fragmenten (citaat) uit
+`docs/diff_*.json`; de volledige bronnen van derden staan niet in de repo.
+Daarnaast is er een standalone, zero-build React-viewer
+(`docs/viewer.html`) die SV1657 en de modernisatie naast elkaar toont op
+basis van een geüploade JSON-file of de meegeleverde `docs/inputs/`-data. Kanttekeningen verschijnen als zijkolom,
 `$bijbelrefs$` als oranje sup-cijfers, `[vertalers-toevoegingen]`
 zijn visueel onderscheiden, en het optionele `notes`-array is
 uitklapbaar per vers.
@@ -851,8 +853,9 @@ python3 -m http.server 8000 --directory docs
 # open http://localhost:8000/
 ```
 
-`docs/inputs/` is een lokale cache (gitignored) — bron van waarheid is
-`output/`. Na elke `sv-modernize`-run het sync-script opnieuw draaien.
+`docs/inputs/` wordt **mee-gecommit** zodat GitHub Pages de viewerdata kan
+serveren (alleen Lucas + project-META); bron van waarheid blijft `output/`.
+Na elke `sv-modernize`-run het sync-script opnieuw draaien.
 Voor publicatie via GitHub Pages: repo-instelling op `docs/`-root.
 
 ---

@@ -5,6 +5,9 @@
 # Gebruik:
 #   bash docs/sync_outputs.sh
 #
+# De publieke viewer toont uitsluitend Lucas (zie $BOOKS hieronder); alleen
+# die boeken (+ project-META) worden gespiegeld en van diffs voorzien.
+#
 # Effect:
 #   1. Spiegelt `output/<BOEK>/<BOEK>.<H>.json` naar
 #      `docs/inputs/<BOEK>/<BOEK>.<H>.json` (viewer leest hieruit).
@@ -34,12 +37,21 @@ fi
 
 mkdir -p "$DST"
 
-# Spiegel alle <BOEK>/<BOEK>.<H>.json bestanden.
-find "$SRC" -mindepth 2 -maxdepth 2 -type f -name '*.json' | while read -r src_file; do
-  rel="${src_file#$SRC/}"
-  dst_file="$DST/$rel"
-  mkdir -p "$(dirname "$dst_file")"
-  cp "$src_file" "$dst_file"
+# De publieke viewer toont uitsluitend Lucas; alleen LUK (+ project-META) wordt
+# naar de viewerdata gespiegeld. Eigen werk aan andere boeken blijft in output/,
+# maar wordt niet publiek geserveerd. Auteursrechtelijke vergelijkingsbronnen
+# (hsv/, initiatiefsv27/) zijn lokaal-only en gitignored.
+BOOKS=(LUK)
+
+# Spiegel <BOEK>/<BOEK>.<H>.json voor de toegelaten boeken, plus output/META.
+for book in "${BOOKS[@]}" META; do
+  [[ -d "$SRC/$book" ]] || continue
+  find "$SRC/$book" -maxdepth 1 -type f -name '*.json' | while read -r src_file; do
+    rel="${src_file#$SRC/}"
+    dst_file="$DST/$rel"
+    mkdir -p "$(dirname "$dst_file")"
+    cp "$src_file" "$dst_file"
+  done
 done
 
 # Genereer een manifest van beschikbare boeken + hoofdstukken zodat de viewer
@@ -110,10 +122,10 @@ echo "Sync voltooid: $DST"
 # een stale modernisatie. compare_*.py gebruiken relatieve paden, dus
 # draaien vanuit REPO_ROOT.
 cd "$REPO_ROOT"
-for src_book_dir in "$SRC"/*/; do
-  book="$(basename "$src_book_dir")"
+for book in "${BOOKS[@]}"; do
+  src_book_dir="$SRC/$book/"
 
-  # Sla niet-boek-mappen over (bv. META): vereis <BOEK>.<H>.json patroon.
+  # Sla over als er geen <BOEK>.<H>.json output is.
   if ! compgen -G "$src_book_dir$book.*.json" >/dev/null; then
     continue
   fi
