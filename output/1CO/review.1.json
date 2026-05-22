@@ -1,0 +1,111 @@
+{
+  "book": "1CO",
+  "chapter": 1,
+  "reviewed_at": "2026-05-22T18:00:14+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-22T17:53:49+00:00",
+      "mode": "scan",
+      "issues_total": 5
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-22T17:54:23+00:00",
+      "mode": "verify",
+      "actions": [
+        "1CO-1-8-001: verified",
+        "1CO-1-13-001: verified",
+        "1CO-1-17-001: verified",
+        "1CO-1-24-001: reopened (patroon nog aanwezig)",
+        "1CO-1-30-001: verified"
+      ]
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-05-22T17:54:49+00:00",
+      "mode": "verify",
+      "actions": [
+        "1CO-1-24-001: verified"
+      ]
+    },
+    {
+      "pass": 4,
+      "ran_at": "2026-05-22T18:00:14+00:00",
+      "mode": "verify",
+      "actions": []
+    }
+  ],
+  "issues": [
+    {
+      "category": "§2.3b infinitief met nageschoven object",
+      "verse": 8,
+      "severity": "soft",
+      "quote_modernized": "…ook zal   bevestigen tot het einde toe, om   onberispelijk te zijn   in de dag v…",
+      "rule_reference": "MODERNISATIE.md §2.3b",
+      "explanation": "'om … te zijn in de dag van' — Latinaat-woordvolgorde; in modern NL gaat het object vóór de infinitief: 'om <object> te zijn'.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "1CO-1-8-001",
+      "status": "verified",
+      "fix_commit": "pending",
+      "verified_at": "2026-05-22T17:54:23+00:00"
+    },
+    {
+      "category": "voornaamwoordelijk bijwoord gesplitst",
+      "verse": 13,
+      "severity": "hard",
+      "quote_modernized": "Van hier af brengt de Apostel verschillende …",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'hier af' — SV-gesplitst voornaamwoordelijk bijwoord. Modern Nederlands voegt samen: 'hieraf' (bv. daarin, waarmee, hierop).",
+      "proposed_fix": "hieraf",
+      "location": "kanttekening",
+      "id": "1CO-1-13-001",
+      "status": "verified",
+      "fix_commit": "pending",
+      "verified_at": "2026-05-22T17:54:23+00:00"
+    },
+    {
+      "category": "SV-verbuiging (demonstratief dezer/dien/...)",
+      "verse": 17,
+      "severity": "hard",
+      "quote_modernized": "…t. 28:19$, en anders zou de Apostel ook dezen niet hebben mogen dopen. Maar zij …",
+      "rule_reference": "ARCHAISMEN.md (SV-verbuigingen)",
+      "explanation": "'dezen niet' — verbogen demonstratief (SV-genitief/datief). Modern Nederlands: 'deze' / 'die' / 'in deze ...' / 'op die ...'. Gefossiliseerde uitdrukkingen ('dezer dagen', 'te dien einde') zijn whitelist; rebut zo nodig met register-argument.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "1CO-1-17-001",
+      "status": "verified",
+      "fix_commit": "pending",
+      "verified_at": "2026-05-22T17:54:23+00:00"
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 24,
+      "severity": "soft",
+      "quote_modernized": "de kracht van god",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'de kracht van god' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "1CO-1-24-001",
+      "status": "verified",
+      "fix_commit": "pending",
+      "verified_at": "2026-05-22T17:54:49+00:00"
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 30,
+      "severity": "soft",
+      "quote_modernized": "en rechtvaardigheid en heiligmaking",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'en rechtvaardigheid en heiligmaking' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "1CO-1-30-001",
+      "status": "verified",
+      "fix_commit": "pending",
+      "verified_at": "2026-05-22T17:54:23+00:00"
+    }
+  ]
+}
