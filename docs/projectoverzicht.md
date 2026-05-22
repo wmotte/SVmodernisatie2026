@@ -36,6 +36,52 @@ EPH, PHP, COL, 1TH, 2TH, 1TI, 2TI, TIT, HEB, JAS, 1PE, 2PE, 1JN, 2JN,
 
 ---
 
+## Omvang van het NT-broncorpus
+
+Woordtelling van het volledige SV1657-corpus in `input.sv/`, opgesplitst
+naar hoofdtekst (de versproza), kanttekeningen (`<…>`-blokken) en
+introductie (de hoofdstuksamenvattingen plus boekepilogen). De laatste twee
+kolommen tellen de bijbelverwijzingen (`$…$`): het aantal `$…$`-blokken in
+de marge, en een schatting van de losse verwijzingen daarin (één blok kan er
+meerdere bundelen, bv. `Ierem. 31.33. Ezech. 11.19. ende 36.26.`).
+Verwijzingen tellen niet mee in de woordkolommen. Een woord = een
+aaneengesloten reeks letters/cijfers.
+
+| Boek | Hoofdtekst | Kanttekeningen | Introductie | Woorden totaal | Verwijzingen (`$…$`) | Losse refs |
+|---|---:|---:|---:|---:|---:|---:|
+| Mattheüs (MAT) | 24.391 | 21.172 | 2.618 | 48.181 | 610 | 1.327 |
+| Markus (MRK) | 15.189 | 8.673 | 1.742 | 25.604 | 340 | 816 |
+| Lukas (LUK) | 25.854 | 16.344 | 2.948 | 45.146 | 545 | 1.331 |
+| Johannes (JHN) | 19.611 | 21.959 | 2.910 | 44.480 | 500 | 1.189 |
+| Handelingen (ACT) | 24.415 | 33.357 | 4.220 | 61.992 | 448 | 931 |
+| Romeinen (ROM) | 9.685 | 34.379 | 2.643 | 46.707 | 279 | 545 |
+| 1 Korinthe (1CO) | 9.666 | 32.286 | 2.987 | 44.939 | 232 | 492 |
+| 2 Korinthe (2CO) | 6.248 | 13.929 | 1.978 | 22.155 | 139 | 274 |
+| Galaten (GAL) | 3.185 | 14.237 | 1.080 | 18.502 | 101 | 203 |
+| Efeze (EPH) | 3.012 | 11.360 | 1.068 | 15.440 | 126 | 339 |
+| Filippenzen (PHP) | 2.205 | 8.842 | 678 | 11.725 | 66 | 150 |
+| Kolossenzen (COL) | 2.035 | 9.452 | 671 | 12.158 | 94 | 198 |
+| 1 Thessalonicenzen (1TH) | 1.876 | 4.730 | 687 | 7.293 | 59 | 139 |
+| 2 Thessalonicenzen (2TH) | 1.044 | 3.908 | 413 | 5.365 | 40 | 77 |
+| 1 Timotheüs (1TI) | 2.288 | 7.987 | 765 | 11.040 | 93 | 197 |
+| 2 Timotheüs (2TI) | 1.674 | 6.662 | 642 | 8.978 | 50 | 125 |
+| Titus (TIT) | 939 | 2.703 | 460 | 4.102 | 40 | 104 |
+| Filemon (PHM) | 450 | 1.167 | 21 | 1.638 | 13 | 28 |
+| Hebreeën (HEB) | 7.119 | 26.353 | 2.114 | 35.586 | 216 | 419 |
+| Jakobus (JAS) | 2.409 | 9.973 | 870 | 13.252 | 68 | 150 |
+| 1 Petrus (1PE) | 2.426 | 8.280 | 768 | 11.474 | 115 | 261 |
+| 2 Petrus (2PE) | 1.570 | 5.293 | 562 | 7.425 | 50 | 83 |
+| 1 Johannes (1JN) | 2.640 | 7.971 | 860 | 11.471 | 80 | 188 |
+| 2 Johannes (2JN) | 324 | 723 | 0 | 1.047 | 5 | 16 |
+| 3 Johannes (3JN) | 299 | 816 | 0 | 1.115 | 3 | 2 |
+| Judas (JUD) | 611 | 2.401 | 6 | 3.018 | 22 | 47 |
+| Openbaring (REV) | 11.951 | 49.625 | 3.326 | 64.902 | 306 | 453 |
+| **Totaal NT** | **183.116** | **364.582** | **37.037** | **584.735** | **4.640** | **10.084** |
+
+Reproduceerbaar via `python3 scripts/count_words.py`.
+
+---
+
 ## Tijdlijn
 
 | Datum | Mijlpaal |
