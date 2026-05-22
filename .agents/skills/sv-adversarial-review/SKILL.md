@@ -1,6 +1,6 @@
 ---
 name: sv-adversarial-review
-description: Adversariële beoordelaar per hoofdstuk. Schrijft een bevindingenlijst (output/<BOEK>/review.<H>.json) waarop de orchestrator MOET reageren — fixen of inhoudelijk weerleggen. Uitgangspunt is overtreding; luiheid wordt gestraft. Roep aan na CHAPTER_COMPLETE binnen sv-batch-orchestrate, of expliciet ("review hoofdstuk 8" / "adversarial review LUK 8"). Twee modi: scan (eerste ronde) en verify (tweede ronde na fixes/weerleggingen).
+description: 'Adversariële beoordelaar per hoofdstuk. Schrijft een bevindingenlijst (output/<BOEK>/review.<H>.json) waarop de orchestrator MOET reageren — fixen of inhoudelijk weerleggen. Uitgangspunt is overtreding; luiheid wordt gestraft. Roep aan na CHAPTER_COMPLETE binnen sv-batch-orchestrate, of expliciet ("review hoofdstuk 8" / "adversarial review LUK 8"). Twee modi: scan (eerste ronde) en verify (tweede ronde na fixes/weerleggingen).'
 ---
 
 # sv-adversarial-review — adversariële hoofdstukbeoordeling
