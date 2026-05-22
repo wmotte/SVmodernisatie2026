@@ -349,17 +349,30 @@ def _capitalized_words(text: str) -> set[str]:
     # die worden door bibref.py naar `$Mt. ...$` etc. genormaliseerd en zijn dus
     # geen kandidaten voor cap-discipline.
     cleaned = BIBREF_ABBREV_TOKEN_RE.sub(" ", cleaned)
-    # Tokenize op witruimte + interpunctie.
-    tokens = re.findall(r"[A-ZÀ-Ÿa-zà-ÿ']+", cleaned)
-    # Filter SV-functiewoorden die altijd naar lowercase modern transformeren —
-    # die genereren anders ~50× per hoofdstuk een warning (`Ende`, `Siet`, `Doch`,
-    # ...) die het signaal verdrinken. Stoplist case-insensitief.
-    return {
-        t for t in tokens
-        if t and (t[0].isupper() and not t.isupper() or t.isupper())
-        and t.lower() not in CAP_CHECK_STOPLIST
-        and not _is_dropcap(t)
-    }
+    def _is_cap_candidate(t: str) -> bool:
+        # Filter SV-functiewoorden die altijd naar lowercase modern transformeren —
+        # die genereren anders ~50× per hoofdstuk een warning (`Ende`, `Siet`,
+        # `Doch`, ...) die het signaal verdrinken. Stoplist case-insensitief.
+        return bool(
+            t and (t[0].isupper() and not t.isupper() or t.isupper())
+            and t.lower() not in CAP_CHECK_STOPLIST
+            and not _is_dropcap(t)
+        )
+
+    # Zin-initiële woorden uitsluiten: hun hoofdletter is positioneel (begin van
+    # zin), geen lexicale SV-kapitaal, en modern herformuleert zo'n woord vaak
+    # mid-zins naar onderkast (`Wetende dat …` → `Wij weten dat …`). Een woord
+    # blijft alleen kandidaat als het minstens één keer níet zin-initieel
+    # voorkomt — zo houden we mid-zins eigennamen wél in de check.
+    non_initial: set[str] = set()
+    for m in re.finditer(r"[A-ZÀ-Ÿa-zà-ÿ']+", cleaned):
+        t = m.group(0)
+        if not _is_cap_candidate(t):
+            continue
+        before = cleaned[: m.start()].rstrip(" \t\n\"'([")
+        if before and before[-1] not in ".!?:":
+            non_initial.add(t)
+    return non_initial
 
 
 def _is_acceptable_modern_form(orig_word: str, modern_text: str) -> bool:
