@@ -323,6 +323,22 @@ def _kanttekening_text(text: str) -> str:
     return " ".join(_bracket_contents(text, "<", ">"))
 
 
+def _is_dropcap(word: str) -> bool:
+    """SV1657-drop-cap: twee leidende hoofdletters gevolgd door onderkast
+    (`BRoeders`, `NAdemael`, `WAnt`) — de typografische initiaal aan zins-/
+    versbegin (AGENTS.md Uitzondering 1). De tweede hoofdletter is drukwerk,
+    geen lexicale kapitaal; modern volgt zinsstijl (`Broeders`). Geen
+    cap-discipline-kandidaat. Sluit de Nederlandse `IJ`-digraaf uit
+    (`IJver`/`IJdelheid` hebben twee legitieme hoofdletters)."""
+    return (
+        len(word) >= 3
+        and word[0].isupper()
+        and word[1].isupper()
+        and word[2:].islower()
+        and not word.startswith("IJ")
+    )
+
+
 def _capitalized_words(text: str) -> set[str]:
     """Geef alle woorden met hoofdletter (buiten begin van zin) als set."""
     # Strip kanttekeningen en bibrefs eerst — die hebben hun eigen patroon.
@@ -342,6 +358,7 @@ def _capitalized_words(text: str) -> set[str]:
         t for t in tokens
         if t and (t[0].isupper() and not t.isupper() or t.isupper())
         and t.lower() not in CAP_CHECK_STOPLIST
+        and not _is_dropcap(t)
     }
 
 
