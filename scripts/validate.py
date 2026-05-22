@@ -715,6 +715,31 @@ def _validate_verse(orig: dict, mod: dict) -> dict:
             "in het blok, niet erbuiten)"
         )
 
+    # 4d. Ontbrekend sluitpunt na kant-finale `$bibref$`. Wanneer een
+    # kanttekening eindigt op een bijbelref en het origineel die kanttekening
+    # met een terminator (`.`/`!`/`?`) afsluit, moet de modernisering óók een
+    # afsluitend leesteken hebben. De modernisering laat de punt soms vallen
+    # zodra de ref het laatste token is (`$Ps. 147:19,20$>` i.p.v.
+    # `$Ps. 147:19,20$.>`), wat inconsistent is met de andere kanttekeningen
+    # (corpus: ~850× `$...$.>`). We koppelen blokken op index en triggeren
+    # alleen als het origineel-blok een literale terminator heeft — zo blijven
+    # SV-bron-quirks zonder slotpunt (bv. `siet Marc. 10.46`) ongemoeid, en
+    # raken we de LUK-stijl originelen die binnen `$...$` eindigen niet (die
+    # eindigen op `$`, niet op `.`; zie 4c).
+    orig_kant_blocks = _bracket_contents(orig_text, "<", ">")
+    mod_kant_blocks = _bracket_contents(mod_text, "<", ">")
+    if len(orig_kant_blocks) == len(mod_kant_blocks):
+        for ob, mb in zip(orig_kant_blocks, mod_kant_blocks):
+            mb_s = mb.rstrip()
+            ob_s = ob.rstrip()
+            if mb_s.endswith("$") and ob_s and ob_s[-1] in ".!?":
+                issues.append(
+                    "bibref-terminator: kanttekening eindigt op `$bibref$` "
+                    "zonder afsluitend leesteken terwijl het origineel met "
+                    f"'{ob_s[-1]}' afsluit — voeg een punt toe na `$` "
+                    "(consistent met de overige kanttekeningen)"
+                )
+
     # 5. Archaïsme-blacklist
     for pattern in ARCHAISM_BLACKLIST:
         # Alleen in de hoofdtekst (buiten kanttekeningen) checken — kanttekeningen
