@@ -1,0 +1,108 @@
+{
+  "book": "1CO",
+  "chapter": 5,
+  "reviewed_at": "2026-05-23T16:52:20+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-23T16:50:02+00:00",
+      "mode": "scan",
+      "issues_total": 5
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-23T16:51:30+00:00",
+      "mode": "verify",
+      "actions": [
+        "1CO-5-5-001: verified",
+        "1CO-5-7-001: rebuttal verified",
+        "1CO-5-11-001: rebuttal verified",
+        "1CO-5-11-002: rebuttal verified",
+        "1CO-5-6-001: rebuttal verified"
+      ]
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-05-23T16:52:20+00:00",
+      "mode": "verify",
+      "actions": []
+    }
+  ],
+  "issues": [
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 5,
+      "severity": "soft",
+      "quote_modernized": "in de dag van",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'in de dag van' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "1CO-5-5-001",
+      "status": "verified",
+      "fix_commit": "pending",
+      "verified_at": "2026-05-23T16:51:30+00:00"
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 7,
+      "severity": "soft",
+      "quote_modernized": "ons pascha is voor",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'ons pascha is voor' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "1CO-5-7-001",
+      "status": "verified",
+      "rebuttal": "KANTTEKENINGEN.md laat <Of, ...>-alternatieven toe; de redundantie-regel verbiedt juist dat het alternatief tegelijk als hoofdtekstkeuze wordt gebruikt. In 1Kor. 5:7 geeft deze kanttekening expliciet de alternatieve lezing 'ons Pascha is voor ons geofferd' en verklaart daarna sacramenteel waarom Christus het Pascha heet; schrappen of vervangen zou het SV-kanttekeningblok inhoudelijk aantasten.",
+      "verified_at": "2026-05-23T16:51:30+00:00"
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 11,
+      "severity": "soft",
+      "quote_modernized": "…at u zich niet zult vermengen, namelijk indien iemand   die een broeder genoemd …",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "1CO-5-11-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-23T16:51:30+00:00"
+    },
+    {
+      "category": "SV-spelling-residu (-inge/-isse/-erye)",
+      "verse": 11,
+      "severity": "hard",
+      "quote_modernized": "…ult geen gemeenschappelijke en openbare onderlinge vriendschap met zulke mensen …",
+      "rule_reference": "ARCHAISMEN.md (spelling)",
+      "explanation": "'onderlinge' — SV-spelling met finale -e. Modern: -ing / -is / -erij (bekeering→bekering, getuigenisse→getuigenis, slaverye→slavernij).",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "1CO-5-11-002",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] §SV-spelling-residu (ARCHAISMEN.md) target archaïsche verbaalsubstantieven (bekeeringe→bekering, getuigenisse→getuigenis, slaverye→slavernij). Hier vers-specifiek: 'het onderlinge geloof' = bepaald lw. + adjectief 'onderling' (Van Dale lemma als bn.) met attributieve flexie-e + zelfst. nw. 'geloof'. 'Onderling' is geen archaïsche -inge-vorm van een verbaalsubstantief; het is de modern-NL standaardvorm. Regex prefix-heuristiek mist onderscheid bn./zn.",
+      "verified_at": "2026-05-23T16:51:30+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 6,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'suerdee' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        6,
+        7,
+        8
+      ],
+      "id": "1CO-5-6-001",
+      "status": "verified",
+      "rebuttal": "Concordantie-drift is hier een scanner-prefix false-positive. De stam suerdeessem/suerdeessems wordt in 1Kor. 5:6-8 consequent met de moderne woordfamilie zuurdeeg/doorzuurt/ongezuurde weergegeven, conform eerdere keuze in Lk. 12:1 en Lk. 13:21. MODERNISATIE.md §5.3 vereist concordantie op lexicale ankers, niet identieke stringprefixen wanneer de Nederlandse woordfamilie morfologisch wisselt.",
+      "verified_at": "2026-05-23T16:51:30+00:00"
+    }
+  ]
+}
