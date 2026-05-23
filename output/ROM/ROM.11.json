@@ -175,6 +175,33 @@
           "reason": "semantic-review: 'beroemen' (reflexief, neemt 'op', niet 'tegen') vervangen door SV-eigen 'roemen tegen' (κατακαυχάομαι); idiomatische mismatch + concordantie met SV1657 'roemt'."
         }
       ]
+    },
+    {
+      "verse_number": 19,
+      "original": "<D. dit sult ghy dan gedencken ende seggen, waerom ghy tegen haer soudt mogen roemen.> Ghy sult dan seggen, De tacken zijn afgebroken, op dat ick soude inge-entet worden.",
+      "modernized": "<Dat is, dit zult u dan bedenken en zeggen, waarom u tegen hen zou mogen roemen.> U zult dan zeggen: De takken zijn afgebroken, opdat ik zou worden ingeënt.",
+      "source_text": "ἐρεῖς οὖν, Ἐξεκλάσθησαν οἱ κλάδοι, ἵνα ἐγὼ ἐγκεντρισθῶ.",
+      "generated_at": "2026-05-23T04:39:42.883366Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 20,
+      "original": "<D. het is alsoo: dit antwoort d’Apostel.> ’t Is wel: <Dat is, doch dit moet ghy daer by weten ende gedencken, datse afgebroken zijn door hare ongeloovigheyt, waer toe ghy oock van naturen zijt genegen, ende mede soudt konnen vervallen, soo ghy haer exempel soudt na volgen.> sy zijn door ongeloove afgebroken, ende <Dat is, zijt inge-entet ende tot noch toe staende gebleven.> ghy staet door het geloove. <Namelick, ofte van eenige uwe weerdigheyt, waerom ghy soudt inge-entet zijn, ofte van uwe krachten by u selven, om staende te blijven.> Zijt niet hoogh gevoelende, maer <Namel. dat ghy niet mede in ongeloove en valt, ende daer door oock afgehouwen wordet. Dese vreese is een heylige sorghvuldigheyt om in den geloove te volherden, die met de versekeringe der saligheyt wel kan bestaen, Philip. 2. vers 12.> vreest.",
+      "modernized": "<Dat is, het is zo: dit antwoordt de Apostel.> Het is zo. <Dat is, maar dit moet u daarbij weten en bedenken, dat zij afgebroken zijn door hun ongeloof, waartoe ook u van nature geneigd bent, en eveneens zou kunnen vervallen, als u hun voorbeeld zou navolgen.> Zij zijn door ongeloof afgebroken, en <Dat is, bent ingeënt en tot nog toe blijven staan.> u staat door het geloof. <Namelijk, of van enige waardigheid van u, waarom u zou zijn ingeënt, of van uw eigen krachten, om te blijven staan.> Wees niet hoogmoedig, maar <Namelijk, dat ook u niet in ongeloof valt, en daardoor ook afgehouwen wordt. Deze vrees is een heilige zorgvuldigheid om in het geloof te volharden, die met de verzekering van de zaligheid wel kan bestaan, $Fp. 2:12$.> vrees.",
+      "source_text": "καλῶς· τῇ ἀπιστίᾳ ἐξεκλάσθησαν, σὺ δὲ τῇ πίστει ἕστηκας. μὴ ὑψηλοφρόνει, ἀλλὰ φοβοῦ·",
+      "generated_at": "2026-05-23T04:40:58.092992Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 21,
+      "original": "Want is het dat Godt <Gr. die na de nature zijn, Dat is, de Ioden, die natuerlicker wijse afkomstigh zijn van de heylige vaders, met welcke, ende haren zade, Godt sijn verbont heeft opgerecht, Genes. cap. 17. vers 7. ende die in de Ioodsche gemeynte geboren zijn.> de natuerlicke tacken niet <Namelick, maer uyt sijne gemeynte ende verbont verstooten.> gespaert en heeft, [siet toe] dat hy oock mogelick <Namelick, die uyt een wilde olijfboom genomen zijnde, als een vreemde tack inge-entet zijt, dat hy u oock om deselve oorsake niet en verstoote.> u niet en spare.",
+      "modernized": "Want indien God <Grieks: die naar de natuur zijn, Dat is, de Joden, die op natuurlijke wijze afkomstig zijn van de heilige vaders, met wie, en hun zaad, God zijn verbond heeft opgericht, $Gn. 17:7$ en die in de Joodse gemeente geboren zijn.> de natuurlijke takken niet <Namelijk, maar uit zijn gemeente en verbond verstoten.> gespaard heeft, [zie toe] dat hij ook mogelijk <Namelijk, u die uit een wilde olijfboom genomen bent en als een vreemde tak bent ingeënt, dat hij u ook om dezelfde oorzaak niet verstote.> u niet spare.",
+      "source_text": "εἰ γὰρ ὁ Θεὸς τῶν κατὰ φύσιν κλάδων οὐκ ἐφείσατο, μήπως οὐδέ σου φείσηται.",
+      "generated_at": "2026-05-23T04:41:32.582682Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
