@@ -1,0 +1,109 @@
+{
+  "book": "1CO",
+  "chapter": 2,
+  "reviewed_at": "2026-05-23T04:27:32+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-23T04:25:44+00:00",
+      "mode": "scan",
+      "issues_total": 6
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-23T04:27:32+00:00",
+      "mode": "verify",
+      "actions": [
+        "1CO-2-7-001: rebuttal verified",
+        "1CO-2-8-001: rebuttal verified",
+        "1CO-2-8-002: verified",
+        "1CO-2-8-003: rebuttal verified",
+        "1CO-2-13-001: verified",
+        "1CO-2-13-002: verified"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 7,
+      "severity": "soft",
+      "quote_modernized": "de wijsheid van god",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'de wijsheid van god' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "1CO-2-7-001",
+      "status": "verified",
+      "rebuttal": "KANTTEKENINGEN.md verbiedt vooral duplicatie van een alternatief in de hoofdtekst; in 1CO 2:7 verklaart de kanttekening het antecedent 'wijsheid van God' en vult twee mogelijke duidingen uit, geen luie doublure.",
+      "verified_at": "2026-05-23T04:27:32+00:00"
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 8,
+      "severity": "hard",
+      "quote_modernized": "…ekend hadden, dan zouden zij   de Heere der heerlijkheid niet gekruisigd hebben.",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'der heerlijkheid' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de heerlijkheid' of 'van het heerlijkheid', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de heerlijkheid",
+      "location": "hoofdtekst",
+      "id": "1CO-2-8-001",
+      "status": "verified",
+      "rebuttal": "In 1CO 2:8 is 'de Heere der heerlijkheid' de formele weergave van Grieks τὸν Κύριον τῆς δόξης en een vaste christologische formule. MODERNISATIE.md §2.7 laat gefossiliseerde bijbelformules staan; 'van de heerlijkheid' zou hier onnatuurlijk en minder terminologisch zijn.",
+      "verified_at": "2026-05-23T04:27:32+00:00"
+    },
+    {
+      "category": "SV-verbuiging (demonstratief dezer/dien/...)",
+      "verse": 8,
+      "severity": "hard",
+      "quote_modernized": "… van Arimathea, hebben hem gekend; maar dezen waren weinigen, en hebben met zijn…",
+      "rule_reference": "ARCHAISMEN.md (SV-verbuigingen)",
+      "explanation": "'dezen waren' — verbogen demonstratief (SV-genitief/datief). Modern Nederlands: 'deze' / 'die' / 'in deze ...' / 'op die ...'. Gefossiliseerde uitdrukkingen ('dezer dagen', 'te dien einde') zijn whitelist; rebut zo nodig met register-argument.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "1CO-2-8-002",
+      "status": "verified",
+      "verified_at": "2026-05-23T04:27:32+00:00"
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 8,
+      "severity": "soft",
+      "quote_modernized": "van de oversten van",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'van de oversten van' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "1CO-2-8-003",
+      "status": "verified",
+      "rebuttal": "De overlap in 1CO 2:8 staat in een historische toelichting bij welke oversten Christus niet kenden. KANTTEKENINGEN.md richt zich op alternatief-redundantie tussen hoofdtekst en noot; deze noot specificeert personen en uitzonderingen, en is geen herhaling als hoofdtekstkeuze.",
+      "verified_at": "2026-05-23T04:27:32+00:00"
+    },
+    {
+      "category": "kanttekening-luiheid (§2.3 in <…>)",
+      "verse": 13,
+      "severity": "hard",
+      "quote_modernized": "…g in hun geestelijke eenvoudigheid. Of, vergelijkende. Grieks: samen oordelende:…",
+      "rule_reference": "KANTTEKENINGEN.md + §2.3",
+      "explanation": "'vergelijkende' binnen kanttekening — verdacht -ende-woord in adverbial / clause-final positie. §2.3 geldt ook in <…>; ontvouw naar finiete bijzin.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "1CO-2-13-001",
+      "status": "verified",
+      "verified_at": "2026-05-23T04:27:32+00:00"
+    },
+    {
+      "category": "kanttekening-luiheid (§2.3 in <…>)",
+      "verse": 13,
+      "severity": "hard",
+      "quote_modernized": "…gheid. Of, vergelijkende. Grieks: samen oordelende: dat is, zoals de leer geeste…",
+      "rule_reference": "KANTTEKENINGEN.md + §2.3",
+      "explanation": "'oordelende' binnen kanttekening — verdacht -ende-woord in adverbial / clause-final positie. §2.3 geldt ook in <…>; ontvouw naar finiete bijzin.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "1CO-2-13-002",
+      "status": "verified",
+      "verified_at": "2026-05-23T04:27:32+00:00"
+    }
+  ]
+}
