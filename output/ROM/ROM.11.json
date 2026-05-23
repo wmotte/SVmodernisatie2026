@@ -256,6 +256,46 @@
       "generated_at": "2026-05-23T05:00:25.241639Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 28,
+      "original": "<Dit is een antwoorde op een tegenwerpinge, dat het niet wel gelooflick was, dat de Ioden wederom souden aengenomen worden, overmits sy door het verwerpen des Euangeliums van Godt gehaet waren. D’Apostel bekent datse wel daerom gehaet waren, maer datse oock evenwel om een andere reden bemint waren, namelick, om datse afkomstigh zijn van de vaderen die Godt verkoren hadde tot sijn volck.> Soo zijn sy wel <D. van Godt gehaet.> vyanden <D. om dat sy nu tegenwoordelick het Euangelium verwerpen ende bestrijden.> aengaende het Euangelium, <D. om datse u van wegen de belijdenisse des Euangeliums haten ende vervolgen, ofte, op dat ghy Heydenen in hare plaetse soudet geroepen ende inge-entet worden.> om uwent wille: maer <D. dewijle Godt dese natie uyt alle andere tot sijn volck uytverkoren heeft, ende noch onder deselve sijne uytverkorene heeft.> aengaende de verkiesinge zijn sy <Namel. van Godt, D. Gode aengenaem.> beminde <D. om het verbont dat Godt met Abraham ende sijne nakomelingen ende de andere Patriarchen, van welcke de Ioden afkomstigh zijn, gemaeckt heeft, Genes. 17.7.> om der vaderen wille:",
+      "modernized": "<Dit is een antwoord op een tegenwerping, dat het niet wel geloofwaardig was dat de Joden weer aangenomen zouden worden, omdat zij door het verwerpen van het Evangelie door God gehaat waren. De Apostel erkent dat zij wel daarom gehaat waren, maar dat zij toch ook om een andere reden bemind waren, namelijk omdat zij afkomstig zijn van de vaderen die God verkoren had tot zijn volk.> Zo zijn zij wel <Dat is, van God gehaat.> vijanden <Dat is, omdat zij nu tegenwoordig het Evangelie verwerpen en bestrijden.> aangaande het Evangelie, <Dat is, omdat zij u vanwege de belijdenis van het Evangelie haten en vervolgen, of, opdat u, Heidenen, in hun plaats geroepen en ingeënt zoudt worden.> om uwentwil; maar <Dat is, aangezien God deze natie uit alle andere tot zijn volk uitverkoren heeft, en nog onder hen zijn uitverkorenen heeft.> aangaande de verkiezing zijn zij <Namelijk, van God, dat is, Gode aangenaam.> bemind <Dat is, om het verbond dat God met Abraham en zijn nakomelingen en de andere Patriarchen, van wie de Joden afkomstig zijn, gemaakt heeft, $Gn. 17:7$.> ter wille van de vaderen:",
+      "source_text": "κατὰ μὲν τὸ εὐαγγέλιον, ἐχθροὶ δι’ ὑμᾶς· κατὰ δὲ τὴν ἐκλογήν, ἀγαπητοὶ διὰ τοὺς πατέρας.",
+      "generated_at": "2026-05-23T05:04:22.326307Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 29,
+      "original": "Want de genade-giften ende de roepinge Godts zijn <D. soodanigh, dat Godt van deselve geen berouw en krijght, dat is, onveranderlick is: want by de menschen ontstaet veranderinge van voornemen daer uyt, dat het haer berouwt sulck een voornemen genomen te hebben, 1.Sam. 15.29. 2.Corinth. 7.10.> onberouwelick.",
+      "modernized": "Want de genadegaven en de roeping Gods zijn <Dat is, zodanig dat God daarvan geen berouw krijgt, dat is, onveranderlijk is: want bij de mensen ontstaat verandering van voornemen daaruit, dat het hun berouwt zulk een voornemen genomen te hebben, $1Sm. 15:29; 2Kor. 7:10$.> onberouwelijk.",
+      "source_text": "ἀμεταμέλητα γὰρ τὰ χαρίσματα καὶ ἡ κλῆσις τοῦ Θεοῦ.",
+      "generated_at": "2026-05-23T05:04:55.486002Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "twijfel",
+          "subject": "onberouwelijk",
+          "context": "hoofdtekst, slotwoord",
+          "choice": "onberouwelijk behouden",
+          "alternatives": [
+            "zonder berouw",
+            "onherroepelijk"
+          ],
+          "reason": "Grieks ametameleta; SV-term, kanttekening glosseert als onveranderlijk; HSV behoudt onberouwelijk; renovatie boven hervertaling"
+        }
+      ]
+    },
+    {
+      "verse_number": 30,
+      "original": "Want gelijckerwijs oock <Namel. beroepene uyt de Heydenen.> ghylieden <Namel. eer Christus gekomen ende u gepredickt is geweest.> eertijts Gode <Namel. niet geloovende sijnen woorde, ende niet houdende sijne geboden.> ongehoorsaem geweest zijt, maer nu <Dat is, uyt enckele barmhertigheyt Godts door de predicatie des Euangeliums tot het geloove geroepen zijt.> barmhertigheyt verkregen hebt <Dat is, by occasie dat de Ioden den Euangelio ongehoorsaem zijn geweest, heeft Godt het Euangelium tot u laten komen, vers 11. Ongehoorsaemheyt is meer als ongeloovigheyt, want het beteeckent een hartneckigheyt van niet te willen gelooven.> door deser ongehoorsaemheyt:",
+      "modernized": "Want zoals ook <Namelijk, geroepenen uit de Heidenen.> u <Namelijk, voordat Christus gekomen en aan u gepredikt was.> voorheen aan God <Namelijk, omdat u zijn woord niet geloofde en zijn geboden niet hield.> ongehoorzaam geweest bent, maar nu <Dat is, uit louter barmhartigheid Gods door de prediking van het Evangelie tot het geloof geroepen bent.> barmhartigheid verkregen hebt <Dat is, naar aanleiding daarvan dat de Joden aan het Evangelie ongehoorzaam zijn geweest, heeft God het Evangelie tot u laten komen, vers 11. Ongehoorzaamheid is meer dan ongelovigheid, want het betekent een hardnekkigheid van niet te willen geloven.> door hun ongehoorzaamheid:",
+      "source_text": "ὥσπερ γὰρ καὶ ὑμεῖς ποτὲ ἠπειθήσατε τῷ Θεῷ, νῦν δὲ ἠλεήθητε τῇ τούτων ἀπειθείᾳ·",
+      "generated_at": "2026-05-23T05:05:26.419029Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
