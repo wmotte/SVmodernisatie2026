@@ -1,0 +1,111 @@
+{
+  "book": "1CO",
+  "chapter": 4,
+  "reviewed_at": "2026-05-23T11:40:31+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-23T11:39:36+00:00",
+      "mode": "scan",
+      "issues_total": 6
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-23T11:40:31+00:00",
+      "mode": "verify",
+      "actions": [
+        "1CO-4-2-001: verified",
+        "1CO-4-3-001: rebuttal verified",
+        "1CO-4-3-002: rebuttal verified",
+        "1CO-4-5-001: rebuttal verified",
+        "1CO-4-6-001: rebuttal verified",
+        "1CO-4-10-001: rebuttal verified"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 2,
+      "severity": "soft",
+      "quote_modernized": "En voorts wordt in de uitdelers vereist,   …",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'voorts' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "1CO-4-2-001",
+      "status": "verified",
+      "verified_at": "2026-05-23T11:40:31+00:00"
+    },
+    {
+      "category": "voornaamwoordelijk bijwoord gesplitst",
+      "verse": 3,
+      "severity": "hard",
+      "quote_modernized": "…en ander stelt, of kleineert, zoals dit hier in sommigen bestraft wordt: dat de …",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'hier in' — SV-gesplitst voornaamwoordelijk bijwoord. Modern Nederlands voegt samen: 'hierin' (bv. daarin, waarmee, hierop).",
+      "proposed_fix": "hierin",
+      "location": "kanttekening",
+      "id": "1CO-4-3-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] v44 kanttekening: 'de bangheid die iemand heeft voordat de strijd begint; die hier in Christus geweest is'. 'hier in Christus' is geen gesplitst voornaamwoordelijk bijwoord; 'hier' = contrastief adverbium ('in dit geval'), 'in Christus' = zelfstandige bepalende prepositie-NP. Samentrekken tot 'hierin Christus' is grammaticaal onjuist. ARCHAISMEN.md-regel niet van toepassing.",
+      "verified_at": "2026-05-23T11:40:31+00:00"
+    },
+    {
+      "category": "voornaamwoordelijk bijwoord gesplitst",
+      "verse": 3,
+      "severity": "hard",
+      "quote_modernized": "…z. boven hem stelde. Dit is het wat hij hier aan Gods oordeel onderwerpt, omdat …",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'hier aan' — SV-gesplitst voornaamwoordelijk bijwoord. Modern Nederlands voegt samen: 'hieraan' (bv. daarin, waarmee, hierop).",
+      "proposed_fix": "hieraan",
+      "location": "kanttekening",
+      "id": "1CO-4-3-002",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] False positive: 'hier aan Christus toegeschreven' is geen gesplitst voornaamwoordelijk bijwoord. Parsing: [hier] (bijwoord = 'in deze context/passage') + [aan Christus] (voorzetselgroep, indirect object van passieve werkwoord 'toegeschreven worden aan X'). MODERNISATIE.md §2.3b verbiedt gesplitst pron.bijwoord van het type [er/daar/hier/waar][prep], maar alléén wanneer de prepositie geen volledig NP regeert. Hier regeert 'aan' de NP 'Christus' — samenvoegen tot 'hieraan Christus' is ongrammaticaal in modern NL (vergelijk: 'wordt hier aan Karel toegeschreven'). Grieks: passief παραδίδοται/ἀναφέρεται met dativus auctoris-equivalent.",
+      "verified_at": "2026-05-23T11:40:31+00:00"
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 5,
+      "severity": "soft",
+      "quote_modernized": "…orgen dingen van de duisternis. Dat is, met welke oprechtheid, en tot welk einde…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "1CO-4-5-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-23T11:40:31+00:00"
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 6,
+      "severity": "soft",
+      "quote_modernized": "…anzien van uw Leraars moet gedragen, en in welke achting u hen moet hebben. Name…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "1CO-4-6-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-23T11:40:31+00:00"
+    },
+    {
+      "category": "§2.3b bijwoord-coda",
+      "verse": 10,
+      "severity": "soft",
+      "quote_modernized": "…us; wij zijn zwak, maar u sterk; u bent aanzienlijk, maar wij veracht.",
+      "rule_reference": "MODERNISATIE.md §2.3b",
+      "explanation": "'aanzienlijk,' aan zinseind — verifieer of dit bijwoord niet als coda achteraf is blijven hangen ('wandelende … onberispelick' → 'wandelden onberispelijk in …').",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "1CO-4-10-001",
+      "status": "verified",
+      "rebuttal": "MODERNISATIE.md §2.3b gaat over een bijwoordelijke coda die een werkwoord karakteriseert. In 1Kor. 4:10 is 'aanzienlijk' predicatief bijvoeglijk gebruikt in de parallel 'wijs/zwak/sterk/aanzienlijk/veracht' en hoort het bij 'u bent', niet als los achtergebleven bijwoord.",
+      "verified_at": "2026-05-23T11:40:31+00:00"
+    }
+  ]
+}
