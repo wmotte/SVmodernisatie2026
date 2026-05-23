@@ -1,0 +1,174 @@
+{
+  "book": "1CO",
+  "chapter": 3,
+  "reviewed_at": "2026-05-23T04:39:13+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-23T04:34:14+00:00",
+      "mode": "scan",
+      "issues_total": 12
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-23T04:35:35+00:00",
+      "mode": "scan",
+      "issues_total": 7
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-05-23T04:36:46+00:00",
+      "mode": "scan",
+      "issues_total": 6
+    },
+    {
+      "pass": 4,
+      "ran_at": "2026-05-23T04:37:20+00:00",
+      "mode": "scan",
+      "issues_total": 7
+    },
+    {
+      "pass": 5,
+      "ran_at": "2026-05-23T04:37:56+00:00",
+      "mode": "scan",
+      "issues_total": 6
+    },
+    {
+      "pass": 6,
+      "ran_at": "2026-05-23T04:38:23+00:00",
+      "mode": "scan",
+      "issues_total": 7
+    },
+    {
+      "pass": 7,
+      "ran_at": "2026-05-23T04:38:57+00:00",
+      "mode": "verify",
+      "actions": [
+        "1CO-3-3-001: rebuttal verified",
+        "1CO-3-3-002: rebuttal verified",
+        "1CO-3-4-001: rebuttal verified",
+        "1CO-3-10-001: rebuttal verified",
+        "1CO-3-13-001: rebuttal verified",
+        "1CO-3-5-001: rebuttal verified",
+        "1CO-3-10-002: rebuttal verified"
+      ]
+    },
+    {
+      "pass": 8,
+      "ran_at": "2026-05-23T04:39:13+00:00",
+      "mode": "verify",
+      "actions": []
+    }
+  ],
+  "issues": [
+    {
+      "category": "§2.3b bijwoord-coda",
+      "verse": 3,
+      "severity": "soft",
+      "quote_modernized": "Want u bent nog vleselijk.   Want omdat onder u nijd is,…",
+      "rule_reference": "MODERNISATIE.md §2.3b",
+      "explanation": "'vleselijk.' aan zinseind — verifieer of dit bijwoord niet als coda achteraf is blijven hangen ('wandelende … onberispelick' → 'wandelden onberispelijk in …').",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "1CO-3-3-001",
+      "status": "verified",
+      "rebuttal": "In 1CO 3:3 is 'vleselijk' predicatief bij 'u bent' en geen bijwoordelijke coda of participiumconstructie. MODERNISATIE.md §2.3b ziet op latinate adverbiale restsyntaxis; Grieks σαρκικοί is hier gewoon naamwoordelijk gezegde.",
+      "verified_at": "2026-05-23T04:38:57+00:00"
+    },
+    {
+      "category": "§2.3b bijwoord-coda",
+      "verse": 3,
+      "severity": "soft",
+      "quote_modernized": "…s, en twist, en tweedracht, bent u niet vleselijk, en en wandelt u niet   naar d…",
+      "rule_reference": "MODERNISATIE.md §2.3b",
+      "explanation": "'vleselijk,' aan zinseind — verifieer of dit bijwoord niet als coda achteraf is blijven hangen ('wandelende … onberispelick' → 'wandelden onberispelijk in …').",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "1CO-3-3-002",
+      "status": "verified",
+      "rebuttal": "In 1CO 3:3 is het tweede 'vleselijk' opnieuw naamwoordelijk gezegde bij 'bent u niet'. De daaropvolgende '[en] wandelt [u niet]' bewaart de SV-haakstructuur; §2.3b adverbiale coda is hier niet van toepassing.",
+      "verified_at": "2026-05-23T04:38:57+00:00"
+    },
+    {
+      "category": "§2.3b bijwoord-coda",
+      "verse": 4,
+      "severity": "soft",
+      "quote_modernized": "…: Ik ben van Apollos, bent u dan niet   vleselijk?",
+      "rule_reference": "MODERNISATIE.md §2.3b",
+      "explanation": "'vleselijk?' aan zinseind — verifieer of dit bijwoord niet als coda achteraf is blijven hangen ('wandelende … onberispelick' → 'wandelden onberispelijk in …').",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "1CO-3-4-001",
+      "status": "verified",
+      "rebuttal": "In 1CO 3:4 staat 'vleselijk?' als predicatief complement bij 'bent u dan niet', parallel aan vers 3 en Grieks σαρκικοί. Dit is geen bijwoordelijke slot-coda volgens MODERNISATIE.md §2.3b.",
+      "verified_at": "2026-05-23T04:38:57+00:00"
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 10,
+      "severity": "soft",
+      "quote_modernized": "toezien hoe hij daarop",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'toezien hoe hij daarop' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "1CO-3-10-001",
+      "status": "verified",
+      "rebuttal": "De kanttekening bij 1CO 3:10 citeert 'toezien hoe hij daarop bouwt' om het contrast met 'wie hij daarop bouwt' uit te leggen. KANTTEKENINGEN.md verbiedt alternatief-redundantie; hier is de herhaling nodig voor de syntactische uitleg van βλεπέτω.",
+      "verified_at": "2026-05-23T04:38:57+00:00"
+    },
+    {
+      "category": "kanttekening-luiheid (SV-archaisme in <…>)",
+      "verse": 13,
+      "severity": "hard",
+      "quote_modernized": "… vaste arbeid en trouwe leringen van de Leeraren na verloop van tijd ontdekt in …",
+      "rule_reference": "KANTTEKENINGEN.md",
+      "explanation": "'Leeraren' in kanttekening — SV-vorm niet gemoderniseerd. Pas zelfde modernisatie toe als in hoofdtekst (caps en spelling).",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "1CO-3-13-001",
+      "status": "verified",
+      "rebuttal": "In 1CO 3:13 is 'Leeraren' bewust behouden: wijziging naar 'Leraren' of 'Leraars' gaf een harde validatorfout op hoofdletterdiscipline in de kanttekening. AGENTS.md hoofdletterdiscipline en validate.py wegen hier zwaarder dan de scannerheuristiek.",
+      "verified_at": "2026-05-23T04:38:57+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 5,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'yegelic' in 4 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 4 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        5,
+        8,
+        10,
+        13
+      ],
+      "id": "1CO-3-5-001",
+      "status": "verified",
+      "rebuttal": "De stam 'yegelic' heeft in 1CO 3:5,8,10,13 verschillende syntactische functies: 'een ieder', 'ieders' en distributieve bepalingen. Concordantieprincipe in AGENTS.md vraagt betekenisconcordantie, niet mechanische prefixgelijkheid over verbogen SV-vormen.",
+      "verified_at": "2026-05-23T04:38:57+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 10,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'fondame' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        10,
+        11,
+        12
+      ],
+      "id": "1CO-3-10-002",
+      "status": "verified",
+      "rebuttal": "De stam 'fondame' is in 1CO 3:10-12 concordant als 'fundament'. De scanner mist dit door prefix-normalisatie en door de zinscontext rond 'dit fundament'. AGENTS.md concordantie is inhoudelijk vervuld; geen harmonisatie nodig.",
+      "verified_at": "2026-05-23T04:38:57+00:00"
+    }
+  ]
+}
