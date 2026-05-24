@@ -1,7 +1,7 @@
 {
   "book": "JUD",
   "chapter": 1,
-  "reviewed_at": "2026-05-24T06:10:14+00:00",
+  "reviewed_at": "2026-05-24T06:13:28+00:00",
   "passes": [
     {
       "pass": 1,
@@ -44,6 +44,21 @@
         "JUD-1-21-001: verified",
         "JUD-1-21-002: verified",
         "JUD-1-3-002: rebuttal verified"
+      ]
+    },
+    {
+      "pass": 4,
+      "ran_at": "2026-05-24T06:13:28+00:00",
+      "mode": "verify",
+      "actions": [
+        "JUD-1-7-001: verified",
+        "JUD-1-8-001: verified",
+        "JUD-1-10-002: verified",
+        "JUD-1-11-001: verified",
+        "JUD-1-12-001: verified",
+        "JUD-1-14-003: verified",
+        "JUD-1-16-001: verified",
+        "JUD-1-19-001: verified"
       ]
     }
   ],
@@ -88,9 +103,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "JUD-1-7-001",
-      "status": "fixed",
+      "status": "verified",
       "rebutted_at": "2026-05-24T06:09:17.960816+00:00",
-      "verified_at": "2026-05-24T06:10:14+00:00",
+      "verified_at": "2026-05-24T06:13:28+00:00",
       "fix_note": "'als dezen' → 'als zij' (vergelijkingsobject); zelfst. aanwijzend vnw. met -n vervangen om scanner-hardflag aan de wortel te verhelpen."
     },
     {
@@ -103,9 +118,10 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "JUD-1-8-001",
-      "status": "fixed",
+      "status": "verified",
       "rebutted_at": "2026-05-24T06:09:17.960816+00:00",
-      "fix_note": "'dezen, die' → 'zij, die' (onderwerp οὗτοι); demonstratief-met-n vervangen, hardflag weg."
+      "fix_note": "'dezen, die' → 'zij, die' (onderwerp οὗτοι); demonstratief-met-n vervangen, hardflag weg.",
+      "verified_at": "2026-05-24T06:13:28+00:00"
     },
     {
       "category": "kanttekening-luiheid (§2.3 in <…>)",
@@ -160,9 +176,10 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "JUD-1-10-002",
-      "status": "fixed",
+      "status": "verified",
       "rebutted_at": "2026-05-24T06:09:17.960816+00:00",
-      "fix_note": "'Maar dezen,' → 'Maar deze,' (onderwerp); -n verwijderd, hardflag weg."
+      "fix_note": "'Maar dezen,' → 'Maar deze,' (onderwerp); -n verwijderd, hardflag weg.",
+      "verified_at": "2026-05-24T06:13:28+00:00"
     },
     {
       "category": "SV-verbuiging (demonstratief dezer/dien/...)",
@@ -174,9 +191,10 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "JUD-1-11-001",
-      "status": "fixed",
+      "status": "verified",
       "rebutted_at": "2026-05-24T06:09:17.960816+00:00",
-      "fix_note": "'ook dezen valse leringen' → 'ook zij valse leringen' (onderwerp); voorkomt tevens NP-merge 'deze valse leringen'."
+      "fix_note": "'ook dezen valse leringen' → 'ook zij valse leringen' (onderwerp); voorkomt tevens NP-merge 'deze valse leringen'.",
+      "verified_at": "2026-05-24T06:13:28+00:00"
     },
     {
       "category": "SV-verbuiging (demonstratief dezer/dien/...)",
@@ -188,9 +206,10 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "JUD-1-12-001",
-      "status": "fixed",
+      "status": "verified",
       "rebutted_at": "2026-05-24T06:09:17.960816+00:00",
-      "fix_note": "'Dezen zijn vlekken' → 'Zij zijn vlekken' (οὗτοί εἰσιν; HSV-precedent)."
+      "fix_note": "'Dezen zijn vlekken' → 'Zij zijn vlekken' (οὗτοί εἰσιν; HSV-precedent).",
+      "verified_at": "2026-05-24T06:13:28+00:00"
     },
     {
       "category": "kanttekening-luiheid (§2.3 in <…>)",
@@ -273,9 +292,10 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "JUD-1-14-003",
-      "status": "fixed",
+      "status": "verified",
       "rebutted_at": "2026-05-24T06:09:17.960816+00:00",
-      "fix_note": "'over dezen' → 'over hen' (τούτοις voorzetselvoorwerp)."
+      "fix_note": "'over dezen' → 'over hen' (τούτοις voorzetselvoorwerp).",
+      "verified_at": "2026-05-24T06:13:28+00:00"
     },
     {
       "category": "SV-verbuiging (demonstratief dezer/dien/...)",
@@ -287,9 +307,10 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "JUD-1-16-001",
-      "status": "fixed",
+      "status": "verified",
       "rebutted_at": "2026-05-24T06:09:17.960816+00:00",
-      "fix_note": "'Dezen zijn morrenden' → 'Zij zijn morrenden' (οὗτοί εἰσι; HSV-precedent)."
+      "fix_note": "'Dezen zijn morrenden' → 'Zij zijn morrenden' (οὗτοί εἰσι; HSV-precedent).",
+      "verified_at": "2026-05-24T06:13:28+00:00"
     },
     {
       "category": "genitief pronomen wiens/wier",
@@ -315,9 +336,10 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "JUD-1-19-001",
-      "status": "fixed",
+      "status": "verified",
       "rebutted_at": "2026-05-24T06:09:17.960816+00:00",
-      "fix_note": "'Dezen zijn het die' → 'Zij zijn het die' (οὗτοί εἰσιν; HSV-precedent)."
+      "fix_note": "'Dezen zijn het die' → 'Zij zijn het die' (οὗτοί εἰσιν; HSV-precedent).",
+      "verified_at": "2026-05-24T06:13:28+00:00"
     },
     {
       "category": "kanttekening-luiheid (§2.3 in <…>)",

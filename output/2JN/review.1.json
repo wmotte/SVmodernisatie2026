@@ -1,7 +1,7 @@
 {
   "book": "2JN",
   "chapter": 1,
-  "reviewed_at": "2026-05-24T05:11:45+00:00",
+  "reviewed_at": "2026-05-24T05:14:44+00:00",
   "passes": [
     {
       "pass": 1,
@@ -14,6 +14,20 @@
       "ran_at": "2026-05-24T05:13:35.515490+00:00",
       "mode": "in-context-fill",
       "note": "1 fix (8-002), 3 rebuttals (8-001,1-002,1-003)"
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-05-24T05:14:44+00:00",
+      "mode": "verify",
+      "actions": [
+        "2JN-1-1-001: rebuttal verified",
+        "2JN-1-8-001: rebuttal verified",
+        "2JN-1-8-002: verified",
+        "2JN-1-8-003: rebuttal verified",
+        "2JN-1-10-001: rebuttal verified",
+        "2JN-1-1-002: rebuttal verified",
+        "2JN-1-1-003: rebuttal verified"
+      ]
     }
   ],
   "issues": [
@@ -27,8 +41,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "2JN-1-1-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-24T05:14:44+00:00"
     },
     {
       "category": "§2.7 drempel-fossiel",
@@ -40,9 +55,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "2JN-1-8-001",
-      "status": "rebutted",
+      "status": "verified",
       "rebuttal": "'Ziet toe' (Gr. βλέπετε, 2e pers. mv. imperatief) — de -t-meervoudsimperatief is een projectbrede behouden SV-conventie: 'Weest' (8x), 'Bidt' (4x), 'Ziet toe' (5x), 'Waakt' (3x) consistent in het corpus. §2.7 betreft lexicale drempel, niet werkwoordsmorfologie; 'zie toe op' is bovendien productief modern NL. Scanner-explanation ('op de N-de dag') is generieke boilerplate, niet vers-specifiek.",
-      "verified_at": "2026-05-24T05:13:35.515490+00:00"
+      "verified_at": "2026-05-24T05:14:44+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -54,9 +69,10 @@
       "proposed_fix": "van de waarheid",
       "location": "kanttekening",
       "id": "2JN-1-8-002",
-      "status": "fixed",
+      "status": "verified",
       "fix_commit": "PENDING",
-      "fix_note": "'der waarheid' niet in FOSSIL_GENITIVE_PAIRS; v3 rendert dezelfde frase al als 'kennis van de waarheid' — geharmoniseerd naar 'van de waarheid'."
+      "fix_note": "'der waarheid' niet in FOSSIL_GENITIVE_PAIRS; v3 rendert dezelfde frase al als 'kennis van de waarheid' — geharmoniseerd naar 'van de waarheid'.",
+      "verified_at": "2026-05-24T05:14:44+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -68,8 +84,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "2JN-1-8-003",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-24T05:14:44+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -81,8 +98,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "2JN-1-10-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-24T05:14:44+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -100,9 +118,9 @@
         4
       ],
       "id": "2JN-1-1-002",
-      "status": "rebutted",
+      "status": "verified",
       "rebuttal": "Scanner-prefix-heuristiek mist orthografische overgang ae->aa, ey->ei: bron-stam 'waerhey' vs modern 'waarhei'. Alle 4 verzen (1,2,3,4) renderen consistent 'waarheid' — geen drift. False-positive van de prefix-vergelijking, geen concordantie-probleem.",
-      "verified_at": "2026-05-24T05:13:35.515490+00:00"
+      "verified_at": "2026-05-24T05:14:44+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -119,9 +137,9 @@
         13
       ],
       "id": "2JN-1-1-003",
-      "status": "rebutted",
+      "status": "verified",
       "rebuttal": "Scanner-prefix-heuristiek mist overgang uy->ui: bron-stam 'uytverk' vs modern 'uitverk'. Basis 'uitverkoren' consistent in v1/v5/v13; variatie -en/-e (uitverkoren Vrouw attributief vs de uitverkorene nominaal) is grammaticale verbuiging naar context, niet drift. False-positive.",
-      "verified_at": "2026-05-24T05:13:35.515490+00:00"
+      "verified_at": "2026-05-24T05:14:44+00:00"
     }
   ]
 }
