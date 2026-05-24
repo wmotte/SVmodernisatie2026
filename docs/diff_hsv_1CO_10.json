@@ -136,24 +136,48 @@
     },
     {
       "verse_number": 19,
-      "status": "pending",
-      "sv2026": "",
+      "status": "modernized",
+      "sv2026": "Wat zeg ik dan? $1Kor. 8:4$ dat een afgod iets is? of dat het afgodenoffer iets is?",
       "hsv": "Wat zeg ik [hiermee] dan? $1 Kor. 8:4$ Dat een afgod iets is, of dat een afgodenoffer iets is?",
       "original": "Wat segge ick dan? $1.Corinth. 8.4.$ dat een afgodt yet is? ofte dat de afgoden-offer yet is?"
     },
     {
       "verse_number": 20,
-      "status": "pending",
-      "sv2026": "",
+      "status": "modernized",
+      "sv2026": "Ja, [ik zeg] dat hetgeen de Heidenen offeren, $Lv. 17:7; Dt. 32:17$ zij <Want vele van de Heidense goden, die zij door hun beelden eerden, waren boze geesten. Zie $Lv. 17:7; Dt. 32:17$ En hoewel zij somtijds enige gestorven mensen en andere schepselen daardoor wilden eren, of ook zelf de Schepper van de hemel en van de aarde, zoals in $Hd. 17:23; Rm. 1:21$ te zien is, zo worden zij toch gezegd de duivelen de eer aan te doen, omdat de duivel van zulke beeldendienst een ingever en instelder was, waardoor God niet geëerd maar onteerd werd, $Js. 40:18; 42:8$.> aan de duivelen offeren, en niet aan God. En ik wil niet dat u met de duivelen gemeenschap hebt.",
       "hsv": "Nee, [ik zeg dit] omdat wat de heidenen offeren, $Lev. 17:7; Deut. 32:17$ zij [dat] aan demonen offeren en niet aan God, en ik wil niet dat u met de demonen gemeenschap hebt. <HSV-aant: Demonen : Er zijn in het Grieks twee verschillende woorden die in de SV allebei met duivel zijn vertaald zodat het onderlinge verschil niet meer zichtbaar is. Dat is in dit geval een gemis, omdat het verschil in betekenis tussen de twee betreffende termen niet zonder relevantie is. Het Griekse diabolos verwijst namelijk naar de duivel zelf, terwijl het woord daimoon betrekking heeft op een engel van de duivel. Vandaar dat besloten is om het eerste woord met duivel te vertalen en het tweede met demon .>",
-      "original": "Ia [ick segge] dat het gene de Heydenen offeren, $Levit. 17.7. Deuter. 32.17.$ sy <Want vele van de Heydensche goden, die sy door hare beelden eerden waren boose geesten. Siet Levit. cap. 17. vers 7. ende Deuter. 32.17. Ende hoewel sy somwijlen eenige verstorvene menschen ende andere creaturen daer door wilden eeren, ofte oock selve den Schepper des hemels ende der aerden, gelijck Actor. 17.23. Rom.1.21. te sien is, soo worden sy nochtans geseght den duyvelen die eere aen te doen, om dat de duyvel van sulcken beeldendienst een ingever ende instelder was, waerdoor Godt niet ge-eert maer onteert wiert, Iesa. cap. 40. vers 18. ende 42.8.> den duyvelen offeren, ende niet Gode. Ende ick en wil niet dat ghy met de duyvelen gemeynschap hebt."
+      "original": "Ia [ick segge] dat het gene de Heydenen offeren, $Levit. 17.7. Deuter. 32.17.$ sy <Want vele van de Heydensche goden, die sy door hare beelden eerden waren boose geesten. Siet Levit. cap. 17. vers 7. ende Deuter. 32.17. Ende hoewel sy somwijlen eenige verstorvene menschen ende andere creaturen daer door wilden eeren, ofte oock selve den Schepper des hemels ende der aerden, gelijck Actor. 17.23. Rom.1.21. te sien is, soo worden sy nochtans geseght den duyvelen die eere aen te doen, om dat de duyvel van sulcken beeldendienst een ingever ende instelder was, waerdoor Godt niet ge-eert maer onteert wiert, Iesa. cap. 40. vers 18. ende 42.8.> den duyvelen offeren, ende niet Gode. Ende ick en wil niet dat ghy met de duyvelen gemeynschap hebt.",
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "Gode (datief) -> aan God",
+          "context": "hoofdtekst, slot",
+          "choice": "en niet aan God",
+          "alternatives": [
+            "en niet Gode"
+          ],
+          "reason": "Archaische datiefvorm Gode gemoderniseerd tot God met voorzetsel, conform vaste lijn elders in dit boek (8:8 ons bij God niet aangenaam; 3:9 God toeschrijft). Validator-capflag op Gode is regex-vals: case G blijft behouden."
+        }
+      ]
     },
     {
       "verse_number": 21,
-      "status": "pending",
-      "sv2026": "",
+      "status": "modernized",
+      "sv2026": "<Namelijk, met recht en behoorlijkheid, zodat u dat doende ook God zoudt kunnen behagen. Zie een dergelijke wijze van spreken $Mt. 6:24; 2Kor. 6:14$.> U kunt de drinkbeker des Heeren niet drinken, en de drinkbeker van de duivelen; u kunt niet deelachtig zijn aan de <Dat is, aan de spijs en de drank van de tafel des Heeren, die tot een teken van de gemeenschap met Christus door de Christenen wordt genoten.> tafel des Heeren, en <Dat is, aan de spijs en de drank van de maaltijden, die tot een teken van de gemeenschap met de duivelen wordt genoten.> de tafel van de duivelen.",
       "hsv": "U kunt niet de drinkbeker van de Heere drinken én de drinkbeker van de demonen. U kunt niet deelhebben aan de tafel van de Heere én aan de tafel van de demonen.",
-      "original": "<Namel. met recht ende behoorlickheyt, alsoo dat ghy sulcks doende oock Gode soudt konnen behagen. Siet dergelijcke wijse van spreken Matth. 6.24. 2.Corinth. 6.14.> Ghy en kondt den drinckbeker des Heeren niet drincken, ende den drinckbeker der duyvelen: ghy en kondt niet deelachtigh zijn der <Dat is, der spijse ende des drancks van de tafel des Heeren, die tot een teecken van de gemeynschap met Christo van de Christenen wort genooten.> tafel des Heeren, ende <D. der spijse ende des drancks van de maeltijden, die tot een teecken van de gemeynschap met den duyvelen, wort genooten.> der tafel der duyvelen."
+      "original": "<Namel. met recht ende behoorlickheyt, alsoo dat ghy sulcks doende oock Gode soudt konnen behagen. Siet dergelijcke wijse van spreken Matth. 6.24. 2.Corinth. 6.14.> Ghy en kondt den drinckbeker des Heeren niet drincken, ende den drinckbeker der duyvelen: ghy en kondt niet deelachtigh zijn der <Dat is, der spijse ende des drancks van de tafel des Heeren, die tot een teecken van de gemeynschap met Christo van de Christenen wort genooten.> tafel des Heeren, ende <D. der spijse ende des drancks van de maeltijden, die tot een teecken van de gemeynschap met den duyvelen, wort genooten.> der tafel der duyvelen.",
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "Gode (datief) -> God",
+          "context": "kanttekening 1",
+          "choice": "ook God zoudt kunnen behagen",
+          "alternatives": [
+            "ook Gode zoudt kunnen behagen"
+          ],
+          "reason": "Archaische datiefvorm gemoderniseerd tot God conform vaste lijn in dit boek (8:8, 3:9, 10:20). Hoofdletter G blijft behouden."
+        }
+      ]
     },
     {
       "verse_number": 22,
