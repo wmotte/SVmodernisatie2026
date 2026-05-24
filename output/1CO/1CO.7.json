@@ -381,6 +381,45 @@
           "reason": "SV ongevoeghlick (Gr. aschemonein, onbetamelijk handelen) is niet meer productief; kanttekening glosseert als niet wel betamelijk. Ongepast dekt de betekenis modern; HSV kiest ook ongepast."
         }
       ]
+    },
+    {
+      "verse_number": 37,
+      "original": "Doch die vast staet in [sijn] herte, <Namelick, ofte voor hemselven tot behoudenisse van sijne familie ende andere gelegentheden, die de ouders dickwils nootsaken hare kinderen uyt te houwelicken: ofte van wegen de broosheyt der kinderen, waer van in het voorgaende vers is gesproken.> geen nootsake hebbende, maer macht heeft over sijnen eygenen wille, ende dit in sijn herte besloten heeft, dat hy sijne maget <Namel. ongetrouwt.> sal bewaren, die doet wel.",
+      "modernized": "Maar wie vast staat in [zijn] hart, <Namelijk, of voor zichzelf tot behoud van zijn familie en andere omstandigheden, die de ouders dikwijls noodzaken hun kinderen uit te huwelijken; of vanwege de broosheid van de kinderen, waarvan in het voorgaande vers is gesproken.> geen noodzaak heeft maar macht heeft over zijn eigen wil, en dit in zijn hart besloten heeft, dat hij zijn maagd <Namelijk, ongetrouwd.> zal bewaren, die doet wel.",
+      "source_text": "ὃς δὲ ἕστηκεν ἑδραῖος ἐν τῇ καρδίᾳ, μὴ ἔχων ἀνάγκην, ἐξουσίαν δὲ ἔχει περὶ τοῦ ἰδίου θελήματος, καὶ τοῦτο κέκρικεν ἐν τῇ καρδίᾳ αὐτοῦ, τοῦ τηρεῖν τὴν ἑαυτοῦ παρθένον, καλῶς ποιεῖ.",
+      "generated_at": "2026-05-24T13:07:58.028810Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 38,
+      "original": "Alsoo dan, die [haer] ten houwelicke uytgeeft, die doet wel: ende die[se] ten houwelicke niet uyt en geeft, <D. die doet dat dienstigh ofte oorbaerder is tot de ruste van sijne maget, gelijck versen 1, 8, 26. ende gelijck verklaert wort versen 35, 40.> die doet beter.",
+      "modernized": "Zo dan, wie [haar] ten huwelijk uitgeeft, die doet wel; en wie [haar] niet ten huwelijk uitgeeft, <Dat is, die doet wat dienstiger of nuttiger is voor de rust van zijn maagd, zoals versen 1, 8, 26. en zoals verklaard wordt versen 35, 40.> die doet beter.",
+      "source_text": "ὥστε καὶ ὁ ἐκγαμίζων καλῶς ποιεῖ· ὁ δὲ μὴ ἐκγαμίζων κρεῖσσον ποιεῖ.",
+      "generated_at": "2026-05-24T13:08:30.029210Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 39,
+      "original": "$Rom. cap. 7. vers 2.$ Een wijf is door <Namelick, des houwelicks. Siet Rom. 7. vers 2.> de wet verbonden soo langen tijt <Namelick, ’t en zy uyt oorsake van overspel, Matth. cap. 19. vers 9. ofte van het scheyden der ongeloovige parture, hier voren vers 15.> hare man leeft: maer indien hare man ontslapen is, soo is sy vry, om te trouwen dien sy wil: alleenlick <Dat is, alleenlick dat sulcks geschiede in de vreese des Heeren: waer toe oock sonderlinge dient, dat sy nu vry zijnde geen jock aen en trecke met de ongeloovige, 2.Cor. cap. 6. vers 14.> in den Heere.",
+      "modernized": "$Rm. 7:2$ Een vrouw is door <Namelijk, van het huwelijk. Zie $Rm. 7:2$.> de wet verbonden zolang haar man leeft <Namelijk, tenzij vanwege overspel, $Mt. 19:9$ of vanwege het scheiden van de ongelovige partij, hiervoren vers 15.>; maar indien haar man ontslapen is, dan is zij vrij om te trouwen wie zij wil; alleen <Dat is, alleen dat zulks geschiede in de vreze des Heeren; waartoe ook bijzonder dient, dat zij, nu zij vrij is, geen juk aantrekt met de ongelovige, $2Kor. 6:14$.> in de Heere.",
+      "source_text": "γυνὴ δέδεται νόμῳ ἐφ’ ὅσον χρόνον ζῇ ὁ ἀνὴρ αὐτῆς· ἐὰν δὲ κοιμηθῇ ὁ ἀνὴρ αὐτῆς, ἐλευθέρα ἐστὶν ᾧ θέλει γαμηθῆναι, μόνον ἐν Κυρίῳ.",
+      "generated_at": "2026-05-24T13:09:32.077306Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "verbonden",
+          "context": "hoofdtekst",
+          "choice": "verbonden",
+          "alternatives": [
+            "gebonden"
+          ],
+          "reason": "SV1657 schrijft 'verbonden' (Gr. dedetai, δέω); concordant met vers 27 'verbonden' en de zelfverwijzing Rm. 7:2 die hetzelfde Grieks ook 'verbonden' geeft. Semantic-review herstelde de eerdere 'gebonden'."
+        }
+      ]
     }
   ]
 }
