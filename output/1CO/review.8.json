@@ -1,13 +1,31 @@
 {
   "book": "1CO",
   "chapter": 8,
-  "reviewed_at": "2026-05-24T14:45:07+00:00",
+  "reviewed_at": "2026-05-24T14:48:14+00:00",
   "passes": [
     {
       "pass": 1,
       "ran_at": "2026-05-24T14:45:07+00:00",
       "mode": "scan",
       "issues_total": 11
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-24T14:48:14+00:00",
+      "mode": "verify",
+      "actions": [
+        "1CO-8-1-001: rebuttal verified",
+        "1CO-8-3-001: rebuttal verified",
+        "1CO-8-6-001: rebuttal verified",
+        "1CO-8-10-001: reopened (patroon nog aanwezig)",
+        "1CO-8-10-002: rebuttal verified",
+        "1CO-8-10-003: verified",
+        "1CO-8-11-001: reopened (luie rebuttal)",
+        "1CO-8-12-001: verified",
+        "1CO-8-13-001: rebuttal verified",
+        "1CO-8-13-002: reopened (luie rebuttal)",
+        "1CO-8-7-001: rebuttal verified"
+      ]
     }
   ],
   "issues": [
@@ -21,8 +39,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "1CO-8-1-001",
-      "status": "rebutted",
-      "rebuttal": "'onder welke schijn dat het ook zij' is een concessieve free-choice-constructie ('onder welke X ... ook' = 'onder welk voorwendsel dan ook'), niet een bare relativum. 'welke' fungeert hier adjectivisch-determinatief vóór 'schijn'; dit gebruik is productief in formeel modern NL (§2.7 geslaagd) en behoudt 'welk(e)' ook in NBV21-register."
+      "status": "verified",
+      "rebuttal": "'onder welke schijn dat het ook zij' is een concessieve free-choice-constructie ('onder welke X ... ook' = 'onder welk voorwendsel dan ook'), niet een bare relativum. 'welke' fungeert hier adjectivisch-determinatief vóór 'schijn'; dit gebruik is productief in formeel modern NL (§2.7 geslaagd) en behoudt 'welk(e)' ook in NBV21-register.",
+      "verified_at": "2026-05-24T14:48:14+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -34,8 +53,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "1CO-8-3-001",
-      "status": "rebutted",
-      "rebuttal": "'welke twee dingen niet gescheiden kunnen zijn' is een aanwijzend-relatieve aansluiting ('welke twee dingen' = die twee zaken), waarbij 'welke' adjectivisch vóór telwoord+znw staat en terugkoppelt naar de twee genoemde objecten (God liefhebben + de naaste). Adjectivisch 'welke + NP' is productief formeel NL, geen bare relativum dat §2.3b verbiedt."
+      "status": "verified",
+      "rebuttal": "'welke twee dingen niet gescheiden kunnen zijn' is een aanwijzend-relatieve aansluiting ('welke twee dingen' = die twee zaken), waarbij 'welke' adjectivisch vóór telwoord+znw staat en terugkoppelt naar de twee genoemde objecten (God liefhebben + de naaste). Adjectivisch 'welke + NP' is productief formeel NL, geen bare relativum dat §2.3b verbiedt.",
+      "verified_at": "2026-05-24T14:48:14+00:00"
     },
     {
       "category": "genitief pronomen wiens/wier",
@@ -47,8 +67,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "1CO-8-6-001",
-      "status": "rebutted",
-      "rebuttal": "'wiens' is in vers 6 het genitief-relativum dat terugverwijst naar 'de Vader' (uit wie alle dingen zijn); het is geen verbogen-lidwoord-fossiel zoals der/des/den maar een volledig productief formeel-NL relativum (vgl. 'de man wiens auto gestolen werd'). Slaagt §2.7-productiviteitstest in formeel/bijbels register; HSV behoudt 'wiens' eveneens."
+      "status": "verified",
+      "rebuttal": "'wiens' is in vers 6 het genitief-relativum dat terugverwijst naar 'de Vader' (uit wie alle dingen zijn); het is geen verbogen-lidwoord-fossiel zoals der/des/den maar een volledig productief formeel-NL relativum (vgl. 'de man wiens auto gestolen werd'). Slaagt §2.7-productiviteitstest in formeel/bijbels register; HSV behoudt 'wiens' eveneens.",
+      "verified_at": "2026-05-24T14:48:14+00:00"
     },
     {
       "category": "§2.3b infinitief met nageschoven object",
@@ -57,7 +78,7 @@
       "quote_modernized": "…e die zwak is, niet   gesterkt worden   om te eten de dingen die aan de afgoden …",
       "rule_reference": "MODERNISATIE.md §2.3b",
       "explanation": "'om … te eten de dingen die aan' — Latinaat-woordvolgorde; in modern NL gaat het object vóór de infinitief: 'om <object> te eten'.",
-      "proposed_fix": "om de dingen te eten die aan de afgoden geofferd zijn?",
+      "proposed_fix": "om de dingen die aan de afgoden geofferd zijn te eten?",
       "location": "hoofdtekst",
       "id": "1CO-8-10-001",
       "status": "fixed"
@@ -72,8 +93,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "1CO-8-10-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-24T14:48:14+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -85,7 +107,8 @@
       "proposed_fix": "Grieks: gesticht; wat hier ten kwade wordt genomen.",
       "location": "kanttekening",
       "id": "1CO-8-10-003",
-      "status": "fixed"
+      "status": "verified",
+      "verified_at": "2026-05-24T14:48:14+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -98,7 +121,7 @@
       "location": "kanttekening",
       "id": "1CO-8-11-001",
       "status": "rebutted",
-      "rebuttal": "False positive: de span 'wie Christus gestorven is' is hoofdtekst die de inline-kanttekening omsluit ('om wie <lange noot> Christus gestorven is?'), niet een herhaling binnen de noot. Het 4-token-sliding-window ving de hoofdtekstwoorden die om de notemarkering heen lopen; de kanttekeningtekst zelf bevat geen redundante echo van de hoofdtekst."
+      "rebuttal": "Scanner-false-positive: de span 'wie Christus gestorven is' is de hoofdtekstvertaling van het Griekse δι’ ὃν Χριστὸς ἀπέθανεν, niet een echo binnen de kanttekening. De inline-noot ('om wie <lange noot> Christus gestorven is?') splitst de hoofdtekstzin in tweeën; het 4-token-venster van de KANTTEKENINGEN.md-redundantieregel ving de hoofdtekstwoorden die om de notemarkering heen lopen. De noottekst zelf herhaalt de hoofdtekst nergens parafrastisch."
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -110,7 +133,8 @@
       "proposed_fix": "Grieks: slaande; wat een zaak is van grote onbarmhartigheid",
       "location": "kanttekening",
       "id": "1CO-8-12-001",
-      "status": "fixed"
+      "status": "verified",
+      "verified_at": "2026-05-24T14:48:14+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -122,8 +146,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "1CO-8-13-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-24T14:48:14+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -136,7 +161,7 @@
       "location": "kanttekening",
       "id": "1CO-8-13-002",
       "status": "rebutted",
-      "rebuttal": "'van welke soort die ook is' is een free-choice-constructie ('van welke soort dan ook'); 'welke' staat adjectivisch vóór 'soort' in een concessief-idiomatische wending die in modern NL volledig productief blijft ('van welke aard dan ook'). Geen bare relatief 'welke' = 'die/dat'."
+      "rebuttal": "§2.3b verbiedt bare relativum 'welke' (= 'die/dat'), maar in 'van welke soort die ook is' staat 'welke' adjectivisch-determinatief vóór 'soort' in een concessieve free-choice-wending ('van welke soort dan ook'). Dit is geen relatieve aansluiting maar een idiomatische ongeacht-constructie die in modern formeel NL volledig productief blijft ('van welke aard dan ook'). Vertaalt SV 'van wat soorte die ware'."
     },
     {
       "category": "concordantie-drift",
@@ -153,8 +178,9 @@
         12
       ],
       "id": "1CO-8-7-001",
-      "status": "rebutted",
-      "rebuttal": "Bewuste lexicale modernisering συνείδησις/conscientie -> 'geweten' (v7/v10/v12 alle drie 'geweten'), corpusbreed concordant (31x 'geweten' vs 2x 'consciëntie' DB-query). De prefix-heuristiek mist de vertaalovergang conscie->gewet; binnen hoofdstuk 8 is de rendering nu volledig consistent (v6-kanttekening-outlier 'consciëntie' is in deze ronde óók naar 'geweten' geharmoniseerd)."
+      "status": "verified",
+      "rebuttal": "Bewuste lexicale modernisering συνείδησις/conscientie -> 'geweten' (v7/v10/v12 alle drie 'geweten'), corpusbreed concordant (31x 'geweten' vs 2x 'consciëntie' DB-query). De prefix-heuristiek mist de vertaalovergang conscie->gewet; binnen hoofdstuk 8 is de rendering nu volledig consistent (v6-kanttekening-outlier 'consciëntie' is in deze ronde óók naar 'geweten' geharmoniseerd).",
+      "verified_at": "2026-05-24T14:48:14+00:00"
     }
   ]
 }
