@@ -128,6 +128,46 @@
       "generated_at": "2026-05-24T18:27:13.997801Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 13,
+      "original": "$Rom. 13.1. Titum 3.1.$ Zijt dan alle <Gr. menschelicke scheppinge: welcke woorden eenige voor de Overheyt selve nemen, die alsoo genaemt wort, om dat sy uyt menschen bestaet, ende door menschen ordinaerlick wort gestelt. Andere verstaen het van de ordiantien ende wetten die de Overheyt tot onderhoudinge der burgerlicke eenigheyt ende welvaert maeckt. Doch de eerste verklaringe komt met de volgende woorden wel soo wel over een.> menschelicke ordeninge <Namel. in al dat sy u gebieden, soo sulcks tegen Godt ende sijn bevel niet en strijt. Siet Actor. 4.19.> onderdanigh, <D. om dat het Godts wille is u door deselve te regeeren. Siet Rom. 13.1. 1.Tim. 2.2.> om des Heeren wille: het zy <Door welcken hier de Roomsche Keyser wort verstaen, onder welckers gebiedt die provincien als doen stonden.> den Koningh, als de opperste macht hebbende:",
+      "modernized": "$Rm. 13:1; Tt. 3:1$ Onderwerp u dan aan elke <Grieks: menselijke schepping; welke woorden sommigen voor de Overheid zelf nemen, die zo genoemd wordt, omdat zij uit mensen bestaat en gewoonlijk door mensen wordt aangesteld. Anderen verstaan het van de verordeningen en wetten die de Overheid tot onderhouding van de burgerlijke eenheid en welvaart maakt. Maar de eerste verklaring komt met de volgende woorden wel zozeer overeen.> menselijke ordening <Namelijk, in al wat zij u gebieden, voor zover dit niet tegen God en zijn bevel ingaat. Zie $Hd. 4:19$.>, <Dat is, omdat het Gods wil is u door deze te regeren. Zie $Rm. 13:1; 1Tm. 2:2$.> omwille van de Heere: hetzij <Met wie hier de Romeinse Keizer bedoeld wordt, onder wiens gezag die provincies toen stonden.> aan de Koning, als degene die de hoogste macht heeft:",
+      "source_text": "Ὑποτάγητε οὖν πάσῃ ἀνθρωπίνῃ κτίσει διὰ τὸν Κύριον· εἴτε βασιλεῖ, ὡς ὑπερέχοντι·",
+      "generated_at": "2026-05-24T18:31:48.827933Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "Heer -> Heere",
+          "context": "hoofdtekst",
+          "choice": "Heere",
+          "alternatives": [
+            "Heer",
+            "Heere"
+          ],
+          "reason": "Concordantie met het hele hoofdstuk (v3, v5, v6): SV-vorm 'Heere' blijft staan, niet gemoderniseerd naar 'Heer'. SV1657 'om des Heeren wille'."
+        }
+      ]
+    },
+    {
+      "verse_number": 14,
+      "original": "Het zy den Stadthouderen, als die van hem gesonden worden, tot <Ofte, wrake.> straffe wel der quaetdoenders, maer [tot] prijs der gene die goet doen.",
+      "modernized": "Hetzij aan de Stadhouders, als degenen die door hem gezonden worden, tot <Of, wraak.> straf wel van de kwaaddoeners, maar [tot] lof van degenen die goeddoen.",
+      "source_text": "εἴτε ἡγεμόσιν, ὡς δι’ αὐτοῦ πεμπομένοις εἰς ἐκδίκησιν μὲν κακοποιῶν, ἔπαινον δὲ ἀγαθοποιῶν.",
+      "generated_at": "2026-05-24T18:32:09.366191Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 15,
+      "original": "Want alsoo is het de wille Godts, $Titum 2.8.$ dat ghy weldoende <D. hy geen oorsake en hebbe om u te lasteren. Een gelijckenisse genomen van de peerden, ofte stieren, die men een gebit in den mont leght, of muylbant, om haer het quaetdoen te beletten. siet Matth. 22. vers 34. 1.Corinth. 9.9.> den mont stopt aen de onwetenheyt der dwase menschen:",
+      "modernized": "Want zo is het de wil van God, $Tt. 2:8$ dat u door goed te doen <Dat is, opdat hij geen aanleiding heeft om u te lasteren. Een gelijkenis genomen van de paarden of stieren, die men een gebit in de mond legt, of een muilband, om hun het kwaaddoen te beletten. Zie $Mt. 22:34; 1Kor. 9:9$.> de mond snoert van de onwetendheid van de dwaze mensen:",
+      "source_text": "ὅτι οὕτως ἐστὶ τὸ θέλημα τοῦ Θεοῦ, ἀγαθοποιοῦντας φιμοῦν τὴν τῶν ἀφρόνων ἀνθρώπων ἀγνωσίαν·",
+      "generated_at": "2026-05-24T18:32:36.890022Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
