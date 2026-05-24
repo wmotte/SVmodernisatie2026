@@ -112,6 +112,15 @@
       "generated_at": "2026-05-24T05:06:00.052850Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 13,
+      "original": "U groeten de kinderen van uwe suster <Siet vers 1.> de uytverkorene. Amen.",
+      "modernized": "U groeten de kinderen van uw zuster <Zie vers 1.> de uitverkorene. Amen.",
+      "source_text": "ἀσπάζεταί σε τὰ τέκνα τῆς ἀδελφῆς σου τῆς ἐκλεκτῆς. ἀμήν.",
+      "generated_at": "2026-05-24T05:09:33.723986Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
