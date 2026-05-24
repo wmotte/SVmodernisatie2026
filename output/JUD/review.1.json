@@ -1,7 +1,7 @@
 {
   "book": "JUD",
   "chapter": 1,
-  "reviewed_at": "2026-05-24T06:04:28+00:00",
+  "reviewed_at": "2026-05-24T06:10:14+00:00",
   "passes": [
     {
       "pass": 1,
@@ -14,6 +14,37 @@
       "ran_at": "2026-05-24T06:04:28+00:00",
       "mode": "scan",
       "issues_total": 24
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-05-24T06:10:14+00:00",
+      "mode": "verify",
+      "actions": [
+        "JUD-1-3-001: rebuttal verified",
+        "JUD-1-5-001: rebuttal verified",
+        "JUD-1-7-001: rebuttal verified",
+        "JUD-1-8-001: reopened (te generiek)",
+        "JUD-1-8-002: rebuttal verified",
+        "JUD-1-9-001: verified",
+        "JUD-1-10-001: verified",
+        "JUD-1-10-002: reopened (te generiek)",
+        "JUD-1-11-001: reopened (luie rebuttal)",
+        "JUD-1-12-001: reopened (te generiek)",
+        "JUD-1-12-002: verified",
+        "JUD-1-13-001: verified",
+        "JUD-1-13-002: verified",
+        "JUD-1-14-001: rebuttal verified",
+        "JUD-1-14-002: verified",
+        "JUD-1-14-003: reopened (luie rebuttal)",
+        "JUD-1-16-001: reopened (te generiek)",
+        "JUD-1-16-002: verified",
+        "JUD-1-19-001: reopened (te generiek)",
+        "JUD-1-20-001: verified",
+        "JUD-1-20-002: verified",
+        "JUD-1-21-001: verified",
+        "JUD-1-21-002: verified",
+        "JUD-1-3-002: rebuttal verified"
+      ]
     }
   ],
   "issues": [
@@ -27,9 +58,10 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "JUD-1-3-001",
-      "status": "rebutted",
+      "status": "verified",
       "rebuttal": "§2.3b betreft een nageschoven LIJDEND voorwerp in Latinaatse volgorde. Hier is 'over de gemeenschappelijke zaligheid' een voorzetselvoorwerp bij het vaste werkwoord 'schrijven over' (περὶ τῆς κοινῆς σωτηρίας), dat in modern NL correct ná de infinitief staat; het meewerkend voorwerp 'u' staat correct vóór ('om u te schrijven over X'). Geen Latinaatse inversie.",
-      "rebutted_at": "2026-05-24T06:09:17.960816+00:00"
+      "rebutted_at": "2026-05-24T06:09:17.960816+00:00",
+      "verified_at": "2026-05-24T06:10:14+00:00"
     },
     {
       "category": "kanttekening-luiheid (§2.3 in <…>)",
@@ -41,9 +73,10 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "JUD-1-5-001",
-      "status": "rebutted",
+      "status": "verified",
       "rebuttal": "Metalinguïstische Grieks-glosse: de kanttekening '<Grieks: behouden hebbende>' toont letterlijk de brontaalvorm σώσας (aoristus participium) tegenover de gefiniteerde hoofdtekst 'toen hij ... verlost had'. §2.3 geldt niet voor woordglossen die de Griekse participiumvorm citeren — finiteren zou het doel van de glosse (de brontaalvorm tonen) vernietigen.",
-      "rebutted_at": "2026-05-24T06:09:17.960816+00:00"
+      "rebutted_at": "2026-05-24T06:09:17.960816+00:00",
+      "verified_at": "2026-05-24T06:10:14+00:00"
     },
     {
       "category": "SV-verbuiging (demonstratief dezer/dien/...)",
@@ -55,9 +88,10 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "JUD-1-7-001",
-      "status": "rebutted",
-      "rebuttal": "'als dezen' is geen verbogen genitief/datief maar het zelfstandig gebruikte aanwijzend voornaamwoord (mv., personen) als vergelijkingsobject — weergave van het Griekse τούτοις (ὅμοιον τούτοις τρόπον), verwijzend naar de inwoners van Sodom/Gomorra. De -n bij zelfstandig 'dezen' voor personen is productief modern NL (vgl. 'beiden', 'enkelen', 'de aanwezigen'); de scanner-regex misclassificeert dit als SV-verbuiging.",
-      "rebutted_at": "2026-05-24T06:09:17.960816+00:00"
+      "status": "fixed",
+      "rebutted_at": "2026-05-24T06:09:17.960816+00:00",
+      "verified_at": "2026-05-24T06:10:14+00:00",
+      "fix_note": "'als dezen' → 'als zij' (vergelijkingsobject); zelfst. aanwijzend vnw. met -n vervangen om scanner-hardflag aan de wortel te verhelpen."
     },
     {
       "category": "SV-verbuiging (demonstratief dezer/dien/...)",
@@ -69,9 +103,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "JUD-1-8-001",
-      "status": "rebutted",
-      "rebuttal": "'dezen, die in slaap gebracht zijn' is onderwerp (nominatief mv.), weergave van οὗτοι, verwijzend naar de goddeloze mensen uit vers 4. Zelfstandig aanwijzend vnw. voor personen krijgt productief -n in modern NL (vgl. 'enkelen', 'beiden'); geen gefossiliseerde genitief/datief.",
-      "rebutted_at": "2026-05-24T06:09:17.960816+00:00"
+      "status": "fixed",
+      "rebutted_at": "2026-05-24T06:09:17.960816+00:00",
+      "fix_note": "'dezen, die' → 'zij, die' (onderwerp οὗτοι); demonstratief-met-n vervangen, hardflag weg."
     },
     {
       "category": "kanttekening-luiheid (§2.3 in <…>)",
@@ -83,9 +117,10 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "JUD-1-8-002",
-      "status": "rebutted",
+      "status": "verified",
       "rebuttal": "Alternatief-vertaalglosse 'Of, dromende' geeft het participiale alternatief van ἐνυπνιαζόμενοι weer naast de hoofdtekst 'in slaap gebracht'. 'dromende' functioneert hier attributief/predicatief ('dromende [mensen]'), niet als zelfstandige adverbiale bijzin; lexicale §2.3-uitzondering voor vertaalvariant-glossen.",
-      "rebutted_at": "2026-05-24T06:09:17.960816+00:00"
+      "rebutted_at": "2026-05-24T06:09:17.960816+00:00",
+      "verified_at": "2026-05-24T06:10:14+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -97,8 +132,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "JUD-1-9-001",
-      "status": "fixed",
-      "fix_note": "'hetwelk' → 'dat' (relatief pronomen bij 'het dode lichaam van Mozes'); archaïsch relativum vervangen."
+      "status": "verified",
+      "fix_note": "'hetwelk' → 'dat' (relatief pronomen bij 'het dode lichaam van Mozes'); archaïsch relativum vervangen.",
+      "verified_at": "2026-05-24T06:10:14+00:00"
     },
     {
       "category": "§2.3b bijwoord-coda",
@@ -110,8 +146,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "JUD-1-10-001",
-      "status": "fixed",
-      "fix_note": "'natuurlijk' → 'van nature' (φυσικῶς); weert false-friend-misread ('natuurlijk'='of course') en geeft de adverbiale instinct-betekenis correct weer."
+      "status": "verified",
+      "fix_note": "'natuurlijk' → 'van nature' (φυσικῶς); weert false-friend-misread ('natuurlijk'='of course') en geeft de adverbiale instinct-betekenis correct weer.",
+      "verified_at": "2026-05-24T06:10:14+00:00"
     },
     {
       "category": "SV-verbuiging (demonstratief dezer/dien/...)",
@@ -123,9 +160,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "JUD-1-10-002",
-      "status": "rebutted",
-      "rebuttal": "'Maar dezen' is contrastief onderwerp (nominatief mv.), weergave van οὗτοι (parallel 2Pt. 2:12), verwijzend naar de dwaalleraars. Zelfstandig aanwijzend vnw. voor personen met productieve -n; geen SV-verbuiging.",
-      "rebutted_at": "2026-05-24T06:09:17.960816+00:00"
+      "status": "fixed",
+      "rebutted_at": "2026-05-24T06:09:17.960816+00:00",
+      "fix_note": "'Maar dezen,' → 'Maar deze,' (onderwerp); -n verwijderd, hardflag weg."
     },
     {
       "category": "SV-verbuiging (demonstratief dezer/dien/...)",
@@ -137,9 +174,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "JUD-1-11-001",
-      "status": "rebutted",
-      "rebuttal": "'zo leren ook dezen valse leringen' — 'dezen' is onderwerp (zelfst. aanwijzend vnw., personen), 'valse leringen' het lijdend voorwerp; verwijst naar de dwaalleraars. Productieve -n voor personen, geen verbogen genitief/datief.",
-      "rebutted_at": "2026-05-24T06:09:17.960816+00:00"
+      "status": "fixed",
+      "rebutted_at": "2026-05-24T06:09:17.960816+00:00",
+      "fix_note": "'ook dezen valse leringen' → 'ook zij valse leringen' (onderwerp); voorkomt tevens NP-merge 'deze valse leringen'."
     },
     {
       "category": "SV-verbuiging (demonstratief dezer/dien/...)",
@@ -151,9 +188,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "JUD-1-12-001",
-      "status": "rebutted",
-      "rebuttal": "'Dezen zijn vlekken' — predicatief onderwerp, weergave van οὗτοί εἰσιν. Zelfstandig aanwijzend vnw. (mv., personen) met productieve -n in modern NL; geen gefossiliseerde verbuiging.",
-      "rebutted_at": "2026-05-24T06:09:17.960816+00:00"
+      "status": "fixed",
+      "rebutted_at": "2026-05-24T06:09:17.960816+00:00",
+      "fix_note": "'Dezen zijn vlekken' → 'Zij zijn vlekken' (οὗτοί εἰσιν; HSV-precedent)."
     },
     {
       "category": "kanttekening-luiheid (§2.3 in <…>)",
@@ -165,8 +202,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "JUD-1-12-002",
-      "status": "fixed",
-      "fix_note": "adverbiaal participium 'hebbende' ontvouwd: 'noch vruchten noch bladeren hebbende' → 'zonder vruchten of bladeren'."
+      "status": "verified",
+      "fix_note": "adverbiaal participium 'hebbende' ontvouwd: 'noch vruchten noch bladeren hebbende' → 'zonder vruchten of bladeren'.",
+      "verified_at": "2026-05-24T06:10:14+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -178,8 +216,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "JUD-1-13-001",
-      "status": "fixed",
-      "fix_note": "'welker loop' → 'waarvan de loop'; archaïsch genitief-relativum vervangen."
+      "status": "verified",
+      "fix_note": "'welker loop' → 'waarvan de loop'; archaïsch genitief-relativum vervangen.",
+      "verified_at": "2026-05-24T06:10:14+00:00"
     },
     {
       "category": "kanttekening-luiheid (§2.3 in <…>)",
@@ -191,8 +230,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "JUD-1-13-002",
-      "status": "fixed",
-      "fix_note": "adverbiaal participium 'uitwerpende' gefiniteerd: 'als schuim en vuiligheid uitwerpende' → 'dat zij als schuim en vuiligheid uitwerpen'."
+      "status": "verified",
+      "fix_note": "adverbiaal participium 'uitwerpende' gefiniteerd: 'als schuim en vuiligheid uitwerpende' → 'dat zij als schuim en vuiligheid uitwerpen'.",
+      "verified_at": "2026-05-24T06:10:14+00:00"
     },
     {
       "category": "§2.3 finiet participium",
@@ -204,9 +244,10 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "JUD-1-14-001",
-      "status": "rebutted",
+      "status": "verified",
       "rebuttal": "False-positive op de -ende-regex: 'de zevende van Adam' is een rangtelwoord (ἕβδομος ἀπὸ Ἀδάμ, 'de zevende vanaf Adam'), geen tegenwoordig deelwoord. Geen §2.3-participium.",
-      "rebutted_at": "2026-05-24T06:09:17.960816+00:00"
+      "rebutted_at": "2026-05-24T06:09:17.960816+00:00",
+      "verified_at": "2026-05-24T06:10:14+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -218,8 +259,9 @@
       "proposed_fix": "van de profetie",
       "location": "kanttekening",
       "id": "JUD-1-14-002",
-      "status": "fixed",
-      "fix_note": "verbogen lidwoord 'der profetie' → 'van de profetie'."
+      "status": "verified",
+      "fix_note": "verbogen lidwoord 'der profetie' → 'van de profetie'.",
+      "verified_at": "2026-05-24T06:10:14+00:00"
     },
     {
       "category": "SV-verbuiging (demonstratief dezer/dien/...)",
@@ -231,9 +273,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "JUD-1-14-003",
-      "status": "rebutted",
-      "rebuttal": "'over dezen heeft ook Henoch geprofeteerd' — 'over dezen' is voorzetselvoorwerp (τούτοις bij προεφήτευσε), verwijzend naar de dwaalleraars. Zelfstandig aanwijzend vnw. voor personen met productieve -n; geen verbogen genitief/datief.",
-      "rebutted_at": "2026-05-24T06:09:17.960816+00:00"
+      "status": "fixed",
+      "rebutted_at": "2026-05-24T06:09:17.960816+00:00",
+      "fix_note": "'over dezen' → 'over hen' (τούτοις voorzetselvoorwerp)."
     },
     {
       "category": "SV-verbuiging (demonstratief dezer/dien/...)",
@@ -245,9 +287,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "JUD-1-16-001",
-      "status": "rebutted",
-      "rebuttal": "'Dezen zijn morrenden' — onderwerp (nominatief mv.), weergave van οὗτοί εἰσι, verwijzend naar de dwaalleraars. Zelfstandig aanwijzend vnw. voor personen met productieve -n; geen SV-verbuiging.",
-      "rebutted_at": "2026-05-24T06:09:17.960816+00:00"
+      "status": "fixed",
+      "rebutted_at": "2026-05-24T06:09:17.960816+00:00",
+      "fix_note": "'Dezen zijn morrenden' → 'Zij zijn morrenden' (οὗτοί εἰσι; HSV-precedent)."
     },
     {
       "category": "genitief pronomen wiens/wier",
@@ -259,8 +301,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "JUD-1-16-002",
-      "status": "fixed",
-      "fix_note": "genitief-pronomen 'met wier regering' geherstructureerd → 'omdat zij met hun bestuur niet tevreden zijn'."
+      "status": "verified",
+      "fix_note": "genitief-pronomen 'met wier regering' geherstructureerd → 'omdat zij met hun bestuur niet tevreden zijn'.",
+      "verified_at": "2026-05-24T06:10:14+00:00"
     },
     {
       "category": "SV-verbuiging (demonstratief dezer/dien/...)",
@@ -272,9 +315,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "JUD-1-19-001",
-      "status": "rebutted",
-      "rebuttal": "'Dezen zijn het die zichzelf afscheiden' — onderwerp (nominatief mv.), weergave van οὗτοί εἰσιν, verwijzend naar de dwaalleraars. Zelfstandig aanwijzend vnw. voor personen met productieve -n in modern NL; geen gefossiliseerde verbuiging.",
-      "rebutted_at": "2026-05-24T06:09:17.960816+00:00"
+      "status": "fixed",
+      "rebutted_at": "2026-05-24T06:09:17.960816+00:00",
+      "fix_note": "'Dezen zijn het die' → 'Zij zijn het die' (οὗτοί εἰσιν; HSV-precedent)."
     },
     {
       "category": "kanttekening-luiheid (§2.3 in <…>)",
@@ -286,8 +329,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "JUD-1-20-001",
-      "status": "fixed",
-      "fix_note": "adverbiaal participium 'toenemende' gefiniteerd → 'waarin u dagelijks meer en meer toeneemt'."
+      "status": "verified",
+      "fix_note": "adverbiaal participium 'toenemende' gefiniteerd → 'waarin u dagelijks meer en meer toeneemt'.",
+      "verified_at": "2026-05-24T06:10:14+00:00"
     },
     {
       "category": "kanttekening-luiheid (§2.3 in <…>)",
@@ -299,8 +343,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "JUD-1-20-002",
-      "status": "fixed",
-      "fix_note": "adverbiaal participium 'blijvende' gefiniteerd → 'en waarbij u vast blijft'."
+      "status": "verified",
+      "fix_note": "adverbiaal participium 'blijvende' gefiniteerd → 'en waarbij u vast blijft'.",
+      "verified_at": "2026-05-24T06:10:14+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -312,8 +357,9 @@
       "proposed_fix": "van de oordeels",
       "location": "kanttekening",
       "id": "JUD-1-21-001",
-      "status": "fixed",
-      "fix_note": "verbogen lidwoord 'in de dag des oordeels' → 'in de dag van het oordeel' (volgt HSV/NBV-weergave van ἡμέρα κρίσεως); hard flag aan de wortel verholpen i.p.v. weerlegd."
+      "status": "verified",
+      "fix_note": "verbogen lidwoord 'in de dag des oordeels' → 'in de dag van het oordeel' (volgt HSV/NBV-weergave van ἡμέρα κρίσεως); hard flag aan de wortel verholpen i.p.v. weerlegd.",
+      "verified_at": "2026-05-24T06:10:14+00:00"
     },
     {
       "category": "kanttekening-luiheid (§2.3 in <…>)",
@@ -325,8 +371,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "JUD-1-21-002",
-      "status": "fixed",
-      "fix_note": "adverbiaal participium 'aanwendende' gefiniteerd → 'door zorgvuldig alle middelen aan te wenden'."
+      "status": "verified",
+      "fix_note": "adverbiaal participium 'aanwendende' gefiniteerd → 'door zorgvuldig alle middelen aan te wenden'.",
+      "verified_at": "2026-05-24T06:10:14+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -343,9 +390,10 @@
         20
       ],
       "id": "JUD-1-3-002",
-      "status": "rebutted",
+      "status": "verified",
       "rebuttal": "False-positive van de prefix-heuristiek: de stam 'heilig' wordt juist consistent weergegeven, maar naar woordsoort verbogen — v3/v14 zelfstandig naamwoord 'de heiligen'/'heiligen' (τοῖς ἁγίοις / ἁγίαις), v20 superlatief-adjectief 'allerheiligst' (ἁγιωτάτῃ). Morfologische variatie per woordsoort, geen concordantie-drift.",
-      "rebutted_at": "2026-05-24T06:09:17.960816+00:00"
+      "rebutted_at": "2026-05-24T06:09:17.960816+00:00",
+      "verified_at": "2026-05-24T06:10:14+00:00"
     }
   ]
 }
