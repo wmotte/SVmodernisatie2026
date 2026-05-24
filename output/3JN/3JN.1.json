@@ -1,0 +1,65 @@
+{
+  "book": "3JOH",
+  "chapter": 1,
+  "introduction": {
+    "original": "",
+    "modernized": "",
+    "generated_at": "2026-05-24T04:20:31.990405Z",
+    "model": "claude-opus-4-7[1m]"
+  },
+  "verses": [
+    {
+      "verse_number": 1,
+      "original": "<Waerom Ioannes hemselven alsoo noemt, siet 2.Ioan. vers 1.> DE Ouderlingh aen den geliefden <Wie dese Gajus geweest zy, en wort nergens elders verklaert: ’t en ware dat hy een van die ware geweest, daer van men leest Actor. 19. vers 29. ende cap. 20. vers 4. Rom. cap. 16. vers 23. 1.Corint. 1. vers 14.> Gajus, <Siet 2.Ioan. vers 1.> welcken ick in waerheyt lief hebbe.",
+      "modernized": "<Waarom Johannes zichzelf zo noemt, zie $2Jh. 1:1$.> De Ouderling aan de geliefde <Wie deze Gajus geweest is, wordt nergens elders verklaard, tenzij hij een van hen geweest is over wie men leest $Hd. 19:29; 20:4; Rm. 16:23; 1Kor. 1:14$.> Gajus, <Zie $2Jh. 1:1$.> die ik in waarheid liefheb.",
+      "source_text": "Ὁ πρεσβύτερος Γαΐῳ τῷ ἀγαπητῷ, ὃν ἐγὼ ἀγαπῶ ἐν ἀληθείᾳ.",
+      "generated_at": "2026-05-24T04:20:31.899894Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "subject": "single-chapter bibref",
+          "context": "kanttekening 1 en 3",
+          "choice": "2.Ioan. vers 1. handmatig genormaliseerd naar $2Jh. 1:1$",
+          "alternatives": [
+            "$2Jh. 1$",
+            "$2Jh. 1:1$"
+          ],
+          "reason": "bibref.py normaliseert chapterless single-chapter-book refs niet; handmatig gewrapt naar hoofdstuk 1"
+        }
+      ]
+    },
+    {
+      "verse_number": 2,
+      "original": "Geliefde, <Ofte, in alles.> voor alle dingen wensche ick dat ghy welvaert ende gesont zijt, <Namelick, overmits sy begaeft is met de kennisse der salighmakende ende gesonde leere, ende met velerley Christelicke deughden: dat gelijck ghy een gesonde ziele hebt, ghy alsoo oock een gesont lichaem mooght hebben.> gelijck uwe ziele welvaert.",
+      "modernized": "Geliefde, <Of, in alles.> voor alle dingen wens ik dat u voorspoedig en gezond bent, <Namelijk, omdat zij begiftigd is met de kennis van de zaligmakende en gezonde leer, en met velerlei Christelijke deugden: opdat, zoals u een gezonde ziel hebt, u zo ook een gezond lichaam moogt hebben.> zoals uw ziel voorspoedig is.",
+      "source_text": "Ἀγαπητέ, περὶ πάντων εὔχομαί σε εὐοδοῦσθαι καὶ ὑγιαίνειν, καθὼς εὐοδοῦταί σου ἡ ψυχή.",
+      "generated_at": "2026-05-24T04:20:31.931008Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 3,
+      "original": "Want ick ben seer verblijdt geweest, als de broeders quamen, ende getuyghden van uwe <Dat is, oprechtigheyt, 1.Ioan. 3. vers 18.> waerheyt, gelijck ghy <Siet 2.Ioan. vers 4.> in de waerheyt wandelt.",
+      "modernized": "Want ik ben zeer verblijd geweest, toen de broeders kwamen en getuigden van uw <Dat is, oprechtheid, $1Jh. 3:18$.> waarheid, zoals u <Zie $2Jh. 1:4$.> in de waarheid wandelt.",
+      "source_text": "ἐχάρην γὰρ λίαν, ἐρχομένων ἀδελφῶν καὶ μαρτυρούντων σου τῇ ἀληθείᾳ, καθὼς σὺ ἐν ἀληθείᾳ περιπατεῖς.",
+      "generated_at": "2026-05-24T04:20:31.961491Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "subject": "single-chapter bibref",
+          "context": "kanttekening 2",
+          "choice": "2.Ioan. vers 4. handmatig genormaliseerd naar $2Jh. 1:4$",
+          "alternatives": [
+            "$2Jh. 4$",
+            "$2Jh. 1:4$"
+          ],
+          "reason": "bibref.py normaliseert chapterless single-chapter-book refs niet; handmatig gewrapt naar hoofdstuk 1"
+        }
+      ]
+    }
+  ]
+}
