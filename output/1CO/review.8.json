@@ -1,0 +1,160 @@
+{
+  "book": "1CO",
+  "chapter": 8,
+  "reviewed_at": "2026-05-24T14:45:07+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-24T14:45:07+00:00",
+      "mode": "scan",
+      "issues_total": 11
+    }
+  ],
+  "issues": [
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 1,
+      "severity": "soft",
+      "quote_modernized": "…oddelijke of godsdienstige eer aandoet, onder welke schijn dat het ook zij. Aang…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "1CO-8-1-001",
+      "status": "rebutted",
+      "rebuttal": "'onder welke schijn dat het ook zij' is een concessieve free-choice-constructie ('onder welke X ... ook' = 'onder welk voorwendsel dan ook'), niet een bare relativum. 'welke' fungeert hier adjectivisch-determinatief vóór 'schijn'; dit gebruik is productief in formeel modern NL (§2.7 geslaagd) en behoudt 'welk(e)' ook in NBV21-register."
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 3,
+      "severity": "soft",
+      "quote_modernized": "…en bijgevolg ook zijn naaste om Gods wil, welke twee dingen niet gescheiden kunn…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "1CO-8-3-001",
+      "status": "rebutted",
+      "rebuttal": "'welke twee dingen niet gescheiden kunnen zijn' is een aanwijzend-relatieve aansluiting ('welke twee dingen' = die twee zaken), waarbij 'welke' adjectivisch vóór telwoord+znw staat en terugkoppelt naar de twee genoemde objecten (God liefhebben + de naaste). Adjectivisch 'welke + NP' is productief formeel NL, geen bare relativum dat §2.3b verbiedt."
+    },
+    {
+      "category": "genitief pronomen wiens/wier",
+      "verse": 6,
+      "severity": "hard",
+      "quote_modernized": "…zenlijk de eeuwige God is. Dat is, door wiens beschikking en almachtige kracht. …",
+      "rule_reference": "ARCHAISMEN.md (SV-pronomina)",
+      "explanation": "'wiens beschikking' — formeel-archaïsch genitief-pronomen. Modern Nederlands: 'van wie beschikking' of zinsherbouw met bezittelijk voornaamwoord ('die zijn beschikking', 'die haar beschikking'). NBV21 vermijdt 'wiens' grotendeels.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "1CO-8-6-001",
+      "status": "rebutted",
+      "rebuttal": "'wiens' is in vers 6 het genitief-relativum dat terugverwijst naar 'de Vader' (uit wie alle dingen zijn); het is geen verbogen-lidwoord-fossiel zoals der/des/den maar een volledig productief formeel-NL relativum (vgl. 'de man wiens auto gestolen werd'). Slaagt §2.7-productiviteitstest in formeel/bijbels register; HSV behoudt 'wiens' eveneens."
+    },
+    {
+      "category": "§2.3b infinitief met nageschoven object",
+      "verse": 10,
+      "severity": "soft",
+      "quote_modernized": "…e die zwak is, niet   gesterkt worden   om te eten de dingen die aan de afgoden …",
+      "rule_reference": "MODERNISATIE.md §2.3b",
+      "explanation": "'om … te eten de dingen die aan' — Latinaat-woordvolgorde; in modern NL gaat het object vóór de infinitief: 'om <object> te eten'.",
+      "proposed_fix": "om de dingen te eten die aan de afgoden geofferd zijn?",
+      "location": "hoofdtekst",
+      "id": "1CO-8-10-001",
+      "status": "fixed"
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 10,
+      "severity": "soft",
+      "quote_modernized": "Want indien iemand u,   die de kennis hebt, z…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "1CO-8-10-002",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 10,
+      "severity": "soft",
+      "quote_modernized": "…e afgod gehouden wordt. Grieks: gesticht; hetwelk hier ten kwade wordt genomen. …",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'hetwelk' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": "Grieks: gesticht; wat hier ten kwade wordt genomen.",
+      "location": "kanttekening",
+      "id": "1CO-8-10-003",
+      "status": "fixed"
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 11,
+      "severity": "soft",
+      "quote_modernized": "wie christus gestorven is",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'wie christus gestorven is' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "1CO-8-11-001",
+      "status": "rebutted",
+      "rebuttal": "False positive: de span 'wie Christus gestorven is' is hoofdtekst die de inline-kanttekening omsluit ('om wie <lange noot> Christus gestorven is?'), niet een herhaling binnen de noot. Het 4-token-sliding-window ving de hoofdtekstwoorden die om de notemarkering heen lopen; de kanttekeningtekst zelf bevat geen redundante echo van de hoofdtekst."
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 12,
+      "severity": "soft",
+      "quote_modernized": "Grieks: slaande; hetwelk een zaak is van grote onbarmha…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'hetwelk' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": "Grieks: slaande; wat een zaak is van grote onbarmhartigheid",
+      "location": "kanttekening",
+      "id": "1CO-8-12-001",
+      "status": "fixed"
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 13,
+      "severity": "soft",
+      "quote_modernized": "  Daarom   indien de spijs mijn broeder ergert, zo …",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "1CO-8-13-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 13,
+      "severity": "soft",
+      "quote_modernized": "Namelijk, van welke soort die ook is. En de Aposte…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "1CO-8-13-002",
+      "status": "rebutted",
+      "rebuttal": "'van welke soort die ook is' is een free-choice-constructie ('van welke soort dan ook'); 'welke' staat adjectivisch vóór 'soort' in een concessief-idiomatische wending die in modern NL volledig productief blijft ('van welke aard dan ook'). Geen bare relatief 'welke' = 'die/dat'."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 7,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'conscie' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        7,
+        10,
+        12
+      ],
+      "id": "1CO-8-7-001",
+      "status": "rebutted",
+      "rebuttal": "Bewuste lexicale modernisering συνείδησις/conscientie -> 'geweten' (v7/v10/v12 alle drie 'geweten'), corpusbreed concordant (31x 'geweten' vs 2x 'consciëntie' DB-query). De prefix-heuristiek mist de vertaalovergang conscie->gewet; binnen hoofdstuk 8 is de rendering nu volledig consistent (v6-kanttekening-outlier 'consciëntie' is in deze ronde óók naar 'geweten' geharmoniseerd)."
+    }
+  ]
+}
