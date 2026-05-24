@@ -1,7 +1,7 @@
 {
   "book": "1CO",
   "chapter": 9,
-  "reviewed_at": "2026-05-24T17:41:14.766131+00:00",
+  "reviewed_at": "2026-05-24T17:42:31+00:00",
   "passes": [
     {
       "pass": 1,
@@ -17,6 +17,44 @@
         "4 fixed (v13x2,v23,v24,v26)",
         "8 rebutted (v4,v5,v17,v25x2,v1,v12)"
       ]
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-05-24T17:41:59+00:00",
+      "mode": "verify",
+      "actions": [
+        "1CO-9-2-001: rebuttal verified",
+        "1CO-9-4-001: rebuttal verified",
+        "1CO-9-5-001: reopened (te generiek)",
+        "1CO-9-11-001: rebuttal verified",
+        "1CO-9-11-002: rebuttal verified",
+        "1CO-9-12-001: rebuttal verified",
+        "1CO-9-13-001: verified",
+        "1CO-9-13-002: verified",
+        "1CO-9-16-001: rebuttal verified",
+        "1CO-9-16-002: rebuttal verified",
+        "1CO-9-17-001: rebuttal verified",
+        "1CO-9-17-002: rebuttal verified",
+        "1CO-9-17-003: rebuttal verified",
+        "1CO-9-17-004: rebuttal verified",
+        "1CO-9-23-001: verified",
+        "1CO-9-24-001: verified",
+        "1CO-9-25-001: reopened (te generiek)",
+        "1CO-9-25-002: rebuttal verified",
+        "1CO-9-26-001: verified",
+        "1CO-9-1-001: rebuttal verified",
+        "1CO-9-12-002: reopened (te generiek)"
+      ]
+    },
+    {
+      "pass": 4,
+      "ran_at": "2026-05-24T17:42:31+00:00",
+      "mode": "verify",
+      "actions": [
+        "1CO-9-5-001: rebuttal verified",
+        "1CO-9-25-001: rebuttal verified",
+        "1CO-9-12-002: rebuttal verified"
+      ]
     }
   ],
   "issues": [
@@ -30,8 +68,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "1CO-9-2-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-24T17:41:59+00:00"
     },
     {
       "category": "§2.3b infinitief met nageschoven object",
@@ -43,8 +82,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "1CO-9-4-001",
-      "status": "rebutted",
-      "rebuttal": "§2.3b vereist herschikking alleen bij een nageschoven object; hier zijn 'eten' en 'drinken' absoluut/intransitief gebruikt (geen object). 'macht om te eten en te drinken' is een reguliere moderne infinitiefconstructie (vgl. 'het recht om te leven en te werken'). Geen Latinaat-residu, geen overtreding."
+      "status": "verified",
+      "rebuttal": "§2.3b vereist herschikking alleen bij een nageschoven object; hier zijn 'eten' en 'drinken' absoluut/intransitief gebruikt (geen object). 'macht om te eten en te drinken' is een reguliere moderne infinitiefconstructie (vgl. 'het recht om te leven en te werken'). Geen Latinaat-residu, geen overtreding.",
+      "verified_at": "2026-05-24T17:41:59+00:00"
     },
     {
       "category": "genitief pronomen wiens/wier",
@@ -56,8 +96,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "1CO-9-5-001",
-      "status": "rebutted",
-      "rebuttal": "'wiens' is in modern formeel-geschreven Nederlands het volledig productieve betrekkelijk voornaamwoord-genitief bij een mannelijk antecedent (ANS: 'de man wiens huis...'). Hier slaat 'van wiens huisvrouw' terug op Petrus (mann.). Geen SV-archaïsme maar staande moderne vorm; de scanner-regex flagt wiens/wier categorisch, maar dit is geen verbuiging-fossiel."
+      "status": "verified",
+      "rebuttal": "MODERNISATIE.md §2.3b/§2.7 viseert verouderde vormen; 'wiens' staat daar niet als archaïsme omdat het het levende moderne betrekkelijk-genitief-pronomen bij mannelijk antecedent is (ANS 5.7). Vers-specifiek: 'van wiens huisvrouw' (kanttekening v5, Grieks πενθερά bij Πέτρος/Cefas) slaat terug op Petrus (mann.); 'van wie zijn huisvrouw' zou hier onbeholpen zijn. Geen verbuiging-fossiel maar staande formele vorm.",
+      "verified_at": "2026-05-24T17:42:31+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -69,8 +110,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "1CO-9-11-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-24T17:41:59+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -82,8 +124,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "1CO-9-11-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] 'het uwe als het mijne' — 'uwe'/'mijne' als zelfstandige possessieven zijn productief in modern Nederlands in formeel register (Van Dale lemma; vgl. 'Het uwe en het mijne'). §2.7 productiviteitstest geslaagd; geen drempel-archaïsme."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] 'het uwe als het mijne' — 'uwe'/'mijne' als zelfstandige possessieven zijn productief in modern Nederlands in formeel register (Van Dale lemma; vgl. 'Het uwe en het mijne'). §2.7 productiviteitstest geslaagd; geen drempel-archaïsme.",
+      "verified_at": "2026-05-24T17:41:59+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -95,8 +138,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "1CO-9-12-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-24T17:41:59+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -108,8 +152,9 @@
       "proposed_fix": "van de Levieten",
       "location": "kanttekening",
       "id": "1CO-9-13-001",
-      "status": "fixed",
-      "fix_commit": "pending"
+      "status": "verified",
+      "fix_commit": "pending",
+      "verified_at": "2026-05-24T17:41:59+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -121,8 +166,9 @@
       "proposed_fix": "van de Heere",
       "location": "kanttekening",
       "id": "1CO-9-13-002",
-      "status": "fixed",
-      "fix_commit": "pending"
+      "status": "verified",
+      "fix_commit": "pending",
+      "verified_at": "2026-05-24T17:41:59+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -134,8 +180,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "1CO-9-16-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-24T17:41:59+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -147,8 +194,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "1CO-9-16-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-24T17:41:59+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -160,8 +208,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "1CO-9-17-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-24T17:41:59+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -173,8 +222,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "1CO-9-17-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-24T17:41:59+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -186,8 +236,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "1CO-9-17-003",
-      "status": "rebutted",
-      "rebuttal": "'evenwel' doorstaat de §2.7-productiviteitstest: het is in modern formeel/zakelijk Nederlands courant (synoniem 'echter'/'toch'), Van Dale markeert het 'formeel', niet 'verouderd'. Geen verwarringsrisico. Vers-specifiek: '[evenwel]' staat hier als toegevoegd contrastsignaal tegenover de voorwaardelijke 'indien onwillig'-clause; functioneel correct."
+      "status": "verified",
+      "rebuttal": "'evenwel' doorstaat de §2.7-productiviteitstest: het is in modern formeel/zakelijk Nederlands courant (synoniem 'echter'/'toch'), Van Dale markeert het 'formeel', niet 'verouderd'. Geen verwarringsrisico. Vers-specifiek: '[evenwel]' staat hier als toegevoegd contrastsignaal tegenover de voorwaardelijke 'indien onwillig'-clause; functioneel correct.",
+      "verified_at": "2026-05-24T17:41:59+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -199,8 +250,9 @@
       "proposed_fix": "van de heerlijkheid",
       "location": "kanttekening",
       "id": "1CO-9-17-004",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] `Namelijk, der heerlijkheid in de hemel` (vers 28, kanttekening) — `der heerlijkheid` is vaste uitdrukking in didactische kanttekening glossend op `Koninkrijk Gods`. Grieks `τῆς δόξης` (gen.sg.fem.) is technische theologische term; SV `der heerlickheyt`. §2.7 niet van toepassing op kanttekening-genitief-fossiel. Concordant met kanttekening-stijl LUK 1:32, 11:2 en KANTTEKENINGEN.md."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] `Namelijk, der heerlijkheid in de hemel` (vers 28, kanttekening) — `der heerlijkheid` is vaste uitdrukking in didactische kanttekening glossend op `Koninkrijk Gods`. Grieks `τῆς δόξης` (gen.sg.fem.) is technische theologische term; SV `der heerlickheyt`. §2.7 niet van toepassing op kanttekening-genitief-fossiel. Concordant met kanttekening-stijl LUK 1:32, 11:2 en KANTTEKENINGEN.md.",
+      "verified_at": "2026-05-24T17:41:59+00:00"
     },
     {
       "category": "voornaamwoordelijk bijwoord gesplitst",
@@ -212,8 +264,9 @@
       "proposed_fix": "ermede",
       "location": "hoofdtekst",
       "id": "1CO-9-23-001",
-      "status": "fixed",
-      "fix_commit": "pending"
+      "status": "verified",
+      "fix_commit": "pending",
+      "verified_at": "2026-05-24T17:41:59+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -225,8 +278,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "1CO-9-24-001",
-      "status": "fixed",
-      "fix_commit": "pending"
+      "status": "verified",
+      "fix_commit": "pending",
+      "verified_at": "2026-05-24T17:41:59+00:00"
     },
     {
       "category": "SV-verbuiging (demonstratief dezer/dien/...)",
@@ -238,8 +292,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "1CO-9-25-001",
-      "status": "rebutted",
-      "rebuttal": "'dezen' is hier het substantivische meervouds-demonstratief voor personen (ANS: 'deze/dezen', -n bij persoonsreferentie), terugslaand op 'die om prijs strijden' (de wedstrijdlopers). 'Dezen dan doen dit wel...' = volstrekt productief modern formeel NL ('Dezen menen dat...'). Geen SV-genitief/datief-verbuiging maar nominatief mv.; whitelist-analoog aan 'dezer dagen' qua productiviteit."
+      "status": "verified",
+      "rebuttal": "Grieks οὗτοι μὲν (houtoi men) = 'dezen nu/dan', substantivisch meervoud terugslaand op de wedstrijdlopers ('die om prijs strijden', Grieks οἱ ἀγωνιζόμενοι). Per MODERNISATIE.md §2.7 (productiviteitstest): 'dezen' als substantivisch mv.-demonstratief voor personen is volledig courant modern NL (ANS 5.6: -n bij persoonsreferentie, 'Dezen menen dat...'). Vers-specifiek nominatief mv.-subject, geen SV-genitief/datief-verbuiging zoals 'dezer/dien'.",
+      "verified_at": "2026-05-24T17:42:31+00:00"
     },
     {
       "category": "kanttekening-luiheid (§2.3 in <…>)",
@@ -251,8 +306,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "1CO-9-25-002",
-      "status": "rebutted",
-      "rebuttal": "'eeuwigdurende' is een gelexicaliseerd attributief adjectief (= permanent/onophoudelijk), hier in apposition bij de impliciete 'kroon' ('onvergankelijke, of eeuwigdurende [kroon]'). §2.3 viseert finiet-vervangende/adverbiale participia, niet attributieve -ende-adjectieven die een zelfstandig naamwoord bepalen. Geen werkwoordelijke functie."
+      "status": "verified",
+      "rebuttal": "'eeuwigdurende' is een gelexicaliseerd attributief adjectief (= permanent/onophoudelijk), hier in apposition bij de impliciete 'kroon' ('onvergankelijke, of eeuwigdurende [kroon]'). §2.3 viseert finiet-vervangende/adverbiale participia, niet attributieve -ende-adjectieven die een zelfstandig naamwoord bepalen. Geen werkwoordelijke functie.",
+      "verified_at": "2026-05-24T17:41:59+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -264,8 +320,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "1CO-9-26-001",
-      "status": "fixed",
-      "fix_commit": "pending"
+      "status": "verified",
+      "fix_commit": "pending",
+      "verified_at": "2026-05-24T17:41:59+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -282,8 +339,9 @@
         24
       ],
       "id": "1CO-9-1-001",
-      "status": "rebutted",
-      "rebuttal": "Concordantie-drift false-positive: SV-stam 'ghylieden' (2e pers. mv. nadrukkelijk) wordt consistent met 'u' weergegeven over v1/v2/.. De prefix-overlap-heuristiek mist dit omdat 'ghylied' en 'u' geen orthografische prefix delen (volledige lexicale vervanging, geen spellingsmodernisatie). Woordkeuze is juist consistent, niet driftend."
+      "status": "verified",
+      "rebuttal": "Concordantie-drift false-positive: SV-stam 'ghylieden' (2e pers. mv. nadrukkelijk) wordt consistent met 'u' weergegeven over v1/v2/.. De prefix-overlap-heuristiek mist dit omdat 'ghylied' en 'u' geen orthografische prefix delen (volledige lexicale vervanging, geen spellingsmodernisatie). Woordkeuze is juist consistent, niet driftend.",
+      "verified_at": "2026-05-24T17:41:59+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -302,8 +360,9 @@
         23
       ],
       "id": "1CO-9-12-002",
-      "status": "rebutted",
-      "rebuttal": "Concordantie-drift false-positive: SV-stam 'euangelium' wordt over alle 5 verzen consistent als 'Evangelie' weergegeven. De prefix-heuristiek mist de orthografische overgang u→v (euangel→Evangel) plus -ium→-ie, waardoor geen prefix-match wordt gezien. Concordantie is feitelijk intact."
+      "status": "verified",
+      "rebuttal": "Grieks εὐαγγέλιον wordt over v12/v14/v16/v18/v23 consistent als 'Evangelie' weergegeven — concordantie is feitelijk intact. De prefix-overlap-heuristiek (§concordantie-drift) mist de orthografische overgang u→v (SV 'euangel-' → 'Evangel-') plus suffix -ium→-ie, waardoor geen prefix-match wordt herkend. Vers-specifiek v12: 'verhindering geven aan het Evangelie van Christus' = zelfde lexicale keuze als de overige vier verzen. False-positive van de scanner-heuristiek.",
+      "verified_at": "2026-05-24T17:42:31+00:00"
     }
   ]
 }

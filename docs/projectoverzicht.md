@@ -1,6 +1,6 @@
 # Projectoverzicht — SVmodernisatie2026
 
-*Van initiatie tot heden. Bijgewerkt: 22 mei 2026.*
+*Van initiatie tot heden. Bijgewerkt: 24 mei 2026.*
 
 Modernisering van de Statenvertaling 1657 (2e druk) met maximaal behoud
 van de SV-eigenheid, volledig uitgevoerd door taalmodellen volgens de
@@ -12,27 +12,32 @@ methode in [`MODERNISATIE.md`](../MODERNISATIE.md).
 
 | | Verzen |
 |---|---:|
-| **Gemoderniseerd** | **2.134** |
+| **Gemoderniseerd** | **2.462** |
 | **Totaal NT (SV1657-corpus, `input.sv/`)** | **7.959** |
-| **Voortgang** | **26,8 %** |
+| **Voortgang** | **30,9 %** |
 
 ```
-[███████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 26,8 %
+[████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 30,9 %
 ```
 
 ### Per boek
 
 | Boek | Hoofdstukken | Verzen gedaan | Verzen totaal | Status |
 |---|---|---:|---:|---|
-| Markus (MRK)   | 16 / 16 | 678   | 678   | ✅ compleet |
-| Lukas (LUK)    | 24 / 24 | 1.151 | 1.151 | ✅ compleet |
-| Filemon (PHM)  | 1 / 1   | 25    | 25    | ✅ compleet |
-| Romeinen (ROM) | 10 / 16 | 280   | 434   | 🔧 in uitvoering |
-| **Subtotaal**  |         | **2.134** | **2.288** | |
+| Markus (MRK)    | 16 / 16 | 678   | 678   | ✅ compleet |
+| Lukas (LUK)     | 24 / 24 | 1.151 | 1.151 | ✅ compleet |
+| Filemon (PHM)   | 1 / 1   | 25    | 25    | ✅ compleet |
+| 2 Johannes (2JN)| 1 / 1   | 13    | 13    | ✅ compleet |
+| 3 Johannes (3JN)| 1 / 1   | 15    | 15    | ✅ compleet |
+| Judas (JUD)     | 1 / 1   | 25    | 25    | ✅ compleet |
+| Romeinen (ROM)  | 13 / 16 | 351   | 434   | 🔧 in uitvoering |
+| 1 Korinthe (1CO)| 8 / 16  | 189   | 437   | 🔧 in uitvoering |
+| 2 Korinthe (2CO)| 0 / 13  | 9     | 256   | 🔧 in uitvoering |
+| 1 Petrus (1PE)  | 0 / 5   | 6     | 105   | 🔧 in uitvoering |
+| **Subtotaal**   |         | **2.462** | **3.139** | |
 
-Resterende NT-boeken (nog niet gestart): MAT, JHN, ACT, 1CO, 2CO, GAL,
-EPH, PHP, COL, 1TH, 2TH, 1TI, 2TI, TIT, HEB, JAS, 1PE, 2PE, 1JN, 2JN,
-3JN, JUD, REV — samen 5.671 verzen.
+Resterende NT-boeken (nog niet gestart): MAT, JHN, ACT, GAL, EPH, PHP,
+COL, 1TH, 2TH, 1TI, 2TI, TIT, HEB, JAS, 2PE, 1JN, REV — samen 4.820 verzen.
 
 ---
 
@@ -91,9 +96,11 @@ Reproduceerbaar via `python3 scripts/count_words.py`.
 | **18 mei 2026** | Lukas afgerond (24 hoofdstukken). Filemon gestart. Meta-review-aggregator (cross-chapter HSV-diff bucketing) toegevoegd. |
 | **19 mei 2026** | Romeinen gestart (`ROM 1:1-3`). |
 | **20 mei 2026** | Romeinen t/m hoofdstuk 8. Eerbiedskapitaal- en genitief-archaïsme-checks HARD in validator. SV27-vergelijking toegevoegd. |
-| **22 mei 2026** | Romeinen hoofdstuk 9 en 10 afgerond (t/m ROM 10). Adversariële genitief- en participium-opschoning in kanttekeningen. |
+| **22 mei 2026** | Romeinen hoofdstuk 9 en 10 afgerond (t/m ROM 10). Adversariële genitief- en participium-opschoning in kanttekeningen. Eerste Korinthe gestart (1CO 1). |
+| **23 mei 2026** | 1 Korinthe loopt door; 2 Korinthe gestart (2CO 1). |
+| **24 mei 2026** | Romeinen afgerond t/m hoofdstuk 13 (ROM 11–13). 1 Korinthe t/m hoofdstuk 8 compleet, hoofdstuk 9 in uitvoering. Drie korte brieven volledig afgerond: 2 Johannes, 3 Johannes en Judas. 1 Petrus gestart (1PE 1). Drukste inhaaldag: 144 commits. |
 
-Looptijd tot heden: **7 dagen** (16–22 mei 2026).
+Looptijd tot heden: **9 dagen** (16–24 mei 2026).
 
 ---
 
@@ -101,11 +108,11 @@ Looptijd tot heden: **7 dagen** (16–22 mei 2026).
 
 | Metriek | Waarde |
 |---|---:|
-| Commits totaal | 797 |
-| Gemergede pull requests | 403 |
-| Commits per dag | 139 / 215 / 175 / 104 / 120 / 44 |
-| Boeken compleet | 3 (MRK, LUK, PHM) |
-| Verzen per dag (gem.) | ~356 |
+| Commits totaal | 1.026 |
+| Gemergede pull requests | 452 |
+| Commits per dag | 139 / 215 / 175 / 104 / 119 / 65 / 65 / 144 |
+| Boeken compleet | 6 (MRK, LUK, PHM, 2JN, 3JN, JUD) |
+| Verzen per dag (gem.) | ~308 |
 
 ---
 
