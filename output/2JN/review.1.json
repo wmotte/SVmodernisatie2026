@@ -1,0 +1,127 @@
+{
+  "book": "2JN",
+  "chapter": 1,
+  "reviewed_at": "2026-05-24T05:11:45+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-24T05:11:45+00:00",
+      "mode": "scan",
+      "issues_total": 7
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-24T05:13:35.515490+00:00",
+      "mode": "in-context-fill",
+      "note": "1 fix (8-002), 3 rebuttals (8-001,1-002,1-003)"
+    }
+  ],
+  "issues": [
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 1,
+      "severity": "soft",
+      "quote_modernized": "…ij haar naar het oordeel van de liefde, naar welke allen die Christus belijden, …",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "2JN-1-1-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+    },
+    {
+      "category": "§2.7 drempel-fossiel",
+      "verse": 8,
+      "severity": "hard",
+      "quote_modernized": "  Ziet toe voor uzelf,   dat wij niet verl…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "Idiomatisch fossiel 'ziet toe' — oude dativus/genitief. Modern: 'op de N-de dag' / 'op het uur / tegen het uur'.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "2JN-1-8-001",
+      "status": "rebutted",
+      "rebuttal": "'Ziet toe' (Gr. βλέπετε, 2e pers. mv. imperatief) — de -t-meervoudsimperatief is een projectbrede behouden SV-conventie: 'Weest' (8x), 'Bidt' (4x), 'Ziet toe' (5x), 'Waakt' (3x) consistent in het corpus. §2.7 betreft lexicale drempel, niet werkwoordsmorfologie; 'zie toe op' is bovendien productief modern NL. Scanner-explanation ('op de N-de dag') is generieke boilerplate, niet vers-specifiek.",
+      "verified_at": "2026-05-24T05:13:35.515490+00:00"
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 8,
+      "severity": "hard",
+      "quote_modernized": "…namelijk Apostelen, die u tot de kennis der waarheid gebracht hebben, de vrucht …",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'der waarheid' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de waarheid' of 'van het waarheid', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de waarheid",
+      "location": "kanttekening",
+      "id": "2JN-1-8-002",
+      "status": "fixed",
+      "fix_commit": "PENDING",
+      "fix_note": "'der waarheid' niet in FOSSIL_GENITIVE_PAIRS; v3 rendert dezelfde frase al als 'kennis van de waarheid' — geharmoniseerd naar 'van de waarheid'."
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 8,
+      "severity": "soft",
+      "quote_modernized": "…t, de vrucht van uw belijdenis en wandel, welke het eeuwige leven is, niet verli…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "2JN-1-8-003",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 10,
+      "severity": "soft",
+      "quote_modernized": "  Indien iemand   tot u komt, en   deze le…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "2JN-1-10-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 1,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'waerhey' in 4 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 4 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "id": "2JN-1-1-002",
+      "status": "rebutted",
+      "rebuttal": "Scanner-prefix-heuristiek mist orthografische overgang ae->aa, ey->ei: bron-stam 'waerhey' vs modern 'waarhei'. Alle 4 verzen (1,2,3,4) renderen consistent 'waarheid' — geen drift. False-positive van de prefix-vergelijking, geen concordantie-probleem.",
+      "verified_at": "2026-05-24T05:13:35.515490+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 1,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'uytverk' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        1,
+        5,
+        13
+      ],
+      "id": "2JN-1-1-003",
+      "status": "rebutted",
+      "rebuttal": "Scanner-prefix-heuristiek mist overgang uy->ui: bron-stam 'uytverk' vs modern 'uitverk'. Basis 'uitverkoren' consistent in v1/v5/v13; variatie -en/-e (uitverkoren Vrouw attributief vs de uitverkorene nominaal) is grammaticale verbuiging naar context, niet drift. False-positive.",
+      "verified_at": "2026-05-24T05:13:35.515490+00:00"
+    }
+  ]
+}
