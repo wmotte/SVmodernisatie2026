@@ -142,6 +142,42 @@
       "generated_at": "2026-05-24T05:45:19.345558Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 16,
+      "original": "Dese zijn <Namel. soo tegen Godt, dat hy haer niet genoegh en doet: als tegen de menschen, ende voornamelick die over haer gestelt zijn, met welcker regeeringe sy niet te vreden en zijn.> murmureerders, <D. niet te vreden zijnde met den staet ofte deel, die Godt haer toegeschickt heeft.> klagers over haren staet, wandelende na <Namel. vleeschelicke begeerlickheden. Siet Rom. 8.1, 5. 2.Cor. 10.3. Galat. 5.16. 2.Petr. 3.3.> hare begeerlickheden: $2.Petr. 2.18.$ ende haren mont spreeckt seer opgeblasene dingen: <D. als met een verwonderinge prijsende ende pluymstrijckende de persoonen die om haren rijckdom ofte macht in aensien zijn, ende haer voorderlick konnen wesen.> verwonderende haer over de persoonen <Om door dese pluymstrijckerije, van haer voordeel te bekomen.> om des voordeels wille.",
+      "modernized": "Dezen zijn <Namelijk, zo tegen God, dat hij hun niet genoeg doet, als tegen de mensen, en voornamelijk die over hen gesteld zijn, met wier regering zij niet tevreden zijn.> morrenden, <Dat is, die niet tevreden zijn met de staat of het deel dat God hun toebedeeld heeft.> klagers over hun lot, die wandelen naar <Namelijk, vleselijke begeerten. Zie $Rm. 8:1,5; 2Kor. 10:3; Gl. 5:16; 2Pt. 3:3$.> hun begeerten; $2Pt. 2:18$ en hun mond spreekt zeer opgeblazen dingen: <Dat is, alsof zij met verwondering de personen prijzen en vleien die om hun rijkdom of macht in aanzien zijn en hun voordelig kunnen zijn.> zij bewonderen de personen <Om door deze vleierij van hen voordeel te verkrijgen.> ter wille van het voordeel.",
+      "source_text": "οὗτοί εἰσι γογγυσταί, μεμψίμοιροι, κατὰ τὰς ἐπιθυμίας αὐτῶν πορευόμενοι, καὶ τὸ στόμα αὐτῶν λαλεῖ ὑπέρογκα, θαυμάζοντες πρόσωπα ὠφελείας χάριν.",
+      "generated_at": "2026-05-24T05:48:38.771810Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 17,
+      "original": "Maer geliefde, gedenckt ghy der woorden die voorseght zijn <Hier uyt en volght niet dat dese Iudas niet en soude mede een Apostel Christi geweest zijn. Want oock Petrus maeckt gewagh van de Sendtbrieven Pauli, 2.Petr. 3.15. maer alleen dat hy na de andere Apostelen heeft geschreven. Hy siet hier voornamelick op de Apostelen Paulum ende Petrum.> van de Apostelen onses Heeren Iesu Christi:",
+      "modernized": "Maar geliefden, gedenk de woorden die voorzegd zijn <Hieruit volgt niet dat deze Judas niet ook een Apostel van Christus geweest zou zijn. Want ook Petrus maakt gewag van de Brieven van Paulus, $2Pt. 3:15$ maar alleen dat hij na de andere Apostelen geschreven heeft. Hij doelt hier voornamelijk op de Apostelen Paulus en Petrus.> door de Apostelen van onze Heere Jezus Christus:",
+      "source_text": "Ὑμεῖς δέ, ἀγαπητοί, μνήσθητε τῶν ῥημάτων τῶν προειρημένων ὑπὸ τῶν ἀποστόλων τοῦ Κυρίου ἡμῶν Ἰησοῦ Χριστοῦ·",
+      "generated_at": "2026-05-24T05:49:00.260762Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 18,
+      "original": "Dat sy u geseght hebben, $Actor. 30.29. 1.Timoth. 4.1. 2.Timoth. 3.1. ende 4.3. 2.Petr. 2.1. ende 3.3.$ dat in den laetsten tijt spotters sullen zijn, die na hare <Gr. begeerlickheden der godtloosheden.> godtloose begeerlickheden wandelen sullen.",
+      "modernized": "Dat zij u gezegd hebben, $Hd. 30:29; 1Tm. 4:1; 2Tm. 3:1; 4:3; 2Pt. 2:1; 3:3$ dat er in de laatste tijd spotters zullen zijn, die naar hun <Grieks: begeerten van de goddeloosheden.> goddeloze begeerten zullen wandelen.",
+      "source_text": "ὅτι ἔλεγον ὑμῖν, ὅτι ἐν ἐσχάτῳ χρόνῳ ἔσονται ἐμπαῖκται, κατὰ τὰς ἑαυτῶν ἐπιθυμίας πορευόμενοι τῶν ἀσεβειῶν.",
+      "generated_at": "2026-05-24T05:49:34.563010Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "subject": "bijbelverwijzing Hd. 30:29",
+          "context": "verwijzingsblok na de aanhef",
+          "choice": "notatie behouden zoals in SV1657-origineel (Actor. 30.29)",
+          "reason": "de SV1657-druk geeft hier een onmogelijk hoofdstuknummer (Handelingen telt 28 hoofdstukken); de modernisatie normaliseert alleen de notatie en raakt het brongegeven niet aan, zodat de drukfout zichtbaar blijft."
+        }
+      ]
     }
   ],
   "epilogue": {
