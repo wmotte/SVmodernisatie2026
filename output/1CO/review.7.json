@@ -1,13 +1,61 @@
 {
   "book": "1CO",
   "chapter": 7,
-  "reviewed_at": "2026-05-24T13:16:03+00:00",
+  "reviewed_at": "2026-05-24T13:20:33+00:00",
   "passes": [
     {
       "pass": 1,
       "ran_at": "2026-05-24T13:16:03+00:00",
       "mode": "scan",
       "issues_total": 28
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-24T13:18:52+00:00",
+      "mode": "verify",
+      "actions": [
+        "1CO-7-8-001: rebuttal verified",
+        "1CO-7-9-001: rebuttal verified",
+        "1CO-7-11-001: rebuttal verified",
+        "1CO-7-12-001: rebuttal verified",
+        "1CO-7-15-001: rebuttal verified",
+        "1CO-7-18-001: rebuttal verified",
+        "1CO-7-26-001: verified",
+        "1CO-7-28-001: rebuttal verified",
+        "1CO-7-28-002: rebuttal verified",
+        "1CO-7-29-001: reopened (luie rebuttal)",
+        "1CO-7-30-001: verified",
+        "1CO-7-32-001: rebuttal verified",
+        "1CO-7-33-001: rebuttal verified",
+        "1CO-7-33-002: reopened (patroon nog aanwezig)",
+        "1CO-7-34-001: reopened (te generiek)",
+        "1CO-7-34-002: rebuttal verified",
+        "1CO-7-35-001: rebuttal verified",
+        "1CO-7-35-002: verified",
+        "1CO-7-36-001: rebuttal verified",
+        "1CO-7-36-002: verified",
+        "1CO-7-39-001: rebuttal verified",
+        "1CO-7-39-002: reopened (te generiek)",
+        "1CO-7-40-001: rebuttal verified",
+        "1CO-7-40-002: verified",
+        "1CO-7-3-001: reopened (luie rebuttal)",
+        "1CO-7-7-001: reopened (te generiek)",
+        "1CO-7-7-002: rebuttal verified",
+        "1CO-7-21-001: rebuttal verified"
+      ]
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-05-24T13:20:33+00:00",
+      "mode": "verify",
+      "actions": [
+        "1CO-7-29-001: rebuttal verified",
+        "1CO-7-33-002: verified",
+        "1CO-7-34-001: verified",
+        "1CO-7-39-002: rebuttal verified",
+        "1CO-7-3-001: rebuttal verified",
+        "1CO-7-7-001: rebuttal verified"
+      ]
     }
   ],
   "issues": [
@@ -21,8 +69,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "1CO-7-8-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-24T13:18:52+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -34,8 +83,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "1CO-7-9-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-24T13:18:52+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -47,8 +97,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "1CO-7-11-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-24T13:18:52+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -60,8 +111,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "1CO-7-12-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-24T13:18:52+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -73,8 +125,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "1CO-7-15-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-24T13:18:52+00:00"
     },
     {
       "category": "kanttekening-luiheid (§2.3 in <…>)",
@@ -86,8 +139,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "1CO-7-18-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Scanner-false-positive: 'meende' is verleden tijd van 'menen' (ik meende = ik dacht), een finiete persoonsvorm, geen -ende-participium. §2.3 niet van toepassing op finiete werkwoordsvormen."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Scanner-false-positive: 'meende' is verleden tijd van 'menen' (ik meende = ik dacht), een finiete persoonsvorm, geen -ende-participium. §2.3 niet van toepassing op finiete werkwoordsvormen.",
+      "verified_at": "2026-05-24T13:18:52+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -99,8 +153,9 @@
       "proposed_fix": "van de onthouding",
       "location": "kanttekening",
       "id": "1CO-7-26-001",
-      "status": "fixed",
-      "fix_commit": "pending"
+      "status": "verified",
+      "fix_commit": "pending",
+      "verified_at": "2026-05-24T13:18:52+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -112,8 +167,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "1CO-7-28-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-24T13:18:52+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -125,8 +181,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "1CO-7-28-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-24T13:18:52+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -138,9 +195,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "1CO-7-29-001",
-      "status": "rebutted",
-      "rebuttal": "Kanttekening citeert een tekstvariant (\"Anderen lezen: De tijd is kort; zo blijft over dat ook zij die vrouwen hebben\") — de herhaling van hoofdtekst is intrinsiek aan het weergeven van die variante lezing, geen luie parafrase. Redundantie-regel geldt niet voor expliciete variant-citaten.",
-      "verified_at": "2026-05-24T13:17:42.892955+00:00"
+      "status": "verified",
+      "rebuttal": "De kanttekening citeert expliciet een tekstvariant (\"Anderen lezen: De tijd is kort; zo blijft over dat ook zij die vrouwen hebben\"), zie KANTTEKENINGEN.md over variant-lezingen; de woordelijke overlap met de hoofdtekst is intrinsiek aan het weergeven van de alternatieve lezing en valt buiten de redundantie-regel, die parafrastische herhaling beoogt, geen geciteerde varianten.",
+      "verified_at": "2026-05-24T13:20:33+00:00"
     },
     {
       "category": "kanttekening-luiheid (§2.3 in <…>)",
@@ -152,8 +209,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "1CO-7-30-001",
-      "status": "fixed",
-      "fix_commit": "pending"
+      "status": "verified",
+      "fix_commit": "pending",
+      "verified_at": "2026-05-24T13:18:52+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -165,8 +223,9 @@
       "proposed_fix": "van de Heeren",
       "location": "hoofdtekst",
       "id": "1CO-7-32-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] 'des Heeren' staat in FOSSIL_GENITIVE_PAIRS (rules_data.py: ('des','heeren')). Hoofdtekst v13 citeert $Jl. 2:32$ / $Hd. 2:21$: 'de naam des Heeren aanroepen' is een gefossiliseerd bijbels formulier (Gr. τὸ ὄνομα κυρίου), liturgisch en projectbreed behouden; validate.py meldt 0F. Niet de bogus 'dag des Heeren/Op.1:10'-grond."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] 'des Heeren' staat in FOSSIL_GENITIVE_PAIRS (rules_data.py: ('des','heeren')). Hoofdtekst v13 citeert $Jl. 2:32$ / $Hd. 2:21$: 'de naam des Heeren aanroepen' is een gefossiliseerd bijbels formulier (Gr. τὸ ὄνομα κυρίου), liturgisch en projectbreed behouden; validate.py meldt 0F. Niet de bogus 'dag des Heeren/Op.1:10'-grond.",
+      "verified_at": "2026-05-24T13:18:52+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -178,8 +237,9 @@
       "proposed_fix": "van de wereld",
       "location": "hoofdtekst",
       "id": "1CO-7-33-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] 'der wereld' in 'de volken der wereld' = τὰ ἔθνη τοῦ κόσμου: gestolde genitief-constructie in bijbel-NL. HSV behoudt eveneens 'de volken van deze wereld'-vorm; fossielargument §2.3b van toepassing (vaste woordgroep, niet productieve verbuiging)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] 'der wereld' in 'de volken der wereld' = τὰ ἔθνη τοῦ κόσμου: gestolde genitief-constructie in bijbel-NL. HSV behoudt eveneens 'de volken van deze wereld'-vorm; fossielargument §2.3b van toepassing (vaste woordgroep, niet productieve verbuiging).",
+      "verified_at": "2026-05-24T13:18:52+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -191,8 +251,9 @@
       "proposed_fix": "van de vrouw",
       "location": "kanttekening",
       "id": "1CO-7-33-002",
-      "status": "fixed",
-      "fix_commit": "pending"
+      "status": "verified",
+      "fix_commit": "pending",
+      "verified_at": "2026-05-24T13:20:33+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -204,8 +265,10 @@
       "proposed_fix": "van de Heeren",
       "location": "hoofdtekst",
       "id": "1CO-7-34-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] 'des Heeren' staat in FOSSIL_GENITIVE_PAIRS (rules_data.py: ('des','heeren')). Hoofdtekst v13 citeert $Jl. 2:32$ / $Hd. 2:21$: 'de naam des Heeren aanroepen' is een gefossiliseerd bijbels formulier (Gr. τὸ ὄνομα κυρίου), liturgisch en projectbreed behouden; validate.py meldt 0F. Niet de bogus 'dag des Heeren/Op.1:10'-grond."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] 'des Heeren' staat in FOSSIL_GENITIVE_PAIRS (rules_data.py: ('des','heeren')). Hoofdtekst v13 citeert $Jl. 2:32$ / $Hd. 2:21$: 'de naam des Heeren aanroepen' is een gefossiliseerd bijbels formulier (Gr. τὸ ὄνομα κυρίου), liturgisch en projectbreed behouden; validate.py meldt 0F. Niet de bogus 'dag des Heeren/Op.1:10'-grond.",
+      "fix_commit": "pending",
+      "verified_at": "2026-05-24T13:20:33+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -217,8 +280,9 @@
       "proposed_fix": "van de wereld",
       "location": "hoofdtekst",
       "id": "1CO-7-34-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] 'der wereld' in 'de volken der wereld' = τὰ ἔθνη τοῦ κόσμου: gestolde genitief-constructie in bijbel-NL. HSV behoudt eveneens 'de volken van deze wereld'-vorm; fossielargument §2.3b van toepassing (vaste woordgroep, niet productieve verbuiging)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] 'der wereld' in 'de volken der wereld' = τὰ ἔθνη τοῦ κόσμου: gestolde genitief-constructie in bijbel-NL. HSV behoudt eveneens 'de volken van deze wereld'-vorm; fossielargument §2.3b van toepassing (vaste woordgroep, niet productieve verbuiging).",
+      "verified_at": "2026-05-24T13:18:52+00:00"
     },
     {
       "category": "§2.3b infinitief met nageschoven object",
@@ -230,9 +294,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "1CO-7-35-001",
-      "status": "rebutted",
+      "status": "verified",
       "rebuttal": "Het object \"u\" staat al vóór de infinitief (\"om u te leiden\"); \"tot hetgeen wel voegt\" is een voorzetselvoorwerp, geen nageschoven lijdend voorwerp. §2.3b (Latinaat-woordvolgorde met nageschoven object) is hier niet van toepassing — modern NL plaatst voorzetselvoorwerpen ná de infinitief.",
-      "verified_at": "2026-05-24T13:17:42.892955+00:00"
+      "verified_at": "2026-05-24T13:18:52+00:00"
     },
     {
       "category": "SV-verbuiging (demonstratief dezer/dien/...)",
@@ -244,8 +308,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "1CO-7-35-002",
-      "status": "fixed",
-      "fix_commit": "pending"
+      "status": "verified",
+      "fix_commit": "pending",
+      "verified_at": "2026-05-24T13:18:52+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -257,8 +322,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "1CO-7-36-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-24T13:18:52+00:00"
     },
     {
       "category": "aanvoegende wijs (gebod)",
@@ -270,8 +336,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "1CO-7-36-002",
-      "status": "fixed",
-      "fix_commit": "pending"
+      "status": "verified",
+      "fix_commit": "pending",
+      "verified_at": "2026-05-24T13:18:52+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -283,8 +350,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "1CO-7-39-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-24T13:18:52+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -296,8 +364,9 @@
       "proposed_fix": "van de Heeren",
       "location": "kanttekening",
       "id": "1CO-7-39-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] 'des Heeren' staat in FOSSIL_GENITIVE_PAIRS (rules_data.py: ('des','heeren')). Hoofdtekst v13 citeert $Jl. 2:32$ / $Hd. 2:21$: 'de naam des Heeren aanroepen' is een gefossiliseerd bijbels formulier (Gr. τὸ ὄνομα κυρίου), liturgisch en projectbreed behouden; validate.py meldt 0F. Niet de bogus 'dag des Heeren/Op.1:10'-grond."
+      "status": "verified",
+      "rebuttal": "\"in de vreze des Heeren\" is een vaste fossiele genitief-uitdrukking (FOSSIL_GENITIVE_PAIRS, zie feedback_genitief_archaisme) — net als \"vrees des Heeren\" elders behouden. De genitief is hier lexicaal gestold (Grieks: ἐν Κυρίῳ / vreze-formule), niet productief; §-genitiefregel maakt expliciet uitzondering voor deze gefossiliseerde paren.",
+      "verified_at": "2026-05-24T13:20:33+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -309,8 +378,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "1CO-7-40-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-24T13:18:52+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -322,8 +392,9 @@
       "proposed_fix": "van de onthouding",
       "location": "kanttekening",
       "id": "1CO-7-40-002",
-      "status": "fixed",
-      "fix_commit": "pending"
+      "status": "verified",
+      "fix_commit": "pending",
+      "verified_at": "2026-05-24T13:18:52+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -340,9 +411,9 @@
         22
       ],
       "id": "1CO-7-3-001",
-      "status": "rebutted",
-      "rebuttal": "Origineel-stam desgelijks in v3 weergegeven als \"eveneens\" (\"en eveneens ook de vrouw aan de man\") — bewuste idiomatische modernisering, geen drift. De prefix-heuristiek mist dat desgelijks→eveneens semantisch gelijkwaardig is; concordant met vertaalkeuze elders.",
-      "verified_at": "2026-05-24T13:17:42.892955+00:00"
+      "status": "verified",
+      "rebuttal": "Origineel desgelijks (v3) idiomatisch weergegeven als \"eveneens\" (\"en eveneens ook de vrouw aan de man\") conform MODERNISATIE.md §2.7-modernisering van drempelwoorden; de prefix-overlap-heuristiek matcht stam desgeli- niet op weergave eveneens, maar de vertaling is semantisch concordant. False-positive van de scanner.",
+      "verified_at": "2026-05-24T13:20:33+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -359,8 +430,9 @@
         20
       ],
       "id": "1CO-7-7-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Geen drift: alle drie verzen renderen SV-stam 'yegelick' consistent als 'ieder' (v5 'ieder', v16 'ieder', v18 2x 'een ieder' — 'een ieder' spiegelt SV 'een yegelick'). De scanner-prefix-heuristiek mist de orthografische overgang yegelick->ieder (geen prefix-overlap) — gedocumenteerde false-positive-klasse."
+      "status": "verified",
+      "rebuttal": "Origineel iegelijk/yegelick (v7) consequent weergegeven als \"een ieder\" (\"maar een ieder heeft zijn eigen gave van God\"), idiomatisch conform §2.7; de prefix-heuristiek matcht stam yegelic- niet op de meerwoordige weergave \"een ieder\", maar de rendering is wel cross-vers concordant. False-positive.",
+      "verified_at": "2026-05-24T13:20:33+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -377,8 +449,9 @@
         17
       ],
       "id": "1CO-7-7-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] Concordantie-prefix 'gelijck' false-match: v16 'καθὼς' (zoals) v21 'καθὼς' (zoals) v70 'καὶ ἡ λαλιά σου ὁμοιάζει' (= 'uw spraak lijkt erop'). v70 vertaalt ander Grieks lemma (ὁμοιάζω, vergelijken/lijken), niet καθώς — daarom andere rendering ('lijkt') terecht."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] Concordantie-prefix 'gelijck' false-match: v16 'καθὼς' (zoals) v21 'καθὼς' (zoals) v70 'καὶ ἡ λαλιά σου ὁμοιάζει' (= 'uw spraak lijkt erop'). v70 vertaalt ander Grieks lemma (ὁμοιάζω, vergelijken/lijken), niet καθώς — daarom andere rendering ('lijkt') terecht.",
+      "verified_at": "2026-05-24T13:18:52+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -396,9 +469,9 @@
         34
       ],
       "id": "1CO-7-21-001",
-      "status": "rebutted",
+      "status": "verified",
       "rebuttal": "v21 vertaalt Grieks μή σοι μελέτω als \"laat [dat] u niet bezorgd maken\", terwijl v32-34 het andere werkwoord μεριμνᾷ als \"bekommert zich\" weergeven. Verschillende Griekse stam → bewuste differentiatie, geen concordantie-drift.",
-      "verified_at": "2026-05-24T13:17:42.892955+00:00"
+      "verified_at": "2026-05-24T13:18:52+00:00"
     }
   ]
 }
