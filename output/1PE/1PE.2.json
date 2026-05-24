@@ -168,6 +168,47 @@
       "generated_at": "2026-05-24T18:32:36.890022Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 16,
+      "original": "$Ioan. 8.32. Rom. 6.18. Galat. 5.1.$ <Dat is, als van Christo wel vry gemaeckt van de heerschappije des duyvels ende der sonde, maer niet om onder dit decksel u de gehoorsaemheyt der Overheden te ontrecken, ofte quaet te doen: maer om Godt te dienen, ende sijne wetten te gehoorsamen.> Als vrije, ende niet de vryheyt hebbende als een decksel der boosheyt, maer als dienstknechten Godts.",
+      "modernized": "$Jh. 8:32; Rm. 6:18; Gl. 5:1$ <Dat is, als van Christus wel vrijgemaakt van de heerschappij van de duivel en van de zonde, maar niet om onder deze dekmantel u aan de gehoorzaamheid van de Overheden te onttrekken, of kwaad te doen; maar om God te dienen en zijn wetten te gehoorzamen.> Als vrije mensen, en de vrijheid niet gebruikend als een dekmantel van de boosheid, maar als dienstknechten van God.",
+      "source_text": "ὡς ἐλεύθεροι, καὶ μὴ ὡς ἐπικάλυμμα ἔχοντες τῆς κακίας τὴν ἐλευθερίαν, ἀλλ’ ὡς δοῦλοι Θεοῦ.",
+      "generated_at": "2026-05-24T18:37:11.856868Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 17,
+      "original": "$Rom. 12.10. 1.Petr. 5.5.$ <Namelick, met de eere die hem volgens sijnen staet ende beroep toekomt.> Eert een yegelick: $Rom. 12.10. Ephes. 4.3. Hebr. 13.1. 1.Petr. 1.22.$ hebt <D. de broederen ende hare Christelicke vergaderingen: gelijck hier na Cap. 5. vers 9.> de broederschap lief: vreest Godt: $Matth. 22.21.$ eert den Koningh.",
+      "modernized": "$Rm. 12:10; 1Pt. 5:5$ <Namelijk, met de eer die hem volgens zijn staat en beroep toekomt.> Eer eenieder: $Rm. 12:10; Ef. 4:3; Hb. 13:1; 1Pt. 1:22$ heb <Dat is, de broeders en hun Christelijke vergaderingen; zoals hierna $1Pt. 5:9$.> de broederschap lief: vrees God: $Mt. 22:21$ eer de Koning.",
+      "source_text": "πάντας τιμήσατε. τὴν ἀδελφότητα ἀγαπᾶτε. τὸν Θεὸν φοβεῖσθε. τὸν βασιλέα τιμᾶτε.",
+      "generated_at": "2026-05-24T18:37:57.916858Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 18,
+      "original": "$Ephes. 6.5. Coloss. 3.22. 1.Timoth. 6.1. Titum 2.9.$ Ghy huysknechten, zijt <Namelick, niet alleen der straffe, maer oock der overtredinge van hare geboden, ende met sorghvuldigheyt om haer niet te vertoornen, soo veel in u is.> met alle vreese <Namel. in den Heere, gelijck Paulus daer by voeght, Ephes. 6.1.> onderdanigh den heeren, niet alleen den goeden ende bescheydenen, maer oock <Gr. den verdraeyden, krommen, slimmen, verkeerden.> den harden.",
+      "modernized": "$Ef. 6:5; Ko. 3:22; 1Tm. 6:1; Tt. 2:9$ U huisknechten, wees <Namelijk, niet alleen vanwege de straf, maar ook vanwege de overtreding van hun geboden, en met zorgvuldigheid om hen niet te vertoornen, zoveel in u is.> met alle vrees <Namelijk, in de Heere, zoals Paulus daarbij voegt, $Ef. 6:1$.> onderdanig aan de heren, niet alleen aan de goeden en welwillenden, maar ook <Grieks: aan de verdraaiden, krommen, slinksen, verkeerden.> aan de harden.",
+      "source_text": "Οἱ οἰκέται, ὑποτασσόμενοι ἐν παντὶ φόβῳ τοῖς δεσπόταις, οὐ μόνον τοῖς ἀγαθοῖς καὶ ἐπιεικέσιν, ἀλλὰ καὶ τοῖς σκολιοῖς.",
+      "generated_at": "2026-05-24T18:38:32.202729Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "bescheydenen",
+          "context": "hoofdtekst",
+          "choice": "welwillenden",
+          "alternatives": [
+            "bescheidenen",
+            "inschikkelijken",
+            "redelijken"
+          ],
+          "reason": "SV bescheyden hier in 17e-eeuwse zin van billijk/inschikkelijk (Grieks epieikesin); modern bescheiden betekent enkel nederig en is een false friend."
+        }
+      ]
     }
   ]
 }
