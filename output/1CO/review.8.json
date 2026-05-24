@@ -1,7 +1,7 @@
 {
   "book": "1CO",
   "chapter": 8,
-  "reviewed_at": "2026-05-24T14:48:14+00:00",
+  "reviewed_at": "2026-05-24T14:50:04+00:00",
   "passes": [
     {
       "pass": 1,
@@ -25,6 +25,16 @@
         "1CO-8-13-001: rebuttal verified",
         "1CO-8-13-002: reopened (luie rebuttal)",
         "1CO-8-7-001: rebuttal verified"
+      ]
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-05-24T14:50:04+00:00",
+      "mode": "verify",
+      "actions": [
+        "1CO-8-10-001: verified",
+        "1CO-8-11-001: rebuttal verified",
+        "1CO-8-13-002: rebuttal verified"
       ]
     }
   ],
@@ -81,7 +91,8 @@
       "proposed_fix": "om de dingen die aan de afgoden geofferd zijn te eten?",
       "location": "hoofdtekst",
       "id": "1CO-8-10-001",
-      "status": "fixed"
+      "status": "verified",
+      "verified_at": "2026-05-24T14:50:04+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -120,8 +131,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "1CO-8-11-001",
-      "status": "rebutted",
-      "rebuttal": "Scanner-false-positive: de span 'wie Christus gestorven is' is de hoofdtekstvertaling van het Griekse δι’ ὃν Χριστὸς ἀπέθανεν, niet een echo binnen de kanttekening. De inline-noot ('om wie <lange noot> Christus gestorven is?') splitst de hoofdtekstzin in tweeën; het 4-token-venster van de KANTTEKENINGEN.md-redundantieregel ving de hoofdtekstwoorden die om de notemarkering heen lopen. De noottekst zelf herhaalt de hoofdtekst nergens parafrastisch."
+      "status": "verified",
+      "rebuttal": "Scanner-false-positive: de span 'wie Christus gestorven is' is de hoofdtekstvertaling van het Griekse δι’ ὃν Χριστὸς ἀπέθανεν, niet een echo binnen de kanttekening. De inline-noot ('om wie <lange noot> Christus gestorven is?') splitst de hoofdtekstzin in tweeën; het 4-token-venster van de KANTTEKENINGEN.md-redundantieregel ving de hoofdtekstwoorden die om de notemarkering heen lopen. De noottekst zelf herhaalt de hoofdtekst nergens parafrastisch.",
+      "verified_at": "2026-05-24T14:50:04+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -160,8 +172,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "1CO-8-13-002",
-      "status": "rebutted",
-      "rebuttal": "§2.3b verbiedt bare relativum 'welke' (= 'die/dat'), maar in 'van welke soort die ook is' staat 'welke' adjectivisch-determinatief vóór 'soort' in een concessieve free-choice-wending ('van welke soort dan ook'). Dit is geen relatieve aansluiting maar een idiomatische ongeacht-constructie die in modern formeel NL volledig productief blijft ('van welke aard dan ook'). Vertaalt SV 'van wat soorte die ware'."
+      "status": "verified",
+      "rebuttal": "§2.3b verbiedt bare relativum 'welke' (= 'die/dat'), maar in 'van welke soort die ook is' staat 'welke' adjectivisch-determinatief vóór 'soort' in een concessieve free-choice-wending ('van welke soort dan ook'). Dit is geen relatieve aansluiting maar een idiomatische ongeacht-constructie die in modern formeel NL volledig productief blijft ('van welke aard dan ook'). Vertaalt SV 'van wat soorte die ware'.",
+      "verified_at": "2026-05-24T14:50:04+00:00"
     },
     {
       "category": "concordantie-drift",
