@@ -1,13 +1,40 @@
 {
   "book": "1PE",
   "chapter": 2,
-  "reviewed_at": "2026-05-24T18:53:02+00:00",
+  "reviewed_at": "2026-05-24T18:58:22+00:00",
   "passes": [
     {
       "pass": 1,
       "ran_at": "2026-05-24T18:53:02+00:00",
       "mode": "scan",
       "issues_total": 20
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-24T18:58:22+00:00",
+      "mode": "verify",
+      "actions": [
+        "1PE-2-2-001: verified",
+        "1PE-2-2-002: verified",
+        "1PE-2-3-001: rebuttal verified",
+        "1PE-2-3-002: rebuttal verified",
+        "1PE-2-4-001: rebuttal verified",
+        "1PE-2-5-001: verified",
+        "1PE-2-6-001: verified",
+        "1PE-2-6-002: verified",
+        "1PE-2-6-003: rebuttal verified",
+        "1PE-2-12-001: rebuttal verified",
+        "1PE-2-13-001: rebuttal verified",
+        "1PE-2-13-002: rebuttal verified",
+        "1PE-2-13-003: rebuttal verified",
+        "1PE-2-19-001: rebuttal verified",
+        "1PE-2-20-001: rebuttal verified",
+        "1PE-2-20-002: rebuttal verified",
+        "1PE-2-24-001: verified",
+        "1PE-2-24-002: rebuttal verified",
+        "1PE-2-4-002: rebuttal verified",
+        "1PE-2-4-003: rebuttal verified"
+      ]
     }
   ],
   "issues": [
@@ -21,8 +48,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "1PE-2-2-001",
-      "status": "fixed",
-      "fix_commit": "PENDING"
+      "status": "verified",
+      "fix_commit": "PENDING",
+      "verified_at": "2026-05-24T18:58:22+00:00"
     },
     {
       "category": "diminutief op -ken/-kens",
@@ -34,8 +62,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "1PE-2-2-002",
-      "status": "fixed",
-      "fix_commit": "PENDING"
+      "status": "verified",
+      "fix_commit": "PENDING",
+      "verified_at": "2026-05-24T18:58:22+00:00"
     },
     {
       "category": "§2.3b vocatief-u",
@@ -47,9 +76,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "1PE-2-3-001",
-      "status": "rebutted",
+      "status": "verified",
       "rebuttal": "'u' is grammaticaal onderwerp van 'gesmaakt hebt' (Gr. ἐγεύσασθε, 2e pers. mv.), geen appositieve vocatief; verwijdering maakt de conditionele bijzin 'Indien u ... gesmaakt hebt' onderwerploos. §2.3b vocatief-regel viseert aanspreek-u aan clausebegin, niet het subjects-u.",
-      "verified_at": "2026-05-24T18:55:48.620147+00:00"
+      "verified_at": "2026-05-24T18:58:22+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -61,8 +90,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "1PE-2-3-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-24T18:58:22+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -74,8 +104,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "1PE-2-4-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-24T18:58:22+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -87,8 +118,9 @@
       "proposed_fix": "van de dankbaarheid",
       "location": "kanttekening",
       "id": "1PE-2-5-001",
-      "status": "fixed",
-      "fix_commit": "PENDING"
+      "status": "verified",
+      "fix_commit": "PENDING",
+      "verified_at": "2026-05-24T18:58:22+00:00"
     },
     {
       "category": "kanttekening-luiheid (§2.3 in <…>)",
@@ -100,8 +132,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "1PE-2-6-001",
-      "status": "fixed",
-      "fix_commit": "PENDING"
+      "status": "verified",
+      "fix_commit": "PENDING",
+      "verified_at": "2026-05-24T18:58:22+00:00"
     },
     {
       "category": "kanttekening-luiheid (§2.3 in <…>)",
@@ -113,8 +146,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "1PE-2-6-002",
-      "status": "fixed",
-      "fix_commit": "PENDING"
+      "status": "verified",
+      "fix_commit": "PENDING",
+      "verified_at": "2026-05-24T18:58:22+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -126,9 +160,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "1PE-2-6-003",
-      "status": "rebutted",
+      "status": "verified",
       "rebuttal": "False-positive 4-token-venster over kanttekeninggrens: '<Zie hiervoor de aantekening op vers 4.>' is een verwijzingsinstructie (KANTTEKENINGEN.md verwijs-conventie), geen parafrastische herhaling. 'Schrift' en 'Zie' staan beide in de hoofdtekst zelf, niet herhaald in de kanttekening.",
-      "verified_at": "2026-05-24T18:55:48.620147+00:00"
+      "verified_at": "2026-05-24T18:58:22+00:00"
     },
     {
       "category": "genitief pronomen wiens/wier",
@@ -140,9 +174,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "1PE-2-12-001",
-      "status": "rebutted",
+      "status": "verified",
       "rebuttal": "'wiens' is productief modern NL relatief-genitief; antecedent 'God' (masc. enkelvoud), correcte vorm. Projectbreed consistent (41 bestanden, o.a. MRK/ROM). ARCHAISMEN.md r63 viseert alleen 'wier' (fem./mv., formeel-stijf), niet 'wiens'.",
-      "verified_at": "2026-05-24T18:55:48.620147+00:00"
+      "verified_at": "2026-05-24T18:58:22+00:00"
     },
     {
       "category": "dubbele negatie met clitisch en",
@@ -154,9 +188,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "1PE-2-13-001",
-      "status": "rebutted",
-      "rebuttal": "'en' in 'niet tegen God en zijn bevel' is nevenschikkend voegwoord ('God én zijn bevel'), niet het clitische SV-negatie-'en'. De SV-constructie 'niet en strijt' is al correct opgelost naar 'niet ... ingaat'. Geen dubbele negatie aanwezig.",
-      "verified_at": "2026-05-24T18:55:48.620147+00:00"
+      "status": "verified",
+      "rebuttal": "ARCHAISMEN.md (dubbele-negatie-regel) viseert het clitische SV-negatie-'en' in 'niet en + werkwoord'. SV-bron v13: 'tegen Godt ende sijn bevel niet en strijt' bevat TWEE verschillende 'en'-woorden: nevenschikkend 'ende' (God én bevel) en clitisch 'en' (niet en strijt). Alleen het clitische is gemoderniseerd naar 'niet ... ingaat'; het resterende 'en' in 'God en zijn bevel' is het nevenschikkende voegwoord — geen dubbele negatie. Scanner matcht het voegwoord-'en' abusievelijk.",
+      "verified_at": "2026-05-24T18:58:22+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -168,8 +202,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "1PE-2-13-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-24T18:58:22+00:00"
     },
     {
       "category": "genitief pronomen wiens/wier",
@@ -181,9 +216,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "1PE-2-13-003",
-      "status": "rebutted",
+      "status": "verified",
       "rebuttal": "'wiens' is productief modern NL relatief-genitief; antecedent 'de Romeinse Keizer' (masc. enkelvoud). ARCHAISMEN.md r63 viseert enkel 'wier', niet 'wiens'; projectbreed consistent toegepast (MRK 14, 1CO 6 e.a.).",
-      "verified_at": "2026-05-24T18:55:48.620147+00:00"
+      "verified_at": "2026-05-24T18:58:22+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -195,8 +230,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "1PE-2-19-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-24T18:58:22+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -208,8 +244,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "1PE-2-20-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-24T18:58:22+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -221,8 +258,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "1PE-2-20-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-24T18:58:22+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -234,8 +272,9 @@
       "proposed_fix": "van de verzoening",
       "location": "kanttekening",
       "id": "1PE-2-24-001",
-      "status": "fixed",
-      "fix_commit": "PENDING"
+      "status": "verified",
+      "fix_commit": "PENDING",
+      "verified_at": "2026-05-24T18:58:22+00:00"
     },
     {
       "category": "genitief pronomen wiens/wier",
@@ -247,9 +286,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "1PE-2-24-002",
-      "status": "rebutted",
+      "status": "verified",
       "rebuttal": "'wiens' is productief modern NL relatief-genitief; antecedent Christus (masc. enkelvoud), Jesaja 53:5-citaat. Standaardvorm in moderne bijbelvertalingen voor enkelvoudig mannelijk antecedent. ARCHAISMEN.md r63 viseert 'wier' (fem./mv.), niet 'wiens'.",
-      "verified_at": "2026-05-24T18:55:48.620147+00:00"
+      "verified_at": "2026-05-24T18:58:22+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -266,8 +305,9 @@
         9
       ],
       "id": "1PE-2-4-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Scanner-prefix-heuristiek mist overgang uy->ui: bron-stam 'uytverk' vs modern 'uitverk'. Basis 'uitverkoren' consistent in v1/v5/v13; variatie -en/-e (uitverkoren Vrouw attributief vs de uitverkorene nominaal) is grammaticale verbuiging naar context, niet drift. False-positive."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Scanner-prefix-heuristiek mist overgang uy->ui: bron-stam 'uytverk' vs modern 'uitverk'. Basis 'uitverkoren' consistent in v1/v5/v13; variatie -en/-e (uitverkoren Vrouw attributief vs de uitverkorene nominaal) is grammaticale verbuiging naar context, niet drift. False-positive.",
+      "verified_at": "2026-05-24T18:58:22+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -284,9 +324,9 @@
         7
       ],
       "id": "1PE-2-4-003",
-      "status": "rebutted",
+      "status": "verified",
       "rebuttal": "SV-stam 'dierbae' bewust naar 'kostbaar' gemoderniseerd in v4/6/7 (false-friend-correctie: ἔντιμον/τιμή = waardevol, niet emotioneel 'dierbaar'); v7 notes documenteert de keuze. Consistent toegepast — scanner-prefix-heuristiek mist stam-wissel dierb→kostb, false-positive.",
-      "verified_at": "2026-05-24T18:55:48.620147+00:00"
+      "verified_at": "2026-05-24T18:58:22+00:00"
     }
   ]
 }
