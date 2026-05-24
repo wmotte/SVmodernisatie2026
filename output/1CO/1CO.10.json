@@ -274,6 +274,46 @@
       "generated_at": "2026-05-24T18:30:56.776944Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 28,
+      "original": "Maer <Namelick, van de swacke geloovige, die daer door aenstoot soude mogen lijden: ofte oock der ongeloovige, die met u aensit, ende daer door u soude mogen aensien voor een mensche, die sonder religie, ofte van hare Heydensche religie soude zijn, soo ghy vermaent zijnde evenwel daer van soudt eten.> soo yemant tot u-lieden seght, Dat is afgoden-offer, en eet [het] niet om des genen wille die [u dat] te kennen gegeven heeft, ende [om] der conscientie wille. Want <Dese selve plaetse genomen uyt den 24 Psalm, brenght den Apostel hier wederom voort, om te bewijsen dat men sulcke spijse wel kan laten, dewijle daer meer spijsen zijn, die Godt op der aerden geschapen heeft tot ons gebruyck.> de aerde is des Heeren, ende de volheyt der selve.",
+      "modernized": "Maar <Namelijk, van de zwakke gelovige, die daardoor aanstoot zou mogen lijden; of ook van de ongelovige, die met u aanzit, en daardoor u zou mogen aanzien voor een mens die zonder religie, of van hun Heidense religie zou zijn, als u, terwijl u vermaand bent, evenwel daarvan zoudt eten.> zo iemand tot u zegt, Dat is afgodenoffer, eet [het] niet om diens wille die [u dat] te kennen gegeven heeft, en [ter] wille van het geweten. Want <Deze zelfde plaats, genomen uit de 24e Psalm, brengt de Apostel hier wederom voort, om te bewijzen dat men zulke spijs wel kan laten, dewijl er meer spijzen zijn, die God op de aarde geschapen heeft tot ons gebruik.> de aarde is des Heeren, en de volheid daarvan.",
+      "source_text": "ἐὰν δέ τις ὑμῖν εἴπῃ, Τοῦτο εἰδωλόθυτόν ἐστι, μὴ ἐσθίετε, δι’ ἐκεῖνον τὸν μηνύσαντα καὶ τὴν συνείδησιν· τοῦ γὰρ Κυρίου ἡ γῆ καὶ τὸ πλήρωμα αὐτῆς.",
+      "generated_at": "2026-05-24T18:35:02.547639Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "[om] der conscientie wille",
+          "context": "hoofdtekst, slot eerste zin",
+          "choice": "en [ter] wille van het geweten",
+          "alternatives": [
+            "en [om] der conscientie wille",
+            "en [om] het geweten"
+          ],
+          "reason": "Concordant met v25/v27 (geweten i.p.v. conscientie); de SV-toevoeging om...wille is gerenoveerd naar ter wille van, het vierkante-haakmerk verplaatst van [om] naar [ter] zodat het toegevoegde functiewoord gemarkeerd blijft; aantal haken blijft 3."
+        }
+      ]
+    },
+    {
+      "verse_number": 29,
+      "original": "Doch ick segge, [om] de conscientie niet uwes selfs, maer <Namelick, die u sulcks vermaent, ende daer door aenstoot lijdt, om de reden te voren verhaelt.> des anderen. Want waerom wort <D. waerom sal ick met het ergerlick gebruyck van vryheyt oorsake geven dat eens anders conscientie mijn doen veroordeele, ofte het selve lastere. Ofte, dewijle ick weet uyt Godts woort, dat my dit nu vry staet, waerom sal ick het oordeel van mijne conscientie het oordeel van eenes anderen conscientie, die noch swack is, onderworpen, ofte my van sulcke laten lasteren: het is my genoegh dat ick het eten van sulcke spijse voor dien tijt om harent wille nalate, ende evenwel in mijn gemoedt de vryheyt behoude, om op een ander tijt sonder aenstoot sulcks te doen, ende Godt daer voor te dancken.> mijne vryheyt geoordeelt van een ander conscientie?",
+      "modernized": "Maar ik zeg, [om] het geweten, niet dat van uzelf, maar <Namelijk, dat van de ander, die u zulks vermaant, en daardoor aanstoot lijdt, om de reden tevoren verhaald.> dat van de ander. Want waarom wordt <Dat is, waarom zal ik met het ergerlijke gebruik van vrijheid oorzaak geven dat het geweten van een ander mijn doen veroordeelt, of het lastert. Of, dewijl ik uit Gods woord weet dat mij dit nu vrijstaat, waarom zal ik het oordeel van mijn geweten onderwerpen aan het oordeel van het geweten van een ander, dat nog zwak is, of mij door zulke mensen laten lasteren? Het is mij genoeg dat ik het eten van zulke spijs voor die tijd om hunnentwil nalaat, en evenwel in mijn gemoed de vrijheid behoud, om op een andere tijd zonder aanstoot zulks te doen, en God daarvoor te danken.> mijn vrijheid geoordeeld door het geweten van een ander?",
+      "source_text": "συνείδησιν δὲ λέγω, οὐχὶ τὴν ἑαυτοῦ, ἀλλὰ τὴν τοῦ ἑτέρου· ἱνατί γὰρ ἡ ἐλευθερία μου κρίνεται ὑπὸ ἄλλης συνειδήσεως;",
+      "generated_at": "2026-05-24T18:35:37.083352Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 30,
+      "original": "Ende indien ick <Namelick, des Euangeliums, in het welcke ons Christus van het jock der ceremonien ende het onderscheyt der spijsen heeft vry gestelt.> door genade [der spijse] deelachtigh ben, waerom worde ick gelastert over het gene $Rom. 14.6. 1.Timoth. 4.3.$ daer voor ick dancksegge?",
+      "modernized": "En indien ik <Namelijk, van het Evangelie, waarin Christus ons van het juk van de ceremoniën en het onderscheid der spijzen heeft vrijgesteld.> door genade [van de spijs] deelachtig ben, waarom word ik gelasterd over hetgeen $Rm. 14:6; 1Tm. 4:3$ waarvoor ik dankzeg?",
+      "source_text": "εἰ δὲ ἐγὼ χάριτι μετέχω, τί βλασφημοῦμαι ὑπὲρ οὗ ἐγὼ εὐχαριστῶ;",
+      "generated_at": "2026-05-24T18:36:16.611889Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
