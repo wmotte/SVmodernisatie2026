@@ -1,0 +1,118 @@
+{
+  "book": "3JN",
+  "chapter": 1,
+  "reviewed_at": "2026-05-24T04:42:41+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-24T04:42:41+00:00",
+      "mode": "scan",
+      "issues_total": 7
+    }
+  ],
+  "issues": [
+    {
+      "category": "§2.3 finiet participium",
+      "verse": 7,
+      "severity": "soft",
+      "quote_modernized": "…ijn   voor zijn naam uitgegaan,   niets nemende van de Heidenen.",
+      "rule_reference": "MODERNISATIE.md §2.3",
+      "explanation": "'nemende' — verdacht -ende-woord in adverbial / clause-final positie. Ontvouw naar finiete bijzin ('en X', 'terwijl X', 'toen X').",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "3JN-1-7-001",
+      "status": "fixed",
+      "fix_note": "§2.3 finiet participium: hoofdtekst-clause-final \"niets nemende\" ontvouwd naar \"zonder iets van de Heidenen aan te nemen\" (μηδὲν λαμβάνοντες); spiegelt HSV."
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 10,
+      "severity": "soft",
+      "quote_modernized": "Daarom,   indien ik kom, zal ik   in gedachtenis b…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "3JN-1-10-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+    },
+    {
+      "category": "kanttekening-luiheid (§2.3 in <…>)",
+      "verse": 10,
+      "severity": "hard",
+      "quote_modernized": "…at is, lasterlijke. Dat is, beuzelingen voortbrengende. Dat is, mij, zoals ook i…",
+      "rule_reference": "KANTTEKENINGEN.md + §2.3",
+      "explanation": "'voortbrengende' binnen kanttekening — verdacht -ende-woord in adverbial / clause-final positie. §2.3 geldt ook in <…>; ontvouw naar finiete bijzin.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "3JN-1-10-002",
+      "status": "fixed",
+      "fix_note": "§2.3 in kanttekening: \"beuzelingen voortbrengende\" ontvouwd naar finiete gloss \"hij brengt beuzelingen voort\" (gloss op φλυαρῶν/snaterende)."
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 11,
+      "severity": "hard",
+      "quote_modernized": "…goed, als in het bijzonder van het goed der weldadigheid jegens de broeders, dat…",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'der weldadigheid' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de weldadigheid' of 'van het weldadigheid', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de weldadigheid",
+      "location": "kanttekening",
+      "id": "3JN-1-11-001",
+      "status": "fixed",
+      "fix_note": "Verbogen lidwoord \"der weldadigheid\" → \"van de weldadigheid\"; geen fossiel-paar (ARCHAISMEN.md), dus regulier vervangen."
+    },
+    {
+      "category": "voornaamwoordelijk bijwoord gesplitst",
+      "verse": 11,
+      "severity": "hard",
+      "quote_modernized": "…eldadigheid jegens de broeders, dat hij hier in Gajus prijst. Dat is, die zijn w…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'hier in' — SV-gesplitst voornaamwoordelijk bijwoord. Modern Nederlands voegt samen: 'hierin' (bv. daarin, waarmee, hierop).",
+      "proposed_fix": "hierin",
+      "location": "kanttekening",
+      "id": "3JN-1-11-002",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] v44 kanttekening: 'de bangheid die iemand heeft voordat de strijd begint; die hier in Christus geweest is'. 'hier in Christus' is geen gesplitst voornaamwoordelijk bijwoord; 'hier' = contrastief adverbium ('in dit geval'), 'in Christus' = zelfstandige bepalende prepositie-NP. Samentrekken tot 'hierin Christus' is grammaticaal onjuist. ARCHAISMEN.md-regel niet van toepassing."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 1,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'waerhey' in 5 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 5 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        1,
+        3,
+        4,
+        8,
+        12
+      ],
+      "id": "3JN-1-1-001",
+      "status": "rebutted",
+      "rebuttal": "Concordantie false-positive: scanner-prefix-heuristiek mist orthografische overgang ae→aa / eyt→eid. Origineel-stam waerhey rendert in álle 5 verzen (1,3,4,8,12) consistent als \"waarheid\"; geen drift. Zie §concordantie scanner-limitatie."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 2,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'gelijck' in 3 verzen — verzen [3] renderen het stam anders dan [2, 6]",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        2,
+        3,
+        6
+      ],
+      "id": "3JN-1-2-001",
+      "status": "rebutted",
+      "rebuttal": "Concordantie false-positive: stam gelijck rendert in v2, v3 én v6 alle als \"zoals\" (ook in de kanttekeningen). Scanner meldt v3-afwijking die in de feitelijke rendering niet bestaat; geen drift te harmoniseren."
+    }
+  ]
+}
