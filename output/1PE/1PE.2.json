@@ -61,6 +61,46 @@
       "generated_at": "2026-05-24T18:15:13.088665Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 7,
+      "original": "U dan die ghy gelooft is hy <Ofte, eerlick. Gr. dierbaerheyt, ofte, eerlickheyt, D. seer eerlick, ofte dierbaer.> dierbaer: <Namelick, in den Psalm 118.22. ende Iesa. 8.14. waer van siet de verklaringe op Matth. 21.42. Ephes. 2.20.> maer den ongehoorsamen [wort geseght,] $Psalm 118.22. Matth. 21.42. Actor. 4.11.$ De steen dien de bouwlieden verworpen hebben, <Namelick, voor Godts gemeynte, niet tegenstaende alle wederstant ende woelinge die de ongehoorsame daer tegen hebben gedaen.> dese is geworden tot een hooft des hoecks, ende $Iesa. 8.14. Rom. 9.33.$ <Namelick, voor de ongehoorsame selve, die haer tegen desen steen door ongeloove hebben gekant, gelijck het volgende vers verklaert.> een steen des aenstoots, ende een rotze der ergernisse:",
+      "modernized": "U dan die gelooft is hij <Of, eerlijk. Grieks: kostbaarheid, of, eerlijkheid, dat is, zeer eerlijk, of kostbaar.> kostbaar: <Namelijk, in $Ps. 118:22$ en $Js. 8:14$ waarvan zie de verklaring op $Mt. 21:42; Ef. 2:20$.> maar voor de ongehoorzamen [wordt gezegd,] $Ps. 118:22; Mt. 21:42; Hd. 4:11$ De steen die de bouwlieden verworpen hebben, <Namelijk, voor Gods gemeente, niettegenstaande alle wederstand en woeling die de ongehoorzamen daartegen hebben gedaan.> deze is geworden tot een hoofd van de hoek, en $Js. 8:14; Rm. 9:33$ <Namelijk, voor de ongehoorzamen zelf, die zich tegen deze steen door ongeloof hebben gekant, zoals het volgende vers verklaart.> een steen van aanstoot, en een rots van struikeling:",
+      "source_text": "ὑμῖν οὖν ἡ τιμὴ τοῖς πιστεύουσιν· ἀπειθοῦσι δέ, Λίθον ὃν ἀπεδοκίμασαν οἱ οἰκοδομοῦντες, οὗτος ἐγενήθη εἰς κεφαλὴν γωνίας, καί, Λίθος προσκόμματος καὶ πέτρα σκανδάλου·",
+      "generated_at": "2026-05-24T18:21:03.483760Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "dierbaer -> kostbaar",
+          "context": "hoofdtekst en eerste kanttekening",
+          "choice": "kostbaar",
+          "alternatives": [
+            "dierbaar",
+            "kostbaar"
+          ],
+          "reason": "Concordantie met vers 4 en 6 waar dierbaer al als kostbaar is gemoderniseerd."
+        }
+      ]
+    },
+    {
+      "verse_number": 8,
+      "original": "Den genen [namelick] die haer aen het woort stooten, ongehoorsaem zijnde, <Dat is, waer toe sy oock verordineert zijn, gelijck het woort setten, ofte, stellen, oock wort genomen, Ioan. 15. vers 16. Actor. 13.47. 1.Thessal. 5.9 Niet dat Godt yemant soude setten, ofte ordineeren om sijn woort ongehoorsaem te zijn, voor soo veel dat sonde is. Want sulcks soude strijden tegen Godts nature, Psalm 5.5. Iacob. 1.13. maer om dat Godt door sijn rechtveerdigh oordeel dese halsstarrige menschen in hare halsstarrigheyt heeft over gegeven, om dese hare ongehoorsaemheyt tegen Christum meer ende meer te ontdecken, Luce 2.34. ende haer selven alsoo de verdiende straffe ende toorne Godts met hare ongehoorsaemheyt meer ende meer over den hals te halen. Siet Iesa. 8.14. Matth. 21. vers 44. ende de aenteeckeninge op Rom. 1.24. ende 9.17.> waer toe sy oock geset zijn.",
+      "modernized": "Hun [namelijk] die zich aan het woord stoten, omdat zij ongehoorzaam zijn, <Dat is, waartoe zij ook verordineerd zijn, zoals het woord zetten, of, stellen, ook genomen wordt, $Jh. 15:16$ $Hd. 13:47$ $1Th. 5:9$ Niet dat God iemand zou zetten, of verordineren om aan zijn woord ongehoorzaam te zijn, voor zover dat zonde is. Want zulks zou strijden tegen Gods natuur, $Ps. 5:5$ $Jk. 1:13$ maar omdat God door zijn rechtvaardig oordeel deze halsstarrige mensen in hun halsstarrigheid heeft overgegeven, om deze hun ongehoorzaamheid tegen Christus meer en meer te ontdekken, $Lk. 2:34$ en henzelf zo de verdiende straf en toorn Gods met hun ongehoorzaamheid meer en meer over de hals te halen. Zie $Js. 8:14$ $Mt. 21:44$ en de aantekening op $Rm. 1:24; 9:17$.> waartoe zij ook gezet zijn.",
+      "source_text": "οἳ προσκόπτουσι τῷ λόγῳ ἀπειθοῦντες· εἰς ὃ καὶ ἐτέθησαν.",
+      "generated_at": "2026-05-24T18:21:41.070716Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 9,
+      "original": "$Exod. 19.5. Deuter. 7.6. ende 14.2. ende 26.18. Ephes. 1.14.$ Maer <Namelick, die Christum hebt aengenomen met waren geloove.> ghy zijt <D. u komen alle dese privilegien ende eertijtelen metter daet toe, die het gantsche volck Israëls doorgaens ende insonderheyt Exod. 19.5, 6. Deuter. 26.18, 19. ten aensien van het uyterlick verbont, worden gegeven. siet oock Malach. 3.16, 17. Rom. 9.8.> een uytverkoren geslachte, $Apoc. 1.6. ende 5.10.$ <Dat is, Koningen ende Priesters, gelijck Ioannes spreeckt Apoc. 1.6. Moses seght Exod. 19.6. een Priesterlick Koninckrijck. Doch d’Apostel volght de Griecksche oversettinge, dewijle het eenen sin heeft.> een Konincklick Priesterdom, een heyligh volck, <Gr. een volck tot verkrijginge, D. dat Godt hemselven door sijn bloet tot een eygendom heeft verkregen, Actor. 20.28.> een verkregen volck: op dat ghy soudet verkondigen <D. de eygenschappen, namelick, de wijsheyt, mogentheyt, rechtveerdigheyt, genade, ende barmhertigheyt Godts.> de deughden des genen die u <Namel. der onwetenheyt ende natuerlicke boosheyt.> uyt de duysternisse geroepen heeft tot sijn <D. tot heyligheyt ende ware kennisse Godts. Siet Actor. 26.18.> wonderbaer licht.",
+      "modernized": "$Ex. 19:5; Dt. 7:6; 14:2; 26:18; Ef. 1:14$ Maar <Namelijk, die Christus hebt aangenomen met waar geloof.> bent u <Dat is, u komen al deze voorrechten en eretitels metterdaad toe, die aan het gehele volk van Israël doorgaans en in het bijzonder $Ex. 19:5,6$ $Dt. 26:18,19$ ten aanzien van het uiterlijke verbond, gegeven worden. zie ook $Ml. 3:16,17$ $Rm. 9:8$.> een uitverkoren geslacht, $Op. 1:6; 5:10$ <Dat is, Koningen en Priesters, zoals Johannes spreekt $Op. 1:6$ Mozes zegt $Ex. 19:6$ een Priesterlijk Koninkrijk. Maar de Apostel volgt de Griekse vertaling, omdat die een zin heeft.> een Koninklijk Priesterdom, een heilig volk, <Grieks: een volk tot verkrijging, dat is, dat God zichzelf door zijn bloed tot een eigendom heeft verkregen, $Hd. 20:28$.> een verkregen volk: opdat u zou verkondigen <Dat is, de eigenschappen, namelijk, de wijsheid, macht, rechtvaardigheid, genade, en barmhartigheid Gods.> de deugden van hem die u <Namelijk, van de onwetendheid en natuurlijke boosheid.> uit de duisternis geroepen heeft tot zijn <Dat is, tot heiligheid en ware kennis van God. Zie $Hd. 26:18$.> wonderbaar licht.",
+      "source_text": "ὑμεῖς δὲ γένος ἐκλεκτόν, βασίλειον ἱεράτευμα, ἔθνος ἅγιον, λαὸς εἰς περιποίησιν, ὅπως τὰς ἀρετὰς ἐξαγγείλητε τοῦ ἐκ σκότους ὑμᾶς καλέσαντος εἰς τὸ θαυμαστὸν αὐτοῦ φῶς·",
+      "generated_at": "2026-05-24T18:22:33.841082Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
