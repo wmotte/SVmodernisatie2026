@@ -60,6 +60,33 @@
           "reason": "bibref.py normaliseert chapterless single-chapter-book refs niet; handmatig gewrapt naar hoofdstuk 1"
         }
       ]
+    },
+    {
+      "verse_number": 4,
+      "original": "Ick en hebbe geen meerder blijdtschap dan hier in, dat ick hoore dat <D. discipelen, die ick door de predicatie des Euangeliums hebbe geboren: gelijck Paulus spreeckt van de Corinthiers, 1.Cor. 4. vers 15.> mijne kinderen in de waerheyt wandelen.",
+      "modernized": "Ik heb geen grotere blijdschap dan hierin, dat ik hoor dat <Dat is, discipelen, die ik door de prediking van het Evangelie heb voortgebracht: zoals Paulus spreekt van de Korintiërs, $1Kor. 4:15$.> mijn kinderen in de waarheid wandelen.",
+      "source_text": "μειζοτέραν τούτων οὐκ ἔχω χαράν, ἵνα ἀκούω τὰ ἐμὰ τέκνα ἐν ἀληθείᾳ περιπατοῦντα.",
+      "generated_at": "2026-05-24T04:25:45.469706Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 5,
+      "original": "Geliefde, ghy doet <D. gelijck een getrouw uytdeeler der goederen, die u de Heere tot dien eynde verleent heeft, betaemt. Siet Luce c. 12. vers 42. 1.Cor. cap. 4. vers 2.> trouwelick, <D. dat ghy haer in uw’ huys ontfanght, herberght, ende onderhoudt.> in al het gene ghy doet aen de broederen, ende aen <D. die boven dien datse broeders ende geloovige zijn, oock om des Euangeliums wille in vreemde landen haer moeten onthouden.> de vreemdelingen,",
+      "modernized": "Geliefde, u doet <Dat is, zoals een getrouw uitdeler van de goederen betaamt, die de Heere u tot dat doel verleend heeft. Zie $Lk. 12:42; 1Kor. 4:2$.> trouw, <Dat is, dat u hen in uw huis ontvangt, herbergt en onderhoudt.> in alles wat u doet aan de broeders, en aan <Dat is, hen die, behalve dat zij broeders en gelovig zijn, zich ook om wille van het Evangelie in vreemde landen moeten ophouden.> de vreemdelingen,",
+      "source_text": "Ἀγαπητέ, πιστὸν ποιεῖς ὃ ἐὰν ἐργάσῃ εἰς τοὺς ἀδελφοὺς καὶ εἰς τοὺς ξένους,",
+      "generated_at": "2026-05-24T04:27:40.056643Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 6,
+      "original": "Die getuyght hebben van <D. uwe mildadigheyt, die ghy uyt liefde aen haer betoont hebt.> uwe liefde, <D. opentlick in de vergaderinge der gemeynte daer in ick my nu onthoude: Welcke vele oude Leeraers meynen geweest te zijn de gemeynte van Ephesen.> in de tegenwoordigheyt der gemeynte: welcke indien ghy <D. niet alleen haer uytgeley doet, een stuck weeghs met haer gaende, maer haer oock versorgende van het gene haer tot de reyse sal noodigh zijn. Siet Actor. cap. 27. vers 3. ende 28.10.> geleyde doet, <Gr. Gode weerdighlick. Siet Coloss. cap. 1. vers 10. 1.Thess. cap. 2. vers 12.> gelijck het Gode weerdigh is, soo sult ghy wel doen.",
+      "modernized": "Die getuigd hebben van <Dat is, uw mildheid, die u uit liefde aan hen betoond hebt.> uw liefde, <Dat is, openlijk in de vergadering van de gemeente waarin ik mij nu ophoud: die vele oude Leraars menen de gemeente van Efeze geweest te zijn.> in de tegenwoordigheid van de gemeente: die, als u hen <Dat is, niet alleen hen uitgeleide doet, een eind weegs met hen meegaande, maar hen ook verzorgt van wat hun tot de reis nodig zal zijn. Zie $Hd. 27:3; 28:10$.> geleide doet, <Grieks: Gode waardiglijk. Zie $Ko. 1:10; 1Th. 2:12$.> zoals het Gode waardig is, dan zult u wel doen.",
+      "source_text": "οἳ ἐμαρτύρησάν σου τῇ ἀγάπῃ ἐνώπιον ἐκκλησίας· οὓς καλῶς ποιήσεις προπέμψας ἀξίως τοῦ Θεοῦ.",
+      "generated_at": "2026-05-24T04:28:13.337965Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
