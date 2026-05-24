@@ -233,7 +233,7 @@
     {
       "verse_number": 31,
       "status": "modernized",
-      "sv2026": "En die deze wereld gebruiken, alsof zij er geen misbruik van maakten. $Js. 40:6; Jk. 1:10; 4:14; 1Pt. 1:24; 1Jh. 2:17$ Want <Dat is, de dingen die de wereld als een groot goed en geluk acht, maar die niet anders dan een schijn daarvan zijn, gelijk sommige vertoningen in de schouwspelen plegen, waarvan het Griekse woord schema genomen is. Zie $Pr. 1:2; 1Jh. 2:16,17$.> de gedaante van deze wereld gaat voorbij.",
+      "sv2026": "En die deze wereld gebruiken, alsof zij er geen misbruik van maakten. $Js. 40:6; Jk. 1:10; 4:14; 1Pt. 1:24; 1Jh. 2:17$ Want <Dat is, de dingen die de wereld als een groot goed en geluk acht, maar die niet anders dan een schijn daarvan zijn, zoals sommige vertoningen in de schouwspelen plegen, waarvan het Griekse woord schema genomen is. Zie $Pr. 1:2; 1Jh. 2:16,17$.> de gedaante van deze wereld gaat voorbij.",
       "hsv": "en zij die van deze wereld gebruikmaken, alsof zij die niet gebruiken. $Jes. 40:6; Jak. 1:10; 4:14; 1 Petr. 1:24; 1 Joh. 2:17$ Immers, de gedaante van deze wereld gaat voorbij.",
       "original": "Ende die dese werelt gebruycken, als niet misbruyckende. $Iesa. 40.6. Iacob. 1.10. ende 4.14. 1.Petr. 1.24. 1.Ioan. 2.17.$ Want <D. de dingen die de werelt als een groot goet ende geluck achtet, maer die niet anders dan een schijn daer van en zijn, gelijck eenige vertooningen in de schouwspelen plegen, waer van ’t Griecks woort schema genomen is. siet Eccles. 1. vers 2. 1.Ioan. 2. versen 16, 17.> de gedaente deser werelt gaet voorby."
     },
@@ -266,43 +266,68 @@
     },
     {
       "verse_number": 34,
-      "status": "pending",
-      "sv2026": "",
+      "status": "modernized",
+      "sv2026": "Een vrouw en een maagd zijn onderscheiden. De ongetrouwde bekommert zich met de dingen des Heeren, opdat zij heilig zij beide aan lichaam en aan geest; maar die getrouwd is bekommert zich met de dingen der wereld, hoe zij de man zal behagen.",
       "hsv": "Er is onderscheid tussen de [gehuwde] vrouw en het meisje dat nog maagd is. De ongehuwde draagt zorg voor de dingen van de Heere om zowel naar lichaam als naar geest heilig te zijn. Zij echter die gehuwd is, draagt zorg voor de dingen van de wereld, hoe zij [haar] man zal behagen.",
       "original": "Een wijf ende een maeght zijn onderscheyden. De ongetrouwde bekommert haer met de dingen des Heeren, op dat sy heyligh zy beyde aen lichaem ende aen geest: maer die getrouwt is bekommert haer met de dingen der werelt, hoe sy den man sal behagen."
     },
     {
       "verse_number": 35,
-      "status": "pending",
-      "sv2026": "",
+      "status": "modernized",
+      "sv2026": "En dit zeg ik <Dat is, gemak en oorbaar. En zo verklaart hij in dit vers hetgeen hij tevoren goed of niet goed genoemd heeft.> tot uw eigen voordeel; niet opdat ik <Namelijk, om u tot het ongetrouwde leven nauwkeurig te verbinden.> een strik over u zou werpen, maar [om u te leiden] tot hetgeen wel voegt, en geschikt is om de Heere goed aan te hangen, zonder <Of, onaftrekkelijk, namelijk, met de zorgen en bekommernissen dezer wereld.> herwaarts en derwaarts getrokken te worden.",
       "hsv": "En dit zeg ik tot uw eigen voordeel, niet om een strik over u heen te werpen, maar [om u te leiden] tot eerbaar [gedrag] en blijvende toewijding aan de Heere, zonder afgeleid te worden.",
-      "original": "Ende dit segge ick <Dat is, gemack ende oorbaer. Ende alsoo verklaert hy in dit vers het gene hy te voren goet ofte niet goet genaemt heeft.> tot uw’ eygen voordeel: niet op dat ick <Namelick, om u tot het ongetrouwt leven precijselick te verbinden.> eenen strick over u soude werpen, maer [om u te leyden] tot het gene wel voeght, ende bequaem is om den Heere wel aen te hangen, sonder <Ofte, onaftreckelick, namelick, met de sorgen ende bekommernissen deser werelt.> herwaerts en derwaerts getrocken te worden."
+      "original": "Ende dit segge ick <Dat is, gemack ende oorbaer. Ende alsoo verklaert hy in dit vers het gene hy te voren goet ofte niet goet genaemt heeft.> tot uw’ eygen voordeel: niet op dat ick <Namelick, om u tot het ongetrouwt leven precijselick te verbinden.> eenen strick over u soude werpen, maer [om u te leyden] tot het gene wel voeght, ende bequaem is om den Heere wel aen te hangen, sonder <Ofte, onaftreckelick, namelick, met de sorgen ende bekommernissen deser werelt.> herwaerts en derwaerts getrocken te worden.",
+      "notes": [
+        {
+          "type": "twijfel",
+          "subject": "bequaem",
+          "context": "hoofdtekst",
+          "choice": "geschikt",
+          "alternatives": [
+            "bekwaam"
+          ],
+          "reason": "SV bequaem hier in de zin van passend/in staat; geschikt dekt de moderne betekenis zonder het archaisme bekwaam (dat nu vooral competent betekent)."
+        }
+      ]
     },
     {
       "verse_number": 36,
-      "status": "pending",
-      "sv2026": "",
+      "status": "modernized",
+      "sv2026": "Maar zo iemand <Dat is, uit alle tekenen die hij daarvan bespeurt, gewaarwordt of oordeelt. Hij spreekt hier eigenlijk van ouders of voogden, waar de maagden onder staan.> acht dat hij <Dat is, niet wel betamelijk, of wel bedachtzaam, zo hij zijn maagd tegen haar natuur of geneigdheid zou beletten te trouwen; of ook wel tegen de eis van de gelegenheid van zijn familie.> ongepast handelt met zijn maagd, indien zij de jeugdige tijd te boven gaat, en het <Namelijk, om grotere zwarigheden, zowel ten aanzien van haar als van zijn familie, te voorkomen.> zo moet gebeuren: die doe dat hij wil; hij zondigt niet; dat zij trouwen.",
       "hsv": "Maar als iemand denkt dat hij ongepast handelt ten opzichte van zijn [aanstaande vrouw] <HSV: Een andere keuze van vertalen is dat het hier gaat om een vader met het oog op het uithuwelijken van zijn dochter; zie ook vers 37.> die nog maagd [is] , als de jaren van haar jeugd voorbij zijn en het op deze wijze behoort te gebeuren, laat hij doen wat hij wil, hij zondigt niet: laten zij trouwen.",
-      "original": "Maer soo yemant <Dat is, uyt alle teeckenen die hy daer van speurt, gewaer wort ofte oordeelt. Hy spreeckt hier eygentlick van ouders ofte vooghden, daer de maeghden onder staen.> acht dat hy <Dat is, niet wel betamelick, ofte wel bedachtelick, soo hy sijne maeght tegen hare nature ofte genegentheyt soude beletten te trouwen: ofte oock wel tegen den eysch van de gelegentheyt sijner familie.> ongevoeghlick handelt met sijne maget, indien sy over den jeughdigen tijt gaet, ende het <Namelick, om meerder swarigheden, soo ten aensien van haer als van sijne familie, voor te komen.> alsoo moet geschieden: die doe dat hy wil: hy en sondight niet: datse trouwen."
+      "original": "Maer soo yemant <Dat is, uyt alle teeckenen die hy daer van speurt, gewaer wort ofte oordeelt. Hy spreeckt hier eygentlick van ouders ofte vooghden, daer de maeghden onder staen.> acht dat hy <Dat is, niet wel betamelick, ofte wel bedachtelick, soo hy sijne maeght tegen hare nature ofte genegentheyt soude beletten te trouwen: ofte oock wel tegen den eysch van de gelegentheyt sijner familie.> ongevoeghlick handelt met sijne maget, indien sy over den jeughdigen tijt gaet, ende het <Namelick, om meerder swarigheden, soo ten aensien van haer als van sijne familie, voor te komen.> alsoo moet geschieden: die doe dat hy wil: hy en sondight niet: datse trouwen.",
+      "notes": [
+        {
+          "type": "twijfel",
+          "subject": "ongevoeghlick",
+          "context": "hoofdtekst",
+          "choice": "ongepast",
+          "alternatives": [
+            "onbetamelijk",
+            "ongevoeglijk"
+          ],
+          "reason": "SV ongevoeghlick (Gr. aschemonein, onbetamelijk handelen) is niet meer productief; kanttekening glosseert als niet wel betamelijk. Ongepast dekt de betekenis modern; HSV kiest ook ongepast."
+        }
+      ]
     },
     {
       "verse_number": 37,
-      "status": "pending",
-      "sv2026": "",
+      "status": "modernized",
+      "sv2026": "Maar wie vast staat in [zijn] hart, <Namelijk, of voor zichzelf tot behoud van zijn familie en andere omstandigheden, die de ouders dikwijls noodzaken hun kinderen uit te huwelijken; of vanwege de broosheid van de kinderen, waarvan in het voorgaande vers is gesproken.> geen noodzaak heeft maar macht heeft over zijn eigen wil, en dit in zijn hart besloten heeft, dat hij zijn maagd <Namelijk, ongetrouwd.> zal bewaren, die doet wel.",
       "hsv": "Maar wie in zijn hart vastbesloten is en [er] niet [toe] genoodzaakt wordt, maar macht heeft over zijn eigen wil en in zijn hart besloten heeft dat hij zijn eigen [aanstaande vrouw] die nog maagd [is] , [zo] zal houden, die handelt [ook] goed.",
       "original": "Doch die vast staet in [sijn] herte, <Namelick, ofte voor hemselven tot behoudenisse van sijne familie ende andere gelegentheden, die de ouders dickwils nootsaken hare kinderen uyt te houwelicken: ofte van wegen de broosheyt der kinderen, waer van in het voorgaende vers is gesproken.> geen nootsake hebbende, maer macht heeft over sijnen eygenen wille, ende dit in sijn herte besloten heeft, dat hy sijne maget <Namel. ongetrouwt.> sal bewaren, die doet wel."
     },
     {
       "verse_number": 38,
-      "status": "pending",
-      "sv2026": "",
+      "status": "modernized",
+      "sv2026": "Zo dan, wie [haar] ten huwelijk uitgeeft, die doet wel; en wie [haar] niet ten huwelijk uitgeeft, <Dat is, die doet wat dienstiger of nuttiger is voor de rust van zijn maagd, zoals versen 1, 8, 26. en zoals verklaard wordt versen 35, 40.> die doet beter.",
       "hsv": "Dus: ook wie ten huwelijk geeft, handelt goed, maar wie niet ten huwelijk geeft, handelt beter.",
       "original": "Alsoo dan, die [haer] ten houwelicke uytgeeft, die doet wel: ende die[se] ten houwelicke niet uyt en geeft, <D. die doet dat dienstigh ofte oorbaerder is tot de ruste van sijne maget, gelijck versen 1, 8, 26. ende gelijck verklaert wort versen 35, 40.> die doet beter."
     },
     {
       "verse_number": 39,
-      "status": "pending",
-      "sv2026": "",
+      "status": "modernized",
+      "sv2026": "$Rm. 7:2$ Een vrouw is door <Namelijk, van het huwelijk. Zie $Rm. 7:2$.> de wet gebonden zolang haar man leeft <Namelijk, tenzij vanwege overspel, $Mt. 19:9$ of vanwege het scheiden van de ongelovige partij, hiervoren vers 15.>; maar indien haar man ontslapen is, dan is zij vrij om te trouwen wie zij wil; alleen <Dat is, alleen dat zulks geschiede in de vreze des Heeren; waartoe ook bijzonder dient, dat zij, nu zij vrij is, geen juk aantrekt met de ongelovige, $2Kor. 6:14$.> in de Heere.",
       "hsv": "$Rom. 7:2$ Een vrouw is door de wet gebonden, zolang haar man leeft. Als haar man echter ontslapen is, is zij vrij om te trouwen met wie zij wil, [maar] alleen in de Heere.",
       "original": "$Rom. cap. 7. vers 2.$ Een wijf is door <Namelick, des houwelicks. Siet Rom. 7. vers 2.> de wet verbonden soo langen tijt <Namelick, ’t en zy uyt oorsake van overspel, Matth. cap. 19. vers 9. ofte van het scheyden der ongeloovige parture, hier voren vers 15.> hare man leeft: maer indien hare man ontslapen is, soo is sy vry, om te trouwen dien sy wil: alleenlick <Dat is, alleenlick dat sulcks geschiede in de vreese des Heeren: waer toe oock sonderlinge dient, dat sy nu vry zijnde geen jock aen en trecke met de ongeloovige, 2.Cor. cap. 6. vers 14.> in den Heere."
     },
