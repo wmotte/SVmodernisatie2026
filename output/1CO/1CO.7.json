@@ -169,6 +169,45 @@
       "generated_at": "2026-05-24T12:14:44.443691Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 19,
+      "original": "De besnijdenisse <D. van geene kracht tot de Godtsaligheyt. Het welck de Apostel verstaet voornamelick van de tijden des Nieuwen Testaments, wanneer de besnijdenisse geen Sacrament meer en is. Siet Galat. 5.6.> en is niets, ende de voorhuydt en is niets, maer de onderhoudinge der geboden Godts.",
+      "modernized": "De besnijdenis <Dat is, van geen kracht tot de Godzaligheid. Wat de Apostel voornamelijk verstaat van de tijden van het Nieuwe Testament, wanneer de besnijdenis geen Sacrament meer is. Zie $Gl. 5:6$.> is niets, en de voorhuid is niets, maar de onderhouding van Gods geboden.",
+      "source_text": "ἡ περιτομὴ οὐδέν ἐστι, καὶ ἡ ἀκροβυστία οὐδέν ἐστιν, ἀλλὰ τήρησις ἐντολῶν Θεοῦ.",
+      "generated_at": "2026-05-24T12:18:29.261133Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 20,
+      "original": "$Ephes. 4.1. Philip. 1.27. Coloss. 1.10. 1.Thess. 2.12.$ Een yegelick <D. zy gerust ende late hem vergenoegen.> blijve in die beroepinge, daer hy in geroepen is.",
+      "modernized": "$Ef. 4:1; Fp. 1:27; Ko. 1:10; 1Th. 2:12$ Laat een ieder <Dat is, zij gerust en laat hij tevreden zijn.> blijven in die roeping waarin hij geroepen is.",
+      "source_text": "ἕκαστος ἐν τῇ κλήσει ᾗ ἐκλήθη, ἐν ταύτῃ μενέτω.",
+      "generated_at": "2026-05-24T12:18:56.632452Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "subject": "aanvoegende wijs",
+          "context": "hoofdtekst",
+          "choice": "Laat een ieder ... blijven",
+          "alternatives": [
+            "Een ieder ... blijve"
+          ],
+          "reason": "SV-jussief 'blijve' is in modern Nederlands niet productief; de laat-constructie bewaart de imperatiefwaarde en de zinsinhoud."
+        }
+      ]
+    },
+    {
+      "verse_number": 21,
+      "original": "Zijt ghy een dienstknecht zijnde geroepen? <Namelick, al of ghy Gode daerom te min soudt behagen, soo ghy maer een oprecht Christen zijt. siet 1.Cor. 12. vers 13. Galat. c. 3. vers 28.> laet u [dat] niet bekommeren: maer indien ghy oock <Namelick, door wettelicke ende behoorlicke wegen, gelijck onder de Heydenen, daer de slavernije in swangh was, verscheydene wegen waren, waer door de slaven tot hare vryheyt konden komen.> kondt vry worden, gebruyckt [dat] liever.",
+      "modernized": "Bent u als dienstknecht geroepen? <Namelijk, alsof u God daarom minder zou behagen, als u maar een oprecht Christen bent. Zie $1Kor. 12:13; Gl. 3:28$.> laat [dat] u niet bezorgd maken; maar als u ook <Namelijk, door wettige en behoorlijke wegen, zoals onder de Heidenen, waar de slavernij in zwang was, verscheidene wegen waren waardoor de slaven tot hun vrijheid konden komen.> vrij kunt worden, gebruik [dat] liever.",
+      "source_text": "δοῦλος ἐκλήθης; μή σοι μελέτω· ἀλλ’ εἰ καὶ δύνασαι ἐλεύθερος γενέσθαι, μᾶλλον χρῆσαι.",
+      "generated_at": "2026-05-24T12:19:32.369550Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
