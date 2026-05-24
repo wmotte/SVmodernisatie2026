@@ -329,6 +329,58 @@
           "reason": "SV-woord parture (= huwelijkspartner) is verouderd; wederhelft houdt het geslachtsneutrale van de bron en past bij de mannelijke spreker (hy)."
         }
       ]
+    },
+    {
+      "verse_number": 34,
+      "original": "Een wijf ende een maeght zijn onderscheyden. De ongetrouwde bekommert haer met de dingen des Heeren, op dat sy heyligh zy beyde aen lichaem ende aen geest: maer die getrouwt is bekommert haer met de dingen der werelt, hoe sy den man sal behagen.",
+      "modernized": "Een vrouw en een maagd zijn onderscheiden. De ongetrouwde bekommert zich met de dingen des Heeren, opdat zij heilig zij beide aan lichaam en aan geest; maar die getrouwd is bekommert zich met de dingen der wereld, hoe zij de man zal behagen.",
+      "source_text": "μεμέρισται ἡ γυνὴ καὶ ἡ παρθένος. ἡ ἄγαμος μεριμνᾷ τὰ τοῦ Κυρίου, ἵνα ᾖ ἁγία καὶ σώματι καὶ πνεύματι· ἡ δὲ γαμήσασα μεριμνᾷ τὰ τοῦ κόσμου, πῶς ἀρέσει τῷ ἀνδρί.",
+      "generated_at": "2026-05-24T13:02:13.287932Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 35,
+      "original": "Ende dit segge ick <Dat is, gemack ende oorbaer. Ende alsoo verklaert hy in dit vers het gene hy te voren goet ofte niet goet genaemt heeft.> tot uw’ eygen voordeel: niet op dat ick <Namelick, om u tot het ongetrouwt leven precijselick te verbinden.> eenen strick over u soude werpen, maer [om u te leyden] tot het gene wel voeght, ende bequaem is om den Heere wel aen te hangen, sonder <Ofte, onaftreckelick, namelick, met de sorgen ende bekommernissen deser werelt.> herwaerts en derwaerts getrocken te worden.",
+      "modernized": "En dit zeg ik <Dat is, gemak en oorbaar. En zo verklaart hij in dit vers hetgeen hij tevoren goed of niet goed genoemd heeft.> tot uw eigen voordeel; niet opdat ik <Namelijk, om u tot het ongetrouwde leven nauwkeurig te verbinden.> een strik over u zou werpen, maar [om u te leiden] tot hetgeen wel voegt, en geschikt is om de Heere goed aan te hangen, zonder <Of, onaftrekkelijk, namelijk, met de zorgen en bekommernissen dezer wereld.> herwaarts en derwaarts getrokken te worden.",
+      "source_text": "τοῦτο δὲ πρὸς τὸ ὑμῶν αὐτῶν συμφέρον λέγω· οὐχ ἵνα βρόχον ὑμῖν ἐπιβάλω, ἀλλὰ πρὸς τὸ εὔσχημον καὶ εὐπρόσεδρον τῷ Κυρίῳ ἀπερισπάστως.",
+      "generated_at": "2026-05-24T13:03:09.016786Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "twijfel",
+          "subject": "bequaem",
+          "context": "hoofdtekst",
+          "choice": "geschikt",
+          "alternatives": [
+            "bekwaam"
+          ],
+          "reason": "SV bequaem hier in de zin van passend/in staat; geschikt dekt de moderne betekenis zonder het archaisme bekwaam (dat nu vooral competent betekent)."
+        }
+      ]
+    },
+    {
+      "verse_number": 36,
+      "original": "Maer soo yemant <Dat is, uyt alle teeckenen die hy daer van speurt, gewaer wort ofte oordeelt. Hy spreeckt hier eygentlick van ouders ofte vooghden, daer de maeghden onder staen.> acht dat hy <Dat is, niet wel betamelick, ofte wel bedachtelick, soo hy sijne maeght tegen hare nature ofte genegentheyt soude beletten te trouwen: ofte oock wel tegen den eysch van de gelegentheyt sijner familie.> ongevoeghlick handelt met sijne maget, indien sy over den jeughdigen tijt gaet, ende het <Namelick, om meerder swarigheden, soo ten aensien van haer als van sijne familie, voor te komen.> alsoo moet geschieden: die doe dat hy wil: hy en sondight niet: datse trouwen.",
+      "modernized": "Maar zo iemand <Dat is, uit alle tekenen die hij daarvan bespeurt, gewaarwordt of oordeelt. Hij spreekt hier eigenlijk van ouders of voogden, waar de maagden onder staan.> acht dat hij <Dat is, niet wel betamelijk, of wel bedachtzaam, zo hij zijn maagd tegen haar natuur of geneigdheid zou beletten te trouwen; of ook wel tegen de eis van de gelegenheid van zijn familie.> ongepast handelt met zijn maagd, indien zij de jeugdige tijd te boven gaat, en het <Namelijk, om grotere zwarigheden, zowel ten aanzien van haar als van zijn familie, te voorkomen.> zo moet gebeuren: die doe dat hij wil; hij zondigt niet; dat zij trouwen.",
+      "source_text": "εἰ δέ τις ἀσχημονεῖν ἐπὶ τὴν παρθένον αὐτοῦ νομίζει, ἐὰν ᾖ ὑπέρακμος, καὶ οὕτως ὀφείλει γίνεσθαι, ὃ θέλει ποιείτω· οὐχ ἁμαρτάνει· γαμείτωσαν.",
+      "generated_at": "2026-05-24T13:04:14.635239Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "twijfel",
+          "subject": "ongevoeghlick",
+          "context": "hoofdtekst",
+          "choice": "ongepast",
+          "alternatives": [
+            "onbetamelijk",
+            "ongevoeglijk"
+          ],
+          "reason": "SV ongevoeghlick (Gr. aschemonein, onbetamelijk handelen) is niet meer productief; kanttekening glosseert als niet wel betamelijk. Ongepast dekt de betekenis modern; HSV kiest ook ongepast."
+        }
+      ]
     }
   ]
 }
