@@ -1,13 +1,35 @@
 {
   "book": "3JN",
   "chapter": 1,
-  "reviewed_at": "2026-05-24T04:42:41+00:00",
+  "reviewed_at": "2026-05-24T04:45:54+00:00",
   "passes": [
     {
       "pass": 1,
       "ran_at": "2026-05-24T04:42:41+00:00",
       "mode": "scan",
       "issues_total": 7
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-24T04:45:21+00:00",
+      "mode": "verify",
+      "actions": [
+        "3JN-1-7-001: verified",
+        "3JN-1-10-001: rebuttal verified",
+        "3JN-1-10-002: verified",
+        "3JN-1-11-001: verified",
+        "3JN-1-11-002: rebuttal verified",
+        "3JN-1-1-001: rebuttal verified",
+        "3JN-1-2-001: reopened (luie rebuttal)"
+      ]
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-05-24T04:45:54+00:00",
+      "mode": "verify",
+      "actions": [
+        "3JN-1-2-001: rebuttal verified"
+      ]
     }
   ],
   "issues": [
@@ -21,8 +43,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "3JN-1-7-001",
-      "status": "fixed",
-      "fix_note": "§2.3 finiet participium: hoofdtekst-clause-final \"niets nemende\" ontvouwd naar \"zonder iets van de Heidenen aan te nemen\" (μηδὲν λαμβάνοντες); spiegelt HSV."
+      "status": "verified",
+      "fix_note": "§2.3 finiet participium: hoofdtekst-clause-final \"niets nemende\" ontvouwd naar \"zonder iets van de Heidenen aan te nemen\" (μηδὲν λαμβάνοντες); spiegelt HSV.",
+      "verified_at": "2026-05-24T04:45:21+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -34,8 +57,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "3JN-1-10-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-24T04:45:21+00:00"
     },
     {
       "category": "kanttekening-luiheid (§2.3 in <…>)",
@@ -47,8 +71,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "3JN-1-10-002",
-      "status": "fixed",
-      "fix_note": "§2.3 in kanttekening: \"beuzelingen voortbrengende\" ontvouwd naar finiete gloss \"hij brengt beuzelingen voort\" (gloss op φλυαρῶν/snaterende)."
+      "status": "verified",
+      "fix_note": "§2.3 in kanttekening: \"beuzelingen voortbrengende\" ontvouwd naar finiete gloss \"hij brengt beuzelingen voort\" (gloss op φλυαρῶν/snaterende).",
+      "verified_at": "2026-05-24T04:45:21+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -60,8 +85,9 @@
       "proposed_fix": "van de weldadigheid",
       "location": "kanttekening",
       "id": "3JN-1-11-001",
-      "status": "fixed",
-      "fix_note": "Verbogen lidwoord \"der weldadigheid\" → \"van de weldadigheid\"; geen fossiel-paar (ARCHAISMEN.md), dus regulier vervangen."
+      "status": "verified",
+      "fix_note": "Verbogen lidwoord \"der weldadigheid\" → \"van de weldadigheid\"; geen fossiel-paar (ARCHAISMEN.md), dus regulier vervangen.",
+      "verified_at": "2026-05-24T04:45:21+00:00"
     },
     {
       "category": "voornaamwoordelijk bijwoord gesplitst",
@@ -73,8 +99,9 @@
       "proposed_fix": "hierin",
       "location": "kanttekening",
       "id": "3JN-1-11-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] v44 kanttekening: 'de bangheid die iemand heeft voordat de strijd begint; die hier in Christus geweest is'. 'hier in Christus' is geen gesplitst voornaamwoordelijk bijwoord; 'hier' = contrastief adverbium ('in dit geval'), 'in Christus' = zelfstandige bepalende prepositie-NP. Samentrekken tot 'hierin Christus' is grammaticaal onjuist. ARCHAISMEN.md-regel niet van toepassing."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] v44 kanttekening: 'de bangheid die iemand heeft voordat de strijd begint; die hier in Christus geweest is'. 'hier in Christus' is geen gesplitst voornaamwoordelijk bijwoord; 'hier' = contrastief adverbium ('in dit geval'), 'in Christus' = zelfstandige bepalende prepositie-NP. Samentrekken tot 'hierin Christus' is grammaticaal onjuist. ARCHAISMEN.md-regel niet van toepassing.",
+      "verified_at": "2026-05-24T04:45:21+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -93,8 +120,9 @@
         12
       ],
       "id": "3JN-1-1-001",
-      "status": "rebutted",
-      "rebuttal": "Concordantie false-positive: scanner-prefix-heuristiek mist orthografische overgang ae→aa / eyt→eid. Origineel-stam waerhey rendert in álle 5 verzen (1,3,4,8,12) consistent als \"waarheid\"; geen drift. Zie §concordantie scanner-limitatie."
+      "status": "verified",
+      "rebuttal": "Concordantie false-positive: scanner-prefix-heuristiek mist orthografische overgang ae→aa / eyt→eid. Origineel-stam waerhey rendert in álle 5 verzen (1,3,4,8,12) consistent als \"waarheid\"; geen drift. Zie §concordantie scanner-limitatie.",
+      "verified_at": "2026-05-24T04:45:21+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -111,8 +139,10 @@
         6
       ],
       "id": "3JN-1-2-001",
-      "status": "rebutted",
-      "rebuttal": "Concordantie false-positive: stam gelijck rendert in v2, v3 én v6 alle als \"zoals\" (ook in de kanttekeningen). Scanner meldt v3-afwijking die in de feitelijke rendering niet bestaat; geen drift te harmoniseren."
+      "status": "verified",
+      "rebuttal": "AGENTS.md concordantie-principe is hier juist NAGELEEFD, niet geschonden. Stam gelijck rendert verbatim identiek in alle drie verzen: v2 \"gelijck uwe ziele welvaert\"=>\"zoals uw ziel voorspoedig is\"; v3 \"gelijck ghy in de waerheyt wandelt\"=>\"zoals u in de waarheid wandelt\"; v6 \"gelijck het Gode weerdigh is\"=>\"zoals het Gode waardig is\" — lexeem \"zoals\" in elk geval. De gemelde v3-afwijking bestaat niet in de feitelijke uitvoer. False-positive van de scanner-prefix-heuristiek: gelijck en doel-lexeem zoals delen geen surface-prefix, dus de prefix-match kan de consistente rendering niet bevestigen en rapporteert spurieuze drift (zelfde klasse als s->z / sch->g orthografische blinde vlek, hier cross-lexeem gelijck->zoals).",
+      "verify_note": "rebuttal valt terug op generieke 'SV-stijl'-formule zonder regel- of Grieks-referentie",
+      "verified_at": "2026-05-24T04:45:54+00:00"
     }
   ]
 }
