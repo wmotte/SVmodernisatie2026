@@ -141,6 +141,33 @@
       "generated_at": "2026-05-24T04:36:16.212665Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 13,
+      "original": "$2.Ioan. vers 12.$ Ick hadde <Namelick, aengaende dese saken. Siet 2.Ioan. vers 12.> veel te schrijven, maer ick en wil u niet schrijven met inckt ende penne:",
+      "modernized": "$2Jh. 1:12$ Ik had <Namelijk, aangaande deze zaken. Zie $2Jh. 1:12$.> veel te schrijven, maar ik wil u niet schrijven met inkt en pen:",
+      "source_text": "Πολλὰ εἶχον γράφειν, ἀλλ’ οὐ θέλω διὰ μέλανος καὶ καλάμου σοι γράψαι·",
+      "generated_at": "2026-05-24T04:39:21.620526Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 14,
+      "original": "Maer ick hope <D. haest by u te zijn, ofte tot u te komen.> u haest te sien, ende wy sullen <Siet de aenteeckeninge op 2.Ioan. vers 12.> mont tot mont spreken.",
+      "modernized": "Maar ik hoop <Dat is, spoedig bij u te zijn, of tot u te komen.> u spoedig te zien, en wij zullen <Zie de aantekening op $2Jh. 1:12$.> van mond tot mond spreken.",
+      "source_text": "ἐλπίζω δὲ εὐθέως ἰδεῖν σε, καὶ στόμα πρὸς στόμα λαλήσομεν.",
+      "generated_at": "2026-05-24T04:39:52.950365Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 15,
+      "original": "<Dit was de gewoonlicke wijse van groeten onder de Ioden, ofte Hebreen. Siet hier van Ioan. cap. 20. vers 19.> Vrede zy u. <D. de geloovige die alhier zijn.> De vrienden groeten u. Groet <D. de geloovige die by u zijn.> de vrienden <D. elck in ’t bysonder.> met name.",
+      "modernized": "<Dit was de gewone wijze van groeten onder de Joden of Hebreeën. Zie hiervan $Jh. 20:19$.> Vrede zij u. <Dat is, de gelovigen die hier zijn.> De vrienden groeten u. Groet <Dat is, de gelovigen die bij u zijn.> de vrienden <Dat is, ieder in het bijzonder.> met name.",
+      "source_text": "εἰρήνη σοι. ἀσπάζονταί σε οἱ φίλοι. ἀσπάζου τοὺς φίλους κατ’ ὄνομα.",
+      "generated_at": "2026-05-24T04:40:12.685454Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
