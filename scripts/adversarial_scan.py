@@ -53,6 +53,8 @@ from rules_data import (  # noqa: E402
     DREMPEL_ARCHAISMEN,
     DREMPEL_FOSSIELEN,
     KANTTEKENING_ARCHAISMEN,
+    IMPERATIVE_T_STEMS,
+    IMPERATIVE_OBJECT_TOKENS,
 )
 
 PARTICIPLE_RE = re.compile(r"\b(\w+ende)\b", re.IGNORECASE)
@@ -694,6 +696,48 @@ def scan_subjunctive_imperative(verse_num: int, mod_text: str) -> list[dict]:
     return issues
 
 
+# Archaïsche 2e-pers-meervoud imperatief op -t. Anker = zinsbegin,
+# leesteken of nevenschikker (en/maar/of/want/dus/zo) — zó staat er géén
+# subject vóór de -t-vorm, wat 3ev-presens ('hij behoudt') uitsluit. De
+# -t-vorm wordt gevolgd door een object/reflexivum.
+IMPERATIVE_T_RE = re.compile(
+    r"(?:^|(?<=[.!?:;])|\b(?:en|maar|of|want|dus|zo)\b)\s*"
+    r"([A-Za-z]\w+t)\s+(\w+)",
+    re.IGNORECASE,
+)
+
+
+def scan_archaic_imperative_t(verse_num: int, mod_text: str) -> list[dict]:
+    """E2) Archaïsche imperatief-meervoud op -t ('Bewaart uzelf',
+    'behoudt anderen', 'grijpt hem'). Modern imperatief = stam. Soft:
+    -t botst met 3ev-presens, dus stam- + object-gate houdt false
+    positives laag."""
+    issues: list[dict] = []
+    main, _ = strip_markup_keep_text(mod_text)
+
+    for m in IMPERATIVE_T_RE.finditer(main):
+        verb = m.group(1).lower()
+        stem = verb[:-1]  # strip -t
+        if stem not in IMPERATIVE_T_STEMS:
+            continue
+        if m.group(2).lower() not in IMPERATIVE_OBJECT_TOKENS:
+            continue
+        issues.append({
+            "category": "archaïsche imperatief -t",
+            "verse": verse_num,
+            "severity": "soft",
+            "quote_modernized": context_around(main, m.start(1)),
+            "rule_reference": "ARCHAISMEN.md (SV-werkwoordsvormen)",
+            "explanation": (
+                f"'{m.group(1)}' — archaïsche imperatief-meervoud op -t. "
+                f"Modern Nederlands gebruikt de stam: '{stem}'."
+            ),
+            "proposed_fix": stem,
+            "location": "hoofdtekst",
+        })
+    return issues
+
+
 # F. Dubbele negatie met clitisch 'en' — SV-syntax 'niet en hebben',
 # 'geen ... en heeft'. Modern Nederlands gebruikt enkele negatie.
 # We zoeken negatie + (korte gap) + 'en' + finiet werkwoord. Het 'en' is
@@ -1297,6 +1341,7 @@ SCANNER_REGISTRY: tuple[tuple[str, callable], ...] = (
     ("archaïsch demonstratief", scan_archaic_degene),
     ("reflexief hem/haar", scan_reflexive_hem_haar),
     ("aanvoegende wijs", scan_subjunctive_imperative),
+    ("archaïsche imperatief -t", scan_archaic_imperative_t),
     ("dubbele negatie", scan_double_negation_en),
     ("voornaamwoordelijk bijwoord", scan_split_pronominal_adverb),
     ("SV-spelling-residu", scan_sv_spelling_residu),
@@ -1397,6 +1442,7 @@ def cmd_scan(args: argparse.Namespace) -> int:
         all_issues.extend(scan_archaic_degene(vn, mod))
         all_issues.extend(scan_reflexive_hem_haar(vn, mod))
         all_issues.extend(scan_subjunctive_imperative(vn, mod))
+        all_issues.extend(scan_archaic_imperative_t(vn, mod))
         all_issues.extend(scan_double_negation_en(vn, mod))
         all_issues.extend(scan_split_pronominal_adverb(vn, mod))
         all_issues.extend(scan_sv_spelling_residu(vn, mod))
