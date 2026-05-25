@@ -205,11 +205,13 @@
         function renderKantList(pairs, side, title) {
             const rel = (pairs || []).filter(p => (side === 'gbs' ? p.gbs : p.sv2026));
             if (rel.length === 0) return '';
+            let num = 0;
             const items = (pairs || []).map(p => {
                 const d = diffNotePair(p.gbs, p.sv2026);
                 const html = side === 'gbs' ? d.gbsHtml : d.svHtml;
                 if (!html) return '';
-                return `<div class="kant-item"><span class="kant-num">${p.n}</span>${html}</div>`;
+                num += 1; // per-vers nummering: start elke keer bij 1
+                return `<div class="kant-item"><span class="kant-num">${num}</span>${html}</div>`;
             }).join('');
             if (!items.trim()) return '';
             return `<div class="kant-list"><div class="col-head text-gray-400">${title}</div>${items}</div>`;
