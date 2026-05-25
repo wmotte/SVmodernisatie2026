@@ -170,8 +170,51 @@
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5,
       "notes": [
-        {"type": "afwijking", "text": "'vleien' teruggezet naar 'prijzen' (SV-hoofdtekstwoord 'prijsen'): renovatie, geen interpretatie. HSV-spiegel 'mooie praat' is parafrase (4c), geen bewijs voor de interpretatieve weergave."}
+        {
+          "type": "afwijking",
+          "text": "'vleien' teruggezet naar 'prijzen' (SV-hoofdtekstwoord 'prijsen'): renovatie, geen interpretatie. HSV-spiegel 'mooie praat' is parafrase (4c), geen bewijs voor de interpretatieve weergave."
+        }
       ]
+    },
+    {
+      "verse_number": 19,
+      "original": "Want <Namel. welcke ghy betoont in het aennemen der leere des Euangeliums, die hy geloove noemt, Rom. 1.8. Siet 1.Thess. 1.8.> uwe gehoorsaemheyt is tot [kennisse van] alle gekomen. Ick verblijde my dan uwent halven: $Matth. 10.16. 1.Corinth. 14.20.$ ende ick wil dat ghy wijs zijt in het goede, doch onnoosel in het quade.",
+      "modernized": "Want <Namelijk, die u betoont in het aannemen van de leer van het Evangelie, die hij geloof noemt, $Rm. 1:8$ Zie $1Th. 1:8$.> uw gehoorzaamheid is tot [kennis van] allen gekomen. Ik verblijd mij dan om uwentwil; $Mt. 10:16; 1Kor. 14:20$ en ik wil dat u wijs bent in het goede, maar argeloos in het kwade.",
+      "source_text": "ἡ γὰρ ὑμῶν ὑπακοὴ εἰς πάντας ἀφίκετο. χαίρω οὖν τὸ ἐφ’ ὑμῖν· θέλω δὲ ὑμᾶς σοφοὺς μὲν εἶναι εἰς τὸ ἀγαθόν, ἀκεραίους δὲ εἰς τὸ κακόν.",
+      "generated_at": "2026-05-25T14:27:47.022699Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "onnoosel → argeloos",
+          "context": "slot van het vers",
+          "choice": "argeloos in het kwade",
+          "alternatives": [
+            "onnozel in het kwade",
+            "oprecht in het kwade"
+          ],
+          "reason": "SV onnoosel (Gr. ακεραιους, ongemengd/onschuldig) is een false friend: modern onnozel betekent dom. argeloos dekt de betekenis onschuldig/zonder arglist t.o.v. het kwade, concordant met Mt. 10:16."
+        }
+      ]
+    },
+    {
+      "verse_number": 20,
+      "original": "Ende <Siet Rom. 15. vers 33.> de Godt des vredes sal <Nam. die door sijne instrumenten u soeckt te verleyden.> den Satan <Het welck hier wel begint, maer in het eynde van dese werelt, welck aenstaende is, Apocal. cap. 22. vers 12. volkomelick sal geschieden.> haest <D. doen, dat ghy hem door Christum sult volkomelick overwinnen. De Apostel schijnt hier te sien op de eerste belofte des Euangeliums, Genes. 3.15. Siet oock Apoc. 12. vers 11.> onder uwe voeten verpletteren. <Desen wensch gebruyckt d’Apostel in alle sijne sendtbrieven. siet 2.Thess. cap. 3. vers 17.> De genade onses Heeren Iesu Christi zy met u-lieden. Amen.",
+      "modernized": "En <Zie $Rm. 15:33$.> de God van de vrede zal <Namelijk, die door zijn werktuigen u zoekt te verleiden.> de Satan <Wat hier wel begint, maar in het einde van deze wereld, dat aanstaande is, $Op. 22:12$ volkomen zal geschieden.> spoedig <Dat is, doen dat u hem door Christus volkomen zult overwinnen. De Apostel schijnt hier te zien op de eerste belofte van het Evangelie, $Gn. 3:15$. Zie ook $Op. 12:11$.> onder uw voeten verpletteren. <Deze wens gebruikt de Apostel in al zijn brieven. Zie $2Th. 3:17$.> De genade van onze Heere Jezus Christus zij met u. Amen.",
+      "source_text": "ὁ δὲ Θεὸς τῆς εἰρήνης συντρίψει τὸν Σατανᾶν ὑπὸ τοὺς πόδας ὑμῶν ἐν τάχει. Ἡ χάρις τοῦ Κυρίου ἡμῶν Ἰησοῦ Χριστοῦ μεθ’ ὑμῶν. ἀμήν.",
+      "generated_at": "2026-05-25T14:28:10.990289Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 21,
+      "original": "U groeten $Actor. 16.1. Philip. 2.19. Coloss. 1.1. 1.Thess. 3.2. 1.Timoth. 1.2.$ Timotheus mijn mede-arbeyder, ende $Actor. 13.1.$ Lucius, ende $Actor. 17.5.$ Iason, ende $Actor. 20.4.$ Sosipater mijne bloetverwanten.",
+      "modernized": "U groeten $Hd. 16:1; Fp. 2:19; Ko. 1:1; 1Th. 3:2; 1Tm. 1:2$ Timotheüs mijn medearbeider, en $Hd. 13:1$ Lucius, en $Hd. 17:5$ Jason, en $Hd. 20:4$ Sosipater mijn bloedverwanten.",
+      "source_text": "Ἀσπάζονται ὑμᾶς Τιμόθεος ὁ συνεργός μου, καὶ Λούκιος καὶ Ἰάσων καὶ Σωσίπατρος οἱ συγγενεῖς μου.",
+      "generated_at": "2026-05-25T14:28:33.418958Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ],
   "epilogue": {
