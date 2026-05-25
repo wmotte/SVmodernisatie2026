@@ -15,7 +15,8 @@
       "sv2026": "En het geschiedde, toen hij in een zekere plaats aan het bidden was, dat een van zijn discipelen, toen hij ophield, tot hem zei: Heere <Dat is, geef ons een voorschrift voor het gebed, dat wij mogen gebruiken, en waarnaar wij onze gebeden mogen richten.> leer ons bidden, zoals ook Johannes zijn discipelen geleerd heeft.",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "1",
+          "kind": "kanttekening",
           "gbs": "Dat is, geef ons een voorschrift des gebeds, hetwelk wij mogen gebruiken, en naar hetwelk wij onze gebeden mogen richten.",
           "sv2026": "Dat is, geef ons een voorschrift voor het gebed, dat wij mogen gebruiken, en waarnaar wij onze gebeden mogen richten."
         }
@@ -29,14 +30,22 @@
       "sv2026": "En hij zei tot hen: $Mt. 6:9$ Wanneer u bidt, zegt dan: <Zie de verklaring van dit gebed bij $Mt. 6:9$ enz.> Onze Vader, die in de hemelen [zijt,] uw naam worde geheiligd; uw Koninkrijk kome; uw wil geschiede, zoals in de hemel, [zo] ook op de aarde.",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "a",
+          "kind": "verwijzing",
           "gbs": "Matth. 6:9.",
+          "sv2026": "Mt. 6:9"
+        },
+        {
+          "label": "2",
+          "kind": "kanttekening",
+          "gbs": "Zie de verklaring van dit gebed bij Matth. 6:9, enz.",
           "sv2026": "Zie de verklaring van dit gebed bij $Mt. 6:9$ enz."
         },
         {
-          "n": 2,
-          "gbs": "Zie de verklaring van dit gebed bij Matth. 6:9, enz.",
-          "sv2026": ""
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Mt. 6:9"
         }
       ],
       "notes": [
@@ -60,14 +69,22 @@
       "sv2026": "Geef ons <Of, van dag tot dag, of, alle dagen.> elke dag ons <Of, toereikend. zie $Mt. 6:11$.> dagelijks brood.",
       "kanttekeningen": [
         {
-          "n": 3,
+          "label": "3",
+          "kind": "kanttekening",
           "gbs": "Of: van dag tot dag, of: alle dagen.",
           "sv2026": "Of, van dag tot dag, of, alle dagen."
         },
         {
-          "n": 4,
+          "label": "4",
+          "kind": "kanttekening",
           "gbs": "Of: genoegzaam. Zie Matth. 6:11.",
           "sv2026": "Of, toereikend. zie $Mt. 6:11$."
+        },
+        {
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Mt. 6:11"
         }
       ]
     },
@@ -87,7 +104,8 @@
       "sv2026": "En hij zei tot hen: Wie van u zal een vriend hebben, en zal <Dat is, zelfs op het meest ongelegen tijdstip.> te middernacht tot hem gaan en tegen hem zeggen: Vriend, leen mij drie broden;",
       "kanttekeningen": [
         {
-          "n": 5,
+          "label": "5",
+          "kind": "kanttekening",
           "gbs": "Dat is, zelfs op de meest ongelegen tijd.",
           "sv2026": "Dat is, zelfs op het meest ongelegen tijdstip."
         }
@@ -101,7 +119,8 @@
       "sv2026": "Aangezien mijn vriend <Grieks: van de weg.> van de reis bij mij is aangekomen, en ik niets heb om hem voor te zetten;",
       "kanttekeningen": [
         {
-          "n": 6,
+          "label": "6",
+          "kind": "kanttekening",
           "gbs": "Gr. van den weg.",
           "sv2026": "Grieks: van de weg."
         }
@@ -115,7 +134,8 @@
       "sv2026": "En dat hij die binnen is, zou antwoorden en zeggen: Doe mij geen moeite aan; de deur is nu gesloten, en mijn kinderen zijn met mij <Of, te bed.> in de slaapkamer; ik kan niet opstaan om u te geven.",
       "kanttekeningen": [
         {
-          "n": 7,
+          "label": "7",
+          "kind": "kanttekening",
           "gbs": "Of: te bed.",
           "sv2026": "Of, te bed."
         }
@@ -129,14 +149,22 @@
       "sv2026": "Ik zeg u: hoewel hij niet zou opstaan en hem geven omdat hij zijn vriend is, zal hij toch vanwege zijn <Dat is, vanwege zijn lastige en ongelegen aandringen, wat weliswaar soms onaangenaam is bij de mensen, maar niet bij God, $Lk. 18:1; 1Th. 5:17$.> onbeschaamdheid opstaan en hem geven <Namelijk, broden.> zoveel als hij nodig heeft.",
       "kanttekeningen": [
         {
-          "n": 8,
+          "label": "8",
+          "kind": "kanttekening",
           "gbs": "Dat is, omwille van zijn moeilijk en ontijdig aanhouden, hetwelk wel somwijlen onaangenaam is bij de mensen, maar niet bij God, Luk. 18:1. 1 Thess. 5:17.",
           "sv2026": "Dat is, vanwege zijn lastige en ongelegen aandringen, wat weliswaar soms onaangenaam is bij de mensen, maar niet bij God, $Lk. 18:1; 1Th. 5:17$."
         },
         {
-          "n": 9,
+          "label": "9",
+          "kind": "kanttekening",
           "gbs": "Namelijk broden.",
           "sv2026": "Namelijk, broden."
+        },
+        {
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Lk. 18:1; 1Th. 5:17"
         }
       ]
     },
@@ -148,14 +176,22 @@
       "sv2026": "En ik zeg u: $Mt. 7:7; 21:22; Mk. 11:24; Jh. 14:13; 15:7; 16:24; Jk. 1:5,6; 1Jh. 3:22; 5:14$ <Zie hierover de verklaring bij $Mt. 7:8$.> Bidt, en u zal gegeven worden; zoekt, en u zult vinden; klopt, en u zal opengedaan worden.",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "b",
+          "kind": "verwijzing",
           "gbs": "Matth. 7:7; 21:22. Mark. 11:24. Joh. 14:13; 15:7; 16:24. Jak. 1:5, 6. 1 Joh. 3:22; 5:14.",
+          "sv2026": "Mt. 7:7; 21:22; Mk. 11:24; Jh. 14:13; 15:7; 16:24; Jk. 1:5,6; 1Jh. 3:22; 5:14"
+        },
+        {
+          "label": "10",
+          "kind": "kanttekening",
+          "gbs": "Zie hiervan de verklaring Matth. 7:8.",
           "sv2026": "Zie hierover de verklaring bij $Mt. 7:8$."
         },
         {
-          "n": 10,
-          "gbs": "Zie hiervan de verklaring Matth. 7:8.",
-          "sv2026": ""
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Mt. 7:8"
         }
       ]
     },
@@ -175,9 +211,10 @@
       "sv2026": "$Mt. 7:9$ En welke vader onder u, aan wie de zoon om brood vraagt, zal hem een steen geven? Of ook als hij om een vis vraagt, zal hij hem in plaats van een vis een slang geven?",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "c",
+          "kind": "verwijzing",
           "gbs": "Matth. 7:9.",
-          "sv2026": ""
+          "sv2026": "Mt. 7:9"
         }
       ]
     },
@@ -197,7 +234,8 @@
       "sv2026": "Als u dan, die slecht bent, uw kinderen goede gaven weet te geven, hoeveel te meer zal de <Grieks: die uit de hemel is.> hemelse Vader de Heilige Geest geven aan hen die hem bidden?",
       "kanttekeningen": [
         {
-          "n": 11,
+          "label": "11",
+          "kind": "kanttekening",
           "gbs": "Gr. Die uit den hemel is.",
           "sv2026": "Grieks: die uit de hemel is."
         }
@@ -211,14 +249,22 @@
       "sv2026": "$Mt. 9:32; 12:22$ En hij wierp een duivel uit, en die <Dat is, maakte de bezeten mens stom; en ook blind, zoals te zien is in $Mt. 12:22$.> was stom. En het geschiedde, toen de duivel uitgevaren was, dat de stomme sprak, en de scharen verwonderden zich.",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "d",
+          "kind": "verwijzing",
           "gbs": "Matth. 9:32; 12:22.",
+          "sv2026": "Mt. 9:32; 12:22"
+        },
+        {
+          "label": "12",
+          "kind": "kanttekening",
+          "gbs": "Dat is, maakte den bezeten mens stom; en ook blind, gelijk te zien is Matth. 12:22.",
           "sv2026": "Dat is, maakte de bezeten mens stom; en ook blind, zoals te zien is in $Mt. 12:22$."
         },
         {
-          "n": 12,
-          "gbs": "Dat is, maakte den bezeten mens stom; en ook blind, gelijk te zien is Matth. 12:22.",
-          "sv2026": ""
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Mt. 12:22"
         }
       ]
     },
@@ -230,14 +276,22 @@
       "sv2026": "Maar sommigen van hen zeiden: $Mt. 9:34; 12:24; Mk. 3:22$ Hij werpt de duivelen uit door <Of, Beëlzebub. Zie daarover $Mt. 10:25$.> Beëlzebul, de Overste van de duivelen.",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "e",
+          "kind": "verwijzing",
           "gbs": "Matth. 9:34; 12:24. Mark. 3:22.",
+          "sv2026": "Mt. 9:34; 12:24; Mk. 3:22"
+        },
+        {
+          "label": "13",
+          "kind": "kanttekening",
+          "gbs": "Anders: Beëlzebub. Zie daarvan Matth. 10:25.",
           "sv2026": "Of, Beëlzebub. Zie daarover $Mt. 10:25$."
         },
         {
-          "n": 13,
-          "gbs": "Anders: Beëlzebub. Zie daarvan Matth. 10:25.",
-          "sv2026": ""
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Mt. 10:25"
         }
       ]
     },
@@ -249,19 +303,28 @@
       "sv2026": "En anderen, om [hem] te verzoeken, $Mt. 16:1$ <Grieks: zochten.> begeerden van hem een teken <Zie $Mt. 16:1$.> uit de hemel.",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "f",
+          "kind": "verwijzing",
           "gbs": "Matth. 16:1.",
+          "sv2026": "Mt. 16:1"
+        },
+        {
+          "label": "14",
+          "kind": "kanttekening",
+          "gbs": "Gr. zochten.",
           "sv2026": "Grieks: zochten."
         },
         {
-          "n": 14,
-          "gbs": "Gr. zochten.",
+          "label": "15",
+          "kind": "kanttekening",
+          "gbs": "Zie Matth. 16:1.",
           "sv2026": "Zie $Mt. 16:1$."
         },
         {
-          "n": 15,
-          "gbs": "Zie Matth. 16:1.",
-          "sv2026": ""
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Mt. 16:1"
         }
       ]
     },
@@ -273,19 +336,28 @@
       "sv2026": "Maar hij kende hun <Of, overleggingen.> gedachten, en zei tot hen: $Mt. 12:25; Mk. 3:24$ Een ieder Koninkrijk dat tegen zichzelf verdeeld is, wordt verwoest; en <Grieks: huis tegen huis; Dat is, tegen zichzelf; zoals te zien is in $Mt. 12:25$.> een huis tegen zichzelf [dat verdeeld is,] valt.",
       "kanttekeningen": [
         {
-          "n": 16,
+          "label": "16",
+          "kind": "kanttekening",
           "gbs": "Of: overleggingen.",
           "sv2026": "Of, overleggingen."
         },
         {
-          "n": 2,
+          "label": "g",
+          "kind": "verwijzing",
           "gbs": "Matth. 12:25. Mark. 3:24.",
+          "sv2026": "Mt. 12:25; Mk. 3:24"
+        },
+        {
+          "label": "17",
+          "kind": "kanttekening",
+          "gbs": "Gr. huis tegen huis, dat is, tegen zichzelven; gelijk te zien is Matth. 12:25.",
           "sv2026": "Grieks: huis tegen huis; Dat is, tegen zichzelf; zoals te zien is in $Mt. 12:25$."
         },
         {
-          "n": 17,
-          "gbs": "Gr. huis tegen huis, dat is, tegen zichzelven; gelijk te zien is Matth. 12:25.",
-          "sv2026": ""
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Mt. 12:25"
         }
       ]
     },
@@ -305,14 +377,22 @@
       "sv2026": "En indien ik door Beëlzebul de duivelen uitwerp, door wie werpen uw <Zie $Mt. 12:27$.> zonen ze uit? Daarom zullen zij uw <Dat is, zij die u met hun doen en getuigenis veroordelen.> rechters zijn.",
       "kanttekeningen": [
         {
-          "n": 18,
+          "label": "18",
+          "kind": "kanttekening",
           "gbs": "Zie Matth. 12:27.",
           "sv2026": "Zie $Mt. 12:27$."
         },
         {
-          "n": 19,
+          "label": "19",
+          "kind": "kanttekening",
           "gbs": "Dat is, met hun doen en getuigenis u veroordelen.",
           "sv2026": "Dat is, zij die u met hun doen en getuigenis veroordelen."
+        },
+        {
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Mt. 12:27"
         }
       ]
     },
@@ -324,9 +404,22 @@
       "sv2026": "Maar indien ik door <Dat is, door de kracht of Geest Gods, zoals staat $Mt. 12:28$. Dergelijke wijze van spreken zie $Ex. 8:19$.> de vinger Gods de duivelen uitwerp, dan is het Koninkrijk Gods tot u gekomen.",
       "kanttekeningen": [
         {
-          "n": 20,
+          "label": "20",
+          "kind": "kanttekening",
           "gbs": "Dat is, door de kracht of Geest Gods, gelijk staat Matth. 12:28. Dergelijke manier van spreken zie Ex. 8:19.",
           "sv2026": "Dat is, door de kracht of Geest Gods, zoals staat $Mt. 12:28$. Dergelijke wijze van spreken zie $Ex. 8:19$."
+        },
+        {
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Mt. 12:28"
+        },
+        {
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Ex. 8:19"
         }
       ]
     },
@@ -338,17 +431,20 @@
       "sv2026": "Wanneer een sterke gewapende zijn <Of, paleis.> woning bewaakt, dan is <Of, al zijn goederen.> [al] wat hij heeft in <Dat is, in rust en zekerheid.> vrede.",
       "kanttekeningen": [
         {
-          "n": 21,
+          "label": "21",
+          "kind": "kanttekening",
           "gbs": "Of: paleis.",
           "sv2026": "Of, paleis."
         },
         {
-          "n": 22,
+          "label": "22",
+          "kind": "kanttekening",
           "gbs": "Of: al zijn goederen.",
           "sv2026": "Of, al zijn goederen."
         },
         {
-          "n": 23,
+          "label": "23",
+          "kind": "kanttekening",
           "gbs": "Dat is, in rust en zekerheid.",
           "sv2026": "Dat is, in rust en zekerheid."
         }
@@ -362,14 +458,16 @@
       "sv2026": "$Ko. 2:15$ Maar wanneer er één over hem komt, die sterker is dan hij, en hem overwint, dan neemt hij zijn hele wapenrusting, waarop hij vertrouwde, en deelt zijn <Mattheüs zegt vaten, Dat is, huisraad.> buit uit.",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "h",
+          "kind": "verwijzing",
           "gbs": "Kol. 2:15.",
-          "sv2026": "Mattheüs zegt vaten, Dat is, huisraad."
+          "sv2026": "Ko. 2:15"
         },
         {
-          "n": 24,
+          "label": "24",
+          "kind": "kanttekening",
           "gbs": "Mattheüs zegt vaten, dat is, huisraad.",
-          "sv2026": ""
+          "sv2026": "Mattheüs zegt vaten, Dat is, huisraad."
         }
       ]
     },
@@ -381,14 +479,22 @@
       "sv2026": "$Mt. 12:30$ Wie <Namelijk, om Gods eer en de zaligheid van de mensen te bevorderen; zie $Mk. 9:40$.> met mij niet is, die is tegen mij; en wie met mij niet vergadert, die verstrooit.",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "i",
+          "kind": "verwijzing",
           "gbs": "Matth. 12:30.",
+          "sv2026": "Mt. 12:30"
+        },
+        {
+          "label": "25",
+          "kind": "kanttekening",
+          "gbs": "Namelijk om Gods eer en de zaligheid der mensen te bevorderen. Zie Mark. 9:40.",
           "sv2026": "Namelijk, om Gods eer en de zaligheid van de mensen te bevorderen; zie $Mk. 9:40$."
         },
         {
-          "n": 25,
-          "gbs": "Namelijk om Gods eer en de zaligheid der mensen te bevorderen. Zie Mark. 9:40.",
-          "sv2026": ""
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Mk. 9:40"
         }
       ]
     },
@@ -400,19 +506,28 @@
       "sv2026": "$Mt. 12:43$ <Zie hierover de uitleg in $Mt. 12:43$, enz.> Wanneer de onreine geest van de mens uitgevaren is, dan gaat hij door <Grieks: waterloze, droge.> dorre plaatsen om rust te zoeken; en wanneer hij die niet vindt, zegt hij: Ik zal weer terugkeren in mijn huis waar ik uitgevaren ben.",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "k",
+          "kind": "verwijzing",
           "gbs": "Matth. 12:43, enz.",
+          "sv2026": "Mt. 12:43"
+        },
+        {
+          "label": "26",
+          "kind": "kanttekening",
+          "gbs": "Zie hiervan de verklaring Matth. 12:43, enz.",
           "sv2026": "Zie hierover de uitleg in $Mt. 12:43$, enz."
         },
         {
-          "n": 26,
-          "gbs": "Zie hiervan de verklaring Matth. 12:43, enz.",
+          "label": "27",
+          "kind": "kanttekening",
+          "gbs": "Gr. waterloze, droge.",
           "sv2026": "Grieks: waterloze, droge."
         },
         {
-          "n": 27,
-          "gbs": "Gr. waterloze, droge.",
-          "sv2026": ""
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Mt. 12:43"
         }
       ]
     },
@@ -424,7 +539,8 @@
       "sv2026": "En wanneer hij komt, vindt hij het <Of, schoongemaakt.> [met bezems] geveegd en versierd.",
       "kanttekeningen": [
         {
-          "n": 28,
+          "label": "28",
+          "kind": "kanttekening",
           "gbs": "Of: geveegd.",
           "sv2026": "Of, schoongemaakt."
         }
@@ -438,9 +554,10 @@
       "sv2026": "Dan gaat hij heen, en neemt met zich zeven andere geesten, die slechter zijn dan hijzelf; en wanneer zij naar binnen zijn gegaan, wonen zij daar: $Jh. 5:14; Hb. 6:4,5; 10:26; 2Pt. 2:20$ en het laatste van die mens wordt erger dan het eerste.",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "l",
+          "kind": "verwijzing",
           "gbs": "Joh. 5:14. Hebr. 6:4, 5; 10:26. 2 Petr. 2:20.",
-          "sv2026": ""
+          "sv2026": "Jh. 5:14; Hb. 6:4,5; 10:26; 2Pt. 2:20"
         }
       ]
     },
@@ -460,14 +577,16 @@
       "sv2026": "Maar hij zei: $Mt. 7:21; Jh. 6:29; Rm. 2:13$ <Christus ontkent hier niet dat zijn moeder zalig is, maar leert dat haar en andermans zaligheid niet voortkomt uit vleselijke geboorte, maar door het horen van het woord van God, met waar geloof aangenomen.> Ja, zalig zijn zij die het woord van God horen en dat bewaren.",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "m",
+          "kind": "verwijzing",
           "gbs": "Matth. 7:21. Joh. 6:29. Rom. 2:13.",
-          "sv2026": "Christus ontkent hier niet dat zijn moeder zalig is, maar leert dat haar en andermans zaligheid niet voortkomt uit vleselijke geboorte, maar door het horen van het woord van God, met waar geloof aangenomen."
+          "sv2026": "Mt. 7:21; Jh. 6:29; Rm. 2:13"
         },
         {
-          "n": 29,
+          "label": "29",
+          "kind": "kanttekening",
           "gbs": "Christus ontkent hier niet dat Zijn moeder zalig is, maar leert dat haar en anderer zaligheid niet voortkomt uit vleselijke geboorte, maar door het gehoor van het Woord Gods, met waar geloof aangenomen.",
-          "sv2026": ""
+          "sv2026": "Christus ontkent hier niet dat zijn moeder zalig is, maar leert dat haar en andermans zaligheid niet voortkomt uit vleselijke geboorte, maar door het horen van het woord van God, met waar geloof aangenomen."
         }
       ]
     },
@@ -479,9 +598,10 @@
       "sv2026": "En toen de scharen samenstroomden, begon hij te zeggen: Dit is een boos geslacht; het verzoekt een teken, en aan dit geslacht zal geen teken gegeven worden, dan $Jn. 1:17; 2:10$ het teken van Jona de Profeet.",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "n",
+          "kind": "verwijzing",
           "gbs": "Jona 1:17; 2:10.",
-          "sv2026": ""
+          "sv2026": "Jn. 1:17; 2:10"
         }
       ]
     },
@@ -493,9 +613,16 @@
       "sv2026": "Want <Zie hiervan de verklaring van Christus zelf, $Mt. 12:40$.> zoals Jona voor de Ninevieten een teken geweest is, zo zal ook de Zoon des mensen zijn voor dit geslacht.",
       "kanttekeningen": [
         {
-          "n": 30,
+          "label": "30",
+          "kind": "kanttekening",
           "gbs": "Zie hiervan de verklaring van Christus Zelven, Matth. 12:40.",
           "sv2026": "Zie hiervan de verklaring van Christus zelf, $Mt. 12:40$."
+        },
+        {
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Mt. 12:40"
         }
       ]
     },
@@ -507,24 +634,28 @@
       "sv2026": "De Koningin van het Zuiden zal opstaan in het oordeel met de mannen van dit geslacht, en zal hen <Namelijk, door haar voorbeeld.> veroordelen; $1Kn. 10:1; 2Kr. 9:1; Mt. 12:42$ want zij is gekomen <Grieks: uit.> van de einden der aarde, om de wijsheid van Salomo te horen, en zie, <Dat is, een die voortreffelijker is dan Salomo, zowel van persoon als van ambt.> meer dan Salomo is hier.",
       "kanttekeningen": [
         {
-          "n": 31,
+          "label": "31",
+          "kind": "kanttekening",
           "gbs": "Namelijk door haar voorbeeld.",
           "sv2026": "Namelijk, door haar voorbeeld."
         },
         {
-          "n": 2,
+          "label": "o",
+          "kind": "verwijzing",
           "gbs": "1 Kon. 10:1. 2 Kron. 9:1. Matth. 12:42.",
+          "sv2026": "1Kn. 10:1; 2Kr. 9:1; Mt. 12:42"
+        },
+        {
+          "label": "32",
+          "kind": "kanttekening",
+          "gbs": "Gr. uit.",
           "sv2026": "Grieks: uit."
         },
         {
-          "n": 32,
-          "gbs": "Gr. uit.",
-          "sv2026": "Dat is, een die voortreffelijker is dan Salomo, zowel van persoon als van ambt."
-        },
-        {
-          "n": 33,
+          "label": "33",
+          "kind": "kanttekening",
           "gbs": "Dat is, Een Die voortreffelijker is dan Salomo, zo van Persoon als van ambt.",
-          "sv2026": ""
+          "sv2026": "Dat is, een die voortreffelijker is dan Salomo, zowel van persoon als van ambt."
         }
       ]
     },
@@ -536,9 +667,10 @@
       "sv2026": "De mannen van Nineve zullen opstaan in het oordeel met dit geslacht, en zullen het veroordelen; $Jn. 3:5$ want zij hebben zich bekeerd op de prediking van Jona; en zie, meer dan Jona is hier.",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "p",
+          "kind": "verwijzing",
           "gbs": "Jona 3:5.",
-          "sv2026": ""
+          "sv2026": "Jn. 3:5"
         }
       ]
     },
@@ -550,14 +682,16 @@
       "sv2026": "$Mt. 5:15; Mk. 4:21; Lk. 8:16$ En niemand die een kaars ontsteekt, zet [die] in het verborgene, noch onder een korenmaat; maar op een kandelaar, opdat zij die binnenkomen <Grieks: het schijnsel.> het licht mogen zien.",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "q",
+          "kind": "verwijzing",
           "gbs": "Matth. 5:15. Mark. 4:21. Luk. 8:16.",
-          "sv2026": "Grieks: het schijnsel."
+          "sv2026": "Mt. 5:15; Mk. 4:21; Lk. 8:16"
         },
         {
-          "n": 34,
+          "label": "34",
+          "kind": "kanttekening",
           "gbs": "Gr. het schijnsel.",
-          "sv2026": ""
+          "sv2026": "Grieks: het schijnsel."
         }
       ]
     },
@@ -569,14 +703,22 @@
       "sv2026": "$Mt. 6:22$ De kaars van het lichaam is het oog. Wanneer dan uw oog eenvoudig is, dan is ook uw hele lichaam <Of, helder. Zie $Mt. 6:22$.> verlicht; maar als het slecht is, dan is ook uw [hele] lichaam duister.",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "r",
+          "kind": "verwijzing",
           "gbs": "Matth. 6:22.",
+          "sv2026": "Mt. 6:22"
+        },
+        {
+          "label": "35",
+          "kind": "kanttekening",
+          "gbs": "Of: luchtig. Zie Matth. 6:22.",
           "sv2026": "Of, helder. Zie $Mt. 6:22$."
         },
         {
-          "n": 35,
-          "gbs": "Of: luchtig. Zie Matth. 6:22.",
-          "sv2026": ""
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Mt. 6:22"
         }
       ]
     },
@@ -588,7 +730,8 @@
       "sv2026": "<Of, zie dan of het licht, dat in u is, geen duisternis is.> Zie dan toe, dat het licht, dat in u is, geen duisternis is.",
       "kanttekeningen": [
         {
-          "n": 36,
+          "label": "36",
+          "kind": "kanttekening",
           "gbs": "Of: Zie dan of niet het licht hetwelk in u is, duisternis zij.",
           "sv2026": "Of, zie dan of het licht, dat in u is, geen duisternis is."
         }
@@ -602,7 +745,8 @@
       "sv2026": "Indien dan uw lichaam geheel verlicht is, zonder enig deel te hebben dat duister is, dan zal het <Namelijk, dat door u gedaan wordt, of voortkomt.> geheel verlicht zijn, zoals wanneer de kaars u met het schijnsel verlicht.",
       "kanttekeningen": [
         {
-          "n": 37,
+          "label": "37",
+          "kind": "kanttekening",
           "gbs": "Namelijk wat van u gedaan wordt, of voortkomt.",
           "sv2026": "Namelijk, dat door u gedaan wordt, of voortkomt."
         }
@@ -616,7 +760,8 @@
       "sv2026": "Toen hij nu [dit] sprak, <Grieks: vraagde hem.> verzocht een zekere Farizeeër hem, dat hij bij hem het middagmaal wilde eten; en toen hij binnengegaan was, ging hij aan tafel.",
       "kanttekeningen": [
         {
-          "n": 38,
+          "label": "38",
+          "kind": "kanttekening",
           "gbs": "Gr. vraagde Hem.",
           "sv2026": "Grieks: vraagde hem."
         }
@@ -630,14 +775,22 @@
       "sv2026": "En toen de Farizeeër [dat] zag, verwonderde hij zich, $Mk. 7:3$ dat hij zich niet eerst voor het middagmaal <Grieks: gedoopt was. Zie $Mk. 7:4$.> gewassen had.",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "s",
+          "kind": "verwijzing",
           "gbs": "Mark. 7:3.",
+          "sv2026": "Mk. 7:3"
+        },
+        {
+          "label": "39",
+          "kind": "kanttekening",
+          "gbs": "Gr. gedoopt ware. Zie Mark. 7:4.",
           "sv2026": "Grieks: gedoopt was. Zie $Mk. 7:4$."
         },
         {
-          "n": 39,
-          "gbs": "Gr. gedoopt ware. Zie Mark. 7:4.",
-          "sv2026": ""
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Mk. 7:4"
         }
       ]
     },
@@ -649,19 +802,28 @@
       "sv2026": "En de Heere zei tot hem: $Mt. 23:25$ Nu reinigt u, Farizeeën, het buitenste van de drinkbeker en van de schotel; $Tt. 1:15$ maar <Wat verstaan kan worden, of van de harten van de Farizeeën, of van hun schotels: zoals uitgedrukt staat $Mt. 23:25$.> het binnenste van u is vol van roof en slechtheid.",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "t",
+          "kind": "verwijzing",
           "gbs": "Matth. 23:25.",
+          "sv2026": "Mt. 23:25"
+        },
+        {
+          "label": "v",
+          "kind": "verwijzing",
+          "gbs": "Tit. 1:15.",
+          "sv2026": "Tt. 1:15"
+        },
+        {
+          "label": "40",
+          "kind": "kanttekening",
+          "gbs": "Hetwelk verstaan kan worden óf van de harten der farizeeën, óf van hun schotels; gelijk uitgedrukt staat Matth. 23:25.",
           "sv2026": "Wat verstaan kan worden, of van de harten van de Farizeeën, of van hun schotels: zoals uitgedrukt staat $Mt. 23:25$."
         },
         {
-          "n": 2,
-          "gbs": "Tit. 1:15.",
-          "sv2026": ""
-        },
-        {
-          "n": 40,
-          "gbs": "Hetwelk verstaan kan worden óf van de harten der farizeeën, óf van hun schotels; gelijk uitgedrukt staat Matth. 23:25.",
-          "sv2026": ""
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Mt. 23:25"
         }
       ]
     },
@@ -681,19 +843,40 @@
       "sv2026": "$Jes. 58:7; Dan. 4:27; Lk. 12:33$ Maar geef als aalmoezen wat <Namelijk, in de schotel, of wat u hebt, zoals $Lk. 19:8$; of, wat in u is. Dat is, verander uw onrechtvaardigheid in gerechtigheid en weldadigheid tegen de armen, zoals $Dan. 4:27$.> daarin is; en zie, <Dat is, dan zult u de spijs en drank met een goed geweten en dankzegging mogen gebruiken, $1Tm. 4:4; Tt. 1:15$ Anders: zal u rein zijn.> alles is u rein.",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "x",
+          "kind": "verwijzing",
           "gbs": "Jes. 58:7. Dan. 4:27. Luk. 12:33.",
+          "sv2026": "Jes. 58:7; Dan. 4:27; Lk. 12:33"
+        },
+        {
+          "label": "41",
+          "kind": "kanttekening",
+          "gbs": "Namelijk in den schotel, of: hetgeen gij hebt, gelijk Luk. 19:8, of: hetgeen in u is, dat is, verandert uw onrechtvaardigheid in gerechtigheid en weldadigheid jegens de armen; gelijk Dan. 4:27.",
           "sv2026": "Namelijk, in de schotel, of wat u hebt, zoals $Lk. 19:8$; of, wat in u is. Dat is, verander uw onrechtvaardigheid in gerechtigheid en weldadigheid tegen de armen, zoals $Dan. 4:27$."
         },
         {
-          "n": 41,
-          "gbs": "Namelijk in den schotel, of: hetgeen gij hebt, gelijk Luk. 19:8, of: hetgeen in u is, dat is, verandert uw onrechtvaardigheid in gerechtigheid en weldadigheid jegens de armen; gelijk Dan. 4:27.",
+          "label": "42",
+          "kind": "kanttekening",
+          "gbs": "Dat is, dan zult gij de spijze en drank met goede consciëntie en dankzegging gebruiken mogen, 1 Tim. 4:4. Tit. 1:15. Anders: zal u rein zijn.",
           "sv2026": "Dat is, dan zult u de spijs en drank met een goed geweten en dankzegging mogen gebruiken, $1Tm. 4:4; Tt. 1:15$ Anders: zal u rein zijn."
         },
         {
-          "n": 42,
-          "gbs": "Dat is, dan zult gij de spijze en drank met goede consciëntie en dankzegging gebruiken mogen, 1 Tim. 4:4. Tit. 1:15. Anders: zal u rein zijn.",
-          "sv2026": ""
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Lk. 19:8"
+        },
+        {
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Dan. 4:27"
+        },
+        {
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "1Tm. 4:4; Tt. 1:15"
         }
       ]
     },
@@ -705,29 +888,40 @@
       "sv2026": "$Mt. 23:23$ Maar wee u, Farizeeën, want u <Zie $Mt. 23:23$.> geeft tienden van munt en wijnruit, en <Dat is, allerlei.> elk moeskruid, en $1Sm. 15:22; Hs. 6:6; Mi. 6:8; Mt. 9:13; 12:7$ u gaat voorbij <Dat is, gerechtigheid en billijkheid tegen uw naaste.> het oordeel en de liefde van God. Dit moest men doen, en het andere niet nalaten.",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "y",
+          "kind": "verwijzing",
           "gbs": "Matth. 23:23.",
+          "sv2026": "Mt. 23:23"
+        },
+        {
+          "label": "43",
+          "kind": "kanttekening",
+          "gbs": "Zie Matth. 23:23.",
           "sv2026": "Zie $Mt. 23:23$."
         },
         {
-          "n": 43,
-          "gbs": "Zie Matth. 23:23.",
+          "label": "44",
+          "kind": "kanttekening",
+          "gbs": "Dat is, allerlei.",
           "sv2026": "Dat is, allerlei."
         },
         {
-          "n": 44,
-          "gbs": "Dat is, allerlei.",
+          "label": "z",
+          "kind": "verwijzing",
+          "gbs": "1 Sam. 15:22. Hos. 6:6. Micha 6:8. Matth. 9:13; 12:7.",
+          "sv2026": "Mt. 23:23"
+        },
+        {
+          "label": "45",
+          "kind": "kanttekening",
+          "gbs": "Dat is, gerechtigheid en billijkheid jegens uw naaste.",
           "sv2026": "Dat is, gerechtigheid en billijkheid tegen uw naaste."
         },
         {
-          "n": 4,
-          "gbs": "1 Sam. 15:22. Hos. 6:6. Micha 6:8. Matth. 9:13; 12:7.",
-          "sv2026": ""
-        },
-        {
-          "n": 45,
-          "gbs": "Dat is, gerechtigheid en billijkheid jegens uw naaste.",
-          "sv2026": ""
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "1Sm. 15:22; Hs. 6:6; Mi. 6:8; Mt. 9:13; 12:7"
         }
       ]
     },
@@ -739,14 +933,16 @@
       "sv2026": "$Mt. 23:6; Mk. 12:38; Lk. 20:46$ Wee u, Farizeeën, want u bemint <Of, voorste zitplaats.> het voorgestoelte in de Synagogen, en de begroetingen op de markten.",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "a",
+          "kind": "verwijzing",
           "gbs": "Matth. 23:6. Mark. 12:38. Luk. 20:46.",
-          "sv2026": "Of, voorste zitplaats."
+          "sv2026": "Mt. 23:6; Mk. 12:38; Lk. 20:46"
         },
         {
-          "n": 46,
+          "label": "46",
+          "kind": "kanttekening",
           "gbs": "Of: voorste zitting.",
-          "sv2026": ""
+          "sv2026": "Of, voorste zitplaats."
         }
       ]
     },
@@ -758,19 +954,22 @@
       "sv2026": "$Mt. 23:27$ Wee u, Schriftgeleerden en Farizeeën, huichelaars: want u bent als de graven die <Of, verborgen, namelijk in de aarde.> niet zichtbaar zijn, en de mensen die daarover lopen <Of, en kennen ze niet.> weten het niet.",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "b",
+          "kind": "verwijzing",
           "gbs": "Matth. 23:27.",
+          "sv2026": "Mt. 23:27"
+        },
+        {
+          "label": "47",
+          "kind": "kanttekening",
+          "gbs": "Of: verborgen, namelijk in de aarde.",
           "sv2026": "Of, verborgen, namelijk in de aarde."
         },
         {
-          "n": 47,
-          "gbs": "Of: verborgen, namelijk in de aarde.",
-          "sv2026": "Of, en kennen ze niet."
-        },
-        {
-          "n": 48,
+          "label": "48",
+          "kind": "kanttekening",
           "gbs": "Of: kennen ze niet.",
-          "sv2026": ""
+          "sv2026": "Of, en kennen ze niet."
         }
       ]
     },
@@ -782,7 +981,8 @@
       "sv2026": "En een van de <De Schriftgeleerden waren ook wel Wetgeleerden, maar het schijnt dat onder hen enigen waren die in kennis uitblonken, en die deze naam in het bijzonder droegen.> Wetgeleerden antwoordde en zei tot hem: Meester, als u deze dingen zegt, dan doet u ook ons smaad aan.",
       "kanttekeningen": [
         {
-          "n": 49,
+          "label": "49",
+          "kind": "kanttekening",
           "gbs": "De schriftgeleerden waren ook wel wetgeleerden, maar het schijnt dat onder dezelve enige waren die in wetenschap uitstaken, en die dezen naam bijzonderlijk voerden.",
           "sv2026": "De Schriftgeleerden waren ook wel Wetgeleerden, maar het schijnt dat onder hen enigen waren die in kennis uitblonken, en die deze naam in het bijzonder droegen."
         }
@@ -796,9 +996,10 @@
       "sv2026": "$Js. 10:1; Mt. 23:4; Hd. 15:10$ Maar hij zei: Wee ook u, Wetgeleerden, want u belast de mensen met lasten, zwaar om te dragen, en zelf raakt u die lasten niet aan met een van uw vingers.",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "c",
+          "kind": "verwijzing",
           "gbs": "Jes. 10:1. Matth. 23:4. Hand. 15:10.",
-          "sv2026": ""
+          "sv2026": "Js. 10:1; Mt. 23:4; Hd. 15:10"
         }
       ]
     },
@@ -810,9 +1011,10 @@
       "sv2026": "$Mt. 23:29$ Wee u, want u bouwt de graven van de Profeten, en uw vaders hebben hen gedood.",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "d",
+          "kind": "verwijzing",
           "gbs": "Matth. 23:29.",
-          "sv2026": ""
+          "sv2026": "Mt. 23:29"
         }
       ]
     },
@@ -824,14 +1026,22 @@
       "sv2026": "Zo getuigt u dan <Grieks: en u hebt mede behagen.> dat u mede behagen hebt in de werken van uw vaders: want zij hebben hen gedood, en u <Dat is, als u hun graven opbouwt, zo toont u daarmee dat u rechte kinderen bent van degenen die de Profeten gedood hebben, $Mt. 23:31$. En hoewel u daarmee wilt schijnen de daad van uw vaders te misprijzen, zo blijkt toch uit de haat en wreedheid die u betoont tegen de rechtzinnige Leraars, dat u daarin op uw vaders lijkt: en als u in die tijd geleefd had, dat u hetzelfde ook aan de Profeten zou hebben gedaan.> bouwt hun graven.",
       "kanttekeningen": [
         {
-          "n": 50,
+          "label": "50",
+          "kind": "kanttekening",
           "gbs": "Gr. en gij hebt medebehagen.",
           "sv2026": "Grieks: en u hebt mede behagen."
         },
         {
-          "n": 51,
+          "label": "51",
+          "kind": "kanttekening",
           "gbs": "Dat is, als gij hun graven opbouwt, zo toont gij daarmede dat gij rechte kinderen zijt dergenen die de profeten hebben gedood, Matth. 23:31. En hoewel gij daarmede wilt schijnen uwer vaderen daad te misprijzen, zo blijkt nochtans uit den haat en de wreedheid, die gij bewijst tegen de rechtzinnige leraars, dat gij daarin uw vaderen gelijk zijt; en zo gij in dien tijd geleefd hadt, dat gij hetzelfde ook aan de profeten zoudt hebben gedaan.",
           "sv2026": "Dat is, als u hun graven opbouwt, zo toont u daarmee dat u rechte kinderen bent van degenen die de Profeten gedood hebben, $Mt. 23:31$. En hoewel u daarmee wilt schijnen de daad van uw vaders te misprijzen, zo blijkt toch uit de haat en wreedheid die u betoont tegen de rechtzinnige Leraars, dat u daarin op uw vaders lijkt: en als u in die tijd geleefd had, dat u hetzelfde ook aan de Profeten zou hebben gedaan."
+        },
+        {
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Mt. 23:31"
         }
       ]
     },
@@ -843,19 +1053,40 @@
       "sv2026": "Daarom zegt ook <Dit spreekt Christus van zichzelf, aangezien hij de eeuwige wijsheid van de Vader is, $Sp. 8:1,22$ en $1Kor. 1:24$ zoals blijkt uit $Mt. 23:34$.> de wijsheid van God <Of, heeft gezegd.>: $Mt. 10:16; Lk. 10:3; Jh. 16:2; Hd. 7:51; Hb. 11:35$ Ik zal Profeten en Apostelen tot hen zenden, en van die zullen zij [sommigen] doden, en [sommigen] zullen zij verjagen:",
       "kanttekeningen": [
         {
-          "n": 52,
+          "label": "52",
+          "kind": "kanttekening",
           "gbs": "Dit spreekt Christus van Zichzelven, alzo Hij de eeuwige Wijsheid des Vaders is, Spr. 8:1, 22. 1 Kor. 1:24. Gelijk blijkt uit Matth. 23:34.",
           "sv2026": "Dit spreekt Christus van zichzelf, aangezien hij de eeuwige wijsheid van de Vader is, $Sp. 8:1,22$ en $1Kor. 1:24$ zoals blijkt uit $Mt. 23:34$."
         },
         {
-          "n": 53,
+          "label": "53",
+          "kind": "kanttekening",
           "gbs": "Of: heeft gezegd.",
           "sv2026": "Of, heeft gezegd."
         },
         {
-          "n": 3,
+          "label": "e",
+          "kind": "verwijzing",
           "gbs": "Matth. 10:16. Luk. 10:3. Joh. 16:2. Hand. 7:51. Hebr. 11:35.",
-          "sv2026": ""
+          "sv2026": "Sp. 8:1,22"
+        },
+        {
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "1Kor. 1:24"
+        },
+        {
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Mt. 23:34"
+        },
+        {
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Mt. 10:16; Lk. 10:3; Jh. 16:2; Hd. 7:51; Hb. 11:35"
         }
       ]
     },
@@ -867,9 +1098,16 @@
       "sv2026": "Opdat van <Zie $Mt. 23:35$.> dit geslacht het bloed van al de Profeten opgeëist wordt, dat vergoten is vanaf de grondlegging van de wereld.",
       "kanttekeningen": [
         {
-          "n": 54,
+          "label": "54",
+          "kind": "kanttekening",
           "gbs": "Zie Matth. 23:35.",
           "sv2026": "Zie $Mt. 23:35$."
+        },
+        {
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Mt. 23:35"
         }
       ]
     },
@@ -881,24 +1119,40 @@
       "sv2026": "$Gn. 4:8; Hb. 11:4$ Van het bloed van Abel $2Kr. 24:21$ tot het bloed <Over deze Zacharia zie $Mt. 23:35$.> van Zacharia, die gedood is tussen het altaar en <Dat is, de tempel, zoals verklaard wordt $Mt. 23:35$.> het huis [van God:] ja, ik zeg u, het zal opgeëist worden van dit geslacht.",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "f",
+          "kind": "verwijzing",
           "gbs": "Gen. 4:8. Hebr. 11:4.",
+          "sv2026": "Gn. 4:8; Hb. 11:4"
+        },
+        {
+          "label": "g",
+          "kind": "verwijzing",
+          "gbs": "2 Kron. 24:21.",
+          "sv2026": "2Kr. 24:21"
+        },
+        {
+          "label": "55",
+          "kind": "kanttekening",
+          "gbs": "Van dezen Zacharia zie Matth. 23:35.",
           "sv2026": "Over deze Zacharia zie $Mt. 23:35$."
         },
         {
-          "n": 2,
-          "gbs": "2 Kron. 24:21.",
+          "label": "56",
+          "kind": "kanttekening",
+          "gbs": "Dat is, den tempel, gelijk verklaard wordt Matth. 23:35.",
           "sv2026": "Dat is, de tempel, zoals verklaard wordt $Mt. 23:35$."
         },
         {
-          "n": 55,
-          "gbs": "Van dezen Zacharia zie Matth. 23:35.",
-          "sv2026": ""
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Mt. 23:35"
         },
         {
-          "n": 56,
-          "gbs": "Dat is, den tempel, gelijk verklaard wordt Matth. 23:35.",
-          "sv2026": ""
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Mt. 23:35"
         }
       ]
     },
@@ -910,14 +1164,22 @@
       "sv2026": "$Mt. 23:13$ Wee u, Wetgeleerden, want u hebt <Deze sleutel is de juiste verklaring van Gods woord, waardoor voor de mensen de ingang tot de hemel geopend wordt; wanneer die geweerd wordt, is dezelfde ingang als toegesloten. Zie $Mt. 23:13$.> de sleutel van de kennis weggenomen: u zelf bent niet ingegaan, en hen die ingingen hebt u verhinderd.",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "h",
+          "kind": "verwijzing",
           "gbs": "Matth. 23:13.",
+          "sv2026": "Mt. 23:13"
+        },
+        {
+          "label": "57",
+          "kind": "kanttekening",
+          "gbs": "Deze sleutel is de rechte verklaring van Gods Woord, waardoor den mensen de ingang tot den hemel geopend wordt, welke geweerd zijnde, zo wordt dezelve ingang als toegesloten. Zie Matth. 23:13.",
           "sv2026": "Deze sleutel is de juiste verklaring van Gods woord, waardoor voor de mensen de ingang tot de hemel geopend wordt; wanneer die geweerd wordt, is dezelfde ingang als toegesloten. Zie $Mt. 23:13$."
         },
         {
-          "n": 57,
-          "gbs": "Deze sleutel is de rechte verklaring van Gods Woord, waardoor den mensen de ingang tot den hemel geopend wordt, welke geweerd zijnde, zo wordt dezelve ingang als toegesloten. Zie Matth. 23:13.",
-          "sv2026": ""
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Mt. 23:13"
         }
       ]
     },
@@ -929,12 +1191,14 @@
       "sv2026": "En toen hij deze dingen tot hen zei, begonnen de Schriftgeleerden en Farizeeën <Of, heftig op hem aan te dringen.> fel aan te dringen, en hem over vele dingen <Grieks: de woorden uit de mond te halen.> te ondervragen;",
       "kanttekeningen": [
         {
-          "n": 58,
+          "label": "58",
+          "kind": "kanttekening",
           "gbs": "Of: heftiglijk op Hem toe te leggen.",
           "sv2026": "Of, heftig op hem aan te dringen."
         },
         {
-          "n": 59,
+          "label": "59",
+          "kind": "kanttekening",
           "gbs": "Gr. uit den mond de woorden te halen.",
           "sv2026": "Grieks: de woorden uit de mond te halen."
         }

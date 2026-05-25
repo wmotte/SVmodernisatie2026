@@ -158,7 +158,7 @@
         }
         function cleanGbsBody(text) {
             return stripLeadingVerseNum(text || '')
-                .replace(/⟦\d+⟧/g, '')      // kanttekening-ankers
+                .replace(/⟦[^⟧]*⟧/g, '')    // marker-ankers (cijfers én letters)
                 .replace(/\s+/g, ' ').trim();
         }
 

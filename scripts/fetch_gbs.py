@@ -87,22 +87,24 @@ def _verse_text(td: Tag) -> str:
     return re.sub(r"\s+", " ", raw).strip()
 
 
-def _note_text(td: Tag) -> tuple[int | None, str]:
-    """Parse een td.kanttonder; retourneer (nummer, notetekst)."""
+def _note_text(td: Tag) -> tuple[str | None, str, str]:
+    """Parse een td.kanttonder; retourneer (label, kind, notetekst).
+
+    GBS gebruikt twee marker-soorten: cijfers (kanttekeningen, verklarend) en
+    letters (verwijzingen, bijbel-cross-refs). Het label staat in <b>…</b>.
+    """
     # Verwijder verwijs-icoon-anchors (javascript:fverwijs(..)) volledig.
     for a in td.find_all("a", href=True):
         if "fverwijs" in a["href"]:
             a.decompose()
     b = td.find("b")
-    num: int | None = None
+    label: str | None = None
     if b is not None:
-        try:
-            num = int(b.get_text(strip=True))
-        except ValueError:
-            num = None
+        label = b.get_text(strip=True)
         b.extract()
     text = re.sub(r"\s+", " ", td.get_text()).strip()
-    return num, text
+    kind = "verwijzing" if (label and label.isalpha()) else "kanttekening"
+    return label, kind, text
 
 
 def fetch_gbs(book: str, chapter: int, debug: bool = False) -> dict | None:
@@ -159,9 +161,9 @@ def fetch_gbs(book: str, chapter: int, debug: bool = False) -> dict | None:
         # Kanttekening-rij: td.tussenonder (leeg) + td.kanttonder.
         note_cell = next((c for c in cells if "kanttonder" in (c.get("class") or [])), None)
         if note_cell is not None and current is not None:
-            num, text = _note_text(note_cell)
+            label, kind, text = _note_text(note_cell)
             if text:
-                current["kanttekeningen"].append({"n": num, "text": text})
+                current["kanttekeningen"].append({"label": label, "kind": kind, "text": text})
 
     verses = [v for v in verses if v["verse_number"] is not None]
     if not verses:

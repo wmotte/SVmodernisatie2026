@@ -15,19 +15,34 @@
       "sv2026": "$Mt. 27:2; Mk. 15:1; Jh. 18:28$ En de gehele menigte van hen stond op <Dat is, de gehele Raad, $Lk. 22:66$.> en leidde hem tot <Namelijk de Stadhouder van de Romeinen, over wie zie $Mt. 27:2$.> Pilatus.",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "a",
+          "kind": "verwijzing",
           "gbs": "Matth. 27:2. Mark. 15:1. Joh. 18:28.",
+          "sv2026": "Mt. 27:2; Mk. 15:1; Jh. 18:28"
+        },
+        {
+          "label": "1",
+          "kind": "kanttekening",
+          "gbs": "Dat is, de ganse Raad, Luk. 22:66.",
           "sv2026": "Dat is, de gehele Raad, $Lk. 22:66$."
         },
         {
-          "n": 1,
-          "gbs": "Dat is, de ganse Raad, Luk. 22:66.",
+          "label": "2",
+          "kind": "kanttekening",
+          "gbs": "Namelijk den stadhouder der Romeinen, van welken zie Matth. 27:2.",
           "sv2026": "Namelijk de Stadhouder van de Romeinen, over wie zie $Mt. 27:2$."
         },
         {
-          "n": 2,
-          "gbs": "Namelijk den stadhouder der Romeinen, van welken zie Matth. 27:2.",
-          "sv2026": ""
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Lk. 22:66"
+        },
+        {
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Mt. 27:2"
         }
       ]
     },
@@ -39,24 +54,28 @@
       "sv2026": "En zij begonnen hem te beschuldigen en zeiden: Wij hebben bevonden dat deze <Namelijk, van de Joden.> het volk afvallig maakt, en $Mt. 17:25; 22:21; Mk. 12:17; Lk. 20:25; Rm. 13:7$ verbiedt de Keizer schatting te geven, $Hd. 17:7$ en zegt dat hij zelf Christus, de <Namelijk, van de Joden.> Koning is.",
       "kanttekeningen": [
         {
-          "n": 3,
+          "label": "3",
+          "kind": "kanttekening",
           "gbs": "Namelijk der Joden.",
           "sv2026": "Namelijk, van de Joden."
         },
         {
-          "n": 2,
+          "label": "b",
+          "kind": "verwijzing",
           "gbs": "Matth. 17:25; 22:21. Mark. 12:17. Luk. 20:25. Rom. 13:7.",
-          "sv2026": "Namelijk, van de Joden."
+          "sv2026": "Mt. 17:25; 22:21; Mk. 12:17; Lk. 20:25; Rm. 13:7"
         },
         {
-          "n": 3,
+          "label": "c",
+          "kind": "verwijzing",
           "gbs": "Hand. 17:7.",
-          "sv2026": ""
+          "sv2026": "Hd. 17:7"
         },
         {
-          "n": 4,
+          "label": "4",
+          "kind": "kanttekening",
           "gbs": "Namelijk der Joden.",
-          "sv2026": ""
+          "sv2026": "Namelijk, van de Joden."
         }
       ],
       "notes": [
@@ -74,14 +93,22 @@
       "sv2026": "$Mt. 27:11; Mk. 15:2; Jh. 18:33$ En Pilatus vroeg hem en zei: Bent u de Koning der Joden? En hij antwoordde hem en zei: <Dat is, ja, ik ben het. Zie $Mt. 26:25; Jh. 18:37$.> U zegt het.",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "d",
+          "kind": "verwijzing",
           "gbs": "Matth. 27:11. Mark. 15:2. Joh. 18:33.",
+          "sv2026": "Mt. 27:11; Mk. 15:2; Jh. 18:33"
+        },
+        {
+          "label": "5",
+          "kind": "kanttekening",
+          "gbs": "Dat is, ja, Ik ben het. Zie Matth. 26:25. Joh. 18:37.",
           "sv2026": "Dat is, ja, ik ben het. Zie $Mt. 26:25; Jh. 18:37$."
         },
         {
-          "n": 5,
-          "gbs": "Dat is, ja, Ik ben het. Zie Matth. 26:25. Joh. 18:37.",
-          "sv2026": ""
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Mt. 26:25; Jh. 18:37"
         }
       ]
     },
@@ -93,7 +120,8 @@
       "sv2026": "En Pilatus zei tot de Overpriesters en de scharen: Ik vind geen <Grieks: oorzaak, Namelijk die hem schuldig zou maken aan de dood.> schuld in deze mens.",
       "kanttekeningen": [
         {
-          "n": 6,
+          "label": "6",
+          "kind": "kanttekening",
           "gbs": "Gr. oorzaak, namelijk die Hem des doods zou schuldig maken.",
           "sv2026": "Grieks: oorzaak, Namelijk die hem schuldig zou maken aan de dood."
         }
@@ -107,7 +135,8 @@
       "sv2026": "En zij <Of, zetten zich daartegen schrap.> hielden des te sterker aan, en zeiden: Hij hitst het volk op, terwijl hij door heel Judea onderwijst, begonnen vanaf Galilea tot hiertoe.",
       "kanttekeningen": [
         {
-          "n": 7,
+          "label": "7",
+          "kind": "kanttekening",
           "gbs": "Of: stijfden zich daartegen.",
           "sv2026": "Of, zetten zich daartegen schrap."
         }
@@ -129,19 +158,28 @@
       "sv2026": "$Lk. 3:1$ En toen hij vernam dat hij uit het gebied van <Deze was bijgenaamd Antipas, een zoon van Herodes de Grote, een Viervorst over Galilea, die Johannes de Doper had laten onthoofden. Zie over hem $Lk. 3:1,19$.> Herodes was, stuurde hij hem naar Herodes, die ook zelf in die dagen <Namelijk, om het feest van Pascha met zijn volk te houden.> in Jeruzalem was.",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "e",
+          "kind": "verwijzing",
           "gbs": "Luk. 3:1.",
+          "sv2026": "Lk. 3:1"
+        },
+        {
+          "label": "8",
+          "kind": "kanttekening",
+          "gbs": "Deze was toegenaamd Antipas, een zoon van Herodes den Grote, een viervorst over Galilea, die Johannes den Doper had doen onthalzen. Zie van hem Luk. 3:1, 19.",
           "sv2026": "Deze was bijgenaamd Antipas, een zoon van Herodes de Grote, een Viervorst over Galilea, die Johannes de Doper had laten onthoofden. Zie over hem $Lk. 3:1,19$."
         },
         {
-          "n": 8,
-          "gbs": "Deze was toegenaamd Antipas, een zoon van Herodes den Grote, een viervorst over Galilea, die Johannes den Doper had doen onthalzen. Zie van hem Luk. 3:1, 19.",
+          "label": "9",
+          "kind": "kanttekening",
+          "gbs": "Namelijk om het feest van pascha met zijn volk te houden.",
           "sv2026": "Namelijk, om het feest van Pascha met zijn volk te houden."
         },
         {
-          "n": 9,
-          "gbs": "Namelijk om het feest van pascha met zijn volk te houden.",
-          "sv2026": ""
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Lk. 3:1,19"
         }
       ]
     },
@@ -153,14 +191,16 @@
       "sv2026": "$Lk. 9:7$ En toen Herodes Jezus zag, werd hij zeer verheugd, want hij was al lange tijd verlangend geweest om hem te zien, omdat hij veel van hem hoorde, en hij hoopte enig <Dat is, mirakel: uit louter nieuwsgierigheid, die Christus niet heeft willen voeden.> teken te zien, dat door hem gedaan zou worden.",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "f",
+          "kind": "verwijzing",
           "gbs": "Luk. 9:7.",
-          "sv2026": "Dat is, mirakel: uit louter nieuwsgierigheid, die Christus niet heeft willen voeden."
+          "sv2026": "Lk. 9:7"
         },
         {
-          "n": 10,
+          "label": "10",
+          "kind": "kanttekening",
           "gbs": "Dat is, wonder; uit enkel nieuwsgierigheid, welke Christus niet heeft willen voeden.",
-          "sv2026": ""
+          "sv2026": "Dat is, mirakel: uit louter nieuwsgierigheid, die Christus niet heeft willen voeden."
         }
       ]
     },
@@ -180,7 +220,8 @@
       "sv2026": "En de <Namelijk degenen die Pilatus met Christus tot Herodes gezonden had, vers 15.> Overpriesters en de Schriftgeleerden stonden daar, en beschuldigden hem heftig.",
       "kanttekeningen": [
         {
-          "n": 11,
+          "label": "11",
+          "kind": "kanttekening",
           "gbs": "Namelijk die Pilatus met Christus tot Herodes gezonden had, vers 15.",
           "sv2026": "Namelijk degenen die Pilatus met Christus tot Herodes gezonden had, vers 15."
         }
@@ -194,19 +235,34 @@
       "sv2026": "En toen Herodes hem met zijn <Grieks: legers; dat is, met zijn trawanten.> krijgsknechten <Grieks: voor niets geacht.> veracht en bespot had, deed hij hem een <Of, sierlijk, zoals de Koningen en Prinsen plachten te dragen, $Gn. 41:42; Es. 8:15$. Dit doet hij om te spotten met zijn Koninkrijk, zoals ook de soldaten doen, $Mt. 27:28$, wanneer zij hem een purperen mantel aandoen.> blinkend kleed aan, en zond hem weer tot Pilatus.",
       "kanttekeningen": [
         {
-          "n": 12,
+          "label": "12",
+          "kind": "kanttekening",
           "gbs": "Gr. heiren, dat is, van zijn trawanten.",
           "sv2026": "Grieks: legers; dat is, met zijn trawanten."
         },
         {
-          "n": 13,
+          "label": "13",
+          "kind": "kanttekening",
           "gbs": "Gr. vernietigd.",
           "sv2026": "Grieks: voor niets geacht."
         },
         {
-          "n": 14,
+          "label": "14",
+          "kind": "kanttekening",
           "gbs": "Of: sierlijk, hoedanige klederen de koningen en prinsen plachten te dragen, Gen. 41:42. Esth. 8:15, hetwelk hij doet om te spotten met Zijn Koninkrijk, gelijk ook doen de soldaten, Matth. 27:28, als zij Hem een purperen rok aandoen.",
           "sv2026": "Of, sierlijk, zoals de Koningen en Prinsen plachten te dragen, $Gn. 41:42; Es. 8:15$. Dit doet hij om te spotten met zijn Koninkrijk, zoals ook de soldaten doen, $Mt. 27:28$, wanneer zij hem een purperen mantel aandoen."
+        },
+        {
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Gn. 41:42; Es. 8:15"
+        },
+        {
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Mt. 27:28"
         }
       ]
     },
@@ -218,9 +274,10 @@
       "sv2026": "$Hd. 4:27$ En op diezelfde dag werden Pilatus en Herodes vrienden met elkaar; want zij waren tevoren in vijandschap tegen elkaar.",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "g",
+          "kind": "verwijzing",
           "gbs": "Hand. 4:27.",
-          "sv2026": ""
+          "sv2026": "Hd. 4:27"
         }
       ]
     },
@@ -232,14 +289,16 @@
       "sv2026": "$Mt. 27:23; Mk. 15:14; Jh. 18:38; 19:4$ En <Namelijk nadat Herodes Christus weer tot Pilatus gezonden had.> toen Pilatus de Overpriesters en de Oversten, en het volk samengeroepen had, zei hij tot hen:",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "h",
+          "kind": "verwijzing",
           "gbs": "Matth. 27:23. Mark. 15:14. Joh. 18:38; 19:4.",
-          "sv2026": "Namelijk nadat Herodes Christus weer tot Pilatus gezonden had."
+          "sv2026": "Mt. 27:23; Mk. 15:14; Jh. 18:38; 19:4"
         },
         {
-          "n": 15,
+          "label": "15",
+          "kind": "kanttekening",
           "gbs": "Namelijk nadat Herodes Christus weder tot Pilatus gezonden had.",
-          "sv2026": ""
+          "sv2026": "Namelijk nadat Herodes Christus weer tot Pilatus gezonden had."
         }
       ]
     },
@@ -251,9 +310,16 @@
       "sv2026": "U hebt deze mens tot mij gebracht, als iemand die het volk afvallig maakt; en zie, ik heb [hem] in uw tegenwoordigheid <Het Griekse woord betekent soms rechtelijk ondervragen of examineren. Zie iets dergelijks $Hd. 12:19$.> ondervraagd, en heb in deze mens geen schuld gevonden van datgene waarvan u hem beschuldigt;",
       "kanttekeningen": [
         {
-          "n": 16,
+          "label": "16",
+          "kind": "kanttekening",
           "gbs": "Het Griekse woord betekent somwijlen rechtelijk ondervragen of onderzoeken. Zie dergelijk Hand. 12:19.",
           "sv2026": "Het Griekse woord betekent soms rechtelijk ondervragen of examineren. Zie iets dergelijks $Hd. 12:19$."
+        },
+        {
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Hd. 12:19"
         }
       ]
     },
@@ -265,7 +331,8 @@
       "sv2026": "Ja, ook Herodes niet; want ik heb u naar hem gezonden, en zie, er is <Namelijk Christus. Anderen verstaan het van Herodes, namelijk dat hij Christus niets heeft aangedaan waaruit zou kunnen blijken dat hij hem de dood waardig oordeelde.> door hem niets gedaan dat de dood waardig is.",
       "kanttekeningen": [
         {
-          "n": 17,
+          "label": "17",
+          "kind": "kanttekening",
           "gbs": "Namelijk Christus. Anderen verstaan het van Herodes, namelijk dat hij Christus niets heeft aangedaan waaruit blijken kan, dat hij Hem oordeelde des doods waardig te zijn.",
           "sv2026": "Namelijk Christus. Anderen verstaan het van Herodes, namelijk dat hij Christus niets heeft aangedaan waaruit zou kunnen blijken dat hij hem de dood waardig oordeelde."
         }
@@ -279,9 +346,16 @@
       "sv2026": "Zo zal ik hem dan <Dat is, geselen, zoals verklaard wordt $Jh. 19:1$.> kastijden en loslaten.",
       "kanttekeningen": [
         {
-          "n": 18,
+          "label": "18",
+          "kind": "kanttekening",
           "gbs": "Dat is, geselen, gelijk verklaard wordt Joh. 19:1.",
           "sv2026": "Dat is, geselen, zoals verklaard wordt $Jh. 19:1$."
+        },
+        {
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Jh. 19:1"
         }
       ]
     },
@@ -293,19 +367,40 @@
       "sv2026": "$Mt. 27:15; Mk. 15:6; Jh. 18:39$ En hij <Namelijk volgens een gewoonte die bij de Joden gebruikelijk was. Zie $Mt. 27:15$ en $Mk. 15:6,8$.> moest hun op <Namelijk van Pasen. Zie $Jh. 18:39$.> het feest één loslaten.",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "i",
+          "kind": "verwijzing",
           "gbs": "Matth. 27:15. Mark. 15:6. Joh. 18:39.",
+          "sv2026": "Mt. 27:15; Mk. 15:6; Jh. 18:39"
+        },
+        {
+          "label": "19",
+          "kind": "kanttekening",
+          "gbs": "Namelijk door een gewoonte bij de Joden gebruikelijk. Zie Matth. 27:15. Mark. 15:6, 8.",
           "sv2026": "Namelijk volgens een gewoonte die bij de Joden gebruikelijk was. Zie $Mt. 27:15$ en $Mk. 15:6,8$."
         },
         {
-          "n": 19,
-          "gbs": "Namelijk door een gewoonte bij de Joden gebruikelijk. Zie Matth. 27:15. Mark. 15:6, 8.",
+          "label": "20",
+          "kind": "kanttekening",
+          "gbs": "Namelijk van pascha. Zie Joh. 18:39.",
           "sv2026": "Namelijk van Pasen. Zie $Jh. 18:39$."
         },
         {
-          "n": 20,
-          "gbs": "Namelijk van pascha. Zie Joh. 18:39.",
-          "sv2026": ""
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Mt. 27:15"
+        },
+        {
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Mk. 15:6,8"
+        },
+        {
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Jh. 18:39"
         }
       ]
     },
@@ -317,14 +412,22 @@
       "sv2026": "Maar de gehele menigte riep eensgezind en zei: $Hd. 3:14$ <Grieks: neem deze weg, Namelijk van de aarde, dat is, dood hem; zoals $Hd. 21:36; 22:22$.> Weg met deze, en laat ons Barabbas los.",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "k",
+          "kind": "verwijzing",
           "gbs": "Hand. 3:14.",
+          "sv2026": "Hd. 3:14"
+        },
+        {
+          "label": "21",
+          "kind": "kanttekening",
+          "gbs": "Gr. Neem Dezen weg, namelijk van de aarde, dat is, dood Hem; gelijk Hand. 21:36; 22:22.",
           "sv2026": "Grieks: neem deze weg, Namelijk van de aarde, dat is, dood hem; zoals $Hd. 21:36; 22:22$."
         },
         {
-          "n": 21,
-          "gbs": "Gr. Neem Dezen weg, namelijk van de aarde, dat is, dood Hem; gelijk Hand. 21:36; 22:22.",
-          "sv2026": ""
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Hd. 21:36; 22:22"
         }
       ]
     },
@@ -360,7 +463,8 @@
       "sv2026": "En hij zei voor de derde maal tegen hen: Wat heeft deze dan voor kwaad gedaan? Ik heb geen schuld die de dood verdient in hem gevonden; ik zal hem dan <Dat is, geselen, zoals vers 16.> kastijden en loslaten.",
       "kanttekeningen": [
         {
-          "n": 22,
+          "label": "22",
+          "kind": "kanttekening",
           "gbs": "Dat is, geselen, gelijk vers 16.",
           "sv2026": "Dat is, geselen, zoals vers 16."
         }
@@ -374,12 +478,14 @@
       "sv2026": "Maar zij hielden aan <Grieks: met grote stemmen.> met groot geroep en eisten dat hij gekruisigd zou worden; en hun geroep en dat van de Overpriesters werd <Dat is, hoe langer hoe sterker: nam de overhand.> geweldiger.",
       "kanttekeningen": [
         {
-          "n": 23,
+          "label": "23",
+          "kind": "kanttekening",
           "gbs": "Gr. met grote stemmen.",
           "sv2026": "Grieks: met grote stemmen."
         },
         {
-          "n": 24,
+          "label": "24",
+          "kind": "kanttekening",
           "gbs": "Dat is, hoe langer hoe sterker; nam de overhand.",
           "sv2026": "Dat is, hoe langer hoe sterker: nam de overhand."
         }
@@ -393,14 +499,16 @@
       "sv2026": "$Mt. 27:26; Mk. 15:15; Jh. 19:16$ En Pilatus <Of, stond hun toe.> oordeelde dat hun eis ingewilligd zou worden.",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "l",
+          "kind": "verwijzing",
           "gbs": "Matth. 27:26. Mark. 15:15. Joh. 19:16.",
-          "sv2026": "Of, stond hun toe."
+          "sv2026": "Mt. 27:26; Mk. 15:15; Jh. 19:16"
         },
         {
-          "n": 25,
+          "label": "25",
+          "kind": "kanttekening",
           "gbs": "Of: stond hun toe.",
-          "sv2026": ""
+          "sv2026": "Of, stond hun toe."
         }
       ]
     },
@@ -412,7 +520,8 @@
       "sv2026": "En hij liet hun degene los die om oproer en doodslag in de gevangenis geworpen was, die zij geëist hadden; maar Jezus gaf hij over <Namelijk om naar hun wil door de soldaten gekruisigd te worden.> tot hun wil.",
       "kanttekeningen": [
         {
-          "n": 26,
+          "label": "26",
+          "kind": "kanttekening",
           "gbs": "Namelijk om naar hun wil van de soldaten gekruisigd te worden.",
           "sv2026": "Namelijk om naar hun wil door de soldaten gekruisigd te worden."
         }
@@ -426,14 +535,28 @@
       "sv2026": "$Mt. 27:32; Mk. 15:21$ En toen zij hem wegleidden, namen zij een zekere Simon van Cyrene, die van de akker kwam, en <Namelijk nadat Christus die een tijd lang zelf gedragen had. Zie hierover de aantekening op $Mt. 27:32$ en $Jh. 19:17$.> legden hem het kruis op, dat hij dat achter Jezus dragen zou.",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "m",
+          "kind": "verwijzing",
           "gbs": "Matth. 27:32. Mark. 15:21.",
+          "sv2026": "Mt. 27:32; Mk. 15:21"
+        },
+        {
+          "label": "27",
+          "kind": "kanttekening",
+          "gbs": "Namelijk nadat Christus een tijdlang hetzelve gedragen had. Zie hiervan de aantt. op Matth. 27:32 en Joh. 19:17.",
           "sv2026": "Namelijk nadat Christus die een tijd lang zelf gedragen had. Zie hierover de aantekening op $Mt. 27:32$ en $Jh. 19:17$."
         },
         {
-          "n": 27,
-          "gbs": "Namelijk nadat Christus een tijdlang hetzelve gedragen had. Zie hiervan de aantt. op Matth. 27:32 en Joh. 19:17.",
-          "sv2026": ""
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Mt. 27:32"
+        },
+        {
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Jh. 19:17"
         }
       ]
     },
@@ -445,12 +568,14 @@
       "sv2026": "En een grote menigte volk, en van vrouwen, volgde hem; <Namelijk vrouwen.> die ook <Grieks: op hun borst sloegen, dat is, misbaar maakten.> weenden en hem beklaagden.",
       "kanttekeningen": [
         {
-          "n": 28,
+          "label": "28",
+          "kind": "kanttekening",
           "gbs": "Namelijk vrouwen.",
           "sv2026": "Namelijk vrouwen."
         },
         {
-          "n": 29,
+          "label": "29",
+          "kind": "kanttekening",
           "gbs": "Gr. op haar borst sloegen, dat is, misbaar maakten.",
           "sv2026": "Grieks: op hun borst sloegen, dat is, misbaar maakten."
         }
@@ -464,17 +589,20 @@
       "sv2026": "En Jezus keerde zich tot hen om en zei: <Dat is, u vrouwen, die binnen Jeruzalem woont.> Dochters van Jeruzalem, ween <Dat is, niet zozeer.> niet over mij, maar <Namelijk, veel meer.> ween over uzelf en over uw kinderen.",
       "kanttekeningen": [
         {
-          "n": 30,
+          "label": "30",
+          "kind": "kanttekening",
           "gbs": "Dat is, gij vrouwen die binnen Jeruzalem woont.",
           "sv2026": "Dat is, u vrouwen, die binnen Jeruzalem woont."
         },
         {
-          "n": 31,
+          "label": "31",
+          "kind": "kanttekening",
           "gbs": "Dat is, niet zozeer.",
           "sv2026": "Dat is, niet zozeer."
         },
         {
-          "n": 32,
+          "label": "32",
+          "kind": "kanttekening",
           "gbs": "Namelijk veelmeer.",
           "sv2026": "Namelijk, veel meer."
         }
@@ -488,12 +616,14 @@
       "sv2026": "Want zie, er komen dagen waarin <Grieks: zij zullen zeggen.> men zal zeggen: Zalig [zijn] <Namelijk, omdat zij zulke zwarigheden bij hun kinderen niet zullen zien.> de onvruchtbaren, en de buiken die niet gebaard hebben, en de borsten die niet gezoogd hebben.",
       "kanttekeningen": [
         {
-          "n": 33,
+          "label": "33",
+          "kind": "kanttekening",
           "gbs": "Gr. zij zullen zeggen.",
           "sv2026": "Grieks: zij zullen zeggen."
         },
         {
-          "n": 34,
+          "label": "34",
+          "kind": "kanttekening",
           "gbs": "Namelijk omdat zij zulke zwarigheden aan haar kinderen niet zullen zien.",
           "sv2026": "Namelijk, omdat zij zulke zwarigheden bij hun kinderen niet zullen zien."
         }
@@ -507,14 +637,22 @@
       "sv2026": "Dan zullen zij beginnen <Namelijk, uit grote schrik en benauwdheid, zoals $Hs. 10:8; Op. 6:16$.> te zeggen tot de bergen, $Js. 2:19; Hs. 10:8; Op. 6:16; 9:6$ Valt op ons; en tot de heuvelen: Bedekt ons.",
       "kanttekeningen": [
         {
-          "n": 35,
+          "label": "35",
+          "kind": "kanttekening",
           "gbs": "Namelijk uit groten schrik en benauwdheid, gelijk Hos. 10:8. Openb. 6:16.",
           "sv2026": "Namelijk, uit grote schrik en benauwdheid, zoals $Hs. 10:8; Op. 6:16$."
         },
         {
-          "n": 2,
+          "label": "n",
+          "kind": "verwijzing",
           "gbs": "Jes. 2:19. Hos. 10:8. Openb. 6:16; 9:6.",
-          "sv2026": ""
+          "sv2026": "Hs. 10:8; Op. 6:16"
+        },
+        {
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Js. 2:19; Hs. 10:8; Op. 6:16; 9:6"
         }
       ]
     },
@@ -526,19 +664,28 @@
       "sv2026": "$Jr. 25:29; 1Pt. 4:17$ Want indien zij dit doen aan het <Grieks: vochtig, Dat is, aan mij, die onschuldig en rechtvaardig ben.> groene hout, <Dat is, wat zal dan met de goddelozen en schuldigen gebeuren. Zie iets dergelijks $1Pt. 4:17,18$.> wat zal aan het dorre gebeuren?",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "o",
+          "kind": "verwijzing",
           "gbs": "Jer. 25:29. 1 Petr. 4:17.",
+          "sv2026": "Jr. 25:29; 1Pt. 4:17"
+        },
+        {
+          "label": "36",
+          "kind": "kanttekening",
+          "gbs": "Gr. vochtig, dat is, aan Mij, Die onschuldig en rechtvaardig ben.",
           "sv2026": "Grieks: vochtig, Dat is, aan mij, die onschuldig en rechtvaardig ben."
         },
         {
-          "n": 36,
-          "gbs": "Gr. vochtig, dat is, aan Mij, Die onschuldig en rechtvaardig ben.",
+          "label": "37",
+          "kind": "kanttekening",
+          "gbs": "Dat is, wat zal dan den goddelozen en schuldigen wedervaren? Zie dergelijk 1 Petr. 4:17, 18.",
           "sv2026": "Dat is, wat zal dan met de goddelozen en schuldigen gebeuren. Zie iets dergelijks $1Pt. 4:17,18$."
         },
         {
-          "n": 37,
-          "gbs": "Dat is, wat zal dan den goddelozen en schuldigen wedervaren? Zie dergelijk 1 Petr. 4:17, 18.",
-          "sv2026": ""
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "1Pt. 4:17,18"
         }
       ]
     },
@@ -550,9 +697,10 @@
       "sv2026": "$Jh. 19:18$ En er werden ook twee anderen, die kwaaddoeners waren, geleid om met hem gedood te worden.",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "p",
+          "kind": "verwijzing",
           "gbs": "Joh. 19:18.",
-          "sv2026": ""
+          "sv2026": "Jh. 19:18"
         }
       ]
     },
@@ -564,14 +712,22 @@
       "sv2026": "$Mt. 27:33,38; Mk. 15:22; Jh. 19:18$ En toen zij kwamen op de plaats, genaamd <De oorzaak van deze naam, zie $Mt. 27:33$.> Hoofdschedel-[plaats,] kruisigden zij hem daar, en de kwaaddoeners, de een aan de rechter-, en de ander aan de linker[zijde.]",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "q",
+          "kind": "verwijzing",
           "gbs": "Matth. 27:33, 38. Mark. 15:22. Joh. 19:18.",
+          "sv2026": "Mt. 27:33,38; Mk. 15:22; Jh. 19:18"
+        },
+        {
+          "label": "38",
+          "kind": "kanttekening",
+          "gbs": "De oorzaak van dezen naam zie Matth. 27:33.",
           "sv2026": "De oorzaak van deze naam, zie $Mt. 27:33$."
         },
         {
-          "n": 38,
-          "gbs": "De oorzaak van dezen naam zie Matth. 27:33.",
-          "sv2026": ""
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Mt. 27:33"
         }
       ]
     },
@@ -583,24 +739,40 @@
       "sv2026": "En Jezus zei: $Hd. 7:60; 1Kor. 4:12$ Vader, vergeef het hun, want <Dat is, het grootste deel van hen. Want sommigen van hen wisten het wel, en zondigden tegen de Heilige Geest, $Mt. 12:32$.> zij weten niet <Dat zij namelijk de ware Messias kruisigen. Zie $Hd. 3:17; 1Kor. 2:8$.> wat zij doen. $Ps. 22:19; Mk. 15:24; Jh. 19:23; Mt. 27:35$ En zij verdeelden zijn kleren en wierpen het lot.",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "r",
+          "kind": "verwijzing",
           "gbs": "Hand. 7:60. 1 Kor. 4:12.",
+          "sv2026": "Hd. 7:60; 1Kor. 4:12"
+        },
+        {
+          "label": "39",
+          "kind": "kanttekening",
+          "gbs": "Dat is, het merendeel van hen. Want sommigen van hen wisten het wel en zondigden tegen den Heiligen Geest, Matth. 12:32.",
           "sv2026": "Dat is, het grootste deel van hen. Want sommigen van hen wisten het wel, en zondigden tegen de Heilige Geest, $Mt. 12:32$."
         },
         {
-          "n": 39,
-          "gbs": "Dat is, het merendeel van hen. Want sommigen van hen wisten het wel en zondigden tegen den Heiligen Geest, Matth. 12:32.",
+          "label": "40",
+          "kind": "kanttekening",
+          "gbs": "Dat zij namelijk den waren Messias kruisigen. Zie Hand. 3:17. 1 Kor. 2:8.",
           "sv2026": "Dat zij namelijk de ware Messias kruisigen. Zie $Hd. 3:17; 1Kor. 2:8$."
         },
         {
-          "n": 40,
-          "gbs": "Dat zij namelijk den waren Messias kruisigen. Zie Hand. 3:17. 1 Kor. 2:8.",
-          "sv2026": ""
+          "label": "s",
+          "kind": "verwijzing",
+          "gbs": "Ps. 22:19. Matth. 27:35. Mark. 15:24. Joh. 19:23.",
+          "sv2026": "Mt. 12:32"
         },
         {
-          "n": 4,
-          "gbs": "Ps. 22:19. Matth. 27:35. Mark. 15:24. Joh. 19:23.",
-          "sv2026": ""
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Hd. 3:17; 1Kor. 2:8"
+        },
+        {
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Ps. 22:19; Mk. 15:24; Jh. 19:23; Mt. 27:35"
         }
       ]
     },
@@ -612,14 +784,22 @@
       "sv2026": "En het volk stond en zag het aan. En ook $Mt. 27:39; Mk. 15:29$ de Oversten met hen beschimpten [hem,] en zeiden: Anderen heeft hij verlost, laat hij nu zichzelf verlossen, indien hij de Christus is <Dat is, door God verkoren om de ware Messias te zijn, $1Pt. 1:20$.>, de uitverkorene Gods.",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "t",
+          "kind": "verwijzing",
           "gbs": "Matth. 27:39. Mark. 15:29.",
+          "sv2026": "Mt. 27:39; Mk. 15:29"
+        },
+        {
+          "label": "41",
+          "kind": "kanttekening",
+          "gbs": "Dat is, van God verkoren om te wezen de ware Messias, 1 Petr. 1:20.",
           "sv2026": "Dat is, door God verkoren om de ware Messias te zijn, $1Pt. 1:20$."
         },
         {
-          "n": 41,
-          "gbs": "Dat is, van God verkoren om te wezen de ware Messias, 1 Petr. 1:20.",
-          "sv2026": ""
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "1Pt. 1:20"
         }
       ]
     },
@@ -631,9 +811,16 @@
       "sv2026": "En ook de krijgsknechten kwamen tot [hem], en bespotten hem, <Namelijk voor de tweede maal. Waarvan zie $Mt. 27:34,48$.> en brachten hem azijn,",
       "kanttekeningen": [
         {
-          "n": 42,
+          "label": "42",
+          "kind": "kanttekening",
           "gbs": "Namelijk voor de tweede reize. Waarvan zie Matth. 27:34, 48.",
           "sv2026": "Namelijk voor de tweede maal. Waarvan zie $Mt. 27:34,48$."
+        },
+        {
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Mt. 27:34,48"
         }
       ],
       "notes": [
@@ -665,19 +852,34 @@
       "sv2026": "$Mt. 27:37; Mk. 15:26; Jh. 19:19$ En er was ook een <Namelijk, van zijn beschuldiging, $Mk. 15:26$.> opschrift <Dat is, boven zijn hoofd, op het kruis gehecht, $Jh. 19:19$.> boven hem geschreven, met Griekse, en Romeinse, en Hebreeuwse letters: DEZE IS DE KONING DER JODEN.",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "v",
+          "kind": "verwijzing",
           "gbs": "Matth. 27:37. Mark. 15:26. Joh. 19:19.",
+          "sv2026": "Mt. 27:37; Mk. 15:26; Jh. 19:19"
+        },
+        {
+          "label": "43",
+          "kind": "kanttekening",
+          "gbs": "Namelijk Zijner beschuldiging, Mark. 15:26.",
           "sv2026": "Namelijk, van zijn beschuldiging, $Mk. 15:26$."
         },
         {
-          "n": 43,
-          "gbs": "Namelijk Zijner beschuldiging, Mark. 15:26.",
+          "label": "44",
+          "kind": "kanttekening",
+          "gbs": "Dat is, boven Zijn hoofd, op het kruis gehecht, Joh. 19:19.",
           "sv2026": "Dat is, boven zijn hoofd, op het kruis gehecht, $Jh. 19:19$."
         },
         {
-          "n": 44,
-          "gbs": "Dat is, boven Zijn hoofd, op het kruis gehecht, Joh. 19:19.",
-          "sv2026": ""
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Mk. 15:26"
+        },
+        {
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Jh. 19:19"
         }
       ]
     },
@@ -713,7 +915,8 @@
       "sv2026": "En hij zei tegen Jezus: Heere, denk aan mij wanneer u in uw <Namelijk, van uw heerlijkheid.> Koninkrijk gekomen zult zijn.",
       "kanttekeningen": [
         {
-          "n": 45,
+          "label": "45",
+          "kind": "kanttekening",
           "gbs": "Namelijk van Uw heerlijkheid.",
           "sv2026": "Namelijk, van uw heerlijkheid."
         }
@@ -727,9 +930,16 @@
       "sv2026": "En Jezus zei tegen hem: Voorwaar, ik zeg u, heden zult u met mij <Dat is, in de hemel, $2Kor. 12:4$.> in het paradijs zijn.",
       "kanttekeningen": [
         {
-          "n": 46,
+          "label": "46",
+          "kind": "kanttekening",
           "gbs": "Dat is, in den hemel, 2 Kor. 12:4.",
           "sv2026": "Dat is, in de hemel, $2Kor. 12:4$."
+        },
+        {
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "2Kor. 12:4"
         }
       ]
     },
@@ -741,19 +951,28 @@
       "sv2026": "$Mt. 27:45; Mk. 15:33$ En het was omtrent <Zie over het tellen van deze uren, $Mk. 15:25$.> het zesde uur, en er werd duisternis <Of, over het hele land.> over de hele aarde, tot het negende uur toe.",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "x",
+          "kind": "verwijzing",
           "gbs": "Matth. 27:45. Mark. 15:33.",
+          "sv2026": "Mt. 27:45; Mk. 15:33"
+        },
+        {
+          "label": "47",
+          "kind": "kanttekening",
+          "gbs": "Zie van het tellen dezer uren Mark. 15:25.",
           "sv2026": "Zie over het tellen van deze uren, $Mk. 15:25$."
         },
         {
-          "n": 47,
-          "gbs": "Zie van het tellen dezer uren Mark. 15:25.",
+          "label": "48",
+          "kind": "kanttekening",
+          "gbs": "Of: over het gehele land.",
           "sv2026": "Of, over het hele land."
         },
         {
-          "n": 48,
-          "gbs": "Of: over het gehele land.",
-          "sv2026": ""
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Mk. 15:25"
         }
       ]
     },
@@ -765,19 +984,34 @@
       "sv2026": "En de <Zie hierover $Mt. 27:45$.> zon werd verduisterd, $Mt. 27:51; Mk. 15:38$ en het <Zie $Mt. 27:51$.> voorhangsel van de tempel scheurde midden [door.]",
       "kanttekeningen": [
         {
-          "n": 49,
+          "label": "49",
+          "kind": "kanttekening",
           "gbs": "Zie hiervan Matth. 27:45.",
           "sv2026": "Zie hierover $Mt. 27:45$."
         },
         {
-          "n": 2,
+          "label": "y",
+          "kind": "verwijzing",
           "gbs": "Matth. 27:51. Mark. 15:38.",
+          "sv2026": "Mt. 27:45"
+        },
+        {
+          "label": "50",
+          "kind": "kanttekening",
+          "gbs": "Zie Matth. 27:51.",
           "sv2026": "Zie $Mt. 27:51$."
         },
         {
-          "n": 50,
-          "gbs": "Zie Matth. 27:51.",
-          "sv2026": ""
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Mt. 27:51; Mk. 15:38"
+        },
+        {
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Mt. 27:51"
         }
       ]
     },
@@ -789,19 +1023,22 @@
       "sv2026": "En Jezus riep met luide stem en zei: $Ps. 31:6; Mt. 27:50; Mk. 15:37; Jh. 19:30; Hd. 7:59$ Vader, in uw handen <Of: zal ik bevelen, dat is, in bewaring geven, als een pand, dat iemand toevertrouwd wordt, om het te zijner tijd weer te geven.> beveel ik <Dat is, mijn ziel.> mijn geest. En toen hij dat gezegd had, gaf hij de geest.",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "z",
+          "kind": "verwijzing",
           "gbs": "Ps. 31:6. Matth. 27:50. Mark. 15:37. Joh. 19:30. Hand. 7:59.",
+          "sv2026": "Ps. 31:6; Mt. 27:50; Mk. 15:37; Jh. 19:30; Hd. 7:59"
+        },
+        {
+          "label": "51",
+          "kind": "kanttekening",
+          "gbs": "Of: zal Ik bevelen, dat is, in bewaring geven als een pand, dat iemand vertrouwd wordt om te zijner tijd weder te geven.",
           "sv2026": "Of: zal ik bevelen, dat is, in bewaring geven, als een pand, dat iemand toevertrouwd wordt, om het te zijner tijd weer te geven."
         },
         {
-          "n": 51,
-          "gbs": "Of: zal Ik bevelen, dat is, in bewaring geven als een pand, dat iemand vertrouwd wordt om te zijner tijd weder te geven.",
-          "sv2026": "Dat is, mijn ziel."
-        },
-        {
-          "n": 52,
+          "label": "52",
+          "kind": "kanttekening",
           "gbs": "Dat is, Mijn ziel.",
-          "sv2026": ""
+          "sv2026": "Dat is, mijn ziel."
         }
       ]
     },
@@ -813,14 +1050,22 @@
       "sv2026": "$Mt. 27:54; Mk. 15:39$ Toen nu de Hoofdman over honderd zag wat er gebeurd was, <Namelijk door openlijk te belijden dat Christus onschuldig en de Zoon van God was, omdat God daarvan zulke duidelijke tekenen gegeven had, $Mt. 27:51$, enz.> verheerlijkte hij God, en zei: Waarlijk, deze mens was rechtvaardig.",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "a",
+          "kind": "verwijzing",
           "gbs": "Matth. 27:54. Mark. 15:39.",
+          "sv2026": "Mt. 27:54; Mk. 15:39"
+        },
+        {
+          "label": "53",
+          "kind": "kanttekening",
+          "gbs": "Namelijk openbaarlijk belijdende dat Christus onschuldig en de Zone Gods was, alzo God daarvan zo klare tekenen gegeven had, Matth. 27:51, enz.",
           "sv2026": "Namelijk door openlijk te belijden dat Christus onschuldig en de Zoon van God was, omdat God daarvan zulke duidelijke tekenen gegeven had, $Mt. 27:51$, enz."
         },
         {
-          "n": 53,
-          "gbs": "Namelijk openbaarlijk belijdende dat Christus onschuldig en de Zone Gods was, alzo God daarvan zo klare tekenen gegeven had, Matth. 27:51, enz.",
-          "sv2026": ""
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Mt. 27:51"
         }
       ]
     },
@@ -832,7 +1077,8 @@
       "sv2026": "En al de scharen die daar samengekomen waren om dit te aanschouwen, keerden terug terwijl zij zagen wat er gebeurd was, <Namelijk tot een teken van droefheid en verslagenheid.> en sloegen zich op de borst.",
       "kanttekeningen": [
         {
-          "n": 54,
+          "label": "54",
+          "kind": "kanttekening",
           "gbs": "Namelijk tot een teken van droefheid en verslagenheid.",
           "sv2026": "Namelijk tot een teken van droefheid en verslagenheid."
         }
@@ -854,9 +1100,10 @@
       "sv2026": "$Mt. 27:57; Mk. 15:43; Jh. 19:38$ En zie, een man met de naam Jozef, die een Raadsheer was, een goed en rechtvaardig man,",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "b",
+          "kind": "verwijzing",
           "gbs": "Matth. 27:57. Mark. 15:43. Joh. 19:38.",
-          "sv2026": ""
+          "sv2026": "Mt. 27:57; Mk. 15:43; Jh. 19:38"
         }
       ]
     },
@@ -868,7 +1115,8 @@
       "sv2026": "(Deze had niet ingestemd met hun raad en handelwijze) van Arimathea, een stad van de Joden, en die ook zelf het Koninkrijk Gods <Of, ontving, nam aan.> verwachtte.",
       "kanttekeningen": [
         {
-          "n": 55,
+          "label": "55",
+          "kind": "kanttekening",
           "gbs": "Of: ontving, nam aan.",
           "sv2026": "Of, ontving, nam aan."
         }
@@ -890,9 +1138,10 @@
       "sv2026": "En toen hij dat afgenomen had, wikkelde hij het in fijn linnen, $Mt. 12:40; 26:12; 27:59; Mk. 15:46$ en legde het in een graf dat in een rots uitgehouwen was, waarin nog nooit iemand gelegd was.",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "c",
+          "kind": "verwijzing",
           "gbs": "Matth. 12:40; 26:12; 27:59. Mark. 15:46.",
-          "sv2026": ""
+          "sv2026": "Mt. 12:40; 26:12; 27:59; Mk. 15:46"
         }
       ]
     },
@@ -904,14 +1153,22 @@
       "sv2026": "En <Grieks: en de dag was de voorbereiding, Namelijk van de Sabbat, en tegelijk van het Pascha van de Joden. Zie $Mk. 15:42; Jh. 19:14$.> het was de dag der voorbereiding, en de Sabbat <Grieks: lichtte aan, dat is, begon aan te breken, met het opgaan van de sterren. Want bij de Joden nam de dag zijn begin van de ondergang van de zon, en werd gerekend van de ene avond tot de andere.> brak aan.",
       "kanttekeningen": [
         {
-          "n": 56,
+          "label": "56",
+          "kind": "kanttekening",
           "gbs": "Gr. En de dag was de voorbereiding, namelijk van den sabbat, en meteen van het pascha der Joden. Zie Mark. 15:42. Joh. 19:14.",
           "sv2026": "Grieks: en de dag was de voorbereiding, Namelijk van de Sabbat, en tegelijk van het Pascha van de Joden. Zie $Mk. 15:42; Jh. 19:14$."
         },
         {
-          "n": 57,
+          "label": "57",
+          "kind": "kanttekening",
           "gbs": "Gr. lichtte aan, dat is, begon aan te breken, met het opgaan van de sterren. Want bij de Joden nam de dag zijn begin van den ondergang der zon, en werd gerekend van den enen avond tot den anderen.",
           "sv2026": "Grieks: lichtte aan, dat is, begon aan te breken, met het opgaan van de sterren. Want bij de Joden nam de dag zijn begin van de ondergang van de zon, en werd gerekend van de ene avond tot de andere."
+        },
+        {
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Mk. 15:42; Jh. 19:14"
         }
       ]
     },
@@ -923,9 +1180,10 @@
       "sv2026": "En ook de vrouwen, $Lk. 8:2$ die met hem gekomen waren uit Galilea, volgden achterna, en aanschouwden het graf, en hoe zijn lichaam gelegd werd.",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "d",
+          "kind": "verwijzing",
           "gbs": "Luk. 8:2.",
-          "sv2026": ""
+          "sv2026": "Lk. 8:2"
         }
       ]
     },
@@ -937,9 +1195,16 @@
       "sv2026": "En toen zij teruggekeerd waren, bereidden zij specerijen en zalven, en op de Sabbat rustten zij <Namelijk, het vierde gebod, $Ex. 20:10$.> naar het gebod.",
       "kanttekeningen": [
         {
-          "n": 58,
+          "label": "58",
+          "kind": "kanttekening",
           "gbs": "Namelijk het vierde gebod, Ex. 20:10.",
           "sv2026": "Namelijk, het vierde gebod, $Ex. 20:10$."
+        },
+        {
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Ex. 20:10"
         }
       ]
     }

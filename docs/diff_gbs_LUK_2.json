@@ -15,22 +15,26 @@
       "sv2026": "En het geschiedde <Namelijk, terwijl Maria zwanger was.> in diezelfde dagen, dat er een gebod uitging van Keizer <Deze was de tweede Romeinse Keizer, volgend op Julius Caesar de eerste: en onder zijn regering was het Romeinse Rijk in zijn grootste kracht en rust. Heeft ongeveer zesenvijftig jaar geregeerd, en dit is gebeurd omtrent het tweeënveertigste jaar van zijn Keizerrijk.> Augustus, dat <Grieks: heel het bewoonde, namelijk, aardrijk: wat verstaan moet worden voor zover het Romeinse Rijk zich toen uitstrekte.> de gehele wereld <Namelijk, om daaruit de menigte van de onderdanen van het Romeinse Rijk te weten, en hun vermogen, opdat ieder naar dat vermogen geschat zou kunnen worden.> beschreven zou worden.",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "1",
+          "kind": "kanttekening",
           "gbs": "Namelijk terwijl Maria zwanger ging.",
           "sv2026": "Namelijk, terwijl Maria zwanger was."
         },
         {
-          "n": 2,
+          "label": "2",
+          "kind": "kanttekening",
           "gbs": "Deze was de tweede Romeinse keizer, volgende op Julius Caesar, den eersten; en onder zijn regering was het Romeinse rijk in zijn meeste kracht en rust. Heeft geregeerd omtrent zes en vijftig jaren, en dit is geschied omtrent het twee en veertigste jaar van zijn keizerrijk.",
           "sv2026": "Deze was de tweede Romeinse Keizer, volgend op Julius Caesar de eerste: en onder zijn regering was het Romeinse Rijk in zijn grootste kracht en rust. Heeft ongeveer zesenvijftig jaar geregeerd, en dit is gebeurd omtrent het tweeënveertigste jaar van zijn Keizerrijk."
         },
         {
-          "n": 3,
+          "label": "3",
+          "kind": "kanttekening",
           "gbs": "Gr. al het bewoonde, namelijk aardrijk; hetwelk verstaan moet worden zover zich het Romeinse rijk toen uitstrekte.",
           "sv2026": "Grieks: heel het bewoonde, namelijk, aardrijk: wat verstaan moet worden voor zover het Romeinse Rijk zich toen uitstrekte."
         },
         {
-          "n": 4,
+          "label": "4",
+          "kind": "kanttekening",
           "gbs": "Namelijk om daaruit te weten de menigte der onderdanen van het Romeinse rijk en hun vermogen, opdat eenieder naar hetzelve zou mogen geschat worden.",
           "sv2026": "Namelijk, om daaruit de menigte van de onderdanen van het Romeinse Rijk te weten, en hun vermogen, opdat ieder naar dat vermogen geschat zou kunnen worden."
         }
@@ -44,14 +48,22 @@
       "sv2026": "Deze <Deze beschrijving wordt de eerste genoemd, met het oog op nog een tweede, die daarna gebeurd is, waarvan melding wordt gemaakt in $Hd. 5:37$ en bij Joseph. Antiq. lib. 18. cap. 1.> eerste beschrijving gebeurde toen <Deze wordt in de Romeinse geschiedenissen Quirinus genoemd, die Stadhouder was over geheel Syrië, waarvan Judea destijds een deel was.> Cyrenius Stadhouder over Syrië was.",
       "kanttekeningen": [
         {
-          "n": 5,
+          "label": "5",
+          "kind": "kanttekening",
           "gbs": "Deze beschrijving wordt de eerste genaamd ten aanzien van nog een tweede, die daarna geschied is, waarvan gewag gemaakt wordt Hand. 5:37, en bij Josephus, Oudheden, boek 18, hfdst. 1.",
           "sv2026": "Deze beschrijving wordt de eerste genoemd, met het oog op nog een tweede, die daarna gebeurd is, waarvan melding wordt gemaakt in $Hd. 5:37$ en bij Joseph. Antiq. lib. 18. cap. 1."
         },
         {
-          "n": 6,
+          "label": "6",
+          "kind": "kanttekening",
           "gbs": "Deze wordt in de Romeinse historiën genaamd Quirinus, die stadhouder was over gans Syrië, waarvan Judea toentertijd een deel was.",
           "sv2026": "Deze wordt in de Romeinse geschiedenissen Quirinus genoemd, die Stadhouder was over geheel Syrië, waarvan Judea destijds een deel was."
+        },
+        {
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Hd. 5:37"
         }
       ]
     },
@@ -63,7 +75,8 @@
       "sv2026": "En zij gingen allen om beschreven te worden, een ieder naar <Namelijk, vanwaar hij afkomstig was, en waar zijn geslacht woonde.> zijn eigen stad.",
       "kanttekeningen": [
         {
-          "n": 7,
+          "label": "7",
+          "kind": "kanttekening",
           "gbs": "Namelijk vanwaar hij afkomstig was en waar zijn geslacht woonde.",
           "sv2026": "Namelijk, vanwaar hij afkomstig was, en waar zijn geslacht woonde."
         }
@@ -77,24 +90,40 @@
       "sv2026": "En Jozef ging ook op van Galilea, uit de stad Nazareth naar Judea, $Jh. 7:42$ tot de stad van David, die $1Sm. 16:4$ <Van deze stad zie $Mc. 5:1; Mt. 2:1$ en zij wordt stad van David genoemd, omdat David daar geboren en opgevoed was, $1Sm. 17:12; Jh. 7:42$.> Bethlehem genoemd wordt, (omdat hij uit het $Mt. 1:1$ huis en geslacht van David was)",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "a",
+          "kind": "verwijzing",
           "gbs": "Joh. 7:42.",
+          "sv2026": "Jh. 7:42"
+        },
+        {
+          "label": "b",
+          "kind": "verwijzing",
+          "gbs": "1 Sam. 16:4, enz.",
+          "sv2026": "1Sm. 16:4"
+        },
+        {
+          "label": "8",
+          "kind": "kanttekening",
+          "gbs": "Van deze stad zie Micha 5:1. Matth. 2:1, en wordt Davids stad genaamd, omdat David daar geboren en opgevoed was, 1 Sam. 17:12. Joh. 7:42.",
           "sv2026": "Van deze stad zie $Mc. 5:1; Mt. 2:1$ en zij wordt stad van David genoemd, omdat David daar geboren en opgevoed was, $1Sm. 17:12; Jh. 7:42$."
         },
         {
-          "n": 2,
-          "gbs": "1 Sam. 16:4, enz.",
-          "sv2026": ""
-        },
-        {
-          "n": 8,
-          "gbs": "Van deze stad zie Micha 5:1. Matth. 2:1, en wordt Davids stad genaamd, omdat David daar geboren en opgevoed was, 1 Sam. 17:12. Joh. 7:42.",
-          "sv2026": ""
-        },
-        {
-          "n": 4,
+          "label": "c",
+          "kind": "verwijzing",
           "gbs": "Matth. 1:1.",
-          "sv2026": ""
+          "sv2026": "Mc. 5:1; Mt. 2:1"
+        },
+        {
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "1Sm. 17:12; Jh. 7:42"
+        },
+        {
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Mt. 1:1"
         }
       ]
     },
@@ -106,9 +135,16 @@
       "sv2026": "Om beschreven te worden met Maria zijn <Het is wel geloofwaardig dat Jozef haar nu al tot zich genomen had, volgens het bevel van de Engel, $Mt. 1:20$. maar wordt evenwel hier nog ondertrouwde genoemd, omdat zij zo met hem leefde, alsof zij slechts ondertrouwd geweest was.> ondertrouwde vrouw, die zwanger was.",
       "kanttekeningen": [
         {
-          "n": 9,
+          "label": "9",
+          "kind": "kanttekening",
           "gbs": "Het is wel gelofelijk dat Jozef haar nu al tot zich genomen had, volgens het bevel van den engel, Matth. 1:20, maar wordt evenwel hier nog genaamd ondertrouwde, omdat zij met hem alzo leefde, alsof zij maar ondertrouwd ware geweest.",
           "sv2026": "Het is wel geloofwaardig dat Jozef haar nu al tot zich genomen had, volgens het bevel van de Engel, $Mt. 1:20$. maar wordt evenwel hier nog ondertrouwde genoemd, omdat zij zo met hem leefde, alsof zij slechts ondertrouwd geweest was."
+        },
+        {
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Mt. 1:20"
         }
       ]
     },
@@ -128,19 +164,28 @@
       "sv2026": "En zij $Mt. 1:25$ baarde haar <Zie hierover $Mt. 1:25$.> eerstgeboren zoon, en wikkelde hem in <Grieks: windsels.> doeken, en legde hem neer in de kribbe, omdat er voor hen geen plaats was in de herberg.",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "d",
+          "kind": "verwijzing",
           "gbs": "Matth. 1:25.",
+          "sv2026": "Mt. 1:25"
+        },
+        {
+          "label": "10",
+          "kind": "kanttekening",
+          "gbs": "Zie hiervan Matth. 1:25.",
           "sv2026": "Zie hierover $Mt. 1:25$."
         },
         {
-          "n": 10,
-          "gbs": "Zie hiervan Matth. 1:25.",
+          "label": "11",
+          "kind": "kanttekening",
+          "gbs": "Gr. windelen.",
           "sv2026": "Grieks: windsels."
         },
         {
-          "n": 11,
-          "gbs": "Gr. windelen.",
-          "sv2026": ""
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Mt. 1:25"
         }
       ]
     },
@@ -160,12 +205,14 @@
       "sv2026": "En zie, een Engel van de Heere <Namelijk, onverwacht en plotseling, zoals het Griekse woord met zich meebrengt.> stond bij hen, en de <Dat is, een Goddelijke glans en helderheid.> heerlijkheid van de Heere omscheen hen, en zij vreesden met grote vrees.",
       "kanttekeningen": [
         {
-          "n": 12,
+          "label": "12",
+          "kind": "kanttekening",
           "gbs": "Namelijk onverwacht en haastelijk, gelijk het Griekse woord medebrengt.",
           "sv2026": "Namelijk, onverwacht en plotseling, zoals het Griekse woord met zich meebrengt."
         },
         {
-          "n": 13,
+          "label": "13",
+          "kind": "kanttekening",
           "gbs": "Dat is, een Goddelijke glans en klaarheid.",
           "sv2026": "Dat is, een Goddelijke glans en helderheid."
         }
@@ -179,14 +226,22 @@
       "sv2026": "En de Engel zei tot hen: Vreest niet, want zie, ik <Grieks: Euangelizeere, dat is, verkondig blijde boodschap.> verkondig u grote blijdschap, die <Namelijk, Gods volk. zie $Mt. 1:21$.> voor het gehele volk zal zijn.",
       "kanttekeningen": [
         {
-          "n": 14,
+          "label": "14",
+          "kind": "kanttekening",
           "gbs": "Gr. evangeliseer, dat is, verkondig blijde tijding.",
           "sv2026": "Grieks: Euangelizeere, dat is, verkondig blijde boodschap."
         },
         {
-          "n": 15,
+          "label": "15",
+          "kind": "kanttekening",
           "gbs": "Namelijk Gods volk. Zie Matth. 1:21.",
           "sv2026": "Namelijk, Gods volk. zie $Mt. 1:21$."
+        },
+        {
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Mt. 1:21"
         }
       ]
     },
@@ -198,7 +253,8 @@
       "sv2026": "[Namelijk] dat voor u heden de Zaligmaker geboren is, die <Of, de Gezalfde.> Christus de Heere is, in de stad van David.",
       "kanttekeningen": [
         {
-          "n": 16,
+          "label": "16",
+          "kind": "kanttekening",
           "gbs": "Of: de Gezalfde.",
           "sv2026": "Of, de Gezalfde."
         }
@@ -212,7 +268,8 @@
       "sv2026": "En dit zal voor u het teken zijn: <Namelijk, waaraan u het kindje zult kennen, en zult bevinden dat waar is wat ik u verkondig.> u zult het kindje vinden in doeken gewikkeld, en liggend in de kribbe.",
       "kanttekeningen": [
         {
-          "n": 17,
+          "label": "17",
+          "kind": "kanttekening",
           "gbs": "Namelijk waaraan gij het Kindeken kennen zult, en bevinden waar te zijn, wat ik u verkondig.",
           "sv2026": "Namelijk, waaraan u het kindje zult kennen, en zult bevinden dat waar is wat ik u verkondig."
         }
@@ -226,14 +283,22 @@
       "sv2026": "En plotseling was [daar] met de Engel $Dn. 7:10; Op. 5:11$ een menigte van het hemelse <Dat is, van de Engelen, die als een leger van de Heere zijn, waardoor hij de vromen beschermt en de kwaden straft, $Ps. 34:8; 103:21$.> leger, die God prezen en zeiden:",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "e",
+          "kind": "verwijzing",
           "gbs": "Dan. 7:10. Openb. 5:11.",
+          "sv2026": "Dn. 7:10; Op. 5:11"
+        },
+        {
+          "label": "18",
+          "kind": "kanttekening",
+          "gbs": "Dat is, der engelen, die als een heir des Heeren zijn, door welke Hij de vromen beschermt en de kwaden straft, Ps. 34:8; 103:21.",
           "sv2026": "Dat is, van de Engelen, die als een leger van de Heere zijn, waardoor hij de vromen beschermt en de kwaden straft, $Ps. 34:8; 103:21$."
         },
         {
-          "n": 18,
-          "gbs": "Dat is, der engelen, die als een heir des Heeren zijn, door welke Hij de vromen beschermt en de kwaden straft, Ps. 34:8; 103:21.",
-          "sv2026": ""
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Ps. 34:8; 103:21"
         }
       ]
     },
@@ -245,24 +310,46 @@
       "sv2026": "<Of, heerlijkheid.> Eer [zij] God in de hoogste [hemelen], $Js. 57:19; Ef. 2:17$ en <Namelijk, met God, $Rm. 5:1$.> vrede op aarde, in de mensen <Dat is, het welbehagen van God wordt door hem aan de mensen vervuld, $2Th. 1:11$ Anders: van het welbehagen, dat is, in de mensen die God naar zijn welbehagen heeft uitverkoren, $Ef. 1:5$.> een welbehagen.",
       "kanttekeningen": [
         {
-          "n": 19,
+          "label": "19",
+          "kind": "kanttekening",
           "gbs": "Of: heerlijkheid.",
           "sv2026": "Of, heerlijkheid."
         },
         {
-          "n": 2,
+          "label": "f",
+          "kind": "verwijzing",
           "gbs": "Jes. 57:19. Ef. 2:17.",
+          "sv2026": "Js. 57:19; Ef. 2:17"
+        },
+        {
+          "label": "20",
+          "kind": "kanttekening",
+          "gbs": "Namelijk met God, Rom. 5:1.",
           "sv2026": "Namelijk, met God, $Rm. 5:1$."
         },
         {
-          "n": 20,
-          "gbs": "Namelijk met God, Rom. 5:1.",
+          "label": "21",
+          "kind": "kanttekening",
+          "gbs": "Dat is, het welbehagen Gods worde door Hem aan de mensen vervuld, 2 Thess. 1:11. Anders: des welbehagens, dat is, in de mensen die God naar Zijn welbehagen heeft uitverkoren, Ef. 1:5.",
           "sv2026": "Dat is, het welbehagen van God wordt door hem aan de mensen vervuld, $2Th. 1:11$ Anders: van het welbehagen, dat is, in de mensen die God naar zijn welbehagen heeft uitverkoren, $Ef. 1:5$."
         },
         {
-          "n": 21,
-          "gbs": "Dat is, het welbehagen Gods worde door Hem aan de mensen vervuld, 2 Thess. 1:11. Anders: des welbehagens, dat is, in de mensen die God naar Zijn welbehagen heeft uitverkoren, Ef. 1:5.",
-          "sv2026": ""
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Rm. 5:1"
+        },
+        {
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "2Th. 1:11"
+        },
+        {
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Ef. 1:5"
         }
       ]
     },
@@ -274,17 +361,20 @@
       "sv2026": "En het geschiedde, toen de Engelen van hen <Grieks: weggegaan.> weggevaren waren naar de hemel, dat <Grieks: de mensen, de herders.> de herders tot elkaar zeiden: Laat ons dan heengaan tot Bethlehem, en laat ons zien <Dat is, de gehele zaak. Hebr.> het woord dat daar gebeurd is, dat de Heere ons heeft bekendgemaakt.",
       "kanttekeningen": [
         {
-          "n": 22,
+          "label": "22",
+          "kind": "kanttekening",
           "gbs": "Gr. weggegaan.",
           "sv2026": "Grieks: weggegaan."
         },
         {
-          "n": 23,
+          "label": "23",
+          "kind": "kanttekening",
           "gbs": "Gr. de mensen, de herders.",
           "sv2026": "Grieks: de mensen, de herders."
         },
         {
-          "n": 24,
+          "label": "24",
+          "kind": "kanttekening",
           "gbs": "Dat is, de gehele zaak. Hebr.",
           "sv2026": "Dat is, de gehele zaak. Hebr."
         }
@@ -335,7 +425,8 @@
       "sv2026": "Maar Maria bewaarde al deze woorden samen, <Of, vergelijkende die met het andere, namelijk wat haar tevoren hierover meer geopenbaard en gebeurd was, hoofdstuk 1.> en overlegde [die] in haar hart.",
       "kanttekeningen": [
         {
-          "n": 25,
+          "label": "25",
+          "kind": "kanttekening",
           "gbs": "Of: vergelijkende die met het andere, dat namelijk haar tevoren hiervan meer geopenbaard en geschied was, Lukas 1.",
           "sv2026": "Of, vergelijkende die met het andere, namelijk wat haar tevoren hierover meer geopenbaard en gebeurd was, hoofdstuk 1."
         }
@@ -357,24 +448,40 @@
       "sv2026": "En toen $Gn. 17:12; Lv. 12:3; Jh. 7:22$ acht dagen <Dat is, toen de achtste dag gekomen was. Zie $Hd. 2:1$.> vervuld waren, dat men het kindje besnijden zou, werd hem de $Mt. 1:21; Lk. 1:31$ naam <Zie hierover en over de uitlegging van deze naam $Mt. 1:21$.> JEZUS gegeven, die door de Engel genoemd was, voordat hij in het lichaam ontvangen was.",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "g",
+          "kind": "verwijzing",
           "gbs": "Gen. 17:12. Lev. 12:3. Joh. 7:22.",
+          "sv2026": "Gn. 17:12; Lv. 12:3; Jh. 7:22"
+        },
+        {
+          "label": "26",
+          "kind": "kanttekening",
+          "gbs": "Dat is, als de achtste dag gekomen was. Zie Hand. 2:1.",
           "sv2026": "Dat is, toen de achtste dag gekomen was. Zie $Hd. 2:1$."
         },
         {
-          "n": 26,
-          "gbs": "Dat is, als de achtste dag gekomen was. Zie Hand. 2:1.",
+          "label": "h",
+          "kind": "verwijzing",
+          "gbs": "Matth. 1:21. Luk. 1:31.",
+          "sv2026": "Hd. 2:1"
+        },
+        {
+          "label": "27",
+          "kind": "kanttekening",
+          "gbs": "Zie hiervan en van de uitlegging van dezen Naam Matth. 1:21.",
           "sv2026": "Zie hierover en over de uitlegging van deze naam $Mt. 1:21$."
         },
         {
-          "n": 3,
-          "gbs": "Matth. 1:21. Luk. 1:31.",
-          "sv2026": ""
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Mt. 1:21; Lk. 1:31"
         },
         {
-          "n": 27,
-          "gbs": "Zie hiervan en van de uitlegging van dezen Naam Matth. 1:21.",
-          "sv2026": ""
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Mt. 1:21"
         }
       ]
     },
@@ -386,19 +493,28 @@
       "sv2026": "En toen de dagen <Namelijk van Maria.> van haar $Lv. 12:6$ reiniging vervuld waren naar <Zie over deze wet $Lv. 12:2,4$.> de wet van Mozes, brachten zij hem te Jeruzalem, om [hem] de Heere voor te stellen.",
       "kanttekeningen": [
         {
-          "n": 28,
+          "label": "28",
+          "kind": "kanttekening",
           "gbs": "Namelijk van Maria.",
           "sv2026": "Namelijk van Maria."
         },
         {
-          "n": 2,
+          "label": "i",
+          "kind": "verwijzing",
           "gbs": "Lev. 12:6.",
+          "sv2026": "Lv. 12:6"
+        },
+        {
+          "label": "29",
+          "kind": "kanttekening",
+          "gbs": "Zie van deze wet Lev. 12:2, 4.",
           "sv2026": "Zie over deze wet $Lv. 12:2,4$."
         },
         {
-          "n": 29,
-          "gbs": "Zie van deze wet Lev. 12:2, 4.",
-          "sv2026": ""
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Lv. 12:2,4"
         }
       ]
     },
@@ -410,19 +526,28 @@
       "sv2026": "(Zoals geschreven is $Ex. 13:2; Nm. 3:13; 8:16,17$ in de wet van de Heere: Al wat <Namelijk, zowel van mensen als van dieren, $Ex. 13:2; Nm. 18:15,16,17$.> mannelijk is dat de moeder opent, zal de Heere <Namelijk, om of opgeofferd te worden, indien het reine dieren waren, of voor vijf sikkels gelost te worden, als zij volgens de wet niet opgeofferd mochten worden.> heilig genoemd worden)",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "k",
+          "kind": "verwijzing",
           "gbs": "Ex. 13:2. Num. 3:13; 8:16, 17.",
+          "sv2026": "Ex. 13:2; Nm. 3:13; 8:16,17"
+        },
+        {
+          "label": "30",
+          "kind": "kanttekening",
+          "gbs": "Namelijk zowel van mensen als van gedierten, Ex. 13:2. Num. 18:15, 16, 17.",
           "sv2026": "Namelijk, zowel van mensen als van dieren, $Ex. 13:2; Nm. 18:15,16,17$."
         },
         {
-          "n": 30,
-          "gbs": "Namelijk zowel van mensen als van gedierten, Ex. 13:2. Num. 18:15, 16, 17.",
+          "label": "31",
+          "kind": "kanttekening",
+          "gbs": "Namelijk om óf opgeofferd te worden, zo het reine gedierten waren, óf voor vijf sikkelen gelost te worden, zo zij naar de wet niet opgeofferd mochten worden.",
           "sv2026": "Namelijk, om of opgeofferd te worden, indien het reine dieren waren, of voor vijf sikkels gelost te worden, als zij volgens de wet niet opgeofferd mochten worden."
         },
         {
-          "n": 31,
-          "gbs": "Namelijk om óf opgeofferd te worden, zo het reine gedierten waren, óf voor vijf sikkelen gelost te worden, zo zij naar de wet niet opgeofferd mochten worden.",
-          "sv2026": ""
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Ex. 13:2; Nm. 18:15,16,17"
         }
       ]
     },
@@ -434,14 +559,22 @@
       "sv2026": "En opdat zij een offer zouden geven volgens hetgeen in de <Zie $Lv. 12:6,8$, waar dit verordend wordt voor geringe lieden: want de rijken moesten een eenjarig lam opofferen met een tortelduif, of jonge duif: het lam tot brandoffer, en de duif tot zondoffer.> wet van de Heere gezegd is, $Lv. 12:8$ een paar tortelduiven, of twee jonge duiven.",
       "kanttekeningen": [
         {
-          "n": 32,
+          "label": "32",
+          "kind": "kanttekening",
           "gbs": "Zie Lev. 12:6, 8, alwaar zulks wordt geordineerd voor geringe lieden; want de rijken moesten een eenjarig lam opofferen met een tortelduif of jonge duif, het lam ten brandoffer en de duif ten zondoffer.",
           "sv2026": "Zie $Lv. 12:6,8$, waar dit verordend wordt voor geringe lieden: want de rijken moesten een eenjarig lam opofferen met een tortelduif, of jonge duif: het lam tot brandoffer, en de duif tot zondoffer."
         },
         {
-          "n": 2,
+          "label": "l",
+          "kind": "verwijzing",
           "gbs": "Lev. 12:8.",
-          "sv2026": ""
+          "sv2026": "Lv. 12:6,8"
+        },
+        {
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Lv. 12:8"
         }
       ]
     },
@@ -453,7 +586,8 @@
       "sv2026": "En zie, er was een mens te Jeruzalem die Simeon heette: en deze mens was rechtvaardig en godvrezend, en hij verwachtte de vertroosting van Israël; en <Namelijk, de Geest van de profetie.> de Heilige Geest was op hem.",
       "kanttekeningen": [
         {
-          "n": 33,
+          "label": "33",
+          "kind": "kanttekening",
           "gbs": "Namelijk de Geest der profetie.",
           "sv2026": "Namelijk, de Geest van de profetie."
         }
@@ -467,7 +601,8 @@
       "sv2026": "En hem was een Goddelijke openbaring gedaan door de Heilige Geest, dat hij de dood <Dat is, niet sterven.> niet zou zien, voordat hij de Christus van de Heere zou zien.",
       "kanttekeningen": [
         {
-          "n": 34,
+          "label": "34",
+          "kind": "kanttekening",
           "gbs": "Dat is, niet sterven.",
           "sv2026": "Dat is, niet sterven."
         }
@@ -481,7 +616,8 @@
       "sv2026": "En hij kwam door de Geest in de tempel: en toen de ouders het kindje Jezus binnenbrachten, om naar <Grieks: naar het gewoonlijke; waarover hiervoor gesproken is.> de gewoonte van de wet met hem te doen:",
       "kanttekeningen": [
         {
-          "n": 35,
+          "label": "35",
+          "kind": "kanttekening",
           "gbs": "Gr. naar het gewoonlijke; waarvan hiertevoren gesproken is.",
           "sv2026": "Grieks: naar het gewoonlijke; waarover hiervoor gesproken is."
         }
@@ -495,7 +631,8 @@
       "sv2026": "Zo nam hij het in zijn armen en <Grieks: zegende.> loofde God, en zei:",
       "kanttekeningen": [
         {
-          "n": 36,
+          "label": "36",
+          "kind": "kanttekening",
           "gbs": "Gr. zegende.",
           "sv2026": "Grieks: zegende."
         }
@@ -509,14 +646,22 @@
       "sv2026": "Nu $Gn. 46:30$ <Grieks: ontbindt, laat los, Namelijk van dit ellendige leven, volgens uw belofte. Zie dergelijke $Fp. 1:23$.> laat u, Heere, uw dienstknecht gaan in vrede, naar uw woord.",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "m",
+          "kind": "verwijzing",
           "gbs": "Gen. 46:30.",
+          "sv2026": "Gn. 46:30"
+        },
+        {
+          "label": "37",
+          "kind": "kanttekening",
+          "gbs": "Gr. ontbindt, laat los, namelijk van dit ellendig leven, volgens Uw belofte. Zie dergelijk Filipp. 1:23.",
           "sv2026": "Grieks: ontbindt, laat los, Namelijk van dit ellendige leven, volgens uw belofte. Zie dergelijke $Fp. 1:23$."
         },
         {
-          "n": 37,
-          "gbs": "Gr. ontbindt, laat los, namelijk van dit ellendig leven, volgens Uw belofte. Zie dergelijk Filipp. 1:23.",
-          "sv2026": ""
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Fp. 1:23"
         }
       ]
     },
@@ -528,14 +673,22 @@
       "sv2026": "Want mijn ogen hebben <Of, uw zaligmaking, dat is, Zaligmaker, en hetgeen waardoor de zaligheid teweeggebracht wordt. Zie $Js. 52:10; Lk. 3:6$.> uw $Ps. 98:2; Js. 52:10$ zaligheid gezien,",
       "kanttekeningen": [
         {
-          "n": 38,
+          "label": "38",
+          "kind": "kanttekening",
           "gbs": "Of: Uw Zaligmaking, dat is, Zaligmaker, en hetgeen waardoor de zaligheid teweeggebracht wordt. Zie Jes. 52:10. Luk. 3:6.",
           "sv2026": "Of, uw zaligmaking, dat is, Zaligmaker, en hetgeen waardoor de zaligheid teweeggebracht wordt. Zie $Js. 52:10; Lk. 3:6$."
         },
         {
-          "n": 2,
+          "label": "n",
+          "kind": "verwijzing",
           "gbs": "Ps. 98:2. Jes. 52:10.",
-          "sv2026": ""
+          "sv2026": "Js. 52:10; Lk. 3:6"
+        },
+        {
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Ps. 98:2; Js. 52:10"
         }
       ]
     },
@@ -547,14 +700,16 @@
       "sv2026": "$Hd. 28:28$ Die u bereid hebt voor het aangezicht van <Namelijk, zowel Heidenen als Joden, zoals volgt.> alle de volken:",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "o",
+          "kind": "verwijzing",
           "gbs": "Hand. 28:28.",
-          "sv2026": "Namelijk, zowel Heidenen als Joden, zoals volgt."
+          "sv2026": "Hd. 28:28"
         },
         {
-          "n": 39,
+          "label": "39",
+          "kind": "kanttekening",
           "gbs": "Namelijk zowel heidenen als Joden, gelijk volgt.",
-          "sv2026": ""
+          "sv2026": "Namelijk, zowel Heidenen als Joden, zoals volgt."
         }
       ]
     },
@@ -566,14 +721,16 @@
       "sv2026": "$Js. 42:6; 49:6; Hd. 13:47$ Een licht tot <Grieks: openbaring.> verlichting van de Heidenen, en tot heerlijkheid van uw volk Israël.",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "p",
+          "kind": "verwijzing",
           "gbs": "Jes. 42:6; 49:6. Hand. 13:47.",
-          "sv2026": "Grieks: openbaring."
+          "sv2026": "Js. 42:6; 49:6; Hd. 13:47"
         },
         {
-          "n": 40,
+          "label": "40",
+          "kind": "kanttekening",
           "gbs": "Gr. openbaring.",
-          "sv2026": ""
+          "sv2026": "Grieks: openbaring."
         }
       ]
     },
@@ -593,24 +750,46 @@
       "sv2026": "En Simeon zegende hen, en zei tot Maria zijn moeder: Zie, $Js. 8:14; Rm. 9:32; 1Pt. 2:8$ deze wordt <Dat is, verordineerd, namelijk, door God. Deze woorden zijn genomen uit $Js. 8:14$ en worden verklaard door Paulus, $Rm. 9:32,33; 1Kor. 1:23,24; 2Kor. 2:16$ en $1Pt. 2:6,7$ Zie daar de aantekening.> gezet tot een val en opstanding van velen in Israël, en tot <Dat is, als een doelwit waar iedereen op mikt en schiet.> een teken $Hd. 28:22$ dat tegengesproken zal worden,",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "q",
+          "kind": "verwijzing",
           "gbs": "Jes. 8:14. Rom. 9:32. 1 Petr. 2:8.",
+          "sv2026": "Js. 8:14; Rm. 9:32; 1Pt. 2:8"
+        },
+        {
+          "label": "41",
+          "kind": "kanttekening",
+          "gbs": "Dat is, verordineerd, namelijk van God. Deze woorden zijn genomen uit Jes. 8:14 en worden verklaard van Paulus, Rom. 9:32, 33. 1 Kor. 1:23, 24. 2 Kor. 2:16 en 1 Petr. 2:6, 7. Zie aldaar de aantt.",
           "sv2026": "Dat is, verordineerd, namelijk, door God. Deze woorden zijn genomen uit $Js. 8:14$ en worden verklaard door Paulus, $Rm. 9:32,33; 1Kor. 1:23,24; 2Kor. 2:16$ en $1Pt. 2:6,7$ Zie daar de aantekening."
         },
         {
-          "n": 41,
-          "gbs": "Dat is, verordineerd, namelijk van God. Deze woorden zijn genomen uit Jes. 8:14 en worden verklaard van Paulus, Rom. 9:32, 33. 1 Kor. 1:23, 24. 2 Kor. 2:16 en 1 Petr. 2:6, 7. Zie aldaar de aantt.",
+          "label": "42",
+          "kind": "kanttekening",
+          "gbs": "Dat is, als een doelwit waarnaar elkeen mikt en schiet.",
           "sv2026": "Dat is, als een doelwit waar iedereen op mikt en schiet."
         },
         {
-          "n": 42,
-          "gbs": "Dat is, als een doelwit waarnaar elkeen mikt en schiet.",
-          "sv2026": ""
+          "label": "r",
+          "kind": "verwijzing",
+          "gbs": "Hand. 28:22.",
+          "sv2026": "Js. 8:14"
         },
         {
-          "n": 4,
-          "gbs": "Hand. 28:22.",
-          "sv2026": ""
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Rm. 9:32,33; 1Kor. 1:23,24; 2Kor. 2:16"
+        },
+        {
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "1Pt. 2:6,7"
+        },
+        {
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Hd. 28:22"
         }
       ]
     },
@@ -622,14 +801,22 @@
       "sv2026": "(En ook <Dat is, bittere pijnen, voornamelijk over het lijden en sterven van deze uw Zoon.> een zwaard zal door uw eigen ziel gaan) opdat de <Dat is, hun geloof en ongeloof aan het licht gebracht zal worden. Zie $1Kor. 11:19$.> gedachten uit vele harten geopenbaard worden.",
       "kanttekeningen": [
         {
-          "n": 43,
+          "label": "43",
+          "kind": "kanttekening",
           "gbs": "Dat is, bittere smarten, voornamelijk over het lijden en sterven van dezen uw Zoon.",
           "sv2026": "Dat is, bittere pijnen, voornamelijk over het lijden en sterven van deze uw Zoon."
         },
         {
-          "n": 44,
+          "label": "44",
+          "kind": "kanttekening",
           "gbs": "Dat is, hun geloof en ongeloof zal voor den dag gebracht worden. Zie 1 Kor. 11:19.",
           "sv2026": "Dat is, hun geloof en ongeloof aan het licht gebracht zal worden. Zie $1Kor. 11:19$."
+        },
+        {
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "1Kor. 11:19"
         }
       ]
     },
@@ -641,7 +828,8 @@
       "sv2026": "En er was Anna, een profetes, een dochter van Fanuël, uit de stam Aser. Deze was <Grieks: tot vele dagen.> tot grote ouderdom gekomen, die met [haar] man zeven jaar had geleefd vanaf haar maagdelijkheid,",
       "kanttekeningen": [
         {
-          "n": 45,
+          "label": "45",
+          "kind": "kanttekening",
           "gbs": "Gr. tot vele dagen.",
           "sv2026": "Grieks: tot vele dagen."
         }
@@ -655,14 +843,16 @@
       "sv2026": "En zij was een weduwe van ongeveer vierentachtig jaar, die <Dat is, was voortdurend of dagelijks in de tempel.> niet uit de tempel week, met vasten en bidden [God] $1Sm. 1:22$ dienend, nacht en dag.",
       "kanttekeningen": [
         {
-          "n": 46,
+          "label": "46",
+          "kind": "kanttekening",
           "gbs": "Dat is, was gedurig of dagelijks in den tempel.",
           "sv2026": "Dat is, was voortdurend of dagelijks in de tempel."
         },
         {
-          "n": 2,
+          "label": "s",
+          "kind": "verwijzing",
           "gbs": "1 Sam. 1:22.",
-          "sv2026": ""
+          "sv2026": "1Sm. 1:22"
         }
       ]
     },
@@ -674,12 +864,14 @@
       "sv2026": "En zij kwam op datzelfde uur daarbij en heeft eveneens de Heere <Dat is, bekend en betuigd, dat hij de verwachte Messias was.> beleden, en sprak over hem tot allen die <Namelijk, die beloofd was door de Messias te zullen gebeuren.> de verlossing in Jeruzalem verwachtten.",
       "kanttekeningen": [
         {
-          "n": 47,
+          "label": "47",
+          "kind": "kanttekening",
           "gbs": "Dat is, bekend en betuigd, dat Hij de verwachte Messias was.",
           "sv2026": "Dat is, bekend en betuigd, dat hij de verwachte Messias was."
         },
         {
-          "n": 48,
+          "label": "48",
+          "kind": "kanttekening",
           "gbs": "Namelijk die beloofd was door den Messias te zullen geschieden.",
           "sv2026": "Namelijk, die beloofd was door de Messias te zullen gebeuren."
         }
@@ -701,19 +893,34 @@
       "sv2026": "En het kindje $Lk. 1:80$ groeide op, en <Hetzelfde wordt ook in $Lk. 1:80$ gezegd van Johannes, maar Christus heeft deze gaven ontvangen niet met mate, $Jh. 3:34$.> werd gesterkt <Of, door de Geest.> in de geest, en vervuld met wijsheid: en de genade van God was over hem.",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "t",
+          "kind": "verwijzing",
           "gbs": "Luk. 1:80.",
+          "sv2026": "Lk. 1:80"
+        },
+        {
+          "label": "49",
+          "kind": "kanttekening",
+          "gbs": "Hetzelfde wordt ook Luk. 1:80 gezegd van Johannes, doch Christus heeft deze gaven ontvangen niet met mate, Joh. 3:34.",
           "sv2026": "Hetzelfde wordt ook in $Lk. 1:80$ gezegd van Johannes, maar Christus heeft deze gaven ontvangen niet met mate, $Jh. 3:34$."
         },
         {
-          "n": 49,
-          "gbs": "Hetzelfde wordt ook Luk. 1:80 gezegd van Johannes, doch Christus heeft deze gaven ontvangen niet met mate, Joh. 3:34.",
+          "label": "50",
+          "kind": "kanttekening",
+          "gbs": "Of: door den Geest.",
           "sv2026": "Of, door de Geest."
         },
         {
-          "n": 50,
-          "gbs": "Of: door den Geest.",
-          "sv2026": ""
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Lk. 1:80"
+        },
+        {
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Jh. 3:34"
         }
       ]
     },
@@ -725,14 +932,22 @@
       "sv2026": "En zijn ouders <Namelijk, naar het bevel van God, $Dt. 16:16$.> reisden alle jaren naar Jeruzalem op het feest van $Ex. 23:15,17; Lv. 23:5; Dt. 16:1$ Pascha.",
       "kanttekeningen": [
         {
-          "n": 51,
+          "label": "51",
+          "kind": "kanttekening",
           "gbs": "Namelijk naar het bevel Gods, Deut. 16:16.",
           "sv2026": "Namelijk, naar het bevel van God, $Dt. 16:16$."
         },
         {
-          "n": 2,
+          "label": "v",
+          "kind": "verwijzing",
           "gbs": "Ex. 23:15, 17. Lev. 23:5. Deut. 16:1.",
-          "sv2026": ""
+          "sv2026": "Dt. 16:16"
+        },
+        {
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Ex. 23:15,17; Lv. 23:5; Dt. 16:1"
         }
       ]
     },
@@ -760,9 +975,16 @@
       "sv2026": "Maar omdat zij meenden dat hij <Namelijk, van degenen die met hen naar Nazareth terugkeerden. Want de Joden gingen na de grote feesten met grote groepen tezamen op en keerden terug, $Ps. 42:5$.> in het gezelschap op de weg was, gingen zij een dagreis, en zochten hem onder de bloedverwanten en onder de bekenden.",
       "kanttekeningen": [
         {
-          "n": 52,
+          "label": "52",
+          "kind": "kanttekening",
           "gbs": "Namelijk dergenen die met hen naar Nazareth wederkeerden. Dewijl de Joden naar de grote feesten met grote hopen tezamen opgingen en wederkeerden, Ps. 42:5.",
           "sv2026": "Namelijk, van degenen die met hen naar Nazareth terugkeerden. Want de Joden gingen na de grote feesten met grote groepen tezamen op en keerden terug, $Ps. 42:5$."
+        },
+        {
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Ps. 42:5"
         }
       ]
     },
@@ -790,9 +1012,10 @@
       "sv2026": "$Mt. 7:28; Mk. 1:22; Lk. 4:22,32; Jh. 7:15$ En allen die hem hoorden, waren buiten zichzelf over zijn verstand en antwoorden.",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "x",
+          "kind": "verwijzing",
           "gbs": "Matth. 7:28. Mark. 1:22. Luk. 4:22, 32. Joh. 7:15.",
-          "sv2026": ""
+          "sv2026": "Mt. 7:28; Mk. 1:22; Lk. 4:22,32; Jh. 7:15"
         }
       ]
     },
@@ -804,24 +1027,34 @@
       "sv2026": "En <Namelijk, Jozef en Maria.> toen zij hem zagen, werden zij <Namelijk, omdat zij zagen dat hij, terwijl hij nog een kind was, het had bestaan met zulke grote Leraars te spreken en te handelen.> verslagen, en zijn moeder zei tot hem: Kind, waarom hebt u ons zo gedaan? Zie, <Namelijk, Jozef. Zo spreekt Maria naar de mening van de Joden, $Lk. 3:23$. Of omdat men ook een stiefvader met de naam vader placht te noemen.> uw vader en ik hebben u met <Grieks: beangst, of, benauwd.> angst gezocht.",
       "kanttekeningen": [
         {
-          "n": 53,
+          "label": "53",
+          "kind": "kanttekening",
           "gbs": "Namelijk Jozef en Maria.",
           "sv2026": "Namelijk, Jozef en Maria."
         },
         {
-          "n": 54,
+          "label": "54",
+          "kind": "kanttekening",
           "gbs": "Namelijk omdat zij zagen dat Hij nog een Kind zijnde, ondernomen had met zulke grote leraars te spreken en te handelen.",
           "sv2026": "Namelijk, omdat zij zagen dat hij, terwijl hij nog een kind was, het had bestaan met zulke grote Leraars te spreken en te handelen."
         },
         {
-          "n": 55,
+          "label": "55",
+          "kind": "kanttekening",
           "gbs": "Namelijk Jozef. Zo spreekt Maria naar de mening der Joden, Luk. 3:23, of omdat men ook een stiefvader met den naam van vader placht te noemen.",
           "sv2026": "Namelijk, Jozef. Zo spreekt Maria naar de mening van de Joden, $Lk. 3:23$. Of omdat men ook een stiefvader met de naam vader placht te noemen."
         },
         {
-          "n": 56,
+          "label": "56",
+          "kind": "kanttekening",
           "gbs": "Gr. beangst of benauwd zijnde.",
           "sv2026": "Grieks: beangst, of, benauwd."
+        },
+        {
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Lk. 3:23"
         }
       ]
     },
@@ -833,7 +1066,8 @@
       "sv2026": "En hij zei tot hen: Wat [is het] dat u mij gezocht hebt? En wist u niet, dat ik moet zijn in de dingen <Namelijk, die God, mijn hemelse Vader, mij heeft bevolen, en waartoe ik door hem in de wereld gezonden ben.> van mijn Vader?",
       "kanttekeningen": [
         {
-          "n": 57,
+          "label": "57",
+          "kind": "kanttekening",
           "gbs": "Namelijk die God, Mijn hemelse Vader, Mij heeft bevolen, en waartoe Ik van Hem in de wereld gezonden ben.",
           "sv2026": "Namelijk, die God, mijn hemelse Vader, mij heeft bevolen, en waartoe ik door hem in de wereld gezonden ben."
         }
@@ -847,9 +1081,10 @@
       "sv2026": "$Lk. 9:45; 18:34$ En zij verstonden het woord niet, dat hij tot hen sprak.",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "y",
+          "kind": "verwijzing",
           "gbs": "Luk. 9:45; 18:34.",
-          "sv2026": ""
+          "sv2026": "Lk. 9:45; 18:34"
         }
       ]
     },
@@ -861,12 +1096,14 @@
       "sv2026": "En hij ging met hen af, en kwam te Nazareth, en was hun <Namelijk, zoals de kinderen hun ouders schuldig zijn te gehoorzamen naar de wet, waaraan hij zichzelf had onderworpen.> onderdanig. En zijn moeder bewaarde al deze <Grieks: woorden.> dingen in haar hart.",
       "kanttekeningen": [
         {
-          "n": 58,
+          "label": "58",
+          "kind": "kanttekening",
           "gbs": "Namelijk gelijk de kinderen hun ouders schuldig zijn te gehoorzamen naar de wet, aan dewelke Hij Zichzelven had onderworpen.",
           "sv2026": "Namelijk, zoals de kinderen hun ouders schuldig zijn te gehoorzamen naar de wet, waaraan hij zichzelf had onderworpen."
         },
         {
-          "n": 59,
+          "label": "59",
+          "kind": "kanttekening",
           "gbs": "Gr. woorden.",
           "sv2026": "Grieks: woorden."
         }
@@ -880,14 +1117,22 @@
       "sv2026": "En Jezus $1Sm. 2:26; Lk. 1:80$ nam toe in wijsheid, en in <Of, in ouderdom: want het Griekse woord betekent beide, $Lk. 19:3; Jh. 9:21,23$.> grootte, en in genade bij God en de mensen.",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "z",
+          "kind": "verwijzing",
           "gbs": "1 Sam. 2:26. Luk. 1:80.",
+          "sv2026": "1Sm. 2:26; Lk. 1:80"
+        },
+        {
+          "label": "60",
+          "kind": "kanttekening",
+          "gbs": "Of: in ouderdom; want het Griekse woord betekent beide, Luk. 19:3. Joh. 9:21, 23.",
           "sv2026": "Of, in ouderdom: want het Griekse woord betekent beide, $Lk. 19:3; Jh. 9:21,23$."
         },
         {
-          "n": 60,
-          "gbs": "Of: in ouderdom; want het Griekse woord betekent beide, Luk. 19:3. Joh. 9:21, 23.",
-          "sv2026": ""
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Lk. 19:3; Jh. 9:21,23"
         }
       ]
     }

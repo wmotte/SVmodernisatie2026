@@ -15,14 +15,22 @@
       "sv2026": "$Mk. 12:41; 2Kn. 12:9$ En hij keek op en zag de rijken hun gaven in de <Zie over deze schatkist $2Kn. 12:9; Mt. 27:6$.> schatkist werpen.",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "a",
+          "kind": "verwijzing",
           "gbs": "2 Kon. 12:9. Mark. 12:41.",
+          "sv2026": "Mk. 12:41; 2Kn. 12:9"
+        },
+        {
+          "label": "1",
+          "kind": "kanttekening",
+          "gbs": "Zie van deze schatkist 2 Kon. 12:9. Matth. 27:6.",
           "sv2026": "Zie over deze schatkist $2Kn. 12:9; Mt. 27:6$."
         },
         {
-          "n": 1,
-          "gbs": "Zie van deze schatkist 2 Kon. 12:9. Matth. 27:6.",
-          "sv2026": ""
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "2Kn. 12:9; Mt. 27:6"
         }
       ]
     },
@@ -34,9 +42,16 @@
       "sv2026": "En hij zag ook een zekere arme weduwe twee <Of, kleintjes, zie over hun waarde $Mk. 12:42$.> kleine [penninkjes] daarin werpen.",
       "kanttekeningen": [
         {
-          "n": 2,
+          "label": "2",
+          "kind": "kanttekening",
           "gbs": "Of: kleintjes; zie van de waarde derzelve Mark. 12:42.",
           "sv2026": "Of, kleintjes, zie over hun waarde $Mk. 12:42$."
+        },
+        {
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Mk. 12:42"
         }
       ]
     },
@@ -48,9 +63,10 @@
       "sv2026": "En hij zei: Waarlijk ik zeg u, dat deze $2Kor. 8:12$ arme weduwe meer dan allen heeft [in]geworpen.",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "b",
+          "kind": "verwijzing",
           "gbs": "2 Kor. 8:12.",
-          "sv2026": ""
+          "sv2026": "2Kor. 8:12"
         }
       ]
     },
@@ -62,24 +78,34 @@
       "sv2026": "Want die allen hebben van hun <Of, overschot.> overvloed geworpen <Dat is, tot de andere gaven, die aan God gegeven of toegeëigend, en in de schatkist bewaard werden.> tot de gaven van God: maar deze heeft <Dat is, van wat zij zelf gebrek of nodig had om te leven.> van haar gebrek heel het <Grieks: leven. Zie $Mk. 12:44$.> levensonderhoud dat zij had, [daarin] geworpen.",
       "kanttekeningen": [
         {
-          "n": 3,
+          "label": "3",
+          "kind": "kanttekening",
           "gbs": "Of: overschot.",
           "sv2026": "Of, overschot."
         },
         {
-          "n": 4,
+          "label": "4",
+          "kind": "kanttekening",
           "gbs": "Dat is, tot de andere gaven, die Gode gegeven of toegeëigend en in de schatkist bewaard werden.",
           "sv2026": "Dat is, tot de andere gaven, die aan God gegeven of toegeëigend, en in de schatkist bewaard werden."
         },
         {
-          "n": 5,
+          "label": "5",
+          "kind": "kanttekening",
           "gbs": "Dat is, van hetgeen zij zelve gebrek of van node had om te leven.",
           "sv2026": "Dat is, van wat zij zelf gebrek of nodig had om te leven."
         },
         {
-          "n": 6,
+          "label": "6",
+          "kind": "kanttekening",
           "gbs": "Gr. leven. Zie Mark. 12:44.",
           "sv2026": "Grieks: leven. Zie $Mk. 12:44$."
+        },
+        {
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Mk. 12:44"
         }
       ]
     },
@@ -91,14 +117,22 @@
       "sv2026": "$Mt. 24:1; Mk. 13:1$ En toen sommigen van de tempel zeiden dat hij met mooie stenen en <Dit waren eigenlijk zulke giften, die in de tempel aan God geheiligd, en tot sieraad, opgehangen waren. Zie dergelijke $2Kn. 11:10$.> wijgeschenken versierd was, zei hij:",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "c",
+          "kind": "verwijzing",
           "gbs": "Matth. 24:1. Mark. 13:1.",
+          "sv2026": "Mt. 24:1; Mk. 13:1"
+        },
+        {
+          "label": "7",
+          "kind": "kanttekening",
+          "gbs": "Dit waren eigenlijk zulke giften, die in den tempel Gode geheiligd en tot sieraad opgehangen waren. Zie dergelijke 2 Kon. 11:10.",
           "sv2026": "Dit waren eigenlijk zulke giften, die in de tempel aan God geheiligd, en tot sieraad, opgehangen waren. Zie dergelijke $2Kn. 11:10$."
         },
         {
-          "n": 7,
-          "gbs": "Dit waren eigenlijk zulke giften, die in den tempel Gode geheiligd en tot sieraad opgehangen waren. Zie dergelijke 2 Kon. 11:10.",
-          "sv2026": ""
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "2Kn. 11:10"
         }
       ]
     },
@@ -110,9 +144,10 @@
       "sv2026": "[Wat] deze dingen [betreft,] die u aanschouwt, $1Kn. 9:7; Mc. 3:12; Lk. 19:44$ er zullen dagen komen, waarin niet [een] steen op [de andere] steen zal gelaten worden, die niet zal worden afgebroken.",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "d",
+          "kind": "verwijzing",
           "gbs": "1 Kon. 9:7. Micha 3:12. Luk. 19:44.",
-          "sv2026": ""
+          "sv2026": "1Kn. 9:7; Mc. 3:12; Lk. 19:44"
         }
       ]
     },
@@ -132,24 +167,34 @@
       "sv2026": "$Jr. 29:8; Mt. 24:4; Ef. 5:6; Ko. 2:18; 2Th. 2:2; 1Jh. 4:1$ En hij zei: Ziet toe dat u niet verleid wordt; $Jr. 14:14; 23:21$ want velen zullen er komen <Grieks: in mijn naam. Dat is, terwijl zij mijn naam zichzelf valselijk toeschrijven.> onder mijn naam, en zeggen: <Grieks: ik ben, namelijk de Christus, zoals uitgedrukt staat $Mt. 24:5$.> Ik ben [de Christus]. En de tijd is nabij gekomen. Ga hun dan niet achterna.",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "e",
+          "kind": "verwijzing",
           "gbs": "Jer. 29:8. Matth. 24:4. Ef. 5:6. Kol. 2:18. 2 Thess. 2:2. 1 Joh. 4:1.",
+          "sv2026": "Jr. 29:8; Mt. 24:4; Ef. 5:6; Ko. 2:18; 2Th. 2:2; 1Jh. 4:1"
+        },
+        {
+          "label": "f",
+          "kind": "verwijzing",
+          "gbs": "Jer. 14:14; 23:21.",
+          "sv2026": "Jr. 14:14; 23:21"
+        },
+        {
+          "label": "8",
+          "kind": "kanttekening",
+          "gbs": "Gr. in Mijn Naam, dat is, Mijn Naam zichzelven valselijk toeschrijvende.",
           "sv2026": "Grieks: in mijn naam. Dat is, terwijl zij mijn naam zichzelf valselijk toeschrijven."
         },
         {
-          "n": 2,
-          "gbs": "Jer. 14:14; 23:21.",
+          "label": "9",
+          "kind": "kanttekening",
+          "gbs": "Gr. Ik ben, namelijk de Christus, gelijk uitgedrukt staat Matth. 24:5.",
           "sv2026": "Grieks: ik ben, namelijk de Christus, zoals uitgedrukt staat $Mt. 24:5$."
         },
         {
-          "n": 8,
-          "gbs": "Gr. in Mijn Naam, dat is, Mijn Naam zichzelven valselijk toeschrijvende.",
-          "sv2026": ""
-        },
-        {
-          "n": 9,
-          "gbs": "Gr. Ik ben, namelijk de Christus, gelijk uitgedrukt staat Matth. 24:5.",
-          "sv2026": ""
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Mt. 24:5"
         }
       ]
     },
@@ -161,12 +206,14 @@
       "sv2026": "En wanneer u zult horen van oorlogen en <Het Griekse woord betekent zulke beroeringen of verwarringen, waardoor niets in zijn toestand of plaats gelaten wordt.> beroeringen, wees dan niet verschrikt. Want deze dingen moeten <Namelijk, voordat de stad en de tempel van Jeruzalem verwoest zullen worden.> eerst gebeuren; maar dadelijk is [nog] niet het einde.",
       "kanttekeningen": [
         {
-          "n": 10,
+          "label": "10",
+          "kind": "kanttekening",
           "gbs": "Het Griekse woord betekent zulke beroerten of verwarringen waardoor gans niets in zijn stand of plaats gelaten wordt.",
           "sv2026": "Het Griekse woord betekent zulke beroeringen of verwarringen, waardoor niets in zijn toestand of plaats gelaten wordt."
         },
         {
-          "n": 11,
+          "label": "11",
+          "kind": "kanttekening",
           "gbs": "Namelijk eer de stad en tempel van Jeruzalem zullen verwoest worden.",
           "sv2026": "Namelijk, voordat de stad en de tempel van Jeruzalem verwoest zullen worden."
         }
@@ -180,9 +227,10 @@
       "sv2026": "Toen zei hij tot hen: $Js. 19:2$ Het [ene] volk zal tegen het [andere] volk opstaan, en het [ene] Koninkrijk tegen het [andere] Koninkrijk.",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "g",
+          "kind": "verwijzing",
           "gbs": "Jes. 19:2.",
-          "sv2026": ""
+          "sv2026": "Js. 19:2"
         }
       ]
     },
@@ -194,12 +242,14 @@
       "sv2026": "En er zullen grote aardbevingen zijn op verscheidene plaatsen, en hongersnoden, en pestilenties; ook zullen er <Zie hierover de Joodse Geschiedschrijver Josephus, over de Joodse oorlog, boek 7, hoofdstuk 12.> verschrikkelijke dingen, en grote tekenen van de hemel <Grieks: zijn.> plaatsvinden.",
       "kanttekeningen": [
         {
-          "n": 12,
+          "label": "12",
+          "kind": "kanttekening",
           "gbs": "Zie hiervan den Joodsen historieschrijver Josephus, Joodse Oorlog, boek 7, hfdst. 12.",
           "sv2026": "Zie hierover de Joodse Geschiedschrijver Josephus, over de Joodse oorlog, boek 7, hoofdstuk 12."
         },
         {
-          "n": 13,
+          "label": "13",
+          "kind": "kanttekening",
           "gbs": "Gr. zijn.",
           "sv2026": "Grieks: zijn."
         }
@@ -213,24 +263,34 @@
       "sv2026": "$Mt. 10:17; 24:9; Mk. 13:9; Jh. 16:2; Op. 2:10$ Maar vóór dit alles zullen zij hun handen aan u slaan, en [u] vervolgen, [u] overleverend aan de <Waarin de gelovigen ook gegeseld werden, zoals te zien is in $Hd. 5:40; 22:19; 26:11$.> Synagogen en $Hd. 4:3; 5:18; 12:4; 16:24$ gevangenissen, en u zult voor $Hd. 25:23$ Koningen en Stadhouders gebracht worden, omwille van mijn naam.",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "h",
+          "kind": "verwijzing",
           "gbs": "Matth. 10:17; 24:9. Mark. 13:9. Joh. 16:2. Openb. 2:10.",
+          "sv2026": "Mt. 10:17; 24:9; Mk. 13:9; Jh. 16:2; Op. 2:10"
+        },
+        {
+          "label": "14",
+          "kind": "kanttekening",
+          "gbs": "In welke de gelovigen ook gegeseld werden, gelijk te zien is Hand. 5:40; 22:19; 26:11.",
           "sv2026": "Waarin de gelovigen ook gegeseld werden, zoals te zien is in $Hd. 5:40; 22:19; 26:11$."
         },
         {
-          "n": 14,
-          "gbs": "In welke de gelovigen ook gegeseld werden, gelijk te zien is Hand. 5:40; 22:19; 26:11.",
-          "sv2026": ""
-        },
-        {
-          "n": 3,
+          "label": "i",
+          "kind": "verwijzing",
           "gbs": "Hand. 4:3; 5:18; 12:4; 16:24.",
-          "sv2026": ""
+          "sv2026": "Hd. 5:40; 22:19; 26:11"
         },
         {
-          "n": 4,
+          "label": "k",
+          "kind": "verwijzing",
           "gbs": "Hand. 25:23.",
-          "sv2026": ""
+          "sv2026": "Hd. 4:3; 5:18; 12:4; 16:24"
+        },
+        {
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Hd. 25:23"
         }
       ]
     },
@@ -242,12 +302,14 @@
       "sv2026": "En [dit] zal u <Grieks: afkomen, afdalen. Dat is, gedijen, strekken.> overkomen tot een <Namelijk, zowel van hun wreedheid en hardnekkigheid, als van uw standvastigheid in het belijden van mijn naam, en van de waarheid van mijn voorzeggingen.> getuigenis.",
       "kanttekeningen": [
         {
-          "n": 15,
+          "label": "15",
+          "kind": "kanttekening",
           "gbs": "Gr. afkomen, afdalen, dat is, gedijen, strekken.",
           "sv2026": "Grieks: afkomen, afdalen. Dat is, gedijen, strekken."
         },
         {
-          "n": 16,
+          "label": "16",
+          "kind": "kanttekening",
           "gbs": "Namelijk zo van hun wreedheid en hardnekkigheid, als van uw standvastigheid in het belijden van Mijn Naam en van de waarheid Mijner voorzeggingen.",
           "sv2026": "Namelijk, zowel van hun wreedheid en hardnekkigheid, als van uw standvastigheid in het belijden van mijn naam, en van de waarheid van mijn voorzeggingen."
         }
@@ -261,13 +323,21 @@
       "sv2026": "<$Mt. 10:19; Mk. 13:11$> <Grieks: stelt, of, zet dan in uw harten.> Neem dan in uw harten voor, niet van tevoren te overdenken, [hoe] u zich verantwoorden zult.",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "l",
+          "kind": "verwijzing",
           "gbs": "Matth. 10:19. Mark. 13:11.",
+          "sv2026": "Mt. 10:19; Mk. 13:11"
+        },
+        {
+          "label": "17",
+          "kind": "kanttekening",
+          "gbs": "Gr. Stelt of zet dan in uw harten.",
           "sv2026": "$Mt. 10:19; Mk. 13:11$"
         },
         {
-          "n": 17,
-          "gbs": "Gr. Stelt of zet dan in uw harten.",
+          "label": null,
+          "kind": "kanttekening",
+          "gbs": "",
           "sv2026": "Grieks: stelt, of, zet dan in uw harten."
         }
       ]
@@ -280,14 +350,22 @@
       "sv2026": "$Ex. 4:12; Js. 54:17; Mt. 10:19; Hd. 6:10$ Want ik zal u <Dat is, bekwaamheid en vrijmoedigheid in het spreken door mijn Geest. Zie $Mk. 13:11$.> mond en wijsheid geven, die niet zullen kunnen tegenspreken, noch weerstaan, allen die zich tegen u stellen.",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "m",
+          "kind": "verwijzing",
           "gbs": "Ex. 4:12. Jes. 54:17. Matth. 10:19. Hand. 6:10.",
+          "sv2026": "Ex. 4:12; Js. 54:17; Mt. 10:19; Hd. 6:10"
+        },
+        {
+          "label": "18",
+          "kind": "kanttekening",
+          "gbs": "Dat is, bekwaamheid en vrijmoedigheid in het spreken door Mijn Geest. Zie Mark. 13:11.",
           "sv2026": "Dat is, bekwaamheid en vrijmoedigheid in het spreken door mijn Geest. Zie $Mk. 13:11$."
         },
         {
-          "n": 18,
-          "gbs": "Dat is, bekwaamheid en vrijmoedigheid in het spreken door Mijn Geest. Zie Mark. 13:11.",
-          "sv2026": ""
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Mk. 13:11"
         }
       ]
     },
@@ -299,19 +377,22 @@
       "sv2026": "$Mi. 7:6$ En u zult <Of, verraden worden.> overgeleverd worden, ook door ouders en broers, en verwanten, en vrienden; en zij zullen er [sommigen] uit u $Hd. 7:59; 12:2$ doden.",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "n",
+          "kind": "verwijzing",
           "gbs": "Micha 7:6.",
+          "sv2026": "Mi. 7:6"
+        },
+        {
+          "label": "19",
+          "kind": "kanttekening",
+          "gbs": "Of: verraden worden.",
           "sv2026": "Of, verraden worden."
         },
         {
-          "n": 19,
-          "gbs": "Of: verraden worden.",
-          "sv2026": ""
-        },
-        {
-          "n": 3,
+          "label": "o",
+          "kind": "verwijzing",
           "gbs": "Hand. 7:59; 12:2.",
-          "sv2026": ""
+          "sv2026": "Hd. 7:59; 12:2"
         }
       ]
     },
@@ -323,14 +404,22 @@
       "sv2026": "$Mt. 10:22; Mk. 13:13$ En u zult door <Namelijk, wereldse mensen. Zie $Jh. 15:18$.> allen gehaat worden, omwille van mijn naam.",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "p",
+          "kind": "verwijzing",
           "gbs": "Matth. 10:22. Mark. 13:13.",
+          "sv2026": "Mt. 10:22; Mk. 13:13"
+        },
+        {
+          "label": "20",
+          "kind": "kanttekening",
+          "gbs": "Namelijk wereldse mensen. Zie Joh. 15:18.",
           "sv2026": "Namelijk, wereldse mensen. Zie $Jh. 15:18$."
         },
         {
-          "n": 20,
-          "gbs": "Namelijk wereldse mensen. Zie Joh. 15:18.",
-          "sv2026": ""
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Jh. 15:18"
         }
       ]
     },
@@ -342,14 +431,22 @@
       "sv2026": "$1Sm. 14:45; 2Sm. 14:11; 1Kn. 1:52; Mt. 10:30$ Maar niet één <Dat is, niemand zal u in het minst kunnen schaden, zonder de wil van uw hemelse Vader. Gelijke manier van spreken zie $1Sm. 14:45; 1Kn. 1:52$.> haar uit uw hoofd zal verloren gaan.",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "q",
+          "kind": "verwijzing",
           "gbs": "1 Sam. 14:45. 2 Sam. 14:11. 1 Kon. 1:52. Matth. 10:30.",
+          "sv2026": "1Sm. 14:45; 2Sm. 14:11; 1Kn. 1:52; Mt. 10:30"
+        },
+        {
+          "label": "21",
+          "kind": "kanttekening",
+          "gbs": "Dat is, niemand zal u in het minste beschadigen kunnen, zonder den wil uws hemelsen Vaders. Gelijke manier van spreken zie 1 Sam. 14:45. 1 Kon. 1:52.",
           "sv2026": "Dat is, niemand zal u in het minst kunnen schaden, zonder de wil van uw hemelse Vader. Gelijke manier van spreken zie $1Sm. 14:45; 1Kn. 1:52$."
         },
         {
-          "n": 21,
-          "gbs": "Dat is, niemand zal u in het minste beschadigen kunnen, zonder den wil uws hemelsen Vaders. Gelijke manier van spreken zie 1 Sam. 14:45. 1 Kon. 1:52.",
-          "sv2026": ""
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "1Sm. 14:45; 1Kn. 1:52"
         }
       ]
     },
@@ -369,9 +466,10 @@
       "sv2026": "$Dn. 9:27; Mt. 24:15; Mk. 13:14$ Maar wanneer u zult zien dat Jeruzalem door legers omsingeld wordt, weet dan dat haar verwoesting nabij gekomen is.",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "r",
+          "kind": "verwijzing",
           "gbs": "Dan. 9:27. Matth. 24:15. Mark. 13:14.",
-          "sv2026": ""
+          "sv2026": "Dn. 9:27; Mt. 24:15; Mk. 13:14"
         }
       ]
     },
@@ -383,7 +481,8 @@
       "sv2026": "Laten dan zij die in Judea zijn, vluchten naar de bergen; en die in het midden daarvan zijn, daaruit wegtrekken; en die op de velden zijn, <Namelijk, in de stad van Jeruzalem.> niet daarin komen.",
       "kanttekeningen": [
         {
-          "n": 22,
+          "label": "22",
+          "kind": "kanttekening",
           "gbs": "Namelijk in de stad van Jeruzalem.",
           "sv2026": "Namelijk, in de stad van Jeruzalem."
         }
@@ -397,14 +496,16 @@
       "sv2026": "Want dit zijn dagen <Namelijk van God, over de hardnekkigheid van het Joodse volk.> van wraak, $Dn. 9:26,27; Mt. 24:15; Mk. 13:14$ opdat alles vervuld wordt wat geschreven is.",
       "kanttekeningen": [
         {
-          "n": 23,
+          "label": "23",
+          "kind": "kanttekening",
           "gbs": "Namelijk Gods, over de hardnekkigheid van het Joodse volk.",
           "sv2026": "Namelijk van God, over de hardnekkigheid van het Joodse volk."
         },
         {
-          "n": 2,
+          "label": "s",
+          "kind": "verwijzing",
           "gbs": "Dan. 9:26, 27. Matth. 24:15. Mark. 13:14.",
-          "sv2026": ""
+          "sv2026": "Dn. 9:26,27; Mt. 24:15; Mk. 13:14"
         }
       ]
     },
@@ -416,14 +517,22 @@
       "sv2026": "Maar <Dit woord gebruikt Christus niet dreigend, zoals hij doet tegen de Farizeeën, $Lk. 11:42$, etc., maar hen beklagend vanwege de zwarigheden, die hun toen zouden overkomen.> wee de zwangeren, en de zogenden [vrouwen] in die dagen; want er zal grote nood zijn in <Grieks: op de aarde.> het land, en toorn over dit volk.",
       "kanttekeningen": [
         {
-          "n": 24,
+          "label": "24",
+          "kind": "kanttekening",
           "gbs": "Dit woord gebruikt Christus niet dreigende, zoals Hij doet tegen de farizeeën, Luk. 11:42, enz., maar haar beklagende vanwege de zwarigheden die haar alsdan zouden overkomen.",
           "sv2026": "Dit woord gebruikt Christus niet dreigend, zoals hij doet tegen de Farizeeën, $Lk. 11:42$, etc., maar hen beklagend vanwege de zwarigheden, die hun toen zouden overkomen."
         },
         {
-          "n": 25,
+          "label": "25",
+          "kind": "kanttekening",
           "gbs": "Gr. op de aarde.",
           "sv2026": "Grieks: op de aarde."
+        },
+        {
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Lk. 11:42"
         }
       ]
     },
@@ -435,19 +544,28 @@
       "sv2026": "En zij zullen vallen door de <Grieks: de mond.> scherpte van het zwaard, en gevankelijk weggevoerd worden onder alle volken; en Jeruzalem zal door de Heidenen vertreden worden, $Rm. 11:25$ <Namelijk bestemd tot de roeping van de Heidenen, $Rm. 11:25$, na welker vervulling de dingen zullen gebeuren die hierna volgen; of, bestemd tot straf en wraak over de Heidenen, wanneer de maat van hun zonden vervuld zal zijn.> totdat de tijden van de Heidenen vervuld zullen zijn.",
       "kanttekeningen": [
         {
-          "n": 26,
+          "label": "26",
+          "kind": "kanttekening",
           "gbs": "Gr. den mond.",
           "sv2026": "Grieks: de mond."
         },
         {
-          "n": 2,
+          "label": "t",
+          "kind": "verwijzing",
           "gbs": "Rom. 11:25.",
+          "sv2026": "Rm. 11:25"
+        },
+        {
+          "label": "27",
+          "kind": "kanttekening",
+          "gbs": "Namelijk bestemd tot de beroeping der heidenen, Rom. 11:25, na welker vervulling die dingen geschieden zullen die hierna volgen; of bestemd tot straf en wraak over de heidenen, wanneer de maat hunner zonden zal vervuld zijn.",
           "sv2026": "Namelijk bestemd tot de roeping van de Heidenen, $Rm. 11:25$, na welker vervulling de dingen zullen gebeuren die hierna volgen; of, bestemd tot straf en wraak over de Heidenen, wanneer de maat van hun zonden vervuld zal zijn."
         },
         {
-          "n": 27,
-          "gbs": "Namelijk bestemd tot de beroeping der heidenen, Rom. 11:25, na welker vervulling die dingen geschieden zullen die hierna volgen; of bestemd tot straf en wraak over de heidenen, wanneer de maat hunner zonden zal vervuld zijn.",
-          "sv2026": ""
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Rm. 11:25"
         }
       ]
     },
@@ -459,14 +577,16 @@
       "sv2026": "$Js. 13:10; Ez. 32:7; Jl. 2:31; 3:15; Mt. 24:29; Mk. 13:24; Op. 6:12$ En er zullen tekenen zijn in de zon, en maan, en sterren, en op de aarde benauwdheid van de volken, met twijfelmoedigheid, als de zee en de watergolven <Grieks: weerklank.> groot geluid zullen geven;",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "v",
+          "kind": "verwijzing",
           "gbs": "Jes. 13:10. Ez. 32:7. Joël 2:31; 3:15. Matth. 24:29. Mark. 13:24. Openb. 6:12.",
-          "sv2026": "Grieks: weerklank."
+          "sv2026": "Js. 13:10; Ez. 32:7; Jl. 2:31; 3:15; Mt. 24:29; Mk. 13:24; Op. 6:12"
         },
         {
-          "n": 28,
+          "label": "28",
+          "kind": "kanttekening",
           "gbs": "Gr. weerklank.",
-          "sv2026": ""
+          "sv2026": "Grieks: weerklank."
         }
       ]
     },
@@ -478,19 +598,28 @@
       "sv2026": "En <Of, dat de mensen de geest zullen geven, of moedeloos zullen worden.> het hart van de mensen zal bezwijken van vrees, en verwachting van de dingen, die <Grieks: de bewoonde, namelijk, aarde.> de aarde zullen overkomen. Want de krachten van de hemelen zullen <Namelijk, op en neer, zoals de baren van de zee. Zie $Mt. 24:29$.> bewogen worden.",
       "kanttekeningen": [
         {
-          "n": 29,
+          "label": "29",
+          "kind": "kanttekening",
           "gbs": "Of: de mensen den geest zullen geven, of mismoedig zullen worden.",
           "sv2026": "Of, dat de mensen de geest zullen geven, of moedeloos zullen worden."
         },
         {
-          "n": 30,
+          "label": "30",
+          "kind": "kanttekening",
           "gbs": "Gr. de bewoonde, namelijk aarde.",
           "sv2026": "Grieks: de bewoonde, namelijk, aarde."
         },
         {
-          "n": 31,
+          "label": "31",
+          "kind": "kanttekening",
           "gbs": "Namelijk op en neder, gelijk de baren van de zee. Zie Matth. 24:29.",
           "sv2026": "Namelijk, op en neer, zoals de baren van de zee. Zie $Mt. 24:29$."
+        },
+        {
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Mt. 24:29"
         }
       ]
     },
@@ -502,19 +631,28 @@
       "sv2026": "$Dn. 7:10; Mt. 16:27; 24:30; 25:31; 26:64; Mk. 13:26; 14:62; Hd. 1:11; 2Th. 1:10; Op. 1:7$ En dan zullen zij de Zoon des mensen zien komen in een wolk met <Grieks: vele.> grote kracht en <Namelijk, in zijn hemelse Majesteit, en vergezeld met de heilige Engelen, $Mt. 25:31$.> heerlijkheid.",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "x",
+          "kind": "verwijzing",
           "gbs": "Dan. 7:10. Matth. 16:27; 24:30; 25:31; 26:64. Mark. 13:26; 14:62. Hand. 1:11. 2 Thess. 1:10. Openb. 1:7.",
+          "sv2026": "Dn. 7:10; Mt. 16:27; 24:30; 25:31; 26:64; Mk. 13:26; 14:62; Hd. 1:11; 2Th. 1:10; Op. 1:7"
+        },
+        {
+          "label": "32",
+          "kind": "kanttekening",
+          "gbs": "Gr. vele.",
           "sv2026": "Grieks: vele."
         },
         {
-          "n": 32,
-          "gbs": "Gr. vele.",
+          "label": "33",
+          "kind": "kanttekening",
+          "gbs": "Namelijk in Zijn hemelse majesteit, en vergezelschapt met de heilige engelen, Matth. 25:31.",
           "sv2026": "Namelijk, in zijn hemelse Majesteit, en vergezeld met de heilige Engelen, $Mt. 25:31$."
         },
         {
-          "n": 33,
-          "gbs": "Namelijk in Zijn hemelse majesteit, en vergezelschapt met de heilige engelen, Matth. 25:31.",
-          "sv2026": ""
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Mt. 25:31"
         }
       ]
     },
@@ -526,19 +664,34 @@
       "sv2026": "Als nu deze dingen beginnen te gebeuren, kijk dan <Of, richt u op, namelijk van vreugde en verlangen, $Mt. 24:33$.> omhoog, en hef uw hoofden opwaarts, $Rm. 8:23$ omdat <Namelijk, uw volledige verlossing van alle kwaad, $Rm. 8:23$.> uw verlossing nabij is.",
       "kanttekeningen": [
         {
-          "n": 34,
+          "label": "34",
+          "kind": "kanttekening",
           "gbs": "Of: richt u op, namelijk van vreugde en verlangen, Matth. 24:33.",
           "sv2026": "Of, richt u op, namelijk van vreugde en verlangen, $Mt. 24:33$."
         },
         {
-          "n": 2,
+          "label": "y",
+          "kind": "verwijzing",
           "gbs": "Rom. 8:23.",
+          "sv2026": "Mt. 24:33"
+        },
+        {
+          "label": "35",
+          "kind": "kanttekening",
+          "gbs": "Namelijk uw volkomen verlossing van alle kwaad, Rom. 8:23.",
           "sv2026": "Namelijk, uw volledige verlossing van alle kwaad, $Rm. 8:23$."
         },
         {
-          "n": 35,
-          "gbs": "Namelijk uw volkomen verlossing van alle kwaad, Rom. 8:23.",
-          "sv2026": ""
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Rm. 8:23"
+        },
+        {
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Rm. 8:23"
         }
       ]
     },
@@ -550,9 +703,10 @@
       "sv2026": "$Mt. 24:32; Mk. 13:28$ En hij zei tot hen een gelijkenis: Zie de vijgenboom, en alle bomen.",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "z",
+          "kind": "verwijzing",
           "gbs": "Matth. 24:32. Mark. 13:28.",
-          "sv2026": ""
+          "sv2026": "Mt. 24:32; Mk. 13:28"
         }
       ]
     },
@@ -572,9 +726,16 @@
       "sv2026": "Zo ook u, wanneer u deze dingen zult zien gebeuren, weet dan dat het <Namelijk, van de heerlijkheid. Zie $1Kor. 15:24; 2Tm. 4:18$.> Koninkrijk Gods nabij is.",
       "kanttekeningen": [
         {
-          "n": 36,
+          "label": "36",
+          "kind": "kanttekening",
           "gbs": "Namelijk der heerlijkheid. Zie 1 Kor. 15:24. 2 Tim. 4:18.",
           "sv2026": "Namelijk, van de heerlijkheid. Zie $1Kor. 15:24; 2Tm. 4:18$."
+        },
+        {
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "1Kor. 15:24; 2Tm. 4:18"
         }
       ]
     },
@@ -586,7 +747,8 @@
       "sv2026": "Voorwaar, ik zeg u dat dit <Namelijk, van het Joodse volk.> geslacht geenszins voorbij zal gaan, totdat alles zal zijn gebeurd.",
       "kanttekeningen": [
         {
-          "n": 37,
+          "label": "37",
+          "kind": "kanttekening",
           "gbs": "Namelijk van het Joodse volk.",
           "sv2026": "Namelijk, van het Joodse volk."
         }
@@ -600,14 +762,22 @@
       "sv2026": "$Ps. 102:27; Js. 51:6; Mt. 24:35; Hb. 1:11$ De hemel en de aarde zullen <Zie hierover $2Pt. 3:10$.> voorbijgaan, maar mijn woorden zullen geenszins voorbijgaan.",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "a",
+          "kind": "verwijzing",
           "gbs": "Ps. 102:27. Jes. 51:6. Matth. 24:35. Hebr. 1:11.",
+          "sv2026": "Ps. 102:27; Js. 51:6; Mt. 24:35; Hb. 1:11"
+        },
+        {
+          "label": "38",
+          "kind": "kanttekening",
+          "gbs": "Zie hiervan 2 Petr. 3:10.",
           "sv2026": "Zie hierover $2Pt. 3:10$."
         },
         {
-          "n": 38,
-          "gbs": "Zie hiervan 2 Petr. 3:10.",
-          "sv2026": ""
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "2Pt. 3:10"
         }
       ]
     },
@@ -619,14 +789,16 @@
       "sv2026": "$Rm. 13:13; 1Th. 5:6; 1Pt. 4:7$ En wacht uzelf, dat uw harten niet te eniger tijd bezwaard worden met brasserij, en dronkenschap, en <Namelijk, al te grote of onmatige, die de mens verhindert op de komst van Christus te wachten.> zorgen van dit leven, en dat die dag u niet onverwachts [over]kome.",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "b",
+          "kind": "verwijzing",
           "gbs": "Rom. 13:13. 1 Thess. 5:6. 1 Petr. 4:7.",
-          "sv2026": "Namelijk, al te grote of onmatige, die de mens verhindert op de komst van Christus te wachten."
+          "sv2026": "Rm. 13:13; 1Th. 5:6; 1Pt. 4:7"
         },
         {
-          "n": 39,
+          "label": "39",
+          "kind": "kanttekening",
           "gbs": "Namelijk al te grote of onmatige, die den mens verhinderen op de toekomst van Christus te wachten.",
-          "sv2026": ""
+          "sv2026": "Namelijk, al te grote of onmatige, die de mens verhindert op de komst van Christus te wachten."
         }
       ]
     },
@@ -638,14 +810,16 @@
       "sv2026": "$1Th. 5:2; 2Pt. 3:10; Op. 3:3; 16:15$ Want zoals een strik zal hij komen over al degenen die <Grieks: op het aangezicht van de gehele aarde.> op de gehele aardbodem gezeten zijn.",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "c",
+          "kind": "verwijzing",
           "gbs": "1 Thess. 5:2. 2 Petr. 3:10. Openb. 3:3; 16:15.",
-          "sv2026": "Grieks: op het aangezicht van de gehele aarde."
+          "sv2026": "1Th. 5:2; 2Pt. 3:10; Op. 3:3; 16:15"
         },
         {
-          "n": 40,
+          "label": "40",
+          "kind": "kanttekening",
           "gbs": "Gr. op het aangezicht der ganse aarde.",
-          "sv2026": ""
+          "sv2026": "Grieks: op het aangezicht van de gehele aarde."
         }
       ]
     },
@@ -657,19 +831,22 @@
       "sv2026": "$Mt. 24:42; 25:13; Mk. 13:33; Lk. 12:40; 1Th. 5:6$ Waakt dan te allen tijde, en bidt dat u waardig geacht moogt worden te ontvluchten <Dat is, al deze straffen en ellenden.> al deze dingen die zullen gebeuren, en te <Dat is, standhouden, en met vrijmoedigheid voor hem verschijnen.> staan voor de Zoon des mensen.",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "d",
+          "kind": "verwijzing",
           "gbs": "Matth. 24:42; 25:13. Mark. 13:33. Luk. 12:40. 1 Thess. 5:6.",
+          "sv2026": "Mt. 24:42; 25:13; Mk. 13:33; Lk. 12:40; 1Th. 5:6"
+        },
+        {
+          "label": "41",
+          "kind": "kanttekening",
+          "gbs": "Dat is, al deze straffen en ellenden.",
           "sv2026": "Dat is, al deze straffen en ellenden."
         },
         {
-          "n": 41,
-          "gbs": "Dat is, al deze straffen en ellenden.",
-          "sv2026": "Dat is, standhouden, en met vrijmoedigheid voor hem verschijnen."
-        },
-        {
-          "n": 42,
+          "label": "42",
+          "kind": "kanttekening",
           "gbs": "Dat is, bestaan, en met vrijmoedigheid voor Hem verschijnen.",
-          "sv2026": ""
+          "sv2026": "Dat is, standhouden, en met vrijmoedigheid voor hem verschijnen."
         }
       ]
     },
@@ -681,9 +858,10 @@
       "sv2026": "$Jh. 8:2$ Overdag nu onderwees hij in de tempel, maar 's nachts ging hij uit, en overnachtte op de berg, genaamd de Olijf-[berg.]",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "e",
+          "kind": "verwijzing",
           "gbs": "Joh. 8:2.",
-          "sv2026": ""
+          "sv2026": "Jh. 8:2"
         }
       ]
     },

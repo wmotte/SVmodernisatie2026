@@ -15,19 +15,28 @@
       "sv2026": "$Mt. 9:10; Mk. 2:15; Lk. 5:29$ En <dat is, uit alle plaatsen daar in de buurt.> al de tollenaars en de <dat is, die in openbare grove zonden leefden. Zie $Ps. 1:1; Mt. 9:10$.> zondaars naderden tot hem, om hem te horen.",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "a",
+          "kind": "verwijzing",
           "gbs": "Matth. 9:10. Mark. 2:15. Luk. 5:29.",
+          "sv2026": "Mt. 9:10; Mk. 2:15; Lk. 5:29"
+        },
+        {
+          "label": "1",
+          "kind": "kanttekening",
+          "gbs": "Dat is, van alle plaatsen daaromtrent.",
           "sv2026": "dat is, uit alle plaatsen daar in de buurt."
         },
         {
-          "n": 1,
-          "gbs": "Dat is, van alle plaatsen daaromtrent.",
+          "label": "2",
+          "kind": "kanttekening",
+          "gbs": "Dat is, die in openbare grove zonden leefden. Zie Ps. 1:1. Matth. 9:10.",
           "sv2026": "dat is, die in openbare grove zonden leefden. Zie $Ps. 1:1; Mt. 9:10$."
         },
         {
-          "n": 2,
-          "gbs": "Dat is, die in openbare grove zonden leefden. Zie Ps. 1:1. Matth. 9:10.",
-          "sv2026": ""
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Ps. 1:1; Mt. 9:10"
         }
       ]
     },
@@ -47,7 +56,8 @@
       "sv2026": "En hij sprak tot hen deze <Grieks: parabel.> gelijkenis, en zei:",
       "kanttekeningen": [
         {
-          "n": 3,
+          "label": "3",
+          "kind": "kanttekening",
           "gbs": "Gr. parabel.",
           "sv2026": "Grieks: parabel."
         }
@@ -61,9 +71,10 @@
       "sv2026": "$Mt. 18:12$ Welk mens onder u, die honderd schapen heeft en er een van verliest, verlaat niet de negenennegentig in de woestijn, en gaat het verlorene na, totdat hij het vindt?",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "b",
+          "kind": "verwijzing",
           "gbs": "Matth. 18:12.",
-          "sv2026": ""
+          "sv2026": "Mt. 18:12"
         }
       ]
     },
@@ -83,9 +94,10 @@
       "sv2026": "En thuisgekomen roept hij de vrienden en de buren samen, en zegt tot hen: Weest blij met mij, want ik heb mijn schaap gevonden, $1Pt. 2:10$ dat verloren was.",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "c",
+          "kind": "verwijzing",
           "gbs": "1 Petr. 2:10.",
-          "sv2026": ""
+          "sv2026": "1Pt. 2:10"
         }
       ]
     },
@@ -97,19 +109,40 @@
       "sv2026": "Ik zeg u, dat er evenzo blijdschap <Namelijk, onder de Engelen van God, zoals hierna verklaard wordt vers 10.> zal zijn in de hemel over een zondaar die zich bekeert, [meer] dan over $Lk. 5:32$ negenennegentig <dat is, die zo niet afgedwaald zijn, zoals staat $Mt. 18:13$, en daarom zich niet hoeven te bekeren van zo'n grote afdwaling of zonde. Hoewel anderzijds ook de heiligsten het nodig hebben zich van hun dagelijkse zwakheden te bekeren, $Jk. 3:2; 1Jh. 1:8$ Anderen verstaan hier onder de rechtvaardigen degenen die zichzelf verkeerdelijk wijsmaken dat zij rechtvaardig zijn, en dat zij geen bekering nodig hebben, $Mt. 9:13; Lk. 18:9$.> rechtvaardigen, die de bekering niet nodig hebben.",
       "kanttekeningen": [
         {
-          "n": 4,
+          "label": "4",
+          "kind": "kanttekening",
           "gbs": "Namelijk onder de engelen Gods, gelijk hierna verklaard wordt vers 10.",
           "sv2026": "Namelijk, onder de Engelen van God, zoals hierna verklaard wordt vers 10."
         },
         {
-          "n": 2,
+          "label": "d",
+          "kind": "verwijzing",
           "gbs": "Luk. 5:32.",
+          "sv2026": "Lk. 5:32"
+        },
+        {
+          "label": "5",
+          "kind": "kanttekening",
+          "gbs": "Dat is, die alzo niet afgedwaald zijn, gelijk staat Matth. 18:13, en daarom zich niet behoeven te bekeren van zodanige grote afdwaling of zonde. Hoewel anderszins ook de heiligsten van node hebben zich van hun dagelijkse zwakheden te bekeren, Jak. 3:2. 1 Joh. 1:8. Anderen verstaan hier door de rechtvaardigen degenen die zichzelven verkeerdelijk wijsmaken dat zij rechtvaardig zijn en dat zij geen bekering van node hebben, Matth. 9:13. Luk. 18:9.",
           "sv2026": "dat is, die zo niet afgedwaald zijn, zoals staat $Mt. 18:13$, en daarom zich niet hoeven te bekeren van zo'n grote afdwaling of zonde. Hoewel anderzijds ook de heiligsten het nodig hebben zich van hun dagelijkse zwakheden te bekeren, $Jk. 3:2; 1Jh. 1:8$ Anderen verstaan hier onder de rechtvaardigen degenen die zichzelf verkeerdelijk wijsmaken dat zij rechtvaardig zijn, en dat zij geen bekering nodig hebben, $Mt. 9:13; Lk. 18:9$."
         },
         {
-          "n": 5,
-          "gbs": "Dat is, die alzo niet afgedwaald zijn, gelijk staat Matth. 18:13, en daarom zich niet behoeven te bekeren van zodanige grote afdwaling of zonde. Hoewel anderszins ook de heiligsten van node hebben zich van hun dagelijkse zwakheden te bekeren, Jak. 3:2. 1 Joh. 1:8. Anderen verstaan hier door de rechtvaardigen degenen die zichzelven verkeerdelijk wijsmaken dat zij rechtvaardig zijn en dat zij geen bekering van node hebben, Matth. 9:13. Luk. 18:9.",
-          "sv2026": ""
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Mt. 18:13"
+        },
+        {
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Jk. 3:2; 1Jh. 1:8"
+        },
+        {
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Mt. 9:13; Lk. 18:9"
         }
       ]
     },
@@ -121,9 +154,16 @@
       "sv2026": "Of welke vrouw die tien <Grieks: Drachmen, waarvan de waarde overeenkomt met een Romeinse denarius, of Spaanse reaal, en onze schelling. Zie $Mt. 18:28$.> penningen heeft, en die, als zij een penning verliest, niet een kaars aansteekt, en het huis veegt [met bezems,] en zorgvuldig zoekt totdat zij [die] vindt?",
       "kanttekeningen": [
         {
-          "n": 6,
+          "label": "6",
+          "kind": "kanttekening",
           "gbs": "Gr. drachmen, waarvan de waarde overeenkomt met een Romeinsen denarius, of Spaansen reaal, en onzen schelling. Zie Matth. 18:28.",
           "sv2026": "Grieks: Drachmen, waarvan de waarde overeenkomt met een Romeinse denarius, of Spaanse reaal, en onze schelling. Zie $Mt. 18:28$."
+        },
+        {
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Mt. 18:28"
         }
       ]
     },
@@ -151,7 +191,8 @@
       "sv2026": "En hij zei: <Door deze, evenals de twee voorgaande gelijkenissen, stelt Christus de bereidwillige goedheid van God voor ogen, om de zondaars, wanneer zij zich bekeren, in genade te ontvangen; en wil daarmee bewijzen, tegen het morren van de Farizeeën, dat hij dan ook goed deed, wanneer hij met de zondaars omging, om hen tot bekering te brengen, en dat zij zich veel meer daarover behoren te verblijden.> Een zeker mens had twee zonen:",
       "kanttekeningen": [
         {
-          "n": 7,
+          "label": "7",
+          "kind": "kanttekening",
           "gbs": "Door deze alsook de twee voorgaande gelijkenissen stelt Christus voor ogen de bereide goedwilligheid Gods om de zondaren, als zij zich bekeren, in genade te ontvangen; en wil daarmede bewijzen, tegen het murmureren der farizeeën, dat Hij dan ook weldeed, als Hij met de zondaren omging, om hen tot bekering te brengen, en dat zij veelmeer zich daarover behoren te verblijden.",
           "sv2026": "Door deze, evenals de twee voorgaande gelijkenissen, stelt Christus de bereidwillige goedheid van God voor ogen, om de zondaars, wanneer zij zich bekeren, in genade te ontvangen; en wil daarmee bewijzen, tegen het morren van de Farizeeën, dat hij dan ook goed deed, wanneer hij met de zondaars omging, om hen tot bekering te brengen, en dat zij zich veel meer daarover behoren te verblijden."
         }
@@ -165,17 +206,20 @@
       "sv2026": "En de <Grieks: jongere.> jongste van hen zei tot de vader: Vader, geef mij <Dat is, dat mij zou toevallen, namelijk, na uw dood. Zie vers 30 en 31.> het deel van het goed dat [mij] toekomt. En hij verdeelde onder hen <Grieks: het leven, of, leeftocht, dat is, de middelen om van te leven.> het goed.",
       "kanttekeningen": [
         {
-          "n": 8,
+          "label": "8",
+          "kind": "kanttekening",
           "gbs": "Gr. jongere.",
           "sv2026": "Grieks: jongere."
         },
         {
-          "n": 9,
+          "label": "9",
+          "kind": "kanttekening",
           "gbs": "Dat is, dat mij zou toevallen, namelijk na uw dood. Zie vss. 30, 31.",
           "sv2026": "Dat is, dat mij zou toevallen, namelijk, na uw dood. Zie vers 30 en 31."
         },
         {
-          "n": 10,
+          "label": "10",
+          "kind": "kanttekening",
           "gbs": "Gr. het leven, of: leeftocht, dat is, de middelen om van te leven.",
           "sv2026": "Grieks: het leven, of, leeftocht, dat is, de middelen om van te leven."
         }
@@ -189,7 +233,8 @@
       "sv2026": "En niet vele dagen daarna heeft de jongste zoon alles bijeengebracht en is weggereisd naar een ver [gelegen] land, en heeft daar zijn goed <Grieks: verstrooid, of, verkwist.> erdoorheen gejaagd, en leefde overdadig.",
       "kanttekeningen": [
         {
-          "n": 11,
+          "label": "11",
+          "kind": "kanttekening",
           "gbs": "Gr. verstrooid, of: verkwist.",
           "sv2026": "Grieks: verstrooid, of, verkwist."
         }
@@ -203,7 +248,8 @@
       "sv2026": "En toen hij alles verteerd had, ontstond er een <Grieks: sterke, of, geweldige.> grote hongersnood in datzelfde land, en hij begon gebrek te lijden.",
       "kanttekeningen": [
         {
-          "n": 12,
+          "label": "12",
+          "kind": "kanttekening",
           "gbs": "Gr. sterke, of: geweldige.",
           "sv2026": "Grieks: sterke, of, geweldige."
         }
@@ -217,7 +263,8 @@
       "sv2026": "En hij ging heen en voegde zich bij een van de burgers van datzelfde land; en die zond hem naar zijn <Grieks: akkers.> land, om de zwijnen te weiden.",
       "kanttekeningen": [
         {
-          "n": 13,
+          "label": "13",
+          "kind": "kanttekening",
           "gbs": "Gr. akkers.",
           "sv2026": "Grieks: akkers."
         }
@@ -231,12 +278,14 @@
       "sv2026": "En hij verlangde ernaar zijn buik te vullen met de <Grieks: Keratia, wat eigenlijk de peulen, huisjes, of bolsters betekent van zekere vruchten, zoals de erwten en bonen hebben, die men in die landen de varkens te eten gaf, zoals men hier draf of spoeling geeft. Of, zoals anderen menen, een zekere vrucht in die landen, die de arme lieden en varkens aten, zoals op sommige plaatsen de eikels gegeten worden.> draf, die de zwijnen <Dat is, plachten te eten.> aten; en niemand gaf ze hem.",
       "kanttekeningen": [
         {
-          "n": 14,
+          "label": "14",
+          "kind": "kanttekening",
           "gbs": "Gr. keratia, hetwelk betekent eigenlijk de peulen, huisjes of bolsters van zekere vruchten, gelijk de erwten en bonen hebben, die men in die landen den varkens gaf te eten, gelijk men hier draf of spoeling geeft. Of, zo anderen menen, een zekere vrucht in die landen, die de arme lieden en varkens aten, gelijk in sommige plaatsen de eikels gegeten worden.",
           "sv2026": "Grieks: Keratia, wat eigenlijk de peulen, huisjes, of bolsters betekent van zekere vruchten, zoals de erwten en bonen hebben, die men in die landen de varkens te eten gaf, zoals men hier draf of spoeling geeft. Of, zoals anderen menen, een zekere vrucht in die landen, die de arme lieden en varkens aten, zoals op sommige plaatsen de eikels gegeten worden."
         },
         {
-          "n": 15,
+          "label": "15",
+          "kind": "kanttekening",
           "gbs": "Dat is, plachten te eten.",
           "sv2026": "Dat is, plachten te eten."
         }
@@ -250,7 +299,8 @@
       "sv2026": "En <Of, in zichzelf gaande.> tot zichzelf gekomen zei hij: Hoeveel huurlingen van mijn vader hebben overvloed van brood, en ik verga van honger?",
       "kanttekeningen": [
         {
-          "n": 16,
+          "label": "16",
+          "kind": "kanttekening",
           "gbs": "Of: in zichzelven gaande.",
           "sv2026": "Of, in zichzelf gaande."
         }
@@ -264,9 +314,16 @@
       "sv2026": "Ik zal opstaan en naar mijn vader gaan, en ik zal tot hem zeggen: Vader, ik heb gezondigd tegen <Dat is, God die in de hemel is; zoals $Dn. 4:26; Mt. 21:25$.> de hemel, en voor u.",
       "kanttekeningen": [
         {
-          "n": 17,
+          "label": "17",
+          "kind": "kanttekening",
           "gbs": "Dat is, God Die in den hemel is; gelijk Dan. 4:26. Matth. 21:25.",
           "sv2026": "Dat is, God die in de hemel is; zoals $Dn. 4:26; Mt. 21:25$."
+        },
+        {
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Dn. 4:26; Mt. 21:25"
         }
       ]
     },
@@ -286,9 +343,10 @@
       "sv2026": "En hij stond op en ging naar zijn vader. En $Hd. 2:39; Ef. 2:12,17$ toen hij nog ver [van hem] was, zag zijn vader hem, en werd met innerlijke ontferming bewogen; en hij liep [toe] en viel hem om zijn hals, en kuste hem.",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "e",
+          "kind": "verwijzing",
           "gbs": "Hand. 2:39. Ef. 2:12, 17.",
-          "sv2026": ""
+          "sv2026": "Hd. 2:39; Ef. 2:12,17"
         }
       ]
     },
@@ -308,9 +366,16 @@
       "sv2026": "Maar de vader zei tot zijn dienstknechten: Breng [hier] <Grieks: de eerste stola. Stola's waren lange kleren, zoals tabbaards. Zie $Mk. 12:38$.> het beste kleed tevoorschijn, en doe het hem aan, en geef een ring aan zijn hand, en schoenen aan de voeten.",
       "kanttekeningen": [
         {
-          "n": 18,
+          "label": "18",
+          "kind": "kanttekening",
           "gbs": "Gr. de eerste stola. Stola’s waren lange klederen, als tabbaarden. Zie Mark. 12:38.",
           "sv2026": "Grieks: de eerste stola. Stola's waren lange kleren, zoals tabbaards. Zie $Mk. 12:38$."
+        },
+        {
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Mk. 12:38"
         }
       ]
     },
@@ -338,12 +403,14 @@
       "sv2026": "En zijn <Grieks: de oudere.> oudste zoon was op het veld, en toen hij kwam en het huis naderde, hoorde hij het gezang en de <Grieks: Chorôn, wat een rei van lieden betekent die samen dansen, of zingen, of andere vreugde bedrijven.> reidans.",
       "kanttekeningen": [
         {
-          "n": 19,
+          "label": "19",
+          "kind": "kanttekening",
           "gbs": "Gr. de oudere.",
           "sv2026": "Grieks: de oudere."
         },
         {
-          "n": 20,
+          "label": "20",
+          "kind": "kanttekening",
           "gbs": "Gr. choron, hetwelk betekent een gerei van lieden die tezamen dansen of zingen of andere vreugd bedrijven.",
           "sv2026": "Grieks: Chorôn, wat een rei van lieden betekent die samen dansen, of zingen, of andere vreugde bedrijven."
         }
@@ -373,7 +440,8 @@
       "sv2026": "Maar hij werd toornig, en wilde niet binnengaan. Zo ging dan zijn vader naar buiten, en <Of, vermaande hem, namelijk dat hij zou binnenkomen, of, riep hem.> bad hem.",
       "kanttekeningen": [
         {
-          "n": 21,
+          "label": "21",
+          "kind": "kanttekening",
           "gbs": "Of: vermaande hem, namelijk dat hij zou inkomen, of: riep hem.",
           "sv2026": "Of, vermaande hem, namelijk dat hij zou binnenkomen, of, riep hem."
         }
@@ -395,12 +463,14 @@
       "sv2026": "Maar toen deze uw zoon gekomen is, die uw <Grieks: leven, of, leeftocht; zoals vers 12.> goed met hoeren <Grieks: opgegeten, of, verslonden.> opgemaakt heeft, zo hebt u hem het gemeste kalf geslacht.",
       "kanttekeningen": [
         {
-          "n": 22,
+          "label": "22",
+          "kind": "kanttekening",
           "gbs": "Gr. leven, of: leeftocht; gelijk vers 12.",
           "sv2026": "Grieks: leven, of, leeftocht; zoals vers 12."
         },
         {
-          "n": 23,
+          "label": "23",
+          "kind": "kanttekening",
           "gbs": "Gr. opgegeten, of: verslonden.",
           "sv2026": "Grieks: opgegeten, of, verslonden."
         }
@@ -414,7 +484,8 @@
       "sv2026": "En hij zei tot hem: Kind, u bent altijd bij mij, en al het mijne <Dat is, zal u ten laatste toebehoren, want de jongste had zijn goed weg.> is van u.",
       "kanttekeningen": [
         {
-          "n": 24,
+          "label": "24",
+          "kind": "kanttekening",
           "gbs": "Dat is, zal u ten laatste toebehoren, want de jongste had zijn goed weg.",
           "sv2026": "Dat is, zal u ten laatste toebehoren, want de jongste had zijn goed weg."
         }

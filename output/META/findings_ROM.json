@@ -1,0 +1,78 @@
+{
+  "book": "ROM",
+  "generated_at": "2026-05-25T14:49:51Z",
+  "chapters": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],
+  "min_freq": 2,
+  "issues": [
+    {
+      "id": "META-ROM-7-16-001",
+      "verse": 16,
+      "chapter": 7,
+      "category": "latinaat-window",
+      "severity": "soft",
+      "quote_modernized": "En indien ik hetgeen doe dat ik niet wil, ... zo stem ik de wet toe dat zij goed is.",
+      "hsv_quote": "En als ik dat doe wat ik niet wil, val ik de wet bij dat zij goed is.",
+      "rule_reference": "MODERNISATIE.md §2.3b",
+      "explanation": "Latinaat-/SV-woordvolgorde 'ik hetgeen doe dat ik niet wil' met gefronteerd object 'hetgeen'. Opaak voor moderne lezer; modern: 'als ik doe wat ik niet wil'.",
+      "proposed_fix": "En indien ik doe wat ik niet wil, ... zo stem ik de wet toe dat zij goed is.",
+      "location": "hoofdtekst",
+      "status": "open"
+    },
+    {
+      "id": "META-ROM-7-20-001",
+      "verse": 20,
+      "chapter": 7,
+      "category": "latinaat-window",
+      "severity": "soft",
+      "quote_modernized": "Indien ik hetgeen doe dat ik niet wil, zo doe ik nu datzelfde niet meer, maar de zonde die in mij woont.",
+      "hsv_quote": "Als ik nu dat doe wat ik niet wil, breng ík dat niet meer teweeg, maar de zonde die in mij woont.",
+      "rule_reference": "MODERNISATIE.md §2.3b",
+      "explanation": "Zelfde gefronteerde-object-constructie als 7:16; 'ik hetgeen doe dat'. Modern: 'als ik doe wat ik niet wil'.",
+      "proposed_fix": "Indien ik doe wat ik niet wil, zo doe ik nu datzelfde niet meer, maar de zonde die in mij woont.",
+      "location": "hoofdtekst",
+      "status": "open"
+    },
+    {
+      "id": "META-ROM-10-10-001",
+      "verse": 10,
+      "chapter": 10,
+      "category": "carryover",
+      "severity": "soft",
+      "quote_modernized": "gelooft men ter gerechtigheid, en met de mond ... belijdt men ter zaligheid.",
+      "hsv_quote": "Want met het hart gelooft men tot gerechtigheid en met de mond belijdt men tot zaligheid.",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "Archaïsche datief 'ter gerechtigheid'/'ter zaligheid' = 'tot/leidend tot'. 'ter' + abstract resultaatsnomen is opaak in modern NL; productiviteitstest faalt (geen 'ter gerechtigheid'-idioom).",
+      "proposed_fix": "gelooft men tot gerechtigheid, en ... belijdt men tot zaligheid.",
+      "location": "hoofdtekst",
+      "status": "open"
+    },
+    {
+      "id": "META-ROM-9-21-001",
+      "verse": 21,
+      "chapter": 9,
+      "category": "carryover",
+      "severity": "soft",
+      "quote_modernized": "het ene, een vat ter ere, en het andere ter oneer?",
+      "hsv_quote": "het ene voorwerp tot een eervol, het andere tot een oneervol gebruik?",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'ter ere'/'ter oneer' als doel-datief. 'ter oneer' kent geen modern idioom; kanttekening glosseert al ('tot eerlijk/verachtelijk gebruik'). Soft: betekenis afleidbaar uit context+kanttekening.",
+      "proposed_fix": "het ene een vat tot eer, en het andere tot oneer?",
+      "location": "hoofdtekst",
+      "status": "open"
+    },
+    {
+      "id": "META-ROM-3-12-001",
+      "verse": 12,
+      "chapter": 3,
+      "category": "carryover",
+      "severity": "soft",
+      "quote_modernized": "er is niemand die goed doet, er is [ook] niet tot één toe.",
+      "hsv_quote": "Er is niemand die goeddoet, er is er zelfs niet één.",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'niet tot één toe' = 'zelfs niet één'. Stilted/archaïsch; 'tot ... toe' werkt modern wel ('tot de laatste man toe') maar niet bij telwoord 'één' in deze ontkenning. Soft.",
+      "proposed_fix": "er is niemand die goed doet, er is er [ook] niet één.",
+      "location": "hoofdtekst",
+      "status": "open"
+    }
+  ]
+}
