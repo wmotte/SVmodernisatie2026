@@ -1,0 +1,105 @@
+{
+  "book": "ROM",
+  "chapter": 14,
+  "reviewed_at": "2026-05-25T09:16:08+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-25T09:12:51+00:00",
+      "mode": "scan",
+      "issues_total": 23
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-25T09:16:08+00:00",
+      "mode": "scan",
+      "issues_total": 6
+    }
+  ],
+  "issues": [
+    {
+      "category": "genitief pronomen wiens/wier",
+      "verse": 7,
+      "severity": "hard",
+      "quote_modernized": "…n ander, namelijk de Heere, staat; naar wiens bevel en tot wiens dienst hij zijn…",
+      "rule_reference": "ARCHAISMEN.md (SV-pronomina)",
+      "explanation": "'wiens bevel' — formeel-archaïsch genitief-pronomen. Modern Nederlands: 'van wie bevel' of zinsherbouw met bezittelijk voornaamwoord ('die zijn bevel', 'die haar bevel'). NBV21 vermijdt 'wiens' grotendeels.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "ROM-14-7-001",
+      "status": "rebutted",
+      "rebuttal": "'wiens' is een productief genitief-betrekkelijk voornaamwoord in modern verzorgd Nederlands (Van Dale, ANS: 'de man wiens werk bekend is'), geen SV-fossiel als der/des/den. Hier verwijst het terug naar antecedent 'de Heere' (mannelijk enkelvoud); 'naar wiens bevel' is de correcte moderne vorm. Projectbreed consistent (60 bestanden, o.a. ROM 2:29/5:12/6:3/10:15/11:36). §2.7-productiviteitstest geslaagd."
+    },
+    {
+      "category": "genitief pronomen wiens/wier",
+      "verse": 7,
+      "severity": "hard",
+      "quote_modernized": "…e Heere, staat; naar wiens bevel en tot wiens dienst hij zijn leven moet richten…",
+      "rule_reference": "ARCHAISMEN.md (SV-pronomina)",
+      "explanation": "'wiens dienst' — formeel-archaïsch genitief-pronomen. Modern Nederlands: 'van wie dienst' of zinsherbouw met bezittelijk voornaamwoord ('die zijn dienst', 'die haar dienst'). NBV21 vermijdt 'wiens' grotendeels.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "ROM-14-7-002",
+      "status": "rebutted",
+      "rebuttal": "'wiens' in 'tot wiens dienst' is hetzelfde productieve genitief-relativum (Van Dale, ANS), terugverwijzend naar antecedent 'de Heere'; modern verzorgd NL, geen archaïsme. Onderscheidt zich van 7-001 doordat het de tweede coördinatie (dienst, niet bevel) betreft binnen dezelfde betrekkelijke bijzin. §2.7-test geslaagd; corpusbreed gehandhaafd."
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 15,
+      "severity": "soft",
+      "quote_modernized": "Maar indien   uw broeder   vanwege de spijs  …",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "ROM-14-15-001",
+      "status": "rebutted",
+      "rebuttal": "'indien' is productief modern formeel Nederlands (§2.7-productiviteitstest geslaagd: actief in juridische/formele registers, geen verwarringsrisico). Conditioneel voegwoord concordant met v20 in dit hoofdstuk; projectbreed consistent (ROM 1-13). Geen drempel-archaïsme."
+    },
+    {
+      "category": "§2.3b bijwoord-coda",
+      "verse": 18,
+      "severity": "soft",
+      "quote_modernized": "…istus   in deze dingen   dient, is Gode welbehaaglijk, en   aangenaam   voor de …",
+      "rule_reference": "MODERNISATIE.md §2.3b",
+      "explanation": "'welbehaaglijk,' aan zinseind — verifieer of dit bijwoord niet als coda achteraf is blijven hangen ('wandelende … onberispelick' → 'wandelden onberispelijk in …').",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "ROM-14-18-001",
+      "status": "rebutted",
+      "rebuttal": "Geen overtreding: 'Gode welbehaaglijk, en aangenaam voor de mensen' — 'welbehaaglijk' is hier naamwoordelijk deel van het gezegde (predicaatsadjectief bij copula 'is'), geen adverbiale coda in de zin van §2.3b. De §2.3b-coda viseert bijwoorden op -lijk aan zinseinde; hier is het een bijvoeglijk naamwoord bij 'is', concordant met SV 'is Gode welbehagelick'. Grieks εὐάρεστος = welgevallig (predicatief)."
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 23,
+      "severity": "soft",
+      "quote_modernized": "Maar   die twijfelt,   indien hij eet,   is veroordeeld, omdat …",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "ROM-14-23-001",
+      "status": "rebutted",
+      "rebuttal": "'indien' is productief modern formeel Nederlands (§2.7-productiviteitstest geslaagd: actief in juridische/formele registers, geen verwarringsrisico). Conditioneel voegwoord concordant met v20 in dit hoofdstuk; projectbreed consistent (ROM 1-13). Geen drempel-archaïsme."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 7,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'hemselv' in 4 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 4 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        7,
+        12,
+        14,
+        22
+      ],
+      "id": "ROM-14-7-003",
+      "status": "rebutted",
+      "rebuttal": "Geen overtreding: de scanner-prefixheuristiek mist dat de SV-stam 'hemselv'/'sichselv' (ἑαυτῷ/ἑαυτοῦ) in dit hoofdstuk consequent met 'voor zichzelf' (v7,8) resp. 'zichzelf' (v22) wordt weergegeven — concordant en correct. De drift-melding is een false-positive: er is geen divergente woordkeuze, alleen orthografische variatie in de SV-bron."
+    }
+  ]
+}
