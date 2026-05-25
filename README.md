@@ -11,8 +11,15 @@ Voorbeeld-PDF's van de parallelbijbel:
 
 - [Lucas](parallelbijbel/LUK_voorbeeld.pdf)
 - [Markus](parallelbijbel/MRK_voorbeeld.pdf)
-- [Filemon](parallelbijbel/PHM_voorbeeld.pdf)
 - [Romeinen](parallelbijbel/ROM_voorbeeld.pdf)
+- [1 Korinthiërs](parallelbijbel/1CO_voorbeeld.pdf)
+- [2 Korinthiërs](parallelbijbel/2CO_voorbeeld.pdf)
+- [Filemon](parallelbijbel/PHM_voorbeeld.pdf)
+- [1 Petrus](parallelbijbel/1PE_voorbeeld.pdf)
+- [1 Johannes](parallelbijbel/1JN_voorbeeld.pdf)
+- [2 Johannes](parallelbijbel/2JN_voorbeeld.pdf)
+- [3 Johannes](parallelbijbel/3JN_voorbeeld.pdf)
+- [Judas](parallelbijbel/JUD_voorbeeld.pdf)
 
 ---
 
