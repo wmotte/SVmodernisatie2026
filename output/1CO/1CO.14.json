@@ -331,6 +331,47 @@
       "generated_at": "2026-05-25T14:24:37.363122Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 37,
+      "original": "Indien yemant <D. met de gave van propheteeren begaeft is in der daet, ofte sulcks hem laet voorstaen, ende voor soodanigh hem uytgeeft.> meynt een Propheet te zijn, ofte <Dat is, begaeft met eenige extra-ordinarise gave des Heyligen Geests. Of, overvloedelick in de Christelicke leere geoeffent, 1.Cor. 2.15. ende 3.1. Galat. 6.1.> geestelick, die <D. die sal moeten ofte behooren te erkennen: namelick, indien hy soodanigh is, als hy hem uytgeeft.> erkenne dat het gene ick u schrijve <Namelick, Iesu Christi, die als onse Heere macht heeft om ons te gebieden, ende dien wy sijne dienstknechten schuldigh zijn te gehoorsamen.> des Heeren geboden zijn:",
+      "modernized": "Indien iemand <Dat is, met de gave van profeteren werkelijk begaafd is, of zulks zich laat voorstaan, en voor zodanig zich uitgeeft.> meent een Profeet te zijn, of <Dat is, begaafd met enige buitengewone gave van de Heilige Geest. Of, overvloedig in de Christelijke leer geoefend, $1Kor. 2:15; 3:1; Gl. 6:1$.> geestelijk, die <Dat is, die zal moeten of behoren te erkennen: namelijk, indien hij zodanig is, als hij zich uitgeeft.> erkenne dat hetgeen ik u schrijf <Namelijk, Jezus Christus, die als onze Heere macht heeft om ons te gebieden, en die wij als zijn dienstknechten schuldig zijn te gehoorzamen.> geboden van de Heere zijn:",
+      "source_text": "Εἴ τις δοκεῖ προφήτης εἶναι ἢ πνευματικός, ἐπιγινωσκέτω ἃ γράφω ὑμῖν, ὅτι τοῦ Κυρίου εἰσὶν ἐντολαί.",
+      "generated_at": "2026-05-25T14:28:01.882000Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 38,
+      "original": "Maer soo yemant <D. moetwilligh het selve niet en wil weten of erkennen.> onwetende is, <D. alsoo hy moetwillighlick in sijne onwetenheyt wil blijven, ende hem door mijn schrijven niet laten onderrichten, die mach sulcks doen op sijn eygen perijckel: ick en wil my der sulcker niet bemoeijen, alsoo ick het mijne hebbe gedaen om haer uyt die onwetenheyt te brengen. Siet dergelijcke maniere van spreken Apocal. 22.11.> die zy onwetende.",
+      "modernized": "Maar zo iemand <Dat is, moedwillig dit niet wil weten of erkennen.> onwetend is, <Dat is, zoals hij moedwillig in zijn onwetendheid wil blijven, en zich door mijn schrijven niet laat onderrichten, die mag zulks doen op zijn eigen risico; ik wil mij met dezulken niet bemoeien, aangezien ik het mijne heb gedaan om hen uit die onwetendheid te brengen. Zie dergelijke manier van spreken $Op. 22:11$.> die zij onwetend.",
+      "source_text": "εἰ δέ τις ἀγνοεῖ, ἀγνοείτω.",
+      "generated_at": "2026-05-25T14:29:26.154376Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "onwetend (predicaatsadjectief, geen participium)",
+          "context": "slot van het vers, 'die zij onwetend'",
+          "choice": "onwetend behouden",
+          "alternatives": [
+            "onwetend",
+            "onkundig",
+            "onwetende"
+          ],
+          "reason": "De validator markeert -end als 2.3-participium, maar dit is het predicaatsadjectief onwetend (cognaat van onwetendheid) bij elliptisch zijn (Gr. agnoeito, jussief 'laat hem onwetend zijn'), niet een adverbiaal participium. Bron herhaalt onwetend in hoofdzin en slot; ontvouwen naar een werkwoordsconstructie zou hervertaling zijn. Regex-flag overruled."
+        }
+      ]
+    },
+    {
+      "verse_number": 39,
+      "original": "Soo dan, broeders, yvert om te propheteeren, ende <D. hoewel ick achte dat het propheteeren meer stichtinge voort brenght in de gemeynte, als met vreemde talen te spreken, soo en wil ick daer mede het gebruyck van vreemde talen niet teenemael verworpen ofte verhindert hebben, als het maer behoorlick geschiede ende met uytlegginge.> en verhindert niet in [vreemde] talen te spreken.",
+      "modernized": "Zo dan, broeders, ijver om te profeteren, en <Dat is, hoewel ik acht dat het profeteren meer stichting voortbrengt in de gemeente dan met vreemde talen te spreken, zo wil ik daarmee het gebruik van vreemde talen niet geheel verworpen of verhinderd hebben, als het maar behoorlijk geschiedt en met uitlegging.> verhinder niet in [vreemde] talen te spreken.",
+      "source_text": "Ὥστε, ἀδελφοί, ζηλοῦτε τὸ προφητεύειν, καὶ τὸ λαλεῖν γλώσσαις μὴ κωλύετε.",
+      "generated_at": "2026-05-25T14:28:59.737537Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
