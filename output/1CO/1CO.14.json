@@ -372,6 +372,29 @@
       "generated_at": "2026-05-25T14:28:59.737537Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 40,
+      "original": "Laet <Die te doen zijn in de vergaderingen der gemeynte, als daer zijn propheteeren, ofte het woort Godts prediken, de gemeene gebeden ende danckseggingen doen, de Sacramenten bedienen, ende dergelijcke.> alle dingen <Ofte, geschicktelick: soo dat het een goede gedaente hebbe, die betaemlick is der Christelicke eerbaerheyt ende eenvoudigheyt.> eerlick ende <D. sonder verwerringe, elck op sijnen behoorlicken tijt, beurte, plaetse, etc.> met orden geschieden.",
+      "modernized": "Laat <Wat te doen is in de samenkomsten van de gemeente, zoals daar zijn: profeteren, of het woord van God prediken, de gemeenschappelijke gebeden en dankzeggingen doen, de Sacramenten bedienen, en dergelijke.> alle dingen <Of, gepast: zodat het een goede gedaante heeft, die betamelijk is voor de Christelijke eerbaarheid en eenvoud.> eerbaar en <Dat is, zonder verwarring, elk op zijn behoorlijke tijd, beurt, plaats, enzovoort.> met orde gebeuren.",
+      "source_text": "πάντα εὐσχημόνως καὶ κατὰ τάξιν γινέσθω.",
+      "generated_at": "2026-05-25T14:32:59.838964Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "eerlick",
+          "context": "hoofdtekst",
+          "choice": "eerbaar",
+          "alternatives": [
+            "eerlijk",
+            "gepast",
+            "betamelijk"
+          ],
+          "reason": "Gr. euschemonos = betamelijk/welvoeglijk; SV eerlick is hier false friend voor modern eerlijk (waarheidsgetrouw). De eigen kanttekening geeft geschicktelick/betamelick; eerbaar dekt de welvoeglijkheidsbetekenis en sluit aan bij eerbaerheyt in de tweede kanttekening."
+        }
+      ]
     }
   ]
 }
