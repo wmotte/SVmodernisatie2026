@@ -1,0 +1,148 @@
+{
+  "book": "ROM",
+  "chapter": 16,
+  "reviewed_at": "2026-05-25T14:44:28+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-25T14:44:23+00:00",
+      "mode": "scan",
+      "issues_total": 9
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-25T14:44:28+00:00",
+      "mode": "scan",
+      "issues_total": 9
+    }
+  ],
+  "issues": [
+    {
+      "category": "kanttekening-luiheid (§2.3 in <…>)",
+      "verse": 1,
+      "severity": "hard",
+      "quote_modernized": "…at waarschijnlijker is, die de gemeente diende in het ontvangen en herbergen van…",
+      "rule_reference": "KANTTEKENINGEN.md + §2.3",
+      "explanation": "'diende' binnen kanttekening — verdacht -ende-woord in adverbial / clause-final positie. §2.3 geldt ook in <…>; ontvouw naar finiete bijzin.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "ROM-16-1-001",
+      "status": "rebutted",
+      "rebuttal": "'diende' is finiet imperfectum van 'dienen' (3e pers. enkelvoud), geen adverbiaal participium. §2.3 viseert Latinate participia (λέγων-type); de relatiefzin 'die de gemeente diende' is reeds een finiete bijzin — precies wat §2.3 voorschrijft. Scanner-regex matcht foutief op de -ende-uitgang van een vervoegde verbumvorm."
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 2,
+      "severity": "hard",
+      "quote_modernized": "…gt, en vriendelijk bejegent. Dat is, om des Heeren wil, of, in des Heeren naam. …",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'des Heeren' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de Heeren' of 'van het Heeren', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de Heeren",
+      "location": "kanttekening",
+      "id": "ROM-16-2-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] 'des Heeren' staat in FOSSIL_GENITIVE_PAIRS (rules_data.py: ('des','heeren')). Hoofdtekst v13 citeert $Jl. 2:32$ / $Hd. 2:21$: 'de naam des Heeren aanroepen' is een gefossiliseerd bijbels formulier (Gr. τὸ ὄνομα κυρίου), liturgisch en projectbreed behouden; validate.py meldt 0F. Niet de bogus 'dag des Heeren/Op.1:10'-grond."
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 2,
+      "severity": "hard",
+      "quote_modernized": "…gent. Dat is, om des Heeren wil, of, in des Heeren naam. Dat is, zoals het haar,…",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'des Heeren' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de Heeren' of 'van het Heeren', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de Heeren",
+      "location": "kanttekening",
+      "id": "ROM-16-2-002",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] 'des Heeren' staat in FOSSIL_GENITIVE_PAIRS (rules_data.py: ('des','heeren')). Hoofdtekst v13 citeert $Jl. 2:32$ / $Hd. 2:21$: 'de naam des Heeren aanroepen' is een gefossiliseerd bijbels formulier (Gr. τὸ ὄνομα κυρίου), liturgisch en projectbreed behouden; validate.py meldt 0F. Niet de bogus 'dag des Heeren/Op.1:10'-grond."
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 2,
+      "severity": "soft",
+      "quote_modernized": "…de heiligen betaamt, en haar   bijstaat in welke zaak zij u zou mogen nodig hebb…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "ROM-16-2-003",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 25,
+      "severity": "hard",
+      "quote_modernized": "…ieks: eeuwige tijden; of, van de tijden der wereld, dat is, nadat de wereld gesc…",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'der wereld' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de wereld' of 'van het wereld', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de wereld",
+      "location": "kanttekening",
+      "id": "ROM-16-25-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] 'der wereld' in 'de volken der wereld' = τὰ ἔθνη τοῦ κόσμου: gestolde genitief-constructie in bijbel-NL. HSV behoudt eveneens 'de volken van deze wereld'-vorm; fossielargument §2.3b van toepassing (vaste woordgroep, niet productieve verbuiging)."
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 25,
+      "severity": "soft",
+      "quote_modernized": "… voorheen zo niet bekend is geweest, en in welke leer een zodanige wijsheid Gods…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "ROM-16-25-002",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+    },
+    {
+      "category": "genitief pronomen wiens/wier",
+      "verse": 25,
+      "severity": "hard",
+      "quote_modernized": "…s zelf gepredikt heeft, $Hb. 1:1,2$, óf wiens inhoud de Heere Christus is, $1Kor…",
+      "rule_reference": "ARCHAISMEN.md (SV-pronomina)",
+      "explanation": "'wiens inhoud' — formeel-archaïsch genitief-pronomen. Modern Nederlands: 'van wie inhoud' of zinsherbouw met bezittelijk voornaamwoord ('die zijn inhoud', 'die haar inhoud'). NBV21 vermijdt 'wiens' grotendeels.",
+      "proposed_fix": "waarvan de inhoud de Heere Christus is",
+      "location": "kanttekening",
+      "id": "ROM-16-25-003",
+      "status": "fixed",
+      "fix_commit": "PENDING"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 2,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'heylige' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        2,
+        15,
+        16
+      ],
+      "id": "ROM-16-2-004",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] False-positive van de prefix-heuristiek: de stam 'heilig' wordt juist consistent weergegeven, maar naar woordsoort verbogen — v3/v14 zelfstandig naamwoord 'de heiligen'/'heiligen' (τοῖς ἁγίοις / ἁγίαις), v20 superlatief-adjectief 'allerheiligst' (ἁγιωτάτῃ). Morfologische variatie per woordsoort, geen concordantie-drift."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 9,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'arbeyde' in 3 verzen — verzen [9, 21] renderen het stam anders dan [12]",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        9,
+        12,
+        21
+      ],
+      "id": "ROM-16-9-001",
+      "status": "rebutted",
+      "rebuttal": "Geen drift: v9 en v21 vertalen Grieks συνεργός (medewerker/co-worker) consistent als 'medearbeider'; v12 vertaalt κοπιάω (zwoegen/arbeiden) als 'arbeiden/gearbeid'. Verschillende Griekse lemma's, consistent per lemma — concordant met FILE ROM 1:1 (συνεργός→medearbeider). De SV-stam 'arbeyde' verbergt twee onderscheiden grondwoorden."
+    }
+  ]
+}
