@@ -378,6 +378,45 @@
       "generated_at": "2026-05-25T16:12:46.437603Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 37,
+      "original": "Ende het gene ghy zaeyt, [daer van] en zaeyt ghy het lichaem niet <D. dat voort komen ende wassen sal uyt’et gezaeyde zaet.> dat worden sal, maer <Namelick, dat dorre ende verstorven schijnt te zijn.> een bloot graen, <Dat is, gelijck by exempel.> na het voor valt, van terwe, ofte van eenigh <Ofte, der andere zaden.> der andere [granen.]",
+      "modernized": "En hetgeen u zaait, [daarvan] zaait u het lichaam niet <Dat is, dat voort zal komen en zal opwassen uit het gezaaide zaad.> dat worden zal, maar <Namelijk, dat dor en verstorven schijnt te zijn.> een bloot graan, <Dat is, bijvoorbeeld.> al naar het valt, van tarwe, of van enig <Of, van de andere zaden.> van de andere [granen.]",
+      "source_text": "καὶ ὃ σπείρεις, οὐ τὸ σῶμα τὸ γενησόμενον σπείρεις, ἀλλὰ γυμνὸν κόκκον, εἰ τύχοι, σίτου ἤ τινος τῶν λοιπῶν·",
+      "generated_at": "2026-05-25T20:23:46.132648Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "eenigh der andere [granen] -> van enig van de andere [granen]",
+          "context": "hoofdtekst, Gr. tinos ton loipon",
+          "choice": "van enig van de andere [granen] (formele equivalentie SV 'eenigh ... der andere')",
+          "alternatives": [
+            "van enig ander van de [granen]"
+          ],
+          "reason": "semantic-review-correctie: oude vorm 'enig ander van de' was grammaticaal verhaspeld (ingevoegd 'ander', weggevallen 'der andere'); HSV-spiegel bevestigt 'van een van de andere'"
+        }
+      ]
+    },
+    {
+      "verse_number": 38,
+      "original": "Maer <Dat is, hoewel Godt in de eerste scheppinge de aerde kracht gegeven heeft om kruyden, granen, ende vruchten voort te brengen, soo is het nochtans dat hy selve door sijne almachtigheyt soodanige gewassen oock dagelicks voort brenght, na sijn believen, Psalm 104.13, 14, etc. 1.Cor. 3.7.> Godt geeft het selve een lichaem, gelijck hy wil, ende een yegelick zaet <D. van deselve soorte zijnde daer het zaet van is, uyt welck het voort komt.> sijn eygen lichaem.",
+      "modernized": "Maar <Dat is, hoewel God in de eerste schepping de aarde kracht gegeven heeft om kruiden, granen en vruchten voort te brengen, zo is het toch zo dat hij zelf door zijn almacht zulke gewassen ook dagelijks voortbrengt, naar zijn believen, $Ps. 104:13,14$, etc. $1Kor. 3:7$.> God geeft het een lichaam, zoals hij wil, en ieder zaad <Dat is, dat van dezelfde soort is als die waarvan het zaad is, waaruit het voortkomt.> zijn eigen lichaam.",
+      "source_text": "ὁ δὲ Θεὸς αὐτῷ δίδωσι σῶμα καθὼς ἠθέλησε, καὶ ἑκάστῳ τῶν σπερμάτων τὸ ἴδιον σῶμα.",
+      "generated_at": "2026-05-25T20:24:30.788989Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 39,
+      "original": "<Dewijle tegen geworpen soude konnen worden, na de mael het vleesch van andere dieren niet opgeweckt en wort, dat alsoo ’t vleesch der menschen oock niet en sal opgeweckt worden, aengesien het eenerley schijnt te zijn, soo antwoort d’Apostel datter onderscheyt is tusschen ’t vleesch der menschen ende van andere dieren. De reden en wort niet uytgedruckt, maer is dese de voornaemste, om dat het vleesch der menschen van een redelicke ende onsterflicke ziele is levendigh gemaeckt geweest, ende ’t lichaem der andere dieren, van een onredelicke ziele, die met het vleesch sterft ende vergaet: ende oock om dat Godt aen de redelicke menschen, niet aen de onredelicke dieren, sijne genade ende rechtveerdigheyt, na lichaem ende ziele, eeuwelick wil betoonen.> Alle vleesch en is niet <D. van eenerley conditie: alsoo dattet met het een vleesch soude moeten gaen gelijck met het ander.> het selve vleesch: maer een ander is het vleesch der menschen, ende een ander is het vleesch der beesten, ende een ander der visschen, ende een ander der vogelen.",
+      "modernized": "<Aangezien tegengeworpen zou kunnen worden, aangezien het vlees van andere dieren niet opgewekt wordt, dat zo ook het vlees van de mensen niet opgewekt zal worden, gezien het hetzelfde schijnt te zijn, zo antwoordt de Apostel dat er onderscheid is tussen het vlees van de mensen en van andere dieren. De reden wordt niet uitgedrukt, maar deze is de voornaamste: omdat het vlees van de mensen door een redelijke en onsterfelijke ziel levend gemaakt is geweest, en het lichaam van de andere dieren door een onredelijke ziel, die met het vlees sterft en vergaat; en ook omdat God aan de redelijke mensen, niet aan de onredelijke dieren, zijn genade en gerechtigheid, naar lichaam en ziel, eeuwig wil betonen.> Alle vlees is niet <Dat is, van dezelfde gesteldheid, zodat het met het ene vlees zou moeten gaan zoals met het andere.> hetzelfde vlees, maar een ander is het vlees van de mensen, en een ander is het vlees van de beesten, en een ander dat van de vissen, en een ander dat van de vogels.",
+      "source_text": "οὐ πᾶσα σὰρξ ἡ αὐτὴ σάρξ· ἀλλὰ ἄλλη μὲν σὰρξ ἀνθρώπων, ἄλλη δὲ σὰρξ κτηνῶν, ἄλλη δὲ ἰχθύων, ἄλλη δὲ πτηνῶν.",
+      "generated_at": "2026-05-25T20:25:01.111994Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
