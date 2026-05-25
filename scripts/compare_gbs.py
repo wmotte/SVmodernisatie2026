@@ -37,20 +37,24 @@ def extract_annotations(text: str) -> list[str]:
 
 
 def extract_verwijzingen(text: str) -> list[str]:
-    """Haal inline $…$-bijbelverwijzingen op volgorde uit een SV2026-tekst."""
+    """Haal inline $…$-bijbelverwijzingen buiten kanttekeningen uit SV2026."""
     if not text:
         return []
-    return [m.strip() for m in re.findall(r"\$([^$]*)\$", text)]
+    hoofdtekst = re.sub(r"<[^<>]*>", "", text)
+    return [m.strip() for m in re.findall(r"\$([^$]*)\$", hoofdtekst)]
 
 
 def pair_kanttekeningen(gbs_notes: list[dict], sv2026_text: str) -> list[dict]:
     """Koppel GBS-noten aan SV2026-markers, gescheiden per soort.
 
     GBS-noten met een cijfer-label (kind 'kanttekening') koppelen aan de inline
-    <…>-annotaties; letter-labels (kind 'verwijzing') aan de $…$-verwijzingen.
-    Beide stromen lopen op volgorde. Niet-gekoppelde markers verschijnen los.
+    <…>-annotaties; letter-labels (kind 'verwijzing') aan de $…$-verwijzingen
+    buiten kanttekeningen. Beide stromen lopen op volgorde. Niet-gekoppelde
+    markers verschijnen los.
     """
     sv_kant = extract_annotations(sv2026_text)
+    # Alleen tekstverwijzingen in de hoofdtekst zijn eigen markers. Verwijzingen
+    # binnen <kanttekeningen> horen bij die kanttekening en blijven daar staan.
     sv_verw = extract_verwijzingen(sv2026_text)
     ik = iv = 0
     pairs: list[dict] = []
