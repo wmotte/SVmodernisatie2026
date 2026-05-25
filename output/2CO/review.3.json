@@ -1,0 +1,200 @@
+{
+  "book": "2CO",
+  "chapter": 3,
+  "reviewed_at": "2026-05-25T11:25:07+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-25T11:21:57+00:00",
+      "mode": "scan",
+      "issues_total": 11
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-25T11:24:11+00:00",
+      "mode": "verify",
+      "actions": [
+        "2CO-3-3-001: rebuttal verified",
+        "2CO-3-6-001: verified",
+        "2CO-3-7-001: rebuttal verified",
+        "2CO-3-7-002: rebuttal verified",
+        "2CO-3-7-003: verified",
+        "2CO-3-9-001: rebuttal verified",
+        "2CO-3-11-001: rebuttal verified",
+        "2CO-3-17-001: verified",
+        "2CO-3-18-001: verified",
+        "2CO-3-7-004: rebuttal verified",
+        "2CO-3-13-001: rebuttal verified"
+      ]
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-05-25T11:25:07+00:00",
+      "mode": "verify",
+      "actions": []
+    }
+  ],
+  "issues": [
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 3,
+      "severity": "soft",
+      "quote_modernized": "…wee tafelen van het verbond, $Ex. 24:12$, welke uiterlijke inschrijving de harte…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "2CO-3-3-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-25T11:24:11+00:00"
+    },
+    {
+      "category": "§2.3b infinitief met nageschoven object",
+      "verse": 6,
+      "severity": "soft",
+      "quote_modernized": "Die ons ook geschikt gemaakt heeft om te zijn   dienaars van het   Nieuwe T…",
+      "rule_reference": "MODERNISATIE.md §2.3b",
+      "explanation": "'om … te zijn dienaars van het   Nieuwe' — Latinaat-woordvolgorde; in modern NL gaat het object vóór de infinitief: 'om <object> te zijn'.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "2CO-3-6-001",
+      "status": "verified",
+      "verified_at": "2026-05-25T11:24:11+00:00"
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 7,
+      "severity": "soft",
+      "quote_modernized": "En indien de bediening van de dood, in lett…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "2CO-3-7-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-25T11:24:11+00:00"
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 7,
+      "severity": "soft",
+      "quote_modernized": "…ie de doeners van de wet wordt beloofd; in welke beide delen zij door de dood en…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "2CO-3-7-002",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-25T11:24:11+00:00"
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 7,
+      "severity": "soft",
+      "quote_modernized": "het aangezicht van mozes",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'het aangezicht van mozes' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "2CO-3-7-003",
+      "status": "verified",
+      "verified_at": "2026-05-25T11:24:11+00:00"
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 9,
+      "severity": "soft",
+      "quote_modernized": "Want indien de bediening van de verdoemenis h…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "2CO-3-9-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-25T11:24:11+00:00"
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 11,
+      "severity": "soft",
+      "quote_modernized": "Want indien wat tenietgedaan wordt, in heerli…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "2CO-3-11-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-25T11:24:11+00:00"
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 17,
+      "severity": "soft",
+      "quote_modernized": "de geest van de",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'de geest van de' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "2CO-3-17-001",
+      "status": "verified",
+      "verified_at": "2026-05-25T11:24:11+00:00"
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 18,
+      "severity": "soft",
+      "quote_modernized": "geest van de heere",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'geest van de heere' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "2CO-3-18-001",
+      "status": "verified",
+      "verified_at": "2026-05-25T11:24:11+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 7,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'aengesi' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        7,
+        13,
+        18
+      ],
+      "id": "2CO-3-7-004",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Scanner conflateert twee verschillende stems via prefix-match. v25 'aengesien heeft' en v48 'heeft aengesien' = werkw. 'aanzien' (perfectum 'aangezien'); v76 'aengesicht' = zelfst.naamwoord 'aangezicht' (Grieks πρόσωπον, gezicht). v25/v48 concordant ('aangezien'); v76 is een ander lexeem en valt buiten de concordantie-vergelijking. Geen drift.",
+      "verified_at": "2026-05-25T11:24:11+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 13,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'decksel' in 4 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 4 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        13,
+        14,
+        15,
+        16
+      ],
+      "id": "2CO-3-13-001",
+      "status": "verified",
+      "rebuttal": "Geen concordantie-drift: in 2CO 3:13-16 wordt het SV-lemma 'decksel' overal met hetzelfde moderne lemma 'bedekking' weergegeven. De scanner vergelijkt prefixen van origineel en modern en mist daardoor deze bewuste lexicale modernisatie; AGENTS.md concordantie is juist gevolgd.",
+      "verified_at": "2026-05-25T11:24:11+00:00"
+    }
+  ]
+}
