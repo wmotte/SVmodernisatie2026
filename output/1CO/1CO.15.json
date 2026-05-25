@@ -339,6 +339,45 @@
       "generated_at": "2026-05-25T15:40:37.607269Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 34,
+      "original": "<Namelick, uyt den slaep der sorgeloosheyt.> Waeckt op <Dat is, waerlick, ernstelick. Ofte, om rechtveerdelick te wandelen.> rechtveerdelick, ende <Dat is, wacht u dat ghy niet en vervalt in de grouwelicke sonde van Epicuristerije ende sorgeloosheyt.> en sondight niet. Want <Namelick, van uwe gemeynte: gelijck vers 12.> sommige en hebben <Namelick, de rechte kennisse: hoedanige zijn de gene, die de opstandinge der dooden loochenen.> de kennisse Godts niet. Ick segge het u <Dat is, op dat ghy u meught schamen datter onder u zijn die sulcke grove ende schadelicke dwalingen volgen: ende daer door te beter bewogen worden om sulcke dwalingen te vlieden.> tot schaemte.",
+      "modernized": "<Namelijk, uit de slaap van de zorgeloosheid.> Waakt op <Dat is, waarlijk, ernstig. Of, om rechtvaardig te wandelen.> rechtvaardig, en <Dat is, wacht u dat u niet vervalt in de gruwelijke zonde van Epicurisme en zorgeloosheid.> zondigt niet. Want <Namelijk, van uw gemeente, gelijk vers 12.> sommigen hebben <Namelijk, de rechte kennis: zodanig zijn degenen die de opstanding van de doden loochenen.> de kennis van God niet. Ik zeg het u <Dat is, opdat u zich moogt schamen dat er onder u zijn die zulke grove en schadelijke dwalingen volgen, en daardoor des te beter bewogen worden om zulke dwalingen te ontvluchten.> tot schaamte.",
+      "source_text": "ἐκνήψατε δικαίως, καὶ μὴ ἁμαρτάνετε· ἀγνωσίαν γὰρ Θεοῦ τινὲς ἔχουσι· πρὸς ἐντροπὴν ὑμῖν λέγω.",
+      "generated_at": "2026-05-25T15:43:41.953288Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 35,
+      "original": "Maer, sal <Namelick, van die Epicuristen.> yemant <Dat is, hier tegen werpen.> seggen, $Ezech. 37.3.$ <Gr. Hoe worden de doode opgeweckt, D. hoe is’t mogelick dat de doode, welcker lichamen vergaen, verrot, van de beesten gegeten, of met vyer verbrant zijn, etc. weder souden levendigh worden?> Hoe sullen de doode opgeweckt worden? Ende <Dese vrage wort beantwoort vers 37, etc.> met hoedanigh een lichaem sullen sy komen?",
+      "modernized": "Maar, zal <Namelijk, van die Epicuristen.> iemand <Dat is, hiertegen werpen.> zeggen, $Ez. 37:3$ <Grieks: Hoe worden de doden opgewekt? Dat is, hoe is het mogelijk dat de doden, van wie de lichamen vergaan, verrotten, door de beesten gegeten of met vuur verbrand zijn, enz., weer levend zouden worden?> Hoe zullen de doden opgewekt worden? En <Deze vraag wordt beantwoord in vers 37 enz.> met wat voor een lichaam zullen zij komen?",
+      "source_text": "Ἀλλ’ ἐρεῖ τις, Πῶς ἐγείρονται οἱ νεκροί; ποίῳ δὲ σώματι ἔρχονται;",
+      "generated_at": "2026-05-25T15:44:19.251902Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "hoedanig",
+          "context": "hoofdtekst, slot",
+          "choice": "met wat voor een lichaam",
+          "alternatives": [
+            "met hoedanig een lichaam"
+          ],
+          "reason": "hoedanig is een drempel-archaisme (MODERNISATIE.md 2.7); Gr. poioi somati = wat voor lichaam; gemoderniseerd naar productief modern NL zonder zinsbouw te wijzigen"
+        }
+      ]
+    },
+    {
+      "verse_number": 36,
+      "original": "<Dit seght de Apostel niet om te schelden, Matth. 5. vers 22. maer om aen te wijsen haer onverstant in dese sake, Galat. 3.1.> Ghy dwaes, $Ioan. 12.24.$ het gene ghy zaeyt <Gr. en wort niet levendigh gemaeckt, D. wast niet op, en brenght geen vruchten voort: want oock het gewas der aerden sijn leven heeft.> en wort niet levendigh, ’t en zy dattet <D. verrotte in de aerde. Soo ’t dan niet onmogelick en is, dat een verrot zaet ofte graen weder opwast ende groeyt, gelijck wy dagelicks sien op onse ackers, ende in onse tuynen, soo en is het oock niet onmogelick, dat Godt de verrotte lichamen wederom levendigh make.> gestorven zy.",
+      "modernized": "<Dit zegt de Apostel niet om te schelden, $Mt. 5:22$, maar om hun onverstand in deze zaak aan te wijzen, $Gl. 3:1$.> U dwaas, $Jh. 12:24$ hetgeen u zaait <Grieks: wordt niet levend gemaakt. Dat is, wast niet op, en brengt geen vruchten voort: want ook het gewas van de aarde heeft zijn leven.> wordt niet levend, tenzij het <Dat is, verrotte in de aarde. Zo het dan niet onmogelijk is dat een verrot zaad of graan weer opwast en groeit, gelijk wij dagelijks zien op onze akkers en in onze tuinen, zo is het ook niet onmogelijk dat God de verrotte lichamen weer levend maakt.> gestorven is.",
+      "source_text": "ἄφρον, σὺ ὃ σπείρεις, οὐ ζωοποιεῖται, ἐὰν μὴ ἀποθάνῃ·",
+      "generated_at": "2026-05-25T16:12:46.437603Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
