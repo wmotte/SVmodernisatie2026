@@ -34,6 +34,56 @@
       "generated_at": "2026-05-25T14:51:59.489444Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 4,
+      "original": "Ende dat hy is $Psalm 16.10. Iesa. 53.9. Ione 1.17. Matth. 12.40.$ begraven, ende dat hy is $Psalm 16.10. Iesa. 53.8. Matth. 12.40.$ opgeweckt ten derden dage, na de Schriften:",
+      "modernized": "En dat hij is $Ps. 16:10; Js. 53:9; Jn. 1:17; Mt. 12:40$ begraven, en dat hij is $Ps. 16:10; Js. 53:8; Mt. 12:40$ opgewekt op de derde dag, naar de Schriften:",
+      "source_text": "καὶ ὅτι ἐτάφη· καὶ ὅτι ἐγήγερται τῇ τρίτῃ ἡμέρᾳ κατὰ τὰς γραφάς·",
+      "generated_at": "2026-05-25T14:55:24.888222Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 5,
+      "original": "Ende dat hy is van <Dat is, van Petrus. Siet van desen naem Ioan. 1.43. 1.Corinth. 1.12. Galat. cap. 2. vers 9.> Cephas $Luce 24.34. Actor. 10.41.$ gesien, $Ioan. 20.19, etc.$ daer na van <Nam. Apostelen, dewelcke hoewelse doe maer elf en waren, door Iudas uytvallen het getal vermindert zijnde, nochtans den name van dat getal behielden, alsoo het selve korts daer na wederom vervult wiert. Siet Ioan. 20.24. Actor. 1.25.> de twaelve.",
+      "modernized": "En dat hij is door <Dat is, door Petrus. Zie over deze naam $Jh. 1:43; 1Kor. 1:12; Gl. 2:9$.> Kefas $Lk. 24:34; Hd. 10:41$ gezien, $Jh. 20:19$ daarna door <Namelijk, apostelen, die, hoewel zij toen maar elf waren, doordat het getal door het uitvallen van Judas verminderd was, toch de naam van dat getal behielden, omdat het kort daarna weer aangevuld werd. Zie $Jh. 20:24; Hd. 1:25$.> de twaalf.",
+      "source_text": "καὶ ὅτι ὤφθη Κηφᾷ, εἶτα τοῖς δώδεκα·",
+      "generated_at": "2026-05-25T14:56:30.140840Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "eigennaam Cephas → Kefas",
+          "context": "hoofdtekst, SV 'Cephas' (Gr. Κηφᾷ)",
+          "choice": "Kefas (NBV21-eigennaam, concordant met 1PE.1/1CO.1/1CO.4 en HSV-spiegel)",
+          "alternatives": [
+            "Cefas"
+          ],
+          "reason": "concordantie-normalisatie: eigen corpus split Cefas/Kefas; NBV21-autoriteit + meerderheid + HSV-spiegel kiezen Kefas"
+        },
+        {
+          "type": "context",
+          "subject": "verloren ,etc. in bibref",
+          "context": "hoofdtekst, $Jh. 20:19$",
+          "choice": "etc. weggelaten; bibref normaliseert $Ioan. 20.19, etc.$ naar $Jh. 20:19$ en validator weigert , etc. binnen $...$",
+          "alternatives": [
+            "$Jh. 20:19, etc.$ handmatig",
+            "$Jh. 20:19$"
+          ],
+          "reason": "validator-conform formaat gaat voor; etc.-signaal (en volgende) gaat verloren, geen inhoudelijke ref"
+        }
+      ]
+    },
+    {
+      "verse_number": 6,
+      "original": "Daer na is hy gesien <Wanneer dit geschiet zy en wort van de Euangelisten niet beschreven. Sommige meynen dat het geschiet is op den olijfbergh, als hy ten hemel opgevaren is, Luce 24.50. Actor. 1.9. Ander meynen dat dit geschiet zy in Galilea, daer hy vele discipelen hadde. Siet Matth. 28.7.> van meer dan vijf hondert broederen op een mael, van welcke het meerder [deel] <Gr. tot nu toe blijven, Dat is, noch in het leven zijn.> noch overigh is, ende sommige oock zijn <D. gestorven zijn. Siet Psalm 13.4. Dan. 12.2. Matth. 9.24. ende 27.52. Actor. 7.60. 1.Corinth. 7.39. ende 11.30. ende oock hier versen 18, 20, 51.> ontslapen.",
+      "modernized": "Daarna is hij gezien <Wanneer dit geschied is, wordt door de Evangelisten niet beschreven. Sommigen menen dat het geschied is op de Olijfberg, toen hij ten hemel opgevaren is, $Lk. 24:50; Hd. 1:9$. Anderen menen dat dit geschied is in Galilea, waar hij vele discipelen had. Zie $Mt. 28:7$.> door meer dan vijfhonderd broeders tegelijk, van wie het grootste [deel] <Grieks: tot nu toe blijven, dat is, nog in het leven zijn.> nog over is, en sommigen ook zijn <Dat is, gestorven zijn. Zie $Ps. 13:4; Dn. 12:2; Mt. 9:24; 27:52; Hd. 7:60; 1Kor. 7:39; 11:30$; en ook hier $1Kor. 15:18,20,51$.> ontslapen.",
+      "source_text": "ἔπειτα ὤφθη ἐπάνω πεντακοσίοις ἀδελφοῖς ἐφάπαξ, ἐξ ὧν οἱ πλείους μένουσιν ἕως ἄρτι, τινὲς δὲ καὶ ἐκοιμήθησαν·",
+      "generated_at": "2026-05-25T14:57:51.832172Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
