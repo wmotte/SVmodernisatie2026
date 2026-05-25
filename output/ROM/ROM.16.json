@@ -215,9 +215,39 @@
       "generated_at": "2026-05-25T14:28:33.418958Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 22,
+      "original": "Ick Tertius, <Namelick, uyt den mont van Paulus.> die den brief geschreven hebbe, groete u in den Heere.",
+      "modernized": "Ik Tertius, <Namelijk, uit de mond van Paulus.> die de brief geschreven heb, groet u in de Heere.",
+      "source_text": "ἀσπάζομαι ὑμᾶς ἐγὼ Τέρτιος, ὁ γράψας τὴν ἐπιστολήν, ἐν Κυρίῳ.",
+      "generated_at": "2026-05-25T14:31:26.771917Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 23,
+      "original": "U groet <Siet van hem Actor. c. 20. vers 4. 1.Corinth. 1.14.> Gaius mijn ende der geheeler Gemeynte <D. die in sijn huys herberghde den Apostel, ende andere geloovige, die daer niet woonachtigh en waren. Siet vers 1.> huysweert. U groet $Actor. 19.22. 2.Timoth. 4.20.$ Erastus <Ofte, besorger, ontfanger. siet Luce cap. 16. vers 1.> de Rentmeester <Dat is, van Corinthen, van waer de Apostel desen brief geschreven heeft.> der stadt, ende de broeder Quartus.",
+      "modernized": "U groet <Zie van hem $Hd. 20:4; 1Kor. 1:14$.> Gajus, de gastheer van mij en van de gehele Gemeente <Dat is, die in zijn huis de Apostel herbergde, en andere gelovigen, die daar niet woonachtig waren. Zie vers 1.>. U groet $Hd. 19:22; 2Tm. 4:20$ Erastus <Of, verzorger, ontvanger. Zie $Lk. 16:1$.> de Rentmeester <Dat is, van Korinthe, vanwaar de Apostel deze brief geschreven heeft.> van de stad, en de broeder Quartus.",
+      "source_text": "ἀσπάζεται ὑμᾶς Γάϊος ὁ ξένος μου καὶ τῆς ἐκκλησίας ὅλης. ἀσπάζεται ὑμᾶς Ἔραστος ὁ οἰκονόμος τῆς πόλεως, καὶ Κούαρτος ὁ ἀδελφός.",
+      "generated_at": "2026-05-25T14:32:34.351817Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 24,
+      "original": "<Siet vers 20. De Apostel verhaelt desen wensch wederom, om te toonen hoe noodigh deselve is, ende dat desen brief uyt groote toegenegentheyt van hem is geschreven.> De genade onses Heeren Iesu Christi zy met u allen. Amen.",
+      "modernized": "<Zie vers 20. De Apostel herhaalt deze wens, om te tonen hoe nodig die is, en dat deze brief uit grote toegenegenheid van hem geschreven is.> De genade van onze Heere Jezus Christus zij met u allen. Amen.",
+      "source_text": "Ἡ χάρις τοῦ Κυρίου ἡμῶν Ἰησοῦ Χριστοῦ μετὰ πάντων ὑμῶν. ἀμήν.",
+      "generated_at": "2026-05-25T14:32:57.212128Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ],
   "epilogue": {
-    "original": "Dit onderschrift en wort in sommige boecken niet gevonden. Doch hoewel men op soodanige onderschriften niet vast en mach gaen, als van de uytleggers gestelt zijnde, soo blijckt nochtans dat dit met de waerheyt over een komt, als men wel merckt op het gene geseght wort Actor. 20.1, 2. ende 2.Corinth. 12.14. [De sendtbrief] aen den Romeynen [is] geschreven van Corinthen, [gesonden] door Pheben, de dienaresse der gemeynte die te Cenchreen is. Eynde des Sendtbriefs PAULI aen den Romeynen."
+    "original": "Dit onderschrift en wort in sommige boecken niet gevonden. Doch hoewel men op soodanige onderschriften niet vast en mach gaen, als van de uytleggers gestelt zijnde, soo blijckt nochtans dat dit met de waerheyt over een komt, als men wel merckt op het gene geseght wort Actor. 20.1, 2. ende 2.Corinth. 12.14. [De sendtbrief] aen den Romeynen [is] geschreven van Corinthen, [gesonden] door Pheben, de dienaresse der gemeynte die te Cenchreen is. Eynde des Sendtbriefs PAULI aen den Romeynen.",
+    "modernized": "Dit onderschrift wordt in sommige boeken niet gevonden. Maar hoewel men op zulke onderschriften, die door de uitleggers zijn toegevoegd, niet vast mag bouwen, zo blijkt toch dat dit met de waarheid overeenkomt, als men goed let op wat gezegd wordt in $Hd. 20:1,2$ en $2Kor. 12:14$. [De Brief] aan de Romeinen [is] geschreven uit Korinthe, [gezonden] door Febe, de dienares van de gemeente die te Kenchreeën is. Einde van de Brief van Paulus aan de Romeinen.",
+    "generated_at": "2026-05-25T14:34:13.903763Z",
+    "model": "claude-opus-4-7[1m]"
   }
 }
