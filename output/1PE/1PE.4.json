@@ -85,6 +85,45 @@
       "generated_at": "2026-05-25T20:33:31.785719Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 7,
+      "original": "$1.Ioan. 2.18.$ Ende het eynde <Namel. in dese werelt. Ende daerom, wil de Apostel seggen, moeten wy op onse hoede zijn, op dat ons het laetste oordeel niet en overvalle, gelijck de sundtvloet de eerste werelt overviel. Siet dergelijck Matth. cap. 24. vers 37. Luce cap. 21. vers 34.> aller dingen is na by: $Luce 21.34.$ Zijt dan nuchteren, ende waeckt in de gebeden.",
+      "modernized": "$1Jh. 2:18$ En het einde <Namelijk, in deze wereld. En daarom, wil de Apostel zeggen, moeten wij op onze hoede zijn, opdat ons het laatste oordeel niet overvalt, zoals de zondvloed de eerste wereld overviel. Zie dergelijk $Mt. 24:37; Lk. 21:34$.> aller dingen is nabij: $Lk. 21:34$ Wees dan nuchter, en waakt in de gebeden.",
+      "source_text": "Πάντων δὲ τὸ τέλος ἤγγικε· σωφρονήσατε οὖν καὶ νήψατε εἰς τὰς προσευχάς·",
+      "generated_at": "2026-05-25T20:37:46.016637Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 8,
+      "original": "Maer voor al hebt vyerige liefde tot malkanderen: $Proverb. 10.12.$ want de liefde <Namelick, onder de menschen, alsoo de liefde alles verdraeght, alles ten besten duydt, alles vergeeft. Ende desen sin vereyscht merckelick de plaetse Proverb. cap. 10. vers 12. daer den Apostel dese woorden uyt neemt. Want het is alleen de verdienste Christi die onse sonden voor het oordeel Godts bedeckt, 1.Ioan. 2.1, 2.> sal menighte van sonden bedecken.",
+      "modernized": "Maar bovenal, heb vurige liefde tot elkaar: $Sp. 10:12$ want de liefde <Namelijk, onder de mensen, aangezien de liefde alles verdraagt, alles ten beste duidt, alles vergeeft. En deze zin vereist duidelijk de plaats $Sp. 10:12$ waar de Apostel deze woorden aan ontleent. Want het is alleen de verdienste van Christus die onze zonden voor het oordeel van God bedekt, $1Jh. 2:1,2$.> zal een menigte van zonden bedekken.",
+      "source_text": "πρὸ πάντων δὲ τὴν εἰς ἑαυτοὺς ἀγάπην ἐκτενῆ ἔχοντες, ὅτι ἡ ἀγάπη καλύψει πλῆθος ἁμαρτιῶν·",
+      "generated_at": "2026-05-25T20:38:23.083987Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 9,
+      "original": "$Rom. 12.13. Hebr. 13.2.$ Zijt herberghsaem tegen malkanderen, $Philip. 2.14.$ <Namelick, dat u sulcks moeijelick ofte lastigh valt, gelijck de menschen lichtelick plegen te doen.> sonder murmureeren.",
+      "modernized": "$Rm. 12:13; Hb. 13:2$ Wees gastvrij jegens elkaar, $Fp. 2:14$ <Namelijk, dat u dit moeilijk of lastig valt, zoals de mensen het licht plegen te doen.> zonder morren.",
+      "source_text": "φιλόξενοι εἰς ἀλλήλους ἄνευ γογγυσμῶν·",
+      "generated_at": "2026-05-25T20:38:41.287593Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "concordantie φιλόξεν-",
+          "context": "hoofdtekst",
+          "choice": "herbergzaam->gastvrij",
+          "alternatives": [
+            "herbergzaam"
+          ],
+          "reason": "concordantie met ROM 12:13 (herberghsaemheyt->gastvrijheid); 'herbergzaam' is bovendien drempel-archaisch, 'gastvrij' is het productieve moderne woord (§2.7), SV-zinsbouw blijft staan"
+        }
+      ]
     }
   ]
 }
