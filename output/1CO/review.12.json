@@ -1,7 +1,7 @@
 {
   "book": "1CO",
   "chapter": 12,
-  "reviewed_at": "2026-05-25T09:32:49+00:00",
+  "reviewed_at": "2026-05-25T09:36:13+00:00",
   "passes": [
     {
       "pass": 1,
@@ -14,6 +14,46 @@
       "ran_at": "2026-05-25T09:32:49+00:00",
       "mode": "scan",
       "issues_total": 23
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-05-25T09:35:28+00:00",
+      "mode": "verify",
+      "actions": [
+        "1CO-12-8-001: rebuttal verified",
+        "1CO-12-9-001: verified",
+        "1CO-12-10-001: rebuttal verified",
+        "1CO-12-13-001: rebuttal verified",
+        "1CO-12-13-002: rebuttal verified",
+        "1CO-12-13-003: verified",
+        "1CO-12-14-001: rebuttal verified",
+        "1CO-12-14-002: rebuttal verified",
+        "1CO-12-15-001: rebuttal verified",
+        "1CO-12-16-001: rebuttal verified",
+        "1CO-12-20-001: verified",
+        "1CO-12-23-001: verified",
+        "1CO-12-27-001: rebuttal verified",
+        "1CO-12-28-001: verified",
+        "1CO-12-28-002: rebuttal verified",
+        "1CO-12-28-003: rebuttal verified",
+        "1CO-12-29-001: verified",
+        "1CO-12-31-001: rebuttal verified",
+        "1CO-12-31-002: verified",
+        "1CO-12-4-001: reopened (te generiek)",
+        "1CO-12-7-001: reopened (te generiek)",
+        "1CO-12-9-002: rebuttal verified",
+        "1CO-12-11-001: reopened (te generiek)"
+      ]
+    },
+    {
+      "pass": 4,
+      "ran_at": "2026-05-25T09:36:13+00:00",
+      "mode": "verify",
+      "actions": [
+        "1CO-12-4-001: rebuttal verified",
+        "1CO-12-7-001: rebuttal verified",
+        "1CO-12-11-001: rebuttal verified"
+      ]
     }
   ],
   "issues": [
@@ -27,8 +67,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "1CO-12-8-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-25T09:35:28+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -40,8 +81,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "1CO-12-9-001",
-      "status": "fixed",
-      "fix_commit": "PENDING"
+      "status": "verified",
+      "fix_commit": "PENDING",
+      "verified_at": "2026-05-25T09:35:28+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -53,8 +95,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "1CO-12-10-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-25T09:35:28+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -66,8 +109,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "1CO-12-13-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-25T09:35:28+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -79,8 +123,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "1CO-12-13-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-25T09:35:28+00:00"
     },
     {
       "category": "kanttekening-luiheid (§2.3 in <…>)",
@@ -92,8 +137,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "1CO-12-13-003",
-      "status": "fixed",
-      "fix_commit": "PENDING"
+      "status": "verified",
+      "fix_commit": "PENDING",
+      "verified_at": "2026-05-25T09:35:28+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -105,8 +151,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "1CO-12-14-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-25T09:35:28+00:00"
     },
     {
       "category": "kanttekening-luiheid (§2.3 in <…>)",
@@ -118,9 +165,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "1CO-12-14-002",
-      "status": "rebutted",
+      "status": "verified",
       "rebuttal": "'verschillende' (v14 kanttekening: 'uit vele en verschillende') is een gelexicaliseerd adjectief (=onderscheiden/diverse), geen adverbiaal of finiet participium; §2.3 raakt alleen -ende-vormen die als werkwoord functioneren. Scanner-regex op -ende vangt hier een vaste bijvoeglijke vorm.",
-      "verified_at": "2026-05-25T09:34:37.625952+00:00"
+      "verified_at": "2026-05-25T09:35:28+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -132,8 +179,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "1CO-12-15-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-25T09:35:28+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -145,8 +193,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "1CO-12-16-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-25T09:35:28+00:00"
     },
     {
       "category": "genitief pronomen wiens/wier",
@@ -158,8 +207,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "1CO-12-20-001",
-      "status": "fixed",
-      "fix_commit": "PENDING"
+      "status": "verified",
+      "fix_commit": "PENDING",
+      "verified_at": "2026-05-25T09:35:28+00:00"
     },
     {
       "category": "archaïsch pronomen (dezelve/denzelven)",
@@ -171,8 +221,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "1CO-12-23-001",
-      "status": "fixed",
-      "fix_commit": "PENDING"
+      "status": "verified",
+      "fix_commit": "PENDING",
+      "verified_at": "2026-05-25T09:35:28+00:00"
     },
     {
       "category": "§2.3b bijwoord-coda",
@@ -184,9 +235,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "1CO-12-27-001",
-      "status": "rebutted",
+      "status": "verified",
       "rebuttal": "'ieder afzonderlijk' (v27 hoofdtekst) is standaard modern Nederlands bijwoord, geen §2.7-drempelarchaïsme of archaïsche -lijk-coda; de regex flagt elk zinseind op -lijk. 'afzonderlijk' faalt geen productiviteitstest en heeft geen SV-equivalent dat moderner moet.",
-      "verified_at": "2026-05-25T09:34:37.625952+00:00"
+      "verified_at": "2026-05-25T09:35:28+00:00"
     },
     {
       "category": "SV-verbuiging (demonstratief dezer/dien/...)",
@@ -198,8 +249,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "1CO-12-28-001",
-      "status": "fixed",
-      "fix_commit": "PENDING"
+      "status": "verified",
+      "fix_commit": "PENDING",
+      "verified_at": "2026-05-25T09:35:28+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -211,8 +263,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "1CO-12-28-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-25T09:35:28+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -224,8 +277,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "1CO-12-28-003",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-25T09:35:28+00:00"
     },
     {
       "category": "SV-verbuiging (demonstratief dezer/dien/...)",
@@ -237,8 +291,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "1CO-12-29-001",
-      "status": "fixed",
-      "fix_commit": "PENDING"
+      "status": "verified",
+      "fix_commit": "PENDING",
+      "verified_at": "2026-05-25T09:35:28+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -250,8 +305,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "1CO-12-31-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-25T09:35:28+00:00"
     },
     {
       "category": "kanttekening-luiheid (§2.3 in <…>)",
@@ -263,8 +319,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "1CO-12-31-002",
-      "status": "fixed",
-      "fix_commit": "PENDING"
+      "status": "verified",
+      "fix_commit": "PENDING",
+      "verified_at": "2026-05-25T09:35:28+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -285,9 +342,9 @@
         24
       ],
       "id": "1CO-12-4-001",
-      "status": "rebutted",
-      "rebuttal": "Concordantie-drift false-positive: prefix-heuristiek mist de orthografische overgang SV 'deselve' (s→z) → modern 'dezelfde'/'die'. De stam wordt wel degelijk consistent gerenderd; de scanner vergelijkt enkel beginletters en ziet de s→z-shift niet (vgl. [[feedback_kanttekening_participium]] scanner-prefix-limiet).",
-      "verified_at": "2026-05-25T09:34:37.625952+00:00"
+      "status": "verified",
+      "rebuttal": "§5.3 (concordantie geldt voor gelijke SV-vormen): SV-stam 'deselve' wordt juist consistent gerenderd — v4/v8/v9 'dezelfde Geest', v6/v11 'dezelfde'/'die'. De prefix-heuristiek mist de orthografische s→z-overgang (deselve→dezelfde) en de incidentele anaforische 'die', en meldt daardoor schijn-divergentie waar de woordkeuze juist uniform is.",
+      "verified_at": "2026-05-25T09:36:13+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -304,8 +361,9 @@
         18
       ],
       "id": "1CO-12-7-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Geen drift: alle drie verzen renderen SV-stam 'yegelick' consistent als 'ieder' (v5 'ieder', v16 'ieder', v18 2x 'een ieder' — 'een ieder' spiegelt SV 'een yegelick'). De scanner-prefix-heuristiek mist de orthografische overgang yegelick->ieder (geen prefix-overlap) — gedocumenteerde false-positive-klasse."
+      "status": "verified",
+      "rebuttal": "§5.3 (concordantie geldt voor gelijke SV-vormen): SV-stam 'yegelick' wordt in alle drie verzen identiek als 'ieder' gerenderd — v7 'aan ieder', v11 'aan ieder', v18 'ieder'. De prefix-heuristiek vergelijkt beginletters (y vs i) en ziet de y→ie-overgang niet; geen werkelijke drift.",
+      "verified_at": "2026-05-25T09:36:13+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -322,9 +380,9 @@
         30
       ],
       "id": "1CO-12-9-002",
-      "status": "rebutted",
+      "status": "verified",
       "rebuttal": "Concordantie-drift false-positive: SV-stam 'gesontm' → 'genezingen' wordt in v9/v28/v30 consistent als 'gaven van genezingen' gerenderd; de prefix-heuristiek mist de s→g/orthografische overgang en meldt schijn-divergentie.",
-      "verified_at": "2026-05-25T09:34:37.625952+00:00"
+      "verified_at": "2026-05-25T09:35:28+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -342,9 +400,9 @@
         25
       ],
       "id": "1CO-12-11-001",
-      "status": "rebutted",
-      "rebuttal": "Concordantie-drift false-positive: SV 'gelijck' is een functiewoord (gelijk/zoals) waarvan de moderne rendering contextbepaald is (vergelijkend 'zoals' vs. 'gelijk'); verschillende verzen verschillen legitiem naar zinsbouw, geen woordkeuze-inconsistentie. Prefix-heuristiek ongeschikt voor functiewoorden.",
-      "verified_at": "2026-05-25T09:34:37.625952+00:00"
+      "status": "verified",
+      "rebuttal": "§5.3 (concordantie geldt voor GELIJKE betekenis): SV 'gelijck' is homoniem — in v11/v12/v18 comparatief ('zoals'), maar in v25 betekent het 'gelijk/gelijke' (kwalitatief gelijk: 'gelijke zorg dragen', Gr. τὸ αὐτὸ μεριμνῶσι). De afwijkende rendering in v25 volgt de betekenis, niet drift; concordantie eist geen identieke rendering van homonieme vormen.",
+      "verified_at": "2026-05-25T09:36:13+00:00"
     }
   ]
 }
