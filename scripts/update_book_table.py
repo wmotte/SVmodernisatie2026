@@ -55,45 +55,59 @@ NT_BOOKS: list[tuple[str, str]] = [
 ]
 
 
-def _verse_count(path: Path) -> int:
-    try:
-        return len(json.loads(path.read_text()).get("verses", []))
-    except (json.JSONDecodeError, OSError):
-        return 0
-
-
-def _done_verses(path: Path) -> int:
-    """Aantal verzen met niet-lege `modernized` in een output-hoofdstuk."""
+def _src_words_by_verse(path: Path) -> dict[int, int]:
+    """Map verse_number → woordtelling van de bron-`text` (incl. kanttekeningen)."""
     try:
         verses = json.loads(path.read_text()).get("verses", [])
     except (json.JSONDecodeError, OSError):
-        return 0
-    return sum(1 for v in verses if str(v.get("modernized", "")).strip())
+        return {}
+    return {
+        int(v.get("verse_number", i)): len(str(v.get("text", "")).split())
+        for i, v in enumerate(verses)
+    }
+
+
+def _done_verse_numbers(path: Path) -> set[int]:
+    """verse_number's met niet-lege `modernized` in een output-hoofdstuk."""
+    try:
+        verses = json.loads(path.read_text()).get("verses", [])
+    except (json.JSONDecodeError, OSError):
+        return set()
+    return {
+        int(v.get("verse_number", i))
+        for i, v in enumerate(verses)
+        if str(v.get("modernized", "")).strip()
+    }
 
 
 def gather(code: str) -> dict[str, int]:
     """Tel hoofdstukken/verzen (bron) en gedaan-hoofdstukken/-verzen (output)."""
     src = INPUT_DIR / code
     out = OUTPUT_DIR / code
-    tot_ch = tot_v = done_ch = done_v = 0
+    tot_ch = tot_v = tot_w = done_ch = done_v = done_w = 0
     for f in sorted(src.glob(f"{code}.*.json")):
-        n_src = _verse_count(f)
+        src_words = _src_words_by_verse(f)
+        n_src = len(src_words)
         if n_src == 0:
             continue
         tot_ch += 1
         tot_v += n_src
+        tot_w += sum(src_words.values())
         of = out / f.name
         if not of.exists():
             continue
-        n_done = _done_verses(of)
-        done_v += n_done
-        if n_done >= n_src:
+        done_nums = _done_verse_numbers(of)
+        done_v += len(done_nums)
+        done_w += sum(src_words.get(n, 0) for n in done_nums)
+        if len(done_nums) >= n_src:
             done_ch += 1
     return {
         "chapters": tot_ch,
         "verses": tot_v,
+        "words": tot_w,
         "done_chapters": done_ch,
         "done_verses": done_v,
+        "done_words": done_w,
     }
 
 
@@ -106,6 +120,11 @@ def pct(done: int, total: int) -> str:
 def nl(x: float) -> str:
     """Eén decimaal met Nederlandse komma."""
     return f"{x:.1f}".replace(".", ",")
+
+
+def nl_int(n: int) -> str:
+    """Geheel getal met Nederlands duizendtalpunt (1234 → 1.234)."""
+    return f"{n:,}".replace(",", ".")
 
 
 def render() -> str:
@@ -121,19 +140,22 @@ def render() -> str:
     lines = [
         "# NT-boeken gesorteerd op aantal hoofdstukken (laag → hoog)",
         "",
-        "| # | Bijbelboek | Hoofdstukken | Verzen | Gedaan (hfst) | % gedaan |",
-        "|---|------------|--------------|--------|---------------|----------|",
+        "| # | Bijbelboek | Hoofdstukken | Verzen | Woorden | Gedaan (hfst) | % gedaan |",
+        "|---|------------|--------------|--------|---------|---------------|----------|",
     ]
     for i, (_code, name, s) in enumerate(rows, 1):
         lines.append(
             f"| {i} | {name} | {s['chapters']} | {s['verses']} | "
+            f"{nl_int(s['words'])} | "
             f"{s['done_chapters']} | {pct(s['done_chapters'], s['chapters'])} |"
         )
 
     tot_ch = sum(s["chapters"] for _, _, s in rows)
     tot_v = sum(s["verses"] for _, _, s in rows)
+    tot_w = sum(s["words"] for _, _, s in rows)
     done_ch = sum(s["done_chapters"] for _, _, s in rows)
     done_v = sum(s["done_verses"] for _, _, s in rows)
+    done_w = sum(s["done_words"] for _, _, s in rows)
 
     lines += [
         "",
@@ -143,6 +165,7 @@ def render() -> str:
         "|---------|--------|--------|---|",
         f"| Hoofdstukken | {done_ch} | {tot_ch} | {nl(done_ch / tot_ch * 100)}% |",
         f"| Verzen | {done_v} | {tot_v} | {nl(done_v / tot_v * 100)}% |",
+        f"| Woorden | {nl_int(done_w)} | {nl_int(tot_w)} | {nl(done_w / tot_w * 100)}% |",
         "",
     ]
 
@@ -155,6 +178,7 @@ def render() -> str:
         lines.append("Gedaan: " + ", ".join(gedaan) + ".")
         lines.append("")
     lines += [
+        f"Totaal woorden in de bron: {nl_int(tot_w)} (incl. kanttekeningen in `<...>`).",
         "Totalen (hoofdstukken/verzen) geteld uit `input.sv/` (SV1657).",
         "Gedaan-tellingen uit `output/`: een hoofdstuk telt als gedaan zodra elk",
         "vers een gemoderniseerde tekst heeft. Gegenereerd met",

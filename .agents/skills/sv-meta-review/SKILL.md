@@ -60,6 +60,18 @@ Top-level structuur:
 }
 ```
 
+Laad daarnaast waar nuttig de decision-memory voor eerdere bucket-B/C
+besluiten:
+
+```bash
+uv run python scripts/extract_decisions.py --root output --book <BOEK>
+uv run python scripts/query_decisions.py "<pattern-key>" --book <BOEK> --limit 5
+```
+
+Gebruik deze hits alleen adviserend bij classificatie. HSV-bewijs en
+oude rebuttals blijven niet-normatief; bucket B/C vraagt nog steeds
+controle tegen SV1657, Grieks en de projectregels.
+
 ## Stap 2 — Per pattern classificeren naar bucket A/B/C
 
 | Bucket | Betekenis | Actie |
