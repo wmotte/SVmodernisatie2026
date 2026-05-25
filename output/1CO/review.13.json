@@ -1,0 +1,104 @@
+{
+  "book": "1CO",
+  "chapter": 13,
+  "reviewed_at": "2026-05-25T10:53:12+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-25T10:53:12+00:00",
+      "mode": "scan",
+      "issues_total": 6
+    },
+    {
+      "pass": 1,
+      "ran_at": "2026-05-25T10:54:53.592276+00:00",
+      "mode": "orchestrator-resolve",
+      "note": "3 fixed, 2 rebutted"
+    }
+  ],
+  "issues": [
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 1,
+      "severity": "hard",
+      "quote_modernized": "…en van de voortreffelijkheid en menigte der talen, die ook de Engelen zouden mog…",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'der talen' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de talen' of 'van het talen', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de talen",
+      "location": "kanttekening",
+      "id": "1CO-13-1-001",
+      "status": "fixed",
+      "fix_commit": "pending",
+      "fix_note": "kanttekening 'menigte der talen' -> 'menigte van de talen'; consistent met hoofdtekst v1 ('der menschen'->'van de mensen', 'der Engelen'->'van de Engelen'). Geen FOSSIL_GENITIVE_PAIRS-formule."
+    },
+    {
+      "category": "kanttekening-luiheid (§2.3 in <…>)",
+      "verse": 1,
+      "severity": "hard",
+      "quote_modernized": "…en, wanneer zij bij de mensen zijn. Of, weerklinkende. Dat is, metalen instrumen…",
+      "rule_reference": "KANTTEKENINGEN.md + §2.3",
+      "explanation": "'weerklinkende' binnen kanttekening — verdacht -ende-woord in adverbial / clause-final positie. §2.3 geldt ook in <…>; ontvouw naar finiete bijzin.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "1CO-13-1-002",
+      "status": "rebutted",
+      "rebuttal": "'weerklinkende' is het SV-glos-alternatief (<Of, weerklinkende.>) voor het attributieve 'klinkende' bij 'metaal' (klinkende/weerklinkende metaal). §2.3 staat attributieve tegenwoordige deelwoorden voor een zelfst.naamwoord toe; dit is geen adverbiaal participium dat een finiete bijzin vervangt.",
+      "verified_at": "2026-05-25T10:54:53.592276+00:00"
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 4,
+      "severity": "soft",
+      "quote_modernized": "    De liefde is   lankmoedig, zij is   goedertieren; de li…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'lankmoedig' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "1CO-13-4-001",
+      "status": "rebutted",
+      "rebuttal": "'lankmoedig' (Gr. μακροθυμεῖ) is de concordante, projectbrede weergave (1KOR 13:4 zelf in DB; vgl. lankmoedigheid corpusbreed). Transparant compositum (lang+moed), herkenbaar in religieus register; §2.7-drempeltest faalt niet. Scanner-fix ('omdat/hoewel/echter') is regex-misser, semantisch onjuist.",
+      "verified_at": "2026-05-25T10:54:53.592276+00:00"
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 8,
+      "severity": "hard",
+      "quote_modernized": "…e gave zal ophouden, zoals na de tijden der Apostelen geschied is, als in het to…",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'der Apostelen' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de Apostelen' of 'van het Apostelen', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de Apostelen",
+      "location": "kanttekening",
+      "id": "1CO-13-8-001",
+      "status": "fixed",
+      "fix_commit": "pending",
+      "fix_note": "kanttekening 'de tijden der Apostelen' -> 'de tijden van de Apostelen'. Genitief-archaisme, geen fossiel; conform genitief-regel HARD."
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 9,
+      "severity": "soft",
+      "quote_modernized": "… zullen hebben in het toekomende leven, bij welke deze onze kennis, die wij nu h…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "1CO-13-9-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+    },
+    {
+      "category": "kanttekening-luiheid (§2.3 in <…>)",
+      "verse": 11,
+      "severity": "hard",
+      "quote_modernized": "…. Namelijk, met mijn verstand de dingen overwegende. Dat is, die kleine, geringe…",
+      "rule_reference": "KANTTEKENINGEN.md + §2.3",
+      "explanation": "'overwegende' binnen kanttekening — verdacht -ende-woord in adverbial / clause-final positie. §2.3 geldt ook in <…>; ontvouw naar finiete bijzin.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "1CO-13-11-001",
+      "status": "fixed",
+      "fix_commit": "pending",
+      "fix_note": "adverbiaal participium 'de dingen overwegende' -> finiete bijzin 'ik overwoog de dingen met mijn verstand' (§2.3 ook in kanttekening)."
+    }
+  ]
+}
