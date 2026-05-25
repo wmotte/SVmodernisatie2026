@@ -30,28 +30,49 @@ def chapter_range_for_book(book: str) -> list[int]:
 
 
 def extract_annotations(text: str) -> list[str]:
-    """Haal inline <…>-kanttekeningen op volgorde uit een SV2026-tekst.
-
-    $…$-bijbelverwijzingen tellen niet als kanttekening.
-    """
+    """Haal inline <…>-kanttekeningen op volgorde uit een SV2026-tekst."""
     if not text:
         return []
     return [m.strip() for m in re.findall(r"<([^<>]*)>", text)]
 
 
-def pair_kanttekeningen(gbs_notes: list[dict], sv2026_text: str) -> list[dict]:
-    """Koppel GBS-noten aan SV2026-annotaties op volgorde (index).
+def extract_verwijzingen(text: str) -> list[str]:
+    """Haal inline $…$-bijbelverwijzingen op volgorde uit een SV2026-tekst."""
+    if not text:
+        return []
+    return [m.strip() for m in re.findall(r"\$([^$]*)\$", text)]
 
-    Niet-gekoppelde noten/annotaties verschijnen los (lege tegenkant).
+
+def pair_kanttekeningen(gbs_notes: list[dict], sv2026_text: str) -> list[dict]:
+    """Koppel GBS-noten aan SV2026-markers, gescheiden per soort.
+
+    GBS-noten met een cijfer-label (kind 'kanttekening') koppelen aan de inline
+    <…>-annotaties; letter-labels (kind 'verwijzing') aan de $…$-verwijzingen.
+    Beide stromen lopen op volgorde. Niet-gekoppelde markers verschijnen los.
     """
-    sv_anns = extract_annotations(sv2026_text)
+    sv_kant = extract_annotations(sv2026_text)
+    sv_verw = extract_verwijzingen(sv2026_text)
+    ik = iv = 0
     pairs: list[dict] = []
-    n = max(len(gbs_notes), len(sv_anns))
-    for i in range(n):
-        gbs = gbs_notes[i]["text"] if i < len(gbs_notes) else ""
-        num = gbs_notes[i].get("n") if i < len(gbs_notes) else (i + 1)
-        sv = sv_anns[i] if i < len(sv_anns) else ""
-        pairs.append({"n": num if num is not None else (i + 1), "gbs": gbs, "sv2026": sv})
+
+    for note in gbs_notes:
+        kind = note.get("kind") or "kanttekening"
+        if kind == "verwijzing":
+            sv = sv_verw[iv] if iv < len(sv_verw) else ""
+            iv += 1
+        else:
+            sv = sv_kant[ik] if ik < len(sv_kant) else ""
+            ik += 1
+        pairs.append({"label": note.get("label"), "kind": kind, "gbs": note["text"], "sv2026": sv})
+
+    # Resterende SV2026-markers zonder GBS-tegenhanger los toevoegen.
+    while ik < len(sv_kant):
+        pairs.append({"label": None, "kind": "kanttekening", "gbs": "", "sv2026": sv_kant[ik]})
+        ik += 1
+    while iv < len(sv_verw):
+        pairs.append({"label": None, "kind": "verwijzing", "gbs": "", "sv2026": sv_verw[iv]})
+        iv += 1
+
     return pairs
 
 

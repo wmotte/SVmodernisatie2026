@@ -15,19 +15,22 @@
       "sv2026": "Nadat hij nu al zijn woorden <Grieks: vervuld.> voleindigd had <Grieks: ten gehore.> ten aanhoren van het volk, $Mt. 8:5$ ging hij in tot Kapernaum.",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "1",
+          "kind": "kanttekening",
           "gbs": "Gr. vervuld.",
           "sv2026": "Grieks: vervuld."
         },
         {
-          "n": 2,
+          "label": "2",
+          "kind": "kanttekening",
           "gbs": "Gr. in het gehoor.",
           "sv2026": "Grieks: ten gehore."
         },
         {
-          "n": 3,
+          "label": "a",
+          "kind": "verwijzing",
           "gbs": "Matth. 8:5.",
-          "sv2026": ""
+          "sv2026": "Mt. 8:5"
         }
       ]
     },
@@ -39,7 +42,8 @@
       "sv2026": "En een dienstknecht van een zekere Hoofdman over honderd, die hem zeer <Grieks: dierbaar, namelijk vanwege zijn trouwe diensten.> waard was, lag ziek op zijn sterven.",
       "kanttekeningen": [
         {
-          "n": 3,
+          "label": "3",
+          "kind": "kanttekening",
           "gbs": "Gr. dierbaar, namelijk vanwege zijn getrouwe diensten.",
           "sv2026": "Grieks: dierbaar, namelijk vanwege zijn trouwe diensten."
         }
@@ -53,14 +57,22 @@
       "sv2026": "En toen hij van Jezus gehoord had, zond hij tot hem de <Deze Ouderlingen waren de aanzienlijksten van het volk, die in die tijd in elke stad gebruikt werden om het bestuur of de Kerk te regeren. Zie $Mt. 26:3$.> Joodse Ouderlingen, met het verzoek dat hij zou komen, en zijn dienstknecht <Grieks: behouden, Namelijk bij het leven.> gezond maken.",
       "kanttekeningen": [
         {
-          "n": 4,
+          "label": "4",
+          "kind": "kanttekening",
           "gbs": "Deze ouderlingen waren de aanzienlijksten van het volk, die in dien tijd gebruikt werden in elke stad om het politiek bestel of de kerk te regeren. Zie Matth. 26:3.",
           "sv2026": "Deze Ouderlingen waren de aanzienlijksten van het volk, die in die tijd in elke stad gebruikt werden om het bestuur of de Kerk te regeren. Zie $Mt. 26:3$."
         },
         {
-          "n": 5,
+          "label": "5",
+          "kind": "kanttekening",
           "gbs": "Gr. behouden, namelijk bij het leven.",
           "sv2026": "Grieks: behouden, Namelijk bij het leven."
+        },
+        {
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Mt. 26:3"
         }
       ]
     },
@@ -72,12 +84,14 @@
       "sv2026": "Toen zij nu tot Jezus gekomen waren, baden zij hem <Grieks: vlijtig, naarstig.> ernstig, en zeiden: Hij is waardig <Of, voor wie u dat zult doen. Anders: voor wie men dat zou doen.> dat u hem dat doet.",
       "kanttekeningen": [
         {
-          "n": 6,
+          "label": "6",
+          "kind": "kanttekening",
           "gbs": "Gr. vlijtiglijk, naarstiglijk.",
           "sv2026": "Grieks: vlijtig, naarstig."
         },
         {
-          "n": 7,
+          "label": "7",
+          "kind": "kanttekening",
           "gbs": "Of: dien Gij dat doen zult. Anders: dien men dat doen zou.",
           "sv2026": "Of, voor wie u dat zult doen. Anders: voor wie men dat zou doen."
         }
@@ -91,14 +105,22 @@
       "sv2026": "Want hij heeft <Namelijk, de Joden: waaruit blijkt dat hij een Heiden was, zoals ook uit het volgende 9e vers.> ons volk lief, en heeft zelf voor ons de <Over de Synagogen zie $Mt. 4:23$.> Synagoge gebouwd.",
       "kanttekeningen": [
         {
-          "n": 8,
+          "label": "8",
+          "kind": "kanttekening",
           "gbs": "Namelijk de Joden; waaruit blijkt dat hij een heiden was, als ook uit vers 9.",
           "sv2026": "Namelijk, de Joden: waaruit blijkt dat hij een Heiden was, zoals ook uit het volgende 9e vers."
         },
         {
-          "n": 9,
+          "label": "9",
+          "kind": "kanttekening",
           "gbs": "Van de synagogen zie Matth. 4:23.",
           "sv2026": "Over de Synagogen zie $Mt. 4:23$."
+        },
+        {
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Mt. 4:23"
         }
       ]
     },
@@ -110,9 +132,16 @@
       "sv2026": "En Jezus ging met hen mee. En toen hij nu niet ver van het huis was, zond de Hoofdman over honderd [enige] vrienden tot hem, en <Dat is, liet zeggen door deze zijn vrienden. Zo kan ook opgevat worden wat gezegd wordt bij $Mt. 8:6$, enz., dat hij zelf heeft gedaan, wat hij door zijn vrienden heeft laten doen.> zei tot hem: Heere, neem de moeite niet, want ik ben niet waardig dat u onder mijn dak zou binnenkomen.",
       "kanttekeningen": [
         {
-          "n": 10,
+          "label": "10",
+          "kind": "kanttekening",
           "gbs": "Dat is, liet zeggen door deze zijn vrienden. Alzo kan ook verstaan worden hetgeen gezegd wordt bij Matth. 8:6, enz., dat hij zelf heeft gedaan hetgeen hij door zijn vrienden heeft laten doen.",
           "sv2026": "Dat is, liet zeggen door deze zijn vrienden. Zo kan ook opgevat worden wat gezegd wordt bij $Mt. 8:6$, enz., dat hij zelf heeft gedaan, wat hij door zijn vrienden heeft laten doen."
+        },
+        {
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Mt. 8:6"
         }
       ]
     },
@@ -124,9 +153,16 @@
       "sv2026": "Daarom heb ik ook mijzelf niet waardig geacht om tot u te komen; maar <Dat is, gebied of beveel alleen met een woord, dat mijn knecht gezond worde. Zie $Mt. 8:8$.> zeg [het] met een woord, en mijn knecht zal genezen worden.",
       "kanttekeningen": [
         {
-          "n": 11,
+          "label": "11",
+          "kind": "kanttekening",
           "gbs": "Dat is, gebied of beveel alleen met een woord, dat mijn knecht gezond worde. Zie Matth. 8:8.",
           "sv2026": "Dat is, gebied of beveel alleen met een woord, dat mijn knecht gezond worde. Zie $Mt. 8:8$."
+        },
+        {
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Mt. 8:8"
         }
       ]
     },
@@ -138,9 +174,16 @@
       "sv2026": "Want ik ben ook een mens <Wat hij hiermee wil zeggen, zie de aantekening op $Mt. 8:9$.> onder de macht [van anderen] gesteld, en heb krijgsknechten onder mij; en ik zeg tot deze: Gaat, en hij gaat; en tot de ander: Komt, en hij komt; en tot mijn dienstknecht: Doet dat, en hij doet [het].",
       "kanttekeningen": [
         {
-          "n": 12,
+          "label": "12",
+          "kind": "kanttekening",
           "gbs": "Wat hij hiermede wil zeggen, zie de aant. op Matth. 8:9.",
           "sv2026": "Wat hij hiermee wil zeggen, zie de aantekening op $Mt. 8:9$."
+        },
+        {
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Mt. 8:9"
         }
       ]
     },
@@ -152,7 +195,8 @@
       "sv2026": "En toen Jezus dit hoorde, verwonderde hij zich over hem, en hij keerde zich om en zei tot de schare die hem volgde: Ik zeg u, zo groot een geloof heb ik zelfs <Dat is, onder de Israëlieten.> in Israël niet gevonden.",
       "kanttekeningen": [
         {
-          "n": 13,
+          "label": "13",
+          "kind": "kanttekening",
           "gbs": "Dat is, onder de Israëlieten.",
           "sv2026": "Dat is, onder de Israëlieten."
         }
@@ -174,7 +218,8 @@
       "sv2026": "En het geschiedde op de volgende [dag] dat hij ging naar een stad genaamd <Dit was een stad in Galilea, gelegen aan de voet van de berg Hermon, bij de beek Kison, die in de Galilese zee stroomt.> Naïn, en met hem gingen velen van zijn discipelen, en een grote schare.",
       "kanttekeningen": [
         {
-          "n": 14,
+          "label": "14",
+          "kind": "kanttekening",
           "gbs": "Dit was een stad in Galilea, gelegen aan den voet van den berg Hermon, bij de beek Kison, die in de Galilese Zee loopt.",
           "sv2026": "Dit was een stad in Galilea, gelegen aan de voet van de berg Hermon, bij de beek Kison, die in de Galilese zee stroomt."
         }
@@ -188,9 +233,22 @@
       "sv2026": "En toen hij de <Vroeger werden de doden, zowel bij de Joden als bij andere volken, buiten de steden begraven, zoals ook Christus in een hof buiten de stad begraven is geweest, $Jh. 19:41$. en zoals nog op sommige plaatsen gebeurt. Zie ook $Gn. 23:19; 50:13$.> poort van de stad naderde, zie daar, een dode werd uitgedragen, [die] een eniggeboren zoon van zijn moeder [was,] en zij [was] weduwe, en een grote schare uit de stad [was] met haar.",
       "kanttekeningen": [
         {
-          "n": 15,
+          "label": "15",
+          "kind": "kanttekening",
           "gbs": "Eertijds werden de doden, zo bij de Joden als andere volken, buiten de steden begraven, gelijk ook Christus in een hof buiten de stad begraven is geweest, Joh. 19:41, en gelijk nog op sommige plaatsen geschiedt. Zie ook Gen. 23:19; 50:13.",
           "sv2026": "Vroeger werden de doden, zowel bij de Joden als bij andere volken, buiten de steden begraven, zoals ook Christus in een hof buiten de stad begraven is geweest, $Jh. 19:41$. en zoals nog op sommige plaatsen gebeurt. Zie ook $Gn. 23:19; 50:13$."
+        },
+        {
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Jh. 19:41"
+        },
+        {
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Gn. 23:19; 50:13"
         }
       ]
     },
@@ -202,9 +260,16 @@
       "sv2026": "En de Heere zag haar, en werd innerlijk met ontferming over haar bewogen, en zei tot haar, <Hiermee wil Christus niet allerlei wenen over de doden verbieden, $1Th. 4:13$, maar te kennen geven dat hij de oorzaak van haar wenen wilde wegnemen.> Ween niet.",
       "kanttekeningen": [
         {
-          "n": 16,
+          "label": "16",
+          "kind": "kanttekening",
           "gbs": "Daarmede wil Christus niet verbieden allerlei wenen over de doden, 1 Thess. 4:13, maar te kennen geven, dat Hij de oorzaak van haar wenen wilde wegnemen.",
           "sv2026": "Hiermee wil Christus niet allerlei wenen over de doden verbieden, $1Th. 4:13$, maar te kennen geven dat hij de oorzaak van haar wenen wilde wegnemen."
+        },
+        {
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "1Th. 4:13"
         }
       ]
     },
@@ -216,14 +281,16 @@
       "sv2026": "En hij trad toe, en raakte <Of, doodkist.> de baar aan (de dragers stonden nu stil), en hij zei: Jongeling, ik zeg u, $Hd. 9:40$ sta op.",
       "kanttekeningen": [
         {
-          "n": 17,
+          "label": "17",
+          "kind": "kanttekening",
           "gbs": "Of: doodkist.",
           "sv2026": "Of, doodkist."
         },
         {
-          "n": 2,
+          "label": "b",
+          "kind": "verwijzing",
           "gbs": "Hand. 9:40.",
-          "sv2026": ""
+          "sv2026": "Hd. 9:40"
         }
       ]
     },
@@ -243,24 +310,34 @@
       "sv2026": "En vrees beving allen, en zij <Dat is, prezen, loofden.> verheerlijkten God, en zeiden: $Lk. 24:19; Jh. 4:19; 6:14; 9:17$ Een groot Profeet is onder ons opgestaan, en $Lk. 1:68$ God heeft zijn volk <Namelijk, ten goede om hen te verlossen, $Ex. 4:31$.> bezocht.",
       "kanttekeningen": [
         {
-          "n": 18,
+          "label": "18",
+          "kind": "kanttekening",
           "gbs": "Dat is, prezen, loofden.",
           "sv2026": "Dat is, prezen, loofden."
         },
         {
-          "n": 2,
+          "label": "c",
+          "kind": "verwijzing",
           "gbs": "Luk. 24:19. Joh. 4:19; 6:14; 9:17.",
+          "sv2026": "Lk. 24:19; Jh. 4:19; 6:14; 9:17"
+        },
+        {
+          "label": "d",
+          "kind": "verwijzing",
+          "gbs": "Luk. 1:68.",
+          "sv2026": "Lk. 1:68"
+        },
+        {
+          "label": "19",
+          "kind": "kanttekening",
+          "gbs": "Namelijk ten goede, om hen te verlossen, Ex. 4:31.",
           "sv2026": "Namelijk, ten goede om hen te verlossen, $Ex. 4:31$."
         },
         {
-          "n": 3,
-          "gbs": "Luk. 1:68.",
-          "sv2026": ""
-        },
-        {
-          "n": 19,
-          "gbs": "Namelijk ten goede, om hen te verlossen, Ex. 4:31.",
-          "sv2026": ""
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Ex. 4:31"
         }
       ]
     },
@@ -272,7 +349,8 @@
       "sv2026": "En dit <Grieks: dit woord.> gerucht over hem ging uit in heel Judea, en in heel het omliggende land.",
       "kanttekeningen": [
         {
-          "n": 20,
+          "label": "20",
+          "kind": "kanttekening",
           "gbs": "Gr. dit woord.",
           "sv2026": "Grieks: dit woord."
         }
@@ -286,14 +364,16 @@
       "sv2026": "$Mt. 11:2$ En de discipelen van Johannes berichtten <Grieks: en aan Johannes berichtten zijn discipelen.> hem van al deze dingen.",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "e",
+          "kind": "verwijzing",
           "gbs": "Matth. 11:2.",
-          "sv2026": "Grieks: en aan Johannes berichtten zijn discipelen."
+          "sv2026": "Mt. 11:2"
         },
         {
-          "n": 21,
+          "label": "21",
+          "kind": "kanttekening",
           "gbs": "Gr. En aan Johannes boodschapten zijn discipelen.",
-          "sv2026": ""
+          "sv2026": "Grieks: en aan Johannes berichtten zijn discipelen."
         }
       ]
     },
@@ -305,9 +385,16 @@
       "sv2026": "En Johannes riep een tweetal van zijn discipelen bij zich, en zond hen tot Jezus, en zei: Bent u degene <Dat is, de Messias. De oorzaak van deze vraag, zie $Mt. 11:3$.> die komen zou, of verwachten wij een ander?",
       "kanttekeningen": [
         {
-          "n": 22,
+          "label": "22",
+          "kind": "kanttekening",
           "gbs": "Dat is, de Messias. De oorzaak van deze vraag zie Matth. 11:3.",
           "sv2026": "Dat is, de Messias. De oorzaak van deze vraag, zie $Mt. 11:3$."
+        },
+        {
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Mt. 11:3"
         }
       ]
     },
@@ -319,7 +406,8 @@
       "sv2026": "En toen de mannen tot hem gekomen waren, zeiden zij: Johannes de Doper heeft ons tot u afgezonden, <Dat is, om u te laten zeggen en vragen.> om te zeggen: Bent u degene die komen zou, of verwachten wij een ander?",
       "kanttekeningen": [
         {
-          "n": 23,
+          "label": "23",
+          "kind": "kanttekening",
           "gbs": "Dat is, om U te laten zeggen en vragen.",
           "sv2026": "Dat is, om u te laten zeggen en vragen."
         }
@@ -333,14 +421,22 @@
       "sv2026": "En op datzelfde uur genas hij er velen van ziekten en <Grieks: gesels. Zie $Mk. 3:10$.> kwalen, en boze geesten, en aan vele blinden <Grieks: schonk hij genadig het zien.> gaf hij het gezicht.",
       "kanttekeningen": [
         {
-          "n": 24,
+          "label": "24",
+          "kind": "kanttekening",
           "gbs": "Gr. gesels. Zie Mark. 3:10.",
           "sv2026": "Grieks: gesels. Zie $Mk. 3:10$."
         },
         {
-          "n": 25,
+          "label": "25",
+          "kind": "kanttekening",
           "gbs": "Gr. schonk Hij genadiglijk het zien.",
           "sv2026": "Grieks: schonk hij genadig het zien."
+        },
+        {
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Mk. 3:10"
         }
       ]
     },
@@ -352,9 +448,10 @@
       "sv2026": "En Jezus antwoordde en zei tot hen: Ga heen en bericht aan Johannes weer de dingen die u gezien en gehoord hebt, [namelijk] $Js. 29:18; 35:5; 61:1$ dat de blinden zien, de kreupelen wandelen, de melaatsen gereinigd worden, de doven horen, de doden opgewekt worden, aan de armen het Evangelie verkondigd wordt.",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "f",
+          "kind": "verwijzing",
           "gbs": "Jes. 29:18; 35:5; 61:1.",
-          "sv2026": ""
+          "sv2026": "Js. 29:18; 35:5; 61:1"
         }
       ]
     },
@@ -366,9 +463,16 @@
       "sv2026": "En zalig is hij die <Grieks: in mij. Zie $Mt. 11:6$.> aan mij geen aanstoot zal nemen.",
       "kanttekeningen": [
         {
-          "n": 26,
+          "label": "26",
+          "kind": "kanttekening",
           "gbs": "Gr. in Mij. Zie Matth. 11:6.",
           "sv2026": "Grieks: in mij. Zie $Mt. 11:6$."
+        },
+        {
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Mt. 11:6"
         }
       ]
     },
@@ -380,14 +484,22 @@
       "sv2026": "$Mt. 11:7$ Toen nu <Of, gezondenen. Van dit hele getuigenis van Christus over Johannes de Doper, zie de aantekening op $Mt. 11:7$ en volgende.> de boden van Johannes weggegaan waren, begon hij tot de scharen over Johannes te zeggen: Wat bent u uitgegaan in de woestijn om te zien? Een riet dat door de wind heen en weer bewogen wordt?",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "g",
+          "kind": "verwijzing",
           "gbs": "Matth. 11:7.",
+          "sv2026": "Mt. 11:7"
+        },
+        {
+          "label": "27",
+          "kind": "kanttekening",
+          "gbs": "Of: gezondenen. Van deze gehele getuigenis van Christus van Johannes den Doper zie de aantt. Matth. 11:7, en vervolgens.",
           "sv2026": "Of, gezondenen. Van dit hele getuigenis van Christus over Johannes de Doper, zie de aantekening op $Mt. 11:7$ en volgende."
         },
         {
-          "n": 27,
-          "gbs": "Of: gezondenen. Van deze gehele getuigenis van Christus van Johannes den Doper zie de aantt. Matth. 11:7, en vervolgens.",
-          "sv2026": ""
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Mt. 11:7"
         }
       ]
     },
@@ -415,9 +527,10 @@
       "sv2026": "Deze is het over wie geschreven is: $Ml. 3:1; Mk. 1:2$ Zie, ik zend mijn Engel voor uw aangezicht uit, die uw weg voor u uit bereiden zal.",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "h",
+          "kind": "verwijzing",
           "gbs": "Mal. 3:1. Mark. 1:2.",
-          "sv2026": ""
+          "sv2026": "Ml. 3:1; Mk. 1:2"
         }
       ]
     },
@@ -429,7 +542,8 @@
       "sv2026": "Want ik zeg u, onder hen die uit vrouwen geboren zijn, is niemand een groter Profeet dan Johannes de Doper; maar de <Grieks: de mindere.> minste in het Koninkrijk Gods is groter dan hij.",
       "kanttekeningen": [
         {
-          "n": 28,
+          "label": "28",
+          "kind": "kanttekening",
           "gbs": "Gr. de mindere.",
           "sv2026": "Grieks: de mindere."
         }
@@ -443,7 +557,8 @@
       "sv2026": "En heel het volk [dat hem] hoorde, en de tollenaars, die met de doop van Johannes gedoopt waren, <Dat is, erkenden en prezen zijn rechtvaardigheid, goedheid, trouw en waarheid, zoals vers 35.> rechtvaardigden God.",
       "kanttekeningen": [
         {
-          "n": 29,
+          "label": "29",
+          "kind": "kanttekening",
           "gbs": "Dat is, erkenden en prezen Zijn rechtvaardigheid, goedheid, trouw en waarheid, gelijk vers 35.",
           "sv2026": "Dat is, erkenden en prezen zijn rechtvaardigheid, goedheid, trouw en waarheid, zoals vers 35."
         }
@@ -457,19 +572,34 @@
       "sv2026": "Maar de Farizeeën en de Wetgeleerden hebben <Dat is, de middelen die God naar zijn wijze raad in het nieuwe verbond verordend heeft, om daardoor de mensen tot zaligheid te brengen. Zie $Sp. 1:25,30; Hd. 20:27; Hb. 12:25$. Anders blijft altijd vast de raad, dat is, het besluit Gods over de zaligheid van zijn uitverkorenen, $Mt. 24:24; Rm. 8:28,29; Hb. 6:13$, enz.> de raad Gods <Dat is, tot hun eigen schade en verderf.> tegen zichzelf <Of, tenietgedaan. Of, krachteloos gemaakt: Namelijk, door het moedwillig verachten van de middelen die God tot zaligheid van de mensen heeft geordend.> verworpen, omdat zij door hem niet gedoopt waren.",
       "kanttekeningen": [
         {
-          "n": 30,
+          "label": "30",
+          "kind": "kanttekening",
           "gbs": "Dat is, de middelen die God naar Zijn wijzen raad verordineerd heeft in het nieuwe verbond, om daardoor de mensen ter zaligheid te brengen. Zie Spr. 1:25, 30. Hand. 20:27. Hebr. 12:25. Anderszins blijft altijd vast de raad, dat is, het besluit Gods over de zaligheid Zijner uitverkorenen, Matth. 24:24. Rom. 8:28, 29. Hebr. 6:13, enz.",
           "sv2026": "Dat is, de middelen die God naar zijn wijze raad in het nieuwe verbond verordend heeft, om daardoor de mensen tot zaligheid te brengen. Zie $Sp. 1:25,30; Hd. 20:27; Hb. 12:25$. Anders blijft altijd vast de raad, dat is, het besluit Gods over de zaligheid van zijn uitverkorenen, $Mt. 24:24; Rm. 8:28,29; Hb. 6:13$, enz."
         },
         {
-          "n": 31,
+          "label": "31",
+          "kind": "kanttekening",
           "gbs": "Dat is, tot hun eigen schade en verderf.",
           "sv2026": "Dat is, tot hun eigen schade en verderf."
         },
         {
-          "n": 32,
+          "label": "32",
+          "kind": "kanttekening",
           "gbs": "Of: tenietgedaan. Of: krachteloos gemaakt; namelijk door het moedwillig verachten van de middelen die God tot zaligheid der mensen heeft geordineerd.",
           "sv2026": "Of, tenietgedaan. Of, krachteloos gemaakt: Namelijk, door het moedwillig verachten van de middelen die God tot zaligheid van de mensen heeft geordend."
+        },
+        {
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Sp. 1:25,30; Hd. 20:27; Hb. 12:25"
+        },
+        {
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Mt. 24:24; Rm. 8:28,29; Hb. 6:13"
         }
       ]
     },
@@ -481,9 +611,10 @@
       "sv2026": "$Mt. 11:16$ En de Heere zei: Bij wie zal ik dan de mensen van dit geslacht vergelijken? En op wie lijken zij?",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "i",
+          "kind": "verwijzing",
           "gbs": "Matth. 11:16.",
-          "sv2026": ""
+          "sv2026": "Mt. 11:16"
         }
       ]
     },
@@ -495,9 +626,16 @@
       "sv2026": "Zij zijn <De verklaring van deze gelijkenis, zie de aantekening op $Mt. 11:16$.> zoals de kinderen die op de markt zitten en elkaar toeroepen en zeggen: Wij hebben u op de fluit gespeeld, en u hebt niet gedanst; wij hebben u klaagliederen gezongen, en u hebt niet geweend.",
       "kanttekeningen": [
         {
-          "n": 33,
+          "label": "33",
+          "kind": "kanttekening",
           "gbs": "De verklaring van deze gelijkenis zie in de aant. Matth. 11:16.",
           "sv2026": "De verklaring van deze gelijkenis, zie de aantekening op $Mt. 11:16$."
+        },
+        {
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Mt. 11:16"
         }
       ]
     },
@@ -509,14 +647,22 @@
       "sv2026": "$Mt. 3:4; Mk. 1:6$ Want Johannes de Doper is gekomen, <Dat is, hij gebruikte geen gewone spijs en drank zoals andere mensen. Want hij at sprinkhanen en wilde honing, $Mt. 3:4$.> en hij at geen brood en dronk geen wijn, en u zegt: Hij heeft de duivel.",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "k",
+          "kind": "verwijzing",
           "gbs": "Matth. 3:4. Mark. 1:6.",
+          "sv2026": "Mt. 3:4; Mk. 1:6"
+        },
+        {
+          "label": "34",
+          "kind": "kanttekening",
+          "gbs": "Dat is, geen gewone spijze en drank als andere mensen gebruikende. Want hij at sprinkhanen en wilden honing, Matth. 3:4.",
           "sv2026": "Dat is, hij gebruikte geen gewone spijs en drank zoals andere mensen. Want hij at sprinkhanen en wilde honing, $Mt. 3:4$."
         },
         {
-          "n": 34,
-          "gbs": "Dat is, geen gewone spijze en drank als andere mensen gebruikende. Want hij at sprinkhanen en wilden honing, Matth. 3:4.",
-          "sv2026": ""
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Mt. 3:4"
         }
       ]
     },
@@ -528,7 +674,8 @@
       "sv2026": "De Zoon des mensen is gekomen, hij eet en drinkt, en u zegt: Zie daar een mens [die] <Grieks: eter en wijndrinker.> een vraat en wijnzuiper [is,] een vriend van tollenaars en zondaars.",
       "kanttekeningen": [
         {
-          "n": 35,
+          "label": "35",
+          "kind": "kanttekening",
           "gbs": "Gr. eter en wijndrinker.",
           "sv2026": "Grieks: eter en wijndrinker."
         }
@@ -542,9 +689,16 @@
       "sv2026": "Maar de wijsheid is <Zie $Mt. 11:19$.> gerechtvaardigd geworden door al haar kinderen.",
       "kanttekeningen": [
         {
-          "n": 36,
+          "label": "36",
+          "kind": "kanttekening",
           "gbs": "Zie Matth. 11:19.",
           "sv2026": "Zie $Mt. 11:19$."
+        },
+        {
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Mt. 11:19"
         }
       ]
     },
@@ -556,9 +710,10 @@
       "sv2026": "$Mt. 26:6; Mk. 14:3; Jh. 11:2; 12:3$ En een van de Farizeeën verzocht hem dat hij met hem zou eten; en toen hij in het huis van de Farizeeër binnengegaan was, ging hij aan tafel.",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "l",
+          "kind": "verwijzing",
           "gbs": "Matth. 26:6. Mark. 14:3. Joh. 11:2; 12:3.",
-          "sv2026": ""
+          "sv2026": "Mt. 26:6; Mk. 14:3; Jh. 11:2; 12:3"
         }
       ]
     },
@@ -570,14 +725,22 @@
       "sv2026": "En zie, een vrouw in de stad, die <Dat is, een grote zondares, van een oneerlijk leven, en in de stad daarvoor bekend.> een zondares was, toen zij vernam dat hij in het huis van de Farizeeër aan tafel was, bracht <Zie iets dergelijks $Mt. 26:7; Mk. 14:3$.> een albasten fles met zalf.",
       "kanttekeningen": [
         {
-          "n": 37,
+          "label": "37",
+          "kind": "kanttekening",
           "gbs": "Dat is, een grote zondares, van een oneerlijk leven, en in de stad daarvoor bekend.",
           "sv2026": "Dat is, een grote zondares, van een oneerlijk leven, en in de stad daarvoor bekend."
         },
         {
-          "n": 38,
+          "label": "38",
+          "kind": "kanttekening",
           "gbs": "Zie dergelijk Matth. 26:7. Mark. 14:3.",
           "sv2026": "Zie iets dergelijks $Mt. 26:7; Mk. 14:3$."
+        },
+        {
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Mt. 26:7; Mk. 14:3"
         }
       ]
     },
@@ -589,14 +752,22 @@
       "sv2026": "En zij ging staan achter hem, aan zijn voeten, <Namelijk, bedroefd over haar zonden, zoals Petrus $Lk. 22:62$.> en zij weende en begon zijn <Dit zijn tekenen van haar boetvaardigheid en liefde tot Christus, die voortkomen uit het gevoel van haar zonden, en van de vergeving daarvan, zoals blijkt uit vers 47.> voeten nat te maken met tranen, en zij droogde ze af met het haar van haar hoofd, en kuste zijn voeten, en zalfde ze met de zalf.",
       "kanttekeningen": [
         {
-          "n": 39,
+          "label": "39",
+          "kind": "kanttekening",
           "gbs": "Namelijk bedroefd zijnde over haar zonden, gelijk Petrus Luk. 22:62.",
           "sv2026": "Namelijk, bedroefd over haar zonden, zoals Petrus $Lk. 22:62$."
         },
         {
-          "n": 40,
+          "label": "40",
+          "kind": "kanttekening",
           "gbs": "Dit zijn tekenen van haar boetvaardigheid en liefde tot Christus, spruitende uit het gevoelen van haar zonden en van de vergeving derzelve, als blijkt vers 47.",
           "sv2026": "Dit zijn tekenen van haar boetvaardigheid en liefde tot Christus, die voortkomen uit het gevoel van haar zonden, en van de vergeving daarvan, zoals blijkt uit vers 47."
+        },
+        {
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Lk. 22:62"
         }
       ]
     },
@@ -608,9 +779,10 @@
       "sv2026": "En toen de Farizeeër, die hem genodigd had, [zulks] zag, sprak hij bij zichzelf en zei: $Lk. 15:2$ Deze zou, als hij een Profeet was, wel weten wie en wat voor vrouw deze is, die hem aanraakt; want zij is een zondares.",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "m",
+          "kind": "verwijzing",
           "gbs": "Luk. 15:2.",
-          "sv2026": ""
+          "sv2026": "Lk. 15:2"
         }
       ]
     },
@@ -630,19 +802,28 @@
       "sv2026": "[Jezus zei:] <Wat het oogmerk van Christus in deze gelijkenis is, toont hij zelf, wanneer hij die toepast op deze vrouw, vers 47.> Een zekere <Of, uitlener, bankhouder.> schuldheer had twee schuldenaars; de een was vijfhonderd <Grieks: Denarii. Zie de waarde daarvan $Mt. 18:28$.> penningen schuldig, en de ander vijftig.",
       "kanttekeningen": [
         {
-          "n": 41,
+          "label": "41",
+          "kind": "kanttekening",
           "gbs": "Wat het oogmerk van Christus in deze gelijkenis is, toont Hij Zelf, als Hij die toepast op deze vrouw, vers 47.",
           "sv2026": "Wat het oogmerk van Christus in deze gelijkenis is, toont hij zelf, wanneer hij die toepast op deze vrouw, vers 47."
         },
         {
-          "n": 42,
+          "label": "42",
+          "kind": "kanttekening",
           "gbs": "Of: uitlener, bankhouder.",
           "sv2026": "Of, uitlener, bankhouder."
         },
         {
-          "n": 43,
+          "label": "43",
+          "kind": "kanttekening",
           "gbs": "Gr. denarii. Zie de waarde daarvan Matth. 18:28.",
           "sv2026": "Grieks: Denarii. Zie de waarde daarvan $Mt. 18:28$."
+        },
+        {
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Mt. 18:28"
         }
       ]
     },
@@ -679,9 +860,16 @@
       "sv2026": "En hij keerde zich om naar de vrouw, en zei tot Simon: Ziet u deze vrouw? Ik ben in uw huis gekomen, <Met deze drie betoningen van vriendschap ontvingen de Ouden in die landen hun vreemde gasten en vrienden, zoals te zien is $Gn. 18:4; 19:2; Ex. 4:27; 18:7; Pr. 9:8; Ps. 23:5; Rm. 16:16$ en elders.> u hebt geen water tot mijn voeten gegeven, maar deze heeft mijn voeten met tranen nat gemaakt, en met het haar van haar hoofd afgedroogd.",
       "kanttekeningen": [
         {
-          "n": 44,
+          "label": "44",
+          "kind": "kanttekening",
           "gbs": "Met deze drie betoningen van vriendschap ontvingen de ouden in die landen hun vreemde gasten en vrienden, gelijk te zien is Gen. 18:4; 19:2. Ex. 4:27; 18:7. Ps. 23:5. Pred. 9:8. Rom. 16:16, en elders.",
           "sv2026": "Met deze drie betoningen van vriendschap ontvingen de Ouden in die landen hun vreemde gasten en vrienden, zoals te zien is $Gn. 18:4; 19:2; Ex. 4:27; 18:7; Pr. 9:8; Ps. 23:5; Rm. 16:16$ en elders."
+        },
+        {
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Gn. 18:4; 19:2; Ex. 4:27; 18:7; Pr. 9:8; Ps. 23:5; Rm. 16:16"
         }
       ]
     },
@@ -693,7 +881,8 @@
       "sv2026": "U hebt mij geen kus gegeven; maar deze heeft, <Anders: sinds ik binnenkwam.> sinds zij binnenkwam, niet opgehouden mijn voeten te kussen.",
       "kanttekeningen": [
         {
-          "n": 45,
+          "label": "45",
+          "kind": "kanttekening",
           "gbs": "Anders: van dat Ik ingekomen ben.",
           "sv2026": "Anders: sinds ik binnenkwam."
         }
@@ -715,7 +904,8 @@
       "sv2026": "Daarom zeg ik u: haar zonden, die vele waren, zijn [haar] vergeven, <Hiermee wordt niet aangewezen, dat deze haar grote liefde de oorzaak was van de vergeving van haar zonden, maar dat zij een vrucht, bewijs en teken was, dat haar vele zonden vergeven waren: en dat zij daarom nu niet meer voor zo'n zondares was te houden: zoals blijkt uit de daarop volgende woorden, en het geheel oogmerk van deze gelijkenis. Waaruit duidelijk kan worden gezien, dat de vergeving van de zonden gesteld wordt als de oorzaak van de liefde, en niet de liefde de oorzaak van de vergeving van de zonden: zoals ook in het vijftigste vers gezegd wordt, dat het geloof en niet de liefde haar behouden heeft.> want zij heeft veel liefgehad; maar wie weinig vergeven wordt, die heeft weinig lief.",
       "kanttekeningen": [
         {
-          "n": 46,
+          "label": "46",
+          "kind": "kanttekening",
           "gbs": "Hiermede wordt niet aangewezen, dat deze haar grote liefde de oorzaak was van de vergeving van haar zonden, maar dat dezelve een vrucht, bewijs en teken was, dat haar vele zonden vergeven waren; en dat zij daarom nu niet meer voor zulke zondares was te houden; gelijk blijkt uit de naastvolgende woorden en het gehele oogmerk van deze gelijkenis. Waaruit klaarlijk kan gezien worden, dat de vergeving der zonden gesteld wordt de oorzaak van de liefde, en niet de liefde de oorzaak van de vergeving der zonden; gelijk ook in vers 50 gezegd wordt, dat het geloof en niet de liefde haar behouden heeft.",
           "sv2026": "Hiermee wordt niet aangewezen, dat deze haar grote liefde de oorzaak was van de vergeving van haar zonden, maar dat zij een vrucht, bewijs en teken was, dat haar vele zonden vergeven waren: en dat zij daarom nu niet meer voor zo'n zondares was te houden: zoals blijkt uit de daarop volgende woorden, en het geheel oogmerk van deze gelijkenis. Waaruit duidelijk kan worden gezien, dat de vergeving van de zonden gesteld wordt als de oorzaak van de liefde, en niet de liefde de oorzaak van de vergeving van de zonden: zoals ook in het vijftigste vers gezegd wordt, dat het geloof en niet de liefde haar behouden heeft."
         }
@@ -729,9 +919,10 @@
       "sv2026": "En hij zei tot haar: $Mt. 9:2$ Uw zonden zijn [u] vergeven.",
       "kanttekeningen": [
         {
-          "n": 1,
+          "label": "n",
+          "kind": "verwijzing",
           "gbs": "Matth. 9:2.",
-          "sv2026": ""
+          "sv2026": "Mt. 9:2"
         }
       ]
     },
@@ -743,14 +934,16 @@
       "sv2026": "En die mede aanzaten, begonnen te zeggen <Of, onder elkaar.> bij zichzelf, $Mt. 9:3$ Wie is deze, die ook de zonden vergeeft?",
       "kanttekeningen": [
         {
-          "n": 47,
+          "label": "47",
+          "kind": "kanttekening",
           "gbs": "Of: onder elkander.",
           "sv2026": "Of, onder elkaar."
         },
         {
-          "n": 2,
+          "label": "o",
+          "kind": "verwijzing",
           "gbs": "Matth. 9:3.",
-          "sv2026": ""
+          "sv2026": "Mt. 9:3"
         }
       ]
     },
@@ -762,9 +955,16 @@
       "sv2026": "Maar hij zei tot de vrouw: Uw <Dat is, door uw geloof in mij hebt u deze weldaad van de vergeving van uw zonden ontvangen, waardoor u behouden wordt ter zaligheid. Zie $Hd. 26:18$.> geloof heeft u behouden; ga heen in vrede.",
       "kanttekeningen": [
         {
-          "n": 48,
+          "label": "48",
+          "kind": "kanttekening",
           "gbs": "Dat is, door uw geloof in Mij hebt gij deze weldaad der vergeving uwer zonden ontvangen, waardoor gij behouden wordt ter zaligheid. Zie Hand. 26:18.",
           "sv2026": "Dat is, door uw geloof in mij hebt u deze weldaad van de vergeving van uw zonden ontvangen, waardoor u behouden wordt ter zaligheid. Zie $Hd. 26:18$."
+        },
+        {
+          "label": null,
+          "kind": "verwijzing",
+          "gbs": "",
+          "sv2026": "Hd. 26:18"
         }
       ]
     }
