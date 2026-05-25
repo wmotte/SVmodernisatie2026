@@ -88,6 +88,33 @@
       "generated_at": "2026-05-25T14:10:01.140802Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 3
+    },
+    {
+      "verse_number": 10,
+      "original": "Groet Apellem, die <D. die door vele perijckelen ende swarigheden geoeffent zijnde, oprecht is bevonden.> beproeft is in Christo. Groetse die van <’t Schijnt dat dese Aristobulus noch selve geen Christen en was, om dat de Apostel hem niet en doet groeten: doch blijckt evenwel dat hy een bescheyden man is geweest, die de Christenen in sijn huysgesin leedt.> Aristobuli [huysgesin zijn.]",
+      "modernized": "Groet Apelles, die <Dat is, die door vele gevaren en zwarigheden geoefend is en oprecht is bevonden.> beproefd is in Christus. Groet hen die van <Deze Aristobulus was kennelijk zelf nog geen Christen, omdat de Apostel hem niet laat groeten: toch blijkt wel dat hij een bescheiden man is geweest, die de Christenen in zijn huisgezin duldde.> Aristobulus [huisgezin zijn.]",
+      "source_text": "ἀσπάσασθε Ἀπελλῆν τὸν δόκιμον ἐν Χριστῷ. ἀσπάσασθε τοὺς ἐκ τῶν Ἀριστοβούλου.",
+      "generated_at": "2026-05-25T14:13:54.970937Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 11,
+      "original": "Groet Herodionem, <Siet vers 7.> die van mijn maeghschap is. Groetse die van Narcissi [huysgesin zijn,] de gene [namelick] <D. die Christenen zijn. Want die noch Heydenen waren in dat huysgesin, die en groet hy niet.> die in den Heere zijn.",
+      "modernized": "Groet Herodion, <Zie vers 7.> die van mijn familie is. Groet hen die van Narcissus [huisgezin zijn,] degenen [namelijk] <Dat is, die Christenen zijn. Want die nog Heidenen waren in dat huisgezin, die groet hij niet.> die in de Heere zijn.",
+      "source_text": "ἀσπάσασθε Ἡροδίωνα τὸν συγγενῆ μου. ἀσπάσασθε τοὺς ἐκ τῶν Ναρκίσσου, τοὺς ὄντας ἐν Κυρίῳ.",
+      "generated_at": "2026-05-25T14:14:20.688270Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 12,
+      "original": "Groet Tryphenam ende Tryphosam, [vrouwen] <Siet vers 6.> die in den Heere arbeyden. Groet Persidem de beminde [suster,] die veel gearbeyt heeft in den Heere.",
+      "modernized": "Groet Tryfena en Tryfosa, [vrouwen] <Zie vers 6.> die in de Heere arbeiden. Groet Persis de beminde [zuster,] die veel gearbeid heeft in de Heere.",
+      "source_text": "ἀσπάσασθε Τρύφαιναν καὶ Τρυφῶσαν τὰς κοπιώσας ἐν Κυρίῳ. ἀσπάσασθε Περσίδα τὴν ἀγαπητήν, ἥτις πολλὰ ἐκοπίασεν ἐν Κυρίῳ.",
+      "generated_at": "2026-05-25T14:14:37.647491Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ],
   "epilogue": {
