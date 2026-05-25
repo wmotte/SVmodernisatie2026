@@ -21,8 +21,8 @@
 | 17 | Efeze | 6 | 155 | 14.694 | 0 | 0% |
 | 18 | 2 Korintiërs | 13 | 256 | 20.569 | 2 | 15% |
 | 19 | Hebreeën | 13 | 303 | 34.033 | 0 | 0% |
-| 20 | Romeinen | 16 | 434 | 44.816 | 15 | 94% |
-| 21 | 1 Korintiërs | 16 | 437 | 42.471 | 13 | 81% |
+| 20 | Romeinen | 16 | 434 | 44.816 | 16 | 100% |
+| 21 | 1 Korintiërs | 16 | 437 | 42.471 | 14 | 88% |
 | 22 | Marcus | 16 | 678 | 25.216 | 16 | 100% |
 | 23 | Johannes | 21 | 880 | 43.365 | 0 | 0% |
 | 24 | Openbaring | 22 | 405 | 62.547 | 0 | 0% |
@@ -34,11 +34,11 @@
 
 | Eenheid | Gedaan | Totaal | % |
 |---------|--------|--------|---|
-| Hoofdstukken | 77 | 260 | 29,6% |
-| Verzen | 2769 | 7959 | 34,8% |
-| Woorden | 164.209 | 562.108 | 29,2% |
+| Hoofdstukken | 79 | 260 | 30,4% |
+| Verzen | 2851 | 7959 | 35,8% |
+| Woorden | 171.134 | 562.108 | 30,4% |
 
-Gedaan: 2 Johannes (1 hfst / 13 v), 3 Johannes (1 hfst / 15 v), Filemon (1 hfst / 25 v), Judas (1 hfst / 25 v), 1 Petrus (2 hfst / 65 v), 1 Johannes (1 hfst / 10 v), 2 Korintiërs (2 hfst / 44 v), Romeinen (15 hfst / 407 v), 1 Korintiërs (13 hfst / 336 v), Marcus (16 hfst / 678 v), Lucas (24 hfst / 1151 v).
+Gedaan: 2 Johannes (1 hfst / 13 v), 3 Johannes (1 hfst / 15 v), Filemon (1 hfst / 25 v), Judas (1 hfst / 25 v), 1 Petrus (2 hfst / 65 v), 1 Johannes (1 hfst / 10 v), 2 Korintiërs (2 hfst / 44 v), Romeinen (16 hfst / 434 v), 1 Korintiërs (14 hfst / 391 v), Marcus (16 hfst / 678 v), Lucas (24 hfst / 1151 v).
 
 Totaal woorden in de bron: 562.108 (incl. kanttekeningen in `<...>`).
 Totalen (hoofdstukken/verzen) geteld uit `input.sv/` (SV1657).
