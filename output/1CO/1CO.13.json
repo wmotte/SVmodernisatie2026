@@ -34,6 +34,42 @@
       "generated_at": "2026-05-25T10:33:38.492238Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 4,
+      "original": "<Dat is, een mensche die de rechte liefde heeft.> $Proverb. 10.12. 1.Petr. 4.8.$ De liefde is <Dat is, verdraeght door de genade des Heyligen Geests de smaetheden ende ongelijcken haer aengedaen, ende bedwinght den toorne ende wraeckgierigheyt.> lanckmoedigh, sy is <Dat is, genegen ende bereyt om een yegelick, oock de vyanden, goet te doen.> goedertieren: de liefde en is niet afgunstigh: de liefde en handelt niet <Ofte, verkeerdelick, voorbaerlick, dertelick, Namelick, met woorden ofte met wercken.> lichtveerdelick, sy en is niet <Dat is, hoovaerdigh, eergierigh, veel van haer selven houdende, ende andere verachtende.> opgeblasen,",
+      "modernized": "<Dat is, een mens die de rechte liefde heeft.> $Sp. 10:12; 1Pt. 4:8$ De liefde is <Dat is, verdraagt door de genade van de Heilige Geest de smaadheden en het onrecht haar aangedaan, en bedwingt de toorn en wraakgierigheid.> lankmoedig, zij is <Dat is, geneigd en bereid om iedereen, ook de vijanden, goed te doen.> goedertieren; de liefde is niet afgunstig; de liefde handelt niet <Of, verkeerd, voorbarig, dartel, Namelijk, met woorden of met werken.> lichtvaardig, zij is niet <Dat is, hovaardig, eerzuchtig, veel van zichzelf houdend en anderen verachtend.> opgeblazen,",
+      "source_text": "ἡ ἀγάπη μακροθυμεῖ, χρηστεύεται· ἡ ἀγάπη οὐ ζηλοῖ· ἡ ἀγάπη οὐ περπερεύεται, οὐ φυσιοῦται,",
+      "generated_at": "2026-05-25T10:37:27.735499Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 5,
+      "original": "Sy en handelt niet <Ofte, onbetamelick.> ongeschicktelick, $1.Corinth. 10.24. Philip. 2.4.$ sy en soeckt <Gr. de dingen die haer selfs zijn; Dat is, de dingen die haer eygen voordeel aengaen, maer het welvaren des naesten, ende van velen.> haer selven niet, sy en wordt niet <Namelick, tot toorne, hevigheyt, ende wraeckgierigheyt.> verbittert, sy en <Dat is, overleght niet in haer gemoedt, hoese den naesten eenigh quaet sal doen uyt wraeckgierigheyt: Ofte, en vermoedt niet quaets in het doen des naesten, uyt arghwaen ende quaet nadencken, ofte en reeckent het quaet niet toe.> denckt geen quaet,",
+      "modernized": "Zij handelt niet <Of, onbetamelijk.> ongepast, $1Kor. 10:24; Fp. 2:4$ zij zoekt <Grieks: de dingen die van haarzelf zijn; Dat is, de dingen die haar eigen voordeel aangaan, maar het welzijn van de naaste en van velen.> zichzelf niet, zij wordt niet <Namelijk, tot toorn, hevigheid en wraakgierigheid.> verbitterd, zij <Dat is, overlegt niet in haar gemoed hoe zij de naaste enig kwaad zal doen uit wraakgierigheid; Of, vermoedt geen kwaad in het doen van de naaste, uit argwaan en kwaad nadenken, of rekent het kwaad niet toe.> denkt geen kwaad,",
+      "source_text": "οὐκ ἀσχημονεῖ, οὐ ζητεῖ τὰ ἑαυτῆς, οὐ παροξύνεται, οὐ λογίζεται τὸ κακόν,",
+      "generated_at": "2026-05-25T10:38:03.486949Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 6,
+      "original": "Sy en verblijdt haer niet <Ofte, over de ongerechtigheyt, Namelick, als yemant onrecht doet, ofte oock als yemant onrecht aengedaen wort.> in de ongerechtigheyt, $2.Ioan. vers 4.$ maer sy verblijdt haer <Of, met de waerheyt, Dat is, als yemant doet, ofte aen yemant gedaen wort, dat recht ende behoorlick is.> in de waerheyt:",
+      "modernized": "Zij verblijdt zich niet <Of, over de ongerechtigheid, Namelijk, als iemand onrecht doet, of ook als iemand onrecht aangedaan wordt.> in de ongerechtigheid, $2Jh. 1:4$ maar zij verblijdt zich <Of, met de waarheid, Dat is, als iemand doet, of aan iemand gedaan wordt, dat recht en behoorlijk is.> in de waarheid;",
+      "source_text": "οὐ χαίρει ἐπὶ τῇ ἀδικίᾳ, συγχαίρει δὲ τῇ ἀληθείᾳ,",
+      "generated_at": "2026-05-25T10:38:30.969868Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "subject": "bibref 2 Johannes",
+          "context": "hoofdtekst-ref",
+          "choice": "$2Jh. 1:4$",
+          "reason": "Bron $2.Ioan. vers 4.$ is een chapterless verwijzing (2 Joh. heeft 1 hoofdstuk); bibref.py normaliseert de vorm zonder hoofdstuknummer niet, dus handmatig naar 1:4 conform de concordantie met 2JOH 1:4."
+        }
+      ]
     }
   ]
 }
