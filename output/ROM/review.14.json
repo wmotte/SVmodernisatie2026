@@ -1,7 +1,7 @@
 {
   "book": "ROM",
   "chapter": 14,
-  "reviewed_at": "2026-05-25T09:16:08+00:00",
+  "reviewed_at": "2026-05-25T09:17:26+00:00",
   "passes": [
     {
       "pass": 1,
@@ -14,6 +14,19 @@
       "ran_at": "2026-05-25T09:16:08+00:00",
       "mode": "scan",
       "issues_total": 6
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-05-25T09:17:26+00:00",
+      "mode": "verify",
+      "actions": [
+        "ROM-14-7-001: rebuttal verified",
+        "ROM-14-7-002: rebuttal verified",
+        "ROM-14-15-001: rebuttal verified",
+        "ROM-14-18-001: rebuttal verified",
+        "ROM-14-23-001: rebuttal verified",
+        "ROM-14-7-003: rebuttal verified"
+      ]
     }
   ],
   "issues": [
@@ -27,8 +40,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ROM-14-7-001",
-      "status": "rebutted",
-      "rebuttal": "'wiens' is een productief genitief-betrekkelijk voornaamwoord in modern verzorgd Nederlands (Van Dale, ANS: 'de man wiens werk bekend is'), geen SV-fossiel als der/des/den. Hier verwijst het terug naar antecedent 'de Heere' (mannelijk enkelvoud); 'naar wiens bevel' is de correcte moderne vorm. Projectbreed consistent (60 bestanden, o.a. ROM 2:29/5:12/6:3/10:15/11:36). §2.7-productiviteitstest geslaagd."
+      "status": "verified",
+      "rebuttal": "'wiens' is een productief genitief-betrekkelijk voornaamwoord in modern verzorgd Nederlands (Van Dale, ANS: 'de man wiens werk bekend is'), geen SV-fossiel als der/des/den. Hier verwijst het terug naar antecedent 'de Heere' (mannelijk enkelvoud); 'naar wiens bevel' is de correcte moderne vorm. Projectbreed consistent (60 bestanden, o.a. ROM 2:29/5:12/6:3/10:15/11:36). §2.7-productiviteitstest geslaagd.",
+      "verified_at": "2026-05-25T09:17:26+00:00"
     },
     {
       "category": "genitief pronomen wiens/wier",
@@ -40,8 +54,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ROM-14-7-002",
-      "status": "rebutted",
-      "rebuttal": "'wiens' in 'tot wiens dienst' is hetzelfde productieve genitief-relativum (Van Dale, ANS), terugverwijzend naar antecedent 'de Heere'; modern verzorgd NL, geen archaïsme. Onderscheidt zich van 7-001 doordat het de tweede coördinatie (dienst, niet bevel) betreft binnen dezelfde betrekkelijke bijzin. §2.7-test geslaagd; corpusbreed gehandhaafd."
+      "status": "verified",
+      "rebuttal": "'wiens' in 'tot wiens dienst' is hetzelfde productieve genitief-relativum (Van Dale, ANS), terugverwijzend naar antecedent 'de Heere'; modern verzorgd NL, geen archaïsme. Onderscheidt zich van 7-001 doordat het de tweede coördinatie (dienst, niet bevel) betreft binnen dezelfde betrekkelijke bijzin. §2.7-test geslaagd; corpusbreed gehandhaafd.",
+      "verified_at": "2026-05-25T09:17:26+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -53,8 +68,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ROM-14-15-001",
-      "status": "rebutted",
-      "rebuttal": "'indien' is productief modern formeel Nederlands (§2.7-productiviteitstest geslaagd: actief in juridische/formele registers, geen verwarringsrisico). Conditioneel voegwoord concordant met v20 in dit hoofdstuk; projectbreed consistent (ROM 1-13). Geen drempel-archaïsme."
+      "status": "verified",
+      "rebuttal": "'indien' is productief modern formeel Nederlands (§2.7-productiviteitstest geslaagd: actief in juridische/formele registers, geen verwarringsrisico). Conditioneel voegwoord concordant met v20 in dit hoofdstuk; projectbreed consistent (ROM 1-13). Geen drempel-archaïsme.",
+      "verified_at": "2026-05-25T09:17:26+00:00"
     },
     {
       "category": "§2.3b bijwoord-coda",
@@ -66,8 +82,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ROM-14-18-001",
-      "status": "rebutted",
-      "rebuttal": "Geen overtreding: 'Gode welbehaaglijk, en aangenaam voor de mensen' — 'welbehaaglijk' is hier naamwoordelijk deel van het gezegde (predicaatsadjectief bij copula 'is'), geen adverbiale coda in de zin van §2.3b. De §2.3b-coda viseert bijwoorden op -lijk aan zinseinde; hier is het een bijvoeglijk naamwoord bij 'is', concordant met SV 'is Gode welbehagelick'. Grieks εὐάρεστος = welgevallig (predicatief)."
+      "status": "verified",
+      "rebuttal": "Geen overtreding: 'Gode welbehaaglijk, en aangenaam voor de mensen' — 'welbehaaglijk' is hier naamwoordelijk deel van het gezegde (predicaatsadjectief bij copula 'is'), geen adverbiale coda in de zin van §2.3b. De §2.3b-coda viseert bijwoorden op -lijk aan zinseinde; hier is het een bijvoeglijk naamwoord bij 'is', concordant met SV 'is Gode welbehagelick'. Grieks εὐάρεστος = welgevallig (predicatief).",
+      "verified_at": "2026-05-25T09:17:26+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -79,8 +96,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ROM-14-23-001",
-      "status": "rebutted",
-      "rebuttal": "'indien' is productief modern formeel Nederlands (§2.7-productiviteitstest geslaagd: actief in juridische/formele registers, geen verwarringsrisico). Conditioneel voegwoord concordant met v20 in dit hoofdstuk; projectbreed consistent (ROM 1-13). Geen drempel-archaïsme."
+      "status": "verified",
+      "rebuttal": "'indien' is productief modern formeel Nederlands (§2.7-productiviteitstest geslaagd: actief in juridische/formele registers, geen verwarringsrisico). Conditioneel voegwoord concordant met v20 in dit hoofdstuk; projectbreed consistent (ROM 1-13). Geen drempel-archaïsme.",
+      "verified_at": "2026-05-25T09:17:26+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -98,8 +116,9 @@
         22
       ],
       "id": "ROM-14-7-003",
-      "status": "rebutted",
-      "rebuttal": "Geen overtreding: de scanner-prefixheuristiek mist dat de SV-stam 'hemselv'/'sichselv' (ἑαυτῷ/ἑαυτοῦ) in dit hoofdstuk consequent met 'voor zichzelf' (v7,8) resp. 'zichzelf' (v22) wordt weergegeven — concordant en correct. De drift-melding is een false-positive: er is geen divergente woordkeuze, alleen orthografische variatie in de SV-bron."
+      "status": "verified",
+      "rebuttal": "Geen overtreding: de scanner-prefixheuristiek mist dat de SV-stam 'hemselv'/'sichselv' (ἑαυτῷ/ἑαυτοῦ) in dit hoofdstuk consequent met 'voor zichzelf' (v7,8) resp. 'zichzelf' (v22) wordt weergegeven — concordant en correct. De drift-melding is een false-positive: er is geen divergente woordkeuze, alleen orthografische variatie in de SV-bron.",
+      "verified_at": "2026-05-25T09:17:26+00:00"
     }
   ]
 }
