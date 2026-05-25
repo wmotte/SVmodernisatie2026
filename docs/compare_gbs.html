@@ -201,12 +201,26 @@
             return { svHtml, gbsHtml };
         }
 
+        function isNumericLabel(label) {
+            return /^\d+$/.test(String(label || '').trim());
+        }
+
         // Render de kanttekeningen-kolom (side = 'gbs' | 'sv2026').
         function renderKantList(pairs, side, title) {
-            const rel = (pairs || []).filter(p => (side === 'gbs' ? p.gbs : p.sv2026));
+            const visiblePairs = (pairs || []).filter(p => {
+                // Defensief tegen oude diff_gbs-data: verwijzingen die uit een
+                // kanttekening kwamen, kunnen als losse numerieke items zijn
+                // meegekomen. Die zijn geen tekstverwijzingen en veroorzaken
+                // dubbele refs in de moderne kanttekeningenlijst.
+                if (side === 'sv2026' && p.kind === 'verwijzing' && isNumericLabel(p.label)) {
+                    return false;
+                }
+                return side === 'gbs' ? p.gbs : p.sv2026;
+            });
+            const rel = visiblePairs.filter(p => (side === 'gbs' ? p.gbs : p.sv2026));
             if (rel.length === 0) return '';
             let num = 0;
-            const items = (pairs || []).map(p => {
+            const items = visiblePairs.map(p => {
                 const d = diffNotePair(p.gbs, p.sv2026);
                 const html = side === 'gbs' ? d.gbsHtml : d.svHtml;
                 if (!html) return '';

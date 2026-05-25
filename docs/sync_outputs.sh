@@ -87,9 +87,9 @@ with open(os.path.join(dst, "manifest.json"), encoding="utf-8") as f:
     manifest = json.load(f)
 maxch = {book: max(chs) for book, chs in manifest.items() if chs}
 
-# compare.html / compare_hsv.html / compare_all.html: const MAX_CHAPTER = {...};
+# compare*.html: const MAX_CHAPTER = {...};
 obj = "{ " + ", ".join(f"{b}: {c}" for b, c in sorted(maxch.items())) + " }"
-for fn in ("compare.html", "compare_hsv.html", "compare_all.html"):
+for fn in ("compare.html", "compare_hsv.html", "compare_gbs.html", "compare_all.html", "compare_all2.html"):
     p = os.path.join(docs, fn)
     src = open(p, encoding="utf-8").read()
     new = re.sub(r"const MAX_CHAPTER = \{[^}]*\};",
@@ -114,11 +114,12 @@ echo "Sync voltooid: $DST"
 
 # Regenereer diff-bestanden voor elk hoofdstuk dat in initiatiefsv27 staat,
 # beperkt tot boeken waarvoor we in output/ ten minste 1 hoofdstuk hebben.
-# Drie diff-scripts voeden drie verschillende viewers:
+# Vier diff-scripts voeden de verschillende viewers:
 #   - compare_sv2027.py → docs/diff_<BOEK>_<H>.json     (compare.html)
 #   - compare_hsv.py    → docs/diff_hsv_<BOEK>_<H>.json (compare_hsv.html)
-#   - compare_all.py    → docs/diff_all_<BOEK>_<H>.json (compare_all.html)
-# Alle drie moeten worden ververst, anders toont de bijhorende viewer
+#   - compare_all.py    → docs/diff_all_<BOEK>_<H>.json (compare_all.html / compare_all2.html)
+#   - compare_gbs.py    → docs/diff_gbs_<BOEK>_<H>.json (compare_gbs.html / compare_all2.html)
+# Alle relevante diff-bestanden moeten worden ververst, anders toont de bijhorende viewer
 # een stale modernisatie. compare_*.py gebruiken relatieve paden, dus
 # draaien vanuit REPO_ROOT.
 cd "$REPO_ROOT"
@@ -146,6 +147,11 @@ for book in "${BOOKS[@]}"; do
     python3 scripts/compare_hsv.py "$book"
   fi
 
-  # compare_all.html — werkt ook met alleen SV1657 + SV2026; altijd genereren.
+  # compare_all.html / compare_all2.html — werkt ook met alleen SV1657 + SV2026; altijd genereren.
   python3 scripts/compare_all.py "$book"
+
+  # compare_gbs.html / compare_all2.html — alleen als gbs/<BOEK>/ bestaat.
+  if [[ -d "$REPO_ROOT/gbs/$book" ]]; then
+    python3 scripts/compare_gbs.py "$book"
+  fi
 done
