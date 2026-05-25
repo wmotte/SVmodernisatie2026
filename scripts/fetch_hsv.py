@@ -193,14 +193,20 @@ def fetch_hsv(book: str, chapter: int, debug: bool = False) -> dict | None:
         return None
 
     verses: dict[int, str] = {}
-    for p in container.find_all("p", class_="p", recursive=True):
+    # HSV gebruikt <p class="p"> voor proza en <p class="q"> voor poëzie-opmaak
+    # (bv. 1 Kor. 13:4-13). Bij poëzie staat het versnummer alleen op de eerste
+    # regel; vervolgregels hebben geen v-marker en horen bij het lopende vers.
+    current_v: int | None = None
+    for p in container.find_all("p", class_=["p", "q"], recursive=True):
         v_num, text = parse_verse_paragraph(p)
-        if v_num is None or not text:
+        if v_num is not None:
+            current_v = v_num
+        if current_v is None or not text:
             continue
-        if v_num in verses:
-            verses[v_num] += " " + text
+        if current_v in verses:
+            verses[current_v] += " " + text
         else:
-            verses[v_num] = text
+            verses[current_v] = text
 
     if not verses:
         print(f"Error: geen verzen geëxtraheerd uit {url}", file=sys.stderr)
