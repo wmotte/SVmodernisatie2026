@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-759RQ3B53S"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-759RQ3B53S');
+    </script>
+    <script>
+        (function() {
+            const saved = localStorage.getItem('theme');
+            const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+            if (saved === 'dark' || (!saved && prefersDark)) {
+                document.documentElement.classList.add('dark');
+            }
+        })();
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GBS Vergelijker</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = { darkMode: 'class' };
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/diff_match_patch/20121119/diff_match_patch.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;700&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+        .bible-text { font-family: 'Libre Baskerville', serif; line-height: 1.8; }
+
+        .ours-text { text-shadow: 0 0 0.35px currentColor; }
+
+        /* Pastel diff highlights (GBS ↔ modernisatie) */
+        .diff-added { background-color: #dcfce7; color: #166534; }
+        .diff-removed { background-color: #fee2e2; color: #991b1b; }
+        .dark .diff-added { background-color: #064e3b; color: #34d399; }
+        .dark .diff-removed { background-color: #7f1d1d; color: #f87171; }
+
+        .marker { color: #f97316; font-size: 0.8em; font-weight: bold; vertical-align: super; margin: 0 2px; cursor: help; }
+
+        /* Kanttekeningen-lijst per kolom */
+        .kant-list { font-size: 0.8rem; line-height: 1.55; border-top: 1px solid #e5e7eb; padding-top: 0.6rem; margin-top: 0.85rem; }
+        .dark .kant-list { border-color: #374151; }
+        .kant-item { margin-bottom: 0.5rem; color: #4b5563; }
+        .dark .kant-item { color: #cbd5e1; }
+        .kant-num { font-weight: 700; color: #6b7280; margin-right: 0.3rem; }
+        .dark .kant-num { color: #9ca3af; }
+
+        .col-head { font-size: 9px; text-transform: uppercase; letter-spacing: 0.06em; font-weight: 700; margin-bottom: 0.35rem; }
+
+        /* Notes panel — onze interne beslis-notities */
+        .notes-panel { border-left: 4px solid #fbbf24; background-color: #fffbeb; border-radius: 0 0.25rem 0.25rem 0; margin-top: 0.85rem; }
+        .dark .notes-panel { border-color: #f59e0b; background-color: rgba(120, 53, 15, 0.2); }
+        .notes-toggle { width: 100%; display: flex; align-items: center; justify-content: space-between; padding: 0.4rem 0.6rem; text-align: left; font-size: 0.8rem; font-weight: 500; color: #78350f; background: transparent; border: 0; cursor: pointer; }
+        .notes-toggle:hover { background-color: #fef3c7; }
+        .dark .notes-toggle { color: #fef3c7; }
+        .notes-body { padding: 0 0.6rem 0.6rem 0.6rem; display: flex; flex-direction: column; gap: 0.6rem; }
+        .note-item { font-size: 0.72rem; color: #78350f; }
+        .dark .note-item { color: #fef3c7; }
+        .note-badge { display: inline-block; padding: 0.1rem 0.5rem; border-radius: 0.25rem; font-size: 0.6rem; text-transform: uppercase; letter-spacing: 0.05em; margin-right: 0.4rem; }
+        .badge-twijfel { background-color: #fef3c7; color: #92400e; }
+        .badge-afwijking { background-color: #ffe4e6; color: #9f1239; }
+        .badge-context { background-color: #e0f2fe; color: #075985; }
+        .badge-default { background-color: #e5e7eb; color: #1f2937; }
+        .dark .badge-default { background-color: #374151; color: #e5e7eb; }
+
+        #scroll-top-btn { position: fixed; bottom: 1.5rem; right: 1.5rem; z-index: 50; padding: 0.75rem; border-radius: 9999px; background-color: #0d9488; color: white; border: 0; cursor: pointer; box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1); transition: opacity 0.2s; opacity: 0; pointer-events: none; }
+        #scroll-top-btn.visible { opacity: 1; pointer-events: auto; }
+        #scroll-top-btn:hover { background-color: #0f766e; }
+    </style>
+</head>
+<body class="bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-gray-200 min-h-screen">
+    <div id="app" class="max-w-7xl mx-auto px-4 py-8">
+        <header class="mb-8 flex flex-col md:flex-row justify-between items-center gap-4">
+            <div>
+                <h1 class="text-3xl font-bold text-teal-600 dark:text-teal-400">GBS Vergelijker</h1>
+                <p id="chapter-label" class="text-lg font-medium text-gray-500"></p>
+                <p class="text-xs text-gray-400 mt-1">Statenvertaling 1657 (origineel) ↔ GBS-editie met kanttekeningen ↔ SV-modernisatie 2026</p>
+            </div>
+
+            <div class="flex items-center gap-4">
+                <nav class="flex rounded-lg shadow-sm gap-2">
+                    <select id="book-select" aria-label="Kies boek" class="px-4 py-2 bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500"></select>
+                    <select id="chapter-select" aria-label="Kies hoofdstuk" class="px-4 py-2 bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500"></select>
+                </nav>
+                <button id="theme-toggle" aria-label="Wissel donker/licht" class="px-3 py-2 bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-700 rounded-lg">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 hidden dark:block" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2m0 14v2M5.64 5.64l1.42 1.42m9.88 9.88l1.42 1.42M3 12h2m14 0h2M5.64 18.36l1.42-1.42m9.88-9.88l1.42-1.42M12 7a5 5 0 100 10 5 5 0 000-10z"/></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 block dark:hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
+                </button>
+            </div>
+        </header>
+
+        <div class="flex flex-wrap items-center gap-4 mb-8 text-xs text-gray-500 dark:text-gray-400">
+            <span class="font-semibold uppercase tracking-wide text-[10px]">Diff GBS ↔ modernisatie:</span>
+            <span><span class="diff-added px-1.5 py-0.5 rounded">groen</span> = staat in GBS, niet in modernisatie</span>
+            <span><span class="diff-removed px-1.5 py-0.5 rounded">rood</span> = staat in modernisatie, niet in GBS</span>
+        </div>
+
+        <div id="content" class="space-y-10">
+            <div class="text-center py-24"><p class="animate-pulse">Laden van data...</p></div>
+        </div>
+
+        <footer class="mt-24 pt-8 border-t border-gray-200 dark:border-gray-800 text-center text-gray-500 text-xs">
+            <p>GBS-tekst &amp; kanttekeningen: Gereformeerde Bijbelstichting (statenvertaling.nl) — uitsluitend ter vergelijking.</p>
+            <p class="mt-1">Gegenereerd voor SV Modernisatie Project 2026</p>
+        </footer>
+    </div>
+
+    <button id="scroll-top-btn" aria-label="Naar boven" title="Naar boven">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M5 15l7-7 7 7" /></svg>
+    </button>
+
+    <script>
+        const dmp = new diff_match_patch();
+        const PUA = 0xE000;
+
+        function escapeHtml(s) {
+            return String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+        }
+
+        function stripLeadingVerseNum(text) {
+            return (text || '').replace(/^\s*\d+\s+/, '');
+        }
+
+        // --- Origineel (SV1657): markers <…>/$…$ inline tonen, geen diff. ---
+        function extractSvMarkers(text) {
+            const notes = [];
+            const cleanText = (text || '').replace(/(<[^<>]*>|\$[^$]*\$)/g, (match) => {
+                notes.push(match.replace(/[<>$]/g, '').trim());
+                return String.fromCharCode(PUA + notes.length - 1);
+            });
+            return { cleanText, notes };
+        }
+
+        function injectMarkers(html, notes) {
+            return html.replace(/[\uE000-\uF8FF]/g, (m) => {
+                const idx = m.charCodeAt(0) - PUA;
+                const note = notes[idx] || '';
+                return `<span class="marker" title="${escapeHtml(note)}">[${idx + 1}]</span>`;
+            });
+        }
+
+        function renderOriginal(text) {
+            // PUA-placeholders overleven escapeHtml; daarna markers injecteren.
+            const { cleanText, notes } = extractSvMarkers(stripLeadingVerseNum(text));
+            return injectMarkers(escapeHtml(cleanText), notes);
+        }
+
+        // --- Schone leestekst voor de body-diff (markers volledig verwijderd). ---
+        function cleanSvBody(text) {
+            return stripLeadingVerseNum(text || '')
+                .replace(/<[^<>]*>/g, '')   // kanttekeningen
+                .replace(/\$[^$]*\$/g, '')  // bijbelverwijzingen
+                .replace(/\s+/g, ' ').trim();
+        }
+        function cleanGbsBody(text) {
+            return stripLeadingVerseNum(text || '')
+                .replace(/⟦\d+⟧/g, '')      // kanttekening-ankers
+                .replace(/\s+/g, ' ').trim();
+        }
+
+        // Diff body: sv2026 (rood = uniek in modernisatie) vs gbs (groen = uniek in GBS).
+        function dualDiffBody(svText, gbsText) {
+            const sv = cleanSvBody(svText);
+            const gbs = cleanGbsBody(gbsText);
+            if (!sv && !gbs) return { html2026: '', htmlGbs: '' };
+            if (!sv) return { html2026: '', htmlGbs: escapeHtml(gbs) };
+            if (!gbs) return { html2026: escapeHtml(sv), htmlGbs: '' };
+
+            const diffs = dmp.diff_main(sv, gbs);
+            dmp.diff_cleanupSemantic(diffs);
+            let h2026 = '', hGbs = '';
+            diffs.forEach(([type, txt]) => {
+                const e = escapeHtml(txt);
+                if (type === 0) { h2026 += e; hGbs += e; }
+                else if (type === 1) { hGbs += `<span class="diff-added">${e}</span>`; }
+                else if (type === -1) { h2026 += `<span class="diff-removed">${e}</span>`; }
+            });
+            return { html2026: h2026, htmlGbs: hGbs };
+        }
+
+        // Diff één kanttekening-paar. Strip $…$ in de SV2026-noot tot de kale ref.
+        function diffNotePair(gbsNote, svNote) {
+            const sv = (svNote || '').replace(/\$([^$]*)\$/g, '$1').trim();
+            const gbs = (gbsNote || '').trim();
+            if (!sv && !gbs) return { svHtml: '', gbsHtml: '' };
+            if (!sv) return { svHtml: '', gbsHtml: escapeHtml(gbs) };
+            if (!gbs) return { svHtml: escapeHtml(sv), gbsHtml: '' };
+            const diffs = dmp.diff_main(sv, gbs);
+            dmp.diff_cleanupSemantic(diffs);
+            let svHtml = '', gbsHtml = '';
+            diffs.forEach(([type, txt]) => {
+                const e = escapeHtml(txt);
+                if (type === 0) { svHtml += e; gbsHtml += e; }
+                else if (type === 1) { gbsHtml += `<span class="diff-added">${e}</span>`; }
+                else if (type === -1) { svHtml += `<span class="diff-removed">${e}</span>`; }
+            });
+            return { svHtml, gbsHtml };
+        }
+
+        // Render de kanttekeningen-kolom (side = 'gbs' | 'sv2026').
+        function renderKantList(pairs, side, title) {
+            const rel = (pairs || []).filter(p => (side === 'gbs' ? p.gbs : p.sv2026));
+            if (rel.length === 0) return '';
+            const items = (pairs || []).map(p => {
+                const d = diffNotePair(p.gbs, p.sv2026);
+                const html = side === 'gbs' ? d.gbsHtml : d.svHtml;
+                if (!html) return '';
+                return `<div class="kant-item"><span class="kant-num">${p.n}</span>${html}</div>`;
+            }).join('');
+            if (!items.trim()) return '';
+            return `<div class="kant-list"><div class="col-head text-gray-400">${title}</div>${items}</div>`;
+        }
+
+        function renderNotesPanel(notes, verseNumber) {
+            if (!Array.isArray(notes) || notes.length === 0) return '';
+            const panelId = `notes-panel-v${verseNumber}`;
+            const items = notes.map(note => {
+                const type = note.type || 'note';
+                const badgeClass = ['twijfel', 'afwijking', 'context'].includes(type) ? `badge-${type}` : 'badge-default';
+                const lines = [`<div><span class="note-badge ${badgeClass}">${escapeHtml(type)}</span>${note.subject ? `<span class="font-semibold">${escapeHtml(note.subject)}</span>` : ''}</div>`];
+                if (note.context) lines.push(`<div><span class="font-medium">Context:</span> ${escapeHtml(note.context)}</div>`);
+                if (note.choice) lines.push(`<div><span class="font-medium">Keuze:</span> ${escapeHtml(note.choice)}</div>`);
+                if (Array.isArray(note.alternatives) && note.alternatives.length) lines.push(`<div><span class="font-medium">Alternatieven:</span> ${note.alternatives.map(escapeHtml).join(' / ')}</div>`);
+                if (note.reason) lines.push(`<div><span class="font-medium">Reden:</span> ${escapeHtml(note.reason)}</div>`);
+                return `<div class="note-item">${lines.join('')}</div>`;
+            }).join('');
+            return `<div class="notes-panel"><button class="notes-toggle" type="button" data-target="${panelId}" aria-expanded="false"><span>Beslis-notities (${notes.length})</span><span class="notes-caret">▸</span></button><div class="notes-body" id="${panelId}" hidden>${items}</div></div>`;
+        }
+
+        const MAX_CHAPTER = { LUK: 24 };
+        const BOOK_NAMES = { LUK: 'Lucas' };
+
+        function colCell(headClass, headText, bodyHtml, extraHtml) {
+            return `<div>
+                <h4 class="col-head ${headClass}">${headText}</h4>
+                <p class="bible-text text-lg">${bodyHtml || '<span class="italic text-gray-400 text-sm">—</span>'}</p>
+                ${extraHtml || ''}
+            </div>`;
+        }
+
+        async function init() {
+            const params = new URLSearchParams(window.location.search);
+            const book = params.get('book') || 'LUK';
+            const chapter = parseInt(params.get('chapter') || '1');
+            const maxCh = MAX_CHAPTER[book] || 1;
+
+            const contentEl = document.getElementById('content');
+            const chapterLabel = document.getElementById('chapter-label');
+
+            const bookSelect = document.getElementById('book-select');
+            for (const b of Object.keys(MAX_CHAPTER)) {
+                const opt = document.createElement('option');
+                opt.value = b; opt.textContent = BOOK_NAMES[b] || b;
+                if (b === book) opt.selected = true;
+                bookSelect.appendChild(opt);
+            }
+            bookSelect.onchange = () => { window.location.search = `?book=${bookSelect.value}&chapter=1`; };
+
+            const chapterSelect = document.getElementById('chapter-select');
+            for (let i = 1; i <= maxCh; i++) {
+                const opt = document.createElement('option');
+                opt.value = i; opt.textContent = `Hoofdstuk ${i}`;
+                if (i === chapter) opt.selected = true;
+                chapterSelect.appendChild(opt);
+            }
+            chapterSelect.onchange = () => { window.location.search = `?book=${book}&chapter=${chapterSelect.value}`; window.scrollTo(0,0); };
+
+            document.getElementById('theme-toggle').onclick = () => {
+                const isDark = document.documentElement.classList.toggle('dark');
+                localStorage.setItem('theme', isDark ? 'dark' : 'light');
+            };
+
+            contentEl.addEventListener('click', (e) => {
+                const btn = e.target.closest('.notes-toggle');
+                if (!btn) return;
+                const body = document.getElementById(btn.dataset.target);
+                if (!body) return;
+                if (body.hasAttribute('hidden')) {
+                    body.removeAttribute('hidden'); btn.setAttribute('aria-expanded', 'true');
+                    btn.querySelector('.notes-caret').textContent = '▾';
+                } else {
+                    body.setAttribute('hidden', ''); btn.setAttribute('aria-expanded', 'false');
+                    btn.querySelector('.notes-caret').textContent = '▸';
+                }
+            });
+
+            try {
+                const response = await fetch(`diff_gbs_${book}_${chapter}.json`);
+                if (!response.ok) throw new Error(`Hoofdstuk ${chapter} niet gevonden`);
+                const data = await response.json();
+
+                chapterLabel.innerText = `${BOOK_NAMES[data.book] || data.book} ${data.chapter}`;
+                contentEl.innerHTML = '';
+
+                // Introduction.
+                const intro = data.introduction;
+                if (intro && (intro.original || intro.gbs || intro.sv2026)) {
+                    const di = dualDiffBody(intro.sv2026, intro.gbs);
+                    contentEl.innerHTML += `
+                        <div class="bg-teal-50/50 dark:bg-teal-900/10 rounded-xl p-6 border border-teal-100 dark:border-teal-900/30">
+                            <h3 class="text-center text-xs font-bold mb-6 uppercase tracking-widest text-teal-600 dark:text-teal-400">Inleiding</h3>
+                            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-sm italic text-gray-500 dark:text-gray-400">
+                                ${colCell('text-gray-400', 'Statenvertaling 1657', renderOriginal(intro.original))}
+                                ${colCell('text-teal-500', 'GBS-editie', di.htmlGbs)}
+                                ${colCell('text-sky-500', 'Modernisatie 2026', di.html2026)}
+                            </div>
+                        </div>`;
+                }
+
+                // Verses — 3 kolommen.
+                data.verses.forEach(v => {
+                    const card = document.createElement('div');
+                    card.className = 'space-y-4 pb-8 border-b border-gray-200 dark:border-gray-800 last:border-0';
+
+                    const di = dualDiffBody(v.sv2026, v.gbs_text);
+                    const origHtml = renderOriginal(v.original);
+                    const kant = v.kanttekeningen || [];
+
+                    card.innerHTML = `
+                        <div class="flex items-center gap-2">
+                            <span class="text-lg font-bold text-teal-600">Vers ${v.verse_number}</span>
+                            ${v.status !== 'modernized' ? `<span class="text-[9px] bg-amber-100 dark:bg-amber-900/30 text-amber-700 px-1.5 py-0.5 rounded uppercase font-bold">Pending</span>` : ''}
+                        </div>
+                        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 pl-4 border-l-2 border-gray-100 dark:border-gray-800">
+                            ${colCell('text-gray-400', 'Statenvertaling 1657', `<span class="text-gray-500 dark:text-gray-400">${origHtml}</span>`)}
+                            ${colCell('text-teal-500', 'GBS-editie + kanttekeningen', di.htmlGbs, renderKantList(kant, 'gbs', 'Kanttekeningen (GBS)'))}
+                            ${colCell('text-sky-500', 'Modernisatie 2026', `<span class="ours-text">${di.html2026}</span>`, renderKantList(kant, 'sv2026', 'Kanttekeningen (modernisatie)') + renderNotesPanel(v.notes, v.verse_number))}
+                        </div>`;
+                    contentEl.appendChild(card);
+                });
+
+            } catch (err) {
+                contentEl.innerHTML = `
+                    <div class="bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800 rounded-xl p-12 text-center">
+                        <p class="text-red-700 dark:text-red-300 font-bold text-xl">Data niet gevonden</p>
+                        <p class="text-gray-600 dark:text-gray-400 mt-2">${escapeHtml(err.message)}</p>
+                        <div class="mt-8"><a href="?book=LUK&chapter=1" class="text-teal-600 underline">Lucas 1</a></div>
+                    </div>`;
+            }
+        }
+
+        init();
+
+        const scrollBtn = document.getElementById('scroll-top-btn');
+        scrollBtn.onclick = () => window.scrollTo({ top: 0, behavior: 'smooth' });
+        window.addEventListener('scroll', () => {
+            scrollBtn.classList.toggle('visible', window.scrollY > 400);
+        }, { passive: true });
+    </script>
+</body>
+</html>
