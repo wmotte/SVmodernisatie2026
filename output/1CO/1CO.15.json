@@ -138,6 +138,45 @@
       "generated_at": "2026-05-25T15:08:02.341189Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 13,
+      "original": "Ende indien daer geen opstandinge der dooden en is, <D. soo sal dese ongerijmtheyt daer uyt moeten volgen, dat Christus niet opgeweckt en is uyt den dooden. De reden hier van is, om dat Christus ’t hooft is, ende de geloovige sijne leden, die te samen een lichaem maken. Soo de leden niet en souden levendigh gemaeckt worden, soo en soude het hooft oock niet levendigh zijn. Want het soude een wanschapen lichaem zijn, daer van het hooft soude leven, ende de leden doot zijn ende blijven.> soo en is Christus oock niet opgeweckt.",
+      "modernized": "En indien er geen opstanding van de doden is, <Dat is, zo zal deze ongerijmdheid daaruit moeten volgen, dat Christus niet opgewekt is uit de doden. De reden hiervan is, dat Christus het hoofd is, en de gelovigen zijn leden, die samen één lichaam maken. Zo de leden niet levend gemaakt zouden worden, zo zou het hoofd ook niet levend zijn. Want het zou een wanstaltig lichaam zijn, waarvan het hoofd zou leven, en de leden dood zouden zijn en blijven.> zo is Christus ook niet opgewekt.",
+      "source_text": "εἰ δὲ ἀνάστασις νεκρῶν οὐκ ἔστιν, οὐδὲ Χριστὸς ἐγήγερται·",
+      "generated_at": "2026-05-25T15:11:25.681802Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 14,
+      "original": "Ende indien Christus niet opgeweckt en is, soo is dan <D. mijne ende der andre Apostelen.> onse predikinge <D. valsch, onwaerachtigh.> ydel, ende <D. uw’ geloove en heeft geenen vasten gront, ende sal niet bekomen ’t eynde des selven, het welck is de saligheyt der zielen.> ydel is oock uw’ geloove.",
+      "modernized": "En indien Christus niet opgewekt is, dan is dus <Dat is, mijn en die van de andere Apostelen.> onze prediking <Dat is, vals, onwaarachtig.> ijdel, en <Dat is, uw geloof heeft geen vaste grond, en zal het einddoel daarvan niet bereiken, dat de zaligheid van de zielen is.> ijdel is ook uw geloof.",
+      "source_text": "εἰ δὲ Χριστὸς οὐκ ἐγήγερται, κενὸν ἄρα τὸ κήρυγμα ἡμῶν, κενὴ δὲ καὶ ἡ πίστις ὑμῶν.",
+      "generated_at": "2026-05-25T15:12:11.246160Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "ydel (Gr. kenon/kene) -> ijdel",
+          "context": "hoofdtekst, 2x 'vergeefs' teruggedraaid naar 'ijdel'",
+          "choice": "ijdel (concordant met 1KOR 15:10 'niet ijdel geweest', zelfde lexeme kenos in zelfde hoofdstuk)",
+          "alternatives": [
+            "vergeefs"
+          ],
+          "reason": "concordantie-normalisatie binnen hetzelfde hoofdstuk: SV 'ydel' -> 'ijdel' (productief modern NL); 'vergeefs' brak de concordantie met v10"
+        }
+      ]
+    },
+    {
+      "verse_number": 15,
+      "original": "Ende soo worden wy oock bevonden valsche getuygen Godts: <Ofte, om dat wy tegen Godt getuyght hebben.> Want wy hebben van Godt getuyght, dat hy Christum opgeweckt heeft: dien hy niet en heeft opgeweckt, soo namelick de doode niet opgeweckt en worden.",
+      "modernized": "En zo worden wij ook bevonden valse getuigen van God: <Of, omdat wij tegen God getuigd hebben.> Want wij hebben van God getuigd, dat hij Christus opgewekt heeft: die hij niet opgewekt heeft, indien namelijk de doden niet opgewekt worden.",
+      "source_text": "εὑρισκόμεθα δὲ καὶ ψευδομάρτυρες τοῦ Θεοῦ, ὅτι ἐμαρτυρήσαμεν κατὰ τοῦ Θεοῦ ὅτι ἤγειρε τὸν Χριστόν, ὃν οὐκ ἤγειρεν, εἴπερ ἄρα νεκροὶ οὐκ ἐγείρονται.",
+      "generated_at": "2026-05-25T15:12:33.471681Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
