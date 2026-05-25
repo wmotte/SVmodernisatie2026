@@ -7,21 +7,12 @@
   <img src="parallelbijbel/LUK_voorbeeld.png" alt="Voorbeeldpagina parallelbijbel Lucas" width="520">
 </p>
 
-<object data="parallelbijbel/LUK_voorbeeld.pdf" type="application/pdf" width="100%" height="900">
-  <p><a href="parallelbijbel/LUK_voorbeeld.pdf">Open de parallelbijbel-PDF van Lucas.</a></p>
-</object>
+Voorbeeld-PDF's van de parallelbijbel:
 
-<object data="parallelbijbel/MRK_voorbeeld.pdf" type="application/pdf" width="100%" height="900">
-  <p><a href="parallelbijbel/MRK_voorbeeld.pdf">Open de parallelbijbel-PDF van Markus.</a></p>
-</object>
-
-<object data="parallelbijbel/PHM_voorbeeld.pdf" type="application/pdf" width="100%" height="900">
-  <p><a href="parallelbijbel/PHM_voorbeeld.pdf">Open de parallelbijbel-PDF van Filemon.</a></p>
-</object>
-
-<object data="parallelbijbel/ROM_voorbeeld.pdf" type="application/pdf" width="100%" height="900">
-  <p><a href="parallelbijbel/ROM_voorbeeld.pdf">Open de parallelbijbel-PDF van Romeinen.</a></p>
-</object>
+- [Lucas](parallelbijbel/LUK_voorbeeld.pdf)
+- [Markus](parallelbijbel/MRK_voorbeeld.pdf)
+- [Filemon](parallelbijbel/PHM_voorbeeld.pdf)
+- [Romeinen](parallelbijbel/ROM_voorbeeld.pdf)
 
 ---
 
