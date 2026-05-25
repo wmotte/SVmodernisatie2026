@@ -72,8 +72,11 @@ cmd_new() {
     echo "Worktree klaar: $wt_path"
     echo "Branch:         $branch (vanaf origin/$base)"
     echo
+    # Agent-CLI is LLM-agnostisch: zet $WT_AGENT_CLI (bv. claude, codex, deepseek);
+    # default claude voor backward-compat.
+    local agent_cli="${WT_AGENT_CLI:-claude}"
     echo "Volgende stap:"
-    echo "  cd $wt_path && claude"
+    echo "  cd $wt_path && $agent_cli"
 }
 
 cmd_list() {
