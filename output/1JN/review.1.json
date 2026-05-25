@@ -1,0 +1,127 @@
+{
+  "book": "1JN",
+  "chapter": 1,
+  "reviewed_at": "2026-05-25T04:40:36+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-25T04:40:29+00:00",
+      "mode": "scan",
+      "issues_total": 7
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-25T04:40:36+00:00",
+      "mode": "verify",
+      "actions": [
+        "1JN-1-1-001: rebuttal verified",
+        "1JN-1-1-002: rebuttal verified",
+        "1JN-1-6-001: rebuttal verified",
+        "1JN-1-7-001: rebuttal verified",
+        "1JN-1-8-001: rebuttal verified",
+        "1JN-1-9-001: rebuttal verified",
+        "1JN-1-10-001: rebuttal verified"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 1,
+      "severity": "soft",
+      "quote_modernized": "…olgende woorden zijn menselijke natuur, naar welke hij gehoord, gezien en getast…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "1JN-1-1-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-25T04:40:36+00:00"
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 1,
+      "severity": "soft",
+      "quote_modernized": "…ke hij gehoord, gezien en getast is, en in welke hij ook door wonderen en anders…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "1JN-1-1-002",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-25T04:40:36+00:00"
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 6,
+      "severity": "soft",
+      "quote_modernized": "Indien wij zeggen dat wij gemeenschap me…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "1JN-1-6-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-25T04:40:36+00:00"
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 7,
+      "severity": "soft",
+      "quote_modernized": "Maar indien wij   in het licht wandelen, zoal…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "1JN-1-7-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-25T04:40:36+00:00"
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 8,
+      "severity": "soft",
+      "quote_modernized": "  Indien wij zeggen dat wij geen zonde heb…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "1JN-1-8-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-25T04:40:36+00:00"
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 9,
+      "severity": "soft",
+      "quote_modernized": "  Indien wij onze zonden   belijden, hij i…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "1JN-1-9-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-25T04:40:36+00:00"
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 10,
+      "severity": "soft",
+      "quote_modernized": "Indien wij zeggen dat wij niet gezondigd…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "1JN-1-10-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-25T04:40:36+00:00"
+    }
+  ]
+}
