@@ -869,12 +869,24 @@ protocol en de waarborgen rond de HSV-spiegel.
 - Skills en scripts operationeel: modernisatie, memory, bibref,
   validatie, linters, semantic-review, adversarial-review,
   meta-review, process-memory en dry-run curator.
-- Compleet gemoderniseerd in `output/`: **Lucas** (24 hoofdstukken,
-  1151 verzen) en **Markus** (16 hoofdstukken, 678 verzen), inclusief
-  hoofdstukreviews.
-- Lopende/partiële output aanwezig voor onder meer `ROM` (1–15),
-  `1CO` (1–14), `2CO` (1–3), `1PE` (1–3), `PHM`, `JUD`, `2JN`, `3JN`
-  en `1JN 1`.
+- Gemoderniseerde boeken in `output/` (met parallel-PDF onder
+  `parallelbijbel/<AFK>_voorbeeld.pdf`):
+
+  | Afkorting | Volledige titel | Status |
+  | --------- | --------------- | ------ |
+  | `LUK` | Het Evangelie naar Lucas | gereed (24/24 hoofdstukken) |
+  | `MRK` | Het Evangelie naar Markus | gereed (16/16 hoofdstukken) |
+  | `ROM` | De brief van Paulus aan de Romeinen | in aanbouw (1–15 van 16) |
+  | `1CO` | De eerste brief van Paulus aan de Korinthiërs | in aanbouw (1–14 van 16) |
+  | `2CO` | De tweede brief van Paulus aan de Korinthiërs | in aanbouw (1–3 van 13) |
+  | `1PE` | De eerste brief van Petrus | in aanbouw (1–3 van 5) |
+  | `1JN` | De eerste brief van Johannes | in aanbouw (1 van 5) |
+  | `2JN` | De tweede brief van Johannes | gereed (1/1 hoofdstuk) |
+  | `3JN` | De derde brief van Johannes | gereed (1/1 hoofdstuk) |
+  | `JUD` | De brief van Judas | gereed (1/1 hoofdstuk) |
+  | `PHM` | De brief van Paulus aan Filemon | gereed (1/1 hoofdstuk) |
+
+  Lucas en Markus zijn compleet inclusief hoofdstukreviews.
 - `memory/verses.db` bevat momenteel 2769 versparen. De proceslaag bevat
   `output/META/decisions.jsonl` met 1276 records en een lokale
   FTS-index in `memory/process.db`.

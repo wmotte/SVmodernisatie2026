@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
-# Rebuild parallel-bible PDFs for LUK and MRK.
+# Rebuild parallel-bible PDFs for all books with output/.
 # Updates build/<BOOK>.pdf and <BOOK>_voorbeeld.pdf at repo level.
 set -euo pipefail
 
 cd "$(dirname "$0")"
 
-BOOKS=(LUK MRK PHM ROM)
+BOOKS=(LUK MRK ROM 1CO 2CO 1PE 1JN 2JN 3JN JUD PHM)
 
 for book in "${BOOKS[@]}"; do
   echo "=== Building ${book} ==="

@@ -33,6 +33,13 @@ BOOK_TITLES = {
     "JHN": "Het Evangelie naar Johannes",
     "PHM": "De brief van Paulus aan Filemon",
     "ROM": "De brief van Paulus aan de Romeinen",
+    "1CO": "De eerste brief van Paulus aan de Korinthiërs",
+    "2CO": "De tweede brief van Paulus aan de Korinthiërs",
+    "1PE": "De eerste brief van Petrus",
+    "1JN": "De eerste brief van Johannes",
+    "2JN": "De tweede brief van Johannes",
+    "3JN": "De derde brief van Johannes",
+    "JUD": "De brief van Judas",
 }
 
 # Token-grammar — segments of free text, <kanttekening>, $bibref$, [insertion].
