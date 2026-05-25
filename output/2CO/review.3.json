@@ -1,7 +1,7 @@
 {
   "book": "2CO",
   "chapter": 3,
-  "reviewed_at": "2026-05-25T11:25:07+00:00",
+  "reviewed_at": "2026-05-25T11:26:27+00:00",
   "passes": [
     {
       "pass": 1,
@@ -30,6 +30,12 @@
     {
       "pass": 3,
       "ran_at": "2026-05-25T11:25:07+00:00",
+      "mode": "verify",
+      "actions": []
+    },
+    {
+      "pass": 4,
+      "ran_at": "2026-05-25T11:26:27+00:00",
       "mode": "verify",
       "actions": []
     }
