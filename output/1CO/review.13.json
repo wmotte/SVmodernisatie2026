@@ -1,7 +1,7 @@
 {
   "book": "1CO",
   "chapter": 13,
-  "reviewed_at": "2026-05-25T10:53:12+00:00",
+  "reviewed_at": "2026-05-25T10:55:55+00:00",
   "passes": [
     {
       "pass": 1,
@@ -14,6 +14,19 @@
       "ran_at": "2026-05-25T10:54:53.592276+00:00",
       "mode": "orchestrator-resolve",
       "note": "3 fixed, 2 rebutted"
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-25T10:55:55+00:00",
+      "mode": "verify",
+      "actions": [
+        "1CO-13-1-001: verified",
+        "1CO-13-1-002: rebuttal verified",
+        "1CO-13-4-001: rebuttal verified",
+        "1CO-13-8-001: verified",
+        "1CO-13-9-001: rebuttal verified",
+        "1CO-13-11-001: verified"
+      ]
     }
   ],
   "issues": [
@@ -27,9 +40,10 @@
       "proposed_fix": "van de talen",
       "location": "kanttekening",
       "id": "1CO-13-1-001",
-      "status": "fixed",
+      "status": "verified",
       "fix_commit": "pending",
-      "fix_note": "kanttekening 'menigte der talen' -> 'menigte van de talen'; consistent met hoofdtekst v1 ('der menschen'->'van de mensen', 'der Engelen'->'van de Engelen'). Geen FOSSIL_GENITIVE_PAIRS-formule."
+      "fix_note": "kanttekening 'menigte der talen' -> 'menigte van de talen'; consistent met hoofdtekst v1 ('der menschen'->'van de mensen', 'der Engelen'->'van de Engelen'). Geen FOSSIL_GENITIVE_PAIRS-formule.",
+      "verified_at": "2026-05-25T10:55:55+00:00"
     },
     {
       "category": "kanttekening-luiheid (§2.3 in <…>)",
@@ -41,9 +55,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "1CO-13-1-002",
-      "status": "rebutted",
+      "status": "verified",
       "rebuttal": "'weerklinkende' is het SV-glos-alternatief (<Of, weerklinkende.>) voor het attributieve 'klinkende' bij 'metaal' (klinkende/weerklinkende metaal). §2.3 staat attributieve tegenwoordige deelwoorden voor een zelfst.naamwoord toe; dit is geen adverbiaal participium dat een finiete bijzin vervangt.",
-      "verified_at": "2026-05-25T10:54:53.592276+00:00"
+      "verified_at": "2026-05-25T10:55:55+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -55,9 +69,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "1CO-13-4-001",
-      "status": "rebutted",
+      "status": "verified",
       "rebuttal": "'lankmoedig' (Gr. μακροθυμεῖ) is de concordante, projectbrede weergave (1KOR 13:4 zelf in DB; vgl. lankmoedigheid corpusbreed). Transparant compositum (lang+moed), herkenbaar in religieus register; §2.7-drempeltest faalt niet. Scanner-fix ('omdat/hoewel/echter') is regex-misser, semantisch onjuist.",
-      "verified_at": "2026-05-25T10:54:53.592276+00:00"
+      "verified_at": "2026-05-25T10:55:55+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -69,9 +83,10 @@
       "proposed_fix": "van de Apostelen",
       "location": "kanttekening",
       "id": "1CO-13-8-001",
-      "status": "fixed",
+      "status": "verified",
       "fix_commit": "pending",
-      "fix_note": "kanttekening 'de tijden der Apostelen' -> 'de tijden van de Apostelen'. Genitief-archaisme, geen fossiel; conform genitief-regel HARD."
+      "fix_note": "kanttekening 'de tijden der Apostelen' -> 'de tijden van de Apostelen'. Genitief-archaisme, geen fossiel; conform genitief-regel HARD.",
+      "verified_at": "2026-05-25T10:55:55+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -83,8 +98,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "1CO-13-9-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-25T10:55:55+00:00"
     },
     {
       "category": "kanttekening-luiheid (§2.3 in <…>)",
@@ -96,9 +112,10 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "1CO-13-11-001",
-      "status": "fixed",
+      "status": "verified",
       "fix_commit": "pending",
-      "fix_note": "adverbiaal participium 'de dingen overwegende' -> finiete bijzin 'ik overwoog de dingen met mijn verstand' (§2.3 ook in kanttekening)."
+      "fix_note": "adverbiaal participium 'de dingen overwegende' -> finiete bijzin 'ik overwoog de dingen met mijn verstand' (§2.3 ook in kanttekening).",
+      "verified_at": "2026-05-25T10:55:55+00:00"
     }
   ]
 }
