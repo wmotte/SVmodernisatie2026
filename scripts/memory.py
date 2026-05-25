@@ -12,6 +12,8 @@ CLI:
     python scripts/memory.py add --from-output output/LUK/LUK.1.json --verse 1
     python scripts/memory.py add --from-output output/LUK/LUK.1.json --all
     python scripts/memory.py sync [--root output/] [--check-only] [--quiet]
+    python scripts/memory.py mark --book LUK --chapter 8 --verse 15 --review-flag ...
+    python scripts/memory.py trust --book LUK --chapter 8 --verse 15 --set 0.6 --reason ...
 
 Bij her-modernisatie: gebruik --exclude-book/chapter/verse om te
 voorkomen dat het te-her-moderniseren vers zichzelf als few-shot
@@ -107,6 +109,43 @@ def _blob_to_vec(blob: bytes) -> np.ndarray:
     return np.array(struct.unpack(f"{EMBED_DIM}f", blob), dtype=np.float32)
 
 
+def _metadata_defaults(meta: dict | None = None) -> dict:
+    """Backwards-compatible metadata shape for old and new DB rows."""
+    out = dict(meta or {})
+    out.setdefault("source_text", "")
+    out.setdefault("added_at", datetime.now(timezone.utc).isoformat())
+    out.setdefault("trust", 1.0)
+    out.setdefault("review_flags", [])
+    out.setdefault("last_reviewed_at", None)
+    out.setdefault("demoted_reason", None)
+    return out
+
+
+def _parse_metadata(raw: str | None) -> dict:
+    if not raw:
+        return _metadata_defaults()
+    try:
+        meta = json.loads(raw)
+    except json.JSONDecodeError:
+        meta = {}
+    if not isinstance(meta, dict):
+        meta = {}
+    return _metadata_defaults(meta)
+
+
+def _metadata_for_upsert(conn: sqlite3.Connection, book: str, chapter: int, verse: int, source_text: str) -> dict:
+    row = conn.execute(
+        "SELECT metadata FROM verses WHERE book=? AND chapter=? AND verse=?",
+        (book, chapter, verse),
+    ).fetchone()
+    meta = _parse_metadata(row[0] if row else None)
+    meta["source_text"] = source_text or ""
+    meta["added_at"] = datetime.now(timezone.utc).isoformat()
+    meta.setdefault("trust", 1.0)
+    meta.setdefault("review_flags", [])
+    return meta
+
+
 def cmd_count(_args: argparse.Namespace) -> None:
     conn = _connect()
     n = conn.execute("SELECT COUNT(*) FROM verses").fetchone()[0]
@@ -118,10 +157,7 @@ def _add_one(client: genai.Client, conn: sqlite3.Connection,
              sv: str, modern: str, source_text: str) -> None:
     emb_sv = _embed(client, sv, "RETRIEVAL_DOCUMENT")
     emb_mod = _embed(client, modern, "RETRIEVAL_DOCUMENT")
-    metadata = {
-        "source_text": source_text or "",
-        "added_at": datetime.now(timezone.utc).isoformat(),
-    }
+    metadata = _metadata_for_upsert(conn, book, chapter, verse, source_text)
     conn.execute(
         """
         INSERT INTO verses (book, chapter, verse, sv_origineel, modernisatie,
@@ -254,7 +290,7 @@ def cmd_sync(args: argparse.Namespace) -> None:
     ).fetchall()
     db_index = {}
     for r in db_rows:
-        meta = json.loads(r[5]) if r[5] else {}
+        meta = _parse_metadata(r[5])
         db_index[(r[0], r[1], r[2])] = {
             "sv": r[3],
             "modern": r[4],
@@ -433,13 +469,21 @@ def cmd_query(args: argparse.Namespace) -> None:
     else:  # both — neem max van beide assen per record
         sims = np.maximum(sv_mat @ q_vec, mod_mat @ q_vec)
 
+    metas = [_parse_metadata(r[7]) for r in rows]
+    trusts = np.array([
+        float(1.0 if m.get("trust") is None else m.get("trust"))
+        for m in metas
+    ], dtype=np.float32)
+    weighted = sims * trusts
+
     k = min(args.k, len(rows))
-    top_idx = np.argsort(-sims)[:k]
+    top_idx = np.argsort(-weighted)[:k]
 
     results = []
     for i in top_idx:
         r = rows[int(i)]
-        meta = json.loads(r[7]) if r[7] else {}
+        meta = metas[int(i)]
+        trust = float(1.0 if meta.get("trust") is None else meta.get("trust"))
         entry = {
             "book": r[0],
             "chapter": r[1],
@@ -447,7 +491,13 @@ def cmd_query(args: argparse.Namespace) -> None:
             "sv": r[3],
             "modern": r[4],
             "similarity": float(sims[int(i)]),
+            "weighted_score": float(weighted[int(i)]),
+            "trust": trust,
         }
+        if meta.get("review_flags"):
+            entry["review_flags"] = meta.get("review_flags")
+        if meta.get("demoted_reason"):
+            entry["demoted_reason"] = meta.get("demoted_reason")
         if not args.terse:
             entry["source_text"] = meta.get("source_text", "")
         results.append(entry)
@@ -458,6 +508,62 @@ def cmd_query(args: argparse.Namespace) -> None:
             ensure_ascii=False,
         )
     )
+
+
+def _get_existing_row(conn: sqlite3.Connection, args: argparse.Namespace) -> tuple[int, dict]:
+    row = conn.execute(
+        "SELECT id, metadata FROM verses WHERE book=? AND chapter=? AND verse=?",
+        (args.book, args.chapter, args.verse),
+    ).fetchone()
+    if row is None:
+        _eprint(f"FOUT: vers niet in memory: {args.book} {args.chapter}:{args.verse}")
+        sys.exit(2)
+    return row[0], _parse_metadata(row[1])
+
+
+def cmd_mark(args: argparse.Namespace) -> None:
+    conn = _connect()
+    row_id, meta = _get_existing_row(conn, args)
+    flags = list(meta.get("review_flags") or [])
+    flag = {
+        "flag": args.review_flag,
+        "reason": args.reason or "",
+        "marked_at": datetime.now(timezone.utc).isoformat(),
+    }
+    if flag not in flags:
+        flags.append(flag)
+    meta["review_flags"] = flags
+    meta["last_reviewed_at"] = flag["marked_at"]
+    conn.execute("UPDATE verses SET metadata=? WHERE id=?", (json.dumps(meta, ensure_ascii=False), row_id))
+    conn.commit()
+    print(json.dumps({
+        "ok": True,
+        "book": args.book,
+        "chapter": args.chapter,
+        "verse": args.verse,
+        "review_flags": flags,
+    }, ensure_ascii=False, indent=2))
+
+
+def cmd_trust(args: argparse.Namespace) -> None:
+    if args.value < 0 or args.value > 1:
+        _eprint("FOUT: --set moet tussen 0.0 en 1.0 liggen")
+        sys.exit(2)
+    conn = _connect()
+    row_id, meta = _get_existing_row(conn, args)
+    meta["trust"] = float(args.value)
+    meta["last_reviewed_at"] = datetime.now(timezone.utc).isoformat()
+    meta["demoted_reason"] = args.reason if args.value < 1.0 else None
+    conn.execute("UPDATE verses SET metadata=? WHERE id=?", (json.dumps(meta, ensure_ascii=False), row_id))
+    conn.commit()
+    print(json.dumps({
+        "ok": True,
+        "book": args.book,
+        "chapter": args.chapter,
+        "verse": args.verse,
+        "trust": meta["trust"],
+        "demoted_reason": meta["demoted_reason"],
+    }, ensure_ascii=False, indent=2))
 
 
 def main() -> None:
@@ -541,6 +647,22 @@ def main() -> None:
     )
     sp_q.add_argument("--exclude-verse", type=int, help="Zie --exclude-book.")
     sp_q.set_defaults(func=cmd_query)
+
+    sp_mark = sub.add_parser("mark", help="Voeg review-flag toe aan een memory-vers.")
+    sp_mark.add_argument("--book", required=True, help="3-letterige boekcode.")
+    sp_mark.add_argument("--chapter", required=True, type=int)
+    sp_mark.add_argument("--verse", required=True, type=int)
+    sp_mark.add_argument("--review-flag", required=True, help="Korte flag, bv. review-issue of corrected.")
+    sp_mark.add_argument("--reason", default="", help="Korte motivatie of issue-id.")
+    sp_mark.set_defaults(func=cmd_mark)
+
+    sp_trust = sub.add_parser("trust", help="Zet retrieval-trust voor een memory-vers.")
+    sp_trust.add_argument("--book", required=True, help="3-letterige boekcode.")
+    sp_trust.add_argument("--chapter", required=True, type=int)
+    sp_trust.add_argument("--verse", required=True, type=int)
+    sp_trust.add_argument("--set", dest="value", required=True, type=float, help="Trust tussen 0.0 en 1.0.")
+    sp_trust.add_argument("--reason", default="", help="Motivatie voor demotie/promotie.")
+    sp_trust.set_defaults(func=cmd_trust)
 
     args = parser.parse_args()
     args.func(args)

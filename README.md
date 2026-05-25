@@ -46,16 +46,12 @@ behoud van de SV-eigenheid (100% gedaan door taalmodellen).**
   - [Werking per vers](#werking-per-vers)
   - [Batch-orchestrator (orchestrator → subagent)](#batch-orchestrator-orchestrator--subagent)
 - [Portabiliteit — andere modellen of uitvoeromgevingen](#portabiliteit--andere-modellen-of-uitvoeromgevingen)
-  - [Wat is aanbiedersonafhankelijk (geen wijziging nodig)](#wat-is-aanbiedersonafhankelijk-geen-wijziging-nodig)
-  - [Wat is uitvoeromgeving-specifiek (uitvoeromgevingslaag)](#wat-is-uitvoeromgeving-specifiek-uitvoeromgevingslaag)
-  - [Wat is model-specifiek](#wat-is-model-specifiek)
-  - [Concreet: wat zou je moeten doen om te switchen?](#concreet-wat-zou-je-moeten-doen-om-te-switchen)
-  - [Realistische verwachtingen per alternatief](#realistische-verwachtingen-per-alternatief)
 - [Projectstructuur](#projectstructuur)
   - [Detail-documentatie](#detail-documentatie)
 - [Uitvoerformaat](#uitvoerformaat)
 - [Validatie en kwaliteit](#validatie-en-kwaliteit)
-  - [Aanvullende linters (deterministisch, snel, geen API-aanroepen)](#aanvullende-linters-deterministisch-snel-geen-api-aanroepen)
+  - [Unified Quality Dashboard (`lint_all.py`)](#unified-quality-dashboard-lint_allpy)
+  - [Procesgeheugen](#procesgeheugen)
   - [Diepere beoordeling (in-context)](#diepere-beoordeling-in-context)
   - [Adversariële beoordeling per hoofdstuk](#adversariële-beoordeling-per-hoofdstuk)
   - [Meta-adversariële review per boek](#meta-adversariële-review-per-boek)
@@ -73,15 +69,16 @@ behoud van de SV-eigenheid (100% gedaan door taalmodellen).**
 
 ## Cumulatieve kennisopbouw — wat dit project anders doet
 
-Dit project moderniseert de Statenvertaling 1657 met behoud van theologische consistentie (concordantie) over het hele boek heen. In plaats van verzen geïsoleerd te moderniseren, gebruikt het een gesloten feedback-loop gebaseerd op vier pilaren:
+Dit project moderniseert de Statenvertaling 1657 met behoud van theologische consistentie (concordantie) over het hele boek heen. In plaats van verzen geïsoleerd te moderniseren, gebruikt het een gesloten feedback-loop:
 
 1. **Zelfgroeiend geheugen**: Voltooide moderniseringen worden opgeslagen in `memory/verses.db`. Bij elk nieuw vers worden de meest gelijkaardige eerdere vertalingen automatisch als few-shot voorbeelden geladen.
 2. **Bi-directioneel zoeken**: Zoekacties in het geheugen vinden plaats op zowel het SV-origineel als op de moderne vertaling om eerdere woordkeuzes snel te spiegelen.
 3. **Schone context per batch**: De modernisatie-subagent start voor elke batch van 3 verzen met een schone AI-sessie om drift en hallucinaties in de context te voorkomen.
 4. **Terugkoppelingslus**: Regels en stoplists groeien mee tijdens het werk. Zodra we een archaïsme aan de blacklist toevoegen, flaggen de linters dit met terugwerkende kracht over de hele uitvoer-JSON.
-5. **Recursieve scaffolding-verbeteringen**:
-   - **Dynamische stoplijsten**: De carry-over linter (`lint_carryovers.py`) laadt geverifieerde `modernisatie`-tokens dynamisch uit `memory/verses.db` en voegt deze samen met de statische stoplijst. Dit elimineert de noodzaak om veelgebruikte Nederlandse woorden handmatig aan de stoplijst toe te voegen.
-   - **Automatische rebuttal-propagatie**: Weerleggingen van adversariële issues die in eerdere hoofdstukken al zijn gecontroleerd en geverifieerd (bijv. specifieke spellingresidu's of theologische keuzes zoals `'indien'`, `'voorwaar'`, of `'der tanden'`), worden door de adversarial scanner (`adversarial_scan.py`) automatisch gedetecteerd, overgedragen en gemarkeerd met status `"rebutted"` (inclusief contextuele safeguards). Dit voorkomt dat we dezelfde linguïstische uitzonderingen in elk hoofdstuk opnieuw moeten onderbouwen.
+5. **Procesgeheugen naast vers-memory**: `output/META/decisions.jsonl` en `memory/process.db` maken bestaande review-besluiten, notes, fixes en rebuttals doorzoekbaar. Ze zijn adviserend: elke nieuwe keuze moet nog steeds tegen SV1657, Grieks en de projectregels worden gecontroleerd.
+6. **Recursieve scaffolding-verbeteringen**:
+   - **Dynamische stoplijsten**: De carry-over linter (`lint_carryovers.py`) laadt geverifieerde `modernisatie`-tokens dynamisch uit `memory/verses.db` en voegt deze samen met de statische stoplijst.
+   - **Automatische rebuttal-propagatie en decision-search**: Eerdere, geverifieerde weerleggingen en beslissingen kunnen opnieuw worden opgezocht of door de scanner worden geërfd, met contextuele safeguards. Dit voorkomt dat dezelfde uitzonderingen in elk hoofdstuk opnieuw vanaf nul moeten worden onderbouwd.
 
 ---
 
@@ -121,10 +118,12 @@ uv sync
 cp .env.example .env          # vul GOOGLE_API_KEY in (Google AI Studio)
 ```
 
-**Voor Claude Code-gebruikers**: de echte bestanden heten `AGENTS.md` en
-`.agents/` — niet meer gecommit als `CLAUDE.md` / `.claude/`. Claude Code
-leest alleen de laatste twee, dus maak eenmalig lokaal symlinks aan
-(staat in `.gitignore`, dus blijft persoonlijk):
+Agent-CLI's die `AGENTS.md` en `.agents/` direct lezen kunnen meteen
+door. **Voor Claude Code-gebruikers**: de echte bestanden heten
+`AGENTS.md` en `.agents/` — niet meer gecommit als `CLAUDE.md` /
+`.claude/`. Claude Code leest alleen de laatste twee, dus maak
+eenmalig lokaal symlinks aan (staat in `.gitignore`, dus blijft
+persoonlijk):
 
 ```bash
 ln -s AGENTS.md CLAUDE.md
@@ -152,6 +151,8 @@ natuurlijke taal:
 ```
 moderniseer LUK 1:1-3
 moderniseer Lucas 1 vers 1 t/m 3
+moderniseer 2CO hoofdstuk 6
+moderniseer de volgende drie verzen van 2CO 6
 moderniseer LUK 1 introductie
 moderniseer LUK 24 epiloog
 ```
@@ -170,8 +171,8 @@ moderniseert:
 - **Directe vers-range** (`moderniseer LUK 1:1-3`) — `sv-modernize`
   draait inline in de huidige conversatie. Eén agent, één set verzen,
   klaar.
-- **Batch-orchestrator** (`moderniseer hoofdstuk 1`, `moderniseer de
-  volgende drie verzen`) — `sv-batch-orchestrate` neemt het over.
+- **Batch-orchestrator** (`moderniseer 2CO hoofdstuk 6`, `moderniseer de
+  volgende drie verzen van 2CO 6`) — `sv-batch-orchestrate` neemt het over.
   Detecteert het volgende blok van 3 onbehandelde verzen, **start een
   verse modernisatie-subagent met schone context** die `sv-modernize`
   uitvoert, doet daarna kritische beoordeling en scherpt de regelbestanden aan,
@@ -225,9 +226,10 @@ loopt de pipeline anders:
 hoofdagent (orchestrator)                              subagent
 ─────────────────────────                              ──────────────
 0.5 sync memory.py ↔ output/  (verouderde items opnieuw embedden)  ·
+0.6 procesgeheugen verversen (decisions + FTS-index)               ·
 1. detect next 3 verzen                                            ·
 2. start modernisatie-subagent ─ prompt: "doe X" ────►             ·
-   (model: opus, schone context)                                   · ┌─────────────┐
+   (schone context)                                                · ┌─────────────┐
                                                                    · │ sv-modernize│
                                                                    · │ per vers:   │
                                                                    · │   memory    │
@@ -242,6 +244,7 @@ hoofdagent (orchestrator)                              subagent
    - lint_archaismen (retro tegen blacklist)
    - lint_false_friends (verschoven betekenis)
    - sv-semantic-review (in-context: idioom + concordantie + HSV-spiegel)
+   - decision-memory raadplegen bij terugkerende twijfel
 4. regelbestandwijzigingen (ARCHAISMEN.md, blacklist, STOPLIST)
 5. commit + push + PR + merge per batch
 6. terug naar 0.5, tot hoofdstuk klaar
@@ -263,6 +266,12 @@ verwijzen — wat het hele concordantie-doel teniet zou doen. Detectie
 is goedkoop (alleen tekstvergelijking, geen API-aanroepen); opnieuw embedden via
 Gemini gebeurt alleen voor de daadwerkelijk gedrifte verzen.
 
+**Procesgeheugen** (Stap 0.6): bestaande review-issues, rebuttals,
+verse-notes en decisions worden lokaal doorzoekbaar gemaakt via
+`output/META/decisions.jsonl` en `memory/process.db`. Dit verandert geen
+modernisatie-output en is niet normatief; het levert alleen context voor
+terugkerende twijfelgevallen.
+
 De **subagent doet al het modernisatiewerk** (stap 2) — krijgt een
 vers-range, leest `AGENTS.md` en `sv-modernize` SKILL, schrijft de
 uitvoer, valideert, voegt toe aan het geheugen, en stopt met een kort
@@ -282,7 +291,7 @@ De modernisatie-pipeline is gelaagd en grotendeels model- en aanbiederonafhankel
 
 - **Aanbiederonafhankelijk**: Alle Python-scripts (`validate.py`, `lint_*.py`, `memory.py`, etc.), de JSON-invoer/uitvoer-schemas en de regelbestanden (`ARCHAISMEN.md`, `rules_data.py`) zijn volledig deterministisch en vereisen geen LLM-aanroepen.
 - **Model- en cache-eisen**: De promptcache op skill-instructies en voorbeeldcontext maakt de orchestrator-flow kostenefficiënt. Modellen met grote context (≥200k) hebben de voorkeur voor reviews.
-- **Uitvoeromgeving-specifiek**: De skills (`.agents/skills/*/SKILL.md`) en subagent-spawning (`Agent`-tool) zijn geoptimaliseerd voor de agent-CLI (Claude Code). Om over te stappen naar een andere SDK of LLM (zoals GPT-4o, Gemini Pro, of Llama-3), hoef je in essentie alleen de skill-prompts te adapteren en de subagent-orkestratie handmatig in Python/Bash te implementeren.
+- **Uitvoeromgeving-specifiek**: De skills (`.agents/skills/*/SKILL.md`) en subagent-spawning zijn geoptimaliseerd voor een agent-CLI met skills en subagents. Om over te stappen naar een andere SDK of LLM, moet je vooral de skill-prompts adapteren en de subagent-orkestratie buiten de CLI opnieuw implementeren.
 
 ---
 
@@ -300,6 +309,10 @@ De modernisatie-pipeline is gelaagd en grotendeels model- en aanbiederonafhankel
 | `.agents/skills/sv-adversarial-review/` | Adversariële bevindingenlijst per hoofdstuk met scan + verificatieronde |
 | `.agents/skills/sv-meta-review/`      | Meta-adversariële review over een afgesloten boek of range — cross-chapter patroon-aggregator |
 | `scripts/memory.py`                   | Vectordatabase met embeddings van een externe service (SQLite, 768 dim) |
+| `scripts/index_process_memory.py`     | FTS5-index over review-issues, rebuttals en output-notes (`memory/process.db`) |
+| `scripts/extract_decisions.py`        | Extraheert review-beslissingen en notes naar `output/META/decisions.jsonl` |
+| `scripts/query_decisions.py`          | Zoekt in decision-memory zonder API-aanroep |
+| `scripts/rule_curator.py`             | Dry-run curator voor stoplist-/blacklist-/rebuttal-drift |
 | `scripts/bibref.py`                   | Bijbelref-normalisatie via CSV-lookup                      |
 | `scripts/validate.py`                 | Modernisatiecontrole (kanttekeningen, haken, hoofdletters, refs)  |
 | `scripts/lint_carryovers.py`          | Borderline-archaïsmen die de blacklist mist                |
@@ -310,9 +323,10 @@ De modernisatie-pipeline is gelaagd en grotendeels model- en aanbiederonafhankel
 | `scripts/meta_diff_aggregate.py`      | Deterministische aggregator over `docs/diff_hsv_<BOEK>_*.json` — schrijft `output/META/candidates.json` (carryover, fossiel-lidwoord, latinaat-window, cap-asym) |
 | `refdata/afkortingen.csv`        | SV-afkortingen → moderne notatie                                |
 | `refdata/bible_book_references.csv` | Modern boeknaam → afkorting (`Genesis,Gn.` etc.)             |
-| `input.sv/LUK/`                  | 24 hoofdstukken Lucas (SV1657 + Textus Receptus)                |
+| `input.sv/<BOEK>/`               | Invoer per boek/hoofdstuk (SV1657 + Textus Receptus)            |
 | `output/<BOEK>/`                 | Gemoderniseerde verzen — incrementeel, groeit per aanroep       |
 | `memory/verses.db`               | Lokale vectordatabase (gitignored)                              |
+| `memory/process.db`              | Lokale FTS5-procesindex (gitignored)                            |
 
 ### Detail-documentatie
 
@@ -402,6 +416,39 @@ automatisch in Stap 0.5):
 ```bash
 uv run python scripts/memory.py sync --root output/             # re-embed dirty/missing
 uv run python scripts/memory.py sync --root output/ --check-only # alleen detecteren
+```
+
+### Procesgeheugen
+
+Naast de canonieke vers-memory (`memory/verses.db`) is er een
+procesgeheugen voor review-issues, rebuttals en verse-notes. Deze laag
+verandert geen modernisatie-output; hij schrijft alleen lokale
+zoekbestanden onder `memory/` of `output/META/`. De batch-flow kan deze
+informatie gebruiken als extra context, maar de bewijslast blijft altijd
+bij SV1657, Grieks en de projectregels.
+
+Normaal hoef je deze scripts niet handmatig te draaien om door te
+moderniseren. Ze zijn nuttig na grote correctierondes, bij losse
+reviews, of wanneer je expliciet historische beslissingen wilt opzoeken.
+
+```bash
+uv run python scripts/index_process_memory.py --root output --rebuild
+uv run python scripts/index_process_memory.py --query "concordantie drift" --book LUK
+
+uv run python scripts/extract_decisions.py --root output
+uv run python scripts/query_decisions.py "aan land gegaan" --book LUK
+
+uv run python scripts/rule_curator.py --book LUK --dry-run
+```
+
+`memory.py query` sorteert voorbeeldparen op `similarity * trust` en
+rapporteert zowel de ruwe similarity als de gewogen score. Trust is
+uitsluitend retrieval-metadata; validatie en canonieke output veranderen
+er niet door.
+
+```bash
+uv run python scripts/memory.py mark --book LUK --chapter 8 --verse 15 --review-flag corrected --reason LUK-8-15-001
+uv run python scripts/memory.py trust --book LUK --chapter 8 --verse 15 --set 0.6 --reason "review-correctie"
 ```
 
 ### Diepere beoordeling (in-context)
@@ -614,8 +661,8 @@ uv run python scripts/meta_diff_aggregate.py \
 twee PR's:
 
 - `meta-review LUK apply rules` → alleen 3b (regelbestand-deltas in
-  `validate.py`, `lint_false_friends.py`, `ARCHAISMEN.md`,
-  `DREMPEL_ARCHAISMEN`). Aparte PR, eerst mergen.
+  `scripts/rules_data.py`, `ARCHAISMEN.md` en relevante lint-/scanregels).
+  Aparte PR, eerst mergen.
 - `meta-review LUK apply content` → 3a (per-hoofdstuk content-fixes
   via Edit-tool, ná merge van de regel-PR zodat retro-actief de juiste
   blacklist geldt).
@@ -819,34 +866,39 @@ protocol en de waarborgen rond de HSV-spiegel.
 
 ## Status
 
-- Skills en scripts operationeel (memory, bibref, validate, lint, sync,
-  semantic-review, adversarial-review).
-- Input geladen voor Lucas 1–24 (`input.sv/LUK/`).
-- Modernisatie van Lucas in uitvoering: **LUK 1–8 voltooid** (80 + 52 +
-  38 + 44 + 39 + 49 + 50 + 56 = **408 verzen** in `memory/verses.db`).
-  Hoofdstuk 9–24 in de wachtrij.
-- Adversariële beoordeling per hoofdstuk uitgevoerd op LUK 1–8: alle issues
-  verified (101 issues totaal — alle hetzij opgelost, hetzij substantief
-  weerlegd; geen open/reopened). Bevindingenlijsten in
-  `output/LUK/review.<H>.json`.
-- Volgende boeken: input genereren voor MAT, MRK, JHN, ACT, …
-  (zelfde JSON-schema, zelfde 3-letter boekcode).
+- Skills en scripts operationeel: modernisatie, memory, bibref,
+  validatie, linters, semantic-review, adversarial-review,
+  meta-review, process-memory en dry-run curator.
+- Compleet gemoderniseerd in `output/`: **Lucas** (24 hoofdstukken,
+  1151 verzen) en **Markus** (16 hoofdstukken, 678 verzen), inclusief
+  hoofdstukreviews.
+- Lopende/partiële output aanwezig voor onder meer `ROM` (1–15),
+  `1CO` (1–14), `2CO` (1–3), `1PE` (1–3), `PHM`, `JUD`, `2JN`, `3JN`
+  en `1JN 1`.
+- `memory/verses.db` bevat momenteel 2769 versparen. De proceslaag bevat
+  `output/META/decisions.jsonl` met 1276 records en een lokale
+  FTS-index in `memory/process.db`.
+- Nieuwe boeken/hoofdstukken kunnen direct via de agent-CLI worden
+  gestart met de gewone aanroepvormen, bijvoorbeeld
+  `moderniseer 2CO hoofdstuk 6` of `moderniseer 2CO 6:1-3`.
 
 ---
 
 ## Viewer
 
-De publieke viewer toont **uitsluitend Lucas**. `docs/index.html` is een
-minimale redirect-pagina die direct doorverwijst naar `compare_all.html`
-(de viervoudige vergelijker SV1657 ↔ HSV ↔ Initiatief SV2027 ↔
-Modernisatie). De HSV- en SV2027-kolommen zijn diff-fragmenten (citaat) uit
-`docs/diff_*.json`; de volledige bronnen van derden staan niet in de repo.
+De publieke GitHub Pages-data onder `docs/inputs/` bevat momenteel
+Lucas. `docs/index.html` verwijst door naar `compare_all.html`, de
+viervoudige vergelijker SV1657 ↔ HSV ↔ Initiatief SV2027 ↔
+Modernisatie voor Lucas. De HSV- en SV2027-kolommen zijn
+diff-fragmenten (citaat) uit `docs/diff_*.json`; de volledige bronnen
+van derden staan niet in de repo.
+
 Daarnaast is er een standalone, zero-build React-viewer
 (`docs/viewer.html`) die SV1657 en de modernisatie naast elkaar toont op
-basis van een geüploade JSON-file of de meegeleverde `docs/inputs/`-data. Kanttekeningen verschijnen als zijkolom,
-`$bijbelrefs$` als oranje sup-cijfers, `[vertalers-toevoegingen]`
-zijn visueel onderscheiden, en het optionele `notes`-array is
-uitklapbaar per vers.
+basis van een geüploade JSON-file of de meegeleverde `docs/inputs/`-data.
+Kanttekeningen verschijnen als zijkolom, `$bijbelrefs$` als oranje
+sup-cijfers, `[vertalers-toevoegingen]` zijn visueel onderscheiden, en
+het optionele `notes`-array is uitklapbaar per vers.
 
 Lokaal draaien:
 
@@ -856,9 +908,9 @@ python3 -m http.server 8000 --directory docs
 # open http://localhost:8000/
 ```
 
-`docs/inputs/` wordt **mee-gecommit** zodat GitHub Pages de viewerdata kan
-serveren (alleen Lucas + project-META); bron van waarheid blijft `output/`.
-Na elke `sv-modernize`-run het sync-script opnieuw draaien.
+`docs/inputs/` wordt **mee-gecommit** zodat GitHub Pages viewerdata kan
+serveren; bron van waarheid blijft `output/`. Na elke publiceerwaardige
+modernisatie- of reviewronde het sync-script opnieuw draaien.
 Voor publicatie via GitHub Pages: repo-instelling op `docs/`-root.
 
 ---

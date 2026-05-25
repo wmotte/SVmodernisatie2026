@@ -1,0 +1,2942 @@
+{
+  "generated_at": "2026-05-25T12:07:49.387373+00:00",
+  "scope": {
+    "root": "output",
+    "book": "LUK"
+  },
+  "mode": "dry-run",
+  "summary": {
+    "stoplist_items": 1537,
+    "broad_stoplist_items": 9,
+    "undocumented_stoplist_items": 523,
+    "blacklist_patterns_without_hits": 36,
+    "repeated_rebuttal_groups": 9
+  },
+  "findings": {
+    "broad_stoplist_items": [
+      {
+        "line": 273,
+        "token": "wil",
+        "reason": "kort of breed token; kan echte archaïsmen maskeren"
+      },
+      {
+        "line": 347,
+        "token": "at",
+        "reason": "kort of breed token; kan echte archaïsmen maskeren"
+      },
+      {
+        "line": 415,
+        "token": "weg",
+        "reason": "kort of breed token; kan echte archaïsmen maskeren"
+      },
+      {
+        "line": 437,
+        "token": "oog",
+        "reason": "kort of breed token; kan echte archaïsmen maskeren"
+      },
+      {
+        "line": 438,
+        "token": "oor",
+        "reason": "kort of breed token; kan echte archaïsmen maskeren"
+      },
+      {
+        "line": 497,
+        "token": "vol",
+        "reason": "kort of breed token; kan echte archaïsmen maskeren"
+      },
+      {
+        "line": 501,
+        "token": "oud",
+        "reason": "kort of breed token; kan echte archaïsmen maskeren"
+      },
+      {
+        "line": 504,
+        "token": "arm",
+        "reason": "kort of breed token; kan echte archaïsmen maskeren"
+      },
+      {
+        "line": 568,
+        "token": "lot",
+        "reason": "kort of breed token; kan echte archaïsmen maskeren"
+      }
+    ],
+    "undocumented_stoplist_items": [
+      {
+        "line": 2,
+        "token": "bergen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 3,
+        "token": "liggen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 4,
+        "token": "slagen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 5,
+        "token": "wonden",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 7,
+        "token": "gewapende",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 8,
+        "token": "rechters",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 9,
+        "token": "vinger",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 11,
+        "token": "boos",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 12,
+        "token": "leert",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 13,
+        "token": "ontkent",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 15,
+        "token": "borsten",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 16,
+        "token": "erger",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 17,
+        "token": "gedragen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 18,
+        "token": "gezogen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 19,
+        "token": "vindt",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 21,
+        "token": "binnenste",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 22,
+        "token": "buitenste",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 23,
+        "token": "roof",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 24,
+        "token": "schotel",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 25,
+        "token": "schotels",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 26,
+        "token": "verwonderde",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 28,
+        "token": "behagen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 29,
+        "token": "dragen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 30,
+        "token": "lasten",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 31,
+        "token": "opbouwt",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 32,
+        "token": "schijnen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 34,
+        "token": "bedrogen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 35,
+        "token": "binnenkamers",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 36,
+        "token": "wacht",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 38,
+        "token": "assariois",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 39,
+        "token": "overvloediger",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 40,
+        "token": "vergeten",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 41,
+        "token": "verkocht",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 43,
+        "token": "belijden",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 44,
+        "token": "verloochenen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 46,
+        "token": "ingeven",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 47,
+        "token": "lastert",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 48,
+        "token": "machten",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 49,
+        "token": "overheden",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 51,
+        "token": "afbreken",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 52,
+        "token": "bouwen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 53,
+        "token": "gewas",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 55,
+        "token": "spinnen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 57,
+        "token": "drijven",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 58,
+        "token": "gras",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 59,
+        "token": "lucht",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 60,
+        "token": "morgen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 61,
+        "token": "oven",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 62,
+        "token": "weest",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 64,
+        "token": "brandende",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 65,
+        "token": "droegen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 66,
+        "token": "klopt",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 67,
+        "token": "lendenen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 68,
+        "token": "nachts",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 69,
+        "token": "ontslagen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 70,
+        "token": "wachten",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 72,
+        "token": "begeerte",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 73,
+        "token": "geperst",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 74,
+        "token": "tweedracht",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 75,
+        "token": "volbracht",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 77,
+        "token": "regen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 78,
+        "token": "schoondochter",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 79,
+        "token": "schoonmoeder",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 80,
+        "token": "westen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 82,
+        "token": "beproeft",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 83,
+        "token": "beproeven",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 84,
+        "token": "gedwongen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 85,
+        "token": "gestalte",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 86,
+        "token": "hitte",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 87,
+        "token": "oordeelt",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 89,
+        "token": "gebogen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 90,
+        "token": "ontbonden",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 92,
+        "token": "ezel",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 93,
+        "token": "oversten",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 95,
+        "token": "maten",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 96,
+        "token": "nestelden",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 104,
+        "token": "tanden",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 105,
+        "token": "oosten",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 106,
+        "token": "noorden",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 220,
+        "token": "deze",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 221,
+        "token": "dezen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 222,
+        "token": "dezelfde",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 223,
+        "token": "diezelfde",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 224,
+        "token": "ander",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 225,
+        "token": "andere",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 226,
+        "token": "anderen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 227,
+        "token": "alle",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 228,
+        "token": "alles",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 229,
+        "token": "elke",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 230,
+        "token": "elkaar",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 231,
+        "token": "eens",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 232,
+        "token": "geen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 233,
+        "token": "ieder",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 234,
+        "token": "iedere",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 235,
+        "token": "noch",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 236,
+        "token": "veel",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 237,
+        "token": "vele",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 238,
+        "token": "weinig",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 239,
+        "token": "weinige",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 240,
+        "token": "enkele",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 241,
+        "token": "enige",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 242,
+        "token": "sommige",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 243,
+        "token": "sommigen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 244,
+        "token": "menig",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 245,
+        "token": "zelf",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 246,
+        "token": "zich",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 247,
+        "token": "zichzelf",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 249,
+        "token": "hebben",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 250,
+        "token": "heeft",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 251,
+        "token": "hebt",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 252,
+        "token": "hadden",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 253,
+        "token": "gehad",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 254,
+        "token": "zijn",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 255,
+        "token": "wezen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 256,
+        "token": "geweest",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 257,
+        "token": "worden",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 258,
+        "token": "wordt",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 259,
+        "token": "werden",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 260,
+        "token": "geworden",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 261,
+        "token": "zullen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 262,
+        "token": "zouden",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 263,
+        "token": "kunnen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 264,
+        "token": "konden",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 265,
+        "token": "gekund",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 266,
+        "token": "moeten",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 267,
+        "token": "moest",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 268,
+        "token": "moesten",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 269,
+        "token": "mogen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 270,
+        "token": "mocht",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 271,
+        "token": "mochten",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 272,
+        "token": "willen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 273,
+        "token": "wil",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 274,
+        "token": "wilden",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 275,
+        "token": "gewild",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 277,
+        "token": "naar",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 278,
+        "token": "voor",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 279,
+        "token": "over",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 280,
+        "token": "onder",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 281,
+        "token": "boven",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 282,
+        "token": "beneden",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 283,
+        "token": "tussen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 284,
+        "token": "achter",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 285,
+        "token": "tegen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 286,
+        "token": "tegenover",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 287,
+        "token": "zonder",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 288,
+        "token": "binnen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 289,
+        "token": "buiten",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 290,
+        "token": "langs",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 291,
+        "token": "door",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 292,
+        "token": "samen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 293,
+        "token": "alleen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 294,
+        "token": "even",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 295,
+        "token": "graag",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 296,
+        "token": "eerst",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 297,
+        "token": "later",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 298,
+        "token": "hier",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 299,
+        "token": "daar",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 300,
+        "token": "ergens",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 301,
+        "token": "nergens",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 302,
+        "token": "overal",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 303,
+        "token": "soms",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 304,
+        "token": "altijd",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 305,
+        "token": "nooit",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 306,
+        "token": "weer",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 307,
+        "token": "wederom",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 308,
+        "token": "ooit",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 309,
+        "token": "steeds",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 310,
+        "token": "vaak",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 312,
+        "token": "welk",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 313,
+        "token": "welke",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 314,
+        "token": "wiens",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 315,
+        "token": "diens",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 316,
+        "token": "wier",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 318,
+        "token": "menen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 319,
+        "token": "zeggen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 320,
+        "token": "zegt",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 321,
+        "token": "spreken",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 322,
+        "token": "sprak",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 323,
+        "token": "spraken",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 324,
+        "token": "gesproken",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 325,
+        "token": "horen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 326,
+        "token": "gehoord",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 327,
+        "token": "zien",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 328,
+        "token": "gezien",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 329,
+        "token": "gaan",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 330,
+        "token": "gegaan",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 331,
+        "token": "komen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 332,
+        "token": "gekomen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 333,
+        "token": "afgekomen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 334,
+        "token": "blijven",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 335,
+        "token": "bleef",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 336,
+        "token": "gebleven",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 337,
+        "token": "geven",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 338,
+        "token": "gegeven",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 339,
+        "token": "gaven",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 340,
+        "token": "nemen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 341,
+        "token": "neemt",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 342,
+        "token": "genomen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 343,
+        "token": "maken",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 344,
+        "token": "gemaakt",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 345,
+        "token": "eten",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 346,
+        "token": "gegeten",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 347,
+        "token": "at",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 348,
+        "token": "aten",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 349,
+        "token": "synagoge",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 350,
+        "token": "synagogen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 351,
+        "token": "verblijden",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 352,
+        "token": "verblijdt",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 353,
+        "token": "verblijdde",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 354,
+        "token": "verblijd",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 355,
+        "token": "onthouden",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 356,
+        "token": "onthoudt",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 357,
+        "token": "onthield",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 358,
+        "token": "onthielden",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 359,
+        "token": "doen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 360,
+        "token": "gedaan",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 361,
+        "token": "laten",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 362,
+        "token": "gelaten",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 363,
+        "token": "stellen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 364,
+        "token": "gesteld",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 365,
+        "token": "schrijven",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 366,
+        "token": "geschreven",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 367,
+        "token": "lezen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 368,
+        "token": "gelezen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 369,
+        "token": "vinden",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 370,
+        "token": "gevonden",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 371,
+        "token": "kennen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 372,
+        "token": "gekend",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 373,
+        "token": "weten",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 374,
+        "token": "geweten",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 376,
+        "token": "krijgen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 377,
+        "token": "gekregen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 378,
+        "token": "ontvangen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 379,
+        "token": "verkrijgen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 380,
+        "token": "verkregen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 381,
+        "token": "begint",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 382,
+        "token": "begin",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 383,
+        "token": "begonnen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 384,
+        "token": "beginnen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 385,
+        "token": "schijnt",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 386,
+        "token": "scheen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 389,
+        "token": "beschrijven",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 390,
+        "token": "beschrijft",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 391,
+        "token": "beschreven",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 392,
+        "token": "beschrijving",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 393,
+        "token": "niet",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 394,
+        "token": "want",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 395,
+        "token": "zoals",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 396,
+        "token": "hoewel",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 397,
+        "token": "tweede",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 398,
+        "token": "eerste",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 399,
+        "token": "derde",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 400,
+        "token": "vierde",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 402,
+        "token": "reden",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 403,
+        "token": "redenen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 405,
+        "token": "ding",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 406,
+        "token": "dingen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 407,
+        "token": "woord",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 408,
+        "token": "woorden",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 409,
+        "token": "naam",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 410,
+        "token": "namen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 411,
+        "token": "tijd",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 412,
+        "token": "dagen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 413,
+        "token": "jaar",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 414,
+        "token": "jaren",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 415,
+        "token": "weg",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 416,
+        "token": "wegen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 417,
+        "token": "huis",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 418,
+        "token": "stad",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 419,
+        "token": "land",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 420,
+        "token": "volk",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 421,
+        "token": "vader",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 422,
+        "token": "moeder",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 423,
+        "token": "moeders",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 424,
+        "token": "ouders",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 425,
+        "token": "zoon",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 426,
+        "token": "dochter",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 427,
+        "token": "dochters",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 428,
+        "token": "kind",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 429,
+        "token": "kinderen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 430,
+        "token": "broeder",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 431,
+        "token": "zuster",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 434,
+        "token": "stem",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 435,
+        "token": "hand",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 436,
+        "token": "voet",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 437,
+        "token": "oog",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 438,
+        "token": "oor",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 439,
+        "token": "hart",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 440,
+        "token": "ziel",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 441,
+        "token": "grootte",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 445,
+        "token": "gedacht",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 446,
+        "token": "gedachten",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 447,
+        "token": "geslachten",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 448,
+        "token": "boek",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 449,
+        "token": "tafel",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 450,
+        "token": "deur",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 451,
+        "token": "venster",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 452,
+        "token": "boom",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 453,
+        "token": "veld",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 454,
+        "token": "leven",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 455,
+        "token": "levende",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 456,
+        "token": "dood",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 457,
+        "token": "doodden",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 458,
+        "token": "sterven",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 459,
+        "token": "geboorte",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 460,
+        "token": "kracht",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 461,
+        "token": "macht",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 462,
+        "token": "mijn",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 463,
+        "token": "toegerust",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 464,
+        "token": "vaders",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 465,
+        "token": "kennis",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 466,
+        "token": "knowledge",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 467,
+        "token": "drijving",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 468,
+        "token": "voren",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 469,
+        "token": "zorgvuldig",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 471,
+        "token": "christenen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 472,
+        "token": "christen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 473,
+        "token": "joden",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 474,
+        "token": "jood",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 475,
+        "token": "heiden",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 476,
+        "token": "heidenen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 480,
+        "token": "groot",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 481,
+        "token": "grote",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 482,
+        "token": "klein",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 483,
+        "token": "kleine",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 484,
+        "token": "goed",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 485,
+        "token": "goede",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 486,
+        "token": "slecht",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 487,
+        "token": "slechte",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 488,
+        "token": "lang",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 489,
+        "token": "lange",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 490,
+        "token": "kort",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 491,
+        "token": "korte",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 492,
+        "token": "hoog",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 493,
+        "token": "lage",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 494,
+        "token": "beter",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 495,
+        "token": "veel",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 496,
+        "token": "weinig",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 497,
+        "token": "vol",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 498,
+        "token": "lege",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 499,
+        "token": "nieuw",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 500,
+        "token": "nieuwe",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 501,
+        "token": "oud",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 502,
+        "token": "oude",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 503,
+        "token": "rijk",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 504,
+        "token": "arm",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 505,
+        "token": "sterk",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 506,
+        "token": "zwak",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 507,
+        "token": "wijd",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 508,
+        "token": "breed",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 509,
+        "token": "diep",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 510,
+        "token": "voortreffelijk",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 511,
+        "token": "voortreffelijke",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 512,
+        "token": "grondig",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 513,
+        "token": "grondige",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 514,
+        "token": "aanzienlijk",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 515,
+        "token": "aanzienlijke",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 516,
+        "token": "bijzonder",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 517,
+        "token": "bijzondere",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 518,
+        "token": "nauwkeurig",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 519,
+        "token": "nauwkeurige",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 520,
+        "token": "zorgvuldig",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 521,
+        "token": "zorgvuldige",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 523,
+        "token": "heere",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 524,
+        "token": "engel",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 525,
+        "token": "engelen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 526,
+        "token": "apostelen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 527,
+        "token": "discipel",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 528,
+        "token": "discipelen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 529,
+        "token": "tempel",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 530,
+        "token": "evangelie",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 531,
+        "token": "evangeliën",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 532,
+        "token": "kerk",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 533,
+        "token": "geest",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 534,
+        "token": "heilig",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 535,
+        "token": "heilige",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 536,
+        "token": "heiligen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 537,
+        "token": "profeet",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 538,
+        "token": "profeten",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 539,
+        "token": "profetie",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 540,
+        "token": "wonder",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 541,
+        "token": "wonderen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 542,
+        "token": "zonde",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 543,
+        "token": "zonden",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 544,
+        "token": "gebod",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 545,
+        "token": "geboden",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 546,
+        "token": "verbond",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 547,
+        "token": "geloof",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 548,
+        "token": "hoop",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 549,
+        "token": "licht",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 550,
+        "token": "lichten",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 551,
+        "token": "duisternis",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 552,
+        "token": "heerlijkheid",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 553,
+        "token": "liefde",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 554,
+        "token": "genade",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 555,
+        "token": "barmhartigheid",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 556,
+        "token": "rechtvaardig",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 557,
+        "token": "rechtvaardige",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 558,
+        "token": "priester",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 559,
+        "token": "priesters",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 560,
+        "token": "hogepriester",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 561,
+        "token": "voorhof",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 562,
+        "token": "voorhoven",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 566,
+        "token": "gewoonte",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 567,
+        "token": "loten",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 568,
+        "token": "lot",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 569,
+        "token": "baren",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 570,
+        "token": "morgens",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 571,
+        "token": "altaar",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 572,
+        "token": "reukwerk",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 573,
+        "token": "reukoffer",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 574,
+        "token": "wijn",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 575,
+        "token": "drank",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 576,
+        "token": "moederschoot",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 577,
+        "token": "behouden",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 578,
+        "token": "gebed",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 579,
+        "token": "gebeden",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 580,
+        "token": "tijden",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 581,
+        "token": "roepen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 582,
+        "token": "medicijnmeester",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 583,
+        "token": "eten",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 584,
+        "token": "drinken",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 585,
+        "token": "drinkt",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 587,
+        "token": "brengen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 588,
+        "token": "leggen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 589,
+        "token": "mannen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 590,
+        "token": "slap",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 591,
+        "token": "vast",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 592,
+        "token": "vertoonden",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 593,
+        "token": "vertrouwen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 594,
+        "token": "woestijnen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 595,
+        "token": "zenuwen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 596,
+        "token": "splinter",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 597,
+        "token": "splinters",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 598,
+        "token": "leermeester",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 599,
+        "token": "leermeesters",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 600,
+        "token": "leerling",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 601,
+        "token": "leerlingen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 603,
+        "token": "vijgen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 604,
+        "token": "doornen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 605,
+        "token": "bramen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 606,
+        "token": "verrotte",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 607,
+        "token": "snijdt",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 608,
+        "token": "leest",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 609,
+        "token": "schat",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 610,
+        "token": "schatten",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 612,
+        "token": "viel",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 613,
+        "token": "vielen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 625,
+        "token": "vossen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 626,
+        "token": "holen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 627,
+        "token": "nesten",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 668,
+        "token": "lucas",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 669,
+        "token": "lukas",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 670,
+        "token": "maria",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 671,
+        "token": "elisabet",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 672,
+        "token": "zacharia",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 673,
+        "token": "theofilus",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 674,
+        "token": "simeon",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 675,
+        "token": "anna",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 676,
+        "token": "matteüs",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 677,
+        "token": "mattheüs",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 678,
+        "token": "markus",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 679,
+        "token": "marcus",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 680,
+        "token": "johannes",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 681,
+        "token": "judas",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 682,
+        "token": "jezus",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 683,
+        "token": "christus",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 684,
+        "token": "gabriël",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 685,
+        "token": "felix",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 686,
+        "token": "festus",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 687,
+        "token": "abraham",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 688,
+        "token": "izak",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 689,
+        "token": "jakob",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 690,
+        "token": "david",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 691,
+        "token": "salomo",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 692,
+        "token": "mozes",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 693,
+        "token": "elia",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 694,
+        "token": "elias",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 695,
+        "token": "israël",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 696,
+        "token": "juda",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 697,
+        "token": "galilea",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 698,
+        "token": "judea",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 699,
+        "token": "nazareth",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 700,
+        "token": "betlehem",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 701,
+        "token": "jeruzalem",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 702,
+        "token": "egypte",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 703,
+        "token": "hebron",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 704,
+        "token": "kirjath",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 705,
+        "token": "arba",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 706,
+        "token": "levieten",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 708,
+        "token": "gadarenen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 709,
+        "token": "gergesenen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 728,
+        "token": "hoorde",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 729,
+        "token": "komt",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 730,
+        "token": "riep",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 731,
+        "token": "vrouwen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 732,
+        "token": "vrucht",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 733,
+        "token": "bieden",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 734,
+        "token": "goederen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 735,
+        "token": "helpende",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 736,
+        "token": "opgenomen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 737,
+        "token": "verlaten",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 738,
+        "token": "wanneer",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 739,
+        "token": "gebiedt",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 740,
+        "token": "graven",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 749,
+        "token": "bewoonde",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 750,
+        "token": "deel",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 751,
+        "token": "geschat",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 752,
+        "token": "gingen",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 753,
+        "token": "moet",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 760,
+        "token": "geboren",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 761,
+        "token": "leefde",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 762,
+        "token": "waren",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 763,
+        "token": "volgens",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 764,
+        "token": "evenwel",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 765,
+        "token": "bevel",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 766,
+        "token": "beval",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 886,
+        "token": "abilene",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 887,
+        "token": "annas",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 888,
+        "token": "augustus",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 889,
+        "token": "herodes",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 890,
+        "token": "iturea",
+        "reason": "geen inline motivatie/commentaar"
+      },
+      {
+        "line": 891,
+        "token": "lysanias",
+        "reason": "geen inline motivatie/commentaar"
+      }
+    ],
+    "blacklist_patterns_without_recent_hits": [
+      {
+        "pattern": "\\baldaer\\b",
+        "issue": "geen recente hits in gekozen output-scope"
+      },
+      {
+        "pattern": "\\baldaar\\b",
+        "issue": "geen recente hits in gekozen output-scope"
+      },
+      {
+        "pattern": "\\bsoo\\b",
+        "issue": "geen recente hits in gekozen output-scope"
+      },
+      {
+        "pattern": "\\bwelcke\\b",
+        "issue": "geen recente hits in gekozen output-scope"
+      },
+      {
+        "pattern": "\\bvoortijts\\b",
+        "issue": "geen recente hits in gekozen output-scope"
+      },
+      {
+        "pattern": "\\bdaerom\\b",
+        "issue": "geen recente hits in gekozen output-scope"
+      },
+      {
+        "pattern": "\\bvrouwe\\b",
+        "issue": "geen recente hits in gekozen output-scope"
+      },
+      {
+        "pattern": "\\bergernisse\\b",
+        "issue": "geen recente hits in gekozen output-scope"
+      },
+      {
+        "pattern": "\\bsulcks\\b",
+        "issue": "geen recente hits in gekozen output-scope"
+      },
+      {
+        "pattern": "\\bsulks\\b",
+        "issue": "geen recente hits in gekozen output-scope"
+      },
+      {
+        "pattern": "\\bdoch\\b",
+        "issue": "geen recente hits in gekozen output-scope"
+      },
+      {
+        "pattern": "\\bdaer\\b",
+        "issue": "geen recente hits in gekozen output-scope"
+      },
+      {
+        "pattern": "\\bsy\\b",
+        "issue": "geen recente hits in gekozen output-scope"
+      },
+      {
+        "pattern": "\\bonse\\b",
+        "issue": "geen recente hits in gekozen output-scope"
+      },
+      {
+        "pattern": "\\bgesproken hebbende\\b",
+        "issue": "geen recente hits in gekozen output-scope"
+      },
+      {
+        "pattern": "\\bgegaan zijnde\\b",
+        "issue": "geen recente hits in gekozen output-scope"
+      },
+      {
+        "pattern": "\\bzijnde\\b(?! een)",
+        "issue": "geen recente hits in gekozen output-scope"
+      },
+      {
+        "pattern": "\\bnagetracht\\b",
+        "issue": "geen recente hits in gekozen output-scope"
+      },
+      {
+        "pattern": "(?<!het )(?<!'t )\\bgeschied(t|de|den|en)?\\b(?!\\s+het woord)",
+        "issue": "geen recente hits in gekozen output-scope"
+      },
+      {
+        "pattern": "\\bvertoefde?\\b",
+        "issue": "geen recente hits in gekozen output-scope"
+      },
+      {
+        "pattern": "\\bvertoefden\\b",
+        "issue": "geen recente hits in gekozen output-scope"
+      },
+      {
+        "pattern": "\\bhoedanig\\b",
+        "issue": "geen recente hits in gekozen output-scope"
+      },
+      {
+        "pattern": "\\baanschouwer\\b",
+        "issue": "geen recente hits in gekozen output-scope"
+      },
+      {
+        "pattern": "\\baanschouwers\\b",
+        "issue": "geen recente hits in gekozen output-scope"
+      },
+      {
+        "pattern": "\\bnochtans\\b",
+        "issue": "geen recente hits in gekozen output-scope"
+      },
+      {
+        "pattern": "\\balsdan\\b",
+        "issue": "geen recente hits in gekozen output-scope"
+      },
+      {
+        "pattern": "\\bonderwijzing\\b",
+        "issue": "geen recente hits in gekozen output-scope"
+      },
+      {
+        "pattern": "\\bonbillijk(e)?\\b",
+        "issue": "geen recente hits in gekozen output-scope"
+      },
+      {
+        "pattern": "\\bsmart(en)?\\b",
+        "issue": "geen recente hits in gekozen output-scope"
+      },
+      {
+        "pattern": "\\bvolkomen\\b",
+        "issue": "geen recente hits in gekozen output-scope"
+      },
+      {
+        "pattern": "\\btijding(en)?\\b",
+        "issue": "geen recente hits in gekozen output-scope"
+      },
+      {
+        "pattern": "\\bderhalve\\b",
+        "issue": "geen recente hits in gekozen output-scope"
+      },
+      {
+        "pattern": "\\brantsoen\\b",
+        "issue": "geen recente hits in gekozen output-scope"
+      },
+      {
+        "pattern": "\\beertijds\\b",
+        "issue": "geen recente hits in gekozen output-scope"
+      },
+      {
+        "pattern": "\\bdieverij\\b",
+        "issue": "geen recente hits in gekozen output-scope"
+      },
+      {
+        "pattern": "\\bdaar\\s+(?:ik|wij|u|gij)\\s+\\w+\\b",
+        "issue": "geen recente hits in gekozen output-scope"
+      }
+    ],
+    "repeated_rebuttals": [
+      {
+        "category": "concordantie-drift",
+        "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+        "count": 76,
+        "examples": [
+          "LUK-1-2-001",
+          "LUK-1-3-001",
+          "LUK-1-8-001",
+          "LUK-1-13-001",
+          "LUK-1-15-001"
+        ],
+        "suggestion": "Overweeg een expliciete uitzondering of scanner-aanscherping als deze rebuttals inhoudelijk hetzelfde zijn."
+      },
+      {
+        "category": "verbogen lidwoord (der/des/den)",
+        "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+        "count": 27,
+        "examples": [
+          "LUK-1-11-001",
+          "LUK-5-24-001",
+          "LUK-6-5-001",
+          "LUK-6-22-001",
+          "LUK-7-34-001"
+        ],
+        "suggestion": "Overweeg een expliciete uitzondering of scanner-aanscherping als deze rebuttals inhoudelijk hetzelfde zijn."
+      },
+      {
+        "category": "§2.7 drempel-archaïsme",
+        "rule_reference": "MODERNISATIE.md §2.7",
+        "count": 23,
+        "examples": [
+          "LUK-4-24-001",
+          "LUK-9-25-001",
+          "LUK-10-13-001",
+          "LUK-11-18-001",
+          "LUK-11-19-001"
+        ],
+        "suggestion": "Overweeg een expliciete uitzondering of scanner-aanscherping als deze rebuttals inhoudelijk hetzelfde zijn."
+      },
+      {
+        "category": "kanttekening-redundantie",
+        "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+        "count": 10,
+        "examples": [
+          "LUK-4-41-001",
+          "LUK-6-4-001",
+          "LUK-11-28-001",
+          "LUK-11-35-001",
+          "LUK-12-20-001"
+        ],
+        "suggestion": "Overweeg een expliciete uitzondering of scanner-aanscherping als deze rebuttals inhoudelijk hetzelfde zijn."
+      },
+      {
+        "category": "§2.3b infinitief met nageschoven object",
+        "rule_reference": "MODERNISATIE.md §2.3b",
+        "count": 8,
+        "examples": [
+          "LUK-1-19-001",
+          "LUK-1-79-001",
+          "LUK-1-79-002",
+          "LUK-2-5-001",
+          "LUK-5-15-001"
+        ],
+        "suggestion": "Overweeg een expliciete uitzondering of scanner-aanscherping als deze rebuttals inhoudelijk hetzelfde zijn."
+      },
+      {
+        "category": "kanttekening-luiheid (§2.3 in <…>)",
+        "rule_reference": "KANTTEKENINGEN.md + §2.3",
+        "count": 5,
+        "examples": [
+          "LUK-2-28-001",
+          "LUK-5-8-001",
+          "LUK-5-20-001",
+          "LUK-12-19-001",
+          "LUK-13-22-001"
+        ],
+        "suggestion": "Overweeg een expliciete uitzondering of scanner-aanscherping als deze rebuttals inhoudelijk hetzelfde zijn."
+      },
+      {
+        "category": "§2.3 finiet participium",
+        "rule_reference": "MODERNISATIE.md §2.3",
+        "count": 4,
+        "examples": [
+          "LUK-3-23-001",
+          "LUK-5-22-001",
+          "LUK-7-22-001",
+          "LUK-12-35-001"
+        ],
+        "suggestion": "Overweeg een expliciete uitzondering of scanner-aanscherping als deze rebuttals inhoudelijk hetzelfde zijn."
+      },
+      {
+        "category": "§2.3b bijwoord-coda",
+        "rule_reference": "MODERNISATIE.md §2.3b",
+        "count": 3,
+        "examples": [
+          "LUK-8-17-001",
+          "LUK-9-27-001",
+          "LUK-12-44-001"
+        ],
+        "suggestion": "Overweeg een expliciete uitzondering of scanner-aanscherping als deze rebuttals inhoudelijk hetzelfde zijn."
+      },
+      {
+        "category": "relativum welke/welken/hetwelk",
+        "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+        "count": 3,
+        "examples": [
+          "LUK-10-8-001",
+          "LUK-10-10-001",
+          "LUK-13-4-001"
+        ],
+        "suggestion": "Overweeg een expliciete uitzondering of scanner-aanscherping als deze rebuttals inhoudelijk hetzelfde zijn."
+      }
+    ]
+  },
+  "guardrail": "Rapportage-only; geen regelbestand of output is aangepast."
+}
