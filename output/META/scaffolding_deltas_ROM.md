@@ -1,38 +1,33 @@
 # Scaffolding-deltas — meta-review ROM hoofdstukken 1-16
 
-Gegenereerd: 2026-05-25T14:49:51Z
+Gegenereerd: 2026-05-25T00:00:00Z
 Aggregator: scripts/meta_diff_aggregate.py --book ROM --chapters 1-16 --min-freq 2
-
-HSV-diffs voor alle 16 hoofdstukken zelf gegenereerd via
-`scripts/compare_hsv.py ROM <H>` (hsv/ROM/*.json aanwezig).
+Beschikbare diffs: ch 1-16 (compleet)
+Modus: apply
 
 ## Auto-toegepaste deltas (bucket C)
 
-Geen. Geen pattern recurreert ≥3 hoofdstukken als echte modernisatie-miss
-die de bestaande lint had moeten vangen. De Latinaat-constructie
-"ik hetgeen doe dat" zit alleen in ROM 7 (1 hoofdstuk → bucket B), en de
-archaïsche datief 'ter + abstract nomen' in ROM 9 + 10 (2 hoofdstukken,
-< drempel 3 → bucket B).
+Geen. Geen carryover-patroon levert een schoon lexicaal archaïsme met
+consistent HSV-alternatief bij freq≥3; de carryover-keys (`ben`/`toe`/`ter`/`men`)
+zijn functiewoord-ruis. cap-asym wordt nooit auto-geëdit. → 4a overgeslagen.
 
 ## Afgewezen deltas (rejected, §2.7-toets niet gehaald)
 
-Geen kandidaten aangeboden.
+| Pattern | Kind | Reden afwijzing |
+|---|---|---|
+| `zo`-apodosis ("zo stem/zo doe/zo is/zo zal") | latinaat-window | Pervasief in ROM (6× "zo is", 4× "zo zal", + "zo doe/zo stem"). Consistente SV-register-keuze, geen geïsoleerd archaïsme. Cherry-pick zou inconsistent zijn → register, geen delta. |
+| `indien` (kaal) | carryover | Aanvaardbaar formeel Nederlands; geen drempel-archaïsme. Alleen de combinatie `indien anders` (8:9) is opaak → bucket B. |
 
-## Noise (bucket A — HSV-keuze / consistente conventie, geen actie)
+## Noise (bucket A — HSV-keuze / al gemoderniseerd, geen actie)
 
-| Kind | Key | Freq | Reden |
-|---|---|---|---|
-| cap-asym | `Heidenen` | 18 | SV2026 kapitaliseert volksnaam consistent (verse-tekst 0× lowercase; 2× lowercase enkel in hoofdstuk-introducties, geen HSV-equivalent). HSV kiest lowercase — stijlkeuze, geen miss. |
-| cap-asym | `Apostel` | 2 | Consistent gekapitaliseerd ambt/eretitel (220× kapitaal, 0× lowercase in ROM verse-tekst). HSV lowercase = HSV-keuze. |
-| cap-asym | `Profeten` | 2 | Consistent gekapitaliseerd (Profeet/Profeten 16× kapitaal, 0× lowercase). HSV-keuze. |
-| carryover | `ben` | 4 | Werkwoord 'zijn' 1e pers. — volledig modern. HSV herstructureert zin (parafrase), geen archaïsme. |
-| carryover | `men` | 2 | Onbepaald voornaamwoord — modern. HSV kiest 'hij'; syntactische keuze. |
-| carryover | `beminde` | 2 | Synoniem-/concordantiekeuze ('beminde' vs HSV 'geliefde'); literair maar niet opaak. |
-| carryover | `toe` | 4 | Particle 'toe' modern in 3/4 occurrences (stem...toe, komt...toe, zie toe); enkel ROM 3:12 'niet tot één toe' → bucket B. |
-| carryover | `ter` | 3 | 8:34 'ter rechterhand' = vast modern; 9:21 + 10:10 archaïsche datief → bucket B. |
+| Kind | Aantal | Voorbeelden |
+|---|---|---|
+| cap-asym | 22 occ | "Heidenen" (18×, SV-intern consistent hoofdletter), "Apostel" (1:1, 11:13), "Profeten" (1:2, 11:3) |
+| carryover al gemoderniseerd | 4 | 3:12 ("niet één toe"→"niet één"), 9:21 ("ter ere"→"tot eer"), 10:10 ("ter"→"tot"), 14:2 ("men ... mag eten" ok) |
+| carryover HSV-parafrase | 1 | 12:3 "wijs is boven wat men behoort" — SV-literair vs HSV-parafrase, verdedigbaar |
 
 ## Bucket-overzicht
 
-- B (per-vers fixes): 5 issues over 4 hoofdstukken (ROM 3, 7×2, 9, 10) — zie `findings.json`
-- C (scaffolding-deltas): 0 toegepast, 0 afgewezen
-- A (noise): 8 patterns
+- B (per-vers fixes): 7 issues over 6 hoofdstukken (7, 8, 9, 11, 15, 16) — zie `findings.json`
+- C (scaffolding-deltas): 0 toegepast, 2 afgewezen (§2.7)
+- A (noise): ~27
