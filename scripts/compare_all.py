@@ -15,6 +15,8 @@ import os
 import re
 import sys
 
+from source_corrections import apply_source_corrections
+
 
 def load_json(path: str) -> dict | None:
     if not os.path.exists(path):
@@ -91,11 +93,14 @@ def generate_diff(book: str, chapter: int) -> bool:
         sv_in_v = sv_input_verses.get(v_num)
 
         original = (int_v.get("original") if int_v else None) or (sv_in_v.get("text") if sv_in_v else "")
+        original = apply_source_corrections(book, chapter, v_num, original)
+        sv2026 = int_v["modernized"] if int_v else ""
+        sv2026 = apply_source_corrections(book, chapter, v_num, sv2026)
 
         entry = {
             "verse_number": v_num,
             "status": "modernized" if int_v else "pending",
-            "sv2026": int_v["modernized"] if int_v else "",
+            "sv2026": sv2026,
             "sv2027": strip_verse_number_prefix(sv27_v["modernized"]) if sv27_v else "",
             "hsv": hsv_v["modernized"] if hsv_v else "",
             "original": original,

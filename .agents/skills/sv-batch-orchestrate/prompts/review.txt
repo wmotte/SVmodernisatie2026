@@ -71,6 +71,7 @@ Stappen — in volgorde:
    | HSV-spiegelbevinding 4a (taalfout / lexicale fout / semantische misser in onze modernisatie, onafhankelijk bevestigd tegen SV1657/Grieks) | Vers corrigeren; bij ≥2× herhaling ook `ARCHAISMEN.md` False-friends-tabel + `FALSE_FRIENDS` in `lint_false_friends.py`, of `MODERNISATIE.md §2.7` voor grammaticale patronen |
    | HSV-spiegelbevinding 4b (drempel-archaïsme dat HSV modern oplost binnen reikwijdte) | Vers corrigeren; bij ≥2× herhaling ook `validate.py`-blacklist + `ARCHAISMEN.md`-archaïsme-tabel + `lint_archaismen.py lint --root output/` terugwerkende linter |
    | HSV-spiegelbevinding 4c (hoofdletters / kanttekening / parafrase / exegese in hoofdtekst / structurele herbouw / lexicaal register / vierkante haken) | Geen actie — bewuste afwijking; meld in aggregaat in de REGELBESTAND-regel |
+   | Semantic-review-bronverwijzing 5 (onmogelijke SV1657-bijbelverwijzing, onafhankelijk bevestigde correctie) | Corrigeer `input.sv`, `output` en docs-artifacts; voeg mapping toe aan `scripts/source_corrections.py`; regenereer `diff_hsv` en `diff_all` |
    | Subagent-`note` van type `afwijking` met patroon dat ≥2× voorkomt | Patroon documenteren in `ARCHAISMEN.md` of relevante doc |
    | Subagent-`note` eenmalige `twijfel` | Geen actie — note documenteert al |
    | Validatorwaarschuwing structureel terugkerend (`Ende`, eigennaam-hoofdlettermismatch) | Geen actie — bewust SV→modern patroon |

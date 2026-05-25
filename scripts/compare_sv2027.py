@@ -4,6 +4,8 @@ import sys
 import difflib
 import re
 
+from source_corrections import apply_source_corrections
+
 def clean_markers(text):
     """Removes markers for a clean text comparison if needed."""
     return re.sub(r'<.*?>|\$.*?\$', '', text).strip()
@@ -67,11 +69,14 @@ def generate_diff(book, chapter):
 
         status = "modernized" if int_verse else "pending"
         original = (int_verse['original'] if int_verse else None) or (sv_v.get("text") if sv_v else "")
+        original = apply_source_corrections(book, chapter, v_num, original)
+        sv2026 = int_verse['modernized'] if int_verse else ""
+        sv2026 = apply_source_corrections(book, chapter, v_num, sv2026)
 
         entry = {
             "verse_number": v_num,
             "status": status,
-            "sv2026": int_verse['modernized'] if int_verse else "",
+            "sv2026": sv2026,
             "sv2027": strip_verse_number_prefix(ext_verse['modernized']),
             "original": original,
         }

@@ -120,6 +120,14 @@ Schrijft `docs/diff_hsv_<BOEK>_<H>.json` op basis van onze output en
 verschilt van het SV2027-pad `docs/diff_<BOEK>_<H>.json`, dat (voor
 Lucas) bestaat als post-hoc archief en hier *niet* gebruikt wordt.
 
+`compare_hsv.py` past bekende SV1657-broncorrecties uit
+`scripts/source_corrections.py` toe op `original` en `sv2026`. Als de
+HSV-spiegel een onmogelijke of onwaarschijnlijke SV1657-bijbelverwijzing
+blootlegt (bv. een niet-bestaand versnummer) en de correctie onafhankelijk
+controleerbaar is, moet die correctie in `scripts/source_corrections.py`
+worden toegevoegd zodat toekomstige diff-generatie niet opnieuw de fout
+toont.
+
 ### 2.5.2 Foutgevallen
 
 - **`hsv/<BOEK>/<BOEK>.<H>.json` ontbreekt**: het script meldt dat

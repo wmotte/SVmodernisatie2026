@@ -154,9 +154,29 @@ Textus Receptus blijft leidend.
      inhoud verschillen daarom systematisch. Wij bewaren onze haken
      byte-aanwezig op zelfde plekken als SV1657 — HSV-haken zijn
      irrelevant.
-    - **Verwijzingsformaat / introstijl**: vallen onder eigen regelbestand
+   - **Verwijzingsformaat / introstijl**: vallen onder eigen regelbestand
      (`sv-bibref`, `INTRO_EPILOOG.md`). HSV heeft sowieso geen aparte
      intro/epiloog (zie 2.5.2).
+
+5. **Bronverwijzing-sanitycheck — mogelijke typo in SV1657.** De
+   SV1657-bron is leidend voor vertaling, maar marginale
+   bijbelverwijzingen kunnen zet- of transcriptiefouten bevatten. Flag
+   zo'n geval alleen als alle drie gelden:
+
+   - de SV1657-verwijzing is intern onmogelijk of aantoonbaar
+     onwaarschijnlijk (bv. niet-bestaand versnummer, hoofdstuk buiten
+     bereik, of duidelijke Psalm-/hoofdstukverwisseling);
+   - HSV of een andere externe bron biedt een plausibele correctie die
+     inhoudelijk past bij het geciteerde vers;
+   - de correctie is onafhankelijk controleerbaar zonder de hoofdtekst
+     inhoudelijk naar HSV toe te trekken.
+
+   Actie bij hoge zekerheid: corrigeer de verwijzing in `input.sv`,
+   `output`, en bestaande docs-artifacts voor dat vers, en leg de mapping
+   vast in `scripts/source_corrections.py` zodat `compare_hsv.py` /
+   `compare_all.py` dezelfde correctie blijven toepassen. Dit is geen
+   vrijbrief om HSV-verwijzingsstijl of HSV-exegese over te nemen; het
+   gaat alleen om aantoonbare bronverwijzing-typo's.
 
 ### Anti-hallucinatieprotocol — VERPLICHT
 
@@ -189,6 +209,11 @@ Voorkom hallucinaties met deze vier controles vóór elke bevinding:
    anders haal je translator-aantekeningen mee als bewijs). Als één
    van beide niet woordelijk in de diff staat: laat de bevinding
    weg. Voorkomt "ik dacht dat de HSV zou schrijven X"-hallucinaties.
+
+6. **Bronverwijzing-controle (alleen voor categorie 5).** Noem het
+   exacte `$...$`-blok uit SV1657 en de voorgestelde gecorrigeerde
+   verwijzing. Als je niet concreet kunt aantonen dat de oude verwijzing
+   onmogelijk/onwaarschijnlijk is, laat de bevinding weg.
 
 **Kalibratie:** geef alleen bevindingen waar je ≥80% zeker bent dat ze
 actie vereisen. "Geen actiepunten" is een volledig acceptabele —
@@ -304,6 +329,7 @@ De arbitrage-resultaten gaan naar het eindverslag (Stap 5) als aparte
 | 4b. Drempel-archaïsme dat HSV modern oplost (eenmalig) | Bewerk het vers. Documenteer in `notes` dat de wijziging door de HSV-spiegel is ingegeven (drempel-§2.7). |
 | 4b-patroon dat ≥2× voorkomt over batches | Woord → blacklist-uitbreiding in `scripts/validate.py` + vermelding in de archaïsmetabel van `ARCHAISMEN.md` + terugwerkende linter via `lint_archaismen.py lint --root output/`. Constructiepatroon → kort voorbeeld in `MODERNISATIE.md §2.7` of `ARCHAISMEN.md §2.3b`. |
 | 4c. HSV wijkt af op hoofdletters / kanttekening / parafrase / exegese in hoofdtekst / structurele herbouw / lexicaal register / vierkante haken | Geen actie. Niet noteren in `notes`; orchestrator-eindverslag mag het in aggregaat melden. |
+| 5. Bronverwijzing-typo in SV1657 (hoge zekerheid) | Corrigeer de verwijzing in `input.sv`, `output` en relevante docs-artifacts; voeg mapping toe aan `scripts/source_corrections.py`; regenereer `docs/diff_hsv_<BOEK>_<H>.json` en `docs/diff_all_<BOEK>_<H>.json`. |
 
 Pas wijzigingen **direct toe** via de Edit-tool, géén tussen-JSON en
 **géén inline `python3 -c "... json.dump ..."`-edit**. Een
