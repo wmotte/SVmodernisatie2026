@@ -47,6 +47,46 @@
       "generated_at": "2026-05-25T19:22:53.049480Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 4,
+      "original": "Ende indien het [de moeyte] <Ofte, noodigh is.> weerdigh mochte zijn <De Apostel biedt sijnen dienst aen om die moeyte geerne te nemen, soo het noodigh geacht wiert: het welck hy oock gedaen heeft, gelijck blijckt Actor. 24. vers 17. ende Rom. 15.25.> dat ick oock [selve] reysen soude, soo sullen sy met my reysen.",
+      "modernized": "En indien het [de moeite] <Of, nodig is.> waardig mocht zijn <De Apostel biedt zijn dienst aan om die moeite graag te nemen, zo het nodig geacht werd; hetwelk hij ook gedaan heeft, zoals blijkt $Hd. 24:17$. en $Rm. 15:25$.> dat ik ook [zelf] reizen zou, dan zullen zij met mij reizen.",
+      "source_text": "ἐὰν δὲ ᾖ ἄξιον τοῦ κἀμὲ πορεύεσθαι, σὺν ἐμοὶ πορεύσονται.",
+      "generated_at": "2026-05-25T19:27:14.110626Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "voegwoord Ende aan versbegin",
+          "context": "opening van het vers",
+          "choice": "En indien",
+          "alternatives": [
+            "En indien",
+            "Maar indien"
+          ],
+          "reason": "SV opent met Ende (= en), niet Doch; Gr. ean de. Versopenend Ende -> En aangehouden conform concordantie (v6 Ende ick sal -> En ik zal); de adversatieve weergave Maar is voorbehouden aan SV Doch (zie v5). HSV-spiegel bevestigt En als."
+        }
+      ]
+    },
+    {
+      "verse_number": 5,
+      "original": "Doch $2.Corinth. 1.15.$ ick sal tot u komen <Soo en was dan d’Apostel, als hy desen brief schreef, noch niet in Macedonien gekomen, maer het blijckt uyt versen 8, 19. dat hy doe noch te Ephesen was. Waer uyt volght dat het niet seker en gaet, het gene onder desen brief gestelt wort, dat deselve soude geschreven zijn tot Philippis, welcke een stadt was in Macedonien gelegen, Actor. 16. vers 12.> wanneer ick Macedonien sal door gegaen hebben, (Want ick sal door Macedonien gaen.)",
+      "modernized": "Maar $2Kor. 1:15$ ik zal tot u komen <Zo was de Apostel dan, toen hij deze brief schreef, nog niet in Macedonië gekomen, maar het blijkt uit de verzen 8, 19 dat hij toen nog te Efeze was. Waaruit volgt dat het niet zeker is, hetgeen onder deze brief gesteld wordt, dat die geschreven zou zijn te Filippi, welke een stad was in Macedonië gelegen, $Hd. 16:12$.> wanneer ik Macedonië zal doorgegaan zijn, (Want ik zal door Macedonië gaan.)",
+      "source_text": "ἐλεύσομαι δὲ πρὸς ὑμᾶς, ὅταν Μακεδονίαν διέλθω Μακεδονίαν γὰρ διέρχομαι·",
+      "generated_at": "2026-05-25T19:27:49.339919Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 6,
+      "original": "Ende ick sal <D. indien het de Heere sal toelaten. siet vers 7. Iacob. 4. vers 15.> mogelick by u blijven, ofte oock <Dat is, den gantschen winter over by u blijven, op dat ghy mijnen dienst genoeghsaemlick mooght gebruycken.> overwinteren, op dat <D. eenige uyt uwe gemeynte, die ghy daer toe bestemmen sult.> ghy my mooght geleyden <Namelick, het zy na Ierusalem, soo het noodigh gevonden wort, dat ick desen dienst selve sal doen, ofte ergens elders sal reysen om het Euangelium te verbreyden.> waer ick sal henen reysen.",
+      "modernized": "En ik zal <Dat is, indien de Heere het zal toelaten. Zie vers 7. $Jk. 4:15$.> wellicht bij u blijven, of ook <Dat is, de hele winter over bij u blijven, opdat u mijn dienst voldoende moogt gebruiken.> overwinteren, opdat <Dat is, enigen uit uw gemeente, die u daartoe bestemmen zult.> u mij moogt geleiden <Namelijk, hetzij naar Jeruzalem, zo het nodig gevonden wordt, dat ik deze dienst zelf zal doen, of ergens elders zal reizen om het Evangelie te verbreiden.> waarheen ik zal reizen.",
+      "source_text": "πρὸς ὑμᾶς δὲ τυχὸν παραμενῶ, ἢ καὶ παραχειμάσω, ἵνα ὑμεῖς με προπέμψητε οὗ ἐὰν πορεύωμαι.",
+      "generated_at": "2026-05-25T19:29:07.679623Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ],
   "epilogue": {
