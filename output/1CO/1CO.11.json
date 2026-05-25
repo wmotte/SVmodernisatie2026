@@ -277,6 +277,45 @@
       "generated_at": "2026-05-25T05:25:58.974073Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 4
+    },
+    {
+      "verse_number": 31,
+      "original": "$Psalm 32.5. Prov. 18.17.$ Want indien wy ons selven <Ofte, onderscheydden, Dat is, na een goede ende ernstige beproevinge onses selfs, recht oordeelden hoe het met ons gestelt is, of wy weerdighlick aen de tafel des Heeren mogen gaen ofte niet: ende soo wy ons bevinden onweerdigh, dat wy ons onthouden van die heylige spijse, tot dat wy ons leven sullen gebetert hebben.> oordeelden, soo en souden wy niet <D. gestraft ofte gekastijt van den Heere met soodanige plagen als te voren verhaelt zijn, vers 30.> geoordeelt worden.",
+      "modernized": "$Ps. 32:5; Sp. 18:17$ Want indien wij onszelf <Of, onderscheidden, dat is, na een goede en ernstige beproeving van onszelf, recht oordeelden hoe het met ons gesteld is, of wij waardig aan de tafel des Heeren mogen gaan of niet; en zo wij ons onwaardig bevinden, dat wij ons onthouden van die heilige spijze, totdat wij ons leven zullen gebeterd hebben.> oordeelden, zo zouden wij niet <Dat is, gestraft of gekastijd door den Heere met zodanige plagen als tevoren verhaald zijn, vers 30.> geoordeeld worden.",
+      "source_text": "εἰ γὰρ ἑαυτοὺς διεκρίνομεν, οὐκ ἂν ἐκρινόμεθα.",
+      "generated_at": "2026-05-25T05:29:18.334272Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 32,
+      "original": "<Desen troost doet den Apostel daer by, op dat de geloovige door de hardigheyt van de voorgaende bestraffingen niet en souden te seer verslagen worden. De troost bestaet in twee deelen: Eerstelick, dat sulcke plagen geen straffen eygentlick en zijn, maer vaderlicke kastijdingen, ofte tuchtingen: Ten tweeden, datse ten goeden eynde van Godt toegesonden worden, namelick tot onser saligheyt, op dat wy daer door tot ware bekeeringe gebracht worden, ende met de godtloose niet verdoemt en worden.> Maer als wy geoordeelt worden, soo worden wy van den Heere getuch-tight, op dat wy met de werelt niet en souden veroordeelt worden.",
+      "modernized": "<Deze troost voegt de Apostel daarbij, opdat de gelovigen door de hardheid van de voorgaande bestraffingen niet al te zeer verslagen zouden worden. De troost bestaat uit twee delen: ten eerste, dat zulke plagen eigenlijk geen straffen zijn, maar vaderlijke kastijdingen of tuchtigingen; ten tweede, dat zij tot een goed einde door God toegezonden worden, namelijk tot ons heil, opdat wij daardoor tot ware bekering gebracht worden, en met de goddelozen niet verdoemd worden.> Maar als wij geoordeeld worden, zo worden wij door de Heere getuchtigd, opdat wij met de wereld niet zouden veroordeeld worden.",
+      "source_text": "κρινόμενοι δέ, ὑπὸ Κυρίου παιδευόμεθα, ἵνα μὴ σὺν τῷ κόσμῳ κατακριθῶμεν.",
+      "generated_at": "2026-05-25T05:30:15.930982Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 33,
+      "original": "Soo dan, mijne broeders, als ghy te samen komt <Namelick, het Avontmael des Heeren, ofte oock om daer na te houden de maeltijden der liefde, in welcke de rijcke den armen niet en verwachteden, uyt verachtinge der selve.> om te eten, <Namelick, tot dat ghy alle by een gekomen zijt: ofte dat de eene wacht tot dat de ander sal aen de tafel geweest zijn, om niet ongeschicktelick malkanderen te overdringen.> verwacht malkanderen.",
+      "modernized": "Zo dan, mijn broeders, als u samenkomt <Namelijk, het Avondmaal des Heeren, of ook om daarna de maaltijden der liefde te houden, waarin de rijken de armen niet verwachtten, uit verachting van dezen.> om te eten, <Namelijk, totdat u allen bijeengekomen bent; of dat de een wacht totdat de ander aan de tafel geweest zal zijn, om niet ongeregeld elkaar te overdringen.> wacht op elkaar.",
+      "source_text": "ὥστε, ἀδελφοί μου, συνερχόμενοι εἰς τὸ φαγεῖν, ἀλλήλους ἐκδέχεσθε.",
+      "generated_at": "2026-05-25T05:30:40.158082Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "verwacht (ἐκδέχεσθε)",
+          "context": "slot hoofdtekst",
+          "choice": "wacht op elkaar",
+          "alternatives": [
+            "verwacht elkaar"
+          ],
+          "reason": "Semantic-review: modern verwachten = expect (false friend); ἐκδέχεσθε / SV verwacht = op elkaar wachten. Concordantie binnen dit hoofdstuk (v21/v22 kanttekeningen: afwachten) bevestigt de wacht-betekenis. Gecorrigeerd naar wacht op elkaar."
+        }
+      ]
     }
   ]
 }
