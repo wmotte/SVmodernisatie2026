@@ -313,13 +313,44 @@ DREMPEL_ARCHAISMEN: frozenset[str] = frozenset({
     "nochthans",
     "uwe",  # zelfst. gebruikt possessief 'de uwe' / 'het uwe'
     "ure",
+    # Gesubstantiveerd '-enden'-participium dat buiten PARTICIPLE_RE
+    # (`\w+ende\b`) valt. Lexicaal, exacte-woord-match → geen false
+    # positives (regex-verbreding zou 'vrienden'/'benden' raken).
+    # Meta-review JUD 1:16: 'morrenden' → 'mopperaars'. ('dwalende' NIET:
+    # faalt §2.7 — 'dwalende schapen/ziel' is productief modern.)
+    "morrenden",
 })
 
 DREMPEL_FOSSIELEN: tuple[str, ...] = (
     r"\bten\s+\w+den\s+dage\b",
     r"\bter\s+ure\b",
     r"\b(?:[Hh]oort|[Zz]iet|[Zz]ie)\b(?:\s+\w+){0,4}\s+toe\b",
+    # Fossiele datief 'ten <verbogen adj -en> leven' (meta-review JUD 1:21
+    # 'ten eeuwigen leven' → 'tot het eeuwige leven'). Gebonden aan zn
+    # 'leven' zodat compas-vormen ('ten oosten van') niet raken.
+    r"\bten\s+\w+en\s+leven\b",
+    # 'ter maaltijd' (JUD 1:12) — archaïsche datief; modern 'aan de maaltijd'.
+    r"\bter\s+maaltijd\b",
 )
+
+# Archaïsche 2e-pers-meervoud imperatief op -t ('Bewaart uzelf', 'behoudt
+# anderen', 'grijpt hem'). Modern imperatief = stam (Bewaar/behoud/grijp).
+# scan_archaic_imperative_t flagt alleen wanneer (a) de -t-vorm na
+# zinsbegin/leesteken/nevenschikker staat (géén subject ervoor → sluit
+# 3ev-presens 'hij behoudt' uit) en (b) de stam in IMPERATIVE_T_STEMS zit en
+# (c) er een object/reflexivum volgt. Soft severity i.v.m. -t/3ev-collisie.
+# Uitbreidbaar: voeg nieuwe stam toe bij elke nieuwe -t-imperatief-vondst.
+IMPERATIVE_T_STEMS: frozenset[str] = frozenset({
+    "bewaar", "behoud", "grijp", "houd", "geef", "neem", "draag",
+    "breng", "laat", "red", "ruk", "zoek", "volg", "wacht",
+    "verdraag", "verberg", "verlaat", "let", "denk", "vlied",
+})
+IMPERATIVE_OBJECT_TOKENS: frozenset[str] = frozenset({
+    "uzelf", "zich", "zichzelf", "hen", "hem", "haar", "ons", "elkaar",
+    "mij", "me", "anderen", "hun",
+    # 'u' bewust weggelaten: 'denkt u dit ...?' is inversie-vraag (u =
+    # subject), niet imperatief — gaf false positive op ROME 2:3.
+})
 
 KANTTEKENING_ARCHAISMEN: tuple[str, ...] = (
     r"\bLeeraers?\b", r"\bLeeraren\b",
