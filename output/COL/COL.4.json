@@ -128,6 +128,33 @@
           "reason": "SV-doublet 'volmaeckt ende volkomen' (Gr. τέλειοι καὶ πεπληρωμένοι; kt. <Gr. vervult.>); 'volkomen' staat als ARCHAISM_BLACKLIST-regex (\\bvolkomen\\b) in rules_data.py en is een harde validatorfout. 'volledig' is de modern-NL equivalent en bewaart het tweeledige doublet naast 'volmaakt'."
         }
       ]
+    },
+    {
+      "verse_number": 13,
+      "original": "Want ick geve hem getuygenisse dat hy grooten yver heeft over u, ende de gene die in <Dese twee vermaerde steden en waren niet verre van haer gelegen, gelijck aengeteeckent is Cap. 1. vers 2.> Laodicea zijn, ende de gene die in Hierapolis zijn.",
+      "modernized": "Want ik geef hem getuigenis dat hij grote ijver heeft voor u, en degenen die in <Deze twee vermaarde steden lagen niet ver van hen, zoals aangetekend is $Ko. 1:2$.> Laodicea zijn, en degenen die in Hiërapolis zijn.",
+      "source_text": "μαρτυρῶ γὰρ αὐτῷ ὅτι ἔχει ζῆλον πολὺν ὑπὲρ ὑμῶν καὶ τῶν ἐν Λαοδικείᾳ καὶ τῶν ἐν Ἱεραπόλει.",
+      "generated_at": "2026-05-26T15:57:37.535755Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 14,
+      "original": "U groet $2.Timoth. 4.11.$ <Dese is de Euangelist Lucas, die sijn Euangelium door den Heyligen Geest heeft beschreven, ende een geduerigh metgeselle Pauli in sijne reysen oock tot Roomen toe in sijne gevangenisse is geweest. Siet Actor. cap. 27. vers 1. ende 28.14.> Lucas <Namelick, van stijl ofte professie, gelijck Mattheus een tollenaer genaemt wort oock na sijne bekeeringe ende beroepinge tot het Apostelschap, Matth. cap. 10. vers 3.> de Medicijnmeester, de geliefde, ende $2.Timoth. 4.10.$ <Dese is wel een mede-arbeyder Pauli in sijne gevangenisse voor eenen tijt geweest, Philem. vers 24. maer heeft hem daer na schandelick verlaten, 2.Timoth. 4.10.> Demas.",
+      "modernized": "U groet $2Tm. 4:11$ <Deze is de Evangelist Lucas, die zijn Evangelie door de Heilige Geest heeft beschreven, en een gedurig metgezel van Paulus in zijn reizen ook tot Rome toe in zijn gevangenis is geweest. Zie $Hd. 27:1; 28:14$.> Lucas <Namelijk, naar stand of beroep, gelijk Mattheüs een tollenaar genoemd wordt ook na zijn bekering en beroeping tot het Apostelschap, $Mt. 10:3$.> de geneesheer, de geliefde, en $2Tm. 4:10$ <Deze is wel een medearbeider van Paulus in zijn gevangenis voor een tijd geweest, $Fm. 1:24$, maar heeft hem daarna schandelijk verlaten, $2Tm. 4:10$.> Demas.",
+      "source_text": "ἀσπάζεται ὑμᾶς Λουκᾶς ὁ ἰατρὸς ὁ ἀγαπητός, καὶ Δημᾶς.",
+      "generated_at": "2026-05-26T15:58:30.363811Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 15,
+      "original": "Groet de broederen die in Laodicea zijn, ende Nymphan, ende de gemeynte <Dit kan verstaen worden ofte van de gemeynte die in deses mans huys hare vergaderinge hieldt, ofte oock van sijn huysgesin, dat als een kleyne gemeynte in sijn huys was, ende in seer Christelicke ordre van hem wiert gehouden, gelijck van het huys van Aquila ende Priscilla geseght wort, Rom. cap. 16. vers 5. ende 1.Corinth. 16.19.> die in sijn huys is.",
+      "modernized": "Groet de broeders die in Laodicea zijn, en Nymfas, en de gemeente <Dit kan verstaan worden of van de gemeente die in het huis van deze man haar vergadering hield, of ook van zijn huisgezin, dat als een kleine gemeente in zijn huis was, en in zeer Christelijke orde door hem gehouden werd, gelijk van het huis van Aquila en Priscilla gezegd wordt, $Rm. 16:5$ en $1Kor. 16:19$.> die in zijn huis is.",
+      "source_text": "ἀσπάσασθε τοὺς ἐν Λαοδικείᾳ ἀδελφούς, καὶ Νυμφᾶν, καὶ τὴν κατ’ οἶκον αὐτοῦ ἐκκλησίαν.",
+      "generated_at": "2026-05-26T16:44:47.413442Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ],
   "epilogue": {
