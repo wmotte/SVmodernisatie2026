@@ -1,0 +1,66 @@
+{
+  "book": "1TI",
+  "chapter": 3,
+  "reviewed_at": "2026-05-26T14:38:44+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-26T14:37:19+00:00",
+      "mode": "scan",
+      "issues_total": 3
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-26T14:38:44+00:00",
+      "mode": "verify",
+      "actions": [
+        "1TI-3-3-001: rebuttal verified",
+        "1TI-3-7-001: verified",
+        "1TI-3-16-001: rebuttal verified"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "category": "§2.3b bijwoord-coda",
+      "verse": 3,
+      "severity": "soft",
+      "quote_modernized": "…, niet uit op schandelijk gewin; maar   inschikkelijk, niet twistziek, niet geld…",
+      "rule_reference": "MODERNISATIE.md §2.3b",
+      "explanation": "'inschikkelijk,' aan zinseind — verifieer of dit bijwoord niet als coda achteraf is blijven hangen ('wandelende … onberispelick' → 'wandelden onberispelijk in …').",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "1TI-3-3-001",
+      "status": "verified",
+      "rebuttal": "In 1TI 3:3 is 'inschikkelijk' geen bijwoordelijke coda maar een adjectief in de reeks predicatieve ambtseisen bij ἐπιεικῆ, parallel aan 'niet twistziek' en 'niet geldgierig'. MODERNISATIE.md §2.3b raakt achtergebleven bijwoordelijke participiumresten, niet deze Griekse adjectiefreeks.",
+      "verified_at": "2026-05-26T14:38:44+00:00"
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 7,
+      "severity": "soft",
+      "quote_modernized": "strik van de duivel",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'strik van de duivel' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "1TI-3-7-001",
+      "status": "verified",
+      "verified_at": "2026-05-26T14:38:44+00:00"
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 16,
+      "severity": "soft",
+      "quote_modernized": "…d op de Goddelijke natuur van Christus, door welke hij zichzelf uit de doden hee…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "1TI-3-16-001",
+      "status": "verified",
+      "rebuttal": "In 1TI 3:16 staat 'door welke' in een kanttekening bij 'Goddelijke natuur' en verwijst het versspecifiek terug naar de natuur waardoor Christus zichzelf opwekt. Dit is lopende uitleg van het relatieve verband, niet een SV-relativum in de hoofdtekst; ARCHAISMEN.md raakt vooral formele relatiefconstructies waar modern 'die/dat' natuurlijker is.",
+      "verified_at": "2026-05-26T14:38:44+00:00"
+    }
+  ]
+}
