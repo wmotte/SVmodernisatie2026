@@ -1,0 +1,196 @@
+{
+  "book": "PHP",
+  "chapter": 1,
+  "reviewed_at": "2026-05-26T19:02:07+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-26T19:02:07+00:00",
+      "mode": "scan",
+      "issues_total": 13
+    }
+  ],
+  "issues": [
+    {
+      "category": "voornaamwoordelijk bijwoord gesplitst",
+      "verse": 1,
+      "severity": "hard",
+      "quote_modernized": "Hij voegt Timotheüs hier bij zich, als een oprechte Leraar v…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'hier bij' — SV-gesplitst voornaamwoordelijk bijwoord. Modern Nederlands voegt samen: 'hierbij' (bv. daarin, waarmee, hierop).",
+      "proposed_fix": "hierbij",
+      "location": "kanttekening",
+      "id": "PHP-1-1-001",
+      "status": "rebutted",
+      "rebuttal": "In vers 1 betekent 'Hij voegt Timotheüs hier bij zich' niet het pronominale bijwoord 'hierbij', maar 'op deze plaats in de brief voegt Paulus Timotheüs bij zichzelf'. ARCHAISMEN.md raakt gesplitste vormen als `daarin`/`waarmee`; deze locatieve `hier` + PP `bij zich` is versspecifiek en zou door samentrekking semantisch verschuiven."
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 6,
+      "severity": "soft",
+      "quote_modernized": "…deren, versterken en bewaren. Namelijk, op welke Christus u uit dit leven tot he…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "PHP-1-6-001",
+      "status": "rebutted",
+      "rebuttal": "In vers 6 is 'op welke Christus u...' een kanttekening bij 'de dag van Jezus Christus' en verwijst 'welke' naar de dag. ARCHAISMEN.md moderniseert het stijve zelfstandige relativum waar het lopende proza schaadt; hier is 'op de dag waarop' mogelijk, maar de huidige vorm bewaart de SV-koppeling met 'dag' zonder betekenisverlies en is geen hard §2.3b-syntaxispatroon."
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 8,
+      "severity": "soft",
+      "quote_modernized": "… ontsteld worden. Zie $Lk. 1:78$. Dat is, welke genegenheid of liefde in mij ont…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "PHP-1-8-001",
+      "status": "rebutted",
+      "rebuttal": "In vers 8 staat 'welke genegenheid of liefde' in een verklarende kanttekening bij 'innerlijke bewegingen'. Het relativum verwijst direct naar het genoemde begrip; ARCHAISMEN.md waarschuwt tegen stijf lopend proza, maar deze appositieve uitleg blijft helder en is geen §2.3b-Latinaatconstructie of drempel-archaïsme."
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 8,
+      "severity": "soft",
+      "quote_modernized": "naar u allen verlang",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'naar u allen verlang' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "PHP-1-8-002",
+      "status": "rebutted",
+      "rebuttal": "De kanttekening bij vers 8 herhaalt 'naar u allen verlang' niet als overbodige duplicatie, maar geeft de semantische uitleg van het Griekse ἐπιποθῶ: 'u allen liefheb, of naar u allen verlang'. KANTTEKENINGEN.md verbiedt redundantie tussen hoofdtekst en alternatief, maar laat zulke SV-uitlegblokken staan wanneer zij het woordveld verklaren."
+    },
+    {
+      "category": "voornaamwoordelijk bijwoord gesplitst",
+      "verse": 22,
+      "severity": "hard",
+      "quote_modernized": "…t leven te blijven. Namelijk, aangezien er aan beide zijden zeer gewichtige rede…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'er aan' — SV-gesplitst voornaamwoordelijk bijwoord. Modern Nederlands voegt samen: 'eraan' (bv. daarin, waarmee, hierop).",
+      "proposed_fix": "eraan",
+      "location": "kanttekening",
+      "id": "PHP-1-22-001",
+      "status": "rebutted",
+      "rebuttal": "In vers 22 is 'er aan beide zijden ... redenen zijn' geen gesplitst pronominaal bijwoord maar existentiële `er` plus de voorzetselgroep `aan beide zijden`. Samentrekking tot `eraan beide zijden` is grammaticaal fout. ARCHAISMEN.md gaat over vormen als `daarin`/`waarmee`, niet over deze versspecifieke existentieel-constructie."
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 22,
+      "severity": "soft",
+      "quote_modernized": "leven in het vlees",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'leven in het vlees' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "PHP-1-22-002",
+      "status": "rebutted",
+      "rebuttal": "De kanttekening bij vers 22 herhaalt 'leven in het vlees' functioneel omdat zij juist afbakent dat dit niet leven naar de lusten van het vlees betekent, maar lichamelijk en tijdelijk blijven leven. Volgens KANTTEKENINGEN.md mag uitleg bij een beladen hoofdtekstterm blijven staan; schrappen zou de SV-kanttekeninginhoud verliezen."
+    },
+    {
+      "category": "voornaamwoordelijk bijwoord gesplitst",
+      "verse": 23,
+      "severity": "hard",
+      "quote_modernized": "…ik voor het beste zal houden, aangezien er aan beide zijden krachtige en dringen…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'er aan' — SV-gesplitst voornaamwoordelijk bijwoord. Modern Nederlands voegt samen: 'eraan' (bv. daarin, waarmee, hierop).",
+      "proposed_fix": "eraan",
+      "location": "kanttekening",
+      "id": "PHP-1-23-001",
+      "status": "rebutted",
+      "rebuttal": "In vers 23 is 'er aan beide zijden ... redenen zijn' opnieuw existentiële `er` met de PP `aan beide zijden`, niet het pronominale bijwoord `eraan`. De voorgestelde fix `eraan beide zijden` zou ongrammaticaal zijn. ARCHAISMEN.md dekt gesplitste pronominale bijwoorden, maar deze constructie benoemt letterlijk twee zijden van Paulus' keuze."
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 27,
+      "severity": "soft",
+      "quote_modernized": "  Alleen   wandel   waardig het Evangelie van Chris…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'wandel' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "PHP-1-27-001",
+      "status": "rebutted",
+      "rebuttal": "In vers 27 is `wandel` de imperatief bij het werkwoord wandelen/levenswandel voeren, passend bij het Griekse πολιτεύεσθε en de kanttekening 'gedraag u'. ARCHAISMEN.md noemt het zelfstandige naamwoord `wandel` als drempel-archaïsme, niet deze werkwoordelijke imperatief; §2.7 vereist daarom geen wijziging."
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 28,
+      "severity": "soft",
+      "quote_modernized": "van de zaligheid en",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'van de zaligheid en' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "PHP-1-28-001",
+      "status": "rebutted",
+      "rebuttal": "De kanttekening bij vers 28 verklaart dat de standvastigheid van gelovigen geen verdienende oorzaak van de zaligheid is maar van God komt. De woorden 'van de zaligheid' sluiten grammaticaal aan op de hoofdtekstterm die wordt uitgelegd. KANTTEKENINGEN.md verbiedt overbodige dubbeling, maar deze versspecifieke causale uitleg zou bij schrappen verdwijnen."
+    },
+    {
+      "category": "§2.3b vocatief-u",
+      "verse": 30,
+      "severity": "soft",
+      "quote_modernized": "Terwijl u dezelfde strijd   hebt, zoals u   bij…",
+      "rule_reference": "MODERNISATIE.md §2.3b",
+      "explanation": "'u dezelfde' aan zin-/clause-begin — mogelijke vocatief-u-Latinaatconstructie. Verifieer of 'u' hier object van aanspreking is en weghaalbaar is.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "PHP-1-30-001",
+      "status": "rebutted",
+      "rebuttal": "In vers 30 is `u` het onderwerp van `hebt` in 'Terwijl u dezelfde strijd hebt', niet een aanspreek-vocatief als `u Theofilus` of `u kindeken`. MODERNISATIE.md §2.3b zegt expliciet dat `u` alleen geschrapt wordt waar het geen echt onderwerp is; hier is het onderwerp syntactisch noodzakelijk."
+    },
+    {
+      "category": "voornaamwoordelijk bijwoord gesplitst",
+      "verse": 30,
+      "severity": "hard",
+      "quote_modernized": "…etc. Namelijk, uit de geruchten, wat ik hier in Rome dagelijks te lijden heb in …",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'hier in' — SV-gesplitst voornaamwoordelijk bijwoord. Modern Nederlands voegt samen: 'hierin' (bv. daarin, waarmee, hierop).",
+      "proposed_fix": "hierin",
+      "location": "kanttekening",
+      "id": "PHP-1-30-002",
+      "status": "rebutted",
+      "rebuttal": "In vers 30 betekent 'wat ik hier in Rome dagelijks te lijden heb' letterlijk 'op deze plaats, in Rome'. `hier` is locatief en `in Rome` specificeert die plaats; samentrekken tot `hierin Rome` is grammaticaal onmogelijk. ARCHAISMEN.md ziet op echte pronominale bijwoorden, niet op deze plaatsbepaling."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 5,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'euangel' in 5 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 5 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        5,
+        7,
+        12,
+        17,
+        27
+      ],
+      "id": "PHP-1-5-001",
+      "status": "rebutted",
+      "rebuttal": "De euangel-stam in PHP 1:5,7,12,17,27 is concordant als `Evangelie` weergegeven waar het zelfstandig naamwoord staat: `gemeenschap aan het Evangelie`, `bevestiging van het Evangelie`, `bevordering van het Evangelie`, `verdediging van het Evangelie`, `het Evangelie van Christus`. De scanner mist alleen de SV-orthografie `Euangelium` → modern `Evangelie`."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 14,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'hebbend' in 3 verzen — verzen [23] renderen het stam anders dan [14, 30]",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        14,
+        23,
+        30
+      ],
+      "id": "PHP-1-14-001",
+      "status": "rebutted",
+      "rebuttal": "De stam `hebbend` is hier geen lexicale concordantie-eenheid maar een SV-participium/hulpconstructie die volgens MODERNISATIE.md §2.3 per syntactische functie ontvouwd moet worden. Vers 14 heeft Grieks πεποιθότας en modern `vertrouwen gekregen hebben`; vers 23 ἔχων en `terwijl ik begeerte heb`; vers 30 ἔχοντες en `Terwijl u ... hebt`. Het verschil volgt uit de brontekstconstructies, niet uit drift."
+    }
+  ]
+}
