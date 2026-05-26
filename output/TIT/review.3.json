@@ -1,0 +1,119 @@
+{
+  "book": "TIT",
+  "chapter": 3,
+  "reviewed_at": "2026-05-26T10:00:53+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-26T10:00:53+00:00",
+      "mode": "scan",
+      "issues_total": 8
+    }
+  ],
+  "issues": [
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 1,
+      "severity": "soft",
+      "quote_modernized": "…e Kretenzers, uw toehoorders. Namelijk, van welke aard die ook zijn, niet alleen…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "TIT-3-1-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+    },
+    {
+      "category": "§2.3b bijwoord-coda",
+      "verse": 3,
+      "severity": "soft",
+      "quote_modernized": "…llusten, levend in boosheid en afgunst, hatelijk, en wij haatten elkaar:",
+      "rule_reference": "MODERNISATIE.md §2.3b",
+      "explanation": "'hatelijk,' aan zinseind — verifieer of dit bijwoord niet als coda achteraf is blijven hangen ('wandelende … onberispelick' → 'wandelden onberispelijk in …').",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "TIT-3-3-001",
+      "status": "rebutted",
+      "rebuttal": "'hatelijk' rendert SV 'hatelick zijnde' (Gr. στυγητοί, verfoeilijk/gehaat) als predicaatsadjectief bij 'wij waren ... onverstandig, ongehoorzaam, ... hatelijk' — een nevengeschikt naamwoordelijk deel van het gezegde, geen adverbiale participium-coda. §2.3b mist toepassing: er is geen werkwoord waaraan een bijwoord achteraan hangt; de finiete 'wij haatten elkaar' staat los naast het predicaat."
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 5,
+      "severity": "hard",
+      "quote_modernized": "… werken, gedaan niet alleen naar de wet der ceremoniën, maar ook naar de wet der…",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'der ceremoniën' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de ceremoniën' of 'van het ceremoniën', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de ceremoniën",
+      "location": "kanttekening",
+      "id": "TIT-3-5-001",
+      "status": "fixed",
+      "fix_commit": "PENDING"
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 5,
+      "severity": "hard",
+      "quote_modernized": "…et der ceremoniën, maar ook naar de wet der zeden of der tien geboden. Namelijk,…",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'der zeden' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de zeden' of 'van het zeden', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de zeden",
+      "location": "kanttekening",
+      "id": "TIT-3-5-002",
+      "status": "fixed",
+      "fix_commit": "PENDING"
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 5,
+      "severity": "hard",
+      "quote_modernized": "…niën, maar ook naar de wet der zeden of der tien geboden. Namelijk, niet alleen …",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'der tien' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de tien' of 'van het tien', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de tien",
+      "location": "kanttekening",
+      "id": "TIT-3-5-003",
+      "status": "fixed",
+      "fix_commit": "PENDING"
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 5,
+      "severity": "soft",
+      "quote_modernized": "… is, die gedaan zijn naar de wet van God, welke de regel is van alle gerechtighe…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "TIT-3-5-004",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 5,
+      "severity": "soft",
+      "quote_modernized": "de wedergeboorte en vernieuwing",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'de wedergeboorte en vernieuwing' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "TIT-3-5-005",
+      "status": "rebutted",
+      "rebuttal": "Geen redundantie: dit is een 'Dat is,'-lemmagloss (KANTTEKENINGEN.md) die de hoofdtekstfrase als ankerpunt citeert en er substantiële exegese aan toevoegt — de waterbad-metafoor, de zonde-reiniging en de doopverwijzing Ez. 36:25-27. De 4-token-overlap is lemma-aanhaling, niet parafrastische herhaling."
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 7,
+      "severity": "soft",
+      "quote_modernized": "van het eeuwige leven",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'van het eeuwige leven' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "TIT-3-7-001",
+      "status": "rebutted",
+      "rebuttal": "Geen redundantie: 'Dat is, van het eeuwige leven' verheldert het object van 'erfgenamen zouden worden' (waarvan zij erfgenaam worden) vóór de hoofdtekst-coda 'naar de hoop van het eeuwige leven'; het voegt de kruisverwijzing Tt. 1:2 toe. Lemmagloss conform KANTTEKENINGEN.md, geen parafrastische herhaling."
+    }
+  ]
+}
