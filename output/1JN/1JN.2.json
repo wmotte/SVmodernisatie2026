@@ -88,6 +88,46 @@
       "generated_at": "2026-05-26T17:34:35.189396Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 10,
+      "original": "$1.Ioan. 3.14.$ Die sijnen broeder lief heeft, $Ioan. 12 35.$ blijft in het licht, ende geen <Ofte, aenstoot. Gr. scandalon, het welck beteeckent eenen steen, ofte yet dergelijcks, dat in de wegh leght, daer aen men hem stoot, ende daer door men ten val gebracht wort, het welck lichtelick geschiet als men in duysternisse wandelt: maer die in het licht wandelt kan lichtelick sulcken aenstoot mijden, als hy wel voor hem siet, het welck de Apostel hier seght, dat de ware geloovige doen. Siet dergelijcke Psalm 119.165. Ioan. cap. 11. versen 9, 10.> ergernisse en is in hem.",
+      "modernized": "$1Jh. 3:14$ Die zijn broeder liefheeft, $Jh. 12:35$ blijft in het licht, en geen <Of, aanstoot. Grieks: scandalon, hetwelk een steen betekent, of iets dergelijks, dat in de weg ligt, waaraan men zich stoot, en waardoor men ten val gebracht wordt, hetwelk licht geschiedt als men in duisternis wandelt: maar die in het licht wandelt kan licht zulk een aanstoot mijden, daar hij wel voor zich ziet, hetwelk de Apostel hier zegt, dat de ware gelovigen doen. Zie dergelijke $Ps. 119:165; Jh. 11:9,10$.> aanstoot is in hem.",
+      "source_text": "ὁ ἀγαπῶν τὸν ἀδελφὸν αὐτοῦ ἐν τῷ φωτὶ μένει, καὶ σκάνδαλον ἐν αὐτῷ οὐκ ἔστιν.",
+      "generated_at": "2026-05-26T17:38:17.469231Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "ergernisse → aanstoot",
+          "context": "hoofdtekst (scandalon)",
+          "choice": "aanstoot",
+          "alternatives": [
+            "ergernis",
+            "struikelblok"
+          ],
+          "reason": "SV ergernisse = struikelblok/aanstoot; modern ergernis is false friend (lint_false_friends). Kanttekening biedt zelf Of, aanstoot."
+        }
+      ]
+    },
+    {
+      "verse_number": 11,
+      "original": "Maer die sijnen broeder haet, is in de duysternisse, ende wandelt in de duysternisse, ende en weet niet <Namelick, of hy den rechten wegh gaet ofte niet. Ofte, weet niet dat hy tot sijn verderf gaet.> waer hy henen gaet: want de duysternisse heeft sijne oogen verblint.",
+      "modernized": "Maar die zijn broeder haat, is in de duisternis, en wandelt in de duisternis, en weet niet <Namelijk, of hij de rechte weg gaat of niet. Of, weet niet dat hij tot zijn verderf gaat.> waar hij heen gaat: want de duisternis heeft zijn ogen verblind.",
+      "source_text": "ὁ δὲ μισῶν τὸν ἀδελφὸν αὐτοῦ ἐν τῇ σκοτίᾳ ἐστί, καὶ ἐν τῇ σκοτίᾳ περιπατεῖ, καὶ οὐκ οἶδε ποῦ ὑπάγει, ὅτι ἡ σκοτία ἐτύφλωσε τοὺς ὀφθαλμοὺς αὐτοῦ.",
+      "generated_at": "2026-05-26T17:38:49.133122Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 12,
+      "original": "$Luce 24.47. Actor. 4.12. ende 13.38.$ Ick schrijve u, <Gelijck te voren vers 1. Hier en begint noch niet de afdeelinge na den ouderdom: maer in het volgende vers.> kinderkens, <Ofte, dat u de sonden vergeven zijn. Alsoo oock versen 13, 14.> want de sonden zijn u vergeven <Dat is, om Christi Iesu wille. Siet Actor. cap. 4. vers 12. ende 10.43. ende de aenteeckeninge aldaer.> om sijns naems wille.",
+      "modernized": "$Lk. 24:47; Hd. 4:12; 13:38$ Ik schrijf u, <Zoals tevoren vers 1. Hier begint nog niet de afdeling naar de ouderdom: maar in het volgende vers.> kinderkens, <Of, dat u de zonden vergeven zijn. Zo ook versen 13, 14.> want de zonden zijn u vergeven <Dat is, om Christus Jezus wil. Zie $Hd. 4:12; 10:43$ en de aantekening aldaar.> om zijns naams wil.",
+      "source_text": "Γράφω ὑμῖν, τεκνία, ὅτι ἀφέωνται ὑμῖν αἱ ἁμαρτίαι διὰ τὸ ὄνομα αὐτοῦ.",
+      "generated_at": "2026-05-26T17:39:05.765178Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
