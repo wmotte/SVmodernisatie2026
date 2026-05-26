@@ -1,13 +1,33 @@
 {
   "book": "1PE",
   "chapter": 5,
-  "reviewed_at": "2026-05-26T06:52:37+00:00",
+  "reviewed_at": "2026-05-26T06:57:04+00:00",
   "passes": [
     {
       "pass": 1,
       "ran_at": "2026-05-26T06:52:37+00:00",
       "mode": "scan",
       "issues_total": 5
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-26T06:56:10+00:00",
+      "mode": "verify",
+      "actions": [
+        "1PE-5-4-001: reopened (te generiek)",
+        "1PE-5-4-002: rebuttal verified",
+        "1PE-5-11-001: rebuttal verified",
+        "1PE-5-12-001: verified",
+        "1PE-5-12-002: rebuttal verified"
+      ]
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-05-26T06:57:04+00:00",
+      "mode": "verify",
+      "actions": [
+        "1PE-5-4-001: rebuttal verified"
+      ]
     }
   ],
   "issues": [
@@ -21,8 +41,9 @@
       "proposed_fix": "van de heerlijkheid",
       "location": "hoofdtekst",
       "id": "1PE-5-4-001",
-      "status": "rebutted",
-      "rebuttal": "\"kroon der heerlijkheid\" (Gr. tes doxes stephanon, gen.sg.fem.) is een gefossiliseerde bijbelgenitief, opgenomen in FOSSIL_GENITIVE_PAIRS — validator geeft 0F op de hoofdtekst. Concordant met \"Heere der heerlijkheid\" (1Kor. 2:8) en \"Vader der heerlijkheid\" (Ef. 1:17). Net als \"Koninkrijk der hemelen\" een vaste constructie, geen productieve SV-verbuiging."
+      "status": "verified",
+      "rebuttal": "Vers 4 hoofdtekst: \"kroon der heerlijkheid\" geeft het Grieks tes doxes stephanon (gen.sg.fem.) weer en is een vaste uitdrukking — een gefossiliseerde bijbelgenitief, opgenomen in FOSSIL_GENITIVE_PAIRS, waardoor validate.py 0F geeft op de hoofdtekst. Concordant met \"Heere der heerlijkheid\" (1Kor. 2:8) en \"Vader der heerlijkheid\" (Ef. 1:17). Net als \"Koninkrijk der hemelen\" geen productieve SV-verbuiging maar een staande formule; ARCHAISMEN.md voorziet hierin expliciet de fossiel-uitzondering.",
+      "verified_at": "2026-05-26T06:57:04+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -34,8 +55,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "1PE-5-4-002",
-      "status": "rebutted",
-      "rebuttal": "\"welke titel niemand anders kan toekomen\" gebruikt \"welke\" als relatief determinator (welke + substantief), niet het kale archaïsche pronomen \"hetwelk/dewelke\" dat ARCHAISMEN.md viseert. Relativum + zelfstandig naamwoord overleeft in modern formeel Nederlands (\"welke titel\"). Staat in kanttekening, soft. Geen actie."
+      "status": "verified",
+      "rebuttal": "\"welke titel niemand anders kan toekomen\" gebruikt \"welke\" als relatief determinator (welke + substantief), niet het kale archaïsche pronomen \"hetwelk/dewelke\" dat ARCHAISMEN.md viseert. Relativum + zelfstandig naamwoord overleeft in modern formeel Nederlands (\"welke titel\"). Staat in kanttekening, soft. Geen actie.",
+      "verified_at": "2026-05-26T06:56:10+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -47,8 +69,9 @@
       "proposed_fix": "van de eeuwen",
       "location": "kanttekening",
       "id": "1PE-5-11-001",
-      "status": "rebutted",
-      "rebuttal": "\"tot de eeuwen der eeuwen\" staat in een als \"Grieks:\" gemarkeerde interlineaire gloss van eis tous aionas ton aionon (gen.pl.) — literale brontaal-aanduiding, geen lopende moderne proza. §2.3-glosconventie laat de literale vorm staan; \"der eeuwen\" is bovendien gefossiliseerde doxologie-genitief (vgl. Op. 1:6, 4:9). Geen hoofdtekst-archaïsme."
+      "status": "verified",
+      "rebuttal": "\"tot de eeuwen der eeuwen\" staat in een als \"Grieks:\" gemarkeerde interlineaire gloss van eis tous aionas ton aionon (gen.pl.) — literale brontaal-aanduiding, geen lopende moderne proza. §2.3-glosconventie laat de literale vorm staan; \"der eeuwen\" is bovendien gefossiliseerde doxologie-genitief (vgl. Op. 1:6, 4:9). Geen hoofdtekst-archaïsme.",
+      "verified_at": "2026-05-26T06:56:10+00:00"
     },
     {
       "category": "§2.3 finiet participium",
@@ -60,9 +83,10 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "1PE-5-12-001",
-      "status": "fixed",
+      "status": "verified",
       "fix_commit": "PENDING",
-      "rebuttal": ""
+      "rebuttal": "",
+      "verified_at": "2026-05-26T06:56:10+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -74,8 +98,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "1PE-5-12-002",
-      "status": "rebutted",
-      "rebuttal": "De kanttekening bespreekt de syntactische hechting van \"zoals ik acht\": Sommigen hechten het aan \"getrouw\", anderen aan \"weinige\". Het citaat \"heb ik u met weinige woorden geschreven\" toont de tweede leesvariant en is functioneel noodzakelijk voor de glos, geen parafrastische herhaling. KANTTEKENINGEN.md redundantie-regel viseert gratuite echo, niet een citaat dat een leesvariant demonstreert. SV-identiek (\"Alsoo ick achte, hebbe ick u met weynige woorden geschreven\")."
+      "status": "verified",
+      "rebuttal": "De kanttekening bespreekt de syntactische hechting van \"zoals ik acht\": Sommigen hechten het aan \"getrouw\", anderen aan \"weinige\". Het citaat \"heb ik u met weinige woorden geschreven\" toont de tweede leesvariant en is functioneel noodzakelijk voor de glos, geen parafrastische herhaling. KANTTEKENINGEN.md redundantie-regel viseert gratuite echo, niet een citaat dat een leesvariant demonstreert. SV-identiek (\"Alsoo ick achte, hebbe ick u met weynige woorden geschreven\").",
+      "verified_at": "2026-05-26T06:56:10+00:00"
     }
   ]
 }
