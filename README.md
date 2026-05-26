@@ -879,14 +879,14 @@ protocol en de waarborgen rond de HSV-spiegel.
   | `ROM` | De brief van Paulus aan de Romeinen | in aanbouw (1–15 van 16) |
   | `1CO` | De eerste brief van Paulus aan de Korinthiërs | in aanbouw (1–14 van 16) |
   | `2CO` | De tweede brief van Paulus aan de Korinthiërs | in aanbouw (1–3 van 13) |
-  | `1PE` | De eerste brief van Petrus | in aanbouw (1–3 van 5) |
+  | `1PE` | De eerste brief van Petrus | gereed (5/5 hoofdstukken) |
   | `1JN` | De eerste brief van Johannes | in aanbouw (1 van 5) |
   | `2JN` | De tweede brief van Johannes | gereed (1/1 hoofdstuk) |
   | `3JN` | De derde brief van Johannes | gereed (1/1 hoofdstuk) |
   | `JUD` | De brief van Judas | gereed (1/1 hoofdstuk) |
   | `PHM` | De brief van Paulus aan Filemon | gereed (1/1 hoofdstuk) |
 
-  Lucas en Markus zijn compleet inclusief hoofdstukreviews.
+  Lucas, Markus en 1 Petrus zijn compleet inclusief hoofdstukreviews.
 - `memory/verses.db` bevat momenteel 2769 versparen. De proceslaag bevat
   `output/META/decisions.jsonl` met 1276 records en een lokale
   FTS-index in `memory/process.db`.
