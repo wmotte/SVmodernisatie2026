@@ -181,6 +181,33 @@
           "reason": "HSV-spiegel signaleerde een drempel-archaïsme; volgens MODERNISATIE.md §2.7 is 'behoort' productief modern Nederlands zonder inhoudelijke verschuiving."
         }
       ]
+    },
+    {
+      "verse_number": 19,
+      "original": "$Ephes. 5.25.$ Ghy mannen hebt uwe vrouwen lief, ende en wort niet verbittert tegen haer.",
+      "modernized": "$Ef. 5:25$ U mannen, heb uw vrouwen lief, en word niet verbitterd tegen haar.",
+      "source_text": "οἱ ἄνδρες, ἀγαπᾶτε τὰς γυναῖκας, καὶ μὴ πικραίνεσθε πρὸς αὐτάς.",
+      "generated_at": "2026-05-26T17:22:38.489821Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 20,
+      "original": "$Ephes. 6.1.$ Ghy kinderen zijt [uwe] ouderen gehoorsaem <Namel. in den Heere, gelijck hy uytdruckt Ephes. 6.1.> in alles: want dat is den Heere welbehagelick.",
+      "modernized": "$Ef. 6:1$ U kinderen, wees [uw] ouders gehoorzaam <Namelijk, in de Heere, zoals hij uitdrukt in $Ef. 6:1$.> in alles: want dat is de Heere welbehaaglijk.",
+      "source_text": "τὰ τέκνα, ὑπακούετε τοῖς γονεῦσι κατὰ πάντα· τοῦτο γάρ ἐστιν εὐάρεστον τῷ Κυρίῳ.",
+      "generated_at": "2026-05-26T17:23:09.824134Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 21,
+      "original": "Ghy vaders, <Namelick, door al te groote ende geduerige hardigheyt. siet de aent. op Ephes. 6.4.> en terght uwe kinderen niet: op dat sy niet moedeloos en worden.",
+      "modernized": "U vaders, <Namelijk, door al te grote en voortdurende hardheid. Zie de aantekening op $Ef. 6:4$.> terg uw kinderen niet, opdat zij niet moedeloos worden.",
+      "source_text": "οἱ πατέρες, μὴ ἐρεθίζετε τὰ τέκνα ὑμῶν, ἵνα μὴ ἀθυμῶσιν.",
+      "generated_at": "2026-05-26T17:23:30.963776Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
