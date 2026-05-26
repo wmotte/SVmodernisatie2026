@@ -1,13 +1,27 @@
 {
   "book": "TIT",
   "chapter": 1,
-  "reviewed_at": "2026-05-26T05:00:15+00:00",
+  "reviewed_at": "2026-05-26T05:02:29+00:00",
   "passes": [
     {
       "pass": 1,
       "ran_at": "2026-05-26T05:00:15+00:00",
       "mode": "scan",
       "issues_total": 7
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-26T05:02:29+00:00",
+      "mode": "verify",
+      "actions": [
+        "TIT-1-1-001: rebuttal verified",
+        "TIT-1-2-001: rebuttal verified",
+        "TIT-1-6-001: rebuttal verified",
+        "TIT-1-10-001: rebuttal verified",
+        "TIT-1-12-001: verified",
+        "TIT-1-14-001: rebuttal verified",
+        "TIT-1-16-001: rebuttal verified"
+      ]
     }
   ],
   "issues": [
@@ -21,8 +35,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "TIT-1-1-001",
-      "status": "rebutted",
-      "rebuttal": "KANTTEKENINGEN.md redundantie-regel ziet op alternatiefkeuze; hier verklaart de kanttekening in vers 1 de frase 'naar het geloof van de uitverkorenen' met tijdsomvang en evangelie-effect, geen overgenomen alternatief."
+      "status": "verified",
+      "rebuttal": "KANTTEKENINGEN.md redundantie-regel ziet op alternatiefkeuze; hier verklaart de kanttekening in vers 1 de frase 'naar het geloof van de uitverkorenen' met tijdsomvang en evangelie-effect, geen overgenomen alternatief.",
+      "verified_at": "2026-05-26T05:02:29+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -34,8 +49,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "TIT-1-2-001",
-      "status": "rebutted",
-      "rebuttal": "KANTTEKENINGEN.md redundantie-regel blokkeert alternatief-overname; in vers 2 citeert de kanttekening een alternatieve zinsindeling ('Maar heeft op zijn tijd...'), dus de herhaling is functioneel."
+      "status": "verified",
+      "rebuttal": "KANTTEKENINGEN.md redundantie-regel blokkeert alternatief-overname; in vers 2 citeert de kanttekening een alternatieve zinsindeling ('Maar heeft op zijn tijd...'), dus de herhaling is functioneel.",
+      "verified_at": "2026-05-26T05:02:29+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -47,8 +63,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "TIT-1-6-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-26T05:02:29+00:00"
     },
     {
       "category": "voornaamwoordelijk bijwoord gesplitst",
@@ -60,8 +77,9 @@
       "proposed_fix": "erop",
       "location": "kanttekening",
       "id": "TIT-1-10-001",
-      "status": "rebutted",
-      "rebuttal": "ARCHAISMEN.md pronominaal-bijwoordregel geldt voor 'erop/daarin' zonder zelfstandig plaatsobject; in vers 10 is 'er op Kreta' existentieel 'er' plus concrete plaatsbepaling, dus niet samen te trekken."
+      "status": "verified",
+      "rebuttal": "ARCHAISMEN.md pronominaal-bijwoordregel geldt voor 'erop/daarin' zonder zelfstandig plaatsobject; in vers 10 is 'er op Kreta' existentieel 'er' plus concrete plaatsbepaling, dus niet samen te trekken.",
+      "verified_at": "2026-05-26T05:02:29+00:00"
     },
     {
       "category": "SV-verbuiging (demonstratief dezer/dien/...)",
@@ -73,8 +91,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "TIT-1-12-001",
-      "status": "fixed",
-      "fix_commit": "5b2be33"
+      "status": "verified",
+      "fix_commit": "5b2be33",
+      "verified_at": "2026-05-26T05:02:29+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -86,8 +105,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "TIT-1-14-001",
-      "status": "rebutted",
-      "rebuttal": "KANTTEKENINGEN.md redundantie-regel ziet op alternatiefkeuze; in vers 14 geeft de kanttekening een andere syntactische lezing: mensen die zich afkeren, niet geboden die hen afkeren."
+      "status": "verified",
+      "rebuttal": "KANTTEKENINGEN.md redundantie-regel ziet op alternatiefkeuze; in vers 14 geeft de kanttekening een andere syntactische lezing: mensen die zich afkeren, niet geboden die hen afkeren.",
+      "verified_at": "2026-05-26T05:02:29+00:00"
     },
     {
       "category": "§2.3b bijwoord-coda",
@@ -99,8 +119,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "TIT-1-16-001",
-      "status": "rebutted",
-      "rebuttal": "MODERNISATIE.md §2.3b gaat over bijwoord-coda's; in vers 16 is 'ondeugdelijk' predicatief bijvoeglijk naamwoord bij 'zij', parallel aan Grieks ἀδόκιμοι, geen los bijwoord."
+      "status": "verified",
+      "rebuttal": "MODERNISATIE.md §2.3b gaat over bijwoord-coda's; in vers 16 is 'ondeugdelijk' predicatief bijvoeglijk naamwoord bij 'zij', parallel aan Grieks ἀδόκιμοι, geen los bijwoord.",
+      "verified_at": "2026-05-26T05:02:29+00:00"
     }
   ]
 }
