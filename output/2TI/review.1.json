@@ -1,0 +1,66 @@
+{
+  "book": "2TI",
+  "chapter": 1,
+  "reviewed_at": "2026-05-26T11:10:28+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-26T11:10:28+00:00",
+      "mode": "scan",
+      "issues_total": 4
+    }
+  ],
+  "issues": [
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 1,
+      "severity": "soft",
+      "quote_modernized": "de belofte van het",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'de belofte van het' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "2TI-1-1-001",
+      "status": "rebutted",
+      "rebuttal": "KANTTEKENINGEN.md verbiedt redundantie wanneer een alternatief-doublet de hoofdtekstkeuze herhaalt. In 2TI 1:1 verklaart de kanttekening het Evangelie waarin de belofte wordt voorgesteld; de hoofdtekst heeft κατ' ἐπαγγελίαν ζωῆς als zinsanker, dus deze herhaling is contextuitleg en geen lexicaal alternatief."
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 3,
+      "severity": "soft",
+      "quote_modernized": "ik zonder ophouden aan",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'ik zonder ophouden aan' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "2TI-1-3-001",
+      "status": "rebutted",
+      "rebuttal": "KANTTEKENINGEN.md ziet vooral op alternatief-redundantie. In 2TI 1:3 citeert de eerste kanttekening een mogelijke syntactische lezing van Rm. 1:8-10 met dezelfde onophoudelijke gedachtenis; die overlap is noodzakelijk voor de versspecifieke constructie-uitleg, niet een hoofdtekst-doublet."
+    },
+    {
+      "category": "genitief pronomen wiens/wier",
+      "verse": 12,
+      "severity": "hard",
+      "quote_modernized": "…ik schaam mij daarvoor niet. dat is, op wiens toezeggingen ik vertrouwd heb. dat…",
+      "rule_reference": "ARCHAISMEN.md (SV-pronomina)",
+      "explanation": "'wiens toezeggingen' — formeel-archaïsch genitief-pronomen. Modern Nederlands: 'van wie toezeggingen' of zinsherbouw met bezittelijk voornaamwoord ('die zijn toezeggingen', 'die haar toezeggingen'). NBV21 vermijdt 'wiens' grotendeels.",
+      "proposed_fix": "op de toezeggingen van wie ik vertrouwd heb",
+      "location": "kanttekening",
+      "id": "2TI-1-12-001",
+      "status": "fixed"
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 13,
+      "severity": "soft",
+      "quote_modernized": "die u van mij",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'die u van mij' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "2TI-1-13-001",
+      "status": "rebutted",
+      "rebuttal": "De overlap in 2TI 1:13 staat in een inhoudelijke uitleg van ὑποτύπωσιν ἔχε: de kanttekening onderscheidt twee uitlegopties voor het voorbeeld van de gezonde woorden. KANTTEKENINGEN.md verbiedt alternatief-doubletten die de hoofdtekstkeuze vervangen; dit is versspecifieke syntaxis- en leeruitleg."
+    }
+  ]
+}
