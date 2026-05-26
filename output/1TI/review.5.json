@@ -1,0 +1,115 @@
+{
+  "book": "1TI",
+  "chapter": 5,
+  "reviewed_at": "2026-05-26T18:06:22+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-26T18:04:41+00:00",
+      "mode": "scan",
+      "issues_total": 6
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-26T18:06:22+00:00",
+      "mode": "verify",
+      "actions": [
+        "1TI-5-9-001: rebuttal verified",
+        "1TI-5-17-001: rebuttal verified",
+        "1TI-5-17-002: verified",
+        "1TI-5-21-001: verified",
+        "1TI-5-21-002: rebuttal verified",
+        "1TI-5-3-001: rebuttal verified"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "category": "kanttekening-luiheid (§2.3 in <…>)",
+      "verse": 9,
+      "severity": "hard",
+      "quote_modernized": "…ones, die in de eerste Kerk de gemeente diende onder zieken, vreemdelingen en ar…",
+      "rule_reference": "KANTTEKENINGEN.md + §2.3",
+      "explanation": "'diende' binnen kanttekening — verdacht -ende-woord in adverbial / clause-final positie. §2.3 geldt ook in <…>; ontvouw naar finiete bijzin.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "1TI-5-9-001",
+      "status": "verified",
+      "rebuttal": "'diende' is in 1TI 5:9 een finiet imperfectum van 'dienen' (3e pers. enkelvoud), geen adverbiaal participium. §2.3 viseert Latinate participia (λέγων-type); de relatiefzin 'die de gemeente diende' is al een finiete bijzin.",
+      "verified_at": "2026-05-26T18:06:22+00:00"
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 17,
+      "severity": "soft",
+      "quote_modernized": "Dat is, meer of overvloediger. Onder welke eer ook hun onderhoud versta…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "1TI-5-17-001",
+      "status": "verified",
+      "rebuttal": "In 1TI 5:17 is 'Onder welke eer' geen los SV-relativum maar een determinatieve aansluiting bij het voorafgaande 'dubbele eer' (διπλῆς τιμῆς). ARCHAISMEN.md viseert formele relatiefconstructies waar modern 'die/dat' natuurlijk is; hier zou 'onder die eer' minder idiomatisch zijn.",
+      "verified_at": "2026-05-26T18:06:22+00:00"
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 17,
+      "severity": "soft",
+      "quote_modernized": "arbeiden in het woord",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'arbeiden in het woord' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "1TI-5-17-002",
+      "status": "verified",
+      "verified_at": "2026-05-26T18:06:22+00:00"
+    },
+    {
+      "category": "§2.3 finiet participium",
+      "verse": 21,
+      "severity": "soft",
+      "quote_modernized": "…cht neemt     zonder vooroordeel, niets doende uit   partijdigheid.",
+      "rule_reference": "MODERNISATIE.md §2.3",
+      "explanation": "'doende' — verdacht -ende-woord in adverbial / clause-final positie. Ontvouw naar finiete bijzin ('en X', 'terwijl X', 'toen X').",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "1TI-5-21-001",
+      "status": "verified",
+      "verified_at": "2026-05-26T18:06:22+00:00"
+    },
+    {
+      "category": "voornaamwoordelijk bijwoord gesplitst",
+      "verse": 21,
+      "severity": "hard",
+      "quote_modernized": "…nte aangaan, gebruikt de Apostel daarom hier bij Timotheüs een zo hoge betuiging…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'hier bij' — SV-gesplitst voornaamwoordelijk bijwoord. Modern Nederlands voegt samen: 'hierbij' (bv. daarin, waarmee, hierop).",
+      "proposed_fix": "hierbij",
+      "location": "kanttekening",
+      "id": "1TI-5-21-002",
+      "status": "verified",
+      "rebuttal": "In 1TI 5:21 betekent 'hier bij Timotheüs' letterlijk 'hier, bij/ten overstaan van Timotheüs' in deze vermaning. Het is geen gesplitst voornaamwoordelijk bijwoord van het type ARCHAISMEN.md bedoelt (`hierin`, `waarmee`); 'hierbij Timotheüs' zou juist een andere, onidiomatische betekenis geven.",
+      "verified_at": "2026-05-26T18:06:22+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 3,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'waerlic' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        3,
+        5,
+        16
+      ],
+      "id": "1TI-5-3-001",
+      "status": "verified",
+      "rebuttal": "De drie betrokken plaatsen (1TI 5:3, 5:5 en 5:16) moderniseren SV 'waerlic' / Grieks ὄντως consequent als 'werkelijk' in de formule 'werkelijk weduwe(n)'. Dit voldoet aan de concordantieregel; de scanner mist alleen de stamovergang waerlic -> werkelijk.",
+      "verified_at": "2026-05-26T18:06:22+00:00"
+    }
+  ]
+}
