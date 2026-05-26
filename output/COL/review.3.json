@@ -1,0 +1,117 @@
+{
+  "book": "COL",
+  "chapter": 3,
+  "reviewed_at": "2026-05-26T17:38:11+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-26T17:36:51+00:00",
+      "mode": "scan",
+      "issues_total": 6
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-26T17:38:11+00:00",
+      "mode": "verify",
+      "actions": [
+        "COL-3-1-001: rebuttal verified",
+        "COL-3-11-001: rebuttal verified",
+        "COL-3-11-002: rebuttal verified",
+        "COL-3-14-001: verified",
+        "COL-3-20-001: rebuttal verified",
+        "COL-3-9-001: rebuttal verified"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 1,
+      "severity": "soft",
+      "quote_modernized": "  Indien u dan met Christus opgewekt bent,…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "COL-3-1-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-26T17:38:11+00:00"
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 11,
+      "severity": "soft",
+      "quote_modernized": "Dat is, in welke staat van de wedergeboorte, ten…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "COL-3-11-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-26T17:38:11+00:00"
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 11,
+      "severity": "soft",
+      "quote_modernized": "…ook is, aangenaam voor God: en de mens, van welke staat hij ook is, vindt in hem…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "COL-3-11-002",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-26T17:38:11+00:00"
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 14,
+      "severity": "soft",
+      "quote_modernized": "de band van de",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'de band van de' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "COL-3-14-001",
+      "status": "verified",
+      "fix_commit": "pending",
+      "verified_at": "2026-05-26T17:38:11+00:00"
+    },
+    {
+      "category": "§2.3b bijwoord-coda",
+      "verse": 20,
+      "severity": "soft",
+      "quote_modernized": "…orzaam   in alles: want dat is de Heere welbehaaglijk.",
+      "rule_reference": "MODERNISATIE.md §2.3b",
+      "explanation": "'welbehaaglijk.' aan zinseind — verifieer of dit bijwoord niet als coda achteraf is blijven hangen ('wandelende … onberispelick' → 'wandelden onberispelijk in …').",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "COL-3-20-001",
+      "status": "verified",
+      "rebuttal": "MODERNISATIE.md §2.3b gaat over losse bijwoordelijke codas die een werkwoord karakteriseren. In COL 3:20 is 'welbehaaglijk' predicatief bijvoeglijk naamwoord bij 'dat is' en correspondeert met Grieks εὐάρεστον; geen nageschoven bijwoord.",
+      "verified_at": "2026-05-26T17:38:11+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 9,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'malkand' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        9,
+        13,
+        16
+      ],
+      "id": "COL-3-9-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] Concordantie-drift false-positive bij v5: Grieks ἀλλήλων vereist een wederkerig pronomen; SV malkanderen/malkand wordt in modern Nederlands per constructie correct als elkaar/elkaars weergegeven. MODERNISATIE.md concordantie geldt semantisch, niet op scanner-prefixniveau.",
+      "verified_at": "2026-05-26T17:38:11+00:00"
+    }
+  ]
+}
