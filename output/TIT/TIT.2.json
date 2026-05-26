@@ -1,0 +1,51 @@
+{
+  "book": "TITU",
+  "chapter": 2,
+  "introduction": {
+    "original": "1 De Apostel vermaent Titum de gesonde leere recht voor te stellen, ende te onderwijsen, 2 de oude mannen, 3 ende de oude vrouwen, 4 mitsgaders door deselve de jonge vrouwen, 6 ende de jonge mannen, hoe sy haer behooren te dragen, ende daer toe te vermanen, soo met woorden, 7 als oock met sijn eygen exempel, in wandel ende in leere. 9 Daer-na oock de geloovige dienstknechten, hoe sy haer moeten dragen. 11 Ende voeght daer by redenen die een yegelick tot Godtsaligheyt ende tot alle Christelicke deughden behooren te bewegen, genomen soo van het eynde, waer toe ons Godt sijn Euangelium geopenbaert heeft, 13 als van de hope der vergeldinge in de toekomste Christi. 14 ende van de grootheyt, vrucht, ende eynde der weldaden Christi aen ons bewesen. 15 willende dat hy dit ernstelick drijve ende inscherpe.",
+    "modernized": "1 De Apostel vermaant Titus de gezonde leer juist voor te stellen en te onderwijzen, 2 de oude mannen, 3 en de oude vrouwen, 4 alsmede door hen de jonge vrouwen, 6 en de jonge mannen, hoe zij zich behoren te gedragen, en daartoe te vermanen, zowel met woorden, 7 als ook met zijn eigen voorbeeld, in wandel en in leer. 9 Daarna ook de gelovige dienstknechten, hoe zij zich moeten gedragen. 11 En voegt daarbij redenen die eenieder tot Godzaligheid en tot alle Christelijke deugden behoren te bewegen, genomen zowel van het einde, waartoe God ons zijn Evangelie geopenbaard heeft, 13 als van de hoop op de vergelding in de toekomst van Christus. 14 en van de grootheid, vrucht en einde van de weldaden van Christus aan ons bewezen. 15 en wil dat hij dit ernstig drijft en inscherpt.",
+    "generated_at": "2026-05-26T05:24:31.830937Z",
+    "model": "claude-opus-4-7[1m]"
+  },
+  "verses": [
+    {
+      "verse_number": 1,
+      "original": "DOch <Namel. en doet niet gelijck dese verleyders, maer als een getrouw Leeraer, latende sulcke fabelen, ydelsprekingen, ende geboden van menschen, predickt de leere des Euangeliums suyverlick.> ghy, spreeckt het gene <Siet 1.Tim. 1. vers 10. ende 6.3.> de gesonde leere betaemt:",
+      "modernized": "Maar <Namelijk, doe niet zoals deze verleiders, maar predik, als een getrouw Leraar, de leer van het Evangelie zuiver, en laat zulke fabelen, ijdele praat en geboden van mensen achterwege.> u, spreek hetgeen <Zie $1Tm. 1:10; 6:3$.> de gezonde leer betaamt:",
+      "source_text": "Σὺ δὲ λάλει ἃ πρέπει τῇ ὑγιαινούσῃ διδασκαλίᾳ·",
+      "generated_at": "2026-05-26T05:25:06.674867Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 2,
+      "original": "Dat de oude mannen nuchter zijn, <Of, statigh, deftigh, eerbaer.> stemmigh, <Ofte, matigh.> voorsichtigh, gesont in’t geloove, in de liefde, in de lijdtsaemheyt.",
+      "modernized": "Dat de oude mannen nuchter zijn, <Of, statig, deftig, eerbaar.> waardig, <Of, matig.> bezonnen, gezond in het geloof, in de liefde, in de volharding.",
+      "source_text": "πρεσβύτας νηφαλίους εἶναι, σεμνούς, σώφρονας, ὑγιαίνοντας τῇ πίστει, τῇ ἀγάπῃ, τῇ ὑπομονῇ·",
+      "generated_at": "2026-05-26T05:25:42.568668Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "subject": "Grieks: ὑπομονῇ",
+          "context": "hoofdtekst",
+          "choice": "volharding",
+          "alternatives": [
+            "lijdzaamheid"
+          ],
+          "reason": "HSV-spiegel en SV/Grieks-context bevestigen dat het om standvastig volharden gaat; 'lijdzaamheid' leest in modern Nederlands als passieve berusting."
+        }
+      ]
+    },
+    {
+      "verse_number": 3,
+      "original": "De oude vrouwen insgelijcks $1.Timoth. 2.9. 1.Petr. 3.3.$ dat sy in <Gr. gestaltenisse, Namel. soo in kleedinge, als in haren geheelen wandel.> [hare] draght zijn gelijck den heyligen betaemt, datse $1.Timoth. 5.13.$ geen lasteressen en zijn, <Gr. haer niet tot slavinnen van veel wijn makende.> haer niet tot veel wijns begevende, [maer] leeraeressen zijn van het goede:",
+      "modernized": "De oude vrouwen eveneens $1Tm. 2:9; 1Pt. 3:3$ dat zij in <Grieks: gestalte, Namelijk, zowel in kleding als in hun gehele wandel.> [hun] houding zijn zoals het de heiligen betaamt, dat zij $1Tm. 5:13$ geen lasteressen zijn, <Grieks: zij maken zich niet tot slavinnen van veel wijn.> zich niet aan veel wijn overgeven, [maar] leraressen zijn van het goede:",
+      "source_text": "πρεσβύτιδας ὡσαύτως ἐν καταστήματι ἱεροπρεπεῖς, μὴ διαβόλους, μὴ οἴνῳ πολλῷ δεδουλωμένας, καλοδιδασκάλους,",
+      "generated_at": "2026-05-26T05:26:29.656260Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    }
+  ]
+}
