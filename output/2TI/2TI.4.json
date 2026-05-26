@@ -169,6 +169,33 @@
       "generated_at": "2026-05-26T17:55:06.402983Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 19,
+      "original": "Groet $Actor. cap. 18. vers 2. Rom. cap. 16. vers 3.$ <Siet van dese Actor. 18. vers 2. Rom. cap. 16. vers 3.> Priscam ende Aquilam, ende het huys <Siet van dese Cap. 1. vers 16.> Onesiphori.",
+      "modernized": "Groet $Hd. 18:2; Rm. 16:3$ <Zie over hen $Hd. 18:2; Rm. 16:3$.> Prisca en Aquila, en het huis <Zie over hem $2Tm. 1:16$.> van Onesiforus.",
+      "source_text": "Ἄσπασαι Πρίσκαν καὶ Ἀκύλαν, καὶ τὸν Ὀνησιφόρου οἶκον.",
+      "generated_at": "2026-05-26T18:05:07.291120Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 20,
+      "original": "<Siet van hem Actor. cap. 19. vers 22. Rom. 16. vers 23.> Erastus is te Corinthen gebleven: ende <Siet van hem Actor. cap. 20. vers 4. ende 21. vers 29.> Trophimum hebbe ick <Siet van dese stadt Actor. 20. versen 15, 17.> te Mileten kranck gelaten.",
+      "modernized": "<Zie over hem $Hd. 19:22; Rm. 16:23$.> Erastus is te Korinthe gebleven; en <Zie over hem $Hd. 20:4; 21:29$.> Trofimus heb ik <Zie over deze stad $Hd. 20:15,17$.> te Milete ziek gelaten.",
+      "source_text": "Ἔραστος ἔμεινεν ἐν Κορίνθῳ· Τρόφιμον δὲ ἀπέλιπον ἐν Μιλήτῳ ἀσθενοῦντα.",
+      "generated_at": "2026-05-26T18:05:33.940971Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 21,
+      "original": "Beneerstight u om voor den winter te komen. U groet Eubulus, ende Pudens, ende Linus, ende Claudia, ende alle de broeders.",
+      "modernized": "Doe uw best om voor de winter te komen. U groet Eubulus, en Pudens, en Linus, en Claudia, en alle broeders.",
+      "source_text": "σπούδασον πρὸ χειμῶνος ἐλθεῖν. ἀσπάζεταί σε Εὔβουλος, καὶ Πούδης, καὶ Λῖνος, καὶ Κλαυδία, καὶ οἱ ἀδελφοὶ πάντες.",
+      "generated_at": "2026-05-26T18:05:54.227367Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ],
   "epilogue": {
