@@ -1,13 +1,36 @@
 {
   "book": "TIT",
   "chapter": 2,
-  "reviewed_at": "2026-05-26T08:56:36+00:00",
+  "reviewed_at": "2026-05-26T10:07:22+00:00",
   "passes": [
     {
       "pass": 1,
       "ran_at": "2026-05-26T08:56:36+00:00",
       "mode": "scan",
       "issues_total": 9
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-26T09:01:56+00:00",
+      "mode": "verify",
+      "actions": [
+        "TIT-2-8-001: rebuttal verified",
+        "TIT-2-10-001: verified",
+        "TIT-2-10-002: verified",
+        "TIT-2-10-003: verified",
+        "TIT-2-11-001: rebuttal verified",
+        "TIT-2-11-002: rebuttal verified",
+        "TIT-2-12-001: verified",
+        "TIT-2-15-001: verified",
+        "TIT-2-10-004: rebuttal verified",
+        "TIT-2-13-001: verified"
+      ]
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-05-26T10:07:22+00:00",
+      "mode": "verify",
+      "actions": []
     }
   ],
   "issues": [
@@ -21,8 +44,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "TIT-2-8-001",
-      "status": "rebutted",
-      "rebuttal": "'gezond' en 'onverwerpelijk' (Gr. λόγον ὑγιῆ, ἀκατάγνωστον) zijn predicatieve adjectieven bij het object 'het woord' van 'spreek' (v7), geen bijwoordelijke coda van een werkwoord. §2.3b-patroon 2 (bijwoord-coda) is niet van toepassing: er is geen werkwoord waarvan dit de manier karakteriseert."
+      "status": "verified",
+      "rebuttal": "'gezond' en 'onverwerpelijk' (Gr. λόγον ὑγιῆ, ἀκατάγνωστον) zijn predicatieve adjectieven bij het object 'het woord' van 'spreek' (v7), geen bijwoordelijke coda van een werkwoord. §2.3b-patroon 2 (bijwoord-coda) is niet van toepassing: er is geen werkwoord waarvan dit de manier karakteriseert.",
+      "verified_at": "2026-05-26T09:01:56+00:00"
     },
     {
       "category": "§2.3 finiet participium",
@@ -34,8 +58,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "TIT-2-10-001",
-      "status": "fixed",
-      "fix_commit": "pending"
+      "status": "verified",
+      "fix_commit": "pending",
+      "verified_at": "2026-05-26T09:01:56+00:00"
     },
     {
       "category": "§2.3 finiet participium",
@@ -47,8 +72,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "TIT-2-10-002",
-      "status": "fixed",
-      "fix_commit": "pending"
+      "status": "verified",
+      "fix_commit": "pending",
+      "verified_at": "2026-05-26T09:01:56+00:00"
     },
     {
       "category": "kanttekening-luiheid (§2.3 in <…>)",
@@ -60,8 +86,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "TIT-2-10-003",
-      "status": "fixed",
-      "fix_commit": "pending"
+      "status": "verified",
+      "fix_commit": "pending",
+      "verified_at": "2026-05-26T09:01:56+00:00"
     },
     {
       "category": "kanttekening-luiheid (§2.3 in <…>)",
@@ -73,8 +100,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "TIT-2-11-001",
-      "status": "rebutted",
-      "rebuttal": "Metalinguïstische mention: 'bij het woord zaligmakende' verwijst naar het lexeem 'zaligmakende' uit de hoofdtekst dat de kanttekening bespreekt (use/mention-onderscheid). Geen bijwoordelijk participium; §2.3 ontvouwing zou de woord-aanduiding vernietigen."
+      "status": "verified",
+      "rebuttal": "Metalinguïstische mention: 'bij het woord zaligmakende' verwijst naar het lexeem 'zaligmakende' uit de hoofdtekst dat de kanttekening bespreekt (use/mention-onderscheid). Geen bijwoordelijk participium; §2.3 ontvouwing zou de woord-aanduiding vernietigen.",
+      "verified_at": "2026-05-26T09:01:56+00:00"
     },
     {
       "category": "kanttekening-luiheid (§2.3 in <…>)",
@@ -86,8 +114,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "TIT-2-11-002",
-      "status": "rebutted",
-      "rebuttal": "Geciteerde alternatieve lezing: 'De genade van God, alle mensen zaligmakende, is verschenen' is een woordelijk citaat van de alternatieve parsing die de kanttekening illustreert (participium attributief-appositief bij 'genade', niet adverbiaal). Ontvouwen misvormt de geciteerde lezing en het exegetische punt (waar 'zaligmakende' aanhecht)."
+      "status": "verified",
+      "rebuttal": "Geciteerde alternatieve lezing: 'De genade van God, alle mensen zaligmakende, is verschenen' is een woordelijk citaat van de alternatieve parsing die de kanttekening illustreert (participium attributief-appositief bij 'genade', niet adverbiaal). Ontvouwen misvormt de geciteerde lezing en het exegetische punt (waar 'zaligmakende' aanhecht).",
+      "verified_at": "2026-05-26T09:01:56+00:00"
     },
     {
       "category": "§2.3 finiet participium",
@@ -99,8 +128,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "TIT-2-12-001",
-      "status": "fixed",
-      "fix_commit": "pending"
+      "status": "verified",
+      "fix_commit": "pending",
+      "verified_at": "2026-05-26T09:01:56+00:00"
     },
     {
       "category": "genitief pronomen wiens/wier",
@@ -112,8 +142,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "TIT-2-15-001",
-      "status": "fixed",
-      "fix_commit": "pending"
+      "status": "verified",
+      "fix_commit": "pending",
+      "verified_at": "2026-05-26T09:01:56+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -130,8 +161,9 @@
         13
       ],
       "id": "TIT-2-10-004",
-      "status": "rebutted",
-      "rebuttal": "False-positive scanner-prefix-heuristiek: origineel 'salighm-' wordt consistent naar 'zaligm-' weergegeven (v10 'Zaligmaker', v11 'zaligmakende', v13 'Zaligmaker') — de scanner mist de orthografische overgang s→z. Concordantie is feitelijk volledig consistent."
+      "status": "verified",
+      "rebuttal": "False-positive scanner-prefix-heuristiek: origineel 'salighm-' wordt consistent naar 'zaligm-' weergegeven (v10 'Zaligmaker', v11 'zaligmakende', v13 'Zaligmaker') — de scanner mist de orthografische overgang s→z. Concordantie is feitelijk volledig consistent.",
+      "verified_at": "2026-05-26T09:01:56+00:00"
     },
     {
       "id": "TIT-2-13-001",
@@ -143,8 +175,9 @@
       "explanation": "Bijwoordelijk tegenwoordig participium 'Verwachtend' (Gr. προσδεχόμενοι) met nageschoven object, voortzettend op v12 'leven zouden'. Scanner-regex miste het (geen -e-suffix). §2.3 ontvouwt naar finiet.",
       "proposed_fix": "Wij verwachten de zalige hoop, en verschijning ...",
       "location": "hoofdtekst",
-      "status": "fixed",
-      "fix_commit": "pending"
+      "status": "verified",
+      "fix_commit": "pending",
+      "verified_at": "2026-05-26T09:01:56+00:00"
     }
   ]
 }
