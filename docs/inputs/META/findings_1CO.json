@@ -1,0 +1,24 @@
+{
+  "book": "1CO",
+  "generated_at": "2026-05-25T20:12:43Z",
+  "rerun_full16_at": "2026-05-26T00:00:00+00:00",
+  "rerun_note": "Her-run over alle 16 hoofdstukken (ch 3-5,11-14 diffs nu aanwezig) leverde geen nieuwe bucket-B issues; onderstaande blijft de enige.",
+  "min_freq": 2,
+  "issues": [
+    {
+      "id": "META-1CO-10-28-001",
+      "verse": 28,
+      "chapter": 10,
+      "category": "carryover",
+      "severity": "soft",
+      "quote_modernized": "eet het niet om diens wille die u dat te kennen gegeven heeft, en ter wille van het geweten.",
+      "hsv_quote": "eet het dan niet, omwille van hem die u dat te kennen gaf en omwille van het geweten.",
+      "rule_reference": "MODERNISATIE.md §2.7 (drempel-archaisme); ARCHAISMEN.md (om ... wille -> omwille van)",
+      "explanation": "'om diens wille die ...' is een archaische demonstratief-genitief-constructie. 'ter wille van het geweten' is modern en blijft; alleen de eerste 'om diens wille die' leest stijf. HSV gebruikt 'omwille van hem die'.",
+      "proposed_fix": "eet het niet omwille van hem die u dat te kennen gegeven heeft, en ter wille van het geweten.",
+      "location": "hoofdtekst",
+      "status": "merged",
+      "pr": 687
+    }
+  ]
+}

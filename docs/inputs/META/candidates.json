@@ -25,9 +25,59 @@
     "latinaat-window",
     "cap-asym"
   ],
-  "total_patterns": 10,
+  "total_patterns": 19,
   "patterns_by_kind": {
     "cap-asym": [
+      {
+        "pattern_id": "p-0003",
+        "kind": "cap-asym",
+        "key": "apostelen",
+        "frequency": 5,
+        "hsv_alternatives": [],
+        "severity_hint": "soft",
+        "occurrences": [
+          {
+            "book": "1CO",
+            "chapter": 4,
+            "verse": 9,
+            "sv2026_excerpt": "  Want ik acht dat God ons,   die de laatste Apostelen zijn,   ten toon heeft gesteld   als ter…",
+            "hsv_excerpt": "Want ik denk dat God ons, de laatste apostelen, heeft tentoongesteld   als mensen die ter dood veroordeeld zijn. Wij zijn immers   een schou",
+            "original_excerpt": ""
+          },
+          {
+            "book": "1CO",
+            "chapter": 12,
+            "verse": 28,
+            "sv2026_excerpt": "…sommigen   in de gemeente gesteld,     ten eerste Apostelen,     ten tweede Profeten, ten derde   Le…",
+            "hsv_excerpt": "God nu heeft sommigen in de gemeente een plaats gegeven:   ten eerste apostelen,   ten tweede profeten, ten derde leraars, vervolgens kracht",
+            "original_excerpt": ""
+          },
+          {
+            "book": "1CO",
+            "chapter": 12,
+            "verse": 29,
+            "sv2026_excerpt": "  Zijn zij allen Apostelen? Zijn zij allen Profeten? Zijn zij allen…",
+            "hsv_excerpt": "Zijn zij soms allen apostelen? Zijn zij soms allen profeten? Zijn zij soms allen leraars? Zijn zij soms allen krachten?",
+            "original_excerpt": ""
+          },
+          {
+            "book": "1CO",
+            "chapter": 15,
+            "verse": 7,
+            "sv2026_excerpt": "… hij gezien   door Jakobus, daarna   door alle de Apostelen.",
+            "hsv_excerpt": "Daarna is Hij verschenen aan Jakobus, daarna aan alle apostelen.",
+            "original_excerpt": ""
+          },
+          {
+            "book": "1CO",
+            "chapter": 15,
+            "verse": 9,
+            "sv2026_excerpt": "Want ik ben   de minste van de Apostelen, die   niet waardig ben een Apostel geno…",
+            "hsv_excerpt": "Ik immers ben de   minste van de apostelen – ik die het niet waard ben een apostel genoemd te worden,   omdat ik de gemeente van God vervolg",
+            "original_excerpt": ""
+          }
+        ]
+      },
       {
         "pattern_id": "p-0001",
         "kind": "cap-asym",
@@ -71,27 +121,87 @@
         ]
       },
       {
-        "pattern_id": "p-0010",
+        "pattern_id": "p-0018",
         "kind": "cap-asym",
-        "key": "apostelen",
+        "key": "profeten",
+        "frequency": 3,
+        "hsv_alternatives": [],
+        "severity_hint": "soft",
+        "occurrences": [
+          {
+            "book": "1CO",
+            "chapter": 12,
+            "verse": 28,
+            "sv2026_excerpt": "…gesteld,     ten eerste Apostelen,     ten tweede Profeten, ten derde   Leraars, daarna   krachten, …",
+            "hsv_excerpt": "God nu heeft sommigen in de gemeente een plaats gegeven:   ten eerste apostelen,   ten tweede profeten, ten derde leraars, vervolgens kracht",
+            "original_excerpt": ""
+          },
+          {
+            "book": "1CO",
+            "chapter": 12,
+            "verse": 29,
+            "sv2026_excerpt": "  Zijn zij allen Apostelen? Zijn zij allen Profeten? Zijn zij allen Leraars? Zijn zij allen k…",
+            "hsv_excerpt": "Zijn zij soms allen apostelen? Zijn zij soms allen profeten? Zijn zij soms allen leraars? Zijn zij soms allen krachten?",
+            "original_excerpt": ""
+          },
+          {
+            "book": "1CO",
+            "chapter": 14,
+            "verse": 32,
+            "sv2026_excerpt": "En   de geesten van de Profeten   zijn aan de Profeten onderworpen.",
+            "hsv_excerpt": "En de geesten van de profeten zijn aan de profeten zelf onderworpen.",
+            "original_excerpt": ""
+          }
+        ]
+      },
+      {
+        "pattern_id": "p-0004",
+        "kind": "cap-asym",
+        "key": "engelen",
         "frequency": 2,
         "hsv_alternatives": [],
         "severity_hint": "soft",
         "occurrences": [
           {
             "book": "1CO",
-            "chapter": 15,
-            "verse": 7,
-            "sv2026_excerpt": "… hij gezien   door Jakobus, daarna   door alle de Apostelen.",
-            "hsv_excerpt": "Daarna is Hij verschenen aan Jakobus, daarna aan alle apostelen.",
+            "chapter": 4,
+            "verse": 9,
+            "sv2026_excerpt": "… schouwspel geworden   voor de wereld, en voor de Engelen, en voor de mensen.",
+            "hsv_excerpt": "Want ik denk dat God ons, de laatste apostelen, heeft tentoongesteld   als mensen die ter dood veroordeeld zijn. Wij zijn immers   een schou",
             "original_excerpt": ""
           },
           {
             "book": "1CO",
-            "chapter": 15,
-            "verse": 9,
-            "sv2026_excerpt": "Want ik ben   de minste van de Apostelen, die   niet waardig ben een Apostel geno…",
-            "hsv_excerpt": "Ik immers ben de   minste van de apostelen – ik die het niet waard ben een apostel genoemd te worden,   omdat ik de gemeente van God vervolg",
+            "chapter": 11,
+            "verse": 10,
+            "sv2026_excerpt": "…een macht op het hoofd hebben,   ter wille van de Engelen.",
+            "hsv_excerpt": "Daarom moet de vrouw een teken van gezag op het hoofd hebben, omwille van de engelen.",
+            "original_excerpt": ""
+          }
+        ]
+      },
+      {
+        "pattern_id": "p-0019",
+        "kind": "cap-asym",
+        "key": "leraars",
+        "frequency": 2,
+        "hsv_alternatives": [],
+        "severity_hint": "soft",
+        "occurrences": [
+          {
+            "book": "1CO",
+            "chapter": 12,
+            "verse": 28,
+            "sv2026_excerpt": "…e Apostelen,     ten tweede Profeten, ten derde   Leraars, daarna   krachten, daarna   gaven van gen…",
+            "hsv_excerpt": "God nu heeft sommigen in de gemeente een plaats gegeven:   ten eerste apostelen,   ten tweede profeten, ten derde leraars, vervolgens kracht",
+            "original_excerpt": ""
+          },
+          {
+            "book": "1CO",
+            "chapter": 12,
+            "verse": 29,
+            "sv2026_excerpt": "…postelen? Zijn zij allen Profeten? Zijn zij allen Leraars? Zijn zij allen krachten?",
+            "hsv_excerpt": "Zijn zij soms allen apostelen? Zijn zij soms allen profeten? Zijn zij soms allen leraars? Zijn zij soms allen krachten?",
             "original_excerpt": ""
           }
         ]
@@ -99,10 +209,10 @@
     ],
     "carryover": [
       {
-        "pattern_id": "p-0007",
+        "pattern_id": "p-0014",
         "kind": "carryover",
         "key": "wille",
-        "frequency": 3,
+        "frequency": 4,
         "hsv_alternatives": [
           "omwille",
           "iets",
@@ -110,7 +220,8 @@
           "vleeshal",
           "toe",
           "echter",
-          "gaf"
+          "gaf",
+          "gezag"
         ],
         "severity_hint": "soft",
         "occurrences": [
@@ -137,11 +248,140 @@
             "sv2026_excerpt": "… zegt, Dat is afgodenoffer, eet het niet om diens wille die u dat te kennen gegeven heeft, en ter wi…",
             "hsv_excerpt": "Indien echter iemand tegen u zegt: Dat is een afgodenoffer, eet het dan niet, omwille van hem die u dat te kennen gaf en",
             "original_excerpt": "Maer   soo yemant tot u-lieden seght, Dat is afgoden-offer, en eet het niet om des genen wille die u dat te kennen gegev"
+          },
+          {
+            "book": "1CO",
+            "chapter": 11,
+            "verse": 10,
+            "sv2026_excerpt": "…t de vrouw   een macht op het hoofd hebben,   ter wille van de Engelen.",
+            "hsv_excerpt": "Daarom moet de vrouw een teken van gezag op het hoofd hebben, omwille van de engelen.",
+            "original_excerpt": "Daerom moet de vrouwe   een macht op het hooft hebben,   om der Engelen wille."
+          }
+        ]
+      },
+      {
+        "pattern_id": "p-0005",
+        "kind": "carryover",
+        "key": "hoereerders",
+        "frequency": 3,
+        "hsv_alternatives": [
+          "ontuchtplegers",
+          "hebzuchtigen",
+          "inlaten",
+          "algemeen",
+          "echter",
+          "dwaal",
+          "god",
+          "schandknapen"
+        ],
+        "severity_hint": "soft",
+        "occurrences": [
+          {
+            "book": "1CO",
+            "chapter": 5,
+            "verse": 9,
+            "sv2026_excerpt": "…e brief,   dat u zich niet zou   vermengen met de hoereerders:",
+            "hsv_excerpt": "Ik heb u geschreven in de brief   dat u zich niet moet inlaten met ontuchtplegers.",
+            "original_excerpt": "Ick hebbe u geschreven   in den brief,   dat ghy u niet en soudet   vermengen met den hoereerders:"
+          },
+          {
+            "book": "1CO",
+            "chapter": 5,
+            "verse": 10,
+            "sv2026_excerpt": "  Maar niet geheel met de hoereerders van deze wereld, of met de gierigaards…",
+            "hsv_excerpt": "Echter, niet in het algemeen met de ontuchtplegers van deze wereld, of met de hebzuchtigen, of rovers, of afgodendienaar",
+            "original_excerpt": "  Doch niet geheelick met den hoereerders deser werelt, ofte met den gierigaerts, ofte met den roovers, ofte met den afg"
+          },
+          {
+            "book": "1CO",
+            "chapter": 6,
+            "verse": 10,
+            "sv2026_excerpt": "  En dwaalt niet:   noch hoereerders, noch afgodendienaars, noch overspeler…",
+            "hsv_excerpt": "Dwaal niet!   Ontuchtplegers, afgodendienaars, overspelers, schandknapen, mannen die met mannen slapen, dieven, hebzucht",
+            "original_excerpt": "  En dwaelt niet:   noch hoereerders, noch afgodendienaers, noch overspeelders, noch ontuchtige, noch die by mannen ligg"
           }
         ]
       },
       {
         "pattern_id": "p-0002",
+        "kind": "carryover",
+        "key": "ten",
+        "frequency": 3,
+        "hsv_alternatives": [
+          "denk",
+          "tentoongesteld",
+          "veroordeeld",
+          "beurt",
+          "hoogstens",
+          "laat",
+          "mensen",
+          "uitleggen"
+        ],
+        "severity_hint": "soft",
+        "occurrences": [
+          {
+            "book": "1CO",
+            "chapter": 4,
+            "verse": 9,
+            "sv2026_excerpt": "…t dat God ons,   die de laatste Apostelen zijn,   ten toon heeft gesteld   als ter dood veroordeelde…",
+            "hsv_excerpt": "Want ik denk dat God ons, de laatste apostelen, heeft tentoongesteld   als mensen die ter dood veroordeeld zijn. Wij zij",
+            "original_excerpt": "  Want ick achte dat Godt ons,   die de laetste Apostelen zijn,   ten toone heeft gestelt   als tot der doot verwesen, w"
+          },
+          {
+            "book": "1CO",
+            "chapter": 14,
+            "verse": 27,
+            "sv2026_excerpt": "…een vreemde taal spreekt, dat het   door twee, of ten hoogste drie gebeure, en   bij beurten: en dat…",
+            "hsv_excerpt": "En als iemand in een andere taal spreekt, laat het dan door twee of hoogstens drie mensen gedaan worden , ieder op zijn ",
+            "original_excerpt": "Ende soo yemant een vreemde tale spreeckt, dat het   door twee, ofte ten meesten drie geschiede, ende   by beurte: ende "
+          },
+          {
+            "book": "1CO",
+            "chapter": 15,
+            "verse": 8,
+            "sv2026_excerpt": "En ten laatste van allen is hij ook   door mij, als  …",
+            "hsv_excerpt": "En als laatste van allen is Hij ook   aan mij verschenen, als aan de ontijdig geborene.",
+            "original_excerpt": "Ende ten laetsten van allen is hy oock   van my, als   van een ontijdigh geboren, gesien."
+          }
+        ]
+      },
+      {
+        "pattern_id": "p-0017",
+        "kind": "carryover",
+        "key": "afgesneden",
+        "frequency": 2,
+        "hsv_alternatives": [
+          "echter",
+          "kaalgeschoren",
+          "alsof",
+          "onbedekt",
+          "precies",
+          "bedekken",
+          "bedekt",
+          "hoofd"
+        ],
+        "severity_hint": "soft",
+        "occurrences": [
+          {
+            "book": "1CO",
+            "chapter": 11,
+            "verse": 5,
+            "sv2026_excerpt": "…nt het is   een en hetzelfde als of haar het haar afgesneden was.",
+            "hsv_excerpt": "Iedere vrouw echter die bidt of profeteert met onbedekt hoofd, onteert haar eigen hoofd, want het is precies hetzelfde a",
+            "original_excerpt": "Maer een yegelicke   vrouwe, die   bidt ofte propheteert met ongedeckten hoofde,   onteert haer eygen hooft: want het is"
+          },
+          {
+            "book": "1CO",
+            "chapter": 11,
+            "verse": 6,
+            "sv2026_excerpt": "…voor een vrouw   geschoren te zijn, of het haar   afgesneden te hebben, dat zij zich dekke.",
+            "hsv_excerpt": "Want als een vrouw het hoofd niet bedekt heeft, laat zij zich dan ook maar kaalknippen.   Als het echter voor een vrouw ",
+            "original_excerpt": "Want indien een vrouwe niet gedeckt en is,   dat sy oock geschoren worde:   maer indien het leelick is voor een vrouwe  "
+          }
+        ]
+      },
+      {
+        "pattern_id": "p-0008",
         "kind": "carryover",
         "key": "ben",
         "frequency": 2,
@@ -176,7 +416,42 @@
         ]
       },
       {
-        "pattern_id": "p-0003",
+        "pattern_id": "p-0007",
+        "kind": "carryover",
+        "key": "minst",
+        "frequency": 2,
+        "hsv_alternatives": [
+          "aanzien",
+          "alledaagse",
+          "dus",
+          "beschouwen",
+          "eervol",
+          "groter",
+          "grotere",
+          "oneerbare"
+        ],
+        "severity_hint": "soft",
+        "occurrences": [
+          {
+            "book": "1CO",
+            "chapter": 6,
+            "verse": 4,
+            "sv2026_excerpt": "…aan, stel dan hen daarover   die in de gemeente   minst geacht zijn.",
+            "hsv_excerpt": "Als u dus rechtszaken hebt over alledaagse dingen, stel dan hen aan die in de gemeente niet in aanzien zijn.",
+            "original_excerpt": "Soo ghy dan gerichtsaken hebt die dit leven aengaen, settet die daer over   die in de gemeynte   minst geacht zijn."
+          },
+          {
+            "book": "1CO",
+            "chapter": 12,
+            "verse": 23,
+            "sv2026_excerpt": "En die   ons de minst eervolle leden van het lichaam lijken te zij…",
+            "hsv_excerpt": "En aan de leden van het lichaam die wij als minder eervol beschouwen, verlenen wij groter eer en onze oneerbare leden kr",
+            "original_excerpt": "Ende die   ons duncken de minst eerlicke leden des lichaems te zijn, deselve   doen wy overvloediger eere aen: ende onse"
+          }
+        ]
+      },
+      {
+        "pattern_id": "p-0009",
         "kind": "carryover",
         "key": "ongetrouwde",
         "frequency": 2,
@@ -209,14 +484,77 @@
             "original_excerpt": "Een wijf ende een maeght zijn onderscheyden. De ongetrouwde bekommert haer met de dingen des Heeren, op dat sy heyligh z"
           }
         ]
+      },
+      {
+        "pattern_id": "p-0013",
+        "kind": "carryover",
+        "key": "sticht",
+        "frequency": 2,
+        "hsv_alternatives": [
+          "bouwt",
+          "afgodenoffers",
+          "betreft",
+          "bezitten"
+        ],
+        "severity_hint": "soft",
+        "occurrences": [
+          {
+            "book": "1CO",
+            "chapter": 8,
+            "verse": 1,
+            "sv2026_excerpt": "…n. De kennis maakt   opgeblazen, maar   de liefde sticht.",
+            "hsv_excerpt": "En wat de afgodenoffers betreft: wij weten dat wij allen kennis bezitten. De kennis maakt opgeblazen, maar de liefde bou",
+            "original_excerpt": "AEngaende nu de dingen die   den afgoden geoffert zijn, Wy weten dat   wy alle te samen kennisse hebben. De kennisse mae"
+          },
+          {
+            "book": "1CO",
+            "chapter": 14,
+            "verse": 4,
+            "sv2026_excerpt": "Wie een vreemde taal spreekt, sticht zichzelf; maar wie profeteert, sticht de ge…",
+            "hsv_excerpt": "Wie in een andere taal spreekt, bouwt zichzelf op, maar wie profeteert, bouwt de gemeente op.",
+            "original_excerpt": "Die een vreemde tale spreeckt, die sticht hemselven: maer die propheteert, die sticht de gemeynte."
+          }
+        ]
+      },
+      {
+        "pattern_id": "p-0006",
+        "kind": "carryover",
+        "key": "vermengen",
+        "frequency": 2,
+        "hsv_alternatives": [
+          "inlaten",
+          "ontuchtplegers",
+          "hebzuchtige",
+          "ontuchtpleger",
+          "terwijl"
+        ],
+        "severity_hint": "soft",
+        "occurrences": [
+          {
+            "book": "1CO",
+            "chapter": 5,
+            "verse": 9,
+            "sv2026_excerpt": "…geschreven   in de brief,   dat u zich niet zou   vermengen met de hoereerders:",
+            "hsv_excerpt": "Ik heb u geschreven in de brief   dat u zich niet moet inlaten met ontuchtplegers.",
+            "original_excerpt": "Ick hebbe u geschreven   in den brief,   dat ghy u niet en soudet   vermengen met den hoereerders:"
+          },
+          {
+            "book": "1CO",
+            "chapter": 5,
+            "verse": 11,
+            "sv2026_excerpt": "…Maar nu heb ik u geschreven, dat u zich niet zult vermengen, namelijk indien iemand   die een broede…",
+            "hsv_excerpt": "Maar nu heb ik u geschreven dat u zich niet moet inlaten met iemand die, terwijl hij een broeder wordt genoemd, een ontu",
+            "original_excerpt": "  Maer nu hebbe ick u geschreven, dat ghy u niet en sult vermengen, namelick indien yemant   een broeder genaemt zijnde,"
+          }
+        ]
       }
     ],
     "fossiel-lidwoord": [
       {
-        "pattern_id": "p-0004",
+        "pattern_id": "p-0010",
         "kind": "fossiel-lidwoord",
         "key": "des heeren",
-        "frequency": 5,
+        "frequency": 9,
         "hsv_alternatives": [],
         "severity_hint": "hard",
         "occurrences": [
@@ -259,11 +597,43 @@
             "sv2026_excerpt": "… en ter wille van het geweten. Want   de aarde is des Heeren, en de volheid daarvan.",
             "hsv_excerpt": "Indien echter iemand tegen u zegt: Dat is een afgodenoffer, eet het dan niet, omwille van hem die u dat te kennen gaf en omwille van het geweten. Van de Heere i",
             "original_excerpt": "Maer   soo yemant tot u-lieden seght, Dat is afgoden-offer, en eet het niet om des genen wille die u dat te kennen gegeven heeft, ende om der conscientie wille."
+          },
+          {
+            "book": "1CO",
+            "chapter": 11,
+            "verse": 20,
+            "sv2026_excerpt": "…n bijeen samenkomt,   dat   is niet het Avondmaal des Heeren eten.",
+            "hsv_excerpt": "Zoals u nu bij elkaar samenkomt, is dat niet het eten van het Avondmaal van de Heere.",
+            "original_excerpt": "Als ghy dan by een te samen komt,   dat   en is niet des Heeren Avontmael eten."
+          },
+          {
+            "book": "1CO",
+            "chapter": 11,
+            "verse": 26,
+            "sv2026_excerpt": "… drinkbeker zult drinken,   zo verkondigt de dood des Heeren,     tot dat hij komt.",
+            "hsv_excerpt": "Want zo dikwijls als u dit brood eet en deze drinkbeker drinkt, verkondig de dood van de Heere,   totdat Hij komt.  ",
+            "original_excerpt": "Want soo dickwils als ghy   dit broot sult eten, ende desen   drinckbeker sult drincken,   soo verkondight den doot des Heeren,     tot dat hy komt."
+          },
+          {
+            "book": "1CO",
+            "chapter": 11,
+            "verse": 27,
+            "sv2026_excerpt": "…, wie   onwaardig dit brood eet, of de drinkbeker des Heeren drinkt, die   zal schuldig zijn aan het…",
+            "hsv_excerpt": "  Daarom, wie op onwaardige wijze dit brood eet of de drinkbeker van de Heere drinkt, is schuldig aan het lichaam en bloed van de Heere.",
+            "original_excerpt": "  Soo dan wie   onweerdelick dit broot eet, ofte den drinckbeker des Heeren drinckt, die   sal schuldigh zijn aen het lichaem ende bloet des Heeren."
+          },
+          {
+            "book": "1CO",
+            "chapter": 11,
+            "verse": 29,
+            "sv2026_excerpt": "…  een oordeel,   niet onderscheidende het lichaam des Heeren.",
+            "hsv_excerpt": "Want wie op onwaardige wijze eet en drinkt, die eet en drinkt zichzelf een oordeel, omdat hij het lichaam van de Heere niet onderscheidt.",
+            "original_excerpt": "Want die onweerdighlick eet ende drinckt, die eet ende drinckt hemselven   een oordeel,   niet onderscheydende het lichaem des Heeren."
           }
         ]
       },
       {
-        "pattern_id": "p-0005",
+        "pattern_id": "p-0011",
         "kind": "fossiel-lidwoord",
         "key": "der wereld",
         "frequency": 2,
@@ -291,7 +661,7 @@
     ],
     "latinaat-window": [
       {
-        "pattern_id": "p-0006",
+        "pattern_id": "p-0012",
         "kind": "latinaat-window",
         "key": "met dingen der wereld hoe",
         "frequency": 2,
@@ -317,7 +687,7 @@
         ]
       },
       {
-        "pattern_id": "p-0008",
+        "pattern_id": "p-0015",
         "kind": "latinaat-window",
         "key": "niets ter wille van het",
         "frequency": 2,
@@ -343,7 +713,7 @@
         ]
       },
       {
-        "pattern_id": "p-0009",
+        "pattern_id": "p-0016",
         "kind": "latinaat-window",
         "key": "want aarde des heeren volheid",
         "frequency": 2,

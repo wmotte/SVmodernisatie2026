@@ -1,0 +1,133 @@
+{
+  "book": "1PE",
+  "chapters": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "min_freq": 2,
+  "kinds": [
+    "carryover",
+    "fossiel-lidwoord",
+    "latinaat-window",
+    "cap-asym"
+  ],
+  "total_patterns": 3,
+  "patterns_by_kind": {
+    "carryover": [
+      {
+        "pattern_id": "p-0002",
+        "kind": "carryover",
+        "key": "wandel",
+        "frequency": 4,
+        "hsv_alternatives": [
+          "levenswandel",
+          "waarnemen",
+          "hen",
+          "kwaadspreken",
+          "omgezien",
+          "doordat",
+          "reine",
+          "belasteren"
+        ],
+        "severity_hint": "hard",
+        "occurrences": [
+          {
+            "book": "1PE",
+            "chapter": 2,
+            "verse": 12,
+            "sv2026_excerpt": "  En houd uw wandel eerbaar onder de Heidenen:   opdat zij in d…",
+            "hsv_excerpt": "  Houd uw levenswandel onder de heidenen goed;   opdat zij die nu van u kwaadspreken als van kwaaddoeners,   door de goe",
+            "original_excerpt": "  Ende houdt uwen wandel eerlick onder de Heydenen:   op dat in het gene sy qualick van u spreken, als van quaetdoenders"
+          },
+          {
+            "book": "1PE",
+            "chapter": 3,
+            "verse": 1,
+            "sv2026_excerpt": "…en   aan het woord ongehoorzaam zijn, zij door de wandel van de vrouwen zonder woord   gewonnen moge…",
+            "hsv_excerpt": "Evenzo,   vrouwen, wees uw eigen mannen onderdanig; opdat ook, als sommigen aan het Woord ongehoorzaam zijn, zij door de",
+            "original_excerpt": "  DEsgelijcks ghy vrouwen, zijt uwe eygene mannen onderdanigh: op dat oock soo eenige   den woorde ongehoorsaem zijn, sy"
+          },
+          {
+            "book": "1PE",
+            "chapter": 3,
+            "verse": 2,
+            "sv2026_excerpt": "Wanneer zij uw kuise wandel   in vreze gezien zullen hebben.",
+            "hsv_excerpt": "doordat zij uw reine levenswandel in de vreze des Heeren waarnemen.",
+            "original_excerpt": "Als sy sullen ingesien hebben uwen kuyschen wandel   in vreese."
+          },
+          {
+            "book": "1PE",
+            "chapter": 3,
+            "verse": 16,
+            "sv2026_excerpt": "…kwaaddoeners, beschaamd mogen worden die uw goede wandel   in Christus lasteren.",
+            "hsv_excerpt": "En heb een goed geweten,   opdat in datgene waarin zij kwaad van u spreken als van kwaaddoeners, zij beschaamd gemaakt w",
+            "original_excerpt": "Ende   hebt een goede conscientie,   op dat in het gene sy qualick van u spreken, als van quaetdoenders, sy beschaemt mo"
+          }
+        ]
+      },
+      {
+        "pattern_id": "p-0001",
+        "kind": "carryover",
+        "key": "priesterdom",
+        "frequency": 2,
+        "hsv_alternatives": [
+          "priesterschap",
+          "offers",
+          "welgevallig",
+          "eigendom",
+          "god",
+          "maakte"
+        ],
+        "severity_hint": "soft",
+        "occurrences": [
+          {
+            "book": "1PE",
+            "chapter": 2,
+            "verse": 5,
+            "sv2026_excerpt": "…bouwd tot   een geestelijk huis, tot   een heilig Priesterdom,   om   geestelijke offeranden op te o…",
+            "hsv_excerpt": "dan wordt u ook zelf, als levende stenen, gebouwd tot   een geestelijk huis, tot   een heilig priesterschap, om   geeste",
+            "original_excerpt": "Soo wordet ghy oock selve,   als levende steenen,   gebouwt tot   een geestelick huys, tot   een heyligh Priesterdom,   "
+          },
+          {
+            "book": "1PE",
+            "chapter": 2,
+            "verse": 9,
+            "sv2026_excerpt": "… u   een uitverkoren geslacht,     een Koninklijk Priesterdom, een heilig volk,   een verkregen volk…",
+            "hsv_excerpt": "  Maar u bent een uitverkoren geslacht,   een koninklijk priesterschap, een heilig volk, een volk dat God Zich tot Zijn ",
+            "original_excerpt": "  Maer   ghy zijt   een uytverkoren geslachte,     een Konincklick Priesterdom, een heyligh volck,   een verkregen volck"
+          }
+        ]
+      }
+    ],
+    "cap-asym": [
+      {
+        "pattern_id": "p-0003",
+        "kind": "cap-asym",
+        "key": "koning",
+        "frequency": 2,
+        "hsv_alternatives": [],
+        "severity_hint": "soft",
+        "occurrences": [
+          {
+            "book": "1PE",
+            "chapter": 2,
+            "verse": 13,
+            "sv2026_excerpt": "…dening  ,   omwille van de Heere: hetzij   aan de Koning, als degene die de hoogste macht heeft:",
+            "hsv_excerpt": "  Onderwerp u dan omwille van de Heere aan alle menselijke orde, hetzij aan de koning, als hoogste machthebber,",
+            "original_excerpt": ""
+          },
+          {
+            "book": "1PE",
+            "chapter": 2,
+            "verse": 17,
+            "sv2026_excerpt": "…  heb   de broederschap lief: vrees God:   eer de Koning.",
+            "hsv_excerpt": "  Houd iedereen in ere;   heb al uw broeders   lief; vrees God;   eer de koning.",
+            "original_excerpt": ""
+          }
+        ]
+      }
+    ]
+  }
+}

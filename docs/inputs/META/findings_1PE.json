@@ -1,0 +1,67 @@
+{
+  "book": "1PE",
+  "generated_at": "2026-05-26T05:37:51Z",
+  "min_freq": 2,
+  "issues": [
+    {
+      "id": "META-1PE-2-5-001",
+      "verse": 5,
+      "chapter": 2,
+      "category": "carryover",
+      "severity": "soft",
+      "quote_modernized": "tot een heilig Priesterdom, om geestelijke offeranden op te offeren",
+      "hsv_quote": "tot een heilig priesterschap, om geestelijke offers te brengen",
+      "rule_reference": "MODERNISATIE.md §2.7 / ARCHAISMEN.md",
+      "explanation": "'Priesterdom' is archaisch; modern staand equivalent is 'priesterschap' (HSV, NBV21). Geen dominante andere betekenis, maar leest verouderd. freq=2 in 1PE 2 (vers 5, 9).",
+      "proposed_fix": "een heilig Priesterschap",
+      "location": "hoofdtekst",
+      "status": "fixed",
+      "pr": 723
+    },
+    {
+      "id": "META-1PE-2-9-001",
+      "verse": 9,
+      "chapter": 2,
+      "category": "carryover",
+      "severity": "soft",
+      "quote_modernized": "een Koninklijk Priesterdom, een heilig volk",
+      "hsv_quote": "een koninklijk priesterschap, een heilig volk",
+      "rule_reference": "MODERNISATIE.md §2.7 / ARCHAISMEN.md",
+      "explanation": "Idem als 2:5 -- 'Priesterdom' -> 'Priesterschap' (SV-cap bewaard). 'Koninklijk' blijft kapitaal: SV1657 'Konincklick' is gekapitaliseerd, hoofdletter-discipline bewaart SV-nouncaps; HSV's kleine letter is HSV-keuze.",
+      "proposed_fix": "een Koninklijk Priesterschap",
+      "location": "hoofdtekst",
+      "status": "fixed",
+      "pr": 723
+    },
+    {
+      "id": "META-1PE-2-13-001",
+      "verse": 13,
+      "chapter": 2,
+      "category": "cap-asym",
+      "severity": "hard",
+      "quote_modernized": "hetzij aan de Koning, als degene die de hoogste macht heeft",
+      "hsv_quote": "hetzij aan de koning, als hoogste machthebber",
+      "rule_reference": "AGENTS.md eerbiedskapitaal / feedback_eerbiedskapitaal_validator",
+      "explanation": "OVERRULED (bucket A). SV1657 heeft 'Koningh' gekapitaliseerd; validator hoofdletter-discipline bewaart het SV-cap-patroon. De eerbiedskapitaal-regel verbiedt enkel het TOEVOEGEN van reverence-caps (hy->Hij), niet het bewaren van bestaande SV-nouncaps. Lowercasing faalt validate.py (hoofdletter-discipline HARD). HSV's kleine 'koning' is HSV-keuze.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "status": "rebutted",
+      "rebuttal": "SV-cap-patroon 'Koningh' wordt bewaard (validator-bevestigd); eerbiedskapitaal-regel betreft alleen toegevoegde caps. Bucket A, geen wijziging."
+    },
+    {
+      "id": "META-1PE-2-17-001",
+      "verse": 17,
+      "chapter": 2,
+      "category": "cap-asym",
+      "severity": "hard",
+      "quote_modernized": "vrees God: eer de Koning.",
+      "hsv_quote": "vrees God; eer de koning.",
+      "rule_reference": "AGENTS.md eerbiedskapitaal / feedback_eerbiedskapitaal_validator",
+      "explanation": "OVERRULED (bucket A), zelfde grond als 2:13. SV 'Koningh' kapitaal bewaard; validator hoofdletter-discipline HARD bij lowercasing.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "status": "rebutted",
+      "rebuttal": "SV-cap-patroon bewaard (validator-bevestigd); eerbiedskapitaal betreft alleen toegevoegde caps. Bucket A."
+    }
+  ]
+}
