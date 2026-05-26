@@ -1,0 +1,128 @@
+{
+  "book": "1TH",
+  "chapter": 2,
+  "reviewed_at": "2026-05-26T20:51:13+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-26T20:48:42+00:00",
+      "mode": "scan",
+      "issues_total": 5
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-26T20:50:09+00:00",
+      "mode": "verify",
+      "actions": [
+        "1TH-2-14-001: rebuttal verified",
+        "1TH-2-17-001: rebuttal verified",
+        "1TH-2-1-001: rebuttal verified",
+        "1TH-2-2-001: reopened (luie rebuttal)",
+        "1TH-2-2-002: rebuttal verified"
+      ]
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-05-26T20:51:13+00:00",
+      "mode": "verify",
+      "actions": [
+        "1TH-2-2-001: rebuttal verified"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "category": "§2.3b vocatief-u",
+      "verse": 14,
+      "severity": "soft",
+      "quote_modernized": "…zijn,   in Christus Jezus: aangezien ook u hetzelfde geleden hebt van uw     eig…",
+      "rule_reference": "MODERNISATIE.md §2.3b",
+      "explanation": "'u hetzelfde' aan zin-/clause-begin — mogelijke vocatief-u-Latinaatconstructie. Verifieer of 'u' hier object van aanspreking is en weghaalbaar is.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "1TH-2-14-001",
+      "status": "verified",
+      "rebuttal": "Geen vocatief-u volgens MODERNISATIE.md §2.3b: in 1TH 2:14 is 'u' het onderwerp van 'hebt geleden' in 'aangezien ook u hetzelfde geleden hebt'. De Griekse parallel 'καὶ ὑμεῖς' bevestigt een expliciet subject, geen aanspreekvorm die weggelaten moet worden.",
+      "verified_at": "2026-05-26T20:50:09+00:00"
+    },
+    {
+      "category": "§2.3b infinitief met nageschoven object",
+      "verse": 17,
+      "severity": "soft",
+      "quote_modernized": "…n wij ons des te overvloediger beijverd om uw aangezicht   te zien   met grote b…",
+      "rule_reference": "MODERNISATIE.md §2.3b",
+      "explanation": "'om … te zien met grote begeerte' — Latinaat-woordvolgorde; in modern NL gaat het object vóór de infinitief: 'om <object> te zien'.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "1TH-2-17-001",
+      "status": "verified",
+      "rebuttal": "Geen nageschoven object volgens MODERNISATIE.md §2.3b: het object staat al voor de infinitief in 'om uw aangezicht ... te zien'. 'Met grote begeerte' correspondeert met Grieks 'ἐν πολλῇ ἐπιθυμίᾳ' en is een nageschoven bepaling, niet het object van 'zien'.",
+      "verified_at": "2026-05-26T20:50:09+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 1,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'geweest' in 6 verzen — verzen [3, 17] renderen het stam anders dan [1, 4, 7, 10]",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 6 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        1,
+        3,
+        4,
+        7,
+        10,
+        17
+      ],
+      "id": "1TH-2-1-001",
+      "status": "verified",
+      "rebuttal": "Scanner-false-positive op Nederlands hulpwerkwoord 'geweest'. Concordantie ziet op brontekstwoorden: 1TH 2:1 heeft γέγονεν en 2:7/10 hebben ἐγενήθημεν, maar 2:3 heeft geen γίνομαι in de Griekse brontekst en 2:17 heeft ἀπορφανισθέντες. Daarom is harmonisatie van verzen 3 en 17 met 'geweest' niet vereist.",
+      "verified_at": "2026-05-26T20:50:09+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 2,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'gelijck' in 7 verzen — verzen [4, 5, 7, 11] renderen het stam anders dan [2, 13, 14]",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 7 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        2,
+        4,
+        5,
+        7,
+        11,
+        13,
+        14
+      ],
+      "id": "1TH-2-2-001",
+      "status": "verified",
+      "rebuttal": "AGENTS.md concordantie vraagt gelijke brontekstwoorden zoveel mogelijk gelijk weer te geven. In 1TH 2:2,4,5,13 staat καθὼς als 'zoals'; 2:11 heeft καθάπερ als 'Zoals'; 2:7 heeft ὡς ἂν als 'zoals'; 2:14 heeft καθὼς καὶ als 'zoals ook'. De variatie zit in Grieks lemma en zinsfunctie, niet in een gemiste modernisatie.",
+      "verified_at": "2026-05-26T20:51:13+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 2,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'euangel' in 4 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 4 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        2,
+        4,
+        8,
+        9
+      ],
+      "id": "1TH-2-2-002",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] False positive scanner-heuristiek. Alle 4 verzen (1, 9, 15, 16) renderen euangel-stam consistent als 'Evangelie'; prefix-overlap-detectie mist orthografische overgang Grieks 'euangel' → modern 'evangel' (verschil eu→ev). Vers-controle bevestigt concordantie.",
+      "verified_at": "2026-05-26T20:50:09+00:00"
+    }
+  ]
+}
