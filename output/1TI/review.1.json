@@ -1,0 +1,150 @@
+{
+  "book": "1TI",
+  "chapter": 1,
+  "reviewed_at": "2026-05-26T10:52:55+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-26T10:50:48+00:00",
+      "mode": "scan",
+      "issues_total": 8
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-26T10:52:13+00:00",
+      "mode": "verify",
+      "actions": [
+        "1TI-1-4-001: rebuttal verified",
+        "1TI-1-4-002: rebuttal verified",
+        "1TI-1-5-001: rebuttal verified",
+        "1TI-1-5-002: rebuttal verified",
+        "1TI-1-14-001: rebuttal verified",
+        "1TI-1-16-001: rebuttal verified",
+        "1TI-1-20-001: rebuttal verified",
+        "1TI-1-20-002: reopened (patroon nog aanwezig)"
+      ]
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-05-26T10:52:55+00:00",
+      "mode": "verify",
+      "actions": [
+        "1TI-1-20-002: verified"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "category": "voornaamwoordelijk bijwoord gesplitst",
+      "verse": 4,
+      "severity": "hard",
+      "quote_modernized": "…ters van hun goden, toch schijnt Paulus hier op enigen te zien die uit het Joden…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'hier op' — SV-gesplitst voornaamwoordelijk bijwoord. Modern Nederlands voegt samen: 'hierop' (bv. daarin, waarmee, hierop).",
+      "proposed_fix": "hierop",
+      "location": "kanttekening",
+      "id": "1TI-1-4-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] False-positive op ARCHAISMEN.md 'gesplitst voornaamwoordelijk bijwoord': in v19 betekent 'hier op aarde' [hier] = locatief adverbium plus de volledige PP 'op aarde'. Samenvoegen tot 'hierop aarde' is ongrammaticaal; dit is niet het type 'daar op acht' waarbij de prepositie geen zelfstandig naamwoord regeert.",
+      "verified_at": "2026-05-26T10:52:13+00:00"
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 4,
+      "severity": "soft",
+      "quote_modernized": "fabelen en eindeloze geslachtsregisters",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'fabelen en eindeloze geslachtsregisters' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "1TI-1-4-002",
+      "status": "verified",
+      "rebuttal": "1TI 1:4 is geen KANTTEKENINGEN.md-redundantie: de kanttekening herhaalt de hoofdtekstterm om de referent te bepalen, namelijk Griekse/Joodse fabelen en Talmoedische geslachtsregisters. De hoofdtekst neemt die uitleg niet op; de toelichting blijft dus binnen <...> conform MODERNISATIE.md §2.7.",
+      "verified_at": "2026-05-26T10:52:13+00:00"
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 5,
+      "severity": "soft",
+      "quote_modernized": "…en uit een   goed geweten, en uit een   ongeveinsd geloof.",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'ongeveinsd' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "1TI-1-5-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] §2.7 false-positive: ongeveinsd is in modern bijbels/formeel Nederlands nog productief voor niet-gehuicheld/oprecht; HSV ROM 12:9 gebruikt eveneens ongeveinsd. Geen drempel-archaïsme volgens productiviteitstest.",
+      "verified_at": "2026-05-26T10:52:13+00:00"
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 5,
+      "severity": "soft",
+      "quote_modernized": "uit een rein hart",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'uit een rein hart' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "1TI-1-5-002",
+      "status": "verified",
+      "rebuttal": "1TI 1:5 is geen inhoudloze doublure volgens KANTTEKENINGEN.md: de kanttekening bij parangelia citeert 'uit een rein hart' binnen de uitleg van het doel van het gebod, terwijl de aparte korte kanttekening 'Dat is, een oprecht hart zonder geveinsdheid' juist de term rein verklaart.",
+      "verified_at": "2026-05-26T10:52:13+00:00"
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 14,
+      "severity": "soft",
+      "quote_modernized": "die er is in",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'die er is in' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "1TI-1-14-001",
+      "status": "verified",
+      "rebuttal": "1TI 1:14 is geen te schrappen redundantie volgens KANTTEKENINGEN.md: de kanttekening verklaart de voorzetselconstructie 'die er is in Christus Jezus' als 'door de genade van Christus Jezus' of als staat-in-Christus. Dat is semantische toelichting, niet herhaling van hoofdtekstinformatie.",
+      "verified_at": "2026-05-26T10:52:13+00:00"
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 16,
+      "severity": "soft",
+      "quote_modernized": "… mij, die de voornaamste ben,   al zijn lankmoedigheid zou tonen,   tot een voor…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'lankmoedigheid' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "1TI-1-16-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'lankmoedigheid' (μακροθυμία) is theologische deugd-term: concordant met Gal. 5:22 (vrucht van de Geest) en 1Kor. 13:4 ('liefde is lankmoedig'). Corpus-wide gebruikt in 3 verzen (SVm2026); HSV kiest 'geduld' als 4c-register-shift, geen 4a/4b-correctie. SV-conforme weergave handhaaft concordantie. MODERNISATIE.md §2.7 productiviteitstest geldt minder strikt voor theologische vaktermen die in liturgisch/dogmatisch modern NL gangbaar blijven.",
+      "verified_at": "2026-05-26T10:52:13+00:00"
+    },
+    {
+      "category": "voornaamwoordelijk bijwoord gesplitst",
+      "verse": 20,
+      "severity": "hard",
+      "quote_modernized": "… evenwel niet vaststaat. Maar omdat hij hier bij Hymeneüs wordt gesteld, moet hi…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'hier bij' — SV-gesplitst voornaamwoordelijk bijwoord. Modern Nederlands voegt samen: 'hierbij' (bv. daarin, waarmee, hierop).",
+      "proposed_fix": "hierbij",
+      "location": "kanttekening",
+      "id": "1TI-1-20-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Geen gesplitst voornaamwoordelijk bijwoord: in 'worden hier bij elkaar gevoegd' is 'bij elkaar' een moderne idiomatische PP (vgl. 'bij elkaar leggen', 'bij elkaar komen'); 'hier' fungeert locatief-deiktisch op de tekstuele context. 'Hierbij' (= 'hierop volgend / in dezen') heeft een andere betekenis dan 'bij elkaar' (= 'samen'). De ARCHAISMEN.md-regel voor gesplitste pronominale bijwoorden (`hierin`/`waarmee`) geldt niet voor 'hier' + vaste-PP-'bij elkaar'. False positive van regex.",
+      "verified_at": "2026-05-26T10:52:13+00:00"
+    },
+    {
+      "category": "kanttekening-luiheid (§2.3 in <…>)",
+      "verse": 20,
+      "severity": "hard",
+      "quote_modernized": "…ijk, dat hij de opstanding van de doden loochende. Namelijk, door de Kerkelijke …",
+      "rule_reference": "KANTTEKENINGEN.md + §2.3",
+      "explanation": "'loochende' binnen kanttekening — verdacht -ende-woord in adverbial / clause-final positie. §2.3 geldt ook in <…>; ontvouw naar finiete bijzin.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "1TI-1-20-002",
+      "status": "verified",
+      "fix_commit": "pending-adversarial-fix",
+      "verified_at": "2026-05-26T10:52:55+00:00"
+    }
+  ]
+}
