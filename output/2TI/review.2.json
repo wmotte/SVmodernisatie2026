@@ -1,13 +1,42 @@
 {
   "book": "2TI",
   "chapter": 2,
-  "reviewed_at": "2026-05-26T14:27:04+00:00",
+  "reviewed_at": "2026-05-26T14:30:08+00:00",
   "passes": [
     {
       "pass": 1,
       "ran_at": "2026-05-26T14:27:04+00:00",
       "mode": "scan",
       "issues_total": 14
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-26T14:29:45+00:00",
+      "mode": "verify",
+      "actions": [
+        "2TI-2-5-001: rebuttal verified",
+        "2TI-2-8-001: rebuttal verified",
+        "2TI-2-9-001: rebuttal verified",
+        "2TI-2-11-001: rebuttal verified",
+        "2TI-2-12-001: rebuttal verified",
+        "2TI-2-12-002: rebuttal verified",
+        "2TI-2-13-001: rebuttal verified",
+        "2TI-2-15-001: rebuttal verified",
+        "2TI-2-17-001: rebuttal verified",
+        "2TI-2-19-001: rebuttal verified",
+        "2TI-2-20-001: rebuttal verified",
+        "2TI-2-21-001: rebuttal verified",
+        "2TI-2-2-001: rebuttal verified",
+        "2TI-2-15-002: reopened (te generiek)"
+      ]
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-05-26T14:30:08+00:00",
+      "mode": "verify",
+      "actions": [
+        "2TI-2-15-002: rebuttal verified"
+      ]
     }
   ],
   "issues": [
@@ -21,8 +50,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "2TI-2-5-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-26T14:29:45+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -34,8 +64,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "2TI-2-8-001",
-      "status": "rebutted",
-      "rebuttal": "KANTTEKENINGEN.md verbiedt vooral alternatief-dubbeling waarbij een <Of, ...>-keuze de hoofdtekst overneemt. Hier is de hoofdtekst gebonden aan de SV/TR-zinsinhoud 'uit het zaad van David'; de kanttekening geeft de alternatieve syntactische lezing '<Of, dat Jezus Christus ... uit het zaad van David is.>' bij het constructieverband. Dat is versspecifieke syntaxis-uitleg, geen overbodig hoofdtekstsynoniem."
+      "status": "verified",
+      "rebuttal": "KANTTEKENINGEN.md verbiedt vooral alternatief-dubbeling waarbij een <Of, ...>-keuze de hoofdtekst overneemt. Hier is de hoofdtekst gebonden aan de SV/TR-zinsinhoud 'uit het zaad van David'; de kanttekening geeft de alternatieve syntactische lezing '<Of, dat Jezus Christus ... uit het zaad van David is.>' bij het constructieverband. Dat is versspecifieke syntaxis-uitleg, geen overbodig hoofdtekstsynoniem.",
+      "verified_at": "2026-05-26T14:29:45+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -47,8 +78,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "2TI-2-9-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-26T14:29:45+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -60,8 +92,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "2TI-2-11-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-26T14:29:45+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -73,8 +106,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "2TI-2-12-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-26T14:29:45+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -86,8 +120,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "2TI-2-12-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-26T14:29:45+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -99,8 +134,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "2TI-2-13-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-26T14:29:45+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -112,8 +148,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "2TI-2-15-001",
-      "status": "rebutted",
-      "rebuttal": "KANTTEKENINGEN.md 'Geen redundantie' ziet op lexicale dubbeling zonder uitlegfunctie. In v15 verklaart de kanttekening waarom de arbeider zich 'niet hoeft te schamen': niet wegens nalatigheid, onzuiverheid of ontrouw. De herhaalde woorden zijn het noodzakelijke anker van die morele toelichting bij de Griekse/SV-constructie, geen alternatief voor de hoofdtekst."
+      "status": "verified",
+      "rebuttal": "KANTTEKENINGEN.md 'Geen redundantie' ziet op lexicale dubbeling zonder uitlegfunctie. In v15 verklaart de kanttekening waarom de arbeider zich 'niet hoeft te schamen': niet wegens nalatigheid, onzuiverheid of ontrouw. De herhaalde woorden zijn het noodzakelijke anker van die morele toelichting bij de Griekse/SV-constructie, geen alternatief voor de hoofdtekst.",
+      "verified_at": "2026-05-26T14:29:45+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -125,8 +162,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "2TI-2-17-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-26T14:29:45+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -138,8 +176,9 @@
       "proposed_fix": "van de levens",
       "location": "kanttekening",
       "id": "2TI-2-19-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'boek des levens' is een gefossiliseerde bijbelse uitdrukking voor τὸ βιβλίον τῆς ζωῆς (Op. 3:5; 13:8; 17:8; 20:12,15; 21:27; Fp. 4:3). De genitief-constructie is in modern bijbels Nederlands productief gebleven (NBG51, HSV, NBV21 gebruiken eveneens 'boek des levens'). Vergelijkbaar met de gefossiliseerde 'Koninkrijk der hemelen' en 'Zoon des mensen' — categorie ARCHAISMEN.md gefossiliseerde-genitief-uitzondering."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'boek des levens' is een gefossiliseerde bijbelse uitdrukking voor τὸ βιβλίον τῆς ζωῆς (Op. 3:5; 13:8; 17:8; 20:12,15; 21:27; Fp. 4:3). De genitief-constructie is in modern bijbels Nederlands productief gebleven (NBG51, HSV, NBV21 gebruiken eveneens 'boek des levens'). Vergelijkbaar met de gefossiliseerde 'Koninkrijk der hemelen' en 'Zoon des mensen' — categorie ARCHAISMEN.md gefossiliseerde-genitief-uitzondering.",
+      "verified_at": "2026-05-26T14:29:45+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -151,8 +190,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "2TI-2-20-001",
-      "status": "rebutted",
-      "rebuttal": "KANTTEKENINGEN.md verbiedt niet dat een uitleg-kanttekening het beeldwoord citeert dat zij verklaart. In v20 werkt de noot 'in een groot huis' typologisch uit: huis/paleis, uiterlijke zichtbare gemeente, vaten van verschillend materiaal en gebruik. De herhaling is het versanker voor de allegorische verklaring, geen redundante lexicale variant."
+      "status": "verified",
+      "rebuttal": "KANTTEKENINGEN.md verbiedt niet dat een uitleg-kanttekening het beeldwoord citeert dat zij verklaart. In v20 werkt de noot 'in een groot huis' typologisch uit: huis/paleis, uiterlijke zichtbare gemeente, vaten van verschillend materiaal en gebruik. De herhaling is het versanker voor de allegorische verklaring, geen redundante lexicale variant.",
+      "verified_at": "2026-05-26T14:29:45+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -164,8 +204,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "2TI-2-21-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-26T14:29:45+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -182,8 +223,9 @@
         24
       ],
       "id": "2TI-2-2-001",
-      "status": "rebutted",
-      "rebuttal": "Concordantie is hier behouden: SV 'bequaemheyt' in v2 is gemoderniseerd als 'geschiktheid', en SV 'bequaem' in v2 en v24 als 'geschikt'. De scanner gebruikt prefix-overlap op de originele stam 'bequaem' en mist daardoor de legitieme modernisering naar de Nederlandse stam 'geschik-'. Geen harmonisatie nodig."
+      "status": "verified",
+      "rebuttal": "Concordantie is hier behouden: SV 'bequaemheyt' in v2 is gemoderniseerd als 'geschiktheid', en SV 'bequaem' in v2 en v24 als 'geschikt'. De scanner gebruikt prefix-overlap op de originele stam 'bequaem' en mist daardoor de legitieme modernisering naar de Nederlandse stam 'geschik-'. Geen harmonisatie nodig.",
+      "verified_at": "2026-05-26T14:29:45+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -200,8 +242,9 @@
         25
       ],
       "id": "2TI-2-15-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Alle drie verzen (v2/v8/v20) gebruiken 'waarheid' voor SV 'waerheyt' — perfect concordant. Scanner's prefix-overlap-heuristiek mist de orthografische overgang ae→aa en ey→ei, waardoor 'waerhey'-prefix niet matcht met moderne 'waarh'-prefix. False positive."
+      "status": "verified",
+      "rebuttal": "AGENTS.md concordantieprincipe en MODERNISATIE.md §5.3 vragen dezelfde Nederlandse keuze bij dezelfde SV/Griekse stam. In de betrokken verzen is dat precies zo: v15 'waerheyt' -> 'waarheid', v18 'waerheyt' -> 'waarheid', en v25 twee keer 'waerheyt' -> 'waarheid'. De scanner gebruikt prefix-overlap op de SV-spelling 'waerhey' en mist de normale orthografische modernisering ae->aa en ey->ei; dit is dus een false-positive, geen concordantie-drift.",
+      "verified_at": "2026-05-26T14:30:08+00:00"
     }
   ]
 }
