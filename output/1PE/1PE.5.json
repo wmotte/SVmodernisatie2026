@@ -35,11 +35,50 @@
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5,
       "notes": [
-        {"type": "afwijking", "text": "SV 'voorbeelden der kudde geworden zijnde' (§2.3-participium, Gr. τύποι γινόμενοι nom.pl.) was als enkelvoudige imperatief 'maar word ... voorbeelden' gemoderniseerd; gecorrigeerd naar meervoudige finiete vorm 'voorbeelden voor de kudde geworden zijt' passend bij de meervoudige aanspreekvorm (gij/de Ouderlingen). HSV-spiegel bevestigt ('geworden zijn')."}
+        {
+          "type": "afwijking",
+          "text": "SV 'voorbeelden der kudde geworden zijnde' (§2.3-participium, Gr. τύποι γινόμενοι nom.pl.) was als enkelvoudige imperatief 'maar word ... voorbeelden' gemoderniseerd; gecorrigeerd naar meervoudige finiete vorm 'voorbeelden voor de kudde geworden zijt' passend bij de meervoudige aanspreekvorm (gij/de Ouderlingen). HSV-spiegel bevestigt ('geworden zijn')."
+        }
       ]
+    },
+    {
+      "verse_number": 4,
+      "original": "Ende als $Iesa. 40.11. Ezech. 34.23. Ioan. 10.11. Hebr. 13.20. 1.Petr. 2.25.$ <Alsoo noemt Petrus hier niet hemselven, maer Christum. Want die is alleen de Herder van alle de Herderen, ende van alle de schapen, soo Ioden als Heydenen, welcke tijtel niemant anders en kan toekomen.> de Overste Herder verschenen sal zijn, $1.Corinth. 9.25. 2.Timoth. 4.8. Iacob. 1.12. 1.Petr. 1.4.$ soo sult ghy <Het Griecks woort amarantinon komt van amarantus, het welck een kruyt is dat niet en verwelckert, daer van eertijts kranssen gemaeckt wierden. Siet 1.Corinth. cap. 9. versen 24, 25.> de onverwelckelicke kroone der heerlickheyt behalen.",
+      "modernized": "En wanneer $Js. 40:11; Ez. 34:23; Jh. 10:11; Hb. 13:20; 1Pt. 2:25$ <Zo noemt Petrus hier niet zichzelf, maar Christus. Want die is alleen de Herder van alle Herders, en van alle schapen, zowel Joden als Heidenen, welke titel niemand anders kan toekomen.> de Overste Herder verschenen zal zijn, $1Kor. 9:25; 2Tm. 4:8; Jk. 1:12; 1Pt. 1:4$ dan zult u <Het Griekse woord amarantinon komt van amarantus, dat een kruid is dat niet verwelkt, waarvan vroeger kransen gemaakt werden. Zie $1Kor. 9:24,25$.> de onverwelkelijke kroon der heerlijkheid behalen.",
+      "source_text": "καὶ φανερωθέντος τοῦ ἀρχιποίμενος, κομιεῖσθε τὸν ἀμαράντινον τῆς δόξης στέφανον.",
+      "generated_at": "2026-05-26T06:29:27.074067Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 5,
+      "original": "Desgelijcks ghy jonge, zijt de oude on-derdanigh: $Rom. 12.10. Philip. 2.3.$ ende zijt alle <Dit seght den Apostel, niet ten aensien van elcks ampt, geestelick ofte wereltlick, daer in altijt behoorlick onderscheyt moet worden gehouden, maer ten aensien van de gemeyne liefde, daer in elck den anderen, soo veel doenlick is, moet wijcken ende toegeven. Siet Rom. 12. vers 10.> malkanderen onderdanigh: zijt met de ootmoedigheyt <Of, verçiert.> bekleet: $Proverb. 3.34. Iacob. 4.6.$ want Godt wederstaet de hoovaerdige, maer de nedrige geeft hy genade.",
+      "modernized": "Evenzo, u jongeren, weest de ouderen onderdanig: $Rm. 12:10; Fp. 2:3$ en weest allen <Dit zegt de Apostel niet ten aanzien van ieders ambt, geestelijk of wereldlijk, waarin altijd behoorlijk onderscheid gehouden moet worden, maar ten aanzien van de gemeenschappelijke liefde, waarin elk de ander, zoveel doenlijk is, moet wijken en toegeven. Zie $Rm. 12:10$.> elkander onderdanig: weest met de ootmoedigheid <Of, versierd.> bekleed: $Sp. 3:34; Jk. 4:6$ want God weerstaat de hovaardigen, maar de nederigen geeft hij genade.",
+      "source_text": "ὁμοίως, νεώτεροι, ὑποτάγητε πρεσβυτέροις· πάντες δὲ ἀλλήλοις ὑποτασσόμενοι, τὴν ταπεινοφροσύνην ἐγκομβώσασθε· ὅτι ὁ Θεὸς ὑπερηφάνοις ἀντιτάσσεται, ταπεινοῖς δὲ δίδωσι χάριν.",
+      "generated_at": "2026-05-26T06:29:53.904404Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "text": "Kanttekening 'gemeyne liefde' was als 'gemene liefde' gemoderniseerd; 'gemeen' = nu vulgair/laag, SV 'gemeyne' = gemeenschappelijk/algemeen (false friend). Gecorrigeerd naar 'gemeenschappelijke liefde' passend bij de context (de onderlinge liefde waarin elk de ander moet wijken, tegenover ambtsonderscheid)."
+        }
+      ]
+    },
+    {
+      "verse_number": 6,
+      "original": "$Iob 22.29. Proverb. 29.23. Matth. 23.12. Luce 14.11. Iacob. 4.10.$ <Namel. voor al, ende in alles, D. onderwerpt u met een nedrigh ende geloovigh gemoedt den wille ende de regeeringe Godts, gelijck het volgende vers oock verklaert.> Vernedert u dan onder de krachtige hant Godts, op dat hy u verhooge tot sijner tijt.",
+      "modernized": "$Jb. 22:29; Sp. 29:23; Mt. 23:12; Lk. 14:11; Jk. 4:10$ <Namelijk, voor alles, en in alles, dat is, onderwerp u met een nederig en gelovig gemoed aan de wil en de regering Gods, zoals het volgende vers ook verklaart.> Vernedert u dan onder de krachtige hand Gods, opdat hij u verhoge te zijner tijd.",
+      "source_text": "ταπεινώθητε οὖν ὑπὸ τὴν κραταιὰν χεῖρα τοῦ Θεοῦ, ἵνα ὑμᾶς ὑψώσῃ ἐν καιρῷ,",
+      "generated_at": "2026-05-26T06:30:13.963360Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ],
   "epilogue": {
-    "original": "Eynde van den eersten Algemeynen Sendtbrief PETRI."
+    "original": "Eynde van den eersten Algemeynen Sendtbrief PETRI.",
+    "modernized": "Einde van de eerste Algemene Brief van Petrus.",
+    "generated_at": "2026-05-26T06:30:23.364645Z",
+    "model": "claude-opus-4-7[1m]"
   }
 }
