@@ -1,7 +1,7 @@
 {
   "book": "JAS",
   "chapter": 1,
-  "reviewed_at": "2026-05-26T20:25:17+00:00",
+  "reviewed_at": "2026-05-26T20:26:54+00:00",
   "passes": [
     {
       "pass": 1,
@@ -14,6 +14,19 @@
       "ran_at": "2026-05-26T20:25:17+00:00",
       "mode": "scan",
       "issues_total": 6
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-05-26T20:26:54+00:00",
+      "mode": "verify",
+      "actions": [
+        "JAS-1-1-001: rebuttal verified",
+        "JAS-1-5-001: rebuttal verified",
+        "JAS-1-14-001: rebuttal verified",
+        "JAS-1-21-001: rebuttal verified",
+        "JAS-1-25-001: rebuttal verified",
+        "JAS-1-5-002: rebuttal verified"
+      ]
     }
   ],
   "issues": [
@@ -27,8 +40,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "JAS-1-1-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-26T20:26:54+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -40,8 +54,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "JAS-1-5-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-26T20:26:54+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -53,8 +68,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "JAS-1-14-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-26T20:26:54+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -66,8 +82,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "JAS-1-21-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-26T20:26:54+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -79,8 +96,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "JAS-1-25-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-26T20:26:54+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -97,8 +115,9 @@
         19
       ],
       "id": "JAS-1-5-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Geen drift: alle drie verzen renderen SV-stam 'yegelick' consistent als 'ieder' (v5 'ieder', v16 'ieder', v18 2x 'een ieder' — 'een ieder' spiegelt SV 'een yegelick'). De scanner-prefix-heuristiek mist de orthografische overgang yegelick->ieder (geen prefix-overlap) — gedocumenteerde false-positive-klasse."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Geen drift: alle drie verzen renderen SV-stam 'yegelick' consistent als 'ieder' (v5 'ieder', v16 'ieder', v18 2x 'een ieder' — 'een ieder' spiegelt SV 'een yegelick'). De scanner-prefix-heuristiek mist de orthografische overgang yegelick->ieder (geen prefix-overlap) — gedocumenteerde false-positive-klasse.",
+      "verified_at": "2026-05-26T20:26:54+00:00"
     }
   ]
 }
