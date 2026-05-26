@@ -13,6 +13,7 @@
 #   Main repo: $HOME/Desktop/projects/SVmodernisatie2026
 #   Worktrees: $HOME/Desktop/projects/SVmodernisatie2026.wt/<suffix>
 #   memory/   in elke worktree is een symlink naar de main-repo memory/
+#   hsv/      idem symlink — gitignored, anders mist de HSV-spiegel
 
 set -euo pipefail
 
@@ -53,6 +54,17 @@ cmd_new() {
     fi
     ln -s "$MAIN_REPO/memory" "$wt_path/memory"
 
+    # hsv/ shared via symlink — gitignored (.gitignore), dus niet in de
+    # checkout van een verse worktree. Zonder dit mist de HSV-spiegel
+    # (sv-semantic-review / meta-review) en wordt die stil overgeslagen.
+    # Read-mostly (fetch_hsv.py schrijft incidenteel); symlink volstaat.
+    if [[ -d "$MAIN_REPO/hsv" ]]; then
+        if [[ -e "$wt_path/hsv" ]]; then
+            rm -rf "$wt_path/hsv"
+        fi
+        ln -s "$MAIN_REPO/hsv" "$wt_path/hsv"
+    fi
+
     # .env meekopiëren (staat in .gitignore, dus niet in checkout).
     if [[ -f "$MAIN_REPO/.env" ]]; then
         cp "$MAIN_REPO/.env" "$wt_path/.env"
@@ -92,9 +104,12 @@ cmd_rm() {
     [[ ! -e "$wt_path" ]] && { echo "wt rm: $wt_path bestaat niet" >&2; exit 1; }
 
     cd "$MAIN_REPO"
-    # symlink eerst losmaken zodat git worktree remove de memory-dir niet raakt
+    # symlinks eerst losmaken zodat git worktree remove de gedeelde dirs niet raakt
     if [[ -L "$wt_path/memory" ]]; then
         rm "$wt_path/memory"
+    fi
+    if [[ -L "$wt_path/hsv" ]]; then
+        rm "$wt_path/hsv"
     fi
     git worktree remove "$wt_path"
     # Branch wordt NIET verwijderd — conform GIT_WORKFLOW.md verboden patronen.
