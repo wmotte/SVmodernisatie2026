@@ -4,7 +4,8 @@
     1,
     2,
     3,
-    4
+    4,
+    5
   ],
   "min_freq": 2,
   "kinds": [
@@ -13,26 +14,88 @@
     "latinaat-window",
     "cap-asym"
   ],
-  "total_patterns": 3,
+  "total_patterns": 5,
   "patterns_by_kind": {
+    "cap-asym": [
+      {
+        "pattern_id": "p-0001",
+        "kind": "cap-asym",
+        "key": "engelen",
+        "frequency": 2,
+        "hsv_alternatives": [],
+        "severity_hint": "soft",
+        "occurrences": [
+          {
+            "book": "1PE",
+            "chapter": 1,
+            "verse": 12,
+            "sv2026_excerpt": "…t   die van de hemel gezonden is,     waarin   de Engelen begerig zijn om in te zien.",
+            "hsv_excerpt": "Aan hen werd geopenbaard dat zij niet zichzelf, maar ons dienden in de dingen die u nu verkondigd zijn door hen die u het Evangelie verkondi",
+            "original_excerpt": ""
+          },
+          {
+            "book": "1PE",
+            "chapter": 3,
+            "verse": 22,
+            "sv2026_excerpt": "…echter hand Gods, opgevaren ten hemel, terwijl de Engelen, en machten, en krachten hem onderdanig ge…",
+            "hsv_excerpt": "  Die aan de rechter hand van God is, opgevaren naar de hemel, terwijl de engelen, machten en krachten Hem onderworpen zijn.",
+            "original_excerpt": ""
+          }
+        ]
+      },
+      {
+        "pattern_id": "p-0003",
+        "kind": "cap-asym",
+        "key": "koning",
+        "frequency": 2,
+        "hsv_alternatives": [],
+        "severity_hint": "soft",
+        "occurrences": [
+          {
+            "book": "1PE",
+            "chapter": 2,
+            "verse": 13,
+            "sv2026_excerpt": "…dening  ,   omwille van de Heere: hetzij   aan de Koning, als degene die de hoogste macht heeft:",
+            "hsv_excerpt": "  Onderwerp u dan omwille van de Heere aan alle menselijke orde, hetzij aan de koning, als hoogste machthebber,",
+            "original_excerpt": ""
+          },
+          {
+            "book": "1PE",
+            "chapter": 2,
+            "verse": 17,
+            "sv2026_excerpt": "…  heb   de broederschap lief: vrees God:   eer de Koning.",
+            "hsv_excerpt": "  Houd iedereen in ere;   heb al uw broeders   lief; vrees God;   eer de koning.",
+            "original_excerpt": ""
+          }
+        ]
+      }
+    ],
     "carryover": [
       {
         "pattern_id": "p-0002",
         "kind": "carryover",
         "key": "wandel",
-        "frequency": 4,
+        "frequency": 5,
         "hsv_alternatives": [
           "levenswandel",
           "waarnemen",
+          "heel",
           "hen",
           "kwaadspreken",
           "omgezien",
           "doordat",
-          "reine",
-          "belasteren"
+          "reine"
         ],
         "severity_hint": "hard",
         "occurrences": [
+          {
+            "book": "1PE",
+            "chapter": 1,
+            "verse": 15,
+            "sv2026_excerpt": "…t heilig is,   zo word ook u zelf heilig in al uw wandel,",
+            "hsv_excerpt": "Maar zoals Hij Die u geroepen heeft, heilig is,   word zo ook zelf heilig in heel uw levenswandel,",
+            "original_excerpt": "Maer gelijck hy die u geroepen heeft heyligh is,   soo wort oock ghy selve heyligh in al uwen wandel,"
+          },
           {
             "book": "1PE",
             "chapter": 2,
@@ -68,63 +131,64 @@
         ]
       },
       {
-        "pattern_id": "p-0001",
+        "pattern_id": "p-0004",
         "kind": "carryover",
-        "key": "priesterdom",
+        "key": "broederschap",
         "frequency": 2,
         "hsv_alternatives": [
-          "priesterschap",
-          "offers",
-          "welgevallig",
-          "eigendom",
-          "god",
-          "maakte"
+          "ere",
+          "houd",
+          "iedereen",
+          "bied",
+          "opgelegd",
+          "weerstand",
+          "wetenschap"
         ],
         "severity_hint": "soft",
         "occurrences": [
           {
             "book": "1PE",
             "chapter": 2,
-            "verse": 5,
-            "sv2026_excerpt": "…bouwd tot   een geestelijk huis, tot   een heilig Priesterdom,   om   geestelijke offeranden op te o…",
-            "hsv_excerpt": "dan wordt u ook zelf, als levende stenen, gebouwd tot   een geestelijk huis, tot   een heilig priesterschap, om   geeste",
-            "original_excerpt": "Soo wordet ghy oock selve,   als levende steenen,   gebouwt tot   een geestelick huys, tot   een heyligh Priesterdom,   "
+            "verse": 17,
+            "sv2026_excerpt": "    Eer eenieder:   heb   de broederschap lief: vrees God:   eer de Koning.",
+            "hsv_excerpt": "  Houd iedereen in ere;   heb al uw broeders   lief; vrees God;   eer de koning.",
+            "original_excerpt": "    Eert een yegelick:   hebt   de broederschap lief: vreest Godt:   eert den Koningh."
           },
           {
             "book": "1PE",
-            "chapter": 2,
+            "chapter": 5,
             "verse": 9,
-            "sv2026_excerpt": "… u   een uitverkoren geslacht,     een Koninklijk Priesterdom, een heilig volk,   een verkregen volk…",
-            "hsv_excerpt": "  Maar u bent een uitverkoren geslacht,   een koninklijk priesterschap, een heilig volk, een volk dat God Zich tot Zijn ",
-            "original_excerpt": "  Maer   ghy zijt   een uytverkoren geslachte,     een Konincklick Priesterdom, een heyligh volck,   een verkregen volck"
+            "sv2026_excerpt": "…het geloof, en weet dat hetzelfde lijden   aan uw broederschap die in de wereld is,   volbracht word…",
+            "hsv_excerpt": "  Bied weerstand aan hem, vast in het geloof, in de wetenschap dat hetzelfde lijden ook aan al uw broeders   in de werel",
+            "original_excerpt": "  Den welcken wederstaet, vast zijnde in het geloove: wetende dat het selve lijden   aen uw’ broederschap dat in de were"
           }
         ]
       }
     ],
-    "cap-asym": [
+    "fossiel-lidwoord": [
       {
-        "pattern_id": "p-0003",
-        "kind": "cap-asym",
-        "key": "koning",
+        "pattern_id": "p-0005",
+        "kind": "fossiel-lidwoord",
+        "key": "der heerlijkheid",
         "frequency": 2,
         "hsv_alternatives": [],
-        "severity_hint": "soft",
+        "severity_hint": "hard",
         "occurrences": [
           {
             "book": "1PE",
-            "chapter": 2,
-            "verse": 13,
-            "sv2026_excerpt": "…dening  ,   omwille van de Heere: hetzij   aan de Koning, als degene die de hoogste macht heeft:",
-            "hsv_excerpt": "  Onderwerp u dan omwille van de Heere aan alle menselijke orde, hetzij aan de koning, als hoogste machthebber,",
-            "original_excerpt": ""
+            "chapter": 4,
+            "verse": 14,
+            "sv2026_excerpt": "…am van Christus, zo bent u zalig: want   de Geest der heerlijkheid, en   de Geest van God rust op u:…",
+            "hsv_excerpt": "  Als u smaad wordt aangedaan om de Naam van Christus, dan bent u zalig, want de Geest van de heerlijkheid en van God rust op u. Wat hen betreft wordt Hij wel g",
+            "original_excerpt": "  Indien ghy gesmadight wort om den name Christi, soo zijt ghy saligh: want   de Geest der heerlickheyt, ende   de Geest Godts rust op u: wat   haer aengaet,   "
           },
           {
             "book": "1PE",
-            "chapter": 2,
-            "verse": 17,
-            "sv2026_excerpt": "…  heb   de broederschap lief: vrees God:   eer de Koning.",
-            "hsv_excerpt": "  Houd iedereen in ere;   heb al uw broeders   lief; vrees God;   eer de koning.",
-            "original_excerpt": ""
+            "chapter": 5,
+            "verse": 4,
+            "sv2026_excerpt": "…zal zijn,   dan zult u   de onverwelkelijke kroon der heerlijkheid behalen.",
+            "hsv_excerpt": "En als   de Opperherder verschijnt,   zult u de onverwelkbare krans van de heerlijkheid verkrijgen.",
+            "original_excerpt": "Ende als     de Overste Herder verschenen sal zijn,   soo sult ghy   de onverwelckelicke kroone der heerlickheyt behalen."
           }
         ]
       }
