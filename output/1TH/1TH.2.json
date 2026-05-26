@@ -169,6 +169,36 @@
       "generated_at": "2026-05-26T20:36:17.914335Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 19,
+      "original": "$2.Cor. 1.14. Philip. 2.16. ende 4.1.$ Want welcke is <D. stoffe ofte oorsake van hope ende blijdtschap.> onse hope, ofte blijdtschap, ofte <D. heerlicke roem, gelijck het volgende vers verklaert.> kroone des roems? <Namel. beneffens andere gemeynten door my tot Christum bekeert, waer over ick in Christo mach roemen, ende my de eeuwige roem, blijdtschap, ende heerlickheyt van Godt uyt genade sal worden vergolden. Siet 2.Timoth. 4.7.> En zijt ghy die oock niet voor onsen Heere Iesu Christo in sijne toekomste?",
+      "modernized": "$2Kor. 1:14; Fp. 2:16; 4:1$ Want wat is <dat is, stof of oorzaak van hoop en blijdschap.> onze hoop, of blijdschap, of <dat is, heerlijke roem, zoals het volgende vers verklaart.> kroon van roem? <Namelijk, naast andere gemeenten die door mij tot Christus bekeerd zijn, waarover ik in Christus mag roemen, en waarvoor mij de eeuwige roem, blijdschap en heerlijkheid door God uit genade vergolden zal worden. Zie $2Tm. 4:7$.> En bent u dat ook niet voor onze Heere Jezus Christus bij zijn komst?",
+      "source_text": "τίς γὰρ ἡμῶν ἐλπὶς ἢ χαρὰ ἢ στέφανος καυχήσεως; ἢ οὐχὶ καὶ ὑμεῖς, ἔμπροσθεν τοῦ Κυρίου ἡμῶν Ἰησοῦ Χριστοῦ ἐν τῇ αὐτοῦ παρουσίᾳ;",
+      "generated_at": "2026-05-26T20:43:10.238701Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "subject": "komst",
+          "context": "slotzin",
+          "choice": "bij zijn komst",
+          "alternatives": [
+            "in zijn komst"
+          ],
+          "reason": "HSV-spiegel bevestigt dat 'in zijn komst' in modern Nederlands een drempel-archaïsche voorzetselconstructie is voor de parousia."
+        }
+      ]
+    },
+    {
+      "verse_number": 20,
+      "original": "Want ghy zijt onse heerlickheyt ende blijdtschap.",
+      "modernized": "Want u bent onze heerlijkheid en blijdschap.",
+      "source_text": "ὑμεῖς γάρ ἐστε ἡ δόξα ἡμῶν καὶ ἡ χαρά.",
+      "generated_at": "2026-05-26T20:43:25.442272Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
