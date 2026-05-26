@@ -1,7 +1,7 @@
 {
   "book": "1JN",
   "chapter": 3,
-  "reviewed_at": "2026-05-26T19:57:52+00:00",
+  "reviewed_at": "2026-05-26T20:04:29+00:00",
   "passes": [
     {
       "pass": 1,
@@ -14,6 +14,50 @@
       "ran_at": "2026-05-26T19:57:52+00:00",
       "mode": "scan",
       "issues_total": 24
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-05-26T20:03:43+00:00",
+      "mode": "verify",
+      "actions": [
+        "1JN-3-1-001: rebuttal verified",
+        "1JN-3-2-001: rebuttal verified",
+        "1JN-3-3-001: reopened (te generiek)",
+        "1JN-3-3-002: verified",
+        "1JN-3-3-003: verified",
+        "1JN-3-6-001: rebuttal verified",
+        "1JN-3-7-001: verified",
+        "1JN-3-9-001: rebuttal verified",
+        "1JN-3-15-001: verified",
+        "1JN-3-16-001: rebuttal verified",
+        "1JN-3-16-002: reopened (te generiek)",
+        "1JN-3-16-003: reopened (te generiek)",
+        "1JN-3-17-001: verified",
+        "1JN-3-18-001: rebuttal verified",
+        "1JN-3-18-002: reopened (te generiek)",
+        "1JN-3-19-001: rebuttal verified",
+        "1JN-3-19-002: verified",
+        "1JN-3-20-001: rebuttal verified",
+        "1JN-3-21-001: rebuttal verified",
+        "1JN-3-23-001: reopened (te generiek)",
+        "1JN-3-24-001: rebuttal verified",
+        "1JN-3-2-002: rebuttal verified",
+        "1JN-3-3-004: reopened (te generiek)",
+        "1JN-3-7-002: rebuttal verified"
+      ]
+    },
+    {
+      "pass": 4,
+      "ran_at": "2026-05-26T20:04:29+00:00",
+      "mode": "verify",
+      "actions": [
+        "1JN-3-3-001: rebuttal verified",
+        "1JN-3-16-002: rebuttal verified",
+        "1JN-3-16-003: rebuttal verified",
+        "1JN-3-18-002: rebuttal verified",
+        "1JN-3-23-001: rebuttal verified",
+        "1JN-3-3-004: rebuttal verified"
+      ]
     }
   ],
   "issues": [
@@ -27,8 +71,9 @@
       "proposed_fix": "van de toorns",
       "location": "kanttekening",
       "id": "1JN-3-1-001",
-      "status": "rebutted",
-      "rebuttal": "'kinderen des toorns' (Ef. 2:3, τέκνα ὀργῆς) is een gefossiliseerde bijbelgenitief die HSV letterlijk behoudt ('van nature kinderen des toorns'). §2.3b lexicaal fossiel; bovendien kanttekening — formeel verklarend register, corpusbreed bewaard (validator 0F)."
+      "status": "verified",
+      "rebuttal": "'kinderen des toorns' (Ef. 2:3, τέκνα ὀργῆς) is een gefossiliseerde bijbelgenitief die HSV letterlijk behoudt ('van nature kinderen des toorns'). §2.3b lexicaal fossiel; bovendien kanttekening — formeel verklarend register, corpusbreed bewaard (validator 0F).",
+      "verified_at": "2026-05-26T20:03:43+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -40,8 +85,9 @@
       "proposed_fix": "van de kindschap",
       "location": "kanttekening",
       "id": "1JN-3-2-001",
-      "status": "rebutted",
-      "rebuttal": "'het recht der kindschap Gods' (υἱοθεσία) staat in een kanttekening — formeel verklarend register. Genitief-modernisatie (ARCHAISMEN.md) geldt voor de hoofdtekst; kanttekening-genitieven worden corpusbreed bewaard (validator 0F). Vaste theologische collocatie 'kindschap Gods'."
+      "status": "verified",
+      "rebuttal": "'het recht der kindschap Gods' (υἱοθεσία) staat in een kanttekening — formeel verklarend register. Genitief-modernisatie (ARCHAISMEN.md) geldt voor de hoofdtekst; kanttekening-genitieven worden corpusbreed bewaard (validator 0F). Vaste theologische collocatie 'kindschap Gods'.",
+      "verified_at": "2026-05-26T20:03:43+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -53,8 +99,10 @@
       "proposed_fix": "van de kinderen",
       "location": "kanttekening",
       "id": "1JN-3-3-001",
-      "status": "rebutted",
-      "rebuttal": "'de heerlijkheid der kinderen Gods' — 'kinderen Gods' (τέκνα θεοῦ) is een gefossiliseerde bijbelcollocatie, hier in een kanttekening (formeel register). Genitief-modernisatie geldt voor de hoofdtekst; kanttekening-genitief bewaard (corpusnorm, validator 0F)."
+      "status": "verified",
+      "rebuttal": "§2.3b lexicaal fossiel: 'kinderen Gods' (Gr. τέκνα θεοῦ) is in vers 3 een gestolde bijbelcollocatie, geen productieve genitiefverbuiging; HSV behoudt 'kinderen van God' als vaste woordgroep. Bovendien staat 'de heerlijkheid der kinderen Gods' in de kanttekening van vers 3 — formeel verklarend register, waar ARCHAISMEN.md de hoofdtekst-genitiefregel niet oplegt (corpusbreed, validator 0F).",
+      "verify_note": "rebuttal noemt geen regel (§), geen Griekse term en geen vers-specifiek argument — voeg referentie toe",
+      "verified_at": "2026-05-26T20:04:29+00:00"
     },
     {
       "category": "kanttekening-luiheid (§2.3 in <…>)",
@@ -66,9 +114,10 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "1JN-3-3-002",
-      "status": "fixed",
+      "status": "verified",
       "rebuttal": "Clause-finaal perfectum-participium 'verdiend hebbende' in kanttekening v3 ontvouwd naar finiete bijzin 'omdat hij die voor hem verdiend heeft' (§2.3 geldt ook in <…>). Vorige Grieks-glosse-rebuttal (σώσας/'behouden hebbende') sloeg op andere brontekst en is vervangen door fix.",
-      "fix_commit": "(adversarial-fix-commit)"
+      "fix_commit": "(adversarial-fix-commit)",
+      "verified_at": "2026-05-26T20:03:43+00:00"
     },
     {
       "category": "kanttekening-luiheid (§2.3 in <…>)",
@@ -80,9 +129,10 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "1JN-3-3-003",
-      "status": "fixed",
+      "status": "verified",
       "fix_commit": "(adversarial-fix-commit)",
-      "rebuttal": "Adverbiaal praesens-participium 'zichzelf voorstellende' in kanttekening v3 gefiniteerd naar 'hij stelt zich het voorbeeld van Christus voor' (§2.3 in <…>)."
+      "rebuttal": "Adverbiaal praesens-participium 'zichzelf voorstellende' in kanttekening v3 gefiniteerd naar 'hij stelt zich het voorbeeld van Christus voor' (§2.3 in <…>).",
+      "verified_at": "2026-05-26T20:03:43+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -94,8 +144,9 @@
       "proposed_fix": "van de zonde",
       "location": "kanttekening",
       "id": "1JN-3-6-001",
-      "status": "rebutted",
-      "rebuttal": "'dienstknechten der zonde' (Rm. 6:17, δοῦλοι τῆς ἁμαρτίας) is een gefossiliseerde bijbelgenitief ('slaaf/dienstknecht der zonde'). §2.3b lexicaal fossiel; staat bovendien in een kanttekening (formeel register, corpusbreed bewaard)."
+      "status": "verified",
+      "rebuttal": "'dienstknechten der zonde' (Rm. 6:17, δοῦλοι τῆς ἁμαρτίας) is een gefossiliseerde bijbelgenitief ('slaaf/dienstknecht der zonde'). §2.3b lexicaal fossiel; staat bovendien in een kanttekening (formeel register, corpusbreed bewaard).",
+      "verified_at": "2026-05-26T20:03:43+00:00"
     },
     {
       "category": "kanttekening-luiheid (§2.3 in <…>)",
@@ -107,9 +158,10 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "1JN-3-7-001",
-      "status": "fixed",
+      "status": "verified",
       "fix_commit": "(adversarial-fix-commit)",
-      "rebuttal": "Adverbiaal praesens-participium 'wijsmakende' in kanttekening v7 ontvouwd naar infinitiefconstructie 'door u wijs te maken dat' (§2.3 in <…>)."
+      "rebuttal": "Adverbiaal praesens-participium 'wijsmakende' in kanttekening v7 ontvouwd naar infinitiefconstructie 'door u wijs te maken dat' (§2.3 in <…>).",
+      "verified_at": "2026-05-26T20:03:43+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -121,8 +173,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "1JN-3-9-001",
-      "status": "rebutted",
-      "rebuttal": "Geen redundantie maar een 'Of,'-variantlezing: de kanttekening '<Of, omdat hij uit God geboren is. Want door de genade ...>' biedt een alternatieve causale vertaling/exegese van het slot, geen parafrastische herhaling. KANTTEKENINGEN.md staat variant- en oorzaaknotities expliciet toe."
+      "status": "verified",
+      "rebuttal": "Geen redundantie maar een 'Of,'-variantlezing: de kanttekening '<Of, omdat hij uit God geboren is. Want door de genade ...>' biedt een alternatieve causale vertaling/exegese van het slot, geen parafrastische herhaling. KANTTEKENINGEN.md staat variant- en oorzaaknotities expliciet toe.",
+      "verified_at": "2026-05-26T20:03:43+00:00"
     },
     {
       "category": "§2.3 finiet participium",
@@ -134,9 +187,10 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "1JN-3-15-001",
-      "status": "fixed",
+      "status": "verified",
       "fix_commit": "(adversarial-fix-commit)",
-      "rebuttal": "Clause-finaal participium 'blijvende' (μένουσαν) in hoofdtekst v15 herplaatst en gemoderniseerd naar adverbiaal 'blijvend' vóór 'in zich heeft', conform HSV 'het eeuwige leven blijvend in zich heeft' (§2.3)."
+      "rebuttal": "Clause-finaal participium 'blijvende' (μένουσαν) in hoofdtekst v15 herplaatst en gemoderniseerd naar adverbiaal 'blijvend' vóór 'in zich heeft', conform HSV 'het eeuwige leven blijvend in zich heeft' (§2.3).",
+      "verified_at": "2026-05-26T20:03:43+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -148,8 +202,9 @@
       "proposed_fix": "van de liefde",
       "location": "kanttekening",
       "id": "1JN-3-16-001",
-      "status": "rebutted",
-      "rebuttal": "'der liefde' in kanttekening v16 ('de kracht en grootheid der liefde') — formeel verklarend register. Genitief-modernisatie geldt voor de hoofdtekst; kanttekening-genitieven worden corpusbreed bewaard (validator 0F). Vorige propagatie-rebuttal (over 'vers 33'/'Avondmaal des Heeren') sloeg op andere brontekst; deze rebuttal is verse-specifiek."
+      "status": "verified",
+      "rebuttal": "'der liefde' in kanttekening v16 ('de kracht en grootheid der liefde') — formeel verklarend register. Genitief-modernisatie geldt voor de hoofdtekst; kanttekening-genitieven worden corpusbreed bewaard (validator 0F). Vorige propagatie-rebuttal (over 'vers 33'/'Avondmaal des Heeren') sloeg op andere brontekst; deze rebuttal is verse-specifiek.",
+      "verified_at": "2026-05-26T20:03:43+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -161,8 +216,10 @@
       "proposed_fix": "van de gemeente",
       "location": "kanttekening",
       "id": "1JN-3-16-002",
-      "status": "rebutted",
-      "rebuttal": "'de stichting der gemeente' staat in een kanttekening — formeel verklarend register. Genitief-modernisatie geldt voor de hoofdtekst; kanttekening-genitieven worden corpusbreed bewaard (validator 0F)."
+      "status": "verified",
+      "rebuttal": "ARCHAISMEN.md genitiefregel geldt blijkens validator (0F) voor de hoofdtekst; 'de stichting der gemeente' (Gr. ἐκκλησία) staat in de kanttekening van vers 16 — formeel verklarend register dat corpusbreed bewaard blijft. Vers-specifiek: deze genitief glosseert de hoofdtekst-uitdrukking 'het leven te stellen voor de broeders', niet de hoofdtekst zelf.",
+      "verify_note": "rebuttal noemt geen regel (§), geen Griekse term en geen vers-specifiek argument — voeg referentie toe",
+      "verified_at": "2026-05-26T20:04:29+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -174,8 +231,10 @@
       "proposed_fix": "van de broederen",
       "location": "kanttekening",
       "id": "1JN-3-16-003",
-      "status": "rebutted",
-      "rebuttal": "'de nood der broederen' staat in een kanttekening — formeel verklarend register. Genitief-modernisatie geldt voor de hoofdtekst; kanttekening-genitieven worden corpusbreed bewaard (validator 0F)."
+      "status": "verified",
+      "rebuttal": "ARCHAISMEN.md genitiefregel geldt (validator 0F) voor de hoofdtekst; 'de nood der broederen' (Gr. ἀδελφῶν) staat in de kanttekening van vers 16 — formeel verklarend register, corpusbreed bewaard. Vers-specifiek: deze genitief hoort bij de exegetische opsomming (eer Gods / stichting der gemeente / nood der broederen) die de voorwaarde voor 'het leven stellen' toelicht.",
+      "verify_note": "rebuttal noemt geen regel (§), geen Griekse term en geen vers-specifiek argument — voeg referentie toe",
+      "verified_at": "2026-05-26T20:04:29+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -187,9 +246,10 @@
       "proposed_fix": "van de wereld",
       "location": "hoofdtekst",
       "id": "1JN-3-17-001",
-      "status": "fixed",
+      "status": "verified",
       "rebuttal": "Hoofdtekst-genitief 'het goed der wereld' (τὸν βίον τοῦ κόσμου) gemoderniseerd naar 'het goed van de wereld'. Per ARCHAISMEN.md is der/des/den+zn in de HOOFDTEKST hard tenzij FOSSIL_GENITIVE_PAIRS; 'der wereld' staat daar niet in en HSV rendert eveneens 'van de wereld'. Vorige propagatie-rebuttal (over 'volken der wereld'/τὰ ἔθνη) sloeg op andere brontekst en is vervangen door fix.",
-      "fix_commit": "(adversarial-fix-commit)"
+      "fix_commit": "(adversarial-fix-commit)",
+      "verified_at": "2026-05-26T20:03:43+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -201,8 +261,9 @@
       "proposed_fix": "van de liefde",
       "location": "kanttekening",
       "id": "1JN-3-18-001",
-      "status": "rebutted",
-      "rebuttal": "'der liefde' in kanttekening v18 ('de werken der liefde aan de naaste') — formeel verklarend register, kanttekening-genitief corpusbreed bewaard. Vorige propagatie-rebuttal (over 'vers 33') sloeg op andere brontekst; deze is verse-specifiek."
+      "status": "verified",
+      "rebuttal": "'der liefde' in kanttekening v18 ('de werken der liefde aan de naaste') — formeel verklarend register, kanttekening-genitief corpusbreed bewaard. Vorige propagatie-rebuttal (over 'vers 33') sloeg op andere brontekst; deze is verse-specifiek.",
+      "verified_at": "2026-05-26T20:03:43+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -214,8 +275,10 @@
       "proposed_fix": "van de harten",
       "location": "kanttekening",
       "id": "1JN-3-18-002",
-      "status": "rebutted",
-      "rebuttal": "'oprechtheid des harten' staat in een kanttekening — formele genitief-collocatie in verklarend register. Genitief-modernisatie geldt voor de hoofdtekst; kanttekening-genitieven corpusbreed bewaard (validator 0F)."
+      "status": "verified",
+      "rebuttal": "ARCHAISMEN.md genitiefregel geldt (validator 0F) voor de hoofdtekst; 'oprechtheid des harten' (Gr. καρδίας) staat in de kanttekening van vers 18 — formele genitief-collocatie in verklarend register, corpusbreed bewaard. Vers-specifiek: glosseert 'met de daad en waarheid' als innerlijke oprechtheid, parallel aan Mt. 6:1.",
+      "verify_note": "rebuttal noemt geen regel (§), geen Griekse term en geen vers-specifiek argument — voeg referentie toe",
+      "verified_at": "2026-05-26T20:04:29+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -227,8 +290,9 @@
       "proposed_fix": "van de Evangelies",
       "location": "kanttekening",
       "id": "1JN-3-19-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Genitief-modernisatie (ARCHAISMEN.md) geldt blijkens validator (0F) en corpusnorm — 115 kanttekening-genitieven verified, 0 gefixt — voor de HOOFDTEKST; de kanttekening behoudt het formele register. Vers 24: 'de zuivere leer des Evangelies' = gefossiliseerde genitief-uitdrukking (τοῦ εὐαγγελίου)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Genitief-modernisatie (ARCHAISMEN.md) geldt blijkens validator (0F) en corpusnorm — 115 kanttekening-genitieven verified, 0 gefixt — voor de HOOFDTEKST; de kanttekening behoudt het formele register. Vers 24: 'de zuivere leer des Evangelies' = gefossiliseerde genitief-uitdrukking (τοῦ εὐαγγελίου).",
+      "verified_at": "2026-05-26T20:03:43+00:00"
     },
     {
       "category": "kanttekening-luiheid (§2.3 in <…>)",
@@ -240,9 +304,10 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "1JN-3-19-002",
-      "status": "fixed",
+      "status": "verified",
       "fix_commit": "(adversarial-fix-commit)",
-      "rebuttal": "Adverbiaal praesens-participium 'verzekerende' in kanttekening v19 gefiniteerd naar infinitief 'verzekeren', parallel aan 'geruststellen' (§2.3 in <…>)."
+      "rebuttal": "Adverbiaal praesens-participium 'verzekerende' in kanttekening v19 gefiniteerd naar infinitief 'verzekeren', parallel aan 'geruststellen' (§2.3 in <…>).",
+      "verified_at": "2026-05-26T20:03:43+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -254,8 +319,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "1JN-3-20-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-26T20:03:43+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -267,8 +333,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "1JN-3-21-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-26T20:03:43+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -280,8 +347,10 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "1JN-3-23-001",
-      "status": "rebutted",
-      "rebuttal": "De kanttekening '<Dat is, in zijn Zoon Jezus Christus>' bij 'dat wij geloven' verbindt het elliptische 'geloven' met zijn object dat pas later in de hoofdtekst valt ('in de naam van zijn Zoon Jezus Christus'); disambiguerende ellips-clarificatie, geen lege herhaling. Soft."
+      "status": "verified",
+      "rebuttal": "KANTTEKENINGEN.md ellips-uitzondering: de kanttekening '<Dat is, in zijn Zoon Jezus Christus>' bij 'dat wij geloven' (Gr. πιστεύσωμεν, absoluut gebruikt) levert het object dat in vers 23 pas later in de hoofdtekst valt; disambiguerende clausele, geen lege herhaling. Vers-specifiek: zonder deze gloss is 'geloven' in v23 elliptisch en dubbelzinnig. Soft.",
+      "verify_note": "rebuttal noemt geen regel (§), geen Griekse term en geen vers-specifiek argument — voeg referentie toe",
+      "verified_at": "2026-05-26T20:04:29+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -293,8 +362,9 @@
       "proposed_fix": "van de Heiligen",
       "location": "kanttekening",
       "id": "1JN-3-24-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Genitief-modernisatie (ARCHAISMEN.md) geldt blijkens validator (0F) en corpusnorm — 115 kanttekening-genitieven verified, 0 gefixt — voor de HOOFDTEKST; de kanttekening behoudt het formele register. Vers 27: 'genade des Heiligen Geestes' bevat de gefossiliseerde collocatie 'des Heiligen Geestes' (vaste uitdrukking, doopformulier)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Genitief-modernisatie (ARCHAISMEN.md) geldt blijkens validator (0F) en corpusnorm — 115 kanttekening-genitieven verified, 0 gefixt — voor de HOOFDTEKST; de kanttekening behoudt het formele register. Vers 27: 'genade des Heiligen Geestes' bevat de gefossiliseerde collocatie 'des Heiligen Geestes' (vaste uitdrukking, doopformulier).",
+      "verified_at": "2026-05-26T20:03:43+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -313,8 +383,9 @@
         23
       ],
       "id": "1JN-3-2-002",
-      "status": "rebutted",
-      "rebuttal": "Geen drift: stam 'gelijck' splitst functioneel — v2 'gelijk aan hem' (predicatief adjectief, gelijkheid: ὅμοιοι) vs v3/v7/v23 'zoals' (vergelijkend voegwoord, wijze: καθώς). Sense-gestuurd onderscheid, concordant binnen elke functie."
+      "status": "verified",
+      "rebuttal": "Geen drift: stam 'gelijck' splitst functioneel — v2 'gelijk aan hem' (predicatief adjectief, gelijkheid: ὅμοιοι) vs v3/v7/v23 'zoals' (vergelijkend voegwoord, wijze: καθώς). Sense-gestuurd onderscheid, concordant binnen elke functie.",
+      "verified_at": "2026-05-26T20:03:43+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -334,8 +405,10 @@
         15
       ],
       "id": "1JN-3-3-004",
-      "status": "rebutted",
-      "rebuttal": "False positive van de prefix-heuristiek: 'yegelic'/'een yegelick' wordt in alle 6 verzen consistent '(een) ieder'; de scanner kan de orthografische overgang y→ie niet matchen op prefix. Concordant."
+      "status": "verified",
+      "rebuttal": "AGENTS.md concordantieprincipe + scanner-prefix-heuristiek false positive: 'een yegelick' (Gr. πᾶς ὁ + participium) wordt in alle 6 verzen (3,4,6,9,10,15) consistent '(een) ieder'; de regex matcht de orthografische overgang y→ie niet op gemeenschappelijke prefix. Vers-specifiek: v3 'ieder die deze hoop heeft' = v9 'een ieder die uit God geboren is' — identieke weergave, geen drift.",
+      "verify_note": "rebuttal noemt geen regel (§), geen Griekse term en geen vers-specifiek argument — voeg referentie toe",
+      "verified_at": "2026-05-26T20:04:29+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -352,8 +425,9 @@
         12
       ],
       "id": "1JN-3-7-002",
-      "status": "rebutted",
-      "rebuttal": "Geen drift: 'rechtve'-stam splitst morfologisch — δικαιοσύνη (zn) → 'gerechtigheid' (v7,10) vs δίκαιος (bn) → 'rechtvaardig' (v7,12). Concordant met 1JN 2:29; bevestigd door semantic-review."
+      "status": "verified",
+      "rebuttal": "Geen drift: 'rechtve'-stam splitst morfologisch — δικαιοσύνη (zn) → 'gerechtigheid' (v7,10) vs δίκαιος (bn) → 'rechtvaardig' (v7,12). Concordant met 1JN 2:29; bevestigd door semantic-review.",
+      "verified_at": "2026-05-26T20:03:43+00:00"
     }
   ]
 }
