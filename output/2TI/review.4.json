@@ -1,0 +1,37 @@
+{
+  "book": "2TI",
+  "chapter": 4,
+  "reviewed_at": "2026-05-26T18:19:47+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-26T18:19:42+00:00",
+      "mode": "scan",
+      "issues_total": 1
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-26T18:19:47+00:00",
+      "mode": "verify",
+      "actions": [
+        "2TI-4-2-001: rebuttal verified"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 2,
+      "severity": "soft",
+      "quote_modernized": "…weerleg,   bestraf,   vermaan   in alle lankmoedigheid en   leer.",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'lankmoedigheid' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "2TI-4-2-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'lankmoedigheid' (μακροθυμία) is theologische deugd-term: concordant met Gal. 5:22 (vrucht van de Geest) en 1Kor. 13:4 ('liefde is lankmoedig'). Corpus-wide gebruikt in 3 verzen (SVm2026); HSV kiest 'geduld' als 4c-register-shift, geen 4a/4b-correctie. SV-conforme weergave handhaaft concordantie. MODERNISATIE.md §2.7 productiviteitstest geldt minder strikt voor theologische vaktermen die in liturgisch/dogmatisch modern NL gangbaar blijven.",
+      "verified_at": "2026-05-26T18:19:47+00:00"
+    }
+  ]
+}
