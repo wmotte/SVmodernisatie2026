@@ -1,0 +1,81 @@
+{
+  "book": "1TI",
+  "chapter": 4,
+  "reviewed_at": "2026-05-26T15:31:39+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-26T15:30:40+00:00",
+      "mode": "scan",
+      "issues_total": 4
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-26T15:31:39+00:00",
+      "mode": "verify",
+      "actions": [
+        "1TI-4-1-001: rebuttal verified",
+        "1TI-4-4-001: rebuttal verified",
+        "1TI-4-8-001: verified",
+        "1TI-4-12-001: rebuttal verified"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "category": "§2.3b bijwoord-coda",
+      "verse": 1,
+      "severity": "soft",
+      "quote_modernized": "  Maar   de Geest zegt duidelijk, dat   in de laatste tijden so…",
+      "rule_reference": "MODERNISATIE.md §2.3b",
+      "explanation": "'duidelijk,' aan zinseind — verifieer of dit bijwoord niet als coda achteraf is blijven hangen ('wandelende … onberispelick' → 'wandelden onberispelijk in …').",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "1TI-4-1-001",
+      "status": "verified",
+      "rebuttal": "In 1TI 4:1 is 'duidelijk' een normaal bijwoord bij het finiete werkwoord 'zegt' (φανερῶς λέγει), niet een achteraf geplaatste bijwoord-coda zonder werkwoord. MODERNISATIE.md §2.3b raakt participium-/coda-constructies zoals 'wandelende ... onberispelijk', niet deze werkwoordgroep.",
+      "verified_at": "2026-05-26T15:31:39+00:00"
+    },
+    {
+      "category": "§2.3b bijwoord-coda",
+      "verse": 4,
+      "severity": "soft",
+      "quote_modernized": "…epsel van God is goed, en er is   niets verwerpelijk, wanneer het met dankzeggin…",
+      "rule_reference": "MODERNISATIE.md §2.3b",
+      "explanation": "'verwerpelijk,' aan zinseind — verifieer of dit bijwoord niet als coda achteraf is blijven hangen ('wandelende … onberispelick' → 'wandelden onberispelijk in …').",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "1TI-4-4-001",
+      "status": "verified",
+      "rebuttal": "In 1TI 4:4 is 'verwerpelijk' een predicatief adjectief bij 'niets' binnen de constructie 'er is niets verwerpelijk', parallel aan Grieks ἀπόβλητον. MODERNISATIE.md §2.3b over bijwoord-coda's is daarom niet van toepassing.",
+      "verified_at": "2026-05-26T15:31:39+00:00"
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 8,
+      "severity": "soft",
+      "quote_modernized": "maar de godzaligheid is",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'maar de godzaligheid is' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "1TI-4-8-001",
+      "status": "verified",
+      "verified_at": "2026-05-26T15:31:39+00:00"
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 12,
+      "severity": "soft",
+      "quote_modernized": "… uw jeugd met reden zou kunnen verachten; welke betekenis de volgende woorden ve…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "1TI-4-12-001",
+      "status": "verified",
+      "rebuttal": "In 1TI 4:12 staat 'welke betekenis' in een kanttekening als terugwijzing naar de voorafgaande uitlegzin; het is hier een aanwijzend-bepalende verbinding bij 'betekenis', geen los SV-relativum in de hoofdtekst. ARCHAISMEN.md raakt formele relatiefconstructies waar modern 'die/dat' natuurlijker is.",
+      "verified_at": "2026-05-26T15:31:39+00:00"
+    }
+  ]
+}
