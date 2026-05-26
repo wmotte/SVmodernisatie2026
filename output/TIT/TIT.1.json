@@ -46,6 +46,46 @@
       "generated_at": "2026-05-26T04:22:23.358940Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 4,
+      "original": "$Ephes. 1.2. Coloss. 1.2. 2.Timoth. 1.2. 1.Petr. 1.2.$ Genade, barmhertigheyt, vrede, zy [u] van Godt den Vader, ende den Heere Iesu Christo, onsen Salighmaker.",
+      "modernized": "$Ef. 1:2; Ko. 1:2; 2Tm. 1:2; 1Pt. 1:2$ Genade, barmhartigheid, vrede, zij [u] van God de Vader, en de Heere Jezus Christus, onze Zaligmaker.",
+      "source_text": "χάρις, ἔλεος, εἰρήνη ἀπὸ Θεοῦ Πατρός, καὶ Κυρίου Ἰησοῦ Χριστοῦ τοῦ σωτῆρος ἡμῶν.",
+      "generated_at": "2026-05-26T04:28:33.387771Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 5,
+      "original": "Om die oorsake hebbe ick u in <Dit is een eylant in de middelantsche zee, nu genaemt Candia. siet van dit eylant Actor. 2.11. ende 27.7, 12. Is een groot eylant, hebbende eertijts gehadt hondert steden.> Creta gelaten, op dat ghy <Gr. het gene noch gelaten is, namelick, ongedaen.> het gene dat [noch] ontbrack voorts soudet <Niet het gene qualick gedaen was verbeteren, gelijck sommige uytleggen, maer voorts vervullen dat tot stichtinge der gemeynte noodigh noch overgebleven is te versorgen.> te rechte brengen, $2.Timoth. 2.2.$ ende [dat] ghy van stadt tot stadt soudet <Namelick, die in het woort arbeyden, dat is, Leeraers, 1.Tim. 5.17. die vers 7. oock Bisschoppen, ofte, Opsienders genaemt worden: waer uyt blijckt dat door Ouderlingen ende Opsienders hier eenerley bedieninge beteeckent wort. siet Actor. 20.17, 28. Phil. 1.1. 1.Tim. 5.17. 1.Petr. 5. versen 1, 2.> Ouderlingen stellen, <D. niet uyt uwe eygene autoriteyt ende goetvinden alleen, maer na de orden die ick u voorgeschreven ende selve gehouden hebbe. Siet van dese orden Actor. 14.23 1.Tim. 4.14.> gelijck ick u <Gr. verordineert hebbe.> bevolen hebbe:",
+      "modernized": "Om die reden heb ik u op <Dit is een eiland in de Middellandse Zee, nu Candia genoemd. Zie van dit eiland $Hd. 2:11; 27:7,12$ Het is een groot eiland, dat vroeger honderd steden gehad heeft.> Kreta gelaten, opdat u <Grieks: dat wat nog gelaten is, namelijk, ongedaan.> wat [nog] ontbrak verder zou <Niet hetgeen verkeerd gedaan was verbeteren, zoals sommigen uitleggen, maar verder vervullen wat tot stichting van de gemeente nodig nog overgebleven is te verzorgen.> in orde brengen, $2Tm. 2:2$ en [dat] u van stad tot stad zou <Namelijk, die in het woord arbeiden, dat is, Leraars, $1Tm. 5:17$, die in vers 7 ook Bisschoppen, of Opzieners genoemd worden: waaruit blijkt dat door Ouderlingen en Opzieners hier een en dezelfde bediening bedoeld wordt. Zie $Hd. 20:17,28; Fp. 1:1; 1Tm. 5:17; 1Pt. 5:1,2$.> Ouderlingen aanstellen, <Dat is, niet uit uw eigen autoriteit en goeddunken alleen, maar naar de orde die ik u voorgeschreven en zelf gehouden heb. Zie van deze orde $Hd. 14:23; 1Tm. 4:14$.> zoals ik u <Grieks: opgedragen heb.> bevolen heb:",
+      "source_text": "Τούτου χάριν κατέλιπόν σε ἐν Κρήτῃ, ἵνα τὰ λείποντα ἐπιδιορθώσῃ, καὶ καταστήσῃς κατὰ πόλιν πρεσβυτέρους, ὡς ἐγώ σοι διεταξάμην·",
+      "generated_at": "2026-05-26T04:30:03.552066Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "subject": "Grieks: διεταξάμην",
+          "context": "laatste kanttekening",
+          "choice": "opgedragen heb",
+          "alternatives": [
+            "geordend heb",
+            "verordend heb"
+          ],
+          "reason": "HSV-spiegel en Grieks/SV-context bevestigen de betekenis 'opdragen/bevelen'; 'geordend heb' schuift in modern Nederlands naar rangschikken."
+        }
+      ]
+    },
+    {
+      "verse_number": 6,
+      "original": "$1.Tim. 3.2.$ Indien yemant <Gr. onbeschuldelick, onbestraflick. Siet 1.Tim. 3.10.> onberispelick is, <Siet hier van de aenteeck. op 1.Tim. 3.2.> eener vrouwen man, geloovige kinderen hebbende, die niet te beschuldigen en zijn van overdadigheyt, ofte ongehoorsaem en zijn.",
+      "modernized": "$1Tm. 3:2$ Indien iemand <Grieks: onbeschuldigbaar, onbestraffelijk. Zie $1Tm. 3:10$.> onberispelijk is, <Zie hiervan de aantekening op $1Tm. 3:2$.> de man van één vrouw, die gelovige kinderen heeft, die niet te beschuldigen zijn van losbandigheid, of ongehoorzaam zijn.",
+      "source_text": "εἴ τίς ἐστιν ἀνέγκλητος, μιᾶς γυναικὸς ἀνήρ, τέκνα ἔχων πιστά, μὴ ἐν κατηγορίᾳ ἀσωτίας ἢ ἀνυπότακτα.",
+      "generated_at": "2026-05-26T04:30:31.317416Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
