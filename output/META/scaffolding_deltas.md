@@ -1,52 +1,45 @@
-# Scaffolding-deltas — meta-review 1PE hoofdstukken 1-4
+# Scaffolding-deltas — meta-review 1PE hoofdstukken 1-5
 
-Gegenereerd: 2026-05-26T05:37:51Z
-Aggregator: scripts/meta_diff_aggregate.py --book 1PE --chapters 1-4 --min-freq 2
-
-Let op: 1PE 1 heeft (nog) geen `docs/diff_hsv_1PE_1.json`; de aggregator sloeg
-dat hoofdstuk over. De bucket-C-delta `wandel` is desondanks systemisch:
-naast de 4 gevlagde occurrences in ch2/ch3 staan er nog 4 in ch1
-(1:14, 1:15, 1:17, 1:18), waarvan twee imperatief-werkwoord ('wandel niet',
-'wandel dan') — die worden door de exacte-woord-match ook soft-geflagd; dat is
-aanvaardbare ruis (soft severity, reviewer arbitreert: ww. of zn.).
+Gegenereerd: 2026-05-26
+Aggregator: scripts/meta_diff_aggregate.py --book 1PE --chapters 1-5 --min-freq 2
+(supersedeert de eerdere ch1-4-run; alle 5 diffs vers geregenereerd)
 
 ## Auto-toegepaste deltas (bucket C)
 
-| Pattern | Kind | Freq | Target | Wijziging | Bewijs |
-|---|---|---|---|---|---|
-| `wandel` (zelfst. = levenswijze) | carryover | 4 (+4 in ch1) | `ARCHAISMEN.md` tabel + `DREMPEL_ARCHAISMEN` (scripts/rules_data.py) | toegevoegd als soft drempel-archaisme; modern alt. 'levenswandel/leven/gedrag' | 1PE 2:12, 3:1, 3:2, 3:16 |
-
-§2.7-toets `wandel`:
-1. Productiviteit: standalone 'wandel' (= gedrag) komt niet voor in modern zakelijk NL; 'levenswandel' wel.
-2. Constructie: 'houd uw levenswandel eerbaar' werkt modern.
-3. Verwarring: 'wandel' leest modern primair als 'wandeling/stroll' -> verwarrend. HSV consequent 'levenswandel'. Slaagt -> toepassen.
-
-Match-veiligheid: `\bwandel\b` op lowercased tekst raakt NIET 'levenswandel'
-(geen \b vóór 'w'), 'wandelen'/'wandeling'/'wandelende' (geen \b na 'l').
-Geverifieerd tegen output/1PE/*.json: geen negatieve treffers.
+Geen nieuwe. Het enige carryover-patroon met freq≥3 (`wandel`, freq 5)
+staat al in `DREMPEL_ARCHAISMEN` (scripts/rules_data.py:327) én
+`ARCHAISMEN.md` — toegevoegd door de eerdere ch1-4-meta-review. De
+scaffolding is dus compleet; alleen de content laggt (zie bucket B).
 
 ## Afgewezen deltas (rejected, §2.7-toets niet gehaald)
 
-| Pattern | Kind | Reden afwijzing |
-|---|---|---|
-| (geen) | | |
+Geen.
 
 ## Noise (bucket A — HSV-keuze, geen actie)
 
-| Kind | Aantal | Voorbeelden |
-|---|---|---|
-| (geen pure noise; cap-asym 'koning' geherclassificeerd naar bucket B, zie hieronder) | | |
+| Kind | Key | Freq | Reden |
+|---|---|---|---|
+| carryover | `broederschap` | 2 | `broederschap` (Gr. ἀδελφότης) is modern NL, geen archaïsme; HSV `broeders` is exegetische explicitering. Reeds 4c afgehandeld in semantic-review 1PE 5:9. |
+| cap-asym | `engelen` | 2 | SV2026 `Engelen` (1:12, 3:22) behoudt SV1657-kapitaal; HSV-kleinletter is HSV-keuze. Regel verbiedt enkel TOEGEVOEGDE caps. |
+| cap-asym | `koning` | 2 | `Koning` (2:13, 2:17, AARDSE vorst = Romeinse keizer) behoudt SV1657 `Koningh`-kapitaal. Géén eerbiedskapitaal-fout — zie feedback_sv_cap_preservation_vs_eerbied: lowercasing zou validator 0F→F breken. **Correctie t.o.v. ch1-4-meta-review**, die `Koning` ten onrechte als bucket B markeerde; die fix is terecht nooit toegepast. |
+| fossiel-lidwoord | `der heerlijkheid` | 2 | `Geest der heerlijkheid` (4:14, πνεῦμα τῆς δόξης) en `kroon der heerlijkheid` (5:4, τῆς δόξης στέφανον) zijn gefossiliseerde bijbelgenitieven (FOSSIL_GENITIVE_PAIRS; validator 0F). Reeds rebutted-verified in adversarial review 1PE 5. |
 
-## Bucket B — per-vers fixes (findings_1PE.json)
+## Status eerdere bucket-B (ch1-4-meta-review)
 
-- `priesterdom` -> `priesterschap` (carryover, freq=2): 1PE 2:5, 2:9.
-- `Koning` -> `koning` (cap-asym, eerbiedskapitaal op AARDSE vorst — kanttekening
-  2:13 noemt 'de Romeinse Keizer'): 1PE 2:13, 2:17. Geen HSV-stijlruis maar
-  een inhoudelijke eerbiedskapitaal-fout (zie AGENTS.md / feedback_eerbiedskapitaal_validator);
-  daarom bucket B i.p.v. de cap-asym-default (A).
+- `priesterdom`→`Priesterschap` (2:5, 2:9): **voltooid** (commit 792e051), geverifieerd in huidige output.
+- `Koning`→`koning` (2:13, 2:17): **vervalt** — herclassificeerd naar bucket A (zie boven).
+
+## Bucket B — per-vers fixes (findings.json)
+
+`wandel` (zelfst. = levenswijze) → `levenswandel`, HSV-consequent. Regel
+bestaat al; content-fix uit de ch1-4-meta-review is nooit voltooid.
+5 occurrences: 1:15, 2:12, 3:1, 3:2, 3:16.
+
+Buiten scope (werkwoord-imperatief `wandel`, geen zelfst.naamwoord-archaïsme):
+1:14 (kanttekening `wandel niet`), 1:17 (hoofdtekst `wandel dan in vrees`).
 
 ## Bucket-overzicht
 
-- B (per-vers fixes): 4 issues over 1 hoofdstuk (1PE 2) — zie `findings_1PE.json`
-- C (scaffolding-deltas): 1 toegepast, 0 afgewezen
-- A (noise): 0
+- B (per-vers fixes): 5 issues over 3 hoofdstukken (1:15, 2:12, 3:1, 3:2, 3:16) — zie `findings.json`
+- C (scaffolding-deltas): 0 nieuw (regel `wandel` bestond al)
+- A (noise): 4 patterns
