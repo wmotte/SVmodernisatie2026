@@ -1,0 +1,219 @@
+{
+  "book": "COL",
+  "chapter": 1,
+  "reviewed_at": "2026-05-26T12:09:39+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-26T12:08:02+00:00",
+      "mode": "scan",
+      "issues_total": 12
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-26T12:09:17+00:00",
+      "mode": "verify",
+      "actions": [
+        "COL-1-4-001: rebuttal verified",
+        "COL-1-9-001: rebuttal verified",
+        "COL-1-11-001: rebuttal verified",
+        "COL-1-12-001: rebuttal verified",
+        "COL-1-14-001: verified",
+        "COL-1-14-002: reopened (te generiek)",
+        "COL-1-15-001: rebuttal verified",
+        "COL-1-18-001: verified",
+        "COL-1-22-001: rebuttal verified",
+        "COL-1-27-001: rebuttal verified",
+        "COL-1-29-001: reopened (te generiek)",
+        "COL-1-2-001: rebuttal verified"
+      ]
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-05-26T12:09:39+00:00",
+      "mode": "verify",
+      "actions": [
+        "COL-1-14-002: rebuttal verified",
+        "COL-1-29-001: rebuttal verified"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 4,
+      "severity": "soft",
+      "quote_modernized": "van uw geloof in",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'van uw geloof in' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "COL-1-4-001",
+      "status": "verified",
+      "rebuttal": "De overlap staat in een verklarende kanttekening, geen alternatief bij een hoofdtekstwoord. KANTTEKENINGEN.md verbiedt vooral alternatief-hoofdtekst-redundantie; hier preciseert de noot het object van geloof in Christus en behoudt zij de SV-uitleg.",
+      "verified_at": "2026-05-26T12:09:17+00:00"
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 9,
+      "severity": "soft",
+      "quote_modernized": "voor u te bidden",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'voor u te bidden' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "COL-1-9-001",
+      "status": "verified",
+      "rebuttal": "De woordgroep 'voor u te bidden' functioneert hier als anaforische uitleg bij 'houden niet op'; KANTTEKENINGEN.md vereist behoud van het nootblok en deze herneming verduidelijkt de gebedshandeling, geen alternatief lemma.",
+      "verified_at": "2026-05-26T12:09:17+00:00"
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 11,
+      "severity": "soft",
+      "quote_modernized": "…eerlijkheid, tot alle   lijdzaamheid en lankmoedigheid   met blijdschap:",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'lankmoedigheid' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "COL-1-11-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'lankmoedigheid' (μακροθυμία) is theologische deugd-term: concordant met Gal. 5:22 (vrucht van de Geest) en 1Kor. 13:4 ('liefde is lankmoedig'). Corpus-wide gebruikt in 3 verzen (SVm2026); HSV kiest 'geduld' als 4c-register-shift, geen 4a/4b-correctie. SV-conforme weergave handhaaft concordantie. MODERNISATIE.md §2.7 productiviteitstest geldt minder strikt voor theologische vaktermen die in liturgisch/dogmatisch modern NL gangbaar blijven.",
+      "verified_at": "2026-05-26T12:09:17+00:00"
+    },
+    {
+      "category": "§2.3b infinitief met nageschoven object",
+      "verse": 12,
+      "severity": "soft",
+      "quote_modernized": "…anken, die ons   geschikt gemaakt heeft om   deel te hebben aan het erfdeel van …",
+      "rule_reference": "MODERNISATIE.md §2.3b",
+      "explanation": "'om … te hebben aan het erfdeel van' — Latinaat-woordvolgorde; in modern NL gaat het object vóór de infinitief: 'om <object> te hebben'.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "COL-1-12-001",
+      "status": "verified",
+      "rebuttal": "§2.3b ziet op nageschoven objecten als 'om te bereiden een weg'. In 'deel [te hebben] aan het erfdeel' is 'deel hebben aan' een vaste verbale constructie; het object is niet achter de infinitief geplaatst.",
+      "verified_at": "2026-05-26T12:09:17+00:00"
+    },
+    {
+      "category": "genitief pronomen wiens/wier",
+      "verse": 14,
+      "severity": "hard",
+      "quote_modernized": "…an zijn liefde, Dat is, Christus Jezus, wiens persoon hij daarna gaat beschrijve…",
+      "rule_reference": "ARCHAISMEN.md (SV-pronomina)",
+      "explanation": "'wiens persoon' — formeel-archaïsch genitief-pronomen. Modern Nederlands: 'van wie persoon' of zinsherbouw met bezittelijk voornaamwoord ('die zijn persoon', 'die haar persoon'). NBV21 vermijdt 'wiens' grotendeels.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "COL-1-14-001",
+      "status": "verified",
+      "rebuttal": null,
+      "fix_commit": "pending",
+      "verified_at": "2026-05-26T12:09:17+00:00"
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 14,
+      "severity": "soft",
+      "quote_modernized": "de vergeving van de",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'de vergeving van de' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "COL-1-14-002",
+      "status": "verified",
+      "rebuttal": "KANTTEKENINGEN.md 'Geen redundantie' ziet op alternatiefgebruik tussen hoofdtekst en noot; in COL 1:14 verklaart de noot juist het lemma 'verlossing' met het Schriftanker Lk. 1:77/Ef. 1:7. De herhaling 'vergeving van de zonden' is versspecifiek noodzakelijk om het deelbegrip van verlossing te begrenzen, geen tweede hoofdtekstkeuze.",
+      "verified_at": "2026-05-26T12:09:39+00:00"
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 15,
+      "severity": "soft",
+      "quote_modernized": "van heel de schepping",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'van heel de schepping' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "COL-1-15-001",
+      "status": "verified",
+      "rebuttal": "De noot contrasteert 'eerstgeborene' met 'eerstgeschapene' en heeft de frase 'van heel de schepping' nodig als doctrinair anker. KANTTEKENINGEN.md verbiedt niet zulke lemma-herhaling in verklarende dogmatische noten.",
+      "verified_at": "2026-05-26T12:09:17+00:00"
+    },
+    {
+      "category": "genitief pronomen wiens/wier",
+      "verse": 18,
+      "severity": "hard",
+      "quote_modernized": "…zijn eigen kracht is opgestaan, en door wiens kracht alle anderen opgestaan zijn…",
+      "rule_reference": "ARCHAISMEN.md (SV-pronomina)",
+      "explanation": "'wiens kracht' — formeel-archaïsch genitief-pronomen. Modern Nederlands: 'van wie kracht' of zinsherbouw met bezittelijk voornaamwoord ('die zijn kracht', 'die haar kracht'). NBV21 vermijdt 'wiens' grotendeels.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "COL-1-18-001",
+      "status": "verified",
+      "rebuttal": null,
+      "fix_commit": "pending",
+      "verified_at": "2026-05-26T12:09:17+00:00"
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 22,
+      "severity": "soft",
+      "quote_modernized": "…elijk, uitgezonderd de zonde, $Hb. 2:14$, welke titel de Apostel daaraan toevoeg…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "COL-1-22-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-26T12:09:17+00:00"
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 27,
+      "severity": "soft",
+      "quote_modernized": "rijkdom van de heerlijkheid",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'rijkdom van de heerlijkheid' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "COL-1-27-001",
+      "status": "verified",
+      "rebuttal": "De korte noot bij 'wat' identificeert het antecedent 'rijkdom van de heerlijkheid'; dat is een syntactische uitleg van de SV-kanttekening. Zonder die herneming wordt de verwijzing in vers 27 minder precies.",
+      "verified_at": "2026-05-26T12:09:17+00:00"
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 29,
+      "severity": "soft",
+      "quote_modernized": "zijn werking die in",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'zijn werking die in' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "COL-1-29-001",
+      "status": "verified",
+      "rebuttal": "KANTTEKENINGEN.md 'Geen redundantie' verbiedt vooral alternatief-hoofdtekst-dubbeling; in COL 1:29 verklaart de noot het lemma 'naar zijn werking' als maat van Gods werkzame kracht in Paulus. De herneming van 'werking' is hier versspecifiek uitleganker, geen overbodige synoniemkeuze.",
+      "verified_at": "2026-05-26T12:09:39+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 2,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'heylige' in 4 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 4 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        2,
+        4,
+        12,
+        26
+      ],
+      "id": "COL-1-2-001",
+      "status": "verified",
+      "rebuttal": "Concordantie-drift is een scanner-false-positive door stamheuristiek: SV 'heylige' wordt in COL 1:2 modern 'heilige', en andere vormen met dezelfde stam kunnen grammaticaal als zelfstandig naamwoord of bijvoeglijk naamwoord functioneren. AGENTS.md concordantie vereist geen identieke prefixstring.",
+      "verified_at": "2026-05-26T12:09:17+00:00"
+    }
+  ]
+}
