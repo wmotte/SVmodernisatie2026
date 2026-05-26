@@ -1,0 +1,150 @@
+{
+  "book": "TIT",
+  "chapter": 2,
+  "reviewed_at": "2026-05-26T08:56:36+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-26T08:56:36+00:00",
+      "mode": "scan",
+      "issues_total": 9
+    }
+  ],
+  "issues": [
+    {
+      "category": "§2.3b bijwoord-coda",
+      "verse": 8,
+      "severity": "soft",
+      "quote_modernized": "  Het woord gezond, en   onverwerpelijk:   opdat degene   die zic…",
+      "rule_reference": "MODERNISATIE.md §2.3b",
+      "explanation": "'onverwerpelijk:' aan zinseind — verifieer of dit bijwoord niet als coda achteraf is blijven hangen ('wandelende … onberispelick' → 'wandelden onberispelijk in …').",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "TIT-2-8-001",
+      "status": "rebutted",
+      "rebuttal": "'gezond' en 'onverwerpelijk' (Gr. λόγον ὑγιῆ, ἀκατάγνωστον) zijn predicatieve adjectieven bij het object 'het woord' van 'spreek' (v7), geen bijwoordelijke coda van een werkwoord. §2.3b-patroon 2 (bijwoord-coda) is niet van toepassing: er is geen werkwoord waarvan dit de manier karakteriseert."
+    },
+    {
+      "category": "§2.3 finiet participium",
+      "verse": 10,
+      "severity": "soft",
+      "quote_modernized": "Niets   ontvreemdende, maar alle goede trouw bew…",
+      "rule_reference": "MODERNISATIE.md §2.3",
+      "explanation": "'ontvreemdende' — verdacht -ende-woord in adverbial / clause-final positie. Ontvouw naar finiete bijzin ('en X', 'terwijl X', 'toen X').",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "TIT-2-10-001",
+      "status": "fixed",
+      "fix_commit": "pending"
+    },
+    {
+      "category": "§2.3 finiet participium",
+      "verse": 10,
+      "severity": "soft",
+      "quote_modernized": "…   ontvreemdende, maar alle goede trouw bewijzende: opdat zij   de leer van God …",
+      "rule_reference": "MODERNISATIE.md §2.3",
+      "explanation": "'bewijzende' — verdacht -ende-woord in adverbial / clause-final positie. Ontvouw naar finiete bijzin ('en X', 'terwijl X', 'toen X').",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "TIT-2-10-002",
+      "status": "fixed",
+      "fix_commit": "pending"
+    },
+    {
+      "category": "kanttekening-luiheid (§2.3 in <…>)",
+      "verse": 10,
+      "severity": "hard",
+      "quote_modernized": "…ts van de goederen van de heer tot zich trekkende. Zie van dit woord $Hd. 5:2,3$…",
+      "rule_reference": "KANTTEKENINGEN.md + §2.3",
+      "explanation": "'trekkende' binnen kanttekening — verdacht -ende-woord in adverbial / clause-final positie. §2.3 geldt ook in <…>; ontvouw naar finiete bijzin.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "TIT-2-10-003",
+      "status": "fixed",
+      "fix_commit": "pending"
+    },
+    {
+      "category": "kanttekening-luiheid (§2.3 in <…>)",
+      "verse": 11,
+      "severity": "hard",
+      "quote_modernized": "… deze woorden alle mensen bij het woord zaligmakende, in deze zin: De genade van…",
+      "rule_reference": "KANTTEKENINGEN.md + §2.3",
+      "explanation": "'zaligmakende' binnen kanttekening — verdacht -ende-woord in adverbial / clause-final positie. §2.3 geldt ook in <…>; ontvouw naar finiete bijzin.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "TIT-2-11-001",
+      "status": "rebutted",
+      "rebuttal": "Metalinguïstische mention: 'bij het woord zaligmakende' verwijst naar het lexeem 'zaligmakende' uit de hoofdtekst dat de kanttekening bespreekt (use/mention-onderscheid). Geen bijwoordelijk participium; §2.3 ontvouwing zou de woord-aanduiding vernietigen."
+    },
+    {
+      "category": "kanttekening-luiheid (§2.3 in <…>)",
+      "verse": 11,
+      "severity": "hard",
+      "quote_modernized": "…eze zin: De genade van God, alle mensen zaligmakende, is verschenen.",
+      "rule_reference": "KANTTEKENINGEN.md + §2.3",
+      "explanation": "'zaligmakende' binnen kanttekening — verdacht -ende-woord in adverbial / clause-final positie. §2.3 geldt ook in <…>; ontvouw naar finiete bijzin.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "TIT-2-11-002",
+      "status": "rebutted",
+      "rebuttal": "Geciteerde alternatieve lezing: 'De genade van God, alle mensen zaligmakende, is verschenen' is een woordelijk citaat van de alternatieve parsing die de kanttekening illustreert (participium attributief-appositief bij 'genade', niet adverbiaal). Ontvouwen misvormt de geciteerde lezing en het exegetische punt (waar 'zaligmakende' aanhecht)."
+    },
+    {
+      "category": "§2.3 finiet participium",
+      "verse": 12,
+      "severity": "soft",
+      "quote_modernized": "…loosheid en   de   wereldse begeerten   verzakende,   matig, en   rechtvaardig, …",
+      "rule_reference": "MODERNISATIE.md §2.3",
+      "explanation": "'verzakende' — verdacht -ende-woord in adverbial / clause-final positie. Ontvouw naar finiete bijzin ('en X', 'terwijl X', 'toen X').",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "TIT-2-12-001",
+      "status": "fixed",
+      "fix_commit": "pending"
+    },
+    {
+      "category": "genitief pronomen wiens/wier",
+      "verse": 15,
+      "severity": "hard",
+      "quote_modernized": "…n dat u spreekt als een gezant van God, wiens bevelen u met ernst moet voordrage…",
+      "rule_reference": "ARCHAISMEN.md (SV-pronomina)",
+      "explanation": "'wiens bevelen' — formeel-archaïsch genitief-pronomen. Modern Nederlands: 'van wie bevelen' of zinsherbouw met bezittelijk voornaamwoord ('die zijn bevelen', 'die haar bevelen'). NBV21 vermijdt 'wiens' grotendeels.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "TIT-2-15-001",
+      "status": "fixed",
+      "fix_commit": "pending"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 10,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'salighm' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        10,
+        11,
+        13
+      ],
+      "id": "TIT-2-10-004",
+      "status": "rebutted",
+      "rebuttal": "False-positive scanner-prefix-heuristiek: origineel 'salighm-' wordt consistent naar 'zaligm-' weergegeven (v10 'Zaligmaker', v11 'zaligmakende', v13 'Zaligmaker') — de scanner mist de orthografische overgang s→z. Concordantie is feitelijk volledig consistent."
+    },
+    {
+      "id": "TIT-2-13-001",
+      "verse": 13,
+      "category": "§2.3 finiet participium",
+      "severity": "hard",
+      "quote_modernized": "Verwachtend de zalige hoop, en verschijning van de heerlijkheid ...",
+      "rule_reference": "MODERNISATIE.md §2.3 + §2.3b(1)",
+      "explanation": "Bijwoordelijk tegenwoordig participium 'Verwachtend' (Gr. προσδεχόμενοι) met nageschoven object, voortzettend op v12 'leven zouden'. Scanner-regex miste het (geen -e-suffix). §2.3 ontvouwt naar finiet.",
+      "proposed_fix": "Wij verwachten de zalige hoop, en verschijning ...",
+      "location": "hoofdtekst",
+      "status": "fixed",
+      "fix_commit": "pending"
+    }
+  ]
+}
