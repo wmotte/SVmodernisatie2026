@@ -319,6 +319,12 @@ DREMPEL_ARCHAISMEN: frozenset[str] = frozenset({
     # Meta-review JUD 1:16: 'morrenden' → 'mopperaars'. ('dwalende' NIET:
     # faalt §2.7 — 'dwalende schapen/ziel' is productief modern.)
     "morrenden",
+    # Zelfst. 'wandel' (= levenswijze/gedrag). Faalt verwarringstest §2.7:
+    # modern leest 'wandel' primair als 'wandeling/stroll'; HSV consequent
+    # 'levenswandel'. Exacte-woord-match (\b{word}\b) raakt NIET ww.
+    # 'wandelen'/'wandeling' (geen \b na 'l') noch samenstelling
+    # 'levenswandel' (geen \b vóór 'w'). Meta-review 1PE 2:12, 3:1, 3:2, 3:16.
+    "wandel",
 })
 
 DREMPEL_FOSSIELEN: tuple[str, ...] = (
