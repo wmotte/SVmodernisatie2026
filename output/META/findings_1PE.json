@@ -13,9 +13,10 @@
       "hsv_quote": "tot een heilig priesterschap, om geestelijke offers te brengen",
       "rule_reference": "MODERNISATIE.md §2.7 / ARCHAISMEN.md",
       "explanation": "'Priesterdom' is archaisch; modern staand equivalent is 'priesterschap' (HSV, NBV21). Geen dominante andere betekenis, maar leest verouderd. freq=2 in 1PE 2 (vers 5, 9).",
-      "proposed_fix": "een heilig priesterschap",
+      "proposed_fix": "een heilig Priesterschap",
       "location": "hoofdtekst",
-      "status": "open"
+      "status": "fixed",
+      "pr": 723
     },
     {
       "id": "META-1PE-2-9-001",
@@ -26,10 +27,11 @@
       "quote_modernized": "een Koninklijk Priesterdom, een heilig volk",
       "hsv_quote": "een koninklijk priesterschap, een heilig volk",
       "rule_reference": "MODERNISATIE.md §2.7 / ARCHAISMEN.md",
-      "explanation": "Idem als 2:5 -- 'Priesterdom' -> 'priesterschap'. Tevens hoofdletter 'Koninklijk' = SV-orthografisch kapitaal op bijvoeglijk nw., modern klein (HSV: 'koninklijk').",
-      "proposed_fix": "een koninklijk priesterschap",
+      "explanation": "Idem als 2:5 -- 'Priesterdom' -> 'Priesterschap' (SV-cap bewaard). 'Koninklijk' blijft kapitaal: SV1657 'Konincklick' is gekapitaliseerd, hoofdletter-discipline bewaart SV-nouncaps; HSV's kleine letter is HSV-keuze.",
+      "proposed_fix": "een Koninklijk Priesterschap",
       "location": "hoofdtekst",
-      "status": "open"
+      "status": "fixed",
+      "pr": 723
     },
     {
       "id": "META-1PE-2-13-001",
@@ -40,10 +42,11 @@
       "quote_modernized": "hetzij aan de Koning, als degene die de hoogste macht heeft",
       "hsv_quote": "hetzij aan de koning, als hoogste machthebber",
       "rule_reference": "AGENTS.md eerbiedskapitaal / feedback_eerbiedskapitaal_validator",
-      "explanation": "'Koning' verwijst hier naar een AARDSE vorst (de eigen kanttekening: 'de Romeinse Keizer'), niet naar God/Christus. Eerbiedskapitaal op een mens is fout; modern klein 'koning' (HSV).",
-      "proposed_fix": "hetzij aan de koning, als degene die de hoogste macht heeft",
+      "explanation": "OVERRULED (bucket A). SV1657 heeft 'Koningh' gekapitaliseerd; validator hoofdletter-discipline bewaart het SV-cap-patroon. De eerbiedskapitaal-regel verbiedt enkel het TOEVOEGEN van reverence-caps (hy->Hij), niet het bewaren van bestaande SV-nouncaps. Lowercasing faalt validate.py (hoofdletter-discipline HARD). HSV's kleine 'koning' is HSV-keuze.",
+      "proposed_fix": null,
       "location": "hoofdtekst",
-      "status": "open"
+      "status": "rebutted",
+      "rebuttal": "SV-cap-patroon 'Koningh' wordt bewaard (validator-bevestigd); eerbiedskapitaal-regel betreft alleen toegevoegde caps. Bucket A, geen wijziging."
     },
     {
       "id": "META-1PE-2-17-001",
@@ -54,10 +57,11 @@
       "quote_modernized": "vrees God: eer de Koning.",
       "hsv_quote": "vrees God; eer de koning.",
       "rule_reference": "AGENTS.md eerbiedskapitaal / feedback_eerbiedskapitaal_validator",
-      "explanation": "Zelfde aardse vorst als 2:13 (juist gecontrasteerd met God: vrees God / eer de koning). Eerbiedskapitaal op mens fout; modern klein 'koning' (HSV).",
-      "proposed_fix": "vrees God: eer de koning.",
+      "explanation": "OVERRULED (bucket A), zelfde grond als 2:13. SV 'Koningh' kapitaal bewaard; validator hoofdletter-discipline HARD bij lowercasing.",
+      "proposed_fix": null,
       "location": "hoofdtekst",
-      "status": "open"
+      "status": "rebutted",
+      "rebuttal": "SV-cap-patroon bewaard (validator-bevestigd); eerbiedskapitaal betreft alleen toegevoegde caps. Bucket A."
     }
   ]
 }
