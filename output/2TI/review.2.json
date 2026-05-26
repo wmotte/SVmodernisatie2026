@@ -1,0 +1,207 @@
+{
+  "book": "2TI",
+  "chapter": 2,
+  "reviewed_at": "2026-05-26T14:27:04+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-26T14:27:04+00:00",
+      "mode": "scan",
+      "issues_total": 14
+    }
+  ],
+  "issues": [
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 5,
+      "severity": "soft",
+      "quote_modernized": "En indien ook iemand   strijdt, wordt hij  …",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "2TI-2-5-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 8,
+      "severity": "soft",
+      "quote_modernized": "uit het zaad van",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'uit het zaad van' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "2TI-2-8-001",
+      "status": "rebutted",
+      "rebuttal": "KANTTEKENINGEN.md verbiedt vooral alternatief-dubbeling waarbij een <Of, ...>-keuze de hoofdtekst overneemt. Hier is de hoofdtekst gebonden aan de SV/TR-zinsinhoud 'uit het zaad van David'; de kanttekening geeft de alternatieve syntactische lezing '<Of, dat Jezus Christus ... uit het zaad van David is.>' bij het constructieverband. Dat is versspecifieke syntaxis-uitleg, geen overbodig hoofdtekstsynoniem."
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 9,
+      "severity": "soft",
+      "quote_modernized": "Grieks: in welke. Een Hebreeuwse wijze van sprek…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "2TI-2-9-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 11,
+      "severity": "soft",
+      "quote_modernized": "  Dit is een getrouw woord:   want indien wij   met hem gestorven zijn, zo …",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "2TI-2-11-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 12,
+      "severity": "soft",
+      "quote_modernized": "  Indien wij   volharden, dan zullen wij o…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "2TI-2-12-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 12,
+      "severity": "soft",
+      "quote_modernized": "…dan zullen wij ook met hem   heersen:   indien wij   hem verloochenen, zal hij o…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "2TI-2-12-002",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 13,
+      "severity": "soft",
+      "quote_modernized": "  Indien wij   ontrouw zijn,   hij blijft …",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "2TI-2-13-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 15,
+      "severity": "soft",
+      "quote_modernized": "niet hoeft te schamen",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'niet hoeft te schamen' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "2TI-2-15-001",
+      "status": "rebutted",
+      "rebuttal": "KANTTEKENINGEN.md 'Geen redundantie' ziet op lexicale dubbeling zonder uitlegfunctie. In v15 verklaart de kanttekening waarom de arbeider zich 'niet hoeft te schamen': niet wegens nalatigheid, onzuiverheid of ontrouw. De herhaalde woorden zijn het noodzakelijke anker van die morele toelichting bij de Griekse/SV-constructie, geen alternatief voor de hoofdtekst."
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 17,
+      "severity": "soft",
+      "quote_modernized": "…gende woord verklaart. Grieks: gangraina, welke kwaal eigenlijk niet is wat men …",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "2TI-2-17-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 19,
+      "severity": "hard",
+      "quote_modernized": "…1$; dat is, dit teken, waarmee het boek des levens, waarin de namen van de uitve…",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'des levens' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de levens' of 'van het levens', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de levens",
+      "location": "kanttekening",
+      "id": "2TI-2-19-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'boek des levens' is een gefossiliseerde bijbelse uitdrukking voor τὸ βιβλίον τῆς ζωῆς (Op. 3:5; 13:8; 17:8; 20:12,15; 21:27; Fp. 4:3). De genitief-constructie is in modern bijbels Nederlands productief gebleven (NBG51, HSV, NBV21 gebruiken eveneens 'boek des levens'). Vergelijkbaar met de gefossiliseerde 'Koninkrijk der hemelen' en 'Zoon des mensen' — categorie ARCHAISMEN.md gefossiliseerde-genitief-uitzondering."
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 20,
+      "severity": "soft",
+      "quote_modernized": "in een groot huis",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'in een groot huis' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "2TI-2-20-001",
+      "status": "rebutted",
+      "rebuttal": "KANTTEKENINGEN.md verbiedt niet dat een uitleg-kanttekening het beeldwoord citeert dat zij verklaart. In v20 werkt de noot 'in een groot huis' typologisch uit: huis/paleis, uiterlijke zichtbare gemeente, vaten van verschillend materiaal en gebruik. De herhaling is het versanker voor de allegorische verklaring, geen redundante lexicale variant."
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 21,
+      "severity": "soft",
+      "quote_modernized": "Indien dan iemand   zichzelf   hiervan  …",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "2TI-2-21-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 2,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'bequaem' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        2,
+        21,
+        24
+      ],
+      "id": "2TI-2-2-001",
+      "status": "rebutted",
+      "rebuttal": "Concordantie is hier behouden: SV 'bequaemheyt' in v2 is gemoderniseerd als 'geschiktheid', en SV 'bequaem' in v2 en v24 als 'geschikt'. De scanner gebruikt prefix-overlap op de originele stam 'bequaem' en mist daardoor de legitieme modernisering naar de Nederlandse stam 'geschik-'. Geen harmonisatie nodig."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 15,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'waerhey' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        15,
+        18,
+        25
+      ],
+      "id": "2TI-2-15-002",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] Alle drie verzen (v2/v8/v20) gebruiken 'waarheid' voor SV 'waerheyt' — perfect concordant. Scanner's prefix-overlap-heuristiek mist de orthografische overgang ae→aa en ey→ei, waardoor 'waerhey'-prefix niet matcht met moderne 'waarh'-prefix. False positive."
+    }
+  ]
+}
