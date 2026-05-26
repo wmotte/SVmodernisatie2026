@@ -16,6 +16,7 @@ Voorbeeld-PDF's van de parallelbijbel:
 - [Romeinen](parallelbijbel/ROM_voorbeeld.pdf)
 - [1 Korinthiërs](parallelbijbel/1CO_voorbeeld.pdf)
 - [2 Korinthiërs](parallelbijbel/2CO_voorbeeld.pdf)
+- [2 Tessalonicenzen](parallelbijbel/2TH_voorbeeld.pdf)
 - [Filemon](parallelbijbel/PHM_voorbeeld.pdf)
 - [1 Petrus](parallelbijbel/1PE_voorbeeld.pdf)
 - [1 Johannes](parallelbijbel/1JN_voorbeeld.pdf)
@@ -879,6 +880,7 @@ protocol en de waarborgen rond de HSV-spiegel.
   | `ROM` | De brief van Paulus aan de Romeinen | gereed (16/16 hoofdstukken) |
   | `1CO` | De eerste brief van Paulus aan de Korinthiërs | gereed (16/16 hoofdstukken) |
   | `2CO` | De tweede brief van Paulus aan de Korinthiërs | in aanbouw (1–3 van 13) |
+  | `2TH` | De tweede brief van Paulus aan de Tessalonicenzen | gereed (3/3 hoofdstukken) |
   | `1PE` | De eerste brief van Petrus | gereed (5/5 hoofdstukken) |
   | `1JN` | De eerste brief van Johannes | in aanbouw (1 van 5) |
   | `2JN` | De tweede brief van Johannes | gereed (1/1 hoofdstuk) |

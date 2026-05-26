@@ -35,6 +35,7 @@ BOOK_TITLES = {
     "ROM": "De brief van Paulus aan de Romeinen",
     "1CO": "De eerste brief van Paulus aan de Korinthiërs",
     "2CO": "De tweede brief van Paulus aan de Korinthiërs",
+    "2TH": "De tweede brief van Paulus aan de Tessalonicenzen",
     "1PE": "De eerste brief van Petrus",
     "1JN": "De eerste brief van Johannes",
     "2JN": "De tweede brief van Johannes",

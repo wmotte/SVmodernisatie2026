@@ -6,9 +6,9 @@
 | 2 | 3 Johannes | 1 | 15 | 1.115 | 1 | 100% |
 | 3 | Filemon | 1 | 25 | 1.634 | 1 | 100% |
 | 4 | Judas | 1 | 25 | 3.057 | 1 | 100% |
-| 5 | Titus | 3 | 46 | 3.704 | 1 | 33% |
-| 6 | 2 Tessalonicenzen | 3 | 47 | 5.027 | 0 | 0% |
-| 7 | 2 Petrus | 3 | 61 | 6.973 | 0 | 0% |
+| 5 | Titus | 3 | 46 | 3.704 | 3 | 100% |
+| 6 | 2 Tessalonicenzen | 3 | 47 | 5.027 | 3 | 100% |
+| 7 | 2 Petrus | 3 | 61 | 6.973 | 1 | 33% |
 | 8 | 2 Timoteüs | 4 | 83 | 8.371 | 0 | 0% |
 | 9 | Kolossenzen | 4 | 95 | 11.627 | 0 | 0% |
 | 10 | Filippenzen | 4 | 104 | 11.174 | 0 | 0% |
@@ -34,11 +34,11 @@
 
 | Eenheid | Gedaan | Totaal | % |
 |---------|--------|--------|---|
-| Hoofdstukken | 85 | 260 | 32,7% |
-| Verzen | 2956 | 7959 | 37,1% |
-| Woorden | 181.650 | 562.108 | 32,3% |
+| Hoofdstukken | 91 | 260 | 35,0% |
+| Verzen | 3072 | 7959 | 38,6% |
+| Woorden | 193.665 | 562.108 | 34,5% |
 
-Gedaan: 2 Johannes (1 hfst / 13 v), 3 Johannes (1 hfst / 15 v), Filemon (1 hfst / 25 v), Judas (1 hfst / 25 v), Titus (1 hfst / 19 v), 1 Petrus (5 hfst / 105 v), 1 Johannes (1 hfst / 10 v), 2 Korintiërs (2 hfst / 44 v), Romeinen (16 hfst / 434 v), 1 Korintiërs (16 hfst / 437 v), Marcus (16 hfst / 678 v), Lucas (24 hfst / 1151 v).
+Gedaan: 2 Johannes (1 hfst / 13 v), 3 Johannes (1 hfst / 15 v), Filemon (1 hfst / 25 v), Judas (1 hfst / 25 v), Titus (3 hfst / 46 v), 2 Tessalonicenzen (3 hfst / 47 v), 2 Petrus (1 hfst / 21 v), 1 Petrus (5 hfst / 105 v), 1 Johannes (1 hfst / 10 v), 2 Korintiërs (2 hfst / 44 v), Romeinen (16 hfst / 434 v), 1 Korintiërs (16 hfst / 437 v), Marcus (16 hfst / 678 v), Lucas (24 hfst / 1151 v).
 
 Totaal woorden in de bron: 562.108 (incl. kanttekeningen in `<...>`).
 Totalen (hoofdstukken/verzen) geteld uit `input.sv/` (SV1657).

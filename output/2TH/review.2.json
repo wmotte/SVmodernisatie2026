@@ -1,0 +1,76 @@
+{
+  "book": "2TH",
+  "chapter": 2,
+  "reviewed_at": "2026-05-26T09:02:42+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-26T09:01:29+00:00",
+      "mode": "scan",
+      "issues_total": 2
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-26T09:01:47+00:00",
+      "mode": "verify",
+      "actions": [
+        "2TH-2-1-001: rebuttal verified",
+        "2TH-2-10-001: reopened (te generiek)"
+      ]
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-05-26T09:02:02+00:00",
+      "mode": "verify",
+      "actions": [
+        "2TH-2-10-001: rebuttal verified"
+      ]
+    },
+    {
+      "pass": 4,
+      "ran_at": "2026-05-26T09:02:42+00:00",
+      "mode": "verify",
+      "actions": []
+    }
+  ],
+  "issues": [
+    {
+      "category": "concordantie-drift",
+      "verse": 1,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'toekoms' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        1,
+        8,
+        9
+      ],
+      "id": "2TH-2-1-001",
+      "status": "verified",
+      "rebuttal": "False positive van de prefix-heuristiek: SV 'toekomste' is in v1, v8 en v9 consequent gemoderniseerd als 'komst'. MODERNISATIE.md §2.7 vraagt modernisering van drempelarchaïsmen; 'toekomst/komst' is hier geen betekenisdrift maar een vaste contextuele keuze voor παρουσία/komst.",
+      "verified_at": "2026-05-26T09:01:47+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 10,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'waerhey' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        10,
+        12,
+        13
+      ],
+      "id": "2TH-2-10-001",
+      "status": "verified",
+      "rebuttal": "False positive van de concordantie-prefixheuristiek. In v10 hoofdtekst/kanttekening, v12 hoofdtekst en v13 hoofdtekst/kanttekening wordt SV 'waerheyt' consequent als 'waarheid' weergegeven. MODERNISATIE.md §2.7 ondersteunt deze orthografische modernisering; het verschil is ae→aa en ey→ei, geen lexicale drift.",
+      "verified_at": "2026-05-26T09:02:02+00:00"
+    }
+  ]
+}

@@ -2,6 +2,10 @@
 \input{%%PREAMBLE_PATH%%}
 
 \renewcommand{\bookname}{%%BOOK_TITLE%%}
+\hypersetup{
+  pdftitle={%%BOOK_TITLE%%},
+  pdfauthor={SVmodernisatie2026}
+}
 
 \begin{document}
 

@@ -1,28 +1,31 @@
-# Scaffolding-deltas — meta-review TIT hoofdstukken 1-3
+# Scaffolding-deltas — meta-review 2TH hoofdstukken 1-3
 
-Gegenereerd: 2026-05-26T12:09:18
-Aggregator: scripts/meta_diff_aggregate.py --book TIT --chapters 1-3
+Gegenereerd: 2026-05-26T10:38:41Z
+Aggregator: scripts/meta_diff_aggregate.py --book 2TH --chapters 1-3 --min-freq 2
 
 ## Auto-toegepaste deltas (bucket C)
 
-Geen. Bij min-freq 2 (drempel): 0 patterns over 3 hoofdstukken (46 verzen).
+| Pattern | Kind | Freq | Target | Wijziging | Bewijs |
+|---|---|---|---|---|---|
+| - | - | - | - | Geen bucket-C patronen gevonden. | - |
 
 ## Afgewezen deltas (rejected, §2.7-toets niet gehaald)
 
-Geen.
+| Pattern | Kind | Reden afwijzing |
+|---|---|---|
+| - | - | Geen deltas afgewezen; er waren geen kandidaten. |
 
 ## Noise (bucket A — HSV-keuze, geen actie)
 
-Alle 38 freq=1-singletons (min-freq 1 inspectie) zijn bucket A:
-
 | Kind | Aantal | Voorbeelden |
-|---|---|---|
-| cap-asym | 9 | apostel, profeet, opziener, ouderlingen, overheden, machten, dienstknecht — SV1657-nouncaps vs HSV-onderkast; behoud per feedback_sv_cap_preservation_vs_eerbied |
-| latinaat-window | 20 | HSV-woordvolgorde-herschikkingen, geen recurrente Latinaat-rest |
-| carryover | 9 | fabelen, lasteressen, nuchter, overwinteren, vechters, nicopolis (eigennaam) — singletons zonder consistent HSV-lemma; hsv_alternatives = window-ruis |
+|---|---:|---|
+| carryover | 0 | - |
+| fossiel-lidwoord | 0 | - |
+| latinaat-window | 0 | - |
+| cap-asym | 0 | - |
 
 ## Bucket-overzicht
 
-- B (per-vers fixes): 0 issues
+- B (per-vers fixes): 0 issues over 0 hoofdstukken — zie `findings.json`
 - C (scaffolding-deltas): 0 toegepast, 0 afgewezen
-- A (noise): 38 (freq=1) / 0 boven drempel
+- A (noise): 0
