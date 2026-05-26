@@ -1,13 +1,22 @@
 {
   "book": "2TI",
   "chapter": 3,
-  "reviewed_at": "2026-05-26T15:33:54+00:00",
+  "reviewed_at": "2026-05-26T15:35:57+00:00",
   "passes": [
     {
       "pass": 1,
       "ran_at": "2026-05-26T15:33:54+00:00",
       "mode": "scan",
       "issues_total": 2
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-26T15:35:57+00:00",
+      "mode": "verify",
+      "actions": [
+        "2TI-3-3-001: rebuttal verified",
+        "2TI-3-13-001: rebuttal verified"
+      ]
     }
   ],
   "issues": [
@@ -21,8 +30,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "2TI-3-3-001",
-      "status": "rebutted",
-      "rebuttal": "MODERNISATIE.md §2.3b verbiedt een losse bijwoord-coda die een werkwoord karakteriseert; hier is 'onverzoenlijk' in 2TI 3:3 geen bijwoord maar een adjectief in de ondeugdenlijst ('Zonder natuurlijke liefde, onverzoenlijk, kwaadsprekers...'), corresponderend met Grieks ἄσπονδοι."
+      "status": "verified",
+      "rebuttal": "MODERNISATIE.md §2.3b verbiedt een losse bijwoord-coda die een werkwoord karakteriseert; hier is 'onverzoenlijk' in 2TI 3:3 geen bijwoord maar een adjectief in de ondeugdenlijst ('Zonder natuurlijke liefde, onverzoenlijk, kwaadsprekers...'), corresponderend met Grieks ἄσπονδοι.",
+      "verified_at": "2026-05-26T15:35:57+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -34,8 +44,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "2TI-3-13-001",
-      "status": "rebutted",
-      "rebuttal": "ARCHAISMEN.md waarschuwt tegen 'welke' als relatief pronomen; in 2TI 3:13 staat 'Van welke aard' in de kanttekening als moderne adjectivische uitdrukking bij SV 'Hoedanige zijn de tyrannen ende vervolgers', niet als betrekkelijk voornaamwoord. De formulering behoudt de kanttekeningfunctie zonder SV-syntaxfossiel."
+      "status": "verified",
+      "rebuttal": "ARCHAISMEN.md waarschuwt tegen 'welke' als relatief pronomen; in 2TI 3:13 staat 'Van welke aard' in de kanttekening als moderne adjectivische uitdrukking bij SV 'Hoedanige zijn de tyrannen ende vervolgers', niet als betrekkelijk voornaamwoord. De formulering behoudt de kanttekeningfunctie zonder SV-syntaxfossiel.",
+      "verified_at": "2026-05-26T15:35:57+00:00"
     }
   ]
 }
