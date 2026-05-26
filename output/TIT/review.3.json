@@ -1,13 +1,28 @@
 {
   "book": "TIT",
   "chapter": 3,
-  "reviewed_at": "2026-05-26T10:00:53+00:00",
+  "reviewed_at": "2026-05-26T10:03:39+00:00",
   "passes": [
     {
       "pass": 1,
       "ran_at": "2026-05-26T10:00:53+00:00",
       "mode": "scan",
       "issues_total": 8
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-26T10:03:39+00:00",
+      "mode": "verify",
+      "actions": [
+        "TIT-3-1-001: rebuttal verified",
+        "TIT-3-3-001: rebuttal verified",
+        "TIT-3-5-001: verified",
+        "TIT-3-5-002: verified",
+        "TIT-3-5-003: verified",
+        "TIT-3-5-004: rebuttal verified",
+        "TIT-3-5-005: rebuttal verified",
+        "TIT-3-7-001: rebuttal verified"
+      ]
     }
   ],
   "issues": [
@@ -21,8 +36,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "TIT-3-1-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-26T10:03:39+00:00"
     },
     {
       "category": "§2.3b bijwoord-coda",
@@ -34,8 +50,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "TIT-3-3-001",
-      "status": "rebutted",
-      "rebuttal": "'hatelijk' rendert SV 'hatelick zijnde' (Gr. στυγητοί, verfoeilijk/gehaat) als predicaatsadjectief bij 'wij waren ... onverstandig, ongehoorzaam, ... hatelijk' — een nevengeschikt naamwoordelijk deel van het gezegde, geen adverbiale participium-coda. §2.3b mist toepassing: er is geen werkwoord waaraan een bijwoord achteraan hangt; de finiete 'wij haatten elkaar' staat los naast het predicaat."
+      "status": "verified",
+      "rebuttal": "'hatelijk' rendert SV 'hatelick zijnde' (Gr. στυγητοί, verfoeilijk/gehaat) als predicaatsadjectief bij 'wij waren ... onverstandig, ongehoorzaam, ... hatelijk' — een nevengeschikt naamwoordelijk deel van het gezegde, geen adverbiale participium-coda. §2.3b mist toepassing: er is geen werkwoord waaraan een bijwoord achteraan hangt; de finiete 'wij haatten elkaar' staat los naast het predicaat.",
+      "verified_at": "2026-05-26T10:03:39+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -47,8 +64,9 @@
       "proposed_fix": "van de ceremoniën",
       "location": "kanttekening",
       "id": "TIT-3-5-001",
-      "status": "fixed",
-      "fix_commit": "PENDING"
+      "status": "verified",
+      "fix_commit": "PENDING",
+      "verified_at": "2026-05-26T10:03:39+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -60,8 +78,9 @@
       "proposed_fix": "van de zeden",
       "location": "kanttekening",
       "id": "TIT-3-5-002",
-      "status": "fixed",
-      "fix_commit": "PENDING"
+      "status": "verified",
+      "fix_commit": "PENDING",
+      "verified_at": "2026-05-26T10:03:39+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -73,8 +92,9 @@
       "proposed_fix": "van de tien",
       "location": "kanttekening",
       "id": "TIT-3-5-003",
-      "status": "fixed",
-      "fix_commit": "PENDING"
+      "status": "verified",
+      "fix_commit": "PENDING",
+      "verified_at": "2026-05-26T10:03:39+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -86,8 +106,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "TIT-3-5-004",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-26T10:03:39+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -99,8 +120,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "TIT-3-5-005",
-      "status": "rebutted",
-      "rebuttal": "Geen redundantie: dit is een 'Dat is,'-lemmagloss (KANTTEKENINGEN.md) die de hoofdtekstfrase als ankerpunt citeert en er substantiële exegese aan toevoegt — de waterbad-metafoor, de zonde-reiniging en de doopverwijzing Ez. 36:25-27. De 4-token-overlap is lemma-aanhaling, niet parafrastische herhaling."
+      "status": "verified",
+      "rebuttal": "Geen redundantie: dit is een 'Dat is,'-lemmagloss (KANTTEKENINGEN.md) die de hoofdtekstfrase als ankerpunt citeert en er substantiële exegese aan toevoegt — de waterbad-metafoor, de zonde-reiniging en de doopverwijzing Ez. 36:25-27. De 4-token-overlap is lemma-aanhaling, niet parafrastische herhaling.",
+      "verified_at": "2026-05-26T10:03:39+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -112,8 +134,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "TIT-3-7-001",
-      "status": "rebutted",
-      "rebuttal": "Geen redundantie: 'Dat is, van het eeuwige leven' verheldert het object van 'erfgenamen zouden worden' (waarvan zij erfgenaam worden) vóór de hoofdtekst-coda 'naar de hoop van het eeuwige leven'; het voegt de kruisverwijzing Tt. 1:2 toe. Lemmagloss conform KANTTEKENINGEN.md, geen parafrastische herhaling."
+      "status": "verified",
+      "rebuttal": "Geen redundantie: 'Dat is, van het eeuwige leven' verheldert het object van 'erfgenamen zouden worden' (waarvan zij erfgenaam worden) vóór de hoofdtekst-coda 'naar de hoop van het eeuwige leven'; het voegt de kruisverwijzing Tt. 1:2 toe. Lemmagloss conform KANTTEKENINGEN.md, geen parafrastische herhaling.",
+      "verified_at": "2026-05-26T10:03:39+00:00"
     }
   ]
 }
