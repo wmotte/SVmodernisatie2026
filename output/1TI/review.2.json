@@ -1,0 +1,82 @@
+{
+  "book": "1TI",
+  "chapter": 2,
+  "reviewed_at": "2026-05-26T11:28:57+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-26T11:28:18+00:00",
+      "mode": "scan",
+      "issues_total": 4
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-26T11:28:57+00:00",
+      "mode": "verify",
+      "actions": [
+        "1TI-2-4-001: rebuttal verified",
+        "1TI-2-6-001: rebuttal verified",
+        "1TI-2-9-001: rebuttal verified",
+        "1TI-2-15-001: rebuttal verified"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 4,
+      "severity": "soft",
+      "quote_modernized": "wil dat alle mensen",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'wil dat alle mensen' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "1TI-2-4-001",
+      "status": "verified",
+      "rebuttal": "KANTTEKENINGEN.md verbiedt redundantie wanneer de kanttekening slechts herhaalt of wanneer een alternatief in de hoofdtekst wordt overgenomen. Hier verklaart de noot versspecifiek het bereik van πάντας/alle als 'allerlei' tegenover universalistische lezing, met bewijs uit 2:2 en Schriftplaatsen; de hoofdtekst blijft formeel bij 'alle mensen'.",
+      "verified_at": "2026-05-26T11:28:57+00:00"
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 6,
+      "severity": "soft",
+      "quote_modernized": "getuigenis op zijn tijd",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'getuigenis op zijn tijd' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "1TI-2-6-001",
+      "status": "verified",
+      "rebuttal": "De noot is geen kale herhaling maar geeft grammaticale alternatieven voor het substantief 'getuigenis' en verbindt 'op zijn tijd' met de Griekse frase 'op eigen tijden'. Dat valt onder behoud van kanttekeningfunctie volgens KANTTEKENINGEN.md; we mogen deze uitleg niet in de hoofdtekst absorberen.",
+      "verified_at": "2026-05-26T11:28:57+00:00"
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 9,
+      "severity": "soft",
+      "quote_modernized": "vlechten van het haar",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'vlechten van het haar' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "1TI-2-9-001",
+      "status": "verified",
+      "rebuttal": "De kanttekening herhaalt 'vlechten van het haar' alleen om het bereik van het verbod te beperken: niet alle haarvlechten of sieraden zijn verboden, maar hovaardige en aanstootgevende opsmuk. Dat is versspecifieke uitleg bij 1Tm. 2:9, geen redundante synoniemnoot.",
+      "verified_at": "2026-05-26T11:28:57+00:00"
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 15,
+      "severity": "soft",
+      "quote_modernized": "het baren van kinderen",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'het baren van kinderen' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "1TI-2-15-001",
+      "status": "verified",
+      "rebuttal": "De noot verklaart het Griekse διά als 'in' en legt versspecifiek uit dat het baren met pijn als straf de zaligheid van gelovige vrouwen niet verhindert. Volgens KANTTEKENINGEN.md blijven zulke exegetische kanttekeningen behouden; schrappen of verplaatsen zou inhoud verliezen.",
+      "verified_at": "2026-05-26T11:28:57+00:00"
+    }
+  ]
+}
