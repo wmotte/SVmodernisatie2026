@@ -1,0 +1,79 @@
+{
+  "book": "2TH",
+  "chapter": 3,
+  "reviewed_at": "2026-05-26T10:20:14+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-26T10:20:14+00:00",
+      "mode": "scan",
+      "issues_total": 5
+    }
+  ],
+  "issues": [
+    {
+      "category": "genitief pronomen wiens/wier",
+      "verse": 7,
+      "severity": "hard",
+      "quote_modernized": "…maar ook Timotheüs en Silvanus, namens wie deze brief ook is geschreven. …",
+      "rule_reference": "ARCHAISMEN.md (SV-pronomina)",
+      "explanation": "'wier naam' — formeel-archaïsch genitief-pronomen. Modern Nederlands: 'van wie naam' of zinsherbouw met bezittelijk voornaamwoord ('die zijn naam', 'die haar naam'). NBV21 vermijdt 'wiens' grotendeels.",
+      "proposed_fix": "namens wie deze brief ook is geschreven",
+      "location": "kanttekening",
+      "id": "2TH-3-7-001",
+      "status": "fixed"
+    },
+    {
+      "category": "voornaamwoordelijk bijwoord gesplitst",
+      "verse": 13,
+      "severity": "hard",
+      "quote_modernized": "… trager worden; en de Apostel voegt dit hier toe, om hen te vermanen dat zij om …",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'hier toe' — SV-gesplitst voornaamwoordelijk bijwoord. Modern Nederlands voegt samen: 'hiertoe' (bv. daarin, waarmee, hierop).",
+      "proposed_fix": "hiertoe",
+      "location": "kanttekening",
+      "id": "2TH-3-13-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] Scanner-false-positive. 'hier toe' is hier géén gesplitst voornaamwoordelijk bijwoord 'hiertoe', maar het scheidbare werkwoord 'toepassen': 'de Apostel past dit hier toe op de tijdelijke dood' = past dit hier toe (toepassen, verbale prefix 'toe') met bijwoordelijk 'hier' (= op deze plaats in de tekst). Samenvoegen tot 'hiertoe' zou de zin breken ('past dit hiertoe op'). ARCHAISMEN.md-regel doelt op echte R-pronomina (daarin/waarmee). Geen overtreding."
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 14,
+      "severity": "soft",
+      "quote_modernized": "Maar indien iemand   ons woord door deze brie…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "2TH-3-14-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+    },
+    {
+      "category": "voornaamwoordelijk bijwoord gesplitst",
+      "verse": 14,
+      "severity": "hard",
+      "quote_modernized": "…antekenen of schrappen. Zodat dit woord hier door anderen zeer geschikt verstaan…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'hier door' — SV-gesplitst voornaamwoordelijk bijwoord. Modern Nederlands voegt samen: 'hierdoor' (bv. daarin, waarmee, hierop).",
+      "proposed_fix": "hierdoor",
+      "location": "kanttekening",
+      "id": "2TH-3-14-002",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] MODERNISATIE.md §2.3b (pronominaal-bijwoord-samenvoeging) geldt uitsluitend voor 'hier/daar/er/waar' + voorzetsel als één pronominaal cluster (hierdoor = m.b.v. dit). In v9 is 'door David' een agens-bepaling bij de passief 'genomen wordt' (wie neemt het woord μακαρισμός voor hetzelfde: David), en 'hier' een zelfstandig plaatsbijwoord. Samenvoegen tot 'hierdoor' zou de agens David elimineren. Vers-specifiek: alleen v9 heeft deze agens-'door'-constructie binnen de kanttekening."
+    },
+    {
+      "category": "§2.3b vocatief-u",
+      "verse": 16,
+      "severity": "soft",
+      "quote_modernized": "    De Heere nu van de vrede zelf geve u vrede te allen tijde,   op allerlei w…",
+      "rule_reference": "MODERNISATIE.md §2.3b",
+      "explanation": "'u vrede' aan zin-/clause-begin — mogelijke vocatief-u-Latinaatconstructie. Verifieer of 'u' hier object van aanspreking is en weghaalbaar is.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "2TH-3-16-001",
+      "status": "rebutted",
+      "rebuttal": "MODERNISATIE.md §2.3b betreft vocatiefconstructies van het type 'u + zelfstandig naamwoord' als aanspreking, waarbij 'u' weggelaten kan worden. In 2Th. 3:16 is 'u' geen vocatief maar het indirect object bij het finiete werkwoord 'geve': 'de Heere ... geve u vrede'. Weglating zou de ontvanger van de vrede verwijderen en de Griekse datief ὑμῖν niet weergeven."
+    }
+  ]
+}
