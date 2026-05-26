@@ -1,0 +1,87 @@
+{
+  "book": "1TH",
+  "chapter": 1,
+  "reviewed_at": "2026-05-26T19:34:00+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-26T19:32:51+00:00",
+      "mode": "scan",
+      "issues_total": 4
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-26T19:34:00+00:00",
+      "mode": "verify",
+      "actions": [
+        "1TH-1-1-001: rebuttal verified",
+        "1TH-1-3-001: rebuttal verified",
+        "1TH-1-6-001: rebuttal verified",
+        "1TH-1-6-002: rebuttal verified"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 1,
+      "severity": "soft",
+      "quote_modernized": "god de vader en",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'god de vader en' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "1TH-1-1-001",
+      "status": "verified",
+      "rebuttal": "KANTTEKENINGEN.md verbiedt redundantie wanneer een kanttekening slechts een hoofdtekstkeuze dubbel geeft; hier verklaart de <Dat is>-noot de ecclesiologische frase uit ἐν Θεῷ Πατρί καὶ Κυρίῳ Ἰησοῦ Χριστῷ met belijdenis/roeping, dus de korte overlap 'God de Vader en' is noodzakelijke lemma-context.",
+      "verified_at": "2026-05-26T19:34:00+00:00"
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 3,
+      "severity": "soft",
+      "quote_modernized": "de arbeid van de",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'de arbeid van de' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "1TH-1-3-001",
+      "status": "verified",
+      "rebuttal": "KANTTEKENINGEN.md vraagt geen schrapping van verklarende lemma's; deze noot legt de genitiefconstructies ἔργου τῆς πίστεως / κόπου τῆς ἀγάπης / ὑπομονῆς τῆς ἐλπίδος uit. De herhaling 'de arbeid van de' is onderdeel van die syntactische uitleg, niet een overbodig alternatief bij de hoofdtekst.",
+      "verified_at": "2026-05-26T19:34:00+00:00"
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 6,
+      "severity": "soft",
+      "quote_modernized": "van de heilige geest",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'van de heilige geest' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "1TH-1-6-001",
+      "status": "verified",
+      "rebuttal": "De noot verklaart de bron van de blijdschap in de frase μετὰ χαρᾶς Πνεύματος Ἁγίου; volgens KANTTEKENINGEN.md blijven verklarende <Dat is>-blokken behouden. 'Van de Heilige Geest' is hier noodzakelijk lemma-anker voor de uitleg 'door de Heilige Geest in u gewerkt'.",
+      "verified_at": "2026-05-26T19:34:00+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 6,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'geworde' in 3 verzen — verzen [8] renderen het stam anders dan [6, 7]",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        6,
+        7,
+        8
+      ],
+      "id": "1TH-1-6-002",
+      "status": "verified",
+      "rebuttal": "Concordantie geldt op brontekstniveau: vers 6 heeft ἐγενήθητε ('bent ... geworden') en vers 7 γενέσθαι ('geworden bent'), maar vers 8 heeft ἐξήχηται en ἐξελήλυθεν ('weerklonken'/'uitgegaan'). AGENTS.md concordantie vereist dus juist geen harmonisatie van vers 8 naar 'geworden'.",
+      "verified_at": "2026-05-26T19:34:00+00:00"
+    }
+  ]
+}
