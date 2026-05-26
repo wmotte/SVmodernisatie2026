@@ -26,6 +26,7 @@ Standaard-substituties voor de hoofdtekst:
 | daar (causaal, vóór ik/wij/u/gij) | nu / aangezien / omdat — `daar` als causale voegw. (`daar ik dit ben`) is drempel-archaisme; modern NL leest `daar` primair locatief (`daar staat hij`) |
 | ergernisse    | ergernis                     |
 | vrouwe        | vrouw                        |
+| wandel (zelfst., = levenswijze) | levenswandel / leven / gedrag — `wandel` leest modern primair als 'wandeling/stroll' (verwarringstest §2.7); HSV consequent `levenswandel`. Geldt niet voor ww. `wandelen` of samenstelling `levenswandel`. Meta-review 1PE 2:12, 3:1, 3:2, 3:16. |
 | sulcks        | zulks → "iets dergelijks"    |
 | sulks         | zulks                        |
 | Doch          | Maar (soms "Echter")         |
