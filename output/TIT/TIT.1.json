@@ -126,6 +126,45 @@
       "generated_at": "2026-05-26T04:37:29.939597Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 10,
+      "original": "$Actor. 15.1.$Want daer zijn oock vele <Dat is, die haer geen orden en willen onderwerpen. Siet 1.Timoth. 1. vers 9. Titum 1.6.> ongeregelde, <Siet van dit woort 1.Tim. 1.6.> ydelheytsprekers, ende verleyders van sinnen, insonderheyt <D. die Ioden zijn, Actor. 11.2. Rom. 3.30. Gal. 2. vers 12. Coloss. 4.11. die allerhardtst dreven op de onderhoudinge der wet, ende deselve met het Euangelium vermenghden. Dat in Creta veel Ioden waren blijckt uyt Actor. 2. vers 11.> die uyt de besnijdenisse zijn:",
+      "modernized": "$Hd. 15:1$ Want er zijn ook vele <Dat is, die zich aan geen orde willen onderwerpen. Zie $1Tm. 1:9; Tt. 1:6$.> ongeregelden, <Zie van dit woord $1Tm. 1:6$.> ijdele praters en misleiders van gedachten, in het bijzonder <Dat is, die Joden zijn, $Hd. 11:2; Rm. 3:30; Gl. 2:12; Ko. 4:11$, die het allersterkst aandrongen op het onderhouden van de wet, en deze met het Evangelie vermengden. Dat er op Kreta veel Joden waren, blijkt uit $Hd. 2:11$.> die uit de besnijdenis zijn:",
+      "source_text": "Εἰσὶ γὰρ πολλοὶ καὶ ἀνυπότακτοι, ματαιολόγοι καὶ φρεναπάται, μάλιστα οἱ ἐκ περιτομῆς,",
+      "generated_at": "2026-05-26T04:43:00.776925Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "ydelheytsprekers",
+          "context": "hoofdtekst, ματαιολόγοι",
+          "choice": "ijdele praters",
+          "alternatives": [
+            "ijdelheidsprekers"
+          ],
+          "reason": "HSV-spiegel bevestigde dat 'ijdelheidsprekers' een drempel-archaïsme is; 'ijdele praters' behoudt de SV-lexicale lijn zonder hervertaling."
+        }
+      ]
+    },
+    {
+      "verse_number": 11,
+      "original": "Welcke men moet <Namelick, met wederlegginge van hare valsche leeringen ende lasteringen. siet vers 9. ende Matth. 22.34.> den mont stoppen: die geheele $Matth. 23.14. 2.Timoth. 3.6$ <D. huysgesinnen, gelijck Luce 10. vers 5. Actor. 16.15. ende cap. 18. vers 8. 1.Cor. 1. vers 16. 1.Timoth. 3. vers 4. ende cap. 5. vers 4. 2.Timoth. 1.16.> huysen <Of, omkeeren, D. van ’t rechte geloove afkeeren, ende in het verderf brengen.> verkeeren, leerende dat niet en behoort, om vuyl gewins wille.",
+      "modernized": "Hun moet men <Namelijk, met weerlegging van hun valse leringen en lasteringen. Zie vers 9 en $Mt. 22:34$.> de mond snoeren: zij keren hele $Mt. 23:14; 2Tm. 3:6$ <Dat is, huisgezinnen, zoals $Lk. 10:5; Hd. 16:15; 18:8; 1Kor. 1:16; 1Tm. 3:4; 5:4; 2Tm. 1:16$.> huizen <Of, omkeren, dat is, van het rechte geloof afkeren, en in het verderf brengen.> ondersteboven, en leren wat niet behoort, om schandelijk gewin.",
+      "source_text": "οὓς δεῖ ἐπιστομίζειν· οἵτινες ὅλους οἴκους ἀνατρέπουσι, διδάσκοντες ἃ μὴ δεῖ, αἰσχροῦ κέρδους χάριν.",
+      "generated_at": "2026-05-26T04:43:33.398520Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 12,
+      "original": "<D. een uyt de Cretensen, die in Creta geboren is, Namel. Epimenides, gelijck oock het eerste by Calimachus noch te lesen is.> Een uyt haer, zijnde haer eygen <D. Poeët, ofte Dichter. Want de Heydenen hielden hare Poëten by na in deselve achtinge, als de Ioden hare Propheten, ende geloofden, hoewel verkeerdelick, dat deselve eenige Godtlicke ingevingen hadden: waerom sy oock Vates, D. Propheten genaemt wierden. Elders noemt hy sulcke oock Poëten. Act. 17.28.> Propheet, heeft geseght, De Cretensen zijn altijt leugenachtigh, quade beesten, <D. vraetachtige ende luije menschen.> luije buycken.",
+      "modernized": "<Dat is, een uit de Kretenzen, die op Kreta geboren is, Namelijk Epimenides, zoals ook het eerste bij Callimachus nog te lezen is.> Een van hen, hun eigen <Dat is, Poëet, of Dichter. Want de Heidenen hielden hun Poëten bijna in dezelfde achting als de Joden hun Profeten, en geloofden, hoewel ten onrechte, dat dezen enige Goddelijke ingevingen hadden: waarom zij ook Vates, dat is, Profeten genoemd werden. Elders noemt hij zulke personen ook Poëten. $Hd. 17:28$.> Profeet, heeft gezegd: De Kretenzen zijn altijd leugenachtig, kwade beesten, <Dat is, vraatzuchtige en luie mensen.> luie buiken.",
+      "source_text": "εἶπέ τις ἐξ αὐτῶν, ἴδιος αὐτῶν προφήτης, Κρῆτες ἀεὶ ψεῦσται, κακὰ θηρία, γαστέρες ἀργαί.",
+      "generated_at": "2026-05-26T04:44:19.242104Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
