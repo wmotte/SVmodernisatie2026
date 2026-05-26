@@ -1,13 +1,33 @@
 {
   "book": "PHP",
   "chapter": 2,
-  "reviewed_at": "2026-05-26T20:33:29+00:00",
+  "reviewed_at": "2026-05-26T20:37:54+00:00",
   "passes": [
     {
       "pass": 1,
       "ran_at": "2026-05-26T20:33:29+00:00",
       "mode": "scan",
       "issues_total": 13
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-26T20:37:54+00:00",
+      "mode": "verify",
+      "actions": [
+        "PHP-2-10-001: verified",
+        "PHP-2-10-002: verified",
+        "PHP-2-10-003: verified",
+        "PHP-2-10-004: verified",
+        "PHP-2-10-005: verified",
+        "PHP-2-10-006: verified",
+        "PHP-2-10-007: rebuttal verified",
+        "PHP-2-10-008: rebuttal verified",
+        "PHP-2-11-001: verified",
+        "PHP-2-17-001: rebuttal verified",
+        "PHP-2-29-001: verified",
+        "PHP-2-2-001: rebuttal verified",
+        "PHP-2-3-001: rebuttal verified"
+      ]
     }
   ],
   "issues": [
@@ -21,7 +41,8 @@
       "proposed_fix": "van de heren",
       "location": "kanttekening",
       "id": "PHP-2-10-001",
-      "status": "fixed"
+      "status": "verified",
+      "verified_at": "2026-05-26T20:37:54+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -33,7 +54,8 @@
       "proposed_fix": "van de koningen",
       "location": "kanttekening",
       "id": "PHP-2-10-002",
-      "status": "fixed"
+      "status": "verified",
+      "verified_at": "2026-05-26T20:37:54+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -45,7 +67,8 @@
       "proposed_fix": "van de Koningen",
       "location": "kanttekening",
       "id": "PHP-2-10-003",
-      "status": "fixed"
+      "status": "verified",
+      "verified_at": "2026-05-26T20:37:54+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -57,7 +80,8 @@
       "proposed_fix": "van de aarde",
       "location": "kanttekening",
       "id": "PHP-2-10-004",
-      "status": "fixed"
+      "status": "verified",
+      "verified_at": "2026-05-26T20:37:54+00:00"
     },
     {
       "category": "voornaamwoordelijk bijwoord gesplitst",
@@ -69,7 +93,8 @@
       "proposed_fix": "hierop",
       "location": "kanttekening",
       "id": "PHP-2-10-005",
-      "status": "fixed"
+      "status": "verified",
+      "verified_at": "2026-05-26T20:37:54+00:00"
     },
     {
       "category": "voornaamwoordelijk bijwoord gesplitst",
@@ -81,7 +106,8 @@
       "proposed_fix": "hiertoe",
       "location": "kanttekening",
       "id": "PHP-2-10-006",
-      "status": "fixed"
+      "status": "verified",
+      "verified_at": "2026-05-26T20:37:54+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -93,8 +119,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "PHP-2-10-007",
-      "status": "rebutted",
-      "rebuttal": "'op welke plaats ... ook' is hier geen relatief pronomen dat 'die/dat' vervangt, maar een onbepaalde adjectivische constructie bij 'plaats'. De ARCHAISMEN.md-regel over 'welke' als relativum is daarom niet van toepassing; §2.7 laat zulke productieve moderne combinaties staan."
+      "status": "verified",
+      "rebuttal": "'op welke plaats ... ook' is hier geen relatief pronomen dat 'die/dat' vervangt, maar een onbepaalde adjectivische constructie bij 'plaats'. De ARCHAISMEN.md-regel over 'welke' als relativum is daarom niet van toepassing; §2.7 laat zulke productieve moderne combinaties staan.",
+      "verified_at": "2026-05-26T20:37:54+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -106,8 +133,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "PHP-2-10-008",
-      "status": "rebutted",
-      "rebuttal": "KANTTEKENINGEN.md verbiedt overbodige herhaling, maar deze kanttekening is niet redundant: zij ontvouwt de tweede groep in de driedeling van PHP 2:10 (hemel/aarde/onder aarde) als 'alle mensen die op de aarde leven'. Dat verklaart de categorie 'ἐπιγείων' en bewaart de SV-kanttekeningpositie."
+      "status": "verified",
+      "rebuttal": "KANTTEKENINGEN.md verbiedt overbodige herhaling, maar deze kanttekening is niet redundant: zij ontvouwt de tweede groep in de driedeling van PHP 2:10 (hemel/aarde/onder aarde) als 'alle mensen die op de aarde leven'. Dat verklaart de categorie 'ἐπιγείων' en bewaart de SV-kanttekeningpositie.",
+      "verified_at": "2026-05-26T20:37:54+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -119,7 +147,8 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "PHP-2-11-001",
-      "status": "fixed"
+      "status": "verified",
+      "verified_at": "2026-05-26T20:37:54+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -131,8 +160,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "PHP-2-17-001",
-      "status": "rebutted",
-      "rebuttal": "'indien' in PHP 2:17 is een conditionele voegwoordsvorm ('indien ik ook tot een drankoffer geofferd word'). Volgens MODERNISATIE.md §2.7 is formeel maar productief Nederlands geen drempel-archaïsme; 'als' zou kunnen, maar is geen verplichte modernisering."
+      "status": "verified",
+      "rebuttal": "'indien' in PHP 2:17 is een conditionele voegwoordsvorm ('indien ik ook tot een drankoffer geofferd word'). Volgens MODERNISATIE.md §2.7 is formeel maar productief Nederlands geen drempel-archaïsme; 'als' zou kunnen, maar is geen verplichte modernisering.",
+      "verified_at": "2026-05-26T20:37:54+00:00"
     },
     {
       "category": "genitief pronomen wiens/wier",
@@ -144,7 +174,8 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "PHP-2-29-001",
-      "status": "fixed"
+      "status": "verified",
+      "verified_at": "2026-05-26T20:37:54+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -161,8 +192,9 @@
         20
       ],
       "id": "PHP-2-2-001",
-      "status": "rebutted",
-      "rebuttal": "Concordantie is hier semantisch, niet louter stamvormig. PHP 2:2 gebruikt 'van één gemoed' voor SV 'van een gemoedt'; PHP 2:19 'wel gemoedt' betekent idiomatisch 'goedsmoeds'; PHP 2:20 'even alsoo gemoedt' betekent 'evenzo gezind'. AGENTS.md concordantie wijkt waar de SV-stam verschillende Nederlandse constructies draagt."
+      "status": "verified",
+      "rebuttal": "Concordantie is hier semantisch, niet louter stamvormig. PHP 2:2 gebruikt 'van één gemoed' voor SV 'van een gemoedt'; PHP 2:19 'wel gemoedt' betekent idiomatisch 'goedsmoeds'; PHP 2:20 'even alsoo gemoedt' betekent 'evenzo gezind'. AGENTS.md concordantie wijkt waar de SV-stam verschillende Nederlandse constructies draagt.",
+      "verified_at": "2026-05-26T20:37:54+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -179,8 +211,9 @@
         8
       ],
       "id": "PHP-2-3-001",
-      "status": "rebutted",
-      "rebuttal": "False-positive. De drie hits renderen SV 'hemselven' in reflexieve context naar modern 'zichzelf'. Dat volgt ARCHAISMEN.md/SV-pronomina en behoudt juist de concordantie op betekenisniveau; de scanner ziet alleen geen prefix-overlap tussen 'hemselv' en 'zichzelf'."
+      "status": "verified",
+      "rebuttal": "False-positive. De drie hits renderen SV 'hemselven' in reflexieve context naar modern 'zichzelf'. Dat volgt ARCHAISMEN.md/SV-pronomina en behoudt juist de concordantie op betekenisniveau; de scanner ziet alleen geen prefix-overlap tussen 'hemselv' en 'zichzelf'.",
+      "verified_at": "2026-05-26T20:37:54+00:00"
     }
   ]
 }
