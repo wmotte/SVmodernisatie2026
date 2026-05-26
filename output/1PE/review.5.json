@@ -1,0 +1,81 @@
+{
+  "book": "1PE",
+  "chapter": 5,
+  "reviewed_at": "2026-05-26T06:52:37+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-26T06:52:37+00:00",
+      "mode": "scan",
+      "issues_total": 5
+    }
+  ],
+  "issues": [
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 4,
+      "severity": "hard",
+      "quote_modernized": "…  dan zult u   de onverwelkelijke kroon der heerlijkheid behalen.",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'der heerlijkheid' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de heerlijkheid' of 'van het heerlijkheid', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de heerlijkheid",
+      "location": "hoofdtekst",
+      "id": "1PE-5-4-001",
+      "status": "rebutted",
+      "rebuttal": "\"kroon der heerlijkheid\" (Gr. tes doxes stephanon, gen.sg.fem.) is een gefossiliseerde bijbelgenitief, opgenomen in FOSSIL_GENITIVE_PAIRS — validator geeft 0F op de hoofdtekst. Concordant met \"Heere der heerlijkheid\" (1Kor. 2:8) en \"Vader der heerlijkheid\" (Ef. 1:17). Net als \"Koninkrijk der hemelen\" een vaste constructie, geen productieve SV-verbuiging."
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 4,
+      "severity": "soft",
+      "quote_modernized": "…n alle schapen, zowel Joden als Heidenen, welke titel niemand anders kan toekome…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "1PE-5-4-002",
+      "status": "rebutted",
+      "rebuttal": "\"welke titel niemand anders kan toekomen\" gebruikt \"welke\" als relatief determinator (welke + substantief), niet het kale archaïsche pronomen \"hetwelk/dewelke\" dat ARCHAISMEN.md viseert. Relativum + zelfstandig naamwoord overleeft in modern formeel Nederlands (\"welke titel\"). Staat in kanttekening, soft. Geen actie."
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 11,
+      "severity": "hard",
+      "quote_modernized": "Grieks: tot de eeuwen der eeuwen.",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'der eeuwen' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de eeuwen' of 'van het eeuwen', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de eeuwen",
+      "location": "kanttekening",
+      "id": "1PE-5-11-001",
+      "status": "rebutted",
+      "rebuttal": "\"tot de eeuwen der eeuwen\" staat in een als \"Grieks:\" gemarkeerde interlineaire gloss van eis tous aionas ton aionon (gen.pl.) — literale brontaal-aanduiding, geen lopende moderne proza. §2.3-glosconventie laat de literale vorm staan; \"der eeuwen\" is bovendien gefossiliseerde doxologie-genitief (vgl. Op. 1:6, 4:9). Geen hoofdtekst-archaïsme."
+    },
+    {
+      "category": "§2.3 finiet participium",
+      "verse": 12,
+      "severity": "soft",
+      "quote_modernized": "…inige woorden geschreven, vermanende en betuigende dat dit is   de waarachtige g…",
+      "rule_reference": "MODERNISATIE.md §2.3",
+      "explanation": "'betuigende' — verdacht -ende-woord in adverbial / clause-final positie. Ontvouw naar finiete bijzin ('en X', 'terwijl X', 'toen X').",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "1PE-5-12-001",
+      "status": "fixed",
+      "fix_commit": "PENDING",
+      "rebuttal": ""
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 12,
+      "severity": "soft",
+      "quote_modernized": "met weinige woorden geschreven",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'met weinige woorden geschreven' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "1PE-5-12-002",
+      "status": "rebutted",
+      "rebuttal": "De kanttekening bespreekt de syntactische hechting van \"zoals ik acht\": Sommigen hechten het aan \"getrouw\", anderen aan \"weinige\". Het citaat \"heb ik u met weinige woorden geschreven\" toont de tweede leesvariant en is functioneel noodzakelijk voor de glos, geen parafrastische herhaling. KANTTEKENINGEN.md redundantie-regel viseert gratuite echo, niet een citaat dat een leesvariant demonstreert. SV-identiek (\"Alsoo ick achte, hebbe ick u met weynige woorden geschreven\")."
+    }
+  ]
+}
