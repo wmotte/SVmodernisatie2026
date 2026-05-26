@@ -86,6 +86,46 @@
       "generated_at": "2026-05-26T04:30:31.317416Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 7,
+      "original": "Want <Gr. episcopos, van welck woort siet Actor. 20. vers 28. Philip. 1.1. 1.Tim. 3.1.> een Opsiender moet onberispelick zijn, $Matth. 24.45. 1.Cor. 4.1. 1.Tim. 3.15.$ als een huysversorger Godts, <Ofte, niet eygendunckigh, hem selven behagende, D. die sijn hooft alleen volgen wil, ende stoutelick verwerpt het gevoelen van andere, ende die niemant en wil wijcken.> niet eygensinnigh, niet genegen tot toornigheyt, $Levit. 10.9. Ephes. 5.18.$ niet genegen tot den wijn, geen smijter, $1.Tim. 3.3. 1.Petr. 5.2.$ geen vuyl gewinsoecker:",
+      "modernized": "Want <Grieks: episcopos, van welk woord zie $Hd. 20:28; Fp. 1:1; 1Tm. 3:1$.> een Opziener moet onberispelijk zijn, $Mt. 24:45; 1Kor. 4:1; 1Tm. 3:15$ als een rentmeester van God, <Of, niet eigendunkelijk, zichzelf behagend, dat is, die alleen zijn eigen hoofd volgen wil, en stoutweg het gevoelen van anderen verwerpt, en voor niemand wil wijken.> niet eigenzinnig, niet driftig, $Lv. 10:9; Ef. 5:18$ niet aan de wijn verslaafd, geen vechter, $1Tm. 3:3; 1Pt. 5:2$ niet uit op schandelijk gewin:",
+      "source_text": "δεῖ γὰρ τὸν ἐπίσκοπον ἀνέγκλητον εἶναι, ὡς Θεοῦ οἰκονόμον· μὴ αὐθάδη, μὴ ὀργίλον, μὴ πάροινον, μὴ πλήκτην, μὴ αἰσχροκερδῆ,",
+      "generated_at": "2026-05-26T04:36:16.658527Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "huysversorger → rentmeester",
+          "context": "hoofdtekst",
+          "choice": "rentmeester",
+          "alternatives": [
+            "huisverzorger",
+            "huisbestuurder"
+          ],
+          "reason": "SV 'huysversorger' (Gr. οἰκονόμος) is in modern Nederlands misleidend; 'rentmeester' is de gangbare en concordante weergave, vgl. Lk. 12:42."
+        }
+      ]
+    },
+    {
+      "verse_number": 8,
+      "original": "Maer die $1.Tim. 3.2.$ geerne herberght, die <Ofte, het goede.> de goede lief heeft, <Of, voorsichtigh.> matigh, rechtveerdigh, heyligh, kuysch:",
+      "modernized": "Maar die $1Tm. 3:2$ graag herbergt, die <Of, het goede.> de goeden liefheeft, <Of, voorzichtig.> bezonnen, rechtvaardig, heilig, kuis:",
+      "source_text": "ἀλλὰ φιλόξενον, φιλάγαθον, σώφρονα, δίκαιον, ὅσιον, ἐγκρατῆ,",
+      "generated_at": "2026-05-26T04:36:52.910443Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 9,
+      "original": "Die vast houdt aen <Of, het woort dat geloofweerdigh is, ende met geloove wort aengenomen.> het getrouwe woort dat <D. na de suyvere leere des Heyligen Euangeliums. Siet Ioan. 7.17. Rom. 16.17.> na de leere is, op dat hy machtigh zy beyde om te vermanen door de gesonde leere, ende om de tegensprekers <D. met bondige redenen uyt de Schrifture te overtuygen van hare dwalingen.> te wederleggen.",
+      "modernized": "Die vasthoudt aan <Of, het woord dat geloofwaardig is, en met geloof wordt aangenomen.> het getrouwe woord dat <Dat is, naar de zuivere leer van het Heilige Evangelie. Zie $Jh. 7:17; Rm. 16:17$.> naar de leer is, opdat hij in staat is zowel te vermanen door de gezonde leer, als de tegensprekers <Dat is, met bondige redenen uit de Schrift te overtuigen van hun dwalingen.> te wederleggen.",
+      "source_text": "ἀντεχόμενον τοῦ κατὰ τὴν διδαχὴν πιστοῦ λόγου, ἵνα δυνατὸς ᾖ καὶ παρακαλεῖν ἐν τῇ διδασκαλίᾳ τῇ ὑγιαινούσῃ, καὶ τοὺς ἀντιλέγοντας ἐλέγχειν.",
+      "generated_at": "2026-05-26T04:37:29.939597Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
