@@ -1,0 +1,186 @@
+{
+  "book": "PHP",
+  "chapter": 2,
+  "reviewed_at": "2026-05-26T20:33:29+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-26T20:33:29+00:00",
+      "mode": "scan",
+      "issues_total": 13
+    }
+  ],
+  "issues": [
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 10,
+      "severity": "hard",
+      "quote_modernized": "…schepselen onder Christus, als de Heere der heren, en Koning der koningen, $Op. …",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'der heren' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de heren' of 'van het heren', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de heren",
+      "location": "kanttekening",
+      "id": "PHP-2-10-001",
+      "status": "fixed"
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 10,
+      "severity": "hard",
+      "quote_modernized": "…stus, als de Heere der heren, en Koning der koningen, $Op. 19:16$, de Overste de…",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'der koningen' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de koningen' of 'van het koningen', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de koningen",
+      "location": "kanttekening",
+      "id": "PHP-2-10-002",
+      "status": "fixed"
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 10,
+      "severity": "hard",
+      "quote_modernized": "…g der koningen, $Op. 19:16$, de Overste der Koningen der aarde, $Op. 1:5$, en de…",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'der Koningen' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de Koningen' of 'van het Koningen', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de Koningen",
+      "location": "kanttekening",
+      "id": "PHP-2-10-003",
+      "status": "fixed"
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 10,
+      "severity": "hard",
+      "quote_modernized": "…n, $Op. 19:16$, de Overste der Koningen der aarde, $Op. 1:5$, en de Heere over a…",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'der aarde' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de aarde' of 'van het aarde', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de aarde",
+      "location": "kanttekening",
+      "id": "PHP-2-10-004",
+      "status": "fixed"
+    },
+    {
+      "category": "voornaamwoordelijk bijwoord gesplitst",
+      "verse": 10,
+      "severity": "hard",
+      "quote_modernized": "…vijanden tegen hun wil. De Apostel ziet hier op hetgeen God zegt, $Js. 45:23$, e…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'hier op' — SV-gesplitst voornaamwoordelijk bijwoord. Modern Nederlands voegt samen: 'hierop' (bv. daarin, waarmee, hierop).",
+      "proposed_fix": "hierop",
+      "location": "kanttekening",
+      "id": "PHP-2-10-005",
+      "status": "fixed"
+    },
+    {
+      "category": "voornaamwoordelijk bijwoord gesplitst",
+      "verse": 10,
+      "severity": "hard",
+      "quote_modernized": "…3$, en past datzelfde op Jezus Christus hier toe, zoals ook $Rm. 14:11$ Deze woo…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'hier toe' — SV-gesplitst voornaamwoordelijk bijwoord. Modern Nederlands voegt samen: 'hiertoe' (bv. daarin, waarmee, hierop).",
+      "proposed_fix": "hiertoe",
+      "location": "kanttekening",
+      "id": "PHP-2-10-006",
+      "status": "fixed"
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 10,
+      "severity": "soft",
+      "quote_modernized": "…zijn. Dat is, alle redelijke schepselen op welke plaats van de geschapen wereld …",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "PHP-2-10-007",
+      "status": "rebutted",
+      "rebuttal": "'op welke plaats ... ook' is hier geen relatief pronomen dat 'die/dat' vervangt, maar een onbepaalde adjectivische constructie bij 'plaats'. De ARCHAISMEN.md-regel over 'welke' als relativum is daarom niet van toepassing; §2.7 laat zulke productieve moderne combinaties staan."
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 10,
+      "severity": "soft",
+      "quote_modernized": "die op de aarde",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'die op de aarde' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "PHP-2-10-008",
+      "status": "rebutted",
+      "rebuttal": "KANTTEKENINGEN.md verbiedt overbodige herhaling, maar deze kanttekening is niet redundant: zij ontvouwt de tweede groep in de driedeling van PHP 2:10 (hemel/aarde/onder aarde) als 'alle mensen die op de aarde leven'. Dat verklaart de categorie 'ἐπιγείων' en bewaart de SV-kanttekeningpositie."
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 11,
+      "severity": "soft",
+      "quote_modernized": "…Christus is, Dat is, de Gezalfde. Dat is, welke belijdenis strekt tot verbreidin…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "PHP-2-11-001",
+      "status": "fixed"
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 17,
+      "severity": "soft",
+      "quote_modernized": "Ja, indien   ik ook   tot een drankoffer geo…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "PHP-2-17-001",
+      "status": "rebutted",
+      "rebuttal": "'indien' in PHP 2:17 is een conditionele voegwoordsvorm ('indien ik ook tot een drankoffer geofferd word'). Volgens MODERNISATIE.md §2.7 is formeel maar productief Nederlands geen drempel-archaïsme; 'als' zou kunnen, maar is geen verplichte modernisering."
+    },
+    {
+      "category": "genitief pronomen wiens/wier",
+      "verse": 29,
+      "severity": "hard",
+      "quote_modernized": "Dat is, omwille van de Heere, wiens dienaar hij is; Of, niet met een w…",
+      "rule_reference": "ARCHAISMEN.md (SV-pronomina)",
+      "explanation": "'wiens dienaar' — formeel-archaïsch genitief-pronomen. Modern Nederlands: 'van wie dienaar' of zinsherbouw met bezittelijk voornaamwoord ('die zijn dienaar', 'die haar dienaar'). NBV21 vermijdt 'wiens' grotendeels.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "PHP-2-29-001",
+      "status": "fixed"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 2,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'gemoedt' in 3 verzen — verzen [19, 20] renderen het stam anders dan [2]",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        2,
+        19,
+        20
+      ],
+      "id": "PHP-2-2-001",
+      "status": "rebutted",
+      "rebuttal": "Concordantie is hier semantisch, niet louter stamvormig. PHP 2:2 gebruikt 'van één gemoed' voor SV 'van een gemoedt'; PHP 2:19 'wel gemoedt' betekent idiomatisch 'goedsmoeds'; PHP 2:20 'even alsoo gemoedt' betekent 'evenzo gezind'. AGENTS.md concordantie wijkt waar de SV-stam verschillende Nederlandse constructies draagt."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 3,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'hemselv' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        3,
+        7,
+        8
+      ],
+      "id": "PHP-2-3-001",
+      "status": "rebutted",
+      "rebuttal": "False-positive. De drie hits renderen SV 'hemselven' in reflexieve context naar modern 'zichzelf'. Dat volgt ARCHAISMEN.md/SV-pronomina en behoudt juist de concordantie op betekenisniveau; de scanner ziet alleen geen prefix-overlap tussen 'hemselv' en 'zichzelf'."
+    }
+  ]
+}
