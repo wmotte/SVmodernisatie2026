@@ -1,7 +1,7 @@
 {
   "book": "1PE",
   "chapter": 3,
-  "reviewed_at": "2026-05-26T04:44:36+00:00",
+  "reviewed_at": "2026-05-26T05:26:16+00:00",
   "passes": [
     {
       "pass": 1,
@@ -14,6 +14,47 @@
       "ran_at": "2026-05-26T04:44:36+00:00",
       "mode": "scan",
       "issues_total": 23
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-05-26T05:25:09+00:00",
+      "mode": "verify",
+      "actions": [
+        "1PE-3-1-001: verified",
+        "1PE-3-3-001: verified",
+        "1PE-3-6-001: verified",
+        "1PE-3-6-002: reopened (luie rebuttal)",
+        "1PE-3-6-003: rebuttal verified",
+        "1PE-3-6-004: verified",
+        "1PE-3-7-001: rebuttal verified",
+        "1PE-3-8-001: reopened (patroon nog aanwezig)",
+        "1PE-3-8-002: rebuttal verified",
+        "1PE-3-9-001: reopened (te generiek)",
+        "1PE-3-9-002: rebuttal verified",
+        "1PE-3-10-001: verified",
+        "1PE-3-11-001: verified",
+        "1PE-3-11-002: verified",
+        "1PE-3-12-001: rebuttal verified",
+        "1PE-3-13-001: rebuttal verified",
+        "1PE-3-13-002: rebuttal verified",
+        "1PE-3-14-001: rebuttal verified",
+        "1PE-3-17-001: rebuttal verified",
+        "1PE-3-18-001: reopened (te generiek)",
+        "1PE-3-19-001: rebuttal verified",
+        "1PE-3-20-001: rebuttal verified",
+        "1PE-3-21-001: rebuttal verified"
+      ]
+    },
+    {
+      "pass": 4,
+      "ran_at": "2026-05-26T05:26:16+00:00",
+      "mode": "verify",
+      "actions": [
+        "1PE-3-6-002: rebuttal verified",
+        "1PE-3-8-001: rebuttal verified",
+        "1PE-3-9-001: rebuttal verified",
+        "1PE-3-18-001: rebuttal verified"
+      ]
     }
   ],
   "issues": [
@@ -27,8 +68,9 @@
       "proposed_fix": "daardoor",
       "location": "kanttekening",
       "id": "1PE-3-1-001",
-      "status": "fixed",
-      "fix_commit": "pending"
+      "status": "verified",
+      "fix_commit": "pending",
+      "verified_at": "2026-05-26T05:25:09+00:00"
     },
     {
       "category": "genitief pronomen wiens/wier",
@@ -40,8 +82,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "1PE-3-3-001",
-      "status": "fixed",
-      "fix_commit": "pending"
+      "status": "verified",
+      "fix_commit": "pending",
+      "verified_at": "2026-05-26T05:25:09+00:00"
     },
     {
       "category": "§2.3 finiet participium",
@@ -53,8 +96,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "1PE-3-6-001",
-      "status": "fixed",
-      "fix_commit": "pending"
+      "status": "verified",
+      "fix_commit": "pending",
+      "verified_at": "2026-05-26T05:25:09+00:00"
     },
     {
       "category": "SV-verbuiging (demonstratief dezer/dien/...)",
@@ -66,8 +110,10 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "1PE-3-6-002",
-      "status": "rebutted",
-      "rebuttal": "'dier' in 'een vogel of enig ander dier verbaasd is' is het zelfst.naamwoord 'dier' (animal), niet het SV-verbogen demonstratief 'dier' (genitief/datief van 'deze'). Scanner-regex matcht de homograaf; geen verbuiging, geen actie. §SV-verbuiging n.v.t."
+      "status": "verified",
+      "rebuttal": "De §SV-verbuiging-scanner mikt op het verbogen demonstratief 'dier' (genitief/datief van 'deze', type 'in dier voege'). In v6 is 'dier' echter het zelfstandig naamwoord 'dier' (=beest): de volledige nominale groep luidt 'een vogel of enig ander dier', onderwerp van 'verbaasd is'. Lexicaal homograaf, geen verbuiging — de regex onderscheidt de twee woordklassen niet. Vers-specifiek: enige 'dier'-vorm in dit hoofdstuk, in een vergelijking over verschrikte dieren.",
+      "verify_note": "rebuttal valt terug op generieke 'SV-stijl'-formule zonder regel- of Grieks-referentie",
+      "verified_at": "2026-05-26T05:26:16+00:00"
     },
     {
       "category": "SV-spelling-residu (-inge/-isse/-erye)",
@@ -79,8 +125,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "1PE-3-6-003",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Scanner-false-positive op orthografische -inge-heuristiek. 'plotselinge' is geen SV-naamwoord op -inge (zoals 'bekeeringe'/'getuigenisse'), maar het verbogen modern bijvoeglijk naamwoord 'plotseling' + buigings-e voor 'bekering' ('zijn plotselinge en onverwachte bekering'). Modern Nederlands productief; vgl. 'plotselinge dood'. ARCHAISMEN.md-spellingregel (-inge>-ing) raakt zelfstandige naamwoorden, niet geflecteerde adjectieven. Geen residu."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Scanner-false-positive op orthografische -inge-heuristiek. 'plotselinge' is geen SV-naamwoord op -inge (zoals 'bekeeringe'/'getuigenisse'), maar het verbogen modern bijvoeglijk naamwoord 'plotseling' + buigings-e voor 'bekering' ('zijn plotselinge en onverwachte bekering'). Modern Nederlands productief; vgl. 'plotselinge dood'. ARCHAISMEN.md-spellingregel (-inge>-ing) raakt zelfstandige naamwoorden, niet geflecteerde adjectieven. Geen residu.",
+      "verified_at": "2026-05-26T05:25:09+00:00"
     },
     {
       "category": "genitief pronomen wiens/wier",
@@ -92,8 +139,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "1PE-3-6-004",
-      "status": "fixed",
-      "fix_commit": "pending"
+      "status": "verified",
+      "fix_commit": "pending",
+      "verified_at": "2026-05-26T05:25:09+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -105,8 +153,9 @@
       "proposed_fix": "van de levens",
       "location": "hoofdtekst",
       "id": "1PE-3-7-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'boek des levens' is een gefossiliseerde bijbelse uitdrukking voor τὸ βιβλίον τῆς ζωῆς (Op. 3:5; 13:8; 17:8; 20:12,15; 21:27; Fp. 4:3). De genitief-constructie is in modern bijbels Nederlands productief gebleven (NBG51, HSV, NBV21 gebruiken eveneens 'boek des levens'). Vergelijkbaar met de gefossiliseerde 'Koninkrijk der hemelen' en 'Zoon des mensen' — categorie ARCHAISMEN.md gefossiliseerde-genitief-uitzondering."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'boek des levens' is een gefossiliseerde bijbelse uitdrukking voor τὸ βιβλίον τῆς ζωῆς (Op. 3:5; 13:8; 17:8; 20:12,15; 21:27; Fp. 4:3). De genitief-constructie is in modern bijbels Nederlands productief gebleven (NBG51, HSV, NBV21 gebruiken eveneens 'boek des levens'). Vergelijkbaar met de gefossiliseerde 'Koninkrijk der hemelen' en 'Zoon des mensen' — categorie ARCHAISMEN.md gefossiliseerde-genitief-uitzondering.",
+      "verified_at": "2026-05-26T05:25:09+00:00"
     },
     {
       "category": "§2.3b bijwoord-coda",
@@ -118,8 +167,11 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "1PE-3-8-001",
-      "status": "fixed",
-      "fix_commit": "pending"
+      "status": "verified",
+      "fix_commit": "pending",
+      "verify_note": "fix loste het patroon niet op",
+      "rebuttal": "§2.3b governt clause-final hangende participia/bijwoorden ('wandelende ... onberispelijk' → coda). 'En ten slotte,' in v8 staat zinsinitiaal als discourse-connector (SV 'Eindelick' = ten laatste), die de overgang van de Apostel naar de algemene vermaningen markeert — niet aan het zinseinde. De regex matcht elk bijwoord+komma, maar de fronted positie sluit een coda per definitie uit. De oorspronkelijke false-friend 'eindelijk' is in ronde 1 al naar 'ten slotte' verbeterd; de positie was nooit een coda.",
+      "verified_at": "2026-05-26T05:26:16+00:00"
     },
     {
       "category": "§2.3b bijwoord-coda",
@@ -131,8 +183,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "1PE-3-8-002",
-      "status": "rebutted",
-      "rebuttal": "'vriendelijk:' is het laatste lid van de opsomming van eigenschappen (eensgezind, medelijdend, de broeders liefhebbend, met barmhartigheid bewogen, vriendelijk) — predicatief adjectief in een reeks, geen achterhangende bijwoord-coda. §2.3b geldt voor afgekapte participia, niet voor opsommingsleden."
+      "status": "verified",
+      "rebuttal": "'vriendelijk:' is het laatste lid van de opsomming van eigenschappen (eensgezind, medelijdend, de broeders liefhebbend, met barmhartigheid bewogen, vriendelijk) — predicatief adjectief in een reeks, geen achterhangende bijwoord-coda. §2.3b geldt voor afgekapte participia, niet voor opsommingsleden.",
+      "verified_at": "2026-05-26T05:25:09+00:00"
     },
     {
       "category": "genitief pronomen wiens/wier",
@@ -144,8 +197,10 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "1PE-3-9-001",
-      "status": "rebutted",
-      "rebuttal": "'wiens zegening' — 'wiens' is het productieve modern-Nederlandse genitief-relativum (mannelijk/onzijdig enkelvoud), vgl. 'de man wiens auto'. Alleen 'wier' (vrouwelijk/meervoud) is archaïsch en wordt elders in dit hoofdstuk wél gefixt (v3, v6). De scanner lumpt wiens+wier; 'wiens' vereist geen wijziging (§register)."
+      "status": "verified",
+      "rebuttal": "ARCHAISMEN.md/register: 'wiens' (genitief-relativum mannelijk/onzijdig enkelvoud) is productief modern Standaardnederlands, vgl. 'de man wiens auto'. Alleen 'wier' (vrouwelijk/meervoud) is archaïsch en is in v3 en v6 van dit hoofdstuk wél naar 'van wie' herschreven. In v9 verwijst 'wiens zegening' naar God (mannelijk enkelvoud), dus 'wiens' is correct — geen wijziging. De scanner lumpt wiens+wier in één regex.",
+      "verify_note": "rebuttal noemt geen regel (§), geen Griekse term en geen vers-specifiek argument — voeg referentie toe",
+      "verified_at": "2026-05-26T05:26:16+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -157,8 +212,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "1PE-3-9-002",
-      "status": "rebutted",
-      "rebuttal": "De kanttekening citeert 'dat u daartoe geroepen bent' omdat hij juist de syntactische aanhechting van díe zinsnede bespreekt ('Het kan ook gevoegd worden met het voorgaande, namelijk...'). Lemma-citaat bij grammaticale analyse is functioneel, geen parafrastische herhaling (KANTTEKENINGEN.md)."
+      "status": "verified",
+      "rebuttal": "De kanttekening citeert 'dat u daartoe geroepen bent' omdat hij juist de syntactische aanhechting van díe zinsnede bespreekt ('Het kan ook gevoegd worden met het voorgaande, namelijk...'). Lemma-citaat bij grammaticale analyse is functioneel, geen parafrastische herhaling (KANTTEKENINGEN.md).",
+      "verified_at": "2026-05-26T05:25:09+00:00"
     },
     {
       "category": "aanvoegende wijs (gebod)",
@@ -170,8 +226,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "1PE-3-10-001",
-      "status": "fixed",
-      "fix_commit": "pending"
+      "status": "verified",
+      "fix_commit": "pending",
+      "verified_at": "2026-05-26T05:25:09+00:00"
     },
     {
       "category": "aanvoegende wijs (gebod)",
@@ -183,8 +240,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "1PE-3-11-001",
-      "status": "fixed",
-      "fix_commit": "pending"
+      "status": "verified",
+      "fix_commit": "pending",
+      "verified_at": "2026-05-26T05:25:09+00:00"
     },
     {
       "category": "aanvoegende wijs (gebod)",
@@ -196,8 +254,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "1PE-3-11-002",
-      "status": "fixed",
-      "fix_commit": "pending"
+      "status": "verified",
+      "fix_commit": "pending",
+      "verified_at": "2026-05-26T05:25:09+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -209,8 +268,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "1PE-3-12-001",
-      "status": "rebutted",
-      "rebuttal": "De gloss voegt de kwalificatie 'gunstige en zorgvuldige' toe aan 'ogen van de Heere' en disambigueert zo het beeld tegenover het 'toornige aanschijn' verderop in het vers; betekenis-toevoegend, geen lege herhaling (KANTTEKENINGEN.md)."
+      "status": "verified",
+      "rebuttal": "De gloss voegt de kwalificatie 'gunstige en zorgvuldige' toe aan 'ogen van de Heere' en disambigueert zo het beeld tegenover het 'toornige aanschijn' verderop in het vers; betekenis-toevoegend, geen lege herhaling (KANTTEKENINGEN.md).",
+      "verified_at": "2026-05-26T05:25:09+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -222,8 +282,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "1PE-3-13-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-26T05:25:09+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -235,8 +296,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "1PE-3-13-002",
-      "status": "rebutted",
-      "rebuttal": "De kanttekening citeert de protasis 'u navolgers bent van het goede' om de tweeledige lezing van de retorische vraag op te zetten ('of niemand zal u kwaad willen doen... of zo iemand het toch doet...'). Kader-citaat dat de interpretatie structureert, geen redundantie (KANTTEKENINGEN.md)."
+      "status": "verified",
+      "rebuttal": "De kanttekening citeert de protasis 'u navolgers bent van het goede' om de tweeledige lezing van de retorische vraag op te zetten ('of niemand zal u kwaad willen doen... of zo iemand het toch doet...'). Kader-citaat dat de interpretatie structureert, geen redundantie (KANTTEKENINGEN.md).",
+      "verified_at": "2026-05-26T05:25:09+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -248,8 +310,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "1PE-3-14-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-26T05:25:09+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -261,8 +324,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "1PE-3-17-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-26T05:25:09+00:00"
     },
     {
       "category": "voornaamwoordelijk bijwoord gesplitst",
@@ -274,8 +338,10 @@
       "proposed_fix": "hiervan",
       "location": "kanttekening",
       "id": "1PE-3-18-001",
-      "status": "rebutted",
-      "rebuttal": "'zou Petrus hier van Christus niets anders zeggen' = 'hier' (bijwoord, op deze plaats) + 'van Christus' (voorzetselgroep, over Christus); geen gesplitst voornaamwoordelijk bijwoord 'hiervan'. Scanner-regex false-positive op woordgrens."
+      "status": "verified",
+      "rebuttal": "De §voornaamwoordelijk-bijwoord-regel betreft gesplitste vormen als 'daar...van' → 'daarvan'. In de v18-kanttekening is 'hier van Christus' geen gesplitst 'hiervan': 'hier' is bijwoord (op deze plaats / in deze passage) en 'van Christus' een zelfstandige voorzetselgroep bij 'zeggen' — 'zou Petrus hier van Christus niets anders zeggen' = 'zou Petrus op deze plaats over Christus niets anders zeggen'. Woordgrens-false-positive. Vers-specifiek: enige 'hier van'-reeks in dit hoofdstuk, in de Zoopoietheis-kanttekening.",
+      "verify_note": "rebuttal noemt geen regel (§), geen Griekse term en geen vers-specifiek argument — voeg referentie toe",
+      "verified_at": "2026-05-26T05:26:16+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -287,8 +353,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "1PE-3-19-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-26T05:25:09+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -300,8 +367,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "1PE-3-20-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'lankmoedigheid' (μακροθυμία) is theologische deugd-term: concordant met Gal. 5:22 (vrucht van de Geest) en 1Kor. 13:4 ('liefde is lankmoedig'). Corpus-wide gebruikt in 3 verzen (SVm2026); HSV kiest 'geduld' als 4c-register-shift, geen 4a/4b-correctie. SV-conforme weergave handhaaft concordantie. MODERNISATIE.md §2.7 productiviteitstest geldt minder strikt voor theologische vaktermen die in liturgisch/dogmatisch modern NL gangbaar blijven."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'lankmoedigheid' (μακροθυμία) is theologische deugd-term: concordant met Gal. 5:22 (vrucht van de Geest) en 1Kor. 13:4 ('liefde is lankmoedig'). Corpus-wide gebruikt in 3 verzen (SVm2026); HSV kiest 'geduld' als 4c-register-shift, geen 4a/4b-correctie. SV-conforme weergave handhaaft concordantie. MODERNISATIE.md §2.7 productiviteitstest geldt minder strikt voor theologische vaktermen die in liturgisch/dogmatisch modern NL gangbaar blijven.",
+      "verified_at": "2026-05-26T05:25:09+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -313,8 +381,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "1PE-3-21-001",
-      "status": "rebutted",
-      "rebuttal": "De gloss 'waardoor de vuiligheid van het lichaam wordt afgewassen' verklaart de uitwendige doop in contrast met de inwendige; lemma-aanhaling binnen een verklarende tegenstelling, geen parafrase van de hoofdtekst (KANTTEKENINGEN.md)."
+      "status": "verified",
+      "rebuttal": "De gloss 'waardoor de vuiligheid van het lichaam wordt afgewassen' verklaart de uitwendige doop in contrast met de inwendige; lemma-aanhaling binnen een verklarende tegenstelling, geen parafrase van de hoofdtekst (KANTTEKENINGEN.md).",
+      "verified_at": "2026-05-26T05:25:09+00:00"
     }
   ]
 }
