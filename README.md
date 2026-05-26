@@ -876,7 +876,7 @@ protocol en de waarborgen rond de HSV-spiegel.
   | --------- | --------------- | ------ |
   | `LUK` | Het Evangelie naar Lucas | gereed (24/24 hoofdstukken) |
   | `MRK` | Het Evangelie naar Markus | gereed (16/16 hoofdstukken) |
-  | `ROM` | De brief van Paulus aan de Romeinen | in aanbouw (1–15 van 16) |
+  | `ROM` | De brief van Paulus aan de Romeinen | gereed (16/16 hoofdstukken) |
   | `1CO` | De eerste brief van Paulus aan de Korinthiërs | gereed (16/16 hoofdstukken) |
   | `2CO` | De tweede brief van Paulus aan de Korinthiërs | in aanbouw (1–3 van 13) |
   | `1PE` | De eerste brief van Petrus | gereed (5/5 hoofdstukken) |

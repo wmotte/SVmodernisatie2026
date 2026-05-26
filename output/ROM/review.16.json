@@ -1,7 +1,7 @@
 {
   "book": "ROM",
   "chapter": 16,
-  "reviewed_at": "2026-05-25T14:44:28+00:00",
+  "reviewed_at": "2026-05-26T08:21:23+00:00",
   "passes": [
     {
       "pass": 1,
@@ -14,6 +14,22 @@
       "ran_at": "2026-05-25T14:44:28+00:00",
       "mode": "scan",
       "issues_total": 9
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-05-26T08:21:23+00:00",
+      "mode": "verify",
+      "actions": [
+        "ROM-16-1-001: rebuttal verified",
+        "ROM-16-2-001: rebuttal verified",
+        "ROM-16-2-002: rebuttal verified",
+        "ROM-16-2-003: rebuttal verified",
+        "ROM-16-25-001: rebuttal verified",
+        "ROM-16-25-002: rebuttal verified",
+        "ROM-16-25-003: verified",
+        "ROM-16-2-004: rebuttal verified",
+        "ROM-16-9-001: rebuttal verified"
+      ]
     }
   ],
   "issues": [
@@ -27,8 +43,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ROM-16-1-001",
-      "status": "rebutted",
-      "rebuttal": "'diende' is finiet imperfectum van 'dienen' (3e pers. enkelvoud), geen adverbiaal participium. §2.3 viseert Latinate participia (λέγων-type); de relatiefzin 'die de gemeente diende' is reeds een finiete bijzin — precies wat §2.3 voorschrijft. Scanner-regex matcht foutief op de -ende-uitgang van een vervoegde verbumvorm."
+      "status": "verified",
+      "rebuttal": "'diende' is finiet imperfectum van 'dienen' (3e pers. enkelvoud), geen adverbiaal participium. §2.3 viseert Latinate participia (λέγων-type); de relatiefzin 'die de gemeente diende' is reeds een finiete bijzin — precies wat §2.3 voorschrijft. Scanner-regex matcht foutief op de -ende-uitgang van een vervoegde verbumvorm.",
+      "verified_at": "2026-05-26T08:21:23+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -40,8 +57,9 @@
       "proposed_fix": "van de Heeren",
       "location": "kanttekening",
       "id": "ROM-16-2-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] 'des Heeren' staat in FOSSIL_GENITIVE_PAIRS (rules_data.py: ('des','heeren')). Hoofdtekst v13 citeert $Jl. 2:32$ / $Hd. 2:21$: 'de naam des Heeren aanroepen' is een gefossiliseerd bijbels formulier (Gr. τὸ ὄνομα κυρίου), liturgisch en projectbreed behouden; validate.py meldt 0F. Niet de bogus 'dag des Heeren/Op.1:10'-grond."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] 'des Heeren' staat in FOSSIL_GENITIVE_PAIRS (rules_data.py: ('des','heeren')). Hoofdtekst v13 citeert $Jl. 2:32$ / $Hd. 2:21$: 'de naam des Heeren aanroepen' is een gefossiliseerd bijbels formulier (Gr. τὸ ὄνομα κυρίου), liturgisch en projectbreed behouden; validate.py meldt 0F. Niet de bogus 'dag des Heeren/Op.1:10'-grond.",
+      "verified_at": "2026-05-26T08:21:23+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -53,8 +71,9 @@
       "proposed_fix": "van de Heeren",
       "location": "kanttekening",
       "id": "ROM-16-2-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] 'des Heeren' staat in FOSSIL_GENITIVE_PAIRS (rules_data.py: ('des','heeren')). Hoofdtekst v13 citeert $Jl. 2:32$ / $Hd. 2:21$: 'de naam des Heeren aanroepen' is een gefossiliseerd bijbels formulier (Gr. τὸ ὄνομα κυρίου), liturgisch en projectbreed behouden; validate.py meldt 0F. Niet de bogus 'dag des Heeren/Op.1:10'-grond."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] 'des Heeren' staat in FOSSIL_GENITIVE_PAIRS (rules_data.py: ('des','heeren')). Hoofdtekst v13 citeert $Jl. 2:32$ / $Hd. 2:21$: 'de naam des Heeren aanroepen' is een gefossiliseerd bijbels formulier (Gr. τὸ ὄνομα κυρίου), liturgisch en projectbreed behouden; validate.py meldt 0F. Niet de bogus 'dag des Heeren/Op.1:10'-grond.",
+      "verified_at": "2026-05-26T08:21:23+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -66,8 +85,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ROM-16-2-003",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-26T08:21:23+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -79,8 +99,9 @@
       "proposed_fix": "van de wereld",
       "location": "kanttekening",
       "id": "ROM-16-25-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] 'der wereld' in 'de volken der wereld' = τὰ ἔθνη τοῦ κόσμου: gestolde genitief-constructie in bijbel-NL. HSV behoudt eveneens 'de volken van deze wereld'-vorm; fossielargument §2.3b van toepassing (vaste woordgroep, niet productieve verbuiging)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] 'der wereld' in 'de volken der wereld' = τὰ ἔθνη τοῦ κόσμου: gestolde genitief-constructie in bijbel-NL. HSV behoudt eveneens 'de volken van deze wereld'-vorm; fossielargument §2.3b van toepassing (vaste woordgroep, niet productieve verbuiging).",
+      "verified_at": "2026-05-26T08:21:23+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -92,8 +113,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ROM-16-25-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-26T08:21:23+00:00"
     },
     {
       "category": "genitief pronomen wiens/wier",
@@ -105,8 +127,9 @@
       "proposed_fix": "waarvan de inhoud de Heere Christus is",
       "location": "kanttekening",
       "id": "ROM-16-25-003",
-      "status": "fixed",
-      "fix_commit": "PENDING"
+      "status": "verified",
+      "fix_commit": "PENDING",
+      "verified_at": "2026-05-26T08:21:23+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -123,8 +146,9 @@
         16
       ],
       "id": "ROM-16-2-004",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] False-positive van de prefix-heuristiek: de stam 'heilig' wordt juist consistent weergegeven, maar naar woordsoort verbogen — v3/v14 zelfstandig naamwoord 'de heiligen'/'heiligen' (τοῖς ἁγίοις / ἁγίαις), v20 superlatief-adjectief 'allerheiligst' (ἁγιωτάτῃ). Morfologische variatie per woordsoort, geen concordantie-drift."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] False-positive van de prefix-heuristiek: de stam 'heilig' wordt juist consistent weergegeven, maar naar woordsoort verbogen — v3/v14 zelfstandig naamwoord 'de heiligen'/'heiligen' (τοῖς ἁγίοις / ἁγίαις), v20 superlatief-adjectief 'allerheiligst' (ἁγιωτάτῃ). Morfologische variatie per woordsoort, geen concordantie-drift.",
+      "verified_at": "2026-05-26T08:21:23+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -141,8 +165,9 @@
         21
       ],
       "id": "ROM-16-9-001",
-      "status": "rebutted",
-      "rebuttal": "Geen drift: v9 en v21 vertalen Grieks συνεργός (medewerker/co-worker) consistent als 'medearbeider'; v12 vertaalt κοπιάω (zwoegen/arbeiden) als 'arbeiden/gearbeid'. Verschillende Griekse lemma's, consistent per lemma — concordant met FILE ROM 1:1 (συνεργός→medearbeider). De SV-stam 'arbeyde' verbergt twee onderscheiden grondwoorden."
+      "status": "verified",
+      "rebuttal": "Geen drift: v9 en v21 vertalen Grieks συνεργός (medewerker/co-worker) consistent als 'medearbeider'; v12 vertaalt κοπιάω (zwoegen/arbeiden) als 'arbeiden/gearbeid'. Verschillende Griekse lemma's, consistent per lemma — concordant met FILE ROM 1:1 (συνεργός→medearbeider). De SV-stam 'arbeyde' verbergt twee onderscheiden grondwoorden.",
+      "verified_at": "2026-05-26T08:21:23+00:00"
     }
   ]
 }
