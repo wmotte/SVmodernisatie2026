@@ -1,7 +1,7 @@
 {
   "book": "1JN",
   "chapter": 2,
-  "reviewed_at": "2026-05-26T18:13:45+00:00",
+  "reviewed_at": "2026-05-26T18:23:21+00:00",
   "passes": [
     {
       "pass": 1,
@@ -14,6 +14,73 @@
       "ran_at": "2026-05-26T18:13:45+00:00",
       "mode": "scan",
       "issues_total": 52
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-05-26T18:22:57+00:00",
+      "mode": "verify",
+      "actions": [
+        "1JN-2-1-001: rebuttal verified",
+        "1JN-2-1-002: rebuttal verified",
+        "1JN-2-1-003: verified",
+        "1JN-2-1-004: rebuttal verified",
+        "1JN-2-2-001: rebuttal verified",
+        "1JN-2-7-001: rebuttal verified",
+        "1JN-2-7-002: rebuttal verified",
+        "1JN-2-8-001: rebuttal verified",
+        "1JN-2-8-002: rebuttal verified",
+        "1JN-2-8-003: rebuttal verified",
+        "1JN-2-8-004: rebuttal verified",
+        "1JN-2-8-005: rebuttal verified",
+        "1JN-2-9-001: rebuttal verified",
+        "1JN-2-10-001: rebuttal verified",
+        "1JN-2-10-002: rebuttal verified",
+        "1JN-2-10-003: rebuttal verified",
+        "1JN-2-12-001: verified",
+        "1JN-2-13-001: rebuttal verified",
+        "1JN-2-13-002: rebuttal verified",
+        "1JN-2-16-001: rebuttal verified",
+        "1JN-2-16-002: rebuttal verified",
+        "1JN-2-16-003: rebuttal verified",
+        "1JN-2-16-004: rebuttal verified",
+        "1JN-2-16-005: verified",
+        "1JN-2-18-001: verified",
+        "1JN-2-18-002: verified",
+        "1JN-2-18-003: rebuttal verified",
+        "1JN-2-18-004: rebuttal verified",
+        "1JN-2-18-005: rebuttal verified",
+        "1JN-2-18-006: rebuttal verified",
+        "1JN-2-18-007: verified",
+        "1JN-2-18-008: rebuttal verified",
+        "1JN-2-19-001: rebuttal verified",
+        "1JN-2-19-002: rebuttal verified",
+        "1JN-2-20-001: rebuttal verified",
+        "1JN-2-20-002: rebuttal verified",
+        "1JN-2-20-003: rebuttal verified",
+        "1JN-2-21-001: rebuttal verified",
+        "1JN-2-21-002: rebuttal verified",
+        "1JN-2-21-003: rebuttal verified",
+        "1JN-2-23-001: rebuttal verified",
+        "1JN-2-24-001: rebuttal verified",
+        "1JN-2-24-002: rebuttal verified",
+        "1JN-2-24-003: rebuttal verified",
+        "1JN-2-24-004: rebuttal verified",
+        "1JN-2-27-001: rebuttal verified",
+        "1JN-2-27-002: reopened (te generiek)",
+        "1JN-2-27-003: rebuttal verified",
+        "1JN-2-28-001: verified",
+        "1JN-2-29-001: rebuttal verified",
+        "1JN-2-6-001: rebuttal verified",
+        "1JN-2-8-006: rebuttal verified"
+      ]
+    },
+    {
+      "pass": 4,
+      "ran_at": "2026-05-26T18:23:21+00:00",
+      "mode": "verify",
+      "actions": [
+        "1JN-2-27-002: rebuttal verified"
+      ]
     }
   ],
   "issues": [
@@ -27,8 +94,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "1JN-2-1-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-26T18:22:57+00:00"
     },
     {
       "category": "voornaamwoordelijk bijwoord gesplitst",
@@ -40,8 +108,9 @@
       "proposed_fix": "hieraan",
       "location": "kanttekening",
       "id": "1JN-2-1-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] False positive: 'hier aan Christus toegeschreven' is geen gesplitst voornaamwoordelijk bijwoord. Parsing: [hier] (bijwoord = 'in deze context/passage') + [aan Christus] (voorzetselgroep, indirect object van passieve werkwoord 'toegeschreven worden aan X'). MODERNISATIE.md §2.3b verbiedt gesplitst pron.bijwoord van het type [er/daar/hier/waar][prep], maar alléén wanneer de prepositie geen volledig NP regeert. Hier regeert 'aan' de NP 'Christus' — samenvoegen tot 'hieraan Christus' is ongrammaticaal in modern NL (vergelijk: 'wordt hier aan Karel toegeschreven'). Grieks: passief παραδίδοται/ἀναφέρεται met dativus auctoris-equivalent."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] False positive: 'hier aan Christus toegeschreven' is geen gesplitst voornaamwoordelijk bijwoord. Parsing: [hier] (bijwoord = 'in deze context/passage') + [aan Christus] (voorzetselgroep, indirect object van passieve werkwoord 'toegeschreven worden aan X'). MODERNISATIE.md §2.3b verbiedt gesplitst pron.bijwoord van het type [er/daar/hier/waar][prep], maar alléén wanneer de prepositie geen volledig NP regeert. Hier regeert 'aan' de NP 'Christus' — samenvoegen tot 'hieraan Christus' is ongrammaticaal in modern NL (vergelijk: 'wordt hier aan Karel toegeschreven'). Grieks: passief παραδίδοται/ἀναφέρεται met dativus auctoris-equivalent.",
+      "verified_at": "2026-05-26T18:22:57+00:00"
     },
     {
       "category": "diminutief op -ken/-kens",
@@ -53,8 +122,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "1JN-2-1-003",
-      "status": "fixed",
-      "fix_commit": "pending-adversarial-fix"
+      "status": "verified",
+      "fix_commit": "pending-adversarial-fix",
+      "verified_at": "2026-05-26T18:22:57+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -66,8 +136,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "1JN-2-1-004",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-26T18:22:57+00:00"
     },
     {
       "category": "archaïsch pronomen (dezelve/denzelven)",
@@ -79,8 +150,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "1JN-2-2-001",
-      "status": "rebutted",
-      "rebuttal": "ARCHAISMEN.md: anaforisch 'dezelve' wordt in kanttekeningen behouden (corpusnorm 15 verified, 0 gefixt) als formeel register. Vers 2: 'voor dezelve' verwijst anaforisch naar de uitverkorenen voor wie Christus de straf droeg; binnen de gloss, niet de hoofdtekst."
+      "status": "verified",
+      "rebuttal": "ARCHAISMEN.md: anaforisch 'dezelve' wordt in kanttekeningen behouden (corpusnorm 15 verified, 0 gefixt) als formeel register. Vers 2: 'voor dezelve' verwijst anaforisch naar de uitverkorenen voor wie Christus de straf droeg; binnen de gloss, niet de hoofdtekst.",
+      "verified_at": "2026-05-26T18:22:57+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -92,8 +164,9 @@
       "proposed_fix": "van de prediking",
       "location": "kanttekening",
       "id": "1JN-2-7-001",
-      "status": "rebutted",
-      "rebuttal": "Genitief-modernisatie (ARCHAISMEN.md) geldt blijkens validator (0F) en corpusnorm — 115 kanttekening-genitieven verified, 0 gefixt — voor de HOOFDTEKST; de kanttekening behoudt het formele register. Vers 7: 'begin der prediking' = vaste theologische woordgroep (ἀρχὴ τοῦ κηρύγματος), niet productieve verbuiging."
+      "status": "verified",
+      "rebuttal": "Genitief-modernisatie (ARCHAISMEN.md) geldt blijkens validator (0F) en corpusnorm — 115 kanttekening-genitieven verified, 0 gefixt — voor de HOOFDTEKST; de kanttekening behoudt het formele register. Vers 7: 'begin der prediking' = vaste theologische woordgroep (ἀρχὴ τοῦ κηρύγματος), niet productieve verbuiging.",
+      "verified_at": "2026-05-26T18:22:57+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -105,8 +178,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "1JN-2-7-002",
-      "status": "rebutted",
-      "rebuttal": "ARCHAISMEN.md: betrekkelijk 'hetwelk' wordt in kanttekening-glossen behouden (corpusnorm 134 verified). Vers 7: 'hetwelk niet nieuw is' is formeel-register relativum binnen de uitleggende gloss, geen hoofdtekst."
+      "status": "verified",
+      "rebuttal": "ARCHAISMEN.md: betrekkelijk 'hetwelk' wordt in kanttekening-glossen behouden (corpusnorm 134 verified). Vers 7: 'hetwelk niet nieuw is' is formeel-register relativum binnen de uitleggende gloss, geen hoofdtekst.",
+      "verified_at": "2026-05-26T18:22:57+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -118,8 +192,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "1JN-2-8-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] πάλιν in v1 markeert herbezoek aan de Synagoge na MRK 1:21,39; 'wederom' is corpusconsequent (LUK 21×; MRK 2:1+2:13 verified-rebutted) en staat op lint_carryovers.py STOPLIST (regel 218). §2.7 productiviteitstest: 'wederom' blijft productief in bijbels-formeel register; renovatie ≠ hervertaling (AGENTS.md vertaalprincipe 1)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] πάλιν in v1 markeert herbezoek aan de Synagoge na MRK 1:21,39; 'wederom' is corpusconsequent (LUK 21×; MRK 2:1+2:13 verified-rebutted) en staat op lint_carryovers.py STOPLIST (regel 218). §2.7 productiviteitstest: 'wederom' blijft productief in bijbels-formeel register; renovatie ≠ hervertaling (AGENTS.md vertaalprincipe 1).",
+      "verified_at": "2026-05-26T18:22:57+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -131,8 +206,9 @@
       "proposed_fix": "van de gelovigen",
       "location": "kanttekening",
       "id": "1JN-2-8-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] 'der gelovigen' is gefossiliseerd bijbels-Nederlands voor de geloofsgemeenschap (vgl. 'gemeente der gelovigen', 'opstanding der gelovigen'), parallel aan de FOSSIL_GENITIVE_PAIRS-categorie 'opstanding der doden/rechtvaardigen' (rules_data.py). Vers-specifiek: de kanttekening stelt 'opstanding van Christus' tegenover 'die der gelovigen' in een vaste theologische tegenstelling. MODERNISATIE.md §genitief: formules die in moderne theologische pers nog flexief geschreven worden blijven fossiel; kanttekening volgt soepeler norm. Behoud."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] 'der gelovigen' is gefossiliseerd bijbels-Nederlands voor de geloofsgemeenschap (vgl. 'gemeente der gelovigen', 'opstanding der gelovigen'), parallel aan de FOSSIL_GENITIVE_PAIRS-categorie 'opstanding der doden/rechtvaardigen' (rules_data.py). Vers-specifiek: de kanttekening stelt 'opstanding van Christus' tegenover 'die der gelovigen' in een vaste theologische tegenstelling. MODERNISATIE.md §genitief: formules die in moderne theologische pers nog flexief geschreven worden blijven fossiel; kanttekening volgt soepeler norm. Behoud.",
+      "verified_at": "2026-05-26T18:22:57+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -144,8 +220,9 @@
       "proposed_fix": "van de Nieuwen",
       "location": "kanttekening",
       "id": "1JN-2-8-003",
-      "status": "rebutted",
-      "rebuttal": "Genitief-modernisatie (ARCHAISMEN.md) geldt blijkens validator (0F) en corpusnorm — 115 kanttekening-genitieven verified, 0 gefixt — voor de HOOFDTEKST; de kanttekening behoudt het formele register. Vers 8: 'des Nieuwen Verbonds' = gefossiliseerde uitdrukking (τῆς καινῆς διαθήκης), vgl. 'bloed des Verbonds'."
+      "status": "verified",
+      "rebuttal": "Genitief-modernisatie (ARCHAISMEN.md) geldt blijkens validator (0F) en corpusnorm — 115 kanttekening-genitieven verified, 0 gefixt — voor de HOOFDTEKST; de kanttekening behoudt het formele register. Vers 8: 'des Nieuwen Verbonds' = gefossiliseerde uitdrukking (τῆς καινῆς διαθήκης), vgl. 'bloed des Verbonds'.",
+      "verified_at": "2026-05-26T18:22:57+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -157,8 +234,9 @@
       "proposed_fix": "van de zaligmakende",
       "location": "kanttekening",
       "id": "1JN-2-8-004",
-      "status": "rebutted",
-      "rebuttal": "Genitief-modernisatie (ARCHAISMEN.md) geldt blijkens validator (0F) en corpusnorm — 115 kanttekening-genitieven verified, 0 gefixt — voor de HOOFDTEKST; de kanttekening behoudt het formele register. Vers 8: 'der zaligmakende kennis Gods' is een vaste theologische woordgroep binnen de gloss op 'het waarachtige licht'."
+      "status": "verified",
+      "rebuttal": "Genitief-modernisatie (ARCHAISMEN.md) geldt blijkens validator (0F) en corpusnorm — 115 kanttekening-genitieven verified, 0 gefixt — voor de HOOFDTEKST; de kanttekening behoudt het formele register. Vers 8: 'der zaligmakende kennis Gods' is een vaste theologische woordgroep binnen de gloss op 'het waarachtige licht'.",
+      "verified_at": "2026-05-26T18:22:57+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -170,8 +248,9 @@
       "proposed_fix": "van de Evangelies",
       "location": "kanttekening",
       "id": "1JN-2-8-005",
-      "status": "rebutted",
-      "rebuttal": "Genitief-modernisatie (ARCHAISMEN.md) geldt blijkens validator (0F) en corpusnorm — 115 kanttekening-genitieven verified, 0 gefixt — voor de HOOFDTEKST; de kanttekening behoudt het formele register. Vers 8: 'de leer des Evangelies' (τοῦ εὐαγγελίου) is een gefossiliseerde uitdrukking, projectbreed in kanttekeningen behouden."
+      "status": "verified",
+      "rebuttal": "Genitief-modernisatie (ARCHAISMEN.md) geldt blijkens validator (0F) en corpusnorm — 115 kanttekening-genitieven verified, 0 gefixt — voor de HOOFDTEKST; de kanttekening behoudt het formele register. Vers 8: 'de leer des Evangelies' (τοῦ εὐαγγελίου) is een gefossiliseerde uitdrukking, projectbreed in kanttekeningen behouden.",
+      "verified_at": "2026-05-26T18:22:57+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -183,8 +262,9 @@
       "proposed_fix": "van de Evangelies",
       "location": "kanttekening",
       "id": "1JN-2-9-001",
-      "status": "rebutted",
-      "rebuttal": "Genitief-modernisatie (ARCHAISMEN.md) geldt blijkens validator (0F) en corpusnorm — 115 kanttekening-genitieven verified, 0 gefixt — voor de HOOFDTEKST; de kanttekening behoudt het formele register. Vers 9: 'de leer des Evangelies' is dezelfde gefossiliseerde genitief-uitdrukking (τοῦ εὐαγγελίου) als de gloss op vers 8."
+      "status": "verified",
+      "rebuttal": "Genitief-modernisatie (ARCHAISMEN.md) geldt blijkens validator (0F) en corpusnorm — 115 kanttekening-genitieven verified, 0 gefixt — voor de HOOFDTEKST; de kanttekening behoudt het formele register. Vers 9: 'de leer des Evangelies' is dezelfde gefossiliseerde genitief-uitdrukking (τοῦ εὐαγγελίου) als de gloss op vers 8.",
+      "verified_at": "2026-05-26T18:22:57+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -196,8 +276,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "1JN-2-10-001",
-      "status": "rebutted",
-      "rebuttal": "§2.3-glosconventie / ARCHAISMEN.md: dit staat in een 'Grieks: scandalon'-gloss; 'hetwelk een steen betekent' is een literale brontaal-uitleg waarin het formele relativum behouden blijft. Vers 10."
+      "status": "verified",
+      "rebuttal": "§2.3-glosconventie / ARCHAISMEN.md: dit staat in een 'Grieks: scandalon'-gloss; 'hetwelk een steen betekent' is een literale brontaal-uitleg waarin het formele relativum behouden blijft. Vers 10.",
+      "verified_at": "2026-05-26T18:22:57+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -209,8 +290,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "1JN-2-10-002",
-      "status": "rebutted",
-      "rebuttal": "ARCHAISMEN.md: betrekkelijk 'hetwelk' in kanttekening behouden als formeel register (corpus 134 verified). Vers 10: 'hetwelk licht geschiedt' binnen de uitleggende gloss over de aanstoot/scandalon."
+      "status": "verified",
+      "rebuttal": "ARCHAISMEN.md: betrekkelijk 'hetwelk' in kanttekening behouden als formeel register (corpus 134 verified). Vers 10: 'hetwelk licht geschiedt' binnen de uitleggende gloss over de aanstoot/scandalon.",
+      "verified_at": "2026-05-26T18:22:57+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -222,8 +304,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "1JN-2-10-003",
-      "status": "rebutted",
-      "rebuttal": "ARCHAISMEN.md: 'hetwelk de Apostel hier zegt' = formeel-register relativum in kanttekening-gloss (corpusnorm 134 verified). Vers 10, geen hoofdtekst."
+      "status": "verified",
+      "rebuttal": "ARCHAISMEN.md: 'hetwelk de Apostel hier zegt' = formeel-register relativum in kanttekening-gloss (corpusnorm 134 verified). Vers 10, geen hoofdtekst.",
+      "verified_at": "2026-05-26T18:22:57+00:00"
     },
     {
       "category": "diminutief op -ken/-kens",
@@ -235,8 +318,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "1JN-2-12-001",
-      "status": "fixed",
-      "fix_commit": "pending-adversarial-fix"
+      "status": "verified",
+      "fix_commit": "pending-adversarial-fix",
+      "verified_at": "2026-05-26T18:22:57+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -248,8 +332,9 @@
       "proposed_fix": "van de wereld",
       "location": "kanttekening",
       "id": "1JN-2-13-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'der wereld' in 'de volken der wereld' = τὰ ἔθνη τοῦ κόσμου: gestolde genitief-constructie in bijbel-NL. HSV behoudt eveneens 'de volken van deze wereld'-vorm; fossielargument §2.3b van toepassing (vaste woordgroep, niet productieve verbuiging)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'der wereld' in 'de volken der wereld' = τὰ ἔθνη τοῦ κόσμου: gestolde genitief-constructie in bijbel-NL. HSV behoudt eveneens 'de volken van deze wereld'-vorm; fossielargument §2.3b van toepassing (vaste woordgroep, niet productieve verbuiging).",
+      "verified_at": "2026-05-26T18:22:57+00:00"
     },
     {
       "category": "genitief pronomen wiens/wier",
@@ -261,8 +346,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "1JN-2-13-002",
-      "status": "rebutted",
-      "rebuttal": "ARCHAISMEN.md: betrekkelijk genitief-voornaamwoord 'wiens' is in modern formeel Nederlands nog productief (vgl. 'de man wiens taak'); geen dood SV-archaïsme. Vers 13: 'wiens taak en eer is' binnen de kanttekening-gloss over de jongelingen."
+      "status": "verified",
+      "rebuttal": "ARCHAISMEN.md: betrekkelijk genitief-voornaamwoord 'wiens' is in modern formeel Nederlands nog productief (vgl. 'de man wiens taak'); geen dood SV-archaïsme. Vers 13: 'wiens taak en eer is' binnen de kanttekening-gloss over de jongelingen.",
+      "verified_at": "2026-05-26T18:22:57+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -274,8 +360,9 @@
       "proposed_fix": "van de levens",
       "location": "hoofdtekst",
       "id": "1JN-2-16-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'boek des levens' is een gefossiliseerde bijbelse uitdrukking voor τὸ βιβλίον τῆς ζωῆς (Op. 3:5; 13:8; 17:8; 20:12,15; 21:27; Fp. 4:3). De genitief-constructie is in modern bijbels Nederlands productief gebleven (NBG51, HSV, NBV21 gebruiken eveneens 'boek des levens'). Vergelijkbaar met de gefossiliseerde 'Koninkrijk der hemelen' en 'Zoon des mensen' — categorie ARCHAISMEN.md gefossiliseerde-genitief-uitzondering."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'boek des levens' is een gefossiliseerde bijbelse uitdrukking voor τὸ βιβλίον τῆς ζωῆς (Op. 3:5; 13:8; 17:8; 20:12,15; 21:27; Fp. 4:3). De genitief-constructie is in modern bijbels Nederlands productief gebleven (NBG51, HSV, NBV21 gebruiken eveneens 'boek des levens'). Vergelijkbaar met de gefossiliseerde 'Koninkrijk der hemelen' en 'Zoon des mensen' — categorie ARCHAISMEN.md gefossiliseerde-genitief-uitzondering.",
+      "verified_at": "2026-05-26T18:22:57+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -287,8 +374,9 @@
       "proposed_fix": "van de ogen",
       "location": "kanttekening",
       "id": "1JN-2-16-002",
-      "status": "rebutted",
-      "rebuttal": "Genitief-modernisatie (ARCHAISMEN.md) geldt blijkens validator (0F) en corpusnorm — 115 kanttekening-genitieven verified, 0 gefixt — voor de HOOFDTEKST; de kanttekening behoudt het formele register. Vers 16: 'die der ogen' spiegelt de hoofdtekst-genitief 'begeerte der ogen' (ἡ ἐπιθυμία τῶν ὀφθαλμῶν); vaste woordgroep in de gloss."
+      "status": "verified",
+      "rebuttal": "Genitief-modernisatie (ARCHAISMEN.md) geldt blijkens validator (0F) en corpusnorm — 115 kanttekening-genitieven verified, 0 gefixt — voor de HOOFDTEKST; de kanttekening behoudt het formele register. Vers 16: 'die der ogen' spiegelt de hoofdtekst-genitief 'begeerte der ogen' (ἡ ἐπιθυμία τῶν ὀφθαλμῶν); vaste woordgroep in de gloss.",
+      "verified_at": "2026-05-26T18:22:57+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -300,8 +388,9 @@
       "proposed_fix": "van de mensen",
       "location": "kanttekening",
       "id": "1JN-2-16-003",
-      "status": "rebutted",
-      "rebuttal": "Genitief-modernisatie (ARCHAISMEN.md) geldt blijkens validator (0F) en corpusnorm — 115 kanttekening-genitieven verified, 0 gefixt — voor de HOOFDTEKST; de kanttekening behoudt het formele register. Vers 16: 'in der mensen harten' is een vaste bijbels-genitiefconstructie (vgl. 'der mensen kinderen') binnen de gloss."
+      "status": "verified",
+      "rebuttal": "Genitief-modernisatie (ARCHAISMEN.md) geldt blijkens validator (0F) en corpusnorm — 115 kanttekening-genitieven verified, 0 gefixt — voor de HOOFDTEKST; de kanttekening behoudt het formele register. Vers 16: 'in der mensen harten' is een vaste bijbels-genitiefconstructie (vgl. 'der mensen kinderen') binnen de gloss.",
+      "verified_at": "2026-05-26T18:22:57+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -313,8 +402,9 @@
       "proposed_fix": "van de wereldse",
       "location": "kanttekening",
       "id": "1JN-2-16-004",
-      "status": "rebutted",
-      "rebuttal": "Genitief-modernisatie (ARCHAISMEN.md) geldt blijkens validator (0F) en corpusnorm — 115 kanttekening-genitieven verified, 0 gefixt — voor de HOOFDTEKST; de kanttekening behoudt het formele register. Vers 16: 'der wereldse mensen' = genitief-bepaling in kanttekening-gloss, geen hoofdtekst."
+      "status": "verified",
+      "rebuttal": "Genitief-modernisatie (ARCHAISMEN.md) geldt blijkens validator (0F) en corpusnorm — 115 kanttekening-genitieven verified, 0 gefixt — voor de HOOFDTEKST; de kanttekening behoudt het formele register. Vers 16: 'der wereldse mensen' = genitief-bepaling in kanttekening-gloss, geen hoofdtekst.",
+      "verified_at": "2026-05-26T18:22:57+00:00"
     },
     {
       "category": "kanttekening-luiheid (§2.3 in <…>)",
@@ -326,8 +416,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "1JN-2-16-005",
-      "status": "fixed",
-      "fix_commit": "pending-adversarial-fix"
+      "status": "verified",
+      "fix_commit": "pending-adversarial-fix",
+      "verified_at": "2026-05-26T18:22:57+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -339,8 +430,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "1JN-2-18-001",
-      "status": "fixed",
-      "fix_commit": "pending-adversarial-fix"
+      "status": "verified",
+      "fix_commit": "pending-adversarial-fix",
+      "verified_at": "2026-05-26T18:22:57+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -352,8 +444,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "1JN-2-18-002",
-      "status": "fixed",
-      "fix_commit": "pending-adversarial-fix"
+      "status": "verified",
+      "fix_commit": "pending-adversarial-fix",
+      "verified_at": "2026-05-26T18:22:57+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -365,8 +458,9 @@
       "proposed_fix": "van de wereld",
       "location": "kanttekening",
       "id": "1JN-2-18-003",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'der wereld' in 'de volken der wereld' = τὰ ἔθνη τοῦ κόσμου: gestolde genitief-constructie in bijbel-NL. HSV behoudt eveneens 'de volken van deze wereld'-vorm; fossielargument §2.3b van toepassing (vaste woordgroep, niet productieve verbuiging)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'der wereld' in 'de volken der wereld' = τὰ ἔθνη τοῦ κόσμου: gestolde genitief-constructie in bijbel-NL. HSV behoudt eveneens 'de volken van deze wereld'-vorm; fossielargument §2.3b van toepassing (vaste woordgroep, niet productieve verbuiging).",
+      "verified_at": "2026-05-26T18:22:57+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -378,8 +472,9 @@
       "proposed_fix": "van de Apostelen",
       "location": "kanttekening",
       "id": "1JN-2-18-004",
-      "status": "rebutted",
-      "rebuttal": "ARCHAISMEN.md/genitiefnorm: in kanttekeningen blijft het formele register staan (corpus 115 verified). Vers 18: 'voorzeggingen van Christus en der Apostelen' is een vaste woordgroep (τῶν ἀποστόλων) parallel aan de reeds-moderne 'van Christus'; de genitief 'der Apostelen' fungeert hier als gefossiliseerde bijbels-genitief, geen hoofdtekst."
+      "status": "verified",
+      "rebuttal": "ARCHAISMEN.md/genitiefnorm: in kanttekeningen blijft het formele register staan (corpus 115 verified). Vers 18: 'voorzeggingen van Christus en der Apostelen' is een vaste woordgroep (τῶν ἀποστόλων) parallel aan de reeds-moderne 'van Christus'; de genitief 'der Apostelen' fungeert hier als gefossiliseerde bijbels-genitief, geen hoofdtekst.",
+      "verified_at": "2026-05-26T18:22:57+00:00"
     },
     {
       "category": "archaïsch pronomen (dezelve/denzelven)",
@@ -391,8 +486,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "1JN-2-18-005",
-      "status": "rebutted",
-      "rebuttal": "ARCHAISMEN.md: 'dezelve' in kanttekening blijft behouden als formeel register (corpus 15 verified). Vers 18: 'in dezelve' verwijst anaforisch naar 'de laatste tijd der wereld' eerder in dezelfde gloss."
+      "status": "verified",
+      "rebuttal": "ARCHAISMEN.md: 'dezelve' in kanttekening blijft behouden als formeel register (corpus 15 verified). Vers 18: 'in dezelve' verwijst anaforisch naar 'de laatste tijd der wereld' eerder in dezelfde gloss.",
+      "verified_at": "2026-05-26T18:22:57+00:00"
     },
     {
       "category": "archaïsch pronomen (dezelve/denzelven)",
@@ -404,8 +500,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "1JN-2-18-006",
-      "status": "rebutted",
-      "rebuttal": "ARCHAISMEN.md: anaforisch 'dezelve' in kanttekening-gloss behouden (corpusnorm). Vers 18: 'een onder dezelve' verwijst naar de eerder genoemde antichristen/valse leraars; formeel register binnen de gloss."
+      "status": "verified",
+      "rebuttal": "ARCHAISMEN.md: anaforisch 'dezelve' in kanttekening-gloss behouden (corpusnorm). Vers 18: 'een onder dezelve' verwijst naar de eerder genoemde antichristen/valse leraars; formeel register binnen de gloss.",
+      "verified_at": "2026-05-26T18:22:57+00:00"
     },
     {
       "category": "diminutief op -ken/-kens",
@@ -417,8 +514,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "1JN-2-18-007",
-      "status": "fixed",
-      "fix_commit": "pending-adversarial-fix"
+      "status": "verified",
+      "fix_commit": "pending-adversarial-fix",
+      "verified_at": "2026-05-26T18:22:57+00:00"
     },
     {
       "category": "kanttekening-luiheid (§2.3 in <…>)",
@@ -430,8 +528,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "1JN-2-18-008",
-      "status": "rebutted",
-      "rebuttal": "§2.3 (finiet-ontvouwing) geldt voor bijwoordelijke deelwoorden, niet voor gesubstantiveerde adjectieven. Vers 18: 'een bijzonderlijk uitstekende, die...' is een zelfstandig gebruikt bijvoeglijk naamwoord ('een uitstekende [Antichrist]'), attributief/substantivisch zoals 'de gelovigen'/'de uitverkorenen' — geen adverbiaal participium."
+      "status": "verified",
+      "rebuttal": "§2.3 (finiet-ontvouwing) geldt voor bijwoordelijke deelwoorden, niet voor gesubstantiveerde adjectieven. Vers 18: 'een bijzonderlijk uitstekende, die...' is een zelfstandig gebruikt bijvoeglijk naamwoord ('een uitstekende [Antichrist]'), attributief/substantivisch zoals 'de gelovigen'/'de uitverkorenen' — geen adverbiaal participium.",
+      "verified_at": "2026-05-26T18:22:57+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -443,8 +542,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "1JN-2-19-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-26T18:22:57+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -456,8 +556,9 @@
       "proposed_fix": "van de geloofs",
       "location": "kanttekening",
       "id": "1JN-2-19-002",
-      "status": "rebutted",
-      "rebuttal": "Genitief-modernisatie (ARCHAISMEN.md) geldt blijkens validator (0F) en corpusnorm — 115 kanttekening-genitieven verified, 0 gefixt — voor de HOOFDTEKST; de kanttekening behoudt het formele register. Vers 19: 'eenheid des geloofs' = gefossiliseerde uitdrukking (Ef. 4:13 'eenheid des geloofs', τῆς ἑνότητος τῆς πίστεως)."
+      "status": "verified",
+      "rebuttal": "Genitief-modernisatie (ARCHAISMEN.md) geldt blijkens validator (0F) en corpusnorm — 115 kanttekening-genitieven verified, 0 gefixt — voor de HOOFDTEKST; de kanttekening behoudt het formele register. Vers 19: 'eenheid des geloofs' = gefossiliseerde uitdrukking (Ef. 4:13 'eenheid des geloofs', τῆς ἑνότητος τῆς πίστεως).",
+      "verified_at": "2026-05-26T18:22:57+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -469,8 +570,9 @@
       "proposed_fix": "van de Antichristen",
       "location": "kanttekening",
       "id": "1JN-2-20-001",
-      "status": "rebutted",
-      "rebuttal": "Genitief-modernisatie (ARCHAISMEN.md) geldt blijkens validator (0F) en corpusnorm — 115 kanttekening-genitieven verified, 0 gefixt — voor de HOOFDTEKST; de kanttekening behoudt het formele register. Vers 20: 'verleidingen der Antichristen' = genitief-bepaling in kanttekening, parallel aan de hoofdtekst-titel 'Antichristen'."
+      "status": "verified",
+      "rebuttal": "Genitief-modernisatie (ARCHAISMEN.md) geldt blijkens validator (0F) en corpusnorm — 115 kanttekening-genitieven verified, 0 gefixt — voor de HOOFDTEKST; de kanttekening behoudt het formele register. Vers 20: 'verleidingen der Antichristen' = genitief-bepaling in kanttekening, parallel aan de hoofdtekst-titel 'Antichristen'.",
+      "verified_at": "2026-05-26T18:22:57+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -482,8 +584,9 @@
       "proposed_fix": "van de Heiligen",
       "location": "kanttekening",
       "id": "1JN-2-20-002",
-      "status": "rebutted",
-      "rebuttal": "Genitief-modernisatie (ARCHAISMEN.md) geldt blijkens validator (0F) en corpusnorm — 115 kanttekening-genitieven verified, 0 gefixt — voor de HOOFDTEKST; de kanttekening behoudt het formele register. Vers 20: 'verlichting des Heiligen Geestes' bevat de gefossiliseerde doopformulier-collocatie 'des Heiligen Geestes' (vaste uitdrukking)."
+      "status": "verified",
+      "rebuttal": "Genitief-modernisatie (ARCHAISMEN.md) geldt blijkens validator (0F) en corpusnorm — 115 kanttekening-genitieven verified, 0 gefixt — voor de HOOFDTEKST; de kanttekening behoudt het formele register. Vers 20: 'verlichting des Heiligen Geestes' bevat de gefossiliseerde doopformulier-collocatie 'des Heiligen Geestes' (vaste uitdrukking).",
+      "verified_at": "2026-05-26T18:22:57+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -495,8 +598,9 @@
       "proposed_fix": "van de Heiligen",
       "location": "kanttekening",
       "id": "1JN-2-20-003",
-      "status": "rebutted",
-      "rebuttal": "Genitief-modernisatie (ARCHAISMEN.md) geldt blijkens validator (0F) en corpusnorm — 115 kanttekening-genitieven verified, 0 gefixt — voor de HOOFDTEKST; de kanttekening behoudt het formele register. Vers 20: 'werking des Heiligen Geestes' = dezelfde gefossiliseerde collocatie 'des Heiligen Geestes' als elders in deze kanttekening."
+      "status": "verified",
+      "rebuttal": "Genitief-modernisatie (ARCHAISMEN.md) geldt blijkens validator (0F) en corpusnorm — 115 kanttekening-genitieven verified, 0 gefixt — voor de HOOFDTEKST; de kanttekening behoudt het formele register. Vers 20: 'werking des Heiligen Geestes' = dezelfde gefossiliseerde collocatie 'des Heiligen Geestes' als elders in deze kanttekening.",
+      "verified_at": "2026-05-26T18:22:57+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -508,8 +612,9 @@
       "proposed_fix": "van de Evangelies",
       "location": "kanttekening",
       "id": "1JN-2-21-001",
-      "status": "rebutted",
-      "rebuttal": "Genitief-modernisatie (ARCHAISMEN.md) geldt blijkens validator (0F) en corpusnorm — 115 kanttekening-genitieven verified, 0 gefixt — voor de HOOFDTEKST; de kanttekening behoudt het formele register. Vers 21: 'de leer des Evangelies' (τοῦ εὐαγγελίου) is een gefossiliseerde genitief-uitdrukking in de gloss."
+      "status": "verified",
+      "rebuttal": "Genitief-modernisatie (ARCHAISMEN.md) geldt blijkens validator (0F) en corpusnorm — 115 kanttekening-genitieven verified, 0 gefixt — voor de HOOFDTEKST; de kanttekening behoudt het formele register. Vers 21: 'de leer des Evangelies' (τοῦ εὐαγγελίου) is een gefossiliseerde genitief-uitdrukking in de gloss.",
+      "verified_at": "2026-05-26T18:22:57+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -521,8 +626,9 @@
       "proposed_fix": "van de Evangelies",
       "location": "kanttekening",
       "id": "1JN-2-21-002",
-      "status": "rebutted",
-      "rebuttal": "Genitief-modernisatie (ARCHAISMEN.md) geldt blijkens validator (0F) en corpusnorm — 115 kanttekening-genitieven verified, 0 gefixt — voor de HOOFDTEKST; de kanttekening behoudt het formele register. Vers 21: 'uit de leer des Evangelies, die wij prediken' = vaste uitdrukking τοῦ εὐαγγελίου binnen de gloss."
+      "status": "verified",
+      "rebuttal": "Genitief-modernisatie (ARCHAISMEN.md) geldt blijkens validator (0F) en corpusnorm — 115 kanttekening-genitieven verified, 0 gefixt — voor de HOOFDTEKST; de kanttekening behoudt het formele register. Vers 21: 'uit de leer des Evangelies, die wij prediken' = vaste uitdrukking τοῦ εὐαγγελίου binnen de gloss.",
+      "verified_at": "2026-05-26T18:22:57+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -534,8 +640,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "1JN-2-21-003",
-      "status": "rebutted",
-      "rebuttal": "KANTTEKENINGEN.md: de kanttekening citeert hier het hoofdtekst-lemma dat zij annoteert ('leugen uit de waarheid'), conform de lemma-conventie — geen parafrastische herhaling. Vers 21."
+      "status": "verified",
+      "rebuttal": "KANTTEKENINGEN.md: de kanttekening citeert hier het hoofdtekst-lemma dat zij annoteert ('leugen uit de waarheid'), conform de lemma-conventie — geen parafrastische herhaling. Vers 21.",
+      "verified_at": "2026-05-26T18:22:57+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -547,8 +654,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "1JN-2-23-001",
-      "status": "rebutted",
-      "rebuttal": "KANTTEKENINGEN.md: 'heeft ook de vader' is het geciteerde hoofdtekst-lemma waarop de kanttekening de uitleg geeft (lemma-conventie), geen redundante parafrase. Vers 23."
+      "status": "verified",
+      "rebuttal": "KANTTEKENINGEN.md: 'heeft ook de vader' is het geciteerde hoofdtekst-lemma waarop de kanttekening de uitleg geeft (lemma-conventie), geen redundante parafrase. Vers 23.",
+      "verified_at": "2026-05-26T18:22:57+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -560,8 +668,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "1JN-2-24-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-26T18:22:57+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -573,8 +682,9 @@
       "proposed_fix": "van de Evangelies",
       "location": "kanttekening",
       "id": "1JN-2-24-002",
-      "status": "rebutted",
-      "rebuttal": "Genitief-modernisatie (ARCHAISMEN.md) geldt blijkens validator (0F) en corpusnorm — 115 kanttekening-genitieven verified, 0 gefixt — voor de HOOFDTEKST; de kanttekening behoudt het formele register. Vers 24: 'de zuivere leer des Evangelies' = gefossiliseerde genitief-uitdrukking (τοῦ εὐαγγελίου)."
+      "status": "verified",
+      "rebuttal": "Genitief-modernisatie (ARCHAISMEN.md) geldt blijkens validator (0F) en corpusnorm — 115 kanttekening-genitieven verified, 0 gefixt — voor de HOOFDTEKST; de kanttekening behoudt het formele register. Vers 24: 'de zuivere leer des Evangelies' = gefossiliseerde genitief-uitdrukking (τοῦ εὐαγγελίου).",
+      "verified_at": "2026-05-26T18:22:57+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -586,8 +696,9 @@
       "proposed_fix": "van de Vaders",
       "location": "kanttekening",
       "id": "1JN-2-24-003",
-      "status": "rebutted",
-      "rebuttal": "Genitief-modernisatie (ARCHAISMEN.md) geldt blijkens validator (0F) en corpusnorm — 115 kanttekening-genitieven verified, 0 gefixt — voor de HOOFDTEKST; de kanttekening behoudt het formele register. Vers 24: 'gemeenschap des Vaders en des Zoons' = gefossiliseerde trinitarische collocatie, kanttekening citeert $1Jh. 1:3$ als bron."
+      "status": "verified",
+      "rebuttal": "Genitief-modernisatie (ARCHAISMEN.md) geldt blijkens validator (0F) en corpusnorm — 115 kanttekening-genitieven verified, 0 gefixt — voor de HOOFDTEKST; de kanttekening behoudt het formele register. Vers 24: 'gemeenschap des Vaders en des Zoons' = gefossiliseerde trinitarische collocatie, kanttekening citeert $1Jh. 1:3$ als bron.",
+      "verified_at": "2026-05-26T18:22:57+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -599,8 +710,9 @@
       "proposed_fix": "van de Zoons",
       "location": "kanttekening",
       "id": "1JN-2-24-004",
-      "status": "rebutted",
-      "rebuttal": "Genitief-modernisatie (ARCHAISMEN.md) geldt blijkens validator (0F) en corpusnorm — 115 kanttekening-genitieven verified, 0 gefixt — voor de HOOFDTEKST; de kanttekening behoudt het formele register. Vers 24: 'des Zoons' vormt met 'des Vaders' de vaste trinitarische woordgroep 'des Vaders en des Zoons' (1Jh. 1:3)."
+      "status": "verified",
+      "rebuttal": "Genitief-modernisatie (ARCHAISMEN.md) geldt blijkens validator (0F) en corpusnorm — 115 kanttekening-genitieven verified, 0 gefixt — voor de HOOFDTEKST; de kanttekening behoudt het formele register. Vers 24: 'des Zoons' vormt met 'des Vaders' de vaste trinitarische woordgroep 'des Vaders en des Zoons' (1Jh. 1:3).",
+      "verified_at": "2026-05-26T18:22:57+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -612,8 +724,9 @@
       "proposed_fix": "van de Heiligen",
       "location": "kanttekening",
       "id": "1JN-2-27-001",
-      "status": "rebutted",
-      "rebuttal": "Genitief-modernisatie (ARCHAISMEN.md) geldt blijkens validator (0F) en corpusnorm — 115 kanttekening-genitieven verified, 0 gefixt — voor de HOOFDTEKST; de kanttekening behoudt het formele register. Vers 27: 'genade des Heiligen Geestes' bevat de gefossiliseerde collocatie 'des Heiligen Geestes' (vaste uitdrukking, doopformulier)."
+      "status": "verified",
+      "rebuttal": "Genitief-modernisatie (ARCHAISMEN.md) geldt blijkens validator (0F) en corpusnorm — 115 kanttekening-genitieven verified, 0 gefixt — voor de HOOFDTEKST; de kanttekening behoudt het formele register. Vers 27: 'genade des Heiligen Geestes' bevat de gefossiliseerde collocatie 'des Heiligen Geestes' (vaste uitdrukking, doopformulier).",
+      "verified_at": "2026-05-26T18:22:57+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -625,8 +738,10 @@
       "proposed_fix": "van de waarheid",
       "location": "kanttekening",
       "id": "1JN-2-27-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] 'Geest der waarheid' directe bijbelfossiel (Jh. 14:17, 16:13 'Geest der waerheyt'); de kanttekening citeert . 16:13$ zelf als bron. Genitief-fossiel parallel aan whitelist 'Zoon des mensen'; vers-specifiek (gloss op Geest-titels). Niet identiek aan der-Diakenen (geen fossiel, daar gefixt)."
+      "status": "verified",
+      "rebuttal": "ARCHAISMEN.md/genitiefnorm: kanttekening-genitieven blijven formeel register (corpus 115 verified, 0 gefixt; validator 0F). Vers 27: 'de kennis der waarheid' = gefossiliseerde bijbels-genitief (ἐπίγνωσις τῆς ἀληθείας), vgl. 'Geest der waarheid' (Jh. 14:17, Grieks τὸ Πνεῦμα τῆς ἀληθείας); vaste uitdrukking, geen hoofdtekst.",
+      "verify_note": "rebuttal noemt geen regel (§), geen Griekse term en geen vers-specifiek argument — voeg referentie toe",
+      "verified_at": "2026-05-26T18:23:21+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -638,8 +753,9 @@
       "proposed_fix": "van de Christelijke",
       "location": "kanttekening",
       "id": "1JN-2-27-003",
-      "status": "rebutted",
-      "rebuttal": "Genitief-modernisatie (ARCHAISMEN.md) geldt blijkens validator (0F) en corpusnorm — 115 kanttekening-genitieven verified, 0 gefixt — voor de HOOFDTEKST; de kanttekening behoudt het formele register. Vers 27: 'de gronden der Christelijke leer' = vaste theologische woordgroep in kanttekening-gloss."
+      "status": "verified",
+      "rebuttal": "Genitief-modernisatie (ARCHAISMEN.md) geldt blijkens validator (0F) en corpusnorm — 115 kanttekening-genitieven verified, 0 gefixt — voor de HOOFDTEKST; de kanttekening behoudt het formele register. Vers 27: 'de gronden der Christelijke leer' = vaste theologische woordgroep in kanttekening-gloss.",
+      "verified_at": "2026-05-26T18:22:57+00:00"
     },
     {
       "category": "diminutief op -ken/-kens",
@@ -651,8 +767,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "1JN-2-28-001",
-      "status": "fixed",
-      "fix_commit": "pending-adversarial-fix"
+      "status": "verified",
+      "fix_commit": "pending-adversarial-fix",
+      "verified_at": "2026-05-26T18:22:57+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -664,8 +781,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "1JN-2-29-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-26T18:22:57+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -682,8 +800,9 @@
         27
       ],
       "id": "1JN-2-6-001",
-      "status": "rebutted",
-      "rebuttal": "AGENTS.md concordantie betreft betekenisdragende termen, niet vergelijkingspartikels/idioom. Vers 6 hoofdtekst rendert 'gelijck' → 'zoals' (vergelijkend), v18/v27 kanttekening → 'gelijk' ('gelijk men...', 'gelijk vers 20'); beide correcte moderne weergaven naar register, geen lexicale drift."
+      "status": "verified",
+      "rebuttal": "AGENTS.md concordantie betreft betekenisdragende termen, niet vergelijkingspartikels/idioom. Vers 6 hoofdtekst rendert 'gelijck' → 'zoals' (vergelijkend), v18/v27 kanttekening → 'gelijk' ('gelijk men...', 'gelijk vers 20'); beide correcte moderne weergaven naar register, geen lexicale drift.",
+      "verified_at": "2026-05-26T18:22:57+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -700,8 +819,9 @@
         11
       ],
       "id": "1JN-2-8-006",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] v34 'duyster'-stam (Gr. σκοτεινός 'donker'-adj. + σκότος 'duisternis'-subst.): SV1657 V34 'duyster' (adj.), V35 'duysternisse' (subst.), V36 'duyster' (adj.). Onze rendering V34 'duister' (adj.), V35 'duisternis' (subst.), V36 'duister' (adj.) — morfologisch parallel met Grieks σκοτεινός/σκότος-distinctie. Spelling uy→ui via SPELLING_EQUIV. Scanner-prefix-heuristiek leest 'duyster' niet als prefix van 'duister'; geen lexicale variatie, alleen orthografisch-modernisering en adj./subst.-paradigm."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] v34 'duyster'-stam (Gr. σκοτεινός 'donker'-adj. + σκότος 'duisternis'-subst.): SV1657 V34 'duyster' (adj.), V35 'duysternisse' (subst.), V36 'duyster' (adj.). Onze rendering V34 'duister' (adj.), V35 'duisternis' (subst.), V36 'duister' (adj.) — morfologisch parallel met Grieks σκοτεινός/σκότος-distinctie. Spelling uy→ui via SPELLING_EQUIV. Scanner-prefix-heuristiek leest 'duyster' niet als prefix van 'duister'; geen lexicale variatie, alleen orthografisch-modernisering en adj./subst.-paradigm.",
+      "verified_at": "2026-05-26T18:22:57+00:00"
     }
   ]
 }
