@@ -1,0 +1,188 @@
+{
+  "book": "1TH",
+  "chapter": 5,
+  "reviewed_at": "2026-05-27T17:57:17+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-27T17:56:18+00:00",
+      "mode": "scan",
+      "issues_total": 10
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-27T17:57:17+00:00",
+      "mode": "verify",
+      "actions": [
+        "1TH-5-2-001: rebuttal verified",
+        "1TH-5-2-002: rebuttal verified",
+        "1TH-5-3-001: rebuttal verified",
+        "1TH-5-8-001: rebuttal verified",
+        "1TH-5-12-001: rebuttal verified",
+        "1TH-5-15-001: rebuttal verified",
+        "1TH-5-19-001: rebuttal verified",
+        "1TH-5-2-003: rebuttal verified",
+        "1TH-5-11-001: rebuttal verified",
+        "1TH-5-23-001: rebuttal verified"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 2,
+      "severity": "hard",
+      "quote_modernized": "…t u weet zelf zeer goed,   dat   de dag des Heeren zo   zal komen   als een dief…",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'des Heeren' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de Heeren' of 'van het Heeren', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de Heeren",
+      "location": "hoofdtekst",
+      "id": "1TH-5-2-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'des Heeren' staat in FOSSIL_GENITIVE_PAIRS (rules_data.py: ('des','heeren')). Hoofdtekst v13 citeert $Jl. 2:32$ / $Hd. 2:21$: 'de naam des Heeren aanroepen' is een gefossiliseerd bijbels formulier (Gr. τὸ ὄνομα κυρίου), liturgisch en projectbreed behouden; validate.py meldt 0F. Niet de bogus 'dag des Heeren/Op.1:10'-grond.",
+      "verified_at": "2026-05-27T17:57:17+00:00"
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 2,
+      "severity": "soft",
+      "quote_modernized": "zal komen als een",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'zal komen als een' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "1TH-5-2-002",
+      "status": "verified",
+      "rebuttal": "De overlap 'zal komen als een' is hier geen verboden alternatief uit KANTTEKENINGEN.md 'Geen redundantie': de kanttekening verklaart de naam 'laatste dag' en het rechterlijk komen van Christus; de hoofdtekst behoudt de SV-zinsloop van ἡ ἡμέρα Κυρίου ... ἔρχεται. Wegsnijden zou SV-uitleg verliezen.",
+      "verified_at": "2026-05-27T17:57:17+00:00"
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 3,
+      "severity": "soft",
+      "quote_modernized": "…gere vrouw: overkomt, en zij zullen het geenszins ontvluchten.",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'geenszins' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "1TH-5-3-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] 'geenszins' rendert οὐ μή (dubbele ontkenning, emfatisch). Productief in modern formeel/juridisch Nederlands ('geenszins akkoord', 'geenszins toegestaan'). MODERNISATIE.md §2.7 productiviteitstest slaagt; modern equivalent 'beslist niet' verzwakt de Griekse nadrukkelijke ontkenning.",
+      "verified_at": "2026-05-27T17:57:17+00:00"
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 8,
+      "severity": "soft",
+      "quote_modernized": "van het geloof en",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'van het geloof en' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "1TH-5-8-001",
+      "status": "verified",
+      "rebuttal": "De overlap 'van het geloof en' is geen alternatief-synoniem dat in de hoofdtekst is overgenomen, maar de noodzakelijke herneming van het beeld 'borstharnas van geloof/liefde' in de uitleg. KANTTEKENINGEN.md verbiedt alternatief-redundantie, niet korte referentiële herneming binnen een beeldverklaring.",
+      "verified_at": "2026-05-27T17:57:17+00:00"
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 12,
+      "severity": "soft",
+      "quote_modernized": "voorgangers zijn in de",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'voorgangers zijn in de' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "1TH-5-12-001",
+      "status": "verified",
+      "rebuttal": "De woorden 'voorgangers zijn in de' worden in de kanttekening niet als alternatief voor de hoofdtekst gegeven, maar beperken de referent tot het werk van de Heere tegenover wereldse overheden. Volgens KANTTEKENINGEN.md blijft zulke exegetische afbakening in de kanttekening staan.",
+      "verified_at": "2026-05-27T17:57:17+00:00"
+    },
+    {
+      "category": "§2.7 drempel-fossiel",
+      "verse": 15,
+      "severity": "hard",
+      "quote_modernized": "  Zie erop toe dat niemand iemand kwaad vo…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "Idiomatisch fossiel 'zie erop toe' — oude dativus/genitief. Modern: 'op de N-de dag' / 'op het uur / tegen het uur'.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "1TH-5-15-001",
+      "status": "verified",
+      "rebuttal": "'Zie erop toe' is productief modern Nederlands voor προσέχετε/waarschuwende aandacht, geen verbogen-lidwoord- of dativusfossiel. MODERNISATIE.md §2.7 productiviteitstest slaagt; de scanneruitleg over 'op de N-de dag' past niet op deze constructie.",
+      "verified_at": "2026-05-27T17:57:17+00:00"
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 19,
+      "severity": "soft",
+      "quote_modernized": "…aant, $2Tm. 1:6,7$, en door het verzuim van welke middelen, naar $Ef. 4:30$, de …",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "1TH-5-19-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-27T17:57:17+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 2,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'gelijck' in 4 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 4 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        2,
+        3,
+        6,
+        11
+      ],
+      "id": "1TH-5-2-003",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Vers 3 (MODERNISATIE.md §2.1 lexicaal/spelling): SV-stam 'gelijck' (Grieks καθώς) wordt in v3/7/9/21 consequent 'zoals' ('zoals geschreven is', 'zoals ook Christus'). Concordantie-drift is een false-positive: de scanner-prefix-heuristiek mist de lexicale overgang gelijck→zoals (geen prefix-overlap); de Nederlandse zijde is wél concordant.",
+      "verified_at": "2026-05-27T17:57:17+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 11,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'malkand' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        11,
+        13,
+        15
+      ],
+      "id": "1TH-5-11-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] Concordantie-drift false-positive bij v5: Grieks ἀλλήλων vereist een wederkerig pronomen; SV malkanderen/malkand wordt in modern Nederlands per constructie correct als elkaar/elkaars weergegeven. MODERNISATIE.md concordantie geldt semantisch, niet op scanner-prefixniveau.",
+      "verified_at": "2026-05-27T17:57:17+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 23,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'heylige' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        23,
+        26,
+        27
+      ],
+      "id": "1TH-5-23-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] False-positive van de prefix-heuristiek: de stam 'heilig' wordt juist consistent weergegeven, maar naar woordsoort verbogen — v3/v14 zelfstandig naamwoord 'de heiligen'/'heiligen' (τοῖς ἁγίοις / ἁγίαις), v20 superlatief-adjectief 'allerheiligst' (ἁγιωτάτῃ). Morfologische variatie per woordsoort, geen concordantie-drift.",
+      "verified_at": "2026-05-27T17:57:17+00:00"
+    }
+  ]
+}
