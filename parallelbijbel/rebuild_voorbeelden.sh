@@ -5,7 +5,7 @@ set -euo pipefail
 
 cd "$(dirname "$0")"
 
-BOOKS=(LUK MRK ROM 1CO 2CO 2TH 1PE 1JN 2JN 3JN JUD PHM)
+BOOKS=(LUK MRK ROM 1CO 2CO 2TH 1PE 2PE 1TI 2TI TIT COL 1JN 2JN 3JN JUD PHM)
 
 for book in "${BOOKS[@]}"; do
   echo "=== Building ${book} ==="

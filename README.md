@@ -17,8 +17,13 @@ Voorbeeld-PDF's van de parallelbijbel:
 - [1 Korinthiërs](parallelbijbel/1CO_voorbeeld.pdf)
 - [2 Korinthiërs](parallelbijbel/2CO_voorbeeld.pdf)
 - [2 Tessalonicenzen](parallelbijbel/2TH_voorbeeld.pdf)
-- [Filemon](parallelbijbel/PHM_voorbeeld.pdf)
 - [1 Petrus](parallelbijbel/1PE_voorbeeld.pdf)
+- [2 Petrus](parallelbijbel/2PE_voorbeeld.pdf)
+- [1 Timoteüs](parallelbijbel/1TI_voorbeeld.pdf)
+- [2 Timoteüs](parallelbijbel/2TI_voorbeeld.pdf)
+- [Titus](parallelbijbel/TIT_voorbeeld.pdf)
+- [Kolossenzen](parallelbijbel/COL_voorbeeld.pdf)
+- [Filemon](parallelbijbel/PHM_voorbeeld.pdf)
 - [1 Johannes](parallelbijbel/1JN_voorbeeld.pdf)
 - [2 Johannes](parallelbijbel/2JN_voorbeeld.pdf)
 - [3 Johannes](parallelbijbel/3JN_voorbeeld.pdf)
@@ -879,18 +884,23 @@ protocol en de waarborgen rond de HSV-spiegel.
   | `MRK` | Het Evangelie naar Markus | gereed (16/16 hoofdstukken) |
   | `ROM` | De brief van Paulus aan de Romeinen | gereed (16/16 hoofdstukken) |
   | `1CO` | De eerste brief van Paulus aan de Korinthiërs | gereed (16/16 hoofdstukken) |
-  | `2CO` | De tweede brief van Paulus aan de Korinthiërs | in aanbouw (1–3 van 13) |
+  | `2CO` | De tweede brief van Paulus aan de Korinthiërs | in aanbouw (1–3 van 13; 2 hoofdstukken compleet) |
   | `2TH` | De tweede brief van Paulus aan de Tessalonicenzen | gereed (3/3 hoofdstukken) |
   | `1PE` | De eerste brief van Petrus | gereed (5/5 hoofdstukken) |
+  | `2PE` | De tweede brief van Petrus | gereed (3/3 hoofdstukken) |
+  | `1TI` | De eerste brief van Paulus aan Timoteüs | in aanbouw (1–2 van 6) |
+  | `2TI` | De tweede brief van Paulus aan Timoteüs | in aanbouw (1–2 van 4; 1 hoofdstuk compleet) |
+  | `TIT` | De brief van Paulus aan Titus | gereed (3/3 hoofdstukken) |
+  | `COL` | De brief van Paulus aan de Kolossenzen | in aanbouw (1 van 4) |
   | `1JN` | De eerste brief van Johannes | in aanbouw (1 van 5) |
   | `2JN` | De tweede brief van Johannes | gereed (1/1 hoofdstuk) |
   | `3JN` | De derde brief van Johannes | gereed (1/1 hoofdstuk) |
   | `JUD` | De brief van Judas | gereed (1/1 hoofdstuk) |
   | `PHM` | De brief van Paulus aan Filemon | gereed (1/1 hoofdstuk) |
 
-  Lucas, Markus, 1 Korinthiërs en 1 Petrus zijn compleet inclusief
-  hoofdstukreviews.
-- `memory/verses.db` bevat momenteel 2769 versparen. De proceslaag bevat
+  Lucas, Markus, Romeinen, 1 Korinthiërs, 2 Tessalonicenzen, 1 Petrus,
+  2 Petrus, Titus, Filemon, 2 Johannes, 3 Johannes en Judas zijn compleet.
+- `memory/verses.db` bevat momenteel 3411 versparen. De proceslaag bevat
   `output/META/decisions.jsonl` met 1276 records en een lokale
   FTS-index in `memory/process.db`.
 - Nieuwe boeken/hoofdstukken kunnen direct via de agent-CLI worden
