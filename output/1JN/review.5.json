@@ -1,13 +1,30 @@
 {
   "book": "1JN",
   "chapter": 5,
-  "reviewed_at": "2026-05-27T14:41:39+00:00",
+  "reviewed_at": "2026-05-27T15:19:32+00:00",
   "passes": [
     {
       "pass": 1,
       "ran_at": "2026-05-27T14:41:39+00:00",
       "mode": "scan",
       "issues_total": 10
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-27T15:19:32+00:00",
+      "mode": "verify",
+      "actions": [
+        "1JN-5-1-001: rebuttal verified",
+        "1JN-5-3-001: verified",
+        "1JN-5-8-001: rebuttal verified",
+        "1JN-5-9-001: rebuttal verified",
+        "1JN-5-11-001: verified",
+        "1JN-5-15-001: rebuttal verified",
+        "1JN-5-16-001: rebuttal verified",
+        "1JN-5-16-002: rebuttal verified",
+        "1JN-5-16-003: rebuttal verified",
+        "1JN-5-18-001: verified"
+      ]
     }
   ],
   "issues": [
@@ -21,8 +38,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "1JN-5-1-001",
-      "status": "rebutted",
-      "rebuttal": "De overlappende frase 'die uit hem geboren zijn' staat letterlijk in de SV1657-kanttekening ('sijne kinderen ... die uyt hem geboren zijn'); het is geen door de modernisator toegevoegde parafrase maar bronteksttrouwe weergave. De kanttekening voegt substantieve exegese toe (God liefhebben impliceert al zijn kinderen liefhebben, KANTTEKENINGEN.md); schrappen zou brontekst aantasten. §redundantie geldt alleen voor modernisator-parafrase, niet voor SV-eigen woordoverlap."
+      "status": "verified",
+      "rebuttal": "De overlappende frase 'die uit hem geboren zijn' staat letterlijk in de SV1657-kanttekening ('sijne kinderen ... die uyt hem geboren zijn'); het is geen door de modernisator toegevoegde parafrase maar bronteksttrouwe weergave. De kanttekening voegt substantieve exegese toe (God liefhebben impliceert al zijn kinderen liefhebben, KANTTEKENINGEN.md); schrappen zou brontekst aantasten. §redundantie geldt alleen voor modernisator-parafrase, niet voor SV-eigen woordoverlap.",
+      "verified_at": "2026-05-27T15:19:32+00:00"
     },
     {
       "category": "genitief pronomen wiens/wier",
@@ -34,8 +52,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "1JN-5-3-001",
-      "status": "fixed",
-      "fix_note": "'wier hart' herschreven naar 'bij wie ... in het hart' — genitief-pronomen weg, §genitief-archaisme."
+      "status": "verified",
+      "fix_note": "'wier hart' herschreven naar 'bij wie ... in het hart' — genitief-pronomen weg, §genitief-archaisme.",
+      "verified_at": "2026-05-27T15:19:32+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -47,8 +66,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "1JN-5-8-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-27T15:19:32+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -60,8 +80,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "1JN-5-9-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-27T15:19:32+00:00"
     },
     {
       "category": "genitief pronomen wiens/wier",
@@ -73,8 +94,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "1JN-5-11-001",
-      "status": "fixed",
-      "fix_note": "'uit wiens volheid' -> 'uit de volheid waarvan' — moderne relatief-genitief voor zaak."
+      "status": "verified",
+      "fix_note": "'uit wiens volheid' -> 'uit de volheid waarvan' — moderne relatief-genitief voor zaak.",
+      "verified_at": "2026-05-27T15:19:32+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -86,8 +108,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "1JN-5-15-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-27T15:19:32+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -99,8 +122,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "1JN-5-16-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-27T15:19:32+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -112,8 +136,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "1JN-5-16-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-27T15:19:32+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -125,8 +150,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "1JN-5-16-003",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] ARCHAISMEN.md: 'hetwelk de Apostel hier zegt' = formeel-register relativum in kanttekening-gloss (corpusnorm 134 verified). Vers 10, geen hoofdtekst."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] ARCHAISMEN.md: 'hetwelk de Apostel hier zegt' = formeel-register relativum in kanttekening-gloss (corpusnorm 134 verified). Vers 10, geen hoofdtekst.",
+      "verified_at": "2026-05-27T15:19:32+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -138,8 +164,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "1JN-5-18-001",
-      "status": "fixed",
-      "fix_note": "Hoofdtekst nam marginale Of-lezing 'raakt hem niet aan' over; SV-hoofdlezing is 'vattet hem niet'. Hoofdtekst hersteld naar 'grijpt hem niet'; kanttekening 'Of, raakt hem niet aan' nu echte variant -> redundantie + fideliteit opgelost."
+      "status": "verified",
+      "fix_note": "Hoofdtekst nam marginale Of-lezing 'raakt hem niet aan' over; SV-hoofdlezing is 'vattet hem niet'. Hoofdtekst hersteld naar 'grijpt hem niet'; kanttekening 'Of, raakt hem niet aan' nu echte variant -> redundantie + fideliteit opgelost.",
+      "verified_at": "2026-05-27T15:19:32+00:00"
     }
   ]
 }
