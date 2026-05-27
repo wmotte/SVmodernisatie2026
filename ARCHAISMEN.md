@@ -66,6 +66,7 @@ Standaard-substituties voor de hoofdtekst:
 | onbillijk(e)       | onrechtvaardig — `onbillijk` leeft alleen nog formeel-juridisch |
 | smart(en)          | pijn(en) / verdriet — modern NL gebruikt `smart` enkel literair |
 | volkomen (bijwoord) | volledig / geheel — `volkomen` als bijwoord is formeel-archaïsch; als bnw. ("een volkomen oplossing") modern OK |
+| hovaardig(en)      | hoogmoedig(en) — `hovaardig` is bijbels/literair register; `hoogmoedig` is productief modern Nederlands |
 | tijding(en)        | boodschap / nieuws — productiviteit-FAIL in 2020+; collocatie `blijde tijding` → `blijde boodschap` |
 | derhalve           | daarom / dus — leeft alleen nog juridisch; in religieus register vervangen |
 | rantsoen           | losprijs — modern NL primair 'voedseltoewijzing'; voor Gr. λύτρον is 'losprijs' formeel-equivalent (Mk. 10:45; Mt. 20:28) |

@@ -64,6 +64,7 @@ ARCHAISM_BLACKLIST = [
     r"\bonbillijk(e)?\b",   # → "onrechtvaardig"
     r"\bsmart(en)?\b",      # → "pijn(en) / verdriet"
     r"\bvolkomen\b",        # → "volledig / geheel" (als bijwoord)
+    r"\bhovaardig(e|en)?\b", # → "hoogmoedig(en)" (bijbels/literair register)
     r"\btijding(en)?\b",    # → "boodschap / nieuws"
     r"\bderhalve\b",        # → "daarom / dus"
     r"\brantsoen\b",        # → "losprijs" (Gr. λύτρον); modern NL = voedseltoewijzing
