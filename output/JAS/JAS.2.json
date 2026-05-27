@@ -221,6 +221,45 @@
       "generated_at": "2026-05-27T14:23:17.021818Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 22,
+      "original": "<Ofte, Ghy siet dan.> Siet ghy wel dat het geloove <Namelick, om krachtelick te bewijsen ende te betuygen door de goede wercken, dat hy voor Godt gerechtveerdight was.> mede gewrocht heeft met sijne wercken, ende het geloove <Dat is, verklaert ende betoont een geloove te zijn, dat alle sijne deelen hadde, ende volmaeckt ofte oprecht was. Gelijck dit woort volmaeckt werden, oock genomen wort voor, volmaeckt te zijn bewesen worden, 2.Corinth. 12.9.> volmaeckt is geweest uyt de wercken?",
+      "modernized": "<Of, U ziet dan.> Ziet u wel dat het geloof <Namelijk, om krachtig te bewijzen en te betuigen door de goede werken, dat hij voor God gerechtvaardigd was.> meegewerkt heeft met zijn werken, en het geloof <Dat is, verklaard en betoond een geloof te zijn, dat al zijn delen had, en volmaakt of oprecht was. Zoals dit woord volmaakt worden ook genomen wordt voor: volmaakt te zijn bewezen worden, $2Kor. 12:9$.> volmaakt is geworden uit de werken?",
+      "source_text": "βλέπεις ὅτι ἡ πίστις συνήργει τοῖς ἔργοις αὐτοῦ, καὶ ἐκ τῶν ἔργων ἡ πίστις ἐτελειώθη;",
+      "generated_at": "2026-05-27T14:30:34.289539Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 23,
+      "original": "Ende <D. door dat werck heeft hy betoont waerachtigh te zijn ’t gene de Schrift van hem seght, dat hy door het geloove gerechtveerdight was, overmits uyt dit werck blijckt dat hy het ware rechtveerdighmakende geloove gehadt heeft, ende door ’t geloove voor Godt gerechtveerdight is. Ende blijckt hier oock dat Iacobus de rechtveerdighmakinge voor Godt eygentlick niet den wercken, maer het geloove dat door de wercken hem betoont, toeschrijft.> de Schrift is vervult geworden, die daer seght, $Genes. 15.6. Rom. 4.3. Galat. 3.6.$ Ende Abraham geloofde Godt, ende <Siet de verklaringe hier van, Rom. 4.3.> het is hem tot rechtveerdigheyt gereeckent: ende <Dese woorden en worden Genes. cap. 15. niet gevonden, maer de sake kan afgenomen worden uyt het gene geseght wort Genes. 22.12, 16, 18. ende wort soo genaemt, 2.Paral. 20.7. Iesa. 41.8.> hy is een vrient Godts genaemt geweest.",
+      "modernized": "En <Dat is, door dat werk heeft hij betoond dat hetgeen de Schrift van hem zegt waarachtig is, namelijk dat hij door het geloof gerechtvaardigd was, omdat uit dit werk blijkt dat hij het ware rechtvaardigmakende geloof gehad heeft, en door het geloof voor God gerechtvaardigd is. En hier blijkt ook dat Jakobus de rechtvaardigmaking voor God eigenlijk niet aan de werken, maar aan het geloof dat zich door de werken betoont, toeschrijft.> de Schrift is vervuld geworden, die zegt, $Gn. 15:6; Rm. 4:3; Gl. 3:6$ En Abraham geloofde God, en <Zie de verklaring hiervan, $Rm. 4:3$.> het is hem tot rechtvaardigheid gerekend; en <Deze woorden worden in Genesis 15 niet gevonden, maar de zaak kan afgeleid worden uit hetgeen gezegd wordt in $Gn. 22:12,16,18$ en wordt zo genoemd in $2Kr. 20:7; Js. 41:8$.> hij is een vriend van God genoemd.",
+      "source_text": "καὶ ἐπληρώθη ἡ γραφὴ ἡ λέγουσα, Ἐπίστευσε δὲ Ἀβραὰμ τῷ Θεῷ, καὶ ἐλογίσθη αὐτῷ εἰς δικαιοσύνην, καὶ φίλος Θεοῦ ἐκλήθη.",
+      "generated_at": "2026-05-27T14:31:56.958979Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "subject": "Genesisverwijzing",
+          "context": "hoofdtekstverwijzing",
+          "choice": "$Gn. 15:6$",
+          "alternatives": [
+            "$Gn. 5:6$"
+          ],
+          "reason": "De brontekstlezing Genes. 5.6. is evident een zet- of transcriptiefout: de aangehaalde tekst en de aansluitende kanttekening verwijzen naar Genesis 15:6."
+        }
+      ]
+    },
+    {
+      "verse_number": 24,
+      "original": "<Ofte, ghy siet nu dan, gelijck vers 22.> Siet ghy dan nu dat een mensche <Dat is gerechtveerdight te zijn betuyght ende bewesen wort door de goede wercken.> uyt de wercken gerechtveerdight wort, ende niet <Dat is, niet door sulcken geloove, dat sonder goede wercken is, ofte dat geen goede wercken met eenen voort en brenght.> alleenlick uyt het geloove?",
+      "modernized": "<Of, u ziet nu dan, zoals vers 22.> Ziet u dan nu dat een mens <Dat is, betuigd en bewezen wordt gerechtvaardigd te zijn door de goede werken.> uit de werken gerechtvaardigd wordt, en niet <Dat is, niet door zulk een geloof dat zonder goede werken is, of dat geen goede werken tegelijk voortbrengt.> alleen uit het geloof?",
+      "source_text": "ὁρᾶτε τοίνυν ὅτι ἐξ ἔργων δικαιοῦται ἄνθρωπος, καὶ οὐκ ἐκ πίστεως μόνον;",
+      "generated_at": "2026-05-27T14:32:29.981610Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
