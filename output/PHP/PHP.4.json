@@ -205,6 +205,24 @@
       "generated_at": "2026-05-27T15:31:36.444259Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 22,
+      "original": "Alle de heylige groeten u, ende meest die <Gr. uyt, D. eenige die in het hof van den Keyser Nero hem dienen, ende van sijn huysgesin zijn. Siet Cap. 1. vers 13.> van het huys des Keysers zijn.",
+      "modernized": "Al de heiligen groeten u, en vooral zij die <Grieks: uit, dat is, enigen die in het hof van Keizer Nero hem dienen, en van zijn huisgezin zijn. Zie $Fp. 1:13$.> van het huis van de Keizer zijn.",
+      "source_text": "ἀσπάζονται ὑμᾶς πάντες οἱ ἅγιοι, μάλιστα δὲ οἱ ἐκ τῆς Καίσαρος οἰκίας.",
+      "generated_at": "2026-05-27T15:37:31.195150Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 23,
+      "original": "<Siet Galat. 6.18.> De genade onses Heeren Iesu Christi zy met u allen. Amen.",
+      "modernized": "<Zie $Gl. 6:18$.> De genade van onze Heere Jezus Christus zij met u allen. Amen.",
+      "source_text": "Ἡ χάρις τοῦ Κυρίου ἡμῶν Ἰησοῦ Χριστοῦ μετὰ πάντων ὑμῶν. ἀμήν.",
+      "generated_at": "2026-05-27T15:37:51.627315Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ],
   "epilogue": {
