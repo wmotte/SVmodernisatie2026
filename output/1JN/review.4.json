@@ -1,7 +1,7 @@
 {
   "book": "1JN",
   "chapter": 4,
-  "reviewed_at": "2026-05-27T13:57:19+00:00",
+  "reviewed_at": "2026-05-27T14:00:01+00:00",
   "passes": [
     {
       "pass": 1,
@@ -35,6 +35,25 @@
         "1JN-4-20-002: rebuttal verified",
         "1JN-4-7-001: rebuttal verified",
         "1JN-4-9-001: rebuttal verified"
+      ]
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-05-27T13:59:26+00:00",
+      "mode": "verify",
+      "actions": [
+        "1JN-4-14-002: reopened (te generiek)",
+        "1JN-4-18-002: rebuttal verified",
+        "1JN-4-18-003: reopened (te generiek)"
+      ]
+    },
+    {
+      "pass": 4,
+      "ran_at": "2026-05-27T14:00:01+00:00",
+      "mode": "verify",
+      "actions": [
+        "1JN-4-14-002: rebuttal verified",
+        "1JN-4-18-003: rebuttal verified"
       ]
     }
   ],
@@ -161,8 +180,9 @@
       "proposed_fix": "van de uitverkorenen",
       "location": "kanttekening",
       "id": "1JN-4-14-002",
-      "status": "rebutted",
-      "rebuttal": "De oorspronkelijk geflagde 'der uitverkorenen' is al gemoderniseerd naar 'van de uitverkorenen'. Het resterende 'der wereld' in de hoofdtekst 'Zaligmaker der wereld' is een gefossiliseerde bijbel-genitief (FOSSIL_GENITIVE_PAIRS: der+wereld; vgl. 'Heiland der wereld' . 4:42$) die de validator als formule accepteert — geen productieve genitief om te ontbinden."
+      "status": "verified",
+      "rebuttal": "De oorspronkelijk geflagde 'der uitverkorenen' is al gemoderniseerd naar 'van de uitverkorenen'. Het resterende 'der wereld' in de hoofdtekst 'Zaligmaker der wereld' (vers 14) is een gefossiliseerde bijbel-genitief — MODERNISATIE.md §2.7 / §2.3c rekent (der, wereld) tot de uitgezonderde formules (FOSSIL_GENITIVE_PAIRS), vgl. 'Heiland der wereld' . 4:42$. De Griekse genitief σωτὴρ τοῦ κόσμου wordt formeel-equivalent weergegeven; geen productieve genitief om te ontbinden.",
+      "verified_at": "2026-05-27T14:00:01+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -230,8 +250,9 @@
       "proposed_fix": "van de zondaren",
       "location": "kanttekening",
       "id": "1JN-4-18-002",
-      "status": "rebutted",
-      "rebuttal": "De oorspronkelijk geflagde 'der zondaren' is al gemoderniseerd naar 'van de zondaren'. Het resterende 'des oordeels' in 'de dag des oordeels' is een gefossiliseerde bijbel-genitief (FOSSIL_GENITIVE_PAIRS: des+oordeels; MODERNISATIE.md §genitief, expliciet als 'dag des oordeels' genoemd) — door de validator geaccepteerd, niet te ontbinden."
+      "status": "verified",
+      "rebuttal": "De oorspronkelijk geflagde 'der zondaren' is al gemoderniseerd naar 'van de zondaren'. Het resterende 'des oordeels' in 'de dag des oordeels' is een gefossiliseerde bijbel-genitief (FOSSIL_GENITIVE_PAIRS: des+oordeels; MODERNISATIE.md §genitief, expliciet als 'dag des oordeels' genoemd) — door de validator geaccepteerd, niet te ontbinden.",
+      "verified_at": "2026-05-27T13:59:26+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -243,8 +264,9 @@
       "proposed_fix": "van de gemoeds",
       "location": "kanttekening",
       "id": "1JN-4-18-003",
-      "status": "rebutted",
-      "rebuttal": "De oorspronkelijk geflagde 'des gemoeds' is gemoderniseerd naar 'van het gemoed' en 'der liefde' naar 'van de liefde'. Het enige resterende der/des-patroon in dit vers is 'des oordeels' (dag des oordeels), gefossiliseerd in FOSSIL_GENITIVE_PAIRS (des+oordeels) — geen productieve genitief, validator-conform."
+      "status": "verified",
+      "rebuttal": "De oorspronkelijk geflagde 'des gemoeds' is in vers 18 gemoderniseerd naar 'van het gemoed' en 'der liefde' naar 'van de liefde'. Het enige resterende der/des-patroon in dit vers is 'des oordeels' ('de dag des oordeels'), per MODERNISATIE.md §2.7 / §2.3c een gefossiliseerde formule (FOSSIL_GENITIVE_PAIRS: des+oordeels) — Grieks ἡμέρα κρίσεως — geen productieve genitief, validator-conform.",
+      "verified_at": "2026-05-27T14:00:01+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
