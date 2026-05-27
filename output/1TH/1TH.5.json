@@ -250,6 +250,15 @@
       "generated_at": "2026-05-27T17:48:57.128728Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 28,
+      "original": "<Van dit besluyt siet Rom. 16.20.> De genade onses Heeren Iesu Christi zy met u-lieden. Amen.",
+      "modernized": "<Over dit besluit zie $Rm. 16:20$.> De genade van onze Heere Jezus Christus zij met u. Amen.",
+      "source_text": "Ἡ χάρις τοῦ Κυρίου ἡμῶν Ἰησοῦ Χριστοῦ μεθ’ ὑμῶν. ἀμήν.",
+      "generated_at": "2026-05-27T17:53:06.491421Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ],
   "epilogue": {
