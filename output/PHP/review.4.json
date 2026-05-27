@@ -1,0 +1,81 @@
+{
+  "book": "PHP",
+  "chapter": 4,
+  "reviewed_at": "2026-05-27T15:44:09+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-27T15:42:55+00:00",
+      "mode": "scan",
+      "issues_total": 4
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-27T15:44:09+00:00",
+      "mode": "verify",
+      "actions": [
+        "PHP-4-3-001: rebuttal verified",
+        "PHP-4-13-001: rebuttal verified",
+        "PHP-4-18-001: verified",
+        "PHP-4-20-001: rebuttal verified"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 3,
+      "severity": "hard",
+      "quote_modernized": "…van wie de namen     zijn   in het boek des levens.",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'des levens' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de levens' of 'van het levens', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de levens",
+      "location": "hoofdtekst",
+      "id": "PHP-4-3-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'boek des levens' is een gefossiliseerde bijbelse uitdrukking voor τὸ βιβλίον τῆς ζωῆς (Op. 3:5; 13:8; 17:8; 20:12,15; 21:27; Fp. 4:3). De genitief-constructie is in modern bijbels Nederlands productief gebleven (NBG51, HSV, NBV21 gebruiken eveneens 'boek des levens'). Vergelijkbaar met de gefossiliseerde 'Koninkrijk der hemelen' en 'Zoon des mensen' — categorie ARCHAISMEN.md gefossiliseerde-genitief-uitzondering.",
+      "verified_at": "2026-05-27T15:44:09+00:00"
+    },
+    {
+      "category": "dubbele negatie met clitisch en",
+      "verse": 13,
+      "severity": "soft",
+      "quote_modernized": "… doet hij daarbij, opdat hij deze deugd niet aan zichzelf en zijn krachten schij…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'niet aan zichzelf en zijn' — SV-clitisch 'en' tussen negatie en finiet werkwoord. Modern Nederlands gebruikt enkele negatie; verwijder het 'en'.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "PHP-4-13-001",
+      "status": "verified",
+      "rebuttal": "False positive: in PHP 4:13 is 'niet aan zichzelf en zijn krachten' een gewone nevenschikking ('zichzelf' + 'zijn krachten'), geen SV-clitisch 'en' voor een finiet werkwoord. ARCHAISMEN.md viseert dubbele negatie zoals 'niet en schijne'; die is hier al gemoderniseerd naar 'niet ... schijnt'.",
+      "verified_at": "2026-05-27T15:44:09+00:00"
+    },
+    {
+      "category": "§2.3b bijwoord-coda",
+      "verse": 18,
+      "severity": "soft",
+      "quote_modernized": "…ende geur, een aangename offerande, God welbehagelijk.",
+      "rule_reference": "MODERNISATIE.md §2.3b",
+      "explanation": "'welbehagelijk.' aan zinseind — verifieer of dit bijwoord niet als coda achteraf is blijven hangen ('wandelende … onberispelick' → 'wandelden onberispelijk in …').",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "PHP-4-18-001",
+      "status": "verified",
+      "verified_at": "2026-05-27T15:44:09+00:00"
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 20,
+      "severity": "hard",
+      "quote_modernized": "…6:32; Jh. 20:17$. Grieks: tot de eeuwen der eeuwen.",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'der eeuwen' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de eeuwen' of 'van het eeuwen', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de eeuwen",
+      "location": "kanttekening",
+      "id": "PHP-4-20-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] \"tot de eeuwen der eeuwen\" staat in een als \"Grieks:\" gemarkeerde interlineaire gloss van eis tous aionas ton aionon (gen.pl.) — literale brontaal-aanduiding, geen lopende moderne proza. §2.3-glosconventie laat de literale vorm staan; \"der eeuwen\" is bovendien gefossiliseerde doxologie-genitief (vgl. Op. 1:6, 4:9). Geen hoofdtekst-archaïsme.",
+      "verified_at": "2026-05-27T15:44:09+00:00"
+    }
+  ]
+}
