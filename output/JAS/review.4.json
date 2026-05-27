@@ -1,0 +1,97 @@
+{
+  "book": "JAS",
+  "chapter": 4,
+  "reviewed_at": "2026-05-27T15:57:13+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-27T15:55:42+00:00",
+      "mode": "scan",
+      "issues_total": 5
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-27T15:57:13+00:00",
+      "mode": "verify",
+      "actions": [
+        "JAS-4-1-001: rebuttal verified",
+        "JAS-4-5-001: rebuttal verified",
+        "JAS-4-12-001: verified",
+        "JAS-4-15-001: rebuttal verified",
+        "JAS-4-15-002: rebuttal verified"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "category": "SV-spelling-residu (-inge/-isse/-erye)",
+      "verse": 1,
+      "severity": "hard",
+      "quote_modernized": "…de Christenen toentertijd niet, maar de onderlinge heftige twisten en ruzies, di…",
+      "rule_reference": "ARCHAISMEN.md (spelling)",
+      "explanation": "'onderlinge' — SV-spelling met finale -e. Modern: -ing / -is / -erij (bekeering→bekering, getuigenisse→getuigenis, slaverye→slavernij).",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "JAS-4-1-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] §SV-spelling-residu (ARCHAISMEN.md) target archaïsche verbaalsubstantieven (bekeeringe→bekering, getuigenisse→getuigenis, slaverye→slavernij). Hier vers-specifiek: 'het onderlinge geloof' = bepaald lw. + adjectief 'onderling' (Van Dale lemma als bn.) met attributieve flexie-e + zelfst. nw. 'geloof'. 'Onderling' is geen archaïsche -inge-vorm van een verbaalsubstantief; het is de modern-NL standaardvorm. Regex prefix-heuristiek mist onderscheid bn./zn.",
+      "verified_at": "2026-05-27T15:57:13+00:00"
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 5,
+      "severity": "soft",
+      "quote_modernized": "de geest die in",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'de geest die in' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "JAS-4-5-001",
+      "status": "verified",
+      "rebuttal": "KANTTEKENINGEN.md verbiedt redundantie wanneer een alternatief synoniem in de hoofdtekst wordt overgenomen; hier geeft de kanttekening bij JAS 4:5 juist een tekstuitleg/alternatieve lezing van τὸ πνεῦμα ὃ κατῴκησεν ('de geest die in u/ons woont'), zodat herhaling noodzakelijk is voor de variant, niet decoratief.",
+      "verified_at": "2026-05-27T15:57:13+00:00"
+    },
+    {
+      "category": "genitief pronomen wiens/wier",
+      "verse": 12,
+      "severity": "hard",
+      "quote_modernized": "Namelijk, God de Heere, in wiens plaats al degenen zich dan aanmati…",
+      "rule_reference": "ARCHAISMEN.md (SV-pronomina)",
+      "explanation": "'wiens plaats' — formeel-archaïsch genitief-pronomen. Modern Nederlands: 'van wie plaats' of zinsherbouw met bezittelijk voornaamwoord ('die zijn plaats', 'die haar plaats'). NBV21 vermijdt 'wiens' grotendeels.",
+      "proposed_fix": "Namelijk, God de Heere; in zijn plaats stellen zich dan aanmatigend al degenen ...",
+      "location": "kanttekening",
+      "id": "JAS-4-12-001",
+      "status": "verified",
+      "rebuttal": null,
+      "verified_at": "2026-05-27T15:57:13+00:00"
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 15,
+      "severity": "soft",
+      "quote_modernized": "…plaats daarvan zou u   moeten zeggen:   Indien de Heere wil   en wij leven, dan …",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "JAS-4-15-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-27T15:57:13+00:00"
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 15,
+      "severity": "soft",
+      "quote_modernized": "dit of dat doen",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'dit of dat doen' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "JAS-4-15-002",
+      "status": "verified",
+      "rebuttal": "KANTTEKENINGEN.md laat <Of, ...>-blokken als alternatieve vertaling staan; in JAS 4:15 geeft de noot de syntactische apodosisvariant bij Ἐὰν ... καὶ ζήσωμεν, καὶ ποιήσομεν, namelijk 'dan zullen wij leven en dit of dat doen'. De herhaling markeert de variant en is geen overbodige hoofdtekst-parafrase.",
+      "verified_at": "2026-05-27T15:57:13+00:00"
+    }
+  ]
+}
