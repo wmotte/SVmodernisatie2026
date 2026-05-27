@@ -1,7 +1,7 @@
 {
   "book": "JAS",
   "chapter": 4,
-  "reviewed_at": "2026-05-27T15:57:13+00:00",
+  "reviewed_at": "2026-05-27T15:59:09+00:00",
   "passes": [
     {
       "pass": 1,
@@ -20,6 +20,12 @@
         "JAS-4-15-001: rebuttal verified",
         "JAS-4-15-002: rebuttal verified"
       ]
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-05-27T15:59:09+00:00",
+      "mode": "verify",
+      "actions": []
     }
   ],
   "issues": [
@@ -63,7 +69,8 @@
       "id": "JAS-4-12-001",
       "status": "verified",
       "rebuttal": null,
-      "verified_at": "2026-05-27T15:57:13+00:00"
+      "verified_at": "2026-05-27T15:57:13+00:00",
+      "fix_commit": "204cd0e3fabff909060ea657d141107ea2c1bfce"
     },
     {
       "category": "§2.7 drempel-archaïsme",
