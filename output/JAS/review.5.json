@@ -1,13 +1,31 @@
 {
   "book": "JAS",
   "chapter": 5,
-  "reviewed_at": "2026-05-27T17:41:42+00:00",
+  "reviewed_at": "2026-05-27T17:45:00+00:00",
   "passes": [
     {
       "pass": 1,
       "ran_at": "2026-05-27T17:41:42+00:00",
       "mode": "scan",
       "issues_total": 11
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-27T17:45:00+00:00",
+      "mode": "verify",
+      "actions": [
+        "JAS-5-3-001: rebuttal verified",
+        "JAS-5-7-001: rebuttal verified",
+        "JAS-5-7-002: rebuttal verified",
+        "JAS-5-7-003: verified",
+        "JAS-5-8-001: rebuttal verified",
+        "JAS-5-10-001: rebuttal verified",
+        "JAS-5-14-001: rebuttal verified",
+        "JAS-5-14-002: verified",
+        "JAS-5-19-001: rebuttal verified",
+        "JAS-5-19-002: rebuttal verified",
+        "JAS-5-20-001: verified"
+      ]
     }
   ],
   "issues": [
@@ -21,8 +39,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "JAS-5-3-001",
-      "status": "rebutted",
-      "rebuttal": "KANTTEKENINGEN.md verbiedt decoratieve redundantie; hier geeft de kanttekening bij JAS 5:3 een versspecifieke alternatieve lezing van 'in de laatste dagen' ('van uw leven' / 'tegen de laatste dagen'). De herhaling is nodig om de syntactische variant van de SV-kanttekening herkenbaar te houden."
+      "status": "verified",
+      "rebuttal": "KANTTEKENINGEN.md verbiedt decoratieve redundantie; hier geeft de kanttekening bij JAS 5:3 een versspecifieke alternatieve lezing van 'in de laatste dagen' ('van uw leven' / 'tegen de laatste dagen'). De herhaling is nodig om de syntactische variant van de SV-kanttekening herkenbaar te houden.",
+      "verified_at": "2026-05-27T17:45:00+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -34,8 +53,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "JAS-5-7-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'lankmoedig' (Gr. μακροθυμεῖ) is de concordante, projectbrede weergave (1KOR 13:4 zelf in DB; vgl. lankmoedigheid corpusbreed). Transparant compositum (lang+moed), herkenbaar in religieus register; §2.7-drempeltest faalt niet. Scanner-fix ('omdat/hoewel/echter') is regex-misser, semantisch onjuist."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'lankmoedig' (Gr. μακροθυμεῖ) is de concordante, projectbrede weergave (1KOR 13:4 zelf in DB; vgl. lankmoedigheid corpusbreed). Transparant compositum (lang+moed), herkenbaar in religieus register; §2.7-drempeltest faalt niet. Scanner-fix ('omdat/hoewel/echter') is regex-misser, semantisch onjuist.",
+      "verified_at": "2026-05-27T17:45:00+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -47,8 +67,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "JAS-5-7-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'lankmoedig' (Gr. μακροθυμεῖ) is de concordante, projectbrede weergave (1KOR 13:4 zelf in DB; vgl. lankmoedigheid corpusbreed). Transparant compositum (lang+moed), herkenbaar in religieus register; §2.7-drempeltest faalt niet. Scanner-fix ('omdat/hoewel/echter') is regex-misser, semantisch onjuist."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'lankmoedig' (Gr. μακροθυμεῖ) is de concordante, projectbrede weergave (1KOR 13:4 zelf in DB; vgl. lankmoedigheid corpusbreed). Transparant compositum (lang+moed), herkenbaar in religieus register; §2.7-drempeltest faalt niet. Scanner-fix ('omdat/hoewel/echter') is regex-misser, semantisch onjuist.",
+      "verified_at": "2026-05-27T17:45:00+00:00"
     },
     {
       "category": "kanttekening-luiheid (§2.3 in <…>)",
@@ -60,7 +81,8 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "JAS-5-7-003",
-      "status": "fixed"
+      "status": "verified",
+      "verified_at": "2026-05-27T17:45:00+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -72,8 +94,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "JAS-5-8-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'lankmoedig' (Gr. μακροθυμεῖ) is de concordante, projectbrede weergave (1KOR 13:4 zelf in DB; vgl. lankmoedigheid corpusbreed). Transparant compositum (lang+moed), herkenbaar in religieus register; §2.7-drempeltest faalt niet. Scanner-fix ('omdat/hoewel/echter') is regex-misser, semantisch onjuist."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'lankmoedig' (Gr. μακροθυμεῖ) is de concordante, projectbrede weergave (1KOR 13:4 zelf in DB; vgl. lankmoedigheid corpusbreed). Transparant compositum (lang+moed), herkenbaar in religieus register; §2.7-drempeltest faalt niet. Scanner-fix ('omdat/hoewel/echter') is regex-misser, semantisch onjuist.",
+      "verified_at": "2026-05-27T17:45:00+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -85,8 +108,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "JAS-5-10-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'lankmoedigheid' (μακροθυμία) is theologische deugd-term: concordant met Gal. 5:22 (vrucht van de Geest) en 1Kor. 13:4 ('liefde is lankmoedig'). Corpus-wide gebruikt in 3 verzen (SVm2026); HSV kiest 'geduld' als 4c-register-shift, geen 4a/4b-correctie. SV-conforme weergave handhaaft concordantie. MODERNISATIE.md §2.7 productiviteitstest geldt minder strikt voor theologische vaktermen die in liturgisch/dogmatisch modern NL gangbaar blijven."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'lankmoedigheid' (μακροθυμία) is theologische deugd-term: concordant met Gal. 5:22 (vrucht van de Geest) en 1Kor. 13:4 ('liefde is lankmoedig'). Corpus-wide gebruikt in 3 verzen (SVm2026); HSV kiest 'geduld' als 4c-register-shift, geen 4a/4b-correctie. SV-conforme weergave handhaaft concordantie. MODERNISATIE.md §2.7 productiviteitstest geldt minder strikt voor theologische vaktermen die in liturgisch/dogmatisch modern NL gangbaar blijven.",
+      "verified_at": "2026-05-27T17:45:00+00:00"
     },
     {
       "category": "kanttekening-luiheid (§2.3 in <…>)",
@@ -98,8 +122,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "JAS-5-14-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] 'voldoende' in kanttekening 'geen voldoende of vaste wortel' is geen finiet participium maar een gedeadjectiveerd attributief adjectief (WNT 'voldoende' I.A.1) dat in modern zakelijk Nederlands productief is: 'voldoende water/kennis/wortel'. §2.3 viseert -ende-vormen van participium-praesens (zaaiende, ziende) in adverbiale/predicatieve positie; hier staat 'voldoende' als gewoon bnw. naast 'vaste' en kwalificeert het zelfstandig naamwoord 'wortel' attributief — vgl. SV1657 'genoeghsamen' (=toereikende). Behoud."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] 'voldoende' in kanttekening 'geen voldoende of vaste wortel' is geen finiet participium maar een gedeadjectiveerd attributief adjectief (WNT 'voldoende' I.A.1) dat in modern zakelijk Nederlands productief is: 'voldoende water/kennis/wortel'. §2.3 viseert -ende-vormen van participium-praesens (zaaiende, ziende) in adverbiale/predicatieve positie; hier staat 'voldoende' als gewoon bnw. naast 'vaste' en kwalificeert het zelfstandig naamwoord 'wortel' attributief — vgl. SV1657 'genoeghsamen' (=toereikende). Behoud.",
+      "verified_at": "2026-05-27T17:45:00+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -111,7 +136,8 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "JAS-5-14-002",
-      "status": "fixed"
+      "status": "verified",
+      "verified_at": "2026-05-27T17:45:00+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -123,8 +149,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "JAS-5-19-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-27T17:45:00+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -136,8 +163,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "JAS-5-19-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-27T17:45:00+00:00"
     },
     {
       "category": "kanttekening-luiheid (§2.3 in <…>)",
@@ -149,7 +177,8 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "JAS-5-20-001",
-      "status": "fixed"
+      "status": "verified",
+      "verified_at": "2026-05-27T17:45:00+00:00"
     }
   ]
 }
