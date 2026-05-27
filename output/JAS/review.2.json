@@ -1,7 +1,7 @@
 {
   "book": "JAS",
   "chapter": 2,
-  "reviewed_at": "2026-05-27T14:51:04+00:00",
+  "reviewed_at": "2026-05-27T14:53:12+00:00",
   "passes": [
     {
       "pass": 1,
@@ -14,6 +14,20 @@
       "ran_at": "2026-05-27T14:51:04+00:00",
       "mode": "scan",
       "issues_total": 7
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-05-27T14:53:12+00:00",
+      "mode": "verify",
+      "actions": [
+        "JAS-2-5-001: rebuttal verified",
+        "JAS-2-9-001: rebuttal verified",
+        "JAS-2-9-002: rebuttal verified",
+        "JAS-2-11-001: rebuttal verified",
+        "JAS-2-14-001: rebuttal verified",
+        "JAS-2-15-001: rebuttal verified",
+        "JAS-2-17-001: rebuttal verified"
+      ]
     }
   ],
   "issues": [
@@ -27,8 +41,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "JAS-2-5-001",
-      "status": "rebutted",
-      "rebuttal": "False-positive voor MODERNISATIE.md §2.3b: in JAS 2:5 is '[om] rijk [te zijn] in het geloof' een predicatieve infinitiefconstructie bij 'uitverkoren', niet een nageschoven object dat voor de infinitief kan staan."
+      "status": "verified",
+      "rebuttal": "False-positive voor MODERNISATIE.md §2.3b: in JAS 2:5 is '[om] rijk [te zijn] in het geloof' een predicatieve infinitiefconstructie bij 'uitverkoren', niet een nageschoven object dat voor de infinitief kan staan.",
+      "verified_at": "2026-05-27T14:53:12+00:00"
     },
     {
       "category": "§2.3b vocatief-u",
@@ -40,8 +55,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "JAS-2-9-001",
-      "status": "rebutted",
-      "rebuttal": "False-positive voor MODERNISATIE.md §2.3b: in JAS 2:9 is 'u' het onderwerp van 'doet u zonde' na inversie bij 'dan', niet een vocatief of aanspreekobject dat weggelaten kan worden."
+      "status": "verified",
+      "rebuttal": "False-positive voor MODERNISATIE.md §2.3b: in JAS 2:9 is 'u' het onderwerp van 'doet u zonde' na inversie bij 'dan', niet een vocatief of aanspreekobject dat weggelaten kan worden.",
+      "verified_at": "2026-05-27T14:53:12+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -53,8 +69,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "JAS-2-9-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-27T14:53:12+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -66,8 +83,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "JAS-2-11-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-27T14:53:12+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -79,8 +97,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "JAS-2-14-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-27T14:53:12+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -92,8 +111,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "JAS-2-15-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-27T14:53:12+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -105,8 +125,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "JAS-2-17-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-27T14:53:12+00:00"
     }
   ]
 }
