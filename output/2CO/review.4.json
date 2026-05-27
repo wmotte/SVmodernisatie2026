@@ -1,0 +1,132 @@
+{
+  "book": "2CO",
+  "chapter": 4,
+  "reviewed_at": "2026-05-27T19:02:42+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-27T19:01:21+00:00",
+      "mode": "scan",
+      "issues_total": 7
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-27T19:02:42+00:00",
+      "mode": "verify",
+      "actions": [
+        "2CO-4-3-001: rebuttal verified",
+        "2CO-4-6-001: verified",
+        "2CO-4-6-002: rebuttal verified",
+        "2CO-4-7-001: rebuttal verified",
+        "2CO-4-17-001: rebuttal verified",
+        "2CO-4-18-001: rebuttal verified",
+        "2CO-4-1-001: rebuttal verified"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 3,
+      "severity": "soft",
+      "quote_modernized": "Maar indien ook ons Evangelie   bedekt is, da…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "2CO-4-3-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-27T19:02:42+00:00"
+    },
+    {
+      "category": "§2.3b infinitief met nageschoven object",
+      "verse": 6,
+      "severity": "soft",
+      "quote_modernized": "…die   in onze harten   geschenen heeft, om te geven verlichting van de kennis va…",
+      "rule_reference": "MODERNISATIE.md §2.3b",
+      "explanation": "'om … te geven verlichting van de kennis' — Latinaat-woordvolgorde; in modern NL gaat het object vóór de infinitief: 'om <object> te geven'.",
+      "proposed_fix": "om verlichting van de kennis van de heerlijkheid van God ... in het aangezicht van Jezus Christus [te geven]",
+      "location": "hoofdtekst",
+      "id": "2CO-4-6-001",
+      "status": "verified",
+      "fix_commit": "pending-adversarial-fix",
+      "verified_at": "2026-05-27T19:02:42+00:00"
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 6,
+      "severity": "soft",
+      "quote_modernized": "de heerlijkheid van god",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'de heerlijkheid van god' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "2CO-4-6-002",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Vers 7 (KANTTEKENINGEN.md redundantie-regel): de kanttekening op 'aangenomen heeft' verklaart het dóél (Grieks εἰς δόξαν θεοῦ — 'om ons de heerlijkheid van God deelachtig te maken'), een andere syntactische functie dan de hoofdtekst-bepaling 'tot de heerlijkheid van God'. Getrouwe weergave van SV-bron 'om ons der heerlickheyt Godts deelachtigh te maken'; de redundantie-regel viseert tóégevoegde parafrase, niet bronvaste SV-uitleg.",
+      "verified_at": "2026-05-27T19:02:42+00:00"
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 7,
+      "severity": "soft",
+      "quote_modernized": "en niet uit ons",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'en niet uit ons' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "2CO-4-7-001",
+      "status": "verified",
+      "rebuttal": "KANTTEKENINGEN.md redundantie-regel geldt tegen toegevoegde parafrase; in 2CO 4:7 verklaart de SV-kanttekening juist Grieks ἐξ ἡμῶν / 'uit ons' als bron van de kracht, met verwijzing naar 2Kor. 3:5-6. Bronvast bewaren van dit kanttekeningblok is verplicht.",
+      "verified_at": "2026-05-27T19:02:42+00:00"
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 17,
+      "severity": "soft",
+      "quote_modernized": "eeuwig gewicht van heerlijkheid",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'eeuwig gewicht van heerlijkheid' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "2CO-4-17-001",
+      "status": "verified",
+      "rebuttal": "KANTTEKENINGEN.md redundantie-regel heft bronvaste SV-glossen niet op: in 2CO 4:17 is 'Grieks: een eeuwig gewicht van heerlijkheid' een formele Griekse woordgroep-glosse bij αἰώνιον βάρος δόξης, niet een toegevoegde hoofdtekstparafrase.",
+      "verified_at": "2026-05-27T19:02:42+00:00"
+    },
+    {
+      "category": "§2.3b bijwoord-coda",
+      "verse": 18,
+      "severity": "soft",
+      "quote_modernized": "… ziet. Want de dingen die men ziet zijn tijdelijk, maar de dingen die men niet z…",
+      "rule_reference": "MODERNISATIE.md §2.3b",
+      "explanation": "'tijdelijk,' aan zinseind — verifieer of dit bijwoord niet als coda achteraf is blijven hangen ('wandelende … onberispelick' → 'wandelden onberispelijk in …').",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "2CO-4-18-001",
+      "status": "verified",
+      "rebuttal": "MODERNISATIE.md §2.3b bijwoord-coda ziet op een los bijwoord dat een werkwoord karakteriseert; in 2CO 4:18 zijn 'tijdelijk' en 'eeuwig' predicatieve bijvoeglijke naamwoorden bij 'de dingen', parallel aan Grieks πρόσκαιρα / αἰώνια.",
+      "verified_at": "2026-05-27T19:02:42+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 1,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'dewijle' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        1,
+        13,
+        18
+      ],
+      "id": "2CO-4-1-001",
+      "status": "verified",
+      "rebuttal": "Concordantie is hier niet gebroken: in 2CO 4:1 en 4:18 wordt SV 'dewijle' causaal gemoderniseerd met 'omdat', passend bij de zinsfunctie; de scanner zoekt prefixgelijkheid en mist deze bewuste §2.7-modernisering.",
+      "verified_at": "2026-05-27T19:02:42+00:00"
+    }
+  ]
+}
