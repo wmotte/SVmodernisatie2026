@@ -1,0 +1,72 @@
+{
+  "book": "1TH",
+  "chapter": 3,
+  "reviewed_at": "2026-05-27T13:58:08+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-27T13:58:08+00:00",
+      "mode": "scan",
+      "issues_total": 4
+    }
+  ],
+  "issues": [
+    {
+      "category": "§2.3b infinitief met nageschoven object",
+      "verse": 2,
+      "severity": "soft",
+      "quote_modernized": "…beider   in het Evangelie van Christus, om u te versterken en u te vermanen   ov…",
+      "rule_reference": "MODERNISATIE.md §2.3b",
+      "explanation": "'om … te versterken en u te vermanen' — Latinaat-woordvolgorde; in modern NL gaat het object vóór de infinitief: 'om <object> te versterken'.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "1TH-3-2-001",
+      "status": "rebutted",
+      "rebuttal": "MODERNISATIE.md §2.3b verbiedt nageschoven objecten na de infinitief. In 1TH 3:2 staat het object `u` al vóór beide infinitieven (`u te versterken` en `u te vermanen`); Grieks heeft tweemaal ὑμᾶς bij στηρίξαι/parκαλέσαι, dus geen SV-nageschoven object."
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 8,
+      "severity": "soft",
+      "quote_modernized": "Want nu   leven wij, indien u   vast staat in de Heere.",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "1TH-3-8-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 12,
+      "severity": "soft",
+      "quote_modernized": "in de liefde tot",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'in de liefde tot' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "1TH-3-12-001",
+      "status": "rebutted",
+      "rebuttal": "KANTTEKENINGEN.md bewaart kanttekeningblokken; de redundantie-regel ziet op nutteloze herhaling. In 1TH 3:12 vult de kanttekening de ellips bij `zoals wij ook zijn tot u` aan: `overvloedig in de liefde tot u`; dit verklaart καθάπερ καὶ ἡμεῖς εἰς ὑμᾶς en herhaalt niet dezelfde hoofdtekstrelatie."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 4,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'gelijck' in 3 verzen — verzen [4, 12] renderen het stam anders dan [6]",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        4,
+        6,
+        12
+      ],
+      "id": "1TH-3-4-001",
+      "status": "rebutted",
+      "rebuttal": "AGENTS.md-concordantie geldt voor gelijke brontekstwoorden, maar 1TH 3 heeft hier contextverschil: v4 καθὼς καὶ = `zoals ook gebeurd is`; v6 καθάπερ καὶ ἡμεῖς = `zoals ook wij`; v12 καθάπερ καὶ ἡμεῖς = `zoals ... wij ook`. De plaats van `ook` volgt de Nederlandse zinsfunctie, niet een gemiste modernisatie van `gelijck`."
+    }
+  ]
+}
