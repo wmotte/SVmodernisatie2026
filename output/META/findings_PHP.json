@@ -1,0 +1,35 @@
+{
+  "book": "PHP",
+  "generated_at": "2026-05-27T16:21:53Z",
+  "min_freq": 2,
+  "issues": [
+    {
+      "id": "META-PHP-3-7-001",
+      "verse": 7,
+      "chapter": 3,
+      "category": "carryover",
+      "severity": "soft",
+      "quote_modernized": "dat heb ik ter wille van Christus ... schade geacht",
+      "hsv_quote": "dat heb ik om Christus' wil als schade beschouwd",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "De SV-vorm 'om Christi wille' is in de modernisatie als 'ter wille van Christus' blijven staan. Het Grieks 'dia ton Christon' vraagt geen archaïserende constructie; 'om Christus' wil' bewaart de formele relatie natuurlijker.",
+      "proposed_fix": "dat heb ik om Christus' wil ... schade geacht",
+      "location": "hoofdtekst",
+      "status": "applied"
+    },
+    {
+      "id": "META-PHP-3-8-001",
+      "verse": 8,
+      "chapter": 3,
+      "category": "carryover",
+      "severity": "soft",
+      "quote_modernized": "ter wille van wie ik ... al die dingen als schade gerekend heb",
+      "hsv_quote": "om Wie ik dat alles als schade ervaren heb",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "De SV-vorm 'om wiens wille' is als 'ter wille van wie' blijven staan. Het Grieks 'di' hon' kan in modern Nederlands directer met 'om wie' worden weergegeven zonder betekenisverlies.",
+      "proposed_fix": "om wie ik ... al die dingen als schade gerekend heb",
+      "location": "hoofdtekst",
+      "status": "applied"
+    }
+  ]
+}

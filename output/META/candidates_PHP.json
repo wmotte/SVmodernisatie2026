@@ -1,0 +1,53 @@
+{
+  "book": "PHP",
+  "chapters": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "min_freq": 2,
+  "kinds": [
+    "carryover",
+    "fossiel-lidwoord",
+    "latinaat-window",
+    "cap-asym"
+  ],
+  "total_patterns": 1,
+  "patterns_by_kind": {
+    "carryover": [
+      {
+        "pattern_id": "p-0001",
+        "kind": "carryover",
+        "key": "wille",
+        "frequency": 2,
+        "hsv_alternatives": [
+          "beschouwd",
+          "beschouw",
+          "ervaren",
+          "vanwege",
+          "vuiligheid"
+        ],
+        "severity_hint": "soft",
+        "occurrences": [
+          {
+            "book": "PHP",
+            "chapter": 3,
+            "verse": 7,
+            "sv2026_excerpt": "  Maar wat   mij winst was, dat heb ik ter wille van Christus   schade geacht.",
+            "hsv_excerpt": "  Maar wat voor mij winst was, dat heb ik om Christus' wil als schade beschouwd.",
+            "original_excerpt": "  Maer ’t gene   my gewin was, dat hebbe ick om Christi wille   schade geacht."
+          },
+          {
+            "book": "PHP",
+            "chapter": 3,
+            "verse": 8,
+            "sv2026_excerpt": "…van de kennis van Christus Jezus, mijn Heere: ter wille van wie ik   al die dingen als schade gereke…",
+            "hsv_excerpt": "Ja, beslist, ik beschouw ook alles als schade   vanwege de voortreffelijkheid van de kennis van Christus Jezus, mijn Hee",
+            "original_excerpt": "Ia gewisselick   ick achte oock   alle dingen schade te zijn,   om de uytnemenheyt   der kennisse Christi Iesu mijns Hee"
+          }
+        ]
+      }
+    ]
+  }
+}
