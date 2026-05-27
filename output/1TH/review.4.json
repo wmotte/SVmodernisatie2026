@@ -1,0 +1,124 @@
+{
+  "book": "1TH",
+  "chapter": 4,
+  "reviewed_at": "2026-05-27T16:00:28+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-27T15:58:49+00:00",
+      "mode": "scan",
+      "issues_total": 6
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-27T16:00:28+00:00",
+      "mode": "verify",
+      "actions": [
+        "1TH-4-1-001: verified",
+        "1TH-4-12-001: rebuttal verified",
+        "1TH-4-14-001: rebuttal verified",
+        "1TH-4-15-001: rebuttal verified",
+        "1TH-4-1-002: rebuttal verified",
+        "1TH-4-3-001: rebuttal verified"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 1,
+      "severity": "soft",
+      "quote_modernized": "  Voorts dan, broeders, wij bidden en verm…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'voorts' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "1TH-4-1-001",
+      "status": "verified",
+      "fix_note": "Hoofdtekst gemoderniseerd: `Voorts dan` -> `Verder dan`; `Τὸ λοιπὸν οὖν` blijft als overgang behouden, maar `voorts` zakt de §2.7-productiviteitstest.",
+      "verified_at": "2026-05-27T16:00:28+00:00"
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 12,
+      "severity": "soft",
+      "quote_modernized": "degenen die buiten zijn",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'degenen die buiten zijn' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "1TH-4-12-001",
+      "status": "verified",
+      "rebuttal": "Geen redundantie volgens KANTTEKENINGEN.md: de kanttekening verklaart wie `degenen die buiten zijn` zijn, namelijk mensen die nog vreemd zijn aan het geloof, met verwijzing naar 1Kor. 5:12. Dat is een semantische uitleg van οἱ ἔξω, geen woordelijke herhaling.",
+      "verified_at": "2026-05-27T16:00:28+00:00"
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 14,
+      "severity": "soft",
+      "quote_modernized": "Want indien wij geloven dat Jezus is gestorve…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "1TH-4-14-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-27T16:00:28+00:00"
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 15,
+      "severity": "soft",
+      "quote_modernized": "het woord van de",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'het woord van de' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "1TH-4-15-001",
+      "status": "verified",
+      "rebuttal": "Geen redundantie volgens KANTTEKENINGEN.md: de kanttekening bespreekt de Griekse constructie `ἐν λόγῳ Κυρίου` en twee interpretaties van de herkomst van dit woord. De overlap `woord van de Heere` is nodig als lemma en herhaalt de hoofdtekst niet nutteloos.",
+      "verified_at": "2026-05-27T16:00:28+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 1,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'gelijck' in 5 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 5 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        1,
+        5,
+        6,
+        11,
+        13
+      ],
+      "id": "1TH-4-1-002",
+      "status": "verified",
+      "rebuttal": "Scanner-false-positive op de SV-stam `gelijck`: de betrokken verzen hebben verschillende Griekse vormen en functies. 4:1 gebruikt καθὼς bij ontvangen onderwijs, 4:5 καθάπερ καὶ als vergelijking, 4:6 καθὼς καὶ bij eerder getuigen, 4:11 καθὼς bij bevel, 4:13 καθὼς καὶ bij vergelijking met anderen; `zoals`/`zoals ook` volgt de context en AGENTS.md concordantie per brontekstwoord.",
+      "verified_at": "2026-05-27T16:00:28+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 3,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'heyligh' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        3,
+        4,
+        7
+      ],
+      "id": "1TH-4-3-001",
+      "status": "verified",
+      "rebuttal": "Scanner-false-positive op orthografie rond `heyligh`: 4:3, 4:4 en 4:7 geven ἁγιασμός consequent weer met `heiligmaking`; 4:3 kanttekening heeft daarnaast `heiligheid` voor het algemene begrip, en 4:8 `Heilige Geest` hoort bij Ἅγιον Πνεῦμα. Er is dus geen concordantie-drift maar contextgebonden Nederlandse vorming.",
+      "verified_at": "2026-05-27T16:00:28+00:00"
+    }
+  ]
+}
