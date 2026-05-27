@@ -142,6 +142,51 @@
       "generated_at": "2026-05-27T17:35:51.332779Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 16,
+      "original": "En houde niet op voor u te dancken, gedenckende uwer in mijne gebeden:",
+      "modernized": "En houd niet op voor u te danken, terwijl ik aan u denk in mijn gebeden:",
+      "source_text": "οὐ παύομαι εὐχαριστῶν ὑπὲρ ὑμῶν, μνείαν ὑμῶν ποιούμενος ἐπὶ τῶν προσευχῶν μου·",
+      "generated_at": "2026-05-27T17:41:16.233314Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 17,
+      "original": "Op dat de Godt onses Heeren Iesu Christi, de Vader der heerlickheyt, <D. u geve dat ghy meer ende meer toeneemt in de wijsheyt door den H. Geest.> u geve den geest der wijsheyt, ende der openbaringe, <Ofte, met sijne kennisse, ofte, in sijne erkentenisse. Want de rechte wijsheyt en bestaet niet alleen in de kennisse Godts, maer oock in de erkentenisse van sijne genade ende majesteyt.> in sijne kennisse:",
+      "modernized": "Opdat de God van onze Heere Jezus Christus, de Vader van de heerlijkheid, <Dat is, dat hij u geeft dat u meer en meer toeneemt in de wijsheid door de Heilige Geest.> u de geest van de wijsheid en van de openbaring geeft, <Of, met de kennis van hem, of, in de erkenning van hem. Want de rechte wijsheid bestaat niet alleen in de kennis van God, maar ook in de erkenning van zijn genade en majesteit.> in de kennis van hem:",
+      "source_text": "ἵνα ὁ Θεὸς τοῦ Κυρίου ἡμῶν Ἰησοῦ Χριστοῦ, ὁ Πατὴρ τῆς δόξης, δῴη ὑμῖν Πνεῦμα σοφίας καὶ ἀποκαλύψεως, ἐν ἐπιγνώσει αὐτοῦ·",
+      "generated_at": "2026-05-27T17:41:46.461639Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "subject": "HSV-spiegel",
+          "context": "hoofdtekst en kanttekening 2",
+          "choice": "in de kennis van hem",
+          "reason": "SV1657 en Grieks bedoelen kennis/erkenning van hem; 'in zijn kennis' kan modern als Gods eigen kennis gelezen worden."
+        }
+      ]
+    },
+    {
+      "verse_number": 18,
+      "original": "[Namelick] <Dit siet op ’t voorgaende woort u geve, Andere lesen, verlicht te zijn na de oogen uwes verstants.> verlichtede oogen uwes verstants, op dat ghy mooght weten welcke zy <D. de gehoopte sake, die in de volgende woorden wort verklaert. Siet 1.Petr. 1.3, 4.> de hope van sijne roepinge, ende welcke <D. de overvloedigheyt, gelijck vers 7.> de rijckdom zy der heerlickheyt van sijne erfenisse <D. ware geloovige. Want den anderen en gaet dese erve niet aen.> in de heylige:",
+      "modernized": "[Namelijk] <Dit ziet op het voorgaande woord: geeft. Anderen lezen: verlicht te zijn naar de ogen van uw verstand.> verlichte ogen van uw verstand, opdat u mag weten wat <Dat is, de gehoopte zaak, die in de volgende woorden wordt verklaard. Zie $1Pt. 1:3,4$.> de hoop van zijn roeping is, en wat <Dat is, de overvloedigheid, zoals vers 7.> de rijkdom van de heerlijkheid van zijn erfenis <Dat is, ware gelovigen. Want de anderen gaat deze erfenis niet aan.> in de heiligen is:",
+      "source_text": "πεφωτισμένους τοὺς ὀφθαλμοὺς τῆς διανοίας ὑμῶν, εἰς τὸ εἰδέναι ὑμᾶς τίς ἐστιν ἡ ἐλπὶς τῆς κλήσεως αὐτοῦ, καὶ τίς ὁ πλοῦτος τῆς δόξης τῆς κληρονομίας αὐτοῦ ἐν τοῖς ἁγίοις,",
+      "generated_at": "2026-05-27T17:42:36.534251Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "subject": "HSV-spiegel",
+          "context": "hoofdtekst",
+          "choice": "wat de hoop ... is; wat de rijkdom ... is",
+          "reason": "SV1657 'welcke zy' is formeel behouden qua vraagstructuur, maar modern Nederlands gebruikt hier 'wat ... is'."
+        }
+      ]
     }
   ]
 }
