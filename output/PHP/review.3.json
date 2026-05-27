@@ -1,0 +1,135 @@
+{
+  "book": "PHP",
+  "chapter": 3,
+  "reviewed_at": "2026-05-27T14:27:18+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-27T14:27:18+00:00",
+      "mode": "scan",
+      "issues_total": 9
+    }
+  ],
+  "issues": [
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 1,
+      "severity": "soft",
+      "quote_modernized": "Voorts, mijn broeders,   verblijd u   in…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'voorts' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "PHP-3-1-001",
+      "status": "fixed"
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 2,
+      "severity": "soft",
+      "quote_modernized": "let op de honden",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'let op de honden' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "PHP-3-2-001",
+      "status": "fixed"
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 4,
+      "severity": "soft",
+      "quote_modernized": "hoewel ik ook vertrouwen",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'hoewel ik ook vertrouwen' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "PHP-3-4-001",
+      "status": "rebutted",
+      "rebuttal": "De hit valt in een <Grieks: ...>-glosse die de Griekse formulering van vers 4 expliciteert; KANTTEKENINGEN.md vereist behoud van Griekse termen/glossen, geen lexicale alternatiefkeuze."
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 9,
+      "severity": "soft",
+      "quote_modernized": "door het geloof in",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'door het geloof in' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "PHP-3-9-001",
+      "status": "rebutted",
+      "rebuttal": "Vers 9 gebruikt de kanttekening om de instrumentele geloofsrelatie theologisch uit te leggen; KANTTEKENINGEN.md verbiedt alternatief-redundantie, niet noodzakelijke uitleg van dezelfde constructie."
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 11,
+      "severity": "soft",
+      "quote_modernized": "of ik op enigerlei",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'of ik op enigerlei' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "PHP-3-11-001",
+      "status": "rebutted",
+      "rebuttal": "De eerste kanttekening bij vers 11 verklaart dat 'of ik op enigerlei wijze' geen onzekerheid maar ijver/zwaarte aanduidt; dit is versspecifieke uitleg, geen vermijdbaar alternatief volgens KANTTEKENINGEN.md."
+    },
+    {
+      "category": "reflexief hem/haar (→ zich)",
+      "verse": 12,
+      "severity": "hard",
+      "quote_modernized": "…ar Damascus door hem aangegrepen en tot hem bekeerd ben, Handelingen 9. Zie iets…",
+      "rule_reference": "ARCHAISMEN.md (SV-pronomina)",
+      "explanation": "'hem bekeerd' — SV-reflexief met 'hem/haar' bij een werkwoord dat in modern Nederlands met 'zich' gaat. Vervang door 'zich bekeerd'.",
+      "proposed_fix": "zich bekeerd",
+      "location": "kanttekening",
+      "id": "PHP-3-12-001",
+      "status": "rebutted",
+      "rebuttal": "In vers 12 is 'tot hem bekeerd' geen reflexief object maar een voorzetselgroep: Paulus is door Christus aangegrepen en tot Christus bekeerd. ARCHAISMEN.md reflexief hem/haar -> zich is hier grammaticaal niet van toepassing."
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 14,
+      "severity": "soft",
+      "quote_modernized": "ik strek mij uit",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'ik strek mij uit' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "PHP-3-14-001",
+      "status": "rebutted",
+      "rebuttal": "Vers 14 heeft een <Of, ...>-kanttekening die de renbaanmetafoor letterlijk glossiert ('ik strek mij uit'); KANTTEKENINGEN.md laat zulke alternatieve glossen staan wanneer de hoofdtekst de SV-metafoor formeel behoudt."
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 15,
+      "severity": "soft",
+      "quote_modernized": "…kt zijn, laten wij   zo gezind zijn; en indien u   iets anders gezind bent, ook …",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "PHP-3-15-001",
+      "status": "rebutted",
+      "rebuttal": "'Indien' in vers 15 is een productieve formeel-Nederlandse conditionele voegwoordvorm; volgens MODERNISATIE.md §2.7 faalt zij hier de verwarringstest niet en bewaart zij de SV-conditionele toon."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 10,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'gelijck' in 3 verzen — verzen [17] renderen het stam anders dan [10, 21]",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        10,
+        17,
+        21
+      ],
+      "id": "PHP-3-10-001",
+      "status": "rebutted",
+      "rebuttal": "De stam 'gelijck' staat in vers 10 en 21 adjectivisch bij gelijkvormigheid aan Christus' dood/lichaam, maar in vers 17 adverbiaal in 'zoals ik wandel'. AGENTS.md concordantie vraagt geen gelijke rendering bij verschillende syntactische functies."
+    }
+  ]
+}
