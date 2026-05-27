@@ -1,0 +1,209 @@
+{
+  "book": "EPH",
+  "chapter": 2,
+  "reviewed_at": "2026-05-27T19:09:54+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-27T19:08:32+00:00",
+      "mode": "scan",
+      "issues_total": 11
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-27T19:09:54+00:00",
+      "mode": "verify",
+      "actions": [
+        "EPH-2-12-001: rebuttal verified",
+        "EPH-2-12-002: rebuttal verified",
+        "EPH-2-15-001: rebuttal verified",
+        "EPH-2-17-001: rebuttal verified",
+        "EPH-2-17-002: rebuttal verified",
+        "EPH-2-20-001: rebuttal verified",
+        "EPH-2-22-001: rebuttal verified",
+        "EPH-2-1-001: rebuttal verified",
+        "EPH-2-2-001: rebuttal verified",
+        "EPH-2-5-001: rebuttal verified",
+        "EPH-2-12-003: rebuttal verified"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "category": "voornaamwoordelijk bijwoord gesplitst",
+      "verse": 12,
+      "severity": "hard",
+      "quote_modernized": "… dikwijls vernieuwd; daarom spreekt hij hier van verbonden in het meervoud. Name…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'hier van' — SV-gesplitst voornaamwoordelijk bijwoord. Modern Nederlands voegt samen: 'hiervan' (bv. daarin, waarmee, hierop).",
+      "proposed_fix": "hiervan",
+      "location": "kanttekening",
+      "id": "EPH-2-12-001",
+      "status": "verified",
+      "rebuttal": "ARCHAISMEN.md raakt gesplitste voornaamwoordelijke bijwoorden als 'daar ... van' -> 'daarvan'. In Ef. 2:12 is 'hier' locatief: Paulus spreekt op deze plaats over 'verbonden' in het meervoud; 'van verbonden' is een zelfstandige voorzetselgroep, geen te vormen 'hiervan'.",
+      "verified_at": "2026-05-27T19:09:54+00:00"
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 12,
+      "severity": "soft",
+      "quote_modernized": "het burgerschap van israël",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'het burgerschap van israël' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "EPH-2-12-002",
+      "status": "verified",
+      "rebuttal": "KANTTEKENINGEN.md verbiedt overbodige herhaling, maar deze noot verklaart juist wat 'het burgerschap van Israël' inhoudt: 'de gemeente Gods'. De herhaalde term markeert het lemma uit de hoofdtekst; zonder die term wordt de uitleg minder precies en raakt de SV-kanttekeningstructuur beschadigd.",
+      "verified_at": "2026-05-27T19:09:54+00:00"
+    },
+    {
+      "category": "voornaamwoordelijk bijwoord gesplitst",
+      "verse": 15,
+      "severity": "hard",
+      "quote_modernized": "…boorte vernieuwd. En de Apostel spreekt hier van alle gelovigen als van één mens…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'hier van' — SV-gesplitst voornaamwoordelijk bijwoord. Modern Nederlands voegt samen: 'hiervan' (bv. daarin, waarmee, hierop).",
+      "proposed_fix": "hiervan",
+      "location": "kanttekening",
+      "id": "EPH-2-15-001",
+      "status": "verified",
+      "rebuttal": "ARCHAISMEN.md raakt gesplitste voornaamwoordelijke bijwoorden als 'daar ... van' -> 'daarvan'. In Ef. 2:15 is 'hier' locatief: de Apostel spreekt op deze plaats over alle gelovigen als één mens; 'van alle gelovigen' is een zelfstandige voorzetselgroep, geen te vormen 'hiervan'.",
+      "verified_at": "2026-05-27T19:09:54+00:00"
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 17,
+      "severity": "soft",
+      "quote_modernized": "…Apostelen aan allen zonder onderscheid; door welke en met welke Apostelen hij kr…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "EPH-2-17-001",
+      "status": "verified",
+      "rebuttal": "De twee 'welke'-vormen verwijzen in Ef. 2:17 binnen dezelfde kanttekening naar 'Apostelen' en functioneren als formele betrekkelijke aanwijzing bij personen. §2.3/ARCHAISMEN.md maakt dit soft; vervanging door 'wie' zou in 'door wie en met wie Apostelen' onnatuurlijk en minder SV-concordant zijn.",
+      "verified_at": "2026-05-27T19:09:54+00:00"
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 17,
+      "severity": "soft",
+      "quote_modernized": "…allen zonder onderscheid; door welke en met welke Apostelen hij krachtig is gewe…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "EPH-2-17-002",
+      "status": "verified",
+      "rebuttal": "De tweede 'welke' hoort bij dezelfde constructie 'door welke en met welke Apostelen' in Ef. 2:17. Dit is geen drempel-archaïsme maar formele relatieve stijl; §2.3 vereist geen herbouw naar 'door hen en met hen', omdat dat de SV-zinsbouw sterker parafraseert.",
+      "verified_at": "2026-05-27T19:09:54+00:00"
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 20,
+      "severity": "soft",
+      "quote_modernized": "van de apostelen en",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'van de apostelen en' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "EPH-2-20-001",
+      "status": "verified",
+      "rebuttal": "KANTTEKENINGEN.md verbiedt redundante alternatieven, maar deze noot herhaalt 'Apostelen en Profeten' om 'fundament' te definiëren als hun leer, dus niet als personen zelf. De herhaling is lemma-binding bij Ef. 2:20 en inhoudelijk noodzakelijk voor de kanttekening.",
+      "verified_at": "2026-05-27T19:09:54+00:00"
+    },
+    {
+      "category": "§2.3b vocatief-u",
+      "verse": 22,
+      "severity": "soft",
+      "quote_modernized": "  Op wie ook   u mede gebouwd wordt tot een woning v…",
+      "rule_reference": "MODERNISATIE.md §2.3b",
+      "explanation": "'u mede' aan zin-/clause-begin — mogelijke vocatief-u-Latinaatconstructie. Verifieer of 'u' hier object van aanspreking is en weghaalbaar is.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "EPH-2-22-001",
+      "status": "verified",
+      "rebuttal": "MODERNISATIE.md §2.3b verbiedt vocatief-u alleen waar 'u' aanspreekvorm/appositie is. In Ef. 2:22 is 'u mede gebouwd wordt' een declaratieve passieve zin met 'u' als onderwerp; weglaten zou de geadresseerde Heidenen uit de hoofdtekst verwijderen.",
+      "verified_at": "2026-05-27T19:09:54+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 1,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'gemaeck' in 4 verzen — verzen [15] renderen het stam anders dan [1, 5, 14]",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 4 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        1,
+        5,
+        14,
+        15
+      ],
+      "id": "EPH-2-1-001",
+      "status": "verified",
+      "rebuttal": "Concordantie is lexicaal maar contextgevoelig. De stam 'gemaeck' dekt Ef. 2:1/5 'levend gemaakt', Ef. 2:14 'één gemaakt' en Ef. 2:15 'tenietgedaan' (te niete gemaeckt); deze vaste Nederlandse combinaties moeten niet kunstmatig tot één rendering worden geharmoniseerd.",
+      "verified_at": "2026-05-27T19:09:54+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 2,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'eertijt' in 4 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 4 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        2,
+        3,
+        11,
+        13
+      ],
+      "id": "EPH-2-2-001",
+      "status": "verified",
+      "rebuttal": "De scanner vergelijkt prefixes en mist dat 'eertijts' in Ef. 2:2, 3, 11 en 13 consequent als 'voorheen' is weergegeven. AGENTS.md-concordantie is hier dus juist gehandhaafd; er is geen inhoudelijke drift, alleen orthografische prefix-ruis.",
+      "verified_at": "2026-05-27T19:09:54+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 5,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'geworde' in 3 verzen — verzen [13] renderen het stam anders dan [5, 8]",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        5,
+        8,
+        13
+      ],
+      "id": "EPH-2-5-001",
+      "status": "verified",
+      "rebuttal": "'geworden' heeft in Ef. 2:5/8 de vaste passieve formule 'zalig geworden', maar in Ef. 2:13 staat 'na by geworden' = 'dichtbij gekomen'. AGENTS.md-concordantie laat contextuele idiomen toe; harmoniseren naar 'geworden' zou modern Nederlands verslechteren.",
+      "verified_at": "2026-05-27T19:09:54+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 12,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'hebbend' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        12,
+        14,
+        16
+      ],
+      "id": "EPH-2-12-003",
+      "status": "verified",
+      "rebuttal": "Scanner-prefix-heuristiek false-positive: SV 'hebbende' wordt volgens MODERNISATIE.md §2.3 in context ontvouwd naar finiete of voorzetselconstructies ('zonder gemeenschap te hebben', 'zonder hoop'). Dat is regelconforme syntaxis, geen concordantie-drift.",
+      "verified_at": "2026-05-27T19:09:54+00:00"
+    }
+  ]
+}
