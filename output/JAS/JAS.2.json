@@ -74,6 +74,45 @@
       "generated_at": "2026-05-27T13:38:34.227371Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 7,
+      "original": "En lasteren sy niet <Namelick, des Heeren Iesu Christi, des Soons Godts.> den goeden naem <Namelick, als ghy in sijnen name gedoopt zijt. Ofte, na welcke ghy toegenaemt zijt, namelick, Christenen. Een Hebreeusche wijse van spreken. Siet dergelijcke Genes. cap. 48. vers 16. Iesa. 4. vers 1.> die over u aengeroepen is?",
+      "modernized": "En lasteren zij niet <Namelijk, van de Heere Jezus Christus, de Zoon Gods.> de goede naam <Namelijk, als u in zijn naam gedoopt bent. Of, waarnaar u genoemd bent, namelijk Christenen. Een Hebreeuwse wijze van spreken. Zie dergelijke $Gn. 48:16; Js. 4:1$.> die over u aangeroepen is?",
+      "source_text": "οὐκ αὐτοὶ βλασφημοῦσι τὸ καλὸν ὄνομα τὸ ἐπικληθὲν ἐφ’ ὑμᾶς;",
+      "generated_at": "2026-05-27T13:46:44.554863Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 8,
+      "original": "Indien ghy dan Dat is, de voornaemste ende algemeyne wet, waer onder alle andere zijn begrepen, gelijck oock een gemeyne heyrbane een Konincklicke wegh genaemt wort, Numer. cap. 21. vers 22. Ofte, die Godt een Heer ende Koningh over alle, ons voorgeschreven ende geboden heeft. de Konincklicke wet <Of, onderhoudt. Want genomen zijnde dat yemant de gantsche wet van de liefde des naesten onderhielt: ende hy aennam den persoon, gelijck geseght is, soo is hy een overtreder der selve wet: overmits de liefde des naesten geen plaetse en kan hebben daer de naesten veracht wort: gelijck in het volgende vers verklaert wort.> volbrenght, na de Schrift, $Levit. 19.18. Matth. 22.39. Marc. 12.31. Rom. 13.9. Galat. 5.14. Ephes. 5.2. 1.Thessal. 4.9.$ Ghy sult uwen naesten lief hebben als u selven, soo doet ghy wel:",
+      "modernized": "Als u dan <Dat is, de voornaamste en algemene wet, waaronder alle andere zijn begrepen, zoals ook een gewone hoofdweg een Koninklijke weg genoemd wordt, $Nm. 21:22$ Of, die God, een Heer en Koning over allen, ons heeft voorgeschreven en geboden.> de Koninklijke wet <Of, onderhoudt. Want aangenomen dat iemand de gehele wet van de liefde tot de naaste onderhield, en hij met aanzien van de persoon handelde, zoals gezegd is, dan is hij een overtreder van dezelfde wet; omdat de liefde tot de naaste geen plaats kan hebben waar de naaste veracht wordt, zoals in het volgende vers verklaard wordt.> volbrengt, naar de Schrift, $Lv. 19:18; Mt. 22:39; Mk. 12:31; Rm. 13:9; Gl. 5:14; Ef. 5:2; 1Th. 4:9$ U zult uw naaste liefhebben als uzelf, dan handelt u goed:",
+      "source_text": "εἰ μέντοι νόμον τελεῖτε βασιλικόν, κατὰ τὴν γραφήν, Ἀγαπήσεις τὸν πλησίον σου ὡς σεαυτόν, καλῶς ποιεῖτε·",
+      "generated_at": "2026-05-27T13:47:33.731436Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "subject": "eerste uitlegblok",
+          "context": "vers 8 na \"dan\"",
+          "choice": "als kanttekeningblok gemarkeerd",
+          "alternatives": [
+            "in de hoofdtekst laten staan"
+          ],
+          "reason": "De passage begint met \"Dat is\" en verklaart \"Koninklijke wet\"; zonder kanttekeningmarkering breekt zij de hoofdzin."
+        }
+      ]
+    },
+    {
+      "verse_number": 9,
+      "original": "Maer indien ghy <Namel. gelijck te voren is verklaert versen 1, 2, etc.> den persoon aenneemt, soo <Gr. werckt, D. doet een werck dat sonde is, als strijdende tegen de liefde des naesten.> doet ghy sonde, ende wort van <Namel. in het voorgaende vers verhaelt.> de wet bestraft als overtreders.",
+      "modernized": "Maar indien u <Namelijk, zoals tevoren is verklaard in verzen 1, 2, enz.> met aanzien van de persoon handelt, dan <Grieks: werkt; dat is, u doet een werk dat zonde is, omdat het strijdt tegen de liefde tot de naaste.> doet u zonde, en wordt u door <Namelijk, in het voorgaande vers vermeld.> de wet bestraft als overtreders.",
+      "source_text": "εἰ δὲ προσωποληπτεῖτε, ἁμαρτίαν ἐργάζεσθε, ἐλεγχόμενοι ὑπὸ τοῦ νόμου ὡς παραβάται.",
+      "generated_at": "2026-05-27T13:47:51.867168Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
