@@ -1,0 +1,129 @@
+{
+  "book": "2CO",
+  "chapter": 5,
+  "reviewed_at": "2026-05-27T19:56:37+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-27T19:55:43+00:00",
+      "mode": "scan",
+      "issues_total": 7
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-27T19:56:37+00:00",
+      "mode": "verify",
+      "actions": [
+        "2CO-5-4-001: rebuttal verified",
+        "2CO-5-4-002: rebuttal verified",
+        "2CO-5-15-001: rebuttal verified",
+        "2CO-5-16-001: rebuttal verified",
+        "2CO-5-17-001: rebuttal verified",
+        "2CO-5-19-001: verified",
+        "2CO-5-19-002: verified"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 4,
+      "severity": "soft",
+      "quote_modernized": "… datzelfde eeuwig te moeten missen. Of, in welke, namelijk, tabernakel wij zijn,…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "2CO-5-4-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-27T19:56:37+00:00"
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 4,
+      "severity": "soft",
+      "quote_modernized": "…zonder dat wij die hoeven af te leggen; van welke verborgenheid gesproken wordt …",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "2CO-5-4-002",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-27T19:56:37+00:00"
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 15,
+      "severity": "soft",
+      "quote_modernized": "  Als wij dit oordelen, dat indien   een   voor allen   gestorven is…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "2CO-5-15-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-27T19:56:37+00:00"
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 16,
+      "severity": "soft",
+      "quote_modernized": "…n nu aan niemand   naar het vlees; en   indien wij ook Christus naar het vlees g…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "2CO-5-16-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-27T19:56:37+00:00"
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 17,
+      "severity": "soft",
+      "quote_modernized": "Zo dan, indien iemand   in Christus is, die is  …",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "2CO-5-17-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-27T19:56:37+00:00"
+    },
+    {
+      "category": "§2.3 finiet participium",
+      "verse": 19,
+      "severity": "soft",
+      "quote_modernized": "…as in Christus   de wereld met zichzelf verzoenende; hun zonden hun niet toereke…",
+      "rule_reference": "MODERNISATIE.md §2.3",
+      "explanation": "'verzoenende' — verdacht -ende-woord in adverbial / clause-final positie. Ontvouw naar finiete bijzin ('en X', 'terwijl X', 'toen X').",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "2CO-5-19-001",
+      "status": "verified",
+      "fix_commit": "2542e69cb2eddd57f3a9dd13167c6ed66e3816a0",
+      "rebuttal": null,
+      "verified_at": "2026-05-27T19:56:37+00:00"
+    },
+    {
+      "category": "§2.3 finiet participium",
+      "verse": 19,
+      "severity": "soft",
+      "quote_modernized": "…chzelf verzoenende; hun zonden hun niet toerekenende; en heeft het woord van de …",
+      "rule_reference": "MODERNISATIE.md §2.3",
+      "explanation": "'toerekenende' — verdacht -ende-woord in adverbial / clause-final positie. Ontvouw naar finiete bijzin ('en X', 'terwijl X', 'toen X').",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "2CO-5-19-002",
+      "status": "verified",
+      "fix_commit": "2542e69cb2eddd57f3a9dd13167c6ed66e3816a0",
+      "rebuttal": null,
+      "verified_at": "2026-05-27T19:56:37+00:00"
+    }
+  ]
+}
