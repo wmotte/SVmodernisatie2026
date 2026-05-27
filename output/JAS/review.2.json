@@ -1,0 +1,112 @@
+{
+  "book": "JAS",
+  "chapter": 2,
+  "reviewed_at": "2026-05-27T14:51:04+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-27T14:47:49+00:00",
+      "mode": "scan",
+      "issues_total": 11
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-27T14:51:04+00:00",
+      "mode": "scan",
+      "issues_total": 7
+    }
+  ],
+  "issues": [
+    {
+      "category": "§2.3b infinitief met nageschoven object",
+      "verse": 5,
+      "severity": "soft",
+      "quote_modernized": "…armen van deze wereld   uitverkoren     om rijk te zijn in het geloof, en erfgen…",
+      "rule_reference": "MODERNISATIE.md §2.3b",
+      "explanation": "'om … te zijn in het geloof' — Latinaat-woordvolgorde; in modern NL gaat het object vóór de infinitief: 'om <object> te zijn'.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "JAS-2-5-001",
+      "status": "rebutted",
+      "rebuttal": "False-positive voor MODERNISATIE.md §2.3b: in JAS 2:5 is '[om] rijk [te zijn] in het geloof' een predicatieve infinitiefconstructie bij 'uitverkoren', niet een nageschoven object dat voor de infinitief kan staan."
+    },
+    {
+      "category": "§2.3b vocatief-u",
+      "verse": 9,
+      "severity": "soft",
+      "quote_modernized": "…nzien van de persoon handelt, dan   doet u zonde, en wordt u door   de wet bestr…",
+      "rule_reference": "MODERNISATIE.md §2.3b",
+      "explanation": "'u zonde' aan zin-/clause-begin — mogelijke vocatief-u-Latinaatconstructie. Verifieer of 'u' hier object van aanspreking is en weghaalbaar is.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "JAS-2-9-001",
+      "status": "rebutted",
+      "rebuttal": "False-positive voor MODERNISATIE.md §2.3b: in JAS 2:9 is 'u' het onderwerp van 'doet u zonde' na inversie bij 'dan', niet een vocatief of aanspreekobject dat weggelaten kan worden."
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 9,
+      "severity": "soft",
+      "quote_modernized": "Maar indien u   met aanzien van de persoon ha…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "JAS-2-9-002",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 11,
+      "severity": "soft",
+      "quote_modernized": "…ie heeft ook gezegd: U zult niet doden. Indien u nu geen overspel doet, maar wel…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "JAS-2-11-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 14,
+      "severity": "soft",
+      "quote_modernized": "    Wat nut heeft het, mijn broeders, indien iemand   zegt dat hij het geloof …",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "JAS-2-14-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 15,
+      "severity": "soft",
+      "quote_modernized": "  Indien er nu een broeder of zuster naakt…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "JAS-2-15-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 17,
+      "severity": "soft",
+      "quote_modernized": "Zo ook het geloof, indien het de werken niet heeft,   is op…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "JAS-2-17-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+    }
+  ]
+}
