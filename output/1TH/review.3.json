@@ -1,13 +1,38 @@
 {
   "book": "1TH",
   "chapter": 3,
-  "reviewed_at": "2026-05-27T13:58:08+00:00",
+  "reviewed_at": "2026-05-27T14:02:18+00:00",
   "passes": [
     {
       "pass": 1,
       "ran_at": "2026-05-27T13:58:08+00:00",
       "mode": "scan",
       "issues_total": 4
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-27T14:00:38+00:00",
+      "mode": "verify",
+      "actions": [
+        "1TH-3-2-001: rebuttal verified",
+        "1TH-3-8-001: rebuttal verified",
+        "1TH-3-12-001: rebuttal verified",
+        "1TH-3-4-001: reopened (luie rebuttal)"
+      ]
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-05-27T14:01:29+00:00",
+      "mode": "verify",
+      "actions": []
+    },
+    {
+      "pass": 4,
+      "ran_at": "2026-05-27T14:02:18+00:00",
+      "mode": "verify",
+      "actions": [
+        "1TH-3-4-001: rebuttal verified"
+      ]
     }
   ],
   "issues": [
@@ -21,8 +46,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "1TH-3-2-001",
-      "status": "rebutted",
-      "rebuttal": "MODERNISATIE.md §2.3b verbiedt nageschoven objecten na de infinitief. In 1TH 3:2 staat het object `u` al vóór beide infinitieven (`u te versterken` en `u te vermanen`); Grieks heeft tweemaal ὑμᾶς bij στηρίξαι/parκαλέσαι, dus geen SV-nageschoven object."
+      "status": "verified",
+      "rebuttal": "MODERNISATIE.md §2.3b verbiedt nageschoven objecten na de infinitief. In 1TH 3:2 staat het object `u` al vóór beide infinitieven (`u te versterken` en `u te vermanen`); Grieks heeft tweemaal ὑμᾶς bij στηρίξαι/parκαλέσαι, dus geen SV-nageschoven object.",
+      "verified_at": "2026-05-27T14:00:38+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -34,8 +60,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "1TH-3-8-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-27T14:00:38+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -47,8 +74,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "1TH-3-12-001",
-      "status": "rebutted",
-      "rebuttal": "KANTTEKENINGEN.md bewaart kanttekeningblokken; de redundantie-regel ziet op nutteloze herhaling. In 1TH 3:12 vult de kanttekening de ellips bij `zoals wij ook zijn tot u` aan: `overvloedig in de liefde tot u`; dit verklaart καθάπερ καὶ ἡμεῖς εἰς ὑμᾶς en herhaalt niet dezelfde hoofdtekstrelatie."
+      "status": "verified",
+      "rebuttal": "KANTTEKENINGEN.md bewaart kanttekeningblokken; de redundantie-regel ziet op nutteloze herhaling. In 1TH 3:12 vult de kanttekening de ellips bij `zoals wij ook zijn tot u` aan: `overvloedig in de liefde tot u`; dit verklaart καθάπερ καὶ ἡμεῖς εἰς ὑμᾶς en herhaalt niet dezelfde hoofdtekstrelatie.",
+      "verified_at": "2026-05-27T14:00:38+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -65,8 +93,9 @@
         12
       ],
       "id": "1TH-3-4-001",
-      "status": "rebutted",
-      "rebuttal": "AGENTS.md-concordantie geldt voor gelijke brontekstwoorden, maar 1TH 3 heeft hier contextverschil: v4 καθὼς καὶ = `zoals ook gebeurd is`; v6 καθάπερ καὶ ἡμεῖς = `zoals ook wij`; v12 καθάπερ καὶ ἡμεῖς = `zoals ... wij ook`. De plaats van `ook` volgt de Nederlandse zinsfunctie, niet een gemiste modernisatie van `gelijck`."
+      "status": "verified",
+      "rebuttal": "MODERNISATIE.md §5.3 eist concordantie bij hetzelfde Griekse woord, niet bij de brede SV-stam `gelijck`. In 1TH 3:4 staat καθὼς καὶ bij het werkwoord ἐγένετο: `zoals ook gebeurd is`. In 3:6 en 3:12 staat καθάπερ καὶ ἡμεῖς met expliciet subject ἡμεῖς: `zoals ook wij` / `zoals wij ook`. De plaats van `ook` volgt dus per vers de Griekse zinsfunctie en Nederlandse woordvolgorde.",
+      "verified_at": "2026-05-27T14:02:18+00:00"
     }
   ]
 }
