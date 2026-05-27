@@ -112,6 +112,33 @@
           "reason": "Semantic-review / HSV-spiegel: SV-woordvolgorde bewaart het object voor het subject, maar modern Nederlands leest daardoor gemakkelijk alsof 'u' subject is; Grieks heeft 'God, uw God' als subject en 'u' als object."
         }
       ]
+    },
+    {
+      "verse_number": 10,
+      "original": "<Namelick, tot, ofte van den Sone seght hy: gelijck vers 8. welcke woorden de Apostel hier getuyght, dat van den Sone Godts geseght zijn: gelijck oock het wit des Psalms aenwijst, alsoo hy aldaer van de wederoprechtinge des Koninckrijcks Godts spreeckt ende van de verbreydinge des selfs onder de Heydenen, het welck beyde door Christum is geschiet. Psalm 102. vers 14, etc.> Ende, $Psalm 102.26.$ Ghy Heere, hebt <Namelick, der scheppinge van alle dingen: gelijck Genes. 1.1. Ioan. 1.1.> in den beginne de aerde gegrondet, ende de hemelen zijn wercken uwer handen:",
+      "modernized": "<Namelijk, tot, of van de Zoon zegt hij: zoals vers 8. Deze woorden getuigt de Apostel hier, dat van de Zoon Gods gezegd zijn: zoals ook het doel van de Psalm aanwijst, omdat hij daar van de wederoprichting van het Koninkrijk Gods spreekt en van de verbreiding daarvan onder de Heidenen, wat beide door Christus is gebeurd. $Ps. 102:14$, enz.> En, $Ps. 102:26$ U, Heere, hebt <Namelijk, van de schepping van alle dingen: zoals $Gn. 1:1; Jh. 1:1$.> in het begin de aarde gegrond, en de hemelen zijn werken van uw handen:",
+      "source_text": "καί, Σὺ κατ’ ἀρχάς, Κύριε, τὴν γῆν ἐθεμελίωσας, καὶ ἔργα τῶν χειρῶν σού εἰσιν οἱ οὐρανοί·",
+      "generated_at": "2026-05-27T18:46:20.992339Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 11,
+      "original": "$Iesa. 51.6. 2.Petr. 3.7, 10.$ Deselve sullen vergaen, maer <Namelick, van eeuwigheyt tot eeuwigheyt, sonder veranderinge: gelijck oock van Christo getuyght wort, Apoc. c. 1. vers 8. ende 22. vers 13. Siet oock Hebr. 13.8.> ghy blijft altijt: ende sy sullen alle als een kleet verouden:",
+      "modernized": "$Js. 51:6; 2Pt. 3:7,10$ Diezelfde zullen vergaan, maar <Namelijk, van eeuwigheid tot eeuwigheid, zonder verandering: zoals ook van Christus getuigd wordt, $Opb. 1:8; 22:13$ Zie ook $Hb. 13:8$.> u blijft altijd; en zij zullen allen als een kleed verouderen:",
+      "source_text": "αὐτοὶ ἀπολοῦνται, σὺ δὲ διαμένεις· καὶ πάντες ὡς ἱμάτιον παλαιωθήσονται,",
+      "generated_at": "2026-05-27T18:46:57.832109Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 12,
+      "original": "Ende als <Namelick, dat ergens om wort geleght om yet te decken ende bewaren tegen regen, windt, ende hitte: ’t welck als het genoegh is gebruyckt, pleeght opgerolt, ende aen een zijde geleght te worden.> een deck-kleet sult ghyse in een rollen, ende sy sullen <Siet 2.Petr. 3. vers 10.> verandert worden: maer ghy zijt deselve, ende uwe jaren en sullen niet ophouden.",
+      "modernized": "En als <Namelijk, dat om iets heen wordt gelegd om iets te bedekken en te beschermen tegen regen, wind en hitte; wat, als het genoeg gebruikt is, gewoonlijk wordt opgerold en aan een kant gelegd.> een dekkleed zult u ze oprollen, en zij zullen <Zie $2Pt. 3:10$.> veranderd worden; maar u bent dezelfde, en uw jaren zullen niet ophouden.",
+      "source_text": "καὶ ὡσεὶ περιβόλαιον ἑλίξεις αὐτοὺς καὶ ἀλλαγήσονται· σὺ δὲ ὁ αὐτὸς εἶ, καὶ τὰ ἔτη σου οὐκ ἐκλείψουσι.",
+      "generated_at": "2026-05-27T18:47:19.381366Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
