@@ -223,6 +223,33 @@
       "generated_at": "2026-05-27T17:42:07.389992Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 25,
+      "original": "Broeders biddet voor ons.",
+      "modernized": "Broeders, bid voor ons.",
+      "source_text": "Ἀδελφοί, προσεύχεσθε περὶ ἡμῶν.",
+      "generated_at": "2026-05-27T17:47:16.038041Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 26,
+      "original": "$Rom. 16.16. 1.Corinth. 16.20. 2.Corinth. 13.12. 1.Petr. 5.14.$ Groetet alle de broeders <Siet hier van de aent. op Rom. 16. vers 16.> met eenen heyligen kus.",
+      "modernized": "$Rm. 16:16; 1Kor. 16:20; 2Kor. 13:12; 1Pt. 5:14$ Groet al de broeders <Zie de aantekening op $Rm. 16:16$.> met een heilige kus.",
+      "source_text": "Ἀσπάσασθε τοὺς ἀδελφοὺς πάντας ἐν φιλήματι ἁγίῳ.",
+      "generated_at": "2026-05-27T17:47:56.316823Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 27,
+      "original": "<Siet dergelijck Matth. 26.63.> Ick besweere <Namelick, regeerders ende voorstanders der gemeynte, aen welcke dese brief gesonden is om deselve daer na de geheele gemeynte mede te deelen. Waerom qualick doen de gene die het lesen van de brieven Pauli ende van de geheele Schrifture den gemeynte soecken te onttrecken.> u-lieden by den Heere, dat dese Sendtbrief alle den heyligen broederen gelesen worde.",
+      "modernized": "<Zie dergelijk $Mt. 26:63$.> Ik bezweer <Namelijk, regeerders en voorgangers van de gemeente, aan wie deze brief gezonden is om die daarna met de gehele gemeente te delen. Daarom handelen zij verkeerd die het lezen van de brieven van Paulus en van de gehele Schrift aan de gemeente proberen te onttrekken.> u bij de Heere, dat deze Zendbrief aan al de heilige broeders voorgelezen wordt.",
+      "source_text": "ὁρκίζω ὑμᾶς τὸν Κύριον, ἀναγνωσθῆναι τὴν ἐπιστολὴν πᾶσι τοῖς ἁγίοις ἀδελφοῖς.",
+      "generated_at": "2026-05-27T17:48:57.128728Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ],
   "epilogue": {
