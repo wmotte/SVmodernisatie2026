@@ -1,13 +1,29 @@
 {
   "book": "PHP",
   "chapter": 3,
-  "reviewed_at": "2026-05-27T14:27:18+00:00",
+  "reviewed_at": "2026-05-27T14:31:36+00:00",
   "passes": [
     {
       "pass": 1,
       "ran_at": "2026-05-27T14:27:18+00:00",
       "mode": "scan",
       "issues_total": 9
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-27T14:31:36+00:00",
+      "mode": "verify",
+      "actions": [
+        "PHP-3-1-001: verified",
+        "PHP-3-2-001: verified",
+        "PHP-3-4-001: rebuttal verified",
+        "PHP-3-9-001: rebuttal verified",
+        "PHP-3-11-001: rebuttal verified",
+        "PHP-3-12-001: rebuttal verified",
+        "PHP-3-14-001: rebuttal verified",
+        "PHP-3-15-001: rebuttal verified",
+        "PHP-3-10-001: rebuttal verified"
+      ]
     }
   ],
   "issues": [
@@ -21,7 +37,8 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "PHP-3-1-001",
-      "status": "fixed"
+      "status": "verified",
+      "verified_at": "2026-05-27T14:31:36+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -33,7 +50,8 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "PHP-3-2-001",
-      "status": "fixed"
+      "status": "verified",
+      "verified_at": "2026-05-27T14:31:36+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -45,8 +63,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "PHP-3-4-001",
-      "status": "rebutted",
-      "rebuttal": "De hit valt in een <Grieks: ...>-glosse die de Griekse formulering van vers 4 expliciteert; KANTTEKENINGEN.md vereist behoud van Griekse termen/glossen, geen lexicale alternatiefkeuze."
+      "status": "verified",
+      "rebuttal": "De hit valt in een <Grieks: ...>-glosse die de Griekse formulering van vers 4 expliciteert; KANTTEKENINGEN.md vereist behoud van Griekse termen/glossen, geen lexicale alternatiefkeuze.",
+      "verified_at": "2026-05-27T14:31:36+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -58,8 +77,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "PHP-3-9-001",
-      "status": "rebutted",
-      "rebuttal": "Vers 9 gebruikt de kanttekening om de instrumentele geloofsrelatie theologisch uit te leggen; KANTTEKENINGEN.md verbiedt alternatief-redundantie, niet noodzakelijke uitleg van dezelfde constructie."
+      "status": "verified",
+      "rebuttal": "Vers 9 gebruikt de kanttekening om de instrumentele geloofsrelatie theologisch uit te leggen; KANTTEKENINGEN.md verbiedt alternatief-redundantie, niet noodzakelijke uitleg van dezelfde constructie.",
+      "verified_at": "2026-05-27T14:31:36+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -71,8 +91,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "PHP-3-11-001",
-      "status": "rebutted",
-      "rebuttal": "De eerste kanttekening bij vers 11 verklaart dat 'of ik op enigerlei wijze' geen onzekerheid maar ijver/zwaarte aanduidt; dit is versspecifieke uitleg, geen vermijdbaar alternatief volgens KANTTEKENINGEN.md."
+      "status": "verified",
+      "rebuttal": "De eerste kanttekening bij vers 11 verklaart dat 'of ik op enigerlei wijze' geen onzekerheid maar ijver/zwaarte aanduidt; dit is versspecifieke uitleg, geen vermijdbaar alternatief volgens KANTTEKENINGEN.md.",
+      "verified_at": "2026-05-27T14:31:36+00:00"
     },
     {
       "category": "reflexief hem/haar (→ zich)",
@@ -84,8 +105,9 @@
       "proposed_fix": "zich bekeerd",
       "location": "kanttekening",
       "id": "PHP-3-12-001",
-      "status": "rebutted",
-      "rebuttal": "In vers 12 is 'tot hem bekeerd' geen reflexief object maar een voorzetselgroep: Paulus is door Christus aangegrepen en tot Christus bekeerd. ARCHAISMEN.md reflexief hem/haar -> zich is hier grammaticaal niet van toepassing."
+      "status": "verified",
+      "rebuttal": "In vers 12 is 'tot hem bekeerd' geen reflexief object maar een voorzetselgroep: Paulus is door Christus aangegrepen en tot Christus bekeerd. ARCHAISMEN.md reflexief hem/haar -> zich is hier grammaticaal niet van toepassing.",
+      "verified_at": "2026-05-27T14:31:36+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -97,8 +119,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "PHP-3-14-001",
-      "status": "rebutted",
-      "rebuttal": "Vers 14 heeft een <Of, ...>-kanttekening die de renbaanmetafoor letterlijk glossiert ('ik strek mij uit'); KANTTEKENINGEN.md laat zulke alternatieve glossen staan wanneer de hoofdtekst de SV-metafoor formeel behoudt."
+      "status": "verified",
+      "rebuttal": "Vers 14 heeft een <Of, ...>-kanttekening die de renbaanmetafoor letterlijk glossiert ('ik strek mij uit'); KANTTEKENINGEN.md laat zulke alternatieve glossen staan wanneer de hoofdtekst de SV-metafoor formeel behoudt.",
+      "verified_at": "2026-05-27T14:31:36+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -110,8 +133,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "PHP-3-15-001",
-      "status": "rebutted",
-      "rebuttal": "'Indien' in vers 15 is een productieve formeel-Nederlandse conditionele voegwoordvorm; volgens MODERNISATIE.md §2.7 faalt zij hier de verwarringstest niet en bewaart zij de SV-conditionele toon."
+      "status": "verified",
+      "rebuttal": "'Indien' in vers 15 is een productieve formeel-Nederlandse conditionele voegwoordvorm; volgens MODERNISATIE.md §2.7 faalt zij hier de verwarringstest niet en bewaart zij de SV-conditionele toon.",
+      "verified_at": "2026-05-27T14:31:36+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -128,8 +152,9 @@
         21
       ],
       "id": "PHP-3-10-001",
-      "status": "rebutted",
-      "rebuttal": "De stam 'gelijck' staat in vers 10 en 21 adjectivisch bij gelijkvormigheid aan Christus' dood/lichaam, maar in vers 17 adverbiaal in 'zoals ik wandel'. AGENTS.md concordantie vraagt geen gelijke rendering bij verschillende syntactische functies."
+      "status": "verified",
+      "rebuttal": "De stam 'gelijck' staat in vers 10 en 21 adjectivisch bij gelijkvormigheid aan Christus' dood/lichaam, maar in vers 17 adverbiaal in 'zoals ik wandel'. AGENTS.md concordantie vraagt geen gelijke rendering bij verschillende syntactische functies.",
+      "verified_at": "2026-05-27T14:31:36+00:00"
     }
   ]
 }
