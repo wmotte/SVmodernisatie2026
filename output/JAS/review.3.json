@@ -1,0 +1,91 @@
+{
+  "book": "JAS",
+  "chapter": 3,
+  "reviewed_at": "2026-05-27T15:06:05+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-27T15:06:05+00:00",
+      "mode": "scan",
+      "issues_total": 6
+    }
+  ],
+  "issues": [
+    {
+      "category": "genitief pronomen wiens/wier",
+      "verse": 6,
+      "severity": "hard",
+      "quote_modernized": "… te misbruiken. Dat is, door de duivel, wiens plaats van pijniging de hel is. Gr…",
+      "rule_reference": "ARCHAISMEN.md (SV-pronomina)",
+      "explanation": "'wiens plaats' — formeel-archaïsch genitief-pronomen. Modern Nederlands: 'van wie plaats' of zinsherbouw met bezittelijk voornaamwoord ('die zijn plaats', 'die haar plaats'). NBV21 vermijdt 'wiens' grotendeels.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "JAS-3-6-001",
+      "status": "fixed"
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 14,
+      "severity": "soft",
+      "quote_modernized": "  Maar indien u bittere   nijd en twistgierighe…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "JAS-3-14-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+    },
+    {
+      "category": "§2.3b bijwoord-coda",
+      "verse": 15,
+      "severity": "soft",
+      "quote_modernized": "…an bovenaf komt; maar zij is   aards,   natuurlijk,   duivels.",
+      "rule_reference": "MODERNISATIE.md §2.3b",
+      "explanation": "'natuurlijk,' aan zinseind — verifieer of dit bijwoord niet als coda achteraf is blijven hangen ('wandelende … onberispelick' → 'wandelden onberispelijk in …').",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "JAS-3-15-001",
+      "status": "rebutted",
+      "rebuttal": "'natuurlijk' in JAS 3:15 is geen bijwoord-coda bij een werkwoord, maar een predicatief adjectief in de drievoudige reeks 'aards, natuurlijk, duivels'. MODERNISATIE.md §2.3b raakt nageschoven bijwoorden die de manier van een werkwoord karakteriseren; hier verklaart de kanttekening Grieks ψυχικός/1Kor. 2:14 als eigenschap van de wijsheid."
+    },
+    {
+      "category": "§2.3b bijwoord-coda",
+      "verse": 17,
+      "severity": "soft",
+      "quote_modernized": "…en eerste   zuiver, daarna vreedzaam,   inschikkelijk,   voor rede vatbaar, vol …",
+      "rule_reference": "MODERNISATIE.md §2.3b",
+      "explanation": "'inschikkelijk,' aan zinseind — verifieer of dit bijwoord niet als coda achteraf is blijven hangen ('wandelende … onberispelick' → 'wandelden onberispelijk in …').",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "JAS-3-17-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] In 1TI 3:3 is 'inschikkelijk' geen bijwoordelijke coda maar een adjectief in de reeks predicatieve ambtseisen bij ἐπιεικῆ, parallel aan 'niet twistziek' en 'niet geldgierig'. MODERNISATIE.md §2.3b raakt achtergebleven bijwoordelijke participiumresten, niet deze Griekse adjectiefreeks."
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 17,
+      "severity": "soft",
+      "quote_modernized": "…n van goede vruchten,   onpartijdig, en ongeveinsd.",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'ongeveinsd' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "JAS-3-17-002",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] §2.7 false-positive: ongeveinsd is in modern bijbels/formeel Nederlands nog productief voor niet-gehuicheld/oprecht; HSV ROM 12:9 gebruikt eveneens ongeveinsd. Geen drempel-archaïsme volgens productiviteitstest."
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 18,
+      "severity": "soft",
+      "quote_modernized": "de vrucht van de",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'de vrucht van de' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "JAS-3-18-001",
+      "status": "fixed"
+    }
+  ]
+}
