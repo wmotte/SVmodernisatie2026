@@ -9,6 +9,10 @@ SOURCE_TEXT_CORRECTIONS = {
         "$Psalm 43.11$": "$Psalm 34.11$",
         "$Ps. 43:11$": "$Ps. 34:11$",
     },
+    ("JAS", 2, 23): {
+        "$Genes. 5.6. Rom. 4.3. Galat. 3.6.$": "$Genes. 15.6. Rom. 4.3. Galat. 3.6.$",
+        "$Gn. 5:6; Rm. 4:3; Gl. 3:6$": "$Gn. 15:6; Rm. 4:3; Gl. 3:6$",
+    },
 }
 
 
