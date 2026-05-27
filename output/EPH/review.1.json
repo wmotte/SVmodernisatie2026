@@ -1,0 +1,167 @@
+{
+  "book": "EPH",
+  "chapter": 1,
+  "reviewed_at": "2026-05-27T18:02:51+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-27T18:01:00+00:00",
+      "mode": "scan",
+      "issues_total": 8
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-27T18:02:20+00:00",
+      "mode": "verify",
+      "actions": [
+        "EPH-1-3-001: rebuttal verified",
+        "EPH-1-7-001: rebuttal verified",
+        "EPH-1-17-001: rebuttal verified",
+        "EPH-1-18-001: rebuttal verified",
+        "EPH-1-19-001: rebuttal verified",
+        "EPH-1-1-001: rebuttal verified",
+        "EPH-1-5-001: rebuttal verified",
+        "EPH-1-7-002: reopened (te generiek)"
+      ]
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-05-27T18:02:51+00:00",
+      "mode": "verify",
+      "actions": [
+        "EPH-1-7-002: rebuttal verified"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 3,
+      "severity": "soft",
+      "quote_modernized": "van onze heere jezus",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'van onze heere jezus' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "EPH-1-3-001",
+      "status": "verified",
+      "rebuttal": "KANTTEKENINGEN.md verbiedt redundante alternatieven, maar deze kanttekening definieert de titel 'God en Vader van onze Heere Jezus Christus' zelf. De herhaling is vers-specifieke uitleg bij 1Kor. 15:24, geen tweede hoofdtekstkeuze.",
+      "verified_at": "2026-05-27T18:02:20+00:00"
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 7,
+      "severity": "soft",
+      "quote_modernized": "…uis volbracht, $Hb. 9:12$, enz. Namelijk, welke de eerste vrucht is van deze ver…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "EPH-1-7-001",
+      "status": "verified",
+      "rebuttal": "ARCHAISMEN.md noemt 'welcke' als te moderniseren vorm; hier staat 'welke' in een kanttekening als verwijzing naar 'vergeving' uit dezelfde verszin. Het is formeel maar modern grammaticaal verdedigbaar; vervangen door 'die' zou geen inhoudelijke verbetering afdwingen.",
+      "verified_at": "2026-05-27T18:02:20+00:00"
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 17,
+      "severity": "soft",
+      "quote_modernized": "de kennis van hem",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'de kennis van hem' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "EPH-1-17-001",
+      "status": "verified",
+      "rebuttal": "KANTTEKENINGEN.md verbiedt redundantie tussen hoofdtekst en alternatief. Hier geeft de kanttekening juist de SV-glosse op 'in zijn kennis': 'met de kennis van hem, of, in de erkenning van hem'. De herhaling is lemma-uitleg bij ἐπιγνώσει, geen concurrerende hoofdtekst.",
+      "verified_at": "2026-05-27T18:02:20+00:00"
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 18,
+      "severity": "soft",
+      "quote_modernized": "ogen van uw verstand",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'ogen van uw verstand' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "EPH-1-18-001",
+      "status": "verified",
+      "rebuttal": "KANTTEKENINGEN.md staat uitleg- en leesvariantcitaten toe; de woorden 'ogen van uw verstand' worden hier alleen herhaald in de tekstvariant 'verlicht te zijn naar de ogen van uw verstand'. Dat is geen redundant alternatief maar een vers-specifieke variantuitleg.",
+      "verified_at": "2026-05-27T18:02:20+00:00"
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 19,
+      "severity": "soft",
+      "quote_modernized": "… hen meer en meer geopenbaard mag worden, welke kracht door hem met zeer treffel…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "EPH-1-19-001",
+      "status": "verified",
+      "rebuttal": "ARCHAISMEN.md markeert 'welcke' als archaïsche SV-vorm, maar deze kanttekening gebruikt modern gespeld 'welke kracht' als verwijzing naar het voorafgaande substantief kracht. In deze uitlegzin is 'die kracht' mogelijk, maar 'welke' is geen §2.7-drempelarchaïsme.",
+      "verified_at": "2026-05-27T18:02:20+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 1,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'heylige' in 4 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 4 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        1,
+        13,
+        15,
+        18
+      ],
+      "id": "EPH-1-1-001",
+      "status": "verified",
+      "rebuttal": "AGENTS.md concordantie geldt woord- en contextgevoelig. De stam 'heylige' dekt in EPH 1 zowel substantief 'Heiligen/heiligen' (v1, v15, v18) als adjectief 'heilig' en afleiding 'heiligheid' in kanttekeningen. Verschillende Nederlandse vormen volgen dezelfde lexicale familie en zijn geen drift.",
+      "verified_at": "2026-05-27T18:02:20+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 5,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'willens' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        5,
+        9,
+        11
+      ],
+      "id": "EPH-1-5-001",
+      "status": "verified",
+      "rebuttal": "AGENTS.md concordantie is hier intact: 'willens' is de oude genitief van 'wil' in v5, v9 en v11. De modernisering gebruikt telkens 'wil' ('van zijn wil', 'zijn wil', 'zijn wil'); de scanner mist alleen dat de genitiefuitgang verdwijnt.",
+      "verified_at": "2026-05-27T18:02:20+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 7,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'welcken' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        7,
+        11,
+        13
+      ],
+      "id": "EPH-1-7-002",
+      "status": "verified",
+      "rebuttal": "AGENTS.md concordantie is semantisch, niet prefix-letterlijk. In EPH 1:7, 1:11 en 1:13 staat 'welcken' bij het persoonsrelativum ἐν ᾧ; de modernisering geeft dit vers-specifiek telkens weer als 'in wie'. Dat is juist concordant.",
+      "verify_note": "rebuttal aangescherpt na pass 2: regelreferentie, Griekse term en versspecifieke context toegevoegd",
+      "verified_at": "2026-05-27T18:02:51+00:00"
+    }
+  ]
+}
