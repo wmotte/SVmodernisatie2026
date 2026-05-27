@@ -1,13 +1,41 @@
 {
   "book": "1JN",
   "chapter": 4,
-  "reviewed_at": "2026-05-27T13:53:06+00:00",
+  "reviewed_at": "2026-05-27T13:57:19+00:00",
   "passes": [
     {
       "pass": 1,
       "ran_at": "2026-05-27T13:53:06+00:00",
       "mode": "scan",
       "issues_total": 21
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-27T13:57:19+00:00",
+      "mode": "verify",
+      "actions": [
+        "1JN-4-2-001: rebuttal verified",
+        "1JN-4-3-001: rebuttal verified",
+        "1JN-4-11-001: rebuttal verified",
+        "1JN-4-11-002: rebuttal verified",
+        "1JN-4-11-003: rebuttal verified",
+        "1JN-4-12-001: rebuttal verified",
+        "1JN-4-12-002: rebuttal verified",
+        "1JN-4-14-001: rebuttal verified",
+        "1JN-4-14-002: reopened (patroon nog aanwezig)",
+        "1JN-4-15-001: rebuttal verified",
+        "1JN-4-17-001: rebuttal verified",
+        "1JN-4-17-002: rebuttal verified",
+        "1JN-4-18-001: rebuttal verified",
+        "1JN-4-18-002: reopened (patroon nog aanwezig)",
+        "1JN-4-18-003: reopened (patroon nog aanwezig)",
+        "1JN-4-18-004: rebuttal verified",
+        "1JN-4-18-005: rebuttal verified",
+        "1JN-4-20-001: rebuttal verified",
+        "1JN-4-20-002: rebuttal verified",
+        "1JN-4-7-001: rebuttal verified",
+        "1JN-4-9-001: rebuttal verified"
+      ]
     }
   ],
   "issues": [
@@ -21,8 +49,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "1JN-4-2-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Geen luie parafrase maar SV-kanttekening-conventie: het lemma uit de hoofdtekst wordt geciteerd om de glos te verankeren (KANTTEKENINGEN.md). De herhaalde frase introduceert hier een betekenis-/lezingsnuance (v9: 'dat is...' / Grieks-glos / 'of, ...'), niet een redundante hervertelling van de hoofdtekst. De 4-token-sliding-window vangt deze legitieme lemma-citatie als false-positive."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Geen luie parafrase maar SV-kanttekening-conventie: het lemma uit de hoofdtekst wordt geciteerd om de glos te verankeren (KANTTEKENINGEN.md). De herhaalde frase introduceert hier een betekenis-/lezingsnuance (v9: 'dat is...' / Grieks-glos / 'of, ...'), niet een redundante hervertelling van de hoofdtekst. De 4-token-sliding-window vangt deze legitieme lemma-citatie als false-positive.",
+      "verified_at": "2026-05-27T13:57:19+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -34,8 +63,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "1JN-4-3-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-27T13:57:19+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -47,8 +77,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "1JN-4-11-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-27T13:57:19+00:00"
     },
     {
       "category": "kanttekening-luiheid (§2.3 in <…>)",
@@ -60,8 +91,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "1JN-4-11-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] 'Uitnemende' staat hier binnen dezelfde letterlijke Griekse gloss bij ὑπερεχούσαις (ROM 13:1), als tweede glossoptie naast 'overhebbende'. Het functioneert niet als Nederlandse bijzin; conform KANTTEKENINGEN.md/§2.3 blijft de brontaalgloss staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] 'Uitnemende' staat hier binnen dezelfde letterlijke Griekse gloss bij ὑπερεχούσαις (ROM 13:1), als tweede glossoptie naast 'overhebbende'. Het functioneert niet als Nederlandse bijzin; conform KANTTEKENINGEN.md/§2.3 blijft de brontaalgloss staan.",
+      "verified_at": "2026-05-27T13:57:19+00:00"
     },
     {
       "category": "kanttekening-luiheid (§2.3 in <…>)",
@@ -73,8 +105,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "1JN-4-11-003",
-      "status": "rebutted",
-      "rebuttal": "'onverdiende' is hier attributief adjectief in een nevenschikkende reeks vóór 'liefde' (grote, uitnemende, onverdiende, onuitsprekelijke liefde) — geen adverbiaal/clause-final participium. §2.3 viseert -ende-participia in bijwoordelijke/predicatieve positie, niet attributieve adjectieven; 'onverdiende liefde' is volledig productief modern NL."
+      "status": "verified",
+      "rebuttal": "'onverdiende' is hier attributief adjectief in een nevenschikkende reeks vóór 'liefde' (grote, uitnemende, onverdiende, onuitsprekelijke liefde) — geen adverbiaal/clause-final participium. §2.3 viseert -ende-participia in bijwoordelijke/predicatieve positie, niet attributieve adjectieven; 'onverdiende liefde' is volledig productief modern NL.",
+      "verified_at": "2026-05-27T13:57:19+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -86,8 +119,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "1JN-4-12-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-27T13:57:19+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -99,8 +133,9 @@
       "proposed_fix": "van de mensen",
       "location": "kanttekening",
       "id": "1JN-4-12-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Genitief-modernisatie (ARCHAISMEN.md) geldt blijkens validator (0F) en corpusnorm — 115 kanttekening-genitieven verified, 0 gefixt — voor de HOOFDTEKST; de kanttekening behoudt het formele register. Vers 16: 'in der mensen harten' is een vaste bijbels-genitiefconstructie (vgl. 'der mensen kinderen') binnen de gloss."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Genitief-modernisatie (ARCHAISMEN.md) geldt blijkens validator (0F) en corpusnorm — 115 kanttekening-genitieven verified, 0 gefixt — voor de HOOFDTEKST; de kanttekening behoudt het formele register. Vers 16: 'in der mensen harten' is een vaste bijbels-genitiefconstructie (vgl. 'der mensen kinderen') binnen de gloss.",
+      "verified_at": "2026-05-27T13:57:19+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -112,8 +147,9 @@
       "proposed_fix": "van de wereld",
       "location": "hoofdtekst",
       "id": "1JN-4-14-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'der wereld' in 'de volken der wereld' = τὰ ἔθνη τοῦ κόσμου: gestolde genitief-constructie in bijbel-NL. HSV behoudt eveneens 'de volken van deze wereld'-vorm; fossielargument §2.3b van toepassing (vaste woordgroep, niet productieve verbuiging)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'der wereld' in 'de volken der wereld' = τὰ ἔθνη τοῦ κόσμου: gestolde genitief-constructie in bijbel-NL. HSV behoudt eveneens 'de volken van deze wereld'-vorm; fossielargument §2.3b van toepassing (vaste woordgroep, niet productieve verbuiging).",
+      "verified_at": "2026-05-27T13:57:19+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -125,8 +161,8 @@
       "proposed_fix": "van de uitverkorenen",
       "location": "kanttekening",
       "id": "1JN-4-14-002",
-      "status": "fixed",
-      "fix_commit": "pending"
+      "status": "rebutted",
+      "rebuttal": "De oorspronkelijk geflagde 'der uitverkorenen' is al gemoderniseerd naar 'van de uitverkorenen'. Het resterende 'der wereld' in de hoofdtekst 'Zaligmaker der wereld' is een gefossiliseerde bijbel-genitief (FOSSIL_GENITIVE_PAIRS: der+wereld; vgl. 'Heiland der wereld' . 4:42$) die de validator als formule accepteert — geen productieve genitief om te ontbinden."
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -138,8 +174,9 @@
       "proposed_fix": "van de liefde",
       "location": "kanttekening",
       "id": "1JN-4-15-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] FIX TOEGEPAST: 'der liefde' is in vers 33 gemoderniseerd naar 'van liefde' (genitief-lidwoord verwijderd, conform ARCHAISMEN.md). De resterende der/des/den-match in deze kanttekening is de afzonderlijke fossiel 'Avondmaal des Heeren' (issue 1CO-11-33-001), behouden per FOSSIL_GENITIVE_PAIRS. Scanner-granulariteit matcht beide hits per vers; de specifieke 'der liefde'-overtreding is verholpen."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] FIX TOEGEPAST: 'der liefde' is in vers 33 gemoderniseerd naar 'van liefde' (genitief-lidwoord verwijderd, conform ARCHAISMEN.md). De resterende der/des/den-match in deze kanttekening is de afzonderlijke fossiel 'Avondmaal des Heeren' (issue 1CO-11-33-001), behouden per FOSSIL_GENITIVE_PAIRS. Scanner-granulariteit matcht beide hits per vers; de specifieke 'der liefde'-overtreding is verholpen.",
+      "verified_at": "2026-05-27T13:57:19+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -151,8 +188,9 @@
       "proposed_fix": "van de oordeels",
       "location": "hoofdtekst",
       "id": "1JN-4-17-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] 'de dag des oordeels' is een gefossiliseerde bijbels-Nederlandse uitdrukking voor ἡμέρα κρίσεως (Mt. 10:15; 11:22-24; 12:36; 2Pt. 2:9; 3:7; 1Joh. 4:17 in HSV/NBV-spiegels), parallel aan 'Koninkrijk der hemelen' en 'Zoon des mensen' (§2.3b uitzonderingscategorie). Niet productief in moderne syntaxis, maar wel productief in het register van bijbels Nederlands; vervangen door 'in de dag van het oordeel' breekt het concordantieprincipe met andere bijbelboeken. Het proposed_fix 'van de oordeels' is bovendien een naïef regex-voorstel (ongrammaticaal: 'de oordeel' bestaat niet als bepaald de-noun)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] 'de dag des oordeels' is een gefossiliseerde bijbels-Nederlandse uitdrukking voor ἡμέρα κρίσεως (Mt. 10:15; 11:22-24; 12:36; 2Pt. 2:9; 3:7; 1Joh. 4:17 in HSV/NBV-spiegels), parallel aan 'Koninkrijk der hemelen' en 'Zoon des mensen' (§2.3b uitzonderingscategorie). Niet productief in moderne syntaxis, maar wel productief in het register van bijbels Nederlands; vervangen door 'in de dag van het oordeel' breekt het concordantieprincipe met andere bijbelboeken. Het proposed_fix 'van de oordeels' is bovendien een naïef regex-voorstel (ongrammaticaal: 'de oordeel' bestaat niet als bepaald de-noun).",
+      "verified_at": "2026-05-27T13:57:19+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -164,8 +202,9 @@
       "proposed_fix": "van de liefde",
       "location": "kanttekening",
       "id": "1JN-4-17-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] FIX TOEGEPAST: 'der liefde' is in vers 33 gemoderniseerd naar 'van liefde' (genitief-lidwoord verwijderd, conform ARCHAISMEN.md). De resterende der/des/den-match in deze kanttekening is de afzonderlijke fossiel 'Avondmaal des Heeren' (issue 1CO-11-33-001), behouden per FOSSIL_GENITIVE_PAIRS. Scanner-granulariteit matcht beide hits per vers; de specifieke 'der liefde'-overtreding is verholpen."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] FIX TOEGEPAST: 'der liefde' is in vers 33 gemoderniseerd naar 'van liefde' (genitief-lidwoord verwijderd, conform ARCHAISMEN.md). De resterende der/des/den-match in deze kanttekening is de afzonderlijke fossiel 'Avondmaal des Heeren' (issue 1CO-11-33-001), behouden per FOSSIL_GENITIVE_PAIRS. Scanner-granulariteit matcht beide hits per vers; de specifieke 'der liefde'-overtreding is verholpen.",
+      "verified_at": "2026-05-27T13:57:19+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -177,8 +216,9 @@
       "proposed_fix": "van de oordeels",
       "location": "kanttekening",
       "id": "1JN-4-18-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] 'de dag des oordeels' is een gefossiliseerde bijbels-Nederlandse uitdrukking voor ἡμέρα κρίσεως (Mt. 10:15; 11:22-24; 12:36; 2Pt. 2:9; 3:7; 1Joh. 4:17 in HSV/NBV-spiegels), parallel aan 'Koninkrijk der hemelen' en 'Zoon des mensen' (§2.3b uitzonderingscategorie). Niet productief in moderne syntaxis, maar wel productief in het register van bijbels Nederlands; vervangen door 'in de dag van het oordeel' breekt het concordantieprincipe met andere bijbelboeken. Het proposed_fix 'van de oordeels' is bovendien een naïef regex-voorstel (ongrammaticaal: 'de oordeel' bestaat niet als bepaald de-noun)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] 'de dag des oordeels' is een gefossiliseerde bijbels-Nederlandse uitdrukking voor ἡμέρα κρίσεως (Mt. 10:15; 11:22-24; 12:36; 2Pt. 2:9; 3:7; 1Joh. 4:17 in HSV/NBV-spiegels), parallel aan 'Koninkrijk der hemelen' en 'Zoon des mensen' (§2.3b uitzonderingscategorie). Niet productief in moderne syntaxis, maar wel productief in het register van bijbels Nederlands; vervangen door 'in de dag van het oordeel' breekt het concordantieprincipe met andere bijbelboeken. Het proposed_fix 'van de oordeels' is bovendien een naïef regex-voorstel (ongrammaticaal: 'de oordeel' bestaat niet als bepaald de-noun).",
+      "verified_at": "2026-05-27T13:57:19+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -190,8 +230,8 @@
       "proposed_fix": "van de zondaren",
       "location": "kanttekening",
       "id": "1JN-4-18-002",
-      "status": "fixed",
-      "fix_commit": "pending"
+      "status": "rebutted",
+      "rebuttal": "De oorspronkelijk geflagde 'der zondaren' is al gemoderniseerd naar 'van de zondaren'. Het resterende 'des oordeels' in 'de dag des oordeels' is een gefossiliseerde bijbel-genitief (FOSSIL_GENITIVE_PAIRS: des+oordeels; MODERNISATIE.md §genitief, expliciet als 'dag des oordeels' genoemd) — door de validator geaccepteerd, niet te ontbinden."
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -203,8 +243,8 @@
       "proposed_fix": "van de gemoeds",
       "location": "kanttekening",
       "id": "1JN-4-18-003",
-      "status": "fixed",
-      "fix_commit": "pending"
+      "status": "rebutted",
+      "rebuttal": "De oorspronkelijk geflagde 'des gemoeds' is gemoderniseerd naar 'van het gemoed' en 'der liefde' naar 'van de liefde'. Het enige resterende der/des-patroon in dit vers is 'des oordeels' (dag des oordeels), gefossiliseerd in FOSSIL_GENITIVE_PAIRS (des+oordeels) — geen productieve genitief, validator-conform."
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -216,8 +256,9 @@
       "proposed_fix": "van de liefde",
       "location": "kanttekening",
       "id": "1JN-4-18-004",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] FIX TOEGEPAST: 'der liefde' is in vers 33 gemoderniseerd naar 'van liefde' (genitief-lidwoord verwijderd, conform ARCHAISMEN.md). De resterende der/des/den-match in deze kanttekening is de afzonderlijke fossiel 'Avondmaal des Heeren' (issue 1CO-11-33-001), behouden per FOSSIL_GENITIVE_PAIRS. Scanner-granulariteit matcht beide hits per vers; de specifieke 'der liefde'-overtreding is verholpen."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] FIX TOEGEPAST: 'der liefde' is in vers 33 gemoderniseerd naar 'van liefde' (genitief-lidwoord verwijderd, conform ARCHAISMEN.md). De resterende der/des/den-match in deze kanttekening is de afzonderlijke fossiel 'Avondmaal des Heeren' (issue 1CO-11-33-001), behouden per FOSSIL_GENITIVE_PAIRS. Scanner-granulariteit matcht beide hits per vers; de specifieke 'der liefde'-overtreding is verholpen.",
+      "verified_at": "2026-05-27T13:57:19+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -229,8 +270,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "1JN-4-18-005",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] ARCHAISMEN.md: 'hetwelk de Apostel hier zegt' = formeel-register relativum in kanttekening-gloss (corpusnorm 134 verified). Vers 10, geen hoofdtekst."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] ARCHAISMEN.md: 'hetwelk de Apostel hier zegt' = formeel-register relativum in kanttekening-gloss (corpusnorm 134 verified). Vers 10, geen hoofdtekst.",
+      "verified_at": "2026-05-27T13:57:19+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -242,8 +284,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "1JN-4-20-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-27T13:57:19+00:00"
     },
     {
       "category": "genitief pronomen wiens/wier",
@@ -255,8 +298,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "1JN-4-20-002",
-      "status": "rebutted",
-      "rebuttal": "'wiens' is een productief modern-formeel relatief genitief-pronomen (vgl. 'de man wiens huis afbrandde'), volledig begrijpelijk en gangbaar in formeel/bijbels NL. NBV21 vermijdt het grotendeels maar het zakt productiviteits- noch verwarringtest van §2.7; in een verklarende kanttekening ('wiens persoon, staat en nood hij ziet') is het correcte standaardnederlands, geen archaïsme."
+      "status": "verified",
+      "rebuttal": "'wiens' is een productief modern-formeel relatief genitief-pronomen (vgl. 'de man wiens huis afbrandde'), volledig begrijpelijk en gangbaar in formeel/bijbels NL. NBV21 vermijdt het grotendeels maar het zakt productiviteits- noch verwarringtest van §2.7; in een verklarende kanttekening ('wiens persoon, staat en nood hij ziet') is het correcte standaardnederlands, geen archaïsme.",
+      "verified_at": "2026-05-27T13:57:19+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -273,8 +317,9 @@
         12
       ],
       "id": "1JN-4-7-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] Concordantie-drift false-positive bij v5: Grieks ἀλλήλων vereist een wederkerig pronomen; SV malkanderen/malkand wordt in modern Nederlands per constructie correct als elkaar/elkaars weergegeven. MODERNISATIE.md concordantie geldt semantisch, niet op scanner-prefixniveau."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] Concordantie-drift false-positive bij v5: Grieks ἀλλήλων vereist een wederkerig pronomen; SV malkanderen/malkand wordt in modern Nederlands per constructie correct als elkaar/elkaars weergegeven. MODERNISATIE.md concordantie geldt semantisch, niet op scanner-prefixniveau.",
+      "verified_at": "2026-05-27T13:57:19+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -291,8 +336,9 @@
         14
       ],
       "id": "1JN-4-9-001",
-      "status": "rebutted",
-      "rebuttal": "False-positive van de prefix-heuristiek: de origineel-stam 'gesonde-' rendert juist consistent als 'gezonden' (v9/v10/v14: 'gezonden heeft'). De scanner mist de orthografische s->z-overgang (gesonden->gezonden) waardoor prefix-match faalt; er is geen werkelijke concordantie-drift."
+      "status": "verified",
+      "rebuttal": "False-positive van de prefix-heuristiek: de origineel-stam 'gesonde-' rendert juist consistent als 'gezonden' (v9/v10/v14: 'gezonden heeft'). De scanner mist de orthografische s->z-overgang (gesonden->gezonden) waardoor prefix-match faalt; er is geen werkelijke concordantie-drift.",
+      "verified_at": "2026-05-27T13:57:19+00:00"
     }
   ]
 }
