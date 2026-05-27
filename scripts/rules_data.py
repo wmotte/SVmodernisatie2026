@@ -278,6 +278,12 @@ FALSE_FRIENDS: list[dict] = [
         "modern": "vorstenhof, rechtbank, formele tuin",
         "advies": "controleer SV-referent in context: 'erf' / 'woning' (LUK 11:21) of 'tuin' (LUK 13:19); 'hof' bewaart de moderne lezer geen van beide",
     },
+    {
+        "pattern": r"\b(?:uit|door)\s+enkele\s+(?:genade|gift)\b",
+        "sv": "louter, zuiver, alleen (enckel in genade/gave-formule)",
+        "modern": "een paar / afzonderlijke",
+        "advies": "'uit louter genade' / 'als loutere gave'; gewoon 'geen enkele' blijft modern",
+    },
 ]
 
 # 4. Adversarial Scan Specific Rules (from adversarial_scan.py)
