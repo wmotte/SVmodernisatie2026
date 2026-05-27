@@ -1,0 +1,145 @@
+{
+  "book": "1JN",
+  "chapter": 5,
+  "reviewed_at": "2026-05-27T14:41:39+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-27T14:41:39+00:00",
+      "mode": "scan",
+      "issues_total": 10
+    }
+  ],
+  "issues": [
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 1,
+      "severity": "soft",
+      "quote_modernized": "die uit hem geboren",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'die uit hem geboren' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "1JN-5-1-001",
+      "status": "rebutted",
+      "rebuttal": "De overlappende frase 'die uit hem geboren zijn' staat letterlijk in de SV1657-kanttekening ('sijne kinderen ... die uyt hem geboren zijn'); het is geen door de modernisator toegevoegde parafrase maar bronteksttrouwe weergave. De kanttekening voegt substantieve exegese toe (God liefhebben impliceert al zijn kinderen liefhebben, KANTTEKENINGEN.md); schrappen zou brontekst aantasten. §redundantie geldt alleen voor modernisator-parafrase, niet voor SV-eigen woordoverlap."
+    },
+    {
+      "category": "genitief pronomen wiens/wier",
+      "verse": 3,
+      "severity": "hard",
+      "quote_modernized": "…r ten aanzien van de wedergeborenen, in wier hart de Heilige Geest de geboden Go…",
+      "rule_reference": "ARCHAISMEN.md (SV-pronomina)",
+      "explanation": "'wier hart' — formeel-archaïsch genitief-pronomen. Modern Nederlands: 'van wie hart' of zinsherbouw met bezittelijk voornaamwoord ('die zijn hart', 'die haar hart'). NBV21 vermijdt 'wiens' grotendeels.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "1JN-5-3-001",
+      "status": "fixed",
+      "fix_note": "'wier hart' herschreven naar 'bij wie ... in het hart' — genitief-pronomen weg, §genitief-archaisme."
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 8,
+      "severity": "soft",
+      "quote_modernized": "…bloed, het Sacrament van het Avondmaal, door welke drie middelen de gelovigen in…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "1JN-5-8-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 9,
+      "severity": "soft",
+      "quote_modernized": "  Indien wij het getuigenis van de mensen …",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "1JN-5-9-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+    },
+    {
+      "category": "genitief pronomen wiens/wier",
+      "verse": 11,
+      "severity": "hard",
+      "quote_modernized": "…3:36$. Namelijk, als in een fontein uit wiens volheid wij het ontvangen, $Jh. 1:…",
+      "rule_reference": "ARCHAISMEN.md (SV-pronomina)",
+      "explanation": "'wiens volheid' — formeel-archaïsch genitief-pronomen. Modern Nederlands: 'van wie volheid' of zinsherbouw met bezittelijk voornaamwoord ('die zijn volheid', 'die haar volheid'). NBV21 vermijdt 'wiens' grotendeels.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "1JN-5-11-001",
+      "status": "fixed",
+      "fix_note": "'uit wiens volheid' -> 'uit de volheid waarvan' — moderne relatief-genitief voor zaak."
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 15,
+      "severity": "soft",
+      "quote_modernized": "En indien wij weten dat hij ons verhoort,  …",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "1JN-5-15-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 16,
+      "severity": "soft",
+      "quote_modernized": "Indien iemand   zijn broeder een zonde z…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "1JN-5-16-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 16,
+      "severity": "soft",
+      "quote_modernized": "…die zekerlijk de dood met zich meebrengt, welke is de lastering tegen de Heilige…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "1JN-5-16-002",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 16,
+      "severity": "soft",
+      "quote_modernized": "…at zij het middel tot de boetvaardigheid, hetwelk is Christus' offerande, en de …",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'hetwelk' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "1JN-5-16-003",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] ARCHAISMEN.md: 'hetwelk de Apostel hier zegt' = formeel-register relativum in kanttekening-gloss (corpusnorm 134 verified). Vers 10, geen hoofdtekst."
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 18,
+      "severity": "soft",
+      "quote_modernized": "raakt hem niet aan",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'raakt hem niet aan' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "1JN-5-18-001",
+      "status": "fixed",
+      "fix_note": "Hoofdtekst nam marginale Of-lezing 'raakt hem niet aan' over; SV-hoofdlezing is 'vattet hem niet'. Hoofdtekst hersteld naar 'grijpt hem niet'; kanttekening 'Of, raakt hem niet aan' nu echte variant -> redundantie + fideliteit opgelost."
+    }
+  ]
+}
