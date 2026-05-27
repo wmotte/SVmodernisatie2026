@@ -154,6 +154,45 @@
       "generated_at": "2026-05-27T16:47:08.924463Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 16,
+      "original": "<Namelick, Iesum Christum den waren Messiam.> Sijnen Sone <Dat is, aen my: in mijne ziele. Ofte, door my te openbaren, dat is, bekent te maken, dat ick hem voor den Sone Godts ende den waren Messiam hebbe erkent, ende in hem gelooft, Matth. cap. 16. vers 17.> in my te openbaren, $Actor. 9.15. ende 13.2. ende 22.21. Galat. 2.8. Ephes. 3.8.$ op dat ick den selven door het Euangelium onder de Heydenen soude verkondigen, soo en hebbe ick <Namelick, soo haest ick tot Christum bekeert ben geweest.> terstont niet te <Dat is, over de leere des Euangeliums met yemant gesproken ende gehandelt, om in deselve beter ofte breeder onderwesen te worden.> rade gegaen $Matth. 16.17.$ <Dat is, met eenige menschen, die uyt vleesch ende bloet bestaen. Siet dergelijcke wijse van spreken Matth. 16.17. Ephes. 6.12. oock selve niet met mijn eygen natuerlick vernuft.> met vleesch ende bloet:",
+      "modernized": "<Namelijk, Jezus Christus de ware Messias.> zijn Zoon <Dat is, aan mij: in mijn ziel. Of, door mij te openbaren, dat is, bekend te maken, dat ik hem voor de Zoon van God en de ware Messias heb erkend, en in hem heb geloofd, $Mt. 16:17$.> in mij te openbaren, $Hd. 9:15; 13:2; 22:21; Gl. 2:8; Ef. 3:8$ opdat ik die door het Evangelie onder de Heidenen zou verkondigen, zo ben ik <Namelijk, zodra ik tot Christus bekeerd was.> niet meteen te <Dat is, over de leer van het Evangelie met iemand gesproken en gehandeld, om in die leer beter of breder onderwezen te worden.> rade gegaan $Mt. 16:17$ <Dat is, met enige mensen, die uit vlees en bloed bestaan. Zie dergelijke wijze van spreken $Mt. 16:17; Ef. 6:12$ ook zelf niet met mijn eigen natuurlijk verstand.> met vlees en bloed:",
+      "source_text": "ἀποκαλύψαι τὸν Υἱὸν αὐτοῦ ἐν ἐμοί, ἵνα εὐαγγελίζωμαι αὐτὸν ἐν τοῖς ἔθνεσιν, εὐθέως οὐ προσανεθέμην σαρκὶ καὶ αἵματι·",
+      "generated_at": "2026-05-27T16:50:53.801569Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 17,
+      "original": "Ende en ben <Of, niet opgegaen: gelijck oock vers 18. Dit schijnt te strijden met het gene Lucas seght Actor. cap. 9. vers 26. Doch het gene Lucas daer seght, moet verstaen worden geschiet te zijn na dat Paulus drie jaren in Arabien geweest zijnde, van daer wederom tot Damascus gekomen was. Want Lucas en maeckt aldaer geen gewagh van Pauli reyse na Arabien, gelijck hy oock vele andere daden ende reysen Pauli na laet, die Paulus selve verhaelt 2.Cor. c. 11. ende cap. 12.> niet wederom gegaen na Ierusalem tot de gene die <Nam. yemant van de twaelve, die lange voor my tot het Apostelschap waren beroepen.> voor my Apostelen waren: maer ick gingh henen na <Een lantschap gelegen ten Zuyden van het Ioodsche lant, daer in de bergh Sina was, Galat. cap. 4. vers 25. tusschen de roode zee ende den inham van Persien.> Arabien, ende keerde wederom na <Van dese stadt siet de aenteeckeninge op Actor. 9.2.> Damascum.",
+      "modernized": "En ik ben <Of, niet opgegaan: zoals ook vers 18. Dit schijnt te strijden met wat Lucas zegt $Hd. 9:26$. Maar wat Lucas daar zegt, moet zo opgevat worden dat het geschied is nadat Paulus drie jaren in Arabië geweest was, en van daar weer tot Damascus gekomen was. Want Lucas maakt daar geen melding van Paulus' reis naar Arabië, zoals hij ook vele andere daden en reizen van Paulus weglaat, die Paulus zelf verhaalt $2Kor. 11:1; 12:1$.> niet weer naar Jeruzalem gegaan tot hen die <Namelijk, iemand van de twaalf, die lang vóór mij tot het Apostelschap waren geroepen.> vóór mij Apostelen waren: maar ik ging weg naar <Een landstreek gelegen ten Zuiden van het Joodse land, waarin de berg Sina was, $Gl. 4:25$. tussen de rode zee en de inham van Persië.> Arabië, en keerde weer terug naar <Van deze stad zie de aantekening op $Hd. 9:2$.> Damascus.",
+      "source_text": "οὐδὲ ἀνῆλθον εἰς Ἱεροσόλυμα πρὸς τοὺς πρὸ ἐμοῦ ἀποστόλους, ἀλλ’ ἀπῆλθον εἰς Ἀραβίαν, καὶ πάλιν ὑπέστρεψα εἰς Δαμασκόν.",
+      "generated_at": "2026-05-27T16:52:25.208766Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "subject": "hoofdstuk-referentie 2 Kor",
+          "context": "kanttekening 1",
+          "choice": "$2Kor. 11:1; 12:1$",
+          "alternatives": [
+            "$2Kor. 11; 12$"
+          ],
+          "reason": "SV1657 verwijst naar hele hoofdstukken (2.Cor. c. 11. ende cap. 12.); conform de verswijze in vers 12 (cap. 12 -> 12:1) is :1 toegevoegd zodat de normalisator het $...$-formaat accepteert."
+        }
+      ]
+    },
+    {
+      "verse_number": 18,
+      "original": "Daer na quam ick <Namelick, die ick soo in Arabien, als tot Damascus geweest was.> na drie jaren wederom te Ierusalem om Petrum <Het Griecks woort beteeckent yemant te gaen sien ofte besoecken om hem te hooren, ende met hem te spreken ende handelen.> te besoecken, ende ick bleef by hem vijftien dagen.",
+      "modernized": "Daarna kwam ik <Namelijk, nadat ik zowel in Arabië als te Damascus geweest was.> na drie jaren weer te Jeruzalem om Petrus <Het Griekse woord betekent iemand te gaan zien of bezoeken om hem te horen, en met hem te spreken en handelen.> te bezoeken, en ik bleef vijftien dagen bij hem.",
+      "source_text": "Ἔπειτα μετὰ ἔτη τρία ἀνῆλθον εἰς Ἱεροσόλυμα ἱστορῆσαι Πέτρον, καὶ ἐπέμεινα πρὸς αὐτὸν ἡμέρας δεκαπέντε.",
+      "generated_at": "2026-05-27T16:52:50.642198Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
