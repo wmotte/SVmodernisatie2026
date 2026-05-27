@@ -1,0 +1,97 @@
+{
+  "book": "HEB",
+  "chapter": 1,
+  "reviewed_at": "2026-05-27T18:57:05+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-27T18:56:11+00:00",
+      "mode": "scan",
+      "issues_total": 5
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-27T18:57:05+00:00",
+      "mode": "verify",
+      "actions": [
+        "HEB-1-2-001: rebuttal verified",
+        "HEB-1-3-001: rebuttal verified",
+        "HEB-1-5-001: rebuttal verified",
+        "HEB-1-5-002: rebuttal verified",
+        "HEB-1-7-001: rebuttal verified"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 2,
+      "severity": "soft",
+      "quote_modernized": "tot erfgenaam van alles",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'tot erfgenaam van alles' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "HEB-1-2-001",
+      "status": "verified",
+      "rebuttal": "KANTTEKENINGEN.md verbiedt redundantie bij alternatiefkeuzes; hier verklaart de kanttekening het erfgenaamsrecht zelf. De herhaling van 'tot erfgenaam van alles' is versspecifiek noodzakelijk als anker bij Hb. 1:2 en geen overgenomen synoniem.",
+      "verified_at": "2026-05-27T18:57:05+00:00"
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 3,
+      "severity": "soft",
+      "quote_modernized": "hij de reiniging van",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'hij de reiniging van' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "HEB-1-3-001",
+      "status": "verified",
+      "rebuttal": "KANTTEKENINGEN.md redundantie-regel ziet op dubbele hoofdtekst/alternatiefkeuze; deze kanttekening geeft juist de priesterlijke reden voor Hb. 1:3. 'De reiniging van onze zonden' is het noodzakelijke lemma van de uitleg, geen vervangbaar synoniem.",
+      "verified_at": "2026-05-27T18:57:05+00:00"
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 5,
+      "severity": "soft",
+      "quote_modernized": "…jn Zoon,   heden heb ik u   verwekt? En wederom,     Ik zal hem tot een Vader zi…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'wederom' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "HEB-1-5-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] πάλιν in v1 markeert herbezoek aan de Synagoge na MRK 1:21,39; 'wederom' is corpusconsequent (LUK 21×; MRK 2:1+2:13 verified-rebutted) en staat op lint_carryovers.py STOPLIST (regel 218). §2.7 productiviteitstest: 'wederom' blijft productief in bijbels-formeel register; renovatie ≠ hervertaling (AGENTS.md vertaalprincipe 1).",
+      "verified_at": "2026-05-27T18:57:05+00:00"
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 5,
+      "severity": "soft",
+      "quote_modernized": "… hij spreekt van een zodanige geboorte, op welke wijze geen Engelen of mensen ge…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "HEB-1-5-002",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-27T18:57:05+00:00"
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 7,
+      "severity": "soft",
+      "quote_modernized": "een vlam van vuur",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'een vlam van vuur' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "HEB-1-7-001",
+      "status": "verified",
+      "rebuttal": "KANTTEKENINGEN.md verbiedt redundante alternatiefkeuzes; in Hb. 1:7 is 'als een vlam van vuur' de verklarende vergelijking bij Ps. 104:4. De kanttekening preciseert functie ('krachtig uitvoeren') en herhaalt niet alleen de hoofdtekst.",
+      "verified_at": "2026-05-27T18:57:05+00:00"
+    }
+  ]
+}
