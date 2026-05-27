@@ -99,8 +99,10 @@ Reproduceerbaar via `python3 scripts/count_words.py`.
 | **22 mei 2026** | Romeinen hoofdstuk 9 en 10 afgerond (t/m ROM 10). Adversariële genitief- en participium-opschoning in kanttekeningen. Eerste Korinthe gestart (1CO 1). |
 | **23 mei 2026** | 1 Korinthe loopt door; 2 Korinthe gestart (2CO 1). |
 | **24 mei 2026** | Romeinen afgerond t/m hoofdstuk 13 (ROM 11–13). 1 Korinthe t/m hoofdstuk 8 compleet, hoofdstuk 9 in uitvoering. Drie korte brieven volledig afgerond: 2 Johannes, 3 Johannes en Judas. 1 Petrus gestart (1PE 1). Drukste inhaaldag: 144 commits. |
+| **25 mei 2026** | 1 Korinthe en 1 Petrus afgerond; 2 Korinthe en de pastorale brieven verder uitgebouwd. |
+| **26 mei 2026** | Titus, 2 Tessalonicenzen en 2 Petrus compleet; Kolossenzen gestart. Voortgang: 3.188 van 7.959 NT-verzen. |
 
-Looptijd tot heden: **9 dagen** (16–24 mei 2026).
+Looptijd tot heden: **11 kalenderdagen** (16–26 mei 2026; 10 productiedagen met output-commits).
 
 ---
 
@@ -108,11 +110,12 @@ Looptijd tot heden: **9 dagen** (16–24 mei 2026).
 
 | Metriek | Waarde |
 |---|---:|
-| Commits totaal | 1.026 |
-| Gemergede pull requests | 452 |
-| Commits per dag | 139 / 215 / 175 / 104 / 119 / 65 / 65 / 144 |
-| Boeken compleet | 6 (MRK, LUK, PHM, 2JN, 3JN, JUD) |
-| Verzen per dag (gem.) | ~308 |
+| Commits totaal | 1.673 |
+| Gemergede pull requests | 764 |
+| Commits per dag | 89 / 151 / 88 / 51 / 52 / 26 / 54 / 157 / 225 / 189 |
+| Boeken compleet | 12 (MRK, LUK, ROM, 1CO, 2TH, 1PE, 2PE, TIT, PHM, 2JN, 3JN, JUD) |
+| Gemoderniseerde verzen | 3.188 / 7.959 (40,06%) |
+| Verzen per productiedag (gem.) | ~319 |
 
 ---
 
