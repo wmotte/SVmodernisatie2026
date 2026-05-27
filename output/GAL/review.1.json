@@ -1,0 +1,158 @@
+{
+  "book": "GAL",
+  "chapter": 1,
+  "reviewed_at": "2026-05-27T17:09:16+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-27T17:09:16+00:00",
+      "mode": "scan",
+      "issues_total": 10
+    }
+  ],
+  "issues": [
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 2,
+      "severity": "soft",
+      "quote_modernized": "de gemeenten van galatië",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'de gemeenten van galatië' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "GAL-1-2-001",
+      "status": "rebutted",
+      "rebuttal": "Kanttekening 1 gebruikt 'de gemeenten van Galatië' binnen een substantieve doel-bijzin ('om ... de gemeenten van Galatië des te beter te bewegen tot het afleggen van hun dwalingen') die Paulus' retorische strategie verklaart — geen parafrastische herhaling van de hoofdtekst. KANTTEKENINGEN.md redundantie-regel richt zich op aantekeningen die de hoofdtekst louter herzeggen; hier is de frase deel van een exegetisch argument."
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 5,
+      "severity": "hard",
+      "quote_modernized": "Grieks: tot de eeuwen der eeuwen, of, tot eeuwigheden der eeuw…",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'der eeuwen' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de eeuwen' of 'van het eeuwen', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de eeuwen",
+      "location": "kanttekening",
+      "id": "GAL-1-5-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] \"tot de eeuwen der eeuwen\" staat in een als \"Grieks:\" gemarkeerde interlineaire gloss van eis tous aionas ton aionon (gen.pl.) — literale brontaal-aanduiding, geen lopende moderne proza. §2.3-glosconventie laat de literale vorm staan; \"der eeuwen\" is bovendien gefossiliseerde doxologie-genitief (vgl. Op. 1:6, 4:9). Geen hoofdtekst-archaïsme."
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 5,
+      "severity": "hard",
+      "quote_modernized": "… eeuwen der eeuwen, of, tot eeuwigheden der eeuwigheden. Hebraïsme.",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'der eeuwigheden' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de eeuwigheden' of 'van het eeuwigheden', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de eeuwigheden",
+      "location": "kanttekening",
+      "id": "GAL-1-5-002",
+      "status": "rebutted",
+      "rebuttal": "'tot eeuwigheden der eeuwigheden' staat in een als 'Grieks:' gemarkeerde interlineaire gloss van eis tous aionas ton aionon (gen.pl.) — literale brontaal-weergave, geen lopende moderne proza. §2.3-glosconventie laat de literale genitiefvorm staan; identiek aan de reeds gerebuteerde -001 op dezelfde glos-regel. Geen hoofdtekst-archaïsme."
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 6,
+      "severity": "soft",
+      "quote_modernized": "de genade van christus",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'de genade van christus' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "GAL-1-6-001",
+      "status": "rebutted",
+      "rebuttal": "Kanttekening contrasteert substantief 'door de genade van Christus, en niet door de werken van de wet' (genade vs. werken-der-wet, kernthema Gl.) — exegetische uitleg, geen parafrastische herhaling van hoofdtekst 'in de genade van Christus geroepen'. KANTTEKENINGEN.md redundantie-regel niet van toepassing."
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 9,
+      "severity": "soft",
+      "quote_modernized": "…egd hebben, zo zeg ik ook nu   opnieuw: indien iemand u een Evangelie verkondigt…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "GAL-1-9-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 10,
+      "severity": "soft",
+      "quote_modernized": "…     Of zoek ik mensen te behagen? Want indien ik   nog   mensen   behaagde, zo …",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "GAL-1-10-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 10,
+      "severity": "soft",
+      "quote_modernized": "ik nu de mensen",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'ik nu de mensen' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "GAL-1-10-002",
+      "status": "rebutted",
+      "rebuttal": "'ik nu de mensen' valt binnen de als 'Grieks:' gemarkeerde interlineaire gloss ('raad ik nu de mensen aan, of God?') die de Griekse-literale variant van peithoo geeft tegenover de hoofdtekst-keuze 'predik'. §2.3-glosconventie: een literale gloss spiegelt noodzakelijk de hoofdtekststructuur; geen redundante parafrase."
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 11,
+      "severity": "soft",
+      "quote_modernized": "…k u bekend, broeders, dat het Evangelie hetwelk door mij verkondigd is,   niet n…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'hetwelk' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": "dat het Evangelie dat door mij verkondigd is",
+      "location": "hoofdtekst",
+      "id": "GAL-1-11-001",
+      "status": "fixed",
+      "fix_commit": "PENDING"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 6,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'euangel' in 6 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 6 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        6,
+        7,
+        8,
+        9,
+        11,
+        16
+      ],
+      "id": "GAL-1-6-002",
+      "status": "rebutted",
+      "rebuttal": "Concordant: zelfstandig naamwoord euangelion → 'Evangelie' in v6/7/8/9/11/16 zonder uitzondering; werkwoord euangelizomai → 'verkondigen' (v8/9/16). Verschillende woordsoorten, standaard SV/HSV-behandeling. Scanner-prefix-heuristiek mist dat het werkwoord met niet-cognaat Nederlands woord wordt weergegeven. False-positive."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 9,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'wederom' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        9,
+        17,
+        18
+      ],
+      "id": "GAL-1-9-002",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] Concordantie-drift 'wederom' is uniform gerenderd: v4/v12/v13 alle drie 'opnieuw'. Perfect concordant. Scanner-prefix-heuristiek (weder-) detecteert orthografische overgang weder→opnieuw niet. False-positive."
+    }
+  ]
+}
