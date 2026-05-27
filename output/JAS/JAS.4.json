@@ -115,6 +115,41 @@
       "generated_at": "2026-05-27T15:38:29.775872Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 13,
+      "original": "Wel aen nu ghy die daer seght, $Luce 12.18.$ <Ofte, laet ons heden, etc.> Wy sullen heden ofte morgen na sulcken stadt reysen, ende aldaer een jaer <Gr. maken.> over brengen, ende <Onder dese eene soorte van menschelicke voornemens ende bekommeringen, worden alle andere mede verstaen, ende dese alleen genoemt, om dat by deselve het meeste gebreck hier in gevonden wiert.> koopmanschap drijven, ende winste doen:",
+      "modernized": "Komaan nu, u die zegt: $Lk. 12:18$ <Of, laten wij vandaag, enz.> Wij zullen vandaag of morgen naar zo'n stad reizen, en daar een jaar <Grieks: maken.> doorbrengen, en <Onder deze ene soort van menselijke voornemens en zorgen worden ook alle andere verstaan, en deze alleen genoemd, omdat daarin het meeste gebrek gevonden werd.> koophandel drijven en winst maken:",
+      "source_text": "Ἄγε νῦν οἱ λέγοντες, Σήμερον ἢ αὔριον πορευσόμεθα εἰς τήνδε τὴν πόλιν, καὶ ποιήσομεν ἐκεῖ ἐνιαυτὸν ἕνα, καὶ ἐμπορευσόμεθα, καὶ κερδήσομεν·",
+      "generated_at": "2026-05-27T15:43:25.325678Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 14,
+      "original": "Die ghy niet en weet wat morgen [geschieden sal:] $Iesa. 40.6. 1.Corinth. 7.31. Iacob. 1.10. 1.Petr. 1.24. 1.Ioan. 2.17.$ want <Dat is, hoe kort, broosch, ende onseker.> hoedanigh is uw’ leven? Want het is <Dat is, gelijck een damp.> een damp die voor een weynigh [tijts] <Ofte, schijnt.> gesien wort, ende daer na verdwijnt.",
+      "modernized": "U die niet weet wat morgen [gebeuren zal:] $Js. 40:6; 1Kor. 7:31; Jk. 1:10; 1Pt. 1:24; 1Jh. 2:17$ want <Dat is, hoe kort, broos en onzeker.> wat is uw leven? Want het is <Dat is, zoals een damp.> een damp die voor een korte [tijd] <Of, verschijnt.> gezien wordt, en daarna verdwijnt.",
+      "source_text": "οἵτινες οὐκ ἐπίστασθε τὸ τῆς αὔριον. ποία γὰρ ἡ ζωὴ ὑμῶν; ἀτμὶς γάρ ἐστιν ἡ πρὸς ὀλίγον φαινομένη, ἔπειτα δὲ ἀφανιζομένη.",
+      "generated_at": "2026-05-27T15:44:01.714668Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 15,
+      "original": "In plaetse dat ghy <Dat is, behoort te seggen, namelick, soo in u herte, als oock met woorden, om daer mede te kennen te geven, dat ghy de voorsienigheyt Godts, ende de broosheyt uwes levens, ten rechten verstaet ende erkent.> soudt seggen, $Actor. 18.21. 1.Cor. 4.19. Hebr. 6.3.$ Indien de Heere wil, <Ofte, soo sullen wy leven, ende dit ofte dat doen.> ende wy leven sullen, soo sullen wy dit ofte dat doen.",
+      "modernized": "In plaats daarvan zou u <Dat is, behoort te zeggen, namelijk zowel in uw hart als ook met woorden, om daarmee te kennen te geven dat u de voorzienigheid van God en de broosheid van uw leven juist begrijpt en erkent.> moeten zeggen: $Hd. 18:21; 1Kor. 4:19; Hb. 6:3$ Indien de Heere wil <Of, dan zullen wij leven en dit of dat doen.> en wij leven, dan zullen wij dit of dat doen.",
+      "source_text": "ἀντὶ τοῦ λέγειν ὑμᾶς, Ἐὰν ὁ Κύριος θελήσῃ, καὶ ζήσωμεν, καὶ ποιήσομεν τοῦτο ἢ ἐκεῖνο.",
+      "generated_at": "2026-05-27T15:44:56.268085Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "subject": "modaliteit",
+          "choice": "zou moeten zeggen",
+          "reason": "SV 'soudt seggen' en de kanttekening drukken verplichting uit; 'zou zeggen' leest in modern Nederlands als gewone conditionalis."
+        }
+      ]
     }
   ]
 }
