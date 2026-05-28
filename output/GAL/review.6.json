@@ -1,13 +1,34 @@
 {
   "book": "GAL",
   "chapter": 6,
-  "reviewed_at": "2026-05-28T20:48:11+00:00",
+  "reviewed_at": "2026-05-28T20:51:58+00:00",
   "passes": [
     {
       "pass": 1,
       "ran_at": "2026-05-28T20:48:11+00:00",
       "mode": "scan",
       "issues_total": 14
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-28T20:51:58+00:00",
+      "mode": "verify",
+      "actions": [
+        "GAL-6-1-001: rebuttal verified",
+        "GAL-6-2-001: rebuttal verified",
+        "GAL-6-4-001: verified",
+        "GAL-6-6-001: rebuttal verified",
+        "GAL-6-8-001: rebuttal verified",
+        "GAL-6-9-001: rebuttal verified",
+        "GAL-6-9-002: rebuttal verified",
+        "GAL-6-9-003: verified",
+        "GAL-6-10-001: verified",
+        "GAL-6-10-002: rebuttal verified",
+        "GAL-6-12-001: rebuttal verified",
+        "GAL-6-16-001: rebuttal verified",
+        "GAL-6-17-001: rebuttal verified",
+        "GAL-6-7-001: rebuttal verified"
+      ]
     }
   ],
   "issues": [
@@ -21,8 +42,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "GAL-6-1-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-28T20:51:58+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -34,8 +56,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "GAL-6-2-001",
-      "status": "rebutted",
-      "rebuttal": "§KANTTEKENINGEN.md redundantie-regel mikt op parafrase zonder toegevoegde info; hier is 'de wet van Christus' het lemma dat de kanttekening verklaart (waarom de liefdewet zo genoemd wordt: omdat Christus die het hoogst bevolen heeft, . 15:12$) — geen redundante herhaling maar de te glosseren term."
+      "status": "verified",
+      "rebuttal": "§KANTTEKENINGEN.md redundantie-regel mikt op parafrase zonder toegevoegde info; hier is 'de wet van Christus' het lemma dat de kanttekening verklaart (waarom de liefdewet zo genoemd wordt: omdat Christus die het hoogst bevolen heeft, . 15:12$) — geen redundante herhaling maar de te glosseren term.",
+      "verified_at": "2026-05-28T20:51:58+00:00"
     },
     {
       "category": "kanttekening-luiheid (§2.3 in <…>)",
@@ -47,9 +70,10 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "GAL-6-4-001",
-      "status": "fixed",
+      "status": "verified",
       "fix_commit": "PENDING",
-      "explanation_fix": "-ende ontvouwd naar finiete bijzin: <Dat is, hij vergelijkt zich niet met anderen, ...>"
+      "explanation_fix": "-ende ontvouwd naar finiete bijzin: <Dat is, hij vergelijkt zich niet met anderen, ...>",
+      "verified_at": "2026-05-28T20:51:58+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -61,8 +85,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "GAL-6-6-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-28T20:51:58+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -74,8 +99,9 @@
       "proposed_fix": "van de mensen",
       "location": "kanttekening",
       "id": "GAL-6-8-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] Genitief-modernisatie (ARCHAISMEN.md) geldt blijkens validator (0F) en corpusnorm — 115 kanttekening-genitieven verified, 0 gefixt — voor de HOOFDTEKST; de kanttekening behoudt het formele register. Vers 16: 'in der mensen harten' is een vaste bijbels-genitiefconstructie (vgl. 'der mensen kinderen') binnen de gloss."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] Genitief-modernisatie (ARCHAISMEN.md) geldt blijkens validator (0F) en corpusnorm — 115 kanttekening-genitieven verified, 0 gefixt — voor de HOOFDTEKST; de kanttekening behoudt het formele register. Vers 16: 'in der mensen harten' is een vaste bijbels-genitiefconstructie (vgl. 'der mensen kinderen') binnen de gloss.",
+      "verified_at": "2026-05-28T20:51:58+00:00"
     },
     {
       "category": "§2.3 finiet participium",
@@ -87,8 +113,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "GAL-6-9-001",
-      "status": "rebutted",
-      "rebuttal": "§2.3-hoofdtekstcheck van validate.py (gezaghebbend voor hoofdtekst, strip <…> volgens feedback_kanttekening_participium) gaf 0F op v9; 'goeddoende' staat clause-mediaal als SV-kernterm (vgl. HSV 'goed te doen') en leest als modern formeel NL — geen adverbiaal-participium dat ontvouwen vereist."
+      "status": "verified",
+      "rebuttal": "§2.3-hoofdtekstcheck van validate.py (gezaghebbend voor hoofdtekst, strip <…> volgens feedback_kanttekening_participium) gaf 0F op v9; 'goeddoende' staat clause-mediaal als SV-kernterm (vgl. HSV 'goed te doen') en leest als modern formeel NL — geen adverbiaal-participium dat ontvouwen vereist.",
+      "verified_at": "2026-05-28T20:51:58+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -100,8 +127,9 @@
       "proposed_fix": "van de armen",
       "location": "kanttekening",
       "id": "GAL-6-9-002",
-      "status": "rebutted",
-      "rebuttal": "Genitief-modernisatie (ARCHAISMEN.md) geldt blijkens validator 0F + corpusnorm (115 kanttekening-genitieven verified, 0 gefixt) voor de HOOFDTEKST; 'de menigte der armen' is een partitieve genitief binnen de kanttekening-gloss die het formele register behoudt."
+      "status": "verified",
+      "rebuttal": "Genitief-modernisatie (ARCHAISMEN.md) geldt blijkens validator 0F + corpusnorm (115 kanttekening-genitieven verified, 0 gefixt) voor de HOOFDTEKST; 'de menigte der armen' is een partitieve genitief binnen de kanttekening-gloss die het formele register behoudt.",
+      "verified_at": "2026-05-28T20:51:58+00:00"
     },
     {
       "category": "kanttekening-luiheid (§2.3 in <…>)",
@@ -113,9 +141,10 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "GAL-6-9-003",
-      "status": "fixed",
+      "status": "verified",
       "fix_commit": "PENDING",
-      "explanation_fix": "-ende ontvouwd naar infinitief: <Dat is, weldadigheid betonen.> — concordant met v10-kanttekening 'weldadigheid betonen'."
+      "explanation_fix": "-ende ontvouwd naar infinitief: <Dat is, weldadigheid betonen.> — concordant met v10-kanttekening 'weldadigheid betonen'.",
+      "verified_at": "2026-05-28T20:51:58+00:00"
     },
     {
       "category": "SV-verbuiging (demonstratief dezer/dien/...)",
@@ -127,9 +156,10 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "GAL-6-10-001",
-      "status": "fixed",
+      "status": "verified",
       "fix_commit": "PENDING",
-      "explanation_fix": "verbogen demonstratief datief 'aan dezen' -> 'aan hen' (geen whitelist-fossiel zoals 'dezer dagen')."
+      "explanation_fix": "verbogen demonstratief datief 'aan dezen' -> 'aan hen' (geen whitelist-fossiel zoals 'dezer dagen').",
+      "verified_at": "2026-05-28T20:51:58+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -141,8 +171,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "GAL-6-10-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-28T20:51:58+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -154,8 +185,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "GAL-6-12-001",
-      "status": "rebutted",
-      "rebuttal": "§KANTTEKENINGEN.md redundantie-regel: 'het kruis van Christus' staat hier binnen de verklaring waarom de leer 'van Christus' heet (de som daarvan is dat door het kruis het leven verkregen is, Kor. 2:2$) — verklarende grond, geen woordelijke herhaling van de hoofdtekst-strekking."
+      "status": "verified",
+      "rebuttal": "§KANTTEKENINGEN.md redundantie-regel: 'het kruis van Christus' staat hier binnen de verklaring waarom de leer 'van Christus' heet (de som daarvan is dat door het kruis het leven verkregen is, Kor. 2:2$) — verklarende grond, geen woordelijke herhaling van de hoofdtekst-strekking.",
+      "verified_at": "2026-05-28T20:51:58+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -167,8 +199,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "GAL-6-16-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] ARCHAISMEN.md: 'hetwelk de Apostel hier zegt' = formeel-register relativum in kanttekening-gloss (corpusnorm 134 verified). Vers 10, geen hoofdtekst."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] ARCHAISMEN.md: 'hetwelk de Apostel hier zegt' = formeel-register relativum in kanttekening-gloss (corpusnorm 134 verified). Vers 10, geen hoofdtekst.",
+      "verified_at": "2026-05-28T20:51:58+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -180,8 +213,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "GAL-6-17-001",
-      "status": "rebutted",
-      "rebuttal": "§2.7: 'voorts' is productief formeel/schriftelijk NL (= 'verder/vervolgens', additief), haalt de productiviteitstest; de door de scanner voorgestelde causale equivalenten ('omdat/hoewel/echter') passen semantisch niet op dit additieve voegwoord."
+      "status": "verified",
+      "rebuttal": "§2.7: 'voorts' is productief formeel/schriftelijk NL (= 'verder/vervolgens', additief), haalt de productiviteitstest; de door de scanner voorgestelde causale equivalenten ('omdat/hoewel/echter') passen semantisch niet op dit additieve voegwoord.",
+      "verified_at": "2026-05-28T20:51:58+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -198,8 +232,9 @@
         9
       ],
       "id": "GAL-6-7-001",
-      "status": "rebutted",
-      "rebuttal": "Concordantie-drift false-positive: 'maeijen' wordt in alle 3 verzen (7,8,9) consistent als 'maaien' weergegeven; de scanner-prefix-heuristiek mist de orthografische overgang ae->aa / eij->aai en ziet daardoor geen gedeelde prefix. Concordantie is juist intact."
+      "status": "verified",
+      "rebuttal": "Concordantie-drift false-positive: 'maeijen' wordt in alle 3 verzen (7,8,9) consistent als 'maaien' weergegeven; de scanner-prefix-heuristiek mist de orthografische overgang ae->aa / eij->aai en ziet daardoor geen gedeelde prefix. Concordantie is juist intact.",
+      "verified_at": "2026-05-28T20:51:58+00:00"
     }
   ]
 }
