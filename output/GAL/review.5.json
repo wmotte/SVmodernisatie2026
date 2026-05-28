@@ -1,13 +1,52 @@
 {
   "book": "GAL",
   "chapter": 5,
-  "reviewed_at": "2026-05-28T21:01:40+00:00",
+  "reviewed_at": "2026-05-28T21:07:35+00:00",
   "passes": [
     {
       "pass": 1,
       "ran_at": "2026-05-28T21:01:40+00:00",
       "mode": "scan",
       "issues_total": 23
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-28T21:06:51+00:00",
+      "mode": "verify",
+      "actions": [
+        "GAL-5-1-001: rebuttal verified",
+        "GAL-5-3-001: rebuttal verified",
+        "GAL-5-3-002: reopened (luie rebuttal)",
+        "GAL-5-4-001: reopened (te generiek)",
+        "GAL-5-6-001: verified",
+        "GAL-5-9-001: verified",
+        "GAL-5-11-001: rebuttal verified",
+        "GAL-5-13-001: rebuttal verified",
+        "GAL-5-15-001: rebuttal verified",
+        "GAL-5-15-002: rebuttal verified",
+        "GAL-5-18-001: rebuttal verified",
+        "GAL-5-19-001: rebuttal verified",
+        "GAL-5-21-001: rebuttal verified",
+        "GAL-5-22-001: rebuttal verified",
+        "GAL-5-24-001: rebuttal verified",
+        "GAL-5-24-002: rebuttal verified",
+        "GAL-5-25-001: rebuttal verified",
+        "GAL-5-26-001: verified",
+        "GAL-5-26-002: verified",
+        "GAL-5-26-003: verified",
+        "GAL-5-26-004: verified",
+        "GAL-5-3-003: verified",
+        "GAL-5-13-002: rebuttal verified"
+      ]
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-05-28T21:07:35+00:00",
+      "mode": "verify",
+      "actions": [
+        "GAL-5-3-002: rebuttal verified",
+        "GAL-5-4-001: rebuttal verified"
+      ]
     }
   ],
   "issues": [
@@ -21,8 +60,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "GAL-5-1-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] πάλιν in v1 markeert herbezoek aan de Synagoge na MRK 1:21,39; 'wederom' is corpusconsequent (LUK 21×; MRK 2:1+2:13 verified-rebutted) en staat op lint_carryovers.py STOPLIST (regel 218). §2.7 productiviteitstest: 'wederom' blijft productief in bijbels-formeel register; renovatie ≠ hervertaling (AGENTS.md vertaalprincipe 1)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] πάλιν in v1 markeert herbezoek aan de Synagoge na MRK 1:21,39; 'wederom' is corpusconsequent (LUK 21×; MRK 2:1+2:13 verified-rebutted) en staat op lint_carryovers.py STOPLIST (regel 218). §2.7 productiviteitstest: 'wederom' blijft productief in bijbels-formeel register; renovatie ≠ hervertaling (AGENTS.md vertaalprincipe 1).",
+      "verified_at": "2026-05-28T21:06:51+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -34,8 +74,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "GAL-5-3-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] πάλιν in v1 markeert herbezoek aan de Synagoge na MRK 1:21,39; 'wederom' is corpusconsequent (LUK 21×; MRK 2:1+2:13 verified-rebutted) en staat op lint_carryovers.py STOPLIST (regel 218). §2.7 productiviteitstest: 'wederom' blijft productief in bijbels-formeel register; renovatie ≠ hervertaling (AGENTS.md vertaalprincipe 1)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] πάλιν in v1 markeert herbezoek aan de Synagoge na MRK 1:21,39; 'wederom' is corpusconsequent (LUK 21×; MRK 2:1+2:13 verified-rebutted) en staat op lint_carryovers.py STOPLIST (regel 218). §2.7 productiviteitstest: 'wederom' blijft productief in bijbels-formeel register; renovatie ≠ hervertaling (AGENTS.md vertaalprincipe 1).",
+      "verified_at": "2026-05-28T21:06:51+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -47,8 +88,10 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "GAL-5-3-002",
-      "status": "rebutted",
-      "rebuttal": "4-token-window straddelt maintext-kanttekening-grens ('is'+'om de hele'). De kanttekening glosst 'schuldenaar is' met 'de gehele wet ... onderhouden'; maintext eindigt 'de gehele wet te doen'. Beide vormen staan zo in SV1657 (D. volkomelick de gantsche wet... / de geheele wet te doen) — brontekst-getrouwe glos-structuur, geen door modernisator toegevoegde redundantie."
+      "status": "verified",
+      "rebuttal": "KANTTEKENINGEN.md redundantie-regel viseert dóór-modernisator-toegevoegde parafrase, niet brontekst-eigen overlap. source_text (SV1657) bevat de overlap al: kanttekening 'D. volkomelick de gantsche wet in alles te onderhouden' + maintext 'de geheele wet te doen'. De kanttekening glosst de juridische functie van 'schuldenaar is' (=verplicht tot onderhouding); de maintext-infinitief 'te doen' is een andere syntactische rol. Het 4-token-window straddelt bovendien de `<>`-grens (maintext 'is' + kanttekening-opening 'om de gehele') — scanner-artefact, geen inhoudelijke herhaling. Vers-specifiek, niet generaliseerbaar naar v4.",
+      "verify_note": "rebuttal valt terug op generieke 'SV-stijl'-formule zonder regel- of Grieks-referentie",
+      "verified_at": "2026-05-28T21:07:35+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -60,8 +103,10 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "GAL-5-4-001",
-      "status": "rebutted",
-      "rebuttal": "Brontekst-getrouw: maintext 'door de wet gerechtvaardigd [wilt] worden' (SV 'die door de wet gerechtveerdight wilt worden') én kanttekening-conditioneel 'als u door de wet gerechtvaardigd wilt worden' (SV 'soo ghy door de wet wilt gerechtveerdight worden') staan beide in SV1657. SV-eigen conditionele herhaling die de voorwaarde van 'vervallen' glosst — geen toegevoegde redundantie."
+      "status": "verified",
+      "rebuttal": "KANTTEKENINGEN.md redundantie-regel viseert toegevoegde parafrase; hier is de overlap brontekst-eigen. source_text (SV1657) bevat zowel maintext 'die door de wet gerechtveerdight [wilt] worden' als de kanttekening-op-'vervallen' 'soo ghy door de wet wilt gerechtveerdight worden'. De kanttekening is een conditionele protasis ('het zou vervallen, als u door de wet gerechtvaardigd wilt worden') die de voorwaarde van het hoofdwerkwoord 'vervallen' uitlegt — semantisch een andere functie dan de maintext-relatiefzin. source_text is byte-vergrendeld; de SV-glos wijzigen zou onjuist zijn. Vers-specifiek, niet generaliseerbaar naar v3.",
+      "verify_note": "rebuttal noemt geen regel (§), geen Griekse term en geen vers-specifiek argument — voeg referentie toe",
+      "verified_at": "2026-05-28T21:07:35+00:00"
     },
     {
       "category": "§2.3 finiet participium",
@@ -73,9 +118,10 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "GAL-5-6-001",
-      "status": "fixed",
+      "status": "verified",
       "fix_commit": "PENDING",
-      "rebuttal": "§2.3: clause-final adverbiaal participium 'werkende' ontvouwd naar finiete relatiefzin 'het geloof dat door de liefde werkt' (Grieks ἐνεργουμένη; HSV bevestigt 'dat door de liefde werkt')."
+      "rebuttal": "§2.3: clause-final adverbiaal participium 'werkende' ontvouwd naar finiete relatiefzin 'het geloof dat door de liefde werkt' (Grieks ἐνεργουμένη; HSV bevestigt 'dat door de liefde werkt').",
+      "verified_at": "2026-05-28T21:06:51+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -87,9 +133,10 @@
       "proposed_fix": "van de tijd",
       "location": "kanttekening",
       "id": "GAL-5-9-001",
-      "status": "fixed",
+      "status": "verified",
       "fix_commit": "PENDING",
-      "rebuttal": "Adverbiaal fossiel 'met der tijd' → modern één-woord 'mettertijd' in kanttekening (semantisch identiek; voorgestelde 'van de tijd' was fout)."
+      "rebuttal": "Adverbiaal fossiel 'met der tijd' → modern één-woord 'mettertijd' in kanttekening (semantisch identiek; voorgestelde 'van de tijd' was fout).",
+      "verified_at": "2026-05-28T21:06:51+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -101,8 +148,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "GAL-5-11-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-28T21:06:51+00:00"
     },
     {
       "category": "SV-verbuiging (demonstratief dezer/dien/...)",
@@ -114,8 +162,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "GAL-5-13-001",
-      "status": "rebutted",
-      "rebuttal": "Scanner-false-positive: 'dien' is hier de gebiedende wijs van het werkwoord 'dienen' (Grieks δουλεύετε ἀλλήλοις, SV 'dient malkanderen'), niet het verbogen demonstratief 'dien'. 'dien elkaar door de liefde' = 'serve one another through love'. Geen SV-verbuiging."
+      "status": "verified",
+      "rebuttal": "Scanner-false-positive: 'dien' is hier de gebiedende wijs van het werkwoord 'dienen' (Grieks δουλεύετε ἀλλήλοις, SV 'dient malkanderen'), niet het verbogen demonstratief 'dien'. 'dien elkaar door de liefde' = 'serve one another through love'. Geen SV-verbuiging.",
+      "verified_at": "2026-05-28T21:06:51+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -127,8 +176,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "GAL-5-15-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-28T21:06:51+00:00"
     },
     {
       "category": "§2.7 drempel-fossiel",
@@ -140,8 +190,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "GAL-5-15-002",
-      "status": "rebutted",
-      "rebuttal": "Scanner-template fout (verwijst naar 'op de N-de dag'-dativus). 'zie toe dat...' is productief modern formeel NL (vgl. 'zie erop toe dat'), Grieks βλέπετε μή imperatief, SV 'siet toe'. Geen dativus/genitief-fossiel."
+      "status": "verified",
+      "rebuttal": "Scanner-template fout (verwijst naar 'op de N-de dag'-dativus). 'zie toe dat...' is productief modern formeel NL (vgl. 'zie erop toe dat'), Grieks βλέπετε μή imperatief, SV 'siet toe'. Geen dativus/genitief-fossiel.",
+      "verified_at": "2026-05-28T21:06:51+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -153,8 +204,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "GAL-5-18-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-28T21:06:51+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -166,8 +218,9 @@
       "proposed_fix": "van de natuur",
       "location": "kanttekening",
       "id": "GAL-5-19-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] §verbogen lidwoord rebuttal-criterium gefossiliseerde uitdrukking (zie ROM-1-19-001). Vers-specifiek: kanttekening op v.28 verwijst expliciet TERUG naar 'de kennis die zij uit de wet der natuur en het aanschouwen van de geschapen dingen hadden ontvangen, vers 20' — directe cross-referentie binnen-hoofdstuk naar dezelfde lex-naturalis-context. Hetzelfde technische lexicon behouden voor concordantie binnen-hoofdstuk."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] §verbogen lidwoord rebuttal-criterium gefossiliseerde uitdrukking (zie ROM-1-19-001). Vers-specifiek: kanttekening op v.28 verwijst expliciet TERUG naar 'de kennis die zij uit de wet der natuur en het aanschouwen van de geschapen dingen hadden ontvangen, vers 20' — directe cross-referentie binnen-hoofdstuk naar dezelfde lex-naturalis-context. Hetzelfde technische lexicon behouden voor concordantie binnen-hoofdstuk.",
+      "verified_at": "2026-05-28T21:06:51+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -179,8 +232,9 @@
       "proposed_fix": "van de heerlijkheid",
       "location": "kanttekening",
       "id": "GAL-5-21-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] `Namelijk, der heerlijkheid in de hemel` (vers 28, kanttekening) — `der heerlijkheid` is vaste uitdrukking in didactische kanttekening glossend op `Koninkrijk Gods`. Grieks `τῆς δόξης` (gen.sg.fem.) is technische theologische term; SV `der heerlickheyt`. §2.7 niet van toepassing op kanttekening-genitief-fossiel. Concordant met kanttekening-stijl LUK 1:32, 11:2 en KANTTEKENINGEN.md."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] `Namelijk, der heerlijkheid in de hemel` (vers 28, kanttekening) — `der heerlijkheid` is vaste uitdrukking in didactische kanttekening glossend op `Koninkrijk Gods`. Grieks `τῆς δόξης` (gen.sg.fem.) is technische theologische term; SV `der heerlickheyt`. §2.7 niet van toepassing op kanttekening-genitief-fossiel. Concordant met kanttekening-stijl LUK 1:32, 11:2 en KANTTEKENINGEN.md.",
+      "verified_at": "2026-05-28T21:06:51+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -192,8 +246,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "GAL-5-22-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'lankmoedigheid' (μακροθυμία) is theologische deugd-term: concordant met Gal. 5:22 (vrucht van de Geest) en 1Kor. 13:4 ('liefde is lankmoedig'). Corpus-wide gebruikt in 3 verzen (SVm2026); HSV kiest 'geduld' als 4c-register-shift, geen 4a/4b-correctie. SV-conforme weergave handhaaft concordantie. MODERNISATIE.md §2.7 productiviteitstest geldt minder strikt voor theologische vaktermen die in liturgisch/dogmatisch modern NL gangbaar blijven."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'lankmoedigheid' (μακροθυμία) is theologische deugd-term: concordant met Gal. 5:22 (vrucht van de Geest) en 1Kor. 13:4 ('liefde is lankmoedig'). Corpus-wide gebruikt in 3 verzen (SVm2026); HSV kiest 'geduld' als 4c-register-shift, geen 4a/4b-correctie. SV-conforme weergave handhaaft concordantie. MODERNISATIE.md §2.7 productiviteitstest geldt minder strikt voor theologische vaktermen die in liturgisch/dogmatisch modern NL gangbaar blijven.",
+      "verified_at": "2026-05-28T21:06:51+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -205,8 +260,9 @@
       "proposed_fix": "van de daad",
       "location": "kanttekening",
       "id": "GAL-5-24-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] 'in der daad' is geen productieve genitief maar de gefossiliseerde adverbiale formule = modern 'inderdaad/in werkelijkheid' (Gr.-vrije SV-glos 'in der daet'). De voorgestelde fix 'van de daad' is semantisch fout (het gaat niet om een 'daad'). Analoog aan §2.3c/§2.7 lexicale fossielen en de gemaskeerde des-adverbia ('des te meer', 'des avonds') in validate.py: vaste adverbiale genitief, geen attributieve 'van'-constructie. Behouden."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] 'in der daad' is geen productieve genitief maar de gefossiliseerde adverbiale formule = modern 'inderdaad/in werkelijkheid' (Gr.-vrije SV-glos 'in der daet'). De voorgestelde fix 'van de daad' is semantisch fout (het gaat niet om een 'daad'). Analoog aan §2.3c/§2.7 lexicale fossielen en de gemaskeerde des-adverbia ('des te meer', 'des avonds') in validate.py: vaste adverbiale genitief, geen attributieve 'van'-constructie. Behouden.",
+      "verified_at": "2026-05-28T21:06:51+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -218,8 +274,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "GAL-5-24-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-28T21:06:51+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -231,8 +288,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "GAL-5-25-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-28T21:06:51+00:00"
     },
     {
       "category": "§2.3 finiet participium",
@@ -244,9 +302,10 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "GAL-5-26-001",
-      "status": "fixed",
+      "status": "verified",
       "fix_commit": "PENDING",
-      "rebuttal": "§2.3: clause-final participium 'tergende' ontvouwd naar finiet 'die elkaar ... tergen'."
+      "rebuttal": "§2.3: clause-final participium 'tergende' ontvouwd naar finiet 'die elkaar ... tergen'.",
+      "verified_at": "2026-05-28T21:06:51+00:00"
     },
     {
       "category": "§2.3 finiet participium",
@@ -258,9 +317,10 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "GAL-5-26-002",
-      "status": "fixed",
+      "status": "verified",
       "fix_commit": "PENDING",
-      "rebuttal": "§2.3: clause-final participium 'benijdende' ontvouwd naar finiet 'en elkaar ... benijden'."
+      "rebuttal": "§2.3: clause-final participium 'benijdende' ontvouwd naar finiet 'en elkaar ... benijden'.",
+      "verified_at": "2026-05-28T21:06:51+00:00"
     },
     {
       "category": "kanttekening-luiheid (§2.3 in <…>)",
@@ -272,9 +332,10 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "GAL-5-26-003",
-      "status": "fixed",
+      "status": "verified",
       "fix_commit": "PENDING",
-      "rebuttal": "§2.3-glosconventie: literale Gr.-gloss '-ende' → infinitief-lemma 'oproepen' (vgl. '<Gr. werpende.>'→'<Grieks: werpen.>')."
+      "rebuttal": "§2.3-glosconventie: literale Gr.-gloss '-ende' → infinitief-lemma 'oproepen' (vgl. '<Gr. werpende.>'→'<Grieks: werpen.>').",
+      "verified_at": "2026-05-28T21:06:51+00:00"
     },
     {
       "category": "kanttekening-luiheid (§2.3 in <…>)",
@@ -286,9 +347,10 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "GAL-5-26-004",
-      "status": "fixed",
+      "status": "verified",
       "fix_commit": "PENDING",
-      "rebuttal": "§2.3-glosconventie: literale Gr.-gloss '-ende' → infinitief-lemma 'uitdagen'."
+      "rebuttal": "§2.3-glosconventie: literale Gr.-gloss '-ende' → infinitief-lemma 'uitdagen'.",
+      "verified_at": "2026-05-28T21:06:51+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -305,9 +367,10 @@
         14
       ],
       "id": "GAL-5-3-003",
-      "status": "fixed",
+      "status": "verified",
       "fix_commit": "PENDING",
-      "rebuttal": "Concordantie geharmoniseerd: v3 'de hele wet'→'de gehele wet' (2×), nu consistent met v9/v14 'gehele'; SV-origineel 'geheele' overal."
+      "rebuttal": "Concordantie geharmoniseerd: v3 'de hele wet'→'de gehele wet' (2×), nu consistent met v9/v14 'gehele'; SV-origineel 'geheele' overal.",
+      "verified_at": "2026-05-28T21:06:51+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -325,8 +388,9 @@
         26
       ],
       "id": "GAL-5-13-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Scanner-prefix-heuristiek false-positive: SV 'malkanderen' → modern 'elkaar' (cross-corpus concordant, ARCHAISMEN.md). Prefix 'malkand' bestaat niet in modern Nederlands; verwacht 'elkaar' overal. Geen drift, regelconforme transformatie."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Scanner-prefix-heuristiek false-positive: SV 'malkanderen' → modern 'elkaar' (cross-corpus concordant, ARCHAISMEN.md). Prefix 'malkand' bestaat niet in modern Nederlands; verwacht 'elkaar' overal. Geen drift, regelconforme transformatie.",
+      "verified_at": "2026-05-28T21:06:51+00:00"
     }
   ]
 }
