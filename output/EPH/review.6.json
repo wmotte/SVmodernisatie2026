@@ -1,0 +1,118 @@
+{
+  "book": "EPH",
+  "chapter": 6,
+  "reviewed_at": "2026-05-28T17:45:38+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-28T17:44:59+00:00",
+      "mode": "scan",
+      "issues_total": 6
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-28T17:45:38+00:00",
+      "mode": "verify",
+      "actions": [
+        "EPH-6-6-001: rebuttal verified",
+        "EPH-6-8-001: rebuttal verified",
+        "EPH-6-9-001: rebuttal verified",
+        "EPH-6-15-001: rebuttal verified",
+        "EPH-6-21-001: rebuttal verified",
+        "EPH-6-13-001: rebuttal verified"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 6,
+      "severity": "soft",
+      "quote_modernized": "de wil van god",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'de wil van god' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "EPH-6-6-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Kanttekening v35: 'De wil van God doen, staat in $1Th. 4:3$.' SV-origineel: 'Den wille Godts doen, is in 1.Thess. 4.3.' — de kanttekening citeert het sleutelbegrip uit het hoofdtekst-vers ('die de wil van God doet') om lezer naar 1Th. 4:3 te verwijzen. Topic-deictische functie: de zin specificeert *welk* concept doorverwezen wordt. KANTTEKENINGEN.md redundantie-regel viseert parafrase, niet topic-citaat in cross-reference.",
+      "verified_at": "2026-05-28T17:45:38+00:00"
+    },
+    {
+      "category": "voornaamwoordelijk bijwoord gesplitst",
+      "verse": 8,
+      "severity": "hard",
+      "quote_modernized": "Dat is, het loon daarvan. Hij spreekt hier van loon uit genade, zoals Paulus d…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'hier van' — SV-gesplitst voornaamwoordelijk bijwoord. Modern Nederlands voegt samen: 'hiervan' (bv. daarin, waarmee, hierop).",
+      "proposed_fix": "hiervan",
+      "location": "kanttekening",
+      "id": "EPH-6-8-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] ARCHAISMEN.md raakt gesplitste voornaamwoordelijke bijwoorden als 'daar ... van' -> 'daarvan'. In Ef. 2:15 is 'hier' locatief: de Apostel spreekt op deze plaats over alle gelovigen als één mens; 'van alle gelovigen' is een zelfstandige voorzetselgroep, geen te vormen 'hiervan'.",
+      "verified_at": "2026-05-28T17:45:38+00:00"
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 9,
+      "severity": "hard",
+      "quote_modernized": "… hemelen is,   en dat er geen   aanzien des persoons bij hem is.",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'des persoons' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de persoons' of 'van het persoons', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de persoons",
+      "location": "hoofdtekst",
+      "id": "EPH-6-9-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] 'geen aanzien des persoons aannemen' is gefossiliseerde Bijbelse uitdrukking voor προσωπολημψία (vgl. Hd. 10:34, Rom. 2:11, Gal. 2:6, Jak. 2:1). Vaste formule in NL Bijbelvertaling. §2.7-uitzondering voor lexicale fossielen: 'des persoons' is hier geen productieve genitief maar onderdeel van een vaste collocatie.",
+      "verified_at": "2026-05-28T17:45:38+00:00"
+    },
+    {
+      "category": "kanttekening-luiheid (§2.3 in <…>)",
+      "verse": 15,
+      "severity": "hard",
+      "quote_modernized": "…samen met laarsjes en scheenbeschermers wapende, niet alleen tegen de ongemakken…",
+      "rule_reference": "KANTTEKENINGEN.md + §2.3",
+      "explanation": "'wapende' binnen kanttekening — verdacht -ende-woord in adverbial / clause-final positie. §2.3 geldt ook in <…>; ontvouw naar finiete bijzin.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "EPH-6-15-001",
+      "status": "verified",
+      "rebuttal": "'wapende' is hier geen -ende-participium maar een finiete verleden-tijdsvorm in een betrekkelijke bijzin: 'die men vroeger ... wapende'. MODERNISATIE.md §2.3 raakt adverbiale participia zoals 'hebbende'/'staande', niet deze gewone persoonsvorm in kanttekeningcontext.",
+      "verified_at": "2026-05-28T17:45:38+00:00"
+    },
+    {
+      "category": "voornaamwoordelijk bijwoord gesplitst",
+      "verse": 21,
+      "severity": "hard",
+      "quote_modernized": "Of, mijn zaken: Dat is, hoe het hier in Rome in mijn gevangenschap met m…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'hier in' — SV-gesplitst voornaamwoordelijk bijwoord. Modern Nederlands voegt samen: 'hierin' (bv. daarin, waarmee, hierop).",
+      "proposed_fix": "hierin",
+      "location": "kanttekening",
+      "id": "EPH-6-21-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] In vers 30 betekent 'wat ik hier in Rome dagelijks te lijden heb' letterlijk 'op deze plaats, in Rome'. `hier` is locatief en `in Rome` specificeert die plaats; samentrekken tot `hierin Rome` is grammaticaal onmogelijk. ARCHAISMEN.md ziet op echte pronominale bijwoorden, niet op deze plaatsbepaling.",
+      "verified_at": "2026-05-28T17:45:38+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 13,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'hebbend' in 4 verzen — verzen [14, 15, 16] renderen het stam anders dan [13]",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 4 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        13,
+        14,
+        15,
+        16
+      ],
+      "id": "EPH-6-13-001",
+      "status": "verified",
+      "rebuttal": "De betrokken vormen zijn geen concordant lexeme maar Griekse participia met verschillende zinsfuncties: v13 κατεργασάμενοι wordt temporeel 'nadat u ... verricht hebt'; v14 περιζωσάμενοι/ἐνδυσάμενοι en v15 ὑποδησάμενοι functioneren in de wapenrusting-opsomming adjectivisch; v16 ἀναλαβόντες draagt de imperativische voortgang. MODERNISATIE.md §2.3 vereist juist contextuele ontvouwing, niet mechanische herhaling van 'hebbend'.",
+      "verified_at": "2026-05-28T17:45:38+00:00"
+    }
+  ]
+}
