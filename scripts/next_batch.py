@@ -21,14 +21,26 @@ def main() -> int:
     args = ap.parse_args()
 
     boek, h = args.book, args.chapter
-    with open(f"input.sv/{boek}/{boek}.{h}.json") as f:
-        inp = json.load(f)
+    input_path = f"input.sv/{boek}/{boek}.{h}.json"
+    output_path = f"output/{boek}/{boek}.{h}.json"
     try:
-        with open(f"output/{boek}/{boek}.{h}.json") as f:
+        with open(input_path) as f:
+            inp = json.load(f)
+    except FileNotFoundError:
+        print(f"ERROR: input niet gevonden: {input_path}", file=sys.stderr)
+        return 2
+    except json.JSONDecodeError as exc:
+        print(f"ERROR: input is geen valide JSON ({input_path}): {exc}", file=sys.stderr)
+        return 2
+    try:
+        with open(output_path) as f:
             out = json.load(f)
         done = {v["verse_number"] for v in out["verses"]}
     except FileNotFoundError:
         done = set()
+    except json.JSONDecodeError as exc:
+        print(f"ERROR: output is geen valide JSON ({output_path}): {exc}", file=sys.stderr)
+        return 2
 
     todo = [v["verse_number"] for v in inp["verses"]
             if v["verse_number"] not in done
