@@ -1,0 +1,67 @@
+{
+  "book": "2CO",
+  "chapter": 7,
+  "reviewed_at": "2026-05-28T21:00:43+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-28T21:00:43+00:00",
+      "mode": "scan",
+      "issues_total": 4
+    }
+  ],
+  "issues": [
+    {
+      "category": "§2.3b infinitief met nageschoven object",
+      "verse": 3,
+      "severity": "soft",
+      "quote_modernized": "…voren gezegd dat u in onze harten bent, om   samen te sterven en samen te leven.",
+      "rule_reference": "MODERNISATIE.md §2.3b",
+      "explanation": "'om … te sterven en samen te leven' — Latinaat-woordvolgorde; in modern NL gaat het object vóór de infinitief: 'om <object> te sterven'.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "2CO-7-3-001",
+      "status": "rebutted",
+      "rebuttal": "MODERNISATIE.md §2.3b gaat over nageschoven objecten bij infinitieven. In vers 3 is er geen object na de infinitieven: \"samen\" is een bijwoordelijke bepaling bij \"sterven\" en \"leven\"; de Griekse infinitieven συναποθανεῖν en συζῇν worden formeel correct als twee doelinfinitieven weergegeven."
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 9,
+      "severity": "soft",
+      "quote_modernized": "u in geen ding",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'u in geen ding' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "2CO-7-9-001",
+      "status": "fixed",
+      "fix_commit": "f778b0c271e1405e69047a78e8d4c75cd0bfe5ea"
+    },
+    {
+      "category": "genitief pronomen wiens/wier",
+      "verse": 12,
+      "severity": "hard",
+      "quote_modernized": "…aan sommigen de vader van deze persoon, wiens huisvrouw hij bij zich genomen had…",
+      "rule_reference": "ARCHAISMEN.md (SV-pronomina)",
+      "explanation": "'wiens huisvrouw' — formeel-archaïsch genitief-pronomen. Modern Nederlands: 'van wie huisvrouw' of zinsherbouw met bezittelijk voornaamwoord ('die zijn huisvrouw', 'die haar huisvrouw'). NBV21 vermijdt 'wiens' grotendeels.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "2CO-7-12-001",
+      "status": "fixed",
+      "fix_commit": "f778b0c271e1405e69047a78e8d4c75cd0bfe5ea"
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 14,
+      "severity": "soft",
+      "quote_modernized": "Want indien ik iets bij hem over u geroemd he…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "2CO-7-14-001",
+      "status": "fixed",
+      "fix_commit": "f778b0c271e1405e69047a78e8d4c75cd0bfe5ea"
+    }
+  ]
+}
