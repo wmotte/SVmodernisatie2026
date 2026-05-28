@@ -142,6 +142,45 @@
       "generated_at": "2026-05-28T16:02:11.283264Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 16,
+      "original": "$Rom. 13.11.$ Den <Dat is, de goede occasien van wel doen ende andere Christo te winnen voorsichtelick waernemende, een gelijckenisse genomen van wijse kooplieden.> tijt uytkoopende, dewijle <Namelick, soo van wegen de ongeregeltheyt der menschen, als van wegen de vervolgingen. Hy gaet dan voort in de gelijckenisse genomen van kooplieden, die in diere ende sorgelicke tijden allervoorsichtighst moeten zijn, om haren handel wel te drijven, de quade gelegentheden te mijden, ende de goede niet te versuymen.> de dagen boos zijn.",
+      "modernized": "$Rm. 13:11$ En koopt de tijd uit, <Dat is, de goede gelegenheden om goed te doen en anderen voor Christus te winnen voorzichtig waarnemend, een vergelijking genomen van wijze kooplieden.> omdat <Namelijk, zowel vanwege de ongeregeldheid van de mensen als vanwege de vervolgingen. Hij gaat dan voort in de vergelijking genomen van kooplieden, die in dure en zorgelijke tijden allervoorzichtigst moeten zijn om hun handel goed te drijven, de kwade gelegenheden te mijden en de goede niet te verzuimen.> de dagen boos zijn.",
+      "source_text": "ἐξαγοραζόμενοι τὸν καιρόν, ὅτι αἱ ἡμέραι πονηραί εἰσι.",
+      "generated_at": "2026-05-28T16:08:25.324191Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 17,
+      "original": "Daerom en zijt niet onverstandigh, $Rom. 12.2. 1.Thessal. 4.3.$ maer verstaet welcke de wille des Heeren zy.",
+      "modernized": "Wees daarom niet onverstandig, $Rm. 12:2; 1Th. 4:3$ maar begrijp wat de wil van de Heere is.",
+      "source_text": "διὰ τοῦτο μὴ γίνεσθε ἄφρονες, ἀλλὰ συνιέντες τί τὸ θέλημα τοῦ Κυρίου.",
+      "generated_at": "2026-05-28T16:07:26.674921Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 18,
+      "original": "$Proverb. 23.29. Iesa. 5.11, 22. Luce 21.34.$ Ende en wort niet droncken in wijn, <Namel. wanneer die misbruyckt wort tot dronckenschap, ende niet gebruyckt tot nootdruft ende matige vrolickheyt.> waer in overdaet is, maer <D. soeckt uwe vermakingen niet in vleeschelicke wellusten, maer in geestelicke vermakingen, waer van het gesangh een van de voornaemste is.> wort vervult met den Geest:",
+      "modernized": "$Sp. 23:29; Js. 5:11,22; Lk. 21:34$ En word niet dronken van wijn, <Namelijk, wanneer die misbruikt wordt tot dronkenschap, en niet gebruikt tot noodzakelijk gebruik en matige vrolijkheid.> waarin losbandigheid is, maar <Dat is, zoek uw vermakingen niet in vleselijke wellusten, maar in geestelijke vermakingen, waarvan de zang een van de voornaamste is.> word vervuld met de Geest:",
+      "source_text": "καὶ μὴ μεθύσκεσθε οἴνῳ, ἐν ᾧ ἐστὶν ἀσωτία, ἀλλὰ πληροῦσθε ἐν Πνεύματι,",
+      "generated_at": "2026-05-28T16:07:53.979418Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "HSV-spiegel",
+          "context": "hoofdtekst",
+          "choice": "overdaad gemoderniseerd naar losbandigheid",
+          "alternatives": [
+            "overdaad behouden"
+          ],
+          "reason": "HSV-spiegel en Grieks ἀσωτία bevestigen dat SV 'overdaet' hier morele losbandigheid aanduidt; modern 'overdaad' leest te algemeen als teveel of overvloed."
+        }
+      ]
     }
   ]
 }
