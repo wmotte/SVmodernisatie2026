@@ -1,13 +1,24 @@
 {
   "book": "2CO",
   "chapter": 7,
-  "reviewed_at": "2026-05-28T21:00:43+00:00",
+  "reviewed_at": "2026-05-28T21:03:02+00:00",
   "passes": [
     {
       "pass": 1,
       "ran_at": "2026-05-28T21:00:43+00:00",
       "mode": "scan",
       "issues_total": 4
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-28T21:03:02+00:00",
+      "mode": "verify",
+      "actions": [
+        "2CO-7-3-001: rebuttal verified",
+        "2CO-7-9-001: verified",
+        "2CO-7-12-001: verified",
+        "2CO-7-14-001: verified"
+      ]
     }
   ],
   "issues": [
@@ -21,8 +32,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "2CO-7-3-001",
-      "status": "rebutted",
-      "rebuttal": "MODERNISATIE.md §2.3b gaat over nageschoven objecten bij infinitieven. In vers 3 is er geen object na de infinitieven: \"samen\" is een bijwoordelijke bepaling bij \"sterven\" en \"leven\"; de Griekse infinitieven συναποθανεῖν en συζῇν worden formeel correct als twee doelinfinitieven weergegeven."
+      "status": "verified",
+      "rebuttal": "MODERNISATIE.md §2.3b gaat over nageschoven objecten bij infinitieven. In vers 3 is er geen object na de infinitieven: \"samen\" is een bijwoordelijke bepaling bij \"sterven\" en \"leven\"; de Griekse infinitieven συναποθανεῖν en συζῇν worden formeel correct als twee doelinfinitieven weergegeven.",
+      "verified_at": "2026-05-28T21:03:02+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -34,8 +46,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "2CO-7-9-001",
-      "status": "fixed",
-      "fix_commit": "f778b0c271e1405e69047a78e8d4c75cd0bfe5ea"
+      "status": "verified",
+      "fix_commit": "f778b0c271e1405e69047a78e8d4c75cd0bfe5ea",
+      "verified_at": "2026-05-28T21:03:02+00:00"
     },
     {
       "category": "genitief pronomen wiens/wier",
@@ -47,8 +60,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "2CO-7-12-001",
-      "status": "fixed",
-      "fix_commit": "f778b0c271e1405e69047a78e8d4c75cd0bfe5ea"
+      "status": "verified",
+      "fix_commit": "f778b0c271e1405e69047a78e8d4c75cd0bfe5ea",
+      "verified_at": "2026-05-28T21:03:02+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -60,8 +74,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "2CO-7-14-001",
-      "status": "fixed",
-      "fix_commit": "f778b0c271e1405e69047a78e8d4c75cd0bfe5ea"
+      "status": "verified",
+      "fix_commit": "f778b0c271e1405e69047a78e8d4c75cd0bfe5ea",
+      "verified_at": "2026-05-28T21:03:02+00:00"
     }
   ]
 }
