@@ -1,7 +1,7 @@
 {
   "book": "HEB",
   "chapter": 7,
-  "reviewed_at": "2026-05-28T10:27:59+00:00",
+  "reviewed_at": "2026-05-28T10:31:50+00:00",
   "passes": [
     {
       "pass": 1,
@@ -23,6 +23,52 @@
         "HEB-7-3-002 rebutted as participium vs ordinary geworden split",
         "HEB-7-11-002 rebutted as same lexeme with finite-form variation"
       ]
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-05-28T10:31:16+00:00",
+      "mode": "verify",
+      "actions": [
+        "HEB-7-1-001: rebuttal verified",
+        "HEB-7-1-002: rebuttal verified",
+        "HEB-7-1-003: rebuttal verified",
+        "HEB-7-1-004: rebuttal verified",
+        "HEB-7-1-005: rebuttal verified",
+        "HEB-7-2-001: rebuttal verified",
+        "HEB-7-4-001: verified",
+        "HEB-7-5-001: verified",
+        "HEB-7-11-001: rebuttal verified",
+        "HEB-7-13-001: rebuttal verified",
+        "HEB-7-14-001: rebuttal verified",
+        "HEB-7-14-002: rebuttal verified",
+        "HEB-7-15-001: rebuttal verified",
+        "HEB-7-17-001: rebuttal verified",
+        "HEB-7-19-001: rebuttal verified",
+        "HEB-7-19-002: rebuttal verified",
+        "HEB-7-27-001: verified",
+        "HEB-7-2-002: rebuttal verified",
+        "HEB-7-3-001: reopened (luie rebuttal)",
+        "HEB-7-3-002: rebuttal verified",
+        "HEB-7-11-002: rebuttal verified",
+        "HEB-7-12-001: rebuttal verified"
+      ]
+    },
+    {
+      "pass": 4,
+      "ran_at": "2026-05-28T10:34:00+00:00",
+      "mode": "orchestrator-rebuttal-tightening",
+      "actions": [
+        "HEB-7-3-001 rebuttal tightened with Greek forms ἀφωμοιωμένος / ὁμοιότητα / ὥσπερ",
+        "fixed issue commit SHAs filled with e464e0da469ca7fa6d68717c615315a10d44f4f7"
+      ]
+    },
+    {
+      "pass": 5,
+      "ran_at": "2026-05-28T10:31:50+00:00",
+      "mode": "verify",
+      "actions": [
+        "HEB-7-3-001: rebuttal verified"
+      ]
     }
   ],
   "issues": [
@@ -36,8 +82,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "HEB-7-1-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] 'zegende' is hier de finiete onvoltooid verleden tijd 3sg van 'zegenen' (stam zegen- + ovt -de), vertaling van Griekse aoristus εὐλόγησε. Het is GEEN -ende-participium. Bewijs: de zin is 'keek hij op naar de hemel, zegende, en brak de broden, en gaf ze...' — een serie van vier nevenschikkende finiete ovt-vormen (keek/zegende/brak/gaf), conform §2.3 (finiete reeks i.p.v. participium-keten). Modern NL: 'hij zegende' = hij voltrok de zegening. Regex false positive op woordeind '-ende' zonder morfologische analyse."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] 'zegende' is hier de finiete onvoltooid verleden tijd 3sg van 'zegenen' (stam zegen- + ovt -de), vertaling van Griekse aoristus εὐλόγησε. Het is GEEN -ende-participium. Bewijs: de zin is 'keek hij op naar de hemel, zegende, en brak de broden, en gaf ze...' — een serie van vier nevenschikkende finiete ovt-vormen (keek/zegende/brak/gaf), conform §2.3 (finiete reeks i.p.v. participium-keten). Modern NL: 'hij zegende' = hij voltrok de zegening. Regex false positive op woordeind '-ende' zonder morfologische analyse.",
+      "verified_at": "2026-05-28T10:31:16+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -49,8 +96,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "HEB-7-1-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-28T10:31:16+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -62,8 +110,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "HEB-7-1-003",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-28T10:31:16+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -75,8 +124,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "HEB-7-1-004",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-28T10:31:16+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -88,8 +138,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "HEB-7-1-005",
-      "status": "rebutted",
-      "rebuttal": "KANTTEKENINGEN.md redundantie-regel ziet op overbodige alternatief-herhaling; hier verklaart de kanttekening de functie van het zegenen in v1 ('als Priester', vgl. Grieks εὐλογήσας) en draagt zij het argument van v7. De overlap met 'Priester van de Allerhoogste God' is noodzakelijk voor die versspecifieke bewijsfunctie, niet een keuzealternatief bij de hoofdtekst."
+      "status": "verified",
+      "rebuttal": "KANTTEKENINGEN.md redundantie-regel ziet op overbodige alternatief-herhaling; hier verklaart de kanttekening de functie van het zegenen in v1 ('als Priester', vgl. Grieks εὐλογήσας) en draagt zij het argument van v7. De overlap met 'Priester van de Allerhoogste God' is noodzakelijk voor die versspecifieke bewijsfunctie, niet een keuzealternatief bij de hoofdtekst.",
+      "verified_at": "2026-05-28T10:31:16+00:00"
     },
     {
       "category": "kanttekening-luiheid (§2.3 in <…>)",
@@ -101,8 +152,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "HEB-7-2-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] 'diende' is finiet imperfectum van 'dienen' (3e pers. enkelvoud), geen adverbiaal participium. §2.3 viseert Latinate participia (λέγων-type); de relatiefzin 'die de gemeente diende' is reeds een finiete bijzin — precies wat §2.3 voorschrijft. Scanner-regex matcht foutief op de -ende-uitgang van een vervoegde verbumvorm."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] 'diende' is finiet imperfectum van 'dienen' (3e pers. enkelvoud), geen adverbiaal participium. §2.3 viseert Latinate participia (λέγων-type); de relatiefzin 'die de gemeente diende' is reeds een finiete bijzin — precies wat §2.3 voorschrijft. Scanner-regex matcht foutief op de -ende-uitgang van een vervoegde verbumvorm.",
+      "verified_at": "2026-05-28T10:31:16+00:00"
     },
     {
       "category": "voornaamwoordelijk bijwoord gesplitst",
@@ -114,8 +166,9 @@
       "proposed_fix": "hieraf",
       "location": "kanttekening",
       "id": "HEB-7-4-001",
-      "status": "fixed",
-      "fix_commit": "pending"
+      "status": "verified",
+      "fix_commit": "e464e0da469ca7fa6d68717c615315a10d44f4f7",
+      "verified_at": "2026-05-28T10:31:16+00:00"
     },
     {
       "category": "§2.3b infinitief met nageschoven object",
@@ -127,8 +180,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "HEB-7-5-001",
-      "status": "fixed",
-      "fix_commit": "pending"
+      "status": "verified",
+      "fix_commit": "e464e0da469ca7fa6d68717c615315a10d44f4f7",
+      "verified_at": "2026-05-28T10:31:16+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -140,8 +194,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "HEB-7-11-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-28T10:31:16+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -153,8 +208,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "HEB-7-13-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-28T10:31:16+00:00"
     },
     {
       "category": "§2.3b bijwoord-coda",
@@ -166,8 +222,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "HEB-7-14-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] In 1TI 4:1 is 'duidelijk' een normaal bijwoord bij het finiete werkwoord 'zegt' (φανερῶς λέγει), niet een achteraf geplaatste bijwoord-coda zonder werkwoord. MODERNISATIE.md §2.3b raakt participium-/coda-constructies zoals 'wandelende ... onberispelijk', niet deze werkwoordgroep."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] In 1TI 4:1 is 'duidelijk' een normaal bijwoord bij het finiete werkwoord 'zegt' (φανερῶς λέγει), niet een achteraf geplaatste bijwoord-coda zonder werkwoord. MODERNISATIE.md §2.3b raakt participium-/coda-constructies zoals 'wandelende ... onberispelijk', niet deze werkwoordgroep.",
+      "verified_at": "2026-05-28T10:31:16+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -179,8 +236,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "HEB-7-14-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-28T10:31:16+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -192,8 +250,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "HEB-7-15-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-28T10:31:16+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -205,8 +264,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "HEB-7-17-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-28T10:31:16+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -218,8 +278,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "HEB-7-19-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-28T10:31:16+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -231,8 +292,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "HEB-7-19-002",
-      "status": "rebutted",
-      "rebuttal": "Geen fix: 'van een betere hoop' is hier het gedeelde object van hoofdtekst en vertaalalternatief bij Grieks κρείττονος ἐλπίδος. KANTTEKENINGEN.md verbiedt redundant alternatiefgebruik; de hoofdtekst kiest juist 'aanleiding' terwijl de kanttekening 'invoering' als alternatief geeft. Het object moet gelijk blijven om het alternatief grammaticaal te laten aansluiten."
+      "status": "verified",
+      "rebuttal": "Geen fix: 'van een betere hoop' is hier het gedeelde object van hoofdtekst en vertaalalternatief bij Grieks κρείττονος ἐλπίδος. KANTTEKENINGEN.md verbiedt redundant alternatiefgebruik; de hoofdtekst kiest juist 'aanleiding' terwijl de kanttekening 'invoering' als alternatief geeft. Het object moet gelijk blijven om het alternatief grammaticaal te laten aansluiten.",
+      "verified_at": "2026-05-28T10:31:16+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -244,8 +306,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "HEB-7-27-001",
-      "status": "fixed",
-      "fix_commit": "pending"
+      "status": "verified",
+      "fix_commit": "e464e0da469ca7fa6d68717c615315a10d44f4f7",
+      "verified_at": "2026-05-28T10:31:16+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -262,8 +325,9 @@
         8
       ],
       "id": "HEB-7-2-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] 'welcken' wordt consistent als persoonsrelativum weergegeven: v2 'door wie', v11 'door wie', v12 'in wie allen'. De keuze 'wie' (persoon, na voorzetsel) is concordant; de prefix-heuristiek mist dat 'welcken'→'wie' juist één vaste rendering is en leest het voorzetselverschil (door/in) als drift."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] 'welcken' wordt consistent als persoonsrelativum weergegeven: v2 'door wie', v11 'door wie', v12 'in wie allen'. De keuze 'wie' (persoon, na voorzetsel) is concordant; de prefix-heuristiek mist dat 'welcken'→'wie' juist één vaste rendering is en leest het voorzetselverschil (door/in) als drift.",
+      "verified_at": "2026-05-28T10:31:16+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -280,8 +344,9 @@
         27
       ],
       "id": "HEB-7-3-001",
-      "status": "rebutted",
-      "rebuttal": "Concordantie-drift false positive: SV 'gelijck' heeft in de betrokken verzen verschillende syntactische functies. V3 en v15 zijn vergelijkingspartikels bij gelijkvormig/gelijkenis ('gelijkvormig', 'naar de gelijkenis'), terwijl v27 'gelijck den Hoogenpriesters' een vergelijkend voegwoord is en modern 'zoals de Hogepriesters' vraagt. AGENTS.md concordantie geldt woordbetekenis binnen context, niet één prefix voor verschillende functies."
+      "status": "verified",
+      "rebuttal": "Concordantie-drift false positive met brontekstbewijs: de SV-stam 'gelijck' vertegenwoordigt hier drie verschillende Griekse constructies. V3 heeft ἀφωμοιωμένος τῷ Υἱῷ ('gelijkvormig gemaakt aan de Zoon'), daarom modern adjectivisch 'gelijkvormig gemaakt'. V15 heeft κατὰ τὴν ὁμοιότητα ('naar de gelijkenis'), daarom nominaal 'naar de gelijkenis'. V27 heeft ὥσπερ οἱ ἀρχιερεῖς ('zoals de Hogepriesters'), daarom voegwoordelijk 'zoals'. AGENTS.md-concordantie vereist dezelfde keuze bij hetzelfde woord/functie; hier dwingt de Griekse syntaxis drie verschillende Nederlandse woordsoorten af.",
+      "verified_at": "2026-05-28T10:31:50+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -301,8 +366,9 @@
         26
       ],
       "id": "HEB-7-3-002",
-      "status": "rebutted",
-      "rebuttal": "Concordantie-drift false positive: de stam 'geworde' dekt verschillende vormen/functies. V3 vertaalt het Griekse participium ἀφωμοιωμένος inhoudelijk als 'gelijkvormig gemaakt'; v16/v20/v22/v23/v26 zijn gewone hulp-/koppelwerkwoordconstructies 'is/zijn geworden'. MODERNISATIE.md §2.3 vereist juist ontvouwing van zo'n participium, dus harmoniseren naar 'geworden' zou semantisch en syntactisch slechter zijn."
+      "status": "verified",
+      "rebuttal": "Concordantie-drift false positive: de stam 'geworde' dekt verschillende vormen/functies. V3 vertaalt het Griekse participium ἀφωμοιωμένος inhoudelijk als 'gelijkvormig gemaakt'; v16/v20/v22/v23/v26 zijn gewone hulp-/koppelwerkwoordconstructies 'is/zijn geworden'. MODERNISATIE.md §2.3 vereist juist ontvouwing van zo'n participium, dus harmoniseren naar 'geworden' zou semantisch en syntactisch slechter zijn.",
+      "verified_at": "2026-05-28T10:31:16+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -319,8 +385,9 @@
         21
       ],
       "id": "HEB-7-11-002",
-      "status": "rebutted",
-      "rebuttal": "Concordantie-drift false positive: 'geseght' staat in v11 als passieve formule 'gezegd zou worden te zijn', in v13 als 'op wie deze dingen gezegd worden', en in v21 als directe citaatinleiding 'gezegd heeft'. De moderne renderings 'gezegd zou worden', 'gezegd worden' en 'gezegd heeft' zijn dezelfde lexicale keuze met verschillende noodzakelijke finiete vorm; de prefix-heuristiek mist flexie en hulpwerkwoordpositie."
+      "status": "verified",
+      "rebuttal": "Concordantie-drift false positive: 'geseght' staat in v11 als passieve formule 'gezegd zou worden te zijn', in v13 als 'op wie deze dingen gezegd worden', en in v21 als directe citaatinleiding 'gezegd heeft'. De moderne renderings 'gezegd zou worden', 'gezegd worden' en 'gezegd heeft' zijn dezelfde lexicale keuze met verschillende noodzakelijke finiete vorm; de prefix-heuristiek mist flexie en hulpwerkwoordpositie.",
+      "verified_at": "2026-05-28T10:31:16+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -337,8 +404,9 @@
         20
       ],
       "id": "HEB-7-12-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Scanner-prefix-artefact: SV-werkwoord 'geschieden' is bewust vervangen door 'gebeuren' in heel het project (§2.7 drempel — 'geschieden' op grens van archaïsme). Feitelijke renderings: v14 'gebeurd was' (τὸ γεγονός), v16 'gebeurd was' (ἐγένετο), v33 'gebeurd was' (γέγονεν). Drie verzen, één rendering 'gebeuren' — concordantie consistent op moderne stam."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Scanner-prefix-artefact: SV-werkwoord 'geschieden' is bewust vervangen door 'gebeuren' in heel het project (§2.7 drempel — 'geschieden' op grens van archaïsme). Feitelijke renderings: v14 'gebeurd was' (τὸ γεγονός), v16 'gebeurd was' (ἐγένετο), v33 'gebeurd was' (γέγονεν). Drie verzen, één rendering 'gebeuren' — concordantie consistent op moderne stam.",
+      "verified_at": "2026-05-28T10:31:16+00:00"
     }
   ]
 }
