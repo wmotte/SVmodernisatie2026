@@ -247,6 +247,45 @@
       "generated_at": "2026-05-28T16:21:55.045215Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 25,
+      "original": "$Coloss. 3.19.$ Ghy mannen hebt uwe eygene vrouwen lief, gelijck oock Christus de gemeynte lief gehadt heeft, $Galat. 1.4. Ephes. 5.2.$ ende hemselven voor haer heeft <Namelick, in den doot.> over gegeven:",
+      "modernized": "$Ko. 3:19$ U mannen, heb uw eigen vrouwen lief, zoals ook Christus de gemeente liefgehad heeft, $Gl. 1:4; Ef. 5:2$ en zichzelf voor haar <Namelijk, in de dood.> heeft overgegeven:",
+      "source_text": "οἱ ἄνδρες, ἀγαπᾶτε τὰς γυναῖκας ἑαυτῶν, καθὼς καὶ ὁ Χριστὸς ἠγάπησε τὴν ἐκκλησίαν, καὶ ἑαυτὸν παρέδωκεν ὑπὲρ αὐτῆς·",
+      "generated_at": "2026-05-28T16:27:36.560643Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 26,
+      "original": "Op dat hyse <D. afsonderen soude van alle wereltsche menschen: ende sich alleen toe-eygenen. Waer mede de Apostel te kennen geeft, dat oock de mannen hare vrouwen heylighlick moeten tot haer nemen, ende van alle wereltsche wulpsheden ende schantvlecken vry houden.> heyligen soude, [haer] $Tit. 3.5. 1.Petr. 3.21.$ gereynight hebbende <Dat is, door sijn bloet ende Geest, waer van het badt des waters in den doop een teecken ende zegel is, ende met eenen een middel waer door de Geest Godts dese reyninge meer ende meer versterckt. Siet Matth. cap. 3. vers 11. 2.Corinth. cap. 3. vers 3. 1.Petr. cap. 3. vers 21.> met het badt des waters <Gr. in het woort.> door het woort:",
+      "modernized": "Opdat hij haar <Dat is, afzonderen zou van alle wereldse mensen, en zich alleen toe-eigenen. Waarmee de Apostel te kennen geeft dat ook de mannen hun vrouwen heilig tot zich moeten nemen, en van alle wereldse wulpsheden en schandvlekken vrij houden.> zou heiligen, nadat hij [haar] $Tt. 3:5; 1Pt. 3:21$ gereinigd had <Dat is, door zijn bloed en Geest, waarvan het waterbad in de doop een teken en zegel is, en tegelijk een middel waardoor de Geest Gods deze reiniging meer en meer versterkt. Zie $Mt. 3:11; 2Kor. 3:3; 1Pt. 3:21$.> met het waterbad <Grieks: in het woord.> door het woord:",
+      "source_text": "ἵνα αὐτὴν ἁγιάσῃ, καθαρίσας τῷ λουτρῷ τοῦ ὕδατος ἐν ῥήματι,",
+      "generated_at": "2026-05-28T16:28:09.902170Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "subject": "HSV-spiegel",
+          "context": "hoofdtekst en kanttekening",
+          "choice": "waterbad",
+          "alternatives": [
+            "bad van het water"
+          ],
+          "reason": "Semantic-review / HSV-spiegel: SV 'badt des waters' bij Grieks 'λουτρῷ τοῦ ὕδατος' vraagt in modern Nederlands 'waterbad'; dit bewaart de doop-/woordformulering zonder HSV-herbouw."
+        }
+      ]
+    },
+    {
+      "verse_number": 27,
+      "original": "<Hier door wort het eynde van de reyninge door het bloet, ende den Geest Christi, verstaen: waer van het beginsel in de geloovige oock in dit leven wort te wege gebracht, ende de uyterste volbrenginge hier namaels, wanneer de gemeynte Christi van haren bruydegom Christo tot dese geestelicke bruyloft ten vollen sal bereyt zijn. Siet Cant. 2.14. ende 4.7. Apocal. 19.7.> Op dat hyse hemselven soude heerlick voorstellen, een gemeynte die geen vlecke ofte rimpel en heeft, ofte yet dergelijcke, $Colos. 1.22.$ maer dat sy soude heyligh zijn ende onberispelick.",
+      "modernized": "<Hierdoor wordt het doel van de reiniging door het bloed en de Geest van Christus verstaan: waarvan het begin in de gelovigen ook in dit leven tot stand wordt gebracht, en de uiteindelijke volbrenging hierna, wanneer de gemeente van Christus door haar bruidegom Christus voor deze geestelijke bruiloft ten volle bereid zal zijn. Zie $Hl. 2:14; 4:7; Op. 19:7$.> Opdat hij haar aan zichzelf zou voorstellen als een heerlijke gemeente, die geen vlek of rimpel heeft, of iets dergelijks, $Ko. 1:22$ maar dat zij heilig en onberispelijk zou zijn.",
+      "source_text": "ἵνα παραστήσῃ αὐτὴν ἑαυτῷ ἔνδοξον τὴν ἐκκλησίαν, μὴ ἔχουσαν σπῖλον ἢ ῥυτίδα ἤ τι τῶν τοιούτων, ἀλλ’ ἵνα ᾖ ἁγία καὶ ἄμωμος.",
+      "generated_at": "2026-05-28T16:28:42.655235Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
