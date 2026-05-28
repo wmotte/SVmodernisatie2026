@@ -8,7 +8,12 @@ description: Meta-adversariële review over alle HSV-diffs van een afgesloten bo
 Deze skill draait **in de orchestratorcontext** (het agent-model zelf).
 Geen externe LLM-aanroep. Roept de deterministische aggregator
 (`scripts/meta_diff_aggregate.py`) aan, classificeert de output, en
-schrijft `output/META/findings.json` + `output/META/scaffolding_deltas.md`.
+schrijft `output/META/findings_<BOEK>.json` +
+`output/META/scaffolding_deltas_<BOEK>.md`.
+
+Alle META-artefacten zijn **boek-specifiek** (per `<BOEK>`-suffix) zodat
+parallelle meta-reviews van verschillende boeken elkaar niet
+overschrijven.
 
 Werkdirectory:
 `/Users/wmotte/Desktop/projects/SVmodernisatie2026/`.
@@ -38,9 +43,10 @@ uv run python scripts/meta_diff_aggregate.py \
     --book <BOEK> --chapters <RANGE> --min-freq 2
 ```
 
-Standaard `--chapters 1-18` voor LUK. Output: `output/META/candidates.json`.
+Standaard `--chapters 1-18` voor LUK. Output:
+`output/META/candidates_<BOEK>.json` (boek-specifiek).
 
-Lees `output/META/candidates.json` **met de Read-tool**, niet via inline
+Lees `output/META/candidates_<BOEK>.json` **met de Read-tool**, niet via inline
 `cat`/`python3 -c` — dat dumpt het hele bestand in de orchestrator-stdout.
 
 Top-level structuur:
@@ -77,7 +83,7 @@ controle tegen SV1657, Grieks en de projectregels.
 | Bucket | Betekenis | Actie |
 |---|---|---|
 | **A** | HSV-keuze, parafrase, eerbiedshoofdletter, of vrije syntaxis — geen modernisatie-tekortkoming | Loggen in `scaffolding_deltas.md` onder `noise_filtered`. Geen edit. |
-| **B** | Modernisatie-fix die wij gemist hebben (drempel-archaïsme, false friend, fossiel) | Per occurrence opnemen in `output/META/findings.json` met `review.<H>.json`-issue-schema. |
+| **B** | Modernisatie-fix die wij gemist hebben (drempel-archaïsme, false friend, fossiel) | Per occurrence opnemen in `output/META/findings_<BOEK>.json` met `review.<H>.json`-issue-schema. |
 | **C** | Scaffolding-gap — pattern komt N≥3× voor, bestaande lint had het moeten vangen | Auto-apply in target-bestand (zie tabel hieronder) + audit-entry in `scaffolding_deltas.md`. |
 
 ### Classificatie-criteria per pattern-kind
@@ -115,7 +121,7 @@ Zakt op een van de tests → opnemen in `scaffolding_deltas.md` onder
 
 ## Stap 3 — Output schrijven
 
-### `output/META/findings.json` (bucket B)
+### `output/META/findings_<BOEK>.json` (bucket B)
 
 ```json
 {
@@ -145,7 +151,7 @@ Zakt op een van de tests → opnemen in `scaffolding_deltas.md` onder
 Eén issue per `(pattern, occurrence)`. Gegroepeerd op `chapter` in
 toepassings-tijd door 3a.
 
-### `output/META/scaffolding_deltas.md`
+### `output/META/scaffolding_deltas_<BOEK>.md`
 
 Markdown-bestand met drie secties:
 
@@ -178,7 +184,7 @@ Aggregator: scripts/meta_diff_aggregate.py --book <BOEK> --chapters <RANGE>
 
 ## Bucket-overzicht
 
-- B (per-vers fixes): <N> issues over <M> hoofdstukken — zie `findings.json`
+- B (per-vers fixes): <N> issues over <M> hoofdstukken — zie `findings_<BOEK>.json`
 - C (scaffolding-deltas): <N> toegepast, <M> afgewezen
 - A (noise): <N>
 ```
@@ -202,7 +208,7 @@ content-fixes met de nieuwe regels actief.
 | `carryover` met HSV-modern alternatief | `ARCHAISMEN.md` tabel-uitbreiding (Oud → Modern rij) **en** `DREMPEL_ARCHAISMEN` in `scripts/adversarial_scan.py` (regel 86–105) | Edit beide |
 | `fossiel-lidwoord` niet-bijbels | `DREMPEL_ARCHAISMEN` in `scripts/adversarial_scan.py` (regel 86–105) — voeg `"<artikel>"` toe of een nieuwe `FOSSIL_LIDWOORD_PATTERNS`-tuple als de validatie woordcombinatie nodig heeft | Edit |
 | `latinaat-window` recurrent | `FALSE_FRIENDS` in `scripts/lint_false_friends.py` (regel 27) — nieuwe entry met `pattern`, `sv`, `modern`, `advies` | Edit |
-| `cap-asym` interne inconsistentie | Geen auto-edit. Voeg note toe in `scaffolding_deltas.md` met de verzen die alignen, en welke kant de norm zou moeten zijn | doc-only |
+| `cap-asym` interne inconsistentie | Geen auto-edit. Voeg note toe in `scaffolding_deltas_<BOEK>.md` met de verzen die alignen, en welke kant de norm zou moeten zijn | doc-only |
 
 3. Commit op feature-branch. Boodschap: `chore: meta-review scaffolding deltas LUK 1-18`.
 4. Push, open PR via `gh pr create`. PR-titel: `meta-review: scaffolding deltas LUK 1-18`.
@@ -217,7 +223,7 @@ content-fixes met de nieuwe regels actief.
 `apply content` is gevraagd zonder 4a (override; orchestrator
 vermeldt risico in eindrapport).
 
-Voor elk hoofdstuk H met findings in `findings.json`:
+Voor elk hoofdstuk H met findings in `findings_<BOEK>.json`:
 
 1. Branch `feature/luk<H>-meta-fix` (boekcode+H aaneen, conform bestaande
    convention `feature/luk8-batch-1-3`).
@@ -251,15 +257,15 @@ apply-modus: <not-run | 4a-PR <url> open | 4a merged + 4b N/M hoofdstukken klaar
 geblokkeerde hoofdstukken: <lijst of "geen">
 
 bestanden:
-- output/META/candidates.json
-- output/META/findings.json
-- output/META/scaffolding_deltas.md
+- output/META/candidates_<BOEK>.json
+- output/META/findings_<BOEK>.json
+- output/META/scaffolding_deltas_<BOEK>.md
 ```
 
 ## Stopregels
 
 - Bucket-C deltas die §2.7-toets zakken: nooit auto-toepassen — meld in
-  `scaffolding_deltas.md` onder `rejected` met motivatie.
+  `scaffolding_deltas_<BOEK>.md` onder `rejected` met motivatie.
 - 4a-PR (regel-deltas): nooit auto-merge. 4b-PRs (content-fixes): wel
   auto-merge bij groen.
 - Per hoofdstuk maximaal 1 4b-PR. Blokker op een hoofdstuk → stop dat
@@ -283,7 +289,7 @@ Na deze skill kan de orchestrator-context groot zijn. Bewaar bij `/compact`:
 
 Mag weg:
 
-- Volledige `candidates.json` / `findings.json` / `scaffolding_deltas.md`
-  (staan op disk).
+- Volledige `candidates_<BOEK>.json` / `findings_<BOEK>.json` /
+  `scaffolding_deltas_<BOEK>.md` (staan op disk).
 - Verbose aggregator-stdout.
 - Volledige PR-create-output (alleen URL bewaren).
