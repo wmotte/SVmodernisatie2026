@@ -1,13 +1,40 @@
 {
   "book": "EPH",
   "chapter": 4,
-  "reviewed_at": "2026-05-28T15:15:40+00:00",
+  "reviewed_at": "2026-05-28T15:19:29+00:00",
   "passes": [
     {
       "pass": 1,
       "ran_at": "2026-05-28T15:15:40+00:00",
       "mode": "scan",
       "issues_total": 12
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-28T15:19:11+00:00",
+      "mode": "verify",
+      "actions": [
+        "EPH-4-4-001: rebuttal verified",
+        "EPH-4-8-001: rebuttal verified",
+        "EPH-4-12-001: rebuttal verified",
+        "EPH-4-13-001: rebuttal verified",
+        "EPH-4-16-001: rebuttal verified",
+        "EPH-4-21-001: rebuttal verified",
+        "EPH-4-28-001: rebuttal verified",
+        "EPH-4-30-001: rebuttal verified",
+        "EPH-4-2-001: rebuttal verified",
+        "EPH-4-4-002: rebuttal verified",
+        "EPH-4-7-001: verified",
+        "EPH-4-15-001: reopened (te generiek)"
+      ]
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-05-28T15:19:29+00:00",
+      "mode": "verify",
+      "actions": [
+        "EPH-4-15-001: rebuttal verified"
+      ]
     }
   ],
   "issues": [
@@ -21,8 +48,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "EPH-4-4-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-28T15:19:11+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -34,8 +62,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "EPH-4-8-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-28T15:19:11+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -47,8 +76,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "EPH-4-12-001",
-      "status": "rebutted",
-      "rebuttal": "De herhaling is hier geen alternatief bij de hoofdtekst maar het te verklaren lemma 'het werk van de bediening' uit Ef. 4:12. KANTTEKENINGEN.md verbiedt redundantie vooral wanneer een alternatief uit de kanttekening in de hoofdtekst wordt overgenomen; deze Dat-is-kanttekening specificeert de onderdelen van διακονίας."
+      "status": "verified",
+      "rebuttal": "De herhaling is hier geen alternatief bij de hoofdtekst maar het te verklaren lemma 'het werk van de bediening' uit Ef. 4:12. KANTTEKENINGEN.md verbiedt redundantie vooral wanneer een alternatief uit de kanttekening in de hoofdtekst wordt overgenomen; deze Dat-is-kanttekening specificeert de onderdelen van διακονίας.",
+      "verified_at": "2026-05-28T15:19:11+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -60,8 +90,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "EPH-4-13-001",
-      "status": "rebutted",
-      "rebuttal": "De woordgroep 'van de Zoon van God' is in Ef. 4:13 het noodzakelijke object van 'kennis/erkentenis'; de kanttekening legt het eschatologische bereik daarvan uit. Dit is geen alternatiefsynoniem volgens KANTTEKENINGEN.md, maar lemma-hername om de uitleg van ἐπιγνώσεως inhoudelijk af te bakenen."
+      "status": "verified",
+      "rebuttal": "De woordgroep 'van de Zoon van God' is in Ef. 4:13 het noodzakelijke object van 'kennis/erkentenis'; de kanttekening legt het eschatologische bereik daarvan uit. Dit is geen alternatiefsynoniem volgens KANTTEKENINGEN.md, maar lemma-hername om de uitleg van ἐπιγνώσεως inhoudelijk af te bakenen.",
+      "verified_at": "2026-05-28T15:19:11+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -73,8 +104,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "EPH-4-16-001",
-      "status": "rebutted",
-      "rebuttal": "'Voegselen van de toebrenging' is in Ef. 4:16 juist de technische SV-term die de kanttekening definieert als gewrichten/samenvoegingen. KANTTEKENINGEN.md laat verklarende Dat-is-noten staan; de herhaling is hier lemma-citaat, geen overgenomen alternatief of parafrase."
+      "status": "verified",
+      "rebuttal": "'Voegselen van de toebrenging' is in Ef. 4:16 juist de technische SV-term die de kanttekening definieert als gewrichten/samenvoegingen. KANTTEKENINGEN.md laat verklarende Dat-is-noten staan; de herhaling is hier lemma-citaat, geen overgenomen alternatief of parafrase.",
+      "verified_at": "2026-05-28T15:19:11+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -86,8 +118,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "EPH-4-21-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-28T15:19:11+00:00"
     },
     {
       "category": "§2.3b infinitief met nageschoven object",
@@ -99,8 +132,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "EPH-4-28-001",
-      "status": "rebutted",
-      "rebuttal": "Ef. 4:28 heeft geen §2.3b-patroon 'om te delen een object': het object 'iets' staat vóór 'heeft', en 'mee te delen aan degene die nood heeft' is modern Nederlands met pronominaal bijwoord 'mee'. De Griekse infinitief μεταδιδόναι wordt dus niet met een nageschoven object weergegeven."
+      "status": "verified",
+      "rebuttal": "Ef. 4:28 heeft geen §2.3b-patroon 'om te delen een object': het object 'iets' staat vóór 'heeft', en 'mee te delen aan degene die nood heeft' is modern Nederlands met pronominaal bijwoord 'mee'. De Griekse infinitief μεταδιδόναι wordt dus niet met een nageschoven object weergegeven.",
+      "verified_at": "2026-05-28T15:19:11+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -112,8 +146,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "EPH-4-30-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-28T15:19:11+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -130,8 +165,9 @@
         32
       ],
       "id": "EPH-4-2-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] Concordantie-drift false-positive bij v5: Grieks ἀλλήλων vereist een wederkerig pronomen; SV malkanderen/malkand wordt in modern Nederlands per constructie correct als elkaar/elkaars weergegeven. MODERNISATIE.md concordantie geldt semantisch, niet op scanner-prefixniveau."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] Concordantie-drift false-positive bij v5: Grieks ἀλλήλων vereist een wederkerig pronomen; SV malkanderen/malkand wordt in modern Nederlands per constructie correct als elkaar/elkaars weergegeven. MODERNISATIE.md concordantie geldt semantisch, niet op scanner-prefixniveau.",
+      "verified_at": "2026-05-28T15:19:11+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -149,8 +185,9 @@
         32
       ],
       "id": "EPH-4-4-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Vers 3 (MODERNISATIE.md §2.1 lexicaal/spelling): SV-stam 'gelijck' (Grieks καθώς) wordt in v3/7/9/21 consequent 'zoals' ('zoals geschreven is', 'zoals ook Christus'). Concordantie-drift is een false-positive: de scanner-prefix-heuristiek mist de lexicale overgang gelijck→zoals (geen prefix-overlap); de Nederlandse zijde is wél concordant."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Vers 3 (MODERNISATIE.md §2.1 lexicaal/spelling): SV-stam 'gelijck' (Grieks καθώς) wordt in v3/7/9/21 consequent 'zoals' ('zoals geschreven is', 'zoals ook Christus'). Concordantie-drift is een false-positive: de scanner-prefix-heuristiek mist de lexicale overgang gelijck→zoals (geen prefix-overlap); de Nederlandse zijde is wél concordant.",
+      "verified_at": "2026-05-28T15:19:11+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -168,9 +205,10 @@
         19
       ],
       "id": "EPH-4-7-001",
-      "status": "fixed",
+      "status": "verified",
       "rebuttal": "Ef. 4:11 is aangepast zodat ἔδωκε, net als Ef. 4:7-8, expliciet met 'gegeven' wordt weergegeven; Ef. 4:19 blijft 'overgegeven' omdat daar het andere Griekse werkwoord παρέδωκαν staat.",
-      "fix_commit": "PENDING"
+      "fix_commit": "6481555e2dcf1e67e71aa21f8c29bc289d8155aa",
+      "verified_at": "2026-05-28T15:19:11+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -187,8 +225,9 @@
         25
       ],
       "id": "EPH-4-15-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Alle drie verzen (v2/v8/v20) gebruiken 'waarheid' voor SV 'waerheyt' — perfect concordant. Scanner's prefix-overlap-heuristiek mist de orthografische overgang ae→aa en ey→ei, waardoor 'waerhey'-prefix niet matcht met moderne 'waarh'-prefix. False positive."
+      "status": "verified",
+      "rebuttal": "MODERNISATIE.md concordantieprincipe: alle relevante plaatsen in Ef. 4 geven SV 'waerheyt' weer met 'waarheid'; de scanner mist alleen de orthografische overgang ae→aa en ey→ei. Voor dit issue in Ef. 4:15 is er dus geen lexicale drift, maar een prefix-heuristiek false-positive.",
+      "verified_at": "2026-05-28T15:19:29+00:00"
     }
   ],
   "summary": {
