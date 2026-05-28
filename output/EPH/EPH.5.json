@@ -181,6 +181,45 @@
           "reason": "HSV-spiegel en Grieks ἀσωτία bevestigen dat SV 'overdaet' hier morele losbandigheid aanduidt; modern 'overdaad' leest te algemeen als teveel of overvloed."
         }
       ]
+    },
+    {
+      "verse_number": 19,
+      "original": "$Coloss. 3.16.$ Sprekende onder malkanderen met <Dese drie soorten van geestelicke gesangen dienen tot eenen eynde, namelick, om den geest te vermaken: ende worden van sommige alsoo onderscheyden, dat psalmen allerley geestelicke gesangen zijn, die niet alleen met de stemme, maer oock met snarenspel geoeffent worden: lofsangen, danckseggingen tot Godt, ofte lofdichten van Godts genade tegen ons: ende geestelicke liedekens sulcke dichten in welcke allerley geestelicke leeringen worden begrepen. Siet oock Coloss. 3.16. ende schijnen dese verscheydene namen uyt de verscheydene opschriften der Psalmen Davids genomen te zijn.> psalmen, ende lofsangen, ende geestelicke liedekens: singende, ende psalmende den Heere <D. niet alleen met de tonge ofte instrumenten, maer oock met der herten.> in uw’ herte:",
+      "modernized": "$Ko. 3:16$ Terwijl u onder elkaar spreekt met <Deze drie soorten van geestelijke gezangen dienen tot één doel, namelijk om de geest te vermaken; en worden door sommigen zo onderscheiden, dat psalmen allerlei geestelijke gezangen zijn, die niet alleen met de stem, maar ook met snarenspel uitgevoerd worden; lofzangen, dankzeggingen tot God, of lofdichten van Gods genade jegens ons; en geestelijke liederen zulke gedichten waarin allerlei geestelijke leringen worden begrepen. Zie ook $Ko. 3:16$ en deze verschillende namen schijnen uit de verschillende opschriften van Davids Psalmen genomen te zijn.> psalmen, en lofzangen, en geestelijke liederen: terwijl u zingt en psalmt voor de Heere <Dat is, niet alleen met de tong of instrumenten, maar ook met het hart.> in uw hart:",
+      "source_text": "λαλοῦντες ἑαυτοῖς ψαλμοῖς καὶ ὕμνοις καὶ ᾠδαῖς πνευματικαῖς, ᾄδοντες καὶ ψάλλοντες ἐν τῇ καρδίᾳ ὑμῶν τῷ Κυρίῳ,",
+      "generated_at": "2026-05-28T16:14:18.311829Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 20,
+      "original": "$Coloss. 3.17. 1.Thessal. 5.18.$ Danckende alle tijt over alle dingen Godt ende den Vader, in den name onses Heeren Iesu Christi:",
+      "modernized": "$Ko. 3:17; 1Th. 5:18$ Terwijl u altijd voor alle dingen God en de Vader dankt, in de naam van onze Heere Jezus Christus:",
+      "source_text": "εὐχαριστοῦντες πάντοτε ὑπὲρ πάντων ἐν ὀνόματι τοῦ Κυρίου ἡμῶν Ἰησοῦ Χριστοῦ τῷ Θεῷ καὶ Πατρί,",
+      "generated_at": "2026-05-28T16:14:41.119993Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "HSV-spiegel",
+          "context": "hoofdtekst",
+          "choice": "over alle dingen gemoderniseerd naar voor alle dingen",
+          "alternatives": [
+            "over alle dingen behouden"
+          ],
+          "reason": "HSV-spiegel en Grieks ὑπὲρ πάντων bevestigen dat SV 'over alle dingen' hier 'voor alle dingen' betekent; modern 'over' leest als betreffende."
+        }
+      ]
+    },
+    {
+      "verse_number": 21,
+      "original": "Malkanderen <Ofte, onderworpen, D. een yeder na sijn beroep den anderen met eerbiedinge voorgaende, ofte malkanderen in nederigheyt bejegenende, Philip. cap. 2. vers 3.> onderdanigh zijnde <D. alsoo nochtans, dat de vreese Godts altijt de regel ende richtsnoer zy van uwe onderdanigheyt.> in de vreese Godts.",
+      "modernized": "Terwijl u elkaar <Of, onderworpen, dat is, ieder naar zijn beroep de ander met eerbied voor laat gaan, of elkaar in nederigheid bejegent, $Fp. 2:3$.> onderdanig bent <Dat is, echter zo, dat de vrees voor God altijd de regel en het richtsnoer is van uw onderdanigheid.> in de vrees voor God.",
+      "source_text": "ὑποτασσόμενοι ἀλλήλοις ἐν φόβῳ Θεοῦ.",
+      "generated_at": "2026-05-28T16:15:27.011385Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
