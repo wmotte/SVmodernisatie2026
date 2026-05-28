@@ -20,7 +20,7 @@
     </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Volledige Vergelijker — SV1657 / HSV / SV2027 / SV2026</title>
+    <title>Volledige Vergelijker — SV1657 / GBS / HSV / SV2027 / SV2026</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = { darkMode: 'class' };
@@ -52,30 +52,26 @@
         .diff-added { background-color: #dcfce7; color: #166534; }
         .dark .diff-added { background-color: #064e3b; color: #34d399; }
 
-        /* SV2026-side highlights — kleur per "missing-from" bron.
-           - .diff-removed       : staat in SV2026, niet in SV2027  (donkerrood)
-           - .diff-removed-hsv   : staat in SV2026, niet in HSV      (paars)
-           - .diff-removed-both  : staat in SV2026, niet in 2027 én niet in HSV
-                                   (donkerrood-bg + paarse onderstreping) */
+        /* SV2026-side highlights — kleur per bron waar de SV2026-tekst afwijkt. */
         .diff-removed { background-color: #fee2e2; color: #991b1b; }
         .dark .diff-removed { background-color: #7f1d1d; color: #f87171; }
+
+        .diff-removed-gbs { background-color: #ccfbf1; color: #0f766e; }
+        .dark .diff-removed-gbs { background-color: rgba(19, 78, 74, 0.6); color: #5eead4; }
 
         .diff-removed-hsv { background-color: #f3e8ff; color: #6b21a8; }
         .dark .diff-removed-hsv { background-color: rgba(88, 28, 135, 0.55); color: #d8b4fe; }
 
-        /* Verschilt van beide: meng rood + paars in de achtergrond. */
-        .diff-removed-both {
-            background-color: #f5d7e8;
-            color: #831843;
-        }
-        .dark .diff-removed-both {
-            background-color: #6b1e4e;
-            color: #f9a8d4;
-        }
+        .diff-removed-multi { background-color: #e0e7ff; color: #3730a3; }
+        .dark .diff-removed-multi { background-color: rgba(49, 46, 129, 0.6); color: #c7d2fe; }
 
         .marker { color: #f97316; font-size: 0.8em; font-weight: bold; vertical-align: super; margin: 0 2px; cursor: help; }
         .footnote-list { font-size: 0.78em; color: #6b7280; border-top: 1px solid #e5e7eb; padding-top: 0.5rem; margin-top: 0.75rem; }
         .dark .footnote-list { border-color: #374151; color: #9ca3af; }
+        .note-diff-gbs { background-color: #fef3c7; color: #92400e; }
+        .dark .note-diff-gbs { background-color: rgba(120, 53, 15, 0.55); color: #fde68a; }
+        .note-diff-modern { background-color: #dbeafe; color: #1d4ed8; }
+        .dark .note-diff-modern { background-color: rgba(30, 64, 175, 0.45); color: #bfdbfe; }
 
         /* Bron-labels als chip/badge — zelfde structuur als legenda-chips. */
         .col-label {
@@ -88,12 +84,12 @@
             margin-bottom: 0.4rem;
             border: 1px solid transparent;
         }
-        .col-sv1657, .col-hsv, .col-sv2027, .col-sv2026 {
+        .col-sv1657, .col-gbs, .col-hsv, .col-sv2027, .col-sv2026 {
             color: #374151;
             background-color: #e5e7eb;
             border-color: #d1d5db;
         }
-        .dark .col-sv1657, .dark .col-hsv, .dark .col-sv2027, .dark .col-sv2026 {
+        .dark .col-sv1657, .dark .col-gbs, .dark .col-hsv, .dark .col-sv2027, .dark .col-sv2026 {
             color: #e5e7eb;
             background-color: #374151;
             border-color: #4b5563;
@@ -125,20 +121,34 @@
 </head>
 <body class="bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-gray-200 min-h-screen">
     <div id="app" class="max-w-6xl mx-auto px-4 py-8">
-        <header class="mb-10 flex flex-col md:flex-row justify-between items-center gap-4">
-            <div>
+        <header class="mb-10 flex flex-col lg:flex-row justify-between items-start gap-6">
+            <div class="space-y-3">
                 <h1 class="text-3xl font-bold bg-gradient-to-r from-purple-600 via-green-600 to-sky-600 bg-clip-text text-transparent">Volledige Vergelijker</h1>
                 <p id="chapter-label" class="text-lg font-medium text-gray-500"></p>
-                <p class="text-xs text-gray-400 mt-1">SV1657 ↔ HSV ↔ Initiatief SV2027 ↔ SV-modernisatie 2026 &nbsp;·&nbsp; <a class="underline hover:text-sky-500" href="compare.html">→ alleen SV2027</a> &nbsp;·&nbsp; <a class="underline hover:text-purple-500" href="compare_hsv.html">→ alleen HSV</a> &nbsp;·&nbsp; <a class="underline hover:text-amber-500" href="viewer.html">→ viewer (incl. Grieks)</a></p>
-                <p class="text-xs text-gray-400 mt-2">
-                    Legenda voor SV2026:
-                    <span class="legend-chip diff-removed">verschilt van SV2027</span>
-                    <span class="legend-chip diff-removed-hsv">verschilt van HSV</span>
-                    <span class="legend-chip diff-removed-both">verschilt van beide</span>
-                </p>
+                <div class="flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-gray-500 dark:text-gray-400">
+                    <span class="font-medium">SV1657 ↔ GBS ↔ HSV ↔ Initiatief SV2027 ↔ SV-modernisatie 2026</span>
+                    <a class="underline hover:text-teal-500" href="compare_gbs.html">GBS detail</a>
+                    <a class="underline hover:text-sky-500" href="compare.html">SV2027 detail</a>
+                    <a class="underline hover:text-purple-500" href="compare_hsv.html">HSV detail</a>
+                    <a class="underline hover:text-amber-500" href="viewer.html">Viewer incl. Grieks</a>
+                </div>
+                <div class="flex flex-col gap-2 text-xs text-gray-500 dark:text-gray-400">
+                    <div class="flex flex-wrap items-center gap-2">
+                        <span class="w-44 shrink-0 font-semibold uppercase tracking-wide text-[10px] text-gray-400">Hoofdtekst SV2026</span>
+                        <span class="legend-chip diff-removed-gbs">afwijkend van GBS</span>
+                        <span class="legend-chip diff-removed">afwijkend van SV2027</span>
+                        <span class="legend-chip diff-removed-hsv">afwijkend van HSV</span>
+                        <span class="legend-chip diff-removed-multi">afwijkend van meerdere bronnen</span>
+                    </div>
+                    <div class="flex flex-wrap items-center gap-2">
+                        <span class="w-44 shrink-0 font-semibold uppercase tracking-wide text-[10px] text-gray-400">Kanttekeningen GBS ↔ modernisatie</span>
+                        <span class="legend-chip note-diff-gbs">alleen/anders in GBS</span>
+                        <span class="legend-chip note-diff-modern">alleen/anders in modernisatie</span>
+                    </div>
+                </div>
             </div>
 
-            <div class="flex items-center gap-4">
+            <div class="flex items-center gap-4 self-stretch lg:self-start">
                 <nav class="flex rounded-lg shadow-sm gap-2">
                     <select id="book-select" aria-label="Kies boek" class="px-4 py-2 bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-700 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors focus:outline-none focus:ring-2 focus:ring-sky-500"></select>
                     <select id="chapter-select" aria-label="Kies hoofdstuk" class="px-4 py-2 bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-700 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors focus:outline-none focus:ring-2 focus:ring-sky-500"></select>
@@ -212,6 +222,20 @@
             });
         }
 
+        function extractGbsMarkers(text) {
+            if (!text) return { cleanText: "", labels: [] };
+            const labels = [];
+            const cleanText = text.replace(/⟦([^⟧]+)⟧/g, (_match, label) => {
+                labels.push(String(label).trim());
+                return "";
+            });
+            return { cleanText, labels };
+        }
+
+        function injectGbsMarkers(html, labels) {
+            return html;
+        }
+
         function renderPlain(text) {
             if (!text) return { html: null, notes: [] };
             const n = extractNotes(text);
@@ -244,23 +268,46 @@
             return { html: injectMarkers(raw, nExt.notes), notes: nExt.notes };
         }
 
-        // Per-character classificatie van SV2026: "match in 2027?" en "match in HSV?"
+        function renderGbsDiff(textGbs, text2026) {
+            const nGbs = extractGbsMarkers(stripLeadingVerseNum(textGbs || ""));
+            const n2026 = extractNotes(stripLeadingVerseNum(text2026 || ""));
+
+            if (!textGbs) return { html: null, labels: [] };
+            if (!text2026) {
+                return { html: injectGbsMarkers(escapeForDiff(nGbs.cleanText), nGbs.labels), labels: nGbs.labels };
+            }
+
+            const diffs = dmp.diff_main(n2026.cleanText, nGbs.cleanText);
+            dmp.diff_cleanupSemantic(diffs);
+
+            let raw = "";
+            diffs.forEach(part => {
+                const type = part[0];
+                const text = escapeForDiff(part[1]);
+                if (type === 0) raw += text;
+                else if (type === 1) raw += `<span class="diff-added">${text}</span>`;
+            });
+            return { html: injectGbsMarkers(raw, nGbs.labels), labels: nGbs.labels };
+        }
+
+        // Per-character classificatie van SV2026: "match in GBS?", "match in 2027?" en "match in HSV?"
         // Returnt { html, notes } met tekst gegroepeerd in spans per highlight-class.
-        function renderSv2026DualDiff(text2026, textSv2027, textHsv) {
+        function renderSv2026DualDiff(text2026, textSv2027, textHsv, textGbs) {
             if (!text2026) return { html: null, notes: [] };
             const n2026 = extractNotes(stripLeadingVerseNum(text2026));
             const clean = n2026.cleanText;
             const len = clean.length;
 
+            const flagsGbs = new Array(len).fill(true);
             const flagsSv2027 = new Array(len).fill(true); // default: present
             const flagsHsv = new Array(len).fill(true);
 
-            const fillFlags = (otherText, flags) => {
+            const fillFlags = (otherText, flags, markerExtractor = extractNotes) => {
                 if (!otherText) {
                     // Geen externe vergelijking mogelijk → markeer alles als "present"
                     return;
                 }
-                const nOther = extractNotes(stripLeadingVerseNum(otherText));
+                const nOther = markerExtractor(stripLeadingVerseNum(otherText));
                 const diffs = dmp.diff_main(clean, nOther.cleanText);
                 dmp.diff_cleanupSemantic(diffs);
                 let pos = 0;
@@ -277,15 +324,19 @@
                 }
             };
 
+            fillFlags(textGbs, flagsGbs, extractGbsMarkers);
             fillFlags(textSv2027, flagsSv2027);
             fillFlags(textHsv, flagsHsv);
 
             // Groepeer opeenvolgende chars met dezelfde class.
             const classOf = (i) => {
+                const inGbs = flagsGbs[i];
                 const inSv2027 = flagsSv2027[i];
                 const inHsv = flagsHsv[i];
-                if (inSv2027 && inHsv) return "";
-                if (!inSv2027 && !inHsv) return "diff-removed-both";
+                const missing = [!inGbs, !inSv2027, !inHsv].filter(Boolean).length;
+                if (missing === 0) return "";
+                if (missing > 1) return "diff-removed-multi";
+                if (!inGbs) return "diff-removed-gbs";
                 if (!inSv2027) return "diff-removed";       // alleen niet in SV2027
                 return "diff-removed-hsv";                  // alleen niet in HSV
             };
@@ -352,6 +403,59 @@
                     ${chip}
                     <ol class="list-decimal list-inside space-y-1 mt-1 text-gray-700 dark:text-gray-300">
                         ${notes.map(n => `<li>${escapeHtml(n)}</li>`).join('')}
+                    </ol>
+                </div>
+            `;
+        }
+
+        function normalizePairedNoteText(text) {
+            return String(text || '').replace(/\$([^$]*)\$/g, '$1').trim();
+        }
+
+        function diffPairedNote(gbsText, modernText, side) {
+            const gbs = normalizePairedNoteText(gbsText);
+            const modern = normalizePairedNoteText(modernText);
+            if (!gbs && !modern) return '';
+            if (side === 'gbs' && !gbs) return '<span class="italic text-gray-400">—</span>';
+            if (side === 'modern' && !modern) return '<span class="italic text-gray-400">—</span>';
+            if (!modern) {
+                return side === 'gbs' ? `<span class="note-diff-gbs">${escapeHtml(gbs)}</span>` : '';
+            }
+            if (!gbs) {
+                return side === 'modern' ? `<span class="note-diff-modern">${escapeHtml(modern)}</span>` : '';
+            }
+
+            const diffs = dmp.diff_main(modern, gbs);
+            dmp.diff_cleanupSemantic(diffs);
+            let html = '';
+            diffs.forEach(([type, txt]) => {
+                const e = escapeHtml(txt);
+                if (type === 0) html += e;
+                else if (side === 'gbs' && type === 1) html += `<span class="note-diff-gbs">${e}</span>`;
+                else if (side === 'modern' && type === -1) html += `<span class="note-diff-modern">${e}</span>`;
+            });
+            return html;
+        }
+
+        function createPairedFootnoteSection(pairs, side, title, labelClass) {
+            const chip = `<span class="col-label ${labelClass}">${title}</span>`;
+            if (!pairs || pairs.length === 0) {
+                return `
+                    <div class="footnote-list">
+                        ${chip}
+                        <div class="text-xs italic font-normal text-gray-400 mt-1">—</div>
+                    </div>
+                `;
+            }
+            return `
+                <div class="footnote-list">
+                    ${chip}
+                    <ol class="list-decimal list-inside space-y-2 mt-1 text-gray-700 dark:text-gray-300">
+                        ${pairs.map(p => `
+                            <li>
+                                ${diffPairedNote(p.gbs, p.sv2026, side)}
+                            </li>
+                        `).join('')}
                     </ol>
                 </div>
             `;
@@ -439,9 +543,14 @@
             });
 
             try {
-                const response = await fetch(`diff_all_${book}_${chapter}.json`);
+                const [response, gbsResponse] = await Promise.all([
+                    fetch(`diff_all_${book}_${chapter}.json`),
+                    fetch(`diff_gbs_${book}_${chapter}.json`)
+                ]);
                 if (!response.ok) throw new Error(`Hoofdstuk ${chapter} niet gevonden`);
                 const data = await response.json();
+                const gbsData = gbsResponse.ok ? await gbsResponse.json() : null;
+                const gbsVerses = new Map((gbsData?.verses || []).map(v => [v.verse_number, v]));
 
                 chapterLabel.innerText = `${data.book} ${data.chapter}`;
 
@@ -449,8 +558,9 @@
 
                 // Introduction
                 const intro = data.introduction;
-                if (intro && (intro.original || intro.sv2026 || intro.sv2027)) {
+                if (intro && (intro.original || gbsData?.introduction?.gbs || intro.sv2026 || intro.sv2027)) {
                     const introOrig = renderPlain(intro.original);
+                    const introGbs = renderPlain(gbsData?.introduction?.gbs);
                     const introSv2027 = renderPlain(intro.sv2027);
                     const intro2026 = renderPlain(intro.sv2026);
                     contentEl.innerHTML += `
@@ -458,6 +568,7 @@
                             <h3 class="text-center text-xs font-bold mb-6 uppercase tracking-widest text-gray-500">Inleiding</h3>
                             <div class="space-y-5">
                                 ${renderTextRow('1657', 'col-sv1657', introOrig.html)}
+                                ${renderTextRow('GBS', 'col-gbs', introGbs.html)}
                                 ${renderTextRow('HSV', 'col-hsv', null, '<span class="italic text-gray-400 text-xs">— geen HSV-equivalent —</span>')}
                                 ${renderTextRow('Initiatief SV2027', 'col-sv2027', introSv2027.html)}
                                 ${renderTextRow('Modernisatie', 'col-sv2026', intro2026.html)}
@@ -472,9 +583,11 @@
                     card.className = 'group pb-8 border-b border-gray-200 dark:border-gray-800 last:border-0';
 
                     const orig = renderPlain(v.original);
+                    const gbsVerse = gbsVerses.get(v.verse_number);
+                    const gbsDiff = renderGbsDiff(gbsVerse?.gbs_text, v.sv2026);
                     const hsvDiff = renderExternalDiff(v.hsv, v.sv2026);
                     const sv2027Diff = renderExternalDiff(v.sv2027, v.sv2026);
-                    const sv2026Dual = renderSv2026DualDiff(v.sv2026, v.sv2027, v.hsv);
+                    const sv2026Dual = renderSv2026DualDiff(v.sv2026, v.sv2027, v.hsv, gbsVerse?.gbs_text);
 
                     card.innerHTML = `
                         <div class="flex items-center gap-2 mb-3">
@@ -484,6 +597,7 @@
 
                         <div class="space-y-5 pl-3 border-l-2 border-gray-100 dark:border-gray-800">
                             ${renderTextRow('1657', 'col-sv1657', orig.html)}
+                            ${renderTextRow('GBS', 'col-gbs', gbsDiff.html)}
                             ${renderTextRow('HSV', 'col-hsv', hsvDiff.html)}
                             ${renderTextRow('Initiatief SV2027', 'col-sv2027', sv2027Diff.html)}
                             <div>
@@ -493,12 +607,13 @@
                             </div>
                         </div>
 
-                        <!-- Kanttekeningen / voetnoten — vier kolommen naast elkaar -->
-                        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 pl-3 mt-4">
+                        <!-- Kanttekeningen / voetnoten — vijf kolommen naast elkaar -->
+                        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-5 pl-3 mt-4">
                             <div>${createFootnoteSection(orig.notes, "1657", "col-sv1657")}</div>
+                            <div>${createPairedFootnoteSection(gbsVerse?.kanttekeningen, "gbs", "GBS", "col-gbs")}</div>
                             <div>${createFootnoteSection(hsvDiff.notes, "HSV", "col-hsv")}</div>
                             <div>${createFootnoteSection(sv2027Diff.notes, "Initiatief SV2027", "col-sv2027")}</div>
-                            <div>${createFootnoteSection(sv2026Dual.notes, "Modernisatie", "col-sv2026")}</div>
+                            <div>${createPairedFootnoteSection(gbsVerse?.kanttekeningen, "modern", "Modernisatie", "col-sv2026")}</div>
                         </div>
                     `;
                     contentEl.appendChild(card);
@@ -516,6 +631,7 @@
                         <h3 class="text-center text-xs font-bold mb-6 uppercase tracking-widest text-gray-500">Epiloog</h3>
                         <div class="space-y-5">
                             ${renderTextRow('1657', 'col-sv1657', epiOrig.html)}
+                            ${renderTextRow('GBS', 'col-gbs', null, '<span class="italic text-gray-400 text-xs">— geen GBS-equivalent —</span>')}
                             ${renderTextRow('HSV', 'col-hsv', null, '<span class="italic text-gray-400 text-xs">— geen HSV-equivalent —</span>')}
                             ${renderTextRow('Initiatief SV2027', 'col-sv2027', epiSv2027.html)}
                             ${renderTextRow('Modernisatie', 'col-sv2026', epi2026.html)}
