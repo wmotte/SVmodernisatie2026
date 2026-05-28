@@ -1,13 +1,28 @@
 {
   "book": "EPH",
   "chapter": 5,
-  "reviewed_at": "2026-05-28T16:45:27+00:00",
+  "reviewed_at": "2026-05-28T16:48:16+00:00",
   "passes": [
     {
       "pass": 1,
       "ran_at": "2026-05-28T16:45:27+00:00",
       "mode": "scan",
       "issues_total": 8
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-28T16:48:16+00:00",
+      "mode": "verify",
+      "actions": [
+        "EPH-5-2-001: rebuttal verified",
+        "EPH-5-4-001: rebuttal verified",
+        "EPH-5-13-001: rebuttal verified",
+        "EPH-5-21-001: rebuttal verified",
+        "EPH-5-33-001: rebuttal verified",
+        "EPH-5-33-002: rebuttal verified",
+        "EPH-5-2-002: rebuttal verified",
+        "EPH-5-2-003: rebuttal verified"
+      ]
     }
   ],
   "issues": [
@@ -21,8 +36,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "EPH-5-2-001",
-      "status": "rebutted",
-      "rebuttal": "In EPH 5:2 is `wandel` de imperatief bij Grieks περιπατεῖτε, een Paulus-formule voor levenswandel. ARCHAISMEN.md markeert alleen het zelfstandig naamwoord `wandel`, niet het werkwoord; §2.7 vereist daarom geen wijziging."
+      "status": "verified",
+      "rebuttal": "In EPH 5:2 is `wandel` de imperatief bij Grieks περιπατεῖτε, een Paulus-formule voor levenswandel. ARCHAISMEN.md markeert alleen het zelfstandig naamwoord `wandel`, niet het werkwoord; §2.7 vereist daarom geen wijziging.",
+      "verified_at": "2026-05-28T16:48:16+00:00"
     },
     {
       "category": "voornaamwoordelijk bijwoord gesplitst",
@@ -34,8 +50,9 @@
       "proposed_fix": "hierin",
       "location": "kanttekening",
       "id": "EPH-5-4-001",
-      "status": "rebutted",
-      "rebuttal": "In EPH 5:4 luidt de kanttekening `hier in kwade zin`: `hier` verwijst naar deze plaats in het betoog en `in kwade zin` is een voorzetselgroep. ARCHAISMEN.md ziet op echte pronominale bijwoorden; `hierin kwade zin` zou ongrammaticaal zijn."
+      "status": "verified",
+      "rebuttal": "In EPH 5:4 luidt de kanttekening `hier in kwade zin`: `hier` verwijst naar deze plaats in het betoog en `in kwade zin` is een voorzetselgroep. ARCHAISMEN.md ziet op echte pronominale bijwoorden; `hierin kwade zin` zou ongrammaticaal zijn.",
+      "verified_at": "2026-05-28T16:48:16+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -47,8 +64,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "EPH-5-13-001",
-      "status": "rebutted",
-      "rebuttal": "EPH 5:13 heeft een `<Of, ...>`-kanttekening bij het participium ἐλεγχόμενα: de noot geeft de alternatieve syntactische lezing `wanneer zij bestraft worden`. KANTTEKENINGEN.md verbiedt alternatief en hoofdtekst gelijk te trekken; beperkte overlap met `door het licht` is hier noodzakelijk."
+      "status": "verified",
+      "rebuttal": "EPH 5:13 heeft een `<Of, ...>`-kanttekening bij het participium ἐλεγχόμενα: de noot geeft de alternatieve syntactische lezing `wanneer zij bestraft worden`. KANTTEKENINGEN.md verbiedt alternatief en hoofdtekst gelijk te trekken; beperkte overlap met `door het licht` is hier noodzakelijk.",
+      "verified_at": "2026-05-28T16:48:16+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -60,8 +78,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "EPH-5-21-001",
-      "status": "rebutted",
-      "rebuttal": "EPH 5:21 verklaart de grens van ὑποτασσόμενοι ἐν φόβῳ Θεοῦ: de kanttekening zegt dat de vrees voor God regel en richtsnoer van de onderdanigheid blijft. KANTTEKENINGEN.md verbiedt loze duplicatie, maar deze noot beperkt de toepassing van de hoofdtekst."
+      "status": "verified",
+      "rebuttal": "EPH 5:21 verklaart de grens van ὑποτασσόμενοι ἐν φόβῳ Θεοῦ: de kanttekening zegt dat de vrees voor God regel en richtsnoer van de onderdanigheid blijft. KANTTEKENINGEN.md verbiedt loze duplicatie, maar deze noot beperkt de toepassing van de hoofdtekst.",
+      "verified_at": "2026-05-28T16:48:16+00:00"
     },
     {
       "category": "§2.3b bijwoord-coda",
@@ -73,8 +92,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "EPH-5-33-001",
-      "status": "rebutted",
-      "rebuttal": "EPH 5:33 `ieder afzonderlijk` geeft Grieks οἱ καθ’ ἕνα weer en staat appositioneel bij `u`/`eenieder`, niet als bijwoordelijke coda bij een voorafgaand werkwoord. MODERNISATIE.md §2.3b over nageschoven manier-bijwoorden is hier niet van toepassing."
+      "status": "verified",
+      "rebuttal": "EPH 5:33 `ieder afzonderlijk` geeft Grieks οἱ καθ’ ἕνα weer en staat appositioneel bij `u`/`eenieder`, niet als bijwoordelijke coda bij een voorafgaand werkwoord. MODERNISATIE.md §2.3b over nageschoven manier-bijwoorden is hier niet van toepassing.",
+      "verified_at": "2026-05-28T16:48:16+00:00"
     },
     {
       "category": "§2.7 drempel-fossiel",
@@ -86,8 +106,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "EPH-5-33-002",
-      "status": "rebutted",
-      "rebuttal": "EPH 5:33 bewaart `[zie toe]` omdat SV1657 `[sie]` als vertalersaanvulling markeert; de haken moeten volgens AGENTS.md behouden blijven. `Zie toe dat zij ...` is bovendien modern Nederlands voor een vermanende aansporing en geen datief/genitief-fossiel uit §2.7."
+      "status": "verified",
+      "rebuttal": "EPH 5:33 bewaart `[zie toe]` omdat SV1657 `[sie]` als vertalersaanvulling markeert; de haken moeten volgens AGENTS.md behouden blijven. `Zie toe dat zij ...` is bovendien modern Nederlands voor een vermanende aansporing en geen datief/genitief-fossiel uit §2.7.",
+      "verified_at": "2026-05-28T16:48:16+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -109,8 +130,9 @@
         29
       ],
       "id": "EPH-5-2-002",
-      "status": "rebutted",
-      "rebuttal": "De EPH 5-hits hebben verschillende functies: καθὼς/καθώς in verzen 2, 22, 23, 24, 25 en 28 is vergelijkend `zoals`, vers 3 is normatief `zoals het betaamt`, en vers 29 gebruikt gelijckerwijs als `evenals`. AGENTS.md-concordantie is geen mechanische prefixplicht bij verschillende Nederlandse idiomen."
+      "status": "verified",
+      "rebuttal": "De EPH 5-hits hebben verschillende functies: καθὼς/καθώς in verzen 2, 22, 23, 24, 25 en 28 is vergelijkend `zoals`, vers 3 is normatief `zoals het betaamt`, en vers 29 gebruikt gelijckerwijs als `evenals`. AGENTS.md-concordantie is geen mechanische prefixplicht bij verschillende Nederlandse idiomen.",
+      "verified_at": "2026-05-28T16:48:16+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -129,8 +151,9 @@
         33
       ],
       "id": "EPH-5-2-003",
-      "status": "rebutted",
-      "rebuttal": "De `hemselv`-hits zijn grammaticaal verschillend: ἑαυτόν in EPH 5:2 en 5:25 is reflexief `zichzelf`; 5:27 gebruikt `aan zichzelf` bij παραστήσῃ; 5:28 en 5:33 hebben vergelijking `zichzelf`. AGENTS.md-concordantie vraagt behoud per functie, niet één prefixvorm."
+      "status": "verified",
+      "rebuttal": "De `hemselv`-hits zijn grammaticaal verschillend: ἑαυτόν in EPH 5:2 en 5:25 is reflexief `zichzelf`; 5:27 gebruikt `aan zichzelf` bij παραστήσῃ; 5:28 en 5:33 hebben vergelijking `zichzelf`. AGENTS.md-concordantie vraagt behoud per functie, niet één prefixvorm.",
+      "verified_at": "2026-05-28T16:48:16+00:00"
     }
   ]
 }
