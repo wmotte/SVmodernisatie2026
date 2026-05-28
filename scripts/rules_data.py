@@ -341,6 +341,10 @@ DREMPEL_ARCHAISMEN: frozenset[str] = frozenset({
     # 'wandelen'/'wandeling' (geen \b na 'l') noch samenstelling
     # 'levenswandel' (geen \b vóór 'w'). Meta-review 1PE 2:12, 3:1, 3:2, 3:16.
     "wandel",
+    # Zelfst. 'prijs' in de betekenis 'lof/prijzing' (Gr. ἔπαινος)
+    # faalt de verwarringstest: modern NL leest primair geldelijke waarde.
+    # Meta-review EPH 1:6,12,14: 'tot prijs van zijn heerlijkheid' → 'tot lof van zijn heerlijkheid'.
+    "prijs",
 })
 
 DREMPEL_FOSSIELEN: tuple[str, ...] = (
