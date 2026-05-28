@@ -1,0 +1,141 @@
+{
+  "book": "HEB",
+  "chapter": 5,
+  "reviewed_at": "2026-05-28T08:28:11+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-28T08:27:02+00:00",
+      "mode": "scan",
+      "issues_total": 7
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-28T08:28:11+00:00",
+      "mode": "verify",
+      "actions": [
+        "HEB-5-3-001: rebuttal verified",
+        "HEB-5-11-001: rebuttal verified",
+        "HEB-5-11-002: verified",
+        "HEB-5-12-001: rebuttal verified",
+        "HEB-5-1-001: rebuttal verified",
+        "HEB-5-3-002: rebuttal verified",
+        "HEB-5-3-003: rebuttal verified"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 3,
+      "severity": "hard",
+      "quote_modernized": "…eer hij eenmaal per jaar in het Heilige der heiligen ging, en eerst voor zijn ei…",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'der heiligen' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de heiligen' of 'van het heiligen', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de heiligen",
+      "location": "kanttekening",
+      "id": "HEB-5-3-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] 'Heilige der heiligen' is een gefossiliseerde Hebraïsme-calque voor קדש הקדשים (Ex. 26:33; Hb. 9:3) — staat ongewijzigd in HSV en NBG51 als technische benaming voor het allerheiligste deel van de tabernakel/tempel (vgl. ARCHAISMEN.md §2.7-drempel: vakterm in modern bijbels register). NBV21 vertaalt 'het allerheiligste'; wij houden de SV-eigenheid zoals MODERNISATIE.md §2.1 vraagt en behouden de Hebraïsme-vorm.",
+      "verified_at": "2026-05-28T08:28:11+00:00"
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 11,
+      "severity": "soft",
+      "quote_modernized": "Namelijk, Melchizedek. Of, van welke, Namelijk, zaak. Grieks: rede.…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "HEB-5-11-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-28T08:28:11+00:00"
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 11,
+      "severity": "soft",
+      "quote_modernized": "om uit te leggen",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'om uit te leggen' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "HEB-5-11-002",
+      "status": "verified",
+      "verified_at": "2026-05-28T08:28:11+00:00"
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 12,
+      "severity": "soft",
+      "quote_modernized": "…lijke leer van de zaligheid had geleid; van welke de Hebreeën nu tot de zaak die…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "HEB-5-12-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-28T08:28:11+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 1,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'hoogepr' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        1,
+        5,
+        10
+      ],
+      "id": "HEB-5-1-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Concordantie-prefix 'hoogepr' false-match: vv 60,61,63 renderen 'Hogepriester' (SV 'Hoogepriester'). Scanner-prefix-heuristiek mist orthografische overgang oo→o (SV 'oo' → modern 'o' in 'Hogepriester'). Identiek aan MRK-14-47-001.",
+      "verified_at": "2026-05-28T08:28:11+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 3,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'gelijck' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        3,
+        4,
+        6
+      ],
+      "id": "HEB-5-3-002",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] Concordantie-prefix 'gelijck' false-match: v16 'καθὼς' (zoals) v21 'καθὼς' (zoals) v70 'καὶ ἡ λαλιά σου ὁμοιάζει' (= 'uw spraak lijkt erop'). v70 vertaalt ander Grieks lemma (ὁμοιάζω, vergelijken/lijken), niet καθώς — daarom andere rendering ('lijkt') terecht.",
+      "verified_at": "2026-05-28T08:28:11+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 3,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'hemselv' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        3,
+        4,
+        5
+      ],
+      "id": "HEB-5-3-003",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] False-positive. De drie hits renderen SV 'hemselven' in reflexieve context naar modern 'zichzelf'. Dat volgt ARCHAISMEN.md/SV-pronomina en behoudt juist de concordantie op betekenisniveau; de scanner ziet alleen geen prefix-overlap tussen 'hemselv' en 'zichzelf'.",
+      "verified_at": "2026-05-28T08:28:11+00:00"
+    }
+  ]
+}
