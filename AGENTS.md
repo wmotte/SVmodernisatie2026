@@ -50,12 +50,13 @@ beoordeling + commit + PR + merge per batch totdat het hoofdstuk klaar is.
 |                           | tekst.                                          |
 | `sv-validate`             | Ná het schrijven van de uitvoer-JSON, vóór de   |
 |                           | memory-add. Bij fout: corrigeer en herhaal.     |
-| `sv-semantic-review`      | In batch-flow ná validator + linters (Stap 3.6).|
-|                           | False friends, idiomatische mismatches,         |
-|                           | concordantie-twijfel, HSV-spiegel. Stap 3.7     |
-|                           | doet flag-arbitrage: kan regex-kwetsbare        |
+| `sv-semantic-review`      | In batch-flow Stap 3 (review-subagent),         |
+|                           | na validator + linters. False friends,          |
+|                           | idiomatische mismatches, concordantie-twijfel,  |
+|                           | HSV-spiegel. Flag-arbitrage kan regex-kwetsbare |
 |                           | validatorflags (hoofdletterdiscipline,          |
-|                           | §2.3-participium) overrulen met motivatie.      |
+|                           | §2.3-participium) overrulen met motivatie       |
+|                           | (zie validator `--overrides`).                  |
 | `sv-adversarial-review`   | Strenge bevindingenlijst per hoofdstuk. Auto na |
 |                           | CHAPTER_COMPLETE, of expliciet ("review         |
 |                           | hoofdstuk 8"). Uitgangspunt = overtreding; weerleggingen |

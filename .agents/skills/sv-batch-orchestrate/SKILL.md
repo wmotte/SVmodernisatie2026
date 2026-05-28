@@ -79,15 +79,20 @@ per vers JSON↔DB). Alleen verschillen worden opnieuw geëmbed via
 de embeddings-service (nu Gemini, verwisselbaar via `scripts/memory.py`).
 
 Verwacht resultaat (`--terse` regel: `sync <N>v <C>c <D>d <M>m <O>o api=<N>`):
-- `c == v`, `d == 0`, `m == 0`, `api == 0`: alles consistent, ga door
+
+**Controleer exitcode altijd eerst.** De terse stdout is alleen
+betekenisvol bij exit 0.
+
+- Exitcode ≠ 0: blokker (embeddings-API onbereikbaar, corrupte JSON in
+  output/). Stop de hoofdlus, rapporteer. Laat `--terse` weg voor
+  `details`-payload. **Niet** doorgaan op stdout-content bij non-zero exit.
+- Exit 0 + `c == v`, `d == 0`, `m == 0`, `api == 0`: alles consistent, ga door
   naar Stap 1.
-- `d > 0` of `m > 0`: sync embedt automatisch opnieuw (2 API-aanroepen
+- Exit 0 + `d > 0` of `m > 0`: sync embedt automatisch opnieuw (2 API-aanroepen
   per vers). Wacht tot dit klaar is (synchroon), ga dan door naar Stap 1.
-- `o > 0`: de database heeft items waar geen uitvoer-JSON-vers bij hoort
+- Exit 0 + `o > 0`: de database heeft items waar geen uitvoer-JSON-vers bij hoort
   (bv. file-rename, branch-checkout). Niet auto-deleted — onthoud
   voor het eindrapport, ga door.
-- Exitcode ≠ 0: blokker (embeddings-API onbereikbaar, corrupte JSON in output/).
-  Stop de hoofdlus, rapporteer. Laat `--terse` weg voor `details`-payload.
 
 ### Stap 1 — detecteer de volgende 3
 
@@ -103,6 +108,9 @@ Uitvoer is precies één regel: `NEXT=<V_START>-<V_EIND>` of `CHAPTER_COMPLETE`.
   een doorgegeven range betekent dit "range klaar", niet per se
   hoofdstuk klaar.)
 - `NEXT=V_START-V_EIND` → ga door naar stap 2 met deze grenzen.
+- Exitcode `2` of stdout begint met `ERROR:` (input ontbreekt of corrupte
+  JSON) → blokker. Stop de hoofdlus, vermeld de foutregel in het
+  eindrapport. Niet doorgaan met halve invoer.
 
 ### Stap 2 — start modernisatie-subagent
 
@@ -417,6 +425,14 @@ na. Ze inline in elke `Agent`-spawn meesturen vult de orchestrator-context
 onnodig vol. In plaats daarvan stuurt de orchestrator een **korte**
 `prompt` die de subagent naar het bestand verwijst; de subagent leest het
 zelf (in zijn eigen, geïsoleerde context).
+
+**Placeholder-check (verplicht vóór elke `Agent`-spawn).** De spawn-prompt
+bevat `<...>`-tags die woordelijk vervangen moeten zijn door concrete
+waarden (`BOEK`, `H`, `V_START`, `V_EIND`, `BRANCH`, `REPO_ROOT`, ...).
+Een ongerepleceerd `<V_EIND>` of `<BRANCH>` betekent dat de subagent
+malformed input krijgt en silent verkeerd werk doet. Vóór je `Agent`
+aanroept: scan de prompt-string visueel op resterende `<UPPER_TAG>`-
+patronen. Geen overgebleven tags = veilig spawnen.
 
 **Spawn-prompt — modernisatie (Stap 2):**
 

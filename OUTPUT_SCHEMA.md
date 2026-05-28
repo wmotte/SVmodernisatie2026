@@ -89,3 +89,20 @@ expliciet vraagt om opnieuw moderniseren.
 De gebruiker kan ze ook gericht aanvragen:
 - "moderniseer LUK 1 introductie"
 - "moderniseer LUK 24 epiloog"
+
+## Bijbestanden in `output/<BOEK>/`
+
+Naast het primaire `<BOEK>.<H>.json` schrijven downstream-skills extra
+artefacten in dezelfde map:
+
+| Pad | Beheerd door | Inhoud | Lifecycle |
+|---|---|---|---|
+| `<BOEK>.<H>.json` | `sv-modernize` via `scripts/upsert_verse.py` | Gemoderniseerde verzen + intro + epilogue. | Permanent. Groeit per batch (upsert op `verse_number`). |
+| `review.<H>.json` | `sv-adversarial-review` via `scripts/adversarial_scan.py` | Adversariële bevindingenlijst per hoofdstuk + verify-pass-actions. | Permanent, getrackt in git. Wordt aangevuld bij elke nieuwe pass (`passes`-array); issues blijven met `status: fixed|rebutted|reopened`. Niet opschonen — historiek heeft auditwaarde. |
+| `META/decisions.jsonl` (op `output/META/`) | `scripts/extract_decisions.py` | Geaggregeerde fix/rebuttal-beslissingen uit alle `review.*.json` + notes uit `<BOEK>.<H>.json`. | Regenereerbaar; opnieuw bouwen met `extract_decisions.py --root output --book <BOEK>`. |
+| `META/candidates_<BOEK>.json` | `scripts/meta_diff_aggregate.py` | Cross-chapter patronen uit `docs/diff_hsv_<BOEK>_*.json` voor meta-review. | Regenereerbaar; per meta-review-aanroep. |
+| `META/rule_curator_report.json` | `scripts/rule_curator.py` | Dry-run drift-rapport (stoplist/blacklist/rebuttal). | Wegwerp; herbruikbaar pad. |
+
+Alleen `<BOEK>.<H>.json` en `review.<H>.json` zijn primaire artefacten;
+de `META/`-bestanden zijn afgeleid en mogen opnieuw worden gebouwd
+vanuit primaire data.

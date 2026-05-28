@@ -924,6 +924,110 @@ def _validate_chapter(modernized: dict) -> dict:
     }
 
 
+def _load_overrides(path: Path) -> list[dict]:
+    """Lees een overrides-JSON.
+
+    Schema (v1):
+      {"version": 1,
+       "overrides": [
+         {"scope": "verse"|"section"|"chapter",
+          "verse": <int> | "section": "intro"|"epilogue" | (chapter: geen extra key),
+          "issue_match": "<substring>",
+          "justification": "<>=40-char motivatie met regel/Griekse-ref>"}, ...]}
+
+    Een issue wordt overruled wanneer (a) scope matcht en (b) `issue_match`
+    voorkomt in de issue-tekst. Justification is verplicht en moet ≥40
+    tekens zijn; korter = ongeldige override (script faalt vóór run).
+    """
+    if not path.exists():
+        print(json.dumps({"error": f"overrides niet gevonden: {path}"}))
+        sys.exit(2)
+    with path.open(encoding="utf-8") as fh:
+        data = json.load(fh)
+    if data.get("version") != 1:
+        print(json.dumps({"error": "overrides: 'version': 1 vereist"}))
+        sys.exit(2)
+    items = data.get("overrides") or []
+    for i, entry in enumerate(items):
+        scope = entry.get("scope")
+        if scope not in {"verse", "section", "chapter"}:
+            print(json.dumps({"error": f"overrides[{i}]: scope moet verse|section|chapter zijn"}))
+            sys.exit(2)
+        if scope == "verse" and not isinstance(entry.get("verse"), int):
+            print(json.dumps({"error": f"overrides[{i}]: 'verse' (int) vereist bij scope=verse"}))
+            sys.exit(2)
+        if scope == "section" and entry.get("section") not in {"intro", "introduction", "epilogue", "epiloog"}:
+            print(json.dumps({"error": f"overrides[{i}]: 'section' moet intro|epilogue zijn"}))
+            sys.exit(2)
+        if not isinstance(entry.get("issue_match"), str) or not entry["issue_match"]:
+            print(json.dumps({"error": f"overrides[{i}]: 'issue_match' (non-empty string) vereist"}))
+            sys.exit(2)
+        just = entry.get("justification") or ""
+        if len(just) < 40:
+            print(json.dumps({"error": f"overrides[{i}]: 'justification' moet >=40 tekens (kreeg {len(just)})"}))
+            sys.exit(2)
+    return items
+
+
+def _apply_overrides_to_result(
+    result: dict, scope: str, matchers: list[dict]
+) -> None:
+    """Filter `issues` op `result` in plaats. Verplaatst gematchte issues naar
+    `overruled` en herberekent `passes`."""
+    if not matchers:
+        return
+    kept_issues: list[str] = []
+    overruled: list[dict] = result.get("overruled") or []
+    for iss in result.get("issues", []):
+        hit = None
+        for m in matchers:
+            if m["issue_match"] in iss:
+                hit = m
+                break
+        if hit:
+            overruled.append({"issue": iss, "justification": hit["justification"]})
+        else:
+            kept_issues.append(iss)
+    result["issues"] = kept_issues
+    result["overruled"] = overruled
+    result["passes"] = not kept_issues
+
+
+def _apply_all_overrides(
+    per_verse: list[dict],
+    sections_checked: list[dict],
+    chapter_checks: list[dict],
+    overrides: list[dict],
+) -> int:
+    """Pas overrides toe op alle resultaten; retourneer totaal overruled."""
+    section_norm = {"intro": "introduction", "introduction": "introduction",
+                    "epilogue": "epilogue", "epiloog": "epilogue"}
+    total = 0
+    for result in per_verse:
+        matchers = [
+            o for o in overrides
+            if o["scope"] == "verse" and o.get("verse") == result.get("verse")
+        ]
+        before = len(result.get("issues", []))
+        _apply_overrides_to_result(result, "verse", matchers)
+        total += before - len(result.get("issues", []))
+    for result in sections_checked:
+        sec = result.get("section")
+        matchers = [
+            o for o in overrides
+            if o["scope"] == "section" and section_norm.get(o.get("section", "")) == sec
+        ]
+        before = len(result.get("issues", []))
+        _apply_overrides_to_result(result, "section", matchers)
+        total += before - len(result.get("issues", []))
+    for result in chapter_checks:
+        matchers = [o for o in overrides if o["scope"] == "chapter"]
+        before = len(result.get("issues", []))
+        _apply_overrides_to_result(result, "chapter", matchers)
+        total += before - len(result.get("issues", []))
+    return total
+
+
 def cmd_check(args: argparse.Namespace) -> int:
     input_path = Path(args.input)
     output_path = Path(args.output)
@@ -1012,8 +1116,20 @@ def cmd_check(args: argparse.Namespace) -> int:
     # welke verzen geselecteerd zijn — batch-fouten elders in het bestand horen
     # gerapporteerd te worden zodra je het bestand sowieso opent.
     chapter_checks = [_validate_chapter(modernized)]
-    if any(not r["passes"] for r in chapter_checks):
-        any_fail = True
+
+    overrides: list[dict] = []
+    overruled_total = 0
+    if getattr(args, "overrides", None):
+        overrides = _load_overrides(Path(args.overrides))
+        overruled_total = _apply_all_overrides(
+            per_verse, sections_checked, chapter_checks, overrides
+        )
+
+    any_fail = (
+        any(not r["passes"] for r in per_verse)
+        or any(not r["passes"] for r in sections_checked)
+        or any(not r["passes"] for r in chapter_checks)
+    )
 
     checked = len(per_verse) + len(sections_checked) + len(chapter_checks)
     passed = (
@@ -1030,7 +1146,10 @@ def cmd_check(args: argparse.Namespace) -> int:
 
     if args.terse:
         status = "PASS" if not any_fail else "FAIL"
-        lines = [f"{status} {passed}/{checked} {failed}F {warnings_total}W"]
+        head = f"{status} {passed}/{checked} {failed}F {warnings_total}W"
+        if overruled_total:
+            head += f" {overruled_total}O"
+        lines = [head]
         for r in per_verse:
             if not r["passes"]:
                 for iss in r["issues"]:
@@ -1051,6 +1170,7 @@ def cmd_check(args: argparse.Namespace) -> int:
         "passed": passed,
         "failed": failed,
         "warnings_total": warnings_total,
+        "overruled_total": overruled_total,
         "verses": per_verse,
         "sections": sections_checked,
         "chapter_checks": chapter_checks,
@@ -1076,6 +1196,17 @@ def main() -> None:
         "--terse",
         action="store_true",
         help="Compacte tekstuele output ipv. JSON: 1 statusregel + 1 regel per fail.",
+    )
+    sp.add_argument(
+        "--overrides",
+        default=None,
+        help=(
+            "Pad naar JSON-bestand met flag-arbitrage-overrides. Bijpassende issues "
+            "worden naar `overruled` verplaatst (zie _load_overrides voor schema). "
+            "Justification verplicht (≥40 chars met regel/Griekse referentie). "
+            "Gebruikt door sv-semantic-review om regex-kwetsbare validatorflags "
+            "(hoofdletterdiscipline, §2.3-participium) post-arbitrage te suppressen."
+        ),
     )
     sp.set_defaults(func=cmd_check)
 

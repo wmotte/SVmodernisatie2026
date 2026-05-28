@@ -1,6 +1,6 @@
 ---
 name: sv-semantic-review
-description: Kritische semantische beoordeling van een gemoderniseerde vers-range — in-context door het agent-model zelf, geen externe LLM. Detecteert false friends, idiomatische mismatches, concordantietwijfel, en spiegelt de modernisatie tegen HSV (Herziene Statenvertaling) om taalfouten / semantische missers / drempel-archaïsmen op te sporen die door bestaande linters niet worden gevangen. Vervangt de oude `scripts/semantic_review.py` (externe embeddings-aanroep). Roep aan binnen `sv-batch-orchestrate` Stap 3.6, of zelfstandig voor een ad-hocbeoordeling van een bestaande vers-range.
+description: Kritische semantische beoordeling van een gemoderniseerde vers-range — in-context door het agent-model zelf, geen externe LLM. Detecteert false friends, idiomatische mismatches, concordantietwijfel, en spiegelt de modernisatie tegen HSV (Herziene Statenvertaling) om taalfouten / semantische missers / drempel-archaïsmen op te sporen die door bestaande linters niet worden gevangen. Vervangt de oude `scripts/semantic_review.py` (externe embeddings-aanroep). Roep aan binnen `sv-batch-orchestrate` Stap 3 (review-subagent), of zelfstandig voor een ad-hocbeoordeling van een bestaande vers-range.
 ---
 
 # sv-semantic-review — beoordelingsprotocol
@@ -15,8 +15,9 @@ Werkdirectory:
 
 ## Wanneer aanroepen
 
-- **Binnen `sv-batch-orchestrate` Stap 3.6**: na validator + alle lints
-  op een nieuwe batch van 3 verzen.
+- **Binnen `sv-batch-orchestrate` Stap 3 (review-subagent)**: na validator +
+  alle lints op een nieuwe batch van 3 verzen. De review-subagent voert
+  dit protocol uit in zijn eigen geïsoleerde context.
 - **Zelfstandig**: gebruiker vraagt om kritische beoordeling van een
   bestaande vers-range — bv. "review LUK 1:11-13".
 

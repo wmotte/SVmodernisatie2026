@@ -47,6 +47,11 @@ Overdracht: roep de `Skill`-tool aan met
 Stop daarna `sv-modernize` onmiddellijk — de orchestrator neemt het over
 en verwerkt de range in batches van 3 met schone-context-subagents.
 
+**Hard-stop**: doorgaan met Stap 1 in dezelfde aanroep ná de Skill-call
+is een protocolfout. Géén "ik doe alvast vers 1 en geef de rest over" —
+overdracht is volledig. Print één regel `HANDOFF sv-batch-orchestrate
+<BOEK> <H> <V_START>-<V_EIND>` en stop.
+
 **Niet** overdragen (blijf inline) bij:
 - range ≤ 3 verzen — één batch, inline kost geen extra context;
 - één of meer verzen in de range bestaan al in output —
@@ -205,6 +210,20 @@ normatief** (hoofdletters, kanttekening-aantal, ref-formaat, intro-
 stijl volgen wij ánders), maar wanneer SV2027 een woord moderner
 oplost zonder zinsbouw of inhoud te wijzigen, is dat een sterk signaal
 dat ons woord een conservatief-issue is.
+
+**Decision-memory (adviserend).** Bij aanhoudende twijfel over een
+woordkeus of concordantie-patroon raadpleeg eerder vastgelegde
+fixes/rebuttals:
+
+```bash
+uv run python scripts/query_decisions.py "<woord of patroon>" \
+    --book <BOEK> --limit 5
+```
+
+Bouw eerst `output/META/decisions.jsonl` op als die ontbreekt:
+`uv run python scripts/extract_decisions.py --root output --book <BOEK>`.
+Hits zijn geen autoriteit — projectregels (`AGENTS.md`,
+`MODERNISATIE.md`, `ARCHAISMEN.md`) en SV1657/Grieks blijven leidend.
 
 ### c. Bijbelverwijzingen normaliseren
 
