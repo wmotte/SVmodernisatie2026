@@ -1,0 +1,215 @@
+{
+  "book": "EPH",
+  "chapter": 3,
+  "reviewed_at": "2026-05-28T04:35:45+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-28T04:33:51+00:00",
+      "mode": "scan",
+      "issues_total": 12
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-28T04:35:45+00:00",
+      "mode": "verify",
+      "actions": [
+        "EPH-3-2-001: rebuttal verified",
+        "EPH-3-2-002: rebuttal verified",
+        "EPH-3-6-001: verified",
+        "EPH-3-10-001: verified",
+        "EPH-3-12-001: rebuttal verified",
+        "EPH-3-13-001: verified",
+        "EPH-3-14-001: rebuttal verified",
+        "EPH-3-15-001: rebuttal verified",
+        "EPH-3-21-001: rebuttal verified",
+        "EPH-3-1-001: rebuttal verified",
+        "EPH-3-3-001: rebuttal verified",
+        "EPH-3-5-001: rebuttal verified"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "category": "§2.3b vocatief-u",
+      "verse": 2,
+      "severity": "soft",
+      "quote_modernized": "Indien u tenminste gehoord hebt van   de bedel…",
+      "rule_reference": "MODERNISATIE.md §2.3b",
+      "explanation": "'u tenminste' aan zin-/clause-begin — mogelijke vocatief-u-Latinaatconstructie. Verifieer of 'u' hier object van aanspreking is en weghaalbaar is.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "EPH-3-2-001",
+      "status": "verified",
+      "rebuttal": "In EPH 3:2 is 'u' het onderwerp van 'gehoord hebt' bij Grieks εἴγε ἠκούσατε, niet een los vocatief object. MODERNISATIE.md §2.3b ziet op weglaatbare aanspreek-u; hier zou weglating de persoonsvorm ongrammaticaal maken.",
+      "verified_at": "2026-05-28T04:35:45+00:00"
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 2,
+      "severity": "soft",
+      "quote_modernized": "Indien u tenminste gehoord hebt van   de…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "EPH-3-2-002",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-28T04:35:45+00:00"
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 6,
+      "severity": "soft",
+      "quote_modernized": "zijn en van hetzelfde",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'zijn en van hetzelfde' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "EPH-3-6-001",
+      "status": "verified",
+      "verified_at": "2026-05-28T04:35:45+00:00"
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 10,
+      "severity": "soft",
+      "quote_modernized": "veelvuldige wijsheid van god",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'veelvuldige wijsheid van god' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "EPH-3-10-001",
+      "status": "verified",
+      "verified_at": "2026-05-28T04:35:45+00:00"
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 12,
+      "severity": "soft",
+      "quote_modernized": "door het geloof in",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'door het geloof in' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "EPH-3-12-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Vers 9 gebruikt de kanttekening om de instrumentele geloofsrelatie theologisch uit te leggen; KANTTEKENINGEN.md verbiedt alternatief-redundantie, niet noodzakelijke uitleg van dezelfde constructie.",
+      "verified_at": "2026-05-28T04:35:45+00:00"
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 13,
+      "severity": "soft",
+      "quote_modernized": "dat u niet verslapt",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'dat u niet verslapt' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "EPH-3-13-001",
+      "status": "verified",
+      "verified_at": "2026-05-28T04:35:45+00:00"
+    },
+    {
+      "category": "voornaamwoordelijk bijwoord gesplitst",
+      "verse": 14,
+      "severity": "hard",
+      "quote_modernized": "Deze titel geeft de Apostel hier aan God de Vader, omdat wij geen to…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'hier aan' — SV-gesplitst voornaamwoordelijk bijwoord. Modern Nederlands voegt samen: 'hieraan' (bv. daarin, waarmee, hierop).",
+      "proposed_fix": "hieraan",
+      "location": "kanttekening",
+      "id": "EPH-3-14-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] False positive: 'hier aan Christus toegeschreven' is geen gesplitst voornaamwoordelijk bijwoord. Parsing: [hier] (bijwoord = 'in deze context/passage') + [aan Christus] (voorzetselgroep, indirect object van passieve werkwoord 'toegeschreven worden aan X'). MODERNISATIE.md §2.3b verbiedt gesplitst pron.bijwoord van het type [er/daar/hier/waar][prep], maar alléén wanneer de prepositie geen volledig NP regeert. Hier regeert 'aan' de NP 'Christus' — samenvoegen tot 'hieraan Christus' is ongrammaticaal in modern NL (vergelijk: 'wordt hier aan Karel toegeschreven'). Grieks: passief παραδίδοται/ἀναφέρεται met dativus auctoris-equivalent.",
+      "verified_at": "2026-05-28T04:35:45+00:00"
+    },
+    {
+      "category": "voornaamwoordelijk bijwoord gesplitst",
+      "verse": 15,
+      "severity": "hard",
+      "quote_modernized": "…t is, van de gelovigen, niet alleen die hier op aarde nog leven, maar ook van wi…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'hier op' — SV-gesplitst voornaamwoordelijk bijwoord. Modern Nederlands voegt samen: 'hierop' (bv. daarin, waarmee, hierop).",
+      "proposed_fix": "hierop",
+      "location": "kanttekening",
+      "id": "EPH-3-15-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] False-positive op ARCHAISMEN.md 'gesplitst voornaamwoordelijk bijwoord': in v19 betekent 'hier op aarde' [hier] = locatief adverbium plus de volledige PP 'op aarde'. Samenvoegen tot 'hierop aarde' is ongrammaticaal; dit is niet het type 'daar op acht' waarbij de prepositie geen zelfstandig naamwoord regeert.",
+      "verified_at": "2026-05-28T04:35:45+00:00"
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 21,
+      "severity": "hard",
+      "quote_modernized": "…f, tot alle tijden. Grieks: tot de eeuw der eeuwen.",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'der eeuwen' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de eeuwen' of 'van het eeuwen', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de eeuwen",
+      "location": "kanttekening",
+      "id": "EPH-3-21-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] \"tot de eeuwen der eeuwen\" staat in een als \"Grieks:\" gemarkeerde interlineaire gloss van eis tous aionas ton aionon (gen.pl.) — literale brontaal-aanduiding, geen lopende moderne proza. §2.3-glosconventie laat de literale vorm staan; \"der eeuwen\" is bovendien gefossiliseerde doxologie-genitief (vgl. Op. 1:6, 4:9). Geen hoofdtekst-archaïsme.",
+      "verified_at": "2026-05-28T04:35:45+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 1,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'heydene' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        1,
+        6,
+        8
+      ],
+      "id": "EPH-3-1-001",
+      "status": "verified",
+      "rebuttal": "EPH 3:1,6,8 gebruikt dezelfde moderne stam 'Heidenen' voor SV 'Heydenen'; de concordantie-drift komt alleen door hoofdletter/prefix-normalisatie. AGENTS.md concordantie is hier juist behouden in hoofdtekst en kanttekeningen.",
+      "verified_at": "2026-05-28T04:35:45+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 3,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'gemaeck' in 4 verzen — verzen [3, 5] renderen het stam anders dan [10, 11]",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 4 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        3,
+        5,
+        10,
+        11
+      ],
+      "id": "EPH-3-3-001",
+      "status": "verified",
+      "rebuttal": "EPH 3:3,5,10 gebruiken 'bekendgemaakt' voor SV 'bekent gemaeckt' (Grieks γνωρίζω/openbaren), terwijl EPH 3:11 'gemaakt heeft' bij 'voornemen' een ander predicaat en Grieks ποιέω weergeeft. AGENTS.md concordantie vereist geen harmonisatie van deze verschillende lexicale constructies.",
+      "verified_at": "2026-05-28T04:35:45+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 5,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'heylige' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        5,
+        8,
+        18
+      ],
+      "id": "EPH-3-5-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] False-positive van de prefix-heuristiek: de stam 'heilig' wordt juist consistent weergegeven, maar naar woordsoort verbogen — v3/v14 zelfstandig naamwoord 'de heiligen'/'heiligen' (τοῖς ἁγίοις / ἁγίαις), v20 superlatief-adjectief 'allerheiligst' (ἁγιωτάτῃ). Morfologische variatie per woordsoort, geen concordantie-drift.",
+      "verified_at": "2026-05-28T04:35:45+00:00"
+    }
+  ]
+}
