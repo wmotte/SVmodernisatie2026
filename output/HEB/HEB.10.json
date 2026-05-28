@@ -343,6 +343,45 @@
       "generated_at": "2026-05-28T12:30:11.587781Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 37,
+      "original": "$Hagg. 2.7. Habak. 2.3. 1.Petr. 1.6. ende 5.10.$ Want, <Namel. isser overigh. Dese woorden zijn genomen uyt Habak. 2.3. Hagg. 2.7. die den Apostel niet van woorde tot woorde by en brenght, maer verhaelt den sin daer van, ende pastse tot sijn voornemen.> Noch een zeer weynigh [tijts, ende] <N. de Messias, Christus.> hy die te komen staet sal komen, ende niet vertoeven.",
+      "modernized": "$Hg. 2:7; Hk. 2:3; 1Pt. 1:6; 5:10$ Want, <Namelijk, er blijft over. Deze woorden zijn genomen uit $Habakuk 2:3$ en $Haggai 2:7$, die de Apostel niet woord voor woord aanhaalt, maar de zin daarvan verhaalt, en die op zijn voornemen toepast.> Nog een zeer korte [tijd, en] <Namelijk, de Messias, Christus.> hij die te komen staat zal komen, en niet uitblijven.",
+      "source_text": "ἔτι γὰρ μικρὸν ὅσον ὅσον, Ὁ ἐρχόμενος ἥξει, καὶ οὐ χρονιεῖ.",
+      "generated_at": "2026-05-28T12:35:12.224384Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "subject": "zeer weinig [tijd]",
+          "context": "hoofdtekst",
+          "choice": "zeer korte [tijd]",
+          "alternatives": [
+            "zeer weinig [tijd]"
+          ],
+          "reason": "Semantic-review / HSV-spiegel: SV 'een zeer weynigh [tijts]' is als tijdsduur in modern Nederlands drempelarchaïsch; 'een zeer korte [tijd]' bewaart de formele betekenis van μικρὸν zonder HSV-herbouw."
+        }
+      ]
+    },
+    {
+      "verse_number": 38,
+      "original": "$Habak. 2.4. Rom. 1.17. Galat. 3.11.$ Maer de rechtveerdige <Siet nader van dese oversettinge op Rom. 1.17.> sal uyt den geloove leven: ende <Namel. van dit geloove ende lijdtsamige verwachtinge, door afval, ofte verloocheninge Christi ende sijner waerheyt.> soo [yemant] hem ontreckt, mijn ziele en heeft in hem geen behagen.",
+      "modernized": "$Hk. 2:4; Rm. 1:17; Gl. 3:11$ Maar de rechtvaardige <Zie nader over deze vertaling bij $Rm. 1:17$.> zal uit het geloof leven; en <Namelijk, van dit geloof en geduldige verwachting, door afval, of verloochening van Christus en zijn waarheid.> als [iemand] zich onttrekt, mijn ziel heeft in hem geen behagen.",
+      "source_text": "ὁ δὲ δίκαιος ἐκ πίστεως ζήσεται· καὶ ἐὰν ὑποστείληται, οὐκ εὐδοκεῖ ἡ ψυχή μου ἐν αὐτῷ.",
+      "generated_at": "2026-05-28T12:35:47.704951Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 39,
+      "original": "<Hier mede versacht den Apostel het voorgaende dreygement, namelick, dat hy sulck gevoelen van haer niet en heeft, hoewel hy soo spreeckt, gelijck hy oock in dergelijcke waerschouwinge hier voren Cap. 6. vers 9. heeft gedaen.> Maer wy en zijn niet <Gr. der ontreckinge.> van de gene die haer ontrecken ten verderve, maer <Gr. des geloofs.> van de gene die gelooven tot <Ofte, verkrijginge, verwervinge.> behoudinge <D. van de saligheyt der ziele: gelijck Christus oock spreeckt Matth. 10.39.> der ziele.",
+      "modernized": "<Hiermee verzacht de Apostel de voorgaande dreiging, namelijk dat hij niet zo over hen denkt, hoewel hij zo spreekt, zoals hij ook in een dergelijke waarschuwing hiervoor in $Hb. 6:9$ heeft gedaan.> Maar wij zijn niet <Grieks: van de onttrekking.> van degenen die zich onttrekken tot verderf, maar <Grieks: van het geloof.> van degenen die geloven tot <Of, verkrijging, verwerving.> behoud <Dat is, van de zaligheid van de ziel; zoals Christus ook in $Mt. 10:39$ spreekt.> van de ziel.",
+      "source_text": "ἡμεῖς δὲ οὐκ ἐσμὲν ὑποστολῆς εἰς ἀπώλειαν, ἀλλὰ πίστεως εἰς περιποίησιν ψυχῆς.",
+      "generated_at": "2026-05-28T12:36:35.809297Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
