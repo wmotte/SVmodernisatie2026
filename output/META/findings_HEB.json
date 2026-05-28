@@ -1,0 +1,63 @@
+{
+  "book": "HEB",
+  "generated_at": "2026-05-28T18:02:08Z",
+  "min_freq": 2,
+  "issues": [
+    {
+      "id": "META-HEB-3-6-001",
+      "verse": 6,
+      "chapter": 3,
+      "category": "latinaat-window",
+      "severity": "soft",
+      "quote_modernized": "indien wij maar de vrijmoedigheid en de roem van de hoop tot het einde toe vast behouden.",
+      "hsv_quote": "als wij tenminste de vrijmoedigheid en de roem van de hoop tot het einde toe onwrikbaar vasthouden",
+      "rule_reference": "MODERNISATIE.md §2.3b / §2.7",
+      "explanation": "`vast behouden` is een SV-constructie die in modern Nederlands stroef leest; `vasthouden` behoudt de formele strekking zonder HSV-parafrase over te nemen.",
+      "proposed_fix": "indien wij maar de vrijmoedigheid en de roem van de hoop tot het einde toe vasthouden.",
+      "location": "hoofdtekst",
+      "status": "open"
+    },
+    {
+      "id": "META-HEB-3-14-001",
+      "verse": 14,
+      "chapter": 3,
+      "category": "latinaat-window",
+      "severity": "soft",
+      "quote_modernized": "als wij anders het begin van deze vaste grond tot het einde toe vast behouden:",
+      "hsv_quote": "als wij tenminste het beginsel van de vaste grond van het geloof tot het einde toe onwrikbaar vasthouden",
+      "rule_reference": "MODERNISATIE.md §2.3b / §2.7",
+      "explanation": "Dezelfde recurrente constructie `tot het einde toe vast behouden`; het moderne werkwoord `vasthouden` is productief en blijft dicht bij de SV.",
+      "proposed_fix": "als wij anders het begin van deze vaste grond tot het einde toe vasthouden:",
+      "location": "hoofdtekst",
+      "status": "open"
+    },
+    {
+      "id": "META-HEB-11-21-001",
+      "verse": 21,
+      "chapter": 11,
+      "category": "carryover",
+      "severity": "soft",
+      "quote_modernized": "Door het geloof heeft Jakob, toen hij stervende was, eenieder van de zonen van Jozef gezegend",
+      "hsv_quote": "Door het geloof heeft Jakob bij zijn sterven ieder van de zonen van Jozef gezegend",
+      "rule_reference": "MODERNISATIE.md §2.3 / §2.7",
+      "explanation": "`toen hij stervende was` is begrijpelijk, maar draagt nog zichtbaar de SV-participiumconstructie `stervende`; `bij zijn sterven` is compacter modern Nederlands zonder semantische verschuiving.",
+      "proposed_fix": "Door het geloof heeft Jakob bij zijn sterven eenieder van de zonen van Jozef gezegend",
+      "location": "hoofdtekst",
+      "status": "open"
+    },
+    {
+      "id": "META-HEB-11-22-001",
+      "verse": 22,
+      "chapter": 11,
+      "category": "carryover",
+      "severity": "soft",
+      "quote_modernized": "Door het geloof heeft Jozef, toen hij stervende was, melding gemaakt van de uittocht van de kinderen Israels",
+      "hsv_quote": "Door het geloof heeft Jozef bij zijn sterven melding gemaakt van de uittocht van de Israelieten",
+      "rule_reference": "MODERNISATIE.md §2.3 / §2.7",
+      "explanation": "Parallel aan vers 21: de SV-participiumvorm `stervende` kan natuurlijker als `bij zijn sterven` worden weergegeven.",
+      "proposed_fix": "Door het geloof heeft Jozef bij zijn sterven melding gemaakt van de uittocht van de kinderen Israels",
+      "location": "hoofdtekst",
+      "status": "open"
+    }
+  ]
+}

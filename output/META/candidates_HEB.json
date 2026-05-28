@@ -4,7 +4,16 @@
     1,
     2,
     3,
-    4
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
   ],
   "min_freq": 2,
   "kinds": [
@@ -13,14 +22,14 @@
     "latinaat-window",
     "cap-asym"
   ],
-  "total_patterns": 3,
+  "total_patterns": 12,
   "patterns_by_kind": {
     "cap-asym": [
       {
         "pattern_id": "p-0001",
         "kind": "cap-asym",
         "key": "engelen",
-        "frequency": 7,
+        "frequency": 8,
         "hsv_alternatives": [],
         "severity_hint": "soft",
         "occurrences": [
@@ -79,13 +88,319 @@
             "sv2026_excerpt": "Want werkelijk   hij neemt de Engelen niet aan, maar   hij neemt het zaad van Ab…",
             "hsv_excerpt": "Want werkelijk, Hij neemt de engelen niet aan, maar Hij neemt het nageslacht van Abraham aan.",
             "original_excerpt": ""
+          },
+          {
+            "book": "HEB",
+            "chapter": 13,
+            "verse": 2,
+            "sv2026_excerpt": "…nt hierdoor hebben sommigen   zonder het te weten Engelen als gasten ontvangen.",
+            "hsv_excerpt": "  Vergeet de gastvrijheid niet,   want hierdoor hebben sommigen zonder het te weten engelen onderdak geboden.",
+            "original_excerpt": ""
+          }
+        ]
+      },
+      {
+        "pattern_id": "p-0011",
+        "kind": "cap-asym",
+        "key": "heiligdom",
+        "frequency": 4,
+        "hsv_alternatives": [],
+        "severity_hint": "soft",
+        "occurrences": [
+          {
+            "book": "HEB",
+            "chapter": 9,
+            "verse": 8,
+            "sv2026_excerpt": "…ilige Geest dit aanduidde,   dat   de weg van het Heiligdom   nog niet openbaar gemaakt was,   zolan…",
+            "hsv_excerpt": "Daarmee maakte de Heilige Geest dit duidelijk   dat de weg naar het heiligdom nog niet openbaar gemaakt was, zolang de eerste tabernakel nog",
+            "original_excerpt": ""
+          },
+          {
+            "book": "HEB",
+            "chapter": 9,
+            "verse": 12,
+            "sv2026_excerpt": "…en,  , maar door zijn eigen bloed, eenmaal in het Heiligdom ingegaan,   nadat hij een eeuwige   verl…",
+            "hsv_excerpt": "Hij is niet door bloed van bokken en kalveren,   maar door Zijn eigen bloed eens en voor altijd binnengegaan in het heiligdom en heeft daard",
+            "original_excerpt": ""
+          },
+          {
+            "book": "HEB",
+            "chapter": 9,
+            "verse": 24,
+            "sv2026_excerpt": "Want Christus is niet ingegaan in het Heiligdom dat met handen gemaakt is, dat een tegen…",
+            "hsv_excerpt": "Want Christus is niet binnengegaan in het heiligdom dat met handen gemaakt is en dat een tegenbeeld is van het ware, maar in de hemel zelf, ",
+            "original_excerpt": ""
+          },
+          {
+            "book": "HEB",
+            "chapter": 9,
+            "verse": 25,
+            "sv2026_excerpt": "…pofferen,   zoals de Hogepriester elk jaar in het Heiligdom ingaat   met vreemd bloed:",
+            "hsv_excerpt": "en dat niet om Zichzelf dikwijls te offeren,   zoals de hogepriester elk jaar in het heiligdom binnengaat met bloed dat niet van hemzelf is.",
+            "original_excerpt": ""
+          }
+        ]
+      },
+      {
+        "pattern_id": "p-0010",
+        "kind": "cap-asym",
+        "key": "hogepriester",
+        "frequency": 3,
+        "hsv_alternatives": [],
+        "severity_hint": "soft",
+        "occurrences": [
+          {
+            "book": "HEB",
+            "chapter": 9,
+            "verse": 7,
+            "sv2026_excerpt": "  Maar   in de tweede tabernakel ging alleen de Hogepriester   eenmaal per jaar,   niet zonder blo…",
+            "hsv_excerpt": "  In het tweede deel echter ging alleen de hogepriester eenmaal per jaar binnen, niet zonder bloed, dat hij voor zichzelf offerde en voor de",
+            "original_excerpt": ""
+          },
+          {
+            "book": "HEB",
+            "chapter": 9,
+            "verse": 25,
+            "sv2026_excerpt": "…t hij zichzelf dikwijls zou opofferen,   zoals de Hogepriester elk jaar in het Heiligdom ingaat   me…",
+            "hsv_excerpt": "en dat niet om Zichzelf dikwijls te offeren,   zoals de hogepriester elk jaar in het heiligdom binnengaat met bloed dat niet van hemzelf is.",
+            "original_excerpt": ""
+          },
+          {
+            "book": "HEB",
+            "chapter": 13,
+            "verse": 11,
+            "sv2026_excerpt": "…de zonde in het heiligdom gedragen werd   door de Hogepriester,   daarvan werden de lichamen   verbr…",
+            "hsv_excerpt": "  Want van de dieren waarvan het bloed als verzoening voor de zonde door de hogepriester het heiligdom werd binnengedragen, werden de licham",
+            "original_excerpt": ""
+          }
+        ]
+      },
+      {
+        "pattern_id": "p-0005",
+        "kind": "cap-asym",
+        "key": "koning",
+        "frequency": 3,
+        "hsv_alternatives": [],
+        "severity_hint": "soft",
+        "occurrences": [
+          {
+            "book": "HEB",
+            "chapter": 7,
+            "verse": 1,
+            "sv2026_excerpt": "  Want   deze Melchizedek was Koning   van Salem, een Priester   van de Allerhoo…",
+            "hsv_excerpt": "  Deze Melchizedek was namelijk koning van Salem, een priester van de allerhoogste God. Hij ging Abraham tegemoet, toen die terugkeerde na h",
+            "original_excerpt": ""
+          },
+          {
+            "book": "HEB",
+            "chapter": 7,
+            "verse": 2,
+            "sv2026_excerpt": "…nde toedeelde:   die ten eerste vertaald wordt,   Koning van de gerechtigheid, en daarna ook was hij…",
+            "hsv_excerpt": "Aan hem gaf Abraham ook van alles het tiende deel . In de eerste plaats was hij – aldus de vertaling van zijn naam – koning van de gerechtig",
+            "original_excerpt": ""
+          },
+          {
+            "book": "HEB",
+            "chapter": 11,
+            "verse": 23,
+            "sv2026_excerpt": "…ndje mooi was; en   zij vreesden het gebod van de Koning niet.",
+            "hsv_excerpt": "  Door het geloof werd Mozes, toen hij geboren was, drie maanden lang door zijn ouders verborgen, omdat zij zagen dat het een heel bijzonder",
+            "original_excerpt": ""
+          }
+        ]
+      },
+      {
+        "pattern_id": "p-0007",
+        "kind": "cap-asym",
+        "key": "priesterschap",
+        "frequency": 3,
+        "hsv_alternatives": [],
+        "severity_hint": "soft",
+        "occurrences": [
+          {
+            "book": "HEB",
+            "chapter": 7,
+            "verse": 11,
+            "sv2026_excerpt": "…dien dan nu   de volkomenheid door het Levitische Priesterschap was: (  want onder hetzelfde heeft h…",
+            "hsv_excerpt": "  Als dan door het Levitische priesterschap de volmaaktheid bereikt had kunnen worden – want onder dit priesterschap had het volk de wet ont",
+            "original_excerpt": ""
+          },
+          {
+            "book": "HEB",
+            "chapter": 7,
+            "verse": 12,
+            "sv2026_excerpt": "Want als het Priesterschap veranderd wordt, gebeurt er ook nood…",
+            "hsv_excerpt": "Als het priesterschap verandert, vindt er immers ook noodzakelijkerwijs een verandering van de wet plaats.",
+            "original_excerpt": ""
+          },
+          {
+            "book": "HEB",
+            "chapter": 7,
+            "verse": 14,
+            "sv2026_excerpt": "… welke stam Mozes niets gesproken heeft   van het Priesterschap.",
+            "hsv_excerpt": "Het is immers overduidelijk   dat onze Heere van Juda afstamt, over welke stam Mozes niets gezegd heeft in verband met het priesterschap.",
+            "original_excerpt": ""
+          }
+        ]
+      },
+      {
+        "pattern_id": "p-0009",
+        "kind": "cap-asym",
+        "key": "ark",
+        "frequency": 2,
+        "hsv_alternatives": [],
+        "severity_hint": "soft",
+        "occurrences": [
+          {
+            "book": "HEB",
+            "chapter": 9,
+            "verse": 4,
+            "sv2026_excerpt": "Die een gouden   wierookvat had, en   de Ark van het verbond, rondom met goud overdekt,   w…",
+            "hsv_excerpt": "met een gouden wierookvat en   de ark van het verbond, die geheel met goud overtrokken was. In deze ark lagen   de gouden kruik met het mann",
+            "original_excerpt": ""
+          },
+          {
+            "book": "HEB",
+            "chapter": 11,
+            "verse": 7,
+            "sv2026_excerpt": "…iet gezien werden, en   bevreesd geworden was, de Ark toebereid tot behoudenis van zijn huisgezin; d…",
+            "hsv_excerpt": "Door het geloof heeft   Noach, toen hij een aanwijzing van God ontvangen had van de dingen die nog niet te zien waren, uit ontzag voor God d",
+            "original_excerpt": ""
+          }
+        ]
+      },
+      {
+        "pattern_id": "p-0008",
+        "kind": "cap-asym",
+        "key": "heilige",
+        "frequency": 2,
+        "hsv_alternatives": [],
+        "severity_hint": "soft",
+        "occurrences": [
+          {
+            "book": "HEB",
+            "chapter": 9,
+            "verse": 2,
+            "sv2026_excerpt": "…elaar, en de tafel, en     de toonbroden, die het Heilige genoemd wordt:",
+            "hsv_excerpt": "  Er was immers een tabernakel ingericht en in het eerste gedeelte daarvan was de kandelaar en de tafel met   de toonbroden. Dat werd het he",
+            "original_excerpt": ""
+          },
+          {
+            "book": "HEB",
+            "chapter": 9,
+            "verse": 3,
+            "sv2026_excerpt": "…eede voorhangsel was   de tabernakel, genoemd het Heilige der heiligen,",
+            "hsv_excerpt": "Maar achter het tweede voorhangsel was het gedeelte van de tabernakel dat het heilige der heiligen werd genoemd,",
+            "original_excerpt": ""
+          }
+        ]
+      },
+      {
+        "pattern_id": "p-0006",
+        "kind": "cap-asym",
+        "key": "priester",
+        "frequency": 2,
+        "hsv_alternatives": [],
+        "severity_hint": "soft",
+        "occurrences": [
+          {
+            "book": "HEB",
+            "chapter": 7,
+            "verse": 1,
+            "sv2026_excerpt": "…nt   deze Melchizedek was Koning   van Salem, een Priester   van de Allerhoogste God, die Abraham te…",
+            "hsv_excerpt": "  Deze Melchizedek was namelijk koning van Salem, een priester van de allerhoogste God. Hij ging Abraham tegemoet, toen die terugkeerde na h",
+            "original_excerpt": ""
+          },
+          {
+            "book": "HEB",
+            "chapter": 7,
+            "verse": 3,
+            "sv2026_excerpt": "…gelijkvormig gemaakt aan de Zoon Gods, blijft hij Priester in eeuwigheid.",
+            "hsv_excerpt": "Zonder vader, zonder moeder, zonder stamboom kent hij geen begin van dagen en ook geen levenseinde, maar aan de Zoon van God gelijkgemaakt, ",
+            "original_excerpt": ""
+          }
+        ]
+      }
+    ],
+    "carryover": [
+      {
+        "pattern_id": "p-0002",
+        "kind": "carryover",
+        "key": "fol",
+        "frequency": 3,
+        "hsv_alternatives": [
+          "elk",
+          "machte",
+          "nageslacht",
+          "zelfs"
+        ],
+        "severity_hint": "soft",
+        "occurrences": [
+          {
+            "book": "HEB",
+            "chapter": 3,
+            "verse": 4,
+            "sv2026_excerpt": "…:   maar   die dit alles gebouwd heeft,   is God. fol.129r",
+            "hsv_excerpt": "Immers, elk huis wordt door iemand gebouwd,   maar Hij Die dit alles gebouwd heeft, is God.",
+            "original_excerpt": "Want een yeder huys wordt van yemant gebouwt:   maer   die dit alles gebouwt heeft,   is Godt. fol.129r"
+          },
+          {
+            "book": "HEB",
+            "chapter": 7,
+            "verse": 9,
+            "sv2026_excerpt": "…ie tienden neemt,   door Abraham tienden gegeven: fol.131r",
+            "hsv_excerpt": "En – om zo te zeggen – ook Levi, die tienden neemt, heeft door Abraham tienden gegeven.",
+            "original_excerpt": "Ende,   om soo te spreken, oock Levi, die tienden neemt, heeft   door Abraham tiende gegeven: fol.131r"
+          },
+          {
+            "book": "HEB",
+            "chapter": 11,
+            "verse": 18,
+            "sv2026_excerpt": "…od machtig was hem ook uit de doden op te wekken: fol.134r",
+            "hsv_excerpt": "Tegen hem was gezegd:   Dat van Izak   zal uw nageslacht genoemd worden. Hij overlegde bij zichzelf dat God bij machte w",
+            "original_excerpt": "(  Tot den welcken geseght was,   In Isaac sal u het zaet genaemt worden)   overleggende dat Godt machtigh was hem oock "
+          }
+        ]
+      },
+      {
+        "pattern_id": "p-0012",
+        "kind": "carryover",
+        "key": "stervende",
+        "frequency": 2,
+        "hsv_alternatives": [
+          "aanbidding",
+          "boog",
+          "neer",
+          "uiteinde",
+          "gebeente",
+          "israëlieten",
+          "opdracht",
+          "verband"
+        ],
+        "severity_hint": "soft",
+        "occurrences": [
+          {
+            "book": "HEB",
+            "chapter": 11,
+            "verse": 21,
+            "sv2026_excerpt": "  Door het geloof heeft Jakob, toen hij stervende was,   eenieder van de zonen van Jozef g…",
+            "hsv_excerpt": "  Door het geloof heeft Jakob bij zijn sterven ieder van de zonen van Jozef gezegend   en hij boog zich in aanbidding ne",
+            "original_excerpt": "  Door het geloove heeft Iacob   stervende een yegelick der sonen Iosephs gezegent,   ende   heeft aengebeden lenende   "
+          },
+          {
+            "book": "HEB",
+            "chapter": 11,
+            "verse": 22,
+            "sv2026_excerpt": "  Door het geloof heeft Jozef, toen hij stervende was,   melding gemaakt van de uittocht v…",
+            "hsv_excerpt": "  Door het geloof heeft Jozef bij zijn sterven melding gemaakt van de uittocht van de Israëlieten en heeft hij een opdra",
+            "original_excerpt": "  Door het geloove heeft Ioseph stervende   gemeldet van den uytgangh der kinderen Israëls, ende heeft bevel gegeven   v"
           }
         ]
       }
     ],
     "latinaat-window": [
       {
-        "pattern_id": "p-0002",
+        "pattern_id": "p-0003",
         "kind": "latinaat-window",
         "key": "einde toe vast behouden",
         "frequency": 2,
@@ -111,7 +426,7 @@
         ]
       },
       {
-        "pattern_id": "p-0003",
+        "pattern_id": "p-0004",
         "kind": "latinaat-window",
         "key": "het einde toe vast behouden",
         "frequency": 2,
