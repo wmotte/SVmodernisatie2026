@@ -142,6 +142,27 @@
       "generated_at": "2026-05-27T17:56:23.716493Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 16,
+      "original": "$Actor. cap.13. vers 38. Rom. 3.28. ende 8.3. Hebr. 7.18.$ [Doch] <Dat is, om dat wy het sekerlick weten.> wetende dat <Wie, ofte hoe heyligh hy oock soude mogen zijn.> de mensche niet <Wat het zy gerechtveerdight te worden, siet in de aenteeckeninge op Rom. cap. 3. vers 20.> gerechtveerdight en wort uyt de wercken <Namelick, Mosis, soo der zeden als der ceremonien.> der wet, <Ofte, dan, gelijck Matth. cap. 12. vers 4. 1.Corinth. cap. 7. vers 17. Galat. cap. 1. vers 7. Apoc. cap. 21. vers 27. D. alleen door den geloove, gelijck de volgende woorden dat klaerlick mede brengen.> maer <Dat is, als wy met een oprecht ende levende geloove de gerechtigheyt Christi aennemen, Rom. cap. 3. versen 24, 28.> door ’t geloove Iesu Christi, <D. dit is de oorsake waerom wy Apostelen Christum met waren geloove aengenomen hebben. Want hadden wy door de wet konnen gerechtveerdight worden, soo en souden wy niet behoeft hebben tot Christum te gaen.> soo hebben wy oock in Christum Iesum gelooft, op dat wy souden gerechtveerdight worden uyt het geloove Christi, ende niet uyt de wercken der wet: $Rom. 3.20. Gal. 3.11.$ <Dit bewijs is genomen uyt de Schrifture des Ouden Testaments, Psalm 143.2.> daerom dat uyt de wercken der wet <Gr. niet en sal gerechtveerdight worden alle vleesch, D. geen vleesch. Een Hebreeusche wijse van spreken: gelijck Psalm 143.2. Rom. 3.20.> geen <D. mensche. Siet Genes. 6. vers 12. Iesa. 40.6.> vleesch en sal gerechtveerdight worden.",
+      "modernized": "$Hd. 13:38; Rm. 3:28; 8:3; Hb. 7:18$ [Maar] <Dat is, omdat wij het zeker weten.> omdat wij weten dat <Wie, of hoe heilig hij ook zou mogen zijn.> de mens niet <Wat het is gerechtvaardigd te worden, zie in de aantekening op $Rm. 3:20$.> gerechtvaardigd wordt uit de werken <Namelijk, van Mozes, zowel van de zeden als van de ceremoniën.> van de wet, <Of, dan, gelijk $Mt. 12:4; 1Kor. 7:17; Gl. 1:7; Op. 21:27$ Dat is, alleen door het geloof, gelijk de volgende woorden dat duidelijk meebrengen.> maar <Dat is, als wij met een oprecht en levend geloof de gerechtigheid van Christus aannemen, $Rm. 3:24,28$.> door het geloof in Jezus Christus, <Dat is, dit is de oorzaak waarom wij Apostelen Christus met waar geloof aangenomen hebben. Want hadden wij door de wet gerechtvaardigd kunnen worden, zo zouden wij niet hoeven tot Christus te gaan.> zo hebben wij ook in Christus Jezus geloofd, opdat wij gerechtvaardigd zouden worden uit het geloof van Christus, en niet uit de werken van de wet: $Rm. 3:20; Gl. 3:11$ <Dit bewijs is genomen uit de Schrift van het Oude Testament, $Ps. 143:2$.> daarom dat uit de werken van de wet <Grieks: niet zal gerechtvaardigd worden alle vlees, dat is, geen vlees. Een Hebreeuwse wijze van spreken: gelijk $Ps. 143:2; Rm. 3:20$.> geen <Dat is, mens. Zie $Gn. 6:12; Js. 40:6$.> vlees zal gerechtvaardigd worden.",
+      "source_text": "εἰδότες ὅτι οὐ δικαιοῦται ἄνθρωπος ἐξ ἔργων νόμου, ἐὰν μὴ διὰ πίστεως Ἰησοῦ Χριστοῦ, καὶ ἡμεῖς εἰς Χριστὸν Ἰησοῦν ἐπιστεύσαμεν, ἵνα δικαιωθῶμεν ἐκ πίστεως Χριστοῦ, καὶ οὐκ ἐξ ἔργων νόμου· διότι οὐ δικαιωθήσεται ἐξ ἔργων νόμου πᾶσα σάρξ.",
+      "generated_at": "2026-05-27T18:00:20.047719Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "subject": "[Maar] in vierkante haken",
+          "context": "versopening",
+          "choice": "[Doch] gemoderniseerd naar [Maar] binnen de haken",
+          "alternatives": [
+            "[Doch] behouden"
+          ],
+          "reason": "Doch is een drempel-archaisme (carryover-lijst); de vierkante haak markeert een SV-toevoeging, de inhoud wordt binnen de haak gemoderniseerd."
+        }
+      ]
     }
   ]
 }

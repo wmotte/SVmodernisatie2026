@@ -5,7 +5,13 @@ set -euo pipefail
 
 cd "$(dirname "$0")"
 
-BOOKS=(LUK MRK ROM 1CO 2CO 2TH 1PE 2PE 1TI 2TI TIT COL 1JN 2JN 3JN JUD PHM)
+BOOKS=()
+while IFS= read -r dir; do
+  book="$(basename "${dir}")"
+  if compgen -G "../output/${book}/${book}.*.json" > /dev/null; then
+    BOOKS+=("${book}")
+  fi
+done < <(find ../output -mindepth 1 -maxdepth 1 -type d | sort)
 
 for book in "${BOOKS[@]}"; do
   echo "=== Building ${book} ==="

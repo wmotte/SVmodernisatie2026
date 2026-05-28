@@ -1,7 +1,7 @@
 {
   "book": "PHP",
   "chapter": 4,
-  "reviewed_at": "2026-05-27T15:44:09+00:00",
+  "reviewed_at": "2026-05-27T15:46:03+00:00",
   "passes": [
     {
       "pass": 1,
@@ -19,6 +19,12 @@
         "PHP-4-18-001: verified",
         "PHP-4-20-001: rebuttal verified"
       ]
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-05-27T15:46:03+00:00",
+      "mode": "verify",
+      "actions": []
     }
   ],
   "issues": [

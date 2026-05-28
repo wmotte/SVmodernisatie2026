@@ -1,0 +1,56 @@
+{
+  "book": "1JN",
+  "chapters": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "min_freq": 2,
+  "kinds": [
+    "carryover",
+    "fossiel-lidwoord",
+    "latinaat-window",
+    "cap-asym"
+  ],
+  "total_patterns": 1,
+  "patterns_by_kind": {
+    "cap-asym": [
+      {
+        "pattern_id": "p-0001",
+        "kind": "cap-asym",
+        "key": "antichrist",
+        "frequency": 3,
+        "hsv_alternatives": [],
+        "severity_hint": "soft",
+        "occurrences": [
+          {
+            "book": "1JN",
+            "chapter": 2,
+            "verse": 18,
+            "sv2026_excerpt": "…t laatste uur:   en zoals u gehoord hebt dat   de Antichrist   komt, zo zijn ook nu   vele Antichris…",
+            "hsv_excerpt": "Kinderen, het is het laatste uur;   en zoals u gehoord hebt dat de antichrist eraan komt, zijn er ook nu al veel antichristen gekomen, waaru",
+            "original_excerpt": ""
+          },
+          {
+            "book": "1JN",
+            "chapter": 2,
+            "verse": 22,
+            "sv2026_excerpt": "…e loochent dat Jezus   is de Christus? Deze is de Antichrist,   die de Vader en   de Zoon loochent.",
+            "hsv_excerpt": "Wie is de leugenaar anders dan hij die loochent dat Jezus de Christus is? Dat is de antichrist, die de Vader en de Zoon loochent.",
+            "original_excerpt": ""
+          },
+          {
+            "book": "1JN",
+            "chapter": 4,
+            "verse": 3,
+            "sv2026_excerpt": "… is niet uit God:   maar dit is   de geest van de Antichrist,   welke geest u gehoord hebt dat komen…",
+            "hsv_excerpt": "en elke geest die niet belijdt dat Jezus Christus in het vlees gekomen is, is niet uit God;   maar dat is de geest van de antichrist,   waar",
+            "original_excerpt": ""
+          }
+        ]
+      }
+    ]
+  }
+}
