@@ -771,13 +771,17 @@ def _validate_verse(orig: dict, mod: dict) -> dict:
                 )
 
     # 5. Archaïsme-blacklist
+    hoofdtekst = re.sub(r"<[^>]+>", " ", mod_text)
+    kanttekeningen = " ".join(_bracket_contents(mod_text, "<", ">"))
     for pattern in ARCHAISM_BLACKLIST:
-        # Alleen in de hoofdtekst (buiten kanttekeningen) checken — kanttekeningen
-        # mogen citaten/oude vormen bevatten.
-        hoofdtekst = re.sub(r"<[^>]+>", "", mod_text)
         m = re.search(pattern, hoofdtekst, flags=re.IGNORECASE)
         if m:
             issues.append(f"archaïsme: '{m.group(0)}' (regex={pattern}) in moderne hoofdtekst")
+        m_kant = re.search(pattern, kanttekeningen, flags=re.IGNORECASE)
+        if m_kant:
+            issues.append(
+                f"archaïsme: '{m_kant.group(0)}' (regex={pattern}) in moderne kanttekening"
+            )
 
     # 5a. Em-dash (U+2014) verboden — NL-conventie gebruikt en-dash (U+2013, '–').
     if "—" in mod_text:
