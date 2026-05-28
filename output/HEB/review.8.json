@@ -1,13 +1,28 @@
 {
   "book": "HEB",
   "chapter": 8,
-  "reviewed_at": "2026-05-28T10:20:23+00:00",
+  "reviewed_at": "2026-05-28T10:22:24+00:00",
   "passes": [
     {
       "pass": 1,
       "ran_at": "2026-05-28T10:20:23+00:00",
       "mode": "scan",
       "issues_total": 8
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-28T10:22:24+00:00",
+      "mode": "verify",
+      "actions": [
+        "HEB-8-2-001: rebuttal verified",
+        "HEB-8-2-002: rebuttal verified",
+        "HEB-8-2-003: rebuttal verified",
+        "HEB-8-2-004: rebuttal verified",
+        "HEB-8-3-001: rebuttal verified",
+        "HEB-8-4-001: rebuttal verified",
+        "HEB-8-4-002: rebuttal verified",
+        "HEB-8-7-001: rebuttal verified"
+      ]
     }
   ],
   "issues": [
@@ -21,8 +36,9 @@
       "proposed_fix": "van de heiligen",
       "location": "kanttekening",
       "id": "HEB-8-2-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] 'Heilige der heiligen' is een gefossiliseerde Hebraïsme-calque voor קדש הקדשים (Ex. 26:33; Hb. 9:3) — staat ongewijzigd in HSV en NBG51 als technische benaming voor het allerheiligste deel van de tabernakel/tempel (vgl. ARCHAISMEN.md §2.7-drempel: vakterm in modern bijbels register). NBV21 vertaalt 'het allerheiligste'; wij houden de SV-eigenheid zoals MODERNISATIE.md §2.1 vraagt en behouden de Hebraïsme-vorm."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] 'Heilige der heiligen' is een gefossiliseerde Hebraïsme-calque voor קדש הקדשים (Ex. 26:33; Hb. 9:3) — staat ongewijzigd in HSV en NBG51 als technische benaming voor het allerheiligste deel van de tabernakel/tempel (vgl. ARCHAISMEN.md §2.7-drempel: vakterm in modern bijbels register). NBV21 vertaalt 'het allerheiligste'; wij houden de SV-eigenheid zoals MODERNISATIE.md §2.1 vraagt en behouden de Hebraïsme-vorm.",
+      "verified_at": "2026-05-28T10:22:24+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -34,8 +50,9 @@
       "proposed_fix": "van de heiligen",
       "location": "kanttekening",
       "id": "HEB-8-2-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] 'Heilige der heiligen' is een gefossiliseerde Hebraïsme-calque voor קדש הקדשים (Ex. 26:33; Hb. 9:3) — staat ongewijzigd in HSV en NBG51 als technische benaming voor het allerheiligste deel van de tabernakel/tempel (vgl. ARCHAISMEN.md §2.7-drempel: vakterm in modern bijbels register). NBV21 vertaalt 'het allerheiligste'; wij houden de SV-eigenheid zoals MODERNISATIE.md §2.1 vraagt en behouden de Hebraïsme-vorm."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] 'Heilige der heiligen' is een gefossiliseerde Hebraïsme-calque voor קדש הקדשים (Ex. 26:33; Hb. 9:3) — staat ongewijzigd in HSV en NBG51 als technische benaming voor het allerheiligste deel van de tabernakel/tempel (vgl. ARCHAISMEN.md §2.7-drempel: vakterm in modern bijbels register). NBV21 vertaalt 'het allerheiligste'; wij houden de SV-eigenheid zoals MODERNISATIE.md §2.1 vraagt en behouden de Hebraïsme-vorm.",
+      "verified_at": "2026-05-28T10:22:24+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -47,8 +64,9 @@
       "proposed_fix": "van de heiligen",
       "location": "kanttekening",
       "id": "HEB-8-2-003",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] 'Heilige der heiligen' is een gefossiliseerde Hebraïsme-calque voor קדש הקדשים (Ex. 26:33; Hb. 9:3) — staat ongewijzigd in HSV en NBG51 als technische benaming voor het allerheiligste deel van de tabernakel/tempel (vgl. ARCHAISMEN.md §2.7-drempel: vakterm in modern bijbels register). NBV21 vertaalt 'het allerheiligste'; wij houden de SV-eigenheid zoals MODERNISATIE.md §2.1 vraagt en behouden de Hebraïsme-vorm."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] 'Heilige der heiligen' is een gefossiliseerde Hebraïsme-calque voor קדש הקדשים (Ex. 26:33; Hb. 9:3) — staat ongewijzigd in HSV en NBG51 als technische benaming voor het allerheiligste deel van de tabernakel/tempel (vgl. ARCHAISMEN.md §2.7-drempel: vakterm in modern bijbels register). NBV21 vertaalt 'het allerheiligste'; wij houden de SV-eigenheid zoals MODERNISATIE.md §2.1 vraagt en behouden de Hebraïsme-vorm.",
+      "verified_at": "2026-05-28T10:22:24+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -60,8 +78,9 @@
       "proposed_fix": "van de heiligen",
       "location": "kanttekening",
       "id": "HEB-8-2-004",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] 'Heilige der heiligen' is een gefossiliseerde Hebraïsme-calque voor קדש הקדשים (Ex. 26:33; Hb. 9:3) — staat ongewijzigd in HSV en NBG51 als technische benaming voor het allerheiligste deel van de tabernakel/tempel (vgl. ARCHAISMEN.md §2.7-drempel: vakterm in modern bijbels register). NBV21 vertaalt 'het allerheiligste'; wij houden de SV-eigenheid zoals MODERNISATIE.md §2.1 vraagt en behouden de Hebraïsme-vorm."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] 'Heilige der heiligen' is een gefossiliseerde Hebraïsme-calque voor קדש הקדשים (Ex. 26:33; Hb. 9:3) — staat ongewijzigd in HSV en NBG51 als technische benaming voor het allerheiligste deel van de tabernakel/tempel (vgl. ARCHAISMEN.md §2.7-drempel: vakterm in modern bijbels register). NBV21 vertaalt 'het allerheiligste'; wij houden de SV-eigenheid zoals MODERNISATIE.md §2.1 vraagt en behouden de Hebraïsme-vorm.",
+      "verified_at": "2026-05-28T10:22:24+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -73,8 +92,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "HEB-8-3-001",
-      "status": "rebutted",
-      "rebuttal": "KANTTEKENINGEN.md verbiedt redundantie vooral waar een alternatief uit de noot de hoofdtekstkeuze dubbel vertaalt. In HEB 8:3 motiveert de noot de priesterlijke noodzaak van het offer bij 'moest hebben dat hij zou offeren'; zij geeft geen concurrerend alternatief en bewaart de argumentatieve SV-kanttekening bij het Griekse offermotief."
+      "status": "verified",
+      "rebuttal": "KANTTEKENINGEN.md verbiedt redundantie vooral waar een alternatief uit de noot de hoofdtekstkeuze dubbel vertaalt. In HEB 8:3 motiveert de noot de priesterlijke noodzaak van het offer bij 'moest hebben dat hij zou offeren'; zij geeft geen concurrerend alternatief en bewaart de argumentatieve SV-kanttekening bij het Griekse offermotief.",
+      "verified_at": "2026-05-28T10:22:24+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -86,8 +106,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "HEB-8-4-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-28T10:22:24+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -99,8 +120,9 @@
       "proposed_fix": "van de heiligen",
       "location": "kanttekening",
       "id": "HEB-8-4-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] 'Heilige der heiligen' is een gefossiliseerde Hebraïsme-calque voor קדש הקדשים (Ex. 26:33; Hb. 9:3) — staat ongewijzigd in HSV en NBG51 als technische benaming voor het allerheiligste deel van de tabernakel/tempel (vgl. ARCHAISMEN.md §2.7-drempel: vakterm in modern bijbels register). NBV21 vertaalt 'het allerheiligste'; wij houden de SV-eigenheid zoals MODERNISATIE.md §2.1 vraagt en behouden de Hebraïsme-vorm."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] 'Heilige der heiligen' is een gefossiliseerde Hebraïsme-calque voor קדש הקדשים (Ex. 26:33; Hb. 9:3) — staat ongewijzigd in HSV en NBG51 als technische benaming voor het allerheiligste deel van de tabernakel/tempel (vgl. ARCHAISMEN.md §2.7-drempel: vakterm in modern bijbels register). NBV21 vertaalt 'het allerheiligste'; wij houden de SV-eigenheid zoals MODERNISATIE.md §2.1 vraagt en behouden de Hebraïsme-vorm.",
+      "verified_at": "2026-05-28T10:22:24+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -112,8 +134,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "HEB-8-7-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-28T10:22:24+00:00"
     }
   ]
 }
