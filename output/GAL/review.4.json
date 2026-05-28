@@ -1,0 +1,124 @@
+{
+  "book": "GAL",
+  "chapter": 4,
+  "reviewed_at": "2026-05-28T20:40:29+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-28T20:35:39+00:00",
+      "mode": "scan",
+      "issues_total": 6
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-28T20:40:29+00:00",
+      "mode": "verify",
+      "actions": [
+        "GAL-4-7-001: rebuttal verified",
+        "GAL-4-8-001: rebuttal verified",
+        "GAL-4-9-001: rebuttal verified",
+        "GAL-4-15-001: verified",
+        "GAL-4-19-001: verified",
+        "GAL-4-21-001: rebuttal verified",
+        "GAL-4-4-001: verified"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 7,
+      "severity": "soft",
+      "quote_modernized": "…r   een dienstknecht, maar een zoon; en indien u   een zoon bent, zo bent u ook …",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "GAL-4-7-001",
+      "status": "verified",
+      "rebuttal": "'indien' is hier een expliciete voorwaarde bij Grieks εἰ δὲ υἱός ('als/indien u een zoon bent'). MODERNISATIE.md §2.7 laat herkenbare, wat plechtige woorden staan wanneer ze productief en niet verwarrend zijn; in deze juridische-erfrechtelijke redenering is 'indien' modern formeel Nederlands en geen drempel-archaïsme.",
+      "verified_at": "2026-05-28T20:40:29+00:00"
+    },
+    {
+      "category": "§2.3 finiet participium",
+      "verse": 8,
+      "severity": "soft",
+      "quote_modernized": "Maar toen   u God niet kende,   diende u   degenen     die van …",
+      "rule_reference": "MODERNISATIE.md §2.3",
+      "explanation": "'kende' — verdacht -ende-woord in adverbial / clause-final positie. Ontvouw naar finiete bijzin ('en X', 'terwijl X', 'toen X').",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "GAL-4-8-001",
+      "status": "verified",
+      "rebuttal": "'kende' is hier het finiete werkwoord in de bijzin 'toen u God niet kende', niet een -ende-participium. Het Griekse οὐκ εἰδότες Θεόν is in de modernisatie al ontvouwd tot een temporele bijzin, precies conform MODERNISATIE.md §2.3; de scanner valt op de homografische uitgang van de verleden tijd.",
+      "verified_at": "2026-05-28T20:40:29+00:00"
+    },
+    {
+      "category": "kanttekening-luiheid (§2.3 in <…>)",
+      "verse": 9,
+      "severity": "hard",
+      "quote_modernized": "…$. Namelijk, zoals u tevoren de afgoden diende. Of, van bovenaf. Dat is, u tot d…",
+      "rule_reference": "KANTTEKENINGEN.md + §2.3",
+      "explanation": "'diende' binnen kanttekening — verdacht -ende-woord in adverbial / clause-final positie. §2.3 geldt ook in <…>; ontvouw naar finiete bijzin.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "GAL-4-9-001",
+      "status": "verified",
+      "rebuttal": "'diende' staat in de kanttekening als finiete verleden tijd bij 'u' in 'zoals u tevoren de afgoden diende'; het is geen adverbiaal participium. KANTTEKENINGEN.md en MODERNISATIE.md §2.3 verbieden Latinate participia in <...>, maar deze bijzin is al finiet en versspecifiek gekoppeld aan de eerdere heidense afgodendienst uit vers 8-9.",
+      "verified_at": "2026-05-28T20:40:29+00:00"
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 15,
+      "severity": "soft",
+      "quote_modernized": "hoe gelukkig achtte u",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'hoe gelukkig achtte u' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "GAL-4-15-001",
+      "status": "verified",
+      "verified_at": "2026-05-28T20:40:29+00:00"
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 19,
+      "severity": "soft",
+      "quote_modernized": "wie ik opnieuw in",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'wie ik opnieuw in' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "GAL-4-19-001",
+      "status": "verified",
+      "verified_at": "2026-05-28T20:40:29+00:00"
+    },
+    {
+      "category": "voornaamwoordelijk bijwoord gesplitst",
+      "verse": 21,
+      "severity": "hard",
+      "quote_modernized": "…rzen bewezen wordt. Het woord wet wordt hier in tweeërlei betekenis genomen, zoa…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'hier in' — SV-gesplitst voornaamwoordelijk bijwoord. Modern Nederlands voegt samen: 'hierin' (bv. daarin, waarmee, hierop).",
+      "proposed_fix": "hierin",
+      "location": "kanttekening",
+      "id": "GAL-4-21-001",
+      "status": "verified",
+      "rebuttal": "In 'Het woord wet wordt hier in tweeërlei betekenis genomen' hoort 'in' bij de vaste voorzetselgroep 'in tweeërlei betekenis', terwijl 'hier' de lokale tekstplaats aanduidt. ARCHAISMEN.md ziet op echte gesplitste voornaamwoordelijke bijwoorden ('daar door' -> 'daardoor'); samenvoegen tot 'hierin tweeërlei betekenis' zou grammaticaal onjuist zijn.",
+      "verified_at": "2026-05-28T20:40:29+00:00"
+    },
+    {
+      "category": "§2.3/§2.7 latinaat-rest",
+      "verse": 4,
+      "severity": "hard",
+      "quote_modernized": "zijn Zoon uitgezonden, <Anders: geboren.> geworden <Dat is, uit het vlees en bloed van de Maagd Maria...> uit een vrouw, $Mt. 5:17$ geworden <Dat is, Christus heeft zichzelf...> onder de wet",
+      "rule_reference": "MODERNISATIE.md §2.3 en §2.7",
+      "explanation": "De dubbele constructie 'geworden uit een vrouw / geworden onder de wet' is een onmoderne calque van de participia γενόμενον ἐκ γυναικός, γενόμενον ὑπὸ νόμον. §2.3 vereist ontvouwing van zulke Latinate participiumresten wanneer de Nederlandse syntaxis stug of onduidelijk wordt; §2.7 laat dit niet staan als louter plechtige woordkeus.",
+      "proposed_fix": "zijn Zoon uitgezonden, <Anders: geboren.> geboren <Dat is, uit het vlees en bloed van de Maagd Maria...> uit een vrouw, $Mt. 5:17$ onder de wet gesteld <Dat is, Christus heeft zichzelf...>",
+      "location": "hoofdtekst",
+      "id": "GAL-4-4-001",
+      "status": "verified",
+      "verified_at": "2026-05-28T20:40:29+00:00"
+    }
+  ]
+}
