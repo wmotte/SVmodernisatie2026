@@ -57,19 +57,22 @@ Stappen — in volgorde:
    reikwijdteverwijzing. Bij ontbrekende concordantie-DB of HSV-bestand:
    rapporteer dat en ga door op de overige categorieën — geen blokker.
 
-5. Regelbestandwijzigingen — pas toe volgens deze tabel:
+5. Regelbestandwijzigingen — pas toe volgens deze tabel. Alle regeldata
+   staat gecentraliseerd in `scripts/rules_data.py` / `scripts/stoplist.txt`
+   (zie `REGELBESTANDEN.md`); bewerk de bronlocatie, niet de linter/validator
+   zelf (die importeren de lijsten):
 
    | Bevinding | Actie |
    |---|---|
-   | Lint-carryovers-kandidaat is gewoon Nederlands / eigennaam / theol. term | `STOPLIST` in `scripts/lint_carryovers.py` aanvullen |
-   | Lint-carryovers-kandidaat is écht archaïsch (nog niet gemoderniseerd) | Vers corrigeren + woord op `validate.py`-blacklist + `ARCHAISMEN.md` + terugwerkende linter draaien |
+   | Lint-carryovers-kandidaat is gewoon Nederlands / eigennaam / theol. term | Eén regel toevoegen aan `scripts/stoplist.txt` (de STOPLIST) |
+   | Lint-carryovers-kandidaat is écht archaïsch (nog niet gemoderniseerd) | Vers corrigeren + woord in `ARCHAISM_BLACKLIST` (`scripts/rules_data.py`) + `ARCHAISMEN.md` + terugwerkende linter draaien |
    | Lint-archaismen vindt issue in eerder samengevoegd vers (na blacklist-uitbreiding) | Hermodernisatie van dat vers in deze batch meenemen |
    | Lint-false-friends-match in SV-betekenis bewust gebruikt (bv. `menen` = van mening zijn) | Geen actie — beoordelingsprompt was correct |
-   | Lint-false-friends-match is écht verschoven (`ontroerd`, `dagorde`) | Vers corrigeren + entry op false-friends-tabel in `ARCHAISMEN.md` |
-   | Semantic-review-bevinding in `false_friends`/`idiomatic` bevestigt een echte misser | Vers corrigeren; bij patroon ook regelbestandupdate (false-friends-tabel of `lint_false_friends` `FALSE_FRIENDS`-lijst) |
+   | Lint-false-friends-match is écht verschoven (`ontroerd`, `dagorde`) | Vers corrigeren + entry in `FALSE_FRIENDS` (`scripts/rules_data.py`) + False-friends-tabel in `ARCHAISMEN.md` (synchroon) |
+   | Semantic-review-bevinding in `false_friends`/`idiomatic` bevestigt een echte misser | Vers corrigeren; bij patroon ook `FALSE_FRIENDS` in `scripts/rules_data.py` + `ARCHAISMEN.md` |
    | Semantic-review-bevinding in `concordantie` over een bewuste keuze (bv. false-friendcorrectie die SV-concordantie breekt) | Geen actie — in `notes` documenteren als afwijking |
-   | HSV-spiegelbevinding 4a (taalfout / lexicale fout / semantische misser in onze modernisatie, onafhankelijk bevestigd tegen SV1657/Grieks) | Vers corrigeren; bij ≥2× herhaling ook `ARCHAISMEN.md` False-friends-tabel + `FALSE_FRIENDS` in `lint_false_friends.py`, of `MODERNISATIE.md §2.7` voor grammaticale patronen |
-   | HSV-spiegelbevinding 4b (drempel-archaïsme dat HSV modern oplost binnen reikwijdte) | Vers corrigeren; bij ≥2× herhaling ook `validate.py`-blacklist + `ARCHAISMEN.md`-archaïsme-tabel + `lint_archaismen.py lint --root output/` terugwerkende linter |
+   | HSV-spiegelbevinding 4a (taalfout / lexicale fout / semantische misser in onze modernisatie, onafhankelijk bevestigd tegen SV1657/Grieks) | Vers corrigeren; bij ≥2× herhaling ook `FALSE_FRIENDS` in `scripts/rules_data.py` + `ARCHAISMEN.md` False-friends-tabel, of `MODERNISATIE.md §2.7` voor grammaticale patronen |
+   | HSV-spiegelbevinding 4b (drempel-archaïsme dat HSV modern oplost binnen reikwijdte) | Vers corrigeren; bij ≥2× herhaling ook `ARCHAISM_BLACKLIST` (`scripts/rules_data.py`) + `ARCHAISMEN.md`-archaïsme-tabel + `lint_archaismen.py lint --root output/` terugwerkende linter |
    | HSV-spiegelbevinding 4c (hoofdletters / kanttekening / parafrase / exegese in hoofdtekst / structurele herbouw / lexicaal register / vierkante haken) | Geen actie — bewuste afwijking; meld in aggregaat in de REGELBESTAND-regel |
    | Semantic-review-bronverwijzing 5 (onmogelijke SV1657-bijbelverwijzing, onafhankelijk bevestigde correctie) | Corrigeer `input.sv`, `output` en docs-artifacts; voeg mapping toe aan `scripts/source_corrections.py`; regenereer `diff_hsv` en `diff_all` |
    | Subagent-`note` van type `afwijking` met patroon dat ≥2× voorkomt | Patroon documenteren in `ARCHAISMEN.md` of relevante doc |

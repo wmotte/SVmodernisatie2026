@@ -179,8 +179,10 @@ De orchestrator (niet deze skill) doet per `open` issue:
 2. **Rebuttal-pad**: zet `status: "rebutted"` met `rebuttal: "<argument>"`
    conform de criteria boven.
 
-Commit alle fixes in één branch:
-`feature/<boek>-<h>-adversarial-fix`. PR + merge volgens
+Commit alle fixes in één branch. De branch-naam wordt bepaald door
+`scripts/mkbatch.sh <boek-lowercase> <H> adversarial-fix` (enige bron van
+de naamconventie; `sv-batch-orchestrate` Stap 6.5 roept dit zo aan) —
+typisch `feature/<boek><H>-adversarial-fix`. PR + merge volgens
 `sv-batch-orchestrate` Stap 5.
 
 ## Stap 5 — verify en eindrapport ronde 2

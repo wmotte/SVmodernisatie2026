@@ -5,8 +5,9 @@ description: Normaliseer SV1657-bijbelverwijzingen ($...$ blokken) naar moderne 
 
 # sv-bibref — normalisatie van bijbelverwijzingen
 
-Wrapper rond `scripts/bibref.py`. Werkdirectory:
-`/Users/wmotte/Desktop/projects/SVmodernisatie2026/`.
+Wrapper rond `scripts/bibref.py`. Werkdirectory: de huidige repo-root
+(`git rev-parse --show-toplevel`) — hoofdrepository of actieve worktree,
+nooit een hardcoded pad.
 
 ## normalize
 

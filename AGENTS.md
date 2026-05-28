@@ -5,12 +5,21 @@
 Modernisering van de Statenvertaling 1657 met **maximaal behoud van de
 eigenheid** van de SV: theologische precisie, formele equivalentie t.o.v.
 de brontekst, kanttekeningen, vierkante haken voor toevoegingen door de
-SV-vertalers, en hoofdletterdiscipline. Eerste focus: **Lucas** (24
-hoofdstukken; de invoer staat klaar in `input.sv/LUK/`).
+SV-vertalers, en hoofdletterdiscipline. Reikwijdte is het **hele Nieuwe
+Testament**; de invoer per boek staat in `input.sv/<BOEK>/`. Lucas (`LUK`)
+was het eerste boek en is daarom in de voorbeelden hieronder
+oververtegenwoordigd — de principes gelden boek-agnostisch voor elk
+NT-boek met invoer.
 
 > **Wat is "modernisatie" in dit project?** Voor de definitie, methode en
 > aannames die onder dit hele project liggen: zie `MODERNISATIE.md`.
 > Bij twijfel over reikwijdte of vertaalkeuze is dat document leidend.
+>
+> **Waar woont welke regel(lijst)?** De machine-leesbare regeldata
+> (blacklists, false friends, drempel-archaïsmen, STOPLIST, …) staat
+> gecentraliseerd in `scripts/rules_data.py` / `scripts/stoplist.txt`. Zie
+> `REGELBESTANDEN.md` voor de bron-per-categorie — bewerk altijd dáár, niet
+> de linter/validator die de lijst importeert.
 
 ## Hoe doet de gebruiker een aanroep?
 

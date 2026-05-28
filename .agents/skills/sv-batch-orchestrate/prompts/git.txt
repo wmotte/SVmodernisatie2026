@@ -8,7 +8,7 @@ bestanden behalve de optionele 2-space reformat hieronder.
 
 Te committen bestanden (alleen indien gewijzigd t.o.v. origin/main):
 - output/<BOEK>/<BOEK>.<H>.json   # primair
-<EXTRA_FILES>                      # bv. scripts/lint_carryovers.py of
+<EXTRA_FILES>                      # bv. scripts/stoplist.txt of
                                     # output/<BOEK>/review.<H>.json
 
 Commit-message: <COMMIT_MESSAGE>
@@ -25,7 +25,10 @@ Stappen — strikt in deze volgorde:
 2. Diff-sanity-check op output/<BOEK>/<BOEK>.<H>.json:
    git diff --stat output/<BOEK>/<BOEK>.<H>.json
    Als >50 regels diff voor een batch van 3 verzen: 4-space-indent
-   detected — reformatteer naar 2-space:
+   detected — reformatteer naar 2-space. (Deze inline python3 -c json.dump
+   is hier toegestaan: het is een deterministische, idempotente reformat
+   door de git-subagent — niet het inhoudelijk wegschrijven van verzen, dat
+   verboden is in modernize.txt en uitsluitend via upsert_verse.py gaat.)
      python3 -c "
      import json
      p = 'output/<BOEK>/<BOEK>.<H>.json'

@@ -455,8 +455,26 @@ def cmd_query(args: argparse.Namespace) -> None:
             print(json.dumps({"results": [], "total_in_db": total_in_db}))
         return
 
-    client = _client()
-    q_vec = _embed(client, args.text, "RETRIEVAL_QUERY")
+    if getattr(args, "allow_degraded", False):
+        # Degraded modus (opt-in): een onbereikbare embeddings-API of ontbrekende
+        # config mag de autonome batch-loop niet hard stoppen. Lever lege
+        # resultaten met een `degraded`-marker en exit 0, zodat de aanroeper
+        # zonder concordantie kan doorgaan en de batch als zodanig markeert.
+        try:
+            client = _client()
+            q_vec = _embed(client, args.text, "RETRIEVAL_QUERY")
+        except (SystemExit, Exception) as exc:  # noqa: BLE001 — bewust breed
+            err = f"{type(exc).__name__}: {exc}".strip().rstrip(":")
+            _eprint(f"WAARSCHUWING: embeddings niet beschikbaar; degraded query ({err}).")
+            payload = {"results": [], "total_in_db": total_in_db, "degraded": True, "error": err}
+            if args.terse:
+                print(f"query degraded 0 results (total_in_db={total_in_db}; {err})")
+            else:
+                print(json.dumps(payload, ensure_ascii=False))
+            return
+    else:
+        client = _client()
+        q_vec = _embed(client, args.text, "RETRIEVAL_QUERY")
 
     # Stack alle embeddings als matrix; cosine sim = dot-product (al genormaliseerd).
     sv_mat = np.stack([_blob_to_vec(r[5]) for r in rows])
@@ -644,6 +662,13 @@ def main() -> None:
         "--terse",
         action="store_true",
         help="Drop source_text-veld uit elke hit (Griekse brontekst). Bespaart ~30% per call.",
+    )
+    sp_q.add_argument(
+        "--allow-degraded",
+        action="store_true",
+        help="Stop niet hard als de embeddings-API/config onbereikbaar is: lever "
+             "lege resultaten met `degraded: true` en exit 0, zodat een autonome "
+             "loop zonder concordantie kan doorgaan en de batch zo markeert.",
     )
     sp_q.add_argument("--exclude-verse", type=int, help="Zie --exclude-book.")
     sp_q.set_defaults(func=cmd_query)

@@ -5,8 +5,9 @@ description: Vectordatabase voor gemoderniseerde SV-verzen. Sla per vers twee em
 
 # sv-memory — vectordatabase
 
-Wrapper rond `scripts/memory.py`. Werkdirectory:
-`/Users/wmotte/Desktop/projects/SVmodernisatie2026/`.
+Wrapper rond `scripts/memory.py`. Werkdirectory: de huidige repo-root
+(`git rev-parse --show-toplevel`) — hoofdrepository of actieve worktree,
+nooit een hardcoded pad.
 
 ## query — top-k vergelijkbare verzen
 
@@ -32,6 +33,14 @@ Argumenten:
   in de database).
 - `--terse`: drop `source_text`-veld uit elke hit. Bespaart ~33% per
   call. Bij twijfel over een Grieks lemma: laat `--terse` weg.
+- `--allow-degraded`: stop niet hard als de embeddings-API of de config
+  (`GOOGLE_API_KEY`) onbereikbaar is. In plaats van exit 2 levert de query
+  dan `{"results": [], "total_in_db": <n>, "degraded": true, "error": "..."}`
+  en exit 0. Bedoeld voor de **autonome batch-loop**: een tijdelijke
+  API-storing mag een heel hoofdstuk niet blokkeren. De aanroeper gaat
+  zonder concordantie door en markeert die batch als `degraded` in het
+  eindrapport (later opnieuw te embedden via `memory.py sync`). Zonder de
+  vlag blijft het gedrag ongewijzigd (hard exit bij API/config-fout).
 
 Output (stdout, JSON):
 

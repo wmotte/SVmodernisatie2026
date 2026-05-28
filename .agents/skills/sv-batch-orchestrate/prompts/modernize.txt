@@ -20,13 +20,16 @@ KRITIEKE INSTRUCTIES — STRIKT:
   orchestrator buiten jouw context.
 - Raak ALLEEN deze bestanden aan:
   - output/<BOEK>/<BOEK>.<H>.json (upsert per vers)
-  - eventueel scripts/lint_carryovers.py (STOPLIST-uitbreiding voor
-    aantoonbare carry-over-false-positives uit deze batch)
+  - eventueel scripts/stoplist.txt (STOPLIST-uitbreiding, één woord per
+    regel, voor aantoonbare carry-over-false-positives uit deze batch;
+    zie REGELBESTANDEN.md — de STOPLIST woont in stoplist.txt, niet in
+    lint_carryovers.py)
   - eventueel docs/diff_<BOEK>_<H>.json en docs/inputs/<BOEK>/
     (alleen als auto-gegenereerd door bestaande scripts)
   RAAK NIET AAN: docs/index.html, andere viewer-bestanden,
   regelbestandsdocumentatie (AGENTS.md, ARCHAISMEN.md, MODERNISATIE.md, etc.),
-  andere skills, validate.py, lint_archaismen.py, lint_false_friends.py.
+  andere skills, scripts/rules_data.py, validate.py, lint_carryovers.py,
+  lint_archaismen.py, lint_false_friends.py.
   Zie je een verbeterpunt buiten je reikwijdte? Rapporteer in je eindrapport,
   pas niets aan.
 - Wegschrijven van output JSON gaat UITSLUITEND via

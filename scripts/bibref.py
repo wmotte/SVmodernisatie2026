@@ -213,7 +213,17 @@ def _normalize_inner(content: str, current_book_full: str | None,
     """Normaliseer de inhoud tussen `$...$`."""
     # Als de inhoud al lijkt op moderne notatie ('Lk. 3:1'), laat staan (idempotent).
     if re.fullmatch(r"\s*[\dA-Za-zëéü\.\s,;:\-]+\s*", content) and ":" in content:
-        return content.strip()
+        stripped = content.strip()
+        # Bare impliciete ref zonder boeknaam ('3:1', '3:1-3', '3:1; 5:2') →
+        # prefix de modabbr van het huidige boek. Een ref mét boeknaam (alfa)
+        # is al compleet en blijft ongewijzigd (idempotent).
+        if current_book_full is not None and not re.search(r"[A-Za-z]", stripped):
+            modabbr = full_to_abbr.get(current_book_full) or full_to_abbr.get(
+                FULLNAME_ALIASES.get(current_book_full, ""), None
+            )
+            if modabbr is not None:
+                return f"{modabbr} {stripped}"
+        return stripped
 
     # Pre-processing: 'ende'/'en' → marker, normaliseer whitespace.
     s = " ".join(content.split())
