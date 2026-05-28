@@ -74,6 +74,7 @@ Standaard-substituties voor de hoofdtekst:
 | (Hoort\|Ziet\|Zie) toe (imperatief) | luister / let op / pas op / kijk uit — SV-imperatief-formule (`hoort toe`, `ziet toe`) leeft niet meer; modern alternatief context-afhankelijk: bij waarschuwing `pas op` / `kijk uit`, bij oproep tot aandacht `luister` / `let op` (Mk. 4:3; 8:15; 13:5; 13:9; 13:23; 13:33) |
 | imperatief-meervoud op `-t` | gebruik de stam — SV-gebiedende wijs `Bewaart` / `behoudt` / `grijpt` / `volgt` / `Brengt` → `Bewaar` / `behoud` / `grijp` / `volg` / `Breng`; gevangen door `scan_archaic_imperative_t` (anker = zinsbegin/leesteken/nevenschikker + object, stam-gate) (Jd. 1:21,23; Lk. 22:10; Mk. 12:15; 14:13,44) |
 | morrenden | mopperaars / mensen die morren — gesubstantiveerd `-enden`-participium dat buiten `PARTICIPLE_RE` (`\w+ende\b`) valt (Jd. 1:16) |
+| lijdzaamheid / lijdzaam | volharding / geduldig, contextafhankelijk — bij ὑπομονή gaat het om standvastig volharden; modern `lijdzaamheid` leest als passieve berusting (Jk. 1:3; HEB 12:1-3) |
 
 Geen letterlijke vervanging als de zinsbouw eronder lijdt; herformuleer
 de zin zodat hij modern Nederlands oplevert.

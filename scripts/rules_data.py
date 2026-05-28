@@ -73,6 +73,7 @@ ARCHAISM_BLACKLIST = [
     r"\bhiervoren\b",       # → "hiervoor / hierboven" in verwijzingsformules
     r"\bde uwen\b",         # → "een van u / die van u"; verbogen zelfst. possessief
     r"\bdaar\s+(?:ik|wij|u|gij)\s+\w+\b",  # causaal 'daar' + 1/2-persoon → "nu / aangezien / omdat" (PHM 1:9)
+    r"\blijdzaam(?:heid|e|en)?\b",  # → "volharding/geduldig"; modern dominant passieve berusting
 ]
 
 # Allowlist als (artikel, zn)-paar in lowercase.
