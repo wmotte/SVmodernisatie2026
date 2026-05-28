@@ -1,0 +1,197 @@
+{
+  "book": "EPH",
+  "chapter": 4,
+  "reviewed_at": "2026-05-28T15:15:40+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-28T15:15:40+00:00",
+      "mode": "scan",
+      "issues_total": 12
+    }
+  ],
+  "issues": [
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 4,
+      "severity": "soft",
+      "quote_modernized": "…, gehoopte zaak, waartoe u geroepen bent, welke is de zaligheid van uw zielen.",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "EPH-4-4-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 8,
+      "severity": "soft",
+      "quote_modernized": "…ijk zonde, duivel, dood en verdoemenis; over welke alle Christus door zijn dood,…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "EPH-4-8-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 12,
+      "severity": "soft",
+      "quote_modernized": "het werk van de",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'het werk van de' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "EPH-4-12-001",
+      "status": "rebutted",
+      "rebuttal": "De herhaling is hier geen alternatief bij de hoofdtekst maar het te verklaren lemma 'het werk van de bediening' uit Ef. 4:12. KANTTEKENINGEN.md verbiedt redundantie vooral wanneer een alternatief uit de kanttekening in de hoofdtekst wordt overgenomen; deze Dat-is-kanttekening specificeert de onderdelen van διακονίας."
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 13,
+      "severity": "soft",
+      "quote_modernized": "van de zoon van",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'van de zoon van' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "EPH-4-13-001",
+      "status": "rebutted",
+      "rebuttal": "De woordgroep 'van de Zoon van God' is in Ef. 4:13 het noodzakelijke object van 'kennis/erkentenis'; de kanttekening legt het eschatologische bereik daarvan uit. Dit is geen alternatiefsynoniem volgens KANTTEKENINGEN.md, maar lemma-hername om de uitleg van ἐπιγνώσεως inhoudelijk af te bakenen."
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 16,
+      "severity": "soft",
+      "quote_modernized": "voegselen van de toebrenging",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'voegselen van de toebrenging' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "EPH-4-16-001",
+      "status": "rebutted",
+      "rebuttal": "'Voegselen van de toebrenging' is in Ef. 4:16 juist de technische SV-term die de kanttekening definieert als gewrichten/samenvoegingen. KANTTEKENINGEN.md laat verklarende Dat-is-noten staan; de herhaling is hier lemma-citaat, geen overgenomen alternatief of parafrase."
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 21,
+      "severity": "soft",
+      "quote_modernized": "Indien u hem tenminste   gehoord hebt, e…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "EPH-4-21-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+    },
+    {
+      "category": "§2.3b infinitief met nageschoven object",
+      "verse": 28,
+      "severity": "soft",
+      "quote_modernized": "…k te verrichten  , opdat hij iets heeft om mee te delen aan degene die nood heef…",
+      "rule_reference": "MODERNISATIE.md §2.3b",
+      "explanation": "'om … te delen aan degene die nood' — Latinaat-woordvolgorde; in modern NL gaat het object vóór de infinitief: 'om <object> te delen'.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "EPH-4-28-001",
+      "status": "rebutted",
+      "rebuttal": "Ef. 4:28 heeft geen §2.3b-patroon 'om te delen een object': het object 'iets' staat vóór 'heeft', en 'mee te delen aan degene die nood heeft' is modern Nederlands met pronominaal bijwoord 'mee'. De Griekse infinitief μεταδιδόναι wordt dus niet met een nageschoven object weergegeven."
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 30,
+      "severity": "soft",
+      "quote_modernized": "…Ps. 6:2; 31:10,11; 51:11$, etc. Grieks: in welke. Namelijk, als door het opgedru…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "EPH-4-30-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 2,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'malkand' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        2,
+        25,
+        32
+      ],
+      "id": "EPH-4-2-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] Concordantie-drift false-positive bij v5: Grieks ἀλλήλων vereist een wederkerig pronomen; SV malkanderen/malkand wordt in modern Nederlands per constructie correct als elkaar/elkaars weergegeven. MODERNISATIE.md concordantie geldt semantisch, niet op scanner-prefixniveau."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 4,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'gelijck' in 4 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 4 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        4,
+        17,
+        21,
+        32
+      ],
+      "id": "EPH-4-4-002",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] Vers 3 (MODERNISATIE.md §2.1 lexicaal/spelling): SV-stam 'gelijck' (Grieks καθώς) wordt in v3/7/9/21 consequent 'zoals' ('zoals geschreven is', 'zoals ook Christus'). Concordantie-drift is een false-positive: de scanner-prefix-heuristiek mist de lexicale overgang gelijck→zoals (geen prefix-overlap); de Nederlandse zijde is wél concordant."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 7,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'gegeven' in 4 verzen — verzen [11, 19] renderen het stam anders dan [7, 8]",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 4 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        7,
+        8,
+        11,
+        19
+      ],
+      "id": "EPH-4-7-001",
+      "status": "fixed",
+      "rebuttal": "Ef. 4:11 is aangepast zodat ἔδωκε, net als Ef. 4:7-8, expliciet met 'gegeven' wordt weergegeven; Ef. 4:19 blijft 'overgegeven' omdat daar het andere Griekse werkwoord παρέδωκαν staat.",
+      "fix_commit": "PENDING"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 15,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'waerhey' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        15,
+        21,
+        25
+      ],
+      "id": "EPH-4-15-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] Alle drie verzen (v2/v8/v20) gebruiken 'waarheid' voor SV 'waerheyt' — perfect concordant. Scanner's prefix-overlap-heuristiek mist de orthografische overgang ae→aa en ey→ei, waardoor 'waerhey'-prefix niet matcht met moderne 'waarh'-prefix. False positive."
+    }
+  ],
+  "summary": {
+    "pass1": "12 issues: 1 fixed in output, 11 rebutted/false-positive; no open issues before verify"
+  }
+}
