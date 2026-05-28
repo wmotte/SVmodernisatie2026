@@ -1,6 +1,6 @@
 # SVmodernisatie2026
 
-**Nieuwe vergelijkingsviewer:** [compare_all2.html](https://wmotte.github.io/SVmodernisatie2026/compare_all2.html) toont SV1657, GBS met kanttekeningen, HSV, Initiatief SV2027 en onze modernisatie naast elkaar, inclusief aparte diff-kleuren voor hoofdtekst en GBS↔modernisatie-kanttekeningen.
+**Nieuwe vergelijkingsviewer:** [compare_all.html](https://wmotte.github.io/SVmodernisatie2026/compare_all.html) toont SV1657, GBS met kanttekeningen, HSV, Initiatief SV2027 en onze modernisatie naast elkaar, inclusief aparte diff-kleuren voor hoofdtekst en GBS↔modernisatie-kanttekeningen.
 
 > 📄 **[Achtergrondinformatie (PDF)](achtergrondartikel/Achtergrondinformatie.pdf)** — leesstuk over de
 > achtergrond, methode en uitgangspunten van dit project. Begin hier.
