@@ -279,6 +279,12 @@ FALSE_FRIENDS: list[dict] = [
         "advies": "controleer SV-referent in context: 'erf' / 'woning' (LUK 11:21) of 'tuin' (LUK 13:19); 'hof' bewaart de moderne lezer geen van beide",
     },
     {
+        "pattern": r"\bvaten\b",
+        "sv": "huisraad/bezit, of cultische dienstvoorwerpen (Gr. σκεύη)",
+        "modern": "vaten/barrels, bloedvaten",
+        "advies": "controleer context: 'huisraad'/'bezit' of, in cultische dienstcontext, 'voorwerpen voor de dienst'",
+    },
+    {
         "pattern": r"\b(?:uit|door)\s+enkele\s+(?:genade|gift)\b",
         "sv": "louter, zuiver, alleen (enckel in genade/gave-formule)",
         "modern": "een paar / afzonderlijke",
