@@ -1,0 +1,141 @@
+{
+  "book": "HEB",
+  "chapters": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "min_freq": 2,
+  "kinds": [
+    "carryover",
+    "fossiel-lidwoord",
+    "latinaat-window",
+    "cap-asym"
+  ],
+  "total_patterns": 3,
+  "patterns_by_kind": {
+    "cap-asym": [
+      {
+        "pattern_id": "p-0001",
+        "kind": "cap-asym",
+        "key": "engelen",
+        "frequency": 7,
+        "hsv_alternatives": [],
+        "severity_hint": "soft",
+        "occurrences": [
+          {
+            "book": "HEB",
+            "chapter": 1,
+            "verse": 4,
+            "sv2026_excerpt": "Zoveel voortreffelijker geworden dan de Engelen,   als hij   een uitnemender naam boven he…",
+            "hsv_excerpt": "Hij is zoveel meer geworden dan de engelen als de Naam die Hij als erfdeel ontvangen heeft,   voortreffelijker is dan die van hen.",
+            "original_excerpt": ""
+          },
+          {
+            "book": "HEB",
+            "chapter": 1,
+            "verse": 5,
+            "sv2026_excerpt": "Want tot wie van de Engelen heeft hij ooit gezegd,     U bent mijn Zoo…",
+            "hsv_excerpt": "Want tegen wie van de engelen heeft God ooit gezegd:   U bent Mijn Zoon, heden heb Ik U verwekt? En verder:   Ik zal voor Hem tot een Vader ",
+            "original_excerpt": ""
+          },
+          {
+            "book": "HEB",
+            "chapter": 1,
+            "verse": 7,
+            "sv2026_excerpt": "En   tot de Engelen zegt hij wel,   Die zijn Engelen   tot geesten maakt, en zijn dienaars   to…",
+            "hsv_excerpt": "En van de engelen zegt Hij weliswaar:   Die Zijn engelen maakt tot geesten en Zijn dienaren tot een vuurvlam,",
+            "original_excerpt": ""
+          },
+          {
+            "book": "HEB",
+            "chapter": 2,
+            "verse": 2,
+            "sv2026_excerpt": "Want indien   het woord   door de Engelen gesproken vast geweest is, en   alle overt…",
+            "hsv_excerpt": "Want als   het woord dat door engelen gesproken werd, al bindend was en   elke overtreding en ongehoorzaamheid rechtvaardige vergelding ontv",
+            "original_excerpt": ""
+          },
+          {
+            "book": "HEB",
+            "chapter": 2,
+            "verse": 5,
+            "sv2026_excerpt": "  Want hij heeft aan de Engelen niet onderworpen   de toekomstige wereld, …",
+            "hsv_excerpt": "Want Hij heeft de komende wereld, waarover wij spreken, niet onderworpen aan de engelen,",
+            "original_excerpt": ""
+          },
+          {
+            "book": "HEB",
+            "chapter": 2,
+            "verse": 9,
+            "sv2026_excerpt": "…d en eer gekroond,   die een weinig minder dan de Engelen geworden was,   vanwege het lijden van de …",
+            "hsv_excerpt": "maar wij zien Jezus   met heerlijkheid en eer gekroond,   Die voor korte tijd minder dan de engelen geworden was, vanwege het lijden van de ",
+            "original_excerpt": ""
+          },
+          {
+            "book": "HEB",
+            "chapter": 2,
+            "verse": 16,
+            "sv2026_excerpt": "Want werkelijk   hij neemt de Engelen niet aan, maar   hij neemt het zaad van Ab…",
+            "hsv_excerpt": "Want werkelijk, Hij neemt de engelen niet aan, maar Hij neemt het nageslacht van Abraham aan.",
+            "original_excerpt": ""
+          }
+        ]
+      }
+    ],
+    "latinaat-window": [
+      {
+        "pattern_id": "p-0002",
+        "kind": "latinaat-window",
+        "key": "einde toe vast behouden",
+        "frequency": 2,
+        "hsv_alternatives": [],
+        "severity_hint": "soft",
+        "occurrences": [
+          {
+            "book": "HEB",
+            "chapter": 3,
+            "verse": 6,
+            "sv2026_excerpt": "einde toe vast behouden",
+            "hsv_excerpt": "Christus echter is getrouw over Zijn huis als Zoon.   Zijn huis zijn wij,   als wij tenminste de vrijmoedigheid en de roem van de hoop tot h",
+            "original_excerpt": "Maer Christus   als de Sone over sijn eygen huys:   wiens   huys wy zijn,   indien wy maer   de vrymoedigheyt, ende   den roem der hope tot "
+          },
+          {
+            "book": "HEB",
+            "chapter": 3,
+            "verse": 14,
+            "sv2026_excerpt": "einde toe vast behouden",
+            "hsv_excerpt": "Want wij hebben deel aan Christus gekregen, als wij tenminste het beginsel van de vaste grond van het geloof tot het einde toe onwrikbaar va",
+            "original_excerpt": "Want wy zijn   Christi deelachtigh geworden, soo wy anders het beginsel   deses vasten gronts tot den eynde toe vast behouden:"
+          }
+        ]
+      },
+      {
+        "pattern_id": "p-0003",
+        "kind": "latinaat-window",
+        "key": "het einde toe vast behouden",
+        "frequency": 2,
+        "hsv_alternatives": [],
+        "severity_hint": "soft",
+        "occurrences": [
+          {
+            "book": "HEB",
+            "chapter": 3,
+            "verse": 6,
+            "sv2026_excerpt": "het einde toe vast behouden",
+            "hsv_excerpt": "Christus echter is getrouw over Zijn huis als Zoon.   Zijn huis zijn wij,   als wij tenminste de vrijmoedigheid en de roem van de hoop tot h",
+            "original_excerpt": "Maer Christus   als de Sone over sijn eygen huys:   wiens   huys wy zijn,   indien wy maer   de vrymoedigheyt, ende   den roem der hope tot "
+          },
+          {
+            "book": "HEB",
+            "chapter": 3,
+            "verse": 14,
+            "sv2026_excerpt": "het einde toe vast behouden",
+            "hsv_excerpt": "Want wij hebben deel aan Christus gekregen, als wij tenminste het beginsel van de vaste grond van het geloof tot het einde toe onwrikbaar va",
+            "original_excerpt": "Want wy zijn   Christi deelachtigh geworden, soo wy anders het beginsel   deses vasten gronts tot den eynde toe vast behouden:"
+          }
+        ]
+      }
+    ]
+  }
+}

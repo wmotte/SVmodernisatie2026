@@ -138,6 +138,8 @@ trefzeker overbrengt.
 | `hof` | ommuurde woonruimte/erf, óf moestuin — context-afhankelijk | vorstenhof, rechtbank, formele tuin | "erf" / "woning" (LUK 11:21) of "tuin" (LUK 13:19); `hof` bewaart de moderne lezer geen van beide bedoelde referenten |
 | `vaten` (Gr. σκεύη) | huisraad / bezit, of cultische dienstvoorwerpen | vaten/barrels, bloedvaten | "huisraad", "bezit", "voorwerpen" — context bepaalt; in cultische dienstcontext: "voorwerpen voor de dienst" |
 | `de uwe` / `het uwe` (zelfst. possessief) | wat van u is, uw bezit / uw discipelen / uw kant (zelfst. gebruikt poss.) | bestaat in vaste formules ("de uwe" als slotgroet) maar werkt niet idiomatisch in lopend proza | "wat van u is", "die van u", "uw bezit" — alleen handhaven in vaste parallel-formules zoals "al het mijne is van u" (LUK 5:33, 6:30, 15:31) |
+| `de uwen` (verbogen zelfst. possessief) | degenen die bij u horen / een van u | versteende verbogen possessiefvorm in lopend proza | "een van u", "die van u", contextueel "uw huisgenoten" |
+| `hiervoren` | eerder hiervoor / hierboven | archaïsche verwijzingsformule, vooral in kanttekeningen | "hiervoor", "hierboven", of "hiervoor bij vers X" |
 | `enckele` in `uit/door enckele genade/gift` | louter, zuiver, alleen | `enkele` = een paar / afzonderlijke | "uit louter genade", "als loutere gave" — beperk tot deze genade/gave-formule; gewoon `geen enkele` blijft modern |
 | `ten <ordinaal> dage` | oude dativus-tijdsbepaling | bestaat niet productief in modern Nederlands | "op de N-de dag" (LUK 9:22, 13:32) |
 | `ter ure (van)` | oude dativus-tijdsbepaling | bestaat niet productief in modern Nederlands | "op het uur", "tegen het uur" (LUK 14:17) |
