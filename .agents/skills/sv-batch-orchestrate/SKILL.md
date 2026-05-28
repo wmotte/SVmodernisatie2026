@@ -418,6 +418,14 @@ onnodig vol. In plaats daarvan stuurt de orchestrator een **korte**
 `prompt` die de subagent naar het bestand verwijst; de subagent leest het
 zelf (in zijn eigen, geïsoleerde context).
 
+**Placeholder-check (verplicht vóór elke `Agent`-spawn).** De spawn-prompt
+bevat `<...>`-tags die woordelijk vervangen moeten zijn door concrete
+waarden (`BOEK`, `H`, `V_START`, `V_EIND`, `BRANCH`, `REPO_ROOT`, ...).
+Een ongerepleceerd `<V_EIND>` of `<BRANCH>` betekent dat de subagent
+malformed input krijgt en silent verkeerd werk doet. Vóór je `Agent`
+aanroept: scan de prompt-string visueel op resterende `<UPPER_TAG>`-
+patronen. Geen overgebleven tags = veilig spawnen.
+
 **Spawn-prompt — modernisatie (Stap 2):**
 
 ```
