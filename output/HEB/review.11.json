@@ -1,7 +1,7 @@
 {
   "book": "HEB",
   "chapter": 11,
-  "reviewed_at": "2026-05-28T14:44:03+00:00",
+  "reviewed_at": "2026-05-28T14:46:01+00:00",
   "passes": [
     {
       "pass": 1,
@@ -34,6 +34,12 @@
     {
       "pass": 3,
       "ran_at": "2026-05-28T14:44:03+00:00",
+      "mode": "verify",
+      "actions": []
+    },
+    {
+      "pass": 4,
+      "ran_at": "2026-05-28T14:46:01+00:00",
       "mode": "verify",
       "actions": []
     }
@@ -177,7 +183,7 @@
       "id": "HEB-11-22-001",
       "status": "verified",
       "rebuttal": "Redundante kanttekeningfrase vervangen door 'God zijn belofte van bevrijding uit Egypte zou volbrengen', zodat de hoofdtekstfrase 'de uittocht van de kinderen Israëls' niet woordelijk terugkeert.",
-      "fix_commit": "pending",
+      "fix_commit": "ae2e61659c5aeaae0abb4a0ebc301fa56ac045d4",
       "verified_at": "2026-05-28T14:43:21+00:00"
     },
     {
@@ -192,7 +198,7 @@
       "id": "HEB-11-23-001",
       "status": "verified",
       "rebuttal": "Kanttekening gewijzigd van 'naar het gebod van de Koning' naar 'naar het Koninklijk bevel', zodat de hoofdtekstfrase niet woordelijk wordt herhaald en het SV-hoofdletterpatroon van Koninghs behouden blijft.",
-      "fix_commit": "pending",
+      "fix_commit": "ae2e61659c5aeaae0abb4a0ebc301fa56ac045d4",
       "verified_at": "2026-05-28T14:43:21+00:00"
     },
     {
@@ -207,7 +213,7 @@
       "id": "HEB-11-35-001",
       "status": "verified",
       "rebuttal": "Participium 'niet aannemende' in de hoofdtekst ontvouwd naar 'zonder ... aan te nemen' conform MODERNISATIE.md §2.3.",
-      "fix_commit": "pending",
+      "fix_commit": "ae2e61659c5aeaae0abb4a0ebc301fa56ac045d4",
       "verified_at": "2026-05-28T14:43:21+00:00"
     },
     {
