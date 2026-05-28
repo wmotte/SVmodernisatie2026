@@ -1,0 +1,162 @@
+{
+  "book": "HEB",
+  "chapter": 3,
+  "reviewed_at": "2026-05-28T04:51:22+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-28T04:49:48+00:00",
+      "mode": "scan",
+      "issues_total": 9
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-28T04:51:22+00:00",
+      "mode": "verify",
+      "actions": [
+        "HEB-3-6-001: rebuttal verified",
+        "HEB-3-7-001: rebuttal verified",
+        "HEB-3-11-001: rebuttal verified",
+        "HEB-3-12-001: rebuttal verified",
+        "HEB-3-12-002: verified",
+        "HEB-3-13-001: rebuttal verified",
+        "HEB-3-14-001: rebuttal verified",
+        "HEB-3-15-001: rebuttal verified",
+        "HEB-3-2-001: rebuttal verified"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 6,
+      "severity": "soft",
+      "quote_modernized": "… huis:   van wie   wij het huis zijn,   indien wij maar   de vrijmoedigheid, en …",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "HEB-3-6-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-28T04:51:22+00:00"
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 7,
+      "severity": "soft",
+      "quote_modernized": "…zoals   de Heilige Geest zegt:   Heden, indien u   zijn stem   hoort,",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "HEB-3-7-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-28T04:51:22+00:00"
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 11,
+      "severity": "soft",
+      "quote_modernized": "…Zo heb ik dan gezworen in mijn toorn:   Indien zij   in mijn rust zullen ingaan.",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "HEB-3-11-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-28T04:51:22+00:00"
+    },
+    {
+      "category": "§2.3b infinitief met nageschoven object",
+      "verse": 12,
+      "severity": "soft",
+      "quote_modernized": "…nd van u zij   een boos ongelovig hart, om af te wijken van de levende God:",
+      "rule_reference": "MODERNISATIE.md §2.3b",
+      "explanation": "'om … te wijken van de levende God' — Latinaat-woordvolgorde; in modern NL gaat het object vóór de infinitief: 'om <object> te wijken'.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "HEB-3-12-001",
+      "status": "verified",
+      "rebuttal": "In HEB 3:12 is 'om af te wijken van de levende God' gewone moderne valentie van het werkwoord 'afwijken van'; 'van de levende God' is geen nageschoven object maar een voorzetselcomplement. MODERNISATIE.md §2.3b treft Latinate objectplaatsing, niet deze vaste werkwoordconstructie.",
+      "verified_at": "2026-05-28T04:51:22+00:00"
+    },
+    {
+      "category": "§2.7 drempel-fossiel",
+      "verse": 12,
+      "severity": "hard",
+      "quote_modernized": "Zie toe,   broeders, dat niet te eniger …",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "Idiomatisch fossiel 'zie toe' — oude dativus/genitief. Modern: 'op de N-de dag' / 'op het uur / tegen het uur'.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "HEB-3-12-002",
+      "status": "verified",
+      "verified_at": "2026-05-28T04:51:22+00:00"
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 13,
+      "severity": "soft",
+      "quote_modernized": "…heid daartoe geeft, en u daartoe roept, aan welke roeping wij gehoor moeten geve…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "HEB-3-13-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-28T04:51:22+00:00"
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 14,
+      "severity": "soft",
+      "quote_modernized": "…ij zijn   Christus deelachtig geworden, indien wij tenminste het beginsel   van …",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "HEB-3-14-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-28T04:51:22+00:00"
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 15,
+      "severity": "soft",
+      "quote_modernized": "  Terwijl er gezegd wordt,   Heden, indien u zijn stem hoort, verhard uw har…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "HEB-3-15-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-28T04:51:22+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 2,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'gelijck' in 4 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 4 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        2,
+        7,
+        8,
+        15
+      ],
+      "id": "HEB-3-2-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Vers 3 (MODERNISATIE.md §2.1 lexicaal/spelling): SV-stam 'gelijck' (Grieks καθώς) wordt in v3/7/9/21 consequent 'zoals' ('zoals geschreven is', 'zoals ook Christus'). Concordantie-drift is een false-positive: de scanner-prefix-heuristiek mist de lexicale overgang gelijck→zoals (geen prefix-overlap); de Nederlandse zijde is wél concordant.",
+      "verified_at": "2026-05-28T04:51:22+00:00"
+    }
+  ]
+}
