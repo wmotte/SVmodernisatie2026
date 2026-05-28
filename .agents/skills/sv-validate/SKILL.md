@@ -28,9 +28,25 @@ Argumenten:
   `epilogue`). Voeg een sectie alleen toe als die in deze run is
   (her)gemoderniseerd. Standaard: geen.
 - `--terse`: compacte tekstuele output ipv. JSON. Bevat 1 statusregel
-  (`PASS|FAIL <pass>/<checked> <fails>F <warnings>W`) plus 1 regel per
-  fail. Gebruik dit binnen pijpleidingen om orchestrator-context te
-  besparen; laat het weg voor volledige JSON bij debug.
+  (`PASS|FAIL <pass>/<checked> <fails>F <warnings>W [<overruled>O]`)
+  plus 1 regel per fail. Gebruik dit binnen pijpleidingen om
+  orchestrator-context te besparen; laat het weg voor volledige JSON
+  bij debug.
+- `--overrides PATH`: optioneel JSON-bestand met flag-arbitrage-
+  beslissingen. Issues die matchen worden naar `overruled` verplaatst en
+  tellen niet langer mee voor `passes`. Justification verplicht
+  (≥40 tekens, met regel- of Griekse referentie). Schema:
+  ```json
+  {"version": 1, "overrides": [
+    {"scope": "verse", "verse": 14, "issue_match": "hoofdletter-discipline",
+     "justification": "SV-cap 'Engel' bewust naar 'engelen' (mv. + context); §2.3-discipline geldt voor enkelvoud."}
+  ]}
+  ```
+  `scope` ∈ `verse|section|chapter`. Bij `section`: extra veld
+  `"section": "intro"|"epilogue"`. Wordt vooral gebruikt door
+  `sv-semantic-review` arbitrage om regex-kwetsbare hard-flags
+  (hoofdletterdiscipline, §2.3-participium) post-arbitrage te
+  suppressen zonder de validator te ondermijnen.
 
 Uitvoer (stdout, JSON — zonder `--terse`):
 
