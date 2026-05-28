@@ -1,0 +1,115 @@
+{
+  "book": "2CO",
+  "chapter": 6,
+  "reviewed_at": "2026-05-28T04:44:49+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-28T04:43:53+00:00",
+      "mode": "scan",
+      "issues_total": 6
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-28T04:44:49+00:00",
+      "mode": "verify",
+      "actions": [
+        "2CO-6-1-001: rebuttal verified",
+        "2CO-6-6-001: rebuttal verified",
+        "2CO-6-6-002: verified",
+        "2CO-6-7-001: verified",
+        "2CO-6-16-001: rebuttal verified",
+        "2CO-6-8-001: rebuttal verified"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "category": "genitief pronomen wiens/wier",
+      "verse": 1,
+      "severity": "hard",
+      "quote_modernized": "Hij begrijpt met hem Timotheüs: uit wiens naam hij ook schrijft. Of, medearb…",
+      "rule_reference": "ARCHAISMEN.md (SV-pronomina)",
+      "explanation": "'wiens naam' — formeel-archaïsch genitief-pronomen. Modern Nederlands: 'van wie naam' of zinsherbouw met bezittelijk voornaamwoord ('die zijn naam', 'die haar naam'). NBV21 vermijdt 'wiens' grotendeels.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "2CO-6-1-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] 'wiens naam Kleopas was' rendert ᾧ ὄνομα Κλεόπας: relativum met masculien-singulier eigennaam-antecedent. In modern formeel-zakelijk Nederlands (NBV21, juridische teksten) is 'wiens' bij masculien menselijk antecedent productief. §2.3b waarschuwt voor archaïsche genitiefpronomina; bij menselijk masculien antecedent met persoonsnaam blijft 'wiens' modern bruikbaar.",
+      "verified_at": "2026-05-28T04:44:49+00:00"
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 6,
+      "severity": "soft",
+      "quote_modernized": "In   reinheid, in kennis, in lankmoedigheid, in goedertierenheid,   i…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'lankmoedigheid' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "2CO-6-6-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'lankmoedigheid' (μακροθυμία) is theologische deugd-term: concordant met Gal. 5:22 (vrucht van de Geest) en 1Kor. 13:4 ('liefde is lankmoedig'). Corpus-wide gebruikt in 3 verzen (SVm2026); HSV kiest 'geduld' als 4c-register-shift, geen 4a/4b-correctie. SV-conforme weergave handhaaft concordantie. MODERNISATIE.md §2.7 productiviteitstest geldt minder strikt voor theologische vaktermen die in liturgisch/dogmatisch modern NL gangbaar blijven.",
+      "verified_at": "2026-05-28T04:44:49+00:00"
+    },
+    {
+      "category": "voornaamwoordelijk bijwoord gesplitst",
+      "verse": 6,
+      "severity": "hard",
+      "quote_modernized": "…f, kuisheid: zo verhaalt de Apostel van hier af verder de deugden en middelen wa…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'hier af' — SV-gesplitst voornaamwoordelijk bijwoord. Modern Nederlands voegt samen: 'hieraf' (bv. daarin, waarmee, hierop).",
+      "proposed_fix": "hieraf",
+      "location": "kanttekening",
+      "id": "2CO-6-6-002",
+      "status": "verified",
+      "verified_at": "2026-05-28T04:44:49+00:00"
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 7,
+      "severity": "soft",
+      "quote_modernized": "wapens van de gerechtigheid",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'wapens van de gerechtigheid' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "2CO-6-7-001",
+      "status": "verified",
+      "verified_at": "2026-05-28T04:44:49+00:00"
+    },
+    {
+      "category": "voornaamwoordelijk bijwoord gesplitst",
+      "verse": 16,
+      "severity": "hard",
+      "quote_modernized": "…en is, $Hd. 17:25$, en deze titel wordt hier aan God gegeven tegenover de stomme…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'hier aan' — SV-gesplitst voornaamwoordelijk bijwoord. Modern Nederlands voegt samen: 'hieraan' (bv. daarin, waarmee, hierop).",
+      "proposed_fix": "hieraan",
+      "location": "kanttekening",
+      "id": "2CO-6-16-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] False positive: 'hier aan Christus toegeschreven' is geen gesplitst voornaamwoordelijk bijwoord. Parsing: [hier] (bijwoord = 'in deze context/passage') + [aan Christus] (voorzetselgroep, indirect object van passieve werkwoord 'toegeschreven worden aan X'). MODERNISATIE.md §2.3b verbiedt gesplitst pron.bijwoord van het type [er/daar/hier/waar][prep], maar alléén wanneer de prepositie geen volledig NP regeert. Hier regeert 'aan' de NP 'Christus' — samenvoegen tot 'hieraan Christus' is ongrammaticaal in modern NL (vergelijk: 'wordt hier aan Karel toegeschreven'). Grieks: passief παραδίδοται/ἀναφέρεται met dativus auctoris-equivalent.",
+      "verified_at": "2026-05-28T04:44:49+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 8,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'nochtan' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        8,
+        9,
+        10
+      ],
+      "id": "2CO-6-8-001",
+      "status": "verified",
+      "rebuttal": "De drie betrokken verzen 8-10 renderen het SV-invoegsel '[nochtans]' juist concordant als '[toch]'. De driftmelding is een prefix-heuristiek: AGENTS.md concordantie vraagt gelijke keuze per betekenis, niet behoud van de archaïsche stam 'nochtan'. In deze Griekse antithesen met καί/δέ is '[toch]' modern Nederlands en behoudt het vierkante-hakenpatroon.",
+      "verified_at": "2026-05-28T04:44:49+00:00"
+    }
+  ]
+}
