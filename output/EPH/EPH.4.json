@@ -181,6 +181,45 @@
       "generated_at": "2026-05-28T14:35:49.749693Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 19,
+      "original": "Welcke <Een gelijckenisse genomen van de gene die door vele slagen ofte brantmercken in eenige deelen des lichaems alsoo verhardt zijn, dat sy geen gevoelen daer van meer en hebben: alsoo gaet het oock toe met vele menschen, die door geduerigh quaet doen ’t gevoelen of wroegen van hare conscientien also verdooven, dat sy het selve niet meer en gevoelen. siet Rom. 1.28. 1.Timoth. 4.2.> ongevoeligh geworden zijnde, hebben haer selven over gegeven tot <Ofte, geylheyt, dertelheyt.> ontuchtigheyt, om alle onreynigheyt <Gr. ingierigheyt, ofte, onverzadelickheyt, Dat is, met een groote begeerte ende welbehagen, gelijck de gierige sijne ziele zegent in onrechtveerdigheyt, Psalm 10.3.> gierighlick te bedrijven.",
+      "modernized": "Die <Een gelijkenis genomen van degenen die door vele slagen of brandmerken in enige delen van het lichaam zo verhard zijn, dat zij daarvan geen gevoel meer hebben: zo gaat het ook toe met vele mensen, die door voortdurend kwaad te doen het gevoel of de wroegingen van hun gewetens zo verdoven, dat zij hetzelfde niet meer voelen. Zie $Rm. 1:28; 1Tm. 4:2$.> ongevoelig geworden zijn, hebben zichzelf overgegeven tot <Of, wellust, losbandigheid.> ontuchtigheid, om alle onreinheid <Grieks: in gierigheid, of onverzadelijkheid, Dat is, met een grote begeerte en welbehagen, zoals de gierige zijn ziel zegent in ongerechtigheid, $Ps. 10:3$.> gretig te bedrijven.",
+      "source_text": "οἵτινες ἀπηλγηκότες ἑαυτοὺς παρέδωκαν τῇ ἀσελγείᾳ, εἰς ἐργασίαν ἀκαθαρσίας πάσης ἐν πλεονεξίᾳ.",
+      "generated_at": "2026-05-28T14:41:11.264404Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 20,
+      "original": "Doch ghy en hebt <Dat is, de leere Christi ende der gemeynschap met hem.> Christum alsoo niet geleert:",
+      "modernized": "Maar u hebt <Dat is, de leer van Christus en de gemeenschap met hem.> Christus zo niet leren kennen:",
+      "source_text": "ὑμεῖς δὲ οὐχ οὕτως ἐμάθετε τὸν Χριστόν,",
+      "generated_at": "2026-05-28T14:41:27.937922Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 21,
+      "original": "Indien ghy maer <Namelick, sprekende in sijn woort door ons tot u.> hem gehoort hebt, ende door hem geleert zijt, <Dat is, gelijck de waerheyt Christi vereyscht, ende gelijck het in der waerheyt moet zijn.> gelijck de waerheyt in Iesu is:",
+      "modernized": "Indien u hem tenminste <Namelijk, doordat hij in zijn woord door ons tot u spreekt.> gehoord hebt, en door hem onderwezen bent, <Dat is, zoals de waarheid van Christus vereist, en zoals het in de waarheid moet zijn.> zoals de waarheid in Jezus is:",
+      "source_text": "εἴγε αὐτὸν ἠκούσατε καὶ ἐν αὐτῷ ἐδιδάχθητε, καθώς ἐστιν ἀλήθεια ἐν τῷ Ἰησοῦ·",
+      "generated_at": "2026-05-28T14:41:44.631149Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "subject": "HSV-spiegel",
+          "context": "hoofdtekst",
+          "choice": "tenminste",
+          "alternatives": [
+            "maar"
+          ],
+          "reason": "Semantic-review / HSV-spiegel: SV 'maer' bij Grieks 'εἴγε' functioneert voorwaardelijk-versterkend; 'tenminste' voorkomt modern 'if only'-misverstaan en sluit aan bij EPH 3:2."
+        }
+      ]
     }
   ]
 }
