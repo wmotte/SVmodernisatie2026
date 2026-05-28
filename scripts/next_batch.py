@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Detecteer het volgende blok van 3 nog-niet-gemoderniseerde verzen.
+"""Detecteer het volgende blok nog-niet-gemoderniseerde verzen (default 3, zie --size).
 
 Gebruikt door sv-batch-orchestrate Stap 1. Vervangt het inline-Python-blok
 zodat de orchestrator-context niet vol loopt met herhaalde commandotekst.
@@ -18,6 +18,8 @@ def main() -> int:
     ap.add_argument("--chapter", required=True, type=int)
     ap.add_argument("--ceil", type=int, default=None,
                     help="Plafond bij doorgegeven range; verzen > ceil worden genegeerd.")
+    ap.add_argument("--size", type=int, default=3,
+                    help="Aantal verzen per batch (default 3).")
     args = ap.parse_args()
 
     boek, h = args.book, args.chapter
@@ -49,7 +51,8 @@ def main() -> int:
     if not todo:
         print("CHAPTER_COMPLETE")
     else:
-        nxt = todo[:3]
+        size = args.size if args.size and args.size > 0 else 3
+        nxt = todo[:size]
         print(f"NEXT={nxt[0]}-{nxt[-1]}")
     return 0
 

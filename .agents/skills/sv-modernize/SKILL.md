@@ -22,7 +22,11 @@ Bepaal:
   - `epilogue` — gebruiker vroeg expliciet om de epiloog
     ("moderniseer LUK 24 epiloog").
 
-Werkdirectory voor alle commando's: `/Users/wmotte/Desktop/projects/SVmodernisatie2026/`.
+Werkdirectory voor alle commando's: de huidige repo-root —
+`git rev-parse --show-toplevel`. Dat is de hoofdrepository, óf de actieve
+worktree onder `.../SVmodernisatie2026.wt/<suffix>/`. Gebruik nooit een
+hardcoded pad: een aanroep binnen een worktree moet in die worktree
+schrijven, niet in de hoofdrepository.
 
 ## Stap 0.5 — batch-handoff-afvang (verplicht, vóór Stap 1)
 
@@ -205,11 +209,18 @@ zinsbouw daarom vraagt.
 3. *Verwarringtest* — heeft het woord een dominant *andere* moderne
     betekenis (false friend)? Zo ja: zie `ARCHAISMEN.md` False friends.
 
-Bij twijfel: kijk naar `docs/diff_LUK_*.json`. SV2027 is **niet
-normatief** (hoofdletters, kanttekening-aantal, ref-formaat, intro-
-stijl volgen wij ánders), maar wanneer SV2027 een woord moderner
-oplost zonder zinsbouw of inhoud te wijzigen, is dat een sterk signaal
-dat ons woord een conservatief-issue is.
+Bij twijfel: spiegel tegen de HSV (boek-agnostisch beschikbaar). Regenereer
+zo nodig `docs/diff_hsv_<BOEK>_<H>.json` via
+`uv run python scripts/compare_hsv.py <BOEK> <H>` en lees dat. HSV is **niet
+normatief** (hoofdletters, kanttekening-aantal, ref-formaat, intro-stijl en
+exegese-toevoegingen volgen wij ánders — zie `AGENTS.md` en `MODERNISATIE.md
+§2.7`), maar wanneer HSV een woord moderner oplost zónder zinsbouw of inhoud
+te wijzigen, is dat een signaal dat ons woord een conservatief-issue is.
+HSV-bewijs alléén is nooit genoeg — verifieer tegen SV1657 + Grieks.
+
+> SV2027 (`docs/diff_LUK_*.json`) bestaat **alleen voor Lucas** als
+> post-hoc archief en wordt buiten LUK niet uitgegeven; gebruik daarbuiten
+> de HSV-spiegel.
 
 **Decision-memory (adviserend).** Bij aanhoudende twijfel over een
 woordkeus of concordantie-patroon raadpleeg eerder vastgelegde
@@ -411,11 +422,15 @@ uv run python scripts/lint_carryovers.py lint \
 `--terse` geeft één regel: `lint N candidates: word1(v3) word2(v1,v5) ...`
 (of `lint 0 candidates (...)` als alles schoon is).
 
-Per gerapporteerd kandidaat-woord drie opties:
-1. **Echt archaïsme** → modernisatie aanpassen, woord op
-   `validate.py` blacklist + AGENTS.md archaïsme-tabel zetten.
+Per gerapporteerd kandidaat-woord drie opties (regel-bronlocaties: zie
+`REGELBESTANDEN.md` — alle lijsten staan in `scripts/rules_data.py` /
+`scripts/stoplist.txt`, niet in de linter/validator zelf):
+1. **Echt archaïsme** → modernisatie aanpassen, woord toevoegen aan
+   `ARCHAISM_BLACKLIST` in `scripts/rules_data.py` + de archaïsme-tabel in
+   `ARCHAISMEN.md`. (`validate.py` importeert `ARCHAISM_BLACKLIST`.)
 2. **Legitieme carry-over** (eigennaam, theologische term, gewoon Nederlands
-   woord) → toevoegen aan `STOPLIST` in `lint_carryovers.py`.
+   woord) → één regel toevoegen aan `scripts/stoplist.txt` (de STOPLIST die
+   `lint_carryovers.py` via `rules_data.py` inleest).
 3. **Bewuste twijfel** (zoals "Hebr." in V2) → opnemen in `notes`
    veld van het vers.
 
@@ -438,6 +453,10 @@ Geen lange uitleg. Output-JSON spreekt voor zich.
 
 - `input.sv/<BOEK>/<BOEK>.<H>.json` bestaat niet → meld pad en stop.
 - Vers-nummer buiten range → meld beschikbare nummers en stop.
-- `memory.py` faalt op `GOOGLE_API_KEY` → meld dat `.env` ontbreekt.
+- `memory.py` faalt op `GOOGLE_API_KEY` (config ontbreekt) → meld dat
+  `.env` ontbreekt en stop. Bij een **tijdelijke** API-storing in een
+  autonome loop: draai de query met `--allow-degraded` (lege resultaten +
+  `degraded: true`, exit 0), ga zonder concordantie door en markeer de
+  batch als `degraded` voor latere `memory.py sync`.
 - Validate faalt 3× op hetzelfde vers → schrijf vers weg, **niet** in
   memory, rapporteer expliciet welke issue blijft staan.

@@ -15,8 +15,8 @@ Alle META-artefacten zijn **boek-specifiek** (per `<BOEK>`-suffix) zodat
 parallelle meta-reviews van verschillende boeken elkaar niet
 overschrijven.
 
-Werkdirectory:
-`/Users/wmotte/Desktop/projects/SVmodernisatie2026/`.
+Werkdirectory: de huidige repo-root (`git rev-parse --show-toplevel`) —
+hoofdrepository of actieve worktree, nooit een hardcoded pad.
 
 ## Wanneer aanroepen
 
@@ -96,7 +96,7 @@ controle tegen SV1657, Grieks en de projectregels.
 
 **fossiel-lidwoord**:
 - Snippet bevat bijbeluitdrukking (zoon des mensen, koninkrijk der hemelen, dag des heren, woord des heren, geest des heren, engel des heren, etc.) → **bucket A**
-- Niet-bijbels + `frequency ≥ 3` → **bucket C** (uitbreiden `DREMPEL_ARCHAISMEN` in `scripts/adversarial_scan.py`)
+- Niet-bijbels + `frequency ≥ 3` → **bucket C** (uitbreiden `DREMPEL_ARCHAISMEN` in `scripts/rules_data.py`)
 - Niet-bijbels + `frequency < 3` → **bucket B**
 
 **latinaat-window**:
@@ -165,7 +165,7 @@ Aggregator: scripts/meta_diff_aggregate.py --book <BOEK> --chapters <RANGE>
 
 | Pattern | Kind | Freq | Target | Wijziging | Bewijs |
 |---|---|---|---|---|---|
-| `<key>` | carryover | 5 | `ARCHAISMEN.md` + `lint_carryovers.STOPLIST` | toegevoegd als trigger; alternatief 'omdat' | LUK 3:12, 7:4, 11:8 |
+| `<key>` | carryover | 5 | `ARCHAISMEN.md` + `scripts/stoplist.txt` | toegevoegd als trigger; alternatief 'omdat' | LUK 3:12, 7:4, 11:8 |
 | ... |
 
 ## Afgewezen deltas (rejected, §2.7-toets niet gehaald)
@@ -203,11 +203,15 @@ content-fixes met de nieuwe regels actief.
 2. Voor elke bucket-C-delta die §2.7-toets passeert: pas Edit toe
    volgens de mapping:
 
-| Delta-kind | Target | Wijze |
+Alle regeldata is gecentraliseerd in `scripts/rules_data.py` /
+`scripts/stoplist.txt` — zie `REGELBESTANDEN.md`. Bewerk de lijst op de
+bronlocatie, **niet** de linter/validator/scanner zelf (die importeren ze).
+
+| Delta-kind | Target (bronlocatie) | Wijze |
 |---|---|---|
-| `carryover` met HSV-modern alternatief | `ARCHAISMEN.md` tabel-uitbreiding (Oud → Modern rij) **en** `DREMPEL_ARCHAISMEN` in `scripts/adversarial_scan.py` (regel 86–105) | Edit beide |
-| `fossiel-lidwoord` niet-bijbels | `DREMPEL_ARCHAISMEN` in `scripts/adversarial_scan.py` (regel 86–105) — voeg `"<artikel>"` toe of een nieuwe `FOSSIL_LIDWOORD_PATTERNS`-tuple als de validatie woordcombinatie nodig heeft | Edit |
-| `latinaat-window` recurrent | `FALSE_FRIENDS` in `scripts/lint_false_friends.py` (regel 27) — nieuwe entry met `pattern`, `sv`, `modern`, `advies` | Edit |
+| `carryover` met HSV-modern alternatief | `ARCHAISMEN.md` tabel-uitbreiding (Oud → Modern rij) **en** `DREMPEL_ARCHAISMEN` in `scripts/rules_data.py` | Edit beide |
+| `fossiel-lidwoord` niet-bijbels | `DREMPEL_ARCHAISMEN` of `FOSSIL_GENITIVE_PAIRS` in `scripts/rules_data.py` (kies de tuple-vorm als de validatie de woordcombinatie nodig heeft) | Edit |
+| `latinaat-window` recurrent | `FALSE_FRIENDS` in `scripts/rules_data.py` — nieuwe entry met `pattern`, `sv`, `modern`, `advies`; houd de False-friends-tabel in `ARCHAISMEN.md` synchroon | Edit |
 | `cap-asym` interne inconsistentie | Geen auto-edit. Voeg note toe in `scaffolding_deltas_<BOEK>.md` met de verzen die alignen, en welke kant de norm zou moeten zijn | doc-only |
 
 3. Commit op feature-branch. Boodschap: `chore: meta-review scaffolding deltas LUK 1-18`.

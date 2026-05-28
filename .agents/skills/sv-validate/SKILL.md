@@ -5,8 +5,9 @@ description: Valideer een gemoderniseerde vers-range tegen het origineel. Contro
 
 # sv-validate — modernisatie-controle
 
-Wrapper rond `scripts/validate.py`. Werkdirectory:
-`/Users/wmotte/Desktop/projects/SVmodernisatie2026/`.
+Wrapper rond `scripts/validate.py`. Werkdirectory: de huidige repo-root
+(`git rev-parse --show-toplevel`) — hoofdrepository of actieve worktree,
+nooit een hardcoded pad.
 
 ## check
 

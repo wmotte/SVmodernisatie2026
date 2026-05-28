@@ -10,8 +10,8 @@ externe LLM-aanroep, geen netwerkronde per vers — het agent-model doet de rede
 zelf op basis van de modernisatietekst, het SV1657-origineel, de Griekse
 brontekst, buurverzen, en concordantie-matches uit `sv-memory`.
 
-Werkdirectory:
-`/Users/wmotte/Desktop/projects/SVmodernisatie2026/`.
+Werkdirectory: de huidige repo-root (`git rev-parse --show-toplevel`) —
+hoofdrepository of actieve worktree, nooit een hardcoded pad.
 
 ## Wanneer aanroepen
 
