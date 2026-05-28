@@ -1,0 +1,82 @@
+{
+  "book": "1TI",
+  "chapter": 6,
+  "reviewed_at": "2026-05-28T21:05:22+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-28T21:04:20+00:00",
+      "mode": "scan",
+      "issues_total": 4
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-28T21:05:22+00:00",
+      "mode": "verify",
+      "actions": [
+        "1TI-6-3-001: rebuttal verified",
+        "1TI-6-14-001: rebuttal verified",
+        "1TI-6-18-001: rebuttal verified",
+        "1TI-6-18-002: verified"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 3,
+      "severity": "soft",
+      "quote_modernized": "Indien iemand   een andere leer onderwij…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "1TI-6-3-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-28T21:05:22+00:00"
+    },
+    {
+      "category": "§2.3b bijwoord-coda",
+      "verse": 14,
+      "severity": "soft",
+      "quote_modernized": "Dat u   dit gebod houdt, onbevlekt en onberispelijk, tot op de verschijning va…",
+      "rule_reference": "MODERNISATIE.md §2.3b",
+      "explanation": "'onberispelijk,' aan zinseind — verifieer of dit bijwoord niet als coda achteraf is blijven hangen ('wandelende … onberispelick' → 'wandelden onberispelijk in …').",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "1TI-6-14-001",
+      "status": "verified",
+      "rebuttal": "In 1TI 6:14 zijn 'onbevlekt' en 'onberispelijk' adjectieven bij 'dit gebod' (Grieks τηρῆσαί σε τὴν ἐντολὴν ἄσπιλον, ἀνεπίληπτον), niet een los bijwoord-coda na een participium. MODERNISATIE.md §2.3b raakt constructies als 'wandelende ... onberispelijk', niet deze objectbepaling.",
+      "verified_at": "2026-05-28T21:05:22+00:00"
+    },
+    {
+      "category": "§2.3b bijwoord-coda",
+      "verse": 18,
+      "severity": "soft",
+      "quote_modernized": "…oede werken, graag vrijgevig zijn, en   omgangelijk:",
+      "rule_reference": "MODERNISATIE.md §2.3b",
+      "explanation": "'omgangelijk:' aan zinseind — verifieer of dit bijwoord niet als coda achteraf is blijven hangen ('wandelende … onberispelick' → 'wandelden onberispelijk in …').",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "1TI-6-18-001",
+      "status": "verified",
+      "rebuttal": "In 1TI 6:18 geeft 'omgangelijk' het Griekse predicatieve adjectief κοινωνικούς weer, parallel aan εὐμεταδότους; het is geen bijwoord bij een verzwegen participium. §2.3b bijwoord-coda is daarom niet van toepassing.",
+      "verified_at": "2026-05-28T21:05:22+00:00"
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 18,
+      "severity": "soft",
+      "quote_modernized": "Dat zij weldadig zijn, rijk worden in goede werk…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'weldadig' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": "Dat zij goeddoen, rijk worden in goede werken, graag vrijgevig zijn, [en] ... omgangelijk:",
+      "location": "hoofdtekst",
+      "id": "1TI-6-18-002",
+      "status": "verified",
+      "fix_note": "'weldadig zijn' gemoderniseerd naar 'goeddoen' voor ἀγαθοεργεῖν; dit volgt de §2.7 leesbaarheidstest en sluit aan bij projectgebruik in LUK 6:33.",
+      "verified_at": "2026-05-28T21:05:22+00:00"
+    }
+  ]
+}
