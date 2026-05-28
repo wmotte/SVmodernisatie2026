@@ -3,7 +3,9 @@
 
 Per verse, extract candidate patterns from the (sv2026 ↔ hsv ↔ original)
 triple and aggregate across chapters. Output:
-`output/META/candidates.json` — grouped per kind, sorted by frequency desc.
+`output/META/candidates_<BOEK>.json` — grouped per kind, sorted by
+frequency desc. Per-book pad zodat parallelle boeken elkaar niet
+overschrijven.
 
 Four pattern kinds:
   - carryover         : tokens in sv2026 ∩ original, not in hsv (modulo stoplists)
@@ -422,8 +424,11 @@ def main() -> int:
                    help="Komma-lijst van pattern-kinds")
     p.add_argument("--refresh", action="store_true",
                    help="Draai compare_hsv.py per hoofdstuk eerst")
-    p.add_argument("--output", default="output/META/candidates.json")
+    p.add_argument("--output", default=None,
+                   help="Output-pad. Default: output/META/candidates_<BOEK>.json")
     args = p.parse_args()
+    if args.output is None:
+        args.output = f"output/META/candidates_{args.book}.json"
 
     chapters = parse_chapter_range(args.chapters)
     kinds_tuple = tuple(k.strip() for k in args.kinds.split(",") if k.strip())

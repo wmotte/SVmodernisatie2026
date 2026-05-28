@@ -332,7 +332,7 @@ De modernisatie-pipeline is gelaagd en grotendeels model- en aanbiederonafhankel
 | `scripts/lint_false_friends.py`       | Woorden met verschoven betekenis t.o.v. SV / Grieks        |
 | `scripts/check_refdata.py`            | Controle op de CSV-tabellen in `refdata/`              |
 | `scripts/adversarial_scan.py`         | Strenge scanner per hoofdstuk; schrijft `output/<BOEK>/review.<H>.json` met scan/verificatie |
-| `scripts/meta_diff_aggregate.py`      | Deterministische aggregator over `docs/diff_hsv_<BOEK>_*.json` — schrijft `output/META/candidates.json` (carryover, fossiel-lidwoord, latinaat-window, cap-asym) |
+| `scripts/meta_diff_aggregate.py`      | Deterministische aggregator over `docs/diff_hsv_<BOEK>_*.json` — schrijft `output/META/candidates_<BOEK>.json` (carryover, fossiel-lidwoord, latinaat-window, cap-asym) |
 | `refdata/afkortingen.csv`        | SV-afkortingen → moderne notatie                                |
 | `refdata/bible_book_references.csv` | Modern boeknaam → afkorting (`Genesis,Gn.` etc.)             |
 | `input.sv/<BOEK>/`               | Invoer per boek/hoofdstuk (SV1657 + Textus Receptus)            |
@@ -653,8 +653,8 @@ en zoekt naar **cross-chapter patronen** in de HSV-diffs:
 
 **Aggregatie is deterministisch:** `scripts/meta_diff_aggregate.py`
 leest alle `docs/diff_hsv_<BOEK>_*.json`-bestanden, telt frequenties,
-groepeert per pattern-kind en schrijft `output/META/candidates.json`.
-Geen LLM-aanroep.
+groepeert per pattern-kind en schrijft `output/META/candidates_<BOEK>.json`
+(boek-specifiek). Geen LLM-aanroep.
 
 ```bash
 uv run python scripts/meta_diff_aggregate.py \
@@ -665,8 +665,8 @@ uv run python scripts/meta_diff_aggregate.py \
 
 | Bucket | Betekenis | Actie |
 |---|---|---|
-| **A** | HSV-keuze, parafrase, eerbiedshoofdletter — geen modernisatie-tekortkoming | Log in `scaffolding_deltas.md`, geen edit |
-| **B** | Modernisatie-fix die we gemist hebben (drempel-archaïsme, false friend, fossiel) | Per occurrence opnemen in `output/META/findings.json` met `review.<H>.json`-issue-schema |
+| **A** | HSV-keuze, parafrase, eerbiedshoofdletter — geen modernisatie-tekortkoming | Log in `scaffolding_deltas_<BOEK>.md`, geen edit |
+| **B** | Modernisatie-fix die we gemist hebben (drempel-archaïsme, false friend, fossiel) | Per occurrence opnemen in `output/META/findings_<BOEK>.json` met `review.<H>.json`-issue-schema |
 | **C** | Scaffolding-gap — bestaande lint had het pattern moeten vangen (≥3× voorkomen) | Regel-delta uitrollen (uitbreiding `DREMPEL_ARCHAISMEN`, `ARCHAISM_BLACKLIST`, `FALSE_FRIENDS`, `STOPLIST`) |
 
 **Apply-modus** rolt de gevonden fixes daadwerkelijk uit, gesplitst over
