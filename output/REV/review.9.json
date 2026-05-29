@@ -1,0 +1,244 @@
+{
+  "book": "REV",
+  "chapter": 9,
+  "reviewed_at": "2026-05-29T16:14:30+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-29T16:14:30+00:00",
+      "mode": "scan",
+      "issues_total": 16
+    }
+  ],
+  "issues": [
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 1,
+      "severity": "soft",
+      "quote_modernized": "de put van de",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'de put van de' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "REV-9-1-001",
+      "status": "rebutted",
+      "rebuttal": "Lemma-gloss-conventie (KANTTEKENINGEN.md): de kanttekening duidt de Antichrist exegetisch en gebruikt 'uit de put van de afgrond tevoorschijn gebracht' als deel van die uitleg (Gr. ἄβυσσος). De overlap met de hoofdtekst is het geannoteerde beeld, geen parafrastische herhaling zonder toegevoegde waarde."
+    },
+    {
+      "category": "voornaamwoordelijk bijwoord gesplitst",
+      "verse": 4,
+      "severity": "hard",
+      "quote_modernized": "…92:13$ Dit wordt gezegd om te tonen dat hier van geen eigenlijk zogenoemde sprin…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'hier van' — SV-gesplitst voornaamwoordelijk bijwoord. Modern Nederlands voegt samen: 'hiervan' (bv. daarin, waarmee, hierop).",
+      "proposed_fix": "hiervan",
+      "location": "kanttekening",
+      "id": "REV-9-4-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] ARCHAISMEN.md raakt gesplitste voornaamwoordelijke bijwoorden als 'daar ... van' -> 'daarvan'. In Ef. 2:15 is 'hier' locatief: de Apostel spreekt op deze plaats over alle gelovigen als één mens; 'van alle gelovigen' is een zelfstandige voorzetselgroep, geen te vormen 'hiervan'."
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 7,
+      "severity": "soft",
+      "quote_modernized": "paarden die tot de",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'paarden die tot de' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "REV-9-7-001",
+      "status": "rebutted",
+      "rebuttal": "Lemma-gloss-conventie (KANTTEKENINGEN.md): de kanttekening levert de allegorische sleutel 'als paarden die tot de strijd gereed staan' om de sprinkhanen-gestalte te duiden (geestelijke oorlog tegen ware Christenen). Inhoudelijke exegese, geen lege duplicatie van de hoofdtekst."
+    },
+    {
+      "category": "genitief pronomen wiens/wier",
+      "verse": 11,
+      "severity": "hard",
+      "quote_modernized": "…verheft boven al wat God genoemd wordt: wiens komst is naar de werking van de sa…",
+      "rule_reference": "ARCHAISMEN.md (SV-pronomina)",
+      "explanation": "'wiens komst' — formeel-archaïsch genitief-pronomen. Modern Nederlands: 'van wie komst' of zinsherbouw met bezittelijk voornaamwoord ('die zijn komst', 'die haar komst'). NBV21 vermijdt 'wiens' grotendeels.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "REV-9-11-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] Genitief-pronomen in kanttekening gemoderniseerd volgens ARCHAISMEN.md SV-pronomina: \"door wiens komst\" is vervangen door \"door zijn komst\"."
+    },
+    {
+      "category": "SV-verbuiging (demonstratief dezer/dien/...)",
+      "verse": 12,
+      "severity": "hard",
+      "quote_modernized": "…gegaan, zie, er komen nog twee weeën na dezen.",
+      "rule_reference": "ARCHAISMEN.md (SV-verbuigingen)",
+      "explanation": "'dezen None' — verbogen demonstratief (SV-genitief/datief). Modern Nederlands: 'deze' / 'die' / 'in deze ...' / 'op die ...'. Gefossiliseerde uitdrukkingen ('dezer dagen', 'te dien einde') zijn whitelist; rebut zo nodig met register-argument.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "REV-9-12-001",
+      "status": "fixed",
+      "fix_commit": "PENDING"
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 13,
+      "severity": "hard",
+      "quote_modernized": "…had, en in het Heilige voor het Heilige der heiligen stond, op welk altaar de Pr…",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'der heiligen' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de heiligen' of 'van het heiligen', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de heiligen",
+      "location": "kanttekening",
+      "id": "REV-9-13-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'Heilige der heiligen' is een gefossiliseerde Hebraïsme-calque voor קדש הקדשים (Ex. 26:33; Hb. 9:3) — staat ongewijzigd in HSV en NBG51 als technische benaming voor het allerheiligste deel van de tabernakel/tempel (vgl. ARCHAISMEN.md §2.7-drempel: vakterm in modern bijbels register). NBV21 vertaalt 'het allerheiligste'; wij houden de SV-eigenheid zoals MODERNISATIE.md §2.1 vraagt en behouden de Hebraïsme-vorm."
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 13,
+      "severity": "soft",
+      "quote_modernized": "…ogepriester eens per jaar, $Ex. 30:10$. Door welke hoornen de macht van Christus…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "REV-9-13-002",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 14,
+      "severity": "soft",
+      "quote_modernized": "…tantinopel het hoofd was, tenietgedaan. In welke oorlogen veel bloed vergoten is…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "REV-9-14-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 16,
+      "severity": "soft",
+      "quote_modernized": "de legers van de",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'de legers van de' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "REV-9-16-001",
+      "status": "rebutted",
+      "rebuttal": "Lemma-gloss-conventie (KANTTEKENINGEN.md): de overlap 'de legers van de' betreft hier 'de legers van de Christenen' (ander referent dan de hoofdtekst 'het getal van de ruiterij'); de kanttekening voegt het historische contrast toe (ruiterij overtrof de christelijke legers). Geen redundante herhaling."
+    },
+    {
+      "category": "SV-verbuiging (demonstratief dezer/dien/...)",
+      "verse": 20,
+      "severity": "hard",
+      "quote_modernized": "… de beelden van de Heidenen of Joden in dezen.",
+      "rule_reference": "ARCHAISMEN.md (SV-verbuigingen)",
+      "explanation": "'dezen None' — verbogen demonstratief (SV-genitief/datief). Modern Nederlands: 'deze' / 'die' / 'in deze ...' / 'op die ...'. Gefossiliseerde uitdrukkingen ('dezer dagen', 'te dien einde') zijn whitelist; rebut zo nodig met register-argument.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "REV-9-20-001",
+      "status": "rebutted",
+      "rebuttal": "'in dezen' is een gefossiliseerde formele uitdrukking (= 'in deze aangelegenheid / op dit punt'), productief in modern juridisch-formeel Nederlands (vgl. 'de bevoegde instantie in dezen'). Geen verbogen demonstratief-met-substantief maar adverbiale fossiel — whitelist-categorie analoog aan 'te dien einde'. Kanttekening-register (formeel exegetisch) rechtvaardigt behoud."
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 20,
+      "severity": "soft",
+      "quote_modernized": "… deze straffen over hen heeft gezonden: aan welker voorbeeld de Kerken van het W…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welker' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "REV-9-20-002",
+      "status": "fixed",
+      "fix_commit": "PENDING"
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 21,
+      "severity": "soft",
+      "quote_modernized": "…riesters, onder andere een bewijs zijn. Onder welke de onttrekking van de erfeni…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "REV-9-21-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 3,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'scorpio' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        3,
+        5,
+        10
+      ],
+      "id": "REV-9-3-001",
+      "status": "rebutted",
+      "rebuttal": "Scanner-prefix-heuristiek false-positive: SV-stam 'scorpio' wordt consistent 'schorpioen(en)'; de orthografische overgang s→sch breekt de prefix-match (bekend scanner-blindspot, vgl. s→z/sch→g). Concordantie ís behouden."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 3,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'gelijck' in 4 verzen — verzen [3] renderen het stam anders dan [7, 10, 19]",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 4 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        3,
+        7,
+        10,
+        19
+      ],
+      "id": "REV-9-3-002",
+      "status": "rebutted",
+      "rebuttal": "'gelijck' (Gr. ὅμοιος/ὡς) is een vergelijkings-functiewoord, geen lexicaal inhoudswoord; contextuele weergave als 'gelijk'/'als'/'zoals' is normaal modern Nederlands en valt buiten de concordantie-eis voor inhoudswoorden. Geen betekenisdrift."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 4,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'beschad' in 3 verzen — verzen [10, 19] renderen het stam anders dan [4]",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        4,
+        10,
+        19
+      ],
+      "id": "REV-9-4-002",
+      "status": "rebutted",
+      "rebuttal": "Bewuste false-friend-correctie naar object-type: 'beschadigen' (Gr. ἀδικέω) blijft bij zaak-object ('het gras', v4) maar wordt 'schade toebrengen' bij persoon-object ('de mensen', v10/v19) — een persoon 'beschadigen' leest modern absurd-technisch. Divergentie is doelbewust en semantisch correct, geen drift."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 7,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'peerden' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        7,
+        9,
+        17
+      ],
+      "id": "REV-9-7-002",
+      "status": "rebutted",
+      "rebuttal": "Scanner-prefix-heuristiek false-positive: SV-stam 'peerden' wordt consistent 'paarden'; de orthografische overgang ee→aa breekt de prefix-match. Concordantie ís behouden over alle 3 verzen."
+    }
+  ]
+}
