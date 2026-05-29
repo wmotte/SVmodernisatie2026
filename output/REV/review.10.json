@@ -1,13 +1,32 @@
 {
   "book": "REV",
   "chapter": 10,
-  "reviewed_at": "2026-05-29T19:15:58+00:00",
+  "reviewed_at": "2026-05-29T19:19:46+00:00",
   "passes": [
     {
       "pass": 1,
       "ran_at": "2026-05-29T19:15:58+00:00",
       "mode": "scan",
       "issues_total": 12
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-29T19:19:46+00:00",
+      "mode": "verify",
+      "actions": [
+        "REV-10-1-001: rebuttal verified",
+        "REV-10-1-002: verified",
+        "REV-10-1-003: rebuttal verified",
+        "REV-10-4-001: rebuttal verified",
+        "REV-10-6-001: verified",
+        "REV-10-7-001: rebuttal verified",
+        "REV-10-7-002: rebuttal verified",
+        "REV-10-7-003: rebuttal verified",
+        "REV-10-7-004: rebuttal verified",
+        "REV-10-8-001: rebuttal verified",
+        "REV-10-11-001: rebuttal verified",
+        "REV-10-11-002: rebuttal verified"
+      ]
     }
   ],
   "issues": [
@@ -21,8 +40,9 @@
       "proposed_fix": "van de koningen",
       "location": "kanttekening",
       "id": "REV-10-1-001",
-      "status": "rebutted",
-      "rebuttal": "'Koning der koningen' (kanttekening v1) is een gefossiliseerde bijbeluitdrukking voor het Griekse βασιλεὺς τῶν βασιλέων (vgl. Op. 17:14; 19:16; 1Tm. 6:15), canoniek behouden in HSV/NBV. §2 staat fossiele genitiefconstructies (zoals 'Koninkrijk der hemelen', 'Zoon des mensen') expliciet toe; 'der koningen' valt in dezelfde categorie en is hier vers-specifiek geen productieve genitief."
+      "status": "verified",
+      "rebuttal": "'Koning der koningen' (kanttekening v1) is een gefossiliseerde bijbeluitdrukking voor het Griekse βασιλεὺς τῶν βασιλέων (vgl. Op. 17:14; 19:16; 1Tm. 6:15), canoniek behouden in HSV/NBV. §2 staat fossiele genitiefconstructies (zoals 'Koninkrijk der hemelen', 'Zoon des mensen') expliciet toe; 'der koningen' valt in dezelfde categorie en is hier vers-specifiek geen productieve genitief.",
+      "verified_at": "2026-05-29T19:19:46+00:00"
     },
     {
       "category": "voornaamwoordelijk bijwoord gesplitst",
@@ -34,7 +54,8 @@
       "proposed_fix": "hiervoor",
       "location": "kanttekening",
       "id": "REV-10-1-002",
-      "status": "fixed"
+      "status": "verified",
+      "verified_at": "2026-05-29T19:19:46+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -46,8 +67,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-10-1-003",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-29T19:19:46+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -59,8 +81,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-10-4-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-29T19:19:46+00:00"
     },
     {
       "category": "SV-verbuiging (demonstratief dezer/dien/...)",
@@ -72,7 +95,8 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "REV-10-6-001",
-      "status": "fixed"
+      "status": "verified",
+      "verified_at": "2026-05-29T19:19:46+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -84,8 +108,9 @@
       "proposed_fix": "van de doden",
       "location": "kanttekening",
       "id": "REV-10-7-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] 'de opstanding der doden' is gefossiliseerde Bijbelse uitdrukking (vgl. Apostolicum 'wederopstanding des vleses', Geloofsbelijdenis 'opstanding der doden'; Hand. 17:32, 23:6, 26:23, 1 Kor. 15:12). Vaste theologische collocatie; vervangen door 'van de doden' breekt liturgische concordantie. §2.7-fossiel-uitzondering."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] 'de opstanding der doden' is gefossiliseerde Bijbelse uitdrukking (vgl. Apostolicum 'wederopstanding des vleses', Geloofsbelijdenis 'opstanding der doden'; Hand. 17:32, 23:6, 26:23, 1 Kor. 15:12). Vaste theologische collocatie; vervangen door 'van de doden' breekt liturgische concordantie. §2.7-fossiel-uitzondering.",
+      "verified_at": "2026-05-29T19:19:46+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -97,8 +122,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-10-7-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] ARCHAISMEN.md: 'hetwelk de Apostel hier zegt' = formeel-register relativum in kanttekening-gloss (corpusnorm 134 verified). Vers 10, geen hoofdtekst."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] ARCHAISMEN.md: 'hetwelk de Apostel hier zegt' = formeel-register relativum in kanttekening-gloss (corpusnorm 134 verified). Vers 10, geen hoofdtekst.",
+      "verified_at": "2026-05-29T19:19:46+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -110,8 +136,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-10-7-003",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-29T19:19:46+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -123,8 +150,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-10-7-004",
-      "status": "rebutted",
-      "rebuttal": "De kanttekening v7 ('de stem van de Aartsengel') is geen parafrase van de hoofdtekst maar een distincte exegetische claim: zij identificeert WIE de stem voortbrengt (de Aartsengel op de uiterste dag, met opstanding en oordeel, $1Kor. 15:52; 1Th. 4:16$). De 4-token-overlap 'de stem van de' betreft enkel functiewoorden; KANTTEKENINGEN.md verbiedt parafrastische herhaling, niet exegetische identificatie. Vers-specifiek: de noot voegt referent + eschatologische duiding toe, geen herhaling."
+      "status": "verified",
+      "rebuttal": "De kanttekening v7 ('de stem van de Aartsengel') is geen parafrase van de hoofdtekst maar een distincte exegetische claim: zij identificeert WIE de stem voortbrengt (de Aartsengel op de uiterste dag, met opstanding en oordeel, $1Kor. 15:52; 1Th. 4:16$). De 4-token-overlap 'de stem van de' betreft enkel functiewoorden; KANTTEKENINGEN.md verbiedt parafrastische herhaling, niet exegetische identificatie. Vers-specifiek: de noot voegt referent + eschatologische duiding toe, geen herhaling.",
+      "verified_at": "2026-05-29T19:19:46+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -136,8 +164,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "REV-10-8-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] πάλιν in v1 markeert herbezoek aan de Synagoge na MRK 1:21,39; 'wederom' is corpusconsequent (LUK 21×; MRK 2:1+2:13 verified-rebutted) en staat op lint_carryovers.py STOPLIST (regel 218). §2.7 productiviteitstest: 'wederom' blijft productief in bijbels-formeel register; renovatie ≠ hervertaling (AGENTS.md vertaalprincipe 1)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] πάλιν in v1 markeert herbezoek aan de Synagoge na MRK 1:21,39; 'wederom' is corpusconsequent (LUK 21×; MRK 2:1+2:13 verified-rebutted) en staat op lint_carryovers.py STOPLIST (regel 218). §2.7 productiviteitstest: 'wederom' blijft productief in bijbels-formeel register; renovatie ≠ hervertaling (AGENTS.md vertaalprincipe 1).",
+      "verified_at": "2026-05-29T19:19:46+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -149,8 +178,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "REV-10-11-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] πάλιν in v1 markeert herbezoek aan de Synagoge na MRK 1:21,39; 'wederom' is corpusconsequent (LUK 21×; MRK 2:1+2:13 verified-rebutted) en staat op lint_carryovers.py STOPLIST (regel 218). §2.7 productiviteitstest: 'wederom' blijft productief in bijbels-formeel register; renovatie ≠ hervertaling (AGENTS.md vertaalprincipe 1)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] πάλιν in v1 markeert herbezoek aan de Synagoge na MRK 1:21,39; 'wederom' is corpusconsequent (LUK 21×; MRK 2:1+2:13 verified-rebutted) en staat op lint_carryovers.py STOPLIST (regel 218). §2.7 productiviteitstest: 'wederom' blijft productief in bijbels-formeel register; renovatie ≠ hervertaling (AGENTS.md vertaalprincipe 1).",
+      "verified_at": "2026-05-29T19:19:46+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -162,8 +192,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-10-11-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-29T19:19:46+00:00"
     }
   ]
 }
