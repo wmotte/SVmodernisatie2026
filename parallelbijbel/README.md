@@ -35,6 +35,9 @@ Op volgorde van de NT-canon. `build/<BOEK>.pdf` is de volledige uitgave,
 | 2JN | De tweede brief van Johannes | [2JN.pdf](build/2JN.pdf) | [2JN_voorbeeld.pdf](2JN_voorbeeld.pdf) |
 | 3JN | De derde brief van Johannes | [3JN.pdf](build/3JN.pdf) | [3JN_voorbeeld.pdf](3JN_voorbeeld.pdf) |
 | JUD | De brief van Judas | [JUD.pdf](build/JUD.pdf) | [JUD_voorbeeld.pdf](JUD_voorbeeld.pdf) |
+| REV | De Openbaring van Johannes¹ | [REV.pdf](build/REV.pdf) | [REV_voorbeeld.pdf](REV_voorbeeld.pdf) |
+
+¹ Nog onvolledig: hoofdstukken 1–11 van 22.
 
 ## Vereisten
 
