@@ -54,7 +54,7 @@ voorbeeld-PDF om te lezen. **✓** = alle hoofdstukken gemoderniseerd ·
 | Lucas | Evangelie | ✓ 24/24 | [PDF](parallelbijbel/LUK_voorbeeld.pdf) |
 | Romeinen | brief | ✓ 16/16 | [PDF](parallelbijbel/ROM_voorbeeld.pdf) |
 | 1 Korinthiërs | brief | ✓ 16/16 | [PDF](parallelbijbel/1CO_voorbeeld.pdf) |
-| 2 Korinthiërs | brief | ◐ 7/13 | [PDF](parallelbijbel/2CO_voorbeeld.pdf) |
+| 2 Korinthiërs | brief | ✓ 13/13 | [PDF](parallelbijbel/2CO_voorbeeld.pdf) |
 | Galaten | brief | ✓ 6/6 | [PDF](parallelbijbel/GAL_voorbeeld.pdf) |
 | Efeziërs | brief | ✓ 6/6 | [PDF](parallelbijbel/EPH_voorbeeld.pdf) |
 | Filippenzen | brief | ✓ 4/4 | [PDF](parallelbijbel/PHP_voorbeeld.pdf) |
