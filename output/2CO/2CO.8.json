@@ -115,6 +115,46 @@
       "generated_at": "2026-05-29T04:28:10.253072Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 13,
+      "original": "Want [dit en segge ick] niet op dat andere souden verlichtinge hebben, ende ghy <Dat is, op dat andere souden overvloet door uwe gaven verkrijgen, ende ghy gebreck hebben, ofte u te seer benauwen.> verdruckinge:",
+      "modernized": "Want [dit zeg ik] niet opdat anderen verlichting zouden hebben, en u <Dat is, opdat anderen overvloed door uw gaven zouden verkrijgen, en u gebrek hebben, of u te zeer benauwen.> verdrukking:",
+      "source_text": "οὐ γὰρ ἵνα ἄλλοις ἄνεσις, ὑμῖν δὲ θλίψις·",
+      "generated_at": "2026-05-29T04:33:39.600919Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 14,
+      "original": "Maer [op dat] uyt gelijckheyt, in de-sen tegenwoordigen tijt, uwen overvloet [zy] om haer gebreck [te vervullen:] <Namelick, wannneer ghy in den tijt der vervolginge, ofte andersins, hare hulpe oock soudt mogen van doen hebben. Andere nemen het van den overvloet der geestelicke gaven, die die van Ierusalem den Heydenen te vlijtelicker ende te bequamer souden mededeelen, wanneer sy om den tijtlicken leeftocht haer niet en souden moeten bekommeren.> op dat oock haren overvloet zy om uw’ gebreck [te vervullen,] <Namelick, in het geven ofte ontfangen na den noot ende overvloet van een yeder. Ofte, op dat het een lidt niet te seer en overvloeije, ende het ander niet te benauwt en zy: het welck met het volgende vers wel soo wel over een komt.> op datter gelijckheyt worde.",
+      "modernized": "Maar [opdat] er uit gelijkheid, in deze tegenwoordige tijd, uw overvloed [is] om hun gebrek [te vervullen:] <Namelijk, wanneer u in de tijd van vervolging, of anderszins, hun hulp ook nodig zou kunnen hebben. Anderen nemen het van de overvloed van de geestelijke gaven, die degenen van Jeruzalem aan de Heidenen des te ijveriger en des te bekwamer zouden meedelen, wanneer zij zich om het tijdelijke levensonderhoud niet zouden moeten bekommeren.> opdat ook hun overvloed er is om uw gebrek [te vervullen,] <Namelijk, in het geven of ontvangen naar de nood en overvloed van een ieder. Of, opdat het ene lid niet te zeer overvloed heeft, en het andere niet te benauwd is: hetgeen met het volgende vers wel zo goed overeenkomt.> opdat er gelijkheid ontstaat.",
+      "source_text": "ἀλλ’ ἐξ ἰσότητος, ἐν τῷ νῦν καιρῷ τὸ ὑμῶν περίσσευμα εἰς τὸ ἐκείνων ὑστέρημα, ἵνα καὶ τὸ ἐκείνων περίσσευμα γένηται εἰς τὸ ὑμῶν ὑστέρημα· ὅπως γένηται ἰσότης,",
+      "generated_at": "2026-05-29T04:34:15.888675Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "subject": "gelijkheid wordt",
+          "context": "hoofdtekst",
+          "choice": "gelijkheid ontstaat",
+          "alternatives": [
+            "gelijkheid wordt",
+            "gelijkheid zal zijn"
+          ],
+          "reason": "HSV-spiegel bevestigde een grammaticale mismatch; Grieks γένηται en SV 'worde' dragen worden/ontstaan, niet de onidiomatische constructie 'er gelijkheid wordt'."
+        }
+      ]
+    },
+    {
+      "verse_number": 15,
+      "original": "Gelijck <Nam. Exod. 16. vers 18. in het versamelen van het manna. Want die veel versamelt hadden, en namen daer uyt maer elck een gomer tot haren leeftocht, die weynigh, vervulden dat selve gomer uyt het gene van andere versamelt was, dat yemant meer t’huys bracht, verderf ende gingh verloren.> geschreven is, $Exod. 16.18.$ Die veel [versamelt hadde,] en hadde niet over: ende die weynigh [versamelt hadde], en hadde niet te weynigh.",
+      "modernized": "Zoals <Namelijk, $Ex. 16:18$ bij het verzamelen van het manna. Want die veel verzameld hadden, namen daaruit maar elk één gomer tot hun levensonderhoud; die weinig, vulden diezelfde gomer uit hetgeen door anderen verzameld was, zodat wat iemand meer thuisbracht, bedierf en ging verloren.> geschreven is, $Ex. 16:18$ Die veel [verzameld had,] had niet over; en die weinig [verzameld had], had niet te weinig.",
+      "source_text": "καθὼς γέγραπται, Ὁ τὸ πολύ, οὐκ ἐπλεόνασε· καὶ ὁ τὸ ὀλίγον, οὐκ ἠλαττόνησε.",
+      "generated_at": "2026-05-29T04:34:36.174236Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }

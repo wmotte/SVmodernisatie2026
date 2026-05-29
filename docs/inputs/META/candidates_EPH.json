@@ -1,0 +1,159 @@
+{
+  "book": "EPH",
+  "chapters": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "min_freq": 2,
+  "kinds": [
+    "carryover",
+    "fossiel-lidwoord",
+    "latinaat-window",
+    "cap-asym"
+  ],
+  "total_patterns": 4,
+  "patterns_by_kind": {
+    "carryover": [
+      {
+        "pattern_id": "p-0001",
+        "kind": "carryover",
+        "key": "prijs",
+        "frequency": 3,
+        "hsv_alternatives": [
+          "lof",
+          "waarmee",
+          "eerder",
+          "gevestigd",
+          "ten"
+        ],
+        "severity_hint": "hard",
+        "occurrences": [
+          {
+            "book": "EPH",
+            "chapter": 1,
+            "verse": 6,
+            "sv2026_excerpt": "  Tot prijs van de heerlijkheid van zijn genade, waardoo…",
+            "hsv_excerpt": "tot lof van de heerlijkheid van Zijn genade, waarmee Hij ons begenadigd heeft   in de Geliefde.",
+            "original_excerpt": "  Tot prijs der heerlickheyt sijner genade, door welcke hy ons   begenadight heeft   in den   Geliefden:"
+          },
+          {
+            "book": "EPH",
+            "chapter": 1,
+            "verse": 12,
+            "sv2026_excerpt": "Opdat wij zouden zijn tot prijs van zijn heerlijkheid,   die wij eerst op Ch…",
+            "hsv_excerpt": "opdat wij tot lof van Zijn heerlijkheid zouden zijn, wij , die al eerder onze hoop op Christus gevestigd hadden.",
+            "original_excerpt": "Op dat wy souden zijn tot prijs sijner heerlickheyt,   die wy eerst in Christo   gehoopt hebben."
+          },
+          {
+            "book": "EPH",
+            "chapter": 1,
+            "verse": 14,
+            "sv2026_excerpt": "…nze erfenis,   tot   de verkregen verlossing, tot prijs van zijn heerlijkheid.",
+            "hsv_excerpt": "Die het onderpand is van onze erfenis, tot   de verlossing die ons ten deel viel,   tot lof van Zijn heerlijkheid.",
+            "original_excerpt": "Die   het onderpant is van onse erfenisse,   tot   de verkregene verlossinge, tot prijs sijner heerlickheyt."
+          }
+        ]
+      }
+    ],
+    "cap-asym": [
+      {
+        "pattern_id": "p-0002",
+        "kind": "cap-asym",
+        "key": "heidenen",
+        "frequency": 4,
+        "hsv_alternatives": [],
+        "severity_hint": "soft",
+        "occurrences": [
+          {
+            "book": "EPH",
+            "chapter": 2,
+            "verse": 11,
+            "sv2026_excerpt": "Daarom gedenk dat u, die voorheen Heidenen was   in het vlees, en die   voorhuid gen…",
+            "hsv_excerpt": "Bedenk daarom dat u die voorheen heidenen was in het vlees en die onbesnedenen   genoemd werd door hen die genoemd worden besnijdenis in het",
+            "original_excerpt": ""
+          },
+          {
+            "book": "EPH",
+            "chapter": 3,
+            "verse": 1,
+            "sv2026_excerpt": "…  de gevangene   van Christus Jezus   voor u, die Heidenen bent:",
+            "hsv_excerpt": "Om deze reden ben ik, Paulus,   de gevangene van Christus Jezus, voor u, die heidenen bent,",
+            "original_excerpt": ""
+          },
+          {
+            "book": "EPH",
+            "chapter": 3,
+            "verse": 6,
+            "sv2026_excerpt": "Namelijk dat de Heidenen   mede-erfgenamen zijn, en van hetzelfde …",
+            "hsv_excerpt": "namelijk dat de heidenen mede-erfgenamen zijn en tot hetzelfde lichaam behoren en mededeelgenoten zijn van Zijn belofte in Christus, door he",
+            "original_excerpt": ""
+          },
+          {
+            "book": "EPH",
+            "chapter": 3,
+            "verse": 8,
+            "sv2026_excerpt": "…le heiligen is deze genade gegeven, om   onder de Heidenen door het Evangelie de onnaspeurlijke rijk…",
+            "hsv_excerpt": "Mij,   de allerminste van alle heiligen, is deze genade gegeven, om   onder de heidenen door het Evangelie de onnaspeurlijke rijkdom van Chr",
+            "original_excerpt": ""
+          }
+        ]
+      },
+      {
+        "pattern_id": "p-0003",
+        "kind": "cap-asym",
+        "key": "apostelen",
+        "frequency": 2,
+        "hsv_alternatives": [],
+        "severity_hint": "soft",
+        "occurrences": [
+          {
+            "book": "EPH",
+            "chapter": 2,
+            "verse": 20,
+            "sv2026_excerpt": "  Gebouwd   op   het fundament van de Apostelen en Profeten,     waarvan Jezus Christus …",
+            "hsv_excerpt": "  gebouwd   op het fundament van de apostelen en profeten,   waarvan Jezus Christus Zelf de hoeksteen is,",
+            "original_excerpt": ""
+          },
+          {
+            "book": "EPH",
+            "chapter": 3,
+            "verse": 5,
+            "sv2026_excerpt": "…kendgemaakt is,     zoals zij nu aan zijn heilige Apostelen   en Profeten is geopenbaard door de Gee…",
+            "hsv_excerpt": "dat in andere tijden niet bekendgemaakt is aan de mensenkinderen,   zoals het nu geopenbaard is aan Zijn heilige apostelen en profeten door ",
+            "original_excerpt": ""
+          }
+        ]
+      },
+      {
+        "pattern_id": "p-0004",
+        "kind": "cap-asym",
+        "key": "profeten",
+        "frequency": 2,
+        "hsv_alternatives": [],
+        "severity_hint": "soft",
+        "occurrences": [
+          {
+            "book": "EPH",
+            "chapter": 2,
+            "verse": 20,
+            "sv2026_excerpt": "… Gebouwd   op   het fundament van de Apostelen en Profeten,     waarvan Jezus Christus   de uiterste…",
+            "hsv_excerpt": "  gebouwd   op het fundament van de apostelen en profeten,   waarvan Jezus Christus Zelf de hoeksteen is,",
+            "original_excerpt": ""
+          },
+          {
+            "book": "EPH",
+            "chapter": 3,
+            "verse": 5,
+            "sv2026_excerpt": "…     zoals zij nu aan zijn heilige Apostelen   en Profeten is geopenbaard door de Geest:",
+            "hsv_excerpt": "dat in andere tijden niet bekendgemaakt is aan de mensenkinderen,   zoals het nu geopenbaard is aan Zijn heilige apostelen en profeten door ",
+            "original_excerpt": ""
+          }
+        ]
+      }
+    ]
+  }
+}

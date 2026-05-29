@@ -29,9 +29,12 @@ taalmodellen gedaan, langs een streng gecontroleerd proces.
 **De tekst naast elkaar in de browser** — geen download nodig:
 
 - 🔍 [**Vergelijkingsviewer**](https://wmotte.github.io/SVmodernisatie2026/compare_all.html)
-  — toont vijf versies naast elkaar: Statenvertaling 1657, GBS (met
-  kanttekeningen), de Herziene Statenvertaling, Initiatief SV2027 en
-  onze modernisatie, met kleurmarkering van de verschillen.
+  — zet de versies naast elkaar met kleurmarkering van de verschillen.
+  Voor **Lucas** zijn dat er vijf: Statenvertaling 1657, GBS (met de
+  volledige kanttekeningen), de Herziene Statenvertaling, Initiatief
+  SV2027 en de modernisatie. Voor de overige boeken staan SV1657, de
+  HSV en de modernisatie naast elkaar. Zie hieronder welke rol elke
+  vergelijking speelt.
 
 **Of download een voorbeeld-PDF** (parallelbijbel, oude en nieuwe tekst
 naast elkaar). De tabel hieronder toont meteen hoeveel van elk boek af
@@ -157,13 +160,32 @@ verouderde afkortingen worden uitgeschreven: `<D. ...>` → `<Dat is,
 </details>
 
 <details>
-<summary><strong>Waarom verschilt dit van de HSV of SV2027?</strong></summary>
+<summary><strong>Waarom verschilt dit van de HSV, GBS of SV2027?</strong></summary>
 
-De Herziene Statenvertaling en Initiatief SV2027 zijn parallel-
-vertalingen, geen norm voor dit project. Beide kiezen vaker voor
-parafrase en breken zinnen op een manier die wij bewust niet
-volgen. Ze dienen als bewijsbasis bij twijfel — nooit om de
-modernisatie naar hun keuzes toe te trekken. *(`MODERNISATIE.md §2.7`)*
+De Herziene Statenvertaling (HSV), de GBS-uitgave en Initiatief SV2027
+zijn **zelfstandige uitgaven met elk een eigen doel en doelgroep**.
+Daardoor gaan ze ook anders om met bijvoorbeeld hoofdletters
+(eerbiedskapitaal), het aantal en de vorm van de kanttekeningen, de
+intro-stijl en de mate van parafrase. Geen van drieën is een **norm**
+voor dit project; verschillen met de modernisatie zijn dus hun
+redactionele keuze, niet per definitie een fout aan één van beide
+kanten.
+
+Ze spelen hier ook niet dezelfde rol:
+
+- **HSV** is de enige vertaling die meedraait in de semantische
+  screening. Bij twijfel dient zij — naast SV1657 en het Grieks — als
+  spiegel om archaïsmen en taalfouten op te sporen, nooit om de
+  modernisatie naar HSV-keuzes toe te trekken. De HSV neemt zelf vaker
+  vrijheid (parafrase, exegese in de hoofdtekst); een stilistische
+  afwijking is daarom standaard een HSV-keuze en op zichzelf geen reden
+  om de modernisatie aan te passen.
+- **GBS** en **Initiatief SV2027** zijn alleen voor **Lucas**
+  toegevoegd, puur ter vergelijking in de viewer — ze worden níet voor
+  de screening gebruikt. De GBS-uitgave is daarbij de enige met de
+  **volledige kanttekeningen**.
+
+*(`MODERNISATIE.md §2.7` en de kalibratie-paragraaf)*
 </details>
 
 ---
