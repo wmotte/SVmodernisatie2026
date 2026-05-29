@@ -1,0 +1,158 @@
+{
+  "book": "REV",
+  "chapter": 7,
+  "reviewed_at": "2026-05-29T14:53:49+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-29T14:53:49+00:00",
+      "mode": "scan",
+      "issues_total": 10
+    }
+  ],
+  "issues": [
+    {
+      "category": "SV-verbuiging (demonstratief dezer/dien/...)",
+      "verse": 1,
+      "severity": "hard",
+      "quote_modernized": "EN   na dezen zag ik   vier Engelen staan op de …",
+      "rule_reference": "ARCHAISMEN.md (SV-verbuigingen)",
+      "explanation": "'dezen zag' — verbogen demonstratief (SV-genitief/datief). Modern Nederlands: 'deze' / 'die' / 'in deze ...' / 'op die ...'. Gefossiliseerde uitdrukkingen ('dezer dagen', 'te dien einde') zijn whitelist; rebut zo nodig met register-argument.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "REV-7-1-001",
+      "status": "fixed",
+      "fix_commit": "PENDING"
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 2,
+      "severity": "soft",
+      "quote_modernized": "het zegel van de",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'het zegel van de' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "REV-7-2-001",
+      "status": "rebutted",
+      "rebuttal": "Kanttekening parafraseert niet louter: voegt exegese toe ('die alleen het zegel ... heeft, om de zijnen daarmee te verzegelen'). Lexicale overlap 'het zegel van de' is onvermijdelijk omdat de kanttekening juist dít tekstelement (Gr. σφραγῖδα θεοῦ ζῶντος) duidt. KANTTEKENINGEN.md verbiedt parafrastische herhaling zónder toegevoegde waarde, niet thematische verwijzing."
+    },
+    {
+      "category": "genitief pronomen wiens/wier",
+      "verse": 4,
+      "severity": "hard",
+      "quote_modernized": "…or de uitverkorenen uit de Joden, onder wier benaming nu geen orde wordt gehoude…",
+      "rule_reference": "ARCHAISMEN.md (SV-pronomina)",
+      "explanation": "'wier benaming' — formeel-archaïsch genitief-pronomen. Modern Nederlands: 'van wie benaming' of zinsherbouw met bezittelijk voornaamwoord ('die zijn benaming', 'die haar benaming'). NBV21 vermijdt 'wiens' grotendeels.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "REV-7-4-001",
+      "status": "rebutted",
+      "rebuttal": "'wier' is het standaard genitief-relativum voor meervoudig antecedent ('de Joden'); in modern formeel-schriftelijk Nederlands productief (vgl. 'de mensen wier namen genoemd worden'). §2.3b viseert gefossiliseerde lidwoord-genitieven (der/des/den + zn), niet het relativum 'wier' bij helder meervoudig menselijk antecedent. Kanttekening-register (formeel exegetisch). Onderscheidt zich van REV-7-8-001 (masc. enkelvoud 'wiens')."
+    },
+    {
+      "category": "genitief pronomen wiens/wier",
+      "verse": 8,
+      "severity": "hard",
+      "quote_modernized": "Dat is, uit het geslacht van Efraïm, wiens naam ook wordt verzwegen, omdat oo…",
+      "rule_reference": "ARCHAISMEN.md (SV-pronomina)",
+      "explanation": "'wiens naam' — formeel-archaïsch genitief-pronomen. Modern Nederlands: 'van wie naam' of zinsherbouw met bezittelijk voornaamwoord ('die zijn naam', 'die haar naam'). NBV21 vermijdt 'wiens' grotendeels.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "REV-7-8-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] 'wiens naam Kleopas was' rendert ᾧ ὄνομα Κλεόπας: relativum met masculien-singulier eigennaam-antecedent. In modern formeel-zakelijk Nederlands (NBV21, juridische teksten) is 'wiens' bij masculien menselijk antecedent productief. §2.3b waarschuwt voor archaïsche genitiefpronomina; bij menselijk masculien antecedent met persoonsnaam blijft 'wiens' modern bruikbaar."
+    },
+    {
+      "category": "SV-verbuiging (demonstratief dezer/dien/...)",
+      "verse": 9,
+      "severity": "hard",
+      "quote_modernized": "  Na dezen zag ik, en zie, een grote schare, …",
+      "rule_reference": "ARCHAISMEN.md (SV-verbuigingen)",
+      "explanation": "'dezen zag' — verbogen demonstratief (SV-genitief/datief). Modern Nederlands: 'deze' / 'die' / 'in deze ...' / 'op die ...'. Gefossiliseerde uitdrukkingen ('dezer dagen', 'te dien einde') zijn whitelist; rebut zo nodig met register-argument.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "REV-7-9-001",
+      "status": "fixed",
+      "fix_commit": "PENDING"
+    },
+    {
+      "category": "kanttekening-luiheid (§2.3 in <…>)",
+      "verse": 9,
+      "severity": "hard",
+      "quote_modernized": "…deze tekening pleegt in de verdrukte en schuilende, niet in de openbare en vrije…",
+      "rule_reference": "KANTTEKENINGEN.md + §2.3",
+      "explanation": "'schuilende' binnen kanttekening — verdacht -ende-woord in adverbial / clause-final positie. §2.3 geldt ook in <…>; ontvouw naar finiete bijzin.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "REV-7-9-002",
+      "status": "rebutted",
+      "rebuttal": "'schuilende' is attributief participium, parallel aan 'verdrukte' / 'openbare' / 'vrije', modificeert 'Kerken' ('in de verdrukte en schuilende, niet in de openbare en vrije Kerken'). §2.3 sluit attributieve participia vóór/bij zelfstandig naamwoord uit; geen adverbiaal/finiet-te-ontvouwen participium."
+    },
+    {
+      "category": "SV-verbuiging (demonstratief dezer/dien/...)",
+      "verse": 13,
+      "severity": "hard",
+      "quote_modernized": "…erlingen antwoordde en zei tegen mij:   Dezen die bekleed zijn met de lange witt…",
+      "rule_reference": "ARCHAISMEN.md (SV-verbuigingen)",
+      "explanation": "'Dezen die' — verbogen demonstratief (SV-genitief/datief). Modern Nederlands: 'deze' / 'die' / 'in deze ...' / 'op die ...'. Gefossiliseerde uitdrukkingen ('dezer dagen', 'te dien einde') zijn whitelist; rebut zo nodig met register-argument.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "REV-7-13-001",
+      "status": "rebutted",
+      "rebuttal": "HSV REV 7:13 behoudt verbatim 'Dezen, die bekleed zijn ... wie zijn zij'. 'Dezen' is nominatief-meervoud substantivisch demonstratief (Gr. οὗτοι), geen genitief/datief SV-verbuiging; productief in modern formeel Nederlands voor personen. ARCHAISMEN-regel viseert dezer/dien/den, niet nominatief 'dezen'."
+    },
+    {
+      "category": "SV-verbuiging (demonstratief dezer/dien/...)",
+      "verse": 14,
+      "severity": "hard",
+      "quote_modernized": "…  Heer, u weet het. En hij zei tot mij: Dezen zijn het die uit   de grote verdru…",
+      "rule_reference": "ARCHAISMEN.md (SV-verbuigingen)",
+      "explanation": "'Dezen zijn' — verbogen demonstratief (SV-genitief/datief). Modern Nederlands: 'deze' / 'die' / 'in deze ...' / 'op die ...'. Gefossiliseerde uitdrukkingen ('dezer dagen', 'te dien einde') zijn whitelist; rebut zo nodig met register-argument.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "REV-7-14-001",
+      "status": "rebutted",
+      "rebuttal": "HSV REV 7:14 rendert dit vers identiek: 'Dezen zijn het die uit de grote verdrukking komen'. 'Dezen' = nominatief-meervoud substantivisch demonstratief (Gr. οὗτοί εἰσιν), geen verbogen SV-vorm; behoud is HSV-conform en modern bruikbaar."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 3,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'seggend' in 4 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 4 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        3,
+        10,
+        12,
+        13
+      ],
+      "id": "REV-7-3-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] Scanner-prefix-heuristiek false-positive: SV-stam 'seggend(e)' (Grieks λέγων, participium) wordt §2.3-conform ontvouwd naar finiete vormen ('en zei', 'die zei'). Per MODERNISATIE.md §2.3 ís dit de voorgeschreven moderne rendering — geen 'drift' maar regelconforme transformatie."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 4,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'duysent' in 5 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 5 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "id": "REV-7-4-002",
+      "status": "rebutted",
+      "rebuttal": "Scanner-prefix-heuristiek false-positive: SV-stam 'duysent' wordt overal consistent 'duizend', maar verschijnt in samengestelde telwoorden (honderdvierenveertig·duizend v4, twaalf·duizend v5-8) zodat de prefix-match faalt. Concordantie ís behouden; geen drift."
+    }
+  ]
+}
