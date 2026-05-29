@@ -36,12 +36,41 @@
           "subject": "moede geworden",
           "context": "hoofdtekst",
           "choice": "moe geworden",
-          "alternatives": ["moede geworden"],
+          "alternatives": [
+            "moede geworden"
+          ],
           "reason": "Drempel-archaïsme §2.7: predicatief 'moede' is niet meer productief in modern Nederlands; ingegeven door de HSV-spiegel ('moe geworden') en corpusprecedent 2PE 2:7 ('moe'). Zinsbouw en inhoud ongewijzigd (Gr. οὐ κέκμηκας)."
         }
       ],
       "source_text": "καὶ ἐβάστασας καὶ ὑπομονὴν ἔχεις, καὶ διὰ τὸ ὄνομά μου κεκοπίακας καὶ οὐ κέκμηκας.",
       "generated_at": "2026-05-29T10:00:06.745812Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 4,
+      "original": "Maer ick hebbe tegen u, dat ghy <D. uwen eersten yver in het oeffenen van u ampt ende van de wercken der liefde, gelijck vers 5 verklaert wort.> uw’ eerste liefde hebt verlaten.",
+      "modernized": "Maar ik heb tegen u, dat u <Dat is, uw eerste ijver in het oefenen van uw ambt en van de werken der liefde, zoals vers 5 verklaard wordt.> uw eerste liefde hebt verlaten.",
+      "source_text": "ἀλλ’ ἔχω κατὰ σοῦ, ὅτι τὴν ἀγάπην σου τὴν πρώτην ἀφῆκας.",
+      "generated_at": "2026-05-29T10:05:19.557827Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 5,
+      "original": "Gedenckt dan <Dat is, van hoe grooten yver, tot hoe grooten slappigheyt.> waer van ghy uytgevallen zijt, ende <Namelick, tot uwen vorigen yver. Want dat hy niet geheel van de liefde, ende van het geloove en was vervallen, blijckt uyt den lof die in het tweede ende derde vers hier voren, ende in het seste hier na hem van Christo noch wort gegeven.> bekeert u, ende doet de eerste wercken: ende soo niet, ick sal u <Namelick, met mijne straffingen ende kastijdingen.> haestelick [by] komen, ende sal <D. uwe gemeynte, gelijck hier voren Cap. 1. vers 20. is verklaert. Waer uyt blijckt dat oock de gemeynte in deselve verslappinge was vervallen, die Christus door dit dreygement tot haren eersten yver wilt verwecken. Want hoewel Christi gemeynte nimmermeer en vergaet, Matth. 16. vers 18. soo wort sy nochtans wel van de eene plaetse genomen, ende op een andere geplant, gelijck Christus den Ioden dreyght, Matth. 21.43.> uwen kandelaer van sijne plaetse weeren, indien ghy u niet en bekeert.",
+      "modernized": "Bedenk dan <Dat is, van hoe grote ijver, tot hoe grote slapheid.> waarvan u uitgevallen bent, en <Namelijk, tot uw vorige ijver. Want dat hij niet geheel van de liefde, en van het geloof vervallen was, blijkt uit de lof die in het tweede en derde vers hiervoor, en in het zesde hierna hem van Christus nog wordt gegeven.> bekeer u, en doe de eerste werken: en zo niet, ik zal u <Namelijk, met mijn straffen en kastijdingen.> haastig [bij] komen, en zal <Dat is, uw gemeente, zoals hiervoor Hoofdstuk 1. vers 20. is verklaard. Waaruit blijkt dat ook de gemeente in dezelfde verslapping was vervallen, die Christus door dit dreigement tot haar eerste ijver wil verwekken. Want hoewel Christus' gemeente nimmermeer vergaat, $Mt. 16:18$. zo wordt zij toch wel van de ene plaats genomen, en op een andere geplant, zoals Christus de Joden dreigt, $Mt. 21:43$.> uw kandelaar van zijn plaats weren, indien u zich niet bekeert.",
+      "source_text": "μνημόνευε οὖν πόθεν ἐκπέπτωκας, καὶ μετανόησον, καὶ τὰ πρῶτα ἔργα ποίησον· εἰ δὲ μή, ἔρχομαί σοι ταχύ, καὶ κινήσω τὴν λυχνίαν σου ἐκ τοῦ τόπου αὐτῆς, ἐὰν μὴ μετανοήσῃς.",
+      "generated_at": "2026-05-29T10:06:09.404707Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 6,
+      "original": "Maer dit hebt ghy, dat ghy de wercken <Dese secte der Nicolaiten, gelijck eenige oude schrijvers getuygen, leerde dat hoererije geen sonde en was, ende dat afgoden-offer te eten geoorloft was, waer tegen het besluyt der Apostelen, Actor. 15. vers 29. is gestelt. Sommige meynen dat Nicolaus, een van de eerste Diakenen, Actor. cap. 6. vers 5. daer van de autheur soude zijn geweest, die als eenen anderen Iudas van de suyverheyt der leere Christi soude zijn vervallen, hoewel andere hem daer over ontschuldigen, ende houden dat eenen anderen Nicolaus daer van den invoerder geweest zy, die den name van desen eersten Nicolaus daer toe heeft misbruyckt. Siet Euseb. Hist. lib. 3. cap. 26. ende Irenae. lib.1. cap. 7.> $Apoc. 2.15.$ der Nicolaiten hatet, welcke ick oock hate.",
+      "modernized": "Maar dit hebt u, dat u de werken <Deze sekte der Nicolaiten, zoals enige oude schrijvers getuigen, leerde dat hoererij geen zonde was, en dat het eten van afgodenoffer geoorloofd was, waartegen het besluit der Apostelen, $Hd. 15:29$ is gesteld. Sommigen menen dat Nicolaus, een van de eerste Diakenen, $Hd. 6:5$ daarvan de auteur zou zijn geweest, die als een andere Judas van de zuiverheid der leer van Christus zou zijn vervallen, hoewel anderen hem daarover ontschuldigen, en houden dat een andere Nicolaus daarvan de invoerder geweest is, die de naam van deze eerste Nicolaus daartoe heeft misbruikt. Zie Euseb. Hist. lib. 3. cap. 26. en Irenae. lib.1. cap. 7.> $Op. 2:15$ van de Nicolaiten haat, die ik ook haat.",
+      "source_text": "ἀλλὰ τοῦτο ἔχεις, ὅτι μισεῖς τὰ ἔργα τῶν Νικολαϊτῶν, ἃ κἀγὼ μισῶ.",
+      "generated_at": "2026-05-29T10:07:06.039602Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
     }
