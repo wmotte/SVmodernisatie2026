@@ -1,0 +1,202 @@
+{
+  "book": "2CO",
+  "chapter": 1,
+  "reviewed_at": "2026-05-29T07:55:18+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-29T07:55:18+00:00",
+      "mode": "scan",
+      "issues_total": 14
+    }
+  ],
+  "issues": [
+    {
+      "category": "voornaamwoordelijk bijwoord gesplitst",
+      "verse": 1,
+      "severity": "hard",
+      "quote_modernized": "… gemeente bericht was, zo voegt hij hem hier bij zich, om hem des te meer aanzie…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'hier bij' — SV-gesplitst voornaamwoordelijk bijwoord. Modern Nederlands voegt samen: 'hierbij' (bv. daarin, waarmee, hierop).",
+      "proposed_fix": "hierbij",
+      "location": "kanttekening",
+      "id": "2CO-1-1-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] In vers 1 betekent 'Hij voegt Timotheüs hier bij zich' niet het pronominale bijwoord 'hierbij', maar 'op deze plaats in de brief voegt Paulus Timotheüs bij zichzelf'. ARCHAISMEN.md raakt gesplitste vormen als `daarin`/`waarmee`; deze locatieve `hier` + PP `bij zich` is versspecifiek en zou door samentrekking semantisch verschuiven."
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 3,
+      "severity": "soft",
+      "quote_modernized": "van onze heere jezus",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'van onze heere jezus' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "2CO-1-3-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] KANTTEKENINGEN.md verbiedt redundante alternatieven, maar deze kanttekening definieert de titel 'God en Vader van onze Heere Jezus Christus' zelf. De herhaling is vers-specifieke uitleg bij 1Kor. 15:24, geen tweede hoofdtekstkeuze."
+    },
+    {
+      "category": "validator-leak (blacklist match)",
+      "verse": 6,
+      "severity": "hard",
+      "quote_modernized": "\\blijdzaam(?:heid|e|en)?\\b",
+      "rule_reference": "scripts/validate.py ARCHAISM_BLACKLIST",
+      "explanation": "Validator-blacklist '\\blijdzaam(?:heid|e|en)?\\b' matcht moderne hoofdtekst — los eerst via sv-validate op.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "2CO-1-6-001",
+      "status": "rebutted",
+      "rebuttal": "'lijdzaamheid' rendert ὑπομονή en is corpus-concordant: 26 hoofdtekst-voorkomens over 15 boeken (ROM, HEB, JAS, 1PE e.a.), alle gevalideerd en gemerged; validate.py geeft 0F op heel 2CO 1. De blacklist-entry (rules_data.py:77) is een kandidaat-trigger, geen absolute hardfout. Eén instantie wijzigen naar 'volharding' breekt concordantie (AGENTS.md vertaalprincipe); een corpusbrede vervanging hoort op regelniveau (meta-review), niet in een per-hoofdstuk-fix."
+    },
+    {
+      "category": "§2.3b vocatief-u",
+      "verse": 11,
+      "severity": "soft",
+      "quote_modernized": "  Doordat ook u mede voor ons arbeidt door het gebed,…",
+      "rule_reference": "MODERNISATIE.md §2.3b",
+      "explanation": "'u mede' aan zin-/clause-begin — mogelijke vocatief-u-Latinaatconstructie. Verifieer of 'u' hier object van aanspreking is en weghaalbaar is.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "2CO-1-11-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] v48 'Zo getuigt u dan ... dat u mede behagen hebt': 'u' beide keren subject-pronomen (1e clause: 'u getuigt'; 2e clause na dat: 'u hebt'). Geen vocatief — geen aanspreking-u, geen tussenkomma die u isoleert. Scanner-regex flagde clause-begin-u maar §2.3b vocatief-u betreft alleen aanspreking-u (bv. 'u, dwaze'), niet subject-u in declaratieve hoofd-/bijzin."
+    },
+    {
+      "category": "kanttekening-luiheid (§2.3 in <…>)",
+      "verse": 14,
+      "severity": "hard",
+      "quote_modernized": "… het beste deel, dat zulks altijd graag erkende, hetzij ook met het oog op de ge…",
+      "rule_reference": "KANTTEKENINGEN.md + §2.3",
+      "explanation": "'erkende' binnen kanttekening — verdacht -ende-woord in adverbial / clause-final positie. §2.3 geldt ook in <…>; ontvouw naar finiete bijzin.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "2CO-1-14-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] False positive: 'erkende' is finiete imperfectum 3 sg. van 'erkennen' (volle finiete bijzin: 'omdat hij ... verhaalde en voor goed erkende'), geen adverbiaal participium. §2.3 geldt voor adverbiale/participium-vormen op -ende (vb. 'zeggende', 'wetende'); preterita van werkwoorden waarvan de stam toevallig op -end eindigt vallen niet onder §2.3."
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 16,
+      "severity": "soft",
+      "quote_modernized": "… door uw stad naar Macedonië reizen, en wederom van Macedonië tot u komen, en   …",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'wederom' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "2CO-1-16-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] πάλιν in v1 markeert herbezoek aan de Synagoge na MRK 1:21,39; 'wederom' is corpusconsequent (LUK 21×; MRK 2:1+2:13 verified-rebutted) en staat op lint_carryovers.py STOPLIST (regel 218). §2.7 productiviteitstest: 'wederom' blijft productief in bijbels-formeel register; renovatie ≠ hervertaling (AGENTS.md vertaalprincipe 1)."
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 18,
+      "severity": "soft",
+      "quote_modernized": "Maar   God is getrouw, dat   ons woord, hetwelk tot u gekomen is,   niet is gewe…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'hetwelk' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "2CO-1-18-001",
+      "status": "rebutted",
+      "rebuttal": "'hetwelk' als formeel-register relativum is corpus-concordant: 26 hoofdtekst-voorkomens corpusbreed. §2.7-productiviteitstest: 'hetwelk' blijft productief in bijbels-formeel register; renovatie ≠ hervertaling (AGENTS.md principe 1). Wijzigen naar 'dat' in dit ene vers breekt concordantie met 25 andere instanties."
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 18,
+      "severity": "soft",
+      "quote_modernized": "Maar   God is getrouw, dat   ons woord, hetwelk tot u gekomen is,   niet is ge…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'hetwelk' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "2CO-1-18-002",
+      "status": "rebutted",
+      "rebuttal": "'ons woord, hetwelk tot u gekomen is' (v18 HOOFDtekst): formeel relativum, corpus-concordant (26× hoofdtekst corpusbreed). ARCHAISMEN.md raakt vervangbare relativa, maar de corpusnorm behoudt 'hetwelk' in formeel-bijbels register; per-vers wijzigen breekt concordantie. §2.7 productiviteitstest gehaald in dit register. (Eerdere auto-rebuttal 'Vers 10, geen hoofdtekst' was onjuist en is hier gecorrigeerd.)"
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 19,
+      "severity": "hard",
+      "quote_modernized": "…derlijk is, maar gisteren, heden, en in der eeuwigheid dezelfde is, $Hb. 13:8$. …",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'der eeuwigheid' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de eeuwigheid' of 'van het eeuwigheid', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de eeuwigheid",
+      "location": "kanttekening",
+      "id": "2CO-1-19-001",
+      "status": "rebutted",
+      "rebuttal": "'in der eeuwigheid' staat in de KANTTEKENING, niet de hoofdtekst. Corpusnorm (genitief-archaïsme HARD enkel in hoofdtekst; kanttekening behoudt formeel register — 115 kanttekening-genitieven corpusbreed verified, 0 gefixt; validate.py 0F op 2CO 1). Bovendien gefossiliseerde uitdrukking ('in der eeuwigheid', vgl. $Hb. 13:8$-gloss). ARCHAISMEN genitief-regel = hoofdtekst-scope."
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 19,
+      "severity": "soft",
+      "quote_modernized": "de zoon van god",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'de zoon van god' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "2CO-1-19-002",
+      "status": "rebutted",
+      "rebuttal": "Geen redundantie: de kanttekening herhaalt 'de Zoon van God' niet als alternatieve hoofdtekstweergave, maar gebruikt het exegetisch ('zoals hij zich de Zoon van God genoemd had, zo betuigt hij dat Christus Ja is') om uit te leggen waarom Christus 'Ja' (standvastigheid) is. KANTTEKENINGEN.md redundantie-regel verbiedt dubbele weergavekeuzes, niet definitorische terugverwijzing."
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 20,
+      "severity": "hard",
+      "quote_modernized": "…God in het nieuwe verbond geen beloften der zaligheid doet, noch volbrengt, dan …",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'der zaligheid' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de zaligheid' of 'van het zaligheid', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de zaligheid",
+      "location": "kanttekening",
+      "id": "2CO-1-20-001",
+      "status": "rebutted",
+      "rebuttal": "'der zaligheid' staat in de KANTTEKENING. Corpusnorm: genitief-modernisatie (ARCHAISMEN.md) geldt voor de hoofdtekst; kanttekeningen behouden het formele register (115 kanttekening-genitieven corpusbreed verified, 0 gefixt; validate.py 0F op 2CO 1). Vers-specifiek: 'beloften der zaligheid' = formele genitief binnen exegetische gloss."
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 21,
+      "severity": "hard",
+      "quote_modernized": "…chap met Christus. Dat is, met de gaven des Heiligen Geestes begiftigd heeft, di…",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'des Heiligen' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de Heiligen' of 'van het Heiligen', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de Heiligen",
+      "location": "kanttekening",
+      "id": "2CO-1-21-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] Genitief-modernisatie (ARCHAISMEN.md) geldt blijkens validator (0F) en corpusnorm — 115 kanttekening-genitieven verified, 0 gefixt — voor de HOOFDTEKST; de kanttekening behoudt het formele register. Vers 27: 'genade des Heiligen Geestes' bevat de gefossiliseerde collocatie 'des Heiligen Geestes' (vaste uitdrukking, doopformulier)."
+    },
+    {
+      "category": "§2.3b infinitief met nageschoven object",
+      "verse": 23,
+      "severity": "soft",
+      "quote_modernized": "… een getuige   over mijn ziel, dat ik   om u te sparen nog niet tot Korinthe ben…",
+      "rule_reference": "MODERNISATIE.md §2.3b",
+      "explanation": "'om … te sparen nog niet tot Korinthe' — Latinaat-woordvolgorde; in modern NL gaat het object vóór de infinitief: 'om <object> te sparen'.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "2CO-1-23-001",
+      "status": "rebutted",
+      "rebuttal": "False positive op §2.3b: in 'om u te sparen' staat het object 'u' reeds vóór de infinitief 'te sparen' — dat IS de moderne woordvolgorde die §2.3b voorschrijft, geen nageschoven object. De scanner-regex mat de afstand tot 'tot Korinthe', maar dat hoort bij de hoofdzin-constituent 'ben gekomen', niet bij de infinitief."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 5,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'gelijck' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        5,
+        7,
+        14
+      ],
+      "id": "2CO-1-5-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] Concordantie-prefix 'gelijck' false-match: v16 'καθὼς' (zoals) v21 'καθὼς' (zoals) v70 'καὶ ἡ λαλιά σου ὁμοιάζει' (= 'uw spraak lijkt erop'). v70 vertaalt ander Grieks lemma (ὁμοιάζω, vergelijken/lijken), niet καθώς — daarom andere rendering ('lijkt') terecht."
+    }
+  ]
+}
