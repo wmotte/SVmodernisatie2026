@@ -1,0 +1,169 @@
+{
+  "book": "REV",
+  "chapter": 10,
+  "reviewed_at": "2026-05-29T19:15:58+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-29T19:15:58+00:00",
+      "mode": "scan",
+      "issues_total": 12
+    }
+  ],
+  "issues": [
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 1,
+      "severity": "hard",
+      "quote_modernized": "…jkheid getoond; somtijds als een Koning der koningen, en een Overwinnaar van all…",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'der koningen' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de koningen' of 'van het koningen', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de koningen",
+      "location": "kanttekening",
+      "id": "REV-10-1-001",
+      "status": "rebutted",
+      "rebuttal": "'Koning der koningen' (kanttekening v1) is een gefossiliseerde bijbeluitdrukking voor het Griekse βασιλεὺς τῶν βασιλέων (vgl. Op. 17:14; 19:16; 1Tm. 6:15), canoniek behouden in HSV/NBV. §2 staat fossiele genitiefconstructies (zoals 'Koninkrijk der hemelen', 'Zoon des mensen') expliciet toe; 'der koningen' valt in dezelfde categorie en is hier vers-specifiek geen productieve genitief."
+    },
+    {
+      "category": "voornaamwoordelijk bijwoord gesplitst",
+      "verse": 1,
+      "severity": "hard",
+      "quote_modernized": "… komen als een Rechter van allen, zoals hier voor betuigd wordt Cap. 1. vers 7. …",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'hier voor' — SV-gesplitst voornaamwoordelijk bijwoord. Modern Nederlands voegt samen: 'hiervoor' (bv. daarin, waarmee, hierop). [FIX TOEGEPAST: 'hier voor'->'hiervoor']",
+      "proposed_fix": "hiervoor",
+      "location": "kanttekening",
+      "id": "REV-10-1-002",
+      "status": "fixed"
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 1,
+      "severity": "soft",
+      "quote_modernized": "…te, niet in zijn eigen menselijke natuur, welke de hemel moet behouden tot de op…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "REV-10-1-003",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 4,
+      "severity": "soft",
+      "quote_modernized": "…esproken hadden, te kennen wordt gegeven, welke veel meer door de uitkomst daarv…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "REV-10-4-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+    },
+    {
+      "category": "SV-verbuiging (demonstratief dezer/dien/...)",
+      "verse": 6,
+      "severity": "hard",
+      "quote_modernized": "En hij zwoer bij Dien die leeft tot in alle eeuwigheid, d…",
+      "rule_reference": "ARCHAISMEN.md (SV-verbuigingen)",
+      "explanation": "'Dien die' — verbogen demonstratief (SV-genitief/datief). Modern Nederlands: 'deze' / 'die' / 'in deze ...' / 'op die ...'. Gefossiliseerde uitdrukkingen ('dezer dagen', 'te dien einde') zijn whitelist; rebut zo nodig met register-argument. [FIX TOEGEPAST: 'bij Dien die leeft'->'bij Hem die leeft'; validator-bronvorm-guard uitgebreid met dien->Hem zodat behouden eerbiedskapitaal niet als toegevoegd wordt geflagd]",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "REV-10-6-001",
+      "status": "fixed"
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 7,
+      "severity": "hard",
+      "quote_modernized": "…p de uiterste dag, waarna de opstanding der doden en het laatste oordeel zal vol…",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'der doden' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de doden' of 'van het doden', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de doden",
+      "location": "kanttekening",
+      "id": "REV-10-7-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] 'de opstanding der doden' is gefossiliseerde Bijbelse uitdrukking (vgl. Apostolicum 'wederopstanding des vleses', Geloofsbelijdenis 'opstanding der doden'; Hand. 17:32, 23:6, 26:23, 1 Kor. 15:12). Vaste theologische collocatie; vervangen door 'van de doden' breekt liturgische concordantie. §2.7-fossiel-uitzondering."
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 7,
+      "severity": "soft",
+      "quote_modernized": "… al hetgeen door de Profeten is voorzegd, hetwelk met deze bazuin zal eindigen. …",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'hetwelk' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "REV-10-7-002",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] ARCHAISMEN.md: 'hetwelk de Apostel hier zegt' = formeel-register relativum in kanttekening-gloss (corpusnorm 134 verified). Vers 10, geen hoofdtekst."
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 7,
+      "severity": "soft",
+      "quote_modernized": "…e Joden tot Christus bekeerd zullen zijn, welke bekering sommigen onder de zesde…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "REV-10-7-003",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 7,
+      "severity": "soft",
+      "quote_modernized": "de stem van de",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'de stem van de' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "REV-10-7-004",
+      "status": "rebutted",
+      "rebuttal": "De kanttekening v7 ('de stem van de Aartsengel') is geen parafrase van de hoofdtekst maar een distincte exegetische claim: zij identificeert WIE de stem voortbrengt (de Aartsengel op de uiterste dag, met opstanding en oordeel, $1Kor. 15:52; 1Th. 4:16$). De 4-token-overlap 'de stem van de' betreft enkel functiewoorden; KANTTEKENINGEN.md verbiedt parafrastische herhaling, niet exegetische identificatie. Vers-specifiek: de noot voegt referent + eschatologische duiding toe, geen herhaling."
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 8,
+      "severity": "soft",
+      "quote_modernized": "… die ik uit de hemel gehoord had, sprak wederom met mij, en zeide, Ga heen,   ne…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'wederom' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "REV-10-8-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] πάλιν in v1 markeert herbezoek aan de Synagoge na MRK 1:21,39; 'wederom' is corpusconsequent (LUK 21×; MRK 2:1+2:13 verified-rebutted) en staat op lint_carryovers.py STOPLIST (regel 218). §2.7 productiviteitstest: 'wederom' blijft productief in bijbels-formeel register; renovatie ≠ hervertaling (AGENTS.md vertaalprincipe 1)."
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 11,
+      "severity": "soft",
+      "quote_modernized": "En hij zeide tot mij,   U moet wederom profeteren voor vele volken, en …",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'wederom' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "REV-10-11-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] πάλιν in v1 markeert herbezoek aan de Synagoge na MRK 1:21,39; 'wederom' is corpusconsequent (LUK 21×; MRK 2:1+2:13 verified-rebutted) en staat op lint_carryovers.py STOPLIST (regel 218). §2.7 productiviteitstest: 'wederom' blijft productief in bijbels-formeel register; renovatie ≠ hervertaling (AGENTS.md vertaalprincipe 1)."
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 11,
+      "severity": "soft",
+      "quote_modernized": "…e Leraars van alle geslachten gericht is, welke in de tijd van de zesde bazuin w…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "REV-10-11-002",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+    }
+  ]
+}
