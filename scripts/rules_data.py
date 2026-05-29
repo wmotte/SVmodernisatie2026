@@ -68,6 +68,7 @@ ARCHAISM_BLACKLIST = [
     r"\btijding(en)?\b",    # → "boodschap / nieuws"
     r"\bderhalve\b",        # → "daarom / dus"
     r"\brantsoen\b",        # → "losprijs" (Gr. λύτρον); modern NL = voedseltoewijzing
+    r"\bspij(?:s|se|ze|zen)\b",  # → "voedsel"; bijbels-formeel drempel-archaïsme
     r"\beertijds\b",        # → "vroeger / voorheen" (drempel-archaisme; PHM 1:11)
     r"\bdieverij\b",        # → "diefstal" (PHM 1:18 kt)
     r"\bhiervoren\b",       # → "hiervoor / hierboven" in verwijzingsformules
