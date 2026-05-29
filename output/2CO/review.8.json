@@ -1,0 +1,166 @@
+{
+  "book": "2CO",
+  "chapter": 8,
+  "reviewed_at": "2026-05-29T04:56:05+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-29T04:53:49+00:00",
+      "mode": "scan",
+      "issues_total": 7
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-29T04:56:05+00:00",
+      "mode": "in_context",
+      "actions": [
+        "6 issues rebutted",
+        "2 issues added"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 1,
+      "severity": "soft",
+      "quote_modernized": "de genade gods die",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'de genade gods die' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "2CO-8-1-001",
+      "status": "fixed",
+      "fix_commit": "ce6984d73c7eb732d867e7f9a7ae4490c1712204"
+    },
+    {
+      "category": "voornaamwoordelijk bijwoord gesplitst",
+      "verse": 14,
+      "severity": "hard",
+      "quote_modernized": "Maar opdat er uit gelijkheid, in deze tegenwoordige…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'er uit' — SV-gesplitst voornaamwoordelijk bijwoord. Modern Nederlands voegt samen: 'eruit' (bv. daarin, waarmee, hierop).",
+      "proposed_fix": "eruit",
+      "location": "hoofdtekst",
+      "id": "2CO-8-14-001",
+      "status": "rebutted",
+      "rebuttal": "Geen gesplitst voornaamwoordelijk bijwoord in 2Kor. 8:14. Het 'er' is hier existentieel bij de elliptische SV-aanvulling '[is]' ('er ... uw overvloed [is]'), terwijl 'uit gelijkheid' de Griekse voorzetselgroep ἐξ ἰσότητος weergeeft. ARCHAISMEN.md vraagt samentrekking alleen bij anaforisch 'er' + voorzetsel; 'eruit gelijkheid' zou ἐξ ten onrechte aan 'er' koppelen en de zin grammaticaal breken."
+    },
+    {
+      "category": "§2.3b infinitief met nageschoven object",
+      "verse": 19,
+      "severity": "soft",
+      "quote_modernized": "…hij is ook   door de gemeenten verkozen om met ons te reizen   met deze gave, di…",
+      "rule_reference": "MODERNISATIE.md §2.3b",
+      "explanation": "'om … te reizen met deze gave' — Latinaat-woordvolgorde; in modern NL gaat het object vóór de infinitief: 'om <object> te reizen'.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "2CO-8-19-001",
+      "status": "rebutted",
+      "rebuttal": "MODERNISATIE.md §2.3b betreft een object dat ná de infinitief is geplaatst ('om te stellen een verhaal'). In 2Kor. 8:19 is 'met deze gave' geen object van 'reizen', maar een comitatieve/instrumentele PP bij Grieks σὺν τῇ χάριτι ταύτῃ, naast συνέκδημος ἡμῶν ('reisgenoot met ons'). Modern Nederlands laat 'met ons te reizen met deze gave' syntactisch toe; de scanner verwart een PP met een object."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 2,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'geweest' in 3 verzen — verzen [11] renderen het stam anders dan [2, 3]",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        2,
+        3,
+        11
+      ],
+      "id": "2CO-8-2-001",
+      "status": "rebutted",
+      "rebuttal": "Geen concordantie-issue: 'geweest' is hier geen zelfstandig lexicaal lemma maar een koppelwerkwoord/hulpvorm. In v2 ('overvloedig geweest is') en v3 ('gewillig geweest') blijft de perfectumconstructie staan; in v11 geeft 'er was' de SV-existentiële constructie 'gelijck als’er geweest is de volveerdigheyt' weer. AGENTS.md-concordantie ziet op betekenisdragende Griekse/Nederlandse lexemen, niet op idiomatische copula-volgorde; 'geweest' staat bovendien in scripts/stoplist.txt."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 5,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'gelijck' in 6 verzen — verzen [5, 6, 11, 15] renderen het stam anders dan [7, 14]",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 6 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        5,
+        6,
+        7,
+        11,
+        14,
+        15
+      ],
+      "id": "2CO-8-5-001",
+      "status": "rebutted",
+      "rebuttal": "Scanner conflueert twee verschillende stammen. In v5, v6, v7, v11 en v15 is 'gelijck' het voegwoord καθὼς/καθάπερ en wordt het consequent 'zoals'. In v14 gaat het niet om dat voegwoord maar om het zelfstandig naamwoord 'gelijckheyt', Grieks ἰσότης, consequent weergegeven als 'gelijkheid'. AGENTS.md-concordantie verplicht geen harmonisatie tussen voegwoord 'zoals' en zelfstandig naamwoord 'gelijkheid'."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 7,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'neersti' in 5 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 5 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        7,
+        8,
+        16,
+        17,
+        22
+      ],
+      "id": "2CO-8-7-001",
+      "status": "rebutted",
+      "rebuttal": "Geen drift maar normale modernisering van één woordfamilie. De SV-stam 'neersti-' in v7, v8, v16, v17 en v22 correspondeert met Grieks σπουδή/σπουδαῖος/σπουδαιότερος; de modernisatie gebruikt overal dezelfde Nederlandse familie 'ijver/ijverig/ijveriger'. Dat de moderne prefix niet op 'neersti-' lijkt, is precies de archaïsme-modernisatie; AGENTS.md-concordantie vereist betekenisconcordantie, geen prefixbehoud."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 11,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'volveer' in 3 verzen — verzen [12, 19] renderen het stam anders dan [11]",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        11,
+        12,
+        19
+      ],
+      "id": "2CO-8-11-001",
+      "status": "rebutted",
+      "rebuttal": "Geen concordantie-drift. De relevante SV-vorm 'volveerdigheyt des/uwes gemoedts' in v11, v12 en v19 wordt overal als 'bereidwilligheid van het/uw gemoed' weergegeven, passend bij Grieks προθυμία. De scanner lijkt v11 tevens met 'voltooien' uit 'voleyndigen/ἐπιτελέω' te vermengen; dat is een ander lexeem en valt buiten deze concordantie-vergelijking."
+    },
+    {
+      "category": "§2.3 participium-carryover",
+      "verse": 8,
+      "severity": "hard",
+      "quote_modernized": "Ik zeg [dit] niet ... [als] gebiedend, maar [als] ... beproevend.",
+      "rule_reference": "MODERNISATIE.md §2.3; KANTTEKENINGEN.md 'Geen SV-participia in kanttekeningen'",
+      "explanation": "De modernisatie laat de SV/Griekse participiumconstructie staan: 'gebiedend' bij κατ’ ἐπιταγήν en vooral 'beproevend' bij δοκιμάζων functioneert adverbiaal/finiet. §2.3 zegt dat zulke Latinate participia naar een moderne bijzin of finiete constructie moeten worden ontvouwd.",
+      "proposed_fix": "Ik zeg [dit] niet <Grieks: naar bevel.> [als] bevel, maar [als] iemand die <Dat is, door het voorbeeld van de ijver en mildheid van de gemeenten in Macedonië.> door de ijver van anderen ook de oprechtheid van uw liefde beproeft.",
+      "location": "hoofdtekst",
+      "id": "2CO-8-8-001",
+      "status": "fixed",
+      "fix_commit": "ce6984d73c7eb732d867e7f9a7ae4490c1712204"
+    },
+    {
+      "category": "§2.7 idiomatische Latinaat-rest",
+      "verse": 14,
+      "severity": "soft",
+      "quote_modernized": "Maar [opdat] er uit gelijkheid, in deze tegenwoordige tijd, uw overvloed [is]...",
+      "rule_reference": "MODERNISATIE.md §2.7 constructie-test; MODERNISATIE.md §2.3",
+      "explanation": "Hoewel 'er uit' niet tot 'eruit' mag worden samengetrokken, blijft de constructie 'er uit gelijkheid ... uw overvloed [is]' zelf onidiomatisch modern Nederlands. Grieks ἐξ ἰσότητος kan formeel-equivalent als bijwoordelijke bepaling blijven, maar moet syntactisch leesbaar worden ingebed.",
+      "proposed_fix": "Maar [opdat] uit het oogpunt van gelijkheid, in deze tegenwoordige tijd, uw overvloed [is] om hun gebrek [te vervullen:] ...",
+      "location": "hoofdtekst",
+      "id": "2CO-8-14-002",
+      "status": "fixed",
+      "fix_commit": "ce6984d73c7eb732d867e7f9a7ae4490c1712204"
+    }
+  ]
+}
