@@ -54,14 +54,14 @@ voorbeeld-PDF om te lezen. **✓** = alle hoofdstukken gemoderniseerd ·
 | Lucas | Evangelie | ✓ 24/24 | [PDF](parallelbijbel/LUK_voorbeeld.pdf) |
 | Romeinen | brief | ✓ 16/16 | [PDF](parallelbijbel/ROM_voorbeeld.pdf) |
 | 1 Korinthiërs | brief | ✓ 16/16 | [PDF](parallelbijbel/1CO_voorbeeld.pdf) |
-| 2 Korinthiërs | brief | ◐ 6/13 | [PDF](parallelbijbel/2CO_voorbeeld.pdf) |
-| Galaten | brief | ◐ 2/6 | [PDF](parallelbijbel/GAL_voorbeeld.pdf) |
+| 2 Korinthiërs | brief | ◐ 7/13 | [PDF](parallelbijbel/2CO_voorbeeld.pdf) |
+| Galaten | brief | ◐ 5/6 | [PDF](parallelbijbel/GAL_voorbeeld.pdf) |
 | Efeziërs | brief | ✓ 6/6 | [PDF](parallelbijbel/EPH_voorbeeld.pdf) |
 | Filippenzen | brief | ✓ 4/4 | [PDF](parallelbijbel/PHP_voorbeeld.pdf) |
 | Kolossenzen | brief | ✓ 4/4 | [PDF](parallelbijbel/COL_voorbeeld.pdf) |
 | 1 Tessalonicenzen | brief | ✓ 5/5 | [PDF](parallelbijbel/1TH_voorbeeld.pdf) |
 | 2 Tessalonicenzen | brief | ✓ 3/3 | [PDF](parallelbijbel/2TH_voorbeeld.pdf) |
-| 1 Timoteüs | brief | ◐ 5/6 | [PDF](parallelbijbel/1TI_voorbeeld.pdf) |
+| 1 Timoteüs | brief | ✓ 6/6 | [PDF](parallelbijbel/1TI_voorbeeld.pdf) |
 | 2 Timoteüs | brief | ✓ 4/4 | [PDF](parallelbijbel/2TI_voorbeeld.pdf) |
 | Titus | brief | ✓ 3/3 | [PDF](parallelbijbel/TIT_voorbeeld.pdf) |
 | Filemon | brief | ✓ 1/1 | [PDF](parallelbijbel/PHM_voorbeeld.pdf) |
