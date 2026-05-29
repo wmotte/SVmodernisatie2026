@@ -127,6 +127,45 @@
       "generated_at": "2026-05-29T06:11:40.532617Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 13,
+      "original": "Want wat is’er, daer in ghy minder geweest zijt dan <Namelick, die van andere Apostelen zijn geplant ende gesticht, met welcke hy hemselven hier vergelijckt.> de andere gemeynten, $1.Cor. 9.12. 2.Cor. 11.9.$ anders, dan dat ick selve u <Namelick, van onderhoudt van u te nemen, voor my ende de gene die met my waren.> niet lastigh en ben geweest? <Een scherpe berispinge door een wijse van spreken, waer van siet 2.Cor. 11. vers 19. Ofte, dese ongerechtigheyt.> vergeeft my dit ongelijck.",
+      "modernized": "Want wat is er waarin u minder geweest bent dan <Namelijk, die door andere Apostelen zijn geplant en gesticht, met welke hij zichzelf hier vergelijkt.> de andere gemeenten, $1Kor. 9:12; 2Kor. 11:9$ anders dan dat ik zelf u <Namelijk, door onderhoud van u te nemen, voor mij en degenen die met mij waren.> niet lastig ben geweest? <Een scherpe berisping door een wijze van spreken; zie daarvan $2Kor. 11:19$ Of: deze ongerechtigheid.> Vergeef mij dit onrecht.",
+      "source_text": "τί γάρ ἐστιν ὃ ἡττήθητε ὑπὲρ τὰς λοιπὰς ἐκκλησίας, εἰ μὴ ὅτι αὐτὸς ἐγὼ οὐ κατενάρκησα ὑμῶν; χαρίσασθέ μοι τὴν ἀδικίαν ταύτην.",
+      "generated_at": "2026-05-29T06:17:07.149594Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "subject": "HSV-spiegel",
+          "context": "slotzin",
+          "choice": "onrecht",
+          "alternatives": [
+            "ongelijk"
+          ],
+          "reason": "HSV-spiegel en eerdere projectconcordantie bevestigen dat SV 'ongelijck' hier de betekenis 'onrecht' heeft."
+        }
+      ]
+    },
+    {
+      "verse_number": 14,
+      "original": "Siet ick ben <Siet hier van Cap. 13. vers 1.> ten derden mael gereet om tot u te komen, ende en sal u niet lastigh zijn. $Actor. 20.33.$ Want ick en soecke <D. niet uwe goederen, maer uwe saligheyt.> niet het uwe, maer u. Want de kinderen en moeten niet schatten vergaderen voor de ouders, maer de ouders voor de kinderen.",
+      "modernized": "Zie, ik ben <Zie hiervan $2Kor. 13:1$.> voor de derde maal gereed om tot u te komen, en zal u niet lastig zijn. $Hd. 20:33$ Want ik zoek <Dat is, niet uw goederen, maar uw zaligheid.> niet wat van u is, maar u. Want de kinderen moeten geen schatten vergaderen voor de ouders, maar de ouders voor de kinderen.",
+      "source_text": "Ἰδού, τρίτον ἑτοίμως ἔχω ἐλθεῖν πρὸς ὑμᾶς, καὶ οὐ καταναρκήσω ὑμῶν· οὐ γὰρ ζητῶ τὰ ὑμῶν, ἀλλ’ ὑμᾶς· οὐ γὰρ ὀφείλει τὰ τέκνα τοῖς γονεῦσι θησαυρίζειν, ἀλλ’ οἱ γονεῖς τοῖς τέκνοις.",
+      "generated_at": "2026-05-29T06:17:43.570710Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 15,
+      "original": "Ende ick sal seer geerne <Namelick, om my, ende de mijne onder u te onderhouden.> de kosten doen, ende <D. voor de saligheyt uwer zielen oock mijn leven in gevaer geven.> voor uwe zielen te koste gegeven worden: hoewel ick u $2.Cor. 6.12.$ overvloedelicker beminnende, weyniger bemint worde.",
+      "modernized": "En ik zal zeer graag <Namelijk, om mij en de mijnen onder u te onderhouden.> de kosten dragen, en <Dat is, voor de zaligheid van uw zielen ook mijn leven in gevaar geven.> voor uw zielen ten koste gegeven worden; hoewel ik u $2Kor. 6:12$ overvloediger bemin, minder bemind word.",
+      "source_text": "ἐγὼ δὲ ἥδιστα δαπανήσω καὶ ἐκδαπανηθήσομαι ὑπὲρ τῶν ψυχῶν ὑμῶν, εἰ καὶ περισσοτέρως ὑμᾶς ἀγαπῶν, ἧττον ἀγαπῶμαι.",
+      "generated_at": "2026-05-29T06:18:12.593809Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
