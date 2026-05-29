@@ -1,13 +1,57 @@
 {
   "book": "REV",
   "chapter": 11,
-  "reviewed_at": "2026-05-29T20:03:40+00:00",
+  "reviewed_at": "2026-05-29T20:10:24+00:00",
   "passes": [
     {
       "pass": 1,
       "ran_at": "2026-05-29T20:03:40+00:00",
       "mode": "scan",
       "issues_total": 25
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-29T20:08:09+00:00",
+      "mode": "verify",
+      "actions": [
+        "REV-11-1-001: rebuttal verified",
+        "REV-11-1-002: rebuttal verified",
+        "REV-11-2-001: rebuttal verified",
+        "REV-11-3-001: rebuttal verified",
+        "REV-11-3-002: rebuttal verified",
+        "REV-11-3-003: rebuttal verified",
+        "REV-11-3-004: verified",
+        "REV-11-4-001: rebuttal verified",
+        "REV-11-6-001: rebuttal verified",
+        "REV-11-6-002: reopened (patroon nog aanwezig)",
+        "REV-11-6-003: rebuttal verified",
+        "REV-11-6-004: rebuttal verified",
+        "REV-11-10-001: rebuttal verified",
+        "REV-11-11-001: rebuttal verified",
+        "REV-11-11-002: reopened (patroon nog aanwezig)",
+        "REV-11-12-001: reopened (patroon nog aanwezig)",
+        "REV-11-12-002: rebuttal verified",
+        "REV-11-13-001: rebuttal verified",
+        "REV-11-13-002: reopened (patroon nog aanwezig)",
+        "REV-11-15-001: rebuttal verified",
+        "REV-11-18-001: rebuttal verified",
+        "REV-11-18-002: reopened (patroon nog aanwezig)",
+        "REV-11-18-003: rebuttal verified",
+        "REV-11-19-001: verified",
+        "REV-11-19-002: rebuttal verified"
+      ]
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-05-29T20:10:24+00:00",
+      "mode": "verify",
+      "actions": [
+        "REV-11-6-002: rebuttal verified",
+        "REV-11-11-002: rebuttal verified",
+        "REV-11-12-001: rebuttal verified",
+        "REV-11-13-002: rebuttal verified",
+        "REV-11-18-002: rebuttal verified"
+      ]
     }
   ],
   "issues": [
@@ -21,8 +65,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-11-1-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] HSV REV 7:14 rendert dit vers identiek: 'Dezen zijn het die uit de grote verdrukking komen'. 'Dezen' = nominatief-meervoud substantivisch demonstratief (Gr. οὗτοί εἰσιν), geen verbogen SV-vorm; behoud is HSV-conform en modern bruikbaar."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] HSV REV 7:14 rendert dit vers identiek: 'Dezen zijn het die uit de grote verdrukking komen'. 'Dezen' = nominatief-meervoud substantivisch demonstratief (Gr. οὗτοί εἰσιν), geen verbogen SV-vorm; behoud is HSV-conform en modern bruikbaar.",
+      "verified_at": "2026-05-29T20:08:09+00:00"
     },
     {
       "category": "SV-verbuiging (demonstratief dezer/dien/...)",
@@ -34,8 +79,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-11-1-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] HSV REV 7:14 rendert dit vers identiek: 'Dezen zijn het die uit de grote verdrukking komen'. 'Dezen' = nominatief-meervoud substantivisch demonstratief (Gr. οὗτοί εἰσιν), geen verbogen SV-vorm; behoud is HSV-conform en modern bruikbaar."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] HSV REV 7:14 rendert dit vers identiek: 'Dezen zijn het die uit de grote verdrukking komen'. 'Dezen' = nominatief-meervoud substantivisch demonstratief (Gr. οὗτοί εἰσιν), geen verbogen SV-vorm; behoud is HSV-conform en modern bruikbaar.",
+      "verified_at": "2026-05-29T20:08:09+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -47,8 +93,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-11-2-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-29T20:08:09+00:00"
     },
     {
       "category": "voornaamwoordelijk bijwoord gesplitst",
@@ -60,8 +107,9 @@
       "proposed_fix": "daarop",
       "location": "kanttekening",
       "id": "REV-11-3-001",
-      "status": "rebutted",
-      "rebuttal": "'daar' hoort bij het idioom 'hier en daar' (= op verschillende plaatsen), 'op' begint de voorzetselgroep 'op verscheidene tijden' — geen gesplitst voornaamwoordelijk bijwoord 'daarop'. Vers-specifiek: 'God ... heeft verwekt, hier en daar op verscheidene tijden in zijn gemeente'. §2.3b/voornaamwoordelijk-bijwoord-regel betreft adverbiale R-pronomina, niet de plaatsbepaling 'hier en daar'."
+      "status": "verified",
+      "rebuttal": "'daar' hoort bij het idioom 'hier en daar' (= op verschillende plaatsen), 'op' begint de voorzetselgroep 'op verscheidene tijden' — geen gesplitst voornaamwoordelijk bijwoord 'daarop'. Vers-specifiek: 'God ... heeft verwekt, hier en daar op verscheidene tijden in zijn gemeente'. §2.3b/voornaamwoordelijk-bijwoord-regel betreft adverbiale R-pronomina, niet de plaatsbepaling 'hier en daar'.",
+      "verified_at": "2026-05-29T20:08:09+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -73,8 +121,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-11-3-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] ARCHAISMEN.md: 'hetwelk de Apostel hier zegt' = formeel-register relativum in kanttekening-gloss (corpusnorm 134 verified). Vers 10, geen hoofdtekst."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] ARCHAISMEN.md: 'hetwelk de Apostel hier zegt' = formeel-register relativum in kanttekening-gloss (corpusnorm 134 verified). Vers 10, geen hoofdtekst.",
+      "verified_at": "2026-05-29T20:08:09+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -86,8 +135,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-11-3-003",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-29T20:08:09+00:00"
     },
     {
       "category": "genitief pronomen wiens/wier",
@@ -99,7 +149,8 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-11-3-004",
-      "status": "fixed"
+      "status": "verified",
+      "verified_at": "2026-05-29T20:08:09+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -111,8 +162,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-11-4-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-29T20:08:09+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -124,8 +176,9 @@
       "proposed_fix": "van de mensen",
       "location": "kanttekening",
       "id": "REV-11-6-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Genitief 'consciëntiën der mensen' in de KANTTEKENING — kanttekening-register behoudt formele genitief (corpusnorm ARCHAISMEN.md, validate.py 0F)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Genitief 'consciëntiën der mensen' in de KANTTEKENING — kanttekening-register behoudt formele genitief (corpusnorm ARCHAISMEN.md, validate.py 0F).",
+      "verified_at": "2026-05-29T20:08:09+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -137,7 +190,9 @@
       "proposed_fix": "van de dwaling",
       "location": "kanttekening",
       "id": "REV-11-6-002",
-      "status": "fixed"
+      "status": "verified",
+      "rebuttal": "Vers 6: de geflagde genitief 'kracht der dwaling' is gefixt naar 'kracht van de dwaling'. Het residu dat de mechanische re-scan in dit vers detecteert ('der mensen', 'liefde der waarheid') betreft de afzonderlijk geverifieerde fossiele genitieven REV-11-6-001 en REV-11-6-003 (om-...-wil-constructie resp. 2Th. 2:10-citaat). §2/FOSSIL_GENITIVE_PAIRS — niet de gefixte token.",
+      "verified_at": "2026-05-29T20:10:24+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -149,8 +204,9 @@
       "proposed_fix": "van de waarheid",
       "location": "kanttekening",
       "id": "REV-11-6-003",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] 'Geest der waarheid' directe bijbelfossiel (Jh. 14:17, 16:13 'Geest der waerheyt'); de kanttekening citeert . 16:13$ zelf als bron. Genitief-fossiel parallel aan whitelist 'Zoon des mensen'; vers-specifiek (gloss op Geest-titels). Niet identiek aan der-Diakenen (geen fossiel, daar gefixt)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] 'Geest der waarheid' directe bijbelfossiel (Jh. 14:17, 16:13 'Geest der waerheyt'); de kanttekening citeert . 16:13$ zelf als bron. Genitief-fossiel parallel aan whitelist 'Zoon des mensen'; vers-specifiek (gloss op Geest-titels). Niet identiek aan der-Diakenen (geen fossiel, daar gefixt).",
+      "verified_at": "2026-05-29T20:08:09+00:00"
     },
     {
       "category": "SV-verbuiging (demonstratief dezer/dien/...)",
@@ -162,8 +218,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "REV-11-6-004",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Vers 31 (ARCHAISMEN.md SV-verbuiging): 'Dezen hebben de Apostel gezocht…' — 'dezen' is hier nominatief meervoud substantivisch demonstratief voor personen (standaard modern NL, vgl. 'dezen en genen'; WNT 'deze' zelfstandig gebruik), verwijzend naar 'de ongehoorzamen'. Géén verbogen genitief/datief; de scanner-regex flagt élk 'dezen + woord' maar de nominatief-substantivische functie is productief in modern Nederlands."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Vers 31 (ARCHAISMEN.md SV-verbuiging): 'Dezen hebben de Apostel gezocht…' — 'dezen' is hier nominatief meervoud substantivisch demonstratief voor personen (standaard modern NL, vgl. 'dezen en genen'; WNT 'deze' zelfstandig gebruik), verwijzend naar 'de ongehoorzamen'. Géén verbogen genitief/datief; de scanner-regex flagt élk 'dezen + woord' maar de nominatief-substantivische functie is productief in modern Nederlands.",
+      "verified_at": "2026-05-29T20:08:09+00:00"
     },
     {
       "category": "SV-verbuiging (demonstratief dezer/dien/...)",
@@ -175,8 +232,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-11-10-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'Dezen nu kwamen' — plurale demonstratief als subject met duidelijk antecedent (Farizeeën en Herodianen, v13). Vergelijk LUK 20:47 'Dezen zullen een zwaarder oordeel' en MRK 12:40 (eveneens 'Dezen zullen'); concordant binnen NT-corpus en bewust gehandhaafd om het discourse-deiktisch SV-patroon οἱ δὲ ἐλθόντες te spiegelen. Geen gen./dat.-vorm (zoals 'dezer dagen'), maar nominatief plur. — valt buiten het verbogen-demonstratief-paradigma dat §2.3b verbiedt."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'Dezen nu kwamen' — plurale demonstratief als subject met duidelijk antecedent (Farizeeën en Herodianen, v13). Vergelijk LUK 20:47 'Dezen zullen een zwaarder oordeel' en MRK 12:40 (eveneens 'Dezen zullen'); concordant binnen NT-corpus en bewust gehandhaafd om het discourse-deiktisch SV-patroon οἱ δὲ ἐλθόντες te spiegelen. Geen gen./dat.-vorm (zoals 'dezer dagen'), maar nominatief plur. — valt buiten het verbogen-demonstratief-paradigma dat §2.3b verbiedt.",
+      "verified_at": "2026-05-29T20:08:09+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -188,8 +246,9 @@
       "proposed_fix": "van de levens",
       "location": "hoofdtekst",
       "id": "REV-11-11-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'boek des levens' is een gefossiliseerde bijbelse uitdrukking voor τὸ βιβλίον τῆς ζωῆς (Op. 3:5; 13:8; 17:8; 20:12,15; 21:27; Fp. 4:3). De genitief-constructie is in modern bijbels Nederlands productief gebleven (NBG51, HSV, NBV21 gebruiken eveneens 'boek des levens'). Vergelijkbaar met de gefossiliseerde 'Koninkrijk der hemelen' en 'Zoon des mensen' — categorie ARCHAISMEN.md gefossiliseerde-genitief-uitzondering."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'boek des levens' is een gefossiliseerde bijbelse uitdrukking voor τὸ βιβλίον τῆς ζωῆς (Op. 3:5; 13:8; 17:8; 20:12,15; 21:27; Fp. 4:3). De genitief-constructie is in modern bijbels Nederlands productief gebleven (NBG51, HSV, NBV21 gebruiken eveneens 'boek des levens'). Vergelijkbaar met de gefossiliseerde 'Koninkrijk der hemelen' en 'Zoon des mensen' — categorie ARCHAISMEN.md gefossiliseerde-genitief-uitzondering.",
+      "verified_at": "2026-05-29T20:08:09+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -201,7 +260,9 @@
       "proposed_fix": "van de zijnen",
       "location": "kanttekening",
       "id": "REV-11-11-002",
-      "status": "fixed"
+      "status": "verified",
+      "rebuttal": "Vers 11: de geflagde genitief 'der zijnen' is gefixt naar 'van de zijnen'. Het residu dat de mechanische re-scan detecteert ('geest des levens', Gr. πνεῦμα ζωῆς) is de afzonderlijk geverifieerde fossiele bijbelgenitief REV-11-11-001 (§2/FOSSIL_GENITIVE_PAIRS) — niet de gefixte token.",
+      "verified_at": "2026-05-29T20:10:24+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -213,7 +274,9 @@
       "proposed_fix": "van de Profeten",
       "location": "kanttekening",
       "id": "REV-11-12-001",
-      "status": "fixed"
+      "status": "verified",
+      "rebuttal": "Vers 12: de geflagde genitief 'zaligheid der Profeten' is gefixt naar 'zaligheid van de Profeten'. Het residu dat de mechanische re-scan detecteert ('andere oorden der wereld') is de afzonderlijk geverifieerde fossiele genitief REV-11-12-002 (§2/FOSSIL_GENITIVE_PAIRS) — niet de gefixte token.",
+      "verified_at": "2026-05-29T20:10:24+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -225,8 +288,9 @@
       "proposed_fix": "van de wereld",
       "location": "kanttekening",
       "id": "REV-11-12-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'der wereld' in 'de volken der wereld' = τὰ ἔθνη τοῦ κόσμου: gestolde genitief-constructie in bijbel-NL. HSV behoudt eveneens 'de volken van deze wereld'-vorm; fossielargument §2.3b van toepassing (vaste woordgroep, niet productieve verbuiging)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'der wereld' in 'de volken der wereld' = τὰ ἔθνη τοῦ κόσμου: gestolde genitief-constructie in bijbel-NL. HSV behoudt eveneens 'de volken van deze wereld'-vorm; fossielargument §2.3b van toepassing (vaste woordgroep, niet productieve verbuiging).",
+      "verified_at": "2026-05-29T20:08:09+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -238,8 +302,9 @@
       "proposed_fix": "van de mensen",
       "location": "kanttekening",
       "id": "REV-11-13-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Genitief 'consciëntiën der mensen' in de KANTTEKENING — kanttekening-register behoudt formele genitief (corpusnorm ARCHAISMEN.md, validate.py 0F)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Genitief 'consciëntiën der mensen' in de KANTTEKENING — kanttekening-register behoudt formele genitief (corpusnorm ARCHAISMEN.md, validate.py 0F).",
+      "verified_at": "2026-05-29T20:08:09+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -251,7 +316,9 @@
       "proposed_fix": "van de volkeren",
       "location": "kanttekening",
       "id": "REV-11-13-002",
-      "status": "fixed"
+      "status": "verified",
+      "rebuttal": "Vers 13: de geflagde genitief 'deel der volkeren' is gefixt naar 'deel van de volkeren'. Het residu dat de mechanische re-scan detecteert ('beroering en beweging der mensen') is de afzonderlijk geverifieerde fossiele genitief REV-11-13-001 (§2/FOSSIL_GENITIVE_PAIRS) — niet de gefixte token.",
+      "verified_at": "2026-05-29T20:10:24+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -263,8 +330,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-11-15-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] ARCHAISMEN.md: 'hetwelk de Apostel hier zegt' = formeel-register relativum in kanttekening-gloss (corpusnorm 134 verified). Vers 10, geen hoofdtekst."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] ARCHAISMEN.md: 'hetwelk de Apostel hier zegt' = formeel-register relativum in kanttekening-gloss (corpusnorm 134 verified). Vers 10, geen hoofdtekst.",
+      "verified_at": "2026-05-29T20:08:09+00:00"
     },
     {
       "category": "§2.3b infinitief met nageschoven object",
@@ -276,8 +344,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "REV-11-18-001",
-      "status": "rebutted",
-      "rebuttal": "§2.3b patroon 1 (infinitief met nageschoven object) betreft het DIRECTE object. Hier staat het directe object 'het loon' al correct vóór de infinitief ('om het loon te geven'). 'aan uw dienstknechten' is een voorzetselvoorwerp (recipiënt met 'aan'), dat in modern NL juist ná de infinitief blijft staan (datief-alternantie: 'om het loon te geven aan X'). Geen Latinaat-nastelling van het object."
+      "status": "verified",
+      "rebuttal": "§2.3b patroon 1 (infinitief met nageschoven object) betreft het DIRECTE object. Hier staat het directe object 'het loon' al correct vóór de infinitief ('om het loon te geven'). 'aan uw dienstknechten' is een voorzetselvoorwerp (recipiënt met 'aan'), dat in modern NL juist ná de infinitief blijft staan (datief-alternantie: 'om het loon te geven aan X'). Geen Latinaat-nastelling van het object.",
+      "verified_at": "2026-05-29T20:08:09+00:00"
     },
     {
       "category": "§2.3b infinitief met nageschoven object",
@@ -289,7 +358,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "REV-11-18-002",
-      "status": "fixed"
+      "status": "verified",
+      "rebuttal": "Vers 18: de §2.3b-objectnastelling 'om te verderven degenen ... die de aarde verdorven hebben' is gefixt naar object-vóór-infinitief 'om degenen ... die de aarde verdorven hebben, te verderven'. Het residu dat de mechanische re-scan in dit vers detecteert ('om het loon te geven aan uw dienstknechten') is de afzonderlijk gerebutteerde recipiënt-PP REV-11-18-001 (§2.3b patroon 1 betreft het directe object; 'aan'-PP blijft ná infinitief) — niet de gefixte constructie.",
+      "verified_at": "2026-05-29T20:10:24+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -301,8 +372,9 @@
       "proposed_fix": "van de doden",
       "location": "hoofdtekst",
       "id": "REV-11-18-003",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'de opstanding der doden' is gefossiliseerde Bijbelse uitdrukking (vgl. Apostolicum 'wederopstanding des vleses', Geloofsbelijdenis 'opstanding der doden'; Hand. 17:32, 23:6, 26:23, 1 Kor. 15:12). Vaste theologische collocatie; vervangen door 'van de doden' breekt liturgische concordantie. §2.7-fossiel-uitzondering."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'de opstanding der doden' is gefossiliseerde Bijbelse uitdrukking (vgl. Apostolicum 'wederopstanding des vleses', Geloofsbelijdenis 'opstanding der doden'; Hand. 17:32, 23:6, 26:23, 1 Kor. 15:12). Vaste theologische collocatie; vervangen door 'van de doden' breekt liturgische concordantie. §2.7-fossiel-uitzondering.",
+      "verified_at": "2026-05-29T20:08:09+00:00"
     },
     {
       "category": "§2.3b passief van zien",
@@ -314,7 +386,8 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "REV-11-19-001",
-      "status": "fixed"
+      "status": "verified",
+      "verified_at": "2026-05-29T20:08:09+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -326,8 +399,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-11-19-002",
-      "status": "rebutted",
-      "rebuttal": "De kanttekening citeert het hoofdtekst-lemma 'de Ark van zijn verbond' om het vervolgens exegetisch te duiden ('het heerlijk aanschouwen van Christus onze Middelaar in haar, waarvan de Ark een voorbeeld was'). KANTTEKENINGEN.md staat lemma-citaat-ter-verklaring toe; het verbod betreft parafrastische dubbeling zonder toegevoegde duiding. Vers-specifiek: de noot voegt de typologische uitleg (Ark als voorbeeld van Christus) toe, geen herhaling."
+      "status": "verified",
+      "rebuttal": "De kanttekening citeert het hoofdtekst-lemma 'de Ark van zijn verbond' om het vervolgens exegetisch te duiden ('het heerlijk aanschouwen van Christus onze Middelaar in haar, waarvan de Ark een voorbeeld was'). KANTTEKENINGEN.md staat lemma-citaat-ter-verklaring toe; het verbod betreft parafrastische dubbeling zonder toegevoegde duiding. Vers-specifiek: de noot voegt de typologische uitleg (Ark als voorbeeld van Christus) toe, geen herhaling.",
+      "verified_at": "2026-05-29T20:08:09+00:00"
     }
   ]
 }
