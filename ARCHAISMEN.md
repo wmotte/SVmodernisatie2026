@@ -44,6 +44,7 @@ Standaard-substituties voor de hoofdtekst:
 | vaderen            | vaders                               |
 | reukofferen (ww.)  | het reukoffer brengen                |
 | vertoefde / vertoefden | bleef / bleven (lit. "verbleef") |
+| wederleggen / wederlegt / wederlegde / wederlegd | weerleggen / weerlegt / weerlegde / weerlegd — archaïsche `weder-`-spelling (Gr. ἐλέγχω); HSV + eigen kanttekening (TIT 1:11 `weerlegging`) spellen `weer-`. Meta-review TIT 1:9. |
 | hoedanig / hoedanige | "wat voor", "van welke aard", "welke" |
 | aanschouwer(s)     | ooggetuige(n) (Gr. αὐτόπτης) — bij Lk. 1:2 idiomatisch |
 | nochtans           | toch                                  |
