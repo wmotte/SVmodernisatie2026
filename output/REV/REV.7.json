@@ -61,6 +61,46 @@
       "generated_at": "2026-05-29T14:27:51.748243Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 7,
+      "original": "Uyt het geslachte Simeon waren twaelf duysent verzegelt: <Hier wort het geslachte Levi onder de geslachten Israëls getelt, die nochtans geen seker erve en hadden in ’t lant Canaan, ende het geslachte Dan wort uytgelaten. De reden is, om dat wy nu alle Priesteren ende Leviten zijn voor Godt. Doch wat de Daniten aengaet, haer geslachte wort hier voorby gegaen, om dat sy de eerste geweest zijn, die haer tot afgoderije begeven hebben, Iudic. cap. 18. ende de kalveren Ieroboams te Dan hebben geherberght, 1.Reg. c. 12. Waerom sy oock onder de eerste zijn geweest, die van de Heydenen zijn wech gevoert, 2.Reg. c. 16. ende zijn onder deselve verstroyt gebleven. Waerom oock de stamme Dan in de wederkeeringe der Israëliten, na de gevangenisse van Babel, onder de Israëlitische stammen in het eerste boeck der Chroniken niet meer en wort getelt.> uyt het geslachte Levi waren twaelf duysent verzegelt: uyt het geslachte Isachar waren twaelf duysent verzegelt:",
+      "modernized": "Uit het geslacht Simeon waren twaalfduizend verzegeld: <Hier wordt het geslacht Levi onder de geslachten van Israël geteld, die toch geen vaste erfenis hadden in het land Kanaän, en het geslacht Dan wordt weggelaten. De reden is dat wij nu allen Priesters en Levieten zijn voor God. Maar wat de Danieten betreft, hun geslacht wordt hier voorbijgegaan, omdat zij de eersten geweest zijn die zich tot afgoderij begeven hebben, Richteren 18 en de kalveren van Jerobeam te Dan hebben geherbergd, 1 Koningen 12 Waarom zij ook onder de eersten zijn geweest die door de Heidenen zijn weggevoerd, 2 Koningen 16 en onder hen verstrooid gebleven zijn. Waarom ook de stam Dan in de terugkeer van de Israëlieten, na de gevangenschap van Babel, onder de Israëlitische stammen in het eerste boek van de Kronieken niet meer wordt geteld.> uit het geslacht Levi waren twaalfduizend verzegeld: uit het geslacht Issaschar waren twaalfduizend verzegeld:",
+      "source_text": "Ἐκ φυλῆς Συμεών, ιβ´ χιλιάδες ἐσφραγισμένοι· Ἐκ φυλῆς Λευΐ, ιβ´ χιλιάδες ἐσφραγισμένοι· Ἐκ φυλῆς Ἰσαχάρ, ιβ´ χιλιάδες ἐσφραγισμένοι·",
+      "generated_at": "2026-05-29T14:33:08.434196Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 4,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "hoofdstuk-only verwijzingen",
+          "context": "kanttekening",
+          "choice": "Richteren 18 / 1 Koningen 12 / 2 Koningen 16 als gemoderniseerde prozaverwijzing zonder $...$-wrap",
+          "alternatives": [
+            "$Ri. 18$",
+            "Iudic. cap. 18 ongewijzigd"
+          ],
+          "reason": "De SV-refs zijn hoofdstuk-only (geen versnummer); bibref.py normaliseert ze niet en de validator weigert een $...$-blok zonder H:V. Boeknaam wel naar moderne vorm gebracht."
+        }
+      ]
+    },
+    {
+      "verse_number": 8,
+      "original": "Uyt het geslachte Zabulon waren twaelf duysent verzegelt: <D. uyt den geslachte Ephraims, wiens name oock wort verswegen, om dat oock uyt haer de afgoderije te Dan ende Bethel haren oorspronck heeft gehadt. Want Ieroboam was een Ephraimiter, 1.Reg. cap. 11. vers 26. daerom wort Ioseph, de vader Ephraims, hier in sijne plaetse gestelt. Andere meynen dat de stamme Ephraims daerom de stamme Iosephs wort genaemt, om dat de stamme Ephraims boven de stamme Manasses in den zegen Iacobs is verheven, Genes. cap. 48. versen 14, 19. Psalm 78.67.> uyt het geslachte Ioseph waren twaelf duysent verzegelt: uyt het geslachte Benjamin waren twaelf duysent verzegelt.",
+      "modernized": "Uit het geslacht Zebulon waren twaalfduizend verzegeld: <Dat is, uit het geslacht van Efraïm, wiens naam ook wordt verzwegen, omdat ook uit hen de afgoderij te Dan en Betel haar oorsprong heeft gehad. Want Jerobeam was een Efraïmiet, $1Kn. 11:26$ daarom wordt Jozef, de vader van Efraïm, hier in zijn plaats gesteld. Anderen menen dat de stam van Efraïm daarom de stam van Jozef wordt genoemd, omdat de stam van Efraïm boven de stam van Manasse in de zegen van Jakob is verheven, $Gn. 48:14,19; Ps. 78:67$.> uit het geslacht Jozef waren twaalfduizend verzegeld: uit het geslacht Benjamin waren twaalfduizend verzegeld.",
+      "source_text": "Ἐκ φυλῆς Ζαβουλών, ιβ´ χιλιάδες ἐσφραγισμένοι· Ἐκ φυλῆς Ἰωσήφ, ιβ´ χιλιάδες ἐσφραγισμένοι· Ἐκ φυλῆς Βενιαμίν, ιβ´ χιλιάδες ἐσφραγισμένοι.",
+      "generated_at": "2026-05-29T14:33:48.773140Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 4
+    },
+    {
+      "verse_number": 9,
+      "original": "<Gelijck de voorgaende teeckeninge der hondert ende vier ende veertigh duysent is geschiet op aerden, ten tijden des Antichrists, als de Kercke Christi noch onder hem schuylde, ende vervolght wiert, alsoo is dit ontelbaer getal uyt alle volcken in den hemel gesien, voor den throon Godts, daer sy uyt alle gewesten ende tijden zijn vergadert. Andere nemen dit ontelbaer getal voor de gene die na het begin van den val des Antichrists in de openbare gemeynten door alle landen zijn vergadert, ende noch dagelicks vergadert worden. Want dese teeckeninge pleeght in de verdruckte ende schuylende, niet in de openbare ende vrije Kercken te geschieden, gelijck de plaetse Ezech. 9. vers 4. oock mede brenght. Siet oock hier na Cap. 14. vers 1.> Na desen sagh ick, ende siet, een groote schare, die niemant tellen en konde, uyt alle natie, ende geslachten, ende volcken, ende <Gr. tongen.> talen, staende voor den throon, ende voor het Lam, bekleet zijnde met lange witte kleederen: ende <Namel. tot een teecken van overwinninge.> palm-[tacken] waren in hare handen.",
+      "modernized": "<Zoals de voorgaande tekening van de honderdvierenveertigduizend is gebeurd op aarde, ten tijde van de Antichrist, toen de Kerk van Christus nog onder hem schuilde, en vervolgd werd, zo is dit ontelbare getal uit alle volken in de hemel gezien, voor de troon van God, waar zij uit alle gewesten en tijden zijn vergaderd. Anderen nemen dit ontelbare getal voor hen die na het begin van de val van de Antichrist in de openbare gemeenten door alle landen zijn vergaderd, en nog dagelijks vergaderd worden. Want deze tekening pleegt in de verdrukte en schuilende, niet in de openbare en vrije Kerken plaats te vinden, zoals de plaats $Ez. 9:4$ ook meebrengt. Zie ook hierna $Op. 14:1$.> Na dezen zag ik, en zie, een grote schare, die niemand tellen kon, uit alle natie, en geslachten, en volken, en <Grieks: tongen.> talen, die voor de troon stonden, en voor het Lam, bekleed met lange witte kleren: en <Namelijk, tot een teken van overwinning.> palm-[takken] waren in hun handen.",
+      "source_text": "Μετὰ ταῦτα εἶδον, καὶ ἰδού, ὄχλος πολύς, ὃν ἀριθμῆσαι αὐτὸν οὐδεὶς ἠδύνατο, ἐκ παντὸς ἔθνους καὶ φυλῶν καὶ λαῶν καὶ γλωσσῶν, ἑστῶτες ἐνώπιον τοῦ θρόνου καὶ ἐνώπιον τοῦ ἀρνίου, περιβεβλημένοι στολὰς λευκάς, καὶ φοίνικες ἐν ταῖς χερσὶν αὐτῶν·",
+      "generated_at": "2026-05-29T14:35:57.626077Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
