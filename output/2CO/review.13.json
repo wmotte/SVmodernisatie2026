@@ -1,0 +1,67 @@
+{
+  "book": "2CO",
+  "chapter": 13,
+  "reviewed_at": "2026-05-29T06:59:03+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-29T06:58:25+00:00",
+      "mode": "scan",
+      "issues_total": 3
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-29T06:59:03+00:00",
+      "mode": "verify",
+      "actions": [
+        "2CO-13-4-001: rebuttal verified",
+        "2CO-13-6-001: verified",
+        "2CO-13-11-001: rebuttal verified"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 4,
+      "severity": "soft",
+      "quote_modernized": "door de kracht van",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'door de kracht van' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "2CO-13-4-001",
+      "status": "verified",
+      "rebuttal": "KANTTEKENINGEN.md verbiedt vooral overname van kanttekeningalternatieven in de hoofdtekst. In 2Kor. 13:4 is 'door de kracht van God' de SV-hoofdtekst en verklaart de kanttekening versspecifiek dat dit de Goddelijke kracht/natuur van Christus betreft, met Joh. 2:19; 10:18 en Rom. 1:4 als bewijs; schrappen zou het bewaarde SV-kanttekeningblok inhoudelijk versmallen.",
+      "verified_at": "2026-05-29T06:59:03+00:00"
+    },
+    {
+      "category": "SV-verbuiging (demonstratief dezer/dien/...)",
+      "verse": 6,
+      "severity": "hard",
+      "quote_modernized": "…lijke of verachtelijke Apostelen, zoals dezen ons nageven.",
+      "rule_reference": "ARCHAISMEN.md (SV-verbuigingen)",
+      "explanation": "'dezen ons' — verbogen demonstratief (SV-genitief/datief). Modern Nederlands: 'deze' / 'die' / 'in deze ...' / 'op die ...'. Gefossiliseerde uitdrukkingen ('dezer dagen', 'te dien einde') zijn whitelist; rebut zo nodig met register-argument.",
+      "proposed_fix": "zoals deze ons nageven",
+      "location": "kanttekening",
+      "id": "2CO-13-6-001",
+      "status": "verified",
+      "rebuttal": null,
+      "verified_at": "2026-05-29T06:59:03+00:00"
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 11,
+      "severity": "soft",
+      "quote_modernized": "Voorts, broeders, wees blij, word   volm…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'voorts' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "2CO-13-11-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] §2.7: 'voorts' is productief formeel/schriftelijk NL (= 'verder/vervolgens', additief), haalt de productiviteitstest; de door de scanner voorgestelde causale equivalenten ('omdat/hoewel/echter') passen semantisch niet op dit additieve voegwoord.",
+      "verified_at": "2026-05-29T06:59:03+00:00"
+    }
+  ]
+}
