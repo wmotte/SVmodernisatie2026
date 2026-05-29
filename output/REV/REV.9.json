@@ -155,6 +155,57 @@
       "generated_at": "2026-05-29T15:58:14.655982Z",
       "model": "claude-opus-4-8[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 16,
+      "original": "Ende het getal van de heyrlegers <Dit wort uytgedruckt, om dat hare heyrlegers meest in ruyterije bestonden, die uytnemende groot waren, ende de heyrlegers der Christenen verre te boven gingen, waer door sy oock hare meeste overwinningen hebben verkregen: gelijck in het volgende vers wort uytgedruckt.> der ruyterije was <Dat is, een overgroote menighte: gelijck door dese wijse van spreken oock elders wort verstaen. Siet Psalm 68. vers 18. Dan. cap. 7. vers 10. Ende dat dese Turcken ende Tartaren met eenige hondert duysenden te velde plegen te komen, is uyt de Historien genoegh bekent.> twee mael tien duysenden der tien duysenden: <Namelick, noemen in dit gesichte.> ende ick hoorde haer getal.",
+      "modernized": "En het getal van de legers <Dit wordt uitgedrukt, omdat hun legers meest uit ruiterij bestonden, die uitnemend groot was, en de legers van de Christenen verre te boven gingen, waardoor zij ook hun meeste overwinningen hebben verkregen: zoals in het volgende vers wordt uitgedrukt.> van de ruiterij was <Dat is, een overgrote menigte: zoals door deze wijze van spreken ook elders wordt verstaan. Zie $Ps. 68:18; Dn. 7:10$. En dat deze Turken en Tataren met enige honderdduizenden te velde plegen te komen, is uit de Historiën genoeg bekend.> tweemaal tienduizend maal tienduizend: <Namelijk, noemen in dit gezicht.> en ik hoorde hun getal.",
+      "source_text": "καὶ ὁ ἀριθμὸς στρατευμάτων τοῦ ἱππικοῦ δύο μυριάδες μυριάδων· καὶ ἤκουσα τὸν ἀριθμὸν αὐτῶν.",
+      "generated_at": "2026-05-29T16:03:07.625689Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 17,
+      "original": "Ende ick sagh alsoo de peerden in dit gesichte, ende die daer op saten, hebbende <Alsoo dese natien seer weynigh ysere wapenen aen hare lijven dragen, soo verstaen eenige hier door hare verscheydene livreijen, die sy uyt dergelijcke coleuren plegen te dragen. Andere hare wreede gemoederen, die sy tegen de Christenen betoonen, ende hare schrickelicke lasteringen, die sy tegen haer plegen uyt te blasen.> vyerige ende hemelblaeuwe, ende sulpherverwige borstwapenen: ende de hoofden der peerden waren als <Dat is, die sterck, snel, ende wreet zijn, ende niet alleen met slaen, maer oock met bijten ende scheuren plegen te woeden.> hoofden van leeuwen, ende uyt hare monden gingh uyt <Dit duyden sommige op het geschut, datse voeren, waer mede in het schieten vyer, roock, ende sulpher uyt hare monden schijnt voort te komen. Andere verstaen hier door allerley soorten van wreetheyt diese door hare wapenen bedrijven souden.> vyer, ende roock, ende sulpher.",
+      "modernized": "En ik zag aldus de paarden in dit gezicht, en die daarop zaten; zij hadden <Aangezien deze naties zeer weinig ijzeren wapenen aan hun lijven dragen, zo verstaan sommigen hierdoor hun verscheidene livreien, die zij uit dergelijke kleuren plegen te dragen. Anderen hun wrede gemoederen, die zij tegen de Christenen betonen, en hun schrikkelijke lasteringen, die zij tegen hen plegen uit te blazen.> vurige en hemelsblauwe, en zwavelkleurige borstwapenen: en de hoofden van de paarden waren als <Dat is, die sterk, snel, en wreed zijn, en niet alleen met slaan, maar ook met bijten en scheuren plegen te woeden.> hoofden van leeuwen, en uit hun monden ging uit <Dit duiden sommigen op het geschut, dat zij voeren, waarmee in het schieten vuur, rook, en zwavel uit hun monden schijnt voort te komen. Anderen verstaan hierdoor allerlei soorten van wreedheid die zij door hun wapenen bedrijven zouden.> vuur, en rook, en zwavel.",
+      "source_text": "καὶ οὕτως εἶδον τοὺς ἵππους ἐν τῇ ὁράσει, καὶ τοὺς καθημένους ἐπ’ αὐτῶν, ἔχοντας θώρακας πυρίνους καὶ ὑακινθίνους καὶ θειώδεις· καὶ αἱ κεφαλαὶ τῶν ἵππων ὡς κεφαλαὶ λεόντων, καὶ ἐκ τῶν στομάτων αὐτῶν ἐκπορεύεται πῦρ καὶ καπνὸς καὶ θεῖον.",
+      "generated_at": "2026-05-29T16:03:17.149063Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "participium hebbende",
+          "context": "hoofdtekst, na \"die daarop zaten\"",
+          "choice": "ontvouwd naar finiete bijzin \"zij hadden\"",
+          "alternatives": [
+            "hebbende (carry-over)"
+          ],
+          "reason": "SV-participium hebbende (Gr. echontas) ontvouwd naar finiete vorm conform MODERNISATIE.md 2.3; kanttekening-posities ongewijzigd"
+        }
+      ]
+    },
+    {
+      "verse_number": 18,
+      "original": "Door dese drie wiert het derde [deel] der menschen gedoot, [namelick] door ’t vyer, ende door den roock, ende door het sulpher, dat uyt hare monden uytgingh.",
+      "modernized": "Door deze drie werd het derde [deel] van de mensen gedood, [namelijk] door het vuur, en door de rook, en door de zwavel, die uit hun monden uitging.",
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "relatief voornaamwoord dat/die",
+          "context": "hoofdtekst, na \"de zwavel\"",
+          "choice": "die uit hun monden uitging",
+          "alternatives": [
+            "dat uit hun monden uitging (SV1657 'het sulpher, dat')"
+          ],
+          "reason": "SV1657 'het sulpher' (onzijdig) → relatief 'dat'; gemoderniseerd antecedent 'de zwavel' is in modern NL de-woord, dus congruent relatief is 'die'. HSV-spiegel bevestigt onafhankelijk ('de zwavel die')."
+        }
+      ],
+      "source_text": "ὑπὸ τῶν τριῶν τούτων ἀπεκτάνθησαν τὸ τρίτον τῶν ἀνθρώπων, ἐκ τοῦ πυρὸς καὶ ἐκ τοῦ καπνοῦ καὶ ἐκ τοῦ θείου τοῦ ἐκπορευομένου ἐκ τῶν στομάτων αὐτῶν.",
+      "generated_at": "2026-05-29T16:03:18.572927Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
