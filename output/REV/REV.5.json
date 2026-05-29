@@ -138,6 +138,36 @@
       "generated_at": "2026-05-29T11:29:04.561974Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 13,
+      "original": "Ende alle schepsel dat in den hemel is, ende op de aerde, ende <Dit wort geseght, gelijck hier na in de zee, van alle schepselen levendige ende levenloose, om dat sy alle stoffe ende oorsake geven, dat men Christo lof ende eere geve, gelijck Psalm 148. vers 1, etc. Andere verstaen door de gene die onder de aerde zijn de gene, die te sijner tijt uyt de graven sullen opstaen.> onder de aerde, ende die in de zee zijn, ende alles wat in de selve is, hoorde ick seggen, Hem die op den throon sit, ende den Lamme zy de dancksegginge, ende de eere, ende de heerlickheyt, ende de kracht <Gr. in de eeuwigheden der eeuwigheden.> in alle eeuwigheyt.",
+      "modernized": "En elk schepsel dat in de hemel is, en op de aarde, en <Dit wordt gezegd, zoals hierna in de zee, van alle schepselen, levende en levenloze, omdat zij alle stof en oorzaak geven dat men Christus lof en eer geeft, zoals $Ps. 148:1$, enz. Anderen verstaan door degenen die onder de aarde zijn degenen die te zijner tijd uit de graven zullen opstaan.> onder de aarde, en die in de zee zijn, en alles wat daarin is, hoorde ik zeggen: Hem die op de troon zit, en het Lam zij de dankzegging, en de eer, en de heerlijkheid, en de kracht <Grieks: in de eeuwigheden van de eeuwigheden.> in alle eeuwigheid.",
+      "source_text": "καὶ πᾶν κτίσμα ὅ ἐστιν ἐν τῷ οὐρανῷ, καὶ ἐν τῇ γῇ, καὶ ὑποκάτω τῆς γῆς, καὶ ἐπὶ τῆς θαλάσσης ἅ ἐστι, καὶ τὰ ἐν αὐτοῖς πάντα, ἤκουσα λέγοντας, Τῷ καθημένῳ ἐπὶ τοῦ θρόνου καὶ τῷ ἀρνίῳ ἡ εὐλογία καὶ ἡ τιμὴ καὶ ἡ δόξα καὶ τὸ κράτος εἰς τοὺς αἰῶνας τῶν αἰώνων.",
+      "generated_at": "2026-05-29T11:33:01.154545Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "alle schepselen die ... zijn",
+          "context": "hoofdtekst",
+          "choice": "elk schepsel dat ... is",
+          "alternatives": [
+            "alle schepselen die ... zijn"
+          ],
+          "reason": "Getal-congruentie hersteld naar enkelvoud conform SV1657 ('alle schepsel dat in den hemel is') en Grieks (pan ktisma ho estin, enkelvoud); HSV-spiegel bevestigt enkelvoud ('elk schepsel dat ... is'). De eerdere meervoudsvorm pluraliseerde subject en persoonsvorm ten onrechte."
+        }
+      ]
+    },
+    {
+      "verse_number": 14,
+      "original": "Ende de vier dieren seyden, <Siet hier van Cap. 1. vers 7.> Amen. Ende de vier ende twintigh Ouderlingen vielen [neder,] ende aenbaden den genen die leeft in alle eeuwigheyt.",
+      "modernized": "En de vier dieren zeiden: <Zie hiervan $Op. 1:7$.> Amen. En de vierentwintig Ouderlingen vielen [neder,] en aanbaden degene die leeft in alle eeuwigheid.",
+      "source_text": "καὶ τὰ τέσσαρα ζῶα ἔλεγον, Ἀμήν. καὶ οἱ εἰκοσιτέσσαρες πρεσβύτεροι ἔπεσαν καὶ προσεκύνησαν ζῶντι εἰς τοὺς αἰῶνας τῶν αἰώνων.",
+      "generated_at": "2026-05-29T11:33:04.688083Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
