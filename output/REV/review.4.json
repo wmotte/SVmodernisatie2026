@@ -1,7 +1,7 @@
 {
   "book": "REV",
   "chapter": 4,
-  "reviewed_at": "2026-05-29T10:28:30+00:00",
+  "reviewed_at": "2026-05-29T10:30:09+00:00",
   "passes": [
     {
       "pass": 1,
@@ -36,6 +36,19 @@
         "REV-4-10-001: rebuttal verified",
         "REV-4-3-002: rebuttal verified"
       ]
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-05-29T10:30:09+00:00",
+      "mode": "verify",
+      "actions": [
+        "REV-4-1-002: verified",
+        "REV-4-1-003: verified",
+        "REV-4-7-001: rebuttal verified",
+        "REV-4-7-002: rebuttal verified",
+        "REV-4-7-003: rebuttal verified",
+        "REV-4-7-004: rebuttal verified"
+      ]
     }
   ],
   "issues": [
@@ -63,10 +76,11 @@
       "proposed_fix": "van de bozen",
       "location": "kanttekening",
       "id": "REV-4-1-002",
-      "status": "fixed",
+      "status": "verified",
       "fix_commit": "pending",
       "verify_note": "fix loste het patroon niet op",
-      "rebuttal": ""
+      "rebuttal": "",
+      "verified_at": "2026-05-29T10:30:09+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -78,10 +92,11 @@
       "proposed_fix": "van de vromen",
       "location": "kanttekening",
       "id": "REV-4-1-003",
-      "status": "fixed",
+      "status": "verified",
       "fix_commit": "pending",
       "verify_note": "fix loste het patroon niet op",
-      "rebuttal": ""
+      "rebuttal": "",
+      "verified_at": "2026-05-29T10:30:09+00:00"
     },
     {
       "category": "voornaamwoordelijk bijwoord gesplitst",
@@ -261,9 +276,10 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "REV-4-7-001",
-      "status": "rebutted",
+      "status": "verified",
       "rebuttal": "MODERNISATIE.md §2.3 (SV-verbuiging) betreft uitsluitend verbogen demonstratieven (genitief/datief dezer/dien/diens). Regex-false-positive: 'dier' is hier het zelfstandig naamwoord, Grieks ζῷον ('levend wezen'), niet het homografe verbogen demonstratief. Vers-specifiek: 'het eerste dier was als een leeuw' draagt het bepaald lidwoord 'het', dus 'dier' = nomen ζῷον; §2.3 is niet van toepassing op dit substantief.",
-      "verify_note": "rebuttal noemt geen regel (§), geen Griekse term en geen vers-specifiek argument — voeg referentie toe"
+      "verify_note": "rebuttal noemt geen regel (§), geen Griekse term en geen vers-specifiek argument — voeg referentie toe",
+      "verified_at": "2026-05-29T10:30:09+00:00"
     },
     {
       "category": "SV-verbuiging (demonstratief dezer/dien/...)",
@@ -275,9 +291,10 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "REV-4-7-002",
-      "status": "rebutted",
+      "status": "verified",
       "rebuttal": "MODERNISATIE.md §2.3 (SV-verbuiging) betreft uitsluitend verbogen demonstratieven (genitief/datief dezer/dien/diens). Regex-false-positive: 'dier' is hier het zelfstandig naamwoord, Grieks ζῷον ('levend wezen'), niet het homografe verbogen demonstratief. Vers-specifiek: 'het tweede dier als een kalf' draagt het bepaald lidwoord 'het', dus 'dier' = nomen ζῷον; §2.3 is niet van toepassing op dit substantief.",
-      "verify_note": "rebuttal noemt geen regel (§), geen Griekse term en geen vers-specifiek argument — voeg referentie toe"
+      "verify_note": "rebuttal noemt geen regel (§), geen Griekse term en geen vers-specifiek argument — voeg referentie toe",
+      "verified_at": "2026-05-29T10:30:09+00:00"
     },
     {
       "category": "SV-verbuiging (demonstratief dezer/dien/...)",
@@ -289,9 +306,10 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "REV-4-7-003",
-      "status": "rebutted",
+      "status": "verified",
       "rebuttal": "MODERNISATIE.md §2.3 (SV-verbuiging) betreft uitsluitend verbogen demonstratieven (genitief/datief dezer/dien/diens). Regex-false-positive: 'dier' is hier het zelfstandig naamwoord, Grieks ζῷον ('levend wezen'), niet het homografe verbogen demonstratief. Vers-specifiek: 'het derde dier had het aangezicht' draagt het bepaald lidwoord 'het', dus 'dier' = nomen ζῷον; §2.3 is niet van toepassing op dit substantief.",
-      "verify_note": "rebuttal noemt geen regel (§), geen Griekse term en geen vers-specifiek argument — voeg referentie toe"
+      "verify_note": "rebuttal noemt geen regel (§), geen Griekse term en geen vers-specifiek argument — voeg referentie toe",
+      "verified_at": "2026-05-29T10:30:09+00:00"
     },
     {
       "category": "SV-verbuiging (demonstratief dezer/dien/...)",
@@ -303,9 +321,10 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "REV-4-7-004",
-      "status": "rebutted",
+      "status": "verified",
       "rebuttal": "MODERNISATIE.md §2.3 (SV-verbuiging) betreft uitsluitend verbogen demonstratieven (genitief/datief dezer/dien/diens). Regex-false-positive: 'dier' is hier het zelfstandig naamwoord, Grieks ζῷον ('levend wezen'), niet het homografe verbogen demonstratief. Vers-specifiek: 'het vierde dier was als een vliegende arend' draagt het bepaald lidwoord 'het', dus 'dier' = nomen ζῷον; §2.3 is niet van toepassing op dit substantief.",
-      "verify_note": "rebuttal noemt geen regel (§), geen Griekse term en geen vers-specifiek argument — voeg referentie toe"
+      "verify_note": "rebuttal noemt geen regel (§), geen Griekse term en geen vers-specifiek argument — voeg referentie toe",
+      "verified_at": "2026-05-29T10:30:09+00:00"
     },
     {
       "category": "kanttekening-redundantie",
