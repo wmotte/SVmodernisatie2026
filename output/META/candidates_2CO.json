@@ -1,0 +1,287 @@
+{
+  "book": "2CO",
+  "chapters": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "min_freq": 2,
+  "kinds": [
+    "carryover",
+    "fossiel-lidwoord",
+    "latinaat-window",
+    "cap-asym"
+  ],
+  "total_patterns": 6,
+  "patterns_by_kind": {
+    "carryover": [
+      {
+        "pattern_id": "p-0004",
+        "kind": "carryover",
+        "key": "ben",
+        "frequency": 7,
+        "hsv_alternatives": [
+          "namelijk",
+          "sta",
+          "deed",
+          "getroost",
+          "treuren",
+          "verslag",
+          "vurig",
+          "beijver"
+        ],
+        "severity_hint": "soft",
+        "occurrences": [
+          {
+            "book": "2CO",
+            "chapter": 7,
+            "verse": 7,
+            "sv2026_excerpt": "… uw ijver voor mij; zodat ik des te meer verblijd ben geweest.",
+            "hsv_excerpt": "En niet alleen door zijn komst, maar ook door de troost waarmee hij bij u getroost werd. Hij deed ons namelijk verslag v",
+            "original_excerpt": "Ende niet alleen door sijne komste, maer oock door de vertroostinge, met welcke hy over u vertroost is geweest, als hy o"
+          },
+          {
+            "book": "2CO",
+            "chapter": 11,
+            "verse": 2,
+            "sv2026_excerpt": "Want ik ben   ijverig over u met een   ijver van God. Want…",
+            "hsv_excerpt": "Want ik beijver mij voor u met een ijver van God. Ik heb u immers ten huwelijk gegeven aan één Man   om u als een reine ",
+            "original_excerpt": "Want ick ben   yverigh over u met eenen   yver Godts. Want ick hebbe u-lieden   toebereyt om   u als een reyne maeght, e"
+          },
+          {
+            "book": "2CO",
+            "chapter": 11,
+            "verse": 21,
+            "sv2026_excerpt": "… stoutmoedig is (ik spreek in onverstand), daarin ben ik ook stoutmoedig.",
+            "hsv_excerpt": "Tot eigen oneer zeg ik: wij zijn zwak geweest.   Maar waarin iemand ook durf toont – ik spreek in dwaasheid – daarin too",
+            "original_excerpt": "Ick segge dit   na oneere,   gelijck of wy swack waren geweest:   maer waer in yemant   stout is (ick spreke in onwijshe"
+          },
+          {
+            "book": "2CO",
+            "chapter": 11,
+            "verse": 23,
+            "sv2026_excerpt": "…us? (ik spreek als iemand zonder verstand)     ik ben boven hen:   in arbeid overvloediger, in slage…",
+            "hsv_excerpt": "Zijn zíj dienaars van Christus? – ik spreek als een waanzinnige –   ik sta boven hen ;   in ingespannen arbeid veel vake",
+            "original_excerpt": "Zijn sy dienaers Christi? (ick spreke onwijs zijnde)     ick ben boven haer:   in arbeyt overvloedelicker, in slagen uyt"
+          },
+          {
+            "book": "2CO",
+            "chapter": 11,
+            "verse": 29,
+            "sv2026_excerpt": "  Wie   is er zwak, dat ik niet   zwak ben? Wie wordt er geërgerd, dat ik niet   ontbrand…",
+            "hsv_excerpt": "  Als iemand zwak is, zou ík dan omwille van hem niet zwak zijn? Struikelt iemand, zou ík dan niet branden van verontwaa",
+            "original_excerpt": "  Wie   is’er swack dat ick niet   swack en ben? Wie wort’er ge-ergert, dat ick niet   en brande?"
+          },
+          {
+            "book": "2CO",
+            "chapter": 12,
+            "verse": 6,
+            "sv2026_excerpt": "…iemand meer van mij denkt dan wat hij ziet dat ik ben, of wat hij van mij hoort.",
+            "hsv_excerpt": "Want gesteld dat ik zou willen roemen, ik zal niet dwaas zijn; ik zal immers de waarheid spreken. Ik onthoud mij daar ec",
+            "original_excerpt": "Want soo ick roemen wil, ick en sal niet onwijs zijn: want ick sal de waerheyt seggen: maer ick houde daer van af, op da"
+          },
+          {
+            "book": "2CO",
+            "chapter": 12,
+            "verse": 14,
+            "sv2026_excerpt": "Zie, ik ben   voor de derde maal gereed om tot u te komen,…",
+            "hsv_excerpt": "Zie, voor de derde keer sta ik gereed om naar u toe te komen, en ik zal u niet tot last zijn.   Ik zoek namelijk niet he",
+            "original_excerpt": "Siet ick ben   ten derden mael gereet om tot u te komen, ende en sal u niet lastigh zijn.   Want ick en soecke   niet he"
+          }
+        ]
+      },
+      {
+        "pattern_id": "p-0003",
+        "kind": "carryover",
+        "key": "toe",
+        "frequency": 3,
+        "hsv_alternatives": [
+          "bereiken",
+          "echter",
+          "grens",
+          "onbegrensd",
+          "overeenkomstig",
+          "toebedeeld",
+          "alsof",
+          "grenzen"
+        ],
+        "severity_hint": "soft",
+        "occurrences": [
+          {
+            "book": "2CO",
+            "chapter": 3,
+            "verse": 15,
+            "sv2026_excerpt": "Maar tot de huidige dag toe, wanneer Mozes gelezen wordt, ligt een bedekki…",
+            "hsv_excerpt": "Ja, tot op heden ligt er, wanneer Mozes gelezen wordt, een bedekking op hun hart.",
+            "original_excerpt": "Maer tot den huydigen dagh toe, wanneer Moses gelesen wort, light een decksel op haer herte."
+          },
+          {
+            "book": "2CO",
+            "chapter": 10,
+            "verse": 13,
+            "sv2026_excerpt": "… welke maat God ons toegedeeld heeft,   ook tot u toe zijn gekomen.",
+            "hsv_excerpt": "Wij echter zullen niet onbegrensd roemen,   maar overeenkomstig de grens van wat God ons toebedeeld heeft,   om ook u te",
+            "original_excerpt": "Doch wy en sullen niet roemen   buyten de mate:   maer dat wy, na de mate des regels,   welcke mate ons Godt toegedeelt "
+          },
+          {
+            "book": "2CO",
+            "chapter": 10,
+            "verse": 14,
+            "sv2026_excerpt": "…iet zouden komen; want wij zijn ook gekomen tot u toe, in het Evangelie van Christus.",
+            "hsv_excerpt": "Want wij overschrijden onze grenzen niet, alsof wij u niet hadden mogen bereiken; wij zijn immers bij u gekomen met het ",
+            "original_excerpt": "Want wy en strecken ons selven niet te wijdt uyt,   als die tot u niet en souden komen: want wy zijn oock gekomen tot u "
+          }
+        ]
+      },
+      {
+        "pattern_id": "p-0005",
+        "kind": "carryover",
+        "key": "regel",
+        "frequency": 2,
+        "hsv_alternatives": [
+          "toegewezen",
+          "beroemen",
+          "god",
+          "inspanningen",
+          "onbegrensd",
+          "overeenkomstig",
+          "uitgebreid",
+          "werkterrein"
+        ],
+        "severity_hint": "soft",
+        "occurrences": [
+          {
+            "book": "2CO",
+            "chapter": 10,
+            "verse": 15,
+            "sv2026_excerpt": "… overvloedig zullen   vergroot worden   naar onze regel:",
+            "hsv_excerpt": "En wij beroemen ons niet onbegrensd op de inspanningen van anderen, maar wij hebben hoop dat, wanneer uw geloof gegroeid",
+            "original_excerpt": "Niet roemende   buyten de mate   in anderer lieden arbeyt, maer hebbende hope, als uw’ geloove sal   gewassen zijn, dat "
+          },
+          {
+            "book": "2CO",
+            "chapter": 10,
+            "verse": 16,
+            "sv2026_excerpt": "…jde van u gelegen zijn; niet om te roemen   in de regel van een ander over hetgeen reeds bereid is.",
+            "hsv_excerpt": "om het Evangelie te verkondigen in streken die nog verder weg zijn dan de uwe; zonder te roemen over wat reeds tot stand",
+            "original_excerpt": "Om het Euangelium te verkondigen in de plaetsen die op gene zijde van u gelegen zijn: niet om te roemen   in een anders "
+          }
+        ]
+      },
+      {
+        "pattern_id": "p-0002",
+        "kind": "carryover",
+        "key": "ten",
+        "frequency": 2,
+        "hsv_alternatives": [
+          "droefheid",
+          "maak",
+          "veroorzaakt",
+          "zekere",
+          "zin",
+          "zwaar",
+          "allesovertreffende",
+          "heerlijk"
+        ],
+        "severity_hint": "soft",
+        "occurrences": [
+          {
+            "book": "2CO",
+            "chapter": 2,
+            "verse": 5,
+            "sv2026_excerpt": "…oefd heeft, die heeft   niet mij bedroefd, maar   ten dele (opdat ik hem niet zou belasten) u allen.",
+            "hsv_excerpt": "Maar als iemand droefheid veroorzaakt heeft, dan heeft hij niet mij bedroefd, maar in zekere zin – opdat ik het hem niet",
+            "original_excerpt": "Doch indien yemant bedroeft heeft, die en heeft   niet my bedroeft, maer   ten deele (op dat ick hem niet en besware) u-"
+          },
+          {
+            "book": "2CO",
+            "chapter": 3,
+            "verse": 10,
+            "sv2026_excerpt": "…rlijkte zelfs niet verheerlijkt in dit opzicht,   ten aanzien van deze uitnemende heerlijkheid.",
+            "hsv_excerpt": "Immers, zelfs dat wat verheerlijkt was, is in dit opzicht niet heerlijk geweest, vergeleken met de allesovertreffende he",
+            "original_excerpt": "Want oock   het verheerlickte en is selfs niet verheerlickt in desen deele,   ten aensien van dese uytnemende heerlickhe"
+          }
+        ]
+      },
+      {
+        "pattern_id": "p-0001",
+        "kind": "carryover",
+        "key": "vertroosten",
+        "frequency": 2,
+        "hsv_alternatives": [
+          "getroost",
+          "hen",
+          "troosten",
+          "zodat",
+          "bemoedigen",
+          "verteerd"
+        ],
+        "severity_hint": "soft",
+        "occurrences": [
+          {
+            "book": "2CO",
+            "chapter": 1,
+            "verse": 4,
+            "sv2026_excerpt": "…t in al onze verdrukking, opdat wij zouden kunnen vertroosten degenen die in allerlei verdrukking zi…",
+            "hsv_excerpt": "  Die ons troost in al onze verdrukking, zodat wij hen kunnen troosten die in allerlei verdrukking zijn, met de vertroos",
+            "original_excerpt": "  Die ons   vertroost in alle onse verdruckinge, op dat wy souden konnen vertroosten de gene die in allerley verdrucking"
+          },
+          {
+            "book": "2CO",
+            "chapter": 2,
+            "verse": 7,
+            "sv2026_excerpt": "Zodat u daarentegen hem liever moet   vergeven en vertroosten, opdat zo iemand door al te grote droe…",
+            "hsv_excerpt": "Zodat u hem daarentegen liever moet vergeven en bemoedigen, opdat zo iemand niet misschien door al te grote droefheid wo",
+            "original_excerpt": "Alsoo dat ghy daer en tegen hem liever moet   vergeven, ende vertroosten, op dat de soodanige door al te overvloedige dr"
+          }
+        ]
+      }
+    ],
+    "cap-asym": [
+      {
+        "pattern_id": "p-0006",
+        "kind": "cap-asym",
+        "key": "apostelen",
+        "frequency": 3,
+        "hsv_alternatives": [],
+        "severity_hint": "soft",
+        "occurrences": [
+          {
+            "book": "2CO",
+            "chapter": 11,
+            "verse": 5,
+            "sv2026_excerpt": "…in niets minder ben geweest   dan de uitnemendste Apostelen.",
+            "hsv_excerpt": "Want ik ben van mening dat ik in niets minder ben geweest dan de apostelen bij uitstek.",
+            "original_excerpt": ""
+          },
+          {
+            "book": "2CO",
+            "chapter": 11,
+            "verse": 13,
+            "sv2026_excerpt": "Want zulke valse Apostelen zijn bedrieglijke arbeiders, die zich ve…",
+            "hsv_excerpt": "Want zulke lieden zijn valse apostelen, bedrieglijke arbeiders, die zich voordoen als apostelen van Christus.",
+            "original_excerpt": ""
+          },
+          {
+            "book": "2CO",
+            "chapter": 12,
+            "verse": 11,
+            "sv2026_excerpt": "…ben in niets   minder geweest dan de uitnemendste Apostelen, hoewel ik   niets ben.",
+            "hsv_excerpt": "Ik ben door te roemen dwaas geworden! U hebt mij daartoe gedwongen, want ik zou door u aanbevolen moeten worden.   Ik ben immers in niets mi",
+            "original_excerpt": ""
+          }
+        ]
+      }
+    ]
+  }
+}
