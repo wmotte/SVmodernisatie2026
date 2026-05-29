@@ -55,7 +55,7 @@ voorbeeld-PDF om te lezen. **✓** = alle hoofdstukken gemoderniseerd ·
 | Romeinen | brief | ✓ 16/16 | [PDF](parallelbijbel/ROM_voorbeeld.pdf) |
 | 1 Korinthiërs | brief | ✓ 16/16 | [PDF](parallelbijbel/1CO_voorbeeld.pdf) |
 | 2 Korinthiërs | brief | ◐ 7/13 | [PDF](parallelbijbel/2CO_voorbeeld.pdf) |
-| Galaten | brief | ◐ 5/6 | [PDF](parallelbijbel/GAL_voorbeeld.pdf) |
+| Galaten | brief | ✓ 6/6 | [PDF](parallelbijbel/GAL_voorbeeld.pdf) |
 | Efeziërs | brief | ✓ 6/6 | [PDF](parallelbijbel/EPH_voorbeeld.pdf) |
 | Filippenzen | brief | ✓ 4/4 | [PDF](parallelbijbel/PHP_voorbeeld.pdf) |
 | Kolossenzen | brief | ✓ 4/4 | [PDF](parallelbijbel/COL_voorbeeld.pdf) |

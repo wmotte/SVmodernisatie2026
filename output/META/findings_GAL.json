@@ -1,0 +1,35 @@
+{
+  "book": "GAL",
+  "generated_at": "2026-05-29T06:51:27+00:00",
+  "min_freq": 2,
+  "issues": [
+    {
+      "id": "META-GAL-2-14-001",
+      "verse": 14,
+      "chapter": 2,
+      "category": "carryover",
+      "severity": "soft",
+      "quote_modernized": "zei ik tot Petrus in aller tegenwoordigheid,",
+      "hsv_quote": "zei ik tegen Petrus in het bijzijn van allen:",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "location": "hoofdtekst",
+      "explanation": "'in aller tegenwoordigheid' — bare genitief-plural 'aller' faalt productiviteitstest; geen gestolde uitdrukking (vgl. 'in aller ijl').",
+      "proposed_fix": "zei ik tot Petrus in aanwezigheid van allen,",
+      "status": "fixed"
+    },
+    {
+      "id": "META-GAL-4-26-001",
+      "verse": 26,
+      "chapter": 4,
+      "category": "carryover",
+      "severity": "soft",
+      "quote_modernized": "dat is ons aller moeder.",
+      "hsv_quote": "en dat is de moeder van ons allen.",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "location": "hoofdtekst",
+      "explanation": "'ons aller moeder' — prenominale genitief 'ons aller'; modern bijbels NL gebruikt postnominaal 'de moeder van ons allen'.",
+      "proposed_fix": "dat is de moeder van ons allen.",
+      "status": "fixed"
+    }
+  ]
+}
