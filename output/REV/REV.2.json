@@ -202,6 +202,46 @@
       "generated_at": "2026-05-29T10:35:12.694657Z",
       "model": "claude-opus-4-8[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 19,
+      "original": "Ick weet uwe wercken, ende liefde, ende dienst, ende geloove, ende uwe lijdtsaemheyt, ende uwe wercken, <Sommige boecken laten het woordeken ende hier uyt.> ende [dat] de laetste meer [zijn] dan de eerste.",
+      "modernized": "Ik weet uw werken, en liefde, en dienst, en geloof, en uw volharding, en uw werken, <Sommige boeken laten het woordje en hier uit.> en [dat] de laatste meer [zijn] dan de eerste.",
+      "source_text": "Οἶδά σου τὰ ἔργα, καὶ τὴν ἀγάπην καὶ τὴν διακονίαν, καὶ τὴν πίστιν καὶ τὴν ὑπομονήν σου, καὶ τὰ ἔργα σου, καὶ τὰ ἔσχατα πλείονα τῶν πρώτων.",
+      "generated_at": "2026-05-29T10:39:44.800549Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 20,
+      "original": "Maer ick hebbe [eenige] <Namelick, in getal, hoewel sy van groot gewichte zijn, gelijck oock vers 14. Ende dit seght Christus om haer te lichter, ende met meerderen moedt tot verbeteringe der selve te brengen.> weynige dingen tegen u, dat ghy <Sommige verstaen hier door de secte selve der Nicolaiten, gelijck door de hoere van Babel hier na Cap. 17. verstaen wort de geheele afgodische heerschappije des Antichrists. Doch dewijle Christus nu twee mael dese secte met haren name genoemt heeft, soo is het geloofweerdiger, dat hier door een seker aensienlicke vrouwe van dese secte onder haer, die eenen schijn van Godtsaligheyt hadde, ende eenen prophetischen geest roemde te hebben, verstaen wort, die gelijck de rechte Iezabel eertijts het volck Israëls tot de afgoderije Baals bracht, ende volgens oock tot hoererije, die met sulcke afgoderije gemeynlick gemenght was, oock alsoo door haren schijn ende overredingen de Christenen hier toe, als een geoorloofde sake, socht te brengen, ende daer toe haer huys open hieldt.> de vrouwe $1.Reg. 16.31. 2.Reg. 9.7.$ Iezabel, die haer selven seght een prophetesse te zijn, laet leeren, ende mijne dienstknechten verleyden, datse hoereeren, ende afgoden-offer eten.",
+      "modernized": "Maar ik heb [enige] <Namelijk, in getal, hoewel zij van groot gewicht zijn, zoals ook vers 14. En dit zegt Christus om hen te lichter, en met meer moed tot verbetering daarvan te brengen.> weinige dingen tegen u, dat u <Sommigen verstaan hierdoor de sekte van de Nicolaiten zelf, zoals door de hoer van Babel hierna Hoofdstuk 17. verstaan wordt de gehele afgodische heerschappij van de Antichrist. Maar omdat Christus nu tweemaal deze sekte met haar naam genoemd heeft, zo is het geloofwaardiger, dat hierdoor een zekere aanzienlijke vrouw van deze sekte onder hen, die een schijn van godzaligheid had, en roemde een profetische geest te hebben, verstaan wordt, die zoals de echte Izebel voorheen het volk van Israël tot de afgoderij van Baäl bracht, en vervolgens ook tot hoererij, die met zulke afgoderij gewoonlijk gemengd was, ook alzo door haar schijn en overredingen de Christenen hiertoe, als een geoorloofde zaak, zocht te brengen, en daartoe haar huis open hield.> de vrouw $1Kn. 16:31; 2Kn. 9:7$ Izebel, die van zichzelf zegt een profetes te zijn, laat onderwijzen, en mijn dienstknechten verleiden, dat zij hoereren, en afgodenoffer eten.",
+      "source_text": "ἀλλ’ ἔχω κατὰ σοῦ ὀλίγα ὅτι ἐᾷς τὴν γυναῖκα Ἰεζαβήλ, τὴν λέγουσαν ἑαυτὴν προφῆτιν, διδάσκειν καὶ πλανᾶσθαι ἐμοὺς δούλους πορνεῦσαι καὶ εἰδωλόθυτα φαγεῖν.",
+      "generated_at": "2026-05-29T10:41:22.415628Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "Iezabel",
+          "context": "hoofdtekst en kanttekening",
+          "choice": "Izebel",
+          "alternatives": [
+            "Izebel",
+            "Jezebel"
+          ],
+          "reason": "NBV21-spelling van de OT-eigennaam waar Openbaring naar verwijst."
+        }
+      ]
+    },
+    {
+      "verse_number": 21,
+      "original": "Ende ick hebbe haer tijt gegeven op dat sy haer soude bekeeren <Namelick, geestelicke ende lichamelicke, die hier voren beyde uytgedruckt zijn.> van hare hoererije, ende sy en heeft haer niet bekeert.",
+      "modernized": "En ik heb haar tijd gegeven opdat zij zich zou bekeren <Namelijk, geestelijke en lichamelijke, die hiervoor beide uitgedrukt zijn.> van haar hoererij, en zij heeft zich niet bekeerd.",
+      "source_text": "καὶ ἔδωκα αὐτῇ χρόνον ἵνα μετανοήσῃ ἐκ τῆς πορνείας αὐτῆς, καὶ οὐ μετενόησεν.",
+      "generated_at": "2026-05-29T10:41:49.283248Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
