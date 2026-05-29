@@ -127,6 +127,45 @@
       "generated_at": "2026-05-29T10:19:32.094396Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 13,
+      "original": "Ick weet uwe wercken, ende waer ghy woont, [namelick] daer <Christus noemt dese stadt hier den throon des satans, om dat de satan daer op een bysondere wijse door afgoderije ende tyrannije regneerde: gelijck hier na het beest met seven hoofden ende tien hoornen de throon des draecks wort gegeven, Cap. 13. vers 2.> de throon des satans is: ende <D. ghy en vreest niet van mijnen naem te belijden, niet tegenstaende alle swarigheden, die u daer door over komen.> ghy houdt mijnen naem, ende en hebt mijn geloove niet verloochent, oock in die dagen, in welcke <Van desen Antipas en leest men niet veel in de oude Kercklicke historien: dan blijckt alhier dat hy een voornemen Opsiender ofte Herder van die gemeynte was geweest, die als een Martelaer ofte getuyge der waerheyt Christi, deselve met sijn doot hadde verzegelt, tot welckers navolginge hy haer dit exempel voor oogen stelt.> Antipas mijn getrouwe getuyge was, welcke gedoot is by u-lieden, daer de satan woont.",
+      "modernized": "Ik weet uw werken, en waar u woont, [namelijk] daar <Christus noemt deze stad hier de troon van de satan, omdat de satan daar op een bijzondere wijze door afgoderij en tirannie regeerde: zoals hierna het beest met zeven hoofden en tien horens de troon van de draak wordt gegeven, Hoofdstuk 13. vers 2.> de troon van de satan is: en <Dat is, u vreest niet van mijn naam te belijden, niettegenstaande alle zwarigheden, die u daardoor overkomen.> u houdt mijn naam, en hebt mijn geloof niet verloochend, ook in die dagen, waarin <Van deze Antipas leest men niet veel in de oude Kerkelijke historiën: maar het blijkt hier dat hij een voornaam Opziener of Herder van die gemeente was geweest, die als een Martelaar of getuige van de waarheid van Christus, die met zijn dood had verzegeld, tot wiens navolging hij hun dit voorbeeld voor ogen stelt.> Antipas mijn getrouwe getuige was, die gedood is bij u, daar de satan woont.",
+      "source_text": "Οἶδα τὰ ἔργα σου καὶ ποῦ κατοικεῖς, ὅπου ὁ θρόνος τοῦ Σατανᾶ· καὶ κρατεῖς τὸ ὄνομά μου, καὶ οὐκ ἠρνήσω τὴν πίστιν μου καὶ ἐν ταῖς ἡμέραις ἐν αἷς Ἀντίπας ὁ μάρτυς μου, ὁ πιστός, ὃς ἀπεκτάνθη παρ’ ὑμῖν, ὅπου κατοικεῖ ὁ Σατανᾶς.",
+      "generated_at": "2026-05-29T10:24:46.378208Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 14,
+      "original": "Maer ick hebbe [eenige] weynige dingen tegen u, <D. onder u noch laet verkeeren ende leeren, gelijck vers 20 wort verklaert, sonder die door de macht des Kercklicken bans uyt het midden van u te weeren: gelijck het tegendeel hier van te voren was gepresen in den Engel der gemeynte van Ephesen, vers 2.> dat ghy aldaer hebt die de leeringe $Numer. 22.23. ende 24.14. ende 25.1. ende 31.16.$ <Namel. waer van de historie Numer. capp. 22. 23. 24. beschreven is: die, alsoo hem Godt niet toe en liet de Israëliten te vloecken, aen Balack den Koningh det Moabiten riedt, dat hyse soude verlocken tot hare afgodische maeltijden, ende tot hoererije door eenige dochteren ende vrouwen, die hy in het leger der Israëliten heeft gesonden, gelijck te sien is Numer. cap. 25. vers 1, etc. vergeleken met Cap. 31. vers 16. op dat sy alsoo in Godts ongenade souden mogen vervallen, gelijck geschiet is. Het welck eenen gantsch duyvelschen raet was, tegen welcke soorten van menschen Petrus in sijnen tweeden Sendtbrief, ende oock Iudas hebben geschreven.> Balaams houden, die Balack leerde den kinderen Israëls een aenstoot voorwerpen, op datse souden afgoden-offer eten, ende hoereeren.",
+      "modernized": "Maar ik heb [enige] weinige dingen tegen u, <Dat is, onder u nog laat verkeren en leren, zoals vers 20 wordt verklaard, zonder die door de macht van de Kerkelijke ban uit het midden van u te weren: zoals het tegendeel hiervan tevoren was geprezen in de Engel van de gemeente van Efeze, vers 2.> dat u daar hebt die de leer $Nm. 22:23; 24:14; 25:1; 31:16$ <Namelijk, waarvan de historie in Numeri hoofdstuk 22, 23 en 24 beschreven is: die, omdat God hem niet toeliet de Israëlieten te vervloeken, aan Balak de Koning der Moabieten aanried, dat hij hen zou verleiden tot hun afgodische maaltijden, en tot hoererij door enige dochters en vrouwen, die hij in het leger der Israëlieten heeft gezonden, zoals te zien is $Nm. 25:1$, etc. vergeleken met $Nm. 31:16$ opdat zij alzo in Gods ongenade zouden mogen vervallen, zoals gebeurd is. Hetwelk een geheel duivelse raad was, tegen welke soorten van mensen Petrus in zijn tweede zendbrief, en ook Judas hebben geschreven.> van Balaam houden, die Balak leerde de kinderen van Israël een aanstoot voor te werpen, opdat zij zouden afgodenoffer eten, en hoereren.",
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "Sendtbrief",
+          "context": "kanttekening",
+          "choice": "zendbrief",
+          "alternatives": [
+            "Sendbrief"
+          ],
+          "reason": "Drempel-archaïsme: SV1657 'Sendtbrief' is in modern Nederlands 'zendbrief' (brief/epistel). De eerdere half-modernisatie 'Sendbrief' (S behouden, t gedropt) is noch SV-vorm noch modern; corpusprecedent gebruikt 'zendbrief' in lopende kanttekeningtekst. Inhoud en zinsbouw ongewijzigd."
+        }
+      ],
+      "source_text": "ἀλλ’ ἔχω κατὰ σοῦ ὀλίγα, ὅτι ἔχεις ἐκεῖ κρατοῦντας τὴν διδαχὴν Βαλαάμ, ὃς ἐδίδασκε τὸν Βαλὰκ βαλεῖν σκάνδαλον ἐνώπιον τῶν υἱῶν Ἰσραήλ, φαγεῖν εἰδωλόθυτα καὶ πορνεῦσαι.",
+      "generated_at": "2026-05-29T10:26:26.112143Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 15,
+      "original": "Alsoo hebt oock ghy <Dat is, gelijck de Israëliten door den raet Balaams tot afgoderije ende hoererije zijn verleyt, alsoo hebt ghy oock onder u die leeringe der Nicolaiten houden, die daer leeren dat het selve geoorloft is, dat Balaam aen Balack hadde geraden. Van dese Nicolaiten siet hier voren in de aenteeckeninge op vers 6.> die de leeringe der Nicolaiten houden: ’t welck ick hate.",
+      "modernized": "Zo hebt ook u <Dat is, zoals de Israëlieten door de raad van Balaam tot afgoderij en hoererij zijn verleid, zo hebt u ook onder u die de leer van de Nicolaiten houden, die daar leren dat hetzelfde geoorloofd is, dat Balaam aan Balak had aangeraden. Van deze Nicolaiten zie hiervoor in de aantekening op vers 6.> die de leer van de Nicolaiten houden: hetwelk ik haat.",
+      "source_text": "οὕτως ἔχεις καὶ σὺ κρατοῦντας τὴν διδαχὴν τῶν Νικολαϊτῶν· ὃ μισῶ.",
+      "generated_at": "2026-05-29T10:26:59.204899Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
