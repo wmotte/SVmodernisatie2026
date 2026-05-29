@@ -1,7 +1,7 @@
 {
   "book": "REV",
   "chapter": 9,
-  "reviewed_at": "2026-05-29T16:17:30+00:00",
+  "reviewed_at": "2026-05-29T16:19:33+00:00",
   "passes": [
     {
       "pass": 1,
@@ -30,6 +30,17 @@
         "REV-9-3-002: reopened (te generiek)",
         "REV-9-4-002: rebuttal verified",
         "REV-9-7-002: reopened (te generiek)"
+      ]
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-05-29T16:19:33+00:00",
+      "mode": "verify",
+      "actions": [
+        "REV-9-20-001: rebuttal verified",
+        "REV-9-3-001: rebuttal verified",
+        "REV-9-3-002: rebuttal verified",
+        "REV-9-7-002: rebuttal verified"
       ]
     }
   ],
@@ -170,9 +181,10 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-9-20-001",
-      "status": "rebutted",
+      "status": "verified",
       "rebuttal": "§2.7 (drempel-archaïsme productiviteitstest): 'in dezen' in de v20-kanttekening (clause-finaal na 'de beelden van de Heidenen of Joden') is geen verbogen demonstratief-met-substantief maar een gefossiliseerde adverbiale uitdrukking (= 'op dit punt'), die de §2.7-productiviteitstest ruim slaagt — courant in modern juridisch-formeel Nederlands ('de bevoegde instantie in dezen'). De kanttekening becommentarieert hier εἴδωλα (beelden); 'in dezen' is de Nederlandse adverbiale slotbepaling van de annotator, niet de Griekse brontekst. Whitelist-categorie analoog aan 'te dien einde' (ARCHAISMEN.md).",
-      "verify_note": "rebuttal noemt geen regel (§), geen Griekse term en geen vers-specifiek argument — voeg referentie toe"
+      "verify_note": "rebuttal noemt geen regel (§), geen Griekse term en geen vers-specifiek argument — voeg referentie toe",
+      "verified_at": "2026-05-29T16:19:33+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -217,9 +229,10 @@
         10
       ],
       "id": "REV-9-3-001",
-      "status": "rebutted",
+      "status": "verified",
       "rebuttal": "§-concordantie (AGENTS.md vertaalprincipes): false-positive van de scanner-prefix-heuristiek. SV-stam 'scorpio' (Gr. σκορπίος) wordt in v3 én de overige verzen consistent 'schorpioen(en)'; de orthografische overgang s→sch breekt enkel de 4-teken-prefixmatch (bekend scanner-blindspot, vgl. s→z, sch→g). Lexicale concordantie ís behouden — geen betekenisdrift.",
-      "verify_note": "rebuttal noemt geen regel (§), geen Griekse term en geen vers-specifiek argument — voeg referentie toe"
+      "verify_note": "rebuttal noemt geen regel (§), geen Griekse term en geen vers-specifiek argument — voeg referentie toe",
+      "verified_at": "2026-05-29T16:19:33+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -237,9 +250,10 @@
         19
       ],
       "id": "REV-9-3-002",
-      "status": "rebutted",
+      "status": "verified",
       "rebuttal": "§-concordantie (AGENTS.md): 'gelijck' (Gr. ὅμοιος in v7/10/19, ὡς in v3) is een vergelijkings-functiewoord, geen lexicaal inhoudswoord. De concordantie-eis geldt inhoudswoorden; v3 rendert ὡς contextueel als 'als/zoals' terwijl v7/10/19 ὅμοιος als 'gelijk' geven — verschillend Grieks lemma, dus geen drift maar brontrouw. Vers-specifiek: v3 heeft een ander grondwoord dan [7,10,19].",
-      "verify_note": "rebuttal noemt geen regel (§), geen Griekse term en geen vers-specifiek argument — voeg referentie toe"
+      "verify_note": "rebuttal noemt geen regel (§), geen Griekse term en geen vers-specifiek argument — voeg referentie toe",
+      "verified_at": "2026-05-29T16:19:33+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -275,9 +289,10 @@
         17
       ],
       "id": "REV-9-7-002",
-      "status": "rebutted",
+      "status": "verified",
       "rebuttal": "§-concordantie (AGENTS.md vertaalprincipes): false-positive van de scanner-prefix-heuristiek. SV-stam 'peerden' (Gr. ἵππος) wordt in v7 en de overige verzen consistent 'paarden'; de orthografische overgang ee→aa breekt enkel de prefixmatch. Lexicale concordantie ís behouden over alle 3 verzen — geen drift.",
-      "verify_note": "rebuttal noemt geen regel (§), geen Griekse term en geen vers-specifiek argument — voeg referentie toe"
+      "verify_note": "rebuttal noemt geen regel (§), geen Griekse term en geen vers-specifiek argument — voeg referentie toe",
+      "verified_at": "2026-05-29T16:19:33+00:00"
     }
   ]
 }

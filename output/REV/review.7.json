@@ -1,13 +1,30 @@
 {
   "book": "REV",
   "chapter": 7,
-  "reviewed_at": "2026-05-29T14:53:49+00:00",
+  "reviewed_at": "2026-05-29T14:57:48+00:00",
   "passes": [
     {
       "pass": 1,
       "ran_at": "2026-05-29T14:53:49+00:00",
       "mode": "scan",
       "issues_total": 10
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-29T14:57:48+00:00",
+      "mode": "verify",
+      "actions": [
+        "REV-7-1-001: verified",
+        "REV-7-2-001: rebuttal verified",
+        "REV-7-4-001: rebuttal verified",
+        "REV-7-8-001: rebuttal verified",
+        "REV-7-9-001: verified",
+        "REV-7-9-002: rebuttal verified",
+        "REV-7-13-001: rebuttal verified",
+        "REV-7-14-001: rebuttal verified",
+        "REV-7-3-001: rebuttal verified",
+        "REV-7-4-002: rebuttal verified"
+      ]
     }
   ],
   "issues": [
@@ -21,8 +38,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "REV-7-1-001",
-      "status": "fixed",
-      "fix_commit": "PENDING"
+      "status": "verified",
+      "fix_commit": "PENDING",
+      "verified_at": "2026-05-29T14:57:48+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -34,8 +52,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-7-2-001",
-      "status": "rebutted",
-      "rebuttal": "Kanttekening parafraseert niet louter: voegt exegese toe ('die alleen het zegel ... heeft, om de zijnen daarmee te verzegelen'). Lexicale overlap 'het zegel van de' is onvermijdelijk omdat de kanttekening juist dít tekstelement (Gr. σφραγῖδα θεοῦ ζῶντος) duidt. KANTTEKENINGEN.md verbiedt parafrastische herhaling zónder toegevoegde waarde, niet thematische verwijzing."
+      "status": "verified",
+      "rebuttal": "Kanttekening parafraseert niet louter: voegt exegese toe ('die alleen het zegel ... heeft, om de zijnen daarmee te verzegelen'). Lexicale overlap 'het zegel van de' is onvermijdelijk omdat de kanttekening juist dít tekstelement (Gr. σφραγῖδα θεοῦ ζῶντος) duidt. KANTTEKENINGEN.md verbiedt parafrastische herhaling zónder toegevoegde waarde, niet thematische verwijzing.",
+      "verified_at": "2026-05-29T14:57:48+00:00"
     },
     {
       "category": "genitief pronomen wiens/wier",
@@ -47,8 +66,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-7-4-001",
-      "status": "rebutted",
-      "rebuttal": "'wier' is het standaard genitief-relativum voor meervoudig antecedent ('de Joden'); in modern formeel-schriftelijk Nederlands productief (vgl. 'de mensen wier namen genoemd worden'). §2.3b viseert gefossiliseerde lidwoord-genitieven (der/des/den + zn), niet het relativum 'wier' bij helder meervoudig menselijk antecedent. Kanttekening-register (formeel exegetisch). Onderscheidt zich van REV-7-8-001 (masc. enkelvoud 'wiens')."
+      "status": "verified",
+      "rebuttal": "'wier' is het standaard genitief-relativum voor meervoudig antecedent ('de Joden'); in modern formeel-schriftelijk Nederlands productief (vgl. 'de mensen wier namen genoemd worden'). §2.3b viseert gefossiliseerde lidwoord-genitieven (der/des/den + zn), niet het relativum 'wier' bij helder meervoudig menselijk antecedent. Kanttekening-register (formeel exegetisch). Onderscheidt zich van REV-7-8-001 (masc. enkelvoud 'wiens').",
+      "verified_at": "2026-05-29T14:57:48+00:00"
     },
     {
       "category": "genitief pronomen wiens/wier",
@@ -60,8 +80,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-7-8-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] 'wiens naam Kleopas was' rendert ᾧ ὄνομα Κλεόπας: relativum met masculien-singulier eigennaam-antecedent. In modern formeel-zakelijk Nederlands (NBV21, juridische teksten) is 'wiens' bij masculien menselijk antecedent productief. §2.3b waarschuwt voor archaïsche genitiefpronomina; bij menselijk masculien antecedent met persoonsnaam blijft 'wiens' modern bruikbaar."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] 'wiens naam Kleopas was' rendert ᾧ ὄνομα Κλεόπας: relativum met masculien-singulier eigennaam-antecedent. In modern formeel-zakelijk Nederlands (NBV21, juridische teksten) is 'wiens' bij masculien menselijk antecedent productief. §2.3b waarschuwt voor archaïsche genitiefpronomina; bij menselijk masculien antecedent met persoonsnaam blijft 'wiens' modern bruikbaar.",
+      "verified_at": "2026-05-29T14:57:48+00:00"
     },
     {
       "category": "SV-verbuiging (demonstratief dezer/dien/...)",
@@ -73,8 +94,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "REV-7-9-001",
-      "status": "fixed",
-      "fix_commit": "PENDING"
+      "status": "verified",
+      "fix_commit": "PENDING",
+      "verified_at": "2026-05-29T14:57:48+00:00"
     },
     {
       "category": "kanttekening-luiheid (§2.3 in <…>)",
@@ -86,8 +108,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-7-9-002",
-      "status": "rebutted",
-      "rebuttal": "'schuilende' is attributief participium, parallel aan 'verdrukte' / 'openbare' / 'vrije', modificeert 'Kerken' ('in de verdrukte en schuilende, niet in de openbare en vrije Kerken'). §2.3 sluit attributieve participia vóór/bij zelfstandig naamwoord uit; geen adverbiaal/finiet-te-ontvouwen participium."
+      "status": "verified",
+      "rebuttal": "'schuilende' is attributief participium, parallel aan 'verdrukte' / 'openbare' / 'vrije', modificeert 'Kerken' ('in de verdrukte en schuilende, niet in de openbare en vrije Kerken'). §2.3 sluit attributieve participia vóór/bij zelfstandig naamwoord uit; geen adverbiaal/finiet-te-ontvouwen participium.",
+      "verified_at": "2026-05-29T14:57:48+00:00"
     },
     {
       "category": "SV-verbuiging (demonstratief dezer/dien/...)",
@@ -99,8 +122,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "REV-7-13-001",
-      "status": "rebutted",
-      "rebuttal": "HSV REV 7:13 behoudt verbatim 'Dezen, die bekleed zijn ... wie zijn zij'. 'Dezen' is nominatief-meervoud substantivisch demonstratief (Gr. οὗτοι), geen genitief/datief SV-verbuiging; productief in modern formeel Nederlands voor personen. ARCHAISMEN-regel viseert dezer/dien/den, niet nominatief 'dezen'."
+      "status": "verified",
+      "rebuttal": "HSV REV 7:13 behoudt verbatim 'Dezen, die bekleed zijn ... wie zijn zij'. 'Dezen' is nominatief-meervoud substantivisch demonstratief (Gr. οὗτοι), geen genitief/datief SV-verbuiging; productief in modern formeel Nederlands voor personen. ARCHAISMEN-regel viseert dezer/dien/den, niet nominatief 'dezen'.",
+      "verified_at": "2026-05-29T14:57:48+00:00"
     },
     {
       "category": "SV-verbuiging (demonstratief dezer/dien/...)",
@@ -112,8 +136,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "REV-7-14-001",
-      "status": "rebutted",
-      "rebuttal": "HSV REV 7:14 rendert dit vers identiek: 'Dezen zijn het die uit de grote verdrukking komen'. 'Dezen' = nominatief-meervoud substantivisch demonstratief (Gr. οὗτοί εἰσιν), geen verbogen SV-vorm; behoud is HSV-conform en modern bruikbaar."
+      "status": "verified",
+      "rebuttal": "HSV REV 7:14 rendert dit vers identiek: 'Dezen zijn het die uit de grote verdrukking komen'. 'Dezen' = nominatief-meervoud substantivisch demonstratief (Gr. οὗτοί εἰσιν), geen verbogen SV-vorm; behoud is HSV-conform en modern bruikbaar.",
+      "verified_at": "2026-05-29T14:57:48+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -131,8 +156,9 @@
         13
       ],
       "id": "REV-7-3-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Scanner-prefix-heuristiek false-positive: SV-stam 'seggend(e)' (Grieks λέγων, participium) wordt §2.3-conform ontvouwd naar finiete vormen ('en zei', 'die zei'). Per MODERNISATIE.md §2.3 ís dit de voorgeschreven moderne rendering — geen 'drift' maar regelconforme transformatie."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Scanner-prefix-heuristiek false-positive: SV-stam 'seggend(e)' (Grieks λέγων, participium) wordt §2.3-conform ontvouwd naar finiete vormen ('en zei', 'die zei'). Per MODERNISATIE.md §2.3 ís dit de voorgeschreven moderne rendering — geen 'drift' maar regelconforme transformatie.",
+      "verified_at": "2026-05-29T14:57:48+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -151,8 +177,9 @@
         8
       ],
       "id": "REV-7-4-002",
-      "status": "rebutted",
-      "rebuttal": "Scanner-prefix-heuristiek false-positive: SV-stam 'duysent' wordt overal consistent 'duizend', maar verschijnt in samengestelde telwoorden (honderdvierenveertig·duizend v4, twaalf·duizend v5-8) zodat de prefix-match faalt. Concordantie ís behouden; geen drift."
+      "status": "verified",
+      "rebuttal": "Scanner-prefix-heuristiek false-positive: SV-stam 'duysent' wordt overal consistent 'duizend', maar verschijnt in samengestelde telwoorden (honderdvierenveertig·duizend v4, twaalf·duizend v5-8) zodat de prefix-match faalt. Concordantie ís behouden; geen drift.",
+      "verified_at": "2026-05-29T14:57:48+00:00"
     }
   ]
 }
