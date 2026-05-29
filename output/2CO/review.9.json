@@ -1,7 +1,7 @@
 {
   "book": "2CO",
   "chapter": 9,
-  "reviewed_at": "2026-05-29T05:39:12+00:00",
+  "reviewed_at": "2026-05-29T05:42:44+00:00",
   "passes": [
     {
       "pass": 1,
@@ -20,6 +20,21 @@
       "ran_at": "2026-05-29T05:39:12+00:00",
       "mode": "in-context",
       "issues_total": 8
+    },
+    {
+      "pass": 4,
+      "ran_at": "2026-05-29T05:42:44+00:00",
+      "mode": "verify",
+      "actions": [
+        "2CO-9-10-001: rebuttal verified",
+        "2CO-9-12-001: rebuttal verified",
+        "2CO-9-13-001: rebuttal verified",
+        "2CO-9-3-001: rebuttal verified",
+        "2CO-9-1-001: verified",
+        "2CO-9-1-002: verified",
+        "2CO-9-8-001: verified",
+        "2CO-9-11-001: verified"
+      ]
     }
   ],
   "issues": [
@@ -33,8 +48,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "2CO-9-10-001",
-      "status": "rebutted",
-      "rebuttal": "Geen overtreding van KANTTEKENINGEN.md redundantie-regel: deze kanttekening geeft geen alternatief woord voor de hoofdtekst, maar citeert een alternatieve lezing/onderscheiding van de Griekse woordgroep καὶ ἄρτον εἰς βρῶσιν χορηγῆσαι καὶ πληθῦναι. Omdat MODERNISATIE.md §2.6 het aantal en de positie van kanttekeningen bewaart, moet de geciteerde frase 'En ook brood tot voedsel; moge hij verlenen en vermenigvuldigen' hier inhoudelijk dicht bij de hoofdtekst blijven."
+      "status": "verified",
+      "rebuttal": "Geen overtreding van KANTTEKENINGEN.md redundantie-regel: deze kanttekening geeft geen alternatief woord voor de hoofdtekst, maar citeert een alternatieve lezing/onderscheiding van de Griekse woordgroep καὶ ἄρτον εἰς βρῶσιν χορηγῆσαι καὶ πληθῦναι. Omdat MODERNISATIE.md §2.6 het aantal en de positie van kanttekeningen bewaart, moet de geciteerde frase 'En ook brood tot voedsel; moge hij verlenen en vermenigvuldigen' hier inhoudelijk dicht bij de hoofdtekst blijven.",
+      "verified_at": "2026-05-29T05:42:44+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -46,8 +62,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "2CO-9-12-001",
-      "status": "rebutted",
-      "rebuttal": "De hit leest 'welke' te breed als zelfstandig relativum. In 2Kor. 9:12 staat het attributief bij 'betekenis' in een metatalige kanttekening over het Griekse λειτουργίας: 'welke betekenis daarom hier ook niet verkeerd past'. Dit is geen lopende hoofdtekst-syntaxis maar een technische uitleg van de betekenisoptie 'offerdienst'; KANTTEKENINGEN.md laat zulke verklarende kanttekeningtekst staan zolang zij wordt gemoderniseerd."
+      "status": "verified",
+      "rebuttal": "De hit leest 'welke' te breed als zelfstandig relativum. In 2Kor. 9:12 staat het attributief bij 'betekenis' in een metatalige kanttekening over het Griekse λειτουργίας: 'welke betekenis daarom hier ook niet verkeerd past'. Dit is geen lopende hoofdtekst-syntaxis maar een technische uitleg van de betekenisoptie 'offerdienst'; KANTTEKENINGEN.md laat zulke verklarende kanttekeningtekst staan zolang zij wordt gemoderniseerd.",
+      "verified_at": "2026-05-29T05:42:44+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -59,8 +76,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "2CO-9-13-001",
-      "status": "rebutted",
-      "rebuttal": "Geen redundantie in de zin van KANTTEKENINGEN.md: de kanttekening geeft niet een alternatief dat in de hoofdtekst is overgenomen, maar ontvouwt de compacte genitiefconstructie 'onderwerping van uw belijdenis aan het Evangelie van Christus' (Grieks: τῇ ὑποταγῇ τῆς ὁμολογίας ὑμῶν εἰς τὸ εὐαγγέλιον τοῦ Χριστοῦ). De herhaling van 'aan het Evangelie van Christus' is hier noodzakelijk om de verklaarde constructie versspecifiek te identificeren; de extra inhoud is 'openlijk belijdt of getuigt' en 'werken van de liefde'."
+      "status": "verified",
+      "rebuttal": "Geen redundantie in de zin van KANTTEKENINGEN.md: de kanttekening geeft niet een alternatief dat in de hoofdtekst is overgenomen, maar ontvouwt de compacte genitiefconstructie 'onderwerping van uw belijdenis aan het Evangelie van Christus' (Grieks: τῇ ὑποταγῇ τῆς ὁμολογίας ὑμῶν εἰς τὸ εὐαγγέλιον τοῦ Χριστοῦ). De herhaling van 'aan het Evangelie van Christus' is hier noodzakelijk om de verklaarde constructie versspecifiek te identificeren; de extra inhoud is 'openlijk belijdt of getuigt' en 'werken van de liefde'.",
+      "verified_at": "2026-05-29T05:42:44+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -77,8 +95,9 @@
         9
       ],
       "id": "2CO-9-3-001",
-      "status": "rebutted",
-      "rebuttal": "Scanner-false-positive: de drie betrokken verzen zijn juist concordant. 2Kor. 9:3 'gelijck ick geseght hebbe', 9:7 'gelijck hy ... voorneemt' en 9:9 'Gelijck'er geschreven is' corresponderen alle drie met Grieks καθὼς en zijn in de modernisering telkens als 'zoals' weergegeven. Dit voldoet aan AGENTS.md concordantie; er is geen harmonisatie nodig."
+      "status": "verified",
+      "rebuttal": "Scanner-false-positive: de drie betrokken verzen zijn juist concordant. 2Kor. 9:3 'gelijck ick geseght hebbe', 9:7 'gelijck hy ... voorneemt' en 9:9 'Gelijck'er geschreven is' corresponderen alle drie met Grieks καθὼς en zijn in de modernisering telkens als 'zoals' weergegeven. Dit voldoet aan AGENTS.md concordantie; er is geen harmonisatie nodig.",
+      "verified_at": "2026-05-29T05:42:44+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -90,8 +109,9 @@
       "proposed_fix": "al lang bereidwillig waren geweest",
       "location": "kanttekening",
       "id": "2CO-9-1-001",
-      "status": "fixed",
-      "fix_commit": "2977e3f3308cb030cff8d42da45947a40b3d2185"
+      "status": "verified",
+      "fix_commit": "2977e3f3308cb030cff8d42da45947a40b3d2185",
+      "verified_at": "2026-05-29T05:42:44+00:00"
     },
     {
       "category": "§2.7 false friend / drempel-archaïsme",
@@ -103,8 +123,9 @@
       "proposed_fix": "voldoende zorgvuldigheid hadden om dit goed en behoorlijk te doen",
       "location": "kanttekening",
       "id": "2CO-9-1-002",
-      "status": "fixed",
-      "fix_commit": "2977e3f3308cb030cff8d42da45947a40b3d2185"
+      "status": "verified",
+      "fix_commit": "2977e3f3308cb030cff8d42da45947a40b3d2185",
+      "verified_at": "2026-05-29T05:42:44+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -116,8 +137,9 @@
       "proposed_fix": "alles hebt wat nodig is",
       "location": "hoofdtekst",
       "id": "2CO-9-8-001",
-      "status": "fixed",
-      "fix_commit": "2977e3f3308cb030cff8d42da45947a40b3d2185"
+      "status": "verified",
+      "fix_commit": "2977e3f3308cb030cff8d42da45947a40b3d2185",
+      "verified_at": "2026-05-29T05:42:44+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -129,8 +151,9 @@
       "proposed_fix": "bij de armen en behoeftigen",
       "location": "kanttekening",
       "id": "2CO-9-11-001",
-      "status": "fixed",
-      "fix_commit": "2977e3f3308cb030cff8d42da45947a40b3d2185"
+      "status": "verified",
+      "fix_commit": "2977e3f3308cb030cff8d42da45947a40b3d2185",
+      "verified_at": "2026-05-29T05:42:44+00:00"
     }
   ]
 }
