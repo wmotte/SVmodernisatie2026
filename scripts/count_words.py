@@ -10,8 +10,8 @@ Drie categorieën per boek (en als totaal onderaan):
                     eveneens zonder <…> en $…$.
 
 Een "woord" is een aaneengesloten reeks letters/cijfers (apostrof inbegrepen).
-Uitvoer: een Markdown-tabel op stdout, geschikt om in
-`docs/projectoverzicht.md` te plakken.
+Uitvoer: een Markdown-tabel op stdout, geschikt voor de sectie
+"Omvang van het NT-broncorpus" in `README.md`.
 
 Gebruik:
     python3 scripts/count_words.py
@@ -115,7 +115,7 @@ def count_book(book: str) -> tuple[int, int, int, int, int]:
 
 
 def fmt(n: int) -> str:
-    """Duizendtallen met punt, zoals elders in projectoverzicht.md."""
+    """Duizendtallen met punt, zoals elders in README.md."""
     return f"{n:,}".replace(",", ".")
 
 
