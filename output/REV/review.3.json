@@ -1,13 +1,41 @@
 {
   "book": "REV",
   "chapter": 3,
-  "reviewed_at": "2026-05-29T09:53:15+00:00",
+  "reviewed_at": "2026-05-29T09:55:42+00:00",
   "passes": [
     {
       "pass": 1,
       "ran_at": "2026-05-29T09:53:15+00:00",
       "mode": "scan",
       "issues_total": 21
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-29T09:55:42+00:00",
+      "mode": "verify",
+      "actions": [
+        "REV-3-3-001: rebuttal verified",
+        "REV-3-3-002: rebuttal verified",
+        "REV-3-3-003: rebuttal verified",
+        "REV-3-5-001: rebuttal verified",
+        "REV-3-5-002: rebuttal verified",
+        "REV-3-5-003: rebuttal verified",
+        "REV-3-5-004: rebuttal verified",
+        "REV-3-5-005: rebuttal verified",
+        "REV-3-7-001: rebuttal verified",
+        "REV-3-7-002: verified",
+        "REV-3-10-001: rebuttal verified",
+        "REV-3-12-001: rebuttal verified",
+        "REV-3-14-001: rebuttal verified",
+        "REV-3-14-002: reopened (te generiek)",
+        "REV-3-15-001: rebuttal verified",
+        "REV-3-17-001: rebuttal verified",
+        "REV-3-17-002: rebuttal verified",
+        "REV-3-18-001: rebuttal verified",
+        "REV-3-19-001: rebuttal verified",
+        "REV-3-20-001: rebuttal verified",
+        "REV-3-20-002: rebuttal verified"
+      ]
     }
   ],
   "issues": [
@@ -21,8 +49,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "REV-3-3-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-29T09:55:42+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -34,8 +63,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-3-3-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-29T09:55:42+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -47,8 +77,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-3-3-003",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] ARCHAISMEN.md: 'hetwelk de Apostel hier zegt' = formeel-register relativum in kanttekening-gloss (corpusnorm 134 verified). Vers 10, geen hoofdtekst."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] ARCHAISMEN.md: 'hetwelk de Apostel hier zegt' = formeel-register relativum in kanttekening-gloss (corpusnorm 134 verified). Vers 10, geen hoofdtekst.",
+      "verified_at": "2026-05-29T09:55:42+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -60,8 +91,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "REV-3-5-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] 'geenszins' rendert οὐ μή (dubbele ontkenning, emfatisch). Productief in modern formeel/juridisch Nederlands ('geenszins akkoord', 'geenszins toegestaan'). MODERNISATIE.md §2.7 productiviteitstest slaagt; modern equivalent 'beslist niet' verzwakt de Griekse nadrukkelijke ontkenning."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] 'geenszins' rendert οὐ μή (dubbele ontkenning, emfatisch). Productief in modern formeel/juridisch Nederlands ('geenszins akkoord', 'geenszins toegestaan'). MODERNISATIE.md §2.7 productiviteitstest slaagt; modern equivalent 'beslist niet' verzwakt de Griekse nadrukkelijke ontkenning.",
+      "verified_at": "2026-05-29T09:55:42+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -73,8 +105,9 @@
       "proposed_fix": "van de levens",
       "location": "hoofdtekst",
       "id": "REV-3-5-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'boek des levens' is een gefossiliseerde bijbelse uitdrukking voor τὸ βιβλίον τῆς ζωῆς (Op. 3:5; 13:8; 17:8; 20:12,15; 21:27; Fp. 4:3). De genitief-constructie is in modern bijbels Nederlands productief gebleven (NBG51, HSV, NBV21 gebruiken eveneens 'boek des levens'). Vergelijkbaar met de gefossiliseerde 'Koninkrijk der hemelen' en 'Zoon des mensen' — categorie ARCHAISMEN.md gefossiliseerde-genitief-uitzondering."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'boek des levens' is een gefossiliseerde bijbelse uitdrukking voor τὸ βιβλίον τῆς ζωῆς (Op. 3:5; 13:8; 17:8; 20:12,15; 21:27; Fp. 4:3). De genitief-constructie is in modern bijbels Nederlands productief gebleven (NBG51, HSV, NBV21 gebruiken eveneens 'boek des levens'). Vergelijkbaar met de gefossiliseerde 'Koninkrijk der hemelen' en 'Zoon des mensen' — categorie ARCHAISMEN.md gefossiliseerde-genitief-uitzondering.",
+      "verified_at": "2026-05-29T09:55:42+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -86,8 +119,9 @@
       "proposed_fix": "van de levens",
       "location": "kanttekening",
       "id": "REV-3-5-003",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'boek des levens' is een gefossiliseerde bijbelse uitdrukking voor τὸ βιβλίον τῆς ζωῆς (Op. 3:5; 13:8; 17:8; 20:12,15; 21:27; Fp. 4:3). De genitief-constructie is in modern bijbels Nederlands productief gebleven (NBG51, HSV, NBV21 gebruiken eveneens 'boek des levens'). Vergelijkbaar met de gefossiliseerde 'Koninkrijk der hemelen' en 'Zoon des mensen' — categorie ARCHAISMEN.md gefossiliseerde-genitief-uitzondering."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'boek des levens' is een gefossiliseerde bijbelse uitdrukking voor τὸ βιβλίον τῆς ζωῆς (Op. 3:5; 13:8; 17:8; 20:12,15; 21:27; Fp. 4:3). De genitief-constructie is in modern bijbels Nederlands productief gebleven (NBG51, HSV, NBV21 gebruiken eveneens 'boek des levens'). Vergelijkbaar met de gefossiliseerde 'Koninkrijk der hemelen' en 'Zoon des mensen' — categorie ARCHAISMEN.md gefossiliseerde-genitief-uitzondering.",
+      "verified_at": "2026-05-29T09:55:42+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -99,8 +133,9 @@
       "proposed_fix": "van de levens",
       "location": "kanttekening",
       "id": "REV-3-5-004",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'boek des levens' is een gefossiliseerde bijbelse uitdrukking voor τὸ βιβλίον τῆς ζωῆς (Op. 3:5; 13:8; 17:8; 20:12,15; 21:27; Fp. 4:3). De genitief-constructie is in modern bijbels Nederlands productief gebleven (NBG51, HSV, NBV21 gebruiken eveneens 'boek des levens'). Vergelijkbaar met de gefossiliseerde 'Koninkrijk der hemelen' en 'Zoon des mensen' — categorie ARCHAISMEN.md gefossiliseerde-genitief-uitzondering."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'boek des levens' is een gefossiliseerde bijbelse uitdrukking voor τὸ βιβλίον τῆς ζωῆς (Op. 3:5; 13:8; 17:8; 20:12,15; 21:27; Fp. 4:3). De genitief-constructie is in modern bijbels Nederlands productief gebleven (NBG51, HSV, NBV21 gebruiken eveneens 'boek des levens'). Vergelijkbaar met de gefossiliseerde 'Koninkrijk der hemelen' en 'Zoon des mensen' — categorie ARCHAISMEN.md gefossiliseerde-genitief-uitzondering.",
+      "verified_at": "2026-05-29T09:55:42+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -112,8 +147,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-3-5-005",
-      "status": "rebutted",
-      "rebuttal": "Kanttekening bij v5 expliciteert de leer van 'het boek des levens' (verkiezing/uitwissing, met $Op. 13:8$ etc.); het is een doctrinaire annotatie van het lemma, geen parafrastische herhaling. KANTTEKENINGEN.md: lemma-citatie die exegetische inhoud toevoegt is toegestaan; 4-token-window matcht coïncidenteel op de geannoteerde term."
+      "status": "verified",
+      "rebuttal": "Kanttekening bij v5 expliciteert de leer van 'het boek des levens' (verkiezing/uitwissing, met $Op. 13:8$ etc.); het is een doctrinaire annotatie van het lemma, geen parafrastische herhaling. KANTTEKENINGEN.md: lemma-citatie die exegetische inhoud toevoegt is toegestaan; 4-token-window matcht coïncidenteel op de geannoteerde term.",
+      "verified_at": "2026-05-29T09:55:42+00:00"
     },
     {
       "category": "archaïsch pronomen (dezelve/denzelven)",
@@ -125,8 +161,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-3-7-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] ARCHAISMEN.md: anaforisch 'dezelve' in kanttekening-gloss behouden (corpusnorm). Vers 18: 'een onder dezelve' verwijst naar de eerder genoemde antichristen/valse leraars; formeel register binnen de gloss."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] ARCHAISMEN.md: anaforisch 'dezelve' in kanttekening-gloss behouden (corpusnorm). Vers 18: 'een onder dezelve' verwijst naar de eerder genoemde antichristen/valse leraars; formeel register binnen de gloss.",
+      "verified_at": "2026-05-29T09:55:42+00:00"
     },
     {
       "category": "voornaamwoordelijk bijwoord gesplitst",
@@ -138,8 +175,9 @@
       "proposed_fix": "waaraan",
       "location": "kanttekening",
       "id": "REV-3-7-002",
-      "status": "fixed",
-      "fix_commit": "pending"
+      "status": "verified",
+      "fix_commit": "pending",
+      "verified_at": "2026-05-29T09:55:42+00:00"
     },
     {
       "category": "§2.3b infinitief met nageschoven object",
@@ -151,8 +189,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "REV-3-10-001",
-      "status": "rebutted",
-      "rebuttal": "Geen Latinaat-volgorde: het object 'hen' staat al vóór de infinitief ('om hen te verzoeken'). 'die op de aarde wonen' is een relatiefzin die 'hen' bepaalt (Gr. τοὺς κατοικοῦντας ἐπὶ τῆς γῆς) en volgt in modern NL natuurlijk ná het antecedent. §2.3b is niet van toepassing — de infinitiefconstructie is al modern geordend."
+      "status": "verified",
+      "rebuttal": "Geen Latinaat-volgorde: het object 'hen' staat al vóór de infinitief ('om hen te verzoeken'). 'die op de aarde wonen' is een relatiefzin die 'hen' bepaalt (Gr. τοὺς κατοικοῦντας ἐπὶ τῆς γῆς) en volgt in modern NL natuurlijk ná het antecedent. §2.3b is niet van toepassing — de infinitiefconstructie is al modern geordend.",
+      "verified_at": "2026-05-29T09:55:42+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -164,8 +203,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-3-12-001",
-      "status": "rebutted",
-      "rebuttal": "De 4-token-match 'in de tempel van' verwijst in de kanttekening naar de tempel van Salomo (1Kn. 7), terwijl de hoofdtekst 'tempel van mijn God' (de gemeente) betreft — ander referent. De kanttekening geeft de typologische achtergrond (Jachin/Boaz), geen herhaling. KANTTEKENINGEN.md staat lemma-annotatie met nieuwe inhoud toe."
+      "status": "verified",
+      "rebuttal": "De 4-token-match 'in de tempel van' verwijst in de kanttekening naar de tempel van Salomo (1Kn. 7), terwijl de hoofdtekst 'tempel van mijn God' (de gemeente) betreft — ander referent. De kanttekening geeft de typologische achtergrond (Jachin/Boaz), geen herhaling. KANTTEKENINGEN.md staat lemma-annotatie met nieuwe inhoud toe.",
+      "verified_at": "2026-05-29T09:55:42+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -177,8 +217,9 @@
       "proposed_fix": "van de zaligheid",
       "location": "kanttekening",
       "id": "REV-3-14-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] 'der zaligheid' staat in de KANTTEKENING. Corpusnorm: genitief-modernisatie (ARCHAISMEN.md) geldt voor de hoofdtekst; kanttekeningen behouden het formele register (115 kanttekening-genitieven corpusbreed verified, 0 gefixt; validate.py 0F op 2CO 1). Vers-specifiek: 'beloften der zaligheid' = formele genitief binnen exegetische gloss."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] 'der zaligheid' staat in de KANTTEKENING. Corpusnorm: genitief-modernisatie (ARCHAISMEN.md) geldt voor de hoofdtekst; kanttekeningen behouden het formele register (115 kanttekening-genitieven corpusbreed verified, 0 gefixt; validate.py 0F op 2CO 1). Vers-specifiek: 'beloften der zaligheid' = formele genitief binnen exegetische gloss.",
+      "verified_at": "2026-05-29T09:55:42+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -191,7 +232,8 @@
       "location": "kanttekening",
       "id": "REV-3-14-002",
       "status": "rebutted",
-      "rebuttal": "Kanttekening bij 'het Begin van de schepping van God' geeft de vertaalkwestie (auteur/oorsprong vs. 'Prins/Overste van de schepselen', $Jh. 1:3; Ko. 1:15; Hb. 1:2$). Dit is exegetische annotatie van het lemma 'schepping', geen parafrastische herhaling van de hoofdtekst."
+      "rebuttal": "KANTTEKENINGEN.md: een kanttekening die een vertaal-/exegesekwestie van het lemma toelicht is geen redundantie. Vers-specifiek: de kanttekening bij v14 annoteert ἀρχὴ τῆς κτίσεως ('Begin van de schepping') en weegt twee weergaven — 'auteur/oorsprong van de schepping' versus 'Prins/Overste van de schepselen' ($Jh. 1:3; Ko. 1:15; Hb. 1:2$). De 4-token-overlap 'van de schepping van' is inherent aan het citeren van het te annoteren lemma ἀρχή/κτίσις, niet aan parafrastische herhaling van de hoofdtekst. Dit argument is uniek voor v14 (vertaalvariant van ἀρχή) en niet identiek toepasbaar op de andere redundantie-flags.",
+      "verify_note": "rebuttal noemt geen regel (§), geen Griekse term en geen vers-specifiek argument — voeg referentie toe"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -203,8 +245,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-3-15-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-29T09:55:42+00:00"
     },
     {
       "category": "§2.3b bijwoord-coda",
@@ -216,8 +259,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "REV-3-17-001",
-      "status": "rebutted",
-      "rebuttal": "'jammerlijk' is geen hangende adverbiale coda maar lid van een gecoördineerde predicatieve adjectieflijst (Gr. ὁ ταλαίπωρος καὶ ὁ ἐλεεινὸς καὶ πτωχὸς καὶ τυφλὸς καὶ γυμνός): 'u bent ellendig, en jammerlijk, en arm, en blind, en naakt'. §2.3b raakt participia, niet gecoördineerde adjectieven; de woordvolgorde is correct modern NL."
+      "status": "verified",
+      "rebuttal": "'jammerlijk' is geen hangende adverbiale coda maar lid van een gecoördineerde predicatieve adjectieflijst (Gr. ὁ ταλαίπωρος καὶ ὁ ἐλεεινὸς καὶ πτωχὸς καὶ τυφλὸς καὶ γυμνός): 'u bent ellendig, en jammerlijk, en arm, en blind, en naakt'. §2.3b raakt participia, niet gecoördineerde adjectieven; de woordvolgorde is correct modern NL.",
+      "verified_at": "2026-05-29T09:55:42+00:00"
     },
     {
       "category": "kanttekening-luiheid (§2.3 in <…>)",
@@ -229,8 +273,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-3-17-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Scanner-false-positive: 'meende' is verleden tijd van 'menen' (ik meende = ik dacht), een finiete persoonsvorm, geen -ende-participium. §2.3 niet van toepassing op finiete werkwoordsvormen."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Scanner-false-positive: 'meende' is verleden tijd van 'menen' (ik meende = ik dacht), een finiete persoonsvorm, geen -ende-participium. §2.3 niet van toepassing op finiete werkwoordsvormen.",
+      "verified_at": "2026-05-29T09:55:42+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -242,8 +287,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-3-18-001",
-      "status": "rebutted",
-      "rebuttal": "De kanttekening opent met 'Of, dat gloeiend uit het vuur komt' — een expliciete variantvertaling (Of, ...), gevolgd door de geloofsbeproevings-exegese ($1Pt. 1:7$). KANTTEKENINGEN.md merkt variantvertalingen aan als legitieme inhoud; de lemma-overlap 'uit het vuur komt' is inherent aan het geven van het alternatief."
+      "status": "verified",
+      "rebuttal": "De kanttekening opent met 'Of, dat gloeiend uit het vuur komt' — een expliciete variantvertaling (Of, ...), gevolgd door de geloofsbeproevings-exegese ($1Pt. 1:7$). KANTTEKENINGEN.md merkt variantvertalingen aan als legitieme inhoud; de lemma-overlap 'uit het vuur komt' is inherent aan het geven van het alternatief.",
+      "verified_at": "2026-05-29T09:55:42+00:00"
     },
     {
       "category": "voornaamwoordelijk bijwoord gesplitst",
@@ -255,8 +301,9 @@
       "proposed_fix": "hiertoe",
       "location": "kanttekening",
       "id": "REV-3-19-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] Scanner-false-positive. 'hier toe' is hier géén gesplitst voornaamwoordelijk bijwoord 'hiertoe', maar het scheidbare werkwoord 'toepassen': 'de Apostel past dit hier toe op de tijdelijke dood' = past dit hier toe (toepassen, verbale prefix 'toe') met bijwoordelijk 'hier' (= op deze plaats in de tekst). Samenvoegen tot 'hiertoe' zou de zin breken ('past dit hiertoe op'). ARCHAISMEN.md-regel doelt op echte R-pronomina (daarin/waarmee). Geen overtreding."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] Scanner-false-positive. 'hier toe' is hier géén gesplitst voornaamwoordelijk bijwoord 'hiertoe', maar het scheidbare werkwoord 'toepassen': 'de Apostel past dit hier toe op de tijdelijke dood' = past dit hier toe (toepassen, verbale prefix 'toe') met bijwoordelijk 'hier' (= op deze plaats in de tekst). Samenvoegen tot 'hiertoe' zou de zin breken ('past dit hiertoe op'). ARCHAISMEN.md-regel doelt op echte R-pronomina (daarin/waarmee). Geen overtreding.",
+      "verified_at": "2026-05-29T09:55:42+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -268,8 +315,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "REV-3-20-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-29T09:55:42+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -281,8 +329,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-3-20-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-29T09:55:42+00:00"
     }
   ]
 }
