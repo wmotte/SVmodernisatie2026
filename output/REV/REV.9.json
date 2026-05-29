@@ -88,6 +88,43 @@
       "generated_at": "2026-05-29T15:45:00.940679Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 10,
+      "original": "Ende sy hadden steerten den scorpioenen gelijck, ende daer waren angels in hare steerten: ende hare macht was de menschen te beschadigen vijf maenden.",
+      "modernized": "En zij hadden staarten gelijk aan schorpioenen, en er waren angels in hun staarten: en hun macht was de mensen schade toe te brengen vijf maanden.",
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "beschadigen",
+          "context": "hoofdtekst",
+          "choice": "schade toe te brengen",
+          "alternatives": ["beschadigen", "letsel toebrengen"],
+          "reason": "'beschadigen' op persoon-object 'de mensen' (Gr. ἀδικῆσαι) is een false friend en leest modern absurd-technisch; gecorrigeerd naar 'schade toe te brengen'. HSV-spiegel bevestigt onafhankelijk."
+        }
+      ],
+      "source_text": "καὶ ἔχουσιν οὐρὰς ὁμοίας σκορπίοις, καὶ κέντρα ἦν ἐν ταῖς οὐραῖς αὐτῶν· καὶ ἡ ἐξουσία αὐτῶν ἀδικῆσαι τοὺς ἀνθρώπους μῆνας πέντε.",
+      "generated_at": "2026-05-29T15:48:48.577484Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 11,
+      "original": "Ende sy hadden over haer tot eenen Koningh, $Apocal. 9.1.$ den Engel des afgronts: sijnen name was in het Hebreeusch <Abaddon in ’t Hebreeusch, ende Apollyon in het Griecks, beteeckent verderf, ende verderver, ende komt over een met den naem, die den Apostel Paulus den Antichrist geeft, 2.Thessal. 2.3, 4, 9. als hy hem noemt de mensche der sonde, ende de sone des verderfs, de tegenstrijder, ende die hem verheft boven al dat Godt genaemt wort: welcker komste is na de werckinge des satans. Waer van siet de verklaringe aldaer.> Abaddon, ende in de Griecksche [tale] hadde hy den naem Appollyon.",
+      "modernized": "En zij hadden over zich als Koning, $Op. 9:1$ de Engel van de afgrond: zijn naam was in het Hebreeuws <Abaddon in het Hebreeuws, en Apollyon in het Grieks, betekent verderf, en verderver, en komt overeen met de naam, die de Apostel Paulus aan de Antichrist geeft, $2Th. 2:3,4,9$ als hij hem noemt de mens van de zonde, en de zoon van het verderf, de tegenstander, en die zich verheft boven al wat God genoemd wordt: wiens komst is naar de werking van de satan. Waarvan, zie de verklaring daar.> Abaddon, en in de Griekse [taal] had hij de naam Apollyon.",
+      "source_text": "καὶ ἔχουσιν ἐπ’ αὐτῶν βασιλέα τὸν ἄγγελον τῆς ἀβύσσου· ὄνομα αὐτῷ Ἑβραϊστὶ Ἀβαδδών, καὶ ἐν τῇ Ἑλληνικῇ ὄνομα ἔχει Ἀπολλύων.",
+      "generated_at": "2026-05-29T15:49:48.990023Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 12,
+      "original": "$Apocal. 8.13.$ Het een wee <Namelick, ten aensien van het gesichte, dat den Apostel vertoont was. Want de sake selve is langen tijt daer na geschiet, ende sal eerst door de verschijninge der komste Iesu Christi geheel te niete gedaen worden: gelijck Paulus getuyght 2.Thess. 2. vers 8.> is wech gegaen, siet, daer komen noch twee ween na desen.",
+      "modernized": "$Op. 8:13$ Het ene wee <Namelijk, ten aanzien van het gezicht, dat de Apostel vertoond was. Want de zaak zelf is lange tijd daarna gebeurd, en zal pas door de verschijning van de komst van Jezus Christus geheel tenietgedaan worden: zoals Paulus getuigt $2Th. 2:8$.> is weggegaan, zie, er komen nog twee weeën na dezen.",
+      "source_text": "ἡ οὐαὶ ἡ μία ἀπῆλθεν· ἰδού, ἔρχονται ἔτι δύο οὐαὶ μετὰ ταῦτα.",
+      "generated_at": "2026-05-29T15:50:25.238357Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
