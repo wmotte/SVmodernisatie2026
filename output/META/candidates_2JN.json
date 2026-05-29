@@ -1,0 +1,47 @@
+{
+  "book": "2JN",
+  "chapters": [
+    1
+  ],
+  "min_freq": 2,
+  "kinds": [
+    "carryover",
+    "fossiel-lidwoord",
+    "latinaat-window",
+    "cap-asym"
+  ],
+  "total_patterns": 1,
+  "patterns_by_kind": {
+    "carryover": [
+      {
+        "pattern_id": "p-0001",
+        "kind": "carryover",
+        "key": "zijt",
+        "frequency": 2,
+        "hsv_alternatives": [
+          "begroet",
+          "ontvang"
+        ],
+        "severity_hint": "soft",
+        "occurrences": [
+          {
+            "book": "2JN",
+            "chapter": 1,
+            "verse": 10,
+            "sv2026_excerpt": "…ntvangt hem niet in huis, en zegt tot hem niet:   Zijt gegroet.",
+            "hsv_excerpt": "  Als iemand bij u komt en deze leer niet brengt, ontvang hem niet in huis en begroet hem niet.",
+            "original_excerpt": "  Indien yemant   tot u-lieden komt, ende   dese leere niet   en brenght,   en ontfanght hem niet in huys, ende en seght"
+          },
+          {
+            "book": "2JN",
+            "chapter": 1,
+            "verse": 11,
+            "sv2026_excerpt": "Want wie tot hem zegt: Zijt gegroet,   die heeft gemeenschap aan zijn   b…",
+            "hsv_excerpt": "Want wie hem begroet, die heeft deel aan zijn slechte werken.",
+            "original_excerpt": "Want die tot hem seght, Zijt gegroet,   die heeft gemeynschap aen sijne   boose wercken."
+          }
+        ]
+      }
+    ]
+  }
+}

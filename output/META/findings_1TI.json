@@ -1,0 +1,35 @@
+{
+  "book": "1TI",
+  "generated_at": "2026-05-29T04:49:47Z",
+  "min_freq": 2,
+  "issues": [
+    {
+      "id": "META-1TI-1-4-001",
+      "verse": 4,
+      "chapter": 1,
+      "category": "carryover",
+      "severity": "soft",
+      "quote_modernized": "of zich in te laten met fabelen en eindeloze geslachtsregisters",
+      "hsv_quote": "zich ook niet bezig te houden met verzinsels en eindeloze geslachtsregisters",
+      "rule_reference": "MODERNISATIE.md §2.7 (drempel-archaïsme / verwarringtest)",
+      "explanation": "SV1657 'fabelen' = Grieks μῦθος (mythos), d.w.z. verzonnen/onware verhalen, mythen. Modern NL 'fabel' heeft een dominant andere betekenis (moralistisch dierenverhaal à la Aesopus), waardoor de plurale archaïsche vorm 'fabelen' de lezer op het verkeerde been zet (verwarringtest). HSV kiest consistent 'verzinsels'. Drempel-archaïsme dat wij in beide voorkomens lieten staan.",
+      "proposed_fix": "verzinsels",
+      "location": "hoofdtekst",
+      "status": "open"
+    },
+    {
+      "id": "META-1TI-4-7-001",
+      "verse": 7,
+      "chapter": 4,
+      "category": "carryover",
+      "severity": "soft",
+      "quote_modernized": "Maar verwerp de ongoddelijke en oudewijvenachtige fabelen",
+      "hsv_quote": "Maar verwerp de onheilige en onzinnige verzinsels",
+      "rule_reference": "MODERNISATIE.md §2.7 (drempel-archaïsme / verwarringtest)",
+      "explanation": "Zelfde patroon als 1:4. SV1657 'fabelen' = Grieks μῦθος (mythos), verzonnen verhalen; modern 'fabel' draagt de dominante betekenis 'dierenfabel' en is hier misleidend. HSV: 'verzinsels'. Cross-chapter herhaling (1:4 + 4:7) bevestigt consistente miss.",
+      "proposed_fix": "verzinsels",
+      "location": "hoofdtekst",
+      "status": "open"
+    }
+  ]
+}

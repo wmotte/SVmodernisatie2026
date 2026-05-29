@@ -1,0 +1,164 @@
+{
+  "book": "1TI",
+  "chapters": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "min_freq": 2,
+  "kinds": [
+    "carryover",
+    "fossiel-lidwoord",
+    "latinaat-window",
+    "cap-asym"
+  ],
+  "total_patterns": 5,
+  "patterns_by_kind": {
+    "cap-asym": [
+      {
+        "pattern_id": "p-0001",
+        "kind": "cap-asym",
+        "key": "apostel",
+        "frequency": 2,
+        "hsv_alternatives": [],
+        "severity_hint": "soft",
+        "occurrences": [
+          {
+            "book": "1TI",
+            "chapter": 1,
+            "verse": 1,
+            "sv2026_excerpt": "Paulus, een Apostel van Jezus Christus,   naar het bevel van G…",
+            "hsv_excerpt": "Paulus, een apostel van Jezus Christus,   overeenkomstig het bevel van God, onze Zaligmaker, en van de Heere Jezus Christus,   onze hoop,",
+            "original_excerpt": ""
+          },
+          {
+            "book": "1TI",
+            "chapter": 2,
+            "verse": 7,
+            "sv2026_excerpt": "  Waartoe ik   gesteld ben   tot een Prediker en Apostel, (   ik zeg de waarheid   in Christus, ik …",
+            "hsv_excerpt": "Daartoe ben ik   aangesteld als prediker en apostel (   ik zeg de waarheid in Christus, ik lieg niet), als een leraar van de heidenen in gel",
+            "original_excerpt": ""
+          }
+        ]
+      },
+      {
+        "pattern_id": "p-0005",
+        "kind": "cap-asym",
+        "key": "engelen",
+        "frequency": 2,
+        "hsv_alternatives": [],
+        "severity_hint": "soft",
+        "occurrences": [
+          {
+            "book": "1TI",
+            "chapter": 3,
+            "verse": 16,
+            "sv2026_excerpt": "…chtvaardigd   in de Geest, is verschenen   aan de Engelen,   is gepredikt onder de Heidenen, is gelo…",
+            "hsv_excerpt": "En buiten alle twijfel, groot is het geheimenis van de godsvrucht:   God is geopenbaard in het vlees, is gerechtvaardigd in de Geest, is ver",
+            "original_excerpt": ""
+          },
+          {
+            "book": "1TI",
+            "chapter": 5,
+            "verse": 21,
+            "sv2026_excerpt": "…od, en de Heere Jezus Christus, en de uitverkoren Engelen, dat u   deze dingen in acht neemt     zon…",
+            "hsv_excerpt": "  Ik bezweer u , ten overstaan van God en de Heere Jezus Christus en de uitverkoren engelen, dat u deze dingen in acht neemt   zonder vooroo",
+            "original_excerpt": ""
+          }
+        ]
+      },
+      {
+        "pattern_id": "p-0003",
+        "kind": "cap-asym",
+        "key": "heidenen",
+        "frequency": 2,
+        "hsv_alternatives": [],
+        "severity_hint": "soft",
+        "occurrences": [
+          {
+            "book": "1TI",
+            "chapter": 2,
+            "verse": 7,
+            "sv2026_excerpt": "…id   in Christus, ik lieg niet) een Leraar van de Heidenen, in geloof en waarheid.",
+            "hsv_excerpt": "Daartoe ben ik   aangesteld als prediker en apostel (   ik zeg de waarheid in Christus, ik lieg niet), als een leraar van de heidenen in gel",
+            "original_excerpt": ""
+          },
+          {
+            "book": "1TI",
+            "chapter": 3,
+            "verse": 16,
+            "sv2026_excerpt": "…schenen   aan de Engelen,   is gepredikt onder de Heidenen, is geloofd   in de wereld,   is   opgeno…",
+            "hsv_excerpt": "En buiten alle twijfel, groot is het geheimenis van de godsvrucht:   God is geopenbaard in het vlees, is gerechtvaardigd in de Geest, is ver",
+            "original_excerpt": ""
+          }
+        ]
+      },
+      {
+        "pattern_id": "p-0004",
+        "kind": "cap-asym",
+        "key": "opziener",
+        "frequency": 2,
+        "hsv_alternatives": [],
+        "severity_hint": "soft",
+        "occurrences": [
+          {
+            "book": "1TI",
+            "chapter": 3,
+            "verse": 1,
+            "sv2026_excerpt": "…getrouw woord: Als iemand naar   het ambt van een Opziener   verlangt, die begeert   een voortreffel…",
+            "hsv_excerpt": "Dit is een betrouwbaar woord: als iemand verlangen heeft naar het ambt van opziener, begeert hij een voortreffelijk werk.",
+            "original_excerpt": ""
+          },
+          {
+            "book": "1TI",
+            "chapter": 3,
+            "verse": 2,
+            "sv2026_excerpt": "  Een Opziener dan moet   onberispelijk zijn,   de man v…",
+            "hsv_excerpt": "  Een opziener nu moet onberispelijk zijn, de man van één vrouw, beheerst, bezonnen, eerbaar, gastvrij,   bekwaam om te onderwijzen,",
+            "original_excerpt": ""
+          }
+        ]
+      }
+    ],
+    "carryover": [
+      {
+        "pattern_id": "p-0002",
+        "kind": "carryover",
+        "key": "fabelen",
+        "frequency": 2,
+        "hsv_alternatives": [
+          "verzinsels",
+          "bezig",
+          "gewerkte",
+          "opbouw",
+          "opleveren",
+          "twistgesprekken",
+          "godsvrucht",
+          "onheilige"
+        ],
+        "severity_hint": "soft",
+        "occurrences": [
+          {
+            "book": "1TI",
+            "chapter": 1,
+            "verse": 4,
+            "sv2026_excerpt": "  of zich   in te laten met fabelen en eindeloze geslachtsregisters, die meer …",
+            "hsv_excerpt": "  zich ook niet bezig te houden met verzinsels en eindeloze geslachtsregisters, die meer   twistgesprekken opleveren dan",
+            "original_excerpt": "  Noch haer   te begeven tot fabelen, ende oneyndelicke geslacht-reeckeningen, welcke meer   twist-vragen voort brengen "
+          },
+          {
+            "book": "1TI",
+            "chapter": 4,
+            "verse": 7,
+            "sv2026_excerpt": "…ar verwerp de ongoddelijke en oudewijvenachtige   fabelen; en oefen uzelf tot Godzaligheid.",
+            "hsv_excerpt": "  Maar verwerp de onheilige en onzinnige verzinsels en oefen uzelf in de godsvrucht.",
+            "original_excerpt": "  Maer verworpt de ongoddelicke ende oudtwijfsche   fabelen: ende oeffent u selven tot Godtsaligheyt."
+          }
+        ]
+      }
+    ]
+  }
+}
