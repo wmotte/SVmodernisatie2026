@@ -1,0 +1,113 @@
+{
+  "book": "2CO",
+  "chapter": 12,
+  "reviewed_at": "2026-05-29T06:41:17+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-29T06:40:09+00:00",
+      "mode": "scan",
+      "issues_total": 5
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-29T06:41:17+00:00",
+      "mode": "verify",
+      "actions": [
+        "2CO-12-7-001: rebuttal verified",
+        "2CO-12-13-001: rebuttal verified",
+        "2CO-12-2-001: rebuttal verified",
+        "2CO-12-2-002: rebuttal verified",
+        "2CO-12-5-001: rebuttal verified"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 7,
+      "severity": "soft",
+      "quote_modernized": "een engel van satan",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'een engel van satan' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "2CO-12-7-001",
+      "status": "verified",
+      "rebuttal": "KANTTEKENINGEN.md verbiedt redundantie vooral wanneer een alternatief/parafrase uit de kanttekening in de hoofdtekst wordt overgenomen. Hier bewaart de hoofdtekst SV1657 'Engel des satans' als 'Engel van satan', terwijl de <Of, ...>-kanttekening de alternatieve genitieflezing 'een Engel satan' plus uitleg geeft; het blok mag volgens de behoudsregel niet worden geschrapt of inhoudelijk versmald.",
+      "verified_at": "2026-05-29T06:41:17+00:00"
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 13,
+      "severity": "soft",
+      "quote_modernized": "…ere Apostelen zijn geplant en gesticht, met welke hij zichzelf hier vergelijkt. …",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "2CO-12-13-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-29T06:41:17+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 2,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'soodani' in 4 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 4 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        2,
+        3,
+        5,
+        20
+      ],
+      "id": "2CO-12-2-001",
+      "status": "verified",
+      "rebuttal": "Geen concordantie-drift: het SV-lemma 'soodanig(e)' wordt contextueel consequent gemoderniseerd met 'zo iemand' in 2Kor. 12:2-3; dat volgt het aanwijzende Griekse τὸν τοιοῦτον. De scanner vergelijkt alleen prefixes en ziet daarom de normale spelling-/idioomverschuiving niet.",
+      "verified_at": "2026-05-29T06:41:17+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 2,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'mensche' in 3 verzen — verzen [3] renderen het stam anders dan [2, 4]",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        2,
+        3,
+        4
+      ],
+      "id": "2CO-12-2-002",
+      "status": "verified",
+      "rebuttal": "Geen inhoudelijke drift: 'mensche' blijft in 2Kor. 12:2 en 12:4 'mens' bij Grieks ἄνθρωπον/ἀνθρώπῳ. In 12:3 staat SV1657 'een soodanigh mensche', maar de moderne tekst 'zo iemand' voorkomt stugge herhaling en behoudt dezelfde referent; dit valt onder MODERNISATIE.md §2.3 voorzichtige zinsbouw zonder semantische verschuiving.",
+      "verified_at": "2026-05-29T06:41:17+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 5,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'swackhe' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        5,
+        9,
+        10
+      ],
+      "id": "2CO-12-5-001",
+      "status": "verified",
+      "rebuttal": "Geen concordantie-drift: de stam 'swackhe' wordt in dit hoofdstuk bij Grieks ἀσθένεια/ἀσθενῶ consequent met het moderne lemma 'zwakheid/zwak' weergegeven (12:5, 12:9, 12:10). De prefixscanner mist de historische spellingwisseling sw- naar zw- en levert hier een false positive.",
+      "verified_at": "2026-05-29T06:41:17+00:00"
+    }
+  ]
+}
