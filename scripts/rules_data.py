@@ -315,6 +315,12 @@ DREMPEL_ARCHAISMEN: frozenset[str] = frozenset({
     "weldra", "weldadig", "weldadigheid",
     "gewis", "voorzeker",
     "wederom", "wederkeren", "wederkeer", "wederkomst",
+    # Archaïsche 'weder-'-spelling van 'weerleggen' (Gr. ἐλέγχω). Modern NL
+    # consequent 'weer-'; HSV + de eigen kanttekening (TIT 1:11 'weerlegging')
+    # spellen al 'weer-'. §2.7: 'weerleggen' volledig productief, geen
+    # verwarrende nevenbetekenis. Exacte-woord-match. Meta-review TIT 1:9.
+    "wederleggen", "wederlegt", "wederlegde", "wederlegden",
+    "wederlegd", "wederleggende", "wederlegging",
     "voorwaar",
     "zekerlijk", "geenszins",
     "ootmoed", "ootmoedig", "ootmoediglijk",
