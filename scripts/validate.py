@@ -526,7 +526,7 @@ _SV_PRONOUN_SOURCE_FORMS: dict[str, frozenset[str]] = {
     "Mijne": frozenset({"mijn", "mijne", "mijnen"}),
     "Hij": frozenset({"hy", "hij"}),
     "Hijzelf": frozenset({"hy", "hij"}),
-    "Hem": frozenset({"hem"}),
+    "Hem": frozenset({"hem", "dien"}),
     "Zijn": frozenset({"sijn", "sijne", "sijnen", "zijn", "zijne"}),
     "Zijne": frozenset({"sijn", "sijne", "sijnen", "zijn", "zijne"}),
     "Wie": frozenset({"wie", "welck", "welcke", "welcken", "dewelcke", "dewelcken"}),
