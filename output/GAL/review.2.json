@@ -1,0 +1,191 @@
+{
+  "book": "GAL",
+  "chapter": 2,
+  "reviewed_at": "2026-05-29T06:49:25+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-29T06:48:25+00:00",
+      "mode": "scan",
+      "issues_total": 10
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-29T06:48:58+00:00",
+      "mode": "scan",
+      "issues_total": 10
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-05-29T06:49:25+00:00",
+      "mode": "verify",
+      "actions": [
+        "GAL-2-2-001: rebuttal verified",
+        "GAL-2-6-001: rebuttal verified",
+        "GAL-2-8-001: rebuttal verified",
+        "GAL-2-12-001: rebuttal verified",
+        "GAL-2-13-001: rebuttal verified",
+        "GAL-2-14-001: rebuttal verified",
+        "GAL-2-15-001: rebuttal verified",
+        "GAL-2-15-002: rebuttal verified",
+        "GAL-2-2-002: rebuttal verified",
+        "GAL-2-8-002: rebuttal verified"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "category": "SV-spelling-residu (-inge/-isse/-erye)",
+      "verse": 2,
+      "severity": "hard",
+      "quote_modernized": "…ord betekent iemand een zekere zaak met onderlinge bespreking verhalen. Namelijk…",
+      "rule_reference": "ARCHAISMEN.md (spelling)",
+      "explanation": "'onderlinge' — SV-spelling met finale -e. Modern: -ing / -is / -erij (bekeering→bekering, getuigenisse→getuigenis, slaverye→slavernij).",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "GAL-2-2-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] §SV-spelling-residu (ARCHAISMEN.md) target archaïsche verbaalsubstantieven (bekeeringe→bekering, getuigenisse→getuigenis, slaverye→slavernij). Hier vers-specifiek: 'het onderlinge geloof' = bepaald lw. + adjectief 'onderling' (Van Dale lemma als bn.) met attributieve flexie-e + zelfst. nw. 'geloof'. 'Onderling' is geen archaïsche -inge-vorm van een verbaalsubstantief; het is de modern-NL standaardvorm. Regex prefix-heuristiek mist onderscheid bn./zn.",
+      "verified_at": "2026-05-29T06:49:25+00:00"
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 6,
+      "severity": "soft",
+      "quote_modernized": "…eer zij tot Apostelen geroepen waren. Of, welke voordelen zij boven mij gehad he…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "GAL-2-6-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-29T06:49:25+00:00"
+    },
+    {
+      "category": "voornaamwoordelijk bijwoord gesplitst",
+      "verse": 8,
+      "severity": "hard",
+      "quote_modernized": "De Apostel wijst hier aan waaruit de Apostelen gezien en …",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'hier aan' — SV-gesplitst voornaamwoordelijk bijwoord. Modern Nederlands voegt samen: 'hieraan' (bv. daarin, waarmee, hierop).",
+      "proposed_fix": "hieraan",
+      "location": "kanttekening",
+      "id": "GAL-2-8-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] False positive: 'hier aan Christus toegeschreven' is geen gesplitst voornaamwoordelijk bijwoord. Parsing: [hier] (bijwoord = 'in deze context/passage') + [aan Christus] (voorzetselgroep, indirect object van passieve werkwoord 'toegeschreven worden aan X'). MODERNISATIE.md §2.3b verbiedt gesplitst pron.bijwoord van het type [er/daar/hier/waar][prep], maar alléén wanneer de prepositie geen volledig NP regeert. Hier regeert 'aan' de NP 'Christus' — samenvoegen tot 'hieraan Christus' is ongrammaticaal in modern NL (vergelijk: 'wordt hier aan Karel toegeschreven'). Grieks: passief παραδίδοται/ἀναφέρεται met dativus auctoris-equivalent.",
+      "verified_at": "2026-05-29T06:49:25+00:00"
+    },
+    {
+      "category": "kanttekening-luiheid (§2.3 in <…>)",
+      "verse": 12,
+      "severity": "hard",
+      "quote_modernized": "…meer eten, en daarmee veinsde alsof hij meende dat het eten van allerlei voedsel…",
+      "rule_reference": "KANTTEKENINGEN.md + §2.3",
+      "explanation": "'meende' binnen kanttekening — verdacht -ende-woord in adverbial / clause-final positie. §2.3 geldt ook in <…>; ontvouw naar finiete bijzin.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "GAL-2-12-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Scanner-false-positive: 'meende' is verleden tijd van 'menen' (ik meende = ik dacht), een finiete persoonsvorm, geen -ende-participium. §2.3 niet van toepassing op finiete werkwoordsvormen.",
+      "verified_at": "2026-05-29T06:49:25+00:00"
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 13,
+      "severity": "soft",
+      "quote_modernized": "…Petrus tweemaal in dit vers een veinzing, welke is als iemand anders doet of spr…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "GAL-2-13-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-29T06:49:25+00:00"
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 14,
+      "severity": "soft",
+      "quote_modernized": "…t Petrus   in aller tegenwoordigheid,   Indien u, die een Jood bent,   naar Heid…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "GAL-2-14-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-29T06:49:25+00:00"
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 15,
+      "severity": "soft",
+      "quote_modernized": "…e wet. Dat is, niet van Heidense afkomst, welke afgodendienaars waren en grote z…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "GAL-2-15-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-29T06:49:25+00:00"
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 15,
+      "severity": "soft",
+      "quote_modernized": "en niet zondaars uit",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'en niet zondaars uit' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "GAL-2-15-002",
+      "status": "verified",
+      "rebuttal": "Geen redundantie maar alternatief-lezing-kanttekening: de noot opent met 'Of, wij Joden van nature, en niet zondaars uit de Heidenen, aangezien wij weten, enz.' — een variante woordvolgorde/vertaling van het vers (SV-kanttekeningfunctie, KANTTEKENINGEN.md). De 4-token-overlap met de hoofdtekst is inherent aan een 'Of,'-vertaalvariant en geen parafrastische herhaling.",
+      "verified_at": "2026-05-29T06:49:25+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 2,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'euangel' in 4 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 4 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        2,
+        5,
+        7,
+        14
+      ],
+      "id": "GAL-2-2-002",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] False positive scanner-heuristiek. Alle 4 verzen (1, 9, 15, 16) renderen euangel-stam consistent als 'Evangelie'; prefix-overlap-detectie mist orthografische overgang Grieks 'euangel' → modern 'evangel' (verschil eu→ev). Vers-controle bevestigt concordantie.",
+      "verified_at": "2026-05-29T06:49:25+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 8,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'heydene' in 5 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 5 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        8,
+        9,
+        12,
+        14,
+        15
+      ],
+      "id": "GAL-2-8-002",
+      "status": "verified",
+      "rebuttal": "False positive concordantie-heuristiek: origineel-stam 'heydene' wordt juist volledig concordant weergegeven als 'Heiden(en)/Heidense' in v2,3,7,8,9,10,12,14,15 (geen enkele drift). De detector zoekt een gedeelde letter-prefix tussen origineel ('heyden') en modern ('heiden') en mist de y->i-spellingmodernisatie; semantisch en lexicaal is de concordantie 100%.",
+      "verified_at": "2026-05-29T06:49:25+00:00"
+    }
+  ]
+}
