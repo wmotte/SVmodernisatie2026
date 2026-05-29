@@ -1,7 +1,7 @@
 {
   "book": "GAL",
   "chapter": 2,
-  "reviewed_at": "2026-05-29T06:49:25+00:00",
+  "reviewed_at": "2026-05-29T08:20:34+00:00",
   "passes": [
     {
       "pass": 1,
@@ -31,6 +31,30 @@
         "GAL-2-2-002: rebuttal verified",
         "GAL-2-8-002: rebuttal verified"
       ]
+    },
+    {
+      "pass": 4,
+      "ran_at": "2026-05-29T08:19:54+00:00",
+      "mode": "scan",
+      "issues_total": 14
+    },
+    {
+      "pass": 5,
+      "ran_at": "2026-05-29T08:20:30+00:00",
+      "mode": "verify",
+      "actions": [
+        "GAL-2-14-001: rebuttal verified",
+        "GAL-2-17-001: rebuttal verified",
+        "GAL-2-18-001: rebuttal verified",
+        "GAL-2-19-001: rebuttal verified",
+        "GAL-2-21-001: rebuttal verified"
+      ]
+    },
+    {
+      "pass": 6,
+      "ran_at": "2026-05-29T08:20:34+00:00",
+      "mode": "verify",
+      "actions": []
     }
   ],
   "issues": [
@@ -108,7 +132,7 @@
       "category": "§2.7 drempel-archaïsme",
       "verse": 14,
       "severity": "soft",
-      "quote_modernized": "…t Petrus   in aller tegenwoordigheid,   Indien u, die een Jood bent,   naar Heid…",
+      "quote_modernized": "…t Petrus   in aanwezigheid van allen,   Indien u, die een Jood bent,   naar Heid…",
       "rule_reference": "MODERNISATIE.md §2.7",
       "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
       "proposed_fix": null,
@@ -116,7 +140,7 @@
       "id": "GAL-2-14-001",
       "status": "verified",
       "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
-      "verified_at": "2026-05-29T06:49:25+00:00"
+      "verified_at": "2026-05-29T08:20:30+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -145,6 +169,62 @@
       "status": "verified",
       "rebuttal": "Geen redundantie maar alternatief-lezing-kanttekening: de noot opent met 'Of, wij Joden van nature, en niet zondaars uit de Heidenen, aangezien wij weten, enz.' — een variante woordvolgorde/vertaling van het vers (SV-kanttekeningfunctie, KANTTEKENINGEN.md). De 4-token-overlap met de hoofdtekst is inherent aan een 'Of,'-vertaalvariant en geen parafrastische herhaling.",
       "verified_at": "2026-05-29T06:49:25+00:00"
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 17,
+      "severity": "soft",
+      "quote_modernized": "  Maar indien wij, die in Christus zoeken gerec…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "GAL-2-17-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-29T08:20:30+00:00"
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 18,
+      "severity": "soft",
+      "quote_modernized": "Want indien ik,   wat ik afgebroken heb,   da…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "GAL-2-18-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-29T08:20:30+00:00"
+    },
+    {
+      "category": "voornaamwoordelijk bijwoord gesplitst",
+      "verse": 19,
+      "severity": "hard",
+      "quote_modernized": "…r hetgeen hij van zichzelf zegt, is ook waar in alle ware gelovigen. Dat is, doo…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'waar in' — SV-gesplitst voornaamwoordelijk bijwoord. Modern Nederlands voegt samen: 'waarin' (bv. daarin, waarmee, hierop).",
+      "proposed_fix": "waarin",
+      "location": "kanttekening",
+      "id": "GAL-2-19-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Scanner-fout: in 2PE 2:19 betekent 'waar in verschillend opzicht' niet het gesplitste voornaamwoordelijke bijwoord 'waarin', maar bijvoeglijk naamwoord 'waar' plus voorzetselgroep 'in verschillend opzicht'. ARCHAISMEN.md SV-syntax is daarom niet van toepassing.",
+      "verified_at": "2026-05-29T08:20:30+00:00"
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 21,
+      "severity": "soft",
+      "quote_modernized": "…   de genade Gods niet   teniet. Want   indien de rechtvaardigheid door de wet i…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "GAL-2-21-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-29T08:20:30+00:00"
     },
     {
       "category": "concordantie-drift",
