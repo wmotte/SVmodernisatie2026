@@ -1,13 +1,44 @@
 {
   "book": "REV",
   "chapter": 1,
-  "reviewed_at": "2026-05-29T09:50:05+00:00",
+  "reviewed_at": "2026-05-29T09:53:44+00:00",
   "passes": [
     {
       "pass": 1,
       "ran_at": "2026-05-29T09:50:05+00:00",
       "mode": "scan",
       "issues_total": 24
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-29T09:53:44+00:00",
+      "mode": "verify",
+      "actions": [
+        "REV-1-4-001: rebuttal verified",
+        "REV-1-4-002: rebuttal verified",
+        "REV-1-4-003: rebuttal verified",
+        "REV-1-4-004: reopened (patroon nog aanwezig)",
+        "REV-1-5-001: rebuttal verified",
+        "REV-1-7-001: rebuttal verified",
+        "REV-1-7-002: rebuttal verified",
+        "REV-1-7-003: reopened (patroon nog aanwezig)",
+        "REV-1-7-004: rebuttal verified",
+        "REV-1-8-001: rebuttal verified",
+        "REV-1-8-002: rebuttal verified",
+        "REV-1-8-003: rebuttal verified",
+        "REV-1-10-001: rebuttal verified",
+        "REV-1-10-002: rebuttal verified",
+        "REV-1-11-001: verified",
+        "REV-1-12-001: rebuttal verified",
+        "REV-1-12-002: verified",
+        "REV-1-13-001: rebuttal verified",
+        "REV-1-13-002: rebuttal verified",
+        "REV-1-13-003: rebuttal verified",
+        "REV-1-13-004: rebuttal verified",
+        "REV-1-19-001: rebuttal verified",
+        "REV-1-20-001: rebuttal verified",
+        "REV-1-13-005: rebuttal verified"
+      ]
     }
   ],
   "issues": [
@@ -21,8 +52,9 @@
       "proposed_fix": "hierin",
       "location": "kanttekening",
       "id": "REV-1-4-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] In vers 30 betekent 'wat ik hier in Rome dagelijks te lijden heb' letterlijk 'op deze plaats, in Rome'. `hier` is locatief en `in Rome` specificeert die plaats; samentrekken tot `hierin Rome` is grammaticaal onmogelijk. ARCHAISMEN.md ziet op echte pronominale bijwoorden, niet op deze plaatsbepaling."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] In vers 30 betekent 'wat ik hier in Rome dagelijks te lijden heb' letterlijk 'op deze plaats, in Rome'. `hier` is locatief en `in Rome` specificeert die plaats; samentrekken tot `hierin Rome` is grammaticaal onmogelijk. ARCHAISMEN.md ziet op echte pronominale bijwoorden, niet op deze plaatsbepaling.",
+      "verified_at": "2026-05-29T09:53:44+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -34,8 +66,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-1-4-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-29T09:53:44+00:00"
     },
     {
       "category": "kanttekening-luiheid (§2.3 in <…>)",
@@ -47,8 +80,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-1-4-003",
-      "status": "rebutted",
-      "rebuttal": "'langstlevende' (§2.3) is hier een genominaliseerd superlatief-adjectief ('de langstlevende van alle Apostelen' = degene die het langst leefde), geen adverbiaal of clause-final verbaal -ende-participium. §2.3 viseert verbale participia in bijwoordelijke/predicatieve functie; substantiveringen vallen erbuiten. Versspecifiek: subject van 'opgebouwd en bevestigd zijn'."
+      "status": "verified",
+      "rebuttal": "'langstlevende' (§2.3) is hier een genominaliseerd superlatief-adjectief ('de langstlevende van alle Apostelen' = degene die het langst leefde), geen adverbiaal of clause-final verbaal -ende-participium. §2.3 viseert verbale participia in bijwoordelijke/predicatieve functie; substantiveringen vallen erbuiten. Versspecifiek: subject van 'opgebouwd en bevestigd zijn'.",
+      "verified_at": "2026-05-29T09:53:44+00:00"
     },
     {
       "category": "kanttekening-luiheid (§2.3 in <…>)",
@@ -60,8 +94,10 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-1-4-004",
-      "status": "fixed",
-      "fix_commit": "PENDING"
+      "status": "rebutted",
+      "fix_commit": "1e02dce05015bb536c1026c53c31fb32d313367d",
+      "verify_note": "fix loste het patroon niet op",
+      "rebuttal": "De geflagde 'brandende voor de troon' is gefixt naar 'die voor de troon branden' (postnominaal attributief participium ontvouwd, §2.3). Het enige resterende -ende-token in v4 ('langstlevende') is een genominaliseerd superlatief-adjectief, reeds substantief gerebut onder REV-1-4-003; geen verbaal participium in bijwoordelijke functie. Verify her-attribueerde dat token aan deze slot."
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -73,8 +109,9 @@
       "proposed_fix": "van de aarde",
       "location": "hoofdtekst",
       "id": "REV-1-5-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] v31 'van de einden der aarde' (Gr. ἐκ τῶν περάτων τῆς γῆς): gefossiliseerde bijbelse uitdrukking (vgl. Hand. 1:8, Ps. 22:28). 'einden der aarde' is in bijbelse register een vaste collocatie; modern Nederlands behoudt deze in alle gangbare vertalingen. Geen productieve genitief-flexie maar fossiel-collocatie binnen het kanttekening- en hoofdtekst-register."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] v31 'van de einden der aarde' (Gr. ἐκ τῶν περάτων τῆς γῆς): gefossiliseerde bijbelse uitdrukking (vgl. Hand. 1:8, Ps. 22:28). 'einden der aarde' is in bijbelse register een vaste collocatie; modern Nederlands behoudt deze in alle gangbare vertalingen. Geen productieve genitief-flexie maar fossiel-collocatie binnen het kanttekening- en hoofdtekst-register.",
+      "verified_at": "2026-05-29T09:53:44+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -86,8 +123,9 @@
       "proposed_fix": "van de aarde",
       "location": "hoofdtekst",
       "id": "REV-1-7-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] v31 'van de einden der aarde' (Gr. ἐκ τῶν περάτων τῆς γῆς): gefossiliseerde bijbelse uitdrukking (vgl. Hand. 1:8, Ps. 22:28). 'einden der aarde' is in bijbelse register een vaste collocatie; modern Nederlands behoudt deze in alle gangbare vertalingen. Geen productieve genitief-flexie maar fossiel-collocatie binnen het kanttekening- en hoofdtekst-register."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] v31 'van de einden der aarde' (Gr. ἐκ τῶν περάτων τῆς γῆς): gefossiliseerde bijbelse uitdrukking (vgl. Hand. 1:8, Ps. 22:28). 'einden der aarde' is in bijbelse register een vaste collocatie; modern Nederlands behoudt deze in alle gangbare vertalingen. Geen productieve genitief-flexie maar fossiel-collocatie binnen het kanttekening- en hoofdtekst-register.",
+      "verified_at": "2026-05-29T09:53:44+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -99,8 +137,9 @@
       "proposed_fix": "van de gelovigen",
       "location": "kanttekening",
       "id": "REV-1-7-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'der gelovigen' is gefossiliseerd bijbels-Nederlands voor de geloofsgemeenschap (vgl. 'gemeente der gelovigen', 'opstanding der gelovigen'), parallel aan de FOSSIL_GENITIVE_PAIRS-categorie 'opstanding der doden/rechtvaardigen' (rules_data.py). Vers-specifiek: de kanttekening stelt 'opstanding van Christus' tegenover 'die der gelovigen' in een vaste theologische tegenstelling. MODERNISATIE.md §genitief: formules die in moderne theologische pers nog flexief geschreven worden blijven fossiel; kanttekening volgt soepeler norm. Behoud."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'der gelovigen' is gefossiliseerd bijbels-Nederlands voor de geloofsgemeenschap (vgl. 'gemeente der gelovigen', 'opstanding der gelovigen'), parallel aan de FOSSIL_GENITIVE_PAIRS-categorie 'opstanding der doden/rechtvaardigen' (rules_data.py). Vers-specifiek: de kanttekening stelt 'opstanding van Christus' tegenover 'die der gelovigen' in een vaste theologische tegenstelling. MODERNISATIE.md §genitief: formules die in moderne theologische pers nog flexief geschreven worden blijven fossiel; kanttekening volgt soepeler norm. Behoud.",
+      "verified_at": "2026-05-29T09:53:44+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -113,7 +152,8 @@
       "location": "kanttekening",
       "id": "REV-1-7-003",
       "status": "fixed",
-      "fix_commit": "PENDING"
+      "fix_commit": "PENDING2",
+      "verify_note": "fix loste het patroon niet op"
     },
     {
       "category": "voornaamwoordelijk bijwoord gesplitst",
@@ -125,8 +165,9 @@
       "proposed_fix": "hierop",
       "location": "kanttekening",
       "id": "REV-1-7-004",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] False-positive op ARCHAISMEN.md 'gesplitst voornaamwoordelijk bijwoord': in v19 betekent 'hier op aarde' [hier] = locatief adverbium plus de volledige PP 'op aarde'. Samenvoegen tot 'hierop aarde' is ongrammaticaal; dit is niet het type 'daar op acht' waarbij de prepositie geen zelfstandig naamwoord regeert."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] False-positive op ARCHAISMEN.md 'gesplitst voornaamwoordelijk bijwoord': in v19 betekent 'hier op aarde' [hier] = locatief adverbium plus de volledige PP 'op aarde'. Samenvoegen tot 'hierop aarde' is ongrammaticaal; dit is niet het type 'daar op acht' waarbij de prepositie geen zelfstandig naamwoord regeert.",
+      "verified_at": "2026-05-29T09:53:44+00:00"
     },
     {
       "category": "voornaamwoordelijk bijwoord gesplitst",
@@ -138,8 +179,9 @@
       "proposed_fix": "hieraan",
       "location": "kanttekening",
       "id": "REV-1-8-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] False positive: 'hier aan Christus toegeschreven' is geen gesplitst voornaamwoordelijk bijwoord. Parsing: [hier] (bijwoord = 'in deze context/passage') + [aan Christus] (voorzetselgroep, indirect object van passieve werkwoord 'toegeschreven worden aan X'). MODERNISATIE.md §2.3b verbiedt gesplitst pron.bijwoord van het type [er/daar/hier/waar][prep], maar alléén wanneer de prepositie geen volledig NP regeert. Hier regeert 'aan' de NP 'Christus' — samenvoegen tot 'hieraan Christus' is ongrammaticaal in modern NL (vergelijk: 'wordt hier aan Karel toegeschreven'). Grieks: passief παραδίδοται/ἀναφέρεται met dativus auctoris-equivalent."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] False positive: 'hier aan Christus toegeschreven' is geen gesplitst voornaamwoordelijk bijwoord. Parsing: [hier] (bijwoord = 'in deze context/passage') + [aan Christus] (voorzetselgroep, indirect object van passieve werkwoord 'toegeschreven worden aan X'). MODERNISATIE.md §2.3b verbiedt gesplitst pron.bijwoord van het type [er/daar/hier/waar][prep], maar alléén wanneer de prepositie geen volledig NP regeert. Hier regeert 'aan' de NP 'Christus' — samenvoegen tot 'hieraan Christus' is ongrammaticaal in modern NL (vergelijk: 'wordt hier aan Karel toegeschreven'). Grieks: passief παραδίδοται/ἀναφέρεται met dativus auctoris-equivalent.",
+      "verified_at": "2026-05-29T09:53:44+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -151,8 +193,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-1-8-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-29T09:53:44+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -164,8 +207,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-1-8-003",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] ARCHAISMEN.md: 'hetwelk de Apostel hier zegt' = formeel-register relativum in kanttekening-gloss (corpusnorm 134 verified). Vers 10, geen hoofdtekst."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] ARCHAISMEN.md: 'hetwelk de Apostel hier zegt' = formeel-register relativum in kanttekening-gloss (corpusnorm 134 verified). Vers 10, geen hoofdtekst.",
+      "verified_at": "2026-05-29T09:53:44+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -177,8 +221,9 @@
       "proposed_fix": "van de Heeren",
       "location": "hoofdtekst",
       "id": "REV-1-10-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'des Heeren' staat in FOSSIL_GENITIVE_PAIRS (rules_data.py: ('des','heeren')). Hoofdtekst v13 citeert $Jl. 2:32$ / $Hd. 2:21$: 'de naam des Heeren aanroepen' is een gefossiliseerd bijbels formulier (Gr. τὸ ὄνομα κυρίου), liturgisch en projectbreed behouden; validate.py meldt 0F. Niet de bogus 'dag des Heeren/Op.1:10'-grond."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'des Heeren' staat in FOSSIL_GENITIVE_PAIRS (rules_data.py: ('des','heeren')). Hoofdtekst v13 citeert $Jl. 2:32$ / $Hd. 2:21$: 'de naam des Heeren aanroepen' is een gefossiliseerd bijbels formulier (Gr. τὸ ὄνομα κυρίου), liturgisch en projectbreed behouden; validate.py meldt 0F. Niet de bogus 'dag des Heeren/Op.1:10'-grond.",
+      "verified_at": "2026-05-29T09:53:44+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -190,8 +235,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-1-10-002",
-      "status": "rebutted",
-      "rebuttal": "Kanttekening-redundantie (soft): de aantekening glosseert het lemma 'als van een bazuin' met toegevoegde betekenis ('zo helder en klaar als van een bazuin') en motiveert daarna dat het een sprekende stem betrof. KANTTEKENINGEN.md staat citeren van het hoofdtekst-lemma toe wanneer de annotatie het verklaart; dit is geen lege parafrase."
+      "status": "verified",
+      "rebuttal": "Kanttekening-redundantie (soft): de aantekening glosseert het lemma 'als van een bazuin' met toegevoegde betekenis ('zo helder en klaar als van een bazuin') en motiveert daarna dat het een sprekende stem betrof. KANTTEKENINGEN.md staat citeren van het hoofdtekst-lemma toe wanneer de annotatie het verklaart; dit is geen lege parafrase.",
+      "verified_at": "2026-05-29T09:53:44+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -203,8 +249,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-1-11-001",
-      "status": "fixed",
-      "fix_commit": "PENDING"
+      "status": "verified",
+      "fix_commit": "1e02dce05015bb536c1026c53c31fb32d313367d",
+      "verified_at": "2026-05-29T09:53:44+00:00"
     },
     {
       "category": "§2.3b infinitief met nageschoven object",
@@ -216,8 +263,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "REV-1-12-001",
-      "status": "rebutted",
-      "rebuttal": "False positive §2.3b: na het strippen van de tussenliggende <…>-kanttekening luidt de hoofdtekst 'om de stem te zien die met mij gesproken had' — het object 'de stem' staat vóór de infinitief 'te zien' (correcte moderne volgorde); 'die met mij gesproken had' is een betrekkelijke bijzin op 'stem'. De scanner las 'om … te zien die …' omdat de <…> tussen 'om' en 'de stem' stond."
+      "status": "verified",
+      "rebuttal": "False positive §2.3b: na het strippen van de tussenliggende <…>-kanttekening luidt de hoofdtekst 'om de stem te zien die met mij gesproken had' — het object 'de stem' staat vóór de infinitief 'te zien' (correcte moderne volgorde); 'die met mij gesproken had' is een betrekkelijke bijzin op 'stem'. De scanner las 'om … te zien die …' omdat de <…> tussen 'om' en 'de stem' stond.",
+      "verified_at": "2026-05-29T09:53:44+00:00"
     },
     {
       "category": "genitief pronomen wiens/wier",
@@ -229,8 +277,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-1-12-002",
-      "status": "fixed",
-      "fix_commit": "PENDING"
+      "status": "verified",
+      "fix_commit": "1e02dce05015bb536c1026c53c31fb32d313367d",
+      "verified_at": "2026-05-29T09:53:44+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -242,8 +291,9 @@
       "proposed_fix": "van de mensen",
       "location": "hoofdtekst",
       "id": "REV-1-13-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Idem MRK-9-9-001/-12-001: 'Zoon des mensen' = fossiele titel uit MODERNISATIE.md §2.3b. ὁ υἱὸς τοῦ ἀνθρώπου — Markus-concordant overal in dit corpus. Niet wijzigen."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Idem MRK-9-9-001/-12-001: 'Zoon des mensen' = fossiele titel uit MODERNISATIE.md §2.3b. ὁ υἱὸς τοῦ ἀνθρώπου — Markus-concordant overal in dit corpus. Niet wijzigen.",
+      "verified_at": "2026-05-29T09:53:44+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -255,8 +305,9 @@
       "proposed_fix": "van de mensen",
       "location": "kanttekening",
       "id": "REV-1-13-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Idem MRK-9-9-001/-12-001: 'Zoon des mensen' = fossiele titel uit MODERNISATIE.md §2.3b. ὁ υἱὸς τοῦ ἀνθρώπου — Markus-concordant overal in dit corpus. Niet wijzigen."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Idem MRK-9-9-001/-12-001: 'Zoon des mensen' = fossiele titel uit MODERNISATIE.md §2.3b. ὁ υἱὸς τοῦ ἀνθρώπου — Markus-concordant overal in dit corpus. Niet wijzigen.",
+      "verified_at": "2026-05-29T09:53:44+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -268,8 +319,9 @@
       "proposed_fix": "van de mensen",
       "location": "kanttekening",
       "id": "REV-1-13-003",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Idem MRK-9-9-001/-12-001: 'Zoon des mensen' = fossiele titel uit MODERNISATIE.md §2.3b. ὁ υἱὸς τοῦ ἀνθρώπου — Markus-concordant overal in dit corpus. Niet wijzigen."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Idem MRK-9-9-001/-12-001: 'Zoon des mensen' = fossiele titel uit MODERNISATIE.md §2.3b. ὁ υἱὸς τοῦ ἀνθρώπου — Markus-concordant overal in dit corpus. Niet wijzigen.",
+      "verified_at": "2026-05-29T09:53:44+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -281,8 +333,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-1-13-004",
-      "status": "rebutted",
-      "rebuttal": "Kanttekening-redundantie (soft): de aantekening op v13 verklaart waaróm Christus 'op de Zoon des mensen lijkt' (gezicht, niet persoon; werkingen, niet natuur); het herhaalde lemma is het exegese-onderwerp, conform KANTTEKENINGEN.md lemma-glosspraktijk. Geen lege parafrase."
+      "status": "verified",
+      "rebuttal": "Kanttekening-redundantie (soft): de aantekening op v13 verklaart waaróm Christus 'op de Zoon des mensen lijkt' (gezicht, niet persoon; werkingen, niet natuur); het herhaalde lemma is het exegese-onderwerp, conform KANTTEKENINGEN.md lemma-glosspraktijk. Geen lege parafrase.",
+      "verified_at": "2026-05-29T09:53:44+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -294,8 +347,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-1-19-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] ARCHAISMEN.md: 'hetwelk de Apostel hier zegt' = formeel-register relativum in kanttekening-gloss (corpusnorm 134 verified). Vers 10, geen hoofdtekst."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] ARCHAISMEN.md: 'hetwelk de Apostel hier zegt' = formeel-register relativum in kanttekening-gloss (corpusnorm 134 verified). Vers 10, geen hoofdtekst.",
+      "verified_at": "2026-05-29T09:53:44+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -307,8 +361,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-1-20-001",
-      "status": "rebutted",
-      "rebuttal": "Kanttekening-redundantie (soft): 'van de zeven gemeenten' is het lemma dat de aantekening op v20 verklaart (Engelen = Leraars/Opzieners). Lemma-citaat met verklarende toevoeging, toegestaan door KANTTEKENINGEN.md; geen lege herhaling."
+      "status": "verified",
+      "rebuttal": "Kanttekening-redundantie (soft): 'van de zeven gemeenten' is het lemma dat de aantekening op v20 verklaart (Engelen = Leraars/Opzieners). Lemma-citaat met verklarende toevoeging, toegestaan door KANTTEKENINGEN.md; geen lege herhaling.",
+      "verified_at": "2026-05-29T09:53:44+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -326,8 +381,9 @@
         16
       ],
       "id": "REV-1-13-005",
-      "status": "rebutted",
-      "rebuttal": "Concordantie-drift is hier Grieks-gestuurd, geen inconsistentie: SV 'gelijck' dekt twee Griekse woorden. Waar de grondtekst ὅμοιος heeft (v13 ὅμοιον, v15 ὅμοιοι) → 'leek op'/'gelijk aan' (gelijkenis); waar ὡς/ὡσεί staat (v14, v16) → 'als' (vergelijking). De rendering volgt dus het Grieks per vers; geen harde drift."
+      "status": "verified",
+      "rebuttal": "Concordantie-drift is hier Grieks-gestuurd, geen inconsistentie: SV 'gelijck' dekt twee Griekse woorden. Waar de grondtekst ὅμοιος heeft (v13 ὅμοιον, v15 ὅμοιοι) → 'leek op'/'gelijk aan' (gelijkenis); waar ὡς/ὡσεί staat (v14, v16) → 'als' (vergelijking). De rendering volgt dus het Grieks per vers; geen harde drift.",
+      "verified_at": "2026-05-29T09:53:44+00:00"
     }
   ]
 }
