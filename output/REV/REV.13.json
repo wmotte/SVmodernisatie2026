@@ -34,6 +34,45 @@
       "generated_at": "2026-05-29T21:09:23.484480Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 4,
+      "original": "Ende <Namel. wel niet in sijne gedaente, gelijck ’t Heydensch Roomsche Rijck in hare afgoden hadde gedaen, maer in den nieuwen beeldendienst, ende andre afgodische wijsen van doen, daer toe sy in dit Rijck vervielen, gelijck hier voren Capit. 9. vers 20. is betuyght: ende de ervarentheyt maer te veel en bewijst> sy aenbaden den Draeck, die het Beest macht gegeven hadde: ende sy aenbaden het Beest, seggende, Wie is dit Beest $Apocal. 18.18.$ gelijck? wie kan krijgh voeren tegen het selve?",
+      "modernized": "En <Namelijk, wel niet in zijn gedaante, zoals het Heidense Roomse Rijk in haar afgoden had gedaan, maar in de nieuwe beeldendienst, en andere afgodische wijzen van doen, waartoe zij in dit Rijk vervielen, zoals hiervoor Capit. 9. vers 20. is betuigd: en de ervaring maar al te veel bewijst.> zij aanbaden de Draak, die het Beest macht gegeven had: en zij aanbaden het Beest, en zeiden: Wie is gelijk aan dit Beest? $Op. 18:18$ wie kan krijg voeren tegen hetzelve?",
+      "source_text": "καὶ προσεκύνησαν τὸν δράκοντα ὃς ἔδωκεν ἐξουσίαν τῷ θηρίῳ, καὶ προσεκύνησαν τὸ θηρίον, λέγοντες, Τίς ὅμοιος τῷ θηρίῳ; τίς δύναται πολεμῆσαι μετ’ αὐτοῦ;",
+      "generated_at": "2026-05-29T21:15:00.773591Z",
+      "model": "claude-opus-4-8[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 5,
+      "original": "Ende ’t selve wiert een mont gegeven, <Siet dergelijcke Dan. 7. vers 8. Het welck van het kleyne hoorn, dat tusschen de andere opgroeyde, wort geseght: het welck na de letter verstaen wort van den Koningh Antiochus, van wiens tyrannije ende afgoderije onder de Ioden veel te lesen is, 1. Machab. capp. 1. 2. ende die vele uytleggers onder de Christenen een figure des Antichrist houden geweest te zijn, die dergelijcke tyrannije ende afgoderije onder de Christenen soude aenrichten ende gebruycken. Siet de verklaringe van dese groote dingen hier voor in de laetste aenteeckeninge op het eerste vers van dit Capittel.> om groote dingen ende [Godts-]lasteringen te spreken: ende ’t selve wiert macht gegeven <And. om krijgh te voeren twee en veertigh maenden, dat is, duysent, twee hondert, ende sestigh dagen, waer van siet de verklaringe op het eerste vers van dit Capittel, ende op Cap. 12. vers 6.> om [sulcks] te doen, $Apocal. 11.2.$ twee ende veertigh maenden.",
+      "modernized": "En aan hetzelve werd een mond gegeven, <Zie dergelijke $Dn. 7:8$ Het welk van de kleine hoorn, die tussen de andere opgroeide, wordt gezegd: hetwelk naar de letter verstaan wordt van de Koning Antiochus, van wiens tirannie en afgoderij onder de Joden veel te lezen is, 1 Makkabeeën hoofdstukken 1 en 2, en die vele uitleggers onder de Christenen voor een figuur van de Antichrist gehouden hebben te zijn geweest, die dergelijke tirannie en afgoderij onder de Christenen zou aanrichten en gebruiken. Zie de verklaring van deze grote dingen hiervoor in de laatste aantekening op het eerste vers van dit Hoofdstuk.> om grote dingen en [Gods-]lasteringen te spreken: en aan hetzelve werd macht gegeven <Anders, om krijg te voeren twee en veertig maanden, dat is, twaalfhonderdzestig dagen, waarvan zie de verklaring op het eerste vers van dit Hoofdstuk, en op Cap. 12. vers 6.> om [zulks] te doen, $Op. 11:2$ tweeënveertig maanden.",
+      "source_text": "καὶ ἐδόθη αὐτῷ στόμα λαλοῦν μεγάλα καὶ βλασφημίας· καὶ ἐδόθη αὐτῷ ἐξουσία ποιῆσαι μῆνας τεσσαράκοντα δύο.",
+      "generated_at": "2026-05-29T21:14:17.361476Z",
+      "model": "claude-opus-4-8[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "niet-canonieke verwijzing 1 Makkabeeën",
+          "context": "eerste kanttekening",
+          "choice": "als proza weergegeven (1 Makkabeeen hoofdstukken 1 en 2)",
+          "alternatives": [
+            "bibref-blok $...$"
+          ],
+          "reason": "bibref.py kent geen apocriefe boeken en parseert 1. Machab. capp. 1. 2. foutief; REV 12 gaf Makkabeeen ook als proza weer"
+        }
+      ]
+    },
+    {
+      "verse_number": 6,
+      "original": "Ende het opende sijnen mont <Namelick, alsoo het hemselven de macht ende namen Godts in der daet toeschrijft. Want hy sit in den tempel Godts, ende verheft hemselven boven al wat Godt genaemt wort, 2.Thessal. 2.4.> tot lasteringe tegen Godt, om sijnen naem te lasteren, ende <Hier door verstaen eenige de ware Kercke Godts, die hy voor kettersch ende verbannen verklaert ende uytkrijt voor de geheele werelt. Andere verstaen hier door het lichaem Christi, het welck een tabernakel van sijne Godtheyt genaemt wort, Ioan. 1.14. Hebr. 9. versen 11, 12. ende het welck door de Misse lasterlick mishandelt wort. Beyde is waerachtigh.> sijnen tabernakel, ende <Dat is, de Engelen, ende salige zielen, die hy, soo veel in hem is, in afgoden verandert, ende met welcke hy geestelijcke hoererije bedrijft: daer mede hy de Koningen ende volcken der aerde droncken maeckt, gelijck hier na Capit. 17. sal worden verklaert. Het welck de meeste kleynigheyt is, ende lasteringe, die hy haer soude konnen aendoen: gelijck Paulus ende Barnabas, wanneer men haer Goddelicke eere wilde aendoen, daer over hare kleederen hebben gescheurt, Actor. cap. 14. vers 14. het welck in ’t hooren van Godtslasteringe plagh te geschieden, als te sien is 2.Reg. 18. vers 37. ende Matth. cap. 26. vers 65.> die in den hemel woonen.",
+      "modernized": "En het opende zijn mond <Namelijk, doordat het zichzelf de macht en namen Gods inderdaad toeschrijft. Want hij zit in de tempel Gods, en verheft zichzelf boven al wat God genoemd wordt, $2Th. 2:4$.> tot lastering tegen God, om zijn naam te lasteren, en <Hierdoor verstaan sommigen de ware Kerk Gods, die hij voor ketters en verbannen verklaart en uitkrijt voor de gehele wereld. Anderen verstaan hierdoor het lichaam van Christus, hetwelk een tabernakel van zijn Godheid genoemd wordt, $Jh. 1:14; Hb. 9:11,12$ en hetwelk door de Mis lasterlijk mishandeld wordt. Beide is waarachtig.> zijn tabernakel, en <Dat is, de Engelen, en zalige zielen, die hij, zoveel in hem is, in afgoden verandert, en met welke hij geestelijke hoererij bedrijft: waarmee hij de Koningen en volken van de aarde dronken maakt, zoals hierna Capit. 17. zal worden verklaard. Hetwelk de grootste kleinigheid is, en lastering, die hij hun zou kunnen aandoen: zoals Paulus en Barnabas, toen men hun Goddelijke eer wilde aandoen, daarover hun klederen hebben gescheurd, $Hd. 14:14$ hetwelk bij het horen van Godslastering placht te gebeuren, zoals te zien is $2Kn. 18:37; Mt. 26:65$.> die in de hemel wonen.",
+      "source_text": "καὶ ἤνοιξε τὸ στόμα αὐτοῦ εἰς βλασφημίαν πρὸς τὸν Θεόν, βλασφημῆσαι τὸ ὄνομα αὐτοῦ, καὶ τὴν σκηνὴν αὐτοῦ, καὶ τοὺς ἐν τῷ οὐρανῷ σκηνοῦντας.",
+      "generated_at": "2026-05-29T21:15:14.394005Z",
+      "model": "claude-opus-4-8[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
