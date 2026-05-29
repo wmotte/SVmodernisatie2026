@@ -1,0 +1,108 @@
+{
+  "book": "2TI",
+  "chapters": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "min_freq": 2,
+  "kinds": [
+    "carryover",
+    "fossiel-lidwoord",
+    "latinaat-window",
+    "cap-asym"
+  ],
+  "total_patterns": 3,
+  "patterns_by_kind": {
+    "cap-asym": [
+      {
+        "pattern_id": "p-0001",
+        "kind": "cap-asym",
+        "key": "apostel",
+        "frequency": 2,
+        "hsv_alternatives": [],
+        "severity_hint": "soft",
+        "occurrences": [
+          {
+            "book": "2TI",
+            "chapter": 1,
+            "verse": 1,
+            "sv2026_excerpt": "Paulus, een Apostel van Jezus Christus,   door de wil van God,…",
+            "hsv_excerpt": "Paulus, door de wil van God een apostel van Jezus Christus met het oog op de belofte van het leven dat in Christus Jezus is,",
+            "original_excerpt": ""
+          },
+          {
+            "book": "2TI",
+            "chapter": 1,
+            "verse": 11,
+            "sv2026_excerpt": "…Waartoe ik   gesteld ben tot een Prediker, en een Apostel, en een Leraar van de Heidenen:",
+            "hsv_excerpt": "  waarvoor ik aangesteld ben als prediker, apostel en leraar van de heidenen.",
+            "original_excerpt": ""
+          }
+        ]
+      },
+      {
+        "pattern_id": "p-0002",
+        "kind": "cap-asym",
+        "key": "heidenen",
+        "frequency": 2,
+        "hsv_alternatives": [],
+        "severity_hint": "soft",
+        "occurrences": [
+          {
+            "book": "2TI",
+            "chapter": 1,
+            "verse": 11,
+            "sv2026_excerpt": "…en Prediker, en een Apostel, en een Leraar van de Heidenen:",
+            "hsv_excerpt": "  waarvoor ik aangesteld ben als prediker, apostel en leraar van de heidenen.",
+            "original_excerpt": ""
+          },
+          {
+            "book": "2TI",
+            "chapter": 4,
+            "verse": 17,
+            "sv2026_excerpt": "…le verzekerd zou zijn van de prediking, en   alle Heidenen dezelfde zouden horen: en ik ben   uit de…",
+            "hsv_excerpt": "Maar de Heere heeft mij bijgestaan en heeft mij kracht gegeven, opdat door mij de prediking volbracht zou worden en alle heidenen die zouden",
+            "original_excerpt": ""
+          }
+        ]
+      }
+    ],
+    "carryover": [
+      {
+        "pattern_id": "p-0003",
+        "kind": "carryover",
+        "key": "geve",
+        "frequency": 2,
+        "hsv_alternatives": [
+          "moge",
+          "bemoedigd",
+          "bewijzen",
+          "boeien",
+          "beste",
+          "hoezeer"
+        ],
+        "severity_hint": "soft",
+        "occurrences": [
+          {
+            "book": "2TI",
+            "chapter": 1,
+            "verse": 16,
+            "sv2026_excerpt": "De Heere geve   het huis   van Onesiforus   barmhartigheid:…",
+            "hsv_excerpt": "Moge de Heere aan het huis van   Onesiforus barmhartigheid bewijzen, want hij heeft mij vaak bemoedigd en heeft zich voo",
+            "original_excerpt": "De Heere geve   den huyse   Onesiphori   barmhertigheyt: want hy heeft my dickmael   verquickt, ende heeft sich   mijner"
+          },
+          {
+            "book": "2TI",
+            "chapter": 1,
+            "verse": 18,
+            "sv2026_excerpt": "De Heere geve hem   dat hij barmhartigheid vindt   bij de H…",
+            "hsv_excerpt": "Moge de Heere hem geven dat hij barmhartigheid vindt bij de Heere op die dag. En hoezeer hij in Efeze gediend heeft, wee",
+            "original_excerpt": "De Heere geve hem   dat hy barmhertigheyt vinde   by den Heere,   in dien dagh: ende hoe vele hy my   te Ephesen gedient"
+          }
+        ]
+      }
+    ]
+  }
+}

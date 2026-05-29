@@ -1,0 +1,22 @@
+{
+  "book": "TIT",
+  "generated_at": "2026-05-29T04:50:21Z",
+  "min_freq": 2,
+  "note": "Aggregator op --min-freq 2 leverde 0 cross-chapter patterns (TIT 1-3 is te kort voor recurrentie). Onderstaande bucket-B-issue komt uit de min-freq-1 doorlichting: een per-vers residu-archaisme dat los van frequentie een gemiste modernisatie-fix is, bevestigd door SV-interne inconsistentie + HSV + modern-NL.",
+  "issues": [
+    {
+      "id": "META-TIT-1-9-001",
+      "verse": 9,
+      "chapter": 1,
+      "category": "carryover",
+      "severity": "hard",
+      "quote_modernized": "opdat hij in staat is zowel te vermanen door de gezonde leer, als de tegensprekers <...> te wederleggen.",
+      "hsv_quote": "zodat hij bij machte is anderen te bemoedigen op grond van de gezonde leer en de tegensprekers te weerleggen.",
+      "rule_reference": "MODERNISATIE.md §2.7 (drempel-archaisme: weder- > weer-)",
+      "explanation": "De hoofdtekst behield de archaische vorm 'wederleggen'. Modern Nederlands is 'weerleggen'. SV-intern inconsistent: in de kanttekening bij TIT 1:11 schreef de modernisatie zelf al 'met weerlegging van hun valse leringen' (moderne weer-vorm). HSV gebruikt eveneens 'weerleggen'. De archaische weder-vorm is hier dus een residu, geen bewuste keuze.",
+      "proposed_fix": "opdat hij in staat is zowel te vermanen door de gezonde leer, als de tegensprekers <...> te weerleggen.",
+      "location": "hoofdtekst",
+      "status": "open"
+    }
+  ]
+}
