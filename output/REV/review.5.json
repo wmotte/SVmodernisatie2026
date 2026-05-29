@@ -1,0 +1,102 @@
+{
+  "book": "REV",
+  "chapter": 5,
+  "reviewed_at": "2026-05-29T11:37:29+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-29T11:37:29+00:00",
+      "mode": "scan",
+      "issues_total": 6
+    }
+  ],
+  "issues": [
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 1,
+      "severity": "soft",
+      "quote_modernized": "… die daarna aan Johannes bekend te maken, welke in dit hoofdstuk wordt vertoond,…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "REV-5-1-001",
+      "status": "fixed",
+      "fix_commit": "PENDING",
+      "resolution": "Relativum 'welke' → 'die'/'dat' gemoderniseerd (ARCHAISMEN.md SV-syntax). v1-kt + v8-kt 'welke'→'die'; v8-hoofdtekst 'welke zijn'→'dat zijn' (identificatie, vgl. HSV). Re-validate PASS 0F."
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 1,
+      "severity": "soft",
+      "quote_modernized": "van binnen en van",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'van binnen en van' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "REV-5-1-002",
+      "status": "rebutted",
+      "rebuttal": "Geen redundantie: de kanttekening 'Of, van binnen en van achteren' is een alternatieve-vertaling-gloss (SV 'Ofte, van binnen ende van achteren') die een ANDERE weergave biedt dan de hoofdtekst 'van binnen en van buiten' — substantieve brontaal-variant, geen parafrastische herhaling. KANTTEKENINGEN.md redundantie-regel viseert parafrase, niet variant-vertalingen ingeleid met 'Of,'."
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 8,
+      "severity": "soft",
+      "quote_modernized": "…en gouden schalen die vol reukwerk waren,   welke zijn   de gebeden van de heili…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "REV-5-8-001",
+      "status": "fixed",
+      "fix_commit": "PENDING",
+      "resolution": "Relativum 'welke' → 'die'/'dat' gemoderniseerd (ARCHAISMEN.md SV-syntax). v1-kt + v8-kt 'welke'→'die'; v8-hoofdtekst 'welke zijn'→'dat zijn' (identificatie, vgl. HSV). Re-validate PASS 0F."
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 8,
+      "severity": "soft",
+      "quote_modernized": "…id, zoals te zien is $Ps. 141:2$. Dat is, welke de gebeden van de heiligen aandu…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "REV-5-8-002",
+      "status": "fixed",
+      "fix_commit": "PENDING",
+      "resolution": "Relativum 'welke' → 'die'/'dat' gemoderniseerd (ARCHAISMEN.md SV-syntax). v1-kt + v8-kt 'welke'→'die'; v8-hoofdtekst 'welke zijn'→'dat zijn' (identificatie, vgl. HSV). Re-validate PASS 0F."
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 8,
+      "severity": "soft",
+      "quote_modernized": "de gebeden van de",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'de gebeden van de' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "REV-5-8-003",
+      "status": "rebutted",
+      "rebuttal": "Geen redundantie: 'Dat is, die de gebeden van de heiligen aanduiden' is een interpretatieve gloss die de SYMBOLIEK van de gouden schalen reukwerk verklaart (schalen = gebeden), niet de hoofdtekst herhaalt. Het werkwoord 'aanduiden' draagt de exegese (vgl. $Ps. 141:2$). KANTTEKENINGEN.md redundantie-regel viseert woordelijke parafrase, niet uitleg van beeldspraak."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 2,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'weerdig' in 4 verzen — verzen [2, 9, 12] renderen het stam anders dan [4]",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 4 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        2,
+        4,
+        9,
+        12
+      ],
+      "id": "REV-5-2-001",
+      "status": "rebutted",
+      "rebuttal": "False-positive prefix-heuristiek: alle vier verzen renderen de stam 'weerdig' consistent als 'waardig' (v2 'waardig', v9 'waardig', v12 'waardig'). v4 'waardig bevonden' wijkt niet af in de stam — het extra participium 'bevonden' is brongedreven: SV1657 'weerdigh bevonden' < Grieks ἄξιος εὑρέθη ('werd waardig bevonden'). De scanner ziet de toegevoegde 'bevonden' aan als drift; de concordantie van 'waardig' is juist intact."
+    }
+  ]
+}
