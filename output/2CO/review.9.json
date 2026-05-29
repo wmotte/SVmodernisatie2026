@@ -1,0 +1,136 @@
+{
+  "book": "2CO",
+  "chapter": 9,
+  "reviewed_at": "2026-05-29T05:39:12+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-29T05:36:48+00:00",
+      "mode": "scan",
+      "issues_total": 4
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-29T05:37:48+00:00",
+      "mode": "scan",
+      "issues_total": 4
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-05-29T05:39:12+00:00",
+      "mode": "in-context",
+      "issues_total": 8
+    }
+  ],
+  "issues": [
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 10,
+      "severity": "soft",
+      "quote_modernized": "ook brood tot voedsel",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'ook brood tot voedsel' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "2CO-9-10-001",
+      "status": "rebutted",
+      "rebuttal": "Geen overtreding van KANTTEKENINGEN.md redundantie-regel: deze kanttekening geeft geen alternatief woord voor de hoofdtekst, maar citeert een alternatieve lezing/onderscheiding van de Griekse woordgroep καὶ ἄρτον εἰς βρῶσιν χορηγῆσαι καὶ πληθῦναι. Omdat MODERNISATIE.md §2.6 het aantal en de positie van kanttekeningen bewaart, moet de geciteerde frase 'En ook brood tot voedsel; moge hij verlenen en vermenigvuldigen' hier inhoudelijk dicht bij de hoofdtekst blijven."
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 12,
+      "severity": "soft",
+      "quote_modernized": "…en genoemd worden, $Fp. 4:18; Hb. 13:16$, welke betekenis daarom hier ook niet v…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "2CO-9-12-001",
+      "status": "rebutted",
+      "rebuttal": "De hit leest 'welke' te breed als zelfstandig relativum. In 2Kor. 9:12 staat het attributief bij 'betekenis' in een metatalige kanttekening over het Griekse λειτουργίας: 'welke betekenis daarom hier ook niet verkeerd past'. Dit is geen lopende hoofdtekst-syntaxis maar een technische uitleg van de betekenisoptie 'offerdienst'; KANTTEKENINGEN.md laat zulke verklarende kanttekeningtekst staan zolang zij wordt gemoderniseerd."
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 13,
+      "severity": "soft",
+      "quote_modernized": "aan het evangelie van",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'aan het evangelie van' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "2CO-9-13-001",
+      "status": "rebutted",
+      "rebuttal": "Geen redundantie in de zin van KANTTEKENINGEN.md: de kanttekening geeft niet een alternatief dat in de hoofdtekst is overgenomen, maar ontvouwt de compacte genitiefconstructie 'onderwerping van uw belijdenis aan het Evangelie van Christus' (Grieks: τῇ ὑποταγῇ τῆς ὁμολογίας ὑμῶν εἰς τὸ εὐαγγέλιον τοῦ Χριστοῦ). De herhaling van 'aan het Evangelie van Christus' is hier noodzakelijk om de verklaarde constructie versspecifiek te identificeren; de extra inhoud is 'openlijk belijdt of getuigt' en 'werken van de liefde'."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 3,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'gelijck' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        3,
+        7,
+        9
+      ],
+      "id": "2CO-9-3-001",
+      "status": "rebutted",
+      "rebuttal": "Scanner-false-positive: de drie betrokken verzen zijn juist concordant. 2Kor. 9:3 'gelijck ick geseght hebbe', 9:7 'gelijck hy ... voorneemt' en 9:9 'Gelijck'er geschreven is' corresponderen alle drie met Grieks καθὼς en zijn in de modernisering telkens als 'zoals' weergegeven. Dit voldoet aan AGENTS.md concordantie; er is geen harmonisatie nodig."
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 1,
+      "severity": "hard",
+      "quote_modernized": "al lang volvaardig waren geweest",
+      "rule_reference": "MODERNISATIE.md §2.7; ARCHAISMEN.md drempeltests",
+      "explanation": "'volvaardig' is geen productief hedendaags Nederlands. Versspecifiek valt op dat dezelfde SV-stam 'volveerdigh/volveerdigheyt' in 2Kor. 9:2 wél modern is weergegeven als 'bereidwilligheid'; in deze kanttekening blijft de archaïsche vorm staan.",
+      "proposed_fix": "al lang bereidwillig waren geweest",
+      "location": "kanttekening",
+      "id": "2CO-9-1-001",
+      "status": "fixed",
+      "fix_commit": "2977e3f3308cb030cff8d42da45947a40b3d2185"
+    },
+    {
+      "category": "§2.7 false friend / drempel-archaïsme",
+      "verse": 1,
+      "severity": "hard",
+      "quote_modernized": "voldoende voorzichtigheid hadden, om dit goed en behoorlijk te doen",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "MODERNISATIE.md §2.7 noemt 'voorzichtigheid' in oude betekenis expliciet als drempelrisico. In deze kanttekening betekent SV 'voorsichtigheyt' niet primair moderne voorzichtigheid/cautie, maar prudent beleid/zorgvuldigheid om de collecte behoorlijk af te handelen.",
+      "proposed_fix": "voldoende zorgvuldigheid hadden om dit goed en behoorlijk te doen",
+      "location": "kanttekening",
+      "id": "2CO-9-1-002",
+      "status": "fixed",
+      "fix_commit": "2977e3f3308cb030cff8d42da45947a40b3d2185"
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 8,
+      "severity": "hard",
+      "quote_modernized": "alle genoegzaamheid hebt",
+      "rule_reference": "MODERNISATIE.md §2.7; docs/diff_hsv_2CO_9.json",
+      "explanation": "'genoegzaamheid' leest in 2026 bijbels-formeel en niet productief. De Griekse term αὐτάρκεια vraagt hier om 'voldoende/het nodige hebben'; de HSV-spiegel geeft eveneens 'al het nodige bezit' zonder inhoudelijke parafrase.",
+      "proposed_fix": "alles hebt wat nodig is",
+      "location": "hoofdtekst",
+      "id": "2CO-9-8-001",
+      "status": "fixed",
+      "fix_commit": "2977e3f3308cb030cff8d42da45947a40b3d2185"
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 11,
+      "severity": "hard",
+      "quote_modernized": "bij de armen en gebreklijdenden",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'gebreklijdenden' is een SV-registerwoord uit 'gebrecklijdende' en faalt de productiviteitstest; een moderne lezer gebruikt spontaan 'behoeftigen' of 'mensen die gebrek lijden'.",
+      "proposed_fix": "bij de armen en behoeftigen",
+      "location": "kanttekening",
+      "id": "2CO-9-11-001",
+      "status": "fixed",
+      "fix_commit": "2977e3f3308cb030cff8d42da45947a40b3d2185"
+    }
+  ]
+}
