@@ -61,6 +61,33 @@
       "generated_at": "2026-05-30T17:00:08.813671Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 7,
+      "original": "Dese quam tot een getuygenisse, om van <D. van dat eeuwigh Woort, waer door de menschen oock ter saligheyt verlicht worden.> het licht te getuygen, op dat sy alle <Namelick, Ioannem, gelijck 1.Corinth. 3.5.> door hem gelooven souden.",
+      "modernized": "Deze kwam tot een getuigenis, om van <Dat is, van dat eeuwige Woord, waardoor de mensen ook tot zaligheid verlicht worden.> het licht te getuigen, opdat zij allen <Namelijk, Johannes, zoals $1Kor. 3:5$.> door hem zouden geloven.",
+      "source_text": "οὗτος ἦλθεν εἰς μαρτυρίαν, ἵνα μαρτυρήσῃ περὶ τοῦ φωτός, ἵνα πάντες πιστεύσωσι δι’ αὐτοῦ.",
+      "generated_at": "2026-05-30T17:03:30.769246Z",
+      "model": "claude-opus-4-8[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 8,
+      "original": "Hy en was het licht niet, maer [was gesonden] op dat hy van het licht getuygen soude.",
+      "modernized": "Hij was het licht niet, maar [was gezonden] opdat hij van het licht zou getuigen.",
+      "source_text": "οὐκ ἦν ἐκεῖνος τὸ φῶς, ἀλλ’ ἵνα μαρτυρήσῃ περὶ τοῦ φωτός.",
+      "generated_at": "2026-05-30T17:03:57.394106Z",
+      "model": "claude-opus-4-8[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 9,
+      "original": "$Ioan. 8.12. ende 9.5. ende 12.46.$ [Dit] was het waerachtige licht, het welck <Namel. met reden ende verstant.> verlicht <Gr. alle.> een yegelick mensche <Namel. door de natuerlicke geboorte, gelijck Ioan. 18. vers 37.> komende in de werelt.",
+      "modernized": "$Jh. 8:12; 9:5; 12:46$ [Dit] was het waarachtige licht, dat <Namelijk, met reden en verstand.> verlicht <Grieks: alle.> ieder mens <Namelijk, door de natuurlijke geboorte, zoals $Jh. 18:37$.> die in de wereld komt.",
+      "source_text": "ἦν τὸ φῶς τὸ ἀληθινόν, ὃ φωτίζει πάντα ἄνθρωπον ἐρχόμενον εἰς τὸν κόσμον.",
+      "generated_at": "2026-05-30T17:04:41.931653Z",
+      "model": "claude-opus-4-8[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
