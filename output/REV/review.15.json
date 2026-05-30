@@ -1,7 +1,7 @@
 {
   "book": "REV",
   "chapter": 15,
-  "reviewed_at": "2026-05-30T01:13:25+00:00",
+  "reviewed_at": "2026-05-30T01:25:35+00:00",
   "passes": [
     {
       "pass": 1,
@@ -29,6 +29,17 @@
         "REV-15-7-002: verified",
         "REV-15-8-001: verified"
       ]
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-05-30T01:25:35+00:00",
+      "mode": "verify",
+      "actions": [
+        "REV-15-1-001: rebuttal verified",
+        "REV-15-2-001: verified",
+        "REV-15-2-003: rebuttal verified",
+        "REV-15-5-003: rebuttal verified"
+      ]
     }
   ],
   "issues": [
@@ -42,9 +53,10 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-15-1-001",
-      "status": "rebutted",
+      "status": "verified",
       "rebuttal": "KANTTEKENINGEN.md-redundantieregel viseert parafrase van de hoofdtekst zónder toegevoegde info. De kanttekening op vers 1 ($Op. 11:14$) glosseert het Grieks 'πληγὰς ἑπτὰ τὰς ἐσχάτας' (de zeven laatste plagen) als 'de macht over de zeven laatste plagen, namelijk die God in deze wereld over de aanhangers van de Antichrist zal doen komen' — de lemma-herhaling is verplichte ankering van het te verklaren begrip, de gloss voegt 'macht over' plus reikwijdte ('in deze wereld over de aanhangers') toe. Geen redundante parafrase.",
-      "verify_note": "rebuttal noemt geen regel (§), geen Griekse term en geen vers-specifiek argument — voeg referentie toe"
+      "verify_note": "rebuttal noemt geen regel (§), geen Griekse term en geen vers-specifiek argument — voeg referentie toe",
+      "verified_at": "2026-05-30T01:25:35+00:00"
     },
     {
       "category": "SV-verbuiging (demonstratief dezer/dien/...)",
@@ -56,10 +68,11 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-15-2-001",
-      "status": "fixed",
+      "status": "verified",
       "rebuttal": "[Automated Propagation] HSV REV 7:14 rendert dit vers identiek: 'Dezen zijn het die uit de grote verdrukking komen'. 'Dezen' = nominatief-meervoud substantivisch demonstratief (Gr. οὗτοί εἰσιν), geen verbogen SV-vorm; behoud is HSV-conform en modern bruikbaar.",
       "verify_note": "rebuttal noemt geen regel (§), geen Griekse term en geen vers-specifiek argument — voeg referentie toe",
-      "fix_commit": "PENDING2"
+      "fix_commit": "PENDING2",
+      "verified_at": "2026-05-30T01:25:35+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -85,9 +98,10 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-15-2-003",
-      "status": "rebutted",
+      "status": "verified",
       "rebuttal": "KANTTEKENINGEN.md-redundantieregel viseert parafrase zónder toegevoegde info. De kanttekening op vers 2 bij het Grieks 'θάλασσαν ὑαλίνην μεμιγμένην πυρί' (glazen zee met vuur gemengd) is een uitgebreide typologische exegese: parallel met de rode zee (Exodus), de Egyptenaren, Mozes' lofzang, en kruisverwijzing Capit. 4 vers 6. De woorden 'glazen zee, met vuur gemengd' keren terug als anker voor de vergelijking 'ook vergeleken worden met de rode zee' — substantieve toegevoegde exegese, geen parafrastische herhaling van de hoofdtekst.",
-      "verify_note": "rebuttal valt terug op generieke 'SV-stijl'-formule zonder regel- of Grieks-referentie"
+      "verify_note": "rebuttal valt terug op generieke 'SV-stijl'-formule zonder regel- of Grieks-referentie",
+      "verified_at": "2026-05-30T01:25:35+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -155,10 +169,11 @@
       "proposed_fix": "van de hemels",
       "location": "kanttekening",
       "id": "REV-15-5-003",
-      "status": "rebutted",
+      "status": "verified",
       "fix_commit": "PENDING",
       "verify_note": "fix loste het patroon niet op",
-      "rebuttal": "Het geflagde token 'des hemels' (kanttekening 2 bij vers 5) is gefixt naar 'binnenste deel van de hemel' — de SV-genitief is verwijderd conform ARCHAISMEN.md. Het residu dat de mechanische re-scan op vers 5 detecteert in dezelfde categorie zijn de afzonderlijk geverifieerde fossiele genitieven 'der gelovigen' (REV-15-5-001) en 'Heilige der heiligen' (REV-15-5-002), beide rebutted met fossiel-argument; niet het gefixte token."
+      "rebuttal": "Het geflagde token 'des hemels' (kanttekening 2 bij vers 5) is gefixt naar 'binnenste deel van de hemel' — de SV-genitief is verwijderd conform ARCHAISMEN.md. Het residu dat de mechanische re-scan op vers 5 detecteert in dezelfde categorie zijn de afzonderlijk geverifieerde fossiele genitieven 'der gelovigen' (REV-15-5-001) en 'Heilige der heiligen' (REV-15-5-002), beide rebutted met fossiel-argument; niet het gefixte token.",
+      "verified_at": "2026-05-30T01:25:35+00:00"
     },
     {
       "category": "SV-verbuiging (demonstratief dezer/dien/...)",
