@@ -1,7 +1,7 @@
 {
   "book": "REV",
   "chapter": 20,
-  "reviewed_at": "2026-05-30T06:13:09+00:00",
+  "reviewed_at": "2026-05-30T06:15:49+00:00",
   "passes": [
     {
       "pass": 1,
@@ -43,6 +43,25 @@
     {
       "pass": 3,
       "ran_at": "2026-05-30T06:13:09+00:00",
+      "mode": "verify",
+      "actions": []
+    },
+    {
+      "pass": 4,
+      "ran_at": "2026-05-30T06:15:44+00:00",
+      "mode": "verify",
+      "actions": [
+        "REV-20-3-003: rebuttal verified",
+        "REV-20-4-003: rebuttal verified",
+        "REV-20-8-002: verified",
+        "REV-20-8-004: rebuttal verified",
+        "REV-20-2-002: rebuttal verified",
+        "REV-20-5-001: rebuttal verified"
+      ]
+    },
+    {
+      "pass": 5,
+      "ran_at": "2026-05-30T06:15:49+00:00",
       "mode": "verify",
       "actions": []
     }
@@ -143,8 +162,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-20-3-003",
-      "status": "rebutted",
-      "rebuttal": "KANTTEKENINGEN.md lemma-gloss: de kanttekening op vers 3 verklaart het lemma \"de volken niet meer zou verleiden\"; het hernemen van dit lemma is per KANTTEKENINGEN.md inherent aan de glossvorm (de gloss citeert wat zij toelicht). De n-gram-overlap \"hij de volken niet\" is geen redundante toevoeging maar het verklaarde tekstdeel zelf — soft scanner-FP."
+      "status": "verified",
+      "rebuttal": "KANTTEKENINGEN.md lemma-gloss: de kanttekening op vers 3 verklaart het lemma \"de volken niet meer zou verleiden\"; het hernemen van dit lemma is per KANTTEKENINGEN.md inherent aan de glossvorm (de gloss citeert wat zij toelicht). De n-gram-overlap \"hij de volken niet\" is geen redundante toevoeging maar het verklaarde tekstdeel zelf — soft scanner-FP.",
+      "verified_at": "2026-05-30T06:15:44+00:00"
     },
     {
       "category": "voornaamwoordelijk bijwoord gesplitst",
@@ -184,8 +204,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-20-4-003",
-      "status": "rebutted",
-      "rebuttal": "KANTTEKENINGEN.md lemma-gloss: de kanttekening op vers 4 over de onthoofden citeert het lemma \"om het getuigenis van\" dat zij toelicht (parallel Cap. 3 vers 21 / Mt. 19:28). Lemma-herhaling is per KANTTEKENINGEN.md inherent aan de glossvorm, geen redundante doublure — soft scanner-FP."
+      "status": "verified",
+      "rebuttal": "KANTTEKENINGEN.md lemma-gloss: de kanttekening op vers 4 over de onthoofden citeert het lemma \"om het getuigenis van\" dat zij toelicht (parallel Cap. 3 vers 21 / Mt. 19:28). Lemma-herhaling is per KANTTEKENINGEN.md inherent aan de glossvorm, geen redundante doublure — soft scanner-FP.",
+      "verified_at": "2026-05-30T06:15:44+00:00"
     },
     {
       "category": "SV-verbuiging (demonstratief dezer/dien/...)",
@@ -226,9 +247,10 @@
       "proposed_fix": "van de Machabeeën",
       "location": "kanttekening",
       "id": "REV-20-8-002",
-      "status": "fixed",
+      "status": "verified",
       "rebuttal": null,
-      "fix_note": "ARCHAISMEN.md verbogen lidwoord: \"boek der Machabeeën\" → \"boek van de Machabeeën\"; genitief-lidwoord der vervangen door van de, root-cause fix conform ARCHAISMEN.md (geen FOSSIL_GENITIVE_PAIR voor deze boektitel)."
+      "fix_note": "ARCHAISMEN.md verbogen lidwoord: \"boek der Machabeeën\" → \"boek van de Machabeeën\"; genitief-lidwoord der vervangen door van de, root-cause fix conform ARCHAISMEN.md (geen FOSSIL_GENITIVE_PAIR voor deze boektitel).",
+      "verified_at": "2026-05-30T06:15:44+00:00"
     },
     {
       "category": "genitief pronomen wiens/wier",
@@ -255,8 +277,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-20-8-004",
-      "status": "rebutted",
-      "rebuttal": "KANTTEKENINGEN.md lemma-gloss: de kanttekening op vers 8 over Gog en Magog herneemt het lemma \"de vier hoeken van\" uit de hoofdtekst dat zij toelicht. Per KANTTEKENINGEN.md hoort de gloss het lemma te citeren; dit is geen redundantie maar de glossvorm zelf — soft scanner-FP."
+      "status": "verified",
+      "rebuttal": "KANTTEKENINGEN.md lemma-gloss: de kanttekening op vers 8 over Gog en Magog herneemt het lemma \"de vier hoeken van\" uit de hoofdtekst dat zij toelicht. Per KANTTEKENINGEN.md hoort de gloss het lemma te citeren; dit is geen redundantie maar de glossvorm zelf — soft scanner-FP.",
+      "verified_at": "2026-05-30T06:15:44+00:00"
     },
     {
       "category": "archaïsch pronomen (dezelve/denzelven)",
@@ -375,8 +398,9 @@
         7
       ],
       "id": "REV-20-2-002",
-      "status": "rebutted",
-      "rebuttal": "MODERNISATIE.md orthografische normalisatie: origineel-stam \"duysent\" wordt in vers 2 én alle 6 voorkomens (intro, v1-8) consistent \"duizend\"; de concordantie-scanner vergelijkt prefix \"duys\" met modern \"duiz\" en mist de MODERNISATIE.md-overgangen uy→ui en s→z. Geen werkelijke drift — soft scanner-heuristiek-FP."
+      "status": "verified",
+      "rebuttal": "MODERNISATIE.md orthografische normalisatie: origineel-stam \"duysent\" wordt in vers 2 én alle 6 voorkomens (intro, v1-8) consistent \"duizend\"; de concordantie-scanner vergelijkt prefix \"duys\" met modern \"duiz\" en mist de MODERNISATIE.md-overgangen uy→ui en s→z. Geen werkelijke drift — soft scanner-heuristiek-FP.",
+      "verified_at": "2026-05-30T06:15:44+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -413,8 +437,9 @@
         14
       ],
       "id": "REV-20-5-001",
-      "status": "rebutted",
-      "rebuttal": "MODERNISATIE.md orthografische normalisatie: origineel-stam \"wierden\" wordt in vers 5 én alle voorkomens (v4, v5, v12, v13) consistent \"werden\"; de concordantie-scanner vergelijkt prefix \"wier\" met modern \"werd\" en mist de MODERNISATIE.md-overgang ie→e. Geen werkelijke drift — soft scanner-heuristiek-FP."
+      "status": "verified",
+      "rebuttal": "MODERNISATIE.md orthografische normalisatie: origineel-stam \"wierden\" wordt in vers 5 én alle voorkomens (v4, v5, v12, v13) consistent \"werden\"; de concordantie-scanner vergelijkt prefix \"wier\" met modern \"werd\" en mist de MODERNISATIE.md-overgang ie→e. Geen werkelijke drift — soft scanner-heuristiek-FP.",
+      "verified_at": "2026-05-30T06:15:44+00:00"
     }
   ]
 }
