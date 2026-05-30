@@ -176,6 +176,40 @@
       "generated_at": "2026-05-30T05:54:40.516149Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 19,
+      "original": "Ende <Namelick, tot een bysonder teecken van grooten rouwe ende droefheyt over haer verlies, gelijck by den ouden gebruycklick was, 1.Sam. cap. 4. vers 12. Iob 2. vers 12. ende gelijck van de stierlieden ende zeelieden van Tyrus oock geseght wort, Ezech. cap. 27. versen 30, 31. Hoewel desen haren rouwe hem niet en streckt over hare sonden, ende superstitieuse Godtsdiensten, daer sy in verhardt zijn, maer alleen over haer verlies ende schade.> sy wierpen stof op hare hoofden, ende riepen, weenende, ende rouwe bedrijvende: seggende, Wee, wee, de groote stadt, in dewelcke alle, die schepen in de zee hadden, van hare kostelickheyt rijck geworden zijn, want sy is in eene ure verwoest geworden.",
+      "modernized": "En <Namelijk, tot een bijzonder teken van grote rouw en droefheid over haar verlies, zoals bij de ouden gebruikelijk was, $1Sm. 4:12; Jb. 2:12$ en zoals van de stuurlieden en zeelieden van Tyrus ook gezegd wordt, $Ez. 27:30,31$. Hoewel deze hun rouw hun niet strekt over hun zonden, en bijgelovige godsdiensten, waarin zij verhard zijn, maar alleen over hun verlies en schade.> wierpen zij stof op hun hoofden, en riepen, terwijl zij weenden, en rouw bedreven, en zeiden, Wee, wee, de grote stad, in welke allen, die schepen in de zee hadden, rijk geworden zijn van haar kostbaarheid, want zij is in één uur verwoest geworden.",
+      "source_text": "καὶ ἔβαλον χοῦν ἐπὶ τὰς κεφαλὰς αὐτῶν, καὶ ἔκραζον κλαίοντες καὶ πενθοῦντες, λέγοντες, Οὐαί, οὐαί, ἡ πόλις ἡ μεγάλη, ἐν ᾗ ἐπλούτησαν πάντες οἱ ἔχοντες πλοῖα ἐν τῇ θαλάσσῃ ἐκ τῆς τιμιότητος αὐτῆς, ὅτι μιᾷ ὥρᾳ ἠρημώθη.",
+      "generated_at": "2026-05-30T05:59:10.850943Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 20,
+      "original": "<Dat is, ghy inwoonders des hemels, Engelen, ende heylige Martelaren: die om dese uytvoeringe van Godts oordeelen, tot rechtveerdighmakinge harer sake, oock gebeden hebben, Cap. 6. vers 10. welcker getal nu dagelicks wort vervult. Het welck nochtans alsoo niet en is te verstaen, als of de hemelsche creaturen, ofte Godts Kercke, haer moesten verheugen over yemants ongeval, maer over de uytvoeringe van Godts rechtveerdigheyt, ende over de bewijsinge van de rechtveertdigheyt der sake voor welcke de geloovige hier lijden.> Bedrijft vreughde over haer ghy hemel, ende <Hier door worden verstaen niet alleen de Apostelen ende Propheten alsoo eygentlick genoemt, die als leden van een lichaem, ende een gemeyne sake hebbende, haer oock hier over souden verblijden: maer oock de Dienaren ende Leeraren der volgende tijden, die na het exempel der vorige, oock het selve soude over komen.> ghy heylige Apostelen ende ghy Propheten, want Godt heeft <Dat is, u aen haer gewroken.> uw’ oordeel $Apoc. cap. 19. vers 2.$ aen haer geoordeelt.",
+      "modernized": "<Dat is, u inwoners des hemels, Engelen, en heilige Martelaren: die om deze uitvoering van Gods oordelen, tot rechtvaardigmaking van hun zaak, ook gebeden hebben, $Op. 6:10$ welker getal nu dagelijks wordt vervuld. Hetwelk evenwel alzo niet is te verstaan, alsof de hemelse schepselen, of Gods Kerk, zich moesten verheugen over iemands ongeval, maar over de uitvoering van Gods rechtvaardigheid, en over de bewijzing van de rechtvaardigheid der zaak voor welke de gelovigen hier lijden.> Bedrijf vreugde over haar, u hemel, en <Hierdoor worden verstaan niet alleen de Apostelen en Profeten zo eigenlijk genoemd, die, als leden van één lichaam en met een gemeenschappelijke zaak, zich ook hierover zouden verblijden: maar ook de Dienaren en Leraren der volgende tijden, die naar het voorbeeld der vorige, ook hetzelfde zou overkomen.> u heilige Apostelen en u Profeten, want God heeft <Dat is, u aan haar gewroken.> uw oordeel $Op. 19:2$ aan haar geoordeeld.",
+      "source_text": "εὐφραίνου ἐπ’ αὐτήν, οὐρανέ, καὶ οἱ ἅγιοι ἀπόστολοι, καὶ οἱ προφῆται, ὅτι ἔκρινεν ὁ Θεὸς τὸ κρίμα ὑμῶν ἐξ αὐτῆς.",
+      "generated_at": "2026-05-30T06:01:01.085256Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "gemene zaak",
+          "reason": "False-friend 'gemene' (SV 'gemeyne sake' = gemeenschappelijke/algemene zaak, niet modern pejoratief 'gemeen' = vulgair) vervangen door 'gemeenschappelijke zaak'."
+        }
+      ]
+    },
+    {
+      "verse_number": 21,
+      "original": "Ende <Dit teecken wort by de beloften ende het dreygement tot versterckinge by gevoeght, gelijck doorgaens by de Propheten te sien is, ende in het bysonder van den val van het oude Babylon, Ierem. cap. 51. vers 63.> een sterck Engel hief eenen steen op als eenen grooten meulensteen, ende wierp [dien] in de zee, seggende, $Ierem. cap. 51. vers 64.$ Aldus sal de groote stadt Babylon met gewelt geworpen worden, ende en sal niet meer worden gevonden.",
+      "modernized": "En <Dit teken wordt bij de beloften en het dreigement tot versterking bijgevoegd, zoals doorgaans bij de Profeten te zien is, en in het bijzonder van de val van het oude Babylon, $Jr. 51:63$.> hief een sterke Engel een steen op als een grote molensteen, en wierp [die] in de zee, en zei, $Jr. 51:64$ Aldus zal de grote stad Babylon met geweld geworpen worden, en zal niet meer gevonden worden.",
+      "source_text": "Καὶ ἦρεν εἷς ἄγγελος ἰσχυρὸς λίθον ὡς μύλον μέγαν, καὶ ἔβαλεν εἰς τὴν θάλασσαν, λέγων, Οὕτως ὁρμήματι βληθήσεται Βαβυλὼν ἡ μεγάλη πόλις, καὶ οὐ μὴ εὑρεθῇ ἔτι.",
+      "generated_at": "2026-05-30T06:01:31.199842Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
