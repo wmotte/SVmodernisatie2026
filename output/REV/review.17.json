@@ -1,7 +1,7 @@
 {
   "book": "REV",
   "chapter": 17,
-  "reviewed_at": "2026-05-30T03:30:46+00:00",
+  "reviewed_at": "2026-05-30T03:32:14+00:00",
   "passes": [
     {
       "pass": 1,
@@ -47,6 +47,17 @@
         "REV-17-18-001: rebuttal verified",
         "REV-17-3-012: verified"
       ]
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-05-30T03:32:14+00:00",
+      "mode": "verify",
+      "actions": [
+        "REV-17-3-001: rebuttal verified",
+        "REV-17-3-007: rebuttal verified",
+        "REV-17-5-002: rebuttal verified",
+        "REV-17-5-003: rebuttal verified"
+      ]
     }
   ],
   "issues": [
@@ -88,10 +99,11 @@
       "proposed_fix": "van de Gods",
       "location": "hoofdtekst",
       "id": "REV-17-3-001",
-      "status": "rebutted",
+      "status": "verified",
       "fix_commit": "PENDING",
       "verify_note": "fix loste het patroon niet op",
-      "rebuttal": "Het geflagde token 'namen der [Gods-]lastering' (hoofdtekst vers 3) is gefixt naar 'namen van [Gods-]lastering' — de SV-genitief is verwijderd conform ARCHAISMEN.md. Het residu dat de mechanische re-scan op vers 3 in dezelfde categorie detecteert zit uitsluitend in de kanttekeningen en betreft fossiele bijbelse genitieven ('gewoel der mensen', 'Koningen der aarde', 'hoek der wereld', 'einde der wereld'), niet het gefixte hoofdtekst-token."
+      "rebuttal": "Het geflagde token 'namen der [Gods-]lastering' (hoofdtekst vers 3) is gefixt naar 'namen van [Gods-]lastering' — de SV-genitief is verwijderd conform ARCHAISMEN.md. Het residu dat de mechanische re-scan op vers 3 in dezelfde categorie detecteert zit uitsluitend in de kanttekeningen en betreft fossiele bijbelse genitieven ('gewoel der mensen', 'Koningen der aarde', 'hoek der wereld', 'einde der wereld'), niet het gefixte hoofdtekst-token.",
+      "verified_at": "2026-05-30T03:32:14+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -173,10 +185,11 @@
       "proposed_fix": "van de Godslastering",
       "location": "kanttekening",
       "id": "REV-17-3-007",
-      "status": "rebutted",
+      "status": "verified",
       "fix_commit": "PENDING",
       "verify_note": "fix loste het patroon niet op",
-      "rebuttal": "Het geflagde token 'namen der Godslastering' (kanttekening vers 3) is gefixt naar 'namen van Godslastering' conform ARCHAISMEN.md. Het residu dat de mechanische re-scan op vers 3 detecteert betreft de overige fossiele bijbelse genitieven in de zeer lange kanttekeningen ('Koningen der aarde', 'hoek der wereld', 'einde der wereld', 'gewoel der mensen'), niet het gefixte token."
+      "rebuttal": "Het geflagde token 'namen der Godslastering' (kanttekening vers 3) is gefixt naar 'namen van Godslastering' conform ARCHAISMEN.md. Het residu dat de mechanische re-scan op vers 3 detecteert betreft de overige fossiele bijbelse genitieven in de zeer lange kanttekeningen ('Koningen der aarde', 'hoek der wereld', 'einde der wereld', 'gewoel der mensen'), niet het gefixte token.",
+      "verified_at": "2026-05-30T03:32:14+00:00"
     },
     {
       "category": "SV-verbuiging (demonstratief dezer/dien/...)",
@@ -272,10 +285,11 @@
       "proposed_fix": "van de hoer",
       "location": "kanttekening",
       "id": "REV-17-5-002",
-      "status": "rebutted",
+      "status": "verified",
       "fix_commit": "PENDING",
       "verify_note": "fix loste het patroon niet op",
-      "rebuttal": "Het geflagde token 'de moeder der hoer' (kanttekening vers 5) is gefixt naar 'de moeder van de hoererij' conform ARCHAISMEN.md. Het residu dat de mechanische re-scan op vers 5 in dezelfde categorie detecteert is de fossiele bijbelse genitief 'gruwelen der aarde' in de hoofdtekst (Gr. τῶν βδελυγμάτων τῆς γῆς), parallel aan 'Koningen der aarde'; niet het gefixte token."
+      "rebuttal": "Het geflagde token 'de moeder der hoer' (kanttekening vers 5) is gefixt naar 'de moeder van de hoererij' conform ARCHAISMEN.md. Het residu dat de mechanische re-scan op vers 5 in dezelfde categorie detecteert is de fossiele bijbelse genitief 'gruwelen der aarde' in de hoofdtekst (Gr. τῶν βδελυγμάτων τῆς γῆς), parallel aan 'Koningen der aarde'; niet het gefixte token.",
+      "verified_at": "2026-05-30T03:32:14+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -287,10 +301,11 @@
       "proposed_fix": "van de afgoderijen",
       "location": "kanttekening",
       "id": "REV-17-5-003",
-      "status": "rebutted",
+      "status": "verified",
       "fix_commit": "PENDING",
       "verify_note": "fix loste het patroon niet op",
-      "rebuttal": "Het geflagde token 'der afgoderijen' (kanttekening vers 5) is gefixt naar 'van de afgoderijen' conform ARCHAISMEN.md. Het residu dat de mechanische re-scan op vers 5 detecteert is de fossiele bijbelse genitief 'gruwelen der aarde' in de hoofdtekst, een vaste bijbelse genitiefuitdrukking; niet het gefixte token."
+      "rebuttal": "Het geflagde token 'der afgoderijen' (kanttekening vers 5) is gefixt naar 'van de afgoderijen' conform ARCHAISMEN.md. Het residu dat de mechanische re-scan op vers 5 detecteert is de fossiele bijbelse genitief 'gruwelen der aarde' in de hoofdtekst, een vaste bijbelse genitiefuitdrukking; niet het gefixte token.",
+      "verified_at": "2026-05-30T03:32:14+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
