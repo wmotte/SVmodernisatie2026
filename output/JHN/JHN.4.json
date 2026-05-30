@@ -223,6 +223,33 @@
       "generated_at": "2026-05-30T23:06:51.417142Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 25,
+      "original": "De vrouwe seyde tot hem, Ick weet dat de <Siet van dit woort Ioan. cap. 1. vers 42.> Messias <Dat is, haest komen sal.> komt (die genaemt wort Christus) wanneer die sal gekomen zijn, soo sal hy ons <Namelick, die tot den Godtsdienst ende ter saligheyt noodigh zijn.> alle dingen verkondigen.",
+      "modernized": "De vrouw zei tot hem: Ik weet dat de <Zie over dit woord $Jh. 1:42$.> Messias <Dat is, dat hij spoedig komen zal.> komt (die genoemd wordt Christus); wanneer die zal gekomen zijn, zo zal hij ons <Namelijk, die tot de Godsdienst en tot de zaligheid nodig zijn.> alle dingen verkondigen.",
+      "source_text": "λέγει αὐτῷ ἡ γυνή, Οἶδα ὅτι Μεσσίας ἔρχεται ὁ λεγόμενος Χριστός· ὅταν ἔλθῃ ἐκεῖνος, ἀναγγελεῖ ἡμῖν πάντα.",
+      "generated_at": "2026-05-30T23:09:56.187831Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 26,
+      "original": "Iesus seyde tot haer, $Ioan. 9.37.$ <Namelick, de Messias, daer ghy van seght dat hy komen sal.> Ick ben ’t, die met u spreke.",
+      "modernized": "Jezus zei tot haar: $Jh. 9:37$ <Namelijk, de Messias, van wie u zegt dat hij komen zal.> Ik ben het, die met u spreek.",
+      "source_text": "λέγει αὐτῇ ὁ Ἰησοῦς, Ἐγώ εἰμι, ὁ λαλῶν σοι.",
+      "generated_at": "2026-05-30T23:10:32.956456Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 27,
+      "original": "Ende daer op quamen sijne discipelen, ende verwonderden haer dat hy met een vrouwe sprack: Nochtans en seyde niemant, Wat vraeght ghy? ofte, Wat spreeckt ghy met haer?",
+      "modernized": "En daarop kwamen zijn discipelen, en zij verwonderden zich dat hij met een vrouw sprak; toch zei niemand: Wat vraagt u? of: Wat spreekt u met haar?",
+      "source_text": "Καὶ ἐπὶ τούτῳ ἦλθον οἱ μαθηταὶ αὐτοῦ, καὶ ἐθαύμασαν ὅτι μετὰ γυναικὸς ἐλάλει· οὐδεὶς μέντοι εἶπε, Τί ζητεῖς; ἤ, Τί λαλεῖς μετ’ αὐτῆς;",
+      "generated_at": "2026-05-30T23:10:52.872376Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
