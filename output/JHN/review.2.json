@@ -1,0 +1,98 @@
+{
+  "book": "JHN",
+  "chapter": 2,
+  "reviewed_at": "2026-05-30T19:50:57+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-05-30T19:50:57+00:00",
+      "mode": "scan",
+      "issues_total": 6
+    }
+  ],
+  "issues": [
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 6,
+      "severity": "soft",
+      "quote_modernized": "de reiniging van de",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'de reiniging van de' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "JHN-2-6-001",
+      "status": "rebutted",
+      "rebuttal": "Geen modern-geïntroduceerde parafrase: de kanttekening is de SV-eigen 'D.'-glosse (<Dat is, naar de wijze van de reiniging van de Joden, waarvan zie ...>) die de elliptische hoofdtekst 'naar de reiniging van de Joden' verklaart door het lemma te herciteren. KANTTEKENINGEN.md redundantie-regel viseert parafrastische herhaling die de modernisatie toevoegt, niet een brongetrouwe 'Dat is'-glosse die het hoofdtekst-lemma per definitie aanhaalt om het te duiden."
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 13,
+      "severity": "hard",
+      "quote_modernized": "En het   Pascha der Joden was nabij, en Jezus ging op na…",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'der Joden' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de Joden' of 'van het Joden', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de Joden",
+      "location": "hoofdtekst",
+      "id": "JHN-2-13-001",
+      "status": "rebutted",
+      "rebuttal": "('der','joden') staat in FOSSIL_GENITIVE_PAIRS (scripts/rules_data.py:83) — gestolde bijbelformule 'Pascha der Joden' / 'Koning der Joden' (Gr. τὸ πάσχα τῶν Ἰουδαίων). validate.py (regel 808) laat dit paar door als hoofdtekst-fossiel; concordant met JHN 6:4 / 11:55 'het Pascha der Joden' in de bijbeltraditie (HSV behoudt 'Pascha van de Joden' maar 'der Joden' is hier de gestolde genitief-formule). Scanner-regex flagt elk der/des/den; dit paar is expliciet gewhitelist als fossiel."
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 15,
+      "severity": "soft",
+      "quote_modernized": "hij ze allen uit",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'hij ze allen uit' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "JHN-2-15-001",
+      "status": "rebutted",
+      "rebuttal": "SV-eigen Griekse glosse <Grieks: wierp hij ze allen uit.> die het letterlijke Gr. ἐξέβαλεν ('wierp uit') weergeeft, gecontrasteerd met de hoofdtekst-rendering 'dreef ... uit'. Het lexicale contrast wierp↔dreef is exact het doel van de glosse; de token-overlap 'hij ze allen uit' is gedeeld object + werkwoordsvorm uit het Grieks, geen parafrastische redundantie. KANTTEKENINGEN.md redundantie-regel geldt niet voor brongetrouwe 'Gr.'-glossen die een woordkeus-alternatief tonen."
+    },
+    {
+      "category": "§2.3 finiet participium",
+      "verse": 24,
+      "severity": "soft",
+      "quote_modernized": "…f niet aan hen toe, omdat hij hen allen kende:",
+      "rule_reference": "MODERNISATIE.md §2.3",
+      "explanation": "'kende' — verdacht -ende-woord in adverbial / clause-final positie. Ontvouw naar finiete bijzin ('en X', 'terwijl X', 'toen X').",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "JHN-2-24-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] 'kende' is hier finiet imperfectum 3p.sg. van werkwoord 'kennen' (Gr. ἐπιγνοὺς → 'kende', concordantie LUK 5:22), GEEN -ende-participium. §2.3 reikwijdte = adverbiale/clause-final participia; deze vorm is hoofdwerkwoord van bijzin 'die meteen ... kende dat zij ...'. Scanner-regex faalt op homografie tussen finiete impf en -ende-participium."
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 25,
+      "severity": "hard",
+      "quote_modernized": "Namelijk, als waarachtig God, en kenner der harten, $Op. 2:23$.",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'der harten' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de harten' of 'van het harten', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "kenner van de harten",
+      "location": "kanttekening",
+      "id": "JHN-2-25-001",
+      "status": "fixed",
+      "fix_commit": "PENDING"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 11,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'teecken' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        11,
+        18,
+        23
+      ],
+      "id": "JHN-2-11-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] False-positive scanner-prefix-heuristiek: scanner mist orthografische overgang 'teecken' → 'teken' (sch→k, ee→e). Alle 3 verzen renderen Gr. σημεῖον consistent met 'teken': v7 'teken', v11 'tekenen', v25 'tekenen'. Scanner-prefix-match faalt omdat 'teecken' lengte 7 begint met 'teec' terwijl modern 'teke' begint. Concordantie intact."
+    }
+  ]
+}
