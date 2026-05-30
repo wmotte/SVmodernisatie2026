@@ -61,6 +61,70 @@
       "generated_at": "2026-05-30T06:32:51.110083Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 7,
+      "original": "Die overwint sal <D. de volheyt van alle geestelicke ende eeuwige goederen, na ziele ende na lichaem. Siet Rom. 8. versen 17, 29. 1.Ioan. 3.2.> alles be-erven: $Zach. 8.8. Hebr. 8.10.$ ende ick sal hem een Godt zijn, ende hy sal my een sone zijn.",
+      "modernized": "Die overwint zal <Dat is, de volheid van alle geestelijke en eeuwige goederen, naar ziel en naar lichaam. Zie $Rm. 8:17,29; 1Jh. 3:2$.> alles beërven: $Zc. 8:8; Hb. 8:10$ en ik zal hem een God zijn, en hij zal mij een zoon zijn.",
+      "source_text": "ὁ νικῶν κληρονομήσει πάντα, καὶ ἔσομαι αὐτῷ Θεός, καὶ αὐτὸς ἔσται μοι ὁ υἱός.",
+      "generated_at": "2026-05-30T06:36:22.471537Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "subject": "be-erven",
+          "context": "hoofdtekst",
+          "choice": "beerven met trema",
+          "alternatives": [
+            "erven",
+            "be-erven"
+          ],
+          "reason": "SV-vorm be-erven gerenoveerd naar beerven (klemtoon-e met trema), niet vereenvoudigd naar erven; behoudt SV-eigenheid."
+        }
+      ]
+    },
+    {
+      "verse_number": 8,
+      "original": "Maer $Apocal. 22.15.$ <Dese worden hier gestelt tegen de gene, van welcke in het voorgaende vers is geseght dat sy overwinnen, Namelick, kloeckmoedelick ende stantvastelick alle swarigheden, die haer om de belijdenisse des Euangeliums overkomen. siet Rom. 8.37. Dese vreesachtige dan zijn die in den tijt der vervolginge ende verdruckinge uyt vreese afwijcken, Matth. 13.21.> den vreesachtigen, ende ongeloovigen, ende grouwelicken, ende dootslagers, ende hoereerders, ende <Ofte, fenijngevers.> toovenaers, ende afgodendienaers, ende allen den leugenaers is haer deel in den poel $Apoc. 20.14, 15.$ die daer brant van vyer ende sulpher: ’t welck is <Siet Cap. 20. vers 14.> de tweede doot.",
+      "modernized": "Maar $Op. 22:15$ <Dezen worden hier gesteld tegenover degenen, van wie in het voorgaande vers gezegd is dat zij overwinnen, Namelijk, kloekmoedig en standvastig alle zwarigheden, die hun om de belijdenis van het Evangelie overkomen. Zie $Rm. 8:37$ Deze vreesachtigen dan zijn die in de tijd van de vervolging en verdrukking uit vrees afwijken, $Mt. 13:21$.> de vreesachtigen, en ongelovigen, en gruwelijken, en doodslagers, en hoereerders, en <Of, gifmengers.> tovenaars, en afgodendienaars, en al de leugenaars is hun deel in de poel $Op. 20:14,15$ die daar brandt van vuur en zwavel: hetwelk is <Zie Cap. 20. vers 14.> de tweede dood.",
+      "source_text": "δειλοῖς δὲ καὶ ἀπίστοις καὶ ἐβδελυγμένοις καὶ φονεῦσι καὶ πόρνοις καὶ φαρμακεῦσι καὶ εἰδωλολάτραις, καὶ πᾶσι τοῖς ψευδέσι, τὸ μέρος αὐτῶν ἐν τῇ λίμνῃ τῇ καιομένῃ πυρὶ καὶ θείῳ, ὅ ἐστι δεύτερος θάνατος.",
+      "generated_at": "2026-05-30T06:37:25.488773Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 9,
+      "original": "Ende tot my quam <Namelick, die Ioannem hier voren Capit. 17. vers 3. in de woestijne hadde gevoert, ende het oordeel der grooter Hoere hadde getoont: welcke hem nu de Bruydt Christi, ende het hemelsche Ierusalem toont, als een eynde van alle gesichten.> een van de seven Engelen, $Apoc. 15.6, 7.$ die de seven phiolen hadden, welcke waren vol geweest van de seven laetste plagen, ende sprack met my, seggende, Komt herwaerts, <Dat is, de verheerlickte gemeynte Christi met hare woonplaetse. Siet hier voren Cap. 19. vers 7. waer uyt blijckt dat in dit gesichte niet alleen de heerlickheyt der plaetse en wort getoont, daer de uytverkorene altijt met Christo haer sullen verblijden, maer oock voornamelick de heerlickheyt der gemeynte Christi selve, met hare eygenschappen, gelijck sy hier namaels in den hemel sal zijn.> ick sal u toonen de bruydt, het wijf des Lams.",
+      "modernized": "En tot mij kwam <Namelijk, die Johannes hiervoor Capit. 17. vers 3. in de woestijn had gevoerd, en het oordeel van de grote Hoer had getoond: die hem nu de Bruid van Christus, en het hemelse Jeruzalem toont, als een einde van alle gezichten.> een van de zeven Engelen, $Op. 15:6,7$ die de zeven schalen hadden, die vol geweest waren van de zeven laatste plagen, en hij sprak met mij en zei: Kom hierheen, <Dat is, de verheerlijkte gemeente van Christus met haar woonplaats. Zie hiervoor Cap. 19. vers 7. waaruit blijkt dat in dit gezicht niet alleen de heerlijkheid van de plaats wordt getoond, waar de uitverkorenen altijd met Christus zich zullen verblijden, maar ook voornamelijk de heerlijkheid van de gemeente van Christus zelf, met haar eigenschappen, zoals zij hiernamaals in de hemel zal zijn.> ik zal u de bruid tonen, de vrouw van het Lam.",
+      "source_text": "Καὶ ἦλθε πρός με εἷς τῶν ἑπτὰ ἀγγέλων τῶν ἐχόντων τὰς ἑπτὰ φιάλας τὰς γεμούσας τῶν ἑπτὰ πληγῶν τῶν ἐσχάτων, καὶ ἐλάλησε μετ’ ἐμοῦ, λέγων, Δεῦρο, δείξω σοι τὴν νύμφην τοῦ ἀρνίου τὴν γυναῖκα.",
+      "generated_at": "2026-05-30T06:39:02.740871Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "wijf des Lams",
+          "context": "hoofdtekst slot",
+          "choice": "vrouw van het Lam",
+          "alternatives": [
+            "wijf des Lams",
+            "vrouw des Lams"
+          ],
+          "reason": "SV wijf is in modern NL pejoratief; gerenoveerd naar vrouw. Genitief des Lams ontvouwd naar van-constructie (van het Lam) conform validator §2.3c, concordant met de 20 van-het-Lam-vormen elders in REV."
+        },
+        {
+          "type": "afwijking",
+          "subject": "Komt herwaerts",
+          "context": "hoofdtekst",
+          "choice": "Kom hierheen",
+          "alternatives": [
+            "Komt herwaarts",
+            "Kom hier"
+          ],
+          "reason": "herwaerts is drempel-archaisch; engel spreekt Johannes enkelvoudig aan, imperatief enkelvoud Kom; herwaarts gemoderniseerd naar hierheen, concordant met OPEN 17:1 (dezelfde phiool-engel, dezelfde SV-formule Komt herwaerts ick sal u toonen) die eerder als Kom hierheen is gerenoveerd."
+        }
+      ]
     }
   ]
 }
