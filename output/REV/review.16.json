@@ -1,7 +1,7 @@
 {
   "book": "REV",
   "chapter": 16,
-  "reviewed_at": "2026-05-30T02:47:46+00:00",
+  "reviewed_at": "2026-05-30T02:49:06+00:00",
   "passes": [
     {
       "pass": 1,
@@ -37,6 +37,14 @@
         "REV-16-19-002: rebuttal verified",
         "REV-16-19-003: rebuttal verified",
         "REV-16-21-001: verified"
+      ]
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-05-30T02:49:06+00:00",
+      "mode": "verify",
+      "actions": [
+        "REV-16-12-001: rebuttal verified"
       ]
     }
   ],
@@ -135,10 +143,11 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-16-12-001",
-      "status": "rebutted",
+      "status": "verified",
       "fix_commit": "PENDING",
       "verify_note": "fix loste het patroon niet op",
-      "rebuttal": "Het geflagde relativum 'welker' (kanttekening vers 12, 'aan welker beide zijden') is gefixt naar 'aan weerszijden waarvan' — de archaïsche genitief-relativum is verwijderd conform ARCHAISMEN.md. Het residu dat de mechanische re-scan in dezelfde categorie op vers 12 detecteert zijn de overige 'welke'-relativa ('welke, wanneer die ... gestremd', 'welke Vorsten'), die als gewone de-relativa modern bruikbaar zijn en niet het gefixte 'welker'-token betreffen; §-relativumregel viseert specifiek de verbogen genitiefvorm 'welker/welken'."
+      "rebuttal": "Het geflagde relativum 'welker' (kanttekening vers 12, 'aan welker beide zijden') is gefixt naar 'aan weerszijden waarvan' — de archaïsche genitief-relativum is verwijderd conform ARCHAISMEN.md. Het residu dat de mechanische re-scan in dezelfde categorie op vers 12 detecteert zijn de overige 'welke'-relativa ('welke, wanneer die ... gestremd', 'welke Vorsten'), die als gewone de-relativa modern bruikbaar zijn en niet het gefixte 'welker'-token betreffen; §-relativumregel viseert specifiek de verbogen genitiefvorm 'welker/welken'.",
+      "verified_at": "2026-05-30T02:49:06+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
