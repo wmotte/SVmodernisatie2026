@@ -169,6 +169,46 @@
       "generated_at": "2026-05-30T21:59:06.158311Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 19,
+      "original": "Ende $Ioan. 1.5.$ dit is <Dat is, de verdoemenisse, ofte, de oorsake der verdoemenisse.> het oordeel, dat <Dat is, Christus ende sijn Euangelium.> het licht in de werelt gekomen is, ende de menschen hebben de duysternisse liever gehadt dan het licht: want hare wercken waren boos.",
+      "modernized": "En $Jh. 1:5$ dit is <Dat is, de verdoemenis, of, de oorzaak van de verdoemenis.> het oordeel, dat <Dat is, Christus en zijn Evangelie.> het licht in de wereld gekomen is, en de mensen hebben de duisternis liever gehad dan het licht: want hun werken waren boos.",
+      "source_text": "αὕτη δέ ἐστιν ἡ κρίσις, ὅτι τὸ φῶς ἐλήλυθεν εἰς τὸν κόσμον, καὶ ἠγάπησαν οἱ ἄνθρωποι μᾶλλον τὸ σκότος ἢ τὸ φῶς· ἦν γὰρ πονηρὰ αὐτῶν τὰ ἔργα.",
+      "generated_at": "2026-05-30T22:03:30.107595Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 20,
+      "original": "Want een yegelick die quaet doet, haet het licht, ende en komt tot het licht niet, op dat sijne wercken niet <Dat is, ontdeckt worden, ende hy van deselve overtuyght.> bestraft en worden.",
+      "modernized": "Want een ieder die kwaad doet, haat het licht, en komt niet tot het licht, opdat zijn werken niet <Dat is, ontdekt worden, en hij daarvan overtuigd wordt.> bestraft worden.",
+      "source_text": "πᾶς γὰρ ὁ φαῦλα πράσσων μισεῖ τὸ φῶς, καὶ οὐκ ἔρχεται πρὸς τὸ φῶς, ἵνα μὴ ἐλεγχθῇ τὰ ἔργα αὐτοῦ.",
+      "generated_at": "2026-05-30T22:03:49.982242Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 21,
+      "original": "$Ephes. 5.12.$ Maer <D. die oprechtelick handelt.> die de waerheyt doet, komt tot het licht, op dat sijne wercken openbaer worden, dat sy <Gr. in Gode gewrocht zijn, D. als in Godts tegenwoordigheyt, ende na sijnen wille.> in Gode gedaen zijn.",
+      "modernized": "$Ef. 5:12$ Maar <Dat is, die oprecht handelt.> die de waarheid doet, komt tot het licht, opdat zijn werken openbaar worden, dat zij <Grieks: in God gewrocht zijn, dat is, als in Gods tegenwoordigheid, en naar zijn wil.> in God gedaan zijn.",
+      "source_text": "ὁ δὲ ποιῶν τὴν ἀλήθειαν ἔρχεται πρὸς τὸ φῶς, ἵνα φανερωθῇ αὐτοῦ τὰ ἔργα, ὅτι ἐν Θεῷ ἐστιν εἰργασμένα.",
+      "generated_at": "2026-05-30T22:04:11.763419Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "gewrocht behouden in Grieks-gloss",
+          "context": "kanttekening 2 (Grieks-gloss)",
+          "choice": "gewrocht laten staan in de <Grieks: ...>-gloss",
+          "alternatives": [
+            "gewerkt",
+            "verricht"
+          ],
+          "reason": "De gloss geeft de letterlijke Griekse vorm (εἰργασμένα) weer, die bewust contrasteert met het idiomatische gedaan in de hoofdtekst; gewrocht markeert dit literal-wrought-onderscheid en is geen drempel-archaisme in de hoofdtekst."
+        }
+      ]
     }
   ]
 }
