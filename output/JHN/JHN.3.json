@@ -61,6 +61,33 @@
       "generated_at": "2026-05-30T21:41:06.009548Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 7,
+      "original": "En verwondert u niet dat ick u geseght hebbe, Ghylieden moet <Ofte, van nienws, ofte, van boven, Dat is, door de werckinge des Heyligen Geests.> wederom geboren worden.",
+      "modernized": "En verwonder u niet dat ik u gezegd heb: U moet <Of, opnieuw; of, van boven. Dat is, door de werking van de Heilige Geest.> wederom geboren worden.",
+      "source_text": "μὴ θαυμάσῃς ὅτι εἶπόν σοι, Δεῖ ὑμᾶς γεννηθῆναι ἄνωθεν.",
+      "generated_at": "2026-05-30T21:44:27.822617Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 8,
+      "original": "<Gr. de geest, D. de windt, gelijck uyt het navolgende blijckt.> De windt <Of, waeyt.> blaest waer henen hy wil, ende ghy hoort sijn <Gr. stemme.> geluydt, maer ghy en weet niet <Dat is, van waer hy gedreven wort: waer hy sijn beginsel heeft, ofte sijn eynde neemt.> van waer hy komt, ende waer hy henen gaet: <Dat is, des Geests werckingen wort ghy wel gewaer, maer hoe het toegaet en begrijpt ghy niet, Eccles. 11.5.> alsoo is een yegelick die uyt den Geest geboren is.",
+      "modernized": "<Grieks: de geest. Dat is, de wind, zoals uit het volgende blijkt.> De wind <Of, waait.> blaast waarheen hij wil, en u hoort zijn <Grieks: stem.> geluid, maar u weet niet <Dat is, vanwaar hij gedreven wordt; waar hij zijn begin heeft, of zijn einde neemt.> vanwaar hij komt, en waar hij heen gaat: <Dat is, de werkingen van de Geest wordt u wel gewaar, maar hoe het toegaat begrijpt u niet, $Pr. 11:5$.> zo is een ieder die uit de Geest geboren is.",
+      "source_text": "τὸ πνεῦμα ὅπου θέλει πνεῖ, καὶ τὴν φωνὴν αὐτοῦ ἀκούεις, ἀλλ’ οὐκ οἶδας πόθεν ἔρχεται καὶ ποῦ ὑπάγει· οὕτως ἐστὶ πᾶς ὁ γεγεννημένος ἐκ τοῦ Πνεύματος.",
+      "generated_at": "2026-05-30T21:45:09.818544Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 9,
+      "original": "Nicodemus antwoordde ende seyde tot hem, $Ioan. 6.52.$ Hoe konnen dese dingen geschieden?",
+      "modernized": "Nicodemus antwoordde en zei tot hem: $Jh. 6:52$ Hoe kunnen deze dingen gebeuren?",
+      "source_text": "ἀπεκρίθη Νικόδημος καὶ εἶπεν αὐτῷ, Πῶς δύναται ταῦτα γενέσθαι;",
+      "generated_at": "2026-05-30T21:45:39.581330Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
