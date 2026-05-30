@@ -1,7 +1,7 @@
 {
   "book": "REV",
   "chapter": 21,
-  "reviewed_at": "2026-05-30T11:28:23+00:00",
+  "reviewed_at": "2026-05-30T11:31:19+00:00",
   "passes": [
     {
       "pass": 1,
@@ -78,6 +78,30 @@
     {
       "pass": 9,
       "ran_at": "2026-05-30T11:28:23+00:00",
+      "mode": "verify",
+      "actions": []
+    },
+    {
+      "pass": 10,
+      "ran_at": "2026-05-30T11:31:11+00:00",
+      "mode": "verify",
+      "actions": []
+    },
+    {
+      "pass": 11,
+      "ran_at": "2026-05-30T11:31:15+00:00",
+      "mode": "verify",
+      "actions": []
+    },
+    {
+      "pass": 12,
+      "ran_at": "2026-05-30T11:31:17+00:00",
+      "mode": "verify",
+      "actions": []
+    },
+    {
+      "pass": 13,
+      "ran_at": "2026-05-30T11:31:19+00:00",
       "mode": "verify",
       "actions": []
     }
@@ -291,9 +315,10 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-21-21-002",
-      "status": "reopened",
+      "status": "fixed",
       "rebuttal": "Het antecedent van 'welke' in deze kanttekening bij REV 21:21 is 'de straat van de stad' (Gr. ἡ πλατεῖα τῆς πόλεως, hoofdtekst v21), een vrouwelijk de-woord, niet 'het gericht' dat er onmiddellijk aan voorafgaat. Tussen antecedent en relativum staat de ingeschoven bijzin 'waar de bijeenkomsten van de burgers, en ook het gericht gehouden wordt'. Bij 'die' zou de lezer 'het gericht' (laatstgenoemde) als antecedent nemen, wat de uitspraak 'van zuiver goud, en doorzichtig als glas' onzinnig maakt — alleen ἡ πλατεῖα is van goud (ὡς ὕαλος διαφανής). 'welke' grijpt grammaticaal en semantisch terug op het verre vrouwelijke antecedent en is hier dus disambiguerend noodzakelijk, geen vervangbaar de-relativum.",
-      "verify_note": "rebuttal valt terug op generieke 'SV-stijl'-formule zonder regel- of Grieks-referentie"
+      "fix_commit": "075e1f9",
+      "explanation_fix": "Relativum 'welke' verwijderd; kanttekening herschreven naar 'van die straat wordt hier ook gezegd dat zij van zuiver goud en doorzichtig als glas is' — antecedent expliciet ('die straat'), geen relativum-ambiguiteit meer. Validator REV 21:21 PASS."
     },
     {
       "category": "relativum welke/welken/hetwelk",
