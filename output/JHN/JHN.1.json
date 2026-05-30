@@ -142,6 +142,45 @@
       "generated_at": "2026-05-30T17:14:39.302892Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 16,
+      "original": "Ende $Coloss. 2.10.$ uyt sijne volheyt hebben wy alle ontfangen, oock <D. d’eene genade op d’andere in overvloedt: ofte, de genade des Nieuwen Testaments voor de genade des Ouden Testaments: ofte, de genade der heerlickheyt voor de genade der rechtveerdighmakinge ende wedergeboorte.> genade voor genade.",
+      "modernized": "En $Ko. 2:10$ uit zijn volheid hebben wij allen ontvangen, ook <Dat is, de ene genade op de andere in overvloed; of, de genade van het Nieuwe Testament voor de genade van het Oude Testament; of, de genade der heerlijkheid voor de genade der rechtvaardigmaking en wedergeboorte.> genade voor genade.",
+      "source_text": "καὶ ἐκ τοῦ πληρώματος αὐτοῦ ἡμεῖς πάντες ἐλάβομεν, καὶ χάριν ἀντὶ χάριτος.",
+      "generated_at": "2026-05-30T17:17:43.774863Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 17,
+      "original": "$Exod. 20.1, etc.$ Want de <Namel. der zeden, ofte, der tien geboden, met de dreyginge des eeuwigen vloecks tegen de overtreders, ende oock de wet der ceremonien.> wet is <D. door den dienst Mosis, Hebr. 3.2, 5, 16.> door Mosem gegeven, de <Namel. der verlossinge van den vloeck der wet, Rom. 10.3, 4. Galat. 3. vers 13. ende der aenneminge tot kinderen, Rom. 8.15.> genade ende <D. de vervullinge, soo der beloften, 2.Cor. 1. vers 20. als der ceremonien ende voorbeelden, Coloss. 2.17.> de waerheyt is <Namel. als den Sone ende Heere des huys, Hebr. 3.5, 6.> door Iesum Christum geworden.",
+      "modernized": "$Ex. 20:1$ Want de <Namelijk, der zeden, of, der tien geboden, met de dreiging van de eeuwige vloek tegen de overtreders, en ook de wet der ceremoniën.> wet is <Dat is, door de dienst van Mozes, $Hb. 3:2,5,16$.> door Mozes gegeven, de <Namelijk, der verlossing van de vloek der wet, $Rm. 10:3,4; Gl. 3:13$ en der aanneming tot kinderen, $Rm. 8:15$.> genade en <Dat is, de vervulling, zowel der beloften, $2Kor. 1:20$ als der ceremoniën en voorbeelden, $Ko. 2:17$.> de waarheid is <Namelijk, als de Zoon en Heere des huizes, $Hb. 3:5,6$.> door Jezus Christus geworden.",
+      "source_text": "ὅτι ὁ νόμος διὰ Μωσέως ἐδόθη, ἡ χάρις καὶ ἡ ἀλήθεια διὰ Ἰησοῦ Χριστοῦ ἐγένετο.",
+      "generated_at": "2026-05-30T17:19:06.439801Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "subject": "bibref etc.",
+          "context": "openingsref",
+          "choice": "$Ex. 20:1$ (etc. weggevallen bij normalisatie)",
+          "alternatives": [
+            "$Ex. 20:1$ enz."
+          ],
+          "reason": "bibref.py normaliseert Exod. 20.1, etc. naar enkelvoudige ref; de open-einde-marker etc. wordt niet ondersteund in modern formaat"
+        }
+      ]
+    },
+    {
+      "verse_number": 18,
+      "original": "$Exod. 33.20. Deut. 4.12. Ioan. 6.46. 1.Tim. 6.16. 1.Ioan. 4.12.$ Niemant en heeft oyt Godt <Dat is, gekent, Namel. met een volkomene ende naeckte kennisse sijns wesens ende willens.> gesien: de eenighgeboren Sone, $Matth. 11.27.$ die <D. die eens wesens met den Vader is, van hem gelieft, ende dien derhalven alle de secrete wijsheyt des Vaders bekent is.> in den schoot des Vaders is, die heeft <Ofte, het ons.> [hem ons] <D. klaerlick ende volkomelick geopenbaert de salighmakende kennisse Godts ende sijns raets, soo veel als ons van Godt te weten ter saligheyt noodigh is.> verklaert.",
+      "modernized": "$Ex. 33:20; Dt. 4:12; Jh. 6:46; 1Tm. 6:16; 1Jh. 4:12$ Niemand heeft ooit God <Dat is, gekend, Namelijk met een volledige en naakte kennis van zijn wezen en wil.> gezien: de eniggeboren Zoon, $Mt. 11:27$ die <Dat is, die van één wezen met de Vader is, door hem geliefd, en aan wie daarom alle verborgen wijsheid van de Vader bekend is.> in de schoot van de Vader is, die heeft <Of, het ons.> [hem ons] <Dat is, klaar en volledig de zaligmakende kennis van God en van zijn raad geopenbaard, voor zover als ons door God ter zaligheid nodig is te weten.> verklaard.",
+      "source_text": "Θεὸν οὐδεὶς ἑώρακε πώποτε· ὁ μονογενὴς Υἱός, ὁ ὢν εἰς τὸν κόλπον τοῦ Πατρός, ἐκεῖνος ἐξηγήσατο.",
+      "generated_at": "2026-05-30T17:19:48.037096Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
