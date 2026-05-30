@@ -34,6 +34,59 @@
       "generated_at": "2026-05-30T18:24:18.419795Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 4,
+      "original": "Iesus seyde tot haer, <Soo noemt Christus sijne moeder, niet uyt kleynachtinge, maer om aen te wijsen, dat hare moederlicke autoriteyt in saken sijn ampt aengaende niet en moest gelden, maer alleen sijn Godtlick beroep.> Vrouwe, <Gr. wat is my ende u. Een Hebreeusche maniere van spreken met sich brengende eene bestraffinge. Siet 2.Sam. 16. vers 10. ende 19.22.> wat hebbe ick met u [te doen?] Mijne <Dat is, het en is noch den bequamen tijt niet.> ure en is noch niet gekomen.",
+      "modernized": "Jezus zei tot haar: <Zo noemt Christus zijn moeder, niet uit geringschatting, maar om aan te wijzen dat haar moederlijke autoriteit in zaken die zijn ambt aangaan niet moest gelden, maar alleen zijn Goddelijke roeping.> Vrouw, <Grieks: wat is mij en u. Een Hebreeuwse manier van spreken die een bestraffing met zich meebrengt. Zie $2Sm. 16:10; 19:22$.> wat heb ik met u [te doen?] Mijn <Dat is, het is nog niet de geschikte tijd.> uur is nog niet gekomen.",
+      "source_text": "λέγει αὐτῇ ὁ Ἰησοῦς, Τί ἐμοὶ καὶ σοί, γύναι; οὔπω ἥκει ἡ ὥρα μου.",
+      "generated_at": "2026-05-30T18:28:34.045877Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "ure",
+          "context": "slotzin",
+          "choice": "ure -> uur",
+          "alternatives": [
+            "moment",
+            "tijd"
+          ],
+          "reason": "ure staat in DREMPEL_ARCHAISMEN en leeft niet meer (ARCHAISMEN.md r.76); corpus moderniseert consequent (JHN 1:39 'de tiende ure'->'het tiende uur'; MRK 13:32 / 14:35 eschatologisch 'ure'->'dat uur'). Geen concordantie-vorm om te bewaren; HSV-spiegel leest eveneens 'uur'. Eschatologische zin blijft ongewijzigd, alleen het zelfstandig naamwoord gemoderniseerd."
+        }
+      ]
+    },
+    {
+      "verse_number": 5,
+      "original": "Sijne moeder seyde tot de dienaers, Soo wat hy u-lieden sal seggen, [dat] doet.",
+      "modernized": "Zijn moeder zei tot de dienaars: Wat hij u ook zal zeggen, [dat] doet.",
+      "source_text": "λέγει ἡ μήτηρ αὐτοῦ τοῖς διακόνοις, Ὅ τι ἂν λέγῃ ὑμῖν, ποιήσατε.",
+      "generated_at": "2026-05-30T18:28:37.335811Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 6,
+      "original": "Ende aldaer waren ses steenen watervaten gestelt $Marc. 7.3.$ na <D. na de wijse van de reyniginge der Ioden, waer van siet Matth. 15.2. ende cap. 23. vers 25. Marc. 7. versen 4, 8. Luce 11.39.> de reyniginge der Ioden, elck houdende twee ofte drie <Elck Metretes hieldt, gelijck sommige reeckenen, ontrent hondert ende twintigh ponden nats, elck pondt nu voor een halve pinte gereeckent zijnde, soude elcke metretes houden ontrent vijftien stoopen. Soo dat de watervaten van twee metreten souden houden ontrent dertigh stoopen, ende van drie metreten vijf ende veertigh stoopen.> metreten.",
+      "modernized": "En daar waren zes stenen watervaten gesteld $Mk. 7:3$ naar <Dat is, naar de wijze van de reiniging van de Joden, waarvan zie $Mt. 15:2; 23:25; Mk. 7:4,8; Lk. 11:39$.> de reiniging van de Joden, elk twee of drie <Elke Metretes hield, zoals sommigen rekenen, ongeveer honderdtwintig ponden vocht; elk pond nu gerekend op een halve pint, zou elke metretes ongeveer vijftien stopen houden. Zodat de watervaten van twee metreten ongeveer dertig stopen zouden houden, en van drie metreten vijfenveertig stopen.> metreten houdend.",
+      "source_text": "ἦσαν δὲ ἐκεῖ ὑδρίαι λίθιναι ἓξ κείμεναι κατὰ τὸν καθαρισμὸν τῶν Ἰουδαίων, χωροῦσαι ἀνὰ μετρητὰς δύο ἢ τρεῖς.",
+      "generated_at": "2026-05-30T18:29:05.910380Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "subject": "metretes/metreten",
+          "context": "hoofdtekst en kanttekening 2",
+          "choice": "metretes/metreten behouden als maateenheid",
+          "alternatives": [
+            "maten",
+            "vaten"
+          ],
+          "reason": "Antieke inhoudsmaat (Gr. metretes) die de SV zelf in de kanttekening kwantificeert in ponden/stopen; vertalen naar een moderne maat zou de kanttekening-uitleg ontkoppelen."
+        }
+      ]
     }
   ]
 }
