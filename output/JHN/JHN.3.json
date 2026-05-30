@@ -209,6 +209,33 @@
           "reason": "De gloss geeft de letterlijke Griekse vorm (εἰργασμένα) weer, die bewust contrasteert met het idiomatische gedaan in de hoofdtekst; gewrocht markeert dit literal-wrought-onderscheid en is geen drempel-archaisme in de hoofdtekst."
         }
       ]
+    },
+    {
+      "verse_number": 22,
+      "original": "Na desen quam Iesus ende sijne discipelen <D. buyten Ierusalem, in de lantpalen van Iudea.> in het lant van Iudea, ende onthieldt hem aldaer met haer, $Ioan. 4.1.$ ende <Namel. door sijne discipelen. Siet Ioan. 4.2.> doopte.",
+      "modernized": "Hierna kwam Jezus met zijn discipelen <Dat is, buiten Jeruzalem, in het gebied van Judea.> in het land van Judea, en hij verbleef daar met hen, $Jh. 4:1$ en <Namelijk, door zijn discipelen. Zie $Jh. 4:2$.> doopte.",
+      "source_text": "Μετὰ ταῦτα ἦλθεν ὁ Ἰησοῦς καὶ οἱ μαθηταὶ αὐτοῦ εἰς τὴν Ἰουδαίαν γῆν· καὶ ἐκεῖ διέτριβε μετ’ αὐτῶν καὶ ἐβάπτιζεν.",
+      "generated_at": "2026-05-30T22:09:13.865566Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 23,
+      "original": "$Matth. 3.6. Marc. 1.5. Luce 3.7.$ Ende Ioannes doopte oock in Enon by <Een plaetse in de stamme Benjamin, waer van siet 1.Sam. cap. 9. vers 4.> Salim, dewijle aldaer vele <D. beken, ofte rivierkens, ofte veel waters. Om dat de gene die van Ioanne gedoopt wierden, met hare geheele lichamen in het water gingen. Siet Matth. 3. vers 16. Actor. 8.38.> wateren waren: ende sy quamen daer, ende wierden gedoopt.",
+      "modernized": "$Mt. 3:6; Mk. 1:5; Lk. 3:7$ En Johannes doopte ook in Enon bij <Een plaats in de stam Benjamin, waarvan zie $1Sm. 9:4$.> Salim, omdat daar veel <Dat is, beken, of riviertjes, of veel water. Omdat degenen die door Johannes gedoopt werden, met hun hele lichaam in het water gingen. Zie $Mt. 3:16; Hd. 8:38$.> water was; en zij kwamen daar, en werden gedoopt.",
+      "source_text": "ἦν δὲ καὶ Ἰωάννης βαπτίζων ἐν Αἰνὼν ἐγγὺς τοῦ Σαλείμ, ὅτι ὕδατα πολλὰ ἦν ἐκεῖ· καὶ παρεγίνοντο καὶ ἐβαπτίζοντο.",
+      "generated_at": "2026-05-30T22:09:26.565245Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 4
+    },
+    {
+      "verse_number": 24,
+      "original": "$Matth. 14.3.$ Want Ioannes en was noch niet in de gevangenisse geworpen.",
+      "modernized": "$Mt. 14:3$ Want Johannes was nog niet in de gevangenis geworpen.",
+      "source_text": "οὔπω γὰρ ἦν βεβλημένος εἰς τὴν φυλακὴν ὁ Ἰωάννης.",
+      "generated_at": "2026-05-30T22:09:43.108544Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 4
     }
   ]
 }
