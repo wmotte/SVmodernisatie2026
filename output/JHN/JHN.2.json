@@ -87,6 +87,33 @@
           "reason": "Antieke inhoudsmaat (Gr. metretes) die de SV zelf in de kanttekening kwantificeert in ponden/stopen; vertalen naar een moderne maat zou de kanttekening-uitleg ontkoppelen."
         }
       ]
+    },
+    {
+      "verse_number": 7,
+      "original": "Iesus seyde tot haer, Vullet de watervaten met water. Ende sy vuldense tot boven toe.",
+      "modernized": "Jezus zei tot hen: Vul de watervaten met water. En zij vulden ze tot boven toe.",
+      "source_text": "λέγει αὐτοῖς ὁ Ἰησοῦς, Γεμίσατε τὰς ὑδρίας ὕδατος. καὶ ἐγέμισαν αὐτὰς ἕως ἄνω.",
+      "generated_at": "2026-05-30T18:35:40.543356Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 8,
+      "original": "Ende hy seyde tot haer, Schept nu, ende draeght het tot den <Gr. Architriclinos, D. de Overste van de eetsale, die by ons gemeenlick schafmeester, ofte hofmeester, genaemt wort.> hofmeester, ende sy droegen ’t.",
+      "modernized": "En hij zei tot hen: Schep nu, en draag het naar de <Grieks: Architriclinos, dat is, de Overste van de eetzaal, die bij ons gewoonlijk schafmeester of hofmeester genoemd wordt.> hofmeester. En zij droegen het.",
+      "source_text": "καὶ λέγει αὐτοῖς, Ἀντλήσατε νῦν, καὶ φέρετε τῷ ἀρχιτρικλίνῳ. καὶ ἤνεγκαν.",
+      "generated_at": "2026-05-30T18:36:09.698191Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 9,
+      "original": "Als nu de hofmeester het water, dat wijn geworden was, geproeft hadde (ende hy en wist niet van waer [de wijn] was, maer de dienaren die het water geschept hadden wisten ’t) soo riep de hofmeester den bruydegom,",
+      "modernized": "Toen nu de hofmeester het water, dat wijn geworden was, geproefd had (en hij wist niet vanwaar [de wijn] was, maar de dienaars die het water geschept hadden, wisten het), riep de hofmeester de bruidegom,",
+      "source_text": "ὡς δὲ ἐγεύσατο ὁ ἀρχιτρίκλινος τὸ ὕδωρ οἶνον γεγενημένον καὶ οὐκ ᾔδει πόθεν ἐστίν· οἱ δὲ διάκονοι ᾔδεισαν οἱ ἠντληκότες τὸ ὕδωρ, φωνεῖ τὸν νυμφίον ὁ ἀρχιτρίκλινος,",
+      "generated_at": "2026-05-30T18:36:47.778359Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
