@@ -1,7 +1,7 @@
 {
   "book": "REV",
   "chapter": 21,
-  "reviewed_at": "2026-05-30T11:31:19+00:00",
+  "reviewed_at": "2026-05-30T12:09:31+00:00",
   "passes": [
     {
       "pass": 1,
@@ -104,6 +104,20 @@
       "ran_at": "2026-05-30T11:31:19+00:00",
       "mode": "verify",
       "actions": []
+    },
+    {
+      "pass": 14,
+      "ran_at": "2026-05-30T12:08:42+00:00",
+      "mode": "scan",
+      "issues_total": 19
+    },
+    {
+      "pass": 15,
+      "ran_at": "2026-05-30T12:09:31+00:00",
+      "mode": "verify",
+      "actions": [
+        "REV-21-27-001: rebuttal verified"
+      ]
     }
   ],
   "issues": [
@@ -206,21 +220,6 @@
       "verified_at": "2026-05-30T11:23:33+00:00"
     },
     {
-      "category": "relativum welke/welken/hetwelk",
-      "verse": 14,
-      "severity": "soft",
-      "quote_modernized": "…en wordt de leer van de twaalf Apostelen, welker uiterste hoeksteen Christus Jez…",
-      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
-      "explanation": "'welker' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
-      "proposed_fix": "wier",
-      "location": "kanttekening",
-      "id": "REV-21-14-001",
-      "status": "verified",
-      "fix_commit": "",
-      "verify_note": "'welker uiterste hoeksteen' → 'waarvan de uiterste hoeksteen' in kanttekening v14; archaïsche genitief-relativum 'welker' verwijderd.",
-      "verified_at": "2026-05-30T11:23:33+00:00"
-    },
-    {
       "category": "kanttekening-redundantie",
       "verse": 14,
       "severity": "soft",
@@ -229,7 +228,7 @@
       "explanation": "Kanttekening herhaalt 'van de twaalf apostelen' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
       "proposed_fix": null,
       "location": "kanttekening",
-      "id": "REV-21-14-002",
+      "id": "REV-21-14-001",
       "status": "verified",
       "rebuttal": "De kanttekening bij REV 21:14 herhaalt 'de twaalf Apostelen' niet als lege parafrase maar als noodzakelijk anker van een exegetische claim: 'de leer van de twaalf Apostelen, waarvan de uiterste hoeksteen Christus Jezus is' (verwijzing naar Ef. 2:20). De redundantie-regel (KANTTEKENINGEN.md) viseert kanttekeningen die enkel de hoofdtekst herkauwen; hier voegt de kanttekening de leer-als-fundament-uitleg en de Christus-hoeksteen-toepassing toe, die de hoofdtekst ('de namen van de twaalf Apostelen') niet bevat. Het herhaalde syntagma is de scharnier-referent, geen vulling.",
       "verified_at": "2026-05-30T11:23:33+00:00"
@@ -246,21 +245,6 @@
       "id": "REV-21-17-001",
       "status": "verified",
       "rebuttal": "In REV 21:17 ('naar de maat van een mens, welke die van de Engel was') vertaalt 'welke' het relativum ὅ (μέτρον ἀνθρώπου, ὅ ἐστιν ἀγγέλου). Het antecedent is 'de maat' (de-woord, fem.); 'welke' verbindt hier appositief de mensenmaat met de engelenmaat. 'die' zou samenvallen met het direct erop volgende demonstratief 'die van de Engel' en een storende 'die ... die'-opeenvolging geven. 'welke' lost die ambiguïteit op en is hier de helderste modern-formele keuze.",
-      "verified_at": "2026-05-30T11:23:33+00:00"
-    },
-    {
-      "category": "genitief pronomen wiens/wier",
-      "verse": 17,
-      "severity": "hard",
-      "quote_modernized": "… die de mens gewoon is te gebruiken, in wiens gedaante hier de Engel aan Johanne…",
-      "rule_reference": "ARCHAISMEN.md (SV-pronomina)",
-      "explanation": "'wiens gedaante' — formeel-archaïsch genitief-pronomen. Modern Nederlands: 'van wie gedaante' of zinsherbouw met bezittelijk voornaamwoord ('die zijn gedaante', 'die haar gedaante'). NBV21 vermijdt 'wiens' grotendeels.",
-      "proposed_fix": "in de gedaante waarvan",
-      "location": "kanttekening",
-      "id": "REV-21-17-002",
-      "status": "verified",
-      "fix_commit": "",
-      "verify_note": "'in wiens gedaante hier de Engel aan Johannes is verschenen' → 'in de gedaante waarvan hier de Engel aan Johannes is verschenen'; archaïsch genitief-pronomen 'wiens' verwijderd, antecedent 'de mens' nu via 'waarvan'.",
       "verified_at": "2026-05-30T11:23:33+00:00"
     },
     {
@@ -304,21 +288,6 @@
       "status": "verified",
       "rebuttal": "In de kanttekening bij REV 21:21 ('en door welke als instrumenten Gods ... de ware Israëlieten zijn gekomen') staat 'welke' na het voorzetsel 'door' met antecedent 'getrouwe Leraars en voorstanders' (meervoud). Na een voorzetsel is 'door welke' in modern formeel Nederlands de gangbare vorm; 'door die' klinkt hier elliptisch/ambigu. De relatiefzin is appositief en exegetisch (uitleg van de parels-allegorie), niet restrictief. Behoud van 'welke' is hier de helderste keuze, conform de formeel-register-norm voor kanttekeningen.",
       "verified_at": "2026-05-30T11:23:33+00:00"
-    },
-    {
-      "category": "relativum welke/welken/hetwelk",
-      "verse": 21,
-      "severity": "soft",
-      "quote_modernized": "…rgers, en ook het gericht gehouden wordt, welke hier ook van zuiver goud, en doo…",
-      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
-      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
-      "proposed_fix": null,
-      "location": "kanttekening",
-      "id": "REV-21-21-002",
-      "status": "fixed",
-      "rebuttal": "Het antecedent van 'welke' in deze kanttekening bij REV 21:21 is 'de straat van de stad' (Gr. ἡ πλατεῖα τῆς πόλεως, hoofdtekst v21), een vrouwelijk de-woord, niet 'het gericht' dat er onmiddellijk aan voorafgaat. Tussen antecedent en relativum staat de ingeschoven bijzin 'waar de bijeenkomsten van de burgers, en ook het gericht gehouden wordt'. Bij 'die' zou de lezer 'het gericht' (laatstgenoemde) als antecedent nemen, wat de uitspraak 'van zuiver goud, en doorzichtig als glas' onzinnig maakt — alleen ἡ πλατεῖα is van goud (ὡς ὕαλος διαφανής). 'welke' grijpt grammaticaal en semantisch terug op het verre vrouwelijke antecedent en is hier dus disambiguerend noodzakelijk, geen vervangbaar de-relativum.",
-      "fix_commit": "075e1f9",
-      "explanation_fix": "Relativum 'welke' verwijderd; kanttekening herschreven naar 'van die straat wordt hier ook gezegd dat zij van zuiver goud en doorzichtig als glas is' — antecedent expliciet ('die straat'), geen relativum-ambiguiteit meer. Validator REV 21:21 PASS."
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -377,6 +346,20 @@
       "verified_at": "2026-05-30T11:23:33+00:00"
     },
     {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 27,
+      "severity": "hard",
+      "quote_modernized": "…aar die geschreven zijn   in   het boek des levens, van het Lam.",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'des levens' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de levens' of 'van het levens', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de levens",
+      "location": "hoofdtekst",
+      "id": "REV-21-27-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'boek des levens' is een gefossiliseerde bijbelse uitdrukking voor τὸ βιβλίον τῆς ζωῆς (Op. 3:5; 13:8; 17:8; 20:12,15; 21:27; Fp. 4:3). De genitief-constructie is in modern bijbels Nederlands productief gebleven (NBG51, HSV, NBV21 gebruiken eveneens 'boek des levens'). Vergelijkbaar met de gefossiliseerde 'Koninkrijk der hemelen' en 'Zoon des mensen' — categorie ARCHAISMEN.md gefossiliseerde-genitief-uitzondering.",
+      "verified_at": "2026-05-30T12:09:31+00:00"
+    },
+    {
       "category": "concordantie-drift",
       "verse": 11,
       "severity": "soft",
@@ -411,7 +394,7 @@
         23,
         24
       ],
-      "id": "REV-21-14-003",
+      "id": "REV-21-14-002",
       "status": "verified",
       "rebuttal": "De SV-anafoor 'deselve' is in REV 21 contextgevoelig vervangen door moderne pronominale anaforen die het juiste antecedent en de juiste naamval reflecteren: v14 'daarop' (ἐν αὐτοῖς, op de fundamenten — locatief, geen demonstratief); v22 'in deze' (ἐν αὐτῇ, in de stad); v23 'in deze' (ἐν αὐτῇ, in de stad); v24 'in deze' (εἰς αὐτήν, in de stad). De Griekse grondvorm is telkens het persoonlijk/aanwijzend pronomen αὐτ-, dat modern als 'deze/daarop' wordt weergegeven naargelang preposititie en referent. Geen drift: 'deselve' is een SV-spellingvorm die meerdere Griekse αὐτ-constructies dekt; harmoniseren naar één prefix zou de grammaticale rolverschillen uitwissen (AGENTS.md concordantie per grondwoord).",
       "verified_at": "2026-05-30T11:23:33+00:00"
