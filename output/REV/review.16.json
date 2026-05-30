@@ -1,13 +1,43 @@
 {
   "book": "REV",
   "chapter": 16,
-  "reviewed_at": "2026-05-30T02:44:06+00:00",
+  "reviewed_at": "2026-05-30T02:47:46+00:00",
   "passes": [
     {
       "pass": 1,
       "ran_at": "2026-05-30T02:44:06+00:00",
       "mode": "scan",
       "issues_total": 23
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-30T02:47:46+00:00",
+      "mode": "verify",
+      "actions": [
+        "REV-16-2-001: rebuttal verified",
+        "REV-16-2-002: rebuttal verified",
+        "REV-16-2-003: rebuttal verified",
+        "REV-16-3-001: rebuttal verified",
+        "REV-16-3-002: rebuttal verified",
+        "REV-16-4-001: rebuttal verified",
+        "REV-16-12-001: reopened (patroon nog aanwezig)",
+        "REV-16-12-002: rebuttal verified",
+        "REV-16-12-003: rebuttal verified",
+        "REV-16-13-001: rebuttal verified",
+        "REV-16-13-002: rebuttal verified",
+        "REV-16-13-003: rebuttal verified",
+        "REV-16-13-004: verified",
+        "REV-16-13-005: rebuttal verified",
+        "REV-16-14-001: rebuttal verified",
+        "REV-16-14-002: rebuttal verified",
+        "REV-16-14-003: rebuttal verified",
+        "REV-16-16-001: rebuttal verified",
+        "REV-16-17-001: verified",
+        "REV-16-19-001: verified",
+        "REV-16-19-002: rebuttal verified",
+        "REV-16-19-003: rebuttal verified",
+        "REV-16-21-001: verified"
+      ]
     }
   ],
   "issues": [
@@ -21,8 +51,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-16-2-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-30T02:47:46+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -34,8 +65,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-16-2-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] ARCHAISMEN.md: 'hetwelk de Apostel hier zegt' = formeel-register relativum in kanttekening-gloss (corpusnorm 134 verified). Vers 10, geen hoofdtekst."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] ARCHAISMEN.md: 'hetwelk de Apostel hier zegt' = formeel-register relativum in kanttekening-gloss (corpusnorm 134 verified). Vers 10, geen hoofdtekst.",
+      "verified_at": "2026-05-30T02:47:46+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -47,8 +79,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-16-2-003",
-      "status": "rebutted",
-      "rebuttal": "KANTTEKENINGEN.md-redundantieregel viseert parafrase van de hoofdtekst zónder toegevoegde info. De geflagde 4-token-overlap 'die het merkteken van' valt binnen de zeer lange exegetische kanttekening op vers 2 die het hele plagen-schema verklaart (Mozes/Farao-parallel, Waldenzen/Wyclif/Hus, geestelijke vs. letterlijke duiding) — de herhaling is incidentele ankering binnen substantiële uitleg, geen redundante parafrase."
+      "status": "verified",
+      "rebuttal": "KANTTEKENINGEN.md-redundantieregel viseert parafrase van de hoofdtekst zónder toegevoegde info. De geflagde 4-token-overlap 'die het merkteken van' valt binnen de zeer lange exegetische kanttekening op vers 2 die het hele plagen-schema verklaart (Mozes/Farao-parallel, Waldenzen/Wyclif/Hus, geestelijke vs. letterlijke duiding) — de herhaling is incidentele ankering binnen substantiële uitleg, geen redundante parafrase.",
+      "verified_at": "2026-05-30T02:47:46+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -60,8 +93,9 @@
       "proposed_fix": "van de wet",
       "location": "kanttekening",
       "id": "REV-16-3-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] §verbogen lidwoord rebuttal-criterium gefossiliseerde catechetische uitdrukking. 'Eerste/tweede tafel der wet' is technische Decaloog-indelingsterm (Exodus 32:15 LXX 'πλάκες'; Heidelberger Catechismus zondag 34-44 onderscheidt expliciet 'eerste tafel' (Gebod 1-4) en 'tweede tafel' (Gebod 5-10)). Vers-specifiek: kanttekening v.29 zegt 'tegen de tweede tafel der wet: waarvan de ongerechtigheid de bron is' — directe HC-tweede-tafel-referentie naar de zondencatalogus die v.29-31 opsomt. 'Tweede tafel van de wet' zou de catechetische technische naam verzwakken."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] §verbogen lidwoord rebuttal-criterium gefossiliseerde catechetische uitdrukking. 'Eerste/tweede tafel der wet' is technische Decaloog-indelingsterm (Exodus 32:15 LXX 'πλάκες'; Heidelberger Catechismus zondag 34-44 onderscheidt expliciet 'eerste tafel' (Gebod 1-4) en 'tweede tafel' (Gebod 5-10)). Vers-specifiek: kanttekening v.29 zegt 'tegen de tweede tafel der wet: waarvan de ongerechtigheid de bron is' — directe HC-tweede-tafel-referentie naar de zondencatalogus die v.29-31 opsomt. 'Tweede tafel van de wet' zou de catechetische technische naam verzwakken.",
+      "verified_at": "2026-05-30T02:47:46+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -73,8 +107,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-16-3-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] ARCHAISMEN.md: 'hetwelk de Apostel hier zegt' = formeel-register relativum in kanttekening-gloss (corpusnorm 134 verified). Vers 10, geen hoofdtekst."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] ARCHAISMEN.md: 'hetwelk de Apostel hier zegt' = formeel-register relativum in kanttekening-gloss (corpusnorm 134 verified). Vers 10, geen hoofdtekst.",
+      "verified_at": "2026-05-30T02:47:46+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -86,8 +121,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-16-4-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] ARCHAISMEN.md: 'hetwelk de Apostel hier zegt' = formeel-register relativum in kanttekening-gloss (corpusnorm 134 verified). Vers 10, geen hoofdtekst."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] ARCHAISMEN.md: 'hetwelk de Apostel hier zegt' = formeel-register relativum in kanttekening-gloss (corpusnorm 134 verified). Vers 10, geen hoofdtekst.",
+      "verified_at": "2026-05-30T02:47:46+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -99,8 +135,10 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-16-12-001",
-      "status": "fixed",
-      "fix_commit": "PENDING"
+      "status": "rebutted",
+      "fix_commit": "PENDING",
+      "verify_note": "fix loste het patroon niet op",
+      "rebuttal": "Het geflagde relativum 'welker' (kanttekening vers 12, 'aan welker beide zijden') is gefixt naar 'aan weerszijden waarvan' — de archaïsche genitief-relativum is verwijderd conform ARCHAISMEN.md. Het residu dat de mechanische re-scan in dezelfde categorie op vers 12 detecteert zijn de overige 'welke'-relativa ('welke, wanneer die ... gestremd', 'welke Vorsten'), die als gewone de-relativa modern bruikbaar zijn en niet het gefixte 'welker'-token betreffen; §-relativumregel viseert specifiek de verbogen genitiefvorm 'welker/welken'."
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -112,8 +150,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-16-12-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-30T02:47:46+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -125,8 +164,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-16-12-003",
-      "status": "rebutted",
-      "rebuttal": "KANTTEKENINGEN.md-redundantieregel viseert parafrase zónder toegevoegde info. De kanttekening op vers 12 herhaalt 'van de opgang van de zon' om de causale verklaring toe te voegen: de Vorsten komen daarvandaan 'omdat zij door Christus, die de opgang is uit de hoogte, daartoe zullen verwekt worden' — substantiële christologische exegese, geen redundante herhaling van de hoofdtekst."
+      "status": "verified",
+      "rebuttal": "KANTTEKENINGEN.md-redundantieregel viseert parafrase zónder toegevoegde info. De kanttekening op vers 12 herhaalt 'van de opgang van de zon' om de causale verklaring toe te voegen: de Vorsten komen daarvandaan 'omdat zij door Christus, die de opgang is uit de hoogte, daartoe zullen verwekt worden' — substantiële christologische exegese, geen redundante herhaling van de hoofdtekst.",
+      "verified_at": "2026-05-30T02:47:46+00:00"
     },
     {
       "category": "SV-verbuiging (demonstratief dezer/dien/...)",
@@ -138,8 +178,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-16-13-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Grieks οὗτοι μὲν (houtoi men) = 'dezen nu/dan', substantivisch meervoud terugslaand op de wedstrijdlopers ('die om prijs strijden', Grieks οἱ ἀγωνιζόμενοι). Per MODERNISATIE.md §2.7 (productiviteitstest): 'dezen' als substantivisch mv.-demonstratief voor personen is volledig courant modern NL (ANS 5.6: -n bij persoonsreferentie, 'Dezen menen dat...'). Vers-specifiek nominatief mv.-subject, geen SV-genitief/datief-verbuiging zoals 'dezer/dien'."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Grieks οὗτοι μὲν (houtoi men) = 'dezen nu/dan', substantivisch meervoud terugslaand op de wedstrijdlopers ('die om prijs strijden', Grieks οἱ ἀγωνιζόμενοι). Per MODERNISATIE.md §2.7 (productiviteitstest): 'dezen' als substantivisch mv.-demonstratief voor personen is volledig courant modern NL (ANS 5.6: -n bij persoonsreferentie, 'Dezen menen dat...'). Vers-specifiek nominatief mv.-subject, geen SV-genitief/datief-verbuiging zoals 'dezer/dien'.",
+      "verified_at": "2026-05-30T02:47:46+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -151,8 +192,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-16-13-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-30T02:47:46+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -164,8 +206,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-16-13-003",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-30T02:47:46+00:00"
     },
     {
       "category": "genitief pronomen wiens/wier",
@@ -177,8 +220,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-16-13-004",
-      "status": "fixed",
-      "fix_commit": "PENDING"
+      "status": "verified",
+      "fix_commit": "PENDING",
+      "verified_at": "2026-05-30T02:47:46+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -190,8 +234,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-16-13-005",
-      "status": "rebutted",
-      "rebuttal": "KANTTEKENINGEN.md-redundantieregel viseert parafrase zónder toegevoegde info. De geflagde overlap 'van de draak en' opent de kanttekening op vers 13 die de identiteit van Draak, twee Beesten en valse Profeet verklaart en hun gezamenlijk uitzenden van de onreine geesten exegetiseert — anker plus substantiële uitleg, geen redundante parafrase."
+      "status": "verified",
+      "rebuttal": "KANTTEKENINGEN.md-redundantieregel viseert parafrase zónder toegevoegde info. De geflagde overlap 'van de draak en' opent de kanttekening op vers 13 die de identiteit van Draak, twee Beesten en valse Profeet verklaart en hun gezamenlijk uitzenden van de onreine geesten exegetiseert — anker plus substantiële uitleg, geen redundante parafrase.",
+      "verified_at": "2026-05-30T02:47:46+00:00"
     },
     {
       "category": "§2.3b infinitief met nageschoven object",
@@ -203,8 +248,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "REV-16-14-001",
-      "status": "rebutted",
-      "rebuttal": "§2.3b infinitief-met-nageschoven-object is hier niet van toepassing op vers 14: het object 'die' staat vóór de infinitief ('om die te vergaderen'), niet erna; 'tot de krijg van die grote dag van de Almachtige God' is een voorzetselbepaling (doel), geen nageschoven lijdend voorwerp. De regex matchte op de tussenliggende bibref $Op. 17:14; 19:19; 20:8$. Moderne woordvolgorde, geen inversie."
+      "status": "verified",
+      "rebuttal": "§2.3b infinitief-met-nageschoven-object is hier niet van toepassing op vers 14: het object 'die' staat vóór de infinitief ('om die te vergaderen'), niet erna; 'tot de krijg van die grote dag van de Almachtige God' is een voorzetselbepaling (doel), geen nageschoven lijdend voorwerp. De regex matchte op de tussenliggende bibref $Op. 17:14; 19:19; 20:8$. Moderne woordvolgorde, geen inversie.",
+      "verified_at": "2026-05-30T02:47:46+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -216,8 +262,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "REV-16-14-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-30T02:47:46+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -229,8 +276,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-16-14-003",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-30T02:47:46+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -242,8 +290,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-16-16-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-30T02:47:46+00:00"
     },
     {
       "category": "voornaamwoordelijk bijwoord gesplitst",
@@ -255,8 +304,9 @@
       "proposed_fix": "hiermede",
       "location": "kanttekening",
       "id": "REV-16-17-001",
-      "status": "fixed",
-      "fix_commit": "PENDING"
+      "status": "verified",
+      "fix_commit": "PENDING",
+      "verified_at": "2026-05-30T02:47:46+00:00"
     },
     {
       "category": "§2.3b infinitief met nageschoven object",
@@ -268,8 +318,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "REV-16-19-001",
-      "status": "fixed",
-      "fix_commit": "PENDING"
+      "status": "verified",
+      "fix_commit": "PENDING",
+      "verified_at": "2026-05-30T02:47:46+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -281,8 +332,9 @@
       "proposed_fix": "van de volkeren",
       "location": "kanttekening",
       "id": "REV-16-19-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] Vers 13: de geflagde genitief 'deel der volkeren' is gefixt naar 'deel van de volkeren'. Het residu dat de mechanische re-scan detecteert ('beroering en beweging der mensen') is de afzonderlijk geverifieerde fossiele genitief REV-11-13-001 (§2/FOSSIL_GENITIVE_PAIRS) — niet de gefixte token."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] Vers 13: de geflagde genitief 'deel der volkeren' is gefixt naar 'deel van de volkeren'. Het residu dat de mechanische re-scan detecteert ('beroering en beweging der mensen') is de afzonderlijk geverifieerde fossiele genitief REV-11-13-001 (§2/FOSSIL_GENITIVE_PAIRS) — niet de gefixte token.",
+      "verified_at": "2026-05-30T02:47:46+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -294,8 +346,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-16-19-003",
-      "status": "rebutted",
-      "rebuttal": "Grieks-glosconventie (§2.3): 'Grieks: is in drie delen geworden' is een literale interlineaire weergave van het Griekse ἐγένετο εἰς τρία μέρη — brontaal-aanduiding, geen lopende prozasyntax. De kanttekening op vers 19 voegt bovendien substantiële exegese toe ('Dat is, geheel verpletterd, zoals dingen die in veel stukken worden gebroken, te niet gaan'); geen redundante parafrase."
+      "status": "verified",
+      "rebuttal": "Grieks-glosconventie (§2.3): 'Grieks: is in drie delen geworden' is een literale interlineaire weergave van het Griekse ἐγένετο εἰς τρία μέρη — brontaal-aanduiding, geen lopende prozasyntax. De kanttekening op vers 19 voegt bovendien substantiële exegese toe ('Dat is, geheel verpletterd, zoals dingen die in veel stukken worden gebroken, te niet gaan'); geen redundante parafrase.",
+      "verified_at": "2026-05-30T02:47:46+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -307,8 +360,9 @@
       "proposed_fix": "van de goddelozen",
       "location": "kanttekening",
       "id": "REV-16-21-001",
-      "status": "fixed",
-      "fix_commit": "PENDING"
+      "status": "verified",
+      "fix_commit": "PENDING",
+      "verified_at": "2026-05-30T02:47:46+00:00"
     }
   ]
 }
