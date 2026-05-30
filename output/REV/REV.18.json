@@ -88,6 +88,40 @@
       "generated_at": "2026-05-30T04:29:36.264800Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 10,
+      "original": "<Namelick, sonder haer te konnen helpen.> Van verre staende uyt vreese van hare pijninge, seggende, $Iesa. 21.9. Ierem. 51.1. Apocal. 14.8.$ Wee, wee, de groote stadt Babylon, de stercke stadt! want uw’ oordeel is <Gelijck vers 8. op eenen dagh, dat is, op eenen korten tijt.> in een ure gekomen.",
+      "modernized": "<Namelijk, zonder haar te kunnen helpen.> Zij staan van verre uit vrees voor haar pijniging, en zeggen, $Js. 21:9; Jr. 51:1; Op. 14:8$ Wee, wee, de grote stad Babylon, de sterke stad! want uw oordeel is <Zoals vers 8, op één dag, dat is, op een korte tijd.> in één uur gekomen.",
+      "source_text": "ἀπὸ μακρόθεν ἑστηκότες διὰ τὸν φόβον τοῦ βασανισμοῦ αὐτῆς, λέγοντες, Οὐαί, οὐαί, ἡ πόλις ἡ μεγάλη Βαβυλών, ἡ πόλις ἡ ἰσχυρά, ὅτι ἐν μιᾷ ὥρᾳ ἦλθεν ἡ κρίσις σου.",
+      "generated_at": "2026-05-30T04:33:26.343060Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 11,
+      "original": "Ende de kooplieden der aerde sullen weenen, ende rouwe maken over haer, om dat niemant <Gr. hare schipvracht, ofte, ladinge, Namelick, om dat der selver ydelheyt ende bedrogh bekent wort.> hare waere meer en koopt:",
+      "modernized": "En de kooplieden der aarde zullen wenen, en rouw maken over haar, omdat niemand <Grieks: hun scheepsvracht, of, lading. Namelijk, omdat de ijdelheid en het bedrog daarvan bekend wordt.> hun waren meer koopt:",
+      "source_text": "καὶ οἱ ἔμποροι τῆς γῆς κλαίουσι καὶ πενθοῦσιν ἐπ’ αὐτῇ, ὅτι τὸν γόμον αὐτῶν οὐδεὶς ἀγοράζει οὐκέτι·",
+      "generated_at": "2026-05-30T04:33:57.580841Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 12,
+      "original": "<Dese woorden, met eenige der volgende verssen, zijn meest genomen uyt Ezechiel capit. 27. daer van den val der koopstadt Tyrus dergelijcke wort voorseght. Ende hoewel, als voren is geseght, dese Antichristische Tyrus oock vele kooplieden uyt alle gewesten der werelt, met het koopen ende besigen deser waeren, in alle hare prachtigheden ende vercieringen van tempelen, beelden, gebouwen, ende uyterlicke Godtsdiensten, door al haer gebiedt, rijck maeckt, soo kan het van de geestelicke koopmanschappen die sy ende hare Groote onder de menschen drijven, oock seer bequamelick verstaen worden, gelijck op het derde vers is aengewesen.> Waere van gout, ende van silver, ende van kostelick gesteente, ende van peerlen, ende van fijn lijnwaet, ende van purper, ende van zijde, ende van scharlaken: ende allerley <Gr. thyinen-hout. Siet 1.Reg. c. 10. vers 11.> welrieckent hout, ende allerley yvooren vaten, ende allerley vaten van het kostelickste hout, ende van koper, ende van yser, ende van marmersteen:",
+      "modernized": "<Deze woorden, met enige der volgende verzen, zijn meest genomen uit Ezechiël hoofdstuk 27, daar van de val der koopstad Tyrus dergelijke wordt voorzegd. En hoewel, zoals voren is gezegd, deze Antichristische Tyrus ook vele kooplieden uit alle gewesten der wereld, met het kopen en gebruiken dezer waren, in al haar pracht en versieringen van tempels, beelden, gebouwen, en uiterlijke Godsdiensten, door heel haar gebied, rijk maakt, zo kan het van de geestelijke koophandel die zij en haar Groten onder de mensen drijven, ook zeer gevoeglijk verstaan worden, zoals op het derde vers is aangewezen.> Waren van goud, en van zilver, en van kostbaar gesteente, en van parels, en van fijn linnen, en van purper, en van zijde, en van scharlaken: en allerlei <Grieks: thyahout. Zie $1Kn. 10:11$.> welriekend hout, en allerlei ivoren voorwerpen, en allerlei voorwerpen van het kostbaarste hout, en van koper, en van ijzer, en van marmersteen:",
+      "source_text": "γόμον χρυσοῦ, καὶ ἀργύρου, καὶ λίθου τιμίου, καὶ μαργαρίτου, καὶ βύσσου, καὶ πορφύρας, καὶ σηρικοῦ, καὶ κοκκίνου· καὶ πᾶν ξύλον θύϊνον, καὶ πᾶν σκεῦος ἐλεφάντινον, καὶ πᾶν σκεῦος ἐκ ξύλου τιμιωτάτου, καὶ χαλκοῦ, καὶ σιδήρου, καὶ μαρμάρου·",
+      "generated_at": "2026-05-30T04:36:08.257319Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "vaten",
+          "reason": "False-friend 'vaten' (Gr. σκεῦος = voorwerp/gebruiksvoorwerp, niet barrels/bloedvaten) tweemaal vervangen door 'voorwerpen'; HSV-spiegel bevestigt ('ivoren voorwerpen' / 'voorwerpen van zeer kostbaar hout')."
+        }
+      ]
     }
   ]
 }
