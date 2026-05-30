@@ -142,6 +142,33 @@
       "generated_at": "2026-05-30T22:53:30.139192Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 16,
+      "original": "Iesus seyde tot haer, Gaet henen, roept uwen man, ende komt hier.",
+      "modernized": "Jezus zei tot haar: Ga heen, roep uw man, en kom hier.",
+      "source_text": "λέγει αὐτῇ ὁ Ἰησοῦς, Ὕπαγε, φώνησον τὸν ἄνδρα σου, καὶ ἐλθὲ ἐνθάδε.",
+      "generated_at": "2026-05-30T22:56:39.057927Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 17,
+      "original": "De vrouwe antwoordde ende seyde, Ick en hebbe <Dat is, geen getrouwde man.> geenen man. Iesus seyde tot haer, Ghy hebt wel geseght, ick en hebbe geenen man.",
+      "modernized": "De vrouw antwoordde en zei: Ik heb <Dat is, geen getrouwde man.> geen man. Jezus zei tot haar: U hebt goed gezegd: Ik heb geen man.",
+      "source_text": "ἀπεκρίθη ἡ γυνὴ καὶ εἶπεν, Οὐκ ἔχω ἄνδρα. λέγει αὐτῇ ὁ Ἰησοῦς, Καλῶς εἶπας ὅτι Ἄνδρα οὐκ ἔχω·",
+      "generated_at": "2026-05-30T22:56:39.089884Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 18,
+      "original": "Want ghy hebt vijf mannen gehadt, ende dien ghy nu hebt, en is uwe man niet, dat hebt ghy met waerheyt geseght.",
+      "modernized": "Want u hebt vijf mannen gehad, en die u nu hebt, is uw man niet; dat hebt u naar waarheid gezegd.",
+      "source_text": "πέντε γὰρ ἄνδρας ἔσχες, καὶ νῦν ὃν ἔχεις οὐκ ἔστι σου ἀνήρ· τοῦτο ἀληθὲς εἴρηκας.",
+      "generated_at": "2026-05-30T22:56:39.118516Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
