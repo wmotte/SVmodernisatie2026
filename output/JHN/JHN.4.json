@@ -61,6 +61,33 @@
       "generated_at": "2026-05-30T22:39:16.028857Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 7,
+      "original": "Daer quam een vrouwe <D. zijnde uyt het lant van Samarien, ende komende uyt Sichar, welck stedeken in het lant van Samarien lagh, vers 5. anders oock genaemt Sichem, Genes. cap. 33. vers19.> uyt Samarien om water te putten. Iesus seyde tot haer, Geeft my te drincken.",
+      "modernized": "Daar kwam een vrouw <Dat is, zij was uit het land van Samaria en kwam uit Sichar, welk stadje in het land van Samaria lag, vers 5. anders ook genaamd Sichem, $Gn. 33:19$.> uit Samaria om water te putten. Jezus zei tot haar: Geef mij te drinken.",
+      "source_text": "ἔρχεται γυνὴ ἐκ τῆς Σαμαρείας ἀντλῆσαι ὕδωρ· λέγει αὐτῇ ὁ Ἰησοῦς, Δός μοι πιεῖν.",
+      "generated_at": "2026-05-30T22:42:27.114658Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 8,
+      "original": "(Want sijne discipelen waren henen gegaen in de stadt op dat sy souden spijse koopen.)",
+      "modernized": "(Want zijn discipelen waren weggegaan naar de stad om voedsel te kopen.)",
+      "source_text": "οἱ γὰρ μαθηταὶ αὐτοῦ ἀπεληλύθεισαν εἰς τὴν πόλιν, ἵνα τροφὰς ἀγοράσωσι.",
+      "generated_at": "2026-05-30T22:43:03.576202Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 9,
+      "original": "Soo seyde dan de Samaritaensche vrouwe tot hem, Hoe begeert ghy, die een Iode zijt, van my drincken, die ick een Samaritaensche vrouwe ben? $Luce 9.52, 53. Ioan. 8. vers 48.$ <De oorsake hier van siet op de aenteeckeninge Luce 9.53.> Want de Ioden en houden geen gemeynschap met de Samaritanen,",
+      "modernized": "Zo zei dan de Samaritaanse vrouw tot hem: Hoe vraagt u, die een Jood bent, van mij te drinken, terwijl ik een Samaritaanse vrouw ben? $Lk. 9:52,53; Jh. 8:48$ <De oorzaak hiervan, zie op de aantekening $Lk. 9:53$.> Want de Joden houden geen gemeenschap met de Samaritanen,",
+      "source_text": "λέγει οὖν αὐτῷ ἡ γυνὴ ἡ Σαμαρεῖτις, Πῶς σὺ Ἰουδαῖος ὢν παρ’ ἐμοῦ πιεῖν αἰτεῖς, οὔσης γυναικὸς Σαμαρείτιδος; οὐ γὰρ συγχρῶνται Ἰουδαῖοι Σαμαρείταις.",
+      "generated_at": "2026-05-30T22:43:25.380714Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
