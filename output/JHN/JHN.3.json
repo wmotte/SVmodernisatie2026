@@ -263,6 +263,47 @@
       "generated_at": "2026-05-30T22:14:13.092033Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 28,
+      "original": "Ghy selve zijt mijne getuygen, dat ick geseght hebbe, $Ioan. 1.20.$ Ick en ben de Christus niet, $Malach. 3.1. Matth. 11.10. Marc. 1.2. Luce 1.17. ende 7.27. Ioan. cap. 1. versen 21, 23.$ maer dat ick voor hem henen uytgesonden ben.",
+      "modernized": "U bent zelf mijn getuigen, dat ik gezegd heb, $Jh. 1:20$ Ik ben de Christus niet, $Ml. 3:1; Mt. 11:10; Mk. 1:2; Lk. 1:17; 7:27; Jh. 1:21,23$ maar dat ik voor hem heen uitgezonden ben.",
+      "source_text": "αὐτοὶ ὑμεῖς μοι μαρτυρεῖτε ὅτι εἶπον, Οὐκ εἰμὶ ἐγὼ ὁ Χριστός, ἀλλ’ ὅτι ἀπεσταλμένος εἰμὶ ἔμπροσθεν ἐκείνου.",
+      "generated_at": "2026-05-30T22:17:23.252136Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 29,
+      "original": "Die de bruyt heeft is de bruydegom, maer <D. ick die de vrient ende getrouwe dienaer des bruydegoms ben, de bruyt, D. de gemeynte, tot Christum haren bruydegom, gebracht hebbe, die haer nu selve ontfanght ende aenspreeckt. Siet 2.Cor. 11.2. Ephes. 5.25.> de vrient des bruydegoms, die staet ende hem hoort, verblijdt sich met blijdtschap om <Wanneer hy sijne bruyt ontfanght ende aenspreeckt.> de stemme des bruydegoms. Soo is dan dese mijne blijdtschap vervult geworden.",
+      "modernized": "Die de bruid heeft is de bruidegom, maar <Dat is, ik die de vriend en getrouwe dienaar van de bruidegom ben, de bruid, dat is de gemeente, tot Christus haar bruidegom gebracht heb, die haar nu zelf ontvangt en aanspreekt. Zie $2Kor. 11:2; Ef. 5:25$.> de vriend van de bruidegom, die staat en hem hoort, verblijdt zich met blijdschap om <Wanneer hij zijn bruid ontvangt en aanspreekt.> de stem van de bruidegom. Zo is dan deze mijn blijdschap vervuld geworden.",
+      "source_text": "ὁ ἔχων τὴν νύμφην νυμφίος ἐστίν· ὁ δὲ φίλος τοῦ νυμφίου, ὁ ἑστηκὼς καὶ ἀκούων αὐτοῦ, χαρᾷ χαίρει διὰ τὴν φωνὴν τοῦ νυμφίου· αὕτη οὖν ἡ χαρὰ ἡ ἐμὴ πεπλήρωται.",
+      "generated_at": "2026-05-30T22:18:09.949564Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 30,
+      "original": "Hy moet wassen, maer ick minder worden.",
+      "modernized": "Hij moet groeien, maar ik minder worden.",
+      "source_text": "ἐκεῖνον δεῖ αὐξάνειν, ἐμὲ δὲ ἐλαττοῦσθαι.",
+      "generated_at": "2026-05-30T22:18:33.000047Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "wassen → groeien",
+          "context": "hoofdtekst",
+          "choice": "groeien",
+          "alternatives": [
+            "wassen",
+            "meer worden",
+            "toenemen"
+          ],
+          "reason": "SV wassen in de zin van toenemen/groeien (Gr. αὐξάνειν) is in modern Nederlands een false friend (men leest wassen = reinigen); groeien dekt de groei-betekenis en houdt de tegenstelling met minder worden intact."
+        }
+      ]
     }
   ]
 }
