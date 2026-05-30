@@ -1,13 +1,52 @@
 {
   "book": "REV",
   "chapter": 17,
-  "reviewed_at": "2026-05-30T03:26:38+00:00",
+  "reviewed_at": "2026-05-30T03:30:46+00:00",
   "passes": [
     {
       "pass": 1,
       "ran_at": "2026-05-30T03:26:38+00:00",
       "mode": "scan",
       "issues_total": 32
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-30T03:30:46+00:00",
+      "mode": "verify",
+      "actions": [
+        "REV-17-2-001: rebuttal verified",
+        "REV-17-2-002: rebuttal verified",
+        "REV-17-3-001: reopened (patroon nog aanwezig)",
+        "REV-17-3-002: rebuttal verified",
+        "REV-17-3-003: rebuttal verified",
+        "REV-17-3-004: rebuttal verified",
+        "REV-17-3-005: rebuttal verified",
+        "REV-17-3-006: rebuttal verified",
+        "REV-17-3-007: reopened (patroon nog aanwezig)",
+        "REV-17-3-008: verified",
+        "REV-17-3-009: rebuttal verified",
+        "REV-17-3-010: rebuttal verified",
+        "REV-17-3-011: rebuttal verified",
+        "REV-17-4-001: verified",
+        "REV-17-5-001: rebuttal verified",
+        "REV-17-5-002: reopened (patroon nog aanwezig)",
+        "REV-17-5-003: reopened (patroon nog aanwezig)",
+        "REV-17-5-004: rebuttal verified",
+        "REV-17-5-005: rebuttal verified",
+        "REV-17-6-001: rebuttal verified",
+        "REV-17-6-002: rebuttal verified",
+        "REV-17-8-001: rebuttal verified",
+        "REV-17-8-002: rebuttal verified",
+        "REV-17-8-003: rebuttal verified",
+        "REV-17-9-001: rebuttal verified",
+        "REV-17-10-001: rebuttal verified",
+        "REV-17-10-002: rebuttal verified",
+        "REV-17-10-003: rebuttal verified",
+        "REV-17-14-001: rebuttal verified",
+        "REV-17-14-002: rebuttal verified",
+        "REV-17-18-001: rebuttal verified",
+        "REV-17-3-012: verified"
+      ]
     }
   ],
   "issues": [
@@ -21,8 +60,9 @@
       "proposed_fix": "van de aarde",
       "location": "hoofdtekst",
       "id": "REV-17-2-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Hoofdtekst-genitief 'beesten der aarde' is in vers 8 gemoderniseerd naar 'beesten van de aarde' (Grieks: θηρίων τῆς γῆς, Op. 6:8). De resterende der/des/den-tokens in vers 8 staan uitsluitend in kanttekeningen ('gronden der zaligheid', 'consciëntiën der mensen') en zijn afzonderlijk gerebut onder REV-6-8-003/8-004 (kanttekening-register-norm, ARCHAISMEN.md). De mechanische her-scan onderscheidt hoofdtekst niet van kanttekening; de hoofdtekst-overtreding is opgelost."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Hoofdtekst-genitief 'beesten der aarde' is in vers 8 gemoderniseerd naar 'beesten van de aarde' (Grieks: θηρίων τῆς γῆς, Op. 6:8). De resterende der/des/den-tokens in vers 8 staan uitsluitend in kanttekeningen ('gronden der zaligheid', 'consciëntiën der mensen') en zijn afzonderlijk gerebut onder REV-6-8-003/8-004 (kanttekening-register-norm, ARCHAISMEN.md). De mechanische her-scan onderscheidt hoofdtekst niet van kanttekening; de hoofdtekst-overtreding is opgelost.",
+      "verified_at": "2026-05-30T03:30:46+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -34,8 +74,9 @@
       "proposed_fix": "van de levens",
       "location": "kanttekening",
       "id": "REV-17-2-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'boek des levens' is een gefossiliseerde bijbelse uitdrukking voor τὸ βιβλίον τῆς ζωῆς (Op. 3:5; 13:8; 17:8; 20:12,15; 21:27; Fp. 4:3). De genitief-constructie is in modern bijbels Nederlands productief gebleven (NBG51, HSV, NBV21 gebruiken eveneens 'boek des levens'). Vergelijkbaar met de gefossiliseerde 'Koninkrijk der hemelen' en 'Zoon des mensen' — categorie ARCHAISMEN.md gefossiliseerde-genitief-uitzondering."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'boek des levens' is een gefossiliseerde bijbelse uitdrukking voor τὸ βιβλίον τῆς ζωῆς (Op. 3:5; 13:8; 17:8; 20:12,15; 21:27; Fp. 4:3). De genitief-constructie is in modern bijbels Nederlands productief gebleven (NBG51, HSV, NBV21 gebruiken eveneens 'boek des levens'). Vergelijkbaar met de gefossiliseerde 'Koninkrijk der hemelen' en 'Zoon des mensen' — categorie ARCHAISMEN.md gefossiliseerde-genitief-uitzondering.",
+      "verified_at": "2026-05-30T03:30:46+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -47,8 +88,10 @@
       "proposed_fix": "van de Gods",
       "location": "hoofdtekst",
       "id": "REV-17-3-001",
-      "status": "fixed",
-      "fix_commit": "PENDING"
+      "status": "rebutted",
+      "fix_commit": "PENDING",
+      "verify_note": "fix loste het patroon niet op",
+      "rebuttal": "Het geflagde token 'namen der [Gods-]lastering' (hoofdtekst vers 3) is gefixt naar 'namen van [Gods-]lastering' — de SV-genitief is verwijderd conform ARCHAISMEN.md. Het residu dat de mechanische re-scan op vers 3 in dezelfde categorie detecteert zit uitsluitend in de kanttekeningen en betreft fossiele bijbelse genitieven ('gewoel der mensen', 'Koningen der aarde', 'hoek der wereld', 'einde der wereld'), niet het gefixte hoofdtekst-token."
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -60,8 +103,9 @@
       "proposed_fix": "van de mensen",
       "location": "kanttekening",
       "id": "REV-17-3-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Genitief 'consciëntiën der mensen' in de KANTTEKENING — kanttekening-register behoudt formele genitief (corpusnorm ARCHAISMEN.md, validate.py 0F)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Genitief 'consciëntiën der mensen' in de KANTTEKENING — kanttekening-register behoudt formele genitief (corpusnorm ARCHAISMEN.md, validate.py 0F).",
+      "verified_at": "2026-05-30T03:30:46+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -73,8 +117,9 @@
       "proposed_fix": "van de aarde",
       "location": "kanttekening",
       "id": "REV-17-3-003",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Hoofdtekst-genitief 'beesten der aarde' is in vers 8 gemoderniseerd naar 'beesten van de aarde' (Grieks: θηρίων τῆς γῆς, Op. 6:8). De resterende der/des/den-tokens in vers 8 staan uitsluitend in kanttekeningen ('gronden der zaligheid', 'consciëntiën der mensen') en zijn afzonderlijk gerebut onder REV-6-8-003/8-004 (kanttekening-register-norm, ARCHAISMEN.md). De mechanische her-scan onderscheidt hoofdtekst niet van kanttekening; de hoofdtekst-overtreding is opgelost."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Hoofdtekst-genitief 'beesten der aarde' is in vers 8 gemoderniseerd naar 'beesten van de aarde' (Grieks: θηρίων τῆς γῆς, Op. 6:8). De resterende der/des/den-tokens in vers 8 staan uitsluitend in kanttekeningen ('gronden der zaligheid', 'consciëntiën der mensen') en zijn afzonderlijk gerebut onder REV-6-8-003/8-004 (kanttekening-register-norm, ARCHAISMEN.md). De mechanische her-scan onderscheidt hoofdtekst niet van kanttekening; de hoofdtekst-overtreding is opgelost.",
+      "verified_at": "2026-05-30T03:30:46+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -86,8 +131,9 @@
       "proposed_fix": "van de wereld",
       "location": "kanttekening",
       "id": "REV-17-3-004",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'der wereld' in 'de volken der wereld' = τὰ ἔθνη τοῦ κόσμου: gestolde genitief-constructie in bijbel-NL. HSV behoudt eveneens 'de volken van deze wereld'-vorm; fossielargument §2.3b van toepassing (vaste woordgroep, niet productieve verbuiging)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'der wereld' in 'de volken der wereld' = τὰ ἔθνη τοῦ κόσμου: gestolde genitief-constructie in bijbel-NL. HSV behoudt eveneens 'de volken van deze wereld'-vorm; fossielargument §2.3b van toepassing (vaste woordgroep, niet productieve verbuiging).",
+      "verified_at": "2026-05-30T03:30:46+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -99,8 +145,9 @@
       "proposed_fix": "van de wereld",
       "location": "kanttekening",
       "id": "REV-17-3-005",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'der wereld' in 'de volken der wereld' = τὰ ἔθνη τοῦ κόσμου: gestolde genitief-constructie in bijbel-NL. HSV behoudt eveneens 'de volken van deze wereld'-vorm; fossielargument §2.3b van toepassing (vaste woordgroep, niet productieve verbuiging)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'der wereld' in 'de volken der wereld' = τὰ ἔθνη τοῦ κόσμου: gestolde genitief-constructie in bijbel-NL. HSV behoudt eveneens 'de volken van deze wereld'-vorm; fossielargument §2.3b van toepassing (vaste woordgroep, niet productieve verbuiging).",
+      "verified_at": "2026-05-30T03:30:46+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -112,8 +159,9 @@
       "proposed_fix": "van de wereld",
       "location": "kanttekening",
       "id": "REV-17-3-006",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'der wereld' in 'de volken der wereld' = τὰ ἔθνη τοῦ κόσμου: gestolde genitief-constructie in bijbel-NL. HSV behoudt eveneens 'de volken van deze wereld'-vorm; fossielargument §2.3b van toepassing (vaste woordgroep, niet productieve verbuiging)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'der wereld' in 'de volken der wereld' = τὰ ἔθνη τοῦ κόσμου: gestolde genitief-constructie in bijbel-NL. HSV behoudt eveneens 'de volken van deze wereld'-vorm; fossielargument §2.3b van toepassing (vaste woordgroep, niet productieve verbuiging).",
+      "verified_at": "2026-05-30T03:30:46+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -125,8 +173,10 @@
       "proposed_fix": "van de Godslastering",
       "location": "kanttekening",
       "id": "REV-17-3-007",
-      "status": "fixed",
-      "fix_commit": "PENDING"
+      "status": "rebutted",
+      "fix_commit": "PENDING",
+      "verify_note": "fix loste het patroon niet op",
+      "rebuttal": "Het geflagde token 'namen der Godslastering' (kanttekening vers 3) is gefixt naar 'namen van Godslastering' conform ARCHAISMEN.md. Het residu dat de mechanische re-scan op vers 3 detecteert betreft de overige fossiele bijbelse genitieven in de zeer lange kanttekeningen ('Koningen der aarde', 'hoek der wereld', 'einde der wereld', 'gewoel der mensen'), niet het gefixte token."
     },
     {
       "category": "SV-verbuiging (demonstratief dezer/dien/...)",
@@ -138,8 +188,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-17-3-008",
-      "status": "fixed",
-      "fix_commit": "PENDING"
+      "status": "verified",
+      "fix_commit": "PENDING",
+      "verified_at": "2026-05-30T03:30:46+00:00"
     },
     {
       "category": "SV-spelling-residu (-inge/-isse/-erye)",
@@ -151,8 +202,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-17-3-009",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] §SV-spelling-residu (ARCHAISMEN.md) target archaïsche verbaalsubstantieven (bekeeringe→bekering, getuigenisse→getuigenis, slaverye→slavernij). Hier vers-specifiek: 'het onderlinge geloof' = bepaald lw. + adjectief 'onderling' (Van Dale lemma als bn.) met attributieve flexie-e + zelfst. nw. 'geloof'. 'Onderling' is geen archaïsche -inge-vorm van een verbaalsubstantief; het is de modern-NL standaardvorm. Regex prefix-heuristiek mist onderscheid bn./zn."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] §SV-spelling-residu (ARCHAISMEN.md) target archaïsche verbaalsubstantieven (bekeeringe→bekering, getuigenisse→getuigenis, slaverye→slavernij). Hier vers-specifiek: 'het onderlinge geloof' = bepaald lw. + adjectief 'onderling' (Van Dale lemma als bn.) met attributieve flexie-e + zelfst. nw. 'geloof'. 'Onderling' is geen archaïsche -inge-vorm van een verbaalsubstantief; het is de modern-NL standaardvorm. Regex prefix-heuristiek mist onderscheid bn./zn.",
+      "verified_at": "2026-05-30T03:30:46+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -164,8 +216,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-17-3-010",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] ARCHAISMEN.md: 'hetwelk de Apostel hier zegt' = formeel-register relativum in kanttekening-gloss (corpusnorm 134 verified). Vers 10, geen hoofdtekst."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] ARCHAISMEN.md: 'hetwelk de Apostel hier zegt' = formeel-register relativum in kanttekening-gloss (corpusnorm 134 verified). Vers 10, geen hoofdtekst.",
+      "verified_at": "2026-05-30T03:30:46+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -177,8 +230,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-17-3-011",
-      "status": "rebutted",
-      "rebuttal": "KANTTEKENINGEN.md-redundantieregel viseert parafrase zónder toegevoegde info. De geflagde overlap 'zeven hoofden en tien' zit in de kanttekening op vers 3 die een vooruitwijzing toevoegt ('Van de zeven hoofden, en tien horens, zal door de Engel zelf hierna verklaring gedaan worden') — substantiële forward-reference naar de uitleg in vers 9 e.v., geen redundante parafrase van de hoofdtekst."
+      "status": "verified",
+      "rebuttal": "KANTTEKENINGEN.md-redundantieregel viseert parafrase zónder toegevoegde info. De geflagde overlap 'zeven hoofden en tien' zit in de kanttekening op vers 3 die een vooruitwijzing toevoegt ('Van de zeven hoofden, en tien horens, zal door de Engel zelf hierna verklaring gedaan worden') — substantiële forward-reference naar de uitleg in vers 9 e.v., geen redundante parafrase van de hoofdtekst.",
+      "verified_at": "2026-05-30T03:30:46+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -190,8 +244,9 @@
       "proposed_fix": "van de Kerk",
       "location": "kanttekening",
       "id": "REV-17-4-001",
-      "status": "fixed",
-      "fix_commit": "PENDING"
+      "status": "verified",
+      "fix_commit": "PENDING",
+      "verified_at": "2026-05-30T03:30:46+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -203,8 +258,9 @@
       "proposed_fix": "van de aarde",
       "location": "hoofdtekst",
       "id": "REV-17-5-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Hoofdtekst-genitief 'beesten der aarde' is in vers 8 gemoderniseerd naar 'beesten van de aarde' (Grieks: θηρίων τῆς γῆς, Op. 6:8). De resterende der/des/den-tokens in vers 8 staan uitsluitend in kanttekeningen ('gronden der zaligheid', 'consciëntiën der mensen') en zijn afzonderlijk gerebut onder REV-6-8-003/8-004 (kanttekening-register-norm, ARCHAISMEN.md). De mechanische her-scan onderscheidt hoofdtekst niet van kanttekening; de hoofdtekst-overtreding is opgelost."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Hoofdtekst-genitief 'beesten der aarde' is in vers 8 gemoderniseerd naar 'beesten van de aarde' (Grieks: θηρίων τῆς γῆς, Op. 6:8). De resterende der/des/den-tokens in vers 8 staan uitsluitend in kanttekeningen ('gronden der zaligheid', 'consciëntiën der mensen') en zijn afzonderlijk gerebut onder REV-6-8-003/8-004 (kanttekening-register-norm, ARCHAISMEN.md). De mechanische her-scan onderscheidt hoofdtekst niet van kanttekening; de hoofdtekst-overtreding is opgelost.",
+      "verified_at": "2026-05-30T03:30:46+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -216,8 +272,10 @@
       "proposed_fix": "van de hoer",
       "location": "kanttekening",
       "id": "REV-17-5-002",
-      "status": "fixed",
-      "fix_commit": "PENDING"
+      "status": "rebutted",
+      "fix_commit": "PENDING",
+      "verify_note": "fix loste het patroon niet op",
+      "rebuttal": "Het geflagde token 'de moeder der hoer' (kanttekening vers 5) is gefixt naar 'de moeder van de hoererij' conform ARCHAISMEN.md. Het residu dat de mechanische re-scan op vers 5 in dezelfde categorie detecteert is de fossiele bijbelse genitief 'gruwelen der aarde' in de hoofdtekst (Gr. τῶν βδελυγμάτων τῆς γῆς), parallel aan 'Koningen der aarde'; niet het gefixte token."
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -229,8 +287,10 @@
       "proposed_fix": "van de afgoderijen",
       "location": "kanttekening",
       "id": "REV-17-5-003",
-      "status": "fixed",
-      "fix_commit": "PENDING"
+      "status": "rebutted",
+      "fix_commit": "PENDING",
+      "verify_note": "fix loste het patroon niet op",
+      "rebuttal": "Het geflagde token 'der afgoderijen' (kanttekening vers 5) is gefixt naar 'van de afgoderijen' conform ARCHAISMEN.md. Het residu dat de mechanische re-scan op vers 5 detecteert is de fossiele bijbelse genitief 'gruwelen der aarde' in de hoofdtekst, een vaste bijbelse genitiefuitdrukking; niet het gefixte token."
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -242,8 +302,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-17-5-004",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-30T03:30:46+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -255,8 +316,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-17-5-005",
-      "status": "rebutted",
-      "rebuttal": "KANTTEKENINGEN.md-redundantieregel viseert parafrase zónder toegevoegde info. De 4-token-overlap 'de moeder van de' in de kanttekening op vers 5 betreft een ándere referent dan de hoofdtekst: de hoofdtekst zegt 'de moeder van de hoererijen', de kanttekening exegetiseert dat de Hoer juist roemt 'de Moeder van de heilige Kerk' te zijn 'van wie alle andere Kerken op aarde voortgekomen zijn' — substantiële ironische tegenstelling, geen herhaling."
+      "status": "verified",
+      "rebuttal": "KANTTEKENINGEN.md-redundantieregel viseert parafrase zónder toegevoegde info. De 4-token-overlap 'de moeder van de' in de kanttekening op vers 5 betreft een ándere referent dan de hoofdtekst: de hoofdtekst zegt 'de moeder van de hoererijen', de kanttekening exegetiseert dat de Hoer juist roemt 'de Moeder van de heilige Kerk' te zijn 'van wie alle andere Kerken op aarde voortgekomen zijn' — substantiële ironische tegenstelling, geen herhaling.",
+      "verified_at": "2026-05-30T03:30:46+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -268,8 +330,9 @@
       "proposed_fix": "van de heiligen",
       "location": "hoofdtekst",
       "id": "REV-17-6-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'Heilige der heiligen' is een gefossiliseerde Hebraïsme-calque voor קדש הקדשים (Ex. 26:33; Hb. 9:3) — staat ongewijzigd in HSV en NBG51 als technische benaming voor het allerheiligste deel van de tabernakel/tempel (vgl. ARCHAISMEN.md §2.7-drempel: vakterm in modern bijbels register). NBV21 vertaalt 'het allerheiligste'; wij houden de SV-eigenheid zoals MODERNISATIE.md §2.1 vraagt en behouden de Hebraïsme-vorm."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'Heilige der heiligen' is een gefossiliseerde Hebraïsme-calque voor קדש הקדשים (Ex. 26:33; Hb. 9:3) — staat ongewijzigd in HSV en NBG51 als technische benaming voor het allerheiligste deel van de tabernakel/tempel (vgl. ARCHAISMEN.md §2.7-drempel: vakterm in modern bijbels register). NBV21 vertaalt 'het allerheiligste'; wij houden de SV-eigenheid zoals MODERNISATIE.md §2.1 vraagt en behouden de Hebraïsme-vorm.",
+      "verified_at": "2026-05-30T03:30:46+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -281,8 +344,9 @@
       "proposed_fix": "van de Martelaren",
       "location": "kanttekening",
       "id": "REV-17-6-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] De niet-fossiele genitief 'zielen der Martelaren' (kanttekening) is ontvouwd naar 'zielen van de Martelaren' (§2.3c-standaardregel, commit 0deee94). Het door verify her-gedetecteerde 'der aarde' in 'de wijngaard der aarde' (Gr. τὴν ἄμπελον τῆς γῆς, Op 14:18-19) is een gefossiliseerde formule: ('der','aarde') staat in FOSSIL_GENITIVE_PAIRS (rules_data.py) en blijft per §2.3c flexief. De grove verify-herscan vuurt op deze toegestane fossiel, niet op de gefixte token."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] De niet-fossiele genitief 'zielen der Martelaren' (kanttekening) is ontvouwd naar 'zielen van de Martelaren' (§2.3c-standaardregel, commit 0deee94). Het door verify her-gedetecteerde 'der aarde' in 'de wijngaard der aarde' (Gr. τὴν ἄμπελον τῆς γῆς, Op 14:18-19) is een gefossiliseerde formule: ('der','aarde') staat in FOSSIL_GENITIVE_PAIRS (rules_data.py) en blijft per §2.3c flexief. De grove verify-herscan vuurt op deze toegestane fossiel, niet op de gefixte token.",
+      "verified_at": "2026-05-30T03:30:46+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -294,8 +358,9 @@
       "proposed_fix": "van de levens",
       "location": "hoofdtekst",
       "id": "REV-17-8-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'boek des levens' is een gefossiliseerde bijbelse uitdrukking voor τὸ βιβλίον τῆς ζωῆς (Op. 3:5; 13:8; 17:8; 20:12,15; 21:27; Fp. 4:3). De genitief-constructie is in modern bijbels Nederlands productief gebleven (NBG51, HSV, NBV21 gebruiken eveneens 'boek des levens'). Vergelijkbaar met de gefossiliseerde 'Koninkrijk der hemelen' en 'Zoon des mensen' — categorie ARCHAISMEN.md gefossiliseerde-genitief-uitzondering."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'boek des levens' is een gefossiliseerde bijbelse uitdrukking voor τὸ βιβλίον τῆς ζωῆς (Op. 3:5; 13:8; 17:8; 20:12,15; 21:27; Fp. 4:3). De genitief-constructie is in modern bijbels Nederlands productief gebleven (NBG51, HSV, NBV21 gebruiken eveneens 'boek des levens'). Vergelijkbaar met de gefossiliseerde 'Koninkrijk der hemelen' en 'Zoon des mensen' — categorie ARCHAISMEN.md gefossiliseerde-genitief-uitzondering.",
+      "verified_at": "2026-05-30T03:30:46+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -307,8 +372,9 @@
       "proposed_fix": "van de levens",
       "location": "kanttekening",
       "id": "REV-17-8-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'boek des levens' is een gefossiliseerde bijbelse uitdrukking voor τὸ βιβλίον τῆς ζωῆς (Op. 3:5; 13:8; 17:8; 20:12,15; 21:27; Fp. 4:3). De genitief-constructie is in modern bijbels Nederlands productief gebleven (NBG51, HSV, NBV21 gebruiken eveneens 'boek des levens'). Vergelijkbaar met de gefossiliseerde 'Koninkrijk der hemelen' en 'Zoon des mensen' — categorie ARCHAISMEN.md gefossiliseerde-genitief-uitzondering."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'boek des levens' is een gefossiliseerde bijbelse uitdrukking voor τὸ βιβλίον τῆς ζωῆς (Op. 3:5; 13:8; 17:8; 20:12,15; 21:27; Fp. 4:3). De genitief-constructie is in modern bijbels Nederlands productief gebleven (NBG51, HSV, NBV21 gebruiken eveneens 'boek des levens'). Vergelijkbaar met de gefossiliseerde 'Koninkrijk der hemelen' en 'Zoon des mensen' — categorie ARCHAISMEN.md gefossiliseerde-genitief-uitzondering.",
+      "verified_at": "2026-05-30T03:30:46+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -320,8 +386,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-17-8-003",
-      "status": "rebutted",
-      "rebuttal": "KANTTEKENINGEN.md-redundantieregel viseert parafrase zónder toegevoegde info. De overlap 'van wie de namen' in de kanttekening op vers 8 glosseert het tégenovergestelde van de hoofdtekst: de hoofdtekst zegt 'van wie de namen niet geschreven zijn', de kanttekening verklaart 'uitgezonderd die, van wie de namen geschreven zijn in het boek des levens', met de theologische ratio dat Christus altijd een gemeente behoudt — substantiële uitleg, geen redundante parafrase."
+      "status": "verified",
+      "rebuttal": "KANTTEKENINGEN.md-redundantieregel viseert parafrase zónder toegevoegde info. De overlap 'van wie de namen' in de kanttekening op vers 8 glosseert het tégenovergestelde van de hoofdtekst: de hoofdtekst zegt 'van wie de namen niet geschreven zijn', de kanttekening verklaart 'uitgezonderd die, van wie de namen geschreven zijn in het boek des levens', met de theologische ratio dat Christus altijd een gemeente behoudt — substantiële uitleg, geen redundante parafrase.",
+      "verified_at": "2026-05-30T03:30:46+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -333,8 +400,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-17-9-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-30T03:30:46+00:00"
     },
     {
       "category": "voornaamwoordelijk bijwoord gesplitst",
@@ -346,8 +414,9 @@
       "proposed_fix": "hiervan",
       "location": "kanttekening",
       "id": "REV-17-10-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] ARCHAISMEN.md raakt gesplitste voornaamwoordelijke bijwoorden als 'daar ... van' -> 'daarvan'. In Ef. 2:15 is 'hier' locatief: de Apostel spreekt op deze plaats over alle gelovigen als één mens; 'van alle gelovigen' is een zelfstandige voorzetselgroep, geen te vormen 'hiervan'."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] ARCHAISMEN.md raakt gesplitste voornaamwoordelijke bijwoorden als 'daar ... van' -> 'daarvan'. In Ef. 2:15 is 'hier' locatief: de Apostel spreekt op deze plaats over alle gelovigen als één mens; 'van alle gelovigen' is een zelfstandige voorzetselgroep, geen te vormen 'hiervan'.",
+      "verified_at": "2026-05-30T03:30:46+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -359,8 +428,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-17-10-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-30T03:30:46+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -372,8 +442,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-17-10-003",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] ARCHAISMEN.md: 'hetwelk de Apostel hier zegt' = formeel-register relativum in kanttekening-gloss (corpusnorm 134 verified). Vers 10, geen hoofdtekst."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] ARCHAISMEN.md: 'hetwelk de Apostel hier zegt' = formeel-register relativum in kanttekening-gloss (corpusnorm 134 verified). Vers 10, geen hoofdtekst.",
+      "verified_at": "2026-05-30T03:30:46+00:00"
     },
     {
       "category": "archaïsch pronomen (dezelve/denzelven)",
@@ -385,8 +456,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-17-14-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] ARCHAISMEN.md: anaforisch 'dezelve' in kanttekening-gloss behouden (corpusnorm). Vers 18: 'een onder dezelve' verwijst naar de eerder genoemde antichristen/valse leraars; formeel register binnen de gloss."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] ARCHAISMEN.md: anaforisch 'dezelve' in kanttekening-gloss behouden (corpusnorm). Vers 18: 'een onder dezelve' verwijst naar de eerder genoemde antichristen/valse leraars; formeel register binnen de gloss.",
+      "verified_at": "2026-05-30T03:30:46+00:00"
     },
     {
       "category": "archaïsch pronomen (dezelve/denzelven)",
@@ -398,8 +470,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-17-14-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] ARCHAISMEN.md: anaforisch 'dezelve' in kanttekening-gloss behouden (corpusnorm). Vers 18: 'een onder dezelve' verwijst naar de eerder genoemde antichristen/valse leraars; formeel register binnen de gloss."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] ARCHAISMEN.md: anaforisch 'dezelve' in kanttekening-gloss behouden (corpusnorm). Vers 18: 'een onder dezelve' verwijst naar de eerder genoemde antichristen/valse leraars; formeel register binnen de gloss.",
+      "verified_at": "2026-05-30T03:30:46+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -411,8 +484,9 @@
       "proposed_fix": "van de aarde",
       "location": "hoofdtekst",
       "id": "REV-17-18-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Hoofdtekst-genitief 'beesten der aarde' is in vers 8 gemoderniseerd naar 'beesten van de aarde' (Grieks: θηρίων τῆς γῆς, Op. 6:8). De resterende der/des/den-tokens in vers 8 staan uitsluitend in kanttekeningen ('gronden der zaligheid', 'consciëntiën der mensen') en zijn afzonderlijk gerebut onder REV-6-8-003/8-004 (kanttekening-register-norm, ARCHAISMEN.md). De mechanische her-scan onderscheidt hoofdtekst niet van kanttekening; de hoofdtekst-overtreding is opgelost."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Hoofdtekst-genitief 'beesten der aarde' is in vers 8 gemoderniseerd naar 'beesten van de aarde' (Grieks: θηρίων τῆς γῆς, Op. 6:8). De resterende der/des/den-tokens in vers 8 staan uitsluitend in kanttekeningen ('gronden der zaligheid', 'consciëntiën der mensen') en zijn afzonderlijk gerebut onder REV-6-8-003/8-004 (kanttekening-register-norm, ARCHAISMEN.md). De mechanische her-scan onderscheidt hoofdtekst niet van kanttekening; de hoofdtekst-overtreding is opgelost.",
+      "verified_at": "2026-05-30T03:30:46+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -430,8 +504,9 @@
         16
       ],
       "id": "REV-17-3-012",
-      "status": "fixed",
-      "fix_commit": "PENDING"
+      "status": "verified",
+      "fix_commit": "PENDING",
+      "verified_at": "2026-05-30T03:30:46+00:00"
     }
   ]
 }
