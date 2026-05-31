@@ -34,6 +34,46 @@
       "generated_at": "2026-05-31T09:35:02.204172Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 4,
+      "original": "Ende haer gestelt hebbende in ’t midden, seyden sy tot hem, Meester, dese vrouwe is op de daet selve gegrepen, overspel begaende.",
+      "modernized": "En nadat zij haar in het midden hadden gesteld, zeiden zij tegen hem: Meester, deze vrouw is op heterdaad betrapt, terwijl zij overspel beging.",
+      "source_text": "λέγουσιν αὐτῷ, Διδάσκαλε, αὕτη ἡ γυνὴ κατειλήφθη ἐπαυτοφώρῳ μοιχευομένη.",
+      "generated_at": "2026-05-31T09:38:59.697573Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 5,
+      "original": "$Levit. 20.10. Deut. 22.22.$ Ende Moses heeft ons in de wet geboden, dat de sulcke <De wet Mosis gebiedt dat sulcke met der doot sullen gestraft worden, Levit. 20.10. maer datse gesteenight moesten worden, schijnen sy besloten te hebben uyt Deut. 22. versen 23, 24.> gesteenight sullen worden: Ghy dan wat seght ghy?",
+      "modernized": "$Lv. 20:10; Dt. 22:22$ En Mozes heeft ons in de wet geboden, dat zulke vrouwen gestenigd zullen worden. Wat zegt u dan? <De wet van Mozes gebiedt dat zulke vrouwen met de dood gestraft moeten worden, $Lv. 20:10$ maar dat zij gestenigd moesten worden, schijnen zij besloten te hebben uit $Dt. 22:23,24$.>",
+      "source_text": "ἐν δὲ τῷ νόμῳ Μωσῆς ἡμῖν ἐνετείλατο τὰς τοιαύτας λιθοβολεῖσθαι· σὺ οὖν τί λέγεις;",
+      "generated_at": "2026-05-31T09:39:58.272703Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "de sulcke",
+          "context": "hoofdtekst en kanttekening",
+          "choice": "zulke vrouwen",
+          "alternatives": [
+            "zulke",
+            "dergelijke"
+          ],
+          "reason": "Grieks tas toiautas is feminien accusatief meervoud (zulke vrouwen); substantivisch zulke alleen is in modern NL onnatuurlijk, daarom het impliciete vrouwen geexpliciteerd conform de geslachtsvorm van het Grieks."
+        }
+      ]
+    },
+    {
+      "verse_number": 6,
+      "original": "Ende dit seyden sy, hem <Nam. met sulcke meeninge, indien hy haer vry sprack, datse hem als een verbreker der wet souden konnen beschuldigen: ende indien hy haer veroordeelde, datse hem als onbarmhertigh by het volck in haet souden brengen.> versoeckende, op dat sy [yet] hadden, om hem te beschuldigen. Maer Iesus neder buckende schreef met den vinger <D. in ’t stof van den vloer des tempels. Wat hy nu geschreven heeft en wort niet uytgedruckt: Sommige meenen dat hy geschreven heeft het selve dat hy haer daer na aenseyde.> in de aerde.",
+      "modernized": "En dit zeiden zij, terwijl zij hem verzochten, <Namelijk, met de bedoeling dat zij hem, als hij haar vrijsprak, als een overtreder van de wet zouden kunnen beschuldigen; en als hij haar veroordeelde, dat zij hem als onbarmhartig bij het volk in haat zouden brengen.> opdat zij [iets] hadden om hem te beschuldigen. Maar Jezus bukte zich neer en schreef met de vinger <Dat is, in het stof van de vloer van de tempel. Wat hij nu geschreven heeft, wordt niet uitgedrukt; sommigen menen dat hij hetzelfde geschreven heeft dat hij hun daarna aanzegde.> in de aarde.",
+      "source_text": "τοῦτο δὲ ἔλεγον πειράζοντες αὐτόν, ἵνα ἔχωσι κατηγορεῖν αὐτοῦ. ὁ δὲ Ἰησοῦς κάτω κύψας, τῷ δακτύλῳ ἔγραφεν εἰς τὴν γῆν.",
+      "generated_at": "2026-05-31T09:41:15.463862Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
