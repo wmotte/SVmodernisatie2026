@@ -88,6 +88,33 @@
       "generated_at": "2026-05-31T01:14:54.397913Z",
       "model": "claude-opus-4-8[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 10,
+      "original": "De Ioden seyden dan tot den genen die genesen was, $Exod. 20.10. Deuter. 5.13. Ierem. 17.21. Matth. 12.2. Marc. 2.24. Luce cap. 6. vers 2.$ Het is Sabbath, ’t en is u niet geoorloft het beddeken te dragen.",
+      "modernized": "De Joden zeiden dan tot hem die genezen was, $Ex. 20:10; Dt. 5:13; Jr. 17:21; Mt. 12:2; Mk. 2:24; Lk. 6:2$ Het is Sabbat, het is u niet geoorloofd het bedje te dragen.",
+      "source_text": "ἔλεγον οὖν οἱ Ἰουδαῖοι τῷ τεθεραπευμένῳ, Σάββατόν ἐστιν· οὐκ ἔξεστί σοι ἆραι τὸν κράββατον.",
+      "generated_at": "2026-05-31T01:18:47.020671Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 11,
+      "original": "Hy antwoordde haer, Die my gesont gemaeckt heeft, die heeft my geseght, Neemt uw’ beddeken op, ende wandelt.",
+      "modernized": "Hij antwoordde hun, Die mij gezond gemaakt heeft, die heeft mij gezegd, Neem uw bedje op, en wandel.",
+      "source_text": "ἀπεκρίθη αὐτοῖς, Ὁ ποιήσας με ὑγιῆ, ἐκεῖνός μοι εἶπεν, Ἆρον τὸν κράββατόν σου καὶ περιπάτει.",
+      "generated_at": "2026-05-31T01:19:10.473331Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 12,
+      "original": "Sy vraeghden hem dan, Wie is de mensche, die u geseght heeft, Neemt uw’ beddeken op, ende wandelt?",
+      "modernized": "Zij vroegen hem dan, Wie is de mens, die u gezegd heeft, Neem uw bedje op, en wandel?",
+      "source_text": "ἠρώτησαν οὖν αὐτόν, Τίς ἐστιν ὁ ἄνθρωπος ὁ εἰπών σοι, Ἆρον τὸν κράββατόν σου καὶ περιπάτει;",
+      "generated_at": "2026-05-31T01:19:28.406359Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
