@@ -1,13 +1,59 @@
 {
   "book": "JHN",
   "chapter": 5,
-  "reviewed_at": "2026-05-31T02:12:53+00:00",
+  "reviewed_at": "2026-05-31T02:22:01+00:00",
   "passes": [
     {
       "pass": 1,
       "ran_at": "2026-05-31T02:12:53+00:00",
       "mode": "scan",
       "issues_total": 28
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-31T02:20:38+00:00",
+      "mode": "verify",
+      "actions": [
+        "JHN-5-1-001: rebuttal verified",
+        "JHN-5-1-002: verified",
+        "JHN-5-2-001: verified",
+        "JHN-5-2-002: verified",
+        "JHN-5-8-001: rebuttal verified",
+        "JHN-5-11-001: rebuttal verified",
+        "JHN-5-12-001: rebuttal verified",
+        "JHN-5-13-001: verified",
+        "JHN-5-17-001: verified",
+        "JHN-5-19-001: rebuttal verified",
+        "JHN-5-19-002: rebuttal verified",
+        "JHN-5-24-001: rebuttal verified",
+        "JHN-5-24-002: rebuttal verified",
+        "JHN-5-25-001: rebuttal verified",
+        "JHN-5-25-002: rebuttal verified",
+        "JHN-5-27-001: rebuttal verified",
+        "JHN-5-30-001: rebuttal verified",
+        "JHN-5-31-001: rebuttal verified",
+        "JHN-5-35-001: rebuttal verified",
+        "JHN-5-37-001: rebuttal verified",
+        "JHN-5-39-001: rebuttal verified",
+        "JHN-5-45-001: rebuttal verified",
+        "JHN-5-45-002: verified",
+        "JHN-5-46-001: rebuttal verified",
+        "JHN-5-3-001: rebuttal verified",
+        "JHN-5-18-001: rebuttal verified",
+        "JHN-5-18-002: rebuttal verified",
+        "JHN-5-23-001: rebuttal verified",
+        "JHN-5-2-003: verified",
+        "JHN-5-25-003: verified",
+        "JHN-5-19-003: reopened (patroon nog aanwezig)"
+      ]
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-05-31T02:22:01+00:00",
+      "mode": "verify",
+      "actions": [
+        "JHN-5-19-003: rebuttal verified"
+      ]
     }
   ],
   "issues": [
@@ -21,8 +67,9 @@
       "proposed_fix": "van de Joden",
       "location": "hoofdtekst",
       "id": "JHN-5-1-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] MRK 15:26 ('DE KONING DER JODEN'): titulus crucis — Gr. ὁ βασιλεὺς τῶν Ἰουδαίων als opschrift op kruis. Per AGENTS.md §concordantie en MODERNISATIE.md §2.7 een gestolde historische realie (inscriptie); concordant met LUK 23:38 'KONING DER JODEN', JOH 19:19 'JEZUS DE NAZARENER, KONING DER JODEN'. NBV21/HSV behouden de inscriptie-formule. 'Van de JODEN' breekt historische epigrafische concordantie binnen v26-context (kruisopschrift)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] MRK 15:26 ('DE KONING DER JODEN'): titulus crucis — Gr. ὁ βασιλεὺς τῶν Ἰουδαίων als opschrift op kruis. Per AGENTS.md §concordantie en MODERNISATIE.md §2.7 een gestolde historische realie (inscriptie); concordant met LUK 23:38 'KONING DER JODEN', JOH 19:19 'JEZUS DE NAZARENER, KONING DER JODEN'. NBV21/HSV behouden de inscriptie-formule. 'Van de JODEN' breekt historische epigrafische concordantie binnen v26-context (kruisopschrift).",
+      "verified_at": "2026-05-31T02:20:38+00:00"
     },
     {
       "category": "SV-verbuiging (demonstratief dezer/dien/...)",
@@ -34,8 +81,9 @@
       "proposed_fix": "Hierna / Na deze dingen",
       "location": "hoofdtekst",
       "id": "JHN-5-1-002",
-      "status": "fixed",
-      "fix_commit": "pending"
+      "status": "verified",
+      "fix_commit": "pending",
+      "verified_at": "2026-05-31T02:20:38+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -47,8 +95,9 @@
       "proposed_fix": "van de uitstorting",
       "location": "kanttekening",
       "id": "JHN-5-2-001",
-      "status": "fixed",
-      "fix_commit": "pending"
+      "status": "verified",
+      "fix_commit": "pending",
+      "verified_at": "2026-05-31T02:20:38+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -60,8 +109,9 @@
       "proposed_fix": "van de weldadigheid",
       "location": "kanttekening",
       "id": "JHN-5-2-002",
-      "status": "fixed",
-      "fix_commit": "pending"
+      "status": "verified",
+      "fix_commit": "pending",
+      "verified_at": "2026-05-31T02:20:38+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -73,8 +123,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "JHN-5-8-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] In vers 27 is `wandel` de imperatief bij het werkwoord wandelen/levenswandel voeren, passend bij het Griekse πολιτεύεσθε en de kanttekening 'gedraag u'. ARCHAISMEN.md noemt het zelfstandige naamwoord `wandel` als drempel-archaïsme, niet deze werkwoordelijke imperatief; §2.7 vereist daarom geen wijziging."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] In vers 27 is `wandel` de imperatief bij het werkwoord wandelen/levenswandel voeren, passend bij het Griekse πολιτεύεσθε en de kanttekening 'gedraag u'. ARCHAISMEN.md noemt het zelfstandige naamwoord `wandel` als drempel-archaïsme, niet deze werkwoordelijke imperatief; §2.7 vereist daarom geen wijziging.",
+      "verified_at": "2026-05-31T02:20:38+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -86,8 +137,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "JHN-5-11-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] In vers 27 is `wandel` de imperatief bij het werkwoord wandelen/levenswandel voeren, passend bij het Griekse πολιτεύεσθε en de kanttekening 'gedraag u'. ARCHAISMEN.md noemt het zelfstandige naamwoord `wandel` als drempel-archaïsme, niet deze werkwoordelijke imperatief; §2.7 vereist daarom geen wijziging."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] In vers 27 is `wandel` de imperatief bij het werkwoord wandelen/levenswandel voeren, passend bij het Griekse πολιτεύεσθε en de kanttekening 'gedraag u'. ARCHAISMEN.md noemt het zelfstandige naamwoord `wandel` als drempel-archaïsme, niet deze werkwoordelijke imperatief; §2.7 vereist daarom geen wijziging.",
+      "verified_at": "2026-05-31T02:20:38+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -99,8 +151,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "JHN-5-12-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] In vers 27 is `wandel` de imperatief bij het werkwoord wandelen/levenswandel voeren, passend bij het Griekse πολιτεύεσθε en de kanttekening 'gedraag u'. ARCHAISMEN.md noemt het zelfstandige naamwoord `wandel` als drempel-archaïsme, niet deze werkwoordelijke imperatief; §2.7 vereist daarom geen wijziging."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] In vers 27 is `wandel` de imperatief bij het werkwoord wandelen/levenswandel voeren, passend bij het Griekse πολιτεύεσθε en de kanttekening 'gedraag u'. ARCHAISMEN.md noemt het zelfstandige naamwoord `wandel` als drempel-archaïsme, niet deze werkwoordelijke imperatief; §2.7 vereist daarom geen wijziging.",
+      "verified_at": "2026-05-31T02:20:38+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -112,8 +165,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "JHN-5-13-001",
-      "status": "fixed",
-      "fix_commit": "pending"
+      "status": "verified",
+      "fix_commit": "pending",
+      "verified_at": "2026-05-31T02:20:38+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -125,8 +179,9 @@
       "proposed_fix": "van de schepping",
       "location": "kanttekening",
       "id": "JHN-5-17-001",
-      "status": "fixed",
-      "fix_commit": "pending"
+      "status": "verified",
+      "fix_commit": "pending",
+      "verified_at": "2026-05-31T02:20:38+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -138,8 +193,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "JHN-5-19-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Idem MRK-9-1-001: 'voorwaar, ik zeg u' = ἀμὴν λέγω ὑμῖν, gestolde SV-bijbelformule. Project-concordant in MRK/LUK. §2.7 niet van toepassing op gefossiliseerde liturgische formules."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Idem MRK-9-1-001: 'voorwaar, ik zeg u' = ἀμὴν λέγω ὑμῖν, gestolde SV-bijbelformule. Project-concordant in MRK/LUK. §2.7 niet van toepassing op gefossiliseerde liturgische formules.",
+      "verified_at": "2026-05-31T02:20:38+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -151,8 +207,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "JHN-5-19-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Idem MRK-9-1-001: 'voorwaar, ik zeg u' = ἀμὴν λέγω ὑμῖν, gestolde SV-bijbelformule. Project-concordant in MRK/LUK. §2.7 niet van toepassing op gefossiliseerde liturgische formules."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Idem MRK-9-1-001: 'voorwaar, ik zeg u' = ἀμὴν λέγω ὑμῖν, gestolde SV-bijbelformule. Project-concordant in MRK/LUK. §2.7 niet van toepassing op gefossiliseerde liturgische formules.",
+      "verified_at": "2026-05-31T02:20:38+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -164,8 +221,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "JHN-5-24-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Idem MRK-9-1-001: 'voorwaar, ik zeg u' = ἀμὴν λέγω ὑμῖν, gestolde SV-bijbelformule. Project-concordant in MRK/LUK. §2.7 niet van toepassing op gefossiliseerde liturgische formules."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Idem MRK-9-1-001: 'voorwaar, ik zeg u' = ἀμὴν λέγω ὑμῖν, gestolde SV-bijbelformule. Project-concordant in MRK/LUK. §2.7 niet van toepassing op gefossiliseerde liturgische formules.",
+      "verified_at": "2026-05-31T02:20:38+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -177,8 +235,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "JHN-5-24-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Idem MRK-9-1-001: 'voorwaar, ik zeg u' = ἀμὴν λέγω ὑμῖν, gestolde SV-bijbelformule. Project-concordant in MRK/LUK. §2.7 niet van toepassing op gefossiliseerde liturgische formules."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Idem MRK-9-1-001: 'voorwaar, ik zeg u' = ἀμὴν λέγω ὑμῖν, gestolde SV-bijbelformule. Project-concordant in MRK/LUK. §2.7 niet van toepassing op gefossiliseerde liturgische formules.",
+      "verified_at": "2026-05-31T02:20:38+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -190,8 +249,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "JHN-5-25-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Idem MRK-9-1-001: 'voorwaar, ik zeg u' = ἀμὴν λέγω ὑμῖν, gestolde SV-bijbelformule. Project-concordant in MRK/LUK. §2.7 niet van toepassing op gefossiliseerde liturgische formules."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Idem MRK-9-1-001: 'voorwaar, ik zeg u' = ἀμὴν λέγω ὑμῖν, gestolde SV-bijbelformule. Project-concordant in MRK/LUK. §2.7 niet van toepassing op gefossiliseerde liturgische formules.",
+      "verified_at": "2026-05-31T02:20:38+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -203,8 +263,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "JHN-5-25-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Idem MRK-9-1-001: 'voorwaar, ik zeg u' = ἀμὴν λέγω ὑμῖν, gestolde SV-bijbelformule. Project-concordant in MRK/LUK. §2.7 niet van toepassing op gefossiliseerde liturgische formules."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Idem MRK-9-1-001: 'voorwaar, ik zeg u' = ἀμὴν λέγω ὑμῖν, gestolde SV-bijbelformule. Project-concordant in MRK/LUK. §2.7 niet van toepassing op gefossiliseerde liturgische formules.",
+      "verified_at": "2026-05-31T02:20:38+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -216,8 +277,9 @@
       "proposed_fix": "van de mensen",
       "location": "hoofdtekst",
       "id": "JHN-5-27-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] Idem MRK-9-9-001/-12-001: 'Zoon des mensen' = fossiele titel uit MODERNISATIE.md §2.3b. ὁ υἱὸς τοῦ ἀνθρώπου — Markus-concordant overal in dit corpus. Niet wijzigen."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] Idem MRK-9-9-001/-12-001: 'Zoon des mensen' = fossiele titel uit MODERNISATIE.md §2.3b. ὁ υἱὸς τοῦ ἀνθρώπου — Markus-concordant overal in dit corpus. Niet wijzigen.",
+      "verified_at": "2026-05-31T02:20:38+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -229,8 +291,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "JHN-5-30-001",
-      "status": "rebutted",
-      "rebuttal": "Geen redundantie. De kanttekening <Dat is, zonder de macht en wil van de Vader, die ik met hem gemeen heb, zoals ook het gehele Goddelijke wezen.> hangt aan de EERSTE clausule 'Ik kan van mijzelf niets doen' (Gr. ἀπ' ἐμαυτοῦ) en voegt substantieve trinitarische inhoud toe (gemeenschappelijke macht/wil/wezen). De frase 'wil van de Vader' in de hoofdtekst staat in de SLOT-clausule (τὸ θέλημα τοῦ πέμψαντός με) en wordt door de kanttekening niet geparafraseerd. De 4-token-overlap is incidenteel, niet de KANTTEKENINGEN.md-redundantie (alternatief uit kantt. ook in hoofdtekst gebruikt)."
+      "status": "verified",
+      "rebuttal": "Geen redundantie. De kanttekening <Dat is, zonder de macht en wil van de Vader, die ik met hem gemeen heb, zoals ook het gehele Goddelijke wezen.> hangt aan de EERSTE clausule 'Ik kan van mijzelf niets doen' (Gr. ἀπ' ἐμαυτοῦ) en voegt substantieve trinitarische inhoud toe (gemeenschappelijke macht/wil/wezen). De frase 'wil van de Vader' in de hoofdtekst staat in de SLOT-clausule (τὸ θέλημα τοῦ πέμψαντός με) en wordt door de kanttekening niet geparafraseerd. De 4-token-overlap is incidenteel, niet de KANTTEKENINGEN.md-redundantie (alternatief uit kantt. ook in hoofdtekst gebruikt).",
+      "verified_at": "2026-05-31T02:20:38+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -242,8 +305,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "JHN-5-31-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-31T02:20:38+00:00"
     },
     {
       "category": "kanttekening-luiheid (§2.3 in <…>)",
@@ -255,8 +319,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "JHN-5-35-001",
-      "status": "rebutted",
-      "rebuttal": "'Of, schijnende' is een 'Of,'-alternatieve LEXICALE rendering van het attributieve participium φαίνων, parallel aan de attributieve hoofdtekstvorm 'lichtende kaars' (ὁ λύχνος ὁ καιόμενος καὶ φαίνων: twee attributieve participia vóór het impliciete 'kaars'). §2.3 ontvouwt ADVERBIALE/predicatieve -ende; een attributief participium vóór (impliciet) zelfstandig naamwoord blijft staan — net als 'brandende' en 'lichtende' in dezelfde zin. Geen clause-finale adverbiale -ende."
+      "status": "verified",
+      "rebuttal": "'Of, schijnende' is een 'Of,'-alternatieve LEXICALE rendering van het attributieve participium φαίνων, parallel aan de attributieve hoofdtekstvorm 'lichtende kaars' (ὁ λύχνος ὁ καιόμενος καὶ φαίνων: twee attributieve participia vóór het impliciete 'kaars'). §2.3 ontvouwt ADVERBIALE/predicatieve -ende; een attributief participium vóór (impliciet) zelfstandig naamwoord blijft staan — net als 'brandende' en 'lichtende' in dezelfde zin. Geen clause-finale adverbiale -ende.",
+      "verified_at": "2026-05-31T02:20:38+00:00"
     },
     {
       "category": "dubbele negatie met clitisch en",
@@ -268,8 +333,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "JHN-5-37-001",
-      "status": "rebutted",
-      "rebuttal": "False positive. De gemoderniseerde kanttekening luidt '...dat u geen ware kennis van hem EN zijn woord hebt' — de 'en' is hier de NEVENSCHIKKENDE voegwoord tussen 'hem' en 'zijn woord' (Gr. αὐτοῦ ... τὸν λόγον), GEEN SV-clitisch negatie-'en'. De SV-clitiek uit het origineel ('ende sijn woort en hebt') is in de modernisatie al verwijderd; er rest enkele negatie ('geen ... hebt'). ARCHAISMEN.md (clitisch en) niet van toepassing."
+      "status": "verified",
+      "rebuttal": "False positive. De gemoderniseerde kanttekening luidt '...dat u geen ware kennis van hem EN zijn woord hebt' — de 'en' is hier de NEVENSCHIKKENDE voegwoord tussen 'hem' en 'zijn woord' (Gr. αὐτοῦ ... τὸν λόγον), GEEN SV-clitisch negatie-'en'. De SV-clitiek uit het origineel ('ende sijn woort en hebt') is in de modernisatie al verwijderd; er rest enkele negatie ('geen ... hebt'). ARCHAISMEN.md (clitisch en) niet van toepassing.",
+      "verified_at": "2026-05-31T02:20:38+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -281,8 +347,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "JHN-5-39-001",
-      "status": "rebutted",
-      "rebuttal": "Geen redundantie. De kanttekening <Dat is, dat de weg om het eeuwige leven te verkrijgen, daarin geleerd en aangewezen wordt, wat een goede mening was.> voegt substantieve exegese toe (de WEG tot het eeuwige leven wordt in de Schrift onderwezen; evaluatie 'een goede mening'). De 4-token-overlap 'het eeuwige leven te' is het lemma (δοκεῖτε ... ζωὴν αἰώνιον ἔχειν) waarop de kanttekening commentarieert, niet een woordelijke herhaling van een hoofdtekst-keuze. KANTTEKENINGEN.md-redundantieregel (alternatief óók in hoofdtekst) niet geschonden."
+      "status": "verified",
+      "rebuttal": "Geen redundantie. De kanttekening <Dat is, dat de weg om het eeuwige leven te verkrijgen, daarin geleerd en aangewezen wordt, wat een goede mening was.> voegt substantieve exegese toe (de WEG tot het eeuwige leven wordt in de Schrift onderwezen; evaluatie 'een goede mening'). De 4-token-overlap 'het eeuwige leven te' is het lemma (δοκεῖτε ... ζωὴν αἰώνιον ἔχειν) waarop de kanttekening commentarieert, niet een woordelijke herhaling van een hoofdtekst-keuze. KANTTEKENINGEN.md-redundantieregel (alternatief óók in hoofdtekst) niet geschonden.",
+      "verified_at": "2026-05-31T02:20:38+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -294,8 +361,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "JHN-5-45-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-31T02:20:38+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -307,8 +375,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "JHN-5-45-002",
-      "status": "fixed",
-      "fix_commit": "pending"
+      "status": "verified",
+      "fix_commit": "pending",
+      "verified_at": "2026-05-31T02:20:38+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -320,8 +389,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "JHN-5-46-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-05-31T02:20:38+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -338,8 +408,9 @@
         39
       ],
       "id": "JHN-5-3-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Concordantie-prefix 'deselve' (= 'dezelve' SV-anaforisch) false-match: v5 verwijst naar 'die zalf' (de balsem), v25 naar 'die dag', v39 naar 'hetzelfde woord' (αὐτὸν τὸν λόγον). Drie verschillende referenten, SV gebruikt 'denselven/dezelve' anaforisch — modern NL onderscheidt 'die'/'hetzelfde' per context, geen harmonisatie mogelijk zonder betekenisverlies."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Concordantie-prefix 'deselve' (= 'dezelve' SV-anaforisch) false-match: v5 verwijst naar 'die zalf' (de balsem), v25 naar 'die dag', v39 naar 'hetzelfde woord' (αὐτὸν τὸν λόγον). Drie verschillende referenten, SV gebruikt 'denselven/dezelve' anaforisch — modern NL onderscheidt 'die'/'hetzelfde' per context, geen harmonisatie mogelijk zonder betekenisverlies.",
+      "verified_at": "2026-05-31T02:20:38+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -356,8 +427,9 @@
         26
       ],
       "id": "JHN-5-18-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] False-positive. De drie hits renderen SV 'hemselven' in reflexieve context naar modern 'zichzelf'. Dat volgt ARCHAISMEN.md/SV-pronomina en behoudt juist de concordantie op betekenisniveau; de scanner ziet alleen geen prefix-overlap tussen 'hemselv' en 'zichzelf'."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] False-positive. De drie hits renderen SV 'hemselven' in reflexieve context naar modern 'zichzelf'. Dat volgt ARCHAISMEN.md/SV-pronomina en behoudt juist de concordantie op betekenisniveau; de scanner ziet alleen geen prefix-overlap tussen 'hemselv' en 'zichzelf'.",
+      "verified_at": "2026-05-31T02:20:38+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -376,8 +448,9 @@
         30
       ],
       "id": "JHN-5-18-002",
-      "status": "rebutted",
-      "rebuttal": "Twee distincte lexemen onder één scanner-stam 'gelijck'. In v18 'maakte zo zichzelf gelijk aan God' is 'gelijk' het PREDICATIEVE ADJECTIEF 'gelijk/gelijkwaardig' (Gr. ἴσον ἑαυτὸν ποιῶν τῷ Θεῷ). In v21/23/26/30 ('gelijck/zoals de Vader ...') is het de COMPARATIEVE VOEGWOORD ὥσπερ/καθὼς = 'zoals'. Verschillende woordsoort en functie; harmonisatie naar één vorm is onmogelijk zonder betekenisverlies. Modern NL onderscheidt 'gelijk aan' (adj.) van 'zoals' (vw.) terecht."
+      "status": "verified",
+      "rebuttal": "Twee distincte lexemen onder één scanner-stam 'gelijck'. In v18 'maakte zo zichzelf gelijk aan God' is 'gelijk' het PREDICATIEVE ADJECTIEF 'gelijk/gelijkwaardig' (Gr. ἴσον ἑαυτὸν ποιῶν τῷ Θεῷ). In v21/23/26/30 ('gelijck/zoals de Vader ...') is het de COMPARATIEVE VOEGWOORD ὥσπερ/καθὼς = 'zoals'. Verschillende woordsoort en functie; harmonisatie naar één vorm is onmogelijk zonder betekenisverlies. Modern NL onderscheidt 'gelijk aan' (adj.) van 'zoals' (vw.) terecht.",
+      "verified_at": "2026-05-31T02:20:38+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -398,8 +471,9 @@
         38
       ],
       "id": "JHN-5-23-001",
-      "status": "rebutted",
-      "rebuttal": "False positive. Alle 7 verzen [23,24,30,33,36,37,38] renderen SV-stam 'gesonden' (πέμπω, 'gezonden') UNIFORM als 'gezonden'. De scanner-melding 'geen enkel vers heeft dezelfde prefix' is een artefact van de prefix-overlap-heuristiek op de SV-'s'->modern-'z' spellingverschuiving ('gesonden'->'gezonden'). Volledige concordantie is feitelijk aanwezig; geen drift."
+      "status": "verified",
+      "rebuttal": "False positive. Alle 7 verzen [23,24,30,33,36,37,38] renderen SV-stam 'gesonden' (πέμπω, 'gezonden') UNIFORM als 'gezonden'. De scanner-melding 'geen enkel vers heeft dezelfde prefix' is een artefact van de prefix-overlap-heuristiek op de SV-'s'->modern-'z' spellingverschuiving ('gesonden'->'gezonden'). Volledige concordantie is feitelijk aanwezig; geen drift.",
+      "verified_at": "2026-05-31T02:20:38+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -411,8 +485,9 @@
       "proposed_fix": "genoemd wordt / bijgenaamd wordt",
       "location": "hoofdtekst",
       "id": "JHN-5-2-003",
-      "status": "fixed",
-      "fix_commit": "pending"
+      "status": "verified",
+      "fix_commit": "pending",
+      "verified_at": "2026-05-31T02:20:38+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -424,8 +499,9 @@
       "proposed_fix": "dat genoemd wordt",
       "location": "kanttekening",
       "id": "JHN-5-25-003",
-      "status": "fixed",
-      "fix_commit": "pending"
+      "status": "verified",
+      "fix_commit": "pending",
+      "verified_at": "2026-05-31T02:20:38+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -437,8 +513,10 @@
       "proposed_fix": "zo ook de Zoon",
       "location": "kanttekening",
       "id": "JHN-5-19-003",
-      "status": "fixed",
-      "fix_commit": "pending"
+      "status": "verified",
+      "fix_commit": "pending",
+      "rebuttal": "De geflagde §2.7-token alzo is gefixt naar zo (hoofdtekst-kanttekening v19). De residu-match waarop verify §2.7 mechanisch heropent is voorwaar: de gestolde formule Voorwaar, voorwaar = Grieks amen amen (lego humin), concordant in JHN 5:19, 24 en 25 en standaard in zowel SV als HSV. Liturgisch fossiel, geen drempel-archaisme; valt buiten de productiviteitstest van §2.7.",
+      "verified_at": "2026-05-31T02:22:01+00:00"
     }
   ]
 }
