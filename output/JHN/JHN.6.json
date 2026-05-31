@@ -61,6 +61,33 @@
       "generated_at": "2026-05-31T02:31:55.893348Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 7,
+      "original": "Philippus antwoordde hem, Voor twee hondert <Gr. denarien, dat is, schellingen ofte realen. siet Matth. cap. 18. vers 28.> penningen broot en is dese niet genoegh, op dat een yegelick van haer een weynigh neme.",
+      "modernized": "Filippus antwoordde hem: Voor tweehonderd <Grieks: denariën, dat is, schellingen of realen. Zie $Mt. 18:28$.> penningen brood is voor dezen niet genoeg, opdat ieder van hen een weinig neemt.",
+      "source_text": "ἀπεκρίθη αὐτῷ Φίλιππος, Διακοσίων δηναρίων ἄρτοι οὐκ ἀρκοῦσιν αὐτοῖς, ἵνα ἕκαστος αὐτῶν βραχύ τι λάβῃ.",
+      "generated_at": "2026-05-31T02:35:07.418874Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 8,
+      "original": "Een van sijne discipelen, [namelick] Andreas, de broeder Simonis Petri, seyde tot hem,",
+      "modernized": "Een van zijn discipelen, [namelijk] Andreas, de broer van Simon Petrus, zei tot hem:",
+      "source_text": "λέγει αὐτῷ εἷς ἐκ τῶν μαθητῶν αὐτοῦ, Ἀνδρέας ὁ ἀδελφὸς Σίμωνος Πέτρου,",
+      "generated_at": "2026-05-31T02:35:28.786218Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 9,
+      "original": "Hier is een jonghsken, dat vijf gersten brooden heeft, ende twee <Gr. eygentlick, gebraden vischkens.> vischkens: maer $2.Reg. 4.43.$ wat zijn dese onder soo vele?",
+      "modernized": "Hier is een jongetje dat vijf gerstebroden heeft, en twee <Grieks: eigenlijk, gebraden visjes.> visjes; maar $2Kn. 4:43$ wat zijn dezen onder zo velen?",
+      "source_text": "Ἔστι παιδάριον ἓν ὧδε, ὃ ἔχει πέντε ἄρτους κριθίνους καὶ δύο ὀψάρια· ἀλλὰ ταῦτα τί ἐστιν εἰς τοσούτους;",
+      "generated_at": "2026-05-31T02:35:51.809904Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
