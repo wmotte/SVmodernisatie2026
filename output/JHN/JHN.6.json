@@ -506,6 +506,33 @@
       "generated_at": "2026-05-31T03:42:11.538364Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 55,
+      "original": "Want mijn vleesch is <Siet vers 32.> waerlick spijse, ende mijn bloet is waerlick dranck.",
+      "modernized": "Want mijn vlees is <Zie vers 32.> waarlijk voedsel, en mijn bloed is waarlijk drank.",
+      "source_text": "ἡ γὰρ σάρξ μου ἀληθῶς ἐστι βρῶσις, καὶ τὸ αἷμά μου ἀληθῶς ἐστι πόσις.",
+      "generated_at": "2026-05-31T03:45:21.128644Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 56,
+      "original": "Die mijn vleesch eet, ende mijn bloet drinckt, die <D. wort ende blijft met my geestelick vereenight, ende ick met hem, Ephes. 3.17.> blijft in my, ende ick in hem.",
+      "modernized": "Die mijn vlees eet, en mijn bloed drinkt, die <Dat is, wordt en blijft met mij geestelijk verenigd, en ik met hem, $Ef. 3:17$.> blijft in mij, en ik in hem.",
+      "source_text": "ὁ τρώγων μου τὴν σάρκα καὶ πίνων μου τὸ αἷμα, ἐν ἐμοὶ μένει, κἀγὼ ἐν αὐτῷ.",
+      "generated_at": "2026-05-31T03:45:47.910492Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 57,
+      "original": "Gelijckerwijs my de levende Vader gesonden heeft, ende ick <Siet Ioan. 5.26.> leve door den Vader, [alsoo] die <D. in my gelooft, vers 35.> my eet, deselve sal leven door my.",
+      "modernized": "Zoals de levende Vader mij gezonden heeft, en ik <Zie $Jh. 5:26$.> leef door de Vader, [zo] zal hij die <Dat is, in mij gelooft, vers 35.> mij eet, leven door mij.",
+      "source_text": "καθὼς ἀπέστειλέ με ὁ ζῶν Πατήρ, κἀγὼ ζῶ διὰ τὸν Πατέρα· καὶ ὁ τρώγων με, κἀκεῖνος ζήσεται δι’ ἐμέ.",
+      "generated_at": "2026-05-31T03:46:17.059495Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
