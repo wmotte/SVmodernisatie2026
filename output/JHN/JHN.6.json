@@ -533,6 +533,33 @@
       "generated_at": "2026-05-31T03:46:17.059495Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 58,
+      "original": "Dit is het $Ioan. 3.13.$ broot dat uyt den hemel neder gedaelt is. Niet gelijck uwe vaders het manna gegeten hebben, ende zijn <Siet vers 49.> gestorven: die dit broot eet sal in der eeuwigheyt leven.",
+      "modernized": "Dit is het $Jh. 3:13$ brood dat uit de hemel neergedaald is. Niet zoals uw vaders het manna gegeten hebben, en <Zie vers 49.> gestorven zijn: die dit brood eet, zal in eeuwigheid leven.",
+      "source_text": "οὗτός ἐστιν ὁ ἄρτος ὁ ἐκ τοῦ οὐρανοῦ καταβάς· οὐ καθὼς ἔφαγον οἱ πατέρες ὑμῶν τὸ μάννα, καὶ ἀπέθανον· ὁ τρώγων τοῦτον τὸν ἄρτον, ζήσεται εἰς τὸν αἰῶνα.",
+      "generated_at": "2026-05-31T03:50:09.611674Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 59,
+      "original": "Dese dingen seyde hy in de Synagoge, leerende te Capernaum.",
+      "modernized": "Deze dingen zei hij in de Synagoge, terwijl hij onderwees te Kapernaum.",
+      "source_text": "ταῦτα εἶπεν ἐν συναγωγῇ διδάσκων ἐν Καπερναούμ.",
+      "generated_at": "2026-05-31T03:50:20.952484Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 4
+    },
+    {
+      "verse_number": 60,
+      "original": "Vele dan van sijne discipelen [dit] hoorende, seyden, <Dit seggen sy, om datse Christi woorden niet geestelick maer vleeschelick verstonden. Want soo verstaen zijnde soude het in der daet een harde reden zijn, gelijck oock Nicodemus de woorden Christi van de wedergeboorte alsoo verstont, Ioan. cap. 3. vers 4.> Dese reden is hardt: wie kan deselve hooren?",
+      "modernized": "Toen velen dan van zijn discipelen [dit] hoorden, zeiden zij, <Dit zeggen zij, omdat zij Christus' woorden niet geestelijk maar vleselijk verstonden. Want zo verstaan zou het inderdaad een harde rede zijn, zoals ook Nicodemus de woorden van Christus over de wedergeboorte zo verstond, $Jh. 3:4$.> Deze rede is hard: wie kan die horen?",
+      "source_text": "Πολλοὶ οὖν ἀκούσαντες ἐκ τῶν μαθητῶν αὐτοῦ εἶπον, Σκληρός ἐστιν οὗτος ὁ λόγος· τίς δύναται αὐτοῦ ἀκούειν;",
+      "generated_at": "2026-05-31T03:50:46.094769Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
