@@ -277,6 +277,46 @@
       "generated_at": "2026-05-31T03:08:12.737418Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 31,
+      "original": "$Exod. 16.4, 14. Num. 11.7.$ Onse vaders hebben het <Van dit manna siet Exod. 16.15, 32. Num. 11.7, 8.> manna gegeten in de woestijne: gelijck geschreven is, $Psalm 78.24. 1.Cor. 10.3.$ Hy gaf haer ’t broot <D. dat uyt de lucht neder viel.> uyt den hemel te eten.",
+      "modernized": "$Ex. 16:4,14; Nm. 11:7$ Onze vaders hebben het <Van dit manna zie $Ex. 16:15,32; Nm. 11:7,8$.> manna gegeten in de woestijn, zoals geschreven is: $Ps. 78:24; 1Kor. 10:3$ Hij gaf hun het brood <Dat is, dat uit de lucht neerviel.> uit de hemel te eten.",
+      "source_text": "οἱ πατέρες ἡμῶν τὸ μάννα ἔφαγον ἐν τῇ ἐρήμῳ, καθώς ἐστι γεγραμμένον, Ἄρτον ἐκ τοῦ οὐρανοῦ ἔδωκεν αὐτοῖς φαγεῖν.",
+      "generated_at": "2026-05-31T03:11:34.608340Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 32,
+      "original": "Iesus dan seyde tot haer, Voorwaer voorwaer segge ick u, Moses en heeft u niet gegeven het broot uyt den hemel: maer mijn Vader geeft u dat <D. het recht geestelick ende hemelsch broot, waer van het manna maer een figure of schaduwe geweest en is: gelijck waerheyt dickwils tegen figuren gestelt wort, Ioan. 1.17. Hebr. 8.2.> ware broot uyt den hemel.",
+      "modernized": "Jezus dan zei tot hen: Voorwaar, voorwaar, zeg ik u, Mozes heeft u niet het brood uit de hemel gegeven; maar mijn Vader geeft u het <Dat is, het echte geestelijke en hemelse brood, waarvan het manna maar een voorafbeelding of schaduw geweest is; zoals waarheid dikwijls tegenover voorafbeeldingen gesteld wordt, $Jh. 1:17; Hb. 8:2$.> ware brood uit de hemel.",
+      "source_text": "εἶπεν οὖν αὐτοῖς ὁ Ἰησοῦς, Ἀμὴν ἀμὴν λέγω ὑμῖν, Οὐ Μωσῆς δέδωκεν ὑμῖν τὸν ἄρτον ἐκ τοῦ οὐρανοῦ· ἀλλ’ ὁ Πατήρ μου δίδωσιν ὑμῖν τὸν ἄρτον ἐκ τοῦ οὐρανοῦ τὸν ἀληθινόν.",
+      "generated_at": "2026-05-31T03:12:13.997572Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "figuur/voorafbeelding",
+          "context": "kanttekening",
+          "choice": "figure/figuren weergegeven als voorafbeelding/voorafbeeldingen",
+          "alternatives": [
+            "figuur/figuren",
+            "voorafschaduwing"
+          ],
+          "reason": "typologische term; modern Nederlands woord behouden zonder de zaak te wijzigen (manna als type van Christus)"
+        }
+      ]
+    },
+    {
+      "verse_number": 33,
+      "original": "Want <D. dat Godt de menschen geeft om eeuwelick te leven.> het broot Godts is <Namelick, de Sone Godts.> hy die uyt den hemel <Dat is, neder gedaelt is, D. die van den Vader tot een Middelaer is gesonden in de werelt, ende tot dien eynde de menschelicke nature op der aerden heeft aengenomen, Philip. 2.6, 7. 1.Tim. 3.16.> neder daelt, ende die <D. de uytverkorene ende geloovige door de geheele werelt, soo wel Heydenen als Ioden, Ioan. 11.52.> der werelt het leven geeft.",
+      "modernized": "Want <Dat is, dat God de mensen geeft om eeuwig te leven.> het brood Gods is <Namelijk, de Zoon Gods.> hij die uit de hemel <Dat is, neergedaald is, dat is, die van de Vader tot een Middelaar in de wereld gezonden is, en daartoe de menselijke natuur op de aarde heeft aangenomen, $Fp. 2:6,7; 1Tm. 3:16$.> neerdaalt, en die <Dat is, de uitverkorenen en gelovigen door de gehele wereld, zowel Heidenen als Joden, $Jh. 11:52$.> de wereld het leven geeft.",
+      "source_text": "ὁ γὰρ ἄρτος τοῦ Θεοῦ ἐστιν ὁ καταβαίνων ἐκ τοῦ οὐρανοῦ καὶ ζωὴν διδοὺς τῷ κόσμῳ.",
+      "generated_at": "2026-05-31T03:12:48.051472Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
