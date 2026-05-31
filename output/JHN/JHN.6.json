@@ -34,6 +34,33 @@
       "generated_at": "2026-05-31T02:26:54.586711Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 4,
+      "original": "Ende <Dit was het derde Pascha na den doop Christi. Van ’t eerste siet Ioan. 2. vers 13. ende van het tweede Ioan. 5.1.> het Pascha, $Exod. 12.18. Levit. 23.5, 7. Numer. 28.16. Deut 16.1.$ het feest der Ioden, was na by.",
+      "modernized": "En <Dit was het derde Pascha na de doop van Christus. Over het eerste zie $Jh. 2:13$ en over het tweede $Jh. 5:1$.> het Pascha, $Ex. 12:18; Lv. 23:5,7; Nm. 28:16; Dt. 16:1$ het feest der Joden, was nabij.",
+      "source_text": "ἦν δὲ ἐγγὺς τὸ πάσχα, ἡ ἑορτὴ τῶν Ἰουδαίων.",
+      "generated_at": "2026-05-31T02:30:59.222698Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 5,
+      "original": "$Matth. 14.14. Marc. 6.34. Luce 9.13.$ Iesus dan de oogen opheffende, ende siende dat een groote schare tot hem quam, seyde tot Philippum, <Of, waer van.> Van waer sullen wy brooden koopen op dat dese eten mogen?",
+      "modernized": "$Mt. 14:14; Mk. 6:34; Lk. 9:13$ Toen Jezus dan de ogen ophief en zag dat een grote schare tot hem kwam, zei hij tegen Filippus: <Of, waarvan.> Vanwaar zullen wij broden kopen, opdat dezen mogen eten?",
+      "source_text": "ἐπάρας οὖν ὁ Ἰησοῦς τοὺς ὀφθαλμούς, καὶ θεασάμενος ὅτι πολὺς ὄχλος ἔρχεται πρὸς αὐτόν, λέγει πρὸς τὸν Φίλιππον, Πόθεν ἀγοράσομεν ἄρτους, ἵνα φάγωσιν οὗτοι;",
+      "generated_at": "2026-05-31T02:31:33.671156Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 6,
+      "original": "(Doch dit seyde hy hem beproevende: want hy <Dat is, hadde nu al by hemselven besloten.> wist selve wat hy doen soude.)",
+      "modernized": "(Maar dit zei hij om hem te beproeven: want hij <Dat is, had nu al bij zichzelf besloten.> wist zelf wat hij doen zou.)",
+      "source_text": "τοῦτο δὲ ἔλεγε πειράζων αὐτόν· αὐτὸς γὰρ ᾔδει τί ἔμελλε ποιεῖν.",
+      "generated_at": "2026-05-31T02:31:55.893348Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
