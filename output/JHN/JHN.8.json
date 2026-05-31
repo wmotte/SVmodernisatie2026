@@ -356,6 +356,45 @@
       "generated_at": "2026-05-31T10:27:26.522607Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 37,
+      "original": "Ick weet dat ghy Abrahams <Namelick, na den vleesche.> zaet zijt: maer ghy soeckt my <Ende daer mede betoont ghy dat ghy geen rechte kinderen Abrahams en zijt. Siet vers 39.> te dooden, want mijn woort <Ofte, en gaet niet door in u, Dat is, in u herte.> en heeft in u geen plaetse.",
+      "modernized": "Ik weet dat u Abrahams <Namelijk, naar het vlees.> zaad bent; maar u zoekt mij <En daarmee toont u dat u geen rechte kinderen van Abraham bent. Zie vers 39.> te doden, want mijn woord <Of, gaat niet door in u, Dat is, in uw hart.> heeft in u geen plaats.",
+      "source_text": "οἶδα ὅτι σπέρμα Ἀβραάμ ἐστε· ἀλλὰ ζητεῖτέ με ἀποκτεῖναι, ὅτι ὁ λόγος ὁ ἐμὸς οὐ χωρεῖ ἐν ὑμῖν.",
+      "generated_at": "2026-05-31T10:30:37.094410Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 38,
+      "original": "$Ioan. 3.11. ende 7.16. ende 12.49. ende 14.10, 24.$ Ick spreke <Siet Ioan. 5.19, 20.> dat ick by mijnen Vader gesien hebbe: ghy doet dan oock, dat ghy <D. dat ghy door ingeven des duyvels geleert hebt. Siet vers 44.> by uwen vader gesien hebt.",
+      "modernized": "$Jh. 3:11; 7:16; 12:49; 14:10,24$ Ik spreek <Zie $Jh. 5:19,20$.> wat ik bij mijn Vader gezien heb; u doet dan ook wat u <Dat is, dat u door ingeven van de duivel geleerd hebt. Zie vers 44.> bij uw vader gezien hebt.",
+      "source_text": "ἐγὼ ὃ ἑώρακα παρὰ τῷ Πατρί μου, λαλῶ· καὶ ὑμεῖς οὖν ὃ ἑωράκατε παρὰ τῷ πατρὶ ὑμῶν, ποιεῖτε.",
+      "generated_at": "2026-05-31T10:31:02.562203Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "broncorrectie bibref Jh. 3:11",
+          "context": "openingsverwijzing",
+          "choice": "SV1657-misdruk Ioan. 33.11. gecorrigeerd naar Ioan. 3.11. (Jh. 3:11)",
+          "alternatives": [
+            "byte-exact 33:11 behouden"
+          ],
+          "reason": "SV1657 2e druk drukt Ioan. 33.11.; Johannes heeft geen hoofdstuk 33, dus de verwijzing is intern onmogelijk. Drie onafhankelijke aanwijzingen voor 3:11: (1) Jh. 3:11 verwijst zelf reciprook terug naar deze cluster (8:28, 7:16, 12:49, 14:24); (2) HSV rendert dezelfde verwijzing als Joh. 3:11; (3) thematische parallel (spreken wat bij de Vader gezien/gehoord is). Categorie-5 broncorrectie conform semantic-protocol; mapping toegevoegd aan scripts/source_corrections.py, naar analogie van COL 1:13, LUK 1:53, JAS 2:23."
+        }
+      ]
+    },
+    {
+      "verse_number": 39,
+      "original": "Sy antwoordden ende seyden tot hem, Abraham is onse vader. Iesus seyde tot haer, $Rom. 2.28. ende 9.7.$ Indien ghy <Dat is, rechte ende ware kinderen Abrahams.> Abrahams kinderen waert, soo soudt ghy de wercken Abrahams doen.",
+      "modernized": "Zij antwoordden en zeiden tot hem: Abraham is onze vader. Jezus zei tot hen: $Rm. 2:28; 9:7$ Indien u <Dat is, rechte en ware kinderen van Abraham.> Abrahams kinderen waart, zo zou u de werken van Abraham doen.",
+      "source_text": "ἀπεκρίθησαν καὶ εἶπον αὐτῷ, Ὁ πατὴρ ἡμῶν Ἀβραάμ ἐστι. λέγει αὐτοῖς ὁ Ἰησοῦς, Εἰ τέκνα τοῦ Ἀβραὰμ ἦτε, τὰ ἔργα τοῦ Ἀβραὰμ ἐποιεῖτε ἄν.",
+      "generated_at": "2026-05-31T10:31:24.585120Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
