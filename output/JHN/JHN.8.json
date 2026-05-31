@@ -155,6 +155,45 @@
       "generated_at": "2026-05-31T09:55:53.749321Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 16,
+      "original": "Ende indien ick oock oordeele, mijn oordeel is waerachtigh: want ick en ben niet alleen, maer <Namelick, ick, voor soo veel ick de Sone Godts ben, ende de Vader, wy zijn twee getuygen. Ende derhalven is mijn getuygenisse waerachtigh, gelijck Christus besluyt versen 17, 18.> ick, ende de Vader die my gesonden heeft.",
+      "modernized": "En indien ik ook oordeel, is mijn oordeel waarachtig; want ik ben niet alleen, maar <Namelijk, ik, voor zover ik de Zoon van God ben, en de Vader, wij zijn twee getuigen. En daarom is mijn getuigenis waarachtig, zoals Christus besluit in de verzen 17 en 18.> ik, en de Vader die mij gezonden heeft.",
+      "source_text": "καὶ ἐὰν κρίνω δὲ ἐγώ, ἡ κρίσις ἡ ἐμὴ ἀληθής ἐστιν· ὅτι μόνος οὐκ εἰμί, ἀλλ’ ἐγὼ καὶ ὁ πέμψας με Πατήρ.",
+      "generated_at": "2026-05-31T09:59:11.709537Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "interne versverwijzing",
+          "context": "kanttekening",
+          "choice": "versen 17, 18 als proza \"in de verzen 17 en 18\" weergegeven",
+          "alternatives": [
+            "$Jh. 17:18$"
+          ],
+          "reason": "De verwijzing is intern naar dit hoofdstuk (verzen 17 en 18 van Johannes 8), geen los bijbelref; bibref.py interpreteert het abusievelijk als hoofdstuk 17:18."
+        }
+      ]
+    },
+    {
+      "verse_number": 17,
+      "original": "$Num. 35.30. Deut. 17.6. ende 19.15. Matth. 18.16. 2.Cor. 13.1. Hebr. 10.28.$ Ende daer is oock in uwe <Nam. Deut. 17. vers 6. ende 19.15.> wet geschreven, dat het getuygenisse van twee menschen <Dat is, genoeghsaem om aengenomen te worden in het gerichte.> waerachtigh is.",
+      "modernized": "$Nm. 35:30; Dt. 17:6; 19:15; Mt. 18:16; 2Kor. 13:1; Hb. 10:28$ En er is ook in uw <Namelijk, $Dt. 17:6; 19:15$.> wet geschreven, dat het getuigenis van twee mensen <Dat is, genoegzaam om in het gericht aangenomen te worden.> waarachtig is.",
+      "source_text": "καὶ ἐν τῷ νόμῳ δὲ τῷ ὑμετέρῳ γέγραπται ὅτι δύο ἀνθρώπων ἡ μαρτυρία ἀληθής ἐστιν.",
+      "generated_at": "2026-05-31T10:00:05.967966Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 18,
+      "original": "Ick ben ’t die van my selven getuyge, ende $Matth. 3.17. ende 17.5. Marc. 1.11. ende 9.7. Luce 3.22. ende 9.35. Ioan. 1.33. ende 5.37 ende 6.27.$ de Vader, die my gesonden heeft, getuyght van my.",
+      "modernized": "Ik ben het die van mijzelf getuig, en $Mt. 3:17; 17:5; Mk. 1:11; 9:7; Lk. 3:22; 9:35; Jh. 1:33; 5:37; 6:27$ de Vader, die mij gezonden heeft, getuigt van mij.",
+      "source_text": "ἐγώ εἰμι ὁ μαρτυρῶν περὶ ἐμαυτοῦ, καὶ μαρτυρεῖ περὶ ἐμοῦ ὁ πέμψας με Πατήρ.",
+      "generated_at": "2026-05-31T10:00:25.727474Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
