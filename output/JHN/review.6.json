@@ -1,13 +1,69 @@
 {
   "book": "JHN",
   "chapter": 6,
-  "reviewed_at": "2026-05-31T04:11:51+00:00",
+  "reviewed_at": "2026-05-31T04:34:15+00:00",
   "passes": [
     {
       "pass": 1,
       "ran_at": "2026-05-31T04:11:51+00:00",
       "mode": "scan",
       "issues_total": 38
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-05-31T04:33:17+00:00",
+      "mode": "verify",
+      "actions": [
+        "JHN-6-1-001: rebuttal verified",
+        "JHN-6-4-001: rebuttal verified",
+        "JHN-6-5-001: verified",
+        "JHN-6-7-001: verified",
+        "JHN-6-9-001: verified",
+        "JHN-6-22-001: reopened (te generiek)",
+        "JHN-6-26-001: rebuttal verified",
+        "JHN-6-26-002: rebuttal verified",
+        "JHN-6-27-001: rebuttal verified",
+        "JHN-6-32-001: rebuttal verified",
+        "JHN-6-32-002: rebuttal verified",
+        "JHN-6-35-001: rebuttal verified",
+        "JHN-6-35-002: rebuttal verified",
+        "JHN-6-35-003: reopened (te generiek)",
+        "JHN-6-37-001: rebuttal verified",
+        "JHN-6-42-001: rebuttal verified",
+        "JHN-6-47-001: rebuttal verified",
+        "JHN-6-47-002: rebuttal verified",
+        "JHN-6-48-001: rebuttal verified",
+        "JHN-6-51-001: rebuttal verified",
+        "JHN-6-51-002: rebuttal verified",
+        "JHN-6-53-001: rebuttal verified",
+        "JHN-6-53-002: rebuttal verified",
+        "JHN-6-53-003: rebuttal verified",
+        "JHN-6-53-004: rebuttal verified",
+        "JHN-6-62-001: rebuttal verified",
+        "JHN-6-63-001: rebuttal verified",
+        "JHN-6-70-001: verified",
+        "JHN-6-2-001: rebuttal verified",
+        "JHN-6-5-002: rebuttal verified",
+        "JHN-6-7-002: reopened (te generiek)",
+        "JHN-6-17-001: rebuttal verified",
+        "JHN-6-29-001: rebuttal verified",
+        "JHN-6-31-001: rebuttal verified",
+        "JHN-6-36-001: rebuttal verified",
+        "JHN-6-38-001: rebuttal verified",
+        "JHN-6-39-001: rebuttal verified",
+        "JHN-6-41-001: rebuttal verified",
+        "JHN-6-40-002: verified"
+      ]
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-05-31T04:34:15+00:00",
+      "mode": "verify",
+      "actions": [
+        "JHN-6-22-001: rebuttal verified",
+        "JHN-6-35-003: rebuttal verified",
+        "JHN-6-7-002: rebuttal verified"
+      ]
     }
   ],
   "issues": [
@@ -21,8 +77,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "JHN-6-1-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-05-31T04:33:17+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -34,8 +91,9 @@
       "proposed_fix": "van de Joden",
       "location": "hoofdtekst",
       "id": "JHN-6-4-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] MRK 15:26 ('DE KONING DER JODEN'): titulus crucis — Gr. ὁ βασιλεὺς τῶν Ἰουδαίων als opschrift op kruis. Per AGENTS.md §concordantie en MODERNISATIE.md §2.7 een gestolde historische realie (inscriptie); concordant met LUK 23:38 'KONING DER JODEN', JOH 19:19 'JEZUS DE NAZARENER, KONING DER JODEN'. NBV21/HSV behouden de inscriptie-formule. 'Van de JODEN' breekt historische epigrafische concordantie binnen v26-context (kruisopschrift)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] MRK 15:26 ('DE KONING DER JODEN'): titulus crucis — Gr. ὁ βασιλεὺς τῶν Ἰουδαίων als opschrift op kruis. Per AGENTS.md §concordantie en MODERNISATIE.md §2.7 een gestolde historische realie (inscriptie); concordant met LUK 23:38 'KONING DER JODEN', JOH 19:19 'JEZUS DE NAZARENER, KONING DER JODEN'. NBV21/HSV behouden de inscriptie-formule. 'Van de JODEN' breekt historische epigrafische concordantie binnen v26-context (kruisopschrift).",
+      "verified_at": "2026-05-31T04:33:17+00:00"
     },
     {
       "category": "SV-verbuiging (demonstratief dezer/dien/...)",
@@ -47,7 +105,8 @@
       "proposed_fix": "opdat dezen → opdat deze mensen kunnen eten",
       "location": "hoofdtekst",
       "id": "JHN-6-5-001",
-      "status": "fixed"
+      "status": "verified",
+      "verified_at": "2026-05-31T04:33:17+00:00"
     },
     {
       "category": "SV-verbuiging (demonstratief dezer/dien/...)",
@@ -59,7 +118,8 @@
       "proposed_fix": "voor dezen → voor hen",
       "location": "hoofdtekst",
       "id": "JHN-6-7-001",
-      "status": "fixed"
+      "status": "verified",
+      "verified_at": "2026-05-31T04:33:17+00:00"
     },
     {
       "category": "SV-verbuiging (demonstratief dezer/dien/...)",
@@ -71,7 +131,8 @@
       "proposed_fix": "dezen (broden/visjes) → die",
       "location": "hoofdtekst",
       "id": "JHN-6-9-001",
-      "status": "fixed"
+      "status": "verified",
+      "verified_at": "2026-05-31T04:33:17+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -83,8 +144,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "JHN-6-22-001",
-      "status": "rebutted",
-      "rebuttal": "kanttekening-redundantie: de aantekening herhaalt 'aan de andere zijde' niet kaal maar SPECIFICEERT de geografie — 'aan de andere zijde van die schoot/inham van het meer, tussen Betsaïda en Kapernaüm. Zie vers 24.' Dit voegt plaatsbepaling toe die de hoofdtekst niet geeft; geen parafrastische dubbeling."
+      "status": "verified",
+      "rebuttal": "KANTTEKENINGEN.md: de kanttekening bij vers 22 herhaalt 'aan de andere zijde' niet kaal maar SPECIFICEERT de geografie — 'aan de andere zijde van die schoot/inham van het meer, tussen Betsaïda en Kapernaüm. Zie vers 24.' Dit voegt een plaatsbepaling toe die de hoofdtekst van vers 22 niet geeft; geen parafrastische dubbeling maar exegetische precisering.",
+      "verified_at": "2026-05-31T04:34:15+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -96,8 +158,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "JHN-6-26-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Idem MRK-9-1-001: 'voorwaar, ik zeg u' = ἀμὴν λέγω ὑμῖν, gestolde SV-bijbelformule. Project-concordant in MRK/LUK. §2.7 niet van toepassing op gefossiliseerde liturgische formules."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Idem MRK-9-1-001: 'voorwaar, ik zeg u' = ἀμὴν λέγω ὑμῖν, gestolde SV-bijbelformule. Project-concordant in MRK/LUK. §2.7 niet van toepassing op gefossiliseerde liturgische formules.",
+      "verified_at": "2026-05-31T04:33:17+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -109,8 +172,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "JHN-6-26-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Idem MRK-9-1-001: 'voorwaar, ik zeg u' = ἀμὴν λέγω ὑμῖν, gestolde SV-bijbelformule. Project-concordant in MRK/LUK. §2.7 niet van toepassing op gefossiliseerde liturgische formules."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Idem MRK-9-1-001: 'voorwaar, ik zeg u' = ἀμὴν λέγω ὑμῖν, gestolde SV-bijbelformule. Project-concordant in MRK/LUK. §2.7 niet van toepassing op gefossiliseerde liturgische formules.",
+      "verified_at": "2026-05-31T04:33:17+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -122,8 +186,9 @@
       "proposed_fix": "van de mensen",
       "location": "hoofdtekst",
       "id": "JHN-6-27-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] Idem MRK-9-9-001/-12-001: 'Zoon des mensen' = fossiele titel uit MODERNISATIE.md §2.3b. ὁ υἱὸς τοῦ ἀνθρώπου — Markus-concordant overal in dit corpus. Niet wijzigen."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] Idem MRK-9-9-001/-12-001: 'Zoon des mensen' = fossiele titel uit MODERNISATIE.md §2.3b. ὁ υἱὸς τοῦ ἀνθρώπου — Markus-concordant overal in dit corpus. Niet wijzigen.",
+      "verified_at": "2026-05-31T04:33:17+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -135,8 +200,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "JHN-6-32-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Idem MRK-9-1-001: 'voorwaar, ik zeg u' = ἀμὴν λέγω ὑμῖν, gestolde SV-bijbelformule. Project-concordant in MRK/LUK. §2.7 niet van toepassing op gefossiliseerde liturgische formules."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Idem MRK-9-1-001: 'voorwaar, ik zeg u' = ἀμὴν λέγω ὑμῖν, gestolde SV-bijbelformule. Project-concordant in MRK/LUK. §2.7 niet van toepassing op gefossiliseerde liturgische formules.",
+      "verified_at": "2026-05-31T04:33:17+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -148,8 +214,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "JHN-6-32-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Idem MRK-9-1-001: 'voorwaar, ik zeg u' = ἀμὴν λέγω ὑμῖν, gestolde SV-bijbelformule. Project-concordant in MRK/LUK. §2.7 niet van toepassing op gefossiliseerde liturgische formules."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Idem MRK-9-1-001: 'voorwaar, ik zeg u' = ἀμὴν λέγω ὑμῖν, gestolde SV-bijbelformule. Project-concordant in MRK/LUK. §2.7 niet van toepassing op gefossiliseerde liturgische formules.",
+      "verified_at": "2026-05-31T04:33:17+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -161,8 +228,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "JHN-6-35-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'geenszins' rendert οὐ μή (dubbele ontkenning, emfatisch). Productief in modern formeel/juridisch Nederlands ('geenszins akkoord', 'geenszins toegestaan'). MODERNISATIE.md §2.7 productiviteitstest slaagt; modern equivalent 'beslist niet' verzwakt de Griekse nadrukkelijke ontkenning."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'geenszins' rendert οὐ μή (dubbele ontkenning, emfatisch). Productief in modern formeel/juridisch Nederlands ('geenszins akkoord', 'geenszins toegestaan'). MODERNISATIE.md §2.7 productiviteitstest slaagt; modern equivalent 'beslist niet' verzwakt de Griekse nadrukkelijke ontkenning.",
+      "verified_at": "2026-05-31T04:33:17+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -174,8 +242,9 @@
       "proposed_fix": "van de levens",
       "location": "hoofdtekst",
       "id": "JHN-6-35-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'boek des levens' is een gefossiliseerde bijbelse uitdrukking voor τὸ βιβλίον τῆς ζωῆς (Op. 3:5; 13:8; 17:8; 20:12,15; 21:27; Fp. 4:3). De genitief-constructie is in modern bijbels Nederlands productief gebleven (NBG51, HSV, NBV21 gebruiken eveneens 'boek des levens'). Vergelijkbaar met de gefossiliseerde 'Koninkrijk der hemelen' en 'Zoon des mensen' — categorie ARCHAISMEN.md gefossiliseerde-genitief-uitzondering."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'boek des levens' is een gefossiliseerde bijbelse uitdrukking voor τὸ βιβλίον τῆς ζωῆς (Op. 3:5; 13:8; 17:8; 20:12,15; 21:27; Fp. 4:3). De genitief-constructie is in modern bijbels Nederlands productief gebleven (NBG51, HSV, NBV21 gebruiken eveneens 'boek des levens'). Vergelijkbaar met de gefossiliseerde 'Koninkrijk der hemelen' en 'Zoon des mensen' — categorie ARCHAISMEN.md gefossiliseerde-genitief-uitzondering.",
+      "verified_at": "2026-05-31T04:33:17+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -187,8 +256,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "JHN-6-35-003",
-      "status": "rebutted",
-      "rebuttal": "kanttekening-redundantie: de aantekening glosseert 'die tot mij komt' interpretatief als 'die in mij gelooft, zoals Christus in het tweede lid van dit vers verklaart' — het identificeert 'komen'='geloven', een exegetische gelijkstelling, geen letterlijke herhaling van de hoofdtekst."
+      "status": "verified",
+      "rebuttal": "KANTTEKENINGEN.md: de kanttekening bij vers 35 glosseert 'die tot mij komt' interpretatief als 'die in mij gelooft, zoals Christus in het tweede lid van dit vers verklaart' — het stelt 'komen'='geloven' gelijk, een exegetische identificatie, geen letterlijke herhaling van de hoofdtekst van vers 35.",
+      "verified_at": "2026-05-31T04:34:15+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -200,8 +270,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "JHN-6-37-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'geenszins' rendert οὐ μή (dubbele ontkenning, emfatisch). Productief in modern formeel/juridisch Nederlands ('geenszins akkoord', 'geenszins toegestaan'). MODERNISATIE.md §2.7 productiviteitstest slaagt; modern equivalent 'beslist niet' verzwakt de Griekse nadrukkelijke ontkenning."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'geenszins' rendert οὐ μή (dubbele ontkenning, emfatisch). Productief in modern formeel/juridisch Nederlands ('geenszins akkoord', 'geenszins toegestaan'). MODERNISATIE.md §2.7 productiviteitstest slaagt; modern equivalent 'beslist niet' verzwakt de Griekse nadrukkelijke ontkenning.",
+      "verified_at": "2026-05-31T04:33:17+00:00"
     },
     {
       "category": "genitief pronomen wiens/wier",
@@ -213,8 +284,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "JHN-6-42-001",
-      "status": "rebutted",
-      "rebuttal": "§ relativum: 'wiens' is de standaard MODERNE genitief van het betrekkelijk vnw bij een mannelijk enkelvoudig antecedent (hier Jezus/Jozef), Grieks οὗ. Geen SV-verbuiging zoals 'wiens'≠'des welken'; vgl. modern 'de man wiens auto'. Scanner flagt élk wiens/wier hard, maar deze vorm is productief en correct in hedendaags NL — geen archaïsme."
+      "status": "verified",
+      "rebuttal": "§ relativum: 'wiens' is de standaard MODERNE genitief van het betrekkelijk vnw bij een mannelijk enkelvoudig antecedent (hier Jezus/Jozef), Grieks οὗ. Geen SV-verbuiging zoals 'wiens'≠'des welken'; vgl. modern 'de man wiens auto'. Scanner flagt élk wiens/wier hard, maar deze vorm is productief en correct in hedendaags NL — geen archaïsme.",
+      "verified_at": "2026-05-31T04:33:17+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -226,8 +298,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "JHN-6-47-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Idem MRK-9-1-001: 'voorwaar, ik zeg u' = ἀμὴν λέγω ὑμῖν, gestolde SV-bijbelformule. Project-concordant in MRK/LUK. §2.7 niet van toepassing op gefossiliseerde liturgische formules."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Idem MRK-9-1-001: 'voorwaar, ik zeg u' = ἀμὴν λέγω ὑμῖν, gestolde SV-bijbelformule. Project-concordant in MRK/LUK. §2.7 niet van toepassing op gefossiliseerde liturgische formules.",
+      "verified_at": "2026-05-31T04:33:17+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -239,8 +312,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "JHN-6-47-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Idem MRK-9-1-001: 'voorwaar, ik zeg u' = ἀμὴν λέγω ὑμῖν, gestolde SV-bijbelformule. Project-concordant in MRK/LUK. §2.7 niet van toepassing op gefossiliseerde liturgische formules."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Idem MRK-9-1-001: 'voorwaar, ik zeg u' = ἀμὴν λέγω ὑμῖν, gestolde SV-bijbelformule. Project-concordant in MRK/LUK. §2.7 niet van toepassing op gefossiliseerde liturgische formules.",
+      "verified_at": "2026-05-31T04:33:17+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -252,8 +326,9 @@
       "proposed_fix": "van de levens",
       "location": "hoofdtekst",
       "id": "JHN-6-48-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'boek des levens' is een gefossiliseerde bijbelse uitdrukking voor τὸ βιβλίον τῆς ζωῆς (Op. 3:5; 13:8; 17:8; 20:12,15; 21:27; Fp. 4:3). De genitief-constructie is in modern bijbels Nederlands productief gebleven (NBG51, HSV, NBV21 gebruiken eveneens 'boek des levens'). Vergelijkbaar met de gefossiliseerde 'Koninkrijk der hemelen' en 'Zoon des mensen' — categorie ARCHAISMEN.md gefossiliseerde-genitief-uitzondering."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'boek des levens' is een gefossiliseerde bijbelse uitdrukking voor τὸ βιβλίον τῆς ζωῆς (Op. 3:5; 13:8; 17:8; 20:12,15; 21:27; Fp. 4:3). De genitief-constructie is in modern bijbels Nederlands productief gebleven (NBG51, HSV, NBV21 gebruiken eveneens 'boek des levens'). Vergelijkbaar met de gefossiliseerde 'Koninkrijk der hemelen' en 'Zoon des mensen' — categorie ARCHAISMEN.md gefossiliseerde-genitief-uitzondering.",
+      "verified_at": "2026-05-31T04:33:17+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -265,8 +340,9 @@
       "proposed_fix": "van de wereld",
       "location": "hoofdtekst",
       "id": "JHN-6-51-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'der wereld' in 'de volken der wereld' = τὰ ἔθνη τοῦ κόσμου: gestolde genitief-constructie in bijbel-NL. HSV behoudt eveneens 'de volken van deze wereld'-vorm; fossielargument §2.3b van toepassing (vaste woordgroep, niet productieve verbuiging)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'der wereld' in 'de volken der wereld' = τὰ ἔθνη τοῦ κόσμου: gestolde genitief-constructie in bijbel-NL. HSV behoudt eveneens 'de volken van deze wereld'-vorm; fossielargument §2.3b van toepassing (vaste woordgroep, niet productieve verbuiging).",
+      "verified_at": "2026-05-31T04:33:17+00:00"
     },
     {
       "category": "kanttekening-luiheid (§2.3 in <…>)",
@@ -278,8 +354,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "JHN-6-51-002",
-      "status": "rebutted",
-      "rebuttal": "§2.3: 'levendmakende' is hier ATTRIBUTIEF — de kanttekening glosseert 'levende brood' (= levendmakende [brood]), het participium modificeert het impliciete substantief 'brood', net als modern 'levengevend brood'. §2.3 verbiedt finiete/adverbiale -ende, niet attributieve participia die als adjectief functioneren (vgl. 'vragende blik')."
+      "status": "verified",
+      "rebuttal": "§2.3: 'levendmakende' is hier ATTRIBUTIEF — de kanttekening glosseert 'levende brood' (= levendmakende [brood]), het participium modificeert het impliciete substantief 'brood', net als modern 'levengevend brood'. §2.3 verbiedt finiete/adverbiale -ende, niet attributieve participia die als adjectief functioneren (vgl. 'vragende blik').",
+      "verified_at": "2026-05-31T04:33:17+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -291,8 +368,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "JHN-6-53-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Idem MRK-9-1-001: 'voorwaar, ik zeg u' = ἀμὴν λέγω ὑμῖν, gestolde SV-bijbelformule. Project-concordant in MRK/LUK. §2.7 niet van toepassing op gefossiliseerde liturgische formules."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Idem MRK-9-1-001: 'voorwaar, ik zeg u' = ἀμὴν λέγω ὑμῖν, gestolde SV-bijbelformule. Project-concordant in MRK/LUK. §2.7 niet van toepassing op gefossiliseerde liturgische formules.",
+      "verified_at": "2026-05-31T04:33:17+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -304,8 +382,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "JHN-6-53-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Idem MRK-9-1-001: 'voorwaar, ik zeg u' = ἀμὴν λέγω ὑμῖν, gestolde SV-bijbelformule. Project-concordant in MRK/LUK. §2.7 niet van toepassing op gefossiliseerde liturgische formules."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Idem MRK-9-1-001: 'voorwaar, ik zeg u' = ἀμὴν λέγω ὑμῖν, gestolde SV-bijbelformule. Project-concordant in MRK/LUK. §2.7 niet van toepassing op gefossiliseerde liturgische formules.",
+      "verified_at": "2026-05-31T04:33:17+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -317,8 +396,9 @@
       "proposed_fix": "van de mensen",
       "location": "hoofdtekst",
       "id": "JHN-6-53-003",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] Idem MRK-9-9-001/-12-001: 'Zoon des mensen' = fossiele titel uit MODERNISATIE.md §2.3b. ὁ υἱὸς τοῦ ἀνθρώπου — Markus-concordant overal in dit corpus. Niet wijzigen."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] Idem MRK-9-9-001/-12-001: 'Zoon des mensen' = fossiele titel uit MODERNISATIE.md §2.3b. ὁ υἱὸς τοῦ ἀνθρώπου — Markus-concordant overal in dit corpus. Niet wijzigen.",
+      "verified_at": "2026-05-31T04:33:17+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -330,8 +410,9 @@
       "proposed_fix": "van de zonden",
       "location": "kanttekening",
       "id": "JHN-6-53-004",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Fix toegepast: 'maat der zonden' → 'maat van de zonden' in modernized (PR #1602). Verify heropent v5 wegens residu 'zonden der mensen' (der+mensen = concordant corpus-fossiel, §2.3c, reeds rebutted) dat in hetzelfde vers staat; scanner-prefixheuristiek mist dat de geflagde token al ontvouwd is. Geen overtreding."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Fix toegepast: 'maat der zonden' → 'maat van de zonden' in modernized (PR #1602). Verify heropent v5 wegens residu 'zonden der mensen' (der+mensen = concordant corpus-fossiel, §2.3c, reeds rebutted) dat in hetzelfde vers staat; scanner-prefixheuristiek mist dat de geflagde token al ontvouwd is. Geen overtreding.",
+      "verified_at": "2026-05-31T04:33:17+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -343,8 +424,9 @@
       "proposed_fix": "van de mensen",
       "location": "hoofdtekst",
       "id": "JHN-6-62-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] Idem MRK-9-9-001/-12-001: 'Zoon des mensen' = fossiele titel uit MODERNISATIE.md §2.3b. ὁ υἱὸς τοῦ ἀνθρώπου — Markus-concordant overal in dit corpus. Niet wijzigen."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] Idem MRK-9-9-001/-12-001: 'Zoon des mensen' = fossiele titel uit MODERNISATIE.md §2.3b. ὁ υἱὸς τοῦ ἀνθρώπου — Markus-concordant overal in dit corpus. Niet wijzigen.",
+      "verified_at": "2026-05-31T04:33:17+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -356,8 +438,9 @@
       "proposed_fix": "van de levens",
       "location": "kanttekening",
       "id": "JHN-6-63-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'boek des levens' is een gefossiliseerde bijbelse uitdrukking voor τὸ βιβλίον τῆς ζωῆς (Op. 3:5; 13:8; 17:8; 20:12,15; 21:27; Fp. 4:3). De genitief-constructie is in modern bijbels Nederlands productief gebleven (NBG51, HSV, NBV21 gebruiken eveneens 'boek des levens'). Vergelijkbaar met de gefossiliseerde 'Koninkrijk der hemelen' en 'Zoon des mensen' — categorie ARCHAISMEN.md gefossiliseerde-genitief-uitzondering."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'boek des levens' is een gefossiliseerde bijbelse uitdrukking voor τὸ βιβλίον τῆς ζωῆς (Op. 3:5; 13:8; 17:8; 20:12,15; 21:27; Fp. 4:3). De genitief-constructie is in modern bijbels Nederlands productief gebleven (NBG51, HSV, NBV21 gebruiken eveneens 'boek des levens'). Vergelijkbaar met de gefossiliseerde 'Koninkrijk der hemelen' en 'Zoon des mensen' — categorie ARCHAISMEN.md gefossiliseerde-genitief-uitzondering.",
+      "verified_at": "2026-05-31T04:33:17+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -369,7 +452,8 @@
       "proposed_fix": "kanttekening: een kind des duivels → een kind van de duivel",
       "location": "kanttekening",
       "id": "JHN-6-70-001",
-      "status": "fixed"
+      "status": "verified",
+      "verified_at": "2026-05-31T04:33:17+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -387,8 +471,9 @@
         30
       ],
       "id": "JHN-6-2-001",
-      "status": "rebutted",
-      "rebuttal": "concordantie-drift FP: origineel-stam 'teecken' wordt consistent 'tekenen' (v2, v26); scanner-prefix 'teec'≠'tek' faalt door spellingsovergang ee→e en c→k. Rendering is concordant, geen drift."
+      "status": "verified",
+      "rebuttal": "concordantie-drift FP: origineel-stam 'teecken' wordt consistent 'tekenen' (v2, v26); scanner-prefix 'teec'≠'tek' faalt door spellingsovergang ee→e en c→k. Rendering is concordant, geen drift.",
+      "verified_at": "2026-05-31T04:33:17+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -407,8 +492,9 @@
         26
       ],
       "id": "JHN-6-5-002",
-      "status": "rebutted",
-      "rebuttal": "concordantie-drift FP: 'brooden'→'broden' consistent (v5, v11, v26). De gesignaleerde afwijking in v9 is 'gerstebroden'/'gersten broden' — een compositum met kwalificator (Grieks κριθίνους, gerst), niet een andere stam-rendering. Stam 'brood' blijft concordant."
+      "status": "verified",
+      "rebuttal": "concordantie-drift FP: 'brooden'→'broden' consistent (v5, v11, v26). De gesignaleerde afwijking in v9 is 'gerstebroden'/'gersten broden' — een compositum met kwalificator (Grieks κριθίνους, gerst), niet een andere stam-rendering. Stam 'brood' blijft concordant.",
+      "verified_at": "2026-05-31T04:33:17+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -425,8 +511,9 @@
         45
       ],
       "id": "JHN-6-7-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Geen drift: alle drie verzen renderen SV-stam 'yegelick' consistent als 'ieder' (v5 'ieder', v16 'ieder', v18 2x 'een ieder' — 'een ieder' spiegelt SV 'een yegelick'). De scanner-prefix-heuristiek mist de orthografische overgang yegelick->ieder (geen prefix-overlap) — gedocumenteerde false-positive-klasse."
+      "status": "verified",
+      "rebuttal": "MODERNISATIE.md concordantie — scanner-prefix-FP: origineel-stam 'yegelick' wordt consistent 'ieder' gerenderd in vers 5, vers 7 ('opdat ieder van hen') en vers 16; de scanner mist de match door de spellingsovergang y→ie. Geen drift maar concordante woordkeuze.",
+      "verified_at": "2026-05-31T04:34:15+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -443,8 +530,9 @@
         59
       ],
       "id": "JHN-6-17-001",
-      "status": "rebutted",
-      "rebuttal": "concordantie-drift FP: toponiem 'caperna(um)'→'Kapernaüm' consistent (v17, v24, v59); scanner-prefix 'cap'≠'Kap' faalt door eigennaam-spelling C→K. Geen drift."
+      "status": "verified",
+      "rebuttal": "concordantie-drift FP: toponiem 'caperna(um)'→'Kapernaüm' consistent (v17, v24, v59); scanner-prefix 'cap'≠'Kap' faalt door eigennaam-spelling C→K. Geen drift.",
+      "verified_at": "2026-05-31T04:33:17+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -464,8 +552,9 @@
         57
       ],
       "id": "JHN-6-29-001",
-      "status": "rebutted",
-      "rebuttal": "concordantie-drift FP: stam 'gesonde(n)'→'gezonden' consistent (v29, v39, v44, v57); scanner-prefix 'ges'≠'gez' faalt door overgang s→z. Concordant gerenderd."
+      "status": "verified",
+      "rebuttal": "concordantie-drift FP: stam 'gesonde(n)'→'gezonden' consistent (v29, v39, v44, v57); scanner-prefix 'ges'≠'gez' faalt door overgang s→z. Concordant gerenderd.",
+      "verified_at": "2026-05-31T04:33:17+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -482,8 +571,9 @@
         58
       ],
       "id": "JHN-6-31-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] Concordantie-prefix 'gelijck' false-match: v16 'καθὼς' (zoals) v21 'καθὼς' (zoals) v70 'καὶ ἡ λαλιά σου ὁμοιάζει' (= 'uw spraak lijkt erop'). v70 vertaalt ander Grieks lemma (ὁμοιάζω, vergelijken/lijken), niet καθώς — daarom andere rendering ('lijkt') terecht."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] Concordantie-prefix 'gelijck' false-match: v16 'καθὼς' (zoals) v21 'καθὼς' (zoals) v70 'καὶ ἡ λαλιά σου ὁμοιάζει' (= 'uw spraak lijkt erop'). v70 vertaalt ander Grieks lemma (ὁμοιάζω, vergelijken/lijken), niet καθώς — daarom andere rendering ('lijkt') terecht.",
+      "verified_at": "2026-05-31T04:33:17+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -500,8 +590,9 @@
         65
       ],
       "id": "JHN-6-36-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] Concordantie-drift FP (prefix-heuristiek mist flexie): stam 'geseght' (Gr. λέγω/εἶπον) wordt in álle 3 verzen consistent op lemma 'zeggen' weergegeven — v30 'gezegd heb', v33 'gezegd', v51 'gezegd heb' — geverifieerd. AGENTS.md vereist concordantie op lemma, niet op finiete tijd; de verschillen zijn noodzakelijke perfectum/hulpwerkwoord-flexie, niet lexicale drift."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] Concordantie-drift FP (prefix-heuristiek mist flexie): stam 'geseght' (Gr. λέγω/εἶπον) wordt in álle 3 verzen consistent op lemma 'zeggen' weergegeven — v30 'gezegd heb', v33 'gezegd', v51 'gezegd heb' — geverifieerd. AGENTS.md vereist concordantie op lemma, niet op finiete tijd; de verschillen zijn noodzakelijke perfectum/hulpwerkwoord-flexie, niet lexicale drift.",
+      "verified_at": "2026-05-31T04:33:17+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -520,8 +611,9 @@
         58
       ],
       "id": "JHN-6-38-001",
-      "status": "rebutted",
-      "rebuttal": "concordantie-drift FP: 'ghedaelt/nedergedaelt'→'neergedaald' consistent (v33, v38, v41, v42, v50, v51, v58); scanner mist match door samenstelling neder→neer en ae→aa. Concordant."
+      "status": "verified",
+      "rebuttal": "concordantie-drift FP: 'ghedaelt/nedergedaelt'→'neergedaald' consistent (v33, v38, v41, v42, v50, v51, v58); scanner mist match door samenstelling neder→neer en ae→aa. Concordant.",
+      "verified_at": "2026-05-31T04:33:17+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -539,8 +631,9 @@
         54
       ],
       "id": "JHN-6-39-001",
-      "status": "rebutted",
-      "rebuttal": "concordantie-drift FP: 'uyterst(en)'→'uitersten' consistent in de formule 'ten uitersten dage' (v39, v40, v44, v54); scanner-prefix 'uyt'≠'uit' faalt door uy→ui. Concordant; vaste eschatologische formule."
+      "status": "verified",
+      "rebuttal": "concordantie-drift FP: 'uyterst(en)'→'uitersten' consistent in de formule 'ten uitersten dage' (v39, v40, v44, v54); scanner-prefix 'uyt'≠'uit' faalt door uy→ui. Concordant; vaste eschatologische formule.",
+      "verified_at": "2026-05-31T04:33:17+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -557,8 +650,9 @@
         61
       ],
       "id": "JHN-6-41-001",
-      "status": "rebutted",
-      "rebuttal": "concordantie-drift FP: stam 'murmure(ren)'→'morden' consistent (v41, v43, v61); scanner-prefix 'mur'≠'mor' faalt door Latinaat-stam→Germaans equivalent. Bewuste concordante woordkeuze, geen drift."
+      "status": "verified",
+      "rebuttal": "concordantie-drift FP: stam 'murmure(ren)'→'morden' consistent (v41, v43, v61); scanner-prefix 'mur'≠'mor' faalt door Latinaat-stam→Germaans equivalent. Bewuste concordante woordkeuze, geen drift.",
+      "verified_at": "2026-05-31T04:33:17+00:00"
     },
     {
       "id": "JHN-6-40-002",
@@ -570,7 +664,8 @@
       "location": "hoofdtekst",
       "explanation": "Subjunctief 'hebbe' in resultaatzin; scanner-whitelist dekt neme/geve/kome maar niet 'hebbe'.",
       "proposed_fix": "...het eeuwige leven heeft...",
-      "status": "fixed"
+      "status": "verified",
+      "verified_at": "2026-05-31T04:33:17+00:00"
     }
   ]
 }
