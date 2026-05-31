@@ -142,6 +142,33 @@
       "generated_at": "2026-05-31T02:44:51.586737Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 16,
+      "original": "$Matth. 14.23. Marc. 6.47.$ Ende als het avont geworden was, gingen sijne discipelen af na de zee.",
+      "modernized": "$Mt. 14:23; Mk. 6:47$ En toen het avond geworden was, gingen zijn discipelen af naar de zee.",
+      "source_text": "Ὡς δὲ ὀψία ἐγένετο, κατέβησαν οἱ μαθηταὶ αὐτοῦ ἐπὶ τὴν θάλασσαν,",
+      "generated_at": "2026-05-31T02:47:44.184772Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 17,
+      "original": "Ende in het schip gegaen zijnde quamen sy <Namel. voor by Betsaida, gelijck Christus haer bevolen hadde, Marc. 6. vers 45.> over de zee na Capernaum. Ende het was alreede <Gr. duysternisse.> duyster geworden, ende Iesus en was tot haer niet gekomen.",
+      "modernized": "En toen zij in het schip gegaan waren, kwamen zij <Namelijk, voorbij Betsaïda, zoals Christus hun bevolen had, $Mk. 6:45$.> over de zee naar Kapernaüm. En het was al <Grieks: duisternis.> duister geworden, en Jezus was tot hen niet gekomen.",
+      "source_text": "καὶ ἐμβάντες εἰς τὸ πλοῖον, ἤρχοντο πέραν τῆς θαλάσσης εἰς Καπερναούμ. καὶ σκοτία ἤδη ἐγεγόνει, καὶ οὐκ ἐληλύθει πρὸς αὐτοὺς ὁ Ἰησοῦς.",
+      "generated_at": "2026-05-31T02:48:39.125834Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 18,
+      "original": "Ende de zee verhief haer, overmits daer een groote windt waeyde.",
+      "modernized": "En de zee verhief zich, omdat er een sterke wind waaide.",
+      "source_text": "ἥ τε θάλασσα ἀνέμου μεγάλου πνέοντος διηγείρετο.",
+      "generated_at": "2026-05-31T02:49:09.532083Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
