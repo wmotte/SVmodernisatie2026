@@ -641,6 +641,24 @@
       "generated_at": "2026-05-31T04:04:36.182701Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 70,
+      "original": "Iesus antwoordde haer, $Luce 6.13.$ En hebbe ick niet u twaelve <Namelick, tot het Apostelschap.> uytverkoren, ende een uyt u is <Dat is, een kint des duyvels, hem gelijck, Ioan. 8.44.> een duyvel?",
+      "modernized": "Jezus antwoordde hun: $Lk. 6:13$ En heb ik niet u twaalf <Namelijk, tot het Apostelschap.> uitverkoren, en een uit u is <dat is, een kind des duivels, gelijk aan hem, $Jh. 8:44$.> een duivel?",
+      "source_text": "ἀπεκρίθη αὐτοῖς ὁ Ἰησοῦς, Οὐκ ἐγὼ ὑμᾶς τοὺς δώδεκα ἐξελεξάμην, καὶ ἐξ ὑμῶν εἷς διάβολός ἐστιν;",
+      "generated_at": "2026-05-31T04:08:41.308896Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 71,
+      "original": "Ende hy seyde [dit van] Iudas Simonis Iscarioth. Want dese soude hem verraden, zijnde een <Gr. uyt.> van de twaelve.",
+      "modernized": "En hij zei [dit van] Judas Simons Iskariot. Want deze zou hem verraden, terwijl hij een <Grieks: uit.> van de twaalf was.",
+      "source_text": "ἔλεγε δὲ τὸν Ἰούδαν Σίμωνος Ἰσκαριώτην· οὗτος γὰρ ἤμελλεν αὐτὸν παραδιδόναι, εἷς ὢν ἐκ τῶν δώδεκα.",
+      "generated_at": "2026-05-31T04:09:06.124334Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
