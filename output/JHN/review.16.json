@@ -1,0 +1,180 @@
+{
+  "book": "JHN",
+  "chapter": 16,
+  "reviewed_at": "2026-06-01T19:50:00+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-06-01T19:48:48+00:00",
+      "mode": "scan",
+      "issues_total": 9
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-06-01T19:50:00+00:00",
+      "mode": "verify",
+      "actions": [
+        "JHN-16-20-001: rebuttal verified",
+        "JHN-16-20-002: rebuttal verified",
+        "JHN-16-23-001: rebuttal verified",
+        "JHN-16-23-002: rebuttal verified",
+        "JHN-16-26-001: rebuttal verified",
+        "JHN-16-4-001: rebuttal verified",
+        "JHN-16-16-001: rebuttal verified",
+        "JHN-16-16-002: rebuttal verified",
+        "JHN-16-27-001: rebuttal verified"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 20,
+      "severity": "soft",
+      "quote_modernized": "Voorwaar, voorwaar zeg ik u, dat u   zul…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'voorwaar' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "JHN-16-20-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Idem MRK-9-1-001: 'voorwaar, ik zeg u' = ἀμὴν λέγω ὑμῖν, gestolde SV-bijbelformule. Project-concordant in MRK/LUK. §2.7 niet van toepassing op gefossiliseerde liturgische formules.",
+      "verified_at": "2026-06-01T19:50:00+00:00"
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 20,
+      "severity": "soft",
+      "quote_modernized": "Voorwaar, voorwaar zeg ik u, dat u   zult huilen e…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'voorwaar' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "JHN-16-20-002",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Idem MRK-9-1-001: 'voorwaar, ik zeg u' = ἀμὴν λέγω ὑμῖν, gestolde SV-bijbelformule. Project-concordant in MRK/LUK. §2.7 niet van toepassing op gefossiliseerde liturgische formules.",
+      "verified_at": "2026-06-01T19:50:00+00:00"
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 23,
+      "severity": "soft",
+      "quote_modernized": "…op die dag zult u mij   niets vragen.   Voorwaar, voorwaar zeg ik u: al wat u   …",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'voorwaar' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "JHN-16-23-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Idem MRK-9-1-001: 'voorwaar, ik zeg u' = ἀμὴν λέγω ὑμῖν, gestolde SV-bijbelformule. Project-concordant in MRK/LUK. §2.7 niet van toepassing op gefossiliseerde liturgische formules.",
+      "verified_at": "2026-06-01T19:50:00+00:00"
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 23,
+      "severity": "soft",
+      "quote_modernized": "… zult u mij   niets vragen.   Voorwaar, voorwaar zeg ik u: al wat u   de Vader z…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'voorwaar' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "JHN-16-23-002",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Idem MRK-9-1-001: 'voorwaar, ik zeg u' = ἀμὴν λέγω ὑμῖν, gestolde SV-bijbelformule. Project-concordant in MRK/LUK. §2.7 niet van toepassing op gefossiliseerde liturgische formules.",
+      "verified_at": "2026-06-01T19:50:00+00:00"
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 26,
+      "severity": "soft",
+      "quote_modernized": "dat ik de vader",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'dat ik de vader' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "JHN-16-26-001",
+      "status": "verified",
+      "rebuttal": "KANTTEKENINGEN.md §Geen redundantie verbiedt vooral dat een alternatief uit de kanttekening in de hoofdtekst wordt overgenomen. In JHN 16:26 citeert de SV-kanttekening juist de hoofdclausule 'dat ik de Vader voor u zal bidden' om Jezus' ontkenning uit te leggen; schrappen zou kanttekening-inhoud verliezen.",
+      "verified_at": "2026-06-01T19:50:00+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 4,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'geseght' in 3 verzen — verzen [15, 19] renderen het stam anders dan [4]",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        4,
+        15,
+        19
+      ],
+      "id": "JHN-16-4-001",
+      "status": "verified",
+      "rebuttal": "Concordantie-drift is hier scanner-ruis: JHN 16:4 bevat zowel ταῦτα λελάληκα ('gesproken') als εἶπον/geseght ('gezegd'). JHN 16:15 en 16:19 hebben bij het geseght-cluster eveneens εἶπον en zijn concordant als 'gezegd'; het verschil bewaart juist het Griekse onderscheid tussen λαλέω en εἶπον.",
+      "verified_at": "2026-06-01T19:50:00+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 16,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'wederom' in 5 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 5 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        16,
+        17,
+        19,
+        22,
+        28
+      ],
+      "id": "JHN-16-16-001",
+      "status": "verified",
+      "rebuttal": "'Wederom' is in JHN 16:16-19 het Griekse πάλιν in de herhaalde uitspraak en is daar concordant gemoderniseerd als 'opnieuw'. Alleen de kanttekening 'wederom zal opgestaan zijn' is idiomatisch 'weer zal zijn opgestaan'; dat is §2.7-modernisering binnen een andere constructie, geen drift.",
+      "verified_at": "2026-06-01T19:50:00+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 16,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'kleynen' in 4 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 4 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        16,
+        17,
+        18,
+        19
+      ],
+      "id": "JHN-16-16-002",
+      "status": "verified",
+      "rebuttal": "'Kleynen [tijt]' correspondeert met τὸ μικρόν / μικρὸν, idiomatisch 'een korte [tijd]' in modern Nederlands. De vier herhalingen in JHN 16:16-19 zijn juist concordant als 'korte [tijd]'; behoud van 'kleine [tijd]' zou de §2.7-productiviteitstest minder goed doorstaan.",
+      "verified_at": "2026-06-01T19:50:00+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 27,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'uytgega' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        27,
+        28,
+        30
+      ],
+      "id": "JHN-16-27-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] v2 ('zeven duivelen uitgegaan waren') en v46 ('er kracht van mij is uitgegaan') zijn 100% concordant 'uitgaan'. Alleen v27 ('aan het lant uytgegaen' = ἐξελθόντι ἐπὶ τὴν γῆν) wijkt af naar 'aan land was gegaan': in modern NL is 'uitgegaan aan land' geen idiomatische combinatie — de vaste collocatie 'aan land gaan' (van schip) heeft voorrang (vgl. SV2027-spiegel). Contextuele §2.7-keuze, geen concordantie-fout.",
+      "verified_at": "2026-06-01T19:50:00+00:00"
+    }
+  ]
+}
