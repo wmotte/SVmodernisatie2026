@@ -397,6 +397,33 @@
       "generated_at": "2026-06-01T10:33:42.979223Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 43,
+      "original": "$Ioan. 5.44.$ Want sy hadden de eere der menschen lief, meer dan de eere Godts.",
+      "modernized": "$Jh. 5:44$ Want zij hadden de eer van mensen lief, meer dan de eer van God.",
+      "source_text": "ἠγάπησαν γὰρ τὴν δόξαν τῶν ἀνθρώπων μᾶλλον ἤπερ τὴν δόξαν τοῦ Θεοῦ.",
+      "generated_at": "2026-06-01T10:36:39.308334Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 44,
+      "original": "Ende Iesus riep, ende seyde, Die in my gelooft, <D. en gelooft niet alleen in my, gelijck Marc. 9.37. Ioan. 7.16.> en gelooft in my niet, maer in den genen die my gesonden heeft.",
+      "modernized": "En Jezus riep en zei: Die in mij gelooft, <Dat is, en gelooft niet alleen in mij, zoals $Mk. 9:37; Jh. 7:16$.> gelooft niet in mij, maar in degene die mij gezonden heeft.",
+      "source_text": "Ἰησοῦς δὲ ἔκραξε καὶ εἶπεν, Ὁ πιστεύων εἰς ἐμέ, οὐ πιστεύει εἰς ἐμέ, ἀλλ’ εἰς τὸν πέμψαντά με·",
+      "generated_at": "2026-06-01T10:37:11.840982Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 45,
+      "original": "$Ioan. 10.30. ende 14.9.$ Ende die my <D. kent, ende in my gelooft.> siet, die siet den genen die my gesonden heeft.",
+      "modernized": "$Jh. 10:30; 14:9$ En die mij <Dat is, kent en in mij gelooft.> ziet, die ziet degene die mij gezonden heeft.",
+      "source_text": "καὶ ὁ θεωρῶν ἐμέ, θεωρεῖ τὸν πέμψαντά με.",
+      "generated_at": "2026-06-01T10:37:30.829369Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
