@@ -1,0 +1,52 @@
+{
+  "book": "JHN",
+  "chapter": 7,
+  "reviewed_at": "2026-06-01T05:14:28+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-06-01T05:14:28+00:00",
+      "mode": "scan",
+      "issues_total": 3
+    }
+  ],
+  "issues": [
+    {
+      "category": "kanttekening-luiheid (§2.3 in <…>)",
+      "verse": 1,
+      "severity": "hard",
+      "quote_modernized": "…e ene plaats van Galilea naar de andere reizende. Wat hij daar nu gedaan heeft w…",
+      "rule_reference": "KANTTEKENINGEN.md + §2.3",
+      "explanation": "'reizende' binnen kanttekening — verdacht -ende-woord in adverbial / clause-final positie. §2.3 geldt ook in <…>; ontvouw naar finiete bijzin.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "JHN-7-1-001",
+      "status": "open"
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 4,
+      "severity": "soft",
+      "quote_modernized": "…elf   dat men openlijk van hem spreekt. Indien u deze dingen   doet, openbaar uz…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "JHN-7-4-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+    },
+    {
+      "category": "§2.3b bijwoord-coda",
+      "verse": 10,
+      "severity": "soft",
+      "quote_modernized": "… hij ook zelf op naar het feest, niet   openlijk, maar   als in het verborgen.",
+      "rule_reference": "MODERNISATIE.md §2.3b",
+      "explanation": "'openlijk,' aan zinseind — verifieer of dit bijwoord niet als coda achteraf is blijven hangen ('wandelende … onberispelick' → 'wandelden onberispelijk in …').",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "JHN-7-10-001",
+      "status": "open"
+    }
+  ]
+}
