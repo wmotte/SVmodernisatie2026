@@ -61,6 +61,45 @@
       "generated_at": "2026-06-01T12:41:16.630487Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 7,
+      "original": "Indien ghylieden my <Namel. recht als’t behoort.> gekent haddet, soo soudet ghy oock mijnen <Namelick, alsoo ick eenes wesens met den Vader ben, ende het uytgedruckt beelt sijner selfstandigheyt. Col. 1.15. Hebr. 1.3.> Vader gekent hebben: ende <Of, nu alreede.> van nu <Namelick, voor soo veel als ghy my kennet, vers 9.> kennet ghy hem, ende hebbet hem gesien.",
+      "modernized": "Indien u mij <Namelijk, recht zoals het behoort.> gekend had, zo zou u ook mijn <Namelijk, aangezien ik van één wezen met de Vader ben, en het uitgedrukte beeld van zijn zelfstandigheid. $Kol. 1:15; Hb. 1:3$.> Vader gekend hebben; en <Of, nu reeds.> van nu af <Namelijk, voor zover u mij kent, vers 9.> kent u hem, en hebt u hem gezien.",
+      "source_text": "εἰ ἐγνώκειτέ με, καὶ τὸν Πατέρα μου ἐγνώκειτε ἄν· καὶ ἀπ’ ἄρτι γινώσκετε αὐτόν, καὶ ἑωράκατε αὐτόν.",
+      "generated_at": "2026-06-01T12:46:03.353539Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "subject": "van nu af",
+          "context": "hoofdtekst",
+          "choice": "van nu af",
+          "alternatives": [
+            "van nu"
+          ],
+          "reason": "HSV-spiegel bevestigt dat 'van nu' in modern Nederlands idiomatisch 'van nu af' vraagt; dit behoudt de temporele waarde van SV1657 en Grieks."
+        }
+      ]
+    },
+    {
+      "verse_number": 8,
+      "original": "Philippus seyde tot hem, Heere, toont ons den Vader, ende het is ons genoegh.",
+      "modernized": "Filippus zei tot hem: Heere, toon ons de Vader, en het is ons genoeg.",
+      "source_text": "λέγει αὐτῷ Φίλιππος, Κύριε, δεῖξον ἡμῖν τὸν Πατέρα, καὶ ἀρκεῖ ἡμῖν.",
+      "generated_at": "2026-06-01T12:46:22.912223Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 9,
+      "original": "Iesus seyde tot hem, <Namelick, met mijn leere ende wercken soo dickwils getoont hebbende wie ick ben.> Ben ick soo langen tijt met u-lieden, ende en hebt ghy my niet gekent Philippe? $Ioan. 10.30.$ Die my <D. recht gekent heeft.> gesien heeft, die heeft <Namel. in mijnen persoon, dewijle de Vader ende ick van een wesen ende macht zijn, Ioan. 10. vers 30.> den Vader gesien: ende hoe seght ghy, Toont ons den Vader?",
+      "modernized": "Jezus zei tot hem: <Namelijk, nadat ik met mijn leer en werken zo vaak getoond heb wie ik ben.> Ben ik zo lange tijd met u, en hebt u mij niet gekend, Filippus? $Jh. 10:30$ Wie mij <Dat is, recht gekend heeft.> gezien heeft, die heeft <Namelijk, in mijn persoon, aangezien de Vader en ik van één wezen en macht zijn, $Jh. 10:30$.> de Vader gezien; en hoe zegt u: Toon ons de Vader?",
+      "source_text": "λέγει αὐτῷ ὁ Ἰησοῦς, Τοσοῦτον χρόνον μεθ’ ὑμῶν εἰμι, καὶ οὐκ ἔγνωκάς με, Φίλιππε; ὁ ἑωρακὼς ἐμέ, ἑώρακε τὸν Πατέρα· καὶ πῶς σὺ λέγεις, Δεῖξον ἡμῖν τὸν Πατέρα;",
+      "generated_at": "2026-06-01T12:47:00.508896Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
