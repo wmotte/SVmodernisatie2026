@@ -1,0 +1,160 @@
+{
+  "book": "JHN",
+  "chapter": 9,
+  "reviewed_at": "2026-06-01T06:34:05+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-06-01T06:34:05+00:00",
+      "mode": "scan",
+      "issues_total": 9
+    }
+  ],
+  "issues": [
+    {
+      "category": "§2.3 finiet participium",
+      "verse": 14,
+      "severity": "soft",
+      "quote_modernized": "…oen Jezus het slijk maakte en zijn ogen opende.",
+      "rule_reference": "MODERNISATIE.md §2.3",
+      "explanation": "'opende' — verdacht -ende-woord in adverbial / clause-final positie. Ontvouw naar finiete bijzin ('en X', 'terwijl X', 'toen X').",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "JHN-9-14-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] 'opende' is hier finiet praeteritum 3sg van 'open(en)' (διήνοιγεν, imperfect 3sg) — geen participium praesens. Scanner-regex herkent -ende-suffix maar mist dat dit een finiet werkwoord in een 'toen…opende'-bijzin is. Klassiek false positive."
+    },
+    {
+      "category": "kanttekening-luiheid (§2.3 in <…>)",
+      "verse": 38,
+      "severity": "hard",
+      "quote_modernized": "…lijk, omdat hij hem nu als de Zoon Gods erkende.",
+      "rule_reference": "KANTTEKENINGEN.md + §2.3",
+      "explanation": "'erkende' binnen kanttekening — verdacht -ende-woord in adverbial / clause-final positie. §2.3 geldt ook in <…>; ontvouw naar finiete bijzin.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "JHN-9-38-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] False positive: 'erkende' is finiete imperfectum 3 sg. van 'erkennen' (volle finiete bijzin: 'omdat hij ... verhaalde en voor goed erkende'), geen adverbiaal participium. §2.3 geldt voor adverbiale/participium-vormen op -ende (vb. 'zeggende', 'wetende'); preterita van werkwoorden waarvan de stam toevallig op -end eindigt vallen niet onder §2.3."
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 41,
+      "severity": "soft",
+      "quote_modernized": "Jezus zei tot hen:   Indien u blind was, dan zou u   geen zon…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "JHN-9-41-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+    },
+    {
+      "category": "kanttekening-luiheid (§2.3 in <…>)",
+      "verse": 41,
+      "severity": "hard",
+      "quote_modernized": "…, indien u uw onwetendheid en blindheid kende. dat is, geen zo grote en ongenees…",
+      "rule_reference": "KANTTEKENINGEN.md + §2.3",
+      "explanation": "'kende' binnen kanttekening — verdacht -ende-woord in adverbial / clause-final positie. §2.3 geldt ook in <…>; ontvouw naar finiete bijzin.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "JHN-9-41-002",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] 'kende' in '<Of, kende.>' is GEEN participium maar de finiete preteritum-vorm 1e/3e enkelvoud van 'kennen' (hij kende = he knew); marginale alternatieve vertaling voor 'wist'. §2.3 regelt adverbiale -ende-participia, niet finiete werkwoorden. Scanner-regex matcht het -ende-achtervoegsel maar dit is een vervoegd hoofdwerkwoord — false-positive."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 2,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'vraeghd' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        2,
+        15,
+        19
+      ],
+      "id": "JHN-9-2-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] v5 'vroeg' is moderne weergave van Gr. ἐπηρώτα (impf.act.3sg) en is volledig concordant met de SV-stam 'vragen'. Scanner stem-matcher zoekt op origineel 'vragh' / 'vraegh' (1657-spelling) en mist de moderne s/z-/v-overgang (vroeg/vraagde). Geen drift — directe concordante rendering, vgl. v23 ('vroeg hem', identieke aoristus)."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 6,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'maeckte' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        6,
+        11,
+        14
+      ],
+      "id": "JHN-9-6-001",
+      "status": "rebutted",
+      "rebuttal": "False positive: in v6, v11 en v14 rendert SV 'maeckte' telkens concordant als 'maakte' bij Grieks ἐποίησε/ἐποίησεν. AGENTS.md concordantie is dus behouden; de scanner zoekt op de 1657-prefix 'maeck-' en mist de normale spellingmodernisatie naar 'maak-'."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 13,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'pharize' in 4 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 4 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        13,
+        15,
+        16,
+        40
+      ],
+      "id": "JHN-9-13-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] False positive: 'Pharizeen' → 'Farizeeën' (v30, v36), 'Pharizeen' (genitief) → 'van de Farizeeër' (v37 incl. enkelvoud-context), 'Pharizeus' → 'Farizeeër' (v39). Stam 'Farizee-' is consistent; verbuiging volgt Grieks (gen.sg/pl)."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 15,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'wederom' in 4 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 4 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        15,
+        17,
+        26,
+        27
+      ],
+      "id": "JHN-9-15-001",
+      "status": "rebutted",
+      "rebuttal": "False positive: 'wederom' is in v15, v17, v26 en v27 telkens als modern 'weer' weergegeven bij Grieks πάλιν. Dat volgt AGENTS.md concordantie op lemma-niveau; de detector vergelijkt alleen prefixen en herkent 'wederom' → 'weer' niet als dezelfde moderne keuze."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 16,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'sondaer' in 4 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 4 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        16,
+        24,
+        25,
+        31
+      ],
+      "id": "JHN-9-16-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] Stam 'sondaer' rendert projectbreed consistent als 'zondaar'/'zondaars': v1+v2 mv. 'zondaars' (Gr. ἁμαρτωλοί/ἁμαρτωλούς), v7+v10 ev. 'een zondaar die zich bekeert' (Gr. ἁμαρτωλῷ μετανοοῦντι). Geen drift — enige variatie is getal, gestuurd door het Grieks. Detector matcht op NL-prefix, niet op lemma."
+    }
+  ]
+}
