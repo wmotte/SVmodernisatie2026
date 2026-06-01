@@ -34,6 +34,33 @@
       "generated_at": "2026-06-01T09:25:01.224823Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 4,
+      "original": "Soo seyde dan een van sijne discipelen, [namelick] Iudas Simonis Iscariot die hem verraden soude,",
+      "modernized": "Zo zei dan een van zijn discipelen, [namelijk] Judas Simons Iskariot, die hem verraden zou,",
+      "source_text": "λέγει οὖν εἷς ἐκ τῶν μαθητῶν αὐτοῦ, Ἰούδας Σίμωνος Ἰσκαριώτης, ὁ μέλλων αὐτὸν παραδιδόναι,",
+      "generated_at": "2026-06-01T09:30:35.056186Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 5,
+      "original": "$Marc. 14.5.$ Waerom en is dese salve niet verkocht voor drie hondert <Gr. Denarien, van welcker weerde siet Matth. 18.28. ende Marc. 14.5.> penningen, ende den armen gegeven?",
+      "modernized": "$Mk. 14:5$ Waarom is deze zalf niet verkocht voor driehonderd <Grieks: Denariën, voor de waarde daarvan zie $Mt. 18:28$ en $Mk. 14:5$.> penningen, en aan de armen gegeven?",
+      "source_text": "Διατί τοῦτο τὸ μύρον οὐκ ἐπράθη τριακοσίων δηναρίων, καὶ ἐδόθη πτωχοῖς;",
+      "generated_at": "2026-06-01T09:31:13.088501Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 6,
+      "original": "Ende dit seyde hy, niet om dat hy besorght was voor den armen, maer om dat hy een dief was, $Ioan. 13.29.$ ende hadde de burse, ende droegh het gene <Gr. geworpen wiert, D. ingeworpen, namelick van eenige Godtsalige vrouwen ende andere, tot onderhoudinge Christi, ende sijner discipelen. Siet Luce 8.3.> gegeven wiert.",
+      "modernized": "En dit zei hij, niet omdat hij bezorgd was om de armen, maar omdat hij een dief was, $Jh. 13:29$ en hij had de beurs, en droeg hetgeen <Grieks: geworpen werd, dat is, ingeworpen, namelijk door enige Godzalige vrouwen en anderen, tot onderhoud van Christus en zijn discipelen. Zie $Lk. 8:3$.> gegeven werd.",
+      "source_text": "εἶπε δὲ τοῦτο, οὐχ ὅτι περὶ τῶν πτωχῶν ἔμελεν αὐτῷ, ἀλλὰ ὅτι κλέπτης ἦν, καὶ τὸ γλωσσόκομον εἶχε, καὶ τὰ βαλλόμενα ἐβάσταζεν.",
+      "generated_at": "2026-06-01T09:31:43.525834Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
