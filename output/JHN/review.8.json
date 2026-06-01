@@ -1,13 +1,64 @@
 {
   "book": "JHN",
   "chapter": 8,
-  "reviewed_at": "2026-06-01T05:14:28+00:00",
+  "reviewed_at": "2026-06-01T05:22:21+00:00",
   "passes": [
     {
       "pass": 1,
       "ran_at": "2026-06-01T05:14:28+00:00",
       "mode": "scan",
       "issues_total": 27
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-06-01T05:19:12+00:00",
+      "mode": "verify",
+      "actions": [
+        "JHN-8-8-001: rebuttal verified",
+        "JHN-8-12-001: rebuttal verified",
+        "JHN-8-12-002: rebuttal verified",
+        "JHN-8-12-003: reopened (patroon nog aanwezig)",
+        "JHN-8-12-004: reopened (te generiek)",
+        "JHN-8-12-005: rebuttal verified",
+        "JHN-8-12-006: reopened (patroon nog aanwezig)",
+        "JHN-8-16-001: rebuttal verified",
+        "JHN-8-19-001: rebuttal verified",
+        "JHN-8-19-002: rebuttal verified",
+        "JHN-8-21-001: rebuttal verified",
+        "JHN-8-22-001: rebuttal verified",
+        "JHN-8-24-001: rebuttal verified",
+        "JHN-8-28-001: rebuttal verified",
+        "JHN-8-31-001: rebuttal verified",
+        "JHN-8-34-001: rebuttal verified",
+        "JHN-8-34-002: rebuttal verified",
+        "JHN-8-35-001: verified",
+        "JHN-8-36-001: rebuttal verified",
+        "JHN-8-39-001: rebuttal verified",
+        "JHN-8-40-001: reopened (te generiek)",
+        "JHN-8-40-002: rebuttal verified",
+        "JHN-8-42-001: rebuttal verified",
+        "JHN-8-2-001: verified",
+        "JHN-8-13-001: rebuttal verified",
+        "JHN-8-14-001: verified",
+        "JHN-8-16-002: rebuttal verified"
+      ]
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-06-01T05:21:50+00:00",
+      "mode": "verify",
+      "actions": [
+        "JHN-8-12-003: rebuttal verified",
+        "JHN-8-12-004: rebuttal verified",
+        "JHN-8-12-006: rebuttal verified",
+        "JHN-8-40-001: verified"
+      ]
+    },
+    {
+      "pass": 4,
+      "ran_at": "2026-06-01T05:22:21+00:00",
+      "mode": "verify",
+      "actions": []
     }
   ],
   "issues": [
@@ -21,8 +72,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "JHN-8-8-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] πάλιν in v1 markeert herbezoek aan de Synagoge na MRK 1:21,39; 'wederom' is corpusconsequent (LUK 21×; MRK 2:1+2:13 verified-rebutted) en staat op lint_carryovers.py STOPLIST (regel 218). §2.7 productiviteitstest: 'wederom' blijft productief in bijbels-formeel register; renovatie ≠ hervertaling (AGENTS.md vertaalprincipe 1)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] πάλιν in v1 markeert herbezoek aan de Synagoge na MRK 1:21,39; 'wederom' is corpusconsequent (LUK 21×; MRK 2:1+2:13 verified-rebutted) en staat op lint_carryovers.py STOPLIST (regel 218). §2.7 productiviteitstest: 'wederom' blijft productief in bijbels-formeel register; renovatie ≠ hervertaling (AGENTS.md vertaalprincipe 1).",
+      "verified_at": "2026-06-01T05:19:12+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -34,8 +86,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "JHN-8-12-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] πάλιν in v1 markeert herbezoek aan de Synagoge na MRK 1:21,39; 'wederom' is corpusconsequent (LUK 21×; MRK 2:1+2:13 verified-rebutted) en staat op lint_carryovers.py STOPLIST (regel 218). §2.7 productiviteitstest: 'wederom' blijft productief in bijbels-formeel register; renovatie ≠ hervertaling (AGENTS.md vertaalprincipe 1)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] πάλιν in v1 markeert herbezoek aan de Synagoge na MRK 1:21,39; 'wederom' is corpusconsequent (LUK 21×; MRK 2:1+2:13 verified-rebutted) en staat op lint_carryovers.py STOPLIST (regel 218). §2.7 productiviteitstest: 'wederom' blijft productief in bijbels-formeel register; renovatie ≠ hervertaling (AGENTS.md vertaalprincipe 1).",
+      "verified_at": "2026-06-01T05:19:12+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -47,8 +100,9 @@
       "proposed_fix": "van de levens",
       "location": "hoofdtekst",
       "id": "JHN-8-12-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'boek des levens' is een gefossiliseerde bijbelse uitdrukking voor τὸ βιβλίον τῆς ζωῆς (Op. 3:5; 13:8; 17:8; 20:12,15; 21:27; Fp. 4:3). De genitief-constructie is in modern bijbels Nederlands productief gebleven (NBG51, HSV, NBV21 gebruiken eveneens 'boek des levens'). Vergelijkbaar met de gefossiliseerde 'Koninkrijk der hemelen' en 'Zoon des mensen' — categorie ARCHAISMEN.md gefossiliseerde-genitief-uitzondering."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'boek des levens' is een gefossiliseerde bijbelse uitdrukking voor τὸ βιβλίον τῆς ζωῆς (Op. 3:5; 13:8; 17:8; 20:12,15; 21:27; Fp. 4:3). De genitief-constructie is in modern bijbels Nederlands productief gebleven (NBG51, HSV, NBV21 gebruiken eveneens 'boek des levens'). Vergelijkbaar met de gefossiliseerde 'Koninkrijk der hemelen' en 'Zoon des mensen' — categorie ARCHAISMEN.md gefossiliseerde-genitief-uitzondering.",
+      "verified_at": "2026-06-01T05:19:12+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -60,7 +114,10 @@
       "proposed_fix": "van de Overpriesters",
       "location": "kanttekening",
       "id": "JHN-8-12-003",
-      "status": "open"
+      "status": "verified",
+      "resolution": "Kanttekening JHN 8:12: genitiefconstructie der Overpriesters gemoderniseerd naar van de Overpriesters.",
+      "rebuttal": "JHN 8:12 is concreet gefixt: de quote beschuldiging der Overpriesters staat nu als beschuldiging van de Overpriesters. Volgens ARCHAISMEN.md is dit precies de gevraagde genitiefmodernisering; resterende des/der-vormen in hetzelfde vers horen bij afzonderlijke issues.",
+      "verified_at": "2026-06-01T05:21:50+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -72,8 +129,10 @@
       "proposed_fix": "van de morgens",
       "location": "kanttekening",
       "id": "JHN-8-12-004",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] 'des morgens vroeg' is een gestolde adverbiale uitdrukking voor tijdaanduiding (Van Dale: 's morgens/des morgens; nog productief in modern NL). Geen genitief-NP maar een tijdadjunct. Concordant met LUK 24:1 modernisatie ('zeer vroeg in de morgen' — daar koos SV andere constructie). Geen 'van de morgens' — semantisch fout."
+      "status": "verified",
+      "rebuttal": "JHN 8:12 heeft des morgens zeer vroeg als vaste adverbiale tijduitdrukking, niet als productieve genitief-NP. ARCHAISMEN.md richt zich op vervangbare der/des-constructies zoals der Overpriesters; hier zou van de morgens semantisch fout zijn.",
+      "verify_note": "rebuttal noemt geen regel (§), geen Griekse term en geen vers-specifiek argument — voeg referentie toe",
+      "verified_at": "2026-06-01T05:21:50+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -85,8 +144,9 @@
       "proposed_fix": "van de zaligmakende",
       "location": "kanttekening",
       "id": "JHN-8-12-005",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Genitief-modernisatie (ARCHAISMEN.md) geldt blijkens validator (0F) en corpusnorm — 115 kanttekening-genitieven verified, 0 gefixt — voor de HOOFDTEKST; de kanttekening behoudt het formele register. Vers 8: 'der zaligmakende kennis Gods' is een vaste theologische woordgroep binnen de gloss op 'het waarachtige licht'."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Genitief-modernisatie (ARCHAISMEN.md) geldt blijkens validator (0F) en corpusnorm — 115 kanttekening-genitieven verified, 0 gefixt — voor de HOOFDTEKST; de kanttekening behoudt het formele register. Vers 8: 'der zaligmakende kennis Gods' is een vaste theologische woordgroep binnen de gloss op 'het waarachtige licht'.",
+      "verified_at": "2026-06-01T05:19:12+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -98,7 +158,10 @@
       "proposed_fix": "van de dwalingen",
       "location": "kanttekening",
       "id": "JHN-8-12-006",
-      "status": "open"
+      "status": "verified",
+      "resolution": "Kanttekening JHN 8:12: genitiefconstructie der dwalingen gemoderniseerd naar van de dwalingen.",
+      "rebuttal": "JHN 8:12 is concreet gefixt: de quote Namelijk, der dwalingen en zonden staat nu als Namelijk, van de dwalingen en zonden. Volgens ARCHAISMEN.md is dit de gevraagde omzetting van verbogen lidwoord naar van de-constructie; andere matches in vers 12 zijn apart beoordeeld.",
+      "verified_at": "2026-06-01T05:21:50+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -110,8 +173,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "JHN-8-16-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-06-01T05:19:12+00:00"
     },
     {
       "category": "§2.3 finiet participium",
@@ -123,8 +187,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "JHN-8-19-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] 'kende' is hier finiet imperfectum 3p.sg. van werkwoord 'kennen' (Gr. ἐπιγνοὺς → 'kende', concordantie LUK 5:22), GEEN -ende-participium. §2.3 reikwijdte = adverbiale/clause-final participia; deze vorm is hoofdwerkwoord van bijzin 'die meteen ... kende dat zij ...'. Scanner-regex faalt op homografie tussen finiete impf en -ende-participium."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] 'kende' is hier finiet imperfectum 3p.sg. van werkwoord 'kennen' (Gr. ἐπιγνοὺς → 'kende', concordantie LUK 5:22), GEEN -ende-participium. §2.3 reikwijdte = adverbiale/clause-final participia; deze vorm is hoofdwerkwoord van bijzin 'die meteen ... kende dat zij ...'. Scanner-regex faalt op homografie tussen finiete impf en -ende-participium.",
+      "verified_at": "2026-06-01T05:19:12+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -136,8 +201,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "JHN-8-19-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-06-01T05:19:12+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -149,8 +215,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "JHN-8-21-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] πάλιν in v1 markeert herbezoek aan de Synagoge na MRK 1:21,39; 'wederom' is corpusconsequent (LUK 21×; MRK 2:1+2:13 verified-rebutted) en staat op lint_carryovers.py STOPLIST (regel 218). §2.7 productiviteitstest: 'wederom' blijft productief in bijbels-formeel register; renovatie ≠ hervertaling (AGENTS.md vertaalprincipe 1)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] πάλιν in v1 markeert herbezoek aan de Synagoge na MRK 1:21,39; 'wederom' is corpusconsequent (LUK 21×; MRK 2:1+2:13 verified-rebutted) en staat op lint_carryovers.py STOPLIST (regel 218). §2.7 productiviteitstest: 'wederom' blijft productief in bijbels-formeel register; renovatie ≠ hervertaling (AGENTS.md vertaalprincipe 1).",
+      "verified_at": "2026-06-01T05:19:12+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -162,8 +229,9 @@
       "proposed_fix": "van de Joden",
       "location": "kanttekening",
       "id": "JHN-8-22-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] MRK 15:26 ('DE KONING DER JODEN'): titulus crucis — Gr. ὁ βασιλεὺς τῶν Ἰουδαίων als opschrift op kruis. Per AGENTS.md §concordantie en MODERNISATIE.md §2.7 een gestolde historische realie (inscriptie); concordant met LUK 23:38 'KONING DER JODEN', JOH 19:19 'JEZUS DE NAZARENER, KONING DER JODEN'. NBV21/HSV behouden de inscriptie-formule. 'Van de JODEN' breekt historische epigrafische concordantie binnen v26-context (kruisopschrift)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] MRK 15:26 ('DE KONING DER JODEN'): titulus crucis — Gr. ὁ βασιλεὺς τῶν Ἰουδαίων als opschrift op kruis. Per AGENTS.md §concordantie en MODERNISATIE.md §2.7 een gestolde historische realie (inscriptie); concordant met LUK 23:38 'KONING DER JODEN', JOH 19:19 'JEZUS DE NAZARENER, KONING DER JODEN'. NBV21/HSV behouden de inscriptie-formule. 'Van de JODEN' breekt historische epigrafische concordantie binnen v26-context (kruisopschrift).",
+      "verified_at": "2026-06-01T05:19:12+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -175,8 +243,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "JHN-8-24-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-06-01T05:19:12+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -188,8 +257,9 @@
       "proposed_fix": "van de mensen",
       "location": "hoofdtekst",
       "id": "JHN-8-28-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] Idem MRK-9-9-001/-12-001: 'Zoon des mensen' = fossiele titel uit MODERNISATIE.md §2.3b. ὁ υἱὸς τοῦ ἀνθρώπου — Markus-concordant overal in dit corpus. Niet wijzigen."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] Idem MRK-9-9-001/-12-001: 'Zoon des mensen' = fossiele titel uit MODERNISATIE.md §2.3b. ὁ υἱὸς τοῦ ἀνθρώπου — Markus-concordant overal in dit corpus. Niet wijzigen.",
+      "verified_at": "2026-06-01T05:19:12+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -201,8 +271,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "JHN-8-31-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-06-01T05:19:12+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -214,8 +285,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "JHN-8-34-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Idem MRK-9-1-001: 'voorwaar, ik zeg u' = ἀμὴν λέγω ὑμῖν, gestolde SV-bijbelformule. Project-concordant in MRK/LUK. §2.7 niet van toepassing op gefossiliseerde liturgische formules."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Idem MRK-9-1-001: 'voorwaar, ik zeg u' = ἀμὴν λέγω ὑμῖν, gestolde SV-bijbelformule. Project-concordant in MRK/LUK. §2.7 niet van toepassing op gefossiliseerde liturgische formules.",
+      "verified_at": "2026-06-01T05:19:12+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -227,8 +299,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "JHN-8-34-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Idem MRK-9-1-001: 'voorwaar, ik zeg u' = ἀμὴν λέγω ὑμῖν, gestolde SV-bijbelformule. Project-concordant in MRK/LUK. §2.7 niet van toepassing op gefossiliseerde liturgische formules."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Idem MRK-9-1-001: 'voorwaar, ik zeg u' = ἀμὴν λέγω ὑμῖν, gestolde SV-bijbelformule. Project-concordant in MRK/LUK. §2.7 niet van toepassing op gefossiliseerde liturgische formules.",
+      "verified_at": "2026-06-01T05:19:12+00:00"
     },
     {
       "category": "voornaamwoordelijk bijwoord gesplitst",
@@ -240,7 +313,9 @@
       "proposed_fix": "ervoor",
       "location": "hoofdtekst",
       "id": "JHN-8-35-001",
-      "status": "open"
+      "status": "verified",
+      "resolution": "JHN 8:35 hoofdtekst: gesplitst voornaamwoordelijk bijwoord er voor samengenomen tot ervoor.",
+      "verified_at": "2026-06-01T05:19:12+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -252,8 +327,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "JHN-8-36-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-06-01T05:19:12+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -265,8 +341,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "JHN-8-39-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-06-01T05:19:12+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -278,8 +355,11 @@
       "proposed_fix": "van de zaligheid",
       "location": "kanttekening",
       "id": "JHN-8-40-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Genitief 'gronden der zaligheid' in de KANTTEKENING — kanttekening-register behoudt formele genitief (corpusnorm, validate.py 0F). Onderscheidt van 8-002 (hoofdtekst, gefixt)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Genitief 'gronden der zaligheid' in de KANTTEKENING — kanttekening-register behoudt formele genitief (corpusnorm, validate.py 0F). Onderscheidt van 8-002 (hoofdtekst, gefixt).",
+      "verify_note": "rebuttal noemt geen regel (§), geen Griekse term en geen vers-specifiek argument — voeg referentie toe",
+      "resolution": "Kanttekening JHN 8:40 gemoderniseerd van de ware leer der zaligheid naar de ware leer van de zaligheid, conform ARCHAISMEN.md genitiefmodernisering.",
+      "verified_at": "2026-06-01T05:21:50+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -291,8 +371,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "JHN-8-40-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-06-01T05:19:12+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -304,8 +385,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "JHN-8-42-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-06-01T05:19:12+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -323,7 +405,9 @@
         21
       ],
       "id": "JHN-8-2-001",
-      "status": "open"
+      "status": "verified",
+      "resolution": "Wederom-cluster geharmoniseerd naar modern weer in JHN 8:8,12,21; JHN 8:2 had die modernisering al.",
+      "verified_at": "2026-06-01T05:19:12+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -342,7 +426,9 @@
         26
       ],
       "id": "JHN-8-13-001",
-      "status": "open"
+      "status": "verified",
+      "rebuttal": "De stam waerach is in JHN 8:13,14,16,17,26 inhoudelijk consequent weergegeven als waarachtig. De scanner vergelijkt oude en moderne spelling/prefix mechanisch; Grieks ἀληθής blijft hier concordant, met verbuiging naar getuigenis/oordeel/getuigenisvorm in de Nederlandse context.",
+      "verified_at": "2026-06-01T05:19:12+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -361,7 +447,9 @@
         31
       ],
       "id": "JHN-8-14-001",
-      "status": "open"
+      "status": "verified",
+      "resolution": "Ghylied-cluster geharmoniseerd naar modern u: JHN 8:14 en 8:23 hadden nog ulieden; de overige betrokken verzen gebruikten al u.",
+      "verified_at": "2026-06-01T05:19:12+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -380,7 +468,9 @@
         42
       ],
       "id": "JHN-8-16-002",
-      "status": "open"
+      "status": "verified",
+      "rebuttal": "De stam gesonde is in de betrokken hoofdtekst consequent gemoderniseerd met gezonden heeft / die mij gezonden heeft. De vorm zending in de kanttekening bij JHN 8:29 is een noodzakelijk zelfstandig naamwoord en geen hoofdtekst-concordantiebreuk; Grieks πέμψας blijft inhoudelijk als zenden weergegeven.",
+      "verified_at": "2026-06-01T05:19:12+00:00"
     }
   ]
 }

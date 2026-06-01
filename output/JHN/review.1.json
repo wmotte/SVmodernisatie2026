@@ -1,7 +1,7 @@
 {
   "book": "JHN",
   "chapter": 1,
-  "reviewed_at": "2026-05-30T18:19:59+00:00",
+  "reviewed_at": "2026-06-01T05:22:12+00:00",
   "passes": [
     {
       "pass": 1,
@@ -49,6 +49,22 @@
         "JHN-1-30-001: reopened (te generiek)",
         "JHN-1-39-001: rebuttal verified",
         "JHN-1-44-001: rebuttal verified"
+      ]
+    },
+    {
+      "pass": 4,
+      "ran_at": "2026-06-01T05:22:12+00:00",
+      "mode": "verify",
+      "actions": [
+        "JHN-1-17-001: rebuttal verified",
+        "JHN-1-17-002: rebuttal verified",
+        "JHN-1-17-003: rebuttal verified",
+        "JHN-1-17-004: rebuttal verified",
+        "JHN-1-17-005: rebuttal verified",
+        "JHN-1-17-006: rebuttal verified",
+        "JHN-1-17-007: rebuttal verified",
+        "JHN-1-17-008: rebuttal verified",
+        "JHN-1-30-001: rebuttal verified"
       ]
     }
   ],
@@ -119,9 +135,10 @@
       "proposed_fix": "van de zeden",
       "location": "kanttekening",
       "id": "JHN-1-17-001",
-      "status": "rebutted",
+      "status": "verified",
       "fix_commit": "adversarial-fix-JHN-1",
-      "rebuttal": "§verbogen-lidwoord fossiel-residu-FP: deze specifieke genitief is in ronde 1 gefixt naar 'van de'-vorm (vers 17 bevat nu 'van de zeden / van de tien geboden / van de ceremoniën / van de verlossing / van de vloek van de wet / van de aanneming / van de beloften'). De verify-scanner herscant het hele vers en matcht nog op de ENIGE resterende der/des-vorm 'Heere des huizes' — een gestolde fossiele uitdrukking (householder, Gr. οἰκοδεσπότης), apart afgehandeld als JHN-1-17-009. Geen onopgeloste overtreding; de heropening is een scanner-prefix-FP per feedback_adversarial_verify_fossiel_residu."
+      "rebuttal": "§verbogen-lidwoord fossiel-residu-FP: deze specifieke genitief is in ronde 1 gefixt naar 'van de'-vorm (vers 17 bevat nu 'van de zeden / van de tien geboden / van de ceremoniën / van de verlossing / van de vloek van de wet / van de aanneming / van de beloften'). De verify-scanner herscant het hele vers en matcht nog op de ENIGE resterende der/des-vorm 'Heere des huizes' — een gestolde fossiele uitdrukking (householder, Gr. οἰκοδεσπότης), apart afgehandeld als JHN-1-17-009. Geen onopgeloste overtreding; de heropening is een scanner-prefix-FP per feedback_adversarial_verify_fossiel_residu.",
+      "verified_at": "2026-06-01T05:22:12+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -133,9 +150,10 @@
       "proposed_fix": "van de tien",
       "location": "kanttekening",
       "id": "JHN-1-17-002",
-      "status": "rebutted",
+      "status": "verified",
       "fix_commit": "adversarial-fix-JHN-1",
-      "rebuttal": "§verbogen-lidwoord fossiel-residu-FP: deze specifieke genitief is in ronde 1 gefixt naar 'van de'-vorm (vers 17 bevat nu 'van de zeden / van de tien geboden / van de ceremoniën / van de verlossing / van de vloek van de wet / van de aanneming / van de beloften'). De verify-scanner herscant het hele vers en matcht nog op de ENIGE resterende der/des-vorm 'Heere des huizes' — een gestolde fossiele uitdrukking (householder, Gr. οἰκοδεσπότης), apart afgehandeld als JHN-1-17-009. Geen onopgeloste overtreding; de heropening is een scanner-prefix-FP per feedback_adversarial_verify_fossiel_residu."
+      "rebuttal": "§verbogen-lidwoord fossiel-residu-FP: deze specifieke genitief is in ronde 1 gefixt naar 'van de'-vorm (vers 17 bevat nu 'van de zeden / van de tien geboden / van de ceremoniën / van de verlossing / van de vloek van de wet / van de aanneming / van de beloften'). De verify-scanner herscant het hele vers en matcht nog op de ENIGE resterende der/des-vorm 'Heere des huizes' — een gestolde fossiele uitdrukking (householder, Gr. οἰκοδεσπότης), apart afgehandeld als JHN-1-17-009. Geen onopgeloste overtreding; de heropening is een scanner-prefix-FP per feedback_adversarial_verify_fossiel_residu.",
+      "verified_at": "2026-06-01T05:22:12+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -147,9 +165,10 @@
       "proposed_fix": "van de ceremoniën",
       "location": "kanttekening",
       "id": "JHN-1-17-003",
-      "status": "rebutted",
+      "status": "verified",
       "fix_commit": "adversarial-fix-JHN-1",
-      "rebuttal": "§verbogen-lidwoord fossiel-residu-FP: deze specifieke genitief is in ronde 1 gefixt naar 'van de'-vorm (vers 17 bevat nu 'van de zeden / van de tien geboden / van de ceremoniën / van de verlossing / van de vloek van de wet / van de aanneming / van de beloften'). De verify-scanner herscant het hele vers en matcht nog op de ENIGE resterende der/des-vorm 'Heere des huizes' — een gestolde fossiele uitdrukking (householder, Gr. οἰκοδεσπότης), apart afgehandeld als JHN-1-17-009. Geen onopgeloste overtreding; de heropening is een scanner-prefix-FP per feedback_adversarial_verify_fossiel_residu."
+      "rebuttal": "§verbogen-lidwoord fossiel-residu-FP: deze specifieke genitief is in ronde 1 gefixt naar 'van de'-vorm (vers 17 bevat nu 'van de zeden / van de tien geboden / van de ceremoniën / van de verlossing / van de vloek van de wet / van de aanneming / van de beloften'). De verify-scanner herscant het hele vers en matcht nog op de ENIGE resterende der/des-vorm 'Heere des huizes' — een gestolde fossiele uitdrukking (householder, Gr. οἰκοδεσπότης), apart afgehandeld als JHN-1-17-009. Geen onopgeloste overtreding; de heropening is een scanner-prefix-FP per feedback_adversarial_verify_fossiel_residu.",
+      "verified_at": "2026-06-01T05:22:12+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -161,9 +180,10 @@
       "proposed_fix": "van de verlossing",
       "location": "kanttekening",
       "id": "JHN-1-17-004",
-      "status": "rebutted",
+      "status": "verified",
       "fix_commit": "adversarial-fix-JHN-1",
-      "rebuttal": "§verbogen-lidwoord fossiel-residu-FP: deze specifieke genitief is in ronde 1 gefixt naar 'van de'-vorm (vers 17 bevat nu 'van de zeden / van de tien geboden / van de ceremoniën / van de verlossing / van de vloek van de wet / van de aanneming / van de beloften'). De verify-scanner herscant het hele vers en matcht nog op de ENIGE resterende der/des-vorm 'Heere des huizes' — een gestolde fossiele uitdrukking (householder, Gr. οἰκοδεσπότης), apart afgehandeld als JHN-1-17-009. Geen onopgeloste overtreding; de heropening is een scanner-prefix-FP per feedback_adversarial_verify_fossiel_residu."
+      "rebuttal": "§verbogen-lidwoord fossiel-residu-FP: deze specifieke genitief is in ronde 1 gefixt naar 'van de'-vorm (vers 17 bevat nu 'van de zeden / van de tien geboden / van de ceremoniën / van de verlossing / van de vloek van de wet / van de aanneming / van de beloften'). De verify-scanner herscant het hele vers en matcht nog op de ENIGE resterende der/des-vorm 'Heere des huizes' — een gestolde fossiele uitdrukking (householder, Gr. οἰκοδεσπότης), apart afgehandeld als JHN-1-17-009. Geen onopgeloste overtreding; de heropening is een scanner-prefix-FP per feedback_adversarial_verify_fossiel_residu.",
+      "verified_at": "2026-06-01T05:22:12+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -175,9 +195,10 @@
       "proposed_fix": "van de wet",
       "location": "kanttekening",
       "id": "JHN-1-17-005",
-      "status": "rebutted",
+      "status": "verified",
       "fix_commit": "adversarial-fix-JHN-1",
-      "rebuttal": "§verbogen-lidwoord fossiel-residu-FP: deze specifieke genitief is in ronde 1 gefixt naar 'van de'-vorm (vers 17 bevat nu 'van de zeden / van de tien geboden / van de ceremoniën / van de verlossing / van de vloek van de wet / van de aanneming / van de beloften'). De verify-scanner herscant het hele vers en matcht nog op de ENIGE resterende der/des-vorm 'Heere des huizes' — een gestolde fossiele uitdrukking (householder, Gr. οἰκοδεσπότης), apart afgehandeld als JHN-1-17-009. Geen onopgeloste overtreding; de heropening is een scanner-prefix-FP per feedback_adversarial_verify_fossiel_residu."
+      "rebuttal": "§verbogen-lidwoord fossiel-residu-FP: deze specifieke genitief is in ronde 1 gefixt naar 'van de'-vorm (vers 17 bevat nu 'van de zeden / van de tien geboden / van de ceremoniën / van de verlossing / van de vloek van de wet / van de aanneming / van de beloften'). De verify-scanner herscant het hele vers en matcht nog op de ENIGE resterende der/des-vorm 'Heere des huizes' — een gestolde fossiele uitdrukking (householder, Gr. οἰκοδεσπότης), apart afgehandeld als JHN-1-17-009. Geen onopgeloste overtreding; de heropening is een scanner-prefix-FP per feedback_adversarial_verify_fossiel_residu.",
+      "verified_at": "2026-06-01T05:22:12+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -189,9 +210,10 @@
       "proposed_fix": "van de aanneming",
       "location": "kanttekening",
       "id": "JHN-1-17-006",
-      "status": "rebutted",
+      "status": "verified",
       "fix_commit": "adversarial-fix-JHN-1",
-      "rebuttal": "§verbogen-lidwoord fossiel-residu-FP: deze specifieke genitief is in ronde 1 gefixt naar 'van de'-vorm (vers 17 bevat nu 'van de zeden / van de tien geboden / van de ceremoniën / van de verlossing / van de vloek van de wet / van de aanneming / van de beloften'). De verify-scanner herscant het hele vers en matcht nog op de ENIGE resterende der/des-vorm 'Heere des huizes' — een gestolde fossiele uitdrukking (householder, Gr. οἰκοδεσπότης), apart afgehandeld als JHN-1-17-009. Geen onopgeloste overtreding; de heropening is een scanner-prefix-FP per feedback_adversarial_verify_fossiel_residu."
+      "rebuttal": "§verbogen-lidwoord fossiel-residu-FP: deze specifieke genitief is in ronde 1 gefixt naar 'van de'-vorm (vers 17 bevat nu 'van de zeden / van de tien geboden / van de ceremoniën / van de verlossing / van de vloek van de wet / van de aanneming / van de beloften'). De verify-scanner herscant het hele vers en matcht nog op de ENIGE resterende der/des-vorm 'Heere des huizes' — een gestolde fossiele uitdrukking (householder, Gr. οἰκοδεσπότης), apart afgehandeld als JHN-1-17-009. Geen onopgeloste overtreding; de heropening is een scanner-prefix-FP per feedback_adversarial_verify_fossiel_residu.",
+      "verified_at": "2026-06-01T05:22:12+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -203,9 +225,10 @@
       "proposed_fix": "van de beloften",
       "location": "kanttekening",
       "id": "JHN-1-17-007",
-      "status": "rebutted",
+      "status": "verified",
       "fix_commit": "adversarial-fix-JHN-1",
-      "rebuttal": "§verbogen-lidwoord fossiel-residu-FP: deze specifieke genitief is in ronde 1 gefixt naar 'van de'-vorm (vers 17 bevat nu 'van de zeden / van de tien geboden / van de ceremoniën / van de verlossing / van de vloek van de wet / van de aanneming / van de beloften'). De verify-scanner herscant het hele vers en matcht nog op de ENIGE resterende der/des-vorm 'Heere des huizes' — een gestolde fossiele uitdrukking (householder, Gr. οἰκοδεσπότης), apart afgehandeld als JHN-1-17-009. Geen onopgeloste overtreding; de heropening is een scanner-prefix-FP per feedback_adversarial_verify_fossiel_residu."
+      "rebuttal": "§verbogen-lidwoord fossiel-residu-FP: deze specifieke genitief is in ronde 1 gefixt naar 'van de'-vorm (vers 17 bevat nu 'van de zeden / van de tien geboden / van de ceremoniën / van de verlossing / van de vloek van de wet / van de aanneming / van de beloften'). De verify-scanner herscant het hele vers en matcht nog op de ENIGE resterende der/des-vorm 'Heere des huizes' — een gestolde fossiele uitdrukking (householder, Gr. οἰκοδεσπότης), apart afgehandeld als JHN-1-17-009. Geen onopgeloste overtreding; de heropening is een scanner-prefix-FP per feedback_adversarial_verify_fossiel_residu.",
+      "verified_at": "2026-06-01T05:22:12+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -217,9 +240,10 @@
       "proposed_fix": "van de ceremoniën",
       "location": "kanttekening",
       "id": "JHN-1-17-008",
-      "status": "rebutted",
+      "status": "verified",
       "fix_commit": "adversarial-fix-JHN-1",
-      "rebuttal": "§verbogen-lidwoord fossiel-residu-FP: deze specifieke genitief is in ronde 1 gefixt naar 'van de'-vorm (vers 17 bevat nu 'van de zeden / van de tien geboden / van de ceremoniën / van de verlossing / van de vloek van de wet / van de aanneming / van de beloften'). De verify-scanner herscant het hele vers en matcht nog op de ENIGE resterende der/des-vorm 'Heere des huizes' — een gestolde fossiele uitdrukking (householder, Gr. οἰκοδεσπότης), apart afgehandeld als JHN-1-17-009. Geen onopgeloste overtreding; de heropening is een scanner-prefix-FP per feedback_adversarial_verify_fossiel_residu."
+      "rebuttal": "§verbogen-lidwoord fossiel-residu-FP: deze specifieke genitief is in ronde 1 gefixt naar 'van de'-vorm (vers 17 bevat nu 'van de zeden / van de tien geboden / van de ceremoniën / van de verlossing / van de vloek van de wet / van de aanneming / van de beloften'). De verify-scanner herscant het hele vers en matcht nog op de ENIGE resterende der/des-vorm 'Heere des huizes' — een gestolde fossiele uitdrukking (householder, Gr. οἰκοδεσπότης), apart afgehandeld als JHN-1-17-009. Geen onopgeloste overtreding; de heropening is een scanner-prefix-FP per feedback_adversarial_verify_fossiel_residu.",
+      "verified_at": "2026-06-01T05:22:12+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -464,8 +488,9 @@
         51
       ],
       "id": "JHN-1-30-001",
-      "status": "rebutted",
-      "rebuttal": "Concordantie-drift FP (prefix-heuristiek mist flexie): stam 'geseght' (Gr. λέγω/εἶπον) wordt in álle 3 verzen consistent op lemma 'zeggen' weergegeven — v30 'gezegd heb', v33 'gezegd', v51 'gezegd heb' — geverifieerd. AGENTS.md vereist concordantie op lemma, niet op finiete tijd; de verschillen zijn noodzakelijke perfectum/hulpwerkwoord-flexie, niet lexicale drift."
+      "status": "verified",
+      "rebuttal": "Concordantie-drift FP (prefix-heuristiek mist flexie): stam 'geseght' (Gr. λέγω/εἶπον) wordt in álle 3 verzen consistent op lemma 'zeggen' weergegeven — v30 'gezegd heb', v33 'gezegd', v51 'gezegd heb' — geverifieerd. AGENTS.md vereist concordantie op lemma, niet op finiete tijd; de verschillen zijn noodzakelijke perfectum/hulpwerkwoord-flexie, niet lexicale drift.",
+      "verified_at": "2026-06-01T05:22:12+00:00"
     },
     {
       "category": "concordantie-drift",

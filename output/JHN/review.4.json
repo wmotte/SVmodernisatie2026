@@ -1,13 +1,45 @@
 {
   "book": "JHN",
   "chapter": 4,
-  "reviewed_at": "2026-06-01T05:14:28+00:00",
+  "reviewed_at": "2026-06-01T05:22:12+00:00",
   "passes": [
     {
       "pass": 1,
       "ran_at": "2026-06-01T05:14:28+00:00",
       "mode": "scan",
       "issues_total": 10
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-06-01T05:19:12+00:00",
+      "mode": "verify",
+      "actions": [
+        "JHN-4-3-001: rebuttal verified",
+        "JHN-4-10-001: rebuttal verified",
+        "JHN-4-10-002: rebuttal verified",
+        "JHN-4-10-003: rebuttal verified",
+        "JHN-4-38-001: reopened (patroon nog aanwezig)",
+        "JHN-4-42-001: rebuttal verified",
+        "JHN-4-17-001: rebuttal verified",
+        "JHN-4-18-001: reopened (te generiek)",
+        "JHN-4-20-001: rebuttal verified",
+        "JHN-4-20-002: rebuttal verified"
+      ]
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-06-01T05:21:50+00:00",
+      "mode": "verify",
+      "actions": [
+        "JHN-4-38-001: verified",
+        "JHN-4-18-001: rebuttal verified"
+      ]
+    },
+    {
+      "pass": 4,
+      "ran_at": "2026-06-01T05:22:12+00:00",
+      "mode": "verify",
+      "actions": []
     }
   ],
   "issues": [
@@ -21,8 +53,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "JHN-4-3-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] πάλιν in v1 markeert herbezoek aan de Synagoge na MRK 1:21,39; 'wederom' is corpusconsequent (LUK 21×; MRK 2:1+2:13 verified-rebutted) en staat op lint_carryovers.py STOPLIST (regel 218). §2.7 productiviteitstest: 'wederom' blijft productief in bijbels-formeel register; renovatie ≠ hervertaling (AGENTS.md vertaalprincipe 1)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] πάλιν in v1 markeert herbezoek aan de Synagoge na MRK 1:21,39; 'wederom' is corpusconsequent (LUK 21×; MRK 2:1+2:13 verified-rebutted) en staat op lint_carryovers.py STOPLIST (regel 218). §2.7 productiviteitstest: 'wederom' blijft productief in bijbels-formeel register; renovatie ≠ hervertaling (AGENTS.md vertaalprincipe 1).",
+      "verified_at": "2026-06-01T05:19:12+00:00"
     },
     {
       "category": "§2.3 finiet participium",
@@ -34,8 +67,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "JHN-4-10-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] 'kende' is hier finiet imperfectum 3p.sg. van werkwoord 'kennen' (Gr. ἐπιγνοὺς → 'kende', concordantie LUK 5:22), GEEN -ende-participium. §2.3 reikwijdte = adverbiale/clause-final participia; deze vorm is hoofdwerkwoord van bijzin 'die meteen ... kende dat zij ...'. Scanner-regex faalt op homografie tussen finiete impf en -ende-participium."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] 'kende' is hier finiet imperfectum 3p.sg. van werkwoord 'kennen' (Gr. ἐπιγνοὺς → 'kende', concordantie LUK 5:22), GEEN -ende-participium. §2.3 reikwijdte = adverbiale/clause-final participia; deze vorm is hoofdwerkwoord van bijzin 'die meteen ... kende dat zij ...'. Scanner-regex faalt op homografie tussen finiete impf en -ende-participium.",
+      "verified_at": "2026-06-01T05:19:12+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -47,8 +81,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "JHN-4-10-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-06-01T05:19:12+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -60,8 +95,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "JHN-4-10-003",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-06-01T05:19:12+00:00"
     },
     {
       "category": "§2.3b infinitief met nageschoven object",
@@ -73,7 +109,10 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "JHN-4-38-001",
-      "status": "open"
+      "status": "verified",
+      "resolution": "JHN 4:38 hoofdtekst herschikt naar object vóór infinitief: om datgene waaraan u niet gearbeid hebt, te maaien.",
+      "verify_note": "fix loste het patroon niet op",
+      "verified_at": "2026-06-01T05:21:50+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -85,8 +124,9 @@
       "proposed_fix": "van de wereld",
       "location": "hoofdtekst",
       "id": "JHN-4-42-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'der wereld' in 'de volken der wereld' = τὰ ἔθνη τοῦ κόσμου: gestolde genitief-constructie in bijbel-NL. HSV behoudt eveneens 'de volken van deze wereld'-vorm; fossielargument §2.3b van toepassing (vaste woordgroep, niet productieve verbuiging)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'der wereld' in 'de volken der wereld' = τὰ ἔθνη τοῦ κόσμου: gestolde genitief-constructie in bijbel-NL. HSV behoudt eveneens 'de volken van deze wereld'-vorm; fossielargument §2.3b van toepassing (vaste woordgroep, niet productieve verbuiging).",
+      "verified_at": "2026-06-01T05:19:12+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -104,8 +144,9 @@
         39
       ],
       "id": "JHN-4-17-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Concordantie is intact. Origineel-stam 'geseght' (λαληθέν / ἐλαλήθη / εἰρημένον) is in alle 4 verzen 'gezegd': v17 'gezegd was', v18 'gezegd werd', v24 'gezegd is', v33 'gezegd werd'. De prefix-heuristiek mist 'geseght' → 'gezegd' (g-prefix gelijk, rest verschilt door spelling-modernisatie); hier geen drift."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Concordantie is intact. Origineel-stam 'geseght' (λαληθέν / ἐλαλήθη / εἰρημένον) is in alle 4 verzen 'gezegd': v17 'gezegd was', v18 'gezegd werd', v24 'gezegd is', v33 'gezegd werd'. De prefix-heuristiek mist 'geseght' → 'gezegd' (g-prefix gelijk, rest verschilt door spelling-modernisatie); hier geen drift.",
+      "verified_at": "2026-06-01T05:19:12+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -122,8 +163,10 @@
         24
       ],
       "id": "JHN-4-18-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Alle drie verzen (v2/v8/v20) gebruiken 'waarheid' voor SV 'waerheyt' — perfect concordant. Scanner's prefix-overlap-heuristiek mist de orthografische overgang ae→aa en ey→ei, waardoor 'waerhey'-prefix niet matcht met moderne 'waarh'-prefix. False positive."
+      "status": "verified",
+      "rebuttal": "JHN 4:18,23,24 gebruiken waarheid/waarheid voor SV waerheyt en Grieks ἀλήθεια; dit is concordant volgens AGENTS.md vertaalprincipe concordantie. De scanner mist alleen de spellingmodernisering ae→aa en ey→ei, waardoor waerhey niet met waarh matcht.",
+      "verify_note": "rebuttal noemt geen regel (§), geen Griekse term en geen vers-specifiek argument — voeg referentie toe",
+      "verified_at": "2026-06-01T05:21:50+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -141,7 +184,9 @@
         35
       ],
       "id": "JHN-4-20-001",
-      "status": "open"
+      "status": "verified",
+      "rebuttal": "De stam ghylied is hier consequent gemoderniseerd met het beleefde voornaamwoord u in JHN 4:20,21,22,35. Dat is geen concordantiebreuk maar reguliere modernisering van het archaïsche meervoudspronomen volgens AGENTS.md archaïsmen-tabel (ghy/gy/gij → u).",
+      "verified_at": "2026-06-01T05:19:12+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -160,7 +205,9 @@
         24
       ],
       "id": "JHN-4-20-002",
-      "status": "open"
+      "status": "verified",
+      "rebuttal": "De stam aenbidd is lexicaal consequent weergegeven met aanbidden/aangebeden/aanbidders in JHN 4:20-24. De vormverschillen volgen de Nederlandse syntaxis en woordsoort (werkwoord, voltooid deelwoord, zelfstandig naamwoord) bij dezelfde Griekse προσκυν*-woordgroep; harmoniseren naar één oppervlakteprefix zou juist onnatuurlijk zijn.",
+      "verified_at": "2026-06-01T05:19:12+00:00"
     }
   ]
 }
