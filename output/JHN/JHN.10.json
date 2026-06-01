@@ -61,6 +61,33 @@
       "generated_at": "2026-06-01T07:43:31.593297Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 7,
+      "original": "Iesus dan seyde wederom tot haer, Voorwaer, voorwaer segge ick u, Ick ben de <Namelick, door welcke soo wel de herders als de schapen in de gemeynte, ende tot het leven moeten ingaen, Ioan. 14.6.> deure der schapen.",
+      "modernized": "Jezus zei dan weer tot hen: Voorwaar, voorwaar zeg ik u: Ik ben de <Namelijk, door welke zowel de herders als de schapen in de gemeente, en tot het leven moeten ingaan, $Jh. 14:6$.> deur van de schapen.",
+      "source_text": "Εἶπεν οὖν πάλιν αὐτοῖς ὁ Ἰησοῦς, Ἀμὴν ἀμὴν λέγω ὑμῖν ὅτι Ἐγώ εἰμι ἡ θύρα τῶν προβάτων.",
+      "generated_at": "2026-06-01T07:47:40.952922Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 8,
+      "original": "Alle, soo vele als’er <Namelick, ofte haer uytgevende voor dese deure, ofte eenen anderen ingangh tot de saligheyt aenwijsende, Actor. 4.12.> voor my zijn gekomen, zijn dieven ende moordenaers, maer <D. de uytverkorene ende ware kinderen Godts.> de schapen en hebben haer niet gehoort.",
+      "modernized": "Allen, zovelen als er <Namelijk, of zichzelf uitgevende voor deze deur, of een andere ingang tot de zaligheid aanwijzend, $Hd. 4:12$.> voor mij zijn gekomen, zijn dieven en moordenaars; maar <Dat is, de uitverkorenen en ware kinderen van God.> de schapen hebben hen niet gehoord.",
+      "source_text": "πάντες ὅσοι πρὸ ἐμοῦ ἦλθον κλέπται εἰσὶ καὶ λῃσταί· ἀλλ’ οὐκ ἤκουσαν αὐτῶν τὰ πρόβατα.",
+      "generated_at": "2026-06-01T07:48:16.346649Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 9,
+      "original": "$Ioan. 14.6.$ Ick ben de deure: indien yemant door my ingaet, die sal behouden worden: ende hy sal <D. in mijne gemeenschap met een geruste conscientie leven, Deut. 28.6. Psalm 121.6, 7, 8.> ingaen ende uytgaen, ende <Dat is, geestelick voedtsel der ziele, Ezech. 34.14.> weyde vinden.",
+      "modernized": "$Jh. 14:6$ Ik ben de deur: als iemand door mij ingaat, die zal behouden worden; en hij zal <Dat is, in mijn gemeenschap met een gerust geweten leven, $Dt. 28:6; Ps. 121:6,7,8$.> ingaan en uitgaan, en <Dat is, geestelijk voedsel van de ziel, $Ez. 34:14$.> weide vinden.",
+      "source_text": "ἐγώ εἰμι ἡ θύρα· δι’ ἐμοῦ ἐάν τις εἰσέλθῃ, σωθήσεται, καὶ εἰσελεύσεται καὶ ἐξελεύσεται, καὶ νομὴν εὑρήσει.",
+      "generated_at": "2026-06-01T07:48:48.231698Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
