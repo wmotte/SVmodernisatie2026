@@ -1,0 +1,39 @@
+{
+  "book": "JOHA",
+  "chapter": 11,
+  "introduction": {
+    "original": "1 Lazarus is kranck tot Bethanien. 3 waerom de susters aen Christum senden. 7 die na Iudea gaet. 11 Lazarus sterft ondertusschen. 17 Ende Christus gaet na Bethanien om hem op te wecken. 20 alwaer hem Martha ontmoet, met welcke hy spreeckt van de opstandinge haers broeders, ende aller geloovigen. 28 ende daer na oock Maria. 35 Christus weent ende komt aen ’t graf. 39 vindt hem vier dagen begraven. 41 Bidt sijnen Vader, ende weckt hem op. 45 waer over vele in hem gelooven. 46 ende andere boodtschappen het den Overpriesters. 47 welcke daer over haren Raedt vergaderen. 50 waer Cajaphas onwetende propheteert van de vrucht des doots Christi. 53 ende besloten wort, dat men hem sal dooden. 54 maer ontwijckt na de stadt Ephraim. 55 Wort op het feest van Pascha gesocht. 57 ende de Overpriesters geven een gebodt uyt, dat men hem sal aenbrengen.",
+    "modernized": "1 Lazarus is ziek te Bethanië. 3 waarom de zusters tot Christus zenden. 7 die naar Judea gaat. 11 Lazarus sterft intussen. 17 En Christus gaat naar Bethanië om hem op te wekken. 20 waar Martha hem ontmoet, met wie hij spreekt over de opstanding van haar broer, en van alle gelovigen. 28 en daarna ook Maria. 35 Christus weent en komt aan het graf. 39 Hij vindt hem vier dagen begraven. 41 Bidt tot zijn Vader, en wekt hem op. 45 waarover velen in hem geloven. 46 en anderen brengen de boodschap daarvan aan de Overpriesters. 47 die daarover hun Raad vergaderen. 50 waar Kajafas onwetend profeteert van de vrucht van de dood van Christus. 53 en besloten wordt dat men hem zal doden. 54 maar hij wijkt uit naar de stad Efraïm. 55 Hij wordt op het feest van Pascha gezocht. 57 en de Overpriesters geven een gebod uit, dat men hem zal aanbrengen.",
+    "generated_at": "2026-06-01T09:23:59.270619Z",
+    "model": "claude-opus-4-7[1m]"
+  },
+  "verses": [
+    {
+      "verse_number": 1,
+      "original": "ENde daer was een seker [man] kranck [genaemt] Lazarus, van Bethanien, uyt het vleck <D. daer Maria ende Martha woonden, Luce 10.38. Ioan. 12.1. Van de gelegentheyt deses vlecks siet vers 18.> Marie ende haers susters Marthe.",
+      "modernized": "En er was een zeker [man] ziek, [genaamd] Lazarus, van Bethanië, uit het dorp <Dat is, waar Maria en Martha woonden, $Lk. 10:38; Jh. 12:1$. Van de ligging van dit dorp zie vers 18.> van Maria en haar zuster Martha.",
+      "source_text": "Ἦν δέ τις ἀσθενῶν Λάζαρος ἀπὸ Βηθανίας, ἐκ τῆς κώμης Μαρίας καὶ Μάρθας τῆς ἀδελφῆς αὐτῆς.",
+      "generated_at": "2026-06-01T09:24:13.096837Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 2,
+      "original": "$Matth. 26.6. Marc. 14.3. Luce 7.37. Ioan. 12.3.$ (Maria nu was de gene die den Heere <Siet hier van in het volgende Capittel, vers 3.> gesalft heeft met salve, ende sijne voeten afgedrooght heeft met haren hayre: welcker broeder Lazarus kranck was.)",
+      "modernized": "$Mt. 26:6; Mk. 14:3; Lk. 7:37; Jh. 12:3$ (Maria nu was degene die de Heere <Zie hiervan in het volgende hoofdstuk, vers 3.> gezalfd heeft met zalf, en zijn voeten afgedroogd heeft met haar haar: van wie de broer Lazarus ziek was.)",
+      "source_text": "ἦν δὲ Μαρία ἡ ἀλείψασα τὸν Κύριον μύρῳ, καὶ ἐκμάξασα τοὺς πόδας αὐτοῦ ταῖς θριξὶν αὐτῆς, ἧς ὁ ἀδελφὸς Λάζαρος ἠσθένει.",
+      "generated_at": "2026-06-01T09:24:33.450674Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 3,
+      "original": "Sijne susters dan <Namelick, na Bethabara over den Iordaen, daer hy toen was. Siet Ioan. 10.40.> sonden tot hem, seggende, Heere, siet, dien ghy lief hebt, is kranck.",
+      "modernized": "Zijn zusters dan <Namelijk, naar Bethabara over de Jordaan, waar hij toen was. Zie $Jh. 10:40$.> zonden tot hem en zeiden: Heere, zie, die u liefhebt, is ziek.",
+      "source_text": "ἀπέστειλαν οὖν αἱ ἀδελφαὶ πρὸς αὐτὸν λέγουσαι, Κύριε, ἴδε ὃν φιλεῖς ἀσθενεῖ.",
+      "generated_at": "2026-06-01T09:24:50.612873Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    }
+  ]
+}
