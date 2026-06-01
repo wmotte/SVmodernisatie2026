@@ -1,0 +1,236 @@
+{
+  "book": "JHN",
+  "chapter": 10,
+  "reviewed_at": "2026-06-01T09:07:16+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-06-01T09:07:16+00:00",
+      "mode": "scan",
+      "issues_total": 15
+    }
+  ],
+  "issues": [
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 1,
+      "severity": "soft",
+      "quote_modernized": "Voorwaar, voorwaar zeg ik u: wie niet do…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'voorwaar' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "JHN-10-1-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] Idem MRK-9-1-001: 'voorwaar, ik zeg u' = ἀμὴν λέγω ὑμῖν, gestolde SV-bijbelformule. Project-concordant in MRK/LUK. §2.7 niet van toepassing op gefossiliseerde liturgische formules."
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 1,
+      "severity": "soft",
+      "quote_modernized": "Voorwaar, voorwaar zeg ik u: wie niet door   de de…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'voorwaar' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "JHN-10-1-002",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] Idem MRK-9-1-001: 'voorwaar, ik zeg u' = ἀμὴν λέγω ὑμῖν, gestolde SV-bijbelformule. Project-concordant in MRK/LUK. §2.7 niet van toepassing op gefossiliseerde liturgische formules."
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 5,
+      "severity": "soft",
+      "quote_modernized": "Maar een vreemde zullen zij geenszins volgen, maar zij zullen van he…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'geenszins' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "JHN-10-5-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'geenszins' rendert οὐ μή (dubbele ontkenning, emfatisch). Productief in modern formeel/juridisch Nederlands ('geenszins akkoord', 'geenszins toegestaan'). MODERNISATIE.md §2.7 productiviteitstest slaagt; modern equivalent 'beslist niet' verzwakt de Griekse nadrukkelijke ontkenning."
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 7,
+      "severity": "soft",
+      "quote_modernized": "Jezus zei dan weer tot hen: Voorwaar, voorwaar zeg ik u: Ik ben de  …",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'voorwaar' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "JHN-10-7-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] Idem MRK-9-1-001: 'voorwaar, ik zeg u' = ἀμὴν λέγω ὑμῖν, gestolde SV-bijbelformule. Project-concordant in MRK/LUK. §2.7 niet van toepassing op gefossiliseerde liturgische formules."
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 7,
+      "severity": "soft",
+      "quote_modernized": "Jezus zei dan weer tot hen: Voorwaar, voorwaar zeg ik u: Ik ben de   deur van …",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'voorwaar' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "JHN-10-7-002",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] Idem MRK-9-1-001: 'voorwaar, ik zeg u' = ἀμὴν λέγω ὑμῖν, gestolde SV-bijbelformule. Project-concordant in MRK/LUK. §2.7 niet van toepassing op gefossiliseerde liturgische formules."
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 7,
+      "severity": "soft",
+      "quote_modernized": "Namelijk, door welke zowel de herders als de schap…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "JHN-10-7-003",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+    },
+    {
+      "category": "kanttekening-luiheid (§2.3 in <…>)",
+      "verse": 8,
+      "severity": "hard",
+      "quote_modernized": "Namelijk, of zichzelf uitgevende voor deze deur, of een andere…",
+      "rule_reference": "KANTTEKENINGEN.md + §2.3",
+      "explanation": "'uitgevende' binnen kanttekening — verdacht -ende-woord in adverbial / clause-final positie. §2.3 geldt ook in <…>; ontvouw naar finiete bijzin.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "JHN-10-8-001",
+      "status": "fixed",
+      "fix_note": "Kanttekening ontvouwd conform MODERNISATIE.md §2.3: 'zichzelf uitgevende ... aanwijzend' is vervangen door finiete vormen 'zij zichzelf ... uitgeven ... aanwijzen'."
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 22,
+      "severity": "soft",
+      "quote_modernized": "van de vernieuwing van",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'van de vernieuwing van' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "JHN-10-22-001",
+      "status": "fixed",
+      "fix_note": "Redundante frase vermeden volgens KANTTEKENINGEN.md: 'vernieuwing van het altaar' is in de kanttekening herschreven tot 'het vernieuwde altaar', met behoud van de uitleg."
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 24,
+      "severity": "soft",
+      "quote_modernized": "…e lang   houdt u onze ziel in spanning? Indien u de Christus bent, zeg het ons v…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "JHN-10-24-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 37,
+      "severity": "soft",
+      "quote_modernized": "  Indien ik niet doe   de werken van mijn …",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "JHN-10-37-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 38,
+      "severity": "soft",
+      "quote_modernized": "Maar indien ik ze doe, en als u mij niet gelo…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "JHN-10-38-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 4,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'overmit' in 4 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 4 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        4,
+        5,
+        13,
+        17
+      ],
+      "id": "JHN-10-4-001",
+      "status": "rebutted",
+      "rebuttal": "False positive: SV 'overmits' in v4, v5, v13 en v17 correspondeert telkens met causaal Grieks ὅτι/διὰ τοῦτο ... ὅτι en is concordant gemoderniseerd als 'omdat'. De scanner zoekt op de 1657-prefix 'overmit' en herkent de lemma-modernisatie naar 'omdat' niet."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 6,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'gelijck' in 3 verzen — verzen [15] renderen het stam anders dan [6, 26]",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        6,
+        15,
+        26
+      ],
+      "id": "JHN-10-6-001",
+      "status": "rebutted",
+      "rebuttal": "Geen concordantiebreuk: v6 'gelijckenisse' is het zelfstandig naamwoord παροιμία en wordt 'gelijkenis'; v15/v26 'Gelijckerwijs/gelijck' zijn vergelijkingspartikels bij καθὼς en worden contextueel 'Zoals/zoals'. AGENTS.md concordantie geldt per lemma/betekenis, niet per gedeelde 1657-spellingstam."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 7,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'wederom' in 7 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 7 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        7,
+        17,
+        18,
+        19,
+        31,
+        39,
+        40
+      ],
+      "id": "JHN-10-7-004",
+      "status": "rebutted",
+      "rebuttal": "False positive: 'wederom' in v7, v17, v18, v19, v31, v39 en v40 rendert Grieks πάλιν of dezelfde iteratieve SV-functie overal als modern 'weer'. Dat behoudt AGENTS.md concordantie; alleen de prefixvergelijking mist 'wederom' -> 'weer'."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 25,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'geseght' in 4 verzen — verzen [25, 26, 36] renderen het stam anders dan [34]",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 4 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        25,
+        26,
+        34,
+        36
+      ],
+      "id": "JHN-10-25-001",
+      "status": "rebutted",
+      "rebuttal": "Geen harmonisatie nodig: v25/v26/v36 zijn finite vormen van λέγω/εἶπον en staan concordant als 'gezegd'; v34 is een citaatformule uit Ps. 82:6 ('Ik heb gezegd') binnen Jezus' Schriftargument. De scanner vergelijkt 'geseght' met verschillende syntactische posities, maar de moderne keuze blijft lemma-concordant."
+    }
+  ]
+}
