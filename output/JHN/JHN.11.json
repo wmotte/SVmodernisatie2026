@@ -277,6 +277,46 @@
       "generated_at": "2026-06-01T10:34:29.534856Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 31,
+      "original": "De Ioden dan die met haer in het huys waren, ende haer vertroosteden, siende Mariam dat sy haestelick opstont, ende uytgingh, volghden haer, seggende, Sy gaet na <Namelick, dat buyten ’t vleck was, na de gewoonte der Ioden.> het graf, op dat sy aldaer weene.",
+      "modernized": "De Joden dan die met haar in het huis waren, en haar vertroostten, toen zij zagen dat Maria haastig opstond en naar buiten ging, volgden haar, en zeiden: Zij gaat naar <Namelijk, dat buiten het dorp was, naar de gewoonte van de Joden.> het graf, opdat zij daar zou wenen.",
+      "source_text": "οἱ οὖν Ἰουδαῖοι οἱ ὄντες μετ’ αὐτῆς ἐν τῇ οἰκίᾳ καὶ παραμυθούμενοι αὐτήν, ἰδόντες τὴν Μαρίαν ὅτι ταχέως ἀνέστη καὶ ἐξῆλθεν, ἠκολούθησαν αὐτῇ, λέγοντες ὅτι ὑπάγει εἰς τὸ μνημεῖον, ἵνα κλαύσῃ ἐκεῖ.",
+      "generated_at": "2026-06-01T10:39:08.656664Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 32,
+      "original": "Maria dan, als sy quam daer Iesus was, ende hem sagh, viel aen sijne voeten, seggende tot hem, Heere, indien ghy hier geweest waert, soo en ware mijn broeder niet gestorven.",
+      "modernized": "Maria dan, toen zij kwam waar Jezus was, en hem zag, viel aan zijn voeten, en zei tot hem: Heere, als u hier geweest was, zou mijn broer niet gestorven zijn.",
+      "source_text": "ἡ οὖν Μαρία, ὡς ἦλθεν ὅπου ἦν ὁ Ἰησοῦς, ἰδοῦσα αὐτόν, ἔπεσεν εἰς τοὺς πόδας αὐτοῦ, λέγουσα αὐτῷ, Κύριε, εἰ ἦς ὧδε, οὐκ ἂν ἀπέθανέ μου ὁ ἀδελφός.",
+      "generated_at": "2026-06-01T10:39:41.701707Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 33,
+      "original": "Iesus dan als hy haer sagh weenen, ende de Ioden die met haer quamen, [oock] weenen, wert hy <Of, seer gestoort, in sijn gemoedt. siet oock vers 38.> seer beweeght in den geest, ende <Nam. door medelijden ende droefheyt, Hebr. 4.15.> ontroerde hemselven.",
+      "modernized": "Jezus dan, toen hij haar zag wenen, en de Joden die met haar kwamen [ook] zag wenen, werd hij <Of, zeer ontsteld, in zijn gemoed. Zie ook vers 38.> zeer bewogen in de geest, en <Namelijk, door medelijden en droefheid, $Hb. 4:15$.> bracht zichzelf in beroering.",
+      "source_text": "Ἰησοῦς οὖν ὡς εἶδεν αὐτὴν κλαίουσαν, καὶ τοὺς συνελθόντας αὐτῇ Ἰουδαίους κλαίοντας, ἐνεβριμήσατο τῷ πνεύματι, καὶ ἐτάραξεν ἑαυτόν,",
+      "generated_at": "2026-06-01T10:40:36.693512Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "ontroerde zichzelf",
+          "context": "hoofdtekst",
+          "choice": "bracht zichzelf in beroering",
+          "alternatives": [
+            "ontstelde zichzelf",
+            "raakte innerlijk in beroering"
+          ],
+          "reason": "HSV-spiegel en Grieks etaraxen heauton bevestigen dat 'ontstelde zichzelf' te onnatuurlijk is; de gekozen formulering bewaart de reflexieve beweging zonder vrije parafrase."
+        }
+      ]
     }
   ]
 }
