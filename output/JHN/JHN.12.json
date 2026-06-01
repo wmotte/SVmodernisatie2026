@@ -88,6 +88,33 @@
       "generated_at": "2026-06-01T09:37:41.101100Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 10,
+      "original": "Ende de Overpriesters <D. besloten in haren raet.> beraetslaeghden, dat sy oock Lazarum dooden souden.",
+      "modernized": "En de Overpriesters <dat is, besloten in hun raad.> beraadslaagden dat zij ook Lazarus zouden doden.",
+      "source_text": "ἐβουλεύσαντο δὲ οἱ ἀρχιερεῖς ἵνα καὶ τὸν Λάζαρον ἀποκτείνωσιν·",
+      "generated_at": "2026-06-01T09:42:25.250449Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 11,
+      "original": "Want vele van de Ioden gingen <Namel. na Bethanien, om hem aldaer te sien.> henen om sijnent wille, ende geloofden in Iesum.",
+      "modernized": "Want velen van de Joden gingen <Namelijk, naar Bethanië, om hem daar te zien.> heen vanwege hem, en geloofden in Jezus.",
+      "source_text": "ὅτι πολλοὶ δι’ αὐτὸν ὑπῆγον τῶν Ἰουδαίων, καὶ ἐπίστευον εἰς τὸν Ἰησοῦν.",
+      "generated_at": "2026-06-01T09:42:44.105904Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 12,
+      "original": "$Matth. 21.8. Marc. 11.8. Luce 19.36.$ Des anderen daeghs een groote schare, die tot het feest gekomen was, hoorende dat Iesus na Ierusalem quam,",
+      "modernized": "$Mt. 21:8; Mk. 11:8; Lk. 19:36$ De volgende dag, toen een grote schare, die tot het feest gekomen was, hoorde dat Jezus naar Jeruzalem kwam,",
+      "source_text": "Τῇ ἐπαύριον ὄχλος πολὺς ὁ ἐλθὼν εἰς τὴν ἑορτήν, ἀκούσαντες ὅτι ἔρχεται ὁ Ἰησοῦς εἰς Ἱεροσόλυμα,",
+      "generated_at": "2026-06-01T09:42:54.998014Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
