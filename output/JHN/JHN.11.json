@@ -479,6 +479,45 @@
       "generated_at": "2026-06-01T11:17:22.726900Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 52,
+      "original": "Ende niet alleen voor dat volck, maer op dat hy oock <D. de uytverkorene uyt alle volcken door de gantsche werelt, Apoc. 5.9.> de kinderen Godts, die verstroyt waren, $Eph. 2.14, 15, 16.$ tot <Nam. lichaem, kudde, ofte gemeynte, gelijck Ioan. 10. vers 16. Ephes. 2.14.> een soude vergaderen.",
+      "modernized": "En niet alleen voor dat volk, maar opdat hij ook <Dat is, de uitverkorenen uit alle volken door de gehele wereld, $Op. 5:9$.> de kinderen Gods, die verstrooid waren, $Ef. 2:14,15,16$ tot <Namelijk, lichaam, kudde, of gemeente, zoals $Jh. 10:16; Ef. 2:14$.> één zou vergaderen.",
+      "source_text": "καὶ οὐχ ὑπὲρ τοῦ ἔθνους μόνον, ἀλλ’ ἵνα καὶ τὰ τέκνα τοῦ Θεοῦ τὰ διεσκορπισμένα συναγάγῃ εἰς ἕν.",
+      "generated_at": "2026-06-01T11:22:29.915276Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 53,
+      "original": "Van dien dagh dan af <D. besloten in haren raet.> raetslaeghden sy te samen, dat sy hem dooden souden.",
+      "modernized": "Van die dag af dan <Dat is, besloten in hun raad.> beraadslaagden zij samen dat zij hem zouden doden.",
+      "source_text": "ἀπ’ ἐκείνης οὖν τῆς ἡμέρας συνεβουλεύσαντο ἵνα ἀποκτείνωσιν αὐτόν.",
+      "generated_at": "2026-06-01T11:22:48.488828Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 54,
+      "original": "Iesus dan en wandelde niet meer vrijelick onder de Ioden: maer gingh <Nam. van Ierusalem, ende daer ontrent.> van daer na het lant by de woestijne, na de stadt genaemt <And. Ephrem, welcke sommige meenen te wesen de stadt Ephraim ofte Ephron, daer van men leest 2.Chron. cap. 13. vers 19.> Ephraim: ende verkeerde aldaer met sijne discipelen.",
+      "modernized": "Jezus dan wandelde niet meer openlijk onder de Joden, maar ging <Namelijk, van Jeruzalem, en daaromtrent.> vandaar naar het land bij de woestijn, naar de stad genaamd <Anders: Efraïm, waarvan sommigen menen dat het de stad Efraïm of Efron is, waarvan men leest $2Kr. 13:19$.> Efraïm; en verbleef daar met zijn discipelen.",
+      "source_text": "Ἰησοῦς οὖν οὐκέτι παρρησίᾳ περιεπάτει ἐν τοῖς Ἰουδαίοις, ἀλλὰ ἀπῆλθεν ἐκεῖθεν εἰς τὴν χώραν ἐγγὺς τῆς ἐρήμου, εἰς Ἐφραῒμ λεγομένην πόλιν, κἀκεῖ διέτριβε μετὰ τῶν μαθητῶν αὐτοῦ.",
+      "generated_at": "2026-06-01T11:23:22.952259Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "subject": "vrijelick",
+          "context": "hoofdtekst",
+          "choice": "openlijk",
+          "alternatives": [
+            "vrijuit"
+          ],
+          "reason": "HSV-spiegel bevestigt dat SV 'vrijelick' bij Grieks 'παρρησίᾳ' in deze wandelcontext publieke zichtbaarheid bedoelt."
+        }
+      ]
     }
   ]
 }
