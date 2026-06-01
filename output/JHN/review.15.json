@@ -1,0 +1,100 @@
+{
+  "book": "JHN",
+  "chapter": 15,
+  "reviewed_at": "2026-06-01T18:24:24+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-06-01T18:24:24+00:00",
+      "mode": "scan",
+      "issues_total": 6
+    }
+  ],
+  "issues": [
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 2,
+      "severity": "soft",
+      "quote_modernized": "elke rank die in",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'elke rank die in' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "JHN-15-2-001",
+      "status": "rebutted",
+      "rebuttal": "KANTTEKENINGEN.md §Griekse termen vereist hier behoud van de Griekse gloss: in JHN 15:2 citeert de kanttekening bewust de brontekstzin `elke rank die in mij geen vrucht draagt` om haar daarna uit te leggen. Dit is geen alternatief dat met de hoofdtekst concurreert, maar een verplichte gloss bij πᾶν κλῆμα ἐν ἐμοὶ μὴ φέρον καρπόν."
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 22,
+      "severity": "soft",
+      "quote_modernized": "  Indien ik niet gekomen was en tot hen ge…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "JHN-15-22-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 24,
+      "severity": "soft",
+      "quote_modernized": "  Indien ik   de werken onder hen niet ged…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "JHN-15-24-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+    },
+    {
+      "category": "genitief pronomen wiens/wier",
+      "verse": 26,
+      "severity": "hard",
+      "quote_modernized": "Namelijk, als de eniggeboren Zoon Gods, wiens Geest hij ook is en genoemd wordt,…",
+      "rule_reference": "ARCHAISMEN.md (SV-pronomina)",
+      "explanation": "'wiens Geest' — formeel-archaïsch genitief-pronomen. Modern Nederlands: 'van wie Geest' of zinsherbouw met bezittelijk voornaamwoord ('die zijn Geest', 'die haar Geest'). NBV21 vermijdt 'wiens' grotendeels.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "JHN-15-26-001",
+      "status": "fixed",
+      "fix_commit": "pending"
+    },
+    {
+      "category": "genitief pronomen wiens/wier",
+      "verse": 26,
+      "severity": "hard",
+      "quote_modernized": "…jk, zowel ten aanzien van zijn persoon, wiens eigenschap het is van de Vader en …",
+      "rule_reference": "ARCHAISMEN.md (SV-pronomina)",
+      "explanation": "'wiens eigenschap' — formeel-archaïsch genitief-pronomen. Modern Nederlands: 'van wie eigenschap' of zinsherbouw met bezittelijk voornaamwoord ('die zijn eigenschap', 'die haar eigenschap'). NBV21 vermijdt 'wiens' grotendeels.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "JHN-15-26-002",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] 'wiens eigenschap' — relatief possessief-pronomen met PERSOONLIJK antecedent ('de eigen Zoon van de oneindige Vader'). Corpus-concordant met merged REV: 2:9, 4:1, 13:12, 14:14 ('wiens') — formeel-register relativum dat §2.7-productief blijft voor personen (vgl. 'de man wiens auto'). Contrast REV 18:7 waar 'waarvan' werd gekozen voor een ONpersoonlijk antecedent; hier blijft 'wiens' omdat het antecedent een persoon is."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 4,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'gelijck' in 5 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 5 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        4,
+        6,
+        9,
+        10,
+        12
+      ],
+      "id": "JHN-15-4-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] Scanner-false-positive op de SV-stam `gelijck`: de betrokken verzen hebben verschillende Griekse vormen en functies. 4:1 gebruikt καθὼς bij ontvangen onderwijs, 4:5 καθάπερ καὶ als vergelijking, 4:6 καθὼς καὶ bij eerder getuigen, 4:11 καθὼς bij bevel, 4:13 καθὼς καὶ bij vergelijking met anderen; `zoals`/`zoals ook` volgt de context en AGENTS.md concordantie per brontekstwoord."
+    }
+  ]
+}
