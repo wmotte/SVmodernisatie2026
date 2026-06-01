@@ -40,7 +40,7 @@ Op volgorde van de NT-canon. `build/<BOEK>.pdf` is de volledige uitgave,
 
 ¹ Nog onvolledig: hoofdstukken 1–11 van 22.
 
-² Nog onvolledig: hoofdstukken 1–13 van 21.
+² Nog onvolledig: hoofdstukken 1–16 van 21.
 
 ## Vereisten
 
