@@ -208,6 +208,33 @@
       "generated_at": "2026-06-01T13:12:30.101056Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 22,
+      "original": "<Namelick, de broeder Iacobi, toegenaemt Lebbeus, Matth. 10.3.> Iudas, niet de Iscariot, seyde tot hem, Heere <Gr. wat is’er geschiet, D. wat is de oorsake? ofte, wat beduydt het?> wat is het, dat ghy u selven aen ons sult openbaren, ende niet aen de werelt?",
+      "modernized": "<Namelijk, de broer van Jakobus, toegenaamd Lebbeüs, $Mt. 10:3$.> Judas, niet de Iskariot, zei tot hem: Heere, <Grieks: wat is er gebeurd, dat is, wat is de oorzaak? of, wat betekent het?> wat is het dat u uzelf aan ons zult openbaren, en niet aan de wereld?",
+      "source_text": "λέγει αὐτῷ Ἰούδας, οὐχ ὁ Ἰσκαριώτης, Κύριε, τί γέγονεν ὅτι ἡμῖν μέλλεις ἐμφανίζειν σεαυτόν, καὶ οὐχὶ τῷ κόσμῳ;",
+      "generated_at": "2026-06-01T13:16:31.409774Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 23,
+      "original": "Iesus antwoordde ende seyde tot hem, Soo yemant my lief heeft, die sal mijn woort bewaren: ende mijn Vader sal hem lief hebben, ende wy sullen tot hem komen, ende sullen <Gr. blijvinge: gelijck oock van den Heyligen Geest geseght wort, vers 17.> wooninge by hem maken.",
+      "modernized": "Jezus antwoordde en zei tot hem: Als iemand mij liefheeft, zal hij mijn woord bewaren; en mijn Vader zal hem liefhebben, en wij zullen tot hem komen, en zullen <Grieks: verblijf; zoals ook van de Heilige Geest gezegd wordt, vers 17.> woning bij hem maken.",
+      "source_text": "ἀπεκρίθη ὁ Ἰησοῦς καὶ εἶπεν αὐτῷ, Ἐάν τις ἀγαπᾷ με, τὸν λόγον μου τηρήσει, καὶ ὁ Πατήρ μου ἀγαπήσει αὐτόν, καὶ πρὸς αὐτὸν ἐλευσόμεθα, καὶ μονὴν παρ’ αὐτῷ ποιήσομεν.",
+      "generated_at": "2026-06-01T13:17:08.377453Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 24,
+      "original": "Die my niet lief en heeft, die en bewaert mijne woorden niet. $Ioan. 7.16. ende 8.28. ende 12.49. ende 14.10. ende 16.13.$ Ende het woort dat ghylieden hoort, <Dat is, en is mijn alleen niet, gelijck Ioan. 6.38. ende 7.16.> en is het mijne niet, maer des Vaders, die my gesonden heeft.",
+      "modernized": "Wie mij niet liefheeft, bewaart mijn woorden niet. $Jh. 7:16; 8:28; 12:49; 14:10; 16:13$ En het woord dat u hoort, <Dat is, is niet van mij alleen, zoals $Jh. 6:38; 7:16$.> is niet van mij, maar van de Vader, die mij gezonden heeft.",
+      "source_text": "ὁ μὴ ἀγαπῶν με, τοὺς λόγους μου οὐ τηρεῖ· καὶ ὁ λόγος ὃν ἀκούετε οὐκ ἔστιν ἐμός, ἀλλὰ τοῦ πέμψαντός με Πατρός.",
+      "generated_at": "2026-06-01T13:17:36.303985Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
