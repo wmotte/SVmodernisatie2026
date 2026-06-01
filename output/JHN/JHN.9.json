@@ -88,6 +88,33 @@
       "generated_at": "2026-06-01T05:38:00.329149Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 10,
+      "original": "Sy dan seyden tot hem, <D. hoe zijt ghy siende geworden?> Hoe zijn u de oogen geopent?",
+      "modernized": "Zij dan zeiden tot hem: <Dat is, hoe bent u gaan zien?> Hoe zijn uw ogen geopend?",
+      "source_text": "ἔλεγον οὖν αὐτῷ, Πῶς ἀνεῴχθησάν σοι οἱ ὀφθαλμοί;",
+      "generated_at": "2026-06-01T05:41:22.848523Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 11,
+      "original": "Hy antwoordde ende seyde, De mensche genaemt Iesus maeckte slijck ende <Gr. besalfde.> bestreeck mijne oogen, ende seyde tot my, Gaet henen aen het badtwater Siloam, ende wascht u. Ende ick gingh henen, ende wiesch my, ende <Ofte, ick hebbe gesien.> ick wiert siende.",
+      "modernized": "Hij antwoordde en zei: De mens genaamd Jezus maakte slijk en <Grieks: zalfde.> bestreek mijn ogen, en zei tot mij: Ga heen naar het badwater Siloam, en was u. En ik ging heen en waste mij, en <Of, ik heb gezien.> ik kon zien.",
+      "source_text": "ἀπεκρίθη ἐκεῖνος καὶ εἶπεν, Ἄνθρωπος λεγόμενος Ἰησοῦς πηλὸν ἐποίησε, καὶ ἐπέχρισέ μου τοὺς ὀφθαλμούς, καὶ εἶπέ μοι, Ὕπαγε εἰς τὴν κολυμβήθραν τοῦ Σιλωάμ, καὶ νίψαι. ἀπελθὼν δὲ καὶ νιψάμενος, ἀνέβλεψα.",
+      "generated_at": "2026-06-01T05:41:49.709732Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 12,
+      "original": "Sy dan seyden tot hem, Waer is die? Hy seyde, Ick en weet het niet.",
+      "modernized": "Zij dan zeiden tot hem: Waar is hij? Hij zei: Ik weet het niet.",
+      "source_text": "εἶπον οὖν αὐτῷ, Ποῦ ἐστιν ἐκεῖνος; λέγει, Οὐκ οἶδα.",
+      "generated_at": "2026-06-01T05:42:09.584151Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
