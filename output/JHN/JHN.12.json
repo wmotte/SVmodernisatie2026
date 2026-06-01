@@ -169,6 +169,45 @@
       "generated_at": "2026-06-01T09:53:29.960166Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 19,
+      "original": "De Pharizeen dan seyden onder malkanderen, $Ioan. 11.47.$ Siet ghy [wel] dat ghy <Namel. met al uwen voorgaenden wederstant tegen hem: ende dat ghy daerom eenen anderen raet moet nemen, om hem tegen te staen.> gantsch niet en voordert? siet, <D. de meeste menighte des volcks hanght hem aen, ende volght hem als haren Leeraer.> de [geheele] werelt gaet hem na.",
+      "modernized": "De Farizeeën dan zeiden onder elkaar, $Jh. 11:47$ Ziet u [wel] dat u <Namelijk, met al uw voorgaande tegenstand tegen hem; en dat u daarom een andere raad moet nemen om hem tegen te staan.> helemaal niets bereikt? Zie, <Dat is, de meeste menigte van het volk hangt hem aan, en volgt hem als haar Leraar.> de [hele] wereld gaat hem na.",
+      "source_text": "οἱ οὖν Φαρισαῖοι εἶπον πρὸς ἑαυτούς, Θεωρεῖτε ὅτι οὐκ ὠφελεῖτε οὐδέν· ἴδε ὁ κόσμος ὀπίσω αὐτοῦ ἀπῆλθεν.",
+      "generated_at": "2026-06-01T09:56:41.350378Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 20,
+      "original": "Ende daer waren sommige <Welcke geweest zijn, ofte onbesnedene Heydenen, die oock mochten komen in ’t voorste deel des tempels, om te bidden, 1.Reg. 8.41, 42. ofte Ioden onder de Griecken woonende, ofte Iodengenooten uyt de Heydenen bekeert, gelijck de Moorman was, Actor. 8.27, 28.> Griecken uyt de gene $Actor. 8.27.$ die opgekomen waren, op dat sy op het feest souden aenbidden:",
+      "modernized": "En er waren sommige <Die óf onbesneden Heidenen geweest zijn, die ook mochten komen in het voorste deel van de tempel om te bidden, $1Kn. 8:41,42$, óf Joden die onder de Grieken woonden, óf Jodengenoten die uit de Heidenen bekeerd waren, zoals de Moorman was, $Hd. 8:27,28$.> Grieken uit degenen $Hd. 8:27$ die opgekomen waren, opdat zij op het feest zouden aanbidden:",
+      "source_text": "Ἦσαν δέ τινες Ἕλληνες ἐκ τῶν ἀναβαινόντων ἵνα προσκυνήσωσιν ἐν τῇ ἑορτῇ·",
+      "generated_at": "2026-06-01T09:57:26.544613Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 21,
+      "original": "Dese dan gingen tot Philippum, $Ioan. 1.45.$ die van Bethsaida in Galilea was, ende baden hem, seggende, Heere, wy <Gr. willen.> wilden Iesum [wel] <Dat is, begroeten ende aenspreken.> sien.",
+      "modernized": "Dezen dan gingen tot Filippus, $Jh. 1:45$ die van Betsaïda in Galilea was, en baden hem en zeiden: Heere, wij <Grieks: willen.> willen Jezus [wel] <Dat is, begroeten en aanspreken.> zien.",
+      "source_text": "οὗτοι οὖν προσῆλθον Φιλίππῳ τῷ ἀπὸ Βηθσαϊδὰ τῆς Γαλιλαίας, καὶ ἠρώτων αὐτὸν λέγοντες, Κύριε, θέλομεν τὸν Ἰησοῦν ἰδεῖν.",
+      "generated_at": "2026-06-01T09:58:00.979227Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "subject": "werkwoordstijd",
+          "context": "Heere, wij <Grieks: willen.> willen Jezus [wel] zien",
+          "choice": "willen",
+          "alternatives": [
+            "wilden"
+          ],
+          "reason": "De Griekse brontekst heeft θέλομεν; de SV-kanttekening geeft zelf 'willen', en de HSV-spiegel bevestigt de tegenwoordige wens."
+        }
+      ]
     }
   ]
 }
