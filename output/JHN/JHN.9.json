@@ -115,6 +115,33 @@
       "generated_at": "2026-06-01T05:42:09.584151Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 13,
+      "original": "<Namelick, de gebueren ofte bekende.> Sy brochten hem tot de Pharizeen, hem [namelick] die te voren blint [geweest was.]",
+      "modernized": "<Namelijk, de buren of bekenden.> Zij brachten hem tot de Farizeeën, hem [namelijk] die tevoren blind [geweest was.]",
+      "source_text": "Ἄγουσιν αὐτὸν πρὸς τοὺς Φαρισαίους, τόν ποτε τυφλόν.",
+      "generated_at": "2026-06-01T05:45:19.974183Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 14,
+      "original": "$Matth. 12.1. Marc. 2.23. Luce 6.1. Ioan. 5.9.$ Ende het was Sabbath, als Iesus het slijck maeckte, ende sijne oogen opende.",
+      "modernized": "$Mt. 12:1; Mk. 2:23; Lk. 6:1; Jh. 5:9$ En het was Sabbat, toen Jezus het slijk maakte en zijn ogen opende.",
+      "source_text": "ἦν δὲ σάββατον ὅτε τὸν πηλὸν ἐποίησεν ὁ Ἰησοῦς, καὶ ἀνέῳξεν αὐτοῦ τοὺς ὀφθαλμούς.",
+      "generated_at": "2026-06-01T05:45:49.755275Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 15,
+      "original": "De Pharizeen dan vraeghden hem oock wederom, hoe hy siende geworden was. Ende hy seyde tot haer, Hy leyde slijck op mijne oogen, ende ick wiesch my, ende ick sie.",
+      "modernized": "De Farizeeën dan vroegen hem ook weer, hoe hij het gezicht gekregen had. En hij zei tot hen: Hij legde slijk op mijn ogen, en ik waste mij, en ik zie.",
+      "source_text": "πάλιν οὖν ἠρώτων αὐτὸν καὶ οἱ Φαρισαῖοι, πῶς ἀνέβλεψεν. ὁ δὲ εἶπεν αὐτοῖς, Πηλὸν ἐπέθηκεν ἐπὶ τοὺς ὀφθαλμούς μου, καὶ ἐνιψάμην, καὶ βλέπω.",
+      "generated_at": "2026-06-01T05:46:15.552105Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
