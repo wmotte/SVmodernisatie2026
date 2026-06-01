@@ -142,6 +142,33 @@
       "generated_at": "2026-06-01T10:03:50.475481Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 16,
+      "original": "Thomas dan, genaemt <D. tweelingh, met welck Griecks woort het Hebreeusch woort Thomas uytgeleght wort, gelijck Cephas door het woort Petrus, Ioan. 1.43.> Didymus, seyde tot [sijne] medediscipelen, Laet ons oock gaen, op dat wy met <Namel. Christo onsen Meester, dewijle hy immers hem in perijckel wil begeven. Siet vers 8.> hem sterven.",
+      "modernized": "Thomas dan, genaamd <Dat is, tweeling, met welk Grieks woord het Hebreeuwse woord Thomas uitgelegd wordt, zoals Kefas door het woord Petrus, $Jh. 1:43$.> Didymus, zei tegen [zijn] medediscipelen: Laat ons ook gaan, opdat wij met <Namelijk, Christus onze Meester, omdat hij zich immers in gevaar wil begeven. Zie vers 8.> hem sterven.",
+      "source_text": "εἶπεν οὖν Θωμᾶς, ὁ λεγόμενος Δίδυμος, τοῖς συμμαθηταῖς, Ἄγωμεν καὶ ἡμεῖς, ἵνα ἀποθάνωμεν μετ’ αὐτοῦ.",
+      "generated_at": "2026-06-01T10:08:46.102760Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 17,
+      "original": "Iesus dan gekomen zijnde vondt dat hy nu vier dagen <Gr. in ’t graf hadde, D. gelegen hadde.> in het graf geweest was.",
+      "modernized": "Jezus dan, toen hij gekomen was, vond dat hij al vier dagen <Grieks: in het graf had; dat is, gelegen had.> in het graf geweest was.",
+      "source_text": "Ἐλθὼν οὖν ὁ Ἰησοῦς εὗρεν αὐτὸν τέσσαρας ἡμέρας ἤδη ἔχοντα ἐν τῷ μνημείῳ.",
+      "generated_at": "2026-06-01T10:09:18.674936Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 18,
+      "original": "(Bethania nu was na by Ierusalem, ontrent vijftien <Een stadie houdt hondert ende vijf en twintigh schreden, ende vijftien stadien maken wat meer als een half ure gaens. siet Luce 24.13.> stadien van [daer])",
+      "modernized": "(Bethanië nu was dicht bij Jeruzalem, omtrent vijftien <Een stadie is honderdvijfentwintig schreden, en vijftien stadiën maken wat meer dan een half uur gaans. Zie $Lk. 24:13$.> stadiën van [daar])",
+      "source_text": "ἦν δὲ ἡ Βηθανία ἐγγὺς τῶν Ἱεροσολύμων, ὡς ἀπὸ σταδίων δεκαπέντε.",
+      "generated_at": "2026-06-01T10:09:33.287051Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
