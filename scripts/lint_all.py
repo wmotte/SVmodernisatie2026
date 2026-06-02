@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
-"""Unified linter script that runs all SV modernization linters:
-- lint_archaismen.py
-- lint_carryovers.py
-- lint_false_friends.py
+"""Unified linter script that runs all SV modernization linters.
 
-Exits with non-zero if any underlying linter fails (returns non-zero exit code).
+Default behavior:
+- `lint_archaismen.py`: hard.
+- `lint_false_friends.py`: warning (non-blocking, for manual review).
+- `lint_carryovers.py`: suggestions.
+
+Set `--strict` to make false-friends warnings block the run.
 """
 
 import argparse
@@ -19,6 +21,11 @@ def main() -> None:
     group.add_argument("--output", help="Path to a single output JSON file.")
     group.add_argument("--root", help="Directory path to scan recursively.")
     parser.add_argument("--terse", action="store_true", help="Compact textual output.")
+    parser.add_argument(
+        "--strict",
+        action="store_true",
+        help="Treat false-friends warnings as hard failures.",
+    )
 
     args = parser.parse_args()
 
@@ -62,8 +69,10 @@ def main() -> None:
         ff_cmd.append("--terse")
 
     res = subprocess.run(ff_cmd)
-    if res.returncode != 0:
+    if res.returncode != 0 and args.strict:
         any_failed = True
+    elif res.returncode != 0:
+        print("[WARN] false_friends reported issues (non-blocking).", flush=True)
     print(flush=True)
 
     # 3. Run lint_carryovers.py
