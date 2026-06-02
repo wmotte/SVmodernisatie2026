@@ -196,6 +196,55 @@
       "generated_at": "2026-06-02T11:42:26.349567Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 22,
+      "original": "Ende dit alles is geschiet, op dat vervult soude worden, ’tgene van den Heere gesproken is door den Propheet, seggende,",
+      "modernized": "En dit alles is gebeurd, opdat vervuld zou worden wat door de Heere gesproken is door de Profeet, die zei:",
+      "source_text": "τοῦτο δὲ ὅλον γέγονεν, ἵνα πληρωθῇ τὸ ῥηθὲν ὑπὸ τοῦ Κυρίου διὰ τοῦ προφήτου, λέγοντος,",
+      "generated_at": "2026-06-02T11:48:28.671153Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 23,
+      "original": "$Iesa. 7.14.$ Siet <De Hebreeusche ende oock de Griecksche texten spreken hier van een bysondere maget.> de maget sal swanger worden, ende eenen sone baren, ende <And. sy sal, of, sy sullen, Dat is, men sal.> ghy sult sijnen name heeten <Wort alsoo genaemt ten aensien van sijn persoon ende ampt, om dat hy in eenen persoon beyde waerachtigh Godt ende mensche is, ende ons met Godt vereenight.> Emmanuel, het welcke is, overgeset zijnde, Godt met ons.",
+      "modernized": "$Js. 7:14$ Zie <De Hebreeuwse en ook de Griekse teksten spreken hier van een bijzondere maagd.> de maagd zal zwanger worden, en een zoon baren, en <Anders: zij zal, of, zij zullen, Dat is, men zal.> u zult hem de naam <Wordt zo genoemd ten aanzien van zijn persoon en ambt, omdat hij in één persoon zowel waarachtig God als mens is, en ons met God verenigt.> Emmanuel geven, wat vertaald betekent: God met ons.",
+      "source_text": "Ἰδού, ἡ παρθένος ἐν γαστρὶ ἕξει καὶ τέξεται Υἱόν, καὶ καλέσεις τὸ ὄνομα αὐτοῦ Ἐμμανουήλ, ὅ ἐστι μεθερμηνευόμενον, Μεθ’ ἡμῶν ὁ Θεός.",
+      "generated_at": "2026-06-02T11:48:43.800807Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 24,
+      "original": "Ioseph dan, opgeweckt zijnde van den slaep, dede gelijck de Engel des Heeren hem Gr. verordineert hadde. bevolen hadde, ende heeft sijn wijf tot hem genomen.",
+      "modernized": "Jozef dan, toen hij uit de slaap ontwaakt was, deed zoals de Engel van de Heere hem <Grieks: verordend had.> bevolen had, en heeft zijn vrouw tot zich genomen.",
+      "source_text": "διεγερθεὶς δὲ ὁ Ἰωσὴφ ἀπὸ τοῦ ὕπνου ἐποίησεν ὡς προσέταξεν αὐτῷ ὁ ἄγγελος Κυρίου· καὶ παρέλαβε τὴν γυναῖκα αὐτοῦ,",
+      "generated_at": "2026-06-02T11:48:59.708793Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "subject": "losse Gr.-gloss",
+          "context": "vers 24",
+          "choice": "De losse gloss is als kanttekening weergegeven.",
+          "alternatives": [
+            "De gloss als hoofdtekst laten staan"
+          ],
+        "reason": "De invoer bevat een losse Gr.-gloss zonder punthaken; de kanttekeningconventie normaliseert zulke glossen naar een Grieks-blok en houdt de hoofdtekst leesbaar."
+      },
+      {
+        "type": "context",
+        "subject": "HSV-spiegel",
+        "context": "vers 24",
+        "choice": "`opgewekt was` is gemoderniseerd naar `ontwaakt was`.",
+        "alternatives": [
+          "`opgewekt was` laten staan"
+        ],
+        "reason": "De HSV-spiegel bevestigt hier een drempel-§2.7-issue: bij wakker worden uit slaap heeft `opgewekt` in modern Nederlands een dominante andere lading, terwijl `ontwaakt` de SV-constructie en het Grieks behoudt."
+      }
+      ]
     }
   ]
 }

@@ -157,24 +157,46 @@
     },
     {
       "verse_number": 22,
-      "status": "pending",
-      "sv2026": "",
+      "status": "modernized",
+      "sv2026": "En dit alles is gebeurd, opdat vervuld zou worden wat door de Heere gesproken is door de Profeet, die zei:",
       "hsv": "Dit alles is geschied opdat vervuld werd wat door de Heere gesproken is door de profeet, toen hij zei:",
       "original": "Ende dit alles is geschiet, op dat vervult soude worden, ’tgene van den Heere gesproken is door den Propheet, seggende,"
     },
     {
       "verse_number": 23,
-      "status": "pending",
-      "sv2026": "",
+      "status": "modernized",
+      "sv2026": "$Js. 7:14$ Zie <De Hebreeuwse en ook de Griekse teksten spreken hier van een bijzondere maagd.> de maagd zal zwanger worden, en een zoon baren, en <Anders: zij zal, of, zij zullen, Dat is, men zal.> u zult hem de naam <Wordt zo genoemd ten aanzien van zijn persoon en ambt, omdat hij in één persoon zowel waarachtig God als mens is, en ons met God verenigt.> Emmanuel geven, wat vertaald betekent: God met ons.",
       "hsv": "$Jes. 7:14$ Zie, de maagd zal zwanger worden en een Zoon baren, en u zult Hem de Naam Immanuel geven; vertaald betekent dat: God met ons. <HSV-aant: Maagd vs. meisje : De betekenis van het Griekse parthenos heeft twee belangrijke aspecten, nl. (1) een ongehuwde jonge vrouw, en (2) een vrouw nog nooit met een man geslapen heeft. In de zeventiende eeuw had het Nederlandse woordje maagd min of meer dezelfde betekenis. Dat kunnen we heden ten dage niet meer zeggen. De beide aspecten vallen niet meer samen binnen één woord. Voor de ongehuwde jonge vrouw gebruiken we tegenwoordig het woord meisje en we kunnen er niet meer automatisch van uitgaan dat elk meisje een maagd is. Het woord maagd is in het Nederlands van vandaag de dag dan ook een specifieke term geworden voor een vrouw (de leeftijd doet nauwelijks meer ter zake) die nog geen geslachtsverkeer heeft gehad. Soms wordt het tegenwoordig zelfs voor mannen gebruikt! In Mattheüs 25 staat duidelijk het eerste aspect centraal. Het gaat daar om de jonge bruidsmeisjes die een belangrijke functie hadden bij een huwelijksvoltrekking. Hun maagdelijkheid is in dit verband van veel minder belang. Vandaar dat de HSV voor meisjes heeft gekozen. In Mattheüs 1:23 ligt het heel anders. Hier staat het wonder van de maagdelijke geboorte centraal en is voor maagd gekozen.>",
       "original": "$Iesa. 7.14.$ Siet <De Hebreeusche ende oock de Griecksche texten spreken hier van een bysondere maget.> de maget sal swanger worden, ende eenen sone baren, ende <And. sy sal, of, sy sullen, Dat is, men sal.> ghy sult sijnen name heeten <Wort alsoo genaemt ten aensien van sijn persoon ende ampt, om dat hy in eenen persoon beyde waerachtigh Godt ende mensche is, ende ons met Godt vereenight.> Emmanuel, het welcke is, overgeset zijnde, Godt met ons."
     },
     {
       "verse_number": 24,
-      "status": "pending",
-      "sv2026": "",
+      "status": "modernized",
+      "sv2026": "Jozef dan, toen hij uit de slaap ontwaakt was, deed zoals de Engel van de Heere hem <Grieks: verordend had.> bevolen had, en heeft zijn vrouw tot zich genomen.",
       "hsv": "Toen Jozef uit de slaap ontwaakt was, deed hij zoals de engel van de Heere hem bevolen had, en hij nam zijn vrouw bij zich;",
-      "original": "Ioseph dan, opgeweckt zijnde van den slaep, dede gelijck de Engel des Heeren hem Gr. verordineert hadde. bevolen hadde, ende heeft sijn wijf tot hem genomen."
+      "original": "Ioseph dan, opgeweckt zijnde van den slaep, dede gelijck de Engel des Heeren hem Gr. verordineert hadde. bevolen hadde, ende heeft sijn wijf tot hem genomen.",
+      "notes": [
+        {
+          "type": "context",
+          "subject": "losse Gr.-gloss",
+          "context": "vers 24",
+          "choice": "De losse gloss is als kanttekening weergegeven.",
+          "alternatives": [
+            "De gloss als hoofdtekst laten staan"
+          ],
+          "reason": "De invoer bevat een losse Gr.-gloss zonder punthaken; de kanttekeningconventie normaliseert zulke glossen naar een Grieks-blok en houdt de hoofdtekst leesbaar."
+        },
+        {
+          "type": "context",
+          "subject": "HSV-spiegel",
+          "context": "vers 24",
+          "choice": "`opgewekt was` is gemoderniseerd naar `ontwaakt was`.",
+          "alternatives": [
+            "`opgewekt was` laten staan"
+          ],
+          "reason": "De HSV-spiegel bevestigt hier een drempel-§2.7-issue: bij wakker worden uit slaap heeft `opgewekt` in modern Nederlands een dominante andere lading, terwijl `ontwaakt` de SV-constructie en het Grieks behoudt."
+        }
+      ]
     },
     {
       "verse_number": 25,
