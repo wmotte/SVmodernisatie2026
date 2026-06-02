@@ -88,6 +88,33 @@
       "generated_at": "2026-06-02T20:44:35.374901Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 10,
+      "original": "$2.Corinth. 4.10. 2.Timoth. 2.12. 1.Petr. 3.14.$ Saligh [zijn] die vervolght worden <Dat is, om de rechtveerdige sake Christi ende sijner leere, gelijck in het volgende vers: om mijnent wille.> om der gerechtigheyt wille: Want harer is het Koninckrijck der hemelen.",
+      "modernized": "$2Kor. 4:10; 2Tm. 2:12; 1Pt. 3:14$ Zalig [zijn] die vervolgd worden <Dat is, om de rechtvaardige zaak van Christus en zijn leer, zoals in het volgende vers: omwille van mij.> omwille van de gerechtigheid: Want van hen is het Koninkrijk der hemelen.",
+      "source_text": "Μακάριοι οἱ δεδιωγμένοι ἕνεκεν δικαιοσύνης· ὅτι αὐτῶν ἐστιν ἡ βασιλεία τῶν οὐρανῶν.",
+      "generated_at": "2026-06-02T20:50:05.884039Z",
+      "model": "gpt-5-codex",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 11,
+      "original": "Saligh zijt ghy als u [de menschen] smaden, ende vervolgen, ende liegende <Dat is, allerley.> alle <Gr. quaet woort.> quaet <Dat is, dat u tegen gaet, ofte tot uwen nadeel.> tegen u spreken, $1.Petr. 4.14.$ om mijnent wille.",
+      "modernized": "Zalig bent u wanneer [de mensen] u smaden en vervolgen, en, terwijl zij liegen, <Dat is, allerlei.> alle <Grieks: kwaad woord.> kwaad <Dat is, dat tegen u ingaat, of tot uw nadeel is.> tegen u spreken, $1Pt. 4:14$ omwille van mij.",
+      "source_text": "Μακάριοί ἐστε, ὅταν ὀνειδίσωσιν ὑμᾶς καὶ διώξωσι, καὶ εἴπωσι πᾶν πονηρὸν ῥῆμα καθ’ ὑμῶν ψευδόμενοι, ἕνεκεν ἐμοῦ.",
+      "generated_at": "2026-06-02T20:50:43.223817Z",
+      "model": "gpt-5-codex",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 12,
+      "original": "$Luce 6.23.$ Verblijdt ende verheught [u,] want uwen <Namel. die Godt belooft ende geven sal, niet uyt verdienste maer uyt genade, Rom. 6. vers 23. om Christi wille, 2.Cor. 1.20. alsoo oock Cap. 6. vers 1. ende elders doorgaens.> loon [is] <Gr. veel.> groot in de hemelen: want alsoo hebben sy vervolght de Propheten, die <Dat is, voor uwe tijden, ofte in voorgaende tijden.> voor u [geweest zijn.]",
+      "modernized": "$Lk. 6:23$ Verblijd en verheug [u,] want uw <Namelijk, die God belooft en zal geven, niet uit verdienste maar uit genade, $Rm. 6:23$, om Christus' wil, $2Kor. 1:20$, zo ook $2Kor. 6:1$, en elders steeds.> loon [is] <Grieks: veel.> groot in de hemelen: want zo hebben zij de Profeten vervolgd, die <Dat is, voor uw tijd, of in vroegere tijden.> vóór u [geweest zijn.]",
+      "source_text": "χαίρετε καὶ ἀγαλλιᾶσθε, ὅτι ὁ μισθὸς ὑμῶν πολὺς ἐν τοῖς οὐρανοῖς· οὕτω γὰρ ἐδίωξαν τοὺς προφήτας τοὺς πρὸ ὑμῶν.",
+      "generated_at": "2026-06-02T20:51:49.624483Z",
+      "model": "gpt-5-codex",
+      "memory_examples_used": 5
     }
   ]
 }
