@@ -154,7 +154,7 @@
     {
       "verse_number": 14,
       "original": "$Matth. 24.15. Luce 21.20.$ Wanneer ghy dan sult sien den <Siet de verklaringe Matth. 24.15.> grouwel der verwoestinge, daer van door den Propheet $Dan. 9.27.$ Daniel gesproken is, staende <D. in de heylige plaetse, rontom Ierusalem, Matth. 24. vers 15. Luce 21.20.> daer het niet en behoort (die het leest die mercke daer op) $Luce 21.21.$ als dan die in Iudea zijn, datse vlieden op de bergen.",
-      "modernized": "$Mt. 24:15; Lk. 21:20$ Wanneer u dan zult zien de <Zie de verklaring $Mt. 24:15$.> gruwel der verwoesting, waarvan door de Profeet $Dn. 9:27$ Daniël gesproken is, en die staat <Dat is, in de heilige plaats, rondom Jeruzalem, $Mt. 24:15; Lk. 21:20$.> waar het niet behoort (wie het leest, die merke daarop), $Lk. 21:21$ laten dan zij die in Judea zijn, vluchten naar de bergen.",
+      "modernized": "$Mt. 24:15; Lk. 21:20$ Wanneer u dan zult zien de <Zie de verklaring $Mt. 24:15$.> gruwel van de verwoesting, waarvan door de Profeet $Dn. 9:27$ Daniël gesproken is, en die staat <Dat is, in de heilige plaats, rondom Jeruzalem, $Mt. 24:15; Lk. 21:20$.> waar het niet behoort (wie het leest, die merke daarop), $Lk. 21:21$ laten dan zij die in Judea zijn, vluchten naar de bergen.",
       "source_text": "Ὅταν δὲ ἴδητε τὸ βδέλυγμα τῆς ἐρημώσεως, τὸ ῥηθὲν ὑπὸ Δανιὴλ τοῦ προφήτου, ἑστὼς ὅπου οὐ δεῖ ὁ ἀναγινώσκων νοείτω, τότε οἱ ἐν τῇ Ἰουδαίᾳ φευγέτωσαν εἰς τὰ ὄρη·",
       "generated_at": "2026-05-17T21:10:45.590065Z",
       "model": "claude-opus-4-7[1m]",
@@ -176,7 +176,7 @@
     {
       "verse_number": 15,
       "original": "Ende die op <Siet hier van d’aenteeckeninge op Matth. 10.27.> het dack is, en kome niet af in het huys, noch en gae niet in, om yet uyt sijn huys wech te nemen.",
-      "modernized": "En wie op <Zie hierover de aantekening op $Mt. 10:27$.> het dak is, die kome niet af in het huis, en ga niet naar binnen om iets uit zijn huis weg te nemen.",
+      "modernized": "En laat wie op <Zie hierover de aantekening op $Mt. 10:27$.> het dak is, niet afdalen in het huis, en niet naar binnen gaan om iets uit zijn huis weg te nemen.",
       "source_text": "ὁ δὲ ἐπὶ τοῦ δώματος μὴ καταβάτω εἰς τὴν οἰκίαν, μηδὲ εἰσελθέτω ἆραί τι ἐκ τῆς οἰκίας αὐτοῦ·",
       "generated_at": "2026-05-17T21:11:49.922802Z",
       "model": "claude-opus-4-7[1m]",
@@ -184,14 +184,14 @@
       "notes": [
         {
           "type": "context",
-          "subject": "die kome niet af",
+          "subject": "en kome niet af",
           "context": "hoofdtekst",
-          "choice": "die kome niet af in het huis, en ga niet naar binnen",
+          "choice": "laat wie op het dak is, niet afdalen in het huis, en niet naar binnen gaan",
           "alternatives": [
-            "die mag niet afkomen",
-            "laat hij niet afkomen"
+            "wie op het dak is, moet niet afdalen",
+            "laat hij niet afdalen"
           ],
-          "reason": "SV-subjunctief van bevel/advies bewaard (vgl. Lk 17:31 'die kome niet af' en MRK 13:14 'die merke daarop'); verstaanbaar formeel-Nederlands met SV-resonantie."
+          "reason": "De Griekse imperatieven worden met 'laat ... niet' weergegeven; dat behoudt de bevelsvorm zonder de archaïsche aanvoegende wijs 'kome'."
         }
       ]
     },
@@ -238,7 +238,7 @@
     {
       "verse_number": 19,
       "original": "Want <D. de eene verdruckinge sal op de andere sonder ruste volgen, soo datter anders niet als enckele verdruckinge sal zijn. Siet dergelijcke maniere van spreken Amos 5. vers 20. Ioel 2.2.> die dagen sullen sulcke verdruckinge zijn, welcker gelijcke niet geweest en is van den beginne <Gr. des schepsels.> der schepselen, die Godt geschapen heeft, tot nu toe, noch oock niet zijn en sal.",
-      "modernized": "Want <Dat is, de ene verdrukking zal op de andere zonder rust volgen, zodat er anders niet dan louter verdrukking zal zijn. Zie dergelijke manier van spreken $Am. 5:20; Jl. 2:2$.> die dagen zullen zulke verdrukking zijn, welker gelijke niet geweest is van het begin <Grieks: van het schepsel.> van de schepselen, die God geschapen heeft, tot nu toe, en ook niet zijn zal.",
+      "modernized": "Want <Dat is, de ene verdrukking zal op de andere zonder rust volgen, zodat er anders niet dan louter verdrukking zal zijn. Zie dergelijke manier van spreken $Am. 5:20; Jl. 2:2$.> die dagen zullen zulke verdrukking zijn, waarvan de gelijke niet geweest is van het begin <Grieks: van het schepsel.> van de schepselen, die God geschapen heeft, tot nu toe, en ook niet zijn zal.",
       "source_text": "ἔσονται γὰρ αἱ ἡμέραι ἐκεῖναι θλίψις, οἵα οὐ γέγονε τοιαύτη ἀπ’ ἀρχῆς κτίσεως ἧς ἔκτισεν ὁ Θεὸς ἕως τοῦ νῦν, καὶ οὐ μὴ γένηται.",
       "generated_at": "2026-05-17T21:23:14.724434Z",
       "model": "claude-opus-4-7[1m]",
@@ -247,7 +247,7 @@
     {
       "verse_number": 20,
       "original": "Ende indien de Heere de dagen niet <Siet hier van d’aenteeckeninge op Matth. 24.22.> verkort en hadde, geen vleesch en soude behouden worden: maer om der uytverkorenen wille, die hy heeft uytverkoren, heeft hy de dagen verkort.",
-      "modernized": "En indien de Heere de dagen niet <Zie hiervan de aantekening op $Mt. 24:22$.> verkort had, geen vlees zou behouden worden; maar omwille van de uitverkorenen, die hij heeft uitverkoren, heeft hij de dagen verkort.",
+      "modernized": "En als de Heere de dagen niet <Zie hiervan de aantekening op $Mt. 24:22$.> verkort had, zou geen vlees behouden worden; maar omwille van de uitverkorenen, die hij heeft uitverkoren, heeft hij de dagen verkort.",
       "source_text": "καὶ εἰ μὴ Κύριος ἐκολόβωσε τὰς ἡμέρας, οὐκ ἂν ἐσώθη πᾶσα σάρξ· ἀλλὰ διὰ τοὺς ἐκλεκτούς, οὓς ἐξελέξατο, ἐκολόβωσε τὰς ἡμέρας.",
       "generated_at": "2026-05-17T21:23:37.466457Z",
       "model": "claude-opus-4-7[1m]",
@@ -265,7 +265,7 @@
     {
       "verse_number": 22,
       "original": "$Deuter. 13.1. 2.Thessal. 2.11.$ Want daer sullen valsche Christi, ende valsche Propheten opstaen, ende sullen teeckenen ende wonderen <Gr. geven.> doen, om te verleyden, indien het mogelick ware, oock de uytverkorene.",
-      "modernized": "$Dt. 13:1; 2Th. 2:11$ Want er zullen valse Christussen en valse Profeten opstaan, en zullen tekenen en wonderen <Grieks: geven.> doen, om te verleiden, indien het mogelijk ware, ook de uitverkorenen.",
+      "modernized": "$Dt. 13:1; 2Th. 2:11$ Want er zullen valse Christussen en valse Profeten opstaan, en zullen tekenen en wonderen <Grieks: geven.> doen, om te verleiden, als het mogelijk was, ook de uitverkorenen.",
       "source_text": "ἐγερθήσονται γὰρ ψευδόχριστοι καὶ ψευδοπροφῆται, καὶ δώσουσι σημεῖα καὶ τέρατα, πρὸς τὸ ἀποπλανᾷν, εἰ δυνατόν, καὶ τοὺς ἐκλεκτούς.",
       "generated_at": "2026-05-17T21:30:03.706380Z",
       "model": "claude-opus-4-7[1m]",

@@ -1,7 +1,7 @@
 {
   "book": "2CO",
   "chapter": 11,
-  "reviewed_at": "2026-05-29T06:24:16+00:00",
+  "reviewed_at": "2026-06-02T10:31:47+00:00",
   "passes": [
     {
       "pass": 1,
@@ -31,6 +31,17 @@
         "2CO-11-30-001: rebuttal verified",
         "2CO-11-1-001: verified",
         "2CO-11-3-002: rebuttal verified",
+        "2CO-11-0-001: reopened (vers verdwenen)"
+      ]
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-06-02T10:31:47+00:00",
+      "mode": "verify",
+      "actions": [
+        "2CO-11-5-001: verified",
+        "2CO-11-5-002: verified",
+        "2CO-11-21-001: verified",
         "2CO-11-0-001: reopened (vers verdwenen)"
       ]
     }
@@ -88,9 +99,10 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "2CO-11-5-001",
-      "status": "fixed",
+      "status": "verified",
       "verify_note": "rebuttal noemt geen regel (§), geen Griekse term en geen vers-specifiek argument — voeg referentie toe",
-      "fix_commit": "<round2>"
+      "fix_commit": "<round2>",
+      "verified_at": "2026-06-02T10:31:47+00:00"
     },
     {
       "category": "SV-verbuiging (demonstratief dezer/dien/...)",
@@ -102,9 +114,10 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "2CO-11-5-002",
-      "status": "fixed",
+      "status": "verified",
       "fix_commit": "<round2>",
-      "verify_note": "fix loste het patroon niet op"
+      "verify_note": "fix loste het patroon niet op",
+      "verified_at": "2026-06-02T10:31:47+00:00"
     },
     {
       "category": "genitief pronomen wiens/wier",
@@ -228,9 +241,10 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "2CO-11-21-001",
-      "status": "fixed",
+      "status": "verified",
       "verify_note": "rebuttal noemt geen regel (§), geen Griekse term en geen vers-specifiek argument — voeg referentie toe",
-      "fix_commit": "<round2>"
+      "fix_commit": "<round2>",
+      "verified_at": "2026-06-02T10:31:47+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -294,9 +308,10 @@
       "explanation": "Intro-regel 12: 'Engelen des lichts' verbogen genitief; hoofdtekst v14 rendert al 'Engel van het licht'. Concordantie + genitief-archaisme.",
       "proposed_fix": "die zich veranderden in Engelen van het licht",
       "location": "introductie",
-      "status": "fixed",
+      "status": "verified",
       "fix_commit": "fd3bab904da1ca181e2f00ffeff09bdcfdb27d6a",
-      "verify_note": "Fix toegepast in introduction.modernized (\"Engelen van het licht\"); verify-scanner kan verse 0/introductie niet mechanisch verifiëren. Bevestigd via validate.py PASS 34/34 0F."
+      "verify_note": "handmatig gecontroleerd: introductie bevat nu 'Engelen van het licht'; verifier ondersteunt verse: 0 niet",
+      "verified_at": "2026-06-02T10:33:20Z"
     }
   ]
 }

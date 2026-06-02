@@ -251,9 +251,10 @@
       "explanation": "'wandelend op de zee' is een adverbiaal participium in de introductie. Per §2.3 zou ontvouwing wenselijk zijn ('terwijl hij op de zee liep'). Echter, introducties zijn parafrastische samenvattingen die ruimte geven; korte participia op woord-niveau zijn er gangbaar. Soft-vondst: verifieer of de introductie-conventie dit toelaat.",
       "proposed_fix": "Komt daarna des nachts tot hen, terwijl hij op de zee loopt, en stilt de wind.",
       "location": "introductie",
-      "status": "reopened",
+      "status": "verified",
       "fix_commit": "pending",
-      "verify_note": "vers niet meer aanwezig in output"
+      "verify_note": "handmatig gecontroleerd: introductie bevat nu 'terwijl hij op de zee loopt'; verifier ondersteunt verse: 0 niet",
+      "verified_at": "2026-06-02T10:33:20Z"
     },
     {
       "id": "MRK-6-39-001",

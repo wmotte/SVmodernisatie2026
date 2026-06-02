@@ -1,7 +1,7 @@
 {
   "book": "REV",
   "chapter": 12,
-  "reviewed_at": "2026-05-29T21:01:22+00:00",
+  "reviewed_at": "2026-06-02T10:31:56+00:00",
   "passes": [
     {
       "pass": 1,
@@ -38,6 +38,14 @@
         "REV-12-17-002: rebuttal verified",
         "REV-12-17-003: rebuttal verified",
         "REV-12-18-001: rebuttal verified"
+      ]
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-06-02T10:31:56+00:00",
+      "mode": "verify",
+      "actions": [
+        "REV-12-7-001: rebuttal verified"
       ]
     }
   ],
@@ -192,9 +200,10 @@
       "proposed_fix": "van de Heeren",
       "location": "kanttekening",
       "id": "REV-12-7-001",
-      "status": "rebutted",
+      "status": "verified",
       "rebuttal": "'des Heeren' in 'door de Engel des Heeren is geslagen geweest' (v7-kanttekening, over Herodes, $Hd. 12:23$) is het gefossiliseerde bijbelse formulier 'de Engel des Heeren' (Gr. ἄγγελος κυρίου), parallel aan 'Zoon des mensen' / 'Koninkrijk der hemelen' uit MODERNISATIE.md §genitief-fossielen. Het staat in FOSSIL_GENITIVE_PAIRS (rules_data.py: ('des','heeren')), is liturgisch-vast en projectbreed behouden; validate.py meldt 0F op v7. Geen productieve genitief die naar 'van de' moet — vers-specifiek de vaste constructie 'Engel des Heeren', niet 'dag des Heeren'.",
-      "verify_note": "rebuttal noemt geen regel (§), geen Griekse term en geen vers-specifiek argument — voeg referentie toe"
+      "verify_note": "rebuttal noemt geen regel (§), geen Griekse term en geen vers-specifiek argument — voeg referentie toe",
+      "verified_at": "2026-06-02T10:31:56+00:00"
     },
     {
       "category": "archaïsch pronomen (dezelve/denzelven)",

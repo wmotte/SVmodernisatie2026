@@ -1,7 +1,24 @@
 {
   "book": "MRK",
   "generated_at": "2026-05-18T00:00:00Z",
-  "chapters": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],
+  "chapters": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
   "min_freq": 2,
   "aggregator": "scripts/meta_diff_aggregate.py --book MRK --chapters 1-16 --min-freq 2",
   "issues": [
@@ -17,7 +34,9 @@
       "explanation": "'ure' is single-word drempel-archaïsme (al opgenomen in DREMPEL_ARCHAISMEN sinds eerdere meta-review MRK 1-14). Content nog niet gefixt. Eschatologisch/momentcontext.",
       "proposed_fix": "maar wat u op dat moment gegeven zal worden, dat spreekt",
       "location": "hoofdtekst",
-      "status": "open"
+      "status": "fixed",
+      "fixed_at": "2026-06-02T10:33:20Z",
+      "resolution_note": "Al gefixt in output: op dat moment."
     },
     {
       "id": "META-MRK-13-32-001",
@@ -31,7 +50,9 @@
       "explanation": "'ure' drempel-archaïsme; eschatologische tijdsaanduiding.",
       "proposed_fix": "Maar van die dag en dat uur weet niemand",
       "location": "hoofdtekst",
-      "status": "open"
+      "status": "fixed",
+      "fixed_at": "2026-06-02T10:33:20Z",
+      "resolution_note": "Al gefixt in output: dat uur."
     },
     {
       "id": "META-MRK-14-35-001",
@@ -45,7 +66,9 @@
       "explanation": "'ure' drempel-archaïsme; in Getsemane-context = 'uur' (lijdensuur).",
       "proposed_fix": "dat, indien mogelijk, dat uur aan hem voorbij zou gaan",
       "location": "hoofdtekst",
-      "status": "open"
+      "status": "fixed",
+      "fixed_at": "2026-06-02T10:33:20Z",
+      "resolution_note": "Al gefixt in output: dat uur."
     }
   ]
 }

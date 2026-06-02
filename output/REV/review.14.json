@@ -1,7 +1,7 @@
 {
   "book": "REV",
   "chapter": 14,
-  "reviewed_at": "2026-05-29T22:33:26+00:00",
+  "reviewed_at": "2026-06-02T10:31:56+00:00",
   "passes": [
     {
       "pass": 1,
@@ -47,6 +47,14 @@
         "REV-14-1-004: rebuttal verified",
         "REV-14-1-005: rebuttal verified",
         "REV-14-7-001: rebuttal verified"
+      ]
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-06-02T10:31:56+00:00",
+      "mode": "verify",
+      "actions": [
+        "REV-14-18-002: rebuttal verified"
       ]
     }
   ],
@@ -427,10 +435,11 @@
       "proposed_fix": "van de Martelaren",
       "location": "kanttekening",
       "id": "REV-14-18-002",
-      "status": "rebutted",
+      "status": "verified",
       "rebuttal": "De niet-fossiele genitief 'zielen der Martelaren' (kanttekening) is ontvouwd naar 'zielen van de Martelaren' (§2.3c-standaardregel, commit 0deee94). Het door verify her-gedetecteerde 'der aarde' in 'de wijngaard der aarde' (Gr. τὴν ἄμπελον τῆς γῆς, Op 14:18-19) is een gefossiliseerde formule: ('der','aarde') staat in FOSSIL_GENITIVE_PAIRS (rules_data.py) en blijft per §2.3c flexief. De grove verify-herscan vuurt op deze toegestane fossiel, niet op de gefixte token.",
       "fix_commit": "0deee94fc3ce9431aba6589a039c30d1c642e716",
-      "verify_note": "fix loste het patroon niet op"
+      "verify_note": "fix loste het patroon niet op",
+      "verified_at": "2026-06-02T10:31:56+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",

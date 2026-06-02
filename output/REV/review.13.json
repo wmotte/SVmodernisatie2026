@@ -1,7 +1,7 @@
 {
   "book": "REV",
   "chapter": 13,
-  "reviewed_at": "2026-05-29T21:46:11+00:00",
+  "reviewed_at": "2026-06-02T10:31:56+00:00",
   "passes": [
     {
       "pass": 1,
@@ -42,6 +42,16 @@
         "REV-13-16-002: rebuttal verified",
         "REV-13-17-001: rebuttal verified",
         "REV-13-8-007: rebuttal verified"
+      ]
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-06-02T10:31:56+00:00",
+      "mode": "verify",
+      "actions": [
+        "REV-13-10-004: rebuttal verified",
+        "REV-13-11-002: rebuttal verified",
+        "REV-13-11-003: rebuttal verified"
       ]
     }
   ],
@@ -294,10 +304,11 @@
       "proposed_fix": "van de vuurs",
       "location": "kanttekening",
       "id": "REV-13-10-004",
-      "status": "rebutted",
+      "status": "verified",
       "rebuttal": "De niet-fossiele genitief 'poel des vuurs' is ontvouwd naar 'poel van vuur' (§2.3c-standaardregel, commit 02ee6f5). Het door verify her-gedetecteerde 'der heiligen' in 'het geloof der heiligen' (Gr. ἡ πίστις τῶν ἁγίων, v10) is een gefossiliseerde formule: ('der','heiligen') staat in FOSSIL_GENITIVE_PAIRS (rules_data.py) en blijft per §2.3c flexief; de grove verify-herscan kan de gefixte token niet isoleren van de toegestane fossiel.",
       "fix_commit": "02ee6f5f6d1d6e220de697000ee40a9240bd16c4",
-      "verify_note": "fix loste het patroon niet op"
+      "verify_note": "fix loste het patroon niet op",
+      "verified_at": "2026-06-02T10:31:56+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -323,10 +334,11 @@
       "proposed_fix": "van de Lams",
       "location": "kanttekening",
       "id": "REV-13-11-002",
-      "status": "rebutted",
+      "status": "verified",
       "rebuttal": "'des Lams Gods' is ontvouwd naar 'het Lam Gods' (§2.3c, commit 02ee6f5). De residuele 'der wereld' in 'Vorst der wereld' (v11) die verify her-detecteert is een gefossiliseerde formule: ('der','wereld') staat in FOSSIL_GENITIVE_PAIRS en blijft per §2.3c flexief. De mechanische herscan vuurt op de toegestane fossiel, niet op een onopgeloste fix.",
       "fix_commit": "02ee6f5f6d1d6e220de697000ee40a9240bd16c4",
-      "verify_note": "fix loste het patroon niet op"
+      "verify_note": "fix loste het patroon niet op",
+      "verified_at": "2026-06-02T10:31:56+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -338,10 +350,11 @@
       "proposed_fix": "van de duivelen",
       "location": "kanttekening",
       "id": "REV-13-11-003",
-      "status": "rebutted",
+      "status": "verified",
       "rebuttal": "'leringen der duivelen' (Gr. διδασκαλίαις δαιμονίων, $1Tm. 4:1$, v11) is ontvouwd naar 'leringen van de duivelen' (§2.3c, commit 02ee6f5). De her-gedetecteerde 'der wereld' is dezelfde fossiel als bij REV-13-11-002 (FOSSIL_GENITIVE_PAIRS), niet de gefixte token; §2.3c laat 'Vorst der wereld' flexief.",
       "fix_commit": "02ee6f5f6d1d6e220de697000ee40a9240bd16c4",
-      "verify_note": "fix loste het patroon niet op"
+      "verify_note": "fix loste het patroon niet op",
+      "verified_at": "2026-06-02T10:31:56+00:00"
     },
     {
       "category": "kanttekening-redundantie",

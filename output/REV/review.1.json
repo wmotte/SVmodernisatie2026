@@ -1,7 +1,7 @@
 {
   "book": "REV",
   "chapter": 1,
-  "reviewed_at": "2026-05-29T09:53:44+00:00",
+  "reviewed_at": "2026-06-02T10:31:47+00:00",
   "passes": [
     {
       "pass": 1,
@@ -38,6 +38,15 @@
         "REV-1-19-001: rebuttal verified",
         "REV-1-20-001: rebuttal verified",
         "REV-1-13-005: rebuttal verified"
+      ]
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-06-02T10:31:47+00:00",
+      "mode": "verify",
+      "actions": [
+        "REV-1-4-004: rebuttal verified",
+        "REV-1-7-003: verified"
       ]
     }
   ],
@@ -94,10 +103,11 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-1-4-004",
-      "status": "rebutted",
+      "status": "verified",
       "fix_commit": "1e02dce05015bb536c1026c53c31fb32d313367d",
       "verify_note": "fix loste het patroon niet op",
-      "rebuttal": "De geflagde 'brandende voor de troon' is gefixt naar 'die voor de troon branden' (postnominaal attributief participium ontvouwd, §2.3). Het enige resterende -ende-token in v4 ('langstlevende') is een genominaliseerd superlatief-adjectief, reeds substantief gerebut onder REV-1-4-003; geen verbaal participium in bijwoordelijke functie. Verify her-attribueerde dat token aan deze slot."
+      "rebuttal": "De geflagde 'brandende voor de troon' is gefixt naar 'die voor de troon branden' (postnominaal attributief participium ontvouwd, §2.3). Het enige resterende -ende-token in v4 ('langstlevende') is een genominaliseerd superlatief-adjectief, reeds substantief gerebut onder REV-1-4-003; geen verbaal participium in bijwoordelijke functie. Verify her-attribueerde dat token aan deze slot.",
+      "verified_at": "2026-06-02T10:31:47+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -151,9 +161,10 @@
       "proposed_fix": "van de ongelovigen",
       "location": "kanttekening",
       "id": "REV-1-7-003",
-      "status": "fixed",
+      "status": "verified",
       "fix_commit": "PENDING2",
-      "verify_note": "fix loste het patroon niet op"
+      "verify_note": "fix loste het patroon niet op",
+      "verified_at": "2026-06-02T10:31:47+00:00"
     },
     {
       "category": "voornaamwoordelijk bijwoord gesplitst",

@@ -1,13 +1,34 @@
 {
   "book": "2CO",
   "chapter": 10,
-  "reviewed_at": "2026-05-29T05:20:16+00:00",
+  "reviewed_at": "2026-06-02T10:31:27+00:00",
   "passes": [
     {
       "pass": 1,
       "ran_at": "2026-05-29T05:20:16+00:00",
       "mode": "scan",
       "issues_total": 14
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-06-02T10:31:27+00:00",
+      "mode": "verify",
+      "actions": [
+        "2CO-10-1-001: rebuttal verified",
+        "2CO-10-2-001: rebuttal verified",
+        "2CO-10-4-001: rebuttal verified",
+        "2CO-10-5-001: rebuttal verified",
+        "2CO-10-7-001: rebuttal verified",
+        "2CO-10-8-001: rebuttal verified",
+        "2CO-10-10-001: rebuttal verified",
+        "2CO-10-12-001: verified",
+        "2CO-10-13-001: rebuttal verified",
+        "2CO-10-13-002: rebuttal verified",
+        "2CO-10-14-001: rebuttal verified",
+        "2CO-10-15-001: rebuttal verified",
+        "2CO-10-16-001: rebuttal verified",
+        "2CO-10-16-002: rebuttal verified"
+      ]
     }
   ],
   "issues": [
@@ -21,8 +42,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "2CO-10-1-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] §2.7: 'voorts' is productief formeel/schriftelijk NL (= 'verder/vervolgens', additief), haalt de productiviteitstest; de door de scanner voorgestelde causale equivalenten ('omdat/hoewel/echter') passen semantisch niet op dit additieve voegwoord."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] §2.7: 'voorts' is productief formeel/schriftelijk NL (= 'verder/vervolgens', additief), haalt de productiviteitstest; de door de scanner voorgestelde causale equivalenten ('omdat/hoewel/echter') passen semantisch niet op dit additieve voegwoord.",
+      "verified_at": "2026-06-02T10:31:27+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -34,8 +56,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "2CO-10-2-001",
-      "status": "rebutted",
-      "rebuttal": "KANTTEKENINGEN.md §redundantie verbiedt het overnemen van een kanttekening-ALTERNATIEF in de hoofdtekst (zoals `<Ofte, aanstoot>`), niet het incidenteel echoën van het lemma binnen een glosse. Deze kanttekening voegt substantieve causale exegese toe ('gedwongen door deze ongehoorzaamheid om ... vrijmoedigheid in het straffen met de daad te gebruiken'); de herhaalde temporele frase 'wanneer ik tegenwoordig ben' situeert alleen het glossed lemma. Getrouwe weergave van de SV1657-kanttekening, geen alternatief-woord-lek."
+      "status": "verified",
+      "rebuttal": "KANTTEKENINGEN.md §redundantie verbiedt het overnemen van een kanttekening-ALTERNATIEF in de hoofdtekst (zoals `<Ofte, aanstoot>`), niet het incidenteel echoën van het lemma binnen een glosse. Deze kanttekening voegt substantieve causale exegese toe ('gedwongen door deze ongehoorzaamheid om ... vrijmoedigheid in het straffen met de daad te gebruiken'); de herhaalde temporele frase 'wanneer ik tegenwoordig ben' situeert alleen het glossed lemma. Getrouwe weergave van de SV1657-kanttekening, geen alternatief-woord-lek.",
+      "verified_at": "2026-06-02T10:31:27+00:00"
     },
     {
       "category": "§2.3b bijwoord-coda",
@@ -47,8 +70,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "2CO-10-4-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] In 1CO 3:3 is het tweede 'vleselijk' opnieuw naamwoordelijk gezegde bij 'bent u niet'. De daaropvolgende '[en] wandelt [u niet]' bewaart de SV-haakstructuur; §2.3b adverbiale coda is hier niet van toepassing."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] In 1CO 3:3 is het tweede 'vleselijk' opnieuw naamwoordelijk gezegde bij 'bent u niet'. De daaropvolgende '[en] wandelt [u niet]' bewaart de SV-haakstructuur; §2.3b adverbiale coda is hier niet van toepassing.",
+      "verified_at": "2026-06-02T10:31:27+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -60,8 +84,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "2CO-10-5-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] ARCHAISMEN.md: 'hetwelk de Apostel hier zegt' = formeel-register relativum in kanttekening-gloss (corpusnorm 134 verified). Vers 10, geen hoofdtekst."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] ARCHAISMEN.md: 'hetwelk de Apostel hier zegt' = formeel-register relativum in kanttekening-gloss (corpusnorm 134 verified). Vers 10, geen hoofdtekst.",
+      "verified_at": "2026-06-02T10:31:27+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -73,8 +98,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "2CO-10-7-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-06-02T10:31:27+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -86,8 +112,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "2CO-10-8-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-06-02T10:31:27+00:00"
     },
     {
       "category": "§2.3b bijwoord-coda",
@@ -99,8 +126,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "2CO-10-10-001",
-      "status": "rebutted",
-      "rebuttal": "§2.3b betreft een nageschoven BIJWOORD ná een werkwoord ('wandelende ... onberispelijk'). Hier is 'verachtelijk' een PREDICAATSADJECTIEF bij de copula 'is' (Gr. ὁ λόγος ἐξουθενημένος, perfectum-passief participium predicatief gebruikt = 'het spreken is verachtelijk/geminacht'). Een copulair gezegde met predicaatsadjectief is standaard modern NL, geen adverbiale coda. §2.3b niet van toepassing."
+      "status": "verified",
+      "rebuttal": "§2.3b betreft een nageschoven BIJWOORD ná een werkwoord ('wandelende ... onberispelijk'). Hier is 'verachtelijk' een PREDICAATSADJECTIEF bij de copula 'is' (Gr. ὁ λόγος ἐξουθενημένος, perfectum-passief participium predicatief gebruikt = 'het spreken is verachtelijk/geminacht'). Een copulair gezegde met predicaatsadjectief is standaard modern NL, geen adverbiale coda. §2.3b niet van toepassing.",
+      "verified_at": "2026-06-02T10:31:27+00:00"
     },
     {
       "category": "SV-verbuiging (demonstratief dezer/dien/...)",
@@ -112,7 +140,8 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "2CO-10-12-001",
-      "status": "fixed"
+      "status": "verified",
+      "verified_at": "2026-06-02T10:31:27+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -124,8 +153,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "2CO-10-13-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-06-02T10:31:27+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -137,8 +167,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "2CO-10-13-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-06-02T10:31:27+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -150,8 +181,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "2CO-10-14-001",
-      "status": "rebutted",
-      "rebuttal": "Geen alternatief-woord-lek (KANTTEKENINGEN.md §redundantie). Deze kanttekening levert filologische substantie: de Grieks-letterlijke variant 'Grieks: als wie niet tot u komen' naast de parafrase. De echo 'tot u niet zouden' is het geglosseerde lemma, niet een uit de kanttekening overgenomen synoniem. Getrouwe SV1657-weergave."
+      "status": "verified",
+      "rebuttal": "Geen alternatief-woord-lek (KANTTEKENINGEN.md §redundantie). Deze kanttekening levert filologische substantie: de Grieks-letterlijke variant 'Grieks: als wie niet tot u komen' naast de parafrase. De echo 'tot u niet zouden' is het geglosseerde lemma, niet een uit de kanttekening overgenomen synoniem. Getrouwe SV1657-weergave.",
+      "verified_at": "2026-06-02T10:31:27+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -163,8 +195,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "2CO-10-15-001",
-      "status": "rebutted",
-      "rebuttal": "Geen alternatief-woord-lek (KANTTEKENINGEN.md §redundantie). De kanttekening presenteert een alternatieve SYNTACTISCHE groepering ('Anderen voegen deze woorden zo samen: Wanneer uw geloof zal gegroeid ... onder u, dat wij ...'), een variant-lezing — substantief, geen loutere herhaling. 'uw geloof zal gegroeid' is het geglosseerde lemma. Getrouwe SV1657-weergave."
+      "status": "verified",
+      "rebuttal": "Geen alternatief-woord-lek (KANTTEKENINGEN.md §redundantie). De kanttekening presenteert een alternatieve SYNTACTISCHE groepering ('Anderen voegen deze woorden zo samen: Wanneer uw geloof zal gegroeid ... onder u, dat wij ...'), een variant-lezing — substantief, geen loutere herhaling. 'uw geloof zal gegroeid' is het geglosseerde lemma. Getrouwe SV1657-weergave.",
+      "verified_at": "2026-06-02T10:31:27+00:00"
     },
     {
       "category": "§2.3b infinitief met nageschoven object",
@@ -176,8 +209,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "2CO-10-16-001",
-      "status": "rebutted",
-      "rebuttal": "§2.3b (nageschoven lijdend voorwerp) niet van toepassing: het lijdend voorwerp 'het Evangelie' staat CORRECT vóór de infinitief ('om het Evangelie te verkondigen'). 'in de [plaatsen] die aan gene zijde van u liggen' is een locatieve bepaling die in modern NL idiomatisch ná de infinitief volgt — geen verplaatst object. Woordvolgorde is al modern."
+      "status": "verified",
+      "rebuttal": "§2.3b (nageschoven lijdend voorwerp) niet van toepassing: het lijdend voorwerp 'het Evangelie' staat CORRECT vóór de infinitief ('om het Evangelie te verkondigen'). 'in de [plaatsen] die aan gene zijde van u liggen' is een locatieve bepaling die in modern NL idiomatisch ná de infinitief volgt — geen verplaatst object. Woordvolgorde is al modern.",
+      "verified_at": "2026-06-02T10:31:27+00:00"
     },
     {
       "category": "§2.3b infinitief met nageschoven object",
@@ -189,8 +223,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "2CO-10-16-002",
-      "status": "rebutted",
-      "rebuttal": "§2.3b niet van toepassing: 'roemen in X' is een vast voorzetselvoorwerp-patroon (roemen IN, vgl. 1KOR 1:31 'die roeme in de Heere'). 'in de regel van een ander' is het voorzetselvoorwerp van 'roemen', geen lijdend voorwerp. In modern NL staat een voorzetselvoorwerp ná de infinitief ('om te roemen in andermans werk'). Geen nageschoven object."
+      "status": "verified",
+      "rebuttal": "§2.3b niet van toepassing: 'roemen in X' is een vast voorzetselvoorwerp-patroon (roemen IN, vgl. 1KOR 1:31 'die roeme in de Heere'). 'in de regel van een ander' is het voorzetselvoorwerp van 'roemen', geen lijdend voorwerp. In modern NL staat een voorzetselvoorwerp ná de infinitief ('om te roemen in andermans werk'). Geen nageschoven object.",
+      "verified_at": "2026-06-02T10:31:27+00:00"
     }
   ]
 }
