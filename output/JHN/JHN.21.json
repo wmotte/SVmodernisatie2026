@@ -88,6 +88,33 @@
       "generated_at": "2026-06-02T08:18:35.798612Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 10,
+      "original": "$Luce 24.41.$ Iesus seyde tot haer, Brenght van de visschen die ghy nu gevangen hebt.",
+      "modernized": "$Lk. 24:41$ Jezus zei tot hen: Breng van de vissen die u nu gevangen hebt.",
+      "source_text": "λέγει αὐτοῖς ὁ Ἰησοῦς, Ἐνέγκατε ἀπὸ τῶν ὀψαρίων ὧν ἐπιάσατε νῦν.",
+      "generated_at": "2026-06-02T08:22:41.873677Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 11,
+      "original": "Simon Petrus gingh op, ende trock het net op ’t lant, vol groote visschen, [tot] hondert drie ende vijftigh: ende hoewel’er soo vele waren <’t Welck geschiet is door de Goddelicke kracht Christi, om ’t wonderwerck te vergrooten.> soo en scheurde het net niet.",
+      "modernized": "Simon Petrus ging aan boord, en trok het net op het land, vol grote vissen, [tot] honderddrieënvijftig; en hoewel er zoveel waren <Dat is gebeurd door de Goddelijke kracht van Christus, om het wonderwerk te vergroten.>, scheurde het net niet.",
+      "source_text": "ἀνέβη Σίμων Πέτρος, καὶ εἵλκυσε τὸ δίκτυον ἐπὶ τῆς γῆς, μεστὸν ἰχθύων μεγάλων ἑκατὸν πεντηκοντατριῶν· καὶ τοσούτων ὄντων, οὐκ ἐσχίσθη τὸ δίκτυον.",
+      "generated_at": "2026-06-02T08:24:12.429367Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 12,
+      "original": "Iesus seyde tot haer, Komt herwaerts, houdt het middaghmael. Ende niemant van de discipelen <Namel. uyt schaemte, om niet te schijnen meer te twijfelen dat hy waerlick opgestaen was.> en durfde hem vragen, Wie zijt ghy? wetende dat het de Heere was.",
+      "modernized": "Jezus zei tot hen: Kom hierheen, gebruik de maaltijd. En niemand van de discipelen <Namelijk, uit schaamte, om niet de schijn te wekken nog eraan te twijfelen dat hij werkelijk opgestaan was.> durfde hem te vragen: Wie bent u? want zij wisten dat het de Heere was.",
+      "source_text": "λέγει αὐτοῖς ὁ Ἰησοῦς, Δεῦτε ἀριστήσατε. οὐδεὶς δὲ ἐτόλμα τῶν μαθητῶν ἐξετάσαι αὐτόν, Σὺ τίς εἶ; εἰδότες ὅτι ὁ Κύριός ἐστιν.",
+      "generated_at": "2026-06-02T08:25:11.952114Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ],
   "epilogue": {
