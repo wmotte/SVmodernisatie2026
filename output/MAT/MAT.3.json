@@ -115,6 +115,33 @@
       "generated_at": "2026-06-02T14:20:03.466779Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 13,
+      "original": "$Marc. 1.9. Luce 3.21.$ Doe quam Iesus van Galilea na den Iordaen tot Ioannem, om van hem gedoopt te worden.",
+      "modernized": "$Mk. 1:9; Lk. 3:21$ Toen kwam Jezus van Galilea naar de Jordaan, tot Johannes, om door hem gedoopt te worden.",
+      "source_text": "Τότε παραγίνεται ὁ Ἰησοῦς ἀπὸ τῆς Γαλιλαίας ἐπὶ τὸν Ἰορδάνην πρὸς τὸν Ἰωάννην, τοῦ βαπτισθῆναι ὑπ’ αὐτοῦ.",
+      "generated_at": "2026-06-02T14:26:53.053181Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 14,
+      "original": "Doch Ioannes <D. verhinderde hem seer, ofte stelde hem daer seer tegen, soo met woorden als andersins.> weygerde hem seer, seggende, My is noodigh van u gedoopt te worden, ende komt ghy tot my?",
+      "modernized": "Maar Johannes <Dat is, verhinderde hem zeer, of stelde zich daar sterk tegen, zowel met woorden als op andere wijze.> hield hem krachtig tegen, en zei: Ik heb het nodig door u gedoopt te worden, en komt u tot mij?",
+      "source_text": "ὁ δὲ Ἰωάννης διεκώλυεν αὐτόν, λέγων, Ἐγὼ χρείαν ἔχω ὑπὸ σοῦ βαπτισθῆναι, καὶ σὺ ἔρχῃ πρός με;",
+      "generated_at": "2026-06-02T14:29:07.304127Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 15,
+      "original": "Maer Iesus antwoordende seyde tot hem, <Namelick, om my sulcks te verhinderen.> Laet nu af: Want aldus betaemt ons <D. al wat Godt ingestelt ende bevolen heeft, om hem volkomene gehoorsaemheyt te bewijsen.> alle gerechtigheyt te vervullen. Doe liet hy van hem af.",
+      "modernized": "Maar Jezus antwoordde en zei tegen hem: <Namelijk, om mij hierin tegen te houden.> Houd nu op; want zo betaamt het ons <Dat is, alles wat God ingesteld en bevolen heeft, om hem volledige gehoorzaamheid te bewijzen.> alle gerechtigheid te vervullen. Toen liet hij hem begaan.",
+      "source_text": "ἀποκριθεὶς δὲ ὁ Ἰησοῦς εἶπε πρὸς αὐτόν, Ἄφες ἄρτι· οὕτω γὰρ πρέπον ἐστὶν ἡμῖν πληρῶσαι πᾶσαν δικαιοσύνην. τότε ἀφίησιν αὐτόν.",
+      "generated_at": "2026-06-02T14:30:34.710064Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
