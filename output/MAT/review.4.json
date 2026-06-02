@@ -1,0 +1,52 @@
+{
+  "book": "MAT",
+  "chapter": 4,
+  "reviewed_at": "2026-06-02T21:26:10+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-06-02T21:24:57+00:00",
+      "mode": "scan",
+      "issues_total": 2
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-06-02T21:26:10+00:00",
+      "mode": "verify",
+      "actions": [
+        "MAT-4-1-001: verified",
+        "MAT-4-17-001: rebuttal verified"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "category": "§2.3b infinitief met nageschoven object",
+      "verse": 1,
+      "severity": "soft",
+      "quote_modernized": "…or de Geest weggeleid naar de woestijn, om verzocht te worden door de   duivel.",
+      "rule_reference": "MODERNISATIE.md §2.3b",
+      "explanation": "'om … te worden door de   duivel' — Latinaat-woordvolgorde; in modern NL gaat het object vóór de infinitief: 'om <object> te worden'.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "MAT-4-1-001",
+      "status": "verified",
+      "fix_commit": "pending",
+      "verified_at": "2026-06-02T21:26:10+00:00"
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 17,
+      "severity": "hard",
+      "quote_modernized": "…zeggen:   Bekeer u, want het Koninkrijk der hemelen is nabij gekomen.",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'der hemelen' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de hemelen' of 'van het hemelen', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de hemelen",
+      "location": "hoofdtekst",
+      "id": "MAT-4-17-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'Koninkrijk der hemelen' is gefossiliseerde bijbeluitdrukking voor Gr. βασιλεία τῶν οὐρανῶν. Standaard in NL bijbelvertalingen (NBV21, HSV); MODERNISATIE.md §2.7 erkent lexicale fossielen — geen productieve genitief.",
+      "verified_at": "2026-06-02T21:26:10+00:00"
+    }
+  ]
+}
