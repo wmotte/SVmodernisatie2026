@@ -1,7 +1,7 @@
 {
   "book": "JHN",
   "chapter": 19,
-  "reviewed_at": "2026-06-02T07:44:44+00:00",
+  "reviewed_at": "2026-06-02T07:48:58+00:00",
   "passes": [
     {
       "pass": 1,
@@ -30,6 +30,14 @@
         "JHN-19-37-001: rebuttal verified",
         "JHN-19-37-002: verified",
         "JHN-19-4-001: rebuttal verified"
+      ]
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-06-02T07:48:58+00:00",
+      "mode": "verify",
+      "actions": [
+        "JHN-19-14-001: verified"
       ]
     }
   ],
@@ -128,8 +136,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "JHN-19-14-001",
-      "status": "fixed",
-      "fix_note": "Kanttekeningformulering sterker ont-dubbeld: hoofdherhaling vervangen door 'tegen het zesde uur liep', 'het derde deel naar zes uur' en 'aangeduid als zes uur'."
+      "status": "verified",
+      "fix_note": "Kanttekeningformulering sterker ont-dubbeld: hoofdherhaling vervangen door 'tegen het zesde uur liep', 'het derde deel naar zes uur' en 'aangeduid als zes uur'.",
+      "verified_at": "2026-06-02T07:48:58+00:00"
     },
     {
       "category": "SV-verbuiging (demonstratief dezer/dien/...)",
