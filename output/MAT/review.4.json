@@ -1,7 +1,7 @@
 {
   "book": "MAT",
   "chapter": 4,
-  "reviewed_at": "2026-06-02T21:26:10+00:00",
+  "reviewed_at": "2026-06-02T21:27:47+00:00",
   "passes": [
     {
       "pass": 1,
@@ -17,6 +17,12 @@
         "MAT-4-1-001: verified",
         "MAT-4-17-001: rebuttal verified"
       ]
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-06-02T21:27:47+00:00",
+      "mode": "verify",
+      "actions": []
     }
   ],
   "issues": [
@@ -31,7 +37,7 @@
       "location": "hoofdtekst",
       "id": "MAT-4-1-001",
       "status": "verified",
-      "fix_commit": "pending",
+      "fix_commit": "b096ac863d05fb2ae4b084aa9bc8216d54d11392",
       "verified_at": "2026-06-02T21:26:10+00:00"
     },
     {
