@@ -88,6 +88,39 @@
       "generated_at": "2026-06-02T12:44:13.283493Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 10,
+      "original": "Als sy nu de sterre sagen, vervreughden sy haer met seer groote vreughde.",
+      "modernized": "Toen zij nu de ster zagen, verheugden zij zich met zeer grote vreugde.",
+      "source_text": "ἰδόντες δὲ τὸν ἀστέρα, ἐχάρησαν χαρὰν μεγάλην σφόδρα.",
+      "generated_at": "2026-06-02T12:49:36.544806Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 11,
+      "original": "Ende in het huys gekomen zijnde <Anders, sagen.> vonden sy het kindeken met Maria sijne moeder: ende nedervallende hebben sy het selve aengebeden. Ende hare schatten open gedaen hebbende, brachten sy hem geschencken, <Dit waren de kostelickste dingen, die in haer lant gevonden wierden.> gout, ende wieroock, ende myrrhe.",
+      "modernized": "En toen zij in het huis gekomen waren <Anders: zagen.> vonden zij het kindje met Maria, zijn moeder; en zij vielen neer en hebben datzelfde aangebeden. En toen zij hun schatten geopend hadden, brachten zij hem geschenken: <Dit waren de kostbaarste dingen die in hun land gevonden werden.> goud, en wierook, en mirre.",
+      "source_text": "καὶ ἐλθόντες εἰς τὴν οἰκίαν, εὗρον τὸ παιδίον μετὰ Μαρίας τῆς μητρὸς αὐτοῦ, καὶ πεσόντες προσεκύνησαν αὐτῷ, καὶ ἀνοίξαντες τοὺς θησαυροὺς αὐτῶν προσήνεγκαν αὐτῷ δῶρα, χρυσὸν καὶ λίβανον καὶ σμύρναν.",
+      "generated_at": "2026-06-02T12:50:09.674666Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 12,
+      "original": "Ende door Goddelicke openbaringe vermaent zijnde in den droom, dat sy niet en souden wederkeeren tot Herodem, vertrocken sy door eenen anderen wegh weder na haer lant.",
+      "modernized": "En toen zij door Goddelijke openbaring in een droom gewaarschuwd waren dat zij niet naar Herodes zouden terugkeren, vertrokken zij langs een andere weg weer naar hun land.",
+      "source_text": "καὶ χρηματισθέντες κατ’ ὄναρ μὴ ἀνακάμψαι πρὸς Ἡρώδην, δι’ ἄλλης ὁδοῦ ἀνεχώρησαν εἰς τὴν χώραν αὐτῶν.",
+      "generated_at": "2026-06-02T12:50:32.344735Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "message": "HSV-spiegel/drempel: 'in de droom' gemoderniseerd naar 'in een droom'; SV1657 en Grieks (kat' onar) duiden de droomformule, niet een eerder bepaalde droom."
+        }
+      ]
     }
   ]
 }
