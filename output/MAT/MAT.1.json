@@ -232,18 +232,39 @@
           "alternatives": [
             "De gloss als hoofdtekst laten staan"
           ],
-        "reason": "De invoer bevat een losse Gr.-gloss zonder punthaken; de kanttekeningconventie normaliseert zulke glossen naar een Grieks-blok en houdt de hoofdtekst leesbaar."
-      },
-      {
-        "type": "context",
-        "subject": "HSV-spiegel",
-        "context": "vers 24",
-        "choice": "`opgewekt was` is gemoderniseerd naar `ontwaakt was`.",
-        "alternatives": [
-          "`opgewekt was` laten staan"
-        ],
-        "reason": "De HSV-spiegel bevestigt hier een drempel-§2.7-issue: bij wakker worden uit slaap heeft `opgewekt` in modern Nederlands een dominante andere lading, terwijl `ontwaakt` de SV-constructie en het Grieks behoudt."
-      }
+          "reason": "De invoer bevat een losse Gr.-gloss zonder punthaken; de kanttekeningconventie normaliseert zulke glossen naar een Grieks-blok en houdt de hoofdtekst leesbaar."
+        },
+        {
+          "type": "context",
+          "subject": "HSV-spiegel",
+          "context": "vers 24",
+          "choice": "`opgewekt was` is gemoderniseerd naar `ontwaakt was`.",
+          "alternatives": [
+            "`opgewekt was` laten staan"
+          ],
+          "reason": "De HSV-spiegel bevestigt hier een drempel-§2.7-issue: bij wakker worden uit slaap heeft `opgewekt` in modern Nederlands een dominante andere lading, terwijl `ontwaakt` de SV-constructie en het Grieks behoudt."
+        }
+      ]
+    },
+    {
+      "verse_number": 25,
+      "original": "Ende en bekende haer niet, Hier uyt en kan men niet besluyten dat haer Ioseph daer na soude hebben bekent. Want dese maniere van spreken sulcks altijt niet mede brenght. Siet 2.Sam. 6.23. Matth. 28. vers 20. tot dat sy dese haren Een eerstgeboren sone is, die de moeder eerst opent, Exod. 13. vers 2. al is ’t datter geen sonen ofte kinderen na geboren worden. Want als Exod. 11.5. geseght wort, dat de eerstgeborene van Egypten souden gedoot worden, onder deselve zijn sonder twijffel oock de eenighgeborene verstaen. eerstgeboren sone gebaert hadde: ende $Luce 2.21.$ hiet sijnen name JESUS.",
+      "modernized": "En hij kende haar niet, <Hieruit kan men niet besluiten dat Jozef haar daarna gekend zou hebben. Want deze manier van spreken brengt zoiets niet altijd mee. Zie $2Sm. 6:23; Mt. 28:20$> totdat zij haar <Een eerstgeboren zoon is degene die de moederschoot het eerst opent, $Ex. 13:2$, ook al worden er daarna geen zonen of kinderen geboren. Want wanneer in $Ex. 11:5$ gezegd wordt dat de eerstgeborenen van Egypte gedood zouden worden, worden daaronder zonder twijfel ook de eniggeborenen verstaan.> eerstgeboren zoon gebaard had; en $Lk. 2:21$ gaf hij hem de naam Jezus.",
+      "source_text": "καὶ οὐκ ἐγίνωσκεν αὐτὴν ἕως οὗ ἔτεκε τὸν Υἱὸν αὐτῆς τὸν πρωτότοκον· καὶ ἐκάλεσε τὸ ὄνομα αὐτοῦ ἸΗΣΟΥΝ.",
+      "generated_at": "2026-06-02T11:55:24.091366Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "subject": "onmarkeerde kanttekeningfragmenten",
+          "context": "vers 25",
+          "choice": "De twee verklarende invoerfragmenten zijn als kanttekeningblokken weergegeven.",
+          "alternatives": [
+            "De fragmenten als hoofdtekst laten staan"
+          ],
+          "reason": "De fragmenten verklaren totdat en eerstgeboren en bevatten verwijzingen; als hoofdtekst zouden zij de syntaxis van de verszin breken."
+        }
       ]
     }
   ]
