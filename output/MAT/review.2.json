@@ -1,0 +1,151 @@
+{
+  "book": "MAT",
+  "chapter": 2,
+  "reviewed_at": "2026-06-02T13:21:42+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-06-02T13:20:36+00:00",
+      "mode": "scan",
+      "issues_total": 7
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-06-02T13:21:42+00:00",
+      "mode": "verify",
+      "actions": [
+        "MAT-2-2-001: rebuttal verified",
+        "MAT-2-6-001: rebuttal verified",
+        "MAT-2-23-001: verified",
+        "MAT-2-2-002: rebuttal verified",
+        "MAT-2-2-003: rebuttal verified",
+        "MAT-2-3-001: rebuttal verified",
+        "MAT-2-7-001: rebuttal verified"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 2,
+      "severity": "hard",
+      "quote_modernized": "…n zij zeiden: Waar is de geboren Koning der Joden? Want wij hebben zijn ster in …",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'der Joden' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de Joden' of 'van het Joden', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de Joden",
+      "location": "hoofdtekst",
+      "id": "MAT-2-2-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] MRK 15:26 ('DE KONING DER JODEN'): titulus crucis — Gr. ὁ βασιλεὺς τῶν Ἰουδαίων als opschrift op kruis. Per AGENTS.md §concordantie en MODERNISATIE.md §2.7 een gestolde historische realie (inscriptie); concordant met LUK 23:38 'KONING DER JODEN', JOH 19:19 'JEZUS DE NAZARENER, KONING DER JODEN'. NBV21/HSV behouden de inscriptie-formule. 'Van de JODEN' breekt historische epigrafische concordantie binnen v26-context (kruisopschrift).",
+      "verified_at": "2026-06-02T13:21:42+00:00"
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 6,
+      "severity": "soft",
+      "quote_modernized": "  En u, Betlehem, u land Juda, bent geenszins de minste onder de   Vorsten v…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'geenszins' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "MAT-2-6-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'geenszins' rendert οὐ μή (dubbele ontkenning, emfatisch). Productief in modern formeel/juridisch Nederlands ('geenszins akkoord', 'geenszins toegestaan'). MODERNISATIE.md §2.7 productiviteitstest slaagt; modern equivalent 'beslist niet' verzwakt de Griekse nadrukkelijke ontkenning.",
+      "verified_at": "2026-06-02T13:21:42+00:00"
+    },
+    {
+      "category": "voornaamwoordelijk bijwoord gesplitst",
+      "verse": 23,
+      "severity": "hard",
+      "quote_modernized": "…t ziet ofwel op de plaats $Ri. 13:5,7$, waar van Simson als een voorbeeld van Ch…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'waar van' — SV-gesplitst voornaamwoordelijk bijwoord. Modern Nederlands voegt samen: 'waarvan' (bv. daarin, waarmee, hierop).",
+      "proposed_fix": "waarvan",
+      "location": "kanttekening",
+      "id": "MAT-2-23-001",
+      "status": "verified",
+      "verified_at": "2026-06-02T13:21:42+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 2,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'seggend' in 5 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 5 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        2,
+        13,
+        15,
+        17,
+        20
+      ],
+      "id": "MAT-2-2-002",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] v15 'zei' (Gr. διεστέλλετο impf.med.3sg, hier 'gebood'/'beval') is in deze context bewust gerenderd als 'zei' om consistente directe-rede-introductie te bewaren binnen het hoofdstuk (v12, v17 idem). De scanner vergelijkt SV-stam 'seyd' met moderne 'zei' en mist s→z-overgang. Geen drift; HSV gebruikt eveneens 'zei' op deze plaats.",
+      "verified_at": "2026-06-02T13:21:42+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 2,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'gekomen' in 4 verzen — verzen [21] renderen het stam anders dan [2, 11, 23]",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 4 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        2,
+        11,
+        21,
+        23
+      ],
+      "id": "MAT-2-2-003",
+      "status": "verified",
+      "rebuttal": "Geen concordantie-drift: MAT 2:21 heeft Grieks ἦλθεν (finiet 'kwam'), niet ἐλθών/ἐλθόντες als in v11 en v23. MODERNISATIE.md §2.3 vereist juist dat participia als 'gekomen zijnde' worden ontvouwd, terwijl het finiete werkwoord in v21 idiomatisch 'kwam' blijft; v2 'zijn gekomen' heeft weer een ander predicatief kader.",
+      "verified_at": "2026-06-02T13:21:42+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 3,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'hebbend' in 5 verzen — verzen [3, 4, 9, 16] renderen het stam anders dan [11]",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 5 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        3,
+        4,
+        9,
+        11,
+        16
+      ],
+      "id": "MAT-2-3-001",
+      "status": "verified",
+      "rebuttal": "De scanner ziet alleen de SV-hulpvorm 'hebbende', maar in v3, v4, v9, v11 en v16 gaat het om verschillende Griekse participia (ἀκούσας, συναγαγών, ἀκούσαντες, ἀνοίξαντες, ἀποστείλας). MODERNISATIE.md §2.3 schrijft ontvouwing naar moderne bijzinnen voor; daardoor varieert 'had/hadden' naar persoon, getal en zinsfunctie zonder lexicale drift.",
+      "verified_at": "2026-06-02T13:21:42+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 7,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'neerste' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        7,
+        8,
+        16
+      ],
+      "id": "MAT-2-7-001",
+      "status": "verified",
+      "rebuttal": "Geen drift maar bewuste lexicalisering: de SV-stam 'neerstelick' in v7/v16 correspondeert met Grieks ἠκρίβωσε, en v8 met de opdracht hetzelfde nauwkeurige onderzoek te doen. MODERNISATIE.md §2.7 laat de archaïsche vorm vervangen; 'nauwkeurig' is in alle drie verzen consequent behouden.",
+      "verified_at": "2026-06-02T13:21:42+00:00"
+    }
+  ]
+}
