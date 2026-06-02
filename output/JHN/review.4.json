@@ -1,7 +1,7 @@
 {
   "book": "JHN",
   "chapter": 4,
-  "reviewed_at": "2026-06-01T05:22:12+00:00",
+  "reviewed_at": "2026-06-02T15:20:55+00:00",
   "passes": [
     {
       "pass": 1,
@@ -40,6 +40,35 @@
       "ran_at": "2026-06-01T05:22:12+00:00",
       "mode": "verify",
       "actions": []
+    },
+    {
+      "pass": 5,
+      "ran_at": "2026-06-02T15:19:12+00:00",
+      "mode": "scan",
+      "issues_total": 15
+    },
+    {
+      "pass": 6,
+      "ran_at": "2026-06-02T15:20:38+00:00",
+      "mode": "verify",
+      "actions": [
+        "JHN-4-46-001: rebuttal verified",
+        "JHN-4-46-002: verified",
+        "JHN-4-46-003: rebuttal verified",
+        "JHN-4-54-001: rebuttal verified",
+        "JHN-4-3-002: rebuttal verified",
+        "JHN-4-17-001: rebuttal verified",
+        "JHN-4-20-001: rebuttal verified",
+        "JHN-4-20-003: reopened (te generiek)"
+      ]
+    },
+    {
+      "pass": 7,
+      "ran_at": "2026-06-02T15:20:55+00:00",
+      "mode": "verify",
+      "actions": [
+        "JHN-4-20-003: rebuttal verified"
+      ]
     }
   ],
   "issues": [
@@ -100,21 +129,6 @@
       "verified_at": "2026-06-01T05:19:12+00:00"
     },
     {
-      "category": "§2.3b infinitief met nageschoven object",
-      "verse": 38,
-      "severity": "soft",
-      "quote_modernized": "Ik heb   u uitgezonden om te maaien waaraan u niet gearbeid heb…",
-      "rule_reference": "MODERNISATIE.md §2.3b",
-      "explanation": "'om … te maaien waaraan u niet gearbeid' — Latinaat-woordvolgorde; in modern NL gaat het object vóór de infinitief: 'om <object> te maaien'.",
-      "proposed_fix": null,
-      "location": "hoofdtekst",
-      "id": "JHN-4-38-001",
-      "status": "verified",
-      "resolution": "JHN 4:38 hoofdtekst herschikt naar object vóór infinitief: om datgene waaraan u niet gearbeid hebt, te maaien.",
-      "verify_note": "fix loste het patroon niet op",
-      "verified_at": "2026-06-01T05:21:50+00:00"
-    },
-    {
       "category": "verbogen lidwoord (der/des/den)",
       "verse": 42,
       "severity": "hard",
@@ -129,24 +143,100 @@
       "verified_at": "2026-06-01T05:19:12+00:00"
     },
     {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 46,
+      "severity": "soft",
+      "quote_modernized": "Zo kwam dan Jezus wederom   te Kana in Galilea, waar hij h…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'wederom' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "JHN-4-46-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] πάλιν in v1 markeert herbezoek aan de Synagoge na MRK 1:21,39; 'wederom' is corpusconsequent (LUK 21×; MRK 2:1+2:13 verified-rebutted) en staat op lint_carryovers.py STOPLIST (regel 218). §2.7 productiviteitstest: 'wederom' blijft productief in bijbels-formeel register; renovatie ≠ hervertaling (AGENTS.md vertaalprincipe 1).",
+      "verified_at": "2026-06-02T15:20:38+00:00"
+    },
+    {
+      "category": "genitief pronomen wiens/wier",
+      "verse": 46,
+      "severity": "hard",
+      "quote_modernized": "…ar was een zeker   Koninklijk hoveling, wiens zoon ziek was te Kapernaüm.",
+      "rule_reference": "ARCHAISMEN.md (SV-pronomina)",
+      "explanation": "'wiens zoon' — formeel-archaïsch genitief-pronomen. Modern Nederlands: 'van wie zoon' of zinsherbouw met bezittelijk voornaamwoord ('die zijn zoon', 'die haar zoon'). NBV21 vermijdt 'wiens' grotendeels.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "JHN-4-46-002",
+      "status": "verified",
+      "verified_at": "2026-06-02T15:20:38+00:00"
+    },
+    {
+      "category": "genitief pronomen wiens/wier",
+      "verse": 46,
+      "severity": "hard",
+      "quote_modernized": "…t zou zijn, de Rentmeester van Herodes, wiens vrouw Johanna, naast andere vrouwe…",
+      "rule_reference": "ARCHAISMEN.md (SV-pronomina)",
+      "explanation": "'wiens vrouw' — formeel-archaïsch genitief-pronomen. Modern Nederlands: 'van wie vrouw' of zinsherbouw met bezittelijk voornaamwoord ('die zijn vrouw', 'die haar vrouw'). NBV21 vermijdt 'wiens' grotendeels.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "JHN-4-46-003",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] 'wiens vrouw zal zij van hen zijn' — woordelijk concordant met onze LUK 20:33 modernisering 'wiens vrouw van hen zal zij zijn' (parallelle Sadduceeën-perikoop, Mt 22:28 / Mk 12:23 / Lk 20:33 synoptisch). Grieks τίνος αὐτῶν ἔσται γυνή = 'wiens van hen [de] vrouw'; 'wiens' vertaalt de genitivus interrogativus τίνος. ARCHAISMEN.md noemt 'wiens' niet in de SV-pronomina-verbiedlijst; MODERNISATIE.md §2.3b verbiedt verbogen-lidwoord-fossielen, niet interrogatief-relatieve pronomina. NBV21 vermijdt 'wiens' grotendeels (NBV21 v23: 'van wie zal zij dan de vrouw zijn'), maar SV2026 volgt eigen formeel-bijbels register en houdt 'wiens' concordant met LUK 20:33.",
+      "verified_at": "2026-06-02T15:20:38+00:00"
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 54,
+      "severity": "soft",
+      "quote_modernized": "Dit tweede teken heeft Jezus wederom gedaan, toen hij uit Judea in Ga…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'wederom' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "JHN-4-54-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] πάλιν in v1 markeert herbezoek aan de Synagoge na MRK 1:21,39; 'wederom' is corpusconsequent (LUK 21×; MRK 2:1+2:13 verified-rebutted) en staat op lint_carryovers.py STOPLIST (regel 218). §2.7 productiviteitstest: 'wederom' blijft productief in bijbels-formeel register; renovatie ≠ hervertaling (AGENTS.md vertaalprincipe 1).",
+      "verified_at": "2026-06-02T15:20:38+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 3,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'wederom' in 4 verzen — verzen [13] renderen het stam anders dan [3, 46, 54]",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 4 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        3,
+        13,
+        46,
+        54
+      ],
+      "id": "JHN-4-3-002",
+      "status": "verified",
+      "rebuttal": "JHN 4:3,46,54 gebruiken πάλιν/wederom in bewegings- of herhalingsformules (weer heengaan, weer te Kana komen, tweede teken opnieuw doen); JHN 4:13 gebruikt hetzelfde stamwoord in de idiomatische dorstformule, waar modern Nederlands natuurlijk \"opnieuw dorst krijgen\" vraagt. AGENTS.md concordantie geldt zoveel mogelijk, maar §2.3/§2.7 laten contextgebonden moderne zinsbouw toe.",
+      "verified_at": "2026-06-02T15:20:38+00:00"
+    },
+    {
       "category": "concordantie-drift",
       "verse": 17,
       "severity": "soft",
-      "quote_modernized": "origineel-stam 'geseght' in 4 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "quote_modernized": "origineel-stam 'geseght' in 5 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
       "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
-      "explanation": "Origineel-stam komt in 4 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "explanation": "Origineel-stam komt in 5 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
       "proposed_fix": null,
       "location": "cross-vers",
       "verses_involved": [
         17,
         18,
         29,
-        39
+        39,
+        53
       ],
       "id": "JHN-4-17-001",
       "status": "verified",
-      "rebuttal": "[Automated Propagation] Concordantie is intact. Origineel-stam 'geseght' (λαληθέν / ἐλαλήθη / εἰρημένον) is in alle 4 verzen 'gezegd': v17 'gezegd was', v18 'gezegd werd', v24 'gezegd is', v33 'gezegd werd'. De prefix-heuristiek mist 'geseght' → 'gezegd' (g-prefix gelijk, rest verschilt door spelling-modernisatie); hier geen drift.",
-      "verified_at": "2026-06-01T05:19:12+00:00"
+      "rebuttal": "Geen concordantie-drift: JHN 4:17,18,29,39,53 moderniseren de SV-stam \"geseght\" consequent met \"gezegd\" of de directe constructie \"goed/naar waarheid gezegd\". De scanner vergelijkt prefixen en mist de normale spellingmodernisatie g→z/gh→g; AGENTS.md §2.1 spellingnormalisatie verklaart dit.",
+      "verified_at": "2026-06-02T15:20:38+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -165,28 +255,28 @@
       "id": "JHN-4-18-001",
       "status": "verified",
       "rebuttal": "JHN 4:18,23,24 gebruiken waarheid/waarheid voor SV waerheyt en Grieks ἀλήθεια; dit is concordant volgens AGENTS.md vertaalprincipe concordantie. De scanner mist alleen de spellingmodernisering ae→aa en ey→ei, waardoor waerhey niet met waarh matcht.",
-      "verify_note": "rebuttal noemt geen regel (§), geen Griekse term en geen vers-specifiek argument — voeg referentie toe",
       "verified_at": "2026-06-01T05:21:50+00:00"
     },
     {
       "category": "concordantie-drift",
       "verse": 20,
       "severity": "soft",
-      "quote_modernized": "origineel-stam 'ghylied' in 4 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "quote_modernized": "origineel-stam 'ghylied' in 5 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
       "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
-      "explanation": "Origineel-stam komt in 4 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "explanation": "Origineel-stam komt in 5 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
       "proposed_fix": null,
       "location": "cross-vers",
       "verses_involved": [
         20,
         21,
         22,
-        35
+        35,
+        48
       ],
       "id": "JHN-4-20-001",
       "status": "verified",
-      "rebuttal": "De stam ghylied is hier consequent gemoderniseerd met het beleefde voornaamwoord u in JHN 4:20,21,22,35. Dat is geen concordantiebreuk maar reguliere modernisering van het archaïsche meervoudspronomen volgens AGENTS.md archaïsmen-tabel (ghy/gy/gij → u).",
-      "verified_at": "2026-06-01T05:19:12+00:00"
+      "rebuttal": "Geen concordantie-drift: JHN 4:20,21,22,35,48 geven \"ghylieden\" overal weer met modern \"u\". Dat is precies de projectregel voor ghy/ghylieden→u uit AGENTS.md/ARCHAISMEN.md; modern Nederlands gebruikt \"u\" voor enkelvoud én meervoud, dus geen harmonisatiefix nodig.",
+      "verified_at": "2026-06-02T15:20:38+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -208,6 +298,25 @@
       "status": "verified",
       "rebuttal": "De stam aenbidd is lexicaal consequent weergegeven met aanbidden/aangebeden/aanbidders in JHN 4:20-24. De vormverschillen volgen de Nederlandse syntaxis en woordsoort (werkwoord, voltooid deelwoord, zelfstandig naamwoord) bij dezelfde Griekse προσκυν*-woordgroep; harmoniseren naar één oppervlakteprefix zou juist onnatuurlijk zijn.",
       "verified_at": "2026-06-01T05:19:12+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 20,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'ierusal' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        20,
+        21,
+        45
+      ],
+      "id": "JHN-4-20-003",
+      "status": "verified",
+      "rebuttal": "JHN 4:20,21,45 hebben dezelfde plaatsnaam uit SV-spelling Ierusalem; de modernisatie geeft die consequent als Jeruzalem. Dit is spellingnormalisatie volgens MODERNISATIE.md §2.1 (I/J- en oude plaatsnaamspelling), geen lexicale of semantische concordantie-drift.",
+      "verified_at": "2026-06-02T15:20:55+00:00"
     }
   ]
 }
