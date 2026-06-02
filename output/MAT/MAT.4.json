@@ -196,6 +196,39 @@
       "generated_at": "2026-06-02T21:07:55.005608Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 22,
+      "original": "Sy dan terstont verlatende het schip, ende haren vader, zijn hem nagevolght.",
+      "modernized": "Zij dan verlieten meteen het schip en hun vader, en zijn hem gevolgd.",
+      "source_text": "οἱ δὲ εὐθέως ἀφέντες τὸ πλοῖον καὶ τὸν πατέρα αὐτῶν ἠκολούθησαν αὐτῷ.",
+      "generated_at": "2026-06-02T21:11:58.131138Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 23,
+      "original": "Ende Iesus ommegingh geheel Galileen, leerende in hare <Dit waren plaetsen of gebouwen, in dewelcke in alle steden de vergaderingen der Ioden wierden gehouden, ende de wet Mosis op alle Sabbathen voorgelesen ende verklaert. siet Actor. 15.21.> Synagogen, ende predikende het Euangelium des Koninckrijcks, ende genesende <D. allerley quale ofte swackheyt, weeckelickheyt.> alle sieckte ende alle quale, onder den volcke.",
+      "modernized": "En Jezus trok rond door heel Galilea, onderwees in hun <Dit waren plaatsen of gebouwen, waarin in alle steden de vergaderingen van de Joden werden gehouden, en de wet van Mozes op alle Sabbatten werd voorgelezen en verklaard. Zie $Hd. 15:21$.> Synagogen, predikte het Evangelie van het Koninkrijk en genas <dat is, allerlei kwaal of zwakheid, krachteloosheid.> alle ziekte en alle kwaal onder het volk.",
+      "source_text": "Καὶ περιῆγεν ὅλην τὴν Γαλιλαίαν ὁ Ἰησοῦς, διδάσκων ἐν ταῖς συναγωγαῖς αὐτῶν, καὶ κηρύσσων τὸ εὐαγγέλιον τῆς βασιλείας, καὶ θεραπεύων πᾶσαν νόσον καὶ πᾶσαν μαλακίαν ἐν τῷ λαῷ.",
+      "generated_at": "2026-06-02T21:13:45.128686Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "message": "HSV-spiegel/false friend: 'leerde' bij SV 'leerende' en Grieks didaskon gemoderniseerd naar 'onderwees', omdat modern 'leerde in' als zelf leren kan lezen."
+        }
+      ]
+    },
+    {
+      "verse_number": 24,
+      "original": "Ende sijn geruchte gingh [van daer] uyt in geheel Syrien: ende sy brachten tot hem alle die qualick gestelt waren, met verscheyden sieckten ende <D. soodanige sieckten, die de menschen grooten weedom aen doen, ende gelijck als pijnigen.> pijnen bevangen zijnde, ende van den duyvel beseten, ende <Dese schijnen te zijn de gene die de vallende sieckte hebben, gelijck naerder blijckt uyt Matth. cap. 17. vers 15.> maensiecke, ende <Ofte, lamme, beroerde.> geraeckte, ende hy genas deselve.",
+      "modernized": "En het bericht over hem ging [vandaar] uit in heel Syrië; en zij brachten tot hem allen die er slecht aan toe waren, door verschillende ziekten en <dat is, zodanige ziekten die de mensen grote pijn aandoen en als het ware pijnigen.> pijnen bevangen, en door de duivel bezetenen, en <Deze schijnen degenen te zijn die de vallende ziekte hebben, zoals nader blijkt uit $Mt. 17:15$.> maanzieken, en <Of, verlamden, beroerden.> verlamden; en hij genas hen.",
+      "source_text": "καὶ ἀπῆλθεν ἡ ἀκοὴ αὐτοῦ εἰς ὅλην τὴν Συρίαν· καὶ προσήνεγκαν αὐτῷ πάντας τοὺς κακῶς ἔχοντας, ποικίλαις νόσοις καὶ βασάνοις συνεχομένους, καὶ δαιμονιζομένους, καὶ σεληνιαζομένους, καὶ παραλυτικούς· καὶ ἐθεράπευσεν αὐτούς.",
+      "generated_at": "2026-06-02T21:14:25.106817Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
