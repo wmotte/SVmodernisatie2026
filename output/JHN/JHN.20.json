@@ -97,6 +97,33 @@
       "generated_at": "2026-06-02T06:18:19.398224Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 10,
+      "original": "De discipelen dan gingen wederom <Gr. tot haer selven, D. tot den haren, namelick, daer de discipelen vergadert waren, als blijckt vers 19.> na huys.",
+      "modernized": "De discipelen dan gingen weer <Grieks: tot zichzelf, dat is, tot de hunnen, namelijk, waar de discipelen vergaderd waren, zoals blijkt uit vers 19.> naar huis.",
+      "source_text": "ἀπῆλθον οὖν πάλιν πρὸς ἑαυτοὺς οἱ μαθηταί.",
+      "generated_at": "2026-06-02T06:23:56.713030Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 11,
+      "original": "$Matth. 28.1. Marc. 16.5. Luce 24.4.$ Ende <Namelick, tot het graf weder gekeert zijnde met de andere vrouwen, den welcken alle gesamentlick de verschijninge der Engelen is geschiet, Matth. c. 28. vers 5. Marc. c. 16. vers 5. Luce 24.4.> Maria stont buyten by het graf, weenende. Als sy dan weende, buckte sy in het graf.",
+      "modernized": "$Mt. 28:1; Mk. 16:5; Lk. 24:4$ En <Namelijk, toen zij met de andere vrouwen naar het graf teruggekeerd was, bij wie allen gezamenlijk de verschijning van de Engelen plaatsvond, $Mt. 28:5; Mk. 16:5; Lk. 24:4$.> Maria stond buiten bij het graf te huilen. Toen zij dan huilde, boog zij zich voorover in het graf.",
+      "source_text": "Μαρία δὲ εἱστήκει πρὸς τὸ μνημεῖον κλαίουσα ἔξω· ὡς οὖν ἔκλαιε, παρέκυψεν εἰς τὸ μνημεῖον,",
+      "generated_at": "2026-06-02T06:24:38.768095Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 12,
+      "original": "Ende sagh <Mattheus ende Marcus seggen maer van eenen, om dat een het woort heeft gevoert.> twee Engelen in witte [kleederen] sitten, eenen aen <D. hooft-ende, daer het hooft gelegen hadde.> het hooft, ende eenen aen de voeten, daer het lichaem Iesu gelegen hadde.",
+      "modernized": "En zag <Mattheüs en Marcus zeggen maar van één, omdat één het woord heeft gevoerd.> twee Engelen in witte [kleren] zitten, één aan <Dat is, hoofdeinde, waar het hoofd gelegen had.> het hoofd en één aan de voeten, waar het lichaam van Jezus gelegen had.",
+      "source_text": "καὶ θεωρεῖ δύο ἀγγέλους ἐν λευκοῖς καθεζομένους, ἕνα πρὸς τῇ κεφαλῇ, καὶ ἕνα πρὸς τοῖς ποσίν, ὅπου ἔκειτο τὸ σῶμα τοῦ Ἰησοῦ.",
+      "generated_at": "2026-06-02T06:25:08.537454Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
