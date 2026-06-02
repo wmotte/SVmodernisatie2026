@@ -1,13 +1,36 @@
 {
   "book": "JHN",
   "chapter": 19,
-  "reviewed_at": "2026-06-02T07:39:31+00:00",
+  "reviewed_at": "2026-06-02T07:44:44+00:00",
   "passes": [
     {
       "pass": 1,
       "ran_at": "2026-06-02T07:39:31+00:00",
       "mode": "scan",
       "issues_total": 16
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-06-02T07:44:44+00:00",
+      "mode": "verify",
+      "actions": [
+        "JHN-19-3-001: rebuttal verified",
+        "JHN-19-11-001: rebuttal verified",
+        "JHN-19-12-001: rebuttal verified",
+        "JHN-19-12-002: verified",
+        "JHN-19-12-003: verified",
+        "JHN-19-13-001: rebuttal verified",
+        "JHN-19-14-001: reopened (patroon nog aanwezig)",
+        "JHN-19-16-001: verified",
+        "JHN-19-17-001: rebuttal verified",
+        "JHN-19-19-001: rebuttal verified",
+        "JHN-19-21-001: rebuttal verified",
+        "JHN-19-21-002: rebuttal verified",
+        "JHN-19-36-001: rebuttal verified",
+        "JHN-19-37-001: rebuttal verified",
+        "JHN-19-37-002: verified",
+        "JHN-19-4-001: rebuttal verified"
+      ]
     }
   ],
   "issues": [
@@ -21,8 +44,9 @@
       "proposed_fix": "van de Joden",
       "location": "hoofdtekst",
       "id": "JHN-19-3-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] MRK 15:26 ('DE KONING DER JODEN'): titulus crucis — Gr. ὁ βασιλεὺς τῶν Ἰουδαίων als opschrift op kruis. Per AGENTS.md §concordantie en MODERNISATIE.md §2.7 een gestolde historische realie (inscriptie); concordant met LUK 23:38 'KONING DER JODEN', JOH 19:19 'JEZUS DE NAZARENER, KONING DER JODEN'. NBV21/HSV behouden de inscriptie-formule. 'Van de JODEN' breekt historische epigrafische concordantie binnen v26-context (kruisopschrift)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] MRK 15:26 ('DE KONING DER JODEN'): titulus crucis — Gr. ὁ βασιλεὺς τῶν Ἰουδαίων als opschrift op kruis. Per AGENTS.md §concordantie en MODERNISATIE.md §2.7 een gestolde historische realie (inscriptie); concordant met LUK 23:38 'KONING DER JODEN', JOH 19:19 'JEZUS DE NAZARENER, KONING DER JODEN'. NBV21/HSV behouden de inscriptie-formule. 'Van de JODEN' breekt historische epigrafische concordantie binnen v26-context (kruisopschrift).",
+      "verified_at": "2026-06-02T07:44:44+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -34,8 +58,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "JHN-19-11-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-06-02T07:44:44+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -47,8 +72,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "JHN-19-12-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-06-02T07:44:44+00:00"
     },
     {
       "category": "genitief pronomen wiens/wier",
@@ -60,8 +86,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "JHN-19-12-002",
-      "status": "fixed",
-      "fix_note": "Kanttekening herschreven naar 'van wie u toch Stadhouder bent'; archaïsch 'wiens' verwijderd."
+      "status": "verified",
+      "fix_note": "Kanttekening herschreven naar 'van wie u toch Stadhouder bent'; archaïsch 'wiens' verwijderd.",
+      "verified_at": "2026-06-02T07:44:44+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -73,8 +100,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "JHN-19-12-003",
-      "status": "fixed",
-      "fix_note": "Kanttekening herschreven zonder woordelijke herhaling 'u de vriend van'; betekenis weergegeven als keizerlijke gunst behouden."
+      "status": "verified",
+      "fix_note": "Kanttekening herschreven zonder woordelijke herhaling 'u de vriend van'; betekenis weergegeven als keizerlijke gunst behouden.",
+      "verified_at": "2026-06-02T07:44:44+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -86,8 +114,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "JHN-19-13-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-06-02T07:44:44+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -100,7 +129,7 @@
       "location": "kanttekening",
       "id": "JHN-19-14-001",
       "status": "fixed",
-      "fix_note": "Kanttekeningformulering gewijzigd van 'omtrent het zesde uur was' naar 'tegen het zesde uur liep'."
+      "fix_note": "Kanttekeningformulering sterker ont-dubbeld: hoofdherhaling vervangen door 'tegen het zesde uur liep', 'het derde deel naar zes uur' en 'aangeduid als zes uur'."
     },
     {
       "category": "SV-verbuiging (demonstratief dezer/dien/...)",
@@ -112,8 +141,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "JHN-19-16-001",
-      "status": "fixed",
-      "fix_note": "Verbogen demonstratief 'dezen' vervangen door modern en expliciet 'die soldaten'."
+      "status": "verified",
+      "fix_note": "Verbogen demonstratief 'dezen' vervangen door modern en expliciet 'die soldaten'.",
+      "verified_at": "2026-06-02T07:44:44+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -125,8 +155,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "JHN-19-17-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-06-02T07:44:44+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -138,8 +169,9 @@
       "proposed_fix": "van de JODEN",
       "location": "hoofdtekst",
       "id": "JHN-19-19-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] MRK 15:26 ('DE KONING DER JODEN'): titulus crucis — Gr. ὁ βασιλεὺς τῶν Ἰουδαίων als opschrift op kruis. Per AGENTS.md §concordantie en MODERNISATIE.md §2.7 een gestolde historische realie (inscriptie); concordant met LUK 23:38 'KONING DER JODEN', JOH 19:19 'JEZUS DE NAZARENER, KONING DER JODEN'. NBV21/HSV behouden de inscriptie-formule. 'Van de JODEN' breekt historische epigrafische concordantie binnen v26-context (kruisopschrift)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] MRK 15:26 ('DE KONING DER JODEN'): titulus crucis — Gr. ὁ βασιλεὺς τῶν Ἰουδαίων als opschrift op kruis. Per AGENTS.md §concordantie en MODERNISATIE.md §2.7 een gestolde historische realie (inscriptie); concordant met LUK 23:38 'KONING DER JODEN', JOH 19:19 'JEZUS DE NAZARENER, KONING DER JODEN'. NBV21/HSV behouden de inscriptie-formule. 'Van de JODEN' breekt historische epigrafische concordantie binnen v26-context (kruisopschrift).",
+      "verified_at": "2026-06-02T07:44:44+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -151,8 +183,9 @@
       "proposed_fix": "van de Joden",
       "location": "hoofdtekst",
       "id": "JHN-19-21-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] MRK 15:26 ('DE KONING DER JODEN'): titulus crucis — Gr. ὁ βασιλεὺς τῶν Ἰουδαίων als opschrift op kruis. Per AGENTS.md §concordantie en MODERNISATIE.md §2.7 een gestolde historische realie (inscriptie); concordant met LUK 23:38 'KONING DER JODEN', JOH 19:19 'JEZUS DE NAZARENER, KONING DER JODEN'. NBV21/HSV behouden de inscriptie-formule. 'Van de JODEN' breekt historische epigrafische concordantie binnen v26-context (kruisopschrift)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] MRK 15:26 ('DE KONING DER JODEN'): titulus crucis — Gr. ὁ βασιλεὺς τῶν Ἰουδαίων als opschrift op kruis. Per AGENTS.md §concordantie en MODERNISATIE.md §2.7 een gestolde historische realie (inscriptie); concordant met LUK 23:38 'KONING DER JODEN', JOH 19:19 'JEZUS DE NAZARENER, KONING DER JODEN'. NBV21/HSV behouden de inscriptie-formule. 'Van de JODEN' breekt historische epigrafische concordantie binnen v26-context (kruisopschrift).",
+      "verified_at": "2026-06-02T07:44:44+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -164,8 +197,9 @@
       "proposed_fix": "van de Joden",
       "location": "hoofdtekst",
       "id": "JHN-19-21-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] MRK 15:26 ('DE KONING DER JODEN'): titulus crucis — Gr. ὁ βασιλεὺς τῶν Ἰουδαίων als opschrift op kruis. Per AGENTS.md §concordantie en MODERNISATIE.md §2.7 een gestolde historische realie (inscriptie); concordant met LUK 23:38 'KONING DER JODEN', JOH 19:19 'JEZUS DE NAZARENER, KONING DER JODEN'. NBV21/HSV behouden de inscriptie-formule. 'Van de JODEN' breekt historische epigrafische concordantie binnen v26-context (kruisopschrift)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] MRK 15:26 ('DE KONING DER JODEN'): titulus crucis — Gr. ὁ βασιλεὺς τῶν Ἰουδαίων als opschrift op kruis. Per AGENTS.md §concordantie en MODERNISATIE.md §2.7 een gestolde historische realie (inscriptie); concordant met LUK 23:38 'KONING DER JODEN', JOH 19:19 'JEZUS DE NAZARENER, KONING DER JODEN'. NBV21/HSV behouden de inscriptie-formule. 'Van de JODEN' breekt historische epigrafische concordantie binnen v26-context (kruisopschrift).",
+      "verified_at": "2026-06-02T07:44:44+00:00"
     },
     {
       "category": "voornaamwoordelijk bijwoord gesplitst",
@@ -177,8 +211,9 @@
       "proposed_fix": "hierin",
       "location": "kanttekening",
       "id": "JHN-19-36-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] In de kanttekening bij REV 21:24 ('dat zelfs de Koningen, die hier in grote heerlijkheid zijn geweest') is 'hier' een temporeel/locatief adverbium (= 'in dit aardse leven') en 'in grote heerlijkheid' een zelfstandige voorzetselgroep waarvan 'in' het zelfstandig naamwoord 'heerlijkheid' regeert. Samentrekken tot 'hierin grote heerlijkheid' is ongrammaticaal. Dit is geen pronominaal bijwoord (type 'daarin/hierin') maar 'hier' + volwaardige PP; ARCHAISMEN.md gesplitst-bijwoord is niet van toepassing."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] In de kanttekening bij REV 21:24 ('dat zelfs de Koningen, die hier in grote heerlijkheid zijn geweest') is 'hier' een temporeel/locatief adverbium (= 'in dit aardse leven') en 'in grote heerlijkheid' een zelfstandige voorzetselgroep waarvan 'in' het zelfstandig naamwoord 'heerlijkheid' regeert. Samentrekken tot 'hierin grote heerlijkheid' is ongrammaticaal. Dit is geen pronominaal bijwoord (type 'daarin/hierin') maar 'hier' + volwaardige PP; ARCHAISMEN.md gesplitst-bijwoord is niet van toepassing.",
+      "verified_at": "2026-06-02T07:44:44+00:00"
     },
     {
       "category": "reflexief hem/haar (→ zich)",
@@ -190,8 +225,9 @@
       "proposed_fix": "zich bekeerd",
       "location": "kanttekening",
       "id": "JHN-19-37-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] In vers 12 is 'tot hem bekeerd' geen reflexief object maar een voorzetselgroep: Paulus is door Christus aangegrepen en tot Christus bekeerd. ARCHAISMEN.md reflexief hem/haar -> zich is hier grammaticaal niet van toepassing."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] In vers 12 is 'tot hem bekeerd' geen reflexief object maar een voorzetselgroep: Paulus is door Christus aangegrepen en tot Christus bekeerd. ARCHAISMEN.md reflexief hem/haar -> zich is hier grammaticaal niet van toepassing.",
+      "verified_at": "2026-06-02T07:44:44+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -203,8 +239,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "JHN-19-37-002",
-      "status": "fixed",
-      "fix_note": "Alternatieve lezing in de kanttekening herformuleerd naar 'op hem die zij hebben doorstoken' zonder woordelijke herhaling."
+      "status": "verified",
+      "fix_note": "Alternatieve lezing in de kanttekening herformuleerd naar 'op hem die zij hebben doorstoken' zonder woordelijke herhaling.",
+      "verified_at": "2026-06-02T07:44:44+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -221,8 +258,9 @@
         37
       ],
       "id": "JHN-19-4-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Concordantie-drift 'wederom' is uniform gerenderd: v4/v12/v13 alle drie 'opnieuw'. Perfect concordant. Scanner-prefix-heuristiek (weder-) detecteert orthografische overgang weder→opnieuw niet. False-positive."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Concordantie-drift 'wederom' is uniform gerenderd: v4/v12/v13 alle drie 'opnieuw'. Perfect concordant. Scanner-prefix-heuristiek (weder-) detecteert orthografische overgang weder→opnieuw niet. False-positive.",
+      "verified_at": "2026-06-02T07:44:44+00:00"
     }
   ]
 }
