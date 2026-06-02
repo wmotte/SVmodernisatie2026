@@ -196,6 +196,45 @@
       "generated_at": "2026-06-02T21:12:30.890229Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 22,
+      "original": "Doch ick segge u: soo wie <Dat is, sonder oorsake, ofte te vergeefs.> t’onrecht op sijnen broeder toornigh is, die sal strafbaer zijn <Ofte, oordeel: waer door verstaen worden de Rechters, die in alle steden de dootslagers straften, Deuter. cap. 21.> door ’t gerichte. Ende wie tot sijnen broeder seght <Is een Syrisch smaetwoort, ende is soo veel te seggen als ydel ofte slechthooft. Andere meynen dat het van spouwen komt: Ende andere, dat daer mede uytgedruckt wort een geluyt dat de menschen dickwils maken, om daer mede hare gramschap, verachtinge ofte versmadinge tegen hare naesten te kennen te geven, gelijck men gemeynlick door foey u, ofte diergelijck, plagh te doen.> Raka, die sal strafbaer zijn door den <Dit was den hooghsten Raet binnen Ierusalem Sanhedrin genaemt, by den welcken stont het oordeel van de swaerste saken, ende daerom oock de schuldige tot de swaerste straffen verwees. Siet Deuter. cap. 17. ende 2.Paral. cap. 19.> grooten raet. Maer wie seght, Ghy dwaes, die sal strafbaer zijn door <Gr. tot, ofte, in de gehenne des vyers. Gehenna komt van de Hebreeusche woorden Ge Hinnom, Dat is, het dal Hinnom, gelegen by de stadt Ierusalem. Iosu. cap. 15. vers 8. in welck dal eertijts de afgodische Ioden hare kinderen tusschen de gloeijende armen des koperen beelts Moloch lieten levendigh verbranden. Siet Ierem. cap. 7. vers 31. 2.Reg. cap. 23. vers 10. het welck alsoo het een grouwelicke pijne was, soo wort dit woort dickwils voor de helsche pijne genomen. Door dese dootstraffen, waer van de eene swaerder is als de andere, toont Christus dat dese sonden alle de eeuwige verdoemenisse verdienen, doch dat de eene swaerder als de andere in het toekomende oordeel sal gestraft worden.> het helsche vyer.",
+      "modernized": "Maar ik zeg u: ieder die <Dat is, zonder oorzaak, of tevergeefs.> ten onrechte op zijn broeder toornig is, die zal strafbaar zijn <Of, oordeel: waardoor de Rechters bedoeld worden, die in alle steden de doodslagers straften, Deuteronomium hoofdstuk 21.> voor het gerecht. En wie tot zijn broeder zegt <Dit is een Syrisch smaadwoord, en betekent zoveel als ijdel of slecht hoofd. Anderen menen dat het van spuwen komt; en weer anderen, dat daarmee een geluid uitgedrukt wordt dat mensen dikwijls maken, om daarmee hun gramschap, verachting of versmading tegenover hun naasten te kennen te geven, zoals men gewoonlijk door foei u, of iets dergelijks, placht te doen.> Raka, die zal strafbaar zijn voor de <Dit was de hoogste Raad binnen Jeruzalem, Sanhedrin genoemd, bij wie het oordeel over de zwaarste zaken stond, en die daarom ook de schuldige tot de zwaarste straffen verwees. Zie Deuteronomium hoofdstuk 17 en 2 Kronieken hoofdstuk 19.> grote raad. Maar wie zegt: U dwaas, die zal strafbaar zijn tot <Grieks: tot, of, in de Gehenna van het vuur. Gehenna komt van de Hebreeuwse woorden Ge Hinnom, dat is, het dal Hinnom, gelegen bij de stad Jeruzalem. $Jz. 15:8$. In dat dal lieten vroeger de afgodische Joden hun kinderen tussen de gloeiende armen van het koperen beeld Moloch levend verbranden. Zie $Jr. 7:31; 2Kn. 23:10$. Omdat dit een gruwelijke pijn was, wordt dit woord dikwijls voor de helse pijn genomen. Door deze doodstraffen, waarvan de ene zwaarder is dan de andere, toont Christus dat deze zonden alle de eeuwige verdoemenis verdienen, maar dat de ene zwaarder dan de andere in het komende oordeel gestraft zal worden.> het helse vuur.",
+      "source_text": "ἐγὼ δὲ λέγω ὑμῖν ὅτι πᾶς ὁ ὀργιζόμενος τῷ ἀδελφῷ αὐτοῦ εἰκῆ ἔνοχος ἔσται τῇ κρίσει· ὃς δ’ ἂν εἴπῃ τῷ ἀδελφῷ αὐτοῦ, Ῥακά, ἔνοχος ἔσται τῷ συνεδρίῳ· ὃς δ’ ἂν εἴπῃ, Μωρέ, ἔνοχος ἔσται εἰς τὴν γέενναν τοῦ πυρός.",
+      "generated_at": "2026-06-02T21:18:41.282955Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "subject": "HSV-spiegel",
+          "context": "vers 22",
+          "choice": "`door het helse vuur` is gemoderniseerd naar `tot het helse vuur`.",
+          "alternatives": [
+            "`door het helse vuur` laten staan"
+          ],
+          "reason": "De HSV-spiegel bevestigt hier een taalkwestie: SV1657 en Grieks (eis) wijzen op richting/bestemming, terwijl `door het helse vuur` in modern Nederlands instrumenteel leest."
+        }
+      ]
+    },
+    {
+      "verse_number": 23,
+      "original": "Soo ghy dan uwe gave sult op den <Dit siet op den Godtsdienst des Ouden Testaments, maer wort oock mede verstaen van den Godtsdienst des Nieuwen Testaments, hoewel in deselve geen sulcke altaren ende offerhanden en zijn, Rom. cap. 12. vers 1. ende cap. 15. vers 16. Hebr. cap. 13. versen 15, 16. Philip. cap. 4. vers 18. Ofte, brengen tot den altaer.> altaer offeren, ende aldaer gedachtigh wort, dat uw’ broeder yet tegen u heeft,",
+      "modernized": "Als u dan uw gave op het <Dit ziet op de Godsdienst van het Oude Testament, maar wordt ook verstaan van de Godsdienst van het Nieuwe Testament, hoewel daarin geen zulke altaren en offeranden zijn, $Rm. 12:1; 15:16; Hb. 13:15,16; Fp. 4:18$. Of, brengen tot het altaar.> altaar zult offeren, en u daar te binnen schiet dat uw broeder iets tegen u heeft,",
+      "source_text": "ἐὰν οὖν προσφέρῃς τὸ δῶρόν σου ἐπὶ τὸ θυσιαστήριον, κἀκεῖ μνησθῇς ὅτι ὁ ἀδελφός σου ἔχει τι κατὰ σοῦ,",
+      "generated_at": "2026-06-02T21:19:19.724729Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 24,
+      "original": "Laet daer uwe gave voor den altaer, ende gaet henen, versoent u eerst met uwen broeder, ende komt dan, ende offert uwe gave.",
+      "modernized": "Laat daar uw gave voor het altaar, en ga heen, verzoen u eerst met uw broeder, en kom dan en offer uw gave.",
+      "source_text": "ἄφες ἐκεῖ τὸ δῶρόν σου ἔμπροσθεν τοῦ θυσιαστηρίου, καὶ ὕπαγε, πρῶτον διαλλάγηθι τῷ ἀδελφῷ σου, καὶ τότε ἐλθὼν πρόσφερε τὸ δῶρόν σου.",
+      "generated_at": "2026-06-02T21:19:43.884850Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
