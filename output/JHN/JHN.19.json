@@ -34,6 +34,45 @@
       "generated_at": "2026-06-02T05:49:29.692052Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 4,
+      "original": "Pilatus dan quam wederom <Gr. uyt buyten, gelijck oock in ’t vervolgh.> uyt, ende seyde tot haer, Siet, ick brenge hem tot u-lieden <Namelick, het Rechthuys.> uyt, op dat ghy wetet, dat ick in hem geen <Ofte, oorsake, Namel. des doots.> schult en vinde.",
+      "modernized": "Pilatus dan kwam weer <Grieks: naar buiten, zoals ook in het vervolg.> naar buiten, en zei tegen hen: Zie, ik breng hem tot u <Namelijk, het Rechthuis.> naar buiten, opdat u weet dat ik in hem geen <Of, oorzaak, Namelijk van de dood.> schuld vind.",
+      "source_text": "ἐξῆλθεν οὖν πάλιν ἔξω ὁ Πιλάτος, καὶ λέγει αὐτοῖς, Ἴδε, ἄγω ὑμῖν αὐτὸν ἔξω, ἵνα γνῶτε ὅτι ἐν αὐτῷ οὐδεμίαν αἰτίαν εὑρίσκω.",
+      "generated_at": "2026-06-02T05:54:56.617891Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 5,
+      "original": "Iesus dan quam uyt, dragende de doornen kroone, ende <Siet hier van de aenteeckeninge op Matth. 27.28.> het purperen kleet. Ende [Pilatus] seyde tot haer, <Namelick, hoe jammerlick hy mishandelt is: ende laet u daer mede genoegen, sonder voorder straffe over hem te begeeren.> Siet, de mensche.",
+      "modernized": "Jezus dan kwam naar buiten, terwijl hij de doornenkroon en <Zie hiervan de aantekening op $Mt. 27:28$.> het purperen kleed droeg. En [Pilatus] zei tegen hen: <Namelijk, hoe erbarmelijk hij mishandeld is; en laat u daarmee genoegen nemen, zonder verdere straf over hem te verlangen.> Zie, de mens.",
+      "source_text": "ἐξῆλθεν οὖν ὁ Ἰησοῦς ἔξω, φορῶν τὸν ἀκάνθινον στέφανον καὶ τὸ πορφυροῦν ἱμάτιον. καὶ λέγει αὐτοῖς, Ἴδε, ὁ ἄνθρωπος.",
+      "generated_at": "2026-06-02T05:55:33.692305Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 6,
+      "original": "Als hem dan de Overpriesters ende de dienaers sagen, riepen sy, seggende, Kruyst [hem,] kruyst [hem.] Pilatus seyde tot haer, Neemt ghylieden hem ende kruyst [hem.] Want ick en vinde in hem geen schult.",
+      "modernized": "Toen de Overpriesters en de dienaars hem dan zagen, riepen zij en zeiden: Kruisig [hem,] kruisig [hem.] Pilatus zei tegen hen: Neemt u hem en kruisig [hem.] Want ik vind in hem geen schuld.",
+      "source_text": "ὅτε οὖν εἶδον αὐτὸν οἱ ἀρχιερεῖς καὶ οἱ ὑπηρέται, ἐκραύγασαν λέγοντες, Σταύρωσον, σταύρωσον. λέγει αὐτοῖς ὁ Πιλάτος, Λάβετε αὐτὸν ὑμεῖς καὶ σταυρώσατε· ἐγὼ γὰρ οὐχ εὑρίσκω ἐν αὐτῷ αἰτίαν.",
+      "generated_at": "2026-06-02T05:56:02.192902Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "pluralis-imperatief kruisigt",
+          "context": "hoofdtekst",
+          "choice": "kruisig [hem.]",
+          "alternatives": [
+            "kruisigt [hem.]"
+          ],
+          "reason": "HSV-spiegel bevestigde dat de SV/Griekse imperatief hier zonder inhoudsverlies met modern Nederlands kruisig kan worden weergegeven; de t-vorm is een drempel-archaïsme binnen MODERNISATIE.md par. 2.7."
+        }
+      ]
     }
   ]
 }
