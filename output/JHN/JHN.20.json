@@ -1,0 +1,48 @@
+{
+  "book": "JOHA",
+  "chapter": 20,
+  "introduction": {
+    "original": "1 Maria Magdalene gaet na het graf, het welck sy ledigh vindt, ende boodtschapt sulcks Petro ende Ioanni. 3 die beyde na ’t graf loopen, ende het alsoo bevinden. 11 Maria siet in ’t graf twee Engelen. 14 Christus verschijnt haer selve, uyt wiens bevel sy den discipelen sijne opstandinge boodtschapt. 19 by welcke oock Christus selve des avonts verschijnt. 21 ende geeft haer den Heyligen Geest, ende macht om de sonden te vergeven, ende te houden. 24 Thomas daer by niet geweest zijnde en wil niet gelooven. 26 tot dat hy acht dagen daer na Christum selfs siet ende belijdt. 30 Ioannes verklaert waerom, uyt vele andere, dese teeckenen beschreven zijn.",
+    "modernized": "1 Maria Magdalena gaat naar het graf, dat zij leeg vindt, en bericht dit aan Petrus en Johannes. 3 Die beiden lopen naar het graf en bevinden het ook zo. 11 Maria ziet in het graf twee Engelen. 14 Christus verschijnt aan haarzelf, op wiens bevel zij de discipelen zijn opstanding bericht. 19 Bij wie ook Christus zelf ’s avonds verschijnt. 21 En hij geeft hun de Heilige Geest, en macht om de zonden te vergeven en te houden. 24 Thomas, die daar niet bij geweest is, wil het niet geloven. 26 Totdat hij acht dagen daarna Christus zelf ziet en belijdt. 30 Johannes verklaart waarom, uit vele andere, deze tekenen beschreven zijn.",
+    "generated_at": "2026-06-02T06:03:51.215596Z",
+    "model": "claude-opus-4-7[1m]"
+  },
+  "verses": [
+    {
+      "verse_number": 1,
+      "original": "$Matth. 28.1. Marc. 16.1. Luce. 24.1.$ ENde <Gr. op eenen der Sabbathen. Siet Matth. c. 28. vers 1. Marc. 16.2, 9. ende hier na vers 19.> op den eersten [dagh] der weke gingh <Ende noch eenige andere vrouwen met haer, Matth. 28.1. Luce 24.1, 10. dan het schijnt dat Maria Magdalene voor uyt is gegaen, ende eerst aen het graf gekomen.> Maria Magdalene <Siet d’aenteeck. op Marc. 16.2.> vroegh, als het noch duyster was, na het graf: ende sagh <Het welck van den Engel voor hare komste gedaen was, Matth. 28.2.> den steen van het graf wech genomen.",
+      "modernized": "$Mt. 28:1; Mk. 16:1; Lk. 24:1$ En <Grieks: op een van de Sabbatten. Zie $Mt. 28:1; Mk. 16:2,9$ en hierna vers 19.> op de eerste [dag] van de week ging <En nog enige andere vrouwen met haar, $Mt. 28:1; Lk. 24:1,10$, maar het schijnt dat Maria Magdalena vooruit is gegaan en eerst aan het graf gekomen.> Maria Magdalena <Zie de aantekening op $Mk. 16:2$.> vroeg, toen het nog donker was, naar het graf; en zag <Dat door de Engel voor haar komst gedaan was, $Mt. 28:2$.> dat de steen van het graf weggenomen was.",
+      "source_text": "Τῇ δὲ μιᾷ τῶν σαββάτων Μαρία ἡ Μαγδαληνὴ ἔρχεται πρωΐ, σκοτίας ἔτι οὔσης, εἰς τὸ μνημεῖον, καὶ βλέπει τὸν λίθον ἠρμένον ἐκ τοῦ μνημείου.",
+      "generated_at": "2026-06-02T06:03:35.296888Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "subject": "HSV-spiegel: τρέχει",
+          "context": "vers 2",
+          "choice": "'liep' gemoderniseerd als 'snelde'",
+          "reason": "HSV-spiegel en Grieks τρέχει bevestigen dat SV 'liep' hier beweging met snelheid aanduidt, niet gewoon wandelen."
+        }
+      ]
+    },
+    {
+      "verse_number": 2,
+      "original": "Sy liep dan, ende quam tot Simon Petrus ende tot den anderen discipel, $Ioan. 13.23. ende 21.7, 20.$ welcken Iesus lief hadde, ende seyde tot haer, Sy hebben den Heere <Dit seght sy, om dat sy noch van den Engel niet en was onderrecht van Christi opstandinge, dien sy daer na, zijnde weder gekeert, gesien heeft, vers 12.> wech genomen uyt het graf, ende <D. ick, ende de andere vrouwen die my gevolght zijn.> wy en weten niet waer sy hem geleght hebben.",
+      "modernized": "Zij snelde dan en kwam tot Simon Petrus en tot de andere discipel, $Jh. 13:23; 21:7,20$ die Jezus liefhad, en zei tot hen: Zij hebben de Heere <Dit zegt zij, omdat zij nog door de Engel niet onderricht was van Christus’ opstanding; hem heeft zij daarna, toen zij teruggekeerd was, gezien, vers 12.> weggenomen uit het graf, en <Dat is, ik en de andere vrouwen die mij gevolgd zijn.> wij weten niet waar zij hem gelegd hebben.",
+      "source_text": "τρέχει οὖν καὶ ἔρχεται πρὸς Σίμωνα Πέτρον καὶ πρὸς τὸν ἄλλον μαθητὴν ὃν ἐφίλει ὁ Ἰησοῦς, καὶ λέγει αὐτοῖς, Ἦραν τὸν Κύριον ἐκ τοῦ μνημείου, καὶ οὐκ οἴδαμεν ποῦ ἔθηκαν αὐτόν.",
+      "generated_at": "2026-06-02T06:04:23.684591Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 3,
+      "original": "$Luce 24.12.$ Petrus dan gingh uyt, ende de ander discipel, ende sy quamen tot het graf.",
+      "modernized": "$Lk. 24:12$ Petrus dan ging naar buiten, en de andere discipel ook, en zij kwamen bij het graf.",
+      "source_text": "ἐξῆλθεν οὖν ὁ Πέτρος καὶ ὁ ἄλλος μαθητής, καὶ ἤρχοντο εἰς τὸ μνημεῖον.",
+      "generated_at": "2026-06-02T06:04:49.725324Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    }
+  ]
+}
