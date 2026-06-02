@@ -247,6 +247,45 @@
       "generated_at": "2026-06-02T06:40:31.586454Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 25,
+      "original": "$Matth. 27.55. Marc. 15.40. Luce 23.49.$ Ende by ’t kruys Iesu stonden sijne moeder, ende sijns moeders suster, Maria <Die anders oock Cleophas genaemt wort, Luce 24. vers 18.> Clope <Ofte, dochter, want dat haer man Alpheus geweest is, blijckt Matth. 10.3. vergeleken met Matth. 27.56. ’t en ware dat Clopas, of Cleophas haer tweede man geweest ware, gelijck sommige meynen.> [wijf,] ende Maria Magdalene.",
+      "modernized": "$Mt. 27:55; Mk. 15:40; Lk. 23:49$ En bij het kruis van Jezus stonden zijn moeder, en de zuster van zijn moeder, Maria <Die anders ook Kleopas genoemd wordt, $Lk. 24:18$.> Klopas’ <Of, dochter, want dat haar man Alfeüs geweest is, blijkt uit $Mt. 10:3$, vergeleken met $Mt. 27:56$; tenzij Klopas, of Kleopas, haar tweede man geweest was, zoals sommigen menen.> [vrouw,] en Maria Magdalena.",
+      "source_text": "εἱστήκεισαν δὲ παρὰ τῷ σταυρῷ τοῦ Ἰησοῦ ἡ μήτηρ αὐτοῦ, καὶ ἡ ἀδελφὴ τῆς μητρὸς αὐτοῦ, Μαρία ἡ τοῦ Κλωπᾶ, καὶ Μαρία ἡ Μαγδαληνή.",
+      "generated_at": "2026-06-02T06:47:43.106123Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "bijbelverwijzing Luce 43.49",
+          "context": "hoofdreferentie",
+          "choice": "Lk. 23:49",
+          "alternatives": [
+            "Lk. 43:49"
+          ],
+          "reason": "Lukas heeft geen hoofdstuk 43; de parallelverwijzing bij het kruis en de HSV-spiegel wijzen op Lk. 23:49."
+        }
+      ]
+    },
+    {
+      "verse_number": 26,
+      "original": "Iesus nu siende [sijne] moeder, ende den discipel <D. Ioannes die hemselven alsoo plagh te beschrijven, gelijck blijckt Ioan. 13.23. vergeleken met Ioan. 21.20, 24.> dien hy lief hadde, daer by staende, seyde tot sijne moeder, Vrouwe, siet, <D. dese sal u zijn als een sone, om voor u sorge te dragen, ende u by te staen.> uw’ sone.",
+      "modernized": "Toen Jezus nu [zijn] moeder zag en de discipel <Dat is, Johannes, die zichzelf gewoonlijk zo beschreef, zoals blijkt uit $Jh. 13:23$, vergeleken met $Jh. 21:20,24$.> die hij liefhad, daarbij zag staan, zei hij tot zijn moeder: Vrouw, zie, <Dat is, deze zal voor u als een zoon zijn, om voor u te zorgen en u bij te staan.> uw zoon.",
+      "source_text": "Ἰησοῦς οὖν ἰδὼν τὴν μητέρα, καὶ τὸν μαθητὴν παρεστῶτα ὃν ἠγάπα, λέγει τῇ μητρὶ αὐτοῦ, Γύναι, ἰδοὺ ὁ υἱός σου.",
+      "generated_at": "2026-06-02T06:48:31.860512Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 27,
+      "original": "Daer na seyde hy tot den discipel, Siet uwe <D. draeght ghy voor haer sorge als voor uwe moeder.> moeder. Ende van die ure aen nam haer de discipel <Gr. in sijn eygen, ofte, tot sijnent.> in sijn [huys.]",
+      "modernized": "Daarna zei hij tot de discipel: Zie uw <Dat is, draag zorg voor haar als voor uw moeder.> moeder. En van dat uur af nam de discipel haar <Grieks: in zijn eigen, of: tot het zijne.> in zijn [huis.]",
+      "source_text": "εἶτα λέγει τῷ μαθητῇ, Ἰδοὺ ἡ μήτηρ σου. καὶ ἀπ’ ἐκείνης τῆς ὥρας ἔλαβεν αὐτὴν ὁ μαθητὴς εἰς τὰ ἴδια.",
+      "generated_at": "2026-06-02T06:49:16.306643Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
