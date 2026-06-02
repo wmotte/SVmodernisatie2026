@@ -61,6 +61,33 @@
       "generated_at": "2026-06-02T11:07:09.261014Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 7,
+      "original": "Ende $1.Reg. 11.43. 1.Chron. 3.10.$ Salomon gewan Roboam. ende Roboam gewan Abia. ende Abia gewan Asa.",
+      "modernized": "En $1Kn. 11:43; 1Kr. 3:10$ Salomo verwekte Rechabeam. En Rechabeam verwekte Abia. En Abia verwekte Asa.",
+      "source_text": "Σολομὼν δὲ ἐγέννησε τὸν Ῥοβοάμ· Ῥοβοὰμ δὲ ἐγέννησε τὸν Ἀβιά· Ἀβιὰ δὲ ἐγέννησε τὸν Ἀσά·",
+      "generated_at": "2026-06-02T11:12:50.288838Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 8,
+      "original": "Ende Asa gewan Iosaphat. ende Iosaphat gewan Ioram. ende Ioram gewan <Hier worden drie Koningen over geslagen ende voorby gegaen, namelick Ochosias, Ioas, ende Amasias, om het getal van veertien niet te buyten te gaen, vers 17. Van dergelijcke uytlatinge siet een exempel, Ezra. 7.3. vergeleken met 1.Chron. 6.7. ende wort dese Ozias oock Azarias genaemt, 1.Chron. 3.12.> Oziam.",
+      "modernized": "En Asa verwekte Josafat. En Josafat verwekte Joram. En Joram verwekte <Hier worden drie Koningen overgeslagen en voorbijgegaan, namelijk Ahazia, Joas en Amazia, om het getal van veertien niet te buiten te gaan, vers 17. Zie voor een dergelijke weglating een voorbeeld in $Ea. 7:3$, vergeleken met $1Kr. 6:7$, en deze Uzzia wordt ook Azarja genoemd, $1Kr. 3:12$.> Uzzia.",
+      "source_text": "Ἀσὰ δὲ ἐγέννησε τὸν Ἰωσαφάτ· Ἰωσαφὰτ δὲ ἐγέννησε τὸν Ἰωράμ· Ἰωρὰμ δὲ ἐγέννησε τὸν Ὀζίαν·",
+      "generated_at": "2026-06-02T11:13:39.729421Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 9,
+      "original": "Ende Ozias gewan Ioatham. ende Ioatham gewan Achaz. ende Achaz gewan Ezekiam.",
+      "modernized": "En Uzzia verwekte Jotam. En Jotam verwekte Achaz. En Achaz verwekte Hizkia.",
+      "source_text": "Ὀζίας δὲ ἐγέννησε τὸν Ἰωάθαμ· Ἰωάθαμ δὲ ἐγέννησε τὸν Ἄχαζ· Ἄχαζ δὲ ἐγέννησε τὸν Ἐζεκίαν·",
+      "generated_at": "2026-06-02T11:13:59.450079Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
