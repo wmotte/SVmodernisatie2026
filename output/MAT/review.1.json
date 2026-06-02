@@ -1,13 +1,30 @@
 {
   "book": "MAT",
   "chapter": 1,
-  "reviewed_at": "2026-06-02T12:00:06+00:00",
+  "reviewed_at": "2026-06-02T12:04:07+00:00",
   "passes": [
     {
       "pass": 1,
       "ran_at": "2026-06-02T12:00:06+00:00",
       "mode": "scan",
       "issues_total": 4
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-06-02T12:03:52+00:00",
+      "mode": "verify",
+      "actions": [
+        "MAT-1-17-001: verified",
+        "MAT-1-17-002: verified",
+        "MAT-1-20-001: verified",
+        "MAT-1-11-001: rebuttal verified"
+      ]
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-06-02T12:04:07+00:00",
+      "mode": "verify",
+      "actions": []
     }
   ],
   "issues": [
@@ -21,9 +38,10 @@
       "proposed_fix": "ervan",
       "location": "kanttekening",
       "id": "MAT-1-17-001",
-      "status": "fixed",
+      "status": "verified",
       "fix_note": "Vers 17 kanttekening herschreven: de gesplitste constructie 'er van' is verwijderd en de zin gebruikt nu 'die eerste reeks'.",
-      "fixed_at": "2026-06-02T12:05:00Z"
+      "fixed_at": "2026-06-02T12:05:00Z",
+      "verified_at": "2026-06-02T12:03:52+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -35,9 +53,10 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "MAT-1-17-002",
-      "status": "fixed",
+      "status": "verified",
       "fix_note": "Vers 17 kanttekening herschreven naar 'die eerste reeks', zodat de hoofdtekstfrase 'van Abraham tot David' niet woordelijk wordt herhaald.",
-      "fixed_at": "2026-06-02T12:05:00Z"
+      "fixed_at": "2026-06-02T12:05:00Z",
+      "verified_at": "2026-06-02T12:03:52+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -49,9 +68,10 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "MAT-1-20-001",
-      "status": "fixed",
+      "status": "verified",
       "fix_note": "Vers 20 kanttekening aangepast: 'voor welke woorden' is gemoderniseerd naar 'voor die woorden'.",
-      "fixed_at": "2026-06-02T12:05:00Z"
+      "fixed_at": "2026-06-02T12:05:00Z",
+      "verified_at": "2026-06-02T12:03:52+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -68,9 +88,10 @@
         17
       ],
       "id": "MAT-1-11-001",
-      "status": "rebutted",
+      "status": "verified",
       "rebuttal": "False-positive concordantieflag: in MAT 1:11, 1:12 en 1:17 wordt SV 'Babylonische overvoeringe' consequent als 'Babylonische wegvoering' weergegeven. AGENTS.md concordantie is dus inhoudelijk behouden; alleen de moderne prefix verschilt omdat 'overvoering' geen productieve moderne term is.",
-      "rebutted_at": "2026-06-02T12:05:00Z"
+      "rebutted_at": "2026-06-02T12:05:00Z",
+      "verified_at": "2026-06-02T12:03:52+00:00"
     }
   ]
 }
