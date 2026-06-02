@@ -74,6 +74,7 @@ voorbeeld-PDF om te lezen. **✓** = alle hoofdstukken gemoderniseerd ·
 | 2 Johannes | brief | ✓ 1/1 | [PDF](parallelbijbel/2JN_voorbeeld.pdf) |
 | 3 Johannes | brief | ✓ 1/1 | [PDF](parallelbijbel/3JN_voorbeeld.pdf) |
 | Judas | brief | ✓ 1/1 | [PDF](parallelbijbel/JUD_voorbeeld.pdf) |
+| Openbaring | brief | ✓ 22/22 | [PDF](parallelbijbel/REV_voorbeeld.pdf) |
 
 <details>
 <summary><strong>Omvang van het NT-broncorpus</strong> — woordtelling per boek (klik om uit te klappen)</summary>
