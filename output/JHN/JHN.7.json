@@ -412,6 +412,33 @@
       "generated_at": "2026-06-02T17:13:28.661558Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 46,
+      "original": "De dienaers antwoordden, Noyt en heeft een mensche <Dat is, met sulcken aensien ende aengenaemheyt. Siet Matth. 7.28, 29. ende Luce 4.22.> alsoo gesproken, gelijck dese mensche.",
+      "modernized": "De dienaren antwoordden: Nooit heeft een mens <Dat is, met zulk aanzien en aangenaamheid. Zie $Mt. 7:28,29; Lk. 4:22$.> zo gesproken als deze mens.",
+      "source_text": "ἀπεκρίθησαν οἱ ὑπηρέται, Οὐδέποτε οὕτως ἐλάλησεν ἄνθρωπος, ὡς οὗτος ὁ ἄνθρωπος.",
+      "generated_at": "2026-06-02T17:19:02.909481Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 47,
+      "original": "De Phariseen dan antwoordden haer, Zijt oock ghylieden verleyt?",
+      "modernized": "De Farizeeën dan antwoordden hun: Bent ook u verleid?",
+      "source_text": "ἀπεκρίθησαν οὖν αὐτοῖς οἱ Φαρισαῖοι, Μὴ καὶ ὑμεῖς πεπλάνησθε;",
+      "generated_at": "2026-06-02T17:19:14.708262Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 48,
+      "original": "$Iesa. 33.18. Ioan. 12.42. 1.Cor. 1.20. ende 2.8.$ Heeft yemant uyt <Namel. die sulcke treffelicke ende geleerde lieden zijn.> de Overste in hem gelooft, ofte uyt de Pharizeen?",
+      "modernized": "$Js. 33:18; Jh. 12:42; 1Kor. 1:20; 2:8$ Heeft iemand van de Oversten <Namelijk, die zulke aanzienlijke en geleerde lieden zijn.> in hem geloofd, of van de Farizeeën?",
+      "source_text": "μή τις ἐκ τῶν ἀρχόντων ἐπίστευσεν εἰς αὐτόν, ἢ ἐκ τῶν Φαρισαίων;",
+      "generated_at": "2026-06-02T17:19:29.296425Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
