@@ -1,7 +1,7 @@
 {
   "book": "MAT",
   "chapter": 2,
-  "reviewed_at": "2026-06-02T13:23:32+00:00",
+  "reviewed_at": "2026-06-02T13:25:35+00:00",
   "passes": [
     {
       "pass": 1,
@@ -26,6 +26,12 @@
     {
       "pass": 3,
       "ran_at": "2026-06-02T13:23:32+00:00",
+      "mode": "verify",
+      "actions": []
+    },
+    {
+      "pass": 4,
+      "ran_at": "2026-06-02T13:25:35+00:00",
       "mode": "verify",
       "actions": []
     }

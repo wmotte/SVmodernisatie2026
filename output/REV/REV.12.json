@@ -46,13 +46,13 @@
       "notes": [
         {
           "type": "context",
-          "subject": "validator cap-flag op Leeraren",
+          "subject": "validator cap-flag op Leraars",
           "context": "kanttekening 1",
-          "choice": "Leeraren -> Leraars (hoofdletter behouden), concordant met REV 1/10/11",
+          "choice": "Leeraren -> Leraars (meer modern Nederlands)",
           "alternatives": [
             "Leeraren ongewijzigd laten"
           ],
-          "reason": "Validator-regex matcht 4-letter-prefix leer tegen de gewone zelfstandige naamwoordvorm leer (rechte leer) en flagt vals een caseflip; de eigenlijke vertaling Leraars is wel degelijk gekapitaliseerd. Regex-kwetsbare flag, geen echte hoofdletterovertreding."
+          "reason": "Leraars is een gangbare modernisering; oorspronkelijk spelform Leerares/Leeraren blijft semantisch gelijk."
         }
       ]
     },
