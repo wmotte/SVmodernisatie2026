@@ -115,6 +115,45 @@
       "generated_at": "2026-06-02T04:29:46.288829Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 13,
+      "original": "$Matth. 26.57. Marc. 14.53. Luce 22.54.$ Ende leydden hem henen, <Ende daer na tot Cajapham, gelijck blijckt vers 24. Soo dat het gene hier na in den text volght, niet in het huys van Annas, maer van Cajaphas, geschiet is.> eerst tot $Luce 3.2.$ Annam: want hy was des wijfs vader van Cajaphas, welcke des selven jaers Hoogepriester was.",
+      "modernized": "$Mt. 26:57; Mk. 14:53; Lk. 22:54$ En zij leidden hem heen, <En daarna tot Kajafas, zoals blijkt uit vers 24. Zodat hetgeen hierna in de tekst volgt, niet in het huis van Annas, maar van Kajafas gebeurd is.> eerst tot $Lk. 3:2$ Annas; want hij was de schoonvader van Kajafas, die in datzelfde jaar Hogepriester was.",
+      "source_text": "καὶ ἀπήγαγον αὐτὸν πρὸς Ἄνναν πρῶτον· ἦν γὰρ πενθερὸς τοῦ Καϊάφα, ὃς ἦν ἀρχιερεὺς τοῦ ἐνιαυτοῦ ἐκείνου.",
+      "generated_at": "2026-06-02T04:34:23.485062Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 14,
+      "original": "$Ioan. 11.50.$ Cajaphas nu was de gene die den Ioden geraden hadde, dat het nut was dat een mensche voor het volck storve.",
+      "modernized": "$Jh. 11:50$ Kajafas nu was degene die aan de Joden de raad gegeven had, dat het nuttig was dat één mens voor het volk zou sterven.",
+      "source_text": "ἦν δὲ Καϊάφας ὁ συμβουλεύσας τοῖς Ἰουδαίοις, ὅτι συμφέρει ἕνα ἄνθρωπον ἀπολέσθαι ὑπὲρ τοῦ λαοῦ.",
+      "generated_at": "2026-06-02T04:34:51.523628Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "subject": "storve",
+          "context": "hoofdtekst",
+          "choice": "zou sterven",
+          "alternatives": [
+            "stierf"
+          ],
+          "reason": "HSV-spiegel bevestigt dat SV 'storve' in de indirecte rede modaal/conjunctief functioneert; 'zou sterven' bewaart de raadgevende context zonder parafrase."
+        }
+      ]
+    },
+    {
+      "verse_number": 15,
+      "original": "$Matth. 26.58. Marc. 14.54. Luce 22.54.$ Ende Simon Petrus <Namelick, van verre, na ’t huys van Cajaphas, Matth. cap. 26. vers 58.> volghde Iesum, ende <Sommige meynen dat dese discipel Ioannes selve geweest is. Doch dit en is niet seker.> een ander discipel. Dese discipel nu was den Hoogenpriester bekent, ende gingh met Iesu in des Hoogenpriesters <Of, palleys.> zale.",
+      "modernized": "$Mt. 26:58; Mk. 14:54; Lk. 22:54$ En Simon Petrus <Namelijk, van verre, naar het huis van Kajafas, $Mt. 26:58$.> volgde Jezus, en <Sommigen menen dat deze discipel Johannes zelf geweest is. Maar dit is niet zeker.> een andere discipel. Deze discipel nu was bij de Hogepriester bekend, en ging met Jezus in de zaal <Of, het paleis.> van de Hogepriester.",
+      "source_text": "Ἠκολούθει δὲ τῷ Ἰησοῦ Σίμων Πέτρος, καὶ ὁ ἄλλος μαθητής. ὁ δὲ μαθητὴς ἐκεῖνος ἦν γνωστὸς τῷ ἀρχιερεῖ, καὶ συνεισῆλθε τῷ Ἰησοῦ εἰς τὴν αὐλὴν τοῦ ἀρχιερέως·",
+      "generated_at": "2026-06-02T04:35:25.812424Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
