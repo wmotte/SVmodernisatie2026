@@ -340,6 +340,45 @@
       "generated_at": "2026-06-02T07:07:07.085419Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 34,
+      "original": "Maer een der krijghsknechten <Namel. of uyt moetwille, ofte om te sien of hy waerlick doot was.> doorstack sijne zijde met een speere, ende terstont $1.Ioan. 5.6.$ quam daer bloet ende <Dit is een teecken, dat hy het herte heeft doorsteken, het welck light in een vel waer in waterachtige vochtigheyt besloten is, tot verkoelinge van het herte.> water uyt.",
+      "modernized": "Maar een van de krijgsknechten <Namelijk, of uit moedwil, of om te zien of hij werkelijk dood was.> doorstak zijn zijde met een speer, en onmiddellijk $1Jh. 5:6$ kwam er bloed en <Dit is een teken, dat hij het hart heeft doorstoken, dat ligt in een vlies waarin waterachtig vocht besloten is, tot verkoeling van het hart.> water uit.",
+      "source_text": "ἀλλ’ εἷς τῶν στρατιωτῶν λόγχῃ αὐτοῦ τὴν πλευρὰν ἔνυξε, καὶ εὐθὺς ἐξῆλθεν αἷμα καὶ ὕδωρ.",
+      "generated_at": "2026-06-02T07:13:03.221192Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 35,
+      "original": "Ende <Namel. Ioannes selve. siet vers 27.> die het gesien heeft die heeft het <Namelick, dat bloet ende water uyt sijn zijde gevloten is.> getuyght, ende sijn getuygenisse is waerachtigh: ende hy weet dat hy seght <Gr. waerachtige, namelick, saken.> het gene dat waer is, op dat oock ghy <Namelick, dat in Christo vervult is het gene in ’t Oude Testament door de reyniginge met water, ende door de bloedstortinge der offeranden is afgebeelt geweest: te weten, dat hy door sijne doot ons verkregen heeft niet alleen vergevinge der sonden, maer oock de reyniginge der sonden door sijnen Heyligen Geest. Siet d’aenteeck. op 1.Ioan. 5.6.> gelooven meught.",
+      "modernized": "En <Namelijk, Johannes zelf. Zie vers 27.> die het gezien heeft, die heeft daarvan <Namelijk, dat bloed en water uit zijn zijde gevloeid is.> getuigd, en zijn getuigenis is waarachtig; en hij weet dat hij zegt <Grieks: ware, namelijk, zaken.> wat waar is, opdat ook u <Namelijk, dat in Christus vervuld is hetgeen in het Oude Testament door de reiniging met water en door de bloedstorting van de offers afgebeeld was: te weten, dat hij door zijn dood voor ons niet alleen vergeving van de zonden verkregen heeft, maar ook de reiniging van de zonden door zijn Heilige Geest. Zie de aantekening op $1Jh. 5:6$.> mag geloven.",
+      "source_text": "καὶ ὁ ἑωρακὼς μεμαρτύρηκε, καὶ ἀληθινὴ αὐτοῦ ἐστιν ἡ μαρτυρία, κἀκεῖνος οἶδεν ὅτι ἀληθῆ λέγει, ἵνα ὑμεῖς πιστεύσητε.",
+      "generated_at": "2026-06-02T07:14:09.802187Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 36,
+      "original": "Want dese dingen zijn geschiet, $Exod. 12.46. Num. 9.12.$ op dat de Schrift vervult worde, <Dit wort van ’t Paeschlam wel geseght, Exod. 12.46. maer hier in Christo vervult, om dattet Paeschlam een voorbeelt Christi was, 1.Cor. 5.7.> Geen been van hem en sal verbroken worden.",
+      "modernized": "Want deze dingen zijn gebeurd, $Ex. 12:46; Nm. 9:12$ opdat de Schrift vervuld wordt, <Dit wordt van het Paaslam wel gezegd, $Ex. 12:46$, maar hier in Christus vervuld, omdat het Paaslam een voorbeeld van Christus was, $1Kor. 5:7$.> Geen been van hem zal gebroken worden.",
+      "source_text": "ἐγένετο γὰρ ταῦτα ἵνα ἡ γραφὴ πληρωθῇ, Ὀστοῦν οὐ συντριβήσεται αὐτοῦ.",
+      "generated_at": "2026-06-02T07:14:55.966933Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "subject": "verbroken",
+          "context": "hoofdtekst",
+          "choice": "gebroken",
+          "alternatives": [
+            "verbroken"
+          ],
+          "reason": "HSV-spiegel en Grieks bevestigen dat het om een been gaat; in modern Nederlands is 'gebroken' hier de natuurlijke weergave."
+        }
+      ]
     }
   ]
 }
