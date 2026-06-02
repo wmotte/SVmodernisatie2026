@@ -142,6 +142,33 @@
       "generated_at": "2026-06-02T21:28:01.707667Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 16,
+      "original": "Aen hare <Door dese vruchten wort verstaen niet soo seer het leven, het welck voor eenen tijt bedriegen kan, als wel de leere, die aen Godts woort moet beproeft zijn, 1.Ioan. 4. vers 1.> vruchten sult ghyse kennen. Leest men oock een druyve van doornen, of vijgen van distelen?",
+      "modernized": "Aan hun <Door deze vruchten wordt niet zozeer het leven verstaan, dat voor een tijd kan bedriegen, als wel de leer, die aan Gods woord beproefd moet zijn, $1Jh. 4:1$.> vruchten zult u hen kennen. Leest men ook een druif van doornen, of vijgen van distels?",
+      "source_text": "ἀπὸ τῶν καρπῶν αὐτῶν ἐπιγνώσεσθε αὐτούς· μήτι συλλέγουσιν ἀπὸ ἀκανθῶν σταφυλήν, ἢ ἀπὸ τριβόλων σῦκα;",
+      "generated_at": "2026-06-02T21:33:04.767416Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 17,
+      "original": "$Matth. 3.10. ende 12.33. Marc. 11.13. Luce 3.8.$ Alsoo een yeder goede boom, brenght voort goede vruchten, ende <Gr Een verrotte boom.> een quade boom brenght voort quade vruchten.",
+      "modernized": "$Mt. 3:10; 12:33; Mk. 11:13; Lk. 3:8$ Zo brengt iedere goede boom goede vruchten voort, en <Grieks: Een verrotte boom.> een slechte boom brengt slechte vruchten voort.",
+      "source_text": "οὕτω πᾶν δένδρον ἀγαθὸν καρποὺς καλοὺς ποιεῖ· τὸ δὲ σαπρὸν δένδρον καρποὺς πονηροὺς ποιεῖ.",
+      "generated_at": "2026-06-02T21:33:43.021276Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 18,
+      "original": "Een goede boom en kan geen quade vruchten voort brengen: noch een quade boom goede vruchten voort brengen.",
+      "modernized": "Een goede boom kan geen slechte vruchten voortbrengen; en een slechte boom kan geen goede vruchten voortbrengen.",
+      "source_text": "οὐ δύναται δένδρον ἀγαθὸν καρποὺς πονηροὺς ποιεῖν, οὐδὲ δένδρον σαπρὸν καρποὺς καλοὺς ποιεῖν.",
+      "generated_at": "2026-06-02T21:34:07.268596Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
