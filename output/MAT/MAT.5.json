@@ -235,6 +235,45 @@
       "generated_at": "2026-06-02T21:19:43.884850Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 25,
+      "original": "$Luce 12. vers 58. Ephes. 4.26.$ Weest haestelick <Dat is, verdraeght ofte vereenight met den genen die u over schuldt ofte andersins voor recht roept.> wel gesint [tegen] uwe wederpartije, terwijle ghy noch met hem op den wegh zijt: op dat de wederpartije niet misschien u de Rechter overlevere, ende de Rechter u den dienaer overlevere, ende ghy in de gevangenisse geworpen wort.",
+      "modernized": "$Lk. 12:58; Ef. 4:26$ Wees spoedig <Dat is, verzoen of verenig u met degene die u om schuld of anderszins voor het gerecht roept.> goedgezind [tegenover] uw tegenpartij, terwijl u nog met hem op de weg bent; opdat de tegenpartij u niet misschien aan de Rechter overlevert, en de Rechter u aan de dienaar overlevert, en u in de gevangenis geworpen wordt.",
+      "source_text": "ἴσθι εὐνοῶν τῷ ἀντιδίκῳ σου ταχύ, ἕως ὅτου εἶ ἐν τῇ ὁδῷ μετ’ αὐτοῦ, μήποτέ σε παραδῷ ὁ ἀντίδικος τῷ κριτῇ, καὶ ὁ κριτής σε παραδῷ τῷ ὑπηρέτῃ, καὶ εἰς φυλακὴν βληθήσῃ.",
+      "generated_at": "2026-06-02T21:28:06.307853Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "subject": "HSV-spiegel",
+          "context": "vers 25",
+          "choice": "`misschien niet` is gecorrigeerd naar `niet misschien`.",
+          "alternatives": [
+            "`misschien niet` laten staan"
+          ],
+          "reason": "De HSV-spiegel bevestigt hier een taalfout: SV1657 `niet misschien` en Grieks `μήποτε` drukken waarschuwing uit, terwijl `misschien niet` in modern Nederlands de ontkenning op het overleveren legt."
+        }
+      ]
+    },
+    {
+      "verse_number": 26,
+      "original": "Voorwaer ick segge u, ghy en sult daer geensins uyt komen, tot dat ghy den laetsten <Gr. quadrant, Dat is, een oort, het welck was de minste munte die men gebruyckte, ontrent anderhalf penningh weert na onse reeckeninge.> penningh sult betaelt hebben.",
+      "modernized": "Voorwaar, ik zeg u, u zult daar geenszins uit komen, totdat u de laatste <Grieks: quadrans, Dat is, een oort, dat de kleinste munt was die men gebruikte, ongeveer anderhalve penning waard naar onze rekening.> penning betaald zult hebben.",
+      "source_text": "ἀμὴν λέγω σοι, οὐ μὴ ἐξέλθῃς ἐκεῖθεν, ἕως ἂν ἀποδῷς τὸν ἔσχατον κοδράντην.",
+      "generated_at": "2026-06-02T21:29:01.152236Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 27,
+      "original": "Ghy hebt gehoort dat [van] den Ouden geseght is, $Exod. 20.14. Deuter. 5.18.$ Ghy en sult geen overspel doen.",
+      "modernized": "U hebt gehoord dat [van] de Ouden gezegd is: $Ex. 20:14; Dt. 5:18$ U zult geen overspel doen.",
+      "source_text": "Ἠκούσατε ὅτι ἐρρέθη τοῖς ἀρχαίοις, Οὐ μοιχεύσεις·",
+      "generated_at": "2026-06-02T21:29:24.977271Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
