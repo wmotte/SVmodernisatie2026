@@ -61,6 +61,33 @@
       "generated_at": "2026-06-02T20:38:40.925175Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 7,
+      "original": "Iesus seyde tot hem, Daer is wederom geschreven, $Deut. 6.16.$ Ghy en sult den Heere uwen Godt niet versoecken.",
+      "modernized": "Jezus zei tot hem: Er is opnieuw geschreven: $Dt. 6:16$ U zult de Heere uw God niet verzoeken.",
+      "source_text": "ἔφη αὐτῷ ὁ Ἰησοῦς, Πάλιν γέγραπται, Οὐκ ἐκπειράσεις Κύριον τὸν Θεόν σου.",
+      "generated_at": "2026-06-02T20:43:23.154163Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 8,
+      "original": "Wederom nam hem de duyvel mede op eenen seer hoogen bergh, ende <Namelick, ofte in eenigh schijnsel, of oock de gewesten der selve aenwijsende, ende met woorden hare heerlickheyt verhalende.> toonde hem alle de Koninckrijcken der werelt, ende haer heerlickheyt.",
+      "modernized": "Opnieuw nam de duivel hem mee op een zeer hoge berg, en <Namelijk, of in enige verschijning, of ook door de gebieden ervan aan te wijzen en met woorden hun heerlijkheid te beschrijven.> toonde hem alle Koninkrijken van de wereld, en hun heerlijkheid.",
+      "source_text": "πάλιν παραλαμβάνει αὐτὸν ὁ διάβολος εἰς ὄρος ὑψηλὸν λίαν, καὶ δείκνυσιν αὐτῷ πάσας τὰς βασιλείας τοῦ κόσμου καὶ τὴν δόξαν αὐτῶν,",
+      "generated_at": "2026-06-02T20:44:02.241151Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 9,
+      "original": "Ende seyde tot hem, Alle dese dingen sal ick u geven, indien ghy nedervallende my sult aenbidden.",
+      "modernized": "En hij zei tot hem: Al deze dingen zal ik u geven, als u neervalt en mij aanbidt.",
+      "source_text": "καὶ λέγει αὐτῷ, Ταῦτα πάντα σοι δώσω, ἐὰν πεσὼν προσκυνήσῃς μοι.",
+      "generated_at": "2026-06-02T20:44:30.117148Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
