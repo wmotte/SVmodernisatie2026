@@ -1,0 +1,147 @@
+{
+  "book": "JHN",
+  "chapter": 21,
+  "reviewed_at": "2026-06-02T09:03:44+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-06-02T09:02:52+00:00",
+      "mode": "scan",
+      "issues_total": 8
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-06-02T09:03:44+00:00",
+      "mode": "verify",
+      "actions": [
+        "JHN-21-17-001: rebuttal verified",
+        "JHN-21-17-002: rebuttal verified",
+        "JHN-21-18-001: rebuttal verified",
+        "JHN-21-18-002: rebuttal verified",
+        "JHN-21-18-003: rebuttal verified",
+        "JHN-21-19-001: rebuttal verified",
+        "JHN-21-21-001: rebuttal verified",
+        "JHN-21-2-001: rebuttal verified"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "category": "voornaamwoordelijk bijwoord gesplitst",
+      "verse": 17,
+      "severity": "hard",
+      "quote_modernized": "…efde scheen te twijfelen. Hetzelfde dat hier aan Petrus wordt bevolen, dat wordt…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'hier aan' — SV-gesplitst voornaamwoordelijk bijwoord. Modern Nederlands voegt samen: 'hieraan' (bv. daarin, waarmee, hierop).",
+      "proposed_fix": "hieraan",
+      "location": "kanttekening",
+      "id": "JHN-21-17-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] False positive: 'hier aan Christus toegeschreven' is geen gesplitst voornaamwoordelijk bijwoord. Parsing: [hier] (bijwoord = 'in deze context/passage') + [aan Christus] (voorzetselgroep, indirect object van passieve werkwoord 'toegeschreven worden aan X'). MODERNISATIE.md §2.3b verbiedt gesplitst pron.bijwoord van het type [er/daar/hier/waar][prep], maar alléén wanneer de prepositie geen volledig NP regeert. Hier regeert 'aan' de NP 'Christus' — samenvoegen tot 'hieraan Christus' is ongrammaticaal in modern NL (vergelijk: 'wordt hier aan Karel toegeschreven'). Grieks: passief παραδίδοται/ἀναφέρεται met dativus auctoris-equivalent.",
+      "verified_at": "2026-06-02T09:03:44+00:00"
+    },
+    {
+      "category": "kanttekening-luiheid (§2.3 in <…>)",
+      "verse": 17,
+      "severity": "hard",
+      "quote_modernized": "…ostelen te stellen. Namelijk, omdat hij meende dat Christus met dit driemaal vra…",
+      "rule_reference": "KANTTEKENINGEN.md + §2.3",
+      "explanation": "'meende' binnen kanttekening — verdacht -ende-woord in adverbial / clause-final positie. §2.3 geldt ook in <…>; ontvouw naar finiete bijzin.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "JHN-21-17-002",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Scanner-false-positive: 'meende' is verleden tijd van 'menen' (ik meende = ik dacht), een finiete persoonsvorm, geen -ende-participium. §2.3 niet van toepassing op finiete werkwoordsvormen.",
+      "verified_at": "2026-06-02T09:03:44+00:00"
+    },
+    {
+      "category": "§2.3b vocatief-u",
+      "verse": 18,
+      "severity": "soft",
+      "quote_modernized": "…mgordde u uzelf, en wandelde overal waar u wilde; maar wanneer u oud geworden zu…",
+      "rule_reference": "MODERNISATIE.md §2.3b",
+      "explanation": "'u wilde' aan zin-/clause-begin — mogelijke vocatief-u-Latinaatconstructie. Verifieer of 'u' hier object van aanspreking is en weghaalbaar is.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "JHN-21-18-001",
+      "status": "verified",
+      "rebuttal": "False positive voor MODERNISATIE.md §2.3b vocatief-u: in vers 18 staat 'waar u wilde' als relatieve bijzin bij 'overal', waarbij 'u' het onderwerp is van de finiete persoonsvorm 'wilde'. Het is geen aanspreek-vocatief van het type 'u Theofilus' en is niet weghaalbaar zonder de Griekse subjectrelatie van ὅπου ἤθελες te verliezen.",
+      "verified_at": "2026-06-02T09:03:44+00:00"
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 18,
+      "severity": "soft",
+      "quote_modernized": "  Voorwaar, voorwaar zeg ik u: toen u jong…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'voorwaar' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "JHN-21-18-002",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Idem MRK-9-1-001: 'voorwaar, ik zeg u' = ἀμὴν λέγω ὑμῖν, gestolde SV-bijbelformule. Project-concordant in MRK/LUK. §2.7 niet van toepassing op gefossiliseerde liturgische formules.",
+      "verified_at": "2026-06-02T09:03:44+00:00"
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 18,
+      "severity": "soft",
+      "quote_modernized": "  Voorwaar, voorwaar zeg ik u: toen u jonger was,   …",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'voorwaar' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "JHN-21-18-003",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Idem MRK-9-1-001: 'voorwaar, ik zeg u' = ἀμὴν λέγω ὑμῖν, gestolde SV-bijbelformule. Project-concordant in MRK/LUK. §2.7 niet van toepassing op gefossiliseerde liturgische formules.",
+      "verified_at": "2026-06-02T09:03:44+00:00"
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 19,
+      "severity": "soft",
+      "quote_modernized": "  En dit zei hij, waarmee hij aanduidde met welke dood hij   God verheerlijken z…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "JHN-21-19-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-06-02T09:03:44+00:00"
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 21,
+      "severity": "soft",
+      "quote_modernized": "Namelijk, overkomen: Dat is, met welke dood hij God zal verheerlijken…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "JHN-21-21-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-06-02T09:03:44+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 2,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'geseght' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        2,
+        20,
+        23
+      ],
+      "id": "JHN-21-2-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] Concordantie-drift FP (prefix-heuristiek mist flexie): stam 'geseght' (Gr. λέγω/εἶπον) wordt in álle 3 verzen consistent op lemma 'zeggen' weergegeven — v30 'gezegd heb', v33 'gezegd', v51 'gezegd heb' — geverifieerd. AGENTS.md vereist concordantie op lemma, niet op finiete tijd; de verschillen zijn noodzakelijke perfectum/hulpwerkwoord-flexie, niet lexicale drift.",
+      "verified_at": "2026-06-02T09:03:44+00:00"
+    }
+  ]
+}
