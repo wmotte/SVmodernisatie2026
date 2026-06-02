@@ -88,6 +88,33 @@
       "generated_at": "2026-06-02T21:14:36.078431Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 10,
+      "original": "Ende soo hy hem om een visch soude bidden, die hem een slange sal geven?",
+      "modernized": "En als hij hem om een vis zou vragen, zal hij hem een slang geven?",
+      "source_text": "καὶ ἐὰν ἰχθὺν αἰτήσῃ, μὴ ὄφιν ἐπιδώσει αὐτῷ;",
+      "generated_at": "2026-06-02T21:20:21.894866Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 11,
+      "original": "Indien dan ghy, $Genes. 6.5. ende 8.21.$ die boos zijt, weet uwen kinderen goede gaven te geven, hoe veel te meer sal uwe Vader, die in de hemelen is, goede [gaven] geven, den genen, diese van hem bidden.",
+      "modernized": "Als u dan, $Gn. 6:5; 8:21$ die slecht bent, uw kinderen goede gaven weet te geven, hoeveel te meer zal uw Vader, die in de hemelen is, goede [gaven] geven aan hen die hem bidden.",
+      "source_text": "εἰ οὖν ὑμεῖς, πονηροὶ ὄντες, οἴδατε δόματα ἀγαθὰ διδόναι τοῖς τέκνοις ὑμῶν, πόσῳ μᾶλλον ὁ Πατὴρ ὑμῶν ὁ ἐν τοῖς οὐρανοῖς δώσει ἀγαθὰ τοῖς αἰτοῦσιν αὐτόν;",
+      "generated_at": "2026-06-02T21:20:35.761527Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 12,
+      "original": "$Luce 6.31.$ Alle [dingen] dan die ghy wilt dat u de menschen souden doen, doet ghy hen oock alsoo: Want dat is <Dat is, de somma van al ’t gene de wet, ende de Propheten, uytleggers der selve, leeren aengaende de tweede tafel der tien geboden, van de liefde des naesten, Matth. 22.39.> de wet ende de Propheten.",
+      "modernized": "$Lk. 6:31$ Alle [dingen] dan die u wilt dat de mensen u zouden doen, doet u hun ook zo. Want dat is <Dat is, de hoofdsom van al wat de wet en de Profeten, uitleggers daarvan, leren aangaande de tweede tafel van de tien geboden, van de liefde tot de naaste, $Mt. 22:39$.> de wet en de Profeten.",
+      "source_text": "πάντα οὖν ὅσα ἂν θέλητε ἵνα ποιῶσιν ὑμῖν οἱ ἄνθρωποι, οὕτω καὶ ὑμεῖς ποιεῖτε αὐτοῖς· οὗτος γάρ ἐστιν ὁ νόμος καὶ οἱ προφῆται.",
+      "generated_at": "2026-06-02T21:20:49.430198Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
