@@ -1,0 +1,516 @@
+{
+  "book": "JHN",
+  "chapters": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
+  "min_freq": 2,
+  "kinds": [
+    "carryover",
+    "fossiel-lidwoord",
+    "latinaat-window",
+    "cap-asym"
+  ],
+  "total_patterns": 13,
+  "patterns_by_kind": {
+    "cap-asym": [
+      {
+        "pattern_id": "p-0011",
+        "kind": "cap-asym",
+        "key": "hogepriester",
+        "frequency": 8,
+        "hsv_alternatives": [],
+        "severity_hint": "soft",
+        "occurrences": [
+          {
+            "book": "JHN",
+            "chapter": 11,
+            "verse": 49,
+            "sv2026_excerpt": "…t hen, namelijk Kajafas, die   van datzelfde jaar Hogepriester was, zei tegen hen: U begrijpt niets:",
+            "hsv_excerpt": "Maar een van hen, Kajafas, die de hogepriester van dat jaar was, zei tegen hen: U weet niets,",
+            "original_excerpt": ""
+          },
+          {
+            "book": "JHN",
+            "chapter": 18,
+            "verse": 10,
+            "sv2026_excerpt": "…ad, trok dat uit, en sloeg de dienstknecht van de Hogepriester, en hieuw zijn rechteroor   af. En de…",
+            "hsv_excerpt": "  Simon Petrus dan, die een zwaard had, trok dat, trof de dienaar van de hogepriester en sloeg zijn rechteroor af. En de naam van de dienaar",
+            "original_excerpt": ""
+          },
+          {
+            "book": "JHN",
+            "chapter": 18,
+            "verse": 13,
+            "sv2026_excerpt": "…de schoonvader van Kajafas, die in datzelfde jaar Hogepriester was.",
+            "hsv_excerpt": "  En zij leidden Hem weg, eerst naar   Annas, want hij was de schoonvader van Kajafas, die de hogepriester van dat jaar was.",
+            "original_excerpt": ""
+          },
+          {
+            "book": "JHN",
+            "chapter": 18,
+            "verse": 15,
+            "sv2026_excerpt": "… een andere discipel. Deze discipel nu was bij de Hogepriester bekend, en ging met Jezus in de zaal …",
+            "hsv_excerpt": "  En Simon Petrus volgde Jezus, evenals een andere discipel. Die discipel nu was een bekende van de hogepriester, en hij ging met Jezus het ",
+            "original_excerpt": ""
+          },
+          {
+            "book": "JHN",
+            "chapter": 18,
+            "verse": 16,
+            "sv2026_excerpt": "…n aan de deur. De andere discipel dan, die bij de Hogepriester bekend was, ging uit, en   sprak met …",
+            "hsv_excerpt": "Petrus echter stond buiten bij de deur. De andere discipel dan, die een bekende van de hogepriester was, ging naar buiten, sprak met de port",
+            "original_excerpt": ""
+          },
+          {
+            "book": "JHN",
+            "chapter": 18,
+            "verse": 22,
+            "sv2026_excerpt": "…  Jezus   een kaakslag, en zei: Antwoordt u zo de Hogepriester?",
+            "hsv_excerpt": "En toen Hij dit zei,   gaf een van de dienaars die daarbij stond, Jezus een slag in het gezicht en zei: Antwoordt U zo de hogepriester?",
+            "original_excerpt": ""
+          },
+          {
+            "book": "JHN",
+            "chapter": 18,
+            "verse": 24,
+            "sv2026_excerpt": "(   Annas dan had hem gebonden   naar Kajafas, de Hogepriester, gezonden.)",
+            "hsv_excerpt": "  Annas nu had Hem gebonden naar Kajafas, de hogepriester, gezonden.",
+            "original_excerpt": ""
+          },
+          {
+            "book": "JHN",
+            "chapter": 18,
+            "verse": 26,
+            "sv2026_excerpt": "Een van de dienstknechten van de Hogepriester, die verwant was aan degene wiens oor…",
+            "hsv_excerpt": "Een van de dienaren van de hogepriester, die familie was van hem bij wie Petrus het oor afgeslagen had, zei: Heb ik u niet met Hem in de hof",
+            "original_excerpt": ""
+          }
+        ]
+      },
+      {
+        "pattern_id": "p-0007",
+        "kind": "cap-asym",
+        "key": "sabbat",
+        "frequency": 4,
+        "hsv_alternatives": [],
+        "severity_hint": "soft",
+        "occurrences": [
+          {
+            "book": "JHN",
+            "chapter": 5,
+            "verse": 10,
+            "sv2026_excerpt": "…oden zeiden dan tot hem die genezen was,   Het is Sabbat, het is u niet geoorloofd het bedje te drag…",
+            "hsv_excerpt": "De Joden dan zeiden tegen hem die genezen was:   Het is sabbat, het is u niet geoorloofd de ligmat te dragen.",
+            "original_excerpt": ""
+          },
+          {
+            "book": "JHN",
+            "chapter": 5,
+            "verse": 16,
+            "sv2026_excerpt": "…zochten hem te doden, omdat hij deze dingen op de Sabbat deed.",
+            "hsv_excerpt": "En daarom vervolgden de Joden Jezus en probeerden zij Hem te doden, omdat Hij deze dingen op de sabbat deed.",
+            "original_excerpt": ""
+          },
+          {
+            "book": "JHN",
+            "chapter": 5,
+            "verse": 18,
+            "sv2026_excerpt": "…em des te meer te doden, omdat hij niet alleen de Sabbat   brak, maar ook zei dat God zijn   eigen V…",
+            "hsv_excerpt": "  Daarom dan probeerden de Joden des te meer Hem te doden, omdat Hij niet alleen het gebod van de sabbat brak, maar ook zei dat God Zijn eig",
+            "original_excerpt": ""
+          },
+          {
+            "book": "JHN",
+            "chapter": 9,
+            "verse": 16,
+            "sv2026_excerpt": "…   Deze mens is niet van God: want hij   houdt de Sabbat niet.   Anderen zeiden:   Hoe kan een mens …",
+            "hsv_excerpt": "Sommigen dan van de Farizeeën zeiden: Deze Mens is niet van God, want Hij neemt de sabbat niet in acht. Anderen zeiden:   Hoe kan een zondig",
+            "original_excerpt": ""
+          }
+        ]
+      },
+      {
+        "pattern_id": "p-0008",
+        "kind": "cap-asym",
+        "key": "synagoge",
+        "frequency": 4,
+        "hsv_alternatives": [],
+        "severity_hint": "soft",
+        "occurrences": [
+          {
+            "book": "JHN",
+            "chapter": 6,
+            "verse": 59,
+            "sv2026_excerpt": "Deze dingen zei hij in de Synagoge, terwijl hij onderwees te Kapernaum.",
+            "hsv_excerpt": "Deze dingen zei Hij, terwijl Hij onderwijs gaf in de synagoge in Kapernaüm.",
+            "original_excerpt": ""
+          },
+          {
+            "book": "JHN",
+            "chapter": 9,
+            "verse": 22,
+            "sv2026_excerpt": "… iemand hem beleed Christus te zijn, die   uit de Synagoge geworpen zou worden.",
+            "hsv_excerpt": "Dit zeiden zijn ouders   omdat zij bevreesd waren voor de Joden;   want de Joden waren al overeengekomen dat, als iemand zou belijden dat Hi",
+            "original_excerpt": ""
+          },
+          {
+            "book": "JHN",
+            "chapter": 12,
+            "verse": 42,
+            "sv2026_excerpt": "…n beleden zij het niet,   opdat zij   niet uit de Synagoge geworpen zouden worden.",
+            "hsv_excerpt": "  En toch geloofden ook velen van de leiders in Hem, maar vanwege de Farizeeën beleden zij het niet,   opdat zij niet uit de synagoge geworp",
+            "original_excerpt": ""
+          },
+          {
+            "book": "JHN",
+            "chapter": 18,
+            "verse": 20,
+            "sv2026_excerpt": "…n   tot de wereld; ik heb altijd onderwezen in de Synagoge en in de tempel, waar de Joden   van alle…",
+            "hsv_excerpt": "Jezus antwoordde hem:   Ik heb openlijk gesproken tot de wereld; Ik heb altijd onderwezen in de synagoge en in de tempel, waar de Joden alti",
+            "original_excerpt": ""
+          }
+        ]
+      },
+      {
+        "pattern_id": "p-0001",
+        "kind": "cap-asym",
+        "key": "profeet",
+        "frequency": 3,
+        "hsv_alternatives": [],
+        "severity_hint": "soft",
+        "occurrences": [
+          {
+            "book": "JHN",
+            "chapter": 1,
+            "verse": 23,
+            "sv2026_excerpt": "… Maakt de weg van de Heere recht, zoals Jesaja de Profeet gesproken heeft.",
+            "hsv_excerpt": "Hij zei:   Ik ben de stem van iemand die roept in de woestijn: Maak de weg van de Heere recht, zoals Jesaja, de profeet, gesproken heeft.",
+            "original_excerpt": ""
+          },
+          {
+            "book": "JHN",
+            "chapter": 4,
+            "verse": 19,
+            "sv2026_excerpt": "De vrouw zei tot hem: Heere,   ik zie dat u een Profeet bent.",
+            "hsv_excerpt": "De vrouw zei tegen Hem: Heere,   ik zie dat U een profeet bent.",
+            "original_excerpt": ""
+          },
+          {
+            "book": "JHN",
+            "chapter": 12,
+            "verse": 38,
+            "sv2026_excerpt": "Opdat het woord van Jesaja, de Profeet, vervuld werd, dat hij gesproken heeft,   …",
+            "hsv_excerpt": "opdat het woord van de profeet Jesaja vervuld werd dat hij gesproken heeft:   Heere, wie heeft onze prediking geloofd en aan wie is de arm v",
+            "original_excerpt": ""
+          }
+        ]
+      },
+      {
+        "pattern_id": "p-0006",
+        "kind": "cap-asym",
+        "key": "engel",
+        "frequency": 2,
+        "hsv_alternatives": [],
+        "severity_hint": "soft",
+        "occurrences": [
+          {
+            "book": "JHN",
+            "chapter": 5,
+            "verse": 4,
+            "sv2026_excerpt": "Want een Engel daalde neder   op zekere tijd in dat badwate…",
+            "hsv_excerpt": "Want een engel daalde van tijd tot tijd neer in het badwater en bracht het water in beweging; wie dan het eerst daarin kwam, na de beweging ",
+            "original_excerpt": ""
+          },
+          {
+            "book": "JHN",
+            "chapter": 12,
+            "verse": 29,
+            "sv2026_excerpt": "…  een donderslag geweest was. Anderen zeiden: Een Engel heeft tot hem gesproken.",
+            "hsv_excerpt": "De menigte dan die daar stond en dit hoorde, zei dat er een donderslag geweest was. Anderen zeiden: Een engel heeft tot Hem gesproken.",
+            "original_excerpt": ""
+          }
+        ]
+      },
+      {
+        "pattern_id": "p-0009",
+        "kind": "cap-asym",
+        "key": "goden",
+        "frequency": 2,
+        "hsv_alternatives": [],
+        "severity_hint": "soft",
+        "occurrences": [
+          {
+            "book": "JHN",
+            "chapter": 10,
+            "verse": 34,
+            "sv2026_excerpt": "…t geschreven   in uw wet,   Ik heb gezegd: u bent Goden?",
+            "hsv_excerpt": "Jezus antwoordde hun: Is er niet geschreven in uw wet:   Ik heb gezegd: U bent goden?",
+            "original_excerpt": ""
+          },
+          {
+            "book": "JHN",
+            "chapter": 10,
+            "verse": 35,
+            "sv2026_excerpt": "Als de wet hen Goden genoemd heeft,   tot wie het woord van God g…",
+            "hsv_excerpt": "Als de wet hén goden noemde tot wie het woord van God kwam, en de Schrift niet van kracht beroofd   kan worden,",
+            "original_excerpt": ""
+          }
+        ]
+      },
+      {
+        "pattern_id": "p-0004",
+        "kind": "cap-asym",
+        "key": "leraar",
+        "frequency": 2,
+        "hsv_alternatives": [],
+        "severity_hint": "soft",
+        "occurrences": [
+          {
+            "book": "JHN",
+            "chapter": 3,
+            "verse": 2,
+            "sv2026_excerpt": "…Jezus, en zei tot hem: Rabbi, wij weten dat u een Leraar bent die van God gekomen is; want   niemand…",
+            "hsv_excerpt": "  Deze kwam 's nachts naar Jezus en zei tegen Hem: Rabbi, wij weten dat U van God gekomen bent als leraar, want   niemand kan deze tekenen d",
+            "original_excerpt": ""
+          },
+          {
+            "book": "JHN",
+            "chapter": 3,
+            "verse": 10,
+            "sv2026_excerpt": "Jezus antwoordde en zei tot hem: Bent u een Leraar van Israël, en kent u   deze dingen niet?",
+            "hsv_excerpt": "Jezus antwoordde en zei tegen hem: Bent u de leraar van Israël en weet u deze dingen niet?",
+            "original_excerpt": ""
+          }
+        ]
+      },
+      {
+        "pattern_id": "p-0012",
+        "kind": "cap-asym",
+        "key": "overpriesters",
+        "frequency": 2,
+        "hsv_alternatives": [],
+        "severity_hint": "soft",
+        "occurrences": [
+          {
+            "book": "JHN",
+            "chapter": 18,
+            "verse": 3,
+            "sv2026_excerpt": "… bende krijgsknechten, en enige dienaren   van de Overpriesters en Farizeeën meegenomen had, kwam da…",
+            "hsv_excerpt": "  Judas dan, die de afdeling soldaten en enkele dienaars van de overpriesters en Farizeeën meegenomen had, kwam daar met lantaarns, fakkels ",
+            "original_excerpt": ""
+          },
+          {
+            "book": "JHN",
+            "chapter": 18,
+            "verse": 35,
+            "sv2026_excerpt": "…atus antwoordde: Ben ik   een Jood? uw volk en de Overpriesters hebben u aan mij overgeleverd; wat h…",
+            "hsv_excerpt": "Pilatus antwoordde: Ben ik soms een Jood? Uw eigen volk en de overpriesters hebben U aan mij overgeleverd; wat hebt U gedaan?",
+            "original_excerpt": ""
+          }
+        ]
+      }
+    ],
+    "carryover": [
+      {
+        "pattern_id": "p-0002",
+        "kind": "carryover",
+        "key": "toe",
+        "frequency": 2,
+        "hsv_alternatives": [
+          "rand",
+          "daarna"
+        ],
+        "severity_hint": "soft",
+        "occurrences": [
+          {
+            "book": "JHN",
+            "chapter": 2,
+            "verse": 7,
+            "sv2026_excerpt": "… watervaten met water. En zij vulden ze tot boven toe.",
+            "hsv_excerpt": "Jezus zei tegen hen: Vul de watervaten met water. En zij vulden ze tot aan de rand.",
+            "original_excerpt": "Iesus seyde tot haer, Vullet de watervaten met water. Ende sy vuldense tot boven toe."
+          },
+          {
+            "book": "JHN",
+            "chapter": 2,
+            "verse": 10,
+            "sv2026_excerpt": "… dan de mindere; maar u hebt de goede wijn tot nu toe bewaard.",
+            "hsv_excerpt": "En hij zei tegen hem: Iedereen zet eerst de goede wijn voor, en wanneer men er goed van gedronken heeft, daarna de minde",
+            "original_excerpt": "Ende seyde tot hem, Alle   man set eerst den goeden wijn op, ende wanneer men   wel gedroncken heeft, als dan den minder"
+          }
+        ]
+      },
+      {
+        "pattern_id": "p-0010",
+        "kind": "carryover",
+        "key": "wandelt",
+        "frequency": 2,
+        "hsv_alternatives": [
+          "loopt",
+          "overdag"
+        ],
+        "severity_hint": "soft",
+        "occurrences": [
+          {
+            "book": "JHN",
+            "chapter": 11,
+            "verse": 9,
+            "sv2026_excerpt": "…waalf uren   in de dag? Indien iemand in de   dag wandelt, dan stoot hij zich niet, omdat hij het li…",
+            "hsv_excerpt": "Jezus antwoordde: Zijn er niet twaalf uren in de dag? Als iemand overdag loopt, stoot hij zich niet, omdat hij het licht",
+            "original_excerpt": "Iesus antwoordde, Zijnder niet   twaelf uren   in den dagh? Indien yemant in den   dagh wandelt, soo en stoot hy hem nie"
+          },
+          {
+            "book": "JHN",
+            "chapter": 11,
+            "verse": 10,
+            "sv2026_excerpt": "Maar indien iemand in de nacht wandelt, dan stoot hij zich: omdat het licht   in …",
+            "hsv_excerpt": "maar als iemand 's nachts loopt, stoot hij zich, omdat het licht niet bij hem is.",
+            "original_excerpt": "Maer indien yemant in der nacht wandelt, soo stoot hy hem: overmits het licht   in hem niet en is."
+          }
+        ]
+      },
+      {
+        "pattern_id": "p-0013",
+        "kind": "carryover",
+        "key": "warmde",
+        "frequency": 2,
+        "hsv_alternatives": [
+          "warmen",
+          "dienaars",
+          "slaven",
+          "ontkende"
+        ],
+        "severity_hint": "soft",
+        "occurrences": [
+          {
+            "book": "JHN",
+            "chapter": 18,
+            "verse": 18,
+            "sv2026_excerpt": "…d was, en warmden zich.   Petrus stond bij hen en warmde zich.",
+            "hsv_excerpt": "En de slaven en de dienaars hadden een kolenvuur gemaakt, omdat het koud was, en stonden zich te warmen.   Petrus stond ",
+            "original_excerpt": "Ende de dienstknechten ende   de dienaers stonden, hebbende een koolvyer gemaeckt, om dat het   koudt was, ende warmden "
+          },
+          {
+            "book": "JHN",
+            "chapter": 18,
+            "verse": 25,
+            "sv2026_excerpt": "  En Simon Petrus stond en warmde zich;   zij zeiden dan tot hem: Bent u ook …",
+            "hsv_excerpt": "  En Simon Petrus stond zich te warmen. Zij zeiden dan tegen hem: Bent ook u niet een van Zijn discipelen? Hij ontkende ",
+            "original_excerpt": "  Ende Simon Petrus stont ende warmde hem:   sy seyden dan tot hem, En zijt oock ghy niet uyt sijne discipelen? Hy looch"
+          }
+        ]
+      }
+    ],
+    "fossiel-lidwoord": [
+      {
+        "pattern_id": "p-0003",
+        "kind": "fossiel-lidwoord",
+        "key": "der joden",
+        "frequency": 7,
+        "hsv_alternatives": [],
+        "severity_hint": "hard",
+        "occurrences": [
+          {
+            "book": "JHN",
+            "chapter": 2,
+            "verse": 13,
+            "sv2026_excerpt": "En het   Pascha der Joden was nabij, en Jezus ging op naar Jeruzal…",
+            "hsv_excerpt": "En het Pascha van de Joden was nabij en Jezus ging naar Jeruzalem.",
+            "original_excerpt": "Ende het   Pascha der Ioden was na by, ende Iesus gingh op na Ierusalem."
+          },
+          {
+            "book": "JHN",
+            "chapter": 3,
+            "verse": 1,
+            "sv2026_excerpt": "…izeeën, wiens naam was   Nicodemus,   een Overste der Joden:",
+            "hsv_excerpt": "En er was een mens uit de Farizeeën; zijn naam was   Nicodemus, een leider van de Joden.",
+            "original_excerpt": "ENde daer was een mensche uyt de Pharizeen, wiens name was   Nicodemus,   een Overste der Ioden:"
+          },
+          {
+            "book": "JHN",
+            "chapter": 5,
+            "verse": 1,
+            "sv2026_excerpt": "Hierna was   een   feest der Joden, en Jezus ging op naar Jeruzalem.",
+            "hsv_excerpt": "Hierna was er een   feest van de Joden en Jezus ging naar Jeruzalem.",
+            "original_excerpt": "NA desen was   een   feest der Ioden, ende Iesus gingh op na Ierusalem."
+          },
+          {
+            "book": "JHN",
+            "chapter": 6,
+            "verse": 4,
+            "sv2026_excerpt": "En   het Pascha,   het feest der Joden, was nabij.",
+            "hsv_excerpt": "En het Pascha,   het feest van de Joden, was nabij.",
+            "original_excerpt": "Ende   het Pascha,   het feest der Ioden, was na by."
+          },
+          {
+            "book": "JHN",
+            "chapter": 11,
+            "verse": 55,
+            "sv2026_excerpt": "En het   Pascha der Joden was nabij, en velen uit dat land gingen …",
+            "hsv_excerpt": "En het Pascha van de Joden was nabij en velen uit dat land gingen naar Jeruzalem, vóór het Pascha, om zich te reinigen.",
+            "original_excerpt": "Ende het   Pascha der Ioden was na by, ende vele uyt dat lant gingen op na Ierusalem voor het Pascha, op dat sy haer selven   reynighden."
+          },
+          {
+            "book": "JHN",
+            "chapter": 18,
+            "verse": 33,
+            "sv2026_excerpt": "…, en riep Jezus, en zei tot hem: Bent u de Koning der Joden?",
+            "hsv_excerpt": "  Pilatus dan ging het gerechtsgebouw weer in, riep Jezus en zei tegen Hem: Bent U de Koning van de Joden?",
+            "original_excerpt": "  Pilatus dan gingh wederom in het Rechthuys, ende riep Iesum, ende seyde tot hem, Zijt ghy de Koningh der Ioden?"
+          },
+          {
+            "book": "JHN",
+            "chapter": 18,
+            "verse": 39,
+            "sv2026_excerpt": "…a één loslaat. Wilt u dan dat ik voor u de Koning der Joden loslaat?",
+            "hsv_excerpt": "Maar u hebt   de gewoonte dat ik op het Pascha iemand voor u loslaat. Wilt u dan dat ik de Koning van de Joden voor u loslaat?",
+            "original_excerpt": "Doch ghy hebt   een gewoonte, dat ick u op ’t Pascha eenen los late. Wilt ghy dan dat ick u den Koningh der Ioden los late?"
+          }
+        ]
+      },
+      {
+        "pattern_id": "p-0005",
+        "kind": "fossiel-lidwoord",
+        "key": "der wereld",
+        "frequency": 2,
+        "hsv_alternatives": [],
+        "severity_hint": "hard",
+        "occurrences": [
+          {
+            "book": "JHN",
+            "chapter": 4,
+            "verse": 42,
+            "sv2026_excerpt": "…n dat deze waarlijk de Christus is, de Zaligmaker der wereld.",
+            "hsv_excerpt": "en zij zeiden tegen de vrouw: Wij geloven niet meer om wat u zegt,   want wijzelf hebben Hem gehoord en weten dat Híj werkelijk de Zaligmaker van de wereld is, ",
+            "original_excerpt": "Ende seyden tot de vrouwe, Wy en gelooven niet meer om uwes seggens wille,   want wy selve hebben hem gehoort, ende weten dat dese waerlick is de Christus, de S"
+          },
+          {
+            "book": "JHN",
+            "chapter": 6,
+            "verse": 51,
+            "sv2026_excerpt": "… is   mijn vlees, dat ik geven zal voor het leven der wereld.",
+            "hsv_excerpt": "Ik ben het levende brood, dat uit de hemel neergedaald is;   als iemand van dit brood eet, zal hij leven in eeuwigheid.   En het brood dat Ik geven zal, is Mijn",
+            "original_excerpt": "Ick ben dat   levende broot, dat uyt den hemel neder gedaelt is:   soo yemant van dit broot eet, die sal in der eeuwigheyt leven.   Ende het broot dat ick geven"
+          }
+        ]
+      }
+    ]
+  }
+}
