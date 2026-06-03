@@ -290,6 +290,60 @@
       "generated_at": "2026-06-03T19:10:20.206467Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 31,
+      "original": "$Marc. 3.28. Luce 12.10. 1.Ioan. 5.16.$ Daerom segge ick u, alle sonde ende lasteringe sal den menschen Namel. indien sy haer bekeeren. vergeven worden: maer de lasteringe Dese sonde tegen den H. Geest is, wanneer yemant, niet uyt swackheyt ofte vreese gelijck Petrus, noch uyt onwetenheyt gelijck Paulus, d’Euangelische waerheyt versaeckt ofte bestrijt, maer deselve uyt enckelen haet ende moetwille, tegen de overtuyginge des Heyligen Geests, wederstaet, lastert, ende vervolght. tegen den Geest en sal den menschen Namelick, om datse haer niet en bekeeren, noch door ’t rechtveerdigh oordeel Godts niet bekeert konnen worden. Siet Hebr. 6. vers 4. niet vergeven worden.",
+      "modernized": "$Mk. 3:28; Lk. 12:10; 1Jh. 5:16$ Daarom zeg ik u, alle zonde en lastering zal de mensen <Namelijk, indien zij zich bekeren.> vergeven worden; maar de lastering <Deze zonde tegen de Heilige Geest is, wanneer iemand, niet uit zwakheid of vrees zoals Petrus, noch uit onwetendheid zoals Paulus, de Evangelische waarheid verzaakt of bestrijdt, maar die uit louter haat en moedwil, tegen de overtuiging van de Heilige Geest, wederstaat, lastert, en vervolgt.> tegen de Geest zal de mensen <Namelijk, omdat zij zich niet bekeren, noch door het rechtvaardig oordeel Gods bekeerd kunnen worden. Zie $Hb. 6:4$.> niet vergeven worden.",
+      "source_text": "διὰ τοῦτο λέγω ὑμῖν, Πᾶσα ἁμαρτία καὶ βλασφημία ἀφεθήσεται τοῖς ἀνθρώποις· ἡ δὲ τοῦ Πνεύματος βλασφημία οὐκ ἀφεθήσεται τοῖς ἀνθρώποις.",
+      "generated_at": "2026-06-03T19:14:22.407874Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "subject": "kanttekening-afbakening",
+          "context": "hele vers",
+          "choice": "drie inline-kanttekeningen in <...> gezet",
+          "reason": "de SV1657-invoer levert de kanttekeningen ongemarkeerd (geen <...>) tussen de hoofdtekst; afgebakend op de standaardmarkers Namel./Dese/Namelick conform de parallelplaatsen Mk. 3:28-29 en Lk. 12:10."
+        }
+      ]
+    },
+    {
+      "verse_number": 32,
+      "original": "$1.Sam. 2.25.$ Ende soo wie [eenigh] woort gesproken sal hebben tegen den Sone des menschen, het sal hem vergeven worden: $Numer. 15.30. 1.Ioan. 5.16.$ maer soo wie tegen den Heyligen Geest sal gesproken hebben, het en sal hem niet vergeven worden, D. nimmermeer, gelijck het verklaert wort Marc. 3. vers 29. noch hier noch hier namaels in het uyterste oordeel, het welck oock de toekomende eeuwe genaemt wort, Luce 18. vers 30. noch in dese eeuwe noch in de toekomende.",
+      "modernized": "$1Sm. 2:25$ En zo wie [enig] woord gesproken zal hebben tegen de Zoon des mensen, het zal hem vergeven worden; $Nm. 15:30; 1Jh. 5:16$ maar zo wie tegen de Heilige Geest gesproken zal hebben, het zal hem niet vergeven worden, <Dat is, nimmermeer, zoals het verklaard wordt $Mk. 3:29$.> <Noch hier, noch hiernamaals, in het uiterste oordeel, hetwelk ook de toekomende eeuw genoemd wordt, $Lk. 18:30$.> noch in deze eeuw noch in de toekomende eeuw.",
+      "source_text": "καὶ ὃς ἂν εἴπῃ λόγον κατὰ τοῦ Υἱοῦ τοῦ ἀνθρώπου, ἀφεθήσεται αὐτῷ· ὃς δ’ ἂν εἴπῃ κατὰ τοῦ Πνεύματος τοῦ Ἁγίου, οὐκ ἀφεθήσεται αὐτῷ, οὔτε ἐν τούτῳ τῷ αἰῶνι οὔτε ἐν τῷ μέλλοντι.",
+      "generated_at": "2026-06-03T19:16:11.752511Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "subject": "kanttekening-afbakening en elided eeuw",
+          "context": "slotzin",
+          "choice": "twee inline-kanttekeningen in <...>; de geellipteerde de toekomende [eeuw] aangevuld tot de toekomende eeuw",
+          "reason": "SV1657-invoer levert de kanttekeningen ongemarkeerd; de substantivische de toekomende is geen Latinaat-participium maar het verzwegen zelfstandige eeuw (Gr. tooi mellonti), dat de kanttekening zelf als de toekomende eeuw glosseert; aanvulling vermijdt een schijnbaar bijwoordelijk -ende. den-genitieven geharmoniseerd naar de conform Lk. 12:10."
+        }
+      ]
+    },
+    {
+      "verse_number": 33,
+      "original": "$Matth. 7.18.$ Ofte D. houdt ende oordeelt. maeckt den boom goet, ende sijne vrucht goet: ofte maeckt den boom Gr. verrot. quaet ende sijne vrucht quaet. Want uyt de vrucht wort de boom gekent.",
+      "modernized": "$Mt. 7:18$ Of <Dat is, houdt en oordeelt.> maakt de boom goed, en zijn vrucht goed; of maakt de boom <Grieks: verrot.> slecht en zijn vrucht slecht. Want uit de vrucht wordt de boom gekend.",
+      "source_text": "ἢ ποιήσατε τὸ δένδρον καλόν, καὶ τὸν καρπὸν αὐτοῦ καλόν, ἢ ποιήσατε τὸ δένδρον σαπρόν, καὶ τὸν καρπὸν αὐτοῦ σαπρόν· ἐκ γὰρ τοῦ καρποῦ τὸ δένδρον γινώσκεται.",
+      "generated_at": "2026-06-03T19:16:40.720294Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "subject": "kanttekening-afbakening",
+          "context": "hele vers",
+          "choice": "twee inline-kanttekeningen (D./Gr.) in <...> gezet",
+          "reason": "SV1657-invoer levert de kanttekeningen ongemarkeerd; quaet naar slecht conform Mt. 7:17-18 en Lk. 6:43."
+        }
+      ]
     }
   ]
 }
