@@ -74,6 +74,33 @@
           "reason": "SV1657 heeft het substantivische comparatief en meerder (Gr. meizon); meerdere is de productieve moderne substantiefvorm zonder de zinsbouw of inhoud te wijzigen."
         }
       ]
+    },
+    {
+      "verse_number": 7,
+      "original": "Doch soo ghy geweten haddet, wat het zy, $Hose. 6.6. Mich. 6.8. Matth. 9.13. ende 23.23.$ Ick wil barmhertigheyt ende <Siet hier voren Matth. 9.13.> niet offerande, ghy en soudt de onschuldige niet veroordeelt hebben.",
+      "modernized": "Maar indien u geweten had wat het betekent: $Hs. 6:6; Mi. 6:8; Mt. 9:13; 23:23$ Ik wil barmhartigheid en <Zie hiervoor $Mt. 9:13$.> geen offerande, dan zou u de onschuldigen niet veroordeeld hebben.",
+      "source_text": "εἰ δὲ ἐγνώκειτε τί ἐστιν, Ἔλεον θέλω καὶ οὐ θυσίαν, οὐκ ἂν κατεδικάσατε τοὺς ἀναιτίους.",
+      "generated_at": "2026-06-03T18:37:47.697769Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 8,
+      "original": "$Marc. 2.28. Luce 6.5.$ Want de Sone des menschen is een <D. heeft macht om orden te stellen over de wercken des Sabbaths.> Heere oock van den Sabbath.",
+      "modernized": "$Mk. 2:28; Lk. 6:5$ Want de Zoon des mensen is een <Dat is, heeft macht om orde te stellen over de werken van de Sabbat.> Heere ook van de Sabbat.",
+      "source_text": "Κύριος γάρ ἐστι καὶ τοῦ σαββάτου ὁ Υἱὸς τοῦ ἀνθρώπου.",
+      "generated_at": "2026-06-03T18:38:14.070663Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 9,
+      "original": "$Marc. 3.1. Luce 6.6.$ Ende van daer voortgaende, quam hy in hare Synagoge.",
+      "modernized": "$Mk. 3:1; Lk. 6:6$ En van daar verdergaande, kwam hij in hun Synagoge.",
+      "source_text": "Καὶ μεταβὰς ἐκεῖθεν ἦλθεν εἰς τὴν συναγωγὴν αὐτῶν.",
+      "generated_at": "2026-06-03T18:38:31.652443Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
