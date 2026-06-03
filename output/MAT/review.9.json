@@ -1,7 +1,7 @@
 {
   "book": "MAT",
   "chapter": 9,
-  "reviewed_at": "2026-06-03T06:06:26+00:00",
+  "reviewed_at": "2026-06-03T06:08:16+00:00",
   "passes": [
     {
       "pass": 1,
@@ -20,6 +20,15 @@
         "MAT-9-1-001: rebuttal verified",
         "MAT-9-11-001: reopened (te generiek)",
         "MAT-9-14-001: rebuttal verified"
+      ]
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-06-03T06:08:16+00:00",
+      "mode": "verify",
+      "actions": [
+        "MAT-9-30-001: verified",
+        "MAT-9-11-001: rebuttal verified"
       ]
     }
   ],
@@ -62,9 +71,10 @@
       "proposed_fix": "Let erop dat niemand het weet.",
       "location": "hoofdtekst",
       "id": "MAT-9-30-001",
-      "status": "fixed",
+      "status": "verified",
       "fix_commit": "PENDING",
-      "verify_note": "fix loste het patroon niet op"
+      "verify_note": "fix loste het patroon niet op",
+      "verified_at": "2026-06-03T06:08:16+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -100,9 +110,10 @@
         34
       ],
       "id": "MAT-9-11-001",
-      "status": "rebutted",
+      "status": "verified",
       "rebuttal": "False-positive scanner-prefix-heuristiek (F/Ph-spellingsmodernisatie). SV 'Pharizeen' (Gr. Pharisaioi) wordt binnen MAT 9 zelf consequent als 'Farizeeen' weergegeven: v11 'de Farizeeen', v14 'de Farizeeen', v34 'de Farizeeen'. Volledige interne concordantie in dit hoofdstuk; geen drift, enkel orthografische modernisatie ph->f die de prefix-match mist.",
-      "verify_note": "rebuttal noemt geen regel (§), geen Griekse term en geen vers-specifiek argument — voeg referentie toe"
+      "verify_note": "rebuttal noemt geen regel (§), geen Griekse term en geen vers-specifiek argument — voeg referentie toe",
+      "verified_at": "2026-06-03T06:08:16+00:00"
     },
     {
       "category": "concordantie-drift",
