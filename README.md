@@ -50,9 +50,11 @@ voorbeeld-PDF om te lezen. **✓** = alle hoofdstukken gemoderniseerd ·
 
 | Boek | | Hoofdstukken | Voorbeeld |
 |------|---|:---:|:---:|
+| Mattheüs | Evangelie | ◐ 6/28 | - |
 | Markus | Evangelie | ✓ 16/16 | [PDF](parallelbijbel/MRK_voorbeeld.pdf) |
 | Lucas | Evangelie | ✓ 24/24 | [PDF](parallelbijbel/LUK_voorbeeld.pdf) |
 | Johannes | Evangelie | ✓ 21/21 | [PDF](parallelbijbel/JHN_voorbeeld.pdf) |
+| Handelingen | geschiedenis | ◐ 0/28 | - |
 | Romeinen | brief | ✓ 16/16 | [PDF](parallelbijbel/ROM_voorbeeld.pdf) |
 | 1 Korinthiërs | brief | ✓ 16/16 | [PDF](parallelbijbel/1CO_voorbeeld.pdf) |
 | 2 Korinthiërs | brief | ✓ 13/13 | [PDF](parallelbijbel/2CO_voorbeeld.pdf) |
