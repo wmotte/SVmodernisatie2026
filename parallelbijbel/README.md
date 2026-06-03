@@ -12,9 +12,11 @@ Op volgorde van de NT-canon. `build/<BOEK>.pdf` is de volledige uitgave,
 
 | Code | Titel | Volledig | Voorbeeld |
 |---|---|---|---|
+| MAT | Het Evangelie naar Matteüs | [MAT.pdf](build/MAT.pdf) | [MAT_voorbeeld.pdf](MAT_voorbeeld.pdf) |
 | MRK | Het Evangelie naar Marcus | [MRK.pdf](build/MRK.pdf) | [MRK_voorbeeld.pdf](MRK_voorbeeld.pdf) |
 | LUK | Het Evangelie naar Lucas | [LUK.pdf](build/LUK.pdf) | [LUK_voorbeeld.pdf](LUK_voorbeeld.pdf) |
 | JHN | Het Evangelie naar Johannes | [JHN.pdf](build/JHN.pdf) | [JHN_voorbeeld.pdf](JHN_voorbeeld.pdf) |
+| ACT | De Handelingen der Apostelen | [ACT.pdf](build/ACT.pdf) | [ACT_voorbeeld.pdf](ACT_voorbeeld.pdf) |
 | ROM | De brief van Paulus aan de Romeinen | [ROM.pdf](build/ROM.pdf) | [ROM_voorbeeld.pdf](ROM_voorbeeld.pdf) |
 | 1CO | De eerste brief van Paulus aan de Korintiërs | [1CO.pdf](build/1CO.pdf) | [1CO_voorbeeld.pdf](1CO_voorbeeld.pdf) |
 | 2CO | De tweede brief van Paulus aan de Korintiërs | [2CO.pdf](build/2CO.pdf) | [2CO_voorbeeld.pdf](2CO_voorbeeld.pdf) |

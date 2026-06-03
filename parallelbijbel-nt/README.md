@@ -24,8 +24,8 @@ gedrukte TOC — gestuurd via `tocdepth=1` + `bookmarksdepth=2`).
 `NT.pdf` (gepubliceerd in deze map) — de volledige uitgave.
 `build/NT.{tex,pdf,aux,log,...}` — bouw-artefacten (niet getrackt).
 
-Boeken zonder output (bv. **ACT**) worden stilzwijgend overgeslagen;
-gedeeltelijk afgewerkte boeken (bv. **MAT** = 8 hoofdstukken) worden
+Boeken zonder output worden stilzwijgend overgeslagen;
+gedeeltelijk afgewerkte boeken (bv. **MAT** = 11 hoofdstukken) worden
 opgenomen voor zover de hoofdstukken bestaan.
 
 ## Bouwen
