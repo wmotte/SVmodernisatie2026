@@ -50,7 +50,7 @@ voorbeeld-PDF om te lezen. **✓** = alle hoofdstukken gemoderniseerd ·
 
 | Boek | | Hoofdstukken | Voorbeeld |
 |------|---|:---:|:---:|
-| Mattheüs | Evangelie | ◐ 6/28 | - |
+| Mattheüs | Evangelie | ◐ 8/28 | [PDF](parallelbijbel/MAT_voorbeeld.pdf) |
 | Markus | Evangelie | ✓ 16/16 | [PDF](parallelbijbel/MRK_voorbeeld.pdf) |
 | Lucas | Evangelie | ✓ 24/24 | [PDF](parallelbijbel/LUK_voorbeeld.pdf) |
 | Johannes | Evangelie | ✓ 21/21 | [PDF](parallelbijbel/JHN_voorbeeld.pdf) |
