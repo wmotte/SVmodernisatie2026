@@ -148,6 +148,46 @@
       "generated_at": "2026-06-03T04:42:11.181643Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 16,
+      "original": "Ende als het Ofte, avont. laet geworden was, hebben sy vele van den duyvel beseten tot hem gebracht, ende hy wierp de [boose] geesten uyt <D. door sijn bevel alleen.> met den woorde, ende hy genas <Namelick, die tot hem quamen, ofte gebracht wierden. siet Matth. 4.24.> alle die qualick gestelt w ren.",
+      "modernized": "En toen het <Of, avond.> laat geworden was, hebben zij velen die door de duivel bezeten waren tot hem gebracht, en hij wierp de [boze] geesten uit <dat is, door zijn bevel alleen.> met het woord, en hij genas <Namelijk, die tot hem kwamen, of gebracht werden. Zie $Mt. 4:24$.> allen die ziek waren.",
+      "source_text": "ὀψίας δὲ γενομένης προσήνεγκαν αὐτῷ δαιμονιζομένους πολλούς· καὶ ἐξέβαλε τὰ πνεύματα λόγῳ, καὶ πάντας τοὺς κακῶς ἔχοντας ἐθεράπευσεν·",
+      "generated_at": "2026-06-03T04:47:14.076937Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "subject": "Ofte, avont.",
+          "context": "hoofdtekst voor \"laat geworden\"",
+          "choice": "weergegeven als kanttekeningachtige gloss <Of, avond.>",
+          "alternatives": [
+            "weglaten",
+            "als lopende hoofdtekst behouden"
+          ],
+          "reason": "de invoer mist hier hoekhaken, maar de vorm functioneert als alternatieve gloss en niet als lopende zinsinhoud."
+        }
+      ]
+    },
+    {
+      "verse_number": 17,
+      "original": "Op dat vervult soude worden, dat gesproken was door <Dit wort Iesa. cap. 53. vers 4. voornamelick van onse geestelicke kranckheden ende sieckten verstaen, dat is, van onse sonden, die Christus van ons op hem geladen heeft, om daer voor genoegh te doen, ende daer mede ons van deselve te verlossen: ’t welck hy met de genesinge van lichamelicke sieckten oock heeft te verstaen gegeven.> Iesaiam den Propheet, seggende, $Iesa. 53.4. 1.Petr. 2.24.$ Hy heeft onse kranckheden [op hem] genomen, ende [onse] sieckten gedragen.",
+      "modernized": "Opdat vervuld zou worden wat gesproken was door <Dit heeft in $Js. 53:4$ voornamelijk betrekking op onze geestelijke zwakheden en ziekten, dat is, op onze zonden, die Christus van ons op zich geladen heeft, om daarvoor genoegdoening te doen en ons daarmee daarvan te verlossen; wat hij met de genezing van lichamelijke ziekten ook te verstaan heeft gegeven.> Jesaja, de Profeet, die zei: $Js. 53:4; 1Pt. 2:24$ Hij heeft onze zwakheden [op zich] genomen en [onze] ziekten gedragen.",
+      "source_text": "ὅπως πληρωθῇ τὸ ῥηθὲν διὰ Ἠσαΐου τοῦ προφήτου, λέγοντος, Αὐτὸς τὰς ἀσθενείας ἡμῶν ἔλαβε, καὶ τὰς νόσους ἐβάστασεν.",
+      "generated_at": "2026-06-03T04:48:18.414085Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 18,
+      "original": "Ende Iesus vele scharen siende rontom hem, beval <Namelick, van ’t Galileesche meyr, na der Gergesener lant, tegen over Capernaum. Siet versen 5, 28.> aen de andere zijde over te varen.",
+      "modernized": "En toen Jezus vele scharen rondom hem zag, beval hij <Namelijk, van het Galilese meer, naar het land van de Gergesenen, tegenover Kapernaüm. Zie verzen 5, 28.> naar de andere zijde over te varen.",
+      "source_text": "Ἰδὼν δὲ ὁ Ἰησοῦς πολλοὺς ὄχλους περὶ αὐτόν, ἐκέλευσεν ἀπελθεῖν εἰς τὸ πέραν.",
+      "generated_at": "2026-06-03T04:48:56.551551Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
