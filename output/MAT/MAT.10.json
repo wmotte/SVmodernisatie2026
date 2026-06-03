@@ -388,6 +388,43 @@
           "reason": "zonder de punt parseerde bibref de losse 33 verkeerd en lekte een 3 in de volgende verwijzing (Jh. werd 3Jh.); met punt levert het correcte $... Lk. 9:24; 17:33; Jh. 12:25$"
         }
       ]
+    },
+    {
+      "verse_number": 40,
+      "original": "$Luce 10.16. Ioan. 13.20.$ Die u ontfanght, ontfanght my: ende die my ontfanght, ontfanght hem, die my gesonden heeft.",
+      "modernized": "$Lk. 10:16; Jh. 13:20$ Die u ontvangt, ontvangt mij; en die mij ontvangt, ontvangt hem die mij gezonden heeft.",
+      "source_text": "Ὁ δεχόμενος ὑμᾶς ἐμὲ δέχεται· καὶ ὁ ἐμὲ δεχόμενος δέχεται τὸν ἀποστείλαντά με.",
+      "generated_at": "2026-06-03T08:34:41.920945Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 41,
+      "original": "$1.Reg. 17.10. ende 18.4. 2.Reg. 4.8.$ Die eenen Propheet ontfanght D. om dies wille, dat hy een Propheet ofte oprecht Leeraer is des Heyligen Euangeliums. in den naem eens Propheten, sal den loon eens Propheten ontfangen: ende die eenen rechtveerdigen ontfanght in den naem eens rechtveerdigen, sal den loon eens rechtveerdigen ontfangen.",
+      "modernized": "$1Kn. 17:10; 18:4; 2Kn. 4:8$ Die een Profeet ontvangt <dat is, omwille daarvan, dat hij een Profeet of oprecht Leraar van het Heilige Evangelie is.> in de naam van een Profeet, zal het loon van een Profeet ontvangen; en die een rechtvaardige ontvangt in de naam van een rechtvaardige, zal het loon van een rechtvaardige ontvangen.",
+      "source_text": "ὁ δεχόμενος προφήτην εἰς ὄνομα προφήτου μισθὸν προφήτου λήψεται· καὶ ὁ δεχόμενος δίκαιον εἰς ὄνομα δικαίου μισθὸν δικαίου λήψεται.",
+      "generated_at": "2026-06-03T08:34:46.796435Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 42,
+      "original": "$Matth. 25.40. Marc. 9 41. Hebr. 6.10.$ Ende soo wie een van dese D. die hier kleyn geacht worden: ofte die voor de allerminste soude mogen gereeckent worden. kleyne te drincken geeft alleenlick D. oock de allerminste dienst ofte weldaet, om dat hy een recht discipel ende lidtmaet Christi is. eenen beker koudt [waters,] in den name eens discipels, voorwaer segge ick u, hy en sal sijnen loon geensins verliesen.",
+      "modernized": "$Mt. 25:40; Mk. 9:41; Hb. 6:10$ En wie een van deze <dat is, die hier klein geacht worden, of die voor de allergeringste gerekend zouden mogen worden.> kleinen alleen <dat is, ook de allergeringste dienst of weldaad, omdat hij een echt discipel en lidmaat van Christus is.> een beker koud [water] te drinken geeft in de naam van een discipel, voorwaar, ik zeg u: hij zal zijn loon geenszins verliezen.",
+      "source_text": "καὶ ὃς ἐὰν ποτίσῃ ἕνα τῶν μικρῶν τούτων ποτήριον ψυχροῦ μόνον εἰς ὄνομα μαθητοῦ, ἀμὴν λέγω ὑμῖν, οὐ μὴ ἀπολέσῃ τὸν μισθὸν αὐτοῦ.",
+      "generated_at": "2026-06-03T08:34:53.470803Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "subject": "bijbelref Mk. 9:41",
+          "context": "openingsref van vers 42",
+          "choice": "genormaliseerd naar Mk. 9:41",
+          "alternatives": [],
+          "reason": "de brontekst schrijft Marc. 9 41 (spatie i.p.v. punt na 9), een drukfout; met de correcte scheiding normaliseert bibref naar Mk. 9:41; Hb. 6:10."
+        }
+      ]
     }
   ]
 }
