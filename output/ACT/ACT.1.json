@@ -47,6 +47,33 @@
           "reason": "bibref.py normaliseert hoofdstuk-only (Luce c. 24.) en multi-hoofdstuk (Ioan. capp. 20. 21.) refs niet naar het $...$-formaat; proza voorkomt corruptie en een losse-bibref-validatorfout"
         }
       ]
+    },
+    {
+      "verse_number": 4,
+      "original": "$Luce 24.48, 49.$ Ende <Ofte, als hyse by een vergadert hadde.> als hy met [haer] vergadert was, beval hy haer, dat sy van Ierusalem niet scheyden en souden, maer verwachten <D. den Heyligen Geest, dien de Vader door hem belooft hadde haer te sullen senden, Luce 24.49. Ioan. 14.26.> de beloften des Vaders, $Ioan. 14.26. ende 15.26. ende 16.7.$ die ghy (seyde hy) van my gehoort hebt.",
+      "modernized": "$Lk. 24:48,49$ En <Of, toen hij hen bijeen vergaderd had.> toen hij met [hen] vergaderd was, beval hij hun dat zij niet van Jeruzalem zouden scheiden, maar zouden verwachten <Dat is, de Heilige Geest, die de Vader door hem beloofd had hun te zullen zenden, $Lk. 24:49; Jh. 14:26$.> de belofte van de Vader, $Jh. 14:26; 15:26; 16:7$ die u (zei hij) van mij gehoord hebt.",
+      "source_text": "καὶ συναλιζόμενος παρήγγειλεν αὐτοῖς ἀπὸ Ἱεροσολύμων μὴ χωρίζεσθαι, ἀλλὰ περιμένειν τὴν ἐπαγγελίαν τοῦ Πατρός, ἣν ἠκούσατέ μου·",
+      "generated_at": "2026-06-03T17:40:53.165964Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 5,
+      "original": "$Matth. 3.11. Marc. 1.8. Luce 3.16. Ioan. 1.26. Actor. 11.16. ende 19.4.$ Want Ioannes doopte wel met water, $Iesa. 44.3. Ioël 2.28. Actor. 2.4. ende 11.15.$ maer ghy sult <Gr. in den Heyligen Geest, namelick, dien ick op den Pincksterdagh als water over u sal uytstorten. Het selve voorseght oock Ioannes de Dooper, Matth. cap. 3. vers 11.> met den Heyligen Geest gedoopt worden, <Gr. niet na vele dese dagen, namelick, tien dagen daer na.> niet lange na dese dagen.",
+      "modernized": "$Mt. 3:11; Mk. 1:8; Lk. 3:16; Jh. 1:26; Hd. 11:16; 19:4$ Want Johannes doopte wel met water, $Js. 44:3; Jl. 2:28; Hd. 2:4; 11:15$ maar u zult <Grieks: in de Heilige Geest, namelijk, die ik op de Pinksterdag als water over u zal uitstorten. Hetzelfde voorzegt ook Johannes de Doper, $Mt. 3:11$.> met de Heilige Geest gedoopt worden, <Grieks: niet na vele van deze dagen, namelijk, tien dagen daarna.> niet lang na deze dagen.",
+      "source_text": "ὅτι Ἰωάννης μὲν ἐβάπτισεν ὕδατι, ὑμεῖς δὲ βαπτισθήσεσθε ἐν Πνεύματι Ἁγίῳ οὐ μετὰ πολλὰς ταύτας ἡμέρας.",
+      "generated_at": "2026-06-03T17:41:29.541258Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 6,
+      "original": "Sy dan die te samen gekomen waren vraeghden hem, seggende, $Matth. cap. 24. vers 3.$ Heere, sult ghy in desen tijt <Dat is, aen het volck ofte nakomelingen Israëls.> aen Israël <Namelick, het welck de Propheten te voren hebben geseght, door den Messiam te sullen opgerecht worden, ende sy noch meynden, na de gemeyne dwalinge, een wereltsch Koninckrijck te sullen zijn.> het Koninckrijck weder oprechten?",
+      "modernized": "Zij die dan samengekomen waren, vroegen hem en zeiden: $Mt. 24:3$ Heere, zult u in deze tijd <Dat is, aan het volk of de nakomelingen van Israël.> aan Israël <Namelijk, hetwelk de Profeten tevoren gezegd hebben door de Messias opgericht te zullen worden, en zij meenden nog, naar de algemene dwaling, dat het een wereldlijk Koninkrijk zou zijn.> het Koninkrijk weer oprichten?",
+      "source_text": "Οἱ μὲν οὖν συνελθόντες ἐπηρώτων αὐτὸν λέγοντες, Κύριε, εἰ ἐν τῷ χρόνῳ τούτῳ ἀποκαθιστάνεις τὴν βασιλείαν τῷ Ἰσραήλ;",
+      "generated_at": "2026-06-03T17:42:04.415419Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
