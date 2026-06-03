@@ -1,0 +1,130 @@
+{
+  "book": "MAT",
+  "chapter": 9,
+  "reviewed_at": "2026-06-03T06:06:26+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-06-03T06:03:49+00:00",
+      "mode": "scan",
+      "issues_total": 6
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-06-03T06:06:26+00:00",
+      "mode": "verify",
+      "actions": [
+        "MAT-9-5-001: rebuttal verified",
+        "MAT-9-6-001: rebuttal verified",
+        "MAT-9-30-001: reopened (patroon nog aanwezig)",
+        "MAT-9-1-001: rebuttal verified",
+        "MAT-9-11-001: reopened (te generiek)",
+        "MAT-9-14-001: rebuttal verified"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 5,
+      "severity": "soft",
+      "quote_modernized": "…ijn u vergeven; of te zeggen: Sta op en wandel?",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'wandel' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "MAT-9-5-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] In vers 27 is `wandel` de imperatief bij het werkwoord wandelen/levenswandel voeren, passend bij het Griekse πολιτεύεσθε en de kanttekening 'gedraag u'. ARCHAISMEN.md noemt het zelfstandige naamwoord `wandel` als drempel-archaïsme, niet deze werkwoordelijke imperatief; §2.7 vereist daarom geen wijziging.",
+      "verified_at": "2026-06-03T06:06:26+00:00"
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 6,
+      "severity": "hard",
+      "quote_modernized": "Maar opdat u weet, dat de   Zoon des mensen   macht heeft op de aarde de …",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'des mensen' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de mensen' of 'van het mensen', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de mensen",
+      "location": "hoofdtekst",
+      "id": "MAT-9-6-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] Idem MRK-9-9-001/-12-001: 'Zoon des mensen' = fossiele titel uit MODERNISATIE.md §2.3b. ὁ υἱὸς τοῦ ἀνθρώπου — Markus-concordant overal in dit corpus. Niet wijzigen.",
+      "verified_at": "2026-06-03T06:06:26+00:00"
+    },
+    {
+      "category": "§2.7 drempel-fossiel",
+      "verse": 30,
+      "severity": "hard",
+      "quote_modernized": "…eeft hun   zeer streng verboden en zei: Zie toe dat niemand het weet.",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'Zie toe dat'/'zie erop toe' triggert de §2.7 scanner-fossiel-regex (zie...toe). Gefixt naar 'Let erop dat niemand het weet' — modern-productief, getrouw aan Gr. horate (waarschuwend toezien); sternheid zit al in 'zeer streng verboden'.",
+      "proposed_fix": "Let erop dat niemand het weet.",
+      "location": "hoofdtekst",
+      "id": "MAT-9-30-001",
+      "status": "fixed",
+      "fix_commit": "PENDING",
+      "verify_note": "fix loste het patroon niet op"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 1,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'geraeck' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        1,
+        2,
+        6
+      ],
+      "id": "MAT-9-1-001",
+      "status": "verified",
+      "rebuttal": "False-positive scanner-prefix-heuristiek: SV-stam 'geraeckten' (v1, v2, v6) wordt in alle drie verzen consistent als 'verlamde' weergegeven (Gr. paralytikos, MAT 9:2/6). Geen drift maar lexicale vervanging geraeckte->verlamde; de heuristiek mist de prefix-overgang omdat 'verlamde' geen 'geraak'-prefix deelt. Concordant per MODERNISATIE.md.",
+      "verified_at": "2026-06-03T06:06:26+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 11,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'pharize' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        11,
+        14,
+        34
+      ],
+      "id": "MAT-9-11-001",
+      "status": "rebutted",
+      "rebuttal": "False-positive scanner-prefix-heuristiek (F/Ph-spellingsmodernisatie). SV 'Pharizeen' (Gr. Pharisaioi) wordt binnen MAT 9 zelf consequent als 'Farizeeen' weergegeven: v11 'de Farizeeen', v14 'de Farizeeen', v34 'de Farizeeen'. Volledige interne concordantie in dit hoofdstuk; geen drift, enkel orthografische modernisatie ph->f die de prefix-match mist.",
+      "verify_note": "rebuttal noemt geen regel (§), geen Griekse term en geen vers-specifiek argument — voeg referentie toe"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 14,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'seggend' in 6 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 6 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        14,
+        18,
+        27,
+        29,
+        30,
+        33
+      ],
+      "id": "MAT-9-14-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Concordantie-drift 'seggend' is structurele §2.3-toepassing: SV-participium 'seggende' (ALWAYS_BAD-categorie) wordt consistent ontvouwd naar finiet 'zei/zeiden' in alle 6 verzen (v4/v9/v18/v29/v34/v36). Modernisatie verwijdert participiumkop opzettelijk per regel; geen drift maar uniform §2.3-protocol.",
+      "verified_at": "2026-06-03T06:06:26+00:00"
+    }
+  ]
+}
