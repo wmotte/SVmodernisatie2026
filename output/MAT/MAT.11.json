@@ -175,6 +175,46 @@
       "generated_at": "2026-06-03T17:59:57.472659Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 19,
+      "original": "De Sone des menschen is gekomen, etende ende drinckende, ende sy seggen, Siet daer, een mensche [die] een vraet, ende wijnsuyper [is,] een vrient van tollenaren ende sondaren. Doch de wijsheyt is <Dat is, Christus, die de wijsheyt des Vaders genoemt wort, Prov. 8.12, etc. 1.Corinth. 1.24. ofte sijne leere is voor goet ende recht bekent, ende ontfangen geweest, van hare rechte discipelen.> gerechtveerdight geworden van hare kinderen.",
+      "modernized": "De Zoon des mensen is gekomen, hij eet en drinkt, en zij zeggen: Zie daar, een mens [die] een vraat en wijnzuiper [is,] een vriend van tollenaars en zondaars. Maar de wijsheid is <Dat is, Christus, die de wijsheid van de Vader genoemd wordt, $Sp. 8:12$. enz. $1Kor. 1:24$. of zijn leer is voor goed en recht erkend en aangenomen geweest door haar rechte discipelen.> gerechtvaardigd geworden door haar kinderen.",
+      "source_text": "ἦλθεν ὁ Υἱὸς τοῦ ἀνθρώπου ἐσθίων καὶ πίνων, καὶ λέγουσιν, Ἰδού, ἄνθρωπος φάγος καὶ οἰνοπότης, τελωνῶν φίλος καὶ ἁμαρτωλῶν. καὶ ἐδικαιώθη ἡ σοφία ἀπὸ τῶν τέκνων αὐτῆς.",
+      "generated_at": "2026-06-03T18:03:18.311517Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 20,
+      "original": "$Luce cap. 10. vers 13.$ Doe begon hy de steden, in dewelcke sijne krachten meest geschiet waren, te <D. tot harer schande te bestraffen ende het wee te dreygen.> verwijten, om datse haer niet bekeert en hadden.",
+      "modernized": "$Lk. 10:13$ Toen begon hij de steden waarin zijn krachten het meest gebeurd waren te <Dat is, om hen tot hun schande te bestraffen en het wee te dreigen.> verwijten, omdat zij zich niet bekeerd hadden.",
+      "source_text": "Τότε ἤρξατο ὀνειδίζειν τὰς πόλεις ἐν αἷς ἐγένοντο αἱ πλεῖσται δυνάμεις αὐτοῦ, ὅτι οὐ μετενόησαν.",
+      "generated_at": "2026-06-03T18:03:44.999344Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 21,
+      "original": "Wee u Chorazin, wee u Bethsaida: Want soo in <Dit waren twee steden der Heydenen aen de middellantsche zee in Phenicien gelegen, die eertijts in groote weelde, pracht, ende dertelheyt leefden. siet Iesai. cap. 23. en Ezech. cap. 26. ende 27.> Tyrus ende Sidon de krachten waren geschiet, die in u geschiet zijn, sy souden haer <Namelick, als sy noch in haren bloeijenden staet ende weelde waren, eerse van Alexander de Groote met gewelt ingenomen ende verwoest waren.> eertijts in $2.Sam. 13.19. 2.Reg. 6.30. ende 19.1.$ <Met sulcke teeckenen wiert eertijts de boetveerdigheyt betoont. Siet Iesa. 58.5. Dan. 9.3. Ione 3.6. Thren. 2.10.> sack ende assche bekeert hebben.",
+      "modernized": "Wee u, Chorazin, wee u, Betsaïda: Want indien in <Dit waren twee steden van de Heidenen aan de middellandse zee in Fenicië gelegen, die vroeger in grote weelde, pracht en dartelheid leefden. Zie Jesaja hoofdstuk 23 en Ezechiël hoofdstuk 26 en 27.> Tyrus en Sidon de krachten waren gebeurd die in u gebeurd zijn, zij zouden zich <Namelijk, toen zij nog in hun bloeiende staat en weelde waren, voordat zij door Alexander de Grote met geweld ingenomen en verwoest waren.> allang in $2Sm. 13:19; 2Kn. 6:30; 19:1$ <Met zulke tekenen werd vroeger de boetvaardigheid betoond. Zie $Js. 58:5; Dn. 9:3; Jn. 3:6; Kl. 2:10$.> zak en as bekeerd hebben.",
+      "source_text": "Οὐαί σοι, Χοραζίν, οὐαί σοι, Βηθσαϊδάν, ὅτι εἰ ἐν Τύρῳ καὶ Σιδῶνι ἐγένοντο αἱ δυνάμεις αἱ γενόμεναι ἐν ὑμῖν, πάλαι ἂν ἐν σάκκῳ καὶ σποδῷ μετενόησαν.",
+      "generated_at": "2026-06-03T18:04:44.292385Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "subject": "hoofdstuk-only verwijzingen",
+          "context": "kanttekening 1",
+          "choice": "Jesaja hoofdstuk 23 en Ezechiël hoofdstuk 26 en 27 als proza gerenderd",
+          "alternatives": [
+            "$Js. 23$",
+            "$Ez. 26$"
+          ],
+          "reason": "hoofdstuk-only refs zonder vers worden als proza weergegeven om corruptie van het $...$-formaat te vermijden"
+        }
+      ]
     }
   ]
 }
