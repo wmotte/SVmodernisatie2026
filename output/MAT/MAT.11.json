@@ -1,0 +1,45 @@
+{
+  "book": "MATT",
+  "chapter": 11,
+  "introduction": {
+    "original": "1 Ioannes de Dooper in de gevangenisse zijnde sendt twee discipelen tot Christum. 4 Den welcken Christus uyt sijne leere ende wercken bewijst, dat hy de beloofde Messias is. 7 Geeft tot den volcke van Ioannis persoon ende ampt een heerlicke getuygenisse. 16 Verwijt den Ioden onder sekere gelijckenisse hare onbekeerlickheyt. 20 ende dreyght daerom de steden van Chorazin ende Bethsaida, ende Capernaum met seer sware straffen. 25 Stelt daer tegen het welbehagen sijns vaders in ’t onderwijsen der kleyne. 28 Noodt alle vermoeyde sondaers tot hem, ende belooft den selven verquickinge.",
+    "modernized": "1 Johannes de Doper zendt, terwijl hij in de gevangenis is, twee discipelen tot Christus. 4 Aan wie Christus uit zijn leer en werken bewijst, dat hij de beloofde Messias is. 7 Geeft tegenover het volk een heerlijke getuigenis van Johannes' persoon en ambt. 16 Verwijt de Joden onder zekere gelijkenis hun onbekeerlijkheid. 20 en dreigt daarom de steden Chorazin en Betsaïda, en Kafarnaüm met zeer zware straffen. 25 Stelt daartegenover het welbehagen van zijn Vader in het onderwijzen van de kleinen. 28 Nodigt alle vermoeide zondaars tot hem, en belooft hun verkwikking.",
+    "generated_at": "2026-06-03T17:36:29.900344Z",
+    "model": "claude-opus-4-7[1m]"
+  },
+  "verses": [
+    {
+      "verse_number": 1,
+      "original": "ENde het is geschiet, doe Iesus ge-eyndight hadde sijne twaelf discipelen <Namelick, die in’t voorgaende Capittel verhaelt staen.> bevelen te geven, dat hy van daer voort gingh, om te leeren ende prediken in <Namelick, van Galileen, van waer sijne discipelen waren. siet Actor. 2.7.> hare steden.",
+      "modernized": "En het is gebeurd, toen Jezus geëindigd had zijn twaalf discipelen <Namelijk, die in het voorgaande hoofdstuk verhaald staan.> bevelen te geven, dat hij vandaar verder ging, om te onderwijzen en te prediken in <Namelijk, van Galilea, vanwaar zijn discipelen waren. Zie $Hd. 2:7$.> hun steden.",
+      "source_text": "Καὶ ἐγένετο ὅτε ἐτέλεσεν ὁ Ἰησοῦς διατάσσων τοῖς δώδεκα μαθηταῖς αὐτοῦ, μετέβη ἐκεῖθεν τοῦ διδάσκειν καὶ κηρύσσειν ἐν ταῖς πόλεσιν αὐτῶν.",
+      "generated_at": "2026-06-03T17:36:18.277670Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "reason": "Hoofdwerkwoord ἐτέλεσεν / SV 'ge-eyndight hadde' hersteld als 'geëindigd had ... bevelen te geven'; eerdere versie liet 'geëindigd' weg en voegde een tweede possessief 'zijn bevelen' toe (niet in SV/Grieks). HSV-spiegel bevestigt ('geëindigd had ... opdrachten te geven')."
+        }
+      ]
+    },
+    {
+      "verse_number": 2,
+      "original": "$Luce 7.18.$ Ende Ioannes in de <Siet van de oorsake ende het eynde deser gevangenisse Ioannis des Doopers, Matt. cap. 14. ende Marc. cap. 6.> gevangenisse gehoort hebbende <D. wonderteeckenen ofte mirakelen.> de wercken Christi, sandt twee van sijne discipelen.",
+      "modernized": "$Lk. 7:18$ En toen Johannes in de <Zie over de oorzaak en het einde van deze gevangenschap van Johannes de Doper, Matteüs hoofdstuk 14 en Markus hoofdstuk 6.> gevangenis de <Dat is, wonderdaden of mirakelen.> werken van Christus had gehoord, zond hij twee van zijn discipelen.",
+      "source_text": "Ὁ δὲ Ἰωάννης ἀκούσας ἐν τῷ δεσμωτηρίῳ τὰ ἔργα τοῦ Χριστοῦ, πέμψας δύο τῶν μαθητῶν αὐτοῦ,",
+      "generated_at": "2026-06-03T17:37:12.612879Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 3,
+      "original": "Ende <Dat is, liet hem seggen.> seyde tot hem, Zijt ghy de gene <D. de Messias door de Propheten belooft. Dit doet Ioannes vragen, niet om dat hy selve daer aen twijfelde: Want hy hadde lange te voren sulcks opentlick betuyght, Ioan. 1.29. maer om uyt d’antwoorde Christi oorsake te nemen, om sijne discipelen, die daer aen noch eenighsins twijffelden, hier van daer na breeder te onderrichten.> die komen soude, of verwachten wy eenen anderen?",
+      "modernized": "En hij <Dat is, liet hem zeggen.> zei tot hem: Bent u degene <Dat is, de Messias die door de Profeten beloofd is. Dit laat Johannes vragen, niet omdat hij er zelf aan twijfelde: want hij had lang tevoren dit openlijk betuigd, $Jh. 1:29$; maar om uit het antwoord van Christus aanleiding te nemen, om zijn discipelen, die er nog enigszins aan twijfelden, hiervan daarna uitvoeriger te onderrichten.> die komen zou, of verwachten wij een ander?",
+      "source_text": "εἶπεν αὐτῷ, Σὺ εἶ ὁ ἐρχόμενος, ἢ ἕτερον προσδοκῶμεν;",
+      "generated_at": "2026-06-03T17:37:43.464157Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    }
+  ]
+}
