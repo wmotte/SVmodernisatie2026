@@ -280,24 +280,36 @@
     },
     {
       "verse_number": 37,
-      "status": "pending",
-      "sv2026": "",
+      "status": "modernized",
+      "sv2026": "$Lk. 14:26$ Wie vader of moeder liefheeft boven mij, is mij niet waardig; en wie zoon of dochter liefheeft boven mij, is mij niet waardig.",
       "hsv": "$Luk. 14:26$ Wie vader of moeder liefheeft boven Mij, is Mij niet waard; en wie zoon of dochter liefheeft boven Mij, is Mij niet waard.",
       "original": "$Luce 14.26.$ Die vader of moeder lief heeft boven my, en is mijns niet weerdigh: ende die sone ofte dochter lief heeft boven my, en is mijns niet weerdigh."
     },
     {
       "verse_number": 38,
-      "status": "pending",
-      "sv2026": "",
+      "status": "modernized",
+      "sv2026": "$Mt. 16:24; Mk. 8:34; Lk. 9:23; 14:27$ En wie zijn kruis niet [op zich] neemt, en mij navolgt, is mij niet waardig.",
       "hsv": "$Matt. 16:24; Mark. 8:34; Luk. 9:23; 14:27$ En wie zijn kruis niet [op zich] neemt en Mij navolgt, is Mij niet waard.",
       "original": "$Matth. 16.24. Marc. 8.34. Luce 9.23. ende 14.27.$ Ende die sijn kruyce niet [op hem] en neemt, ende my na en volght, en is mijns niet weerdigh."
     },
     {
       "verse_number": 39,
-      "status": "pending",
-      "sv2026": "",
+      "status": "modernized",
+      "sv2026": "$Mt. 16:25; Mk. 8:35; Lk. 9:24; 17:33; Jh. 12:25$ Wie zijn <dat is, wie zijn leven zal willen behouden met verloochening van mijn naam, die zal het ware leven, namelijk de zaligheid verliezen.> ziel vindt, zal [die] verliezen; en wie zijn ziel zal verloren hebben omwille van mij, zal die vinden.",
       "hsv": "$Matt. 16:25; Mark. 8:35; Luk. 9:24; 17:33; Joh. 12:25$ Wie zijn leven vindt, zal het verliezen; en wie zijn leven verliest omwille van Mij, zal het vinden.",
-      "original": "$Matth. 16.25. Marc. 8.35. Luce 9.24. ende 17 33. Ioan. 12.25.$ Die sijne D. die sijn leven sal willen behouden met verloocheninge mijnes naems, die sal het ware leven, namelick de saligheyt verliesen. ziele vindt, sal [de] selve verliesen: ende die sijn ziele sal verloren hebben om mijnent wille, sal deselve vinden."
+      "original": "$Matth. 16.25. Marc. 8.35. Luce 9.24. ende 17 33. Ioan. 12.25.$ Die sijne D. die sijn leven sal willen behouden met verloocheninge mijnes naems, die sal het ware leven, namelick de saligheyt verliesen. ziele vindt, sal [de] selve verliesen: ende die sijn ziele sal verloren hebben om mijnent wille, sal deselve vinden.",
+      "notes": [
+        {
+          "type": "context",
+          "subject": "bibref-bron OCR-artefact",
+          "context": "$...$ verwijzingsblok",
+          "choice": "17 33 (zonder punt) eerst genormaliseerd naar 17.33 vóór bibref-normalisatie",
+          "alternatives": [
+            "letterlijk 17 33 doorgeven"
+          ],
+          "reason": "zonder de punt parseerde bibref de losse 33 verkeerd en lekte een 3 in de volgende verwijzing (Jh. werd 3Jh.); met punt levert het correcte $... Lk. 9:24; 17:33; Jh. 12:25$"
+        }
+      ]
     },
     {
       "verse_number": 40,
