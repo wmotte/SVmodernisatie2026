@@ -40,6 +40,14 @@ taalmodellen gedaan, langs een streng gecontroleerd proces.
 naast elkaar). De tabel hieronder toont meteen hoeveel van elk boek af
 is.
 
+> 📕 **Het hele Nieuwe Testament in één band:**
+> [**NT.pdf**](parallelbijbel-nt/NT.pdf) — alle beschikbare boeken in
+> canonvolgorde tot één parallelbijbel, met NT-titelpagina, klikbare
+> inhoudsopgave en geneste bladwijzers (boek → hoofdstuk). Gedeeltelijk
+> afgewerkte boeken worden opgenomen voor zover de hoofdstukken bestaan;
+> boeken zonder output (bv. Handelingen) worden overgeslagen. Bouwen:
+> `cd parallelbijbel-nt && python build_nt.py`.
+
 ---
 
 ## ✅ Wat is er klaar?
