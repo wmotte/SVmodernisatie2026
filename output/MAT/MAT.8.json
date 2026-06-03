@@ -61,6 +61,39 @@
       "generated_at": "2026-06-03T04:20:03.948741Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 7,
+      "original": "Ende Iesus seyde tot hem, Ick sal komen ende hem genesen.",
+      "modernized": "En Jezus zei tot hem: Ik zal komen en hem genezen.",
+      "source_text": "καὶ λέγει αὐτῷ ὁ Ἰησοῦς, Ἐγὼ ἐλθὼν θεραπεύσω αὐτόν.",
+      "generated_at": "2026-06-03T04:24:28.550048Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 8,
+      "original": "Ende de Hooftman over hondert antwoordende seyde, Heere, ick en ben niet weerdigh dat ghy onder mijn dack soudt in komen, maer $Psalm 107.20.$ spreeckt alleenlick een woort, ende mijn knecht sal genesen worden.",
+      "modernized": "En de Hoofdman over honderd antwoordde en zei: Heere, ik ben niet waardig dat u onder mijn dak zou binnenkomen, maar $Ps. 107:20$ spreek slechts een woord, en mijn knecht zal genezen worden.",
+      "source_text": "καὶ ἀποκριθεὶς ὁ ἑκατόνταρχος ἔφη, Κύριε, οὐκ εἰμὶ ἱκανὸς ἵνα μου ὑπὸ τὴν στέγην εἰσέλθῃς· ἀλλὰ μόνον εἰπὲ λόγον, καὶ ἰαθήσεται ὁ παῖς μου.",
+      "generated_at": "2026-06-03T04:25:06.415644Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 9,
+      "original": "Want ick ben oock een mensche <D. indien ick die onder anderer gebiedt sta, sulck een gesagh hebbe over de gene die onder my staen, ende oock menschen zijn als ick, hoe veel te meer moeten alle dingen onder u bevel staen, die een Heere over alles zijt.> onder de macht [van andere,] hebbende onder my krijghsknechten: ende ick segge tot desen, Gaet, ende hy gaet: ende tot den anderen, Komt, ende hy komt: ende tot mijnen dienstknecht, Doet dat, ende hy doet het.",
+      "modernized": "Want ik ben ook een mens <dat is, als ik, die onder het gezag van anderen sta, zulk gezag heb over degenen die onder mij staan en ook mensen zijn als ik, hoeveel te meer moeten alle dingen onder uw bevel staan, die een Heere over alles bent.> onder de macht [van anderen,] en heb krijgsknechten onder mij; en ik zeg tot deze: Ga, en hij gaat; en tot de ander: Kom, en hij komt; en tot mijn dienstknecht: Doe dat, en hij doet het.",
+      "source_text": "καὶ γὰρ ἐγὼ ἄνθρωπός εἰμι ὑπὸ ἐξουσίαν, ἔχων ὑπ’ ἐμαυτὸν στρατιώτας· καὶ λέγω τούτῳ, Πορεύθητι, καὶ πορεύεται· καὶ ἄλλῳ, Ἔρχου, καὶ ἔρχεται· καὶ τῷ δούλῳ μου, Ποίησον τοῦτο, καὶ ποιεῖ.",
+      "generated_at": "2026-06-03T04:26:51.637112Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "text": "HSV-spiegel en drempel-§2.7: enkelvoudige imperatieven 'Gaat', 'Komt' en 'Doet dat' gemoderniseerd naar 'Ga', 'Kom' en 'Doe dat'."
+        }
+      ]
     }
   ]
 }
