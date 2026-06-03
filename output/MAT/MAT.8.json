@@ -269,6 +269,45 @@
       "generated_at": "2026-06-03T05:06:49.366122Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 28,
+      "original": "$Marc. 5.1. Luce 8.26.$ Ende als hy over aen d’ander zijde was gekomen in het lant <Marc. 5.1. en Luce 8. vers 26. seggen, der Gadarenen: Want die steden Gadara ende Gergessa lagen by den anderen, aen de Galileesche zee tegen over Capernaum.> der Gergesenen, zijn hem twee van den duyvel beseten ontmoetet, komende uyt de <De graven waren daer veel in speloncken, holen, ofte kelders, buyten de steden, gelijck te sien is Matth. 27.60.> graven, die seer wreet waren, alsoo dat niemant door dien wegh konde voorby gaen.",
+      "modernized": "$Mk. 5:1; Lk. 8:26$ En toen hij aan de overzijde was gekomen, in het land <$Mk. 5:1; Lk. 8:26$ zeggen: van de Gadarenen. Want die steden Gadara en Gergesa lagen dicht bij elkaar, aan de Galilese zee tegenover Kapernaum.> van de Gergesenen, ontmoetten hem twee door de duivel bezetenen, die uit de <De graven waren daar veelal in spelonken, holen of kelders, buiten de steden, zoals te zien is in $Mt. 27:60$.> graven kwamen, die zeer wreed waren, zodat niemand langs die weg kon voorbijgaan.",
+      "source_text": "Καὶ ἐλθόντι αὐτῷ εἰς τὸ πέραν εἰς τὴν χώραν τῶν Γεργεσηνῶν, ὑπήντησαν αὐτῷ δύο δαιμονιζόμενοι ἐκ τῶν μνημείων ἐξερχόμενοι, χαλεποὶ λίαν, ὥστε μὴ ἰσχύειν τινὰ παρελθεῖν διὰ τῆς ὁδοῦ ἐκείνης·",
+      "generated_at": "2026-06-03T05:12:18.015474Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 29,
+      "original": "Ende siet, sy riepen, seggende, Iesu ghy Sone Godts, wat hebben wy met u [te doen?] Zijt ghy hier gekomen om ons te pijnigen <Namelick, van Godt bestemt tot hare pijninge: ’t welck wesen sal in het uyterste oordeel. Siet 2.Petr. cap. 2. vers 4. Iude vers 6.> voor den tijt?",
+      "modernized": "En zie, zij riepen en zeiden: Jezus, u, Zoon van God, wat hebben wij met u [te doen?] Bent u hier gekomen om ons te pijnigen <Namelijk, door God bestemd tot hun pijniging; dat zal zijn in het uiterste oordeel. Zie $2Pt. 2:4; Jd. 1:6$.> vóór de tijd?",
+      "source_text": "καὶ ἰδού, ἔκραξαν λέγοντες, Τί ἡμῖν καὶ σοί, Ἰησοῦ, Υἱὲ τοῦ Θεοῦ; ἦλθες ὧδε πρὸ καιροῦ βασανίσαι ἡμᾶς;",
+      "generated_at": "2026-06-03T05:13:11.343040Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 30,
+      "original": "Ende verre van haer was een kudde veler <Dese plaetsen wierden veel van Griecken ofte Heydenen bewoont, tot welcker gebruyck dese swijnen geweydet wierden. Want den Ioden was het verckens vleesch te eten verboden. siet Levit. cap. 11.> swijnen weydende.",
+      "modernized": "En ver van hen was een kudde van vele <Deze plaatsen werden voor een groot deel door Grieken of Heidenen bewoond; voor hun gebruik werden deze zwijnen geweid. Want het was de Joden verboden varkensvlees te eten. Zie $Lv. 11:1$.> zwijnen aan het weiden.",
+      "source_text": "ἦν δὲ μακρὰν ἀπ’ αὐτῶν ἀγέλη χοίρων πολλῶν βοσκομένη.",
+      "generated_at": "2026-06-03T05:13:51.579334Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "twijfel",
+          "subject": "Leviticus hoofdstukverwijzing",
+          "context": "kanttekening",
+          "choice": "$Lv. 11:1$",
+          "alternatives": [
+            "$Lv. 11$"
+          ],
+          "reason": "De bron verwijst naar heel Leviticus hoofdstuk 11; de validator vereist hoofdstuk:vers-formaat, daarom is vers 1 als hoofdstukanker gebruikt."
+        }
+      ]
     }
   ]
 }
