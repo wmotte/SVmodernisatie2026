@@ -215,6 +215,33 @@
           "reason": "hoofdstuk-only refs zonder vers worden als proza weergegeven om corruptie van het $...$-formaat te vermijden"
         }
       ]
+    },
+    {
+      "verse_number": 22,
+      "original": "$Matth. 10.15.$ Doch ick segge u, Het sal Tyro ende Sidon verdraeghlicker zijn in den dagh des oordeels, dan u-lieden.",
+      "modernized": "$Mt. 10:15$ Maar ik zeg u: Het zal voor Tyrus en Sidon verdraaglijker zijn in de dag des oordeels, dan voor u.",
+      "source_text": "πλὴν λέγω ὑμῖν, Τύρῳ καὶ Σιδῶνι ἀνεκτότερον ἔσται ἐν ἡμέρᾳ κρίσεως, ἢ ὑμῖν.",
+      "generated_at": "2026-06-03T18:08:54.108155Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 23,
+      "original": "Ende ghy Capernaum, die tot den hemel toe zijt <Soo door u welvaren, als door de bywooninge, leere, ende mirakelen Christi.> verhooght, ghy sult tot de helle toe neder gestooten worden. Want soo in Sodoma die krachten waren geschiet, die in u geschiet zijn, sy soude tot op den huydigen dagh gebleven zijn.",
+      "modernized": "En u, Kapernaüm, die tot de hemel toe <Zowel door uw welvaren, als door het bijwonen, de leer en de mirakelen van Christus.> verhoogd bent, u zult tot de hel toe neergestoten worden. Want indien in Sodom die krachten waren gebeurd die in u gebeurd zijn, zij zou tot op de huidige dag gebleven zijn.",
+      "source_text": "καὶ σύ, Καπερναούμ, ἡ ἕως τοῦ οὐρανοῦ ὑψωθεῖσα, ἕως ᾅδου καταβιβασθήσῃ· ὅτι εἰ ἐν Σοδόμοις ἐγένοντο αἱ δυνάμεις αἱ γενόμεναι ἐν σοί, ἔμειναν ἂν μέχρι τῆς σήμερον.",
+      "generated_at": "2026-06-03T18:09:13.145676Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 24,
+      "original": "Doch ick segge u, $Matth. 10.15.$ dat het den lande van Sodoma verdraeghlicker sal zijn in den dagh des oordeels, dan u.",
+      "modernized": "Maar ik zeg u, $Mt. 10:15$ dat het voor het land van Sodom verdraaglijker zal zijn in de dag des oordeels, dan voor u.",
+      "source_text": "πλὴν λέγω ὑμῖν, ὅτι γῇ Σοδόμων ἀνεκτότερον ἔσται ἐν ἡμέρᾳ κρίσεως, ἢ σοί.",
+      "generated_at": "2026-06-03T18:09:20.626082Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 4
     }
   ]
 }
