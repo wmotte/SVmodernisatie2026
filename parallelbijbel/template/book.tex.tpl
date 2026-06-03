@@ -14,7 +14,7 @@
 \begin{center}
   {\fontsize{26}{30}\selectfont\textbf{\textcolor{accent}{%%BOOK_TITLE%%}}}\\[6mm]
   {\fontsize{12}{14}\selectfont\textit{Statenvertaling (1657) – naast gemoderniseerde versie}}\\[2mm]
-  {\fontsize{10}{12}\selectfont met kanttekeningen}
+  {\fontsize{10}{12}\selectfont met kanttekeningen}%%BOOK_STATUS%%
 \end{center}
 \vfill
 \begin{center}
