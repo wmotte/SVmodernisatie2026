@@ -1,0 +1,468 @@
+{
+  "book": "MATT",
+  "chapter": 5,
+  "introduction": {
+    "original": "1 Christus leert op den bergh welcke menschen gelucksaligh zijn. 13 Vergelijckt sijne discipelen by sout, licht, ende een stadt op eenen bergh gelegen. 17 Verklaert dat hy is gekomen om de wet te vervullen. 21 Wederspreeckt de verkeerde uytleggingen der Ouden, van ’t seste gebodt. 27 Van ’t sevende gebodt ende van den scheydbrief. 33 Van het eedtsweeren. 38 Van weerwrake. 40 Gebiedt verdraeghsaemheyt. 42 weldadigheyt, ende oprechte liefde oock tegen de vyanden.",
+    "modernized": "1 Christus leert op de berg welke mensen zalig zijn. 13 Vergelijkt zijn discipelen met zout, licht en een stad die op een berg ligt. 17 Verklaart dat hij is gekomen om de wet te vervullen. 21 Weerspreekt de verkeerde uitleggingen van de Ouden, van het zesde gebod. 27 Van het zevende gebod en van de scheidbrief. 33 Van het zweren van eden. 38 Van vergelding. 40 Gebiedt verdraagzaamheid. 42 weldadigheid en oprechte liefde ook tegenover de vijanden.",
+    "generated_at": "2026-06-02T20:30:52.118840Z",
+    "model": "claude-opus-4-7[1m]"
+  },
+  "verses": [
+    {
+      "verse_number": 1,
+      "original": "ENde [Jesus] de scharen siende is geklommen op eenen bergh, ende als hy neder geseten was, quamen sijne discipelen tot hem.",
+      "modernized": "Toen [Jezus] de menigten zag, klom hij op een berg, en toen hij was gaan zitten, kwamen zijn discipelen tot hem.",
+      "source_text": "Ἰδὼν δὲ τοὺς ὄχλους ἀνέβη εἰς τὸ ὄρος· καὶ καθίσαντος αὐτοῦ, προσῆλθον αὐτῷ οἱ μαθηταὶ αὐτοῦ·",
+      "generated_at": "2026-06-02T20:30:55.598944Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 2,
+      "original": "Ende sijnen mont <Een Hebreeusche wijse van spreken, als yemant met ernst ende vrymoedigheyt tot onderwijsinge van andere voorbedachtelick begint te seggen. siet Iob 33. vers 2. Actor. 8.35.> geopent hebbende leerde haer, seggende,",
+      "modernized": "En nadat hij zijn mond <Een Hebreeuwse wijze van spreken, wanneer iemand met ernst en vrijmoedigheid tot onderwijs van anderen weloverwogen begint te spreken. Zie $Jb. 33:2; Hd. 8:35$.> geopend had, onderwees hij hen en zei:",
+      "source_text": "καὶ ἀνοίξας τὸ στόμα αὐτοῦ, ἐδίδασκεν αὐτούς, λέγων,",
+      "generated_at": "2026-06-02T20:31:17.404286Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 3,
+      "original": "$Luce 6.20.$ Saligh [zijn] de <D. nedrige, ende gebrokene van herten, die hare nietigheyt verstaende een kleyn gevoelen van haer selven hebben, steunende alleen op de genade Godts in Christo Iesu, Ps. 51. vers 19. Iesa. 57.15.> arme van geeste: Want harer is het Koninckrijck der hemelen.",
+      "modernized": "$Lk. 6:20$ Zalig [zijn] de <Dat is, nederigen en gebrokenen van hart, die hun nietigheid verstaan en een lage dunk van zichzelf hebben, steunend alleen op de genade van God in Christus Jezus, $Ps. 51:19; Js. 57:15$.> armen van geest: Want van hen is het Koninkrijk der hemelen.",
+      "source_text": "Μακάριοι οἱ πτωχοὶ τῷ πνεύματι· ὅτι αὐτῶν ἐστιν ἡ βασιλεία τῶν οὐρανῶν.",
+      "generated_at": "2026-06-02T20:31:33.559283Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 4,
+      "original": "$Luce 6.21.$ Saligh [zijn] die <D. die over de sonde bedroeft zijn: van welcke droeffenisse oock gesproken wort 1.Corinth. 5.2. en 2.Corinth. 7.9. tegen welcke gestelt worden, die in alle weelde ende vreughde leven, Luce 16. versen 19, 25.> treuren: Want sy sullen vertroost worden.",
+      "modernized": "$Lk. 6:21$ Zalig [zijn] die <Dat is, die over de zonde bedroefd zijn: van welke droefheid ook gesproken wordt $1Kor. 5:2; 2Kor. 7:9$, tegenover wie degenen gesteld worden die in alle weelde en vreugde leven, $Lk. 16:19,25$.> treuren: Want zij zullen vertroost worden.",
+      "source_text": "Μακάριοι οἱ πενθοῦντες· ὅτι αὐτοὶ παρακληθήσονται.",
+      "generated_at": "2026-06-02T20:37:17.511940Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 5,
+      "original": "$Psalm 37.11.$ Saligh [zijn] de sachtmoedige: Want sy sullen het aertrijck <D. in vrede besitten: welcke belofte wel het tegenwoordige leven aengaet, maer insonderheyt wort hier verstaen het gene vervult sal worden in het toekomende leven. Siet Psalm 37.11.> be-erven.",
+      "modernized": "$Ps. 37:11$ Zalig [zijn] de zachtmoedigen: Want zij zullen de aarde <Dat is, in vrede bezitten: welke belofte wel het tegenwoordige leven aangaat, maar in het bijzonder wordt hier verstaan datgene wat vervuld zal worden in het toekomstige leven. Zie $Ps. 37:11$.> beërven.",
+      "source_text": "Μακάριοι οἱ πρᾳεῖς· ὅτι αὐτοὶ κληρονομήσουσι τὴν γῆν.",
+      "generated_at": "2026-06-02T20:37:47.120928Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 6,
+      "original": "$Iesa. 55.1.$ Saligh [zijn] die <D. die met groote begeerte verlangen ende trachten na de ware gerechtigheyt in Christo.> hongeren ende dorsten [na] de gerechtigheyt: Want sy sullen verzadight worden.",
+      "modernized": "$Js. 55:1$ Zalig [zijn] die <Dat is, die met grote begeerte verlangen en streven naar de ware gerechtigheid in Christus.> hongeren en dorsten [naar] de gerechtigheid: Want zij zullen verzadigd worden.",
+      "source_text": "Μακάριοι οἱ πεινῶντες καὶ διψῶντες τὴν δικαιοσύνην· ὅτι αὐτοὶ χορτασθήσονται.",
+      "generated_at": "2026-06-02T20:38:13.003114Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 7,
+      "original": "Saligh [zijn] de barmhertige: Want haer sal barmhertigheyt geschieden.",
+      "modernized": "Zalig [zijn] de barmhartigen: Want aan hen zal barmhartigheid bewezen worden.",
+      "source_text": "Μακάριοι οἱ ἐλεήμονες· ὅτι αὐτοὶ ἐλεηθήσονται.",
+      "generated_at": "2026-06-02T20:43:13.375968Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 8,
+      "original": "$Psalm 15.2. ende 24.4. Hebr. 12.14.$ Saligh [zijn] de <Dat is, door den Geest Godts gereynight van de besmettinge der sonden ende van allerley geveynstheyt, Ephes. 5. vers 26.> reyne van herten: Want sy sullen <D. sullen hem volkomelick kennen ende sijne heerlickheyt aenschouwen, 1.Corinth. cap. 13. vers 12.> Godt sien.",
+      "modernized": "$Ps. 15:2; 24:4; Hb. 12:14$ Zalig [zijn] de <Dat is, door de Geest van God gereinigd van de besmetting van de zonden en van allerlei geveinsdheid, $Ef. 5:26$.> reinen van hart: Want zij zullen <Dat is, zij zullen hem volledig kennen en zijn heerlijkheid aanschouwen, $1Kor. 13:12$.> God zien.",
+      "source_text": "Μακάριοι οἱ καθαροὶ τῇ καρδίᾳ· ὅτι αὐτοὶ τὸν Θεὸν ὄψονται.",
+      "generated_at": "2026-06-02T20:43:53.939142Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 9,
+      "original": "Saligh [zijn] de <Gr. vredemakers. Die niet alleen voor haer selven vreedsaem zijn, maer oock by andere den vrede bevorderen, Hebr. 12.14.> vreedsame: Want sy sullen Godts kinderen <D. in der daet zijn, ende daer voor gekent worden.> genaemt worden.",
+      "modernized": "Zalig [zijn] de <Grieks: vredemakers. Die niet alleen voor zichzelf vreedzaam zijn, maar ook bij anderen de vrede bevorderen, $Hb. 12:14$.> vreedzamen: Want zij zullen Gods kinderen <Dat is, werkelijk zijn, en als zodanig gekend worden.> genoemd worden.",
+      "source_text": "Μακάριοι οἱ εἰρηνοποιοί· ὅτι αὐτοὶ υἱοὶ Θεοῦ κληθήσονται.",
+      "generated_at": "2026-06-02T20:44:35.374901Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 10,
+      "original": "$2.Corinth. 4.10. 2.Timoth. 2.12. 1.Petr. 3.14.$ Saligh [zijn] die vervolght worden <Dat is, om de rechtveerdige sake Christi ende sijner leere, gelijck in het volgende vers: om mijnent wille.> om der gerechtigheyt wille: Want harer is het Koninckrijck der hemelen.",
+      "modernized": "$2Kor. 4:10; 2Tm. 2:12; 1Pt. 3:14$ Zalig [zijn] die vervolgd worden <Dat is, om de rechtvaardige zaak van Christus en zijn leer, zoals in het volgende vers: omwille van mij.> omwille van de gerechtigheid: Want van hen is het Koninkrijk der hemelen.",
+      "source_text": "Μακάριοι οἱ δεδιωγμένοι ἕνεκεν δικαιοσύνης· ὅτι αὐτῶν ἐστιν ἡ βασιλεία τῶν οὐρανῶν.",
+      "generated_at": "2026-06-02T20:50:05.884039Z",
+      "model": "gpt-5-codex",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 11,
+      "original": "Saligh zijt ghy als u [de menschen] smaden, ende vervolgen, ende liegende <Dat is, allerley.> alle <Gr. quaet woort.> quaet <Dat is, dat u tegen gaet, ofte tot uwen nadeel.> tegen u spreken, $1.Petr. 4.14.$ om mijnent wille.",
+      "modernized": "Zalig bent u wanneer [de mensen] u smaden en vervolgen, en, terwijl zij liegen, <Dat is, allerlei.> alle <Grieks: kwaad woord.> kwaad <Dat is, dat tegen u ingaat, of tot uw nadeel is.> tegen u spreken, $1Pt. 4:14$ omwille van mij.",
+      "source_text": "Μακάριοί ἐστε, ὅταν ὀνειδίσωσιν ὑμᾶς καὶ διώξωσι, καὶ εἴπωσι πᾶν πονηρὸν ῥῆμα καθ’ ὑμῶν ψευδόμενοι, ἕνεκεν ἐμοῦ.",
+      "generated_at": "2026-06-02T20:50:43.223817Z",
+      "model": "gpt-5-codex",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 12,
+      "original": "$Luce 6.23.$ Verblijdt ende verheught [u,] want uwen <Namel. die Godt belooft ende geven sal, niet uyt verdienste maer uyt genade, Rom. 6. vers 23. om Christi wille, 2.Cor. 1.20. alsoo oock Cap. 6. vers 1. ende elders doorgaens.> loon [is] <Gr. veel.> groot in de hemelen: want alsoo hebben sy vervolght de Propheten, die <Dat is, voor uwe tijden, ofte in voorgaende tijden.> voor u [geweest zijn.]",
+      "modernized": "$Lk. 6:23$ Verblijd en verheug [u,] want uw <Namelijk, die God belooft en zal geven, niet uit verdienste maar uit genade, $Rm. 6:23$, om Christus' wil, $2Kor. 1:20$, zo ook $2Kor. 6:1$, en elders steeds.> loon [is] <Grieks: veel.> groot in de hemelen: want zo hebben zij de Profeten vervolgd, die <Dat is, voor uw tijd, of in vroegere tijden.> vóór u [geweest zijn.]",
+      "source_text": "χαίρετε καὶ ἀγαλλιᾶσθε, ὅτι ὁ μισθὸς ὑμῶν πολὺς ἐν τοῖς οὐρανοῖς· οὕτω γὰρ ἐδίωξαν τοὺς προφήτας τοὺς πρὸ ὑμῶν.",
+      "generated_at": "2026-06-02T20:51:49.624483Z",
+      "model": "gpt-5-codex",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 13,
+      "original": "$Marc. 9.50. Luce 14.34.$ Ghy zijt het <Soo worden de leeraers genaemt om dat gelijck het sout de spijse smakelick maeckt ende van verrottinge bewaert, sy oock alsoo de zielen der menschen door de leere Gode aengenaem maken, ende van het verderven behouden.> sout der aerde: indien nu het sout <Dat is, sijne soutigheyt, kracht, ofte scherpigheyt verliest.> smakeloos wort, waer mede sal [het] gesouten worden? Het en deught nergens toe meer, dan om buyten gewor-pen, ende van de menschen vertreden te worden.",
+      "modernized": "$Mk. 9:50; Lk. 14:34$ U bent het <Zo worden de leraars genoemd omdat, zoals het zout het voedsel smakelijk maakt en voor bederf bewaart, zij ook zo de zielen van de mensen door de leer voor God aangenaam maken en voor het verderf behouden.> zout van de aarde: als nu het zout <Dat is, zijn zoutigheid, kracht of scherpte verliest.> smakeloos wordt, waarmee zal [het] gezouten worden? Het deugt nergens meer toe dan om buiten geworpen en door de mensen vertrapt te worden.",
+      "source_text": "Ὑμεῖς ἐστε τὸ ἅλας τῆς γῆς· ἐὰν δὲ τὸ ἅλας μωρανθῇ, ἐν τίνι ἁλισθήσεται; εἰς οὐδὲν ἰσχύει ἔτι, εἰ μὴ βληθῆναι ἔξω καὶ καταπατεῖσθαι ὑπὸ τῶν ἀνθρώπων.",
+      "generated_at": "2026-06-02T20:57:41.998147Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 14,
+      "original": "Ghy zijt het <Om datse met hare leere andre verlichten, ende oock met haer leven deselve moeten voorlichten, 1.Petr. 5.3.> licht der werelt: een stadt boven op eenen bergh liggende en kan niet verborgen zijn.",
+      "modernized": "U bent het <Omdat zij met hun leer anderen verlichten en ook met hun leven hun tot voorbeeld moeten zijn, $1Pt. 5:3$.> licht van de wereld: een stad die boven op een berg ligt, kan niet verborgen zijn.",
+      "source_text": "ὑμεῖς ἐστε τὸ φῶς τοῦ κόσμου· οὐ δύναται πόλις κρυβῆναι ἐπάνω ὄρους κειμένη·",
+      "generated_at": "2026-06-02T20:58:16.386081Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 15,
+      "original": "$Marc. 4.21. Luce 8.16. ende 11.33.$ Noch men steeckt geen keersse aen, ende set die onder een <Ofte, schepel.> koornmate: maer op een kandelaer, ende sy schijnt allen, die in den huyse [zijn.]",
+      "modernized": "$Mk. 4:21; Lk. 8:16; 11:33$ Ook steekt men geen kaars aan en zet die onder een <Of, schepel.> korenmaat: maar op een kandelaar, en zij schijnt voor allen die in het huis [zijn.]",
+      "source_text": "οὐδὲ καίουσι λύχνον καὶ τιθέασιν αὐτὸν ὑπὸ τὸν μόδιον, ἀλλ’ ἐπὶ τὴν λυχνίαν, καὶ λάμπει πᾶσι τοῖς ἐν τῇ οἰκίᾳ.",
+      "generated_at": "2026-06-02T20:58:45.618115Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 16,
+      "original": "$1.Petr. 2.12.$ Laet uw’ licht alsoo schijnen voor de menschen, dat sy uwe goede wercken mogen sien, ende uwen Vader, die in de hemelen is, <Ofte prijsen ende groot maken.> verheerlicken.",
+      "modernized": "$1Pt. 2:12$ Laat uw licht zo schijnen voor de mensen, dat zij uw goede werken mogen zien, en uw Vader, die in de hemelen is, <Of, prijzen en groot maken.> verheerlijken.",
+      "source_text": "οὕτω λαμψάτω τὸ φῶς ὑμῶν ἔμπροσθεν τῶν ἀνθρώπων, ὅπως ἴδωσιν ὑμῶν τὰ καλὰ ἔργα, καὶ δοξάσωσι τὸν Πατέρα ὑμῶν τὸν ἐν τοῖς οὐρανοῖς.",
+      "generated_at": "2026-06-02T21:04:26.569515Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 17,
+      "original": "Meynt niet dat ick gekomen ben om <D. de leere der wet, ofte der Propheten te veranderen, ofte te niete te doen.> de wet ofte de Propheten te ontbinden: Ick en ben niet gekomen om [die] te ontbinden, maer te <Dat is, te verklaren, te onderhouden, ende wat te voren afgebeelt ende voorseght is, te volbrengen.> vervullen.",
+      "modernized": "Denk niet dat ik gekomen ben om <Dat is, de leer van de wet of van de Profeten te veranderen of teniet te doen.> de wet of de Profeten af te schaffen: Ik ben niet gekomen om [die] af te schaffen, maar te <Dat is, te verklaren, te onderhouden, en wat tevoren afgebeeld en voorzegd is, te volbrengen.> vervullen.",
+      "source_text": "Μὴ νομίσητε ὅτι ἦλθον καταλῦσαι τὸν νόμον ἢ τοὺς προφήτας· οὐκ ἦλθον καταλῦσαι ἀλλὰ πληρῶσαι.",
+      "generated_at": "2026-06-02T21:04:59.855403Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 18,
+      "original": "Want voorwaer segge ick u, $Luce 16.17.$ tot dat de hemel ende de aerde <D. vergaen ofte verandert worden. siet Psalm 102.27. Hebr. 1.11. ende de aenteeckeninge op 2.Petr. 3.10.> voorby gaen, en sal daer niet een <Dit is de kleynste letter by de Griecken, gelijck Iod by de Hebreen. Waer mede Christus wil seggen, dat oock de minste sake in de wet geschreven niet en sal vergaen.> jota, noch <Dat is, streepken van een letter, ofte puntken.> een tittel van de wet voorby gaen, tot dat het alles sal zijn geschiet.",
+      "modernized": "Want voorwaar zeg ik u, $Lk. 16:17$ totdat de hemel en de aarde <Dat is, vergaan of veranderd worden. Zie $Ps. 102:27; Hb. 1:11$ en de aantekening op $2Pt. 3:10$.> voorbijgaan, zal er niet één <Dit is de kleinste letter bij de Grieken, zoals Jod bij de Hebreeën. Waarmee Christus wil zeggen dat ook de minste zaak die in de wet geschreven is, niet zal vergaan.> jota of <Dat is, streepje van een letter, of puntje.> één tittel van de wet voorbijgaan, totdat alles zal zijn gebeurd.",
+      "source_text": "ἀμὴν γὰρ λέγω ὑμῖν, ἕως ἂν παρέλθῃ ὁ οὐρανὸς καὶ ἡ γῆ, ἰῶτα ἓν ἢ μία κεραία οὐ μὴ παρέλθῃ ἀπὸ τοῦ νόμου, ἕως ἂν πάντα γένηται.",
+      "generated_at": "2026-06-02T21:05:42.192493Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 19,
+      "original": "$Iacob. 2.10.$ Soo wie dan een van dese minste geboden sal ontbonden, ende de menschen alsoo sal geleert hebben, [die] sal de <Dat is, sal daer gantsch niet geacht worden: Ofte, sal daer niet in gaen, gelijck in het volgende vers verklaert wort.> minste genaemt worden in het Koninckrijcke der hemelen: Maer soo wie [deselve] sal gedaen ende geleert hebben, die sal groot genaemt worden in het Koninckrijck der hemelen.",
+      "modernized": "$Jk. 2:10$ Wie dan een van deze minste geboden zal ontbinden, en de mensen zo geleerd zal hebben, [die] zal de <Dat is, zal daar geheel niet geacht worden: Of, zal daar niet ingaan, zoals in het volgende vers verklaard wordt.> minste genoemd worden in het Koninkrijk der hemelen; maar wie [dezelfde] zal gedaan en geleerd hebben, die zal groot genoemd worden in het Koninkrijk der hemelen.",
+      "source_text": "ὃς ἐὰν οὖν λύσῃ μίαν τῶν ἐντολῶν τούτων τῶν ἐλαχίστων, καὶ διδάξῃ οὕτω τοὺς ἀνθρώπους, ἐλάχιστος κληθήσεται ἐν τῇ βασιλείᾳ τῶν οὐρανῶν· ὃς δ’ ἂν ποιήσῃ καὶ διδάξῃ, οὗτος μέγας κληθήσεται ἐν τῇ βασιλείᾳ τῶν οὐρανῶν.",
+      "generated_at": "2026-06-02T21:11:06.474648Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 20,
+      "original": "Want ick segge u, ’ten zy uwe gerechtigheyt overvloediger zy als der Schriftgeleerden ende der Pharizeen, dat ghy in het Koninckrijck der hemelen geensins en sult ingaen.",
+      "modernized": "Want ik zeg u: tenzij uw gerechtigheid overvloediger is dan die van de Schriftgeleerden en de Farizeeën, dat u in het Koninkrijk der hemelen beslist niet zult ingaan.",
+      "source_text": "λέγω γὰρ ὑμῖν ὅτι ἐὰν μὴ περισσεύσῃ ἡ δικαιοσύνη ὑμῶν πλεῖον τῶν γραμματέων καὶ Φαρισαίων, οὐ μὴ εἰσέλθητε εἰς τὴν βασιλείαν τῶν οὐρανῶν.",
+      "generated_at": "2026-06-02T21:11:41.694313Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 21,
+      "original": "Ghy hebt gehoort dat <Ofte, [van] den Ouden. Hier door verstaet Christus de verkeerde uytleggingen der Pharizeen ende Schriftgeleerden, die al van over vele jaren alsoo geleert hadden, ende niet de leere Mosis ende der Propheten. Het welck blijckt I. uyt het voorgaende vers.II. Om dat hier leeringen wederleght worden, die in Mose ende de Propheten niet gevonden en worden. siet vers 43.III. Om dat van Christo niet en wort by gedaen dan dat in Mose ende de Propheten gevonden wort, gelijck men kan sien uyt de Schriftuer-plaetsen des Ouden Testaments hier aen de kant geteeckent.> [tot] den Ouden geseght is, $Exod. 20.13. Deut. 5.17.$ Ghy en sult niet dooden: maer soo wie doodet, [die] sal <Ofte, schuldigh om gestraft te worden.> strafbaer zijn door het gerichte.",
+      "modernized": "U hebt gehoord dat <Of, [van] de Ouden. Hierdoor verstaat Christus de verkeerde uitleggingen van de Farizeeën en Schriftgeleerden, die zij al vele jaren zo geleerd hadden, en niet de leer van Mozes en van de Profeten. Dit blijkt I. uit het voorgaande vers. II. Omdat hier leringen weerlegd worden, die in Mozes en de Profeten niet gevonden worden. Zie vers 43. III. Omdat door Christus niets wordt bijgedaan dan wat in Mozes en de Profeten gevonden wordt, zoals men kan zien uit de Schriftuurplaatsen van het Oude Testament die hier in de kantlijn aangetekend zijn.> [tot] de Ouden gezegd is: $Ex. 20:13; Dt. 5:17$ U zult niet doden; maar wie doodt, [die] zal <Of, schuldig om gestraft te worden.> strafbaar zijn voor het gerecht.",
+      "source_text": "Ἠκούσατε ὅτι ἐρρέθη τοῖς ἀρχαίοις, Οὐ φονεύσεις· ὃς δ’ ἂν φονεύσῃ, ἔνοχος ἔσται τῇ κρίσει·",
+      "generated_at": "2026-06-02T21:12:30.890229Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 22,
+      "original": "Doch ick segge u: soo wie <Dat is, sonder oorsake, ofte te vergeefs.> t’onrecht op sijnen broeder toornigh is, die sal strafbaer zijn <Ofte, oordeel: waer door verstaen worden de Rechters, die in alle steden de dootslagers straften, Deuter. cap. 21.> door ’t gerichte. Ende wie tot sijnen broeder seght <Is een Syrisch smaetwoort, ende is soo veel te seggen als ydel ofte slechthooft. Andere meynen dat het van spouwen komt: Ende andere, dat daer mede uytgedruckt wort een geluyt dat de menschen dickwils maken, om daer mede hare gramschap, verachtinge ofte versmadinge tegen hare naesten te kennen te geven, gelijck men gemeynlick door foey u, ofte diergelijck, plagh te doen.> Raka, die sal strafbaer zijn door den <Dit was den hooghsten Raet binnen Ierusalem Sanhedrin genaemt, by den welcken stont het oordeel van de swaerste saken, ende daerom oock de schuldige tot de swaerste straffen verwees. Siet Deuter. cap. 17. ende 2.Paral. cap. 19.> grooten raet. Maer wie seght, Ghy dwaes, die sal strafbaer zijn door <Gr. tot, ofte, in de gehenne des vyers. Gehenna komt van de Hebreeusche woorden Ge Hinnom, Dat is, het dal Hinnom, gelegen by de stadt Ierusalem. Iosu. cap. 15. vers 8. in welck dal eertijts de afgodische Ioden hare kinderen tusschen de gloeijende armen des koperen beelts Moloch lieten levendigh verbranden. Siet Ierem. cap. 7. vers 31. 2.Reg. cap. 23. vers 10. het welck alsoo het een grouwelicke pijne was, soo wort dit woort dickwils voor de helsche pijne genomen. Door dese dootstraffen, waer van de eene swaerder is als de andere, toont Christus dat dese sonden alle de eeuwige verdoemenisse verdienen, doch dat de eene swaerder als de andere in het toekomende oordeel sal gestraft worden.> het helsche vyer.",
+      "modernized": "Maar ik zeg u: ieder die <Dat is, zonder oorzaak, of tevergeefs.> ten onrechte op zijn broeder toornig is, die zal strafbaar zijn <Of, oordeel: waardoor de Rechters bedoeld worden, die in alle steden de doodslagers straften, Deuteronomium hoofdstuk 21.> voor het gerecht. En wie tot zijn broeder zegt <Dit is een Syrisch smaadwoord, en betekent zoveel als ijdel of slecht hoofd. Anderen menen dat het van spuwen komt; en weer anderen, dat daarmee een geluid uitgedrukt wordt dat mensen dikwijls maken, om daarmee hun gramschap, verachting of versmading tegenover hun naasten te kennen te geven, zoals men gewoonlijk door foei u, of iets dergelijks, placht te doen.> Raka, die zal strafbaar zijn voor de <Dit was de hoogste Raad binnen Jeruzalem, Sanhedrin genoemd, bij wie het oordeel over de zwaarste zaken stond, en die daarom ook de schuldige tot de zwaarste straffen verwees. Zie Deuteronomium hoofdstuk 17 en 2 Kronieken hoofdstuk 19.> grote raad. Maar wie zegt: U dwaas, die zal strafbaar zijn tot <Grieks: tot, of, in de Gehenna van het vuur. Gehenna komt van de Hebreeuwse woorden Ge Hinnom, dat is, het dal Hinnom, gelegen bij de stad Jeruzalem. $Jz. 15:8$. In dat dal lieten vroeger de afgodische Joden hun kinderen tussen de gloeiende armen van het koperen beeld Moloch levend verbranden. Zie $Jr. 7:31; 2Kn. 23:10$. Omdat dit een gruwelijke pijn was, wordt dit woord dikwijls voor de helse pijn genomen. Door deze doodstraffen, waarvan de ene zwaarder is dan de andere, toont Christus dat deze zonden alle de eeuwige verdoemenis verdienen, maar dat de ene zwaarder dan de andere in het komende oordeel gestraft zal worden.> het helse vuur.",
+      "source_text": "ἐγὼ δὲ λέγω ὑμῖν ὅτι πᾶς ὁ ὀργιζόμενος τῷ ἀδελφῷ αὐτοῦ εἰκῆ ἔνοχος ἔσται τῇ κρίσει· ὃς δ’ ἂν εἴπῃ τῷ ἀδελφῷ αὐτοῦ, Ῥακά, ἔνοχος ἔσται τῷ συνεδρίῳ· ὃς δ’ ἂν εἴπῃ, Μωρέ, ἔνοχος ἔσται εἰς τὴν γέενναν τοῦ πυρός.",
+      "generated_at": "2026-06-02T21:18:41.282955Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "subject": "HSV-spiegel",
+          "context": "vers 22",
+          "choice": "`door het helse vuur` is gemoderniseerd naar `tot het helse vuur`.",
+          "alternatives": [
+            "`door het helse vuur` laten staan"
+          ],
+          "reason": "De HSV-spiegel bevestigt hier een taalkwestie: SV1657 en Grieks (eis) wijzen op richting/bestemming, terwijl `door het helse vuur` in modern Nederlands instrumenteel leest."
+        }
+      ]
+    },
+    {
+      "verse_number": 23,
+      "original": "Soo ghy dan uwe gave sult op den <Dit siet op den Godtsdienst des Ouden Testaments, maer wort oock mede verstaen van den Godtsdienst des Nieuwen Testaments, hoewel in deselve geen sulcke altaren ende offerhanden en zijn, Rom. cap. 12. vers 1. ende cap. 15. vers 16. Hebr. cap. 13. versen 15, 16. Philip. cap. 4. vers 18. Ofte, brengen tot den altaer.> altaer offeren, ende aldaer gedachtigh wort, dat uw’ broeder yet tegen u heeft,",
+      "modernized": "Als u dan uw gave op het <Dit ziet op de Godsdienst van het Oude Testament, maar wordt ook verstaan van de Godsdienst van het Nieuwe Testament, hoewel daarin geen zulke altaren en offeranden zijn, $Rm. 12:1; 15:16; Hb. 13:15,16; Fp. 4:18$. Of, brengen tot het altaar.> altaar zult offeren, en u daar te binnen schiet dat uw broeder iets tegen u heeft,",
+      "source_text": "ἐὰν οὖν προσφέρῃς τὸ δῶρόν σου ἐπὶ τὸ θυσιαστήριον, κἀκεῖ μνησθῇς ὅτι ὁ ἀδελφός σου ἔχει τι κατὰ σοῦ,",
+      "generated_at": "2026-06-02T21:19:19.724729Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 24,
+      "original": "Laet daer uwe gave voor den altaer, ende gaet henen, versoent u eerst met uwen broeder, ende komt dan, ende offert uwe gave.",
+      "modernized": "Laat daar uw gave voor het altaar, en ga heen, verzoen u eerst met uw broeder, en kom dan en offer uw gave.",
+      "source_text": "ἄφες ἐκεῖ τὸ δῶρόν σου ἔμπροσθεν τοῦ θυσιαστηρίου, καὶ ὕπαγε, πρῶτον διαλλάγηθι τῷ ἀδελφῷ σου, καὶ τότε ἐλθὼν πρόσφερε τὸ δῶρόν σου.",
+      "generated_at": "2026-06-02T21:19:43.884850Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 25,
+      "original": "$Luce 12. vers 58. Ephes. 4.26.$ Weest haestelick <Dat is, verdraeght ofte vereenight met den genen die u over schuldt ofte andersins voor recht roept.> wel gesint [tegen] uwe wederpartije, terwijle ghy noch met hem op den wegh zijt: op dat de wederpartije niet misschien u de Rechter overlevere, ende de Rechter u den dienaer overlevere, ende ghy in de gevangenisse geworpen wort.",
+      "modernized": "$Lk. 12:58; Ef. 4:26$ Wees spoedig <Dat is, verzoen of verenig u met degene die u om schuld of anderszins voor het gerecht roept.> goedgezind [tegenover] uw tegenpartij, terwijl u nog met hem op de weg bent; opdat de tegenpartij u niet misschien aan de Rechter overlevert, en de Rechter u aan de dienaar overlevert, en u in de gevangenis geworpen wordt.",
+      "source_text": "ἴσθι εὐνοῶν τῷ ἀντιδίκῳ σου ταχύ, ἕως ὅτου εἶ ἐν τῇ ὁδῷ μετ’ αὐτοῦ, μήποτέ σε παραδῷ ὁ ἀντίδικος τῷ κριτῇ, καὶ ὁ κριτής σε παραδῷ τῷ ὑπηρέτῃ, καὶ εἰς φυλακὴν βληθήσῃ.",
+      "generated_at": "2026-06-02T21:28:06.307853Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "subject": "HSV-spiegel",
+          "context": "vers 25",
+          "choice": "`misschien niet` is gecorrigeerd naar `niet misschien`.",
+          "alternatives": [
+            "`misschien niet` laten staan"
+          ],
+          "reason": "De HSV-spiegel bevestigt hier een taalfout: SV1657 `niet misschien` en Grieks `μήποτε` drukken waarschuwing uit, terwijl `misschien niet` in modern Nederlands de ontkenning op het overleveren legt."
+        }
+      ]
+    },
+    {
+      "verse_number": 26,
+      "original": "Voorwaer ick segge u, ghy en sult daer geensins uyt komen, tot dat ghy den laetsten <Gr. quadrant, Dat is, een oort, het welck was de minste munte die men gebruyckte, ontrent anderhalf penningh weert na onse reeckeninge.> penningh sult betaelt hebben.",
+      "modernized": "Voorwaar, ik zeg u, u zult daar geenszins uit komen, totdat u de laatste <Grieks: quadrans, Dat is, een oort, dat de kleinste munt was die men gebruikte, ongeveer anderhalve penning waard naar onze rekening.> penning betaald zult hebben.",
+      "source_text": "ἀμὴν λέγω σοι, οὐ μὴ ἐξέλθῃς ἐκεῖθεν, ἕως ἂν ἀποδῷς τὸν ἔσχατον κοδράντην.",
+      "generated_at": "2026-06-02T21:29:01.152236Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 27,
+      "original": "Ghy hebt gehoort dat [van] den Ouden geseght is, $Exod. 20.14. Deuter. 5.18.$ Ghy en sult geen overspel doen.",
+      "modernized": "U hebt gehoord dat [van] de Ouden gezegd is: $Ex. 20:14; Dt. 5:18$ U zult geen overspel doen.",
+      "source_text": "Ἠκούσατε ὅτι ἐρρέθη τοῖς ἀρχαίοις, Οὐ μοιχεύσεις·",
+      "generated_at": "2026-06-02T21:29:24.977271Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 28,
+      "original": "Maer ick segge u, dat soo wie een vrouwe $Iob 31.1. Psalm 119.37.$ [aen-]siet om deselve <Namel. tot onkuysheyt.> te begeeren, die heeft alreede overspel in sijn herte met haer gedaen.",
+      "modernized": "Maar ik zeg u, dat ieder die een vrouw $Jb. 31:1; Ps. 119:37$ [aan-]ziet om haar <Namelijk, tot onkuisheid.> te begeren, al overspel in zijn hart met haar heeft begaan.",
+      "source_text": "ἐγὼ δὲ λέγω ὑμῖν, ὅτι πᾶς ὁ βλέπων γυναῖκα πρὸς τὸ ἐπιθυμῆσαι αὐτῆς ἤδη ἐμοίχευσεν αὐτὴν ἐν τῇ καρδίᾳ αὐτοῦ.",
+      "generated_at": "2026-06-02T21:36:05.881300Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 29,
+      "original": "$Matth. 18.8. Marc. 9.43.$ Indien dan uwe <Dat is, al wat u dit leven aengaende dierbaerst, aengenaemst, ofte noodighst is.> rechter ooge u <D. tot sondigen soude verwecken ofte brengen.> ergert, <D. doet sulcks liever van u wech.> trecktse uyt, ende werptse van u: want het is u nut dat een uwer leden verga, ende niet uw’ geheel lichaem in de helle geworpen worde.",
+      "modernized": "$Mt. 18:8; Mk. 9:43$ Indien dan uw <Dat is, alles wat u wat dit leven betreft het dierbaarst, aangenaamst of nodigst is.> rechteroog u <Dat is, tot zondigen zou opwekken of brengen.> tot struikelen brengt, <Dat is, verwijder zoiets liever van u.> trek het uit en werp het van u: want het is nuttig voor u dat een van uw leden verloren gaat, en niet uw gehele lichaam in de hel geworpen wordt.",
+      "source_text": "εἰ δὲ ὁ ὀφθαλμός σου ὁ δεξιὸς σκανδαλίζει σε, ἔξελε αὐτὸν καὶ βάλε ἀπὸ σοῦ· συμφέρει γάρ σοι ἵνα ἀπόληται ἓν τῶν μελῶν σου, καὶ μὴ ὅλον τὸ σῶμά σου βληθῇ εἰς γέενναν.",
+      "generated_at": "2026-06-02T21:36:59.403126Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 30,
+      "original": "Ende indien uwe rechter hant u ergert, houwtse af, ende werptse van u: want het is u nut dat een uwer leden verga, ende niet uw’ geheel lichaem in de helle geworpen worde.",
+      "modernized": "En indien uw rechterhand u tot struikelen brengt, hak die af en werp die van u: want het is nuttig voor u dat een van uw leden verloren gaat, en niet uw gehele lichaam in de hel geworpen wordt.",
+      "source_text": "καὶ εἰ ἡ δεξιά σου χεὶρ σκανδαλίζει σε, ἔκκοψον αὐτὴν καὶ βάλε ἀπὸ σοῦ· συμφέρει γάρ σοι ἵνα ἀπόληται ἓν τῶν μελῶν σου, καὶ μὴ ὅλον τὸ σῶμά σου βληθῇ εἰς γέενναν.",
+      "generated_at": "2026-06-02T21:37:27.708750Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 31,
+      "original": "Daer is oock geseght, $Deuter. 24.1.$ Soo wie sijn wijf <D. wie van sijn wijf sal scheyden.> verlaten sal, die geve haer eenen <Van dese scheydbrief siet Deuter. 24. vers 1, etc. Mal. 2. vers 14. ende Matt. 19. vers 7. Uyt welcke plaetsen blijckt, dat Godt het lichtveerdigh scheyden noyt en heeft voor goet gekent.> scheydbrief.",
+      "modernized": "Er is ook gezegd: $Dt. 24:1$ Wie zijn vrouw <dat is, wie van zijn vrouw zal scheiden.> verlaten zal, laat hij haar een <Van deze scheidbrief zie $Dt. 24:1; Ml. 2:14; Mt. 19:7$ Uit welke plaatsen blijkt dat God het lichtvaardig scheiden nooit als goed heeft erkend.> scheidbrief geven.",
+      "source_text": "ἐρρέθη δὲ ὅτι Ὃς ἂν ἀπολύσῃ τὴν γυναῖκα αὐτοῦ, δότω αὐτῇ ἀποστάσιον·",
+      "generated_at": "2026-06-02T21:42:55.292776Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 32,
+      "original": "$Matth. 19.7. Marc. 10.4, 11. Luce 16.18. 1.Corinth. 7.10.$ Maer ick segge u, dat soo wie sijn wijf verlaten sal, anders dan uyt oorsake van hoererije, die maeckt dat sy overspel doet: ende soo wie de verlatene sal trouwen, die doet overspel.",
+      "modernized": "$Mt. 19:7; Mk. 10:4,11; Lk. 16:18; 1Kor. 7:10$ Maar ik zeg u dat wie zijn vrouw verlaat, anders dan om hoererij, die maakt dat zij overspel pleegt; en wie de verlatene trouwt, die pleegt overspel.",
+      "source_text": "ἐγὼ δὲ λέγω ὑμῖν, ὅτι ὃς ἂν ἀπολύσῃ τὴν γυναῖκα αὐτοῦ, παρεκτὸς λόγου πορνείας, ποιεῖ αὐτὴν μοιχᾶσθαι· καὶ ὃς ἐὰν ἀπολελυμένην γαμήσῃ μοιχᾶται.",
+      "generated_at": "2026-06-02T21:43:30.012051Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 33,
+      "original": "Wederom hebt ghy gehoort, dat [van] den Ouden geseght is, $Exod. 20.7. Levit. 19.12. Deuter. 5.11.$ Ghy en sult <Dat is, soo niet sweeren, dat ghy uwen eedt niet en soudet houden.> den eedt niet breken, maer ghy sult den Heere <D. het gene ghy met eede Godt ofte den menschen belooft hebt, betalen.> uwe eeden houden.",
+      "modernized": "Wederom hebt u gehoord dat [van] de Ouden gezegd is: $Ex. 20:7; Lv. 19:12; Dt. 5:11$ U zult <Dat is, niet zo zweren dat u uw eed niet zou houden.> de eed niet breken, maar u zult uw eden aan de Heere <dat is, hetgeen u met een eed aan God of de mensen beloofd hebt, nakomen.> houden.",
+      "source_text": "Πάλιν ἠκούσατε ὅτι ἐρρέθη τοῖς ἀρχαίοις, Οὐκ ἐπιορκήσεις, ἀποδώσεις δὲ τῷ Κυρίῳ τοὺς ὅρκους σου·",
+      "generated_at": "2026-06-02T21:44:28.947482Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 34,
+      "original": "Maer ick segge u, $Iacob. 5.12.$ Sweert <Namelick, noch lichtveerdelick ofte onnoodelick, noch bedrieghlick, noch by de creaturen. Want eenen rechten ende noodigen eedt wort niet verboden: gelijck te sien is Rom. 1.9. ende 9. vers 1. 2.Cor. 1.23. ende 11.31. en 12. vers 19. Galat. 1.20. Philip. cap. 1. vers 8. 1.Thess. c. 5. vers 27. Hebr. 6.13, 16, 17. Apoc. 10.6.> gantschelick niet, noch by den hemel, om dat hy is de throon Godts:",
+      "modernized": "Maar ik zeg u: $Jk. 5:12$ Zweer <Namelijk, niet lichtvaardig of onnodig, niet bedrieglijk, en niet bij de schepselen. Want een rechtmatige en noodzakelijke eed wordt niet verboden, zoals te zien is in $Rm. 1:9; 9:1; 2Kor. 1:23; 11:31; 12:19; Gl. 1:20; Fp. 1:8; 1Th. 5:27; Hb. 6:13,16,17; Op. 10:6$.> helemaal niet, niet bij de hemel, omdat hij de troon van God is:",
+      "source_text": "ἐγὼ δὲ λέγω ὑμῖν μὴ ὀμόσαι ὅλως· μήτε ἐν τῷ οὐρανῷ, ὅτι θρόνος ἐστὶ τοῦ Θεοῦ·",
+      "generated_at": "2026-06-02T21:50:31.239796Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 35,
+      "original": "Noch by de aerde, $Iesa. 66.1.$ om dat sy is de voetbanck sijner voeten: Noch by Ierusalem, $Psalm 48.3.$ om dat sy is de stadt des grooten Koninghs.",
+      "modernized": "Ook niet bij de aarde, $Js. 66:1$ omdat zij de voetbank van zijn voeten is; ook niet bij Jeruzalem, $Ps. 48:3$ omdat zij de stad van de grote Koning is.",
+      "source_text": "μήτε ἐν τῇ γῇ, ὅτι ὑποπόδιόν ἐστι τῶν ποδῶν αὐτοῦ· μήτε εἰς Ἱεροσόλυμα, ὅτι πόλις ἐστὶ τοῦ μεγάλου βασιλέως·",
+      "generated_at": "2026-06-02T21:51:05.506358Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 36,
+      "original": "Noch by u hooft en sult ghy niet sweeren, om dat ghy niet een hayr kondt wit ofte swart maken.",
+      "modernized": "Ook zult u niet bij uw hoofd zweren, omdat u niet één haar wit of zwart kunt maken.",
+      "source_text": "μήτε ἐν τῇ κεφαλῇ σου ὀμόσῃς, ὅτι οὐ δύνασαι μίαν τρίχα λευκὴν ἢ μέλαιναν ποιῆσαι.",
+      "generated_at": "2026-06-02T21:51:29.779946Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 37,
+      "original": "Maer laet zijn uw’ woort <D. gebruyckt in uwe dagelickse handelingen ende gemeene reden, eenvoudige, waerachtige, ende oprechte woorden. siet Iac. 5. vers 12.> ja, ja: neen, neen: wat <Dat is, wat tot overvloet by gedaen wort, met lichtveerdigh ofte onnoodigh sweeren, ofte andersins.> boven desen is, dat is uyt den boosen.",
+      "modernized": "Maar laat uw woord <dat is, het woord dat u gebruikt in uw dagelijkse handelingen en gewone gesprekken: eenvoudige, waarachtige en oprechte woorden. Zie $Jk. 5:12$.> ja, ja zijn; nee, nee; wat <Dat is, wat er bovenop bij gedaan wordt, met lichtvaardig of onnodig zweren, of anderszins.> daarboven is, dat is uit de boze.",
+      "source_text": "ἔστω δὲ ὁ λόγος ὑμῶν, ναὶ ναί, οὒ οὔ· τὸ δὲ περισσὸν τούτων ἐκ τοῦ πονηροῦ ἐστιν.",
+      "generated_at": "2026-06-02T21:59:10.650783Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 38,
+      "original": "Ghy hebt gehoort dat $Exod. 21.24. Levit. 24.20. Deuter. 19.21.$ geseght is, <Dese wet die den Overheden gegeven was, wiert van de Pharizeen ende Schriftgeleerde misduydt tot eygen wrake: welcke Christus hier in ’t volgende bestraft.> Ooge om ooge, ende tant om tant.",
+      "modernized": "U hebt gehoord dat $Ex. 21:24; Lv. 24:20; Dt. 19:21$ gezegd is: <Deze wet, die aan de Overheden gegeven was, werd door de Farizeeën en Schriftgeleerden verkeerd uitgelegd als rechtvaardiging voor eigen wraak; wat Christus hier in het volgende bestraft.> Oog om oog, en tand om tand.",
+      "source_text": "Ἠκούσατε ὅτι ἐρρέθη, Ὀφθαλμὸν ἀντὶ ὀφθαλμοῦ, καὶ ὀδόντα ἀντὶ ὀδόντος·",
+      "generated_at": "2026-06-02T21:57:28.328770Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 39,
+      "original": "Maer ick segge u, $Luce 6.29. Rom. 12.17. 1.Cor. 6.7. 1.Thess. 5.15. 1.Petr. 3.9. Prov. 24.29.$ dat ghy den boosen niet en wederstaet: maer soo wie u op de rechter wange slaet, <Namel. liever dan dat ghy uselven soudet wreken. Want dat dit niet en is simpelick te verstaen, blijckt selfs uyt het exempel Christi, Ioan. 18.23. Ende alsoo moeten oock de twee naestvolgende versen verstaen worden.> keert hem oock de andere toe.",
+      "modernized": "Maar ik zeg u, $Lk. 6:29; Rm. 12:17; 1Kor. 6:7; 1Th. 5:15; 1Pt. 3:9; Sp. 24:29$ dat u de boze niet weerstaat; maar wie u op de rechterwang slaat, <Namelijk, liever dan dat u uzelf zou wreken. Want dat dit niet zonder meer zo opgevat moet worden, blijkt zelfs uit het voorbeeld van Christus, $Jh. 18:23$ En zo moeten ook de twee direct volgende verzen opgevat worden.> keer hem ook de andere toe.",
+      "source_text": "ἐγὼ δὲ λέγω ὑμῖν μὴ ἀντιστῆναι τῷ πονηρῷ· ἀλλ’ ὅστις σε ῥαπίσει ἐπὶ τὴν δεξιάν σου σιαγόνα, στρέψον αὐτῷ καὶ τὴν ἄλλην·",
+      "generated_at": "2026-06-02T21:58:20.971429Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 40,
+      "original": "Ende soo yemant met u rechten wil, ende uwen rock nemen, laet hem oock den mantel.",
+      "modernized": "En als iemand met u wil procederen en uw hemd nemen, sta hem ook de mantel af.",
+      "source_text": "καὶ τῷ θέλοντί σοι κριθῆναι καὶ τὸν χιτῶνά σου λαβεῖν, ἄφες αὐτῷ καὶ τὸ ἱμάτιον·",
+      "generated_at": "2026-06-02T22:04:56.075813Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 41,
+      "original": "Ende soo wie u sal <In het Griecks wort een Persisch woort gebruyckt, waer door beteeckent wort eenen hofdienst, waer toe de ondersaten gedwongen wierden om de lasten der heere boden te dragen, ofte daer toe hare ezels, etc. te leenen ende te drijven. Het selve woort wort oock gebruyckt Matth. cap. 27. vers 32.> dwingen een mijle te gaen, gaet met hem twee [mijlen.]",
+      "modernized": "En wie u zal <In het Grieks wordt een Perzisch woord gebruikt, waardoor een hofdienst wordt aangeduid, waartoe de onderdanen gedwongen werden om de lasten van de herenboden te dragen, of daartoe hun ezels, enz., te lenen en te drijven. Hetzelfde woord wordt ook gebruikt $Mt. 27:32$.> dwingen één mijl te gaan, ga met hem twee [mijlen.]",
+      "source_text": "καὶ ὅστις σε ἀγγαρεύσει μίλιον ἕν, ὕπαγε μετ’ αὐτοῦ δύο.",
+      "generated_at": "2026-06-02T22:05:37.167496Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 42,
+      "original": "$Deuter. 15.8. Luce 6.35.$ Geeft den genen die [yet] van u <Of, begeert, eyscht.> bidt, ende en keert u niet af van den genen die van u leenen wil.",
+      "modernized": "$Dt. 15:8; Lk. 6:35$ Geef aan degene die [iets] van u <Of, verlangt, eist.> vraagt, en keer u niet af van degene die van u lenen wil.",
+      "source_text": "τῷ αἰτοῦντί σε δίδου· καὶ τὸν θέλοντα ἀπὸ σοῦ δανείσασθαι μὴ ἀποστραφῇς.",
+      "generated_at": "2026-06-02T22:06:09.994671Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 43,
+      "original": "Ghy hebt gehoort datter geseght is, $Levit. 19.18.$ Ghy sult uwen naesten lief hebben, ende <Dat en staet nergens in Godts wet, maer het tegendeel daer van staet Deut. 32.35. Prov. 25.21.> uwen vyant sult ghy haten.",
+      "modernized": "U hebt gehoord dat er gezegd is: $Lv. 19:18$ U zult uw naaste liefhebben, en u zult uw vijand haten. <Dat staat nergens in Gods wet, maar het tegendeel daarvan staat $Dt. 32:35; Sp. 25:21$.>",
+      "source_text": "Ἠκούσατε ὅτι ἐρρέθη, Ἀγαπήσεις τὸν πλησίον σου, καὶ μισήσεις τὸν ἐχθρόν σου·",
+      "generated_at": "2026-06-02T22:11:13.916026Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 44,
+      "original": "Maer ick segge u, $Luce 6.27. Rom. 12.20.$ Hebt uwe vyanden lief, zegentse die u vervloecken, doet wel den genen die u haten, ende $Luce 23.34. Actor. 7.60. 1.Cor. 4.13. 1.Petr. 2.23.$ bidt voor de gene die u <And. lasteren, gelijck het selve woort oock genomen wort, 1.Petr. c. 3. vers 16.> gewelt doen, ende die u vervolgen.",
+      "modernized": "Maar ik zeg u: $Lk. 6:27; Rm. 12:20$ Heb uw vijanden lief, zegen hen die u vervloeken, doe goed aan hen die u haten, en $Lk. 23:34; Hd. 7:60; 1Kor. 4:13; 1Pt. 2:23$ bid voor hen die u <Anders, lasteren, zoals hetzelfde woord ook opgevat wordt, $1Pt. 3:16$.> geweld aandoen en die u vervolgen.",
+      "source_text": "ἐγὼ δὲ λέγω ὑμῖν, ἀγαπᾶτε τοὺς ἐχθροὺς ὑμῶν, εὐλογεῖτε τοὺς καταρωμένους ὑμᾶς, καλῶς ποιεῖτε τοὺς μισοῦντας ὑμᾶς, καὶ προσεύχεσθε ὑπὲρ τῶν ἐπηρεαζόντων ὑμᾶς, καὶ διωκόντων ὑμᾶς·",
+      "generated_at": "2026-06-02T22:12:10.891519Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 45,
+      "original": "Op dat ghy meught kinderen <Dat is, mach blijcken dat ghy het zijt.> zijn uwes Vaders die in de hemelen is. Want hy doet sijne sonne opgaen over boose ende goede, ende regent over rechtveerdige ende onrechtveerdige.",
+      "modernized": "Opdat u kinderen <Dat is, mag blijken dat u het bent.> zult zijn van uw Vader, die in de hemelen is. Want hij doet zijn zon opgaan over bozen en goeden, en laat het regenen over rechtvaardigen en onrechtvaardigen.",
+      "source_text": "ὅπως γένησθε υἱοὶ τοῦ Πατρὸς ὑμῶν τοῦ ἐν οὐρανοῖς, ὅτι τὸν ἥλιον αὐτοῦ ἀνατέλλει ἐπὶ πονηροὺς καὶ ἀγαθούς, καὶ βρέχει ἐπὶ δικαίους καὶ ἀδίκους.",
+      "generated_at": "2026-06-02T22:12:53.468829Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 46,
+      "original": "$Luce 6.32.$ Want indien ghy <Namel. alleen: gelijck blijckt uyt het volgende vers.> lief hebt, die u lief hebben, wat loon hebt ghy? Doen oock de tollenaers niet het selve?",
+      "modernized": "$Lk. 6:32$ Want als u <Namelijk, alleen, zoals blijkt uit het volgende vers.> liefhebt wie u liefhebben, wat loon hebt u? Doen ook de tollenaars niet hetzelfde?",
+      "source_text": "ἐὰν γὰρ ἀγαπήσητε τοὺς ἀγαπῶντας ὑμᾶς, τίνα μισθὸν ἔχετε; οὐχὶ καὶ οἱ τελῶναι τὸ αὐτὸ ποιοῦσι;",
+      "generated_at": "2026-06-02T22:17:30.888394Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 47,
+      "original": "Ende indien ghy uwe broeders al-leen <Of vriendelick bejegent.> groet, wat doet ghy boven andere? Doen oock niet de tollenaers alsoo?",
+      "modernized": "En als u uw broeders alleen <Of, vriendelijk bejegent.> groet, wat doet u meer dan anderen? Doen ook de tollenaars niet zo?",
+      "source_text": "καὶ ἐὰν ἀσπάσησθε τοὺς ἀδελφοὺς ὑμῶν μόνον, τί περισσὸν ποιεῖτε; οὐχὶ καὶ οἱ τελῶναι οὕτω ποιοῦσιν;",
+      "generated_at": "2026-06-02T22:18:06.586588Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 48,
+      "original": "Weest dan ghylieden volmaeckt, gelijck uw’ Vader, die in de hemelen is, volmaeckt is.",
+      "modernized": "Wees dan volmaakt, zoals uw Vader, die in de hemelen is, volmaakt is.",
+      "source_text": "ἔσεσθε οὖν ὑμεῖς τέλειοι, ὥσπερ ὁ Πατὴρ ὑμῶν ὁ ἐν τοῖς οὐρανοῖς τέλειός ἐστι.",
+      "generated_at": "2026-06-02T22:18:35.673523Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    }
+  ]
+}

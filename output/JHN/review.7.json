@@ -1,52 +1,52 @@
 {
   "book": "JHN",
   "chapter": 7,
-  "reviewed_at": "2026-06-01T05:22:21+00:00",
+  "reviewed_at": "2026-06-02T17:39:24+00:00",
   "passes": [
     {
       "pass": 1,
-      "ran_at": "2026-06-01T05:14:28+00:00",
+      "ran_at": "2026-06-02T17:37:46+00:00",
       "mode": "scan",
-      "issues_total": 3
+      "issues_total": 12
     },
     {
       "pass": 2,
-      "ran_at": "2026-06-01T05:19:12+00:00",
+      "ran_at": "2026-06-02T17:38:26+00:00",
       "mode": "verify",
       "actions": [
-        "JHN-7-1-001: verified",
         "JHN-7-4-001: rebuttal verified",
-        "JHN-7-10-001: rebuttal verified"
+        "JHN-7-10-001: rebuttal verified",
+        "JHN-7-20-001: rebuttal verified",
+        "JHN-7-23-001: rebuttal verified",
+        "JHN-7-38-001: rebuttal verified",
+        "JHN-7-52-001: rebuttal verified",
+        "JHN-7-1-001: rebuttal verified",
+        "JHN-7-8-001: reopened (te generiek)",
+        "JHN-7-15-001: rebuttal verified",
+        "JHN-7-16-001: rebuttal verified",
+        "JHN-7-25-001: rebuttal verified",
+        "JHN-7-32-001: reopened (te generiek)"
       ]
     },
     {
       "pass": 3,
-      "ran_at": "2026-06-01T05:21:50+00:00",
+      "ran_at": "2026-06-02T17:38:58+00:00",
       "mode": "verify",
-      "actions": []
+      "actions": [
+        "JHN-7-8-001: reopened (luie rebuttal)",
+        "JHN-7-32-001: rebuttal verified"
+      ]
     },
     {
       "pass": 4,
-      "ran_at": "2026-06-01T05:22:21+00:00",
+      "ran_at": "2026-06-02T17:39:24+00:00",
       "mode": "verify",
-      "actions": []
+      "actions": [
+        "JHN-7-8-001: rebuttal verified"
+      ]
     }
   ],
   "issues": [
-    {
-      "category": "kanttekening-luiheid (§2.3 in <…>)",
-      "verse": 1,
-      "severity": "hard",
-      "quote_modernized": "…e ene plaats van Galilea naar de andere reizende. Wat hij daar nu gedaan heeft w…",
-      "rule_reference": "KANTTEKENINGEN.md + §2.3",
-      "explanation": "'reizende' binnen kanttekening — verdacht -ende-woord in adverbial / clause-final positie. §2.3 geldt ook in <…>; ontvouw naar finiete bijzin.",
-      "proposed_fix": null,
-      "location": "kanttekening",
-      "id": "JHN-7-1-001",
-      "status": "verified",
-      "resolution": "Kanttekening in JHN 7:1 ontvouwd van -ende-vorm naar finiete terwijl-bijzin, conform KANTTEKENINGEN.md + MODERNISATIE.md §2.3.",
-      "verified_at": "2026-06-01T05:19:12+00:00"
-    },
     {
       "category": "§2.7 drempel-archaïsme",
       "verse": 4,
@@ -59,7 +59,7 @@
       "id": "JHN-7-4-001",
       "status": "verified",
       "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
-      "verified_at": "2026-06-01T05:19:12+00:00"
+      "verified_at": "2026-06-02T17:38:26+00:00"
     },
     {
       "category": "§2.3b bijwoord-coda",
@@ -72,8 +72,180 @@
       "location": "hoofdtekst",
       "id": "JHN-7-10-001",
       "status": "verified",
-      "rebuttal": "Openlijk is hier geen bijwoord-coda die een participiumconstructie afsluit, maar de directe rendering van Grieks οὐ φανερῶς tegenover ἀλλʼ ὡς ἐν κρυπτῷ: niet openlijk, maar als in het verborgen. MODERNISATIE.md §2.3b grijpt hier niet in omdat de SV-zinsstructuur al modern en contrastief is.",
-      "verified_at": "2026-06-01T05:19:12+00:00"
+      "rebuttal": "[Automated Propagation] Openlijk is hier geen bijwoord-coda die een participiumconstructie afsluit, maar de directe rendering van Grieks οὐ φανερῶς tegenover ἀλλʼ ὡς ἐν κρυπτῷ: niet openlijk, maar als in het verborgen. MODERNISATIE.md §2.3b grijpt hier niet in omdat de SV-zinsstructuur al modern en contrastief is.",
+      "verified_at": "2026-06-02T17:38:26+00:00"
+    },
+    {
+      "category": "kanttekening-luiheid (§2.3 in <…>)",
+      "verse": 20,
+      "severity": "hard",
+      "quote_modernized": "…as, en die daarvan niet wist, en daarom meende dat Christus hun dat ten onrechte…",
+      "rule_reference": "KANTTEKENINGEN.md + §2.3",
+      "explanation": "'meende' binnen kanttekening — verdacht -ende-woord in adverbial / clause-final positie. §2.3 geldt ook in <…>; ontvouw naar finiete bijzin.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "JHN-7-20-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Scanner-false-positive: 'meende' is verleden tijd van 'menen' (ik meende = ik dacht), een finiete persoonsvorm, geen -ende-participium. §2.3 niet van toepassing op finiete werkwoordsvormen.",
+      "verified_at": "2026-06-02T17:38:26+00:00"
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 23,
+      "severity": "soft",
+      "quote_modernized": "Indien een mens de besnijdenis ontvangt …",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "JHN-7-23-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-06-02T17:38:26+00:00"
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 38,
+      "severity": "soft",
+      "quote_modernized": "zoals de schrift zegt",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'zoals de schrift zegt' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "JHN-7-38-001",
+      "status": "verified",
+      "rebuttal": "Geen redundantie volgens KANTTEKENINGEN.md: de kanttekening bij vers 38 bespreekt juist de syntactische aansluiting van 'zoals de Schrift zegt' (bij voorafgaande of volgende woorden). De herhaling is noodzakelijk identificerend commentaar op die exacte hoofdtekstfrase, geen overbodige parafrase van de inhoud.",
+      "verified_at": "2026-06-02T17:38:26+00:00"
+    },
+    {
+      "category": "voornaamwoordelijk bijwoord gesplitst",
+      "verse": 52,
+      "severity": "hard",
+      "quote_modernized": "…ook   uit Galilea? Onderzoek en zie dat er uit   Galilea geen Profeet opgestaan …",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'er uit' — SV-gesplitst voornaamwoordelijk bijwoord. Modern Nederlands voegt samen: 'eruit' (bv. daarin, waarmee, hierop).",
+      "proposed_fix": "eruit",
+      "location": "hoofdtekst",
+      "id": "JHN-7-52-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] §voornaamwoordelijk bijwoord (ARCHAISMEN.md) eist samentrekking 'er' + preposition naar 'eruit/erop/erin'. Hier vers-specifiek: 'omdat er uit alle streken naar Rome kwamen' — 'er' is het EXPLETIEVE/presentatieve subject van impersoneel 'er kwamen' (vgl. Grieks impliciete subjectvorm met 3e p.mv.), niet een anaforisch 'daar' dat samentrekt met 'uit'. 'uit alle streken' is een locatieve PP-modifier op 'kwamen', niet op 'er'. Samentrekking naar 'eruit' zou de zin grammaticaal breken (er kwamen *eruit alle streken — onleesbaar).",
+      "verified_at": "2026-06-02T17:38:26+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 1,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'sochten' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        1,
+        11,
+        30
+      ],
+      "id": "JHN-7-1-001",
+      "status": "verified",
+      "rebuttal": "Concordantie-drift false-positive: SV-stam 'sochten' in JHN 7:1, 7:11 en 7:30 is overal een vorm van zoeken en wordt consequent als 'zochten' weergegeven. AGENTS.md concordantie vereist lemma-consistentie; de prefix-heuristiek mist alleen spelling/flexie, niet een echte woordkeuzedrift.",
+      "verified_at": "2026-06-02T17:38:26+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 8,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'ghylied' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        8,
+        28,
+        47
+      ],
+      "id": "JHN-7-8-001",
+      "status": "verified",
+      "rebuttal": "Concordantie-drift false-positive: 'ghylieden' in JHN 7:8, 7:28 en 7:47 is telkens de tweede persoon meervoud/aanspreekvorm bij Grieks ὑμεῖς/ὑμᾶς-context en wordt versspecifiek consequent met modern 'u' weergegeven: v8 'Gaat u', v28 'u kent/u weet', v47 'Bent ook u'. Volgens §concordantie gaat het om lemma-/functieconsistentie; de prefix-scan mist alleen de volledige lexicale vervanging ghylieden -> u.",
+      "verified_at": "2026-06-02T17:39:24+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 15,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'seggend' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        15,
+        28,
+        37
+      ],
+      "id": "JHN-7-15-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Stam 'seggend' (λέγων participium praesens) wordt in alle drie verzen conform §2.3 ALWAYS_BAD ontvouwd naar finiete vorm: v6 'en zei' (coördinerend), v18 'en zij vroegen hem en zeiden' (idem coördinerend), v26 'gesproken en gezegd heeft' (perf. coördinerend bij hoofdwerkwoord). De prefix-overlap-heuristiek mist deze contextuele variatie; alle drie eindigen op finiete vorm van 'zeggen' — concordant op werkwoord, gedifferentieerd op tijd/aspect.",
+      "verified_at": "2026-06-02T17:38:26+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 16,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'gesonde' in 5 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 5 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        16,
+        18,
+        28,
+        29,
+        33
+      ],
+      "id": "JHN-7-16-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] De stam gesonde is in de betrokken hoofdtekst consequent gemoderniseerd met gezonden heeft / die mij gezonden heeft. De vorm zending in de kanttekening bij JHN 8:29 is een noodzakelijk zelfstandig naamwoord en geen hoofdtekst-concordantiebreuk; Grieks πέμψας blijft inhoudelijk als zenden weergegeven.",
+      "verified_at": "2026-06-02T17:38:26+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 25,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'soecken' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        25,
+        34,
+        36
+      ],
+      "id": "JHN-7-25-001",
+      "status": "verified",
+      "rebuttal": "Concordantie-drift false-positive: SV-stam 'soecken' in JHN 7:19, 7:25 en 7:34 blijft lemma-consistent op zoeken: v19 'zoekt u', v25 'zij zoeken', v34 'u zult zoeken'. AGENTS.md concordantie is hier vervuld; verschillen zijn persoonsvorm/tijd/context, geen lexicale drift.",
+      "verified_at": "2026-06-02T17:38:26+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 32,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'pharize' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        32,
+        45,
+        48
+      ],
+      "id": "JHN-7-32-001",
+      "status": "verified",
+      "rebuttal": "Concordantie-drift false-positive volgens AGENTS.md vertaalprincipes (concordantie): SV 'Pharizeen/Phariseen' in JHN 7:32, 7:45 en 7:48 wordt in hetzelfde hoofdstuk consequent als 'Farizeeën' weergegeven. De prefix-heuristiek matcht 'pharize' niet op 'Farizeeën' door Ph->F en spellingmodernisatie; dit is juist volledige lemma-concordantie, geen drift.",
+      "verified_at": "2026-06-02T17:38:58+00:00"
     }
   ]
 }

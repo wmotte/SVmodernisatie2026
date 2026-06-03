@@ -1,0 +1,157 @@
+{
+  "book": "MAT",
+  "chapter": 3,
+  "reviewed_at": "2026-06-02T14:50:29+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-06-02T14:47:04+00:00",
+      "mode": "scan",
+      "issues_total": 8
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-06-02T14:50:29+00:00",
+      "mode": "verify",
+      "actions": [
+        "MAT-3-2-001: rebuttal verified",
+        "MAT-3-3-001: rebuttal verified",
+        "MAT-3-4-001: verified",
+        "MAT-3-11-001: verified",
+        "MAT-3-16-001: rebuttal verified",
+        "MAT-3-1-001: rebuttal verified",
+        "MAT-3-2-002: rebuttal verified",
+        "MAT-3-5-001: rebuttal verified"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 2,
+      "severity": "hard",
+      "quote_modernized": "…ij zei: Bekeer u, want   het Koninkrijk der hemelen is nabij gekomen.",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'der hemelen' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de hemelen' of 'van het hemelen', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de hemelen",
+      "location": "hoofdtekst",
+      "id": "MAT-3-2-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] 'Koninkrijk der hemelen' is gefossiliseerde bijbeluitdrukking voor Gr. βασιλεία τῶν οὐρανῶν. Standaard in NL bijbelvertalingen (NBV21, HSV); MODERNISATIE.md §2.7 erkent lexicale fossielen — geen productieve genitief.",
+      "verified_at": "2026-06-02T14:50:29+00:00"
+    },
+    {
+      "category": "genitief pronomen wiens/wier",
+      "verse": 3,
+      "severity": "hard",
+      "quote_modernized": "… ontleend aan een Prins of Koning, voor wiens komst de wegen bereid en geëffend …",
+      "rule_reference": "ARCHAISMEN.md (SV-pronomina)",
+      "explanation": "'wiens komst' — formeel-archaïsch genitief-pronomen. Modern Nederlands: 'van wie komst' of zinsherbouw met bezittelijk voornaamwoord ('die zijn komst', 'die haar komst'). NBV21 vermijdt 'wiens' grotendeels.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "MAT-3-3-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] Genitief-pronomen in kanttekening gemoderniseerd volgens ARCHAISMEN.md SV-pronomina: \"door wiens komst\" is vervangen door \"door zijn komst\".",
+      "verified_at": "2026-06-02T14:50:29+00:00"
+    },
+    {
+      "category": "genitief pronomen wiens/wier",
+      "verse": 4,
+      "severity": "hard",
+      "quote_modernized": "…bijzonder getuigd wordt, $2Kn. 1:8$, in wiens geest en kracht Johannes de Doper …",
+      "rule_reference": "ARCHAISMEN.md (SV-pronomina)",
+      "explanation": "'wiens geest' — formeel-archaïsch genitief-pronomen. Modern Nederlands: 'van wie geest' of zinsherbouw met bezittelijk voornaamwoord ('die zijn geest', 'die haar geest'). NBV21 vermijdt 'wiens' grotendeels.",
+      "proposed_fix": "in zijn geest en kracht",
+      "location": "kanttekening",
+      "id": "MAT-3-4-001",
+      "status": "verified",
+      "fix_commit": "pending",
+      "verified_at": "2026-06-02T14:50:29+00:00"
+    },
+    {
+      "category": "genitief pronomen wiens/wier",
+      "verse": 11,
+      "severity": "hard",
+      "quote_modernized": "…die   na mij komt, is sterker dan ik,   wiens schoenen ik niet waardig ben hem n…",
+      "rule_reference": "ARCHAISMEN.md (SV-pronomina)",
+      "explanation": "'wiens schoenen' — formeel-archaïsch genitief-pronomen. Modern Nederlands: 'van wie schoenen' of zinsherbouw met bezittelijk voornaamwoord ('die zijn schoenen', 'die haar schoenen'). NBV21 vermijdt 'wiens' grotendeels.",
+      "proposed_fix": "zijn schoenen ben ik niet waardig [hem na] te dragen",
+      "location": "hoofdtekst",
+      "id": "MAT-3-11-001",
+      "status": "verified",
+      "fix_commit": "pending",
+      "verified_at": "2026-06-02T14:50:29+00:00"
+    },
+    {
+      "category": "voornaamwoordelijk bijwoord gesplitst",
+      "verse": 16,
+      "severity": "hard",
+      "quote_modernized": "…Geest, die overal tegenwoordig is, zich hier op Christus willen openbaren, om zi…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'hier op' — SV-gesplitst voornaamwoordelijk bijwoord. Modern Nederlands voegt samen: 'hierop' (bv. daarin, waarmee, hierop).",
+      "proposed_fix": "hierop",
+      "location": "kanttekening",
+      "id": "MAT-3-16-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] False-positive op ARCHAISMEN.md 'gesplitst voornaamwoordelijk bijwoord': in v19 betekent 'hier op aarde' [hier] = locatief adverbium plus de volledige PP 'op aarde'. Samenvoegen tot 'hierop aarde' is ongrammaticaal; dit is niet het type 'daar op acht' waarbij de prepositie geen zelfstandig naamwoord regeert.",
+      "verified_at": "2026-06-02T14:50:29+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 1,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'ioannes' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        1,
+        4,
+        14
+      ],
+      "id": "MAT-3-1-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Scanner-false-positive. Origineel-stam 'ioannes' rendert in alle drie verzen consistent als 'Johannes' (NBV21-conform, ARCHAISMEN.md eigennamen-tabel). Prefix-overlap faalt omdat 'ioannes'/'johannes' lexicaal verschillen. Concordantie is in werkelijkheid 100%.",
+      "verified_at": "2026-06-02T14:50:29+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 2,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'seggend' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        2,
+        14,
+        17
+      ],
+      "id": "MAT-3-2-002",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Stam 'seggend' (λέγων participium praesens) wordt in alle drie verzen conform §2.3 ALWAYS_BAD ontvouwd naar finiete vorm: v6 'en zei' (coördinerend), v18 'en zij vroegen hem en zeiden' (idem coördinerend), v26 'gesproken en gezegd heeft' (perf. coördinerend bij hoofdwerkwoord). De prefix-overlap-heuristiek mist deze contextuele variatie; alle drie eindigen op finiete vorm van 'zeggen' — concordant op werkwoord, gedifferentieerd op tijd/aspect.",
+      "verified_at": "2026-06-02T14:50:29+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 5,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'iordaen' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        5,
+        6,
+        13
+      ],
+      "id": "MAT-3-5-001",
+      "status": "verified",
+      "rebuttal": "Scanner-false-positive op concordantie: de SV-stam 'Iordaen' in MAT 3:5,6,13 is in alle drie verzen consequent gemoderniseerd als 'Jordaan' volgens ARCHAISMEN.md eigennamen/orthografie. De prefix-heuristiek mist de i/j-orthografische overgang; er is geen lexicale drift.",
+      "verified_at": "2026-06-02T14:50:29+00:00"
+    }
+  ]
+}

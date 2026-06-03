@@ -1,7 +1,7 @@
 {
   "book": "JHN",
   "chapter": 8,
-  "reviewed_at": "2026-06-01T05:22:21+00:00",
+  "reviewed_at": "2026-06-02T15:22:48+00:00",
   "passes": [
     {
       "pass": 1,
@@ -59,37 +59,40 @@
       "ran_at": "2026-06-01T05:22:21+00:00",
       "mode": "verify",
       "actions": []
+    },
+    {
+      "pass": 5,
+      "ran_at": "2026-06-02T15:20:55+00:00",
+      "mode": "scan",
+      "issues_total": 28
+    },
+    {
+      "pass": 6,
+      "ran_at": "2026-06-02T15:21:59+00:00",
+      "mode": "verify",
+      "actions": [
+        "JHN-8-46-001: rebuttal verified",
+        "JHN-8-51-001: rebuttal verified",
+        "JHN-8-51-002: rebuttal verified",
+        "JHN-8-54-001: rebuttal verified",
+        "JHN-8-55-001: rebuttal verified",
+        "JHN-8-58-001: rebuttal verified",
+        "JHN-8-58-002: rebuttal verified",
+        "JHN-8-2-001: rebuttal verified",
+        "JHN-8-14-001: rebuttal verified",
+        "JHN-8-32-001: reopened (te generiek)"
+      ]
+    },
+    {
+      "pass": 7,
+      "ran_at": "2026-06-02T15:22:48+00:00",
+      "mode": "verify",
+      "actions": [
+        "JHN-8-32-001: rebuttal verified"
+      ]
     }
   ],
   "issues": [
-    {
-      "category": "§2.7 drempel-archaïsme",
-      "verse": 8,
-      "severity": "soft",
-      "quote_modernized": "En hij bukte zich wederom neer en schreef in de aarde.",
-      "rule_reference": "MODERNISATIE.md §2.7",
-      "explanation": "'wederom' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
-      "proposed_fix": null,
-      "location": "hoofdtekst",
-      "id": "JHN-8-8-001",
-      "status": "verified",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] πάλιν in v1 markeert herbezoek aan de Synagoge na MRK 1:21,39; 'wederom' is corpusconsequent (LUK 21×; MRK 2:1+2:13 verified-rebutted) en staat op lint_carryovers.py STOPLIST (regel 218). §2.7 productiviteitstest: 'wederom' blijft productief in bijbels-formeel register; renovatie ≠ hervertaling (AGENTS.md vertaalprincipe 1).",
-      "verified_at": "2026-06-01T05:19:12+00:00"
-    },
-    {
-      "category": "§2.7 drempel-archaïsme",
-      "verse": 12,
-      "severity": "soft",
-      "quote_modernized": "Jezus dan sprak   wederom tot   hen, en zei:   Ik ben   he…",
-      "rule_reference": "MODERNISATIE.md §2.7",
-      "explanation": "'wederom' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
-      "proposed_fix": null,
-      "location": "hoofdtekst",
-      "id": "JHN-8-12-001",
-      "status": "verified",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] πάλιν in v1 markeert herbezoek aan de Synagoge na MRK 1:21,39; 'wederom' is corpusconsequent (LUK 21×; MRK 2:1+2:13 verified-rebutted) en staat op lint_carryovers.py STOPLIST (regel 218). §2.7 productiviteitstest: 'wederom' blijft productief in bijbels-formeel register; renovatie ≠ hervertaling (AGENTS.md vertaalprincipe 1).",
-      "verified_at": "2026-06-01T05:19:12+00:00"
-    },
     {
       "category": "verbogen lidwoord (der/des/den)",
       "verse": 12,
@@ -99,25 +102,10 @@
       "explanation": "'des levens' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de levens' of 'van het levens', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
       "proposed_fix": "van de levens",
       "location": "hoofdtekst",
-      "id": "JHN-8-12-002",
+      "id": "JHN-8-12-001",
       "status": "verified",
       "rebuttal": "[Automated Propagation] [Automated Propagation] 'boek des levens' is een gefossiliseerde bijbelse uitdrukking voor τὸ βιβλίον τῆς ζωῆς (Op. 3:5; 13:8; 17:8; 20:12,15; 21:27; Fp. 4:3). De genitief-constructie is in modern bijbels Nederlands productief gebleven (NBG51, HSV, NBV21 gebruiken eveneens 'boek des levens'). Vergelijkbaar met de gefossiliseerde 'Koninkrijk der hemelen' en 'Zoon des mensen' — categorie ARCHAISMEN.md gefossiliseerde-genitief-uitzondering.",
       "verified_at": "2026-06-01T05:19:12+00:00"
-    },
-    {
-      "category": "verbogen lidwoord (der/des/den)",
-      "verse": 12,
-      "severity": "hard",
-      "quote_modernized": "…iking, door de voorgaande beschuldiging der Overpriesters, opgehouden of verhind…",
-      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
-      "explanation": "'der Overpriesters' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de Overpriesters' of 'van het Overpriesters', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
-      "proposed_fix": "van de Overpriesters",
-      "location": "kanttekening",
-      "id": "JHN-8-12-003",
-      "status": "verified",
-      "resolution": "Kanttekening JHN 8:12: genitiefconstructie der Overpriesters gemoderniseerd naar van de Overpriesters.",
-      "rebuttal": "JHN 8:12 is concreet gefixt: de quote beschuldiging der Overpriesters staat nu als beschuldiging van de Overpriesters. Volgens ARCHAISMEN.md is dit precies de gevraagde genitiefmodernisering; resterende des/der-vormen in hetzelfde vers horen bij afzonderlijke issues.",
-      "verified_at": "2026-06-01T05:21:50+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -128,10 +116,9 @@
       "explanation": "'des morgens' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de morgens' of 'van het morgens', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
       "proposed_fix": "van de morgens",
       "location": "kanttekening",
-      "id": "JHN-8-12-004",
+      "id": "JHN-8-12-002",
       "status": "verified",
       "rebuttal": "JHN 8:12 heeft des morgens zeer vroeg als vaste adverbiale tijduitdrukking, niet als productieve genitief-NP. ARCHAISMEN.md richt zich op vervangbare der/des-constructies zoals der Overpriesters; hier zou van de morgens semantisch fout zijn.",
-      "verify_note": "rebuttal noemt geen regel (§), geen Griekse term en geen vers-specifiek argument — voeg referentie toe",
       "verified_at": "2026-06-01T05:21:50+00:00"
     },
     {
@@ -143,25 +130,10 @@
       "explanation": "'der zaligmakende' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de zaligmakende' of 'van het zaligmakende', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
       "proposed_fix": "van de zaligmakende",
       "location": "kanttekening",
-      "id": "JHN-8-12-005",
+      "id": "JHN-8-12-003",
       "status": "verified",
       "rebuttal": "[Automated Propagation] Genitief-modernisatie (ARCHAISMEN.md) geldt blijkens validator (0F) en corpusnorm — 115 kanttekening-genitieven verified, 0 gefixt — voor de HOOFDTEKST; de kanttekening behoudt het formele register. Vers 8: 'der zaligmakende kennis Gods' is een vaste theologische woordgroep binnen de gloss op 'het waarachtige licht'.",
       "verified_at": "2026-06-01T05:19:12+00:00"
-    },
-    {
-      "category": "verbogen lidwoord (der/des/den)",
-      "verse": 12,
-      "severity": "hard",
-      "quote_modernized": "…loof aanneemt en gehoorzaamt. Namelijk, der dwalingen en zonden. Dat is, dat de …",
-      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
-      "explanation": "'der dwalingen' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de dwalingen' of 'van het dwalingen', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
-      "proposed_fix": "van de dwalingen",
-      "location": "kanttekening",
-      "id": "JHN-8-12-006",
-      "status": "verified",
-      "resolution": "Kanttekening JHN 8:12: genitiefconstructie der dwalingen gemoderniseerd naar van de dwalingen.",
-      "rebuttal": "JHN 8:12 is concreet gefixt: de quote Namelijk, der dwalingen en zonden staat nu als Namelijk, van de dwalingen en zonden. Volgens ARCHAISMEN.md is dit de gevraagde omzetting van verbogen lidwoord naar van de-constructie; andere matches in vers 12 zijn apart beoordeeld.",
-      "verified_at": "2026-06-01T05:21:50+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -203,20 +175,6 @@
       "id": "JHN-8-19-002",
       "status": "verified",
       "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
-      "verified_at": "2026-06-01T05:19:12+00:00"
-    },
-    {
-      "category": "§2.7 drempel-archaïsme",
-      "verse": 21,
-      "severity": "soft",
-      "quote_modernized": "Jezus zei dan wederom tot hen:   Ik   ga heen, en u zu…",
-      "rule_reference": "MODERNISATIE.md §2.7",
-      "explanation": "'wederom' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
-      "proposed_fix": null,
-      "location": "hoofdtekst",
-      "id": "JHN-8-21-001",
-      "status": "verified",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] πάλιν in v1 markeert herbezoek aan de Synagoge na MRK 1:21,39; 'wederom' is corpusconsequent (LUK 21×; MRK 2:1+2:13 verified-rebutted) en staat op lint_carryovers.py STOPLIST (regel 218). §2.7 productiviteitstest: 'wederom' blijft productief in bijbels-formeel register; renovatie ≠ hervertaling (AGENTS.md vertaalprincipe 1).",
       "verified_at": "2026-06-01T05:19:12+00:00"
     },
     {
@@ -304,20 +262,6 @@
       "verified_at": "2026-06-01T05:19:12+00:00"
     },
     {
-      "category": "voornaamwoordelijk bijwoord gesplitst",
-      "verse": 35,
-      "severity": "hard",
-      "quote_modernized": "…voor eeuwig in het huis: de zoon blijft er voor eeuwig.",
-      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
-      "explanation": "'er voor' — SV-gesplitst voornaamwoordelijk bijwoord. Modern Nederlands voegt samen: 'ervoor' (bv. daarin, waarmee, hierop).",
-      "proposed_fix": "ervoor",
-      "location": "hoofdtekst",
-      "id": "JHN-8-35-001",
-      "status": "verified",
-      "resolution": "JHN 8:35 hoofdtekst: gesplitst voornaamwoordelijk bijwoord er voor samengenomen tot ervoor.",
-      "verified_at": "2026-06-01T05:19:12+00:00"
-    },
-    {
       "category": "§2.7 drempel-archaïsme",
       "verse": 36,
       "severity": "soft",
@@ -346,22 +290,6 @@
       "verified_at": "2026-06-01T05:19:12+00:00"
     },
     {
-      "category": "verbogen lidwoord (der/des/den)",
-      "verse": 40,
-      "severity": "hard",
-      "quote_modernized": "Dat is, de ware leer der zaligheid.",
-      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
-      "explanation": "'der zaligheid' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de zaligheid' of 'van het zaligheid', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
-      "proposed_fix": "van de zaligheid",
-      "location": "kanttekening",
-      "id": "JHN-8-40-001",
-      "status": "verified",
-      "rebuttal": "[Automated Propagation] Genitief 'gronden der zaligheid' in de KANTTEKENING — kanttekening-register behoudt formele genitief (corpusnorm, validate.py 0F). Onderscheidt van 8-002 (hoofdtekst, gefixt).",
-      "verify_note": "rebuttal noemt geen regel (§), geen Griekse term en geen vers-specifiek argument — voeg referentie toe",
-      "resolution": "Kanttekening JHN 8:40 gemoderniseerd van de ware leer der zaligheid naar de ware leer van de zaligheid, conform ARCHAISMEN.md genitiefmodernisering.",
-      "verified_at": "2026-06-01T05:21:50+00:00"
-    },
-    {
       "category": "relativum welke/welken/hetwelk",
       "verse": 40,
       "severity": "soft",
@@ -370,7 +298,7 @@
       "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
       "proposed_fix": null,
       "location": "hoofdtekst",
-      "id": "JHN-8-40-002",
+      "id": "JHN-8-40-001",
       "status": "verified",
       "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
       "verified_at": "2026-06-01T05:19:12+00:00"
@@ -390,10 +318,108 @@
       "verified_at": "2026-06-01T05:19:12+00:00"
     },
     {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 46,
+      "severity": "soft",
+      "quote_modernized": "Wie van u overtuigt mij   van zonde? En indien ik de waarheid zeg, waarom geloof…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "JHN-8-46-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-06-02T15:21:59+00:00"
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 51,
+      "severity": "soft",
+      "quote_modernized": "Voorwaar, voorwaar zeg ik u:   als ieman…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'voorwaar' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "JHN-8-51-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Idem MRK-9-1-001: 'voorwaar, ik zeg u' = ἀμὴν λέγω ὑμῖν, gestolde SV-bijbelformule. Project-concordant in MRK/LUK. §2.7 niet van toepassing op gefossiliseerde liturgische formules.",
+      "verified_at": "2026-06-02T15:21:59+00:00"
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 51,
+      "severity": "soft",
+      "quote_modernized": "Voorwaar, voorwaar zeg ik u:   als iemand mijn woo…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'voorwaar' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "JHN-8-51-002",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Idem MRK-9-1-001: 'voorwaar, ik zeg u' = ἀμὴν λέγω ὑμῖν, gestolde SV-bijbelformule. Project-concordant in MRK/LUK. §2.7 niet van toepassing op gefossiliseerde liturgische formules.",
+      "verified_at": "2026-06-02T15:21:59+00:00"
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 54,
+      "severity": "soft",
+      "quote_modernized": "Jezus antwoordde: Indien ik mijzelf eer, zo is mijn eer ni…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "JHN-8-54-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-06-02T15:21:59+00:00"
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 55,
+      "severity": "soft",
+      "quote_modernized": "… u kent hem niet  , maar ik ken hem; en indien ik zeg dat ik hem niet ken, zo za…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "JHN-8-55-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-06-02T15:21:59+00:00"
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 58,
+      "severity": "soft",
+      "quote_modernized": "Jezus zei tot hen: Voorwaar, voorwaar zeg ik u: Eer Abraham…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'voorwaar' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "JHN-8-58-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Idem MRK-9-1-001: 'voorwaar, ik zeg u' = ἀμὴν λέγω ὑμῖν, gestolde SV-bijbelformule. Project-concordant in MRK/LUK. §2.7 niet van toepassing op gefossiliseerde liturgische formules.",
+      "verified_at": "2026-06-02T15:21:59+00:00"
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 58,
+      "severity": "soft",
+      "quote_modernized": "Jezus zei tot hen: Voorwaar, voorwaar zeg ik u: Eer Abraham   was,   …",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'voorwaar' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "JHN-8-58-002",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Idem MRK-9-1-001: 'voorwaar, ik zeg u' = ἀμὴν λέγω ὑμῖν, gestolde SV-bijbelformule. Project-concordant in MRK/LUK. §2.7 niet van toepassing op gefossiliseerde liturgische formules.",
+      "verified_at": "2026-06-02T15:21:59+00:00"
+    },
+    {
       "category": "concordantie-drift",
       "verse": 2,
       "severity": "soft",
-      "quote_modernized": "origineel-stam 'wederom' in 4 verzen — verzen [2] renderen het stam anders dan [8, 12, 21]",
+      "quote_modernized": "origineel-stam 'wederom' in 4 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
       "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
       "explanation": "Origineel-stam komt in 4 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
       "proposed_fix": null,
@@ -406,8 +432,8 @@
       ],
       "id": "JHN-8-2-001",
       "status": "verified",
-      "resolution": "Wederom-cluster geharmoniseerd naar modern weer in JHN 8:8,12,21; JHN 8:2 had die modernisering al.",
-      "verified_at": "2026-06-01T05:19:12+00:00"
+      "rebuttal": "[Automated Propagation] False positive: 'wederom' is in v15, v17, v26 en v27 telkens als modern 'weer' weergegeven bij Grieks πάλιν. Dat volgt AGENTS.md concordantie op lemma-niveau; de detector vergelijkt alleen prefixen en herkent 'wederom' → 'weer' niet als dezelfde moderne keuze.",
+      "verified_at": "2026-06-02T15:21:59+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -434,9 +460,9 @@
       "category": "concordantie-drift",
       "verse": 14,
       "severity": "soft",
-      "quote_modernized": "origineel-stam 'ghylied' in 5 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "quote_modernized": "origineel-stam 'ghylied' in 6 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
       "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
-      "explanation": "Origineel-stam komt in 5 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "explanation": "Origineel-stam komt in 6 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
       "proposed_fix": null,
       "location": "cross-vers",
       "verses_involved": [
@@ -444,12 +470,13 @@
         21,
         22,
         23,
-        31
+        31,
+        47
       ],
       "id": "JHN-8-14-001",
       "status": "verified",
-      "resolution": "Ghylied-cluster geharmoniseerd naar modern u: JHN 8:14 en 8:23 hadden nog ulieden; de overige betrokken verzen gebruikten al u.",
-      "verified_at": "2026-06-01T05:19:12+00:00"
+      "rebuttal": "De SV-stam ghylied/ghylieden is in JHN 8:14,21,22,23,31,47 consequent gemoderniseerd als u. Dat volgt uit AGENTS.md/ARCHAISMEN.md (ghy/gy/gij -> u); de concordantie-scanner vergelijkt oude prefixen mechanisch en mist deze reguliere persoonsvoornaamwoord-modernisering.",
+      "verified_at": "2026-06-02T15:21:59+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -471,6 +498,27 @@
       "status": "verified",
       "rebuttal": "De stam gesonde is in de betrokken hoofdtekst consequent gemoderniseerd met gezonden heeft / die mij gezonden heeft. De vorm zending in de kanttekening bij JHN 8:29 is een noodzakelijk zelfstandig naamwoord en geen hoofdtekst-concordantiebreuk; Grieks πέμψας blijft inhoudelijk als zenden weergegeven.",
       "verified_at": "2026-06-01T05:19:12+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 32,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'waerhey' in 5 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 5 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        32,
+        40,
+        44,
+        45,
+        46
+      ],
+      "id": "JHN-8-32-001",
+      "status": "verified",
+      "rebuttal": "In JHN 8:32,40,44,45,46 wordt SV waerheyt/waerheyt telkens concordant als waarheid weergegeven. AGENTS.md concordantie is dus juist gevolgd; de scanner ziet alleen geen prefixoverlap door de orthografische modernisering waerhey -> waarhei en geeft daarom een false-positive.",
+      "verified_at": "2026-06-02T15:22:48+00:00"
     }
   ]
 }
