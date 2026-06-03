@@ -375,6 +375,24 @@ def _capitalized_words(text: str) -> set[str]:
     return non_initial
 
 
+def _y_variants(word: str) -> tuple[str, ...]:
+    """SV-'y'-klank-varianten van `word`.
+
+    De SV gebruikt 'y' voor twee moderne klanken: 'ij' (`hy`→`hij`,
+    `Yveraer`→`IJveraar`) en 'i' (`Eynde`→`Einde`). De substitutie geldt
+    zowel onderkast (`y`→`ij`/`i`) als woord-initiaal kapitaal
+    (`Y`→`IJ`/`I`) — anders mist een cap-woord als `Yveraer` zijn moderne
+    vorm `IJveraar` (digraph IJ wordt als geheel gekapitaliseerd) en wordt
+    het later vals als caseflip geflagd. Volgorde: langste/meest-specifieke
+    substitutie eerst zodat `IJ` niet door een latere `I`-pass wordt gemist.
+    """
+    return (
+        word,
+        word.replace("Y", "IJ").replace("y", "ij"),
+        word.replace("Y", "I").replace("y", "i"),
+    )
+
+
 def _is_acceptable_modern_form(orig_word: str, modern_text: str) -> bool:
     """Is de moderne tekst acceptabel als `orig_word` daarin niet letterlijk staat?"""
     if orig_word in modern_text:
@@ -406,14 +424,14 @@ def _is_acceptable_modern_form(orig_word: str, modern_text: str) -> bool:
     if "oo" in base:
         bases.append(base.replace("oo", "o"))
     for b in bases:
-        for soft in (b, b.replace("y", "ij"), b.replace("y", "i")):
+        for soft in _y_variants(b):
             if soft in modern_text:
                 return True
     # Laatste poging: prefix-match op de eerste 4 letters na soft-substitutie.
     # Vangt vormvarianten zoals 'Heyligen' (origineel) → 'Heilige' (modern,
     # buigvorm verschilt) of 'Euangeliums' → 'Evangelie' (genitief weg).
     for b in bases:
-        for soft in (b, b.replace("y", "ij"), b.replace("y", "i")):
+        for soft in _y_variants(b):
             if len(soft) >= 4 and soft[:4] in modern_text:
                 return True
     return False
