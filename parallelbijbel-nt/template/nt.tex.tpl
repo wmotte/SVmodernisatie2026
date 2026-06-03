@@ -4,7 +4,10 @@
 \renewcommand{\bookname}{Het Nieuwe Testament}
 \hypersetup{
   pdftitle={Het Nieuwe Testament — parallelbijbel},
-  pdfauthor={SVmodernisatie2026}
+  pdfauthor={SVmodernisatie2026},
+  bookmarksdepth=2,
+  bookmarksopen=true,
+  bookmarksopenlevel=1
 }
 
 \begin{document}
@@ -22,6 +25,16 @@
 \begin{center}
   {\footnotesize SVmodernisatie2026 – \today}
 \end{center}
+\clearpage
+
+% ---------- Inhoudsopgave (boeken) ----------
+\pdfbookmark[1]{Inhoud}{toc}
+\begingroup
+\renewcommand{\contentsname}{Inhoud}
+\setcounter{tocdepth}{1}            % alleen boeken in de gedrukte TOC
+\setlength{\parskip}{1.5pt}
+\tableofcontents
+\endgroup
 \clearpage
 
 %%BODY%%

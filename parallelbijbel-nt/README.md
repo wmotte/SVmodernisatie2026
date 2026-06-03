@@ -14,6 +14,11 @@ met kanttekeningen, gepaarde voetnootblokken onderaan. Trimsize 170 × 249 mm.
 De lopende kop wisselt automatisch per boek (`\bookname`) en per hoofdstuk
 (`\hoofdstuknr`).
 
+Na de NT-titelpagina volgt een **inhoudsopgave** ("Inhoud") met alle boeken
+en hun beginpagina (klikbaar). De PDF-bladwijzerboom is genest: boeken op
+niveau 1, hoofdstukken op niveau 2 (alleen in de bladwijzers, niet in de
+gedrukte TOC — gestuurd via `tocdepth=1` + `bookmarksdepth=2`).
+
 ## Resultaat
 
 `NT.pdf` (gepubliceerd in deze map) — de volledige uitgave.

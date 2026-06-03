@@ -67,6 +67,8 @@ def book_titlepage(book: str) -> str:
     title = bb.BOOK_TITLES.get(book, book)
     return "\n".join([
         r"\cleardoublepage",
+        r"\phantomsection",
+        r"\addcontentsline{toc}{section}{" + title + "}",
         r"\renewcommand{\bookname}{" + title + "}",
         r"\renewcommand{\hoofdstuknr}{}",
         r"\thispagestyle{empty}",
@@ -83,7 +85,15 @@ def build_tex(books: list[str]) -> str:
     sections: list[str] = []
     for b in books:
         chapters = bb.load_chapters(b, None)
-        body = "\n\n".join(bb.render_chapter(ch) for ch in chapters)
+        rendered: list[str] = []
+        for ch in chapters:
+            n = ch["chapter"]
+            # Nested chapter bookmark (subsection => PDF-outline level 2).
+            # Kept out of the printed TOC via tocdepth=1 around \tableofcontents.
+            rendered.append(r"\phantomsection")
+            rendered.append(r"\addcontentsline{toc}{subsection}{Hoofdstuk " + str(n) + "}")
+            rendered.append(bb.render_chapter(ch))
+        body = "\n\n".join(rendered)
         sections.append(book_titlepage(b) + "\n\n" + body)
         n_ch = len(chapters)
         print(f"  + {b}: {n_ch} chapter(s)")
