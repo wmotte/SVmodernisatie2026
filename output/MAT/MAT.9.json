@@ -331,6 +331,24 @@
       "generated_at": "2026-06-03T05:57:04.700324Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 37,
+      "original": "Doe seyde hy tot sijne discipelen, $Luce 10.2. Ioan. 4.35.$ De oogst is wel <Gr. veel.> groot, maer de arbeyders zijn weynige.",
+      "modernized": "Toen zei hij tot zijn discipelen, $Lk. 10:2; Jh. 4:35$ De oogst is wel <Grieks: veel.> groot, maar de arbeiders zijn weinig.",
+      "source_text": "τότε λέγει τοῖς μαθηταῖς αὐτοῦ, Ὁ μὲν θερισμὸς πολύς, οἱ δὲ ἐργάται ὀλίγοι·",
+      "generated_at": "2026-06-03T06:00:30.070685Z",
+      "model": "claude-opus-4-8[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 38,
+      "original": "$2.Thess. 3.1.$ Biddet dan den Heere des oogsts, dat hy arbeyders in sijnen oogst <Gr. uytwerpe, dat is, uytsende, haer door de kracht sijnes Geests gewilligh ende bequaem gemaeckt hebbende.> uytstoote.",
+      "modernized": "$2Th. 3:1$ Bid dan de Heere van de oogst, dat hij arbeiders in zijn oogst <Grieks: uitwerpe, dat is, uitzendt nadat hij hen door de kracht van zijn Geest gewillig en bekwaam gemaakt heeft.> uitstote.",
+      "source_text": "δεήθητε οὖν τοῦ Κυρίου τοῦ θερισμοῦ, ὅπως ἐκβάλῃ ἐργάτας εἰς τὸν θερισμὸν αὐτοῦ.",
+      "generated_at": "2026-06-03T06:00:48.033031Z",
+      "model": "claude-opus-4-8[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
