@@ -380,6 +380,33 @@
           "reason": "de SV1657-invoer levert de kanttekening ongemarkeerd tussen de hoofdtekst (Gr. ledigh ... lasterwoorden); afgebakend conform de chapter-conventie van v31-33. den/des-genitieven geharmoniseerd naar de/het (dage des oordeels -> de dag van het oordeel)."
         }
       ]
+    },
+    {
+      "verse_number": 37,
+      "original": "$Luce 19.22. 2.Sam.1.16.$ Want uyt uwe woorden sult ghy D. voor rechtveerdigh erkent ende verklaert worden. gerechtveerdight worden, ende uyt uwe woorden sult ghy veroordeelt worden.",
+      "modernized": "$Lk. 19:22; 2Sm. 1:16$ Want uit uw woorden zult u <Dat is, voor rechtvaardig erkend en verklaard worden.> gerechtvaardigd worden, en uit uw woorden zult u veroordeeld worden.",
+      "source_text": "ἐκ γὰρ τῶν λόγων σου δικαιωθήσῃ, καὶ ἐκ τῶν λόγων σου καταδικασθήσῃ.",
+      "generated_at": "2026-06-03T19:27:08.550258Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 38,
+      "original": "$Matth. 16.1. Marc. 8.11. Luce 11.29. 1.Corinth. 1.22.$ Doe antwoordden sommige der Schriftgeleerde ende Pharizeen, seggende, Meester wy wilden van u [wel] een teecken sien.",
+      "modernized": "$Mt. 16:1; Mk. 8:11; Lk. 11:29; 1Kor. 1:22$ Toen antwoordden sommigen van de Schriftgeleerden en Farizeeën, en zeiden: Meester, wij wilden [wel] een teken van u zien.",
+      "source_text": "Τότε ἀπεκρίθησάν τινες τῶν γραμματέων καὶ Φαρισαίων, λέγοντες, Διδάσκαλε, θέλομεν ἀπὸ σοῦ σημεῖον ἰδεῖν.",
+      "generated_at": "2026-06-03T19:27:43.886746Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 39,
+      "original": "Maer hy antwoordde ende seyde tot haer, Het boos ende Ofte, ontaerdt ende verbastaert. siet Ioan. 8.39. overspeligh geslachte versoeckt een teecken, ende haer en sal geen teecken gegeven worden, dan het teecken Ione des Propheten.",
+      "modernized": "Maar hij antwoordde en zei tot hen: Het boze en overspelige <Of, ontaard en verbasterd. Zie $Jh. 8:39$.> geslacht verzoekt een teken, en aan dit geslacht zal geen teken gegeven worden, dan het teken van Jona de Profeet.",
+      "source_text": "ὁ δὲ ἀποκριθεὶς εἶπεν αὐτοῖς, Γενεὰ πονηρὰ καὶ μοιχαλὶς σημεῖον ἐπιζητεῖ· καὶ σημεῖον οὐ δοθήσεται αὐτῇ, εἰ μὴ τὸ σημεῖον Ἰωνᾶ τοῦ προφήτου.",
+      "generated_at": "2026-06-03T19:28:19.336444Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
