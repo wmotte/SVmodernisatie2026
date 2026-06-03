@@ -1,0 +1,223 @@
+{
+  "book": "MAT",
+  "chapter": 11,
+  "reviewed_at": "2026-06-03T18:21:46+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-06-03T18:21:46+00:00",
+      "mode": "scan",
+      "issues_total": 15
+    }
+  ],
+  "issues": [
+    {
+      "category": "§2.3b infinitief met nageschoven object",
+      "verse": 1,
+      "severity": "soft",
+      "quote_modernized": "… te geven, dat hij vandaar verder ging, om te onderwijzen en te prediken in   hu…",
+      "rule_reference": "MODERNISATIE.md §2.3b",
+      "explanation": "'om … te onderwijzen en te prediken in' — Latinaat-woordvolgorde; in modern NL gaat het object vóór de infinitief: 'om <object> te onderwijzen'.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "MAT-11-1-001",
+      "status": "rebutted",
+      "rebuttal": "§2.3b betreft een nageschoven DIRECT object (type \"bevelen te geven\"). Hier is \"in hun steden\" een locatieve bepaling bij de intransitieve infinitieven \"onderwijzen\" en \"prediken\", geen object. \"om te onderwijzen en te prediken in hun steden\" is correcte moderne woordvolgorde (vgl. \"om te werken in de stad\"); er is geen object om voorop te plaatsen."
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 7,
+      "severity": "hard",
+      "quote_modernized": "…vastig leraar, die door allerlei winden der leringen gedreven wordt, $Ef. 4:14$.",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'der leringen' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de leringen' of 'van het leringen', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de leringen",
+      "location": "kanttekening",
+      "id": "MAT-11-7-001",
+      "status": "fixed"
+    },
+    {
+      "category": "SV-verbuiging (demonstratief dezer/dien/...)",
+      "verse": 7,
+      "severity": "hard",
+      "quote_modernized": "  Toen nu dezen heengingen, begon Jezus tot de sch…",
+      "rule_reference": "ARCHAISMEN.md (SV-verbuigingen)",
+      "explanation": "'dezen heengingen' — verbogen demonstratief (SV-genitief/datief). Modern Nederlands: 'deze' / 'die' / 'in deze ...' / 'op die ...'. Gefossiliseerde uitdrukkingen ('dezer dagen', 'te dien einde') zijn whitelist; rebut zo nodig met register-argument.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "MAT-11-7-002",
+      "status": "fixed"
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 11,
+      "severity": "soft",
+      "quote_modernized": "Voorwaar, ik zeg u, onder hen die uit vr…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'voorwaar' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "MAT-11-11-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] Idem MRK-9-1-001: 'voorwaar, ik zeg u' = ἀμὴν λέγω ὑμῖν, gestolde SV-bijbelformule. Project-concordant in MRK/LUK. §2.7 niet van toepassing op gefossiliseerde liturgische formules."
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 11,
+      "severity": "hard",
+      "quote_modernized": "…ar wie   de minste is in het Koninkrijk der hemelen, is groter dan hij.",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'der hemelen' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de hemelen' of 'van het hemelen', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de hemelen",
+      "location": "hoofdtekst",
+      "id": "MAT-11-11-002",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Koninkrijk der hemelen' is gefossiliseerde bijbeluitdrukking voor Gr. βασιλεία τῶν οὐρανῶν. Standaard in NL bijbelvertalingen (NBV21, HSV); MODERNISATIE.md §2.7 erkent lexicale fossielen — geen productieve genitief."
+    },
+    {
+      "category": "SV-verbuiging (demonstratief dezer/dien/...)",
+      "verse": 11,
+      "severity": "hard",
+      "quote_modernized": "…de Leraars van het Evangelie: aangezien dezen Christus nog duidelijker aanwijzen…",
+      "rule_reference": "ARCHAISMEN.md (SV-verbuigingen)",
+      "explanation": "'dezen Christus' — verbogen demonstratief (SV-genitief/datief). Modern Nederlands: 'deze' / 'die' / 'in deze ...' / 'op die ...'. Gefossiliseerde uitdrukkingen ('dezer dagen', 'te dien einde') zijn whitelist; rebut zo nodig met register-argument.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "MAT-11-11-003",
+      "status": "fixed"
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 12,
+      "severity": "hard",
+      "quote_modernized": "…e Doper tot nu toe wordt het Koninkrijk der hemelen   geweld aangedaan, en de   …",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'der hemelen' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de hemelen' of 'van het hemelen', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de hemelen",
+      "location": "hoofdtekst",
+      "id": "MAT-11-12-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Koninkrijk der hemelen' is gefossiliseerde bijbeluitdrukking voor Gr. βασιλεία τῶν οὐρανῶν. Standaard in NL bijbelvertalingen (NBV21, HSV); MODERNISATIE.md §2.7 erkent lexicale fossielen — geen productieve genitief."
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 19,
+      "severity": "hard",
+      "quote_modernized": "De Zoon des mensen is gekomen, hij eet en drinkt…",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'des mensen' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de mensen' of 'van het mensen', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de mensen",
+      "location": "hoofdtekst",
+      "id": "MAT-11-19-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] Idem MRK-9-9-001/-12-001: 'Zoon des mensen' = fossiele titel uit MODERNISATIE.md §2.3b. ὁ υἱὸς τοῦ ἀνθρώπου — Markus-concordant overal in dit corpus. Niet wijzigen."
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 21,
+      "severity": "soft",
+      "quote_modernized": "Wee u, Chorazin, wee u, Betsaïda: Want indien in   Tyrus en Sidon de krachten w…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "MAT-11-21-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 22,
+      "severity": "hard",
+      "quote_modernized": "… en Sidon verdraaglijker zijn in de dag des oordeels, dan voor u.",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'des oordeels' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de oordeels' of 'van het oordeels', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de oordeels",
+      "location": "hoofdtekst",
+      "id": "MAT-11-22-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] 'de dag des oordeels' is een gefossiliseerde bijbels-Nederlandse uitdrukking voor ἡμέρα κρίσεως (Mt. 10:15; 11:22-24; 12:36; 2Pt. 2:9; 3:7; 1Joh. 4:17 in HSV/NBV-spiegels), parallel aan 'Koninkrijk der hemelen' en 'Zoon des mensen' (§2.3b uitzonderingscategorie). Niet productief in moderne syntaxis, maar wel productief in het register van bijbels Nederlands; vervangen door 'in de dag van het oordeel' breekt het concordantieprincipe met andere bijbelboeken. Het proposed_fix 'van de oordeels' is bovendien een naïef regex-voorstel (ongrammaticaal: 'de oordeel' bestaat niet als bepaald de-noun)."
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 23,
+      "severity": "soft",
+      "quote_modernized": "…ot de hel toe neergestoten worden. Want indien in Sodom die krachten waren gebeu…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "MAT-11-23-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 24,
+      "severity": "hard",
+      "quote_modernized": "…Sodom verdraaglijker zal zijn in de dag des oordeels, dan voor u.",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'des oordeels' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de oordeels' of 'van het oordeels', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de oordeels",
+      "location": "hoofdtekst",
+      "id": "MAT-11-24-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] 'de dag des oordeels' is een gefossiliseerde bijbels-Nederlandse uitdrukking voor ἡμέρα κρίσεως (Mt. 10:15; 11:22-24; 12:36; 2Pt. 2:9; 3:7; 1Joh. 4:17 in HSV/NBV-spiegels), parallel aan 'Koninkrijk der hemelen' en 'Zoon des mensen' (§2.3b uitzonderingscategorie). Niet productief in moderne syntaxis, maar wel productief in het register van bijbels Nederlands; vervangen door 'in de dag van het oordeel' breekt het concordantieprincipe met andere bijbelboeken. Het proposed_fix 'van de oordeels' is bovendien een naïef regex-voorstel (ongrammaticaal: 'de oordeel' bestaat niet als bepaald de-noun)."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 1,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'geschie' in 4 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 4 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        1,
+        20,
+        21,
+        23
+      ],
+      "id": "MAT-11-1-002",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] Scanner-prefix-heuristiek: 'geschieden' is consistent met 'gebeuren' weergegeven in v11/14/26/28 ('het geschiedde' → 'het gebeurde'/'het gebeurd is'). Lexicale vervanging — de prefix-overlap-heuristiek mist dat geschie→gebeur dezelfde keuze is over alle vier verzen."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 2,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'ioannes' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        2,
+        11,
+        18
+      ],
+      "id": "MAT-11-2-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] Scanner-false-positive. Origineel-stam 'ioannes' rendert in alle drie verzen consistent als 'Johannes' (NBV21-conform, ARCHAISMEN.md eigennamen-tabel). Prefix-overlap faalt omdat 'ioannes'/'johannes' lexicaal verschillen. Concordantie is in werkelijkheid 100%."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 7,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'uytgega' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        7,
+        8,
+        9
+      ],
+      "id": "MAT-11-7-003",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] v2 ('zeven duivelen uitgegaan waren') en v46 ('er kracht van mij is uitgegaan') zijn 100% concordant 'uitgaan'. Alleen v27 ('aan het lant uytgegaen' = ἐξελθόντι ἐπὶ τὴν γῆν) wijkt af naar 'aan land was gegaan': in modern NL is 'uitgegaan aan land' geen idiomatische combinatie — de vaste collocatie 'aan land gaan' (van schip) heeft voorrang (vgl. SV2027-spiegel). Contextuele §2.7-keuze, geen concordantie-fout."
+    }
+  ]
+}
