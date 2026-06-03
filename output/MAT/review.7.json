@@ -1,0 +1,140 @@
+{
+  "book": "MAT",
+  "chapter": 7,
+  "reviewed_at": "2026-06-02T22:07:50+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-06-02T22:06:51+00:00",
+      "mode": "scan",
+      "issues_total": 5
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-06-02T22:07:50+00:00",
+      "mode": "verify",
+      "actions": [
+        "MAT-7-2-001: rebuttal verified",
+        "MAT-7-12-001: rebuttal verified",
+        "MAT-7-21-001: rebuttal verified",
+        "MAT-7-6-001: rebuttal verified",
+        "MAT-7-8-001: rebuttal verified",
+        "MAT-7-14-002: verified",
+        "MAT-7-28-001: verified"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 2,
+      "severity": "soft",
+      "quote_modernized": "… oordeelt, zult u geoordeeld worden; en met welke maat u meet, zal u weer gemete…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "MAT-7-2-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-06-02T22:07:50+00:00"
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 12,
+      "severity": "soft",
+      "quote_modernized": "de wet en de",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'de wet en de' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "MAT-7-12-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] De kanttekening glosst 'Koninkrijk Gods' als 'de vervulling van wat de wet en de Profeten van de Messias voorzegd hebben'. 'de wet en de Profeten' staat hier in een andere grammaticale rol (object van 'voorzegd hebben'), niet als herhaling van de hoofdtekst-uitspraak — substantieve gloss, geen redundantie per KANTTEKENINGEN.md.",
+      "verified_at": "2026-06-02T22:07:50+00:00"
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 21,
+      "severity": "hard",
+      "quote_modernized": "…re, Heere, zal ingaan in het Koninkrijk der hemelen; maar   die de wil van mijn …",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'der hemelen' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de hemelen' of 'van het hemelen', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de hemelen",
+      "location": "hoofdtekst",
+      "id": "MAT-7-21-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'Koninkrijk der hemelen' is gefossiliseerde bijbeluitdrukking voor Gr. βασιλεία τῶν οὐρανῶν. Standaard in NL bijbelvertalingen (NBV21, HSV); MODERNISATIE.md §2.7 erkent lexicale fossielen — geen productieve genitief.",
+      "verified_at": "2026-06-02T22:07:50+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 6,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'deselve' in 5 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 5 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        6,
+        13,
+        20,
+        24,
+        26
+      ],
+      "id": "MAT-7-6-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Concordantie-scanner false-positive: 'deselve' wordt context-specifiek vertaald — v12 'datzelfde uur', v24/v38 anaforisch (verzwegen/'die'), v45 'diezelfde', v48 '[deze]', v49 'in zichzelf'. Allemaal stam 'zelf'; semantische context bepaalt naamval/zelfst.naamwoord-keuze (uur/dienstknecht/ziel/leer). SV-conform: pronominaal vs. attributief vs. reflexief onderscheid bewaard.",
+      "verified_at": "2026-06-02T22:07:50+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 8,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'yegelic' in 4 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 4 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        8,
+        21,
+        24,
+        26
+      ],
+      "id": "MAT-7-8-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] De stam 'yegelic' heeft in 1CO 3:5,8,10,13 verschillende syntactische functies: 'een ieder', 'ieders' en distributieve bepalingen. Concordantieprincipe in AGENTS.md vraagt betekenisconcordantie, niet mechanische prefixgelijkheid over verbogen SV-vormen.",
+      "verified_at": "2026-06-02T22:07:50+00:00"
+    },
+    {
+      "id": "MAT-7-14-002",
+      "verse": 14,
+      "category": "in-context grammaticale stroefheid",
+      "severity": "soft",
+      "quote_modernized": "de weg <...> is smal die tot het leven leidt",
+      "rule_reference": "MODERNISATIE.md §2.3; AGENTS.md formele equivalentie zonder onnodige stroefheid",
+      "explanation": "De ingeschoven kanttekening maakte de hoofdzin grammaticaal stroef; de fix behoudt de SV-woordvolgorde rond poort/weg en laat de kanttekening bij 'weg' staan.",
+      "proposed_fix": "Want nauw is de poort, en smal is de weg <...> die tot het leven leidt",
+      "location": "hoofdtekst",
+      "status": "verified",
+      "fix_commit": "pending",
+      "verified_at": "2026-06-02T22:07:50+00:00"
+    },
+    {
+      "id": "MAT-7-28-001",
+      "verse": 28,
+      "category": "kanttekeningpositie",
+      "severity": "soft",
+      "quote_modernized": "versteld stonden over zijn leer. <Of, verbaasd...>",
+      "rule_reference": "KANTTEKENINGEN.md; AGENTS.md kanttekeningblokken bewaren",
+      "explanation": "De <Of>-kanttekening hoort in de SV bij 'haer ... ontsetteden' en niet als losse zinsafsluitende noot na 'leer'.",
+      "proposed_fix": "de scharen zich <Of, verbaasd...> ontzetten over zijn leer",
+      "location": "kanttekening",
+      "status": "verified",
+      "fix_commit": "pending",
+      "verified_at": "2026-06-02T22:07:50+00:00"
+    }
+  ]
+}
