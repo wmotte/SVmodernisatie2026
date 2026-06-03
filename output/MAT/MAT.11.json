@@ -67,6 +67,33 @@
       "generated_at": "2026-06-03T17:43:11.723620Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 7,
+      "original": "$Luce 7.24.$ Als nu dese henen gingen, heeft Iesus tot de scharen beginnen te seggen van Ioanne, Wat zijt ghy uytgegaen in de woestijne te aenschouwen? Een <D. een ongestadigh leeraer, die met allerley winden der leeringen gedreven wort, Ephes. 4.14.> riet dat van den wint gins ende weder beweeght wort?",
+      "modernized": "$Lk. 7:24$ Toen nu dezen heengingen, begon Jezus tot de scharen te zeggen over Johannes: Wat bent u uitgegaan in de woestijn om te zien? Een <Dat is, een onstandvastig leraar, die door allerlei winden der leringen gedreven wordt, $Ef. 4:14$.> riet dat door de wind heen en weer bewogen wordt?",
+      "source_text": "τούτων δὲ πορευομένων, ἤρξατο ὁ Ἰησοῦς λέγειν τοῖς ὄχλοις περὶ Ἰωάννου, Τί ἐξήλθετε εἰς τὴν ἔρημον θεάσασθαι; κάλαμον ὑπὸ ἀνέμου σαλευόμενον;",
+      "generated_at": "2026-06-03T17:46:07.577480Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 8,
+      "original": "Maer wat zijt ghy uytgegaen te sien? Een mensche met <D. kostelicke ende cierlicke.> sachte kleederen bekleet? Siet die sachte [kleederen] dragen zijn in der Koningen huysen.",
+      "modernized": "Maar wat bent u uitgegaan om te zien? Een mens met <Dat is, kostbare en sierlijke.> zachte kleren bekleed? Zie, die de zachte [kleren] dragen zijn in de huizen van de Koningen.",
+      "source_text": "ἀλλὰ τί ἐξήλθετε ἰδεῖν; ἄνθρωπον ἐν μαλακοῖς ἱματίοις ἠμφιεσμένον; ἰδού, οἱ τὰ μαλακὰ φοροῦντες ἐν τοῖς οἴκοις τῶν βασιλέων εἰσίν.",
+      "generated_at": "2026-06-03T17:46:35.608075Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 9,
+      "original": "Maer wat zijt ghy uytgegaen te sien? Een Propheet? Ia ick segge u, oock veel meer dan een Propheet.",
+      "modernized": "Maar wat bent u uitgegaan om te zien? Een Profeet? Ja, ik zeg u, ook veel meer dan een Profeet.",
+      "source_text": "ἀλλὰ τί ἐξήλθετε ἰδεῖν; προφήτην; ναί, λέγω ὑμῖν, καὶ περισσότερον προφήτου·",
+      "generated_at": "2026-06-03T17:46:55.843006Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
