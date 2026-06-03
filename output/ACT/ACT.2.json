@@ -61,6 +61,57 @@
       "generated_at": "2026-06-03T18:38:04.234239Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 7,
+      "original": "Ende sy <Namel. als of sy buyten hare sinnen verruckt waren.> ontsetteden haer alle, ende verwonderden haer, seggende tot malkanderen, Siet, en zijn niet alle dese, die daer spreken, <D. die in Galilea geboren zijn, ende altijt gewoont hebben, ende slechte ende ongeleerde lieden zijn, geen andere tale als hare moeders tale geleert hebbende.> Galileers?",
+      "modernized": "En zij <Namelijk, alsof zij buiten hun zinnen verrukt waren.> waren allen buiten zichzelf en verwonderden zich, en zeiden tot elkaar: Zie, zijn niet allen die daar spreken <Dat is, die in Galilea geboren zijn, en er altijd gewoond hebben, en eenvoudige en ongeleerde mensen zijn, die geen andere taal dan hun moedertaal geleerd hebben.> Galileeërs?",
+      "source_text": "ἐξίσταντο δὲ πάντες καὶ ἐθαύμαζον, λέγοντες πρὸς ἀλλήλους, Οὐκ ἰδοὺ πάντες οὗτοί εἰσιν οἱ λαλοῦντες Γαλιλαῖοι;",
+      "generated_at": "2026-06-03T18:41:37.909794Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "woordvolgorde kanttekening 2",
+          "context": "hoofdtekst + kanttekening 2",
+          "choice": "de SV-bijzin \"die daer spreken\" achter \"alle dese\" verplaatst naar \"allen die daar spreken\" voor moderne leesbaarheid; betekenis ongewijzigd",
+          "alternatives": [
+            "zijn niet allen deze, die daar spreken, Galileeërs?"
+          ],
+          "reason": "de SV-constructie \"alle dese, die daer spreken\" leest in modern Nederlands stroef; herordening behoudt formele inhoud"
+        }
+      ]
+    },
+    {
+      "verse_number": 8,
+      "original": "Ende hoe hooren wy’se een yegelick in onse eygen tale, in welcke wy geboren zijn?",
+      "modernized": "En hoe horen wij hen, ieder in onze eigen taal, waarin wij geboren zijn?",
+      "source_text": "καὶ πῶς ἡμεῖς ἀκούομεν ἕκαστος τῇ ἰδίᾳ διαλέκτῳ ἡμῶν ἐν ᾗ ἐγεννήθημεν;",
+      "generated_at": "2026-06-03T18:42:12.226736Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 9,
+      "original": "Parthers ende Meders, ende <Elam was een deel van Persien, alsoo genaemt van Elam een sone van Sem, Gen. 10.22. 1.Chron. 1.17.> Elamiten, ende die inwoonders zijn van <Dat is, soo wel die in Mesopotamia als die in Iudea woonen ende geboren zijn. Mesopotamia is een deel van Syria, alsoo in het Griecks genaemt om dat het light midden tusschen de twee rivieren Tigris ende Euphrates, Genes. 24.10. ende 35.9.> Mesopotamia, ende Iudea, ende Cappadocia, Pontus, ende <Asia wort in het gemeyn genaemt het derde deel der werelt doe bekent, ende in het bysonder dat deel het welck eertijts kleyn Asien ende nu Natolia genaemt wort, waer van oock Cappadocia, Pontus, Phrygia, ende Pamphylia deelen waren: maer hier schijnt het noch bysonderlicker genomen te worden voor het deel van kleyn Asien, ’t welck light ontrent de Egeesche zee tegen over Macedonien ende Thracien.> Asia,",
+      "modernized": "Parten en Meden, en <Elam was een deel van Perzië, zo genoemd naar Elam, een zoon van Sem, $Gn. 10:22; 1Kr. 1:17$.> Elamieten, en de inwoners van <Dat is, zowel die in Mesopotamië als die in Judea wonen en geboren zijn. Mesopotamië is een deel van Syrië, zo in het Grieks genoemd omdat het midden tussen de twee rivieren Tigris en Eufraat ligt, $Gn. 24:10; 35:9$.> Mesopotamië, en Judea, en Cappadocië, Pontus, en <Asia wordt in het algemeen genoemd het derde deel van de toen bekende wereld, en in het bijzonder dat deel dat vroeger Klein-Azië en nu Natolië genoemd wordt, waarvan ook Cappadocië, Pontus, Frygië en Pamfylië delen waren; maar hier schijnt het nog bijzonderder genomen te worden voor het deel van Klein-Azië dat aan de Egeïsche zee ligt, tegenover Macedonië en Thracië.> Asia,",
+      "source_text": "Πάρθοι καὶ Μῆδοι καὶ Ἐλαμῖται, καὶ οἱ κατοικοῦντες τὴν Μεσοποταμίαν, Ἰουδαίαν τε καὶ Καππαδοκίαν, Πόντον καὶ τὴν Ἀσίαν,",
+      "generated_at": "2026-06-03T18:43:11.947212Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "subject": "plaatsnaam Asia/Klein-Azië",
+          "context": "hoofdtekst + kanttekening 3",
+          "choice": "hoofdtekst \"Asia\" behouden (concordant met 1Pt 1:1), kanttekening verklaart met \"Klein-Azië\"",
+          "alternatives": [
+            "Azië in hoofdtekst"
+          ],
+          "reason": "SV1657 onderscheidt mid-tekst Asia (provincie) van het verklarende kleyn Asien; concordantie met eerdere boeken"
+        }
+      ]
     }
   ]
 }
