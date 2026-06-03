@@ -50,9 +50,11 @@ voorbeeld-PDF om te lezen. **✓** = alle hoofdstukken gemoderniseerd ·
 
 | Boek | | Hoofdstukken | Voorbeeld |
 |------|---|:---:|:---:|
+| Mattheüs | Evangelie | ◐ 6/28 | - |
 | Markus | Evangelie | ✓ 16/16 | [PDF](parallelbijbel/MRK_voorbeeld.pdf) |
 | Lucas | Evangelie | ✓ 24/24 | [PDF](parallelbijbel/LUK_voorbeeld.pdf) |
 | Johannes | Evangelie | ✓ 21/21 | [PDF](parallelbijbel/JHN_voorbeeld.pdf) |
+| Handelingen | geschiedenis | ◐ 0/28 | - |
 | Romeinen | brief | ✓ 16/16 | [PDF](parallelbijbel/ROM_voorbeeld.pdf) |
 | 1 Korinthiërs | brief | ✓ 16/16 | [PDF](parallelbijbel/1CO_voorbeeld.pdf) |
 | 2 Korinthiërs | brief | ✓ 13/13 | [PDF](parallelbijbel/2CO_voorbeeld.pdf) |
@@ -74,6 +76,7 @@ voorbeeld-PDF om te lezen. **✓** = alle hoofdstukken gemoderniseerd ·
 | 2 Johannes | brief | ✓ 1/1 | [PDF](parallelbijbel/2JN_voorbeeld.pdf) |
 | 3 Johannes | brief | ✓ 1/1 | [PDF](parallelbijbel/3JN_voorbeeld.pdf) |
 | Judas | brief | ✓ 1/1 | [PDF](parallelbijbel/JUD_voorbeeld.pdf) |
+| Openbaring | brief | ✓ 22/22 | [PDF](parallelbijbel/REV_voorbeeld.pdf) |
 
 <details>
 <summary><strong>Omvang van het NT-broncorpus</strong> — woordtelling per boek (klik om uit te klappen)</summary>
