@@ -1,0 +1,395 @@
+{
+  "book": "MAT",
+  "chapters": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "min_freq": 2,
+  "kinds": [
+    "carryover",
+    "fossiel-lidwoord",
+    "latinaat-window",
+    "cap-asym"
+  ],
+  "total_patterns": 11,
+  "patterns_by_kind": {
+    "cap-asym": [
+      {
+        "pattern_id": "p-0002",
+        "kind": "cap-asym",
+        "key": "profeet",
+        "frequency": 7,
+        "hsv_alternatives": [],
+        "severity_hint": "soft",
+        "occurrences": [
+          {
+            "book": "MAT",
+            "chapter": 1,
+            "verse": 22,
+            "sv2026_excerpt": "…zou worden wat door de Heere gesproken is door de Profeet, die zei:",
+            "hsv_excerpt": "Dit alles is geschied opdat vervuld werd wat door de Heere gesproken is door de profeet, toen hij zei:",
+            "original_excerpt": ""
+          },
+          {
+            "book": "MAT",
+            "chapter": 2,
+            "verse": 5,
+            "sv2026_excerpt": "…m in Judea gelegen. Want zo is geschreven door de Profeet,",
+            "hsv_excerpt": "Zij zeiden tegen hem: In Bethlehem, in Judea, want zo staat het geschreven door de profeet:",
+            "original_excerpt": ""
+          },
+          {
+            "book": "MAT",
+            "chapter": 2,
+            "verse": 15,
+            "sv2026_excerpt": "…zou worden wat door de Heere gesproken is door de Profeet, die zegt:     Uit Egypte heb ik mijn Zoon…",
+            "hsv_excerpt": "En hij bleef daar tot de dood van Herodes, opdat vervuld werd wat door de Heere gesproken is door de   profeet: Uit Egypte heb Ik Mijn Zoon ",
+            "original_excerpt": ""
+          },
+          {
+            "book": "MAT",
+            "chapter": 2,
+            "verse": 17,
+            "sv2026_excerpt": "…en is vervuld geworden wat gesproken is   door de Profeet Jeremia, die zegt,",
+            "hsv_excerpt": "Toen is vervuld wat gesproken is door de profeet Jeremia:",
+            "original_excerpt": ""
+          },
+          {
+            "book": "MAT",
+            "chapter": 3,
+            "verse": 3,
+            "sv2026_excerpt": "…e is degene over wie gesproken is door Jesaja, de Profeet, die zegt:   De stem van een die roept in …",
+            "hsv_excerpt": "Want deze is het over wie gesproken werd door de profeet Jesaja toen hij zei:   De stem van iemand die roept in de woestijn: Maak de weg van",
+            "original_excerpt": ""
+          },
+          {
+            "book": "MAT",
+            "chapter": 8,
+            "verse": 17,
+            "sv2026_excerpt": "…ld zou worden wat gesproken was door   Jesaja, de Profeet, die zei:   Hij heeft onze zwakheden op zi…",
+            "hsv_excerpt": "opdat vervuld werd wat gesproken was door de profeet Jesaja toen hij zei:   Hij heeft onze zwakheden op Zich genomen, en onze ziekten gedrag",
+            "original_excerpt": ""
+          },
+          {
+            "book": "MAT",
+            "chapter": 10,
+            "verse": 41,
+            "sv2026_excerpt": "  Die een Profeet ontvangt   in de naam van een Profeet, zal…",
+            "hsv_excerpt": "  Wie een profeet ontvangt omdat hij een profeet is,   zal het loon van een profeet ontvangen; en wie een rechtvaardige ontvangt omdat hij e",
+            "original_excerpt": ""
+          }
+        ]
+      },
+      {
+        "pattern_id": "p-0001",
+        "kind": "cap-asym",
+        "key": "koning",
+        "frequency": 4,
+        "hsv_alternatives": [],
+        "severity_hint": "soft",
+        "occurrences": [
+          {
+            "book": "MAT",
+            "chapter": 1,
+            "verse": 6,
+            "sv2026_excerpt": "En   Isaï verwekte David de Koning. En David de Koning verwekte   Salomo bij  …",
+            "hsv_excerpt": "  Isaï verwekte David, de koning; David, de koning, verwekte Salomo bij haar die de vrouw van Uria was ;",
+            "original_excerpt": ""
+          },
+          {
+            "book": "MAT",
+            "chapter": 2,
+            "verse": 1,
+            "sv2026_excerpt": "… te Betlehem, gelegen in   Judea, in de dagen van Koning   Herodes, zie, enige   Wijzen van   het Oo…",
+            "hsv_excerpt": "Toen nu Jezus   geboren was in Bethlehem, in Judea, in de dagen van koning Herodes, zie, wijzen uit het oosten kwamen in Jeruzalem aan,",
+            "original_excerpt": ""
+          },
+          {
+            "book": "MAT",
+            "chapter": 2,
+            "verse": 3,
+            "sv2026_excerpt": "Toen Koning Herodes nu dit gehoord had, werd hij ontste…",
+            "hsv_excerpt": "Toen koning Herodes dit hoorde, raakte hij in verwarring en heel Jeruzalem met hem.  ",
+            "original_excerpt": ""
+          },
+          {
+            "book": "MAT",
+            "chapter": 2,
+            "verse": 22,
+            "sv2026_excerpt": "Maar toen hij hoorde dat Archelaus in Judea Koning was, in de plaats van zijn vader Herodes, v…",
+            "hsv_excerpt": "Toen hij echter hoorde dat Archelaüs in Judea koning was in de plaats van zijn vader Herodes, was hij bevreesd daarheen te gaan. Maar nadat ",
+            "original_excerpt": ""
+          }
+        ]
+      },
+      {
+        "pattern_id": "p-0003",
+        "kind": "cap-asym",
+        "key": "engel",
+        "frequency": 3,
+        "hsv_alternatives": [],
+        "severity_hint": "soft",
+        "occurrences": [
+          {
+            "book": "MAT",
+            "chapter": 1,
+            "verse": 24,
+            "sv2026_excerpt": "…toen hij uit de slaap ontwaakt was, deed zoals de Engel van de Heere hem   bevolen had, en heeft zij…",
+            "hsv_excerpt": "Toen Jozef uit de slaap ontwaakt was, deed hij zoals de engel van de Heere hem bevolen had, en hij nam zijn vrouw bij zich;",
+            "original_excerpt": ""
+          },
+          {
+            "book": "MAT",
+            "chapter": 2,
+            "verse": 13,
+            "sv2026_excerpt": "Toen zij nu vertrokken waren, zie, de Engel van de Heere verscheen Jozef in een droom en…",
+            "hsv_excerpt": "Nadat zij vertrokken waren, zie, een engel van de Heere verschijnt Jozef in een droom en zegt: Sta op, en neem het Kind en Zijn moeder met u",
+            "original_excerpt": ""
+          },
+          {
+            "book": "MAT",
+            "chapter": 2,
+            "verse": 19,
+            "sv2026_excerpt": "Toen Herodes nu gestorven was, zie, de Engel van de Heere verscheen Jozef in een droom in…",
+            "hsv_excerpt": "Toen Herodes gestorven was, zie, een engel van de Heere verschijnt Jozef in een droom, in Egypte,",
+            "original_excerpt": ""
+          }
+        ]
+      },
+      {
+        "pattern_id": "p-0005",
+        "kind": "cap-asym",
+        "key": "oosten",
+        "frequency": 3,
+        "hsv_alternatives": [],
+        "severity_hint": "soft",
+        "occurrences": [
+          {
+            "book": "MAT",
+            "chapter": 2,
+            "verse": 1,
+            "sv2026_excerpt": "…n Koning   Herodes, zie, enige   Wijzen van   het Oosten zijn in Jeruzalem aangekomen,",
+            "hsv_excerpt": "Toen nu Jezus   geboren was in Bethlehem, in Judea, in de dagen van koning Herodes, zie, wijzen uit het oosten kwamen in Jeruzalem aan,",
+            "original_excerpt": ""
+          },
+          {
+            "book": "MAT",
+            "chapter": 2,
+            "verse": 2,
+            "sv2026_excerpt": "…oning der Joden? Want wij hebben zijn ster in het Oosten gezien en zijn gekomen om hem te aanbidden.",
+            "hsv_excerpt": "en zeiden: Waar is de Koning van de Joden die geboren is ? Want wij hebben Zijn ster in het oosten gezien en zijn gekomen om Hem te aanbidde",
+            "original_excerpt": ""
+          },
+          {
+            "book": "MAT",
+            "chapter": 2,
+            "verse": 9,
+            "sv2026_excerpt": "… gingen zij heen; en zie, de ster, die zij in het Oosten gezien hadden,   ging hun voor, totdat zij …",
+            "hsv_excerpt": "En nadat zij de koning aangehoord hadden, gingen zij op weg. En zie, de ster die zij in het oosten gezien hadden, ging hun voor, totdat hij ",
+            "original_excerpt": ""
+          }
+        ]
+      },
+      {
+        "pattern_id": "p-0004",
+        "kind": "cap-asym",
+        "key": "wijzen",
+        "frequency": 3,
+        "hsv_alternatives": [],
+        "severity_hint": "soft",
+        "occurrences": [
+          {
+            "book": "MAT",
+            "chapter": 2,
+            "verse": 1,
+            "sv2026_excerpt": "…a, in de dagen van Koning   Herodes, zie, enige   Wijzen van   het Oosten zijn in Jeruzalem aangekom…",
+            "hsv_excerpt": "Toen nu Jezus   geboren was in Bethlehem, in Judea, in de dagen van koning Herodes, zie, wijzen uit het oosten kwamen in Jeruzalem aan,",
+            "original_excerpt": ""
+          },
+          {
+            "book": "MAT",
+            "chapter": 2,
+            "verse": 7,
+            "sv2026_excerpt": "Toen heeft Herodes de Wijzen heimelijk geroepen, en vernam nauwkeurig va…",
+            "hsv_excerpt": "Toen riep Herodes de wijzen onopgemerkt bij zich en vroeg hun nauwkeurig naar de tijd dat de ster verschenen was;",
+            "original_excerpt": ""
+          },
+          {
+            "book": "MAT",
+            "chapter": 2,
+            "verse": 16,
+            "sv2026_excerpt": "Toen Herodes zag dat hij door de Wijzen   bedrogen was, toen werd hij zeer toornig,…",
+            "hsv_excerpt": "Toen werd Herodes, die zag dat hij door de wijzen bedrogen was, verschrikkelijk kwaad. Hij stuurde er soldaten op uit en bracht al de kinder",
+            "original_excerpt": ""
+          }
+        ]
+      },
+      {
+        "pattern_id": "p-0011",
+        "kind": "cap-asym",
+        "key": "heidenen",
+        "frequency": 2,
+        "hsv_alternatives": [],
+        "severity_hint": "soft",
+        "occurrences": [
+          {
+            "book": "MAT",
+            "chapter": 10,
+            "verse": 5,
+            "sv2026_excerpt": "…vel en zei: U zult niet heengaan op de weg van de Heidenen, noch zult u ingaan in enige stad van de …",
+            "hsv_excerpt": "Deze twaalf zond Jezus uit en Hij gebood hun: U zult u niet op weg begeven naar de heidenen en u zult geen enkele stad van de Samaritanen bi",
+            "original_excerpt": ""
+          },
+          {
+            "book": "MAT",
+            "chapter": 10,
+            "verse": 18,
+            "sv2026_excerpt": "…ingen gebracht worden, omwille van mij, hun en de Heidenen tot een getuigenis.",
+            "hsv_excerpt": "  En u zult ook voor stadhouders en koningen geleid worden omwille van Mij, tot een getuigenis voor hen en de heidenen.",
+            "original_excerpt": ""
+          }
+        ]
+      },
+      {
+        "pattern_id": "p-0010",
+        "kind": "cap-asym",
+        "key": "hoofdman",
+        "frequency": 2,
+        "hsv_alternatives": [],
+        "severity_hint": "soft",
+        "occurrences": [
+          {
+            "book": "MAT",
+            "chapter": 8,
+            "verse": 5,
+            "sv2026_excerpt": "…oen Jezus nu Kapernaüm binnengegaan was, kwam een Hoofdman over honderd tot hem, en bad hem,",
+            "hsv_excerpt": "  Toen Jezus Kapernaüm binnengegaan was, kwam er een hoofdman over honderd naar Hem toe, die Hem smeekte:",
+            "original_excerpt": ""
+          },
+          {
+            "book": "MAT",
+            "chapter": 8,
+            "verse": 13,
+            "sv2026_excerpt": "En Jezus zei tot de Hoofdman over honderd: Ga heen, en u geschiede zoa…",
+            "hsv_excerpt": "En Jezus zei tegen de hoofdman: Ga heen, en het zal u gaan zoals u geloofd hebt. En zijn knecht is gezond geworden op datzelfde moment.",
+            "original_excerpt": ""
+          }
+        ]
+      },
+      {
+        "pattern_id": "p-0006",
+        "kind": "cap-asym",
+        "key": "schriftgeleerden",
+        "frequency": 2,
+        "hsv_alternatives": [],
+        "severity_hint": "soft",
+        "occurrences": [
+          {
+            "book": "MAT",
+            "chapter": 2,
+            "verse": 4,
+            "sv2026_excerpt": "En nadat hij alle   Overpriesters en   Schriftgeleerden van het volk had bijeengebracht, …",
+            "hsv_excerpt": "En nadat hij alle overpriesters en schriftgeleerden van het volk bijeen had laten komen, wilde hij van hen weten waar de Christus geboren zo",
+            "original_excerpt": ""
+          },
+          {
+            "book": "MAT",
+            "chapter": 7,
+            "verse": 29,
+            "sv2026_excerpt": "… hen als   iemand die macht heeft, en niet als de Schriftgeleerden.",
+            "hsv_excerpt": "  want Hij onderwees hen als gezaghebbende en niet zoals de schriftgeleerden.",
+            "original_excerpt": ""
+          }
+        ]
+      }
+    ],
+    "latinaat-window": [
+      {
+        "pattern_id": "p-0009",
+        "kind": "latinaat-window",
+        "key": "hebben gewaaid zijn tegen datzelfde",
+        "frequency": 2,
+        "hsv_alternatives": [],
+        "severity_hint": "soft",
+        "occurrences": [
+          {
+            "book": "MAT",
+            "chapter": 7,
+            "verse": 25,
+            "sv2026_excerpt": "hebben gewaaid zijn tegen datzelfde",
+            "hsv_excerpt": "en de slagregen viel neer en de waterstromen kwamen en de winden waaiden en stortten zich op dat huis, maar het stortte niet in, want het wa",
+            "original_excerpt": "Ende daer is   slaghregen neder gevallen, ende de waterstroomen zijn gekomen, ende de winden hebben gewaeyt, ende zijn tegen het selve huys "
+          },
+          {
+            "book": "MAT",
+            "chapter": 7,
+            "verse": 27,
+            "sv2026_excerpt": "hebben gewaaid zijn tegen datzelfde",
+            "hsv_excerpt": "en de slagregen viel neer en de waterstromen kwamen en de winden waaiden en sloegen tegen dat huis, en het stortte in en zijn val was groot.",
+            "original_excerpt": "Ende de slaghregen is neder gevallen, ende de waterstroomen zijn gekomen, ende de winden hebben gewaeyt, ende zijn tegen het selve huys aeng"
+          }
+        ]
+      },
+      {
+        "pattern_id": "p-0007",
+        "kind": "latinaat-window",
+        "key": "koninkrijk der hemelen nabij gekomen",
+        "frequency": 2,
+        "hsv_alternatives": [],
+        "severity_hint": "soft",
+        "occurrences": [
+          {
+            "book": "MAT",
+            "chapter": 3,
+            "verse": 2,
+            "sv2026_excerpt": "koninkrijk der hemelen nabij gekomen",
+            "hsv_excerpt": "en zei: Bekeer u, want het Koninkrijk der hemelen is nabijgekomen.",
+            "original_excerpt": "Ende seggende, Bekeert u: want   het Koninckrijck der hemelen is na by gekomen."
+          },
+          {
+            "book": "MAT",
+            "chapter": 10,
+            "verse": 7,
+            "sv2026_excerpt": "koninkrijk der hemelen nabij gekomen",
+            "hsv_excerpt": "En als u op weg gaat,   predik dan: Het Koninkrijk der hemelen is nabijgekomen.",
+            "original_excerpt": "Ende henen gaende   predickt, seggende, Het Koninckrijck der hemelen is na by gekomen."
+          }
+        ]
+      },
+      {
+        "pattern_id": "p-0008",
+        "kind": "latinaat-window",
+        "key": "neergevallen waterstromen zijn gekomen winden",
+        "frequency": 2,
+        "hsv_alternatives": [],
+        "severity_hint": "soft",
+        "occurrences": [
+          {
+            "book": "MAT",
+            "chapter": 7,
+            "verse": 25,
+            "sv2026_excerpt": "neergevallen waterstromen zijn gekomen winden",
+            "hsv_excerpt": "en de slagregen viel neer en de waterstromen kwamen en de winden waaiden en stortten zich op dat huis, maar het stortte niet in, want het wa",
+            "original_excerpt": "Ende daer is   slaghregen neder gevallen, ende de waterstroomen zijn gekomen, ende de winden hebben gewaeyt, ende zijn tegen het selve huys "
+          },
+          {
+            "book": "MAT",
+            "chapter": 7,
+            "verse": 27,
+            "sv2026_excerpt": "neergevallen waterstromen zijn gekomen winden",
+            "hsv_excerpt": "en de slagregen viel neer en de waterstromen kwamen en de winden waaiden en sloegen tegen dat huis, en het stortte in en zijn val was groot.",
+            "original_excerpt": "Ende de slaghregen is neder gevallen, ende de waterstroomen zijn gekomen, ende de winden hebben gewaeyt, ende zijn tegen het selve huys aeng"
+          }
+        ]
+      }
+    ]
+  }
+}

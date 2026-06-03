@@ -56,6 +56,10 @@ BOOK_TITLES = {
     "REV": "De Openbaring van Johannes",
 }
 
+# Boeken waarvan de modernisatie nog niet compleet is. De titelpagina krijgt
+# dan een statusregel met het aantal afgewerkte hoofdstukken.
+IN_WORDING = {"MAT"}
+
 # Token-grammar — segments of free text, <kanttekening>, $bibref$, [insertion].
 # Greedy match within each delimiter; delimiters do not nest in this project.
 TOKEN_RE = re.compile(
@@ -348,8 +352,19 @@ def build_tex(book: str, chapters: list[dict]) -> str:
     tpl = (TEMPLATE_DIR / "book.tex.tpl").read_text()
     body = "\n\n".join(render_chapter(ch) for ch in chapters)
     title = BOOK_TITLES.get(book, book)
+    if book in IN_WORDING:
+        n = len(chapters)
+        status = (
+            r"\\[4mm]{\fontsize{10}{12}\selectfont\textit{\textcolor{accent}{"
+            f"Deze versie is nog in wording: {n} hoofdstuk"
+            f"{'' if n == 1 else 'ken'} afgewerkt."
+            r"}}}"
+        )
+    else:
+        status = ""
     out = tpl.replace("%%PREAMBLE_PATH%%", str(TEMPLATE_DIR / "preamble.tex"))
     out = out.replace("%%BOOK_TITLE%%", title)
+    out = out.replace("%%BOOK_STATUS%%", status)
     out = out.replace("%%BODY%%", body)
     return out
 

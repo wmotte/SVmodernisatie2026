@@ -62,9 +62,21 @@ def available_books(books: list[str]) -> list[str]:
     return out
 
 
-def book_titlepage(book: str) -> str:
+def book_titlepage(book: str, n_chapters: int) -> str:
     """A recto-starting title page that also (re)sets the running header."""
     title = bb.BOOK_TITLES.get(book, book)
+    center = [
+        r"\begin{center}",
+        r"  {\fontsize{22}{26}\selectfont\textbf{\textcolor{accent}{" + title + r"}}}",
+    ]
+    if book in bb.IN_WORDING:
+        center.append(
+            r"  \\[4mm]{\fontsize{10}{12}\selectfont\textit{\textcolor{accent}{"
+            f"Deze versie is nog in wording: {n_chapters} hoofdstuk"
+            f"{'' if n_chapters == 1 else 'ken'} afgewerkt."
+            r"}}}"
+        )
+    center.append(r"\end{center}")
     return "\n".join([
         r"\cleardoublepage",
         r"\phantomsection",
@@ -73,9 +85,7 @@ def book_titlepage(book: str) -> str:
         r"\renewcommand{\hoofdstuknr}{}",
         r"\thispagestyle{empty}",
         r"\vspace*{0.30\textheight}",
-        r"\begin{center}",
-        r"  {\fontsize{22}{26}\selectfont\textbf{\textcolor{accent}{" + title + r"}}}",
-        r"\end{center}",
+        *center,
         r"\clearpage",
     ])
 
@@ -94,8 +104,8 @@ def build_tex(books: list[str]) -> str:
             rendered.append(r"\addcontentsline{toc}{subsection}{Hoofdstuk " + str(n) + "}")
             rendered.append(bb.render_chapter(ch))
         body = "\n\n".join(rendered)
-        sections.append(book_titlepage(b) + "\n\n" + body)
         n_ch = len(chapters)
+        sections.append(book_titlepage(b, n_ch) + "\n\n" + body)
         print(f"  + {b}: {n_ch} chapter(s)")
     out = tpl.replace("%%PREAMBLE_PATH%%", str(PREAMBLE))
     out = out.replace("%%BODY%%", "\n\n".join(sections))
