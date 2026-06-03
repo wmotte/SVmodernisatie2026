@@ -250,6 +250,42 @@
       "generated_at": "2026-06-03T08:09:17.103128Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 28,
+      "original": "$Ierem. 1.8. Luce 12.4.$ Ende en vreest u niet voor de gene die het lichaem dooden, ende de ziele niet en konnen dooden: Maer vreest veel meer hem, die beyde ziele ende lichaem kan verderven in de helle.",
+      "modernized": "$Jr. 1:8; Lk. 12:4$ En vreest niet voor hen die het lichaam doden, en de ziel niet kunnen doden; maar vreest veel meer hem, die beide ziel en lichaam kan verderven in de hel.",
+      "source_text": "καὶ μὴ φοβηθῆτε ἀπὸ τῶν ἀποκτεινόντων τὸ σῶμα, τὴν δὲ ψυχὴν μὴ δυναμένων ἀποκτεῖναι· φοβήθητε δὲ μᾶλλον τὸν δυνάμενον καὶ ψυχὴν καὶ σῶμα ἀπολέσαι ἐν γεέννῃ.",
+      "generated_at": "2026-06-03T08:12:52.545921Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 29,
+      "original": "En worden niet twee And. vogelkens. muschkens om Gr. Assarion, het welck een penninghsken was wegende ontrent vier greynen ofte asen silvers, doende ontrent een duyt. een penninghsken verkocht? Ende niet een van desen en sal op de aerde vallen sonder uwen Vader.",
+      "modernized": "Worden niet twee <Anders: vogeltjes.> musjes om een <Grieks: Assarion, dat een penninkje was, wegende ongeveer vier greinen of asen zilver, ter waarde van ongeveer een duit.> penninkje verkocht? En niet een van deze zal op de aarde vallen zonder uw Vader.",
+      "source_text": "οὐχὶ δύο στρουθία ἀσσαρίου πωλεῖται; καὶ ἓν ἐξ αὐτῶν οὐ πεσεῖται ἐπὶ τὴν γῆν ἄνευ τοῦ Πατρὸς ὑμῶν·",
+      "generated_at": "2026-06-03T08:13:49.050170Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "subject": "inline kanttekeningen hersteld",
+          "context": "hoofdtekst",
+          "choice": "Twee glossen die in de invoer ongemarkeerd in de lopende tekst stonden (And. vogelkens / Gr. Assarion ...) zijn als <kanttekening> teruggezet.",
+          "reason": "De invoer-tekst bevatte geen <...>-markering; deze glossen horen volgens projectconventie in kanttekeningblokken, niet in de hoofdtekst."
+        }
+      ]
+    },
+    {
+      "verse_number": 30,
+      "original": "$1.Sam. 14 45.$ Ende oock uwe hayren des hoofts zijn alle getelt.",
+      "modernized": "$1Sm. 14:45$ En ook de haren van uw hoofd zijn alle geteld.",
+      "source_text": "ὑμῶν δὲ καὶ αἱ τρίχες τῆς κεφαλῆς πᾶσαι ἠριθμημέναι εἰσί.",
+      "generated_at": "2026-06-03T08:14:16.719825Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
