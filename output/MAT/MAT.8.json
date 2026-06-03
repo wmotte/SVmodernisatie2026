@@ -1,0 +1,39 @@
+{
+  "book": "MATT",
+  "chapter": 8,
+  "introduction": {
+    "original": "1 Christus reynight eenen melaetschen. 5 geneest den knecht eens Hooftmans. 14 de schoonmoeder Petri. 16 ende noch vele andere. 18 Verklaert eenen Schrift-geleerden, die hem wilde volgen, sijne armoede. 21 Ende gebiedt eenen anderen hem te volgen sonder uytstel. 23 stilt het onweder op de zee. 28 drijft de duyvelen uyt twee besetene menschen, ende laet toe datse in de verckens varen.",
+    "modernized": "1 Christus reinigt een melaatse. 5 geneest de knecht van een Hoofdman. 14 de schoonmoeder van Petrus. 16 en nog vele anderen. 18 Verklaart aan een Schriftgeleerde, die hem wilde volgen, zijn armoede. 21 En gebiedt een ander hem zonder uitstel te volgen. 23 stilt de storm op de zee. 28 drijft de duivelen uit twee bezeten mensen en laat toe dat zij in de varkens varen.",
+    "generated_at": "2026-06-03T04:10:43.865663Z",
+    "model": "claude-opus-4-7[1m]"
+  },
+  "verses": [
+    {
+      "verse_number": 1,
+      "original": "DOe hy nu van den <Namel. op den welcken hy geklommen was om te prediken, Matth. 5.1.> bergh afgeklommen was, zijn hem vele scharen gevolght.",
+      "modernized": "Toen hij nu van de <Namelijk, waarop hij geklommen was om te prediken, $Mt. 5:1$.> berg afgedaald was, volgden hem vele scharen.",
+      "source_text": "Καταβάντι δὲ αὐτῷ ἀπὸ τοῦ ὄρους, ἠκολούθησαν αὐτῷ ὄχλοι πολλοί·",
+      "generated_at": "2026-06-03T04:11:16.815189Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 2,
+      "original": "$Marc. 1.40. Luce 5.12.$ Ende siet, een <Melaetsheyt was in die heete landen een seer wreede ende vuyle sieckte, ofte schurftheyt, ontstaende uyt verdorven bloet in de menschen, ende was een plage besmettende niet alleen de menschen, maer oock de kleederen ende huysen. siet Lev. cap. 13. ende 14.> melaetsche quam, ende aenbadt hem, seggende: Heere, indien ghy wilt, ghy kondt my reynigen.",
+      "modernized": "$Mk. 1:40; Lk. 5:12$ En zie, een <Melaatsheid was in die hete landen een zeer wrede en vuile ziekte, of schurft, die ontstond uit verdorven bloed in de mensen, en zij was een plaag die niet alleen de mensen besmette, maar ook de kleren en huizen. Zie $Lv. 13:1; 14:1$ e.v.> melaatse kwam, en aanbad hem en zei: Heere, indien u wilt, u kunt mij reinigen.",
+      "source_text": "καὶ ἰδού, λεπρὸς ἐλθὼν προσεκύνει αὐτῷ, λέγων, Κύριε, ἐὰν θέλῃς, δύνασαί με καθαρίσαι.",
+      "generated_at": "2026-06-03T04:12:11.967836Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 3,
+      "original": "Ende Iesus de hant uytstreckende heeft hem <Namelick, om hem te genesen. Anders warense na de wet onreyn, die melaetsche aenraeckten, Levit. 13.46.> aengeraeckt, seggende, Ick wil, wort gereynight. Ende terstont wert [hy van] sijne melaetsheyt gereynight.",
+      "modernized": "En Jezus stak de hand uit, raakte hem <Namelijk, om hem te genezen. Anders waren zij volgens de wet onrein die melaatsen aanraakten, $Lv. 13:46$.> aan en zei: Ik wil, word gereinigd. En onmiddellijk werd [hij van] zijn melaatsheid gereinigd.",
+      "source_text": "καὶ ἐκτείνας τὴν χεῖρα, ἥψατο αὐτοῦ ὁ Ἰησοῦς, λέγων, Θέλω, καθαρίσθητι. καὶ εὐθέως ἐκαθαρίσθη αὐτοῦ ἡ λέπρα.",
+      "generated_at": "2026-06-03T04:12:50.991568Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    }
+  ]
+}
