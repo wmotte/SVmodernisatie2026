@@ -88,6 +88,33 @@
       "generated_at": "2026-06-03T04:27:35.053838Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 10,
+      "original": "Ende het geschiede als hy in ’t huys [Matthei] <Van de maniere van aensitten aen den tafel, siet Ioan. cap. 13. vers 23.> aensat, siet, vele tollenaers ende <D. medegesellen der tollenaers, die van de Ioden voor groote sondaren gehouden wierden, ofte in openbare sonden leefden.> sondaers quamen ende saten mede aen, met Iesu, ende sijne discipelen.",
+      "modernized": "En het geschiedde, toen hij in het huis [Mattheüs] <Van de manier van aanzitten aan tafel, zie $Jh. 13:23$.> aanzat, zie, vele tollenaars en <dat is, metgezellen van de tollenaars, die door de Joden voor grote zondaars gehouden werden, of in openbare zonden leefden.> zondaars kwamen en zaten mee aan met Jezus en zijn discipelen.",
+      "source_text": "Καὶ ἐγένετο αὐτοῦ ἀνακειμένου ἐν τῇ οἰκίᾳ, καὶ ἰδού, πολλοὶ τελῶναι καὶ ἁμαρτωλοὶ ἐλθόντες συνανέκειντο τῷ Ἰησοῦ καὶ τοῖς μαθηταῖς αὐτοῦ.",
+      "generated_at": "2026-06-03T04:34:24.304374Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 11,
+      "original": "Ende de Pharizeen [dat] siende, seyden tot sijne discipelen, Waerom eet uw’ Meester met de tollenaren ende sondaren?",
+      "modernized": "En toen de Farizeeën [dat] zagen, zeiden zij tot zijn discipelen: Waarom eet uw Meester met de tollenaars en zondaars?",
+      "source_text": "καὶ ἰδόντες οἱ Φαρισαῖοι εἶπον τοῖς μαθηταῖς αὐτοῦ, Διατί μετὰ τῶν τελωνῶν καὶ ἁμαρτωλῶν ἐσθίει ὁ διδάσκαλος ὑμῶν;",
+      "generated_at": "2026-06-03T04:34:52.402645Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 12,
+      "original": "Maer Iesus [sulcks] hoorende, seyde tot haer, Die <Gr. sterck, kloeck.> gesont zijn en hebben den Medicijnmeester niet van noode, maer die <Gr. die qualick te passe, of, qualick gestelt zijn.> sieck zijn.",
+      "modernized": "Maar toen Jezus [zulks] hoorde, zei hij tot hen: Die <Grieks: sterk, krachtig.> gezond zijn, hebben de Medicijnmeester niet nodig, maar die <Grieks: die er slecht aan toe zijn, of slecht gesteld zijn.> ziek zijn.",
+      "source_text": "ὁ δὲ Ἰησοῦς ἀκούσας εἶπεν αὐτοῖς, Οὐ χρείαν ἔχουσιν οἱ ἰσχύοντες ἰατροῦ, ἀλλ’ οἱ κακῶς ἔχοντες.",
+      "generated_at": "2026-06-03T04:35:35.248024Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
