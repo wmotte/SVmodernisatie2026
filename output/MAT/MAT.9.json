@@ -61,6 +61,33 @@
       "generated_at": "2026-06-03T04:20:39.270451Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 7,
+      "original": "Ende hy opgestaen zijnde <Namelick, sijn bedde op hem genomen hebbende: gelijck Marc. 2. vers 12. ende Luce 5.25. te sien is.> gingh henen na sijn huys.",
+      "modernized": "En toen hij opgestaan was <Namelijk, toen hij zijn bed opgenomen had; zoals te zien is in $Mk. 2:12; Lk. 5:25$.>, ging hij heen naar zijn huis.",
+      "source_text": "καὶ ἐγερθεὶς ἀπῆλθεν εἰς τὸν οἶκον αὐτοῦ.",
+      "generated_at": "2026-06-03T04:26:29.824659Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 8,
+      "original": "De scharen nu [dat] siende, hebben haer verwondert, ende Godt verheerlickt, die soodanige macht den menschen gegeven hadde.",
+      "modernized": "Toen de scharen nu [dat] zagen, verwonderden zij zich en verheerlijkten God, die zo'n macht aan de mensen gegeven had.",
+      "source_text": "ἰδόντες δὲ οἱ ὄχλοι ἐθαύμασαν, καὶ ἐδόξασαν τὸν Θεόν, τὸν δόντα ἐξουσίαν τοιαύτην τοῖς ἀνθρώποις.",
+      "generated_at": "2026-06-03T04:26:51.637171Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 9,
+      "original": "$Marc. 2.14. Luce 5.27.$ Ende Iesus van daer voortgaende, sagh een mensche in <Namelick, om den tol te ontfangen. Want hy was een tollenaer, Matth. cap. 10. vers 3.> het Tolhuys sitten genaemt <Ende was oock genaemt Levi. Siet Marc. 2.14. ende Luce 5.27. ende is deselve, die dit Euangelium geschreven heeft.> Mattheus: ende seyde tot hem, Volght my. Ende hy opstaende volghde hem.",
+      "modernized": "$Mk. 2:14; Lk. 5:27$ En toen Jezus vandaar verderging, zag hij een mens in <Namelijk, om de tol te ontvangen. Want hij was een tollenaar, $Mt. 10:3$.> het Tolhuis zitten, genaamd <En hij werd ook Levi genoemd. Zie $Mk. 2:14; Lk. 5:27$, en hij is dezelfde die dit Evangelie geschreven heeft.> Matteüs; en zei tot hem: Volg mij. En hij stond op en volgde hem.",
+      "source_text": "Καὶ παράγων ὁ Ἰησοῦς ἐκεῖθεν εἶδεν ἄνθρωπον καθήμενον ἐπὶ τὸ τελώνιον, Ματθαῖον λεγόμενον, καὶ λέγει αὐτῷ, Ἀκολούθει μοι. καὶ ἀναστὰς ἠκολούθησεν αὐτῷ.",
+      "generated_at": "2026-06-03T04:27:35.053838Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
