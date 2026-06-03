@@ -286,6 +286,42 @@
       "generated_at": "2026-06-03T08:14:16.719825Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 31,
+      "original": "En vreest dan niet, ghy gaet vele muschkens te boven.",
+      "modernized": "En vrees dan niet, u gaat vele musjes te boven.",
+      "source_text": "μὴ οὖν φοβηθῆτε· πολλῶν στρουθίων διαφέρετε ὑμεῖς.",
+      "generated_at": "2026-06-03T08:18:24.568150Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 32,
+      "original": "$Marc. 8.38. Luce 9.26. ende 12.8. 2.Tim. 2.12.$ Een yegelick dan die my belijden sal voor de menschen, dien sal ick oock D. voor mijne ware discipelen erkennen. Gelijck verloochenen is voor sijne ware discipelen niet erkennen. Siet Matth. 7.23. belijden voor mijnen Vader die in de hemelen [is.]",
+      "modernized": "$Mk. 8:38; Lk. 9:26; 12:8; 2Tm. 2:12$ Een ieder dan die mij belijden zal voor de mensen, die zal ik ook <dat is, voor mijn ware discipelen erkennen. Zoals verloochenen is voor zijn ware discipelen niet erkennen. Zie $Mt. 7:23$.> belijden voor mijn Vader die in de hemelen [is.]",
+      "source_text": "πᾶς οὖν ὅστις ὁμολογήσει ἐν ἐμοὶ ἔμπροσθεν τῶν ἀνθρώπων, ὁμολογήσω κἀγὼ ἐν αὐτῷ ἔμπροσθεν τοῦ Πατρός μου τοῦ ἐν οὐρανοῖς.",
+      "generated_at": "2026-06-03T08:19:56.028846Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "subject": "inline kanttekening hersteld",
+          "context": "hoofdtekst, bij tweede \"belijden\"",
+          "choice": "De D.-glosse die in de invoer ongemarkeerd tussen \"ook\" en \"belijden\" in de lopende tekst stond (D. voor mijne ware discipelen erkennen ... Siet Matth. 7.23.) is als <dat is, ...>-kanttekening teruggezet op de positie van het tweede \"belijden\".",
+          "reason": "De invoer-tekst bevatte geen <...>-markering; deze D.-glosse hoort volgens projectconventie in een kanttekeningblok, niet in de hoofdtekst (vgl. vers 29)."
+        }
+      ]
+    },
+    {
+      "verse_number": 33,
+      "original": "Maer soo wie my verloochent sal hebben voor de menschen, dien sal ick oock verlochenen voor mijnen Vader, die in de hemelen [is.]",
+      "modernized": "Maar wie mij verloochend zal hebben voor de mensen, die zal ik ook verloochenen voor mijn Vader, die in de hemelen [is.]",
+      "source_text": "ὅστις δ’ ἂν ἀρνήσηταί με ἔμπροσθεν τῶν ἀνθρώπων, ἀρνήσομαι αὐτὸν κἀγὼ ἔμπροσθεν τοῦ Πατρός μου τοῦ ἐν οὐρανοῖς.",
+      "generated_at": "2026-06-03T08:20:23.270706Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
