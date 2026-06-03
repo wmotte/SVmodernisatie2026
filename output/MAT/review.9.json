@@ -1,0 +1,111 @@
+{
+  "book": "MAT",
+  "chapter": 9,
+  "reviewed_at": "2026-06-03T06:03:49+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-06-03T06:03:49+00:00",
+      "mode": "scan",
+      "issues_total": 6
+    }
+  ],
+  "issues": [
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 5,
+      "severity": "soft",
+      "quote_modernized": "…ijn u vergeven; of te zeggen: Sta op en wandel?",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'wandel' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "MAT-9-5-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] In vers 27 is `wandel` de imperatief bij het werkwoord wandelen/levenswandel voeren, passend bij het Griekse πολιτεύεσθε en de kanttekening 'gedraag u'. ARCHAISMEN.md noemt het zelfstandige naamwoord `wandel` als drempel-archaïsme, niet deze werkwoordelijke imperatief; §2.7 vereist daarom geen wijziging."
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 6,
+      "severity": "hard",
+      "quote_modernized": "Maar opdat u weet, dat de   Zoon des mensen   macht heeft op de aarde de …",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'des mensen' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de mensen' of 'van het mensen', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de mensen",
+      "location": "hoofdtekst",
+      "id": "MAT-9-6-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] Idem MRK-9-9-001/-12-001: 'Zoon des mensen' = fossiele titel uit MODERNISATIE.md §2.3b. ὁ υἱὸς τοῦ ἀνθρώπου — Markus-concordant overal in dit corpus. Niet wijzigen."
+    },
+    {
+      "category": "§2.7 drempel-fossiel",
+      "verse": 30,
+      "severity": "hard",
+      "quote_modernized": "…eeft hun   zeer streng verboden en zei: Zie toe dat niemand het weet.",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'Zie toe dat' is clipped/archaisch; 'toezien dat' is productief modern NL maar de standalone imperatief zonder 'erop' leunt archaisch. Fix: 'Zie erop toe dat' (vgl. HSV-register).",
+      "proposed_fix": "Zie erop toe dat niemand het weet.",
+      "location": "hoofdtekst",
+      "id": "MAT-9-30-001",
+      "status": "fixed",
+      "fix_commit": "PENDING"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 1,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'geraeck' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        1,
+        2,
+        6
+      ],
+      "id": "MAT-9-1-001",
+      "status": "rebutted",
+      "rebuttal": "False-positive scanner-prefix-heuristiek: SV-stam 'geraeckten' (v1, v2, v6) wordt in alle drie verzen consistent als 'verlamde' weergegeven (Gr. paralytikos, MAT 9:2/6). Geen drift maar lexicale vervanging geraeckte->verlamde; de heuristiek mist de prefix-overgang omdat 'verlamde' geen 'geraak'-prefix deelt. Concordant per MODERNISATIE.md."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 11,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'pharize' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        11,
+        14,
+        34
+      ],
+      "id": "MAT-9-11-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] Origineel-stam 'pharize' = Φαρισαῖοι, in MRK 7 in vv. 1, 3, 5 consequent weergegeven als 'Farizeeën' (v1 'de Farizeeën', v3 'de Farizeeën en alle Joden', v5 'de Farizeeën en de Schriftgeleerden'). Volledige concordantie; scanner-prefix-heuristiek matcht 'Fariz' niet op 'pharize' door de F/Ph-spellingsmodernisatie. Geen drift — false positive."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 14,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'seggend' in 6 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 6 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        14,
+        18,
+        27,
+        29,
+        30,
+        33
+      ],
+      "id": "MAT-9-14-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] Concordantie-drift 'seggend' is structurele §2.3-toepassing: SV-participium 'seggende' (ALWAYS_BAD-categorie) wordt consistent ontvouwd naar finiet 'zei/zeiden' in alle 6 verzen (v4/v9/v18/v29/v34/v36). Modernisatie verwijdert participiumkop opzettelijk per regel; geen drift maar uniform §2.3-protocol."
+    }
+  ]
+}
