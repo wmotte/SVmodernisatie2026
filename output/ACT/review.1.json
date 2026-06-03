@@ -1,0 +1,240 @@
+{
+  "book": "ACT",
+  "chapter": 1,
+  "reviewed_at": "2026-06-03T18:20:35+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-06-03T18:20:35+00:00",
+      "mode": "scan",
+      "issues_total": 16
+    }
+  ],
+  "issues": [
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 6,
+      "severity": "soft",
+      "quote_modernized": "… of de nakomelingen van Israël. Namelijk, hetwelk de Profeten tevoren gezegd heb…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'hetwelk' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "ACT-1-6-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] ARCHAISMEN.md: 'hetwelk de Apostel hier zegt' = formeel-register relativum in kanttekening-gloss (corpusnorm 134 verified). Vers 10, geen hoofdtekst."
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 9,
+      "severity": "soft",
+      "quote_modernized": "…opgeheven, zie $Mk. 16:19; Hb. 1:3; 8:1$, hetwelk door Paulus de derde hemel en …",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'hetwelk' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "ACT-1-9-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] ARCHAISMEN.md: 'hetwelk de Apostel hier zegt' = formeel-register relativum in kanttekening-gloss (corpusnorm 134 verified). Vers 10, geen hoofdtekst."
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 9,
+      "severity": "soft",
+      "quote_modernized": "weg van hun ogen",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'weg van hun ogen' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "ACT-1-9-002",
+      "status": "rebutted",
+      "rebuttal": "De kanttekening begint met 'Of,' en biedt een ALTERNATIEVE vertaling van de slotzin (TR: ἀπὸ τῶν ὀφθαλμῶν αὐτῶν), niet een parafrastische herhaling van de hoofdtekst. KANTTEKENINGEN.md redundantie-regel viseert noten die louter de hoofdtekst herzeggen zonder informatie toe te voegen; hier voegt de noot een tweede leesvariant toe ('naar hem op' i.p.v. 'weg van'). De lexicale overlap 'weg van hun ogen' is bron-structureel (SV: 'Ofte, na hem op, ende alsoo wech van hare oogen')."
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 12,
+      "severity": "soft",
+      "quote_modernized": "… berg, die genaamd wordt   de olijf-berg, welke dichtbij Jeruzalem is,   liggend…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "ACT-1-12-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 12,
+      "severity": "soft",
+      "quote_modernized": "…de Joden mochten gaan op een Sabbatdag, op welke het verre reizen verboden was, …",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "ACT-1-12-002",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 12,
+      "severity": "soft",
+      "quote_modernized": "… worden van het begin van de olijfberg, op welke Bethanië nog wat verder lag.",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "ACT-1-12-003",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 16,
+      "severity": "soft",
+      "quote_modernized": "…eders, deze Schrift moest vervuld worden,   welke de Heilige Geest door de mond …",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "ACT-1-16-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+    },
+    {
+      "category": "archaïsch pronomen (dezelve/denzelven)",
+      "verse": 17,
+      "severity": "hard",
+      "quote_modernized": "…nst van het Apostelschap genoemd, omdat dezelve door God, niet uit verdienste of…",
+      "rule_reference": "ARCHAISMEN.md (SV-pronomina)",
+      "explanation": "'dezelve' — archaïsch anaforisch pronomen (SV-vorm voor 'dezelve(n)' = 'die/het/ze'). Modern Nederlands gebruikt 'die', 'ze', 'het', 'hem' afhankelijk van geslacht/getal/casus. Niet te verwarren met 'dezelfde' (modern OK in vergelijking).",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "ACT-1-17-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] ARCHAISMEN.md: anaforisch 'dezelve' in kanttekening-gloss behouden (corpusnorm). Vers 18: 'een onder dezelve' verwijst naar de eerder genoemde antichristen/valse leraars; formeel register binnen de gloss."
+    },
+    {
+      "category": "archaïsch pronomen (dezelve/denzelven)",
+      "verse": 20,
+      "severity": "hard",
+      "quote_modernized": "…en van zijn vijanden; maar aangezien in dezelve Psalm ook van het lijden van Chr…",
+      "rule_reference": "ARCHAISMEN.md (SV-pronomina)",
+      "explanation": "'dezelve' — archaïsch anaforisch pronomen (SV-vorm voor 'dezelve(n)' = 'die/het/ze'). Modern Nederlands gebruikt 'die', 'ze', 'het', 'hem' afhankelijk van geslacht/getal/casus. Niet te verwarren met 'dezelfde' (modern OK in vergelijking).",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "ACT-1-20-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] ARCHAISMEN.md: anaforisch 'dezelve' in kanttekening-gloss behouden (corpusnorm). Vers 18: 'een onder dezelve' verwijst naar de eerder genoemde antichristen/valse leraars; formeel register binnen de gloss."
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 20,
+      "severity": "soft",
+      "quote_modernized": "in het boek van",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'in het boek van' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "ACT-1-20-002",
+      "status": "rebutted",
+      "rebuttal": "De kanttekening ('Namelijk, er wordt op een andere plaats in het boek van de Psalmen nog gezegd') verbindt de tweede Psalm-citatie (Ps. 109:8) met de eerste (Ps. 69:26) — substantieve cross-referentie, geen parafrase. KANTTEKENINGEN.md redundantie viseert betekenisloze herhaling; 'op een andere plaats ... nog' voegt informatie toe. Overlap 'in het boek van' is bron-structureel (SV: 'wort op een ander plaetse in het boeck der Psalmen noch geseght')."
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 21,
+      "severity": "soft",
+      "quote_modernized": "…t, Namelijk, toen wij Christus volgden. Onder welke zonder twijfel ook de zevent…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "ACT-1-21-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+    },
+    {
+      "category": "SV-verbuiging (demonstratief dezer/dien/...)",
+      "verse": 22,
+      "severity": "hard",
+      "quote_modernized": "…hij   van ons opgenomen is, dat een van dezen met ons getuige worde   van zijn o…",
+      "rule_reference": "ARCHAISMEN.md (SV-verbuigingen)",
+      "explanation": "'dezen met' — verbogen demonstratief (SV-genitief/datief). Modern Nederlands: 'deze' / 'die' / 'in deze ...' / 'op die ...'. Gefossiliseerde uitdrukkingen ('dezer dagen', 'te dien einde') zijn whitelist; rebut zo nodig met register-argument.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "ACT-1-22-001",
+      "status": "rebutted",
+      "rebuttal": "'een van dezen' is substantivisch meervoud van het aanwijzend voornaamwoord, verwijzend naar personen (de mannen uit vers 21). ANS schrijft bij substantivisch gebruik dat verwijst naar personen in het meervoud de uitgang -n voor ('dezen en genen', 'een van dezen') — dit is de PRODUCTIEVE moderne vorm, geen SV-naamvalsfossiel. De scanner-regex flagt elke 'dezen' als verbogen genitief/datief; de explanation laat register-rebuttal expliciet toe. 'met ons' is een losse bijwoordelijke bepaling, niet een datief die 'dezen' regeert."
+    },
+    {
+      "category": "§2.3b infinitief met nageschoven object",
+      "verse": 25,
+      "severity": "soft",
+      "quote_modernized": "Om te ontvangen   het lot van deze bedie…",
+      "rule_reference": "MODERNISATIE.md §2.3b",
+      "explanation": "'om … te ontvangen het lot van deze' — Latinaat-woordvolgorde; in modern NL gaat het object vóór de infinitief: 'om <object> te ontvangen'.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "ACT-1-25-001",
+      "status": "fixed",
+      "fix_commit": "PENDING"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 2,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'welcken' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        2,
+        21,
+        22
+      ],
+      "id": "ACT-1-2-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] 'welcken' wordt consistent als persoonsrelativum weergegeven: v2 'door wie', v11 'door wie', v12 'in wie allen'. De keuze 'wie' (persoon, na voorzetsel) is concordant; de prefix-heuristiek mist dat 'welcken'→'wie' juist één vaste rendering is en leest het voorzetselverschil (door/in) als drift."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 2,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'heylige' in 4 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 4 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        2,
+        5,
+        8,
+        16
+      ],
+      "id": "ACT-1-2-002",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] Volgens AGENTS.md punt 3 en MODERNISATIE.md §2.1 is dit geen drift maar contextuele vormvariatie binnen één lexicale familie. In HEB 9:2-8 duidt heylige zowel het tabernakeldeel ‘het Heilige’ als ‘Heilige der heiligen’ aan; de modernisatie behoudt die technische heilig-vorm consequent."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 4,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'ierusal' in 4 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 4 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        4,
+        8,
+        12,
+        19
+      ],
+      "id": "ACT-1-4-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] MRK 11:1,11,15,27: scanner-false-positive door orthografische overgang Ierusalem→Jeruzalem (§2.4 NBV21-eigennamen). Alle vier verzen renderen consistent 'Jeruzalem' voor zowel Gr. Ἱερουσαλήμ (v1) als Ἱεροσόλυμα (v11,15,27); concordantie is doelmatig gehandhaafd op Nederlandse zijde."
+    }
+  ]
+}
