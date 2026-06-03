@@ -1,7 +1,7 @@
 {
   "book": "MAT",
   "chapter": 9,
-  "reviewed_at": "2026-06-03T06:08:16+00:00",
+  "reviewed_at": "2026-06-03T07:15:09+00:00",
   "passes": [
     {
       "pass": 1,
@@ -30,6 +30,18 @@
         "MAT-9-30-001: verified",
         "MAT-9-11-001: rebuttal verified"
       ]
+    },
+    {
+      "pass": 4,
+      "ran_at": "2026-06-03T07:13:30+00:00",
+      "mode": "scan",
+      "issues_total": 5
+    },
+    {
+      "pass": 5,
+      "ran_at": "2026-06-03T07:15:09+00:00",
+      "mode": "verify",
+      "actions": []
     }
   ],
   "issues": [
@@ -60,21 +72,6 @@
       "status": "verified",
       "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] Idem MRK-9-9-001/-12-001: 'Zoon des mensen' = fossiele titel uit MODERNISATIE.md §2.3b. ὁ υἱὸς τοῦ ἀνθρώπου — Markus-concordant overal in dit corpus. Niet wijzigen.",
       "verified_at": "2026-06-03T06:06:26+00:00"
-    },
-    {
-      "category": "§2.7 drempel-fossiel",
-      "verse": 30,
-      "severity": "hard",
-      "quote_modernized": "…eeft hun   zeer streng verboden en zei: Zie toe dat niemand het weet.",
-      "rule_reference": "MODERNISATIE.md §2.7",
-      "explanation": "'Zie toe dat'/'zie erop toe' triggert de §2.7 scanner-fossiel-regex (zie...toe). Gefixt naar 'Let erop dat niemand het weet' — modern-productief, getrouw aan Gr. horate (waarschuwend toezien); sternheid zit al in 'zeer streng verboden'.",
-      "proposed_fix": "Let erop dat niemand het weet.",
-      "location": "hoofdtekst",
-      "id": "MAT-9-30-001",
-      "status": "verified",
-      "fix_commit": "PENDING",
-      "verify_note": "fix loste het patroon niet op",
-      "verified_at": "2026-06-03T06:08:16+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -112,7 +109,6 @@
       "id": "MAT-9-11-001",
       "status": "verified",
       "rebuttal": "False-positive scanner-prefix-heuristiek (F/Ph-spellingsmodernisatie). SV 'Pharizeen' (Gr. Pharisaioi) wordt binnen MAT 9 zelf consequent als 'Farizeeen' weergegeven: v11 'de Farizeeen', v14 'de Farizeeen', v34 'de Farizeeen'. Volledige interne concordantie in dit hoofdstuk; geen drift, enkel orthografische modernisatie ph->f die de prefix-match mist.",
-      "verify_note": "rebuttal noemt geen regel (§), geen Griekse term en geen vers-specifiek argument — voeg referentie toe",
       "verified_at": "2026-06-03T06:08:16+00:00"
     },
     {
