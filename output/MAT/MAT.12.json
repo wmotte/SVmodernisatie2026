@@ -344,6 +344,42 @@
           "reason": "SV1657-invoer levert de kanttekeningen ongemarkeerd; quaet naar slecht conform Mt. 7:17-18 en Lk. 6:43."
         }
       ]
+    },
+    {
+      "verse_number": 34,
+      "original": "$Matth. 3.7.$ Ghy adderen gebroedsels, hoe kondt ghy goede dingen spreken daer ghy boos zijt, $Psalm 40.11. Luce 6.45.$ want uyt den overvloet des herten spreeckt de mont.",
+      "modernized": "$Mt. 3:7$ U addergebroed, hoe kunt u goede dingen spreken terwijl u slecht bent, $Ps. 40:11; Lk. 6:45$ want uit de overvloed van het hart spreekt de mond.",
+      "source_text": "γεννήματα ἐχιδνῶν, πῶς δύνασθε ἀγαθὰ λαλεῖν, πονηροὶ ὄντες; ἐκ γὰρ τοῦ περισσεύματος τῆς καρδίας τὸ στόμα λαλεῖ.",
+      "generated_at": "2026-06-03T19:21:54.774332Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 35,
+      "original": "De goede mensche brenght goede dingen voort uyt den goeden schat des herten, ende de boose mensche brenght boose dingen voort uyt den boosen schat.",
+      "modernized": "De goede mens brengt goede dingen voort uit de goede schat van het hart, en de slechte mens brengt slechte dingen voort uit de slechte schat.",
+      "source_text": "ὁ ἀγαθὸς ἄνθρωπος ἐκ τοῦ ἀγαθοῦ θησαυροῦ τῆς καρδίας ἐκβάλλει τὰ ἀγαθά· καὶ ὁ πονηρὸς ἄνθρωπος ἐκ τοῦ πονηροῦ θησαυροῦ ἐκβάλλει πονηρά.",
+      "generated_at": "2026-06-03T19:22:17.003733Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 36,
+      "original": "Maer ick segge u, $Ephes. 5.4.$ dat van elck Gr. ledigh, Dat is, dat geen nuttigheyt heeft tot stichtinge, Ephes. 4.29. hoe veel meer dan de lasterwoorden. ydel woort het welck de menschen sullen gesproken hebben, sy van ’t selve sullen reeckenschap geven $Eccles. 12.14.$ in den dage des oordeels.",
+      "modernized": "Maar ik zeg u, $Ef. 5:4$ dat van elk ijdel woord <Grieks: ledig, Dat is, dat geen nut heeft tot stichting, $Ef. 4:29$, hoeveel te meer dan de lasterwoorden.> dat de mensen gesproken zullen hebben, zij daarvan rekenschap zullen geven $Pr. 12:14$ op de dag van het oordeel.",
+      "source_text": "λέγω δὲ ὑμῖν, ὅτι πᾶν ῥῆμα ἀργόν, ὃ ἐὰν λαλήσωσιν οἱ ἄνθρωποι, ἀποδώσουσι περὶ αὐτοῦ λόγον ἐν ἡμέρᾳ κρίσεως.",
+      "generated_at": "2026-06-03T19:22:53.727810Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "subject": "kanttekening-afbakening",
+          "context": "hele vers",
+          "choice": "de inline-glos op ijdel woord in <...> gezet",
+          "reason": "de SV1657-invoer levert de kanttekening ongemarkeerd tussen de hoofdtekst (Gr. ledigh ... lasterwoorden); afgebakend conform de chapter-conventie van v31-33. den/des-genitieven geharmoniseerd naar de/het (dage des oordeels -> de dag van het oordeel)."
+        }
+      ]
     }
   ]
 }
