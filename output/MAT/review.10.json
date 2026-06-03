@@ -1,13 +1,42 @@
 {
   "book": "MAT",
   "chapter": 10,
-  "reviewed_at": "2026-06-03T08:37:51+00:00",
+  "reviewed_at": "2026-06-03T08:42:46+00:00",
   "passes": [
     {
       "pass": 1,
       "ran_at": "2026-06-03T08:37:51+00:00",
       "mode": "scan",
       "issues_total": 22
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-06-03T08:42:46+00:00",
+      "mode": "verify",
+      "actions": [
+        "MAT-10-6-001: verified",
+        "MAT-10-7-001: rebuttal verified",
+        "MAT-10-11-001: rebuttal verified",
+        "MAT-10-11-002: rebuttal verified",
+        "MAT-10-13-001: rebuttal verified",
+        "MAT-10-13-002: rebuttal verified",
+        "MAT-10-15-001: rebuttal verified",
+        "MAT-10-15-002: rebuttal verified",
+        "MAT-10-15-003: rebuttal verified",
+        "MAT-10-23-001: rebuttal verified",
+        "MAT-10-23-002: rebuttal verified",
+        "MAT-10-25-001: rebuttal verified",
+        "MAT-10-25-002: rebuttal verified",
+        "MAT-10-34-001: rebuttal verified",
+        "MAT-10-42-001: rebuttal verified",
+        "MAT-10-42-002: rebuttal verified",
+        "MAT-10-1-001: rebuttal verified",
+        "MAT-10-1-002: rebuttal verified",
+        "MAT-10-1-003: rebuttal verified",
+        "MAT-10-10-001: rebuttal verified",
+        "MAT-10-16-001: rebuttal verified",
+        "MAT-10-32-001: rebuttal verified"
+      ]
     }
   ],
   "issues": [
@@ -21,8 +50,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "MAT-10-6-001",
-      "status": "fixed",
-      "fix_commit": null
+      "status": "verified",
+      "fix_commit": "c472cca7c7ed91912ba0c6ec45eac6b83aefd7f8",
+      "verified_at": "2026-06-03T08:42:46+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -34,8 +64,9 @@
       "proposed_fix": "van de hemelen",
       "location": "hoofdtekst",
       "id": "MAT-10-7-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Koninkrijk der hemelen' is gefossiliseerde bijbeluitdrukking voor Gr. βασιλεία τῶν οὐρανῶν. Standaard in NL bijbelvertalingen (NBV21, HSV); MODERNISATIE.md §2.7 erkent lexicale fossielen — geen productieve genitief."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Koninkrijk der hemelen' is gefossiliseerde bijbeluitdrukking voor Gr. βασιλεία τῶν οὐρανῶν. Standaard in NL bijbelvertalingen (NBV21, HSV); MODERNISATIE.md §2.7 erkent lexicale fossielen — geen productieve genitief.",
+      "verified_at": "2026-06-03T08:42:46+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -47,8 +78,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "MAT-10-11-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-06-03T08:42:46+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -60,8 +92,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "MAT-10-11-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-06-03T08:42:46+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -73,8 +106,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "MAT-10-13-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-06-03T08:42:46+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -86,8 +120,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "MAT-10-13-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-06-03T08:42:46+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -99,8 +134,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "MAT-10-15-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Idem MRK-9-1-001: 'voorwaar, ik zeg u' = ἀμὴν λέγω ὑμῖν, gestolde SV-bijbelformule. Project-concordant in MRK/LUK. §2.7 niet van toepassing op gefossiliseerde liturgische formules."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Idem MRK-9-1-001: 'voorwaar, ik zeg u' = ἀμὴν λέγω ὑμῖν, gestolde SV-bijbelformule. Project-concordant in MRK/LUK. §2.7 niet van toepassing op gefossiliseerde liturgische formules.",
+      "verified_at": "2026-06-03T08:42:46+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -112,8 +148,9 @@
       "proposed_fix": "van de oordeels",
       "location": "hoofdtekst",
       "id": "MAT-10-15-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] 'de dag des oordeels' is een gefossiliseerde bijbels-Nederlandse uitdrukking voor ἡμέρα κρίσεως (Mt. 10:15; 11:22-24; 12:36; 2Pt. 2:9; 3:7; 1Joh. 4:17 in HSV/NBV-spiegels), parallel aan 'Koninkrijk der hemelen' en 'Zoon des mensen' (§2.3b uitzonderingscategorie). Niet productief in moderne syntaxis, maar wel productief in het register van bijbels Nederlands; vervangen door 'in de dag van het oordeel' breekt het concordantieprincipe met andere bijbelboeken. Het proposed_fix 'van de oordeels' is bovendien een naïef regex-voorstel (ongrammaticaal: 'de oordeel' bestaat niet als bepaald de-noun)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] 'de dag des oordeels' is een gefossiliseerde bijbels-Nederlandse uitdrukking voor ἡμέρα κρίσεως (Mt. 10:15; 11:22-24; 12:36; 2Pt. 2:9; 3:7; 1Joh. 4:17 in HSV/NBV-spiegels), parallel aan 'Koninkrijk der hemelen' en 'Zoon des mensen' (§2.3b uitzonderingscategorie). Niet productief in moderne syntaxis, maar wel productief in het register van bijbels Nederlands; vervangen door 'in de dag van het oordeel' breekt het concordantieprincipe met andere bijbelboeken. Het proposed_fix 'van de oordeels' is bovendien een naïef regex-voorstel (ongrammaticaal: 'de oordeel' bestaat niet als bepaald de-noun).",
+      "verified_at": "2026-06-03T08:42:46+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -125,8 +162,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "MAT-10-15-003",
-      "status": "rebutted",
-      "rebuttal": "SV-originele 'Of,'-variant kanttekening (alternatieve lezing), niet parafrastische herhaling: de hoofdtekst leest 'het land van Sodom en Gomorra' (γῇ Σοδόμων, het territorium), de kanttekening biedt de parse 'het land van die van Sodom en Gomorra' (de inwoners). Het 'Of,'-merk markeert een vertaalvariant die land vs. inwoners onderscheidt; per projectbeleid worden SV-kanttekeningen woordelijk gereproduceerd, niet ingekort wegens oppervlakkige woordoverlap."
+      "status": "verified",
+      "rebuttal": "SV-originele 'Of,'-variant kanttekening (alternatieve lezing), niet parafrastische herhaling: de hoofdtekst leest 'het land van Sodom en Gomorra' (γῇ Σοδόμων, het territorium), de kanttekening biedt de parse 'het land van die van Sodom en Gomorra' (de inwoners). Het 'Of,'-merk markeert een vertaalvariant die land vs. inwoners onderscheidt; per projectbeleid worden SV-kanttekeningen woordelijk gereproduceerd, niet ingekort wegens oppervlakkige woordoverlap.",
+      "verified_at": "2026-06-03T08:42:46+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -138,8 +176,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "MAT-10-23-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Idem MRK-9-1-001: 'voorwaar, ik zeg u' = ἀμὴν λέγω ὑμῖν, gestolde SV-bijbelformule. Project-concordant in MRK/LUK. §2.7 niet van toepassing op gefossiliseerde liturgische formules."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Idem MRK-9-1-001: 'voorwaar, ik zeg u' = ἀμὴν λέγω ὑμῖν, gestolde SV-bijbelformule. Project-concordant in MRK/LUK. §2.7 niet van toepassing op gefossiliseerde liturgische formules.",
+      "verified_at": "2026-06-03T08:42:46+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -151,8 +190,9 @@
       "proposed_fix": "van de mensen",
       "location": "hoofdtekst",
       "id": "MAT-10-23-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] Idem MRK-9-9-001/-12-001: 'Zoon des mensen' = fossiele titel uit MODERNISATIE.md §2.3b. ὁ υἱὸς τοῦ ἀνθρώπου — Markus-concordant overal in dit corpus. Niet wijzigen."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] Idem MRK-9-9-001/-12-001: 'Zoon des mensen' = fossiele titel uit MODERNISATIE.md §2.3b. ὁ υἱὸς τοῦ ἀνθρώπου — Markus-concordant overal in dit corpus. Niet wijzigen.",
+      "verified_at": "2026-06-03T08:42:46+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -164,8 +204,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "MAT-10-25-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-06-03T08:42:46+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -177,8 +218,9 @@
       "proposed_fix": "van de huizes",
       "location": "hoofdtekst",
       "id": "MAT-10-25-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] v21 'de heere des huizes toornig' — `heer des huizes` is een gestolde uitdrukking voor `householder/master of the house` (Gr. οἰκοδεσπότης). Idem `heer/meester des huizes` in modern NL nog actief in bijbels en literair register (vgl. Van Dale; Mt. 10:25 etc.). MODERNISATIE.md §2.7: vaste-genitief-uitdrukkingen blijven, evenals `Zoon des mensen`, `vrees des Heeren`."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] v21 'de heere des huizes toornig' — `heer des huizes` is een gestolde uitdrukking voor `householder/master of the house` (Gr. οἰκοδεσπότης). Idem `heer/meester des huizes` in modern NL nog actief in bijbels en literair register (vgl. Van Dale; Mt. 10:25 etc.). MODERNISATIE.md §2.7: vaste-genitief-uitdrukkingen blijven, evenals `Zoon des mensen`, `vrees des Heeren`.",
+      "verified_at": "2026-06-03T08:42:46+00:00"
     },
     {
       "category": "§2.3b infinitief met nageschoven object",
@@ -190,8 +232,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "MAT-10-34-001",
-      "status": "rebutted",
-      "rebuttal": "§2.3b (nageschoven object) niet van toepassing: het directe object 'vrede' staat reeds vóór de infinitief ('om vrede te brengen'). 'op de aarde' is een locatieve bijwoordelijke bepaling (Gr. ἐπὶ τὴν γῆν), geen object. PP-extrapositie achter de infinitief is productief modern Nederlands (vgl. 'vrede brengen op aarde'), geen Latinaat-objectsvolgorde."
+      "status": "verified",
+      "rebuttal": "§2.3b (nageschoven object) niet van toepassing: het directe object 'vrede' staat reeds vóór de infinitief ('om vrede te brengen'). 'op de aarde' is een locatieve bijwoordelijke bepaling (Gr. ἐπὶ τὴν γῆν), geen object. PP-extrapositie achter de infinitief is productief modern Nederlands (vgl. 'vrede brengen op aarde'), geen Latinaat-objectsvolgorde.",
+      "verified_at": "2026-06-03T08:42:46+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -203,8 +246,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "MAT-10-42-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'geenszins' rendert οὐ μή (dubbele ontkenning, emfatisch). Productief in modern formeel/juridisch Nederlands ('geenszins akkoord', 'geenszins toegestaan'). MODERNISATIE.md §2.7 productiviteitstest slaagt; modern equivalent 'beslist niet' verzwakt de Griekse nadrukkelijke ontkenning."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'geenszins' rendert οὐ μή (dubbele ontkenning, emfatisch). Productief in modern formeel/juridisch Nederlands ('geenszins akkoord', 'geenszins toegestaan'). MODERNISATIE.md §2.7 productiviteitstest slaagt; modern equivalent 'beslist niet' verzwakt de Griekse nadrukkelijke ontkenning.",
+      "verified_at": "2026-06-03T08:42:46+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -216,8 +260,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "MAT-10-42-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Idem MRK-9-1-001: 'voorwaar, ik zeg u' = ἀμὴν λέγω ὑμῖν, gestolde SV-bijbelformule. Project-concordant in MRK/LUK. §2.7 niet van toepassing op gefossiliseerde liturgische formules."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Idem MRK-9-1-001: 'voorwaar, ik zeg u' = ἀμὴν λέγω ὑμῖν, gestolde SV-bijbelformule. Project-concordant in MRK/LUK. §2.7 niet van toepassing op gefossiliseerde liturgische formules.",
+      "verified_at": "2026-06-03T08:42:46+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -236,8 +281,9 @@
         42
       ],
       "id": "MAT-10-1-001",
-      "status": "rebutted",
-      "rebuttal": "False-positive prefix-heuristiek: 'discipe' wordt consistent als 'discipel'/'discipelen' weergegeven in alle 5 verzen (v1 'discipelen', v24/25/42 'discipel', v32 kanttekening 'discipelen'). De flag berust op enkelvoud/meervoud-flexie (Gr. μαθητὰς pl. v1 vs μαθητής sg. v24), die grammaticaal getal volgt — geen lexicale drift."
+      "status": "verified",
+      "rebuttal": "False-positive prefix-heuristiek: 'discipe' wordt consistent als 'discipel'/'discipelen' weergegeven in alle 5 verzen (v1 'discipelen', v24/25/42 'discipel', v32 kanttekening 'discipelen'). De flag berust op enkelvoud/meervoud-flexie (Gr. μαθητὰς pl. v1 vs μαθητής sg. v24), die grammaticaal getal volgt — geen lexicale drift.",
+      "verified_at": "2026-06-03T08:42:46+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -254,8 +300,9 @@
         19
       ],
       "id": "MAT-10-1-002",
-      "status": "rebutted",
-      "rebuttal": "False-positive: zelfde werkwoord 'geven', contextueel-correcte diathese per Grieks. v1/v5 actief preteritum 'gaf' (ἔδωκεν aorist actief), v19 passief voltooid deelwoord 'gegeven worden' (δοθήσεται futurum passief). Concordantie eist lexicale consistentie, geen onderdrukking van werkwoordsmodus/-diathese die de Griekse vorm dicteert."
+      "status": "verified",
+      "rebuttal": "False-positive: zelfde werkwoord 'geven', contextueel-correcte diathese per Grieks. v1/v5 actief preteritum 'gaf' (ἔδωκεν aorist actief), v19 passief voltooid deelwoord 'gegeven worden' (δοθήσεται futurum passief). Concordantie eist lexicale consistentie, geen onderdrukking van werkwoordsmodus/-diathese die de Griekse vorm dicteert.",
+      "verified_at": "2026-06-03T08:42:46+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -274,8 +321,9 @@
         39
       ],
       "id": "MAT-10-1-003",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] Concordantie-scanner false-positive: 'deselve' wordt context-specifiek vertaald — v12 'datzelfde uur', v24/v38 anaforisch (verzwegen/'die'), v45 'diezelfde', v48 '[deze]', v49 'in zichzelf'. Allemaal stam 'zelf'; semantische context bepaalt naamval/zelfst.naamwoord-keuze (uur/dienstknecht/ziel/leer). SV-conform: pronominaal vs. attributief vs. reflexief onderscheid bewaard."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] Concordantie-scanner false-positive: 'deselve' wordt context-specifiek vertaald — v12 'datzelfde uur', v24/v38 anaforisch (verzwegen/'die'), v45 'diezelfde', v48 '[deze]', v49 'in zichzelf'. Allemaal stam 'zelf'; semantische context bepaalt naamval/zelfst.naamwoord-keuze (uur/dienstknecht/ziel/leer). SV-conform: pronominaal vs. attributief vs. reflexief onderscheid bewaard.",
+      "verified_at": "2026-06-03T08:42:46+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -294,8 +342,9 @@
         38
       ],
       "id": "MAT-10-10-001",
-      "status": "rebutted",
-      "rebuttal": "False-positive ee→aa-orthografie + idioomgebonden keuze: 'weerdig' (ἄξιος) wordt 'waard' wanneer het een object regeert (v10 'zijn voedsel waard' — Nederlands 'iets waard zijn') en 'waardig' predicatief bij personen (v11/v13/v37/v38 'mij/het niet waardig'). Beide zijn standaard-Nederlandse weergaven van ἄξιος, contextueel-bepaald door het regiment, geen drift."
+      "status": "verified",
+      "rebuttal": "False-positive ee→aa-orthografie + idioomgebonden keuze: 'weerdig' (ἄξιος) wordt 'waard' wanneer het een object regeert (v10 'zijn voedsel waard' — Nederlands 'iets waard zijn') en 'waardig' predicatief bij personen (v11/v13/v37/v38 'mij/het niet waardig'). Beide zijn standaard-Nederlandse weergaven van ἄξιος, contextueel-bepaald door het regiment, geen drift.",
+      "verified_at": "2026-06-03T08:42:46+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -312,8 +361,9 @@
         32
       ],
       "id": "MAT-10-16-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] Concordantie-prefix 'gelijck' false-match: v16 'καθὼς' (zoals) v21 'καθὼς' (zoals) v70 'καὶ ἡ λαλιά σου ὁμοιάζει' (= 'uw spraak lijkt erop'). v70 vertaalt ander Grieks lemma (ὁμοιάζω, vergelijken/lijken), niet καθώς — daarom andere rendering ('lijkt') terecht."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] Concordantie-prefix 'gelijck' false-match: v16 'καθὼς' (zoals) v21 'καθὼς' (zoals) v70 'καὶ ἡ λαλιά σου ὁμοιάζει' (= 'uw spraak lijkt erop'). v70 vertaalt ander Grieks lemma (ὁμοιάζω, vergelijken/lijken), niet καθώς — daarom andere rendering ('lijkt') terecht.",
+      "verified_at": "2026-06-03T08:42:46+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -330,8 +380,9 @@
         39
       ],
       "id": "MAT-10-32-001",
-      "status": "rebutted",
-      "rebuttal": "False-positive: 'verlooc'→'verloochen' consistent in alle 3 verzen (v33 finiet 'verloochenen' Gr. ἀρνέομαι; v32/v39 nominaal/infinitief in kanttekening: 'verloochenen'/'verloochening'). De morfologische vorm varieert met de syntactische rol (kanttekening-glosse die belijden↔verloochenen contrasteert), het lexeem is identiek."
+      "status": "verified",
+      "rebuttal": "False-positive: 'verlooc'→'verloochen' consistent in alle 3 verzen (v33 finiet 'verloochenen' Gr. ἀρνέομαι; v32/v39 nominaal/infinitief in kanttekening: 'verloochenen'/'verloochening'). De morfologische vorm varieert met de syntactische rol (kanttekening-glosse die belijden↔verloochenen contrasteert), het lexeem is identiek.",
+      "verified_at": "2026-06-03T08:42:46+00:00"
     }
   ]
 }
