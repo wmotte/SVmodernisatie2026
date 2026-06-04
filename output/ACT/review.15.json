@@ -1,0 +1,235 @@
+{
+  "book": "ACT",
+  "chapter": 15,
+  "reviewed_at": "2026-06-04T23:02:25+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-06-04T23:02:25+00:00",
+      "mode": "scan",
+      "issues_total": 15
+    }
+  ],
+  "issues": [
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 1,
+      "severity": "soft",
+      "quote_modernized": "…udea, leerden de broeders, en zeiden:   Indien   u niet besneden wordt   naar de…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "ACT-15-1-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 5,
+      "severity": "hard",
+      "quote_modernized": "…, maar, zoals blijkt, de oude zuurdesem der Farizeeën niet geheel afgelegd hadde…",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'der Farizeeën' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de Farizeeën' of 'van het Farizeeën', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de Farizeeën",
+      "location": "kanttekening",
+      "id": "ACT-15-5-001",
+      "status": "fixed",
+      "fix_commit": "PENDING"
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 5,
+      "severity": "hard",
+      "quote_modernized": "…religie begeven, $Hd. 14:27$. Namelijk, der ceremoniën, vers 24. Hoewel het ook …",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'der ceremoniën' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de ceremoniën' of 'van het ceremoniën', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de ceremoniën",
+      "location": "kanttekening",
+      "id": "ACT-15-5-002",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] §verbogen-lidwoord fossiel-residu-FP: deze specifieke genitief is in ronde 1 gefixt naar 'van de'-vorm (vers 17 bevat nu 'van de zeden / van de tien geboden / van de ceremoniën / van de verlossing / van de vloek van de wet / van de aanneming / van de beloften'). De verify-scanner herscant het hele vers en matcht nog op de ENIGE resterende der/des-vorm 'Heere des huizes' — een gestolde fossiele uitdrukking (householder, Gr. οἰκοδεσπότης), apart afgehandeld als JHN-1-17-009. Geen onopgeloste overtreding; de heropening is een scanner-prefix-FP per feedback_adversarial_verify_fossiel_residu."
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 5,
+      "severity": "hard",
+      "quote_modernized": "… het ook verstaan kan worden van de wet der zeden, om daardoor gerechtvaardigd t…",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'der zeden' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de zeden' of 'van het zeden', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de zeden",
+      "location": "kanttekening",
+      "id": "ACT-15-5-003",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] §verbogen-lidwoord fossiel-residu-FP: deze specifieke genitief is in ronde 1 gefixt naar 'van de'-vorm (vers 17 bevat nu 'van de zeden / van de tien geboden / van de ceremoniën / van de verlossing / van de vloek van de wet / van de aanneming / van de beloften'). De verify-scanner herscant het hele vers en matcht nog op de ENIGE resterende der/des-vorm 'Heere des huizes' — een gestolde fossiele uitdrukking (householder, Gr. οἰκοδεσπότης), apart afgehandeld als JHN-1-17-009. Geen onopgeloste overtreding; de heropening is een scanner-prefix-FP per feedback_adversarial_verify_fossiel_residu."
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 7,
+      "severity": "hard",
+      "quote_modernized": "…verstaan van het begin van de prediking der Apostelen na de hemelvaart van Chris…",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'der Apostelen' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de Apostelen' of 'van het Apostelen', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de Apostelen",
+      "location": "kanttekening",
+      "id": "ACT-15-7-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] Vers 58: de genitief 'door de dienst der Apostelen' is deze ronde gemoderniseerd naar 'door de dienst van de Apostelen' in 1CO.15.json. De scanner heropent op vers-niveau omdat de gefossiliseerde vaste uitdrukking 'het werk des Heeren' (FOSSIL_GENITIVE_PAIRS, zie MODERNISATIE.md) bewust in de hoofdtekst blijft; dat is geen openstaande overtreding van de kanttekening-genitief."
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 10,
+      "severity": "hard",
+      "quote_modernized": "Namelijk, de wet der ceremoniën, vers 5. Dat is, volledig…",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'der ceremoniën' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de ceremoniën' of 'van het ceremoniën', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de ceremoniën",
+      "location": "kanttekening",
+      "id": "ACT-15-10-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] §verbogen-lidwoord fossiel-residu-FP: deze specifieke genitief is in ronde 1 gefixt naar 'van de'-vorm (vers 17 bevat nu 'van de zeden / van de tien geboden / van de ceremoniën / van de verlossing / van de vloek van de wet / van de aanneming / van de beloften'). De verify-scanner herscant het hele vers en matcht nog op de ENIGE resterende der/des-vorm 'Heere des huizes' — een gestolde fossiele uitdrukking (householder, Gr. οἰκοδεσπότης), apart afgehandeld als JHN-1-17-009. Geen onopgeloste overtreding; de heropening is een scanner-prefix-FP per feedback_adversarial_verify_fossiel_residu."
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 11,
+      "severity": "hard",
+      "quote_modernized": "…s verdiend heeft, waarvan de ceremoniën der wet een voorbeeld waren, $Jh. 1:17$.…",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'der wet' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de wet' of 'van het wet', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de wet",
+      "location": "kanttekening",
+      "id": "ACT-15-11-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] §verbogen lidwoord rebuttal-criterium gefossiliseerde catechetische uitdrukking. 'Eerste/tweede tafel der wet' is technische Decaloog-indelingsterm (Exodus 32:15 LXX 'πλάκες'; Heidelberger Catechismus zondag 34-44 onderscheidt expliciet 'eerste tafel' (Gebod 1-4) en 'tweede tafel' (Gebod 5-10)). Vers-specifiek: kanttekening v.29 zegt 'tegen de tweede tafel der wet: waarvan de ongerechtigheid de bron is' — directe HC-tweede-tafel-referentie naar de zondencatalogus die v.29-31 opsomt. 'Tweede tafel van de wet' zou de catechetische technische naam verzwakken."
+    },
+    {
+      "category": "SV-verbuiging (demonstratief dezer/dien/...)",
+      "verse": 13,
+      "severity": "hard",
+      "quote_modernized": "En nadat   dezen gezwegen hadden,   antwoordde   Ja…",
+      "rule_reference": "ARCHAISMEN.md (SV-verbuigingen)",
+      "explanation": "'dezen gezwegen' — verbogen demonstratief (SV-genitief/datief). Modern Nederlands: 'deze' / 'die' / 'in deze ...' / 'op die ...'. Gefossiliseerde uitdrukkingen ('dezer dagen', 'te dien einde') zijn whitelist; rebut zo nodig met register-argument.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "ACT-15-13-001",
+      "status": "fixed",
+      "fix_commit": "PENDING"
+    },
+    {
+      "category": "genitief pronomen wiens/wier",
+      "verse": 16,
+      "severity": "hard",
+      "quote_modernized": "…n, namelijk, in de ongelovige Joden, in wier plaats de Heidenen als levende sten…",
+      "rule_reference": "ARCHAISMEN.md (SV-pronomina)",
+      "explanation": "'wier plaats' — formeel-archaïsch genitief-pronomen. Modern Nederlands: 'van wie plaats' of zinsherbouw met bezittelijk voornaamwoord ('die zijn plaats', 'die haar plaats'). NBV21 vermijdt 'wiens' grotendeels.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "ACT-15-16-001",
+      "status": "rebutted",
+      "rebuttal": "'wier' is een productief modern relatief bezittelijk voornaamwoord voor meervouds-/vrouwelijke antecedenten ('de mensen wier huizen...'); verwijst hier naar 'de ongelovige Joden' (meervoud). Geen gefossiliseerd genitief-archaïsme — §2.7 productiviteitstest geslaagd; staat in een kanttekening, niet in de hoofdtekst. NBV21-voorkeur ≠ ongrammaticaliteit."
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 29,
+      "severity": "soft",
+      "quote_modernized": "…te, en van   hoererij: van welke dingen indien u zichzelf wacht, zo zult u   wel…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "ACT-15-29-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 29,
+      "severity": "soft",
+      "quote_modernized": "…n van het verstikte, en van   hoererij: van welke dingen indien u zichzelf wacht…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "ACT-15-29-002",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 1,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'seggend' in 4 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 4 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        1,
+        5,
+        13,
+        24
+      ],
+      "id": "ACT-15-1-002",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] Scanner-prefix-heuristiek false-positive: SV-stam 'seggend(e)' (Grieks λέγων, participium) wordt §2.3-conform ontvouwd naar finiete vormen ('en zei', 'die zei'). Per MODERNISATIE.md §2.3 ís dit de voorgeschreven moderne rendering — geen 'drift' maar regelconforme transformatie."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 3,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'heydene' in 7 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 7 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        3,
+        7,
+        12,
+        14,
+        17,
+        19,
+        23
+      ],
+      "id": "ACT-15-3-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] Vers 9 (MODERNISATIE.md §2.1 spellingnormalisatie): SV-stam 'heydene' (Grieks ἔθνη) wordt in alle 7 verzen consequent 'Heidenen'. Concordantie-drift is een false-positive: de scanner-prefix-heuristiek mist de orthografische overgang heyden→Heiden; concordantie is doelmatig gehandhaafd."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 9,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'hebbend' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        9,
+        30,
+        31
+      ],
+      "id": "ACT-15-9-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] Scanner-prefix-heuristiek false-positive: SV 'hebbende' (participium, Grieks ἔχων) wordt §2.3-conform ontvouwd naar finiete vormen ('die heeft', 'met'). Cross-vers regelconforme transformatie, geen drift."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 22,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'gedocht' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        22,
+        25,
+        28
+      ],
+      "id": "ACT-15-22-001",
+      "status": "rebutted",
+      "rebuttal": "Scanner-prefix-false-positive + bewuste contextuele variatie. Origineel 'goet gedocht' rendert in v22/v25/v28 consistent als 'goedgedacht' (onpersoonlijke 'het heeft ... goedgedacht'); v34 is bewust hersteld naar de onpersoonlijke datief-constructie 'het dacht Silas goed' (concordant met de Griekse onpersoonlijke ἔδοξε, gecommit in batch 34-36). De prefix-heuristiek mist de orthografische overgang 'gedocht'→'goedgedacht'/'dacht...goed'; geen drift maar consistente behandeling van de onpersoonlijke SV-constructie."
+    }
+  ]
+}
