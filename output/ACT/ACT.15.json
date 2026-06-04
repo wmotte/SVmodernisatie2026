@@ -61,6 +61,39 @@
       "generated_at": "2026-06-04T21:52:21.849506Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 7,
+      "original": "Ende als [daer over] groote <Gr. t’samenvraginge, D. disputeeringe, namelick, tusschen beyde partijen, die alle beyde moeten gehoort worden.> twistinge geschiedde, stont Petrus op ende seyde tot haer, $Actor. 10.20. ende 11.12.$ Mannen broeders, ghy weet dat Godt van <Gr. van oude dagen: welcken tijt sommige verstaen van ’t begin der predicatie der Apostelen na de hemelvaert Christi: andere van den tijt der bekeeringe Cornelij, Actor. cap. 10.> over langen tijt onder ons [my] verkoren heeft, dat de Heydenen door mijnen mont het woort des Euangeliums souden hooren, ende gelooven.",
+      "modernized": "En toen [daarover] grote <Grieks: gezamenlijke bevraging, dat is, disputeren, namelijk, tussen beide partijen, die beide gehoord moeten worden.> twist ontstond, stond Petrus op en zei tot hen, $Hd. 10:20; 11:12$ Mannen broeders, u weet dat God van <Grieks: van oude dagen: welke tijd sommigen verstaan van het begin van de prediking der Apostelen na de hemelvaart van Christus; anderen van de tijd van de bekering van Cornelius, Handelingen hoofdstuk 10.> lang geleden onder ons [mij] verkoren heeft, dat de Heidenen door mijn mond het woord van het Evangelie zouden horen en geloven.",
+      "source_text": "πολλῆς δὲ συζητήσεως γενομένης, ἀναστὰς Πέτρος εἶπε πρὸς αὐτούς, Ἄνδρες ἀδελφοί, ὑμεῖς ἐπίστασθε ὅτι ἀφ’ ἡμερῶν ἀρχαίων ὁ Θεὸς ἐν ἡμῖν ἐξελέξατο, διὰ τοῦ στόματός μου ἀκοῦσαι τὰ ἔθνη τὸν λόγον τοῦ εὐαγγελίου, καὶ πιστεῦσαι.",
+      "generated_at": "2026-06-04T21:56:53.751831Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 8,
+      "original": "Ende Godt $1.Paral. 28.9. ende 29.17. Psalm 7.10. Ierem. 11.20. ende 17.10. ende 20.12.$ de kenner der herten heeft haer <Namelick, dat sy hem oock aengenaem waren, Actor. cap. 10. vers 28.> getuygenisse gegeven, haer gevende <D. de gaven des Heyligen Geests, soo ordinarise, als extra-ordinarise.> den Heyligen Geest gelijck als oock ons.",
+      "modernized": "En God $1Kr. 28:9; 29:17; Ps. 7:10; Jr. 11:20; 17:10; 20:12$ de kenner van de harten heeft hun <Namelijk, dat zij hem ook aangenaam waren, $Hd. 10:28$.> getuigenis gegeven, door hun <Dat is, de gaven van de Heilige Geest, zowel de gewone als de buitengewone.> de Heilige Geest te geven, evenals ook ons.",
+      "source_text": "καὶ ὁ καρδιογνώστης Θεὸς ἐμαρτύρησεν αὐτοῖς, δοὺς αὐτοῖς τὸ Πνεῦμα τὸ Ἅγιον, καθὼς καὶ ἡμῖν·",
+      "generated_at": "2026-06-04T21:57:36.653223Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 9,
+      "original": "$Act. 10.43, 44, etc.$ Ende en heeft <Nam. aengaende de weldaden ende gaven die gemeyn zijn den genen die Christum gelooven.> geen onderscheyt gemaeckt tusschen ons ende haer, gereynight hebbende hare herten door het geloove.",
+      "modernized": "$Hd. 10:43,44$ En heeft <Namelijk, aangaande de weldaden en gaven die gemeenschappelijk zijn aan hen die in Christus geloven.> geen onderscheid gemaakt tussen ons en hen, nadat hij hun harten door het geloof gereinigd had.",
+      "notes": [
+        {
+          "type": "afwijking",
+          "reason": "Kanttekening 'gemeen' (SV 'gemeyn' = gemeenschappelijk/algemeen) is false friend (modern 'gemeen' = vulgair); gecorrigeerd naar 'gemeenschappelijk' conform 1JOH 2:18 / 1PET 5:5."
+        }
+      ],
+      "source_text": "καὶ οὐδὲν διέκρινε μεταξὺ ἡμῶν τε καὶ αὐτῶν, τῇ πίστει καθαρίσας τὰς καρδίας αὐτῶν.",
+      "generated_at": "2026-06-04T21:58:16.945967Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
