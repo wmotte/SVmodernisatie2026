@@ -323,6 +323,42 @@
       "generated_at": "2026-06-04T22:42:46.623847Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 34,
+      "original": "Maer het docht Sile goet aldaer te blijven.",
+      "modernized": "Maar het dacht Silas goed daar te blijven.",
+      "source_text": "ἔδοξε δὲ τῷ Σίλᾳ ἐπιμεῖναι αὐτοῦ.",
+      "generated_at": "2026-06-04T22:46:36.194437Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "Silas vond het goed -> het dacht Silas goed",
+          "context": "hoofdtekst",
+          "choice": "het dacht Silas goed",
+          "reason": "Onpersoonlijke SV-constructie 'het docht Sile goet' (Gr. edoxe to Sila, datief-experiencer) gepromoveerd naar persoonlijk subject is dynamische equivalentie; concordant met v22/v25/v28 in dit hoofdstuk (overal 'het ... goedgedacht'). HSV-spiegel bevestigt onpersoonlijke vorm."
+        }
+      ]
+    },
+    {
+      "verse_number": 35,
+      "original": "Ende Paulus ende Barnabas <Gr. versleten daer, namelick, den tijt.> onthielden haer tot Antiochien, leerende ende <Gr. Euangelizeerende.> verkondigende met noch vele andere het woort des Heeren.",
+      "modernized": "En Paulus en Barnabas <Grieks: sleten daar, namelijk, de tijd.> verbleven te Antiochië, en zij leerden en <Grieks: Evangeliseren.> verkondigden met nog vele anderen het woord van de Heere.",
+      "source_text": "Παῦλος δὲ καὶ Βαρνάβας διέτριβον ἐν Ἀντιοχείᾳ, διδάσκοντες καὶ εὐαγγελιζόμενοι, μετὰ καὶ ἑτέρων πολλῶν, τὸν λόγον τοῦ Κυρίου.",
+      "generated_at": "2026-06-04T22:47:51.980840Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 36,
+      "original": "Ende na eenige dagen seyde Paulus tot Barnabam, Laet ons nu weder keeren, ende besoecken onse broeders in elcke stadt, in welcke wy het woort des Heeren verkondight hebben, <D. om te vernemen hoe het met haer staet, aengaende het geloove.> hoe sy haer hebben.",
+      "modernized": "En na enige dagen zei Paulus tot Barnabas: Laat ons nu terugkeren en onze broeders bezoeken in elke stad waarin wij het woord van de Heere verkondigd hebben, <Dat is, om te vernemen hoe het met hen gesteld is, aangaande het geloof.> hoe zij eraan toe zijn.",
+      "source_text": "Μετὰ δέ τινας ἡμέρας εἶπε Παῦλος πρὸς Βαρνάβαν, Ἐπιστρέψαντες δὴ ἐπισκεψώμεθα τοὺς ἀδελφοὺς ἡμῶν κατὰ πᾶσαν πόλιν, ἐν αἷς κατηγγείλαμεν τὸν λόγον τοῦ Κυρίου, πῶς ἔχουσι.",
+      "generated_at": "2026-06-04T22:48:26.181138Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
