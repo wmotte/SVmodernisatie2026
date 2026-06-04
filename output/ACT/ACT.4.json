@@ -34,6 +34,45 @@
       "generated_at": "2026-06-04T15:56:37.913966Z",
       "model": "claude-opus-4-8[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 4,
+      "original": "Ende vele van de gene die <D. de predicatie Petri van Christo, Actor. 3.12.> het woort gehoort hadden, <Namel. dat Iesus de Nazarener de ware Messias ende hare Salighmaker was.> geloofden: ende het getal der mannen wiert ontrent <Nam. ofte daer inne gereeckent de drie duysent, Actor. 2.41. of boven deselve noch vijf duysent.> vijf duysent.",
+      "modernized": "En velen van degenen die <Dat is, de prediking van Petrus over Christus, $Hd. 3:12$.> het woord gehoord hadden, <Namelijk, dat Jezus de Nazarener de ware Messias en hun Zaligmaker was.> geloofden; en het getal van de mannen werd ongeveer <Namelijk, of daarbij gerekend de drieduizend, $Hd. 2:41$, of daarboven nog vijfduizend.> vijfduizend.",
+      "source_text": "πολλοὶ δὲ τῶν ἀκουσάντων τὸν λόγον ἐπίστευσαν· καὶ ἐγενήθη ὁ ἀριθμὸς τῶν ἀνδρῶν ὡσεὶ χιλιάδες πέντε.",
+      "generated_at": "2026-06-04T16:00:41.716495Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 5,
+      "original": "Ende ’t geschiedde des anderen daeghs dat hare <Dese schijnen geweest te zijn de voornaemste hoofden van den grooten Raet Sanhedrin genaemt, bestaende niet alleen uyt Priesters, maer oock uyt andre voornaemste des volcks, voornamelick uyt Schriftgeleerde, ofte Wetgeleerde. Siet. vers 15.> Overste, ende Ouderlingen ende Schriftgeleerde <Namelick, zijnde, ofte, uyt andere plaetsen te Ierusalem ontboden zijnde.> te Ierusalem vergaderden:",
+      "modernized": "En het geschiedde op de volgende dag dat hun <Dezen schijnen geweest te zijn de voornaamste hoofden van de grote Raad, Sanhedrin genaamd, die niet alleen uit Priesters bestond, maar ook uit andere voornaamsten van het volk, voornamelijk uit Schriftgeleerden of Wetgeleerden. Zie vers 15.> Oversten, en Ouderlingen en Schriftgeleerden <Namelijk, die er waren, of die uit andere plaatsen naar Jeruzalem ontboden waren.> te Jeruzalem bijeenkwamen:",
+      "source_text": "Ἐγένετο δὲ ἐπὶ τὴν αὔριον συναχθῆναι αὐτῶν τοὺς ἄρχοντας καὶ πρεσβυτέρους καὶ γραμματεῖς εἰς Ἱερουσαλήμ,",
+      "generated_at": "2026-06-04T16:01:22.541342Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 6,
+      "original": "Ende <Van desen Annas, als oock van Cajaphas, siet Luce c. 3. vers 2. Ioan. 11. vers 49. ende 18.13.> Annas de Hoogepriester, ende Cajaphas, ende <Dese was een van de vijf sonen van Annas, andersins oock Ionathas genaemt. siet Ioseph. de bell. lib. 2. cap. 25.> Ioannes, ende <Sommige meynen dat dese soude zijn die Alexander van welcken Iosephus gewagh maeckt, Antiq. lib. 20. cap. 3. om dat hy oock van Ioodsche afkomste was: doch alsoo deselve Stadthouder van Iudea was, soo en is het niet waerschijnlick, dat hy Hoogepriester is geweest.> Alexander, ende soo vele daer van <Het welck verstaen kan worden ofte van sulcke die afkomstigh waren van Hoogepriesters, ofte van Overpriesters, dat is, van de Hoofden der Priesters, die in dagh-ordens verdeelt waren, 1.Chro. c. 24. vers 1. Luce 1. vers 5.> het Hoogepriesterlick geslachte waren.",
+      "modernized": "En <Over dezen Annas, alsook over Kajafas, zie $Lk. 3:2; Jh. 11:49; 18:13$.> Annas de Hogepriester, en Kajafas, en <Deze was een van de vijf zonen van Annas, anders ook Jonathas genaamd; zie Josephus, De bello Iudaico, lib. 2. cap. 25.> Johannes, en <Sommigen menen dat dit die Alexander zou zijn van wie Josephus gewag maakt, Antiquitates lib. 20. cap. 3., omdat hij ook van Joodse afkomst was; maar aangezien die Stadhouder van Judea was, is het niet waarschijnlijk dat hij Hogepriester is geweest.> Alexander, en zo velen daarvan <Dit kan verstaan worden ofwel van zulken die afkomstig waren van Hogepriesters, ofwel van Overpriesters, dat is, van de Hoofden van de Priesters, die in dienstbeurten verdeeld waren, $1Kr. 24:1; Lk. 1:5$.> van het Hogepriesterlijke geslacht waren.",
+      "source_text": "καὶ Ἄνναν τὸν ἀρχιερέα, καὶ Καϊάφαν, καὶ Ἰωάννην, καὶ Ἀλέξανδρον, καὶ ὅσοι ἦσαν ἐκ γένους ἀρχιερατικοῦ.",
+      "generated_at": "2026-06-04T16:02:29.183310Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "subject": "Josephus-citaten",
+          "context": "kanttekeningen 2 en 3",
+          "choice": "De bello Iudaico / Antiquitates als proza behouden (lib./cap.), niet als bijbelref genormaliseerd",
+          "alternatives": [
+            "latijnse titel inkorten"
+          ],
+          "reason": "Het zijn klassieke bronverwijzingen naar Flavius Josephus, geen bijbelverwijzingen; bibref laat ze terecht ongemoeid"
+        }
+      ]
     }
   ]
 }
