@@ -518,6 +518,45 @@
       "generated_at": "2026-06-04T20:33:43.579480Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 52,
+      "original": "Ende hy seyde tot haer: Daerom een yegelick Schriftgeleerde <Of, tot, D. een verstandigh ende geoeffent man in de Schrifture, een Leeraer, gelijck Esdras was. Siet Ezra 7. versen 6, 11.> in het Koninckrijck der hemelen onderwesen, is ge-lijck een heere des huys, die uyt sijnen <Of, voorraet.> schat nieuwe ende oude dingen voortbrenght.",
+      "modernized": "En hij zei tot hen: Daarom is ieder Schriftgeleerde <Of, tot, dat is, een verstandig en geoefend man in de Schrift, een Leraar, zoals Ezra was. Zie $Ea. 7:6,11$.> in het Koninkrijk der hemelen onderwezen, gelijk aan een heer des huizes, die uit zijn <Of, voorraad.> schat nieuwe en oude dingen voortbrengt.",
+      "source_text": "ὁ δὲ εἶπεν αὐτοῖς, Διὰ τοῦτο πᾶς γραμματεὺς μαθητευθεὶς εἰς τὴν βασιλείαν τῶν οὐρανῶν ὅμοιός ἐστιν ἀνθρώπῳ οἰκοδεσπότῃ, ὅστις ἐκβάλλει ἐκ τοῦ θησαυροῦ αὐτοῦ καινὰ καὶ παλαιά.",
+      "generated_at": "2026-06-04T20:39:45.298406Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 53,
+      "original": "$Marc. 6.1. Luce 4.16.$ Ende het is geschiet als Iesus dese gelijckenissen ge-eyndight hadde, vertrock hy van daer.",
+      "modernized": "$Mk. 6:1; Lk. 4:16$ En het is gebeurd, toen Jezus deze gelijkenissen geëindigd had, dat hij vandaar vertrok.",
+      "source_text": "Καὶ ἐγένετο ὅτε ἐτέλεσεν ὁ Ἰησοῦς τὰς παραβολὰς ταύτας, μετῆρεν ἐκεῖθεν·",
+      "generated_at": "2026-06-04T20:40:18.501271Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 54,
+      "original": "Ende gekomen zijnde in sijn <Namel. Nazareth, daer hy opgevoedt was, ende sijne vrienden woonden. siet Luce 4.16.> vaderlant leerde hyse in hare Synagoge, soo dat sy haer ontsetteden, ende seyden, $Marc. 6.2.$ Van waer [komt] desen die wijsheyt ende die krachten.",
+      "modernized": "En toen hij in zijn <Namelijk, Nazareth, waar hij opgevoed was, en zijn vrienden woonden. Zie $Lk. 4:16$.> vaderland gekomen was, onderwees hij hen in hun Synagoge, zodat zij versteld stonden en zeiden: $Mk. 6:2$ Vanwaar [komt] deze die wijsheid en die krachten?",
+      "source_text": "καὶ ἐλθὼν εἰς τὴν πατρίδα αὐτοῦ ἐδίδασκεν αὐτοὺς ἐν τῇ συναγωγῇ αὐτῶν, ὥστε ἐκπλήττεσθαι αὐτοὺς καὶ λέγειν, Πόθεν τούτῳ ἡ σοφία αὕτη καὶ αἱ δυνάμεις;",
+      "generated_at": "2026-06-04T20:40:55.646849Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "haer ontsetteden -> versteld stonden (Gr. ekplessomai)",
+          "context": "hoofdtekst",
+          "choice": "versteld stonden",
+          "alternatives": [
+            "zich ontzetten"
+          ],
+          "reason": "Modern 'zich ontzetten' = bevrijden/met afschuw vervullen, niet ekplessomai (verbaasd/versteld zijn); false friend. Concordant met de directe synoptische parallel $Mk. 6:2$ ('ontsetteden haer' -> 'stonden versteld') en met $Mt. 7:28; Mk. 1:22; Lk. 4:32; Lk. 9:43$, die dezelfde SV-'ontsetten' steeds als 'versteld staan' weergeven; HSV-spiegel bevestigt ('versteld stonden')."
+        }
+      ]
     }
   ]
 }
