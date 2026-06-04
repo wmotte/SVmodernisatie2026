@@ -88,6 +88,51 @@
       "generated_at": "2026-06-04T16:04:16.298299Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 10,
+      "original": "$Marc. 4.10. Luce 8.9.$ Ende de discipelen tot hem komende seyden tot hem, Waerom spreeckt ghy tot haer door gelijckenissen?",
+      "modernized": "$Mk. 4:10; Lk. 8:9$ En de discipelen kwamen tot hem en zeiden tot hem: Waarom spreekt u tot hen door gelijkenissen?",
+      "source_text": "Καὶ προσελθόντες οἱ μαθηταὶ εἶπον αὐτῷ, Διατί ἐν παραβολαῖς λαλεῖς αὐτοῖς;",
+      "generated_at": "2026-06-04T16:08:29.217781Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 11,
+      "original": "Ende hy antwoordende seyde tot haer, $2.Corinth. 3.14.$ Om dat het u <Namelick, van Gode, uyt genade, na sijn welbehagen, Galat. c. 1. vers 15. Matth. 16.17.> gegeven is, de verborgentheden des Koninckrijcks der hemelen te weten, maer $Matth. 11.25.$ dien en is t <Want het Euangelium is bedeckt den genen die verloren gaen, 2.Cor. 4. vers 3.> niet gegeven.",
+      "modernized": "En hij antwoordde en zei tot hen: $2Kor. 3:14$ Omdat het u <Namelijk, van God, uit genade, naar zijn welbehagen, $Gl. 1:15; Mt. 16:17$.> gegeven is, de verborgenheden van het Koninkrijk der hemelen te weten, maar $Mt. 11:25$ aan hen is het <Want het Evangelie is bedekt voor hen die verloren gaan, $2Kor. 4:3$.> niet gegeven.",
+      "source_text": "ὁ δὲ ἀποκριθεὶς εἶπεν αὐτοῖς ὅτι Ὑμῖν δέδοται γνῶναι τὰ μυστήρια τῆς βασιλείας τῶν οὐρανῶν, ἐκείνοις δὲ οὐ δέδοται.",
+      "generated_at": "2026-06-04T16:11:13.777072Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "subject": "bibref c.-token in kanttekening",
+          "context": "kanttekening 1",
+          "choice": "c. handmatig naar cap. omgezet vóór bibref-normalisatie",
+          "reason": "bibref.py normaliseert losse \"Galat. c. 1. vers 15\" niet (alleen cap.-token), waardoor de ref ongewrapt bleef; omzetting naar cap. levert correcte $Gl. 1:15$"
+        }
+      ]
+    },
+    {
+      "verse_number": 12,
+      "original": "$Matth. 25.29. Marc. 4.24, 25. Luce 8.18. ende 19.26.$ Want wie <Namel. de beginselen des Salighmakenden geloofs, ende deselve door de kracht des H. Geests waer neemt.> heeft, dien sal gegeven worden, ende hy sal overvloedelick hebben: maer wie niet en heeft, van dien sal genomen worden oock <D. het gene hy meynt ofte schijnt te hebben. Gelijck Lucas verklaert Cap. 8. vers 18. Siet oock Matth. 25.29.> dat hy heeft.",
+      "modernized": "$Mt. 25:29; Mk. 4:24,25; Lk. 8:18; 19:26$ Want wie <Namelijk, de beginselen van het zaligmakende geloof, en die door de kracht van de Heilige Geest waarneemt.> heeft, hem zal gegeven worden, en hij zal overvloedig hebben; maar wie niet heeft, van die zal genomen worden ook <Dat is, wat hij meent of schijnt te hebben. Zoals Lucas verklaart $Lk. 8:18$ Zie ook $Mt. 25:29$.> wat hij heeft.",
+      "source_text": "ὅστις γὰρ ἔχει, δοθήσεται αὐτῷ καὶ περισσευθήσεται· ὅστις δὲ οὐκ ἔχει, καὶ ὃ ἔχει, ἀρθήσεται ἀπ’ αὐτοῦ.",
+      "generated_at": "2026-06-04T16:12:04.314304Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "subject": "impliciete boeknaam in kanttekening-ref",
+          "context": "kanttekening 2",
+          "choice": "\"Lucas verklaart Cap. 8. vers 18\" als $Lk. 8:18$ genormaliseerd",
+          "reason": "origineel noemt het boek in proza (\"Lucas\") zonder herhaling bij de Cap.-ref; book-context expliciet meegegeven aan bibref zodat de losse ref correct wrapt"
+        }
+      ]
     }
   ]
 }
