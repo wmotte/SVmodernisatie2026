@@ -354,6 +354,27 @@
           "reason": "ARCHAISMEN.md:78: SV-imperatief-meervoud op -t harmoniseert naar de stam. Hoofdstuk-concordantie met v17/v19/v20/v26/v28. Lukaanse parallel LUK 12:31 idem. HSV-spiegel bevestigt (zoek)."
         }
       ]
+    },
+    {
+      "verse_number": 34,
+      "original": "Zijt dan niet besorght tegen den morgen: want de morgen sal voor het sijne sorgen, [elcken] dagh heeft genoegh aen <Dat is, quellinge, bekommernisse, ende swarigheyt, die op elcken dagh voor valt.> sijn selfs quaet.",
+      "modernized": "Wees dan niet bezorgd voor de dag van morgen; want de morgen zal voor het zijne zorgen, [elke] dag heeft genoeg aan <Dat is, kwelling, bekommernis en zwarigheid, die op elke dag voorvalt.> zijn eigen kwaad.",
+      "source_text": "μὴ οὖν μεριμνήσητε εἰς τὴν αὔριον· ἡ γὰρ αὔριον μεριμνήσει τὰ ἑαυτῆς. ἀρκετὸν τῇ ἡμέρᾳ ἡ κακία αὐτῆς.",
+      "generated_at": "2026-06-04T15:07:08.752162Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "imperatief-meervoud -t",
+          "context": "hoofdtekst",
+          "choice": "wees (stam)",
+          "alternatives": [
+            "weest"
+          ],
+          "reason": "ARCHAISMEN.md:78: SV-imperatief-meervoud op -t harmoniseert naar de stam. Hoofdstuk-concordantie met v31 (wees). HSV-spiegel bevestigt (Wees dan niet bezorgd)."
+        }
+      ]
     }
   ]
 }
