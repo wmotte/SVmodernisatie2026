@@ -376,6 +376,46 @@
       "generated_at": "2026-06-04T20:13:08.773404Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 40,
+      "original": "Gelijckerwijs dan het onkruyt vergadert, ende met vyer verbrant wort, alsoo sal het [oock] zijn in de voleyndinge deser werelt.",
+      "modernized": "Zoals dan het onkruid verzameld en met vuur verbrand wordt, zo zal het [ook] zijn in de voleinding van deze wereld.",
+      "source_text": "ὥσπερ οὖν συλλέγεται τὰ ζιζάνια καὶ πυρὶ κατακαίεται, οὕτως ἔσται ἐν τῇ συντελείᾳ τοῦ αἰῶνος τούτου.",
+      "generated_at": "2026-06-04T20:16:34.425523Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 41,
+      "original": "De Sone des menschen sal sijne Engelen uytsenden, ende sy sullen uyt sijn Koninckrijck vergaderen alle <D. menschen die een ergerlick leven geleyt hebben.> de ergernissen, ende de gene die de ongerechtigheyt doen:",
+      "modernized": "De Zoon des mensen zal zijn Engelen uitzenden, en zij zullen uit zijn Koninkrijk verzamelen alle <Dat is, mensen die een ergerlijk leven geleid hebben.> struikelblokken, en degenen die de ongerechtigheid doen:",
+      "source_text": "ἀποστελεῖ ὁ Υἱὸς τοῦ ἀνθρώπου τοὺς ἀγγέλους αὐτοῦ, καὶ συλλέξουσιν ἐκ τῆς βασιλείας αὐτοῦ πάντα τὰ σκάνδαλα καὶ τοὺς ποιοῦντας τὴν ἀνομίαν,",
+      "generated_at": "2026-06-04T20:17:33.333945Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "ergernissen → struikelblokken (Gr. σκάνδαλα)",
+          "context": "hoofdtekst",
+          "choice": "struikelblokken",
+          "alternatives": [
+            "ergernissen",
+            "aanstoten"
+          ],
+          "reason": "Modern 'ergernis' = irritatie, niet σκάνδαλον (struikelblok/aanstoot); false friend (lint_false_friends). Concordant met REV 14:17-kanttekening (kruisverwijzing naar Mt. 13:41,42) die 'de ergernissen' al als 'de struikelblokken' weergeeft, en met HSV-spiegel. Vgl. beslissing 1JOH 2:10 (σκάνδαλον → aanstoot)."
+        }
+      ]
+    },
+    {
+      "verse_number": 42,
+      "original": "Ende sullen deselve in den <Gr. oven des vyers, D. de helle. Het schijnt dat in dese wijse van spreken gesien wort op de grouwelicke straffen des vyers, die eertijts gebruyckelick waren. siet Dan. 3. vers 6.> vyerigen oven werpen: $Matth. 8.12. ende 22.13. ende 24.51. ende 25.30. Luce 13.28.$ daer sal weeninge zijn ende knersinge der tanden.",
+      "modernized": "En zij zullen hen in de <Grieks: oven des vuurs, dat is, de hel. Het schijnt dat in deze manier van spreken gezien wordt op de gruwelijke straffen van het vuur, die vroeger gebruikelijk waren. Zie $Dn. 3:6$.> vurige oven werpen: $Mt. 8:12; 22:13; 24:51; 25:30; Lk. 13:28$ daar zal wening zijn en knersing der tanden.",
+      "source_text": "καὶ βαλοῦσιν αὐτοὺς εἰς τὴν κάμινον τοῦ πυρός· ἐκεῖ ἔσται ὁ κλαυθμὸς καὶ ὁ βρυγμὸς τῶν ὀδόντων.",
+      "generated_at": "2026-06-04T20:18:04.385551Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
