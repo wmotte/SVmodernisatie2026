@@ -181,6 +181,46 @@
       "generated_at": "2026-06-04T14:36:57.017727Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 19,
+      "original": "<Namel. voornamelick, ofte alsoo dat ghy daer van uw’ werck soudet maken, sonder de hemelsche recht te betrachten. Siet 1.Timoth. 6.8.> Vergadert u $Prov. 23.4. Iacob. 5.1. Hebr. 13.5.$ geen schatten op der aerden, daerse de motte ende <Gr. eetinge, ineetinge.> roest verderft, ende daer de dieven doorgraven ende stelen.",
+      "modernized": "<Namelijk, voornamelijk, of dat u daar uw werk van zou maken, zonder het hemelse naar behoren na te streven. Zie $1Tm. 6:8$.> Verzamel voor u $Sp. 23:4; Jk. 5:1; Hb. 13:5$ geen schatten op de aarde, waar de mot en <Grieks: het eten, het invreten.> roest verderft, en waar de dieven inbreken en stelen.",
+      "source_text": "Μὴ θησαυρίζετε ὑμῖν θησαυροὺς ἐπὶ τῆς γῆς, ὅπου σὴς καὶ βρῶσις ἀφανίζει, καὶ ὅπου κλέπται διορύσσουσι καὶ κλέπτουσι·",
+      "generated_at": "2026-06-04T14:41:47.544710Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "doorgraven",
+          "context": "hoofdtekst",
+          "choice": "inbreken",
+          "alternatives": [
+            "doorgraven",
+            "inbreken"
+          ],
+          "reason": "Gr. διορύσσω = door een (leem)muur breken om in te breken; modern doorgraven leest primair als kanaal/dijk doorgraven (false friend). inbreken dekt de betekenis formeel; geldt ook in v20 voor concordantie."
+        }
+      ]
+    },
+    {
+      "verse_number": 20,
+      "original": "Maer $Luce 12.33. 1.Timoth. 6.19.$ vergadert u schatten in den hemel, daerse noch motte noch roest en verderft, ende daer de dieven niet en doorgraven, noch en stelen.",
+      "modernized": "Maar $Lk. 12:33; 1Tm. 6:19$ verzamel voor u schatten in de hemel, waar mot noch roest verderft, en waar de dieven niet inbreken en niet stelen.",
+      "source_text": "θησαυρίζετε δὲ ὑμῖν θησαυροὺς ἐν οὐρανῷ, ὅπου οὔτε σὴς οὔτε βρῶσις ἀφανίζει, καὶ ὅπου κλέπται οὐ διορύσσουσιν οὐδὲ κλέπτουσιν.",
+      "generated_at": "2026-06-04T14:42:22.172180Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 21,
+      "original": "Want waer uwen schat is, daer sal oock uw’ herte zijn.",
+      "modernized": "Want waar uw schat is, daar zal ook uw hart zijn.",
+      "source_text": "ὅπου γάρ ἐστιν ὁ θησαυρὸς ὑμῶν, ἐκεῖ ἔσται καὶ ἡ καρδία ὑμῶν.",
+      "generated_at": "2026-06-04T14:42:38.587013Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
