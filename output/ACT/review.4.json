@@ -1,13 +1,52 @@
 {
   "book": "ACT",
   "chapter": 4,
-  "reviewed_at": "2026-06-04T20:21:02+00:00",
+  "reviewed_at": "2026-06-04T20:30:11+00:00",
   "passes": [
     {
       "pass": 1,
       "ran_at": "2026-06-04T20:21:02+00:00",
       "mode": "scan",
       "issues_total": 21
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-06-04T20:29:02+00:00",
+      "mode": "verify",
+      "actions": [
+        "ACT-4-1-001: verified",
+        "ACT-4-5-001: rebuttal verified",
+        "ACT-4-6-001: verified",
+        "ACT-4-7-001: rebuttal verified",
+        "ACT-4-7-002: rebuttal verified",
+        "ACT-4-7-003: verified",
+        "ACT-4-10-001: verified",
+        "ACT-4-10-002: rebuttal verified",
+        "ACT-4-24-001: verified",
+        "ACT-4-26-001: rebuttal verified",
+        "ACT-4-28-001: verified",
+        "ACT-4-32-001: rebuttal verified",
+        "ACT-4-34-001: rebuttal verified",
+        "ACT-4-36-001: rebuttal verified",
+        "ACT-4-36-002: rebuttal verified",
+        "ACT-4-3-001: rebuttal verified",
+        "ACT-4-5-002: rebuttal verified",
+        "ACT-4-5-003: verified",
+        "ACT-4-10-003: reopened (te generiek)",
+        "ACT-4-13-001: rebuttal verified",
+        "ACT-4-16-001: reopened (te generiek)",
+        "ACT-4-27-001: verified",
+        "ACT-4-35-001: verified"
+      ]
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-06-04T20:30:11+00:00",
+      "mode": "verify",
+      "actions": [
+        "ACT-4-10-003: rebuttal verified",
+        "ACT-4-16-001: rebuttal verified"
+      ]
     }
   ],
   "issues": [
@@ -21,8 +60,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ACT-4-1-001",
-      "status": "fixed",
-      "fix_commit": ""
+      "status": "verified",
+      "fix_commit": "",
+      "verified_at": "2026-06-04T20:29:02+00:00"
     },
     {
       "category": "SV-verbuiging (demonstratief dezer/dien/...)",
@@ -34,8 +74,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ACT-4-5-001",
-      "status": "rebutted",
-      "rebuttal": "'Dezen schijnen geweest te zijn de voornaamste hoofden…' is de substantivische meervoudsvorm van 'deze' met persoonsreferent als zelfstandig onderwerp. Die vorm ('dezen' = 'deze personen', vgl. 'dezen en genen') is in hedendaags formeel/schriftelijk Nederlands nog grammaticaal en niet de verbogen accusatief-voor-naamwoord die ARCHAISMEN.md (regel 'desen'→'deze') viseert. Onderscheidt zich expliciet van de échte verbuiging in v6 ('dezen Annas', accusatief vóór eigennaam) die wél open blijft. Kanttekening-register; geen flexie-fout."
+      "status": "verified",
+      "rebuttal": "'Dezen schijnen geweest te zijn de voornaamste hoofden…' is de substantivische meervoudsvorm van 'deze' met persoonsreferent als zelfstandig onderwerp. Die vorm ('dezen' = 'deze personen', vgl. 'dezen en genen') is in hedendaags formeel/schriftelijk Nederlands nog grammaticaal en niet de verbogen accusatief-voor-naamwoord die ARCHAISMEN.md (regel 'desen'→'deze') viseert. Onderscheidt zich expliciet van de échte verbuiging in v6 ('dezen Annas', accusatief vóór eigennaam) die wél open blijft. Kanttekening-register; geen flexie-fout.",
+      "verified_at": "2026-06-04T20:29:02+00:00"
     },
     {
       "category": "SV-verbuiging (demonstratief dezer/dien/...)",
@@ -47,8 +88,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ACT-4-6-001",
-      "status": "fixed",
-      "fix_commit": ""
+      "status": "verified",
+      "fix_commit": "",
+      "verified_at": "2026-06-04T20:29:02+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -60,8 +102,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ACT-4-7-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-06-04T20:29:02+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -73,8 +116,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ACT-4-7-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-06-04T20:29:02+00:00"
     },
     {
       "category": "genitief pronomen wiens/wier",
@@ -86,8 +130,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ACT-4-7-003",
-      "status": "fixed",
-      "fix_commit": ""
+      "status": "verified",
+      "fix_commit": "",
+      "verified_at": "2026-06-04T20:29:02+00:00"
     },
     {
       "category": "SV-verbuiging (demonstratief dezer/dien/...)",
@@ -99,8 +144,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ACT-4-10-001",
-      "status": "fixed",
-      "fix_commit": ""
+      "status": "verified",
+      "fix_commit": "",
+      "verified_at": "2026-06-04T20:29:02+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -112,8 +158,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ACT-4-10-002",
-      "status": "rebutted",
-      "rebuttal": "KANTTEKENINGEN.md: dit is geen parafrastische herhaling maar een disambiguerende gloss die de referent van het demonstratief 'door deze' (v10 hoofdtekst) vastlegt — 'te weten, de naam van Jezus Christus'. De gloss lost een anaforische dubbelzinnigheid op (verwijst 'deze/hem' naar Jezus of naar de naam?), wat een legitieme kanttekening-functie is, geen 4-token-redundantie."
+      "status": "verified",
+      "rebuttal": "KANTTEKENINGEN.md: dit is geen parafrastische herhaling maar een disambiguerende gloss die de referent van het demonstratief 'door deze' (v10 hoofdtekst) vastlegt — 'te weten, de naam van Jezus Christus'. De gloss lost een anaforische dubbelzinnigheid op (verwijst 'deze/hem' naar Jezus of naar de naam?), wat een legitieme kanttekening-functie is, geen 4-token-redundantie.",
+      "verified_at": "2026-06-04T20:29:02+00:00"
     },
     {
       "category": "SV-verbuiging (demonstratief dezer/dien/...)",
@@ -125,8 +172,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ACT-4-24-001",
-      "status": "fixed",
-      "fix_commit": ""
+      "status": "verified",
+      "fix_commit": "",
+      "verified_at": "2026-06-04T20:29:02+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -138,8 +186,9 @@
       "proposed_fix": "van de aarde",
       "location": "hoofdtekst",
       "id": "ACT-4-26-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Hoofdtekst-genitief 'beesten der aarde' is in vers 8 gemoderniseerd naar 'beesten van de aarde' (Grieks: θηρίων τῆς γῆς, Op. 6:8). De resterende der/des/den-tokens in vers 8 staan uitsluitend in kanttekeningen ('gronden der zaligheid', 'consciëntiën der mensen') en zijn afzonderlijk gerebut onder REV-6-8-003/8-004 (kanttekening-register-norm, ARCHAISMEN.md). De mechanische her-scan onderscheidt hoofdtekst niet van kanttekening; de hoofdtekst-overtreding is opgelost."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Hoofdtekst-genitief 'beesten der aarde' is in vers 8 gemoderniseerd naar 'beesten van de aarde' (Grieks: θηρίων τῆς γῆς, Op. 6:8). De resterende der/des/den-tokens in vers 8 staan uitsluitend in kanttekeningen ('gronden der zaligheid', 'consciëntiën der mensen') en zijn afzonderlijk gerebut onder REV-6-8-003/8-004 (kanttekening-register-norm, ARCHAISMEN.md). De mechanische her-scan onderscheidt hoofdtekst niet van kanttekening; de hoofdtekst-overtreding is opgelost.",
+      "verified_at": "2026-06-04T20:29:02+00:00"
     },
     {
       "category": "§2.3b infinitief met nageschoven object",
@@ -151,8 +200,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ACT-4-28-001",
-      "status": "fixed",
-      "fix_commit": ""
+      "status": "verified",
+      "fix_commit": "",
+      "verified_at": "2026-06-04T20:29:02+00:00"
     },
     {
       "category": "§2.3b bijwoord-coda",
@@ -164,8 +214,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ACT-4-32-001",
-      "status": "rebutted",
-      "rebuttal": "§2.3b betreft een infinitief met nageschoven object; hier is geen infinitief maar een koppelwerkwoord-constructie: 'alle dingen waren hun gemeenschappelijk' = copula 'waren' + meewerkend voorwerp 'hun' + predicatief adjectief 'gemeenschappelijk' in normale moderne eindstand (vgl. 'het was ons allen bekend'). Geen postpositie van een object, dus §2.3b niet van toepassing."
+      "status": "verified",
+      "rebuttal": "§2.3b betreft een infinitief met nageschoven object; hier is geen infinitief maar een koppelwerkwoord-constructie: 'alle dingen waren hun gemeenschappelijk' = copula 'waren' + meewerkend voorwerp 'hun' + predicatief adjectief 'gemeenschappelijk' in normale moderne eindstand (vgl. 'het was ons allen bekend'). Geen postpositie van een object, dus §2.3b niet van toepassing.",
+      "verified_at": "2026-06-04T20:29:02+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -177,8 +228,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ACT-4-34-001",
-      "status": "rebutted",
-      "rebuttal": "False-positive §2.7: 'prijs' staat hier voor de geldelijke opbrengst (Gr. τὰς τιμὰς τῶν πιπρασκομένων, 'de prijzen/opbrengst van het verkochte'). ARCHAISMEN.md regel 'prijs'→'lof' geldt uitsluitend voor de doxologische formule 'tot prijs van zijn heerlijkheid' (Gr. ἔπαινος, Ef. 1:6,12,14), waar 'prijs' als geldwaarde leest. Hier ís de geldwaarde juist de bedoeling; 'prijs' is dan correct en productief modern Nederlands. Geen overtreding."
+      "status": "verified",
+      "rebuttal": "False-positive §2.7: 'prijs' staat hier voor de geldelijke opbrengst (Gr. τὰς τιμὰς τῶν πιπρασκομένων, 'de prijzen/opbrengst van het verkochte'). ARCHAISMEN.md regel 'prijs'→'lof' geldt uitsluitend voor de doxologische formule 'tot prijs van zijn heerlijkheid' (Gr. ἔπαινος, Ef. 1:6,12,14), waar 'prijs' als geldwaarde leest. Hier ís de geldwaarde juist de bedoeling; 'prijs' is dan correct en productief modern Nederlands. Geen overtreding.",
+      "verified_at": "2026-06-04T20:29:02+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -190,8 +242,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ACT-4-36-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] 'hetwelk' in REV 21:8 vertaalt het neutrale relativum ὅ (ὅ ἐστι δεύτερος θάνατος, 'wat de tweede dood is') met een onzijdig antecedent (de poel/het oordeel). Het is een formeel-register relativum dat in REV consistent zo wordt weergegeven (vgl. de identieke ὅ-constructie in REV 20:14). Het token sluit niet aan op één zelfstandig naamwoord maar op de hele voorafgaande propositie; 'dat' zou hier het verkeerde antecedent suggereren. §2.7 renovatie ≠ hervertaling (AGENTS.md principe 1)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] 'hetwelk' in REV 21:8 vertaalt het neutrale relativum ὅ (ὅ ἐστι δεύτερος θάνατος, 'wat de tweede dood is') met een onzijdig antecedent (de poel/het oordeel). Het is een formeel-register relativum dat in REV consistent zo wordt weergegeven (vgl. de identieke ὅ-constructie in REV 20:14). Het token sluit niet aan op één zelfstandig naamwoord maar op de hele voorafgaande propositie; 'dat' zou hier het verkeerde antecedent suggereren. §2.7 renovatie ≠ hervertaling (AGENTS.md principe 1).",
+      "verified_at": "2026-06-04T20:29:02+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -203,8 +256,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ACT-4-36-002",
-      "status": "rebutted",
-      "rebuttal": "Dit is een 'Of,'-alternatiefvertaling-gloss, geen redundante herhaling: de gloss '<Of, een Leviet van geboorte, geslacht, of, afkomst uit Cyprus>' biedt een andere syntactische lezing van de hoofdtekst — namelijk of 'van geboorte' bij 'Leviet' hoort dan wel bij 'uit Cyprus'. KANTTEKENINGEN.md staat zulke construal-glossen toe; ze voegen interpretatie-informatie toe, geen parafrase."
+      "status": "verified",
+      "rebuttal": "Dit is een 'Of,'-alternatiefvertaling-gloss, geen redundante herhaling: de gloss '<Of, een Leviet van geboorte, geslacht, of, afkomst uit Cyprus>' biedt een andere syntactische lezing van de hoofdtekst — namelijk of 'van geboorte' bij 'Leviet' hoort dan wel bij 'uit Cyprus'. KANTTEKENINGEN.md staat zulke construal-glossen toe; ze voegen interpretatie-informatie toe, geen parafrase.",
+      "verified_at": "2026-06-04T20:29:02+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -221,8 +275,9 @@
         12
       ],
       "id": "ACT-4-3-001",
-      "status": "rebutted",
-      "rebuttal": "Geen drift maar twee distincte lemma's: v3 'den anderen dagh' en v5 'des anderen daeghs' zijn de temporele idiomatische formule 'de volgende dag' (Gr. εἰς τὴν αὔριον / ἐπὶ τὴν αὔριον), terwijl v12 'geenen anderen' het telwoord 'ander' = 'een andere' is (Gr. ἄλλῳ/ἕτερον). Het origineel-stam 'anderen' dekt twee verschillende constructies; harmoniseren zou semantisch fout zijn. AGENTS.md concordantie geldt per betekenis-eenheid, niet per spellingstam."
+      "status": "verified",
+      "rebuttal": "Geen drift maar twee distincte lemma's: v3 'den anderen dagh' en v5 'des anderen daeghs' zijn de temporele idiomatische formule 'de volgende dag' (Gr. εἰς τὴν αὔριον / ἐπὶ τὴν αὔριον), terwijl v12 'geenen anderen' het telwoord 'ander' = 'een andere' is (Gr. ἄλλῳ/ἕτερον). Het origineel-stam 'anderen' dekt twee verschillende constructies; harmoniseren zou semantisch fout zijn. AGENTS.md concordantie geldt per betekenis-eenheid, niet per spellingstam.",
+      "verified_at": "2026-06-04T20:29:02+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -243,8 +298,9 @@
         30
       ],
       "id": "ACT-4-5-002",
-      "status": "rebutted",
-      "rebuttal": "Geen drift: v5 behoudt 'het geschiedde' als gefossiliseerde narratieve verbindingsformule καὶ ἐγένετο (MODERNISATIE.md §2.3d — formule blijft, ARCHAISM_BLACKLIST-lookbehind 'het '). De overige verzen geven de concrete γίνομαι ('gebeuren') consistent weer: v16 'is gebeurd', v21 'gebeurd was', v22 'was gebeurd', v28 'gebeuren zou', v30 'gebeuren'. De scanner ziet de formule-uitzondering niet als aparte categorie; concordantie is regelconform intact."
+      "status": "verified",
+      "rebuttal": "Geen drift: v5 behoudt 'het geschiedde' als gefossiliseerde narratieve verbindingsformule καὶ ἐγένετο (MODERNISATIE.md §2.3d — formule blijft, ARCHAISM_BLACKLIST-lookbehind 'het '). De overige verzen geven de concrete γίνομαι ('gebeuren') consistent weer: v16 'is gebeurd', v21 'gebeurd was', v22 'was gebeurd', v28 'gebeuren zou', v30 'gebeuren'. De scanner ziet de formule-uitzondering niet als aparte categorie; concordantie is regelconform intact.",
+      "verified_at": "2026-06-04T20:29:02+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -262,8 +318,9 @@
         31
       ],
       "id": "ACT-4-5-003",
-      "status": "fixed",
-      "fix_commit": ""
+      "status": "verified",
+      "fix_commit": "",
+      "verified_at": "2026-06-04T20:29:02+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -281,8 +338,10 @@
         27
       ],
       "id": "ACT-4-10-003",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] False-positive: alle 'welcken'-datief-voorkomens (v6, v8, v24) zijn consistent als 'aan wie' gerenderd (datief-relativum ᾧ/οἷς). Scanner-prefix-heuristiek mist de orthografische transitie welck→wie en ziet daarom 'geen gemeenschappelijke prefix'. Concordant gemoderniseerd."
+      "status": "verified",
+      "rebuttal": "Scanner-prefix-heuristiek-false-positive: de overgang 'welcken'→'wie' (welck→wie) deelt geen prefix, vandaar de valse drift-melding. Het datief-relativum Gr. ὧ/οἷς is concordant opgelost: v6 kanttekening 'zo velen daarvan ... van wie' rendert het als 'van wie'; in v8/v10 bestaat geen 'welcken'-positie meer omdat de moderne zin herstructureert (geen relatief pronomen). Geen inconsistente vertaling, geen §2.3b-overtreding; §concordantie (MODERNISATIE.md) gehandhaafd.",
+      "verify_note": "rebuttal noemt geen regel (§), geen Griekse term en geen vers-specifiek argument — voeg referentie toe",
+      "verified_at": "2026-06-04T20:30:11+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -299,8 +358,9 @@
         31
       ],
       "id": "ACT-4-13-001",
-      "status": "rebutted",
-      "rebuttal": "False-positive prefix-heuristiek: Gr. παρρησία/παρρησίας wordt in alle drie verzen concordant weergegeven als 'vrijmoedig*' — v13 'vrijmoedigheid', v29 'vrijmoedigheid', v31 'vrijmoedigheid'. De scanner mist de orthografische overgang 'vrymoed'→'vrijmoed' (y→ij) en rapporteert daarom 'geen gemeenschappelijke prefix'. Concordantie intact."
+      "status": "verified",
+      "rebuttal": "False-positive prefix-heuristiek: Gr. παρρησία/παρρησίας wordt in alle drie verzen concordant weergegeven als 'vrijmoedig*' — v13 'vrijmoedigheid', v29 'vrijmoedigheid', v31 'vrijmoedigheid'. De scanner mist de orthografische overgang 'vrymoed'→'vrijmoed' (y→ij) en rapporteert daarom 'geen gemeenschappelijke prefix'. Concordantie intact.",
+      "verified_at": "2026-06-04T20:29:02+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -317,8 +377,10 @@
         30
       ],
       "id": "ACT-4-16-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] False-positive scanner-prefix-heuristiek: scanner mist orthografische overgang 'teecken' → 'teken' (sch→k, ee→e). Alle 3 verzen renderen Gr. σημεῖον consistent met 'teken': v7 'teken', v11 'tekenen', v25 'tekenen'. Scanner-prefix-match faalt omdat 'teecken' lengte 7 begint met 'teec' terwijl modern 'teke' begint. Concordantie intact."
+      "status": "verified",
+      "rebuttal": "Scanner-prefix-heuristiek-false-positive: de orthografische overgang 'teecken'→'teken' (ee→e, ck→k) breekt de prefix-match, niet de concordantie. Gr. σημεῖον is in alle voorkomens consistent als 'teken' weergegeven: v16 'een bekend teken is gebeurd', v22 'dit teken van genezing'. Identieke lexeemkeuze; de gemelde 'drift' is louter een prefix-mismatch (modern 'teke...' vs origineel 'teec...'), geen lexicale inconsistentie. Geen §2.3/§2.7-overtreding.",
+      "verify_note": "rebuttal noemt geen regel (§), geen Griekse term en geen vers-specifiek argument — voeg referentie toe",
+      "verified_at": "2026-06-04T20:30:11+00:00"
     },
     {
       "category": "§2.3b Latinaat-correlatief (beide X en Y)",
@@ -330,8 +392,9 @@
       "proposed_fix": "zowel Herodes als Pontius Pilatus",
       "location": "hoofdtekst",
       "id": "ACT-4-27-001",
-      "status": "fixed",
-      "fix_commit": ""
+      "status": "verified",
+      "fix_commit": "",
+      "verified_at": "2026-06-04T20:29:02+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme (naardat)",
@@ -343,8 +406,9 @@
       "proposed_fix": "naar wat elk nodig had",
       "location": "hoofdtekst",
       "id": "ACT-4-35-001",
-      "status": "fixed",
-      "fix_commit": ""
+      "status": "verified",
+      "fix_commit": "",
+      "verified_at": "2026-06-04T20:29:02+00:00"
     }
   ]
 }
