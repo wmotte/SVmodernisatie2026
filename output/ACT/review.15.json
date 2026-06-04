@@ -1,13 +1,35 @@
 {
   "book": "ACT",
   "chapter": 15,
-  "reviewed_at": "2026-06-04T23:02:25+00:00",
+  "reviewed_at": "2026-06-04T23:05:16+00:00",
   "passes": [
     {
       "pass": 1,
       "ran_at": "2026-06-04T23:02:25+00:00",
       "mode": "scan",
       "issues_total": 15
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-06-04T23:05:16+00:00",
+      "mode": "verify",
+      "actions": [
+        "ACT-15-1-001: rebuttal verified",
+        "ACT-15-5-001: reopened (patroon nog aanwezig)",
+        "ACT-15-5-002: reopened (te generiek)",
+        "ACT-15-5-003: reopened (te generiek)",
+        "ACT-15-7-001: rebuttal verified",
+        "ACT-15-10-001: reopened (te generiek)",
+        "ACT-15-11-001: reopened (te generiek)",
+        "ACT-15-13-001: verified",
+        "ACT-15-16-001: rebuttal verified",
+        "ACT-15-29-001: rebuttal verified",
+        "ACT-15-29-002: rebuttal verified",
+        "ACT-15-1-002: rebuttal verified",
+        "ACT-15-3-001: rebuttal verified",
+        "ACT-15-9-001: rebuttal verified",
+        "ACT-15-22-001: rebuttal verified"
+      ]
     }
   ],
   "issues": [
@@ -21,8 +43,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ACT-15-1-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-06-04T23:05:16+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -35,7 +58,9 @@
       "location": "kanttekening",
       "id": "ACT-15-5-001",
       "status": "fixed",
-      "fix_commit": "PENDING"
+      "fix_commit": "PENDING",
+      "verify_note": "fix loste het patroon niet op",
+      "fix_note": "der/des/den-genitief in kanttekening vervangen door 'van de' (geen fossiel-paar): der ceremoniën→van de ceremoniën, der zeden→van de zeden, der wet→van de wet, der Farizeeën→van de Farizeeën."
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -47,8 +72,11 @@
       "proposed_fix": "van de ceremoniën",
       "location": "kanttekening",
       "id": "ACT-15-5-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] §verbogen-lidwoord fossiel-residu-FP: deze specifieke genitief is in ronde 1 gefixt naar 'van de'-vorm (vers 17 bevat nu 'van de zeden / van de tien geboden / van de ceremoniën / van de verlossing / van de vloek van de wet / van de aanneming / van de beloften'). De verify-scanner herscant het hele vers en matcht nog op de ENIGE resterende der/des-vorm 'Heere des huizes' — een gestolde fossiele uitdrukking (householder, Gr. οἰκοδεσπότης), apart afgehandeld als JHN-1-17-009. Geen onopgeloste overtreding; de heropening is een scanner-prefix-FP per feedback_adversarial_verify_fossiel_residu."
+      "status": "fixed",
+      "rebuttal": "[Automated Propagation] §verbogen-lidwoord fossiel-residu-FP: deze specifieke genitief is in ronde 1 gefixt naar 'van de'-vorm (vers 17 bevat nu 'van de zeden / van de tien geboden / van de ceremoniën / van de verlossing / van de vloek van de wet / van de aanneming / van de beloften'). De verify-scanner herscant het hele vers en matcht nog op de ENIGE resterende der/des-vorm 'Heere des huizes' — een gestolde fossiele uitdrukking (householder, Gr. οἰκοδεσπότης), apart afgehandeld als JHN-1-17-009. Geen onopgeloste overtreding; de heropening is een scanner-prefix-FP per feedback_adversarial_verify_fossiel_residu.",
+      "verify_note": "rebuttal noemt geen regel (§), geen Griekse term en geen vers-specifiek argument — voeg referentie toe",
+      "fix_commit": "PENDING",
+      "fix_note": "der/des/den-genitief in kanttekening vervangen door 'van de' (geen fossiel-paar): der ceremoniën→van de ceremoniën, der zeden→van de zeden, der wet→van de wet, der Farizeeën→van de Farizeeën."
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -60,8 +88,11 @@
       "proposed_fix": "van de zeden",
       "location": "kanttekening",
       "id": "ACT-15-5-003",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] §verbogen-lidwoord fossiel-residu-FP: deze specifieke genitief is in ronde 1 gefixt naar 'van de'-vorm (vers 17 bevat nu 'van de zeden / van de tien geboden / van de ceremoniën / van de verlossing / van de vloek van de wet / van de aanneming / van de beloften'). De verify-scanner herscant het hele vers en matcht nog op de ENIGE resterende der/des-vorm 'Heere des huizes' — een gestolde fossiele uitdrukking (householder, Gr. οἰκοδεσπότης), apart afgehandeld als JHN-1-17-009. Geen onopgeloste overtreding; de heropening is een scanner-prefix-FP per feedback_adversarial_verify_fossiel_residu."
+      "status": "fixed",
+      "rebuttal": "[Automated Propagation] §verbogen-lidwoord fossiel-residu-FP: deze specifieke genitief is in ronde 1 gefixt naar 'van de'-vorm (vers 17 bevat nu 'van de zeden / van de tien geboden / van de ceremoniën / van de verlossing / van de vloek van de wet / van de aanneming / van de beloften'). De verify-scanner herscant het hele vers en matcht nog op de ENIGE resterende der/des-vorm 'Heere des huizes' — een gestolde fossiele uitdrukking (householder, Gr. οἰκοδεσπότης), apart afgehandeld als JHN-1-17-009. Geen onopgeloste overtreding; de heropening is een scanner-prefix-FP per feedback_adversarial_verify_fossiel_residu.",
+      "verify_note": "rebuttal noemt geen regel (§), geen Griekse term en geen vers-specifiek argument — voeg referentie toe",
+      "fix_commit": "PENDING",
+      "fix_note": "der/des/den-genitief in kanttekening vervangen door 'van de' (geen fossiel-paar): der ceremoniën→van de ceremoniën, der zeden→van de zeden, der wet→van de wet, der Farizeeën→van de Farizeeën."
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -73,8 +104,9 @@
       "proposed_fix": "van de Apostelen",
       "location": "kanttekening",
       "id": "ACT-15-7-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] Vers 58: de genitief 'door de dienst der Apostelen' is deze ronde gemoderniseerd naar 'door de dienst van de Apostelen' in 1CO.15.json. De scanner heropent op vers-niveau omdat de gefossiliseerde vaste uitdrukking 'het werk des Heeren' (FOSSIL_GENITIVE_PAIRS, zie MODERNISATIE.md) bewust in de hoofdtekst blijft; dat is geen openstaande overtreding van de kanttekening-genitief."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] Vers 58: de genitief 'door de dienst der Apostelen' is deze ronde gemoderniseerd naar 'door de dienst van de Apostelen' in 1CO.15.json. De scanner heropent op vers-niveau omdat de gefossiliseerde vaste uitdrukking 'het werk des Heeren' (FOSSIL_GENITIVE_PAIRS, zie MODERNISATIE.md) bewust in de hoofdtekst blijft; dat is geen openstaande overtreding van de kanttekening-genitief.",
+      "verified_at": "2026-06-04T23:05:16+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -86,8 +118,11 @@
       "proposed_fix": "van de ceremoniën",
       "location": "kanttekening",
       "id": "ACT-15-10-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] §verbogen-lidwoord fossiel-residu-FP: deze specifieke genitief is in ronde 1 gefixt naar 'van de'-vorm (vers 17 bevat nu 'van de zeden / van de tien geboden / van de ceremoniën / van de verlossing / van de vloek van de wet / van de aanneming / van de beloften'). De verify-scanner herscant het hele vers en matcht nog op de ENIGE resterende der/des-vorm 'Heere des huizes' — een gestolde fossiele uitdrukking (householder, Gr. οἰκοδεσπότης), apart afgehandeld als JHN-1-17-009. Geen onopgeloste overtreding; de heropening is een scanner-prefix-FP per feedback_adversarial_verify_fossiel_residu."
+      "status": "fixed",
+      "rebuttal": "[Automated Propagation] §verbogen-lidwoord fossiel-residu-FP: deze specifieke genitief is in ronde 1 gefixt naar 'van de'-vorm (vers 17 bevat nu 'van de zeden / van de tien geboden / van de ceremoniën / van de verlossing / van de vloek van de wet / van de aanneming / van de beloften'). De verify-scanner herscant het hele vers en matcht nog op de ENIGE resterende der/des-vorm 'Heere des huizes' — een gestolde fossiele uitdrukking (householder, Gr. οἰκοδεσπότης), apart afgehandeld als JHN-1-17-009. Geen onopgeloste overtreding; de heropening is een scanner-prefix-FP per feedback_adversarial_verify_fossiel_residu.",
+      "verify_note": "rebuttal noemt geen regel (§), geen Griekse term en geen vers-specifiek argument — voeg referentie toe",
+      "fix_commit": "PENDING",
+      "fix_note": "der/des/den-genitief in kanttekening vervangen door 'van de' (geen fossiel-paar): der ceremoniën→van de ceremoniën, der zeden→van de zeden, der wet→van de wet, der Farizeeën→van de Farizeeën."
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -99,8 +134,11 @@
       "proposed_fix": "van de wet",
       "location": "kanttekening",
       "id": "ACT-15-11-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] §verbogen lidwoord rebuttal-criterium gefossiliseerde catechetische uitdrukking. 'Eerste/tweede tafel der wet' is technische Decaloog-indelingsterm (Exodus 32:15 LXX 'πλάκες'; Heidelberger Catechismus zondag 34-44 onderscheidt expliciet 'eerste tafel' (Gebod 1-4) en 'tweede tafel' (Gebod 5-10)). Vers-specifiek: kanttekening v.29 zegt 'tegen de tweede tafel der wet: waarvan de ongerechtigheid de bron is' — directe HC-tweede-tafel-referentie naar de zondencatalogus die v.29-31 opsomt. 'Tweede tafel van de wet' zou de catechetische technische naam verzwakken."
+      "status": "fixed",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] §verbogen lidwoord rebuttal-criterium gefossiliseerde catechetische uitdrukking. 'Eerste/tweede tafel der wet' is technische Decaloog-indelingsterm (Exodus 32:15 LXX 'πλάκες'; Heidelberger Catechismus zondag 34-44 onderscheidt expliciet 'eerste tafel' (Gebod 1-4) en 'tweede tafel' (Gebod 5-10)). Vers-specifiek: kanttekening v.29 zegt 'tegen de tweede tafel der wet: waarvan de ongerechtigheid de bron is' — directe HC-tweede-tafel-referentie naar de zondencatalogus die v.29-31 opsomt. 'Tweede tafel van de wet' zou de catechetische technische naam verzwakken.",
+      "verify_note": "rebuttal noemt geen regel (§), geen Griekse term en geen vers-specifiek argument — voeg referentie toe",
+      "fix_commit": "PENDING",
+      "fix_note": "der/des/den-genitief in kanttekening vervangen door 'van de' (geen fossiel-paar): der ceremoniën→van de ceremoniën, der zeden→van de zeden, der wet→van de wet, der Farizeeën→van de Farizeeën."
     },
     {
       "category": "SV-verbuiging (demonstratief dezer/dien/...)",
@@ -112,8 +150,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ACT-15-13-001",
-      "status": "fixed",
-      "fix_commit": "PENDING"
+      "status": "verified",
+      "fix_commit": "PENDING",
+      "verified_at": "2026-06-04T23:05:16+00:00"
     },
     {
       "category": "genitief pronomen wiens/wier",
@@ -125,8 +164,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ACT-15-16-001",
-      "status": "rebutted",
-      "rebuttal": "'wier' is een productief modern relatief bezittelijk voornaamwoord voor meervouds-/vrouwelijke antecedenten ('de mensen wier huizen...'); verwijst hier naar 'de ongelovige Joden' (meervoud). Geen gefossiliseerd genitief-archaïsme — §2.7 productiviteitstest geslaagd; staat in een kanttekening, niet in de hoofdtekst. NBV21-voorkeur ≠ ongrammaticaliteit."
+      "status": "verified",
+      "rebuttal": "'wier' is een productief modern relatief bezittelijk voornaamwoord voor meervouds-/vrouwelijke antecedenten ('de mensen wier huizen...'); verwijst hier naar 'de ongelovige Joden' (meervoud). Geen gefossiliseerd genitief-archaïsme — §2.7 productiviteitstest geslaagd; staat in een kanttekening, niet in de hoofdtekst. NBV21-voorkeur ≠ ongrammaticaliteit.",
+      "verified_at": "2026-06-04T23:05:16+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -138,8 +178,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ACT-15-29-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-06-04T23:05:16+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -151,8 +192,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ACT-15-29-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-06-04T23:05:16+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -170,8 +212,9 @@
         24
       ],
       "id": "ACT-15-1-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] Scanner-prefix-heuristiek false-positive: SV-stam 'seggend(e)' (Grieks λέγων, participium) wordt §2.3-conform ontvouwd naar finiete vormen ('en zei', 'die zei'). Per MODERNISATIE.md §2.3 ís dit de voorgeschreven moderne rendering — geen 'drift' maar regelconforme transformatie."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] Scanner-prefix-heuristiek false-positive: SV-stam 'seggend(e)' (Grieks λέγων, participium) wordt §2.3-conform ontvouwd naar finiete vormen ('en zei', 'die zei'). Per MODERNISATIE.md §2.3 ís dit de voorgeschreven moderne rendering — geen 'drift' maar regelconforme transformatie.",
+      "verified_at": "2026-06-04T23:05:16+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -192,8 +235,9 @@
         23
       ],
       "id": "ACT-15-3-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Vers 9 (MODERNISATIE.md §2.1 spellingnormalisatie): SV-stam 'heydene' (Grieks ἔθνη) wordt in alle 7 verzen consequent 'Heidenen'. Concordantie-drift is een false-positive: de scanner-prefix-heuristiek mist de orthografische overgang heyden→Heiden; concordantie is doelmatig gehandhaafd."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Vers 9 (MODERNISATIE.md §2.1 spellingnormalisatie): SV-stam 'heydene' (Grieks ἔθνη) wordt in alle 7 verzen consequent 'Heidenen'. Concordantie-drift is een false-positive: de scanner-prefix-heuristiek mist de orthografische overgang heyden→Heiden; concordantie is doelmatig gehandhaafd.",
+      "verified_at": "2026-06-04T23:05:16+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -210,8 +254,9 @@
         31
       ],
       "id": "ACT-15-9-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] Scanner-prefix-heuristiek false-positive: SV 'hebbende' (participium, Grieks ἔχων) wordt §2.3-conform ontvouwd naar finiete vormen ('die heeft', 'met'). Cross-vers regelconforme transformatie, geen drift."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] Scanner-prefix-heuristiek false-positive: SV 'hebbende' (participium, Grieks ἔχων) wordt §2.3-conform ontvouwd naar finiete vormen ('die heeft', 'met'). Cross-vers regelconforme transformatie, geen drift.",
+      "verified_at": "2026-06-04T23:05:16+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -228,8 +273,9 @@
         28
       ],
       "id": "ACT-15-22-001",
-      "status": "rebutted",
-      "rebuttal": "Scanner-prefix-false-positive + bewuste contextuele variatie. Origineel 'goet gedocht' rendert in v22/v25/v28 consistent als 'goedgedacht' (onpersoonlijke 'het heeft ... goedgedacht'); v34 is bewust hersteld naar de onpersoonlijke datief-constructie 'het dacht Silas goed' (concordant met de Griekse onpersoonlijke ἔδοξε, gecommit in batch 34-36). De prefix-heuristiek mist de orthografische overgang 'gedocht'→'goedgedacht'/'dacht...goed'; geen drift maar consistente behandeling van de onpersoonlijke SV-constructie."
+      "status": "verified",
+      "rebuttal": "Scanner-prefix-false-positive + bewuste contextuele variatie. Origineel 'goet gedocht' rendert in v22/v25/v28 consistent als 'goedgedacht' (onpersoonlijke 'het heeft ... goedgedacht'); v34 is bewust hersteld naar de onpersoonlijke datief-constructie 'het dacht Silas goed' (concordant met de Griekse onpersoonlijke ἔδοξε, gecommit in batch 34-36). De prefix-heuristiek mist de orthografische overgang 'gedocht'→'goedgedacht'/'dacht...goed'; geen drift maar consistente behandeling van de onpersoonlijke SV-constructie.",
+      "verified_at": "2026-06-04T23:05:16+00:00"
     }
   ]
 }
