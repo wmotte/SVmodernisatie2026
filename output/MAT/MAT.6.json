@@ -61,6 +61,45 @@
       "generated_at": "2026-06-04T14:15:07.116118Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 7,
+      "original": "Ende als ghy bidt, $1.Reg. 18.28. Iesa. 1.15.$ soo en gebruyckt geen <Gr. Battologia, D. wanneer eenige woorden ofte reden sonder noot of ernst dickwils verhaelt worden.> ydel verhael van woorden, gelijck de Heydenen: want sy meynen dat sy door hare veelheyt van woorden sullen verhoort worden.",
+      "modernized": "En als u bidt, $1Kn. 18:28; Js. 1:15$ gebruik dan geen <Grieks: Battologia, dat is, wanneer enige woorden of redenen zonder noodzaak of ernst dikwijls herhaald worden.> ijdel verhaal van woorden, zoals de Heidenen; want zij menen dat zij door hun veelheid van woorden verhoord zullen worden.",
+      "source_text": "προσευχόμενοι δὲ μὴ βαττολογήσητε, ὥσπερ οἱ ἐθνικοί· δοκοῦσι γὰρ ὅτι ἐν τῇ πολυλογίᾳ αὐτῶν εἰσακουσθήσονται.",
+      "generated_at": "2026-06-04T14:19:40.381425Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 8,
+      "original": "Wordet dan haer niet gelijck: want uw’ Vader weet wat ghy van noode hebt, eer ghy hem biddet.",
+      "modernized": "Word dan niet gelijk aan hen; want uw Vader weet wat u nodig hebt, voordat u hem bidt.",
+      "source_text": "μὴ οὖν ὁμοιωθῆτε αὐτοῖς· οἶδε γὰρ ὁ Πατὴρ ὑμῶν ὧν χρείαν ἔχετε, πρὸ τοῦ ὑμᾶς αἰτῆσαι αὐτόν.",
+      "generated_at": "2026-06-04T14:20:11.431711Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 9,
+      "original": "Ghy dan biddet <Dat is, richt alle uwe gebeden na dit formulier. Niet dat wy aen dese woorden alleen ofte altijt souden gebonden zijn: want in voorvallende nooden is ’t oock wel geoorloft eenige beden verder uyt te breyden, ende oock met andere woorden uyt te drucken. Siet Ioan. cap. 17. ende Actor. 4.24.> aldus: $Luce 11.2.$ Onse Vader, die <D. in den derden hemel, 2.Cor. c. 12. vers 2. alwaer hy sijne majesteyt ende heerlickheyt allermeest openbaert, Psalm 103.19.> in de hemelen [zijt,] uwen naem werde <D. van ons met woorden ende wercken groot gemaeckt.> geheylight.",
+      "modernized": "Bid u dan <Dat is, richt al uw gebeden naar dit formulier. Niet dat wij aan deze woorden alleen of altijd gebonden zouden zijn; want in voorvallende noden is het ook wel geoorloofd enige beden verder uit te breiden, en ook met andere woorden uit te drukken. Zie Johannes hoofdstuk 17 en $Hd. 4:24$.> aldus: $Lk. 11:2$ Onze Vader, die <Dat is, in de derde hemel, $2Kor. 12:2$ waar hij zijn majesteit en heerlijkheid het meest openbaart, $Ps. 103:19$.> in de hemelen [zijt,] uw naam worde <Dat is, door ons met woorden en werken groot gemaakt.> geheiligd.",
+      "source_text": "οὕτως οὖν προσεύχεσθε ὑμεῖς· Πάτερ ἡμῶν ὁ ἐν τοῖς οὐρανοῖς, ἁγιασθήτω τὸ ὄνομά σου·",
+      "generated_at": "2026-06-04T14:21:43.729090Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "subject": "hoofdstuk-only verwijzing",
+          "context": "kanttekening 1",
+          "choice": "Johannes hoofdstuk 17 als proza",
+          "alternatives": [
+            "$Jh. 17$"
+          ],
+          "reason": "bibref.py normaliseert hoofdstuk-only-refs niet correct; proza voorkomt corrupte notatie"
+        }
+      ]
     }
   ]
 }
