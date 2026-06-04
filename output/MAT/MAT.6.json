@@ -100,6 +100,33 @@
           "reason": "bibref.py normaliseert hoofdstuk-only-refs niet correct; proza voorkomt corrupte notatie"
         }
       ]
+    },
+    {
+      "verse_number": 10,
+      "original": "Uw’ <Nam. soo der genade in dese werelt, als der heerlickheyt in den hemel.> Koninckrijcke kome. Uwen wille geschiede gelijck <Nam. van de heylige Engelen, Psalm 103. versen 20, 21. ende van de salige ende volmaeckte zielen, Hebr. cap. 12. vers 23.> in den hemel [alsoo] oock op der aerden.",
+      "modernized": "Uw <Namelijk, zowel van de genade in deze wereld, als van de heerlijkheid in de hemel.> Koninkrijk kome. Uw wil geschiede, zoals <Namelijk, van de heilige Engelen, $Ps. 103:20,21$. en van de zalige en volmaakte zielen, $Hb. 12:23$.> in de hemel, [zo] ook op de aarde.",
+      "source_text": "ἐλθέτω ἡ βασιλεία σου· γενηθήτω τὸ θέλημά σου, ὡς ἐν οὐρανῷ, καὶ ἐπὶ τῆς γῆς·",
+      "generated_at": "2026-06-04T14:25:45.236117Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 11,
+      "original": "Ons’ <Dat is, genoeghsaem ende noodigh tot onderhoudt onses levens voor desen dagh: ofte ons bescheyden deel, Proverb. 30.8.> dagelicks <Dat is, alle nootdruft des lichaems, Genes. 3.19.> broot geeft ons heden.",
+      "modernized": "Ons <Dat is, voldoende en nodig tot onderhoud van ons leven voor deze dag; of ons toebedeelde deel, $Sp. 30:8$.> dagelijks <Dat is, alle levensbehoeften van het lichaam, $Gn. 3:19$.> brood geef ons heden.",
+      "source_text": "τὸν ἄρτον ἡμῶν τὸν ἐπιούσιον δὸς ἡμῖν σήμερον·",
+      "generated_at": "2026-06-04T14:26:33.567142Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 12,
+      "original": "Ende vergeeft ons onse <Dat is, sonden, Luce cap. 11. vers 4. die ons schuldigh maken aen de straffe. Siet Matth. cap. 18. vers 24.> schulden, gelijck oock wy vergeven onse schuldenaren.",
+      "modernized": "En vergeef ons onze <Dat is, zonden, $Lk. 11:4$. die ons schuldig maken aan de straf. Zie $Mt. 18:24$.> schulden, zoals ook wij vergeven onze schuldenaren.",
+      "source_text": "καὶ ἄφες ἡμῖν τὰ ὀφειλήματα ἡμῶν, ὡς καὶ ἡμεῖς ἀφίεμεν τοῖς ὀφειλέταις ἡμῶν·",
+      "generated_at": "2026-06-04T14:27:02.385293Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
