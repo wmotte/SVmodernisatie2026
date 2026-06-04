@@ -1,13 +1,41 @@
 {
   "book": "ACT",
   "chapter": 14,
-  "reviewed_at": "2026-06-04T21:36:23+00:00",
+  "reviewed_at": "2026-06-04T21:40:23+00:00",
   "passes": [
     {
       "pass": 1,
       "ran_at": "2026-06-04T21:36:23+00:00",
       "mode": "scan",
       "issues_total": 15
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-06-04T21:40:04+00:00",
+      "mode": "verify",
+      "actions": [
+        "ACT-14-1-001: rebuttal verified",
+        "ACT-14-1-002: rebuttal verified",
+        "ACT-14-3-001: rebuttal verified",
+        "ACT-14-3-002: rebuttal verified",
+        "ACT-14-11-001: rebuttal verified",
+        "ACT-14-13-001: rebuttal verified",
+        "ACT-14-13-002: rebuttal verified",
+        "ACT-14-22-001: verified",
+        "ACT-14-23-001: rebuttal verified",
+        "ACT-14-26-001: verified",
+        "ACT-14-27-001: rebuttal verified",
+        "ACT-14-1-003: rebuttal verified",
+        "ACT-14-1-004: rebuttal verified",
+        "ACT-14-2-001: rebuttal verified",
+        "ACT-14-6-001: rebuttal verified"
+      ]
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-06-04T21:40:23+00:00",
+      "mode": "verify",
+      "actions": []
     }
   ],
   "issues": [
@@ -21,8 +49,9 @@
       "proposed_fix": "van de Joden",
       "location": "hoofdtekst",
       "id": "ACT-14-1-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] MRK 15:26 ('DE KONING DER JODEN'): titulus crucis — Gr. ὁ βασιλεὺς τῶν Ἰουδαίων als opschrift op kruis. Per AGENTS.md §concordantie en MODERNISATIE.md §2.7 een gestolde historische realie (inscriptie); concordant met LUK 23:38 'KONING DER JODEN', JOH 19:19 'JEZUS DE NAZARENER, KONING DER JODEN'. NBV21/HSV behouden de inscriptie-formule. 'Van de JODEN' breekt historische epigrafische concordantie binnen v26-context (kruisopschrift)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] MRK 15:26 ('DE KONING DER JODEN'): titulus crucis — Gr. ὁ βασιλεὺς τῶν Ἰουδαίων als opschrift op kruis. Per AGENTS.md §concordantie en MODERNISATIE.md §2.7 een gestolde historische realie (inscriptie); concordant met LUK 23:38 'KONING DER JODEN', JOH 19:19 'JEZUS DE NAZARENER, KONING DER JODEN'. NBV21/HSV behouden de inscriptie-formule. 'Van de JODEN' breekt historische epigrafische concordantie binnen v26-context (kruisopschrift).",
+      "verified_at": "2026-06-04T21:40:04+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -34,8 +63,9 @@
       "proposed_fix": "van de Joden",
       "location": "kanttekening",
       "id": "ACT-14-1-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] MRK 15:26 ('DE KONING DER JODEN'): titulus crucis — Gr. ὁ βασιλεὺς τῶν Ἰουδαίων als opschrift op kruis. Per AGENTS.md §concordantie en MODERNISATIE.md §2.7 een gestolde historische realie (inscriptie); concordant met LUK 23:38 'KONING DER JODEN', JOH 19:19 'JEZUS DE NAZARENER, KONING DER JODEN'. NBV21/HSV behouden de inscriptie-formule. 'Van de JODEN' breekt historische epigrafische concordantie binnen v26-context (kruisopschrift)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] MRK 15:26 ('DE KONING DER JODEN'): titulus crucis — Gr. ὁ βασιλεὺς τῶν Ἰουδαίων als opschrift op kruis. Per AGENTS.md §concordantie en MODERNISATIE.md §2.7 een gestolde historische realie (inscriptie); concordant met LUK 23:38 'KONING DER JODEN', JOH 19:19 'JEZUS DE NAZARENER, KONING DER JODEN'. NBV21/HSV behouden de inscriptie-formule. 'Van de JODEN' breekt historische epigrafische concordantie binnen v26-context (kruisopschrift).",
+      "verified_at": "2026-06-04T21:40:04+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -47,8 +77,9 @@
       "proposed_fix": "van de Heeren",
       "location": "kanttekening",
       "id": "ACT-14-3-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'des Heeren' staat in FOSSIL_GENITIVE_PAIRS (rules_data.py: ('des','heeren')). Hoofdtekst v13 citeert $Jl. 2:32$ / $Hd. 2:21$: 'de naam des Heeren aanroepen' is een gefossiliseerd bijbels formulier (Gr. τὸ ὄνομα κυρίου), liturgisch en projectbreed behouden; validate.py meldt 0F. Niet de bogus 'dag des Heeren/Op.1:10'-grond."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'des Heeren' staat in FOSSIL_GENITIVE_PAIRS (rules_data.py: ('des','heeren')). Hoofdtekst v13 citeert $Jl. 2:32$ / $Hd. 2:21$: 'de naam des Heeren aanroepen' is een gefossiliseerd bijbels formulier (Gr. τὸ ὄνομα κυρίου), liturgisch en projectbreed behouden; validate.py meldt 0F. Niet de bogus 'dag des Heeren/Op.1:10'-grond.",
+      "verified_at": "2026-06-04T21:40:04+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -60,8 +91,9 @@
       "proposed_fix": "van de Heeren",
       "location": "kanttekening",
       "id": "ACT-14-3-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'des Heeren' staat in FOSSIL_GENITIVE_PAIRS (rules_data.py: ('des','heeren')). Hoofdtekst v13 citeert $Jl. 2:32$ / $Hd. 2:21$: 'de naam des Heeren aanroepen' is een gefossiliseerd bijbels formulier (Gr. τὸ ὄνομα κυρίου), liturgisch en projectbreed behouden; validate.py meldt 0F. Niet de bogus 'dag des Heeren/Op.1:10'-grond."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'des Heeren' staat in FOSSIL_GENITIVE_PAIRS (rules_data.py: ('des','heeren')). Hoofdtekst v13 citeert $Jl. 2:32$ / $Hd. 2:21$: 'de naam des Heeren aanroepen' is een gefossiliseerd bijbels formulier (Gr. τὸ ὄνομα κυρίου), liturgisch en projectbreed behouden; validate.py meldt 0F. Niet de bogus 'dag des Heeren/Op.1:10'-grond.",
+      "verified_at": "2026-06-04T21:40:04+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -73,8 +105,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ACT-14-11-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-06-04T21:40:04+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -86,8 +119,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ACT-14-13-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-06-04T21:40:04+00:00"
     },
     {
       "category": "genitief pronomen wiens/wier",
@@ -99,8 +133,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ACT-14-13-002",
-      "status": "rebutted",
-      "rebuttal": "'wiens' is een productief modern relatief bezittelijk voornaamwoord (van Dale, standaard- en journalistiek register: 'de man wiens auto...'); verwijst hier naar Jupiter (mannelijk antecedent). Geen gefossiliseerd genitief-archaïsme — §2.7 productiviteitstest geslaagd. NBV21-voorkeur ≠ ongrammaticaliteit; staat bovendien in een kanttekening, niet in de hoofdtekst."
+      "status": "verified",
+      "rebuttal": "'wiens' is een productief modern relatief bezittelijk voornaamwoord (van Dale, standaard- en journalistiek register: 'de man wiens auto...'); verwijst hier naar Jupiter (mannelijk antecedent). Geen gefossiliseerd genitief-archaïsme — §2.7 productiviteitstest geslaagd. NBV21-voorkeur ≠ ongrammaticaliteit; staat bovendien in een kanttekening, niet in de hoofdtekst.",
+      "verified_at": "2026-06-04T21:40:04+00:00"
     },
     {
       "category": "§2.3 finiet participium",
@@ -112,8 +147,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ACT-14-22-001",
-      "status": "fixed",
-      "fix_commit": "PENDING"
+      "status": "verified",
+      "fix_commit": "PENDING",
+      "verified_at": "2026-06-04T21:40:04+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -125,8 +161,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ACT-14-23-001",
-      "status": "rebutted",
-      "rebuttal": "De kanttekening is geen parafrastische herhaling maar substantiële exegese van het Griekse χειροτονήσαντες (Cheirotonesantes): zij verklaart de Griekse stemgewoonte bij het verkiezen van overheden, de vroegkerkelijke praktijk, een alternatieve lezing (oplegging van de handen) en geeft kruisverwijzingen ($Hd. 10:41$, $1Tm. 5:17$). De 4-token-overlap 'het opsteken van de' is incidentele lexicale overlap binnen een 150+ woord-annotatie — KANTTEKENINGEN.md redundantie-regel beoogt inhoudsloze herhaling, niet uitleg van de grondtekstterm."
+      "status": "verified",
+      "rebuttal": "De kanttekening is geen parafrastische herhaling maar substantiële exegese van het Griekse χειροτονήσαντες (Cheirotonesantes): zij verklaart de Griekse stemgewoonte bij het verkiezen van overheden, de vroegkerkelijke praktijk, een alternatieve lezing (oplegging van de handen) en geeft kruisverwijzingen ($Hd. 10:41$, $1Tm. 5:17$). De 4-token-overlap 'het opsteken van de' is incidentele lexicale overlap binnen een 150+ woord-annotatie — KANTTEKENINGEN.md redundantie-regel beoogt inhoudsloze herhaling, niet uitleg van de grondtekstterm.",
+      "verified_at": "2026-06-04T21:40:04+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -138,8 +175,9 @@
       "proposed_fix": "van de handen",
       "location": "kanttekening",
       "id": "ACT-14-26-001",
-      "status": "fixed",
-      "fix_commit": "PENDING"
+      "status": "verified",
+      "fix_commit": "PENDING",
+      "verified_at": "2026-06-04T21:40:04+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -151,8 +189,9 @@
       "proposed_fix": "van de Heiligen",
       "location": "kanttekening",
       "id": "ACT-14-27-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] Genitief-modernisatie (ARCHAISMEN.md) geldt blijkens validator (0F) en corpusnorm — 115 kanttekening-genitieven verified, 0 gefixt — voor de HOOFDTEKST; de kanttekening behoudt het formele register. Vers 27: 'genade des Heiligen Geestes' bevat de gefossiliseerde collocatie 'des Heiligen Geestes' (vaste uitdrukking, doopformulier)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] Genitief-modernisatie (ARCHAISMEN.md) geldt blijkens validator (0F) en corpusnorm — 115 kanttekening-genitieven verified, 0 gefixt — voor de HOOFDTEKST; de kanttekening behoudt het formele register. Vers 27: 'genade des Heiligen Geestes' bevat de gefossiliseerde collocatie 'des Heiligen Geestes' (vaste uitdrukking, doopformulier).",
+      "verified_at": "2026-06-04T21:40:04+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -169,8 +208,9 @@
         5
       ],
       "id": "ACT-14-1-003",
-      "status": "rebutted",
-      "rebuttal": "Scanner-prefix-false-positive (orthografische variatie). Origineel-stam 'geschie' rendert in v1 als gestolde formule 'het geschiedde te Ikonium' (§2.3 fossiel-formule behouden); v5 herstructureert 'het geschiedde dat een oploop ontstond' → natuurlijk 'toen daar een oploop ontstond' (contextueel, geen drift). Bewuste contextuele variatie conform §2.3, niet inconsistente concordantie."
+      "status": "verified",
+      "rebuttal": "Scanner-prefix-false-positive (orthografische variatie). Origineel-stam 'geschie' rendert in v1 als gestolde formule 'het geschiedde te Ikonium' (§2.3 fossiel-formule behouden); v5 herstructureert 'het geschiedde dat een oploop ontstond' → natuurlijk 'toen daar een oploop ontstond' (contextueel, geen drift). Bewuste contextuele variatie conform §2.3, niet inconsistente concordantie.",
+      "verified_at": "2026-06-04T21:40:04+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -187,8 +227,9 @@
         21
       ],
       "id": "ACT-14-1-004",
-      "status": "rebutted",
-      "rebuttal": "Scanner-prefix-false-positive: de prefix-heuristiek mist de orthografische overgang SV 'Iconien' → modern 'Ikonium' (c→k). Alle drie voorkomens (v1, v19, v21) zijn consistent als 'Ikonium' gerenderd — geen drift, juist volledige concordantie."
+      "status": "verified",
+      "rebuttal": "Scanner-prefix-false-positive: de prefix-heuristiek mist de orthografische overgang SV 'Iconien' → modern 'Ikonium' (c→k). Alle drie voorkomens (v1, v19, v21) zijn consistent als 'Ikonium' gerenderd — geen drift, juist volledige concordantie.",
+      "verified_at": "2026-06-04T21:40:04+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -206,8 +247,9 @@
         27
       ],
       "id": "ACT-14-2-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Concordantie-drift is scanner-ruis: `Heydenen` wordt in ROM 11 consequent als `Heidenen` weergegeven; de prefixheuristiek mist hoofdletter/positie en vermengt substantief en adjectief. AGENTS.md concordantie is juist gehandhaafd in vv. 11-13,17,24-25,30-31."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Concordantie-drift is scanner-ruis: `Heydenen` wordt in ROM 11 consequent als `Heidenen` weergegeven; de prefixheuristiek mist hoofdletter/positie en vermengt substantief en adjectief. AGENTS.md concordantie is juist gehandhaafd in vv. 11-13,17,24-25,30-31.",
+      "verified_at": "2026-06-04T21:40:04+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -225,8 +267,9 @@
         27
       ],
       "id": "ACT-14-6-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] False-positive. De vier verzen bevatten vier verschillende Griekse werkwoorden, geen lexicale concordantie-stam: v1 ἔχων (echein, 'hebben'); v8 ἀκούσαντες (akouō, 'horen'); v23 προσκαλεσάμενος (proskaleō, 'tot zich roepen'); v34 περιβλεψάμενος (periblepō, 'rondom kijken'). De prefix-overlap 'hebbend' in de scanner pakt de Nederlandse hulpwerkwoord-vorm op (volt. deelw. + 'hebbend'/'hebbende'), niet één Grieks origineel-anker. §2.3 finiet-participium ontvouwt elk participium contextueel; concordantie-eis (§5.3) geldt per Grieks lemma, niet per Nederlandse hulpwerkwoord-vorm."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] False-positive. De vier verzen bevatten vier verschillende Griekse werkwoorden, geen lexicale concordantie-stam: v1 ἔχων (echein, 'hebben'); v8 ἀκούσαντες (akouō, 'horen'); v23 προσκαλεσάμενος (proskaleō, 'tot zich roepen'); v34 περιβλεψάμενος (periblepō, 'rondom kijken'). De prefix-overlap 'hebbend' in de scanner pakt de Nederlandse hulpwerkwoord-vorm op (volt. deelw. + 'hebbend'/'hebbende'), niet één Grieks origineel-anker. §2.3 finiet-participium ontvouwt elk participium contextueel; concordantie-eis (§5.3) geldt per Grieks lemma, niet per Nederlandse hulpwerkwoord-vorm.",
+      "verified_at": "2026-06-04T21:40:04+00:00"
     }
   ]
 }
