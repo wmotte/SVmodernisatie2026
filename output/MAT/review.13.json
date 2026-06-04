@@ -1,13 +1,52 @@
 {
   "book": "MAT",
   "chapter": 13,
-  "reviewed_at": "2026-06-04T20:54:13+00:00",
+  "reviewed_at": "2026-06-04T20:57:02+00:00",
   "passes": [
     {
       "pass": 1,
       "ran_at": "2026-06-04T20:54:13+00:00",
       "mode": "scan",
       "issues_total": 32
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-06-04T20:57:02+00:00",
+      "mode": "verify",
+      "actions": [
+        "MAT-13-3-001: rebuttal verified",
+        "MAT-13-11-001: rebuttal verified",
+        "MAT-13-14-001: rebuttal verified",
+        "MAT-13-14-002: rebuttal verified",
+        "MAT-13-14-003: rebuttal verified",
+        "MAT-13-17-001: rebuttal verified",
+        "MAT-13-24-001: rebuttal verified",
+        "MAT-13-27-001: rebuttal verified",
+        "MAT-13-31-001: rebuttal verified",
+        "MAT-13-33-001: rebuttal verified",
+        "MAT-13-35-001: rebuttal verified",
+        "MAT-13-37-001: rebuttal verified",
+        "MAT-13-41-001: rebuttal verified",
+        "MAT-13-42-001: rebuttal verified",
+        "MAT-13-42-002: rebuttal verified",
+        "MAT-13-44-001: rebuttal verified",
+        "MAT-13-44-002: rebuttal verified",
+        "MAT-13-45-001: rebuttal verified",
+        "MAT-13-45-002: rebuttal verified",
+        "MAT-13-47-001: rebuttal verified",
+        "MAT-13-47-002: rebuttal verified",
+        "MAT-13-49-001: rebuttal verified",
+        "MAT-13-50-001: rebuttal verified",
+        "MAT-13-50-002: rebuttal verified",
+        "MAT-13-52-001: rebuttal verified",
+        "MAT-13-52-002: rebuttal verified",
+        "MAT-13-3-002: rebuttal verified",
+        "MAT-13-3-003: rebuttal verified",
+        "MAT-13-5-001: rebuttal verified",
+        "MAT-13-6-001: rebuttal verified",
+        "MAT-13-23-001: rebuttal verified",
+        "MAT-13-42-003: rebuttal verified"
+      ]
     }
   ],
   "issues": [
@@ -21,8 +60,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "MAT-13-3-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-06-04T20:57:02+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -34,8 +74,9 @@
       "proposed_fix": "van de hemelen",
       "location": "hoofdtekst",
       "id": "MAT-13-11-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Koninkrijk der hemelen' is gefossiliseerde bijbeluitdrukking voor Gr. βασιλεία τῶν οὐρανῶν. Standaard in NL bijbelvertalingen (NBV21, HSV); MODERNISATIE.md §2.7 erkent lexicale fossielen — geen productieve genitief."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Koninkrijk der hemelen' is gefossiliseerde bijbeluitdrukking voor Gr. βασιλεία τῶν οὐρανῶν. Standaard in NL bijbelvertalingen (NBV21, HSV); MODERNISATIE.md §2.7 erkent lexicale fossielen — geen productieve genitief.",
+      "verified_at": "2026-06-04T20:57:02+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -47,8 +88,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "MAT-13-14-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'geenszins' rendert οὐ μή (dubbele ontkenning, emfatisch). Productief in modern formeel/juridisch Nederlands ('geenszins akkoord', 'geenszins toegestaan'). MODERNISATIE.md §2.7 productiviteitstest slaagt; modern equivalent 'beslist niet' verzwakt de Griekse nadrukkelijke ontkenning."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'geenszins' rendert οὐ μή (dubbele ontkenning, emfatisch). Productief in modern formeel/juridisch Nederlands ('geenszins akkoord', 'geenszins toegestaan'). MODERNISATIE.md §2.7 productiviteitstest slaagt; modern equivalent 'beslist niet' verzwakt de Griekse nadrukkelijke ontkenning.",
+      "verified_at": "2026-06-04T20:57:02+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -60,8 +102,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "MAT-13-14-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'geenszins' rendert οὐ μή (dubbele ontkenning, emfatisch). Productief in modern formeel/juridisch Nederlands ('geenszins akkoord', 'geenszins toegestaan'). MODERNISATIE.md §2.7 productiviteitstest slaagt; modern equivalent 'beslist niet' verzwakt de Griekse nadrukkelijke ontkenning."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'geenszins' rendert οὐ μή (dubbele ontkenning, emfatisch). Productief in modern formeel/juridisch Nederlands ('geenszins akkoord', 'geenszins toegestaan'). MODERNISATIE.md §2.7 productiviteitstest slaagt; modern equivalent 'beslist niet' verzwakt de Griekse nadrukkelijke ontkenning.",
+      "verified_at": "2026-06-04T20:57:02+00:00"
     },
     {
       "category": "voornaamwoordelijk bijwoord gesplitst",
@@ -73,8 +116,9 @@
       "proposed_fix": "hierbij",
       "location": "kanttekening",
       "id": "MAT-13-14-003",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] In vers 1 betekent 'Hij voegt Timotheüs hier bij zich' niet het pronominale bijwoord 'hierbij', maar 'op deze plaats in de brief voegt Paulus Timotheüs bij zichzelf'. ARCHAISMEN.md raakt gesplitste vormen als `daarin`/`waarmee`; deze locatieve `hier` + PP `bij zich` is versspecifiek en zou door samentrekking semantisch verschuiven."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] In vers 1 betekent 'Hij voegt Timotheüs hier bij zich' niet het pronominale bijwoord 'hierbij', maar 'op deze plaats in de brief voegt Paulus Timotheüs bij zichzelf'. ARCHAISMEN.md raakt gesplitste vormen als `daarin`/`waarmee`; deze locatieve `hier` + PP `bij zich` is versspecifiek en zou door samentrekking semantisch verschuiven.",
+      "verified_at": "2026-06-04T20:57:02+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -86,8 +130,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "MAT-13-17-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Idem MRK-9-1-001: 'voorwaar, ik zeg u' = ἀμὴν λέγω ὑμῖν, gestolde SV-bijbelformule. Project-concordant in MRK/LUK. §2.7 niet van toepassing op gefossiliseerde liturgische formules."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Idem MRK-9-1-001: 'voorwaar, ik zeg u' = ἀμὴν λέγω ὑμῖν, gestolde SV-bijbelformule. Project-concordant in MRK/LUK. §2.7 niet van toepassing op gefossiliseerde liturgische formules.",
+      "verified_at": "2026-06-04T20:57:02+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -99,8 +144,9 @@
       "proposed_fix": "van de hemelen",
       "location": "hoofdtekst",
       "id": "MAT-13-24-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Koninkrijk der hemelen' is gefossiliseerde bijbeluitdrukking voor Gr. βασιλεία τῶν οὐρανῶν. Standaard in NL bijbelvertalingen (NBV21, HSV); MODERNISATIE.md §2.7 erkent lexicale fossielen — geen productieve genitief."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Koninkrijk der hemelen' is gefossiliseerde bijbeluitdrukking voor Gr. βασιλεία τῶν οὐρανῶν. Standaard in NL bijbelvertalingen (NBV21, HSV); MODERNISATIE.md §2.7 erkent lexicale fossielen — geen productieve genitief.",
+      "verified_at": "2026-06-04T20:57:02+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -112,8 +158,9 @@
       "proposed_fix": "van de huizes",
       "location": "hoofdtekst",
       "id": "MAT-13-27-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] v21 'de heere des huizes toornig' — `heer des huizes` is een gestolde uitdrukking voor `householder/master of the house` (Gr. οἰκοδεσπότης). Idem `heer/meester des huizes` in modern NL nog actief in bijbels en literair register (vgl. Van Dale; Mt. 10:25 etc.). MODERNISATIE.md §2.7: vaste-genitief-uitdrukkingen blijven, evenals `Zoon des mensen`, `vrees des Heeren`."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] v21 'de heere des huizes toornig' — `heer des huizes` is een gestolde uitdrukking voor `householder/master of the house` (Gr. οἰκοδεσπότης). Idem `heer/meester des huizes` in modern NL nog actief in bijbels en literair register (vgl. Van Dale; Mt. 10:25 etc.). MODERNISATIE.md §2.7: vaste-genitief-uitdrukkingen blijven, evenals `Zoon des mensen`, `vrees des Heeren`.",
+      "verified_at": "2026-06-04T20:57:02+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -125,8 +172,9 @@
       "proposed_fix": "van de hemelen",
       "location": "hoofdtekst",
       "id": "MAT-13-31-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Koninkrijk der hemelen' is gefossiliseerde bijbeluitdrukking voor Gr. βασιλεία τῶν οὐρανῶν. Standaard in NL bijbelvertalingen (NBV21, HSV); MODERNISATIE.md §2.7 erkent lexicale fossielen — geen productieve genitief."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Koninkrijk der hemelen' is gefossiliseerde bijbeluitdrukking voor Gr. βασιλεία τῶν οὐρανῶν. Standaard in NL bijbelvertalingen (NBV21, HSV); MODERNISATIE.md §2.7 erkent lexicale fossielen — geen productieve genitief.",
+      "verified_at": "2026-06-04T20:57:02+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -138,8 +186,9 @@
       "proposed_fix": "van de hemelen",
       "location": "hoofdtekst",
       "id": "MAT-13-33-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Koninkrijk der hemelen' is gefossiliseerde bijbeluitdrukking voor Gr. βασιλεία τῶν οὐρανῶν. Standaard in NL bijbelvertalingen (NBV21, HSV); MODERNISATIE.md §2.7 erkent lexicale fossielen — geen productieve genitief."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Koninkrijk der hemelen' is gefossiliseerde bijbeluitdrukking voor Gr. βασιλεία τῶν οὐρανῶν. Standaard in NL bijbelvertalingen (NBV21, HSV); MODERNISATIE.md §2.7 erkent lexicale fossielen — geen productieve genitief.",
+      "verified_at": "2026-06-04T20:57:02+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -151,8 +200,9 @@
       "proposed_fix": "van de wereld",
       "location": "hoofdtekst",
       "id": "MAT-13-35-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'der wereld' in 'de volken der wereld' = τὰ ἔθνη τοῦ κόσμου: gestolde genitief-constructie in bijbel-NL. HSV behoudt eveneens 'de volken van deze wereld'-vorm; fossielargument §2.3b van toepassing (vaste woordgroep, niet productieve verbuiging)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'der wereld' in 'de volken der wereld' = τὰ ἔθνη τοῦ κόσμου: gestolde genitief-constructie in bijbel-NL. HSV behoudt eveneens 'de volken van deze wereld'-vorm; fossielargument §2.3b van toepassing (vaste woordgroep, niet productieve verbuiging).",
+      "verified_at": "2026-06-04T20:57:02+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -164,8 +214,9 @@
       "proposed_fix": "van de mensen",
       "location": "hoofdtekst",
       "id": "MAT-13-37-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] Idem MRK-9-9-001/-12-001: 'Zoon des mensen' = fossiele titel uit MODERNISATIE.md §2.3b. ὁ υἱὸς τοῦ ἀνθρώπου — Markus-concordant overal in dit corpus. Niet wijzigen."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] Idem MRK-9-9-001/-12-001: 'Zoon des mensen' = fossiele titel uit MODERNISATIE.md §2.3b. ὁ υἱὸς τοῦ ἀνθρώπου — Markus-concordant overal in dit corpus. Niet wijzigen.",
+      "verified_at": "2026-06-04T20:57:02+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -177,8 +228,9 @@
       "proposed_fix": "van de mensen",
       "location": "hoofdtekst",
       "id": "MAT-13-41-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] Idem MRK-9-9-001/-12-001: 'Zoon des mensen' = fossiele titel uit MODERNISATIE.md §2.3b. ὁ υἱὸς τοῦ ἀνθρώπου — Markus-concordant overal in dit corpus. Niet wijzigen."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] Idem MRK-9-9-001/-12-001: 'Zoon des mensen' = fossiele titel uit MODERNISATIE.md §2.3b. ὁ υἱὸς τοῦ ἀνθρώπου — Markus-concordant overal in dit corpus. Niet wijzigen.",
+      "verified_at": "2026-06-04T20:57:02+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -190,8 +242,9 @@
       "proposed_fix": "van de tanden",
       "location": "hoofdtekst",
       "id": "MAT-13-42-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] `knersing der tanden` is biblisch-gestolde uitdrukking (Mt. 8:12, 13:42, 22:13, 25:30 — zes parallelle voorkomens). Gr. `βρυγμὸς τῶν ὀδόντων`; SV `knersinge der tanden`. Productief in bijbels-eschatologische idiom; vervanging door `het knarsen van tanden` breekt liturgisch register."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] `knersing der tanden` is biblisch-gestolde uitdrukking (Mt. 8:12, 13:42, 22:13, 25:30 — zes parallelle voorkomens). Gr. `βρυγμὸς τῶν ὀδόντων`; SV `knersinge der tanden`. Productief in bijbels-eschatologische idiom; vervanging door `het knarsen van tanden` breekt liturgisch register.",
+      "verified_at": "2026-06-04T20:57:02+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -203,8 +256,9 @@
       "proposed_fix": "van de vuurs",
       "location": "kanttekening",
       "id": "MAT-13-42-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] De niet-fossiele genitief 'poel des vuurs' is ontvouwd naar 'poel van vuur' (§2.3c-standaardregel, commit 02ee6f5). Het door verify her-gedetecteerde 'der heiligen' in 'het geloof der heiligen' (Gr. ἡ πίστις τῶν ἁγίων, v10) is een gefossiliseerde formule: ('der','heiligen') staat in FOSSIL_GENITIVE_PAIRS (rules_data.py) en blijft per §2.3c flexief; de grove verify-herscan kan de gefixte token niet isoleren van de toegestane fossiel."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] De niet-fossiele genitief 'poel des vuurs' is ontvouwd naar 'poel van vuur' (§2.3c-standaardregel, commit 02ee6f5). Het door verify her-gedetecteerde 'der heiligen' in 'het geloof der heiligen' (Gr. ἡ πίστις τῶν ἁγίων, v10) is een gefossiliseerde formule: ('der','heiligen') staat in FOSSIL_GENITIVE_PAIRS (rules_data.py) en blijft per §2.3c flexief; de grove verify-herscan kan de gefixte token niet isoleren van de toegestane fossiel.",
+      "verified_at": "2026-06-04T20:57:02+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -216,8 +270,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "MAT-13-44-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] πάλιν in v1 markeert herbezoek aan de Synagoge na MRK 1:21,39; 'wederom' is corpusconsequent (LUK 21×; MRK 2:1+2:13 verified-rebutted) en staat op lint_carryovers.py STOPLIST (regel 218). §2.7 productiviteitstest: 'wederom' blijft productief in bijbels-formeel register; renovatie ≠ hervertaling (AGENTS.md vertaalprincipe 1)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] πάλιν in v1 markeert herbezoek aan de Synagoge na MRK 1:21,39; 'wederom' is corpusconsequent (LUK 21×; MRK 2:1+2:13 verified-rebutted) en staat op lint_carryovers.py STOPLIST (regel 218). §2.7 productiviteitstest: 'wederom' blijft productief in bijbels-formeel register; renovatie ≠ hervertaling (AGENTS.md vertaalprincipe 1).",
+      "verified_at": "2026-06-04T20:57:02+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -229,8 +284,9 @@
       "proposed_fix": "van de hemelen",
       "location": "hoofdtekst",
       "id": "MAT-13-44-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Koninkrijk der hemelen' is gefossiliseerde bijbeluitdrukking voor Gr. βασιλεία τῶν οὐρανῶν. Standaard in NL bijbelvertalingen (NBV21, HSV); MODERNISATIE.md §2.7 erkent lexicale fossielen — geen productieve genitief."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Koninkrijk der hemelen' is gefossiliseerde bijbeluitdrukking voor Gr. βασιλεία τῶν οὐρανῶν. Standaard in NL bijbelvertalingen (NBV21, HSV); MODERNISATIE.md §2.7 erkent lexicale fossielen — geen productieve genitief.",
+      "verified_at": "2026-06-04T20:57:02+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -242,8 +298,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "MAT-13-45-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] πάλιν in v1 markeert herbezoek aan de Synagoge na MRK 1:21,39; 'wederom' is corpusconsequent (LUK 21×; MRK 2:1+2:13 verified-rebutted) en staat op lint_carryovers.py STOPLIST (regel 218). §2.7 productiviteitstest: 'wederom' blijft productief in bijbels-formeel register; renovatie ≠ hervertaling (AGENTS.md vertaalprincipe 1)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] πάλιν in v1 markeert herbezoek aan de Synagoge na MRK 1:21,39; 'wederom' is corpusconsequent (LUK 21×; MRK 2:1+2:13 verified-rebutted) en staat op lint_carryovers.py STOPLIST (regel 218). §2.7 productiviteitstest: 'wederom' blijft productief in bijbels-formeel register; renovatie ≠ hervertaling (AGENTS.md vertaalprincipe 1).",
+      "verified_at": "2026-06-04T20:57:02+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -255,8 +312,9 @@
       "proposed_fix": "van de hemelen",
       "location": "hoofdtekst",
       "id": "MAT-13-45-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Koninkrijk der hemelen' is gefossiliseerde bijbeluitdrukking voor Gr. βασιλεία τῶν οὐρανῶν. Standaard in NL bijbelvertalingen (NBV21, HSV); MODERNISATIE.md §2.7 erkent lexicale fossielen — geen productieve genitief."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Koninkrijk der hemelen' is gefossiliseerde bijbeluitdrukking voor Gr. βασιλεία τῶν οὐρανῶν. Standaard in NL bijbelvertalingen (NBV21, HSV); MODERNISATIE.md §2.7 erkent lexicale fossielen — geen productieve genitief.",
+      "verified_at": "2026-06-04T20:57:02+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -268,8 +326,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "MAT-13-47-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] πάλιν in v1 markeert herbezoek aan de Synagoge na MRK 1:21,39; 'wederom' is corpusconsequent (LUK 21×; MRK 2:1+2:13 verified-rebutted) en staat op lint_carryovers.py STOPLIST (regel 218). §2.7 productiviteitstest: 'wederom' blijft productief in bijbels-formeel register; renovatie ≠ hervertaling (AGENTS.md vertaalprincipe 1)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] πάλιν in v1 markeert herbezoek aan de Synagoge na MRK 1:21,39; 'wederom' is corpusconsequent (LUK 21×; MRK 2:1+2:13 verified-rebutted) en staat op lint_carryovers.py STOPLIST (regel 218). §2.7 productiviteitstest: 'wederom' blijft productief in bijbels-formeel register; renovatie ≠ hervertaling (AGENTS.md vertaalprincipe 1).",
+      "verified_at": "2026-06-04T20:57:02+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -281,8 +340,9 @@
       "proposed_fix": "van de hemelen",
       "location": "hoofdtekst",
       "id": "MAT-13-47-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Koninkrijk der hemelen' is gefossiliseerde bijbeluitdrukking voor Gr. βασιλεία τῶν οὐρανῶν. Standaard in NL bijbelvertalingen (NBV21, HSV); MODERNISATIE.md §2.7 erkent lexicale fossielen — geen productieve genitief."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Koninkrijk der hemelen' is gefossiliseerde bijbeluitdrukking voor Gr. βασιλεία τῶν οὐρανῶν. Standaard in NL bijbelvertalingen (NBV21, HSV); MODERNISATIE.md §2.7 erkent lexicale fossielen — geen productieve genitief.",
+      "verified_at": "2026-06-04T20:57:02+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -294,8 +354,9 @@
       "proposed_fix": "van de rechtvaardigen",
       "location": "hoofdtekst",
       "id": "MAT-13-49-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] v14 'in de opstanding der rechtvaardigen' — `opstanding der rechtvaardigen/doden` is een gestolde theologische genitief-uitdrukking (vgl. `opstanding der doden` Hd. 23:6, 24:21; Apostolische Geloofsbelijdenis). Gr. ἐν τῇ ἀναστάσει τῶν δικαίων is een vaste verbinding. Productief in modern bijbels-Nederlands (MODERNISATIE.md §2.7: gefossiliseerde religieuze uitdrukkingen ontsnappen aan productiviteitstest)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] v14 'in de opstanding der rechtvaardigen' — `opstanding der rechtvaardigen/doden` is een gestolde theologische genitief-uitdrukking (vgl. `opstanding der doden` Hd. 23:6, 24:21; Apostolische Geloofsbelijdenis). Gr. ἐν τῇ ἀναστάσει τῶν δικαίων is een vaste verbinding. Productief in modern bijbels-Nederlands (MODERNISATIE.md §2.7: gefossiliseerde religieuze uitdrukkingen ontsnappen aan productiviteitstest).",
+      "verified_at": "2026-06-04T20:57:02+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -307,8 +368,9 @@
       "proposed_fix": "van de tanden",
       "location": "hoofdtekst",
       "id": "MAT-13-50-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] `knersing der tanden` is biblisch-gestolde uitdrukking (Mt. 8:12, 13:42, 22:13, 25:30 — zes parallelle voorkomens). Gr. `βρυγμὸς τῶν ὀδόντων`; SV `knersinge der tanden`. Productief in bijbels-eschatologische idiom; vervanging door `het knarsen van tanden` breekt liturgisch register."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] `knersing der tanden` is biblisch-gestolde uitdrukking (Mt. 8:12, 13:42, 22:13, 25:30 — zes parallelle voorkomens). Gr. `βρυγμὸς τῶν ὀδόντων`; SV `knersinge der tanden`. Productief in bijbels-eschatologische idiom; vervanging door `het knarsen van tanden` breekt liturgisch register.",
+      "verified_at": "2026-06-04T20:57:02+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -320,8 +382,9 @@
       "proposed_fix": "van de vuurs",
       "location": "kanttekening",
       "id": "MAT-13-50-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] De niet-fossiele genitief 'poel des vuurs' is ontvouwd naar 'poel van vuur' (§2.3c-standaardregel, commit 02ee6f5). Het door verify her-gedetecteerde 'der heiligen' in 'het geloof der heiligen' (Gr. ἡ πίστις τῶν ἁγίων, v10) is een gefossiliseerde formule: ('der','heiligen') staat in FOSSIL_GENITIVE_PAIRS (rules_data.py) en blijft per §2.3c flexief; de grove verify-herscan kan de gefixte token niet isoleren van de toegestane fossiel."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] De niet-fossiele genitief 'poel des vuurs' is ontvouwd naar 'poel van vuur' (§2.3c-standaardregel, commit 02ee6f5). Het door verify her-gedetecteerde 'der heiligen' in 'het geloof der heiligen' (Gr. ἡ πίστις τῶν ἁγίων, v10) is een gefossiliseerde formule: ('der','heiligen') staat in FOSSIL_GENITIVE_PAIRS (rules_data.py) en blijft per §2.3c flexief; de grove verify-herscan kan de gefixte token niet isoleren van de toegestane fossiel.",
+      "verified_at": "2026-06-04T20:57:02+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -333,8 +396,9 @@
       "proposed_fix": "van de hemelen",
       "location": "hoofdtekst",
       "id": "MAT-13-52-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Koninkrijk der hemelen' is gefossiliseerde bijbeluitdrukking voor Gr. βασιλεία τῶν οὐρανῶν. Standaard in NL bijbelvertalingen (NBV21, HSV); MODERNISATIE.md §2.7 erkent lexicale fossielen — geen productieve genitief."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Koninkrijk der hemelen' is gefossiliseerde bijbeluitdrukking voor Gr. βασιλεία τῶν οὐρανῶν. Standaard in NL bijbelvertalingen (NBV21, HSV); MODERNISATIE.md §2.7 erkent lexicale fossielen — geen productieve genitief.",
+      "verified_at": "2026-06-04T20:57:02+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -346,8 +410,9 @@
       "proposed_fix": "van de huizes",
       "location": "hoofdtekst",
       "id": "MAT-13-52-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] v21 'de heere des huizes toornig' — `heer des huizes` is een gestolde uitdrukking voor `householder/master of the house` (Gr. οἰκοδεσπότης). Idem `heer/meester des huizes` in modern NL nog actief in bijbels en literair register (vgl. Van Dale; Mt. 10:25 etc.). MODERNISATIE.md §2.7: vaste-genitief-uitdrukkingen blijven, evenals `Zoon des mensen`, `vrees des Heeren`."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] v21 'de heere des huizes toornig' — `heer des huizes` is een gestolde uitdrukking voor `householder/master of the house` (Gr. οἰκοδεσπότης). Idem `heer/meester des huizes` in modern NL nog actief in bijbels en literair register (vgl. Van Dale; Mt. 10:25 etc.). MODERNISATIE.md §2.7: vaste-genitief-uitdrukkingen blijven, evenals `Zoon des mensen`, `vrees des Heeren`.",
+      "verified_at": "2026-06-04T20:57:02+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -377,8 +442,9 @@
         53
       ],
       "id": "MAT-13-3-002",
-      "status": "rebutted",
-      "rebuttal": "De scanner conflateert drie distincte bronwoorden onder stam 'gelijck': (a) παραβολη 'gelijkenis' (zelfst.nw., v3/10/13/18/24/31/33/34/35/44), (b) ομοια εστιν 'is gelijk aan' = gelijkenis-formule (v24/33/45/47), (c) ωσπερ (v40) / ως (v43) = vergelijkend bijwoord 'zoals'. v40 'Zoals...zo zal' rendert ωσπερ...ουτως; v43 'zoals de zon' rendert ως ο ηλιος. Het bijwoordelijke ωσπερ/ως eist 'zoals', niet de naamwoordelijke formule 'gelijk aan'. Grammaticaal gemotiveerd onderscheid, geen concordantie-drift."
+      "status": "verified",
+      "rebuttal": "De scanner conflateert drie distincte bronwoorden onder stam 'gelijck': (a) παραβολη 'gelijkenis' (zelfst.nw., v3/10/13/18/24/31/33/34/35/44), (b) ομοια εστιν 'is gelijk aan' = gelijkenis-formule (v24/33/45/47), (c) ωσπερ (v40) / ως (v43) = vergelijkend bijwoord 'zoals'. v40 'Zoals...zo zal' rendert ωσπερ...ουτως; v43 'zoals de zon' rendert ως ο ηλιος. Het bijwoordelijke ωσπερ/ως eist 'zoals', niet de naamwoordelijke formule 'gelijk aan'. Grammaticaal gemotiveerd onderscheid, geen concordantie-drift.",
+      "verified_at": "2026-06-04T20:57:02+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -398,8 +464,9 @@
         36
       ],
       "id": "MAT-13-3-003",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Concordantie-drift 'seggend' is structurele §2.3-toepassing: SV-participium 'seggende' (ALWAYS_BAD-categorie) wordt consistent ontvouwd naar finiet 'zei/zeiden' in alle 6 verzen (v4/v9/v18/v29/v34/v36). Modernisatie verwijdert participiumkop opzettelijk per regel; geen drift maar uniform §2.3-protocol."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Concordantie-drift 'seggend' is structurele §2.3-toepassing: SV-participium 'seggende' (ALWAYS_BAD-categorie) wordt consistent ontvouwd naar finiet 'zei/zeiden' in alle 6 verzen (v4/v9/v18/v29/v34/v36). Modernisatie verwijdert participiumkop opzettelijk per regel; geen drift maar uniform §2.3-protocol.",
+      "verified_at": "2026-06-04T20:57:02+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -416,8 +483,9 @@
         21
       ],
       "id": "MAT-13-5-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Scanner-prefix-heuristiek false-positive: SV 'terstondt/terstont' → contextafhankelijk 'meteen/onmiddellijk/dadelijk' (Grieks εὐθύς/εὐθέως). ARCHAISMEN.md staat lexicale spreiding toe voor εὐθύς afhankelijk van temporeel register. Cross-corpus concordant."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Scanner-prefix-heuristiek false-positive: SV 'terstondt/terstont' → contextafhankelijk 'meteen/onmiddellijk/dadelijk' (Grieks εὐθύς/εὐθέως). ARCHAISMEN.md staat lexicale spreiding toe voor εὐθύς afhankelijk van temporeel register. Cross-corpus concordant.",
+      "verified_at": "2026-06-04T20:57:02+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -434,8 +502,9 @@
         48
       ],
       "id": "MAT-13-6-001",
-      "status": "rebutted",
-      "rebuttal": "v6 'is het verbrand' rendert SV-passief 'verbrant geworden' (εκαυματισθη, aor. pass.) — modern NL perfectum-passief laat hulpww. 'geworden' vallen ('is verbrand'); 'is verbrand geworden' ware archaisch germanisme (vgl. feedback_passief_expliciteren). v15 'dik geworden' (επαχυνθη, copula worden+adjectief) en v48 'vol geworden' behouden 'geworden' terecht als koppelwerkwoord. Distincte constructies (passief-periphrase vs copula+predicaat) -> distincte weergave."
+      "status": "verified",
+      "rebuttal": "v6 'is het verbrand' rendert SV-passief 'verbrant geworden' (εκαυματισθη, aor. pass.) — modern NL perfectum-passief laat hulpww. 'geworden' vallen ('is verbrand'); 'is verbrand geworden' ware archaisch germanisme (vgl. feedback_passief_expliciteren). v15 'dik geworden' (επαχυνθη, copula worden+adjectief) en v48 'vol geworden' behouden 'geworden' terecht als koppelwerkwoord. Distincte constructies (passief-periphrase vs copula+predicaat) -> distincte weergave.",
+      "verified_at": "2026-06-04T20:57:02+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -452,8 +521,9 @@
         47
       ],
       "id": "MAT-13-23-001",
-      "status": "rebutted",
-      "rebuttal": "v23 'voortbrengt' rendert καρποφορει ('vrucht voortbrengen/dragen', SV 'vrucht draeght ende voortbrenght') — werkwoord van vrucht-productie. v30/v47 'brengt'/'tezamen brengt' renderen de συναγω-familie (v47 συναγαγουση 'samenbrengen/verzamelen'). Verschillende Griekse bronwerkwoorden met verschillende voorvoegsels (voort- vs tezamen-); de SV-stam 'brengh-' is toevallige homonymie. Semantisch correct onderscheid, geen drift."
+      "status": "verified",
+      "rebuttal": "v23 'voortbrengt' rendert καρποφορει ('vrucht voortbrengen/dragen', SV 'vrucht draeght ende voortbrenght') — werkwoord van vrucht-productie. v30/v47 'brengt'/'tezamen brengt' renderen de συναγω-familie (v47 συναγαγουση 'samenbrengen/verzamelen'). Verschillende Griekse bronwerkwoorden met verschillende voorvoegsels (voort- vs tezamen-); de SV-stam 'brengh-' is toevallige homonymie. Semantisch correct onderscheid, geen drift.",
+      "verified_at": "2026-06-04T20:57:02+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -470,8 +540,9 @@
         50
       ],
       "id": "MAT-13-42-003",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Concordantie-prefix 'deselve' (= 'dezelve' SV-anaforisch) false-match: v5 verwijst naar 'die zalf' (de balsem), v25 naar 'die dag', v39 naar 'hetzelfde woord' (αὐτὸν τὸν λόγον). Drie verschillende referenten, SV gebruikt 'denselven/dezelve' anaforisch — modern NL onderscheidt 'die'/'hetzelfde' per context, geen harmonisatie mogelijk zonder betekenisverlies."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Concordantie-prefix 'deselve' (= 'dezelve' SV-anaforisch) false-match: v5 verwijst naar 'die zalf' (de balsem), v25 naar 'die dag', v39 naar 'hetzelfde woord' (αὐτὸν τὸν λόγον). Drie verschillende referenten, SV gebruikt 'denselven/dezelve' anaforisch — modern NL onderscheidt 'die'/'hetzelfde' per context, geen harmonisatie mogelijk zonder betekenisverlies.",
+      "verified_at": "2026-06-04T20:57:02+00:00"
     }
   ]
 }
