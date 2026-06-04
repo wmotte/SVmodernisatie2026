@@ -121,6 +121,33 @@
       "generated_at": "2026-06-04T22:05:12.827153Z",
       "model": "claude-opus-4-8[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 13,
+      "original": "Ende na dat <Namelick, Paulus ende Barnabas.> dese swegen, <D. begon te spreken. Hebr.> antwoordde <Namel. Alphei sone, Iacobus de kleyne. Siet van hem Actor. 12.17.> Iacobus, seggende, Mannen broeders hoort my.",
+      "modernized": "En nadat <Namelijk, Paulus en Barnabas.> dezen gezwegen hadden, <Dat is, begon te spreken. Een Hebreeuwse wijze van spreken.> antwoordde <Namelijk, de zoon van Alfeüs, Jakobus de kleine. Zie over hem $Hd. 12:17$.> Jakobus en zei: Mannen broeders, hoor mij.",
+      "source_text": "μετὰ δὲ τὸ σιγῆσαι αὐτούς, ἀπεκρίθη Ἰάκωβος λέγων, Ἄνδρες ἀδελφοί, ἀκούσατέ μου·",
+      "generated_at": "2026-06-04T22:09:26.996988Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 14,
+      "original": "<Namel. Petrus, die hemselven oock soo noemt, 2.Petr. 1.1. Anders oock Simon, Matth. 10.2.> Simeon heeft verhaelt hoe Godt <D. over lange, vers 7.> eerst de Heydenen heeft <Ofte, aengesien.> besocht, om uyt [haer] een volck aen te nemen <D. voor hemselven. Ofte, in sijnen name. Ofte, dat sijn volck soude genoemt worden, vers 17.> voor sijnen name.",
+      "modernized": "<Namelijk, Petrus, die zichzelf ook zo noemt, $2Pt. 1:1$. Anders ook Simon, $Mt. 10:2$.> Simeon heeft verhaald hoe God <Dat is, lang geleden, vers 7.> eerst de Heidenen heeft <Of, acht op geslagen.> bezocht, om uit [hen] een volk aan te nemen <Dat is, voor zichzelf. Of, in zijn naam. Of, dat zijn volk genoemd zou worden, vers 17.> voor zijn naam.",
+      "source_text": "Συμεὼν ἐξηγήσατο καθὼς πρῶτον ὁ Θεὸς ἐπεσκέψατο λαβεῖν ἐξ ἐθνῶν λαὸν ἐπὶ τῷ ὀνόματι αὐτοῦ.",
+      "generated_at": "2026-06-04T22:10:01.205452Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 15,
+      "original": "Ende hier mede stemmen overeen de woorden der Propheten: gelijck geschreven is,",
+      "modernized": "En hiermee stemmen de woorden van de Profeten overeen, zoals geschreven is:",
+      "source_text": "καὶ τούτῳ συμφωνοῦσιν οἱ λόγοι τῶν προφητῶν, καθὼς γέγραπται,",
+      "generated_at": "2026-06-04T22:10:18.919421Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
