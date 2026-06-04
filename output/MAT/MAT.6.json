@@ -302,6 +302,58 @@
       "generated_at": "2026-06-04T14:56:46.203238Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 31,
+      "original": "Daerom en zijt niet besorght, seggende: Wat sullen wy eten? of wat sullen wy drincken? of waer mede sullen wy ons kleeden?",
+      "modernized": "Daarom, wees niet bezorgd en zeg: Wat zullen wij eten? Of wat zullen wij drinken? Of waarmee zullen wij ons kleden?",
+      "source_text": "μὴ οὖν μεριμνήσητε, λέγοντες, Τί φάγωμεν, ἢ τί πίωμεν, ἢ τί περιβαλώμεθα;",
+      "generated_at": "2026-06-04T15:00:38.563493Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "imperatief-meervoud -t",
+          "context": "hoofdtekst",
+          "choice": "wees / zeg (stam)",
+          "alternatives": [
+            "weest",
+            "zegt"
+          ],
+          "reason": "ARCHAISMEN.md:78: SV-imperatief-meervoud op -t harmoniseert naar de stam. Hoofdstuk-concordantie met v17/v19/v20/v26/v28 (zalf, was, verzamel, zie, let). HSV-spiegel bevestigt (Wees/zeg)."
+        }
+      ]
+    },
+    {
+      "verse_number": 32,
+      "original": "Want alle dese dingen <Namelick, met anghst ende bekommernisse, als of hare gelucksaligheyt daer inne gelegen ware.> soecken de Heydenen. Want uwe hemelsche Vader weet dat ghy alle dese dingen behoeft.",
+      "modernized": "Want al deze dingen <Namelijk, met angst en bekommernis, alsof hun gelukzaligheid daarin gelegen was.> zoeken de Heidenen. Want uw hemelse Vader weet dat u al deze dingen nodig hebt.",
+      "source_text": "πάντα γὰρ ταῦτα τὰ ἔθνη ἐπιζητεῖ· οἶδε γὰρ ὁ Πατὴρ ὑμῶν ὁ οὐράνιος ὅτι χρῄζετε τούτων ἁπάντων.",
+      "generated_at": "2026-06-04T15:01:10.648002Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 33,
+      "original": "$1.Reg. 3.13. Psalm 37.25. ende 55.23.$ Maer soeckt eerst het Koninckrijcke Godts, ende <N. Godes, gelijck uyt den Grieckschen text blijckt: Dat is, die Gode aengenaem is, voor hem bestaet, ende in den Euangelio ons geopenbaert is.> sijne gerechtigheyt, ende alle dese dingen sullen u <Gr. toegeleght, of, toegegeven, Namel. als een toemate ofte toegifte. Siet Psalm 127.2.> toegeworpen worden.",
+      "modernized": "$1Kn. 3:13; Ps. 37:25; 55:23$ Maar zoek eerst het Koninkrijk Gods en <Namelijk, Gods, zoals uit de Griekse tekst blijkt: dat is, die God aangenaam is, voor hem bestaat, en in het Evangelie ons geopenbaard is.> zijn gerechtigheid, en al deze dingen zullen u <Grieks: toegelegd, of, toegegeven, namelijk als een toemaat of toegift. Zie $Ps. 127:2$.> toegeworpen worden.",
+      "source_text": "ζητεῖτε δὲ πρῶτον τὴν βασιλείαν τοῦ Θεοῦ καὶ τὴν δικαιοσύνην αὐτοῦ, καὶ ταῦτα πάντα προστεθήσεται ὑμῖν.",
+      "generated_at": "2026-06-04T15:01:46.828985Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "imperatief-meervoud -t",
+          "context": "hoofdtekst",
+          "choice": "zoek (stam)",
+          "alternatives": [
+            "zoekt"
+          ],
+          "reason": "ARCHAISMEN.md:78: SV-imperatief-meervoud op -t harmoniseert naar de stam. Hoofdstuk-concordantie met v17/v19/v20/v26/v28. Lukaanse parallel LUK 12:31 idem. HSV-spiegel bevestigt (zoek)."
+        }
+      ]
     }
   ]
 }
