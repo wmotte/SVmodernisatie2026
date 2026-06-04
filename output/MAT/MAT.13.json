@@ -557,6 +557,56 @@
           "reason": "Modern 'zich ontzetten' = bevrijden/met afschuw vervullen, niet ekplessomai (verbaasd/versteld zijn); false friend. Concordant met de directe synoptische parallel $Mk. 6:2$ ('ontsetteden haer' -> 'stonden versteld') en met $Mt. 7:28; Mk. 1:22; Lk. 4:32; Lk. 9:43$, die dezelfde SV-'ontsetten' steeds als 'versteld staan' weergeven; HSV-spiegel bevestigt ('versteld stonden')."
         }
       ]
+    },
+    {
+      "verse_number": 55,
+      "original": "$Ioan. 6.42.$ Is dese niet de sone des <Namelick, Iosephs, die sy meenden (doch verkeerdelick) dat sijn vader was. siet Luce 3.23. Ioan. 6.42.> timmermans? ende is sijne moeder niet genaemt Maria, ende sijn <D. bloetverwanten: want Iacobus ende Ioses waren sonen van de suster van Christi moeder: gelijck men kan sien Ioa. 19.25. Vergeleken met Matth. 27.56. en Marc. 15.40.> broeders Iacobus ende Ioses, ende Simon ende Iudas?",
+      "modernized": "$Jh. 6:42$ Is deze niet de zoon van de <Namelijk, Jozefs, die zij meenden (maar ten onrechte) dat zijn vader was. Zie $Lk. 3:23; Jh. 6:42$.> timmerman? en heet zijn moeder niet Maria, en zijn <Dat is, bloedverwanten: want Jakobus en Joses waren zonen van de zuster van Christus' moeder, zoals men kan zien in $Jh. 19:25$, vergeleken met $Mt. 27:56$ en $Mk. 15:40$.> broers Jakobus en Joses, en Simon en Judas?",
+      "source_text": "οὐχ οὗτός ἐστιν ὁ τοῦ τέκτονος Υἱός; οὐχὶ ἡ μήτηρ αὐτοῦ λέγεται Μαριάμ, καὶ οἱ ἀδελφοὶ αὐτοῦ Ἰάκωβος καὶ Ἰωσῆς καὶ Σίμων καὶ Ἰούδας;",
+      "generated_at": "2026-06-04T20:46:33.698747Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "heten (genaemt)",
+          "context": "hoofdtekst",
+          "choice": "heet zijn moeder niet Maria",
+          "alternatives": [
+            "wordt zijn moeder niet Maria genoemd",
+            "is zijn moeder niet Maria genaamd"
+          ],
+          "reason": "SV passief genaemt; modern heten is productief intransitief, dus renovatie niet hervertaling (MODERNISATIE.md spiegelregel)"
+        }
+      ]
+    },
+    {
+      "verse_number": 56,
+      "original": "Ende sijne susters zijnse niet alle by ons? Van waer [komt] dan desen dit alles?",
+      "modernized": "En zijn zussen, zijn zij niet allen bij ons? Vanwaar [komt] dan deze dit alles?",
+      "source_text": "καὶ αἱ ἀδελφαὶ αὐτοῦ οὐχὶ πᾶσαι πρὸς ἡμᾶς εἰσί; πόθεν οὖν τούτῳ ταῦτα πάντα;",
+      "generated_at": "2026-06-04T20:47:05.245469Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 57,
+      "original": "Ende sy wierden aen hem ge-ergert. Maer Iesus seyde tot haer, $Marc. 6 4. Luce 4.24. Ioan. 4.44.$ Een Propheet en is niet onge-eert dan in sijn vaderlant, ende in sijn huys.",
+      "modernized": "En zij namen aanstoot aan hem. Maar Jezus zei tot hen: $Mk. 6:4; Lk. 4:24; Jh. 4:44$ Een Profeet is niet ongeëerd, behalve in zijn vaderland en in zijn huis.",
+      "source_text": "καὶ ἐσκανδαλίζοντο ἐν αὐτῷ. ὁ δὲ Ἰησοῦς εἶπεν αὐτοῖς, Οὐκ ἔστι προφήτης ἄτιμος, εἰ μὴ ἐν τῇ πατρίδι αὐτοῦ καὶ ἐν τῇ οἰκίᾳ αὐτοῦ.",
+      "generated_at": "2026-06-04T20:47:38.320855Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "subject": "bronref Marc. 6 4",
+          "context": "bibref-blok",
+          "choice": "Mk. 6:4",
+          "alternatives": [],
+          "reason": "brontekst mist scheidingspunt (Marc. 6 4. i.p.v. Marc. 6.4.); handmatig hersteld voor bibref-normalisatie"
+        }
+      ]
     }
   ]
 }
