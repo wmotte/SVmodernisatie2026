@@ -127,6 +127,46 @@
       "generated_at": "2026-06-04T16:12:37.078641Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 13,
+      "original": "Sy nu siende de vrymoedigheyt Petri ende Ioannis, ende vernemende dat sy <Gr. ongeletterde, die in de scholen niet gestudeert en hadden.> ongeleerde ende <Gr. idiotai: soo worden genaemt gemeene lieden, die alleen hare eygene moederlicke tale spreken, die geen geleertheyt ofte autoriteyt in de Politie ofte Kercke en hebben, 1.Corinth. 14.16, 23, 24. 2.Corinth. 11.6.> slechte menschen waren, verwonderden haer, ende kenden haer dat sy met Iesu geweest waren.",
+      "modernized": "Toen zij nu de vrijmoedigheid van Petrus en Johannes zagen, en bemerkten dat zij <Grieks: ongeletterde, die in de scholen niet gestudeerd hadden.> ongeleerde en <Grieks: idiotai: zo worden gewone lieden genoemd, die alleen hun eigen moedertaal spreken, die geen geleerdheid of autoriteit in het staatsbestuur of de Kerk hebben, $1Kor. 14:16,23,24; 2Kor. 11:6$.> eenvoudige mensen waren, verwonderden zij zich, en herkenden hen dat zij met Jezus geweest waren.",
+      "source_text": "Θεωροῦντες δὲ τὴν τοῦ Πέτρου παρρησίαν καὶ Ἰωάννου, καὶ καταλαβόμενοι ὅτι ἄνθρωποι ἀγράμματοί εἰσι καὶ ἰδιῶται, ἐθαύμαζον, ἐπεγίνωσκόν τε αὐτοὺς ὅτι σὺν τῷ Ἰησοῦ ἦσαν.",
+      "generated_at": "2026-06-04T16:16:51.664054Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "Politie",
+          "context": "kanttekening 2 (idiotai)",
+          "choice": "staatsbestuur",
+          "alternatives": [
+            "bestuur",
+            "de burgerlijke overheid"
+          ],
+          "reason": "SV Politie (= burgerlijk/staatsbestuur) is een false friend met modern politie (police); gemoderniseerd naar staatsbestuur, waardoor de SV-cap Politie wegvalt."
+        }
+      ]
+    },
+    {
+      "verse_number": 14,
+      "original": "Ende siende den mensche by haer <Namelick, op sijne voeten, over eynde, het welck hy te voren niet en hadde konnen doen.> staen die genesen was, en hadden sy niet daer tegen te seggen.",
+      "modernized": "En toen zij de mens bij hen <Namelijk, op zijn voeten, overeind, wat hij tevoren niet had kunnen doen.> zagen staan die genezen was, hadden zij daar niets tegen te zeggen.",
+      "source_text": "τὸν δὲ ἄνθρωπον βλέποντες σὺν αὐτοῖς ἑστῶτα τὸν τεθεραπευμένον, οὐδὲν εἶχον ἀντειπεῖν.",
+      "generated_at": "2026-06-04T16:17:15.881022Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 15,
+      "original": "Ende haer geboden hebbende <Gr. wech te gaen: ’t welck niet en moet verstaen worden, datse geheel ontslagen wierden om te mogen henen gaen, maer datse uyt den Raet geleyt wierden.> uyt te gaen buyten den Raet, overleyden sy met malkanderen,",
+      "modernized": "En toen zij hun geboden hadden <Grieks: weg te gaan: wat niet zo moet worden verstaan dat zij geheel ontslagen werden om te mogen weggaan, maar dat zij uit de Raad geleid werden.> buiten de Raad te gaan, overlegden zij met elkaar,",
+      "source_text": "κελεύσαντες δὲ αὐτοὺς ἔξω τοῦ συνεδρίου ἀπελθεῖν, συνέβαλον πρὸς ἀλλήλους,",
+      "generated_at": "2026-06-04T16:17:32.844065Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
