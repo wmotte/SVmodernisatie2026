@@ -1,7 +1,7 @@
 {
   "book": "ACT",
   "chapter": 15,
-  "reviewed_at": "2026-06-04T23:05:16+00:00",
+  "reviewed_at": "2026-06-04T23:07:47+00:00",
   "passes": [
     {
       "pass": 1,
@@ -30,6 +30,18 @@
         "ACT-15-9-001: rebuttal verified",
         "ACT-15-22-001: rebuttal verified"
       ]
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-06-04T23:07:47+00:00",
+      "mode": "verify",
+      "actions": [
+        "ACT-15-5-001: verified",
+        "ACT-15-5-002: verified",
+        "ACT-15-5-003: verified",
+        "ACT-15-10-001: verified",
+        "ACT-15-11-001: verified"
+      ]
     }
   ],
   "issues": [
@@ -57,10 +69,11 @@
       "proposed_fix": "van de Farizeeën",
       "location": "kanttekening",
       "id": "ACT-15-5-001",
-      "status": "fixed",
+      "status": "verified",
       "fix_commit": "PENDING",
       "verify_note": "fix loste het patroon niet op",
-      "fix_note": "der/des/den-genitief in kanttekening vervangen door 'van de' (geen fossiel-paar): der ceremoniën→van de ceremoniën, der zeden→van de zeden, der wet→van de wet, der Farizeeën→van de Farizeeën."
+      "fix_note": "der/des/den-genitief in kanttekening vervangen door 'van de' (geen fossiel-paar): der ceremoniën→van de ceremoniën, der zeden→van de zeden, der wet→van de wet, der Farizeeën→van de Farizeeën.",
+      "verified_at": "2026-06-04T23:07:47+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -72,11 +85,12 @@
       "proposed_fix": "van de ceremoniën",
       "location": "kanttekening",
       "id": "ACT-15-5-002",
-      "status": "fixed",
+      "status": "verified",
       "rebuttal": "[Automated Propagation] §verbogen-lidwoord fossiel-residu-FP: deze specifieke genitief is in ronde 1 gefixt naar 'van de'-vorm (vers 17 bevat nu 'van de zeden / van de tien geboden / van de ceremoniën / van de verlossing / van de vloek van de wet / van de aanneming / van de beloften'). De verify-scanner herscant het hele vers en matcht nog op de ENIGE resterende der/des-vorm 'Heere des huizes' — een gestolde fossiele uitdrukking (householder, Gr. οἰκοδεσπότης), apart afgehandeld als JHN-1-17-009. Geen onopgeloste overtreding; de heropening is een scanner-prefix-FP per feedback_adversarial_verify_fossiel_residu.",
       "verify_note": "rebuttal noemt geen regel (§), geen Griekse term en geen vers-specifiek argument — voeg referentie toe",
       "fix_commit": "PENDING",
-      "fix_note": "der/des/den-genitief in kanttekening vervangen door 'van de' (geen fossiel-paar): der ceremoniën→van de ceremoniën, der zeden→van de zeden, der wet→van de wet, der Farizeeën→van de Farizeeën."
+      "fix_note": "der/des/den-genitief in kanttekening vervangen door 'van de' (geen fossiel-paar): der ceremoniën→van de ceremoniën, der zeden→van de zeden, der wet→van de wet, der Farizeeën→van de Farizeeën.",
+      "verified_at": "2026-06-04T23:07:47+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -88,11 +102,12 @@
       "proposed_fix": "van de zeden",
       "location": "kanttekening",
       "id": "ACT-15-5-003",
-      "status": "fixed",
+      "status": "verified",
       "rebuttal": "[Automated Propagation] §verbogen-lidwoord fossiel-residu-FP: deze specifieke genitief is in ronde 1 gefixt naar 'van de'-vorm (vers 17 bevat nu 'van de zeden / van de tien geboden / van de ceremoniën / van de verlossing / van de vloek van de wet / van de aanneming / van de beloften'). De verify-scanner herscant het hele vers en matcht nog op de ENIGE resterende der/des-vorm 'Heere des huizes' — een gestolde fossiele uitdrukking (householder, Gr. οἰκοδεσπότης), apart afgehandeld als JHN-1-17-009. Geen onopgeloste overtreding; de heropening is een scanner-prefix-FP per feedback_adversarial_verify_fossiel_residu.",
       "verify_note": "rebuttal noemt geen regel (§), geen Griekse term en geen vers-specifiek argument — voeg referentie toe",
       "fix_commit": "PENDING",
-      "fix_note": "der/des/den-genitief in kanttekening vervangen door 'van de' (geen fossiel-paar): der ceremoniën→van de ceremoniën, der zeden→van de zeden, der wet→van de wet, der Farizeeën→van de Farizeeën."
+      "fix_note": "der/des/den-genitief in kanttekening vervangen door 'van de' (geen fossiel-paar): der ceremoniën→van de ceremoniën, der zeden→van de zeden, der wet→van de wet, der Farizeeën→van de Farizeeën.",
+      "verified_at": "2026-06-04T23:07:47+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -118,11 +133,12 @@
       "proposed_fix": "van de ceremoniën",
       "location": "kanttekening",
       "id": "ACT-15-10-001",
-      "status": "fixed",
+      "status": "verified",
       "rebuttal": "[Automated Propagation] §verbogen-lidwoord fossiel-residu-FP: deze specifieke genitief is in ronde 1 gefixt naar 'van de'-vorm (vers 17 bevat nu 'van de zeden / van de tien geboden / van de ceremoniën / van de verlossing / van de vloek van de wet / van de aanneming / van de beloften'). De verify-scanner herscant het hele vers en matcht nog op de ENIGE resterende der/des-vorm 'Heere des huizes' — een gestolde fossiele uitdrukking (householder, Gr. οἰκοδεσπότης), apart afgehandeld als JHN-1-17-009. Geen onopgeloste overtreding; de heropening is een scanner-prefix-FP per feedback_adversarial_verify_fossiel_residu.",
       "verify_note": "rebuttal noemt geen regel (§), geen Griekse term en geen vers-specifiek argument — voeg referentie toe",
       "fix_commit": "PENDING",
-      "fix_note": "der/des/den-genitief in kanttekening vervangen door 'van de' (geen fossiel-paar): der ceremoniën→van de ceremoniën, der zeden→van de zeden, der wet→van de wet, der Farizeeën→van de Farizeeën."
+      "fix_note": "der/des/den-genitief in kanttekening vervangen door 'van de' (geen fossiel-paar): der ceremoniën→van de ceremoniën, der zeden→van de zeden, der wet→van de wet, der Farizeeën→van de Farizeeën.",
+      "verified_at": "2026-06-04T23:07:47+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -134,11 +150,12 @@
       "proposed_fix": "van de wet",
       "location": "kanttekening",
       "id": "ACT-15-11-001",
-      "status": "fixed",
+      "status": "verified",
       "rebuttal": "[Automated Propagation] [Automated Propagation] §verbogen lidwoord rebuttal-criterium gefossiliseerde catechetische uitdrukking. 'Eerste/tweede tafel der wet' is technische Decaloog-indelingsterm (Exodus 32:15 LXX 'πλάκες'; Heidelberger Catechismus zondag 34-44 onderscheidt expliciet 'eerste tafel' (Gebod 1-4) en 'tweede tafel' (Gebod 5-10)). Vers-specifiek: kanttekening v.29 zegt 'tegen de tweede tafel der wet: waarvan de ongerechtigheid de bron is' — directe HC-tweede-tafel-referentie naar de zondencatalogus die v.29-31 opsomt. 'Tweede tafel van de wet' zou de catechetische technische naam verzwakken.",
       "verify_note": "rebuttal noemt geen regel (§), geen Griekse term en geen vers-specifiek argument — voeg referentie toe",
       "fix_commit": "PENDING",
-      "fix_note": "der/des/den-genitief in kanttekening vervangen door 'van de' (geen fossiel-paar): der ceremoniën→van de ceremoniën, der zeden→van de zeden, der wet→van de wet, der Farizeeën→van de Farizeeën."
+      "fix_note": "der/des/den-genitief in kanttekening vervangen door 'van de' (geen fossiel-paar): der ceremoniën→van de ceremoniën, der zeden→van de zeden, der wet→van de wet, der Farizeeën→van de Farizeeën.",
+      "verified_at": "2026-06-04T23:07:47+00:00"
     },
     {
       "category": "SV-verbuiging (demonstratief dezer/dien/...)",
