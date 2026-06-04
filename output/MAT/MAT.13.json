@@ -443,6 +443,45 @@
       "generated_at": "2026-06-04T20:24:33.926897Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 46,
+      "original": "Dewelcke, hebbende een peerle van groote waerde gevonden, gingh henen ende verkocht al wat hy hadde, ende kocht deselve.",
+      "modernized": "Die, toen hij een parel van grote waarde gevonden had, heenging en verkocht al wat hij had, en kocht die.",
+      "source_text": "ὃς εὑρὼν ἕνα πολύτιμον μαργαρίτην, ἀπελθὼν πέπρακε πάντα ὅσα εἶχε, καὶ ἠγόρασεν αὐτόν.",
+      "generated_at": "2026-06-04T20:27:46.049200Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 47,
+      "original": "Wederom is het Koninckrijck der hemelen gelijck een net geworpen in de zee, ende dat allerley soorten [van visschen] t’samen brenght:",
+      "modernized": "Wederom is het Koninkrijk der hemelen gelijk aan een net, geworpen in de zee, en dat allerlei soorten [van vissen] tezamen brengt:",
+      "source_text": "Πάλιν ὁμοία ἐστὶν ἡ βασιλεία τῶν οὐρανῶν σαγήνῃ βληθείσῃ εἰς τὴν θάλασσαν, καὶ ἐκ παντὸς γένους συναγαγούσῃ·",
+      "generated_at": "2026-06-04T20:28:16.682148Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 48,
+      "original": "Het welcke wanneer het vol geworden is, [de visschers] aen den oever optrecken, ende nedersittende lesen het goede uyt in [hare] vaten, maer het quade werpen sy wech.",
+      "modernized": "Dat, wanneer het vol geworden is, [de vissers] aan de oever optrekken, en nederzittend verzamelen zij het goede in [hun] vaten, maar het kwade werpen zij weg.",
+      "source_text": "ἥν, ὅτε ἐπληρώθη, ἀναβιβάσαντες ἐπὶ τὸν αἰγιαλόν, καὶ καθίσαντες, συνέλεξαν τὰ καλὰ εἰς ἀγγεῖα, τὰ δὲ σαπρὰ ἔξω ἔβαλον.",
+      "generated_at": "2026-06-04T20:29:06.686363Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "lesen ... uyt",
+          "context": "hoofdtekst",
+          "choice": "verzamelen",
+          "alternatives": [
+            "uitlezen"
+          ],
+          "reason": "SV uitlezen in selecterende zin (Gr. συνέλεξαν) is niet meer productief; modern uitlezen betekent klaar zijn met lezen (false friend). Verzamelen behoudt de formele betekenis."
+        }
+      ]
     }
   ]
 }
