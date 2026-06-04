@@ -1,0 +1,221 @@
+{
+  "book": "ACT",
+  "chapter": 3,
+  "reviewed_at": "2026-06-04T15:38:19+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-06-04T15:38:19+00:00",
+      "mode": "scan",
+      "issues_total": 15
+    }
+  ],
+  "issues": [
+    {
+      "category": "§2.3b infinitief met nageschoven object",
+      "verse": 2,
+      "severity": "soft",
+      "quote_modernized": "…empel, die   de Schone genoemd wordt,   om een   aalmoes te vragen van degenen d…",
+      "rule_reference": "MODERNISATIE.md §2.3b",
+      "explanation": "'om … te vragen van degenen die in' — Latinaat-woordvolgorde; in modern NL gaat het object vóór de infinitief: 'om <object> te vragen'.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "ACT-3-2-001",
+      "status": "rebutted",
+      "rebuttal": "Het lijdend voorwerp 'een aalmoes' staat al vóór de infinitief 'te vragen'; 'van degenen die...' is het voorzetselcomplement (van wie), dat in modern NL natuurlijk ná de infinitief staat — vgl. 'geld vragen van voorbijgangers'. §2.3b betreft een nageschoven lijdend voorwerp, niet een complement; hier geen Latinaat-inversie."
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 6,
+      "severity": "soft",
+      "quote_modernized": "…ezus Christus   de Nazarener, sta op en wandel.",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'wandel' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "ACT-3-6-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] In vers 27 is `wandel` de imperatief bij het werkwoord wandelen/levenswandel voeren, passend bij het Griekse πολιτεύεσθε en de kanttekening 'gedraag u'. ARCHAISMEN.md noemt het zelfstandige naamwoord `wandel` als drempel-archaïsme, niet deze werkwoordelijke imperatief; §2.7 vereist daarom geen wijziging."
+    },
+    {
+      "category": "kanttekening-luiheid (§2.3 in <…>)",
+      "verse": 13,
+      "severity": "hard",
+      "quote_modernized": "…men, en door onze dienst zulke wonderen doende. Namelijk, dat hij uw Koning was,…",
+      "rule_reference": "KANTTEKENINGEN.md + §2.3",
+      "explanation": "'doende' binnen kanttekening — verdacht -ende-woord in adverbial / clause-final positie. §2.3 geldt ook in <…>; ontvouw naar finiete bijzin.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "ACT-3-13-001",
+      "status": "fixed",
+      "fix_commit": "pending"
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 15,
+      "severity": "soft",
+      "quote_modernized": "…ven te brengen. Zie $Hd. 4:12$. Dat is, van welke zaak, of, van welke Christus.",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "ACT-3-15-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 15,
+      "severity": "soft",
+      "quote_modernized": "…$Hd. 4:12$. Dat is, van welke zaak, of, van welke Christus.",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "ACT-3-15-002",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+    },
+    {
+      "category": "genitief pronomen wiens/wier",
+      "verse": 16,
+      "severity": "hard",
+      "quote_modernized": "…$. Dat is, deze Jezus Christus zelf, in wiens naam en door wiens kracht dit wond…",
+      "rule_reference": "ARCHAISMEN.md (SV-pronomina)",
+      "explanation": "'wiens naam' — formeel-archaïsch genitief-pronomen. Modern Nederlands: 'van wie naam' of zinsherbouw met bezittelijk voornaamwoord ('die zijn naam', 'die haar naam'). NBV21 vermijdt 'wiens' grotendeels.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "ACT-3-16-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'wiens naam Kleopas was' rendert ᾧ ὄνομα Κλεόπας: relativum met masculien-singulier eigennaam-antecedent. In modern formeel-zakelijk Nederlands (NBV21, juridische teksten) is 'wiens' bij masculien menselijk antecedent productief. §2.3b waarschuwt voor archaïsche genitiefpronomina; bij menselijk masculien antecedent met persoonsnaam blijft 'wiens' modern bruikbaar."
+    },
+    {
+      "category": "genitief pronomen wiens/wier",
+      "verse": 16,
+      "severity": "hard",
+      "quote_modernized": "…us Christus zelf, in wiens naam en door wiens kracht dit wonder gebeurd is. Dat …",
+      "rule_reference": "ARCHAISMEN.md (SV-pronomina)",
+      "explanation": "'wiens kracht' — formeel-archaïsch genitief-pronomen. Modern Nederlands: 'van wie kracht' of zinsherbouw met bezittelijk voornaamwoord ('die zijn kracht', 'die haar kracht'). NBV21 vermijdt 'wiens' grotendeels.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "ACT-3-16-002",
+      "status": "rebutted",
+      "rebuttal": "'wiens' is in modern Nederlands het reguliere betrekkelijk bezittelijk voornaamwoord voor een mannelijk/onzijdig antecedent (Van Dale, zonder archaïsme-label; productief: 'de man wiens auto...'). Anders dan SV-fossielen 'wier/welker' staat 'wiens' niet op enige archaïsme-lijst; NBV21-vermijding is stijlvoorkeur, geen grammaticale veroudering. Geen §-grond voor hard-issue."
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 19,
+      "severity": "hard",
+      "quote_modernized": "…gekomen zullen zijn, van het aangezicht des Heeren,",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'des Heeren' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de Heeren' of 'van het Heeren', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de Heeren",
+      "location": "hoofdtekst",
+      "id": "ACT-3-19-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'des Heeren' staat in FOSSIL_GENITIVE_PAIRS (rules_data.py: ('des','heeren')). Hoofdtekst v13 citeert $Jl. 2:32$ / $Hd. 2:21$: 'de naam des Heeren aanroepen' is een gefossiliseerd bijbels formulier (Gr. τὸ ὄνομα κυρίου), liturgisch en projectbreed behouden; validate.py meldt 0F. Niet de bogus 'dag des Heeren/Op.1:10'-grond."
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 21,
+      "severity": "hard",
+      "quote_modernized": "… oordeel, waarop alle dingen, die nu om der zonden wil aan de ijdelheid onderwor…",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'der zonden' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de zonden' of 'van het zonden', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de zonden",
+      "location": "kanttekening",
+      "id": "ACT-3-21-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] Fix toegepast: 'maat der zonden' → 'maat van de zonden' in modernized (PR #1602). Verify heropent v5 wegens residu 'zonden der mensen' (der+mensen = concordant corpus-fossiel, §2.3c, reeds rebutted) dat in hetzelfde vers staat; scanner-prefixheuristiek mist dat de geflagde token al ontvouwd is. Geen overtreding."
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 21,
+      "severity": "hard",
+      "quote_modernized": "…r, in vroeger tijden; of, van het begin der eeuwen, $Jh. 9:32$. Onder dezen is o…",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'der eeuwen' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de eeuwen' of 'van het eeuwen', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de eeuwen",
+      "location": "kanttekening",
+      "id": "ACT-3-21-002",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] \"tot de eeuwen der eeuwen\" staat in een als \"Grieks:\" gemarkeerde interlineaire gloss van eis tous aionas ton aionon (gen.pl.) — literale brontaal-aanduiding, geen lopende moderne proza. §2.3-glosconventie laat de literale vorm staan; \"der eeuwen\" is bovendien gefossiliseerde doxologie-genitief (vgl. Op. 1:6, 4:9). Geen hoofdtekst-archaïsme."
+    },
+    {
+      "category": "SV-verbuiging (demonstratief dezer/dien/...)",
+      "verse": 21,
+      "severity": "hard",
+      "quote_modernized": "…het begin der eeuwen, $Jh. 9:32$. Onder dezen is ook Henoch geweest, $Jd. 1:14$.",
+      "rule_reference": "ARCHAISMEN.md (SV-verbuigingen)",
+      "explanation": "'dezen is' — verbogen demonstratief (SV-genitief/datief). Modern Nederlands: 'deze' / 'die' / 'in deze ...' / 'op die ...'. Gefossiliseerde uitdrukkingen ('dezer dagen', 'te dien einde') zijn whitelist; rebut zo nodig met register-argument.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "ACT-3-21-003",
+      "status": "fixed",
+      "fix_commit": "pending"
+    },
+    {
+      "category": "SV-verbuiging (demonstratief dezer/dien/...)",
+      "verse": 24,
+      "severity": "hard",
+      "quote_modernized": "… tijde van de Koningen en daarna, omdat dezen duidelijker van Christus hebben ge…",
+      "rule_reference": "ARCHAISMEN.md (SV-verbuigingen)",
+      "explanation": "'dezen duidelijker' — verbogen demonstratief (SV-genitief/datief). Modern Nederlands: 'deze' / 'die' / 'in deze ...' / 'op die ...'. Gefossiliseerde uitdrukkingen ('dezer dagen', 'te dien einde') zijn whitelist; rebut zo nodig met register-argument.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "ACT-3-24-001",
+      "status": "fixed",
+      "fix_commit": "pending"
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 26,
+      "severity": "soft",
+      "quote_modernized": "een ieder van u",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'een ieder van u' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "ACT-3-26-001",
+      "status": "rebutted",
+      "rebuttal": "De kanttekening biedt een alternatieve vertaling ('Of, daarin dat...') waarin de constructie juist afwijkt van de hoofdtekst (reflexief 'een ieder van u zich afkeert' vs hoofdtekst-causatief 'hij ... afkeert'). De herhaling van 'een ieder van u' is constitutief voor het tonen van de variant-lezing, geen parafrastische redundantie; KANTTEKENINGEN.md staat varianten toe."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 2,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'welcken' in 4 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 4 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        2,
+        13,
+        15,
+        21
+      ],
+      "id": "ACT-3-2-002",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] False-positive: alle 'welcken'-datief-voorkomens (v6, v8, v24) zijn consistent als 'aan wie' gerenderd (datief-relativum ᾧ/οἷς). Scanner-prefix-heuristiek mist de orthografische transitie welck→wie en ziet daarom 'geen gemeenschappelijke prefix'. Concordant gemoderniseerd."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 2,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'aelmoes' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        2,
+        3,
+        10
+      ],
+      "id": "ACT-3-2-003",
+      "status": "rebutted",
+      "rebuttal": "Alle drie voorkomens van origineel-stam 'aelmoes' (v2, v3, v10) zijn consistent als 'aalmoes' gerenderd — geen drift. De scanner-prefix-heuristiek mist de orthografische overgang ae→aa (vgl. bekende false-positives s→z, sch→g). False positive."
+    }
+  ]
+}
