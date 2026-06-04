@@ -482,6 +482,42 @@
           "reason": "SV uitlezen in selecterende zin (Gr. συνέλεξαν) is niet meer productief; modern uitlezen betekent klaar zijn met lezen (false friend). Verzamelen behoudt de formele betekenis."
         }
       ]
+    },
+    {
+      "verse_number": 49,
+      "original": "Alsoo sal het in de voleyndinge der eeuwen wesen: de Engelen sullen <Namelick, van Christo uytgesonden zijnde, gelijck vers 41.> uytgaen, ende de boose uyt het midden der rechtveerdige afscheyden:",
+      "modernized": "Zo zal het in de voleinding van de eeuwen zijn: de Engelen zullen <Namelijk, door Christus uitgezonden, zoals vers 41.> uitgaan, en de bozen uit het midden der rechtvaardigen afscheiden:",
+      "source_text": "οὕτως ἔσται ἐν τῇ συντελείᾳ τοῦ αἰῶνος· ἐξελεύσονται οἱ ἄγγελοι, καὶ ἀφοριοῦσι τοὺς πονηροὺς ἐκ μέσου τῶν δικαίων,",
+      "generated_at": "2026-06-04T20:33:43.516529Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 50,
+      "original": "Ende sullen deselve in den <Gr. oven des vyers, als vers 42.> vyerigen oven werpen: $Siet vers 42.$ daer sal zijn weeninge ende knersinge der tanden.",
+      "modernized": "En zullen hen in de <Grieks: oven des vuurs, als vers 42.> vurige oven werpen: $Mt. 13:42$ daar zal wening zijn en knersing der tanden.",
+      "source_text": "καὶ βαλοῦσιν αὐτοὺς εἰς τὴν κάμινον τοῦ πυρός· ἐκεῖ ἔσται ὁ κλαυθμὸς καὶ ὁ βρυγμὸς τῶν ὀδόντων.",
+      "generated_at": "2026-06-04T20:34:36.648883Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "subject": "interne kruisverwijzing",
+          "context": "hoofdtekst, $...$-blok",
+          "choice": "$Siet vers 42.$ -> $Mt. 13:42$",
+          "reason": "SV1657 marginale zelfverwijzing naar vers 42 van dit hoofdstuk; in $...$-blokken hanteert het project het moderne schriftrefformaat $Boek H:V$, dus de relatieve vers-aanduiding wordt expliciet Mt. 13:42. De relatieve aanduiding \"als vers 42\" blijft in de kanttekening bewaard."
+        }
+      ]
+    },
+    {
+      "verse_number": 51,
+      "original": "Ende Iesus seyde tot haer, Hebt ghy dit alles verstaen? Sy seyden tot hem, Ia Heere.",
+      "modernized": "En Jezus zei tot hen: Hebt u dit alles verstaan? Zij zeiden tot hem: Ja Heere.",
+      "source_text": "Λέγει αὐτοῖς ὁ Ἰησοῦς, Συνήκατε ταῦτα πάντα; λέγουσιν αὐτῷ, Ναί, Κύριε.",
+      "generated_at": "2026-06-04T20:33:43.579480Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
