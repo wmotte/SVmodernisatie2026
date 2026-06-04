@@ -359,6 +359,39 @@
       "generated_at": "2026-06-04T22:48:26.181138Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 37,
+      "original": "Ende Barnabas <Ofte, wilde.> riedt dat sy Ioannem, die genaemt is $Actor. 12.12, 25. Coloss. 4.10. 2.Timoth. 4.11. Philem. vers 24.$ Marcus, souden mede nemen.",
+      "modernized": "En Barnabas <Of, wilde.> raadde aan dat zij Johannes, die genoemd wordt $Hd. 12:12,25; Ko. 4:10; 2Tm. 4:11; Fm. 1:24$ Marcus, mee zouden nemen.",
+      "source_text": "Βαρνάβας δὲ ἐβουλεύσατο συμπαραλαβεῖν τὸν Ἰωάννην, τὸν καλούμενον Μάρκον.",
+      "generated_at": "2026-06-04T22:53:35.041813Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "reason": "Bronverwijzing 'Philem. vers 24' ($Fm. 1:24$) was in de modernisatie weggevallen; hersteld in het $...$-blok conform SV1657-origineel (5 refs). HSV-spiegel bevestigt alle vijf verwijzingen."
+        }
+      ]
+    },
+    {
+      "verse_number": 38,
+      "original": "Maer Paulus <Of, begeerde.> achtede billick dat men dien niet en soude mede nemen, die van Pamphylien aen van haer was <Gr. afgestaen. Siet Actor. 13.13.> afgeweken, ende met haer niet en was gegaen tot <Namelick, om den Heydenen het Euangelium te prediken, waer toe de Heylige Geest haer geroepen hadde, om dat te volbrengen, Actor. 13.2.> dat werck.",
+      "modernized": "Maar Paulus <Of, begeerde.> achtte het billijk dat men diegene niet zou meenemen, die van Pamfylië af van hen was <Grieks: afgestaan. Zie $Hd. 13:13$.> afgeweken, en met hen niet was gegaan tot <Namelijk, om de Heidenen het Evangelie te prediken, waartoe de Heilige Geest hen geroepen had, om dat te volbrengen, $Hd. 13:2$.> dat werk.",
+      "source_text": "Παῦλος δὲ ἠξίου, τὸν ἀποστάντα ἀπ’ αὐτῶν ἀπὸ Παμφυλίας, καὶ μὴ συνελθόντα αὐτοῖς εἰς τὸ ἔργον, μὴ συμπαραλαβεῖν τοῦτον.",
+      "generated_at": "2026-06-04T22:54:26.120594Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 39,
+      "original": "Daer ontstont dan eene <Of, hevigheyt, welcke dese heylige mannen overkomen is door menschelicke swackheyt, daer mede toonende waer te zijn, het gene sy van haer selven seggen, Actor. 14.15. Doch Godt heeft dit ten besten gekeert, alsoo sy aldus van malkanderen gescheyden zijnde, het Euangelium van haer in meer plaetsen seffens is verkondight geworden.> verbitteringe, alsoo dat sy van malkanderen gescheyden zijn, ende dat Barnabas Marcum mede nam, ende na Cypren afscheepte:",
+      "modernized": "Daar ontstond dan een <Of, hevigheid, die deze heilige mannen overkomen is door menselijke zwakheid, en daarmee tonen zij dat waar is wat zij van zichzelf zeggen, $Hd. 14:15$. Maar God heeft dit ten goede gekeerd, zodat, toen zij aldus van elkaar gescheiden waren, het Evangelie door hen op meer plaatsen tegelijk is verkondigd geworden.> verbittering, zodat zij van elkaar gescheiden zijn, en dat Barnabas Marcus meenam, en naar Cyprus wegvoer:",
+      "source_text": "ἐγένετο οὖν παροξυσμός, ὥστε ἀποχωρισθῆναι αὐτοὺς ἀπ’ ἀλλήλων, τόν τε Βαρνάβαν παραλαβόντα τὸν Μάρκον ἐκπλεῦσαι εἰς Κύπρον·",
+      "generated_at": "2026-06-04T22:55:07.684873Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
