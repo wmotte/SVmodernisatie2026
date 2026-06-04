@@ -302,6 +302,45 @@
       "generated_at": "2026-06-04T20:03:00.329720Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 31,
+      "original": "Ende als <Namelick, de Apostelen, door welcke dit gebedt gedaen was.> sy gebeden hadden, wiert de plaetse, in welcke sy vergadert waren, $Actor. 16.26.$ <’t Griecks woort beteeckent eygentlick op ende neder beweeght worden gelijck de baren van de zee. Met dit wonderteecken toonde Godt dat haer gebedt verhoort was.> beweeght. Ende sy wierden alle <Siet vers 8. om het Euangelium vrymoedelick midden in de vervolginge te prediken.> vervult met den Heyligen Geest, ende spraken het woort Godts met vrymoedigheyt.",
+      "modernized": "En toen <Namelijk, de Apostelen, door wie dit gebed gedaan was.> zij gebeden hadden, werd de plaats waarin zij vergaderd waren, $Hd. 16:26$ <Het Griekse woord betekent eigenlijk op en neer bewogen worden, zoals de baren van de zee. Met dit wonderteken toonde God dat hun gebed verhoord was.> bewogen. En zij werden allen <Zie vers 8. om het Evangelie vrijmoedig midden in de vervolging te prediken.> vervuld met de Heilige Geest, en spraken het woord van God met vrijmoedigheid.",
+      "source_text": "καὶ δεηθέντων αὐτῶν ἐσαλεύθη ὁ τόπος ἐν ᾧ ἦσαν συνηγμένοι, καὶ ἐπλήσθησαν ἅπαντες Πνεύματος Ἁγίου, καὶ ἐλάλουν τὸν λόγον τοῦ Θεοῦ μετὰ παρρησίας.",
+      "generated_at": "2026-06-04T20:07:10.404454Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 32,
+      "original": "Ende der menighte van de gene die geloofden was <D. seer groote eenigheyt, soo in de leere ende in het gevoelen, als in de gemoederen ende toegenegentheden tot malkanderen in liefde ende vrede.> $Actor. 2.44. 1.Petr. 3.8.$ een herte ende [een] ziele: ende niemant en seyde dat yet van het gene hy hadde, <Siet hier van Actor. cap. 2. vers 44. ende 5.4.> sijn eygen ware, maer alle dingen waren haer gemeyn.",
+      "modernized": "En de menigte van hen die geloofden was <Dat is, een zeer grote eenheid, zowel in de leer en in het gevoelen, als in de gemoederen en genegenheden tot elkaar in liefde en vrede.> $Hd. 2:44; 1Pt. 3:8$ één hart en [één] ziel: en niemand zeide dat iets van wat hij had, <Zie hierover $Hd. 2:44; 5:4$.> zijn eigen was, maar alle dingen waren hun gemeenschappelijk.",
+      "source_text": "Τοῦ δὲ πλήθους τῶν πιστευσάντων ἦν ἡ καρδία καὶ ἡ ψυχὴ μία· καὶ οὐδ’ εἷς τι τῶν ὑπαρχόντων αὐτῷ ἔλεγεν ἴδιον εἶναι, ἀλλ’ ἦν αὐτοῖς ἅπαντα κοινά.",
+      "generated_at": "2026-06-04T20:07:42.751379Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "gemeyn",
+          "context": "slotzin hoofdtekst",
+          "choice": "gemeenschappelijk",
+          "alternatives": [
+            "gemeen"
+          ],
+          "reason": "SV 'gemeyn' (Gr. κοινά) = gemeenschappelijk/gezamenlijk; modern 'gemeen' is false friend (vulgair). HSV-spiegel bevestigt 'gemeenschappelijk'; projectbreed patroon (1PET 5:5, 1JOH 2:18)."
+        }
+      ]
+    },
+    {
+      "verse_number": 33,
+      "original": "Ende de Apostelen gaven met groote <Namelick, om de herten der menschen te bewegen, Rom. cap. 1. vers 16.> kracht getuygenisse van de opstandinge des Heeren Iesu: ende daer was groote <Dat is, gunste ende aengenaemheyt by het volck, het welck van haer als van heylige ende Godtsalige lieden veel hieldt.> genade over haer alle.",
+      "modernized": "En de Apostelen gaven met grote <Namelijk, om de harten van de mensen te bewegen, $Rm. 1:16$.> kracht getuigenis van de opstanding van de Heere Jezus: en er was grote <Dat is, gunst en aangenaamheid bij het volk, dat hen als heilige en godzalige lieden hooghield.> genade over hen allen.",
+      "source_text": "καὶ μεγάλῃ δυνάμει ἀπεδίδουν τὸ μαρτύριον οἱ ἀπόστολοι τῆς ἀναστάσεως τοῦ Κυρίου Ἰησοῦ, χάρις τε μεγάλη ἦν ἐπὶ πάντας αὐτούς.",
+      "generated_at": "2026-06-04T20:08:03.027549Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
