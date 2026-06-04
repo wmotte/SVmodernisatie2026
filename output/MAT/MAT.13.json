@@ -61,6 +61,33 @@
       "generated_at": "2026-06-04T16:00:02.089392Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 7,
+      "original": "Ende een ander [deel] viel in de doornen: ende de doornen <Gr. klommen op.> wiessen op, ende verstickten het selve:",
+      "modernized": "En een ander [deel] viel in de doornen; en de doornen <Grieks: klommen op.> kwamen op en verstikten het.",
+      "source_text": "ἄλλα δὲ ἔπεσεν ἐπὶ τὰς ἀκάνθας, καὶ ἀνέβησαν αἱ ἄκανθαι καὶ ἀπέπνιξαν αὐτά.",
+      "generated_at": "2026-06-04T16:03:10.219151Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 8,
+      "original": "Ende een ander [deel] viel in de goede aerde, ende gaf vrucht, het een hondert, het ander sestigh, ende het ander dertigh [vout.]",
+      "modernized": "En een ander [deel] viel in de goede aarde, en gaf vrucht, het ene honderd, het andere zestig, en het andere dertig [voud.]",
+      "source_text": "ἄλλα δὲ ἔπεσεν ἐπὶ τὴν γῆν τὴν καλήν, καὶ ἐδίδου καρπόν, ὃ μὲν ἑκατόν, ὃ δὲ ἑξήκοντα, ὃ δὲ τριάκοντα.",
+      "generated_at": "2026-06-04T16:03:52.905536Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 9,
+      "original": "<Dat is, die van Godt, den geest des verstants ontfangen heeft., die lette hier op met aendacht, 2.Corinth. 3.5.> Wie ooren heeft om te hooren, die hoore.",
+      "modernized": "<Dat is, wie van God de Geest van het verstand ontvangen heeft, die lette hier met aandacht op, $2Kor. 3:5$.> Wie oren heeft om te horen, die hore.",
+      "source_text": "ὁ ἔχων ὦτα ἀκούειν ἀκουέτω.",
+      "generated_at": "2026-06-04T16:04:16.298299Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
