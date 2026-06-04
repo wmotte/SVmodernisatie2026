@@ -160,6 +160,33 @@
       "generated_at": "2026-06-04T16:20:12.099416Z",
       "model": "claude-opus-4-8[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 16,
+      "original": "$Luce 10.23. Ioan. 20.29. 1.Petr. 1.8.$ Doch uwe oogen zijn <Ofte, geluckigh.> saligh, om dat sy sien, ende uwe ooren om dat sy hooren.",
+      "modernized": "$Lk. 10:23; Jh. 20:29; 1Pt. 1:8$ Maar uw ogen zijn <Of, gelukkig.> zalig, omdat zij zien, en uw oren omdat zij horen.",
+      "source_text": "ὑμῶν δὲ μακάριοι οἱ ὀφθαλμοί, ὅτι βλέπουσι· καὶ τὰ ὦτα ὑμῶν, ὅτι ἀκούει.",
+      "generated_at": "2026-06-04T16:25:17.438993Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 17,
+      "original": "Want voorwaer ick segge u, $1.Petr. 1.10.$ dat vele Propheten ende rechtveerdige hebben begeert te sien de dingen <Namelick, den Messiam in den vleesche gekomen, ende sijn ampt uytvoerende. siet Ioan. 8.56. Actor. 26.6, 7.> die ghy siet, ende en hebben [se] niet gesien: ende te hooren die dingen die ghy hoort, ende en hebben [se] niet gehoort.",
+      "modernized": "Want voorwaar, ik zeg u, $1Pt. 1:10$ dat vele Profeten en rechtvaardigen hebben begeerd te zien de dingen <Namelijk, de Messias die in het vlees is gekomen en zijn ambt uitoefent. Zie $Jh. 8:56; Hd. 26:6,7$.> die u ziet, en hebben [ze] niet gezien: en te horen die dingen die u hoort, en hebben [ze] niet gehoord.",
+      "source_text": "ἀμὴν γὰρ λέγω ὑμῖν ὅτι πολλοὶ προφῆται καὶ δίκαιοι ἐπεθύμησαν ἰδεῖν ἃ βλέπετε, καὶ οὐκ εἶδον· καὶ ἀκοῦσαι ἃ ἀκούετε, καὶ οὐκ ἤκουσαν.",
+      "generated_at": "2026-06-04T16:26:06.348402Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 0
+    },
+    {
+      "verse_number": 18,
+      "original": "$Marc. 4.13. Luce 8.11.$ Ghy dan hoort de gelijckenisse van den zaeijer.",
+      "modernized": "$Mk. 4:13; Lk. 8:11$ U dan, hoor de gelijkenis van de zaaier.",
+      "source_text": "ὑμεῖς οὖν ἀκούσατε τὴν παραβολὴν τοῦ σπείροντος.",
+      "generated_at": "2026-06-04T16:26:29.632783Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 0
     }
   ]
 }
