@@ -105,3 +105,18 @@ Red bracht 8 punt(en). Verdicts: red_wins=7, green_wins=1, rule_change=0.
 - **[RG4-008] (modernisatie)** het zwaard van hem die op het paard zat, ... hetwelk uit zijn mond ging
   - regel: ARCHAISMEN.md (betrekkelijk hetwelk in hoofdtekst); MODERNISATIE.md drempel-archaisme; fix: het zwaard van hem die op het paard zat, ... dat uit zijn mond ging
   - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert. Antecedent 'het zwaard' (τῇ ῥομφαίᾳ) = concreet neutrum enkelvoud; 'hetwelk' is drempel-archaisme ->'dat'. Geen fossiel-regel beschermt het; eerdere groene verdediging gold abstracte
+
+## Ronde 5 — REV + 1CO  (2026-06-05T20:17:54.249320+00:00)
+Red bracht 4 punt(en). Verdicts: red_wins=4, green_wins=0, rule_change=0.
+- **[RG5-001] (modernisatie)** Waakt, staat in het geloof, houdt u manmoedig, wees sterk:
+  - regel: ARCHAISMEN.md:78 (imperatief-meervoud -t -> stam); durende richtlijn red-green; fix: Waak, sta in het geloof, houd u manmoedig, wees sterk:
+  - verdict: **red_wins** (scope=verse, applied=False) — Quote geverifieerd verbatim in output/1CO/1CO.16.json (16:13): 'Waakt, staat in het geloof, houdt u manmoedig, wees sterk:'. Γρηγορεῖτε/στήκετε/ἀνδρίζεσθε zijn echte 2pl-imperativi, geen participium/i
+- **[RG5-002] (modernisatie)** Waakt op rechtvaardig, en zondigt niet.
+  - regel: ARCHAISMEN.md:78 (imperatief-meervoud -t -> stam); fix: Waak op, rechtvaardig, en zondig niet.
+  - verdict: **red_wins** (scope=verse, applied=False) — Quote geverifieerd in 1CO.15.json (15:34): 'Waakt op rechtvaardig, en zondigt niet.'. ἐκνήψατε (aor.imp.2pl) + μὴ ἁμαρτάνετε (praes.imp.2pl, prohibitief), beide echte 2pl-imp. Boeknorm stam bevestigd:
+- **[RG5-003] (modernisatie)** Weest zonder aanstoot te geven en de Joden, en de Grieken
+  - regel: ARCHAISMEN.md:78 (imperatief-meervoud -t -> stam; Weest -> Wees); fix: Wees zonder aanstoot te geven en de Joden, en de Grieken
+  - verdict: **red_wins** (scope=verse, applied=False) — Quote geverifieerd in 1CO.10.json (10:32): 'Weest zonder aanstoot te geven en de Joden...'. γίνεσθε (praes.imp.2pl); zelfde lemma elders in boek als stam geverifieerd: 11:1 'Wees mijn navolgers', 15:5
+- **[RG5-004] (modernisatie)** En wordt geen afgodendienaars, evenals sommigen van hen
+  - regel: ARCHAISMEN.md:78 (imperatief-meervoud -t -> stam; wordt -> word); fix: En word geen afgodendienaars, evenals sommigen van hen
+  - verdict: **red_wins** (scope=verse, applied=False) — Quote geverifieerd in 1CO.10.json (10:7): 'En wordt geen afgodendienaars, evenals sommigen van hen...'. μηδὲ ... γίνεσθε (praes.imp.2pl, prohibitief); parallel geverifieerd 14:20 'word geen kinderen' 
