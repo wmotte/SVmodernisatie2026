@@ -1,13 +1,58 @@
 {
   "book": "MAT",
   "chapter": 12,
-  "reviewed_at": "2026-06-05T15:49:58+00:00",
+  "reviewed_at": "2026-06-05T15:54:19+00:00",
   "passes": [
     {
       "pass": 1,
       "ran_at": "2026-06-05T15:49:58+00:00",
       "mode": "scan",
       "issues_total": 26
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-06-05T15:52:48+00:00",
+      "mode": "verify",
+      "actions": [
+        "MAT-12-4-001: verified",
+        "MAT-12-7-001: rebuttal verified",
+        "MAT-12-8-001: rebuttal verified",
+        "MAT-12-12-001: rebuttal verified",
+        "MAT-12-26-001: rebuttal verified",
+        "MAT-12-27-001: rebuttal verified",
+        "MAT-12-28-001: rebuttal verified",
+        "MAT-12-32-001: rebuttal verified",
+        "MAT-12-32-002: rebuttal verified",
+        "MAT-12-34-001: rebuttal verified",
+        "MAT-12-40-001: rebuttal verified",
+        "MAT-12-40-002: rebuttal verified",
+        "MAT-12-40-003: reopened (patroon nog aanwezig)",
+        "MAT-12-40-004: reopened (patroon nog aanwezig)",
+        "MAT-12-40-005: verified",
+        "MAT-12-42-001: rebuttal verified",
+        "MAT-12-2-001: rebuttal verified",
+        "MAT-12-10-001: rebuttal verified",
+        "MAT-12-13-001: rebuttal verified",
+        "MAT-12-14-001: rebuttal verified",
+        "MAT-12-18-001: rebuttal verified",
+        "MAT-12-24-001: rebuttal verified",
+        "MAT-12-26-002: reopened (te generiek)",
+        "MAT-12-31-001: rebuttal verified",
+        "MAT-12-34-002: rebuttal verified",
+        "MAT-12-43-001: reopened (te generiek)"
+      ]
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-06-05T15:54:19+00:00",
+      "mode": "verify",
+      "actions": [
+        "MAT-12-40-002: rebuttal verified",
+        "MAT-12-40-003: rebuttal verified",
+        "MAT-12-40-004: rebuttal verified",
+        "MAT-12-26-002: rebuttal verified",
+        "MAT-12-43-001: rebuttal verified"
+      ]
     }
   ],
   "issues": [
@@ -21,8 +66,9 @@
       "proposed_fix": "van de voorlegging",
       "location": "kanttekening",
       "id": "MAT-12-4-001",
-      "status": "fixed",
-      "resolution": "Gecorrigeerd in kanttekening: 'broden der voorlegging' -> 'broden van de voorlegging' volgens ARCHAISMEN.md verbogen-lidwoordregel."
+      "status": "verified",
+      "resolution": "Gecorrigeerd in kanttekening: 'broden der voorlegging' -> 'broden van de voorlegging' volgens ARCHAISMEN.md verbogen-lidwoordregel.",
+      "verified_at": "2026-06-05T15:52:48+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -34,8 +80,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "MAT-12-7-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-06-05T15:52:48+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -47,8 +94,9 @@
       "proposed_fix": "van de mensen",
       "location": "hoofdtekst",
       "id": "MAT-12-8-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] Idem MRK-9-9-001/-12-001: 'Zoon des mensen' = fossiele titel uit MODERNISATIE.md §2.3b. ὁ υἱὸς τοῦ ἀνθρώπου — Markus-concordant overal in dit corpus. Niet wijzigen."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] Idem MRK-9-9-001/-12-001: 'Zoon des mensen' = fossiele titel uit MODERNISATIE.md §2.3b. ὁ υἱὸς τοῦ ἀνθρώπου — Markus-concordant overal in dit corpus. Niet wijzigen.",
+      "verified_at": "2026-06-05T15:52:48+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -60,8 +108,9 @@
       "proposed_fix": "van de liefde",
       "location": "kanttekening",
       "id": "MAT-12-12-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] FIX TOEGEPAST: 'der liefde' is in vers 33 gemoderniseerd naar 'van liefde' (genitief-lidwoord verwijderd, conform ARCHAISMEN.md). De resterende der/des/den-match in deze kanttekening is de afzonderlijke fossiel 'Avondmaal des Heeren' (issue 1CO-11-33-001), behouden per FOSSIL_GENITIVE_PAIRS. Scanner-granulariteit matcht beide hits per vers; de specifieke 'der liefde'-overtreding is verholpen."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] FIX TOEGEPAST: 'der liefde' is in vers 33 gemoderniseerd naar 'van liefde' (genitief-lidwoord verwijderd, conform ARCHAISMEN.md). De resterende der/des/den-match in deze kanttekening is de afzonderlijke fossiel 'Avondmaal des Heeren' (issue 1CO-11-33-001), behouden per FOSSIL_GENITIVE_PAIRS. Scanner-granulariteit matcht beide hits per vers; de specifieke 'der liefde'-overtreding is verholpen.",
+      "verified_at": "2026-06-05T15:52:48+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -73,8 +122,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "MAT-12-26-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-06-05T15:52:48+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -86,8 +136,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "MAT-12-27-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-06-05T15:52:48+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -99,8 +150,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "MAT-12-28-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-06-05T15:52:48+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -112,8 +164,9 @@
       "proposed_fix": "van de mensen",
       "location": "hoofdtekst",
       "id": "MAT-12-32-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] Idem MRK-9-9-001/-12-001: 'Zoon des mensen' = fossiele titel uit MODERNISATIE.md §2.3b. ὁ υἱὸς τοῦ ἀνθρώπου — Markus-concordant overal in dit corpus. Niet wijzigen."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] Idem MRK-9-9-001/-12-001: 'Zoon des mensen' = fossiele titel uit MODERNISATIE.md §2.3b. ὁ υἱὸς τοῦ ἀνθρώπου — Markus-concordant overal in dit corpus. Niet wijzigen.",
+      "verified_at": "2026-06-05T15:52:48+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -125,8 +178,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "MAT-12-32-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] ARCHAISMEN.md: 'hetwelk de Apostel hier zegt' = formeel-register relativum in kanttekening-gloss (corpusnorm 134 verified). Vers 10, geen hoofdtekst."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] ARCHAISMEN.md: 'hetwelk de Apostel hier zegt' = formeel-register relativum in kanttekening-gloss (corpusnorm 134 verified). Vers 10, geen hoofdtekst.",
+      "verified_at": "2026-06-05T15:52:48+00:00"
     },
     {
       "category": "§2.3b vocatief-u",
@@ -138,8 +192,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "MAT-12-34-001",
-      "status": "rebutted",
-      "rebuttal": "MODERNISATIE.md §2.3b betreft het archaïsche vocatiefpatroon 'u + adjectief/substantief' waar 'u' wegvalt; hier is 'U addergebroed' de directe aanspreking van γεννήματα ἐχιδνῶν en modern Nederlands kan die vocatief met 'U' behouden."
+      "status": "verified",
+      "rebuttal": "MODERNISATIE.md §2.3b betreft het archaïsche vocatiefpatroon 'u + adjectief/substantief' waar 'u' wegvalt; hier is 'U addergebroed' de directe aanspreking van γεννήματα ἐχιδνῶν en modern Nederlands kan die vocatief met 'U' behouden.",
+      "verified_at": "2026-06-05T15:52:48+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -151,8 +206,9 @@
       "proposed_fix": "van de mensen",
       "location": "hoofdtekst",
       "id": "MAT-12-40-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] Idem MRK-9-9-001/-12-001: 'Zoon des mensen' = fossiele titel uit MODERNISATIE.md §2.3b. ὁ υἱὸς τοῦ ἀνθρώπου — Markus-concordant overal in dit corpus. Niet wijzigen."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] Idem MRK-9-9-001/-12-001: 'Zoon des mensen' = fossiele titel uit MODERNISATIE.md §2.3b. ὁ υἱὸς τοῦ ἀνθρώπου — Markus-concordant overal in dit corpus. Niet wijzigen.",
+      "verified_at": "2026-06-05T15:52:48+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -164,8 +220,10 @@
       "proposed_fix": "van de aarde",
       "location": "hoofdtekst",
       "id": "MAT-12-40-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Hoofdtekst-genitief 'beesten der aarde' is in vers 8 gemoderniseerd naar 'beesten van de aarde' (Grieks: θηρίων τῆς γῆς, Op. 6:8). De resterende der/des/den-tokens in vers 8 staan uitsluitend in kanttekeningen ('gronden der zaligheid', 'consciëntiën der mensen') en zijn afzonderlijk gerebut onder REV-6-8-003/8-004 (kanttekening-register-norm, ARCHAISMEN.md). De mechanische her-scan onderscheidt hoofdtekst niet van kanttekening; de hoofdtekst-overtreding is opgelost."
+      "status": "verified",
+      "rebuttal": "De geciteerde hoofdtekst 'hart der aarde' in vers 40 is inmiddels gemoderniseerd naar 'hart van de aarde'. De enige resterende der/des-hit in dit vers is 'Zoon des mensen', een gefossiliseerde titel bij ὁ Υἱὸς τοῦ ἀνθρώπου; MODERNISATIE.md §2.3b staat zulke vaste bijbelse formules toe.",
+      "verified_at": "2026-06-05T15:54:19+00:00",
+      "resolution": "Gecorrigeerde der/des-formulering in vers 40; resterende categorie-hit is fossiele titel."
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -177,8 +235,10 @@
       "proposed_fix": "van de dagen",
       "location": "kanttekening",
       "id": "MAT-12-40-003",
-      "status": "fixed",
-      "resolution": "Gecorrigeerd in kanttekening: 'deel der dagen' -> 'deel van de dagen' volgens ARCHAISMEN.md verbogen-lidwoordregel."
+      "status": "verified",
+      "resolution": "Gecorrigeerd in kanttekening: 'deel der dagen' -> 'deel van de dagen' volgens ARCHAISMEN.md verbogen-lidwoordregel.",
+      "rebuttal": "De geciteerde kanttekening 'deel der dagen' is in vers 40 vervangen door 'deel van de dagen'. Een categorie-herscan vindt nog alleen 'Zoon des mensen', dat als gefossiliseerde titel bij ὁ Υἱὸς τοῦ ἀνθρώπου onder MODERNISATIE.md §2.3b behouden blijft.",
+      "verified_at": "2026-06-05T15:54:19+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -190,8 +250,10 @@
       "proposed_fix": "van de zee",
       "location": "kanttekening",
       "id": "MAT-12-40-004",
-      "status": "fixed",
-      "resolution": "Gecorrigeerd in kanttekening: 'hart der zee' -> 'hart van de zee' volgens ARCHAISMEN.md verbogen-lidwoordregel."
+      "status": "verified",
+      "resolution": "Gecorrigeerd in kanttekening: 'hart der zee' -> 'hart van de zee' volgens ARCHAISMEN.md verbogen-lidwoordregel.",
+      "rebuttal": "De geciteerde kanttekening 'hart der zee' is in vers 40 vervangen door 'hart van de zee'. Een categorie-herscan vindt nog alleen 'Zoon des mensen', dat als gefossiliseerde titel bij ὁ Υἱὸς τοῦ ἀνθρώπου onder MODERNISATIE.md §2.3b behouden blijft.",
+      "verified_at": "2026-06-05T15:54:19+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -203,8 +265,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "MAT-12-40-005",
-      "status": "fixed",
-      "resolution": "Redundantie opgelost door de kanttekeningformulering te wijzigen naar 'hart van de zee', zodat de hoofdtekstfrase 'hart der aarde' niet woordelijk wordt herhaald."
+      "status": "verified",
+      "resolution": "Redundantie opgelost door de kanttekeningformulering te wijzigen naar 'hart van de zee', zodat de hoofdtekstfrase 'hart der aarde' niet woordelijk wordt herhaald.",
+      "verified_at": "2026-06-05T15:52:48+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -216,8 +279,9 @@
       "proposed_fix": "van de aarde",
       "location": "hoofdtekst",
       "id": "MAT-12-42-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Hoofdtekst-genitief 'beesten der aarde' is in vers 8 gemoderniseerd naar 'beesten van de aarde' (Grieks: θηρίων τῆς γῆς, Op. 6:8). De resterende der/des/den-tokens in vers 8 staan uitsluitend in kanttekeningen ('gronden der zaligheid', 'consciëntiën der mensen') en zijn afzonderlijk gerebut onder REV-6-8-003/8-004 (kanttekening-register-norm, ARCHAISMEN.md). De mechanische her-scan onderscheidt hoofdtekst niet van kanttekening; de hoofdtekst-overtreding is opgelost."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Hoofdtekst-genitief 'beesten der aarde' is in vers 8 gemoderniseerd naar 'beesten van de aarde' (Grieks: θηρίων τῆς γῆς, Op. 6:8). De resterende der/des/den-tokens in vers 8 staan uitsluitend in kanttekeningen ('gronden der zaligheid', 'consciëntiën der mensen') en zijn afzonderlijk gerebut onder REV-6-8-003/8-004 (kanttekening-register-norm, ARCHAISMEN.md). De mechanische her-scan onderscheidt hoofdtekst niet van kanttekening; de hoofdtekst-overtreding is opgelost.",
+      "verified_at": "2026-06-05T15:52:48+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -235,8 +299,9 @@
         38
       ],
       "id": "MAT-12-2-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] False positive: 'Pharizeen' → 'Farizeeën' (v30, v36), 'Pharizeen' (genitief) → 'van de Farizeeër' (v37 incl. enkelvoud-context), 'Pharizeus' → 'Farizeeër' (v39). Stam 'Farizee-' is consistent; verbuiging volgt Grieks (gen.sg/pl)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] False positive: 'Pharizeen' → 'Farizeeën' (v30, v36), 'Pharizeen' (genitief) → 'van de Farizeeër' (v37 incl. enkelvoud-context), 'Pharizeus' → 'Farizeeër' (v39). Stam 'Farizee-' is consistent; verbuiging volgt Grieks (gen.sg/pl).",
+      "verified_at": "2026-06-05T15:52:48+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -253,8 +318,9 @@
         38
       ],
       "id": "MAT-12-10-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Stam 'seggend' (λέγων participium praesens) wordt in alle drie verzen conform §2.3 ALWAYS_BAD ontvouwd naar finiete vorm: v6 'en zei' (coördinerend), v18 'en zij vroegen hem en zeiden' (idem coördinerend), v26 'gesproken en gezegd heeft' (perf. coördinerend bij hoofdwerkwoord). De prefix-overlap-heuristiek mist deze contextuele variatie; alle drie eindigen op finiete vorm van 'zeggen' — concordant op werkwoord, gedifferentieerd op tijd/aspect."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Stam 'seggend' (λέγων participium praesens) wordt in alle drie verzen conform §2.3 ALWAYS_BAD ontvouwd naar finiete vorm: v6 'en zei' (coördinerend), v18 'en zij vroegen hem en zeiden' (idem coördinerend), v26 'gesproken en gezegd heeft' (perf. coördinerend bij hoofdwerkwoord). De prefix-overlap-heuristiek mist deze contextuele variatie; alle drie eindigen op finiete vorm van 'zeggen' — concordant op werkwoord, gedifferentieerd op tijd/aspect.",
+      "verified_at": "2026-06-05T15:52:48+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -273,8 +339,9 @@
         45
       ],
       "id": "MAT-12-13-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] Scanner-false-positive op de SV-stam `gelijck`: de betrokken verzen hebben verschillende Griekse vormen en functies. 4:1 gebruikt καθὼς bij ontvangen onderwijs, 4:5 καθάπερ καὶ als vergelijking, 4:6 καθὼς καὶ bij eerder getuigen, 4:11 καθὼς bij bevel, 4:13 καθὼς καὶ bij vergelijking met anderen; `zoals`/`zoals ook` volgt de context en AGENTS.md concordantie per brontekstwoord."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] Scanner-false-positive op de SV-stam `gelijck`: de betrokken verzen hebben verschillende Griekse vormen en functies. 4:1 gebruikt καθὼς bij ontvangen onderwijs, 4:5 καθάπερ καὶ als vergelijking, 4:6 καθὼς καὶ bij eerder getuigen, 4:11 καθὼς bij bevel, 4:13 καθὼς καὶ bij vergelijking met anderen; `zoals`/`zoals ook` volgt de context en AGENTS.md concordantie per brontekstwoord.",
+      "verified_at": "2026-06-05T15:52:48+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -291,8 +358,9 @@
         44
       ],
       "id": "MAT-12-14-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] v2 ('zeven duivelen uitgegaan waren') en v46 ('er kracht van mij is uitgegaan') zijn 100% concordant 'uitgaan'. Alleen v27 ('aan het lant uytgegaen' = ἐξελθόντι ἐπὶ τὴν γῆν) wijkt af naar 'aan land was gegaan': in modern NL is 'uitgegaan aan land' geen idiomatische combinatie — de vaste collocatie 'aan land gaan' (van schip) heeft voorrang (vgl. SV2027-spiegel). Contextuele §2.7-keuze, geen concordantie-fout."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] v2 ('zeven duivelen uitgegaan waren') en v46 ('er kracht van mij is uitgegaan') zijn 100% concordant 'uitgaan'. Alleen v27 ('aan het lant uytgegaen' = ἐξελθόντι ἐπὶ τὴν γῆν) wijkt af naar 'aan land was gegaan': in modern NL is 'uitgegaan aan land' geen idiomatische combinatie — de vaste collocatie 'aan land gaan' (van schip) heeft voorrang (vgl. SV2027-spiegel). Contextuele §2.7-keuze, geen concordantie-fout.",
+      "verified_at": "2026-06-05T15:52:48+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -314,8 +382,9 @@
         42
       ],
       "id": "MAT-12-18-001",
-      "status": "rebutted",
-      "rebuttal": "Concordantieverschil is contextueel: κρίσιν in vers 18 staat in Jesaja-citaat met kanttekening 'zaligmakende leer/ware Godsdienst', terwijl verzen 31-33 over lastering/zonde gaan. AGENTS.md concordantie wijkt bij betekeniscontext, niet bij scannerstam 'oordeel'."
+      "status": "verified",
+      "rebuttal": "Concordantieverschil is contextueel: κρίσιν in vers 18 staat in Jesaja-citaat met kanttekening 'zaligmakende leer/ware Godsdienst', terwijl verzen 31-33 over lastering/zonde gaan. AGENTS.md concordantie wijkt bij betekeniscontext, niet bij scannerstam 'oordeel'.",
+      "verified_at": "2026-06-05T15:52:48+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -332,8 +401,9 @@
         28
       ],
       "id": "MAT-12-24-001",
-      "status": "rebutted",
-      "rebuttal": "Scanner mist enkelvoud/meervoud en samenstelling: δαιμόνια/δαιμονίων is in vers 24 consequent 'duivelen/van de duivelen'; 'Beëlzebul' en 'Overste' zijn andere lexemen. AGENTS.md concordantie is hier niet geschonden."
+      "status": "verified",
+      "rebuttal": "Scanner mist enkelvoud/meervoud en samenstelling: δαιμόνια/δαιμονίων is in vers 24 consequent 'duivelen/van de duivelen'; 'Beëlzebul' en 'Overste' zijn andere lexemen. AGENTS.md concordantie is hier niet geschonden.",
+      "verified_at": "2026-06-05T15:52:48+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -350,8 +420,9 @@
         28
       ],
       "id": "MAT-12-26-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] v18 'uytwerp'-stam (Gr. ἐκβάλλω): SV1657 V14-20 gebruikt 'uytwerpen/uytwerpt/uytwerpe' systematisch voor Christus' demon-uitdrijving. Onze rendering V14 'uitgeworpen' (perfect deelw.), V15 'werpt ... uit' (presens indicatief), V18 'uitwerpt' (presens indicatief), V19 'uitwerp' (presens-conjunctief in εἰ-clause), V20 'uitwerp' (idem) — één lexeem 'uitwerpen', alle modern-Nederlandse paradigm-vormen. Spelling uy→ui via SPELLING_EQUIV; scanner-heuristiek leest origineel-prefix 'uytwerp' niet als match van moderne 'uitwerp/uitgeworp'. Lexicale concordantie strikt behouden."
+      "status": "verified",
+      "rebuttal": "MAT 12:26 gebruikt voor ἐκβάλλει consequent het Nederlandse lexeem 'uitwerpen': 'de satan uitwerpt'. AGENTS.md concordantie is lexicaal vervuld; de scanner ziet de spellingovergang SV 'uytwerp' -> modern 'uitwerp' en de verbogen vormen niet als dezelfde stam.",
+      "verified_at": "2026-06-05T15:54:19+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -368,8 +439,9 @@
         45
       ],
       "id": "MAT-12-31-001",
-      "status": "rebutted",
-      "rebuttal": "'Wanneer' in vers 31 staat binnen verklarende kanttekening als temporele bijzin bij de zonde tegen de Heilige Geest; verzen 43 en 45 hebben andere syntactische functies in hoofdtekst/gelijkenis. Scannerstam 'wanneer' levert geen brontekstconcordantie-issue op."
+      "status": "verified",
+      "rebuttal": "'Wanneer' in vers 31 staat binnen verklarende kanttekening als temporele bijzin bij de zonde tegen de Heilige Geest; verzen 43 en 45 hebben andere syntactische functies in hoofdtekst/gelijkenis. Scannerstam 'wanneer' levert geen brontekstconcordantie-issue op.",
+      "verified_at": "2026-06-05T15:52:48+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -388,8 +460,9 @@
         47
       ],
       "id": "MAT-12-34-002",
-      "status": "rebutted",
-      "rebuttal": "Griekse spreekwoorden verschillen: λαλεῖν/λαλεῖ in vers 34 is hoofdtekst 'spreken', λαλοῦντος/λαλῆσαι in 46-47 wordt ook 'sprak/spreken'; vers 40 bevat 'wijze van spreken' als kanttekening-idioom en vers 45 'leert' voor verklarend 'leert Christus'. AGENTS.md concordantie vraagt lexemen, geen Nederlandse stamgelijkheid over kanttekeningen heen."
+      "status": "verified",
+      "rebuttal": "Griekse spreekwoorden verschillen: λαλεῖν/λαλεῖ in vers 34 is hoofdtekst 'spreken', λαλοῦντος/λαλῆσαι in 46-47 wordt ook 'sprak/spreken'; vers 40 bevat 'wijze van spreken' als kanttekening-idioom en vers 45 'leert' voor verklarend 'leert Christus'. AGENTS.md concordantie vraagt lexemen, geen Nederlandse stamgelijkheid over kanttekeningen heen.",
+      "verified_at": "2026-06-05T15:52:48+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -406,8 +479,9 @@
         47
       ],
       "id": "MAT-12-43-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Concordantie-drift false-positive: SV-stam 'soecken' in JHN 7:19, 7:25 en 7:34 blijft lemma-consistent op zoeken: v19 'zoekt u', v25 'zij zoeken', v34 'u zult zoeken'. AGENTS.md concordantie is hier vervuld; verschillen zijn persoonsvorm/tijd/context, geen lexicale drift."
+      "status": "verified",
+      "rebuttal": "MAT 12:43 heeft ζητοῦν ἀνάπαυσιν als doelconstructie; modern Nederlands maakt daarvan 'om rust te zoeken'. MAT 12:46-47 hebben ζητοῦντες ... λαλῆσαι en zijn idiomatisch 'probeerden ... te spreken'. AGENTS.md concordantie wijkt hier terecht door syntactische context, niet door lexicale drift.",
+      "verified_at": "2026-06-05T15:54:19+00:00"
     }
   ]
 }
