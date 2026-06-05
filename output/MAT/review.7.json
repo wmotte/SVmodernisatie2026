@@ -1,7 +1,7 @@
 {
   "book": "MAT",
   "chapter": 7,
-  "reviewed_at": "2026-06-02T22:09:21+00:00",
+  "reviewed_at": "2026-06-05T04:16:26+00:00",
   "passes": [
     {
       "pass": 1,
@@ -28,6 +28,22 @@
       "ran_at": "2026-06-02T22:09:21+00:00",
       "mode": "verify",
       "actions": []
+    },
+    {
+      "pass": 4,
+      "ran_at": "2026-06-05T04:16:17.613727+00:00",
+      "mode": "in-context",
+      "issues_added": 3
+    },
+    {
+      "pass": 5,
+      "ran_at": "2026-06-05T04:16:26+00:00",
+      "mode": "verify",
+      "actions": [
+        "MAT-7-6-002: verified",
+        "MAT-7-16-001: verified",
+        "MAT-7-28-002: verified"
+      ]
     }
   ],
   "issues": [
@@ -141,6 +157,48 @@
       "status": "verified",
       "fix_commit": "pending",
       "verified_at": "2026-06-02T22:07:50+00:00"
+    },
+    {
+      "id": "MAT-7-6-002",
+      "verse": 6,
+      "category": "reflexief pronomen in haken",
+      "severity": "hard",
+      "quote_modernized": "[haar] omkeren en u verscheuren",
+      "rule_reference": "AGENTS.md Vierkante haken; MODERNISATIE.md §2.7",
+      "explanation": "SV '[haer] omkeerende' is reflexief; modern Nederlands vereist '[zich] omkeren'. '[haar] omkeren' maakt het voornaamwoord object en verschuift de betekenis.",
+      "proposed_fix": "[zich] omkeren en u verscheuren",
+      "location": "hoofdtekst",
+      "status": "verified",
+      "fix_commit": "pending",
+      "verified_at": "2026-06-05T04:16:26+00:00"
+    },
+    {
+      "id": "MAT-7-16-001",
+      "verse": 16,
+      "category": "§2.7 drempel-archaïsme / false friend",
+      "severity": "hard",
+      "quote_modernized": "Leest men ook een druif van doornen",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'Leest' in de betekenis 'plukt/verzamelt' is geen productief modern Nederlands en wordt makkelijk als lezen opgevat.",
+      "proposed_fix": "Plukt men ook een druif van doornen",
+      "location": "hoofdtekst",
+      "status": "verified",
+      "fix_commit": "pending",
+      "verified_at": "2026-06-05T04:16:26+00:00"
+    },
+    {
+      "id": "MAT-7-28-002",
+      "verse": 28,
+      "category": "§2.7 drempel-archaïsme / false friend",
+      "severity": "hard",
+      "quote_modernized": "de scharen zich ... ontzetten over zijn leer",
+      "rule_reference": "MODERNISATIE.md §2.7; Grieks ἐξεπλήσσοντο",
+      "explanation": "'zich ontzetten over' is in deze betekenis archaïsch; Grieks ἐξεπλήσσοντο duidt verbazing aan, en modern Nederlands geeft dit hier natuurlijk weer met 'versteld stonden over'.",
+      "proposed_fix": "de scharen ... versteld stonden over zijn leer",
+      "location": "hoofdtekst",
+      "status": "verified",
+      "fix_commit": "pending",
+      "verified_at": "2026-06-05T04:16:26+00:00"
     }
   ]
 }
