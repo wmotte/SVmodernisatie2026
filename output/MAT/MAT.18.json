@@ -34,6 +34,39 @@
       "generated_at": "2026-06-05T21:04:08.166059Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 4,
+      "original": "$1.Petr. 5.6.$ Soo wie dan hemselven sal vernederen gelijck dit kindeken, dese is de meeste in het Koninckrijck der hemelen.",
+      "modernized": "$1Pt. 5:6$ Wie zich dan zal vernederen als dit kind, die is de grootste in het Koninkrijk der hemelen.",
+      "notes": [
+        {
+          "type": "context",
+          "text": "HSV-spiegel wees op drempel-archaïsme in 'de meeste'; gemoderniseerd naar 'de grootste' bij SV 'meeste' en Grieks 'ὁ μείζων'."
+        }
+      ],
+      "source_text": "ὅστις οὖν ταπεινώσῃ ἑαυτὸν ὡς τὸ παιδίον τοῦτο, οὗτός ἐστιν ὁ μείζων ἐν τῇ βασιλείᾳ τῶν οὐρανῶν.",
+      "generated_at": "2026-06-05T21:09:28.740201Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 5,
+      "original": "$Marc. 9.37. Luce 9.48. Ioan. 13.20.$ Ende soo wie soodanigh een <Namelick, niet alleen in ouderdom, maer oock de gene die als kinderen nedrigh van gemoedt zijn, gelijck het volgende genoegh uytwijst, vers 6.> kindeken ontfanght in mijnen name, die ontfanght my.",
+      "modernized": "$Mk. 9:37; Lk. 9:48; Jh. 13:20$ En wie zodanig een <Namelijk, niet alleen in ouderdom, maar ook degenen die als kinderen nederig van gemoed zijn, zoals het volgende genoeg uitwijst, vers 6.> kind ontvangt in mijn naam, die ontvangt mij.",
+      "source_text": "καὶ ὃς ἐὰν δέξηται παιδίον τοιοῦτον ἓν ἐπὶ τῷ ὀνόματί μου, ἐμὲ δέχεται·",
+      "generated_at": "2026-06-05T21:09:50.504254Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 6,
+      "original": "$Marc. 9.42. Luce 17.2.$ Maer soo wie een van dese kleynen, die in my gelooven, <Dat is, yet doet, spreeckt ofte leert, waer door hy een ander tot sondigen ofte afval beweeght.> ergert, het ware hem nutter dat een <Gr. ezels meulensteen: gelijck wy souden seggen, een ros-meulensteen.> meulensteen aen sijnen hals gehangen, ende dat hy versoncken ware in de diepte der zee.",
+      "modernized": "$Mk. 9:42; Lk. 17:2$ Maar wie een van deze kleinen, die in mij geloven, <Dat is, iets doet, spreekt of leert, waardoor hij een ander tot zondigen of afval beweegt.> tot struikelen brengt, het zou beter voor hem zijn dat een <Grieks: ezelsmolensteen; zoals wij zouden zeggen: een rosmolensteen.> molensteen aan zijn hals gehangen werd en hij in de diepte van de zee verzonk.",
+      "source_text": "ὃς δ’ ἂν σκανδαλίσῃ ἕνα τῶν μικρῶν τούτων τῶν πιστευόντων εἰς ἐμέ, συμφέρει αὐτῷ ἵνα κρεμασθῇ μύλος ὀνικὸς ἐπὶ τὸν τράχηλον αὐτοῦ, καὶ καταποντισθῇ ἐν τῷ πελάγει τῆς θαλάσσης.",
+      "generated_at": "2026-06-05T21:10:39.792980Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
