@@ -1,0 +1,185 @@
+{
+  "round_no": 1,
+  "books": ["REV", "JHN"],
+  "red": [
+    {
+      "id": "RG1-001",
+      "class": "consistentie",
+      "books": ["JHN"],
+      "chapter": 20,
+      "verse": 13,
+      "quote": "Vrouw, waarom huilt u?",
+      "rule_reference": "Projectregel κλαίω→wenen; AGENTS.md concordantie",
+      "explanation": "Grieks κλαίεις (κλαίω). In hetzelfde tafereel — Maria bij het graf — rendert v11 κλαίω als 'wenen/weende' (correct), maar v13 (en v15) rendert hetzelfde lemma als 'huilt'. Binnen één hoofdstuk, één scene, één lemma: concordantiebreuk én schending van het vaste doelwoord 'wenen'.",
+      "proposed_fix": "v13: 'Vrouw, waarom weent u?'  v15: 'Vrouw, waarom weent u? Wie zoekt u?'",
+      "severity": "hard"
+    },
+    {
+      "id": "RG1-002",
+      "class": "consistentie",
+      "books": ["JHN"],
+      "chapter": 20,
+      "verse": 15,
+      "quote": "Vrouw, waarom huilt u? Wie zoekt u?",
+      "rule_reference": "Projectregel κλαίω→wenen; AGENTS.md concordantie",
+      "explanation": "Grieks κλαίεις (κλαίω), parallel aan v11 (wenen) en v13. 'huilt' breekt het lexicale anker dat in v11 nog 'wenen' is. Zelfde wortel in vier opeenvolgende verzen mag niet wisselen tussen 'wenen' en 'huilen'.",
+      "proposed_fix": "'Vrouw, waarom weent u? Wie zoekt u?'",
+      "severity": "hard"
+    },
+    {
+      "id": "RG1-003",
+      "class": "modernisatie",
+      "books": ["JHN"],
+      "chapter": 16,
+      "verse": 20,
+      "quote": "dat u zult huilen en weeklagen",
+      "rule_reference": "Projectregel κλαίω→wenen",
+      "explanation": "Grieks κλαύσετε (futurum van κλαίω). Het vaste projectdoelwoord voor κλαίω is 'wenen'. Hier 'huilen' — schending van de concordantieregel, en inconsistent met REV 5:4 / JHN 20:11 waar κλαίω wél 'wenen' is.",
+      "proposed_fix": "'dat u zult wenen en weeklagen'",
+      "severity": "hard"
+    },
+    {
+      "id": "RG1-004",
+      "class": "modernisatie",
+      "books": ["REV"],
+      "chapter": 11,
+      "verse": 12,
+      "quote": "Komt hierheen op.",
+      "rule_reference": "MODERNISATIE.md (imperatief-`-t`); ARCHAISMEN.md:78",
+      "explanation": "Grieks Ἀνάβητε = 2e pers. mv. imperatief. SV-`-t`-imperatief 'Komt' is archaïsch; concordantie harmoniseert náár de stam, nooit náár SV-`-t`. Bovendien is 'hierheen op' onhandig voor ἀνάβητε ὧδε.",
+      "proposed_fix": "'Kom hierheen omhoog.' / 'Kom hier omhoog.'",
+      "severity": "hard"
+    },
+    {
+      "id": "RG1-005",
+      "class": "consistentie",
+      "books": ["REV", "JHN"],
+      "chapter": 1,
+      "verse": 40,
+      "quote": "Komt en ziet.",
+      "rule_reference": "MODERNISATIE.md (imperatief-`-t`); ARCHAISMEN.md:78",
+      "explanation": "Grieks Ἔρχεσθε καὶ ἴδετε = 2e pers. mv. imperatieven. SV-`-t`-vormen 'Komt'/'ziet' moeten náár de stam: 'Kom en zie'. Inconsistent: REV 6:1 en 6:3 renderen Ἔρχου correct als 'Kom en zie' (enkelvoud-stam). Dezelfde imperatief-formule mag niet in JHN met `-t` blijven staan.",
+      "proposed_fix": "'Kom en zie.'",
+      "severity": "hard"
+    },
+    {
+      "id": "RG1-006",
+      "class": "modernisatie",
+      "books": ["REV"],
+      "chapter": 19,
+      "verse": 18,
+      "quote": "Opdat u eet het vlees van de Koningen",
+      "rule_reference": "MODERNISATIE.md §2.3b (patroon 1: object nageschoven; werkwoord niet finaal in bijzin)",
+      "explanation": "Letterlijke carry-over van SV 'Op dat ghy etet het vleesch' (ἵνα φάγητε σάρκας). In een moderne bijzin staat de persoonsvorm achteraan en het object ervoor; 'Opdat u eet het vlees ...' leest stug-archaïsch.",
+      "proposed_fix": "'Opdat u het vlees van de koningen eet, en het vlees van de oversten ...' (of 'zodat u ... eet').",
+      "severity": "soft"
+    },
+    {
+      "id": "RG1-007",
+      "class": "modernisatie",
+      "books": ["REV"],
+      "chapter": 4,
+      "verse": 5,
+      "quote": "zeven vurige lampen waren brandende voor de troon",
+      "rule_reference": "MODERNISATIE.md §2.3 (predicatief/periphrastisch participium)",
+      "explanation": "Grieks καιόμεναι (predicatief participium). 'waren brandende' is een periphrastische `-ende`-constructie die in modern Nederlands stug leest; ontvouw naar een finiet werkwoord.",
+      "proposed_fix": "'en zeven vurige lampen brandden voor de troon'",
+      "severity": "soft"
+    }
+  ],
+  "green": [
+    {
+      "point_id": "RG1-001",
+      "stance": "concede",
+      "rebuttal": "Geen verse-specifieke grond voor 'huilen'. In exact dezelfde scene rendert v11 κλαίω/weenende tweemaal als 'wenen/weende'; v13 (Gr. κλαίεις) hoort dan ook 'weent u'. SV-bron is hier 'wat weent ghy' — de modernisatie introduceerde 'huilt' zonder bronsteun en breekt het lexicale anker binnen één tafereel. Projectregel κλαίω→wenen is settled. Concedeer.",
+      "evidence": "κλαίεις (κλαίω) + v11 concordantie (weende/wenen) zelfde scene"
+    },
+    {
+      "point_id": "RG1-002",
+      "stance": "concede",
+      "rebuttal": "Identiek aan v13: Gr. κλαίεις, SV 'wat weent ghy', parallel aan v11 'wenen'. Vier opeenvolgende verzen (11,13,15) met hetzelfde lemma mogen niet wisselen; 'huilt' moet 'weent u'. Geen congealed-idiom dat 'huilen' hier rechtvaardigt. Concedeer.",
+      "evidence": "κλαίεις (κλαίω) + SV-bron 'weent ghy' + v11-anker"
+    },
+    {
+      "point_id": "RG1-003",
+      "stance": "concede",
+      "rebuttal": "Gr. κλαύσετε (fut. van κλαίω); vast doelwoord 'wenen'. SV-bron is 'schreijen' (= wenen-veld), niet huilen. Inconsistent met JHN 20:11 en REV 5:4 waar κλαίω 'wenen' is. 'weeklagen' (klaeghlick weenen) blijft; alleen 'huilen'→'wenen'. Concedeer.",
+      "evidence": "κλαύσετε (κλαίω) + concordantie JHN 20:11 / REV 5:4"
+    },
+    {
+      "point_id": "RG1-004",
+      "stance": "concede",
+      "rebuttal": "Gr. Ἀνάβητε = 2e mv. imperatief; ARCHAISMEN.md:78 harmoniseert SV-`-t`-imperatief náár de stam: 'Komt'→'Kom'. Geen congealed-idiom-uitzondering voor deze formule. Het HARD-issue (imperatief-`-t`) staat; de 'hierheen op'-herformulering is een legitieme bijkomende verbetering maar niet vereist. Kern wordt geconcedeerd.",
+      "evidence": "Ἀνάβητε (2pl imper.) + ARCHAISMEN.md:78 imperatief-`-t`→stam"
+    },
+    {
+      "point_id": "RG1-005",
+      "stance": "concede",
+      "rebuttal": "Gr. Ἔρχεσθε καὶ ἴδετε = twee 2e-mv. imperatieven; regel → stam 'Kom en zie'. Discriminerend bewijs: REV 6:1,3,5,7 rendert Ἔρχου al correct als 'Kom en zie'. Dezelfde formule mag in JHN niet met `-t` blijven. Concedeer.",
+      "evidence": "Ἔρχεσθε/ἴδετε (2pl imper.) + REV 6:1,3,5,7 'Kom en zie'"
+    },
+    {
+      "point_id": "RG1-006",
+      "stance": "concede",
+      "rebuttal": "Rode regelaanduiding (§2.3b patroon 1) ziet strikt op de infinitief-met-nageschoven-object; hier is 'eet' een persoonsvorm in een opdat-bijzin. Maar de onderliggende klacht klopt los van die mislabeling: een opdat-bijzin eist in modern NL werkwoord-finaal ('opdat u het vlees ... eet'); de SV-volgorde 'eet het vlees' is stug-archaïsch en valt onder §2.3-zinsbouw. Soft-fix is correct, geen verse-specifieke contra-grond. Concedeer.",
+      "evidence": "ἵνα φάγητε σάρκας + §2.3 werkwoord-finaal in opdat-bijzin"
+    },
+    {
+      "point_id": "RG1-007",
+      "stance": "concede",
+      "rebuttal": "Gr. καιόμεναι (predicatief/periphrastisch participium); 'waren brandende' is precies de `-ende`-periphrase die §2.3 HARD ontvouwt naar finiet ('brandden'). Geen congealed-idiom; geen bronwoord dat de `-ende`-vorm fossiliseert. Tekstboek-geval. Concedeer.",
+      "evidence": "καιόμεναι (predic. participium) + §2.3 periphrastisch `-ende`→finiet"
+    }
+  ],
+  "verdicts": [
+    {
+      "point_id": "RG1-001",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. κλαίω→wenen is een reeds-bestaande durende projectregel; v11 ankert 'wenen' in dezelfde scene, SV-bron 'wat weent ghy'. Bestaande regel geschonden — alleen vers fixen.",
+      "scope": "verse",
+      "applied": false
+    },
+    {
+      "point_id": "RG1-002",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. Identiek aan RG1-001: κλαίεις, SV 'weent ghy', v11-anker. Bestaande κλαίω→wenen-regel; verse-fix.",
+      "scope": "verse",
+      "applied": false
+    },
+    {
+      "point_id": "RG1-003",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. κλαύσετε (fut. κλαίω); vast doelwoord 'wenen' reeds projectregel, consistent met JHN 20:11 / REV 5:4. Verse-fix 'huilen'→'wenen'.",
+      "scope": "verse",
+      "applied": false
+    },
+    {
+      "point_id": "RG1-004",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. Ἀνάβητε 2e mv. imperatief; imperatief-`-t`→stam staat reeds in ARCHAISMEN.md:78. 'Komt'→'Kom'. Bestaande regel; verse-fix.",
+      "scope": "verse",
+      "applied": false
+    },
+    {
+      "point_id": "RG1-005",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. Ἔρχεσθε καὶ ἴδετε 2e mv. imperatieven → stam 'Kom en zie'; ARCHAISMEN.md:78 dekt dit al, REV 6:1,3 al correct. Bestaande regel; verse-fix.",
+      "scope": "verse",
+      "applied": false
+    },
+    {
+      "point_id": "RG1-006",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. Rode §-label (§2.3b) was mislabeled maar onderliggende §2.3-zinsbouw (werkwoord-finaal in opdat-bijzin) is bestaande regel. Soft verse-fix, geen nieuwe regel.",
+      "scope": "verse",
+      "applied": false
+    },
+    {
+      "point_id": "RG1-007",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. καιόμεναι predicatief participium; §2.3 periphrastisch `-ende`→finiet is reeds een regel. 'waren brandende'→'brandden'. Verse-fix.",
+      "scope": "verse",
+      "applied": false
+    }
+  ]
+}
