@@ -61,6 +61,39 @@
       "generated_at": "2026-06-05T05:57:50.542115Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 7,
+      "original": "Ende gaet haestelick henen, ende segget sijnen discipelen, dat hy opgestaen is van den dooden: ende siet, hy gaet u voor na Galileen, $Matth. 26.32. Marc. 16.7.$ daer sult ghy hem sien. Siet, ick hebbe het u-lieden geseght.",
+      "modernized": "En ga haastig heen, en zeg zijn discipelen dat hij opgestaan is uit de doden; en zie, hij gaat u voor naar Galilea, $Mt. 26:32; Mk. 16:7$ daar zult u hem zien. Zie, ik heb het u gezegd.",
+      "source_text": "καὶ ταχὺ πορευθεῖσαι εἴπατε τοῖς μαθηταῖς αὐτοῦ ὅτι Ἠγέρθη ἀπὸ τῶν νεκρῶν· καὶ ἰδού, προάγει ὑμᾶς εἰς τὴν Γαλιλαίαν· ἐκεῖ αὐτὸν ὄψεσθε· ἰδού, εἶπον ὑμῖν.",
+      "generated_at": "2026-06-05T06:13:24.878645Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 8,
+      "original": "$Marc. 16.8. Ioan. 20.18.$ Ende haestelick uytgaende van het graf met <De vreese was uyt menschelicke swackheyt, om datse de heerlickheyt des Engels sagen: ende de blijdtschap uyt de blijde bootschap van de opstandinge Christi.> vreese ende groote blijdtschap, liepen sy henen om [’t selve] sijnen discipelen te boodtschappen.",
+      "modernized": "$Mk. 16:8; Jh. 20:18$ En zij gingen haastig weg van het graf met <De vrees was uit menselijke zwakheid, omdat zij de heerlijkheid van de Engel zagen; en de blijdschap uit de blijde boodschap van de opstanding van Christus.> vrees en grote blijdschap, en snelden heen om [hetzelfde] zijn discipelen te berichten.",
+      "source_text": "καὶ ἐξελθοῦσαι ταχὺ ἀπὸ τοῦ μνημείου μετὰ φόβου καὶ χαρᾶς μεγάλης, ἔδραμον ἀπαγγεῖλαι τοῖς μαθηταῖς αὐτοῦ.",
+      "generated_at": "2026-06-05T06:17:03Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "text": "liepen → snelden: SV 'liepen' heeft hier de oudere betekenis 'snel lopen'; Grieks ἔδραμον en de HSV-spiegel bevestigen dat modern 'liepen' te zwak is."
+        }
+      ]
+    },
+    {
+      "verse_number": 9,
+      "original": "Ende als sy henen gingen, om sijne discipelen te boodtschappen, Siet, $Marc. 16.9. Ioan. 20.14.$ Iesus is haer ontmoet, seggende, Weest gegroet: ende sy tot [hem] komende <D. vielen aen sijne voeten, deselve omvangende, tot een teecken van liefde ende eerbiedinge: gelijck te sien is 2.Reg. cap. 4. vers 27. Luce cap. 7. vers 38.> grepen sijne voeten, ende aenbaden hem.",
+      "modernized": "En terwijl zij heen gingen om zijn discipelen te berichten, zie, $Mk. 16:9; Jh. 20:14$ Jezus kwam hun tegemoet en zei: Wees gegroet; en zij kwamen tot [hem], <Dat is, zij vielen aan zijn voeten, die zij omvatten, tot een teken van liefde en eerbied; zoals te zien is $2Kn. 4:27; Lk. 7:38$.> grepen zijn voeten, en aanbaden hem.",
+      "source_text": "ὡς δὲ ἐπορεύοντο ἀπαγγεῖλαι τοῖς μαθηταῖς αὐτοῦ, καὶ ἰδού, ὁ Ἰησοῦς ἀπήντησεν αὐταῖς, λέγων, Χαίρετε. αἱ δὲ προσελθοῦσαι ἐκράτησαν αὐτοῦ τοὺς πόδας, καὶ προσεκύνησαν αὐτῷ.",
+      "generated_at": "2026-06-05T06:14:46.740160Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ],
   "epilogue": {
