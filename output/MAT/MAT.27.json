@@ -1,0 +1,51 @@
+{
+  "book": "MATT",
+  "chapter": 27,
+  "introduction": {
+    "original": "1 Christus wort van de Ioden in Pilati handen overgegeven. 3 Iudas berouw hebbende werpt het gelt in den tempel, ende verworght hemselven. 6 Met welck gelt een pottebackers acker gekocht wort, gelijck voorseght was. 11 Pilatus ondervraeght Christum op de beschuldingen tegen hem gedaen. 19 wort van sijne huysvrouwe gewaerschouwt. 20 Verklaert Christi onschult, ende tracht hem door tegenstellinge van Barabbas los te laten, maer te vergeefs. 24 Wascht sijne handen, ende op het aendringen der Ioden geeft hem over aen de krijghsknechten, om gekruycight te worden. 27 die hem smadelick mishandelen ende wech leyden om te kruycigen. 32 Simon van Cyrenen wort gedwongen om hem sijn kruys te helpen dragen. 35 Christus wort gekruycight. 38 ende met hem twee moordenaers. 39 wort van de voorby gaende gelastert ende bespot. 45 Duysternisse komt op der aerden, ende Christus wort met galle gedrenckt, roept in sijne uyterste benauwtheyt tot sijnen Vader, ende geeft sijnen geest. 51 Verscheyden wonderheden geschieden ontrent sijnen doot. 54 waer door de Hooftman bekent dat hy Godts Sone is. 57 wort van Ioseph van Arimathea begraven, ende sijn graf, op het versoeck der Overpriesters, met wacht bewaert.",
+    "modernized": "1 Christus wordt door de Joden in handen van Pilatus overgegeven. 3 Judas heeft berouw, werpt het geld in de tempel en verwurgt zichzelf. 6 Met welk geld een pottenbakkersakker gekocht wordt, zoals voorzegd was. 11 Pilatus ondervraagt Christus over de beschuldigingen tegen hem gedaan. 19 wordt door zijn vrouw gewaarschuwd. 20 Verklaart de onschuld van Christus en tracht hem door het tegenoverstellen van Barabbas los te laten, maar tevergeefs. 24 Wast zijn handen, en op het aandringen van de Joden geeft hij hem over aan de krijgsknechten, om gekruisigd te worden. 27 die hem smadelijk mishandelen en wegleiden om te kruisigen. 32 Simon van Cyrene wordt gedwongen om hem zijn kruis te helpen dragen. 35 Christus wordt gekruisigd. 38 en met hem twee moordenaars. 39 wordt door de voorbijgaanden gelasterd en bespot. 45 Duisternis komt op de aarde, en Christus wordt met gal gedrenkt, roept in zijn uiterste benauwdheid tot zijn Vader, en geeft zijn geest. 51 Verscheidene wonderen gebeuren rondom zijn dood. 54 waardoor de Hoofdman erkent dat hij Gods Zoon is. 57 wordt door Jozef van Arimathea begraven, en zijn graf wordt, op het verzoek van de Overpriesters, met wacht bewaard.",
+    "generated_at": "2026-06-05T06:23:13.555224Z",
+    "model": "claude-opus-4-7[1m]"
+  },
+  "verses": [
+    {
+      "verse_number": 1,
+      "original": "$Psalm 2.2. Marc. 15.1. Luce 22.66. ende 23.2. Ioan. 18.28.$ ALs het nu morgenstont geworden was, hebben alle de Overpriesters ende de Ouderlingen des volcks t’samen raet genomen tegen Iesum, dat sy hem dooden souden.",
+      "modernized": "$Ps. 2:2; Mk. 15:1; Lk. 22:66; 23:2; Jh. 18:28$ Toen het nu ochtend geworden was, hebben al de Overpriesters en de Ouderlingen van het volk tezamen raad genomen tegen Jezus, dat zij hem zouden doden.",
+      "source_text": "Πρωΐας δὲ γενομένης, συμβούλιον ἔλαβον πάντες οἱ ἀρχιερεῖς καὶ οἱ πρεσβύτεροι τοῦ λαοῦ κατὰ τοῦ Ἰησοῦ, ὥστε θανατῶσαι αὐτόν·",
+      "generated_at": "2026-06-05T06:23:17.835735Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "morgenstont -> ochtend",
+          "context": "hoofdtekst, opening",
+          "choice": "ochtend",
+          "alternatives": [
+            "morgen"
+          ],
+          "reason": "HSV-spiegel en Grieks Πρωΐας bevestigen dat SV 'morgenstont' hier de ochtend aanduidt; 'morgen geworden' is in modern Nederlands drempel-archaïsch/dubbelzinnig (§2.7)."
+        }
+      ]
+    },
+    {
+      "verse_number": 2,
+      "original": "Ende hem gebonden hebbende, leydden sy [hem] wech, ende gaven hem over aen $Actor. 3.13.$ Pontius Pilatus <Namelick, des Roomschen Keysers Tiberij, over het Ioodsche lant, Luce cap. 3. vers 1. want de Ioden en vermochten niet meer yemant met den doot te straffen, sonder voorgaende bewillinge der Roomsche Stadthouderen, gelijckse selve betuygen, Ioan. 18.31.> den Stadthouder.",
+      "modernized": "En nadat zij hem gebonden hadden, leidden zij [hem] weg, en gaven hem over aan $Hd. 3:13$ Pontius Pilatus <Namelijk, de Stadhouder van de Romeinse Keizer Tiberius over het Joodse land, $Lk. 3:1$; want de Joden konden niemand meer met de dood straffen, zonder voorafgaande toestemming van de Romeinse Stadhouders, zoals zij zelf getuigen, $Jh. 18:31$.> de Stadhouder.",
+      "source_text": "καὶ δήσαντες αὐτὸν ἀπήγαγον καὶ παρέδωκαν αὐτὸν Ποντίῳ Πιλάτῳ τῷ ἡγεμόνι.",
+      "generated_at": "2026-06-05T06:24:19.813226Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 3,
+      "original": "Doe heeft Iudas, die hem verraden hadde, siende dat hy veroordeelt was, <Dit en was geen oprecht berouw, gelijck Petrus hadde, alsoo het niet en was vergeselschapt met beteringe des levens, noch met geloove ende betrouwen van vergevinge sijner sonden. Paulus noemt sulck een berouw als Iudas hadde, eene droefheyt des werelts die de doot werckt, 2.Cor. 7.10.> berouw gehadt, ende heeft de dertigh silvere [penningen] den Overpriesteren ende den Ouderlingen <Gr. wedergekeert, Dat is, weder uytgekeert.> weder gebracht.",
+      "modernized": "Daarop heeft Judas, die hem verraden had, toen hij zag dat hij veroordeeld was, <Dit was geen oprecht berouw, zoals Petrus had, omdat het niet vergezeld was van verbetering van het leven, en ook niet van geloof en vertrouwen op vergeving van zijn zonden. Paulus noemt zo’n berouw als Judas had, een droefheid van de wereld die de dood werkt, $2Kor. 7:10$.> berouw gehad, en heeft de dertig zilveren [penningen] aan de Overpriesters en de Ouderlingen <Grieks: teruggekeerd, Dat is, teruggegeven.> teruggebracht.",
+      "source_text": "Τότε ἰδὼν Ἰούδας ὁ παραδιδοὺς αὐτὸν ὅτι κατεκρίθη, μεταμεληθεὶς ἀπέστρεψε τὰ τριάκοντα ἀργύρια τοῖς ἀρχιερεῦσι καὶ τοῖς πρεσβυτέροις,",
+      "generated_at": "2026-06-05T06:25:20.117823Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    }
+  ]
+}
