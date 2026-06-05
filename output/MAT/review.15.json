@@ -1,0 +1,155 @@
+{
+  "book": "MAT",
+  "chapter": 15,
+  "reviewed_at": "2026-06-05T07:07:34+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-06-05T07:07:34+00:00",
+      "mode": "scan",
+      "issues_total": 9
+    }
+  ],
+  "issues": [
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 5,
+      "severity": "soft",
+      "quote_modernized": "…ede komen, en zijn vader of zijn moeder geenszins zal eren, die voldoet.",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'geenszins' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "MAT-15-5-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'geenszins' rendert οὐ μή (dubbele ontkenning, emfatisch). Productief in modern formeel/juridisch Nederlands ('geenszins akkoord', 'geenszins toegestaan'). MODERNISATIE.md §2.7 productiviteitstest slaagt; modern equivalent 'beslist niet' verzwakt de Griekse nadrukkelijke ontkenning."
+    },
+    {
+      "category": "kanttekening-luiheid (§2.3 in <…>)",
+      "verse": 11,
+      "severity": "hard",
+      "quote_modernized": "…oedsel met ongewassen handen. Namelijk, voortkomende uit een onrein hart, zoals …",
+      "rule_reference": "KANTTEKENINGEN.md + §2.3",
+      "explanation": "'voortkomende' binnen kanttekening — verdacht -ende-woord in adverbial / clause-final positie. §2.3 geldt ook in <…>; ontvouw naar finiete bijzin.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "MAT-15-11-001",
+      "status": "fixed",
+      "fix_commit": "PENDING"
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 14,
+      "severity": "soft",
+      "quote_modernized": "…ij zijn blinde leidslieden van blinden. Indien nu de blinde de blinde leidt, dan…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "MAT-15-14-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+    },
+    {
+      "category": "kanttekening-luiheid (§2.3 in <…>)",
+      "verse": 22,
+      "severity": "hard",
+      "quote_modernized": "…an de stad Sidon haar oorsprong en naam ontleende, was de eerstgeboren zoon van …",
+      "rule_reference": "KANTTEKENINGEN.md + §2.3",
+      "explanation": "'ontleende' binnen kanttekening — verdacht -ende-woord in adverbial / clause-final positie. §2.3 geldt ook in <…>; ontvouw naar finiete bijzin.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "MAT-15-22-001",
+      "status": "rebutted",
+      "rebuttal": "'ontleende' is hier de finiete verleden tijd van \"ontlenen\" (hij/zij ontleende) in de relatiefzin \"waaraan de stad Sidon haar oorsprong en naam ontleende\", géén adverbiaal participium. §2.3 betreft -ende-participia (ALWAYS_BAD), niet preterita die toevallig op -ende eindigen; de scanner-regex mist dit onderscheid. De finiete bijzin is correct modern Nederlands en vereist geen ontvouwing."
+    },
+    {
+      "category": "§2.3b vocatief-u",
+      "verse": 28,
+      "severity": "soft",
+      "quote_modernized": "…ei tot haar: O vrouw, groot is uw geloof; u geschiede zoals u wilt. En haar doch…",
+      "rule_reference": "MODERNISATIE.md §2.3b",
+      "explanation": "'u geschiede' aan zin-/clause-begin — mogelijke vocatief-u-Latinaatconstructie. Verifieer of 'u' hier object van aanspreking is en weghaalbaar is.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "MAT-15-28-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] 'u' is hier datief-object (Grieks σοι, 'u geschiede' = 'moge het u geschieden'), geen vocatief — §2.3b (vocatief-u verwijderen) is niet van toepassing. 'geschiede' is optatief, gestold liturgisch zoals 'Uw wil geschiede' (Mt. 6:10)."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 1,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'seggend' in 6 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 6 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        1,
+        4,
+        7,
+        22,
+        23,
+        25
+      ],
+      "id": "MAT-15-1-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] Concordantie-drift 'seggend' is structurele §2.3-toepassing: SV-participium 'seggende' (ALWAYS_BAD-categorie) wordt consistent ontvouwd naar finiet 'zei/zeiden' in alle 6 verzen (v4/v9/v18/v29/v34/v36). Modernisatie verwijdert participiumkop opzettelijk per regel; geen drift maar uniform §2.3-protocol."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 2,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'insetti' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        2,
+        3,
+        6
+      ],
+      "id": "MAT-15-2-001",
+      "status": "rebutted",
+      "rebuttal": "Geen drift: alle drie verzen renderen het SV-origineel \"insettinge\" consistent als \"inzetting\" (v2 \"inzetting van de Ouden\", v3 \"uw inzetting\", v6 \"uw inzetting\"). De scanner-prefixheuristiek vergelijkt \"insetti\" met \"inzetti\" en mist de orthografische overgang s→z; concordantie is feitelijk perfect (§ concordantie AGENTS.md geslaagd)."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 11,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'ontreyn' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        11,
+        18,
+        20
+      ],
+      "id": "MAT-15-11-002",
+      "status": "rebutted",
+      "rebuttal": "Geen drift: SV-stam \"ontreyn\" wordt in alle drie verzen consistent gerenderd met de stam \"verontreinig-\" (v11 \"verontreinigt\", v18 \"verontreinigen\", v20 \"verontreinigen\"); verschil is enkel enkelvoud/meervoud-congruentie. Scanner-prefixheuristiek mist de overgang ontreyn→verontreinig (voorvoegsel ver- + s/sch→g/z). Concordantie feitelijk consistent."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 30,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'hebbend' in 3 verzen — verzen [30, 39] renderen het stam anders dan [32]",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        30,
+        32,
+        39
+      ],
+      "id": "MAT-15-30-001",
+      "status": "rebutted",
+      "rebuttal": "Geen drift maar §2.3-participium-ontvouwing: SV-participium \"hebbende\" (ALWAYS_BAD) wordt per regel ontvouwd naar contextueel-finiete vormen — v30 \"die ... bij zich hadden\" (meervoud verleden), v39 \"had laten gaan\" (enkelvoud verleden). De finiete vorm volgt onderwerp-getal-congruentie in modern NL; v32 valt buiten dezelfde constructie. Uniform §2.3-protocol, geen lexicale inconsistentie."
+    }
+  ]
+}
