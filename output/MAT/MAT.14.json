@@ -61,6 +61,33 @@
       "generated_at": "2026-06-05T04:18:36.651338Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 7,
+      "original": "$Iudic. 11.30.$ Waerom hy haer met eede beloofde te geven, wat sy oock eysschen soude.",
+      "modernized": "$Ri. 11:30$ Daarom beloofde hij haar met een eed te geven wat zij ook maar zou eisen.",
+      "source_text": "ὅθεν μεθ’ ὅρκου ὡμολόγησεν αὐτῇ δοῦναι ὃ ἐὰν αἰτήσηται.",
+      "generated_at": "2026-06-05T04:22:33.968729Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 8,
+      "original": "Ende sy <Of, opgemaeckt ende aengestouwet zijnde, na datse daer over hare moeder raet gevraeght hadde, Marc. 6.24.> te voren onderrecht zijnde van hare moeder, seyde, Geeft my hier in een schotel het hooft Ioannis des Doopers.",
+      "modernized": "En zij, <Of, opgehitst en aangedreven, nadat zij daarover haar moeder om raad gevraagd had, $Mk. 6:24$.> tevoren door haar moeder onderricht, zei: Geef mij hier op een schotel het hoofd van Johannes de Doper.",
+      "source_text": "ἡ δέ, προβιβασθεῖσα ὑπὸ τῆς μητρὸς αὐτῆς, Δός μοι, φησίν, ὧδε ἐπὶ πίνακι τὴν κεφαλὴν Ἰωάννου τοῦ Βαπτιστοῦ.",
+      "generated_at": "2026-06-05T04:22:55.268664Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 4
+    },
+    {
+      "verse_number": 9,
+      "original": "Ende de Koningh wiert <Niet soo seer om Ioannis wille, als om den ondanck des volcks, dat hy vreesde.> bedroeft, doch om <Namel. die hy dese lichtveerdige dansersse onbehoorlick gedaen hadde, vers 7.> de eeden, ende de gene die [met hem] aensaten, geboodt hy, dat het [haer] soude gegeven worden.",
+      "modernized": "En de Koning werd <Niet zozeer om Johannes' wil, als om de afkeuring van het volk, die hij vreesde.> bedroefd, maar vanwege <Namelijk, die hij deze lichtzinnige danseres op ongepaste wijze gedaan had, vers 7.> de eden, en degenen die [met hem] aanzaten, gebood hij dat het [haar] gegeven zou worden.",
+      "source_text": "καὶ ἐλυπήθη ὁ βασιλεύς, διὰ δὲ τοὺς ὅρκους καὶ τοὺς συνανακειμένους ἐκέλευσε δοθῆναι·",
+      "generated_at": "2026-06-05T04:23:13.673560Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 4
     }
   ]
 }
