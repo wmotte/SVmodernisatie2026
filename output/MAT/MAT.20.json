@@ -196,6 +196,39 @@
       "generated_at": "2026-06-05T05:04:07.924839Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 22,
+      "original": "Maer Iesus antwoordde ende seyde, $Rom. 8.26.$ Ghylieden en <Want sy en verstonden noch niet de gelegentheyt des Koninckrijcks Christi, ende waer toe sy geroepen waren, niet om in de werelt te heerschen, maer om te dienen ende te lijden.> weet niet wat ghy begeert: Kondt ghy den <Door den drinckbeker als oock door den doop verstaet Christus swaer lijden, waer door de mensche gelijck als met een bitteren dranck gedrenckt, ende als met water overstort wort, Psalm 75.9. Iesa. cap. 51. vers 17. Matth. 26.42. Luce cap. 12. vers 50.> drinckbeker drincken dien ick drincken sal: ende met den doop gedoopt worden, $Luce 12.50.$ daer mede ick gedoopt worde? Sy seyden tot hem, wy konnen.",
+      "modernized": "$Rm. 8:26$ Maar Jezus antwoordde en zei: U <Want zij verstonden nog niet de gesteldheid van het Koninkrijk van Christus, en waartoe zij geroepen waren: niet om in de wereld te heersen, maar om te dienen en te lijden.> weet niet wat u begeert: Kunt u de <Door de drinkbeker evenals door de doop verstaat Christus zwaar lijden, waardoor de mens als het ware met een bittere drank gedrenkt en als met water overstort wordt, $Ps. 75:9; Js. 51:17; Mt. 26:42; Lk. 12:50$.> drinkbeker drinken die ik drinken zal, en met de doop gedoopt worden, $Lk. 12:50$ waarmee ik gedoopt word? Zij zeiden tot hem: Wij kunnen.",
+      "source_text": "ἀποκριθεὶς δὲ ὁ Ἰησοῦς εἶπεν, Οὐκ οἴδατε τί αἰτεῖσθε. δύνασθε πιεῖν τὸ ποτήριον ὃ ἐγὼ μέλλω πίνειν, καὶ τὸ βάπτισμα ὃ ἐγὼ βαπτίζομαι βαπτισθῆναι; λέγουσιν αὐτῷ, Δυνάμεθα.",
+      "generated_at": "2026-06-05T05:09:54.763893Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 23,
+      "original": "Ende hy seyde tot haer, Mijnen drinckbeker sult ghy wel drincken, ende met den doop daer ick mede gedoopt worde, sult ghy gedoopt worden, maer het sitten tot mijner rechter, ende tot mijner slincker [hant,] <Gr. het en is mijne niet, Namel. in desen mijnen nedrigen staet ende om sulcke redenen als ghy u inbeeldt: anders sal Christus namaels oock geven te sitten op sijnen throon de gene die overwinnen, Apoc. cap. 3. vers 21. Ofte, dan dien het bereyt is. Siet Marc. cap. 10. vers 40.> en staet by my niet te geven: maer [het sal gegeven worden] dien het <Dat is, van eeuwigheyt verordineert. Siet Matth. cap. 25. vers 34.> bereyt is $Matth. 25.34.$ van mijnen Vader.",
+      "modernized": "En hij zei tot hen: Mijn drinkbeker zult u wel drinken, en met de doop waarmee ik gedoopt word, zult u gedoopt worden; maar het zitten aan mijn rechter en aan mijn linker [hand,] <Grieks: het is niet het mijne, Namelijk, in deze mijn nederige staat en om zulke redenen als u zich inbeeldt: anders zal Christus later ook geven te zitten op zijn troon aan degenen die overwinnen, $Op. 3:21$; Of, dan aan hen voor wie het bereid is. Zie $Mk. 10:40$.> is niet aan mij om te geven; maar [het zal gegeven worden] aan hen voor wie het <Dat is, van eeuwigheid verordend. Zie $Mt. 25:34$.> bereid is $Mt. 25:34$ door mijn Vader.",
+      "source_text": "καὶ λέγει αὐτοῖς, Τὸ μὲν ποτήριόν μου πίεσθε, καὶ τὸ βάπτισμα ὃ ἐγὼ βαπτίζομαι βαπτισθήσεσθε· τὸ δὲ καθίσαι ἐκ δεξιῶν μου καὶ ἐξ εὐωνύμων μου, οὐκ ἔστιν ἐμὸν δοῦναι, ἀλλ’ οἷς ἡτοίμασται ὑπὸ τοῦ Πατρός μου.",
+      "generated_at": "2026-06-05T05:11:39.754248Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "message": "HSV-spiegel/drempel-§2.7: 'staat bij mij niet te geven' gemoderniseerd naar 'is niet aan mij om te geven'; SV1657 en Grieks (ouk estin emon dounai) blijven formeel behouden."
+        }
+      ]
+    },
+    {
+      "verse_number": 24,
+      "original": "Ende als de [andere] <Namel. Apostelen.> tien [dat] hoorden namen sy het seer qualick van de twee broeders.",
+      "modernized": "En toen de [andere] <Namelijk, Apostelen.> tien [dat] hoorden, namen zij het de twee broeders zeer kwalijk.",
+      "source_text": "καὶ ἀκούσαντες οἱ δέκα ἠγανάκτησαν περὶ τῶν δύο ἀδελφῶν.",
+      "generated_at": "2026-06-05T05:12:11.148112Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
