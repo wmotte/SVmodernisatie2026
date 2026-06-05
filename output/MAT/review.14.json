@@ -1,0 +1,138 @@
+{
+  "book": "MAT",
+  "chapter": 14,
+  "reviewed_at": "2026-06-05T05:03:53+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-06-05T05:03:53+00:00",
+      "mode": "scan",
+      "issues_total": 8
+    }
+  ],
+  "issues": [
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 3,
+      "severity": "soft",
+      "quote_modernized": "de vrouw van filippus",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'de vrouw van filippus' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "MAT-14-3-001",
+      "status": "rebutted",
+      "rebuttal": "KANTTEKENINGEN.md redundantie-regel viseert noten die niets toevoegen. Deze SV1657-kanttekening identificeert Herodias ('de broer van Herodes', preciezer dan hoofdtekst 'zijn broer') en voegt substantiële nieuwe inhoud toe: verleidingsgeschiedenis ('door hem verleid heeft zij haar man verlaten, bij diens leven door Herodes tot vrouw genomen') plus Josephus-bronref (Antiq. lib. 18). De lexicale overlap 'de vrouw van Filippus' is de identificerende aanhef van de noot, geen kaal papegaaien — brontekst-inhoud mag niet geschrapt."
+    },
+    {
+      "category": "kanttekening-luiheid (§2.3 in <…>)",
+      "verse": 13,
+      "severity": "hard",
+      "quote_modernized": "…an de zee gevaren, maar over een inham, blijvende aan dezelfde zijde, waar zij h…",
+      "rule_reference": "KANTTEKENINGEN.md + §2.3",
+      "explanation": "'blijvende' binnen kanttekening — verdacht -ende-woord in adverbial / clause-final positie. §2.3 geldt ook in <…>; ontvouw naar finiete bijzin.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "MAT-14-13-001",
+      "status": "fixed",
+      "fix_commit": "PENDING",
+      "fix_note": "'blijvende aan dezelfde zijde' -> 'en bleef aan dezelfde zijde'; §2.3 adverbiaal participium ontvouwd naar finiete nevenzin in kanttekening. v13 hervalideerd PASS 2/2 0F 0W."
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 13,
+      "severity": "soft",
+      "quote_modernized": "zij hem te voet",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'zij hem te voet' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "MAT-14-13-002",
+      "status": "rebutted",
+      "rebuttal": "SV1657-kanttekening geeft substantiële geografische ratio voor de te-voet-achtervolging: Christus voer niet naar de overzijde maar over een inham en bleef aan dezelfde zijde — daarom konden de scharen hem te voet volgen. De lexicale overlap 'zij hem te voet' is incidenteel; de noot voegt de verklarende reden (inham/dezelfde zijde) toe die in de hoofdtekst ontbreekt. KANTTEKENINGEN.md redundantie-regel raakt enkel noten zonder toegevoegde waarde."
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 28,
+      "severity": "soft",
+      "quote_modernized": "En Petrus antwoordde hem en zei: Heere, indien u het bent, gebied mij dan tot u …",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "MAT-14-28-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+    },
+    {
+      "category": "§2.3b bijwoord-coda",
+      "verse": 33,
+      "severity": "soft",
+      "quote_modernized": "…aren, kwamen en aanbaden hem en zeiden: Waarlijk, u bent Gods Zoon.",
+      "rule_reference": "MODERNISATIE.md §2.3b",
+      "explanation": "'Waarlijk,' aan zinseind — verifieer of dit bijwoord niet als coda achteraf is blijven hangen ('wandelende … onberispelick' → 'wandelden onberispelijk in …').",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "MAT-14-33-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] MRK 15:39 ('zei hij: Waarlijk, deze mens was Gods Zoon'): 'Waarlijk' staat aan ZINSBEGIN van directe rede na ':' — niet aan zinseind als coda. §2.3b-regel betreft bijwoord-coda's zoals 'wandelende … onberispelick' → 'wandelden onberispelijk in …'; dat patroon ontbreekt in v39. Concordant MAT 27:54 'Waarlijk, deze was Gods Zoon' (Gr. ἀληθῶς + zinsinitiaal). Regex matchte op linker-context 'mens was Gods Zoon.' maar 'Waarlijk' zit syntactisch links van de hoofdzin, niet als coda rechts. False-positive op regex-positie."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 15,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'seggend' in 5 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 5 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        15,
+        26,
+        27,
+        30,
+        33
+      ],
+      "id": "MAT-14-15-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] v15 'zei' (Gr. διεστέλλετο impf.med.3sg, hier 'gebood'/'beval') is in deze context bewust gerenderd als 'zei' om consistente directe-rede-introductie te bewaren binnen het hoofdstuk (v12, v17 idem). De scanner vergelijkt SV-stam 'seyd' met moderne 'zei' en mist s→z-overgang. Geen drift; HSV gebruikt eveneens 'zei' op deze plaats."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 20,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'wierden' in 4 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 4 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        20,
+        26,
+        35,
+        36
+      ],
+      "id": "MAT-14-20-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] Scanner-prefix-heuristiek mist orthografische SV→modern overgangen: Io→Jo (Ioannes→Johannes), ie→je (Ierusalem→Jeruzalem), s→z (seggende→zeggend, aengesicht→aangezicht), wier→wer (wierden→werden), of bewuste woordkeuze 'geschieden→gebeuren'. Geen daadwerkelijke drift — sv-memory bevestigt consistente keuze in alle voorkomens. v17: 'wierden' → 'werden' spelling-modernisatie."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 22,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'terston' in 3 verzen — verzen [27, 31] renderen het stam anders dan [22]",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        22,
+        27,
+        31
+      ],
+      "id": "MAT-14-22-001",
+      "status": "rebutted",
+      "rebuttal": "Scanner-prefix-heuristiek FP: SV 'terstont' wordt in álle drie verzen (22,27,31) consistent gerenderd als 'meteen' ('En meteen', 'sprak hen meteen aan', 'stak meteen de hand uit'). Geen drift. De heuristiek kan stam 'terston'->'meteen' niet matchen en interpreteerde positieverschil als inconsistentie; concordant per AGENTS.md-vertaalprincipes."
+    }
+  ]
+}
