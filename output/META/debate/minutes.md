@@ -78,3 +78,30 @@ Red bracht 8 punt(en). Verdicts: red_wins=8, green_wins=0, rule_change=0.
 - **[RG3-008] (modernisatie)** zegt tot hen: Weest blij met mij, want ik heb mijn schaap gevonden
   - regel: ARCHAISMEN.md (imperatief-meervoud op `-t` → stam); fix: zegt tot hen: Wees blij met mij, want ik heb mijn schaap gevonden (idem 15:9)
   - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert; LUK.15:6 (en 15:9) dragen Weest (Συγχάρητέ aor pass impv 2pl). Bestaande regel ARCHAISMEN.md:78 → Wees blij; beide verzen meenemen.
+
+## Ronde 4 — REV + JHN  (2026-06-05T19:47:51.730402+00:00)
+Red bracht 8 punt(en). Verdicts: red_wins=7, green_wins=1, rule_change=0.
+- **[RG4-001] (consistentie)** Volgt u mij.
+  - regel: ARCHAISMEN.md (imperatief enkelvoud -t -> stam); interne concordantie; fix: Volg mij.
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert. ἀκολούθει 2sg (σύ enkelvoud), gericht tot Petrus; vs.19 rendert hetzelfde woord correct als 'Volg mij'. Imperatief enkelvoud -t->stam (ARCHAISMEN.md:78) + harde intra-hoofdstuk incon
+- **[RG4-002] (modernisatie)** Maakt de weg van de Heere recht
+  - regel: ARCHAISMEN.md (imperatief meervoud -t -> stam); fix: Maak de weg van de Heere recht
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert. Εὐθύνατε imperatief meervoud; 'Maakt' is SV-t in hoofdtekst-citaat. Bestaande regel imperatief-t->stam.
+- **[RG4-003] (modernisatie)** Gaat u maar op naar dit feest
+  - regel: ARCHAISMEN.md (imperatief meervoud -t -> stam); fix: Ga maar op naar dit feest
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert. ἀνάβητε imperatief meervoud; toegevoegde 'u' verbergt -t niet. 'Gaat'->'Ga'. Bestaande regel.
+- **[RG4-004] (modernisatie)** Neemt u hem, en oordeelt hem naar uw wet.
+  - regel: ARCHAISMEN.md (imperatief meervoud -t -> stam); fix: Neem hem, en oordeel hem naar uw wet.
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert. Λάβετε/κρίνατε beide imperatief meervoud; 'Neemt'/'oordeelt' dragen SV-t. ->'Neem'/'oordeel'. Bestaande regel.
+- **[RG4-005] (modernisatie)** Neemt u hem en kruisig [hem.]
+  - regel: ARCHAISMEN.md (imperatief meervoud -t -> stam); interne consistentie binnen het vers; fix: Neem hem en kruisig [hem.]
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert. Λάβετε/σταυρώσατε imperatief meervoud; halve modernisatie ('kruisig' stam, 'Neemt' -t) met intra-vers inconsistentie. ->'Neem'. Bestaande regel.
+- **[RG4-006] (modernisatie)** Looft onze God, u alle zijn dienstknechten
+  - regel: ARCHAISMEN.md (imperatief meervoud -t -> stam); fix: Loof onze God, u alle zijn dienstknechten
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert. Αἰνεῖτε imperatief meervoud in hoofdtekst (niet in <...>). 'Looft'->'Loof'. Bestaande regel.
+- **[RG4-007] (modernisatie)** waar zij gevoed wordt een tijd, en tijden, en een halve tijd
+  - regel: MODERNISATIE.md (2.3b Latijnse woordvolgorde / nageschoven object in bijzin; werkwoord niet finaal); fix: waar zij een tijd, en tijden, en een halve tijd lang gevoed wordt
+  - verdict: **green_wins** (scope=verse, applied=False) — Rebuttal passeert gate: (1) §-rule — §2.3b is een geverifieerd GESLOTEN lijst van vier patronen (MODERNISATIE.md:85); (2) vers-specifiek — bijzin 'waar zij gevoed wordt ... een tijd, en tijden, en een
+- **[RG4-008] (modernisatie)** het zwaard van hem die op het paard zat, ... hetwelk uit zijn mond ging
+  - regel: ARCHAISMEN.md (betrekkelijk hetwelk in hoofdtekst); MODERNISATIE.md drempel-archaisme; fix: het zwaard van hem die op het paard zat, ... dat uit zijn mond ging
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert. Antecedent 'het zwaard' (τῇ ῥομφαίᾳ) = concreet neutrum enkelvoud; 'hetwelk' is drempel-archaisme ->'dat'. Geen fossiel-regel beschermt het; eerdere groene verdediging gold abstracte

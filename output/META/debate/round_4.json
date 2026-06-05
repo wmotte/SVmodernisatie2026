@@ -1,0 +1,229 @@
+{
+  "round_no": 4,
+  "books": [
+    "REV",
+    "JHN"
+  ],
+  "red": [
+    {
+      "id": "RG4-001",
+      "class": "consistentie",
+      "books": [
+        "JHN"
+      ],
+      "chapter": 21,
+      "verse": 22,
+      "quote": "Volgt u mij.",
+      "rule_reference": "ARCHAISMEN.md (imperatief enkelvoud -t -> stam); interne concordantie",
+      "explanation": "Grieks sigma akoloutei (enkelvoud, gericht tot Petrus alleen). JHN 21:19 rendert hetzelfde imperatief akoloutei correct als 'Volg mij' (stam), maar drie verzen later staat hier 'Volgt u mij' met archaisch -t. Zelfde woord, zelfde hoofdstuk, zelfde spreker en aangesprokene: harde interne inconsistentie plus imperatief-archaisme.",
+      "proposed_fix": "Volg mij.",
+      "severity": "hard"
+    },
+    {
+      "id": "RG4-002",
+      "class": "modernisatie",
+      "books": [
+        "JHN"
+      ],
+      "chapter": 1,
+      "verse": 23,
+      "quote": "Maakt de weg van de Heere recht",
+      "rule_reference": "ARCHAISMEN.md (imperatief meervoud -t -> stam)",
+      "explanation": "Grieks Euthunate is imperatief meervoud; SV 'Maeckt' is ongemoderniseerd doorgegeven. 'Maakt' is archaisch imperatief-t; concordantie harmoniseert naar de stam.",
+      "proposed_fix": "Maak de weg van de Heere recht",
+      "severity": "hard"
+    },
+    {
+      "id": "RG4-003",
+      "class": "modernisatie",
+      "books": [
+        "JHN"
+      ],
+      "chapter": 7,
+      "verse": 8,
+      "quote": "Gaat u maar op naar dit feest",
+      "rule_reference": "ARCHAISMEN.md (imperatief meervoud -t -> stam)",
+      "explanation": "Grieks humeis anabete is imperatief meervoud. 'Gaat' is archaisch imperatief-t; moet naar stam 'Ga'. De toegevoegde 'u' verbergt het archaisme niet (vergelijk gesloten LUK-imperatieven).",
+      "proposed_fix": "Ga maar op naar dit feest",
+      "severity": "hard"
+    },
+    {
+      "id": "RG4-004",
+      "class": "modernisatie",
+      "books": [
+        "JHN"
+      ],
+      "chapter": 18,
+      "verse": 31,
+      "quote": "Neemt u hem, en oordeelt hem naar uw wet.",
+      "rule_reference": "ARCHAISMEN.md (imperatief meervoud -t -> stam)",
+      "explanation": "Grieks Labete ... krinate, twee imperatieven meervoud. Beide werkwoorden behouden de SV -t ('Neemt', 'oordeelt'). Concordantie harmoniseert naar de stam.",
+      "proposed_fix": "Neem hem, en oordeel hem naar uw wet.",
+      "severity": "hard"
+    },
+    {
+      "id": "RG4-005",
+      "class": "modernisatie",
+      "books": [
+        "JHN"
+      ],
+      "chapter": 19,
+      "verse": 6,
+      "quote": "Neemt u hem en kruisig [hem.]",
+      "rule_reference": "ARCHAISMEN.md (imperatief meervoud -t -> stam); interne consistentie binnen het vers",
+      "explanation": "Grieks Labete ... staurosate, twee imperatieven meervoud. De modernisatie is half: 'kruisig' is correct naar de stam gebracht, maar 'Neemt' bleef met -t in dezelfde zin. Intra-vers inconsistentie plus imperatief-archaisme.",
+      "proposed_fix": "Neem hem en kruisig [hem.]",
+      "severity": "hard"
+    },
+    {
+      "id": "RG4-006",
+      "class": "modernisatie",
+      "books": [
+        "REV"
+      ],
+      "chapter": 19,
+      "verse": 5,
+      "quote": "Looft onze God, u alle zijn dienstknechten",
+      "rule_reference": "ARCHAISMEN.md (imperatief meervoud -t -> stam)",
+      "explanation": "Grieks Aineite is imperatief meervoud, gericht tot 'alle zijn dienstknechten'. 'Looft' draagt de SV -t; moet naar de stam 'Loof'.",
+      "proposed_fix": "Loof onze God, u alle zijn dienstknechten",
+      "severity": "hard"
+    },
+    {
+      "id": "RG4-007",
+      "class": "modernisatie",
+      "books": [
+        "REV"
+      ],
+      "chapter": 12,
+      "verse": 14,
+      "quote": "waar zij gevoed wordt een tijd, en tijden, en een halve tijd",
+      "rule_reference": "MODERNISATIE.md (2.3b Latijnse woordvolgorde / nageschoven object in bijzin; werkwoord niet finaal)",
+      "explanation": "Bijzin 'waar zij gevoed wordt' met de duuraanduiding ('een tijd, en tijden, en een halve tijd') nageschoven na het finiete werkwoord. In moderne bijzin staat het werkwoord finaal; de tijdsbepaling hoort vooraan.",
+      "proposed_fix": "waar zij een tijd, en tijden, en een halve tijd lang gevoed wordt",
+      "severity": "soft"
+    },
+    {
+      "id": "RG4-008",
+      "class": "modernisatie",
+      "books": [
+        "REV"
+      ],
+      "chapter": 19,
+      "verse": 21,
+      "quote": "het zwaard van hem die op het paard zat, ... hetwelk uit zijn mond ging",
+      "rule_reference": "ARCHAISMEN.md (betrekkelijk hetwelk in hoofdtekst); MODERNISATIE.md drempel-archaisme",
+      "explanation": "In de hoofdtekst staat het archaische relativum 'hetwelk' met een concreet antecedent ('het zwaard'). Modern Nederlands prefereert hier 'dat'. Het formele relativum is elders verdedigd bij abstracte/collectieve antecedenten, maar hier verwijst het naar een enkel concreet zelfstandig naamwoord.",
+      "proposed_fix": "het zwaard van hem die op het paard zat, ... dat uit zijn mond ging",
+      "severity": "soft"
+    }
+  ],
+  "green": [
+    {
+      "point_id": "RG4-001",
+      "stance": "concede",
+      "rebuttal": "Correct. σὺ ἀκολούθει μοι is 2e persoon ENKELVOUD (σύ enkelvoud, ἀκολούθει 2sg), gericht tot Petrus alleen; identiek aan vs.19 ἀκολούθει dat hier juist als 'Volg mij' staat. Imperatief enkelvoud -t -> stam, plus harde intra-hoofdstuk inconsistentie. Geen weerlegging mogelijk.",
+      "evidence": "ARCHAISMEN.md imperatief-t -> stam + ἀκολούθει (vs.19 vs vs.22)"
+    },
+    {
+      "point_id": "RG4-002",
+      "stance": "concede",
+      "rebuttal": "Correct. Εὐθύνατε is imperatief meervoud; 'Maakt' is ongemoderniseerde SV-t binnen een citaat in de hoofdtekst (geen kanttekening). Harmoniseert naar stam 'Maak'.",
+      "evidence": "ARCHAISMEN.md imperatief-t -> stam + Εὐθύνατε (2pl)"
+    },
+    {
+      "point_id": "RG4-003",
+      "stance": "concede",
+      "rebuttal": "Correct. ὑμεῖς ἀνάβητε is imperatief meervoud; toegevoegde 'u' verbergt het -t-archaisme van 'Gaat' niet. Naar stam 'Ga'.",
+      "evidence": "ARCHAISMEN.md imperatief-t -> stam + ἀνάβητε (2pl)"
+    },
+    {
+      "point_id": "RG4-004",
+      "stance": "concede",
+      "rebuttal": "Correct. Λάβετε ... κρίνατε zijn beide imperatief meervoud; 'Neemt' en 'oordeelt' dragen beide de SV-t in de hoofdtekst. Naar stam 'Neem' / 'oordeel'.",
+      "evidence": "ARCHAISMEN.md imperatief-t -> stam + Λάβετε/κρίνατε (2pl)"
+    },
+    {
+      "point_id": "RG4-005",
+      "stance": "concede",
+      "rebuttal": "Correct. Λάβετε ... σταυρώσατε beide imperatief meervoud; 'kruisig' is al stam, 'Neemt' bleef -t in dezelfde zin. Halve modernisatie met intra-vers inconsistentie. Naar stam 'Neem'.",
+      "evidence": "ARCHAISMEN.md imperatief-t -> stam + Λάβετε/σταυρώσατε (2pl)"
+    },
+    {
+      "point_id": "RG4-006",
+      "stance": "concede",
+      "rebuttal": "Correct. Αἰνεῖτε is imperatief meervoud, gericht tot 'alle zijn dienstknechten', in de hoofdtekst (niet binnen <...>). 'Looft' -> stam 'Loof'.",
+      "evidence": "ARCHAISMEN.md imperatief-t -> stam + Αἰνεῖτε (2pl)"
+    },
+    {
+      "point_id": "RG4-007",
+      "stance": "rebut",
+      "rebuttal": "Red roept §2.3b in, maar dat is een GESLOTEN lijst van vier patronen: (1) infinitief met nageschoven object, (2) bijwoord-coda achteraf ZONDER werkwoord, (3) passief ὤφθη, (4) vocatief 'u + zn'. Geen ervan dekt deze constructie. Het meest verwante is patroon 2, maar dat eist expliciet een coda 'zonder werkwoord'; hier heeft de bijzin haar eigen finiete werkwoord ('gevoed wordt'). Bovendien is 'een tijd, en tijden, en een halve tijd' geen bijwoordelijke coda maar een accusativus-van-duur (Grieks καιρόν, καιρούς, ἥμισυ καιροῦ — accusatief), die in de SV-volgorde na het werkwoord staat zoals ὅπου τρέφεται ἐκεῖ καιρόν. De ingreep is geen regelgedekte invariante ontvouwing maar een optionele stijlvoorkeur; §2.3b is misgeclassificeerd.",
+      "evidence": "§2.3b (vier gesloten patronen, patroon 2 = coda ZONDER werkwoord) + καιρόν/καιρούς accusativus-van-duur"
+    },
+    {
+      "point_id": "RG4-008",
+      "stance": "concede",
+      "rebuttal": "Correct. Het antecedent is 'het zwaard' (τῇ ῥομφαίᾳ): neutrum, enkelvoud, concreet. 'hetwelk' is hier een drempel-archaisme dat in modern Nederlands voor een concreet enkelvoudig neutrum-antecedent 'dat' wordt. De eerdere groene verdediging van het formele relativum gold abstracte/collectieve antecedenten; die discriminatie geldt hier niet. Geen fossiel-regel beschermt 'hetwelk'. Naar 'dat'.",
+      "evidence": "MODERNISATIE.md drempel-archaisme + τῇ ῥομφαίᾳ (concreet neutrum enkelvoud antecedent)"
+    }
+  ],
+  "verdicts": [
+    {
+      "point_id": "RG4-001",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. ἀκολούθει 2sg (σύ enkelvoud), gericht tot Petrus; vs.19 rendert hetzelfde woord correct als 'Volg mij'. Imperatief enkelvoud -t->stam (ARCHAISMEN.md:78) + harde intra-hoofdstuk inconsistentie. Bestaande regel.",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG4-002",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. Εὐθύνατε imperatief meervoud; 'Maakt' is SV-t in hoofdtekst-citaat. Bestaande regel imperatief-t->stam.",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG4-003",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. ἀνάβητε imperatief meervoud; toegevoegde 'u' verbergt -t niet. 'Gaat'->'Ga'. Bestaande regel.",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG4-004",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. Λάβετε/κρίνατε beide imperatief meervoud; 'Neemt'/'oordeelt' dragen SV-t. ->'Neem'/'oordeel'. Bestaande regel.",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG4-005",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. Λάβετε/σταυρώσατε imperatief meervoud; halve modernisatie ('kruisig' stam, 'Neemt' -t) met intra-vers inconsistentie. ->'Neem'. Bestaande regel.",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG4-006",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. Αἰνεῖτε imperatief meervoud in hoofdtekst (niet in <...>). 'Looft'->'Loof'. Bestaande regel.",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG4-007",
+      "verdict": "green_wins",
+      "rationale": "Rebuttal passeert gate: (1) §-rule — §2.3b is een geverifieerd GESLOTEN lijst van vier patronen (MODERNISATIE.md:85); (2) vers-specifiek — bijzin 'waar zij gevoed wordt ... een tijd, en tijden, en een halve tijd' heeft eigen finiet werkwoord, dus patroon 2 (coda ZONDER werkwoord) dekt niet; geen ander patroon past; (3) discriminerend — 'een tijd, en tijden, en een halve tijd' = accusativus-van-duur (καιρόν/καιρούς/ἥμισυ καιροῦ), niet een bijwoordelijke coda. Red's §2.3b-classificatie is onjuist; ingreep is optionele stijlvoorkeur, geen regelgedekte invariante.",
+      "scope": "verse",
+      "applied": false
+    },
+    {
+      "point_id": "RG4-008",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. Antecedent 'het zwaard' (τῇ ῥομφαίᾳ) = concreet neutrum enkelvoud; 'hetwelk' is drempel-archaisme ->'dat'. Geen fossiel-regel beschermt het; eerdere groene verdediging gold abstracte/collectieve antecedenten. Vers-scoped, geen nieuw NT-breed patroon zonder regel.",
+      "scope": "verse",
+      "applied": true
+    }
+  ]
+}
