@@ -235,6 +235,33 @@
       "generated_at": "2026-06-05T06:34:18.029741Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 25,
+      "original": "Ende sy quam ende aenbadt hem, seggende, Heere helpt my.",
+      "modernized": "En zij kwam en aanbad hem en zei: Heere, help mij.",
+      "source_text": "ἡ δὲ ἐλθοῦσα προσεκύνει αὐτῷ, λέγουσα, Κύριε, βοήθει μοι.",
+      "generated_at": "2026-06-05T06:38:59.022418Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 26,
+      "original": "Doch hy antwoordde ende seyde, Het en is niet <Gr. eerlick, ofte, goet.> betamelick het broot der kinderen te nemen, ende den <De Heydenen worden by hondekens vergeleken, om datse doe noch vreemt waren van Godts verbont.> hondekens [voor] te werpen.",
+      "modernized": "Maar hij antwoordde en zei: Het is niet <Grieks: eerlijk, of: goed.> betamelijk het brood van de kinderen te nemen en het de <De Heidenen worden bij hondjes vergeleken, omdat zij toen nog vreemd waren van Gods verbond.> hondjes [voor] te werpen.",
+      "source_text": "ὁ δὲ ἀποκριθεὶς εἶπεν, Οὐκ ἔστι καλὸν λαβεῖν τὸν ἄρτον τῶν τέκνων, καὶ βαλεῖν τοῖς κυναρίοις.",
+      "generated_at": "2026-06-05T06:39:36.779389Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 27,
+      "original": "Ende sy seyde, Ia Heere: <Gr. want.> doch de hondekens eten oock van de brockskens, die daer vallen van de tafel harer heeren.",
+      "modernized": "En zij zei: Ja Heere; <Grieks: want.> maar de hondjes eten ook van de kruimels die er vallen van de tafel van hun heren.",
+      "source_text": "ἡ δὲ εἶπε, Ναί, Κύριε· καὶ γὰρ τὰ κυνάρια ἐσθίει ἀπὸ τῶν ψιχίων τῶν πιπτόντων ἀπὸ τῆς τραπέζης τῶν κυρίων αὐτῶν.",
+      "generated_at": "2026-06-05T06:40:04.868859Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
