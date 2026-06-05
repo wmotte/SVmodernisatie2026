@@ -1,0 +1,39 @@
+{
+  "book": "MATT",
+  "chapter": 15,
+  "introduction": {
+    "original": "1 De discipelen Christi van de Schriftgeleerde ende Pharizeen beschuldight zijnde, om datse met ongewasschen handen aten, worden van Christo verantwoort, die der selver geveynstheyt bestraft, ende verwerpt de menschelicke insettingen. 10 Leert dat hare genomene ergernisse niet en is te achten, ende wat het is dat den mensche waerlick ontreynight. 22 Werpt den duyvel uyt de dochter van een Chananeesche vrouwe. 30 ende geneest allerley gebreckelicke menschen. 32 Verzadight met seven brooden ende weynigh vischkens vier duysent mannen.",
+    "modernized": "1 De discipelen van Christus worden door de Schriftgeleerden en Farizeeën beschuldigd, omdat zij met ongewassen handen aten; zij worden door Christus verdedigd, die hun geveinsdheid bestraft en de menselijke inzettingen verwerpt. 10 Leert dat de aanstoot die zij genomen hebben niet te achten is, en wat het is dat de mens werkelijk verontreinigt. 22 Werpt de duivel uit de dochter van een Kanaänitische vrouw. 30 en geneest allerlei gebrekkige mensen. 32 Verzadigt vierduizend mannen met zeven broden en weinige visjes.",
+    "generated_at": "2026-06-05T05:45:38.483162Z",
+    "model": "claude-opus-4-7[1m]"
+  },
+  "verses": [
+    {
+      "verse_number": 1,
+      "original": "$Marc. 7.1.$ DOe quamen tot Iesum [eenige] Schriftgeleerde ende Pharizeen, die van Ierusalem [waren,] seggende,",
+      "modernized": "$Mk. 7:1$ Toen kwamen er tot Jezus [enige] Schriftgeleerden en Farizeeën, die van Jeruzalem [waren], en zeiden:",
+      "source_text": "Τότε προσέρχονται τῷ Ἰησοῦ οἱ ἀπὸ Ἱεροσολύμων γραμματεῖς καὶ Φαρισαῖοι, λέγοντες,",
+      "generated_at": "2026-06-05T05:44:57.023237Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 2,
+      "original": "Waerom overtreden uwe discipelen de <Gr. overleveringe, of, overgevinge.> insettinge der <Of, Ouderlingen, Namel. der Pharizeesche leeraers, gelijck Matth. 5.21.> Ouden? want sy en wasschen hare handen niet, wanneer sy broot sullen eten.",
+      "modernized": "Waarom overtreden uw discipelen de <Grieks: overlevering, of, overgeving.> inzetting van de <Of, Ouderlingen, Namelijk de Farizese leraars, zoals $Mt. 5:21$.> Ouden? Want zij wassen hun handen niet wanneer zij brood zullen eten.",
+      "source_text": "Διατί οἱ μαθηταί σου παραβαίνουσι τὴν παράδοσιν τῶν πρεσβυτέρων; οὐ γὰρ νίπτονται τὰς χεῖρας αὐτῶν, ὅταν ἄρτον ἐσθίωσιν.",
+      "generated_at": "2026-06-05T05:46:29.358294Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 3,
+      "original": "Maer hy antwoordende seyde tot haer, Waerom overtreedt oock ghy het gebodt Godts, door <D. die ghy aengenomen hebt ende volght.> uwe insettinge?",
+      "modernized": "Maar hij antwoordde en zei tot hen: Waarom overtreedt ook u het gebod van God, door <Dat is, die u aangenomen hebt en volgt.> uw inzetting?",
+      "source_text": "ὁ δὲ ἀποκριθεὶς εἶπεν αὐτοῖς, Διατί καὶ ὑμεῖς παραβαίνετε τὴν ἐντολὴν τοῦ Θεοῦ διὰ τὴν παράδοσιν ὑμῶν;",
+      "generated_at": "2026-06-05T05:46:55.148910Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    }
+  ]
+}
