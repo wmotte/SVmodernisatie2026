@@ -304,6 +304,39 @@
       "generated_at": "2026-06-05T04:54:51.742913Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 34,
+      "original": "$Marc. 6.53.$ Ende over gevaren zijnde, quamen sy in het lant Gennesareth.",
+      "modernized": "$Mk. 6:53$ En toen zij overgevaren waren, kwamen zij in het land Gennésaret.",
+      "source_text": "Καὶ διαπεράσαντες ἦλθον εἰς τὴν γῆν Γεννησαρέτ.",
+      "generated_at": "2026-06-05T04:58:04.469750Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 35,
+      "original": "Ende als de mannen van die plaetse hem wierden kennende, sonden sy in dat geheel omliggende lant, ende brachten tot hem alle die qualick gestelt waren.",
+      "modernized": "En toen de mannen van die plaats hem herkenden, zonden zij rond in dat hele omliggende land, en brachten tot hem allen die er slecht aan toe waren.",
+      "source_text": "καὶ ἐπιγνόντες αὐτὸν οἱ ἄνδρες τοῦ τόπου ἐκείνου ἀπέστειλαν εἰς ὅλην τὴν περίχωρον ἐκείνην, καὶ προσήνεγκαν αὐτῷ πάντας τοὺς κακῶς ἔχοντας·",
+      "generated_at": "2026-06-05T04:58:32.920643Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "reason": "'zonden zij bericht' → 'zonden zij rond': SV1657 'sonden sy in...' en Gr. ἀπέστειλαν εἰς ὅλην τὴν περίχωρον hebben een elliptisch object; het ingevulde zelfstandig naamwoord 'bericht' is HSV-stijl exegese in de hoofdtekst (§3.4 / 4c). 'rondzenden' bewaart de ellips zonder een object te benoemen."
+        }
+      ]
+    },
+    {
+      "verse_number": 36,
+      "original": "Ende baden hem, dat sy alleenlick den <Namel. tot een teecken datse van hem wilden geholpen wesen: niet datse den zoom sulcken kracht toeschreven. Siet diergelijck Matth. cap. 9. vers 21.> zoom sijns kleets souden mogen aenraken: ende soo vele als <Ofte, dien, namelick, den zoom.> [hem] aenraeckten wierden gesont.",
+      "modernized": "En zij smeekten hem dat zij alleen maar de <Namelijk, tot een teken dat zij door hem geholpen wilden worden; niet dat zij de zoom zulke kracht toeschreven. Zie iets dergelijks $Mt. 9:21$.> zoom van zijn kleed mochten aanraken; en zovelen als <Of, die, namelijk, de zoom.> [hem] aanraakten, werden gezond.",
+      "source_text": "καὶ παρεκάλουν αὐτόν, ἵνα μόνον ἅψωνται τοῦ κρασπέδου τοῦ ἱματίου αὐτοῦ· καὶ ὅσοι ἥψαντο διεσώθησαν.",
+      "generated_at": "2026-06-05T04:58:59.634548Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 6
     }
   ]
 }
