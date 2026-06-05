@@ -107,7 +107,7 @@
           "alternatives": [
             "$1Jh. 15:2$"
           ],
-          "reason": "1 Johannes heeft maar 5 hoofdstukken; hoofdstuk 15 bestaat alleen in het Johannes-evangelie. De verwijzing is de wederkerige kruisverwijzing met Joh. 15:2 (rank/vrucht). De bron-token 1.Ioan. is een druk-/leesartefact; bibref normaliseert het ten onrechte naar 1Jh."
+          "reason": "SV1657-zetfout: 1 Johannes heeft maar 5 hoofdstukken, dus 1.Ioan. 15.2 is onmogelijk. De bedoelde verwijzing is Joh. 15:2 (rank/vrucht), de wederkerige kruisverwijzing — Joh. 15:2 verwijst zelf terug naar Mt. 15:13. Onafhankelijk bevestigd via statenvertaling.nl (kanttekening Mt. 15:13 = Joh. 15:2) en de HSV-spiegel ($Joh. 15:2$). Correctie 1.Ioan.->Ioan. vastgelegd in scripts/source_corrections.py (categorie 5)."
         }
       ]
     },
@@ -127,22 +127,22 @@
     },
     {
       "verse_number": 16,
-      "status": "pending",
-      "sv2026": "",
+      "status": "modernized",
+      "sv2026": "Maar Jezus zei: Bent ook u nog <Of, onverstandig, zonder verstand.> onwetend?",
       "hsv": "Maar Jezus zei: Bent ook u nog altijd onwetend?",
       "original": "Maer Iesus seyde, Zijt oock ghylieden als noch <Of, onverstandigh, sonder verstant.> onwetende?"
     },
     {
       "verse_number": 17,
-      "status": "pending",
-      "sv2026": "",
+      "status": "modernized",
+      "sv2026": "Verstaat u nog niet, dat al wat de mond ingaat, in de buik komt, en in het verborgene wordt uitgeworpen?",
       "hsv": "Ziet u niet in dat alles wat de mond ingaat, in de buik komt en in de afzondering weer uitgescheiden wordt?",
       "original": "En verstaet ghy noch niet, dat al wat ten monde ingaet, in den buyck komt, ende in de heymelickheyt wort uytgeworpen?"
     },
     {
       "verse_number": 18,
-      "status": "pending",
-      "sv2026": "",
+      "status": "modernized",
+      "sv2026": "Maar de dingen die de mond uitgaan, komen voort uit het hart, en die verontreinigen de mens.",
       "hsv": "Maar de dingen die uit de mond komen, komen voort uit het hart, en die verontreinigen de mens.",
       "original": "Maer die dingen, die ten monde uytgaen, komen voort uyt het herte, ende deselve ontreynigen den mensche."
     },
