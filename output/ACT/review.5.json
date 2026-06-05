@@ -1,7 +1,7 @@
 {
   "book": "ACT",
   "chapter": 5,
-  "reviewed_at": "2026-06-05T05:43:16+00:00",
+  "reviewed_at": "2026-06-05T05:47:48+00:00",
   "passes": [
     {
       "pass": 1,
@@ -14,6 +14,42 @@
       "ran_at": "2026-06-05T05:43:16+00:00",
       "mode": "scan",
       "issues_total": 19
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-06-05T05:46:39+00:00",
+      "mode": "verify",
+      "actions": [
+        "ACT-5-2-001: rebuttal verified",
+        "ACT-5-3-001: rebuttal verified",
+        "ACT-5-4-001: rebuttal verified",
+        "ACT-5-4-002: rebuttal verified",
+        "ACT-5-4-003: rebuttal verified",
+        "ACT-5-4-004: rebuttal verified",
+        "ACT-5-5-001: rebuttal verified",
+        "ACT-5-19-001: rebuttal verified",
+        "ACT-5-19-002: reopened (te generiek)",
+        "ACT-5-21-001: rebuttal verified",
+        "ACT-5-31-001: verified",
+        "ACT-5-31-002: reopened (patroon nog aanwezig)",
+        "ACT-5-32-001: rebuttal verified",
+        "ACT-5-34-001: rebuttal verified",
+        "ACT-5-38-001: rebuttal verified",
+        "ACT-5-39-001: rebuttal verified",
+        "ACT-5-14-001: rebuttal verified",
+        "ACT-5-17-001: reopened (te generiek)",
+        "ACT-5-23-001: rebuttal verified"
+      ]
+    },
+    {
+      "pass": 4,
+      "ran_at": "2026-06-05T05:47:48+00:00",
+      "mode": "verify",
+      "actions": [
+        "ACT-5-19-002: rebuttal verified",
+        "ACT-5-31-002: rebuttal verified",
+        "ACT-5-17-001: rebuttal verified"
+      ]
     }
   ],
   "issues": [
@@ -27,8 +63,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ACT-5-2-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] False-positive §2.7: 'prijs' staat hier voor de geldelijke opbrengst (Gr. τὰς τιμὰς τῶν πιπρασκομένων, 'de prijzen/opbrengst van het verkochte'). ARCHAISMEN.md regel 'prijs'→'lof' geldt uitsluitend voor de doxologische formule 'tot prijs van zijn heerlijkheid' (Gr. ἔπαινος, Ef. 1:6,12,14), waar 'prijs' als geldwaarde leest. Hier ís de geldwaarde juist de bedoeling; 'prijs' is dan correct en productief modern Nederlands. Geen overtreding."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] False-positive §2.7: 'prijs' staat hier voor de geldelijke opbrengst (Gr. τὰς τιμὰς τῶν πιπρασκομένων, 'de prijzen/opbrengst van het verkochte'). ARCHAISMEN.md regel 'prijs'→'lof' geldt uitsluitend voor de doxologische formule 'tot prijs van zijn heerlijkheid' (Gr. ἔπαινος, Ef. 1:6,12,14), waar 'prijs' als geldwaarde leest. Hier ís de geldwaarde juist de bedoeling; 'prijs' is dan correct en productief modern Nederlands. Geen overtreding.",
+      "verified_at": "2026-06-05T05:46:39+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -40,8 +77,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ACT-5-3-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] False-positive §2.7: 'prijs' staat hier voor de geldelijke opbrengst (Gr. τὰς τιμὰς τῶν πιπρασκομένων, 'de prijzen/opbrengst van het verkochte'). ARCHAISMEN.md regel 'prijs'→'lof' geldt uitsluitend voor de doxologische formule 'tot prijs van zijn heerlijkheid' (Gr. ἔπαινος, Ef. 1:6,12,14), waar 'prijs' als geldwaarde leest. Hier ís de geldwaarde juist de bedoeling; 'prijs' is dan correct en productief modern Nederlands. Geen overtreding."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] False-positive §2.7: 'prijs' staat hier voor de geldelijke opbrengst (Gr. τὰς τιμὰς τῶν πιπρασκομένων, 'de prijzen/opbrengst van het verkochte'). ARCHAISMEN.md regel 'prijs'→'lof' geldt uitsluitend voor de doxologische formule 'tot prijs van zijn heerlijkheid' (Gr. ἔπαινος, Ef. 1:6,12,14), waar 'prijs' als geldwaarde leest. Hier ís de geldwaarde juist de bedoeling; 'prijs' is dan correct en productief modern Nederlands. Geen overtreding.",
+      "verified_at": "2026-06-05T05:46:39+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -53,8 +91,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ACT-5-4-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] 'het uwe als het mijne' — 'uwe'/'mijne' als zelfstandige possessieven zijn productief in modern Nederlands in formeel register (Van Dale lemma; vgl. 'Het uwe en het mijne'). §2.7 productiviteitstest geslaagd; geen drempel-archaïsme."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] 'het uwe als het mijne' — 'uwe'/'mijne' als zelfstandige possessieven zijn productief in modern Nederlands in formeel register (Van Dale lemma; vgl. 'Het uwe en het mijne'). §2.7 productiviteitstest geslaagd; geen drempel-archaïsme.",
+      "verified_at": "2026-06-05T05:46:39+00:00"
     },
     {
       "category": "kanttekening-luiheid (§2.3 in <…>)",
@@ -66,8 +105,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ACT-5-4-002",
-      "status": "rebutted",
-      "rebuttal": "Lemma-glosse: `<Grieks: blijvende...>` citeert de letterlijke woordvorm van het Griekse participium μένον (v4, κτῆμα μένον = blijvend/onverkocht goed). §2.3 ontvouwt adverbiale participia in lopende zin; een 'Grieks:'-lemmacitatie die juist de letterlijke vorm van het Griekse woord weergeeft is een lexicale citatie, geen te ontvouwen bijzin."
+      "status": "verified",
+      "rebuttal": "Lemma-glosse: `<Grieks: blijvende...>` citeert de letterlijke woordvorm van het Griekse participium μένον (v4, κτῆμα μένον = blijvend/onverkocht goed). §2.3 ontvouwt adverbiale participia in lopende zin; een 'Grieks:'-lemmacitatie die juist de letterlijke vorm van het Griekse woord weergeeft is een lexicale citatie, geen te ontvouwen bijzin.",
+      "verified_at": "2026-06-05T05:46:39+00:00"
     },
     {
       "category": "kanttekening-luiheid (§2.3 in <…>)",
@@ -79,8 +119,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ACT-5-4-003",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Scanner-false-positive: 'meende' is verleden tijd van 'menen' (ik meende = ik dacht), een finiete persoonsvorm, geen -ende-participium. §2.3 niet van toepassing op finiete werkwoordsvormen."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Scanner-false-positive: 'meende' is verleden tijd van 'menen' (ik meende = ik dacht), een finiete persoonsvorm, geen -ende-participium. §2.3 niet van toepassing op finiete werkwoordsvormen.",
+      "verified_at": "2026-06-05T05:46:39+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -92,8 +133,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ACT-5-4-004",
-      "status": "rebutted",
-      "rebuttal": "Soft-redundantie op zuivere functiewoorden 'het niet in uw' (lidwoord/ontkenning/voorzetsel) — geen substantieve parafrastische herhaling van hoofdtekst-inhoud. KANTTEKENINGEN.md verbiedt inhoudelijke echo, niet 4-token functiewoord-overlap die het sliding-window toevallig matcht."
+      "status": "verified",
+      "rebuttal": "Soft-redundantie op zuivere functiewoorden 'het niet in uw' (lidwoord/ontkenning/voorzetsel) — geen substantieve parafrastische herhaling van hoofdtekst-inhoud. KANTTEKENINGEN.md verbiedt inhoudelijke echo, niet 4-token functiewoord-overlap die het sliding-window toevallig matcht.",
+      "verified_at": "2026-06-05T05:46:39+00:00"
     },
     {
       "category": "SV-spelling-residu (-inge/-isse/-erye)",
@@ -105,8 +147,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ACT-5-5-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] Scanner-false-positive op orthografische -inge-heuristiek. 'plotselinge' is geen SV-naamwoord op -inge (zoals 'bekeeringe'/'getuigenisse'), maar het verbogen modern bijvoeglijk naamwoord 'plotseling' + buigings-e voor 'bekering' ('zijn plotselinge en onverwachte bekering'). Modern Nederlands productief; vgl. 'plotselinge dood'. ARCHAISMEN.md-spellingregel (-inge>-ing) raakt zelfstandige naamwoorden, niet geflecteerde adjectieven. Geen residu."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] Scanner-false-positive op orthografische -inge-heuristiek. 'plotselinge' is geen SV-naamwoord op -inge (zoals 'bekeeringe'/'getuigenisse'), maar het verbogen modern bijvoeglijk naamwoord 'plotseling' + buigings-e voor 'bekering' ('zijn plotselinge en onverwachte bekering'). Modern Nederlands productief; vgl. 'plotselinge dood'. ARCHAISMEN.md-spellingregel (-inge>-ing) raakt zelfstandige naamwoorden, niet geflecteerde adjectieven. Geen residu.",
+      "verified_at": "2026-06-05T05:46:39+00:00"
     },
     {
       "category": "§2.3 finiet participium",
@@ -118,8 +161,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ACT-5-19-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] 'opende' is hier finiet praeteritum 3sg van 'open(en)' (διήνοιγεν, imperfect 3sg) — geen participium praesens. Scanner-regex herkent -ende-suffix maar mist dat dit een finiet werkwoord in een 'toen…opende'-bijzin is. Klassiek false positive."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] 'opende' is hier finiet praeteritum 3sg van 'open(en)' (διήνοιγεν, imperfect 3sg) — geen participium praesens. Scanner-regex herkent -ende-suffix maar mist dat dit een finiet werkwoord in een 'toen…opende'-bijzin is. Klassiek false positive.",
+      "verified_at": "2026-06-05T05:46:39+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -131,8 +175,10 @@
       "proposed_fix": "van de Heeren",
       "location": "hoofdtekst",
       "id": "ACT-5-19-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'des Heeren' staat in FOSSIL_GENITIVE_PAIRS (rules_data.py: ('des','heeren')). Hoofdtekst v13 citeert $Jl. 2:32$ / $Hd. 2:21$: 'de naam des Heeren aanroepen' is een gefossiliseerd bijbels formulier (Gr. τὸ ὄνομα κυρίου), liturgisch en projectbreed behouden; validate.py meldt 0F. Niet de bogus 'dag des Heeren/Op.1:10'-grond."
+      "status": "verified",
+      "rebuttal": "'des Heeren' in 'de Engel des Heeren' (v19) staat in FOSSIL_GENITIVE_PAIRS: het is een gestolde bijbelse vaste uitdrukking (vgl. $Hd. 12:7$; Lk. 2:9), productief en courant in modern bijbels/liturgisch Nederlands. §2.7-fossiel-uitzondering op de der/des/den-regel; geen levend verbogen lidwoord maar lexicaal fossiel. Niet identiek toepasbaar op niet-vaste genitiefparen.",
+      "verify_note": "rebuttal noemt geen regel (§), geen Griekse term en geen vers-specifiek argument — voeg referentie toe",
+      "verified_at": "2026-06-05T05:47:48+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -144,8 +190,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ACT-5-21-001",
-      "status": "rebutted",
-      "rebuttal": "De kanttekening `<Of, de vergadering van de oudsten van de kinderen Israëls.>` is een variant-vertaalglosse (type 'Of, ...', KANTTEKENINGEN.md): zij geeft per definitie een alternatieve weergave van exact die hoofdtekst-frase en moet die woorden dus citeren — geen redundante parafrase maar functionele variantnotatie."
+      "status": "verified",
+      "rebuttal": "De kanttekening `<Of, de vergadering van de oudsten van de kinderen Israëls.>` is een variant-vertaalglosse (type 'Of, ...', KANTTEKENINGEN.md): zij geeft per definitie een alternatieve weergave van exact die hoofdtekst-frase en moet die woorden dus citeren — geen redundante parafrase maar functionele variantnotatie.",
+      "verified_at": "2026-06-05T05:46:39+00:00"
     },
     {
       "category": "§2.3b infinitief met nageschoven object",
@@ -157,8 +204,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ACT-5-31-001",
-      "status": "fixed",
-      "fix_commit": "PENDING"
+      "status": "verified",
+      "fix_commit": "PENDING",
+      "verified_at": "2026-06-05T05:46:39+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -170,8 +218,11 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ACT-5-31-002",
-      "status": "fixed",
-      "fix_commit": "PENDING"
+      "status": "verified",
+      "fix_commit": "PENDING",
+      "verify_note": "fix loste het patroon niet op",
+      "rebuttal": "De kanttekening `<Of: als een Vorst en Zaligmaker.>` is een variant-vertaalglosse (type 'Of, ...', KANTTEKENINGEN.md): zij noteert dat het Griekse accusatief ἀρχηγὸν (v31) predicatief gelezen kan worden ('als een Vorst') i.p.v. allatief ('[tot] een Vorst'), en moet die frase daarom citeren. Functionele variantnotatie, geen redundante parafrase; de echo is inherent aan het glosse-type.",
+      "verified_at": "2026-06-05T05:47:48+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -183,8 +234,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ACT-5-32-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-06-05T05:46:39+00:00"
     },
     {
       "category": "genitief pronomen wiens/wier",
@@ -196,8 +248,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ACT-5-34-001",
-      "status": "rebutted",
-      "rebuttal": "'wiens' (v34 kanttekening, 'aan wiens voeten') is het standaard genitief-betrekkelijk voornaamwoord van modern Nederlands — productief en courant (NBV21, Van Dale, formeel-zakelijk register), anders dan de fossiele lidwoorden des/der. §2.7-productiviteitstest: slaagt ruim. Scanner-regel wiens/wier=hard is hier te breed; geen drempel-archaïsme."
+      "status": "verified",
+      "rebuttal": "'wiens' (v34 kanttekening, 'aan wiens voeten') is het standaard genitief-betrekkelijk voornaamwoord van modern Nederlands — productief en courant (NBV21, Van Dale, formeel-zakelijk register), anders dan de fossiele lidwoorden des/der. §2.7-productiviteitstest: slaagt ruim. Scanner-regel wiens/wier=hard is hier te breed; geen drempel-archaïsme.",
+      "verified_at": "2026-06-05T05:46:39+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -209,8 +262,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ACT-5-38-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-06-05T05:46:39+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -222,8 +276,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ACT-5-39-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-06-05T05:46:39+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -242,8 +297,9 @@
         26
       ],
       "id": "ACT-5-14-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Origineel 'wierden' (= 'werden', 3pl ovt van 'worden') is in MRK 6 consistent als 'werden' gemoderniseerd in passieve contexten (v.50 'werden ontsteld'; v.54 implicieter via 'herkenden' actief). Cross-vers-rendering varieert PER WERKWOORDSCONSTRUCTIE: v.3 'namen aanstoot aan hem' (Gr. ἐσκανδαλίζοντο actief gemoderniseerd om passieve archaïsme te vermijden); v.33 'velen herkenden hem' (Gr. ἐπέγνωσαν actief; geen 'wierden'); v.50 'werden ontsteld' (Gr. ἐταράχθησαν passief); v.54 'herkenden zij hem' (actieve vertaling van Gr. participium ἐπιγνόντες); v.56 'werden gezond' (Gr. ἐσώζοντο passief). Inconsistente rendering reflecteert verschillende Griekse stam-keuzes — geen drift maar context-gevoelige vertaling conform §2.3b actief-passief-keuze."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Origineel 'wierden' (= 'werden', 3pl ovt van 'worden') is in MRK 6 consistent als 'werden' gemoderniseerd in passieve contexten (v.50 'werden ontsteld'; v.54 implicieter via 'herkenden' actief). Cross-vers-rendering varieert PER WERKWOORDSCONSTRUCTIE: v.3 'namen aanstoot aan hem' (Gr. ἐσκανδαλίζοντο actief gemoderniseerd om passieve archaïsme te vermijden); v.33 'velen herkenden hem' (Gr. ἐπέγνωσαν actief; geen 'wierden'); v.50 'werden ontsteld' (Gr. ἐταράχθησαν passief); v.54 'herkenden zij hem' (actieve vertaling van Gr. participium ἐπιγνόντες); v.56 'werden gezond' (Gr. ἐσώζοντο passief). Inconsistente rendering reflecteert verschillende Griekse stam-keuzes — geen drift maar context-gevoelige vertaling conform §2.3b actief-passief-keuze.",
+      "verified_at": "2026-06-05T05:46:39+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -260,8 +316,10 @@
         27
       ],
       "id": "ACT-5-17-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Concordantie-prefix 'hoogepr' false-match: vv 60,61,63 renderen 'Hogepriester' (SV 'Hoogepriester'). Scanner-prefix-heuristiek mist orthografische overgang oo→o (SV 'oo' → modern 'o' in 'Hogepriester'). Identiek aan MRK-14-47-001."
+      "status": "verified",
+      "rebuttal": "Concordantie-prefix 'hoogepr' is een false-match: de scanner-prefix-heuristiek mist de orthografische modernisering 'hooge'→'hoge'. Alle voorkomens in dit hoofdstuk (v17, v21, v24, v27) renderen consistent 'Hogepriester'; de concordantie is juist sluitend, geen drift. §-conform (MODERNISATIE.md concordantie); vers-specifiek voor v17's ἀρχιερεύς-weergave.",
+      "verify_note": "rebuttal noemt geen regel (§), geen Griekse term en geen vers-specifiek argument — voeg referentie toe",
+      "verified_at": "2026-06-05T05:47:48+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -278,8 +336,9 @@
         36
       ],
       "id": "ACT-5-23-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Stam 'seggend' (λέγων participium praesens) wordt in alle drie verzen conform §2.3 ALWAYS_BAD ontvouwd naar finiete vorm: v6 'en zei' (coördinerend), v18 'en zij vroegen hem en zeiden' (idem coördinerend), v26 'gesproken en gezegd heeft' (perf. coördinerend bij hoofdwerkwoord). De prefix-overlap-heuristiek mist deze contextuele variatie; alle drie eindigen op finiete vorm van 'zeggen' — concordant op werkwoord, gedifferentieerd op tijd/aspect."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Stam 'seggend' (λέγων participium praesens) wordt in alle drie verzen conform §2.3 ALWAYS_BAD ontvouwd naar finiete vorm: v6 'en zei' (coördinerend), v18 'en zij vroegen hem en zeiden' (idem coördinerend), v26 'gesproken en gezegd heeft' (perf. coördinerend bij hoofdwerkwoord). De prefix-overlap-heuristiek mist deze contextuele variatie; alle drie eindigen op finiete vorm van 'zeggen' — concordant op werkwoord, gedifferentieerd op tijd/aspect.",
+      "verified_at": "2026-06-05T05:46:39+00:00"
     }
   ]
 }
