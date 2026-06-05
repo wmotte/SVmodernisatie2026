@@ -142,6 +142,45 @@
       "generated_at": "2026-06-05T06:26:36.222225Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 16,
+      "original": "Ende dit geschiedde tot drie mael: ende het vat wiert wederom opgenomen in den hemel.",
+      "modernized": "En dit gebeurde tot driemaal; en het voorwerp werd weer opgenomen in de hemel.",
+      "source_text": "τοῦτο δὲ ἐγένετο ἐπὶ τρίς· καὶ πάλιν ἀνελήφθη τὸ σκεῦος εἰς τὸν οὐρανόν.",
+      "generated_at": "2026-06-05T06:32:18.276091Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 17,
+      "original": "Ende alsoo Petrus in hemselven twijfelde wat doch het gesichte mochte zijn, dat hy gesien hadde, siet, de mannen die van Cornelio afgesonden waren, gevraeght hebbende na het huys Simonis, stonden aen de poorte.",
+      "modernized": "En terwijl Petrus bij zichzelf twijfelde wat toch het visioen zou kunnen zijn dat hij gezien had, zie, de mannen die door Cornelius afgevaardigd waren, hadden navraag gedaan naar het huis van Simon en stonden aan de poort.",
+      "source_text": "Ὡς δὲ ἐν ἑαυτῷ διηπόρει ὁ Πέτρος τί ἂν εἴη τὸ ὅραμα ὃ εἶδε, καὶ ἰδού, οἱ ἄνδρες οἱ ἀπεσταλμένοι ἀπὸ τοῦ Κορνηλίου, διερωτήσαντες τὴν οἰκίαν Σίμωνος, ἐπέστησαν ἐπὶ τὸν πυλῶνα,",
+      "generated_at": "2026-06-05T06:32:47.539499Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "subject": "gesichte -> visioen",
+          "context": "hoofdtekst; HSV-spiegel",
+          "choice": "visioen",
+          "alternatives": [
+            "gezicht"
+          ],
+          "reason": "Grieks ὅραμα duidt hier op een visioen; modern 'gezicht' leest primair als gelaat/zicht en is daarom een drempel-archaïsme (§2.7). HSV-spiegel bevestigt 'visioen'."
+        }
+      ]
+    },
+    {
+      "verse_number": 18,
+      "original": "Ende [yemant] geroepen hebbende vraeghden sy, of Simon, toegenaemt Petrus, daer te huys lagh.",
+      "modernized": "En nadat zij [iemand] geroepen hadden, vroegen zij of Simon, die Petrus genoemd wordt, daar verbleef.",
+      "source_text": "καὶ φωνήσαντες ἐπυνθάνοντο εἰ Σίμων, ὁ ἐπικαλούμενος Πέτρος, ἐνθάδε ξενίζεται.",
+      "generated_at": "2026-06-05T06:33:18.459127Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
