@@ -25,6 +25,7 @@ git-workflow. Voor wat het project *is* en hoe je de tekst leest, zie de
   - [Diepere beoordeling (in-context)](#diepere-beoordeling-in-context)
   - [Adversariële beoordeling per hoofdstuk](#adversariële-beoordeling-per-hoofdstuk)
   - [Meta-adversariële review per boek](#meta-adversariële-review-per-boek)
+  - [Red-green debat over boeken heen (NT-breed)](#red-green-debat-over-boeken-heen-nt-breed)
 - [Bijbelverwijzingen](#bijbelverwijzingen)
 - [Git-workflow](#git-workflow)
   - [Parallelle agent-sessies — worktrees + clash](#parallelle-agent-sessies--worktrees--clash)
@@ -624,6 +625,102 @@ of epilogen (geen HSV-equivalent in de diff-bestanden).
 
 Trigger-zinnen: `meta-review LUK`, `draai meta-adversarial`,
 `scan alle HSV-diffs voor patronen`, `meta-review LUK apply`.
+
+---
+
+### Red-green debat over boeken heen (NT-breed)
+
+De `sv-red-green` skill (`.agents/skills/sv-red-green/`) is de **bovenste
+laag**: een iteratief, gelijk-machtig adversarieel debat dat over **twee
+boeken tegelijk** kijkt en bewust de **between-book consistentie** aanvalt
+— de blinde vlek van de andere lagen. Waar adversarial-review één
+hoofdstuk fileert en meta-review binnen één boek aggregeert, zet
+red-green twee boeken tegenover elkaar en herhaalt tot er niets nieuws
+meer boven komt.
+
+**Drie rollen, elk een aparte subagent met schone context** (de
+orchestrator houdt enkel tellingen + paden vast, zodat de context niet
+volloopt):
+
+1. **Red team** — kiest (worst-first) twee afgeronde boeken en stelt
+   **≤10 zwakste punten** op. Twee klassen: `modernisatie` (fout in één
+   boek: drempel-archaïsme, §2.3-participium, §2.3b-Latinaat, false
+   friend, fossiel, imperatief-`-t`, eerbiedskapitaal, kanttekening-
+   luiheid) en `consistentie` (zelfde Grieks/idioom verschillend
+   gemoderniseerd tússen de twee boeken). Default-stance = overtreding;
+   0 punten is een geldig, gewenst einde (geen quota-vulling).
+2. **Green team** — even sterk; pareert elk punt. Een rebuttal telt enkel
+   met **≥2 van**: §-regel, concrete Griekse term, vers-specifiek
+   argument (dezelfde gate als `sv-adversarial-review` Stap 2b).
+   Boilerplate ("SV-stijl behouden") telt niet.
+3. **Arbiter** — beslecht elke deadlock mechanisch: `green_wins` (gate
+   gehaald), `red_wins` (gate niet gehaald / green concedeert), of
+   `rule_change` (structureel patroon dat NT-breed in een regelbestand
+   thuishoort).
+
+**Worst-first selectie is deterministisch:**
+`scripts/redgreen_select.py` rangschikt alléén 100%-afgeronde boeken op
+open/reopened issues, review-dekkingsgat, historisch issue-aantal en
+debat-rotatie. `scripts/redgreen_concord.py` levert een **bounded**
+concord-seed (gedeeld Griekse token → uiteenlopende NL-rendering) zodat
+het red team between-book divergenties ziet zonder beide boeken volledig
+in context te laden.
+
+```bash
+uv run python scripts/redgreen_select.py
+uv run python scripts/redgreen_concord.py --books REV JHN \
+    --top 25 --out output/META/debate/concord_1.json
+```
+
+**Notulen persisteren over sessies.** `scripts/redgreen_minutes.py`
+beheert `output/META/debate/`:
+
+| Artefact | Inhoud |
+|---|---|
+| `state.json` | Ronde-cursor, gedebatteerde paren, `debate_count`, en `closed_keys` (beslechte punt-sleutels → red mag ze niet herhalen) |
+| `minutes.md` | Mens-leesbare notulen, één sectie per ronde |
+| `round_<N>.json` | Volledig debat-record per ronde (red / green / verdicts) |
+| `decisions.jsonl` | Beslechte verdicts worden aangevuld op het bestaande spoor (hergebruikt door `query_decisions.py`) |
+
+Elke sessie **leest eerst de notulen** (`redgreen_minutes.py summary` +
+`closed-keys`) zodat een vorig debat wordt meegenomen en punten niet
+opnieuw oplaaien.
+
+```bash
+uv run python scripts/redgreen_minutes.py init      # idempotent
+uv run python scripts/redgreen_minutes.py summary    # compacte status
+uv run python scripts/redgreen_minutes.py append --round output/META/debate/round_1.json
+```
+
+**Apply = volledig auto-merge (NT-breed).** Bij `red-green apply` worden
+geaccepteerde verbeteringen daadwerkelijk uitgerold, regel-deltas vóór
+content-fixes:
+
+- `rule_change` → bronlocatie in `scripts/rules_data.py` /
+  `scripts/stoplist.txt` / `ARCHAISMEN.md` (nooit de linter zelf — zie
+  `REGELBESTANDEN.md`), gevolgd door een **NT-brede sweep**
+  (`lint_all.py --root output`) die élk geraakt vers opspoort. Geen
+  silent cap: het aantal in de notulen moet kloppen met de sweep.
+- `red_wins` (content) + de sweep-treffers → `sv-modernize` per vers over
+  **alle** boeken, dan `sv-validate` + `sv-semantic-review`, commit per
+  hoofdstuk, auto-merge bij groen. Apply draait in een worktree met
+  foreground-git (zie worktree-workflow hieronder).
+
+Een kale `debatronde` / `red-green review` doet alleen analyse + notulen
+(geen edits); `red-green apply` rolt uit.
+
+**Loop-scope:** N rondes per aanroep (default 3), of stop zodra het red
+team in een ronde 0 nieuwe punten levert (alles al in `closed_keys`).
+Daarna eindrapport (≤15 regels) met paren, punt-/verdict-tellingen,
+NT-brede deltas en geblokkeerde verzen.
+
+**Plek in de workflow:** ná afsluiting van (vrijwel) het hele NT, als
+laatste kwaliteitslaag die de andere drie overstijgt. Vereist minstens
+twee 100%-afgeronde boeken; partiële boeken (pending verzen) worden door
+`redgreen_select.py` overgeslagen.
+
+Trigger-zinnen: `red-green review`, `start red vs green`, `debatronde`,
+`red-green apply`.
 
 ---
 
