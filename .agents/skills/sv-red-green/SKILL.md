@@ -55,13 +55,16 @@ boeken): stop, meld aan gebruiker.
 
 ```bash
 uv run python scripts/redgreen_concord.py --books <B1> <B2> \
-    --top 25 --out output/META/debate/concord_<N>.json
+    --layer both --top 25 --out output/META/debate/concord_<N>.json
 ```
 
 Bounded lexicale seed van kandidaat-divergenties (zelfde Griekse token →
-uiteenlopende NL-rendering). Geen oordeel; het red team verifieert in
-context. De orchestrator leest dit bestand **niet** zelf — het pad gaat
-mee als context naar de red-subagent.
+uiteenlopende NL-rendering). `--layer both` levert **twee lagen**:
+`layer: "body"` (verstekst, kanttekeningen gestript) en `layer: "note"`
+(alléén de `<...>`-kanttekening-inhoud) — zo komt
+kanttekening-concordantie-drift expliciet in de seed. Geen oordeel; het
+red team verifieert in context. De orchestrator leest dit bestand **niet**
+zelf — het pad gaat mee als context naar de red-subagent.
 
 ## Stap 3 — RED subagent (schone context)
 
@@ -89,6 +92,17 @@ gestraft, uitgangspunt is dat het punt terecht is). Twee klassen:
 - `class: "consistentie"` — zelfde Grieks/idioom verschillend
   gemoderniseerd **tussen** de twee boeken (concordantie-drift).
 
+**Kanttekeningen tellen volwaardig mee.** Beoordeel óók de inhoud binnen
+de `<...>`-blokken in `modernized`, niet enkel de verstekst. Pas dezelfde
+regels toe binnen de kanttekening: drempel-archaïsme, finiet participium,
+Latinaat-syntax, false friend, fossiel lidwoord, eerbiedskapitaal,
+bijbelref-stijl. Een luie of half-gemoderniseerde kanttekening = `class:
+"modernisatie"`, `severity: "hard"`. Een kanttekening die dezelfde Griekse
+term anders uitlegt/vertaalt dan het andere boek = `class: "consistentie"`
+— dit zijn de `layer: "note"`-kandidaten in de concord-seed. Markeer een
+kanttekening-punt door `"in_kanttekening": true` aan het punt toe te
+voegen.
+
 Red **mag <10 of 0 punten** teruggeven (geen quota-vulling met ruis).
 Punten waarvan de `point_key` al in closed-keys staat: **niet** opnieuw
 inbrengen. Red schrijft naar `output/META/debate/round_<N>.json`:
@@ -105,6 +119,7 @@ inbrengen. Red schrijft naar `output/META/debate/round_<N>.json`:
       "chapter": <int>,
       "verse": <int>,
       "quote": "<gemoderniseerd fragment>",
+      "in_kanttekening": false,
       "rule_reference": "MODERNISATIE.md §2.3 / §2.7 / etc.",
       "explanation": "<korte motivatie>",
       "proposed_fix": "<suggestie>",
