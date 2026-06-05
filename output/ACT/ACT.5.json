@@ -304,6 +304,41 @@
       "generated_at": "2026-06-05T05:00:25.907329Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 34,
+      "original": "Maer een seker Pharizeus stont op in den Raet, met name <Dese meynt men den selven te zijn, aen wiens voeten d’Apostel Paulus in de wet onderwesen is geweest, Act. 22.3.> Gamaliël, een Leeraer der wet, in weerde gehouden by al het volck, ende geboodt dat men de Apostelen <Gr. eenen korten, Namel. tijt.> een weynigh soude doen buyten [staen.]",
+      "modernized": "Maar een zekere Farizeeër stond op in de Raad, met name <Men meent dat dit dezelfde is aan wiens voeten de Apostel Paulus in de wet onderwezen is geweest, $Hd. 22:3$.> Gamaliël, een Leraar van de wet, in waarde gehouden bij heel het volk, en gebood dat men de Apostelen <Grieks: een korte; Namelijk tijd.> een weinig naar buiten zou doen [staan.]",
+      "source_text": "ἀναστὰς δέ τις ἐν τῷ συνεδρίῳ Φαρισαῖος, ὀνόματι Γαμαλιήλ, νομοδιδάσκαλος, τίμιος παντὶ τῷ λαῷ, ἐκέλευσεν ἔξω βραχύ τι τοὺς ἀποστόλους ποιῆσαι.",
+      "generated_at": "2026-06-05T05:03:18.221646Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 35,
+      "original": "Ende seyde tot haer, Ghy Israëlitische mannen, siet voor u wat ghy doen sult, aengaende dese menschen.",
+      "modernized": "En hij zei tot hen: Israëlitische mannen, zie voor u wat u doen zult, aangaande deze mensen.",
+      "source_text": "εἶπέ τε πρὸς αὐτούς, Ἄνδρες Ἰσραηλῖται, προσέχετε ἑαυτοῖς ἐπὶ τοῖς ἀνθρώποις τούτοις, τί μέλλετε πράσσειν.",
+      "generated_at": "2026-06-05T05:03:46.221290Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "ziet voor u -> zie voor u",
+          "context": "hoofdtekst",
+          "reason": "Imperatief-meervoud op -t naar stam geharmoniseerd (ARCHAISMEN.md imperatief-regel); de -t-vorm ontglipte de archaisme-scanner, semantic-review ving het. SV-zinsbouw onveranderd."
+        }
+      ]
+    },
+    {
+      "verse_number": 36,
+      "original": "$Actor. 21.38.$ Want <Dat is, voor desen tijt: Want het was al eenige jaren geleden.> voor dese dagen stont <De historyschrijver Iosephus Antiq. lib. 20. cap. 2. maeckt mentie van eenen oproerigen Theudas, die hem opgeworpen heeft als Cuspius Fadus Stadthouder over Iudea was onder den Keyser Claudius, maer sulcks is na desen tijt geschiet ende na de doot van Herodes Agrippa. Soo dat Gamaliël hier dan spreeckt van eenen anderen Theudas, die ten tijden des Keysers Augusti ofte Tiberij geweest is.> Theudas op, seggende dat hy <D. wat groots, gelijck Actor. 8.9.> wat was, dien een getal van ontrent vier hondert mannen <Gr. aenkleefde.> aenhingh: welcke is omgebracht, ende alle die hem gehoor gaven zijn verstroyt, ende tot niet geworden.",
+      "modernized": "$Hd. 21:38$ Want <Dat is, vóór deze tijd; want het was al enige jaren geleden.> vóór deze dagen stond <De geschiedschrijver Josephus Antiq. lib. 20. cap. 2. maakt melding van een oproerige Theudas, die zich heeft opgeworpen toen Cuspius Fadus Stadhouder over Judea was onder de Keizer Claudius, maar zulks is ná deze tijd gebeurd en ná de dood van Herodes Agrippa. Zodat Gamaliël hier dan spreekt van een andere Theudas, die ten tijde van de Keizer Augustus of Tiberius geweest is.> Theudas op, en zei dat hij <Dat is, iets groots, zoals $Hd. 8:9$.> iets was, die een getal van ongeveer vierhonderd mannen <Grieks: aankleefde.> aanhing: welke is omgebracht, en allen die hem gehoor gaven zijn verstrooid, en tot niets geworden.",
+      "source_text": "πρὸ γὰρ τούτων τῶν ἡμερῶν ἀνέστη Θευδᾶς, λέγων εἶναί τινα ἑαυτόν, ᾧ προσεκολλήθη ἀριθμὸς ἀνδρῶν ὡσεὶ τετρακοσίων· ὃς ἀνῃρέθη, καὶ πάντες ὅσοι ἐπείθοντο αὐτῷ διελύθησαν καὶ ἐγένοντο εἰς οὐδέν.",
+      "generated_at": "2026-06-05T05:04:30.314426Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
