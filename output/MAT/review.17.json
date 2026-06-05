@@ -1,0 +1,125 @@
+{
+  "book": "MAT",
+  "chapter": 17,
+  "reviewed_at": "2026-06-05T20:35:23+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-06-05T20:34:08+00:00",
+      "mode": "scan",
+      "issues_total": 6
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-06-05T20:35:23+00:00",
+      "mode": "verify",
+      "actions": [
+        "MAT-17-9-001: rebuttal verified",
+        "MAT-17-12-001: rebuttal verified",
+        "MAT-17-20-001: rebuttal verified",
+        "MAT-17-22-001: rebuttal verified",
+        "MAT-17-2-001: rebuttal verified",
+        "MAT-17-5-001: rebuttal verified"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 9,
+      "severity": "hard",
+      "quote_modernized": "…l niemand dit   visioen, totdat de Zoon des mensen uit de doden zal zijn opgesta…",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'des mensen' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de mensen' of 'van het mensen', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de mensen",
+      "location": "hoofdtekst",
+      "id": "MAT-17-9-001",
+      "status": "verified",
+      "rebuttal": "In MAT 17:9 is 'Zoon des mensen' de vaste titel bij Grieks ὁ Υἱὸς τοῦ ἀνθρώπου. MODERNISATIE.md §2.3b/§2.7 noemt deze formule expliciet als fossiele genitief die in modern bijbels Nederlands behouden blijft; 'van de mensen' zou de christologische titel breken.",
+      "verified_at": "2026-06-05T20:35:23+00:00"
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 12,
+      "severity": "hard",
+      "quote_modernized": "…t zij gewild hebben. Zo zal ook de Zoon des mensen door hen lijden.",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'des mensen' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de mensen' of 'van het mensen', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de mensen",
+      "location": "hoofdtekst",
+      "id": "MAT-17-12-001",
+      "status": "verified",
+      "rebuttal": "In MAT 17:12 verwijst 'Zoon des mensen' opnieuw naar de messiaanse titel bij Grieks ὁ Υἱὸς τοῦ ἀνθρώπου. Volgens MODERNISATIE.md §2.3b/§2.7 is dit een toegelaten fossiele bijbelformule; moderniseren naar 'Zoon van de mens(en)' zou juist terminologische drift geven.",
+      "verified_at": "2026-06-05T20:35:23+00:00"
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 20,
+      "severity": "soft",
+      "quote_modernized": "…ei tot hen: Vanwege uw ongeloof;   want voorwaar zeg ik u, als u   een geloof ha…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'voorwaar' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "MAT-17-20-001",
+      "status": "verified",
+      "rebuttal": "In MAT 17:20 staat 'voorwaar zeg ik u' voor Grieks ἀμὴν γὰρ λέγω ὑμῖν. ARCHAISMEN.md behoudt 'voorwaar' juist in de formule 'Voorwaar, Ik zeg u'; MODERNISATIE.md §2.7 laat zulke gefossiliseerde liturgische formules staan. Buiten deze formule zou het wel gemoderniseerd worden.",
+      "verified_at": "2026-06-05T20:35:23+00:00"
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 22,
+      "severity": "hard",
+      "quote_modernized": "… verkeerden, zei Jezus tot hen: De Zoon des mensen zal overgeleverd worden in de…",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'des mensen' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de mensen' of 'van het mensen', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de mensen",
+      "location": "hoofdtekst",
+      "id": "MAT-17-22-001",
+      "status": "verified",
+      "rebuttal": "In MAT 17:22 is 'Zoon des mensen' dezelfde vaste titel bij Grieks ὁ Υἱὸς τοῦ ἀνθρώπου. MODERNISATIE.md §2.3b/§2.7 noemt 'Zoon des mensen' als herkenbare, niet te moderniseren fossielconstructie; de scanner-regel voor gewone 'des'-genitieven is hier daarom niet van toepassing.",
+      "verified_at": "2026-06-05T20:35:23+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 2,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'wierden' in 4 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 4 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        2,
+        3,
+        6,
+        23
+      ],
+      "id": "MAT-17-2-001",
+      "status": "verified",
+      "rebuttal": "MAT 17 gebruikt SV 'wierden' in verschillende passieve contexten: v2 'werden wit', v3 'werden gezien' is na review idiomatisch 'verschenen', v6 'werden zeer bevreesd', v23 'werden zeer bedroefd'. AGENTS.md eist concordantie voor gelijke betekenis, maar hier verschillen werkwoord en constructie; bovendien mist de scanner de regelmatige orthografische overgang 'wierden' naar modern 'werden'.",
+      "verified_at": "2026-06-05T20:35:23+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 5,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'seggend' in 5 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 5 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        5,
+        9,
+        10,
+        14,
+        25
+      ],
+      "id": "MAT-17-5-001",
+      "status": "verified",
+      "rebuttal": "MAT 17 heeft SV 'seggende/seggen/seyde' bij directe rede in v5, v9, v10, v14 en v25. De moderne tekst gebruikt per syntactische context 'die zei', 'en zei', 'vroegen ... en zeiden' en 'zeiden'; dit volgt AGENTS.md concordantie op betekenisniveau. De scanner vergelijkt alleen de SV-stam 'seggend' met moderne spelling en mist de normale s→z-modernisering.",
+      "verified_at": "2026-06-05T20:35:23+00:00"
+    }
+  ]
+}
