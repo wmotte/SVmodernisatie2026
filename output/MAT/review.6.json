@@ -1,7 +1,7 @@
 {
   "book": "MAT",
   "chapter": 6,
-  "reviewed_at": "2026-06-04T15:13:09+00:00",
+  "reviewed_at": "2026-06-05T04:15:06+00:00",
   "passes": [
     {
       "pass": 1,
@@ -26,6 +26,20 @@
         "MAT-6-2-002: rebuttal verified",
         "MAT-6-25-002: rebuttal verified"
       ]
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-06-05T04:12:08+00:00",
+      "mode": "scan",
+      "issues_total": 10
+    },
+    {
+      "pass": 4,
+      "ran_at": "2026-06-05T04:15:06+00:00",
+      "mode": "in_context",
+      "prescan_rebutted": 10,
+      "prescan_open": 0,
+      "issues_added": 11
     }
   ],
   "issues": [
@@ -39,9 +53,8 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "MAT-6-2-001",
-      "status": "verified",
-      "rebuttal": "[Automated Propagation] Idem MRK-9-1-001: 'voorwaar, ik zeg u' = ἀμὴν λέγω ὑμῖν, gestolde SV-bijbelformule. Project-concordant in MRK/LUK. §2.7 niet van toepassing op gefossiliseerde liturgische formules.",
-      "verified_at": "2026-06-04T15:13:09+00:00"
+      "status": "rebutted",
+      "rebuttal": "'Voorwaar, ik zeg u' is hier de vaste bijbelformule voor Grieks ἀμὴν λέγω ὑμῖν in MAT 6:2; MODERNISATIE.md §2.7 laat gefossiliseerde liturgisch-bijbelse formules staan wanneer zij herkenbaar en concordant functioneren."
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -53,9 +66,8 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "MAT-6-5-001",
-      "status": "verified",
-      "rebuttal": "[Automated Propagation] Idem MRK-9-1-001: 'voorwaar, ik zeg u' = ἀμὴν λέγω ὑμῖν, gestolde SV-bijbelformule. Project-concordant in MRK/LUK. §2.7 niet van toepassing op gefossiliseerde liturgische formules.",
-      "verified_at": "2026-06-04T15:13:09+00:00"
+      "status": "rebutted",
+      "rebuttal": "'Voorwaar, ik zeg u' is hier opnieuw de vaste formule voor Grieks ἀμὴν λέγω ὑμῖν in MAT 6:5; §2.7 raakt losse archaïsmen, niet deze projectbreed concordante amen-formule."
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -67,9 +79,8 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "MAT-6-14-001",
-      "status": "verified",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
-      "verified_at": "2026-06-04T15:13:09+00:00"
+      "status": "rebutted",
+      "rebuttal": "'Indien' geeft in MAT 6:14 het conditionele Grieks ἐὰν weer en is productief formeel Nederlands; volgens MODERNISATIE.md §2.7 is formeel register op zichzelf geen modernisatiegrond."
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -81,9 +92,8 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "MAT-6-15-001",
-      "status": "verified",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
-      "verified_at": "2026-06-04T15:13:09+00:00"
+      "status": "rebutted",
+      "rebuttal": "'Indien' geeft in MAT 6:15 het conditionele Grieks ἐὰν weer; de constructie is versspecifiek een normale voorwaardelijke bijzin en faalt de §2.7-productiviteitstest niet."
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -95,9 +105,8 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "MAT-6-16-001",
-      "status": "verified",
-      "rebuttal": "[Automated Propagation] Idem MRK-9-1-001: 'voorwaar, ik zeg u' = ἀμὴν λέγω ὑμῖν, gestolde SV-bijbelformule. Project-concordant in MRK/LUK. §2.7 niet van toepassing op gefossiliseerde liturgische formules.",
-      "verified_at": "2026-06-04T15:13:09+00:00"
+      "status": "rebutted",
+      "rebuttal": "'Voorwaar, ik zeg u' is in MAT 6:16 dezelfde ἀμὴν λέγω ὑμῖν-formule als in vv.2 en 5; behoud is concordant en valt onder gefossiliseerde bijbelformule, niet onder een los drempel-archaïsme (§2.7)."
     },
     {
       "category": "kanttekening-redundantie",
@@ -109,23 +118,8 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "MAT-6-24-001",
-      "status": "verified",
-      "rebuttal": "[Automated Propagation] Dit is een D.-gloss (KANTTEKENINGEN.md): '<dat is, zich aan de een houden.>' verklaart het hoofdtekst-werkwoord 'hechten' door substitutie naar 'houden'. De herhaling 'zich aan de een' is het te glossen lemma, niet parafrastische redundantie — de gloss vervangt juist het werkwoord.",
-      "verified_at": "2026-06-04T15:13:09+00:00"
-    },
-    {
-      "category": "kanttekening-luiheid (§2.3 in <…>)",
-      "verse": 25,
-      "severity": "hard",
-      "quote_modernized": "…amelijk, met angstige en onmatige zorg, voortkomende uit kleingelovigheid, en di…",
-      "rule_reference": "KANTTEKENINGEN.md + §2.3",
-      "explanation": "'voortkomende' binnen kanttekening — verdacht -ende-woord in adverbial / clause-final positie. §2.3 geldt ook in <…>; ontvouw naar finiete bijzin.",
-      "proposed_fix": "'voortkomende uit kleingelovigheid' -> 'die voortkomt uit kleingelovigheid' (finiete bijzin, parallel met 'en die ... verhindert')",
-      "location": "kanttekening",
-      "id": "MAT-6-25-001",
-      "status": "verified",
-      "fix_commit": "PENDING",
-      "verified_at": "2026-06-04T15:13:09+00:00"
+      "status": "rebutted",
+      "rebuttal": "De kanttekening '<Of, zich aan de een houden.>' is een alternatief/glosse bij 'hechten' en vervangt juist het werkwoord; KANTTEKENINGEN.md verbiedt redundante herhaling, maar deze versspecifieke Of-glosse verklaart het lemma en is geen zelfstandige parafrase van de hele hoofdtekst."
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -137,9 +131,8 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "MAT-6-30-001",
-      "status": "verified",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
-      "verified_at": "2026-06-04T15:13:09+00:00"
+      "status": "rebutted",
+      "rebuttal": "'Indien' geeft in MAT 6:30 Grieks εἰ weer en functioneert als herkenbare voorwaardelijke voegwoordsvorm; MODERNISATIE.md §2.7 vereist modernisering bij productiviteits- of verwarringsfalen, niet bij formeel maar correct Nederlands."
     },
     {
       "category": "concordantie-drift",
@@ -157,9 +150,8 @@
         4
       ],
       "id": "MAT-6-1-001",
-      "status": "verified",
-      "rebuttal": "False positive concordantie-scanner: alle 4 verzen renderen 'aelmoes'→'aalmoes' identiek (v1×2, v2, v3, v4). De prefix-heuristiek mist de orthografische overgang ae→aa, vandaar 'geen gedeelde prefix'. Concordantie is juist volledig consistent; geen drift.",
-      "verified_at": "2026-06-04T15:13:09+00:00"
+      "status": "rebutted",
+      "rebuttal": "False positive van de concordantie-scan: de stam 'aelmoes' wordt in MAT 6:1-4 overal als 'aalmoes' weergegeven. De scanner mist alleen de historische spellingsovergang ae→aa; het concordantieprincipe wordt juist gevolgd."
     },
     {
       "category": "concordantie-drift",
@@ -181,9 +173,8 @@
         29
       ],
       "id": "MAT-6-2-002",
-      "status": "verified",
-      "rebuttal": "'gelijck' is een functiewoord (vergelijkingspartikel), geen inhouds-lemma dat concordantie vereist; Grieks varieert (ὥσπερ v2/v7, ὡς v10/v29, οἷος n.v.t.). Contextafhankelijke weergave 'zoals'/'als'/'gelijk' is correcte moderne grammatica per MODERNISATIE.md, niet concordantiedrift. §-concordantieprincipe geldt voor zelfstandige/werkwoordelijke lemmata, niet voor partikels.",
-      "verified_at": "2026-06-04T15:13:09+00:00"
+      "status": "rebutted",
+      "rebuttal": "'gelijck' is hier geen stabiel inhoudslemma maar een contextafhankelijk vergelijkings-/gelijkheidswoord: vv.2/5/7/10/12/16/29 vragen 'zoals/als', terwijl v8 'gelijk aan hen' bij Grieks ὁμοιωθῆτε weergeeft. MODERNISATIE.md staat grammaticale modernisering toe zonder partikel-concordantie te forceren."
     },
     {
       "category": "concordantie-drift",
@@ -201,10 +192,161 @@
         31,
         34
       ],
+      "id": "MAT-6-25-001",
+      "status": "rebutted",
+      "rebuttal": "False positive van de concordantie-scan: de stam 'besorgh' wordt in MAT 6:25,27,28,31,34 consequent met 'bezorgd' weergegeven. De scanner mist alleen de orthografische overgang s→z; er is geen concordantiedrift."
+    },
+    {
+      "id": "MAT-6-2-003",
+      "verse": 2,
+      "category": "§2.7 drempel-archaïsme / false friend",
+      "severity": "hard",
+      "quote_modernized": "'zij hebben hun loon weg' / 'zij hun loon weg hebben'",
+      "rule_reference": "MODERNISATIE.md §2.7; ARCHAISMEN.md false-friend-test",
+      "explanation": "'loon weg hebben' is SV-idioom bij Grieks ἀπέχουσι; in modern Nederlands leest 'weg hebben' als kwijt/verdwenen hebben, niet als volledig ontvangen hebben.",
+      "proposed_fix": "vv.2/5/16: 'zij hebben hun loon ontvangen' of 'zij hebben hun loon al'",
+      "location": "hoofdtekst",
+      "verses_involved": [
+        2,
+        5,
+        16
+      ],
+      "status": "fixed",
+      "fix_commit": "pending-adversarial-fix-commit"
+    },
+    {
+      "id": "MAT-6-7-001",
+      "verse": 7,
+      "category": "§2.7 drempel-archaïsme / false friend",
+      "severity": "soft",
+      "quote_modernized": "ijdel verhaal van woorden",
+      "rule_reference": "MODERNISATIE.md §2.7; ARCHAISMEN.md verwarringtest",
+      "explanation": "'verhaal' betekent hier SV 'herhaling/opsomming', maar modern primair 'story'; de eigen kanttekening moderniseert hetzelfde veld al met 'herhaald worden'.",
+      "proposed_fix": "gebruik dan geen lege/onnodige herhaling van woorden",
+      "location": "hoofdtekst",
+      "status": "fixed",
+      "fix_commit": "pending-adversarial-fix-commit"
+    },
+    {
+      "id": "MAT-6-8-001",
+      "verse": 8,
+      "category": "§2.7 drempel-archaïsme / false friend",
+      "severity": "hard",
+      "quote_modernized": "voordat u hem bidt",
+      "rule_reference": "MODERNISATIE.md §2.7; source_text αἰτῆσαι αὐτόν",
+      "explanation": "SV 'hem biddet' betekent hier 'hem vraagt/smeekt'; modern transitief 'hem bidt' leest als archaïsch of alsof de persoon zelf wordt aangebeden.",
+      "proposed_fix": "voordat u het hem vraagt / voordat u hem vraagt",
+      "location": "hoofdtekst",
+      "status": "fixed",
+      "fix_commit": "pending-adversarial-fix-commit"
+    },
+    {
+      "id": "MAT-6-12-001",
+      "verse": 12,
+      "category": "§2.3b idiomatische Latinaat-rest",
+      "severity": "soft",
+      "quote_modernized": "zoals ook wij vergeven onze schuldenaren",
+      "rule_reference": "MODERNISATIE.md §2.3b",
+      "explanation": "De SV-woordvolgorde is in de bijzin blijven staan; modern Nederlands plaatst het object vóór het werkwoord: 'zoals ook wij onze schuldenaren vergeven'.",
+      "proposed_fix": "zoals ook wij onze schuldenaren vergeven",
+      "location": "hoofdtekst",
+      "status": "fixed",
+      "fix_commit": "pending-adversarial-fix-commit"
+    },
+    {
+      "id": "MAT-6-13-001",
+      "verse": 13,
+      "category": "§2.7 drempel-archaïsme",
+      "severity": "soft",
+      "quote_modernized": "het zij of het worde alzo",
+      "rule_reference": "MODERNISATIE.md §2.7; ARCHAISMEN.md soo → zo",
+      "explanation": "'alzo' is een 1657-restvorm van 'alsoo/zo' en functioneert in deze kanttekening niet als noodzakelijke liturgische hoofdtekstformule.",
+      "proposed_fix": "het zij of het worde zo",
+      "location": "kanttekening",
+      "status": "fixed",
+      "fix_commit": "pending-adversarial-fix-commit"
+    },
+    {
+      "id": "MAT-6-22-001",
+      "verse": 22,
+      "category": "§2.7 drempel-archaïsme / false friend",
+      "severity": "soft",
+      "quote_modernized": "De kaars van het lichaam",
+      "rule_reference": "MODERNISATIE.md §2.7; source_text λύχνος",
+      "explanation": "'kaars' vernauwt λύχνος tot een moderne kaars/candle en leest als SV-rest; modern Nederlands geeft dit beeld normaal met 'lamp' weer.",
+      "proposed_fix": "De lamp van het lichaam",
+      "location": "hoofdtekst",
+      "status": "fixed",
+      "fix_commit": "pending-adversarial-fix-commit"
+    },
+    {
       "id": "MAT-6-25-002",
-      "status": "verified",
-      "rebuttal": "False positive concordantie-scanner: alle 5 verzen renderen 'besorgh'→'bezorgd' identiek (v25, v27, v28, v31, v34). Prefix-heuristiek mist orthografische overgang s→z (besorgh→bezorg). Concordantie volledig consistent; geen drift.",
-      "verified_at": "2026-06-04T15:13:09+00:00"
+      "verse": 25,
+      "category": "idiomatische prepositie",
+      "severity": "soft",
+      "quote_modernized": "bezorgd voor uw leven / bezorgd voor de kleding",
+      "rule_reference": "MODERNISATIE.md §2.3; §2.7",
+      "explanation": "'bezorgd voor' is een SV-prepositierest; modern Nederlands gebruikt bij innerlijke bekommernis 'bezorgd over'. De huidige vorm botst juist met de kanttekening die 'angstige ... zorg' bedoelt.",
+      "proposed_fix": "bezorgd over uw leven / bezorgd over de kleding",
+      "location": "hoofdtekst",
+      "verses_involved": [
+        25,
+        28
+      ],
+      "status": "fixed",
+      "fix_commit": "pending-adversarial-fix-commit"
+    },
+    {
+      "id": "MAT-6-27-001",
+      "verse": 27,
+      "category": "§2.3b idiomatische Latinaat-rest",
+      "severity": "hard",
+      "quote_modernized": "kan met bezorgd te zijn ... één el aan zijn lengte toedoen",
+      "rule_reference": "MODERNISATIE.md §2.3; source_text μεριμνῶν",
+      "explanation": "'met bezorgd te zijn' is geen moderne Nederlandse constructie voor het Griekse participium μεριμνῶν; dit moet syntactisch worden ontvouwd.",
+      "proposed_fix": "kan door bezorgd te zijn ... één el aan zijn lengte toevoegen/toedoen",
+      "location": "hoofdtekst",
+      "status": "fixed",
+      "fix_commit": "pending-adversarial-fix-commit"
+    },
+    {
+      "id": "MAT-6-30-002",
+      "verse": 30,
+      "category": "§2.3b vocatief met u + zelfstandig naamwoord",
+      "severity": "hard",
+      "quote_modernized": "u kleingelovige",
+      "rule_reference": "MODERNISATIE.md §2.3b; source_text ὀλιγόπιστοι",
+      "explanation": "Dit is een aanspreek-vocatief; §2.3b zegt dat 'u + zelfstandig naamwoord' als vocatief in modern Nederlands niet productief is. Bovendien is Grieks ὀλιγόπιστοι meervoud.",
+      "proposed_fix": "kleingelovigen",
+      "location": "hoofdtekst",
+      "status": "fixed",
+      "fix_commit": "pending-adversarial-fix-commit"
+    },
+    {
+      "id": "MAT-6-33-001",
+      "verse": 33,
+      "category": "§2.7 drempel-archaïsme / false friend",
+      "severity": "hard",
+      "quote_modernized": "al deze dingen zullen u ... toegeworpen worden",
+      "rule_reference": "MODERNISATIE.md §2.7; source_text προστεθήσεται",
+      "explanation": "'toegeworpen' betekent modern letterlijk 'naar iemand gegooid'; bij προστεθήσεται/SV 'toegeworpen' is bedoeld 'toegevoegd/toegegeven'.",
+      "proposed_fix": "al deze dingen zullen u toegevoegd worden",
+      "location": "hoofdtekst",
+      "status": "fixed",
+      "fix_commit": "pending-adversarial-fix-commit"
+    },
+    {
+      "id": "MAT-6-34-001",
+      "verse": 34,
+      "category": "§2.7 drempel-archaïsme",
+      "severity": "soft",
+      "quote_modernized": "zwarigheid, die op elke dag voorvalt",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'zwarigheid' is een archaïsche kanttekening-rest voor moeite/last/ellende; de zin behoudt bovendien SV-idioom met 'op elke dag voorvalt'.",
+      "proposed_fix": "moeite/last, die elke dag voorkomt / die elke dag met zich meebrengt",
+      "location": "kanttekening",
+      "status": "fixed",
+      "fix_commit": "pending-adversarial-fix-commit"
     }
   ]
 }
