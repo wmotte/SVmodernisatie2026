@@ -1,0 +1,229 @@
+{
+  "round_no": 3,
+  "books": [
+    "REV",
+    "LUK"
+  ],
+  "red": [
+    {
+      "id": "RG3-001",
+      "class": "modernisatie",
+      "books": [
+        "LUK"
+      ],
+      "chapter": 11,
+      "verse": 9,
+      "quote": "Bidt, en u zal gegeven worden; zoekt, en u zult vinden; klopt, en u zal opengedaan worden",
+      "rule_reference": "ARCHAISMEN.md (imperatief-meervoud op `-t` → stam); MODERNISATIE.md imperatief-`-t`",
+      "explanation": "Grieks Αἰτεῖτε / ζητεῖτε / κρούετε zijn alle drie 2e-pers-meervoud imperatieven; SV-`-t` is hier ongemoderniseerd gebleven. De stam-regel (ARCHAISMEN.md, herhaald red_wins in ronde 1/2) eist `Bid` / `zoek` / `klop`.",
+      "proposed_fix": "Bid, en u zal gegeven worden; zoek, en u zult vinden; klop, en u zal opengedaan worden",
+      "severity": "hard"
+    },
+    {
+      "id": "RG3-002",
+      "class": "modernisatie",
+      "books": [
+        "LUK"
+      ],
+      "chapter": 12,
+      "verse": 33,
+      "quote": "Verkoopt wat u hebt, en geeft aalmoes. ... Maakt uzelf buidels die niet verouderen",
+      "rule_reference": "ARCHAISMEN.md (imperatief-meervoud op `-t` → stam)",
+      "explanation": "Drie imperatief-mv (πωλήσατε / δότε / ποιήσατε) staan nog in SV-`-t`-vorm. De vaste regel geeft stam: `Verkoop` / `geef` / `Maak`.",
+      "proposed_fix": "Verkoop wat u hebt, en geef aalmoes. ... Maak uzelf buidels die niet verouderen",
+      "severity": "hard"
+    },
+    {
+      "id": "RG3-003",
+      "class": "modernisatie",
+      "books": [
+        "LUK"
+      ],
+      "chapter": 21,
+      "verse": 8,
+      "quote": "Ziet toe dat u niet verleid wordt",
+      "rule_reference": "ARCHAISMEN.md (imperatief-meervoud op `-t` → stam; `(Hoort|Ziet|Zie) toe` → let op / pas op)",
+      "explanation": "Dubbele overtreding: Βλέπετε is imperatief-mv (→ stam) én de formule `Ziet toe` staat expliciet in ARCHAISMEN.md als levend-niet-meer (→ `let op` / `pas op` / `kijk uit`).",
+      "proposed_fix": "Pas op dat u niet verleid wordt",
+      "severity": "hard"
+    },
+    {
+      "id": "RG3-004",
+      "class": "modernisatie",
+      "books": [
+        "LUK"
+      ],
+      "chapter": 22,
+      "verse": 17,
+      "quote": "zei hij: Neemt deze, en deelt [hem] onder u",
+      "rule_reference": "ARCHAISMEN.md (imperatief-meervoud op `-t` → stam)",
+      "explanation": "Λάβετε / διαμερίσατε zijn imperatief-mv; identiek aan de reeds-toegekende 1CO 11:24-fix (`Neemt`→`Neem`). SV-`-t` is hier blijven staan.",
+      "proposed_fix": "zei hij: Neem deze, en deel [hem] onder u",
+      "severity": "hard"
+    },
+    {
+      "id": "RG3-005",
+      "class": "modernisatie",
+      "books": [
+        "LUK"
+      ],
+      "chapter": 22,
+      "verse": 8,
+      "quote": "zei: Gaat heen, en bereidt ons het Pascha",
+      "rule_reference": "ARCHAISMEN.md (imperatief-meervoud op `-t` → stam)",
+      "explanation": "ἑτοιμάσατε is imperatief-mv (`bereidt`→`bereid`); `Gaat heen` (voor het participium Πορευθέντες, idiomatisch imperatief) volgt het SV-`-t`-patroon en moet `Ga heen`. ARCHAISMEN.md noemt Lk. 22:10 al expliciet als doel-vers van dezelfde regel.",
+      "proposed_fix": "zei: Ga heen, en bereid ons het Pascha",
+      "severity": "hard"
+    },
+    {
+      "id": "RG3-006",
+      "class": "modernisatie",
+      "books": [
+        "LUK"
+      ],
+      "chapter": 3,
+      "verse": 8,
+      "quote": "Brengt dan vruchten voort die de bekering ... waardig zijn",
+      "rule_reference": "ARCHAISMEN.md (imperatief-meervoud op `-t` → stam)",
+      "explanation": "ποιήσατε is imperatief-mv; ARCHAISMEN.md noemt `Brengt`→`Breng` letterlijk als voorbeeld van deze regel. Ongemoderniseerd gebleven.",
+      "proposed_fix": "Breng dan vruchten voort die de bekering ... waardig zijn",
+      "severity": "hard"
+    },
+    {
+      "id": "RG3-007",
+      "class": "modernisatie",
+      "books": [
+        "LUK"
+      ],
+      "chapter": 20,
+      "verse": 25,
+      "quote": "Geeft dan de Keizer wat van de Keizer is, en aan God wat van God [is.]",
+      "rule_reference": "ARCHAISMEN.md (imperatief-meervoud op `-t` → stam)",
+      "explanation": "Ἀπόδοτε is imperatief-mv; SV-`-t` (`Geeft`) is blijven staan. Stam-regel geeft `Geef`.",
+      "proposed_fix": "Geef dan de Keizer wat van de Keizer is, en aan God wat van God [is.]",
+      "severity": "hard"
+    },
+    {
+      "id": "RG3-008",
+      "class": "modernisatie",
+      "books": [
+        "LUK"
+      ],
+      "chapter": 15,
+      "verse": 6,
+      "quote": "zegt tot hen: Weest blij met mij, want ik heb mijn schaap gevonden",
+      "rule_reference": "ARCHAISMEN.md (imperatief-meervoud op `-t` → stam)",
+      "explanation": "Συγχάρητέ is imperatief-mv (`Weest`→`Wees`); dezelfde vorm staat ook in 15:9 ongemoderniseerd. SV-`-t` blijven staan terwijl de stam-regel `Wees blij` eist.",
+      "proposed_fix": "zegt tot hen: Wees blij met mij, want ik heb mijn schaap gevonden (idem 15:9)",
+      "severity": "hard"
+    }
+  ],
+  "green": [
+    {
+      "point_id": "RG3-001",
+      "stance": "concede",
+      "rebuttal": "Geen substantieve weerlegging mogelijk. Bron bevestigt Αἰτεῖτε / ζητεῖτε / κρούετε als drie praesens-imperatief 2e-pers-mv; output LUK.11:9 draagt onveranderd `Bidt` / `zoekt` / `klopt`. Geen participium of fossiel idioom; dit valt recht onder de durende concordantie imperatief-mv-`-t` → stam. Fix: Bid / zoek / klop.",
+      "evidence": "ARCHAISMEN.md:78 (imperatief-mv `-t` → stam) + Αἰτεῖτε/ζητεῖτε/κρούετε (3× impv 2pl)"
+    },
+    {
+      "point_id": "RG3-002",
+      "stance": "concede",
+      "rebuttal": "Correct. πωλήσατε / δότε / ποιήσατε zijn alle aoristus-imperatief 2e-pers-mv; output behoudt `Verkoopt` / `geeft` / `Maakt`. Geen attributief participium, geen gefossiliseerd idioom dat de `-t` rechtvaardigt. Stam-regel verplicht Verkoop / geef / Maak.",
+      "evidence": "ARCHAISMEN.md:78 + πωλήσατε/δότε/ποιήσατε (3× aor impv 2pl)"
+    },
+    {
+      "point_id": "RG3-003",
+      "stance": "concede",
+      "rebuttal": "Dubbel correct. Βλέπετε = praesens-imperatief 2e-pers-mv, en `Ziet toe` staat letterlijk als levend-niet-meer in de regeltabel. Output LUK.21:8 draagt `Ziet toe`. Beide ankers (impv-mv-`-t` én de expliciete `(Hoort|Ziet|Zie) toe`-formule) treffen; bij waarschuwing geldt `pas op` / `kijk uit`.",
+      "evidence": "ARCHAISMEN.md:77 (`Ziet toe` → pas op/kijk uit) + ARCHAISMEN.md:78 + Βλέπετε (pres impv 2pl)"
+    },
+    {
+      "point_id": "RG3-004",
+      "stance": "concede",
+      "rebuttal": "Correct. Λάβετε en διαμερίσατε zijn aoristus-imperatief 2e-pers-mv; output LUK.22:17 draagt `Neemt` / `deelt`. Identiek precedent met de toegekende 1CO 11:24 `Neemt`→`Neem`. Geen participium-uitzondering. Fix: Neem / deel.",
+      "evidence": "ARCHAISMEN.md:78 + Λάβετε/διαμερίσατε (2× aor impv 2pl)"
+    },
+    {
+      "point_id": "RG3-005",
+      "stance": "concede",
+      "rebuttal": "Correct. ἑτοιμάσατε = aoristus-imperatief 2e-pers-mv → `bereidt`→`bereid`. Πορευθέντες is aoristus-passief-participium dat hier het idiomatische imperatief-`Gaat heen` draagt; de SV rendert het mét `-t` en harmoniseert náár de imperatief, dus `Ga heen` volgt het stam-anker. ARCHAISMEN.md:78 noemt Lk. 22:10 (zelfde perikoop, zelfde regel) expliciet.",
+      "evidence": "ARCHAISMEN.md:78 (Lk. 22:10 als doel-vers) + ἑτοιμάσατε (aor impv 2pl) / Πορευθέντες (aor pass ptcp, idiomatisch imperatief)"
+    },
+    {
+      "point_id": "RG3-006",
+      "stance": "concede",
+      "rebuttal": "Correct. ποιήσατε = aoristus-imperatief 2e-pers-mv; ARCHAISMEN.md:78 noemt `Brengt`→`Breng` woordelijk als voorbeeld. Output LUK.3:8 draagt `Brengt`. Geen fossiel idioom. Fix: Breng.",
+      "evidence": "ARCHAISMEN.md:78 (`Brengt`→`Breng` letterlijk) + ποιήσατε (aor impv 2pl)"
+    },
+    {
+      "point_id": "RG3-007",
+      "stance": "concede",
+      "rebuttal": "Correct. Ἀπόδοτε = aoristus-imperatief 2e-pers-mv; output LUK.20:25 draagt `Geeft`. Geen participium, geen vaste wending die de `-t` bewaart. Stam-regel geeft Geef.",
+      "evidence": "ARCHAISMEN.md:78 + Ἀπόδοτε (aor impv 2pl)"
+    },
+    {
+      "point_id": "RG3-008",
+      "stance": "concede",
+      "rebuttal": "Correct. Συγχάρητέ = aoristus-passief-imperatief 2e-pers-mv; staat zowel in 15:6 als 15:9 onveranderd als `Weest`. Geen attributief participium, geen gefossiliseerd idioom. Stam-regel geeft Wees blij; beide verzen meenemen.",
+      "evidence": "ARCHAISMEN.md:78 + Συγχάρητέ (aor pass impv 2pl, 15:6 én 15:9)"
+    }
+  ],
+  "verdicts": [
+    {
+      "point_id": "RG3-001",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert; output LUK.11:9 draagt onveranderd Bidt/zoekt/klopt (impv 2pl Αἰτεῖτε/ζητεῖτε/κρούετε). Overtreding van bestaande regel ARCHAISMEN.md:78 → stam Bid/zoek/klop. Geen rule_change: regel bestaat al.",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG3-002",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert; LUK.12:33 behoudt Verkoopt/geeft/Maakt (aor impv 2pl πωλήσατε/δότε/ποιήσατε). Bestaande regel ARCHAISMEN.md:78 → Verkoop/geef/Maak.",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG3-003",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert; LUK.21:8 draagt Ziet toe (Βλέπετε pres impv 2pl). Dubbel gedekt door bestaande regels ARCHAISMEN.md:77 (Ziet toe → pas op) en :78. Fix: Pas op.",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG3-004",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert; LUK.22:17 draagt Neemt/deelt (aor impv 2pl Λάβετε/διαμερίσατε). Identiek precedent 1CO 11:24. Bestaande regel ARCHAISMEN.md:78 → Neem/deel.",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG3-005",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert; LUK.22:8 draagt Gaat heen/bereidt (ἑτοιμάσατε aor impv 2pl; Πορευθέντες idiomatisch imperatief). Bestaande regel ARCHAISMEN.md:78 noemt Lk. 22:10 expliciet → Ga heen/bereid.",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG3-006",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert; LUK.3:8 draagt Brengt (ποιήσατε aor impv 2pl). ARCHAISMEN.md:78 noemt Brengt→Breng letterlijk. Bestaande regel.",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG3-007",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert; LUK.20:25 draagt Geeft (Ἀπόδοτε aor impv 2pl). Bestaande regel ARCHAISMEN.md:78 → Geef.",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG3-008",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert; LUK.15:6 (en 15:9) dragen Weest (Συγχάρητέ aor pass impv 2pl). Bestaande regel ARCHAISMEN.md:78 → Wees blij; beide verzen meenemen.",
+      "scope": "verse",
+      "applied": true
+    }
+  ]
+}

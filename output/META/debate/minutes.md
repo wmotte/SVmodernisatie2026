@@ -51,3 +51,30 @@ Red bracht 7 punt(en). Verdicts: red_wins=7, green_wins=0, rule_change=0.
 - **[RG2-007] (modernisatie)** vier Engelen staan op de vier hoeken van de aarde, houdende de vier winden van de aarde
   - regel: MODERNISATIE.md §2.3 (finiet participium / -ende) + §2.3b; fix: '... vier Engelen staan op de vier hoeken van de aarde, en zij hielden de vier winden van de aarde tegen, opdat geen wind zou waaien ...'
   - verdict: **red_wins** (scope=verse, applied=False) — Green concedeert. κρατοῦντας circumstantieel participium met nageschoven object τοὺς τέσσαρας ἀνέμους; 'houdende de vier winden' valt onder bestaande §2.3 + §2.3b. Ontvouwen naar persoonsvorm. Bestaan
+
+## Ronde 3 — REV + LUK  (2026-06-05T18:18:36.566610+00:00)
+Red bracht 8 punt(en). Verdicts: red_wins=8, green_wins=0, rule_change=0.
+- **[RG3-001] (modernisatie)** Bidt, en u zal gegeven worden; zoekt, en u zult vinden; klopt, en u zal opengedaan worden
+  - regel: ARCHAISMEN.md (imperatief-meervoud op `-t` → stam); MODERNISATIE.md imperatief-`-t`; fix: Bid, en u zal gegeven worden; zoek, en u zult vinden; klop, en u zal opengedaan worden
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert; output LUK.11:9 draagt onveranderd Bidt/zoekt/klopt (impv 2pl Αἰτεῖτε/ζητεῖτε/κρούετε). Overtreding van bestaande regel ARCHAISMEN.md:78 → stam Bid/zoek/klop. Geen rule_change: regel
+- **[RG3-002] (modernisatie)** Verkoopt wat u hebt, en geeft aalmoes. ... Maakt uzelf buidels die niet verouderen
+  - regel: ARCHAISMEN.md (imperatief-meervoud op `-t` → stam); fix: Verkoop wat u hebt, en geef aalmoes. ... Maak uzelf buidels die niet verouderen
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert; LUK.12:33 behoudt Verkoopt/geeft/Maakt (aor impv 2pl πωλήσατε/δότε/ποιήσατε). Bestaande regel ARCHAISMEN.md:78 → Verkoop/geef/Maak.
+- **[RG3-003] (modernisatie)** Ziet toe dat u niet verleid wordt
+  - regel: ARCHAISMEN.md (imperatief-meervoud op `-t` → stam; `(Hoort|Ziet|Zie) toe` → let op / pas op); fix: Pas op dat u niet verleid wordt
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert; LUK.21:8 draagt Ziet toe (Βλέπετε pres impv 2pl). Dubbel gedekt door bestaande regels ARCHAISMEN.md:77 (Ziet toe → pas op) en :78. Fix: Pas op.
+- **[RG3-004] (modernisatie)** zei hij: Neemt deze, en deelt [hem] onder u
+  - regel: ARCHAISMEN.md (imperatief-meervoud op `-t` → stam); fix: zei hij: Neem deze, en deel [hem] onder u
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert; LUK.22:17 draagt Neemt/deelt (aor impv 2pl Λάβετε/διαμερίσατε). Identiek precedent 1CO 11:24. Bestaande regel ARCHAISMEN.md:78 → Neem/deel.
+- **[RG3-005] (modernisatie)** zei: Gaat heen, en bereidt ons het Pascha
+  - regel: ARCHAISMEN.md (imperatief-meervoud op `-t` → stam); fix: zei: Ga heen, en bereid ons het Pascha
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert; LUK.22:8 draagt Gaat heen/bereidt (ἑτοιμάσατε aor impv 2pl; Πορευθέντες idiomatisch imperatief). Bestaande regel ARCHAISMEN.md:78 noemt Lk. 22:10 expliciet → Ga heen/bereid.
+- **[RG3-006] (modernisatie)** Brengt dan vruchten voort die de bekering ... waardig zijn
+  - regel: ARCHAISMEN.md (imperatief-meervoud op `-t` → stam); fix: Breng dan vruchten voort die de bekering ... waardig zijn
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert; LUK.3:8 draagt Brengt (ποιήσατε aor impv 2pl). ARCHAISMEN.md:78 noemt Brengt→Breng letterlijk. Bestaande regel.
+- **[RG3-007] (modernisatie)** Geeft dan de Keizer wat van de Keizer is, en aan God wat van God [is.]
+  - regel: ARCHAISMEN.md (imperatief-meervoud op `-t` → stam); fix: Geef dan de Keizer wat van de Keizer is, en aan God wat van God [is.]
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert; LUK.20:25 draagt Geeft (Ἀπόδοτε aor impv 2pl). Bestaande regel ARCHAISMEN.md:78 → Geef.
+- **[RG3-008] (modernisatie)** zegt tot hen: Weest blij met mij, want ik heb mijn schaap gevonden
+  - regel: ARCHAISMEN.md (imperatief-meervoud op `-t` → stam); fix: zegt tot hen: Wees blij met mij, want ik heb mijn schaap gevonden (idem 15:9)
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert; LUK.15:6 (en 15:9) dragen Weest (Συγχάρητέ aor pass impv 2pl). Bestaande regel ARCHAISMEN.md:78 → Wees blij; beide verzen meenemen.
