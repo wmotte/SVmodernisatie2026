@@ -75,6 +75,15 @@ ARCHAISM_BLACKLIST = [
     r"\bde uwen\b",         # → "een van u / die van u"; verbogen zelfst. possessief
     r"\bdaar\s+(?:ik|wij|u|gij)\s+\w+\b",  # causaal 'daar' + 1/2-persoon → "nu / aangezien / omdat" (PHM 1:9)
     r"\blijdzaam(?:heid|e|en)?\b",  # → "volharding/geduldig"; modern dominant passieve berusting
+    # SV-aanwijzend voornaamwoord 'dezelve/hetzelve' (= die/dat/hem/haar/het).
+    # Exacte-woordgrens raakt 'dezelfde' niet. Red-green ronde 3 RG3-001/002
+    # (Op. 13:4 e.v., 18:24): bleef in hoofdtekst staan. HARD, nt-wide.
+    r"\b(?:de|den|der|het)zelve[nr]?\b",  # dezelve/denzelve(n)/derzelve(r)/hetzelve
+    r"\bdezelver\b",
+    # SV 2e-pers-meervoud 'ulieden' / gen. 'ulieder' (= 'u'/'jullie'/'uw').
+    # Red-green ronde 1 RG1-003 (Joh. 3:11, 5:33-42). HARD, nt-wide.
+    r"\bulieden\b",
+    r"\bulieder\b",
 ]
 
 # Allowlist als (artikel, zn)-paar in lowercase.
@@ -352,6 +361,15 @@ DREMPEL_ARCHAISMEN: frozenset[str] = frozenset({
     # faalt de verwarringstest: modern NL leest primair geldelijke waarde.
     # Meta-review EPH 1:6,12,14: 'tot prijs van zijn heerlijkheid' → 'tot lof van zijn heerlijkheid'.
     "prijs",
+    # SV-aanwijzend voornaamwoord 'dezelve/hetzelve' (= modern die/dat/hem/
+    # haar/het). Archaïsch, faalt §2.7: modern NL gebruikt 'die/dat/het'.
+    # Exacte-woord-match raakt NIET 'dezelfde' (andere stam). Red-green ronde 3
+    # RG3-001/002 (REV 13:4 e.v., 18:24): in hoofdtekst blijven staan; nt-wide.
+    "dezelve", "denzelve", "denzelven", "derzelve", "derzelver",
+    "dezelver", "dezelven", "hetzelve",
+    # SV 2e-pers-meervoud 'ulieden' / gen. 'ulieder' (= modern 'u'/'jullie').
+    # Drempel-archaïsme §2.7. Red-green ronde 1 RG1-003 (JHN 3:11, 5:33-42); nt-wide.
+    "ulieden", "ulieder",
 })
 
 DREMPEL_FOSSIELEN: tuple[str, ...] = (

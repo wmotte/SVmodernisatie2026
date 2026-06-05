@@ -78,6 +78,8 @@ Standaard-substituties voor de hoofdtekst:
 | imperatief-meervoud op `-t` | gebruik de stam — SV-gebiedende wijs `Bewaart` / `behoudt` / `grijpt` / `volgt` / `Brengt` → `Bewaar` / `behoud` / `grijp` / `volg` / `Breng`; gevangen door `scan_archaic_imperative_t` (anker = zinsbegin/leesteken/nevenschikker + object, stam-gate) (Jd. 1:21,23; Lk. 22:10; Mk. 12:15; 14:13,44) |
 | morrenden | mopperaars / mensen die morren — gesubstantiveerd `-enden`-participium dat buiten `PARTICIPLE_RE` (`\w+ende\b`) valt (Jd. 1:16) |
 | lijdzaamheid / lijdzaam | volharding / geduldig, contextafhankelijk — bij ὑπομονή gaat het om standvastig volharden; modern `lijdzaamheid` leest als passieve berusting (Jk. 1:3; HEB 12:1-3) |
+| dezelve / hetzelve / denzelve(n) / derzelve(r) / dezelver / dezelven | die / dat / hem / haar / het — SV-aanwijzend voornaamwoord; modern NL gebruikt `die/dat/het`. Herstructureer: `tegen hetzelve` → `daartegen` / `tegen dat beest`, `in dezelve` → `daarin` / `in haar`. Exacte-woord-match (raakt `dezelfde` niet). Red-green ronde 3 RG3-001/002 (Op. 13:4 e.v., 18:24) |
+| ulieden / ulieder | u / jullie — SV 2e-pers-meervoud (`gijlieden`-paradigma); `ulieden` → `u`, gen. `ulieder` → `uw`. Drempel-archaïsme. Red-green ronde 1 RG1-003 (Joh. 3:11, 5:33-42) |
 
 Geen letterlijke vervanging als de zinsbouw eronder lijdt; herformuleer
 de zin zodat hij modern Nederlands oplevert.
