@@ -38,6 +38,10 @@ OUTPUT_DIR = REPO / "output"
 
 GREEK_RE = re.compile(r"[Ͱ-Ͽἀ-῿]+")
 NL_WORD_RE = re.compile(r"[A-Za-zÀ-ÿ’']+")
+# Kanttekeningen staan inline in `modernized` als <...>-blokken.
+KANTTEK_RE = re.compile(r"<([^>]*)>")
+# Bijbelverwijzingen in een kanttekening: $...$ — geen inhoudswoorden.
+BIBREF_RE = re.compile(r"\$[^$]*\$")
 
 # Nederlandse functiewoorden — uit de NL-inhoudswoord-set houden.
 NL_STOP = {
@@ -67,8 +71,28 @@ def _content_words(text: str) -> set[str]:
     }
 
 
-def _index_book(book: str) -> dict[str, list[dict]]:
-    """Griekse token → lijst van {chapter, verse, modern_words, modern_excerpt}."""
+def _body_text(modern: str) -> str:
+    """Verstekst zonder kanttekening-blokken — body-concordantie mag niet
+    vervuild worden door annotatie-woorden."""
+    return KANTTEK_RE.sub(" ", modern or "")
+
+
+def _note_text(modern: str) -> str:
+    """Alleen de kanttekening-inhoud (samengevoegd), bijbelrefs gestript."""
+    return BIBREF_RE.sub(" ", " ".join(KANTTEK_RE.findall(modern or "")))
+
+
+# Tekst-extractors per laag.
+LAYERS = {"body": _body_text, "note": _note_text}
+
+
+def _index_book(book: str, layer: str = "body") -> dict[str, list[dict]]:
+    """Griekse token → lijst van {chapter, verse, modern_words, modern_excerpt}.
+
+    `layer="body"` indexeert de verstekst (zonder kanttekeningen); `layer="note"`
+    indexeert alléén de kanttekening-inhoud (verzen zonder kanttekening worden
+    overgeslagen)."""
+    extractor = LAYERS[layer]
     index: dict[str, list[dict]] = defaultdict(list)
     bdir = OUTPUT_DIR / book
     if not bdir.is_dir():
@@ -83,12 +107,16 @@ def _index_book(book: str) -> dict[str, list[dict]]:
             modern = v.get("modernized") or ""
             if not src or not modern:
                 continue
-            words = _content_words(modern)
+            text = extractor(modern)
+            words = _content_words(text)
+            if not words:
+                # note-laag: geen kanttekening in dit vers → niets te indexeren.
+                continue
             entry = {
                 "chapter": chapter,
                 "verse": v.get("verse_number"),
                 "modern_words": words,
-                "modern_excerpt": modern[:160],
+                "modern_excerpt": text.strip()[:160],
             }
             for tok in set(GREEK_RE.findall(src)):
                 if len(tok) >= 4:
@@ -96,18 +124,10 @@ def _index_book(book: str) -> dict[str, list[dict]]:
     return index
 
 
-def main() -> None:
-    ap = argparse.ArgumentParser(description=__doc__,
-                                 formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--books", nargs=2, required=True, metavar=("BOOK1", "BOOK2"))
-    ap.add_argument("--top", type=int, default=25, help="Max aantal kandidaten.")
-    ap.add_argument("--out", default=None,
-                    help="JSON-uitvoerpad (default: stdout-samenvatting + geen file).")
-    args = ap.parse_args()
-
-    b1, b2 = args.books
-    idx1 = _index_book(b1)
-    idx2 = _index_book(b2)
+def _diverging(b1: str, b2: str, layer: str) -> tuple[set[str], list[dict]]:
+    """Geef (gedeelde Griekse tokens, divergentie-kandidaten) voor één laag."""
+    idx1 = _index_book(b1, layer)
+    idx2 = _index_book(b2, layer)
     shared = set(idx1) & set(idx2)
 
     candidates = []
@@ -120,6 +140,7 @@ def main() -> None:
         if words1 and words2 and not overlap:
             freq = len(occ1) + len(occ2)
             candidates.append({
+                "layer": layer,
                 "greek_token": tok,
                 "shared_frequency": freq,
                 f"{b1}_examples": [
@@ -135,15 +156,44 @@ def main() -> None:
                 f"{b1}_words": sorted(words1)[:8],
                 f"{b2}_words": sorted(words2)[:8],
             })
+    return shared, candidates
 
-    candidates.sort(key=lambda c: -c["shared_frequency"])
-    candidates = candidates[: args.top]
+
+def main() -> None:
+    ap = argparse.ArgumentParser(description=__doc__,
+                                 formatter_class=argparse.RawDescriptionHelpFormatter)
+    ap.add_argument("--books", nargs=2, required=True, metavar=("BOOK1", "BOOK2"))
+    ap.add_argument("--top", type=int, default=25, help="Max aantal kandidaten per laag.")
+    ap.add_argument("--layer", choices=["body", "note", "both"], default="both",
+                    help="body = verstekst, note = kanttekeningen, both = beide (default).")
+    ap.add_argument("--out", default=None,
+                    help="JSON-uitvoerpad (default: stdout-samenvatting + geen file).")
+    args = ap.parse_args()
+
+    b1, b2 = args.books
+    layers = ["body", "note"] if args.layer == "both" else [args.layer]
+
+    candidates: list[dict] = []
+    shared_per_layer: dict[str, int] = {}
+    per_layer_counts: dict[str, int] = {}
+    for layer in layers:
+        shared, cands = _diverging(b1, b2, layer)
+        cands.sort(key=lambda c: -c["shared_frequency"])
+        cands = cands[: args.top]
+        candidates.extend(cands)
+        shared_per_layer[layer] = len(shared)
+        per_layer_counts[layer] = len(cands)
+
+    candidates.sort(key=lambda c: (c["layer"] != "note", -c["shared_frequency"]))
 
     result = {
         "books": [b1, b2],
-        "shared_greek_tokens": len(shared),
+        "layers": layers,
+        "shared_greek_tokens": shared_per_layer,
         "divergence_candidates": len(candidates),
-        "note": "Lexicale seed; geen oordeel. Verifieer elke kandidaat in context.",
+        "divergence_by_layer": per_layer_counts,
+        "note": ("Lexicale seed; geen oordeel. Verifieer elke kandidaat in "
+                 "context. layer=note = kanttekening-concordantie."),
         "candidates": candidates,
     }
 
@@ -153,8 +203,9 @@ def main() -> None:
         outp.write_text(json.dumps(result, ensure_ascii=False, indent=2),
                         encoding="utf-8")
         print(json.dumps({"out": str(outp), "books": [b1, b2],
-                          "shared_greek_tokens": len(shared),
-                          "divergence_candidates": len(candidates)},
+                          "shared_greek_tokens": shared_per_layer,
+                          "divergence_candidates": len(candidates),
+                          "divergence_by_layer": per_layer_counts},
                          ensure_ascii=False))
     else:
         print(json.dumps(result, ensure_ascii=False))
