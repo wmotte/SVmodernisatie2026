@@ -79,6 +79,14 @@ beoordeling + commit + PR + merge per batch totdat het hoofdstuk klaar is.
 |                           | kan apply-modus draaien (3b regel-deltas PR, 3a |
 |                           | per-hoofdstuk content-fixes). Trigger: "meta-   |
 |                           | review LUK" / "meta-review LUK apply".          |
+| `sv-red-green`            | Iteratief gelijk-machtig debat over twee NT-    |
+|                           | boeken: red team kiest worst-first 2 boeken +   |
+|                           | ≤10 zwakste punten (modernisatie + between-book |
+|                           | consistentie), green pareert, arbiter beslecht  |
+|                           | (red/green/regelwijziging). NT-brede auto-merge.|
+|                           | Notulen in `output/META/debate/`; herhaalt tot  |
+|                           | red niets nieuws vindt. Trigger: "red-green     |
+|                           | review" / "debatronde" / "red-green apply".     |
 
 ## Vertaalprincipes (samenvatting)
 
