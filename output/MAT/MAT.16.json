@@ -115,6 +115,39 @@
       "generated_at": "2026-06-05T17:19:53.715011Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 13,
+      "original": "$Marc. 8.27. Luce 9.18.$ Als nu Iesus gekomen was in de deelen <Dit was een stadt aen den voet des berghs Libani, ontrent den oorspronck van den Iordaen, alsoo genaemt om datse gebouwt was ter eeren des Keysers Tiberij: ende wort toegenaemt Philippi, om datse gebouwt is van den Viervorst Philippus, Ioseph. Antiq. lib. 18. cap. 3. ende tot onderscheyt van een ander Cesarea van sijn vader Herodes ter eeren des Keysers Augusti aen de Middellantsche zee gebouwt. Ioseph. lib. 15. cap. 13. Actor. 10.1.> Cesaree Philippi, vraeghde hy sijne discipelen, seggende, Wie seggen de menschen, dat ick, de Sone des menschen, ben?",
+      "modernized": "$Mk. 8:27; Lk. 9:18$ Toen nu Jezus gekomen was in de streken van <Dit was een stad aan de voet van de berg Libanon, omtrent de oorsprong van de Jordaan, zo genoemd omdat zij gebouwd was ter ere van de Keizer Tiberius; en wordt toegenaamd Filippi, omdat zij gebouwd is door de Viervorst Filippus, Ioseph. Antiq. lib. 18. cap. 3. en tot onderscheid van een ander Caesarea, door zijn vader Herodes ter ere van de Keizer Augustus aan de Middellandse zee gebouwd. Ioseph. lib. 15. cap. 13. $Hd. 10:1$.> Caesarea Filippi, vroeg hij zijn discipelen, en zei: Wie zeggen de mensen dat ik, de Zoon des mensen, ben?",
+      "notes": [
+        {
+          "type": "context",
+          "text": "HSV-spiegel wees op drempel-archaïsme/taalfout in 'in de delen ... Caesarea Filippi'; gemoderniseerd naar 'in de streken van' bij SV 'deelen' en Grieks 'τὰ μέρη'."
+        }
+      ],
+      "source_text": "Ἐλθὼν δὲ ὁ Ἰησοῦς εἰς τὰ μέρη Καισαρείας τῆς Φιλίππου ἠρώτα τοὺς μαθητὰς αὐτοῦ, λέγων, Τίνα με λέγουσιν οἱ ἄνθρωποι εἶναι, τὸν Υἱὸν τοῦ ἀνθρώπου;",
+      "generated_at": "2026-06-05T17:25:52.944687Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 14,
+      "original": "Ende sy seyden, $Matth. 14.2.$ Sommige, Ioannes de Dooper, ende andere, Elias, ende andere, Ieremias, ofte een van de Propheten.",
+      "modernized": "En zij zeiden: $Mt. 14:2$ Sommigen: Johannes de Doper; en anderen: Elia; en anderen: Jeremia, of een van de Profeten.",
+      "source_text": "οἱ δὲ εἶπον, Οἱ μὲν Ἰωάννην τὸν Βαπτιστήν· ἄλλοι δὲ Ἠλίαν· ἕτεροι δὲ Ἰερεμίαν, ἢ ἕνα τῶν προφητῶν.",
+      "generated_at": "2026-06-05T17:26:25.916494Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 15,
+      "original": "Hy seyde tot haer, Maer ghy, wie seght ghy dat ick ben?",
+      "modernized": "Hij zei tot hen: Maar u, wie zegt u dat ik ben?",
+      "source_text": "λέγει αὐτοῖς, Ὑμεῖς δὲ τίνα με λέγετε εἶναι;",
+      "generated_at": "2026-06-05T17:26:45.518826Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
