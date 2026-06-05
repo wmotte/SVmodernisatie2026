@@ -1,0 +1,185 @@
+{
+  "round_no": 2,
+  "books": ["REV", "1CO"],
+  "red": [
+    {
+      "id": "RG2-001",
+      "class": "modernisatie",
+      "books": ["1CO"],
+      "chapter": 11,
+      "verse": 24,
+      "quote": "zei: Neemt, eet: dat is mijn lichaam, dat voor u gebroken wordt: doet dat tot mijn gedachtenis.",
+      "rule_reference": "ARCHAISMEN.md (imperatief-meervoud op `-t` → stam); MODERNISATIE.md imperatief-`-t`",
+      "explanation": "Grieks Λάβετε ... τοῦτο ποιεῖτε = 2e pers. mv. imperatieven. SV-`-t`-vormen 'Neemt' en 'doet' moeten náár de stam. Opvallend: in dezelfde zin is φάγετε al correct als stam 'eet' gerenderd, en in hetzelfde hoofdstuk is ἐσθίετε (10:25) correct 'Eet' — dus binnen één avondmaalsperikoop wisselt de imperatief-discipline. 'Neemt'/'doet' blijven als enige SV-`-t` staan.",
+      "proposed_fix": "'zei: Neem, eet: dat is mijn lichaam, dat voor u gebroken wordt: doe dat tot mijn gedachtenis.'",
+      "severity": "hard"
+    },
+    {
+      "id": "RG2-002",
+      "class": "modernisatie",
+      "books": ["1CO"],
+      "chapter": 11,
+      "verse": 25,
+      "quote": "Doet dat, zo dikwijls als gij [die] zult drinken, tot mijn gedachtenis.",
+      "rule_reference": "ARCHAISMEN.md (imperatief-meervoud op `-t` → stam; ghy/gy/gij → u)",
+      "explanation": "Twee drempel-archaismen in één zin. (1) τοῦτο ποιεῖτε = imperatief mv.; 'Doet' moet stam 'Doe' worden (concordant met de fix in 11:24). (2) 'gij' is onvertaald SV-pronomen; ARCHAISMEN.md-tabel schrijft ghy/gy/gij → u. Hoofdtekst, niet kanttekening.",
+      "proposed_fix": "'Doe dat, zo dikwijls als u [die] zult drinken, tot mijn gedachtenis.'",
+      "severity": "hard"
+    },
+    {
+      "id": "RG2-003",
+      "class": "modernisatie",
+      "books": ["1CO"],
+      "chapter": 11,
+      "verse": 26,
+      "quote": "Want zo dikwijls als gij dit brood zult eten, en deze drinkbeker zult drinken",
+      "rule_reference": "ARCHAISMEN.md (ghy/gy/gij → u)",
+      "explanation": "Residueel SV-pronomen 'gij' in de hoofdtekst (Gr. ἐσθίητε ... πίνητε, 2e pers. mv.). Vaste substitutie ghy/gy/gij → u. Vormt samen met 11:25 een onvertaalde 'gij'-cluster in de avondmaalsperikoop.",
+      "proposed_fix": "'Want zo dikwijls als u dit brood zult eten, en deze drinkbeker zult drinken'",
+      "severity": "hard"
+    },
+    {
+      "id": "RG2-004",
+      "class": "consistentie",
+      "books": ["REV"],
+      "chapter": 2,
+      "verse": 25,
+      "quote": "Maar hetgeen u hebt, houdt dat vast totdat ik zal komen.",
+      "rule_reference": "ARCHAISMEN.md (imperatief-meervoud op `-t` → stam); MODERNISATIE.md imperatief-`-t`",
+      "explanation": "Grieks κρατήσατε (imperatief van κρατέω). De tekst kruisverwijst zelf naar $Op. 3:11$, waar dezelfde imperatief κράτει correct als stam 'houd vast wat u hebt' is gerenderd. Hier blijft de SV-`-t` 'houdt' staan: concordantiebreuk tussen twee expliciet gekoppelde parallelverzen plus imperatief-`-t`-schending.",
+      "proposed_fix": "'Maar houd vast wat u hebt, totdat ik kom.'",
+      "severity": "hard"
+    },
+    {
+      "id": "RG2-005",
+      "class": "modernisatie",
+      "books": ["1CO"],
+      "chapter": 15,
+      "verse": 19,
+      "quote": "Indien wij alleen in dit leven op Christus hopende zijn, zo zijn wij de ellendigste van alle mensen.",
+      "rule_reference": "MODERNISATIE.md §2.3 (finiet participium / -ende)",
+      "explanation": "Grieks ἠλπικότες ἐσμέν (perifrastische perfectum). 'op Christus hopende zijn' is een letterlijke carry-over van SV 'op Christum zijn hopende' — een finiet participium met koppelwerkwoord dat in modern NL niet meer productief is; het moet ontvouwd worden naar een persoonsvorm.",
+      "proposed_fix": "'Indien wij alleen voor dit leven onze hoop op Christus gevestigd hebben, dan zijn wij de ellendigste van alle mensen.'",
+      "severity": "soft"
+    },
+    {
+      "id": "RG2-006",
+      "class": "modernisatie",
+      "books": ["1CO"],
+      "chapter": 11,
+      "verse": 29,
+      "quote": "die eet en drinkt zichzelf een oordeel, niet onderscheidende het lichaam des Heeren.",
+      "rule_reference": "MODERNISATIE.md §2.3 (finiet participium) + §2.3b (object nageschoven na participium)",
+      "explanation": "Grieks μὴ διακρίνων τὸ σῶμα = adverbiaal participium ('zonder het lichaam te onderscheiden'). 'niet onderscheidende het lichaam des Heeren' draagt twee SV-trekken: het -ende-participium als hoofdwerkwoord én het object dat ná het participium hangt in plaats van de persoonsvorm finaal. Onhandig-archaïsch in moderne bijzin.",
+      "proposed_fix": "'... haalt zich een oordeel op de hals, omdat hij het lichaam van de Heere niet onderscheidt.'",
+      "severity": "soft"
+    },
+    {
+      "id": "RG2-007",
+      "class": "modernisatie",
+      "books": ["REV"],
+      "chapter": 7,
+      "verse": 1,
+      "quote": "vier Engelen staan op de vier hoeken van de aarde, houdende de vier winden van de aarde",
+      "rule_reference": "MODERNISATIE.md §2.3 (finiet participium / -ende) + §2.3b",
+      "explanation": "Grieks κρατοῦντας τοὺς τέσσαρας ἀνέμους = participium met nageschoven object, letterlijk overgenomen als 'houdende de vier winden'. Het -ende-participium met direct object daarachter is SV-syntaxis; modern NL ontvouwt naar een betrekkelijke of nevengeschikte persoonsvorm.",
+      "proposed_fix": "'... vier Engelen staan op de vier hoeken van de aarde, en zij hielden de vier winden van de aarde tegen, opdat geen wind zou waaien ...'",
+      "severity": "soft"
+    }
+  ],
+  "green": [
+    {
+      "point_id": "RG2-001",
+      "stance": "concede",
+      "rebuttal": "Geen verdediging. Λάβετε en ποιεῖτε zijn 2e pers. mv. imperatieven; SV-`-t` 'Neemt'/'doet' moet náár de stam (Neem/doe), zoals de settled imperatief-`-t`-regel eist. Binnen dezelfde zin staat φάγετε al correct als stam 'eet' — de discipline is inconsistent toegepast. Geen attributief/idiomatisch argument beschikbaar.",
+      "evidence": "ARCHAISMEN.md imperatief-`-t`→stam + Λάβετε/ποιεῖτε"
+    },
+    {
+      "point_id": "RG2-002",
+      "stance": "concede",
+      "rebuttal": "Beide drempel-archaismen kloppen. ποιεῖτε = imperatief mv. → 'Doe' (concordant met 11:24-fix). 'gij' staat in de hoofdtekst (niet kanttekening, niet binnen een SV-citaat), dus valt onder de vaste substitutie ghy/gy/gij → u. Geen verdediging.",
+      "evidence": "ARCHAISMEN.md imperatief-`-t` + gij→u; ποιεῖτε"
+    },
+    {
+      "point_id": "RG2-003",
+      "stance": "concede",
+      "rebuttal": "'gij' (Gr. ἐσθίητε/πίνητε, 2e pers. mv.) is residueel SV-pronomen in de hoofdtekst → vaste substitutie naar 'u'. Geen citaat- of kanttekening-uitzondering van toepassing.",
+      "evidence": "ARCHAISMEN.md gij→u; ἐσθίητε/πίνητε"
+    },
+    {
+      "point_id": "RG2-004",
+      "stance": "concede",
+      "rebuttal": "De aspect-asymmetrie (κρατήσατε aorist in 2:25 vs κράτει present in 3:11) zou een ander LEXEEM/woordvolgorde kunnen rechtvaardigen, maar redt 'houdt' niet: κρατήσατε is en blijft een imperatief mv. en de SV-`-t` moet hoe dan ook náár de stam 'houd'. De imperatief-`-t`→stam-regel is aspect-onafhankelijk. Concessie geldt de `-t`-fix; aspect-verschil mag een lexicale divergentie tussen 2:25 en 3:11 blijven motiveren, geen behoud van `-t`.",
+      "evidence": "ARCHAISMEN.md imperatief-`-t`→stam; κρατήσατε imperatief"
+    },
+    {
+      "point_id": "RG2-005",
+      "stance": "concede",
+      "rebuttal": "ἠλπικότες ἐσμέν is een perifrastisch perfectum (participium + koppelwerkwoord 'zijn') als hoofdwerkwoord — geen attributief participium dat een zelfstandig naamwoord bepaalt. Valt direct onder §2.3 (finiet/perifrastisch participium → persoonsvorm). 'op Christus hopende zijn' is een letterlijke SV-carry-over die ontvouwd moet worden.",
+      "evidence": "§2.3 finiet/perifrastisch participium; ἠλπικότες ἐσμέν"
+    },
+    {
+      "point_id": "RG2-006",
+      "stance": "concede",
+      "rebuttal": "μὴ διακρίνων is een bijwoordelijk (circumstantieel) participium, geen attributief. 'niet onderscheidende het lichaam des Heeren' draagt zowel het -ende-participium als hoofdwerkwoord (§2.3) als het nageschoven object ná het participium (§2.3b). Geen congealed idiom; ontvouwt naar 'omdat hij het lichaam ... niet onderscheidt'.",
+      "evidence": "§2.3 + §2.3b nageschoven object; μὴ διακρίνων"
+    },
+    {
+      "point_id": "RG2-007",
+      "stance": "concede",
+      "rebuttal": "κρατοῦντας is hier circumstantieel/bijwoordelijk (wat de Engelen DOEN), niet attributief als 'de nederdalende stad'. Het beschrijft een lopende handeling mét nageschoven direct object τοὺς τέσσαρας ἀνέμους — precies het §2.3 (-ende als werkwoord) + §2.3b (object ná participium) patroon, parallel aan 'wandelende in alle de geboden'. Ontvouwt naar nevengeschikte/betrekkelijke persoonsvorm.",
+      "evidence": "§2.3 + §2.3b; κρατοῦντας τοὺς τέσσαρας ἀνέμους"
+    }
+  ],
+  "verdicts": [
+    {
+      "point_id": "RG2-001",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. Λάβετε/ποιεῖτε zijn 2e pers. mv. imperatieven; SV-`-t` 'Neemt'/'doet' → stam 'Neem'/'doe'. Regel bestaat reeds (ARCHAISMEN.md imperatief-`-t`→stam); φάγετε al correct als 'eet'. Geen rule_change.",
+      "scope": "verse",
+      "applied": false
+    },
+    {
+      "point_id": "RG2-002",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. ποιεῖτε → 'Doe' (imperatief-`-t`→stam, bestaande regel); 'gij' in hoofdtekst → 'u' (bestaande ghy/gy/gij→u-substitutie). Beide drempel-archaismen vallen onder reeds gecodeerde regels.",
+      "scope": "verse",
+      "applied": false
+    },
+    {
+      "point_id": "RG2-003",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. Residueel 'gij' (ἐσθίητε/πίνητε) in hoofdtekst → 'u' onder bestaande ghy/gy/gij→u-substitutie. Geen citaat- of kanttekening-uitzondering. Bestaande regel.",
+      "scope": "verse",
+      "applied": false
+    },
+    {
+      "point_id": "RG2-004",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert de `-t`-fix. κρατήσατε is imperatief mv. → stam 'houd', aspect-onafhankelijk (bestaande imperatief-`-t`→stam-regel). Aspectverschil met 3:11 mag lexicaal divergeren maar redt de `-t` niet. Bestaande regel.",
+      "scope": "verse",
+      "applied": false
+    },
+    {
+      "point_id": "RG2-005",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. ἠλπικότες ἐσμέν perifrastisch perfectum, geen attributief participium; valt onder bestaande §2.3 (finiet participium → persoonsvorm). 'op Christus hopende zijn' = SV-carry-over, ontvouwen. Bestaande regel.",
+      "scope": "verse",
+      "applied": false
+    },
+    {
+      "point_id": "RG2-006",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. μὴ διακρίνων bijwoordelijk participium; 'niet onderscheidende het lichaam des Heeren' draagt -ende-participium (§2.3) + nageschoven object (§2.3b). Beide regels bestaan reeds.",
+      "scope": "verse",
+      "applied": false
+    },
+    {
+      "point_id": "RG2-007",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. κρατοῦντας circumstantieel participium met nageschoven object τοὺς τέσσαρας ἀνέμους; 'houdende de vier winden' valt onder bestaande §2.3 + §2.3b. Ontvouwen naar persoonsvorm. Bestaande regels.",
+      "scope": "verse",
+      "applied": false
+    }
+  ]
+}
