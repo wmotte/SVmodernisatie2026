@@ -1,13 +1,29 @@
 {
   "book": "MAT",
   "chapter": 15,
-  "reviewed_at": "2026-06-05T07:07:34+00:00",
+  "reviewed_at": "2026-06-05T07:10:52+00:00",
   "passes": [
     {
       "pass": 1,
       "ran_at": "2026-06-05T07:07:34+00:00",
       "mode": "scan",
       "issues_total": 9
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-06-05T07:10:52+00:00",
+      "mode": "verify",
+      "actions": [
+        "MAT-15-5-001: rebuttal verified",
+        "MAT-15-11-001: verified",
+        "MAT-15-14-001: rebuttal verified",
+        "MAT-15-22-001: rebuttal verified",
+        "MAT-15-28-001: rebuttal verified",
+        "MAT-15-1-001: rebuttal verified",
+        "MAT-15-2-001: rebuttal verified",
+        "MAT-15-11-002: rebuttal verified",
+        "MAT-15-30-001: rebuttal verified"
+      ]
     }
   ],
   "issues": [
@@ -21,8 +37,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "MAT-15-5-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'geenszins' rendert οὐ μή (dubbele ontkenning, emfatisch). Productief in modern formeel/juridisch Nederlands ('geenszins akkoord', 'geenszins toegestaan'). MODERNISATIE.md §2.7 productiviteitstest slaagt; modern equivalent 'beslist niet' verzwakt de Griekse nadrukkelijke ontkenning."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'geenszins' rendert οὐ μή (dubbele ontkenning, emfatisch). Productief in modern formeel/juridisch Nederlands ('geenszins akkoord', 'geenszins toegestaan'). MODERNISATIE.md §2.7 productiviteitstest slaagt; modern equivalent 'beslist niet' verzwakt de Griekse nadrukkelijke ontkenning.",
+      "verified_at": "2026-06-05T07:10:52+00:00"
     },
     {
       "category": "kanttekening-luiheid (§2.3 in <…>)",
@@ -34,8 +51,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "MAT-15-11-001",
-      "status": "fixed",
-      "fix_commit": "PENDING"
+      "status": "verified",
+      "fix_commit": "PENDING",
+      "verified_at": "2026-06-05T07:10:52+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -47,8 +65,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "MAT-15-14-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-06-05T07:10:52+00:00"
     },
     {
       "category": "kanttekening-luiheid (§2.3 in <…>)",
@@ -60,8 +79,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "MAT-15-22-001",
-      "status": "rebutted",
-      "rebuttal": "'ontleende' is hier de finiete verleden tijd van \"ontlenen\" (hij/zij ontleende) in de relatiefzin \"waaraan de stad Sidon haar oorsprong en naam ontleende\", géén adverbiaal participium. §2.3 betreft -ende-participia (ALWAYS_BAD), niet preterita die toevallig op -ende eindigen; de scanner-regex mist dit onderscheid. De finiete bijzin is correct modern Nederlands en vereist geen ontvouwing."
+      "status": "verified",
+      "rebuttal": "'ontleende' is hier de finiete verleden tijd van \"ontlenen\" (hij/zij ontleende) in de relatiefzin \"waaraan de stad Sidon haar oorsprong en naam ontleende\", géén adverbiaal participium. §2.3 betreft -ende-participia (ALWAYS_BAD), niet preterita die toevallig op -ende eindigen; de scanner-regex mist dit onderscheid. De finiete bijzin is correct modern Nederlands en vereist geen ontvouwing.",
+      "verified_at": "2026-06-05T07:10:52+00:00"
     },
     {
       "category": "§2.3b vocatief-u",
@@ -73,8 +93,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "MAT-15-28-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] 'u' is hier datief-object (Grieks σοι, 'u geschiede' = 'moge het u geschieden'), geen vocatief — §2.3b (vocatief-u verwijderen) is niet van toepassing. 'geschiede' is optatief, gestold liturgisch zoals 'Uw wil geschiede' (Mt. 6:10)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] 'u' is hier datief-object (Grieks σοι, 'u geschiede' = 'moge het u geschieden'), geen vocatief — §2.3b (vocatief-u verwijderen) is niet van toepassing. 'geschiede' is optatief, gestold liturgisch zoals 'Uw wil geschiede' (Mt. 6:10).",
+      "verified_at": "2026-06-05T07:10:52+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -94,8 +115,9 @@
         25
       ],
       "id": "MAT-15-1-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Concordantie-drift 'seggend' is structurele §2.3-toepassing: SV-participium 'seggende' (ALWAYS_BAD-categorie) wordt consistent ontvouwd naar finiet 'zei/zeiden' in alle 6 verzen (v4/v9/v18/v29/v34/v36). Modernisatie verwijdert participiumkop opzettelijk per regel; geen drift maar uniform §2.3-protocol."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Concordantie-drift 'seggend' is structurele §2.3-toepassing: SV-participium 'seggende' (ALWAYS_BAD-categorie) wordt consistent ontvouwd naar finiet 'zei/zeiden' in alle 6 verzen (v4/v9/v18/v29/v34/v36). Modernisatie verwijdert participiumkop opzettelijk per regel; geen drift maar uniform §2.3-protocol.",
+      "verified_at": "2026-06-05T07:10:52+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -112,8 +134,9 @@
         6
       ],
       "id": "MAT-15-2-001",
-      "status": "rebutted",
-      "rebuttal": "Geen drift: alle drie verzen renderen het SV-origineel \"insettinge\" consistent als \"inzetting\" (v2 \"inzetting van de Ouden\", v3 \"uw inzetting\", v6 \"uw inzetting\"). De scanner-prefixheuristiek vergelijkt \"insetti\" met \"inzetti\" en mist de orthografische overgang s→z; concordantie is feitelijk perfect (§ concordantie AGENTS.md geslaagd)."
+      "status": "verified",
+      "rebuttal": "Geen drift: alle drie verzen renderen het SV-origineel \"insettinge\" consistent als \"inzetting\" (v2 \"inzetting van de Ouden\", v3 \"uw inzetting\", v6 \"uw inzetting\"). De scanner-prefixheuristiek vergelijkt \"insetti\" met \"inzetti\" en mist de orthografische overgang s→z; concordantie is feitelijk perfect (§ concordantie AGENTS.md geslaagd).",
+      "verified_at": "2026-06-05T07:10:52+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -130,8 +153,9 @@
         20
       ],
       "id": "MAT-15-11-002",
-      "status": "rebutted",
-      "rebuttal": "Geen drift: SV-stam \"ontreyn\" wordt in alle drie verzen consistent gerenderd met de stam \"verontreinig-\" (v11 \"verontreinigt\", v18 \"verontreinigen\", v20 \"verontreinigen\"); verschil is enkel enkelvoud/meervoud-congruentie. Scanner-prefixheuristiek mist de overgang ontreyn→verontreinig (voorvoegsel ver- + s/sch→g/z). Concordantie feitelijk consistent."
+      "status": "verified",
+      "rebuttal": "Geen drift: SV-stam \"ontreyn\" wordt in alle drie verzen consistent gerenderd met de stam \"verontreinig-\" (v11 \"verontreinigt\", v18 \"verontreinigen\", v20 \"verontreinigen\"); verschil is enkel enkelvoud/meervoud-congruentie. Scanner-prefixheuristiek mist de overgang ontreyn→verontreinig (voorvoegsel ver- + s/sch→g/z). Concordantie feitelijk consistent.",
+      "verified_at": "2026-06-05T07:10:52+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -148,8 +172,9 @@
         39
       ],
       "id": "MAT-15-30-001",
-      "status": "rebutted",
-      "rebuttal": "Geen drift maar §2.3-participium-ontvouwing: SV-participium \"hebbende\" (ALWAYS_BAD) wordt per regel ontvouwd naar contextueel-finiete vormen — v30 \"die ... bij zich hadden\" (meervoud verleden), v39 \"had laten gaan\" (enkelvoud verleden). De finiete vorm volgt onderwerp-getal-congruentie in modern NL; v32 valt buiten dezelfde constructie. Uniform §2.3-protocol, geen lexicale inconsistentie."
+      "status": "verified",
+      "rebuttal": "Geen drift maar §2.3-participium-ontvouwing: SV-participium \"hebbende\" (ALWAYS_BAD) wordt per regel ontvouwd naar contextueel-finiete vormen — v30 \"die ... bij zich hadden\" (meervoud verleden), v39 \"had laten gaan\" (enkelvoud verleden). De finiete vorm volgt onderwerp-getal-congruentie in modern NL; v32 valt buiten dezelfde constructie. Uniform §2.3-protocol, geen lexicale inconsistentie.",
+      "verified_at": "2026-06-05T07:10:52+00:00"
     }
   ]
 }
