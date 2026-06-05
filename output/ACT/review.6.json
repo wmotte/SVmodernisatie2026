@@ -1,13 +1,43 @@
 {
   "book": "ACT",
   "chapter": 6,
-  "reviewed_at": "2026-06-05T20:20:10+00:00",
+  "reviewed_at": "2026-06-05T20:27:46+00:00",
   "passes": [
     {
       "pass": 1,
       "ran_at": "2026-06-05T20:20:10+00:00",
       "mode": "scan",
       "issues_total": 21
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-06-05T20:27:46+00:00",
+      "mode": "verify",
+      "actions": [
+        "ACT-6-1-001: verified",
+        "ACT-6-1-002: verified",
+        "ACT-6-1-003: verified",
+        "ACT-6-1-004: verified",
+        "ACT-6-1-005: verified",
+        "ACT-6-2-001: verified",
+        "ACT-6-2-002: verified",
+        "ACT-6-3-001: rebuttal verified",
+        "ACT-6-5-001: verified",
+        "ACT-6-6-001: reopened (patroon nog aanwezig)",
+        "ACT-6-6-002: reopened (patroon nog aanwezig)",
+        "ACT-6-6-003: reopened (patroon nog aanwezig)",
+        "ACT-6-6-004: rebuttal verified",
+        "ACT-6-6-005: verified",
+        "ACT-6-12-001: verified",
+        "ACT-6-14-001: verified",
+        "ACT-6-14-002: verified",
+        "ACT-6-14-003: verified",
+        "ACT-6-15-001: verified",
+        "ACT-6-15-002: verified",
+        "ACT-6-3-002: rebuttal verified",
+        "ACT-6-0-001: reopened (vers verdwenen)",
+        "ACT-6-0-002: reopened (vers verdwenen)"
+      ]
     }
   ],
   "issues": [
@@ -21,8 +51,9 @@
       "proposed_fix": "van de armen",
       "location": "kanttekening",
       "id": "ACT-6-1-001",
-      "status": "fixed",
-      "fix_commit": ""
+      "status": "verified",
+      "fix_commit": "",
+      "verified_at": "2026-06-05T20:27:46+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -34,8 +65,9 @@
       "proposed_fix": "van de Hebreeën",
       "location": "kanttekening",
       "id": "ACT-6-1-002",
-      "status": "fixed",
-      "fix_commit": ""
+      "status": "verified",
+      "fix_commit": "",
+      "verified_at": "2026-06-05T20:27:46+00:00"
     },
     {
       "category": "SV-verbuiging (demonstratief dezer/dien/...)",
@@ -47,8 +79,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ACT-6-1-003",
-      "status": "fixed",
-      "fix_commit": ""
+      "status": "verified",
+      "fix_commit": "",
+      "verified_at": "2026-06-05T20:27:46+00:00"
     },
     {
       "category": "SV-verbuiging (demonstratief dezer/dien/...)",
@@ -60,8 +93,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ACT-6-1-004",
-      "status": "fixed",
-      "fix_commit": ""
+      "status": "verified",
+      "fix_commit": "",
+      "verified_at": "2026-06-05T20:27:46+00:00"
     },
     {
       "category": "kanttekening-luiheid (§2.3 in <…>)",
@@ -73,8 +107,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ACT-6-1-005",
-      "status": "fixed",
-      "fix_commit": ""
+      "status": "verified",
+      "fix_commit": "",
+      "verified_at": "2026-06-05T20:27:46+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -86,8 +121,9 @@
       "proposed_fix": "van de armen",
       "location": "kanttekening",
       "id": "ACT-6-2-001",
-      "status": "fixed",
-      "fix_commit": ""
+      "status": "verified",
+      "fix_commit": "",
+      "verified_at": "2026-06-05T20:27:46+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -99,8 +135,9 @@
       "proposed_fix": "van de armen",
       "location": "kanttekening",
       "id": "ACT-6-2-002",
-      "status": "fixed",
-      "fix_commit": ""
+      "status": "verified",
+      "fix_commit": "",
+      "verified_at": "2026-06-05T20:27:46+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -112,8 +149,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ACT-6-3-001",
-      "status": "rebutted",
-      "rebuttal": "De <Dat is>-noot bij v3 glosseert het lemma 'vol' (Gr. πλήρεις Πνεύματος Ἁγίου), niet de blijdschap: 'van de gaven van de Heilige Geest die nodig zijn om zulk een dienst ... uit te voeren'. Het lemma-anker 'van de Heilige Geest' is verklarend noodzakelijk (wélke gaven, waartoe), geen woordelijke echo; KANTTEKENINGEN.md houdt zulke verklarende <Dat is>-blokken in stand."
+      "status": "verified",
+      "rebuttal": "De <Dat is>-noot bij v3 glosseert het lemma 'vol' (Gr. πλήρεις Πνεύματος Ἁγίου), niet de blijdschap: 'van de gaven van de Heilige Geest die nodig zijn om zulk een dienst ... uit te voeren'. Het lemma-anker 'van de Heilige Geest' is verklarend noodzakelijk (wélke gaven, waartoe), geen woordelijke echo; KANTTEKENINGEN.md houdt zulke verklarende <Dat is>-blokken in stand.",
+      "verified_at": "2026-06-05T20:27:46+00:00"
     },
     {
       "category": "SV-verbuiging (demonstratief dezer/dien/...)",
@@ -125,8 +163,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ACT-6-5-001",
-      "status": "fixed",
-      "fix_commit": ""
+      "status": "verified",
+      "fix_commit": "",
+      "verified_at": "2026-06-05T20:27:46+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -138,8 +177,10 @@
       "proposed_fix": "van de handen",
       "location": "kanttekening",
       "id": "ACT-6-6-001",
-      "status": "fixed",
-      "fix_commit": ""
+      "status": "rebutted",
+      "fix_commit": "",
+      "verify_note": "fix loste het patroon niet op",
+      "rebuttal": "Fix toegepast: 'oplegging der handen' → 'oplegging van de handen' (zie ACT.6 v6 modernized). Enig resterend der/des/den in v6 is de gefossiliseerde collocatie 'des Heiligen Geestes' (FOSSIL_GENITIVE, vgl. §2.7) — een ander issue. Verify herscant het héle vers en heropent vals op dat fossiel-residu."
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -151,8 +192,10 @@
       "proposed_fix": "van de zegen",
       "location": "kanttekening",
       "id": "ACT-6-6-002",
-      "status": "fixed",
-      "fix_commit": ""
+      "status": "rebutted",
+      "fix_commit": "",
+      "verify_note": "fix loste het patroon niet op",
+      "rebuttal": "Fix toegepast: 'den zegen Gods' → 'de zegen van God' (v6 modernized). De accusatief-archaïsme 'den' is weg; v6 bevat verder enkel 'des Heiligen Geestes' (fossiel). Mechanische verify-herscan van het hele vers veroorzaakt de valse heropening, niet een onopgeloste 'den'-vorm."
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -164,8 +207,10 @@
       "proposed_fix": "van de buitengewone",
       "location": "kanttekening",
       "id": "ACT-6-6-003",
-      "status": "fixed",
-      "fix_commit": ""
+      "status": "rebutted",
+      "fix_commit": "",
+      "verify_note": "fix loste het patroon niet op",
+      "rebuttal": "Fix toegepast: 'der buitengewone gaven' → 'van de buitengewone gaven' (v6 modernized). De quote overlapt met 'des Heiligen Geestes', een gestolde fossiele genitief (FOSSIL_GENITIVE_PAIRS-stijl, §2.7) die terecht behouden blijft; daarom valt het regex-residu hier, niet op een onopgeloste 'der'-vorm."
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -177,8 +222,9 @@
       "proposed_fix": "van de Heiligen",
       "location": "kanttekening",
       "id": "ACT-6-6-004",
-      "status": "rebutted",
-      "rebuttal": "'des Heiligen Geestes' is een gestolde fossiele collocatie (vaste uitdrukking, vgl. doopformulier 'in de naam van de Vader, de Zoon en de Heilige Geest'), op één lijn met FOSSIL_GENITIVE_PAIRS-stijl ('Zoon des mensen', 'Koninkrijk der hemelen'). De voorafgaande partitieve genitief 'der buitengewone gaven' in dezelfde noot is wél gefixt naar 'van de buitengewone gaven'; alleen de fossiele collocatie blijft staan."
+      "status": "verified",
+      "rebuttal": "'des Heiligen Geestes' is een gestolde fossiele collocatie (vaste uitdrukking, vgl. doopformulier 'in de naam van de Vader, de Zoon en de Heilige Geest'), op één lijn met FOSSIL_GENITIVE_PAIRS-stijl ('Zoon des mensen', 'Koninkrijk der hemelen'). De voorafgaande partitieve genitief 'der buitengewone gaven' in dezelfde noot is wél gefixt naar 'van de buitengewone gaven'; alleen de fossiele collocatie blijft staan.",
+      "verified_at": "2026-06-05T20:27:46+00:00"
     },
     {
       "category": "SV-verbuiging (demonstratief dezer/dien/...)",
@@ -190,8 +236,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ACT-6-6-005",
-      "status": "fixed",
-      "fix_commit": ""
+      "status": "verified",
+      "fix_commit": "",
+      "verified_at": "2026-06-05T20:27:46+00:00"
     },
     {
       "category": "§2.3 finiet participium",
@@ -203,8 +250,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ACT-6-12-001",
-      "status": "fixed",
-      "fix_commit": ""
+      "status": "verified",
+      "fix_commit": "",
+      "verified_at": "2026-06-05T20:27:46+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -216,8 +264,9 @@
       "proposed_fix": "van de ceremoniën",
       "location": "kanttekening",
       "id": "ACT-6-14-001",
-      "status": "fixed",
-      "fix_commit": ""
+      "status": "verified",
+      "fix_commit": "",
+      "verified_at": "2026-06-05T20:27:46+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -229,8 +278,9 @@
       "proposed_fix": "van de Joden",
       "location": "kanttekening",
       "id": "ACT-6-14-002",
-      "status": "fixed",
-      "fix_commit": ""
+      "status": "verified",
+      "fix_commit": "",
+      "verified_at": "2026-06-05T20:27:46+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -242,8 +292,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ACT-6-14-003",
-      "status": "fixed",
-      "fix_commit": ""
+      "status": "verified",
+      "fix_commit": "",
+      "verified_at": "2026-06-05T20:27:46+00:00"
     },
     {
       "category": "kanttekening-luiheid (§2.3 in <…>)",
@@ -255,8 +306,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ACT-6-15-001",
-      "status": "fixed",
-      "fix_commit": ""
+      "status": "verified",
+      "fix_commit": "",
+      "verified_at": "2026-06-05T20:27:46+00:00"
     },
     {
       "category": "kanttekening-luiheid (§2.3 in <…>)",
@@ -268,8 +320,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ACT-6-15-002",
-      "status": "fixed",
-      "fix_commit": ""
+      "status": "verified",
+      "fix_commit": "",
+      "verified_at": "2026-06-05T20:27:46+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -286,8 +339,9 @@
         13
       ],
       "id": "ACT-6-3-002",
-      "status": "rebutted",
-      "rebuttal": "False-positive van de prefix-heuristiek: de stam 'heilig' wordt juist consistent weergegeven maar naar woordsoort verbogen — v3/v13 zelfstandig naamwoord c.q. adjectief 'Heilige Geest' (Πνεῦμα Ἅγιον) en 'heilige plaats' (τόπος ἅγιος), v5 'Heilige Geest'. Morfologische variatie per woordsoort/context, geen concordantie-drift."
+      "status": "verified",
+      "rebuttal": "False-positive van de prefix-heuristiek: de stam 'heilig' wordt juist consistent weergegeven maar naar woordsoort verbogen — v3/v13 zelfstandig naamwoord c.q. adjectief 'Heilige Geest' (Πνεῦμα Ἅγιον) en 'heilige plaats' (τόπος ἅγιος), v5 'Heilige Geest'. Morfologische variatie per woordsoort/context, geen concordantie-drift.",
+      "verified_at": "2026-06-05T20:27:46+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -299,8 +353,10 @@
       "proposed_fix": "oplegging van de handen",
       "location": "introductie",
       "id": "ACT-6-0-001",
-      "status": "fixed",
-      "fix_commit": ""
+      "status": "rebutted",
+      "fix_commit": "",
+      "verify_note": "vers niet meer aanwezig in output",
+      "rebuttal": "Fix toegepast in introductie: 'oplegging der handen' → 'oplegging van de handen' (ACT.6 introduction, geverifieerd: 0 der/des/den-treffers in intro). Reopen-reden 'vers niet meer aanwezig' is de bekende verse-0/intro-relocate-fout van de mechanische verify, geen onopgeloste overtreding."
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -312,8 +368,10 @@
       "proposed_fix": "Synagoge van de Libertijnen",
       "location": "introductie",
       "id": "ACT-6-0-002",
-      "status": "fixed",
-      "fix_commit": ""
+      "status": "rebutted",
+      "fix_commit": "",
+      "verify_note": "vers niet meer aanwezig in output",
+      "rebuttal": "Fix toegepast in introductie: 'Synagoge der Libertijnen' → 'Synagoge van de Libertijnen' (ACT.6 introduction, geverifieerd: 0 der/des/den-treffers). Verse-0 verify-relocate-FP, niet een blijvend archaïsme."
     }
   ]
 }
