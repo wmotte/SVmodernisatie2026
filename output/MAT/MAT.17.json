@@ -115,6 +115,33 @@
       "generated_at": "2026-06-05T20:03:46.884314Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 13,
+      "original": "Doe verstonden de discipelen dat hy haer van Ioanne den Dooper gesproken hadde.",
+      "modernized": "Toen begrepen de discipelen dat hij tot hen over Johannes de Doper gesproken had.",
+      "source_text": "τότε συνῆκαν οἱ μαθηταὶ ὅτι περὶ Ἰωάννου τοῦ Βαπτιστοῦ εἶπεν αὐτοῖς.",
+      "generated_at": "2026-06-05T20:06:59.846599Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 14,
+      "original": "$Marc. 9.16. Luce 9.37.$ Ende als sy by de schare gekomen waren, quam tot hem een mensche, vallende voor hem op de knijen, ende seggende,",
+      "modernized": "$Mk. 9:16; Lk. 9:37$ En toen zij bij de schare gekomen waren, kwam er een mens tot hem, die voor hem op de knieën viel en zei:",
+      "source_text": "Καὶ ἐλθόντων αὐτῶν πρὸς τὸν ὄχλον, προσῆλθεν αὐτῷ ἄνθρωπος γονυπετῶν αὐτῷ καὶ λέγων,",
+      "generated_at": "2026-06-05T20:07:32.394970Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 15,
+      "original": "Heere ontfermt u over mijn sone, want hy is <Maensieckte is een sieckte die met den loop der mane verswaert, gelijck de vallende, rasende, ende dergelijcke sieckten, met welcke de duyvel hem somwijlen plagh te mengen, gelijck hier geschiet is.> maensieck, ende is in swaer lijden: want menighmael valt hy in ’t vyer, ende menighmael in ’t water.",
+      "modernized": "Heere, ontferm u over mijn zoon, want hij is <Maanziekte is een ziekte die met de loop van de maan verergert, zoals de vallende ziekte, razernij en dergelijke ziekten, waarmee de duivel zich soms ook mengde, zoals hier gebeurd is.> maanziek, en lijdt zwaar; want vaak valt hij in het vuur, en vaak in het water.",
+      "source_text": "Κύριε, ἐλέησόν μου τὸν υἱόν, ὅτι σεληνιάζεται καὶ κακῶς πάσχει· πολλάκις γὰρ πίπτει εἰς τὸ πῦρ, καὶ πολλάκις εἰς τὸ ὕδωρ.",
+      "generated_at": "2026-06-05T20:08:15.322769Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
