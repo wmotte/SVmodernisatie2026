@@ -61,6 +61,33 @@
       "generated_at": "2026-06-05T17:04:58.297066Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 7,
+      "original": "Ende sy <Ofte, sy spraken onder malkanderen.> overleydden by haer selven, seggende, [’t Is] om dat wy geen brooden [mede] genomen en hebben.",
+      "modernized": "En zij <Of, zij spraken onder elkaar.> overlegden onderling en zeiden: [Het is] omdat wij geen broden [mee] hebben genomen.",
+      "source_text": "οἱ δὲ διελογίζοντο ἐν ἑαυτοῖς, λέγοντες ὅτι Ἄρτους οὐκ ἐλάβομεν.",
+      "generated_at": "2026-06-05T17:11:22.517837Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 8,
+      "original": "Ende Iesus [dat] wetende seyde tot haer, Wat overleght ghy by u selven, ghy kleyn geloovige, dat ghy geen brooden [mede] genomen en hebt?",
+      "modernized": "En toen Jezus [dat] wist, zei hij tot hen: Wat overlegt u onderling, kleingelovigen, dat u geen broden [mee] hebt genomen?",
+      "source_text": "γνοὺς δὲ ὁ Ἰησοῦς εἶπεν αὐτοῖς, Τί διαλογίζεσθε ἐν ἑαυτοῖς, ὀλιγόπιστοι, ὅτι ἄρτους οὐκ ἐλάβετε;",
+      "generated_at": "2026-06-05T17:12:34.290144Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 9,
+      "original": "$Matth. 14.17. Marc. 6.38. Luce 9.13. Ioan. 6.9.$ En verstaet ghy noch niet? noch en gedenckt ghy niet aen de vijf brooden der vijf duysent [mannen,] ende hoe veel korven ghy opnaemt?",
+      "modernized": "$Mt. 14:17; Mk. 6:38; Lk. 9:13; Jh. 6:9$ En begrijpt u nog niet? En herinnert u zich ook niet de vijf broden van de vijfduizend [mannen,] en hoeveel korven u opnam?",
+      "source_text": "οὔπω νοεῖτε, οὐδὲ μνημονεύετε τοὺς πέντε ἄρτους τῶν πεντακισχιλίων, καὶ πόσους κοφίνους ἐλάβετε;",
+      "generated_at": "2026-06-05T17:13:24.854743Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
