@@ -34,6 +34,45 @@
       "generated_at": "2026-06-05T19:54:41.325795Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 4,
+      "original": "Maer wy sullen <D. geduerigh ende sterck aenhouden, Actor. 1.14.> volharden in den gebede, ende in de bedieninge des woorts.",
+      "modernized": "Maar wij zullen <dat is, gedurig en sterk aanhouden, $Hd. 1:14$.> volharden in het gebed, en in de bediening van het woord.",
+      "source_text": "ἡμεῖς δὲ τῇ προσευχῇ καὶ τῇ διακονίᾳ τοῦ λόγου προσκαρτερήσομεν.",
+      "generated_at": "2026-06-05T19:58:06.025532Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 5,
+      "original": "Ende <Ofte, dese sake. Hebr.> dit woort behaeghde <Gr. voor alle de menighte.> alle de menighte: ende <De verkiesinge geschiedde by de gemeynte, ende de instellinge ofte bevestinge by de Apostelen, vers 6.> sy verkoren <Dese name, als oock de ses volgende, zijn alle Griecksche namen: Waer uyt eenige besluyten, dat om de klaghten van de Griecksche te beter wech te nemen, goet gevonden is de Diakenen te verkiesen uyt de Griecksche Ioden.> Stephanum, eenen man $Actor. 11.24.$ vol <Of, getrouwigheyt, die in dit ampt voornamelick vereyscht wort.> des geloofs ende des Heyligen Geests, $Actor. 21.8.$ ende <Van desen siet breeder Act. cap. 8. ende 21.> Philippum, ende Prochorum, ende Nicanorem, ende Timonem, ende Parmenam, ende <Sommige oude Leeraers meynen, dat dese is geweest deselve Nicolaus, daer van men leest Apocal. 2.15. Doch dit is onseker.> Nicolaum, <Gr. Proselytos: Dat is, een aenkomelingh uyt de Heydenen tot de Ioodsche religie. Siet Matth. 23.15.> eenen Iodegenoot van Antiochien.",
+      "modernized": "En <Of, deze zaak. Hebr.> dit woord behaagde <Grieks: voor de gehele menigte.> de gehele menigte: en <De verkiezing vond plaats bij de gemeente, en de instelling of bevestiging bij de Apostelen, vers 6.> zij verkoren <Deze naam, alsook de zes volgende, zijn alle Griekse namen: Waaruit sommigen besluiten, dat om de klachten van de Griekse beter weg te nemen, goedgevonden is de Diakenen te verkiezen uit de Griekse Joden.> Stefanus, een man $Hd. 11:24$ vol <Of, getrouwheid, die in dit ambt voornamelijk vereist wordt.> van geloof en van de Heilige Geest, $Hd. 21:8$ en <Van dezen zie breder Handelingen hoofdstuk 8 en 21.> Filippus, en Prochorus, en Nikanor, en Timon, en Parmenas, en <Sommige oude Leraars menen, dat deze dezelfde Nikolaüs is geweest, van wie men leest $Op. 2:15$, maar dit is onzeker.> Nikolaüs, <Grieks: Proselytos: Dat is, een aankomeling uit de Heidenen tot de Joodse religie. Zie $Mt. 23:15$.> een Jodengenoot van Antiochië.",
+      "source_text": "καὶ ἤρεσεν ὁ λόγος ἐνώπιον παντὸς τοῦ πλήθους· καὶ ἐξελέξαντο Στέφανον, ἄνδρα πλήρη πίστεως καὶ Πνεύματος Ἁγίου, καὶ Φίλιππον, καὶ Πρόχορον, καὶ Νικάνορα, καὶ Τίμωνα, καὶ Παρμενᾶν, καὶ Νικόλαον προσήλυτον Ἀντιοχέα,",
+      "generated_at": "2026-06-05T20:00:58.873613Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "subject": "Iodegenoot/proseliet",
+          "context": "hoofdtekst slot",
+          "choice": "Jodengenoot van Antiochië (SV-hoofdtekstwoord behouden)",
+          "alternatives": [
+            "proseliet"
+          ],
+          "reason": "Renovatie: SV zet Iodegenoot in de hoofdtekst; proseliet staat in de kanttekening. Niet naar HSV (proseliet) toetrekken."
+        }
+      ]
+    },
+    {
+      "verse_number": 6,
+      "original": "Welcke sy $Actor. 1.23.$ voor de Apostelen stelden: ende <Namel. Apostelen. Siet dergelijcke Actor. 8.17.> [dese,] als sy gebeden hadden, $Actor 8.17. ende 13.3. 1.Timoth. 4.14. ende 5.22. 2.Timoth. 1.6.$ <Dese maniere van oplegginge der handen was by de Ioden gebruyckelick, als sy yemant zegenden, Genes. 48. vers 14. als sy de beesten souden opofferen, om daer mede deselve Gode als toe te eygenen, Levit. 1. vers 4. ende in het inhulden in ampten, Numer. 27.18. Deuter. 34.9. Deselve maniere heeft oock Christus gebruyckt in het zegenen, Matth. 19.13. ende de gemeynte in het instellen van Kerckendienaren, om daer mede deselve Gode tot sijnen dienst toe te eygenen, ende den zegen Godts toe te wenschen. Siet 1.Timoth. 5.22. Oock de Apostelen in het geven der extra-ordinarise gaven des Heyligen Geests, Actor. 8.17.> leyden haer de handen op.",
+      "modernized": "Welke zij $Hd. 1:23$ voor de Apostelen stelden: en <Namelijk, Apostelen. Zie dergelijke $Hd. 8:17$.> [dezen,] toen zij gebeden hadden, $Hd. 8:17; 13:3; 1Tm. 4:14; 5:22; 2Tm. 1:6$ <Deze wijze van oplegging der handen was bij de Joden gebruikelijk, als zij iemand zegenden, $Gn. 48:14$; als zij de beesten zouden offeren, om die daarmee aan God als toe te eigenen, $Lv. 1:4$; en in het inhuldigen in ambten, $Nm. 27:18; Dt. 34:9$ Dezelfde wijze heeft ook Christus gebruikt in het zegenen, $Mt. 19:13$; en de gemeente in het instellen van Kerkendienaren, om die daarmee aan God tot zijn dienst toe te eigenen, en den zegen Gods toe te wensen. Zie $1Tm. 5:22$ Ook de Apostelen in het geven der buitengewone gaven des Heiligen Geestes, $Hd. 8:17$.> legden zij hun de handen op.",
+      "source_text": "οὓς ἔστησαν ἐνώπιον τῶν ἀποστόλων· καὶ προσευξάμενοι ἐπέθηκαν αὐτοῖς τὰς χεῖρας.",
+      "generated_at": "2026-06-05T20:02:13.884710Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
