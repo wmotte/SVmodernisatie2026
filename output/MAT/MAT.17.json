@@ -61,6 +61,33 @@
       "generated_at": "2026-06-05T19:50:41.137742Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 7,
+      "original": "Ende Iesus by haer komende raecktese aen, ende seyde, Staet op ende en vreest niet.",
+      "modernized": "En Jezus kwam bij hen, raakte hen aan en zei: Sta op en vrees niet.",
+      "source_text": "καὶ προσελθὼν ὁ Ἰησοῦς ἥψατο αὐτῶν καὶ εἶπεν, Ἐγέρθητε καὶ μὴ φοβεῖσθε.",
+      "generated_at": "2026-06-05T19:56:32.280549Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 8,
+      "original": "Ende hare oogen opheffende en sagen sy niemant dan Iesum alleen.",
+      "modernized": "En toen zij opkeken, zagen zij niemand dan Jezus alleen.",
+      "source_text": "ἐπάραντες δὲ τοὺς ὀφθαλμοὺς αὐτῶν, οὐδένα εἶδον, εἰ μὴ τὸν Ἰησοῦν μόνον.",
+      "generated_at": "2026-06-05T19:57:04.440307Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 9,
+      "original": "$Marc. 9.9. Luce 9.36.$ Ende als sy van den bergh af quamen, geboodt haer Iesus, seggende, En seght niemant dit <D. ’t gene sy gesien hadden, Marc. cap. 9. vers 9. ende 2.Petr. 1.16.> gesichte, tot dat de Sone des menschen sal opgestaen zijn uyt den dooden.",
+      "modernized": "$Mk. 9:9; Lk. 9:36$ En toen zij van de berg afkwamen, gebood Jezus hun en zei: Vertel niemand dit <Dat is, wat zij gezien hadden, $Mk. 9:9; 2Pt. 1:16$.> visioen, totdat de Zoon des mensen uit de doden zal zijn opgestaan.",
+      "source_text": "Καὶ καταβαινόντων αὐτῶν ἀπὸ τοῦ ὄρους, ἐνετείλατο αὐτοῖς ὁ Ἰησοῦς, λέγων, Μηδενὶ εἴπητε τὸ ὅραμα, ἕως οὗ ὁ Υἱὸς τοῦ ἀνθρώπου ἐκ νεκρῶν ἀναστῇ.",
+      "generated_at": "2026-06-05T19:58:25.622368Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
