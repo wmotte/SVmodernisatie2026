@@ -115,6 +115,33 @@
       "generated_at": "2026-06-05T06:20:01.117183Z",
       "model": "gpt-5-codex",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 13,
+      "original": "Ende daer geschiedde een stemme tot hem, Staet op Petre, slacht ende eet.",
+      "modernized": "En er kwam een stem tot hem: Sta op, Petrus, slacht en eet.",
+      "source_text": "καὶ ἐγένετο φωνὴ πρὸς αὐτόν, Ἀναστάς, Πέτρε, θῦσον καὶ φάγε.",
+      "generated_at": "2026-06-05T06:25:30.025750Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 14,
+      "original": "Maer Petrus seyde, Geensins Heere, want $Levit. 11.4. Deut. 14.7.$ ick en hebbe noyt gegeten yet <Dat is, yet het welck Godt in het Oude Testament verboden hadde tot spijse te gebruycken. Siet Levit. 11.4. Deuter. 14.7.> dat gemeyn, ofte onreyn was.",
+      "modernized": "Maar Petrus zei: Geenszins, Heere, want $Lv. 11:4; Dt. 14:7$ ik heb nooit iets gegeten <Dat is, iets dat God in het Oude Testament verboden had als voedsel te gebruiken. Zie $Lv. 11:4; Dt. 14:7$.> dat onheilig of onrein was.",
+      "source_text": "ὁ δὲ Πέτρος εἶπε, Μηδαμῶς, Κύριε· ὅτι οὐδέποτε ἔφαγον πᾶν κοινὸν ἢ ἀκάθαρτον.",
+      "generated_at": "2026-06-05T06:26:03.321144Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 15,
+      "original": "Ende een stemme [geschiedde] wederom ten tweeden mael tot hem, $Matth. 15.11. Rom. 14.17, 20. 1.Timoth. 4.4. Titum 1.15.$ ’t Gene Godt gereynight heeft en sult ghy niet <D. achten, ofte noemen.> gemeyn maken.",
+      "modernized": "En een stem [kwam] opnieuw voor de tweede maal tot hem: $Mt. 15:11; Rm. 14:17,20; 1Tm. 4:4; Tt. 1:15$ Wat God gereinigd heeft, zult u niet <Dat is, achten of noemen.> onheilig maken.",
+      "source_text": "καὶ φωνὴ πάλιν ἐκ δευτέρου πρὸς αὐτόν, Ἃ ὁ Θεὸς ἐκαθάρισε, σὺ μὴ κοίνου.",
+      "generated_at": "2026-06-05T06:26:36.222225Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
