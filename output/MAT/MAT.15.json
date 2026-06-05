@@ -61,6 +61,33 @@
       "generated_at": "2026-06-05T05:52:11.661660Z",
       "model": "claude-opus-4-8[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 7,
+      "original": "Ghy geveynsde, <D. wel past op u het gene Iesaias oock eertijts geseght heeft tot de Ioden van sijnen tijt.> wel heeft Iesaias van u gepropheteert, seggende,",
+      "modernized": "U geveinsden, <Dat is, let goed op wat Jesaja ook vroeger gezegd heeft tot de Joden van zijn tijd.> wel heeft Jesaja over u geprofeteerd, toen hij zei:",
+      "source_text": "ὑποκριταί, καλῶς προεφήτευσε περὶ ὑμῶν Ἠσαΐας, λέγων,",
+      "generated_at": "2026-06-05T05:56:50.329440Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 8,
+      "original": "$Iesa. 29.13. Ezech. 33.31. Marc. 7.6.$ Dit volck genaeckt my met haren monde, ende eert my met de lippen, maer haer herte houdt hem verre van my.",
+      "modernized": "$Js. 29:13; Ez. 33:31; Mk. 7:6$ Dit volk nadert mij met hun mond, en eert mij met de lippen, maar hun hart houdt zich verre van mij.",
+      "source_text": "Ἐγγίζει μοι ὁ λαὸς οὗτος τῷ στόματι αὐτῶν, καὶ τοῖς χείλεσί με τιμᾷ· ἡ δὲ καρδία αὐτῶν πόρρω ἀπέχει ἀπ’ ἐμοῦ.",
+      "generated_at": "2026-06-05T05:57:09.945259Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 9,
+      "original": "Doch te vergeefs eeren sy my <Namelick, om die te onderhouden, als een deel des Godtsdiensts, Deut. 4.2. ende 12. vers 32.> leerende leeringen, [die] $Marc. 7.6, 7. Coloss. 2.18, 20, 22.$ geboden van menschen [zijn.]",
+      "modernized": "Maar tevergeefs eren zij mij, <Namelijk, om die te onderhouden, als een deel van de Godsdienst, $Dt. 4:2; 12:32$.> door leringen te onderwijzen, [die] $Mk. 7:6,7; Ko. 2:18,20,22$ geboden van mensen [zijn.]",
+      "source_text": "μάτην δὲ σέβονταί με, διδάσκοντες διδασκαλίας ἐντάλματα ἀνθρώπων.",
+      "generated_at": "2026-06-05T05:57:29.996187Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
