@@ -121,6 +121,42 @@
       "generated_at": "2026-06-05T06:23:54.390507Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 13,
+      "original": "Ende seyden, Segget, Sijne discipelen zijn des nachts gekomen, ende hebben hem gestolen, als wy sliepen.",
+      "modernized": "En zeiden: Zeg: Zijn discipelen zijn 's nachts gekomen en hebben hem gestolen, terwijl wij sliepen.",
+      "source_text": "λέγοντες, Εἴπατε ὅτι Οἱ μαθηταὶ αὐτοῦ νυκτὸς ἐλθόντες ἔκλεψαν αὐτὸν ἡμῶν κοιμωμένων.",
+      "generated_at": "2026-06-05T06:30:18.522409Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 14,
+      "original": "Ende indien sulcks komt gehoort te worden van den Stadthouder, wy sullen hem <Of, sulcks wijs maken, hem overreden, D. met redenen doen gelooven.> te vreden stellen, ende maken dat ghy sonder sorge zijt.",
+      "modernized": "En indien dit de Stadhouder ter ore komt, zullen wij hem <Of, dit wijsmaken, hem overreden; dat is, met redenen doen geloven.> tevredenstellen, en maken dat u zonder zorgen bent.",
+      "source_text": "καὶ ἐὰν ἀκουσθῇ τοῦτο ἐπὶ τοῦ ἡγεμόνος, ἡμεῖς πείσομεν αὐτόν, καὶ ὑμᾶς ἀμερίμνους ποιήσομεν.",
+      "generated_at": "2026-06-05T06:30:56.656295Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "subject": "HSV-spiegel",
+          "context": "vers 14",
+          "choice": "ter-ore-constructie, woordvolgorde en 'zonder zorgen' gecorrigeerd",
+          "reason": "HSV-spiegel wees op grammaticale en idiomatische fouten; SV1657 en Grieks behouden de passieve hoorconstructie en de zorgeloosheid."
+        }
+      ]
+    },
+    {
+      "verse_number": 15,
+      "original": "Ende sy het gelt genomen hebbende, deden gelijck sy geleert waren. Ende <Namelick, dat de discipelen Christi lichaem des nachts hadden wech genomen.> dit woort is verbreyt geworden by de Ioden tot op den huydigen dagh.",
+      "modernized": "En nadat zij het geld genomen hadden, deden zij zoals hun geleerd was. En <Namelijk, dat de discipelen het lichaam van Christus 's nachts hadden weggenomen.> dit woord is verbreid geworden bij de Joden tot op de huidige dag.",
+      "source_text": "οἱ δὲ λαβόντες τὰ ἀργύρια ἐποίησαν ὡς ἐδιδάχθησαν. καὶ διεφημίσθη ὁ λόγος οὗτος παρὰ Ἰουδαίοις μέχρι τῆς σήμερον.",
+      "generated_at": "2026-06-05T06:31:30.731754Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ],
   "epilogue": {
