@@ -115,6 +115,45 @@
       "generated_at": "2026-06-05T06:08:57.517205Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 13,
+      "original": "Maer hy antwoordende seyde, $1.Ioan. 15.2.$ Alle <Ofte, plantinge, Dat is, alle Leere ofte Godtsdienst.> plante, die mijn hemelsche Vader niet geplant en heeft, sal <Gr. met de wortel uytgetrocken.> uytgeroeyt worden.",
+      "modernized": "Maar hij antwoordde en zei: $Jh. 15:2$ Alle <Of, planting, Dat is, alle Leer of Godsdienst.> planten die mijn hemelse Vader niet geplant heeft, zullen <Grieks: met de wortel uitgetrokken.> uitgeroeid worden.",
+      "source_text": "ὁ δὲ ἀποκριθεὶς εἶπε, Πᾶσα φυτεία, ἣν οὐκ ἐφύτευσεν ὁ Πατήρ μου ὁ οὐράνιος, ἐκριζωθήσεται.",
+      "generated_at": "2026-06-05T06:13:24.805986Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "bijbelverwijzing 1.Ioan. 15.2",
+          "context": "hoofdtekst-ref",
+          "choice": "$Jh. 15:2$ (Johannes-evangelie)",
+          "alternatives": [
+            "$1Jh. 15:2$"
+          ],
+          "reason": "SV1657-zetfout: 1 Johannes heeft maar 5 hoofdstukken, dus 1.Ioan. 15.2 is onmogelijk. De bedoelde verwijzing is Joh. 15:2 (rank/vrucht), de wederkerige kruisverwijzing — Joh. 15:2 verwijst zelf terug naar Mt. 15:13. Onafhankelijk bevestigd via statenvertaling.nl (kanttekening Mt. 15:13 = Joh. 15:2) en de HSV-spiegel ($Joh. 15:2$). Correctie 1.Ioan.->Ioan. vastgelegd in scripts/source_corrections.py (categorie 5)."
+        }
+      ]
+    },
+    {
+      "verse_number": 14,
+      "original": "Laetse varen, $Luce 6.39. Iesa. 42.19.$ sy zijn blinde leytslieden der blinden. Indien nu de blinde den blinden leyt, soo sullen sy beyde in de gracht vallen.",
+      "modernized": "Laat hen gaan; $Lk. 6:39; Js. 42:19$ zij zijn blinde leidslieden van blinden. Indien nu de blinde de blinde leidt, dan zullen zij beiden in de gracht vallen.",
+      "source_text": "ἄφετε αὐτούς· ὁδηγοί εἰσι τυφλοὶ τυφλῶν· τυφλὸς δὲ τυφλὸν ἐὰν ὁδηγῇ, ἀμφότεροι εἰς βόθυνον πεσοῦνται.",
+      "generated_at": "2026-06-05T06:13:48.707336Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 15,
+      "original": "$Marc. 7.17.$ Ende Petrus antwoordende seyde tot hem, Verklaert ons dese <Het woort gelijckenisse wort somtijts, gelijck hier, genomen voor allerley leeringe, die wat duysterlick voorgestelt wort.> gelijckenisse.",
+      "modernized": "$Mk. 7:17$ En Petrus antwoordde en zei tot hem: Verklaar ons deze <Het woord gelijkenis wordt soms, zoals hier, genomen voor allerlei leer die wat duister voorgesteld wordt.> gelijkenis.",
+      "source_text": "ἀποκριθεὶς δὲ ὁ Πέτρος εἶπεν αὐτῷ, Φράσον ἡμῖν τὴν παραβολὴν ταύτην.",
+      "generated_at": "2026-06-05T06:14:10.590549Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
