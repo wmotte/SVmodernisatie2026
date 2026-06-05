@@ -88,6 +88,33 @@
       "generated_at": "2026-06-05T04:23:13.673560Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 4
+    },
+    {
+      "verse_number": 10,
+      "original": "Ende <Nam. eenen trauwant ofte scherprechter, gelijck te sien is Marc. 6.27.> sandt henen, ende onthoofde Ioannem in den kercker.",
+      "modernized": "En <Namelijk, een trawant of scherprechter, zoals te zien is $Mk. 6:27$.> zond heen, en onthoofdde Johannes in de gevangenis.",
+      "source_text": "καὶ πέμψας ἀπεκεφάλισε τὸν Ἰωάννην ἐν τῇ φυλακῇ.",
+      "generated_at": "2026-06-05T04:26:24.398307Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 11,
+      "original": "Ende sijn hooft wert gebracht in een schotel, ende het dochterken gegeven, ende sy droegh het hare moeder.",
+      "modernized": "En zijn hoofd werd gebracht op een schotel, en aan het meisje gegeven, en zij droeg het naar haar moeder.",
+      "source_text": "καὶ ἠνέχθη ἡ κεφαλὴ αὐτοῦ ἐπὶ πίνακι, καὶ ἐδόθη τῷ κορασίῳ· καὶ ἤνεγκε τῇ μητρὶ αὐτῆς.",
+      "generated_at": "2026-06-05T04:26:29.330845Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 12,
+      "original": "Ende sijne discipelen quamen, ende namen het lichaem wech, ende begroeven het selve: ende gingen ende boodschapten het Iesu.",
+      "modernized": "En zijn discipelen kwamen, en namen het lichaam weg, en begroeven het; en zij gingen en boodschapten het aan Jezus.",
+      "source_text": "καὶ προσελθόντες οἱ μαθηταὶ αὐτοῦ ἦραν τὸ σῶμα, καὶ ἔθαψαν αὐτό· καὶ ἐλθόντες ἀπήγγειλαν τῷ Ἰησοῦ.",
+      "generated_at": "2026-06-05T04:26:34.755977Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
