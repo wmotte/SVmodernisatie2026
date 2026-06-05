@@ -223,6 +223,39 @@
       "generated_at": "2026-06-05T20:24:51.927046Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 25,
+      "original": "Hy seyde, $Matth. 22.21. Rom. 13.7.$ Ia. Ende doe hy in huys gekomen was, voorquam hem Iesus, seggende, Wat dunckt u Simon? <Namelick, die souvereyn zijn, ofte onder niemant staen.> De Koningen der aerden, van wien nemen sy tollen ofte schattinge? van hare sonen ofte van <Dat is, die niet en behooren tot der Koningen huysgesin. Ofte, die van hare afkomste niet en zijn, gelijck Christus was van David, Luce 1.32.> den vreemden?",
+      "modernized": "Hij zei: $Mt. 22:21; Rm. 13:7$ Ja. En toen hij in huis gekomen was, was Jezus hem voor en zei: Wat denkt u, Simon? <Namelijk, die soeverein zijn, of onder niemand staan.> De Koningen van de aarde, van wie nemen zij tollen of schatting? Van hun zonen of van <Dat is, die niet behoren tot het huisgezin van de Koningen. Of, die niet van hun afkomst zijn, zoals Christus van David was, $Lk. 1:32$.> de vreemden?",
+      "source_text": "λέγει, Ναί. καὶ ὅτε εἰσῆλθεν εἰς τὴν οἰκίαν, προέφθασεν αὐτὸν ὁ Ἰησοῦς, λέγων, Τί σοι δοκεῖ, Σίμων; οἱ βασιλεῖς τῆς γῆς ἀπὸ τίνων λαμβάνουσι τέλη ἢ κῆνσον; ἀπὸ τῶν υἱῶν αὐτῶν, ἢ ἀπὸ τῶν ἀλλοτρίων;",
+      "generated_at": "2026-06-05T20:29:51.106427Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 26,
+      "original": "Petrus seyde tot hem, Van den vreemden. Iesus seyde tot hem, Soo zijn dan de sonen vry.",
+      "modernized": "Petrus zei tot hem: Van de vreemden. Jezus zei tot hem: Zo zijn dan de zonen vrij.",
+      "source_text": "λέγει αὐτῷ ὁ Πέτρος, Ἀπὸ τῶν ἀλλοτρίων. ἔφη αὐτῷ ὁ Ἰησοῦς, Ἄραγε ἐλεύθεροί εἰσιν οἱ υἱοί.",
+      "generated_at": "2026-06-05T20:30:07.525240Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 27,
+      "original": "Maer op dat wy haer geenen aenstoot en geven, gaet henen na de zee, werpt den angel [uyt,] ende den eersten visch die opkomt, neemt, ende sijnen mont geopent hebbende, sult ghy eenen <Dit was eenen penningh wegende twee didrachmen, ofte een loot silvers: weerdigh zijnde ontrent eenen halven rijcksdaelder: soo veel doende als een sikel des heylighdoms.> stater vinden: neemt dien, ende geeft hem aen haer voor my ende u.",
+      "modernized": "Maar opdat wij hun geen aanstoot geven, ga heen naar de zee, werp de vishaak [uit,] en neem de eerste vis die opkomt; en wanneer u zijn mond geopend hebt, zult u een <Dit was een penning die twee didrachmen woog, of een lood zilver; hij was ongeveer een halve rijksdaalder waard, zoveel als een sikkel van het heiligdom.> stater vinden; neem die, en geef hem aan hen voor mij en u.",
+      "notes": [
+        {
+          "type": "context",
+          "text": "HSV-spiegel wees op lexicale verschuiving in 'angel'; gemoderniseerd naar 'vishaak' bij SV 'angel' en Grieks 'ἄγκιστρον'."
+        }
+      ],
+      "source_text": "ἵνα δὲ μὴ σκανδαλίσωμεν αὐτούς, πορευθεὶς εἰς τὴν θάλασσαν βάλε ἄγκιστρον, καὶ τὸν ἀναβάντα πρῶτον ἰχθὺν ἆρον· καὶ ἀνοίξας τὸ στόμα αὐτοῦ, εὑρήσεις στατῆρα· ἐκεῖνον λαβὼν δὸς αὐτοῖς ἀντὶ ἐμοῦ καὶ σοῦ.",
+      "generated_at": "2026-06-05T20:30:40.340050Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
