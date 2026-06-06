@@ -61,6 +61,33 @@
       "generated_at": "2026-06-06T19:29:21.885579Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 7,
+      "original": "Ende ick hoorde een stemme die tot my seyde, Staet op Petre, slacht ende eet.",
+      "modernized": "En ik hoorde een stem die tot mij zei: Sta op, Petrus, slacht en eet.",
+      "source_text": "ἤκουσα δὲ φωνῆς λεγούσης μοι, Ἀναστάς, Πέτρε, θῦσον καὶ φάγε.",
+      "generated_at": "2026-06-06T19:32:39.852916Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 8,
+      "original": "Maer ick seyde, Geensins Heere: want noyt en is $Levit. 11.4. Deut. 14.7.$ yet, dat gemeyn ofte onreyn was, in mijnen mont ingegaen.",
+      "modernized": "Maar ik zei: Geenszins, Heere; want nooit is $Lv. 11:4; Dt. 14:7$ iets dat onheilig of onrein was, in mijn mond gekomen.",
+      "source_text": "εἶπον δέ, Μηδαμῶς, Κύριε· ὅτι πᾶν κοινὸν ἢ ἀκάθαρτον οὐδέποτε εἰσῆλθεν εἰς τὸ στόμα μου.",
+      "generated_at": "2026-06-06T19:33:16.114810Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 9,
+      "original": "Doch de stemme antwoordde my ten tweeden mael uyt den hemel, Het gene Godt gereynight heeft, en sult ghy niet gemeyn maken.",
+      "modernized": "Maar de stem antwoordde mij voor de tweede maal uit de hemel: Wat God gereinigd heeft, zult u niet onheilig maken.",
+      "source_text": "ἀπεκρίθη δέ μοι φωνὴ ἐκ δευτέρου ἐκ τοῦ οὐρανοῦ, Ἃ ὁ Θεὸς ἐκαθάρισε, σὺ μὴ κοίνου.",
+      "generated_at": "2026-06-06T19:33:40.605761Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
