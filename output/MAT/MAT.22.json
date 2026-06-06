@@ -385,6 +385,33 @@
       "generated_at": "2026-06-06T10:00:55.878556Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 43,
+      "original": "Hy seyde tot haer, Hoe noemt hem dan David <Dat is, door den Heyligen Geest gedreven zijnde. Siet 2.Petr. 1.21.> in den Geest, [sijnen] Heere, seggende,",
+      "modernized": "Hij zei tot hen: Hoe noemt David hem dan <Dat is, terwijl hij door de Heilige Geest gedreven werd. Zie $2Pt. 1:21$.> in de Geest [zijn] Heere, wanneer hij zegt:",
+      "source_text": "λέγει αὐτοῖς, Πῶς οὖν Δαβὶδ ἐν Πνεύματι Κύριον αὐτὸν καλεῖ, λέγων,",
+      "generated_at": "2026-06-06T10:06:46.291831Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 44,
+      "original": "$Psalm 110.1. Actor 2.34. 1.Corinth. 15.25. Hebr. 1.13. ende 10.13.$ De Heere heeft geseght tot mijnen Heere, Sit aen mijne <Van de rechter hant siet Matth. 20. vers 21.> rechter [hant,] tot dat ick uwe vyanden sal geset hebben tot een voet-banck uwer voeten?",
+      "modernized": "$Ps. 110:1; Hd. 2:34; 1Kor. 15:25; Hb. 1:13; 10:13$ De Heere heeft tot mijn Heere gezegd: Zit aan mijn <Van de rechterhand zie $Mt. 20:21$.> rechter [hand,] totdat ik uw vijanden zal gezet hebben tot een voetbank van uw voeten?",
+      "source_text": "Εἶπεν ὁ Κύριος τῷ Κυρίῳ μου, Κάθου ἐκ δεξιῶν μου, ἕως ἂν θῶ τοὺς ἐχθρούς σου ὑποπόδιον τῶν ποδῶν σου;",
+      "generated_at": "2026-06-06T10:07:23.072601Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 45,
+      "original": "<Siet hier van de verklaringe Luce cap. 20. vers 44.> Indien hem dan David noemt [sijnen] Heere, hoe is hy sijn Sone?",
+      "modernized": "<Zie hierover de verklaring bij $Lk. 20:44$.> Indien David hem dan [zijn] Heere noemt, hoe is hij zijn Zoon?",
+      "source_text": "εἰ οὖν Δαβὶδ καλεῖ αὐτὸν Κύριον, πῶς Υἱὸς αὐτοῦ ἐστι;",
+      "generated_at": "2026-06-06T10:08:05.351120Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
