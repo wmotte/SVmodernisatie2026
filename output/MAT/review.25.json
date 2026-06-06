@@ -1,7 +1,7 @@
 {
   "book": "MAT",
   "chapter": 25,
-  "reviewed_at": "2026-06-06T14:51:43+00:00",
+  "reviewed_at": "2026-06-06T14:54:13+00:00",
   "passes": [
     {
       "pass": 1,
@@ -28,6 +28,14 @@
         "MAT-25-9-001: reopened (te generiek)",
         "MAT-25-19-001: rebuttal verified",
         "MAT-25-24-001: rebuttal verified"
+      ]
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-06-06T14:54:13+00:00",
+      "mode": "verify",
+      "actions": [
+        "MAT-25-9-001: rebuttal verified"
       ]
     }
   ],
@@ -213,8 +221,9 @@
         44
       ],
       "id": "MAT-25-9-001",
-      "status": "rebutted",
-      "rebuttal": "AGENTS.md concordantie is hier bewaard op functie, niet op SV-prefix: in MAT 25:9,11,20,37,44 leidt 'seggende' telkens directe rede in en is daarom consequent gemoderniseerd met 'zeiden/zei'. Het Griekse participium λέγοντες/λέγων vraagt volgens MODERNISATIE.md §2.3 geen zichtbaar '-zeggende' in modern Nederlands; harmoniseren naar één vorm zou getal en zinsfunctie verstoren."
+      "status": "verified",
+      "rebuttal": "AGENTS.md concordantie is hier bewaard op functie, niet op SV-prefix: in MAT 25:9,11,20,37,44 leidt 'seggende' telkens directe rede in en is daarom consequent gemoderniseerd met 'zeiden/zei'. Het Griekse participium λέγοντες/λέγων vraagt volgens MODERNISATIE.md §2.3 geen zichtbaar '-zeggende' in modern Nederlands; harmoniseren naar één vorm zou getal en zinsfunctie verstoren.",
+      "verified_at": "2026-06-06T14:54:13+00:00"
     },
     {
       "category": "concordantie-drift",
