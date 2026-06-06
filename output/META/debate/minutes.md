@@ -138,3 +138,36 @@ Red bracht 4 punt(en). Verdicts: red_wins=3, green_wins=0, rule_change=1.
 
 ## Ronde 7 — REV + JHN  (2026-06-06T06:22:31.884369+00:00)
 Red bracht 0 punt(en). Verdicts: red_wins=0, green_wins=0, rule_change=0.
+
+## Ronde 8 — LUK + ROM  (2026-06-06T06:52:47.778337+00:00)
+Red bracht 10 punt(en). Verdicts: red_wins=10, green_wins=0, rule_change=0.
+- **[RG8-001] (modernisatie)** Gaat heen: zie, ik zend u als lammeren in het midden van de wolven.
+  - regel: ARCHAISMEN.md:78 (imperatief-meervoud SV-`-t` -> stam); fix: Ga heen: zie, ik zend u als lammeren in het midden van de wolven.
+  - verdict: **red_wins** (scope=verse, applied=False) — Gr. ὑπάγετε = pres. impv. 2pl; 'Gaat' is echte imperatief op -t. Green concedeert. ARCHAISMEN.md:78 -> stam 'Ga'.
+- **[RG8-002] (modernisatie)** Vreest niet, want zie, ik <Grieks: Euangelizeere, dat is, verkondig blijde boodschap.> verkondig u grote blijdschap
+  - regel: ARCHAISMEN.md:78 (imperatief-meervoud SV-`-t` -> stam); fix: Vrees niet, want zie, ik <...> verkondig u grote blijdschap
+  - verdict: **red_wins** (scope=verse, applied=False) — Gr. μὴ φοβεῖσθε = pres. impv. med./pass. 2pl (prohibitief met μή op imperatief); 'Vreest' is echte imperatief op -t. Green concedeert. -> stam 'Vrees'.
+- **[RG8-003] (modernisatie)** Neemt niets mee voor onderweg, geen <Anders, staf.> staven, geen reiszak, geen brood, geen geld
+  - regel: ARCHAISMEN.md:78 (imperatief-meervoud SV-`-t` -> stam); fix: Neem niets mee voor onderweg, geen <...> staven, geen reiszak, geen brood, geen geld
+  - verdict: **red_wins** (scope=verse, applied=False) — Gr. αἴρετε = pres. impv. 2pl; 'Neemt' is echte imperatief op -t. Green concedeert. -> stam 'Neem'.
+- **[RG8-004] (modernisatie)** Maar hij zei tegen hen: Geeft u hun te eten.
+  - regel: ARCHAISMEN.md:78 (imperatief-meervoud SV-`-t` -> stam); fix: Maar hij zei tegen hen: Geef u hun te eten.
+  - verdict: **red_wins** (scope=verse, applied=False) — Gr. δότε = aor. impv. 2pl van δίδωμι; 'Geeft' is echte imperatief op -t. Green concedeert. -> stam 'Geef'.
+- **[RG8-005] (modernisatie)** om de genodigden te zeggen: Komt, want alle dingen zijn nu gereed.
+  - regel: ARCHAISMEN.md:78 (imperatief-meervoud SV-`-t` -> stam); fix: om de genodigden te zeggen: Kom, want alle dingen zijn nu gereed.
+  - verdict: **red_wins** (scope=verse, applied=False) — Gr. ἔρχεσθε = pres. impv. 2pl; 'Komt' is echte imperatief op -t. Green concedeert. -> stam 'Kom'.
+- **[RG8-006] (modernisatie)** Waakt dan te allen tijde, en bidt dat u waardig geacht moogt worden
+  - regel: ARCHAISMEN.md:78 (imperatief-meervoud SV-`-t` -> stam); fix: Waak dan te allen tijde, en bid dat u waardig geacht moogt worden
+  - verdict: **red_wins** (scope=verse, applied=False) — SPLIT, geverifieerd op source_text 'ἀγρυπνεῖτε οὖν ... δεόμενοι'. 'Waakt' = ἀγρυπνεῖτε (pres. impv. 2pl) -> stam 'Waak' (red_wins voor dat woord). MAAR 'bidt' rendert δεόμενοι = pres. middle PARTICIPI
+- **[RG8-007] (modernisatie)** En hij zei tot hen: Ziet, als u in de <...> stad gekomen zult zijn, ... volgt hem in het huis waar hij ingaat.
+  - regel: ARCHAISMEN.md:78 (imperatief-meervoud SV-`-t` -> stam); fix: En hij zei tot hen: Zie, als u in de <...> stad gekomen zult zijn, ... volg hem in het huis waar hij ingaat.
+  - verdict: **red_wins** (scope=verse, applied=False) — Gr. ἀκολουθήσατε = aor. impv. 2pl; 'volgt' is echte imperatief op -t -> stam 'volg'. 'Ziet' rendert het partikel Ἰδού (geen finiete imperatief) en blijft ongemoeid. Green concedeert op het dragende we
+- **[RG8-008] (modernisatie)** En hij zei: Gaat heen in dat dorp dat tegenover ligt; ... ontbindt het, en brengt het.
+  - regel: ARCHAISMEN.md:78 (imperatief-meervoud SV-`-t` -> stam); fix: En hij zei: Ga heen in dat dorp dat tegenover ligt; ... ontbind het, en breng het.
+  - verdict: **red_wins** (scope=verse, applied=False) — SPLIT, geverifieerd op source_text 'Ὑπάγετε ... λύσαντες αὐτὸν ἀγάγετε'. 'Gaat' = ὑπάγετε (pres. impv. 2pl) -> 'Ga'; 'brengt' = ἀγάγετε (aor. impv. 2pl) -> 'breng' (red_wins voor die twee). MAAR 'ontb
+- **[RG8-009] (modernisatie)** En wederom, $Ps. 117:1$ Looft de Heere alle u Heidenen, en prijst hem alle u volken.
+  - regel: ARCHAISMEN.md:78 (imperatief-meervoud SV-`-t` -> stam); fix: En wederom, $Ps. 117:1$ Loof de Heere, alle u Heidenen, en prijs hem, alle u volken.
+  - verdict: **red_wins** (scope=verse, applied=False) — Gr. αἰνεῖτε (pres. impv. 2pl) + ἐπαινέσατε (aor. impv. 2pl); 'Looft' en 'prijst' zijn beide echte imperativi op -t (Ps.-citaat in lopende hoofdtekst). Green concedeert. -> stam 'Loof'/'prijs'.
+- **[RG8-010] (modernisatie)** Doet niemand overlast aan, noch <...> ontvreemdt niemand het zijne met bedrog, en stelt u tevreden met uw soldij.
+  - regel: ARCHAISMEN.md:78 (imperatief-meervoud SV-`-t` -> stam); fix: Doe niemand overlast aan, noch <...> ontvreemd niemand het zijne met bedrog, en stel u tevreden met uw soldij.
+  - verdict: **red_wins** (scope=verse, applied=False) — SPLIT, geverifieerd op source_text 'Μηδένα διασείσητε, μηδὲ συκοφαντήσητε ... ἀρκεῖσθε'. 'stelt u tevreden' = ἀρκεῖσθε (pres. impv. 2pl) -> 'stel u tevreden' (red_wins voor dat woord). MAAR 'Doet' = δ
