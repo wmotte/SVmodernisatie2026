@@ -379,6 +379,45 @@
           "reason": "De Griekse kappa en moderne Nederlandse naamvorm ondersteunen Dorkas; dit moderniseert de SV-vorm zonder inhoudelijke verschuiving."
         }
       ]
+    },
+    {
+      "verse_number": 37,
+      "original": "Ende het geschiedde in die dagen, dat sy kranck wiert ende sterf: ende als syse <Namel. na de wijse der Oude, die daer mede schijnen te kennen te willen geven hare hope van de opstandinge uyt den dooden.> gewasschen hadden, leyden sy haer in de opperzale.",
+      "modernized": "En het geschiedde in die dagen dat zij ziek werd en stierf; en toen zij haar <Namelijk, naar de wijze van de Ouden, die daarmee schijnen te kennen te willen geven hun hoop op de opstanding uit de doden.> gewassen hadden, legden zij haar in de opperzaal.",
+      "source_text": "ἐγένετο δὲ ἐν ταῖς ἡμέραις ἐκείναις ἀσθενήσασαν αὐτὴν ἀποθανεῖν· λούσαντες δὲ αὐτὴν ἔθηκαν ἐν ὑπερῴῳ.",
+      "generated_at": "2026-06-06T19:53:10.181015Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 38,
+      "original": "Ende alsoo Lydda na by Ioppe was, de discipelen hoorende dat Petrus aldaer was, sonden <Namel. ofte om de arme weduwen over dese doot te beter te vertroosten, ofte oock op hope, dat hyse weder soude verwecken.> twee mannen tot hem, biddende <Gr. vertragen, D. dat hy het hem niet en soude laten verdrieten.> dat hy niet en soude vertoeven tot haer over te komen.",
+      "modernized": "En aangezien Lydda dicht bij Joppe was, zonden de discipelen, toen zij hoorden dat Petrus daar was, <Namelijk, hetzij om de arme weduwen over deze dood des te beter te vertroosten, hetzij ook in de hoop dat hij haar weer zou opwekken.> twee mannen tot hem, en baden <Grieks: vertragen, dat is, dat hij het zich niet zou laten verdrieten.> dat hij niet zou aarzelen naar hen toe te komen.",
+      "source_text": "ἐγγὺς δὲ οὔσης Λύδδης τῇ Ἰόππῃ, οἱ μαθηταὶ ἀκούσαντες ὅτι Πέτρος ἐστὶν ἐν αὐτῇ, ἀπέστειλαν δύο ἄνδρας πρὸς αὐτόν, παρακαλοῦντες μὴ ὀκνῆσαι διελθεῖν ἕως αὐτῶν.",
+      "generated_at": "2026-06-06T19:53:51.542868Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 39,
+      "original": "Ende Petrus stont op, ende gingh met haer: welcken sy, als hy daer gekomen was, in de opperzale leydden: ende alle de weduwen stonden by hem, weenende ende toonende de rocken ende kleederen die Dorcas gemaeckt hadde, als sy by haer was.",
+      "modernized": "En Petrus stond op en ging met hen mee; toen hij daar gekomen was, leidden zij hem naar de opperzaal. En al de weduwen stonden bij hem, huilden en toonden de onderkleren en bovenkleren die Dorkas gemaakt had toen zij bij hen was.",
+      "source_text": "ἀναστὰς δὲ Πέτρος συνῆλθεν αὐτοῖς· ὃν παραγενόμενον ἀνήγαγον εἰς τὸ ὑπερῷον, καὶ παρέστησαν αὐτῷ πᾶσαι αἱ χῆραι κλαίουσαι καὶ ἐπιδεικνύμεναι χιτῶνας καὶ ἱμάτια ὅσα ἐποίει μετ’ αὐτῶν οὖσα ἡ Δορκάς.",
+      "generated_at": "2026-06-06T19:54:28.829741Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "subject": "rocken ende kleederen",
+          "context": "HSV-spiegel en Grieks χιτῶνας καὶ ἱμάτια",
+          "choice": "onderkleren en bovenkleren",
+          "alternatives": [
+            "rokken en kleren"
+          ],
+          "reason": "Modern Nederlands leest \"rokken\" als dameskleding; de SV bedoelt bij χιτῶνας καὶ ἱμάτια kledingstukken in twee lagen."
+        }
+      ]
     }
   ]
 }
