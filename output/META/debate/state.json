@@ -1,5 +1,5 @@
 {
-  "rounds_done": 5,
+  "rounds_done": 6,
   "pairs": [
     [
       "REV",
@@ -20,15 +20,22 @@
     [
       "REV",
       "1CO"
+    ],
+    [
+      "ROM",
+      "2CO"
     ]
   ],
   "debate_count": {
     "REV": 5,
     "JHN": 2,
     "1CO": 2,
-    "LUK": 1
+    "LUK": 1,
+    "ROM": 1,
+    "2CO": 1
   },
   "closed_keys": [
+    "consistentie|2CO,ROM|om de aanleiding af te snijden voor hen|concordantie cross-book (grieks aphorme)",
     "consistentie|JHN,REV|komt en ziet|modernisatie.md (imperatief-`-t`); archaismen.md:78",
     "consistentie|JHN|volgt u mij|archaismen.md (imperatief enkelvoud -t -> stam); interne concordantie",
     "consistentie|JHN|vrouw waarom huilt u wie zoekt u|projectregel κλαίω→wenen; agents.md concordantie",
@@ -43,6 +50,7 @@
     "modernisatie|1CO|want zo dikwijls als gij dit brood zult|archaismen.md (ghy/gy/gij → u)",
     "modernisatie|1CO|weest zonder aanstoot te geven en de joden|archaismen.md:78 (imperatief-meervoud -t -> stam; weest -> wees)",
     "modernisatie|1CO|zei neemt eet dat is mijn lichaam dat|archaismen.md (imperatief-meervoud op `-t` → stam); modernisatie.md imperatief-`-t`",
+    "modernisatie|2CO|dat ons woord hetwelk tot u gekomen is|rules_data.py:340 archaisme-blacklist (hetwelk); drempel-archaisme relativum",
     "modernisatie|JHN|dat u zult huilen en weeklagen|projectregel κλαίω→wenen",
     "modernisatie|JHN|gaat u maar op naar dit feest|archaismen.md (imperatief meervoud -t -> stam)",
     "modernisatie|JHN|maakt de weg van de heere recht|archaismen.md (imperatief meervoud -t -> stam)",
@@ -62,8 +70,10 @@
     "modernisatie|REV|opdat u eet het vlees van de koningen|modernisatie.md §2.3b (patroon 1: object nageschoven; werkwoord niet finaal in bijzin)",
     "modernisatie|REV|vier engelen staan op de vier hoeken van|modernisatie.md §2.3 (finiet participium / -ende) + §2.3b",
     "modernisatie|REV|waar zij gevoed wordt een tijd en tijden|modernisatie.md (2.3b latijnse woordvolgorde / nageschoven object in bijzin; werkwoord niet finaal)",
-    "modernisatie|REV|zeven vurige lampen waren brandende voor de troon|modernisatie.md §2.3 (predicatief/periphrastisch participium)"
+    "modernisatie|REV|zeven vurige lampen waren brandende voor de troon|modernisatie.md §2.3 (predicatief/periphrastisch participium)",
+    "modernisatie|ROM|oordeelt dit liever|archaismen.md:78 imperatief-meervoud sv-`-t` -> stam",
+    "modernisatie|ROM|weest vrolijk u heidenen met zijn volk|archaismen.md:78 imperatief-meervoud sv-`-t` -> stam"
   ],
   "open_keys": [],
-  "updated_at": "2026-06-05T20:17:54.249016+00:00"
+  "updated_at": "2026-06-06T04:23:50.758146+00:00"
 }

@@ -120,3 +120,18 @@ Red bracht 4 punt(en). Verdicts: red_wins=4, green_wins=0, rule_change=0.
 - **[RG5-004] (modernisatie)** En wordt geen afgodendienaars, evenals sommigen van hen
   - regel: ARCHAISMEN.md:78 (imperatief-meervoud -t -> stam; wordt -> word); fix: En word geen afgodendienaars, evenals sommigen van hen
   - verdict: **red_wins** (scope=verse, applied=False) — Quote geverifieerd in 1CO.10.json (10:7): 'En wordt geen afgodendienaars, evenals sommigen van hen...'. μηδὲ ... γίνεσθε (praes.imp.2pl, prohibitief); parallel geverifieerd 14:20 'word geen kinderen' 
+
+## Ronde 6 — ROM + 2CO  (2026-06-06T04:23:50.758536+00:00)
+Red bracht 4 punt(en). Verdicts: red_wins=3, green_wins=0, rule_change=1.
+- **[RG6-001] (modernisatie)** Weest vrolijk u Heidenen met zijn volk.
+  - regel: ARCHAISMEN.md:78 imperatief-meervoud SV-`-t` -> stam; fix: Wees vrolijk u Heidenen met zijn volk.
+  - verdict: **red_wins** (scope=verse, applied=False) — Quote verbatim geverifieerd in output/ROM/ROM.15.json (verse_number 10, modernized): 'En wederom zegt hij, $Dt. 32:43$ Weest vrolijk u Heidenen met zijn volk.' source_text-Grieks bevat εὐφράνθητε (aor
+- **[RG6-002] (modernisatie)** oordeelt dit liever
+  - regel: ARCHAISMEN.md:78 imperatief-meervoud SV-`-t` -> stam; fix: oordeel dit liever
+  - verdict: **red_wins** (scope=verse, applied=False) — Quote verbatim geverifieerd in output/ROM/ROM.14.json (verse_number 13, modernized): '... maar <...> oordeelt dit liever, namelijk ...'. source_text-Grieks bevat κρίνατε (aor.imp.2pl), in oppositie me
+- **[RG6-003] (modernisatie)** dat ons woord, hetwelk tot u [gekomen is,]
+  - regel: rules_data.py:340 archaisme-blacklist (hetwelk); drempel-archaisme relativum; fix: dat ons woord, dat tot u [gekomen is,]
+  - verdict: **red_wins** (scope=verse, applied=False) — Quote verbatim geverifieerd in output/2CO/2CO.1.json (verse_number 18, modernized): '... dat ons woord, hetwelk tot u [gekomen is,] $Mt. 5:37; Jk. 5:12$ niet is geweest ...'. Staat in HOOFDTEKST (rela
+- **[RG6-004] (consistentie)** om de aanleiding af te snijden voor hen die een aanleiding willen
+  - regel: concordantie cross-book (Grieks aphorme); fix: Harmoniseer aphorme NT-breed; binnen ROM/2CO 'oorzaak' (conform SV-bron) of expliciet 'aanleiding' overal.
+  - verdict: **rule_change** (scope=nt-wide, applied=False) — ἀφορμή-concordantiedrift, NT-breed, GEEN bestaande validator-regel of vaste concordantie-richtlijn voor ἀφορμή (grep scripts/docs/rules: geen treffer voor ἀφορμ/aanleiding/oorzaak-nam-concordantie). s
