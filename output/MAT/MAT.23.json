@@ -218,6 +218,57 @@
       "generated_at": "2026-06-06T09:08:11.053382Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 22,
+      "original": "$2.Chron. 6.33. Iesa. 66.1. Matth. 5.34. Actor. 7.49.$ Ende wie sweert by den hemel, die sweert by den throon Godts, ende by dien die daer op sit.",
+      "modernized": "$2Kr. 6:33; Js. 66:1; Mt. 5:34; Hd. 7:49$ En wie zweert bij de hemel, die zweert bij de troon van God, en bij hem die daarop zit.",
+      "source_text": "καὶ ὁ ὀμόσας ἐν τῷ οὐρανῷ ὀμνύει ἐν τῷ θρόνῳ τοῦ Θεοῦ καὶ ἐν τῷ καθημένῳ ἐπάνω αὐτοῦ.",
+      "generated_at": "2026-06-06T09:11:24.687044Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 23,
+      "original": "$Luce 11.42.$ Wee u ghy Schriftgeleerde ende Pharizeen, ghy geveynsde, want ghy <Dat is, tienden geeft, ofte leert dat men daer van tienden moet geven.> vertient <Het Griecks woort Hedyosmos heeft sijnen naem van soet ofte wel riecken.> de munte, ende de dille, ende het komijn, $1.Sam. 15.22. Hos. 6.6. Mich. 6.8.$ ende ghy laet na <D. de gewichtighste stucken.> het swaerste der wet, [namelick] <D. het gene dat recht ende billick is.> het oordeel, ende <D. de wercken der liefde.> de barmhertigheyt, ende <D. getrouwigheyt in alle handelingen met de menschen.> het geloove. $Matth. 9.13. ende 12.7.$ Dese dingen moest men doen, ende de andere niet nalaten.",
+      "modernized": "$Lk. 11:42$ Wee u, Schriftgeleerden en Farizeeën, huichelaars, want u <Dat is, tienden geeft, of onderwijst dat men daarvan tienden moet geven.> geeft tienden van <Het Griekse woord Hedyosmos heeft zijn naam van zoet of welriekend.> de munt, en de dille, en het komijn, $1Sm. 15:22; Hs. 6:6; Mi. 6:8$ en u laat na <Dat is, de gewichtigste stukken.> het zwaarste van de wet, [namelijk] <Dat is, hetgeen dat recht en billijk is.> het oordeel, en <Dat is, de werken van de liefde.> de barmhartigheid, en <Dat is, trouw in alle handelingen met de mensen.> het geloof. $Mt. 9:13; 12:7$ Deze dingen moest men doen, en de andere niet nalaten.",
+      "source_text": "Οὐαὶ ὑμῖν, γραμματεῖς καὶ Φαρισαῖοι, ὑποκριταί, ὅτι ἀποδεκατοῦτε τὸ ἡδύοσμον καὶ τὸ ἄνηθον καὶ τὸ κύμινον, καὶ ἀφήκατε τὰ βαρύτερα τοῦ νόμου, τὴν κρίσιν καὶ τὸν ἔλεον καὶ τὴν πίστιν· ταῦτα ἔδει ποιῆσαι, κἀκεῖνα μὴ ἀφιέναι.",
+      "generated_at": "2026-06-06T09:12:18.102752Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "false friend leert",
+          "context": "kanttekening: of leert dat men daarvan tienden moet geven",
+          "choice": "onderwijst",
+          "alternatives": [
+            "leert"
+          ],
+          "reason": "Subject is de Farizeeer (lerarende, Gr. didasko); modern 'leert dat men...' kan als zelf-leren gelezen worden. Conform het in MAT vastgelegde patroon (leraar-subject -> onderwijzen, zie vers 3) en lint_false_friends-advies gemoderniseerd naar 'onderwijst'."
+        }
+      ]
+    },
+    {
+      "verse_number": 24,
+      "original": "Ghy blinde leydslieden, die ghy <Ofte, een mugge kleynset, ende eenen kemel doordrinckt. Dit is een gemeen spreeck-woort tegen de gene die in het kleyn nauwe sien, ende het groote niet en achten.> de mugge uytzijget, ende den kemel doorswelget.",
+      "modernized": "Blinde leidslieden, die <Of, een mug uitzeeft, en een kameel doorslikt. Dit is een algemeen spreekwoord tegen hen die in het kleine nauw toezien, en het grote niet achten.> de mug uitzift, en de kameel doorzwelgt.",
+      "source_text": "ὁδηγοὶ τυφλοί, οἱ διϋλίζοντες τὸν κώνωπα, τὴν δὲ κάμηλον καταπίνοντες.",
+      "generated_at": "2026-06-06T09:12:56.439543Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "drempel-archaisme kemel",
+          "context": "hoofdtekst en kanttekening: kemel",
+          "choice": "kameel",
+          "alternatives": [
+            "kemel"
+          ],
+          "reason": "SV1657 'kemel' is de niet-productieve vorm; modern Nederlands is 'kameel'. Corpusbrede concordantie gebruikt in alle gemoderniseerde hoofdtekst 'kameel' (Mt. 19:24, Mk. 10:25, Lk. 18:25); HSV-spiegel bevestigt 'kameel'. Drempel-archaisme (MODERNISATIE.md 2.7) -> kameel."
+        }
+      ]
     }
   ]
 }
