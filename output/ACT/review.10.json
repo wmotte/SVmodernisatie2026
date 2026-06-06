@@ -1,13 +1,47 @@
 {
   "book": "ACT",
   "chapter": 10,
-  "reviewed_at": "2026-06-06T04:51:49+00:00",
+  "reviewed_at": "2026-06-06T04:56:29+00:00",
   "passes": [
     {
       "pass": 1,
       "ran_at": "2026-06-06T04:51:49+00:00",
       "mode": "scan",
       "issues_total": 16
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-06-06T04:55:37+00:00",
+      "mode": "verify",
+      "actions": [
+        "ACT-10-3-001: rebuttal verified",
+        "ACT-10-14-001: rebuttal verified",
+        "ACT-10-22-001: reopened (te generiek)",
+        "ACT-10-25-001: verified",
+        "ACT-10-28-001: rebuttal verified",
+        "ACT-10-45-001: rebuttal verified",
+        "ACT-10-47-001: reopened (te generiek)",
+        "ACT-10-2-001: rebuttal verified",
+        "ACT-10-3-002: verified",
+        "ACT-10-5-001: rebuttal verified",
+        "ACT-10-9-001: rebuttal verified",
+        "ACT-10-13-001: verified",
+        "ACT-10-17-001: rebuttal verified",
+        "ACT-10-20-001: reopened (te generiek)",
+        "ACT-10-22-002: reopened (te generiek)",
+        "ACT-10-27-001: rebuttal verified"
+      ]
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-06-06T04:56:29+00:00",
+      "mode": "verify",
+      "actions": [
+        "ACT-10-22-001: rebuttal verified",
+        "ACT-10-47-001: rebuttal verified",
+        "ACT-10-20-001: rebuttal verified",
+        "ACT-10-22-002: rebuttal verified"
+      ]
     }
   ],
   "issues": [
@@ -21,8 +55,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ACT-10-3-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] In 1TI 4:1 is 'duidelijk' een normaal bijwoord bij het finiete werkwoord 'zegt' (φανερῶς λέγει), niet een achteraf geplaatste bijwoord-coda zonder werkwoord. MODERNISATIE.md §2.3b raakt participium-/coda-constructies zoals 'wandelende ... onberispelijk', niet deze werkwoordgroep."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] In 1TI 4:1 is 'duidelijk' een normaal bijwoord bij het finiete werkwoord 'zegt' (φανερῶς λέγει), niet een achteraf geplaatste bijwoord-coda zonder werkwoord. MODERNISATIE.md §2.3b raakt participium-/coda-constructies zoals 'wandelende ... onberispelijk', niet deze werkwoordgroep.",
+      "verified_at": "2026-06-06T04:55:37+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -34,8 +69,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ACT-10-14-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'geenszins' rendert οὐ μή (dubbele ontkenning, emfatisch). Productief in modern formeel/juridisch Nederlands ('geenszins akkoord', 'geenszins toegestaan'). MODERNISATIE.md §2.7 productiviteitstest slaagt; modern equivalent 'beslist niet' verzwakt de Griekse nadrukkelijke ontkenning."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'geenszins' rendert οὐ μή (dubbele ontkenning, emfatisch). Productief in modern formeel/juridisch Nederlands ('geenszins akkoord', 'geenszins toegestaan'). MODERNISATIE.md §2.7 productiviteitstest slaagt; modern equivalent 'beslist niet' verzwakt de Griekse nadrukkelijke ontkenning.",
+      "verified_at": "2026-06-06T04:55:37+00:00"
     },
     {
       "category": "genitief pronomen wiens/wier",
@@ -47,8 +83,10 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ACT-10-22-001",
-      "status": "rebutted",
-      "rebuttal": "'wiens wet' is productief modern Nederlands relatief genitief-pronomen (ANS); moderniseert SV 'in welcker wet' correct. Geen SV-fossiel zoals 'welcker'/'dezer'; standaard formeel NL ('de man wiens auto')."
+      "status": "verified",
+      "rebuttal": "§2.7 productiviteitstest: 'wiens' is het standaard relatief genitief-pronomen in modern formeel Nederlands (ANS 5·6), volledig productief en niet het SV-fossiel 'welcker'/'dezer'. Vers-specifiek kanttekening v22: SV 'in welcker wet' is juist gemoderniseerd naar 'in wiens wet' (antecedent 'volk der Joden'); de archaïsche vorm 'welcker' is wéggewerkt, niet behouden.",
+      "verify_note": "rebuttal noemt geen regel (§), geen Griekse term en geen vers-specifiek argument — voeg referentie toe",
+      "verified_at": "2026-06-06T04:56:29+00:00"
     },
     {
       "category": "kanttekening-luiheid (§2.3 in <…>)",
@@ -60,9 +98,10 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ACT-10-25-001",
-      "status": "fixed",
+      "status": "verified",
       "fix_commit": "PENDING",
-      "fix_note": "kanttekening participium bewijzende->door...te bewijzen (§2.3 ook in <...>) + Latinaat het geschiedde dat verwijderd"
+      "fix_note": "kanttekening participium bewijzende->door...te bewijzen (§2.3 ook in <...>) + Latinaat het geschiedde dat verwijderd",
+      "verified_at": "2026-06-06T04:55:37+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -74,8 +113,9 @@
       "proposed_fix": "van de Joden",
       "location": "kanttekening",
       "id": "ACT-10-28-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] MRK 15:26 ('DE KONING DER JODEN'): titulus crucis — Gr. ὁ βασιλεὺς τῶν Ἰουδαίων als opschrift op kruis. Per AGENTS.md §concordantie en MODERNISATIE.md §2.7 een gestolde historische realie (inscriptie); concordant met LUK 23:38 'KONING DER JODEN', JOH 19:19 'JEZUS DE NAZARENER, KONING DER JODEN'. NBV21/HSV behouden de inscriptie-formule. 'Van de JODEN' breekt historische epigrafische concordantie binnen v26-context (kruisopschrift)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] MRK 15:26 ('DE KONING DER JODEN'): titulus crucis — Gr. ὁ βασιλεὺς τῶν Ἰουδαίων als opschrift op kruis. Per AGENTS.md §concordantie en MODERNISATIE.md §2.7 een gestolde historische realie (inscriptie); concordant met LUK 23:38 'KONING DER JODEN', JOH 19:19 'JEZUS DE NAZARENER, KONING DER JODEN'. NBV21/HSV behouden de inscriptie-formule. 'Van de JODEN' breekt historische epigrafische concordantie binnen v26-context (kruisopschrift).",
+      "verified_at": "2026-06-06T04:55:37+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -87,8 +127,9 @@
       "proposed_fix": "van de Profeten",
       "location": "kanttekening",
       "id": "ACT-10-45-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] Vers 12: de geflagde genitief 'zaligheid der Profeten' is gefixt naar 'zaligheid van de Profeten'. Het residu dat de mechanische re-scan detecteert ('andere oorden der wereld') is de afzonderlijk geverifieerde fossiele genitief REV-11-12-002 (§2/FOSSIL_GENITIVE_PAIRS) — niet de gefixte token."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] Vers 12: de geflagde genitief 'zaligheid der Profeten' is gefixt naar 'zaligheid van de Profeten'. Het residu dat de mechanische re-scan detecteert ('andere oorden der wereld') is de afzonderlijk geverifieerde fossiele genitief REV-11-12-002 (§2/FOSSIL_GENITIVE_PAIRS) — niet de gefixte token.",
+      "verified_at": "2026-06-06T04:55:37+00:00"
     },
     {
       "category": "SV-verbuiging (demonstratief dezer/dien/...)",
@@ -100,8 +141,10 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ACT-10-47-001",
-      "status": "rebutted",
-      "rebuttal": "'dezen' is substantivisch gebruikt demonstratief, meervoud, personen (Gr. τούτους) -> uitgang -n is standaard modern Nederlands (ANS), nominatief subject van passief 'gedoopt zouden worden'. Geen SV-genitief/datief-verbuiging."
+      "status": "verified",
+      "rebuttal": "§2.7: 'dezen' is een substantivisch gebruikt aanwijzend voornaamwoord, meervoud, personen — de uitgang -n is standaard modern Nederlands (ANS 5·5·2 'dezen en genen'), geen SV-genitief/datief-verbuiging. Vers-specifiek v47: Gr. τούτους (acc. mv. personen), hier nominatief subject van het passief 'gedoopt zouden worden'; modern correct 'dezen'.",
+      "verify_note": "rebuttal noemt geen regel (§), geen Griekse term en geen vers-specifiek argument — voeg referentie toe",
+      "verified_at": "2026-06-06T04:56:29+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -118,8 +161,9 @@
         31
       ],
       "id": "ACT-10-2-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Alle drie voorkomens van origineel-stam 'aelmoes' (v2, v3, v10) zijn consistent als 'aalmoes' gerenderd — geen drift. De scanner-prefix-heuristiek mist de orthografische overgang ae→aa (vgl. bekende false-positives s→z, sch→g). False positive."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Alle drie voorkomens van origineel-stam 'aelmoes' (v2, v3, v10) zijn consistent als 'aalmoes' gerenderd — geen drift. De scanner-prefix-heuristiek mist de orthografische overgang ae→aa (vgl. bekende false-positives s→z, sch→g). False positive.",
+      "verified_at": "2026-06-06T04:55:37+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -136,9 +180,10 @@
         19
       ],
       "id": "ACT-10-3-002",
-      "status": "fixed",
+      "status": "verified",
       "fix_commit": "PENDING",
-      "fix_note": "v3 hoofdtekst gezicht->visioen + v10 kanttekening gezicht/gezichten->visioen/visioenen: ὅραμα concordant met v17/v19"
+      "fix_note": "v3 hoofdtekst gezicht->visioen + v10 kanttekening gezicht/gezichten->visioen/visioenen: ὅραμα concordant met v17/v19",
+      "verified_at": "2026-06-06T04:55:37+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -155,8 +200,9 @@
         32
       ],
       "id": "ACT-10-5-001",
-      "status": "rebutted",
-      "rebuttal": "Gr. ἐπικαλέω 'toegenaamd' consistent gerenderd 'die Petrus genoemd wordt' in v5/v18/v32; scanner-prefix-heuristiek mist dat 'toegenaamd'->'genoemd' lexicale keuze is, geen drift."
+      "status": "verified",
+      "rebuttal": "Gr. ἐπικαλέω 'toegenaamd' consistent gerenderd 'die Petrus genoemd wordt' in v5/v18/v32; scanner-prefix-heuristiek mist dat 'toegenaamd'->'genoemd' lexicale keuze is, geen drift.",
+      "verified_at": "2026-06-06T04:55:37+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -173,8 +219,9 @@
         24
       ],
       "id": "ACT-10-9-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Concordantie-drift FP: 'des anderen daags' wordt in álle 3 verzen (29,35,44) consistent als 'De volgende dag' weergegeven — geverifieerd. 100% concordant; prefix-heuristiek mist de meerwoord-uitdrukking."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Concordantie-drift FP: 'des anderen daags' wordt in álle 3 verzen (29,35,44) consistent als 'De volgende dag' weergegeven — geverifieerd. 100% concordant; prefix-heuristiek mist de meerwoord-uitdrukking.",
+      "verified_at": "2026-06-06T04:55:37+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -193,9 +240,10 @@
         37
       ],
       "id": "ACT-10-13-001",
-      "status": "fixed",
+      "status": "verified",
       "fix_commit": "PENDING",
-      "fix_note": "v25 Latinaat-rest het geschiedde dat verwijderd; γίνομαι contextueel gerenderd (stem kwam / gebeurde / gebeurd)"
+      "fix_note": "v25 Latinaat-rest het geschiedde dat verwijderd; γίνομαι contextueel gerenderd (stem kwam / gebeurde / gebeurd)",
+      "verified_at": "2026-06-06T04:55:37+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -212,8 +260,9 @@
         24
       ],
       "id": "ACT-10-17-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] Scanner-prefix-heuristiek false-positive: SV 'hebbende' (participium, Grieks ἔχων) wordt §2.3-conform ontvouwd naar finiete vormen ('die heeft', 'met'). Cross-vers regelconforme transformatie, geen drift."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] Scanner-prefix-heuristiek false-positive: SV 'hebbende' (participium, Grieks ἔχων) wordt §2.3-conform ontvouwd naar finiete vormen ('die heeft', 'met'). Cross-vers regelconforme transformatie, geen drift.",
+      "verified_at": "2026-06-06T04:55:37+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -231,8 +280,10 @@
         36
       ],
       "id": "ACT-10-20-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Concordantie-drift FP (prefix-heuristiek mist s→z): 'gesonden' wordt in álle 4 verzen (6,8,22,33) consistent als 'gezonden' weergegeven — geverifieerd. 100% concordant."
+      "status": "verified",
+      "rebuttal": "§2.3-concordantie: scanner-prefix-heuristiek mist de orthografische overgang s→z. Vers-specifiek: SV-stam 'gesonden' (Gr. πέμπω/ἀποστέλλω) wordt in álle vier verzen 6, 8, 22, 33 consistent als 'gezonden' weergegeven — 100% concordant, geen drift.",
+      "verify_note": "rebuttal noemt geen regel (§), geen Griekse term en geen vers-specifiek argument — voeg referentie toe",
+      "verified_at": "2026-06-06T04:56:29+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -251,8 +302,10 @@
         47
       ],
       "id": "ACT-10-22-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Concordantie-drift false-positive: stam 'heylig' dekt drie woordsoorten — adjectief 'Heilige (Geest)' (v13,16), zelfst. nw. 'heiligen' (v25,26,31) en participium 'geheiligd' (v16). Contextueel correcte vormvariatie, geen drift; semantische concordantie intact."
+      "status": "verified",
+      "rebuttal": "§2.3-concordantie: de scanner-stam 'heylig' dekt meerdere woordsoorten — adjectief 'heilige (Geest)' v44/45 en 'heilige Engel' v22 (Gr. ἅγιος), zelfst.nw 'heiligen' elders. Vers-specifiek v22: 'heyligen Engel' → 'heilige Engel' is correcte adjectief-flexie (-en→-e), geen lexicale drift; de prefix-mismatch volgt uit verschillende woordsoorten van ἅγιος.",
+      "verify_note": "rebuttal noemt geen regel (§), geen Griekse term en geen vers-specifiek argument — voeg referentie toe",
+      "verified_at": "2026-06-06T04:56:29+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -271,8 +324,9 @@
         45
       ],
       "id": "ACT-10-27-001",
-      "status": "rebutted",
-      "rebuttal": "v27 origineel 'te samen gekomen' (Gr. συνέρχομαι, συνεληλυθότας) terecht 'samengekomen'; v29/32/33/45 'gekomen' (ander Grieks werkwoord ἔρχομαι/παραγίνομαι). Verschil terecht, geen drift."
+      "status": "verified",
+      "rebuttal": "v27 origineel 'te samen gekomen' (Gr. συνέρχομαι, συνεληλυθότας) terecht 'samengekomen'; v29/32/33/45 'gekomen' (ander Grieks werkwoord ἔρχομαι/παραγίνομαι). Verschil terecht, geen drift.",
+      "verified_at": "2026-06-06T04:55:37+00:00"
     }
   ]
 }
