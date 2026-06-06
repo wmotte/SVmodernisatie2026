@@ -27,18 +27,18 @@
 | 23 | Johannes | 21 | 880 | 43.365 | 21 | 100% |
 | 24 | Openbaring | 22 | 405 | 62.547 | 22 | 100% |
 | 25 | Lucas | 24 | 1151 | 44.310 | 24 | 100% |
-| 26 | Handelingen | 28 | 1006 | 59.086 | 7 | 25% |
-| 27 | Matteüs | 28 | 1071 | 47.926 | 18 | 64% |
+| 26 | Handelingen | 28 | 1006 | 59.086 | 8 | 29% |
+| 27 | Matteüs | 28 | 1071 | 47.926 | 19 | 68% |
 
 ## Voortgang
 
 | Eenheid | Gedaan | Totaal | % |
 |---------|--------|--------|---|
-| Hoofdstukken | 229 | 260 | 88,1% |
-| Verzen | 6775 | 7959 | 85,1% |
-| Woorden | 499.275 | 562.108 | 88,8% |
+| Hoofdstukken | 231 | 260 | 88,8% |
+| Verzen | 6811 | 7959 | 85,6% |
+| Woorden | 501.357 | 562.108 | 89,2% |
 
-Gedaan: 2 Johannes (1 hfst / 13 v), 3 Johannes (1 hfst / 15 v), Filemon (1 hfst / 25 v), Judas (1 hfst / 25 v), Titus (3 hfst / 46 v), 2 Tessalonicenzen (3 hfst / 47 v), 2 Petrus (3 hfst / 61 v), 2 Timoteüs (4 hfst / 83 v), Kolossenzen (4 hfst / 95 v), Filippenzen (4 hfst / 104 v), 1 Tessalonicenzen (5 hfst / 89 v), 1 Petrus (5 hfst / 105 v), 1 Johannes (5 hfst / 105 v), Jakobus (5 hfst / 108 v), 1 Timoteüs (6 hfst / 113 v), Galaten (6 hfst / 149 v), Efeze (6 hfst / 155 v), 2 Korintiërs (13 hfst / 256 v), Hebreeën (13 hfst / 303 v), Romeinen (16 hfst / 434 v), 1 Korintiërs (16 hfst / 437 v), Marcus (16 hfst / 678 v), Johannes (21 hfst / 880 v), Openbaring (22 hfst / 405 v), Lucas (24 hfst / 1151 v), Handelingen (7 hfst / 268 v), Matteüs (18 hfst / 625 v).
+Gedaan: 2 Johannes (1 hfst / 13 v), 3 Johannes (1 hfst / 15 v), Filemon (1 hfst / 25 v), Judas (1 hfst / 25 v), Titus (3 hfst / 46 v), 2 Tessalonicenzen (3 hfst / 47 v), 2 Petrus (3 hfst / 61 v), 2 Timoteüs (4 hfst / 83 v), Kolossenzen (4 hfst / 95 v), Filippenzen (4 hfst / 104 v), 1 Tessalonicenzen (5 hfst / 89 v), 1 Petrus (5 hfst / 105 v), 1 Johannes (5 hfst / 105 v), Jakobus (5 hfst / 108 v), 1 Timoteüs (6 hfst / 113 v), Galaten (6 hfst / 149 v), Efeze (6 hfst / 155 v), 2 Korintiërs (13 hfst / 256 v), Hebreeën (13 hfst / 303 v), Romeinen (16 hfst / 434 v), 1 Korintiërs (16 hfst / 437 v), Marcus (16 hfst / 678 v), Johannes (21 hfst / 880 v), Openbaring (22 hfst / 405 v), Lucas (24 hfst / 1151 v), Handelingen (8 hfst / 283 v), Matteüs (19 hfst / 646 v).
 
 Totaal woorden in de bron: 562.108 (incl. kanttekeningen in `<...>`).
 Totalen (hoofdstukken/verzen) geteld uit `input.sv/` (SV1657).
