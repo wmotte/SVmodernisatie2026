@@ -274,6 +274,46 @@
       "generated_at": "2026-06-06T04:14:53.269248Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 28,
+      "original": "Ende hy seyde tot haer, $Exod. 23.32. ende 34.15. Deuter. 7.2. Ioan. 4.9. ende 18.28. Actor. 11.3.$ Ghy weet hoe het eenen Ioodschen man <Hoewel wy hier van geen klaer verbodt en vinden in het Oude Testament, nochtans was dit een ordinantie ende gebruyck onder de Ioden, op goede redenen gegront, dat sy met de Heydenen ende andere onheylige menschen niet te nauwe gemeynschap en mochten houden, om van haer niet verleydt te worden tot afgoderije, ofte andere hare sonden. Siet Exod. 23. vers 32. Ios. c. 23. versen 7, 12. 2.Cor. c. 6. vers 14. 2.Ioan. vers 10. Apoc. c. 18. vers 4, etc.> ongeoorloft is hem te voegen, ofte te gaen tot eenen <Gr. Allophylos, Dat is, die van een ander volck ofte geslachte is, Namel. vreemt van het geslachte der Ioden, ende volgens dien van de beloften Godts, Ephes. 2. vers 12.> vreemden: $Actor. 15.8. Ephes. 3.6.$ doch Godt heeft my getoont dat ick geen mensche en soude gemeyn ofte onreyn <Gr. seggen. Siet van dese sake vers 34. ende 35.> heeten.",
+      "modernized": "En hij zei tot hen: $Ex. 23:32; 34:15; Dt. 7:2; Jh. 4:9; 18:28; Hd. 11:3$ U weet hoe het een Joodse man <Hoewel wij hiervan geen duidelijk verbod vinden in het Oude Testament, was dit toch een verordening en gebruik onder de Joden, op goede gronden gegrond, dat zij met de Heidenen en andere onheilige mensen niet te nauwe gemeenschap mochten houden, om door hen niet verleid te worden tot afgoderij of andere van hun zonden. Zie $Ex. 23:32; Jz. 23:7,12; 2Kor. 6:14; 2Jh. 1:10; Op. 18:4$, enz.> ongeoorloofd is zich te voegen bij, of te gaan tot een <Grieks: Allophylos, Dat is, die van een ander volk of geslacht is, Namelijk vreemd aan het geslacht der Joden, en dientengevolge aan de beloften Gods, $Ef. 2:12$.> vreemde; $Hd. 15:8; Ef. 3:6$ maar God heeft mij getoond dat ik geen mens onheilig of onrein <Grieks: zeggen. Zie over deze zaak vers 34 en 35.> mocht noemen.",
+      "source_text": "ἔφη τε πρὸς αὐτούς, Ὑμεῖς ἐπίστασθε ὡς ἀθέμιτόν ἐστιν ἀνδρὶ Ἰουδαίῳ κολλᾶσθαι ἢ προσέρχεσθαι ἀλλοφύλῳ· καὶ ἐμοὶ ὁ Θεὸς ἔδειξε μηδένα κοινὸν ἢ ἀκάθαρτον λέγειν ἄνθρωπον·",
+      "generated_at": "2026-06-06T04:21:21.420033Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "subject": "heten -> noemen",
+          "context": "slot van het vers",
+          "choice": "\"mocht noemen\" voor SV \"heeten\"",
+          "alternatives": [
+            "heten",
+            "mocht heten"
+          ],
+          "reason": "heeten is hier transitief (iemand X heten = noemen), bevestigd door kanttekening <Gr. zeggen> = Gr. legein; de constructie iemand onrein heten werkt modern niet meer, dus noemen."
+        }
+      ]
+    },
+    {
+      "verse_number": 29,
+      "original": "Daerom ben ick oock sonder tegenspreken gekomen, <Gr. besonden zijnde.> ontboden zijnde. Soo vrage ick dan om wat reden ghylieden my hebt ontboden.",
+      "modernized": "Daarom ben ik ook zonder tegenspreken gekomen, toen ik <Grieks: erbij gezonden.> ontboden werd. Zo vraag ik dan om welke reden u mij hebt ontboden.",
+      "source_text": "διὸ καὶ ἀναντιρρήτως ἦλθον μεταπεμφθείς. πυνθάνομαι οὖν, τίνι λόγῳ μετεπέμψασθέ με.",
+      "generated_at": "2026-06-06T04:21:58.910959Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 30,
+      "original": "Ende Cornelius seyde, Over vier dagen was ick vastende <Nam. van dien dagh. Siet vers 3.> tot deser ure toe, ende ter negender ure badt ick in mijn huys.",
+      "modernized": "En Cornelius zei: Vier dagen geleden was ik aan het vasten <Namelijk, vanaf die dag. Zie vers 3.> tot op dit uur, en op het negende uur bad ik in mijn huis.",
+      "source_text": "καὶ ὁ Κορνήλιος ἔφη, Ἀπὸ τετάρτης ἡμέρας μέχρι ταύτης τῆς ὥρας ἤμην νηστεύων, καὶ τὴν ἐννάτην ὥραν προσευχόμενος ἐν τῷ οἴκῳ μου·",
+      "generated_at": "2026-06-06T04:22:24.567881Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
