@@ -1,0 +1,280 @@
+{
+  "round_no": 8,
+  "books": ["LUK", "ROM"],
+  "red": [
+    {
+      "id": "RG8-001",
+      "class": "modernisatie",
+      "books": ["LUK"],
+      "chapter": 10,
+      "verse": 3,
+      "quote": "Gaat heen: zie, ik zend u als lammeren in het midden van de wolven.",
+      "rule_reference": "ARCHAISMEN.md:78 (imperatief-meervoud SV-`-t` -> stam)",
+      "explanation": "Imperatief 'Gaat' is de SV-meervoudsvorm op -t; moderne gebiedende wijs is de stam 'Ga'. De rest van het boek gebruikt consequent de stamvorm (LUK 10:37 'Ga heen', 13:31 'Ga weg', 17:14 'Ga heen', 22:8 'Ga heen'), zodat 'Gaat' hier een gemiste renovatie is.",
+      "proposed_fix": "Ga heen: zie, ik zend u als lammeren in het midden van de wolven.",
+      "severity": "hard",
+      "point_key": "modernisatie|LUK|gaat heen zie ik zend u als lammeren"
+    },
+    {
+      "id": "RG8-002",
+      "class": "modernisatie",
+      "books": ["LUK"],
+      "chapter": 2,
+      "verse": 10,
+      "quote": "Vreest niet, want zie, ik <Grieks: Euangelizeere, dat is, verkondig blijde boodschap.> verkondig u grote blijdschap",
+      "rule_reference": "ARCHAISMEN.md:78 (imperatief-meervoud SV-`-t` -> stam)",
+      "explanation": "Imperatief 'Vreest' op -t. Inconsistent binnen hetzelfde boek: LUK 1:13 'Vrees niet', 1:30 'Vrees niet', 5:10 'Vrees niet', 12:7/12:32 'Vrees niet' staan al in de stamvorm. 'Vreest niet' hier is een gemiste modernisatie.",
+      "proposed_fix": "Vrees niet, want zie, ik <...> verkondig u grote blijdschap",
+      "severity": "hard",
+      "point_key": "modernisatie|LUK|vreest niet want zie ik verkondig u grote"
+    },
+    {
+      "id": "RG8-003",
+      "class": "modernisatie",
+      "books": ["LUK"],
+      "chapter": 9,
+      "verse": 3,
+      "quote": "Neemt niets mee voor onderweg, geen <Anders, staf.> staven, geen reiszak, geen brood, geen geld",
+      "rule_reference": "ARCHAISMEN.md:78 (imperatief-meervoud SV-`-t` -> stam)",
+      "explanation": "Imperatief 'Neemt' op -t. De stamvorm 'Neem' wordt elders consequent gebruikt (LUK 16:6, 16:7, 19:24, 21:14, 22:17). 'Neemt' hier is een gemiste renovatie naar de stam.",
+      "proposed_fix": "Neem niets mee voor onderweg, geen <...> staven, geen reiszak, geen brood, geen geld",
+      "severity": "hard",
+      "point_key": "modernisatie|LUK|neemt niets mee voor onderweg geen staven"
+    },
+    {
+      "id": "RG8-004",
+      "class": "modernisatie",
+      "books": ["LUK"],
+      "chapter": 9,
+      "verse": 13,
+      "quote": "Maar hij zei tegen hen: Geeft u hun te eten.",
+      "rule_reference": "ARCHAISMEN.md:78 (imperatief-meervoud SV-`-t` -> stam)",
+      "explanation": "Imperatief 'Geeft' op -t. Stamvorm 'Geef' staat elders (LUK 11:3 'Geef ons', 14:9 'Geef deze man plaats', 16:2 'Geef rekenschap', 20:25 'Geef dan de Keizer'). 'Geeft' is een gemiste modernisatie.",
+      "proposed_fix": "Maar hij zei tegen hen: Geef u hun te eten.",
+      "severity": "hard",
+      "point_key": "modernisatie|LUK|geeft u hun te eten"
+    },
+    {
+      "id": "RG8-005",
+      "class": "modernisatie",
+      "books": ["LUK"],
+      "chapter": 14,
+      "verse": 17,
+      "quote": "om de genodigden te zeggen: Komt, want alle dingen zijn nu gereed.",
+      "rule_reference": "ARCHAISMEN.md:78 (imperatief-meervoud SV-`-t` -> stam)",
+      "explanation": "Imperatief 'Komt' op -t. De stamvorm 'Kom' staat elders (LUK 17:7 'Kom hier'). 'Komt' hier is een gemiste renovatie naar de stam.",
+      "proposed_fix": "om de genodigden te zeggen: Kom, want alle dingen zijn nu gereed.",
+      "severity": "hard",
+      "point_key": "modernisatie|LUK|komt want alle dingen zijn nu gereed"
+    },
+    {
+      "id": "RG8-006",
+      "class": "modernisatie",
+      "books": ["LUK"],
+      "chapter": 21,
+      "verse": 36,
+      "quote": "Waakt dan te allen tijde, en bidt dat u waardig geacht moogt worden",
+      "rule_reference": "ARCHAISMEN.md:78 (imperatief-meervoud SV-`-t` -> stam)",
+      "explanation": "Twee imperatieven op -t: 'Waakt' en 'bidt'. Moderne gebiedende wijs is de stam 'Waak' en 'bid'; vergelijk LUK 11:9 'Bid, en u zal gegeven worden' (al stamvorm). Beide vormen hier zijn gemiste modernisaties.",
+      "proposed_fix": "Waak dan te allen tijde, en bid dat u waardig geacht moogt worden",
+      "severity": "hard",
+      "point_key": "modernisatie|LUK|waakt dan te allen tijde en bidt dat"
+    },
+    {
+      "id": "RG8-007",
+      "class": "modernisatie",
+      "books": ["LUK"],
+      "chapter": 22,
+      "verse": 10,
+      "quote": "En hij zei tot hen: Ziet, als u in de <...> stad gekomen zult zijn, ... volgt hem in het huis waar hij ingaat.",
+      "rule_reference": "ARCHAISMEN.md:78 (imperatief-meervoud SV-`-t` -> stam)",
+      "explanation": "Twee imperatieven op -t: aanwijzend 'Ziet' (-> 'Zie') en 'volgt' (-> 'volg'). Dit is de gebiedende wijs, niet de beleefde vraagvorm (vgl. de vraagzin LUK 7:44 'Ziet u deze vrouw?' die wel modern is). Hier blijven de archaische -t-vormen staan.",
+      "proposed_fix": "En hij zei tot hen: Zie, als u in de <...> stad gekomen zult zijn, ... volg hem in het huis waar hij ingaat.",
+      "severity": "hard",
+      "point_key": "modernisatie|LUK|ziet als u in de stad gekomen zult"
+    },
+    {
+      "id": "RG8-008",
+      "class": "modernisatie",
+      "books": ["LUK"],
+      "chapter": 19,
+      "verse": 30,
+      "quote": "En hij zei: Gaat heen in dat dorp dat tegenover ligt; ... ontbindt het, en brengt het.",
+      "rule_reference": "ARCHAISMEN.md:78 (imperatief-meervoud SV-`-t` -> stam)",
+      "explanation": "Drie imperatieven op -t in een vers: 'Gaat', 'ontbindt', 'brengt'. Moderne gebiedende wijs is stam: 'Ga', 'ontbind', 'breng'. De stamvorm is elders in LUK de norm (zie RG8-001).",
+      "proposed_fix": "En hij zei: Ga heen in dat dorp dat tegenover ligt; ... ontbind het, en breng het.",
+      "severity": "hard",
+      "point_key": "modernisatie|LUK|gaat heen in dat dorp dat tegenover ligt"
+    },
+    {
+      "id": "RG8-009",
+      "class": "modernisatie",
+      "books": ["ROM"],
+      "chapter": 15,
+      "verse": 11,
+      "quote": "En wederom, $Ps. 117:1$ Looft de Heere alle u Heidenen, en prijst hem alle u volken.",
+      "rule_reference": "ARCHAISMEN.md:78 (imperatief-meervoud SV-`-t` -> stam)",
+      "explanation": "Imperatief 'Looft' op -t (citaat uit Ps. 117 in de lopende hoofdtekst). Moderne gebiedende wijs is de stam 'Loof'; vergelijk 'prijst' verderop dat ook -t draagt -> 'prijs'. Beide blijven hier in de archaische -t-vorm.",
+      "proposed_fix": "En wederom, $Ps. 117:1$ Loof de Heere, alle u Heidenen, en prijs hem, alle u volken.",
+      "severity": "hard",
+      "point_key": "modernisatie|ROM|looft de heere alle u heidenen"
+    },
+    {
+      "id": "RG8-010",
+      "class": "modernisatie",
+      "books": ["LUK"],
+      "chapter": 3,
+      "verse": 14,
+      "quote": "Doet niemand overlast aan, noch <...> ontvreemdt niemand het zijne met bedrog, en stelt u tevreden met uw soldij.",
+      "rule_reference": "ARCHAISMEN.md:78 (imperatief-meervoud SV-`-t` -> stam)",
+      "explanation": "Drie imperatieven op -t: 'Doet', 'ontvreemdt', 'stelt'. Moderne gebiedende wijs is de stam: 'Doe', 'ontvreemd', 'stel'. Dit is een geclusterde gemiste renovatie in lopende hoofdtekst.",
+      "proposed_fix": "Doe niemand overlast aan, noch <...> ontvreemd niemand het zijne met bedrog, en stel u tevreden met uw soldij.",
+      "severity": "hard",
+      "point_key": "modernisatie|LUK|doet niemand overlast aan"
+    }
+  ],
+  "green": [
+    {
+      "point_id": "RG8-001",
+      "stance": "concede",
+      "rebuttal": "Grieks ὑπάγετε is een praesens imperativus 2e pers. mv.; 'Gaat' is dus een echte gebiedende wijs op -t. ARCHAISMEN.md:79 harmoniseert imperatief-meervoud naar de stam ('Ga'). Geen indicatief/vraag/participium om op terug te vallen; rest van het boek gebruikt al 'Ga'. Overtreding.",
+      "evidence": "ARCHAISMEN.md:79 (imperatief-meervoud -t -> stam); Gr. ὑπάγετε (pres. impv. 2pl)"
+    },
+    {
+      "point_id": "RG8-002",
+      "stance": "concede",
+      "rebuttal": "Grieks Μὴ φοβεῖσθε is een praesens imperativus medii/passivi 2e pers. mv. (prohibitief met μή). 'Vreest niet' is een echte gebiedende wijs op -t; het boek heeft elders al 'Vrees niet' (1:13, 1:30, 5:10). Geen niet-imperatieve lezing mogelijk. Overtreding.",
+      "evidence": "ARCHAISMEN.md:79; Gr. μὴ φοβεῖσθε (pres. impv. 2pl)"
+    },
+    {
+      "point_id": "RG8-003",
+      "stance": "concede",
+      "rebuttal": "Grieks Μηδὲν αἴρετε: αἴρετε is praesens imperativus 2e pers. mv. 'Neemt' is dus echte gebiedende wijs op -t. Geen indicatief of vraag. ARCHAISMEN.md:79 eist de stam 'Neem'. Overtreding.",
+      "evidence": "ARCHAISMEN.md:79; Gr. αἴρετε (pres. impv. 2pl)"
+    },
+    {
+      "point_id": "RG8-004",
+      "stance": "concede",
+      "rebuttal": "Grieks Δότε is een aoristus imperativus 2e pers. mv. van δίδωμι. 'Geeft' is een echte gebiedende wijs op -t. Geen niet-imperatieve grond; stamvorm 'Geef' staat elders in LUK. Overtreding.",
+      "evidence": "ARCHAISMEN.md:79; Gr. δότε (aor. impv. 2pl)"
+    },
+    {
+      "point_id": "RG8-005",
+      "stance": "concede",
+      "rebuttal": "Grieks Ἔρχεσθε is een praesens imperativus 2e pers. mv. 'Komt' is een echte gebiedende wijs op -t. Geen indicatief/vraag mogelijk. ARCHAISMEN.md:79 eist 'Kom'. Overtreding.",
+      "evidence": "ARCHAISMEN.md:79; Gr. ἔρχεσθε (pres. impv. 2pl)"
+    },
+    {
+      "point_id": "RG8-006",
+      "stance": "rebut",
+      "rebuttal": "Gesplitst oordeel. 'Waakt' = ἀγρυπνεῖτε (pres. impv. 2pl): dat is een echte imperatief -> daar erken ik 'Waak'. Maar 'bidt' is GEEN imperatief: het Grieks heeft δεόμενοι, een praesens-MIDDEN-PARTICIPIUM (nom. mv.), niet ἀγρυπνεῖτε's paradigma. Red bestempelt beide vormen als imperatief op -t; dat is voor 'bidt' aantoonbaar fout. Een participium valt niet onder ARCHAISMEN.md:79 (imperatief-meervoud); het is een bijwoordelijke nevenschikking ('biddende'). Red's blanket-fix 'Waak...bid' steunt op een onjuiste woordsoort-analyse van het tweede werkwoord.",
+      "evidence": "ARCHAISMEN.md:79 dekt enkel imperativi; Gr. ἀγρυπνεῖτε (impv. 2pl) NAAST δεόμενοι (pres. part. med., nom. pl.) — geen tweede imperatief"
+    },
+    {
+      "point_id": "RG8-007",
+      "stance": "concede",
+      "rebuttal": "Het dragende werkwoord 'volgt' = ἀκολουθήσατε (aor. impv. 2pl); ARCHAISMEN.md:79 noemt Lk. 22:10 LETTERLIJK als kanonieke 'volgt -> volg'-casus. Dit is precies dat vers. 'Ziet' rendert het partikel/interjectie Ἰδού (geen finiete imperatief), maar dat redt het punt niet: het door de regel zelf geciteerde werkwoord is een echte overtreding. Concede.",
+      "evidence": "ARCHAISMEN.md:79 (citeert expliciet Lk. 22:10 -> 'volg'); Gr. ἀκολουθήσατε (aor. impv. 2pl)"
+    },
+    {
+      "point_id": "RG8-008",
+      "stance": "rebut",
+      "rebuttal": "Gesplitst oordeel. 'Gaat' = ὑπάγετε en 'brengt' = ἀγάγετε zijn echte imperativi (pres./aor. 2pl) -> die erken ik ('Ga', 'breng'). Maar 'ontbindt' is GEEN imperatief: het Grieks heeft λύσαντες, een aoristus-PARTICIPIUM (nom. mv., 'ontbonden hebbende / ontbindende'), grammaticaal ondergeschikt aan ἀγάγετε. Red telt drie imperatieven op -t; dat is voor 'ontbindt' fout. Een participium valt buiten ARCHAISMEN.md:79. Red's voorgestelde fix 'ontbind het' berust op een verkeerde woordsoort-analyse.",
+      "evidence": "ARCHAISMEN.md:79 dekt enkel imperativi; Gr. λύσαντες (aor. part. act., nom. pl.) NAAST ἀγάγετε (aor. impv. 2pl)"
+    },
+    {
+      "point_id": "RG8-009",
+      "stance": "concede",
+      "rebuttal": "Grieks Αἰνεῖτε (pres. impv. 2pl) en ἐπαινέσατε (aor. impv. 2pl) zijn beide echte imperativi 2e pers. mv. 'Looft' en 'prijst' zijn dus gebiedende wijzen op -t (Ps.-citaat in lopende hoofdtekst). Geen niet-imperatieve lezing. ARCHAISMEN.md:79 eist 'Loof'/'prijs'. Overtreding.",
+      "evidence": "ARCHAISMEN.md:79; Gr. αἰνεῖτε (pres. impv. 2pl) + ἐπαινέσατε (aor. impv. 2pl)"
+    },
+    {
+      "point_id": "RG8-010",
+      "stance": "rebut",
+      "rebuttal": "Gesplitst oordeel. 'stelt u tevreden' = ἀρκεῖσθε (pres. impv. 2pl): echte imperatief -> die erken ik ('stel u tevreden'). Maar 'Doet' en 'ontvreemdt' zijn GEEN imperativi: het Grieks heeft Μηδένα διασείσητε, μηδὲ συκοφαντήσητε — twee aoristus-SUBJUNCTIVI in een prohibitie (μή + aor. conj., de standaard-Griekse verbiedende constructie, NIET de imperatief-paradigma). Red bestempelt alle drie als imperatief op -t; voor twee van de drie is dat aantoonbaar fout. ARCHAISMEN.md:79 harmoniseert imperatief-meervoud, niet de prohibitieve conjunctief. Red's drievoudige fix berust op een onjuiste modusanalyse.",
+      "evidence": "ARCHAISMEN.md:79 dekt enkel imperativi; Gr. μηδένα διασείσητε / μηδὲ συκοφαντήσητε (aor. SUBJ. 2pl, prohibitief μή) NAAST ἀρκεῖσθε (pres. impv. 2pl)"
+    }
+  ],
+  "verdicts": [
+    {
+      "point_id": "RG8-001",
+      "verdict": "red_wins",
+      "rationale": "Gr. ὑπάγετε = pres. impv. 2pl; 'Gaat' is echte imperatief op -t. Green concedeert. ARCHAISMEN.md:78 -> stam 'Ga'.",
+      "scope": "verse",
+      "final_fix": "Ga heen: zie, ik zend u als lammeren in het midden van de wolven.",
+      "applied": false
+    },
+    {
+      "point_id": "RG8-002",
+      "verdict": "red_wins",
+      "rationale": "Gr. μὴ φοβεῖσθε = pres. impv. med./pass. 2pl (prohibitief met μή op imperatief); 'Vreest' is echte imperatief op -t. Green concedeert. -> stam 'Vrees'.",
+      "scope": "verse",
+      "final_fix": "$Mt. 24:42; 25:13; Mk. 13:33; Lk. 12:40; 1Th. 5:6$ Vrees niet, want zie, ik <Grieks: Euangelizeere, dat is, verkondig blijde boodschap.> verkondig u grote blijdschap",
+      "applied": false
+    },
+    {
+      "point_id": "RG8-003",
+      "verdict": "red_wins",
+      "rationale": "Gr. αἴρετε = pres. impv. 2pl; 'Neemt' is echte imperatief op -t. Green concedeert. -> stam 'Neem'.",
+      "scope": "verse",
+      "final_fix": "Neem niets mee voor onderweg, geen <Anders, staf.> staven, geen reiszak, geen brood, geen geld",
+      "applied": false
+    },
+    {
+      "point_id": "RG8-004",
+      "verdict": "red_wins",
+      "rationale": "Gr. δότε = aor. impv. 2pl van δίδωμι; 'Geeft' is echte imperatief op -t. Green concedeert. -> stam 'Geef'.",
+      "scope": "verse",
+      "final_fix": "Maar hij zei tegen hen: Geef u hun te eten.",
+      "applied": false
+    },
+    {
+      "point_id": "RG8-005",
+      "verdict": "red_wins",
+      "rationale": "Gr. ἔρχεσθε = pres. impv. 2pl; 'Komt' is echte imperatief op -t. Green concedeert. -> stam 'Kom'.",
+      "scope": "verse",
+      "final_fix": "om de genodigden te zeggen: Kom, want alle dingen zijn nu gereed.",
+      "applied": false
+    },
+    {
+      "point_id": "RG8-006",
+      "verdict": "red_wins",
+      "rationale": "SPLIT, geverifieerd op source_text 'ἀγρυπνεῖτε οὖν ... δεόμενοι'. 'Waakt' = ἀγρυπνεῖτε (pres. impv. 2pl) -> stam 'Waak' (red_wins voor dat woord). MAAR 'bidt' rendert δεόμενοι = pres. middle PARTICIPIUM (nom. mv.), GEEN imperatief; valt buiten ARCHAISMEN.md:78. Green's woordsoort-claim verbatim bevestigd. 'bidt' blijft ONGEMOEID; alleen 'Waakt'->'Waak'.",
+      "scope": "verse",
+      "final_fix": "$Mt. 24:42; 25:13; Mk. 13:33; Lk. 12:40; 1Th. 5:6$ Waak dan te allen tijde, en bidt dat u waardig geacht moogt worden te ontvluchten <Dat is, al deze straffen en ellenden.> al deze dingen die zullen gebeuren, en te <Dat is, standhouden, en met vrijmoedigheid voor hem verschijnen.> staan voor de Zoon des mensen.",
+      "applied": false
+    },
+    {
+      "point_id": "RG8-007",
+      "verdict": "red_wins",
+      "rationale": "Gr. ἀκολουθήσατε = aor. impv. 2pl; 'volgt' is echte imperatief op -t -> stam 'volg'. 'Ziet' rendert het partikel Ἰδού (geen finiete imperatief) en blijft ongemoeid. Green concedeert op het dragende werkwoord. Alleen 'volgt'->'volg'.",
+      "scope": "verse",
+      "final_fix": "En hij zei tot hen: Ziet, als u in de <Namelijk Jeruzalem, waar het Pascha alleen geslacht en gegeten moest worden. Zie $Dt. 16:5,6,7$.> stad gekomen zult zijn, zo zal u een mens ontmoeten, die <Of, een aarden vat.> een kruik water draagt; volg hem in het huis waar hij ingaat.",
+      "applied": false
+    },
+    {
+      "point_id": "RG8-008",
+      "verdict": "red_wins",
+      "rationale": "SPLIT, geverifieerd op source_text 'Ὑπάγετε ... λύσαντες αὐτὸν ἀγάγετε'. 'Gaat' = ὑπάγετε (pres. impv. 2pl) -> 'Ga'; 'brengt' = ἀγάγετε (aor. impv. 2pl) -> 'breng' (red_wins voor die twee). MAAR 'ontbindt' rendert λύσαντες = aor. PARTICIPIUM (nom. mv.), GEEN imperatief; valt buiten ARCHAISMEN.md:78. Green's claim verbatim bevestigd. 'ontbindt' blijft ONGEMOEID; alleen 'Gaat'->'Ga' en 'brengt'->'breng'.",
+      "scope": "verse",
+      "final_fix": "En hij zei: Ga heen in dat dorp dat tegenover ligt; en wanneer u daar binnenkomt, zult u <Namelijk, van een ezelin, met zijn moeder. Zie $Mt. 21:2; Mk. 11:2$.> een veulen vastgebonden vinden, waarop nooit een mens gezeten heeft: ontbindt het, en breng het.",
+      "applied": false
+    },
+    {
+      "point_id": "RG8-009",
+      "verdict": "red_wins",
+      "rationale": "Gr. αἰνεῖτε (pres. impv. 2pl) + ἐπαινέσατε (aor. impv. 2pl); 'Looft' en 'prijst' zijn beide echte imperativi op -t (Ps.-citaat in lopende hoofdtekst). Green concedeert. -> stam 'Loof'/'prijs'.",
+      "scope": "verse",
+      "final_fix": "En wederom, $Ps. 117:1$ Loof de Heere, alle u Heidenen, en prijs hem, alle u volken.",
+      "applied": false
+    },
+    {
+      "point_id": "RG8-010",
+      "verdict": "red_wins",
+      "rationale": "SPLIT, geverifieerd op source_text 'Μηδένα διασείσητε, μηδὲ συκοφαντήσητε ... ἀρκεῖσθε'. 'stelt u tevreden' = ἀρκεῖσθε (pres. impv. 2pl) -> 'stel u tevreden' (red_wins voor dat woord). MAAR 'Doet' = διασείσητε en 'ontvreemdt' = συκοφαντήσητε zijn aor. SUBJUNCTIVI in een μή-prohibitie (geen imperatief-paradigma); vallen buiten ARCHAISMEN.md:78. Green's modusanalyse verbatim bevestigd. 'Doet' en 'ontvreemdt' blijven ONGEMOEID; alleen 'stelt'->'stel'.",
+      "scope": "verse",
+      "final_fix": "En ook de soldaten vroegen hem: En wij, wat zullen wij doen? En hij zei tot hen: <Het Griekse woord betekent iemand heen en weer slingeren of schudden: zodat hier allerlei stroperij, moedwil en onrechtvaardig geweld aan de soldaten verboden wordt.> Doet niemand overlast aan, noch <Het Griekse woord betekent wel iemand valselijk beschuldigen, maar Lucas gebruikt dit woord in zo'n zin als het hier vertaald is, zoals blijkt $Lk. 19:8$.> ontvreemdt niemand het zijne met bedrog, en stel u tevreden met uw soldij.",
+      "applied": false
+    }
+  ]
+}
