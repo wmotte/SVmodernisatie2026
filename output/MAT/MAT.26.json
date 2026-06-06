@@ -88,6 +88,33 @@
       "generated_at": "2026-06-06T11:40:46.602757Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 10,
+      "original": "Maer Iesus [sulcks] verstaende seyde tot haer, Waerom doet ghy dese vrouwe moeyte aen? Want sy heeft <Dat is, het gene sy aen my gedaen heeft is wel gedaen.> een goet werck aen my gewrocht.",
+      "modernized": "Maar Jezus, die [dit] begreep, zei tot hen: Waarom doet u deze vrouw moeite aan? Want zij heeft <Dat is, wat zij aan mij gedaan heeft, is goed gedaan.> een goed werk aan mij verricht.",
+      "source_text": "γνοὺς δὲ ὁ Ἰησοῦς εἶπεν αὐτοῖς, Τί κόπους παρέχετε τῇ γυναικί; ἔργον γὰρ καλὸν εἰργάσατο εἰς ἐμέ.",
+      "generated_at": "2026-06-06T11:44:15.504805Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 11,
+      "original": "$Deut. 15.11. Marc. 14.7. Ioan. 12.8.$ Want de arme hebt ghy altijt met u, maer my en hebt ghy <Namelick, na mijne lichamelicke tegenwoordigheyt, want na sijne Godtheyt ende genade sal hy altijt by ons blijven, Matth. 28.20.> niet altijt.",
+      "modernized": "$Dt. 15:11; Mk. 14:7; Jh. 12:8$ Want de armen hebt u altijd met u, maar mij hebt u <Namelijk, naar mijn lichamelijke tegenwoordigheid, want naar zijn Godheid en genade zal hij altijd bij ons blijven, $Mt. 28:20$.> niet altijd.",
+      "source_text": "πάντοτε γὰρ τοὺς πτωχοὺς ἔχετε μεθ’ ἑαυτῶν, ἐμὲ δὲ οὐ πάντοτε ἔχετε.",
+      "generated_at": "2026-06-06T11:44:52.528932Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 12,
+      "original": "Want als sy dese salve op mijn lichaem <Gr. geworpen.> gegoten heeft, soo heeft sy het gedaen <Niet dat dese vrouwe sulcks voor gehadt heeft, maer om dat Godts voorsienigheyt het selve soo heeft bestiert, dat sijn lichaem recht voor sijn sterven alsoo soude gesalft worden: gelijck de doode lichamen der persoonen van aensien alsoo tot de begraeffenisse wierden bereyt, Genes. c. 50. vers 2. Siet oock Marc. 14. vers 8. Gelijck het Griecks woort sulcks oock mede brenght.> tot [een voorbereydinge van] mijne begraeffenisse.",
+      "modernized": "Want toen zij deze zalf op mijn lichaam <Grieks: geworpen.> gegoten heeft, zo heeft zij het gedaan <Niet dat deze vrouw zulks beoogd heeft, maar omdat Gods voorzienigheid het zo heeft bestuurd, dat zijn lichaam vlak voor zijn sterven zo gezalfd zou worden: zoals de dode lichamen van aanzienlijke personen zo tot de begrafenis werden gereedgemaakt, $Gn. 50:2$. Zie ook $Mk. 14:8$. Zoals het Griekse woord zulks ook met zich meebrengt.> tot [een voorbereiding van] mijn begrafenis.",
+      "source_text": "βαλοῦσα γὰρ αὕτη τὸ μύρον τοῦτο ἐπὶ τοῦ σώματός μου, πρὸς τὸ ἐνταφιάσαι με ἐποίησεν.",
+      "generated_at": "2026-06-06T11:45:31.095732Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
