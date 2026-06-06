@@ -110,6 +110,33 @@
       "generated_at": "2026-06-06T08:20:27.898870Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 10,
+      "original": "Noch ghy en sult niet meesters genoemt worden: want <D. voorganger. Siet vers 8.> een is uw’ Meester [namelick] Christus:",
+      "modernized": "Noch zult u meesters genoemd worden: want <Dat is, voorganger. Zie vers 8.> een is uw Meester, [namelijk] Christus:",
+      "source_text": "μηδὲ κληθῆτε καθηγηταί· εἷς γὰρ ὑμῶν ἐστιν ὁ καθηγητής, ὁ Χριστός.",
+      "generated_at": "2026-06-06T08:24:04.490519Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 11,
+      "original": "$Matth. 20.26.$ Maer de <Gr. meerder, ofte, grooter.> meeste van u sal uw’ dienaer zijn.",
+      "modernized": "$Mt. 20:26$ Maar de <Grieks: meerder, of, groter.> meeste van u zal uw dienaar zijn.",
+      "source_text": "ὁ δὲ μείζων ὑμῶν ἔσται ὑμῶν διάκονος.",
+      "generated_at": "2026-06-06T08:24:41.519899Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 12,
+      "original": "$Iob 22.29. Prov. 29.23. Luce 14.11. ende 18.14. Iacob. 4.6, 10. 1.Petr. 5.5.$ Ende wie hemselven verhoogen sal, [die] sal vernedert worden: ende wie hemselven sal vernederen, [die] sal verhooght worden.",
+      "modernized": "$Jb. 22:29; Sp. 29:23; Lk. 14:11; 18:14; Jk. 4:6,10; 1Pt. 5:5$ En wie zichzelf zal verhogen, [die] zal vernederd worden; en wie zichzelf zal vernederen, [die] zal verhoogd worden.",
+      "source_text": "ὅστις δὲ ὑψώσει ἑαυτόν, ταπεινωθήσεται· καὶ ὅστις ταπεινώσει ἑαυτόν, ὑψωθήσεται.",
+      "generated_at": "2026-06-06T08:25:15.519105Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
