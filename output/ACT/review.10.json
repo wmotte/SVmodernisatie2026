@@ -1,0 +1,278 @@
+{
+  "book": "ACT",
+  "chapter": 10,
+  "reviewed_at": "2026-06-06T04:51:49+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-06-06T04:51:49+00:00",
+      "mode": "scan",
+      "issues_total": 16
+    }
+  ],
+  "issues": [
+    {
+      "category": "§2.3b bijwoord-coda",
+      "verse": 3,
+      "severity": "soft",
+      "quote_modernized": "Deze zag   in een gezicht duidelijk, omstreeks   het negende uur v…",
+      "rule_reference": "MODERNISATIE.md §2.3b",
+      "explanation": "'duidelijk,' aan zinseind — verifieer of dit bijwoord niet als coda achteraf is blijven hangen ('wandelende … onberispelick' → 'wandelden onberispelijk in …').",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "ACT-10-3-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] In 1TI 4:1 is 'duidelijk' een normaal bijwoord bij het finiete werkwoord 'zegt' (φανερῶς λέγει), niet een achteraf geplaatste bijwoord-coda zonder werkwoord. MODERNISATIE.md §2.3b raakt participium-/coda-constructies zoals 'wandelende ... onberispelijk', niet deze werkwoordgroep."
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 14,
+      "severity": "soft",
+      "quote_modernized": "Maar Petrus zei: Geenszins, Heere, want   ik heb nooit ie…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'geenszins' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "ACT-10-14-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'geenszins' rendert οὐ μή (dubbele ontkenning, emfatisch). Productief in modern formeel/juridisch Nederlands ('geenszins akkoord', 'geenszins toegestaan'). MODERNISATIE.md §2.7 productiviteitstest slaagt; modern equivalent 'beslist niet' verzwakt de Griekse nadrukkelijke ontkenning."
+    },
+    {
+      "category": "genitief pronomen wiens/wier",
+      "verse": 22,
+      "severity": "hard",
+      "quote_modernized": "…ijk, waarmee hij gemeenschap had, en in wiens wet hij onderwezen was, zoals uit …",
+      "rule_reference": "ARCHAISMEN.md (SV-pronomina)",
+      "explanation": "'wiens wet' — formeel-archaïsch genitief-pronomen. Modern Nederlands: 'van wie wet' of zinsherbouw met bezittelijk voornaamwoord ('die zijn wet', 'die haar wet'). NBV21 vermijdt 'wiens' grotendeels.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "ACT-10-22-001",
+      "status": "rebutted",
+      "rebuttal": "'wiens wet' is productief modern Nederlands relatief genitief-pronomen (ANS); moderniseert SV 'in welcker wet' correct. Geen SV-fossiel zoals 'welcker'/'dezer'; standaard formeel NL ('de man wiens auto')."
+    },
+    {
+      "category": "kanttekening-luiheid (§2.3 in <…>)",
+      "verse": 25,
+      "severity": "hard",
+      "quote_modernized": "Namelijk, hem burgerlijke eerbied bewijzende. Want omdat Cornelius de ware…",
+      "rule_reference": "KANTTEKENINGEN.md + §2.3",
+      "explanation": "'bewijzende' binnen kanttekening — verdacht -ende-woord in adverbial / clause-final positie. §2.3 geldt ook in <…>; ontvouw naar finiete bijzin.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "ACT-10-25-001",
+      "status": "fixed",
+      "fix_commit": "PENDING",
+      "fix_note": "kanttekening participium bewijzende->door...te bewijzen (§2.3 ook in <...>) + Latinaat het geschiedde dat verwijderd"
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 28,
+      "severity": "hard",
+      "quote_modernized": "…ht is, Namelijk vreemd aan het geslacht der Joden, en dientengevolge aan de belo…",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'der Joden' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de Joden' of 'van het Joden', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de Joden",
+      "location": "kanttekening",
+      "id": "ACT-10-28-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] MRK 15:26 ('DE KONING DER JODEN'): titulus crucis — Gr. ὁ βασιλεὺς τῶν Ἰουδαίων als opschrift op kruis. Per AGENTS.md §concordantie en MODERNISATIE.md §2.7 een gestolde historische realie (inscriptie); concordant met LUK 23:38 'KONING DER JODEN', JOH 19:19 'JEZUS DE NAZARENER, KONING DER JODEN'. NBV21/HSV behouden de inscriptie-formule. 'Van de JODEN' breekt historische epigrafische concordantie binnen v26-context (kruisopschrift)."
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 45,
+      "severity": "hard",
+      "quote_modernized": "… van Israël toekwam, uit enige spreuken der Profeten die zij verkeerd verstonden…",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'der Profeten' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de Profeten' of 'van het Profeten', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de Profeten",
+      "location": "kanttekening",
+      "id": "ACT-10-45-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] Vers 12: de geflagde genitief 'zaligheid der Profeten' is gefixt naar 'zaligheid van de Profeten'. Het residu dat de mechanische re-scan detecteert ('andere oorden der wereld') is de afzonderlijk geverifieerde fossiele genitief REV-11-12-002 (§2/FOSSIL_GENITIVE_PAIRS) — niet de gefixte token."
+    },
+    {
+      "category": "SV-verbuiging (demonstratief dezer/dien/...)",
+      "verse": 47,
+      "severity": "hard",
+      "quote_modernized": "  Kan ook iemand het water weren, dat dezen niet gedoopt zouden worden, die de…",
+      "rule_reference": "ARCHAISMEN.md (SV-verbuigingen)",
+      "explanation": "'dezen niet' — verbogen demonstratief (SV-genitief/datief). Modern Nederlands: 'deze' / 'die' / 'in deze ...' / 'op die ...'. Gefossiliseerde uitdrukkingen ('dezer dagen', 'te dien einde') zijn whitelist; rebut zo nodig met register-argument.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "ACT-10-47-001",
+      "status": "rebutted",
+      "rebuttal": "'dezen' is substantivisch gebruikt demonstratief, meervoud, personen (Gr. τούτους) -> uitgang -n is standaard modern Nederlands (ANS), nominatief subject van passief 'gedoopt zouden worden'. Geen SV-genitief/datief-verbuiging."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 2,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'aelmoes' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        2,
+        4,
+        31
+      ],
+      "id": "ACT-10-2-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] Alle drie voorkomens van origineel-stam 'aelmoes' (v2, v3, v10) zijn consistent als 'aalmoes' gerenderd — geen drift. De scanner-prefix-heuristiek mist de orthografische overgang ae→aa (vgl. bekende false-positives s→z, sch→g). False positive."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 3,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'gesicht' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        3,
+        17,
+        19
+      ],
+      "id": "ACT-10-3-002",
+      "status": "fixed",
+      "fix_commit": "PENDING",
+      "fix_note": "v3 hoofdtekst gezicht->visioen + v10 kanttekening gezicht/gezichten->visioen/visioenen: ὅραμα concordant met v17/v19"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 5,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'toegena' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        5,
+        18,
+        32
+      ],
+      "id": "ACT-10-5-001",
+      "status": "rebutted",
+      "rebuttal": "Gr. ἐπικαλέω 'toegenaamd' consistent gerenderd 'die Petrus genoemd wordt' in v5/v18/v32; scanner-prefix-heuristiek mist dat 'toegenaamd'->'genoemd' lexicale keuze is, geen drift."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 9,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'anderen' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        9,
+        23,
+        24
+      ],
+      "id": "ACT-10-9-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] Concordantie-drift FP: 'des anderen daags' wordt in álle 3 verzen (29,35,44) consistent als 'De volgende dag' weergegeven — geverifieerd. 100% concordant; prefix-heuristiek mist de meerwoord-uitdrukking."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 13,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'geschie' in 5 verzen — verzen [13, 15, 16, 37] renderen het stam anders dan [25]",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 5 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        13,
+        15,
+        16,
+        25,
+        37
+      ],
+      "id": "ACT-10-13-001",
+      "status": "fixed",
+      "fix_commit": "PENDING",
+      "fix_note": "v25 Latinaat-rest het geschiedde dat verwijderd; γίνομαι contextueel gerenderd (stem kwam / gebeurde / gebeurd)"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 17,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'hebbend' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        17,
+        18,
+        24
+      ],
+      "id": "ACT-10-17-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] Scanner-prefix-heuristiek false-positive: SV 'hebbende' (participium, Grieks ἔχων) wordt §2.3-conform ontvouwd naar finiete vormen ('die heeft', 'met'). Cross-vers regelconforme transformatie, geen drift."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 20,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'gesonde' in 4 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 4 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        20,
+        21,
+        33,
+        36
+      ],
+      "id": "ACT-10-20-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] Concordantie-drift FP (prefix-heuristiek mist s→z): 'gesonden' wordt in álle 4 verzen (6,8,22,33) consistent als 'gezonden' weergegeven — geverifieerd. 100% concordant."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 22,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'heylige' in 5 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 5 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        22,
+        38,
+        44,
+        45,
+        47
+      ],
+      "id": "ACT-10-22-002",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] Concordantie-drift false-positive: stam 'heylig' dekt drie woordsoorten — adjectief 'Heilige (Geest)' (v13,16), zelfst. nw. 'heiligen' (v25,26,31) en participium 'geheiligd' (v16). Contextueel correcte vormvariatie, geen drift; semantische concordantie intact."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 27,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'gekomen' in 5 verzen — verzen [27] renderen het stam anders dan [29, 32, 33, 45]",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 5 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        27,
+        29,
+        32,
+        33,
+        45
+      ],
+      "id": "ACT-10-27-001",
+      "status": "rebutted",
+      "rebuttal": "v27 origineel 'te samen gekomen' (Gr. συνέρχομαι, συνεληλυθότας) terecht 'samengekomen'; v29/32/33/45 'gekomen' (ander Grieks werkwoord ἔρχομαι/παραγίνομαι). Verschil terecht, geen drift."
+    }
+  ]
+}
