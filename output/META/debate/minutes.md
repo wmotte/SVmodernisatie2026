@@ -171,3 +171,36 @@ Red bracht 10 punt(en). Verdicts: red_wins=10, green_wins=0, rule_change=0.
 - **[RG8-010] (modernisatie)** Doet niemand overlast aan, noch <...> ontvreemdt niemand het zijne met bedrog, en stelt u tevreden met uw soldij.
   - regel: ARCHAISMEN.md:78 (imperatief-meervoud SV-`-t` -> stam); fix: Doe niemand overlast aan, noch <...> ontvreemd niemand het zijne met bedrog, en stel u tevreden met uw soldij.
   - verdict: **red_wins** (scope=verse, applied=False) — SPLIT, geverifieerd op source_text 'Μηδένα διασείσητε, μηδὲ συκοφαντήσητε ... ἀρκεῖσθε'. 'stelt u tevreden' = ἀρκεῖσθε (pres. impv. 2pl) -> 'stel u tevreden' (red_wins voor dat woord). MAAR 'Doet' = δ
+
+## Ronde 9 — LUK + ROM + MRK  (2026-06-06T07:51:35.509610+00:00)
+Red bracht 10 punt(en). Verdicts: red_wins=9, green_wins=0, rule_change=1.
+- **[RG9-001] (modernisatie)** Neemt, eet,
+  - regel: ARCHAISMEN.md:78 (imperatief-meervoud SV-`-t` → stam); MODERNISATIE.md imperatief-`-t`; fix: Neem, eet,
+  - verdict: **red_wins** (scope=verse, applied=True) — Source 'Nemet, etet' = λάβετε/φάγετε, beide echte aor.imp.2pl (avondmaalsinstelling); geen participium/μή-conj. Modernized behield SV-`-t`. Bestaande regel ARCHAISMEN.md:78 harmoniseert náár stam. Gre
+- **[RG9-002] (modernisatie)** Bereidt de weg van de Heere, maakt zijn paden
+  - regel: ARCHAISMEN.md:78 (imperatief-meervoud SV-`-t` → stam); fix: Bereid de weg van de Heere, maak zijn paden
+  - verdict: **red_wins** (scope=verse, applied=True) — 'Bereyt...maeckt' = ἑτοιμάσατε (aor.imp.2pl) + ποιεῖτε (pres.imp.2pl), twee echte mv.-imperativi. SV-`-t` onverharmoniseerd in modernized. ARCHAISMEN.md:78 → stam.
+- **[RG9-003] (modernisatie)** Geeft dan de Keizer wat van de Keizer is
+  - regel: ARCHAISMEN.md:78 (imperatief-meervoud SV-`-t` → stam); fix: Geef dan de Keizer wat van de Keizer is
+  - verdict: **red_wins** (scope=verse, applied=True) — 'Geeft' = ἀπόδοτε aor.imp.2pl. Echte imperatief; bestaande regel ARCHAISMEN.md:78 → stam. LUK-parallel reeds gesloten.
+- **[RG9-004] (modernisatie)** Waakt dan
+  - regel: ARCHAISMEN.md:78 (imperatief-meervoud SV-`-t` → stam); fix: Waak dan
+  - verdict: **red_wins** (scope=verse, applied=True) — 'Waeckt' = γρηγορεῖτε pres.imp.2pl, geen periphrastisch participium. Bestaande regel ARCHAISMEN.md:78 → stam.
+- **[RG9-005] (modernisatie)** Hoort toe.
+  - regel: ARCHAISMEN.md:78 (imperatief-meervoud SV-`-t` → stam); `(hoort|ziet) toe` → let op; fix: Hoor toe. (of: Luister.)
+  - verdict: **red_wins** (scope=verse, applied=True) — 'Hoort toe' = ἀκούετε pres.imp.2pl; ἰδού deictisch valt buiten scope. Bestaande regel ARCHAISMEN.md:78 (Hoort|Ziet|Zie) toe noemt Mk. 4:3 expliciet als voorbeeld. Chirurgische -t→stam-fix.
+- **[RG9-006] (modernisatie)** Geeft u hun te eten.
+  - regel: ARCHAISMEN.md:78 (imperatief-meervoud SV-`-t` → stam); fix: Geef u hun te eten.
+  - verdict: **red_wins** (scope=verse, applied=True) — 'Geeft' = δότε aor.imp.2pl. Alleen de SV-`-t` is in scope (point_key betreft de -t); pleonastisch 'u' blijft buiten chirurgische fix. ARCHAISMEN.md:78 → stam.
+- **[RG9-007] (modernisatie)** Antwoordt mij.
+  - regel: ARCHAISMEN.md:78 (imperatief-meervoud SV-`-t` → stam); fix: Antwoord mij.
+  - verdict: **red_wins** (scope=verse, applied=True) — Source = 'Antwoort my' (ἀποκρίθητέ μοι, aor.imp.2pl); modernized voegde juist een SV-`-t` TOE ('Antwoordt'). Echte imperatief; ARCHAISMEN.md:78 → stam.
+- **[RG9-008] (modernisatie)** de kaarsen brandende.
+  - regel: MODERNISATIE.md §2.3 (predicatief/periphrastisch participium / -ende); fix: en houd de lampen brandend. (predicatief 'brandend')
+  - verdict: **red_wins** (scope=verse, applied=True) — 'brandende' = καιόμενοι, predicatief pres.-participium in ἔστωσαν...καιόμενοι. Latinate -ende carry-over; MODERNISATIE.md §2.3 predicatief participium → 'brandend'. Bestaande regel-overtreding → verse
+- **[RG9-009] (modernisatie)** Zo wie achter mij wil komen
+  - regel: MODERNISATIE.md drempel-archaïsme (correlatief 'zo wie ... die'); fix: Wie achter mij wil komen
+  - verdict: **rule_change** (scope=nt-wide, applied=True) — Correlatief SV 'Zo wie...die' (Εἴ τις θέλει...). Geverifieerd: 'zo wie' staat NIET in DREMPEL_ARCHAISMEN (rules_data.py:322), niet in MODERNISATIE.md/ARCHAISMEN.md. Geen bestaande regel → structureel 
+- **[RG9-010] (consistentie)** maar dadelijk is [nog] niet het einde
+  - regel: AGENTS.md concordantie (εὐθύς/εὐθέως cross-book); durende richtlijn red-green; fix: maar meteen is [nog] niet het einde
+  - verdict: **red_wins** (scope=verse, applied=True) — εὐθέως. 'meteen' is reeds de durende NT-concordantierichtlijn (εὐθύς/εὐθέως) en MRK rendert 40×+ 'meteen', nul 'dadelijk'. LUK 21:9 'dadelijk' is drift; gewoon de afwijkende vers fixen. Geen nieuw NT-

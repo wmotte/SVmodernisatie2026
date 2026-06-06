@@ -84,6 +84,12 @@ ARCHAISM_BLACKLIST = [
     # Red-green ronde 1 RG1-003 (Joh. 3:11, 5:33-42). HARD, nt-wide.
     r"\bulieden\b",
     r"\bulieder\b",
+    # SV-correlatief 'Zo wie ... die' (Gr. Ὅστις / Εἴ τις + correlatief 'die').
+    # Drempel-archaïsme dat de renovatie overleefde: modern NL = 'Wie ... die'.
+    # 'zo wie' staat adjacent nooit in modern proza (correlatief 'zo' is
+    # archaïsch), dus exacte sequentie → geen false positive. Red-green ronde 9
+    # RG9-009 (MRK 8:34/8:35/8:38, LUK 17:33). HARD, nt-wide.
+    r"\bzo\s+wie\b",
 ]
 
 # Allowlist als (artikel, zn)-paar in lowercase.
