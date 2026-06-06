@@ -164,6 +164,33 @@
       "generated_at": "2026-06-06T08:31:29.010790Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 4
+    },
+    {
+      "verse_number": 16,
+      "original": "Wee u ghy blinde leydslieden, die segget, Soo wie gesworen sal hebben by den tempel, <D. dat en geldt niet, ofte die en is niet gehouden te betalen ’t gene hy met sulcken eedt belooft heeft.> dat en is niet: maer soo wie gesworen sal hebben by het gout des tempels, <D. die is gehouden te betalen sijne belofte.> die is schuldigh.",
+      "modernized": "Wee u, blinde leidslieden, die zegt: Wie gezworen zal hebben bij de tempel, <dat is, dat geldt niet, of die is niet verplicht te betalen wat hij met zulk een eed beloofd heeft.> dat is niets; maar wie gezworen zal hebben bij het goud van de tempel, <dat is, die is verplicht zijn belofte te betalen.> die is schuldig.",
+      "source_text": "Οὐαὶ ὑμῖν, ὁδηγοὶ τυφλοί, οἱ λέγοντες, Ὃς ἂν ὀμόσῃ ἐν τῷ ναῷ, οὐδέν ἐστιν· ὃς δ’ ἂν ὀμόσῃ ἐν τῷ χρυσῷ τοῦ ναοῦ, ὀφείλει.",
+      "generated_at": "2026-06-06T08:37:03.115840Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 17,
+      "original": "<Christus en kent hier mede niet voor goet de eeden by de creaturen gedaen, maer toont alleen hoe verkeerdelick sy daer van oordeelden, ende de conscientien der menschen qualick onderrichteden.> Ghy dwase ende blinde: want welck is meerder, het gout, ofte de tempel die het gout heylight?",
+      "modernized": "<Christus keurt hiermee niet de eden goed die bij de schepselen gedaan worden, maar toont alleen hoe verkeerd zij daarover oordeelden en de gewetens van de mensen verkeerd onderrichtten.> Dwazen en blinden: want wat is groter, het goud, of de tempel die het goud heiligt?",
+      "source_text": "μωροὶ καὶ τυφλοί· τίς γὰρ μείζων ἐστίν, ὁ χρυσός, ἢ ὁ ναὸς ὁ ἁγιάζων τὸν χρυσόν;",
+      "generated_at": "2026-06-06T08:37:58.994129Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 18,
+      "original": "Ende soo wie gesworen sal hebben by den altaer, dat en is niet: maer soo wie gesworen sal hebben by <D. offerande. siet Matth. 5.24.> de gave, die daer op is, die is schuldigh.",
+      "modernized": "En wie gezworen zal hebben bij het altaar, dat is niets; maar wie gezworen zal hebben bij <dat is, de offergave; zie $Mt. 5:24$.> de gave die daarop is, die is schuldig.",
+      "source_text": "καί, Ὃς ἐὰν ὀμόσῃ ἐν τῷ θυσιαστηρίῳ, οὐδέν ἐστιν· ὃς δ’ ἂν ὀμόσῃ ἐν τῷ δώρῳ τῷ ἐπάνω αὐτοῦ, ὀφείλει.",
+      "generated_at": "2026-06-06T08:38:25.576062Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
