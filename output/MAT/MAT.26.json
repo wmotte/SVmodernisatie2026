@@ -607,6 +607,33 @@
       "generated_at": "2026-06-06T14:53:11.463409Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 67,
+      "original": "$Iesa. 50.6.$ Doe spogen sy in sijn aengesichte, ende sloegen hem met vuysten.",
+      "modernized": "$Js. 50:6$ Toen spuwden zij in zijn aangezicht en sloegen hem met vuisten.",
+      "source_text": "τότε ἐνέπτυσαν εἰς τὸ πρόσωπον αὐτοῦ καὶ ἐκολάφισαν αὐτόν·",
+      "generated_at": "2026-06-06T14:57:45.379380Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 68,
+      "original": "$Iob 16.10. Ioan. 19.3.$ Ende andere <Anders, sloegen hem met stockskens, ofte, garden.> gaven hem kinnebacksslagen, seggende, $Luce 22.64.$ Propheteert ons Christe, wie is ’t die u geslagen heeft?",
+      "modernized": "$Jb. 16:10; Jh. 19:3$ En anderen <Anders: sloegen hem met stokjes of roeden.> gaven hem kaakslagen, en zeiden: $Lk. 22:64$ Profeteer ons, Christus, wie is het die u geslagen heeft?",
+      "source_text": "οἱ δὲ ἐρράπισαν, λέγοντες, Προφήτευσον ἡμῖν, Χριστέ, τίς ἐστιν ὁ παίσας σε;",
+      "generated_at": "2026-06-06T14:58:10.937596Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 69,
+      "original": "$Marc. 14.66. Luce 22.55. Ioan. 18.16, 25.$ Ende Petrus sat <Namelick, buyten de plaetse daer den Ioodschen Raet vergadert was, voor welcken Christus stont, gelijck blijckt uyt versen 71, 75.> buyten in de zale, ende een dienstmaeght quam tot hem, seggende, Ghy waert oock met Iesu <Soo wort hy hier genaemt, om dat hy tot Nazareth was opgevoedt, welck een stadt van Galilea was. siet vers 71. ende Matth. 2.23.> den Galileer.",
+      "modernized": "$Mk. 14:66; Lk. 22:55; Jh. 18:16,25$ En Petrus zat <Namelijk, buiten de plaats waar de Joodse Raad vergaderd was, voor welke Christus stond, zoals blijkt uit de verzen 71, 75.> buiten in de zaal, en een dienstmaagd kwam tot hem, en zei: U was ook met Jezus <Zo wordt hij hier genoemd, omdat hij te Nazareth was opgevoed, wat een stad van Galilea was. Zie vers 71 en $Mt. 2:23$.> de Galileeër.",
+      "source_text": "Ὁ δὲ Πέτρος ἔξω ἐκάθητο ἐν τῇ αὐλῇ· καὶ προσῆλθεν αὐτῷ μία παιδίσκη, λέγουσα, Καὶ σὺ ἦσθα μετὰ Ἰησοῦ τοῦ Γαλιλαίου.",
+      "generated_at": "2026-06-06T14:58:10.969676Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
