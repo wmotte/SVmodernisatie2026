@@ -127,6 +127,33 @@
       "generated_at": "2026-06-06T16:57:06.110280Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 13,
+      "original": "$Matth. 26.62.$ Doe seyde Pilatus tot hem, En hoort ghy niet <Dese saken staen uytgedruckt Luce 23. vers 2.> hoe vele [saken] sy tegen u getuygen?",
+      "modernized": "$Mt. 26:62$ Toen zei Pilatus tot hem: Hoort u niet <Deze zaken staan uitgedrukt in $Lk. 23:2$.> hoeveel [zaken] zij tegen u getuigen?",
+      "source_text": "τότε λέγει αὐτῷ ὁ Πιλάτος, Οὐκ ἀκούεις πόσα σοῦ καταμαρτυροῦσι;",
+      "generated_at": "2026-06-06T17:03:21.155992Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 14,
+      "original": "$Iesa. 53.7. Actor. 8.32.$ Maer hy en antwoordde hem <Eensdeels om dat de beschuldingen openbare leugenen waren, eensdeels om dat hy wilde voor ons onschuldigh veroordeelt worden. Ende soo is vervult het gene te voren van hem geseght was, Iesa. 53. vers 7.> niet op een eenigh woort, alsoo dat de Stadthouder hem seer verwonderde.",
+      "modernized": "$Js. 53:7; Hd. 8:32$ Maar hij antwoordde hem <Enerzijds omdat de beschuldigingen openlijke leugens waren, anderzijds omdat hij voor ons onschuldig veroordeeld wilde worden. En zo is vervuld wat tevoren van hem gezegd was, $Js. 53:7$.> op geen enkel woord, zodat de Stadhouder zich zeer over hem verwonderde.",
+      "source_text": "καὶ οὐκ ἀπεκρίθη αὐτῷ πρὸς οὐδὲ ἓν ῥῆμα, ὥστε θαυμάζειν τὸν ἡγεμόνα λίαν.",
+      "generated_at": "2026-06-06T17:03:54.431753Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 15,
+      "original": "$Marc. 15.6. Luce 23.17. Ioan. 18.39.$ Ende op het <Namelick, van Pascha, Ioan. cap. 18. vers 30.> feest was de Stadt-houder gewoon <Gr. der schare.> den volcke eenen gevangenen los te laten, welcken sy wilden.",
+      "modernized": "$Mk. 15:6; Lk. 23:17; Jh. 18:39$ En op het <Namelijk, van Pascha, $Jh. 18:30$.> feest was de Stadhouder gewoon <Grieks: aan de schare.> het volk één gevangene los te laten, die zij wilden.",
+      "source_text": "κατὰ δὲ ἑορτὴν εἰώθει ὁ ἡγεμὼν ἀπολύειν ἕνα τῷ ὄχλῳ δέσμιον, ὃν ἤθελον.",
+      "generated_at": "2026-06-06T17:04:24.484578Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
