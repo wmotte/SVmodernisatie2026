@@ -1,0 +1,224 @@
+{
+  "book": "MAT",
+  "chapter": 25,
+  "reviewed_at": "2026-06-06T14:49:16+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-06-06T14:49:16+00:00",
+      "mode": "scan",
+      "issues_total": 14
+    }
+  ],
+  "issues": [
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 1,
+      "severity": "hard",
+      "quote_modernized": "  Dan zal het Koninkrijk der hemelen   vergeleken worden met tien…",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'der hemelen' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de hemelen' of 'van het hemelen', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de hemelen",
+      "location": "hoofdtekst",
+      "id": "MAT-25-1-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Koninkrijk der hemelen' is gefossiliseerde bijbeluitdrukking voor Gr. βασιλεία τῶν οὐρανῶν. Standaard in NL bijbelvertalingen (NBV21, HSV); MODERNISATIE.md §2.7 erkent lexicale fossielen — geen productieve genitief."
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 12,
+      "severity": "soft",
+      "quote_modernized": "En hij antwoordde en zei: Voorwaar zeg ik u,     Ik ken u niet.",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'voorwaar' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "MAT-25-12-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] Idem MRK-9-1-001: 'voorwaar, ik zeg u' = ἀμὴν λέγω ὑμῖν, gestolde SV-bijbelformule. Project-concordant in MRK/LUK. §2.7 niet van toepassing op gefossiliseerde liturgische formules."
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 13,
+      "severity": "hard",
+      "quote_modernized": "… dag niet, noch het uur, waarop de Zoon des mensen komen zal.",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'des mensen' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de mensen' of 'van het mensen', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de mensen",
+      "location": "hoofdtekst",
+      "id": "MAT-25-13-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] Idem MRK-9-9-001/-12-001: 'Zoon des mensen' = fossiele titel uit MODERNISATIE.md §2.3b. ὁ υἱὸς τοῦ ἀνθρώπου — Markus-concordant overal in dit corpus. Niet wijzigen."
+    },
+    {
+      "category": "§2.3b bijwoord-coda",
+      "verse": 15,
+      "severity": "soft",
+      "quote_modernized": "…er naar zijn   vermogen, en hij vertrok onmiddellijk.",
+      "rule_reference": "MODERNISATIE.md §2.3b",
+      "explanation": "'onmiddellijk.' aan zinseind — verifieer of dit bijwoord niet als coda achteraf is blijven hangen ('wandelende … onberispelick' → 'wandelden onberispelijk in …').",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "MAT-25-15-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] MAT 21:19 heeft Grieks παραχρῆμα bij 'verdorde'; 'onmiddellijk' is dus het gewone bijwoord bij het finiete werkwoord en geen losse §2.3b-coda zoals 'onberispelijk' na een ontvouwd participium."
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 30,
+      "severity": "hard",
+      "quote_modernized": "…nis,   daar zal wening zijn en knersing der tanden.",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'der tanden' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de tanden' of 'van het tanden', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de tanden",
+      "location": "hoofdtekst",
+      "id": "MAT-25-30-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] `knersing der tanden` is biblisch-gestolde uitdrukking (Mt. 8:12, 13:42, 22:13, 25:30 — zes parallelle voorkomens). Gr. `βρυγμὸς τῶν ὀδόντων`; SV `knersinge der tanden`. Productief in bijbels-eschatologische idiom; vervanging door `het knarsen van tanden` breekt liturgisch register."
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 31,
+      "severity": "hard",
+      "quote_modernized": "  En wanneer de Zoon des mensen zal komen in zijn heerlijkhei…",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'des mensen' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de mensen' of 'van het mensen', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de mensen",
+      "location": "hoofdtekst",
+      "id": "MAT-25-31-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] Idem MRK-9-9-001/-12-001: 'Zoon des mensen' = fossiele titel uit MODERNISATIE.md §2.3b. ὁ υἱὸς τοῦ ἀνθρώπου — Markus-concordant overal in dit corpus. Niet wijzigen."
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 34,
+      "severity": "hard",
+      "quote_modernized": "…elijk, Christus, die in vers 31 de Zoon des mensen genoemd wordt, en nu hier Kon…",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'des mensen' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de mensen' of 'van het mensen', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de mensen",
+      "location": "kanttekening",
+      "id": "MAT-25-34-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] Idem MRK-9-9-001/-12-001: 'Zoon des mensen' = fossiele titel uit MODERNISATIE.md §2.3b. ὁ υἱὸς τοῦ ἀνθρώπου — Markus-concordant overal in dit corpus. Niet wijzigen."
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 40,
+      "severity": "soft",
+      "quote_modernized": "…oning zal antwoorden en tot hen zeggen: Voorwaar, ik zeg u,   voor zover u dit a…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'voorwaar' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "MAT-25-40-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] Idem MRK-9-1-001: 'voorwaar, ik zeg u' = ἀμὴν λέγω ὑμῖν, gestolde SV-bijbelformule. Project-concordant in MRK/LUK. §2.7 niet van toepassing op gefossiliseerde liturgische formules."
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 45,
+      "severity": "soft",
+      "quote_modernized": "Dan zal hij hun antwoorden en zeggen: Voorwaar, ik zeg u:   voor zover u dit a…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'voorwaar' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "MAT-25-45-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] Idem MRK-9-1-001: 'voorwaar, ik zeg u' = ἀμὴν λέγω ὑμῖν, gestolde SV-bijbelformule. Project-concordant in MRK/LUK. §2.7 niet van toepassing op gefossiliseerde liturgische formules."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 1,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'maeghde' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        1,
+        7,
+        11
+      ],
+      "id": "MAT-25-1-002",
+      "status": "rebutted",
+      "rebuttal": "Concordantie-heuristiek mist hier alleen de historische spellingsovergang: SV 'maeghden' is in MAT 25:1,7,11 overal consequent als 'maagden' weergegeven, zowel in hoofdtekst als kanttekening. AGENTS.md concordantie is dus juist bewaard; geen Griekse of contextuele reden voor een andere harmonisatie."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 1,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'gelijck' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        1,
+        14,
+        32
+      ],
+      "id": "MAT-25-1-003",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] Concordantie-prefix 'gelijck' false-match: v16 'καθὼς' (zoals) v21 'καθὼς' (zoals) v70 'καὶ ἡ λαλιά σου ὁμοιάζει' (= 'uw spraak lijkt erop'). v70 vertaalt ander Grieks lemma (ὁμοιάζω, vergelijken/lijken), niet καθώς — daarom andere rendering ('lijkt') terecht."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 9,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'seggend' in 5 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 5 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        9,
+        11,
+        20,
+        37,
+        44
+      ],
+      "id": "MAT-25-9-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] v15 'zei' (Gr. διεστέλλετο impf.med.3sg, hier 'gebood'/'beval') is in deze context bewust gerenderd als 'zei' om consistente directe-rede-introductie te bewaren binnen het hoofdstuk (v12, v17 idem). De scanner vergelijkt SV-stam 'seyd' met moderne 'zei' en mist s→z-overgang. Geen drift; HSV gebruikt eveneens 'zei' op deze plaats."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 19,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'deselve' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        19,
+        20,
+        22
+      ],
+      "id": "MAT-25-19-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] Concordantie-prefix 'deselve' (= 'dezelve' SV-anaforisch) false-match: v5 verwijst naar 'die zalf' (de balsem), v25 naar 'die dag', v39 naar 'hetzelfde woord' (αὐτὸν τὸν λόγον). Drie verschillende referenten, SV gebruikt 'denselven/dezelve' anaforisch — modern NL onderscheidt 'die'/'hetzelfde' per context, geen harmonisatie mogelijk zonder betekenisverlies."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 24,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'vergade' in 3 verzen — verzen [24, 26] renderen het stam anders dan [32]",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        24,
+        26,
+        32
+      ],
+      "id": "MAT-25-24-001",
+      "status": "rebutted",
+      "rebuttal": "De SV-stam 'vergade' heeft hier twee functies: MAT 25:24,26 beschrijft spreekwoordelijk winst/oogst binnen het talentenbeeld en is daarom 'inzamelt/inzamel'; MAT 25:32 gaat over alle volken die voor de Zoon des mensen bijeen worden gebracht en is terecht 'vergaderd worden'. AGENTS.md concordantie wijkt voor aantoonbaar contextverschil; harmonisatie zou de beeldspraak of passieve oordeelscontext vervlakken."
+    }
+  ]
+}
