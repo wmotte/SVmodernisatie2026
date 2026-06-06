@@ -358,6 +358,39 @@
       "generated_at": "2026-06-06T14:07:23.967191Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 40,
+      "original": "Ende hy quam tot de discipelen, ende vondtse slapende, ende seyde tot Petrum, En kondt ghy <Gr. soo.> dan niet een ure met my waken?",
+      "modernized": "En hij kwam tot de discipelen, en vond hen slapend, en zei tot Petrus: Kunt u <Grieks: zo.> dan niet één uur met mij waken?",
+      "source_text": "καὶ ἔρχεται πρὸς τοὺς μαθητάς, καὶ εὑρίσκει αὐτοὺς καθεύδοντας, καὶ λέγει τῷ Πέτρῳ, Οὕτως οὐκ ἰσχύσατε μίαν ὥραν γρηγορῆσαι μετ’ ἐμοῦ;",
+      "generated_at": "2026-06-06T14:11:24.049447Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 41,
+      "original": "Waeckt ende bidt, op dat ghy niet in versoeckinge en komt: $Gal. 5.17.$ de <D. uwe wille is wel goet, maer wort verhindert door uwe natuerlicke swackheyt.> geest is wel gewilligh, maer het vleesch is swack.",
+      "modernized": "Waak en bid, opdat u niet in verzoeking komt: $Gl. 5:17$ de <Dat is, uw wil is wel goed, maar wordt verhinderd door uw natuurlijke zwakheid.> geest is wel gewillig, maar het vlees is zwak.",
+      "source_text": "γρηγορεῖτε καὶ προσεύχεσθε, ἵνα μὴ εἰσέλθητε εἰς πειρασμόν· τὸ μὲν πνεῦμα πρόθυμον, ἡ δὲ σὰρξ ἀσθενής.",
+      "generated_at": "2026-06-06T14:12:02.718255Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "reason": "Imperatief-meervoud op -t naar stam geharmoniseerd: 'bidt' -> 'bid' (ARCHAISMEN.md:80), zodat beide gebiedende werkwoorden in de stamvorm staan ('Waak en bid'). HSV-spiegel bevestigt ('bid')."
+        }
+      ]
+    },
+    {
+      "verse_number": 42,
+      "original": "Wederom ten tweeden mael henen gaende badt hy, seggende, Mijn Vader, indien dese drinckbeker van my niet voorby en kan gaen, ’t en zy dat ick hem drincke, uwen wille geschiede.",
+      "modernized": "En toen hij wederom voor de tweede maal was heengegaan, bad hij en zei: Mijn Vader, indien deze drinkbeker van mij niet voorbij kan gaan, tenzij ik hem drink, uw wil geschiede.",
+      "source_text": "πάλιν ἐκ δευτέρου ἀπελθὼν προσηύξατο, λέγων, Πάτερ μου, εἰ οὐ δύναται τοῦτο τὸ ποτήριον παρελθεῖν ἀπ’ ἐμοῦ, ἐὰν μὴ αὐτὸ πίω, γενηθήτω τὸ θέλημά σου.",
+      "generated_at": "2026-06-06T14:12:35.894335Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
