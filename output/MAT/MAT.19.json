@@ -1,0 +1,46 @@
+{
+  "book": "MATT",
+  "chapter": 19,
+  "introduction": {
+    "original": "1 Christus geneest vele siecken. 3 beantwoort de vrage van den scheydtbrief. 9 leert dat de getrouwde niet en mogen scheyden dan om hoererije. 11 ende dat de gave der onthoudinge niet alleen gegeven en wort. 13 Beveelt dat de kinderen tot hem komen, ende zegentse. 16 Antwoort eenen jongelingh op sijne vrage wat hy moet doen om het eeuwigh leven te verkrijgen. 23 Hoe swaerlick de rijcke in’t Koninckrijck der hemelen komen. 27 wat vergeldinge ontfangen sullen, die het hare om Christi wille verlaten.",
+    "modernized": "1 Christus geneest vele zieken. 3 Beantwoordt de vraag over de scheidbrief. 9 Leert dat de getrouwden niet mogen scheiden dan om hoererij. 11 En dat de gave van de onthouding niet aan allen gegeven wordt. 13 Beveelt dat de kinderen tot hem komen, en zegent hen. 16 Antwoordt een jongeling op zijn vraag wat hij moet doen om het eeuwige leven te verkrijgen. 23 Hoe moeilijk de rijken in het Koninkrijk der hemelen komen. 27 Welke vergelding ontvangen zullen, die het hunne om Christus’ wil verlaten.",
+    "generated_at": "2026-06-06T04:11:47.628602Z",
+    "model": "claude-opus-4-7[1m]"
+  },
+  "verses": [
+    {
+      "verse_number": 1,
+      "original": "ENde $Marc. 10.1.$ het geschiedde, doe Iesus dese woorden ge-eyndight hadde, dat hy vertrock van Galilea, ende quam <And. ontrent, of, neven den Iordaen, gelijck Matth. c. 4. vers 15. want Iudea lagh op deselve zijde van den Iordaen, daer Galilea lagh.> over de Iordaen, in de lantpalen van Iudea.",
+      "modernized": "En $Mk. 10:1$ het geschiedde, toen Jezus deze woorden geëindigd had, dat hij vertrok van Galilea, en kwam <Anders: omtrent, of, naast de Jordaan, zoals $Mt. 4:15$, want Judea lag aan dezelfde zijde van de Jordaan, waar Galilea lag.> over de Jordaan, in het gebied van Judea.",
+      "source_text": "Καὶ ἐγένετο ὅτε ἐτέλεσεν ὁ Ἰησοῦς τοὺς λόγους τούτους, μετῆρεν ἀπὸ τῆς Γαλιλαίας, καὶ ἦλθεν εἰς τὰ ὅρια τῆς Ἰουδαίας πέραν τοῦ Ἰορδάνου.",
+      "generated_at": "2026-06-06T04:12:16.618271Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 2,
+      "original": "Ende vele scharen volghden hem, ende hy genas’se aldaer.",
+      "modernized": "En vele scharen volgden hem, en hij genas hen daar.",
+      "source_text": "καὶ ἠκολούθησαν αὐτῷ ὄχλοι πολλοί, καὶ ἐθεράπευσεν αὐτοὺς ἐκεῖ.",
+      "generated_at": "2026-06-06T04:12:40.519716Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 3,
+      "original": "$Marc. 10.2.$ Ende de Pharizeen quamen tot hem, <Namelick, om te sien, of sy uyt sijn antwoort yet konden vinden waer mede sy hem by het volck verdacht souden mogen maken.> versoeckende hem, ende seggende tot hem, Is het een mensche geoorloft sijn wijf te <Dat is, van sijn wijf te scheyden: gelijck Matth. 5.31.> verlaten om <Gr. alle.> allerley oorsake?",
+      "modernized": "$Mk. 10:2$ En de Farizeeën kwamen tot hem, <Namelijk, om te zien of zij uit zijn antwoord iets konden vinden waarmee zij hem bij het volk verdacht zouden mogen maken.> om hem op de proef te stellen, en zeiden tot hem: Is het een mens geoorloofd zijn vrouw te <Dat is, van zijn vrouw te scheiden; zoals $Mt. 5:31$.> verlaten om <Grieks: alle.> allerlei redenen?",
+      "source_text": "Καὶ προσῆλθον αὐτῷ οἱ Φαρισαῖοι πειράζοντες αὐτόν, καὶ λέγοντες αὐτῷ, Εἰ ἔξεστιν ἀνθρώπῳ ἀπολῦσαι τὴν γυναῖκα αὐτοῦ κατὰ πᾶσαν αἰτίαν;",
+      "generated_at": "2026-06-06T04:13:19.467305Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "source": "HSV-spiegel",
+          "text": "'allerlei reden' gecorrigeerd naar het idiomatische 'allerlei redenen' (drempel-§2.7), zonder zinsbouw- of inhoudswijziging."
+        }
+      ]
+    }
+  ]
+}
