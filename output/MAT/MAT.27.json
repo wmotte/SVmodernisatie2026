@@ -100,6 +100,33 @@
       "generated_at": "2026-06-06T16:51:20.551173Z",
       "model": "claude-opus-4-8[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 10,
+      "original": "Ende hebben deselve gegeven voor den acker des potbackers, <Dese woorden en staen wel niet by den Propheet, maer den inhoudt van dien.> volgens het gene my de Heere bevolen heeft.",
+      "modernized": "En zij hebben die gegeven voor de akker van de pottenbakker, <Deze woorden staan wel niet bij de Profeet, maar wel de inhoud daarvan.> volgens wat mij de Heere bevolen heeft.",
+      "source_text": "καὶ ἔδωκαν αὐτὰ εἰς τὸν ἀγρὸν τοῦ κεραμέως, καθὰ συνέταξέ μοι Κύριος.",
+      "generated_at": "2026-06-06T16:55:42.394461Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 11,
+      "original": "$Marc. 15.2. Luce 23.3. Ioan. 18.33.$ Ende Iesus stont voor den Stadthouder, ende de Stadthouder vraeghde hem, seggende, Zijt ghy <Namelick, dien de Ioden voor haren Messias ende Verlosser verwachten.> de Koningh der Ioden? ende Iesus seyde hem, <Siet hier voren Cap. 26. versen 25, 64. ende Ioan. 18.37.> Ghy seght het.",
+      "modernized": "$Mk. 15:2; Lk. 23:3; Jh. 18:33$ En Jezus stond voor de Stadhouder, en de Stadhouder vroeg hem en zei: Bent u <Namelijk, die de Joden als hun Messias en Verlosser verwachten.> de Koning der Joden? En Jezus zei tot hem: <Zie hiervoor $Mt. 26:25,64$ en $Jh. 18:37$.> U zegt het.",
+      "source_text": "Ὁ δὲ Ἰησοῦς ἔστη ἔμπροσθεν τοῦ ἡγεμόνος· καὶ ἐπηρώτησεν αὐτὸν ὁ ἡγεμών, λέγων, Σὺ εἶ ὁ βασιλεὺς τῶν Ἰουδαίων; ὁ δὲ Ἰησοῦς ἔφη αὐτῷ, Σὺ λέγεις.",
+      "generated_at": "2026-06-06T16:56:41.180029Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 12,
+      "original": "Ende als hy van de Overpriesters ende Ouderlingen beschuldight wiert, en antwoorde hy niets.",
+      "modernized": "En toen hij van de Overpriesters en Ouderlingen beschuldigd werd, antwoordde hij niets.",
+      "source_text": "καὶ ἐν τῷ κατηγορεῖσθαι αὐτὸν ὑπὸ τῶν ἀρχιερέων καὶ τῶν πρεσβυτέρων, οὐδὲν ἀπεκρίνατο.",
+      "generated_at": "2026-06-06T16:57:06.110280Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
