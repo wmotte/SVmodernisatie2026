@@ -354,6 +354,46 @@
       "generated_at": "2026-06-06T04:26:42.798582Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 34,
+      "original": "Ende Petrus <Van dese maniere van spreken siet d’aenteeckeninge op Matth. 5.2.> den mont open doende, seyde, <Dat is, bevinde, begrijpe.> Ick verneme in der waerheyt $Deut. 10.17. 2.Paral. 19.7. Iob 34.19. Rom. 2.11. Galat. 2.6. Ephes. 6.9. Coloss. 3.25. 1.Petr. 1.17.$ dat Godt <Dat Godt niet en siet op de uyterlicke gelegentheyt der menschen, dat yemant hem soude aengenaem zijn, om dat hy een Iode ofte Grieck is, arm ofte rijck, edel ofte onedel, Galat. 5.6. ende 6.15. Coloss. 3. vers 11. Ende hier wort insonderheyt gesien op de tijden des Nieuwen Testaments, in het welck het onderscheyt der Ioden ende Heydenen, ende volgens dien oock der werckinge des Heyligen Geests in ’t een volck meer als in het ander, door de komste Christi is wech genomen, gelijck blijckt uyt het volgende vers.> geen aennemer des persoons en is,",
+      "modernized": "En Petrus <Van deze manier van spreken zie de aantekening op $Mt. 5:2$.> opende zijn mond en zei: <Dat is, bevind, begrijp.> Ik bemerk in waarheid $Dt. 10:17; 2Kr. 19:7; Jb. 34:19; Rm. 2:11; Gl. 2:6; Ef. 6:9; Ko. 3:25; 1Pt. 1:17$ dat God <Dat God niet ziet op de uiterlijke omstandigheid van de mensen, dat iemand hem aangenaam zou zijn omdat hij een Jood of Griek is, arm of rijk, edel of onedel, $Gl. 5:6; 6:15; Ko. 3:11$ En hier wordt in het bijzonder gezien op de tijden van het Nieuwe Testament, waarin het onderscheid tussen Joden en Heidenen, en bijgevolg ook van de werking van de Heilige Geest in het ene volk meer dan in het andere, door de komst van Christus is weggenomen, zoals blijkt uit het volgende vers.> geen aannemer van de persoon is,",
+      "source_text": "ἀνοίξας δὲ Πέτρος τὸ στόμα εἶπεν, Ἐπ’ ἀληθείας καταλαμβάνομαι ὅτι οὐκ ἔστι προσωπολήπτης ὁ Θεός·",
+      "generated_at": "2026-06-06T04:30:12.081400Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 35,
+      "original": "$Iesa. 56.6.$ Maer in allen volcke, die hem vreest ende gerechtigheyt werckt is hem aengenaem.",
+      "modernized": "$Js. 56:6$ Maar in elk volk is hij die hem vreest en gerechtigheid werkt, hem aangenaam.",
+      "source_text": "ἀλλ’ ἐν παντὶ ἔθνει ὁ φοβούμενος αὐτὸν καὶ ἐργαζόμενος δικαιοσύνην, δεκτὸς αὐτῷ ἐστι.",
+      "generated_at": "2026-06-06T04:30:33.739195Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 36,
+      "original": "<Ofte, na het woort dat: ofte, aengaende het woort.> [Dit is] het woort dat hy gesonden heeft den kinderen Israëls, $Iesa. 9.5. ende 52.7. Ioan. 16.33. Rom. 5.1. Coloss. 1.20.$ <Gr. euangelizeerende.> verkondigende <Namel. met Godt, ende alle andere volckeren met malkanderen. Siet Ephes. cap. 2. vers 13.> vrede door Iesum Christum: Dese is een Heere van alle.",
+      "modernized": "<Of, naar het woord dat; of, aangaande het woord.> [Dit is] het woord dat hij gezonden heeft aan de kinderen van Israël, $Js. 9:5; 52:7; Jh. 16:33; Rm. 5:1; Ko. 1:20$ <Grieks: het Evangelie verkondigen.> terwijl hij vrede verkondigt <Namelijk, met God, en alle andere volkeren met elkaar. Zie $Ef. 2:13$.> door Jezus Christus: deze is een Heere van allen.",
+      "source_text": "τὸν λόγον ὃν ἀπέστειλε τοῖς υἱοῖς Ἰσραήλ, εὐαγγελιζόμενος εἰρήνην διὰ Ἰησοῦ Χριστοῦ· οὗτός ἐστι πάντων Κύριος·",
+      "generated_at": "2026-06-06T04:31:39.124775Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "participium-ontvouwing",
+          "context": "hoofdtekst",
+          "choice": "verkondigende -> terwijl hij vrede verkondigt",
+          "alternatives": [
+            "verkondigende vrede",
+            "waarin hij vrede verkondigt"
+          ],
+          "reason": "finiet tegenwoordig participium ontvouwd naar finiete bijzin per MODERNISATIE.md 2.3; subject (hij/God) gehandhaafd zonder inhoud toe te voegen"
+        }
+      ]
     }
   ]
 }
