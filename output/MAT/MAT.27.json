@@ -370,6 +370,45 @@
       "generated_at": "2026-06-06T17:43:31.836496Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 40,
+      "original": "Ende seggende, $Matth. 26.61. Ioan. 2.19.$ Ghy die den tempel afbreeckt, ende in drie dagen opbouwt, verlost u selven. Indien ghy de Sone Godts zijt, soo komt af van het kruys.",
+      "modernized": "En zeiden: $Mt. 26:61; Jh. 2:19$ U die de tempel afbreekt en in drie dagen opbouwt, verlos uzelf. Indien u de Zoon van God bent, kom dan af van het kruis.",
+      "source_text": "καὶ λέγοντες, Ὁ καταλύων τὸν ναὸν καὶ ἐν τρισὶν ἡμέραις οἰκοδομῶν, σῶσον σεαυτόν· εἰ Υἱὸς εἶ τοῦ Θεοῦ, κατάβηθι ἀπὸ τοῦ σταυροῦ.",
+      "generated_at": "2026-06-06T17:48:01.191992Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "red uzelf -> verlos uzelf",
+          "context": "hoofdtekst, spotwoorden",
+          "choice": "verlos uzelf",
+          "alternatives": [
+            "red uzelf"
+          ],
+          "reason": "Concordantie: Gr. σῴζω (σῶσον) wordt door SV1657 hier 'verlost u selven' gerenderd, en het echoënde vers 42 (σῶσαι) gebruikt 'verlossen'; 'red' brak de concordantie binnen dezelfde perikoop. HSV-spiegel bevestigt 'verlos Uzelf'."
+        }
+      ]
+    },
+    {
+      "verse_number": 41,
+      "original": "Ende desgelijcks oock de Overpriesters met de Schriftgeleerde ende Ouderlingen ende Pharizeen [hem] bespottende, seyden,",
+      "modernized": "En evenzo bespotten ook de Overpriesters [hem], met de Schriftgeleerden en Ouderlingen en Farizeeën, en zeiden:",
+      "source_text": "ὁμοίως δὲ καὶ οἱ ἀρχιερεῖς ἐμπαίζοντες μετὰ τῶν γραμματέων καὶ πρεσβυτέρων καὶ Φαρισαίων ἔλεγον,",
+      "generated_at": "2026-06-06T17:48:28.939838Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 42,
+      "original": "Andere heeft hy verlost, <Ofte, en kan hy hemselven niet verlossen?> hy en kan hemselven niet verlossen. Indien hy de Koningh Israëls is, dat hy nu afkome van het kruys, ende wy sullen hem gelooven.",
+      "modernized": "Anderen heeft hij verlost, <Of, kan hij zichzelf niet verlossen?> zichzelf kan hij niet verlossen. Indien hij de Koning van Israël is, laat hij nu afkomen van het kruis, en wij zullen hem geloven.",
+      "source_text": "Ἄλλους ἔσωσεν, ἑαυτὸν οὐ δύναται σῶσαι. εἰ βασιλεὺς Ἰσραήλ ἐστι, καταβάτω νῦν ἀπὸ τοῦ σταυροῦ, καὶ πιστεύσομεν αὐτῷ.",
+      "generated_at": "2026-06-06T17:48:47.373036Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
