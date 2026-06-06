@@ -250,6 +250,42 @@
       "generated_at": "2026-06-06T18:08:53.888457Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 28,
+      "original": "Ende hy keerde wederom, ende sat op sijnen wagen, ende las den Propheet Esaiam.",
+      "modernized": "En hij keerde terug en zat op zijn wagen en las de Profeet Jesaja.",
+      "source_text": "ἦν τε ὑποστρέφων καὶ καθήμενος ἐπὶ τοῦ ἅρματος αὐτοῦ, καὶ ἀνεγίνωσκε τὸν προφήτην Ἠσαΐαν.",
+      "generated_at": "2026-06-06T18:14:44.544313Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 29,
+      "original": "Ende de Geest seyde tot Philippum, Gaet toe, ende voeght u by desen wagen.",
+      "modernized": "En de Geest zei tegen Filippus: Ga erheen en voeg u bij deze wagen.",
+      "source_text": "εἶπε δὲ τὸ Πνεῦμα τῷ Φιλίππῳ, Πρόσελθε καὶ κολλήθητι τῷ ἅρματι τούτῳ.",
+      "generated_at": "2026-06-06T18:15:17.697044Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 30,
+      "original": "Ende Philippus liep toe, ende hoorde hem den Propheet Esaiam lesen, ende seyde, Verstaet ghy oock het gene ghy leest?",
+      "modernized": "En Filippus snelde erheen en hoorde hem de Profeet Jesaja lezen, en zei: Begrijpt u ook wat u leest?",
+      "source_text": "προσδραμὼν δὲ ὁ Φίλιππος ἤκουσεν αὐτοῦ ἀναγινώσκοντος τὸν προφήτην Ἠσαΐαν, καὶ εἶπεν, Ἆρά γε γινώσκεις ἃ ἀναγινώσκεις;",
+      "generated_at": "2026-06-06T18:15:38.833227Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "subject": "liep toe",
+          "context": "hoofdtekst",
+          "choice": "snelde erheen",
+          "reason": "HSV-spiegel en Grieks προσδραμών bevestigen dat het hier om snel toelopen gaat; 'liep erheen' verzwakt die beweging."
+        }
+      ]
     }
   ]
 }
