@@ -84,6 +84,7 @@ Standaard-substituties voor de hoofdtekst:
 | ulieden / ulieder | u / jullie — SV 2e-pers-meervoud (`gijlieden`-paradigma); `ulieden` → `u`, gen. `ulieder` → `uw`. Drempel-archaïsme. Red-green ronde 1 RG1-003 (Joh. 3:11, 5:33-42) |
 | nimmermeer | nooit (meer) — kaal-temporeel, geen gestold idioom/attribuut → faalt §2.7. Drempel-archaïsme. Red-green ronde 10 RG10-002 (Op. 2:5, 17:3, 20:4; Mt. 12:32) |
 | alwaar | waar — locatief relativum, verliesvrij. Drempel-archaïsme §2.7. Red-green ronde 10 RG10-003 |
+| allengs | geleidelijk / langzamerhand — obsoleet bijwoord, faalt productiviteitstest §2.7. Schone 1:1-vervanging. Red-green ronde 11 RG11-002 (Op. 17:8,10,11, 6:8; 1Kor. 8:11; Gal. 2:5; Mk. 4:28) |
 
 Geen letterlijke vervanging als de zinsbouw eronder lijdt; herformuleer
 de zin zodat hij modern Nederlands oplevert.

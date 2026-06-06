@@ -383,6 +383,11 @@ DREMPEL_ARCHAISMEN: frozenset[str] = frozenset({
     # Locatief relativum 'alwaar' (= 'waar'). Verliesvrij, faalt §2.7.
     # Red-green ronde 10 RG10-003; nt-wide.
     "alwaar",
+    # Obsoleet bijwoord 'allengs' (= 'geleidelijk' / 'langzamerhand'). Faalt
+    # de productiviteitstest §2.7: literair/oud, modern niet meer in gebruik.
+    # Schone 1:1-vervanging. Red-green ronde 11 RG11-002 (REV 17:8,10,11,
+    # 6:8; 1CO 8:11; GAL 2:5; MRK 4:28 — alle kanttekeningen); nt-wide.
+    "allengs",
 })
 
 DREMPEL_FOSSIELEN: tuple[str, ...] = (
