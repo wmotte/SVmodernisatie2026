@@ -135,3 +135,6 @@ Red bracht 4 punt(en). Verdicts: red_wins=3, green_wins=0, rule_change=1.
 - **[RG6-004] (consistentie)** om de aanleiding af te snijden voor hen die een aanleiding willen
   - regel: concordantie cross-book (Grieks aphorme); fix: Harmoniseer aphorme NT-breed; binnen ROM/2CO 'oorzaak' (conform SV-bron) of expliciet 'aanleiding' overal.
   - verdict: **rule_change** (scope=nt-wide, applied=False) — ἀφορμή-concordantiedrift, NT-breed, GEEN bestaande validator-regel of vaste concordantie-richtlijn voor ἀφορμή (grep scripts/docs/rules: geen treffer voor ἀφορμ/aanleiding/oorzaak-nam-concordantie). s
+
+## Ronde 7 — REV + JHN  (2026-06-06T06:22:31.884369+00:00)
+Red bracht 0 punt(en). Verdicts: red_wins=0, green_wins=0, rule_change=0.
