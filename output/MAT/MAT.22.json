@@ -358,6 +358,33 @@
       "generated_at": "2026-06-06T09:54:31.419401Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 40,
+      "original": "Aen dese twee geboden hanght <Dat is, hier in als in een hooftsomme zijn alle geboden van de wet ende verklaringen der Propheten over deselve vervattet. Siet Rom. cap. 13. vers 10. 1.Timoth. cap. 1. vers 5.> de gantsche wet ende de Propheten.",
+      "modernized": "Aan deze twee geboden hangt <Dat is, hierin als in een hoofdsom zijn alle geboden van de wet en verklaringen van de Profeten over dezelfde vervat. Zie $Rm. 13:10; 1Tm. 1:5$.> de gehele wet en de Profeten.",
+      "source_text": "ἐν ταύταις ταῖς δυσὶν ἐντολαῖς ὅλος ὁ νόμος καὶ οἱ προφῆται κρέμανται.",
+      "generated_at": "2026-06-06T10:00:21.608282Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 41,
+      "original": "$Marc. 12.35. Luce 20.41.$ Als nu de Pharizeen t’samen vergadert waren, vraeghde haer Iesus,",
+      "modernized": "$Mk. 12:35; Lk. 20:41$ Toen nu de Farizeeën samen vergaderd waren, vroeg Jezus hun,",
+      "source_text": "Συνηγμένων δὲ τῶν Φαρισαίων, ἐπηρώτησεν αὐτοὺς ὁ Ἰησοῦς,",
+      "generated_at": "2026-06-06T10:00:43.261011Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 42,
+      "original": "Ende seyde, Wat dunckt u van <Dat is, van den beloofden Messias, ofte gesalfde.> de Christus, Wiens sone is hy? Sy seyden tot hem, Davids [sone.]",
+      "modernized": "En zei: Wat denkt u van <Dat is, van de beloofde Messias, of gezalfde.> de Christus? Wiens zoon is hij? Zij zeiden tot hem: Davids [zoon.]",
+      "source_text": "λέγων, Τί ὑμῖν δοκεῖ περὶ τοῦ Χριστοῦ; τίνος Υἱός ἐστι; λέγουσιν αὐτῷ, Τοῦ Δαβίδ.",
+      "generated_at": "2026-06-06T10:00:55.878556Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
