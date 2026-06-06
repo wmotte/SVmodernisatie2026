@@ -52,24 +52,36 @@
     },
     {
       "verse_number": 7,
-      "status": "pending",
-      "sv2026": "",
+      "status": "modernized",
+      "sv2026": "Toen stonden al die maagden op en <Grieks: versierden.> bereidden hun lampen.",
       "hsv": "Toen stonden al die meisjes op en maakten hun lampen in orde.",
       "original": "Doe stonden alle die maeghden op ende <Gr. verçierden.> bereydden hare lampen."
     },
     {
       "verse_number": 8,
-      "status": "pending",
-      "sv2026": "",
+      "status": "modernized",
+      "sv2026": "En de dwazen zeiden tot de wijzen: Geef ons van uw olie, want onze lampen gaan uit.",
       "hsv": "De dwazen zeiden tegen de wijzen: Geef ons van uw olie, want onze lampen gaan uit.",
       "original": "Ende de dwase seyden tot de wijse, Geeft ons van uwe olie, want onse lampen gaen uyt."
     },
     {
       "verse_number": 9,
-      "status": "pending",
-      "sv2026": "",
+      "status": "modernized",
+      "sv2026": "Maar de wijzen antwoordden en zeiden: [In geen geval,] anders zal er misschien niet genoeg zijn voor ons en voor u; maar ga liever naar de verkopers en koop voor uzelf.",
       "hsv": "Maar de wijzen antwoordden: [In geen geval] , anders is er misschien niet genoeg voor ons en u. Ga liever naar de verkopers en koop [olie] voor uzelf.",
-      "original": "Doch de wijse antwoordden, seggende, [Geensins,] op datter misschien voor ons ende voor u niet genoegh en zy: maer gaet liever tot de verkoopers, ende koopt voor u selven."
+      "original": "Doch de wijse antwoordden, seggende, [Geensins,] op datter misschien voor ons ende voor u niet genoegh en zy: maer gaet liever tot de verkoopers, ende koopt voor u selven.",
+      "notes": [
+        {
+          "type": "context",
+          "subject": "Geenszins",
+          "context": "vierkante haken",
+          "choice": "[In geen geval,]",
+          "alternatives": [
+            "[Geenszins,]"
+          ],
+          "reason": "HSV-spiegel bevestigt een drempel-archaïsme; de toevoegingshaken en de komma uit de SV blijven behouden."
+        }
+      ]
     },
     {
       "verse_number": 10,
