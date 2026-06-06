@@ -142,6 +142,33 @@
       "generated_at": "2026-06-06T08:44:44.304435Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 16,
+      "original": "Dat alsdan die in Iudea zijn, vlieden <Namelick, om haer aldaer te versteken voor de straffe.> op de bergen.",
+      "modernized": "Laten dan zij die in Judea zijn, vluchten <Namelijk, om zich daar te verbergen voor de straf.> naar de bergen.",
+      "source_text": "τότε οἱ ἐν τῇ Ἰουδαίᾳ φευγέτωσαν ἐπὶ τὰ ὄρη·",
+      "generated_at": "2026-06-06T09:12:52.540214Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 17,
+      "original": "Die op het <De Ioden waren veel op de daken der huysen, om datse boven plat waren. Siet hier voren Matth. 10.27.> dack is, en kome niet af, om yet uyt sijn huys wech te nemen.",
+      "modernized": "Wie op het <De Joden waren vaak op de daken van de huizen, omdat die van boven plat waren. Zie hiervoor $Mt. 10:27$.> dak is, laat die niet afdalen om iets uit zijn huis weg te nemen.",
+      "source_text": "ὁ ἐπὶ τοῦ δώματος μὴ καταβαινέτω ἆραί τι ἐκ τῆς οἰκίας αὐτοῦ·",
+      "generated_at": "2026-06-06T09:13:26.252031Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 18,
+      "original": "Ende die op den acker is, <Dat is, en verliese geenen tijt om te vluchten.> en keere niet weder te rugge, om sijne kleederen wech te nemen.",
+      "modernized": "En wie op de akker is, <Dat is, laat hij geen tijd verliezen om te vluchten.> laat die niet terugkeren om zijn kleren weg te nemen.",
+      "source_text": "καὶ ὁ ἐν τῷ ἀγρῷ μὴ ἐπιστρεψάτω ὀπίσω ἆραι τὰ ἱμάτια αὐτοῦ.",
+      "generated_at": "2026-06-06T09:13:55.641393Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
