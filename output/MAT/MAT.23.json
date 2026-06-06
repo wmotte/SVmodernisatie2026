@@ -323,6 +323,45 @@
       "generated_at": "2026-06-06T09:22:21.628614Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 31,
+      "original": "Aldus getuyght ghy [tegen] u selven, $Actor. 7.51. 1.Thess. 2.15.$ dat ghy <Gr. sonen.> kinderen zijt der gene die de Propheten gedoot hebben.",
+      "modernized": "Zo getuigt u [tegen] uzelf, $Hd. 7:51; 1Th. 2:15$ dat u <Grieks: zonen.> kinderen bent van degenen die de Profeten gedood hebben.",
+      "source_text": "ὥστε μαρτυρεῖτε ἑαυτοῖς ὅτι υἱοί ἐστε τῶν φονευσάντων τοὺς προφήτας·",
+      "generated_at": "2026-06-06T09:25:44.391032Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 32,
+      "original": "Ghy [dan] oock <D. gaet soo vry voort, volget ende voleyndight uwer vaderen boosheyt in het dooden der Propheten, tot dat u de verdiende straffe sal over komen.> vervult de mate uwer vaderen.",
+      "modernized": "U [dan] ook <Dat is, ga zo maar vrij voort, volg en voltooi de boosheid van uw vaders in het doden van de Profeten, totdat de verdiende straf u zal overkomen.> vervul de maat van uw vaders.",
+      "source_text": "καὶ ὑμεῖς πληρώσατε τὸ μέτρον τῶν πατέρων ὑμῶν.",
+      "generated_at": "2026-06-06T09:25:48.647880Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "imperatief-meervoud naar stam",
+          "context": "hoofdtekst: vervult de maat",
+          "choice": "vervul",
+          "alternatives": [
+            "vervult"
+          ],
+          "reason": "Grieks pleroosate is 2e mv. aorist imperatief; modern beleefdheidsimperatief op u krijgt de stamvorm (ARCHAISMEN.md: imperatief-mv. -t harmoniseert naar de stam), conform de eerdere correctie in vers 3 (houdt/doet -> houd/doe). HSV-spiegel leest eveneens imperatief (Maakt ... vol)."
+        }
+      ]
+    },
+    {
+      "verse_number": 33,
+      "original": "$Matth. 3.7.$ Ghy <Siet Rom. c. 3. vers 13, etc.> slangen, ghy adderen gebroetsels, hoe soudt ghy de <Gr. het oordeel der helle.> helsche verdoemenisse ontvlieden?",
+      "modernized": "$Mt. 3:7$ U <Zie $Rm. 3:13$, enz.> slangen, u addergebroed, hoe zou u de <Grieks: het oordeel van de hel.> helse verdoemenis ontvluchten?",
+      "source_text": "ὄφεις, γεννήματα ἐχιδνῶν, πῶς φύγητε ἀπὸ τῆς κρίσεως τῆς γεέννης;",
+      "generated_at": "2026-06-06T09:26:21.139040Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
