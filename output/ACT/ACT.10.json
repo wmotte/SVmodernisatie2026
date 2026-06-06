@@ -235,6 +235,45 @@
       "generated_at": "2026-06-06T04:11:03.352373Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 25,
+      "original": "Ende als het geschiedde dat Petrus in quam, gingh hem Cornelius te gemoete, ende vallende aen [sijne] voeten <Namelick, hem burgerlicke eerbiedinge bewijsende. Want alsoo Cornelius den waren Godt Israëls kende, ende vreesde, soo en is het niet gelooflick, dat hy Petrum als Godt soude ge-eert hebben: maer om dat de eere die hy hem bewees de mate te buyten gingh, ende eenigen schijn hadde van Goddelicke eere, soo heeft hem Petrus daer over met recht berispt, gelijck oock de Engel Ioannem in gelijcken gevalle bestraft, Apoc. 22.9.> aenbadt hy.",
+      "modernized": "En toen het geschiedde dat Petrus binnenkwam, ging Cornelius hem tegemoet, en hij viel aan [zijn] voeten <Namelijk, hem burgerlijke eerbied bewijzende. Want omdat Cornelius de ware God van Israël kende en vreesde, is het niet geloofwaardig dat hij Petrus als God geëerd zou hebben; maar omdat de eer die hij hem bewees de maat te buiten ging en enige schijn had van Goddelijke eer, heeft Petrus hem daarover terecht berispt, zoals ook de Engel Johannes in een dergelijk geval bestraft, $Op. 22:9$.> en aanbad.",
+      "source_text": "ὡς δὲ ἐγένετο εἰσελθεῖν τὸν Πέτρον, συναντήσας αὐτῷ ὁ Κορνήλιος, πεσὼν ἐπὶ τοὺς πόδας, προσεκύνησεν.",
+      "generated_at": "2026-06-06T04:14:48.729162Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "aanbad hem -> aanbad",
+          "context": "hoofdtekst; HSV-spiegel",
+          "choice": "en aanbad",
+          "alternatives": [
+            "en aanbad hem"
+          ],
+          "reason": "Grieks προσεκύνησεν is absoluut (geen object) en SV1657 schrijft 'aenbadt hy' zonder object; het toegevoegde 'hem' was exegese in de hoofdtekst (MODERNISATIE.md §3.4). HSV-spiegel markeert het object ook als translator-toevoeging '[hem]'."
+        }
+      ]
+    },
+    {
+      "verse_number": 26,
+      "original": "Maer Petrus rechtede hem op, seggende, $Actor. 14.14. Apoc. 19.10. ende 22.9.$ Staet op, ick ben oock selve een mensche.",
+      "modernized": "Maar Petrus richtte hem op en zei: $Hd. 14:14; Op. 19:10; 22:9$ Sta op, ik ben ook zelf een mens.",
+      "source_text": "ὁ δὲ Πέτρος αὐτὸν ἤγειρε λέγων, Ἀνάστηθι· κἀγὼ αὐτὸς ἄνθρωπός εἰμι.",
+      "generated_at": "2026-06-06T04:15:01.547025Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 27,
+      "original": "Ende met hem sprekende gingh hy in, ende vondt’er vele die te samen gekomen waren.",
+      "modernized": "En terwijl hij met hem sprak, ging hij naar binnen, en vond er velen die samengekomen waren.",
+      "source_text": "καὶ συνομιλῶν αὐτῷ εἰσῆλθε, καὶ εὑρίσκει συνεληλυθότας πολλούς,",
+      "generated_at": "2026-06-06T04:14:53.269248Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
