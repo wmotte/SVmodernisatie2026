@@ -52,6 +52,42 @@
           "reason": "SV1657-zetfout: 2 Korinthe heeft slechts 13 hoofdstukken, dus 21:2 is onmogelijk. Bedoeld is 2Kor. 12:2 (Paulus' visioen, kruisverwijzing naar Hd. 9:3); HSV-spiegel bevestigt onafhankelijk. Mapping in source_corrections.py."
         }
       ]
+    },
+    {
+      "verse_number": 4,
+      "original": "Ende ter aerden <Namelick, uyt schrick, verbaestheyt, ende vreese.> gevallen zijnde, hoorde hy een stemme die tot hem <Namelick, in de Hebreeusche tale, Actor. 26.14.> seyde, Saul, Saul, wat vervolght ghy <Namel. in mijne leden, D. mijne gemeynte, die mijn lichaem is, 1.Cor. c. 12. vers 12. Ephes. cap. 5. vers 23.> my?",
+      "modernized": "En toen hij ter aarde gevallen was, <Namelijk, uit schrik, ontsteltenis en vrees.> hoorde hij een stem die tot hem <Namelijk, in de Hebreeuwse taal, $Hd. 26:14$.> zei: Saul, Saul, waarom vervolgt u <Namelijk, in mijn leden, dat is, mijn gemeente, die mijn lichaam is, $1Kor. 12:12; Ef. 5:23$.> mij?",
+      "source_text": "καὶ πεσὼν ἐπὶ τὴν γῆν, ἤκουσε φωνὴν λέγουσαν αὐτῷ, Σαούλ, Σαούλ, τί με διώκεις;",
+      "generated_at": "2026-06-06T17:46:20.350136Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 5,
+      "original": "Ende hy seyde, Wie zijt ghy Heere? Ende de Heere seyde, Ick ben Iesus dien ghy vervolght. $Actor. 5.39.$ Het is u hardt <Namel. gelijck de ossen ende andere lastbeesten achter uyt slaen, wanneerse met prickels worden voort gestouwt, ende alsoo niet de prickels maer haer selven quetsen.> de verzenen tegen de prickels te slaen.",
+      "modernized": "En hij zei: Wie bent u, Heere? En de Heere zei: Ik ben Jezus, die u vervolgt. $Hd. 5:39$ Het is hard voor u <Namelijk, zoals de ossen en andere lastdieren achteruit slaan wanneer zij met prikkels worden voortgedreven, en zo niet de prikkels maar zichzelf kwetsen.> de hielen tegen de prikkels te slaan.",
+      "source_text": "εἶπε δέ, Τίς εἶ, Κύριε; ὁ δὲ Κύριος εἶπεν, Ἐγώ εἰμι Ἰησοῦς ὃν σὺ διώκεις· σκληρόν σοι πρὸς κέντρα λακτίζειν.",
+      "generated_at": "2026-06-06T17:46:55.357656Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "drempel-archaïsme",
+          "context": "hoofdtekst (idioom tegen de prikkels slaan)",
+          "choice": "\"verzenen\" → \"hielen\"",
+          "reason": "Drempel-§2.7: \"verzenen\" is in modern Nederlands niet meer productief; \"hielen\" is het gangbare equivalent. SV-zinsbouw en het spreekwoord blijven onveranderd; HSV-spiegel lost dit onafhankelijk op met \"hielen\"."
+        }
+      ]
+    },
+    {
+      "verse_number": 6,
+      "original": "Ende hy bevende ende verbaest zijnde, seyde, Heere, $Luce 3.10. Actor. 2.37. ende 16.30.$ wat wilt ghy dat ick doen sal? Ende de Heere [seyde] tot hem, Staet op, ende gaet in de stadt, ende u sal [aldaer] geseght worden, <Namel. om u gesichte wederom te krijgen, ende voor een discipel gehouden te worden, gelijck vers 17 verklaert wort. Want andersins wat sijne leere ende Apostelschap aengaet, die en heeft hy noch van menschen, noch door menschen, Gal. 1. versen 1, 12.> wat ghy doen moet.",
+      "modernized": "En hij zei, bevend en ontsteld: Heere, $Lk. 3:10; Hd. 2:37; 16:30$ wat wilt u dat ik doen zal? En de Heere [zei] tot hem: Sta op, en ga de stad in, en u zal [daar] gezegd worden, <Namelijk, om uw gezicht weer te krijgen, en voor een discipel gehouden te worden, zoals vers 17 verklaart. Want anders, wat zijn leer en Apostelschap aangaat, die heeft hij niet van mensen, noch door mensen, $Gl. 1:1,12$.> wat u doen moet.",
+      "source_text": "τρέμων τε καὶ θαμβῶν εἶπε, Κύριε, τί με θέλεις ποιῆσαι; καὶ ὁ Κύριος πρὸς αὐτόν, Ἀνάστηθι καὶ εἴσελθε εἰς τὴν πόλιν, καὶ λαληθήσεταί σοι τί σε δεῖ ποιεῖν.",
+      "generated_at": "2026-06-06T17:47:21.620026Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
