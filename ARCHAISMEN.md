@@ -77,11 +77,13 @@ Standaard-substituties voor de hoofdtekst:
 | prijs              | lof / prijzing — in de formule `tot prijs van zijn heerlijkheid` (Gr. ἔπαινος) leest modern `prijs` primair als geldelijke waarde; `lof` behoudt de formele lading (Ef. 1:6,12,14) |
 | ure                | uur / moment — `ure` (oud-dativisch) leeft niet meer; `uur` (klok) of `moment` (eschatologisch / 'dat uur') context-afhankelijk (Mk. 13:11; 13:32; 14:35) |
 | (Hoort\|Ziet\|Zie) toe (imperatief) | luister / let op / pas op / kijk uit — SV-imperatief-formule (`hoort toe`, `ziet toe`) leeft niet meer; modern alternatief context-afhankelijk: bij waarschuwing `pas op` / `kijk uit`, bij oproep tot aandacht `luister` / `let op` (Mk. 4:3; 8:15; 13:5; 13:9; 13:23; 13:33) |
-| imperatief-meervoud op `-t` | gebruik de stam — SV-gebiedende wijs `Bewaart` / `behoudt` / `grijpt` / `volgt` / `Brengt` → `Bewaar` / `behoud` / `grijp` / `volg` / `Breng`; gevangen door `scan_archaic_imperative_t` (anker = zinsbegin/leesteken/nevenschikker + object, stam-gate) (Jd. 1:21,23; Lk. 22:10; Mk. 12:15; 14:13,44) |
+| imperatief-meervoud op `-t` | gebruik de stam — SV-gebiedende wijs `Bewaart` / `behoudt` / `grijpt` / `volgt` / `Brengt` / `Drinkt` → `Bewaar` / `behoud` / `grijp` / `volg` / `Breng` / `Drink`; gevangen door `scan_archaic_imperative_t` (anker = zinsbegin/leesteken/nevenschikker + object, stam-gate) (Jd. 1:21,23; Lk. 22:10; Mk. 12:15; 14:13,44; Mt. 26:27) |
 | morrenden | mopperaars / mensen die morren — gesubstantiveerd `-enden`-participium dat buiten `PARTICIPLE_RE` (`\w+ende\b`) valt (Jd. 1:16) |
 | lijdzaamheid / lijdzaam | volharding / geduldig, contextafhankelijk — bij ὑπομονή gaat het om standvastig volharden; modern `lijdzaamheid` leest als passieve berusting (Jk. 1:3; HEB 12:1-3) |
 | dezelve / hetzelve / denzelve(n) / derzelve(r) / dezelver / dezelven | die / dat / hem / haar / het — SV-aanwijzend voornaamwoord; modern NL gebruikt `die/dat/het`. Herstructureer: `tegen hetzelve` → `daartegen` / `tegen dat beest`, `in dezelve` → `daarin` / `in haar`. Exacte-woord-match (raakt `dezelfde` niet). Red-green ronde 3 RG3-001/002 (Op. 13:4 e.v., 18:24) |
 | ulieden / ulieder | u / jullie — SV 2e-pers-meervoud (`gijlieden`-paradigma); `ulieden` → `u`, gen. `ulieder` → `uw`. Drempel-archaïsme. Red-green ronde 1 RG1-003 (Joh. 3:11, 5:33-42) |
+| nimmermeer | nooit (meer) — kaal-temporeel, geen gestold idioom/attribuut → faalt §2.7. Drempel-archaïsme. Red-green ronde 10 RG10-002 (Op. 2:5, 17:3, 20:4; Mt. 12:32) |
+| alwaar | waar — locatief relativum, verliesvrij. Drempel-archaïsme §2.7. Red-green ronde 10 RG10-003 |
 
 Geen letterlijke vervanging als de zinsbouw eronder lijdt; herformuleer
 de zin zodat hij modern Nederlands oplevert.

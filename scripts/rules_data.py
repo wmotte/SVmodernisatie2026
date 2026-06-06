@@ -376,6 +376,13 @@ DREMPEL_ARCHAISMEN: frozenset[str] = frozenset({
     # SV 2e-pers-meervoud 'ulieden' / gen. 'ulieder' (= modern 'u'/'jullie').
     # Drempel-archaïsme §2.7. Red-green ronde 1 RG1-003 (JHN 3:11, 5:33-42); nt-wide.
     "ulieden", "ulieder",
+    # Temporeel 'nimmermeer' (= 'nooit (meer)'). Kaal-temporeel, geen gestold
+    # idioom/attribuut → faalt §2.7. Red-green ronde 10 RG10-002 (REV 2:5,
+    # 17:3, 20:4 + MAT 12:32); nt-wide.
+    "nimmermeer",
+    # Locatief relativum 'alwaar' (= 'waar'). Verliesvrij, faalt §2.7.
+    # Red-green ronde 10 RG10-003; nt-wide.
+    "alwaar",
 })
 
 DREMPEL_FOSSIELEN: tuple[str, ...] = (
@@ -401,6 +408,9 @@ IMPERATIVE_T_STEMS: frozenset[str] = frozenset({
     "bewaar", "behoud", "grijp", "houd", "geef", "neem", "draag",
     "breng", "laat", "red", "ruk", "zoek", "volg", "wacht",
     "verdraag", "verberg", "verlaat", "let", "denk", "vlied",
+    # Red-green ronde 10 RG10-004 (MAT 26:27 'Drinkt allen daaruit', bronvorm
+    # Πίετε aor. imp. 2pl van πίνω). 'drink' ontbrak; nt-wide.
+    "drink",
 })
 IMPERATIVE_OBJECT_TOKENS: frozenset[str] = frozenset({
     "uzelf", "zich", "zichzelf", "hen", "hem", "haar", "ons", "elkaar",
