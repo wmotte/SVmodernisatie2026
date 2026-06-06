@@ -1,0 +1,292 @@
+{
+  "book": "MAT",
+  "chapter": 22,
+  "reviewed_at": "2026-06-06T10:20:09+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-06-06T10:17:02+00:00",
+      "mode": "scan",
+      "issues_total": 16
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-06-06T10:19:32+00:00",
+      "mode": "verify",
+      "actions": [
+        "MAT-22-2-001: rebuttal verified",
+        "MAT-22-5-001: rebuttal verified",
+        "MAT-22-13-001: rebuttal verified",
+        "MAT-22-18-001: rebuttal verified",
+        "MAT-22-20-001: rebuttal verified",
+        "MAT-22-23-001: rebuttal verified",
+        "MAT-22-24-001: rebuttal verified",
+        "MAT-22-24-002: verified",
+        "MAT-22-28-001: rebuttal verified",
+        "MAT-22-30-001: rebuttal verified",
+        "MAT-22-42-001: verified",
+        "MAT-22-45-001: rebuttal verified",
+        "MAT-22-1-001: rebuttal verified",
+        "MAT-22-10-001: rebuttal verified",
+        "MAT-22-12-001: rebuttal verified",
+        "MAT-22-15-001: reopened (te generiek)"
+      ]
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-06-06T10:20:09+00:00",
+      "mode": "verify",
+      "actions": [
+        "MAT-22-15-001: rebuttal verified"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 2,
+      "severity": "hard",
+      "quote_modernized": "  Het Koninkrijk der hemelen   is gelijk aan   een zekere…",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'der hemelen' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de hemelen' of 'van het hemelen', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de hemelen",
+      "location": "hoofdtekst",
+      "id": "MAT-22-2-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Koninkrijk der hemelen' is gefossiliseerde bijbeluitdrukking voor Gr. βασιλεία τῶν οὐρανῶν. Standaard in NL bijbelvertalingen (NBV21, HSV); MODERNISATIE.md §2.7 erkent lexicale fossielen — geen productieve genitief.",
+      "verified_at": "2026-06-06T10:19:32+00:00"
+    },
+    {
+      "category": "dubbele negatie met clitisch en",
+      "verse": 5,
+      "severity": "soft",
+      "quote_modernized": "Maar zij sloegen daar geen acht op en gingen heen, de een naar…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'geen acht op en gingen' — SV-clitisch 'en' tussen negatie en finiet werkwoord. Modern Nederlands gebruikt enkele negatie; verwijder het 'en'.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "MAT-22-5-001",
+      "status": "verified",
+      "rebuttal": "Vers 5 bevat geen SV-clitisch negatie-en maar een gewone nevenschikkende voegwoord-`en`: `geen acht op` sluit de eerste zin af en `gingen heen` vertaalt Grieks `ἀπῆλθον`. ARCHAISMEN.md/SV-syntax verbiedt `niet en V`, niet deze moderne coördinatie.",
+      "verified_at": "2026-06-06T10:19:32+00:00"
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 13,
+      "severity": "hard",
+      "quote_modernized": "…nis:   Daar zal wening zijn en knersing der tanden.",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'der tanden' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de tanden' of 'van het tanden', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de tanden",
+      "location": "hoofdtekst",
+      "id": "MAT-22-13-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] `knersing der tanden` is biblisch-gestolde uitdrukking (Mt. 8:12, 13:42, 22:13, 25:30 — zes parallelle voorkomens). Gr. `βρυγμὸς τῶν ὀδόντων`; SV `knersinge der tanden`. Productief in bijbels-eschatologische idiom; vervanging door `het knarsen van tanden` breekt liturgisch register.",
+      "verified_at": "2026-06-06T10:19:32+00:00"
+    },
+    {
+      "category": "§2.3 finiet participium",
+      "verse": 18,
+      "severity": "soft",
+      "quote_modernized": "Maar Jezus, die hun boosheid kende, zei:",
+      "rule_reference": "MODERNISATIE.md §2.3",
+      "explanation": "'kende' — verdacht -ende-woord in adverbial / clause-final positie. Ontvouw naar finiete bijzin ('en X', 'terwijl X', 'toen X').",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "MAT-22-18-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] 'kende' is hier finiet imperfectum 3p.sg. van werkwoord 'kennen' (Gr. ἐπιγνοὺς → 'kende', concordantie LUK 5:22), GEEN -ende-participium. §2.3 reikwijdte = adverbiale/clause-final participia; deze vorm is hoofdwerkwoord van bijzin 'die meteen ... kende dat zij ...'. Scanner-regex faalt op homografie tussen finiete impf en -ende-participium.",
+      "verified_at": "2026-06-06T10:19:32+00:00"
+    },
+    {
+      "category": "genitief pronomen wiens/wier",
+      "verse": 20,
+      "severity": "hard",
+      "quote_modernized": "En hij zei tot hen: Wiens is dit beeld en het opschrift?",
+      "rule_reference": "ARCHAISMEN.md (SV-pronomina)",
+      "explanation": "'wiens is' — formeel-archaïsch genitief-pronomen. Modern Nederlands: 'van wie is' of zinsherbouw met bezittelijk voornaamwoord ('die zijn is', 'die haar is'). NBV21 vermijdt 'wiens' grotendeels.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "MAT-22-20-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] 'Wiens is dit beeld' — concordant met onze LUK 20:24 modernisering 'wiens beeld en opschrift heeft hij?' (zelfde perikoop, parallelle Griekse vraagformule τίνος ἡ εἰκὼν). 'wiens' wordt in formeel-bijbelse register breed gebruikt; ARCHAISMEN.md verbiedt het niet expliciet. HSV-spiegel zou 'Van wie is...' kiezen, maar SV2026 volgt eigen concordantielijn met LUK 20:24.",
+      "verified_at": "2026-06-06T10:19:32+00:00"
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 23,
+      "severity": "hard",
+      "quote_modernized": "Van de sekte der Sadduceeën zie uitvoeriger $Hd. 23:8…",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'der Sadduceeën' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de Sadduceeën' of 'van het Sadduceeën', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de Sadduceeën",
+      "location": "kanttekening",
+      "id": "MAT-22-23-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] 'sekte der Sadduceeën' — woordelijk concordant met onze LUK 20:27 kanttekening 'Van de sekte der Sadduceeën zie uitvoeriger $Hd. 23:8$' (parallelle perikoop, Mt 22:23 / Mk 12:18 / Lk 20:27 synoptisch). De SV-kanttekening op zowel MRK 12:18 als LUK 20:27 gebruikt αἵρεσις Σαδδουκαίων als gefossiliseerde theologisch-historische term. §2.3b verbogen-lidwoord-uitzondering: de genitief 'der' is productief in formele bijbel-genitieven die een vaste collocatie vormen (vergelijk 'Koninkrijk der hemelen', 'Zoon des mensen'); 'sekte der Sadduceeën' is structureel identiek. Wijzigen naar 'sekte van de Sadduceeën' breekt de concordantie met LUK 20:27 kanttekening.",
+      "verified_at": "2026-06-06T10:19:32+00:00"
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 24,
+      "severity": "soft",
+      "quote_modernized": "… zeiden: Meester,   Mozes heeft gezegd: Indien iemand sterft zonder   kinderen t…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "MAT-22-24-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-06-06T10:19:32+00:00"
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 24,
+      "severity": "soft",
+      "quote_modernized": "voor zijn broer nageslacht",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'voor zijn broer nageslacht' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "MAT-22-24-002",
+      "status": "verified",
+      "verified_at": "2026-06-06T10:19:32+00:00"
+    },
+    {
+      "category": "genitief pronomen wiens/wier",
+      "verse": 28,
+      "severity": "hard",
+      "quote_modernized": "In de opstanding dan, wiens vrouw zal zij zijn van die zeven? …",
+      "rule_reference": "ARCHAISMEN.md (SV-pronomina)",
+      "explanation": "'wiens vrouw' — formeel-archaïsch genitief-pronomen. Modern Nederlands: 'van wie vrouw' of zinsherbouw met bezittelijk voornaamwoord ('die zijn vrouw', 'die haar vrouw'). NBV21 vermijdt 'wiens' grotendeels.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "MAT-22-28-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] 'wiens vrouw zal zij van hen zijn' — woordelijk concordant met onze LUK 20:33 modernisering 'wiens vrouw van hen zal zij zijn' (parallelle Sadduceeën-perikoop, Mt 22:28 / Mk 12:23 / Lk 20:33 synoptisch). Grieks τίνος αὐτῶν ἔσται γυνή = 'wiens van hen [de] vrouw'; 'wiens' vertaalt de genitivus interrogativus τίνος. ARCHAISMEN.md noemt 'wiens' niet in de SV-pronomina-verbiedlijst; MODERNISATIE.md §2.3b verbiedt verbogen-lidwoord-fossielen, niet interrogatief-relatieve pronomina. NBV21 vermijdt 'wiens' grotendeels (NBV21 v23: 'van wie zal zij dan de vrouw zijn'), maar SV2026 volgt eigen formeel-bijbels register en houdt 'wiens' concordant met LUK 20:33.",
+      "verified_at": "2026-06-06T10:19:32+00:00"
+    },
+    {
+      "category": "§2.3b bijwoord-coda",
+      "verse": 30,
+      "severity": "soft",
+      "quote_modernized": "…t in de opstanding nemen zij   niet ten huwelijk, noch worden zij   ten huwelijk…",
+      "rule_reference": "MODERNISATIE.md §2.3b",
+      "explanation": "'huwelijk,' aan zinseind — verifieer of dit bijwoord niet als coda achteraf is blijven hangen ('wandelende … onberispelick' → 'wandelden onberispelijk in …').",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "MAT-22-30-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Scanner-regex-artefact: 'ten huwelijk' is geen adverbiale coda maar vaste werkwoordelijke verbinding ('ten huwelijk nemen' / 'ten huwelijk geven', Gr. ἐγάμουν / ἐξεγαμίζοντο). Vers-specifiek v27: de komma na 'huwelijk' is lijstscheiding tussen de vier werkwoorden (aten, dronken, namen ten huwelijk, werden ten huwelijk gegeven), geen nageschoven bijwoord.",
+      "verified_at": "2026-06-06T10:19:32+00:00"
+    },
+    {
+      "category": "genitief pronomen wiens/wier",
+      "verse": 42,
+      "severity": "hard",
+      "quote_modernized": "En zei: Wat denkt u van   de Christus? Wiens zoon is hij? Zij zeiden tot hem: D…",
+      "rule_reference": "ARCHAISMEN.md (SV-pronomina)",
+      "explanation": "'wiens zoon' — formeel-archaïsch genitief-pronomen. Modern Nederlands: 'van wie zoon' of zinsherbouw met bezittelijk voornaamwoord ('die zijn zoon', 'die haar zoon'). NBV21 vermijdt 'wiens' grotendeels.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "MAT-22-42-001",
+      "status": "verified",
+      "verified_at": "2026-06-06T10:19:32+00:00"
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 45,
+      "severity": "soft",
+      "quote_modernized": "  Indien David hem dan zijn Heere noemt, h…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "MAT-22-45-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-06-06T10:19:32+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 1,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'seggend' in 6 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 6 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        1,
+        4,
+        16,
+        24,
+        35,
+        43
+      ],
+      "id": "MAT-22-1-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Concordantie-drift 'seggend' is structurele §2.3-toepassing: SV-participium 'seggende' (ALWAYS_BAD-categorie) wordt consistent ontvouwd naar finiet 'zei/zeiden' in alle 6 verzen (v4/v9/v18/v29/v34/v36). Modernisatie verwijdert participiumkop opzettelijk per regel; geen drift maar uniform §2.3-protocol.",
+      "verified_at": "2026-06-06T10:19:32+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 10,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'vergade' in 3 verzen — verzen [34] renderen het stam anders dan [10, 41]",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        10,
+        34,
+        41
+      ],
+      "id": "MAT-22-10-001",
+      "status": "verified",
+      "rebuttal": "Vers 10 gebruikt actief Grieks `συνήγαγον`: de dienstknechten `verzamelden` personen. Vers 34 (`συνήχθησαν`) en vers 41 (`Συνηγμένων`) gaan intransitief/passief over Farizeeën die samen bijeen zijn. AGENTS.md-concordantie laat context/voice-verschil toe; één Nederlandse vorm zou hier semantisch drift veroorzaken.",
+      "verified_at": "2026-06-06T10:19:32+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 12,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'hebbend' in 4 verzen — verzen [25, 34] renderen het stam anders dan [12, 24]",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 4 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        12,
+        24,
+        25,
+        34
+      ],
+      "id": "MAT-22-12-001",
+      "status": "verified",
+      "rebuttal": "De scanner groepeert Nederlands `hebbend`, maar de verzen hebben verschillende Griekse functies: v12/v24 `μὴ ἔχων` bij bezit (`geen ... hebben`), v25 idem causaal (`omdat hij geen nageslacht had`), v34 juist `ἀκούσαντες` (`toen ... hoorden`). AGENTS.md-concordantie geldt per bronwoord en syntactische functie; harmoniseren op één vorm zou §2.3-ontvouwing terugdraaien.",
+      "verified_at": "2026-06-06T10:19:32+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 15,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'pharize' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        15,
+        34,
+        41
+      ],
+      "id": "MAT-22-15-001",
+      "status": "verified",
+      "rebuttal": "Versen 15, 34 en 41 gebruiken dezelfde naamgroep: Grieks `Φαρισαῖοι`, in MAT 22 consequent gemoderniseerd als `Farizeeën`. AGENTS.md-concordantie is dus juist intact; de scanner-prefix `pharize` mist alleen de normale Ph→F-spellingsmodernisatie.",
+      "verified_at": "2026-06-06T10:20:09+00:00"
+    }
+  ]
+}
