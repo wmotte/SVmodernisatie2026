@@ -1,5 +1,5 @@
 {
-  "rounds_done": 8,
+  "rounds_done": 9,
   "pairs": [
     [
       "REV",
@@ -32,15 +32,21 @@
     [
       "LUK",
       "ROM"
+    ],
+    [
+      "LUK",
+      "ROM",
+      "MRK"
     ]
   ],
   "debate_count": {
     "REV": 6,
     "JHN": 3,
     "1CO": 2,
-    "LUK": 2,
-    "ROM": 2,
-    "2CO": 1
+    "LUK": 3,
+    "ROM": 3,
+    "2CO": 1,
+    "MRK": 1
   },
   "closed_keys": [
     "consistentie|2CO,ROM|om de aanleiding af te snijden voor hen|concordantie cross-book (grieks aphorme)",
@@ -48,6 +54,7 @@
     "consistentie|JHN|volgt u mij|archaismen.md (imperatief enkelvoud -t -> stam); interne concordantie",
     "consistentie|JHN|vrouw waarom huilt u wie zoekt u|projectregel κλαίω→wenen; agents.md concordantie",
     "consistentie|JHN|vrouw waarom huilt u|projectregel κλαίω→wenen; agents.md concordantie",
+    "consistentie|LUK,MRK|maar dadelijk is nog niet het einde|agents.md concordantie (εὐθύς/εὐθέως cross-book); durende richtlijn red-green",
     "consistentie|REV|maar hetgeen u hebt houdt dat vast totdat|archaismen.md (imperatief-meervoud op `-t` → stam); modernisatie.md imperatief-`-t`",
     "modernisatie|1CO|die eet en drinkt zichzelf een oordeel niet|modernisatie.md §2.3 (finiet participium) + §2.3b (object nageschoven na participium)",
     "modernisatie|1CO|doet dat zo dikwijls als gij die zult|archaismen.md (imperatief-meervoud op `-t` → stam; ghy/gy/gij → u)",
@@ -66,6 +73,7 @@
     "modernisatie|JHN|neemt u hem en oordeelt hem naar uw|archaismen.md (imperatief meervoud -t -> stam)",
     "modernisatie|LUK|bidt en u zal gegeven worden zoekt en|archaismen.md (imperatief-meervoud op `-t` → stam); modernisatie.md imperatief-`-t`",
     "modernisatie|LUK|brengt dan vruchten voort die de bekering waardig|archaismen.md (imperatief-meervoud op `-t` → stam)",
+    "modernisatie|LUK|de kaarsen brandende|modernisatie.md §2.3 (predicatief/periphrastisch participium / -ende)",
     "modernisatie|LUK|doet niemand overlast aan noch ontvreemdt niemand het|archaismen.md:78 (imperatief-meervoud sv-`-t` -> stam)",
     "modernisatie|LUK|en hij zei gaat heen in dat dorp|archaismen.md:78 (imperatief-meervoud sv-`-t` -> stam)",
     "modernisatie|LUK|en hij zei tot hen ziet als u|archaismen.md:78 (imperatief-meervoud sv-`-t` -> stam)",
@@ -81,6 +89,14 @@
     "modernisatie|LUK|zei gaat heen en bereidt ons het pascha|archaismen.md (imperatief-meervoud op `-t` → stam)",
     "modernisatie|LUK|zei hij neemt deze en deelt hem onder|archaismen.md (imperatief-meervoud op `-t` → stam)",
     "modernisatie|LUK|ziet toe dat u niet verleid wordt|archaismen.md (imperatief-meervoud op `-t` → stam; `(hoort|ziet|zie) toe` → let op / pas op)",
+    "modernisatie|MRK|antwoordt mij|archaismen.md:78 (imperatief-meervoud sv-`-t` → stam)",
+    "modernisatie|MRK|bereidt de weg van de heere maakt zijn|archaismen.md:78 (imperatief-meervoud sv-`-t` → stam)",
+    "modernisatie|MRK|geeft dan de keizer wat van de keizer|archaismen.md:78 (imperatief-meervoud sv-`-t` → stam)",
+    "modernisatie|MRK|geeft u hun te eten|archaismen.md:78 (imperatief-meervoud sv-`-t` → stam)",
+    "modernisatie|MRK|hoort toe|archaismen.md:78 (imperatief-meervoud sv-`-t` → stam); `(hoort|ziet) toe` → let op",
+    "modernisatie|MRK|neemt eet|archaismen.md:78 (imperatief-meervoud sv-`-t` → stam); modernisatie.md imperatief-`-t`",
+    "modernisatie|MRK|waakt dan|archaismen.md:78 (imperatief-meervoud sv-`-t` → stam)",
+    "modernisatie|MRK|zo wie achter mij wil komen|modernisatie.md drempel-archaïsme (correlatief 'zo wie ... die')",
     "modernisatie|REV|het zwaard van hem die op het paard|archaismen.md (betrekkelijk hetwelk in hoofdtekst); modernisatie.md drempel-archaisme",
     "modernisatie|REV|komt hierheen op|modernisatie.md (imperatief-`-t`); archaismen.md:78",
     "modernisatie|REV|looft onze god u alle zijn dienstknechten|archaismen.md (imperatief meervoud -t -> stam)",
@@ -93,5 +109,5 @@
     "modernisatie|ROM|weest vrolijk u heidenen met zijn volk|archaismen.md:78 imperatief-meervoud sv-`-t` -> stam"
   ],
   "open_keys": [],
-  "updated_at": "2026-06-06T06:52:47.777935+00:00"
+  "updated_at": "2026-06-06T07:51:35.509329+00:00"
 }

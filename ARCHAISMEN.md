@@ -42,6 +42,7 @@ Standaard-substituties voor de hoofdtekst:
 | geschied / geschiedt / geschiedde / geschiedden / geschieden | gebeurd / gebeurt / gebeurde / gebeurden / gebeuren — hele paradigma, voor concordantie (γίνομαι); geldt ook in kanttekeningen. **Uitzonderingen (blijven staan):** de gefossiliseerde formule `(en) het geschiedde …` / `'t geschiedde …` (narratief, καὶ ἐγένετο) en `geschiedde het woord van God …` (profetisch, Lk 3:2) — zie MODERNISATIE.md §2.3d; plus `geschiede` (Onze Vader, Lk 11:2). Concrete betekenis (`geschiedde een stem`, Lk 9:35) wél moderniseren → `kwam`. |
 | oorzaak (ἀφορμή)   | aanleiding — concordantie (ἀφορμή = "aanleiding/gelegenheid", niet causaal "oorzaak"=αἰτία). Meerderheidspool 2CO 5:12 / 11:12 / GAL 5:13 / 1TI 5:14 al "aanleiding"; harmoniseer ROM 7:8 / 7:11 mee. Geen validator-gate (durende richtlijn). |
 | gelijk (voegw.)    | zoals                                |
+| zo wie … die       | wie … die — SV-correlatief (Gr. Ὅστις / Εἴ τις + `die`); drempel-archaïsme dat de renovatie overleefde. Modern NL: `Wie achter mij wil komen, die …`. `zo wie` adjacent komt nooit in modern proza voor → HARD in ARCHAISM_BLACKLIST (`\bzo\s+wie\b`). Red-green ronde 9 RG9-009 (MRK 8:34/8:35/8:38, LUK 17:33). |
 | vaderen            | vaders                               |
 | reukofferen (ww.)  | het reukoffer brengen                |
 | vertoefde / vertoefden | bleef / bleven (lit. "verbleef") |
