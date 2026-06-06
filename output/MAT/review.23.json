@@ -1,0 +1,192 @@
+{
+  "book": "MAT",
+  "chapter": 23,
+  "reviewed_at": "2026-06-06T09:39:51+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-06-06T09:39:51+00:00",
+      "mode": "scan",
+      "issues_total": 12
+    }
+  ],
+  "issues": [
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 5,
+      "severity": "soft",
+      "quote_modernized": "…rieks: Phylacteria, dat is, bewaarcedels, welke briefjes of cedeltjes van perkam…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "MAT-23-5-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 8,
+      "severity": "hard",
+      "quote_modernized": "…d moet worden, $Mt. 17:5$ en die de weg der zaligheid niet alleen aanwijst, maar…",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'der zaligheid' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de zaligheid' of 'van het zaligheid', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de zaligheid",
+      "location": "kanttekening",
+      "id": "MAT-23-8-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] Genitief 'gronden der zaligheid' in de KANTTEKENING — kanttekening-register behoudt formele genitief (corpusnorm, validate.py 0F). Onderscheidt van 8-002 (hoofdtekst, gefixt)."
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 13,
+      "severity": "hard",
+      "quote_modernized": "…uichelaars: Want u sluit het Koninkrijk der hemelen voor de mensen, omdat u daar…",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'der hemelen' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de hemelen' of 'van het hemelen', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de hemelen",
+      "location": "hoofdtekst",
+      "id": "MAT-23-13-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Koninkrijk der hemelen' is gefossiliseerde bijbeluitdrukking voor Gr. βασιλεία τῶν οὐρανῶν. Standaard in NL bijbelvertalingen (NBV21, HSV); MODERNISATIE.md §2.7 erkent lexicale fossielen — geen productieve genitief."
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 13,
+      "severity": "hard",
+      "quote_modernized": "…, dat is, die op de weg zijn om de leer des Evangelies aan te nemen, belet u zov…",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'des Evangelies' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de Evangelies' of 'van het Evangelies', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de Evangelies",
+      "location": "kanttekening",
+      "id": "MAT-23-13-002",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] Genitief-modernisatie (ARCHAISMEN.md) geldt blijkens validator (0F) en corpusnorm — 115 kanttekening-genitieven verified, 0 gefixt — voor de HOOFDTEKST; de kanttekening behoudt het formele register. Vers 24: 'de zuivere leer des Evangelies' = gefossiliseerde genitief-uitdrukking (τοῦ εὐαγγελίου)."
+    },
+    {
+      "category": "§2.3b vocatief-u",
+      "verse": 26,
+      "severity": "soft",
+      "quote_modernized": "U blinde Farizeeër   reinig eerst   wat …",
+      "rule_reference": "MODERNISATIE.md §2.3b",
+      "explanation": "'u blinde' aan zin-/clause-begin — mogelijke vocatief-u-Latinaatconstructie. Verifieer of 'u' hier object van aanspreking is en weghaalbaar is.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "MAT-23-26-001",
+      "status": "fixed",
+      "fix_note": "Vocatief-pronoun consequent gedropt in dit hoofdstuk: v17 \"Dwazen en blinden\" (Φαρισαῖε-type), v24 \"Blinde leidslieden\" (ὁδηγοὶ τυφλοί). §2.3b vocatief-u eist drop, niet \"U\"; v26 \"U blinde Farizeeër\" → \"Blinde Farizeeër\" voor interne concordantie."
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 30,
+      "severity": "soft",
+      "quote_modernized": "En u zegt: Indien wij   in de tijd van onze vaders …",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "MAT-23-30-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+    },
+    {
+      "category": "genitief pronomen wiens/wier",
+      "verse": 35,
+      "severity": "hard",
+      "quote_modernized": "…is een van de laatste Profeten geweest, wiens dood of vermoorden in het Oude Tes…",
+      "rule_reference": "ARCHAISMEN.md (SV-pronomina)",
+      "explanation": "'wiens dood' — formeel-archaïsch genitief-pronomen. Modern Nederlands: 'van wie dood' of zinsherbouw met bezittelijk voornaamwoord ('die zijn dood', 'die haar dood'). NBV21 vermijdt 'wiens' grotendeels.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "MAT-23-35-001",
+      "status": "rebutted",
+      "rebuttal": "\"wiens\" verwijst naar mannelijk antecedent \"deze Zacharia\" en is het standaard-moderne genitief-betrekkelijk-voornaamwoord (vgl. \"de man wiens huis\"); slaagt §2.7-productiviteitstest, geen archaïsme. Onderscheidt zich van \"wier\" (fem./mv., wél markerend). Hier: \"wiens dood of vermoorden\"."
+    },
+    {
+      "category": "genitief pronomen wiens/wier",
+      "verse": 35,
+      "severity": "hard",
+      "quote_modernized": "…e Testament met name verhaald wordt, en wiens bloed, zoals ook het bloed van Abe…",
+      "rule_reference": "ARCHAISMEN.md (SV-pronomina)",
+      "explanation": "'wiens bloed' — formeel-archaïsch genitief-pronomen. Modern Nederlands: 'van wie bloed' of zinsherbouw met bezittelijk voornaamwoord ('die zijn bloed', 'die haar bloed'). NBV21 vermijdt 'wiens' grotendeels.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "MAT-23-35-002",
+      "status": "rebutted",
+      "rebuttal": "\"wiens bloed\" — zelfde mannelijke antecedent \"deze Zacharia\"; genitief-relativum \"wiens\" is productief modern Nederlands (§2.7), in tegenstelling tot fem./mv. \"wier\". Tweede, distincte voorkomen (bloed vs dood); kanttekening-register, geen hoofdtekst-archaïsme."
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 36,
+      "severity": "soft",
+      "quote_modernized": "Voorwaar, ik zeg u, al deze dingen zulle…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'voorwaar' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "MAT-23-36-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] Idem MRK-9-1-001: 'voorwaar, ik zeg u' = ἀμὴν λέγω ὑμῖν, gestolde SV-bijbelformule. Project-concordant in MRK/LUK. §2.7 niet van toepassing op gefossiliseerde liturgische formules."
+    },
+    {
+      "category": "kanttekening-luiheid (§2.3 in <…>)",
+      "verse": 39,
+      "severity": "hard",
+      "quote_modernized": "…j dan zullen moeten bekennen dat hij de gezegende van de Heere, dat is, de ware …",
+      "rule_reference": "KANTTEKENINGEN.md + §2.3",
+      "explanation": "'gezegende' binnen kanttekening — verdacht -ende-woord in adverbial / clause-final positie. §2.3 geldt ook in <…>; ontvouw naar finiete bijzin.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "MAT-23-39-001",
+      "status": "rebutted",
+      "rebuttal": "\"de gezegende van de Heere\" is een zelfstandig gebruikt participium (substantief = \"de gezegende\", ὁ εὐλογημένος), modern productief naamwoord, parallel aan hoofdtekst \"Gezegend [is] hij die komt\". §2.3 viseert adverbiale/predicatieve -ende-participia, niet gesubstantiveerde; \"dat is, de ware Messias\" is legitieme exegese, geen luie parafrase."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 2,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'pharize' in 9 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 9 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        2,
+        13,
+        14,
+        15,
+        23,
+        25,
+        26,
+        27,
+        29
+      ],
+      "id": "MAT-23-2-001",
+      "status": "rebutted",
+      "rebuttal": "Scanner-prefix-heuristiek mist orthografische overgang ph→f: origineel-stam \"pharize\" wordt corpusbreed consequent \"Farizeeën\"/\"Farizeeër\" weergegeven over alle 9 verzen. Geen werkelijke drift — false-positive van de stam-prefix-vergelijking (vgl. gedocumenteerde s→z, sch→g-gevallen)."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 13,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'geveyns' in 8 verzen — verzen [13, 14, 15, 23, 25, 27, 29] renderen het stam anders dan [28]",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 8 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        13,
+        14,
+        15,
+        23,
+        25,
+        27,
+        28,
+        29
+      ],
+      "id": "MAT-23-13-003",
+      "status": "fixed",
+      "fix_note": "Concordantie-drift root: ὑποκριταί→\"huichelaars\" in 7 verzen (13,14,15,23,25,27,29); v28 abstractum ὑπόκρισις stond als \"geveinsdheid\" (geveins-root) → geharmoniseerd naar \"huichelarij\" (huichel-root). Dekt root-concordantie én §2.7-productiviteit (\"geveinsdheid\" literair/markeert oud)."
+    }
+  ]
+}
