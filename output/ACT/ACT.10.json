@@ -314,6 +314,46 @@
       "generated_at": "2026-06-06T04:22:24.567881Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 31,
+      "original": "Ende siet, <D. een Engel in mans gedaente, vers 3.> een man stont voor my $Matth. 28.3. Marc. 16.5. Luce 24.4.$ in een blinckende kleet, ende seyde, Corneli, uw’ gebedt is verhoort, ende uwe aelmoessen zijn voor Godt <Siet d’aenteeckeninge op vers 4.> gedacht geworden.",
+      "modernized": "En zie, <Dat is, een Engel in mannelijke gedaante, vers 3.> een man stond voor mij $Mt. 28:3; Mk. 16:5; Lk. 24:4$ in een blinkend kleed, en zei: Cornelius, uw gebed is verhoord, en uw aalmoezen zijn voor God <Zie de aantekening op vers 4.> in gedachtenis gekomen.",
+      "source_text": "καὶ ἰδού, ἀνὴρ ἔστη ἐνώπιόν μου ἐν ἐσθῆτι λαμπρᾷ, καί φησι, Κορνήλιε, εἰσηκούσθη σου ἡ προσευχή, καὶ αἱ ἐλεημοσύναι σου ἐμνήσθησαν ἐνώπιον τοῦ Θεοῦ.",
+      "generated_at": "2026-06-06T04:25:41.030679Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "twijfel",
+          "subject": "gedacht geworden",
+          "context": "slot van het vers",
+          "choice": "in gedachtenis gekomen",
+          "alternatives": [
+            "gedacht geworden",
+            "in herinnering gebracht"
+          ],
+          "reason": "SV passief gedacht geworden (Gr. ἐμνήσθησαν) leest archaisch; in gedachtenis gekomen sluit aan bij vers 4 (tot gedachtenis opgekomen) en behoudt de SV-betekenis zonder hervertaling."
+        }
+      ]
+    },
+    {
+      "verse_number": 32,
+      "original": "Sendt dan na Ioppe, ende ontbiedt Simonem die toegenaemt wort Petrus: dese light te huys in het huys van Simon den lederbereyder aen de zee, welcke hier gekomen zijnde, sal tot u spreken.",
+      "modernized": "Zend dan naar Joppe, en ontbied Simon die Petrus genoemd wordt; deze is te gast in het huis van Simon de leerlooier, aan de zee; en wanneer hij hier gekomen is, zal hij tot u spreken.",
+      "source_text": "πέμψον οὖν εἰς Ἰόππην, καὶ μετακάλεσαι Σίμωνα ὃς ἐπικαλεῖται Πέτρος· οὗτος ξενίζεται ἐν οἰκίᾳ Σίμωνος βυρσέως παρὰ θάλασσαν· ὃς παραγενόμενος λαλήσει σοι.",
+      "generated_at": "2026-06-06T04:26:08.260110Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 33,
+      "original": "Soo hebbe ick dan van stonden aen tot u gesonden, ende ghy hebt wel gedaen dat ghy hier gekomen zijt. Wy zijn dan alle nu [hier] tegenwoordigh voor Godt, om te hooren al het gene u van Godt bevolen is.",
+      "modernized": "Zo heb ik dan meteen tot u gezonden, en u hebt er goed aan gedaan dat u hier gekomen bent. Wij zijn dan nu allen [hier] tegenwoordig voor God, om alles te horen wat u door God bevolen is.",
+      "source_text": "Ἐξαυτῆς οὖν ἔπεμψα πρός σε· σύ τε καλῶς ἐποίησας παραγενόμενος. νῦν οὖν πάντες ἡμεῖς ἐνώπιον τοῦ Θεοῦ πάρεσμεν ἀκοῦσαι πάντα τὰ προστεταγμένα σοι ὑπὸ τοῦ Θεοῦ.",
+      "generated_at": "2026-06-06T04:26:42.798582Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
