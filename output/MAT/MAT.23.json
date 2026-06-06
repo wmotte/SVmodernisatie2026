@@ -1,0 +1,61 @@
+{
+  "book": "MATT",
+  "chapter": 23,
+  "introduction": {
+    "original": "1 Christus vermaent sijne toehoorders, dat sy sullen volgen het gene de Schriftgeleerde ende Pharizeen uyt Mose haer leeren, ende niet hare wercken. 5 Beschrijft der selver geveynstheyt ende eergierigheyt. 8 ende vermaent de sijne sich daer van te wachten, ende na nedrigheyt te staen. 13 Verkondight het wee achtmael over de Pharizeen ende Schriftgeleerde, om verscheydene hare boose stucken, als namelick datse den hemel sloten voor de menschen. 14 der weduwen huysen op aten. 15 quade Ioden-genooten maeckten. 16 verkeerdelick leerden sweeren by den tempel, altaer, ende hemel. 23 kleyne dingen vertiendden ende het swaerste van de wet nalieten. 25 datse het buytenste reynighden ende niet het herte. 27 de gewittede graven gelijck zijnde. 29 Datse der ouder Propheten graven optimmerden, ende de nieuwe sochten te dooden. 37 Klaeght over de harneckigheyt der stadt Ierusalem, ende voorseght haren ondergangh.",
+    "modernized": "1 Christus vermaant zijn toehoorders dat zij moeten volgen wat de Schriftgeleerden en Farizeeën uit Mozes hun leren, en niet hun werken. 5 Beschrijft hun huichelarij en eerzucht. 8 en vermaant de zijnen zich daarvoor te hoeden, en naar nederigheid te streven. 13 Verkondigt achtmaal het wee over de Farizeeën en Schriftgeleerden, om verscheidene van hun boze daden, namelijk dat zij de hemel sloten voor de mensen. 14 de huizen van de weduwen opaten. 15 slechte Jodengenoten maakten. 16 verkeerd onderwezen te zweren bij de tempel, het altaar en de hemel. 23 kleine dingen vertiendden en het zwaarste van de wet nalieten. 25 dat zij het buitenste reinigden en niet het hart. 27 op de witgepleisterde graven leken. 29 dat zij de graven van de oude Profeten optimmerden, en de nieuwe zochten te doden. 37 Klaagt over de hardnekkigheid van de stad Jeruzalem, en voorzegt haar ondergang.",
+    "generated_at": "2026-06-06T08:02:10.486300Z",
+    "model": "claude-opus-4-8[1m]"
+  },
+  "verses": [
+    {
+      "verse_number": 1,
+      "original": "DOe sprack Iesus tot de scharen ende tot sijne discipelen,",
+      "modernized": "Toen sprak Jezus tot de scharen en tot zijn discipelen,",
+      "source_text": "Τότε ὁ Ἰησοῦς ἐλάλησε τοῖς ὄχλοις καὶ τοῖς μαθηταῖς αὐτοῦ,",
+      "generated_at": "2026-06-06T08:01:36.440106Z",
+      "model": "claude-opus-4-8[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 2,
+      "original": "Seggende, $Nehem. 8.4.$ De Schriftgeleerde, ende de Pharizeen <D. sy zijn daer toe geroepen ende gestelt om de wet Mosis den volcke voor te lesen ende te verklaren, Actor. 13. vers 15. ende 15.21.> zijn geseten op den stoel Mosis:",
+      "modernized": "En hij zei: $Ne. 8:4$ De Schriftgeleerden en de Farizeeën <Dat is, zij zijn daartoe geroepen en gesteld om de wet van Mozes het volk voor te lezen en te verklaren, $Hd. 13:15; 15:21$.> zijn gezeten op de stoel van Mozes:",
+      "source_text": "λέγων, Ἐπὶ τῆς Μωσέως καθέδρας ἐκάθισαν οἱ γραμματεῖς καὶ οἱ Φαρισαῖοι·",
+      "generated_at": "2026-06-06T08:02:38.692371Z",
+      "model": "claude-opus-4-8[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 3,
+      "original": "$Deut. 17.19. Malach. 2.6.$ Daerom <Namelick, uyt de wet Mosis ende de Propheten: want andersins ’t gene sy daer tegen ofte buyten leerden, noemt Christus den suerdeessem der Pharizeen, ende vermaent sijne discipelen haer daer van te wachten, Matth. c. 16. versen 6, 12.> al wat sy u seggen dat ghy houden sult, houdt [dat] ende doet [het,] maer en doet niet na hare wercken: $Rom. 2.19.$ want sy seggen ’t, ende en doen ’t niet.",
+      "modernized": "$Dt. 17:19; Ml. 2:6$ Daarom <Namelijk, uit de wet van Mozes en de Profeten: want anders wat zij daartegen of daarbuiten onderwezen, noemt Christus de zuurdesem van de Farizeeën, en vermaant zijn discipelen zich daarvoor te hoeden, $Mt. 16:6,12$.> al wat zij u zeggen dat u houden zult, houd [dat] en doe [het,] maar doe niet naar hun werken: $Rm. 2:19$ want zij zeggen het, en doen het niet.",
+      "source_text": "πάντα οὖν ὅσα ἂν εἴπωσιν ὑμῖν τηρεῖν, τηρεῖτε καὶ ποιεῖτε· κατὰ δὲ τὰ ἔργα αὐτῶν μὴ ποιεῖτε, λέγουσι γὰρ καὶ οὐ ποιοῦσι.",
+      "generated_at": "2026-06-06T08:04:05.608989Z",
+      "model": "claude-opus-4-8[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "imperatief-meervoud naar stam",
+          "context": "hoofdtekst: houdt/doet/doet",
+          "choice": "houd / doe / doe",
+          "alternatives": [
+            "houdt / doet"
+          ],
+          "reason": "Griekse tereite/poieite zijn 2e mv. imperatief; modern beleefdheidsimperatief op u krijgt de stamvorm, conform de archaismenrichtlijn (imperatief-mv. -t harmoniseert naar de stam)."
+        },
+        {
+          "type": "afwijking",
+          "subject": "false friend leerden",
+          "context": "kanttekening: wat zij daartegen of daarbuiten leerden",
+          "choice": "onderwezen",
+          "alternatives": [
+            "leerden"
+          ],
+          "reason": "Subject zijn de Farizeeen (lerarende, Gr. didasko); modern 'leerden' kan als zelf-leren gelezen worden. Conform het in MAT vastgelegde patroon (leraar-subject -> onderwijzen) en lint_false_friends-advies gemoderniseerd naar 'onderwezen'."
+        }
+      ]
+    }
+  ]
+}
