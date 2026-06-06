@@ -304,6 +304,45 @@
       "generated_at": "2026-06-06T07:17:55.587961Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 34,
+      "original": "Ick hebbe <Gr. siende gesien. Hebr. D. wel ter degen gesien, ende ernstelick daer op gelet, hoe mijn volck in Egypten mishandelt wort.> merckelick gesien de mishandelinge mijns volcks dat in Egypten is, ende ick hebbe haer suchten gehoort, ende ben <Namelick, van den hemel: ’t welck verstaen moet worden menschelicker wijse gesproken, dat Godt nu bereyt was om sijn volck te verlossen, ende hare vyanden te straffen. Want andersins vervult Godt hemel ende aerde, Ierem. 23. vers 24.> neder gekomen, om haer daer uyt te verlossen: ende nu komt herwaerts ick sal u na Egypten senden.",
+      "modernized": "Ik heb <Grieks: gezien heb ik gezien. Hebreeuws: dat is, terdege gezien, en er ernstig op gelet hoe mijn volk in Egypte mishandeld wordt.> nadrukkelijk gezien de mishandeling van mijn volk dat in Egypte is, en ik heb hun zuchten gehoord, en ben <Namelijk, van de hemel; wat menselijkerwijs gesproken verstaan moet worden, dat God nu bereid was om zijn volk te verlossen en hun vijanden te straffen. Want anders vervult God hemel en aarde, $Jr. 23:24$.> neergekomen, om hen daaruit te verlossen; en kom nu, ik zal u naar Egypte zenden.",
+      "source_text": "ἰδὼν εἶδον τὴν κάκωσιν τοῦ λαοῦ μου τοῦ ἐν Αἰγύπτῳ, καὶ τοῦ στεναγμοῦ αὐτῶν ἤκουσα· καὶ κατέβην ἐξελέσθαι αὐτούς· καὶ νῦν δεῦρο, ἀποστελῶ σε εἰς Αἴγυπτον.",
+      "generated_at": "2026-06-06T07:22:34.004281Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 35,
+      "original": "Desen Mosem, welcken sy verloochent hadden, seggende, Wie heeft u tot een Overste ende Rechter gestelt? desen [segge ick,] heeft Godt tot eenen Oversten ende Verlosser gesonden <D. door de bestieringe. Hebr.> door de hant des Engels, die hem verschenen was in den doornenbosch.",
+      "modernized": "Deze Mozes, die zij verloochend hadden door te zeggen: Wie heeft u tot een Overste en Rechter aangesteld? juist hem [zeg ik] heeft God tot een Overste en Verlosser gezonden <Dat is, door de besturing. Hebr.> door de hand van de Engel, die hem verschenen was in het doornbos.",
+      "source_text": "τοῦτον τὸν Μωϋσῆν ὃν ἠρνήσαντο εἰπόντες, Τίς σε κατέστησεν ἄρχοντα καὶ δικαστήν; τοῦτον ὁ Θεὸς ἄρχοντα καὶ λυτρωτὴν ἀπέστειλεν ἐν χειρὶ ἀγγέλου τοῦ ὀφθέντος αὐτῷ ἐν τῇ βάτῳ.",
+      "generated_at": "2026-06-06T07:23:11.344480Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 36,
+      "original": "$Exod. capp. 7. 8. 9. 10. 11. 13. 14.$ Dese heeft haer uytgeleydt, doende wonderen ende teeckenen in het lant van Egypten, ende in de roode zee, $Exod. 16.1. Deuter. 1.3.$ ende in de woestijne, veertigh jaren.",
+      "modernized": "Exodus hoofdstuk 7, 8, 9, 10, 11, 13, 14. Deze heeft hen uitgeleid, terwijl hij wonderen en tekenen deed in het land van Egypte, en in de rode zee, $Ex. 16:1; Dt. 1:3$ en in de woestijn, veertig jaar.",
+      "source_text": "οὗτος ἐξήγαγεν αὐτούς, ποιήσας τέρατα καὶ σημεῖα ἐν γῇ Αἰγύπτου καὶ ἐν Ἐρυθρᾷ θαλάσσῃ, καὶ ἐν τῇ ἐρήμῳ ἔτη τεσσαράκοντα.",
+      "generated_at": "2026-06-06T07:24:17.167226Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "meervoudige hoofdstuk-verwijzing",
+          "context": "leidende bijbelverwijzing",
+          "choice": "Exodus hoofdstuk 7, 8, 9, 10, 11, 13, 14 als proza zonder bibref-blok",
+          "alternatives": [
+            "Ex. 7-14 als bibref"
+          ],
+          "reason": "bibref-normalisatie corrumpeert hoofdstuk-only/multi-hoofdstuk-refs (capp.); conform projectprecedent als proza gerenderd."
+        }
+      ]
     }
   ]
 }
