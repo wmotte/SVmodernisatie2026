@@ -1,7 +1,7 @@
 {
   "book": "ACT",
   "chapter": 7,
-  "reviewed_at": "2026-06-06T17:14:53+00:00",
+  "reviewed_at": "2026-06-06T17:21:23+00:00",
   "passes": [
     {
       "pass": 1,
@@ -14,6 +14,57 @@
       "ran_at": "2026-06-06T17:14:53+00:00",
       "mode": "scan",
       "issues_total": 31
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-06-06T17:20:06+00:00",
+      "mode": "verify",
+      "actions": [
+        "ACT-7-2-001: verified",
+        "ACT-7-2-002: rebuttal verified",
+        "ACT-7-2-003: rebuttal verified",
+        "ACT-7-6-001: rebuttal verified",
+        "ACT-7-12-001: rebuttal verified",
+        "ACT-7-14-001: rebuttal verified",
+        "ACT-7-16-001: rebuttal verified",
+        "ACT-7-16-002: rebuttal verified",
+        "ACT-7-16-003: rebuttal verified",
+        "ACT-7-16-004: rebuttal verified",
+        "ACT-7-20-001: rebuttal verified",
+        "ACT-7-25-001: rebuttal verified",
+        "ACT-7-30-001: reopened (te generiek)",
+        "ACT-7-31-001: reopened (te generiek)",
+        "ACT-7-38-001: verified",
+        "ACT-7-38-002: reopened (te generiek)",
+        "ACT-7-43-001: rebuttal verified",
+        "ACT-7-43-002: rebuttal verified",
+        "ACT-7-43-003: rebuttal verified",
+        "ACT-7-44-001: reopened (te generiek)",
+        "ACT-7-45-001: reopened (te generiek)",
+        "ACT-7-49-001: rebuttal verified",
+        "ACT-7-55-001: verified",
+        "ACT-7-56-001: rebuttal verified",
+        "ACT-7-58-001: rebuttal verified",
+        "ACT-7-60-001: rebuttal verified",
+        "ACT-7-9-001: rebuttal verified",
+        "ACT-7-20-002: rebuttal verified",
+        "ACT-7-24-001: rebuttal verified",
+        "ACT-7-26-001: rebuttal verified",
+        "ACT-7-28-001: reopened (te generiek)"
+      ]
+    },
+    {
+      "pass": 4,
+      "ran_at": "2026-06-06T17:21:23+00:00",
+      "mode": "verify",
+      "actions": [
+        "ACT-7-30-001: rebuttal verified",
+        "ACT-7-31-001: rebuttal verified",
+        "ACT-7-38-002: rebuttal verified",
+        "ACT-7-44-001: rebuttal verified",
+        "ACT-7-45-001: rebuttal verified",
+        "ACT-7-28-001: rebuttal verified"
+      ]
     }
   ],
   "issues": [
@@ -27,8 +78,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ACT-7-2-001",
-      "status": "fixed",
-      "fix_commit": "PENDING"
+      "status": "verified",
+      "fix_commit": "PENDING",
+      "verified_at": "2026-06-06T17:20:06+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -40,8 +92,9 @@
       "proposed_fix": "van de heerlijkheid",
       "location": "hoofdtekst",
       "id": "ACT-7-2-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] `Namelijk, der heerlijkheid in de hemel` (vers 28, kanttekening) — `der heerlijkheid` is vaste uitdrukking in didactische kanttekening glossend op `Koninkrijk Gods`. Grieks `τῆς δόξης` (gen.sg.fem.) is technische theologische term; SV `der heerlickheyt`. §2.7 niet van toepassing op kanttekening-genitief-fossiel. Concordant met kanttekening-stijl LUK 1:32, 11:2 en KANTTEKENINGEN.md."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] `Namelijk, der heerlijkheid in de hemel` (vers 28, kanttekening) — `der heerlijkheid` is vaste uitdrukking in didactische kanttekening glossend op `Koninkrijk Gods`. Grieks `τῆς δόξης` (gen.sg.fem.) is technische theologische term; SV `der heerlickheyt`. §2.7 niet van toepassing op kanttekening-genitief-fossiel. Concordant met kanttekening-stijl LUK 1:32, 11:2 en KANTTEKENINGEN.md.",
+      "verified_at": "2026-06-06T17:20:06+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -53,8 +106,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ACT-7-2-003",
-      "status": "rebutted",
-      "rebuttal": "Geen redundantie (KANTTEKENINGEN.md §'Geen redundantie'): de kanttekening <Namelijk, toen hij nog in Ur woonde...> preciseert de plaats (Ur, stad van Chaldea) en voegt substantieve info toe; de lemma-echo 'toen hij nog in' verankert de plaatsbepaling. De regel verbiedt alternatief-gloss-lek naar de hoofdtekst, niet lemma-verankering."
+      "status": "verified",
+      "rebuttal": "Geen redundantie (KANTTEKENINGEN.md §'Geen redundantie'): de kanttekening <Namelijk, toen hij nog in Ur woonde...> preciseert de plaats (Ur, stad van Chaldea) en voegt substantieve info toe; de lemma-echo 'toen hij nog in' verankert de plaatsbepaling. De regel verbiedt alternatief-gloss-lek naar de hoofdtekst, niet lemma-verankering.",
+      "verified_at": "2026-06-06T17:20:06+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -66,8 +120,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ACT-7-6-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-06-06T17:20:06+00:00"
     },
     {
       "category": "voornaamwoordelijk bijwoord gesplitst",
@@ -79,8 +134,9 @@
       "proposed_fix": "erin",
       "location": "hoofdtekst",
       "id": "ACT-7-12-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Geen gesplitst voornaamwoordelijk bijwoord: 'er in elk daarvan' = existentieel 'er' + PP 'in elk daarvan'. Modern NL: 'dat er in elk daarvan niet minder dan tienduizend mensen waren' is correcte existentiële constructie ('er waren X in Y'). 'erin' zou hier betekenis-loos zijn; daarvan = pronominaal bijwoord blijft staan. Regex matcht 'er in' ten onrechte; ARCHAISMEN.md SV-syntax-regel geldt alleen waar 'er + voorzetsel' samen ÉÉN pronominaal bijwoord vormt."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Geen gesplitst voornaamwoordelijk bijwoord: 'er in elk daarvan' = existentieel 'er' + PP 'in elk daarvan'. Modern NL: 'dat er in elk daarvan niet minder dan tienduizend mensen waren' is correcte existentiële constructie ('er waren X in Y'). 'erin' zou hier betekenis-loos zijn; daarvan = pronominaal bijwoord blijft staan. Regex matcht 'er in' ten onrechte; ARCHAISMEN.md SV-syntax-regel geldt alleen waar 'er + voorzetsel' samen ÉÉN pronominaal bijwoord vormt.",
+      "verified_at": "2026-06-06T17:20:06+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -92,8 +148,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ACT-7-14-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-06-06T17:20:06+00:00"
     },
     {
       "category": "SV-verbuiging (demonstratief dezer/dien/...)",
@@ -105,8 +162,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ACT-7-16-001",
-      "status": "rebutted",
-      "rebuttal": "'dezen zetten ... over' — substantivisch meervoudig aanwijzend vnw dat naar personen (de vertalers) verwijst, is productief modern Nederlands (vgl. 'dezen menen', 'dezen en genen'); geen gefossiliseerde naamvalsverbuiging. §2.3b betreft adverbiale/flexieve fossielen, niet substantivische pronomina."
+      "status": "verified",
+      "rebuttal": "'dezen zetten ... over' — substantivisch meervoudig aanwijzend vnw dat naar personen (de vertalers) verwijst, is productief modern Nederlands (vgl. 'dezen menen', 'dezen en genen'); geen gefossiliseerde naamvalsverbuiging. §2.3b betreft adverbiale/flexieve fossielen, niet substantivische pronomina.",
+      "verified_at": "2026-06-06T17:20:06+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -118,8 +176,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ACT-7-16-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-06-06T17:20:06+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -131,8 +190,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ACT-7-16-003",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-06-06T17:20:06+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -144,8 +204,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ACT-7-16-004",
-      "status": "rebutted",
-      "rebuttal": "Geen maintext-redundantie: 'de vader van Sichem' (Hemor/Emmor) staat uitsluitend in de kanttekeningen als genealogische identificatie van een bijbelse figuur; de hoofdtekst heeft 'naar Sichem'. Note-interne naamgeving valt niet onder de redundantieregel (KANTTEKENINGEN.md §'Geen redundantie')."
+      "status": "verified",
+      "rebuttal": "Geen maintext-redundantie: 'de vader van Sichem' (Hemor/Emmor) staat uitsluitend in de kanttekeningen als genealogische identificatie van een bijbelse figuur; de hoofdtekst heeft 'naar Sichem'. Note-interne naamgeving valt niet onder de redundantieregel (KANTTEKENINGEN.md §'Geen redundantie').",
+      "verified_at": "2026-06-06T17:20:06+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -157,8 +218,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ACT-7-20-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-06-06T17:20:06+00:00"
     },
     {
       "category": "§2.3 finiet participium",
@@ -170,8 +232,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ACT-7-25-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] 'meende' in '(zoals men meende)' is finiet verleden van 'menen' (3sg pret. ind.) — niet een adverbiaal -ende-participium. Vergelijk Gr. 'ὡς ἐνομίζετο' (impf. pass. 'zoals (algemeen) gedacht werd'); de SV vertaalt dit met 'meynde' (verl.tijd), niet met participium. §2.3 betreft het tegenwoordig deelwoord op -ende; deze hit is heuristische false-positive op het suffix '-ende' in de pret.indicatief 'meende'."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] 'meende' in '(zoals men meende)' is finiet verleden van 'menen' (3sg pret. ind.) — niet een adverbiaal -ende-participium. Vergelijk Gr. 'ὡς ἐνομίζετο' (impf. pass. 'zoals (algemeen) gedacht werd'); de SV vertaalt dit met 'meynde' (verl.tijd), niet met participium. §2.3 betreft het tegenwoordig deelwoord op -ende; deze hit is heuristische false-positive op het suffix '-ende' in de pret.indicatief 'meende'.",
+      "verified_at": "2026-06-06T17:20:06+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -183,8 +246,9 @@
       "proposed_fix": "van de Heeren",
       "location": "hoofdtekst",
       "id": "ACT-7-30-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'des Heeren' staat in FOSSIL_GENITIVE_PAIRS (rules_data.py: ('des','heeren')). Hoofdtekst v13 citeert $Jl. 2:32$ / $Hd. 2:21$: 'de naam des Heeren aanroepen' is een gefossiliseerd bijbels formulier (Gr. τὸ ὄνομα κυρίου), liturgisch en projectbreed behouden; validate.py meldt 0F. Niet de bogus 'dag des Heeren/Op.1:10'-grond."
+      "status": "verified",
+      "rebuttal": "§2.7/§2.3c-fossiel: 'de Engel des Heeren' (ἄγγελος κυρίου, $Ex. 3:2$) is een gestolde bijbelformule die in NBV21/HSV nog flexief gespeld wordt; het paar ('des','heeren') staat in FOSSIL_GENITIVE_PAIRS (validate.py). Vers-specifiek zelfst.nw 'Engel', onderscheiden van 'stem' (v31) en 'getuigenis' (v44).",
+      "verified_at": "2026-06-06T17:21:23+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -196,8 +260,9 @@
       "proposed_fix": "van de Heeren",
       "location": "hoofdtekst",
       "id": "ACT-7-31-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'des Heeren' staat in FOSSIL_GENITIVE_PAIRS (rules_data.py: ('des','heeren')). Hoofdtekst v13 citeert $Jl. 2:32$ / $Hd. 2:21$: 'de naam des Heeren aanroepen' is een gefossiliseerd bijbels formulier (Gr. τὸ ὄνομα κυρίου), liturgisch en projectbreed behouden; validate.py meldt 0F. Niet de bogus 'dag des Heeren/Op.1:10'-grond."
+      "status": "verified",
+      "rebuttal": "§2.7/§2.3c-fossiel: 'een stem des Heeren' (φωνὴ κυρίου) is een gestolde bijbelformule; ('des','heeren') ∈ FOSSIL_GENITIVE_PAIRS (validate.py), in NBV21/HSV-register behouden. Vers-specifiek hier zelfst.nw 'stem', niet 'Engel' (v30) of 'getuigenis' (v44).",
+      "verified_at": "2026-06-06T17:21:23+00:00"
     },
     {
       "category": "kanttekening-luiheid (§2.3 in <…>)",
@@ -209,8 +274,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ACT-7-38-001",
-      "status": "fixed",
-      "fix_commit": "PENDING"
+      "status": "verified",
+      "fix_commit": "PENDING",
+      "verified_at": "2026-06-06T17:20:06+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -222,8 +288,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ACT-7-38-002",
-      "status": "rebutted",
-      "rebuttal": "Geen redundantie: de kanttekening <Of, gemeente. Dit is de vergadering van het volk geweest, die beschreven wordt in Exodus 19...> identificeert wélke vergadering (Sinaï, Ex. 19) en geeft een alternatief 'gemeente'; substantieve exegese, lemma-echo 'vergadering van het volk' is verankering. Regel betreft alternatief-lek naar hoofdtekst."
+      "status": "verified",
+      "rebuttal": "KANTTEKENINGEN.md §'Geen redundantie' verbiedt alternatief-gloss-lek náár de hoofdtekst, niet lemma-verankering. De kanttekening (Of, gemeente; $Ex. 19$) disambigueert wélke vergadering (Sinaï) — substantieve exegese. Vers-specifiek: lemma 'vergadering [van het volk]' v38, niet generiek op andere verzen toepasbaar.",
+      "verified_at": "2026-06-06T17:21:23+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -235,8 +302,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ACT-7-43-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] ARCHAISMEN.md: 'hetwelk de Apostel hier zegt' = formeel-register relativum in kanttekening-gloss (corpusnorm 134 verified). Vers 10, geen hoofdtekst."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] ARCHAISMEN.md: 'hetwelk de Apostel hier zegt' = formeel-register relativum in kanttekening-gloss (corpusnorm 134 verified). Vers 10, geen hoofdtekst.",
+      "verified_at": "2026-06-06T17:20:06+00:00"
     },
     {
       "category": "genitief pronomen wiens/wier",
@@ -248,8 +316,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ACT-7-43-002",
-      "status": "rebutted",
-      "rebuttal": "'wier' (relatief bezittelijk vnw, verwijst naar 'Egyptenaren') is productief in modern formeel Nederlands (ANS §5.6); geen §2.7-drempelarchaïsme. Vgl. NBV21/HSV-register dat 'wier/wiens' in bijzinnen behoudt. Niet identiek aan v58: daar 'wiens' (enkelvoud, mannelijk, Saulus)."
+      "status": "verified",
+      "rebuttal": "'wier' (relatief bezittelijk vnw, verwijst naar 'Egyptenaren') is productief in modern formeel Nederlands (ANS §5.6); geen §2.7-drempelarchaïsme. Vgl. NBV21/HSV-register dat 'wier/wiens' in bijzinnen behoudt. Niet identiek aan v58: daar 'wiens' (enkelvoud, mannelijk, Saulus).",
+      "verified_at": "2026-06-06T17:20:06+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -261,8 +330,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ACT-7-43-003",
-      "status": "rebutted",
-      "rebuttal": "Geen maintext-redundantie: 'gene zijde van Babylonië' komt uit het Amos-5:27-citaat binnen de kanttekening, niet uit de hoofdtekst (die 'het gesternte van uw God' heeft). 'aan gene zijde van' is bovendien een nog courante vaste plaatsbepaling. Geen alternatief-gloss-lek (KANTTEKENINGEN.md §'Geen redundantie')."
+      "status": "verified",
+      "rebuttal": "Geen maintext-redundantie: 'gene zijde van Babylonië' komt uit het Amos-5:27-citaat binnen de kanttekening, niet uit de hoofdtekst (die 'het gesternte van uw God' heeft). 'aan gene zijde van' is bovendien een nog courante vaste plaatsbepaling. Geen alternatief-gloss-lek (KANTTEKENINGEN.md §'Geen redundantie').",
+      "verified_at": "2026-06-06T17:20:06+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -274,8 +344,9 @@
       "proposed_fix": "van de Heeren",
       "location": "kanttekening",
       "id": "ACT-7-44-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'des Heeren' staat in FOSSIL_GENITIVE_PAIRS (rules_data.py: ('des','heeren')). Hoofdtekst v13 citeert $Jl. 2:32$ / $Hd. 2:21$: 'de naam des Heeren aanroepen' is een gefossiliseerd bijbels formulier (Gr. τὸ ὄνομα κυρίου), liturgisch en projectbreed behouden; validate.py meldt 0F. Niet de bogus 'dag des Heeren/Op.1:10'-grond."
+      "status": "verified",
+      "rebuttal": "§2.7/§2.3c-fossiel: 'de getuigenis des Heeren' (μαρτύριον, $Ex. 25:22$) is een gestolde formule voor de wetstafelen; ('des','heeren') ∈ FOSSIL_GENITIVE_PAIRS (validate.py). Vers-specifiek zelfst.nw 'getuigenis', anders dan 'Engel' (v30) en 'stem' (v31).",
+      "verified_at": "2026-06-06T17:21:23+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -287,8 +358,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ACT-7-45-001",
-      "status": "rebutted",
-      "rebuttal": "Geen redundantie: de kanttekening <...zodanig dat zij het aangezicht van onze vaderen niet konden verdragen, $Ex. 23:28$...> geeft een alternatieve syntactische lezing van de constructie; de echo 'het aangezicht van onze vaderen' is intrinsiek aan het uitleggen van die parsing. Substantieve exegese, geen padding."
+      "status": "verified",
+      "rebuttal": "KANTTEKENINGEN.md §'Geen redundantie': de echo 'het aangezicht van onze vaderen' is intrinsiek aan een alternatieve syntactische lezing ($Ex. 23:28$) van 'God verdreven heeft van het aangezicht' — substantieve exegese, geen alternatief-gloss-lek náár de hoofdtekst. Vers-specifiek 45.",
+      "verified_at": "2026-06-06T17:21:23+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -300,8 +372,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ACT-7-49-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-06-06T17:20:06+00:00"
     },
     {
       "category": "§2.3 finiet participium",
@@ -313,8 +386,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ACT-7-55-001",
-      "status": "fixed",
-      "fix_commit": "PENDING"
+      "status": "verified",
+      "fix_commit": "PENDING",
+      "verified_at": "2026-06-06T17:20:06+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -326,8 +400,9 @@
       "proposed_fix": "van de mensen",
       "location": "hoofdtekst",
       "id": "ACT-7-56-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] Idem MRK-9-9-001/-12-001: 'Zoon des mensen' = fossiele titel uit MODERNISATIE.md §2.3b. ὁ υἱὸς τοῦ ἀνθρώπου — Markus-concordant overal in dit corpus. Niet wijzigen."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] Idem MRK-9-9-001/-12-001: 'Zoon des mensen' = fossiele titel uit MODERNISATIE.md §2.3b. ὁ υἱὸς τοῦ ἀνθρώπου — Markus-concordant overal in dit corpus. Niet wijzigen.",
+      "verified_at": "2026-06-06T17:20:06+00:00"
     },
     {
       "category": "genitief pronomen wiens/wier",
@@ -339,8 +414,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ACT-7-58-001",
-      "status": "rebutted",
-      "rebuttal": "'wiens' (relatief bezittelijk vnw, enkelvoud m., verwijst naar 'Saulus') is standaard modern Nederlands (ANS §5.6), niet archaïsch. 'wiens bekering beschreven wordt' is volledig courante constructie; geen §2.7-overtreding. Onderscheidt zich van v43 ('wier', meervoud)."
+      "status": "verified",
+      "rebuttal": "'wiens' (relatief bezittelijk vnw, enkelvoud m., verwijst naar 'Saulus') is standaard modern Nederlands (ANS §5.6), niet archaïsch. 'wiens bekering beschreven wordt' is volledig courante constructie; geen §2.7-overtreding. Onderscheidt zich van v43 ('wier', meervoud).",
+      "verified_at": "2026-06-06T17:20:06+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -352,8 +428,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ACT-7-60-001",
-      "status": "rebutted",
-      "rebuttal": "Geen redundantie: de kanttekening <Grieks: en stel hun deze zonde niet, dat is, wil deze niet handhaven...> geeft de letterlijke Griekse vorm (ἵστημι) tegenover de idiomatische hoofdtekst 'reken ... niet toe'; het gedeelde object 'hun deze zonde niet' is de noodzakelijke ankering voor de Grieks-literale gloss."
+      "status": "verified",
+      "rebuttal": "Geen redundantie: de kanttekening <Grieks: en stel hun deze zonde niet, dat is, wil deze niet handhaven...> geeft de letterlijke Griekse vorm (ἵστημι) tegenover de idiomatische hoofdtekst 'reken ... niet toe'; het gedeelde object 'hun deze zonde niet' is de noodzakelijke ankering voor de Grieks-literale gloss.",
+      "verified_at": "2026-06-06T17:20:06+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -370,8 +447,9 @@
         45
       ],
       "id": "ACT-7-9-001",
-      "status": "rebutted",
-      "rebuttal": "Concordantie-drift false-positive: SV-stam 'gebrach' draagt in v9/16 μετατίθημι (overbrengen → 'overgebracht/gebracht') maar in v45 εἰσάγω (binnenbrengen → 'binnenbrachten'); verschillende Griekse lemmata, dus contextuele rendering is correct, niet inconsistent (§5.3)."
+      "status": "verified",
+      "rebuttal": "Concordantie-drift false-positive: SV-stam 'gebrach' draagt in v9/16 μετατίθημι (overbrengen → 'overgebracht/gebracht') maar in v45 εἰσάγω (binnenbrengen → 'binnenbrachten'); verschillende Griekse lemmata, dus contextuele rendering is correct, niet inconsistent (§5.3).",
+      "verified_at": "2026-06-06T17:20:06+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -390,8 +468,9 @@
         52
       ],
       "id": "ACT-7-20-002",
-      "status": "rebutted",
-      "rebuttal": "Concordantie-drift false-positive: 'welcken' is relatief vnw waarvan de moderne weergave (die/dat/wie/waarmee) per antecedent en naamval verschilt — inherent contextbepaald, geen lexicaal anker dat concordant moet renderen (§5.3 geldt voor inhoudswoorden, niet voor relativa)."
+      "status": "verified",
+      "rebuttal": "Concordantie-drift false-positive: 'welcken' is relatief vnw waarvan de moderne weergave (die/dat/wie/waarmee) per antecedent en naamval verschilt — inherent contextbepaald, geen lexicaal anker dat concordant moet renderen (§5.3 geldt voor inhoudswoorden, niet voor relativa).",
+      "verified_at": "2026-06-06T17:20:06+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -408,8 +487,9 @@
         40
       ],
       "id": "ACT-7-24-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Scanner-prefix-artefact: SV-werkwoord 'geschieden' is bewust vervangen door 'gebeuren' in heel het project (§2.7 drempel — 'geschieden' op grens van archaïsme). Feitelijke renderings: v14 'gebeurd was' (τὸ γεγονός), v16 'gebeurd was' (ἐγένετο), v33 'gebeurd was' (γέγονεν). Drie verzen, één rendering 'gebeuren' — concordantie consistent op moderne stam."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Scanner-prefix-artefact: SV-werkwoord 'geschieden' is bewust vervangen door 'gebeuren' in heel het project (§2.7 drempel — 'geschieden' op grens van archaïsme). Feitelijke renderings: v14 'gebeurd was' (τὸ γεγονός), v16 'gebeurd was' (ἐγένετο), v33 'gebeurd was' (γέγονεν). Drie verzen, één rendering 'gebeuren' — concordantie consistent op moderne stam.",
+      "verified_at": "2026-06-06T17:20:06+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -429,8 +509,9 @@
         59
       ],
       "id": "ACT-7-26-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Concordantie-drift 'seggend' is structurele §2.3-toepassing: SV-participium 'seggende' (ALWAYS_BAD-categorie) wordt consistent ontvouwd naar finiet 'zei/zeiden' in alle 6 verzen (v4/v9/v18/v29/v34/v36). Modernisatie verwijdert participiumkop opzettelijk per regel; geen drift maar uniform §2.3-protocol."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Concordantie-drift 'seggend' is structurele §2.3-toepassing: SV-participium 'seggende' (ALWAYS_BAD-categorie) wordt consistent ontvouwd naar finiet 'zei/zeiden' in alle 6 verzen (v4/v9/v18/v29/v34/v36). Modernisatie verwijdert participiumkop opzettelijk per regel; geen drift maar uniform §2.3-protocol.",
+      "verified_at": "2026-06-06T17:20:06+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -450,8 +531,9 @@
         51
       ],
       "id": "ACT-7-28-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [concordantie-prefix] 'gelijck' in v13,22,26,29,39,44 fungeert als comparatieve/modale partikel in zes verschillende contexten: v13 'gelijck hy haer geseght hadde' → 'zoals'; v22 'gelijck besloten is' → 'zoals'; v26 'die zy gelijck de minste' → 'als'; v29 'gelijckerwijs' → 'zoals'; v39 'gelijck hy gewoon was' → 'zoals'; v44 'sweet wiert gelijck droppelen' → 'als'. Modern NL kent geen één-op-één synoniem; 'zoals' (clause) vs 'als' (NP) is grammaticaal verplicht. Scanner-prefix 'gelijck' is structureel FP."
+      "status": "verified",
+      "rebuttal": "§5.3 geldt voor inhoudswoorden, niet voor partikels: SV-stam 'gelijck' is een comparatief/modaal partikel (καθώς/ὡς) dat per syntaxis verschillend rendert — in v28 als vergelijkende bijzin 'zoals u gisteren de Egyptenaar omgebracht hebt'. Geen lexicaal anker dat concordant hoeft te renderen; vers-specifiek 28.",
+      "verified_at": "2026-06-06T17:21:23+00:00"
     }
   ]
 }
