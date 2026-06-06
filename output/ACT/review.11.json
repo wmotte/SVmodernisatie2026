@@ -1,13 +1,42 @@
 {
   "book": "ACT",
   "chapter": 11,
-  "reviewed_at": "2026-06-06T20:24:23+00:00",
+  "reviewed_at": "2026-06-06T20:29:19+00:00",
   "passes": [
     {
       "pass": 1,
       "ran_at": "2026-06-06T20:24:23+00:00",
       "mode": "scan",
       "issues_total": 14
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-06-06T20:28:48+00:00",
+      "mode": "verify",
+      "actions": [
+        "ACT-11-5-001: verified",
+        "ACT-11-8-001: rebuttal verified",
+        "ACT-11-14-001: rebuttal verified",
+        "ACT-11-17-001: rebuttal verified",
+        "ACT-11-19-001: rebuttal verified",
+        "ACT-11-20-001: verified",
+        "ACT-11-22-001: rebuttal verified",
+        "ACT-11-26-001: rebuttal verified",
+        "ACT-11-28-001: rebuttal verified",
+        "ACT-11-2-001: reopened (te generiek)",
+        "ACT-11-3-001: rebuttal verified",
+        "ACT-11-3-002: rebuttal verified",
+        "ACT-11-10-001: verified",
+        "ACT-11-15-001: rebuttal verified"
+      ]
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-06-06T20:29:19+00:00",
+      "mode": "verify",
+      "actions": [
+        "ACT-11-2-001: rebuttal verified"
+      ]
     }
   ],
   "issues": [
@@ -21,9 +50,10 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ACT-11-5-001",
-      "status": "fixed",
+      "status": "verified",
       "fix_commit": "PENDING",
-      "resolution": "'neerdalende' (καταβαῖνον) ontvouwd naar finiete relatiefzin 'dat neerdaalde' per §2.3; concordant met HAND 10:11 dat καταβαῖνον als 'neerdalen' (infinitief) rendert, niet als -ende-participium. Passief 'neergelaten' (καθιεμένην) blijft attributief ptcp, geen §2.3-overtreding."
+      "resolution": "'neerdalende' (καταβαῖνον) ontvouwd naar finiete relatiefzin 'dat neerdaalde' per §2.3; concordant met HAND 10:11 dat καταβαῖνον als 'neerdalen' (infinitief) rendert, niet als -ende-participium. Passief 'neergelaten' (καθιεμένην) blijft attributief ptcp, geen §2.3-overtreding.",
+      "verified_at": "2026-06-06T20:28:48+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -35,8 +65,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ACT-11-8-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'geenszins' rendert οὐ μή (dubbele ontkenning, emfatisch). Productief in modern formeel/juridisch Nederlands ('geenszins akkoord', 'geenszins toegestaan'). MODERNISATIE.md §2.7 productiviteitstest slaagt; modern equivalent 'beslist niet' verzwakt de Griekse nadrukkelijke ontkenning."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'geenszins' rendert οὐ μή (dubbele ontkenning, emfatisch). Productief in modern formeel/juridisch Nederlands ('geenszins akkoord', 'geenszins toegestaan'). MODERNISATIE.md §2.7 productiviteitstest slaagt; modern equivalent 'beslist niet' verzwakt de Griekse nadrukkelijke ontkenning.",
+      "verified_at": "2026-06-06T20:28:48+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -48,8 +79,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ACT-11-14-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-06-06T20:28:48+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -61,8 +93,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ACT-11-17-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-06-06T20:28:48+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -74,8 +107,9 @@
       "proposed_fix": "van de Heidenen",
       "location": "kanttekening",
       "id": "ACT-11-19-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] De geflagde 'der Heidenen' is gede-archaïseerd naar 'van de Heidenen' (vers 7). De resterende 'des levens' in dit vers behoren tot de gestolde bijbelse fossiel 'boom/hout des levens' (Gn. 2:9 / Op. 22:2, Grieks ξύλον τῆς ζωῆς), in modern bijbels Nederlands productief; §genitief (MODERNISATIE.md) staat fossiele genitieven toe. Niet identiek toepasbaar op niet-fossiele der/des."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] De geflagde 'der Heidenen' is gede-archaïseerd naar 'van de Heidenen' (vers 7). De resterende 'des levens' in dit vers behoren tot de gestolde bijbelse fossiel 'boom/hout des levens' (Gn. 2:9 / Op. 22:2, Grieks ξύλον τῆς ζωῆς), in modern bijbels Nederlands productief; §genitief (MODERNISATIE.md) staat fossiele genitieven toe. Niet identiek toepasbaar op niet-fossiele der/des.",
+      "verified_at": "2026-06-06T20:28:48+00:00"
     },
     {
       "category": "kanttekening-luiheid (§2.3 in <…>)",
@@ -87,9 +121,10 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ACT-11-20-001",
-      "status": "fixed",
+      "status": "verified",
       "fix_commit": "PENDING",
-      "resolution": "Kanttekening-gloss '<Grieks: Evangeliserende.>' (εὐαγγελιζόμενοι) bevatte -ende-participium in <…> — §2.3 geldt in kanttekeningen (kanttekening-participium-gap). Gewijzigd naar lemma-citaat '<Grieks: evangeliseren.>', conform glos-patroon '<Grieks: beginselen.>' (v5/10:11) dat het Griekse woord in grondvorm noemt; geen archaïsch participium meer."
+      "resolution": "Kanttekening-gloss '<Grieks: Evangeliserende.>' (εὐαγγελιζόμενοι) bevatte -ende-participium in <…> — §2.3 geldt in kanttekeningen (kanttekening-participium-gap). Gewijzigd naar lemma-citaat '<Grieks: evangeliseren.>', conform glos-patroon '<Grieks: beginselen.>' (v5/10:11) dat het Griekse woord in grondvorm noemt; geen archaïsch participium meer.",
+      "verified_at": "2026-06-06T20:28:48+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -101,8 +136,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ACT-11-22-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-06-06T20:28:48+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -114,8 +150,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ACT-11-26-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-06-06T20:28:48+00:00"
     },
     {
       "category": "kanttekening-luiheid (§2.3 in <…>)",
@@ -127,8 +164,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ACT-11-28-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] 'betekende' in 'een gezicht dat grote dingen betekende' is het finiete imperfectum (3ev) van 'betekenen' in een relatieve bijzin (onderwerp: 'dat gezicht'), GEEN adverbiaal tegenwoordig deelwoord. §2.3 reguleert -end-participia ('betekenend'); een vervoegd werkwoord op -de valt erbuiten. Regex matchte het -ende-fragment ten onrechte; de zin is al finiet ontvouwd."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] 'betekende' in 'een gezicht dat grote dingen betekende' is het finiete imperfectum (3ev) van 'betekenen' in een relatieve bijzin (onderwerp: 'dat gezicht'), GEEN adverbiaal tegenwoordig deelwoord. §2.3 reguleert -end-participia ('betekenend'); een vervoegd werkwoord op -de valt erbuiten. Regex matchte het -ende-fragment ten onrechte; de zin is al finiet ontvouwd.",
+      "verified_at": "2026-06-06T20:28:48+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -145,8 +183,10 @@
         27
       ],
       "id": "ACT-11-2-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Scanner-prefix-heuristiek mist orthografische SV→modern overgangen: Io→Jo (Ioannes→Johannes), ie→je (Ierusalem→Jeruzalem), s→z (seggende→zeggend, aengesicht→aangezicht), wier→wer (wierden→werden), of bewuste woordkeuze 'geschieden→gebeuren'. Geen daadwerkelijke drift — sv-memory bevestigt consistente keuze in alle voorkomens. v31: 'Ierusalem' → 'Jeruzalem' spelling-modernisatie."
+      "status": "verified",
+      "rebuttal": "§5.3-false-positive van de scanner-prefix-heuristiek, geen werkelijke concordantie-drift. Het betreft de eigennaam Ἰερουσαλήμ/Ἱεροσόλυμα (SV 'Ierusalem'), die in ALLE vier voorkomens in dit hoofdstuk identiek als 'Jeruzalem' is weergegeven (v2 'opgegaan was naar Jeruzalem', v20, v22 'kwam tot de gemeente te Jeruzalem', v27 'kwamen profeten af van Jeruzalem'). De heuristiek matcht SV-prefix 'ierusal' niet tegen modern 'jeruzal' omdat de orthografische SV→modern-overgang (Ie→Je, s→z) de gedeelde prefix breekt; §5.3-concordantie is feitelijk volledig gehandhaafd.",
+      "verify_note": "rebuttal noemt geen regel (§), geen Griekse term en geen vers-specifiek argument — voeg referentie toe",
+      "verified_at": "2026-06-06T20:29:19+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -163,8 +203,9 @@
         12
       ],
       "id": "ACT-11-3-001",
-      "status": "rebutted",
-      "rebuttal": "εἰσέρχομαι wordt contextueel idiomatisch weergegeven, geen §5.3-inhoudswoord-drift: v3 εἰσῆλθες (tot personen) 'ingegaan tot', v12 εἰσήλθομεν (in huis) 'binnengegaan' — beide ingaan-familie; v8 εἰσῆλθεν betreft voedsel dat de mond ingaat, waar modern NL 'in de mond gekomen' eist (SV-idioom 'in den mont ingaen' is niet productief als 'binnengaan'). §5.3-concordantie geldt inhoudswoorden, niet bewegings-idioom dat doelafhankelijk verschilt; de SV zelf varieert de framing."
+      "status": "verified",
+      "rebuttal": "εἰσέρχομαι wordt contextueel idiomatisch weergegeven, geen §5.3-inhoudswoord-drift: v3 εἰσῆλθες (tot personen) 'ingegaan tot', v12 εἰσήλθομεν (in huis) 'binnengegaan' — beide ingaan-familie; v8 εἰσῆλθεν betreft voedsel dat de mond ingaat, waar modern NL 'in de mond gekomen' eist (SV-idioom 'in den mont ingaen' is niet productief als 'binnengaan'). §5.3-concordantie geldt inhoudswoorden, niet bewegings-idioom dat doelafhankelijk verschilt; de SV zelf varieert de framing.",
+      "verified_at": "2026-06-06T20:28:48+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -181,8 +222,9 @@
         18
       ],
       "id": "ACT-11-3-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Stam 'seggend' (λέγων participium praesens) wordt in alle drie verzen conform §2.3 ALWAYS_BAD ontvouwd naar finiete vorm: v6 'en zei' (coördinerend), v18 'en zij vroegen hem en zeiden' (idem coördinerend), v26 'gesproken en gezegd heeft' (perf. coördinerend bij hoofdwerkwoord). De prefix-overlap-heuristiek mist deze contextuele variatie; alle drie eindigen op finiete vorm van 'zeggen' — concordant op werkwoord, gedifferentieerd op tijd/aspect."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Stam 'seggend' (λέγων participium praesens) wordt in alle drie verzen conform §2.3 ALWAYS_BAD ontvouwd naar finiete vorm: v6 'en zei' (coördinerend), v18 'en zij vroegen hem en zeiden' (idem coördinerend), v26 'gesproken en gezegd heeft' (perf. coördinerend bij hoofdwerkwoord). De prefix-overlap-heuristiek mist deze contextuele variatie; alle drie eindigen op finiete vorm van 'zeggen' — concordant op werkwoord, gedifferentieerd op tijd/aspect.",
+      "verified_at": "2026-06-06T20:28:48+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -199,9 +241,10 @@
         26
       ],
       "id": "ACT-11-10-001",
-      "status": "fixed",
+      "status": "verified",
       "fix_commit": "PENDING",
-      "resolution": "v26 'het geschiedde' (ἐγένετο) geharmoniseerd naar 'het gebeurde' — concordant met v10 'gebeurde' (ἐγένετο); ruimt tevens het geschied-archaïsme op, consistent met v19 in ditzelfde hoofdstuk waar 'geschiet was' al naar 'had plaatsgevonden' werd gemoderniseerd (§2.7/§5.3)."
+      "resolution": "v26 'het geschiedde' (ἐγένετο) geharmoniseerd naar 'het gebeurde' — concordant met v10 'gebeurde' (ἐγένετο); ruimt tevens het geschied-archaïsme op, consistent met v19 in ditzelfde hoofdstuk waar 'geschiet was' al naar 'had plaatsgevonden' werd gemoderniseerd (§2.7/§5.3).",
+      "verified_at": "2026-06-06T20:28:48+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -218,8 +261,9 @@
         24
       ],
       "id": "ACT-11-15-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] False-positive van de prefix-heuristiek: de stam 'heilig' wordt juist consistent weergegeven, maar naar woordsoort verbogen — v3/v14 zelfstandig naamwoord 'de heiligen'/'heiligen' (τοῖς ἁγίοις / ἁγίαις), v20 superlatief-adjectief 'allerheiligst' (ἁγιωτάτῃ). Morfologische variatie per woordsoort, geen concordantie-drift."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] False-positive van de prefix-heuristiek: de stam 'heilig' wordt juist consistent weergegeven, maar naar woordsoort verbogen — v3/v14 zelfstandig naamwoord 'de heiligen'/'heiligen' (τοῖς ἁγίοις / ἁγίαις), v20 superlatief-adjectief 'allerheiligst' (ἁγιωτάτῃ). Morfologische variatie per woordsoort, geen concordantie-drift.",
+      "verified_at": "2026-06-06T20:28:48+00:00"
     }
   ]
 }
