@@ -1,0 +1,114 @@
+{
+  "round_no": 6,
+  "books": ["ROM", "2CO"],
+  "red": [
+    {
+      "id": "RG6-001",
+      "class": "modernisatie",
+      "books": ["ROM"],
+      "chapter": 15,
+      "verse": 10,
+      "quote": "Weest vrolijk u Heidenen met zijn volk.",
+      "rule_reference": "ARCHAISMEN.md:78 imperatief-meervoud SV-`-t` -> stam",
+      "explanation": "Plurale imperatief (Grieks euphranthete, Dt.32:43-citaat) blijft als SV-`-t`-vorm staan; harmoniseren naar stam.",
+      "proposed_fix": "Wees vrolijk u Heidenen met zijn volk.",
+      "severity": "hard",
+      "point_key": "modernisatie|ROM|weest vrolijk u heidenen met zijn volk"
+    },
+    {
+      "id": "RG6-002",
+      "class": "modernisatie",
+      "books": ["ROM"],
+      "chapter": 14,
+      "verse": 13,
+      "quote": "oordeelt dit liever",
+      "rule_reference": "ARCHAISMEN.md:78 imperatief-meervoud SV-`-t` -> stam",
+      "explanation": "Plurale imperatief (Grieks krinate), parallel aan 'Laat ons ... niet meer oordelen'; gericht tot de gelovigen. SV-`-t` niet naar stam geharmoniseerd.",
+      "proposed_fix": "oordeel dit liever",
+      "severity": "hard",
+      "point_key": "modernisatie|ROM|oordeelt dit liever namelijk dat"
+    },
+    {
+      "id": "RG6-003",
+      "class": "modernisatie",
+      "books": ["2CO"],
+      "chapter": 1,
+      "verse": 18,
+      "quote": "dat ons woord, hetwelk tot u [gekomen is,]",
+      "rule_reference": "rules_data.py:340 archaisme-blacklist (hetwelk); drempel-archaisme relativum",
+      "explanation": "'hetwelk' als relatief pronomen staat op de archaisme-blacklist en is een drempel-archaisme in de hoofdtekst; modern 'dat'.",
+      "proposed_fix": "dat ons woord, dat tot u [gekomen is,]",
+      "severity": "hard",
+      "point_key": "modernisatie|2CO|dat ons woord hetwelk tot u gekomen"
+    },
+    {
+      "id": "RG6-004",
+      "class": "consistentie",
+      "books": ["ROM", "2CO"],
+      "chapter": 11,
+      "verse": 12,
+      "quote": "om de aanleiding af te snijden voor hen die een aanleiding willen",
+      "rule_reference": "concordantie cross-book (Grieks aphorme)",
+      "explanation": "Grieks aphorme: SV-1657 rendert in BEIDE boeken 'oorsake'. ROM behoudt 'oorzaak' (7:8, 7:11), maar 2CO modernisering wijzigt naar 'aanleiding' (11:12 2x, 5:12) - door modernisering geintroduceerde drift binnen het ROM/2CO-paar. Arbiter kieze 1 doellemma (let op: GAL 5:13 gebruikt 'aanleiding').",
+      "proposed_fix": "Harmoniseer aphorme NT-breed; binnen ROM/2CO 'oorzaak' (conform SV-bron) of expliciet 'aanleiding' overal.",
+      "severity": "soft",
+      "point_key": "consistentie|2CO|om de aanleiding af te snijden voor hen"
+    }
+  ],
+  "green": [
+    {
+      "point_id": "RG6-001",
+      "stance": "concede",
+      "rebuttal": "Quote geverifieerd in ROM.15.json (modernized): 'Weest vrolijk u Heidenen met zijn volk.' Dit is een ECHTE imperativus (Gr. εὐφράνθητε, aor.imp.plur., LXX-citaat Dt.32:43), gericht tot de aangesproken 'Heidenen' met object/aanspreking erna - geen attributief participium. De stam-gate van ARCHAISMEN.md:78 (zinsbegin + object) treft toe. Geen vers-specifiek argument om 'Weest' te behouden; harmoniseren naar stam.",
+      "evidence": "ARCHAISMEN.md:78 imperatief-meervoud `-t` -> stam; Gr. εὐφράνθητε (aor.imp.2pl). Fix: 'Wees vrolijk u Heidenen met zijn volk.'"
+    },
+    {
+      "point_id": "RG6-002",
+      "stance": "concede",
+      "rebuttal": "Quote geverifieerd in ROM.14.json (modernized): '... oordeelt dit liever ...'. Echte imperativus (Gr. κρίνατε, aor.imp.plur.), parallel aan en in oppositie met 'Laat ons ... niet meer oordelen', gericht tot de gelovigen, met object 'dit'. Geen attributief gebruik. Stam-gate ARCHAISMEN.md:78 treft toe; 'oordeelt' -> 'oordeel'.",
+      "evidence": "ARCHAISMEN.md:78 imperatief-meervoud `-t` -> stam; Gr. κρίνατε (aor.imp.2pl). Fix: 'oordeel dit liever'."
+    },
+    {
+      "point_id": "RG6-003",
+      "stance": "concede",
+      "rebuttal": "Quote geverifieerd in 2CO.1.json (modernized): 'dat ons woord, hetwelk tot u [gekomen is,]' - dit staat in de HOOFDTEKST, niet in een <kanttekening> of citaat. 'hetwelk' staat als relatief pronomen op de drempel-archaisme-blacklist (rules_data.py:340) en wordt gevangen door adversarial_scan.py categorie 'relativum welke/welken/hetwelk'. Geen idioom-gronden om het te behouden; modern relativum 'dat'.",
+      "evidence": "rules_data.py:340 blacklist ('hetwelk', 'hetwelke'); adversarial_scan.py:1041 'relativum welke/welken/hetwelk'. Fix: 'dat ons woord, dat tot u [gekomen is,]'."
+    },
+    {
+      "point_id": "RG6-004",
+      "stance": "concede",
+      "rebuttal": "Feitelijke premisse geverifieerd: SV-1657-bron heeft 'oorsake' voor ἀφορμή in ROM 7:8/7:11, 2CO 11:12 (2x)/5:12 EN GAL 5:13 - zelfde Grieks, zelfde bronlemma. Modernisering levert binnen het ROM/2CO-paar uiteenlopende targets op ('oorzaak' in ROM 7, 'aanleiding' in 2CO). Er is GEEN contextueel betekenisverschil dat de splitsing langs de boekgrens rechtvaardigt: ἀφορμή = 'gelegenheid/aanleiding/aanknopingspunt' in alle gevallen, en GAL 5:13 (zelfde bronlemma) modernt ook al naar 'aanleiding'. 'oorzaak nam' in ROM 7 is bovendien een behouden SV-ism dat causaal afdrijft van de Griekse betekenis. De drift is echt; ik kan de gate niet halen met een per-boek-nuance. Concede - met aanbeveling: harmoniseer NT-breed NAAR 'aanleiding' (2CO/GAL-pool, lexicaal juist), niet terug naar 'oorzaak'.",
+      "evidence": "Gr. ἀφορμή (= occasie/aanleiding); SV-bron 'oorsake' in ROM 7:8/7:11, 2CO 11:12/5:12, GAL 5:13 (bron-occasie geverifieerd). Concordantie cross-book: drift bevestigd, target = 'aanleiding'."
+    }
+  ],
+  "verdicts": [
+    {
+      "point_id": "RG6-001",
+      "verdict": "red_wins",
+      "rationale": "Quote verbatim geverifieerd in output/ROM/ROM.15.json (verse_number 10, modernized): 'En wederom zegt hij, $Dt. 32:43$ Weest vrolijk u Heidenen met zijn volk.' source_text-Grieks bevat εὐφράνθητε (aor.imp.2pl, LXX Dt.32:43-citaat) = echte plurale imperatief, zinsbegin + aanspreking/object 'u Heidenen'. Overtreding van de AL-BESTAANDE regel ARCHAISMEN.md:78 (imperatief-meervoud `-t` -> stam, stam-gate). Green concedeert. Geen rule_change: regel bestaat al. Fix: 'Wees vrolijk u Heidenen met zijn volk.'",
+      "scope": "verse",
+      "applied": false
+    },
+    {
+      "point_id": "RG6-002",
+      "verdict": "red_wins",
+      "rationale": "Quote verbatim geverifieerd in output/ROM/ROM.14.json (verse_number 13, modernized): '... maar <...> oordeelt dit liever, namelijk ...'. source_text-Grieks bevat κρίνατε (aor.imp.2pl), in oppositie met 'Laat ons ... niet meer oordelen', zinsbegin (na 'maar') + object 'dit'. Overtreding van AL-BESTAANDE regel ARCHAISMEN.md:78. Green concedeert. Geen rule_change. Fix: 'oordeel dit liever'.",
+      "scope": "verse",
+      "applied": false
+    },
+    {
+      "point_id": "RG6-003",
+      "verdict": "red_wins",
+      "rationale": "Quote verbatim geverifieerd in output/2CO/2CO.1.json (verse_number 18, modernized): '... dat ons woord, hetwelk tot u [gekomen is,] $Mt. 5:37; Jk. 5:12$ niet is geweest ...'. Staat in HOOFDTEKST (relatief pronomen na komma, niet in <kanttekening>). 'hetwelk' staat op de AL-BESTAANDE archaisme-blacklist rules_data.py:340 ('hetwelk', 'hetwelke'). Green concedeert. Geen rule_change. Fix: 'dat ons woord, dat tot u [gekomen is,]'.",
+      "scope": "verse",
+      "applied": false
+    },
+    {
+      "point_id": "RG6-004",
+      "verdict": "rule_change",
+      "rationale": "ἀφορμή-concordantiedrift, NT-breed, GEEN bestaande validator-regel of vaste concordantie-richtlijn voor ἀφορμή (grep scripts/docs/rules: geen treffer voor ἀφορμ/aanleiding/oorzaak-nam-concordantie). source_text is Grieks; ἀφορμή direct geverifieerd in alle voorkomens. Hoofdtekst-rendering (kanttekeningen gestript) per plaats: ROM 7:8 = 'oorzaak' ('door het gebod oorzaak nam'); ROM 7:11 = 'oorzaak' ('door het gebod oorzaak nam'); 2CO 5:12 = 'aanleiding' ('wij geven u aanleiding tot roem'); 2CO 11:12 = 'aanleiding' (2x: 'om de aanleiding af te snijden voor hen die een aanleiding willen'); GAL 5:13 = 'aanleiding' ('niet tot een aanleiding voor het vlees'); 1TI 5:14 = 'aanleiding' ('geen aanleiding tot lastering'). Patroon: 4 van 6 plaatsen (alle behalve ROM 7) gebruiken al 'aanleiding'; ROM 7:8/7:11 'oorzaak nam' is een behouden SV-ism dat causaal afdrijft van de Griekse betekenis 'gelegenheid/aanleiding/aanknopingspunt'. Green concedeert drift en gate-falen. DOELLEMMA: 'aanleiding' (lexicaal juist, meerderheidspool 2CO/GAL/1TI). HARMONISATIE NT-breed: ROM 7:8 en ROM 7:11 van 'oorzaak nam' -> 'aanleiding nam' (of 'aanleiding kreeg/vond'); 2CO 5:12, 2CO 11:12 (2x), GAL 5:13, 1TI 5:14 reeds conform.",
+      "scope": "nt-wide",
+      "applied": false
+    }
+  ]
+}
