@@ -44,12 +44,19 @@ def git(*args: str) -> str:
     ).stdout
 
 
+NT_BOOKS = {
+    "MAT", "MRK", "LUK", "JHN", "ACT", "ROM", "1CO", "2CO", "GAL", "EPH",
+    "PHP", "COL", "1TH", "2TH", "1TI", "2TI", "TIT", "PHM", "HEB", "JAS",
+    "1PE", "2PE", "1JN", "2JN", "3JN", "JUD", "REV",
+}
+
+
 def total_nt_verses() -> int:
-    """Totaal NT-verzen uit het bronkorpus input.sv/."""
+    """Totaal NT-verzen uit het bronkorpus input.sv/ (alleen de 27 NT-boeken)."""
     total = 0
     src = REPO / "input.sv"
     for book in sorted(src.iterdir()):
-        if not book.is_dir():
+        if not book.is_dir() or book.name not in NT_BOOKS:
             continue
         for f in book.glob(f"{book.name}.*.json"):
             try:
