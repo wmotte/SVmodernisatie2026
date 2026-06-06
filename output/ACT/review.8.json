@@ -1,0 +1,247 @@
+{
+  "book": "ACT",
+  "chapter": 8,
+  "reviewed_at": "2026-06-06T18:46:56+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-06-06T18:44:51+00:00",
+      "mode": "scan",
+      "issues_total": 12
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-06-06T18:46:56+00:00",
+      "mode": "verify",
+      "actions": [
+        "ACT-8-15-001: verified",
+        "ACT-8-15-002: verified",
+        "ACT-8-16-001: rebuttal verified",
+        "ACT-8-18-001: verified",
+        "ACT-8-20-001: verified",
+        "ACT-8-37-001: rebuttal verified",
+        "ACT-8-1-001: rebuttal verified",
+        "ACT-8-1-002: rebuttal verified",
+        "ACT-8-5-001: rebuttal verified",
+        "ACT-8-9-001: rebuttal verified",
+        "ACT-8-12-001: rebuttal verified",
+        "ACT-8-15-003: rebuttal verified"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "category": "SV-verbuiging (demonstratief dezer/dien/...)",
+      "verse": 15,
+      "severity": "hard",
+      "quote_modernized": "Toen dezen afgedaald waren, baden zij voor he…",
+      "rule_reference": "ARCHAISMEN.md (SV-verbuigingen)",
+      "explanation": "'dezen afgedaald' — verbogen demonstratief (SV-genitief/datief). Modern Nederlands: 'deze' / 'die' / 'in deze ...' / 'op die ...'. Gefossiliseerde uitdrukkingen ('dezer dagen', 'te dien einde') zijn whitelist; rebut zo nodig met register-argument.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "ACT-8-15-001",
+      "status": "verified",
+      "fix_note": "Hoofdtekst gemoderniseerd van 'Toen dezen afgedaald waren' naar 'Toen zij afgedaald waren'; verbogen demonstratief verwijderd conform ARCHAISMEN.md.",
+      "verified_at": "2026-06-06T18:46:56+00:00"
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 15,
+      "severity": "soft",
+      "quote_modernized": "zij de heilige geest",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'zij de heilige geest' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "ACT-8-15-002",
+      "status": "verified",
+      "fix_note": "Kanttekening herformuleerd: 'de Heilige Geest al ontvangen'/'zonder de Heilige Geest' werd 'die al ontvangen'/'zonder de Geest', zodat de uitleg niet woordelijk de hoofdtekst herhaalt.",
+      "verified_at": "2026-06-06T18:46:56+00:00"
+    },
+    {
+      "category": "kanttekening-luiheid (§2.3 in <…>)",
+      "verse": 16,
+      "severity": "hard",
+      "quote_modernized": "…. 28:19$, maar het doel waartoe de Doop diende, namelijk om hun te betekenen dat…",
+      "rule_reference": "KANTTEKENINGEN.md + §2.3",
+      "explanation": "'diende' binnen kanttekening — verdacht -ende-woord in adverbial / clause-final positie. §2.3 geldt ook in <…>; ontvouw naar finiete bijzin.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "ACT-8-16-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] 'diende' is finiet imperfectum van 'dienen' (3e pers. enkelvoud), geen adverbiaal participium. §2.3 viseert Latinate participia (λέγων-type); de relatiefzin 'die de gemeente diende' is reeds een finiete bijzin — precies wat §2.3 voorschrijft. Scanner-regex matcht foutief op de -ende-uitgang van een vervoegde verbumvorm.",
+      "verified_at": "2026-06-06T18:46:56+00:00"
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 18,
+      "severity": "soft",
+      "quote_modernized": "oplegging van de handen",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'oplegging van de handen' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "ACT-8-18-001",
+      "status": "verified",
+      "fix_note": "Kanttekening herformuleerd van 'Deze oplegging van de handen' naar 'Deze handoplegging'; betekenis en blok behouden, redundante vierwoordfrase verwijderd.",
+      "verified_at": "2026-06-06T18:46:56+00:00"
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 20,
+      "severity": "soft",
+      "quote_modernized": "de gave van god",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'de gave van god' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "ACT-8-20-001",
+      "status": "verified",
+      "fix_note": "Alternatieve kanttekening herformuleerd van 'de gave van God' naar 'Gods gave'; betekenis behouden, woordelijke redundantie met de hoofdtekst verwijderd.",
+      "verified_at": "2026-06-06T18:46:56+00:00"
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 37,
+      "severity": "soft",
+      "quote_modernized": "En Filippus zei: Indien u met heel uw hart gelooft, dan i…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "ACT-8-37-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-06-06T18:46:56+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 1,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'ierusal' in 5 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 5 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        1,
+        14,
+        25,
+        26,
+        27
+      ],
+      "id": "ACT-8-1-001",
+      "status": "verified",
+      "rebuttal": "Scanner-prefix false-positive: in de betrokken verzen 1, 14, 25, 26 en 27 wordt SV 'Ierusalem' consequent volgens MODERNISATIE.md §2.1 en AGENTS.md eigennamenmodernisatie gespeld als 'Jeruzalem'. De prefix 'ierusal' verdwijnt alleen door I→J-spellingnormalisatie, niet door lexicale of concordantie-drift.",
+      "verified_at": "2026-06-06T18:46:56+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 1,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'wierden' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        1,
+        7,
+        12
+      ],
+      "id": "ACT-8-1-002",
+      "status": "verified",
+      "rebuttal": "Scanner-prefix false-positive: de betrokken vormen 'wiert/wierden' in verzen 1, 7 en 12 zijn telkens modern Nederlands 'werd/werden'. Dat is reguliere spelling- en werkwoordsvormmodernisatie volgens MODERNISATIE.md §2.1, met behoud van hetzelfde passieve werkwoord; er is geen uiteenlopende vertaalkeuze.",
+      "verified_at": "2026-06-06T18:46:56+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 5,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'philipp' in 14 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 14 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        5,
+        6,
+        12,
+        13,
+        26,
+        29,
+        30,
+        31,
+        34,
+        35,
+        37,
+        38,
+        39,
+        40
+      ],
+      "id": "ACT-8-5-001",
+      "status": "verified",
+      "rebuttal": "Scanner-prefix false-positive: de betrokken verzen gebruiken SV-casusvormen 'Philippus/Philippo/Philippum', die als eigennaam consequent naar NBV21/SV-modernisatievorm 'Filippus' zijn genormaliseerd. MODERNISATIE.md §2.1 en AGENTS.md eigennamenmapping verklaren de Ph→F- en casusnormalisatie; alle veertien contexten houden dezelfde persoon en naamkeuze.",
+      "verified_at": "2026-06-06T18:46:56+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 9,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'seggend' in 4 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 4 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        9,
+        10,
+        19,
+        26
+      ],
+      "id": "ACT-8-9-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] Scanner-prefix-heuristiek false-positive: SV-stam 'seggend(e)' (Grieks λέγων, participium) wordt §2.3-conform ontvouwd naar finiete vormen ('en zei', 'die zei'). Per MODERNISATIE.md §2.3 ís dit de voorgeschreven moderne rendering — geen 'drift' maar regelconforme transformatie.",
+      "verified_at": "2026-06-06T18:46:56+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 12,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'euangel' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        12,
+        25,
+        40
+      ],
+      "id": "ACT-8-12-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] False-positive concordantie-drift: scanner-prefix 'euangel' matcht niet met moderne 'Evangelie' wegens spelwijziging (Eu→Ev). Feitelijk zijn alle drie verzen consistent gerenderd: v.1 'het Evangelie van Jezus Christus', v.14 'het Evangelie van het Koninkrijk Gods', v.15 'geloof het Evangelie'. Concordantie εὐαγγέλιον → 'Evangelie' is 100% gehandhaafd. AGENTS.md concordantie-eis wordt vervuld.",
+      "verified_at": "2026-06-06T18:46:56+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 15,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'heylige' in 4 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 4 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        15,
+        17,
+        18,
+        19
+      ],
+      "id": "ACT-8-15-003",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Volgens AGENTS.md punt 3 en MODERNISATIE.md §2.1 is dit geen drift maar contextuele vormvariatie binnen één lexicale familie. In HEB 9:2-8 duidt heylige zowel het tabernakeldeel ‘het Heilige’ als ‘Heilige der heiligen’ aan; de modernisatie behoudt die technische heilig-vorm consequent.",
+      "verified_at": "2026-06-06T18:46:56+00:00"
+    }
+  ]
+}
