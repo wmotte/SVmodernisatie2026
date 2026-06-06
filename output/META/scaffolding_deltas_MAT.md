@@ -1,46 +1,57 @@
-# Scaffolding-deltas — meta-review MAT hoofdstukken 1-10 (afgewerkt: 1,2,3,7,8,9,10)
+# Scaffolding-deltas — meta-review MAT hoofdstukken 1-28
 
-Gegenereerd: 2026-06-03T10:51:23Z
-Aggregator: scripts/meta_diff_aggregate.py --book MAT --chapters 1-10 --min-freq 2
-
-Hoofdstukken 4, 5 en 6 hebben (nog) geen `docs/diff_hsv_MAT_*.json` en zijn
-overgeslagen. MAT is in wording (9 hoofdstukken af, 6 ontbreekt nog).
+Gegenereerd: 2026-06-06T19:23:49Z
+Aggregator: scripts/meta_diff_aggregate.py --book MAT --chapters 1-28 --min-freq 2 --refresh
 
 ## Auto-toegepaste deltas (bucket C)
 
-Geen. Geen enkel pattern haalde de bucket-C-drempel (carryover/fossiel met
-freq ≥ 3 + consistent modern HSV-alternatief, of SV-interne cap-inconsistentie).
+Geen. Er waren geen regelbestand-wijzigingen nodig.
 
 ## Afgewezen deltas (rejected, §2.7-toets niet gehaald)
 
-Geen kandidaten voorgelegd.
+| Pattern | Kind | Reden afwijzing |
+|---|---|---|
+| `nabij gekomen` | latinaat-window | Niet hard genoeg voor scaffolding: eerdere MAT-review classificeerde dit als bijbels-register/noise; een generieke regel zou veel false positives geven. |
+| `kome` | carryover | Niet blanket-toepasbaar: `Uw Koninkrijk kome` blijft liturgisch. Niet-liturgische occurrences zijn als content-fix afgehandeld. |
+| `daarbij gewonnen` | latinaat-window | Na fix resteert HSV-verschil alleen doordat HSV vrijer `verdiend` kiest; `gewonnen` behoudt SV/Grieks formeel-equivalent. |
 
 ## Noise (bucket A — HSV-keuze, geen actie)
 
 | Kind | Aantal | Voorbeelden |
-|---|---|---|
-| cap-asym (behouden SV1657-nouncaps) | 8 | `Profeet` (1:22, 2:5,15,17, 3:3, 8:17, 10:41 — 7×); `Koning` (1:6, 2:1,3,22); `Engel` (1:24, 2:13,19); `Oosten` (2:1,2,9); `Wijzen` (2:1,7,16); `Heidenen` (10:5,18); `Hoofdman` (8:5,13); `Schriftgeleerden` (2:4, 7:29) |
-| latinaat-window (SV-perfectum behouden / bijbels-fossiel) | 3 | `de winden hebben gewaaid … aangevallen/aangeslagen` (7:25,27); `het koninkrijk der hemelen is nabij gekomen` (3:2, 10:7); `slagregen neergevallen … waterstromen zijn gekomen … winden` (7:25,27) |
+|---|---:|---|
+| cap-asym (SV-hoofdletters behouden) | 23 | `Schriftgeleerden`, `Profeet`, `Profeten`, `Engelen`, `Overpriesters`, `Koning`, `Hogepriester`, `Stadhouder` |
+| carryover (productief/formeel of contextueel correct) | 4 | `toe` (`deugt nergens meer toe`, `ging naar hem toe`, `tot de dag toe`), `hoe`, `aldus`, `binden` |
+| fossiel-lidwoord (allowlist / bijbels-register) | 3 | `knersing der tanden`, `Koning der Joden`, `dag des oordeels` |
+| latinaat-window (HSV-herstructurering/noise) | 8 | `wening zijn en knersing der tanden`, `Koninkrijk der hemelen nabij gekomen`, stormconstructies in MAT 7:25,27, `dag des oordeels` |
 
 ### Toelichting per noise-groep
 
-- **cap-asym (8):** Alle 8 zijn SV1657-interne hoofdletters die de
-  modernisatie behoudt; HSV kiest consistent voor kleine letter. Per
-  `feature/sv_cap_preservation_vs_eerbied` is lowercasen hier fout — de
-  regel verbiedt enkel TOEGEVOEGDE eerbiedskapitalen, niet bestaande
-  SV-nouncaps. Geen SV-interne inconsistentie gedetecteerd. HSV-keuze.
-
-- **latinaat-window (3):** Geen Latinaat-rest. Het zijn behouden
-  SV-perfectumconstructies (`de winden hebben gewaaid, en zijn tegen
-  datzelfde huis aangevallen`) waar HSV naar simpele verleden tijd
-  parafraseert — renovatie ≠ hervertaling. `aangevallen` (7:25, Gr.
-  προσέπεσαν, "vielen op") vs `aangeslagen` (7:27, Gr. προσέκοψαν,
-  "sloegen tegen") is een correcte Griekse werkwoorddistinctie, geen
-  concordantiefout. `koninkrijk der hemelen` is bijbels-fossiel (bucket A
-  per fossiel-lidwoord-criterium); HSV behoudt het eveneens.
+- **cap-asym:** Alle patronen volgen SV1657-interne hoofdletters. HSV lowercaset
+  titels en soortnamen; dat is voor dit project geen bewijs voor een fix.
+- **fossiel-lidwoord:** `der joden`, `des oordeels` en `der tanden` staan al in
+  `scripts/rules_data.py` `FOSSIL_GENITIVE_PAIRS` en worden in
+  `MODERNISATIE.md §2.3c` als bijbels-fossiele formules verantwoord.
+- **carryover:** De harde carryovers uit de eerste scan (`verlatene`,
+  `gracht`, niet-liturgisch `kome/kere`, `kwamen zij toe`) zijn gefixt.
+  Resterende `toe`-occurrences zijn modern Nederlands.
+- **latinaat-window:** Resterende patronen zijn HSV-herstructurering of
+  bewust SV-register. `daarbij gewonnen` blijft als formeel-equivalente
+  renovatie staan; HSV's `verdiend` is vrijer.
 
 ## Bucket-overzicht
 
-- B (per-vers fixes): 0 issues over 0 hoofdstukken — zie `findings_MAT.json`
-- C (scaffolding-deltas): 0 toegepast, 0 afgewezen
-- A (noise): 11 patterns (cap-asym 8, latinaat-window 3)
+- B (per-vers fixes): 8 issues over 7 hoofdstukken — alle fixed, zie `findings_MAT.json`
+- C (scaffolding-deltas): 0 toegepast, 3 afgewezen
+- A (noise): 38 huidige patronen
+
+## Apply-resultaat
+
+| Hoofdstuk | Verzen | PR | Validate |
+|---|---:|---|---|
+| MAT 5 | 32 | https://github.com/wmotte/SVmodernisatie2026/pull/2573 | PASS 2/2 0F 0W |
+| MAT 10 | 13 | https://github.com/wmotte/SVmodernisatie2026/pull/2574 | PASS 2/2 0F 0W |
+| MAT 12 | 11 | https://github.com/wmotte/SVmodernisatie2026/pull/2575 | PASS 2/2 0F 0W |
+| MAT 15 | 14 | https://github.com/wmotte/SVmodernisatie2026/pull/2577 | PASS 2/2 0F 0W |
+| MAT 23 | 35 | https://github.com/wmotte/SVmodernisatie2026/pull/2578 | PASS 2/2 0F 5W |
+| MAT 25 | 20,22 | https://github.com/wmotte/SVmodernisatie2026/pull/2579 | PASS 3/3 0F 0W |
+| MAT 26 | 50 | https://github.com/wmotte/SVmodernisatie2026/pull/2580 | PASS 2/2 0F 0W |
