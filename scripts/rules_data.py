@@ -388,6 +388,11 @@ DREMPEL_ARCHAISMEN: frozenset[str] = frozenset({
     # Schone 1:1-vervanging. Red-green ronde 11 RG11-002 (REV 17:8,10,11,
     # 6:8; 1CO 8:11; GAL 2:5; MRK 4:28 — alle kanttekeningen); nt-wide.
     "allengs",
+    # Obsoleet 'insgelijks' (= 'eveneens'). Los lexeem, schone 1:1, faalt §2.7.
+    # Red-green ronde 12 RG12-004 (1PE 3:7; MRK 14:31; REV 19:10; ROM 8:26);
+    # nt-wide. (NB 'desgelijks' bewust NIET gelist: positie-afhankelijk —
+    # verbindend bijwoord blijft productief; RG12-001 alleen MAT 26:35.)
+    "insgelijks",
 })
 
 DREMPEL_FOSSIELEN: tuple[str, ...] = (
