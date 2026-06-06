@@ -61,6 +61,33 @@
       "generated_at": "2026-06-06T11:36:05.944744Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 7,
+      "original": "$Marc. 14.3. Luce 7.37. Ioan. 11.2. ende 12.3.$ Quam tot hem een vrouwe hebbende een alabaster flessche met <Gr. van swaren prijs, die uytgedruckt wort Marc. 14.5.> seer kostelicke salve, ende gootse uyt op sijn hooft, daer hy aen [tafel] sat.",
+      "modernized": "$Mk. 14:3; Lk. 7:37; Jh. 11:2; 12:3$ Er kwam tot hem een vrouw met een albasten fles met <Grieks: van grote prijs, die uitgedrukt wordt $Mk. 14:5$.> zeer kostbare zalf, en zij goot die uit op zijn hoofd, terwijl hij aan [tafel] zat.",
+      "source_text": "προσῆλθεν αὐτῷ γυνὴ ἀλάβαστρον μύρου ἔχουσα βαρυτίμου, καὶ κατέχεεν ἐπὶ τὴν κεφαλὴν αὐτοῦ ἀνακειμένου.",
+      "generated_at": "2026-06-06T11:39:37.307446Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 8,
+      "original": "Ende sijne discipelen [dat] siende, namen het seer qualick, seggende, Waer toe dit verlies?",
+      "modernized": "En toen zijn discipelen [dit] zagen, namen zij het zeer kwalijk en zeiden: Waartoe dient dit verlies?",
+      "source_text": "ἰδόντες δὲ οἱ μαθηταὶ αὐτοῦ ἠγανάκτησαν, λέγοντες, Εἰς τί ἡ ἀπώλεια αὕτη;",
+      "generated_at": "2026-06-06T11:40:26.040022Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 9,
+      "original": "Want dese salve hadde konnen <Gr. voor veel.> dier verkocht, ende [de penningen] den armen gegeven worden.",
+      "modernized": "Want deze zalf had <Grieks: voor veel.> duur verkocht kunnen worden, en [de penningen] aan de armen gegeven kunnen worden.",
+      "source_text": "ἠδύνατο γὰρ τοῦτο τὸ μύρον πραθῆναι πολλοῦ, καὶ δοθῆναι πτωχοῖς.",
+      "generated_at": "2026-06-06T11:40:46.602757Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
