@@ -61,6 +61,45 @@
       "generated_at": "2026-06-06T11:38:03.122153Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 7,
+      "original": "Doe stonden alle die maeghden op ende <Gr. verçierden.> bereydden hare lampen.",
+      "modernized": "Toen stonden al die maagden op en <Grieks: versierden.> bereidden hun lampen.",
+      "source_text": "τότε ἠγέρθησαν πᾶσαι αἱ παρθένοι ἐκεῖναι, καὶ ἐκόσμησαν τὰς λαμπάδας αὐτῶν.",
+      "generated_at": "2026-06-06T11:43:31.798790Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 8,
+      "original": "Ende de dwase seyden tot de wijse, Geeft ons van uwe olie, want onse lampen gaen uyt.",
+      "modernized": "En de dwazen zeiden tot de wijzen: Geef ons van uw olie, want onze lampen gaan uit.",
+      "source_text": "αἱ δὲ μωραὶ ταῖς φρονίμοις εἶπον, Δότε ἡμῖν ἐκ τοῦ ἐλαίου ὑμῶν, ὅτι αἱ λαμπάδες ἡμῶν σβέννυνται.",
+      "generated_at": "2026-06-06T11:44:01.083683Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 9,
+      "original": "Doch de wijse antwoordden, seggende, [Geensins,] op datter misschien voor ons ende voor u niet genoegh en zy: maer gaet liever tot de verkoopers, ende koopt voor u selven.",
+      "modernized": "Maar de wijzen antwoordden en zeiden: [In geen geval,] anders zal er misschien niet genoeg zijn voor ons en voor u; maar ga liever naar de verkopers en koop voor uzelf.",
+      "source_text": "ἀπεκρίθησαν δὲ αἱ φρόνιμοι, λέγουσαι, Μήποτε οὐκ ἀρκέσῃ ἡμῖν καὶ ὑμῖν· πορεύεσθε δὲ μᾶλλον πρὸς τοὺς πωλοῦντας καὶ ἀγοράσατε ἑαυταῖς.",
+      "generated_at": "2026-06-06T11:44:24.062107Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "subject": "Geenszins",
+          "context": "vierkante haken",
+          "choice": "[In geen geval,]",
+          "alternatives": [
+            "[Geenszins,]"
+          ],
+          "reason": "HSV-spiegel bevestigt een drempel-archaïsme; de toevoegingshaken en de komma uit de SV blijven behouden."
+        }
+      ]
     }
   ]
 }
