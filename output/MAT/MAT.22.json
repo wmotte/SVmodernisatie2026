@@ -304,6 +304,33 @@
       "generated_at": "2026-06-06T09:39:41.906003Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 34,
+      "original": "$Marc. 12.28.$ Ende de Pharizeen gehoort hebbende dat hy den Sadduceen den mont gestopt hadde, zijn te samen by een vergadert.",
+      "modernized": "$Mk. 12:28$ En toen de Farizeeën hoorden dat hij de Sadduceeën de mond gestopt had, zijn zij samen bijeengekomen.",
+      "source_text": "Οἱ δὲ Φαρισαῖοι, ἀκούσαντες ὅτι ἐφίμωσε τοὺς Σαδδουκαίους, συνήχθησαν ἐπὶ τὸ αὐτό.",
+      "generated_at": "2026-06-06T09:46:17.455289Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 35,
+      "original": "$Luce 10.25.$ Ende een uyt haer, [zijnde] een Wetgeleerde, heeft gevraeght, hem versoeckende, ende seggende,",
+      "modernized": "$Lk. 10:25$ En een van hen, [namelijk] een Wetgeleerde, vroeg hem, terwijl hij hem verzocht, en zei:",
+      "source_text": "καὶ ἐπηρώτησεν εἷς ἐξ αὐτῶν νομικός, πειράζων αὐτόν, καὶ λέγων,",
+      "generated_at": "2026-06-06T09:47:05.045299Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 36,
+      "original": "Meester, welck is het <D. grootste.> groot gebodt in de wet?",
+      "modernized": "Meester, welk is het <dat is, grootste.> grote gebod in de wet?",
+      "source_text": "Διδάσκαλε, ποία ἐντολὴ μεγάλη ἐν τῷ νόμῳ;",
+      "generated_at": "2026-06-06T09:47:41.938195Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
