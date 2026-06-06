@@ -191,6 +191,33 @@
       "generated_at": "2026-06-06T08:38:25.576062Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 19,
+      "original": "Ghy dwase ende blinde: want wat is meerder, de gave, of $Exod. 29.37.$ den altaer die de gave heylight?",
+      "modernized": "Dwazen en blinden: want wat is groter, de gave, of $Ex. 29:37$ het altaar dat de gave heiligt?",
+      "source_text": "μωροὶ καὶ τυφλοί· τί γὰρ μεῖζον, τὸ δῶρον, ἢ τὸ θυσιαστήριον τὸ ἁγιάζον τὸ δῶρον;",
+      "generated_at": "2026-06-06T09:07:12.957078Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 20,
+      "original": "Daerom wie sweert by den altaer, die sweert by den selven, ende by al wat daer op is.",
+      "modernized": "Daarom: wie zweert bij het altaar, die zweert daarbij en bij alles wat daarop is.",
+      "source_text": "ὁ οὖν ὀμόσας ἐν τῷ θυσιαστηρίῳ ὀμνύει ἐν αὐτῷ καὶ ἐν πᾶσι τοῖς ἐπάνω αὐτοῦ·",
+      "generated_at": "2026-06-06T09:07:42.758723Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 21,
+      "original": "$1.Reg. 8.13. 2.Chron. 6.1, 2.$ Ende wie sweert by den tempel, die sweert by den selven, ende by dien <Ofte, die den selven bewoont. Hoe Godt in den tempel woont, siet 1.Reg. 8. vers 27.> die daer in woont.",
+      "modernized": "$1Kn. 8:13; 2Kr. 6:1,2$ En wie zweert bij de tempel, die zweert daarbij en bij hem <Of, die hem bewoont. Hoe God in de tempel woont, zie $1Kn. 8:27$.> die daarin woont.",
+      "source_text": "καὶ ὁ ὀμόσας ἐν τῷ ναῷ ὀμνύει ἐν αὐτῷ καὶ ἐν τῷ κατοικοῦντι αὐτόν·",
+      "generated_at": "2026-06-06T09:08:11.053382Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
