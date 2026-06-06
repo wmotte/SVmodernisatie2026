@@ -223,6 +223,42 @@
       "generated_at": "2026-06-06T18:14:26.565860Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 22,
+      "original": "Doch Saulus wiert meer ende meer bekrachtight, ende <Gr. maeckte de Ioden confuys, ofte, beschaemt, ofte, verwerrede de Ioden.> overtuyghde de Ioden die te Damascus woonden, <Het Griecksch woort beteeckent een bewijs, dat geschiet door t’samenvoeginge ofte vergelijckinge, Namelick, van de voorseggingen der Propheten met de vervullinge der selve inden persoon Christi.> bewijsende dat dese de Christus is.",
+      "modernized": "Maar Saulus werd meer en meer versterkt, en <Grieks: bracht de Joden in verwarring, of, beschaamde, of, verwarde de Joden.> overtuigde de Joden die te Damascus woonden, <Het Griekse woord betekent een bewijs dat plaatsvindt door samenvoeging of vergelijking, Namelijk, van de voorzeggingen van de Profeten met de vervulling daarvan in de persoon van Christus.> door te bewijzen dat deze de Christus is.",
+      "source_text": "Σαῦλος δὲ μᾶλλον ἐνεδυναμοῦτο, καὶ συνέχυνε τοὺς Ἰουδαίους τοὺς κατοικοῦντας ἐν Δαμασκῷ, συμβιβάζων ὅτι οὗτός ἐστιν ὁ Χριστός.",
+      "generated_at": "2026-06-06T18:57:21.007860Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "subject": "HSV-spiegel",
+          "context": "hoofdtekst: \"werd meer en meer bekrachtigd\"",
+          "choice": "\"werd meer en meer versterkt\"",
+          "reason": "De HSV-spiegel wees op \"gesterkt\"; SV1657 \"bekrachtight\" en Grieks ἐνεδυναμοῦτο bedoelen versterking, terwijl modern \"bekrachtigd\" vooral bevestigen of van kracht maken betekent."
+        }
+      ]
+    },
+    {
+      "verse_number": 23,
+      "original": "Ende als <Namel. drie geheele jaren, welcken geheelen tijt hy in Arabien, ende te Damascus geleert heeft, eer hy na Ierusalem trock. Siet Galat. 1.17.> vele dagen <Gr. vervult.> verloopen waren, soo hielden de Ioden te samen raet om hem te dooden.",
+      "modernized": "En toen <Namelijk, drie volle jaren, gedurende welke hele tijd hij in Arabië en te Damascus onderwezen heeft, voordat hij naar Jeruzalem trok. Zie $Gl. 1:17$.> vele dagen <Grieks: vervuld.> verlopen waren, hielden de Joden samen raad om hem te doden.",
+      "source_text": "Ὡς δὲ ἐπληροῦντο ἡμέραι ἱκαναί, συνεβουλεύσαντο οἱ Ἰουδαῖοι ἀνελεῖν αὐτόν·",
+      "generated_at": "2026-06-06T18:57:52.338815Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 24,
+      "original": "Maer hare lage wiert Saulo bekent: $2.Cor. 11.32.$ ende <Namel. de Ioden, gesterckt met de macht van den Stadthouder des Koninghs Arete, 2.Cor. 11.32.> sy bewaerden de poorten, beyde des daeghs ende des nachts, op dat sy hem dooden mochten.",
+      "modernized": "Maar hun aanslag werd Saulus bekend; $2Kor. 11:32$ en <Namelijk, de Joden, gesterkt met de macht van de Stadhouder van Koning Aretas, $2Kor. 11:32$.> zij bewaakten de poorten, zowel overdag als 's nachts, opdat zij hem konden doden.",
+      "source_text": "ἐγνώσθη δὲ τῷ Σαύλῳ ἡ ἐπιβουλὴ αὐτῶν. παρετήρουν τε τὰς πύλας ἡμέρας τε καὶ νυκτός, ὅπως αὐτὸν ἀνέλωσι·",
+      "generated_at": "2026-06-06T18:58:34.148180Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
