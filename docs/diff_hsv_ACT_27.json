@@ -255,9 +255,22 @@
     {
       "verse_number": 34,
       "status": "modernized",
-      "sv2026": "Daarom vermaan ik u voeding te nemen: want dat dient <Namelijk, om kracht te hebben in het besturen van het schip, en om uzelf te kunnen helpen, wanneer wij onszelf moeten redden.> tot uw behoud: want van niemand van u $Mt. 10:30$ zal <Dat is, zal enige schade lijden aan zijn leven of gezondheid. Hebreeuws: zie $1Kn. 1:52$.> een haar van het hoofd vallen.",
+      "sv2026": "Daarom vermaan ik u voedsel te nemen: want dat dient <Namelijk, om kracht te hebben in het besturen van het schip, en om uzelf te kunnen helpen, wanneer wij onszelf moeten redden.> tot uw behoud: want van niemand van u $Mt. 10:30$ zal <Dat is, zal enige schade lijden aan zijn leven of gezondheid. Hebreeuws: zie $1Kn. 1:52$.> een haar van het hoofd vallen.",
       "hsv": "Daarom spoor ik u aan voedsel [tot u] te nemen, want dat dient tot uw redding; want bij niemand van u $Matt. 10:30$ zal een haar van het hoofd vallen.",
-      "original": "Daerom vermane ick u spijse te nemen: want dat dient <N. om sterckte te hebben in ’t regeeren van ’t schip, ende om u selven te konnen helpen, als wy ons selven moeten salveeren.> tot uwer behoudinge: want niemanden van u $Matth. 10.30.$ en sal <D. en sal eenige schade lijden aen sijn leven of gesontheyt. Hebr. siet 1.Reg. 1. vers 52.> een hayr van den hoofde vallen."
+      "original": "Daerom vermane ick u spijse te nemen: want dat dient <N. om sterckte te hebben in ’t regeeren van ’t schip, ende om u selven te konnen helpen, als wy ons selven moeten salveeren.> tot uwer behoudinge: want niemanden van u $Matth. 10.30.$ en sal <D. en sal eenige schade lijden aen sijn leven of gesontheyt. Hebr. siet 1.Reg. 1. vers 52.> een hayr van den hoofde vallen.",
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "spijse (Gr. tau-rho-omicron-phi-eta) -> voedsel",
+          "context": "hoofdtekst",
+          "choice": "voedsel",
+          "alternatives": [
+            "voeding",
+            "spijs"
+          ],
+          "reason": "Concordantie: spijse (Grieks trofe) wordt corpusbreed 24x als 'voedsel' gerenderd (HEB, ROM, JHN, 1CO, LUK, MAT) tegen slechts enkele 'voeding'-uitschieters; de kanttekening glosseert hier zelf <Grieks: voedsel>. Geharmoniseerd naar 'voedsel'."
+        }
+      ]
     },
     {
       "verse_number": 35,
@@ -269,28 +282,41 @@
     {
       "verse_number": 36,
       "status": "modernized",
-      "sv2026": "En toen zij allen goedsmoeds geworden waren, namen ook zij zelf <Grieks: voedsel.> voeding.",
+      "sv2026": "En toen zij allen goedsmoeds geworden waren, namen ook zij zelf <Grieks: voedsel.> voedsel.",
       "hsv": "En zij vatten allen moed en namen ook zelf voedsel tot zich.",
-      "original": "Ende sy alle goets moedts geworden zijnde, namen oock selve <Gr. voedsel.> spijse."
+      "original": "Ende sy alle goets moedts geworden zijnde, namen oock selve <Gr. voedsel.> spijse.",
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "spijse (Gr. tau-rho-omicron-phi-eta) -> voedsel",
+          "context": "hoofdtekst",
+          "choice": "voedsel",
+          "alternatives": [
+            "voeding",
+            "spijs"
+          ],
+          "reason": "Concordantie: spijse (Grieks trofe) wordt corpusbreed 24x als 'voedsel' gerenderd; de kanttekening glosseert hier zelf <Grieks: voedsel>. Geharmoniseerd naar 'voedsel'."
+        }
+      ]
     },
     {
       "verse_number": 37,
-      "status": "pending",
-      "sv2026": "",
+      "status": "modernized",
+      "sv2026": "Wij waren nu in het schip in totaal tweehonderd zesenzeventig <Dat is, mensen, personen, $Hd. 2:41; 7:14; Rm. 13:1$.> zielen.",
       "hsv": "Wij waren nu in het schip met in totaal tweehonderdzesenzeventig zielen.",
       "original": "Wy waren nu in het schip in alles twee hondert ses ende seventigh <D. menschen, persoonen, Actor. 2. vers 41. ende 7.14. Rom. 13.1.> zielen."
     },
     {
       "verse_number": 38,
-      "status": "pending",
-      "sv2026": "",
+      "status": "modernized",
+      "sv2026": "En toen zij met voedsel verzadigd waren, lichtten zij het schip, en wierpen het koren uit in de zee.",
       "hsv": "En toen zij allen met voedsel verzadigd waren, maakten zij het schip lichter door het koren in zee te werpen.",
       "original": "Ende als sy met spijse verzadight waren, lichteden sy het schip, ende wierpen het koren uyt in de zee."
     },
     {
       "verse_number": 39,
-      "status": "pending",
-      "sv2026": "",
+      "status": "modernized",
+      "sv2026": "En toen het dag werd, herkenden zij het land niet; maar zij merkten <Grieks: een schoot, of, boezem.> een zekere inham op die een <Of, strand.> oever had, waartegen zij het geraden vonden, indien zij konden, het schip aan te zetten.",
       "hsv": "En toen het dag werd, herkenden zij het land niet, maar zij merkten dat er een inham was met een strand. Het leek hun raadzaam het schip, als zij konden, daarop te laten lopen.",
       "original": "Ende doe het dagh wiert en kenden sy het lant niet: maer sy merckten <Gr. eenen schoot, ofte, boesem.> eenen sekeren inham die eenen <Ofte, strant.> oever hadde, tegen den welcken sy geraden vonden, soo sy konden, het schip aen te setten."
     },

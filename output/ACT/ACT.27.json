@@ -370,6 +370,33 @@
           "reason": "Concordantie: spijse (Grieks trofe) wordt corpusbreed 24x als 'voedsel' gerenderd; de kanttekening glosseert hier zelf <Grieks: voedsel>. Geharmoniseerd naar 'voedsel'."
         }
       ]
+    },
+    {
+      "verse_number": 37,
+      "original": "Wy waren nu in het schip in alles twee hondert ses ende seventigh <D. menschen, persoonen, Actor. 2. vers 41. ende 7.14. Rom. 13.1.> zielen.",
+      "modernized": "Wij waren nu in het schip in totaal tweehonderd zesenzeventig <Dat is, mensen, personen, $Hd. 2:41; 7:14; Rm. 13:1$.> zielen.",
+      "source_text": "ἦμεν δὲ ἐν τῷ πλοίῳ αἱ πᾶσαι ψυχαί, διακόσιαι ἑβδομηκονταέξ.",
+      "generated_at": "2026-06-07T17:09:57.525668Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 38,
+      "original": "Ende als sy met spijse verzadight waren, lichteden sy het schip, ende wierpen het koren uyt in de zee.",
+      "modernized": "En toen zij met voedsel verzadigd waren, lichtten zij het schip, en wierpen het koren uit in de zee.",
+      "source_text": "κορεσθέντες δὲ τροφῆς ἐκούφιζον τὸ πλοῖον, ἐκβαλλόμενοι τὸν σῖτον εἰς τὴν θάλασσαν.",
+      "generated_at": "2026-06-07T17:10:26.760647Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 39,
+      "original": "Ende doe het dagh wiert en kenden sy het lant niet: maer sy merckten <Gr. eenen schoot, ofte, boesem.> eenen sekeren inham die eenen <Ofte, strant.> oever hadde, tegen den welcken sy geraden vonden, soo sy konden, het schip aen te setten.",
+      "modernized": "En toen het dag werd, herkenden zij het land niet; maar zij merkten <Grieks: een schoot, of, boezem.> een zekere inham op die een <Of, strand.> oever had, waartegen zij het geraden vonden, indien zij konden, het schip aan te zetten.",
+      "source_text": "ὅτε δὲ ἡμέρα ἐγένετο, τὴν γῆν οὐκ ἐπεγίνωσκον· κόλπον δέ τινα κατενόουν ἔχοντα αἰγιαλόν, εἰς ὃν ἐβουλεύσαντο, εἰ δύναιντο, ἐξῶσαι τὸ πλοῖον.",
+      "generated_at": "2026-06-07T17:10:55.639868Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
