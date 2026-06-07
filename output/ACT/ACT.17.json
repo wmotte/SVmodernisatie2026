@@ -248,6 +248,46 @@
       "generated_at": "2026-06-07T19:54:51.584916Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 25,
+      "original": "Ende en wort oock van menschen handen niet gedient, [als] <Ofte, yemants.> yets behoevende, $Genes. 2.7.$ alsoo hy selve alleen het leven, ende den adem, ende alle dingen geeft.",
+      "modernized": "En wordt ook niet door mensenhanden gediend, [alsof] <Of, van iemand.> hij iets nodig had, $Gn. 2:7$ aangezien hij zelf alleen het leven en de adem en alle dingen geeft.",
+      "source_text": "οὐδὲ ὑπὸ χειρῶν ἀνθρώπων θεραπεύεται, προσδεόμενός τινος, αὐτὸς διδοὺς πᾶσι ζωὴν καὶ πνοὴν καὶ τὰ πάντα·",
+      "generated_at": "2026-06-07T19:58:40.299542Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 26,
+      "original": "Ende heeft uyt <Namelick, Adams ende Eve.> eenen bloede het gantsche <Gr. volck.> geslachte der menschen gemaeckt, om <Gr. op het geheel aengesichte der aerde. Ende wort hier van den Apostel in de volgende woorden seer klaerlick aengewesen, dat Godt door sijne voorsienigheyt alle menschen ende volckeren op der aerden haren tijt ende plaetse heeft verordineert, hoe lange ende waer sy op der aerden sullen woonen. Soo dat desen aengaende niet by gevalle, maer na de voorsienigheyt Godts alles geschiet. Siet oock Deuter. 30.20. Iob 14. versen 5, 6. Matth. 10.29.> op den geheelen aerdtbodem te woo-nen, $Deut. 32.8.$ bescheyden hebbende de tijden te voren geordineert, ende de bepalingen van hare wooninge.",
+      "modernized": "En heeft uit <Namelijk, Adam en Eva.> één bloede het gehele <Grieks: volk.> menselijke geslacht gemaakt, om <Grieks: op het gehele aangezicht der aarde. En hier wordt door de Apostel in de volgende woorden zeer duidelijk aangewezen dat God door zijn voorzienigheid alle mensen en volken op de aarde hun tijd en plaats heeft verordineerd, hoe lang en waar zij op de aarde zullen wonen. Zodat in dit opzicht niets bij toeval, maar naar de voorzienigheid Gods alles gebeurt. Zie ook $Dt. 30:20; Jb. 14:5,6; Mt. 10:29$.> op de gehele aardbodem te wonen, $Dt. 32:8$ nadat hij de tevoren bepaalde tijden geordineerd had, en de grenzen van hun woonplaats.",
+      "source_text": "ἐποίησέ τε ἐξ ἑνὸς αἵματος πᾶν ἔθνος ἀνθρώπων, κατοικεῖν ἐπὶ πᾶν τὸ πρόσωπον τῆς γῆς, ὁρίσας προτεταγμένους καιροὺς καὶ τὰς ὁροθεσίας τῆς κατοικίας αὐτῶν·",
+      "generated_at": "2026-06-07T19:59:43.994950Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 27,
+      "original": "Op dat sy den Heere souden soecken, of sy hem <Ofte, eenighsins, misschien.> immers <Godt die een geestelick, onlichamelick, ende onsienlick wesen is, en kan eygentlick niet getast worden, maer wort geseght getast te worden, om dat uyt de geschapene creaturen, ende uyt de onderhoudinge ende regeeringe der selve sijne eygenschappen soo klaerlick konnen worden gesien, als of men hem tastede, Rom. cap. 1. versen 19, 20.> tasten ende vinden mochten: hoewel hy niet verre en is van een yegelick van ons.",
+      "modernized": "Opdat zij de Heere zouden zoeken, of zij hem <Of, enigszins, misschien.> wellicht <God, die een geestelijk, onlichamelijk en onzichtbaar wezen is, kan eigenlijk niet getast worden, maar wordt gezegd getast te worden, omdat uit de geschapen schepselen, en uit de onderhouding en regering daarvan zijn eigenschappen zo duidelijk gezien kunnen worden, alsof men hem tastte, $Rm. 1:19,20$.> tasten en vinden mochten; hoewel hij niet ver is van ieder van ons.",
+      "source_text": "ζητεῖν τὸν Κύριον, εἰ ἄραγε ψηλαφήσειαν αὐτὸν καὶ εὕροιεν, καίτοιγε οὐ μακρὰν ἀπὸ ἑνὸς ἑκάστου ἡμῶν ὑπάρχοντα.",
+      "generated_at": "2026-06-07T20:00:18.252304Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "immers",
+          "context": "hoofdtekst",
+          "choice": "weergegeven als wellicht",
+          "alternatives": [
+            "misschien",
+            "enigszins"
+          ],
+          "reason": "SV immers is hier archaisch voor misschien/enigszins (zo glosseert de eigen kanttekening), niet het moderne immers (= toch/per slot); wellicht vermijdt de false friend"
+        }
+      ]
     }
   ]
 }

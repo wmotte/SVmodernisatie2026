@@ -1,5 +1,5 @@
 {
-  "rounds_done": 14,
+  "rounds_done": 16,
   "pairs": [
     [
       "REV",
@@ -57,20 +57,33 @@
     [
       "MAT",
       "ROM"
+    ],
+    [
+      "ACT",
+      "JHN"
+    ],
+    [
+      "2JN",
+      "3JN"
     ]
   ],
   "debate_count": {
     "REV": 10,
-    "JHN": 5,
+    "JHN": 6,
     "1CO": 2,
     "LUK": 3,
     "ROM": 4,
     "2CO": 1,
     "MRK": 1,
-    "MAT": 3
+    "MAT": 3,
+    "ACT": 1,
+    "2JN": 1,
+    "3JN": 1
   },
   "closed_keys": [
     "consistentie|2CO,ROM|om de aanleiding af te snijden voor hen|concordantie cross-book (grieks aphorme)",
+    "consistentie|2JN,3JN|2jn 1 12 mond tot mond met u|modernisatie.md §5.3 concordantie; source_text in beide brieven: `στόμα πρὸς στόμα`",
+    "consistentie|ACT,JHN|een grote menigte van kranken|agents.md concordantie; modernisatie.md §2.7; grieks: ασθενουντων",
     "consistentie|JHN,REV|komt en ziet|modernisatie.md (imperatief-`-t`); archaismen.md:78",
     "consistentie|JHN|volgt u mij|archaismen.md (imperatief enkelvoud -t -> stam); interne concordantie",
     "consistentie|JHN|vrouw waarom huilt u wie zoekt u|projectregel κλαίω→wenen; agents.md concordantie",
@@ -89,6 +102,24 @@
     "modernisatie|1CO|weest zonder aanstoot te geven en de joden|archaismen.md:78 (imperatief-meervoud -t -> stam; weest -> wees)",
     "modernisatie|1CO|zei neemt eet dat is mijn lichaam dat|archaismen.md (imperatief-meervoud op `-t` → stam); modernisatie.md imperatief-`-t`",
     "modernisatie|2CO|dat ons woord hetwelk tot u gekomen is|rules_data.py:340 archaisme-blacklist (hetwelk); drempel-archaisme relativum",
+    "modernisatie|2JN|niet als een nieuw gebod aan u schrijvend|modernisatie.md §2.3; scripts/rules_data.py participle_bad_end_stems (`schrijvend`)",
+    "modernisatie|2JN|om u te leren en te onderwijzen dat|archaismen.md false friends: `leren` / `leerde` als transitief didactisch werkwoord",
+    "modernisatie|2JN|ziet toe voor uzelf|archaismen.md imperatief-meervoud op `-t`; archaismen.md `(hoort|ziet|zie) toe`",
+    "modernisatie|3JN|boze woorden snaterende tegen ons|modernisatie.md §2.3; scripts/rules_data.py participle_bad_end_stems / adversarial_scan §2.3 finiet participium",
+    "modernisatie|3JN|dit kan op twee manieren verstaan worden|archaismen.md false friends: `verstaan worden`",
+    "modernisatie|3JN|een eind weegs met hen meegaande|kanttekeningen.md geen sv-participia in kanttekeningen; modernisatie.md §2.3",
+    "modernisatie|3JN|grieks gode waardiglijk zoals het gode waardig is|modernisatie.md §2.7 drempel; §2.5/§2.6 kanttekening-vertaling",
+    "modernisatie|3JN|u doet trouw|modernisatie.md §2.7 constructie-test; hsv-spiegel 3jn 1:5",
+    "modernisatie|3JN|verheft daarna ernaar streeft om hen te overheersen|modernisatie.md §2.3 / §2.7 constructie-test; kanttekeningen tellen volwaardig mee",
+    "modernisatie|ACT|adriatische zee herwaarts en derwaarts gedreven werden|modernisatie.md §2.7; precedent rg13-005 herwaarts/derwaarts",
+    "modernisatie|ACT|demetrius een zilversmid die zich geneert met kleine|modernisatie.md §2.7; false-friend/productiviteitstest",
+    "modernisatie|ACT|eendrachtig in de tempel volhardend en brood brekend|modernisatie.md §2.3 (finiet participium) en §2.3b",
+    "modernisatie|ACT|geen opdracht gegeven hebben zulks te leren|archaismen.md (`sulcks`/`zulks`); modernisatie.md §2.7; kanttekeningen tellen volwaardig mee",
+    "modernisatie|ACT|geenszins heere|scripts/rules_data.py drempel_archaismen (`geenszins`); modernisatie.md §2.7; grieks: μηδαμως",
+    "modernisatie|ACT|hetwelk dan geen gemeenschap heeft met de vastentijden|scripts/rules_data.py drempel_archaismen (`hetwelk`); modernisatie.md §2.7; kanttekeningen tellen volwaardig mee",
+    "modernisatie|ACT|maar zulks is na deze tijd gebeurd|archaismen.md (`sulcks`/`zulks`); modernisatie.md §2.7; kanttekeningen tellen volwaardig mee",
+    "modernisatie|ACT|ontstond daar geen kleine beroerte|modernisatie.md §2.7; false-friend/productiviteitstest; grieks: ταραχος",
+    "modernisatie|ACT|zijn rede uitstrekkend tot de middernacht|modernisatie.md §2.3 / §2.3b (finiet participium; intro volgt dezelfde principes)",
     "modernisatie|JHN|dat u zult huilen en weeklagen|projectregel κλαίω→wenen",
     "modernisatie|JHN|de rechte tijd van de geestelijke oogst voorhanden|rules_data.py drempel_archaismen ('voorhanden'); modernisatie.md §2.7. scaffolding-gap: intro niet gescand.",
     "modernisatie|JHN|gaat u maar op naar dit feest|archaismen.md (imperatief meervoud -t -> stam)",
@@ -160,5 +191,5 @@
     "modernisatie|ROM|weest vrolijk u heidenen met zijn volk|archaismen.md:78 imperatief-meervoud sv-`-t` -> stam"
   ],
   "open_keys": [],
-  "updated_at": "2026-06-07T18:36:36.411993+00:00"
+  "updated_at": "2026-06-07T20:09:37.656293+00:00"
 }

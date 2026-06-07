@@ -309,3 +309,69 @@ Red bracht 9 punt(en). Verdicts: red_wins=9, green_wins=0, rule_change=0.
 - **[RG14-009] (modernisatie)** aangezien ik weet dat u zulks metterdaad betoont
   - regel: ARCHAISMEN.md: `sulcks` / `zulks`; MODERNISATIE.md §2.7; kanttekeningen tellen volwaardig mee; fix: aangezien ik weet dat u dit daadwerkelijk betoont
   - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert; kanttekening bevat drempelarchaïsmen die volgens bestaande regels modernisering vragen.
+
+## Ronde 15 — ACT + JHN  (2026-06-07T19:50:19.945610+00:00)
+Red bracht 10 punt(en). Verdicts: red_wins=8, green_wins=2, rule_change=0.
+- **[RG15-001] (modernisatie)** Demetrius, een zilversmid, die zich geneert met kleine zilveren tempeltjes van Diana te maken
+  - regel: MODERNISATIE.md §2.7; false-friend/productiviteitstest; fix: `Demetrius, een zilversmid, die zijn brood verdiende met het maken van kleine zilveren tempeltjes van Diana`.
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert. Het punt is vers-/intro-specifiek: `zich generen` faalt hier de §2.7 verwarringtest bij Demetrius' broodwinning.
+- **[RG15-002] (modernisatie)** ontstond daar geen kleine beroerte
+  - regel: MODERNISATIE.md §2.7; false-friend/productiviteitstest; Grieks: ταραχος; fix: `ontstond er geen geringe opschudding` of `ontstond er geen klein oproer`.
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert. ACT 19:23 gebruikt ταραχος voor maatschappelijke opschudding; `beroerte` introduceert een moderne medische false-friend-lezing.
+- **[RG15-003] (modernisatie)** Adriatische zee herwaarts en derwaarts gedreven werden
+  - regel: MODERNISATIE.md §2.7; precedent RG13-005 herwaarts/derwaarts; fix: `op de Adriatische zee heen en weer gedreven werden`.
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert. Precedent RG13 behandelt `herwaarts/derwaarts` context-afhankelijk per vindplaats, dus geen rule_change maar een verscorrectie.
+- **[RG15-004] (modernisatie)** Hetwelk dan geen gemeenschap heeft met de vastentijden die sommigen tegenwoordig houden
+  - regel: scripts/rules_data.py DREMPEL_ARCHAISMEN (`hetwelk`); MODERNISATIE.md §2.7; kanttekeningen tellen volwaardig mee; fix: `Dit heeft dan geen gemeenschap met de vastentijden die sommigen tegenwoordig houden`.
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert. `Hetwelk` staat in DREMPEL_ARCHAISMEN en de ACT 27:9-kanttekening is lopende uitlegtekst.
+- **[RG15-005] (modernisatie)** geen opdracht gegeven hebben zulks te leren
+  - regel: ARCHAISMEN.md (`sulcks`/`zulks`); MODERNISATIE.md §2.7; kanttekeningen tellen volwaardig mee; fix: `geen opdracht gegeven hebben dit te leren`.
+  - verdict: **green_wins** (scope=verse, applied=False) — Rebuttal haalt de gate: regelbron (`sulcks/sulks -> zulks`, geen `zulks` in DREMPEL_ARCHAISMEN), versspecifiek antecedent in ACT 15:24, en onderscheid tussen spellingnormalisatie en false friend.
+- **[RG15-006] (modernisatie)** zijn rede uitstrekkend tot de middernacht
+  - regel: MODERNISATIE.md §2.3 / §2.3b (finiet participium; intro volgt dezelfde principes); fix: `en strekt zijn rede uit tot middernacht` of `en houdt zijn rede tot middernacht`.
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert. Introducties volgen dezelfde principes als verzen en `zijn rede uitstrekkend` blijft een te ontvouwen participiumconstructie.
+- **[RG15-007] (modernisatie)** eendrachtig in de tempel volhardend, en ... brood brekend, ... aten zij tezamen
+  - regel: MODERNISATIE.md §2.3 (finiet participium) en §2.3b; fix: `En zij volhardden dagelijks eendrachtig in de tempel, braken van huis tot huis brood, en aten tezamen ...`.
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert. De participia προσκαρτεροῦντες en κλῶντες blijven als `volhardend` en `brood brekend` hangen voor het finiete `aten`.
+- **[RG15-008] (modernisatie)** Geenszins, Heere
+  - regel: scripts/rules_data.py DREMPEL_ARCHAISMEN (`geenszins`); MODERNISATIE.md §2.7; Grieks: μηδαμως; fix: `Volstrekt niet, Heere` of `Beslist niet, Heere`.
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert. `Geenszins` staat in DREMPEL_ARCHAISMEN en ACT 10:14 kan μηδαμῶς met een moderne sterke ontkenning weergeven.
+- **[RG15-009] (consistentie)** een grote menigte van kranken
+  - regel: AGENTS.md concordantie; MODERNISATIE.md §2.7; Grieks: ασθενουντων; fix: `een grote menigte van zieken` en in JHN 5:5 `achtendertig jaar ziek geweest was`.
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert. JHN 5 houdt `kranken/krank` over bij het ἀσθεν-woordveld terwijl ACT vergelijkbare gevallen als `zieken/ziek` moderniseert.
+- **[RG15-010] (modernisatie)** maar zulks is na deze tijd gebeurd
+  - regel: ARCHAISMEN.md (`sulcks`/`zulks`); MODERNISATIE.md §2.7; kanttekeningen tellen volwaardig mee; fix: `maar dat is na deze tijd gebeurd`.
+  - verdict: **green_wins** (scope=verse, applied=False) — Rebuttal haalt de gate: regelbron (`sulcks/sulks -> zulks`, geen `zulks` in DREMPEL_ARCHAISMEN), versspecifieke Josephus/Theudas-terugverwijzing, en onderscheid tussen formeel verwijswoord en misleide
+
+## Ronde 16 — 2JN + 3JN  (2026-06-07T20:09:37.656612+00:00)
+Red bracht 10 punt(en). Verdicts: red_wins=8, green_wins=2, rule_change=0.
+- **[RG16-001] (modernisatie)** niet als een nieuw gebod aan u schrijvend
+  - regel: MODERNISATIE.md §2.3; scripts/rules_data.py PARTICIPLE_BAD_END_STEMS (`schrijvend`); fix: niet alsof ik u een nieuw gebod schrijf, maar wat wij gehad hebben van het begin, [namelijk] ...
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert expliciet; red-punt over `schrijvend` als participiumcarry-over blijft staan.
+- **[RG16-002] (modernisatie)** Ziet toe voor uzelf
+  - regel: ARCHAISMEN.md imperatief-meervoud op `-t`; ARCHAISMEN.md `(Hoort|Ziet|Zie) toe`; fix: Let op uzelf, ...
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert expliciet; `Ziet toe` valt onder imperatief-`-t` en de getabelleerde waarschuwingsformule.
+- **[RG16-003] (modernisatie)** om u te leren en te onderwijzen ... <Dat is, leert en voorstelt.>
+  - regel: ARCHAISMEN.md False Friends: `leren` / `leerde` als transitief didactisch werkwoord; fix: om u te onderrichten en onderwijs te geven ... <Dat is, onderwijst en voorstelt.>
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert expliciet; didactisch transitief `leren/leert` in kanttekeningen valt onder de false-friendregel.
+- **[RG16-004] (consistentie)** 2JN 1:12: `mond tot mond [met u] te spreken`; 3JN 1:14: `van mond tot mond spreken`
+  - regel: MODERNISATIE.md §5.3 concordantie; source_text in beide brieven: `στόμα πρὸς στόμα`; fix: Harmoniseer 2JN 1:12 naar `van mond tot mond [met u] te spreken`.
+  - verdict: **green_wins** (scope=verse, applied=False) — Green haalt de rebuttal-gate: regelbasis (§5.3 en §6), concrete Griekse formule `στόμα πρὸς στόμα`, en versspecifiek onderscheid tussen 2JN 1:12 met `[met u]` en 3JN 1:14 zonder bracketed object.
+- **[RG16-005] (modernisatie)** u doet ... trouw
+  - regel: MODERNISATIE.md §2.7 constructie-test; HSV-spiegel 3JN 1:5; fix: Geliefde, u handelt trouw in alles wat u doet aan de broeders, en aan ...
+  - verdict: **green_wins** (scope=verse, applied=False) — Green haalt de rebuttal-gate: regelbasis (§3.1 en §6), concrete Griekse termen `ποιεῖς` en `ἐργάσῃ`, en versspecifiek argument dat de dubbele doe-constructie in 3JN 1:5 formeel behouden blijft.
+- **[RG16-006] (modernisatie)** een eind weegs met hen meegaande
+  - regel: KANTTEKENINGEN.md Geen SV-participia in kanttekeningen; MODERNISATIE.md §2.3; fix: niet alleen hen uitgeleide doet door een eind met hen mee te gaan, maar hen ook verzorgt van wat hun tot de reis nodig zal zijn
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert expliciet; `meegaande` is een participiumcarry-over binnen een kanttekening.
+- **[RG16-007] (modernisatie)** <Grieks: Gode waardiglijk.> zoals het Gode waardig is
+  - regel: MODERNISATIE.md §2.7 drempel; §2.5/§2.6 kanttekening-vertaling; fix: <Grieks: God waardig.> zoals het God waardig is
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert expliciet; `Gode` en `waardiglijk` blijven archaïsch in glosse en hoofdtekstzin.
+- **[RG16-008] (modernisatie)** Dit kan op twee manieren verstaan worden
+  - regel: ARCHAISMEN.md False Friends: `verstaan worden`; fix: Dit kan op twee manieren worden opgevat, ...
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert expliciet; passief `verstaan worden` in deze kanttekening is de false-friendformule voor `opgevat/bedoeld worden`.
+- **[RG16-009] (modernisatie)** verheft, daarna ernaar streeft om hen te overheersen
+  - regel: MODERNISATIE.md §2.3 / §2.7 constructie-test; kanttekeningen tellen volwaardig mee; fix: die zich uit eerzucht boven zijn medebroeders verheft en ernaar streeft om hen te overheersen en al het gezag aan hem alleen te trekken
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert expliciet; `daarna ernaar streeft` is een versspecifieke fout voor SV `daer na tracht` in de zin van `daarnaar streeft`.
+- **[RG16-010] (modernisatie)** boze woorden ... snaterende tegen ... ons
+  - regel: MODERNISATIE.md §2.3; scripts/rules_data.py PARTICIPLE_BAD_END_STEMS / adversarial_scan §2.3 finiet participium; fix: zijn werken die hij doet: hij snatert/lastert met boze woorden tegen ons; en ...
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert expliciet; `snaterende tegen ons` is een participiumcarry-over bij `φλυαρῶν ἡμᾶς`.
