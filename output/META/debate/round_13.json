@@ -1,0 +1,209 @@
+{
+  "round_no": 13,
+  "books": [
+    "REV",
+    "JHN"
+  ],
+  "red": [
+    {
+      "id": "RG13-001",
+      "class": "modernisatie",
+      "books": [
+        "JHN"
+      ],
+      "chapter": 2,
+      "verse": 0,
+      "quote": "Hetwelk het begin is van zijn wonderwerken.",
+      "in_kanttekening": false,
+      "rule_reference": "rules_data.py DREMPEL_ARCHAISMEN ('hetwelk'); modernisatie.md §2.7 (relativum). Scaffolding-gap: lint_archaismen scant hoofdstuk-introductie niet (intro is dict-veld 'modernized', lint geeft 0 voor JHN).",
+      "explanation": "'hetwelk' is een als HARD gelist drempel-archaïsme dat al NT-breed is uitgerold in de hoofdtekst, maar als concreet, niet-gevangen residu blijft staan in de hoofdstuk-introductie van JHN 2 — hier zelfs als vrij relativum op zinsopener-positie. De linter scant introducties niet, dus de regel is hier nooit toegepast.",
+      "proposed_fix": "'Hetwelk het begin is van zijn wonderwerken.' → 'Dat is het begin van zijn wonderwerken.' En: laat lint_archaismen ook het introduction.modernized-veld scannen.",
+      "severity": "hard"
+    },
+    {
+      "id": "RG13-002",
+      "class": "modernisatie",
+      "books": [
+        "JHN"
+      ],
+      "chapter": 4,
+      "verse": 0,
+      "quote": "de rechte tijd van de geestelijke oogst voorhanden is",
+      "in_kanttekening": false,
+      "rule_reference": "rules_data.py DREMPEL_ARCHAISMEN ('voorhanden'); modernisatie.md §2.7. Scaffolding-gap: intro niet gescand.",
+      "explanation": "'voorhanden' staat al in DREMPEL_ARCHAISMEN en is in de hoofdtekst uitgerold, maar blijft als niet-gevangen residu in de JHN 4-introductie staan. Concrete, nog-aanwezige instantie van een reeds beslecht woord op een door de linter overgeslagen plek.",
+      "proposed_fix": "'... van de geestelijke oogst voorhanden is' → '... van de geestelijke oogst aangebroken is' / 'nabij is'.",
+      "severity": "hard"
+    },
+    {
+      "id": "RG13-003",
+      "class": "modernisatie",
+      "books": [
+        "REV"
+      ],
+      "chapter": 16,
+      "verse": 0,
+      "quote": "waarna de mensen op de aarde zich evenwel niet bekeren",
+      "in_kanttekening": false,
+      "rule_reference": "rules_data.py DREMPEL_ARCHAISMEN ('evenwel'); modernisatie.md §2.7. Scaffolding-gap: intro niet gescand.",
+      "explanation": "'evenwel' is gelist en in de hoofdtekst uitgerold; blijft als residu in de REV 16-introductie staan omdat lint_archaismen het introduction-veld niet scant.",
+      "proposed_fix": "'... zich evenwel niet bekeren' → '... zich toch niet bekeren'.",
+      "severity": "hard"
+    },
+    {
+      "id": "RG13-004",
+      "class": "modernisatie",
+      "books": [
+        "JHN"
+      ],
+      "chapter": 7,
+      "verse": 0,
+      "quote": "terwijl zij smadelijk spreken van Christus en van het volk",
+      "in_kanttekening": false,
+      "rule_reference": "rules_data.py DREMPEL_ARCHAISMEN ('smadelijk'); modernisatie.md §2.7. Scaffolding-gap: intro niet gescand.",
+      "explanation": "'smadelijk' staat al in DREMPEL_ARCHAISMEN (en is in ronde 11/12-context bevestigd), maar blijft als niet-gevangen residu in de JHN 7-introductie staan.",
+      "proposed_fix": "'... terwijl zij smadelijk spreken van Christus ...' → '... terwijl zij minachtend/smalend spreken over Christus ...'.",
+      "severity": "hard"
+    },
+    {
+      "id": "RG13-005",
+      "class": "modernisatie",
+      "books": [
+        "REV"
+      ],
+      "chapter": 1,
+      "verse": 19,
+      "quote": "die hem meteen bevelen zal te schrijven; hetwelk in de twee volgende hoofdstukken gebeurt",
+      "in_kanttekening": true,
+      "rule_reference": "rules_data.py DREMPEL_ARCHAISMEN ('hetwelk'); precedent closed-key 'en johannes insgelijks ...' (drempel-archaïsme in kanttekening is geldig red-punt). Validate.py stript <...> vóór de check, dus deze blijft staan.",
+      "explanation": "'hetwelk' (HARD gelist) komt 44x voor in REV-kanttekeningen, doorgaans als zinsopener-relativum zoals hier; de validator strip-t notes en vangt het niet. Conform de insgelijks-precedent zijn drempel-archaïsmen in kanttekeningen wel degelijk te corrigeren.",
+      "proposed_fix": "'...; hetwelk in de twee volgende hoofdstukken gebeurt' → '...; wat in de twee volgende hoofdstukken gebeurt'. En: laat validate/lint de kanttekening-inhoud op DREMPEL_ARCHAISMEN scannen.",
+      "severity": "hard"
+    },
+    {
+      "id": "RG13-006",
+      "class": "modernisatie",
+      "books": [
+        "REV"
+      ],
+      "chapter": 4,
+      "verse": 6,
+      "quote": "die als een zee dikwijls herwaarts en derwaarts worden bewogen",
+      "in_kanttekening": true,
+      "rule_reference": "modernisatie.md §2.7 (drempel-archaïsme; woord NIET gelist in DREMPEL_ARCHAISMEN). Verwarringstest: 'herwaarts/derwaarts' zijn obsolete richtingsbijwoorden, modern NL 'heen en weer'.",
+      "explanation": "'herwaarts' en 'derwaarts' zijn volledig obsolete plaatsbijwoorden die modern niet meer voorkomen en niet in de gelist-set staan. Ook in REV 17:8 ('zoals nu enige tijd herwaarts is begonnen'). Nieuw §2.7-kandidaatwoord.",
+      "proposed_fix": "'dikwijls herwaarts en derwaarts worden bewogen' → 'vaak heen en weer worden bewogen'; voeg 'herwaarts'/'derwaarts' toe aan DREMPEL_ARCHAISMEN.",
+      "severity": "soft"
+    },
+    {
+      "id": "RG13-007",
+      "class": "consistentie",
+      "books": [
+        "REV"
+      ],
+      "chapter": 19,
+      "verse": 10,
+      "quote": "en Johannes insgelijks om dit voor de gemeente van Christus wege te betuigen",
+      "in_kanttekening": true,
+      "rule_reference": "modernisatie.md §2.7 / kanttekening-luiheid: gesplitste fossiele constructie 'van ... wege' half blijven staan als 'Christus wege' (= namens Christus).",
+      "explanation": "De SV-constructie 'van ...wege' (= namens) is hier half-gemoderniseerd blijven hangen als 'van ... van Christus wege', wat als 'Christus wege' onleesbaar/ongrammaticaal modern Nederlands oplevert. (Het naburige 'insgelijks' is reeds beslecht; dit is een afzonderlijke constructie-residu in dezelfde noot.)",
+      "proposed_fix": "'om dit voor de gemeente van Christus wege te betuigen' → 'om dit namens Christus aan de gemeente te betuigen'.",
+      "severity": "soft"
+    }
+  ],
+  "green": [
+    {
+      "point_id": "RG13-001",
+      "stance": "concede",
+      "rebuttal": "Geverifieerd: 'Hetwelk' staat letterlijk in JHN 2 introduction.modernized ('11 Hetwelk het begin is van zijn wonderwerken.'), niet in source_text en niet in een <Grieks:...>-gloss. 'hetwelk' staat HARD in DREMPEL_ARCHAISMEN (rules_data.py:346) en is NT-breed in de hoofdtekst uitgerold; hier als zinsopener-relativum op een door lint_archaismen niet-gescande plek. Geen heronderhandeling van de regel, een residu. Fix: 'Hetwelk het begin is van zijn wonderwerken.' -> 'Dat is het begin van zijn wonderwerken.' Scaffolding: laat lint introduction.modernized scannen.",
+      "evidence": "rules_data.py:346 'hetwelk' DREMPEL_ARCHAISMEN; §2.7 relativum; bronvorm-check JHN.2.json introduction.modernized (woord aanwezig, geen citaatgloss)"
+    },
+    {
+      "point_id": "RG13-002",
+      "stance": "concede",
+      "rebuttal": "Geverifieerd: 'voorhanden' staat in JHN 4 introduction.modernized ('de rechte tijd van de geestelijke oogst voorhanden is'), niet in een gloss. 'voorhanden' staat in DREMPEL_ARCHAISMEN (rules_data.py:348) en is in de hoofdtekst beslecht; faalt §2.7-productiviteitstest (geen lezer schrijft 'de oogst is voorhanden'). Residu op intro-plek die de linter overslaat. Fix: 'voorhanden is' -> 'aangebroken is' (HSV-spiegel 'gekomen/nabij' ondersteunt).",
+      "evidence": "rules_data.py:348 'voorhanden' DREMPEL_ARCHAISMEN; §2.7 productiviteitstest; JHN.4.json introduction.modernized"
+    },
+    {
+      "point_id": "RG13-003",
+      "stance": "concede",
+      "rebuttal": "Geverifieerd: 'evenwel' staat in REV 16 introduction.modernized ('waarna de mensen op de aarde zich evenwel niet bekeren'), geen gloss. 'evenwel' staat HARD in DREMPEL_ARCHAISMEN (rules_data.py:347), is in de hoofdtekst uitgerold; residu in een niet-gescand intro-veld. Fix: 'zich evenwel niet bekeren' -> 'zich toch niet bekeren'.",
+      "evidence": "rules_data.py:347 'evenwel' DREMPEL_ARCHAISMEN; §2.7; REV.16.json introduction.modernized"
+    },
+    {
+      "point_id": "RG13-004",
+      "stance": "concede",
+      "rebuttal": "Geverifieerd: 'smadelijk' staat in JHN 7 introduction.modernized ('terwijl zij smadelijk spreken van Christus en van het volk'), geen gloss. 'smadelijk' staat in DREMPEL_ARCHAISMEN (rules_data.py:249) EN heeft een eigen false-friend-pattern (rules_data.py:253-256: 'smadelijk' = van handelingen, niet van toestanden). Hier bijwoordelijk bij 'spreken' archaisch; residu in niet-gescand intro-veld. Fix: 'smadelijk spreken van Christus' -> 'smalend/minachtend spreken over Christus'.",
+      "evidence": "rules_data.py:249/253 'smadelijk' DREMPEL_ARCHAISMEN + false-friend-pattern; §2.7; JHN.7.json introduction.modernized"
+    },
+    {
+      "point_id": "RG13-005",
+      "stance": "concede",
+      "rebuttal": "Geverifieerd: 'hetwelk' staat in REV 1:19 modernized binnen een NL-kanttekening <...> ('hetgeen ik u aangaande haar meteen bevelen zal te schrijven; hetwelk in de twee volgende hoofdstukken gebeurt.'), NIET in een <Grieks:...>-citaatgloss en niet in source_text. Daarnaast 2x residu in de noten van REV 1:8 ('hetwelk van God gezegd wordt' + 'hij evenwel altijd dezelfde blijft'). De insgelijks-precedent (RG12-004, status rule_change, ZELFDE vers REV 19:10) heeft vastgesteld dat drempel-archaismen in kanttekeningen geldige correcties zijn; 'hetwelk' is bovendien HARD gelist. Validator stript <...> dus ongevangen. Fix: '; hetwelk' -> '; wat'; laat validate de note-inhoud op DREMPEL_ARCHAISMEN scannen.",
+      "evidence": "rules_data.py:346 'hetwelk' HARD; precedent RG12-004 (round_12.json, status rule_change, REV 19:10 kanttekening); REV.1.json v19/v8 modernized (note-tekst, geen Griekse citaatgloss)"
+    },
+    {
+      "point_id": "RG13-006",
+      "stance": "concede",
+      "rebuttal": "Concede op de kern (woord is obsoleet, §2.7), maar corrigeer red's fix en context. (a) §2.7 verwarrings/productiviteitstest: 'herwaarts/derwaarts' (= hierheen/daarheen) functioneren niet in modern NL; corpus-precedent OPEN 21:9 moderniseerde 'herwaarts' al naar 'hierheen' in de hoofdtekst. Toevoegen aan DREMPEL_ARCHAISMEN gerechtvaardigd. (b) vers-specifiek: BEIDE vindplaatsen (REV 4:6 en 17:8) staan in een kanttekening, niet in de hoofdtekst zoals red's quote suggereert. (c) onderscheidend: red's blanket-fix 'heen en weer' klopt alleen voor 4:6 ('herwaarts en derwaarts bewogen' = heen en weer). In 17:8 betekent 'nu enige tijd herwaarts' temporeel 'tot nu toe / sinds enige tijd', NIET 'heen en weer' -> daar fix 'zoals tot nu toe is begonnen'. Per-locus moderniseren, niet 1 vervanging.",
+      "evidence": "§2.7 verwarringstest + productiviteitstest; precedent OPEN-21:9 ('herwaerts is drempel-archaisch' -> 'Kom hierheen', REV.21.json note); woord NIET in rules_data.py DREMPEL_ARCHAISMEN; REV.4.json v6 + REV.17.json v8 modernized (beide kanttekening; 17:8 temporeel 'herwaarts')"
+    },
+    {
+      "point_id": "RG13-007",
+      "stance": "concede",
+      "rebuttal": "Geverifieerd half-fossiel. Bronvorm REV 19:10: 'om dit voor de gemeynte van Christi wegen te betuygen' = 'om dit namens Christus aan de gemeente te betuigen'. De SV-constructie 'van ... wege(n)' (= namens) is half-gemoderniseerd blijven hangen als 'van de gemeente van Christus wege'; het residu 'Christus wege' is ongrammaticaal/onleesbaar modern NL en staat in dezelfde noot als het reeds beslechte 'insgelijks' (RG12-004). §2.7 constructie-test: 'van X wege' werkt niet meer attributief gesplitst. Fix: 'om dit voor de gemeente van Christus wege te betuigen' -> 'om dit namens Christus aan de gemeente te betuigen'.",
+      "evidence": "§2.7 constructie-test ('van ... wege' = namens); bronvorm REV.19.json v10 original 'voor de gemeynte van Christi wegen'; precedent-noot RG12-004 zelfde vers/kanttekening"
+    }
+  ],
+  "verdicts": [
+    {
+      "point_id": "RG13-001",
+      "verdict": "red_wins",
+      "scope": "verse",
+      "applied": true,
+      "rationale": "'hetwelk' is HARD-gelist (rules_data.py:346) en NT-breed in de hoofdtekst uitgerold, maar 'hetwelk' is CONTEXT-AFHANKELIJK (zinsopener-relativum -> dat / wat / dat-wat; geen clean 1:1). Daarom red_wins verse: per-occurrence corrigeren, NOOIT blinde nt-wide sweep. Concrete intro-vindplaats van dit punt: JHN 2 intro ('Hetwelk het begin is van zijn wonderwerken.' -> 'Dat is het begin van zijn wonderwerken.'). Volledige hetwelk-residu in intro's (de linter scant introduction.modernized niet) = 5: 1JN 3, 1JN 5, JHN 2, ROM 6, ROM 9. Scaffolding-aanbeveling: laat lint_archaismen het introduction.modernized-veld scannen. NB: de ~80 note-vindplaatsen vallen onder RG13-005 (zelfde woord, ook per-verse)."
+    },
+    {
+      "point_id": "RG13-002",
+      "verdict": "rule_change",
+      "scope": "nt-wide",
+      "applied": true,
+      "rationale": "'voorhanden' staat in DREMPEL_ARCHAISMEN (rules_data.py:348), faalt §2.7-productiviteitstest en is clean 1:1 vervangbaar (-> 'aangebroken' bij tijd, 'aanwezig/beschikbaar' bij zaken; HSV-spiegel 'gekomen/nabij'). rule_change nt-wide zodat het intro-residu mee opgeruimd wordt. Residu (linter slaat intro over) = 1 vindplaats: INTRO[1]: JHN 4 (JHN 4 intro: 'de rechte tijd van de geestelijke oogst voorhanden is' -> '... aangebroken is'). Geen note-residu. Scaffolding: scan introduction.modernized."
+    },
+    {
+      "point_id": "RG13-003",
+      "verdict": "rule_change",
+      "scope": "nt-wide",
+      "applied": true,
+      "rationale": "'evenwel' staat HARD in DREMPEL_ARCHAISMEN (rules_data.py:347) en is in de hoofdtekst al NT-breed uitgerold. Concessief bijwoord, clean 1:1 -> 'toch' (mid-clause: 'zich evenwel niet bekeren' -> 'zich toch niet bekeren') of 'niettemin/echter' (zinsopener: 'Maar evenwel' -> 'Maar toch / Maar niettemin'); beide modern-equivalenten dekken alle gevonden contexten. rule_change nt-wide. Residu op niet-gescande plekken (intro+note) = 44: INTRO[6]: 1CO 12, 1CO 14, 1CO 9, EPH 4, PHP 3, REV 16 | NOTE[38]: 1CO 10:28, 1CO 10:29, 1CO 7:33, 1CO 7:7, 1CO 8:10, 1CO 8:7, 1JN 4:12, 1TH 5:9, 1TI 1:20, 1TI 3:1, 2CO 11:4, 2TI 2:13, ACT 7:51, COL 2:16, COL 4:10, EPH 4:9, GAL 5:9, HEB 11:23, HEB 3:12, JAS 5:3, JHN 4:10, JHN 5:17, JHN 8:33, LUK 2:5, MAT 26:25, MAT 27:46, MRK 7:2, PHP 2:11, REV 11:3, REV 15:2, REV 18:20, REV 1:8, REV 9:20, ROM 14:22, ROM 14:6, ROM 15:24, ROM 5:14, ROM 9:28. Scaffolding: laat lint/validate introduction.modernized EN <...>-note-inhoud op DREMPEL_ARCHAISMEN scannen."
+    },
+    {
+      "point_id": "RG13-004",
+      "verdict": "rule_change",
+      "scope": "nt-wide",
+      "applied": true,
+      "rationale": "'smadelijk' staat in DREMPEL_ARCHAISMEN (rules_data.py:249) met eigen false-friend-pattern. Als bijwoord bij spreekwerkwoorden clean 1:1 -> 'smalend/minachtend' ('smadelijk spreken van Christus' -> 'minachtend spreken over Christus'). rule_change nt-wide. Residu (intro, niet gescand) = 4: INTRO[4]: JHN 7, MAT 26, MAT 27, MRK 14. Geen note-residu. Scaffolding: scan introduction.modernized."
+    },
+    {
+      "point_id": "RG13-005",
+      "verdict": "red_wins",
+      "scope": "verse",
+      "applied": true,
+      "rationale": "'hetwelk' (HARD-gelist) in REV-kanttekeningen; validate.py stript <...> vóór de §2.3-check dus ongevangen. Conform precedent RG12-004 (rule_change, drempel-archaïsme in kanttekening = geldige correctie) corrigeren, MAAR 'hetwelk' is CONTEXT-AFHANKELIJK (-> wat / dat / dat-wat) => red_wins verse, per-occurrence; GEEN blinde sweep. Concrete punt-vindplaatsen: REV 1:19 ('; hetwelk in de twee volgende hoofdstukken gebeurt' -> '; wat ...') en REV 1:8 (2x note-residu). Volledige hetwelk-note-residu NT-breed = 80 (REV-zwaartepunt): 1CO 11:14, 1CO 11:29, 1CO 13:10, 1CO 15:29, 1CO 15:51, 1CO 9:23, 1JN 2:10(x3), 1JN 2:7, 1JN 3:2, 1JN 3:8, 1JN 4:18, 1JN 5:1, 1JN 5:16, 1JN 5:3, 1PE 3:7, 2CO 10:5, 2PE 3:5, ACT 1:12, ACT 1:6, ACT 1:9, ACT 2:24, ACT 2:42, ACT 7:43, COL 4:10, GAL 1:10, GAL 6:16, LUK 17:21, MAT 12:32, REV 10:6(x2), REV 10:7, REV 11:12, REV 11:15, REV 11:3, REV 12:18, REV 12:2, REV 12:6(x2), REV 12:7(x2), REV 12:8, REV 13:16, REV 13:18, REV 13:5, REV 13:6(x4), REV 14:6, REV 16:2, REV 16:3, REV 16:4, REV 17:10, REV 17:11, REV 17:3(x2), REV 18:1, REV 18:2, REV 18:20, REV 18:23, REV 18:4, REV 18:6, REV 19:20, REV 1:19, REV 1:8, REV 20:12, REV 20:14, REV 20:3, REV 21:22, REV 2:14, REV 2:27, REV 3:3, ROM 10:7, ROM 14:23, ROM 3:20, ROM 5:5, ROM 5:9, ROM 8:32. Scaffolding-aanbeveling: laat validate de <...>-note-inhoud op DREMPEL_ARCHAISMEN scannen."
+    },
+    {
+      "point_id": "RG13-006",
+      "verdict": "red_wins",
+      "scope": "verse",
+      "applied": true,
+      "rationale": "'herwaarts'/'derwaarts' zijn obsolete bijwoorden (NIET in DREMPEL_ARCHAISMEN), maar CONTEXT-AFHANKELIJK -> geen clean 1:1, dus red_wins verse per-locus, NIET rule_change/sweep. REV 4:6 (note): 'dikwijls herwaarts en derwaarts worden bewogen' = richting -> 'vaak heen en weer worden bewogen'. REV 17:8 (note): 'zoals nu enige tijd herwaarts is begonnen' = temporeel 'tot nu toe / sinds enige tijd' -> 'zoals sinds enige tijd is begonnen' / 'zoals tot nu toe is begonnen' (NIET 'heen en weer'). Geverifieerd: beide vindplaatsen staan in een kanttekening (niet hoofdtekst). Residu NT-breed: herwaarts NOTE[2]: REV 17:8, REV 4:6; derwaarts NOTE[1]: REV 4:6. Precedent OPEN-21:9 moderniseerde 'herwaarts' al naar 'hierheen'. Per-locus moderniseren."
+    },
+    {
+      "point_id": "RG13-007",
+      "verdict": "red_wins",
+      "scope": "verse",
+      "applied": true,
+      "rationale": "Half-gemoderniseerde fossiele SV-constructie 'van ... wege(n)' (= namens). Bronvorm REV 19:10: 'voor de gemeynte van Christi wegen te betuygen'. Residu 'van Christus wege' is ongrammaticaal modern NL. Construction-specifiek (geen woord-sweep) => red_wins verse. Fix REV 19:10 (kanttekening): 'om dit voor de gemeente van Christus wege te betuigen' -> 'om dit namens Christus aan de gemeente te betuigen'. Eén vindplaats; dezelfde noot als het reeds beslechte 'insgelijks' (RG12-004). insgelijks-residu NT-breed = 1 (REV 19:10) onder eerdere ronde."
+    }
+  ]
+}

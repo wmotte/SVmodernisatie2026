@@ -1,5 +1,5 @@
 {
-  "rounds_done": 9,
+  "rounds_done": 13,
   "pairs": [
     [
       "REV",
@@ -37,16 +37,33 @@
       "LUK",
       "ROM",
       "MRK"
+    ],
+    [
+      "REV",
+      "MAT"
+    ],
+    [
+      "REV",
+      "JHN"
+    ],
+    [
+      "REV",
+      "MAT"
+    ],
+    [
+      "REV",
+      "JHN"
     ]
   ],
   "debate_count": {
-    "REV": 6,
-    "JHN": 3,
+    "REV": 10,
+    "JHN": 5,
     "1CO": 2,
     "LUK": 3,
     "ROM": 3,
     "2CO": 1,
-    "MRK": 1
+    "MRK": 1,
+    "MAT": 2
   },
   "closed_keys": [
     "consistentie|2CO,ROM|om de aanleiding af te snijden voor hen|concordantie cross-book (grieks aphorme)",
@@ -55,6 +72,8 @@
     "consistentie|JHN|vrouw waarom huilt u wie zoekt u|projectregel κλαίω→wenen; agents.md concordantie",
     "consistentie|JHN|vrouw waarom huilt u|projectregel κλαίω→wenen; agents.md concordantie",
     "consistentie|LUK,MRK|maar dadelijk is nog niet het einde|agents.md concordantie (εὐθύς/εὐθέως cross-book); durende richtlijn red-green",
+    "consistentie|MAT,REV|en alle de engelen stonden rondom de troon|modernisatie.md §2.7 (fossiele sv-constructie); cross-book concordantie (πάντες οἱ → 'alle de')",
+    "consistentie|REV|en johannes insgelijks om dit voor de gemeente|modernisatie.md §2.7 / kanttekening-luiheid: gesplitste fossiele constructie 'van ... wege' half blijven staan als 'christus wege' (= namens christus).",
     "consistentie|REV|maar hetgeen u hebt houdt dat vast totdat|archaismen.md (imperatief-meervoud op `-t` → stam); modernisatie.md imperatief-`-t`",
     "modernisatie|1CO|die eet en drinkt zichzelf een oordeel niet|modernisatie.md §2.3 (finiet participium) + §2.3b (object nageschoven na participium)",
     "modernisatie|1CO|doet dat zo dikwijls als gij die zult|archaismen.md (imperatief-meervoud op `-t` → stam; ghy/gy/gij → u)",
@@ -67,10 +86,15 @@
     "modernisatie|1CO|zei neemt eet dat is mijn lichaam dat|archaismen.md (imperatief-meervoud op `-t` → stam); modernisatie.md imperatief-`-t`",
     "modernisatie|2CO|dat ons woord hetwelk tot u gekomen is|rules_data.py:340 archaisme-blacklist (hetwelk); drempel-archaisme relativum",
     "modernisatie|JHN|dat u zult huilen en weeklagen|projectregel κλαίω→wenen",
+    "modernisatie|JHN|de rechte tijd van de geestelijke oogst voorhanden|rules_data.py drempel_archaismen ('voorhanden'); modernisatie.md §2.7. scaffolding-gap: intro niet gescand.",
     "modernisatie|JHN|gaat u maar op naar dit feest|archaismen.md (imperatief meervoud -t -> stam)",
+    "modernisatie|JHN|hetwelk het begin is van zijn wonderwerken|rules_data.py drempel_archaismen ('hetwelk'); modernisatie.md §2.7 (relativum). scaffolding-gap: lint_archaismen scant hoofdstuk-introductie niet (intro is dict-veld 'modernized', lint geeft 0 voor jhn).",
+    "modernisatie|JHN|in god gewrocht zijn|modernisatie.md §2.7 (drempel-archaïsme)",
     "modernisatie|JHN|maakt de weg van de heere recht|archaismen.md (imperatief meervoud -t -> stam)",
     "modernisatie|JHN|neemt u hem en kruisig hem|archaismen.md (imperatief meervoud -t -> stam); interne consistentie binnen het vers",
     "modernisatie|JHN|neemt u hem en oordeelt hem naar uw|archaismen.md (imperatief meervoud -t -> stam)",
+    "modernisatie|JHN|terwijl zij smadelijk spreken van christus en van|rules_data.py drempel_archaismen ('smadelijk'); modernisatie.md §2.7. scaffolding-gap: intro niet gescand.",
+    "modernisatie|JHN|want ik weet vanwaar ik gekomen ben en|modernisatie.md §2.7 (drempel-archaïsme)",
     "modernisatie|LUK|bidt en u zal gegeven worden zoekt en|archaismen.md (imperatief-meervoud op `-t` → stam); modernisatie.md imperatief-`-t`",
     "modernisatie|LUK|brengt dan vruchten voort die de bekering waardig|archaismen.md (imperatief-meervoud op `-t` → stam)",
     "modernisatie|LUK|de kaarsen brandende|modernisatie.md §2.3 (predicatief/periphrastisch participium / -ende)",
@@ -89,6 +113,9 @@
     "modernisatie|LUK|zei gaat heen en bereidt ons het pascha|archaismen.md (imperatief-meervoud op `-t` → stam)",
     "modernisatie|LUK|zei hij neemt deze en deelt hem onder|archaismen.md (imperatief-meervoud op `-t` → stam)",
     "modernisatie|LUK|ziet toe dat u niet verleid wordt|archaismen.md (imperatief-meervoud op `-t` → stam; `(hoort|ziet|zie) toe` → let op / pas op)",
+    "modernisatie|MAT,REV|want hoewel christus' gemeente nimmermeer vergaat|modernisatie.md §2.7 (drempel-archaïsme)",
+    "modernisatie|MAT|die en zei drinkt allen daaruit|archaismen.md:imperatief-meervoud op `-t` → stam",
+    "modernisatie|MAT|zo zal ik u geenszins verloochenen desgelijks zeiden|modernisatie.md §2.7 (drempel-archaïsme); rules_data.py drempel_archaismen (woord niet gelist)",
     "modernisatie|MRK|antwoordt mij|archaismen.md:78 (imperatief-meervoud sv-`-t` → stam)",
     "modernisatie|MRK|bereidt de weg van de heere maakt zijn|archaismen.md:78 (imperatief-meervoud sv-`-t` → stam)",
     "modernisatie|MRK|geeft dan de keizer wat van de keizer|archaismen.md:78 (imperatief-meervoud sv-`-t` → stam)",
@@ -97,17 +124,28 @@
     "modernisatie|MRK|neemt eet|archaismen.md:78 (imperatief-meervoud sv-`-t` → stam); modernisatie.md imperatief-`-t`",
     "modernisatie|MRK|waakt dan|archaismen.md:78 (imperatief-meervoud sv-`-t` → stam)",
     "modernisatie|MRK|zo wie achter mij wil komen|modernisatie.md drempel-archaïsme (correlatief 'zo wie ... die')",
+    "modernisatie|REV|allengs heeft uitgestrekt|modernisatie.md §2.7 (drempel-archaïsme)",
+    "modernisatie|REV|deze woorden zijn genomen uit zc 3 9|modernisatie.md §2.7 (drempel-archaïsme)",
+    "modernisatie|REV|die als een zee dikwijls herwaarts en derwaarts|modernisatie.md §2.7 (drempel-archaïsme; woord niet gelist in drempel_archaismen). verwarringstest: 'herwaarts/derwaarts' zijn obsolete richtingsbijwoorden, modern nl 'heen en weer'.",
+    "modernisatie|REV|die hem meteen bevelen zal te schrijven hetwelk|rules_data.py drempel_archaismen ('hetwelk'); precedent closed-key 'en johannes insgelijks ...' (drempel-archaïsme in kanttekening is geldig red-punt). validate.py stript <...> vóór de check, dus deze blijft staan.",
+    "modernisatie|REV|die zulks gedaan hebben in de woestijn|modernisatie.md §2.7 (drempel-archaïsme)",
+    "modernisatie|REV|en inzonderheid van trente|modernisatie.md §2.7 (drempel-archaïsme)",
+    "modernisatie|REV|en johannes insgelijks om dit voor de gemeente|modernisatie.md §2.7 (drempel-archaïsme in kanttekening); drempel_archaismen (woord niet gelist)",
     "modernisatie|REV|het zwaard van hem die op het paard|archaismen.md (betrekkelijk hetwelk in hoofdtekst); modernisatie.md drempel-archaisme",
     "modernisatie|REV|komt hierheen op|modernisatie.md (imperatief-`-t`); archaismen.md:78",
     "modernisatie|REV|looft onze god u alle zijn dienstknechten|archaismen.md (imperatief meervoud -t -> stam)",
+    "modernisatie|REV|maar dewijl deze schuldige plicht van de kerk|modernisatie.md §2.7 + rules_data.py drempel_archaismen ('dewijl')",
+    "modernisatie|REV|op hetgeen zij metterdaad deden|modernisatie.md §2.7 (drempel-archaïsme)",
     "modernisatie|REV|opdat u eet het vlees van de koningen|modernisatie.md §2.3b (patroon 1: object nageschoven; werkwoord niet finaal in bijzin)",
     "modernisatie|REV|vier engelen staan op de vier hoeken van|modernisatie.md §2.3 (finiet participium / -ende) + §2.3b",
     "modernisatie|REV|waar zij gevoed wordt een tijd en tijden|modernisatie.md (2.3b latijnse woordvolgorde / nageschoven object in bijzin; werkwoord niet finaal)",
+    "modernisatie|REV|waarna de mensen op de aarde zich evenwel|rules_data.py drempel_archaismen ('evenwel'); modernisatie.md §2.7. scaffolding-gap: intro niet gescand.",
+    "modernisatie|REV|wee wee de grote stad in welke allen|modernisatie.md §2.7 / archaismen.md (fossiel betrekkelijk voornaamwoord in hoofdtekst)",
     "modernisatie|REV|zeven vurige lampen waren brandende voor de troon|modernisatie.md §2.3 (predicatief/periphrastisch participium)",
     "modernisatie|ROM|en wederom ps 117 1 looft de heere|archaismen.md:78 (imperatief-meervoud sv-`-t` -> stam)",
     "modernisatie|ROM|oordeelt dit liever|archaismen.md:78 imperatief-meervoud sv-`-t` -> stam",
     "modernisatie|ROM|weest vrolijk u heidenen met zijn volk|archaismen.md:78 imperatief-meervoud sv-`-t` -> stam"
   ],
   "open_keys": [],
-  "updated_at": "2026-06-06T07:51:35.509329+00:00"
+  "updated_at": "2026-06-06T21:00:55.457978+00:00"
 }

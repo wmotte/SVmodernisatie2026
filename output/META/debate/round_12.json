@@ -1,0 +1,126 @@
+{
+  "round_no": 12,
+  "books": [
+    "REV",
+    "MAT"
+  ],
+  "red": [
+    {
+      "id": "RG12-001",
+      "class": "modernisatie",
+      "books": [
+        "MAT"
+      ],
+      "chapter": 26,
+      "verse": 35,
+      "quote": "zo zal ik u geenszins verloochenen. Desgelijks zeiden ook alle de discipelen.",
+      "in_kanttekening": false,
+      "rule_reference": "modernisatie.md §2.7 (drempel-archaïsme); rules_data.py DREMPEL_ARCHAISMEN (woord NIET gelist)",
+      "explanation": "'Desgelijks' (Gr. ὁμοίως) als zinsopener is een obsoleet drempel-archaïsme dat nog niet in DREMPEL_ARCHAISMEN staat. Modern Nederlands gebruikt dit woord niet meer; het verstoort de leesbaarheid van de hoofdtekst. Verwant aan 'dezelve'-paradigma en 'insgelijks' (RG12-004), maar lexicaal apart.",
+      "proposed_fix": "Vervang door 'Hetzelfde zeiden ook alle de discipelen' of 'Evenzo zeiden ...'; voeg 'desgelijks' toe aan DREMPEL_ARCHAISMEN.",
+      "severity": "hard"
+    },
+    {
+      "id": "RG12-002",
+      "class": "consistentie",
+      "books": [
+        "REV",
+        "MAT"
+      ],
+      "chapter": 7,
+      "verse": 11,
+      "quote": "En alle de Engelen stonden rondom de troon",
+      "in_kanttekening": false,
+      "rule_reference": "modernisatie.md §2.7 (fossiele SV-constructie); cross-book concordantie (πάντες οἱ → 'alle de')",
+      "explanation": "De SV-lidwoordverdubbeling 'alle de' (πάντες οἱ) is in modern Nederlands ongrammaticaal en is onveranderd doorgegeven in beide boeken: REV 7:11 ('alle de Engelen'), REV 13:12 ('alle de macht'), MAT 11:13 ('alle de Profeten'), MAT 26:35 ('alle de discipelen'). Modern is 'al de' / 'alle'. Niet in closed-keys; valt onder geen uitgerolde regel.",
+      "proposed_fix": "Vervang 'alle de X' door 'al de X' (of 'alle X') in alle vier verzen; overweeg een NT-brede normalisatie 'alle de' → 'al de'.",
+      "severity": "hard"
+    },
+    {
+      "id": "RG12-003",
+      "class": "modernisatie",
+      "books": [
+        "REV"
+      ],
+      "chapter": 18,
+      "verse": 19,
+      "quote": "Wee, wee, de grote stad, in welke allen, die schepen in de zee hadden, rijk geworden zijn",
+      "in_kanttekening": false,
+      "rule_reference": "modernisatie.md §2.7 / archaismen.md (fossiel betrekkelijk voornaamwoord in hoofdtekst)",
+      "explanation": "'in welke' als zelfstandig betrekkelijk voornaamwoord (= 'waarin') is een fossiele SV-constructie in de hoofdtekst. De closed-key dekt enkel 'hetwelk' (REV 19:11 'het zwaard van hem die'); 'in welke' (= waarin) is een aparte, nog niet beslechte vorm. Modern Nederlands eist het R-pronomen 'waarin'.",
+      "proposed_fix": "Herschrijf naar 'Wee, wee, de grote stad, waarin allen die schepen in de zee hadden rijk geworden zijn'.",
+      "severity": "hard"
+    },
+    {
+      "id": "RG12-004",
+      "class": "modernisatie",
+      "books": [
+        "REV"
+      ],
+      "chapter": 19,
+      "verse": 10,
+      "quote": "en Johannes insgelijks om dit voor de gemeente van Christus wege te betuigen.",
+      "in_kanttekening": true,
+      "rule_reference": "modernisatie.md §2.7 (drempel-archaïsme in kanttekening); DREMPEL_ARCHAISMEN (woord NIET gelist)",
+      "explanation": "'Insgelijks' is een verouderd drempel-archaïsme (= 'eveneens' / 'op dezelfde manier') dat half-gemoderniseerd in de kanttekening is blijven staan; niet gelist in DREMPEL_ARCHAISMEN. Kanttekening-luiheid: drempelwoord onvertaald gelaten.",
+      "proposed_fix": "Vervang door 'eveneens' / 'op dezelfde wijze'; voeg 'insgelijks' toe aan DREMPEL_ARCHAISMEN.",
+      "severity": "soft"
+    }
+  ],
+  "green": [
+    {
+      "point_id": "RG12-001",
+      "stance": "concede",
+      "rebuttal": "Toegegeven, maar nauwer dan red stelt: het issue is uitsluitend 'Desgelijks' als ZINSOPENER in de hoofdtekst (Gr. ὁμοίως). Daar bestaat al uitgerolde precedent: decision 1CO-7-3-001 moderniseerde body-zinsopener 'desgelijks' → 'eveneens' onder §2.7 ('en eveneens ook de vrouw aan de man'). MAT 26:35 is exact dezelfde figuur (ὁμοίως-zinsopener vóór een nieuw subject) en moet conform. Let op: dit raakt NIET de attributieve/aanloop-vormen 'En desgelijks ook X' (LUK 5:11) of kanttekening-glossen (1CO 9:1, 2TI 2:9), die als verbindend bijwoord modern nog functioneren — die blijven. Fix MAT 26:35 body: 'Evenzo zeiden ook ...'. Concordantie-mate: alleen de zinsopener-positie, niet het lemma overal.",
+      "evidence": "§2.7 productiviteits-test + Gr. ὁμοίως; precedent decision 1CO-7-3-001 (status rebuttal, body-zinsopener gemoderniseerd → 'eveneens'); vers-specifiek: zinsopener vóór nieuw subject, niet attributief"
+    },
+    {
+      "point_id": "RG12-002",
+      "stance": "concede",
+      "rebuttal": "Volledig toegegeven — dit is geen nieuwe regel maar een naleving van een BESTAANDE huisregel. Het projecteigen ijkvoorbeeld in ARCHAISMEN.md:200-204 én MODERNISATIE.md:56-59 rendert 'wandelende in alle de geboden' expliciet als 'al de geboden' / 'in al de geboden' — d.w.z. de fossiele lidwoordverdubbeling 'alle de' (πάντες οἱ) is in de regelboeken al naar 'al de' genormaliseerd. De vier verzen (REV 7:11 'alle de Engelen', REV 13:12 'alle de macht', MAT 11:13 'alle de Profeten', MAT 26:35 'alle de discipelen') zijn doorgegeven scaffolding-gaps. Fix: 'al de X' in alle vier. NT-brede grep-normalisatie 'alle de' → 'al de' is gerechtvaardigd, met guard dat 'alle' zónder volgend 'de' (REV 7:11 'op hun aangezicht') niet geraakt wordt.",
+      "evidence": "ARCHAISMEN.md:200-204 + MODERNISATIE.md:56-59 (huiseigen ijkvoorbeeld 'alle de geboden' → 'al de geboden'); Gr. πάντες οἱ; cross-book: 4 verzen identiek patroon → NT-breed"
+    },
+    {
+      "point_id": "RG12-003",
+      "stance": "concede",
+      "rebuttal": "Toegegeven, maar scherp begrensd — red overgeneraliseert. 'in welke' is NIET overal fout: de DETERMINATIEVE vorm 'in welke + zn' ('in welke stad', LUK 10:8/10; 'in welke tijd/taal/zaak/brief') is correct modern NL en in decisions terecht gerebut (LUK-10-8-001, 1PE-1-6-001, status rebuttal). Het issue is uitsluitend het VRIJE BETREKKELIJKE 'in welke' = 'waarin', zonder volgend zn. Corpus-check bevestigt: REV 18:19 ('in welke allen, die schepen ... rijk geworden zijn') is de ENIGE body-instantie van die vrije-relatieve vorm; het andere geval (ROM 15, 'in welke alle schatten') staat binnen een kanttekening. Daar eist modern NL het R-pronomen. Fix REV 18:19 body: '... de grote stad, waarin allen die schepen in de zee hadden rijk geworden zijn'.",
+      "evidence": "Gr. ἐν ᾗ (vrij relativum, geen volgend nomen) → modern R-pronomen 'waarin'; contrast met rebutted determinatief LUK-10-8-001/1PE-1-6-001; vers-specifiek: corpus-uniek body-geval, ROM 15 zit in kt"
+    },
+    {
+      "point_id": "RG12-004",
+      "stance": "concede",
+      "rebuttal": "Toegegeven (soft). 'Insgelijks' (= 'eveneens'/'op dezelfde wijze') faalt de §2.7-productiviteitstest: geen lezer van 2026 schrijft het spontaan; het markeert als Bijbels-formeel. Dat §2.7 óók in kanttekeningen geldt blijkt uit de uitgerolde modernisering van het verwante zusterwoord 'desgelijks' → 'eveneens' (1CO-7-3-001). De parallel-decision MRK-14-31-001 verdedigde enkel 'geenszins', niet 'insgelijks' — 'insgelijks' bleef daar onbeoordeeld staan, dus dit is een echte gap, geen eerder beslecht punt. Fix REV 19:10 kt: 'en Johannes eveneens om dit ... te betuigen'. Severity terecht soft (kanttekening, niet hoofdtekst).",
+      "evidence": "§2.7 productiviteits-test (obsoleet, markeert Bijbels-formeel); precedent zusterwoord 'desgelijks'→'eveneens' 1CO-7-3-001; vers-specifiek: MRK-14-31-001 verdedigde 'geenszins' niet 'insgelijks' → onbeoordeelde gap"
+    }
+  ],
+  "verdicts": [
+    {
+      "point_id": "RG12-001",
+      "verdict": "red_wins",
+      "rationale": "Positie-afhankelijk, geen schone 1:1 NT-breed. Corpus-check: 'desgelijks' komt 4x voor in modernized (MAT 26:35 body, 1CO 9 body, 2TI 2 body, LUK 5:11 body). Alleen MAT 26:35 is de ὁμοίως-zinsopener vóór een nieuw subject. De overige 3 zijn productief-modern functionerend verbindend bijwoord mid-clause / aanloop ('desgelijks behoren te doen', 'desgelijks doen', 'En desgelijks ook Jakobus en Johannes'). Een blinde DREMPEL_ARCHAISMEN-toevoeging (exacte-woord-match) zou deze 3 ten onrechte raken. Daarom lokale fix, geen woordlijst-delta. Fix MAT 26:35 body: 'Evenzo zeiden ook ...'.",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG12-002",
+      "verdict": "red_wins",
+      "rationale": "Twee-woord-constructie (πάντες οἱ → 'alle de'), past niet in DREMPEL_ARCHAISMEN (los lexeem) en er bestaat geen passende fossiel-constructie-lijst: DREMPEL_FOSSIELEN (rules_data.py:381) bevat enkel specifieke datief/imperatief-regexen, geen home voor 'alle de'. Naleving van bestaande huisregel (ARCHAISMEN.md:200-204 + MODERNISATIE.md:56-59: 'alle de geboden'→'al de geboden'). Corpus-sweep vond 11 modernized-instanties, ruimer dan de 4 die red noemde: MAT 11:13, MAT 5 (kt), MAT 26:35, 1CO 15, REV 2 (kt), REV 11 (kt), REV 5 (kt), REV 7:11, REV 13:12, ROM 8 (kt), LUK 2. Sweep-fix 'alle de X'→'al de X' over alle 11; guard: alleen waar 'alle' direct door 'de' wordt gevolgd.",
+      "scope": "nt-wide",
+      "applied": true
+    },
+    {
+      "point_id": "RG12-003",
+      "verdict": "red_wins",
+      "rationale": "Corpus-uniek body-geval. Van 36 modernized 'in welke'-instanties is de overgrote meerderheid de determinatieve vorm ('in welke stad/tijd/taal/zaak/brief/oorlogen'), correct modern NL en reeds gerebut (LUK-10-8-001, 1PE-1-6-001). REV 18:19 is de ENIGE vrije-relatieve body-instantie (= 'waarin', geen volgend nomen: 'in welke allen, die schepen ... rijk geworden zijn'); ROM 15 'in welke alle schatten' staat binnen een kanttekening. Lokale fix REV 18:19 body → 'waarin'.",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG12-004",
+      "verdict": "rule_change",
+      "rationale": "Los lexeem, schoon 1:1 NT-breed → DREMPEL_ARCHAISMEN-toevoeging gerechtvaardigd. Corpus-check: 'insgelijks' komt 4x voor in modernized (1PE 3 body 'U mannen insgelijks', MRK 14 body 'En insgelijks zeiden zij ook allen', REV 19:10 kt 'en Johannes insgelijks', ROM 8 body 'En insgelijks'). In ELKE positie is het een obsoleet drempel-archaïsme dat 1:1 door 'eveneens' wordt vervangen zonder betekenisverlies of nevenbetekenis-collisie; exacte-woord-match raakt geen andere vormen. Faalt §2.7-productiviteitstest overal. Voeg 'insgelijks' toe aan DREMPEL_ARCHAISMEN; sweep de 4 modernized-instanties → 'eveneens'. (Red's punt noemde alleen REV 19:10 kt, maar de eerlijke scope is NT-breed.)",
+      "scope": "nt-wide",
+      "applied": true
+    }
+  ]
+}

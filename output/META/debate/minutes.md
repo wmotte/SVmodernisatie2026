@@ -204,3 +204,78 @@ Red bracht 10 punt(en). Verdicts: red_wins=9, green_wins=0, rule_change=1.
 - **[RG9-010] (consistentie)** maar dadelijk is [nog] niet het einde
   - regel: AGENTS.md concordantie (εὐθύς/εὐθέως cross-book); durende richtlijn red-green; fix: maar meteen is [nog] niet het einde
   - verdict: **red_wins** (scope=verse, applied=True) — εὐθέως. 'meteen' is reeds de durende NT-concordantierichtlijn (εὐθύς/εὐθέως) en MRK rendert 40×+ 'meteen', nul 'dadelijk'. LUK 21:9 'dadelijk' is drift; gewoon de afwijkende vers fixen. Geen nieuw NT-
+
+## Ronde 10 — REV + MAT  (2026-06-06T19:57:18.051699+00:00)
+Red bracht 4 punt(en). Verdicts: red_wins=0, green_wins=0, rule_change=4.
+- **[RG10-001] (modernisatie)** maar dewijl deze schuldige plicht van de Kerk van Christus altijd duurt
+  - regel: MODERNISATIE.md §2.7 + rules_data.py DREMPEL_ARCHAISMEN ('dewijl'); fix: Vervang 'dewijl' → 'omdat' / 'aangezien' in alle vijf REV-note-instanties (12:6, 12:7, 19:10, 20:3, 21:23). Hier: 'maar omdat deze schuldige plicht ... altijd duurt'.
+  - verdict: **rule_change** (scope=nt-wide, applied=True) — Green concedeert. 'dewijl' staat al in DREMPEL_ARCHAISMEN (rules_data.py:346) maar adversarial_scan.scan_drempel draait alleen op hoofdtekst na strip_markup_keep_text, waardoor note-interne instanties
+- **[RG10-002] (modernisatie)** Want hoewel Christus' gemeente nimmermeer vergaat
+  - regel: MODERNISATIE.md §2.7 (drempel-archaïsme); fix: 'nimmermeer' → 'nooit meer' / 'nooit'. Hier: 'hoewel Christus' gemeente nooit vergaat'. Voeg 'nimmermeer' toe aan DREMPEL_ARCHAISMEN en laat de drempel-scanner ook over note-inhoud lopen (root-cause).
+  - verdict: **rule_change** (scope=nt-wide, applied=True) — Green concedeert. 'nimmermeer' staat NIET in DREMPEL_ARCHAISMEN (geverifieerd: geen treffer in rules_data.py) en faalt §2.7-productiviteitstest. Komt NT-breed voor: REV 2:5/17:3/20:4 + MAT 12:32, alle
+- **[RG10-003] (modernisatie)** Deze woorden zijn genomen uit $Zc. 3:9$ alwaar zeven ogen worden gegraveerd op de steen
+  - regel: MODERNISATIE.md §2.7 (drempel-archaïsme); fix: 'alwaar' → 'waar'. Hier: '... genomen uit Zc. 3:9, waar zeven ogen worden gegraveerd ...'.
+  - verdict: **rule_change** (scope=nt-wide, applied=True) — Green concedeert. 'alwaar' staat NIET in DREMPEL_ARCHAISMEN (geverifieerd: geen treffer in rules_data.py). Het is een generiek formeel-archaisch locatief relativum (= 'waar') dat §2.7 faalt en niet aa
+- **[RG10-004] (modernisatie)** [die,] en zei: Drinkt allen daaruit.
+  - regel: ARCHAISMEN.md:imperatief-meervoud op `-t` → stam; fix: 'Drinkt allen daaruit' → 'Drink allen daaruit' (harmoniseer naar de stam, conform de NT-brede imperatief-`-t`-regel).
+  - verdict: **rule_change** (scope=nt-wide, applied=True) — Green concedeert; bronvorm Πίετε (aor. imp. 2pl πίνω) bevestigt echte gebiedende-wijs-meervoud. Stam 'drink' ontbreekt in IMPERATIVE_T_STEMS (geverifieerd rules_data.py:400-404). 'Drinkt' is een NT-br
+
+## Ronde 11 — REV + JHN  (2026-06-06T20:27:08.359387+00:00)
+Red bracht 6 punt(en). Verdicts: red_wins=1, green_wins=4, rule_change=1.
+- **[RG11-001] (modernisatie)** die zulks gedaan hebben in de woestijn
+  - regel: MODERNISATIE.md §2.7 (drempel-archaïsme); fix: Vervang door 'dit', 'dat' of 'zoiets' al naar context: 'die dat gedaan hebben in de woestijn'.
+  - verdict: **green_wins** (scope=verse, applied=False) — ARCHAISMEN.md r.30-31 mapt SV 'sulcks/sulks' -> 'zulks' als MODERNE uitvoervorm; de pijl '-> iets dergelijks' is betekenis-gloss, geen vervang-directief. 'sulcks' staat bovendien in CAP_CHECK_STOPLIST
+- **[RG11-002] (modernisatie)** allengs heeft uitgestrekt
+  - regel: MODERNISATIE.md §2.7 (drempel-archaïsme); fix: Vervang door 'geleidelijk' of 'langzamerhand': 'geleidelijk heeft uitgestrekt'.
+  - verdict: **rule_change** (scope=nt-wide, applied=True) — Green CONCEDE. 'allengs' is obsoleet bijwoord, niet meer productief in modern proza, 5x in REV-kanttekeningen (6:8, 17:8, 17:10, 17:11 x2) en NT-breed mogelijk. Staat niet in DREMPEL_ARCHAISMEN/ARCHAI
+- **[RG11-003] (modernisatie)** op hetgeen zij metterdaad deden
+  - regel: MODERNISATIE.md §2.7 (drempel-archaïsme); fix: Vervang door 'daadwerkelijk' / 'werkelijk': 'op wat zij werkelijk deden'.
+  - verdict: **green_wins** (scope=verse, applied=False) — 'metterdaad' is nog volledig productief in modern formeel/journalistiek NL ('zijn dreigement metterdaad uitvoeren'). Passeert §2.7-verwarringstest (geen dominante nevenbetekenis) en productiviteitstes
+- **[RG11-004] (modernisatie)** en inzonderheid van Trente
+  - regel: MODERNISATIE.md §2.7 (drempel-archaïsme); fix: Vervang door 'vooral' of 'in het bijzonder': 'en vooral van Trente'.
+  - verdict: **green_wins** (scope=verse, applied=False) — 'inzonderheid' is formeel maar in modern juridisch/administratief NL nog productief; passeert §2.7-verwarringstest. §5.3-concordantie geldt voor GELIJKE SV-woorden en nivelleert geen registervariatie 
+- **[RG11-005] (modernisatie)** in God gewrocht zijn
+  - regel: MODERNISATIE.md §2.7 (drempel-archaïsme); fix: Vervang door 'verricht' / 'gedaan': 'in God verricht zijn'.
+  - verdict: **green_wins** (scope=verse, applied=False) — Geverifieerd in JHN.3.json:193-209: 'gewrocht' staat binnen een metalinguistische '<Grieks: in God gewrocht zijn, dat is, ...>'-citaatgloss die de letterlijke Griekse vorm (εἰργασμένα) weergeeft; de h
+- **[RG11-006] (modernisatie)** want ik weet  vanwaar ik gekomen ben, en waar ik heenga
+  - regel: MODERNISATIE.md §2.7 (drempel-archaïsme); fix: Vervang door 'waar ... vandaan': 'want ik weet waar ik vandaan gekomen ben, en waar ik heenga'.
+  - verdict: **red_wins** (scope=verse, applied=True) — Green CONCEDE voor JHN 8:14. Alle 9 body-vindplaatsen (2:9, 3:8, 4:11, 6:5, 7:27, 7:28, 8:14) zijn LOCATIEF ('waar...vandaan'); geen causaal 'daarom/waarom' gevonden. Maar de fix is CONTEXTUEEL (claus
+
+## Ronde 12 — REV + MAT  (2026-06-06T20:40:06.541367+00:00)
+Red bracht 4 punt(en). Verdicts: red_wins=3, green_wins=0, rule_change=1.
+- **[RG12-001] (modernisatie)** zo zal ik u geenszins verloochenen. Desgelijks zeiden ook alle de discipelen.
+  - regel: modernisatie.md §2.7 (drempel-archaïsme); rules_data.py DREMPEL_ARCHAISMEN (woord NIET gelist); fix: Vervang door 'Hetzelfde zeiden ook alle de discipelen' of 'Evenzo zeiden ...'; voeg 'desgelijks' toe aan DREMPEL_ARCHAISMEN.
+  - verdict: **red_wins** (scope=verse, applied=True) — Positie-afhankelijk, geen schone 1:1 NT-breed. Corpus-check: 'desgelijks' komt 4x voor in modernized (MAT 26:35 body, 1CO 9 body, 2TI 2 body, LUK 5:11 body). Alleen MAT 26:35 is de ὁμοίως-zinsopener v
+- **[RG12-002] (consistentie)** En alle de Engelen stonden rondom de troon
+  - regel: modernisatie.md §2.7 (fossiele SV-constructie); cross-book concordantie (πάντες οἱ → 'alle de'); fix: Vervang 'alle de X' door 'al de X' (of 'alle X') in alle vier verzen; overweeg een NT-brede normalisatie 'alle de' → 'al de'.
+  - verdict: **red_wins** (scope=nt-wide, applied=True) — Twee-woord-constructie (πάντες οἱ → 'alle de'), past niet in DREMPEL_ARCHAISMEN (los lexeem) en er bestaat geen passende fossiel-constructie-lijst: DREMPEL_FOSSIELEN (rules_data.py:381) bevat enkel sp
+- **[RG12-003] (modernisatie)** Wee, wee, de grote stad, in welke allen, die schepen in de zee hadden, rijk geworden zijn
+  - regel: modernisatie.md §2.7 / archaismen.md (fossiel betrekkelijk voornaamwoord in hoofdtekst); fix: Herschrijf naar 'Wee, wee, de grote stad, waarin allen die schepen in de zee hadden rijk geworden zijn'.
+  - verdict: **red_wins** (scope=verse, applied=True) — Corpus-uniek body-geval. Van 36 modernized 'in welke'-instanties is de overgrote meerderheid de determinatieve vorm ('in welke stad/tijd/taal/zaak/brief/oorlogen'), correct modern NL en reeds gerebut 
+- **[RG12-004] (modernisatie)** en Johannes insgelijks om dit voor de gemeente van Christus wege te betuigen.
+  - regel: modernisatie.md §2.7 (drempel-archaïsme in kanttekening); DREMPEL_ARCHAISMEN (woord NIET gelist); fix: Vervang door 'eveneens' / 'op dezelfde wijze'; voeg 'insgelijks' toe aan DREMPEL_ARCHAISMEN.
+  - verdict: **rule_change** (scope=nt-wide, applied=True) — Los lexeem, schoon 1:1 NT-breed → DREMPEL_ARCHAISMEN-toevoeging gerechtvaardigd. Corpus-check: 'insgelijks' komt 4x voor in modernized (1PE 3 body 'U mannen insgelijks', MRK 14 body 'En insgelijks zei
+
+## Ronde 13 — REV + JHN  (2026-06-06T21:00:55.458225+00:00)
+Red bracht 7 punt(en). Verdicts: red_wins=4, green_wins=0, rule_change=3.
+- **[RG13-001] (modernisatie)** Hetwelk het begin is van zijn wonderwerken.
+  - regel: rules_data.py DREMPEL_ARCHAISMEN ('hetwelk'); modernisatie.md §2.7 (relativum). Scaffolding-gap: lint_archaismen scant hoofdstuk-introductie niet (intro is dict-veld 'modernized', lint geeft 0 voor JHN).; fix: 'Hetwelk het begin is van zijn wonderwerken.' → 'Dat is het begin van zijn wonderwerken.' En: laat lint_archaismen ook het introduction.modernized-veld scannen.
+  - verdict: **red_wins** (scope=verse, applied=True) — 'hetwelk' is HARD-gelist (rules_data.py:346) en NT-breed in de hoofdtekst uitgerold, maar 'hetwelk' is CONTEXT-AFHANKELIJK (zinsopener-relativum -> dat / wat / dat-wat; geen clean 1:1). Daarom red_win
+- **[RG13-002] (modernisatie)** de rechte tijd van de geestelijke oogst voorhanden is
+  - regel: rules_data.py DREMPEL_ARCHAISMEN ('voorhanden'); modernisatie.md §2.7. Scaffolding-gap: intro niet gescand.; fix: '... van de geestelijke oogst voorhanden is' → '... van de geestelijke oogst aangebroken is' / 'nabij is'.
+  - verdict: **rule_change** (scope=nt-wide, applied=True) — 'voorhanden' staat in DREMPEL_ARCHAISMEN (rules_data.py:348), faalt §2.7-productiviteitstest en is clean 1:1 vervangbaar (-> 'aangebroken' bij tijd, 'aanwezig/beschikbaar' bij zaken; HSV-spiegel 'geko
+- **[RG13-003] (modernisatie)** waarna de mensen op de aarde zich evenwel niet bekeren
+  - regel: rules_data.py DREMPEL_ARCHAISMEN ('evenwel'); modernisatie.md §2.7. Scaffolding-gap: intro niet gescand.; fix: '... zich evenwel niet bekeren' → '... zich toch niet bekeren'.
+  - verdict: **rule_change** (scope=nt-wide, applied=True) — 'evenwel' staat HARD in DREMPEL_ARCHAISMEN (rules_data.py:347) en is in de hoofdtekst al NT-breed uitgerold. Concessief bijwoord, clean 1:1 -> 'toch' (mid-clause: 'zich evenwel niet bekeren' -> 'zich 
+- **[RG13-004] (modernisatie)** terwijl zij smadelijk spreken van Christus en van het volk
+  - regel: rules_data.py DREMPEL_ARCHAISMEN ('smadelijk'); modernisatie.md §2.7. Scaffolding-gap: intro niet gescand.; fix: '... terwijl zij smadelijk spreken van Christus ...' → '... terwijl zij minachtend/smalend spreken over Christus ...'.
+  - verdict: **rule_change** (scope=nt-wide, applied=True) — 'smadelijk' staat in DREMPEL_ARCHAISMEN (rules_data.py:249) met eigen false-friend-pattern. Als bijwoord bij spreekwerkwoorden clean 1:1 -> 'smalend/minachtend' ('smadelijk spreken van Christus' -> 'm
+- **[RG13-005] (modernisatie)** die hem meteen bevelen zal te schrijven; hetwelk in de twee volgende hoofdstukken gebeurt
+  - regel: rules_data.py DREMPEL_ARCHAISMEN ('hetwelk'); precedent closed-key 'en johannes insgelijks ...' (drempel-archaïsme in kanttekening is geldig red-punt). Validate.py stript <...> vóór de check, dus deze blijft staan.; fix: '...; hetwelk in de twee volgende hoofdstukken gebeurt' → '...; wat in de twee volgende hoofdstukken gebeurt'. En: laat validate/lint de kanttekening-inhoud op DREMPEL_ARCHAISMEN scannen.
+  - verdict: **red_wins** (scope=verse, applied=True) — 'hetwelk' (HARD-gelist) in REV-kanttekeningen; validate.py stript <...> vóór de §2.3-check dus ongevangen. Conform precedent RG12-004 (rule_change, drempel-archaïsme in kanttekening = geldige correcti
+- **[RG13-006] (modernisatie)** die als een zee dikwijls herwaarts en derwaarts worden bewogen
+  - regel: modernisatie.md §2.7 (drempel-archaïsme; woord NIET gelist in DREMPEL_ARCHAISMEN). Verwarringstest: 'herwaarts/derwaarts' zijn obsolete richtingsbijwoorden, modern NL 'heen en weer'.; fix: 'dikwijls herwaarts en derwaarts worden bewogen' → 'vaak heen en weer worden bewogen'; voeg 'herwaarts'/'derwaarts' toe aan DREMPEL_ARCHAISMEN.
+  - verdict: **red_wins** (scope=verse, applied=True) — 'herwaarts'/'derwaarts' zijn obsolete bijwoorden (NIET in DREMPEL_ARCHAISMEN), maar CONTEXT-AFHANKELIJK -> geen clean 1:1, dus red_wins verse per-locus, NIET rule_change/sweep. REV 4:6 (note): 'dikwij
+- **[RG13-007] (consistentie)** en Johannes insgelijks om dit voor de gemeente van Christus wege te betuigen
+  - regel: modernisatie.md §2.7 / kanttekening-luiheid: gesplitste fossiele constructie 'van ... wege' half blijven staan als 'Christus wege' (= namens Christus).; fix: 'om dit voor de gemeente van Christus wege te betuigen' → 'om dit namens Christus aan de gemeente te betuigen'.
+  - verdict: **red_wins** (scope=verse, applied=True) — Half-gemoderniseerde fossiele SV-constructie 'van ... wege(n)' (= namens). Bronvorm REV 19:10: 'voor de gemeynte van Christi wegen te betuygen'. Residu 'van Christus wege' is ongrammaticaal modern NL.

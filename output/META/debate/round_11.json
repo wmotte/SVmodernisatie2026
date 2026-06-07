@@ -1,0 +1,181 @@
+{
+  "round_no": 11,
+  "books": [
+    "REV",
+    "JHN"
+  ],
+  "red": [
+    {
+      "id": "RG11-001",
+      "class": "modernisatie",
+      "books": [
+        "REV"
+      ],
+      "chapter": 11,
+      "verse": 3,
+      "quote": "die zulks gedaan hebben in de woestijn",
+      "in_kanttekening": true,
+      "rule_reference": "MODERNISATIE.md §2.7 (drempel-archaïsme)",
+      "explanation": "'zulks' is een verouderd onbepaald aanwijzend pronomen (= 'dit', 'dat', 'zoiets') dat 19 keer in REV/JHN voorkomt (18x kanttekening, 1x body REV 13:5 '[zulks]'). Het staat NIET in DREMPEL_ARCHAISMEN en is nooit adjudicated; de moderne lezer struikelt erover. Drempel-archaïsme dat structureel niet gevangen wordt.",
+      "proposed_fix": "Vervang door 'dit', 'dat' of 'zoiets' al naar context: 'die dat gedaan hebben in de woestijn'.",
+      "severity": "soft"
+    },
+    {
+      "id": "RG11-002",
+      "class": "modernisatie",
+      "books": [
+        "REV"
+      ],
+      "chapter": 17,
+      "verse": 11,
+      "quote": "allengs heeft uitgestrekt",
+      "in_kanttekening": true,
+      "rule_reference": "MODERNISATIE.md §2.7 (drempel-archaïsme)",
+      "explanation": "'allengs' (= 'geleidelijk', 'langzamerhand') is een obsoleet bijwoord, 5x in REV-kanttekeningen (6:8, 17:8, 17:10, 17:11 x2). Niet in DREMPEL_ARCHAISMEN. Voor een hedendaagse lezer ondoorzichtig; kanttekeningen tellen volwaardig mee.",
+      "proposed_fix": "Vervang door 'geleidelijk' of 'langzamerhand': 'geleidelijk heeft uitgestrekt'.",
+      "severity": "hard"
+    },
+    {
+      "id": "RG11-003",
+      "class": "modernisatie",
+      "books": [
+        "REV"
+      ],
+      "chapter": 9,
+      "verse": 20,
+      "quote": "op hetgeen zij metterdaad deden",
+      "in_kanttekening": true,
+      "rule_reference": "MODERNISATIE.md §2.7 (drempel-archaïsme)",
+      "explanation": "'metterdaad' (= 'daadwerkelijk', 'in werkelijkheid') is een verouderd bijwoord, 2x in REV-kanttekeningen (9:20, 19:1). Niet in DREMPEL_ARCHAISMEN. Drempel-archaïsme.",
+      "proposed_fix": "Vervang door 'daadwerkelijk' / 'werkelijk': 'op wat zij werkelijk deden'.",
+      "severity": "soft"
+    },
+    {
+      "id": "RG11-004",
+      "class": "modernisatie",
+      "books": [
+        "REV"
+      ],
+      "chapter": 16,
+      "verse": 3,
+      "quote": "en inzonderheid van Trente",
+      "in_kanttekening": true,
+      "rule_reference": "MODERNISATIE.md §2.7 (drempel-archaïsme)",
+      "explanation": "'inzonderheid' (= 'vooral', 'in het bijzonder') is een verouderd bijwoord, 9x in REV-kanttekeningen. Het moderne 'vooral' wordt elders in dezelfde boeken wél gebruikt (4x) — register-inconsistentie binnen REV. Niet in DREMPEL_ARCHAISMEN.",
+      "proposed_fix": "Vervang door 'vooral' of 'in het bijzonder': 'en vooral van Trente'.",
+      "severity": "soft"
+    },
+    {
+      "id": "RG11-005",
+      "class": "modernisatie",
+      "books": [
+        "JHN"
+      ],
+      "chapter": 3,
+      "verse": 21,
+      "quote": "in God gewrocht zijn",
+      "in_kanttekening": true,
+      "rule_reference": "MODERNISATIE.md §2.7 (drempel-archaïsme)",
+      "explanation": "'gewrocht' (voltooid deelwoord van 'wrochten' = 'verricht', 'gewerkt', 'gedaan') is een sterk verouderde vorm in een Grieks-gloss-kanttekening bij JHN 3:21. Voor de moderne lezer onbegrijpelijk. Niet in enige rule-lijst.",
+      "proposed_fix": "Vervang door 'verricht' / 'gedaan': 'in God verricht zijn'.",
+      "severity": "soft"
+    },
+    {
+      "id": "RG11-006",
+      "class": "modernisatie",
+      "books": [
+        "JHN"
+      ],
+      "chapter": 8,
+      "verse": 14,
+      "quote": "want ik weet  vanwaar ik gekomen ben, en waar ik heenga",
+      "in_kanttekening": false,
+      "rule_reference": "MODERNISATIE.md §2.7 (drempel-archaïsme)",
+      "explanation": "'vanwaar' (= 'waar ... vandaan') komt 13x voor in REV/JHN, waarvan 9x in body-tekst (JHN 2:9, 3:8, 4:11, 6:5, 7:27, 7:28, 8:14 e.a.). Register-botsing binnen één vers: 'vanwaar ik gekomen ben' tegenover modern 'waar ik heenga' (JHN 3:8 idem: 'vanwaar hij komt, en waar hij heen gaat'). Niet in DREMPEL_ARCHAISMEN; nooit geadjudiceerd (JHN 6:5 verified op 'dezen', niet op 'vanwaar').",
+      "proposed_fix": "Vervang door 'waar ... vandaan': 'want ik weet waar ik vandaan gekomen ben, en waar ik heenga'.",
+      "severity": "soft"
+    }
+  ],
+  "green": [
+    {
+      "point_id": "RG11-001",
+      "stance": "rebut",
+      "rebuttal": "ARCHAISMEN.md regelt 'zulks' al: regels 30-31 mappen SV 'sulcks/sulks' -> 'zulks' als de MODERNE uitvoervorm; de pijl '-> \"iets dergelijks\"' is een betekenis-gloss, geen vervang-directief naar die woorden. 'zulks' is dus de gevalideerde modernisatie-doelvorm, geen gemiste archaisme. Toetst §2.7-verwarringstest: 'die zulks gedaan hebben' is eenduidig (= 'die dit/zoiets gedaan hebben'), heeft geen dominant ander modern betekenis en blijft productief in formeel/juridisch NL. Onderscheidend van RG11-002/006: zit expliciet in de regelbestanden als toegestane vorm. Geen overtreding.",
+      "evidence": "ARCHAISMEN.md r.30-31 (sulcks/sulks -> zulks); §2.7 verwarringstest (geen verwarrende nevenbetekenis)"
+    },
+    {
+      "point_id": "RG11-002",
+      "stance": "concede",
+      "rebuttal": "Conced. 'allengs' zakt door de productiviteits-test §2.7: geen lezer van 2024+ schrijft 'allengs' in een zakelijke e-mail of nieuwsbericht; het markeert ondubbelzinnig als literair/oud. Het is geen false friend (geen verwarrende nevenbetekenis), maar §2.7 moderniseert ook obsoleet-formele woorden die nog in Van Dale staan. 5x in REV-kanttekeningen die volwaardig meetellen. Vervang door 'geleidelijk' / 'langzamerhand'.",
+      "evidence": "§2.7 productiviteits-test (markeert als 'oud'/'literair'); ARCHAISMEN.md-lijst-categorie (obsoleet bijwoord)"
+    },
+    {
+      "point_id": "RG11-003",
+      "stance": "rebut",
+      "rebuttal": "'metterdaad' is in modern formeel/journalistiek NL nog volledig productief: 'hij heeft zijn dreigement metterdaad uitgevoerd' is staande hedendaagse taal. §2.7-verwarringstest: geen dominant andere betekenis, niet onbegrijpelijk. Onderscheidend van 'allengs' (RG11-002): dat is uit het actieve register verdwenen, 'metterdaad' niet — dezelfde 'obsoleet bijwoord'-claim is hier dus NIET één-op-één toepasbaar. Vers-specifiek: 'op hetgeen zij metterdaad deden' (= wat zij feitelijk/echt deden) leest eenduidig. Niet in DREMPEL_ARCHAISMEN en faalt de drempel-test niet. Geen overtreding.",
+      "evidence": "§2.7 verwarringstest + productiviteits-test (nog actief in formeel NL); contrast met RG11-002 (niet identiek toepasbaar)"
+    },
+    {
+      "point_id": "RG11-004",
+      "stance": "rebut",
+      "rebuttal": "'inzonderheid' is formeel maar in modern juridisch/administratief NL nog productief (notariële/wetgevingsstijl: 'inzonderheid wanneer ...'); passeert §2.7-verwarringstest (geen andere betekenis, volledig begrijpelijk). De register-inconsistentie-claim overdrijft: de 'vooral'- en 'inzonderheid'-vindplaatsen staan in verschillende contexten en SV's eigen registervariatie wordt bewaard (§3.1 'geen hervertaling' / §5.3 concordantie geldt voor GELIJKE SV-woorden, niet als nivelleerder van verschillende). Concordantie dwingt geen één-vorm af. Niet in DREMPEL_ARCHAISMEN. Geen overtreding.",
+      "evidence": "§2.7 verwarringstest; §5.3/§3.1 (concordantie nivelleert geen verschillende SV-woorden, registervariatie blijft)"
+    },
+    {
+      "point_id": "RG11-005",
+      "stance": "rebut",
+      "rebuttal": "'gewrocht' staat binnen een metalinguïstische '<Grieks: ...>'-gloss die de Griekse/SV-bewoording CITEERT die vervolgens wordt uitgelegd ('Grieks: in God gewrocht zijn, dat is, als in Gods tegenwoordigheid'); de hoofdtekst rendert het al modern als 'in God gedaan zijn'. De gloss verklaart juist die geciteerde vorm — hem vervangen corrumpeert de uitleg-functie (§3.2: grecismen die de SV bewust letterlijk neerzette blijven; de kanttekening glosseert de citaat). Onderscheidend: citaat-van-bronvorm, geen lopende kanttekeningtekst. Geen overtreding.",
+      "evidence": "§3.2 (bewuste grecismen/letterlijke citaten blijven); vers-specifiek: '<Grieks: ...>'-citaatgloss naast reeds gemoderniseerde body 'in God gedaan zijn'"
+    },
+    {
+      "point_id": "RG11-006",
+      "stance": "concede",
+      "rebuttal": "Conced. 'vanwaar' staat hier in de body-tekst (niet kanttekening) en §2.7 weegt voluit. Interne register-botsing binnen één vers: 'vanwaar ik gekomen ben ... en waar ik heenga' — het antwoordende paar 'waar ... heen' is al gemoderniseerd terwijl 'vanwaar' archaïsch blijft. 'vanwaar' is in modern proza vervangen door 'waar ... vandaan'. Nooit geadjudiceerd: JHN 6:5 (verified) en MRK 8:4 (rebuttal) gingen over 'dezen', niet over 'vanwaar'. Vervang door 'waar ... vandaan'.",
+      "evidence": "§2.7 (obsoleet in modern proza); vers-specifiek register-botsing met al-gemoderniseerd 'waar ... heen'; decisions: JHN-6-5/MRK-8-4 adjudiceerden 'dezen', niet 'vanwaar'"
+    }
+  ],
+  "verdicts": [
+    {
+      "point_id": "RG11-001",
+      "verdict": "green_wins",
+      "rationale": "ARCHAISMEN.md r.30-31 mapt SV 'sulcks/sulks' -> 'zulks' als MODERNE uitvoervorm; de pijl '-> iets dergelijks' is betekenis-gloss, geen vervang-directief. 'sulcks' staat bovendien in CAP_CHECK_STOPLIST (rules_data.py:184). 'zulks' is dus de gevalideerde doelvorm, geen gemist archaisme. Gate (>=2): §-regel (ARCHAISMEN.md r.30-31) + vers-specifiek eenduidig ('die zulks gedaan hebben' = 'die dit gedaan hebben') + onderscheidend (zit als toegestane vorm in brondata). Gate gehaald.",
+      "scope": "verse",
+      "applied": false
+    },
+    {
+      "point_id": "RG11-002",
+      "verdict": "rule_change",
+      "rationale": "Green CONCEDE. 'allengs' is obsoleet bijwoord, niet meer productief in modern proza, 5x in REV-kanttekeningen (6:8, 17:8, 17:10, 17:11 x2) en NT-breed mogelijk. Staat niet in DREMPEL_ARCHAISMEN/ARCHAISMEN.md. Eenduidige 1:1 vervanging -> 'geleidelijk'/'langzamerhand', hoort in DREMPEL_ARCHAISMEN-brondata thuis. Structureel patroon -> nt-wide rule_change.",
+      "scope": "nt-wide",
+      "applied": true
+    },
+    {
+      "point_id": "RG11-003",
+      "verdict": "green_wins",
+      "rationale": "'metterdaad' is nog volledig productief in modern formeel/journalistiek NL ('zijn dreigement metterdaad uitvoeren'). Passeert §2.7-verwarringstest (geen dominante nevenbetekenis) en productiviteitstest. Gate (>=2): §2.7-test + vers-specifiek eenduidig + onderscheidend t.o.v. RG11-002 (allengs is wel uit actief register). Gate gehaald.",
+      "scope": "verse",
+      "applied": false
+    },
+    {
+      "point_id": "RG11-004",
+      "verdict": "green_wins",
+      "rationale": "'inzonderheid' is formeel maar in modern juridisch/administratief NL nog productief; passeert §2.7-verwarringstest. §5.3-concordantie geldt voor GELIJKE SV-woorden en nivelleert geen registervariatie tussen verschillende woorden ('vooral' vs 'inzonderheid'); §3.1 geen hervertaling. Gate (>=2): §2.7 + §5.3/§3.1 + vers-specifiek. Gate gehaald.",
+      "scope": "verse",
+      "applied": false
+    },
+    {
+      "point_id": "RG11-005",
+      "verdict": "green_wins",
+      "rationale": "Geverifieerd in JHN.3.json:193-209: 'gewrocht' staat binnen een metalinguistische '<Grieks: in God gewrocht zijn, dat is, ...>'-citaatgloss die de letterlijke Griekse vorm (εἰργασμένα) weergeeft; de hoofdtekst rendert al modern 'in God gedaan zijn'. Gedocumenteerde decision (gewrocht behouden in Grieks-gloss). §3.2 (bewuste grecismen/letterlijke citaten blijven). Gate (>=2): §3.2 + Griekse term (εἰργασμένα) + vers-specifiek citaatgloss naast al-gemoderniseerde body. Gate gehaald.",
+      "scope": "verse",
+      "applied": false
+    },
+    {
+      "point_id": "RG11-006",
+      "verdict": "red_wins",
+      "rationale": "Green CONCEDE voor JHN 8:14. Alle 9 body-vindplaatsen (2:9, 3:8, 4:11, 6:5, 7:27, 7:28, 8:14) zijn LOCATIEF ('waar...vandaan'); geen causaal 'daarom/waarom' gevonden. Maar de fix is CONTEXTUEEL (clause-split 'waar ... vandaan'), geen mechanische 1:1 drempel-token, en JHN 6:5 draagt al een passende '<Of, waarvan.>'-gloss. Een blinde DREMPEL_ARCHAISMEN-entry zou ongepast HARD-flaggen. Green concedeerde alleen JHN 8:14 specifiek -> red wint de verse-fix; geen schone nt-wide regeltoevoeging. Verse-scope.",
+      "scope": "verse",
+      "applied": true
+    }
+  ]
+}

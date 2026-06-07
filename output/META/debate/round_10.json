@@ -1,0 +1,126 @@
+{
+  "round_no": 10,
+  "books": [
+    "REV",
+    "MAT"
+  ],
+  "red": [
+    {
+      "id": "RG10-001",
+      "class": "modernisatie",
+      "books": [
+        "REV"
+      ],
+      "chapter": 12,
+      "verse": 6,
+      "quote": "maar dewijl deze schuldige plicht van de Kerk van Christus altijd duurt",
+      "in_kanttekening": true,
+      "rule_reference": "MODERNISATIE.md §2.7 + rules_data.py DREMPEL_ARCHAISMEN ('dewijl')",
+      "explanation": "'dewijl' staat letterlijk in DREMPEL_ARCHAISMEN en is in 1CO-11-29-005 als verified drempel-archaïsme ('dewijl' → 'omdat') beslecht. De drempel-scanner (adversarial_scan.scan_drempel) draait echter alleen op de hoofdtekst ná strip_markup_keep_text, waardoor note-interne instanties ongezien doorglippen. In REV-kanttekeningen 5× onveranderd blijven staan (12:6, 12:7, 19:10, 20:3, 21:23) = kanttekening-luiheid.",
+      "proposed_fix": "Vervang 'dewijl' → 'omdat' / 'aangezien' in alle vijf REV-note-instanties (12:6, 12:7, 19:10, 20:3, 21:23). Hier: 'maar omdat deze schuldige plicht ... altijd duurt'.",
+      "severity": "hard"
+    },
+    {
+      "id": "RG10-002",
+      "class": "modernisatie",
+      "books": [
+        "REV",
+        "MAT"
+      ],
+      "chapter": 2,
+      "verse": 5,
+      "quote": "Want hoewel Christus' gemeente nimmermeer vergaat",
+      "in_kanttekening": true,
+      "rule_reference": "MODERNISATIE.md §2.7 (drempel-archaïsme)",
+      "explanation": "'nimmermeer' faalt de productiviteitstest §2.7: geen spontaan gebruik in journalistiek/zakelijk NL van 2020+; modern equivalent is 'nooit meer' / 'nooit'. Komt onveranderd voor in REV-kanttekeningen 2:5, 17:3, 20:4 en in MAT 12:32 ('Dat is, nimmermeer'). Glipt door dezelfde note-strip-gap als RG10-001; staat (nog) niet in DREMPEL_ARCHAISMEN.",
+      "proposed_fix": "'nimmermeer' → 'nooit meer' / 'nooit'. Hier: 'hoewel Christus' gemeente nooit vergaat'. Voeg 'nimmermeer' toe aan DREMPEL_ARCHAISMEN en laat de drempel-scanner ook over note-inhoud lopen (root-cause).",
+      "severity": "soft"
+    },
+    {
+      "id": "RG10-003",
+      "class": "modernisatie",
+      "books": [
+        "REV"
+      ],
+      "chapter": 5,
+      "verse": 6,
+      "quote": "Deze woorden zijn genomen uit $Zc. 3:9$ alwaar zeven ogen worden gegraveerd op de steen",
+      "in_kanttekening": true,
+      "rule_reference": "MODERNISATIE.md §2.7 (drempel-archaïsme)",
+      "explanation": "'alwaar' is een formeel-archaïsch relativum/locatief-bijwoord (= 'waar'); leeft alleen nog notarieel-juridisch, faalt de §2.7-productiviteitstest. Onveranderd in de REV 5:6-kanttekening; note-strip-gap.",
+      "proposed_fix": "'alwaar' → 'waar'. Hier: '... genomen uit Zc. 3:9, waar zeven ogen worden gegraveerd ...'.",
+      "severity": "soft"
+    },
+    {
+      "id": "RG10-004",
+      "class": "modernisatie",
+      "books": [
+        "MAT"
+      ],
+      "chapter": 26,
+      "verse": 27,
+      "quote": "[die,] en zei: Drinkt allen daaruit.",
+      "in_kanttekening": false,
+      "rule_reference": "ARCHAISMEN.md:imperatief-meervoud op `-t` → stam",
+      "explanation": "Concrete, nog-aanwezige imperatief-meervoud-`-t`-residu in de hoofdtekst: 'Drinkt allen daaruit' (Gr. πίετε, gebiedende wijs mv.). De vorm 'drinkt' staat niet bij de reeds-gelijste imperatief-`-t`-vormen (komt/neemt/eet/waakt/bidt/...) noch bij de ARCHAISMEN.md:78-triggers (Bewaart/behoudt/grijpt/volgt/Brengt); de scanner-object-gate heeft hem gemist (vgl. weest/zegt/zoekt-gap).",
+      "proposed_fix": "'Drinkt allen daaruit' → 'Drink allen daaruit' (harmoniseer naar de stam, conform de NT-brede imperatief-`-t`-regel).",
+      "severity": "hard"
+    }
+  ],
+  "green": [
+    {
+      "point_id": "RG10-001",
+      "stance": "concede",
+      "rebuttal": "Geen substantieve weerlegging mogelijk. 'dewijl' staat letterlijk in rules_data.py DREMPEL_ARCHAISMEN (regel 346) en is al verified-beslecht ALS KANTTEKENING-instantie in 1CO-11-29-005 ('Dat is, dewijl…' → 'omdat'). Het 1JN-2-27-003-precedent dat notes anders behandelt, ziet uitsluitend op verbogen genitieven (der/des/den), niet op lexicale drempel-archaïsmen. Alle vijf REV-note-instanties (12:6, 12:7, 19:10, 20:3, 21:23) zijn daarmee onmiskenbaar residu door de note-strip-gap in adversarial_scan.scan_drempel. Fix: 'dewijl' → 'omdat'/'aangezien' in alle vijf; root-cause = scanner ook over note-inhoud laten lopen.",
+      "evidence": "rules_data.py:346 DREMPEL_ARCHAISMEN ('dewijl') + verified-precedent 1CO-11-29-005 (kanttekening 'dewijl'→'omdat'); REV 12:6/12:7/19:10/20:3/21:23"
+    },
+    {
+      "point_id": "RG10-002",
+      "stance": "concede",
+      "rebuttal": "Geen gelden idioom-verweer beschikbaar. Alle vier note-instanties zijn een kaal temporeel 'nooit': REV 2:5 'nimmermeer vergaat' (Mt. 16:18), REV 17:3 'nimmermeer zal eindigen', REV 20:4 'wordt nimmermeer uitgeworpen', MAT 12:32 '<Dat is, nimmermeer>' (emfatische glos op ἁμαρτία αἰώνιος, geen vaste collocatie). Geen attributieve constructie, geen gestold idioom, geen bronvorm-binding die behoud rechtvaardigt. 'nimmermeer' faalt de §2.7-productiviteitstest (afwezig in journalistiek/zakelijk NL 2020+). Akkoord: → 'nooit (meer)'; opnemen in DREMPEL_ARCHAISMEN + scanner over notes.",
+      "evidence": "MODERNISATIE.md §2.7 productiviteitstest; alle 4 vindplaatsen kaal-temporeel (REV 2:5 'vergaat', 17:3 'eindigen', 20:4 'uitgeworpen', MAT 12:32 glos) — geen idioom/attribuut"
+    },
+    {
+      "point_id": "RG10-003",
+      "stance": "concede",
+      "rebuttal": "'alwaar' in de REV 5:6-kanttekening ('genomen uit Zc. 3:9 alwaar zeven ogen worden gegraveerd op de steen') is een puur locatief relativum = 'waar'; substitutie 'waar' is verliesvrij en niet idiomatisch gebonden. Het woord leeft enkel notarieel-juridisch en faalt de §2.7-productiviteitstest. Onderscheidend t.o.v. 001/002: dit is een relativum/plaatsbijwoord, geen voegwoord (dewijl) of tijdsbijwoord (nimmermeer), dus niet identiek toepasbaar — maar evenmin te redden. Fix: → 'waar'.",
+      "evidence": "MODERNISATIE.md §2.7; REV 5:6 kt locatief relativum 'alwaar zeven ogen worden gegraveerd' → 'waar'"
+    },
+    {
+      "point_id": "RG10-004",
+      "stance": "concede",
+      "rebuttal": "Bronvorm bevestigt red onweerlegbaar: source_text MAT 26:27 = 'Πίετε ἐξ αὐτοῦ πάντες' — Πίετε is aoristus-imperatief 2e-pers-meervoud van πίνω. 'Drinkt allen daaruit' is dus een echte gebiedende-wijs-meervoud, geen 3ev-presens; de imperatief-`-t`-regel (ARCHAISMEN.md:80) eist harmonisatie náár de stam → 'Drink'. De scanner miste hem omdat de stam 'drink' niet in IMPERATIVE_T_STEMS (rules_data.py:400-404) zit en de object-gate 'allen daaruit' (quantor+bijwoord, geen reflexivum/pronomen-object) niet matchte — dezelfde gap als weest/zegt/zoekt. Fix: 'Drinkt allen daaruit' → 'Drink allen daaruit'; stam 'drink' toevoegen aan IMPERATIVE_T_STEMS.",
+      "evidence": "source_text Gr. Πίετε (aor. imp. 2pl πίνω) + ARCHAISMEN.md:80 imperatief-mv-`-t`→stam; scanner-gap rules_data.py:400-404 (stam 'drink' ontbreekt)"
+    }
+  ],
+  "verdicts": [
+    {
+      "point_id": "RG10-001",
+      "verdict": "rule_change",
+      "rationale": "Green concedeert. 'dewijl' staat al in DREMPEL_ARCHAISMEN (rules_data.py:346) maar adversarial_scan.scan_drempel draait alleen op hoofdtekst na strip_markup_keep_text, waardoor note-interne instanties (REV 12:6/12:7/19:10/20:3/21:23) ongezien doorglippen. Dit is geen geisoleerde vers-fout maar een structurele note-strip-gap die NT-breed elk gelijst drempel-archaisme in <...>-notes mist. Root-cause: scanner ook over note-inhoud laten lopen + NT-brede sweep van 'dewijl' in alle notes.",
+      "scope": "nt-wide",
+      "applied": true
+    },
+    {
+      "point_id": "RG10-002",
+      "verdict": "rule_change",
+      "rationale": "Green concedeert. 'nimmermeer' staat NIET in DREMPEL_ARCHAISMEN (geverifieerd: geen treffer in rules_data.py) en faalt §2.7-productiviteitstest. Komt NT-breed voor: REV 2:5/17:3/20:4 + MAT 12:32, alle kaal-temporeel (geen idioom/attribuut). Twee remedies vereist en beide NT-breed: 'nimmermeer' toevoegen aan DREMPEL_ARCHAISMEN, plus dezelfde note-strip-gap dichten als 001.",
+      "scope": "nt-wide",
+      "applied": true
+    },
+    {
+      "point_id": "RG10-003",
+      "verdict": "rule_change",
+      "rationale": "Green concedeert. 'alwaar' staat NIET in DREMPEL_ARCHAISMEN (geverifieerd: geen treffer in rules_data.py). Het is een generiek formeel-archaisch locatief relativum (= 'waar') dat §2.7 faalt en niet aan dit ene vers gebonden is; het kan in elke kanttekening of hoofdtekst NT-breed opduiken. Hoort als lexicaal drempel-archaisme in de brondata, niet als losse vers-fix. Toevoegen aan DREMPEL_ARCHAISMEN.",
+      "scope": "nt-wide",
+      "applied": true
+    },
+    {
+      "point_id": "RG10-004",
+      "verdict": "rule_change",
+      "rationale": "Green concedeert; bronvorm Πίετε (aor. imp. 2pl πίνω) bevestigt echte gebiedende-wijs-meervoud. Stam 'drink' ontbreekt in IMPERATIVE_T_STEMS (geverifieerd rules_data.py:400-404). 'Drinkt' is een NT-breed imperatief-`-t`-residu dat dezelfde scanner-stam-gap deelt als weest/zegt/zoekt. Fix is een brondata-delta: stam 'drink' toevoegen aan IMPERATIVE_T_STEMS + de vers-harmonisatie 'Drinkt'->'Drink'.",
+      "scope": "nt-wide",
+      "applied": true
+    }
+  ]
+}
