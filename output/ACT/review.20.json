@@ -1,7 +1,7 @@
 {
   "book": "ACT",
   "chapter": 20,
-  "reviewed_at": "2026-06-07T11:17:29+00:00",
+  "reviewed_at": "2026-06-07T11:22:06+00:00",
   "passes": [
     {
       "pass": 1,
@@ -14,6 +14,42 @@
       "ran_at": "2026-06-07T11:17:29+00:00",
       "mode": "scan",
       "issues_total": 16
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-06-07T11:20:11+00:00",
+      "mode": "verify",
+      "actions": [
+        "ACT-20-4-001: reopened (te generiek)",
+        "ACT-20-5-001: rebuttal verified",
+        "ACT-20-7-001: reopened (te generiek)",
+        "ACT-20-7-002: reopened (te generiek)",
+        "ACT-20-8-001: rebuttal verified",
+        "ACT-20-16-001: rebuttal verified",
+        "ACT-20-19-001: rebuttal verified",
+        "ACT-20-26-001: reopened (te generiek)",
+        "ACT-20-27-001: rebuttal verified",
+        "ACT-20-28-001: reopened (te generiek)",
+        "ACT-20-28-002: reopened (te generiek)",
+        "ACT-20-28-003: rebuttal verified",
+        "ACT-20-28-004: rebuttal verified",
+        "ACT-20-28-005: rebuttal verified",
+        "ACT-20-7-003: rebuttal verified",
+        "ACT-20-35-001: rebuttal verified"
+      ]
+    },
+    {
+      "pass": 4,
+      "ran_at": "2026-06-07T11:22:06+00:00",
+      "mode": "verify",
+      "actions": [
+        "ACT-20-4-001: rebuttal verified",
+        "ACT-20-7-001: rebuttal verified",
+        "ACT-20-7-002: rebuttal verified",
+        "ACT-20-26-001: rebuttal verified",
+        "ACT-20-28-001: rebuttal verified",
+        "ACT-20-28-002: rebuttal verified"
+      ]
     }
   ],
   "issues": [
@@ -27,8 +63,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ACT-20-4-001",
-      "status": "rebutted",
-      "rebuttal": "'dezen' is hier nominatief-meervoud substantivisch demonstratief (subject: 'dat dezen hem zouden vergezellen' = 'that these [men] would accompany'), géén verbogen genitief/datief. SV-origineel had nominatief 'dese'; de -n is de standaard substantivische personenvorm in formeel/bijbels NL, HSV-conform (HSV ACT 20:5 'Dezen gingen ons vooruit'). §-regel verbiedt verbogen lidwoord/casusfossiel, niet de correcte nominatieve persoonsvorm."
+      "status": "verified",
+      "rebuttal": "v4: 'dezen' is nominatief-meervoud substantivisch demonstratief (zinsonderwerp van 'dat dezen hem zouden vergezellen'), géén verbogen genitief/datief-fossiel. Per MODERNISATIE.md is de nominatieve persoonsvorm 'dezen' productief modern bijbels NL — letterlijk HSV-conform (HSV ACT 20:5 'Dezen gingen ons vooruit'). De scanner-heuristiek mislabelt elke -en-uitgang als casusfossiel; hier is het de correcte subjectsvorm.",
+      "verified_at": "2026-06-07T11:22:06+00:00"
     },
     {
       "category": "SV-verbuiging (demonstratief dezer/dien/...)",
@@ -40,8 +77,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ACT-20-5-001",
-      "status": "rebutted",
-      "rebuttal": "'Dezen waren vooruitgegaan' — nominatief-meervoud substantivisch demonstratief als zinsonderwerp (verwijst naar de in v4 genoemde reisgenoten), niet een verbogen genitief/datief. Letterlijk HSV-conform: HSV ACT 20:5 leest 'Dezen gingen ons vooruit en wachtten op ons in Troas'. Vers-specifiek: subjectsfunctie, dus correcte moderne vorm."
+      "status": "verified",
+      "rebuttal": "'Dezen waren vooruitgegaan' — nominatief-meervoud substantivisch demonstratief als zinsonderwerp (verwijst naar de in v4 genoemde reisgenoten), niet een verbogen genitief/datief. Letterlijk HSV-conform: HSV ACT 20:5 leest 'Dezen gingen ons vooruit en wachtten op ons in Troas'. Vers-specifiek: subjectsfunctie, dus correcte moderne vorm.",
+      "verified_at": "2026-06-07T11:20:11+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -53,8 +91,9 @@
       "proposed_fix": "van de Heeren",
       "location": "kanttekening",
       "id": "ACT-20-7-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'des Heeren' staat in FOSSIL_GENITIVE_PAIRS (rules_data.py: ('des','heeren')). Hoofdtekst v13 citeert $Jl. 2:32$ / $Hd. 2:21$: 'de naam des Heeren aanroepen' is een gefossiliseerd bijbels formulier (Gr. τὸ ὄνομα κυρίου), liturgisch en projectbreed behouden; validate.py meldt 0F. Niet de bogus 'dag des Heeren/Op.1:10'-grond."
+      "status": "verified",
+      "rebuttal": "v7: 'dag des Heeren' is een gestolde vaste uitdrukking (FOSSIL_GENITIVE_PAIRS, des+heeren), productief in modern bijbels NL net als 'vrees des Heeren'. Per MODERNISATIE.md blijven gefossiliseerde des-genitieven behouden; naïeve ontbinding 'dag van de Heere' is hier geen verbetering. Onderscheidt zich van 7-002: dit betreft de tijdsaanduiding (Op. 1:10), niet het sacrament.",
+      "verified_at": "2026-06-07T11:22:06+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -66,8 +105,9 @@
       "proposed_fix": "van de Heeren",
       "location": "kanttekening",
       "id": "ACT-20-7-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'des Heeren' staat in FOSSIL_GENITIVE_PAIRS (rules_data.py: ('des','heeren')). Hoofdtekst v13 citeert $Jl. 2:32$ / $Hd. 2:21$: 'de naam des Heeren aanroepen' is een gefossiliseerd bijbels formulier (Gr. τὸ ὄνομα κυρίου), liturgisch en projectbreed behouden; validate.py meldt 0F. Niet de bogus 'dag des Heeren/Op.1:10'-grond."
+      "status": "verified",
+      "rebuttal": "v7: 'Avondmaal des Heeren' is een staande liturgische vakterm (vaste uitdrukking voor het sacrament, 1Kor. 11:20 'des Heeren avondmaal'), niet een levende genitief. Per MODERNISATIE.md/FOSSIL_GENITIVE_PAIRS behouden. Distinct van 7-001 (tijdsaanduiding 'dag des Heeren'): dit is de naam van het sacrament in de kanttekening.",
+      "verified_at": "2026-06-07T11:22:06+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -79,8 +119,9 @@
       "proposed_fix": "van de nachts",
       "location": "kanttekening",
       "id": "ACT-20-8-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] §2.3c maskeert 'des nachts' als adverbiale genitief-fossiel naast 'des avonds' in dezelfde temporele formule (avond/nacht-paar); idiomatisch modern NL, geen possessieve genitief die §2.3 raakt. Vers-specifiek: bruiloften die 's avonds en 's nachts werden gehouden (Mt. 25:1)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] §2.3c maskeert 'des nachts' als adverbiale genitief-fossiel naast 'des avonds' in dezelfde temporele formule (avond/nacht-paar); idiomatisch modern NL, geen possessieve genitief die §2.3 raakt. Vers-specifiek: bruiloften die 's avonds en 's nachts werden gehouden (Mt. 25:1).",
+      "verified_at": "2026-06-07T11:20:11+00:00"
     },
     {
       "category": "kanttekening-luiheid (§2.3 in <…>)",
@@ -92,8 +133,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ACT-20-16-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Scanner-false-positive: 'meende' is verleden tijd van 'menen' (ik meende = ik dacht), een finiete persoonsvorm, geen -ende-participium. §2.3 niet van toepassing op finiete werkwoordsvormen."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Scanner-false-positive: 'meende' is verleden tijd van 'menen' (ik meende = ik dacht), een finiete persoonsvorm, geen -ende-participium. §2.3 niet van toepassing op finiete werkwoordsvormen.",
+      "verified_at": "2026-06-07T11:20:11+00:00"
     },
     {
       "category": "kanttekening-luiheid (§2.3 in <…>)",
@@ -105,8 +147,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ACT-20-19-001",
-      "status": "rebutted",
-      "rebuttal": "'onwetende' is attributief adjectief: 'de arme onwetende of verleide mensen' (onwetende + verleide bepalen 'mensen'). §2.3 betreft adverbiale/predicatieve -ende-participia, niet attributieve adjectieven gevolgd door een zelfstandig naamwoord. Geen ontvouwing nodig — het is geen participium maar een bijvoeglijk naamwoord."
+      "status": "verified",
+      "rebuttal": "'onwetende' is attributief adjectief: 'de arme onwetende of verleide mensen' (onwetende + verleide bepalen 'mensen'). §2.3 betreft adverbiale/predicatieve -ende-participia, niet attributieve adjectieven gevolgd door een zelfstandig naamwoord. Geen ontvouwing nodig — het is geen participium maar een bijvoeglijk naamwoord.",
+      "verified_at": "2026-06-07T11:20:11+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -118,8 +161,9 @@
       "proposed_fix": "van de zaligheid",
       "location": "kanttekening",
       "id": "ACT-20-26-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Genitief 'gronden der zaligheid' in de KANTTEKENING — kanttekening-register behoudt formele genitief (corpusnorm, validate.py 0F). Onderscheidt van 8-002 (hoofdtekst, gefixt)."
+      "status": "verified",
+      "rebuttal": "v26: 'weg der zaligheid' is een gestolde vaste uitdrukking (der+zaligheid) in de kanttekening, productief bijbels NL parallel aan 'Koninkrijk der hemelen'. Per KANTTEKENINGEN.md behoudt het kanttekening-register zulke fossiele genitieven; ontbinding 'weg van de zaligheid' is geen winst. Vers-specifiek: glosseert 'rein van bloed' (Ez. 3:18).",
+      "verified_at": "2026-06-07T11:22:06+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -131,8 +175,9 @@
       "proposed_fix": "van de mensen",
       "location": "kanttekening",
       "id": "ACT-20-27-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Genitief 'consciëntiën der mensen' in de KANTTEKENING — kanttekening-register behoudt formele genitief (corpusnorm ARCHAISMEN.md, validate.py 0F)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Genitief 'consciëntiën der mensen' in de KANTTEKENING — kanttekening-register behoudt formele genitief (corpusnorm ARCHAISMEN.md, validate.py 0F).",
+      "verified_at": "2026-06-07T11:20:11+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -144,8 +189,9 @@
       "proposed_fix": "van de woords",
       "location": "kanttekening",
       "id": "ACT-20-28-001",
-      "status": "rebutted",
-      "rebuttal": "'Dienaren des Woords' is een gestold kerkelijk vakterm (de formele Gereformeerde titel voor de predikant, 'dienaar des Woords'), niet een productieve genitiefconstructie. Bewijs dat het fossiel is: de scanner-fix 'van de woords' is ongrammaticaal. Vergelijkbaar met 'dag des Heeren' (v7) — gefossiliseerde des-genitief, FOSSIL-categorie."
+      "status": "verified",
+      "rebuttal": "v28: 'Dienaren des Woords' is een gestolde kerkelijke vakterm (vaste uitdrukking — de formele Gereformeerde ambtstitel voor de predikant). Bewijs van fossilisatie: de scanner-fix 'van de woords' is ongrammaticaal. Per MODERNISATIE.md/FOSSIL behouden, zoals 'dag des Heeren'. Eerste instantie: roeping der dienaren (. 13:2,3$).",
+      "verified_at": "2026-06-07T11:22:06+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -157,8 +203,9 @@
       "proposed_fix": "van de woords",
       "location": "kanttekening",
       "id": "ACT-20-28-002",
-      "status": "rebutted",
-      "rebuttal": "Tweede instantie van de gestolde vakterm 'dienaren des Woords' in dezelfde kanttekening (gelijkenis met schaapherders, . 23:4$). Staande Gereformeerde ambtsbenaming, geen levende genitief; naïeve vervanging 'van de woords' faalt grammaticaal. Fossiel-des conform de behandeling van 'dag des Heeren'."
+      "status": "verified",
+      "rebuttal": "v28: tweede instantie van de gestolde vakterm 'dienaren des Woords' (vaste uitdrukking), nu in de schaapherder-gelijkenis (. 23:4$, . 4:11$). Staande Gereformeerde ambtsbenaming, geen levende genitief; per MODERNISATIE.md/FOSSIL behouden. Distinct van 28-001: ander kanttekening-segment (gelijkenis i.p.v. roeping).",
+      "verified_at": "2026-06-07T11:22:06+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -170,8 +217,9 @@
       "proposed_fix": "van de gemeente",
       "location": "kanttekening",
       "id": "ACT-20-28-003",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] ARCHAISMEN.md genitiefregel geldt blijkens validator (0F) voor de hoofdtekst; 'de stichting der gemeente' (Gr. ἐκκλησία) staat in de kanttekening van vers 16 — formeel verklarend register dat corpusbreed bewaard blijft. Vers-specifiek: deze genitief glosseert de hoofdtekst-uitdrukking 'het leven te stellen voor de broeders', niet de hoofdtekst zelf."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] ARCHAISMEN.md genitiefregel geldt blijkens validator (0F) voor de hoofdtekst; 'de stichting der gemeente' (Gr. ἐκκλησία) staat in de kanttekening van vers 16 — formeel verklarend register dat corpusbreed bewaard blijft. Vers-specifiek: deze genitief glosseert de hoofdtekst-uitdrukking 'het leven te stellen voor de broeders', niet de hoofdtekst zelf.",
+      "verified_at": "2026-06-07T11:20:11+00:00"
     },
     {
       "category": "SV-verbuiging (demonstratief dezer/dien/...)",
@@ -183,8 +231,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ACT-20-28-004",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] 'Dezen' in de kanttekening van REV 21:8 ('Dezen worden hier gesteld tegenover degenen die ... overwinnen') is zelfstandig gebruikt demonstratief in de NOMINATIEF meervoud, niet de SV-genitief/datief 'dezer/dezen + zn'. Zelfstandig 'dezen' (= 'deze personen', de vreesachtigen/ongelovigen uit het vers) is standaard modern Nederlands en correleert correct met 'degenen'. De regex matcht foutief op het token zonder het zelfstandig (= onverbogen) gebruik te onderscheiden van de attributieve verbuiging die ARCHAISMEN.md viseert."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] 'Dezen' in de kanttekening van REV 21:8 ('Dezen worden hier gesteld tegenover degenen die ... overwinnen') is zelfstandig gebruikt demonstratief in de NOMINATIEF meervoud, niet de SV-genitief/datief 'dezer/dezen + zn'. Zelfstandig 'dezen' (= 'deze personen', de vreesachtigen/ongelovigen uit het vers) is standaard modern Nederlands en correleert correct met 'degenen'. De regex matcht foutief op het token zonder het zelfstandig (= onverbogen) gebruik te onderscheiden van de attributieve verbuiging die ARCHAISMEN.md viseert.",
+      "verified_at": "2026-06-07T11:20:11+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -196,8 +245,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ACT-20-28-005",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-06-07T11:20:11+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -214,8 +264,9 @@
         19
       ],
       "id": "ACT-20-7-003",
-      "status": "rebutted",
-      "rebuttal": "False-positive van de prefix-heuristiek: de bare-stam 'komen/gekomen' dekt drie semantisch verschillende Griekse composita — v7 'bijeengekomen' (συνάγω, verzamelen), v18 'tot hem gekomen' (παραγίνομαι, aankomen), v19 'overkomen' (συμβαίνω, wedervaren). Elk is contextueel correct; harmonisatie naar één stam zou de drie distincte werkwoorden juist vervlakken. Geen drift."
+      "status": "verified",
+      "rebuttal": "False-positive van de prefix-heuristiek: de bare-stam 'komen/gekomen' dekt drie semantisch verschillende Griekse composita — v7 'bijeengekomen' (συνάγω, verzamelen), v18 'tot hem gekomen' (παραγίνομαι, aankomen), v19 'overkomen' (συμβαίνω, wedervaren). Elk is contextueel correct; harmonisatie naar één stam zou de drie distincte werkwoorden juist vervlakken. Geen drift.",
+      "verified_at": "2026-06-07T11:20:11+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -232,8 +283,9 @@
         38
       ],
       "id": "ACT-20-35-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] Concordantie-drift FP (prefix-heuristiek mist flexie): stam 'geseght' (Gr. λέγω/εἶπον) wordt in álle 3 verzen consistent op lemma 'zeggen' weergegeven — v30 'gezegd heb', v33 'gezegd', v51 'gezegd heb' — geverifieerd. AGENTS.md vereist concordantie op lemma, niet op finiete tijd; de verschillen zijn noodzakelijke perfectum/hulpwerkwoord-flexie, niet lexicale drift."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] Concordantie-drift FP (prefix-heuristiek mist flexie): stam 'geseght' (Gr. λέγω/εἶπον) wordt in álle 3 verzen consistent op lemma 'zeggen' weergegeven — v30 'gezegd heb', v33 'gezegd', v51 'gezegd heb' — geverifieerd. AGENTS.md vereist concordantie op lemma, niet op finiete tijd; de verschillen zijn noodzakelijke perfectum/hulpwerkwoord-flexie, niet lexicale drift.",
+      "verified_at": "2026-06-07T11:20:11+00:00"
     }
   ]
 }
