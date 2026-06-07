@@ -220,24 +220,37 @@
     },
     {
       "verse_number": 31,
-      "status": "pending",
-      "sv2026": "",
+      "status": "modernized",
+      "sv2026": "Paulus zei tot de Hoofdman en tot de krijgsknechten: Indien dezen in het schip niet blijven, <Want hoewel God Paulus door zijn Engel beloofd had dat niemand uit het schip zou vergaan, vers 24, wordt daarmee toch het middel niet weggenomen waardoor God deze zijn belofte wilde uitvoeren. En wie daarin nalatig is, die gelooft God niet, maar verzoekt God.> kunt u niet behouden worden.",
       "hsv": "zei Paulus tegen de hoofdman en de soldaten: Als zij niet in het schip blijven, kunt u niet gered worden.",
       "original": "Seyde Paulus tot den Hooftman, ende tot de krijghsknechten, Indien dese in het schip niet en blijven, <Want hoewel Godt Paulo door sijnen Engel belooft hadde, dat niemant uyt het schip en soude vergaen, vers 24. nochtans en worden daer mede de middelen niet wech genomen, daer door Godt dese sijne belofte wilde uytvoeren. Ende die daer in nalatigh is, die en gelooft Godt niet, maer versoeckt Godt.> ghy en kondt niet behouden worden."
     },
     {
       "verse_number": 32,
-      "status": "pending",
-      "sv2026": "",
+      "status": "modernized",
+      "sv2026": "Toen hieuwen de krijgsknechten de touwen van de boot af, en lieten hem afvallen.",
       "hsv": "Toen kapten de soldaten de touwen van de sloep en lieten hem [in zee] vallen.",
       "original": "Doe hieuwen de krijghsknechten de touwen af van den boot, ende lieten hem afvallen."
     },
     {
       "verse_number": 33,
-      "status": "pending",
-      "sv2026": "",
+      "status": "modernized",
+      "sv2026": "En ondertussen dat de dag zou worden, vermaande Paulus [hen] allen dat zij <Grieks: voedsel.> voeding zouden nemen, en zei: Het is heden de veertiende dag dat u verwachtende blijft zonder eten, en <Dat is, als niets, zeer weinig; of, geen maaltijd hebt gehouden, zoals vers 21; want anders kan een gezond mens (zoals de artsen getuigen) langer dan zeven dagen niet vasten zonder te sterven.> niets hebt genomen;",
       "hsv": "En toen het dag begon te worden, spoorde Paulus [hen] allen aan om voedsel [tot zich] te nemen en hij zei: Het is vandaag de veertiende dag dat u blijft afwachten zonder te eten en zonder iets tot u te nemen.",
-      "original": "Ende ondertusschen dat het dagh soude worden, vermaende Paulus [haer] alle, dat sy souden <Gr. voedsel.> spijse nemen: ende seyde, Het is heden de veertiende dagh dat ghy verwachtende blijft sonder eten, ende <D. als niet, seer weynigh: ofte, geen mael en hebt gehouden, gelijck vers 21. want anders en kan een gesont mensche (gelijck de medicijns getuygen) over de seven dagen niet wel vasten sonder sterven.> niet en hebt genomen:"
+      "original": "Ende ondertusschen dat het dagh soude worden, vermaende Paulus [haer] alle, dat sy souden <Gr. voedsel.> spijse nemen: ende seyde, Het is heden de veertiende dagh dat ghy verwachtende blijft sonder eten, ende <D. als niet, seer weynigh: ofte, geen mael en hebt gehouden, gelijck vers 21. want anders en kan een gesont mensche (gelijck de medicijns getuygen) over de seven dagen niet wel vasten sonder sterven.> niet en hebt genomen:",
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "medicijns -> artsen",
+          "context": "tweede kanttekening",
+          "choice": "artsen",
+          "alternatives": [
+            "de medicijns",
+            "medicijnmeesters"
+          ],
+          "reason": "SV-term medicijns leest in modern NL als geneesmiddelen (false friend); artsen sluit aan op de dominante concordante keuze elders in de uitvoer"
+        }
+      ]
     },
     {
       "verse_number": 34,
