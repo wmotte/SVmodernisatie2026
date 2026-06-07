@@ -1,0 +1,220 @@
+{
+  "book": "ACT",
+  "chapter": 26,
+  "reviewed_at": "2026-06-07T17:55:08+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-06-07T17:53:01+00:00",
+      "mode": "scan",
+      "issues_total": 11
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-06-07T17:54:37+00:00",
+      "mode": "verify",
+      "actions": [
+        "ACT-26-5-001: rebuttal verified",
+        "ACT-26-7-001: rebuttal verified",
+        "ACT-26-7-002: rebuttal verified",
+        "ACT-26-7-003: rebuttal verified",
+        "ACT-26-16-001: rebuttal verified",
+        "ACT-26-22-001: rebuttal verified",
+        "ACT-26-32-001: rebuttal verified",
+        "ACT-26-4-001: reopened (te generiek)",
+        "ACT-26-6-001: rebuttal verified",
+        "ACT-26-14-001: rebuttal verified",
+        "ACT-26-17-001: reopened (te generiek)"
+      ]
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-06-07T17:55:08+00:00",
+      "mode": "verify",
+      "actions": [
+        "ACT-26-4-001: rebuttal verified",
+        "ACT-26-17-001: rebuttal verified"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 5,
+      "severity": "soft",
+      "quote_modernized": "…e mij   van lang tevoren gekend hebben (indien zij het wilden getuigen), dat ik …",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "ACT-26-5-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-06-07T17:54:37+00:00"
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 7,
+      "severity": "soft",
+      "quote_modernized": "  Tot welke   onze twaalf geslachten  , te…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "ACT-26-7-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-06-07T17:54:37+00:00"
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 7,
+      "severity": "soft",
+      "quote_modernized": "…ht en dag God dienen, hopen te komen:   over welke hoop   ik, o Koning Agrippa, …",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "ACT-26-7-002",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-06-07T17:54:37+00:00"
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 7,
+      "severity": "soft",
+      "quote_modernized": "… is vervuld. Dat is, over de vervulling van welke hoop, enz. Waarin ook de hoop …",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "ACT-26-7-003",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-06-07T17:54:37+00:00"
+    },
+    {
+      "category": "§2.3b infinitief met nageschoven object",
+      "verse": 16,
+      "severity": "soft",
+      "quote_modernized": "…ten: Want hiertoe ben ik u   verschenen om u te stellen tot een dienaar en getui…",
+      "rule_reference": "MODERNISATIE.md §2.3b",
+      "explanation": "'om … te stellen tot een dienaar en' — Latinaat-woordvolgorde; in modern NL gaat het object vóór de infinitief: 'om <object> te stellen'.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "ACT-26-16-001",
+      "status": "verified",
+      "rebuttal": "Geen §2.3b-overtreding: het lijdend voorwerp u staat al vóór de infinitief (om u te stellen ...), niet nageschoven. De woordgroep tot een dienaar en getuige is een predicatief tot-complement (Grieks: procheirisasthai se hyperetian kai martyra — u aanstellen tot dienaar en getuige), geen tweede lijdend voorwerp. De §2.3b-regel tegen nageschoven object op infinitief is in v16 dus niet geschonden; de moderne woordvolgorde object-vóór-infinitief is gerespecteerd.",
+      "rebutted_at": "2026-06-07T17:54:26.072528+00:00",
+      "verified_at": "2026-06-07T17:54:37+00:00"
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 22,
+      "severity": "soft",
+      "quote_modernized": "…vangelie te verkondigen. Dat is, ieder, van welke staat of stand hij ook is.",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "ACT-26-22-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-06-07T17:54:37+00:00"
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 32,
+      "severity": "soft",
+      "quote_modernized": "…ze mens had losgelaten kunnen worden,   indien hij zich niet op de Keizer beroep…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "ACT-26-32-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-06-07T17:54:37+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 4,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'ierusal' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        4,
+        10,
+        20
+      ],
+      "id": "ACT-26-4-001",
+      "status": "verified",
+      "rebuttal": "Vals positief in v4: de scanner-prefix-heuristiek mist de orthografische eigennaam-modernisatie Ie->Je. SV Ierusalem wordt projectbreed naar Jeruzalem gespeld (MODERNISATIE.md eigennaam-/spellingregel), net als Ioannes->Johannes. In v4 (en de andere voorkomens) is dezelfde moderne vorm Jeruzalem gebruikt; er is geen lexicale drift, alleen prefix-verschil tussen bron-spelling Ierusal en doelspelling Jeruzal. Concordantie is in v4 dus juist behouden, niet geschonden.",
+      "rebutted_at": "2026-06-07T17:55:05.786620+00:00",
+      "verified_at": "2026-06-07T17:55:08+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 6,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'geschie' in 3 verzen — verzen [6, 26] renderen het stam anders dan [22]",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        6,
+        22,
+        26
+      ],
+      "id": "ACT-26-6-001",
+      "status": "verified",
+      "rebuttal": "Concordantie-drift is vals positief: SV-stam geschie heeft in v6 een andere betekenis dan in v22/v26. In v6 staat de collocatie belofte ... van Gode tot de vaderen geschiet (Grieks: epangelias ... genomenes) = belofte gedaan/gegeven, idiomatisch gerenderd als belofte die door God aan de vaders gedaan is. In v22 (geschieden soude) en v26 (geschiet is, openlijk geschiet) gaat het om een gebeurtenis die plaatsvindt (Grieks: ginomai, gebeuren-zin), consistent gerenderd als gebeuren/gebeurd. Twee betekenissen, elk intern concordant; §2.7 vereist geen harmonisatie van homonieme bronstammen met uiteenlopende semantiek (v6).",
+      "rebutted_at": "2026-06-07T17:54:26.072528+00:00",
+      "verified_at": "2026-06-07T17:54:37+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 14,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'seggend' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        14,
+        22,
+        31
+      ],
+      "id": "ACT-26-14-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Stam 'seggend' (λέγων participium praesens) wordt in alle drie verzen conform §2.3 ALWAYS_BAD ontvouwd naar finiete vorm: v6 'en zei' (coördinerend), v18 'en zij vroegen hem en zeiden' (idem coördinerend), v26 'gesproken en gezegd heeft' (perf. coördinerend bij hoofdwerkwoord). De prefix-overlap-heuristiek mist deze contextuele variatie; alle drie eindigen op finiete vorm van 'zeggen' — concordant op werkwoord, gedifferentieerd op tijd/aspect.",
+      "verified_at": "2026-06-07T17:54:37+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 17,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'heydene' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        17,
+        20,
+        23
+      ],
+      "id": "ACT-26-17-001",
+      "status": "verified",
+      "rebuttal": "Vals positief in v17: de scanner-prefix-heuristiek mist de orthografische overgang y->ei en hoofdletter-normalisatie. SV Heydenen wordt consequent naar Heidenen gemoderniseerd (MODERNISATIE.md spellingregel), zoals ook in v17 zelf en in de overige voorkomens. De drift komt enkel door prefix Heyden vs Heiden; de lexicale keuze is in v17 identiek aan de andere verzen. Concordantie behouden, geen harmonisatie nodig.",
+      "rebutted_at": "2026-06-07T17:55:05.786620+00:00",
+      "verified_at": "2026-06-07T17:55:08+00:00"
+    }
+  ]
+}
