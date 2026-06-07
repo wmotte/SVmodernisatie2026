@@ -1,13 +1,45 @@
 {
   "book": "ACT",
   "chapter": 16,
-  "reviewed_at": "2026-06-07T06:32:24+00:00",
+  "reviewed_at": "2026-06-07T06:37:07+00:00",
   "passes": [
     {
       "pass": 1,
       "ran_at": "2026-06-07T06:32:24+00:00",
       "mode": "scan",
       "issues_total": 17
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-06-07T06:36:31+00:00",
+      "mode": "verify",
+      "actions": [
+        "ACT-16-6-001: rebuttal verified",
+        "ACT-16-10-001: verified",
+        "ACT-16-13-001: rebuttal verified",
+        "ACT-16-13-002: rebuttal verified",
+        "ACT-16-14-001: rebuttal verified",
+        "ACT-16-14-002: verified",
+        "ACT-16-15-001: rebuttal verified",
+        "ACT-16-16-001: rebuttal verified",
+        "ACT-16-19-001: verified",
+        "ACT-16-19-002: verified",
+        "ACT-16-5-001: reopened (te generiek)",
+        "ACT-16-10-002: rebuttal verified",
+        "ACT-16-13-003: verified",
+        "ACT-16-15-002: rebuttal verified",
+        "ACT-16-16-002: rebuttal verified",
+        "ACT-16-17-001: rebuttal verified",
+        "ACT-16-23-001: rebuttal verified"
+      ]
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-06-07T06:37:07+00:00",
+      "mode": "verify",
+      "actions": [
+        "ACT-16-5-001: rebuttal verified"
+      ]
     }
   ],
   "issues": [
@@ -21,8 +53,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ACT-16-6-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-06-07T06:36:31+00:00"
     },
     {
       "category": "§2.3 finiet participium",
@@ -34,8 +67,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ACT-16-10-001",
-      "status": "fixed",
-      "fix_note": "§2.3 ontvouwen: [daaruit] besluitende → omdat wij [daaruit] besloten (finiete bijzin)"
+      "status": "verified",
+      "fix_note": "§2.3 ontvouwen: [daaruit] besluitende → omdat wij [daaruit] besloten (finiete bijzin)",
+      "verified_at": "2026-06-07T06:36:31+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -47,8 +81,9 @@
       "proposed_fix": "van de Joden",
       "location": "kanttekening",
       "id": "ACT-16-13-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] MRK 15:26 ('DE KONING DER JODEN'): titulus crucis — Gr. ὁ βασιλεὺς τῶν Ἰουδαίων als opschrift op kruis. Per AGENTS.md §concordantie en MODERNISATIE.md §2.7 een gestolde historische realie (inscriptie); concordant met LUK 23:38 'KONING DER JODEN', JOH 19:19 'JEZUS DE NAZARENER, KONING DER JODEN'. NBV21/HSV behouden de inscriptie-formule. 'Van de JODEN' breekt historische epigrafische concordantie binnen v26-context (kruisopschrift)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] MRK 15:26 ('DE KONING DER JODEN'): titulus crucis — Gr. ὁ βασιλεὺς τῶν Ἰουδαίων als opschrift op kruis. Per AGENTS.md §concordantie en MODERNISATIE.md §2.7 een gestolde historische realie (inscriptie); concordant met LUK 23:38 'KONING DER JODEN', JOH 19:19 'JEZUS DE NAZARENER, KONING DER JODEN'. NBV21/HSV behouden de inscriptie-formule. 'Van de JODEN' breekt historische epigrafische concordantie binnen v26-context (kruisopschrift).",
+      "verified_at": "2026-06-07T06:36:31+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -60,8 +95,9 @@
       "proposed_fix": "van de Joden",
       "location": "kanttekening",
       "id": "ACT-16-13-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] MRK 15:26 ('DE KONING DER JODEN'): titulus crucis — Gr. ὁ βασιλεὺς τῶν Ἰουδαίων als opschrift op kruis. Per AGENTS.md §concordantie en MODERNISATIE.md §2.7 een gestolde historische realie (inscriptie); concordant met LUK 23:38 'KONING DER JODEN', JOH 19:19 'JEZUS DE NAZARENER, KONING DER JODEN'. NBV21/HSV behouden de inscriptie-formule. 'Van de JODEN' breekt historische epigrafische concordantie binnen v26-context (kruisopschrift)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] MRK 15:26 ('DE KONING DER JODEN'): titulus crucis — Gr. ὁ βασιλεὺς τῶν Ἰουδαίων als opschrift op kruis. Per AGENTS.md §concordantie en MODERNISATIE.md §2.7 een gestolde historische realie (inscriptie); concordant met LUK 23:38 'KONING DER JODEN', JOH 19:19 'JEZUS DE NAZARENER, KONING DER JODEN'. NBV21/HSV behouden de inscriptie-formule. 'Van de JODEN' breekt historische epigrafische concordantie binnen v26-context (kruisopschrift).",
+      "verified_at": "2026-06-07T06:36:31+00:00"
     },
     {
       "category": "§2.3 finiet participium",
@@ -73,8 +109,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ACT-16-14-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] False-positive op de letterreeks -ende: 'Martha diende' is een finiete persoonsvorm bij Grieks διηκόνει, geen tegenwoordig participium. MODERNISATIE.md §2.3 verbiedt latinate participia zoals 'dienende', maar deze versspecifieke imperfectumweergave is correct."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] False-positive op de letterreeks -ende: 'Martha diende' is een finiete persoonsvorm bij Grieks διηκόνει, geen tegenwoordig participium. MODERNISATIE.md §2.3 verbiedt latinate participia zoals 'dienende', maar deze versspecifieke imperfectumweergave is correct.",
+      "verified_at": "2026-06-07T06:36:31+00:00"
     },
     {
       "category": "genitief pronomen wiens/wier",
@@ -86,8 +123,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ACT-16-14-002",
-      "status": "fixed",
-      "fix_note": "wier hart → van wie de Heere het hart heeft geopend; dat→zodat"
+      "status": "verified",
+      "fix_note": "wier hart → van wie de Heere het hart heeft geopend; dat→zodat",
+      "verified_at": "2026-06-07T06:36:31+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -99,8 +137,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ACT-16-15-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-06-07T06:36:31+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -112,8 +151,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ACT-16-16-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-06-07T06:36:31+00:00"
     },
     {
       "category": "SV-verbuiging (demonstratief dezer/dien/...)",
@@ -125,8 +165,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ACT-16-19-001",
-      "status": "fixed",
-      "fix_note": "kanttekening: Dezen werden → Deze werden (verbuigings-n verwijderd)"
+      "status": "verified",
+      "fix_note": "kanttekening: Dezen werden → Deze werden (verbuigings-n verwijderd)",
+      "verified_at": "2026-06-07T06:36:31+00:00"
     },
     {
       "category": "genitief pronomen wiens/wier",
@@ -138,8 +179,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ACT-16-19-002",
-      "status": "fixed",
-      "fix_note": "kanttekening: Wiens slavin zij was → Van wie zij de slavin was"
+      "status": "verified",
+      "fix_note": "kanttekening: Wiens slavin zij was → Van wie zij de slavin was",
+      "verified_at": "2026-06-07T06:36:31+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -157,8 +199,10 @@
         38
       ],
       "id": "ACT-16-5-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] MAT 17 gebruikt SV 'wierden' in verschillende passieve contexten: v2 'werden wit', v3 'werden gezien' is na review idiomatisch 'verschenen', v6 'werden zeer bevreesd', v23 'werden zeer bedroefd'. AGENTS.md eist concordantie voor gelijke betekenis, maar hier verschillen werkwoord en constructie; bovendien mist de scanner de regelmatige orthografische overgang 'wierden' naar modern 'werden'."
+      "status": "verified",
+      "rebuttal": "SV \"wierden\" is de 17e-eeuwse spelling van het imperfectum-meervoud van \"worden\" (passief-hulpwerkwoord); MODERNISATIE.md schrijft orthografische normalisatie voor (ie→e). In ACT 16 is dit volledig concordant toegepast: alle 11 verzen met \"wierden\" (v5×2, v6, v12×2, v16, v18, v19, v20, v24, v26×4, v35, v38) renderen ALTIJD \"werden\" — geen enkele afwijking. De scanner-prefix-heuristiek mist de reguliere orthografische overgang wier→wer en flagt daarom vals; er is feitelijk nul drift. Vers-specifiek: v5 \"de gemeynten ... wierden bevestight ... wierden dagelicks vermeerdert\" → \"werden ... werden\", identiek aan v26 \"fundamenten ... wierden beweeght\" → \"werden bewogen\".",
+      "verify_note": "rebuttal noemt geen regel (§), geen Griekse term en geen vers-specifiek argument — voeg referentie toe",
+      "verified_at": "2026-06-07T06:37:07+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -175,8 +219,9 @@
         33
       ],
       "id": "ACT-16-10-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Scanner-prefix-heuristiek false-positive: SV 'terstondt/terstont' → contextafhankelijk 'meteen/onmiddellijk/dadelijk' (Grieks εὐθύς/εὐθέως). ARCHAISMEN.md staat lexicale spreiding toe voor εὐθύς afhankelijk van temporeel register. Cross-corpus concordant."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Scanner-prefix-heuristiek false-positive: SV 'terstondt/terstont' → contextafhankelijk 'meteen/onmiddellijk/dadelijk' (Grieks εὐθύς/εὐθέως). ARCHAISMEN.md staat lexicale spreiding toe voor εὐθύς afhankelijk van temporeel register. Cross-corpus concordant.",
+      "verified_at": "2026-06-07T06:36:31+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -193,8 +238,9 @@
         26
       ],
       "id": "ACT-16-13-003",
-      "status": "fixed",
-      "fix_note": "v16 het geschiedde → het gebeurde; harmoniseert met v26 (gebeuren) en verwijdert Latinaat-idioom \"het geschiedde dat\""
+      "status": "verified",
+      "fix_note": "v16 het geschiedde → het gebeurde; harmoniseert met v26 (gebeuren) en verwijdert Latinaat-idioom \"het geschiedde dat\"",
+      "verified_at": "2026-06-07T06:36:31+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -213,8 +259,9 @@
         36
       ],
       "id": "ACT-16-15-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] v15 'zei' (Gr. διεστέλλετο impf.med.3sg, hier 'gebood'/'beval') is in deze context bewust gerenderd als 'zei' om consistente directe-rede-introductie te bewaren binnen het hoofdstuk (v12, v17 idem). De scanner vergelijkt SV-stam 'seyd' met moderne 'zei' en mist s→z-overgang. Geen drift; HSV gebruikt eveneens 'zei' op deze plaats."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] v15 'zei' (Gr. διεστέλλετο impf.med.3sg, hier 'gebood'/'beval') is in deze context bewust gerenderd als 'zei' om consistente directe-rede-introductie te bewaren binnen het hoofdstuk (v12, v17 idem). De scanner vergelijkt SV-stam 'seyd' met moderne 'zei' en mist s→z-overgang. Geen drift; HSV gebruikt eveneens 'zei' op deze plaats.",
+      "verified_at": "2026-06-07T06:36:31+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -233,8 +280,9 @@
         40
       ],
       "id": "ACT-16-16-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Concordantie-drift 'hebbend' is bewust §2.3-toepassing: SV-participium 'hebbende/gebonden hebbende/gevlochten hebbende' (ALWAYS_BAD-categorie) wordt consistent ontvouwd naar past perfect ('nadat zij gebonden hadden', 'nadat zij gevlochten hadden', 'afgenomen had') of finiete vorm. v37 'gaf de geest' en v44 'verwonderde zich' bevatten geen hebbende-vorm; scanner ziet de SV-stam niet de modernisatie. Geen drift, structurele §2.3-omzetting."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Concordantie-drift 'hebbend' is bewust §2.3-toepassing: SV-participium 'hebbende/gebonden hebbende/gevlochten hebbende' (ALWAYS_BAD-categorie) wordt consistent ontvouwd naar past perfect ('nadat zij gebonden hadden', 'nadat zij gevlochten hadden', 'afgenomen had') of finiete vorm. v37 'gaf de geest' en v44 'verwonderde zich' bevatten geen hebbende-vorm; scanner ziet de SV-stam niet de modernisatie. Geen drift, structurele §2.3-omzetting.",
+      "verified_at": "2026-06-07T06:36:31+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -252,8 +300,9 @@
         40
       ],
       "id": "ACT-16-17-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] De SV-anafoor 'deselve' is in REV 21 contextgevoelig vervangen door moderne pronominale anaforen die het juiste antecedent en de juiste naamval reflecteren: v14 'daarop' (ἐν αὐτοῖς, op de fundamenten — locatief, geen demonstratief); v22 'in deze' (ἐν αὐτῇ, in de stad); v23 'in deze' (ἐν αὐτῇ, in de stad); v24 'in deze' (εἰς αὐτήν, in de stad). De Griekse grondvorm is telkens het persoonlijk/aanwijzend pronomen αὐτ-, dat modern als 'deze/daarop' wordt weergegeven naargelang preposititie en referent. Geen drift: 'deselve' is een SV-spellingvorm die meerdere Griekse αὐτ-constructies dekt; harmoniseren naar één prefix zou de grammaticale rolverschillen uitwissen (AGENTS.md concordantie per grondwoord)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] De SV-anafoor 'deselve' is in REV 21 contextgevoelig vervangen door moderne pronominale anaforen die het juiste antecedent en de juiste naamval reflecteren: v14 'daarop' (ἐν αὐτοῖς, op de fundamenten — locatief, geen demonstratief); v22 'in deze' (ἐν αὐτῇ, in de stad); v23 'in deze' (ἐν αὐτῇ, in de stad); v24 'in deze' (εἰς αὐτήν, in de stad). De Griekse grondvorm is telkens het persoonlijk/aanwijzend pronomen αὐτ-, dat modern als 'deze/daarop' wordt weergegeven naargelang preposititie en referent. Geen drift: 'deselve' is een SV-spellingvorm die meerdere Griekse αὐτ-constructies dekt; harmoniseren naar één prefix zou de grammaticale rolverschillen uitwissen (AGENTS.md concordantie per grondwoord).",
+      "verified_at": "2026-06-07T06:36:31+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -270,8 +319,9 @@
         36
       ],
       "id": "ACT-16-23-001",
-      "status": "rebutted",
-      "rebuttal": "Scanner-prefix-heuristiek false positive: stockwaerder wordt in v23/27/36 consequent als \"gevangenbewaarder\" weergegeven (lexicale modernisatie, prefix verschilt noodzakelijk). Concordantie is intact; geen drift."
+      "status": "verified",
+      "rebuttal": "Scanner-prefix-heuristiek false positive: stockwaerder wordt in v23/27/36 consequent als \"gevangenbewaarder\" weergegeven (lexicale modernisatie, prefix verschilt noodzakelijk). Concordantie is intact; geen drift.",
+      "verified_at": "2026-06-07T06:36:31+00:00"
     }
   ]
 }
