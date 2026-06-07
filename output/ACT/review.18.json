@@ -1,7 +1,7 @@
 {
   "book": "ACT",
   "chapter": 18,
-  "reviewed_at": "2026-06-07T11:09:04+00:00",
+  "reviewed_at": "2026-06-07T11:10:25+00:00",
   "passes": [
     {
       "pass": 1,
@@ -41,6 +41,14 @@
       "ran_at": "2026-06-07T11:09:04+00:00",
       "mode": "verify",
       "actions": []
+    },
+    {
+      "pass": 5,
+      "ran_at": "2026-06-07T11:10:25+00:00",
+      "mode": "verify",
+      "actions": [
+        "ACT-18-6-001: verified"
+      ]
     }
   ],
   "issues": [
@@ -54,10 +62,11 @@
       "proposed_fix": "van de zaligheid",
       "location": "kanttekening",
       "id": "ACT-18-6-001",
-      "status": "fixed",
+      "status": "verified",
       "rebuttal": "",
       "verify_note": "rebuttal noemt geen regel (§), geen Griekse term en geen vers-specifiek argument — voeg referentie toe",
-      "fix_commit": "pending"
+      "fix_commit": "pending",
+      "verified_at": "2026-06-07T11:10:25+00:00"
     },
     {
       "category": "§2.3 finiet participium",
