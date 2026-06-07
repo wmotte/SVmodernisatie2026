@@ -1,7 +1,7 @@
 {
   "book": "ACT",
   "chapter": 12,
-  "reviewed_at": "2026-06-07T05:16:46+00:00",
+  "reviewed_at": "2026-06-07T05:17:59+00:00",
   "passes": [
     {
       "pass": 1,
@@ -24,6 +24,15 @@
         "ACT-12-20-001: rebuttal verified",
         "ACT-12-23-001: reopened (te generiek)",
         "ACT-12-4-001: rebuttal verified"
+      ]
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-06-07T05:17:59+00:00",
+      "mode": "verify",
+      "actions": [
+        "ACT-12-7-001: rebuttal verified",
+        "ACT-12-23-001: rebuttal verified"
       ]
     }
   ],
@@ -52,9 +61,10 @@
       "proposed_fix": "van de Heeren",
       "location": "hoofdtekst",
       "id": "ACT-12-7-001",
-      "status": "rebutted",
+      "status": "verified",
       "rebuttal": "\"Engel des Heeren\" (v7) vertaalt Gr. ἄγγελος κυρίου — een gefossiliseerd bijbels formulier, niet een productieve genitief. Het paar (\"des\",\"heeren\") staat in FOSSIL_GENITIVE_PAIRS (rules_data.py); validate.py meldt 0F op dit vers. Projectbreed concordant behouden: cf. LUK 1:11, LUK 2:9, MATT 1:20 — alle \"Engel des Heeren\" voor ἄγγελος κυρίου. Hier verschijnt de Engel om Petrus uit de gevangenis te bevrijden. \"Van de Heere\" zou de vaste epifanie-formule breken.",
-      "verify_note": "rebuttal noemt geen regel (§), geen Griekse term en geen vers-specifiek argument — voeg referentie toe"
+      "verify_note": "rebuttal noemt geen regel (§), geen Griekse term en geen vers-specifiek argument — voeg referentie toe",
+      "verified_at": "2026-06-07T05:17:59+00:00"
     },
     {
       "category": "§2.3 finiet participium",
@@ -150,9 +160,10 @@
       "proposed_fix": "van de Heeren",
       "location": "hoofdtekst",
       "id": "ACT-12-23-001",
-      "status": "rebutted",
+      "status": "verified",
       "rebuttal": "\"Engel des Heeren\" (v23) vertaalt Gr. ἄγγελος κυρίου — gefossiliseerd bijbels formulier, paar (\"des\",\"heeren\") in FOSSIL_GENITIVE_PAIRS (rules_data.py); validate.py 0F. Concordant met LUK 1:11, MATT 1:20 en met v7 ín dit hoofdstuk (zelfde ἄγγελος κυρίου). Vers-specifiek: hier slaat de Engel Herodes wegens diens hybris (\"omdat hij God de eer niet gaf\") — strafepifanie, dezelfde vaste formule als de bevrijdingsepifanie v7. \"Van de Heere\" breekt de intra-hoofdstuk-concordantie.",
-      "verify_note": "rebuttal noemt geen regel (§), geen Griekse term en geen vers-specifiek argument — voeg referentie toe"
+      "verify_note": "rebuttal noemt geen regel (§), geen Griekse term en geen vers-specifiek argument — voeg referentie toe",
+      "verified_at": "2026-06-07T05:17:59+00:00"
     },
     {
       "category": "concordantie-drift",

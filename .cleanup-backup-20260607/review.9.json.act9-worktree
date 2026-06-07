@@ -1,0 +1,233 @@
+{
+  "book": "ACT",
+  "chapter": 9,
+  "reviewed_at": "2026-06-06T20:35:39+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-06-06T20:31:11+00:00",
+      "mode": "scan",
+      "issues_total": 11
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-06-06T20:33:27+00:00",
+      "mode": "verify",
+      "actions": [
+        "ACT-9-1-001: rebuttal verified",
+        "ACT-9-7-001: rebuttal verified",
+        "ACT-9-8-001: rebuttal verified",
+        "ACT-9-14-001: verified",
+        "ACT-9-15-001: rebuttal verified",
+        "ACT-9-15-002: verified",
+        "ACT-9-17-001: verified",
+        "ACT-9-34-001: verified",
+        "ACT-9-2-001: rebuttal verified",
+        "ACT-9-13-001: rebuttal verified",
+        "ACT-9-18-001: rebuttal verified",
+        "ACT-9-28-001: verified"
+      ]
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-06-06T20:34:08+00:00",
+      "mode": "verify",
+      "actions": []
+    },
+    {
+      "pass": 4,
+      "ran_at": "2026-06-06T20:35:39+00:00",
+      "mode": "verify",
+      "actions": []
+    }
+  ],
+  "issues": [
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 1,
+      "severity": "soft",
+      "quote_modernized": "…, waarvan hij het Hoofd was, $Hd. 22:5$ bij welke Raad de kennisneming en het ho…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "ACT-9-1-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-06-06T20:33:27+00:00"
+    },
+    {
+      "category": "SV-verbuiging (demonstratief dezer/dien/...)",
+      "verse": 7,
+      "severity": "hard",
+      "quote_modernized": "Dezen schijnen degenen geweest te zijn, …",
+      "rule_reference": "ARCHAISMEN.md (SV-verbuigingen)",
+      "explanation": "'Dezen schijnen' — verbogen demonstratief (SV-genitief/datief). Modern Nederlands: 'deze' / 'die' / 'in deze ...' / 'op die ...'. Gefossiliseerde uitdrukkingen ('dezer dagen', 'te dien einde') zijn whitelist; rebut zo nodig met register-argument.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "ACT-9-7-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] 'Dezen schijnen geweest te zijn de voornaamste hoofden…' is de substantivische meervoudsvorm van 'deze' met persoonsreferent als zelfstandig onderwerp. Die vorm ('dezen' = 'deze personen', vgl. 'dezen en genen') is in hedendaags formeel/schriftelijk Nederlands nog grammaticaal en niet de verbogen accusatief-voor-naamwoord die ARCHAISMEN.md (regel 'desen'→'deze') viseert. Onderscheidt zich expliciet van de échte verbuiging in v6 ('dezen Annas', accusatief vóór eigennaam) die wél open blijft. Kanttekening-register; geen flexie-fout.",
+      "verified_at": "2026-06-06T20:33:27+00:00"
+    },
+    {
+      "category": "§2.3 finiet participium",
+      "verse": 8,
+      "severity": "soft",
+      "quote_modernized": "… op van de grond; en toen hij zijn ogen opende,   zag hij niemand. En zij leidde…",
+      "rule_reference": "MODERNISATIE.md §2.3",
+      "explanation": "'opende' — verdacht -ende-woord in adverbial / clause-final positie. Ontvouw naar finiete bijzin ('en X', 'terwijl X', 'toen X').",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "ACT-9-8-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] 'opende' is hier finiet praeteritum 3sg van 'open(en)' (διήνοιγεν, imperfect 3sg) — geen participium praesens. Scanner-regex herkent -ende-suffix maar mist dat dit een finiet werkwoord in een 'toen…opende'-bijzin is. Klassiek false positive.",
+      "verified_at": "2026-06-06T20:33:27+00:00"
+    },
+    {
+      "category": "§2.3b infinitief met nageschoven object",
+      "verse": 14,
+      "severity": "soft",
+      "quote_modernized": "…eeft   hier macht van de Overpriesters, om allen te binden die   uw naam aanroep…",
+      "rule_reference": "MODERNISATIE.md §2.3b",
+      "explanation": "'om … te binden die   uw naam aanroepen' — Latinaat-woordvolgorde; in modern NL gaat het object vóór de infinitief: 'om <object> te binden'.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "ACT-9-14-001",
+      "status": "verified",
+      "resolution": "Woordvolgorde hersteld naar modern Nederlands: object inclusief relatieve bijzin voor de infinitief (MODERNISATIE.md §2.3b).",
+      "verified_at": "2026-06-06T20:33:27+00:00"
+    },
+    {
+      "category": "§2.3b infinitief met nageschoven object",
+      "verse": 15,
+      "severity": "soft",
+      "quote_modernized": "…want deze is mij een uitverkoren   vat, om mijn naam   te dragen voor de Heidene…",
+      "rule_reference": "MODERNISATIE.md §2.3b",
+      "explanation": "'om … te dragen voor de Heidenen' — Latinaat-woordvolgorde; in modern NL gaat het object vóór de infinitief: 'om <object> te dragen'.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "ACT-9-15-001",
+      "status": "verified",
+      "rebuttal": "In ACT 9:15 staat het object mijn naam al voor de infinitief te dragen; de woorden voor de Heidenen, en de Koningen, en de kinderen van Israel zijn het richtings-/publiekscomplement bij βαστάσαι/ἐνώπιον, niet een nageschoven object. MODERNISATIE.md §2.3b vereist hier dus geen wijziging.",
+      "verified_at": "2026-06-06T20:33:27+00:00"
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 15,
+      "severity": "hard",
+      "quote_modernized": "…en gezant, $2Kor. 5:20$ Grieks: een vat der verkiezing, $Gl. 1:15,16$. Dat is, v…",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'der verkiezing' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de verkiezing' of 'van het verkiezing', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de verkiezing",
+      "location": "kanttekening",
+      "id": "ACT-9-15-002",
+      "status": "verified",
+      "resolution": "Verbogen genitief in Griekse gloss gemoderniseerd van vat der verkiezing naar vat van de verkiezing.",
+      "verified_at": "2026-06-06T20:33:27+00:00"
+    },
+    {
+      "category": "§2.3 finiet participium",
+      "verse": 17,
+      "severity": "soft",
+      "quote_modernized": "…kwam in het huis; en   de handen op hem leggende, zei hij: Saul broeder, de Heer…",
+      "rule_reference": "MODERNISATIE.md §2.3",
+      "explanation": "'leggende' — verdacht -ende-woord in adverbial / clause-final positie. Ontvouw naar finiete bijzin ('en X', 'terwijl X', 'toen X').",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "ACT-9-17-001",
+      "status": "verified",
+      "resolution": "Participium de handen op hem leggende ontvouwd naar finiete nevenschikking volgens MODERNISATIE.md §2.3.",
+      "verified_at": "2026-06-06T20:33:27+00:00"
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 34,
+      "severity": "soft",
+      "quote_modernized": "het bed op en",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'het bed op en' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "ACT-9-34-001",
+      "status": "verified",
+      "resolution": "Redundantie tussen hoofdtekst en kanttekening opgeheven: hoofdtekst spreid, kanttekening schik het bed.",
+      "verified_at": "2026-06-06T20:33:27+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 2,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'ierusal' in 5 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 5 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        2,
+        13,
+        21,
+        26,
+        28
+      ],
+      "id": "ACT-9-2-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Scanner-prefix false-positive: in de betrokken verzen 1, 14, 25, 26 en 27 wordt SV 'Ierusalem' consequent volgens MODERNISATIE.md §2.1 en AGENTS.md eigennamenmodernisatie gespeld als 'Jeruzalem'. De prefix 'ierusal' verdwijnt alleen door I→J-spellingnormalisatie, niet door lexicale of concordantie-drift.",
+      "verified_at": "2026-06-06T20:33:27+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 13,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'heylige' in 5 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 5 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        13,
+        17,
+        31,
+        32,
+        41
+      ],
+      "id": "ACT-9-13-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Concordantie-drift false-positive: stam 'heylig' dekt drie woordsoorten — adjectief 'Heilige (Geest)' (v13,16), zelfst. nw. 'heiligen' (v25,26,31) en participium 'geheiligd' (v16). Contextueel correcte vormvariatie, geen drift; semantische concordantie intact.",
+      "verified_at": "2026-06-06T20:33:27+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 18,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'terston' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        18,
+        20,
+        34
+      ],
+      "id": "ACT-9-18-001",
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Scanner-prefix-heuristiek false-positive: SV 'terstondt/terstont' → contextafhankelijk 'meteen/onmiddellijk/dadelijk' (Grieks εὐθύς/εὐθέως). ARCHAISMEN.md staat lexicale spreiding toe voor εὐθύς afhankelijk van temporeel register. Cross-corpus concordant.",
+      "verified_at": "2026-06-06T20:33:27+00:00"
+    },
+    {
+      "id": "ACT-9-28-001",
+      "verse": 28,
+      "category": "§2.3 finiet participium in kanttekening",
+      "severity": "soft",
+      "quote_modernized": "dagelijks met hen omgaand",
+      "rule_reference": "MODERNISATIE.md §2.3; KANTTEKENINGEN.md Geen SV-participia in kanttekeningen",
+      "explanation": "De kanttekening gebruikte een bijwoordelijk participium uit SV-stijl; §2.3 geldt ook binnen <...>-blokken.",
+      "proposed_fix": "dagelijks met hen omging",
+      "location": "kanttekening",
+      "status": "verified",
+      "resolution": "Kanttekening ontvouwd naar finiete bijzin: dagelijks met hen omging.",
+      "verified_at": "2026-06-06T20:33:27+00:00"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "book": "ACT",
   "chapter": 21,
-  "reviewed_at": "2026-06-07T12:37:19+00:00",
+  "reviewed_at": "2026-06-07T12:38:59+00:00",
   "passes": [
     {
       "pass": 1,
@@ -32,6 +32,15 @@
         "ACT-21-6-002: verified",
         "ACT-21-11-001: rebuttal verified",
         "ACT-21-14-001: rebuttal verified"
+      ]
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-06-07T12:38:59+00:00",
+      "mode": "verify",
+      "actions": [
+        "ACT-21-20-001: verified",
+        "ACT-21-21-001: verified"
       ]
     }
   ],
@@ -88,10 +97,11 @@
       "proposed_fix": "van de ceremoniën",
       "location": "kanttekening",
       "id": "ACT-21-20-001",
-      "status": "fixed",
+      "status": "verified",
       "rebuttal": "",
       "verify_note": "rebuttal noemt geen regel (§), geen Griekse term en geen vers-specifiek argument — voeg referentie toe",
-      "fix_commit": "pending"
+      "fix_commit": "pending",
+      "verified_at": "2026-06-07T12:38:59+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -103,10 +113,11 @@
       "proposed_fix": "van de wet",
       "location": "kanttekening",
       "id": "ACT-21-21-001",
-      "status": "fixed",
+      "status": "verified",
       "rebuttal": "",
       "verify_note": "rebuttal noemt geen regel (§), geen Griekse term en geen vers-specifiek argument — voeg referentie toe",
-      "fix_commit": "pending"
+      "fix_commit": "pending",
+      "verified_at": "2026-06-07T12:38:59+00:00"
     },
     {
       "category": "SV-verbuiging (demonstratief dezer/dien/...)",
