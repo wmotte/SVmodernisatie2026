@@ -220,6 +220,33 @@
       "generated_at": "2026-06-07T10:48:19.299710Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 22,
+      "original": "Ende als hy te <Namelick, in Palestina gelegen, Actor. 10.1.> Cesareen was gekomen, gingh hy op [na Jerusalem,] ende de gemeynte gegroet hebbende, gingh hy af na <Namelick, in Syrien gelegen.> Antiochien.",
+      "modernized": "En toen hij in <Namelijk, in Palestina gelegen, $Hd. 10:1$.> Caesarea was gekomen, ging hij op [naar Jeruzalem,] en nadat hij de gemeente had gegroet, ging hij af naar <Namelijk, in Syrië gelegen.> Antiochië.",
+      "source_text": "καὶ κατελθὼν εἰς Καισάρειαν, ἀναβὰς καὶ ἀσπασάμενος τὴν ἐκκλησίαν, κατέβη εἰς Ἀντιόχειαν.",
+      "generated_at": "2026-06-07T10:51:49.534067Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 23,
+      "original": "Ende als hy [aldaer] eenigen tijt <Gr. gemaeckt hadde. siet Actor. 15.33. ende cap. 20. vers 3. 2.Corinth. 11.25. Iacob. 4.13.> geweest hadde, gingh hy wech, ende doorreysde <Namelick, van de eene gemeynte tot de andere, om haer te besoecken.> vervolgens het lant van Galatien ende Phrygien, versterckende alle de discipelen.",
+      "modernized": "En toen hij [daar] enige tijd <Grieks: gemaakt had. Zie $Hd. 15:33; 20:3; 2Kor. 11:25; Jk. 4:13$.> geweest was, ging hij weg, en doortrok achtereenvolgens het land van Galatië en Frygië, en versterkte <Namelijk, van de ene gemeente tot de andere, om hen te bezoeken.> al de discipelen.",
+      "source_text": "καὶ ποιήσας χρόνον τινὰ ἐξῆλθε, διερχόμενος καθεξῆς τὴν Γαλατικὴν χώραν καὶ Φρυγίαν, ἐπιστηρίζων πάντας τοὺς μαθητάς.",
+      "generated_at": "2026-06-07T10:52:23.528877Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 24,
+      "original": "Ende een seker Iode, met name $1.Corinth. 1.12.$ Apollos, van geboorte een Alexandriner, een <Ofte, welberedet: die sijn woort wel konde doen.> welsprekende man, quam te Ephesen, <Dat is, seer ervaren in de Schriften ende bequaem om deselve uyt te leggen.> machtigh zijnde in de Schriften.",
+      "modernized": "En een zekere Jood, met name $1Kor. 1:12$ Apollos, van geboorte een Alexandrijn, een <Of, welbespraakt: die zijn woord goed kon voeren.> welsprekend man, kwam te Efeze, <Dat is, zeer ervaren in de Schriften en bekwaam om die uit te leggen.> die machtig was in de Schriften.",
+      "source_text": "Ἰουδαῖος δέ τις Ἀπολλὼς ὀνόματι, Ἀλεξανδρεὺς τῷ γένει, ἀνὴρ λόγιος, κατήντησεν εἰς Ἔφεσον, δυνατὸς ὢν ἐν ταῖς γραφαῖς.",
+      "generated_at": "2026-06-07T10:53:01.120136Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
