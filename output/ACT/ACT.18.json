@@ -100,6 +100,45 @@
       "generated_at": "2026-06-07T10:25:46.069323Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 10,
+      "original": "Want ick ben <Siet Luce c. 1. vers 66.> met u, ende niemant en sal [de hant] aen u leggen om u quaet te doen: want ick hebbe <D. vele uytverkorene, die door uwe predicatie sullen bekeert worden. Siet Ioan. 10.16.> veel volcks in dese stadt.",
+      "modernized": "Want ik ben <Zie $Lk. 1:66$.> met u, en niemand zal [de hand] aan u leggen om u kwaad te doen: want ik heb <Dat is, vele uitverkorenen, die door uw prediking bekeerd zullen worden. Zie $Jh. 10:16$.> veel volk in deze stad.",
+      "source_text": "διότι ἐγώ εἰμι μετὰ σοῦ, καὶ οὐδεὶς ἐπιθήσεταί σοι τοῦ κακῶσαί σε· διότι λαός ἐστί μοι πολὺς ἐν τῇ πόλει ταύτῃ.",
+      "generated_at": "2026-06-07T10:30:12.393883Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 11,
+      "original": "Ende hy <Gr. sat aldaer, namelick, te Corinthen. Hebr. Siet Matth. 4.16.> onthielt hem [aldaer] een jaer ende ses maenden, leerende onder haer het woort Godts.",
+      "modernized": "En hij <Grieks: zat daar, namelijk, te Korinthe. Hebreeuws: Zie $Mt. 4:16$.> verbleef [daar] een jaar en zes maanden, en leerde onder hen het woord van God.",
+      "source_text": "ἐκάθισέ τε ἐνιαυτὸν καὶ μῆνας ἕξ, διδάσκων ἐν αὐτοῖς τὸν λόγον τοῦ Θεοῦ.",
+      "generated_at": "2026-06-07T10:31:20.720799Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "twijfel",
+          "subject": "Hebr.-markering in kanttekening",
+          "context": "kanttekening 1",
+          "choice": "Hebreeuws: Zie $Mt. 4:16$",
+          "alternatives": [
+            "Hebr. Zie $Mt. 4:16$"
+          ],
+          "reason": "De SV-markering Hebr. duidt dat de constructie zat daar een hebraisme weergeeft; de bijbehorende verwijzing is meegenomen als Hebreeuws: Zie."
+        }
+      ]
+    },
+    {
+      "verse_number": 12,
+      "original": "Maer als <Dese was een broeder van den vermaerden L. Anneus Seneca, d’onderwijsmeester van den Keyser Nero, gelijck Seneca selve getuyght Praefat. quaest. natur. lib. 4. was eerst genaemt M. Anneus Novatus, maer van C. Iunius Gallio tot een soon aengenomen zijnde, heeft hy oock desselven name aengenomen.> Gallio <Gr. Anthypateuon, Dat is, in plaetse van den Burgermeester van Roomen regeerende. Siet van dit woort Actor. 13. vers 7. ende 19.38.> Stadthouder van <Ende oock van geheel Grieckenlant, Pausan.> Achaja was, stonden de Ioden eendrachtelick tegen Paulum op, ende brachten hem voor den Rechterstoel:",
+      "modernized": "Maar toen <Deze was een broeder van de vermaarde L. Annaeus Seneca, de leermeester van Keizer Nero, zoals Seneca zelf getuigt Praefat. quaest. natur. lib. 4. Hij was eerst M. Annaeus Novatus genoemd, maar toen hij door C. Iunius Gallio tot zoon was aangenomen, heeft hij ook diens naam aangenomen.> Gallio <Grieks: Anthypateuon, Dat is, regerend in plaats van de Burgemeester van Rome. Zie over dit woord $Hd. 13:7; 19:38$.> Stadhouder van <En ook van heel Griekenland, Pausan.> Achaje was, stonden de Joden eendrachtig tegen Paulus op, en brachten hem voor de Rechterstoel:",
+      "source_text": "Γαλλίωνος δὲ ἀνθυπατεύοντος τῆς Ἀχαΐας, κατεπέστησαν ὁμοθυμαδὸν οἱ Ἰουδαῖοι τῷ Παύλῳ, καὶ ἤγαγον αὐτὸν ἐπὶ τὸ βῆμα,",
+      "generated_at": "2026-06-07T10:32:30.322139Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
