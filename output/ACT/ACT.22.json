@@ -106,6 +106,33 @@
       "generated_at": "2026-06-07T18:31:34.730715Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 12,
+      "original": "$Actor. cap. 9. vers 17.$ Ende een seker Ananias, een Godtvruchtigh man na de wet, [goet] getuygenisse hebbende van alle de Ioden die [daer] woonden,",
+      "modernized": "$Hd. 9:17$ En een zekere Ananias, een Godvruchtig man naar de wet, die [goed] getuigenis had van alle Joden die [daar] woonden,",
+      "source_text": "Ἀνανίας δέ τις, ἀνὴρ εὐσεβὴς κατὰ τὸν νόμον, μαρτυρούμενος ὑπὸ πάντων τῶν κατοικούντων Ἰουδαίων,",
+      "generated_at": "2026-06-07T18:34:48.558215Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 13,
+      "original": "<Namelick, van Christo door een gesichte gesonden, Actor. cap. 9. vers 10.> Quam tot my, ende by [my] staende seyde tot my, Saul broeder, <Ofte, siet opwaerts.> Wort weder siende. Ende ter selver ure <Of, sagh ick op hem.> wiert ick siende op hem.",
+      "modernized": "<Namelijk, door Christus door een visioen gezonden, $Hd. 9:10$.> kwam tot mij, en terwijl hij bij [mij] stond zei hij tot mij: Saul, broeder, <Of, zie opwaarts.> ontvang weer het gezicht. En op datzelfde uur <Of, keek ik naar hem op.> kon ik hem weer zien.",
+      "source_text": "ἐλθὼν πρός με καὶ ἐπιστὰς εἶπέ μοι, Σαοὺλ ἀδελφέ, ἀνάβλεψον. κἀγὼ αὐτῇ τῇ ὥρᾳ ἀνέβλεψα εἰς αὐτόν.",
+      "generated_at": "2026-06-07T18:35:38.295410Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 4
+    },
+    {
+      "verse_number": 14,
+      "original": "Ende hy seyde, De Godt onser vaderen heeft u <Of, te voren geschickt. Het Griecks woort beteeckent soo veel als, by de hant genomen.> te voren verordineert om sijnen wille te kennen, ende <Dat is, Iesum Christum, die geen sonde en heeft gekent, hoewel hy als een onrechtveerdige is veroordeelt, Iesa. cap. 53. vers 11. Actor. cap. 3. vers 14. 1.Ioan. cap. 2. vers 1.> den Rechtveerdigen te sien, ende de stemme uyt sijnen mont te hooren.",
+      "modernized": "En hij zei: De God van onze vaders heeft u <Of, tevoren beschikt. Het Griekse woord betekent zoveel als: bij de hand genomen.> tevoren verordineerd om zijn wil te kennen, en <Dat is, Jezus Christus, die geen zonde gekend heeft, hoewel hij als een onrechtvaardige is veroordeeld, $Js. 53:11; Hd. 3:14; 1Jh. 2:1$.> de Rechtvaardige te zien, en de stem uit zijn mond te horen.",
+      "source_text": "ὁ δὲ εἶπεν, Ὁ Θεὸς τῶν πατέρων ἡμῶν προεχειρίσατό σε γνῶναι τὸ θέλημα αὐτοῦ, καὶ ἰδεῖν τὸν δίκαιον, καὶ ἀκοῦσαι φωνὴν ἐκ τοῦ στόματος αὐτοῦ.",
+      "generated_at": "2026-06-07T18:36:00.658628Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 4
     }
   ]
 }
