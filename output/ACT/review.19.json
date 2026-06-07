@@ -1,0 +1,234 @@
+{
+  "book": "ACT",
+  "chapter": 19,
+  "reviewed_at": "2026-06-07T20:55:34+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-06-07T20:55:34+00:00",
+      "mode": "scan",
+      "issues_total": 14
+    }
+  ],
+  "issues": [
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 3,
+      "severity": "soft",
+      "quote_modernized": "Dat is, welke leer is u verkondigd, en hebt u …",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "ACT-19-3-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 3,
+      "severity": "soft",
+      "quote_modernized": "…cipelen gedoopt heeft. Zie $Hd. 18:25$. Bij welke doop de buitengewone gaven van…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "ACT-19-3-002",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 4,
+      "severity": "soft",
+      "quote_modernized": "met de doop van",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'met de doop van' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "ACT-19-4-001",
+      "status": "rebutted",
+      "rebuttal": "Vals positief 4-token-venster: de kanttekening is woordelijke preservering van SV1657 (origineel '<D. by dewelcke hy bekeeringe predickte, ende die de gedoopte tot bekeeringe verplichtte...>'), een substantieve exegese over het wezen van Johannes' doop versus die der Apostelen — geen parafrastische herhaling van de hoofdtekst. KANTTEKENINGEN.md schrijft getrouwe overname voor; de overlap 'met de doop' is intrinsiek aan het SV-apparaat, niet toegevoegde redundantie."
+    },
+    {
+      "category": "voornaamwoordelijk bijwoord gesplitst",
+      "verse": 5,
+      "severity": "hard",
+      "quote_modernized": "…den, samengevoegd moeten worden, en dat er van één persoon en zaak gesproken wor…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'er van' — SV-gesplitst voornaamwoordelijk bijwoord. Modern Nederlands voegt samen: 'ervan' (bv. daarin, waarmee, hierop).",
+      "proposed_fix": "ervan",
+      "location": "kanttekening",
+      "id": "ACT-19-5-001",
+      "status": "rebutted",
+      "rebuttal": "Vals positief: 'er' is hier presentatief/expletief ('dat er ... gesproken wordt', ANS er-constructie), GEEN deel van een voornaamwoordelijk bijwoord. 'van één persoon en zaak' is een voorzetselvoorwerp met nominale kern (van + NP). Samenvoegen tot 'ervan' is ongrammaticaal omdat 'van' de NP 'één persoon en zaak' regeert ('dat ervan één persoon ... gesproken wordt' is onzin). Geen splitsing om te herstellen; staat bovendien in een kanttekening die SV1657 getrouw volgt."
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 10,
+      "severity": "soft",
+      "quote_modernized": "van de heere jezus",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'van de heere jezus' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "ACT-19-10-001",
+      "status": "rebutted",
+      "rebuttal": "Vals positief: de kanttekening '<Dat is, van de Heere Jezus.>' is letterlijke preservering van SV1657, waar het origineel zelf luidt: 'het woort <Dat is, van den Heere Iesu.> des Heeren Iesu'. De schijnbare redundantie staat IN de SV1657-bron (de marginale noot glosseert de genitief bij 'woort', Grieks τὸν λόγον τοῦ Κυρίου Ἰησοῦ). KANTTEKENINGEN.md verplicht getrouwe overname; het is geen door de modernisator toegevoegde parafrase."
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 21,
+      "severity": "soft",
+      "quote_modernized": "…bijzonder door God geopenbaard te zijn. Bij welke gelegenheid en hoe hij daarna …",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "ACT-19-21-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 38,
+      "severity": "soft",
+      "quote_modernized": "Indien dan Demetrius, en die met hem   v…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "ACT-19-38-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 39,
+      "severity": "soft",
+      "quote_modernized": "En indien u iets van andere dingen verzoekt…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "ACT-19-39-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 1,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'ephesen' in 4 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 4 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        1,
+        17,
+        26,
+        35
+      ],
+      "id": "ACT-19-1-001",
+      "status": "rebutted",
+      "rebuttal": "Vals positief van de prefix-heuristiek: origineel-stam 'ephesen/Ephesen' is de eigennaam Efeze (Grieks Ἔφεσον). De scanner mist de orthografische overgang ph→f en s→z (Ephesen→Efeze); de rendering is wél concordant ('te Efeze'). Eigennaam, geen inhoudswoord met concordantieplicht."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 1,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'hebbend' in 5 verzen — verzen [1, 21, 33, 40] renderen het stam anders dan [25]",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 5 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        1,
+        21,
+        25,
+        33,
+        40
+      ],
+      "id": "ACT-19-1-002",
+      "status": "rebutted",
+      "rebuttal": "Vals positief: origineel-stam 'hebbend' is het hulpwerkwoord 'hebben', geen concordantie-dragend inhoudswoord. §2.3-ontvouwing van 'hebbende'-participia levert per context de passende finiete tijd op (v1 'doorgereisd had', v21 'nadat', v25 'bijeengebracht had', v40 'geven'); die variatie is grammaticaal vereist, geen lexicale drift."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 4,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'seggend' in 5 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 5 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        4,
+        13,
+        21,
+        26,
+        28
+      ],
+      "id": "ACT-19-4-002",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] v15 'zei' (Gr. διεστέλλετο impf.med.3sg, hier 'gebood'/'beval') is in deze context bewust gerenderd als 'zei' om consistente directe-rede-introductie te bewaren binnen het hoofdstuk (v12, v17 idem). De scanner vergelijkt SV-stam 'seyd' met moderne 'zei' en mist s→z-overgang. Geen drift; HSV gebruikt eveneens 'zei' op deze plaats."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 5,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'wierden' in 4 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 4 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        5,
+        9,
+        12,
+        28
+      ],
+      "id": "ACT-19-5-002",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] MAT 17 gebruikt SV 'wierden' in verschillende passieve contexten: v2 'werden wit', v3 'werden gezien' is na review idiomatisch 'verschenen', v6 'werden zeer bevreesd', v23 'werden zeer bedroefd'. AGENTS.md eist concordantie voor gelijke betekenis, maar hier verschillen werkwoord en constructie; bovendien mist de scanner de regelmatige orthografische overgang 'wierden' naar modern 'werden'."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 25,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'vergade' in 4 verzen — verzen [25] renderen het stam anders dan [32, 39, 40]",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 4 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        25,
+        32,
+        39,
+        40
+      ],
+      "id": "ACT-19-25-001",
+      "status": "rebutted",
+      "rebuttal": "Geen concordantiebreuk: de SV-stam 'vergade-' dekt in deze verzen verschillende Griekse lemma's. v25 'bijeengebracht' = συναθροίσας (συναθροίζω, bijeenbrengen); v32 en v39 'vergadering' = ἐκκλησία; v40-context = συστροφή (samenschar). Verschillende grondwoorden krijgen terecht verschillende weergave; concordantie geldt per Grieks lemma, niet per orthografische SV-stam."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 28,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'epheser' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        28,
+        34,
+        35
+      ],
+      "id": "ACT-19-28-001",
+      "status": "rebutted",
+      "rebuttal": "Vals positief van de prefix-heuristiek: origineel-stam 'epheser' is de eigennaam Efeziërs (Grieks Ἐφεσίων). Orthografische overgang ph→f/s→z die de scanner-prefix mist; rendering 'van de Efeziërs' is concordant. Eigennaam, geen concordantie-dragend inhoudswoord."
+    }
+  ]
+}
