@@ -279,3 +279,33 @@ Red bracht 7 punt(en). Verdicts: red_wins=4, green_wins=0, rule_change=3.
 - **[RG13-007] (consistentie)** en Johannes insgelijks om dit voor de gemeente van Christus wege te betuigen
   - regel: modernisatie.md §2.7 / kanttekening-luiheid: gesplitste fossiele constructie 'van ... wege' half blijven staan als 'Christus wege' (= namens Christus).; fix: 'om dit voor de gemeente van Christus wege te betuigen' → 'om dit namens Christus aan de gemeente te betuigen'.
   - verdict: **red_wins** (scope=verse, applied=True) — Half-gemoderniseerde fossiele SV-constructie 'van ... wege(n)' (= namens). Bronvorm REV 19:10: 'voor de gemeynte van Christi wegen te betuygen'. Residu 'van Christus wege' is ongrammaticaal modern NL.
+
+## Ronde 14 — MAT + ROM  (2026-06-07T18:36:36.412332+00:00)
+Red bracht 9 punt(en). Verdicts: red_wins=9, green_wins=0, rule_change=0.
+- **[RG14-001] (modernisatie)** schudt, wanneer u uit dat huis of uit die stad vertrekt, $Hd. 13:51; 18:6$ het stof van uw voeten af
+  - regel: ARCHAISMEN.md: imperatief-meervoud op `-t`; MODERNISATIE.md §2.7; fix: schud, wanneer u uit dat huis of uit die stad vertrekt, $Hd. 13:51; 18:6$ het stof van uw voeten af
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert; imperatief `schudt` valt onder bestaande imperatiefregel.
+- **[RG14-002] (modernisatie)** weest dan voorzichtig zoals de slangen
+  - regel: ARCHAISMEN.md: imperatief-meervoud op `-t`; MODERNISATIE.md §2.7; fix: wees dan voorzichtig zoals de slangen
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert; `weest` is oude meervoudsimperatief onder bestaande regel.
+- **[RG14-003] (modernisatie)** weest dan niet <Niet dat wij ons van tevoren niet zouden mogen bedenken
+  - regel: ARCHAISMEN.md: imperatief-meervoud op `-t`; MODERNISATIE.md §2.7; fix: wees dan niet <Niet dat wij ons van tevoren niet zouden mogen bedenken
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert; `weest` blijft imperatief ondanks kanttekeninginlassing.
+- **[RG14-004] (modernisatie)** Maar toen Jezus [zulks] hoorde
+  - regel: ARCHAISMEN.md: `sulcks` / `zulks`; MODERNISATIE.md §2.7; AGENTS.md vierkante haken behouden, inhoud moderniseren; fix: Maar toen Jezus [dat] hoorde
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert; `zulks` binnen vierkante haken moet inhoudelijk gemoderniseerd worden.
+- **[RG14-005] (modernisatie)** de andere Maria, zittende tegenover het graf
+  - regel: MODERNISATIE.md §2.3; fix: de andere Maria zat tegenover het graf
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert; `zittende` is predicatief participium dat §2.3 laat ontvouwen.
+- **[RG14-006] (modernisatie)** En als God, [zijn] toorn willend bewijzen en zijn macht bekendmaken, met veel lankmoedigheid verdragen heeft de vaten va
+  - regel: MODERNISATIE.md §2.3 en §2.3b; fix: En als God, omdat hij [zijn] toorn wilde bewijzen en zijn macht bekendmaken, de vaten van de toorn met veel lankmoedigheid verdragen heeft
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert; finiet participium en latinaat nageschoven object vallen onder §2.3/§2.3b.
+- **[RG14-007] (modernisatie)** <Nam. om ons vandaar te halen de wil Gods over onze gerechtigheid en zaligheid.> Wie zal in de hemel opklimmen? <Namel. 
+  - regel: KANTTEKENINGEN.md §Standaard-vertalingen voor afkortingen; AGENTS.md kanttekening-conventies; fix: <Namelijk, om ons vandaar te halen de wil Gods over onze gerechtigheid en zaligheid.> ... <Namelijk, bij ons Christenen zoveel als of wij ontkenden ...>
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert; `Nam.` en `Namel.` moeten volgens bestaande kanttekeningregel worden uitgeschreven.
+- **[RG14-008] (modernisatie)** <Grieks: overhebbende, of uitnemende; dat is, overste macht hebbend
+  - regel: KANTTEKENINGEN.md §Geen SV-participia in kanttekeningen; MODERNISATIE.md §2.3; fix: <Grieks: boven staan, of uitsteken; dat is, overste macht hebben
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert; participia in Griekse kanttekeningglossen vallen onder bestaande kanttekeningregel.
+- **[RG14-009] (modernisatie)** aangezien ik weet dat u zulks metterdaad betoont
+  - regel: ARCHAISMEN.md: `sulcks` / `zulks`; MODERNISATIE.md §2.7; kanttekeningen tellen volwaardig mee; fix: aangezien ik weet dat u dit daadwerkelijk betoont
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert; kanttekening bevat drempelarchaïsmen die volgens bestaande regels modernisering vragen.

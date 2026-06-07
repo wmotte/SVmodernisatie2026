@@ -1,0 +1,265 @@
+{
+  "round_no": 14,
+  "books": [
+    "MAT",
+    "ROM"
+  ],
+  "red": [
+    {
+      "id": "RG14-001",
+      "class": "modernisatie",
+      "books": [
+        "MAT"
+      ],
+      "chapter": 10,
+      "verse": 14,
+      "quote": "schudt, wanneer u uit dat huis of uit die stad vertrekt, $Hd. 13:51; 18:6$ het stof van uw voeten af",
+      "in_kanttekening": false,
+      "rule_reference": "ARCHAISMEN.md: imperatief-meervoud op `-t`; MODERNISATIE.md §2.7",
+      "explanation": "De SV-gebiedende wijs op `-t` is blijven staan. In modern Nederlands is de imperatiefvorm hier `schud`, niet `schudt`.",
+      "proposed_fix": "schud, wanneer u uit dat huis of uit die stad vertrekt, $Hd. 13:51; 18:6$ het stof van uw voeten af",
+      "severity": "hard"
+    },
+    {
+      "id": "RG14-002",
+      "class": "modernisatie",
+      "books": [
+        "MAT"
+      ],
+      "chapter": 10,
+      "verse": 16,
+      "quote": "weest dan voorzichtig zoals de slangen",
+      "in_kanttekening": false,
+      "rule_reference": "ARCHAISMEN.md: imperatief-meervoud op `-t`; MODERNISATIE.md §2.7",
+      "explanation": "`weest` is de oude meervoudsimperatief en valt onder de expliciete imperatiefregel.",
+      "proposed_fix": "wees dan voorzichtig zoals de slangen",
+      "severity": "hard"
+    },
+    {
+      "id": "RG14-003",
+      "class": "modernisatie",
+      "books": [
+        "MAT"
+      ],
+      "chapter": 10,
+      "verse": 19,
+      "quote": "weest dan niet <Niet dat wij ons van tevoren niet zouden mogen bedenken",
+      "in_kanttekening": false,
+      "rule_reference": "ARCHAISMEN.md: imperatief-meervoud op `-t`; MODERNISATIE.md §2.7",
+      "explanation": "Ook hier staat de oude imperatief `weest` in de hoofdtekst.",
+      "proposed_fix": "wees dan niet <Niet dat wij ons van tevoren niet zouden mogen bedenken",
+      "severity": "hard"
+    },
+    {
+      "id": "RG14-004",
+      "class": "modernisatie",
+      "books": [
+        "MAT"
+      ],
+      "chapter": 9,
+      "verse": 12,
+      "quote": "Maar toen Jezus [zulks] hoorde",
+      "in_kanttekening": false,
+      "rule_reference": "ARCHAISMEN.md: `sulcks` / `zulks`; MODERNISATIE.md §2.7; AGENTS.md vierkante haken behouden, inhoud moderniseren",
+      "explanation": "`zulks` is een drempelarchaïsme en staat zelfs binnen een SV-toevoeging tussen vierkante haken; de haken moeten blijven, maar de inhoud moet modern Nederlands zijn.",
+      "proposed_fix": "Maar toen Jezus [dat] hoorde",
+      "severity": "hard"
+    },
+    {
+      "id": "RG14-005",
+      "class": "modernisatie",
+      "books": [
+        "MAT"
+      ],
+      "chapter": 27,
+      "verse": 61,
+      "quote": "de andere Maria, zittende tegenover het graf",
+      "in_kanttekening": false,
+      "rule_reference": "MODERNISATIE.md §2.3",
+      "explanation": "`zittende` is een SV-participium als finiete bijwoordelijke bepaling. §2.3 vraagt ontvouwing naar moderne syntaxis.",
+      "proposed_fix": "de andere Maria zat tegenover het graf",
+      "severity": "hard"
+    },
+    {
+      "id": "RG14-006",
+      "class": "modernisatie",
+      "books": [
+        "ROM"
+      ],
+      "chapter": 9,
+      "verse": 22,
+      "quote": "En als God, [zijn] toorn willend bewijzen en zijn macht bekendmaken, met veel lankmoedigheid verdragen heeft de vaten van de toorn",
+      "in_kanttekening": false,
+      "rule_reference": "MODERNISATIE.md §2.3 en §2.3b",
+      "explanation": "`willend bewijzen` is een finiet participium en `verdragen heeft de vaten` laat het object latinaat nageschoven staan.",
+      "proposed_fix": "En als God, omdat hij [zijn] toorn wilde bewijzen en zijn macht bekendmaken, de vaten van de toorn met veel lankmoedigheid verdragen heeft",
+      "severity": "hard"
+    },
+    {
+      "id": "RG14-007",
+      "class": "modernisatie",
+      "books": [
+        "ROM"
+      ],
+      "chapter": 10,
+      "verse": 6,
+      "quote": "<Nam. om ons vandaar te halen de wil Gods over onze gerechtigheid en zaligheid.> Wie zal in de hemel opklimmen? <Namel. bij ons Christenen zoveel als of wij ontkenden",
+      "in_kanttekening": true,
+      "rule_reference": "KANTTEKENINGEN.md §Standaard-vertalingen voor afkortingen; AGENTS.md kanttekening-conventies",
+      "explanation": "De kanttekening behoudt `Nam.` en `Namel.`; beide moeten volgens de standaardtabel worden uitgeschreven als `Namelijk,`.",
+      "proposed_fix": "<Namelijk, om ons vandaar te halen de wil Gods over onze gerechtigheid en zaligheid.> ... <Namelijk, bij ons Christenen zoveel als of wij ontkenden ...>",
+      "severity": "hard"
+    },
+    {
+      "id": "RG14-008",
+      "class": "modernisatie",
+      "books": [
+        "ROM"
+      ],
+      "chapter": 13,
+      "verse": 1,
+      "quote": "<Grieks: overhebbende, of uitnemende; dat is, overste macht hebbend",
+      "in_kanttekening": true,
+      "rule_reference": "KANTTEKENINGEN.md §Geen SV-participia in kanttekeningen; MODERNISATIE.md §2.3",
+      "explanation": "De Griekse glosse bevat SV-participia op `-ende`. Voor zulke glossen schrijft de kanttekeningregel een infinitief-lemma of moderne ontvouwing voor.",
+      "proposed_fix": "<Grieks: boven staan, of uitsteken; dat is, overste macht hebben",
+      "severity": "hard"
+    },
+    {
+      "id": "RG14-009",
+      "class": "modernisatie",
+      "books": [
+        "ROM"
+      ],
+      "chapter": 15,
+      "verse": 14,
+      "quote": "aangezien ik weet dat u zulks metterdaad betoont",
+      "in_kanttekening": true,
+      "rule_reference": "ARCHAISMEN.md: `sulcks` / `zulks`; MODERNISATIE.md §2.7; kanttekeningen tellen volwaardig mee",
+      "explanation": "De kanttekening houdt twee drempelarchaïsmen vast: `zulks` en `metterdaad`.",
+      "proposed_fix": "aangezien ik weet dat u dit daadwerkelijk betoont",
+      "severity": "hard"
+    }
+  ],
+  "green": [
+    {
+      "point_id": "RG14-001",
+      "stance": "concede",
+      "rebuttal": "Red heeft gelijk: in MAT 10:14 is `schudt` geen indicatief maar de gebiedende wijs bij `ἐκτινάξατε`. De archaïsmentabel schrijft voor dat SV-meervoudsimperatieven op `-t` naar de stam gaan; de moderne vorm is dus `schud`, terwijl de rest van de zin en de bijbelverwijzingen kunnen blijven staan.",
+      "evidence": "ARCHAISMEN.md imperatief-meervoud op `-t`; MAT 10:14 `ἐκτινάξατε`; quote hoofdtekst"
+    },
+    {
+      "point_id": "RG14-002",
+      "stance": "concede",
+      "rebuttal": "Red heeft gelijk: `weest dan voorzichtig` is de oude meervoudsimperatief van `zijn`. De Griekse vorm `γίνεσθε` is gebiedend, en de projectregel moderniseert zulke SV-imperatieven naar de stamvorm; hier is dat `wees dan voorzichtig`, niet `weest`.",
+      "evidence": "ARCHAISMEN.md imperatief-meervoud op `-t`; MAT 10:16 `γίνεσθε`; moderne imperatief `wees`"
+    },
+    {
+      "point_id": "RG14-003",
+      "stance": "concede",
+      "rebuttal": "Red heeft gelijk: de hoofdtekst van MAT 10:19 houdt `weest dan niet bezorgd` vast terwijl de constructie functioneel een verbod/gebiedende vorm weergeeft bij `μὴ μεριμνήσητε`. De kanttekening die direct na `niet` staat verandert de syntactische waarde van `weest` niet; modern moet dit `wees dan niet ... bezorgd` zijn.",
+      "evidence": "ARCHAISMEN.md imperatief-meervoud op `-t`; MAT 10:19 `μὴ μεριμνήσητε`; vers-specifieke inlassing van kanttekening"
+    },
+    {
+      "point_id": "RG14-004",
+      "stance": "concede",
+      "rebuttal": "Red heeft gelijk: AGENTS.md eist dat vierkante haken exact bewaard blijven, maar archaïsche inhoud binnen de haken wel gemoderniseerd wordt. In MAT 9:12 verwijst `[zulks]` terug naar het gehoorde feit bij `ἀκούσας`; `zulks` staat in de archaïsmentabel en leest hier modern als `[dat]`.",
+      "evidence": "AGENTS.md vierkante haken; ARCHAISMEN.md `sulcks`/`zulks`; MAT 9:12 `ἀκούσας`"
+    },
+    {
+      "point_id": "RG14-005",
+      "stance": "concede",
+      "rebuttal": "Red heeft gelijk: `zittende tegenover het graf` is in MAT 27:61 geen modern attributief participium maar een predicatieve bepaling bij Maria Magdalena en de andere Maria. De Griekse participiumvorm `καθήμεναι` draagt hier de finiete situatie van beide vrouwen; MODERNISATIE.md §2.3 vraagt dan ontvouwing naar `zaten tegenover het graf`.",
+      "evidence": "MODERNISATIE.md §2.3; MAT 27:61 `καθήμεναι`; predicatieve bepaling bij twee subjecten"
+    },
+    {
+      "point_id": "RG14-006",
+      "stance": "concede",
+      "rebuttal": "Red heeft gelijk op beide onderdelen. `willend bewijzen` is de letterlijke SV-weergave van `θέλων ... ἐνδείξασθαι` en functioneert in de Nederlandse zin als finiet participium, terwijl `verdragen heeft de vaten` het object van `ἤνεγκεν` latinaat achter het werkwoord laat staan. §2.3 en §2.3b dekken precies deze combinatie.",
+      "evidence": "MODERNISATIE.md §2.3 en §2.3b; ROM 9:22 `θέλων`, `ἐνδείξασθαι`, `ἤνεγκεν ... σκεύη`; nageschoven object"
+    },
+    {
+      "point_id": "RG14-007",
+      "stance": "concede",
+      "rebuttal": "Red heeft gelijk: in ROM 10:6 staan twee kanttekeningopeners nog als `Nam.` en `Namel.`. KANTTEKENINGEN.md geeft voor beide exact de standaardvorm `<Namelijk, ...>`; dit zijn geen Hebraïsme-markers of Griekse glossen waarvoor een uitzondering bestaat.",
+      "evidence": "KANTTEKENINGEN.md standaard-vertalingen; ROM 10:6 kanttekeningen `<Nam. ...>` en `<Namel. ...>`; geen uitzonderingstype"
+    },
+    {
+      "point_id": "RG14-008",
+      "stance": "concede",
+      "rebuttal": "Red heeft gelijk: de kanttekening bij ROM 13:1 geeft `ὑπερεχούσαις` met `overhebbende, of uitnemende` en vervolgt met `macht hebbend`. KANTTEKENINGEN.md verbiedt zulke SV-participia ook in `<Gr. ...>`-blokken; bij een glosse hoort een infinitief-lemma of moderne ontvouwing, dus `boven staan`, `uitsteken` en `macht hebben` passen beter.",
+      "evidence": "KANTTEKENINGEN.md Geen SV-participia in kanttekeningen; MODERNISATIE.md §2.3; ROM 13:1 `ὑπερεχούσαις`"
+    },
+    {
+      "point_id": "RG14-009",
+      "stance": "concede",
+      "rebuttal": "Red heeft gelijk: het betwiste fragment staat in een kanttekening, maar kanttekeningen tellen volwaardig mee voor drempelarchaïsmen. `zulks` staat expliciet in de archaïsmentabel, en `metterdaad` functioneert hier als archaïsch bijwoord voor feitelijk/daadwerkelijk bij het betonen van goedheid in ROM 15:14.",
+      "evidence": "ARCHAISMEN.md `sulcks`/`zulks`; MODERNISATIE.md §2.7; ROM 15:14 kanttekening bij `Πέπεισμαι`"
+    }
+  ],
+  "verdicts": [
+    {
+      "point_id": "RG14-001",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert; imperatief `schudt` valt onder bestaande imperatiefregel.",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG14-002",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert; `weest` is oude meervoudsimperatief onder bestaande regel.",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG14-003",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert; `weest` blijft imperatief ondanks kanttekeninginlassing.",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG14-004",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert; `zulks` binnen vierkante haken moet inhoudelijk gemoderniseerd worden.",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG14-005",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert; `zittende` is predicatief participium dat §2.3 laat ontvouwen.",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG14-006",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert; finiet participium en latinaat nageschoven object vallen onder §2.3/§2.3b.",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG14-007",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert; `Nam.` en `Namel.` moeten volgens bestaande kanttekeningregel worden uitgeschreven.",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG14-008",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert; participia in Griekse kanttekeningglossen vallen onder bestaande kanttekeningregel.",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG14-009",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert; kanttekening bevat drempelarchaïsmen die volgens bestaande regels modernisering vragen.",
+      "scope": "verse",
+      "applied": true
+    }
+  ]
+}
