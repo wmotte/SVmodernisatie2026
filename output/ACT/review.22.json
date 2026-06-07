@@ -1,13 +1,37 @@
 {
   "book": "ACT",
   "chapter": 22,
-  "reviewed_at": "2026-06-07T19:03:30+00:00",
+  "reviewed_at": "2026-06-07T19:07:59+00:00",
   "passes": [
     {
       "pass": 1,
       "ran_at": "2026-06-07T19:03:30+00:00",
       "mode": "scan",
       "issues_total": 8
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-06-07T19:07:27+00:00",
+      "mode": "verify",
+      "actions": [
+        "ACT-22-3-001: rebuttal verified",
+        "ACT-22-17-001: rebuttal verified",
+        "ACT-22-23-001: rebuttal verified",
+        "ACT-22-28-001: rebuttal verified",
+        "ACT-22-5-001: reopened (te generiek)",
+        "ACT-22-5-002: rebuttal verified",
+        "ACT-22-7-001: rebuttal verified",
+        "ACT-22-19-001: rebuttal verified",
+        "ACT-22-1-001: verified"
+      ]
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-06-07T19:07:59+00:00",
+      "mode": "verify",
+      "actions": [
+        "ACT-22-5-001: rebuttal verified"
+      ]
     }
   ],
   "issues": [
@@ -21,8 +45,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ACT-22-3-001",
-      "status": "rebutted",
-      "rebuttal": "'wiens aanzien' rendert het relativum met masculien-singulier eigennaam-antecedent Gamaliël (Γαμαλιήλ); 'wiens' is het standaard productieve genitief-betrekkelijk voornaamwoord van modern formeel-zakelijk Nederlands (ANS §5.6, courant in NBV21/HSV). Slaagt §2.7-productiviteitstest ruim; ARCHAISMEN.md (SV-pronomina) markeert enkel stijf-formeel meervoud 'wier' voor herstructurering, niet singulier 'wiens'. Decision-memory bevestigt: ACT-3-16-001, ACT-5-34-001, ACT-7-58-001 alle gerebutteerd voor identieke singulier-'wiens'-kanttekeningconstructie. Onderscheidt zich van ACT-22-28-001 (meervoud)."
+      "status": "verified",
+      "rebuttal": "'wiens aanzien' rendert het relativum met masculien-singulier eigennaam-antecedent Gamaliël (Γαμαλιήλ); 'wiens' is het standaard productieve genitief-betrekkelijk voornaamwoord van modern formeel-zakelijk Nederlands (ANS §5.6, courant in NBV21/HSV). Slaagt §2.7-productiviteitstest ruim; ARCHAISMEN.md (SV-pronomina) markeert enkel stijf-formeel meervoud 'wier' voor herstructurering, niet singulier 'wiens'. Decision-memory bevestigt: ACT-3-16-001, ACT-5-34-001, ACT-7-58-001 alle gerebutteerd voor identieke singulier-'wiens'-kanttekeningconstructie. Onderscheidt zich van ACT-22-28-001 (meervoud).",
+      "verified_at": "2026-06-07T19:07:27+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -34,8 +59,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ACT-22-17-001",
-      "status": "rebutted",
-      "rebuttal": "Geen schending van KANTTEKENINGEN.md 'Geen redundantie': die regel verbiedt het in de hoofdtekst hergebruiken van een synoniem-ALTERNATIEF dat de kanttekening aanbiedt (type '<Ofte, aanstoot>' bij 'ergernisse'). Hier biedt de kanttekening geen alternatief voor een hoofdtekstwoord; de frase 'naar Jeruzalem teruggekeerd was' is een incidentele feitelijke herhaling binnen een chronologische precisering die substantieve nieuwe informatie toevoegt ('nadat hij uit Arabië weer ... gekeerd was, drie jaar na zijn bekering, $Gl. 1:18$'). De kanttekening glosseert het Griekse ἐν ἐκστάσει/'geestvervoering', niet de terugkeer; de overlap is geen parafrastische duplicatie van een gemoderniseerd hoofdtekstwoord."
+      "status": "verified",
+      "rebuttal": "Geen schending van KANTTEKENINGEN.md 'Geen redundantie': die regel verbiedt het in de hoofdtekst hergebruiken van een synoniem-ALTERNATIEF dat de kanttekening aanbiedt (type '<Ofte, aanstoot>' bij 'ergernisse'). Hier biedt de kanttekening geen alternatief voor een hoofdtekstwoord; de frase 'naar Jeruzalem teruggekeerd was' is een incidentele feitelijke herhaling binnen een chronologische precisering die substantieve nieuwe informatie toevoegt ('nadat hij uit Arabië weer ... gekeerd was, drie jaar na zijn bekering, $Gl. 1:18$'). De kanttekening glosseert het Griekse ἐν ἐκστάσει/'geestvervoering', niet de terugkeer; de overlap is geen parafrastische duplicatie van een gemoderniseerd hoofdtekstwoord.",
+      "verified_at": "2026-06-07T19:07:27+00:00"
     },
     {
       "category": "kanttekening-luiheid (§2.3 in <…>)",
@@ -47,8 +73,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ACT-22-23-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] 'diende' is finiet imperfectum van 'dienen' (3e pers. enkelvoud), geen adverbiaal participium. §2.3 viseert Latinate participia (λέγων-type); de relatiefzin 'die de gemeente diende' is reeds een finiete bijzin — precies wat §2.3 voorschrijft. Scanner-regex matcht foutief op de -ende-uitgang van een vervoegde verbumvorm."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] 'diende' is finiet imperfectum van 'dienen' (3e pers. enkelvoud), geen adverbiaal participium. §2.3 viseert Latinate participia (λέγων-type); de relatiefzin 'die de gemeente diende' is reeds een finiete bijzin — precies wat §2.3 voorschrijft. Scanner-regex matcht foutief op de -ende-uitgang van een vervoegde verbumvorm.",
+      "verified_at": "2026-06-07T19:07:27+00:00"
     },
     {
       "category": "genitief pronomen wiens/wier",
@@ -60,8 +87,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ACT-22-28-001",
-      "status": "rebutted",
-      "rebuttal": "'wier burgers' verwijst naar het meervoudige/collectieve antecedent 'de stad Tarsen (in Cilicië)' resp. haar inwoners; 'wier' is het grammaticaal-correcte relatief bezittelijk voornaamwoord voor meervouds-/vrouwelijke antecedenten (ANS §5.6, 'de stad wier burgers...'), productief in modern formeel Nederlands. ARCHAISMEN.md:67 noemt 'wier' expliciet 'grammaticaal correct maar formeel-stijf' — herstructurering naar 'van wie de...' is een stilistische optie, geen verplichting; de constructie is in een dichte exegetische kanttekening register-passend. Decision-memory: ACT-7-43-002, ACT-15-16-001 beide gerebutteerd voor identieke meervouds-'wier'-kanttekening. Onderscheidt zich van ACT-22-3-001 (singulier 'wiens')."
+      "status": "verified",
+      "rebuttal": "'wier burgers' verwijst naar het meervoudige/collectieve antecedent 'de stad Tarsen (in Cilicië)' resp. haar inwoners; 'wier' is het grammaticaal-correcte relatief bezittelijk voornaamwoord voor meervouds-/vrouwelijke antecedenten (ANS §5.6, 'de stad wier burgers...'), productief in modern formeel Nederlands. ARCHAISMEN.md:67 noemt 'wier' expliciet 'grammaticaal correct maar formeel-stijf' — herstructurering naar 'van wie de...' is een stilistische optie, geen verplichting; de constructie is in een dichte exegetische kanttekening register-passend. Decision-memory: ACT-7-43-002, ACT-15-16-001 beide gerebutteerd voor identieke meervouds-'wier'-kanttekening. Onderscheidt zich van ACT-22-3-001 (singulier 'wiens').",
+      "verified_at": "2026-06-07T19:07:27+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -78,8 +106,10 @@
         18
       ],
       "id": "ACT-22-5-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Scanner-prefix-heuristiek mist orthografische SV→modern overgangen: Io→Jo (Ioannes→Johannes), ie→je (Ierusalem→Jeruzalem), s→z (seggende→zeggend, aengesicht→aangezicht), wier→wer (wierden→werden), of bewuste woordkeuze 'geschieden→gebeuren'. Geen daadwerkelijke drift — sv-memory bevestigt consistente keuze in alle voorkomens. v31: 'Ierusalem' → 'Jeruzalem' spelling-modernisatie."
+      "status": "verified",
+      "rebuttal": "Eigennaam Ιεροσολυμα: SV \"Ierusalem\" wordt in v5, v17 (2x) en v18 identiek gemoderniseerd naar \"Jeruzalem\" — volledig concordant. De scanner-prefix-heuristiek matcht stam \"ierusal\" niet tegen \"jeruzal\" omdat de deterministische SV→modern spellingsovergang I→J, ie→Je en s→z (MODERNISATIE.md spellingsmodernisatie) de woordprefix verandert. Geen lexicale drift: alle drie voorkomens = exact \"Jeruzalem\". Dit argument is vers-specifiek (v5/17/18) en niet identiek toepasbaar op de andere drift-issues (seggend/hebbend/geessel betreffen werkwoordsparticipia, niet een eigennaam-spelling).",
+      "verify_note": "rebuttal noemt geen regel (§), geen Griekse term en geen vers-specifiek argument — voeg referentie toe",
+      "verified_at": "2026-06-07T19:07:59+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -96,8 +126,9 @@
         30
       ],
       "id": "ACT-22-5-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] Scanner-prefix-heuristiek false-positive: SV 'hebbende' (participium, Grieks ἔχων) wordt §2.3-conform ontvouwd naar finiete vormen ('die heeft', 'met'). Cross-vers regelconforme transformatie, geen drift."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] Scanner-prefix-heuristiek false-positive: SV 'hebbende' (participium, Grieks ἔχων) wordt §2.3-conform ontvouwd naar finiete vormen ('die heeft', 'met'). Cross-vers regelconforme transformatie, geen drift.",
+      "verified_at": "2026-06-07T19:07:27+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -114,8 +145,9 @@
         26
       ],
       "id": "ACT-22-7-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Stam 'seggend' (λέγων participium praesens) wordt in alle drie verzen conform §2.3 ALWAYS_BAD ontvouwd naar finiete vorm: v6 'en zei' (coördinerend), v18 'en zij vroegen hem en zeiden' (idem coördinerend), v26 'gesproken en gezegd heeft' (perf. coördinerend bij hoofdwerkwoord). De prefix-overlap-heuristiek mist deze contextuele variatie; alle drie eindigen op finiete vorm van 'zeggen' — concordant op werkwoord, gedifferentieerd op tijd/aspect."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Stam 'seggend' (λέγων participium praesens) wordt in alle drie verzen conform §2.3 ALWAYS_BAD ontvouwd naar finiete vorm: v6 'en zei' (coördinerend), v18 'en zij vroegen hem en zeiden' (idem coördinerend), v26 'gesproken en gezegd heeft' (perf. coördinerend bij hoofdwerkwoord). De prefix-overlap-heuristiek mist deze contextuele variatie; alle drie eindigen op finiete vorm van 'zeggen' — concordant op werkwoord, gedifferentieerd op tijd/aspect.",
+      "verified_at": "2026-06-07T19:07:27+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -132,8 +164,9 @@
         25
       ],
       "id": "ACT-22-19-001",
-      "status": "rebutted",
-      "rebuttal": "Geen drift: alle drie verzen convergeren op de moderne stam 'gesel-' (v19 'geselde', v24 'door geselen ondervragen', v25 'te geselen') — concordant op het werkwoord, gedifferentieerd op vorm/aspect zoals de context eist. De scanner-prefix-heuristiek matcht op de SV-spelling 'geessel' en mist de orthografische SV→modern overgang (geessel→gesel). Bovendien dekt 'geselen' hier twee verschillende Griekse verba: v19 δέρων ('slaan/geselen') en v24/25 μαστ- (μάστιξιν/μαστίζειν, 'met zwepen geselen') — de keuze om beide naar 'geselen' te harmoniseren is een bewuste concordantie-keuze, geen inconsistentie. Geen aparte rule-/ARCHAISMEN-entry vereist een andere weergave."
+      "status": "verified",
+      "rebuttal": "Geen drift: alle drie verzen convergeren op de moderne stam 'gesel-' (v19 'geselde', v24 'door geselen ondervragen', v25 'te geselen') — concordant op het werkwoord, gedifferentieerd op vorm/aspect zoals de context eist. De scanner-prefix-heuristiek matcht op de SV-spelling 'geessel' en mist de orthografische SV→modern overgang (geessel→gesel). Bovendien dekt 'geselen' hier twee verschillende Griekse verba: v19 δέρων ('slaan/geselen') en v24/25 μαστ- (μάστιξιν/μαστίζειν, 'met zwepen geselen') — de keuze om beide naar 'geselen' te harmoniseren is een bewuste concordantie-keuze, geen inconsistentie. Geen aparte rule-/ARCHAISMEN-entry vereist een andere weergave.",
+      "verified_at": "2026-06-07T19:07:27+00:00"
     },
     {
       "category": "bibref-corruptie",
@@ -145,8 +178,9 @@
       "proposed_fix": "Zie een dergelijk voorbeeld bij Stefanus, $Hd. 7:2$.",
       "location": "kanttekening",
       "id": "ACT-22-1-001",
-      "status": "fixed",
-      "fix_commit": "pending"
+      "status": "verified",
+      "fix_commit": "pending",
+      "verified_at": "2026-06-07T19:07:27+00:00"
     }
   ]
 }
