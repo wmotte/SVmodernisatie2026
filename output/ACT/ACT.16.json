@@ -340,6 +340,46 @@
       "generated_at": "2026-06-07T06:20:49.048446Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 37,
+      "original": "Maer Paulus seyde <Namelick, tot de stadts dienaers.> tot haer, Sy hebben ons <Gr. Romeynsche menschen, D. hebbende ’t recht van de burgers van Roomen, die men niet en mocht geesselen. siet Actor. 22.25. ende Val. Max. lib. 4. cap. 1.> die Romeynen zijn, <D. niet alleen sonder schult, maer oock sonder eenige forme van rechtvoorderinge.> onveroordeelt in ’t openbaer gegeesselt, ende in de gevangenisse geworpen, ende werpense ons nu heymelick daer uyt? <Namelick, sal het toegaen.> Niet alsoo: maer datse selve komen, ende ons uytleyden.",
+      "modernized": "Maar Paulus zei <Namelijk, tot de stadsdienaars.> tot hen: Zij hebben ons <Grieks: Romeinse mensen, dat is: zij die het recht van de burgers van Rome hebben, die men niet mocht geselen. Zie $Hd. 22:25$. en Val. Max. lib. 4. cap. 1.> die Romeinen zijn, <Dat is, niet alleen zonder schuld, maar ook zonder enige vorm van rechtsvordering.> onveroordeeld in het openbaar gegeseld, en in de gevangenis geworpen, en werpen zij ons nu heimelijk daaruit? <Namelijk, zo zal het gaan.> Zo niet; maar laten zij zelf komen, en ons uitgeleiden.",
+      "source_text": "ὁ δὲ Παῦλος ἔφη πρὸς αὐτούς, Δείραντες ἡμᾶς δημοσίᾳ, ἀκατακρίτους, ἀνθρώπους Ῥωμαίους ὑπάρχοντας, ἔβαλον εἰς φυλακήν, καὶ νῦν λάθρα ἡμᾶς ἐκβάλλουσιν; οὐ γάρ· ἀλλὰ ἐλθόντες αὐτοὶ ἡμᾶς ἐξαγαγέτωσαν.",
+      "generated_at": "2026-06-07T06:24:54.001244Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "subject": "klassieke verwijzing",
+          "context": "kanttekening bij \"Romeinse mensen\"",
+          "choice": "Val. Max. lib. 4. cap. 1. ongewijzigd gelaten",
+          "alternatives": [
+            "normaliseren",
+            "weglaten"
+          ],
+          "reason": "Valerius Maximus is een klassieke (niet-bijbelse) bron; bibref normaliseert die terecht niet."
+        }
+      ]
+    },
+    {
+      "verse_number": 38,
+      "original": "Ende de stadts dienaers boodtschapten dese woorden wederom den Hooftmannen: ende sy wierden bevreest, <Ofte, om datse hoorden.> hoorende dat sy <Namel. diese tegen het recht van de burgeren van Romen hadden doen geesselen, vers 37.> Romeynen waren.",
+      "modernized": "En de stadsdienaars berichtten deze woorden weer aan de Hoofdmannen; en zij werden bevreesd <Of, omdat zij hoorden.> toen zij hoorden dat zij <Namelijk, zij die hen tegen het recht van de burgers van Rome hadden laten geselen, vers 37.> Romeinen waren.",
+      "source_text": "ἀνήγγειλαν δὲ τοῖς στρατηγοῖς οἱ ῥαβδοῦχοι τὰ ῥήματα ταῦτα· καὶ ἐφοβήθησαν ἀκούσαντες ὅτι Ῥωμαῖοί εἰσι,",
+      "generated_at": "2026-06-07T06:25:30.447284Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 39,
+      "original": "Ende sy komende baden haer, ende als syse uytgeleyt hadden $Matth. 8.34.$ begeerden sy, datse <Namelick, op dat tegen haer geen nieuw oproer en soude verweckt worden.> uyt de stadt gaen souden.",
+      "modernized": "En zij kwamen en smeekten hen, en toen zij hen uitgeleid hadden, $Mt. 8:34$ verzochten zij <Namelijk, opdat tegen hen geen nieuw oproer verwekt zou worden.> dat zij uit de stad zouden gaan.",
+      "source_text": "καὶ ἐλθόντες παρεκάλεσαν αὐτούς, καὶ ἐξαγαγόντες ἠρώτων ἐξελθεῖν τῆς πόλεως.",
+      "generated_at": "2026-06-07T06:26:05.727483Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
