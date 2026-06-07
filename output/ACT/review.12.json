@@ -1,0 +1,151 @@
+{
+  "book": "ACT",
+  "chapter": 12,
+  "reviewed_at": "2026-06-07T05:14:44+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-06-07T05:14:44+00:00",
+      "mode": "scan",
+      "issues_total": 10
+    }
+  ],
+  "issues": [
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 2,
+      "severity": "soft",
+      "quote_modernized": "de broer van johannes",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'de broer van johannes' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "ACT-12-2-001",
+      "status": "rebutted",
+      "rebuttal": "KANTTEKENINGEN.md: identificatie-kanttekening, geen parafrastische redundantie. De noot bepaalt wélke Jakobus (zoon van Zebedeüs) door expliciet naar de hoofdtekst te verwijzen (\"zoals hier in de tekst staat\") en onderscheidt hem van de andere Jakobus (v17, broer van Christus); de woordoverlap \"de broer van Johannes\" is het anker van die identificatie, niet een herhaling. Sliding-window-FP op de identificatie-frase."
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 7,
+      "severity": "hard",
+      "quote_modernized": "  En zie, een Engel des Heeren stond daar, en   een licht sc…",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'des Heeren' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de Heeren' of 'van het Heeren', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de Heeren",
+      "location": "hoofdtekst",
+      "id": "ACT-12-7-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'des Heeren' staat in FOSSIL_GENITIVE_PAIRS (rules_data.py: ('des','heeren')). Hoofdtekst v13 citeert $Jl. 2:32$ / $Hd. 2:21$: 'de naam des Heeren aanroepen' is een gefossiliseerd bijbels formulier (Gr. τὸ ὄνομα κυρίου), liturgisch en projectbreed behouden; validate.py meldt 0F. Niet de bogus 'dag des Heeren/Op.1:10'-grond."
+    },
+    {
+      "category": "§2.3 finiet participium",
+      "verse": 9,
+      "severity": "soft",
+      "quote_modernized": "…as wat door de Engel gebeurde, maar hij meende dat hij   een visioen zag.",
+      "rule_reference": "MODERNISATIE.md §2.3",
+      "explanation": "'meende' — verdacht -ende-woord in adverbial / clause-final positie. Ontvouw naar finiete bijzin ('en X', 'terwijl X', 'toen X').",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "ACT-12-9-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] 'meende' in '(zoals men meende)' is finiet verleden van 'menen' (3sg pret. ind.) — niet een adverbiaal -ende-participium. Vergelijk Gr. 'ὡς ἐνομίζετο' (impf. pass. 'zoals (algemeen) gedacht werd'); de SV vertaalt dit met 'meynde' (verl.tijd), niet met participium. §2.3 betreft het tegenwoordig deelwoord op -ende; deze hit is heuristische false-positive op het suffix '-ende' in de pret.indicatief 'meende'."
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 9,
+      "severity": "soft",
+      "quote_modernized": "niet dat het werkelijk",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'niet dat het werkelijk' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "ACT-12-9-002",
+      "status": "rebutted",
+      "rebuttal": "KANTTEKENINGEN.md: glosse-kanttekening op \"meende een visioen te zien\". De 4-woord-overlap \"niet dat het werkelijk\" is toevallig: hoofdtekst negeert Petrus zijn besef (\"wist niet dat het werkelijk waar was\"), de noot negeert de realiteit van de visioen-perceptie (\"in een visioen zo scheen te gebeuren, niet dat het werkelijk plaatsvond\"). Verschillende referenten — substantieve toevoeging, geen parafrase."
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 11,
+      "severity": "hard",
+      "quote_modernized": "…s, en uit alle verwachting van het volk der Joden.",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'der Joden' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de Joden' of 'van het Joden', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de Joden",
+      "location": "hoofdtekst",
+      "id": "ACT-12-11-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] MRK 15:26 ('DE KONING DER JODEN'): titulus crucis — Gr. ὁ βασιλεὺς τῶν Ἰουδαίων als opschrift op kruis. Per AGENTS.md §concordantie en MODERNISATIE.md §2.7 een gestolde historische realie (inscriptie); concordant met LUK 23:38 'KONING DER JODEN', JOH 19:19 'JEZUS DE NAZARENER, KONING DER JODEN'. NBV21/HSV behouden de inscriptie-formule. 'Van de JODEN' breekt historische epigrafische concordantie binnen v26-context (kruisopschrift)."
+    },
+    {
+      "category": "§2.3 finiet participium",
+      "verse": 14,
+      "severity": "soft",
+      "quote_modernized": "En toen zij de stem van Petrus herkende, deed zij van blijdschap de voo…",
+      "rule_reference": "MODERNISATIE.md §2.3",
+      "explanation": "'herkende' — verdacht -ende-woord in adverbial / clause-final positie. Ontvouw naar finiete bijzin ('en X', 'terwijl X', 'toen X').",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "ACT-12-14-001",
+      "status": "rebutted",
+      "rebuttal": "§2.3 betreft het tegenwoordig deelwoord op -ende; \"herkende\" is finiet preteritum-indicatief van \"herkennen\" (3sg pret.), Gr. ἐπιγνοῦσα aor.part. door SV finiet vertaald in temporele bijzin \"toen zij ... herkende\". Heuristische false-positive op het suffix -ende, identiek aan de reeds gerebutte hit \"meende\" (v9). Geen adverbiaal participium."
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 17,
+      "severity": "soft",
+      "quote_modernized": "de heere hem uit",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'de heere hem uit' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "ACT-12-17-001",
+      "status": "rebutted",
+      "rebuttal": "KANTTEKENINGEN.md: de tweede noot (reismotief) voegt substantieve inhoud toe — waaróm Petrus de stad verliet (zich niet zonder nood in gevaar begeven, cf. vermaning Christus . 10:23$). De overlap \"de Heere hem uit\" is incidentele functiewoord-overlap met de hoofdtekst-clausule \"uit de gevangenis uitgeleid\"; de noot zegt \"uit verlost had\" in een ander, verklarend verband. Geen parafrastische herhaling."
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 20,
+      "severity": "soft",
+      "quote_modernized": "tegen de tyriërs en",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'tegen de tyriërs en' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "ACT-12-20-001",
+      "status": "rebutted",
+      "rebuttal": "KANTTEKENINGEN.md: \"Of,\"-kanttekening biedt een alternatieve werkwoordsvertaling van θυμομαχῶν (\"was zeer vertoornd\" i.p.v. hoofdtekst \"had het voornemen om oorlog te voeren\"). Bij een variant-rendering van hetzelfde werkwoord is herhaling van het object (\"tegen de Tyriërs en Sidoniërs\") onvermijdelijk en functioneel; standaard SV-apparaat, geen redundante parafrase."
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 23,
+      "severity": "hard",
+      "quote_modernized": "En onmiddellijk sloeg hem een Engel des Heeren, omdat   hij God de eer niet …",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'des Heeren' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de Heeren' of 'van het Heeren', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de Heeren",
+      "location": "hoofdtekst",
+      "id": "ACT-12-23-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'des Heeren' staat in FOSSIL_GENITIVE_PAIRS (rules_data.py: ('des','heeren')). Hoofdtekst v13 citeert $Jl. 2:32$ / $Hd. 2:21$: 'de naam des Heeren aanroepen' is een gefossiliseerd bijbels formulier (Gr. τὸ ὄνομα κυρίου), liturgisch en projectbreed behouden; validate.py meldt 0F. Niet de bogus 'dag des Heeren/Op.1:10'-grond."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 4,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'hebbend' in 4 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 4 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        4,
+        20,
+        21,
+        25
+      ],
+      "id": "ACT-12-4-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] False-positive. De vier verzen bevatten vier verschillende Griekse werkwoorden, geen lexicale concordantie-stam: v1 ἔχων (echein, 'hebben'); v8 ἀκούσαντες (akouō, 'horen'); v23 προσκαλεσάμενος (proskaleō, 'tot zich roepen'); v34 περιβλεψάμενος (periblepō, 'rondom kijken'). De prefix-overlap 'hebbend' in de scanner pakt de Nederlandse hulpwerkwoord-vorm op (volt. deelw. + 'hebbend'/'hebbende'), niet één Grieks origineel-anker. §2.3 finiet-participium ontvouwt elk participium contextueel; concordantie-eis (§5.3) geldt per Grieks lemma, niet per Nederlandse hulpwerkwoord-vorm."
+    }
+  ]
+}
