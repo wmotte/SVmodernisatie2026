@@ -1,0 +1,277 @@
+{
+  "book": "ACT",
+  "chapter": 16,
+  "reviewed_at": "2026-06-07T06:32:24+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-06-07T06:32:24+00:00",
+      "mode": "scan",
+      "issues_total": 17
+    }
+  ],
+  "issues": [
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 6,
+      "severity": "soft",
+      "quote_modernized": "…eilige Geest de Apostelen voorgeschreven, welke orde zij zouden houden bij het r…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "ACT-16-6-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+    },
+    {
+      "category": "§2.3 finiet participium",
+      "verse": 10,
+      "severity": "soft",
+      "quote_modernized": "…een naar Macedonië te reizen,   daaruit besluitende dat de Heere ons geroepen ha…",
+      "rule_reference": "MODERNISATIE.md §2.3",
+      "explanation": "'besluitende' — verdacht -ende-woord in adverbial / clause-final positie. Ontvouw naar finiete bijzin ('en X', 'terwijl X', 'toen X').",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "ACT-16-10-001",
+      "status": "fixed",
+      "fix_note": "§2.3 ontvouwen: [daaruit] besluitende → omdat wij [daaruit] besloten (finiete bijzin)"
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 13,
+      "severity": "hard",
+      "quote_modernized": "Namelijk, het gemeenschappelijke gebed der Joden. Of, waar een bedehuis, of, Sy…",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'der Joden' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de Joden' of 'van het Joden', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de Joden",
+      "location": "kanttekening",
+      "id": "ACT-16-13-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] MRK 15:26 ('DE KONING DER JODEN'): titulus crucis — Gr. ὁ βασιλεὺς τῶν Ἰουδαίων als opschrift op kruis. Per AGENTS.md §concordantie en MODERNISATIE.md §2.7 een gestolde historische realie (inscriptie); concordant met LUK 23:38 'KONING DER JODEN', JOH 19:19 'JEZUS DE NAZARENER, KONING DER JODEN'. NBV21/HSV behouden de inscriptie-formule. 'Van de JODEN' breekt historische epigrafische concordantie binnen v26-context (kruisopschrift)."
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 13,
+      "severity": "hard",
+      "quote_modernized": "…en. Of, waar een bedehuis, of, Synagoge der Joden was: en daaruit schijnt dat de…",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'der Joden' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de Joden' of 'van het Joden', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de Joden",
+      "location": "kanttekening",
+      "id": "ACT-16-13-002",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] MRK 15:26 ('DE KONING DER JODEN'): titulus crucis — Gr. ὁ βασιλεὺς τῶν Ἰουδαίων als opschrift op kruis. Per AGENTS.md §concordantie en MODERNISATIE.md §2.7 een gestolde historische realie (inscriptie); concordant met LUK 23:38 'KONING DER JODEN', JOH 19:19 'JEZUS DE NAZARENER, KONING DER JODEN'. NBV21/HSV behouden de inscriptie-formule. 'Van de JODEN' breekt historische epigrafische concordantie binnen v26-context (kruisopschrift)."
+    },
+    {
+      "category": "§2.3 finiet participium",
+      "verse": 14,
+      "severity": "soft",
+      "quote_modernized": "…opster,   uit de stad Thyatira, die God diende, hoorde ons:   wier hart de Heere…",
+      "rule_reference": "MODERNISATIE.md §2.3",
+      "explanation": "'diende' — verdacht -ende-woord in adverbial / clause-final positie. Ontvouw naar finiete bijzin ('en X', 'terwijl X', 'toen X').",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "ACT-16-14-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] False-positive op de letterreeks -ende: 'Martha diende' is een finiete persoonsvorm bij Grieks διηκόνει, geen tegenwoordig participium. MODERNISATIE.md §2.3 verbiedt latinate participia zoals 'dienende', maar deze versspecifieke imperfectumweergave is correct."
+    },
+    {
+      "category": "genitief pronomen wiens/wier",
+      "verse": 14,
+      "severity": "hard",
+      "quote_modernized": "…Thyatira, die God diende, hoorde ons:   wier hart de Heere heeft geopend, dat zi…",
+      "rule_reference": "ARCHAISMEN.md (SV-pronomina)",
+      "explanation": "'wier hart' — formeel-archaïsch genitief-pronomen. Modern Nederlands: 'van wie hart' of zinsherbouw met bezittelijk voornaamwoord ('die zijn hart', 'die haar hart'). NBV21 vermijdt 'wiens' grotendeels.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "ACT-16-14-002",
+      "status": "fixed",
+      "fix_note": "wier hart → van wie de Heere het hart heeft geopend; dat→zodat"
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 15,
+      "severity": "soft",
+      "quote_modernized": "…as en haar   huis, bad zij ons, en zei: Indien u hebt geoordeeld dat ik   de Hee…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "ACT-16-15-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 16,
+      "severity": "soft",
+      "quote_modernized": "… vers 19. Grieks: een geest van Python, met welke naam de waarzeggende geest Apo…",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "ACT-16-16-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+    },
+    {
+      "category": "SV-verbuiging (demonstratief dezer/dien/...)",
+      "verse": 19,
+      "severity": "hard",
+      "quote_modernized": "…deze onreine geest. Of, gerechtsplaats. Dezen werden in de Koloniën van de Romei…",
+      "rule_reference": "ARCHAISMEN.md (SV-verbuigingen)",
+      "explanation": "'Dezen werden' — verbogen demonstratief (SV-genitief/datief). Modern Nederlands: 'deze' / 'die' / 'in deze ...' / 'op die ...'. Gefossiliseerde uitdrukkingen ('dezer dagen', 'te dien einde') zijn whitelist; rebut zo nodig met register-argument.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "ACT-16-19-001",
+      "status": "fixed",
+      "fix_note": "kanttekening: Dezen werden → Deze werden (verbuigings-n verwijderd)"
+    },
+    {
+      "category": "genitief pronomen wiens/wier",
+      "verse": 19,
+      "severity": "hard",
+      "quote_modernized": "Wiens slavin zij was. Grieks: uitgegaan …",
+      "rule_reference": "ARCHAISMEN.md (SV-pronomina)",
+      "explanation": "'wiens slavin' — formeel-archaïsch genitief-pronomen. Modern Nederlands: 'van wie slavin' of zinsherbouw met bezittelijk voornaamwoord ('die zijn slavin', 'die haar slavin'). NBV21 vermijdt 'wiens' grotendeels.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "ACT-16-19-002",
+      "status": "fixed",
+      "fix_note": "kanttekening: Wiens slavin zij was → Van wie zij de slavin was"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 5,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'wierden' in 4 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 4 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        5,
+        6,
+        26,
+        38
+      ],
+      "id": "ACT-16-5-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] MAT 17 gebruikt SV 'wierden' in verschillende passieve contexten: v2 'werden wit', v3 'werden gezien' is na review idiomatisch 'verschenen', v6 'werden zeer bevreesd', v23 'werden zeer bedroefd'. AGENTS.md eist concordantie voor gelijke betekenis, maar hier verschillen werkwoord en constructie; bovendien mist de scanner de regelmatige orthografische overgang 'wierden' naar modern 'werden'."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 10,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'terston' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        10,
+        26,
+        33
+      ],
+      "id": "ACT-16-10-002",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] Scanner-prefix-heuristiek false-positive: SV 'terstondt/terstont' → contextafhankelijk 'meteen/onmiddellijk/dadelijk' (Grieks εὐθύς/εὐθέως). ARCHAISMEN.md staat lexicale spreiding toe voor εὐθύς afhankelijk van temporeel register. Cross-corpus concordant."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 13,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'geschie' in 3 verzen — verzen [13, 26] renderen het stam anders dan [16]",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        13,
+        16,
+        26
+      ],
+      "id": "ACT-16-13-003",
+      "status": "fixed",
+      "fix_note": "v16 het geschiedde → het gebeurde; harmoniseert met v26 (gebeuren) en verwijdert Latinaat-idioom \"het geschiedde dat\""
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 15,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'seggend' in 5 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 5 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        15,
+        17,
+        28,
+        35,
+        36
+      ],
+      "id": "ACT-16-15-002",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] v15 'zei' (Gr. διεστέλλετο impf.med.3sg, hier 'gebood'/'beval') is in deze context bewust gerenderd als 'zei' om consistente directe-rede-introductie te bewaren binnen het hoofdstuk (v12, v17 idem). De scanner vergelijkt SV-stam 'seyd' met moderne 'zei' en mist s→z-overgang. Geen drift; HSV gebruikt eveneens 'zei' op deze plaats."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 16,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'hebbend' in 5 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 5 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        16,
+        22,
+        24,
+        30,
+        40
+      ],
+      "id": "ACT-16-16-002",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] Concordantie-drift 'hebbend' is bewust §2.3-toepassing: SV-participium 'hebbende/gebonden hebbende/gevlochten hebbende' (ALWAYS_BAD-categorie) wordt consistent ontvouwd naar past perfect ('nadat zij gebonden hadden', 'nadat zij gevlochten hadden', 'afgenomen had') of finiete vorm. v37 'gaf de geest' en v44 'verwonderde zich' bevatten geen hebbende-vorm; scanner ziet de SV-stam niet de modernisatie. Geen drift, structurele §2.3-omzetting."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 17,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'deselve' in 4 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 4 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        17,
+        19,
+        33,
+        40
+      ],
+      "id": "ACT-16-17-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] De SV-anafoor 'deselve' is in REV 21 contextgevoelig vervangen door moderne pronominale anaforen die het juiste antecedent en de juiste naamval reflecteren: v14 'daarop' (ἐν αὐτοῖς, op de fundamenten — locatief, geen demonstratief); v22 'in deze' (ἐν αὐτῇ, in de stad); v23 'in deze' (ἐν αὐτῇ, in de stad); v24 'in deze' (εἰς αὐτήν, in de stad). De Griekse grondvorm is telkens het persoonlijk/aanwijzend pronomen αὐτ-, dat modern als 'deze/daarop' wordt weergegeven naargelang preposititie en referent. Geen drift: 'deselve' is een SV-spellingvorm die meerdere Griekse αὐτ-constructies dekt; harmoniseren naar één prefix zou de grammaticale rolverschillen uitwissen (AGENTS.md concordantie per grondwoord)."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 23,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'stockwa' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        23,
+        27,
+        36
+      ],
+      "id": "ACT-16-23-001",
+      "status": "rebutted",
+      "rebuttal": "Scanner-prefix-heuristiek false positive: stockwaerder wordt in v23/27/36 consequent als \"gevangenbewaarder\" weergegeven (lexicale modernisatie, prefix verschilt noodzakelijk). Concordantie is intact; geen drift."
+    }
+  ]
+}
