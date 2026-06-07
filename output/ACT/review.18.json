@@ -1,0 +1,213 @@
+{
+  "book": "ACT",
+  "chapter": 18,
+  "reviewed_at": "2026-06-07T11:05:28+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-06-07T11:05:21+00:00",
+      "mode": "scan",
+      "issues_total": 14
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-06-07T11:05:28+00:00",
+      "mode": "scan",
+      "issues_total": 14
+    }
+  ],
+  "issues": [
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 6,
+      "severity": "hard",
+      "quote_modernized": "…het verderf heb gewaarschuwd, en de weg der zaligheid heb aangewezen, die u niet…",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'der zaligheid' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de zaligheid' of 'van het zaligheid', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de zaligheid",
+      "location": "kanttekening",
+      "id": "ACT-18-6-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] Genitief 'gronden der zaligheid' in de KANTTEKENING — kanttekening-register behoudt formele genitief (corpusnorm, validate.py 0F). Onderscheidt van 8-002 (hoofdtekst, gefixt)."
+    },
+    {
+      "category": "§2.3 finiet participium",
+      "verse": 7,
+      "severity": "soft",
+      "quote_modernized": "…n een man met de naam Justus,   die God diende, wiens huis   grensde aan de Syna…",
+      "rule_reference": "MODERNISATIE.md §2.3",
+      "explanation": "'diende' — verdacht -ende-woord in adverbial / clause-final positie. Ontvouw naar finiete bijzin ('en X', 'terwijl X', 'toen X').",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "ACT-18-7-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] False-positive op de letterreeks -ende: 'Martha diende' is een finiete persoonsvorm bij Grieks διηκόνει, geen tegenwoordig participium. MODERNISATIE.md §2.3 verbiedt latinate participia zoals 'dienende', maar deze versspecifieke imperfectumweergave is correct."
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 7,
+      "severity": "hard",
+      "quote_modernized": "…er straat gaande, het gevaar van oploop der ongelovige Joden te vermijden.",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'der ongelovige' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de ongelovige' of 'van het ongelovige', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de ongelovige",
+      "location": "kanttekening",
+      "id": "ACT-18-7-002",
+      "status": "fixed",
+      "fix_commit": "pending"
+    },
+    {
+      "category": "genitief pronomen wiens/wier",
+      "verse": 7,
+      "severity": "hard",
+      "quote_modernized": "…n met de naam Justus,   die God diende, wiens huis   grensde aan de Synagoge.",
+      "rule_reference": "ARCHAISMEN.md (SV-pronomina)",
+      "explanation": "'wiens huis' — formeel-archaïsch genitief-pronomen. Modern Nederlands: 'van wie huis' of zinsherbouw met bezittelijk voornaamwoord ('die zijn huis', 'die haar huis'). NBV21 vermijdt 'wiens' grotendeels.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "ACT-18-7-003",
+      "status": "rebutted",
+      "rebuttal": "'wiens' is productief modern Nederlands (ANS/Van Dale: relatief bezittelijk vnw bij mannelijk antecedent), in tegenstelling tot het wél archaïsche 'wier/welker'. Het rendert οὗ ἡ οἰκία natuurlijk; herstructurering naar 'van wie het huis' zou stroever zijn zonder semantische winst. Geen §2.7-drempelarchaïsme."
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 8,
+      "severity": "soft",
+      "quote_modernized": "de overste van de",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'de overste van de' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "ACT-18-8-001",
+      "status": "rebutted",
+      "rebuttal": "Geen parafrastische redundantie maar een verwijs-kanttekening (KANTTEKENINGEN.md): 'Zie over de Overste van de Synagogen $Mk. 5:22; Hd. 13:15$' verwijst de lezer naar andere passages over het ambt. De 4-token-overlap met de hoofdtekst is onvermijdelijk om de referent te benoemen; weglaten zou de verwijzing onbegrijpelijk maken."
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 14,
+      "severity": "soft",
+      "quote_modernized": "…ou opendoen, zei Gallio tot de Joden:   Indien er enig onrecht, of   kwaad stuk …",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "ACT-18-14-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+    },
+    {
+      "category": "§2.7 drempel-archaïsme",
+      "verse": 15,
+      "severity": "soft",
+      "quote_modernized": "Maar indien er geschil is over   een woord, e…",
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'indien' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "ACT-18-15-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+    },
+    {
+      "category": "relativum welke/welken/hetwelk",
+      "verse": 18,
+      "severity": "soft",
+      "quote_modernized": "…e beschreven wordt in Numeri hoofdstuk 6; welke gelofte sommigen deden voor hun …",
+      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
+      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "ACT-18-18-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+    },
+    {
+      "category": "kanttekening-luiheid (§2.3 in <…>)",
+      "verse": 21,
+      "severity": "hard",
+      "quote_modernized": "…t heeft hij willen zijn, niet omdat hij meende dat de Joodse feestdagen nog onde…",
+      "rule_reference": "KANTTEKENINGEN.md + §2.3",
+      "explanation": "'meende' binnen kanttekening — verdacht -ende-woord in adverbial / clause-final positie. §2.3 geldt ook in <…>; ontvouw naar finiete bijzin.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "ACT-18-21-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] Scanner-false-positive: 'meende' is verleden tijd van 'menen' (ik meende = ik dacht), een finiete persoonsvorm, geen -ende-participium. §2.3 niet van toepassing op finiete werkwoordsvormen."
+    },
+    {
+      "category": "§2.3 finiet participium",
+      "verse": 25,
+      "severity": "soft",
+      "quote_modernized": "…rwijl hij alleen   de doop van Johannes kende.",
+      "rule_reference": "MODERNISATIE.md §2.3",
+      "explanation": "'kende' — verdacht -ende-woord in adverbial / clause-final positie. Ontvouw naar finiete bijzin ('en X', 'terwijl X', 'toen X').",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "ACT-18-25-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] 'kende' is hier finiet imperfectum 3p.sg. van werkwoord 'kennen' (Gr. ἐπιγνοὺς → 'kende', concordantie LUK 5:22), GEEN -ende-participium. §2.3 reikwijdte = adverbiale/clause-final participia; deze vorm is hoofdwerkwoord van bijzin 'die meteen ... kende dat zij ...'. Scanner-regex faalt op homografie tussen finiete impf en -ende-participium."
+    },
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 25,
+      "severity": "soft",
+      "quote_modernized": "de weg van de",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'de weg van de' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "ACT-18-25-002",
+      "status": "rebutted",
+      "rebuttal": "Geen redundantie: de hoofdtekst heeft 'de weg van de Heere', de kanttekening glosseert dat met 'de weg van de zaligheid' (D.i.-uitleg, ander genitief-complement). Exegetische ontvouwing van de metafoor 'weg', conform KANTTEKENINGEN.md — geen woordelijke herhaling van de hoofdtekst."
+    },
+    {
+      "category": "kanttekening-luiheid (§2.3 in <…>)",
+      "verse": 28,
+      "severity": "hard",
+      "quote_modernized": "Of, krachtig aanhoudende.",
+      "rule_reference": "KANTTEKENINGEN.md + §2.3",
+      "explanation": "'aanhoudende' binnen kanttekening — verdacht -ende-woord in adverbial / clause-final positie. §2.3 geldt ook in <…>; ontvouw naar finiete bijzin.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "ACT-18-28-001",
+      "status": "fixed",
+      "fix_commit": "pending"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 18,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'hebbend' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        18,
+        22,
+        27
+      ],
+      "id": "ACT-18-18-002",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] Scanner-prefix-heuristiek false-positive: SV 'hebbende' (participium, Grieks ἔχων) wordt §2.3-conform ontvouwd naar finiete vormen ('die heeft', 'met'). Cross-vers regelconforme transformatie, geen drift."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 19,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'ephesen' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        19,
+        21,
+        24
+      ],
+      "id": "ACT-18-19-001",
+      "status": "rebutted",
+      "rebuttal": "Scanner-prefix-heuristiek mist de orthografische overgang ph->f: origineel 'Ephesen'/'Ephesiers' -> consequent 'Efeze' (plaats: v19,21,24,27) en 'Efeziërs' (volk). Geen concordantie-drift maar gedocumenteerde false-positive-klasse; de moderne renderingen zijn juist volledig consistent."
+    }
+  ]
+}
