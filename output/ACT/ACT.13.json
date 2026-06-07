@@ -343,6 +343,45 @@
       "generated_at": "2026-06-07T06:18:48.835252Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 37,
+      "original": "Maer <Namelick, de Heylige, ofte, geheylighde, waer van hy propheteert.> hy, dien Godt opgeweckt heeft, en heeft geen verdervinge gesien.",
+      "modernized": "Maar <Namelijk, de Heilige, of geheiligde, van wie hij profeteert.> hij, die God opgewekt heeft, heeft geen verderving gezien.",
+      "source_text": "ὃν δὲ ὁ Θεὸς ἤγειρεν, οὐκ εἶδε διαφθοράν.",
+      "generated_at": "2026-06-07T06:23:04.430646Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 38,
+      "original": "Soo zy u dan bekent, mannen broeders, $Luce 24.47. 1.Ioan. 2.12.$ dat door <Namelick, Iesum, dien hy verweckt heeft tot eenen Salighmaker, ende uyt den dooden heeft opgeweckt.> desen u vergevinge der sonden verkondight wort.",
+      "modernized": "Zo zij u dan bekend, mannen broeders, $Lk. 24:47; 1Jh. 2:12$ dat door <Namelijk, Jezus, die hij verwekt heeft tot een Zaligmaker, en uit de doden heeft opgewekt.> deze aan u vergeving van de zonden verkondigd wordt.",
+      "source_text": "γνωστὸν οὖν ἔστω ὑμῖν, ἄνδρες ἀδελφοί, ὅτι διὰ τούτου ὑμῖν ἄφεσις ἁμαρτιῶν καταγγέλλεται·",
+      "generated_at": "2026-06-07T06:23:08.830702Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 39,
+      "original": "$Rom. 3.28. ende 8.3. Galat. 2.16. Hebr. 7.19.$ Ende [dat] van allen, daer van ghy niet en kondet gerechtveerdight worden <Gr. in: gelijck oock in het volgende, dat is, noch door de wet der zeden, die wel de sonde ende vermaledijdinge aenwijst, maer niet hoese wech genomen worden, Rom. c. 8. vers 3. Noch door de wet der ceremonien, die wel een schaduwe voorstelde van de reyniginge der sonden, doch de kracht selve in haer niet en hadde, maer alleen ons wees tot dien die het lichaem was van alle dese schaduwen, Iesum Christum. siet Hebr. 10. vers 1, etc.> door de wet Mosis, door desen $Rom. 10.4.$ een yegelick die gelooft, gerechtveerdight wort.",
+      "modernized": "$Rm. 3:28; 8:3; Gl. 2:16; Hb. 7:19$ En [dat] u van alles waarvan u niet gerechtvaardigd kon worden <Grieks: in: zoals ook in het volgende, dat is, noch door de wet der zeden, die wel de zonde en vervloeking aanwijst, maar niet hoe die weggenomen worden, $Rm. 8:3$ Noch door de wet der ceremoniën, die wel een schaduw voorstelde van de reiniging der zonden, maar de kracht zelf in zich niet had, en ons alleen wees tot hem die het lichaam was van al deze schaduwen, Jezus Christus. Zie $Hb. 10:1$, etc.> door de wet van Mozes, door deze $Rm. 10:4$ wordt ieder die gelooft gerechtvaardigd.",
+      "source_text": "καὶ ἀπὸ πάντων ὧν οὐκ ἠδυνήθητε ἐν τῷ νόμῳ Μωσέως δικαιωθῆναι, ἐν τούτῳ πᾶς ὁ πιστεύων δικαιοῦται.",
+      "generated_at": "2026-06-07T06:23:37.713484Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "subject": "bibref c.-token",
+          "context": "kanttekening, ref Rom. c. 8. vers 3.",
+          "choice": "handmatig c. -> cap. genormaliseerd naar $Rm. 8:3$",
+          "alternatives": [
+            "$Hd. 8:3$ (fout van bibref met --current-book ACT)"
+          ],
+          "reason": "bibref.py normaliseert losse c.-token niet; zonder cap. defaultte de chapter-only-ref naar het huidige boek (ACT) i.p.v. Rom."
+        }
+      ]
     }
   ]
 }
