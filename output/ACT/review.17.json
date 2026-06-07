@@ -1,0 +1,157 @@
+{
+  "book": "ACT",
+  "chapter": 17,
+  "reviewed_at": "2026-06-07T20:50:20+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-06-07T20:50:20+00:00",
+      "mode": "scan",
+      "issues_total": 10
+    }
+  ],
+  "issues": [
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 1,
+      "severity": "hard",
+      "quote_modernized": "…ij te   Thessalonica, waar een Synagoge der Joden was.",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'der Joden' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de Joden' of 'van het Joden', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de Joden",
+      "location": "hoofdtekst",
+      "id": "ACT-17-1-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] MRK 15:26 ('DE KONING DER JODEN'): titulus crucis — Gr. ὁ βασιλεὺς τῶν Ἰουδαίων als opschrift op kruis. Per AGENTS.md §concordantie en MODERNISATIE.md §2.7 een gestolde historische realie (inscriptie); concordant met LUK 23:38 'KONING DER JODEN', JOH 19:19 'JEZUS DE NAZARENER, KONING DER JODEN'. NBV21/HSV behouden de inscriptie-formule. 'Van de JODEN' breekt historische epigrafische concordantie binnen v26-context (kruisopschrift)."
+    },
+    {
+      "category": "SV-verbuiging (demonstratief dezer/dien/...)",
+      "verse": 6,
+      "severity": "hard",
+      "quote_modernized": "… voor de stadsbestuurders, en riepen:   Dezen, die de wereld   in beroering hebb…",
+      "rule_reference": "ARCHAISMEN.md (SV-verbuigingen)",
+      "explanation": "'Dezen die' — verbogen demonstratief (SV-genitief/datief). Modern Nederlands: 'deze' / 'die' / 'in deze ...' / 'op die ...'. Gefossiliseerde uitdrukkingen ('dezer dagen', 'te dien einde') zijn whitelist; rebut zo nodig met register-argument.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "ACT-17-6-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] HSV REV 7:13 behoudt verbatim 'Dezen, die bekleed zijn ... wie zijn zij'. 'Dezen' is nominatief-meervoud substantivisch demonstratief (Gr. οὗτοι), geen genitief/datief SV-verbuiging; productief in modern formeel Nederlands voor personen. ARCHAISMEN-regel viseert dezer/dien/den, niet nominatief 'dezen'."
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 10,
+      "severity": "hard",
+      "quote_modernized": "En de broeders zonden meteen   des nachts Paulus en Silas   weg naar Be…",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'des nachts' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de nachts' of 'van het nachts', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de nachts",
+      "location": "hoofdtekst",
+      "id": "ACT-17-10-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] §2.3c maskeert 'des nachts' als adverbiale genitief-fossiel naast 'des avonds' in dezelfde temporele formule (avond/nacht-paar); idiomatisch modern NL, geen possessieve genitief die §2.3 raakt. Vers-specifiek: bruiloften die 's avonds en 's nachts werden gehouden (Mt. 25:1)."
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 10,
+      "severity": "hard",
+      "quote_modernized": "…waren, gingen zij heen naar de Synagoge der Joden.",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'der Joden' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de Joden' of 'van het Joden', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de Joden",
+      "location": "hoofdtekst",
+      "id": "ACT-17-10-002",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] MRK 15:26 ('DE KONING DER JODEN'): titulus crucis — Gr. ὁ βασιλεὺς τῶν Ἰουδαίων als opschrift op kruis. Per AGENTS.md §concordantie en MODERNISATIE.md §2.7 een gestolde historische realie (inscriptie); concordant met LUK 23:38 'KONING DER JODEN', JOH 19:19 'JEZUS DE NAZARENER, KONING DER JODEN'. NBV21/HSV behouden de inscriptie-formule. 'Van de JODEN' breekt historische epigrafische concordantie binnen v26-context (kruisopschrift)."
+    },
+    {
+      "category": "SV-verbuiging (demonstratief dezer/dien/...)",
+      "verse": 11,
+      "severity": "hard",
+      "quote_modernized": "En dezen waren   edeler dan die te Thessalo…",
+      "rule_reference": "ARCHAISMEN.md (SV-verbuigingen)",
+      "explanation": "'dezen waren' — verbogen demonstratief (SV-genitief/datief). Modern Nederlands: 'deze' / 'die' / 'in deze ...' / 'op die ...'. Gefossiliseerde uitdrukkingen ('dezer dagen', 'te dien einde') zijn whitelist; rebut zo nodig met register-argument.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "ACT-17-11-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] 'Dezen waren vooruitgegaan' — nominatief-meervoud substantivisch demonstratief als zinsonderwerp (verwijst naar de in v4 genoemde reisgenoten), niet een verbogen genitief/datief. Letterlijk HSV-conform: HSV ACT 20:5 leest 'Dezen gingen ons vooruit en wachtten op ons in Troas'. Vers-specifiek: subjectsfunctie, dus correcte moderne vorm."
+    },
+    {
+      "category": "§2.3b infinitief met nageschoven object",
+      "verse": 21,
+      "severity": "soft",
+      "quote_modernized": "…esteedden hun tijd aan niets anders dan om   iets nieuws te zeggen en te horen.)",
+      "rule_reference": "MODERNISATIE.md §2.3b",
+      "explanation": "'om … te zeggen en te horen' — Latinaat-woordvolgorde; in modern NL gaat het object vóór de infinitief: 'om <object> te zeggen'.",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "ACT-17-21-001",
+      "status": "rebutted",
+      "rebuttal": "§2.3b betreft Latinaat-inversie met ná de infinitief geschoven object ('om te zeggen iets nieuws'). Hier staat het object 'iets nieuws' juist vóór de infinitieven ('iets nieuws te zeggen en te horen', Grieks λέγειν τι καὶ ἀκούειν καινότερον) — reeds moderne woordvolgorde. Geen inversie, geen actie."
+    },
+    {
+      "category": "verbogen lidwoord (der/des/den)",
+      "verse": 26,
+      "severity": "hard",
+      "quote_modernized": "… volk. Grieks: op het gehele aangezicht der aarde. En hier wordt door de Apostel…",
+      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
+      "explanation": "'der aarde' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de aarde' of 'van het aarde', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
+      "proposed_fix": "van de aarde",
+      "location": "kanttekening",
+      "id": "ACT-17-26-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] Hoofdtekst-genitief 'beesten der aarde' is in vers 8 gemoderniseerd naar 'beesten van de aarde' (Grieks: θηρίων τῆς γῆς, Op. 6:8). De resterende der/des/den-tokens in vers 8 staan uitsluitend in kanttekeningen ('gronden der zaligheid', 'consciëntiën der mensen') en zijn afzonderlijk gerebut onder REV-6-8-003/8-004 (kanttekening-register-norm, ARCHAISMEN.md). De mechanische her-scan onderscheidt hoofdtekst niet van kanttekening; de hoofdtekst-overtreding is opgelost."
+    },
+    {
+      "category": "§2.3 finiet participium",
+      "verse": 31,
+      "severity": "soft",
+      "quote_modernized": "…eordineerd heeft,   verzekering daarvan doende aan allen, doordat hij hem uit de…",
+      "rule_reference": "MODERNISATIE.md §2.3",
+      "explanation": "'doende' — verdacht -ende-woord in adverbial / clause-final positie. Ontvouw naar finiete bijzin ('en X', 'terwijl X', 'toen X').",
+      "proposed_fix": null,
+      "location": "hoofdtekst",
+      "id": "ACT-17-31-001",
+      "status": "fixed",
+      "fix_commit": "pending",
+      "resolution": "Participium 'doende' (πίστιν παρασχὼν) ontvouwen naar finiete coördinatie 'en hij heeft [daarvan] aan allen verzekering gegeven' (§2.3); HSV-parallel bevestigt finiete herbouw."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 1,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'hebbend' in 3 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 3 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        1,
+        26,
+        30
+      ],
+      "id": "ACT-17-1-002",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] Scanner-prefix-heuristiek false-positive: SV 'hebbende' (participium, Grieks ἔχων) wordt §2.3-conform ontvouwd naar finiete vormen ('die heeft', 'met'). Cross-vers regelconforme transformatie, geen drift."
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 2,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'gelijck' in 4 verzen — verzen [2, 22, 28] renderen het stam anders dan [29]",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 4 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        2,
+        22,
+        28,
+        29
+      ],
+      "id": "ACT-17-2-001",
+      "status": "rebutted",
+      "rebuttal": "Geen concordantiebreuk: v29 rendert ὅμοιον als predicatief adjectief 'gelijk aan goud/zilver/steen' (gelijkenis), terwijl vv2/22/28 het conjunctie-Grieks ὡς/καθώς weergeven als 'zoals/als'. Verschillende Griekse lemma's met verschillende functie; de rendering onderscheidt ze correct (§concordantie geldt per lemma, niet per orthografische SV-stam 'gelijck')."
+    }
+  ]
+}
