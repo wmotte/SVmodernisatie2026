@@ -196,6 +196,42 @@
       "generated_at": "2026-06-07T05:57:49.479926Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 22,
+      "original": "Ende de schare stont gesamentlick tegen haer op: ende de Hooftmannen <Namelick, den Apostel ende Sile.> haer de kleederen afgescheurt hebbende, $2.Cor. 11.25. 1.Thessal. 2.2.$ bevalense te <Ofte, met gaerden slaen.> geesselen.",
+      "modernized": "En de schare stond gezamenlijk tegen hen op; en de Hoofdmannen <Namelijk, de Apostel en Silas.> scheurden hun de kleren af, $2Kor. 11:25; 1Th. 2:2$ en bevalen hen te <Of, met roeden slaan.> geselen.",
+      "source_text": "καὶ συνεπέστη ὁ ὄχλος κατ’ αὐτῶν, καὶ οἱ στρατηγοὶ περιρρήξαντες αὐτῶν τὰ ἱμάτια ἐκέλευον ῥαβδίζειν.",
+      "generated_at": "2026-06-07T06:01:07.506498Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "subject": "kanttekening Namelick",
+          "context": "eerste kanttekening",
+          "choice": "de Apostel en Silas (= Paulus en Silas) als degenen wier kleren werden afgescheurd",
+          "reason": "SV-kanttekening verduidelijkt het object van afgescheurt, niet de Hoofdmannen"
+        }
+      ]
+    },
+    {
+      "verse_number": 23,
+      "original": "Ende als sy haer vele slagen <Gr. opgeleght.> gegeven hadden, wierpen syse in de gevangenisse, ende geboden den <Gr. bewaerder der gevangene, Cippier.> stockwaerder dat hyse <D. in goede versekeringe, stricktelick.> sekerlick bewaren soude.",
+      "modernized": "En toen zij hun vele slagen <Grieks: opgelegd.> gegeven hadden, wierpen zij hen in de gevangenis, en geboden de <Grieks: bewaarder van de gevangenen, Cipier.> gevangenbewaarder dat hij hen <Dat is, in goede verzekering, strikt.> veilig bewaren zou.",
+      "source_text": "πολλάς τε ἐπιθέντες αὐτοῖς πληγὰς ἔβαλον εἰς φυλακήν, παραγγείλαντες τῷ δεσμοφύλακι ἀσφαλῶς τηρεῖν αὐτούς·",
+      "generated_at": "2026-06-07T06:01:58.496510Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 24,
+      "original": "Dewelcke sulck een gebodt ontfangen hebbende, wierp haer in den binnensten kercker, ende versekerde hare voeten in den <Gr. in het hout, namelick, eenen houten block ofte instrument, daer in de voeten gesloten wierden.> stock.",
+      "modernized": "Die, toen hij zo'n gebod ontvangen had, hen in de binnenste kerker wierp, en hun voeten vastzette in het <Grieks: in het hout, namelijk een houten blok of instrument, waarin de voeten gesloten werden.> blok.",
+      "source_text": "ὅς, παραγγελίαν τοιαύτην εἰληφώς, ἔβαλεν αὐτοὺς εἰς τὴν ἐσωτέραν φυλακήν, καὶ τοὺς πόδας αὐτῶν ἠσφαλίσατο εἰς τὸ ξύλον.",
+      "generated_at": "2026-06-07T06:02:28.093424Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
