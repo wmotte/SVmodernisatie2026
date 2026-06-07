@@ -1,0 +1,294 @@
+{
+  "round_no": 15,
+  "books": [
+    "ACT",
+    "JHN"
+  ],
+  "red": [
+    {
+      "id": "RG15-001",
+      "class": "modernisatie",
+      "books": [
+        "ACT"
+      ],
+      "chapter": 19,
+      "verse": 0,
+      "quote": "Demetrius, een zilversmid, die zich geneert met kleine zilveren tempeltjes van Diana te maken",
+      "in_kanttekening": false,
+      "rule_reference": "MODERNISATIE.md §2.7; false-friend/productiviteitstest",
+      "explanation": "`zich generen met` is hier SV `hem geneerende` = zich onderhouden / zijn brood verdienen. In modern Nederlands betekent `zich generen` vooral `zich schamen`, waardoor de introductie semantisch verkeerd leest.",
+      "proposed_fix": "`Demetrius, een zilversmid, die zijn brood verdiende met het maken van kleine zilveren tempeltjes van Diana`.",
+      "severity": "hard"
+    },
+    {
+      "id": "RG15-002",
+      "class": "modernisatie",
+      "books": [
+        "ACT"
+      ],
+      "chapter": 19,
+      "verse": 23,
+      "quote": "ontstond daar geen kleine beroerte",
+      "in_kanttekening": false,
+      "rule_reference": "MODERNISATIE.md §2.7; false-friend/productiviteitstest; Grieks: ταραχος",
+      "explanation": "`Beroerte` betekent in modern Nederlands een medische stroke. De Griekse term en context gaan over opschudding/oproer rond de Weg.",
+      "proposed_fix": "`ontstond er geen geringe opschudding` of `ontstond er geen klein oproer`.",
+      "severity": "hard"
+    },
+    {
+      "id": "RG15-003",
+      "class": "modernisatie",
+      "books": [
+        "ACT"
+      ],
+      "chapter": 27,
+      "verse": 27,
+      "quote": "Adriatische zee herwaarts en derwaarts gedreven werden",
+      "in_kanttekening": false,
+      "rule_reference": "MODERNISATIE.md §2.7; precedent RG13-005 herwaarts/derwaarts",
+      "explanation": "`herwaarts en derwaarts` zijn obsolete richtingbijwoorden en falen de productiviteitstest. Hier is de betekenis gewoon directioneel: heen en weer.",
+      "proposed_fix": "`op de Adriatische zee heen en weer gedreven werden`.",
+      "severity": "hard"
+    },
+    {
+      "id": "RG15-004",
+      "class": "modernisatie",
+      "books": [
+        "ACT"
+      ],
+      "chapter": 27,
+      "verse": 9,
+      "quote": "Hetwelk dan geen gemeenschap heeft met de vastentijden die sommigen tegenwoordig houden",
+      "in_kanttekening": true,
+      "rule_reference": "scripts/rules_data.py DREMPEL_ARCHAISMEN (`hetwelk`); MODERNISATIE.md §2.7; kanttekeningen tellen volwaardig mee",
+      "explanation": "`Hetwelk` is een expliciet drempelarchaïsme en staat in lopende kanttekeningtekst, niet in een noodzakelijke Griekse gloss.",
+      "proposed_fix": "`Dit heeft dan geen gemeenschap met de vastentijden die sommigen tegenwoordig houden`.",
+      "severity": "hard"
+    },
+    {
+      "id": "RG15-005",
+      "class": "modernisatie",
+      "books": [
+        "ACT"
+      ],
+      "chapter": 15,
+      "verse": 24,
+      "quote": "geen opdracht gegeven hebben zulks te leren",
+      "in_kanttekening": true,
+      "rule_reference": "ARCHAISMEN.md (`sulcks`/`zulks`); MODERNISATIE.md §2.7; kanttekeningen tellen volwaardig mee",
+      "explanation": "`zulks` is in de archaïsmetabel gemarkeerd en blijft hier als fossiel verwijswoord in een kanttekening staan.",
+      "proposed_fix": "`geen opdracht gegeven hebben dit te leren`.",
+      "severity": "hard"
+    },
+    {
+      "id": "RG15-006",
+      "class": "modernisatie",
+      "books": [
+        "ACT"
+      ],
+      "chapter": 20,
+      "verse": 0,
+      "quote": "zijn rede uitstrekkend tot de middernacht",
+      "in_kanttekening": false,
+      "rule_reference": "MODERNISATIE.md §2.3 / §2.3b (finiet participium; intro volgt dezelfde principes)",
+      "explanation": "De introductie houdt een Latijns aandoend tegenwoordig participium als zinskern over. Introducties worden volgens dezelfde moderniseringsregels behandeld als verzen.",
+      "proposed_fix": "`en strekt zijn rede uit tot middernacht` of `en houdt zijn rede tot middernacht`.",
+      "severity": "hard"
+    },
+    {
+      "id": "RG15-007",
+      "class": "modernisatie",
+      "books": [
+        "ACT"
+      ],
+      "chapter": 2,
+      "verse": 46,
+      "quote": "eendrachtig in de tempel volhardend, en ... brood brekend, ... aten zij tezamen",
+      "in_kanttekening": false,
+      "rule_reference": "MODERNISATIE.md §2.3 (finiet participium) en §2.3b",
+      "explanation": "`volhardend` en `brood brekend` dragen hier de hoofdhandeling bij `aten`; dit is precies de participiumconstructie die §2.3 wil ontvouwen naar moderne finiete zinsbouw.",
+      "proposed_fix": "`En zij volhardden dagelijks eendrachtig in de tempel, braken van huis tot huis brood, en aten tezamen ...`.",
+      "severity": "hard"
+    },
+    {
+      "id": "RG15-008",
+      "class": "modernisatie",
+      "books": [
+        "ACT"
+      ],
+      "chapter": 10,
+      "verse": 14,
+      "quote": "Geenszins, Heere",
+      "in_kanttekening": false,
+      "rule_reference": "scripts/rules_data.py DREMPEL_ARCHAISMEN (`geenszins`); MODERNISATIE.md §2.7; Grieks: μηδαμως",
+      "explanation": "`Geenszins` is een expliciet drempelarchaïsme. De sterke ontkenning van μηδαμως kan zonder registerfossiel worden weergegeven.",
+      "proposed_fix": "`Volstrekt niet, Heere` of `Beslist niet, Heere`.",
+      "severity": "hard"
+    },
+    {
+      "id": "RG15-009",
+      "class": "consistentie",
+      "books": [
+        "ACT",
+        "JHN"
+      ],
+      "chapter": 5,
+      "verse": 3,
+      "quote": "een grote menigte van kranken",
+      "in_kanttekening": false,
+      "rule_reference": "AGENTS.md concordantie; MODERNISATIE.md §2.7; Grieks: ασθενουντων",
+      "explanation": "JHN 5 gebruikt bij dezelfde ziekte/zwakte-woordgroep nog `kranken`/`krank`, terwijl ACT consequent moderniseert naar `zieken`/`ziek` voor vergelijkbare ασθεν-gevallen (bijv. ACT 5:15, 5:16, 19:12, 28:9). `Krank` is bovendien drempelarchaïsch voor hedendaagse lezers.",
+      "proposed_fix": "`een grote menigte van zieken` en in JHN 5:5 `achtendertig jaar ziek geweest was`.",
+      "severity": "hard"
+    },
+    {
+      "id": "RG15-010",
+      "class": "modernisatie",
+      "books": [
+        "ACT"
+      ],
+      "chapter": 5,
+      "verse": 36,
+      "quote": "maar zulks is na deze tijd gebeurd",
+      "in_kanttekening": true,
+      "rule_reference": "ARCHAISMEN.md (`sulcks`/`zulks`); MODERNISATIE.md §2.7; kanttekeningen tellen volwaardig mee",
+      "explanation": "Nog een lopende kanttekening houdt het archaïsche verwijswoord `zulks` over. Dit is geen technische gloss maar gewone uitlegtekst.",
+      "proposed_fix": "`maar dat is na deze tijd gebeurd`.",
+      "severity": "hard"
+    }
+  ],
+  "green": [
+    {
+      "point_id": "RG15-001",
+      "stance": "concede",
+      "rebuttal": "Red heeft gelijk. In ACT 19 introductie is `hem geneerende` niet modern weergegeven: `zich generen` betekent in hedendaags Nederlands primair zich schamen, terwijl de verscontext van Demetrius' ambacht en gewin om broodwinning/onderhoud gaat. MODERNISATIE.md §2.7 verwarringtest vereist dan vervanging door een niet-misleidende formulering.",
+      "evidence": "MODERNISATIE.md §2.7 verwarringtest; ACT 19 intro specifiek Demetrius als zilversmid die tempeltjes maakt en oproer verwekt om economisch belang."
+    },
+    {
+      "point_id": "RG15-002",
+      "stance": "concede",
+      "rebuttal": "Red heeft gelijk. `Beroerte` heeft in modern Nederlands een dominante medische betekenis, terwijl ACT 19:23 met ταραχος een maatschappelijke opschudding rond de Weg benoemt. De constructie `geen kleine beroerte` bewaart daardoor niet de SV-zin maar introduceert een false-friend-lezing.",
+      "evidence": "MODERNISATIE.md §2.7 verwarringtest; Grieks ταραχος; ACT 19:23 context `περὶ τῆς ὁδοῦ`."
+    },
+    {
+      "point_id": "RG15-003",
+      "stance": "concede",
+      "rebuttal": "Red heeft gelijk. In ACT 27:27 beschrijft διαφερομένων ἡμῶν het heen en weer gedreven worden op zee; `herwaarts en derwaarts` is een obsolete richtingformule zonder noodzakelijke SV-theologische of concordante waarde. §2.7 laat hier een eenvoudige moderne richtingweergave toe.",
+      "evidence": "MODERNISATIE.md §2.7 productiviteitstest; ACT 27:27 `διαφερομένων ἡμῶν ἐν τῷ Ἀδρίᾳ`; versspecifiek zee-driftbeeld."
+    },
+    {
+      "point_id": "RG15-004",
+      "stance": "concede",
+      "rebuttal": "Red heeft gelijk. `Hetwelk` staat in de machine-regels als drempelarchaïsme en MODERNISATIE.md §2.3/§2.6 bepaalt dat kanttekeningen volwaardig worden gemoderniseerd. In ACT 27:9 is dit lopende uitlegtekst over de vastentijden, geen technische gloss of te bewaren formule.",
+      "evidence": "scripts/rules_data.py DREMPEL_ARCHAISMEN bevat `hetwelk`; MODERNISATIE.md §2.6 en §2.7; ACT 27:9 kanttekening over `de vasten`."
+    },
+    {
+      "point_id": "RG15-005",
+      "stance": "rebut",
+      "rebuttal": "Dit punt faalt op de aangehaalde regelbron. ARCHAISMEN.md specificeert bij de 1657-vorm juist `sulcks -> zulks` en `sulks -> zulks`; `zulks` zelf staat niet in DREMPEL_ARCHAISMEN. Versspecifiek verwijst `zulks te leren` in ACT 15:24 terug naar de voorafgaande inhoud `u moet besneden worden, en de wet onderhouden`, zodat het als samenvattend verwijswoord functioneert en niet als false friend.",
+      "evidence": "ARCHAISMEN.md archaïsme-tabel `sulcks -> zulks`; MODERNISATIE.md §2.7 vereist functionele drempeltest; ACT 15:24 antecedent `besneden worden` + `wet onderhouden`; Grieks οἷς οὐ διεστειλάμεθα."
+    },
+    {
+      "point_id": "RG15-006",
+      "stance": "concede",
+      "rebuttal": "Red heeft gelijk. Introducties volgen dezelfde moderniseringsprincipes als verzen, en `zijn rede uitstrekkend tot de middernacht` laat een SV-participium als lopende zinskern staan. MODERNISATIE.md §2.3 staat juist ontvouwing naar een finiete moderne constructie voor dit soort latinate carry-over toe.",
+      "evidence": "AGENTS.md Introductie en epiloog: zelfde principes als verzen; MODERNISATIE.md §2.3; ACT 20 intro, segment 7."
+    },
+    {
+      "point_id": "RG15-007",
+      "stance": "concede",
+      "rebuttal": "Red heeft gelijk. ACT 2:46 bevat twee Griekse participia, προσκαρτεροῦντες en κλῶντες, die in de modernisatie als `volhardend` en `brood brekend` vóór het finiete `aten` zijn blijven hangen. §2.3 vraagt voor zulke bijwoordelijke participia om een moderne finiete ontvouwing met behoud van inhoud en volgorde.",
+      "evidence": "MODERNISATIE.md §2.3; ACT 2:46 Grieks προσκαρτεροῦντες / κλῶντες / μετελάμβανον; versspecifieke hoofdhandeling `aten zij tezamen`."
+    },
+    {
+      "point_id": "RG15-008",
+      "stance": "concede",
+      "rebuttal": "Red heeft gelijk. `Geenszins` staat expliciet in DREMPEL_ARCHAISMEN en is hier geen vaste liturgische formule; het geeft de sterke ontkenning μηδαμῶς in Petrus' antwoord weer. Een moderne sterke ontkenning behoudt de betekenis zonder registerfossiel.",
+      "evidence": "scripts/rules_data.py DREMPEL_ARCHAISMEN bevat `geenszins`; MODERNISATIE.md §2.7; ACT 10:14 Grieks Μηδαμῶς, Κύριε."
+    },
+    {
+      "point_id": "RG15-009",
+      "stance": "concede",
+      "rebuttal": "Red heeft gelijk. JHN 5:3 en 5:5 houden `kranken`/`krank` over bij het ἀσθεν-woordveld, terwijl ACT in vergelijkbare gevallen `zieken` gebruikt. Zonder versspecifieke theologische reden voor afwijking weegt AGENTS.md concordantie mee, en §2.7 maakt `krank` te formeel-archaïsch voor gewone ziektebeschrijving.",
+      "evidence": "AGENTS.md concordantie; MODERNISATIE.md §2.7; JHN 5:3 ἀσθενούντων, JHN 5:5 ἀσθενείᾳ; ACT 5:15/5:16/19:12 `zieken`."
+    },
+    {
+      "point_id": "RG15-010",
+      "stance": "rebut",
+      "rebuttal": "Dit punt is niet hard op de aangehaalde regels. ARCHAISMEN.md moderniseert de SV-spelling `sulcks` naar `zulks`, en `zulks` staat niet in DREMPEL_ARCHAISMEN. In ACT 5:36 verwijst `maar zulks is na deze tijd gebeurd` concreet terug naar Josephus' vermelding van Theudas; dat samenvattende verwijsgebruik is formeel maar niet misleidend zoals een false friend.",
+      "evidence": "ARCHAISMEN.md archaïsme-tabel `sulcks -> zulks`; MODERNISATIE.md §2.7 functionele/productiviteitstest; ACT 5:36 kanttekening over Josephus en Theudas; geen `zulks` in scripts/rules_data.py DREMPEL_ARCHAISMEN."
+    }
+  ],
+  "verdicts": [
+    {
+      "point_id": "RG15-001",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. Het punt is vers-/intro-specifiek: `zich generen` faalt hier de §2.7 verwarringtest bij Demetrius' broodwinning.",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG15-002",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. ACT 19:23 gebruikt ταραχος voor maatschappelijke opschudding; `beroerte` introduceert een moderne medische false-friend-lezing.",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG15-003",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. Precedent RG13 behandelt `herwaarts/derwaarts` context-afhankelijk per vindplaats, dus geen rule_change maar een verscorrectie.",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG15-004",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. `Hetwelk` staat in DREMPEL_ARCHAISMEN en de ACT 27:9-kanttekening is lopende uitlegtekst.",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG15-005",
+      "verdict": "green_wins",
+      "rationale": "Rebuttal haalt de gate: regelbron (`sulcks/sulks -> zulks`, geen `zulks` in DREMPEL_ARCHAISMEN), versspecifiek antecedent in ACT 15:24, en onderscheid tussen spellingnormalisatie en false friend.",
+      "scope": "verse",
+      "applied": false
+    },
+    {
+      "point_id": "RG15-006",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. Introducties volgen dezelfde principes als verzen en `zijn rede uitstrekkend` blijft een te ontvouwen participiumconstructie.",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG15-007",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. De participia προσκαρτεροῦντες en κλῶντες blijven als `volhardend` en `brood brekend` hangen voor het finiete `aten`.",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG15-008",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. `Geenszins` staat in DREMPEL_ARCHAISMEN en ACT 10:14 kan μηδαμῶς met een moderne sterke ontkenning weergeven.",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG15-009",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. JHN 5 houdt `kranken/krank` over bij het ἀσθεν-woordveld terwijl ACT vergelijkbare gevallen als `zieken/ziek` moderniseert.",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG15-010",
+      "verdict": "green_wins",
+      "rationale": "Rebuttal haalt de gate: regelbron (`sulcks/sulks -> zulks`, geen `zulks` in DREMPEL_ARCHAISMEN), versspecifieke Josephus/Theudas-terugverwijzing, en onderscheid tussen formeel verwijswoord en misleidende false friend.",
+      "scope": "verse",
+      "applied": false
+    }
+  ]
+}

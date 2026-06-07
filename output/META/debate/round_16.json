@@ -1,0 +1,294 @@
+{
+  "round_no": 16,
+  "books": [
+    "2JN",
+    "3JN"
+  ],
+  "red": [
+    {
+      "id": "RG16-001",
+      "class": "modernisatie",
+      "books": [
+        "2JN"
+      ],
+      "chapter": 1,
+      "verse": 5,
+      "quote": "niet als een nieuw gebod aan u schrijvend",
+      "in_kanttekening": false,
+      "rule_reference": "MODERNISATIE.md §2.3; scripts/rules_data.py PARTICIPLE_BAD_END_STEMS (`schrijvend`)",
+      "explanation": "De Griekse participiumconstructie `γράφων` is als modern `schrijvend` blijven staan. §2.3 vereist dat zulke SV-participia worden ontvouwd naar een moderne finiete constructie.",
+      "proposed_fix": "niet alsof ik u een nieuw gebod schrijf, maar wat wij gehad hebben van het begin, [namelijk] ...",
+      "severity": "hard"
+    },
+    {
+      "id": "RG16-002",
+      "class": "modernisatie",
+      "books": [
+        "2JN"
+      ],
+      "chapter": 1,
+      "verse": 8,
+      "quote": "Ziet toe voor uzelf",
+      "in_kanttekening": false,
+      "rule_reference": "ARCHAISMEN.md imperatief-meervoud op `-t`; ARCHAISMEN.md `(Hoort|Ziet|Zie) toe`",
+      "explanation": "`Ziet toe` bewaart zowel de SV-imperatief-`-t` als de archaïsche waarschuwingsformule. De kanttekening direct ervoor moderniseert dezelfde aansporing terecht als `let op`.",
+      "proposed_fix": "Let op uzelf, ...",
+      "severity": "hard"
+    },
+    {
+      "id": "RG16-003",
+      "class": "modernisatie",
+      "books": [
+        "2JN"
+      ],
+      "chapter": 1,
+      "verse": 10,
+      "quote": "om u te leren en te onderwijzen ... <Dat is, leert en voorstelt.>",
+      "in_kanttekening": true,
+      "rule_reference": "ARCHAISMEN.md False Friends: `leren` / `leerde` als transitief didactisch werkwoord",
+      "explanation": "In de kanttekeningen blijft `leren/leert` staan in de betekenis 'onderwijzen'. De projectregel markeert dit didactische gebruik als false friend; juist in deze context gaat het om leraars/Apostelen die onderwijs geven.",
+      "proposed_fix": "om u te onderrichten en onderwijs te geven ... <Dat is, onderwijst en voorstelt.>",
+      "severity": "hard"
+    },
+    {
+      "id": "RG16-004",
+      "class": "consistentie",
+      "books": [
+        "2JN",
+        "3JN"
+      ],
+      "chapter": 1,
+      "verse": 12,
+      "quote": "2JN 1:12: `mond tot mond [met u] te spreken`; 3JN 1:14: `van mond tot mond spreken`",
+      "in_kanttekening": false,
+      "rule_reference": "MODERNISATIE.md §5.3 concordantie; source_text in beide brieven: `στόμα πρὸς στόμα`",
+      "explanation": "Dezelfde Johanneïsche formule wordt in 2JN en 3JN verschillend gemoderniseerd. `Van mond tot mond` is de moderne idiomatische vorm; kaal `mond tot mond` leest in 2026 als een andere vaste uitdrukking.",
+      "proposed_fix": "Harmoniseer 2JN 1:12 naar `van mond tot mond [met u] te spreken`.",
+      "severity": "hard"
+    },
+    {
+      "id": "RG16-005",
+      "class": "modernisatie",
+      "books": [
+        "3JN"
+      ],
+      "chapter": 1,
+      "verse": 5,
+      "quote": "u doet ... trouw",
+      "in_kanttekening": false,
+      "rule_reference": "MODERNISATIE.md §2.7 constructie-test; HSV-spiegel 3JN 1:5",
+      "explanation": "`Trouw doen` is een letterlijke SV-collocatie die in modern Nederlands niet idiomatisch werkt. De minimale moderne constructie is `trouw handelen`, zonder inhoudelijke parafrase.",
+      "proposed_fix": "Geliefde, u handelt trouw in alles wat u doet aan de broeders, en aan ...",
+      "severity": "hard"
+    },
+    {
+      "id": "RG16-006",
+      "class": "modernisatie",
+      "books": [
+        "3JN"
+      ],
+      "chapter": 1,
+      "verse": 6,
+      "quote": "een eind weegs met hen meegaande",
+      "in_kanttekening": true,
+      "rule_reference": "KANTTEKENINGEN.md Geen SV-participia in kanttekeningen; MODERNISATIE.md §2.3",
+      "explanation": "De kanttekening bewaart een adverbiaal participium in `meegaande`. §2.3 geldt expliciet ook binnen kanttekeningen en vereist ontvouwing naar moderne syntaxis.",
+      "proposed_fix": "niet alleen hen uitgeleide doet door een eind met hen mee te gaan, maar hen ook verzorgt van wat hun tot de reis nodig zal zijn",
+      "severity": "hard"
+    },
+    {
+      "id": "RG16-007",
+      "class": "modernisatie",
+      "books": [
+        "3JN"
+      ],
+      "chapter": 1,
+      "verse": 6,
+      "quote": "<Grieks: Gode waardiglijk.> zoals het Gode waardig is",
+      "in_kanttekening": true,
+      "rule_reference": "MODERNISATIE.md §2.7 drempel; §2.5/§2.6 kanttekening-vertaling",
+      "explanation": "`Gode` bewaart een oude datiefvorm en `waardiglijk` is geen productief modern bijwoord. Dezelfde archaïsche vorm staat zowel in de Griekse glosse als in de hoofdtekst.",
+      "proposed_fix": "<Grieks: God waardig.> zoals het God waardig is",
+      "severity": "hard"
+    },
+    {
+      "id": "RG16-008",
+      "class": "modernisatie",
+      "books": [
+        "3JN"
+      ],
+      "chapter": 1,
+      "verse": 7,
+      "quote": "Dit kan op twee manieren verstaan worden",
+      "in_kanttekening": true,
+      "rule_reference": "ARCHAISMEN.md False Friends: `verstaan worden`",
+      "explanation": "De passieve uitlegformule `verstaan worden` blijft in de kanttekening staan. De false-friendsregel geeft voor dit patroon `bedoeld worden`, `aangeduid worden` of contextueel `opgevat worden` als moderne vorm.",
+      "proposed_fix": "Dit kan op twee manieren worden opgevat, ...",
+      "severity": "hard"
+    },
+    {
+      "id": "RG16-009",
+      "class": "modernisatie",
+      "books": [
+        "3JN"
+      ],
+      "chapter": 1,
+      "verse": 9,
+      "quote": "verheft, daarna ernaar streeft om hen te overheersen",
+      "in_kanttekening": true,
+      "rule_reference": "MODERNISATIE.md §2.3 / §2.7 constructie-test; kanttekeningen tellen volwaardig mee",
+      "explanation": "De kanttekening heeft een mechanische carry-over van `daer na tracht`: `daarna ernaar streeft` is grammaticaal fout en verandert `daarnaar/ernaar` in een temporeel `daarna`.",
+      "proposed_fix": "die zich uit eerzucht boven zijn medebroeders verheft en ernaar streeft om hen te overheersen en al het gezag aan hem alleen te trekken",
+      "severity": "hard"
+    },
+    {
+      "id": "RG16-010",
+      "class": "modernisatie",
+      "books": [
+        "3JN"
+      ],
+      "chapter": 1,
+      "verse": 10,
+      "quote": "boze woorden ... snaterende tegen ... ons",
+      "in_kanttekening": false,
+      "rule_reference": "MODERNISATIE.md §2.3; scripts/rules_data.py PARTICIPLE_BAD_END_STEMS / adversarial_scan §2.3 finiet participium",
+      "explanation": "`snaterende tegen ons` bewaart een adverbiaal participium in de hoofdtekst. De constructie moet finiet worden gemaakt, met behoud van de SV-volgorde en inhoud.",
+      "proposed_fix": "zijn werken die hij doet: hij snatert/lastert met boze woorden tegen ons; en ...",
+      "severity": "hard"
+    }
+  ],
+  "green": [
+    {
+      "point_id": "RG16-001",
+      "stance": "concede",
+      "rebuttal": "Concede. In 2JN 1:5 staat `schrijvend` als bijwoordelijke participiumconstructie bij `niet als ... een nieuw gebod`; dat is precies het type SV-carry-over dat volgens MODERNISATIE.md §2.3 naar een finiete moderne constructie moet worden ontvouwd.",
+      "evidence": "MODERNISATIE.md §2.3; 2JN 1:5 `γράφων`; modernized: `niet als een nieuw gebod aan u schrijvend`."
+    },
+    {
+      "point_id": "RG16-002",
+      "stance": "concede",
+      "rebuttal": "Concede. `Ziet toe voor uzelf` is niet alleen een oudere imperatiefvorm op -t, maar ook de expliciet getabelleerde SV-waarschuwingsformule `(Hoort|Ziet|Zie) toe`; de eigen kanttekening in hetzelfde vers geeft met `let op uw eigen zaligheid` al de moderne richting.",
+      "evidence": "ARCHAISMEN.md imperatief-meervoud op `-t` en `(Hoort|Ziet|Zie) toe`; 2JN 1:8 `βλέπετε ἑαυτούς`; kanttekening: `let op uw eigen zaligheid`."
+    },
+    {
+      "point_id": "RG16-003",
+      "stance": "concede",
+      "rebuttal": "Concede. In 2JN 1:10 gaat het in de kanttekeningen om didactisch transitief `leren/leert` bij leraars die een leer brengen; dat valt onder de false-friendregel, en KANTTEKENINGEN.md behandelt kanttekeningtekst als volwaardige modernisatietekst.",
+      "evidence": "ARCHAISMEN.md False Friends `leren` / `leerde` als didactisch werkwoord; KANTTEKENINGEN.md kanttekeningen integraal; 2JN 1:10 `om u te leren en te onderwijzen`, `<Dat is, leert en voorstelt.>`."
+    },
+    {
+      "point_id": "RG16-004",
+      "stance": "rebut",
+      "rebuttal": "RED toont dezelfde Griekse formule terecht aan, maar de voorgestelde harmonisatie richting `van mond tot mond [met u] te spreken` is niet verliesvrij. In 2JN 1:12 staat direct na het spreken de SV-toevoeging `[met u]`; modern Nederlands `van mond tot mond met u spreken` suggereert overdracht via tussenpersonen en botst met een directe gesprekspartner. `mond tot mond [met u]` bewaart hier de directe στόμα πρὸς στόμα-formule met de bracket, terwijl §6 bij grensgevallen de minste verandering voorschrijft. Als er geharmoniseerd moet worden, is niet aangetoond dat 2JN de foutieve zijde is.",
+      "evidence": "MODERNISATIE.md §5.3 en §6; 2JN 1:12 `στόμα πρὸς στόμα λαλῆσαι` met `[met u]`; 3JN 1:14 heeft dezelfde formule maar zonder bracketed object."
+    },
+    {
+      "point_id": "RG16-005",
+      "stance": "rebut",
+      "rebuttal": "De hardheid is onvoldoende aangetoond. 3JN 1:5 heeft de opvallende dubbele doe-constructie `πιστὸν ποιεῖς ὃ ἐὰν ἐργάσῃ`; `u doet ... trouw, in alles wat u doet` bewaart zowel `ποιεῖς` als `ἐργάσῃ` en houdt `trouw` als predicatieve/adverbiale kwalificatie dicht bij de SV. `u handelt trouw` is vloeiender, maar vervangt het eerste `doen` door een interpretatief werkwoord en verliest de versspecifieke herhaling. Onder MODERNISATIE.md §3.1 en §6 is dit hoogstens een grensgeval, geen harde overtreding.",
+      "evidence": "MODERNISATIE.md §3.1 en §6; 3JN 1:5 `πιστὸν ποιεῖς ὃ ἐὰν ἐργάσῃ`; SV `ghy doet ... trouwelick ... in al het gene ghy doet`."
+    },
+    {
+      "point_id": "RG16-006",
+      "stance": "concede",
+      "rebuttal": "Concede. `een eind weegs met hen meegaande` is een finiet/adverbiaal participium binnen een kanttekening; MODERNISATIE.md §2.3 en KANTTEKENINGEN.md verbieden dit expliciet ook in `<...>`-blokken.",
+      "evidence": "MODERNISATIE.md §2.3; KANTTEKENINGEN.md `Geen SV-participia in kanttekeningen`; 3JN 1:6 kanttekening bij `geleide doet`."
+    },
+    {
+      "point_id": "RG16-007",
+      "stance": "concede",
+      "rebuttal": "Concede. `Gode` is een oude datiefvorm en `waardiglijk` faalt de productiviteitstest; bovendien staat dezelfde archaïsche vorm zowel in de Griekse glosse als in de hoofdtekstzin, zodat het geen beschermd letterlijk citaat maar een moderniseerbare Nederlandse formulering is.",
+      "evidence": "MODERNISATIE.md §2.7; KANTTEKENINGEN.md `<Gr. ...>`-inhoud moderniseren waar het Nederlands archaïsch is; 3JN 1:6 `ἀξίως τοῦ Θεοῦ`, `<Grieks: Gode waardiglijk.>` en `zoals het Gode waardig is`."
+    },
+    {
+      "point_id": "RG16-008",
+      "stance": "concede",
+      "rebuttal": "Concede. Dit is exact de passieve uitlegformule `verstaan worden` uit de false-friendtabel; in deze kanttekening betekent zij niet auditief/begrijpend `verstaan`, maar `opgevat/bedoeld worden`.",
+      "evidence": "ARCHAISMEN.md False Friends `verstaan worden`; 3JN 1:7 kanttekening: `Dit kan op twee manieren verstaan worden`."
+    },
+    {
+      "point_id": "RG16-009",
+      "stance": "concede",
+      "rebuttal": "Concede. De SV heeft `daer na tracht` in de zin van `daarnaar streeft`; de modernisering `daarna ernaar streeft` maakt daar ten onrechte een temporeel `daarna` plus dubbel voornaamwoord van. Dat is een versspecifieke carry-over/taalfout in de kanttekening, niet een verdedigbare SV-eigenheid.",
+      "evidence": "MODERNISATIE.md §2.7 constructie-test; 3JN 1:9 original `daer na tracht`; modernized `daarna ernaar streeft`."
+    },
+    {
+      "point_id": "RG16-010",
+      "stance": "concede",
+      "rebuttal": "Concede. `snaterende tegen ons` is een bijwoordelijk participium in de hoofdtekst bij Grieks `φλυαρῶν ἡμᾶς`; MODERNISATIE.md §2.3 vereist ontvouwing naar een finiete moderne constructie met behoud van inhoud.",
+      "evidence": "MODERNISATIE.md §2.3; 3JN 1:10 `φλυαρῶν ἡμᾶς`; modernized: `boze woorden ... snaterende tegen ... ons`."
+    }
+  ],
+  "verdicts": [
+    {
+      "point_id": "RG16-001",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert expliciet; red-punt over `schrijvend` als participiumcarry-over blijft staan.",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG16-002",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert expliciet; `Ziet toe` valt onder imperatief-`-t` en de getabelleerde waarschuwingsformule.",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG16-003",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert expliciet; didactisch transitief `leren/leert` in kanttekeningen valt onder de false-friendregel.",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG16-004",
+      "verdict": "green_wins",
+      "rationale": "Green haalt de rebuttal-gate: regelbasis (§5.3 en §6), concrete Griekse formule `στόμα πρὸς στόμα`, en versspecifiek onderscheid tussen 2JN 1:12 met `[met u]` en 3JN 1:14 zonder bracketed object.",
+      "scope": "verse",
+      "applied": false
+    },
+    {
+      "point_id": "RG16-005",
+      "verdict": "green_wins",
+      "rationale": "Green haalt de rebuttal-gate: regelbasis (§3.1 en §6), concrete Griekse termen `ποιεῖς` en `ἐργάσῃ`, en versspecifiek argument dat de dubbele doe-constructie in 3JN 1:5 formeel behouden blijft.",
+      "scope": "verse",
+      "applied": false
+    },
+    {
+      "point_id": "RG16-006",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert expliciet; `meegaande` is een participiumcarry-over binnen een kanttekening.",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG16-007",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert expliciet; `Gode` en `waardiglijk` blijven archaïsch in glosse en hoofdtekstzin.",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG16-008",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert expliciet; passief `verstaan worden` in deze kanttekening is de false-friendformule voor `opgevat/bedoeld worden`.",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG16-009",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert expliciet; `daarna ernaar streeft` is een versspecifieke fout voor SV `daer na tracht` in de zin van `daarnaar streeft`.",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG16-010",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert expliciet; `snaterende tegen ons` is een participiumcarry-over bij `φλυαρῶν ἡμᾶς`.",
+      "scope": "verse",
+      "applied": true
+    }
+  ]
+}
