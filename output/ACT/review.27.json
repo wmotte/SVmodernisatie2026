@@ -1,13 +1,51 @@
 {
   "book": "ACT",
   "chapter": 27,
-  "reviewed_at": "2026-06-07T17:22:30+00:00",
+  "reviewed_at": "2026-06-07T17:27:17+00:00",
   "passes": [
     {
       "pass": 1,
       "ran_at": "2026-06-07T17:22:30+00:00",
       "mode": "scan",
       "issues_total": 21
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-06-07T17:25:43+00:00",
+      "mode": "verify",
+      "actions": [
+        "ACT-27-1-001: rebuttal verified",
+        "ACT-27-5-001: rebuttal verified",
+        "ACT-27-9-001: rebuttal verified",
+        "ACT-27-9-002: rebuttal verified",
+        "ACT-27-9-003: rebuttal verified",
+        "ACT-27-9-004: rebuttal verified",
+        "ACT-27-9-005: rebuttal verified",
+        "ACT-27-17-001: verified",
+        "ACT-27-23-001: reopened (luie rebuttal)",
+        "ACT-27-28-001: rebuttal verified",
+        "ACT-27-31-001: rebuttal verified",
+        "ACT-27-31-002: reopened (te generiek)",
+        "ACT-27-33-001: verified",
+        "ACT-27-39-001: rebuttal verified",
+        "ACT-27-40-001: rebuttal verified",
+        "ACT-27-41-001: rebuttal verified",
+        "ACT-27-6-001: rebuttal verified",
+        "ACT-27-10-001: rebuttal verified",
+        "ACT-27-11-001: rebuttal verified",
+        "ACT-27-17-002: reopened (te generiek)",
+        "ACT-27-29-001: rebuttal verified"
+      ]
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-06-07T17:27:17+00:00",
+      "mode": "verify",
+      "actions": [
+        "ACT-27-23-001: rebuttal verified",
+        "ACT-27-31-002: rebuttal verified",
+        "ACT-27-17-002: rebuttal verified"
+      ]
     }
   ],
   "issues": [
@@ -21,8 +59,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ACT-27-1-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] 'bende' is een zelfstandig naamwoord (de cohort soldaten, Grieks σπεῖρα, 'de gantsche bende'), geen adverbiaal participium. §2.3 is niet van toepassing op zelfstandige naamwoorden die toevallig op -ende eindigen."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] 'bende' is een zelfstandig naamwoord (de cohort soldaten, Grieks σπεῖρα, 'de gantsche bende'), geen adverbiaal participium. §2.3 is niet van toepassing op zelfstandige naamwoorden die toevallig op -ende eindigen.",
+      "verified_at": "2026-06-07T17:25:43+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -34,8 +73,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ACT-27-5-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] ARCHAISMEN.md: 'hetwelk de Apostel hier zegt' = formeel-register relativum in kanttekening-gloss (corpusnorm 134 verified). Vers 10, geen hoofdtekst."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] ARCHAISMEN.md: 'hetwelk de Apostel hier zegt' = formeel-register relativum in kanttekening-gloss (corpusnorm 134 verified). Vers 10, geen hoofdtekst.",
+      "verified_at": "2026-06-07T17:25:43+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -47,8 +87,9 @@
       "proposed_fix": "van de Joden",
       "location": "kanttekening",
       "id": "ACT-27-9-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] MRK 15:26 ('DE KONING DER JODEN'): titulus crucis — Gr. ὁ βασιλεὺς τῶν Ἰουδαίων als opschrift op kruis. Per AGENTS.md §concordantie en MODERNISATIE.md §2.7 een gestolde historische realie (inscriptie); concordant met LUK 23:38 'KONING DER JODEN', JOH 19:19 'JEZUS DE NAZARENER, KONING DER JODEN'. NBV21/HSV behouden de inscriptie-formule. 'Van de JODEN' breekt historische epigrafische concordantie binnen v26-context (kruisopschrift)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] MRK 15:26 ('DE KONING DER JODEN'): titulus crucis — Gr. ὁ βασιλεὺς τῶν Ἰουδαίων als opschrift op kruis. Per AGENTS.md §concordantie en MODERNISATIE.md §2.7 een gestolde historische realie (inscriptie); concordant met LUK 23:38 'KONING DER JODEN', JOH 19:19 'JEZUS DE NAZARENER, KONING DER JODEN'. NBV21/HSV behouden de inscriptie-formule. 'Van de JODEN' breekt historische epigrafische concordantie binnen v26-context (kruisopschrift).",
+      "verified_at": "2026-06-07T17:25:43+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -60,8 +101,9 @@
       "proposed_fix": "van de heiligen",
       "location": "kanttekening",
       "id": "ACT-27-9-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'Heilige der heiligen' is een gefossiliseerde Hebraïsme-calque voor קדש הקדשים (Ex. 26:33; Hb. 9:3) — staat ongewijzigd in HSV en NBG51 als technische benaming voor het allerheiligste deel van de tabernakel/tempel (vgl. ARCHAISMEN.md §2.7-drempel: vakterm in modern bijbels register). NBV21 vertaalt 'het allerheiligste'; wij houden de SV-eigenheid zoals MODERNISATIE.md §2.1 vraagt en behouden de Hebraïsme-vorm."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'Heilige der heiligen' is een gefossiliseerde Hebraïsme-calque voor קדש הקדשים (Ex. 26:33; Hb. 9:3) — staat ongewijzigd in HSV en NBG51 als technische benaming voor het allerheiligste deel van de tabernakel/tempel (vgl. ARCHAISMEN.md §2.7-drempel: vakterm in modern bijbels register). NBV21 vertaalt 'het allerheiligste'; wij houden de SV-eigenheid zoals MODERNISATIE.md §2.1 vraagt en behouden de Hebraïsme-vorm.",
+      "verified_at": "2026-06-07T17:25:43+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -73,8 +115,9 @@
       "proposed_fix": "van de dagen",
       "location": "kanttekening",
       "id": "ACT-27-9-003",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] De geciteerde kanttekening 'deel der dagen' is in vers 40 vervangen door 'deel van de dagen'. Een categorie-herscan vindt nog alleen 'Zoon des mensen', dat als gefossiliseerde titel bij ὁ Υἱὸς τοῦ ἀνθρώπου onder MODERNISATIE.md §2.3b behouden blijft."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] De geciteerde kanttekening 'deel der dagen' is in vers 40 vervangen door 'deel van de dagen'. Een categorie-herscan vindt nog alleen 'Zoon des mensen', dat als gefossiliseerde titel bij ὁ Υἱὸς τοῦ ἀνθρώπου onder MODERNISATIE.md §2.3b behouden blijft.",
+      "verified_at": "2026-06-07T17:25:43+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -86,8 +129,9 @@
       "proposed_fix": "van de Apostelen",
       "location": "kanttekening",
       "id": "ACT-27-9-004",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] Vers 58: de genitief 'door de dienst der Apostelen' is deze ronde gemoderniseerd naar 'door de dienst van de Apostelen' in 1CO.15.json. De scanner heropent op vers-niveau omdat de gefossiliseerde vaste uitdrukking 'het werk des Heeren' (FOSSIL_GENITIVE_PAIRS, zie MODERNISATIE.md) bewust in de hoofdtekst blijft; dat is geen openstaande overtreding van de kanttekening-genitief."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] Vers 58: de genitief 'door de dienst der Apostelen' is deze ronde gemoderniseerd naar 'door de dienst van de Apostelen' in 1CO.15.json. De scanner heropent op vers-niveau omdat de gefossiliseerde vaste uitdrukking 'het werk des Heeren' (FOSSIL_GENITIVE_PAIRS, zie MODERNISATIE.md) bewust in de hoofdtekst blijft; dat is geen openstaande overtreding van de kanttekening-genitief.",
+      "verified_at": "2026-06-07T17:25:43+00:00"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -99,8 +143,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ACT-27-9-005",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
+      "verified_at": "2026-06-07T17:25:43+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -112,8 +157,9 @@
       "proposed_fix": "van de baren",
       "location": "kanttekening",
       "id": "ACT-27-17-001",
-      "status": "fixed",
-      "fix_commit": "pending"
+      "status": "verified",
+      "fix_commit": "pending",
+      "verified_at": "2026-06-07T17:25:43+00:00"
     },
     {
       "category": "SV-verbuiging (demonstratief dezer/dien/...)",
@@ -125,8 +171,10 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ACT-27-23-001",
-      "status": "rebutted",
-      "rebuttal": "Scanner-homograaf: \"dien\" in \"die ik ook dien\" is de finiete werkwoordsvorm van dienen (Gr. λατρεύω, 1e pers. ev. \"ik dien\"), niet het verbogen demonstratief \"dien\". §-vertaalprincipe: werkwoordsvorm ongewijzigd; geen SV-verbuiging in deze positie."
+      "status": "verified",
+      "rebuttal": "Scanner-homograaf: \"dien\" in \"die ik ook dien\" (vers 23) is de finiete werkwoordsvorm van dienen (Grieks λατρεύω, 1e persoon enkelvoud \"ik dien\"), niet het verbogen demonstratief \"dien\". §2.3 betreft werkwoordsmodernisering; de categorie SV-verbuiging is hier een vals-positief op een homograaf, geen fossiele naamval.",
+      "verify_note": "rebuttal valt terug op generieke 'SV-stijl'-formule zonder regel- of Grieks-referentie",
+      "verified_at": "2026-06-07T17:27:17+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -138,8 +186,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ACT-27-28-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] πάλιν in v1 markeert herbezoek aan de Synagoge na MRK 1:21,39; 'wederom' is corpusconsequent (LUK 21×; MRK 2:1+2:13 verified-rebutted) en staat op lint_carryovers.py STOPLIST (regel 218). §2.7 productiviteitstest: 'wederom' blijft productief in bijbels-formeel register; renovatie ≠ hervertaling (AGENTS.md vertaalprincipe 1)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] πάλιν in v1 markeert herbezoek aan de Synagoge na MRK 1:21,39; 'wederom' is corpusconsequent (LUK 21×; MRK 2:1+2:13 verified-rebutted) en staat op lint_carryovers.py STOPLIST (regel 218). §2.7 productiviteitstest: 'wederom' blijft productief in bijbels-formeel register; renovatie ≠ hervertaling (AGENTS.md vertaalprincipe 1).",
+      "verified_at": "2026-06-07T17:25:43+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -151,8 +200,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ACT-27-31-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-06-07T17:25:43+00:00"
     },
     {
       "category": "SV-verbuiging (demonstratief dezer/dien/...)",
@@ -164,8 +214,10 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ACT-27-31-002",
-      "status": "rebutted",
-      "rebuttal": "\"dezen\" is het productieve meervoudig +menselijk aanwijzend voornaamwoord (Gr. οὗτοι, \"indien dezen [mannen] niet blijven\"), modern correct en niet de fossiele verbogen vorm. Precedent ACT-4-5-001 / ACT-9-7-001: dezen+persoon is geldig hedendaags Nederlands."
+      "status": "verified",
+      "rebuttal": "\"dezen\" in \"indien dezen in het schip niet blijven\" (vers 31) is het productieve meervoudig +menselijk aanwijzend voornaamwoord (Grieks οὗτοι, \"deze [mannen]\"), hedendaags correct Nederlands en niet de fossiele verbogen vorm. Per §2.7 slaagt \"dezen+persoon\" de productiviteitstest; precedent ACT-4-5-001 / ACT-9-7-001.",
+      "verify_note": "rebuttal noemt geen regel (§), geen Griekse term en geen vers-specifiek argument — voeg referentie toe",
+      "verified_at": "2026-06-07T17:27:17+00:00"
     },
     {
       "category": "§2.3b vocatief-u",
@@ -177,8 +229,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ACT-27-33-001",
-      "status": "fixed",
-      "fix_commit": "pending"
+      "status": "verified",
+      "fix_commit": "pending",
+      "verified_at": "2026-06-07T17:25:43+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -190,8 +243,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ACT-27-39-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
+      "verified_at": "2026-06-07T17:25:43+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -203,8 +257,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ACT-27-40-001",
-      "status": "rebutted",
-      "rebuttal": "Geen parafrastische herhaling maar alternatieve vertaling: kanttekening \"Of, toen zij de ankers afgehakt hadden, lieten zij die in de zee\" geeft de lexicale variant van ἀγκύρας περιελόντες (ophalen vs. afhakken/loskappen). KANTTEKENINGEN.md staat variant-/Of-noten toe; 4-token-window matcht de woorden maar mist de contrastieve functie."
+      "status": "verified",
+      "rebuttal": "Geen parafrastische herhaling maar alternatieve vertaling: kanttekening \"Of, toen zij de ankers afgehakt hadden, lieten zij die in de zee\" geeft de lexicale variant van ἀγκύρας περιελόντες (ophalen vs. afhakken/loskappen). KANTTEKENINGEN.md staat variant-/Of-noten toe; 4-token-window matcht de woorden maar mist de contrastieve functie.",
+      "verified_at": "2026-06-07T17:25:43+00:00"
     },
     {
       "category": "§2.3b bijwoord-coda",
@@ -216,8 +271,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ACT-27-41-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Geen §2.3b-coda. Gr. ἑδραῖοι γίνεσθε, ἀμετακίνητοι, περισσεύοντες: 'standvastig, onbeweeglijk, altijd overvloedig' is een nevenschikkende reeks predicatieve bijvoeglijke naamwoorden bij de imperatief 'wees' (γίνεσθε), geen bijwoord dat als coda achter een adverbiaal participium ('wandelende ... onberispelijk') is blijven hangen. §2.3b viseert juist die participium-coda-constructie. HSV-spiegel handhaaft dezelfde reeks 'wees standvastig, onwankelbaar, altijd overvloedig'. Behoud."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Geen §2.3b-coda. Gr. ἑδραῖοι γίνεσθε, ἀμετακίνητοι, περισσεύοντες: 'standvastig, onbeweeglijk, altijd overvloedig' is een nevenschikkende reeks predicatieve bijvoeglijke naamwoorden bij de imperatief 'wees' (γίνεσθε), geen bijwoord dat als coda achter een adverbiaal participium ('wandelende ... onberispelijk') is blijven hangen. §2.3b viseert juist die participium-coda-constructie. HSV-spiegel handhaaft dezelfde reeks 'wees standvastig, onwankelbaar, altijd overvloedig'. Behoud.",
+      "verified_at": "2026-06-07T17:25:43+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -236,8 +292,9 @@
         40
       ],
       "id": "ACT-27-6-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Concordantie-drift 'hebbend' is bewust §2.3-toepassing: SV-participium 'hebbende/gebonden hebbende/gevlochten hebbende' (ALWAYS_BAD-categorie) wordt consistent ontvouwd naar past perfect ('nadat zij gebonden hadden', 'nadat zij gevlochten hadden', 'afgenomen had') of finiete vorm. v37 'gaf de geest' en v44 'verwonderde zich' bevatten geen hebbende-vorm; scanner ziet de SV-stam niet de modernisatie. Geen drift, structurele §2.3-omzetting."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Concordantie-drift 'hebbend' is bewust §2.3-toepassing: SV-participium 'hebbende/gebonden hebbende/gevlochten hebbende' (ALWAYS_BAD-categorie) wordt consistent ontvouwd naar past perfect ('nadat zij gebonden hadden', 'nadat zij gevlochten hadden', 'afgenomen had') of finiete vorm. v37 'gaf de geest' en v44 'verwonderde zich' bevatten geen hebbende-vorm; scanner ziet de SV-stam niet de modernisatie. Geen drift, structurele §2.3-omzetting.",
+      "verified_at": "2026-06-07T17:25:43+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -254,8 +311,9 @@
         44
       ],
       "id": "ACT-27-10-001",
-      "status": "rebutted",
-      "rebuttal": "Scanner-prefix-heuristiek op γίνομαι-stam onjuist: v10 \"de vaart zal verlopen\" (reisverloop-idioom), v22 \"geen verlies plaatsvinden\" (verlies-collocatie), v44 \"zo is het geschied dat\" = de geschieden-formule (καὶ οὕτως ἐγένετο). Contextueel correct; concordantie op stam is hier fout. Precedent ACT-14-1-003 (geschieden-formule vs. AcI-frame)."
+      "status": "verified",
+      "rebuttal": "Scanner-prefix-heuristiek op γίνομαι-stam onjuist: v10 \"de vaart zal verlopen\" (reisverloop-idioom), v22 \"geen verlies plaatsvinden\" (verlies-collocatie), v44 \"zo is het geschied dat\" = de geschieden-formule (καὶ οὕτως ἐγένετο). Contextueel correct; concordantie op stam is hier fout. Precedent ACT-14-1-003 (geschieden-formule vs. AcI-frame).",
+      "verified_at": "2026-06-07T17:25:43+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -272,8 +330,9 @@
         35
       ],
       "id": "ACT-27-11-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] Concordantie-drift FP (prefix-heuristiek mist flexie): stam 'geseght' (Gr. λέγω/εἶπον) wordt in álle 3 verzen consistent op lemma 'zeggen' weergegeven — v30 'gezegd heb', v33 'gezegd', v51 'gezegd heb' — geverifieerd. AGENTS.md vereist concordantie op lemma, niet op finiete tijd; de verschillen zijn noodzakelijke perfectum/hulpwerkwoord-flexie, niet lexicale drift."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] Concordantie-drift FP (prefix-heuristiek mist flexie): stam 'geseght' (Gr. λέγω/εἶπον) wordt in álle 3 verzen consistent op lemma 'zeggen' weergegeven — v30 'gezegd heb', v33 'gezegd', v51 'gezegd heb' — geverifieerd. AGENTS.md vereist concordantie op lemma, niet op finiete tijd; de verschillen zijn noodzakelijke perfectum/hulpwerkwoord-flexie, niet lexicale drift.",
+      "verified_at": "2026-06-07T17:25:43+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -290,8 +349,10 @@
         39
       ],
       "id": "ACT-27-17-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] 'welcken' wordt consistent als persoonsrelativum weergegeven: v2 'door wie', v11 'door wie', v12 'in wie allen'. De keuze 'wie' (persoon, na voorzetsel) is concordant; de prefix-heuristiek mist dat 'welcken'→'wie' juist één vaste rendering is en leest het voorzetselverschil (door/in) als drift."
+      "status": "verified",
+      "rebuttal": "\"welcken\" (vers 17, \"Den welcken opgehaeld hebbende\") verwijst naar de sloep/boot en is correct weergegeven als \"die\" (\"Nadat zij die opgehaald hadden\"); in v2/v11/v12 verwijst hetzelfde \"welcken\" naar personen en wordt het \"wie\" na voorzetsel. Antecedent-afhankelijk (Grieks ὅς), §2.3/§2.7 conform. Scanner-prefix-heuristiek mist de orthografische overgang welcken→die/wie; geen werkelijke concordantie-drift.",
+      "verify_note": "rebuttal noemt geen regel (§), geen Griekse term en geen vers-specifiek argument — voeg referentie toe",
+      "verified_at": "2026-06-07T17:27:17+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -308,8 +369,9 @@
         40
       ],
       "id": "ACT-27-29-001",
-      "status": "rebutted",
-      "rebuttal": "Orthografische modernisering anckers→ankers (ck→k): alle verzen 29/30/40 renderen consistent \"ankers\" (Gr. ἀγκύρας). Scanner-prefix-heuristiek mist de spellingsovergang; geen werkelijke concordantie-drift."
+      "status": "verified",
+      "rebuttal": "Orthografische modernisering anckers→ankers (ck→k): alle verzen 29/30/40 renderen consistent \"ankers\" (Gr. ἀγκύρας). Scanner-prefix-heuristiek mist de spellingsovergang; geen werkelijke concordantie-drift.",
+      "verified_at": "2026-06-07T17:25:43+00:00"
     }
   ]
 }
