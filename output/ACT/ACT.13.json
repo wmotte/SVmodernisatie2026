@@ -382,6 +382,33 @@
           "reason": "bibref.py normaliseert losse c.-token niet; zonder cap. defaultte de chapter-only-ref naar het huidige boek (ACT) i.p.v. Rom."
         }
       ]
+    },
+    {
+      "verse_number": 40,
+      "original": "Siet dan toe, dat over u-lieden niet en kome ’t gene geseght is <Dat is, in het boeck der kleyne Propheten, Nam. Habak. 1.5. Siet Actor. 7.42. Hoewel oock sommige meynen dat niet alleen dese plaetse, maer oock Iesa. 28. vers 14. soude hier te samen aengetrocken worden, alwaer het woort verachters uytgedruckt wort.> in de Propheten,",
+      "modernized": "Zie dan toe, dat over u niet kome wat gezegd is <Dat is, in het boek van de kleine Profeten, namelijk $Hk. 1:5$ Zie $Hd. 7:42$ Hoewel ook sommigen menen dat niet alleen deze plaats, maar ook $Js. 28:14$ hier samen zou aangetrokken worden, waar het woord verachters uitgedrukt wordt.> in de Profeten,",
+      "source_text": "βλέπετε οὖν μὴ ἐπέλθῃ ἐφ’ ὑμᾶς τὸ εἰρημένον ἐν τοῖς προφήταις,",
+      "generated_at": "2026-06-07T06:27:25.345616Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 41,
+      "original": "$Iesa. 28.14. Habak. 1.5.$ Siet ghy verachters, ende verwondert u, ende verdwijnt: want ick wercke een werck in uwe dagen, een werck het welck ghy niet en sult gelooven, soo het u yemant verhaelt.",
+      "modernized": "$Js. 28:14; Hk. 1:5$ Zie, u verachters, en verwonder u, en verdwijn: want ik werk een werk in uw dagen, een werk dat u niet zult geloven, als iemand het u verhaalt.",
+      "source_text": "Ἴδετε, οἱ καταφρονηταί, καὶ θαυμάσατε, καὶ ἀφανίσθητε· ὅτι ἔργον ἐγὼ ἐργάζομαι ἐν ταῖς ἡμέραις ὑμῶν, ἔργον ᾧ οὐ μὴ πιστεύσητε, ἐάν τις ἐκδιηγῆται ὑμῖν.",
+      "generated_at": "2026-06-07T06:27:43.885748Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 42,
+      "original": "Ende <Ofte, ende als sy (Namelick, Paulus ende Barnabas) uytgegaen waren, uyt de Synagoge der Ioden.> als de Ioden uytgegaen waren uyt de Synagoge, baden <Namel. Iodegenooten, ofte andere Godtsdienstige Heydenen, die daer in de Synagoge waren om de wet te hooren. siet vers 43.> de Heydenen dat <Ofte, op den tusschen Sabbath, dat is, op de dagen tusschen den Sabbath: om dat het schijnt dat Paulus ende Barnabas tusschen beyden oock met vele Heydenen gehandelt hebben, waer uyt tegen den naesten Sabbath desen toeloop des volcks is geresen, vers 44.> tegen den naesten Sabbath haer deselve woorden souden gesproken worden.",
+      "modernized": "En <Of, en toen zij (Namelijk, Paulus en Barnabas) uitgegaan waren, uit de Synagoge der Joden.> toen de Joden uitgegaan waren uit de Synagoge, baden <Namelijk, Jodengenoten, of andere Godsdienstige Heidenen, die daar in de Synagoge waren om de wet te horen. Zie vers 43.> de Heidenen dat <Of, op de tussen-Sabbat, dat is, op de dagen tussen de Sabbat: omdat het schijnt dat Paulus en Barnabas tussenbeide ook met vele Heidenen gehandeld hebben, waaruit tegen de naaste Sabbat deze toeloop van het volk is ontstaan, vers 44.> tegen de naaste Sabbat hun dezelfde woorden gesproken zouden worden.",
+      "source_text": "Ἐξιόντων δὲ ἐκ τῆς συναγωγῆς τῶν Ἰουδαίων, παρεκάλουν τὰ ἔθνη εἰς τὸ μεταξὺ σάββατον λαληθῆναι αὐτοῖς τὰ ῥήματα ταῦτα.",
+      "generated_at": "2026-06-07T06:28:11.570216Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
