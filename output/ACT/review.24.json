@@ -1,7 +1,7 @@
 {
   "book": "ACT",
   "chapter": 24,
-  "reviewed_at": "2026-06-07T12:37:39+00:00",
+  "reviewed_at": "2026-06-07T12:39:37+00:00",
   "passes": [
     {
       "pass": 1,
@@ -23,6 +23,14 @@
         "ACT-24-2-001: rebuttal verified",
         "ACT-24-6-001: reopened (te generiek)",
         "ACT-24-11-002: rebuttal verified"
+      ]
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-06-07T12:39:37+00:00",
+      "mode": "verify",
+      "actions": [
+        "ACT-24-6-001: rebuttal verified"
       ]
     }
   ],
@@ -109,7 +117,7 @@
       "id": "ACT-24-20-001",
       "status": "verified",
       "rebuttal": null,
-      "fix_commit": "pending",
+      "fix_commit": "9a8fee9912b18a5779a76f5110e8f9d98f44fa47",
       "verified_at": "2026-06-07T12:37:39+00:00"
     },
     {
@@ -146,8 +154,9 @@
         14
       ],
       "id": "ACT-24-6-001",
-      "status": "rebutted",
-      "rebuttal": "AGENTS.md concordantie volgt de functie van het SV-relativum; in ACT 24:6 'welcken' is accusatief-persoonsrelativum na hoofdtekst 'Die' en modern 'die wij ook gegrepen hebben'. ACT 24:8 heeft 'van den welcken' en wordt terecht 'Van wie', omdat het voorzetsel 'van' erbij hoort. ACT 24:14 heeft 'welcken sy ... secte noemen' en wordt 'die zij ... sekte noemen'. De betrokken Griekse vormen verschillen ook (ὃν / παρ’ οὗ / ἣν), dus één Nederlandse prefix zou juist minder formeel-equivalent zijn."
+      "status": "verified",
+      "rebuttal": "AGENTS.md concordantie volgt de functie van het SV-relativum; in ACT 24:6 'welcken' is accusatief-persoonsrelativum na hoofdtekst 'Die' en modern 'die wij ook gegrepen hebben'. ACT 24:8 heeft 'van den welcken' en wordt terecht 'Van wie', omdat het voorzetsel 'van' erbij hoort. ACT 24:14 heeft 'welcken sy ... secte noemen' en wordt 'die zij ... sekte noemen'. De betrokken Griekse vormen verschillen ook (ὃν / παρ’ οὗ / ἣν), dus één Nederlandse prefix zou juist minder formeel-equivalent zijn.",
+      "verified_at": "2026-06-07T12:39:37+00:00"
     },
     {
       "category": "concordantie-drift",
