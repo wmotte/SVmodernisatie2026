@@ -46,6 +46,46 @@
           "reason": "bibref.py herkent boektoken niet zonder spatie na de punt; zonder spatie verviel de Mt.-prefix naar onjuist Ps. 16:21"
         }
       ]
+    },
+    {
+      "verse_number": 4,
+      "original": "$Actor. 28.24.$ Ende sommige uyt haer <Gr. lieten haer geseggen, ofte, overreden.> geloofden, ende wierden Paulo ende Sile <Gr. toegelotet, Actor. 13.48.> toegevoeght, ende van <D. Iodegenooten, gelijck uytgedruckt wort Actor. cap. 13. vers 43. ofte, andere die de Ioodsche religie waren toegedaen.> Godtsdienstige Griecken een groote menighte, ende van de voorneemste vrouwen <D. seer vele.> niet weynige.",
+      "modernized": "$Hd. 28:24$ En sommigen uit hen <Grieks: lieten zich gezeggen, of, overreden.> geloofden, en werden Paulus en Silas <Grieks: door het lot toegevoegd, $Hd. 13:48$.> toegevoegd, en van <Dat is, Jodengenoten, zoals uitgedrukt wordt $Hd. 13:43$; of, anderen die de Joodse religie waren toegedaan.> Godsdienstige Grieken een grote menigte, en van de voornaamste vrouwen <Dat is, zeer vele.> niet weinige.",
+      "source_text": "καί τινες ἐξ αὐτῶν ἐπείσθησαν, καὶ προσεκληρώθησαν τῷ Παύλῳ καὶ τῷ Σίλᾳ, τῶν τε σεβομένων Ἑλλήνων πολὺ πλῆθος, γυναικῶν τε τῶν πρώτων οὐκ ὀλίγαι.",
+      "generated_at": "2026-06-07T19:25:39.510218Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 5,
+      "original": "Maer de Ioden <Gr. die haer niet en wilden laten geseggen, ofte, overreden, D. die ongeloovigh bleven, Ioan. 3.36.> die ongehoorsaem waren <Ofte, hier over yverende, namelick met eenen verkeerden yver.> [dit] benijdende, namen tot haer eenige boose mannen, uyt <Dat is, eenige onnutte lieden, die gemeynlick aen de merckt ledigh staen.> de mercktboeven, ende <Ofte, maeckten eenen oploop des volcks.> maeckten dat het volck te hoope liep, ende beroerden de stadt: ende op het huys <Sommige meynen dat dese Iason deselve is daer van men leest Rom. 16. vers 21.> Iasons <Of, aen, of, tegen ’t huys staende.> aenvallende, sochten syse <Namelick, om haer te steenigen.> tot het volck te brengen.",
+      "modernized": "Maar de Joden <Grieks: die zich niet wilden laten gezeggen, of, overreden, Dat is, die ongelovig bleven, $Jh. 3:36$.> die ongehoorzaam waren, <Of, hierover ijverend, namelijk met een verkeerde ijver.> [dit] benijdden, namen enige boze mannen tot zich, uit <Dat is, enige onnutte lieden, die gewoonlijk op de markt ledig staan.> het marktgespuis, en <Of, maakten een oploop van het volk.> maakten dat het volk te hoop liep, en brachten de stad in beroering; en zij vielen het huis <Sommigen menen dat deze Jason dezelfde is van wie men leest $Rm. 16:21$.> van Jason <Of, zij stonden aan, of, tegen het huis.> aan, en zochten hen <Namelijk, om hen te stenigen.> tot het volk te brengen.",
+      "source_text": "ζηλώσαντες δὲ οἱ ἀπειθοῦντες Ἰουδαῖοι, καὶ προσλαβόμενοι τῶν ἀγοραίων τινὰς ἄνδρας πονηρούς, καὶ ὀχλοποιήσαντες, ἐθορύβουν τὴν πόλιν· ἐπιστάντες τε τῇ οἰκίᾳ Ἰάσονος, ἐζήτουν αὐτοὺς ἀγαγεῖν εἰς τὸν δῆμον.",
+      "generated_at": "2026-06-07T19:27:07.158462Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 6,
+      "original": "Ende als syse niet en vonden, trocken sy Iason ende eenige broeders voor de Overste der stadt, roepende, $Actor. 16.20.$ Dese, die de werelt <Ofte, in oproer gebracht, of, gemaeckt dat door de gantsche werelt d’eene tegen den anderen opstaet.> in roere hebben gestelt, zijn oock hier gekomen.",
+      "modernized": "En toen zij hen niet vonden, sleepten zij Jason en enige broeders voor de stadsbestuurders, en riepen: $Hd. 16:20$ Dezen, die de wereld <Of, in oproer gebracht, of, gemaakt dat door de gehele wereld de een tegen de ander opstaat.> in beroering hebben gebracht, zijn ook hier gekomen.",
+      "source_text": "μὴ εὑρόντες δὲ αὐτούς, ἔσυρον τὸν Ἰάσονα καί τινας ἀδελφοὺς ἐπὶ τοὺς πολιτάρχας, βοῶντες ὅτι Οἱ τὴν οἰκουμένην ἀναστατώσαντες, οὗτοι καὶ ἐνθάδε πάρεισιν,",
+      "generated_at": "2026-06-07T19:28:09.049145Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "de Overste der stadt",
+          "context": "hoofdtekst",
+          "choice": "weergegeven als de stadsbestuurders",
+          "alternatives": [
+            "de Overheid der stad",
+            "de overheden van de stad"
+          ],
+          "reason": "Grieks politarchas zijn de stadsbestuurders; van-constructie/genitief-archaisme der stad vermeden (MODERNISATIE.md 2.3c); meervoud common noun dus kleine letter"
+        }
+      ]
     }
   ]
 }
