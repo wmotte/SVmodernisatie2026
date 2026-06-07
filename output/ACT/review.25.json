@@ -1,0 +1,146 @@
+{
+  "book": "ACT",
+  "chapter": 25,
+  "reviewed_at": "2026-06-07T18:11:29+00:00",
+  "passes": [
+    {
+      "pass": 1,
+      "ran_at": "2026-06-07T18:09:58+00:00",
+      "mode": "scan",
+      "issues_total": 6
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-06-07T18:11:29+00:00",
+      "mode": "verify",
+      "actions": [
+        "ACT-25-6-001: rebuttal verified",
+        "ACT-25-10-001: verified",
+        "ACT-25-1-001: rebuttal verified",
+        "ACT-25-1-002: rebuttal verified",
+        "ACT-25-6-002: rebuttal verified",
+        "ACT-25-18-001: rebuttal verified"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "category": "kanttekening-redundantie",
+      "verse": 6,
+      "severity": "soft",
+      "quote_modernized": "meer dan tien dagen",
+      "rule_reference": "KANTTEKENINGEN.md (redundantie-regel)",
+      "explanation": "Kanttekening herhaalt 'meer dan tien dagen' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "ACT-25-6-001",
+      "status": "verified",
+      "rebuttal": "Geen redundantie maar een tekstvariant-kanttekening: SV markeert met Anders, ... een alternatieve lezing (KANTTEKENINGEN.md tekstvariant-type). De hoofdtekst leest niet meer dan tien dagen (Grieks: ou pleious hemeras deka), de kanttekening geeft de variant zonder ontkenning meer dan tien dagen in v6. De woordelijke overlap is inherent aan het citeren van de variant; schrappen zou de alternatieve lezing vernietigen. §-redundantieregel geldt niet voor variant-noten (v6).",
+      "rebutted_at": "2026-06-07T18:11:26.281073+00:00",
+      "verified_at": "2026-06-07T18:11:29+00:00"
+    },
+    {
+      "category": "genitief pronomen wiens/wier",
+      "verse": 10,
+      "severity": "hard",
+      "quote_modernized": "Namelijk, wiens Stadhouder u bent. Namelijk, als e…",
+      "rule_reference": "ARCHAISMEN.md (SV-pronomina)",
+      "explanation": "'wiens Stadhouder' — formeel-archaïsch genitief-pronomen. Modern Nederlands: 'van wie Stadhouder' of zinsherbouw met bezittelijk voornaamwoord ('die zijn Stadhouder', 'die haar Stadhouder'). NBV21 vermijdt 'wiens' grotendeels.",
+      "proposed_fix": null,
+      "location": "kanttekening",
+      "id": "ACT-25-10-001",
+      "status": "verified",
+      "fix_commit": "PENDING",
+      "verified_at": "2026-06-07T18:11:29+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 1,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'cesaree' in 4 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 4 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        1,
+        4,
+        6,
+        13
+      ],
+      "id": "ACT-25-1-001",
+      "status": "verified",
+      "rebuttal": "Vals positief in v1: scanner-prefix-heuristiek mist de eigennaam-spelling Cesaree->Caesarea (MODERNISATIE.md eigennaamregel). SV Cesareen wordt projectbreed naar Caesarea gemoderniseerd in alle voorkomens (v1, v4, v6, v13); de drift komt enkel door bron-prefix Cesare vs doel-prefix Caesare, geen lexicale keuze. Concordantie in v1 juist behouden.",
+      "rebutted_at": "2026-06-07T18:11:26.281073+00:00",
+      "verified_at": "2026-06-07T18:11:29+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 1,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'ierusal' in 7 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 7 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        1,
+        3,
+        7,
+        9,
+        15,
+        20,
+        24
+      ],
+      "id": "ACT-25-1-002",
+      "status": "verified",
+      "rebuttal": "Vals positief in v1: SV Ierusalem wordt projectbreed naar Jeruzalem gespeld (MODERNISATIE.md eigennaamregel, Grieks Hierosolyma/Hierousalem) in alle 7 voorkomens; de scanner-prefix-heuristiek mist de overgang Ie->Je. Geen lexicale drift, alleen spelling; concordantie in v1 behouden.",
+      "rebutted_at": "2026-06-07T18:11:26.281073+00:00",
+      "verified_at": "2026-06-07T18:11:29+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 6,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'gebrach' in 6 verzen — verzen [6, 14, 17, 23, 26] renderen het stam anders dan [18]",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 6 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        6,
+        14,
+        17,
+        18,
+        23,
+        26
+      ],
+      "id": "ACT-25-6-002",
+      "status": "verified",
+      "rebuttal": "Vals positief: SV-stam gebrach heeft twee betekenissen in v6. v6/v14 over-gebracht = tijd doorbrengen (Grieks: diatripsas, dagen besteden) -> doorgebracht; v17/v18/v23 (voort)gebracht = een persoon voorleiden (Grieks: achthenai) -> voorgebracht/gebracht; v26 meebrengt/voorgebracht. Twee collocaties, elk intern concordant; §2.7 vereist geen harmonisatie van homonieme bronstammen met uiteenlopende semantiek (v6).",
+      "rebutted_at": "2026-06-07T18:11:26.281073+00:00",
+      "verified_at": "2026-06-07T18:11:29+00:00"
+    },
+    {
+      "category": "concordantie-drift",
+      "verse": 18,
+      "severity": "soft",
+      "quote_modernized": "origineel-stam 'welcken' in 4 verzen — geen enkel vers heeft een moderne rendering met dezelfde prefix",
+      "rule_reference": "AGENTS.md vertaalprincipes (concordantie)",
+      "explanation": "Origineel-stam komt in 4 verzen voor; moderne rendering is inconsistent. Verifieer met sv-memory of dit bewust is (false-friend-correctie / contextverschil); zo niet, harmoniseer naar één keuze.",
+      "proposed_fix": null,
+      "location": "cross-vers",
+      "verses_involved": [
+        18,
+        19,
+        24,
+        26
+      ],
+      "id": "ACT-25-18-001",
+      "status": "verified",
+      "rebuttal": "Vals positief in v18: alle datief-voorkomens van welcken (v6, v8, v18, v24) zijn consistent als aan wie gerenderd (datief-relativum, Grieks hoi/hois). De scanner-prefix-heuristiek herkent de relativum-omzetting niet als concordant. MODERNISATIE.md vereist hier geen verdere harmonisatie; v18 volgt dezelfde keuze.",
+      "rebutted_at": "2026-06-07T18:11:26.281073+00:00",
+      "verified_at": "2026-06-07T18:11:29+00:00"
+    }
+  ]
+}
