@@ -317,6 +317,59 @@
           "reason": "SV-term medicijns leest in modern NL als geneesmiddelen (false friend); artsen sluit aan op de dominante concordante keuze elders in de uitvoer"
         }
       ]
+    },
+    {
+      "verse_number": 34,
+      "original": "Daerom vermane ick u spijse te nemen: want dat dient <N. om sterckte te hebben in ’t regeeren van ’t schip, ende om u selven te konnen helpen, als wy ons selven moeten salveeren.> tot uwer behoudinge: want niemanden van u $Matth. 10.30.$ en sal <D. en sal eenige schade lijden aen sijn leven of gesontheyt. Hebr. siet 1.Reg. 1. vers 52.> een hayr van den hoofde vallen.",
+      "modernized": "Daarom vermaan ik u voedsel te nemen: want dat dient <Namelijk, om kracht te hebben in het besturen van het schip, en om uzelf te kunnen helpen, wanneer wij onszelf moeten redden.> tot uw behoud: want van niemand van u $Mt. 10:30$ zal <Dat is, zal enige schade lijden aan zijn leven of gezondheid. Hebreeuws: zie $1Kn. 1:52$.> een haar van het hoofd vallen.",
+      "source_text": "διὸ παρακαλῶ ὑμᾶς προσλαβεῖν τροφῆς· τοῦτο γὰρ πρὸς τῆς ὑμετέρας σωτηρίας ὑπάρχει· οὐδενὸς γὰρ ὑμῶν θρὶξ ἐκ τῆς κεφαλῆς πεσεῖται.",
+      "generated_at": "2026-06-07T17:03:43.182758Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "spijse (Gr. tau-rho-omicron-phi-eta) -> voedsel",
+          "context": "hoofdtekst",
+          "choice": "voedsel",
+          "alternatives": [
+            "voeding",
+            "spijs"
+          ],
+          "reason": "Concordantie: spijse (Grieks trofe) wordt corpusbreed 24x als 'voedsel' gerenderd (HEB, ROM, JHN, 1CO, LUK, MAT) tegen slechts enkele 'voeding'-uitschieters; de kanttekening glosseert hier zelf <Grieks: voedsel>. Geharmoniseerd naar 'voedsel'."
+        }
+      ]
+    },
+    {
+      "verse_number": 35,
+      "original": "Ende als hy dit geseght ende broot genomen hadde, $1.Sam. 9.13. Ioan. 6.11. 1.Tim. 4.3.$ <N. voor de weldaet die haer Godt noch dede van spijse te hebben, ende die te konnen genieten tot versterckinge van hare krachten, gelijck oock Christus gewent was te doen, Matth. 14. vers 19. Ioan. 6.11. ende Paulus alle Christenen vermaent, 1.Timoth. 4.4, 5.> danckte hy Godt in aller tegenwoordigheyt: ende [het selve] gebroken hebbende begon hy te eten.",
+      "modernized": "En toen hij dit gezegd en brood genomen had, $1Sm. 9:13; Jh. 6:11; 1Tm. 4:3$ <Namelijk, voor de weldaad die God hun nog deed van voedsel te hebben, en dat te kunnen genieten tot versterking van hun krachten, zoals ook Christus gewoon was te doen, $Mt. 14:19; Jh. 6:11$, en zoals Paulus alle Christenen vermaant, $1Tm. 4:4,5$.> dankte hij God in tegenwoordigheid van allen: en nadat hij [het] gebroken had, begon hij te eten.",
+      "source_text": "εἰπὼν δὲ ταῦτα, καὶ λαβὼν ἄρτον, εὐχαρίστησε τῷ Θεῷ ἐνώπιον πάντων· καὶ κλάσας ἤρξατο ἐσθίειν.",
+      "generated_at": "2026-06-07T17:04:01.235452Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 36,
+      "original": "Ende sy alle goets moedts geworden zijnde, namen oock selve <Gr. voedsel.> spijse.",
+      "modernized": "En toen zij allen goedsmoeds geworden waren, namen ook zij zelf <Grieks: voedsel.> voedsel.",
+      "source_text": "εὔθυμοι δὲ γενόμενοι πάντες καὶ αὐτοὶ προσελάβοντο τροφῆς.",
+      "generated_at": "2026-06-07T17:03:49.109179Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "spijse (Gr. tau-rho-omicron-phi-eta) -> voedsel",
+          "context": "hoofdtekst",
+          "choice": "voedsel",
+          "alternatives": [
+            "voeding",
+            "spijs"
+          ],
+          "reason": "Concordantie: spijse (Grieks trofe) wordt corpusbreed 24x als 'voedsel' gerenderd; de kanttekening glosseert hier zelf <Grieks: voedsel>. Geharmoniseerd naar 'voedsel'."
+        }
+      ]
     }
   ]
 }
