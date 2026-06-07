@@ -142,6 +142,43 @@
       "generated_at": "2026-06-07T05:44:37.402767Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 16,
+      "original": "Ende Paulus stont op, ende $Actor. cap. 12. vers 17. ende 19.33. ende 21.40.$ wenckte met de hant, ende seyde, Ghy Israëlitische mannen, ende ghy die Godt vreest, hoort toe.",
+      "modernized": "En Paulus stond op, en $Hd. 12:17; 19:33; 21:40$ wenkte met de hand, en zei: Israëlitische mannen, en u die God vreest, luister.",
+      "source_text": "ἀναστὰς δὲ Παῦλος, καὶ κατασείσας τῇ χειρί, εἶπεν, Ἄνδρες Ἰσραηλῖται, καὶ οἱ φοβούμενοι τὸν Θεόν, ἀκούσατε.",
+      "generated_at": "2026-06-07T05:48:08.426343Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "context",
+          "subject": "hoort toe -> luister",
+          "context": "hoofdtekst; HSV-spiegel",
+          "choice": "luister",
+          "alternatives": ["hoort toe"],
+          "reason": "SV-imperatief-formule 'hoort toe' (Gr. akousate) leeft niet meer in modern Nederlands; drempel-archaisme per ARCHAISMEN.md (Hoort/Ziet toe -> luister/let op). HSV-spiegel bevestigt ('luister'). Concordant met eerder gemoderniseerde ACT-verzen (7:2, 4, 8, 12) waar 'hoort toe' -> 'luister'."
+        }
+      ]
+    },
+    {
+      "verse_number": 17,
+      "original": "De Godt deses volcks Israëls, heeft onse vaderen $Exod. cap. 1. vers 1.$ uytverkoren, ende het volck <Namelick, insonderheyt doe hy alle de wonderen dede in Egypten, ende alle de plagen over Pharao ende sijn volck sondt, om haer te verlossen.> verhooght, als sy vreemdelingen waren in het lant van Egypten: ende heeftse <D. met uytnemende kracht, Exod. 13.16. Iesa. 63.12.> met eenen hoogen arm daer uyt geleydt.",
+      "modernized": "De God van dit volk Israël heeft onze vaderen $Ex. 1:1$ uitverkoren, en het volk <Namelijk, inzonderheid toen hij alle wonderen deed in Egypte, en alle plagen over Farao en zijn volk zond, om hen te verlossen.> verhoogd, toen zij vreemdelingen waren in het land van Egypte; en heeft hen <Dat is, met uitnemende kracht, $Ex. 13:16; Js. 63:12$.> met een verheven arm daaruit geleid.",
+      "source_text": "ὁ Θεὸς τοῦ λαοῦ τούτου Ἰσραὴλ ἐξελέξατο τοὺς πατέρας ἡμῶν, καὶ τὸν λαὸν ὕψωσεν ἐν τῇ παροικίᾳ ἐν γῇ Αἰγύπτῳ, καὶ μετὰ βραχίονος ὑψηλοῦ ἐξήγαγεν αὐτοὺς ἐξ αὐτῆς.",
+      "generated_at": "2026-06-07T05:48:41.724964Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 18,
+      "original": "$Exod. 16.35. Num. 14.34. Psalm 95.10.$ Ende heeft ontrent den tijt van veertigh jaren <D. hare wederspannigheyt, versoeckingen, ende murmureeringen, Psalm 95.8, 9. Hebr. 3.8, 9.> hare zeden verdragen in de woestijne.",
+      "modernized": "$Ex. 16:35; Nm. 14:34; Ps. 95:10$ En hij heeft ongeveer veertig jaar lang <Dat is, hun weerspannigheid, verzoekingen, en het morren, $Ps. 95:8,9; Hb. 3:8,9$.> hun gedrag verdragen in de woestijn.",
+      "source_text": "καὶ ὡς τεσσαρακονταετῆ χρόνον ἐτροποφόρησεν αὐτοὺς ἐν τῇ ἐρήμῳ.",
+      "generated_at": "2026-06-07T05:49:11.314476Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
