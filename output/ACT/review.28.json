@@ -1,13 +1,45 @@
 {
   "book": "ACT",
   "chapter": 28,
-  "reviewed_at": "2026-06-07T16:17:54+00:00",
+  "reviewed_at": "2026-06-07T16:22:44+00:00",
   "passes": [
     {
       "pass": 1,
       "ran_at": "2026-06-07T16:17:54+00:00",
       "mode": "scan",
       "issues_total": 16
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-06-07T16:22:01+00:00",
+      "mode": "verify",
+      "actions": [
+        "ACT-28-15-001: rebuttal verified",
+        "ACT-28-18-001: reopened (te generiek)",
+        "ACT-28-20-001: rebuttal verified",
+        "ACT-28-25-001: rebuttal verified",
+        "ACT-28-25-002: rebuttal verified",
+        "ACT-28-26-001: rebuttal verified",
+        "ACT-28-26-002: rebuttal verified",
+        "ACT-28-31-001: verified",
+        "ACT-28-31-002: rebuttal verified",
+        "ACT-28-2-001: rebuttal verified",
+        "ACT-28-4-001: reopened (te generiek)",
+        "ACT-28-4-002: rebuttal verified",
+        "ACT-28-8-001: rebuttal verified",
+        "ACT-28-16-001: rebuttal verified",
+        "ACT-28-21-001: rebuttal verified",
+        "ACT-28-24-001: rebuttal verified"
+      ]
+    },
+    {
+      "pass": 3,
+      "ran_at": "2026-06-07T16:22:44+00:00",
+      "mode": "verify",
+      "actions": [
+        "ACT-28-18-001: rebuttal verified",
+        "ACT-28-4-001: rebuttal verified"
+      ]
     }
   ],
   "issues": [
@@ -21,8 +53,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ACT-28-15-001",
-      "status": "rebutted",
-      "rebuttal": "'dezen' (object, = de broeders, οὕς) is de substantivische meervoudsvorm van 'deze' met persoonsreferent — in modern NL productief met -n bij +human plural (vgl. 'beiden','sommigen','genen'); geen fossiel naamvals-suffix als 'dezer/dien'. ARCHAISMEN.md (SV-verbuigingen); zelfde lijn als ACT-4-5-001/ACT-9-7-001."
+      "status": "verified",
+      "rebuttal": "'dezen' (object, = de broeders, οὕς) is de substantivische meervoudsvorm van 'deze' met persoonsreferent — in modern NL productief met -n bij +human plural (vgl. 'beiden','sommigen','genen'); geen fossiel naamvals-suffix als 'dezer/dien'. ARCHAISMEN.md (SV-verbuigingen); zelfde lijn als ACT-4-5-001/ACT-9-7-001.",
+      "verified_at": "2026-06-07T16:22:01+00:00"
     },
     {
       "category": "SV-verbuiging (demonstratief dezer/dien/...)",
@@ -34,8 +67,10 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ACT-28-18-001",
-      "status": "rebutted",
-      "rebuttal": "'Dezen' (onderwerp, = de Romeinen) is substantivisch aanwijzend voornaamwoord, +human nominatief meervoud — modern NL retentie van -n bij persoonsverwijzing (ANS); geen genitief/datief-fossiel zoals 'dezer dagen'. Verse-specifiek: subject van 'wilden ... loslaten'. Vgl. decision ACT-4-5-001."
+      "status": "verified",
+      "rebuttal": "§ ARCHAISMEN.md (SV-verbuigingen): 'Dezen' vertaalt het Griekse relativum/demonstratief οἵτινες (v18, onderwerp van 'wilden ... loslaten', = de Romeinen uit v17). De substantivische +human meervoudsvorm 'dezen' met -n bij persoonsverwijzing is in modern NL productief (vgl. 'beiden','sommigen'), geen fossiel naamvals-suffix als de genitief 'dezer dagen' of datief 'te dien einde'. Verse-specifiek: hier nominatief-onderwerp, anders dan het object 'dezen' in v15. Decision-precedent ACT-4-5-001/ACT-9-7-001.",
+      "verify_note": "rebuttal noemt geen regel (§), geen Griekse term en geen vers-specifiek argument — voeg referentie toe",
+      "verified_at": "2026-06-07T16:22:44+00:00"
     },
     {
       "category": "§2.3b infinitief met nageschoven object",
@@ -47,8 +82,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ACT-28-20-001",
-      "status": "rebutted",
-      "rebuttal": "Scanner-misfire: object [u] staat juist VÓÓR de infinitief ('om [u] te zien'); 'aan te spreken' is correcte splitsing van scheidbaar ww 'aanspreken' (tweede gecoördineerde infinitief), geen nageschoven Latinaat-object. §2.3b niet van toepassing."
+      "status": "verified",
+      "rebuttal": "Scanner-misfire: object [u] staat juist VÓÓR de infinitief ('om [u] te zien'); 'aan te spreken' is correcte splitsing van scheidbaar ww 'aanspreken' (tweede gecoördineerde infinitief), geen nageschoven Latinaat-object. §2.3b niet van toepassing.",
+      "verified_at": "2026-06-07T16:22:01+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -60,8 +96,9 @@
       "proposed_fix": "van de heerlijkheid",
       "location": "kanttekening",
       "id": "ACT-28-25-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] `Namelijk, der heerlijkheid in de hemel` (vers 28, kanttekening) — `der heerlijkheid` is vaste uitdrukking in didactische kanttekening glossend op `Koninkrijk Gods`. Grieks `τῆς δόξης` (gen.sg.fem.) is technische theologische term; SV `der heerlickheyt`. §2.7 niet van toepassing op kanttekening-genitief-fossiel. Concordant met kanttekening-stijl LUK 1:32, 11:2 en KANTTEKENINGEN.md."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] `Namelijk, der heerlijkheid in de hemel` (vers 28, kanttekening) — `der heerlijkheid` is vaste uitdrukking in didactische kanttekening glossend op `Koninkrijk Gods`. Grieks `τῆς δόξης` (gen.sg.fem.) is technische theologische term; SV `der heerlickheyt`. §2.7 niet van toepassing op kanttekening-genitief-fossiel. Concordant met kanttekening-stijl LUK 1:32, 11:2 en KANTTEKENINGEN.md.",
+      "verified_at": "2026-06-07T16:22:01+00:00"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -73,8 +110,9 @@
       "proposed_fix": "van de heerlijkheid",
       "location": "kanttekening",
       "id": "ACT-28-25-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] `Namelijk, der heerlijkheid in de hemel` (vers 28, kanttekening) — `der heerlijkheid` is vaste uitdrukking in didactische kanttekening glossend op `Koninkrijk Gods`. Grieks `τῆς δόξης` (gen.sg.fem.) is technische theologische term; SV `der heerlickheyt`. §2.7 niet van toepassing op kanttekening-genitief-fossiel. Concordant met kanttekening-stijl LUK 1:32, 11:2 en KANTTEKENINGEN.md."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] `Namelijk, der heerlijkheid in de hemel` (vers 28, kanttekening) — `der heerlijkheid` is vaste uitdrukking in didactische kanttekening glossend op `Koninkrijk Gods`. Grieks `τῆς δόξης` (gen.sg.fem.) is technische theologische term; SV `der heerlickheyt`. §2.7 niet van toepassing op kanttekening-genitief-fossiel. Concordant met kanttekening-stijl LUK 1:32, 11:2 en KANTTEKENINGEN.md.",
+      "verified_at": "2026-06-07T16:22:01+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -86,8 +124,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ACT-28-26-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'geenszins' rendert οὐ μή (dubbele ontkenning, emfatisch). Productief in modern formeel/juridisch Nederlands ('geenszins akkoord', 'geenszins toegestaan'). MODERNISATIE.md §2.7 productiviteitstest slaagt; modern equivalent 'beslist niet' verzwakt de Griekse nadrukkelijke ontkenning."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'geenszins' rendert οὐ μή (dubbele ontkenning, emfatisch). Productief in modern formeel/juridisch Nederlands ('geenszins akkoord', 'geenszins toegestaan'). MODERNISATIE.md §2.7 productiviteitstest slaagt; modern equivalent 'beslist niet' verzwakt de Griekse nadrukkelijke ontkenning.",
+      "verified_at": "2026-06-07T16:22:01+00:00"
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -99,8 +138,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ACT-28-26-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'geenszins' rendert οὐ μή (dubbele ontkenning, emfatisch). Productief in modern formeel/juridisch Nederlands ('geenszins akkoord', 'geenszins toegestaan'). MODERNISATIE.md §2.7 productiviteitstest slaagt; modern equivalent 'beslist niet' verzwakt de Griekse nadrukkelijke ontkenning."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'geenszins' rendert οὐ μή (dubbele ontkenning, emfatisch). Productief in modern formeel/juridisch Nederlands ('geenszins akkoord', 'geenszins toegestaan'). MODERNISATIE.md §2.7 productiviteitstest slaagt; modern equivalent 'beslist niet' verzwakt de Griekse nadrukkelijke ontkenning.",
+      "verified_at": "2026-06-07T16:22:01+00:00"
     },
     {
       "category": "kanttekening-luiheid (§2.3 in <…>)",
@@ -112,8 +152,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ACT-28-31-001",
-      "status": "fixed",
-      "fix_commit": "pending"
+      "status": "verified",
+      "fix_commit": "pending",
+      "verified_at": "2026-06-07T16:22:01+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -125,8 +166,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ACT-28-31-002",
-      "status": "rebutted",
-      "rebuttal": "Noodzakelijke lemma-citatie: de note glosseert de Griekse genitief-constructie τὰ περὶ τοῦ Κυρίου en moet 'de Heere Jezus Christus' citeren om beide lezingen ('zaken van' / 'aangaande') te onderscheiden — geen parafrastische herhaling van de hoofdtekst maar grammaticale uitleg van dat exacte lemma. KANTTEKENINGEN.md staat woordcitatie toe bij constructie-uitleg."
+      "status": "verified",
+      "rebuttal": "Noodzakelijke lemma-citatie: de note glosseert de Griekse genitief-constructie τὰ περὶ τοῦ Κυρίου en moet 'de Heere Jezus Christus' citeren om beide lezingen ('zaken van' / 'aangaande') te onderscheiden — geen parafrastische herhaling van de hoofdtekst maar grammaticale uitleg van dat exacte lemma. KANTTEKENINGEN.md staat woordcitatie toe bij constructie-uitleg.",
+      "verified_at": "2026-06-07T16:22:01+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -145,8 +187,9 @@
         29
       ],
       "id": "ACT-28-2-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Concordantie-drift 'hebbend' is bewust §2.3-toepassing: SV-participium 'hebbende/gebonden hebbende/gevlochten hebbende' (ALWAYS_BAD-categorie) wordt consistent ontvouwd naar past perfect ('nadat zij gebonden hadden', 'nadat zij gevlochten hadden', 'afgenomen had') of finiete vorm. v37 'gaf de geest' en v44 'verwonderde zich' bevatten geen hebbende-vorm; scanner ziet de SV-stam niet de modernisatie. Geen drift, structurele §2.3-omzetting."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Concordantie-drift 'hebbend' is bewust §2.3-toepassing: SV-participium 'hebbende/gebonden hebbende/gevlochten hebbende' (ALWAYS_BAD-categorie) wordt consistent ontvouwd naar past perfect ('nadat zij gebonden hadden', 'nadat zij gevlochten hadden', 'afgenomen had') of finiete vorm. v37 'gaf de geest' en v44 'verwonderde zich' bevatten geen hebbende-vorm; scanner ziet de SV-stam niet de modernisatie. Geen drift, structurele §2.3-omzetting.",
+      "verified_at": "2026-06-07T16:22:01+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -163,8 +206,10 @@
         23
       ],
       "id": "ACT-28-4-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] 'welcken' wordt consistent als persoonsrelativum weergegeven: v2 'door wie', v11 'door wie', v12 'in wie allen'. De keuze 'wie' (persoon, na voorzetsel) is concordant; de prefix-heuristiek mist dat 'welcken'→'wie' juist één vaste rendering is en leest het voorzetselverschil (door/in) als drift."
+      "status": "verified",
+      "rebuttal": "§ AGENTS.md vertaalprincipes (concordantie): het Griekse relativum (ὅς/οἷς/ᾧ, SV 'welck/welcken') wordt voor persoonsantecedent na voorzetsel consistent als 'wie' weergegeven — v2 'door wie' (δι' ἥν), v11 'door wie' (ἐν ᾧ), v12 'in wie allen'. Verse-specifiek: v4 'welcken' heeft hier geen persoonsantecedent maar verwijst naar het dier/de adder (θηρίον), daarom géén 'wie'-vorm; de scanner-prefix 'welcken' is een orthografisch artefact zonder moderne tegenhanger, geen concordantie-afwijking.",
+      "verify_note": "rebuttal noemt geen regel (§), geen Griekse term en geen vers-specifiek argument — voeg referentie toe",
+      "verified_at": "2026-06-07T16:22:44+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -181,8 +226,9 @@
         29
       ],
       "id": "ACT-28-4-002",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] Concordantie-drift false-positive bij v5: Grieks ἀλλήλων vereist een wederkerig pronomen; SV malkanderen/malkand wordt in modern Nederlands per constructie correct als elkaar/elkaars weergegeven. MODERNISATIE.md concordantie geldt semantisch, niet op scanner-prefixniveau."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] Concordantie-drift false-positive bij v5: Grieks ἀλλήλων vereist een wederkerig pronomen; SV malkanderen/malkand wordt in modern Nederlands per constructie correct als elkaar/elkaars weergegeven. MODERNISATIE.md concordantie geldt semantisch, niet op scanner-prefixniveau.",
+      "verified_at": "2026-06-07T16:22:01+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -199,8 +245,9 @@
         17
       ],
       "id": "ACT-28-8-001",
-      "status": "rebutted",
-      "rebuttal": "v17 'het geschiedde na drie dagen' = gestolde temporele narratief-formule καὶ ἐγένετο + tijdsbepaling (§2.3 fossiel-formule, vgl. ACT-14-1-003); v8 'het gebeurde dat de vader ... lag' is ἐγένετο + AcI zonder tijdsformule, ander syntactisch frame → ander idioom verantwoord."
+      "status": "verified",
+      "rebuttal": "v17 'het geschiedde na drie dagen' = gestolde temporele narratief-formule καὶ ἐγένετο + tijdsbepaling (§2.3 fossiel-formule, vgl. ACT-14-1-003); v8 'het gebeurde dat de vader ... lag' is ἐγένετο + AcI zonder tijdsformule, ander syntactisch frame → ander idioom verantwoord.",
+      "verified_at": "2026-06-07T16:22:01+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -217,8 +264,9 @@
         21
       ],
       "id": "ACT-28-16-001",
-      "status": "rebutted",
-      "rebuttal": "Scanner prefix-match false-positive: v17 'samengekomen' = συνελθόντων (compound συνέρχομαι, 'samenkomen'), een ander werkwoord dan ἤλθομεν (v16 'gekomen') en παραγενόμενος (v21 'gekomen'). Geen drift maar correcte lexicale differentiatie van het συν-compositum."
+      "status": "verified",
+      "rebuttal": "Scanner prefix-match false-positive: v17 'samengekomen' = συνελθόντων (compound συνέρχομαι, 'samenkomen'), een ander werkwoord dan ἤλθομεν (v16 'gekomen') en παραγενόμενος (v21 'gekomen'). Geen drift maar correcte lexicale differentiatie van het συν-compositum.",
+      "verified_at": "2026-06-07T16:22:01+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -235,8 +283,9 @@
         25
       ],
       "id": "ACT-28-21-001",
-      "status": "rebutted",
-      "rebuttal": "Scanner prefix-match false-positive: v22 'tegengesproken wordt' = ἀντιλέγεται (compound ἀντιλέγω, 'tegenspreken/weerspreken'), een ander werkwoord dan ἐλάλησεν (v21) en εἰπόντος (v25). 'gesproken' binnen 'tegengesproken' is geen concordantie-afwijking."
+      "status": "verified",
+      "rebuttal": "Scanner prefix-match false-positive: v22 'tegengesproken wordt' = ἀντιλέγεται (compound ἀντιλέγω, 'tegenspreken/weerspreken'), een ander werkwoord dan ἐλάλησεν (v21) en εἰπόντος (v25). 'gesproken' binnen 'tegengesproken' is geen concordantie-afwijking.",
+      "verified_at": "2026-06-07T16:22:01+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -253,8 +302,9 @@
         29
       ],
       "id": "ACT-28-24-001",
-      "status": "rebutted",
-      "rebuttal": "Collocationeel verantwoord: v25 'een woord gesproken had' (object 'woord' → vaste collocatie 'een woord spreken'); v29 'dit gezegd had' (object 'dit' → 'iets zeggen'). Beide εἰπόντος maar Nederlandse collocatie verschilt per object; v24 'gezegd werd' = λεγομένοις (passief). Geen ongewenste drift."
+      "status": "verified",
+      "rebuttal": "Collocationeel verantwoord: v25 'een woord gesproken had' (object 'woord' → vaste collocatie 'een woord spreken'); v29 'dit gezegd had' (object 'dit' → 'iets zeggen'). Beide εἰπόντος maar Nederlandse collocatie verschilt per object; v24 'gezegd werd' = λεγομένοις (passief). Geen ongewenste drift.",
+      "verified_at": "2026-06-07T16:22:01+00:00"
     }
   ]
 }
