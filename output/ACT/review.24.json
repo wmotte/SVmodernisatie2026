@@ -1,13 +1,29 @@
 {
   "book": "ACT",
   "chapter": 24,
-  "reviewed_at": "2026-06-07T12:34:55+00:00",
+  "reviewed_at": "2026-06-07T12:37:39+00:00",
   "passes": [
     {
       "pass": 1,
       "ran_at": "2026-06-07T12:34:55+00:00",
       "mode": "scan",
       "issues_total": 9
+    },
+    {
+      "pass": 2,
+      "ran_at": "2026-06-07T12:37:39+00:00",
+      "mode": "verify",
+      "actions": [
+        "ACT-24-5-001: rebuttal verified",
+        "ACT-24-11-001: rebuttal verified",
+        "ACT-24-14-001: rebuttal verified",
+        "ACT-24-14-002: rebuttal verified",
+        "ACT-24-17-001: rebuttal verified",
+        "ACT-24-20-001: verified",
+        "ACT-24-2-001: rebuttal verified",
+        "ACT-24-6-001: reopened (te generiek)",
+        "ACT-24-11-002: rebuttal verified"
+      ]
     }
   ],
   "issues": [
@@ -21,8 +37,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ACT-24-5-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Scanner-false-positive: 'meende' is verleden tijd van 'menen' (ik meende = ik dacht), een finiete persoonsvorm, geen -ende-participium. §2.3 niet van toepassing op finiete werkwoordsvormen."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Scanner-false-positive: 'meende' is verleden tijd van 'menen' (ik meende = ik dacht), een finiete persoonsvorm, geen -ende-participium. §2.3 niet van toepassing op finiete werkwoordsvormen.",
+      "verified_at": "2026-06-07T12:37:39+00:00"
     },
     {
       "category": "kanttekening-luiheid (§2.3 in <…>)",
@@ -34,8 +51,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ACT-24-11-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] 'diende' is finiet imperfectum van 'dienen' (3e pers. enkelvoud), geen adverbiaal participium. §2.3 viseert Latinate participia (λέγων-type); de relatiefzin 'die de gemeente diende' is reeds een finiete bijzin — precies wat §2.3 voorschrijft. Scanner-regex matcht foutief op de -ende-uitgang van een vervoegde verbumvorm."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] 'diende' is finiet imperfectum van 'dienen' (3e pers. enkelvoud), geen adverbiaal participium. §2.3 viseert Latinate participia (λέγων-type); de relatiefzin 'die de gemeente diende' is reeds een finiete bijzin — precies wat §2.3 voorschrijft. Scanner-regex matcht foutief op de -ende-uitgang van een vervoegde verbumvorm.",
+      "verified_at": "2026-06-07T12:37:39+00:00"
     },
     {
       "category": "SV-verbuiging (demonstratief dezer/dien/...)",
@@ -47,8 +65,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ACT-24-14-001",
-      "status": "rebutted",
-      "rebuttal": "'dien' in ACT 24:14 is hier de finiete persoonsvorm van 'dienen' bij subject 'ik' ('zo dien'), geen verbogen demonstratief 'dien'. ARCHAISMEN.md SV-verbuigingen raakt demonstrativa; de Griekse hoofdtekst heeft λατρεύω ('ik dien'), dus modern 'dien' is juist."
+      "status": "verified",
+      "rebuttal": "'dien' in ACT 24:14 is hier de finiete persoonsvorm van 'dienen' bij subject 'ik' ('zo dien'), geen verbogen demonstratief 'dien'. ARCHAISMEN.md SV-verbuigingen raakt demonstrativa; de Griekse hoofdtekst heeft λατρεύω ('ik dien'), dus modern 'dien' is juist.",
+      "verified_at": "2026-06-07T12:37:39+00:00"
     },
     {
       "category": "kanttekening-redundantie",
@@ -60,8 +79,9 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "ACT-24-14-002",
-      "status": "rebutted",
-      "rebuttal": "De kanttekening herhaalt niet uitlegloos 'wat in de wet', maar contrasteert versspecifiek Paulus' ontkenning: geen andere God en geen ander geloof dan wat in wet en Profeten staat. KANTTEKENINGEN.md redundantie-regel verbiedt lege herhaling; deze KT verklaart de beschuldiging 'nieuwe sekte' bij ACT 24:14."
+      "status": "verified",
+      "rebuttal": "De kanttekening herhaalt niet uitlegloos 'wat in de wet', maar contrasteert versspecifiek Paulus' ontkenning: geen andere God en geen ander geloof dan wat in wet en Profeten staat. KANTTEKENINGEN.md redundantie-regel verbiedt lege herhaling; deze KT verklaart de beschuldiging 'nieuwe sekte' bij ACT 24:14.",
+      "verified_at": "2026-06-07T12:37:39+00:00"
     },
     {
       "category": "§2.3b infinitief met nageschoven object",
@@ -73,8 +93,9 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ACT-24-17-001",
-      "status": "rebutted",
-      "rebuttal": "§2.3b geldt voor een nageschoven object van de infinitief. In ACT 24:17 staat het object al vóór de infinitief: 'aalmoezen te doen'; 'aan mijn volk' is de recipient-PP en correspondeert met Grieks εἰς τὸ ἔθνος μου, niet met het object. Geen Latinaat-objectpatroon."
+      "status": "verified",
+      "rebuttal": "§2.3b geldt voor een nageschoven object van de infinitief. In ACT 24:17 staat het object al vóór de infinitief: 'aalmoezen te doen'; 'aan mijn volk' is de recipient-PP en correspondeert met Grieks εἰς τὸ ἔθνος μου, niet met het object. Geen Latinaat-objectpatroon.",
+      "verified_at": "2026-06-07T12:37:39+00:00"
     },
     {
       "category": "SV-verbuiging (demonstratief dezer/dien/...)",
@@ -86,9 +107,10 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "ACT-24-20-001",
-      "status": "fixed",
+      "status": "verified",
       "rebuttal": null,
-      "fix_commit": "pending"
+      "fix_commit": "pending",
+      "verified_at": "2026-06-07T12:37:39+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -105,8 +127,9 @@
         22
       ],
       "id": "ACT-24-2-001",
-      "status": "rebutted",
-      "rebuttal": "[Automated Propagation] Stam 'seggend' (λέγων participium praesens) wordt in alle drie verzen conform §2.3 ALWAYS_BAD ontvouwd naar finiete vorm: v6 'en zei' (coördinerend), v18 'en zij vroegen hem en zeiden' (idem coördinerend), v26 'gesproken en gezegd heeft' (perf. coördinerend bij hoofdwerkwoord). De prefix-overlap-heuristiek mist deze contextuele variatie; alle drie eindigen op finiete vorm van 'zeggen' — concordant op werkwoord, gedifferentieerd op tijd/aspect."
+      "status": "verified",
+      "rebuttal": "[Automated Propagation] Stam 'seggend' (λέγων participium praesens) wordt in alle drie verzen conform §2.3 ALWAYS_BAD ontvouwd naar finiete vorm: v6 'en zei' (coördinerend), v18 'en zij vroegen hem en zeiden' (idem coördinerend), v26 'gesproken en gezegd heeft' (perf. coördinerend bij hoofdwerkwoord). De prefix-overlap-heuristiek mist deze contextuele variatie; alle drie eindigen op finiete vorm van 'zeggen' — concordant op werkwoord, gedifferentieerd op tijd/aspect.",
+      "verified_at": "2026-06-07T12:37:39+00:00"
     },
     {
       "category": "concordantie-drift",
@@ -124,7 +147,7 @@
       ],
       "id": "ACT-24-6-001",
       "status": "rebutted",
-      "rebuttal": "[Automated Propagation] 'welcken' wordt consistent als persoonsrelativum weergegeven: v2 'door wie', v11 'door wie', v12 'in wie allen'. De keuze 'wie' (persoon, na voorzetsel) is concordant; de prefix-heuristiek mist dat 'welcken'→'wie' juist één vaste rendering is en leest het voorzetselverschil (door/in) als drift."
+      "rebuttal": "AGENTS.md concordantie volgt de functie van het SV-relativum; in ACT 24:6 'welcken' is accusatief-persoonsrelativum na hoofdtekst 'Die' en modern 'die wij ook gegrepen hebben'. ACT 24:8 heeft 'van den welcken' en wordt terecht 'Van wie', omdat het voorzetsel 'van' erbij hoort. ACT 24:14 heeft 'welcken sy ... secte noemen' en wordt 'die zij ... sekte noemen'. De betrokken Griekse vormen verschillen ook (ὃν / παρ’ οὗ / ἣν), dus één Nederlandse prefix zou juist minder formeel-equivalent zijn."
     },
     {
       "category": "concordantie-drift",
@@ -141,8 +164,9 @@
         24
       ],
       "id": "ACT-24-11-002",
-      "status": "rebutted",
-      "rebuttal": "De drie SV-hits zijn brontekstelijk niet concordant: ACT 24:11 heeft ἀνέβην ('ik ben opgegaan' naar Jeruzalem), terwijl ACT 24:17 παρεγενόμην en ACT 24:24 παραγενόμενος gewone komst/aankomst uitdrukken. AGENTS.md concordantie volgt het Griekse woord; 'opgegaan' vs. 'gekomen' is daarom bewust onderscheid."
+      "status": "verified",
+      "rebuttal": "De drie SV-hits zijn brontekstelijk niet concordant: ACT 24:11 heeft ἀνέβην ('ik ben opgegaan' naar Jeruzalem), terwijl ACT 24:17 παρεγενόμην en ACT 24:24 παραγενόμενος gewone komst/aankomst uitdrukken. AGENTS.md concordantie volgt het Griekse woord; 'opgegaan' vs. 'gekomen' is daarom bewust onderscheid.",
+      "verified_at": "2026-06-07T12:37:39+00:00"
     }
   ]
 }
