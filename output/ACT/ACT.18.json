@@ -34,6 +34,45 @@
       "generated_at": "2026-06-07T10:13:42.472897Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 4,
+      "original": "Ende hy <Of, disputeerde. Siet Cap. 17. vers 2.> handelde op elcken Sabbath in de Synagoge, ende <Namel. door goede redenen ende gronden uyt de Heylige Schrifture genomen, om sijne leere aen te nemen.> beweeghde [tot den geloove] Ioden ende Griecken.",
+      "modernized": "En hij <Of, redetwistte. Zie $Hd. 17:2$.> handelde elke Sabbat in de Synagoge, en <Namelijk, door goede redenen en gronden uit de Heilige Schrift genomen, om zijn leer aan te nemen.> overtuigde [tot het geloof] Joden en Grieken.",
+      "source_text": "διελέγετο δὲ ἐν τῇ συναγωγῇ κατὰ πᾶν σάββατον, ἔπειθέ τε Ἰουδαίους καὶ Ἕλληνας.",
+      "generated_at": "2026-06-07T10:18:10.258008Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "twijfel",
+          "subject": "bibref chapter-only",
+          "context": "kanttekening 1",
+          "choice": "handmatig $Hd. 17:2$ geschreven",
+          "alternatives": [
+            "Siet Cap. 17. vers 2."
+          ],
+          "reason": "bibref.py normaliseert chapter-only/impliciete-boek refs (Cap. 17. vers 2.) niet automatisch; conform projectformaat handmatig gewrapt."
+        }
+      ]
+    },
+    {
+      "verse_number": 5,
+      "original": "Ende als Silas ende Timotheus $Actor. 17.15.$ van Macedonien afgekomen waren, wiert Pau-lus <Namelick, ofte door den Heyligen Geest, die Paulum aendreef: of, van sijn gemoedt het welck met yver was ontsteken.> door den Geest <D. door eenen stercken yver aengedreven.> gedrongen, <Gr. krachtelick, of, allesins betuygende.> betuygende den Ioden dat Iesus is <D. de gesalfde, de ware Messias door de Propheten belooft.> de Christus.",
+      "modernized": "En toen Silas en Timotheüs $Hd. 17:15$ van Macedonië afgekomen waren, werd Paulus <Namelijk, of door de Heilige Geest, die Paulus aandreef; of, door zijn gemoed dat met ijver was ontstoken.> door de Geest <Dat is, door een sterke ijver aangedreven.> gedrongen, en betuigde <Grieks: krachtig, of, met alle nadruk betuigend.> de Joden dat Jezus is <Dat is, de gezalfde, de ware Messias door de Profeten beloofd.> de Christus.",
+      "source_text": "Ὡς δὲ κατῆλθον ἀπὸ τῆς Μακεδονίας ὅ τε Σίλας καὶ ὁ Τιμόθεος, συνείχετο τῷ πνεύματι ὁ Παῦλος, διαμαρτυρόμενος τοῖς Ἰουδαίοις τὸν Χριστὸν Ἰησοῦν.",
+      "generated_at": "2026-06-07T10:18:53.676709Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 6,
+      "original": "Maer als sy wederstonden ende lasterden, <Dit was een teecken dat sy met haer geen gemeynschap meer en wilden hebben.> schuddede hy $Matth. 10.14. Actor. 13.51.$ [sijne] kleederen af, ende seyde tot haer, <D. de straffe niet alleen des tijtlicken, maer oock des eeuwigen doots, haelt ghy u selven door uw’ eygen schult op uwen hals. siet van dese maniere van spreken Levit. c. 20. versen 9, 12. 2.Sam. c. 1. vers 16. Matth. cap. 27. vers 25.> Uw’ bloet [zy] op uw’ hooft: <Namelick, van u bloet ende verderf, overmits ick u getrouwelick voor het verderf hebbe gewaerschouwt, ende den wegh der saligheyt aengewesen, die ghy niet en hebt willen volgen, Ezech. cap. 33. versen 8, 9. Actor. 20.26.> Ick ben reyn: [ende] van nu voort sal ick tot de Heydenen henen gaen.",
+      "modernized": "Maar toen zij zich verzetten en lasterden, <Dit was een teken dat zij met hen geen gemeenschap meer wilden hebben.> schudde hij $Mt. 10:14; Hd. 13:51$ [zijn] kleren af, en zei tot hen: <Dat is, de straf niet alleen van de tijdelijke, maar ook van de eeuwige dood, haalt u uzelf door uw eigen schuld op de hals. Zie over deze manier van spreken $Lv. 20:9,12; 2Sm. 1:16; Mt. 27:25$.> Uw bloed [zij] op uw hoofd: <Namelijk, van uw bloed en verderf, omdat ik u getrouw voor het verderf heb gewaarschuwd, en de weg der zaligheid heb aangewezen, die u niet hebt willen volgen, $Ez. 33:8,9; Hd. 20:26$.> ik ben rein: [en] van nu voortaan zal ik tot de Heidenen heengaan.",
+      "source_text": "ἀντιτασσομένων δὲ αὐτῶν καὶ βλασφημούντων, ἐκτιναξάμενος τὰ ἱμάτια, εἶπε πρὸς αὐτούς, Τὸ αἷμα ὑμῶν ἐπὶ τὴν κεφαλὴν ὑμῶν· καθαρὸς ἐγώ· ἀπὸ τοῦ νῦν εἰς τὰ ἔθνη πορεύσομαι.",
+      "generated_at": "2026-06-07T10:19:39.867076Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
