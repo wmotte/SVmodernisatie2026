@@ -157,7 +157,9 @@
           "subject": "hoort toe -> luister",
           "context": "hoofdtekst; HSV-spiegel",
           "choice": "luister",
-          "alternatives": ["hoort toe"],
+          "alternatives": [
+            "hoort toe"
+          ],
           "reason": "SV-imperatief-formule 'hoort toe' (Gr. akousate) leeft niet meer in modern Nederlands; drempel-archaisme per ARCHAISMEN.md (Hoort/Ziet toe -> luister/let op). HSV-spiegel bevestigt ('luister'). Concordant met eerder gemoderniseerde ACT-verzen (7:2, 4, 8, 12) waar 'hoort toe' -> 'luister'."
         }
       ]
@@ -177,6 +179,33 @@
       "modernized": "$Ex. 16:35; Nm. 14:34; Ps. 95:10$ En hij heeft ongeveer veertig jaar lang <Dat is, hun weerspannigheid, verzoekingen, en het morren, $Ps. 95:8,9; Hb. 3:8,9$.> hun gedrag verdragen in de woestijn.",
       "source_text": "καὶ ὡς τεσσαρακονταετῆ χρόνον ἐτροποφόρησεν αὐτοὺς ἐν τῇ ἐρήμῳ.",
       "generated_at": "2026-06-07T05:49:11.314476Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 19,
+      "original": "Ende seven volckeren uytgeroeyt hebbende in het lant Chanaan, heeft haer $Iosu. 14.2.$ <Ofte, tot een erfdeel gegeven.> door het lot het lant der selve uytgedeelt.",
+      "modernized": "En toen hij zeven volken uitgeroeid had in het land Kanaän, heeft hij hun $Jz. 14:2$ <Of, tot een erfdeel gegeven.> door het lot hun land uitgedeeld.",
+      "source_text": "καὶ καθελὼν ἔθνη ἑπτὰ ἐν γῇ Χαναάν, κατεκληροδότησεν αὐτοῖς τὴν γῆν αὐτῶν.",
+      "generated_at": "2026-06-07T05:53:58.675736Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 20,
+      "original": "Ende daer na, ontrent <Dese vier hondert ende vijftigh jaren tellen sommige van de geboorte Isaacs tot op de Rechteren, tusschen welcken tijt vier hondert en seven en veertigh jaren verloopen zijn: ende voegen het woort daer na met het beginsel van het 17 vers, als of hy seyde, na de verkiesinge van onse vaders, etc. Andere achten, dat dese woorden daer na moeten gevoeght worden met het eynde van het 17 vers, dat is, beginnende van den uytgangh der kinderen Israëls uyt Egypten tot de doot Samuels, welcke tijt by na vier hondert ende veertigh jaren begrijpt, gelijck te sien is 1.Reg. cap. 6. vers 1. ende dat Paulus om een ront getal te noemen daerom geseght heeft ontrent vier hondert en vijftigh jaren, gelijck dat in alle talen gebruycklick is, wanneer het weynigh min ofte meer is.> vier hondert ende vijftigh jaren, gaf hy [haer] $Iudic. 2.16. ende 3.9.$ Rechters tot op Samuel den Propheet.",
+      "modernized": "En daarna, ongeveer <Deze vierhonderdvijftig jaar tellen sommigen vanaf de geboorte van Isaak tot aan de Rechters, tussen welke tijd vierhonderdzevenenveertig jaar verlopen zijn; en zij voegen het woord \"daarna\" bij het begin van het 17e vers, alsof hij zei: na de verkiezing van onze vaderen, enz. Anderen menen dat deze woorden \"daarna\" gevoegd moeten worden bij het einde van het 17e vers, dat is, beginnende vanaf de uittocht van de kinderen van Israël uit Egypte tot de dood van Samuel, welke tijd bijna vierhonderdveertig jaar omvat, zoals te zien is $1Kn. 6:1$, en dat Paulus, om een rond getal te noemen, daarom gezegd heeft ongeveer vierhonderdvijftig jaar, zoals dat in alle talen gebruikelijk is wanneer het weinig min of meer is.> vierhonderdvijftig jaar, gaf hij [hun] $Ri. 2:16; 3:9$ Rechters tot aan Samuel de Profeet.",
+      "source_text": "καὶ μετὰ ταῦτα, ὡς ἔτεσι τετρακοσίοις καὶ πεντήκοντα, ἔδωκε κριτὰς ἕως Σαμουὴλ τοῦ προφήτου.",
+      "generated_at": "2026-06-07T05:54:35.216553Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 21,
+      "original": "$1.Sam. cap. 8. vers 5. Hose. 13.11.$ Ende van doen aen begeerden sy eenen Koningh, ende Godt gaf haer $1.Sam. 9.15. ende cap. 10. vers 1.$ Saul den sone Kis, eenen man uyt de stamme Benjamin, <Namel. hier in begrepen zijnde de jaren die Samuel voor ende met Saul geregeert hadde.> veertigh jaren.",
+      "modernized": "$1Sm. 8:5; Hs. 13:11$ En van toen af begeerden zij een Koning, en God gaf hun $1Sm. 9:15; 10:1$ Saul, de zoon van Kis, een man uit de stam Benjamin, <Namelijk, hierin begrepen de jaren die Samuel vóór en met Saul geregeerd had.> veertig jaar.",
+      "source_text": "κἀκεῖθεν ᾐτήσαντο βασιλέα, καὶ ἔδωκεν αὐτοῖς ὁ Θεὸς τὸν Σαοὺλ υἱὸν Κίς, ἄνδρα ἐκ φυλῆς Βενιαμίν, ἔτη τεσσαράκοντα.",
+      "generated_at": "2026-06-07T05:55:07.049979Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
     }
