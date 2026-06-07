@@ -223,6 +223,33 @@
       "generated_at": "2026-06-07T12:17:53.374166Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 25,
+      "original": "Ende hy schreef eenen brief, hebbende desen inhoudt.",
+      "modernized": "En hij schreef een brief, die deze inhoud had.",
+      "source_text": "γράψας ἐπιστολὴν περιέχουσαν τὸν τύπον τοῦτον·",
+      "generated_at": "2026-06-07T12:24:10.700120Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 26,
+      "original": "Claudius Lysias aen den <Siet Luce 1.3. Actor. cap. 24. vers 3. ende 26.25.> machtighsten Stadthouder Felix groetenisse.",
+      "modernized": "Claudius Lysias aan de <Zie $Lk. 1:3; Hd. 24:3; 26:25$.> hooggeachte Stadhouder Felix: gegroet.",
+      "source_text": "Κλαύδιος Λυσίας τῷ κρατίστῳ ἡγεμόνι Φήλικι χαίρειν.",
+      "generated_at": "2026-06-07T12:24:37.576363Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 27,
+      "original": "$Actor. 21.33.$ Alsoo dese man van de Ioden gegrepen was, ende van haer omgebracht soude geworden zijn, ben ick daer over gekomen met het krijghsvolck, ende hebbe hem [haer] ontnomen, bericht zijnde dat hy een Romeyn is.",
+      "modernized": "$Hd. 21:33$ Toen deze man door de Joden gegrepen was en door hen omgebracht zou worden, kwam ik daarop af met het krijgsvolk en heb hem [hun] ontnomen, nadat mij bericht was dat hij een Romein is.",
+      "source_text": "τὸν ἄνδρα τοῦτον συλληφθέντα ὑπὸ τῶν Ἰουδαίων, καὶ μέλλοντα ἀναιρεῖσθαι ὑπ’ αὐτῶν, ἐπιστὰς σὺν τῷ στρατεύματι ἐξειλόμην αὐτόν, μαθὼν ὅτι Ῥωμαῖός ἐστι.",
+      "generated_at": "2026-06-07T12:24:50.944947Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
     }
   ]
 }
