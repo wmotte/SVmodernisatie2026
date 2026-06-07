@@ -277,6 +277,46 @@
       "generated_at": "2026-06-07T16:54:06.659517Z",
       "model": "claude-opus-4-7[1m]",
       "memory_examples_used": 5
+    },
+    {
+      "verse_number": 31,
+      "original": "Seyde Paulus tot den Hooftman, ende tot de krijghsknechten, Indien dese in het schip niet en blijven, <Want hoewel Godt Paulo door sijnen Engel belooft hadde, dat niemant uyt het schip en soude vergaen, vers 24. nochtans en worden daer mede de middelen niet wech genomen, daer door Godt dese sijne belofte wilde uytvoeren. Ende die daer in nalatigh is, die en gelooft Godt niet, maer versoeckt Godt.> ghy en kondt niet behouden worden.",
+      "modernized": "Paulus zei tot de Hoofdman en tot de krijgsknechten: Indien dezen in het schip niet blijven, <Want hoewel God Paulus door zijn Engel beloofd had dat niemand uit het schip zou vergaan, vers 24, wordt daarmee toch het middel niet weggenomen waardoor God deze zijn belofte wilde uitvoeren. En wie daarin nalatig is, die gelooft God niet, maar verzoekt God.> kunt u niet behouden worden.",
+      "source_text": "εἶπεν ὁ Παῦλος τῷ ἑκατοντάρχῃ καὶ τοῖς στρατιώταις, Ἐὰν μὴ οὗτοι μείνωσιν ἐν τῷ πλοίῳ, ὑμεῖς σωθῆναι οὐ δύνασθε.",
+      "generated_at": "2026-06-07T16:58:00.765403Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 32,
+      "original": "Doe hieuwen de krijghsknechten de touwen af van den boot, ende lieten hem afvallen.",
+      "modernized": "Toen hieuwen de krijgsknechten de touwen van de boot af, en lieten hem afvallen.",
+      "source_text": "τότε οἱ στρατιῶται ἀπέκοψαν τὰ σχοινία τῆς σκάφης, καὶ εἴασαν αὐτὴν ἐκπεσεῖν.",
+      "generated_at": "2026-06-07T16:58:31.164394Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5
+    },
+    {
+      "verse_number": 33,
+      "original": "Ende ondertusschen dat het dagh soude worden, vermaende Paulus [haer] alle, dat sy souden <Gr. voedsel.> spijse nemen: ende seyde, Het is heden de veertiende dagh dat ghy verwachtende blijft sonder eten, ende <D. als niet, seer weynigh: ofte, geen mael en hebt gehouden, gelijck vers 21. want anders en kan een gesont mensche (gelijck de medicijns getuygen) over de seven dagen niet wel vasten sonder sterven.> niet en hebt genomen:",
+      "modernized": "En ondertussen dat de dag zou worden, vermaande Paulus [hen] allen dat zij <Grieks: voedsel.> voeding zouden nemen, en zei: Het is heden de veertiende dag dat u verwachtende blijft zonder eten, en <Dat is, als niets, zeer weinig; of, geen maaltijd hebt gehouden, zoals vers 21; want anders kan een gezond mens (zoals de artsen getuigen) langer dan zeven dagen niet vasten zonder te sterven.> niets hebt genomen;",
+      "source_text": "ἄχρι δὲ οὗ ἔμελλεν ἡμέρα γίνεσθαι, παρεκάλει ὁ Παῦλος ἅπαντας μεταλαβεῖν τροφῆς, λέγων, Τεσσαρεσκαιδεκάτην σήμερον ἡμέραν προσδοκῶντες ἄσιτοι διατελεῖτε, μηδὲν προσλαβόμενοι.",
+      "generated_at": "2026-06-07T16:59:22.277187Z",
+      "model": "claude-opus-4-7[1m]",
+      "memory_examples_used": 5,
+      "notes": [
+        {
+          "type": "afwijking",
+          "subject": "medicijns -> artsen",
+          "context": "tweede kanttekening",
+          "choice": "artsen",
+          "alternatives": [
+            "de medicijns",
+            "medicijnmeesters"
+          ],
+          "reason": "SV-term medicijns leest in modern NL als geneesmiddelen (false friend); artsen sluit aan op de dominante concordante keuze elders in de uitvoer"
+        }
+      ]
     }
   ]
 }
