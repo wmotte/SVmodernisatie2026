@@ -1,5 +1,5 @@
 {
-  "rounds_done": 13,
+  "rounds_done": 14,
   "pairs": [
     [
       "REV",
@@ -53,6 +53,10 @@
     [
       "REV",
       "JHN"
+    ],
+    [
+      "MAT",
+      "ROM"
     ]
   ],
   "debate_count": {
@@ -60,10 +64,10 @@
     "JHN": 5,
     "1CO": 2,
     "LUK": 3,
-    "ROM": 3,
+    "ROM": 4,
     "2CO": 1,
     "MRK": 1,
-    "MAT": 2
+    "MAT": 3
   },
   "closed_keys": [
     "consistentie|2CO,ROM|om de aanleiding af te snijden voor hen|concordantie cross-book (grieks aphorme)",
@@ -114,7 +118,12 @@
     "modernisatie|LUK|zei hij neemt deze en deelt hem onder|archaismen.md (imperatief-meervoud op `-t` → stam)",
     "modernisatie|LUK|ziet toe dat u niet verleid wordt|archaismen.md (imperatief-meervoud op `-t` → stam; `(hoort|ziet|zie) toe` → let op / pas op)",
     "modernisatie|MAT,REV|want hoewel christus' gemeente nimmermeer vergaat|modernisatie.md §2.7 (drempel-archaïsme)",
+    "modernisatie|MAT|de andere maria zittende tegenover het graf|modernisatie.md §2.3",
     "modernisatie|MAT|die en zei drinkt allen daaruit|archaismen.md:imperatief-meervoud op `-t` → stam",
+    "modernisatie|MAT|maar toen jezus zulks hoorde|archaismen.md: `sulcks` / `zulks`; modernisatie.md §2.7; agents.md vierkante haken behouden, inhoud moderniseren",
+    "modernisatie|MAT|schudt wanneer u uit dat huis of uit|archaismen.md: imperatief-meervoud op `-t`; modernisatie.md §2.7",
+    "modernisatie|MAT|weest dan niet niet dat wij ons van|archaismen.md: imperatief-meervoud op `-t`; modernisatie.md §2.7",
+    "modernisatie|MAT|weest dan voorzichtig zoals de slangen|archaismen.md: imperatief-meervoud op `-t`; modernisatie.md §2.7",
     "modernisatie|MAT|zo zal ik u geenszins verloochenen desgelijks zeiden|modernisatie.md §2.7 (drempel-archaïsme); rules_data.py drempel_archaismen (woord niet gelist)",
     "modernisatie|MRK|antwoordt mij|archaismen.md:78 (imperatief-meervoud sv-`-t` → stam)",
     "modernisatie|MRK|bereidt de weg van de heere maakt zijn|archaismen.md:78 (imperatief-meervoud sv-`-t` → stam)",
@@ -142,10 +151,14 @@
     "modernisatie|REV|waarna de mensen op de aarde zich evenwel|rules_data.py drempel_archaismen ('evenwel'); modernisatie.md §2.7. scaffolding-gap: intro niet gescand.",
     "modernisatie|REV|wee wee de grote stad in welke allen|modernisatie.md §2.7 / archaismen.md (fossiel betrekkelijk voornaamwoord in hoofdtekst)",
     "modernisatie|REV|zeven vurige lampen waren brandende voor de troon|modernisatie.md §2.3 (predicatief/periphrastisch participium)",
+    "modernisatie|ROM|aangezien ik weet dat u zulks metterdaad betoont|archaismen.md: `sulcks` / `zulks`; modernisatie.md §2.7; kanttekeningen tellen volwaardig mee",
+    "modernisatie|ROM|en als god zijn toorn willend bewijzen en|modernisatie.md §2.3 en §2.3b",
     "modernisatie|ROM|en wederom ps 117 1 looft de heere|archaismen.md:78 (imperatief-meervoud sv-`-t` -> stam)",
+    "modernisatie|ROM|grieks overhebbende of uitnemende dat is overste macht|kanttekeningen.md §geen sv-participia in kanttekeningen; modernisatie.md §2.3",
+    "modernisatie|ROM|nam om ons vandaar te halen de wil|kanttekeningen.md §standaard-vertalingen voor afkortingen; agents.md kanttekening-conventies",
     "modernisatie|ROM|oordeelt dit liever|archaismen.md:78 imperatief-meervoud sv-`-t` -> stam",
     "modernisatie|ROM|weest vrolijk u heidenen met zijn volk|archaismen.md:78 imperatief-meervoud sv-`-t` -> stam"
   ],
   "open_keys": [],
-  "updated_at": "2026-06-06T21:00:55.457978+00:00"
+  "updated_at": "2026-06-07T18:36:36.411993+00:00"
 }
