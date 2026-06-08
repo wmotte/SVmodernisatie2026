@@ -128,9 +128,10 @@ Selector-rondes Fase 3:
 Acceptatie voor Fase 3:
 
 - [x] De laatste selector-sessie levert een ronde met 0 nieuwe punten op (R43).
-- [x] Geen nieuw `rule_change`-verdict staat nog open. (Openstaand-DEFERRED, met
-      user-confirm: kop-kwalificatie FOSSIL_GENITIVE_HEAD_PAIRS voor der aarde/der
-      heiligen — validator-logica-wijziging, bewust niet autonoom doorgevoerd.)
+- [x] Geen nieuw `rule_change`-verdict staat nog open. (Laatste DEFERRED-post AFGEROND
+      na user-confirm: kop-kwalificatie FOSSIL_GENITIVE_HEAD_PAIRS voor `der aarde`
+      (einden/einde) + `der heiligen` (heilige/koning) toegepast in rules_data.py;
+      pure data-delta, hergebruikt de R35-kop-lookup. lint_all NT-breed PASS.)
 
 ## Per-Ronde Checklist
 

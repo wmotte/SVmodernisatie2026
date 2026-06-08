@@ -928,8 +928,10 @@ Red bracht 3 punt(en). Verdicts: red_wins=2, green_wins=1, rule_change=0.
 - Fossiel-genitief allowlist-lek (der Joden/aarde/heiligen/wereld → van de): body NT-breed unfolded (R35/37/40/41/42).
 - πόλεμος→oorlog, geenszins/Μηδαμῶς, ὄχλος→schare (vs πλῆθος=menigte), κλαίω→wenen, μακροθυμία→lankmoedig: consistent.
 
-### Bewust openstaand (DEFERRED, met user-confirm)
-- Kop-kwalificatie `FOSSIL_GENITIVE_HEAD_PAIRS` voor `der aarde`/`der heiligen` (validator-LOGICA-wijziging): niet autonoom doorgevoerd; allowlist-lek nu via content-fixes gedicht maar regel-hardening wacht op gebruikersbesluit.
+### Afgerond na user-confirm
+- Kop-kwalificatie `FOSSIL_GENITIVE_HEAD_PAIRS` voor `der aarde`/`der heiligen`: **GEDAAN** (einden/einde der aarde + heilige/koning der heiligen toegevoegd aan rules_data.py; pure data-delta, hergebruikt R35-kop-lookup; lint_all NT-breed PASS). Toekomstige `X der aarde/heiligen`-lekken nu HARD.
+
+### Bewust openstaand (DEFERRED)
 - σπλάγχνα `innerlijke bewegingen` (green_wins R44): consistente SV-renovatie; eventueel apart NT-breed concordantie-besluit.
 - Passieve διδάσκω-vormen (1TH 4:9 θεοδίδακτοι, 2TH 2:15, COL 2:7, GAL 1:12, JHN 6:45): conservatief behouden als learner/adjectivaal.
 - Note-only residu `wederom` (32) / `geenszins` (4) in kanttekeningen: annotator-Nederlands zonder Grieks-grond, geen concordantie-issue.
