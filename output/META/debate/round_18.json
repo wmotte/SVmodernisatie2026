@@ -1,0 +1,294 @@
+{
+  "round_no": 18,
+  "books": [
+    "1JN",
+    "2PE"
+  ],
+  "red": [
+    {
+      "id": "RG18-001",
+      "class": "modernisatie",
+      "books": [
+        "1JN"
+      ],
+      "chapter": 2,
+      "verse": 15,
+      "quote": "En hebt ... de wereld niet lief",
+      "in_kanttekening": false,
+      "rule_reference": "ARCHAISMEN.md: imperatief-meervoud op `-t`; MODERNISATIE.md §2.3",
+      "explanation": "De hoofdtekst heeft een aansporende imperatief. Modern Nederlands gebruikt hier de stamvorm; `hebt` bewaart de SV-meervoudsimperatief.",
+      "proposed_fix": "Heb de wereld niet lief",
+      "severity": "hard"
+    },
+    {
+      "id": "RG18-002",
+      "class": "modernisatie",
+      "books": [
+        "1JN"
+      ],
+      "chapter": 2,
+      "verse": 16,
+      "quote": "om alzo de wortel ervan uit te trekken",
+      "in_kanttekening": true,
+      "rule_reference": "MODERNISATIE.md §2.7; KANTTEKENINGEN.md",
+      "explanation": "`Alzo` is in lopende kanttekeningtaal een drempelarchaïsme. De betekenis blijft zonder verlies staan met `zo`.",
+      "proposed_fix": "om zo de wortel ervan uit te trekken",
+      "severity": "soft"
+    },
+    {
+      "id": "RG18-003",
+      "class": "consistentie",
+      "books": [
+        "1JN",
+        "2PE"
+      ],
+      "chapter": 4,
+      "verse": 1,
+      "quote": "Geliefde ... gelooft niet ... beproeft de geesten",
+      "in_kanttekening": false,
+      "rule_reference": "MODERNISATIE.md §2.3; concordantie Grieks `ἀγαπητοί`",
+      "explanation": "1 Johannes 4:1 gebruikt Grieks meervoud `ἀγαπητοί`, net als 2 Petrus 3. In 2PE is dit `geliefden`, terwijl 1JN hier enkelvoudig `Geliefde` laat staan. Bovendien blijven `gelooft` en `beproeft` SV-meervoudsimperatieven.",
+      "proposed_fix": "Geliefden ... geloof niet ... beproef de geesten",
+      "severity": "hard"
+    },
+    {
+      "id": "RG18-004",
+      "class": "modernisatie",
+      "books": [
+        "1JN"
+      ],
+      "chapter": 4,
+      "verse": 20,
+      "quote": "die kan geenszins God liefhebben",
+      "in_kanttekening": true,
+      "rule_reference": "scripts/rules_data.py DREMPEL_ARCHAISMEN; MODERNISATIE.md §2.7; KANTTEKENINGEN.md",
+      "explanation": "`Geenszins` is een drempelarchaïsme in verklarende kanttekeningtaal. Het kan idiomatisch worden vervangen zonder theologische lading te wijzigen.",
+      "proposed_fix": "die kan God zeker niet liefhebben",
+      "severity": "soft"
+    },
+    {
+      "id": "RG18-005",
+      "class": "modernisatie",
+      "books": [
+        "1JN"
+      ],
+      "chapter": 5,
+      "verse": 21,
+      "quote": "bewaart uzelf ... geenszins kan bestaan",
+      "in_kanttekening": false,
+      "rule_reference": "ARCHAISMEN.md: imperatief-meervoud op `-t`; scripts/rules_data.py DREMPEL_ARCHAISMEN",
+      "explanation": "De hoofdtekst heeft de slotvermaning als imperatief; `bewaart` moet modern `bewaar` worden. In dezelfde verskanttekening blijft ook `geenszins` als drempelarchaïsme staan.",
+      "proposed_fix": "bewaar uzelf ... zeker niet kan bestaan",
+      "severity": "hard"
+    },
+    {
+      "id": "RG18-006",
+      "class": "modernisatie",
+      "books": [
+        "2PE"
+      ],
+      "chapter": 1,
+      "verse": 0,
+      "quote": "8 lerend dat zij dan werkelijk vruchtbaar zullen zijn",
+      "in_kanttekening": false,
+      "rule_reference": "MODERNISATIE.md §2.3; INTRO_EPILOOG.md",
+      "explanation": "De hoofdstukintroductie volgt dezelfde moderniseringsregels. `Lerend dat` blijft een SV-participium aan het begin van een samenvattingszin en moet als finiete zin worden weergegeven.",
+      "proposed_fix": "8 en leert dat zij dan werkelijk vruchtbaar zullen zijn",
+      "severity": "hard"
+    },
+    {
+      "id": "RG18-007",
+      "class": "modernisatie",
+      "books": [
+        "2PE"
+      ],
+      "chapter": 2,
+      "verse": 10,
+      "quote": "Maar allermeest degenen",
+      "in_kanttekening": false,
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "`Allermeest` is een archaïsch versterkend bijwoord in lopende hoofdtekst. Grieks `μάλιστα` kan hier zonder verlies modern met `vooral` worden weergegeven.",
+      "proposed_fix": "Maar vooral degenen",
+      "severity": "soft"
+    },
+    {
+      "id": "RG18-008",
+      "class": "modernisatie",
+      "books": [
+        "2PE"
+      ],
+      "chapter": 2,
+      "verse": 20,
+      "quote": "de besmettingen van de wereld ... ontvloden zijn",
+      "in_kanttekening": false,
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "`Ontvloden zijn` is archaïsch en niet productief modern Nederlands. De context van 2PE 2:20 vraagt `ontkomen zijn`.",
+      "proposed_fix": "de besmettingen van de wereld ontkomen zijn",
+      "severity": "soft"
+    },
+    {
+      "id": "RG18-009",
+      "class": "modernisatie",
+      "books": [
+        "2PE"
+      ],
+      "chapter": 3,
+      "verse": 5,
+      "quote": "de aarde ... in het water bestaande",
+      "in_kanttekening": false,
+      "rule_reference": "MODERNISATIE.md §2.3",
+      "explanation": "`Bestaande` staat hier als participiale hoofdtekstconstructie bij Grieks `συνεστῶσα` en levert geen normale moderne Nederlandse zin op.",
+      "proposed_fix": "de aarde ... in het water bestaat",
+      "severity": "hard"
+    },
+    {
+      "id": "RG18-010",
+      "class": "modernisatie",
+      "books": [
+        "2PE"
+      ],
+      "chapter": 3,
+      "verse": 17,
+      "quote": "[zulks] van tevoren weet",
+      "in_kanttekening": false,
+      "rule_reference": "ARCHAISMEN.md: `sulcks`/`zulks`; MODERNISATIE.md §2.7",
+      "explanation": "`Zulks` is een drempelarchaïsme; de vierkante haken blijven staan, maar de inhoud moet mee moderniseren.",
+      "proposed_fix": "[dit] van tevoren weet",
+      "severity": "hard"
+    }
+  ],
+  "green": [
+    {
+      "point_id": "RG18-001",
+      "stance": "concede",
+      "rebuttal": "Concede. 1JN 2:15 is een directe vermaning (`Μὴ ἀγαπᾶτε`); de projectregel voor SV-meervoudsimperatieven zet zulke vormen op de stam. `Heb de wereld niet lief` behoudt de formele inhoud zonder archaïsche uitgang.",
+      "evidence": "1JN 2:15 `Μὴ ἀγαπᾶτε`; ARCHAISMEN.md imperatief-meervoud op `-t`; MODERNISATIE.md §2.3."
+    },
+    {
+      "point_id": "RG18-002",
+      "stance": "concede",
+      "rebuttal": "Concede. `Alzo` staat in een verklarende kanttekening, niet in een vaste brontaalgloss. KANTTEKENINGEN.md laat kanttekeningen volwaardig moderniseren; `zo` is hier dezelfde causale/retorische functie.",
+      "evidence": "1JN 2:16 kanttekening; MODERNISATIE.md §2.7; KANTTEKENINGEN.md."
+    },
+    {
+      "point_id": "RG18-003",
+      "stance": "concede",
+      "rebuttal": "Concede. `ἀγαπητοί` is meervoud en wordt in 2PE 3 consequent als `geliefden` weergegeven; 1JN 4:1 moet daarmee concordant zijn. De werkwoorden `πιστεύετε` en `δοκιμάζετε` zijn eveneens meervoudsimperatieven en vallen onder dezelfde stamregel.",
+      "evidence": "1JN 4:1 `ἀγαπητοί`, `πιστεύετε`, `δοκιμάζετε`; 2PE 3:1/8/14/17 `geliefden`; ARCHAISMEN.md imperatiefregel."
+    },
+    {
+      "point_id": "RG18-004",
+      "stance": "concede",
+      "rebuttal": "Concede. `Geenszins` is expliciet drempelarchaïsch en staat hier in lopende uitlegzin. `Zeker niet` behoudt de ontkennende sterkte.",
+      "evidence": "1JN 4:20 kanttekening; scripts/rules_data.py DREMPEL_ARCHAISMEN; MODERNISATIE.md §2.7."
+    },
+    {
+      "point_id": "RG18-005",
+      "stance": "concede",
+      "rebuttal": "Concede. 1JN 5:21 is een slotimperatief (`φυλάξατε`), dus `bewaart` moet `bewaar` worden. De kanttekening gebruikt daarnaast het al gesloten drempelarchaïsme `geenszins`.",
+      "evidence": "1JN 5:21 `φυλάξατε`; ARCHAISMEN.md imperatief-meervoud; scripts/rules_data.py DREMPEL_ARCHAISMEN."
+    },
+    {
+      "point_id": "RG18-006",
+      "stance": "concede",
+      "rebuttal": "Concede. INTRO_EPILOOG.md maakt de moderniseringsregels van toepassing op introducties. `Lerend dat` is geen beschermde formule maar een participiale samenvattingszin.",
+      "evidence": "2PE 1 introductie; INTRO_EPILOOG.md; MODERNISATIE.md §2.3."
+    },
+    {
+      "point_id": "RG18-007",
+      "stance": "concede",
+      "rebuttal": "Concede. `μάλιστα` in 2PE 2:10 is een gewone versterking. `Allermeest` is archaïsch register; `vooral` is moderne formele equivalentie.",
+      "evidence": "2PE 2:10 `μάλιστα`; MODERNISATIE.md §2.7."
+    },
+    {
+      "point_id": "RG18-008",
+      "stance": "concede",
+      "rebuttal": "Concede. 2PE 2:20 spreekt over personen die aan de besmettingen van de wereld ontkomen waren (`ἀποφυγόντες`). `Ontvloden zijn` is niet productief modern Nederlands; `ontkomen zijn` behoudt de betekenis.",
+      "evidence": "2PE 2:20 `ἀποφυγόντες`; MODERNISATIE.md §2.7."
+    },
+    {
+      "point_id": "RG18-009",
+      "stance": "concede",
+      "rebuttal": "Concede. De zin in 2PE 3:5 loopt in modern Nederlands vast op het participium `bestaande`; §2.3 staat omzetting naar een finiete constructie toe.",
+      "evidence": "2PE 3:5 `συνεστῶσα`; MODERNISATIE.md §2.3."
+    },
+    {
+      "point_id": "RG18-010",
+      "stance": "concede",
+      "rebuttal": "Concede. Vierkante haken moeten behouden blijven, maar hun inhoud wordt gemoderniseerd. `Zulks` is expliciet archaïsch en kan hier gewoon `dit` zijn.",
+      "evidence": "2PE 3:17 `[sulcks]`; ARCHAISMEN.md `sulcks`/`zulks`; AGENTS.md vierkante haken behouden."
+    }
+  ],
+  "verdicts": [
+    {
+      "point_id": "RG18-001",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert; de imperatiefregel is direct van toepassing op 1JN 2:15.",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG18-002",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert; `alzo` is lopende kanttekeningtaal en geen beschermde gloss.",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG18-003",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert; Grieks meervoud en cross-book rendering ondersteunen `geliefden`, en de imperatieven moeten naar stamvorm.",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG18-004",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert; `geenszins` is drempelarchaïsme in kanttekening.",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG18-005",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert; 1JN 5:21 combineert een SV-imperatief en een kanttekeningarchaïsme.",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG18-006",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert; introducties vallen onder dezelfde participiumregel.",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG18-007",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert; `allermeest` kan zonder verlies worden gemoderniseerd.",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG18-008",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert; `ontvloden zijn` faalt de productiviteitstest.",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG18-009",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert; de participiale hoofdtekstconstructie moet finiet.",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG18-010",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert; `[zulks]` moet binnen de haken gemoderniseerd worden.",
+      "scope": "verse",
+      "applied": true
+    }
+  ]
+}

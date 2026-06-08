@@ -408,3 +408,36 @@ Red bracht 10 punt(en). Verdicts: red_wins=10, green_wins=0, rule_change=0.
 - **[RG17-010] (modernisatie)** de genadige sententie, of het vonnis
   - regel: MODERNISATIE.md §2.7; KANTTEKENINGEN.md; fix: de genadige uitspraak of het vonnis
   - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert. `Sententie` is een Latijns-juridisch archaïsme in kanttekeningtekst; de verklaring `of het vonnis` heft de modernisatieplicht niet op.
+
+## Ronde 18 — 1JN + 2PE  (2026-06-08T05:01:28.374999+00:00)
+Red bracht 10 punt(en). Verdicts: red_wins=10, green_wins=0, rule_change=0.
+- **[RG18-001] (modernisatie)** En hebt ... de wereld niet lief
+  - regel: ARCHAISMEN.md: imperatief-meervoud op `-t`; MODERNISATIE.md §2.3; fix: Heb de wereld niet lief
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert; de imperatiefregel is direct van toepassing op 1JN 2:15.
+- **[RG18-002] (modernisatie)** om alzo de wortel ervan uit te trekken
+  - regel: MODERNISATIE.md §2.7; KANTTEKENINGEN.md; fix: om zo de wortel ervan uit te trekken
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert; `alzo` is lopende kanttekeningtaal en geen beschermde gloss.
+- **[RG18-003] (consistentie)** Geliefde ... gelooft niet ... beproeft de geesten
+  - regel: MODERNISATIE.md §2.3; concordantie Grieks `ἀγαπητοί`; fix: Geliefden ... geloof niet ... beproef de geesten
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert; Grieks meervoud en cross-book rendering ondersteunen `geliefden`, en de imperatieven moeten naar stamvorm.
+- **[RG18-004] (modernisatie)** die kan geenszins God liefhebben
+  - regel: scripts/rules_data.py DREMPEL_ARCHAISMEN; MODERNISATIE.md §2.7; KANTTEKENINGEN.md; fix: die kan God zeker niet liefhebben
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert; `geenszins` is drempelarchaïsme in kanttekening.
+- **[RG18-005] (modernisatie)** bewaart uzelf ... geenszins kan bestaan
+  - regel: ARCHAISMEN.md: imperatief-meervoud op `-t`; scripts/rules_data.py DREMPEL_ARCHAISMEN; fix: bewaar uzelf ... zeker niet kan bestaan
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert; 1JN 5:21 combineert een SV-imperatief en een kanttekeningarchaïsme.
+- **[RG18-006] (modernisatie)** 8 lerend dat zij dan werkelijk vruchtbaar zullen zijn
+  - regel: MODERNISATIE.md §2.3; INTRO_EPILOOG.md; fix: 8 en leert dat zij dan werkelijk vruchtbaar zullen zijn
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert; introducties vallen onder dezelfde participiumregel.
+- **[RG18-007] (modernisatie)** Maar allermeest degenen
+  - regel: MODERNISATIE.md §2.7; fix: Maar vooral degenen
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert; `allermeest` kan zonder verlies worden gemoderniseerd.
+- **[RG18-008] (modernisatie)** de besmettingen van de wereld ... ontvloden zijn
+  - regel: MODERNISATIE.md §2.7; fix: de besmettingen van de wereld ontkomen zijn
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert; `ontvloden zijn` faalt de productiviteitstest.
+- **[RG18-009] (modernisatie)** de aarde ... in het water bestaande
+  - regel: MODERNISATIE.md §2.3; fix: de aarde ... in het water bestaat
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert; de participiale hoofdtekstconstructie moet finiet.
+- **[RG18-010] (modernisatie)** [zulks] van tevoren weet
+  - regel: ARCHAISMEN.md: `sulcks`/`zulks`; MODERNISATIE.md §2.7; fix: [dit] van tevoren weet
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert; `[zulks]` moet binnen de haken gemoderniseerd worden.

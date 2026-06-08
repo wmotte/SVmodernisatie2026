@@ -1,5 +1,5 @@
 {
-  "rounds_done": 17,
+  "rounds_done": 18,
   "pairs": [
     [
       "REV",
@@ -69,6 +69,10 @@
     [
       "PHM",
       "JUD"
+    ],
+    [
+      "1JN",
+      "2PE"
     ]
   ],
   "debate_count": {
@@ -84,9 +88,12 @@
     "2JN": 1,
     "3JN": 1,
     "PHM": 1,
-    "JUD": 1
+    "JUD": 1,
+    "1JN": 1,
+    "2PE": 1
   },
   "closed_keys": [
+    "consistentie|1JN,2PE|geliefde gelooft niet beproeft de geesten|modernisatie.md §2.3; concordantie grieks `ἀγαπητοί`",
     "consistentie|2CO,ROM|om de aanleiding af te snijden voor hen|concordantie cross-book (grieks aphorme)",
     "consistentie|2JN,3JN|2jn 1 12 mond tot mond met u|modernisatie.md §5.3 concordantie; source_text in beide brieven: `στόμα πρὸς στόμα`",
     "consistentie|ACT,JHN|een grote menigte van kranken|agents.md concordantie; modernisatie.md §2.7; grieks: ασθενουντων",
@@ -107,10 +114,19 @@
     "modernisatie|1CO|want zo dikwijls als gij dit brood zult|archaismen.md (ghy/gy/gij → u)",
     "modernisatie|1CO|weest zonder aanstoot te geven en de joden|archaismen.md:78 (imperatief-meervoud -t -> stam; weest -> wees)",
     "modernisatie|1CO|zei neemt eet dat is mijn lichaam dat|archaismen.md (imperatief-meervoud op `-t` → stam); modernisatie.md imperatief-`-t`",
+    "modernisatie|1JN|bewaart uzelf geenszins kan bestaan|archaismen.md: imperatief-meervoud op `-t`; scripts/rules_data.py drempel_archaismen",
+    "modernisatie|1JN|die kan geenszins god liefhebben|scripts/rules_data.py drempel_archaismen; modernisatie.md §2.7; kanttekeningen.md",
+    "modernisatie|1JN|en hebt de wereld niet lief|archaismen.md: imperatief-meervoud op `-t`; modernisatie.md §2.3",
+    "modernisatie|1JN|om alzo de wortel ervan uit te trekken|modernisatie.md §2.7; kanttekeningen.md",
     "modernisatie|2CO|dat ons woord hetwelk tot u gekomen is|rules_data.py:340 archaisme-blacklist (hetwelk); drempel-archaisme relativum",
     "modernisatie|2JN|niet als een nieuw gebod aan u schrijvend|modernisatie.md §2.3; scripts/rules_data.py participle_bad_end_stems (`schrijvend`)",
     "modernisatie|2JN|om u te leren en te onderwijzen dat|archaismen.md false friends: `leren` / `leerde` als transitief didactisch werkwoord",
     "modernisatie|2JN|ziet toe voor uzelf|archaismen.md imperatief-meervoud op `-t`; archaismen.md `(hoort|ziet|zie) toe`",
+    "modernisatie|2PE|8 lerend dat zij dan werkelijk vruchtbaar zullen|modernisatie.md §2.3; intro_epiloog.md",
+    "modernisatie|2PE|de aarde in het water bestaande|modernisatie.md §2.3",
+    "modernisatie|2PE|de besmettingen van de wereld ontvloden zijn|modernisatie.md §2.7",
+    "modernisatie|2PE|maar allermeest degenen|modernisatie.md §2.7",
+    "modernisatie|2PE|zulks van tevoren weet|archaismen.md: `sulcks`/`zulks`; modernisatie.md §2.7",
     "modernisatie|3JN|boze woorden snaterende tegen ons|modernisatie.md §2.3; scripts/rules_data.py participle_bad_end_stems / adversarial_scan §2.3 finiet participium",
     "modernisatie|3JN|dit kan op twee manieren verstaan worden|archaismen.md false friends: `verstaan worden`",
     "modernisatie|3JN|een eind weegs met hen meegaande|kanttekeningen.md geen sv-participia in kanttekeningen; modernisatie.md §2.3",
@@ -207,5 +223,5 @@
     "modernisatie|ROM|weest vrolijk u heidenen met zijn volk|archaismen.md:78 imperatief-meervoud sv-`-t` -> stam"
   ],
   "open_keys": [],
-  "updated_at": "2026-06-07T20:40:56.855993+00:00"
+  "updated_at": "2026-06-08T05:01:28.374449+00:00"
 }
