@@ -89,7 +89,7 @@ Grote-boek kalibratie:
 
 - [x] `ACT + ROM` — R33 (8 red_wins: 6× didactisch leren→onderwijzen, rechten→verordeningen ROM 10:19, ergernis→aanstoot ROM 14:21; ergernis NT-deferred 14×)
 - [x] `MAT + MRK` — R34 (9 red_wins: synoptic imperatief-t Ziet toe/Gaat heen/weest/vreest/blijft→stem, ergernis→struikelen MRK 9:42; +2 synoptic-partner + 3 scanner-followup MRK 13)
-- [ ] `LUK + ACT`
+- [x] `LUK + ACT` — R35 (5 red_wins + 1 rule_change RG35-006: der-Joden genitief kop-kwalificatie FOSSIL_GENITIVE_HEAD_PAIRS, NT-brede body-sweep 0 over; notes-residu Pascha/feest/Overste der Joden DEFERRED)
 - [ ] `REV + JUD`
 - [ ] `REV + 2PE`
 
