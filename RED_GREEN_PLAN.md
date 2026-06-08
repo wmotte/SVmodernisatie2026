@@ -87,7 +87,7 @@ Algemene brieven:
 
 Grote-boek kalibratie:
 
-- [ ] `ACT + ROM`
+- [x] `ACT + ROM` — R33 (8 red_wins: 6× didactisch leren→onderwijzen, rechten→verordeningen ROM 10:19, ergernis→aanstoot ROM 14:21; ergernis NT-deferred 14×)
 - [ ] `MAT + MRK`
 - [ ] `LUK + ACT`
 - [ ] `REV + JUD`

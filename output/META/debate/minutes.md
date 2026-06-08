@@ -690,3 +690,30 @@ Red bracht 5 punt(en). Verdicts: red_wins=5, green_wins=0, rule_change=0.
 - **[RG32-005] (modernisatie)** besluitend dat zij zalig zullen zijn
   - regel: MODERNISATIE.md §2.3 (§2.3 geldt óók binnen <…> kanttekeningen, zonder uitzondering); kanttekeningen.md; fix: … dat is, valse sluitredenen die maken dat zij zichzelf bedriegen, en die besluiten / en concluderen dat zij zalig zullen zijn omdat zij hoorders van het woord zijn
   - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert (concede_fix). Genuine §2.3-overtreding binnen de kanttekening (§2.3 geldt HARD ín <…>): Gr. παραλογιζόμενοι, twee onontvouwde tegenwoordige participia op rij ('makend …, besluitend d
+
+## Ronde 33 — ACT + ROM  (2026-06-08T10:36:40.323500+00:00)
+Red bracht 8 punt(en). Verdicts: red_wins=8, green_wins=0, rule_change=0.
+- **[RG33-001] (consistentie)** Die dan een ander leert
+  - regel: ARCHAISMEN.md:147 false friend `leren`/`leerde` (διδάσκω, transitief didactisch) → onderwijzen; NT-wide precedent RG-16-RG16-003 (2JN), RG-30-RG30-009 (2PE), beide red_wins; fix: ROM 2:21: 'Die dan een ander onderwijst ... onderwijst u uzelf niet?'; harmoniseer ACT 21:21/21:28/28:31 en ROM 9:25/14:1/16:17 mee naar `onderwijzen`/`onderwees`/`onderwezen`.
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert. Vers-specifiek bevestigd: Grieks ὁ διδάσκων ἕτερον / σεαυτὸν οὐ διδάσκεις = διδάσκω (transitief-didactisch, leraar-subject, geen μανθάνω/leerling). Exact de false friend ARCHAISMEN.m
+- **[RG33-002] (modernisatie)** over de Heere Jezus Christus leerde
+  - regel: ARCHAISMEN.md:147 false friend `leerde` (διδάσκων, transitief didactisch) → onderwees; fix: 'over de Heere Jezus Christus onderwees'.
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert. Hoofdtekst-treffer, slotvers ACT. Grieks διδάσκων τὰ περὶ Χριστοῦ = διδάσκω (leraar-subject: Paulus onderricht over Christus), geen μανθάνω. ARCHAISMEN.md `leerde` (διδάσκω) → onderw
+- **[RG33-003] (modernisatie)** leert van
+  - regel: ARCHAISMEN.md:147 false friend `leert` (διδάσκεις, transitief didactisch) → onderwijst; fix: 'onderwijst' (en 21:28 'overal aan iedereen onderwijst').
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert. Body-treffer. Grieks διδάσκεις ἀπὸ Μωσέως = διδάσκω (leraar-subject: beschuldiging dat Paulus de Joden onderricht van Mozes af te vallen), geen μανθάνω. ARCHAISMEN.md `leert` (διδάσκ
+- **[RG33-004] (modernisatie)** leerden dat de ceremoniën
+  - regel: ARCHAISMEN.md:147 false friend `leerden` (transitief didactisch) → onderwezen; kanttekeningen tellen volwaardig mee; fix: 'onderwezen dat de ceremoniën ...' / 'leerden' → 'leerden onderrichten'? nee: 'onderwezen'.
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert. Kanttekening telt volwaardig mee. Dwaalleraars 'leerden dat de ceremoniën ... onderhouden moesten worden' = doceren van een leerstuk (διδάσκω-veld, leraar-subject). ARCHAISMEN.md `le
+- **[RG33-005] (modernisatie)** volhielden en leerden dat het onderhouden van de ceremoniën
+  - regel: ARCHAISMEN.md:147 false friend `leerden` (transitief didactisch) → onderwezen; kanttekeningen tellen volwaardig mee; fix: 'volhielden en onderwezen dat het onderhouden ...'.
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert. Kanttekening telt mee. 'hen die uit hardnekkigheid volhielden en leerden dat het onderhouden van de ceremoniën tot zaligheid nog noodzakelijk was' = doceren van leerstuk (διδάσκω-vel
+- **[RG33-006] (modernisatie)** dat hij niets anders leerde
+  - regel: ARCHAISMEN.md:147 false friend `leerde` (transitief didactisch) → onderwees/onderrichtte; fix: 'dat hij niets anders onderwees dan ...'.
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert. Kanttekening telt mee. 'dat hij niets anders leerde dan hetgeen door de Profeten voorzegd was' — de Apostel die onderricht/verkondigt (διδάσκω-veld, leraar-subject), geen μανθάνω/lee
+- **[RG33-007] (modernisatie)** de rechte kennis van God en zijn rechten niet hadden
+  - regel: ARCHAISMEN.md:137 false friend `rechten` (δικαιώματα, Gods inzettingen) → voorschriften/verordeningen/inzettingen; fix: 'de rechte kennis van God en zijn verordeningen niet hadden' (of 'voorschriften'/'inzettingen').
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert. Kanttekening telt mee. De ref $Ps. 147:19,20$ bewijst δικαιώματα (Gods inzettingen/verordeningen), niet juridische 'rechten'; modern leest 'rechten' dominant als rights. ARCHAISMEN.m
+- **[RG33-008] (modernisatie)** om het vermijden van ergernis
+  - regel: ARCHAISMEN.md:139 false friend `ergernis(se)` (σκάνδαλον/πρόσκομμα) → aanstoot/struikelblok; kanttekeningen tellen volwaardig mee; fix: 'om het vermijden van aanstoot' (en 14:22 'zonder aanstoot te geven aan de zwakke broeders'); harmoniseer met de body-keuze 'aanstoot'.
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert (én bevestigt de memory-decision feedback_false_friend_overrulet_renovatie: `ergernis` IS de false friend, `aanstoot` is correct — orchestrator-framing keerde dit om). Grieks σκάνδαλο

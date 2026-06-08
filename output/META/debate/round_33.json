@@ -1,0 +1,284 @@
+{
+  "round_no": 33,
+  "books": [
+    "ACT",
+    "ROM"
+  ],
+  "red": [
+    {
+      "id": "RG33-001",
+      "class": "consistentie",
+      "books": [
+        "ACT",
+        "ROM"
+      ],
+      "chapter": 2,
+      "verse": 21,
+      "quote": "Die dan een ander leert",
+      "in_kanttekening": false,
+      "rule_reference": "ARCHAISMEN.md:147 false friend `leren`/`leerde` (διδάσκω, transitief didactisch) → onderwijzen; NT-wide precedent RG-16-RG16-003 (2JN), RG-30-RG30-009 (2PE), beide red_wins",
+      "explanation": "Didactisch transitief διδάσκω (een leraar die een ander onderricht) wordt in zowel ACT (21:21 'leert van Mozes', 21:28 'overal aan [ieder] leert', 28:31 body 'over de Heere Jezus Christus leerde') als ROM (2:21, 9:25-note, 14:1-note, 16:17-note) consequent als `leren`/`leerde`/`leert` weergegeven. Dat is precies de false friend die NT-breed al als red_wins is beslecht (2JN, 2PE). ROM 2:21 is de scherpste: 'Die dan een ander leert ... leert u uzelf niet?' — onmiskenbaar doceren, niet zelf-opnemen. Modern NL leest `leren` dominant als 'zelf studeren/opnemen'. Beide boeken wijken af van de gevestigde norm `onderwijzen`.",
+      "proposed_fix": "ROM 2:21: 'Die dan een ander onderwijst ... onderwijst u uzelf niet?'; harmoniseer ACT 21:21/21:28/28:31 en ROM 9:25/14:1/16:17 mee naar `onderwijzen`/`onderwees`/`onderwezen`.",
+      "severity": "hard"
+    },
+    {
+      "id": "RG33-002",
+      "class": "modernisatie",
+      "books": [
+        "ACT"
+      ],
+      "chapter": 28,
+      "verse": 31,
+      "quote": "over de Heere Jezus Christus leerde",
+      "in_kanttekening": false,
+      "rule_reference": "ARCHAISMEN.md:147 false friend `leerde` (διδάσκων, transitief didactisch) → onderwees",
+      "explanation": "Hoofdtekst-treffer van de didactische false friend: Paulus die over Christus onderricht (διδάσκων). `leerde` leest modern als 'nam zelf op'; de bedoeling is doceren. Dit is geen note maar de verstekst, slotvers van ACT.",
+      "proposed_fix": "'over de Heere Jezus Christus onderwees'.",
+      "severity": "hard"
+    },
+    {
+      "id": "RG33-003",
+      "class": "modernisatie",
+      "books": [
+        "ACT"
+      ],
+      "chapter": 21,
+      "verse": 21,
+      "quote": "leert van",
+      "in_kanttekening": false,
+      "rule_reference": "ARCHAISMEN.md:147 false friend `leert` (διδάσκεις, transitief didactisch) → onderwijst",
+      "explanation": "Hoofdtekst: de beschuldiging dat Paulus 'alle Joden ... leert van Mozes [af te vallen]' (διδάσκεις). Transitief-didactisch doceren; `leert` leest modern verkeerd als 'leert af/neemt op'. Vgl. 21:28 ('overal aan [ieder] leert', διδάσκων) in hetzelfde hoofdstuk.",
+      "proposed_fix": "'onderwijst' (en 21:28 'overal aan iedereen onderwijst').",
+      "severity": "hard"
+    },
+    {
+      "id": "RG33-004",
+      "class": "modernisatie",
+      "books": [
+        "ROM"
+      ],
+      "chapter": 16,
+      "verse": 17,
+      "quote": "leerden dat de ceremoniën",
+      "in_kanttekening": true,
+      "rule_reference": "ARCHAISMEN.md:147 false friend `leerden` (transitief didactisch) → onderwezen; kanttekeningen tellen volwaardig mee",
+      "explanation": "Kanttekening: dwaalleraars 'die ... leerden dat de ceremoniën van de wet nog noodzakelijk onderhouden moesten worden'. Didactisch doceren (een leer verkondigen). Dezelfde false friend als de beslechte 2JN/2PE-punten; binnen de kanttekening geldt de regel onverkort.",
+      "proposed_fix": "'onderwezen dat de ceremoniën ...' / 'leerden' → 'leerden onderrichten'? nee: 'onderwezen'.",
+      "severity": "hard"
+    },
+    {
+      "id": "RG33-005",
+      "class": "modernisatie",
+      "books": [
+        "ROM"
+      ],
+      "chapter": 14,
+      "verse": 1,
+      "quote": "volhielden en leerden dat het onderhouden van de ceremoniën",
+      "in_kanttekening": true,
+      "rule_reference": "ARCHAISMEN.md:147 false friend `leerden` (transitief didactisch) → onderwezen; kanttekeningen tellen volwaardig mee",
+      "explanation": "Kanttekening bij ROM 14:1: 'hen die uit hardnekkigheid volhielden en leerden dat het onderhouden van de ceremoniën tot zaligheid nog noodzakelijk was'. Didactisch doceren van een leerstuk; `leerden` is de false friend. Cross-consistent met 16:17.",
+      "proposed_fix": "'volhielden en onderwezen dat het onderhouden ...'.",
+      "severity": "hard"
+    },
+    {
+      "id": "RG33-006",
+      "class": "modernisatie",
+      "books": [
+        "ROM"
+      ],
+      "chapter": 9,
+      "verse": 25,
+      "quote": "dat hij niets anders leerde",
+      "in_kanttekening": true,
+      "rule_reference": "ARCHAISMEN.md:147 false friend `leerde` (transitief didactisch) → onderwees/onderrichtte",
+      "explanation": "Kanttekening: 'Zo bewijst de Apostel, dat hij niets anders leerde dan hetgeen door de Profeten voorzegd was' — de Apostel die onderricht/verkondigt (διδάσκω-veld). Didactische false friend, identiek aan de NT-breed beslechte gevallen.",
+      "proposed_fix": "'dat hij niets anders onderwees dan ...'.",
+      "severity": "hard"
+    },
+    {
+      "id": "RG33-007",
+      "class": "modernisatie",
+      "books": [
+        "ROM"
+      ],
+      "chapter": 10,
+      "verse": 19,
+      "quote": "de rechte kennis van God en zijn rechten niet hadden",
+      "in_kanttekening": true,
+      "rule_reference": "ARCHAISMEN.md:137 false friend `rechten` (δικαιώματα, Gods inzettingen) → voorschriften/verordeningen/inzettingen",
+      "explanation": "Kanttekening: 'omdat zij de rechte kennis van God en zijn rechten niet hadden' verwijst naar Gods inzettingen/verordeningen (Ps. 147:19,20 — δικαιώματα), niet naar juridische 'rechten'. Modern NL leest `rechten` dominant als rights/justitiële rechten. Dezelfde false friend als ARCHAISMEN.md voor LUK 1:6.",
+      "proposed_fix": "'de rechte kennis van God en zijn verordeningen niet hadden' (of 'voorschriften'/'inzettingen').",
+      "severity": "soft"
+    },
+    {
+      "id": "RG33-008",
+      "class": "modernisatie",
+      "books": [
+        "ROM"
+      ],
+      "chapter": 14,
+      "verse": 21,
+      "quote": "om het vermijden van ergernis",
+      "in_kanttekening": true,
+      "rule_reference": "ARCHAISMEN.md:139 false friend `ergernis(se)` (σκάνδαλον/πρόσκομμα) → aanstoot/struikelblok; kanttekeningen tellen volwaardig mee",
+      "explanation": "De verstekst van ROM 14 modernizeert σκάνδαλον correct naar 'aanstoot'/'stoot', maar de kanttekeningen blijven het false-friend-woord `ergernis` gebruiken (14:21 'om het vermijden van ergernis'; ook 14:22 'zonder het te tonen met ergernis'). Modern NL leest `ergernis` als 'irritatie', niet als 'struikelblok/aanstoot'. Inconsistent binnen het hoofdstuk: body=aanstoot, note=ergernis.",
+      "proposed_fix": "'om het vermijden van aanstoot' (en 14:22 'zonder aanstoot te geven aan de zwakke broeders'); harmoniseer met de body-keuze 'aanstoot'.",
+      "severity": "soft"
+    }
+  ],
+  "green": [
+    {
+      "point_id": "RG33-001",
+      "stance": "concede",
+      "rebuttal": "Genuinely teacher-subject didactic. Greek = ὁ διδάσκων ἕτερον / σεαυτὸν οὐ διδάσκεις (διδάσκω, teach), niet μανθάνω. 'Die dan een ander leert' = doceren, exact de false friend van ARCHAISMEN.md (`leren`/`leerde` van leraar, transitief: doceren → onderwijzen; dominante moderne lading = zelf opnemen). NT-wide precedent 2JN/2PE red_wins. ACT-tegenhangers (28:31/21:21/21:28, alle διδάσκω) bevestigen de cross-book inconsistentie. Geen LEERLING-subject hier: beide `leert` zijn διδάσκω.",
+      "evidence": "ARCHAISMEN.md leren/leerde (διδάσκω) + διδάσκων ἕτερον (vers-specifiek)"
+    },
+    {
+      "point_id": "RG33-002",
+      "stance": "concede",
+      "rebuttal": "Hoofdtekst-treffer. Griekse stam διδάσκων (διδάσκω = teach), Paulus die over Christus onderricht — teacher-subject. ARCHAISMEN.md: `leerde` van Apostel/leraar transitief-didactisch → onderwees; modern `leerde` leest als 'zelf opnemen'. Slotvers ACT, body-laag. Geen μανθάνω.",
+      "evidence": "ARCHAISMEN.md leren/leerde (διδάσκω) + διδάσκων τὰ περὶ Χριστοῦ (vers-specifiek)"
+    },
+    {
+      "point_id": "RG33-003",
+      "stance": "concede",
+      "rebuttal": "Body-treffer. Griekse stam διδάσκεις (διδάσκω), de beschuldiging dat Paulus de Joden 'leert van Mozes af te vallen' — teacher-subject didactisch. ARCHAISMEN.md `leert` (διδάσκω) → onderwijst. 21:28 hetzelfde hoofdstuk (διδάσκων). Geen LEERLING-subject; modern leest 'leert af' verkeerd.",
+      "evidence": "ARCHAISMEN.md leren (διδάσκω) + διδάσκεις ἀπὸ Μωσέως (vers-specifiek)"
+    },
+    {
+      "point_id": "RG33-004",
+      "stance": "concede",
+      "rebuttal": "Kanttekening telt volwaardig mee. Dwaalleraars die 'leerden dat de ceremoniën ... onderhouden moesten worden' = doceren van een leer (διδάσκω-veld). ARCHAISMEN.md `leerden` transitief-didactisch → onderwezen. Onderscheidend: de μανθάνω-vorm in dezelfde note ('die u [van ons] geleerd hebt', ἐμάθετε = learner-subject) blijft terecht `geleerd` — alleen het leraar-subject `leerden` is fout.",
+      "evidence": "ARCHAISMEN.md leerden (διδάσκω) + contrast ἐμάθετε/μανθάνω in dezelfde note (vers-specifiek)"
+    },
+    {
+      "point_id": "RG33-005",
+      "stance": "concede",
+      "rebuttal": "Kanttekening telt mee. Dwaalleraars 'die ... volhielden en leerden dat het onderhouden van de ceremoniën tot zaligheid nog noodzakelijk was' = doceren van leerstuk (διδάσκω-veld). ARCHAISMEN.md `leerden` transitief-didactisch → onderwezen. Cross-consistent met 16:17. Teacher-subject, geen μανθάνω.",
+      "evidence": "ARCHAISMEN.md leerden (διδάσκω) + leraar-subject-context (vers-specifiek)"
+    },
+    {
+      "point_id": "RG33-006",
+      "stance": "concede",
+      "rebuttal": "Kanttekening telt mee. 'dat hij niets anders leerde dan hetgeen door de Profeten voorzegd was' — de Apostel die onderricht/verkondigt (διδάσκω-veld), teacher-subject. ARCHAISMEN.md `leerde` transitief-didactisch → onderwees. Identiek aan de NT-breed beslechte gevallen; geen LEERLING-betekenis.",
+      "evidence": "ARCHAISMEN.md leerde (διδάσκω) + Apostel-subject 'niets anders leerde' (vers-specifiek)"
+    },
+    {
+      "point_id": "RG33-007",
+      "stance": "concede",
+      "rebuttal": "Kanttekening telt mee. 'zij de rechte kennis van God en zijn rechten niet hadden, $Ps. 147:19,20$' — de Ps-ref bewijst δικαιώματα (Gods inzettingen/verordeningen), exact de false friend in ARCHAISMEN.md (`rechten` (δικαιώματα) → voorschriften/verordeningen/inzettingen; modern leest 'rights'). Alleen het zn `rechten` is fout; 'rechte kennis' (= juiste) blijft. Vgl. δικαιώματα-rendering 'verordeningen' al in ROM 2:26 in dit boek.",
+      "evidence": "ARCHAISMEN.md rechten (δικαιώματα) + Ps. 147:19,20 (vers-specifiek) + interne ROM 2:26 'verordeningen' (onderscheidend)"
+    },
+    {
+      "point_id": "RG33-008",
+      "stance": "concede",
+      "rebuttal": "Red heeft gelijk; de orchestrator-framing keert de feedback om. De gevestigde decision (feedback_false_friend_overrulet_renovatie) zegt dat `ergernis` JUIST de false friend IS (SV = struikelblok/aanstoot, Gr. σκάνδαλον/πρόσκομμα; modern = irritatie) en dat `aanstoot` de correcte rendering is — niet andersom. ARCHAISMEN.md lijst `ergernis(se)` (σκάνδαλον/πρόσκομμα) → aanstoot/struikelblok. De body van ROM 14:21 rendert al correct 'stoot'/'aanstoot' (προσκόπτει/σκανδαλίζεται); de note houdt het false-friend-woord `ergernis` aan = intra-hoofdstuk-inconsistentie. Niet de SV-vorm terugdraaien maar de false friend wegwerken conform de decision.",
+      "evidence": "ARCHAISMEN.md ergernis(se) (σκάνδαλον/πρόσκομμα) + body-rendering 'stoot'/'aanstoot' προσκόπτει/σκανδαλίζεται (vers-specifiek) + decision false_friend_overrulet_renovatie (onderscheidend)"
+    }
+  ],
+  "verdicts": [
+    {
+      "point_id": "RG33-001",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. Vers-specifiek bevestigd: Grieks ὁ διδάσκων ἕτερον / σεαυτὸν οὐ διδάσκεις = διδάσκω (transitief-didactisch, leraar-subject, geen μανθάνω/leerling). Exact de false friend ARCHAISMEN.md `leren`/`leert` (διδάσκω) → onderwijzen; NT-brede precedent 2JN (RG16-003), 2PE (RG30-009), beide red_wins. Per-vers scope (geen blanket): R30-precedent verbiedt blinde 'geleerd'->'onderwezen' omdat leerling-subject corrumpeert; hier beide `leert` zijn leraar-subject. Body-fix beide finiete vormen.",
+      "scope": "verse",
+      "applied": true,
+      "rule_delta": null,
+      "applied_fix_old": "Die dan een ander leert, <Namelijk, gehoorzamen en doen wat u een ander leert, zoals blijkt uit het volgende.> leert u uzelf niet?",
+      "applied_fix_new": "Die dan een ander onderwijst, <Namelijk, gehoorzamen en doen wat u een ander leert, zoals blijkt uit het volgende.> onderwijst u uzelf niet?"
+    },
+    {
+      "point_id": "RG33-002",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. Hoofdtekst-treffer, slotvers ACT. Grieks διδάσκων τὰ περὶ Χριστοῦ = διδάσκω (leraar-subject: Paulus onderricht over Christus), geen μανθάνω. ARCHAISMEN.md `leerde` (διδάσκω) → onderwees; modern leest 'leerde' als zelf-opnemen. Per-vers swap finiet imperfectum.",
+      "scope": "verse",
+      "applied": true,
+      "rule_delta": null,
+      "applied_fix_old": "over de Heere Jezus Christus leerde <Namelijk, niettegenstaande",
+      "applied_fix_new": "over de Heere Jezus Christus onderwees <Namelijk, niettegenstaande"
+    },
+    {
+      "point_id": "RG33-003",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. Body-treffer. Grieks διδάσκεις ἀπὸ Μωσέως = διδάσκω (leraar-subject: beschuldiging dat Paulus de Joden onderricht van Mozes af te vallen), geen μανθάνω. ARCHAISMEN.md `leert` (διδάσκω) → onderwijst; 21:28 in hetzelfde hoofdstuk parallel (διδάσκων). Per-vers swap; 'onderwijst van Mozes af te vallen' leest didactisch correct.",
+      "scope": "verse",
+      "applied": true,
+      "rule_delta": null,
+      "applied_fix_old": "die onder de Heidenen zijn, leert van <Dat is, van de wet",
+      "applied_fix_new": "die onder de Heidenen zijn, onderwijst van <Dat is, van de wet"
+    },
+    {
+      "point_id": "RG33-004",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. Kanttekening telt volwaardig mee. Dwaalleraars 'leerden dat de ceremoniën ... onderhouden moesten worden' = doceren van een leerstuk (διδάσκω-veld, leraar-subject). ARCHAISMEN.md `leerden` (διδάσκω) → onderwezen. Onderscheidend: de μανθάνω-vorm in dezelfde note ('die u [van ons] geleerd hebt', ἐμάθετε, leerling-subject) blijft terecht `geleerd` — alleen leraar-subject `leerden` gefixt. Per-vers, geen blanket.",
+      "scope": "verse",
+      "applied": true,
+      "rule_delta": null,
+      "applied_fix_old": "aangenomen hadden, leerden dat de ceremoniën van de wet nog noodzakelijk onderhouden moesten worden",
+      "applied_fix_new": "aangenomen hadden, onderwezen dat de ceremoniën van de wet nog noodzakelijk onderhouden moesten worden"
+    },
+    {
+      "point_id": "RG33-005",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. Kanttekening telt mee. 'hen die uit hardnekkigheid volhielden en leerden dat het onderhouden van de ceremoniën tot zaligheid nog noodzakelijk was' = doceren van leerstuk (διδάσκω-veld, leraar-subject), geen μανθάνω. ARCHAISMEN.md `leerden` (διδάσκω) → onderwezen. Cross-consistent met 16:17. Per-vers swap.",
+      "scope": "verse",
+      "applied": true,
+      "rule_delta": null,
+      "applied_fix_old": "die uit hardnekkigheid volhielden en leerden dat het onderhouden van de ceremoniën",
+      "applied_fix_new": "die uit hardnekkigheid volhielden en onderwezen dat het onderhouden van de ceremoniën"
+    },
+    {
+      "point_id": "RG33-006",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. Kanttekening telt mee. 'dat hij niets anders leerde dan hetgeen door de Profeten voorzegd was' — de Apostel die onderricht/verkondigt (διδάσκω-veld, leraar-subject), geen μανθάνω/leerling. ARCHAISMEN.md `leerde` (διδάσκω) → onderwees. Identiek aan NT-breed beslechte gevallen. Per-vers swap.",
+      "scope": "verse",
+      "applied": true,
+      "rule_delta": null,
+      "applied_fix_old": "dat hij niets anders leerde dan hetgeen door de Profeten",
+      "applied_fix_new": "dat hij niets anders onderwees dan hetgeen door de Profeten"
+    },
+    {
+      "point_id": "RG33-007",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. Kanttekening telt mee. De ref $Ps. 147:19,20$ bewijst δικαιώματα (Gods inzettingen/verordeningen), niet juridische 'rechten'; modern leest 'rechten' dominant als rights. ARCHAISMEN.md / rules_data.py FALSE_FRIENDS `\\brechten\\b` (δικαιώματα) → voorschriften/verordeningen/inzettingen. lint_false_friends.py vlagt deze note-treffer al (note-laag wordt gescand) — onactioned residu. Alleen het zn `rechten` gefixt; 'rechte kennis' (=juiste) blijft. Interne ROM 2:26 rendert δικαιώματα al als 'verordeningen' (concordant). Per-vers.",
+      "scope": "verse",
+      "applied": true,
+      "rule_delta": null,
+      "applied_fix_old": "omdat zij de rechte kennis van God en zijn rechten niet hadden",
+      "applied_fix_new": "omdat zij de rechte kennis van God en zijn verordeningen niet hadden"
+    },
+    {
+      "point_id": "RG33-008",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert (én bevestigt de memory-decision feedback_false_friend_overrulet_renovatie: `ergernis` IS de false friend, `aanstoot` is correct — orchestrator-framing keerde dit om). Grieks σκάνδαλον/πρόσκομμα; modern leest 'ergernis' als irritatie. rules_data.py FALSE_FRIENDS `\\bergernis(sen)?\\b` → aanstoot/struikelblok. Body rendert al 'stoot'/'aanstoot' (προσκόπτει/σκανδαλίζεται); note hield false friend `ergernis` = intra-hoofdstuk-inconsistentie. BEVESTIGD: lint_false_friends.py vlagt deze note-treffers al (split scant kanttekening-laag) — dit is onactioned linter-residu, geen ontbrekende gate. Per-vers fix van de note-`ergernis` in 14:21.",
+      "scope": "verse",
+      "applied": true,
+      "rule_delta": null,
+      "applied_fix_old": "goed is, om het vermijden van ergernis. Zie",
+      "applied_fix_new": "goed is, om het vermijden van aanstoot. Zie"
+    }
+  ],
+  "deferred_nt_sweep": {
+    "ergernis_false_friend": {
+      "note": "σκάνδαλον/προσκόμμα -> aanstoot/struikelblok; per-context (sommige ergernis = legit irritatie). lint_false_friends = warning, geen hard gate. RG33-008 (ROM 14:21) gefixt; rest uitgesteld, geen silent cap.",
+      "instances": [
+        "1CO.10:None",
+        "1CO.10:None",
+        "1CO.11:None",
+        "1CO.8:None",
+        "1CO.9:None",
+        "2CO.12:None",
+        "2CO.7:None",
+        "LUK.17:None",
+        "LUK.17:None",
+        "MRK.9:None",
+        "ROM.14:None",
+        "ROM.14:None",
+        "ROM.14:None",
+        "ROM.14:None"
+      ],
+      "count": 14
+    }
+  }
+}

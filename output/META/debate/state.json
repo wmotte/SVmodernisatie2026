@@ -1,5 +1,5 @@
 {
-  "rounds_done": 32,
+  "rounds_done": 33,
   "pairs": [
     [
       "REV",
@@ -129,6 +129,10 @@
     [
       "HEB",
       "JAS"
+    ],
+    [
+      "ACT",
+      "ROM"
     ]
   ],
   "debate_count": {
@@ -136,11 +140,11 @@
     "JHN": 7,
     "1CO": 2,
     "LUK": 3,
-    "ROM": 4,
+    "ROM": 5,
     "2CO": 1,
     "MRK": 1,
     "MAT": 3,
-    "ACT": 1,
+    "ACT": 2,
     "2JN": 3,
     "3JN": 2,
     "PHM": 3,
@@ -169,6 +173,7 @@
     "consistentie|2JN,3JN|dat is oprecht zoals 1jh 3 18|kanttekeningen.md (afkorting-expansie `<d. ...>`); agents.md regel 5 (hoofdletterdiscipline); modernisatie.md §1 (cross-book concordantie)",
     "consistentie|2PE,JUD|zij zijn|modernisatie.md §1/§5.3 (cross-book concordantie); grieks oὗτοί εἰσι(ν)",
     "consistentie|ACT,JHN|een grote menigte van kranken|agents.md concordantie; modernisatie.md §2.7; grieks: ασθενουντων",
+    "consistentie|ACT,ROM|die dan een ander leert|archaismen.md:147 false friend `leren`/`leerde` (διδάσκω, transitief didactisch) → onderwijzen; nt-wide precedent rg-16-rg16-003 (2jn), rg-30-rg30-009 (2pe), beide red_wins",
     "consistentie|COL,EPH|einde van de zendbrief van paulus aan die|modernisatie.md §1 (concordantie behouden); cross-book consistentie van een identiek sv-lemma 'sendtbrief'",
     "consistentie|COL,EPH|volharding en lankmoedigheid|modernisatie.md §1 (concordantie); cross-book weergave van gr. μακροθυμία",
     "consistentie|HEB|verhardt dan|archaismen.md:80 'imperatief-meervoud op -t → gebruik de stam'; memory 'imperatief-meervoud -t → stam'; precedent rg22-001/003, rg23-001 (wandelt → wandel)",
@@ -253,8 +258,10 @@
     "modernisatie|ACT|geen opdracht gegeven hebben zulks te leren|archaismen.md (`sulcks`/`zulks`); modernisatie.md §2.7; kanttekeningen tellen volwaardig mee",
     "modernisatie|ACT|geenszins heere|scripts/rules_data.py drempel_archaismen (`geenszins`); modernisatie.md §2.7; grieks: μηδαμως",
     "modernisatie|ACT|hetwelk dan geen gemeenschap heeft met de vastentijden|scripts/rules_data.py drempel_archaismen (`hetwelk`); modernisatie.md §2.7; kanttekeningen tellen volwaardig mee",
+    "modernisatie|ACT|leert van|archaismen.md:147 false friend `leert` (διδάσκεις, transitief didactisch) → onderwijst",
     "modernisatie|ACT|maar zulks is na deze tijd gebeurd|archaismen.md (`sulcks`/`zulks`); modernisatie.md §2.7; kanttekeningen tellen volwaardig mee",
     "modernisatie|ACT|ontstond daar geen kleine beroerte|modernisatie.md §2.7; false-friend/productiviteitstest; grieks: ταραχος",
+    "modernisatie|ACT|over de heere jezus christus leerde|archaismen.md:147 false friend `leerde` (διδάσκων, transitief didactisch) → onderwees",
     "modernisatie|ACT|zijn rede uitstrekkend tot de middernacht|modernisatie.md §2.3 / §2.3b (finiet participium; intro volgt dezelfde principes)",
     "modernisatie|COL,EPH|en koopt de geschikte tijd|archaismen.md, regel 'imperatief-meervoud op -t → gebruik de stam'; memory 'imperatief-meervoud -t → stam'",
     "modernisatie|COL|wandelt|archaismen.md, regel 'imperatief-meervoud op -t → gebruik de stam' (wandelt/brengt → wandel/breng); memory 'imperatief-meervoud -t → stam' (concordantie harmoniseert náár stam)",
@@ -348,11 +355,16 @@
     "modernisatie|REV|wee wee de grote stad in welke allen|modernisatie.md §2.7 / archaismen.md (fossiel betrekkelijk voornaamwoord in hoofdtekst)",
     "modernisatie|REV|zeven vurige lampen waren brandende voor de troon|modernisatie.md §2.3 (predicatief/periphrastisch participium)",
     "modernisatie|ROM|aangezien ik weet dat u zulks metterdaad betoont|archaismen.md: `sulcks` / `zulks`; modernisatie.md §2.7; kanttekeningen tellen volwaardig mee",
+    "modernisatie|ROM|dat hij niets anders leerde|archaismen.md:147 false friend `leerde` (transitief didactisch) → onderwees/onderrichtte",
+    "modernisatie|ROM|de rechte kennis van god en zijn rechten|archaismen.md:137 false friend `rechten` (δικαιώματα, gods inzettingen) → voorschriften/verordeningen/inzettingen",
     "modernisatie|ROM|en als god zijn toorn willend bewijzen en|modernisatie.md §2.3 en §2.3b",
     "modernisatie|ROM|en wederom ps 117 1 looft de heere|archaismen.md:78 (imperatief-meervoud sv-`-t` -> stam)",
     "modernisatie|ROM|grieks overhebbende of uitnemende dat is overste macht|kanttekeningen.md §geen sv-participia in kanttekeningen; modernisatie.md §2.3",
+    "modernisatie|ROM|leerden dat de ceremoniën|archaismen.md:147 false friend `leerden` (transitief didactisch) → onderwezen; kanttekeningen tellen volwaardig mee",
     "modernisatie|ROM|nam om ons vandaar te halen de wil|kanttekeningen.md §standaard-vertalingen voor afkortingen; agents.md kanttekening-conventies",
+    "modernisatie|ROM|om het vermijden van ergernis|archaismen.md:139 false friend `ergernis(se)` (σκάνδαλον/πρόσκομμα) → aanstoot/struikelblok; kanttekeningen tellen volwaardig mee",
     "modernisatie|ROM|oordeelt dit liever|archaismen.md:78 imperatief-meervoud sv-`-t` -> stam",
+    "modernisatie|ROM|volhielden en leerden dat het onderhouden van de|archaismen.md:147 false friend `leerden` (transitief didactisch) → onderwezen; kanttekeningen tellen volwaardig mee",
     "modernisatie|ROM|weest vrolijk u heidenen met zijn volk|archaismen.md:78 imperatief-meervoud sv-`-t` -> stam",
     "modernisatie|TIT|de zendbrief aan titus de eerste verkoren grieks|kanttekeningen.md:8 ('<…> blokken bewaren — nooit verwijderen, nooit samenvoegen'); agents.md §1 'renovatie, geen hervertaling' / leesbaar modern nederlands",
     "modernisatie|TIT|deftigheid oprechtheid|modernisatie.md §2.7 (false friend / verwarringstest); grieks σεμνότης / σεμνός",
@@ -360,5 +372,5 @@
     "modernisatie|TIT|zowel in kleding als in hun gehele wandel|archaismen.md:29 (zelfst. 'wandel' = levenswijze → levenswandel / leven / gedrag); modernisatie.md §2.7 (verwarringstest)"
   ],
   "open_keys": [],
-  "updated_at": "2026-06-08T10:24:03.073035+00:00"
+  "updated_at": "2026-06-08T10:36:40.323169+00:00"
 }
