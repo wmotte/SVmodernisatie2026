@@ -1,5 +1,5 @@
 {
-  "rounds_done": 31,
+  "rounds_done": 32,
   "pairs": [
     [
       "REV",
@@ -125,6 +125,10 @@
     [
       "JUD",
       "2PE"
+    ],
+    [
+      "HEB",
+      "JAS"
     ]
   ],
   "debate_count": {
@@ -144,7 +148,7 @@
     "1JN": 3,
     "2PE": 3,
     "1PE": 2,
-    "JAS": 1,
+    "JAS": 2,
     "1TH": 1,
     "2TH": 1,
     "1TI": 1,
@@ -153,7 +157,7 @@
     "EPH": 1,
     "GAL": 1,
     "PHP": 2,
-    "HEB": 1,
+    "HEB": 2,
     "TIT": 2
   },
   "closed_keys": [
@@ -257,9 +261,14 @@
     "modernisatie|EPH|licht in de heere wandelt als|archaismen.md, regel 'imperatief-meervoud op -t → gebruik de stam'; memory 'imperatief-meervoud -t → stam'",
     "modernisatie|EPH|tot een wandel die hun roeping betamelijk is|archaismen.md, regel 'wandel (zelfst., = levenswijze) → levenswandel / leven / gedrag' (wandel leest modern primair als wandeling/stroll; hsv consequent levenswandel)",
     "modernisatie|GAL|ik zeg rm 13 14 1pt 2 11|archaismen.md:80 'imperatief-meervoud op -t → gebruik de stam' (wandelt → wandel); memory 'imperatief-meervoud -t → stam'; precedent rg22-001/rg22-003 (wandelt/wandelt → wandel)",
+    "modernisatie|HEB|berispend zegt hij tot hen|modernisatie.md §2.3 (finiet tegenwoordig participium als bijwoordelijke bepaling)",
     "modernisatie|HEB|daarom namelijk wanneer hij de menselijke natuur aannam|kanttekeningen.md:8 ('<…> blokken bewaren — nooit verwijderen, nooit samenvoegen'); modernisatie.md §2.3 (geen lopende tekst van noot maken)",
+    "modernisatie|HEB|lettend op de uitkomst|modernisatie.md §2.3 (finiet tegenwoordig participium als bijwoordelijke bepaling)",
+    "modernisatie|HEB|werkend in u hetgeen voor hem welbehaaglijk is|modernisatie.md §2.3 (finiet tegenwoordig participium als bijwoordelijke bepaling)",
+    "modernisatie|JAS|besluitend dat zij zalig zullen zijn|modernisatie.md §2.3 (§2.3 geldt óók binnen <…> kanttekeningen, zonder uitzondering); kanttekeningen.md",
     "modernisatie|JAS|dat is terwijl zij de heere aanroepen die|modernisatie.md §2.7 productiviteits-/verwarringtest; kanttekeningen.md",
     "modernisatie|JAS|elia was een mens met gelijke of lijden|modernisatie.md §2.7 productiviteits-/verwarringtest",
+    "modernisatie|JAS|kan zich geenszins verontschuldigen|scripts/rules_data.py drempel_archaismen ('geenszins', regel 357); modernisatie.md §2.7; precedent jhn rg25-006 / 1jn (red_wins)",
     "modernisatie|JHN|dat u zult huilen en weeklagen|projectregel κλαίω→wenen",
     "modernisatie|JHN|de rechte tijd van de geestelijke oogst voorhanden|rules_data.py drempel_archaismen ('voorhanden'); modernisatie.md §2.7. scaffolding-gap: intro niet gescand.",
     "modernisatie|JHN|gaat u maar op naar dit feest|archaismen.md (imperatief meervoud -t -> stam)",
@@ -351,5 +360,5 @@
     "modernisatie|TIT|zowel in kleding als in hun gehele wandel|archaismen.md:29 (zelfst. 'wandel' = levenswijze → levenswandel / leven / gedrag); modernisatie.md §2.7 (verwarringstest)"
   ],
   "open_keys": [],
-  "updated_at": "2026-06-08T10:07:18.923190+00:00"
+  "updated_at": "2026-06-08T10:24:03.073035+00:00"
 }

@@ -672,3 +672,21 @@ Red bracht 4 punt(en). Verdicts: red_wins=4, green_wins=0, rule_change=0.
 - **[RG31-004] (modernisatie)** ten aanzien dat zij
   - regel: MODERNISATIE.md §2.7 (drempel-/verwarringstest); §2.3b (Latinaat-syntax); fix: omdat zij zich voor zodanigen uitgeven (of: gezien zij ...)
   - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert terecht: 'ten aanzien dat zij' staat in de kanttekening van 2PE 2:1; gestolde SV-Latinaat-voegwoordconstructie (= omdat/gezien dat), modern NL eist bij 'ten aanzien' verplicht 'van' +
+
+## Ronde 32 — HEB + JAS  (2026-06-08T10:24:03.073328+00:00)
+Red bracht 5 punt(en). Verdicts: red_wins=5, green_wins=0, rule_change=0.
+- **[RG32-001] (modernisatie)** werkend in u hetgeen voor hem welbehaaglijk is
+  - regel: MODERNISATIE.md §2.3 (finiet tegenwoordig participium als bijwoordelijke bepaling); fix: … opdat u zijn wil mag doen, terwijl hij in u werkt wat voor hem welbehaaglijk is, door Jezus Christus
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert. Genuine §2.3-overtreding: Gr. ποιῶν is een present participium dat finiet-bijwoordelijk functioneert; 'werkend in u hetgeen …' laat de latinate carry-over staan (het 'wandelende'-par
+- **[RG32-002] (modernisatie)** berispend zegt hij tot hen
+  - regel: MODERNISATIE.md §2.3 (finiet tegenwoordig participium als bijwoordelijke bepaling); fix: Want hij berispt hen en zegt tot hen, / Want, hen berispend, zegt hij → 'Want hij berispt hen, en zegt tot hen,'
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert. Genuine §2.3-overtreding: Gr. μεμφόμενος (present participium) + finiet λέγει; 'berispend zegt hij tot hen' is het finiete tegenwoordige participium dat de manier van 'zeggen' karakt
+- **[RG32-003] (modernisatie)** kan zich geenszins verontschuldigen
+  - regel: scripts/rules_data.py drempel_archaismen ('geenszins', regel 357); MODERNISATIE.md §2.7; precedent JHN RG25-006 / 1JN (red_wins); fix: … en die kan zich op geen enkele manier verontschuldigen / … kan zich helemaal niet verontschuldigen
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert. 'geenszins' staat AL in scripts/rules_data.py DREMPEL_ARCHAISMEN (advisory; enkel adversarial_scan gebruikt het) en is red_wins-precedent (JHN/1JN). Hier in een kanttekening; validat
+- **[RG32-004] (modernisatie)** lettend op de uitkomst
+  - regel: MODERNISATIE.md §2.3 (finiet tegenwoordig participium als bijwoordelijke bepaling); fix: … volg hun geloof na, en let op de uitkomst van hun levenswandel
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert. Genuine §2.3-overtreding: Gr. ἀναθεωροῦντες is een tegenwoordig participium dat bijwoordelijk aan de imperatief μιμεῖσθε ('volg na') hangt; 'lettend op de uitkomst' is het finiete-pa
+- **[RG32-005] (modernisatie)** besluitend dat zij zalig zullen zijn
+  - regel: MODERNISATIE.md §2.3 (§2.3 geldt óók binnen <…> kanttekeningen, zonder uitzondering); kanttekeningen.md; fix: … dat is, valse sluitredenen die maken dat zij zichzelf bedriegen, en die besluiten / en concluderen dat zij zalig zullen zijn omdat zij hoorders van het woord zijn
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert (concede_fix). Genuine §2.3-overtreding binnen de kanttekening (§2.3 geldt HARD ín <…>): Gr. παραλογιζόμενοι, twee onontvouwde tegenwoordige participia op rij ('makend …, besluitend d

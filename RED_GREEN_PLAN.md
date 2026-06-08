@@ -83,7 +83,7 @@ Algemene brieven:
 - [x] `JAS + 1PE` — gedekt door R19
 - [x] `1PE + 2PE` — R30 (7 red_wins + 2 rule_change: weersta→IMPERATIVE_T_STEMS, metterdaad→DREMPEL)
 - [x] `JUD + 2PE` — R31 (4 red_wins: imperatief JUD 1:22, bibref-proza JUD 1:14, consistentie οὗτοί εἰσιν JUD↔2PE, Latinaat 2PE 2:1)
-- [ ] `HEB + JAS`
+- [x] `HEB + JAS` — R32 (5 red_wins: 4× §2.3 finiet-participium HEB 13:21/8:8/13:7 + JAS 1:22, geenszins-note JAS 4:17)
 
 Grote-boek kalibratie:
 
@@ -240,6 +240,6 @@ Vul dit handmatig bij na elke afgeronde ronde.
 - [x] R24 `HEB+TIT` - status: afgerond; 3 red-punten, 3 red_wins toegepast (HEB 3:8 Verhardt→Verhard; HEB 10:5 + TIT-epiloog scaffolding-reparatie: ontbrekende <>-delimiters rond inline-glosse hersteld in input.sv én output, der Cretensen→van de Kretenzen); validate/lint PASS; HSV+memory bijgewerkt. FASE 1 COMPLEET: alle 26 boeken ≥1x, open_keys=0.
 - [ ] Cluster Johannes - status:
 - [ ] Cluster Paulus kort - status:
-- [ ] Cluster algemene brieven - status:
+- [x] Cluster algemene brieven - status: COMPLEET (JAS+1PE R19, 1PE+2PE R30, JUD+2PE R31, HEB+JAS R32)
 - [ ] Grote-boek kalibratie - status:
 - [ ] Worst-first naloop - status:

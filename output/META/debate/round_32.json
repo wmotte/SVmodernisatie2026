@@ -1,0 +1,151 @@
+{
+  "round_no": 32,
+  "books": ["HEB", "JAS"],
+  "red": [
+    {
+      "id": "RG32-001",
+      "class": "modernisatie",
+      "books": ["HEB"],
+      "chapter": 13,
+      "verse": 21,
+      "quote": "werkend in u hetgeen voor hem welbehaaglijk is",
+      "in_kanttekening": false,
+      "rule_reference": "MODERNISATIE.md §2.3 (finiet tegenwoordig participium als bijwoordelijke bepaling)",
+      "explanation": "SV 'werckende in u het gene voor hem welbehagelick is' (Gr. ποιῶν ἐν ὑμῖν) is een finiet tegenwoordig participium dat als bijwoordelijke bepaling fungeert; ontvouwd naar 'werkend in u …' blijft het een latinate carry-over die stug-archaïsch leest (subject = God). §2.3 schrijft ontvouwing naar een finiete bijzin voor. Veelzeggend: de kanttekening bij ditzelfde vers ontvouwt het al correct ('Grieks: terwijl hij in u werkt'), terwijl de hoofdtekst de participiumvorm laat staan — interne inconsistentie binnen het vers.",
+      "proposed_fix": "… opdat u zijn wil mag doen, terwijl hij in u werkt wat voor hem welbehaaglijk is, door Jezus Christus",
+      "severity": "hard"
+    },
+    {
+      "id": "RG32-002",
+      "class": "modernisatie",
+      "books": ["HEB"],
+      "chapter": 8,
+      "verse": 8,
+      "quote": "berispend zegt hij tot hen",
+      "in_kanttekening": false,
+      "rule_reference": "MODERNISATIE.md §2.3 (finiet tegenwoordig participium als bijwoordelijke bepaling)",
+      "explanation": "SV 'berispende seght hy tot haer' (Gr. μεμφόμενος … λέγει) is een finiet tegenwoordig participium dat de manier van 'zeggen' karakteriseert; 'berispend zegt hij tot hen' laat het participium onontvouwd staan en leest stijf-latinaat. §2.3 vereist ontvouwing naar een finiete nevenschikking.",
+      "proposed_fix": "Want hij berispt hen en zegt tot hen, / Want, hen berispend, zegt hij → 'Want hij berispt hen, en zegt tot hen,'",
+      "severity": "hard"
+    },
+    {
+      "id": "RG32-003",
+      "class": "modernisatie",
+      "books": ["JAS"],
+      "chapter": 4,
+      "verse": 17,
+      "quote": "kan zich geenszins verontschuldigen",
+      "in_kanttekening": true,
+      "rule_reference": "scripts/rules_data.py drempel_archaismen ('geenszins', regel 357); MODERNISATIE.md §2.7; precedent JHN RG25-006 / 1JN (red_wins)",
+      "explanation": "'geenszins' staat in de drempel_archaismen-blacklist en is meermaals als drempel-archaïsme red_wins beslecht in de hoofdtekst (JHN, 1JN). Hier staat het in een kanttekening; validate.py strip­t '<…>' vóór de blacklist-check (note-strip-gap, MEMORY 'Drempel-note-strip-gap'), zodat de scanner het mist. Kanttekeningen tellen volwaardig mee; 'geenszins' faalt de productiviteitstest §2.7 ook in uitlegtekst.",
+      "proposed_fix": "… en die kan zich op geen enkele manier verontschuldigen / … kan zich helemaal niet verontschuldigen",
+      "severity": "hard"
+    },
+    {
+      "id": "RG32-004",
+      "class": "modernisatie",
+      "books": ["HEB"],
+      "chapter": 13,
+      "verse": 7,
+      "quote": "lettend op de uitkomst",
+      "in_kanttekening": false,
+      "rule_reference": "MODERNISATIE.md §2.3 (finiet tegenwoordig participium als bijwoordelijke bepaling)",
+      "explanation": "SV 'aenschouwende de uytkomste [harer] wandelinge' (Gr. ἀναθεωροῦντες) is een finiet tegenwoordig participium dat als bijwoordelijke bepaling bij 'volg hun geloof na' staat; 'lettend op de uitkomst' laat de participiumconstructie staan. §2.3 schrijft ontvouwing naar een nevengeschikte finiete vorm voor. (Soft: 'lettend op' leest randmodern als 'met het oog op', maar de constructie blijft een carry-over.)",
+      "proposed_fix": "… volg hun geloof na, en let op de uitkomst van hun levenswandel",
+      "severity": "soft"
+    },
+    {
+      "id": "RG32-005",
+      "class": "modernisatie",
+      "books": ["JAS"],
+      "chapter": 1,
+      "verse": 22,
+      "quote": "besluitend dat zij zalig zullen zijn",
+      "in_kanttekening": true,
+      "rule_reference": "MODERNISATIE.md §2.3 (§2.3 geldt óók binnen <…> kanttekeningen, zonder uitzondering); kanttekeningen.md",
+      "explanation": "In de kanttekening bij JAS 1:22 staan twee onontvouwde finiete tegenwoordige participia op rij ('valse sluitredenen makend, waarmee zij zichzelf bedriegen, besluitend dat zij zalig zullen zijn'). §2.3 geldt expliciet ook in kanttekeningen; deze appositionele participia lezen stug en horen ontvouwd te worden naar een finiete bijzin.",
+      "proposed_fix": "… dat is, valse sluitredenen die maken dat zij zichzelf bedriegen, en die besluiten / en concluderen dat zij zalig zullen zijn omdat zij hoorders van het woord zijn",
+      "severity": "soft"
+    }
+  ],
+  "green": [
+    {
+      "point_id": "RG32-001",
+      "stance": "concede",
+      "rebuttal": "Genuine §2.3-overtreding. Gr. ποιῶν is een present participium dat finiet-bijwoordelijk functioneert ('terwijl hij … werkt'); 'werkend in u hetgeen …' laat de latinate carry-over staan, exact het 'wandelende'-paradigma van §2.3. Sluitend bewijs: de kanttekening ín ditzelfde vers ontvouwt het al correct (<Grieks: terwijl hij in u werkt …>), terwijl de hoofdtekst de participiumvorm laat — interne inconsistentie binnen één vers. Geen onderscheidend feit voor rebuttal; default = concede.",
+      "evidence": "§2.3 (finiet tegenwoordig participium) + Gr. ποιῶν + vers-interne kanttekening-inconsistentie"
+    },
+    {
+      "point_id": "RG32-002",
+      "stance": "concede",
+      "rebuttal": "Genuine §2.3-overtreding. Gr. μεμφόμενος (present participium) + finiet λέγει: 'berispend zegt hij tot hen' is precies het finiete tegenwoordige participium dat de manier van 'zeggen' karakteriseert — het 'wandelende'-paradigma. Ontvouwing naar nevenschikking ('Want hij berispt hen, en zegt tot hen,') is §2.3-standaard. Red's proposed_fix bevat ruis (pijlen/varianten), maar de schone doelvorm staat erin en is correct; geen concede_fix nodig.",
+      "evidence": "§2.3 + Gr. μεμφόμενος … λέγει + nevenschikkings-ontvouwing"
+    },
+    {
+      "point_id": "RG32-003",
+      "stance": "concede",
+      "rebuttal": "'geenszins' staat HARD in DREMPEL_ARCHAISMEN (scripts/rules_data.py:357) en is red_wins-precedent (JHN/1JN). Hier is het emfatische ontkenning ('kan zich geenszins verontschuldigen' = volstrekt niet) in een gloss zonder eigen Grieks lemma (Gr. enkel ἁμαρτία αὐτῷ ἐστίν). De validator stript <…> vóór de blacklist-check (note-strip-gap, MEMORY 'Drempel-note-strip-gap'), dus de scanner mist het; kanttekeningen tellen volwaardig mee. Faalt productiviteitstest §2.7. Concede.",
+      "evidence": "rules_data.py:357 (DREMPEL_ARCHAISMEN) + §2.7 productiviteitstest + note-strip-gap (kanttekening telt mee)"
+    },
+    {
+      "point_id": "RG32-004",
+      "stance": "concede",
+      "rebuttal": "Genuine §2.3-overtreding. Gr. ἀναθεωροῦντες is een tegenwoordig participium dat bijwoordelijk aan de imperatief μιμεῖσθε ('volg na') hangt; 'lettend op de uitkomst … volg hun geloof na' is hetzelfde finiete-participium-op-finiet-werkwoord-patroon (het 'wandelende'-paradigma). Hoewel 'letten op' op zich productief modern is, blijft de participiale aanhechting aan een imperatief een carry-over; modern NL wil nevenschikking ('volg na, en let op'). Geen onderscheidend feit dat de constructie (niet enkel het lexeem) modern leest; default = concede.",
+      "evidence": "§2.3 + Gr. ἀναθεωροῦντες + participium aangehecht aan imperatief μιμεῖσθε"
+    },
+    {
+      "point_id": "RG32-005",
+      "stance": "concede_fix",
+      "rebuttal": "Genuine §2.3-overtreding binnen de kanttekening (§2.3 geldt HARD ín <…>). Gr. παραλογιζόμενοι: twee onontvouwde tegenwoordige participia op rij ('makend …, besluitend dat …') lezen stug en horen finiet ontvouwd. Concede. MAAR red's proposed_fix introduceert een betekenisverschuiving: 'valse sluitredenen die maken dat zij zichzelf bedriegen' maakt van het zelf-bedrog een gevolg/oorzaak, terwijl παραλογιζόμενοι ἑαυτούς juist 'zij bedriegen zichzelf dóór valse redenering' is — de zelf-bedrog-clause hoort nevengeschikt, niet als 'die maken dat'-causaal.",
+      "evidence": "§2.3 binnen kanttekening + Gr. παραλογιζόμενοι ἑαυτούς (mediaal, zelf-bedrog is nevengeschikt, geen gevolg)",
+      "corrected_proposal": "<Grieks: paralogizomenoi, dat is, zij maken valse sluitredenen waarmee zij zichzelf bedriegen, en zij besluiten dat zij zalig zullen zijn, omdat zij hoorders van het woord zijn. Want Christus zegt $Lk. 11:28$ dat zij zalig zijn die Gods woord niet alleen horen, maar ook bewaren.>"
+    }
+  ],
+  "verdicts": [
+    {
+      "point_id": "RG32-001",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. Genuine §2.3-overtreding: Gr. ποιῶν is een present participium dat finiet-bijwoordelijk functioneert; 'werkend in u hetgeen …' laat de latinate carry-over staan (het 'wandelende'-paradigma). Sluitend: de kanttekening ín ditzelfde vers ontvouwt het al correct (<Grieks: terwijl hij in u werkt …>), terwijl de hoofdtekst de participiumvorm liet — vers-interne inconsistentie. §2.3 finiet-participium one-off, geen scanner-regel; scope verse. Toegepaste fix ontvouwt het participium naar een finiete bijzin, conform de vers-interne kanttekening.",
+      "scope": "verse",
+      "applied": true,
+      "rule_delta": null,
+      "applied_fix": "terwijl hij in u werkt wat voor hem welbehaaglijk is"
+    },
+    {
+      "point_id": "RG32-002",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. Genuine §2.3-overtreding: Gr. μεμφόμενος (present participium) + finiet λέγει; 'berispend zegt hij tot hen' is het finiete tegenwoordige participium dat de manier van 'zeggen' karakteriseert. §2.3 vereist ontvouwing naar nevenschikking. Red's proposed_fix bevatte ruis (pijlen/varianten), maar de schone doelvorm is correct. §2.3 finiet-participium one-off, geen scanner-regel; scope verse. Fix vervangt enkel het participiale fragment binnen de bestaande zin.",
+      "scope": "verse",
+      "applied": true,
+      "rule_delta": null,
+      "applied_fix": "berispt hij hen, en zegt tot hen"
+    },
+    {
+      "point_id": "RG32-003",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. 'geenszins' staat AL in scripts/rules_data.py DREMPEL_ARCHAISMEN (advisory; enkel adversarial_scan gebruikt het) en is red_wins-precedent (JHN/1JN). Hier in een kanttekening; validate.py stript <…> vóór de blacklist-check (note-strip-gap), zodat de scanner het mist — kanttekeningen tellen volwaardig mee, faalt productiviteitstest §2.7. GEEN nieuw rule_delta nodig: term staat al in DREMPEL_ARCHAISMEN. Scope verse. NB: JAS 4:17 is hiermee gecleared uit de R25-deferred geenszins-note-lijst (2KO 7:9, GAL 1:10/3:21, JAK 4:17); resterend te-doen: 2KO 7:9, GAL 1:10, GAL 3:21.",
+      "scope": "verse",
+      "applied": true,
+      "rule_delta": null,
+      "applied_fix": "en die kan zich op geen enkele manier verontschuldigen"
+    },
+    {
+      "point_id": "RG32-004",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. Genuine §2.3-overtreding: Gr. ἀναθεωροῦντες is een tegenwoordig participium dat bijwoordelijk aan de imperatief μιμεῖσθε ('volg na') hangt; 'lettend op de uitkomst' is het finiete-participium-op-finiet-werkwoord-patroon. Hoewel 'letten op' lexicaal modern is, blijft de participiale aanhechting aan een imperatief een carry-over; modern NL wil nevenschikking. §2.3 finiet-participium one-off, geen scanner-regel; scope verse. Fix maakt 'lettend op' nevengeschikt: 'en let op'.",
+      "scope": "verse",
+      "applied": true,
+      "rule_delta": null,
+      "applied_fix": "[en] volg hun geloof na, en let op de uitkomst van [hun] levenswandel."
+    },
+    {
+      "point_id": "RG32-005",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert (concede_fix). Genuine §2.3-overtreding binnen de kanttekening (§2.3 geldt HARD ín <…>): Gr. παραλογιζόμενοι, twee onontvouwde tegenwoordige participia op rij ('makend …, besluitend dat …'). Red's oorspronkelijke proposed_fix introduceerde echter een betekenisverschuiving ('valse sluitredenen die maken dat zij zichzelf bedriegen' = causaal gevolg), terwijl παραλογιζόμενοι ἑαυτούς (mediaal) juist nevengeschikt zelf-bedrog is. Daarom adopteren we green's corrected_proposal als toegepaste fix: ontvouwt beide participia finiet ('zij maken …, en zij besluiten …') zonder de causale verschuiving. §2.3 one-off, geen scanner-regel; scope verse.",
+      "scope": "verse",
+      "applied": true,
+      "rule_delta": null,
+      "applied_fix": "<Grieks: paralogizomenoi, dat is, zij maken valse sluitredenen waarmee zij zichzelf bedriegen, en zij besluiten dat zij zalig zullen zijn, omdat zij hoorders van het woord zijn. Want Christus zegt $Lk. 11:28$ dat zij zalig zijn die Gods woord niet alleen horen, maar ook bewaren.>"
+    }
+  ]
+}
