@@ -1,0 +1,41 @@
+{
+  "round_no": 36,
+  "green": [
+    {
+      "point_id": "RG36-001",
+      "stance": "concede",
+      "rebuttal": "Quote 'de tijd der doden om geoordeeld te worden' is een exacte substring van REV 11:18 modernized. Grieks ὁ καιρὸς τῶν νεκρῶν κριθῆναι = 'de tijd dat de doden geoordeeld worden' — een temporele/doel-genitief, GEEN credo-formule. De whitelist-entry ('der','doden') in FOSSIL_GENITIVE_PAIRS (rules_data.py:123) is expliciet becommentarieerd als 'opstanding der doden' (ἀνάστασις νεκρῶν, resurrectie-credo). Hier ontbreekt ἀνάστασις/opstanding volledig; het is een gewone genitief van καιρός, geen credale opstandingsformule. Per projectnorm: een gewone temporele/possessieve 'der doden' is NIET exempt — de fossiel-uitzondering dekt enkel het opstandingsidioom. De rest van het vers werkt al modern met 'aan/van'. RED heeft gelijk; fix naar 'de tijd voor de doden om geoordeeld te worden'.",
+      "evidence": "Grieks ὁ καιρὸς τῶν νεκρῶν κριθῆναι (geen ἀνάστασις); rules_data.py:123 whitelist-comment 'opstanding der doden'; ARCHAISMEN.md fossiel genitief der+zn HARD"
+    },
+    {
+      "point_id": "RG36-002",
+      "stance": "concede",
+      "rebuttal": "Quote 'En u hebt verdragen, en hebt geduld' is exacte substring van REV 2:3 modernized. Grieks ὑπομονὴν ἔχεις. ὑπομονή→volharding is gereserveerde concordantie. Geverifieerd: alle andere REV-instanties van ὑπομονή renderen 'volharding' — 1:9 ('de volharding van Jezus Christus'), 2:2 ('uw volharding'), 2:19 ('uw volharding'), 3:10 ('mijn volharding'), 13:10 ('de volharding ... der heiligen'), 14:12 ('de volharding der heiligen'). Alleen 2:3 wijkt af met 'geduld'. 'Geduld' is bovendien juist NIET het woord voor ὑπομονή (geduld hoort niet bij μακροθυμία noch bij ὑπομονή volgens projectnorm). Eenduidige concordantiedrift binnen de zeven-brieven-sectie. RED heeft gelijk; fix naar 'volharding'.",
+      "evidence": "Grieks ὑπομονὴν ἔχεις; concordantie ὑπομονή→volharding (gereserveerd); REV 1:9/2:2/2:19/3:10/13:10/14:12 allen 'volharding'"
+    },
+    {
+      "point_id": "RG36-003",
+      "stance": "concede",
+      "rebuttal": "Quote 'ik zal zijn naam geenszins uitwissen' is exacte substring van REV 3:5 modernized. Grieks οὐ μὴ ἐξαλείψω (emfatische ontkenning). 'geenszins' staat in DREMPEL_ARCHAISMEN (rules_data.py:371). Sterke red_wins-precedenten, óók specifiek voor οὐ μή: RG25-006 (JHN-sweep οὐ μή 'geenszins' won rood, nt-wide), plus RG15-008, RG18-004, RG32-003. Dit is een sweep-/scaffolding-gap: een reeds-geblacklist drempelarchaïsme dat in REV-hoofdtekst overleefde. Geen exemptie. RED heeft gelijk; render modern emfatisch ('zeker niet').",
+      "evidence": "Grieks οὐ μὴ ἐξαλείψω; rules_data.py:371 DREMPEL_ARCHAISMEN ('geenszins'); precedent RG25-006 (οὐ μή, red_wins, nt-wide)"
+    },
+    {
+      "point_id": "RG36-004",
+      "stance": "concede",
+      "rebuttal": "Quote 'sprak wederom met mij' is exacte substring van REV 10:8 modernized. Grieks πάλιν λαλοῦσα. 'wederom' staat geverifieerd in DREMPEL_ARCHAISMEN (rules_data.py:363). Het is een geblacklist drempelarchaïsme; πάλιν rendert modern als 'opnieuw/weer'. §2.7 productiviteitstest: 'wederom' is geen vrij-productief modern bijwoord in lopende hoofdtekst. Geen exemptie of false-friend-bescherming. RED heeft gelijk; fix naar 'opnieuw'.",
+      "evidence": "Grieks πάλιν λαλοῦσα; rules_data.py:363 DREMPEL_ARCHAISMEN ('wederom'); MODERNISATIE.md §2.7"
+    },
+    {
+      "point_id": "RG36-005",
+      "stance": "concede",
+      "rebuttal": "Quote 'U moet wederom profeteren voor vele volken' is exacte substring van REV 10:11 modernized. Grieks δεῖ σε πάλιν προφητεῦσαι. Tweede hoofdtekst-instantie van het geblacklist 'wederom' (rules_data.py:363) in hetzelfde hoofdstuk. Consistent met RG36-004 te moderniseren. Geen exemptie. RED heeft gelijk; fix naar 'opnieuw'.",
+      "evidence": "Grieks δεῖ σε πάλιν προφητεῦσαι; rules_data.py:363 DREMPEL_ARCHAISMEN ('wederom'); MODERNISATIE.md §2.7"
+    },
+    {
+      "point_id": "RG36-006",
+      "stance": "concede",
+      "rebuttal": "Quote 'te vergaderen tot de oorlog' is exacte substring van REV 20:8 modernized. Grieks εἰς πόλεμον; SV-origineel 'krijgh'. Geverifieerd: in de hoofdtekst rendert πόλεμος/SV-'krijgh' overal als 'krijg' — 16:14 'tot de krijg', 19:11 'voert krijg', 19:19 'krijg te voeren'. Alleen 20:8 (SV ook 'krijgh', τὸν πόλεμον) wijkt af met 'oorlog'. Geen projectruling die πόλεμος→oorlog voorschrijft (geen entry in decisions.jsonl/ARCHAISMEN/MODERNISATIE); de dominante in-boek-weergave bewaart de SV-vorm 'krijg'. Eenduidige cross-vers-inconsistentie van identiek SV-lemma binnen één boek (MODERNISATIE.md §1 concordantie). Honest read: harmoniseren náár de dominante 'krijg' is het betere doel. RED heeft gelijk op de inconsistentie; fix 20:8 naar 'tot de krijg'.",
+      "evidence": "Grieks εἰς πόλεμον; SV 'krijgh'; in-boek concordantie REV 16:14/19:11/19:19 allen 'krijg'; MODERNISATIE.md §1; geen krijg/oorlog-ruling in decisions.jsonl"
+    }
+  ]
+}

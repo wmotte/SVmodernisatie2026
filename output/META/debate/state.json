@@ -1,5 +1,5 @@
 {
-  "rounds_done": 35,
+  "rounds_done": 36,
   "pairs": [
     [
       "REV",
@@ -141,10 +141,14 @@
     [
       "LUK",
       "ACT"
+    ],
+    [
+      "REV",
+      "JUD"
     ]
   ],
   "debate_count": {
-    "REV": 10,
+    "REV": 11,
     "JHN": 7,
     "1CO": 2,
     "LUK": 4,
@@ -156,7 +160,7 @@
     "2JN": 3,
     "3JN": 2,
     "PHM": 3,
-    "JUD": 2,
+    "JUD": 3,
     "1JN": 3,
     "2PE": 3,
     "1PE": 2,
@@ -202,7 +206,9 @@
     "consistentie|PHP|verblijdt u zich ook en verblijdt u zich|archaismen.md:80 (imperatief-meervoud -t → stam) + congruentiefout; concordantie met χαίρετε elders in php (3:1, 4:4)",
     "consistentie|PHP|zie rm 12 12 2kor 13 11 fp|agents.md §1 'renovatie, geen hervertaling' en §2 'geen vrije parafrase'; concordantie van de sv-kanttekeningformule 'siet x' → 'zie x'",
     "consistentie|REV|en johannes insgelijks om dit voor de gemeente|modernisatie.md §2.7 / kanttekening-luiheid: gesplitste fossiele constructie 'van ... wege' half blijven staan als 'christus wege' (= namens christus).",
+    "consistentie|REV|en u hebt verdragen en hebt geduld|modernisatie.md §1 (concordantie); projectregel ὑπομονή→volharding (μακροθυμία→lankmoedig); precedent rg21-002 / rg22-006 (geduld-mismatch red_wins/rule_change)",
     "consistentie|REV|maar hetgeen u hebt houdt dat vast totdat|archaismen.md (imperatief-meervoud op `-t` → stam); modernisatie.md imperatief-`-t`",
+    "consistentie|REV|te vergaderen tot de oorlog|modernisatie.md §1 (concordantie van identiek sv-lemma); sv-origineel 'krijgh' (πόλεμος)",
     "modernisatie|1CO|die eet en drinkt zichzelf een oordeel niet|modernisatie.md §2.3 (finiet participium) + §2.3b (object nageschoven na participium)",
     "modernisatie|1CO|doet dat zo dikwijls als gij die zult|archaismen.md (imperatief-meervoud op `-t` → stam; ghy/gy/gij → u)",
     "modernisatie|1CO|en wordt geen afgodendienaars evenals sommigen van hen|archaismen.md:78 (imperatief-meervoud -t -> stam; wordt -> word)",
@@ -360,6 +366,7 @@
     "modernisatie|PHM|uw weldaad niet zou zijn als naar dwang|modernisatie.md §2.3b; modernisatie.md §2.7",
     "modernisatie|PHM|zie 2kor 1 1 fp 1 1 kol|modernisatie.md §2.5 / §2.6 (kanttekening-verwijzingen volgen dezelfde ref-normalisatie); refdata/afkortingen.csv (kolossenzen -> ko.)",
     "modernisatie|REV|allengs heeft uitgestrekt|modernisatie.md §2.7 (drempel-archaïsme)",
+    "modernisatie|REV|de tijd der doden om geoordeeld te worden|archaismen.md: fossiel genitief der/des/den + zn (hard in hoofdtekst); scripts/rules_data.py fossil_genitive_pairs regel 123",
     "modernisatie|REV|deze woorden zijn genomen uit zc 3 9|modernisatie.md §2.7 (drempel-archaïsme)",
     "modernisatie|REV|die als een zee dikwijls herwaarts en derwaarts|modernisatie.md §2.7 (drempel-archaïsme; woord niet gelist in drempel_archaismen). verwarringstest: 'herwaarts/derwaarts' zijn obsolete richtingsbijwoorden, modern nl 'heen en weer'.",
     "modernisatie|REV|die hem meteen bevelen zal te schrijven hetwelk|rules_data.py drempel_archaismen ('hetwelk'); precedent closed-key 'en johannes insgelijks ...' (drempel-archaïsme in kanttekening is geldig red-punt). validate.py stript <...> vóór de check, dus deze blijft staan.",
@@ -367,11 +374,14 @@
     "modernisatie|REV|en inzonderheid van trente|modernisatie.md §2.7 (drempel-archaïsme)",
     "modernisatie|REV|en johannes insgelijks om dit voor de gemeente|modernisatie.md §2.7 (drempel-archaïsme in kanttekening); drempel_archaismen (woord niet gelist)",
     "modernisatie|REV|het zwaard van hem die op het paard|archaismen.md (betrekkelijk hetwelk in hoofdtekst); modernisatie.md drempel-archaisme",
+    "modernisatie|REV|ik zal zijn naam geenszins uitwissen|scripts/rules_data.py drempel_archaismen ('geenszins', regel 371); modernisatie.md §2.7; precedent rg15-008 / rg18-004 / rg25-006 / rg32-003 (geenszins red_wins, ook voor οὐ μή)",
     "modernisatie|REV|komt hierheen op|modernisatie.md (imperatief-`-t`); archaismen.md:78",
     "modernisatie|REV|looft onze god u alle zijn dienstknechten|archaismen.md (imperatief meervoud -t -> stam)",
     "modernisatie|REV|maar dewijl deze schuldige plicht van de kerk|modernisatie.md §2.7 + rules_data.py drempel_archaismen ('dewijl')",
     "modernisatie|REV|op hetgeen zij metterdaad deden|modernisatie.md §2.7 (drempel-archaïsme)",
     "modernisatie|REV|opdat u eet het vlees van de koningen|modernisatie.md §2.3b (patroon 1: object nageschoven; werkwoord niet finaal in bijzin)",
+    "modernisatie|REV|sprak wederom met mij|scripts/rules_data.py drempel_archaismen ('wederom', regel 363); modernisatie.md §2.7",
+    "modernisatie|REV|u moet wederom profeteren voor vele volken|scripts/rules_data.py drempel_archaismen ('wederom', regel 363); modernisatie.md §2.7",
     "modernisatie|REV|vier engelen staan op de vier hoeken van|modernisatie.md §2.3 (finiet participium / -ende) + §2.3b",
     "modernisatie|REV|waar zij gevoed wordt een tijd en tijden|modernisatie.md (2.3b latijnse woordvolgorde / nageschoven object in bijzin; werkwoord niet finaal)",
     "modernisatie|REV|waarna de mensen op de aarde zich evenwel|rules_data.py drempel_archaismen ('evenwel'); modernisatie.md §2.7. scaffolding-gap: intro niet gescand.",
@@ -395,5 +405,5 @@
     "modernisatie|TIT|zowel in kleding als in hun gehele wandel|archaismen.md:29 (zelfst. 'wandel' = levenswijze → levenswandel / leven / gedrag); modernisatie.md §2.7 (verwarringstest)"
   ],
   "open_keys": [],
-  "updated_at": "2026-06-08T11:32:32.033798+00:00"
+  "updated_at": "2026-06-08T12:00:09.835286+00:00"
 }

@@ -768,3 +768,24 @@ Red bracht 6 punt(en). Verdicts: red_wins=5, green_wins=0, rule_change=1.
 - **[RG35-006] (modernisatie)** samen gingen in de Synagoge der Joden
   - regel: MODERNISATIE.md §2.3c gefossiliseerde genitief; fossiel genitief `der + zn` HARD tenzij vaste uitdr.; fix: Synagoge der Joden → synagoge van de Joden (idem 17:1, 17:10); volk der Joden (12:11) → volk van de Joden; allowlist-pair ('der','joden') vernauwen tot context 'Koning'
   - verdict: **rule_change** (scope=nt-wide, applied=True) — Green concedeert + structureel allowlist-lek bevestigd. FOSSIL_GENITIVE_PAIRS bevatte de GENERIEKE pair ('der','joden') (comment 'Koning der Joden'), maar de validator-match (validate.py:824-826) toet
+
+## Ronde 36 — REV + JUD  (2026-06-08T12:00:09.835672+00:00)
+Red bracht 6 punt(en). Verdicts: red_wins=5, green_wins=0, rule_change=1.
+- **[RG36-001] (modernisatie)** de tijd der doden om geoordeeld te worden
+  - regel: ARCHAISMEN.md: fossiel genitief der/des/den + zn (HARD in hoofdtekst); scripts/rules_data.py FOSSIL_GENITIVE_PAIRS regel 123; fix: de tijd voor de doden om geoordeeld te worden
+  - verdict: **red_wins** (scope=verse, applied=False) — Grieks ὁ καιρὸς τῶν νεκρῶν κριθῆναι = temporele/doel-genitief van καιρός; geen ἀνάστασις, dus NIET het credo-idioom 'opstanding der doden' waarvoor de whitelist-entry ('der','doden') in FOSSIL_GENITIV
+- **[RG36-002] (consistentie)** En u hebt verdragen, en hebt geduld
+  - regel: MODERNISATIE.md §1 (concordantie); projectregel ὑπομονή→volharding (μακροθυμία→lankmoedig); precedent RG21-002 / RG22-006 (geduld-mismatch red_wins/rule_change); fix: En u hebt verdragen, en hebt volharding
+  - verdict: **red_wins** (scope=verse, applied=False) — Grieks ὑπομονὴν ἔχεις. ὑπομονή->volharding is gereserveerde concordantie (ARCHAISMEN.md:84: standvastig volharden, niet passieve berusting; 'geduld' is gereserveerd weg van ὑπομονή/μακροθυμία). Geveri
+- **[RG36-003] (modernisatie)** ik zal zijn naam geenszins uitwissen
+  - regel: scripts/rules_data.py DREMPEL_ARCHAISMEN ('geenszins', regel 371); MODERNISATIE.md §2.7; precedent RG15-008 / RG18-004 / RG25-006 / RG32-003 (geenszins red_wins, ook voor οὐ μή); fix: ik zal zijn naam zeker niet uitwissen
+  - verdict: **red_wins** (scope=verse, applied=False) — Grieks οὐ μὴ ἐξαλείψω (emfatische ontkenning). 'geenszins' staat in DREMPEL_ARCHAISMEN (rules_data.py:371); sterke red_wins-precedenten incl. specifiek voor οὐ μή (RG25-006 JHN-sweep, plus RG15-008/RG
+- **[RG36-004] (modernisatie)** sprak wederom met mij
+  - regel: scripts/rules_data.py DREMPEL_ARCHAISMEN ('wederom', regel 363); MODERNISATIE.md §2.7; fix: sprak opnieuw met mij
+  - verdict: **red_wins** (scope=nt-wide, applied=False) — Grieks πάλιν λαλοῦσα. 'wederom' staat in DREMPEL_ARCHAISMEN (rules_data.py:363); faalt §2.7 productiviteitstest in vrije hoofdtekst; modern = 'opnieuw'/'weer'. Fix REV 10:8 -> 'sprak opnieuw met mij'.
+- **[RG36-005] (modernisatie)** U moet wederom profeteren voor vele volken
+  - regel: scripts/rules_data.py DREMPEL_ARCHAISMEN ('wederom', regel 363); MODERNISATIE.md §2.7; fix: U moet opnieuw profeteren voor vele volken
+  - verdict: **red_wins** (scope=verse, applied=False) — Grieks δεῖ σε πάλιν προφητεῦσαι. Tweede REV-instantie van geblacklist 'wederom' (rules_data.py:363), zelfde hoofdstuk; consistent met RG36-004. Fix REV 10:11 -> 'U moet opnieuw profeteren voor vele vo
+- **[RG36-006] (consistentie)** te vergaderen tot de oorlog
+  - regel: MODERNISATIE.md §1 (concordantie van identiek SV-lemma); SV-origineel 'krijgh' (πόλεμος); fix: te vergaderen tot de krijg
+  - verdict: **rule_change** (scope=nt-wide, applied=False) — RICHTING OMGEDRAAID t.o.v. RED's voorstel. Dit is een MODERNISATIE-project. 'krijg' als zelfstandig naamwoord voor 'oorlog' faalt §2.7 test 1 (productiviteit: niemand schrijft 'de krijg' in 2026) EN t
