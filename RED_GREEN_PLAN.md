@@ -41,7 +41,7 @@ Nog nooit besproken bij de nulmeting:
 Draai eerst deze handmatige paren voordat `redgreen_select.py` weer leidend
 wordt:
 
-- [ ] Ronde 17: `PHM + JUD`
+- [x] Ronde 17: `PHM + JUD`
 - [ ] Ronde 18: `1JN + 2PE`
 - [ ] Ronde 19: `1PE + JAS`
 - [ ] Ronde 20: `1TH + 2TH`
@@ -230,7 +230,7 @@ Sterke dekking:
 
 Vul dit handmatig bij na elke afgeronde ronde.
 
-- [ ] R17 `PHM+JUD` - status:
+- [x] R17 `PHM+JUD` - status: afgerond; 10 red-punten, 10 red_wins toegepast, 0 rule_change; validate/lint/semantic PASS.
 - [ ] R18 `1JN+2PE` - status:
 - [ ] R19 `1PE+JAS` - status:
 - [ ] R20 `1TH+2TH` - status:

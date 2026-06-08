@@ -1,0 +1,546 @@
+{
+  "books": [
+    "PHM",
+    "JUD"
+  ],
+  "layers": [
+    "body",
+    "note"
+  ],
+  "shared_greek_tokens": {
+    "body": 26,
+    "note": 25
+  },
+  "divergence_candidates": 13,
+  "divergence_by_layer": {
+    "body": 10,
+    "note": 3
+  },
+  "note": "Lexicale seed; geen oordeel. Verifieer elke kandidaat in context. layer=note = kanttekening-concordantie.",
+  "candidates": [
+    {
+      "layer": "note",
+      "greek_token": "Θεοῦ",
+      "shared_frequency": 3,
+      "PHM_examples": [
+        {
+          "chapter": 1,
+          "verse": 3,
+          "excerpt": "Dit is de gewone groet van Paulus in vrijwel al zijn brieven."
+        }
+      ],
+      "JUD_examples": [
+        {
+          "chapter": 1,
+          "verse": 4,
+          "excerpt": "Dat is, heimelijk en bedrieglijk onder de Christenen gekomen. Zie  . Of, allang, zoals  . Namelijk, waardoor God hen rechtvaardig in een verkeerde zin heeft ove"
+        },
+        {
+          "chapter": 1,
+          "verse": 21,
+          "excerpt": "Namelijk, door zorgvuldig alle middelen aan te wenden om daarin te blijven en toe te nemen. Zie het voorgaande vers. Of, elkaar, zoals tevoren. Dit kan verstaan"
+        }
+      ],
+      "PHM_words": [
+        "brieven",
+        "gewone",
+        "groet",
+        "paulus",
+        "vrijwel"
+      ],
+      "JUD_words": [
+        "aantekening",
+        "allang",
+        "alle",
+        "apostel",
+        "barmhartigheid",
+        "bedrieglijk",
+        "bedrijven",
+        "beide"
+      ]
+    },
+    {
+      "layer": "note",
+      "greek_token": "ἀλλὰ",
+      "shared_frequency": 2,
+      "PHM_examples": [
+        {
+          "chapter": 1,
+          "verse": 14,
+          "excerpt": "Grieks: uw goed. Hebreeuws. Grieks: noodzakelijkheid."
+        }
+      ],
+      "JUD_examples": [
+        {
+          "chapter": 1,
+          "verse": 6,
+          "excerpt": "Dat is, hun eerste staat waarin zij naar Gods evenbeeld geschapen, en in de hemelse gelukzaligheid met de goede Engelen gesteld waren,   Of, oorsprong, of heers"
+        }
+      ],
+      "PHM_words": [
+        "goed",
+        "grieks",
+        "hebreeuws",
+        "noodzakelijkheid"
+      ],
+      "JUD_words": [
+        "aantekening",
+        "afvallige",
+        "alle",
+        "betekent",
+        "christus",
+        "dingen",
+        "drie",
+        "eerste"
+      ]
+    },
+    {
+      "layer": "note",
+      "greek_token": "ἀμήν",
+      "shared_frequency": 2,
+      "PHM_examples": [
+        {
+          "chapter": 1,
+          "verse": 25,
+          "excerpt": "Dat is, met uw geest. Zie  ."
+        }
+      ],
+      "JUD_examples": [
+        {
+          "chapter": 1,
+          "verse": 25,
+          "excerpt": "Grieks: in alle eeuwen."
+        }
+      ],
+      "PHM_words": [
+        "geest"
+      ],
+      "JUD_words": [
+        "alle",
+        "eeuwen",
+        "grieks"
+      ]
+    },
+    {
+      "layer": "body",
+      "greek_token": "περὶ",
+      "shared_frequency": 5,
+      "PHM_examples": [
+        {
+          "chapter": 1,
+          "verse": 10,
+          "excerpt": "$Ko. 4:9$ Ik bid u [dan] voor   mijn zoon, $1Kor. 4:15; Gl. 4:19$ die ik in mijn banden   heb verwekt [namelijk] Onesimus."
+        }
+      ],
+      "JUD_examples": [
+        {
+          "chapter": 1,
+          "verse": 3,
+          "excerpt": "Geliefden, aangezien ik alle ijver aanwend om u te schrijven over   de gemeenschappelijke zaligheid, zo heb ik het   nodig gehad u te schrijven en [u] te verman"
+        },
+        {
+          "chapter": 1,
+          "verse": 7,
+          "excerpt": "$Gn. 19:24; Dt. 29:23; Js. 13:19; Jr. 50:40; Ez. 16:49; Hs. 11:8; Am. 4:11; Lk. 17:29; 2Pt. 2:6$ Zoals Sodom en Gomorra, en   de steden rondom deze, die op geli"
+        }
+      ],
+      "PHM_words": [
+        "banden",
+        "mijn",
+        "namelijk",
+        "onesimus",
+        "verwekt",
+        "zoon"
+      ],
+      "JUD_words": [
+        "aangezien",
+        "aanwend",
+        "aartsengel",
+        "alle",
+        "allen",
+        "ander",
+        "bestraffe",
+        "dragen"
+      ]
+    },
+    {
+      "layer": "body",
+      "greek_token": "τοῖς",
+      "shared_frequency": 4,
+      "PHM_examples": [
+        {
+          "chapter": 1,
+          "verse": 10,
+          "excerpt": "$Ko. 4:9$ Ik bid u [dan] voor   mijn zoon, $1Kor. 4:15; Gl. 4:19$ die ik in mijn banden   heb verwekt [namelijk] Onesimus."
+        },
+        {
+          "chapter": 1,
+          "verse": 13,
+          "excerpt": "Die ik wel bij mij had willen houden, opdat hij mij   voor u zou dienen in de banden   van het Evangelie:"
+        }
+      ],
+      "JUD_examples": [
+        {
+          "chapter": 1,
+          "verse": 1,
+          "excerpt": "Judas   een dienstknecht van Jezus Christus, en   broeder van Jakobus, aan   hen die geroepen zijn, die   door God de Vader geheiligd zijn, en [door] Jezus Chri"
+        },
+        {
+          "chapter": 1,
+          "verse": 3,
+          "excerpt": "Geliefden, aangezien ik alle ijver aanwend om u te schrijven over   de gemeenschappelijke zaligheid, zo heb ik het   nodig gehad u te schrijven en [u] te verman"
+        }
+      ],
+      "PHM_words": [
+        "banden",
+        "dienen",
+        "evangelie",
+        "houden",
+        "mijn",
+        "namelijk",
+        "onesimus",
+        "opdat"
+      ],
+      "JUD_words": [
+        "aangezien",
+        "aanwend",
+        "alle",
+        "bewaard",
+        "broeder",
+        "christus",
+        "dienstknecht",
+        "eenmaal"
+      ]
+    },
+    {
+      "layer": "body",
+      "greek_token": "τοῦτο",
+      "shared_frequency": 4,
+      "PHM_examples": [
+        {
+          "chapter": 1,
+          "verse": 15,
+          "excerpt": "Want   misschien is hij daarom   voor een korte tijd   [van u] gescheiden geweest, opdat u hem   eeuwig zou terugkrijgen:"
+        },
+        {
+          "chapter": 1,
+          "verse": 18,
+          "excerpt": "En indien hij u   in iets onrecht heeft aangedaan, of iets schuldig is,   reken dat mij toe."
+        }
+      ],
+      "JUD_examples": [
+        {
+          "chapter": 1,
+          "verse": 4,
+          "excerpt": "$2Pt. 2:1$ Want daar zijn sommige mensen   ingeslopen, $1Pt. 2:8; 2Pt. 2:3$ die   reeds lang   tot ditzelfde oordeel   tevoren opgeschreven zijn,   goddeloze, d"
+        },
+        {
+          "chapter": 1,
+          "verse": 5,
+          "excerpt": "Maar ik wil u   indachtig maken, omdat u dit   eenmaal weet, dat de Heere   toen hij het volk uit Egypteland   verlost had, $Nm. 14:29; 26:64,65; Ps. 106:26; 1K"
+        }
+      ],
+      "PHM_words": [
+        "aangedaan",
+        "daarom",
+        "eeuwig",
+        "gescheiden",
+        "geweest",
+        "iets",
+        "indien",
+        "korte"
+      ],
+      "JUD_words": [
+        "christus",
+        "daarna",
+        "degenen",
+        "ditzelfde",
+        "eenmaal",
+        "egypteland",
+        "enige",
+        "geloofden"
+      ]
+    },
+    {
+      "layer": "body",
+      "greek_token": "κατὰ",
+      "shared_frequency": 4,
+      "PHM_examples": [
+        {
+          "chapter": 1,
+          "verse": 14,
+          "excerpt": "Maar ik heb zonder uw goedvinden niets willen doen, opdat   uw weldaad niet zou zijn als naar   dwang, maar naar vrijwilligheid."
+        }
+      ],
+      "JUD_examples": [
+        {
+          "chapter": 1,
+          "verse": 15,
+          "excerpt": "Om gericht   te houden over   allen, en   te straffen alle   goddelozen onder hen, vanwege al hun goddeloze werken, die zij goddeloos gedaan hebben, en $Mt. 12:"
+        },
+        {
+          "chapter": 1,
+          "verse": 16,
+          "excerpt": "Zij zijn   mopperaars,   klagers over hun lot, die wandelen naar   hun begeerten; $2Pt. 2:18$ en hun mond spreekt zeer opgeblazen dingen:   zij bewonderen de pe"
+        }
+      ],
+      "PHM_words": [
+        "doen",
+        "dwang",
+        "goedvinden",
+        "niets",
+        "opdat",
+        "vrijwilligheid",
+        "weldaad",
+        "willen"
+      ],
+      "JUD_words": [
+        "alle",
+        "allen",
+        "begeerten",
+        "bewonderen",
+        "dingen",
+        "gedaan",
+        "gericht",
+        "gesproken"
+      ]
+    },
+    {
+      "layer": "body",
+      "greek_token": "πάντας",
+      "shared_frequency": 3,
+      "PHM_examples": [
+        {
+          "chapter": 1,
+          "verse": 5,
+          "excerpt": "Omdat ik hoor van uw liefde en geloof, dat u hebt jegens   de Heere Jezus, en jegens al de   heiligen:"
+        }
+      ],
+      "JUD_examples": [
+        {
+          "chapter": 1,
+          "verse": 15,
+          "excerpt": "Om gericht   te houden over   allen, en   te straffen alle   goddelozen onder hen, vanwege al hun goddeloze werken, die zij goddeloos gedaan hebben, en $Mt. 12:"
+        },
+        {
+          "chapter": 1,
+          "verse": 25,
+          "excerpt": "$Rm. 16:27; 1Tm. 1:17$ De alleen wijze God onze Zaligmaker, zij heerlijkheid en majesteit, kracht en macht, beide nu en   in alle eeuwigheid. Amen."
+        }
+      ],
+      "PHM_words": [
+        "geloof",
+        "hebt",
+        "heere",
+        "heiligen",
+        "hoor",
+        "jegens",
+        "jezus",
+        "liefde"
+      ],
+      "JUD_words": [
+        "alle",
+        "alleen",
+        "allen",
+        "amen",
+        "beide",
+        "eeuwigheid",
+        "gedaan",
+        "gericht"
+      ]
+    },
+    {
+      "layer": "body",
+      "greek_token": "ποιῆσαι",
+      "shared_frequency": 2,
+      "PHM_examples": [
+        {
+          "chapter": 1,
+          "verse": 14,
+          "excerpt": "Maar ik heb zonder uw goedvinden niets willen doen, opdat   uw weldaad niet zou zijn als naar   dwang, maar naar vrijwilligheid."
+        }
+      ],
+      "JUD_examples": [
+        {
+          "chapter": 1,
+          "verse": 15,
+          "excerpt": "Om gericht   te houden over   allen, en   te straffen alle   goddelozen onder hen, vanwege al hun goddeloze werken, die zij goddeloos gedaan hebben, en $Mt. 12:"
+        }
+      ],
+      "PHM_words": [
+        "doen",
+        "dwang",
+        "goedvinden",
+        "niets",
+        "opdat",
+        "vrijwilligheid",
+        "weldaad",
+        "willen"
+      ],
+      "JUD_words": [
+        "alle",
+        "allen",
+        "gedaan",
+        "gericht",
+        "gesproken",
+        "goddeloos",
+        "goddeloze",
+        "goddelozen"
+      ]
+    },
+    {
+      "layer": "body",
+      "greek_token": "αἰώνιον",
+      "shared_frequency": 2,
+      "PHM_examples": [
+        {
+          "chapter": 1,
+          "verse": 15,
+          "excerpt": "Want   misschien is hij daarom   voor een korte tijd   [van u] gescheiden geweest, opdat u hem   eeuwig zou terugkrijgen:"
+        }
+      ],
+      "JUD_examples": [
+        {
+          "chapter": 1,
+          "verse": 21,
+          "excerpt": "Bewaar   uzelf   in de liefde van God, en verwacht   de barmhartigheid van onze Heere Jezus Christus tot het eeuwige leven."
+        }
+      ],
+      "PHM_words": [
+        "daarom",
+        "eeuwig",
+        "gescheiden",
+        "geweest",
+        "korte",
+        "misschien",
+        "opdat",
+        "terugkrijgen"
+      ],
+      "JUD_words": [
+        "barmhartigheid",
+        "bewaar",
+        "christus",
+        "eeuwige",
+        "heere",
+        "jezus",
+        "leven",
+        "liefde"
+      ]
+    },
+    {
+      "layer": "body",
+      "greek_token": "ἀνάγκην",
+      "shared_frequency": 2,
+      "PHM_examples": [
+        {
+          "chapter": 1,
+          "verse": 14,
+          "excerpt": "Maar ik heb zonder uw goedvinden niets willen doen, opdat   uw weldaad niet zou zijn als naar   dwang, maar naar vrijwilligheid."
+        }
+      ],
+      "JUD_examples": [
+        {
+          "chapter": 1,
+          "verse": 3,
+          "excerpt": "Geliefden, aangezien ik alle ijver aanwend om u te schrijven over   de gemeenschappelijke zaligheid, zo heb ik het   nodig gehad u te schrijven en [u] te verman"
+        }
+      ],
+      "PHM_words": [
+        "doen",
+        "dwang",
+        "goedvinden",
+        "niets",
+        "opdat",
+        "vrijwilligheid",
+        "weldaad",
+        "willen"
+      ],
+      "JUD_words": [
+        "aangezien",
+        "aanwend",
+        "alle",
+        "eenmaal",
+        "gehad",
+        "geliefden",
+        "geloof",
+        "gemeenschappelijke"
+      ]
+    },
+    {
+      "layer": "body",
+      "greek_token": "ἀλλὰ",
+      "shared_frequency": 2,
+      "PHM_examples": [
+        {
+          "chapter": 1,
+          "verse": 14,
+          "excerpt": "Maar ik heb zonder uw goedvinden niets willen doen, opdat   uw weldaad niet zou zijn als naar   dwang, maar naar vrijwilligheid."
+        }
+      ],
+      "JUD_examples": [
+        {
+          "chapter": 1,
+          "verse": 6,
+          "excerpt": "$2Pt. 2:4$ En de Engelen die hun   oorspronkelijke staat niet bewaard hebben, maar   hun eigen woonplaats verlaten hebben, $2Pt. 2:4$ heeft hij tot het oordeel "
+        }
+      ],
+      "PHM_words": [
+        "doen",
+        "dwang",
+        "goedvinden",
+        "niets",
+        "opdat",
+        "vrijwilligheid",
+        "weldaad",
+        "willen"
+      ],
+      "JUD_words": [
+        "banden",
+        "bewaard",
+        "duisternis",
+        "eeuwige",
+        "eigen",
+        "engelen",
+        "grote",
+        "oordeel"
+      ]
+    },
+    {
+      "layer": "body",
+      "greek_token": "ποιούμενος",
+      "shared_frequency": 2,
+      "PHM_examples": [
+        {
+          "chapter": 1,
+          "verse": 4,
+          "excerpt": "$1Th. 1:2; 2Th. 1:3$ Ik dank mijn God, terwijl ik altijd aan u denk in mijn gebeden:"
+        }
+      ],
+      "JUD_examples": [
+        {
+          "chapter": 1,
+          "verse": 3,
+          "excerpt": "Geliefden, aangezien ik alle ijver aanwend om u te schrijven over   de gemeenschappelijke zaligheid, zo heb ik het   nodig gehad u te schrijven en [u] te verman"
+        }
+      ],
+      "PHM_words": [
+        "altijd",
+        "dank",
+        "denk",
+        "gebeden",
+        "mijn",
+        "terwijl"
+      ],
+      "JUD_words": [
+        "aangezien",
+        "aanwend",
+        "alle",
+        "eenmaal",
+        "gehad",
+        "geliefden",
+        "geloof",
+        "gemeenschappelijke"
+      ]
+    }
+  ]
+}

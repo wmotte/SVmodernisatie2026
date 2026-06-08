@@ -1,5 +1,5 @@
 {
-  "rounds_done": 16,
+  "rounds_done": 17,
   "pairs": [
     [
       "REV",
@@ -65,6 +65,10 @@
     [
       "2JN",
       "3JN"
+    ],
+    [
+      "PHM",
+      "JUD"
     ]
   ],
   "debate_count": {
@@ -78,7 +82,9 @@
     "MAT": 3,
     "ACT": 1,
     "2JN": 1,
-    "3JN": 1
+    "3JN": 1,
+    "PHM": 1,
+    "JUD": 1
   },
   "closed_keys": [
     "consistentie|2CO,ROM|om de aanleiding af te snijden voor hen|concordantie cross-book (grieks aphorme)",
@@ -130,6 +136,13 @@
     "modernisatie|JHN|neemt u hem en oordeelt hem naar uw|archaismen.md (imperatief meervoud -t -> stam)",
     "modernisatie|JHN|terwijl zij smadelijk spreken van christus en van|rules_data.py drempel_archaismen ('smadelijk'); modernisatie.md §2.7. scaffolding-gap: intro niet gescand.",
     "modernisatie|JHN|want ik weet vanwaar ik gekomen ben en|modernisatie.md §2.7 (drempel-archaïsme)",
+    "modernisatie|JUD|bouwt u uzelf op en bidt in de|archaismen.md: imperatief-meervoud op `-t`; modernisatie.md §2.3",
+    "modernisatie|JUD|de eerste christenen plachten met elkaar tot versterking|modernisatie.md §2.7; kanttekeningen.md",
+    "modernisatie|JUD|de genadige sententie of het vonnis|modernisatie.md §2.7; kanttekeningen.md",
+    "modernisatie|JUD|die u met ons apostelen gemeen hebt|archaismen.md false friends: `gemeen`; kanttekeningen.md",
+    "modernisatie|JUD|dit kan verstaan worden|archaismen.md false friends: `verstaan worden`; kanttekeningen.md",
+    "modernisatie|JUD|maar ik wil u indachtig maken|modernisatie.md §2.7",
+    "modernisatie|JUD|omdat hun loop niet eenparig is met de|modernisatie.md §2.7; kanttekeningen.md",
     "modernisatie|LUK|bidt en u zal gegeven worden zoekt en|archaismen.md (imperatief-meervoud op `-t` → stam); modernisatie.md imperatief-`-t`",
     "modernisatie|LUK|brengt dan vruchten voort die de bekering waardig|archaismen.md (imperatief-meervoud op `-t` → stam)",
     "modernisatie|LUK|de kaarsen brandende|modernisatie.md §2.3 (predicatief/periphrastisch participium / -ende)",
@@ -164,6 +177,9 @@
     "modernisatie|MRK|neemt eet|archaismen.md:78 (imperatief-meervoud sv-`-t` → stam); modernisatie.md imperatief-`-t`",
     "modernisatie|MRK|waakt dan|archaismen.md:78 (imperatief-meervoud sv-`-t` → stam)",
     "modernisatie|MRK|zo wie achter mij wil komen|modernisatie.md drempel-archaïsme (correlatief 'zo wie ... die')",
+    "modernisatie|PHM|inzonderheid voor mij|modernisatie.md §2.7",
+    "modernisatie|PHM|opdat allen daardoor bekendgemaakt wordt al het goede|modernisatie.md §2.3b; kanttekeningen.md",
+    "modernisatie|PHM|uw weldaad niet zou zijn als naar dwang|modernisatie.md §2.3b; modernisatie.md §2.7",
     "modernisatie|REV|allengs heeft uitgestrekt|modernisatie.md §2.7 (drempel-archaïsme)",
     "modernisatie|REV|deze woorden zijn genomen uit zc 3 9|modernisatie.md §2.7 (drempel-archaïsme)",
     "modernisatie|REV|die als een zee dikwijls herwaarts en derwaarts|modernisatie.md §2.7 (drempel-archaïsme; woord niet gelist in drempel_archaismen). verwarringstest: 'herwaarts/derwaarts' zijn obsolete richtingsbijwoorden, modern nl 'heen en weer'.",
@@ -191,5 +207,5 @@
     "modernisatie|ROM|weest vrolijk u heidenen met zijn volk|archaismen.md:78 imperatief-meervoud sv-`-t` -> stam"
   ],
   "open_keys": [],
-  "updated_at": "2026-06-07T20:09:37.656293+00:00"
+  "updated_at": "2026-06-07T20:40:56.855993+00:00"
 }

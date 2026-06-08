@@ -1,0 +1,293 @@
+{
+  "round_no": 17,
+  "books": [
+    "PHM",
+    "JUD"
+  ],
+  "red": [
+    {
+      "id": "RG17-001",
+      "class": "modernisatie",
+      "books": [
+        "PHM"
+      ],
+      "chapter": 1,
+      "verse": 6,
+      "quote": "opdat allen daardoor bekendgemaakt wordt al het goede",
+      "in_kanttekening": true,
+      "rule_reference": "MODERNISATIE.md §2.3b; KANTTEKENINGEN.md",
+      "explanation": "De kanttekening bewaart een SV/Latinaatse woordvolgorde en is grammaticaal ontspoord: 'allen ... wordt al het goede' heeft geen moderne Nederlandse constructie. Kanttekeningen moeten volwaardig gemoderniseerd worden.",
+      "proposed_fix": "opdat al het goede daardoor aan allen bekendgemaakt wordt",
+      "severity": "hard"
+    },
+    {
+      "id": "RG17-002",
+      "class": "modernisatie",
+      "books": [
+        "PHM"
+      ],
+      "chapter": 1,
+      "verse": 14,
+      "quote": "uw weldaad niet zou zijn als naar dwang, maar naar vrijwilligheid",
+      "in_kanttekening": false,
+      "rule_reference": "MODERNISATIE.md §2.3b; MODERNISATIE.md §2.7",
+      "explanation": "'Als naar dwang / naar vrijwilligheid' is een calque van de oude voorzetselconstructie en werkt niet als modern Nederlands. De HSV-spiegel signaleert dezelfde drempel met 'niet gedwongen maar vrijwillig', maar het bewijs ligt in de Nederlandse constructie-test.",
+      "proposed_fix": "uw weldaad niet uit dwang, maar vrijwillig zou zijn",
+      "severity": "hard"
+    },
+    {
+      "id": "RG17-003",
+      "class": "modernisatie",
+      "books": [
+        "PHM"
+      ],
+      "chapter": 1,
+      "verse": 16,
+      "quote": "inzonderheid voor mij",
+      "in_kanttekening": false,
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'Inzonderheid' is formeel-archaïsch en faalt de productiviteitstest voor modern Nederlands. De betekenis is zonder verlies weer te geven met 'vooral' of 'in het bijzonder'.",
+      "proposed_fix": "vooral voor mij",
+      "severity": "soft"
+    },
+    {
+      "id": "RG17-004",
+      "class": "modernisatie",
+      "books": [
+        "JUD"
+      ],
+      "chapter": 1,
+      "verse": 3,
+      "quote": "die u met ons Apostelen gemeen hebt",
+      "in_kanttekening": true,
+      "rule_reference": "ARCHAISMEN.md False friends: `gemeen`; KANTTEKENINGEN.md",
+      "explanation": "SV 'gemeen' betekent hier 'gemeenschappelijk/gedeeld', maar modern Nederlands leest 'gemeen' primair als onaardig of vulgair. Eerdere beslissingen behandelen deze kanttekeningbetekenis als false friend.",
+      "proposed_fix": "die u met ons Apostelen gemeenschappelijk hebt",
+      "severity": "hard"
+    },
+    {
+      "id": "RG17-005",
+      "class": "modernisatie",
+      "books": [
+        "JUD"
+      ],
+      "chapter": 1,
+      "verse": 5,
+      "quote": "Maar ik wil u indachtig maken",
+      "in_kanttekening": false,
+      "rule_reference": "MODERNISATIE.md §2.7",
+      "explanation": "'Indachtig maken' is Bijbels-formeel en niet productief modern Nederlands. De constructie kan zonder inhoudswijziging worden gemoderniseerd naar 'in herinnering brengen'.",
+      "proposed_fix": "Maar ik wil u eraan herinneren",
+      "severity": "soft"
+    },
+    {
+      "id": "RG17-006",
+      "class": "modernisatie",
+      "books": [
+        "JUD"
+      ],
+      "chapter": 1,
+      "verse": 12,
+      "quote": "de eerste Christenen plachten met elkaar tot versterking van de liefde te houden",
+      "in_kanttekening": true,
+      "rule_reference": "MODERNISATIE.md §2.7; KANTTEKENINGEN.md",
+      "explanation": "'Plachten' is een drempel-archaïsme in uitlegtekst. De kanttekening kan dezelfde gewoonte uitdrukken met een moderne constructie.",
+      "proposed_fix": "de eerste Christenen gewoonlijk met elkaar tot versterking van de liefde hielden",
+      "severity": "soft"
+    },
+    {
+      "id": "RG17-007",
+      "class": "modernisatie",
+      "books": [
+        "JUD"
+      ],
+      "chapter": 1,
+      "verse": 13,
+      "quote": "omdat hun loop niet eenparig is met de andere sterren",
+      "in_kanttekening": true,
+      "rule_reference": "MODERNISATIE.md §2.7; KANTTEKENINGEN.md",
+      "explanation": "'Eenparig' is hier een archaïsch technisch bijwoord voor een gelijkmatige baan. Een hedendaagse lezer zal dit niet spontaan gebruiken of direct plaatsen.",
+      "proposed_fix": "omdat hun loop niet gelijkmatig is met die van de andere sterren",
+      "severity": "soft"
+    },
+    {
+      "id": "RG17-008",
+      "class": "modernisatie",
+      "books": [
+        "JUD"
+      ],
+      "chapter": 1,
+      "verse": 20,
+      "quote": "bouwt u ... uzelf op ... en bidt ... in de Heilige Geest",
+      "in_kanttekening": false,
+      "rule_reference": "ARCHAISMEN.md: imperatief-meervoud op `-t`; MODERNISATIE.md §2.3",
+      "explanation": "De hoofdtekst functioneert als aansporing bij de imperatief van vers 21. Modern Nederlands gebruikt hier de stamvorm; 'bouwt' en 'bidt' bewaren de SV-meervoudsimperatief.",
+      "proposed_fix": "bouw uzelf op ... en bid ... in de Heilige Geest",
+      "severity": "hard"
+    },
+    {
+      "id": "RG17-009",
+      "class": "modernisatie",
+      "books": [
+        "JUD"
+      ],
+      "chapter": 1,
+      "verse": 21,
+      "quote": "Dit kan verstaan worden",
+      "in_kanttekening": true,
+      "rule_reference": "ARCHAISMEN.md False Friends: `verstaan worden`; KANTTEKENINGEN.md",
+      "explanation": "Passief 'verstaan worden' is in kanttekening-uitleg een false friend: de SV bedoelt 'opgevat/bedoeld worden', niet auditief of cognitief begrepen worden. Dit patroon is eerder in red-green als red_wins beslecht.",
+      "proposed_fix": "Dit kan opgevat worden",
+      "severity": "hard"
+    },
+    {
+      "id": "RG17-010",
+      "class": "modernisatie",
+      "books": [
+        "JUD"
+      ],
+      "chapter": 1,
+      "verse": 21,
+      "quote": "de genadige sententie, of het vonnis",
+      "in_kanttekening": true,
+      "rule_reference": "MODERNISATIE.md §2.7; KANTTEKENINGEN.md",
+      "explanation": "'Sententie' is een Latijns-juridisch archaïsme in de uitlegtekst. Het naaststaande 'vonnis' verklaart de betekenis, maar modernisatie moet het archaïsme zelf wegnemen.",
+      "proposed_fix": "de genadige uitspraak of het vonnis",
+      "severity": "soft"
+    }
+  ],
+  "green": [
+    {
+      "point_id": "RG17-001",
+      "stance": "concede",
+      "rebuttal": "Concede. In PHM 1:6 staat de kanttekening als Nederlandse uitlegzin, niet als te bewaren Griekse glosse: `allen daardoor bekendgemaakt wordt al het goede` heeft geen modern onderwerp-lijdendvoorwerp-verband. KANTTEKENINGEN.md laat kanttekeningen volwaardig moderniseren, en MODERNISATIE.md §2.3b staat syntactische herschikking toe waar de SV-volgorde onleesbaar wordt.",
+      "evidence": "PHM 1:6 kanttekening bij `Gr. erkentenisse`; MODERNISATIE.md §2.3b; KANTTEKENINGEN.md behoud blokken maar moderniseer inhoud."
+    },
+    {
+      "point_id": "RG17-002",
+      "stance": "concede",
+      "rebuttal": "Concede. De Griekse tegenstelling `κατὰ ἀνάγκην ... κατὰ ἑκούσιον` verklaart de letterlijke SV-vorm, maar `als naar dwang / naar vrijwilligheid` faalt in PHM 1:14 de constructie-test: modern Nederlands zegt hier `uit dwang` tegenover `vrijwillig`. De HSV-spiegel bevestigt dit slechts; de doorslag ligt in MODERNISATIE.md §2.7.",
+      "evidence": "PHM 1:14 `κατὰ ἀνάγκην ... κατὰ ἑκούσιον`; MODERNISATIE.md §2.7 constructie-test; docs/diff_hsv_PHM_1.json vers 14."
+    },
+    {
+      "point_id": "RG17-003",
+      "stance": "concede",
+      "rebuttal": "Concede. `Inzonderheid` in PHM 1:16 is geen theologische kernterm maar een formeel-archaïsch bijwoord bij `μάλιστα ἐμοί`; `in het bijzonder` of `vooral` behoudt de versspecifieke nadruk zonder registerverlies. MODERNISATIE.md §2.7 zegt dat woorden die stilistisch als oud of Bijbels-formeel markeren, ook als ze woordenboek-Nederlands zijn, gemoderniseerd worden.",
+      "evidence": "PHM 1:16 `μάλιστα ἐμοί`; MODERNISATIE.md §2.7 productiviteitstest; docs/diff_hsv_PHM_1.json vers 16 `in het bijzonder`."
+    },
+    {
+      "point_id": "RG17-004",
+      "stance": "concede",
+      "rebuttal": "Concede. Hoewel `iets gemeen hebben met` nog herkenbaar kan zijn, heeft dit project `gemeen` expliciet als false friend gecategoriseerd en eerdere beslissingen corrigeren kanttekeninggebruik naar `gemeenschappelijk`. In JUD 1:3 gaat het om gedeelde `κοινῆς σωτηρίας`; de hoofdtekst heeft al terecht `gemeenschappelijke zaligheid`, zodat de kanttekening met `gemeenschappelijk hebt` concordant en moderner wordt.",
+      "evidence": "ARCHAISMEN.md False Friends `gemeen`; JUD 1:3 `κοινῆς σωτηρίας`; query_decisions `gemeen` HAND 15:9 kanttekening."
+    },
+    {
+      "point_id": "RG17-005",
+      "stance": "concede",
+      "rebuttal": "Concede. `Indachtig maken` in JUD 1:5 is een Bijbels-formele constructie voor Grieks `Ὑπομνῆσαι`; de eigen kanttekening in hetzelfde vers geeft al modern `in herinnering brengen`. Daarmee faalt de hoofdtekst de §2.7-constructie/productiviteitstest zonder dat er formele-equivalentie-informatie verloren gaat.",
+      "evidence": "JUD 1:5 `Ὑπομνῆσαι`; kanttekening `in herinnering brengen`; MODERNISATIE.md §2.7."
+    },
+    {
+      "point_id": "RG17-006",
+      "stance": "concede",
+      "rebuttal": "Concede. `Plachten` staat in JUD 1:12 in verklarende kanttekeningtekst over de vroegchristelijke agape-maaltijden (`ἀγάπαις`), niet in een beschermde formule. Het markeert literair/oud en valt precies onder de §2.7-drempel; `gewoonlijk hielden` of `pleegden te houden` is niet nodig, want `gewoonlijk ... hielden` bewaart de herhaalde gewoonte.",
+      "evidence": "JUD 1:12 kanttekening bij `ἀγάπαις`; MODERNISATIE.md §2.7; KANTTEKENINGEN.md kanttekeninginhoud moderniseren."
+    },
+    {
+      "point_id": "RG17-007",
+      "stance": "concede",
+      "rebuttal": "Concede. In JUD 1:13 gaat het om de uitleg van `ἀστέρες πλανῆται`; `eenparig is met de andere sterren` werkt in modern Nederlands niet idiomatisch en kan bovendien richting `unaniem` mislezen worden. De kanttekening wil een afwijkende of niet-gelijkmatige loop uitleggen, dus §2.7 verwarringtest en constructie-test pleiten voor modernisering.",
+      "evidence": "JUD 1:13 `ἀστέρες πλανῆται`; MODERNISATIE.md §2.7 verwarringtest/constructie-test; KANTTEKENINGEN.md."
+    },
+    {
+      "point_id": "RG17-008",
+      "stance": "concede",
+      "rebuttal": "Concede. De bronvormen in JUD 1:20 zijn participia (`ἐποικοδομοῦντες`, `προσευχόμενοι`) die syntactisch naar de imperatief van vers 21 (`τηρήσατε`) toewerken; als ze in modern Nederlands als aansporende persoonsvormen worden weergegeven, mogen ze niet in SV-meervoudsimperatief op `-t` blijven staan. De projectregel voor imperatief-`-t` is al gesloten in meerdere red-greenrondes.",
+      "evidence": "JUD 1:20 `ἐποικοδομοῦντες`, `προσευχόμενοι`; JUD 1:21 `τηρήσατε`; ARCHAISMEN.md imperatief-meervoud op `-t`; round_9/round_16 precedenten."
+    },
+    {
+      "point_id": "RG17-009",
+      "stance": "concede",
+      "rebuttal": "Concede. `Dit kan verstaan worden` in JUD 1:21 is exact de passieve uitlegformule uit de false-friendtabel: het betekent hier `opgevat/bedoeld worden`, niet auditief of cognitief verstaan. Ronde 16 heeft hetzelfde patroon in een kanttekening al als red_wins gesloten.",
+      "evidence": "ARCHAISMEN.md False Friends `verstaan worden`; JUD 1:21 kanttekening; output/META/debate/round_16.json RG16-008 red_wins."
+    },
+    {
+      "point_id": "RG17-010",
+      "stance": "concede",
+      "rebuttal": "Concede. `Sententie` in JUD 1:21 is een Latijns-juridisch archaïsme in uitlegtekst; het naaststaande `of het vonnis` verklaart de SV-term maar maakt het archaïsme niet modern. MODERNISATIE.md §2.7 laat zulke woorden niet staan enkel omdat ze verklaard worden, en KANTTEKENINGEN.md geeft geen uitzondering voor Latijnse registerwoorden buiten echte glossen.",
+      "evidence": "JUD 1:21 kanttekening bij het oordeel op `τὸ ἔλεος`; MODERNISATIE.md §2.7; KANTTEKENINGEN.md kanttekeninginhoud moderniseren."
+    }
+  ],
+  "verdicts": [
+    {
+      "point_id": "RG17-001",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. De kanttekeningzin faalt als modern Nederlands en valt onder toegestane syntactische modernisering van kanttekeningen.",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG17-002",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. De voorzetselconstructie `als naar dwang / naar vrijwilligheid` faalt de moderne constructie-test; het punt blijft versspecifiek.",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG17-003",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. `Inzonderheid` is hier een formeel-archaïsch bijwoord zonder beschermde theologische functie.",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG17-004",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. `Gemeen` is al als false friend behandeld en de kanttekening moet concordant met de gedeelde zaligheid worden gemoderniseerd.",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG17-005",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. `Indachtig maken` is een Bijbels-formele constructie; `in herinnering brengen` behoudt de betekenis zonder verlies.",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG17-006",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. `Plachten` staat in verklarende kanttekeningtekst en haalt de moderne productiviteitstest niet.",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG17-007",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. `Eenparig is met de andere sterren` is in de kanttekening niet idiomatisch modern en kan misleiden.",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG17-008",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. Als de participia als aansporende persoonsvormen zijn weergegeven, mag de SV-meervoudsimperatief op `-t` niet blijven staan.",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG17-009",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. `Verstaan worden` is hier de bekende passieve uitlegformule voor `opgevat/bedoeld worden`, niet een modern te bewaren lezing.",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG17-010",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. `Sententie` is een Latijns-juridisch archaïsme in kanttekeningtekst; de verklaring `of het vonnis` heft de modernisatieplicht niet op.",
+      "scope": "verse",
+      "applied": true
+    }
+  ]
+}

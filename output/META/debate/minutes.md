@@ -375,3 +375,36 @@ Red bracht 10 punt(en). Verdicts: red_wins=8, green_wins=2, rule_change=0.
 - **[RG16-010] (modernisatie)** boze woorden ... snaterende tegen ... ons
   - regel: MODERNISATIE.md §2.3; scripts/rules_data.py PARTICIPLE_BAD_END_STEMS / adversarial_scan §2.3 finiet participium; fix: zijn werken die hij doet: hij snatert/lastert met boze woorden tegen ons; en ...
   - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert expliciet; `snaterende tegen ons` is een participiumcarry-over bij `φλυαρῶν ἡμᾶς`.
+
+## Ronde 17 — PHM + JUD  (2026-06-07T20:40:56.856257+00:00)
+Red bracht 10 punt(en). Verdicts: red_wins=10, green_wins=0, rule_change=0.
+- **[RG17-001] (modernisatie)** opdat allen daardoor bekendgemaakt wordt al het goede
+  - regel: MODERNISATIE.md §2.3b; KANTTEKENINGEN.md; fix: opdat al het goede daardoor aan allen bekendgemaakt wordt
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert. De kanttekeningzin faalt als modern Nederlands en valt onder toegestane syntactische modernisering van kanttekeningen.
+- **[RG17-002] (modernisatie)** uw weldaad niet zou zijn als naar dwang, maar naar vrijwilligheid
+  - regel: MODERNISATIE.md §2.3b; MODERNISATIE.md §2.7; fix: uw weldaad niet uit dwang, maar vrijwillig zou zijn
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert. De voorzetselconstructie `als naar dwang / naar vrijwilligheid` faalt de moderne constructie-test; het punt blijft versspecifiek.
+- **[RG17-003] (modernisatie)** inzonderheid voor mij
+  - regel: MODERNISATIE.md §2.7; fix: vooral voor mij
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert. `Inzonderheid` is hier een formeel-archaïsch bijwoord zonder beschermde theologische functie.
+- **[RG17-004] (modernisatie)** die u met ons Apostelen gemeen hebt
+  - regel: ARCHAISMEN.md False friends: `gemeen`; KANTTEKENINGEN.md; fix: die u met ons Apostelen gemeenschappelijk hebt
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert. `Gemeen` is al als false friend behandeld en de kanttekening moet concordant met de gedeelde zaligheid worden gemoderniseerd.
+- **[RG17-005] (modernisatie)** Maar ik wil u indachtig maken
+  - regel: MODERNISATIE.md §2.7; fix: Maar ik wil u eraan herinneren
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert. `Indachtig maken` is een Bijbels-formele constructie; `in herinnering brengen` behoudt de betekenis zonder verlies.
+- **[RG17-006] (modernisatie)** de eerste Christenen plachten met elkaar tot versterking van de liefde te houden
+  - regel: MODERNISATIE.md §2.7; KANTTEKENINGEN.md; fix: de eerste Christenen gewoonlijk met elkaar tot versterking van de liefde hielden
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert. `Plachten` staat in verklarende kanttekeningtekst en haalt de moderne productiviteitstest niet.
+- **[RG17-007] (modernisatie)** omdat hun loop niet eenparig is met de andere sterren
+  - regel: MODERNISATIE.md §2.7; KANTTEKENINGEN.md; fix: omdat hun loop niet gelijkmatig is met die van de andere sterren
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert. `Eenparig is met de andere sterren` is in de kanttekening niet idiomatisch modern en kan misleiden.
+- **[RG17-008] (modernisatie)** bouwt u ... uzelf op ... en bidt ... in de Heilige Geest
+  - regel: ARCHAISMEN.md: imperatief-meervoud op `-t`; MODERNISATIE.md §2.3; fix: bouw uzelf op ... en bid ... in de Heilige Geest
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert. Als de participia als aansporende persoonsvormen zijn weergegeven, mag de SV-meervoudsimperatief op `-t` niet blijven staan.
+- **[RG17-009] (modernisatie)** Dit kan verstaan worden
+  - regel: ARCHAISMEN.md False Friends: `verstaan worden`; KANTTEKENINGEN.md; fix: Dit kan opgevat worden
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert. `Verstaan worden` is hier de bekende passieve uitlegformule voor `opgevat/bedoeld worden`, niet een modern te bewaren lezing.
+- **[RG17-010] (modernisatie)** de genadige sententie, of het vonnis
+  - regel: MODERNISATIE.md §2.7; KANTTEKENINGEN.md; fix: de genadige uitspraak of het vonnis
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert. `Sententie` is een Latijns-juridisch archaïsme in kanttekeningtekst; de verklaring `of het vonnis` heft de modernisatieplicht niet op.
