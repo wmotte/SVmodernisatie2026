@@ -44,6 +44,16 @@ FULLNAME_ALIASES = {
     "Efeziërs": "Efeze",
 }
 
+# Oude-afk-aliassen die NIET in bible_book_references.csv kolom 0 staan maar
+# wél als invoer-token lekken. 'Kol' is de MODERNE afk voor Kolossenzen
+# (kolom 1) en wordt daarom nooit als invoer-sleutel herkend; de oude-afk-
+# kolom kent enkel Col/Colos/Coloss. Gevolg: `$Kol. 4:16$` bleef ongewijzigd
+# i.p.v. genormaliseerd naar canoniek `$Ko. 4:16$`. Red-green ronde 28
+# RG28-002 (FILE/PHM-leak; NT-breed 15 refs). Sleutel = genormaliseerde vorm.
+OLDABBR_ALIASES = {
+    "kol": "Kolossenzen",
+}
+
 # Welke 3-letterige projectcode hoort bij welke Full Name?
 # Gebruikt door --current-book om impliciete refs ($H:V$ zonder boek) te resolven.
 PROJECT_CODE_TO_FULLNAME = {
@@ -131,6 +141,9 @@ def _load_oldabbr_to_fullname() -> dict[str, str]:
             mapping[key] = full_name_dutch.strip()
             # Stuur ook de Full Name terug op zichzelf (idempotent).
             mapping[_normalize_book_key(full_name_dutch)] = full_name_dutch.strip()
+    # Extra oude-afk-aliassen die niet in kolom 0 van de CSV staan.
+    for alias_key, full_name in OLDABBR_ALIASES.items():
+        mapping[_normalize_book_key(alias_key)] = full_name
     return mapping
 
 

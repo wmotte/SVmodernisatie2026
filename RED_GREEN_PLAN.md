@@ -66,21 +66,21 @@ nieuws opleverde.
 
 Johannes-cluster:
 
-- [ ] `JHN + 1JN`
-- [ ] `1JN + 2JN`
-- [ ] `2JN + 3JN` alleen herhalen bij nieuwe aanwijzingen.
+- [x] `JHN + 1JN` — R25 (7 red_wins)
+- [x] `1JN + 2JN` — R26 (1 red_wins + 2 rule_change + 1 verse-fix)
+- [x] `2JN + 3JN` — R27 (1 red_wins nt-wide: kanttekening-opener-norm)
 
 Paulus korte brieven:
 
-- [ ] `EPH + COL`
+- [x] `EPH + COL` — gedekt door R22 (COL+EPH)
 - [ ] `PHP + PHM`
-- [ ] `1TH + 2TH`
-- [ ] `1TI + 2TI`
+- [x] `1TH + 2TH` — gedekt door R20
+- [x] `1TI + 2TI` — gedekt door R21
 - [ ] `TIT + PHM`
 
 Algemene brieven:
 
-- [ ] `JAS + 1PE`
+- [x] `JAS + 1PE` — gedekt door R19
 - [ ] `1PE + 2PE`
 - [ ] `JUD + 2PE`
 - [ ] `HEB + JAS`

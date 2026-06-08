@@ -1,0 +1,72 @@
+{
+  "round_no": 28,
+  "books": [
+    "PHP",
+    "PHM"
+  ],
+  "red": [
+    {
+      "id": "RG28-001",
+      "class": "consistentie",
+      "books": [
+        "PHM",
+        "PHP"
+      ],
+      "chapter": 1,
+      "verse": 2,
+      "quote": "Archippus onze <Namelijk, in die krijg, waarvan de Apostel spreekt $1Tm. 1:18; 2Tm. 2:3$.> medestrijder, en de gemeente $Rm. 16:5; 1Kor. 16:19; Kol. 4:15$",
+      "in_kanttekening": false,
+      "rule_reference": "MODERNISATIE.md §2.5 (bijbelverwijzingen genormaliseerd); BIJBELVERWIJZINGEN.md; refdata/afkortingen.csv (Kolossenzen -> Ko.)",
+      "explanation": "De canonieke output-afkorting voor Kolossenzen is `Ko.` (refdata/afkortingen.csv: 'Kolossenzen,Ko.'); alle body-refs in PHP (Ko. 1:3, Ko. 4:3, Ko. 1:15, Ko. 3:1, ...) en de meeste body-refs in PHM (Ko. 4:9 v10, Ko. 1:7;4:12 v23, Ko. 4:10 v24) gebruiken `Ko.`. PHM v2 gebruikt in de HOOFDTEKST tweemaal `Kol.` (`$Kol. 4:17$` en `$...Kol. 4:15$`). Dat is bibref-normalisatie die niet is doorgevoerd: dezelfde verwijzing krijgt twee notaties binnen één boek en wijkt af van PHP. Verwarringtest faalt: een viewer die op `$Ko. ...$` indexeert mist deze refs.",
+      "proposed_fix": "Vervang `Kol.` door `Ko.` in PHM v2 hoofdtekst: `$Ko. 4:17$` en `$Rm. 16:5; 1Kor. 16:19; Ko. 4:15$`. Structureel patroon: `Kol.`-leaks komen NT-breed voor (1CO, 2CO, ACT, GAL, JHN, LUK, ROM, PHM) -- kandidaat voor rule_change / NT-brede bibref-sweep naar `Ko.`.",
+      "severity": "hard"
+    },
+    {
+      "id": "RG28-002",
+      "class": "modernisatie",
+      "books": [
+        "PHM"
+      ],
+      "chapter": 1,
+      "verse": 1,
+      "quote": "Zie $2Kor. 1:1; Fp. 1:1; Kol. 1:1; 1Th. 1:1; 2Th. 1:1$",
+      "in_kanttekening": true,
+      "rule_reference": "MODERNISATIE.md §2.5 / §2.6 (kanttekening-verwijzingen volgen dezelfde ref-normalisatie); refdata/afkortingen.csv (Kolossenzen -> Ko.)",
+      "explanation": "Zelfde defect als RG28-001 maar in de kanttekening van v1: `Kol. 1:1` waar de canonieke vorm `Ko.` is. De kanttekening-laag is niet volledig door bibref gehaald (zelfde patroon als de bekende drempel-note-strip-gap: notes worden gemist door de scanner). Binnen PHM staat hierdoor `Kol.` (v1-note, v2) naast `Ko.` (v10, v23, v24), terwijl PHP overal `Ko.` aanhoudt.",
+      "proposed_fix": "Normaliseer in de kanttekening van v1: `$2Kor. 1:1; Fp. 1:1; Ko. 1:1; 1Th. 1:1; 2Th. 1:1$`. Idem de v2-kanttekening `$Kol. 4:17$` -> `$Ko. 4:17$`.",
+      "severity": "hard"
+    }
+  ],
+  "green": [
+    {
+      "point_id": "RG28-001",
+      "stance": "concede",
+      "rebuttal": "Reëel defect. De canonieke output-afkorting voor Kolossenzen is `Ko.` (refdata/afkortingen.csv:51 'Kolossenzen,Ko.'). Corpus-dominantie bevestigt: `$Ko. ` 137x, `Ko. ` totaal (incl. notes) 260x, tegenover `$Kol. ` 10x / `Kol. ` 9x. Quote is exact substring van PHM v2 modernized (regel 23): `de gemeente $Rm. 16:5; 1Kor. 16:19; Kol. 4:15$` en eveneens `$Kol. 4:17$` (2x in v2). PHP gebruikt overal `Ko.`; binnen PHM staat `Ko.` (v10/v23/v24) naast deze `Kol.`-leak -> between-book + within-book inconsistentie.",
+      "evidence": "ROOT CAUSE bevestigd: bibref.py normaliseert `Kol.` NIET. De input-lookup (_load_oldabbr_to_fullname) leest alleen kolom 0 ('Old Dutch Abbreviation') van bible_book_references.csv = Col/Colos/Coloss. `Kol` staat in kolom 1 ('Modern Dutch') en is dus GEEN input-key. Empirisch: `python3 scripts/bibref.py normalize --current-book PHM '$Coloss. 4.15.$'` -> `$Ko. 4:15$` (correct), maar `'$Kol. 4.15.$'` -> `$Kol. 4:15$` (ONGEWIJZIGD). Bovendien glipt `Kol. 4:15` door de idempotentie-guard (_normalize_inner regel 215) omdat het al `:`-notatie heeft. Fix: `$Ko. 4:17$` (2x) en `$Rm. 16:5; 1Kor. 16:19; Ko. 4:15$` in PHM v2; tooling-fix: voeg `Kol` als input-alias toe of strip de idempotentie-shortcut voor niet-canonieke afk. NT-breed komt deze leak nog voor in 2CO/1CO/JHN/ACT/ROM/GAL/LUK -> kandidaat voor NT-brede sweep.",
+      "canonical": "Ko."
+    },
+    {
+      "point_id": "RG28-002",
+      "stance": "concede",
+      "rebuttal": "Reëel defect, identiek aan RG28-001 maar in de kanttekening van PHM v1. Quote is exact substring van PHM v1 modernized (regel 14): `Zie $2Kor. 1:1; Fp. 1:1; Kol. 1:1; 1Th. 1:1; 2Th. 1:1$`. Canonieke vorm `Ko.` (afkortingen.csv:51). De note-laag deelt dezelfde bibref-normalisatie als hoofdtekst (sv-bibref --include-kanttekeningen), dus `Kol. 1:1` hoort `Ko. 1:1` te zijn.",
+      "evidence": "Zelfde root cause als RG28-001: `Kol` is geen old-abbr input-key in bible_book_references.csv (kolom 0 = Col/Colos/Coloss), dus bibref.py laat `Kol. 1:1` ongewijzigd; de `:`-notatie laat het ook door de idempotentie-guard glippen. Verergerd door de bekende note-strip-gap (lint scant notes niet volledig). Fix v1-note: `$2Kor. 1:1; Fp. 1:1; Ko. 1:1; 1Th. 1:1; 2Th. 1:1$`. Binnen PHM staat `Kol.` (v1-note, v2-body+note) naast `Ko.` (v10/v23/v24).",
+      "canonical": "Ko."
+    }
+  ],
+  "verdicts": [
+    {
+      "point_id": "RG28-001",
+      "verdict": "red_wins",
+      "scope": "nt-wide",
+      "rationale": "Green conceedde. PHM v2 body `Kol.`->canoniek `Ko.` (Kolossenzen; afkortingen.csv: Kolossenzen,Ko.). Onderdeel van NT-brede sweep.",
+      "applied": true
+    },
+    {
+      "point_id": "RG28-002",
+      "verdict": "rule_change",
+      "scope": "nt-wide",
+      "rationale": "Green conceedde + bevestigde tool-gap: bibref.py las alleen kolom 0 (oude afk Col/Colos/Coloss); `Kol` (kolom 1, moderne afk) was nooit invoer-sleutel, dus `$Kol. H:V$` bleef ongenormaliseerd. Fix: OLDABBR_ALIASES{'kol':'Kolossenzen'} toegevoegd in _load_oldabbr_to_fullname (dot-format `$Kol. 4.15.$`->`$Ko. 4:15$` geverifieerd). NT-brede content-sweep: 15 colon-format `Kol.`->`Ko.` in 10 bestanden (1CO,2CO,ACT,GAL,JHN,LUK,PHM,ROM). 0 resteren; alle chapters validate PASS. NB colon-format glipt door idempotency-guard van normalize (zie MEMORY bibref-gaps) — daarom directe sweep voor bestaande refs.",
+      "applied": true
+    }
+  ]
+}

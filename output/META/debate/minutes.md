@@ -603,3 +603,12 @@ Red bracht 1 punt(en). Verdicts: red_wins=1, green_wins=0, rule_change=0.
 - **[RG27-001] (consistentie)** <dat is, oprecht, zoals $1Jh. 3:18$.>
   - regel: KANTTEKENINGEN.md (afkorting-expansie `<D. ...>`); AGENTS.md regel 5 (hoofdletterdiscipline); MODERNISATIE.md §1 (cross-book concordantie); fix: Harmoniseer 2JN naar kapitaal: `<dat is, ...>` -> `<Dat is, ...>` (5 voorvallen in 2JN 1/4/6). NT-breed sweepen want het patroon (onderkast `dat is`-opener) kan elders voorkomen.
   - verdict: **red_wins** (scope=nt-wide, applied=True) — Green conceedde: corpus-norm is kapitaal note-opener `<Dat is` (4517x) vs 376 kleine-letter `<dat is` outliers verspreid over ~alle boeken. Een `<...>`-kanttekening is een op zichzelf staande parenthe
+
+## Ronde 28 — PHP + PHM  (2026-06-08T08:53:42.406438+00:00)
+Red bracht 2 punt(en). Verdicts: red_wins=1, green_wins=0, rule_change=1.
+- **[RG28-001] (consistentie)** Archippus onze <Namelijk, in die krijg, waarvan de Apostel spreekt $1Tm. 1:18; 2Tm. 2:3$.> medestrijder, en de gemeente 
+  - regel: MODERNISATIE.md §2.5 (bijbelverwijzingen genormaliseerd); BIJBELVERWIJZINGEN.md; refdata/afkortingen.csv (Kolossenzen -> Ko.); fix: Vervang `Kol.` door `Ko.` in PHM v2 hoofdtekst: `$Ko. 4:17$` en `$Rm. 16:5; 1Kor. 16:19; Ko. 4:15$`. Structureel patroon: `Kol.`-leaks komen NT-breed voor (1CO, 2CO, ACT, GAL, JHN, LUK, ROM, PHM) -- kandidaat voor rule_change / NT-brede bibref-sweep naar `Ko.`.
+  - verdict: **red_wins** (scope=nt-wide, applied=True) — Green conceedde. PHM v2 body `Kol.`->canoniek `Ko.` (Kolossenzen; afkortingen.csv: Kolossenzen,Ko.). Onderdeel van NT-brede sweep.
+- **[RG28-002] (modernisatie)** Zie $2Kor. 1:1; Fp. 1:1; Kol. 1:1; 1Th. 1:1; 2Th. 1:1$
+  - regel: MODERNISATIE.md §2.5 / §2.6 (kanttekening-verwijzingen volgen dezelfde ref-normalisatie); refdata/afkortingen.csv (Kolossenzen -> Ko.); fix: Normaliseer in de kanttekening van v1: `$2Kor. 1:1; Fp. 1:1; Ko. 1:1; 1Th. 1:1; 2Th. 1:1$`. Idem de v2-kanttekening `$Kol. 4:17$` -> `$Ko. 4:17$`.
+  - verdict: **rule_change** (scope=nt-wide, applied=True) — Green conceedde + bevestigde tool-gap: bibref.py las alleen kolom 0 (oude afk Col/Colos/Coloss); `Kol` (kolom 1, moderne afk) was nooit invoer-sleutel, dus `$Kol. H:V$` bleef ongenormaliseerd. Fix: OL
