@@ -789,3 +789,21 @@ Red bracht 6 punt(en). Verdicts: red_wins=5, green_wins=0, rule_change=1.
 - **[RG36-006] (consistentie)** te vergaderen tot de oorlog
   - regel: MODERNISATIE.md §1 (concordantie van identiek SV-lemma); SV-origineel 'krijgh' (πόλεμος); fix: te vergaderen tot de krijg
   - verdict: **rule_change** (scope=nt-wide, applied=False) — RICHTING OMGEDRAAID t.o.v. RED's voorstel. Dit is een MODERNISATIE-project. 'krijg' als zelfstandig naamwoord voor 'oorlog' faalt §2.7 test 1 (productiviteit: niemand schrijft 'de krijg' in 2026) EN t
+
+## Ronde 37 — REV + 2PE  (2026-06-08T12:15:41.675680+00:00)
+Red bracht 5 punt(en). Verdicts: red_wins=5, green_wins=0, rule_change=0.
+- **[RG37-001] (consistentie)** hun heirlegers vergaderd om oorlog te voeren
+  - regel: MODERNISATIE.md §1/§5.3 concordantie van identiek Grieks lemma; §2.7 drempel-archaïsme ('heir-' = archaïsch voor 'leger'); fix: hun legers vergaderd om oorlog te voeren ... en tegen zijn leger
+  - verdict: **red_wins** (scope=verse, applied=False) — Bevestigd. REV 19:19 source στρατεύματα αὐτῶν / στρατεύματος αὐτοῦ (lemma στράτευμα = leger). Hetzelfde lemma is in REV-hoofdtekst elders modern: 9:16 'het getal van de legers van de ruiterij' (στρατε
+- **[RG37-002] (modernisatie)** die Balak leerde de kinderen van Israël een aanstoot vo
+  - regel: false-friend leren(διδάσκω, teacher-subject)→onderwijzen [μανθάνω learner-subject blijft 'leren']; precedent in zelfde hoofdstuk REV 2:20; fix: die Balak onderwees om de kinderen van Israël een aanstoot voor te werpen
+  - verdict: **red_wins** (scope=verse, applied=False) — Bevestigd. REV 2:14 source ὃς ἐδίδασκε τὸν Βαλάκ — Bileam (subject) = teacher-subject διδάσκω, per ARCHAISMEN.md leren/leerde->onderwijzen/onderwees (false friend: modern 'leren'=zelf kennis verwerven
+- **[RG37-003] (consistentie)** Met wie de Koningen der aarde
+  - regel: MODERNISATIE.md §2.3c (losse possessief-genitief ontvouwt naar 'van'; alleen formule-fossielen blijven flexief); §1 concordantie van identiek Grieks/SV-lemma; fix: Met wie de Koningen van de aarde
+  - verdict: **red_wins** (scope=verse, applied=False) — OPTIE (a) CONTENT-ONLY gekozen (default per arbiter-instructie; geen validator-/allowlist-wijziging deze ronde). Alle doelverzen zijn gewone bezitsgenitief βασιλεῖς/βασιλέων τῆς γῆς (+ 18:3 ἔμποροι τῆ
+- **[RG37-004] (consistentie)** en van de verderving van de goddeloze mensen
+  - regel: MODERNISATIE.md §1 concordantie van identiek Grieks lemma (ἀπώλεια); fix: en van het verderf van de goddeloze mensen
+  - verdict: **red_wins** (scope=verse, applied=False) — Bevestigd. 2PE 3:7 source ἀπωλείας τῶν ἀσεβῶν ἀνθρώπων — lemma ἀπώλεια, identiek aan 2:1 ἀπώλειαν ('een snel verderf'), 2:3 ἀπώλεια ('hun verderf sluimert niet'), 3:16 ἀπώλειαν ('tot hun eigen verderf
+- **[RG37-005] (modernisatie)** door vuur ontstoken zullen vergaan
+  - regel: §2.7 drempel-archaïsme / false-friend ('ontstoken' in vuur-betekenis is verouderd; modern primair medisch 'ontstoken=geïnflammeerd'); fix: door vuur zullen branden en vergaan / door vuur in brand zullen vergaan
+  - verdict: **red_wins** (scope=verse, applied=False) — Bevestigd als false friend. 2PE 3:12 source οὐρανοὶ πυρούμενοι λυθήσονται — πυρόω = letterlijk in brand zetten/branden. Huidige quote: 'door vuur ontstoken zullen vergaan'. 'ontstoken' heeft dominant 

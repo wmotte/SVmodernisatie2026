@@ -1,0 +1,153 @@
+{
+  "round_no": 37,
+  "books": [
+    "REV",
+    "2PE"
+  ],
+  "red": [
+    {
+      "id": "RG37-001",
+      "class": "consistentie",
+      "books": [
+        "REV"
+      ],
+      "chapter": 19,
+      "verse": 19,
+      "quote": "hun heirlegers vergaderd om oorlog te voeren",
+      "in_kanttekening": false,
+      "rule_reference": "MODERNISATIE.md §1/§5.3 concordantie van identiek Grieks lemma; §2.7 drempel-archaïsme ('heir-' = archaïsch voor 'leger')",
+      "explanation": "Het Griekse στράτευμα wordt in de REV-hoofdtekst tweemaal modern weergegeven als 'legers' — 9:16 'het getal van de legers van de ruiterij' (στρατευμάτων) en 19:14 'de legers in de hemel volgden hem' (στρατεύματα) — maar in 19:19 (στρατεύματα αὐτῶν / στρατεύματος αὐτοῦ) als 'heirlegers' resp. 'heirleger'. Dubbele overtreding: (a) 'heirleger' is een archaïsch SV-compositum (heir- = krijgsvolk/leger), faalt §2.7-drempeltest in vrije hoofdtekst; (b) eenduidige cross-vers concordantiedrift van een identiek Grieks lemma binnen hetzelfde boek (zelfs binnen hetzelfde hoofdstuk, naast 19:14 'legers').",
+      "proposed_fix": "hun legers vergaderd om oorlog te voeren ... en tegen zijn leger",
+      "severity": "high"
+    },
+    {
+      "id": "RG37-002",
+      "class": "modernisatie",
+      "books": [
+        "REV"
+      ],
+      "chapter": 2,
+      "verse": 14,
+      "quote": "die Balak leerde de kinderen van Israël een aanstoot vo",
+      "in_kanttekening": false,
+      "rule_reference": "false-friend leren(διδάσκω, teacher-subject)→onderwijzen [μανθάνω learner-subject blijft 'leren']; precedent in zelfde hoofdstuk REV 2:20",
+      "explanation": "Grieks ὃς ἐδίδασκε τὸν Βαλάκ — Bileam (subject) onderwees/onderrichtte Balak; dit is διδάσκω met de leraar als onderwerp, dat per projectregel 'onderwijzen' moet worden, niet 'leren'. 'leren' in de zin van 'onderwijzen' is een false friend (modern primair: zelf kennis verwerven). Bovendien intra-hoofdstuk-inconsistentie: REV 2:20 rendert hetzelfde διδάσκειν (Izebel als leraar-subject) correct als 'laat onderwijzen'. REV 14:3 μαθεῖν ('dat lied leren', leerling-subject) blijft terecht 'leren' — dat bevestigt dat enkel 2:14 de διδάσκω-vorm verkeerd vertaalt.",
+      "proposed_fix": "die Balak onderwees om de kinderen van Israël een aanstoot voor te werpen",
+      "severity": "high"
+    },
+    {
+      "id": "RG37-003",
+      "class": "consistentie",
+      "books": [
+        "REV"
+      ],
+      "chapter": 17,
+      "verse": 2,
+      "quote": "Met wie de Koningen der aarde",
+      "in_kanttekening": false,
+      "rule_reference": "MODERNISATIE.md §2.3c (losse possessief-genitief ontvouwt naar 'van'; alleen formule-fossielen blijven flexief); §1 concordantie van identiek Grieks/SV-lemma",
+      "explanation": "Identiek Grieks βασιλεῖς τῆς γῆς (SV 'Coningen der aerde') wordt binnen de REV-hoofdtekst beide kanten op weergegeven: modern 'Koningen van de aarde' in 6:15, 16:14 en 19:19 (de productieve, ontvouwen vorm), maar flexief 'Koningen der aarde' in 1:5, 17:2, 18:9 en 21:24. Hoewel (der, aarde) in FOSSIL_GENITIVE_PAIRS de validator passeert, is dit géén gestolde formule (vergelijk 'einden der aarde'); §2.3c schrijft voor losse possessief-genitieven juist ontvouwing voor, en het boek heeft die vorm in de parallel-verzen al gekozen. Eenduidige in-boek drift van precies dezelfde frase, ook binnen de Babylon-sectie (18:3 'der aarde' naast 6:15/16:14 'van de aarde'). Harmoniseren naar de dominante moderne weergave 'Koningen van de aarde'.",
+      "proposed_fix": "Met wie de Koningen van de aarde",
+      "severity": "medium"
+    },
+    {
+      "id": "RG37-004",
+      "class": "consistentie",
+      "books": [
+        "2PE"
+      ],
+      "chapter": 3,
+      "verse": 7,
+      "quote": "en van de verderving van de goddeloze mensen",
+      "in_kanttekening": false,
+      "rule_reference": "MODERNISATIE.md §1 concordantie van identiek Grieks lemma (ἀπώλεια)",
+      "explanation": "Het Griekse ἀπώλεια wordt binnen 2PE consequent als 'verderf' weergegeven — 2:1 'een snel verderf', 2:3 'hun verderf sluimert niet', 3:16 'tot hun eigen verderf' — maar in 3:7 (ἀπωλείας τῶν ἀσεβῶν ἀνθρώπων) afwijkend als 'verderving'. Eenduidige cross-vers concordantiedrift van één lemma binnen hetzelfde korte boek; harmoniseren naar de dominante weergave 'verderf'.",
+      "proposed_fix": "en van het verderf van de goddeloze mensen",
+      "severity": "medium"
+    },
+    {
+      "id": "RG37-005",
+      "class": "modernisatie",
+      "books": [
+        "2PE"
+      ],
+      "chapter": 3,
+      "verse": 12,
+      "quote": "door vuur ontstoken zullen vergaan",
+      "in_kanttekening": false,
+      "rule_reference": "§2.7 drempel-archaïsme / false-friend ('ontstoken' in vuur-betekenis is verouderd; modern primair medisch 'ontstoken=geïnflammeerd')",
+      "explanation": "Grieks οὐρανοὶ πυρούμενοι λυθήσονται — de hemelen die door vuur (πυρόω = in brand zetten/branden) zullen vergaan. 'ontstoken' voor 'in brand staan / vlam vatten' is in modern Nederlands verouderd; de productieve betekenis van 'ontstoken' is medisch ('geïnflammeerd'), wat een verwarringtest (§2.7) niet doorstaat. Vergelijk het parallelle στοιχεῖα καυσούμενα dat in hetzelfde vers én in 3:10 al modern als 'branden' is weergegeven; de πυρούμενοι-clausule loopt daarmee uit de toon.",
+      "proposed_fix": "door vuur zullen branden en vergaan / door vuur in brand zullen vergaan",
+      "severity": "low"
+    }
+  ],
+  "green": [
+    {
+      "point_id": "RG37-001",
+      "stance": "concede",
+      "rebuttal": "Bevestigd. Grieks στράτευμα = leger. Hetzelfde lemma wordt in de REV-hoofdtekst elders modern als 'legers' weergegeven: 9:16 'het getal van de legers van de ruiterij' (στρατευμάτων) en 19:14 'de legers in de hemel volgden hem' (στρατεύματα). Alleen 19:19 (στρατεύματα αὐτῶν / στρατεύματος αὐτοῦ) gebruikt 'heirlegers' resp. 'heirleger'. Het voorvoegsel 'heir-' (= krijgsvolk) is verouderd en niet productief in modern NL — drempel-archaïsme (§2.7) bovenop eenduidige concordantiedrift van identiek lemma binnen één boek, zelfs binnen hetzelfde hoofdstuk (naast 19:14 'legers'). NB: het 'heerkrachten' in de 19:14-kanttekening is een aparte glosse-context (Engelen-heerkrachten) en raakt deze hoofdtekst-fix niet. Fix: 'heirlegers'->'legers', 'heirleger'->'leger'.",
+      "evidence": "Grieks στράτευμα (army); concordantie 9:16 'legers' / 19:14 'legers'; MODERNISATIE.md §1/§5.3 concordantie + §2.7 drempel ('heir-' verouderd)"
+    },
+    {
+      "point_id": "RG37-002",
+      "stance": "concede",
+      "rebuttal": "Bevestigd. Grieks ὃς ἐδίδασκε τὸν Βαλάκ — Bileam (subject) onderwees/onderrichtte Balak; dit is διδάσκω met de leraar als onderwerp, dat per ARCHAISMEN.md:147 'onderwijzen/onderwees' moet zijn, niet 'leren' (modern primair: zelf kennis verwerven = false friend). Intra-hoofdstuk-bevestiging: REV 2:20 rendert hetzelfde διδάσκειν (Izebel als leraar-subject) correct als 'laat onderwijzen'. Het μανθάνω-contrast (leerling-subject) blijft terecht 'leren', wat aantoont dat enkel de διδάσκω-vorm in 2:14 verkeerd staat. Fix: 'die Balak leerde'->'die Balak onderwees'.",
+      "evidence": "Grieks ἐδίδασκε (διδάσκω, teacher-subject Bileam->Balak); ARCHAISMEN.md:147 leren/leerde->onderwijzen/onderwees; precedent REV 2:20 'laat onderwijzen'"
+    },
+    {
+      "point_id": "RG37-003",
+      "stance": "concede",
+      "rebuttal": "ALLOWLIST-STATUS: ('der','aarde') STAAT in FOSSIL_GENITIVE_PAIRS (scripts/rules_data.py:125), maar de allowlist-entry is expliciet bedoeld voor de gestolde formule 'einden der aarde' (comment in de code), niet voor de productieve possessief-genitief 'Koningen der aarde'. Daardoor passeert 'Koningen der aarde' de validator alleen incidenteel — het is GEEN gefossiliseerde formule. Grieks βασιλεῖς τῆς γῆς is een gewone bezitsgenitief ('koningen van de aarde'), die §2.3c voorschrijft te ontvouwen naar 'van de'. Het boek heeft die ontvouwen vorm in de parallelverzen al gekozen, dus dit is eenduidige in-boek drift van precies dezelfde frase. VOLLEDIGE VERS-INVENTARIS βασιλεῖς τῆς γῆς in REV-hoofdtekst: MODERN 'Koningen van de aarde' = 6:15, 16:14, 19:19 (3x); FLEXIEF 'Koningen der aarde' = 1:5, 17:2, 18:9, 21:24 (4x); plus verwant 'kooplieden der aarde' 18:3 en 'Groten der aarde' (18:3-kanttekening). EERLIJKE LEZING: 'Koningen der aarde' is geen vaste bijbelformule zoals 'einden der aarde' of 'Koninkrijk der hemelen'; het is drift die het boek zelf al meerderheids- of minstens substantieel naar 'van de aarde' heeft genormaliseerd. Harmoniseren naar 'van de aarde' is consistent met 6:15/16:14/19:19 en met §2.3c. Concede: 17:2 (en consistentie-breed 1:5, 18:9, 21:24) 'der aarde'->'van de aarde' in de hoofdtekst.",
+      "evidence": "scripts/rules_data.py:125 ('der','aarde') allowlist = bedoeld voor 'einden der aarde'; Grieks βασιλεῖς τῆς γῆς gewone bezitsgenitief; MODERNISATIE.md §2.3c ontvouwing; in-boek dominante vorm 'van de aarde' (6:15/16:14/19:19)"
+    },
+    {
+      "point_id": "RG37-004",
+      "stance": "concede",
+      "rebuttal": "Bevestigd. Grieks ἀπώλεια wordt binnen 2PE consequent als 'verderf' weergegeven: 2:1 'een snel verderf' (ἀπώλειαν), 2:3 'hun verderf sluimert niet' (ἀπώλεια), 3:16 'tot hun eigen verderf' (ἀπώλειαν). Alleen 3:7 (ἀπωλείας τῶν ἀσεβῶν ἀνθρώπων) wijkt af met 'verderving'. Het Grieks van 3:7 is hetzelfde lemma ἀπώλεια (geen φθορά/διαφθορά), dus 'verderving' is hier geen lemma-onderscheidende keuze maar genuine concordantiedrift binnen één kort boek. Fix: 'van de verderving van de goddeloze mensen'->'van het verderf van de goddeloze mensen'.",
+      "evidence": "Grieks ἀπώλεια identiek in 2:1/2:3/3:7/3:16; dominante weergave 'verderf'; MODERNISATIE.md §1 concordantie identiek lemma"
+    },
+    {
+      "point_id": "RG37-005",
+      "stance": "concede",
+      "rebuttal": "Bevestigd als false friend. Grieks οὐρανοὶ πυρούμενοι λυθήσονται — πυρόω = in brand zetten / branden; hier LETTERLIJK vuur (de hemelen die fysiek door vuur vergaan, naast στοιχεῖα καυσούμενα 'terwijl zij branden' in hetzelfde vers en 'branden/verbranden' in 3:10). 'ontstoken' heeft als dominante moderne lading 'medisch geïnflammeerd', wat de §2.7-verwarringtest niet doorstaat (ARCHAISMEN.md:147 ontsteken/ontstoken-vuurmetafoor->ontvlamd/in brand; precedent RG25-002/003/004 red_wins). Aanvulling op het rule-entry: ARCHAISMEN.md:147 noemt expliciet het figuurlijk-emotionele register, maar de false-friend-logica geldt a fortiori voor LETTERLIJK vuur; remedie van de regel is 'in brand staan/ontvlamd', nooit 'ontstoken'. Beste weergave hier (letterlijk branden, niet emotioneel-figuurlijk): 'door vuur in brand zullen vergaan' of 'door vuur brandend zullen vergaan'. Fix: 'door vuur ontstoken zullen vergaan'->'door vuur in brand zullen vergaan'.",
+      "evidence": "Grieks πυρόω (letterlijk in brand zetten/branden); ARCHAISMEN.md:147 ontsteken/ontstoken false friend (modern medisch); precedent RG25-002/003/004 (red_wins); parallel καυσούμενα/3:10 'branden'"
+    }
+  ],
+  "verdicts": [
+    {
+      "point_id": "RG37-001",
+      "verdict": "red_wins",
+      "scope": "verse",
+      "applied": false,
+      "rationale": "Bevestigd. REV 19:19 source στρατεύματα αὐτῶν / στρατεύματος αὐτοῦ (lemma στράτευμα = leger). Hetzelfde lemma is in REV-hoofdtekst elders modern: 9:16 'het getal van de legers van de ruiterij' (στρατευμάτων), 19:14 'de legers in de hemel volgden hem' (στρατεύματα). Alleen 19:19 gebruikt 'heirlegers'/'heirleger' ('heir-' = verouderd, niet-productief, faalt §2.7-drempel) bovenop concordantiedrift binnen één hoofdstuk. Het 'heerkrachten' in de 19:14-kanttekening is aparte glosse-context. Fix hoofdtekst: 'heirlegers'->'legers', 'heirleger'->'leger'."
+    },
+    {
+      "point_id": "RG37-002",
+      "verdict": "red_wins",
+      "scope": "verse",
+      "applied": false,
+      "rationale": "Bevestigd. REV 2:14 source ὃς ἐδίδασκε τὸν Βαλάκ — Bileam (subject) = teacher-subject διδάσκω, per ARCHAISMEN.md leren/leerde->onderwijzen/onderwees (false friend: modern 'leren'=zelf kennis verwerven). Intra-hoofdstuk-precedent: 2:20 διδάσκειν (Izebel teacher-subject) correct als 'laat onderwijzen'; μανθάνω (leerling-subject) blijft 'leren'. Fix: 'die Balak leerde'->'die Balak onderwees' (rest van clausule onveranderd: 'die Balak onderwees de kinderen van Israël een aanstoot voor te werpen')."
+    },
+    {
+      "point_id": "RG37-003",
+      "verdict": "red_wins",
+      "scope": "verse",
+      "applied": false,
+      "rationale": "OPTIE (a) CONTENT-ONLY gekozen (default per arbiter-instructie; geen validator-/allowlist-wijziging deze ronde). Alle doelverzen zijn gewone bezitsgenitief βασιλεῖς/βασιλέων τῆς γῆς (+ 18:3 ἔμποροι τῆς γῆς), GEEN gestolde formule; §2.3c schrijft ontvouwing naar 'van de' voor en het boek koos die al in 6:15/16:14/19:19. VERS-INVENTARIS hoofdtekst geverifieerd: MODERN 'van de aarde' = 6:15, 16:14, 19:19; FLEXIEF 'der aarde' (te fixen) = 1:5 (Koningen), 17:2 (Koningen), 18:3 (TWEE: Koningen EN kooplieden), 18:9 (Koningen), 21:24 (Koningen). FIX-LIJST: REV 1:5, 17:2, 18:3 (2x: 'Koningen der aarde'->'Koningen van de aarde' EN 'kooplieden der aarde'->'kooplieden van de aarde'), 18:9, 21:24. Allowlist ('der','aarde') in rules_data.py:125 blijft ONGEMOEID want 'einden der aarde' is een echte fossiel (geverifieerd aanwezig in MAT 12, LUK 11) die de entry nodig heeft. NB: de flat-pair laat incidenteel elke 'X der aarde' passeren (recurrente driftvector, R35-Koning-der-Joden-precedent zou hier structureel passen via FOSSIL_GENITIVE_HEAD_PAIRS); dit is een data-only opschoning voor een TOEKOMSTIGE ronde met user-confirm, niet nu — content-fix lost de geflagde drift volledig op."
+    },
+    {
+      "point_id": "RG37-004",
+      "verdict": "red_wins",
+      "scope": "verse",
+      "applied": false,
+      "rationale": "Bevestigd. 2PE 3:7 source ἀπωλείας τῶν ἀσεβῶν ἀνθρώπων — lemma ἀπώλεια, identiek aan 2:1 ἀπώλειαν ('een snel verderf'), 2:3 ἀπώλεια ('hun verderf sluimert niet'), 3:16 ἀπώλειαν ('tot hun eigen verderf'); allen 'verderf'. Geen φθορά/διαφθορά, dus 'verderving' in 3:7 is genuine concordantiedrift, geen lemma-onderscheid. Fix: 'van de verderving van de goddeloze mensen'->'van het verderf van de goddeloze mensen'."
+    },
+    {
+      "point_id": "RG37-005",
+      "verdict": "red_wins",
+      "scope": "verse",
+      "applied": false,
+      "rationale": "Bevestigd als false friend. 2PE 3:12 source οὐρανοὶ πυρούμενοι λυθήσονται — πυρόω = letterlijk in brand zetten/branden. Huidige quote: 'door vuur ontstoken zullen vergaan'. 'ontstoken' heeft dominant moderne lading 'medisch geïnflammeerd' (§2.7-verwarringtest faalt); precedent RG25-002/003/004. Parallel καυσούμενα ('terwijl zij branden') in hetzelfde vers en 'branden'/'verbranden' in 3:10 bevestigen letterlijk-vuur-register. Fix (consistent met 3:10 'branden'): 'door vuur ontstoken zullen vergaan'->'door vuur in brand zullen vergaan'."
+    }
+  ]
+}

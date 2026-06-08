@@ -91,15 +91,17 @@ Grote-boek kalibratie:
 - [x] `MAT + MRK` — R34 (9 red_wins: synoptic imperatief-t Ziet toe/Gaat heen/weest/vreest/blijft→stem, ergernis→struikelen MRK 9:42; +2 synoptic-partner + 3 scanner-followup MRK 13)
 - [x] `LUK + ACT` — R35 (5 red_wins + 1 rule_change RG35-006: der-Joden genitief kop-kwalificatie FOSSIL_GENITIVE_HEAD_PAIRS, NT-brede body-sweep 0 over; notes-residu Pascha/feest/Overste der Joden DEFERRED)
 - [x] `REV + JUD` — R36 (5 red_wins + 1 rule_change RG36-006: πόλεμος→oorlog, richting omgekeerd t.o.v. red — moderniseren i.p.v. naar archaïsch `krijg` harmoniseren; der-doden 11:18, geduld→volharding 2:3, geenszins 3:5, wederom 10:8/10:11; JUD body schoon)
-- [ ] `REV + 2PE`
+- [x] `REV + 2PE` — R37 (5 red_wins: στράτευμα heirleger→leger REV 19:19, leerde→onderwees REV 2:14, Koningen/kooplieden der aarde→van de aarde 1:5/17:2/18:3/18:9/21:24, ἀπώλεια verderving→verderf 2PE 3:7, πυρόω ontstoken→in brand 2PE 3:12; der-aarde allowlist-narrowing DEFERRED met user-confirm)
 
 Acceptatie voor Fase 2:
 
-- [ ] Elk cluster hierboven is afgewerkt of gemotiveerd overgeslagen.
-- [ ] Minstens 3 rondes bevatten expliciete `consistentie`-punten of een
+- [x] Elk cluster hierboven is afgewerkt of gemotiveerd overgeslagen.
+- [x] Minstens 3 rondes bevatten expliciete `consistentie`-punten of een
       gemotiveerd red-verdict dat er geen nieuwe consistentiepunten waren.
-- [ ] Kanttekeningen zijn in red-prompts expliciet meegenomen
-      (`in_kanttekening` waar relevant).
+      (R33 οὗτοί/leren-drift, R35 ὄχλος/κλαίω/διδάσκω-drift, R36 ὑπομονή/πόλεμος,
+      R37 στράτευμα/βασιλεῖς τῆς γῆς/ἀπώλεια — alle expliciete consistentie-punten.)
+- [x] Kanttekeningen zijn in red-prompts expliciet meegenomen
+      (`in_kanttekening` waar relevant; o.a. R36 πόλεμος-noot-sweep, R37 der-aarde noot-inventaris).
 
 ## Fase 3 - Worst-First Naloop
 

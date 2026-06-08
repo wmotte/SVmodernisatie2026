@@ -1,5 +1,5 @@
 {
-  "rounds_done": 36,
+  "rounds_done": 37,
   "pairs": [
     [
       "REV",
@@ -145,10 +145,14 @@
     [
       "REV",
       "JUD"
+    ],
+    [
+      "REV",
+      "2PE"
     ]
   ],
   "debate_count": {
-    "REV": 11,
+    "REV": 12,
     "JHN": 7,
     "1CO": 2,
     "LUK": 4,
@@ -162,7 +166,7 @@
     "PHM": 3,
     "JUD": 3,
     "1JN": 3,
-    "2PE": 3,
+    "2PE": 4,
     "1PE": 2,
     "JAS": 2,
     "1TH": 1,
@@ -184,6 +188,7 @@
     "consistentie|2JN,3JN|2jn 1 12 mond tot mond met u|modernisatie.md §5.3 concordantie; source_text in beide brieven: `στόμα πρὸς στόμα`",
     "consistentie|2JN,3JN|dat is oprecht zoals 1jh 3 18|kanttekeningen.md (afkorting-expansie `<d. ...>`); agents.md regel 5 (hoofdletterdiscipline); modernisatie.md §1 (cross-book concordantie)",
     "consistentie|2PE,JUD|zij zijn|modernisatie.md §1/§5.3 (cross-book concordantie); grieks oὗτοί εἰσι(ν)",
+    "consistentie|2PE|en van de verderving van de goddeloze mensen|modernisatie.md §1 concordantie van identiek grieks lemma (ἀπώλεια)",
     "consistentie|ACT,JHN|een grote menigte van kranken|agents.md concordantie; modernisatie.md §2.7; grieks: ασθενουντων",
     "consistentie|ACT,LUK|bij de huizen te leren en jezus christus|archaismen.md:147 false friend `leren` (διδάσκοντες, transitief didactisch) → onderwijzen; precedent closed-keys act|leert van, act|over de heere jezus christus leerde",
     "consistentie|ACT,LUK|huilden en toonden de onderkleren|projectregel κλαίω→wenen; agents.md concordantie; modernisatie.md §5.3",
@@ -207,7 +212,9 @@
     "consistentie|PHP|zie rm 12 12 2kor 13 11 fp|agents.md §1 'renovatie, geen hervertaling' en §2 'geen vrije parafrase'; concordantie van de sv-kanttekeningformule 'siet x' → 'zie x'",
     "consistentie|REV|en johannes insgelijks om dit voor de gemeente|modernisatie.md §2.7 / kanttekening-luiheid: gesplitste fossiele constructie 'van ... wege' half blijven staan als 'christus wege' (= namens christus).",
     "consistentie|REV|en u hebt verdragen en hebt geduld|modernisatie.md §1 (concordantie); projectregel ὑπομονή→volharding (μακροθυμία→lankmoedig); precedent rg21-002 / rg22-006 (geduld-mismatch red_wins/rule_change)",
+    "consistentie|REV|hun heirlegers vergaderd om oorlog te voeren|modernisatie.md §1/§5.3 concordantie van identiek grieks lemma; §2.7 drempel-archaïsme ('heir-' = archaïsch voor 'leger')",
     "consistentie|REV|maar hetgeen u hebt houdt dat vast totdat|archaismen.md (imperatief-meervoud op `-t` → stam); modernisatie.md imperatief-`-t`",
+    "consistentie|REV|met wie de koningen der aarde|modernisatie.md §2.3c (losse possessief-genitief ontvouwt naar 'van'; alleen formule-fossielen blijven flexief); §1 concordantie van identiek grieks/sv-lemma",
     "consistentie|REV|te vergaderen tot de oorlog|modernisatie.md §1 (concordantie van identiek sv-lemma); sv-origineel 'krijgh' (πόλεμος)",
     "modernisatie|1CO|die eet en drinkt zichzelf een oordeel niet|modernisatie.md §2.3 (finiet participium) + §2.3b (object nageschoven na participium)",
     "modernisatie|1CO|doet dat zo dikwijls als gij die zult|archaismen.md (imperatief-meervoud op `-t` → stam; ghy/gy/gij → u)",
@@ -255,6 +262,7 @@
     "modernisatie|2PE|8 lerend dat zij dan werkelijk vruchtbaar zullen|modernisatie.md §2.3; intro_epiloog.md",
     "modernisatie|2PE|de aarde in het water bestaande|modernisatie.md §2.3",
     "modernisatie|2PE|de besmettingen van de wereld ontvloden zijn|modernisatie.md §2.7",
+    "modernisatie|2PE|door vuur ontstoken zullen vergaan|§2.7 drempel-archaïsme / false-friend ('ontstoken' in vuur-betekenis is verouderd; modern primair medisch 'ontstoken=geïnflammeerd')",
     "modernisatie|2PE|maar allermeest degenen|modernisatie.md §2.7",
     "modernisatie|2PE|onze leer die wij u geleerd hebben|archaismen.md false-friends (didactisch leren)",
     "modernisatie|2PE|ten aanzien dat zij|modernisatie.md §2.7 (drempel-/verwarringstest); §2.3b (latinaat-syntax)",
@@ -369,6 +377,7 @@
     "modernisatie|REV|de tijd der doden om geoordeeld te worden|archaismen.md: fossiel genitief der/des/den + zn (hard in hoofdtekst); scripts/rules_data.py fossil_genitive_pairs regel 123",
     "modernisatie|REV|deze woorden zijn genomen uit zc 3 9|modernisatie.md §2.7 (drempel-archaïsme)",
     "modernisatie|REV|die als een zee dikwijls herwaarts en derwaarts|modernisatie.md §2.7 (drempel-archaïsme; woord niet gelist in drempel_archaismen). verwarringstest: 'herwaarts/derwaarts' zijn obsolete richtingsbijwoorden, modern nl 'heen en weer'.",
+    "modernisatie|REV|die balak leerde de kinderen van israël een|false-friend leren(διδάσκω, teacher-subject)→onderwijzen [μανθάνω learner-subject blijft 'leren']; precedent in zelfde hoofdstuk rev 2:20",
     "modernisatie|REV|die hem meteen bevelen zal te schrijven hetwelk|rules_data.py drempel_archaismen ('hetwelk'); precedent closed-key 'en johannes insgelijks ...' (drempel-archaïsme in kanttekening is geldig red-punt). validate.py stript <...> vóór de check, dus deze blijft staan.",
     "modernisatie|REV|die zulks gedaan hebben in de woestijn|modernisatie.md §2.7 (drempel-archaïsme)",
     "modernisatie|REV|en inzonderheid van trente|modernisatie.md §2.7 (drempel-archaïsme)",
@@ -405,5 +414,5 @@
     "modernisatie|TIT|zowel in kleding als in hun gehele wandel|archaismen.md:29 (zelfst. 'wandel' = levenswijze → levenswandel / leven / gedrag); modernisatie.md §2.7 (verwarringstest)"
   ],
   "open_keys": [],
-  "updated_at": "2026-06-08T12:00:09.835286+00:00"
+  "updated_at": "2026-06-08T12:15:41.675254+00:00"
 }
