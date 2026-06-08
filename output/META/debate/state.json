@@ -1,5 +1,5 @@
 {
-  "rounds_done": 21,
+  "rounds_done": 22,
   "pairs": [
     [
       "REV",
@@ -85,6 +85,10 @@
     [
       "1TI",
       "2TI"
+    ],
+    [
+      "COL",
+      "EPH"
     ]
   ],
   "debate_count": {
@@ -108,7 +112,9 @@
     "1TH": 1,
     "2TH": 1,
     "1TI": 1,
-    "2TI": 1
+    "2TI": 1,
+    "COL": 1,
+    "EPH": 1
   },
   "closed_keys": [
     "consistentie|1JN,2PE|geliefde gelooft niet beproeft de geesten|modernisatie.md §2.3; concordantie grieks `ἀγαπητοί`",
@@ -117,6 +123,8 @@
     "consistentie|2CO,ROM|om de aanleiding af te snijden voor hen|concordantie cross-book (grieks aphorme)",
     "consistentie|2JN,3JN|2jn 1 12 mond tot mond met u|modernisatie.md §5.3 concordantie; source_text in beide brieven: `στόμα πρὸς στόμα`",
     "consistentie|ACT,JHN|een grote menigte van kranken|agents.md concordantie; modernisatie.md §2.7; grieks: ασθενουντων",
+    "consistentie|COL,EPH|einde van de zendbrief van paulus aan die|modernisatie.md §1 (concordantie behouden); cross-book consistentie van een identiek sv-lemma 'sendtbrief'",
+    "consistentie|COL,EPH|volharding en lankmoedigheid|modernisatie.md §1 (concordantie); cross-book weergave van gr. μακροθυμία",
     "consistentie|JHN,REV|komt en ziet|modernisatie.md (imperatief-`-t`); archaismen.md:78",
     "consistentie|JHN|volgt u mij|archaismen.md (imperatief enkelvoud -t -> stam); interne concordantie",
     "consistentie|JHN|vrouw waarom huilt u wie zoekt u|projectregel κλαίω→wenen; agents.md concordantie",
@@ -179,6 +187,10 @@
     "modernisatie|ACT|maar zulks is na deze tijd gebeurd|archaismen.md (`sulcks`/`zulks`); modernisatie.md §2.7; kanttekeningen tellen volwaardig mee",
     "modernisatie|ACT|ontstond daar geen kleine beroerte|modernisatie.md §2.7; false-friend/productiviteitstest; grieks: ταραχος",
     "modernisatie|ACT|zijn rede uitstrekkend tot de middernacht|modernisatie.md §2.3 / §2.3b (finiet participium; intro volgt dezelfde principes)",
+    "modernisatie|COL,EPH|en koopt de geschikte tijd|archaismen.md, regel 'imperatief-meervoud op -t → gebruik de stam'; memory 'imperatief-meervoud -t → stam'",
+    "modernisatie|COL|wandelt|archaismen.md, regel 'imperatief-meervoud op -t → gebruik de stam' (wandelt/brengt → wandel/breng); memory 'imperatief-meervoud -t → stam' (concordantie harmoniseert náár stam)",
+    "modernisatie|EPH|licht in de heere wandelt als|archaismen.md, regel 'imperatief-meervoud op -t → gebruik de stam'; memory 'imperatief-meervoud -t → stam'",
+    "modernisatie|EPH|tot een wandel die hun roeping betamelijk is|archaismen.md, regel 'wandel (zelfst., = levenswijze) → levenswandel / leven / gedrag' (wandel leest modern primair als wandeling/stroll; hsv consequent levenswandel)",
     "modernisatie|JAS|dat is terwijl zij de heere aanroepen die|modernisatie.md §2.7 productiviteits-/verwarringtest; kanttekeningen.md",
     "modernisatie|JAS|elia was een mens met gelijke of lijden|modernisatie.md §2.7 productiviteits-/verwarringtest",
     "modernisatie|JHN|dat u zult huilen en weeklagen|projectregel κλαίω→wenen",
@@ -262,5 +274,5 @@
     "modernisatie|ROM|weest vrolijk u heidenen met zijn volk|archaismen.md:78 imperatief-meervoud sv-`-t` -> stam"
   ],
   "open_keys": [],
-  "updated_at": "2026-06-08T06:11:29.954600+00:00"
+  "updated_at": "2026-06-08T06:29:21.275872+00:00"
 }

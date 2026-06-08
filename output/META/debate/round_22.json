@@ -1,0 +1,184 @@
+{
+  "round_no": 22,
+  "books": [
+    "COL",
+    "EPH"
+  ],
+  "red": [
+    {
+      "id": "RG22-001",
+      "class": "modernisatie",
+      "books": [
+        "COL"
+      ],
+      "chapter": 4,
+      "verse": 5,
+      "quote": "Wandelt",
+      "in_kanttekening": false,
+      "rule_reference": "ARCHAISMEN.md, regel 'imperatief-meervoud op -t → gebruik de stam' (Wandelt/Brengt → Wandel/Breng); MEMORY 'Imperatief-meervoud -t → stam' (concordantie harmoniseert náár stam)",
+      "explanation": "Grieks περιπατεῖτε is een gebiedende wijs meervoud aan de gemeente. De SV-vorm 'Wandelt' is hier ongemoderniseerd blijven staan terwijl de rest van het corpus de stam gebruikt (EPH 5:1 'Wees dan navolgers', EPH 6:11 'Doe ... aan', EPH 6:14 'Sta dan', COL 3:12 'Doe dan aan', COL 4:2 'Houd sterk aan'). Binnen ditzelfde vers staat dus een onbehandelde imperatief-t.",
+      "proposed_fix": "Wandel",
+      "severity": "hard"
+    },
+    {
+      "id": "RG22-002",
+      "class": "modernisatie",
+      "books": [
+        "COL",
+        "EPH"
+      ],
+      "chapter": 4,
+      "verse": 5,
+      "quote": "en koopt de geschikte tijd",
+      "in_kanttekening": false,
+      "rule_reference": "ARCHAISMEN.md, regel 'imperatief-meervoud op -t → gebruik de stam'; MEMORY 'Imperatief-meervoud -t → stam'",
+      "explanation": "De parallel-imperatief ἐξαγοραζόμενοι (SV 'uytkoopende', hier finiet weergegeven als bevel) staat in COL 4:5 als 'koopt ... uit' met -t. De directe parallel EPH 5:16 (kruisverwijzing $Ef. 5:16$ in dit eigen vers) heeft EXACT dezelfde fout, zodat de twee teksten consistent fout zijn. Modern NL gebiedende wijs is de stam 'koop'.",
+      "proposed_fix": "en koop de geschikte tijd ... uit",
+      "severity": "hard"
+    },
+    {
+      "id": "RG22-003",
+      "class": "modernisatie",
+      "books": [
+        "EPH"
+      ],
+      "chapter": 5,
+      "verse": 8,
+      "quote": "licht in de Heere: wandelt als",
+      "in_kanttekening": false,
+      "rule_reference": "ARCHAISMEN.md, regel 'imperatief-meervoud op -t → gebruik de stam'; MEMORY 'Imperatief-meervoud -t → stam'",
+      "explanation": "Grieks περιπατεῖτε is gebiedende wijs ('wandelt als kinderen des lichts'). De SV-vorm 'wandelt' bleef ongemoderniseerd, terwijl in vers 1, 11 en 18 van hetzelfde hoofdstuk de imperatief wél naar de stam is geharmoniseerd ('Wees', 'bestraf', 'word vervuld'). Onderscheid met de subjunctieve/indicatieve 'wandelt' in 4:1, 4:17 en 5:15 (daar geen bevel maar bijzin) is hier juist relevant: dit is een echt bevel.",
+      "proposed_fix": "licht in de Heere: wandel als",
+      "severity": "hard"
+    },
+    {
+      "id": "RG22-004",
+      "class": "modernisatie",
+      "books": [
+        "EPH"
+      ],
+      "chapter": 4,
+      "verse": 1,
+      "quote": "tot een wandel die hun roeping betamelijk is",
+      "in_kanttekening": false,
+      "rule_reference": "ARCHAISMEN.md, regel 'wandel (zelfst., = levenswijze) → levenswandel / leven / gedrag' (wandel leest modern primair als wandeling/stroll; HSV consequent levenswandel)",
+      "explanation": "In de hoofdstukintroductie van EPH 4 is het SV-zelfstandig naamwoord 'wandel' (= levenswijze, Gr. περιπατῆσαι-context) onveranderd overgenomen. De regel schrijft expliciet voor dat het zelfstandig gebruikte 'wandel' moderniseert naar 'levenswandel/leven/gedrag'; alleen het werkwoord 'wandelen' en de samenstelling 'levenswandel' blijven. Elders in deze boeken is dit correct opgelost (EPH 5:11 kt. 'Christelijke levenswandel', COL 2:5 'levenswandel').",
+      "proposed_fix": "tot een levenswandel die hun roeping betamelijk is",
+      "severity": "soft"
+    },
+    {
+      "id": "RG22-005",
+      "class": "consistentie",
+      "books": [
+        "COL",
+        "EPH"
+      ],
+      "chapter": 6,
+      "verse": 0,
+      "quote": "Einde van de Zendbrief van Paulus aan die van Efeze",
+      "in_kanttekening": false,
+      "rule_reference": "MODERNISATIE.md §1 (concordantie behouden); cross-book consistentie van een identiek SV-lemma 'Sendtbrief'",
+      "explanation": "Hetzelfde SV-woord 'Sendtbrief' wordt over de twee parallel-boeken inconsistent weergegeven. De EPH-epiloog houdt 'Zendbrief' ('Einde van de Zendbrief van Paulus aan die van Efeze'), terwijl de COL-epiloog 'brief' kiest ('Einde van de brief van Paulus aan de Kolossenzen'). Binnen COL wordt 'Sendtbrief' bovendien tegenstrijdig behandeld: COL 1:1 kt. 'Zendbrieven', maar COL 1:12 en 4:16 hoofdtekst 'Zendbrief'/'brief'. Kies één weergave NT-breed.",
+      "proposed_fix": "Harmoniseer 'Sendtbrief' consequent (bv. overal 'Zendbrief', of overal 'brief'); pas de COL-epiloog of de EPH-epiloog daaraan aan.",
+      "severity": "soft"
+    },
+    {
+      "id": "RG22-006",
+      "class": "consistentie",
+      "books": [
+        "COL",
+        "EPH"
+      ],
+      "chapter": 1,
+      "verse": 11,
+      "quote": "volharding en lankmoedigheid",
+      "in_kanttekening": false,
+      "rule_reference": "MODERNISATIE.md §1 (concordantie); cross-book weergave van Gr. μακροθυμία",
+      "explanation": "Gr. μακροθυμία wordt wisselend weergegeven: COL 1:11 (hoofdtekst én kanttekening) 'lankmoedigheid', maar COL 3:12 en EPH 4:2 'geduld'. In COL 1:11 staat μακροθυμία naast ὑπομονή ('volharding'), wat het onderscheid kan motiveren, maar in COL 3:12 (in de deugdenlijst naast πραότης/'zachtmoedigheid') en EPH 4:2 verschilt de keuze van COL 1:11 zonder gemarkeerde reden, zodat de concordantie over de twee parallel-brieven niet sluit.",
+      "proposed_fix": "Kies één weergave voor μακροθυμία (bv. overal 'geduld', of overal 'lankmoedigheid' met behoud van 'volharding' voor ὑπομονή) en harmoniseer COL 1:11 / COL 3:12 / EPH 4:2.",
+      "severity": "soft"
+    }
+  ],
+  "green": [
+    {
+      "point_id": "RG22-001",
+      "stance": "concede",
+      "rebuttal": "Concede. COL 4:5 'Wandelt' is een echte gebiedende wijs meervoud (Gr. περιπατεῖτε, praesens imperativus 2pl) die ongemoderniseerd is blijven staan. De regel is ondubbelzinnig: imperatief-meervoud op -t → stam. Binnen hetzelfde corpus is de imperatief elders wél naar de stam gebracht (COL 4:2 'Houd sterk aan', COL 3:12 'Doe dan aan', EPH 5:1 'Wees dan'), dus de inconsistentie is verse-specifiek aantoonbaar. Fix lokaal in COL 4:5: 'Wandelt' → 'Wandel'.",
+      "evidence": "source_text COL 4:5 'ἐν σοφίᾳ περιπατεῖτε πρὸς τοὺς ἔξω'; ARCHAISMEN.md regel 80 'imperatief-meervoud op -t → gebruik de stam'; MEMORY 'Imperatief-meervoud -t → stam'; contrast COL 4:2 'Houd', COL 3:12 'Doe', EPH 5:1 'Wees'"
+    },
+    {
+      "point_id": "RG22-002",
+      "stance": "concede",
+      "rebuttal": "Concede. De modernisatie 'en koopt de geschikte tijd ... uit' is een finiete gebiedende wijs met -t. Hoewel het Grieks ἐξαγοραζόμενοι formeel een participium is (SV 'uytkoopende'), is het hier als bevel weergegeven, dus geldt de stam-regel: 'koopt ... uit' → 'koop ... uit'. De parallelplaats EPH 5:16 (kruisverwijzing $Ef. 5:16$ in dit eigen vers) heeft exact dezelfde -t-vorm 'En koopt de tijd uit', zodat de fix consistent op beide plaatsen moet worden toegepast (lokaal COL 4:5 + EPH 5:16, geen NT-brede regelwijziging — de regel bestaat al).",
+      "evidence": "modernized COL 4:5 'en koopt de geschikte tijd ... uit'; modernized EPH 5:16 'En koopt de tijd uit'; source_text 'ἐξαγοραζόμενοι τὸν καιρόν'; ARCHAISMEN.md regel 80; MEMORY 'Imperatief-meervoud -t → stam (koopt→koop)'"
+    },
+    {
+      "point_id": "RG22-003",
+      "stance": "concede",
+      "rebuttal": "Concede. EPH 5:8 'wandelt als kinderen van het licht' is een echt bevel (Gr. ὡς τέκνα φωτὸς περιπατεῖτε, imperativus 2pl) dat ongemoderniseerd bleef. Het door rood gemaakte onderscheid klopt: in 4:1/4:17/5:15 staat 'wandelt' in een bijzin/indicatief (geen bevel) en hoeft niet naar de stam, maar hier is het imperatief, net als de reeds geharmoniseerde imperatieven in ditzelfde hoofdstuk (5:1 'Wees', 5:11 'bestraf', 5:18 'word vervuld'). Fix lokaal EPH 5:8: 'wandelt als' → 'wandel als'.",
+      "evidence": "source_text EPH 5:8 'νῦν δὲ φῶς ἐν Κυρίῳ· ὡς τέκνα φωτὸς περιπατεῖτε'; contrast geharmoniseerd EPH 5:11 'bestraf ze', 5:18 'word vervuld'; vs. indicatief EPH 5:15 'Zie dan hoe u voorzichtig wandelt'; ARCHAISMEN.md regel 80"
+    },
+    {
+      "point_id": "RG22-004",
+      "stance": "concede",
+      "rebuttal": "Concede. In de EPH 4-introductie staat het zelfstandig naamwoord 'wandel' (= levenswijze) onveranderd: 'vermaant hij tot een wandel die hun roeping betamelijk is'. De regel schrijft expliciet voor: zelfstandig 'wandel' → levenswandel/leven/gedrag (leest modern als 'wandeling/stroll'); alleen het ww. 'wandelen' en de samenstelling 'levenswandel' blijven. Dit is elders in deze boeken correct gedaan (COL 1:10 kt. 'in heel uw levenswandel', EPH 5:11 kt. 'Christelijke levenswandel'). Fix lokaal: 'tot een wandel' → 'tot een levenswandel'.",
+      "evidence": "EPH 4 intro modernized 'tot een wandel die hun roeping betamelijk is' (orig 'tot eenen wandel haer beroep betamelick'); ARCHAISMEN.md regel 29 'wandel (zelfst., = levenswijze) → levenswandel / leven / gedrag'; contrast COL 1:10 'in heel uw levenswandel', EPH 5:11 kt 'Christelijke levenswandel'"
+    },
+    {
+      "point_id": "RG22-005",
+      "stance": "concede",
+      "rebuttal": "Concede dat er een echte inconsistentie is. (a) Genuine: hetzelfde SV-lemma 'Sendtbrief' wordt over COL↔EPH tegengesteld weergegeven (COL-epiloog 'brief', EPH-epiloog 'Zendbrief'), en binnen COL botst het bovendien — COL 1:1 kt. 'Zendbrieven' en COL 1:12 kt. 'Zendbrief' tegenover COL 4:16 hoofdtekst 'brief' en de COL-epiloog 'brief'. (b) Scope: NIET lokaal beperken tot COL↔EPH. Een corpusbrede telling van de epilogen toont een echte split: 'Zendbrief' bij 1TH, 1TI, 2CO, 2PE, 2TI, EPH, HEB, JAS, PHP, TIT (meerderheid) en 'Brief'/'brief' bij 1CO, 1JN, 1PE, COL, GAL, JUD, PHM, ROM, plus een typefout 'Sendbrief' in 2TH. Een correcte fix is dus een NT-brede normalisatie (≈9 Paulinische/algemene-brief-epilogen plus de notes), wat dit tot een rule_change-klasse beslissing maakt, niet een COL/EPH-defect. Aanbevolen doelvorm: overal 'Zendbrief' (de huidige meerderheid en de gangbaarste SV-weergave van 'Sendtbrief'), met behoud van 'Brief' uitsluitend waar de bron geen 'Sendtbrief' heeft (bv. 'Algemene Brief' bij Johannes/Judas indien daar geen 'Sendtbrief' staat). Corrigeer meteen ook de typo 2TH 'Sendbrief' → 'Zendbrief'.",
+      "evidence": "COL epiloog 'Einde van de brief van Paulus aan de Kolossenzen' vs EPH epiloog 'Einde van de Zendbrief van Paulus aan die van Efeze'; COL 1:1 kt 'Zendbrieven', COL 1:12 kt 'deze Zendbrief', COL 4:16 hoofdtekst 'deze brief'; corpusscan epilogen: Zendbrief={1TH,1TI,2CO,2PE,2TI,EPH,HEB,JAS,PHP,TIT}, Brief/brief={1CO,1JN,1PE,COL,GAL,JUD,PHM,ROM}, 2TH='Sendbrief'(typo); SV-origineel overal 'Sendtbrief'; MODERNISATIE.md §1 concordantie"
+    },
+    {
+      "point_id": "RG22-006",
+      "stance": "concede",
+      "rebuttal": "Concede. Gr. μακροθυμία wordt inconsistent weergegeven: COL 1:11 'lankmoedigheid' (hoofdtekst én kt., naast ὑπομονή→'volharding'), maar COL 3:12 en EPH 4:2 'geduld'. Ronde 21 heeft μακροθυμία→'lankmoedigheid' al toegekend (2TI 3:10, rood won), dus er is een geldend precedent dat consistent moet worden doorgevoerd. Aanbevolen doelvorm: overal 'lankmoedigheid' voor μακροθυμία, met behoud van 'volharding'/'lijdzaamheid' voor ὑπομονή (zo blijft het doublet ὑπομονή+μακροθυμία in COL 1:11 onderscheiden). Scope: gezien het R21-precedent is dit een NT-brede concordantie-doorvoering (rule_change-klasse, niet enkel COL/EPH). Concreet harmoniseren: COL 3:12 'geduld' → 'lankmoedigheid' en EPH 4:2 'geduld' → 'lankmoedigheid'; COL 1:11 blijft.",
+      "evidence": "source_text COL 1:11 'εἰς πᾶσαν ὑπομονὴν καὶ μακροθυμίαν' → mod 'volharding en lankmoedigheid'; COL 3:12 'πρᾳότητα, μακροθυμίαν' → mod 'geduld'; EPH 4:2 'μετὰ μακροθυμίας' → mod 'met geduld'; precedent ronde 21 (2TI 3:10 geduld→lankmoedigheid, rood won); MODERNISATIE.md §1 concordantie"
+    }
+  ],
+  "verdicts": [
+    {
+      "point_id": "RG22-001",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. COL 4:5 'Wandelt' is een echte gebiedende wijs meervoud (Gr. περιπατεῖτε, praesens imperativus 2pl) die ongemoderniseerd is blijven staan. De regel is ondubbelzinnig: imperatief-meervoud op -t → stam. Binnen hetzelfde corpus is de imperatief elders wél naar de",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG22-002",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. De modernisatie 'en koopt de geschikte tijd ... uit' is een finiete gebiedende wijs met -t. Hoewel het Grieks ἐξαγοραζόμενοι formeel een participium is (SV 'uytkoopende'), is het hier als bevel weergegeven, dus geldt de stam-regel: 'koopt ... uit' → 'koop ... ",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG22-003",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. EPH 5:8 'wandelt als kinderen van het licht' is een echt bevel (Gr. ὡς τέκνα φωτὸς περιπατεῖτε, imperativus 2pl) dat ongemoderniseerd bleef. Het door rood gemaakte onderscheid klopt: in 4:1/4:17/5:15 staat 'wandelt' in een bijzin/indicatief (geen bevel) en hoe",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG22-004",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. In de EPH 4-introductie staat het zelfstandig naamwoord 'wandel' (= levenswijze) onveranderd: 'vermaant hij tot een wandel die hun roeping betamelijk is'. De regel schrijft expliciet voor: zelfstandig 'wandel' → levenswandel/leven/gedrag (leest modern als 'wan",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG22-005",
+      "verdict": "rule_change",
+      "rationale": "Green concedeert. Concede dat er een echte inconsistentie is. (a) Genuine: hetzelfde SV-lemma 'Sendtbrief' wordt over COL↔EPH tegengesteld weergegeven (COL-epiloog 'brief', EPH-epiloog 'Zendbrief'), en binnen COL botst het bovendien — COL 1:1 kt. 'Zendbrieven' en COL 1:12 kt. '",
+      "scope": "nt",
+      "applied": true
+    },
+    {
+      "point_id": "RG22-006",
+      "verdict": "rule_change",
+      "rationale": "Green concedeert. Gr. μακροθυμία wordt inconsistent weergegeven: COL 1:11 'lankmoedigheid' (hoofdtekst én kt., naast ὑπομονή→'volharding'), maar COL 3:12 en EPH 4:2 'geduld'. Ronde 21 heeft μακροθυμία→'lankmoedigheid' al toegekend (2TI 3:10, rood won), dus er is een geldend pre",
+      "scope": "nt",
+      "applied": true
+    }
+  ]
+}

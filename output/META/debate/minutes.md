@@ -513,3 +513,24 @@ Red bracht 3 punt(en). Verdicts: red_wins=3, green_wins=0, rule_change=0.
 - **[RG21-003] (modernisatie)** uzelf behouden als degenen die u horen.
   - regel: AGENTS.md: geen betekenisverlies; MODERNISATIE.md §2.3 (idiomatisch modern Nederlands); fix: zowel uzelf behouden als hen die u horen.
   - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert. De bron 1TI 4:16 (καὶ σεαυτὸν σώσεις καὶ τοὺς ἀκούοντάς σου; SV 'sult ghy ende u selven behouden, ende die u hooren') heeft een dubbel lijdend voorwerp van 'behouden' via καί...καί. 
+
+## Ronde 22 — COL + EPH  (2026-06-08T06:29:21.276219+00:00)
+Red bracht 6 punt(en). Verdicts: red_wins=4, green_wins=0, rule_change=2.
+- **[RG22-001] (modernisatie)** Wandelt
+  - regel: ARCHAISMEN.md, regel 'imperatief-meervoud op -t → gebruik de stam' (Wandelt/Brengt → Wandel/Breng); MEMORY 'Imperatief-meervoud -t → stam' (concordantie harmoniseert náár stam); fix: Wandel
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert. COL 4:5 'Wandelt' is een echte gebiedende wijs meervoud (Gr. περιπατεῖτε, praesens imperativus 2pl) die ongemoderniseerd is blijven staan. De regel is ondubbelzinnig: imperatief-meer
+- **[RG22-002] (modernisatie)** en koopt de geschikte tijd
+  - regel: ARCHAISMEN.md, regel 'imperatief-meervoud op -t → gebruik de stam'; MEMORY 'Imperatief-meervoud -t → stam'; fix: en koop de geschikte tijd ... uit
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert. De modernisatie 'en koopt de geschikte tijd ... uit' is een finiete gebiedende wijs met -t. Hoewel het Grieks ἐξαγοραζόμενοι formeel een participium is (SV 'uytkoopende'), is het hie
+- **[RG22-003] (modernisatie)** licht in de Heere: wandelt als
+  - regel: ARCHAISMEN.md, regel 'imperatief-meervoud op -t → gebruik de stam'; MEMORY 'Imperatief-meervoud -t → stam'; fix: licht in de Heere: wandel als
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert. EPH 5:8 'wandelt als kinderen van het licht' is een echt bevel (Gr. ὡς τέκνα φωτὸς περιπατεῖτε, imperativus 2pl) dat ongemoderniseerd bleef. Het door rood gemaakte onderscheid klopt:
+- **[RG22-004] (modernisatie)** tot een wandel die hun roeping betamelijk is
+  - regel: ARCHAISMEN.md, regel 'wandel (zelfst., = levenswijze) → levenswandel / leven / gedrag' (wandel leest modern primair als wandeling/stroll; HSV consequent levenswandel); fix: tot een levenswandel die hun roeping betamelijk is
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert. In de EPH 4-introductie staat het zelfstandig naamwoord 'wandel' (= levenswijze) onveranderd: 'vermaant hij tot een wandel die hun roeping betamelijk is'. De regel schrijft expliciet
+- **[RG22-005] (consistentie)** Einde van de Zendbrief van Paulus aan die van Efeze
+  - regel: MODERNISATIE.md §1 (concordantie behouden); cross-book consistentie van een identiek SV-lemma 'Sendtbrief'; fix: Harmoniseer 'Sendtbrief' consequent (bv. overal 'Zendbrief', of overal 'brief'); pas de COL-epiloog of de EPH-epiloog daaraan aan.
+  - verdict: **rule_change** (scope=nt, applied=True) — Green concedeert. Concede dat er een echte inconsistentie is. (a) Genuine: hetzelfde SV-lemma 'Sendtbrief' wordt over COL↔EPH tegengesteld weergegeven (COL-epiloog 'brief', EPH-epiloog 'Zendbrief'), e
+- **[RG22-006] (consistentie)** volharding en lankmoedigheid
+  - regel: MODERNISATIE.md §1 (concordantie); cross-book weergave van Gr. μακροθυμία; fix: Kies één weergave voor μακροθυμία (bv. overal 'geduld', of overal 'lankmoedigheid' met behoud van 'volharding' voor ὑπομονή) en harmoniseer COL 1:11 / COL 3:12 / EPH 4:2.
+  - verdict: **rule_change** (scope=nt, applied=True) — Green concedeert. Gr. μακροθυμία wordt inconsistent weergegeven: COL 1:11 'lankmoedigheid' (hoofdtekst én kt., naast ὑπομονή→'volharding'), maar COL 3:12 en EPH 4:2 'geduld'. Ronde 21 heeft μακροθυμία
