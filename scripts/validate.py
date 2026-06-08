@@ -51,6 +51,7 @@ from bibref import find_loose_refs  # noqa: E402
 from rules_data import (
     ARCHAISM_BLACKLIST,
     FOSSIL_GENITIVE_PAIRS,
+    FOSSIL_GENITIVE_HEAD_PAIRS,
     PARTICIPLE_ALWAYS_BAD_ENDE,
     PARTICIPLE_CONTEXT_ENDE,
     ADVERBIAL_TRIGGERS_AFTER_PARTICIPLE,
@@ -824,6 +825,14 @@ def _validate_verse(orig: dict, mod: dict) -> dict:
     for m in ARCHAIC_GENITIVE_RE.finditer(gen_text):
         pair = (m.group(1).lower(), m.group(2).lower())
         if pair in FOSSIL_GENITIVE_PAIRS:
+            continue
+        # Kop-gekwalificeerde fossiel: alleen vrij wanneer de direct
+        # voorafgaande kop ook matcht (bv. 'Koning der Joden'), niet voor
+        # gewone bezitsgenitieven met dezelfde (artikel, zn) zoals
+        # 'Synagoge der Joden'.
+        head_match = re.search(r"([A-Za-zà-ÿ]+)\s*$", gen_text[: m.start()])
+        head = head_match.group(1).lower() if head_match else ""
+        if (head, pair[0], pair[1]) in FOSSIL_GENITIVE_HEAD_PAIRS:
             continue
         issues.append(
             f"genitief-archaisme: '{m.group(0)}' — flexieve genitief in moderne "

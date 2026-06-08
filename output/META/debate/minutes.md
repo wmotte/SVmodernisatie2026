@@ -747,3 +747,24 @@ Red bracht 9 punt(en). Verdicts: red_wins=9, green_wins=0, rule_change=0.
 - **[RG34-009] (modernisatie)** Gaat heen en ziet [het.] na
   - regel: ARCHAISMEN.md:78 imperatief-meervoud `-t` → stam (`Gaat`→`Ga`, `ziet`→`zie`); fix: Ga heen en zie [het] na
   - verdict: **red_wins** (scope=verse, applied=True) — Green conceded. ὑπάγετε/ἴδετε beide 2pl imperatief. 'Gaat heen en ziet [het.] na'→'Ga heen en zie [het] na' (corrigeert tevens misvormde haak '[het.]'→'[het]'). Geen rule_change ('gaat'/'ziet' zie RG3
+
+## Ronde 35 — LUK + ACT  (2026-06-08T11:32:32.034316+00:00)
+Red bracht 6 punt(en). Verdicts: red_wins=5, green_wins=0, rule_change=1.
+- **[RG35-001] (consistentie)** huilden en toonden de onderkleren
+  - regel: projectregel κλαίω→wenen; AGENTS.md concordantie; MODERNISATIE.md §5.3; fix: huilden → weenden
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert. Bron κλαίουσαι (κλαίω) = wenen; ACT 9:39 is de enige NT-deviatie t.o.v. de established norm (LUK 6:21/7:38/8:52/19:41/22:62/23:28 'wenen'; ACT 20:37/21:13). Manual concordance-norm, 
+- **[RG35-002] (consistentie)** niet met een menigte en ook niet met opschudding
+  - regel: AGENTS.md concordantie; projectregel ὄχλος→schare (menigte=πλῆθος); fix: menigte → schare (idem ACT 19:33 'uit de menigte'→'uit de schare', ACT 19:35 'de menigte gestild'→'de schare gestild')
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert. ὄχλου (ὄχλος) = schare; menigte gereserveerd voor πλῆθος. Geen πλῆθος in ACT 24:18. Manual concordance-norm. LUK rendert ὄχλος 40/40 'schare'; ACT-deviaties 19:33/19:35/24:18. Scope 
+- **[RG35-003] (modernisatie)** En hij leerde dagelijks in de tempel
+  - regel: ARCHAISMEN.md:147 false friend `leren`/`leerde` (διδάσκω, transitief didactisch) → onderwijzen; fix: leerde → onderwees
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert. διδάσκων (Christus doceert in de tempel), didactisch διδάσκω → onderwijzen (ARCHAISMEN.md:147 false friend). LUK elders consequent 'onderwijzen' (4:15/4:31/5:17 e.v.). Per-vers (geen
+- **[RG35-004] (modernisatie)** wij weten dat u oprecht spreekt en leert
+  - regel: ARCHAISMEN.md:147 false friend `leren` (διδάσκεις, transitief didactisch) → onderwijzen; fix: leert → onderwijst (beide voorkomens; '... naar waarheid leert' → '... naar waarheid onderwijst')
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert. διδάσκεις ×2 (Christus aangesproken doceren-subject) → onderwijst (ARCHAISMEN.md:147). Beide voorkomens in het vers gefixt: 'oprecht spreekt en leert' en 'de weg van God naar waarhei
+- **[RG35-005] (consistentie)** bij de huizen te leren, en Jezus Christus te verkondigen
+  - regel: ARCHAISMEN.md:147 false friend `leren` (διδάσκοντες, transitief didactisch) → onderwijzen; precedent closed-keys ACT|leert van, ACT|over de heere jezus christus leerde; fix: leren/leerde → onderwijzen/onderwees in ACT 4:18, 5:42, 18:11, 20:20
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert. διδάσκοντες (apostelen doceren) → onderwijzen (ARCHAISMEN.md:147). ACT-drift: 4:18/5:42/18:11/20:20 als 'leren/leerde' terwijl ACT elders 'onderwijzen/onderwees' (5:21/5:25/22:3) geb
+- **[RG35-006] (modernisatie)** samen gingen in de Synagoge der Joden
+  - regel: MODERNISATIE.md §2.3c gefossiliseerde genitief; fossiel genitief `der + zn` HARD tenzij vaste uitdr.; fix: Synagoge der Joden → synagoge van de Joden (idem 17:1, 17:10); volk der Joden (12:11) → volk van de Joden; allowlist-pair ('der','joden') vernauwen tot context 'Koning'
+  - verdict: **rule_change** (scope=nt-wide, applied=True) — Green concedeert + structureel allowlist-lek bevestigd. FOSSIL_GENITIVE_PAIRS bevatte de GENERIEKE pair ('der','joden') (comment 'Koning der Joden'), maar de validator-match (validate.py:824-826) toet

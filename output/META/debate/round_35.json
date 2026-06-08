@@ -1,0 +1,231 @@
+{
+  "round_no": 35,
+  "books": [
+    "LUK",
+    "ACT"
+  ],
+  "red": [
+    {
+      "id": "RG35-001",
+      "class": "consistentie",
+      "books": [
+        "LUK",
+        "ACT"
+      ],
+      "chapter": 9,
+      "verse": 39,
+      "quote": "huilden en toonden de onderkleren",
+      "in_kanttekening": false,
+      "rule_reference": "projectregel κλαίω→wenen; AGENTS.md concordantie; MODERNISATIE.md §5.3",
+      "explanation": "κλαίουσαι (κλαίω) wordt hier als 'huilden' weergegeven, terwijl LUK κλαίω consequent met 'wenen' rendert (LUK 6:21, 7:38, 8:52, 19:41, 22:62, 23:28) en ACT zelf elders ook 'wenen' gebruikt (20:37 'geween', 21:13 'weent'). Dit is de enige NT-deviatie en breekt zowel de established norm als de Luke-Acts concordantie.",
+      "proposed_fix": "huilden → weenden",
+      "severity": "hard"
+    },
+    {
+      "id": "RG35-002",
+      "class": "consistentie",
+      "books": [
+        "LUK",
+        "ACT"
+      ],
+      "chapter": 24,
+      "verse": 18,
+      "quote": "niet met een menigte en ook niet met opschudding",
+      "in_kanttekening": false,
+      "rule_reference": "AGENTS.md concordantie; projectregel ὄχλος→schare (menigte=πλῆθος)",
+      "explanation": "ὄχλου (ὄχλος) wordt 'menigte' genoemd, terwijl de NT-norm ὄχλος→'schare' is en 'menigte' voor πλῆθος gereserveerd is. LUK rendert ὄχλος 40/40 als 'schare' en ACT zelf 16×; alleen ACT 19:33, 19:35 en 24:18 wijken af. Geen πλῆθος in deze verzen.",
+      "proposed_fix": "menigte → schare (idem ACT 19:33 'uit de menigte'→'uit de schare', ACT 19:35 'de menigte gestild'→'de schare gestild')",
+      "severity": "hard"
+    },
+    {
+      "id": "RG35-003",
+      "class": "modernisatie",
+      "books": [
+        "LUK"
+      ],
+      "chapter": 19,
+      "verse": 47,
+      "quote": "En hij leerde dagelijks in de tempel",
+      "in_kanttekening": false,
+      "rule_reference": "ARCHAISMEN.md:147 false friend `leren`/`leerde` (διδάσκω, transitief didactisch) → onderwijzen",
+      "explanation": "ἐδίδασκεν (Christus die in de tempel doceert) wordt 'leerde' i.p.v. 'onderwees'. LUK gebruikt voor didactisch διδάσκω overal elders 'onderwijzen' (4:15, 4:31, 5:17, 6:6, 13:10, 13:22, 20:1, 21:37, 23:5). 'leerde' leest modern primair als 'zelf opnemen/studeren' (false friend).",
+      "proposed_fix": "leerde → onderwees",
+      "severity": "hard"
+    },
+    {
+      "id": "RG35-004",
+      "class": "modernisatie",
+      "books": [
+        "LUK"
+      ],
+      "chapter": 20,
+      "verse": 21,
+      "quote": "wij weten dat u oprecht spreekt en leert",
+      "in_kanttekening": false,
+      "rule_reference": "ARCHAISMEN.md:147 false friend `leren` (διδάσκεις, transitief didactisch) → onderwijzen",
+      "explanation": "διδάσκεις (2×: 'u onderwijst', 'de weg van God ... onderwijst') wordt 'leert' i.p.v. 'onderwijst', inconsistent met de dominante LUK-rendering 'onderwijzen' voor didactisch διδάσκω en met de established NT-norm. Beide instanties in dit vers.",
+      "proposed_fix": "leert → onderwijst (beide voorkomens; '... naar waarheid leert' → '... naar waarheid onderwijst')",
+      "severity": "hard"
+    },
+    {
+      "id": "RG35-005",
+      "class": "consistentie",
+      "books": [
+        "LUK",
+        "ACT"
+      ],
+      "chapter": 5,
+      "verse": 42,
+      "quote": "bij de huizen te leren, en Jezus Christus te verkondigen",
+      "in_kanttekening": false,
+      "rule_reference": "ARCHAISMEN.md:147 false friend `leren` (διδάσκοντες, transitief didactisch) → onderwijzen; precedent closed-keys ACT|leert van, ACT|over de heere jezus christus leerde",
+      "explanation": "διδάσκω (apostelen die doceren) wordt als 'leren' weergegeven in ACT 4:18 ('noch leren'), 5:42 ('te leren'), 18:11 ('leerde onder hen het woord van God'), 20:20 ('u te leren') — terwijl ACT zelf elders 'onderwijzen/onderwees/onderwezen' gebruikt (4:2, 5:21, 5:25, 5:28, 8:31, 28:31, recent gefixt) en de NT-norm dat eist. Drift binnen ACT en t.o.v. LUK.",
+      "proposed_fix": "leren/leerde → onderwijzen/onderwees in ACT 4:18, 5:42, 18:11, 20:20",
+      "severity": "hard"
+    },
+    {
+      "id": "RG35-006",
+      "class": "modernisatie",
+      "books": [
+        "ACT"
+      ],
+      "chapter": 14,
+      "verse": 1,
+      "quote": "samen gingen in de Synagoge der Joden",
+      "in_kanttekening": false,
+      "rule_reference": "MODERNISATIE.md §2.3c gefossiliseerde genitief; fossiel genitief `der + zn` HARD tenzij vaste uitdr.",
+      "explanation": "συναγωγὴν τῶν Ἰουδαίων wordt 'Synagoge der Joden' — een gewone bezitsgenitief, geen gefossiliseerde formule. Alleen de titel 'Koning der Joden' is fossiel (FOSSIL_GENITIVE_PAIRS, comment 'Koning der Joden'); de validator-allowlist maskeert echter ELK 'der Joden' generiek, waardoor 'Synagoge der Joden' (14:1, 17:1, 17:10) en 'volk der Joden' (12:11) stil doorglippen. Ontvouw naar 'van de Joden'.",
+      "proposed_fix": "Synagoge der Joden → synagoge van de Joden (idem 17:1, 17:10); volk der Joden (12:11) → volk van de Joden; allowlist-pair ('der','joden') vernauwen tot context 'Koning'",
+      "severity": "hard"
+    }
+  ],
+  "green": [
+    {
+      "point_id": "RG35-001",
+      "stance": "concede",
+      "rebuttal": "Bron bevestigt RED. source_text ACT 9:39 = κλαίουσαι (κλαίω, wenen). Quote 'huilden en toonden de onderkleren' is exacte substring van modernized. NT-norm κλαίω→wenen (LUK 6:21/7:38/8:52/19:41/22:62/23:28 'wenen'; ACT 20:37 'geween', 21:13 'weent'); ACT 9:39 is de enige deviatie. Concordantie-gate gehaald: (1) Griekse term κλαίω + projectregel; (2) vers-specifiek (κλαίουσαι hier); (3) onderscheidend t.o.v. de andere punten. Geen weerlegging mogelijk.",
+      "evidence": "κλαίω (κλαίουσαι) + NT-norm wenen"
+    },
+    {
+      "point_id": "RG35-002",
+      "stance": "concede",
+      "rebuttal": "Bron bevestigt RED. source_text ACT 24:18 = οὐ μετὰ ὄχλου (ὄχλος), GEEN πλῆθος in het vers. Quote 'niet met een menigte en ook niet met opschudding' is exacte substring. Projectregel: ὄχλος→schare, menigte gereserveerd voor πλῆθος. Bevestigend bewijs: ACT 14:1 rendert juist πολὺ πλῆθος correct als 'een grote menigte' — dus 'menigte' is daar terecht, maar bij ὄχλος (24:18) fout. Gate: (1) Griekse term ὄχλος vs πλῆθος; (2) vers-specifiek (ὄχλου hier, geen πλῆθος); (3) onderscheidend. Concede.",
+      "evidence": "ὄχλος (ὄχλου) ≠ πλῆθος; menigte=πλῆθος"
+    },
+    {
+      "point_id": "RG35-003",
+      "stance": "concede",
+      "rebuttal": "Bron bevestigt RED. source_text LUK 19:47 = καὶ ἦν διδάσκων ... ἐν τῷ ἱερῷ (διδάσκω, Christus als doceren-subject in de tempel). Quote 'En hij leerde dagelijks in de tempel' is exacte substring. ARCHAISMEN.md:147: didactisch διδάσκω van een leraar → onderwijzen/onderwees; 'leren' draagt modern primair 'zelf opnemen/studeren' (false friend). LUK rendert elders consequent 'onderwijzen' (4:15/4:31/5:17 e.v.). Gate: (1) §147 + διδάσκω; (2) vers-specifiek participium διδάσκων teacher-subject; (3) onderscheidend. Concede.",
+      "evidence": "§147 + διδάσκων (Christus-subject)"
+    },
+    {
+      "point_id": "RG35-004",
+      "stance": "concede",
+      "rebuttal": "Bron bevestigt RED. source_text LUK 20:21 = ὀρθῶς ... διδάσκεις ... ἐπ’ ἀληθείας τὴν ὁδὸν τοῦ Θεοῦ διδάσκεις (διδάσκω 2×, Christus als aangesproken doceren-subject). Quote 'wij weten dat u oprecht spreekt en leert' is exacte substring; tweede instantie '... naar waarheid leert' eveneens aanwezig. ARCHAISMEN.md:147 didactisch διδάσκω → onderwijzen; beide voorkomens. Gate: (1) §147 + διδάσκεις; (2) vers-specifiek (2× διδάσκεις, 2e persoon); (3) onderscheidend. Concede.",
+      "evidence": "§147 + διδάσκεις ×2"
+    },
+    {
+      "point_id": "RG35-005",
+      "stance": "concede",
+      "rebuttal": "Bron bevestigt RED, beide boeken gecheckt. ACT 5:42 source_text = οὐκ ἐπαύοντο διδάσκοντες (διδάσκω, apostelen-subject); quote 'bij de huizen te leren, en Jezus Christus te verkondigen' exacte substring. NT-wide scope geverifieerd: ACT 4:18 διδάσκειν, 18:11 διδάσκων ('leerde onder hen het woord van God'), 20:20 διδάξαι — alle teacher-subject, alle als 'leren/leerde'. ACT gebruikt elders al 'onderwijzen/onderwees/onderwezen' (5:21/5:25/22:3). Drift binnen ACT én t.o.v. LUK (RG35-003/004). Gate: (1) §147 + διδάσκω; (2) vers-specifiek διδάσκοντες; (3) consistentie-onderscheidend. Concede.",
+      "evidence": "§147 + διδάσκοντες; NT-wide διδάσκω-drift"
+    },
+    {
+      "point_id": "RG35-006",
+      "stance": "concede",
+      "rebuttal": "Bron bevestigt RED. source_text ACT 14:1 = εἰς τὴν συναγωγὴν τῶν Ἰουδαίων — gewone bezitsgenitief (τῶν Ἰουδαίων), geen gestolde formule. Quote 'samen gingen in de Synagoge der Joden' exacte substring. MODERNISATIE.md §2.3c: 'der + zn' = HARD-genitief tenzij vaste uitdrukking. FOSSIL_GENITIVE_PAIRS bevat ('der','joden') maar het comment scope't dat expliciet op 'Koning der Joden'; de allowlist matcht echter generiek en maskeert 'Synagoge der Joden' (14:1/17:1/17:10) en 'volk der Joden' (12:11) onterecht. Structureel (allowlist-lek) → kandidaat rule_change. Gate: (1) §2.3c + τῶν Ἰουδαίων; (2) vers-specifiek (bezitsgenitief, geen titelformule); (3) onderscheidend van de echte fossiel 'Koning der Joden'. Concede. RED's fix 'synagoge van de Joden' is idiomatisch correct en wordt overgenomen.",
+      "evidence": "§2.3c + τῶν Ἰουδαίων (bezitsgenitief, geen titel)"
+    }
+  ],
+  "verdicts": [
+    {
+      "point_id": "RG35-001",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. Bron κλαίουσαι (κλαίω) = wenen; ACT 9:39 is de enige NT-deviatie t.o.v. de established norm (LUK 6:21/7:38/8:52/19:41/22:62/23:28 'wenen'; ACT 20:37/21:13). Manual concordance-norm, niet validator-gated. NT-wide huil*-sweep gedaan: 4 niet-schuil-treffers — ACT 9:39 (target, κλαίουσαι), JAS 5:1 'huil en weeklaag' (κλαύσατε=κλαίω → ween en weeklaag), JHN 20:13 'haar huilen' (κλαίεις=κλαίω → haar wenen), MAT 9:23 'tot huilen en klagen' (θορυβούμενον, GEEN κλαίω → buiten scope, blijft). JAS 5:1 + JHN 20:13 zijn geldige κλαίω→wenen-extra's maar buiten dit paar (LUK/ACT): DEFERRED naar apply (geen silent cap).",
+      "scope": "verse",
+      "applied": true,
+      "rule_delta": null,
+      "applied_fix_old": "huilden en toonden de onderkleren",
+      "applied_fix_new": "weenden en toonden de onderkleren"
+    },
+    {
+      "point_id": "RG35-002",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. ὄχλου (ὄχλος) = schare; menigte gereserveerd voor πλῆθος. Geen πλῆθος in ACT 24:18. Manual concordance-norm. LUK rendert ὄχλος 40/40 'schare'; ACT-deviaties 19:33/19:35/24:18. Scope dit vers (24:18); 19:33/19:35 zijn ander-verse en horen in eigen apply-treffers, niet dit verdict.",
+      "scope": "verse",
+      "applied": true,
+      "rule_delta": null,
+      "applied_fix_old": "niet met een menigte en ook niet met opschudding",
+      "applied_fix_new": "niet met een schare en ook niet met opschudding"
+    },
+    {
+      "point_id": "RG35-003",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. διδάσκων (Christus doceert in de tempel), didactisch διδάσκω → onderwijzen (ARCHAISMEN.md:147 false friend). LUK elders consequent 'onderwijzen' (4:15/4:31/5:17 e.v.). Per-vers (geen blanket-regel; R30/R33-precedent). Imperfectum 'leerde'→'onderwees' (3e p. enk., past).",
+      "scope": "verse",
+      "applied": true,
+      "rule_delta": null,
+      "applied_fix_old": "En hij leerde dagelijks in de tempel",
+      "applied_fix_new": "En hij onderwees dagelijks in de tempel"
+    },
+    {
+      "point_id": "RG35-004",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. διδάσκεις ×2 (Christus aangesproken doceren-subject) → onderwijst (ARCHAISMEN.md:147). Beide voorkomens in het vers gefixt: 'oprecht spreekt en leert' en 'de weg van God naar waarheid leert'. Per-vers. 2e p. enk. tegenwoordige tijd 'leert'→'onderwijst'.",
+      "scope": "verse",
+      "applied": true,
+      "rule_delta": null,
+      "applied_fix_old": "wij weten dat u oprecht spreekt en leert, en <Grieks: aangezicht. Zie de verklaring bij $Mt. 22:16$.> geen aanzien des persoons aanneemt, maar de weg van God naar waarheid leert,",
+      "applied_fix_new": "wij weten dat u oprecht spreekt en onderwijst, en <Grieks: aangezicht. Zie de verklaring bij $Mt. 22:16$.> geen aanzien des persoons aanneemt, maar de weg van God naar waarheid onderwijst,"
+    },
+    {
+      "point_id": "RG35-005",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. διδάσκοντες (apostelen doceren) → onderwijzen (ARCHAISMEN.md:147). ACT-drift: 4:18/5:42/18:11/20:20 als 'leren/leerde' terwijl ACT elders 'onderwijzen/onderwees' (5:21/5:25/22:3) gebruikt. Per-vers; scope hier ACT 5:42 (infinitief 'te leren'→'te onderwijzen'). 4:18/18:11/20:20 zijn ander-verse → eigen apply-treffers, niet dit verdict.",
+      "scope": "verse",
+      "applied": true,
+      "rule_delta": null,
+      "applied_fix_old": "bij de huizen te leren, en Jezus Christus te verkondigen",
+      "applied_fix_new": "bij de huizen te onderwijzen, en Jezus Christus te verkondigen"
+    },
+    {
+      "point_id": "RG35-006",
+      "verdict": "rule_change",
+      "rationale": "Green concedeert + structureel allowlist-lek bevestigd. FOSSIL_GENITIVE_PAIRS bevatte de GENERIEKE pair ('der','joden') (comment 'Koning der Joden'), maar de validator-match (validate.py:824-826) toetst enkel (artikel,zn) zonder kop, dus ELK 'der Joden' werd vrijgesteld. decisions.jsonl bevestigt het lek: ACT 14:1 Synagoge der Joden werd eerder 'rebutted' onder een ge-copy-paste [Automated Propagation] titulus-crucis-rationale die alleen op 'Koning der Joden' slaat. Root-cause fix (memory feedback_genitief_archaisme eist root-cause): vervang de generieke pair door kop-gekwalificeerde FOSSIL_GENITIVE_HEAD_PAIRS{('koning','der','joden')}; validate.py grijpt nu de direct voorafgaande kop. Collision-check (NT-wide body, notes gestript): Koning der Joden 18× (incl. allcaps titulus) blijft PASS; Synagoge der Joden (ACT 14:1/17:1/17:10) + volk der Joden (ACT 12:11) FLAGgen nu HARD (RED-targets, correct); nieuw blootgelegd: Pascha der Joden ×2 + feest der Joden ×1 + Overste der Joden ×1 (JHN) — genuine niet-titel-bezitsgenitieven die per project-norm (decision 119 'staatsinrichting der Joden'→van de Joden) óók HARD horen te zijn, maar buiten RG35-006-scope → DEFERRED apply (geen silent cap).",
+      "scope": "nt-wide",
+      "applied": true,
+      "rule_delta": {
+        "file": "scripts/rules_data.py",
+        "list": "FOSSIL_GENITIVE_PAIRS (remove generic) + new FOSSIL_GENITIVE_HEAD_PAIRS; wired in scripts/validate.py genitief-check + MODERNISATIE.md synced",
+        "old": "FOSSIL_GENITIVE_PAIRS = frozenset({ ... ('der','joden'), ... })  # generic, exempts ALL 'der Joden'",
+        "new": "FOSSIL_GENITIVE_PAIRS: ('der','joden') removed; FOSSIL_GENITIVE_HEAD_PAIRS = frozenset({('koning','der','joden')}); validate.py: if (head, art, noun) in FOSSIL_GENITIVE_HEAD_PAIRS: continue (head = direct voorafgaand woord)",
+        "collision_check": "NT-wide body (notes/$..$ stripped): Koning der Joden 18x PASS (incl KONING DER JODEN titulus); FLAG (correct, RED-target): Synagoge der Joden ACT 14:1/17:1/17:10, volk der Joden ACT 12:11; FLAG (newly exposed, deferred): Pascha der Joden JHN 2:13/11:55, feest der Joden JHN 5:1, Overste der Joden JHN 3:1. validate.py import OK."
+      },
+      "applied_fix_old": "samen gingen in de Synagoge der Joden",
+      "applied_fix_new": "samen gingen in de synagoge van de Joden"
+    }
+  ],
+  "der_joden_nt_sweep": {
+    "fixed_body": [
+      "ACT 12:11 volk",
+      "ACT 14:1 Synagoge",
+      "ACT 17:1/17:10 Synagoge",
+      "JHN 2:13/11:55 Pascha",
+      "JHN 3:1 Overste",
+      "JHN 5:1 feest+intro ongeloof",
+      "JHN 6:4 feest"
+    ],
+    "kept": "Koning der Joden (JHN 18/19,LUK 23,MAT 2/27,MRK 15) via FOSSIL_GENITIVE_HEAD_PAIRS",
+    "note": "rule_change RG35-006 tightened validator; alle non-Koning der-Joden body gefixt NT-breed (0 remaining). Noten (kanttekeningen) der-Joden niet validator-gated, niet gesweept."
+  },
+  "deferred_nt_sweep": {
+    "klaio_huilen": [
+      "JAS 5:1 huil->ween",
+      "JHN 20:13 huilen->wenen (κλαίεις)"
+    ],
+    "ochlos_menigte_siblings": [
+      "ACT 19:33",
+      "ACT 19:35 (check ὄχλος vs πλῆθος)"
+    ]
+  }
+}

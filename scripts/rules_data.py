@@ -101,7 +101,12 @@ ARCHAISM_BLACKLIST = [
 # Allowlist als (artikel, zn)-paar in lowercase.
 FOSSIL_GENITIVE_PAIRS: frozenset[tuple[str, str]] = frozenset({
     ("des", "mensen"),         # Zoon des mensen (Gr. ὁ υἱὸς τοῦ ἀνθρώπου)
-    ("der", "joden"),          # Koning der Joden
+    # ('der','joden') was hier een GENERIEKE allowlist: hij maskeerde ELK
+    # 'der Joden' (Synagoge/volk/feest/Pascha/Overste der Joden), terwijl
+    # alleen de TITEL 'Koning der Joden' (Gr. ὁ βασιλεὺς τῶν Ἰουδαίων) een
+    # gestolde formule is. Verplaatst naar FOSSIL_GENITIVE_HEAD_PAIRS met
+    # vereiste kop 'koning'. Red-green ronde 35 RG35-006 (Synagoge der Joden
+    # ACT 14:1/17:1/17:10, volk der Joden ACT 12:11). HARD, nt-wide.
     ("der", "heerlijkheid"),   # Koning der heerlijkheid
     ("der", "heerscharen"),    # Heer der heerscharen
     ("der", "hemelen"),        # Koninkrijk der hemelen
@@ -119,6 +124,15 @@ FOSSIL_GENITIVE_PAIRS: frozenset[tuple[str, str]] = frozenset({
     ("des", "persoons"),       # aanzien des persoons (Gr. προσωπολημψία)
     ("der", "aarde"),          # einden der aarde
     ("der", "wereld"),         # volken der wereld
+})
+
+# Kop-gekwalificeerde fossiele genitief: (kop, artikel, zn) in lowercase.
+# Alleen wanneer de DIRECT voorafgaande kop óók matcht is de genitief
+# gefossiliseerd; een generieke (artikel, zn)-allowlist zou ook gewone
+# bezitsgenitieven (Synagoge/volk der Joden) doorlaten. Red-green ronde 35
+# RG35-006.
+FOSSIL_GENITIVE_HEAD_PAIRS: frozenset[tuple[str, str, str]] = frozenset({
+    ("koning", "der", "joden"),  # Koning der Joden (Gr. ὁ βασιλεὺς τῶν Ἰουδαίων)
 })
 
 # 2. Participle Rules (from validate.py)

@@ -1,5 +1,5 @@
 {
-  "rounds_done": 34,
+  "rounds_done": 35,
   "pairs": [
     [
       "REV",
@@ -137,18 +137,22 @@
     [
       "MAT",
       "MRK"
+    ],
+    [
+      "LUK",
+      "ACT"
     ]
   ],
   "debate_count": {
     "REV": 10,
     "JHN": 7,
     "1CO": 2,
-    "LUK": 3,
+    "LUK": 4,
     "ROM": 5,
     "2CO": 1,
     "MRK": 2,
     "MAT": 4,
-    "ACT": 2,
+    "ACT": 3,
     "2JN": 3,
     "3JN": 2,
     "PHM": 3,
@@ -177,6 +181,9 @@
     "consistentie|2JN,3JN|dat is oprecht zoals 1jh 3 18|kanttekeningen.md (afkorting-expansie `<d. ...>`); agents.md regel 5 (hoofdletterdiscipline); modernisatie.md §1 (cross-book concordantie)",
     "consistentie|2PE,JUD|zij zijn|modernisatie.md §1/§5.3 (cross-book concordantie); grieks oὗτοί εἰσι(ν)",
     "consistentie|ACT,JHN|een grote menigte van kranken|agents.md concordantie; modernisatie.md §2.7; grieks: ασθενουντων",
+    "consistentie|ACT,LUK|bij de huizen te leren en jezus christus|archaismen.md:147 false friend `leren` (διδάσκοντες, transitief didactisch) → onderwijzen; precedent closed-keys act|leert van, act|over de heere jezus christus leerde",
+    "consistentie|ACT,LUK|huilden en toonden de onderkleren|projectregel κλαίω→wenen; agents.md concordantie; modernisatie.md §5.3",
+    "consistentie|ACT,LUK|niet met een menigte en ook niet met|agents.md concordantie; projectregel ὄχλος→schare (menigte=πλῆθος)",
     "consistentie|ACT,ROM|die dan een ander leert|archaismen.md:147 false friend `leren`/`leerde` (διδάσκω, transitief didactisch) → onderwijzen; nt-wide precedent rg-16-rg16-003 (2jn), rg-30-rg30-009 (2pe), beide red_wins",
     "consistentie|COL,EPH|einde van de zendbrief van paulus aan die|modernisatie.md §1 (concordantie behouden); cross-book consistentie van een identiek sv-lemma 'sendtbrief'",
     "consistentie|COL,EPH|volharding en lankmoedigheid|modernisatie.md §1 (concordantie); cross-book weergave van gr. μακροθυμία",
@@ -269,6 +276,7 @@
     "modernisatie|ACT|maar zulks is na deze tijd gebeurd|archaismen.md (`sulcks`/`zulks`); modernisatie.md §2.7; kanttekeningen tellen volwaardig mee",
     "modernisatie|ACT|ontstond daar geen kleine beroerte|modernisatie.md §2.7; false-friend/productiviteitstest; grieks: ταραχος",
     "modernisatie|ACT|over de heere jezus christus leerde|archaismen.md:147 false friend `leerde` (διδάσκων, transitief didactisch) → onderwees",
+    "modernisatie|ACT|samen gingen in de synagoge der joden|modernisatie.md §2.3c gefossiliseerde genitief; fossiel genitief `der + zn` hard tenzij vaste uitdr.",
     "modernisatie|ACT|zijn rede uitstrekkend tot de middernacht|modernisatie.md §2.3 / §2.3b (finiet participium; intro volgt dezelfde principes)",
     "modernisatie|COL,EPH|en koopt de geschikte tijd|archaismen.md, regel 'imperatief-meervoud op -t → gebruik de stam'; memory 'imperatief-meervoud -t → stam'",
     "modernisatie|COL|wandelt|archaismen.md, regel 'imperatief-meervoud op -t → gebruik de stam' (wandelt/brengt → wandel/breng); memory 'imperatief-meervoud -t → stam' (concordantie harmoniseert náár stam)",
@@ -309,6 +317,7 @@
     "modernisatie|LUK|brengt dan vruchten voort die de bekering waardig|archaismen.md (imperatief-meervoud op `-t` → stam)",
     "modernisatie|LUK|de kaarsen brandende|modernisatie.md §2.3 (predicatief/periphrastisch participium / -ende)",
     "modernisatie|LUK|doet niemand overlast aan noch ontvreemdt niemand het|archaismen.md:78 (imperatief-meervoud sv-`-t` -> stam)",
+    "modernisatie|LUK|en hij leerde dagelijks in de tempel|archaismen.md:147 false friend `leren`/`leerde` (διδάσκω, transitief didactisch) → onderwijzen",
     "modernisatie|LUK|en hij zei gaat heen in dat dorp|archaismen.md:78 (imperatief-meervoud sv-`-t` -> stam)",
     "modernisatie|LUK|en hij zei tot hen ziet als u|archaismen.md:78 (imperatief-meervoud sv-`-t` -> stam)",
     "modernisatie|LUK|gaat heen zie ik zend u als lammeren|archaismen.md:78 (imperatief-meervoud sv-`-t` -> stam)",
@@ -319,6 +328,7 @@
     "modernisatie|LUK|verkoopt wat u hebt en geeft aalmoes maakt|archaismen.md (imperatief-meervoud op `-t` → stam)",
     "modernisatie|LUK|vreest niet want zie ik grieks euangelizeere dat|archaismen.md:78 (imperatief-meervoud sv-`-t` -> stam)",
     "modernisatie|LUK|waakt dan te allen tijde en bidt dat|archaismen.md:78 (imperatief-meervoud sv-`-t` -> stam)",
+    "modernisatie|LUK|wij weten dat u oprecht spreekt en leert|archaismen.md:147 false friend `leren` (διδάσκεις, transitief didactisch) → onderwijzen",
     "modernisatie|LUK|zegt tot hen weest blij met mij want|archaismen.md (imperatief-meervoud op `-t` → stam)",
     "modernisatie|LUK|zei gaat heen en bereidt ons het pascha|archaismen.md (imperatief-meervoud op `-t` → stam)",
     "modernisatie|LUK|zei hij neemt deze en deelt hem onder|archaismen.md (imperatief-meervoud op `-t` → stam)",
@@ -385,5 +395,5 @@
     "modernisatie|TIT|zowel in kleding als in hun gehele wandel|archaismen.md:29 (zelfst. 'wandel' = levenswijze → levenswandel / leven / gedrag); modernisatie.md §2.7 (verwarringstest)"
   ],
   "open_keys": [],
-  "updated_at": "2026-06-08T10:51:52.568732+00:00"
+  "updated_at": "2026-06-08T11:32:32.033798+00:00"
 }

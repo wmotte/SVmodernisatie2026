@@ -186,8 +186,12 @@ het een fossiel.
 
 **Validator-handhaving.** `scripts/validate.py` flag iedere
 `der/des/den + zn` in de moderne hoofdtekst als HARD issue, tenzij
-het paar in `FOSSIL_GENITIVE_PAIRS` (validate.py) staat. De huidige
-allowlist dekt `Zoon des mensen`, `Koning der Joden/heerlijkheid`,
+het paar in `FOSSIL_GENITIVE_PAIRS` (rules_data.py) staat, óf de
+kop-gekwalificeerde combinatie in `FOSSIL_GENITIVE_HEAD_PAIRS` zit
+(bv. `Koning der Joden` — alleen vrij ná de kop `Koning`; een gewoon
+`Synagoge/volk/feest der Joden` blijft HARD). De huidige
+allowlist dekt `Zoon des mensen`, `Koning der Joden` (kop-vereist) /
+`Koning der heerlijkheid`,
 `Koninkrijk der hemelen`, `Heer der heerscharen`, `dag des oordeels`,
 `dag der voorbereiding`, `heer des huizes`, `dag des Heeren`,
 `boek des levens`, `Heilige der heiligen`, `gruwel der verwoesting`,
