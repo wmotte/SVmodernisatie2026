@@ -1,0 +1,97 @@
+{
+  "round_no": 24,
+  "books": [
+    "HEB",
+    "TIT"
+  ],
+  "red": [
+    {
+      "id": "RG24-001",
+      "class": "consistentie",
+      "books": [
+        "HEB"
+      ],
+      "chapter": 3,
+      "verse": 8,
+      "quote": "Verhardt dan",
+      "in_kanttekening": false,
+      "rule_reference": "ARCHAISMEN.md:80 'imperatief-meervoud op -t → gebruik de stam'; MEMORY 'Imperatief-meervoud -t → stam'; precedent RG22-001/003, RG23-001 (wandelt → wandel)",
+      "explanation": "HEB 3:8 source_text is 'μὴ σκληρύνητε τὰς καρδίας ὑμῶν' — σκληρύνητε is een gebiedende wijs/aansporende conjunctief meervoud uit Ps. 95 ('verhardt uw harten niet'). De SV-imperatiefuitgang -t is hier ongemoderniseerd blijven staan ('Verhardt dan uw harten niet'). Dit is een harde concordantiebreuk binnen HÉTZELFDE boek: in HEB 4:7 wordt exact dezelfde Griekse zin (μὴ σκληρύνητε τὰς καρδίας ὑμῶν), met dezelfde Psalm-aanhaling ($Ps. 95:7$), wél correct naar de stam geharmoniseerd: 'verhard uw harten dan niet.' Twee identieke citaten van Ps. 95, twee verschillende vormen — 3:8 moet meegaan met 4:7.",
+      "proposed_fix": "Verhard dan",
+      "severity": "hard"
+    },
+    {
+      "id": "RG24-002",
+      "class": "modernisatie",
+      "books": [
+        "TIT"
+      ],
+      "chapter": 3,
+      "verse": 0,
+      "quote": "De [Zendbrief] aan Titus, de eerste verkoren Grieks: Episcopon. Dat Titus een Evangelist is geweest, door de Apostelen hier en daar gezonden om het Evangelie te verbreiden, wordt uit de Schrift wel afgeleid, maar niet dat hij ergens een Bisschop, zoals zij tegenwoordig in het Pausdom genoemd worden, zou geweest zijn. Opziener van de gemeente der Cretensen, is geschreven Zie hiervan vers 12.",
+      "in_kanttekening": false,
+      "rule_reference": "KANTTEKENINGEN.md:8 ('<…> blokken bewaren — nooit verwijderen, nooit samenvoegen'); AGENTS.md §1 'Renovatie, geen hervertaling' / leesbaar modern Nederlands",
+      "explanation": "In het TIT-colofon (epiloog) zit in het SV-origineel een kanttekening-glosse op 'verkoren Opsiender' ingebed: 'Gr. Episcopon. Dat Titus een Euangelist is geweest ... soude geweest zijn.', en daarna nog 'Siet hier van vers 12. waer uyt ...'. De modernisatie heeft die twee kanttekeningen NIET in <...> gezet, maar als lopende tekst tussen de hoofdzin geplakt. Daardoor leest de hoofdzin als onleesbaar Nederlands: 'De [Zendbrief] aan Titus, de eerste verkoren Grieks: Episcopon. Dat Titus ... zou geweest zijn. Opziener van de gemeente der Cretensen, is geschreven Zie hiervan vers 12.' — het werkwoord 'is geschreven' raakt losgekoppeld van de plaatsbepaling 'van Nicopolis'. Ter vergelijking: het HEB-colofon (13:99) lost dit wél leesbaar op. Bovendien is hier 'der Cretensen' ongemoderniseerd gebleven terwijl heel TIT 'Kretenzen'/'Kreta' gebruikt (TIT 1:12,13; 1:5,10).",
+      "proposed_fix": "Wikkel beide ingebedde noten in <...> en herstel de hoofdzin, bv.: 'De [Zendbrief] aan Titus, de eerste verkoren <Grieks: Episcopon. Dat Titus een Evangelist is geweest, door de Apostelen hier en daar gezonden om het Evangelie te verbreiden, wordt uit de Schrift wel afgeleid, maar niet dat hij ergens een Bisschop, zoals zij tegenwoordig in het Pausdom genoemd worden, zou geweest zijn.> Opziener van de gemeente der Kretenzen, is geschreven <Zie hiervan vers 12, waaruit ook blijkt dat deze onderschriften niet overal vaststaan, zoals dikwijls is aangetekend.> van Nicopolis in Macedonië. Einde van de Zendbrief van Paulus aan Titus.'",
+      "severity": "hard"
+    },
+    {
+      "id": "RG24-003",
+      "class": "modernisatie",
+      "books": [
+        "HEB"
+      ],
+      "chapter": 10,
+      "verse": 5,
+      "quote": "Daarom, Namelijk, wanneer hij de menselijke natuur aannam en die in één persoon met hem verenigde, zoals hiervoor $Hb. 1:6; 9:11$, zegt hij, als hij in de wereld komt",
+      "in_kanttekening": false,
+      "rule_reference": "KANTTEKENINGEN.md:8 ('<…> blokken bewaren — nooit verwijderen, nooit samenvoegen'); MODERNISATIE.md §2.3 (geen lopende tekst van noot maken)",
+      "explanation": "Het SV-origineel heeft op 'Daerom' een kanttekening: 'Namelick, wanneer hy de menschelicke nature aennam, ende in eenen persoon met hem vereenighde, gelijck hier voor Cap. 1. vers 6. ende 9.11.' De eigenlijke hoofdtekst (Gr. εἰσερχόμενος εἰς τὸν κόσμον λέγει) is 'komende in de werelt seght hy'. De modernisatie heeft de kanttekening NIET in <...> gewikkeld maar als lopende hoofdtekst weergegeven, met een kaal 'Namelijk,' op zinsniveau ('Daarom, Namelijk, wanneer hij ...'), wat geen grammaticaal Nederlands oplevert en de noot-inhoud in de body laat lekken — terwijl de aangrenzende noot op vers 5 ('<Namelijk, Christus de Hogepriester ...>') wél correct gewikkeld is.",
+      "proposed_fix": "Wikkel de glosse: 'Daarom <Namelijk, wanneer hij de menselijke natuur aannam en die in één persoon met hem verenigde, zoals hiervoor $Hb. 1:6; 9:11$.> zegt hij, als hij in de wereld komt:'",
+      "severity": "hard"
+    }
+  ],
+  "green": [
+    {
+      "point_id": "RG24-001",
+      "stance": "concede",
+      "rebuttal": "Concede. HEB 3:8 'Verhardt dan' laat de SV-imperatief-meervoud op -t onaangeroerd staan, terwijl exact hetzelfde Griekse verbod μὴ σκληρύνητε τὰς καρδίας ὑμῶν uit Ps. 95 in HEB 4:7 binnen hetzelfde boek wél naar de stam is geharmoniseerd ('verhard uw harten dan niet'). Dat is een harde binnen-boek concordantiebreuk; de stam is de vastgelegde norm. Fix NT-breed toepassen: 'Verhardt dan' -> 'Verhard dan'.",
+      "evidence": "ARCHAISMEN.md:80 'imperatief-meervoud op -t -> stam'; MEMORY 'Imperatief-meervoud -t -> stam'; precedent RG22-001/003, RG23-001. Grieks: μὴ σκληρύνητε (prohibitivus, aor.conj. = gebiedende wijs mv.) identiek in HEB 3:8 source_text en HEB 4:7 source_text. Output HEB 4:7 body (noten gestript): '...verhard uw harten dan niet.' (stam) vs HEB 3:8 'Verhardt dan' (-t). Twee Ps-95-citaten, twee vormen -> 3:8 moet mee met 4:7."
+    },
+    {
+      "point_id": "RG24-002",
+      "stance": "concede",
+      "rebuttal": "Concede op het leesbaarheidsdefect, maar met geherclassificeerd mechanisme: RED's premisse 'de modernisatie heeft de twee kanttekeningen NIET in <...> gezet' suggereert dat er bij de modernisatie delimiters zijn weggehaald. Dat is feitelijk onjuist. In de SV-bronstring (input.sv/TIT/TIT.3.json veld 'epilogue') staan beide glossen 'Gr. Episcopon. Dat Titus ... soude geweest zijn.' en 'Siet hier van vers 12. waer uyt ...' AL ZONDER < >-haken, inline in de lopende colofontekst. Bron <-telling = 0, output <-telling = 0: de modernisatie heeft de bronstructuur trouw gevolgd, niets verwijderd. Toch is de uitkomst voor een eindlezer kapot ('...de eerste verkoren Grieks: Episcopon. Dat Titus ...' en 'is geschreven Zie hiervan vers 12. ... van Nicopolis'). Dit is dus een SCAFFOLDING-/bronextractie-gap (OCR/extractie heeft de oorspronkelijke SV1657-haken laten vallen), klasse C, geen pure modernisatie-content-fout. Fix is gerechtvaardigd maar moet BEIDE raken: corrigeer input.sv 'epilogue' EN output, met 4 <...>-wrappers zodat de tellingen consistent blijven. RED's voorgestelde wrapping-tekst is inhoudelijk bruikbaar. Bijvangst: 'der Cretensen' kan mee naar 'der Kretenzen' (vers 1 gebruikt al 'Kretenzers'), maar dat is secundair.",
+      "evidence": "KANTTEKENINGEN.md:8 ('<…> blokken bewaren'); MEMORY 'Drempel-note-strip-gap' / scaffolding-klasse C (sv-meta-review buckets). Bronsnippet input.sv/TIT/TIT.3.json epilogue: 'De [Sendtbrief] aen Titum, den eersten verkoren Gr. Episcopon. Dat Titus ... soude geweest zijn. Opsiender van de gemeynte der Cretensen, is geschreven Siet hier van vers 12. waer uyt ...' -> ZERO < > in bron. Tellingen: epilogue orig <=0, mod <=0 (gemeten). Grep-precedent NT-breed: na <...>-strip lekken slechts 2 verzen een glos-marker in de body (HEB 10:5 + ROM 1:12); wrapping is dus de norm, dit is een zeldzame extractie-gap, niet een bestendige 'faithful-undelimited'-conventie."
+    },
+    {
+      "point_id": "RG24-003",
+      "stance": "concede",
+      "rebuttal": "Concede op het defect, met hetzelfde geherclassificeerde mechanisme als 002. RED stelt: 'De modernisatie heeft de kanttekening NIET in <...> gewikkeld.' Dat impliceert verwijdering bij modernisatie en is onjuist. In input.sv/HEB/HEB.10.json vers 5 veld 'text' staat de glos 'Namelick, wanneer hy de menschelicke nature aennam, ende in eenen persoon met hem vereenighde, gelijck hier voor Cap. 1. vers 6. ende 9.11.' AL ZONDER < >-haken, inline tussen 'Daerom' en 'komende in de werelt seght hy'. Bron <-telling = 3, output <-telling = 3: de modernisatie heeft drie noten getrouw gewrapt (incl. de aangrenzende '<Namel. Christus de Hoogepriester...>' en '<...De Hebreeusche text...>') en de undelimited middenglos exact zo overgenomen als de bron hem aanbiedt. Resultaat is wel onleesbaar ('Daarom, Namelijk, wanneer hij ... zegt hij, als hij in de wereld komt'), met 'Namelijk,' los op zinsniveau. Klasse C scaffolding/bronextractie-gap. Fix gerechtvaardigd maar in BEIDE bestanden: voeg een 4e <...>-paar toe in input.sv 'text' EN output 'modernized' om de glos te wikkelen, zodat de tellingen 4=4 blijven kloppen. RED's voorgestelde wrapping is correct.",
+      "evidence": "KANTTEKENINGEN.md:8; MODERNISATIE.md §2.3 (geen lopende tekst van noot maken); MEMORY scaffolding-klasse C. Bronsnippet input.sv/HEB/HEB.10.json v5 text: '...Daerom Namelick, wanneer hy de menschelicke nature aennam, ende in eenen persoon met hem vereenighde, gelijck hier voor Cap. 1. vers 6. ende 9.11. komende in de werelt seght hy...' -> de glos staat ZONDER < >. Tellingen gemeten: source original <=3, output modernized <=3 (match) -> niets gedropt bij modernisatie. Grieks hoofdtekst: διὸ ... εἰσερχόμενος εἰς τὸν κόσμον λέγει = 'Daarom ... komende in de wereld zegt hij'; de glos op διό/'Daerom' hoort gewrapt. Grep-precedent: slechts 2 body-glos-lekken NT-breed (deze + ROM 1:12), dus uitzondering, geen norm."
+    }
+  ],
+  "verdicts": [
+    {
+      "point_id": "RG24-001",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. HEB 3:8 'Verhardt dan' laat de SV-imperatief-meervoud op -t onaangeroerd staan, terwijl exact hetzelfde Griekse verbod μὴ σκληρύνητε τὰς καρδίας ὑμῶν uit Ps. 95 in HEB 4:7 binnen hetzelfde boek wél naar de stam is geharmoniseerd (",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG24-002",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert (geherclassificeerd als scaffolding/bron-delimiter-reparatie: defect echt, maar bron mist <> al; fix input.sv + output). Concede op het leesbaarheidsdefect, maar met geherclassificeerd mechanisme: RED's premisse 'de modernisatie heeft de twee kanttekeningen NIET in <...> gezet' su",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG24-003",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert (geherclassificeerd als scaffolding/bron-delimiter-reparatie: defect echt, maar bron mist <> al; fix input.sv + output). Concede op het defect, met hetzelfde geherclassificeerde mechanisme als 002. RED stelt: 'De modernisatie heeft de kanttekening NIET in <...> gewikkeld.' Dat imp",
+      "scope": "verse",
+      "applied": true
+    }
+  ]
+}

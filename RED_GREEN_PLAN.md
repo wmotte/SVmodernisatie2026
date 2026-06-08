@@ -48,15 +48,15 @@ wordt:
 - [x] Ronde 21: `1TI + 2TI`
 - [x] Ronde 22: `COL + EPH`
 - [x] Ronde 23: `GAL + PHP`
-- [ ] Ronde 24: `HEB + TIT`
+- [x] Ronde 24: `HEB + TIT`
 
 Acceptatie voor Fase 1:
 
-- [ ] Alle 26 volledige boeken staan minstens 1x in `debate_count`.
-- [ ] `open_keys` is nog steeds `0`.
-- [ ] Alle `round_<N>.json`-bestanden hebben red, green en verdicts.
-- [ ] Alle toegepaste verdicts hebben `applied: true`.
-- [ ] `uv run python scripts/redgreen_minutes.py summary` toont geen anomalieën.
+- [x] Alle 26 volledige boeken staan minstens 1x in `debate_count`.
+- [x] `open_keys` is nog steeds `0`.
+- [x] Alle `round_<N>.json`-bestanden hebben red, green en verdicts.
+- [x] Alle toegepaste verdicts hebben `applied: true`.
+- [x] `uv run python scripts/redgreen_minutes.py summary` toont geen anomalieën.
 
 ## Fase 2 - Clusterdekking
 
@@ -237,7 +237,7 @@ Vul dit handmatig bij na elke afgeronde ronde.
 - [x] R21 `1TI+2TI` - status: afgerond; 3 red-punten, 3 red_wins toegepast, 0 rule_change; validate/lint PASS; HSV-diffs en memory bijgewerkt.
 - [x] R22 `COL+EPH` - status: afgerond; 6 red-punten, 4 red_wins (verse) + 2 rule_change (NT-breed) toegepast; validate/lint PASS; HSV-diffs + memory bijgewerkt. rule_change: μακροθυμία→lankmoedig(heid) (EPH4:2,COL3:12,1TH5:14,LUK18:7); Sendtbrief→Zendbrief colofon (1CO,1JN,1PE,2TH,COL,GAL,JUD,PHM,ROM).
 - [x] R23 `GAL+PHP` - status: afgerond; 3 red-punten, 2 red_wins (GAL 5:16 wandelt→wandel; PHP 2:18 verblijdt u zich→verblijd u) + 1 green_wins (PHP 4:4 'ter vergelijking' — red-premisse weerlegd, ook in ROM 11:7); validate/lint PASS; HSV+memory bijgewerkt.
-- [ ] R24 `HEB+TIT` - status:
+- [x] R24 `HEB+TIT` - status: afgerond; 3 red-punten, 3 red_wins toegepast (HEB 3:8 Verhardt→Verhard; HEB 10:5 + TIT-epiloog scaffolding-reparatie: ontbrekende <>-delimiters rond inline-glosse hersteld in input.sv én output, der Cretensen→van de Kretenzen); validate/lint PASS; HSV+memory bijgewerkt. FASE 1 COMPLEET: alle 26 boeken ≥1x, open_keys=0.
 - [ ] Cluster Johannes - status:
 - [ ] Cluster Paulus kort - status:
 - [ ] Cluster algemene brieven - status:
