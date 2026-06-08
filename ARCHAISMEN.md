@@ -125,6 +125,7 @@ trefzeker overbrengt.
 | SV1657-woord  | SV-betekenis                          | Modern (misleidende betekenis)    | Vertaalkeuze                   |
 |---------------|---------------------------------------|-----------------------------------|---------------------------------|
 | `vervolgens`  | in volgorde, op rij (Gr. καθεξῆς)     | daarna                            | "op volgorde", "achtereenvolgens" |
+| `deftig` / `deftigheid` | waardig, eerbaar, statig (Gr. σεμνός/σεμνότης) | chic, voornaam van stand | "waardig", "eerbaar" (red-green R29; TIT 2:7/2:2, PHP 4:8, 1TI 3:4) |
 | `gemeen`      | gewoon, alledaags, algemeen           | vulgair, gemeen                   | "gewoon", "algemeen"            |
 | `aenstonds`   | dadelijk, direct, onmiddellijk        | (zelden gebruikt; vaag)           | "dadelijk", "direct"            |
 | `bequaem`     | geschikt, passend                     | (`bekwaam` = vaardig, andere lading) | "geschikt", "passend"        |

@@ -612,3 +612,18 @@ Red bracht 2 punt(en). Verdicts: red_wins=1, green_wins=0, rule_change=1.
 - **[RG28-002] (modernisatie)** Zie $2Kor. 1:1; Fp. 1:1; Kol. 1:1; 1Th. 1:1; 2Th. 1:1$
   - regel: MODERNISATIE.md §2.5 / §2.6 (kanttekening-verwijzingen volgen dezelfde ref-normalisatie); refdata/afkortingen.csv (Kolossenzen -> Ko.); fix: Normaliseer in de kanttekening van v1: `$2Kor. 1:1; Fp. 1:1; Ko. 1:1; 1Th. 1:1; 2Th. 1:1$`. Idem de v2-kanttekening `$Kol. 4:17$` -> `$Ko. 4:17$`.
   - verdict: **rule_change** (scope=nt-wide, applied=True) — Green conceedde + bevestigde tool-gap: bibref.py las alleen kolom 0 (oude afk Col/Colos/Coloss); `Kol` (kolom 1, moderne afk) was nooit invoer-sleutel, dus `$Kol. H:V$` bleef ongenormaliseerd. Fix: OL
+
+## Ronde 29 — TIT + PHM  (2026-06-08T09:28:54.613916+00:00)
+Red bracht 4 punt(en). Verdicts: red_wins=2, green_wins=1, rule_change=1.
+- **[RG29-001] (modernisatie)** zowel in kleding als in hun gehele wandel
+  - regel: ARCHAISMEN.md:29 (zelfst. 'wandel' = levenswijze → levenswandel / leven / gedrag); MODERNISATIE.md §2.7 (verwarringstest); fix: zowel in kleding als in hun gehele levenswandel / hun gehele gedrag (en idem in TIT 2-intro: 'in levenswandel en in leer')
+  - verdict: **red_wins** (scope=nt-wide, applied=True) — Green concedeert. Het zelfst. 'wandel' (= levenswijze) staat AL gecodificeerd in DREMPEL_ARCHAISMEN (scripts/rules_data.py:371) en ARCHAISMEN.md:29; het overleefde enkel door de bekende note-strip-sca
+- **[RG29-002] (consistentie)** Allen die met mij zijn groeten u
+  - regel: MODERNISATIE.md §5.3 / §1 (cross-book concordantie); Grieks Ἀσπάζονται (Ἀσπάζομαι); fix: Harmoniseer beide naar één behandeling van Ἀσπάζονται (bv. beide SVO: 'Epafras ... groet u' / 'Allen die met mij zijn groeten u'), of bewaar in beide consistent de VOS-structuur.
+  - verdict: **green_wins** (scope=verse, applied=False) — Rebuttal haalt de gate ruim (≥2): (a) §-regel MODERNISATIE §3.1a (renovatie>hervertaling) + Griekse term Ἀσπάζονται; (b) vers-specifiek: PHM 1:23 heeft een meervoudig naamwoord-subject dat Ἀσπάζονται 
+- **[RG29-003] (modernisatie)** deftigheid, oprechtheid
+  - regel: MODERNISATIE.md §2.7 (false friend / verwarringstest); Grieks σεμνότης / σεμνός; fix: deftigheid → waardigheid (TIT 2:7); deftig → waardig/eerbaar (TIT 2:2-note), concordant met de elders al gebruikte renovatie 'waardig'.
+  - verdict: **rule_change** (scope=nt-wide, applied=True) — Green concedeert; §2.7-verwarringstest faalt ('deftig'/'deftigheid' σεμνός/σεμνότης leest in 2026 als 'chic/voornaam van stand', niet 'waardig/eerbaar'; HSV 'waardig'; de eigen TIT 2:2-note glosseert 
+- **[RG29-004] (modernisatie)** ondeugdelijk
+  - regel: MODERNISATIE.md §2.7 (false friend / verwarringstest); Grieks ἀδόκιμος; fix: ondeugdelijk → ongeschikt (eventueel 'verwerpelijk', concordant met de kanttekening).
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert; §2.7-false friend (ἀδόκιμος op personen toegepast; modern 'ondeugdelijk' kwalificeert producten/materiaal, niet mensen die 'ongeschikt/verwerpelijk' zijn; HSV 'ongeschikt'; eigen TIT

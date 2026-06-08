@@ -1,0 +1,163 @@
+{
+  "round_no": 29,
+  "books": [
+    "TIT",
+    "PHM"
+  ],
+  "red": [
+    {
+      "id": "RG29-001",
+      "class": "modernisatie",
+      "books": [
+        "TIT"
+      ],
+      "chapter": 2,
+      "verse": 3,
+      "quote": "zowel in kleding als in hun gehele wandel",
+      "in_kanttekening": true,
+      "rule_reference": "ARCHAISMEN.md:29 (zelfst. 'wandel' = levenswijze → levenswandel / leven / gedrag); MODERNISATIE.md §2.7 (verwarringstest)",
+      "explanation": "Het zelfstandig naamwoord 'wandel' (Gr. context = levenswijze/gedrag) is een drempel-archaïsme dat in modern Nederlands primáir als 'wandeling/stroll' gelezen wordt. ARCHAISMEN.md:29 stelt dit expliciet NT-breed vast (meta-review 1PE 2:12/3:1/3:2/3:16), met HSV consequent 'levenswandel'. Hier blijft het kale 'wandel' staan in de kanttekening. Zelfde defect in de TIT 2-introductie ('in wandel en in leer').",
+      "proposed_fix": "zowel in kleding als in hun gehele levenswandel / hun gehele gedrag (en idem in TIT 2-intro: 'in levenswandel en in leer')",
+      "severity": "hard"
+    },
+    {
+      "id": "RG29-002",
+      "class": "consistentie",
+      "books": [
+        "TIT",
+        "PHM"
+      ],
+      "chapter": 3,
+      "verse": 15,
+      "quote": "Allen die met mij zijn groeten u",
+      "in_kanttekening": false,
+      "rule_reference": "MODERNISATIE.md §5.3 / §1 (cross-book concordantie); Grieks Ἀσπάζονται (Ἀσπάζομαι)",
+      "explanation": "Het identieke groet-werkwoord Ἀσπάζονται in VOS-volgorde (verbum vooraan) wordt tegengesteld behandeld: TIT 3:15 herstructureert naar SVO ('Allen die met mij zijn groeten u'), terwijl PHM 1:23 de SV-VOS-volgorde bewaart ('U groeten Epafras...'). Twee korte Paulinische brieven, zelfde formule, twee tegengestelde renovatie-keuzes — de PHM-keuze is in een note verdedigd, maar de cross-book-inconsistentie blijft staan.",
+      "proposed_fix": "Harmoniseer beide naar één behandeling van Ἀσπάζονται (bv. beide SVO: 'Epafras ... groet u' / 'Allen die met mij zijn groeten u'), of bewaar in beide consistent de VOS-structuur.",
+      "severity": "soft"
+    },
+    {
+      "id": "RG29-003",
+      "class": "modernisatie",
+      "books": [
+        "TIT"
+      ],
+      "chapter": 2,
+      "verse": 7,
+      "quote": "deftigheid, oprechtheid",
+      "in_kanttekening": false,
+      "rule_reference": "MODERNISATIE.md §2.7 (false friend / verwarringstest); Grieks σεμνότης / σεμνός",
+      "explanation": "'deftigheid' (σεμνότης) en 'deftig' (σεμνός, TIT 2:2-note) lezen in modern Nederlands primáir als 'chic / upper-class / voornaam van stand', niet als de bedoelde 'waardigheid/eerbaarheid'. HSV vertaalt σεμνός/σεμνότης hier met 'waardig(heid)'. Een lezer haalt 'deftigheid in de leer' verkeerd op.",
+      "proposed_fix": "deftigheid → waardigheid (TIT 2:7); deftig → waardig/eerbaar (TIT 2:2-note), concordant met de elders al gebruikte renovatie 'waardig'.",
+      "severity": "soft"
+    },
+    {
+      "id": "RG29-004",
+      "class": "modernisatie",
+      "books": [
+        "TIT"
+      ],
+      "chapter": 1,
+      "verse": 16,
+      "quote": "ondeugdelijk",
+      "in_kanttekening": false,
+      "rule_reference": "MODERNISATIE.md §2.7 (false friend / verwarringstest); Grieks ἀδόκιμος",
+      "explanation": "ἀδόκιμος wordt hier op personen toegepast ('tot alle goed werk ondeugdelijk'). 'ondeugdelijk' leest modern als kwalificatie van een product/materiaal ('ondeugdelijke constructie'), niet van mensen die voor goed werk 'ongeschikt/verwerpelijk' zijn. HSV: 'ongeschikt'. De eigen kanttekening parafraseert het juist als 'verwerpelijk, afgekeurd'.",
+      "proposed_fix": "ondeugdelijk → ongeschikt (eventueel 'verwerpelijk', concordant met de kanttekening).",
+      "severity": "soft"
+    }
+  ],
+  "green": [
+    {
+      "point_id": "RG29-001",
+      "stance": "concede",
+      "rebuttal": "Toegegeven. Het zelfstandig 'wandel' (= levenswijze) staat als gecodificeerd NT-breed drempel-archaïsme in DREMPEL_ARCHAISMEN (scripts/rules_data.py:371) en ARCHAISMEN.md:29, met exacte-woord-match en HSV-concordant 'levenswandel'. De TIT 2:3-kanttekening laat het kale 'wandel' staan ('zowel in kleding als in hun gehele wandel') en idem de TIT 2-introductie ('in wandel en in leer'). Dat de validator '<...>'-notes strips verklaart de doorglip, maar maakt de vorm niet correct; binnen kanttekeningen gelden dezelfde regels (SKILL/§2.3-precedent). Geen rebuttal-gate haalbaar voor green.",
+      "evidence": "ARCHAISMEN.md:29 + rules_data.py:371 (DREMPEL_ARCHAISMEN 'wandel') + verwarringstest §2.7"
+    },
+    {
+      "point_id": "RG29-002",
+      "stance": "rebut",
+      "rebuttal": "De twee Ἀσπάζονται-renderingen zijn niet inconsistent maar verse-specifiek onderscheiden. (a) PHM 1:23 heeft een meervoudig naamwoord-onderwerp dat Ἀσπάζονται over twee verzen regeert (Epafras v23 + Marcus/Aristarchus/Demas/Lucas v24); de note verdedigt VOS-behoud expliciet omdat SVO de versgrens v23/v24 zou breken (renovatie boven hervertaling, MODERNISATIE §3.1a). (b) TIT 3:15 heeft daarentegen één zelfstandige clause met een bijzin-onderwerp ('Allen die met mij zijn'), volledig binnen één vers; daar is SVO de natuurlijke, niet-grensbrekende renovatie. Het onderscheid is dus structureel (subject-type + versgrens-effect), niet willekeurig — dezelfde Griekse vorm vergt hier verschillende, elk lokaal-gemotiveerde behandelingen.",
+      "evidence": "Ἀσπάζονται + MODERNISATIE §3.1a (renovatie>hervertaling) + verse-specifiek: PHM-note (verbum regeert v23+v24) vs. TIT 3:15 (één self-contained clause)"
+    },
+    {
+      "point_id": "RG29-003",
+      "stance": "concede",
+      "rebuttal": "Toegegeven. 'deftig'/'deftigheid' (σεμνός/σεμνότης) faalt de verwarringstest §2.7: het leest in 2026 primair als 'chic/voornaam van stand', niet als de bedoelde 'waardigheid/eerbaarheid'. Beslissend is dat de eigen SV-kanttekening op TIT 2:2 σεμνούς zelf glosseert als '<Of, statig, deftig, eerbaar.>' — de bron koppelt 'deftig' dus aan 'eerbaar', precies de betekenis die de moderne lezer mist. HSV: 'waardig'. Concordant met de al elders gebruikte renovatie 'waardig'. Fix: deftigheid → waardigheid (TIT 2:7); deftig → waardig/eerbaar (TIT 2:2-note).",
+      "evidence": "σεμνότης/σεμνός + §2.7 verwarringstest + verse-specifiek (TIT 2:2-note glosseert 'deftig' = 'eerbaar')"
+    },
+    {
+      "point_id": "RG29-004",
+      "stance": "concede",
+      "rebuttal": "Toegegeven. ἀδόκιμος wordt hier op personen toegepast ('tot alle goed werk ondeugdelijk'); modern 'ondeugdelijk' kwalificeert producten/materiaal ('ondeugdelijke constructie'), niet mensen die 'ongeschikt/verwerpelijk' zijn — false friend §2.7. De eigen kanttekening van TIT 1:16 parafraseert ἀδόκιμος bovendien als '<Grieks: verwerpelijk, of, afgekeurd ...>', wat het hoofdtekstwoord ondergraaft. HSV: 'ongeschikt'. Fix: ondeugdelijk → ongeschikt (of 'verwerpelijk', concordant met de kanttekening).",
+      "evidence": "ἀδόκιμος + §2.7 verwarringstest + verse-specifiek (TIT 1:16-note glosseert als 'verwerpelijk/afgekeurd')"
+    }
+  ],
+  "verdicts": [
+    {
+      "point_id": "RG29-001",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. Het zelfst. 'wandel' (= levenswijze) staat AL gecodificeerd in DREMPEL_ARCHAISMEN (scripts/rules_data.py:371) en ARCHAISMEN.md:29; het overleefde enkel door de bekende note-strip-scannergap (validator stript <...>-kanttekeningen vóór de drempel-check). Dit is dus GEEN rule_change (geen nieuwe data-entry nodig) maar een sweep van bestaande-regel-treffers binnen kanttekeningen. Concede + reeds in regellijst = red_wins, nt-wide. Sweep: kanttekening 'wandel' in TIT 2:3 + TIT 2-introductie, plus NT-breed alle modernized-notes met kaal 'wandel'.",
+      "scope": "nt-wide",
+      "applied": true
+    },
+    {
+      "point_id": "RG29-002",
+      "verdict": "green_wins",
+      "rationale": "Rebuttal haalt de gate ruim (≥2): (a) §-regel MODERNISATIE §3.1a (renovatie>hervertaling) + Griekse term Ἀσπάζονται; (b) vers-specifiek: PHM 1:23 heeft een meervoudig naamwoord-subject dat Ἀσπάζονται over de versgrens v23/v24 regeert, SVO zou die grens breken → VOS-behoud lokaal gemotiveerd; (c) onderscheidend: TIT 3:15 is één self-contained clause met bijzin-subject binnen één vers, SVO is daar de niet-grensbrekende renovatie. Het verschil is structureel (subject-type + versgrens-effect), niet willekeurige drift. Geen NT-brede inconsistentie.",
+      "scope": "verse",
+      "applied": false
+    },
+    {
+      "point_id": "RG29-003",
+      "verdict": "rule_change",
+      "rationale": "Green concedeert; §2.7-verwarringstest faalt ('deftig'/'deftigheid' σεμνός/σεμνότης leest in 2026 als 'chic/voornaam van stand', niet 'waardig/eerbaar'; HSV 'waardig'; de eigen TIT 2:2-note glosseert 'deftig' = 'eerbaar'). Recurreert NT-breed: deftig(heid) komt voor in TIT 2, PHP 4, 1TI 3 (≥3 boeken). Niet aanwezig in FALSE_FRIENDS/DREMPEL_ARCHAISMEN. Vergt een NIEUWE data-entry. EDIT: voeg aan FALSE_FRIENDS (scripts/rules_data.py:197) toe: {pattern: r\"\\b(deftig|deftige|deftigheid)\\b\", sv: \"waardig, eerbaar (Gr. σεμνός/σεμνότης)\", modern: \"chic, voornaam van stand\", advies: \"'waardig', 'eerbaar'\"}; houd ARCHAISMEN.md-tabel synchroon. NB: huidige treffers in PHP/1TI staan binnen <...>-glosse-alternatieven ('Of, deftig, statig'); na de regel-delta de NT-brede sweep ook over notes draaien.",
+      "scope": "nt-wide",
+      "applied": true
+    },
+    {
+      "point_id": "RG29-004",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert; §2.7-false friend (ἀδόκιμος op personen toegepast; modern 'ondeugdelijk' kwalificeert producten/materiaal, niet mensen die 'ongeschikt/verwerpelijk' zijn; HSV 'ongeschikt'; eigen TIT 1:16-note glosseert 'verwerpelijk/afgekeurd'). 'ondeugdelijk' komt enkel voor in TIT 1 (one-off, geen NT-brede recurrentie) en staat niet in een regellijst. One-off concede zonder structureel patroon = red_wins, scope verse. Fix: ondeugdelijk → ongeschikt (TIT 1:16).",
+      "scope": "verse",
+      "applied": true
+    }
+  ],
+  "sweep_log": {
+    "wandel_noun_to_levenswandel_18": [
+      "1CO 4:17n",
+      "1CO 5:8n",
+      "1CO 7:16n",
+      "1CO 8:11n",
+      "1PE 1-intro",
+      "1PE 2-intro",
+      "2CO 1:13n",
+      "2CO 7-intro",
+      "2JN 1:8n",
+      "GAL 6:4n",
+      "GAL 6:16n",
+      "HEB 13:5",
+      "HEB 13:7",
+      "JAS 5-intro",
+      "PHP 3:16n",
+      "PHP 3:17",
+      "TIT 2-intro",
+      "TIT 2:3n"
+    ],
+    "wandel_idiom_kept_handel_en_wandel": [
+      "2CO 10:3",
+      "2CO 12:18",
+      "ROM 6:19"
+    ],
+    "wandel_verb_kept": "14 imperatief/1sg-vormen (HAND 3:6, JHN 5:8/11/12, LUK 5:23, MAT 9:5, MRK 2:9, KOL 2:6, EFE 5:2/8, GAL 5:16, JHN 12:35, 1PE 1:14/1:17, PHP 1:27, PHP 3:17n 'ik wandel')",
+    "deftig_to_waardig_4": [
+      "TIT 2:7",
+      "TIT 2:2n",
+      "PHP 4:8n",
+      "1TI 3:4n"
+    ],
+    "ondeugdelijk_to_ongeschikt_1": [
+      "TIT 1:16"
+    ]
+  }
+}

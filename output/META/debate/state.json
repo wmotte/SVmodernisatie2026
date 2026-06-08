@@ -1,5 +1,5 @@
 {
-  "rounds_done": 28,
+  "rounds_done": 29,
   "pairs": [
     [
       "REV",
@@ -113,6 +113,10 @@
     [
       "PHP",
       "PHM"
+    ],
+    [
+      "TIT",
+      "PHM"
     ]
   ],
   "debate_count": {
@@ -127,7 +131,7 @@
     "ACT": 1,
     "2JN": 3,
     "3JN": 2,
-    "PHM": 2,
+    "PHM": 3,
     "JUD": 1,
     "1JN": 3,
     "2PE": 1,
@@ -142,7 +146,7 @@
     "GAL": 1,
     "PHP": 2,
     "HEB": 1,
-    "TIT": 1
+    "TIT": 2
   },
   "closed_keys": [
     "consistentie|1JN,2PE|geliefde gelooft niet beproeft de geesten|modernisatie.md §2.3; concordantie grieks `ἀγαπητοί`",
@@ -162,6 +166,7 @@
     "consistentie|LUK,MRK|maar dadelijk is nog niet het einde|agents.md concordantie (εὐθύς/εὐθέως cross-book); durende richtlijn red-green",
     "consistentie|MAT,REV|en alle de engelen stonden rondom de troon|modernisatie.md §2.7 (fossiele sv-constructie); cross-book concordantie (πάντες οἱ → 'alle de')",
     "consistentie|PHM,PHP|archippus onze namelijk in die krijg waarvan de|modernisatie.md §2.5 (bijbelverwijzingen genormaliseerd); bijbelverwijzingen.md; refdata/afkortingen.csv (kolossenzen -> ko.)",
+    "consistentie|PHM,TIT|allen die met mij zijn groeten u|modernisatie.md §5.3 / §1 (cross-book concordantie); grieks ἀσπάζονται (ἀσπάζομαι)",
     "consistentie|PHP|verblijdt u zich ook en verblijdt u zich|archaismen.md:80 (imperatief-meervoud -t → stam) + congruentiefout; concordantie met χαίρετε elders in php (3:1, 4:4)",
     "consistentie|PHP|zie rm 12 12 2kor 13 11 fp|agents.md §1 'renovatie, geen hervertaling' en §2 'geen vrije parafrase'; concordantie van de sv-kanttekeningformule 'siet x' → 'zie x'",
     "consistentie|REV|en johannes insgelijks om dit voor de gemeente|modernisatie.md §2.7 / kanttekening-luiheid: gesplitste fossiele constructie 'van ... wege' half blijven staan als 'christus wege' (= namens christus).",
@@ -319,8 +324,11 @@
     "modernisatie|ROM|nam om ons vandaar te halen de wil|kanttekeningen.md §standaard-vertalingen voor afkortingen; agents.md kanttekening-conventies",
     "modernisatie|ROM|oordeelt dit liever|archaismen.md:78 imperatief-meervoud sv-`-t` -> stam",
     "modernisatie|ROM|weest vrolijk u heidenen met zijn volk|archaismen.md:78 imperatief-meervoud sv-`-t` -> stam",
-    "modernisatie|TIT|de zendbrief aan titus de eerste verkoren grieks|kanttekeningen.md:8 ('<…> blokken bewaren — nooit verwijderen, nooit samenvoegen'); agents.md §1 'renovatie, geen hervertaling' / leesbaar modern nederlands"
+    "modernisatie|TIT|de zendbrief aan titus de eerste verkoren grieks|kanttekeningen.md:8 ('<…> blokken bewaren — nooit verwijderen, nooit samenvoegen'); agents.md §1 'renovatie, geen hervertaling' / leesbaar modern nederlands",
+    "modernisatie|TIT|deftigheid oprechtheid|modernisatie.md §2.7 (false friend / verwarringstest); grieks σεμνότης / σεμνός",
+    "modernisatie|TIT|ondeugdelijk|modernisatie.md §2.7 (false friend / verwarringstest); grieks ἀδόκιμος",
+    "modernisatie|TIT|zowel in kleding als in hun gehele wandel|archaismen.md:29 (zelfst. 'wandel' = levenswijze → levenswandel / leven / gedrag); modernisatie.md §2.7 (verwarringstest)"
   ],
   "open_keys": [],
-  "updated_at": "2026-06-08T08:53:42.406137+00:00"
+  "updated_at": "2026-06-08T09:28:54.613531+00:00"
 }

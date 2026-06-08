@@ -202,6 +202,16 @@ FALSE_FRIENDS: list[dict] = [
         "advies": "'op volgorde', 'achtereenvolgens'",
     },
     {
+        # Red-green ronde 29 RG29-003 (TIT 2:7 'deftigheid', Gr. σεμνότης;
+        # TIT 2:2 / PHP 4:8 / 1TI 3:4 noten 'deftig', Gr. σεμνός). SV =
+        # waardig/eerbaar/statig; modern 'deftig' = chic/voornaam-van-stand.
+        # Eigen kanttekeningen glosseren al 'eerbaar'/'statig'. NT-breed.
+        "pattern": r"\b(deftig|deftige|deftigheid)\b",
+        "sv": "waardig, eerbaar, statig (Gr. σεμνός/σεμνότης)",
+        "modern": "chic, voornaam van stand",
+        "advies": "'waardig', 'eerbaar'",
+    },
+    {
         "pattern": r"\b(gemeen|gemene)\b",
         "sv": "gewoon, alledaags, algemeen",
         "modern": "vulgair, slecht",
