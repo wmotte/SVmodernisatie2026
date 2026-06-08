@@ -355,6 +355,11 @@ DREMPEL_ARCHAISMEN: frozenset[str] = frozenset({
     "wederlegd", "wederleggende", "wederlegging",
     "voorwaar",
     "zekerlijk", "geenszins",
+    # Red-green ronde 30 RG30-008 (1PE 2:9/3:6 kanttek., precedent ROM 15:14
+    # red_wins + closed REV-key). Archaïsch bijwoord 'in werkelijkheid/
+    # daadwerkelijk'; §2.7 faalt productiviteitstest, exacte-woord-match, geen
+    # modern-productieve nevenbetekenis.
+    "metterdaad",
     "ootmoed", "ootmoedig", "ootmoediglijk",
     "lankmoedig", "lankmoedigheid",
     "barmhartiglijk", "rechtvaardiglijk",
@@ -444,6 +449,12 @@ IMPERATIVE_T_STEMS: frozenset[str] = frozenset({
     # (zie MEMORY 'Adversarial-scanner mist imperatief-t'); per-vers via
     # semantic-review + grep i.p.v. scanner-lijst.
     "ontvang",
+    # Red-green ronde 30 RG30-003 (1PE 5:9 'Weerstaat hem', bronvorm ἀντίστητε
+    # aor. imp. 2pl van ἀνθίστημι). NT-brede grep: 3ev-indicatief 'weerstaat'
+    # (JAS 4:7 'weerstaat de hoogmoedigen', 'weerstaat u niet') faalt de
+    # object-gate (geen pronomen-object); enige imperatief-treffer met
+    # pronomen-object was 1PE 5:9 (gefixt). Geen false positives.
+    "weersta",
 })
 IMPERATIVE_OBJECT_TOKENS: frozenset[str] = frozenset({
     "uzelf", "zich", "zichzelf", "hen", "hem", "haar", "ons", "elkaar",

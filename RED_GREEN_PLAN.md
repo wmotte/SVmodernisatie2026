@@ -76,12 +76,12 @@ Paulus korte brieven:
 - [ ] `PHP + PHM`
 - [x] `1TH + 2TH` — gedekt door R20
 - [x] `1TI + 2TI` — gedekt door R21
-- [ ] `TIT + PHM`
+- [x] `TIT + PHM` — R29 (2 red_wins + 1 rule_change deftig + 1 green_wins)
 
 Algemene brieven:
 
 - [x] `JAS + 1PE` — gedekt door R19
-- [ ] `1PE + 2PE`
+- [x] `1PE + 2PE` — R30 (7 red_wins + 2 rule_change: weersta→IMPERATIVE_T_STEMS, metterdaad→DREMPEL)
 - [ ] `JUD + 2PE`
 - [ ] `HEB + JAS`
 

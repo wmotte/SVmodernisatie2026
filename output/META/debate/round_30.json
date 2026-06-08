@@ -1,0 +1,306 @@
+{
+  "round_no": 30,
+  "books": [
+    "1PE",
+    "2PE"
+  ],
+  "red": [
+    {
+      "id": "RG30-001",
+      "class": "modernisatie",
+      "books": [
+        "1PE"
+      ],
+      "chapter": 5,
+      "verse": 5,
+      "quote": "weest de ouderen onderdanig",
+      "in_kanttekening": false,
+      "rule_reference": "ARCHAISMEN.md:81 imperatief-mv -t",
+      "explanation": "SV imperatief-meervoud op `-t` (`weest` 3x in dit vers: 'weest de ouderen onderdanig', 'weest allen elkander onderdanig', 'weest met de ootmoedigheid bekleed') is NT-breed genormaliseerd naar de stam → `wees`. Bovendien intra-hoofdstuk inconsistent: v6 `Verneder u`, v7 `Werp`, v8a `Wees nuchter` zijn al stam, maar v2/v5/v8b/v9 bleven `-t`. De scanner mist deze (MEMORY 'Adversarial-scanner mist imperatief-t').",
+      "proposed_fix": "`weest` → `wees` (3x): 'wees de ouderen onderdanig', 'wees allen elkander onderdanig', 'wees met de ootmoedigheid bekleed'.",
+      "severity": "hard"
+    },
+    {
+      "id": "RG30-002",
+      "class": "modernisatie",
+      "books": [
+        "1PE"
+      ],
+      "chapter": 5,
+      "verse": 2,
+      "quote": "Weidt de kudde van God die onder u is, en houdt toezicht",
+      "in_kanttekening": false,
+      "rule_reference": "ARCHAISMEN.md:81 imperatief-mv -t",
+      "explanation": "Twee imperatief-meervoud `-t`-vormen aan zinsbegin/nevenschikking: `Weidt` en `houdt toezicht`. ARCHAISMEN.md:81 imperatief-meervoud `-t` → stam; precedent rg22-001/rg23-001/rg24-001 (alle red_wins). Concordant met de wél-gemoderniseerde imperatieven in v6/v7 van ditzelfde hoofdstuk.",
+      "proposed_fix": "`Weidt` → `Weid`; `houdt toezicht` → `houd toezicht`.",
+      "severity": "hard"
+    },
+    {
+      "id": "RG30-003",
+      "class": "modernisatie",
+      "books": [
+        "1PE"
+      ],
+      "chapter": 5,
+      "verse": 9,
+      "quote": "Weerstaat hem, vast in het geloof",
+      "in_kanttekening": false,
+      "rule_reference": "ARCHAISMEN.md:81 imperatief-mv -t",
+      "explanation": "Imperatief-meervoud `-t` aan zinsbegin: `Weerstaat`. NT-brede norm → stam. Dezelfde gebiedende-wijs-keten als v2/v5/v8; inconsistent met v6 `Verneder`, v7 `Werp`, v8 `Wees`.",
+      "proposed_fix": "`Weerstaat hem` → `Weersta hem`.",
+      "severity": "hard"
+    },
+    {
+      "id": "RG30-004",
+      "class": "modernisatie",
+      "books": [
+        "1PE"
+      ],
+      "chapter": 5,
+      "verse": 8,
+      "quote": "Wees nuchter, [en] waakt",
+      "in_kanttekening": false,
+      "rule_reference": "ARCHAISMEN.md:81 imperatief-mv -t",
+      "explanation": "Binnen één vers staat de gemoderniseerde stam `Wees` direct naast de niet-gemoderniseerde `-t`-imperatief `waakt`. Vergelijk 1PE 4:7, waar exact dezelfde formule nu wél consequent als `Wees dan nuchter, en waak` is uitgevoerd. Imperatief-meervoud `-t` → stam (ARCHAISMEN.md:81).",
+      "proposed_fix": "`waakt` → `waak`: 'Wees nuchter, [en] waak'.",
+      "severity": "hard"
+    },
+    {
+      "id": "RG30-005",
+      "class": "modernisatie",
+      "books": [
+        "1PE"
+      ],
+      "chapter": 5,
+      "verse": 14,
+      "quote": "Vrede zij u allen die in Christus Jezus zijt",
+      "in_kanttekening": false,
+      "rule_reference": "MODERNISATIE §2.7 drempel-archaïsme",
+      "explanation": "Archaïsche 2e-persoon-meervoud copula `zijt` (= SV `zijt`) is in modern Nederlands `bent`. Drempel-archaïsme §2.7: niemand schrijft nog `die ... zijt`. Vergelijk `ghy/gy/gij → u` en de hele paradigma-modernisering elders.",
+      "proposed_fix": "`die in Christus Jezus zijt` → `die in Christus Jezus bent`.",
+      "severity": "hard"
+    },
+    {
+      "id": "RG30-006",
+      "class": "modernisatie",
+      "books": [
+        "1PE"
+      ],
+      "chapter": 5,
+      "verse": 3,
+      "quote": "voorbeelden voor de kudde geworden zijt",
+      "in_kanttekening": false,
+      "rule_reference": "MODERNISATIE §2.7 drempel-archaïsme",
+      "explanation": "Archaïsche copula `zijt` in het perfectum `geworden zijt`; modern is `bent geworden`. Zelfde drempel-archaïsme §2.7 als 5:14; binnen één hoofdstuk twee onbehandelde `zijt`-vormen.",
+      "proposed_fix": "`voorbeelden voor de kudde geworden zijt` → `voorbeelden voor de kudde bent geworden`.",
+      "severity": "hard"
+    },
+    {
+      "id": "RG30-007",
+      "class": "modernisatie",
+      "books": [
+        "1PE"
+      ],
+      "chapter": 4,
+      "verse": 12,
+      "quote": "Grieks: en zijt geen vreemdelingen",
+      "in_kanttekening": true,
+      "rule_reference": "MODERNISATIE §2.7 drempel-archaïsme",
+      "explanation": "In de kanttekening (Grieks-glosse) staat de archaïsche imperatief/copula `zijt`. Hier is het de weergave van `μὴ ξενίζεσθε` ('verwonder u niet') als imperatief → moderne gebiedende wijs `wees` (of, gezien de glosse-zin, herformuleren). `zijt` faalt §2.7 ook in kanttekeningen (tellen volwaardig mee).",
+      "proposed_fix": "`zijt geen vreemdelingen` → `wees geen vreemdelingen` (imperatief, congruent met de uitleg 'laat het u niet vreemd voorkomen').",
+      "severity": "hard"
+    },
+    {
+      "id": "RG30-008",
+      "class": "modernisatie",
+      "books": [
+        "1PE"
+      ],
+      "chapter": 2,
+      "verse": 9,
+      "quote": "u komen al deze voorrechten en eretitels metterdaad toe",
+      "in_kanttekening": true,
+      "rule_reference": "MODERNISATIE §2.7 drempel-archaïsme",
+      "explanation": "`metterdaad` in de kanttekening is een drempel-archaïsme (§2.7): faalt de productiviteitstest, modern NL zegt `werkelijk`/`daadwerkelijk`/`in werkelijkheid`. Precedent: ROM 15:14 `zulks metterdaad betoont` red_wins (RG14-009, green concedeerde) + closed REV-key 'op hetgeen zij metterdaad deden'. Komt ook in 1PE 3:6 voor ('waarvan u metterdaad bewezen hebt te zijn geworden').",
+      "proposed_fix": "`metterdaad` → `daadwerkelijk` / `werkelijk` (beide kanttekeningen 1PE 2:9 en 1PE 3:6).",
+      "severity": "hard"
+    },
+    {
+      "id": "RG30-009",
+      "class": "modernisatie",
+      "books": [
+        "2PE"
+      ],
+      "chapter": 3,
+      "verse": 2,
+      "quote": "onze leer, die wij u geleerd hebben",
+      "in_kanttekening": true,
+      "rule_reference": "ARCHAISMEN.md false-friends (didactisch leren)",
+      "explanation": "Transitief-didactisch `leren` (de Apostelen die de lezers onderricht geven, διδάσκω-veld) is een false friend: moderne dominante lading van `leren` = zelf opnemen/studeren. ARCHAISMEN.md false friends `leren`/`leerde` → `onderwijzen`/`onderwees`; precedent 2JN 1:9 'om u te leren en te onderwijzen' (closed, didactisch leren afgekeurd). Kanttekening telt volwaardig mee.",
+      "proposed_fix": "`die wij u geleerd hebben` → `die wij u onderwezen hebben`.",
+      "severity": "hard"
+    }
+  ],
+  "green": [
+    {
+      "point_id": "RG30-001",
+      "stance": "concede",
+      "rebuttal": "Quote bevestigd in v5. Grieks ὑποτάγητε (aor.imp.2pl) en ἐγκομβώσασθε (aor.imp.2pl) = echte gebiedende wijs meervoud; de derde 'weest' rendert ἀλλήλοις ὑποτασσόμενοι (participium) ook als imperatief. ARCHAISMEN.md:81 imperatief-meervoud -t → stam. Intra-hoofdstuk v6 'Verneder', v7 'Werp', v8a 'Wees' al stam → inconsistent. Drie keer 'weest' → 'wees'. Red terecht.",
+      "evidence": "Quote bevestigd in v5. Grieks ὑποτάγητε (aor.imp.2pl) en ἐγκομβώσασθε (aor.imp.2pl) = echte gebiedende wijs meervoud; de derde 'weest' rendert ἀλλήλοις ὑποτασσόμενοι (participium) ook als imperatief. ARCHAISMEN.md:81 imperatief-meervoud -t → stam. Intra-hoofdstuk v6 'Verneder', v7 'Werp', v8a 'Wees' al stam → inconsistent. Drie keer 'weest' → 'wees'. Red terecht."
+    },
+    {
+      "point_id": "RG30-002",
+      "stance": "concede",
+      "rebuttal": "Quote bevestigd in v2. Grieks ποιμάνατε (aor.imp.2pl) → 'Weid'; ἐπισκοποῦντες (participium) gerenderd als imperatief 'houdt toezicht' → 'houd toezicht'. ARCHAISMEN.md:81 imperatief-meervoud -t → stam; concordant met gemoderniseerde imperatieven v6/v7. Red terecht.",
+      "evidence": "Quote bevestigd in v2. Grieks ποιμάνατε (aor.imp.2pl) → 'Weid'; ἐπισκοποῦντες (participium) gerenderd als imperatief 'houdt toezicht' → 'houd toezicht'. ARCHAISMEN.md:81 imperatief-meervoud -t → stam; concordant met gemoderniseerde imperatieven v6/v7. Red terecht."
+    },
+    {
+      "point_id": "RG30-003",
+      "stance": "concede",
+      "rebuttal": "Quote bevestigd in v9. Grieks ἀντίστητε (aor.imp.2pl) = echte gebiedende wijs → stam 'Weersta'. ARCHAISMEN.md:81; zelfde imperatiefketen als v6/v7/v8, inconsistent gelaten. Red terecht.",
+      "evidence": "Quote bevestigd in v9. Grieks ἀντίστητε (aor.imp.2pl) = echte gebiedende wijs → stam 'Weersta'. ARCHAISMEN.md:81; zelfde imperatiefketen als v6/v7/v8, inconsistent gelaten. Red terecht."
+    },
+    {
+      "point_id": "RG30-004",
+      "stance": "concede",
+      "rebuttal": "Quote bevestigd in v8. Grieks νήψατε, γρηγορήσατε (beide aor.imp.2pl); 'Wees' (νήψατε) al stam, 'waakt' (γρηγορήσατε) niet → splits-inconsistentie binnen één vers. Precedent 4:7 zelfde formule consequent 'Wees dan nuchter, en waak'. ARCHAISMEN.md:81. 'waakt' → 'waak'. Red terecht.",
+      "evidence": "Quote bevestigd in v8. Grieks νήψατε, γρηγορήσατε (beide aor.imp.2pl); 'Wees' (νήψατε) al stam, 'waakt' (γρηγορήσατε) niet → splits-inconsistentie binnen één vers. Precedent 4:7 zelfde formule consequent 'Wees dan nuchter, en waak'. ARCHAISMEN.md:81. 'waakt' → 'waak'. Red terecht."
+    },
+    {
+      "point_id": "RG30-005",
+      "stance": "concede",
+      "rebuttal": "Quote bevestigd in v14. Grieks τοῖς ἐν Χριστῷ Ἰησοῦ heeft geen werkwoord; 'zijt' is toegevoegde copula in relatiefzin 'die ... zijt'. Hier echt copula (geen imperatief), dus red's 'bent' is grammaticaal correct. Drempel-archaïsme §2.7: 2e-pers-mv copula 'zijt' faalt productiviteitstest, modern = 'bent'. Red terecht.",
+      "evidence": "Quote bevestigd in v14. Grieks τοῖς ἐν Χριστῷ Ἰησοῦ heeft geen werkwoord; 'zijt' is toegevoegde copula in relatiefzin 'die ... zijt'. Hier echt copula (geen imperatief), dus red's 'bent' is grammaticaal correct. Drempel-archaïsme §2.7: 2e-pers-mv copula 'zijt' faalt productiviteitstest, modern = 'bent'. Red terecht."
+    },
+    {
+      "point_id": "RG30-006",
+      "stance": "concede",
+      "rebuttal": "Quote bevestigd in v3. Grieks τύποι γινόμενοι (participium); reeds gecorrigeerd naar finiete mv-vorm (zie note in vers), maar copula 'zijt' bleef archaïsch. Perfectum 'geworden zijt' → modern 'bent geworden'. §2.7 drempel-archaïsme, identiek aan 5:14. Red's 'bent geworden' grammaticaal correct. Red terecht.",
+      "evidence": "Quote bevestigd in v3. Grieks τύποι γινόμενοι (participium); reeds gecorrigeerd naar finiete mv-vorm (zie note in vers), maar copula 'zijt' bleef archaïsch. Perfectum 'geworden zijt' → modern 'bent geworden'. §2.7 drempel-archaïsme, identiek aan 5:14. Red's 'bent geworden' grammaticaal correct. Red terecht."
+    },
+    {
+      "point_id": "RG30-007",
+      "stance": "concede",
+      "rebuttal": "Quote bevestigd in kanttekening v4:12. Grieks μὴ ξενίζεσθε = praesens imperatief mediopassief 2pl ('verwondert u niet'), dus hier is 'zijt' imperatief, niet copula. Red's voorgestelde 'wees geen vreemdelingen' is grammaticaal correct (gebiedende wijs, stam). §2.7 + ARCHAISMEN.md:81; kanttekening telt volwaardig mee (SKILL Stap 3). Red terecht.",
+      "evidence": "Quote bevestigd in kanttekening v4:12. Grieks μὴ ξενίζεσθε = praesens imperatief mediopassief 2pl ('verwondert u niet'), dus hier is 'zijt' imperatief, niet copula. Red's voorgestelde 'wees geen vreemdelingen' is grammaticaal correct (gebiedende wijs, stam). §2.7 + ARCHAISMEN.md:81; kanttekening telt volwaardig mee (SKILL Stap 3). Red terecht."
+    },
+    {
+      "point_id": "RG30-008",
+      "stance": "concede",
+      "rebuttal": "Quote bevestigd in kanttekening 2:9. 'metterdaad' faalt §2.7-productiviteitstest, modern NL 'werkelijk/daadwerkelijk/in werkelijkheid'. Precedent ROM 15:14 RG14-009 red_wins (green concedeerde) + closed REV-key. Komt ook in 1PE 3:6 voor ('waarvan u metterdaad bewezen hebt te zijn geworden') → beide kanttekeningen. Red terecht.",
+      "evidence": "Quote bevestigd in kanttekening 2:9. 'metterdaad' faalt §2.7-productiviteitstest, modern NL 'werkelijk/daadwerkelijk/in werkelijkheid'. Precedent ROM 15:14 RG14-009 red_wins (green concedeerde) + closed REV-key. Komt ook in 1PE 3:6 voor ('waarvan u metterdaad bewezen hebt te zijn geworden') → beide kanttekeningen. Red terecht."
+    },
+    {
+      "point_id": "RG30-009",
+      "stance": "concede",
+      "rebuttal": "Quote bevestigd in kanttekening 2PE 3:2. Glosse weergeeft τῆς τῶν ἀποστόλων ... ἐντολῆς (apostolisch onderricht); transitief-didactisch 'leren' (Apostelen die de lezers onderrichten, διδάσκω-veld) = false friend per ARCHAISMEN.md:146 → 'onderwijzen/onderwees'. Precedent 2JN 1:9 (closed, didactisch leren afgekeurd). Kanttekening telt mee. 'geleerd' → 'onderwezen'. Red terecht.",
+      "evidence": "Quote bevestigd in kanttekening 2PE 3:2. Glosse weergeeft τῆς τῶν ἀποστόλων ... ἐντολῆς (apostolisch onderricht); transitief-didactisch 'leren' (Apostelen die de lezers onderrichten, διδάσκω-veld) = false friend per ARCHAISMEN.md:146 → 'onderwijzen/onderwees'. Precedent 2JN 1:9 (closed, didactisch leren afgekeurd). Kanttekening telt mee. 'geleerd' → 'onderwezen'. Red terecht."
+    }
+  ],
+  "verdicts": [
+    {
+      "point_id": "RG30-001",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert; rebuttal bevestigt red. Drie 'weest' renderen ὑποτάγητε/ἐγκομβώσασθε (aor.imp.2pl) + participium-als-imperatief → stam 'wees' (ARCHAISMEN.md:81). Intra-hoofdstuk inconsistent met v6/v7/v8a. GEEN rule_change: het object na 'weest' is steeds een niet-pronomen ('de ouderen', 'allen', 'met') → faalt de object-gate van scan_archaic_imperative_t; een stem-add ('wees') geeft hier geen scanner-winst. Per-vers.",
+      "scope": "verse",
+      "applied": true,
+      "rule_delta": null
+    },
+    {
+      "point_id": "RG30-002",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. ποιμάνατε (aor.imp.2pl) → 'Weid'; ἐπισκοποῦντες-als-imperatief 'houdt toezicht' → 'houd toezicht' (ARCHAISMEN.md:81). GEEN rule_change: 'houd' staat al in IMPERATIVE_T_STEMS maar object is 'toezicht' (niet-pronomen) → object-gate faalt; 'Weidt' wordt gevolgd door 'de kudde' → ook geen object-token. Een 'weid'-stem-add zou de scanner hier niet laten vuren. Per-vers.",
+      "scope": "verse",
+      "applied": true,
+      "rule_delta": null
+    },
+    {
+      "point_id": "RG30-003",
+      "verdict": "rule_change",
+      "rationale": "Green concedeert. ἀντίστητε (aor.imp.2pl) → stam 'Weersta'. STRUCTUREEL: 'Weerstaat hem' past exact de scanner-gate (anker zinsbegin + pronomen-object 'hem' ∈ IMPERATIVE_OBJECT_TOKENS), maar de stam 'weersta' ontbreekt in IMPERATIVE_T_STEMS, dus de scanner mist hem NT-breed. Collisie-check uitgevoerd: 3sg-indicatief 'weerstaat de hoogmoedigen' (JAS 4:7), 'weerstaat altijd', 'weerstaat u niet' falen allemaal de object-gate (niet-pronomen / 'u' bewust uitgesloten); NT-brede grep op 'weerstaat'+pronomen-object levert uitsluitend 'Weerstaat hem' (echte imperatief). Nul false positives → veilig + effectief. Add 'weersta'.",
+      "scope": "nt-wide",
+      "applied": true,
+      "rule_delta": {
+        "file": "scripts/rules_data.py",
+        "list": "IMPERATIVE_T_STEMS",
+        "entry": "\"weersta\"",
+        "collision_check": "3sg-presens 'weerstaat' komt voor (bv. JAS 4:7 'weerstaat de hoogmoedigen', 'weerstaat altijd de Heilige Geest', 'weerstaat u niet') maar valt buiten de object-gate (object = niet-pronomen, of 'u' is uitgesloten). NT-brede grep 'weerstaat (uzelf|zich|hen|hem|haar|ons|elkaar|mij|me|anderen|hun)' geeft enkel 'Weerstaat hem' (1PE 5:9-type, echte imperatief). Nul collisies. ARCHAISMEN.md:81-tabel synchroon bijwerken (voorbeeldwoord + vindplaats 1Pt. 5:9; Jk. 4:7)."
+      }
+    },
+    {
+      "point_id": "RG30-004",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. νήψατε/γρηγορήσατε (aor.imp.2pl); 'Wees' al stam, 'waakt' niet → splits-inconsistentie binnen één vers; precedent 4:7 ('Wees dan nuchter, en waak'). GEEN rule_change: 'waakt' is intransitief (gevolgd door leesteken/'en'), faalt de object-gate; bovendien botst stam 'waak' met frequent 3sg-presens 'waakt' ('die waakt en zijn klederen bewaart') → een stem-add zou geen winst geven én false-positive-risico introduceren. Per-vers.",
+      "scope": "verse",
+      "applied": true,
+      "rule_delta": null
+    },
+    {
+      "point_id": "RG30-005",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. 2e-pers-mv copula 'zijt' in relatiefzin 'die ... zijt' → 'bent' (drempel-archaïsme §2.7). GEEN rule_change: 'zijt' is context-afhankelijk (copula → 'bent', máár imperatief 'zijt' (bv. 4:12) mag NIET 'bent' worden); blanket DREMPEL/blacklist-entry zou imperatief-occurrenties corrumperen. Per-vers semantische call.",
+      "scope": "verse",
+      "applied": true,
+      "rule_delta": null
+    },
+    {
+      "point_id": "RG30-006",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. Copula 'geworden zijt' → 'bent geworden' (§2.7), identiek aan 5:14. Zelfde context-afhankelijkheid als RG30-005 → geen rule_change. Per-vers.",
+      "scope": "verse",
+      "applied": true,
+      "rule_delta": null
+    },
+    {
+      "point_id": "RG30-007",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. In kanttekening 4:12 is 'zijt' weergave van μὴ ξενίζεσθε (pres.imp.med.pass.2pl) → imperatief 'wees' (stam), niet copula. Kanttekening telt volwaardig mee (SKILL Stap 3). Bevestigt juist waarom 'zijt' geen blanket-rule kan zijn (hier ≠ 'bent'). Per-vers.",
+      "scope": "verse",
+      "applied": true,
+      "rule_delta": null
+    },
+    {
+      "point_id": "RG30-008",
+      "verdict": "rule_change",
+      "rationale": "Green concedeert. 'metterdaad' faalt §2.7-productiviteitstest; modern NL 'werkelijk/daadwerkelijk/in werkelijkheid'. STRUCTUREEL + recidief: precedent ROM 15:14 (RG14-009, red_wins, green concedeerde) + closed REV-key; komt óók 1PE 3:6 voor — dus minstens drie boeken. Exacte-woord-match → geen false positives (geen productieve nevenbetekenis, geen samenstelling-collisie). Hoort in DREMPEL_ARCHAISMEN zodat het NT-breed (incl. kanttekeningen) wordt gevangen.",
+      "scope": "nt-wide",
+      "applied": true,
+      "rule_delta": {
+        "file": "scripts/rules_data.py",
+        "list": "DREMPEL_ARCHAISMEN",
+        "entry": "\"metterdaad\"",
+        "collision_check": "Exacte-woord-match (\\b{word}\\b). 'metterdaad' is één gestold archaïsch bijwoord zonder productieve modern-NL-betekenis en zonder samenstelling-stam waarin het als deel-string terugkeert → nul false positives. NT-brede vindplaatsen o.a. ROM 15:14, REV (closed-key), 1PE 2:9 + 1PE 3:6 (beide kanttekening). ARCHAISMEN.md-tabel synchroon bijwerken."
+      }
+    },
+    {
+      "point_id": "RG30-009",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. Transitief-didactisch 'geleerd' (Apostelen onderrichten lezers, διδάσκω-veld) = false friend → 'onderwezen'. GEEN rule_change: de bestaande false-friend-regel (rules_data.py:275 'leerde|leerden|leert') vangt bewust géén voltooid deelwoord 'geleerd' omdat de subject-rol (leraar vs leerling) per-vers moet worden bepaald — 'wat u geleerd hebt' (leerling-subject) is correct modern; blanket 'geleerd'→'onderwezen' zou dat corrumperen. Per-vers semantische call.",
+      "scope": "verse",
+      "applied": true,
+      "rule_delta": null
+    }
+  ],
+  "deferred_nt_sweep": {
+    "metterdaad": {
+      "note": "7 NT-wide instanties omgezet naar 'daadwerkelijk' (1PE 2:9/3:6, 1TH 4:10, 2CO 13-intro, MAT 26:64, REV 19:8/9? , REV 9:20, ROM 1:23, ROM 9-note). 2 vereisen woordvolgorde-herschikking, uitgesteld (geen silent cap):",
+      "deferred": [
+        "1CO 14:20 ('zo metterdaad niet tonen als' — vereist herordening naar 'het nog niet zo daadwerkelijk tonen als')",
+        "2TI 1:9 ('deze genade is ons metterdaad niet van eeuwigheid' — vereist herordening)"
+      ]
+    }
+  },
+  "applied": {
+    "rule_deltas": [
+      "rules_data.py IMPERATIVE_T_STEMS += 'weersta' (RG30-003)",
+      "rules_data.py DREMPEL_ARCHAISMEN += 'metterdaad' (RG30-008)",
+      "ARCHAISMEN.md synced (imperatief-t row + metterdaad row)"
+    ],
+    "content": [
+      "1PE 5:2 Weidt/houdt toezicht->Weid/houd; 5:3 geworden zijt->bent geworden; 5:5 weest->wees (2x imperatief; 2x 'geweest' indicatief gelaten); 5:8 waakt->waak; 5:9 Weerstaat hem->Weersta hem; 5:14 zijt->bent",
+      "1PE 4:12 note zijt geen vreemdelingen->wees (imperatief, niet 'bent')",
+      "2PE 3:2 note geleerd hebben->onderwezen hebben",
+      "metterdaad->daadwerkelijk: 1PE 2:9/3:6, 1TH 4, 2CO 13-intro, MAT 26, REV 19, REV 9, ROM 1, ROM 9-note"
+    ]
+  }
+}

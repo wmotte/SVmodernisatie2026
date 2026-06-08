@@ -627,3 +627,33 @@ Red bracht 4 punt(en). Verdicts: red_wins=2, green_wins=1, rule_change=1.
 - **[RG29-004] (modernisatie)** ondeugdelijk
   - regel: MODERNISATIE.md §2.7 (false friend / verwarringstest); Grieks ἀδόκιμος; fix: ondeugdelijk → ongeschikt (eventueel 'verwerpelijk', concordant met de kanttekening).
   - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert; §2.7-false friend (ἀδόκιμος op personen toegepast; modern 'ondeugdelijk' kwalificeert producten/materiaal, niet mensen die 'ongeschikt/verwerpelijk' zijn; HSV 'ongeschikt'; eigen TIT
+
+## Ronde 30 — 1PE + 2PE  (2026-06-08T09:56:24.508823+00:00)
+Red bracht 9 punt(en). Verdicts: red_wins=7, green_wins=0, rule_change=2.
+- **[RG30-001] (modernisatie)** weest de ouderen onderdanig
+  - regel: ARCHAISMEN.md:81 imperatief-mv -t; fix: `weest` → `wees` (3x): 'wees de ouderen onderdanig', 'wees allen elkander onderdanig', 'wees met de ootmoedigheid bekleed'.
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert; rebuttal bevestigt red. Drie 'weest' renderen ὑποτάγητε/ἐγκομβώσασθε (aor.imp.2pl) + participium-als-imperatief → stam 'wees' (ARCHAISMEN.md:81). Intra-hoofdstuk inconsistent met v6/
+- **[RG30-002] (modernisatie)** Weidt de kudde van God die onder u is, en houdt toezicht
+  - regel: ARCHAISMEN.md:81 imperatief-mv -t; fix: `Weidt` → `Weid`; `houdt toezicht` → `houd toezicht`.
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert. ποιμάνατε (aor.imp.2pl) → 'Weid'; ἐπισκοποῦντες-als-imperatief 'houdt toezicht' → 'houd toezicht' (ARCHAISMEN.md:81). GEEN rule_change: 'houd' staat al in IMPERATIVE_T_STEMS maar obj
+- **[RG30-003] (modernisatie)** Weerstaat hem, vast in het geloof
+  - regel: ARCHAISMEN.md:81 imperatief-mv -t; fix: `Weerstaat hem` → `Weersta hem`.
+  - verdict: **rule_change** (scope=nt-wide, applied=True) — Green concedeert. ἀντίστητε (aor.imp.2pl) → stam 'Weersta'. STRUCTUREEL: 'Weerstaat hem' past exact de scanner-gate (anker zinsbegin + pronomen-object 'hem' ∈ IMPERATIVE_OBJECT_TOKENS), maar de stam '
+- **[RG30-004] (modernisatie)** Wees nuchter, [en] waakt
+  - regel: ARCHAISMEN.md:81 imperatief-mv -t; fix: `waakt` → `waak`: 'Wees nuchter, [en] waak'.
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert. νήψατε/γρηγορήσατε (aor.imp.2pl); 'Wees' al stam, 'waakt' niet → splits-inconsistentie binnen één vers; precedent 4:7 ('Wees dan nuchter, en waak'). GEEN rule_change: 'waakt' is intr
+- **[RG30-005] (modernisatie)** Vrede zij u allen die in Christus Jezus zijt
+  - regel: MODERNISATIE §2.7 drempel-archaïsme; fix: `die in Christus Jezus zijt` → `die in Christus Jezus bent`.
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert. 2e-pers-mv copula 'zijt' in relatiefzin 'die ... zijt' → 'bent' (drempel-archaïsme §2.7). GEEN rule_change: 'zijt' is context-afhankelijk (copula → 'bent', máár imperatief 'zijt' (bv
+- **[RG30-006] (modernisatie)** voorbeelden voor de kudde geworden zijt
+  - regel: MODERNISATIE §2.7 drempel-archaïsme; fix: `voorbeelden voor de kudde geworden zijt` → `voorbeelden voor de kudde bent geworden`.
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert. Copula 'geworden zijt' → 'bent geworden' (§2.7), identiek aan 5:14. Zelfde context-afhankelijkheid als RG30-005 → geen rule_change. Per-vers.
+- **[RG30-007] (modernisatie)** Grieks: en zijt geen vreemdelingen
+  - regel: MODERNISATIE §2.7 drempel-archaïsme; fix: `zijt geen vreemdelingen` → `wees geen vreemdelingen` (imperatief, congruent met de uitleg 'laat het u niet vreemd voorkomen').
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert. In kanttekening 4:12 is 'zijt' weergave van μὴ ξενίζεσθε (pres.imp.med.pass.2pl) → imperatief 'wees' (stam), niet copula. Kanttekening telt volwaardig mee (SKILL Stap 3). Bevestigt j
+- **[RG30-008] (modernisatie)** u komen al deze voorrechten en eretitels metterdaad toe
+  - regel: MODERNISATIE §2.7 drempel-archaïsme; fix: `metterdaad` → `daadwerkelijk` / `werkelijk` (beide kanttekeningen 1PE 2:9 en 1PE 3:6).
+  - verdict: **rule_change** (scope=nt-wide, applied=True) — Green concedeert. 'metterdaad' faalt §2.7-productiviteitstest; modern NL 'werkelijk/daadwerkelijk/in werkelijkheid'. STRUCTUREEL + recidief: precedent ROM 15:14 (RG14-009, red_wins, green concedeerde)
+- **[RG30-009] (modernisatie)** onze leer, die wij u geleerd hebben
+  - regel: ARCHAISMEN.md false-friends (didactisch leren); fix: `die wij u geleerd hebben` → `die wij u onderwezen hebben`.
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert. Transitief-didactisch 'geleerd' (Apostelen onderrichten lezers, διδάσκω-veld) = false friend → 'onderwezen'. GEEN rule_change: de bestaande false-friend-regel (rules_data.py:275 'lee
