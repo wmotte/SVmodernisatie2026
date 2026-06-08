@@ -807,3 +807,21 @@ Red bracht 5 punt(en). Verdicts: red_wins=5, green_wins=0, rule_change=0.
 - **[RG37-005] (modernisatie)** door vuur ontstoken zullen vergaan
   - regel: §2.7 drempel-archaïsme / false-friend ('ontstoken' in vuur-betekenis is verouderd; modern primair medisch 'ontstoken=geïnflammeerd'); fix: door vuur zullen branden en vergaan / door vuur in brand zullen vergaan
   - verdict: **red_wins** (scope=verse, applied=False) — Bevestigd als false friend. 2PE 3:12 source οὐρανοὶ πυρούμενοι λυθήσονται — πυρόω = letterlijk in brand zetten/branden. Huidige quote: 'door vuur ontstoken zullen vergaan'. 'ontstoken' heeft dominant 
+
+## Ronde 38 — REV + ACT  (2026-06-08T12:27:24.733021+00:00)
+Red bracht 5 punt(en). Verdicts: red_wins=5, green_wins=0, rule_change=0.
+- **[RG38-001] (modernisatie)** ontstoken, toen hij zag
+  - regel: ARCHAISMEN.md:147 (figuurlijk-emotioneel `ontstoken`→`ontvlamd`); fix: …werd zijn geest in hem ontvlamd, toen hij zag…
+  - verdict: **red_wins** (scope=ACT 17:16, applied=False) — Lemma 'ontstoken' (παρωξύνετο, παροξύνω). RED wint op het punt dat 'ontstoken' moet vallen (figuurlijk-emotioneel false friend, ARCHAISMEN.md:147; precedenten JHN 4:1, 1JN 1:4/4:20, 2PE 3:12). Voor de
+- **[RG38-002] (modernisatie)** en geenszins verstaan
+  - regel: scripts/rules_data.py DREMPEL_ARCHAISMEN ('geenszins'); MODERNISATIE.md §2.7; precedent RG36-003; fix: en zult het zeker niet verstaan; … en zult het zeker niet bemerken
+  - verdict: **red_wins** (scope=ACT 28:26, applied=False) — Lemma 'geenszins' (οὐ μή ×2). Bevestigd: exact 2 body-instanties in ACT 28:26 — 'geenszins verstaan' en 'geenszins bemerken' (notes uitgesloten; geen 'geenszins' in de kanttekening). DREMPEL_ARCHAISME
+- **[RG38-003] (modernisatie)** Geenszins, Heere
+  - regel: scripts/rules_data.py DREMPEL_ARCHAISMEN ('geenszins'); MODERNISATIE.md §2.7; precedent RG15-008 (Μηδαμῶς, red_wins); fix: Beslist niet, Heere
+  - verdict: **red_wins** (scope=ACT 11:8, applied=False) — Lemma 'geenszins' (Μηδαμῶς). Parallel ACT 10:14 (Μηδαμῶς) is reeds 'Beslist niet, Heere' (geverifieerd output/ACT/ACT.10.json v14); consistentie dwingt identieke weergave. LOCKED substring-fix in ACT 
+- **[RG38-004] (consistentie)** Alexander uit de menigte
+  - regel: projectregel ὄχλος→schare (menigte=πλῆθος); AGENTS.md concordantie; precedent R35 (ACT 24:18 conceded); fix: Alexander uit de schare
+  - verdict: **red_wins** (scope=ACT 19:33, applied=False) — Lemma ὄχλος ('menigte'→'schare'). Bron bevestigt ἐκ δὲ τοῦ ὄχλου; SV-origineel rendert 'schare', moderne tekst dreef naar 'menigte' (geverifieerd: een van slechts twee ACT-verzen waar SV-'schare' naar
+- **[RG38-005] (consistentie)** de menigte gestild had
+  - regel: projectregel ὄχλος→schare (menigte=πλῆθος); AGENTS.md concordantie; precedent R35 (ACT 24:18 conceded); fix: de schare gestild had
+  - verdict: **red_wins** (scope=ACT 19:35, applied=False) — Lemma ὄχλος ('menigte'→'schare'). Bron bevestigt τὸν ὄχλον; SV-origineel 'schare', moderne tekst dreef naar 'menigte'. Geen πλῆθος in dit vers. LOCKED substring-fix: 'de menigte gestild had' → 'de sch

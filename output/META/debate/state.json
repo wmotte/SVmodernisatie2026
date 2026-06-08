@@ -1,5 +1,5 @@
 {
-  "rounds_done": 37,
+  "rounds_done": 38,
   "pairs": [
     [
       "REV",
@@ -149,10 +149,14 @@
     [
       "REV",
       "2PE"
+    ],
+    [
+      "REV",
+      "ACT"
     ]
   ],
   "debate_count": {
-    "REV": 12,
+    "REV": 13,
     "JHN": 7,
     "1CO": 2,
     "LUK": 4,
@@ -160,7 +164,7 @@
     "2CO": 1,
     "MRK": 2,
     "MAT": 4,
-    "ACT": 3,
+    "ACT": 4,
     "2JN": 3,
     "3JN": 2,
     "PHM": 3,
@@ -194,6 +198,8 @@
     "consistentie|ACT,LUK|huilden en toonden de onderkleren|projectregel κλαίω→wenen; agents.md concordantie; modernisatie.md §5.3",
     "consistentie|ACT,LUK|niet met een menigte en ook niet met|agents.md concordantie; projectregel ὄχλος→schare (menigte=πλῆθος)",
     "consistentie|ACT,ROM|die dan een ander leert|archaismen.md:147 false friend `leren`/`leerde` (διδάσκω, transitief didactisch) → onderwijzen; nt-wide precedent rg-16-rg16-003 (2jn), rg-30-rg30-009 (2pe), beide red_wins",
+    "consistentie|ACT|alexander uit de menigte|projectregel ὄχλος→schare (menigte=πλῆθος); agents.md concordantie; precedent r35 (act 24:18 conceded)",
+    "consistentie|ACT|de menigte gestild had|projectregel ὄχλος→schare (menigte=πλῆθος); agents.md concordantie; precedent r35 (act 24:18 conceded)",
     "consistentie|COL,EPH|einde van de zendbrief van paulus aan die|modernisatie.md §1 (concordantie behouden); cross-book consistentie van een identiek sv-lemma 'sendtbrief'",
     "consistentie|COL,EPH|volharding en lankmoedigheid|modernisatie.md §1 (concordantie); cross-book weergave van gr. μακροθυμία",
     "consistentie|HEB|verhardt dan|archaismen.md:80 'imperatief-meervoud op -t → gebruik de stam'; memory 'imperatief-meervoud -t → stam'; precedent rg22-001/003, rg23-001 (wandelt → wandel)",
@@ -283,11 +289,14 @@
     "modernisatie|ACT|adriatische zee herwaarts en derwaarts gedreven werden|modernisatie.md §2.7; precedent rg13-005 herwaarts/derwaarts",
     "modernisatie|ACT|demetrius een zilversmid die zich geneert met kleine|modernisatie.md §2.7; false-friend/productiviteitstest",
     "modernisatie|ACT|eendrachtig in de tempel volhardend en brood brekend|modernisatie.md §2.3 (finiet participium) en §2.3b",
+    "modernisatie|ACT|en geenszins verstaan|scripts/rules_data.py drempel_archaismen ('geenszins'); modernisatie.md §2.7; precedent rg36-003",
     "modernisatie|ACT|geen opdracht gegeven hebben zulks te leren|archaismen.md (`sulcks`/`zulks`); modernisatie.md §2.7; kanttekeningen tellen volwaardig mee",
+    "modernisatie|ACT|geenszins heere|scripts/rules_data.py drempel_archaismen ('geenszins'); modernisatie.md §2.7; precedent rg15-008 (μηδαμῶς, red_wins)",
     "modernisatie|ACT|geenszins heere|scripts/rules_data.py drempel_archaismen (`geenszins`); modernisatie.md §2.7; grieks: μηδαμως",
     "modernisatie|ACT|hetwelk dan geen gemeenschap heeft met de vastentijden|scripts/rules_data.py drempel_archaismen (`hetwelk`); modernisatie.md §2.7; kanttekeningen tellen volwaardig mee",
     "modernisatie|ACT|leert van|archaismen.md:147 false friend `leert` (διδάσκεις, transitief didactisch) → onderwijst",
     "modernisatie|ACT|maar zulks is na deze tijd gebeurd|archaismen.md (`sulcks`/`zulks`); modernisatie.md §2.7; kanttekeningen tellen volwaardig mee",
+    "modernisatie|ACT|ontstoken toen hij zag|archaismen.md:147 (figuurlijk-emotioneel `ontstoken`→`ontvlamd`)",
     "modernisatie|ACT|ontstond daar geen kleine beroerte|modernisatie.md §2.7; false-friend/productiviteitstest; grieks: ταραχος",
     "modernisatie|ACT|over de heere jezus christus leerde|archaismen.md:147 false friend `leerde` (διδάσκων, transitief didactisch) → onderwees",
     "modernisatie|ACT|samen gingen in de synagoge der joden|modernisatie.md §2.3c gefossiliseerde genitief; fossiel genitief `der + zn` hard tenzij vaste uitdr.",
@@ -414,5 +423,5 @@
     "modernisatie|TIT|zowel in kleding als in hun gehele wandel|archaismen.md:29 (zelfst. 'wandel' = levenswijze → levenswandel / leven / gedrag); modernisatie.md §2.7 (verwarringstest)"
   ],
   "open_keys": [],
-  "updated_at": "2026-06-08T12:15:41.675254+00:00"
+  "updated_at": "2026-06-08T12:27:24.732682+00:00"
 }
