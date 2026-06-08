@@ -1,0 +1,166 @@
+{
+ "fixes": [
+  {
+   "book": "ACT",
+   "chapter": 4,
+   "verse": 26,
+   "old": "Koningen der aarde",
+   "new": "Koningen van de aarde",
+   "lemma": "τῆς γῆς",
+   "note": "ordinary possessive",
+   "in_kanttekening": false
+  },
+  {
+   "book": "REV",
+   "chapter": 14,
+   "verse": 15,
+   "old": "oogst der aarde",
+   "new": "oogst van de aarde",
+   "lemma": "τῆς γῆς",
+   "note": "ordinary possessive",
+   "in_kanttekening": false
+  },
+  {
+   "book": "REV",
+   "chapter": 14,
+   "verse": 18,
+   "old": "wijngaard der aarde",
+   "new": "wijngaard van de aarde",
+   "lemma": "τῆς γῆς",
+   "note": "ordinary possessive",
+   "in_kanttekening": false
+  },
+  {
+   "book": "REV",
+   "chapter": 14,
+   "verse": 19,
+   "old": "wijngaard der aarde",
+   "new": "wijngaard van de aarde",
+   "lemma": "τῆς γῆς",
+   "note": "ordinary possessive",
+   "in_kanttekening": false
+  },
+  {
+   "book": "REV",
+   "chapter": 17,
+   "verse": 5,
+   "old": "gruwelen der aarde",
+   "new": "gruwelen van de aarde",
+   "lemma": "τῆς γῆς",
+   "note": "ordinary possessive",
+   "in_kanttekening": false
+  },
+  {
+   "book": "REV",
+   "chapter": 17,
+   "verse": 18,
+   "old": "Koningen der aarde",
+   "new": "Koningen van de aarde",
+   "lemma": "τῶν ... τῆς γῆς",
+   "note": "ordinary possessive",
+   "in_kanttekening": false
+  },
+  {
+   "book": "REV",
+   "chapter": 18,
+   "verse": 11,
+   "old": "kooplieden der aarde",
+   "new": "kooplieden van de aarde",
+   "lemma": "τῆς γῆς",
+   "note": "ordinary possessive",
+   "in_kanttekening": false
+  },
+  {
+   "book": "REV",
+   "chapter": 18,
+   "verse": 23,
+   "old": "Groten der aarde",
+   "new": "Groten van de aarde",
+   "lemma": "τῆς γῆς",
+   "note": "ordinary possessive",
+   "in_kanttekening": false
+  },
+  {
+   "book": "1JN",
+   "chapter": 4,
+   "verse": 14,
+   "old": "> der wereld.",
+   "new": "> van de wereld.",
+   "lemma": "τοῦ κόσμου",
+   "note": "ordinary possessive (genitive after kanttekening); σωτῆρα τοῦ κόσμου",
+   "in_kanttekening": false
+  },
+  {
+   "book": "JHN",
+   "chapter": 4,
+   "verse": 42,
+   "old": "Zaligmaker der wereld",
+   "new": "Zaligmaker van de wereld",
+   "lemma": "τοῦ κόσμου",
+   "note": "ordinary possessive",
+   "in_kanttekening": false
+  },
+  {
+   "book": "JHN",
+   "chapter": 6,
+   "verse": 51,
+   "old": "het leven der wereld",
+   "new": "het leven van de wereld",
+   "lemma": "τῆς τοῦ κόσμου ζωῆς",
+   "note": "ordinary possessive",
+   "in_kanttekening": false
+  },
+  {
+   "book": "LUK",
+   "chapter": 12,
+   "verse": 30,
+   "old": "de volken der wereld",
+   "new": "de volken van de wereld",
+   "lemma": "τοῦ κόσμου",
+   "note": "ordinary possessive",
+   "in_kanttekening": false
+  },
+  {
+   "book": "MAT",
+   "chapter": 13,
+   "verse": 35,
+   "old": "grondlegging der wereld",
+   "new": "grondlegging van de wereld",
+   "lemma": "καταβολῆς κόσμου",
+   "note": "ordinary possessive",
+   "in_kanttekening": false
+  }
+ ],
+ "excluded_formulas": {
+  "des mensen (Zoon des mensen)": 87,
+  "der hemelen (Koninkrijk der hemelen)": 32,
+  "des heeren (dag/woord/Engel des Heeren)": 24,
+  "der joden (Koning der Joden — title)": 18,
+  "des levens (boek des levens)": 20,
+  "des huizes (heer des huizes)": 11,
+  "der tanden (knersing der tanden)": 7,
+  "des oordeels (dag des oordeels)": 5,
+  "der heerlijkheid (Koning/God/Geest/kroon der heerlijkheid)": 4,
+  "der aarde — einden der aarde (LUK 11:31, MAT 12:42)": 2,
+  "des persoons (aanzien des persoons)": 2,
+  "der heiligen (Heilige der heiligen HEB 9:3; Koning der heiligen REV 15:3 title)": 2,
+  "der rechtvaardigen (opstanding/midden der rechtvaardigen)": 2,
+  "der ongerechtigheid (werkers der ongerechtigheid)": 1,
+  "der voorbereiding (dag der voorbereiding)": 1,
+  "der verwoesting (gruwel der verwoesting)": 1,
+  "des nachts/avonds/morgens (temporal adverbial genitive — fossil)": 3,
+  "des te (comparative idiom — not genitive)": 21
+ },
+ "uncertain": [
+  {
+   "ref": "1PE 4:14",
+   "phrase": "Geest der heerlijkheid",
+   "reason": "genitivus qualitatis τὸ τῆς δόξης πνεῦμα ('Spirit of glory'); allowlisted der/heerlijkheid is for the credal 'Koning der heerlijkheid'. Stable SV collocation — left as STAY to be conservative."
+  },
+  {
+   "ref": "1PE 5:4",
+   "phrase": "kroon der heerlijkheid",
+   "reason": "τὸν τῆς δόξης στέφανον ('crown of glory'); genitivus qualitatis. Borderline leak vs fixed; left unfixed per conservative rule."
+  }
+ ]
+}

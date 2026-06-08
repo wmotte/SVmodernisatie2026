@@ -885,3 +885,12 @@ Red bracht 4 punt(en). Verdicts: red_wins=4, green_wins=0, rule_change=0.
 - **[RG41-004] (modernisatie/false-friend)** deden zij zoals hun geleerd was
   - regel: ARCHAISMEN.md:147 false friend `geleerd` (διδάσκω passief, ἐδιδάχθησαν); per-vers semantische call (RG30-009); fix: 'deden zij zoals hun geleerd was' → 'deden zij zoals hun was opgedragen' (of 'zoals hun onderricht was').
   - verdict: **red_wins** (scope=verse, applied=True) — MAT 28:15 ἐδιδάχθησαν (passief διδάσκω) 'geleerd was'→'onderwezen was' (concordantie-getrouw; red's 'opgedragen' verworpen want verschuift naar bevel-veld ἐντέλλομαι).
+
+## Ronde 42 — NT-wide  (2026-06-08T13:18:51.649599+00:00)
+Red bracht 2 punt(en). Verdicts: red_wins=2, green_wins=0, rule_change=0.
+- **[RG42-001] (consistentie)** NT-brede διδάσκω-sweep
+  - regel: ARCHAISMEN.md:147 false friend leren (διδάσκω leraar-subject)→onderwijzen; fix: 1CO 4:17, 1CO 11:14, 1JN 2:27, 1JN 2:27, 1JN 2:27, COL 1:28, COL 3:16, HEB 5:12, HEB 8:11, JHN 8:28, JHN 14:26, LUK 11:1, LUK 11:1, LUK 12:12, MRK 6:34, MRK 8:31, MRK 12:14, TIT 1:11
+  - verdict: **red_wins** (scope=nt-wide, applied=True) — 18 διδάσκω-fixes toegepast: 1CO 4:17, 1CO 11:14, 1JN 2:27, 1JN 2:27, 1JN 2:27, COL 1:28, COL 3:16, HEB 5:12, HEB 8:11, JHN 8:28, JHN 14:26, LUK 11:1, LUK 11:1, LUK 12:12, MRK 6:34, MRK 8:31, MRK 12:14
+- **[RG42-002] (consistentie)** NT-brede fossiel-genitief allowlist-lek sweep
+  - regel: MODERNISATIE.md §2.3c gefossiliseerde genitief; allowlist-lek der+zn; fix: ACT 4:26, REV 14:15, REV 14:18, REV 14:19, REV 17:5, REV 17:18, REV 18:11, REV 18:23, 1JN 4:14, JHN 4:42, JHN 6:51, LUK 12:30, MAT 13:35
+  - verdict: **red_wins** (scope=nt-wide, applied=True) — 13 genitief-fixes toegepast: ACT 4:26, REV 14:15, REV 14:18, REV 14:19, REV 17:5, REV 17:18, REV 18:11, REV 18:23, 1JN 4:14, JHN 4:42, JHN 6:51, LUK 12:30, MAT 13:35. Onzeker DEFERRED: 1PE 4:14/5:4 'd

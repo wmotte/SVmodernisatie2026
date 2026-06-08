@@ -1,0 +1,80 @@
+{
+  "round_no": 42,
+  "books": [
+    "NT-wide"
+  ],
+  "red": [
+    {
+      "id": "RG42-001",
+      "class": "consistentie",
+      "books": [
+        "1CO",
+        "1JN",
+        "COL",
+        "HEB",
+        "JHN",
+        "LUK",
+        "MRK",
+        "TIT"
+      ],
+      "chapter": 0,
+      "verse": 0,
+      "quote": "NT-brede διδάσκω-sweep",
+      "in_kanttekening": false,
+      "rule_reference": "ARCHAISMEN.md:147 false friend leren (διδάσκω leraar-subject)→onderwijzen",
+      "explanation": "Convergentie-sweep: 18 teacher-subject διδάσκω body-instanties NT-breed die als 'leren' bleven staan. Grieks-geverifieerd; μανθάνω/zn. διδαχή/bijv.nw. 'leren'(leer) uitgesloten.",
+      "proposed_fix": "1CO 4:17, 1CO 11:14, 1JN 2:27, 1JN 2:27, 1JN 2:27, COL 1:28, COL 3:16, HEB 5:12, HEB 8:11, JHN 8:28, JHN 14:26, LUK 11:1, LUK 11:1, LUK 12:12, MRK 6:34, MRK 8:31, MRK 12:14, TIT 1:11",
+      "severity": "medium"
+    },
+    {
+      "id": "RG42-002",
+      "class": "consistentie",
+      "books": [
+        "1JN",
+        "ACT",
+        "JHN",
+        "LUK",
+        "MAT",
+        "REV"
+      ],
+      "chapter": 0,
+      "verse": 0,
+      "quote": "NT-brede fossiel-genitief allowlist-lek sweep",
+      "in_kanttekening": false,
+      "rule_reference": "MODERNISATIE.md §2.3c gefossiliseerde genitief; allowlist-lek der+zn",
+      "explanation": "Convergentie-sweep: 13 gewone bezitsgenitieven 'der aarde'/'der wereld' die alleen via generieke allowlist-pair (einden der aarde) door de validator glipten; R37 der-aarde was incompleet (REV 14/17/18 + ACT 4:26 gemist). Vaste formules (Koninkrijk der hemelen, Zoon des mensen, einden der aarde) blijven.",
+      "proposed_fix": "ACT 4:26, REV 14:15, REV 14:18, REV 14:19, REV 17:5, REV 17:18, REV 18:11, REV 18:23, 1JN 4:14, JHN 4:42, JHN 6:51, LUK 12:30, MAT 13:35",
+      "severity": "medium"
+    }
+  ],
+  "green": [
+    {
+      "point_id": "RG42-001",
+      "stance": "concede",
+      "rebuttal": "Alle 18 Grieks-geverifieerd διδάσκω-actief leraar-subject; 5 passieve vormen (1TH 4:9 θεοδίδακτοι, 2TH 2:15, COL 2:7, GAL 1:12, JHN 6:45) conservatief uitgesloten als learner/adjectivaal — gelogd, geen silent cap.",
+      "evidence": "διδάσκω"
+    },
+    {
+      "point_id": "RG42-002",
+      "stance": "concede",
+      "rebuttal": "13 gewone genitieven; 2 onzeker (1PE 4:14/5:4 'der heerlijkheid' genitivus qualitatis) bewust ongemoeid gelaten.",
+      "evidence": "τῆς γῆς/τοῦ κόσμου"
+    }
+  ],
+  "verdicts": [
+    {
+      "point_id": "RG42-001",
+      "verdict": "red_wins",
+      "scope": "nt-wide",
+      "applied": true,
+      "rationale": "18 διδάσκω-fixes toegepast: 1CO 4:17, 1CO 11:14, 1JN 2:27, 1JN 2:27, 1JN 2:27, COL 1:28, COL 3:16, HEB 5:12, HEB 8:11, JHN 8:28, JHN 14:26, LUK 11:1, LUK 11:1, LUK 12:12, MRK 6:34, MRK 8:31, MRK 12:14, TIT 1:11. Passieve vormen (1TH 4:9/2TH 2:15/COL 2:7/GAL 1:12/JHN 6:45) DEFERRED met motivatie (learner/adjectivaal)."
+    },
+    {
+      "point_id": "RG42-002",
+      "verdict": "red_wins",
+      "scope": "nt-wide",
+      "applied": true,
+      "rationale": "13 genitief-fixes toegepast: ACT 4:26, REV 14:15, REV 14:18, REV 14:19, REV 17:5, REV 17:18, REV 18:11, REV 18:23, 1JN 4:14, JHN 4:42, JHN 6:51, LUK 12:30, MAT 13:35. Onzeker DEFERRED: 1PE 4:14/5:4 'der heerlijkheid'."
+    }
+  ]
+}

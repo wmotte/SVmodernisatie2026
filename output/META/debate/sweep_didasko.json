@@ -1,0 +1,561 @@
+{
+ "fixes": [
+  {
+   "book": "1CO",
+   "chapter": 4,
+   "verse": 17,
+   "old": "zoals ik overal in alle gemeenten leer.",
+   "new": "zoals ik overal in alle gemeenten onderwijs.",
+   "lemma": "διδάσκω",
+   "subject": "Paul",
+   "in_kanttekening": false
+  },
+  {
+   "book": "1CO",
+   "chapter": 11,
+   "verse": 14,
+   "old": "Of leert u ook",
+   "new": "Of onderwijst u ook",
+   "lemma": "διδάσκει",
+   "subject": "de natuur (lerende instantie)",
+   "in_kanttekening": false
+  },
+  {
+   "book": "1JN",
+   "chapter": 2,
+   "verse": 27,
+   "old": "dat iemand u leert: maar",
+   "new": "dat iemand u onderwijst: maar",
+   "lemma": "διδάσκῃ",
+   "subject": "iemand (leraar)",
+   "in_kanttekening": false
+  },
+  {
+   "book": "1JN",
+   "chapter": 2,
+   "verse": 27,
+   "old": "zoals dezelfde zalving u leert <",
+   "new": "zoals dezelfde zalving u onderwijst <",
+   "lemma": "διδάσκει",
+   "subject": "de zalving (lerende instantie)",
+   "in_kanttekening": false
+  },
+  {
+   "book": "1JN",
+   "chapter": 2,
+   "verse": 27,
+   "old": "en zoals zij u geleerd heeft,",
+   "new": "en zoals zij u onderwezen heeft,",
+   "lemma": "ἐδίδαξεν",
+   "subject": "de zalving (lerende instantie)",
+   "in_kanttekening": false
+  },
+  {
+   "book": "COL",
+   "chapter": 1,
+   "verse": 28,
+   "old": "in alle wijsheid leren, opdat",
+   "new": "in alle wijsheid onderwijzen, opdat",
+   "lemma": "διδάσκοντες",
+   "subject": "apostelen (wij)",
+   "in_kanttekening": false
+  },
+  {
+   "book": "COL",
+   "chapter": 3,
+   "verse": 16,
+   "old": "$Ef. 5:19$ leer en vermaan elkaar,",
+   "new": "$Ef. 5:19$ onderwijs en vermaan elkaar,",
+   "lemma": "διδάσκοντες",
+   "subject": "gelovigen onderling",
+   "in_kanttekening": false
+  },
+  {
+   "book": "HEB",
+   "chapter": 5,
+   "verse": 12,
+   "old": "hebt opnieuw nodig dat men u leert welke",
+   "new": "hebt opnieuw nodig dat men u onderwijst welke",
+   "lemma": "διδάσκειν",
+   "subject": "men (leraar)",
+   "in_kanttekening": false
+  },
+  {
+   "book": "HEB",
+   "chapter": 8,
+   "verse": 11,
+   "old": "niet ieder zijn naaste en ieder zijn broeder leren met de woorden",
+   "new": "niet ieder zijn naaste en ieder zijn broeder onderwijzen met de woorden",
+   "lemma": "διδάξωσιν",
+   "subject": "de mensen (leraren)",
+   "in_kanttekening": false
+  },
+  {
+   "book": "JHN",
+   "chapter": 8,
+   "verse": 28,
+   "old": "zoals mijn Vader mij geleerd heeft.",
+   "new": "zoals mijn Vader mij onderwezen heeft.",
+   "lemma": "ἐδίδαξε",
+   "subject": "de Vader",
+   "in_kanttekening": false
+  },
+  {
+   "book": "JHN",
+   "chapter": 14,
+   "verse": 26,
+   "old": "die zal u alles leren, en zal u <",
+   "new": "die zal u alles onderwijzen, en zal u <",
+   "lemma": "διδάξει",
+   "subject": "de Heilige Geest",
+   "in_kanttekening": false
+  },
+  {
+   "book": "LUK",
+   "chapter": 11,
+   "verse": 1,
+   "old": "leer ons bidden, zoals ook Johannes",
+   "new": "onderwijs ons in het bidden, zoals ook Johannes",
+   "lemma": "δίδαξον",
+   "subject": "Jezus (gevraagd te onderwijzen)",
+   "in_kanttekening": false
+  },
+  {
+   "book": "LUK",
+   "chapter": 11,
+   "verse": 1,
+   "old": "zoals ook Johannes zijn discipelen geleerd heeft.",
+   "new": "zoals ook Johannes zijn discipelen onderwezen heeft.",
+   "lemma": "ἐδίδαξε",
+   "subject": "Johannes de Doper",
+   "in_kanttekening": false
+  },
+  {
+   "book": "LUK",
+   "chapter": 12,
+   "verse": 12,
+   "old": "staat geven. Dat is, ingeven.> leren wat [u] spreken moet.",
+   "new": "staat geven. Dat is, ingeven.> onderwijzen wat [u] spreken moet.",
+   "lemma": "διδάξει",
+   "subject": "de Heilige Geest",
+   "in_kanttekening": false
+  },
+  {
+   "book": "MRK",
+   "chapter": 6,
+   "verse": 34,
+   "old": "en hij begon hun vele dingen te leren.",
+   "new": "en hij begon hun vele dingen te onderwijzen.",
+   "lemma": "διδάσκειν",
+   "subject": "Jezus",
+   "in_kanttekening": false
+  },
+  {
+   "book": "MRK",
+   "chapter": 8,
+   "verse": 31,
+   "old": "En hij begon hun te leren dat de Zoon",
+   "new": "En hij begon hun te onderwijzen dat de Zoon",
+   "lemma": "διδάσκειν",
+   "subject": "Jezus",
+   "in_kanttekening": false
+  },
+  {
+   "book": "MRK",
+   "chapter": 12,
+   "verse": 14,
+   "old": "maar u leert <",
+   "new": "maar u onderwijst <",
+   "lemma": "διδάσκεις",
+   "subject": "Jezus (door vraagstellers aangesproken)",
+   "in_kanttekening": false
+  },
+  {
+   "book": "TIT",
+   "chapter": 1,
+   "verse": 11,
+   "old": "ondersteboven, en leren wat niet behoort,",
+   "new": "ondersteboven, en onderwijzen wat niet behoort,",
+   "lemma": "διδάσκοντες",
+   "subject": "valse leraars",
+   "in_kanttekening": false
+  }
+ ],
+ "excluded": [
+  {
+   "ref": "1CO 4:6",
+   "form": "leren",
+   "reason": "μάθητε — μανθάνω learner ('opdat u zou leren niet te denken')"
+  },
+  {
+   "ref": "1CO 14:31",
+   "form": "leren",
+   "reason": "μανθάνωσι — μανθάνω learner ('zij allen leren')"
+  },
+  {
+   "ref": "1CO 14:35",
+   "form": "leren",
+   "reason": "μαθεῖν — μανθάνω learner ('iets willen leren')"
+  },
+  {
+   "ref": "1TH 3:5",
+   "form": "leren",
+   "reason": "γνῶναι — 'leren kennen' = to know, not διδάσκω"
+  },
+  {
+   "ref": "1TH 4:9",
+   "form": "geleerd",
+   "reason": "θεοδίδακτοι — passive 'by God taught'; recipient perspective, not active teacher (conservatief)"
+  },
+  {
+   "ref": "1TI 1:3",
+   "form": "leer",
+   "reason": "noun in 'andere leer' (ἑτεροδιδασκαλεῖν); verb al 'onderwijzen'"
+  },
+  {
+   "ref": "1TI 1:10",
+   "form": "leer",
+   "reason": "noun διδασκαλίᾳ ('gezonde leer')"
+  },
+  {
+   "ref": "1TI 1:20",
+   "form": "leren",
+   "reason": "παιδευθῶσι — παιδεύω (gedisciplineerd worden), niet διδάσκω"
+  },
+  {
+   "ref": "1TI 4:6",
+   "form": "leer",
+   "reason": "noun διδασκαλίας ('goede leer')"
+  },
+  {
+   "ref": "1TI 4:16",
+   "form": "leer",
+   "reason": "noun διδασκαλίᾳ ('de leer')"
+  },
+  {
+   "ref": "1TI 5:4",
+   "form": "leren",
+   "reason": "μανθανέτωσαν — μανθάνω learner"
+  },
+  {
+   "ref": "1TI 5:13",
+   "form": "leren",
+   "reason": "μανθάνουσι — μανθάνω learner ('leren zij werkeloos rond te gaan')"
+  },
+  {
+   "ref": "1TI 5:17",
+   "form": "leer",
+   "reason": "noun διδασκαλίᾳ ('de leer')"
+  },
+  {
+   "ref": "1TI 6:1",
+   "form": "leer",
+   "reason": "noun διδασκαλία ('de leer')"
+  },
+  {
+   "ref": "1TI 6:3",
+   "form": "leer (x2)",
+   "reason": "'andere leer' noun + noun διδασκαλίᾳ; verb al 'onderwijst'"
+  },
+  {
+   "ref": "2CO 2:9",
+   "form": "leren",
+   "reason": "γνῶ — 'leren kennen' = to know, niet διδάσκω"
+  },
+  {
+   "ref": "2JN 1:9",
+   "form": "leer (x2)",
+   "reason": "noun διδαχῇ ('de leer van Christus')"
+  },
+  {
+   "ref": "2JN 1:10",
+   "form": "leer",
+   "reason": "noun διδαχὴν ('deze leer')"
+  },
+  {
+   "ref": "2TH 2:15",
+   "form": "geleerd",
+   "reason": "ἐδιδάχθητε — passieve διδάσκω ('die u geleerd zijn'); recipient perspectief (conservatief)"
+  },
+  {
+   "ref": "2TI 3:7",
+   "form": "leren",
+   "reason": "μανθάνοντα — μανθάνω learner ('altijd leren')"
+  },
+  {
+   "ref": "2TI 3:10",
+   "form": "leer",
+   "reason": "noun διδασκαλίᾳ ('mijn leer')"
+  },
+  {
+   "ref": "2TI 3:14",
+   "form": "geleerd (x2)",
+   "reason": "ἔμαθες — μανθάνω learner ('wat u geleerd hebt')"
+  },
+  {
+   "ref": "2TI 4:2",
+   "form": "leer",
+   "reason": "noun διδαχῇ (parallel met vermaan; Grieks zelfstandig nw)"
+  },
+  {
+   "ref": "2TI 4:3",
+   "form": "leer",
+   "reason": "noun διδασκαλίας ('gezonde leer')"
+  },
+  {
+   "ref": "ACT 2:42",
+   "form": "leer",
+   "reason": "noun διδαχῇ ('de leer der Apostelen')"
+  },
+  {
+   "ref": "ACT 5:28",
+   "form": "leer",
+   "reason": "noun διδαχῆς ('deze uw leer'); διδάσκειν al 'onderwijzen'"
+  },
+  {
+   "ref": "ACT 13:12",
+   "form": "leer",
+   "reason": "noun διδαχῇ ('de leer des Heeren')"
+  },
+  {
+   "ref": "ACT 17:19",
+   "form": "leer",
+   "reason": "noun διδαχή ('nieuwe leer')"
+  },
+  {
+   "ref": "COL 1:6",
+   "form": "leren",
+   "reason": "ἐπέγνωτε — 'leren kennen' = to know, niet διδάσκω"
+  },
+  {
+   "ref": "COL 1:7",
+   "form": "geleerd",
+   "reason": "ἐμάθετε — μανθάνω learner ('geleerd van Epafras')"
+  },
+  {
+   "ref": "COL 2:7",
+   "form": "geleerd",
+   "reason": "ἐδιδάχθητε — passieve διδάσκω ('zoals u geleerd bent') (conservatief)"
+  },
+  {
+   "ref": "EPH 4:14",
+   "form": "leer",
+   "reason": "noun διδασκαλίας ('wind der leer')"
+  },
+  {
+   "ref": "EPH 4:20",
+   "form": "leren",
+   "reason": "ἐμάθετε — μανθάνω ('Christus leren kennen')"
+  },
+  {
+   "ref": "EPH 6:4",
+   "form": "leer",
+   "reason": "noun παιδείᾳ ('de leer en vermaning'), niet διδάσκω"
+  },
+  {
+   "ref": "GAL 1:12",
+   "form": "geleerd",
+   "reason": "ἐδιδάχθην — passieve διδάσκω/'ontvangen' ('noch geleerd'); recipient (conservatief)"
+  },
+  {
+   "ref": "HEB 5:8",
+   "form": "geleerd",
+   "reason": "ἔμαθεν — μανθάνω learner ('gehoorzaamheid geleerd')"
+  },
+  {
+   "ref": "HEB 6:1",
+   "form": "leer",
+   "reason": "noun ('beginsel der leer van Christus'; Grieks λόγον)"
+  },
+  {
+   "ref": "HEB 6:2",
+   "form": "leer",
+   "reason": "noun διδαχῆς ('de leer der dopen')"
+  },
+  {
+   "ref": "JHN 6:45",
+   "form": "geleerd (x2)",
+   "reason": "διδακτοὶ (passief 'door God geleerd') + μαθών (μανθάνω 'geleerd van Vader')"
+  },
+  {
+   "ref": "JHN 7:15",
+   "form": "geleerd",
+   "reason": "μεμαθηκώς — μανθάνω learner ('niet geleerd heeft')"
+  },
+  {
+   "ref": "JHN 7:16",
+   "form": "leer",
+   "reason": "noun διδαχὴ ('Mijn leer')"
+  },
+  {
+   "ref": "JHN 7:17",
+   "form": "leer",
+   "reason": "noun διδαχῆς ('deze leer')"
+  },
+  {
+   "ref": "JHN 18:19",
+   "form": "leer",
+   "reason": "noun διδαχῆς ('zijn leer')"
+  },
+  {
+   "ref": "LUK 4:32",
+   "form": "leer",
+   "reason": "noun διδαχῇ ('zijn leer')"
+  },
+  {
+   "ref": "LUK 5:37",
+   "form": "leren (x3)",
+   "reason": "[leren] zakken = leer/leather (ἀσκούς)"
+  },
+  {
+   "ref": "LUK 5:38",
+   "form": "leren",
+   "reason": "[leren] zakken = leer/leather (ἀσκούς)"
+  },
+  {
+   "ref": "MAT 3:4",
+   "form": "leren",
+   "reason": "leren gordel = leather (ζώνην δερματίνην)"
+  },
+  {
+   "ref": "MAT 7:28",
+   "form": "leer",
+   "reason": "noun διδαχῇ ('zijn leer')"
+  },
+  {
+   "ref": "MAT 9:13",
+   "form": "leer",
+   "reason": "μάθετε — μανθάνω imperatief ('leer wat het betekent')"
+  },
+  {
+   "ref": "MAT 9:17",
+   "form": "leren (x4)",
+   "reason": "[leren] zakken = leather (ἀσκούς)"
+  },
+  {
+   "ref": "MAT 11:29",
+   "form": "leer",
+   "reason": "μάθετε ἀπ’ ἐμοῦ — μανθάnω ('leer van mij')"
+  },
+  {
+   "ref": "MAT 16:12",
+   "form": "leer",
+   "reason": "noun διδαχῆς ('leer der Farizeeën')"
+  },
+  {
+   "ref": "MAT 22:33",
+   "form": "leer",
+   "reason": "noun διδαχῇ ('zijn leer')"
+  },
+  {
+   "ref": "MAT 24:32",
+   "form": "leer",
+   "reason": "μάθετε — μανθάνω imperatief ('leer van de vijgenboom')"
+  },
+  {
+   "ref": "MRK 1:6",
+   "form": "leren",
+   "reason": "leren gordel = leather (ζώνην δερματίνην)"
+  },
+  {
+   "ref": "MRK 1:22",
+   "form": "leer",
+   "reason": "noun διδαχῇ ('zijn leer'); διδάσκων al 'onderwees'"
+  },
+  {
+   "ref": "MRK 1:27",
+   "form": "leer",
+   "reason": "noun διδαχὴ ('nieuwe leer')"
+  },
+  {
+   "ref": "MRK 2:22",
+   "form": "leren (x4)",
+   "reason": "[leren] zakken = leather (ἀσκούς)"
+  },
+  {
+   "ref": "MRK 11:18",
+   "form": "leer",
+   "reason": "noun διδαχῇ ('zijn leer')"
+  },
+  {
+   "ref": "MRK 12:38",
+   "form": "leer",
+   "reason": "noun διδαχῇ ('in zijn leer')"
+  },
+  {
+   "ref": "MRK 13:28",
+   "form": "leert",
+   "reason": "μάθετε — μανθάνω imperatief ('leert van de vijgenboom')"
+  },
+  {
+   "ref": "PHP 4:9",
+   "form": "geleerd",
+   "reason": "ἐμάθετε — μανθάνω learner ('wat u geleerd hebt')"
+  },
+  {
+   "ref": "PHP 4:11",
+   "form": "geleerd",
+   "reason": "ἔμαθον — μανθάνω learner ('ik heb geleerd genoegen te nemen')"
+  },
+  {
+   "ref": "REV 2:14",
+   "form": "leer",
+   "reason": "noun διδαχὴν ('leer van Balaam'); ἐδίδασκε al 'onderwees'"
+  },
+  {
+   "ref": "REV 2:15",
+   "form": "leer",
+   "reason": "noun διδαχὴν ('leer der Nicolaiten')"
+  },
+  {
+   "ref": "REV 2:24",
+   "form": "leer",
+   "reason": "noun διδαχὴν ('deze leer')"
+  },
+  {
+   "ref": "REV 14:3",
+   "form": "leren",
+   "reason": "μαθεῖν — μανθάνω ('niemand kon dat lied leren')"
+  },
+  {
+   "ref": "ROM 6:17",
+   "form": "leer",
+   "reason": "noun διδαχῆς ('voorbeeld der leer')"
+  },
+  {
+   "ref": "ROM 16:17",
+   "form": "leer + geleerd",
+   "reason": "noun διδαχὴν ('de leer') + ἐμάθετε (μανθάνω 'geleerd hebt')"
+  },
+  {
+   "ref": "TIT 1:9",
+   "form": "leer (x2)",
+   "reason": "noun διδαχὴν + noun διδασκαλίᾳ"
+  },
+  {
+   "ref": "TIT 2:1",
+   "form": "leer",
+   "reason": "noun διδασκαλίᾳ ('gezonde leer')"
+  },
+  {
+   "ref": "TIT 2:4",
+   "form": "leren",
+   "reason": "σωφρονίζωσι (vermanen/trainen tot bezonnenheid), niet διδάσκω"
+  },
+  {
+   "ref": "TIT 2:7",
+   "form": "leer",
+   "reason": "noun διδασκαλίᾳ ('in de leer')"
+  },
+  {
+   "ref": "TIT 2:10",
+   "form": "leer",
+   "reason": "noun διδασκαλίαν ('de leer van God')"
+  },
+  {
+   "ref": "TIT 3:14",
+   "form": "leren",
+   "reason": "μανθανέτωσαν — μανθάνω learner ('de onzen leren goede werken voor te staan')"
+  }
+ ]
+}
