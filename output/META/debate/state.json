@@ -1,5 +1,5 @@
 {
-  "rounds_done": 39,
+  "rounds_done": 40,
   "pairs": [
     [
       "REV",
@@ -157,10 +157,14 @@
     [
       "REV",
       "MAT"
+    ],
+    [
+      "REV",
+      "ACT"
     ]
   ],
   "debate_count": {
-    "REV": 14,
+    "REV": 15,
     "JHN": 7,
     "1CO": 2,
     "LUK": 4,
@@ -168,7 +172,7 @@
     "2CO": 1,
     "MRK": 2,
     "MAT": 5,
-    "ACT": 4,
+    "ACT": 5,
     "2JN": 3,
     "3JN": 2,
     "PHM": 3,
@@ -228,6 +232,17 @@
     "consistentie|REV|maar hetgeen u hebt houdt dat vast totdat|archaismen.md (imperatief-meervoud op `-t` → stam); modernisatie.md imperatief-`-t`",
     "consistentie|REV|met wie de koningen der aarde|modernisatie.md §2.3c (losse possessief-genitief ontvouwt naar 'van'; alleen formule-fossielen blijven flexief); §1 concordantie van identiek grieks/sv-lemma",
     "consistentie|REV|te vergaderen tot de oorlog|modernisatie.md §1 (concordantie van identiek sv-lemma); sv-origineel 'krijgh' (πόλεμος)",
+    "false_friend|ACT|een grote schare leerden|archaismen.md:147 false friend `leerden` (διδάσκω) → onderwezen; concordantiedrift binnen act",
+    "false_friend|ACT|leerde onder hen het woord van god|archaismen.md:147 false friend `leren`/`leerde` (διδάσκω, transitief-didactisch, leraar-subject) → onderwijzen/onderwees; nt-wide red_wins 2jn(rg16-003)/2pe(rg30-009); r35 verdict[4] (apply-residu)",
+    "false_friend|ACT|leerden de broeders|archaismen.md:147 false friend `leerden` (διδάσκω) → onderwezen; concordantiedrift binnen act",
+    "false_friend|ACT|leert|archaismen.md:147 false friend `leren`/`leert` (διδάσκω) → onderwijzen; r33 red[2]/proposed_fix (expliciet 21:28 → 'onderwijst', nooit toegepast)",
+    "false_friend|ACT|noch leren|archaismen.md:147 false friend `leren` (διδάσκω) → onderwijzen; r35 verdict[4] (apply-residu)",
+    "false_friend|ACT|u te leren|archaismen.md:147 false friend `leren` (διδάσκω, transitief-didactisch) → onderwijzen; r35 verdict[4] (apply-residu)",
+    "false_friend|ACT|zij leerden en|archaismen.md:147 false friend `leerden` (διδάσκοντες) → onderwezen; concordantiedrift binnen act",
+    "fossiel_genitief|REV|de volharding der heiligen|modernisatie.md §2.3c losse possessief-genitief ontvouwt naar 'van'; rules_data.py fossil_genitive_pairs-entry ('der','heiligen') is bedoeld voor 'heilige der heiligen' (allowlist-lek, r35-joden/r37-aarde-precedent)",
+    "imperatief_meervoud_t|ACT|hoort deze woorden|archaismen.md:78 imperatief-mv `-t` → stam; concordantie harmoniseert náár stam",
+    "imperatief_meervoud_t|ACT|hoort mijn verantwoording|archaismen.md:78 imperatief-mv `-t` → stam",
+    "imperatief_meervoud_t|ACT|komt te hulp|archaismen.md:78 imperatief-mv `-t` → stam",
     "modernisatie|1CO|die eet en drinkt zichzelf een oordeel niet|modernisatie.md §2.3 (finiet participium) + §2.3b (object nageschoven na participium)",
     "modernisatie|1CO|doet dat zo dikwijls als gij die zult|archaismen.md (imperatief-meervoud op `-t` → stam; ghy/gy/gij → u)",
     "modernisatie|1CO|en wordt geen afgodendienaars evenals sommigen van hen|archaismen.md:78 (imperatief-meervoud -t -> stam; wordt -> word)",
@@ -429,5 +444,5 @@
     "modernisatie|TIT|zowel in kleding als in hun gehele wandel|archaismen.md:29 (zelfst. 'wandel' = levenswijze → levenswandel / leven / gedrag); modernisatie.md §2.7 (verwarringstest)"
   ],
   "open_keys": [],
-  "updated_at": "2026-06-08T12:41:02.590191+00:00"
+  "updated_at": "2026-06-08T13:01:30.714920+00:00"
 }

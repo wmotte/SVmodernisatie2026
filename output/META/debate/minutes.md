@@ -834,3 +834,39 @@ Red bracht 2 punt(en). Verdicts: red_wins=2, green_wins=0, rule_change=0.
 - **[RG39-002] (consistentie)** dit geslacht zal geenszins  voorbijgaan
   - regel: §false-friend geenszins(οὐ μή)→beslist/zeker niet; fix: geenszins → beslist niet (of zeker niet) in MAT 2:6, 5:26, 10:42, 13:14(2x), 15:5, 16:22, 24:34, 24:35, 26:35
   - verdict: **red_wins** (scope=nt-wide, applied=True) — red_wins. geenszins Grieks-afhankelijk: οὐ μή→'zeker niet', οὐδαμῶς→'beslist niet', plain οὐ→'volstrekt niet'. MAT 2:6 (οὐδαμῶς)/5:26/10:42/13:14×2/15:5/16:22/24:34/24:35/26:35 + NT-brede sweep van st
+
+## Ronde 40 — REV + ACT  (2026-06-08T13:01:30.715241+00:00)
+Red bracht 11 punt(en). Verdicts: red_wins=11, green_wins=0, rule_change=0.
+- **[RG40-001] (false_friend)** leerde onder hen het woord van God
+  - regel: ARCHAISMEN.md:147 false friend `leren`/`leerde` (διδάσκω, transitief-didactisch, leraar-subject) → onderwijzen/onderwees; NT-wide red_wins 2JN(RG16-003)/2PE(RG30-009); R35 verdict[4] (apply-residu); fix: leerde onder hen het woord van God → onderwees onder hen het woord van God
+  - verdict: **red_wins** (scope=ACT 18:11 (hoofdtekst): 'leerde onder hen het woord van God' → 'onderwees onder hen het woord van God'., applied=False) — Spot-verified: ACT 18:11 draagt nog letterlijk 'leerde onder hen het woord van God' (exacte, unieke substring bevestigd in output/ACT/ACT.18.json). διδάσκων = participium διδάσκω, leraar-subject (Paul
+- **[RG40-002] (false_friend)** u te leren
+  - regel: ARCHAISMEN.md:147 false friend `leren` (διδάσκω, transitief-didactisch) → onderwijzen; R35 verdict[4] (apply-residu); fix: het u te verkondigen en u te leren → het u te verkondigen en u te onderwijzen
+  - verdict: **red_wins** (scope=ACT 20:20 (hoofdtekst): 'u te leren' → 'u te onderwijzen'., applied=False) — διδάξαι aoristus-infinitief διδάσκω, leraar-subject (Paulus onderricht in openbaar en bij huizen). False friend `te leren` → `te onderwijzen`. Openstaande apply-treffer uit R35 verdict[4]/RG35-005, na
+- **[RG40-003] (false_friend)** noch leren
+  - regel: ARCHAISMEN.md:147 false friend `leren` (διδάσκω) → onderwijzen; R35 verdict[4] (apply-residu); fix: in het geheel niet zouden spreken, noch leren → in het geheel niet zouden spreken, noch onderwijzen
+  - verdict: **red_wins** (scope=ACT 4:18 (hoofdtekst): 'noch leren' → 'noch onderwijzen'., applied=False) — διδάσκειν infinitief διδάσκω, leraar-subject (Sanhedrin verbiedt apostelen te doceren). False friend `leren` → `onderwijzen`. Derde van de in R35 verdict[4]/RG35-005 genoemde-maar-niet-toegepaste tref
+- **[RG40-004] (false_friend)** leert
+  - regel: ARCHAISMEN.md:147 false friend `leren`/`leert` (διδάσκω) → onderwijzen; R33 red[2]/proposed_fix (expliciet 21:28 → 'onderwijst', nooit toegepast); fix: deze plaats overal aan [ieder] leert → deze plaats overal aan [ieder] onderwijst
+  - verdict: **red_wins** (scope=ACT 21:28 (hoofdtekst): 'deze plaats overal aan [ieder] leert' → 'deze plaats overal aan [ieder] onderwijst'., applied=False) — Spot-verified: ACT 21:28 draagt nog 'deze plaats overal aan [ieder] leert' (exacte unieke substring bevestigd). διδάσκων participium, leraar-subject (aanklacht tegen Paulus). False friend `leert` → `o
+- **[RG40-005] (false_friend)** een grote schare leerden
+  - regel: ARCHAISMEN.md:147 false friend `leerden` (διδάσκω) → onderwezen; concordantiedrift binnen ACT; fix: een grote schare leerden → een grote schare onderwezen
+  - verdict: **red_wins** (scope=ACT 11:26 (hoofdtekst): 'een grote schare leerden' → 'een grote schare onderwezen'., applied=False) — διδάξαι aoristus-infinitief, subject Barnabas+Saulus (vs 25-26) die schare onderrichten. Leraar-subject, geen μανθάνω; ὄχλος→schare correct. False friend `leerden` → `onderwezen`. Nieuwe concordantied
+- **[RG40-006] (false_friend)** leerden de broeders
+  - regel: ARCHAISMEN.md:147 false friend `leerden` (διδάσκω) → onderwezen; concordantiedrift binnen ACT; fix: leerden de broeders → onderwezen de broeders
+  - verdict: **red_wins** (scope=ACT 15:1 (hoofdtekst): 'leerden de broeders' → 'onderwezen de broeders'., applied=False) — ἐδίδασκον imperfectum διδάσκω, leraar-subject (Judese mannen onderrichten broeders met dwaalleer). False friend `leerden` → `onderwezen`. Identiek aan de in R33 beslechte doceergevallen. Nieuwe hoofdt
+- **[RG40-007] (false_friend)** zij leerden en
+  - regel: ARCHAISMEN.md:147 false friend `leerden` (διδάσκοντες) → onderwezen; concordantiedrift binnen ACT; fix: zij leerden en verkondigden → zij onderwezen en verkondigden
+  - verdict: **red_wins** (scope=ACT 15:35 (hoofdtekst): 'zij leerden en' → 'zij onderwezen en'., applied=False) — διδάσκοντες participium διδάσκω, leraar-subject (Paulus+Barnabas onderwijzen en verkondigen te Antiochië). Exact dezelfde διδάσκοντες-stam als de voor 5:42 toegepaste RG35-005-fix. False friend `leerd
+- **[RG40-008] (imperatief_meervoud_t)** hoort deze woorden
+  - regel: ARCHAISMEN.md:78 imperatief-mv `-t` → stam; concordantie harmoniseert náár stam; fix: hoort deze woorden → hoor deze woorden (of: luister naar deze woorden)
+  - verdict: **red_wins** (scope=ACT 2:22 (hoofdtekst): 'hoort deze woorden' → 'luister naar deze woorden'., applied=False) — Spot-verified: ACT 2:22 draagt nog 'hoort deze woorden' (exacte unieke substring). ἀκούσατε aoristus-imperatief 2e-pers-mv = SV-imperatief-mv-`-t`. HUISVORM-BEVESTIGING: ACT 7:2 ('Mannen broeders en v
+- **[RG40-009] (imperatief_meervoud_t)** hoort mijn verantwoording
+  - regel: ARCHAISMEN.md:78 imperatief-mv `-t` → stam; fix: hoort mijn verantwoording → hoor mijn verantwoording (of: luister naar mijn verantwoording)
+  - verdict: **red_wins** (scope=ACT 22:1 (hoofdtekst): 'hoort mijn verantwoording' → 'luister naar mijn verantwoording'., applied=False) — Spot-verified: ACT 22:1 draagt nog 'hoort mijn verantwoording' (exacte unieke substring). ἀκούσατε aoristus-imperatief 2e-pers-mv (Paulus tot menigte). Huisvorm bevestigd via ACT 7:2/13:16 `luister`. 
+- **[RG40-010] (imperatief_meervoud_t)** komt te hulp
+  - regel: ARCHAISMEN.md:78 imperatief-mv `-t` → stam; fix: komt te hulp! → kom te hulp!
+  - verdict: **red_wins** (scope=ACT 21:28 (hoofdtekst): 'komt te hulp' → 'kom te hulp'., applied=False) — Spot-verified: ACT 21:28 draagt nog 'komt te hulp' (exacte unieke substring; disjunct van RG40-004 old-string in hetzelfde vers). βοηθεῖτε praesens-imperatief 2e-pers-mv = SV-imperatief-mv-`-t` → stam
+- **[RG40-011] (fossiel_genitief)** de volharding der heiligen
+  - regel: MODERNISATIE.md §2.3c losse possessief-genitief ontvouwt naar 'van'; rules_data.py FOSSIL_GENITIVE_PAIRS-entry ('der','heiligen') is bedoeld voor 'Heilige der heiligen' (allowlist-lek, R35-Joden/R37-aarde-precedent); fix: de volharding der heiligen → de volharding van de heiligen (idem 13:10/17:6/19:8)
+  - verdict: **red_wins** (scope=REV 13:10 ('het geloof der heiligen' → 'het geloof van de heiligen'), REV 14:12 ('de volharding der heiligen' → 'de volharding van de heiligen'), REV 17:6 ('het bloed der heiligen' → 'het bloed van de heiligen'), REV 19:8 ('de rechtvaardigmakingen der heiligen' → 'de rechtvaardigmakingen van de heiligen'). Content-only; REV 15:3 ongewijzigd; allowlist ongewijzigd., applied=False) — Spot-verified: REV 13:10/14:12/17:6/19:8 dragen elk de hoofdtekst-bezitsgenitief 'der heiligen' (exacte unieke substrings bevestigd: 'het geloof der heiligen', 'de volharding der heiligen', 'het bloed

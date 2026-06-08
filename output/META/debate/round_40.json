@@ -1,0 +1,349 @@
+{
+  "round_no": 40,
+  "books": ["REV", "ACT"],
+  "red": [
+    {
+      "id": "RG40-001",
+      "class": "false_friend",
+      "books": ["ACT"],
+      "chapter": 18,
+      "verse": 11,
+      "quote": "leerde onder hen het woord van God",
+      "in_kanttekening": false,
+      "rule_reference": "ARCHAISMEN.md:147 false friend `leren`/`leerde` (διδάσκω, transitief-didactisch, leraar-subject) → onderwijzen/onderwees; NT-wide red_wins 2JN(RG16-003)/2PE(RG30-009); R35 verdict[4] (apply-residu)",
+      "explanation": "διδάσκων ἐν αὐτοῖς τὸν λόγον τοῦ Θεοῦ — Paulus die anderhalf jaar te Korinthe het woord van God doceert (διδάσκω, teacher-subject, geen μανθάνω). Modern `leerde` leest primair als 'zelf opnemen/studeren' (false friend). Dit vers werd in R35 verdict[4] EXPLICIET als nog-te-fixen apply-treffer benoemd ('4:18/18:11/20:20 zijn ander-verse → eigen apply-treffers, niet dit verdict'), maar de fix is nooit toegepast; 18:11 draagt nog `leerde`. ACT gebruikt elders al onderwijzen/onderwees (5:25, 5:28, 5:42, 8:31, 21:21).",
+      "proposed_fix": "leerde onder hen het woord van God → onderwees onder hen het woord van God",
+      "severity": "high"
+    },
+    {
+      "id": "RG40-002",
+      "class": "false_friend",
+      "books": ["ACT"],
+      "chapter": 20,
+      "verse": 20,
+      "quote": "u te leren",
+      "in_kanttekening": false,
+      "rule_reference": "ARCHAISMEN.md:147 false friend `leren` (διδάσκω, transitief-didactisch) → onderwijzen; R35 verdict[4] (apply-residu)",
+      "explanation": "διδάξαι ὑμᾶς δημοσίᾳ καὶ κατ’ οἴκους — Paulus die de gelovigen onderricht in het openbaar en bij de huizen (διδάσκω-aoristus, teacher-subject). Eveneens benoemd als openstaande apply-treffer in R35 verdict[4], nooit toegepast. Vgl. het naburige 5:42 'bij de huizen te onderwijzen' dat in R35 wél gefixt werd; 20:20 bleef achter.",
+      "proposed_fix": "het u te verkondigen en u te leren → het u te verkondigen en u te onderwijzen",
+      "severity": "high"
+    },
+    {
+      "id": "RG40-003",
+      "class": "false_friend",
+      "books": ["ACT"],
+      "chapter": 4,
+      "verse": 18,
+      "quote": "noch leren",
+      "in_kanttekening": false,
+      "rule_reference": "ARCHAISMEN.md:147 false friend `leren` (διδάσκω) → onderwijzen; R35 verdict[4] (apply-residu)",
+      "explanation": "παρήγγειλαν αὐτοῖς ... μηδὲ διδάσκειν ἐπὶ τῷ ὀνόματι τοῦ Ἰησοῦ — het Sanhedrin verbiedt de apostelen te spreken en te doceren in Jezus' naam (διδάσκω-infinitief, teacher-subject). Derde van de in R35 verdict[4] genoemde-maar-niet-toegepaste apply-treffers; 4:18 draagt nog `leren`.",
+      "proposed_fix": "in het geheel niet zouden spreken, noch leren → in het geheel niet zouden spreken, noch onderwijzen",
+      "severity": "high"
+    },
+    {
+      "id": "RG40-004",
+      "class": "false_friend",
+      "books": ["ACT"],
+      "chapter": 21,
+      "verse": 28,
+      "quote": "leert",
+      "in_kanttekening": false,
+      "rule_reference": "ARCHAISMEN.md:147 false friend `leren`/`leert` (διδάσκω) → onderwijzen; R33 red[2]/proposed_fix (expliciet 21:28 → 'onderwijst', nooit toegepast)",
+      "explanation": "ὁ ... πάντας πανταχοῦ διδάσκων — de aanklacht dat Paulus overal aan iedereen onderricht tegen volk, wet en tempel (διδάσκω-participium, teacher-subject). R33 stelde letterlijk voor '21:28 overal aan iedereen onderwijst' te harmoniseren, maar de fix landde nooit; 21:28 draagt nog `leert`. NB: `leert` is hier syntactisch ingebed in 'overal aan [ieder] ... leert'.",
+      "proposed_fix": "deze plaats overal aan [ieder] leert → deze plaats overal aan [ieder] onderwijst",
+      "severity": "high"
+    },
+    {
+      "id": "RG40-005",
+      "class": "false_friend",
+      "books": ["ACT"],
+      "chapter": 11,
+      "verse": 26,
+      "quote": "een grote schare leerden",
+      "in_kanttekening": false,
+      "rule_reference": "ARCHAISMEN.md:147 false friend `leerden` (διδάσκω) → onderwezen; concordantiedrift binnen ACT",
+      "explanation": "διδάξαι ὄχλον ἱκανόν — Barnabas en Saulus die een aanzienlijke schare onderrichten in de gemeente (διδάσκω-aoristus, teacher-subject; ὄχλος→schare is correct). `leerden` leest modern als 'zelf opnamen'. Zelfde διδάσκω-false-friend als de reeds beslechte ACT-verzen; niet eerder geflagd.",
+      "proposed_fix": "een grote schare leerden → een grote schare onderwezen",
+      "severity": "medium"
+    },
+    {
+      "id": "RG40-006",
+      "class": "false_friend",
+      "books": ["ACT"],
+      "chapter": 15,
+      "verse": 1,
+      "quote": "leerden de broeders",
+      "in_kanttekening": false,
+      "rule_reference": "ARCHAISMEN.md:147 false friend `leerden` (διδάσκω) → onderwezen; concordantiedrift binnen ACT",
+      "explanation": "ἐδίδασκον τοὺς ἀδελφούς — de uit Judea afgekomen mannen die de broeders onderrichten dat besnijdenis nodig is (διδάσκω-imperfectum, teacher-subject). Dwaalleer-doceren, identiek aan de in R33 beslechte kanttekening-gevallen over Cerinthus c.s.; hoofdtekst-instantie niet eerder geflagd.",
+      "proposed_fix": "leerden de broeders → onderwezen de broeders",
+      "severity": "medium"
+    },
+    {
+      "id": "RG40-007",
+      "class": "false_friend",
+      "books": ["ACT"],
+      "chapter": 15,
+      "verse": 35,
+      "quote": "zij leerden en",
+      "in_kanttekening": false,
+      "rule_reference": "ARCHAISMEN.md:147 false friend `leerden` (διδάσκοντες) → onderwezen; concordantiedrift binnen ACT",
+      "explanation": "διδάσκοντες καὶ εὐαγγελιζόμενοι — Paulus en Barnabas die te Antiochië onderwijzen en het evangelie verkondigen (διδάσκω-participium, teacher-subject). Exact het διδάσκοντες-geval dat in R35 verdict[4] voor 5:42 werd toegepast; 15:35 deelt dezelfde stam maar bleef `leerden`.",
+      "proposed_fix": "zij leerden en verkondigden → zij onderwezen en verkondigden",
+      "severity": "medium"
+    },
+    {
+      "id": "RG40-008",
+      "class": "imperatief_meervoud_t",
+      "books": ["ACT"],
+      "chapter": 2,
+      "verse": 22,
+      "quote": "hoort deze woorden",
+      "in_kanttekening": false,
+      "rule_reference": "ARCHAISMEN.md:78 imperatief-mv `-t` → stam; concordantie harmoniseert náár stam",
+      "explanation": "ἀκούσατε τοὺς λόγους τούτους — aoristus-imperatief 2e-pers-mv 'luister(t) naar deze woorden' (Petrus' aanspraak). `hoort` is de SV-imperatief-mv-`-t`-vorm en moet naar de stam. Bewijs van interne inconsistentie: in 13:16 wordt hetzelfde ἀκούσατε ('Israëlitische mannen ... luister') correct als modern `luister` (stam) gerenderd, terwijl 2:22 en 22:1 `hoort` dragen.",
+      "proposed_fix": "hoort deze woorden → hoor deze woorden (of: luister naar deze woorden)",
+      "severity": "medium"
+    },
+    {
+      "id": "RG40-009",
+      "class": "imperatief_meervoud_t",
+      "books": ["ACT"],
+      "chapter": 22,
+      "verse": 1,
+      "quote": "hoort mijn verantwoording",
+      "in_kanttekening": false,
+      "rule_reference": "ARCHAISMEN.md:78 imperatief-mv `-t` → stam",
+      "explanation": "ἀκούσατέ μου τῆς ... ἀπολογίας — aoristus-imperatief 2e-pers-mv (Paulus tot de menigte: 'luister naar mijn verdediging'). `hoort` = SV-imperatief-mv-`-t`; inconsistent met 13:16 'luister' (zelfde lemma ἀκούσατε).",
+      "proposed_fix": "hoort mijn verantwoording → hoor mijn verantwoording (of: luister naar mijn verantwoording)",
+      "severity": "medium"
+    },
+    {
+      "id": "RG40-010",
+      "class": "imperatief_meervoud_t",
+      "books": ["ACT"],
+      "chapter": 21,
+      "verse": 28,
+      "quote": "komt te hulp",
+      "in_kanttekening": false,
+      "rule_reference": "ARCHAISMEN.md:78 imperatief-mv `-t` → stam",
+      "explanation": "Ἄνδρες Ἰσραηλῖται, βοηθεῖτε — βοηθεῖτε is praesens-imperatief 2e-pers-mv 'helpt!/komt te hulp!' (de Joden die de menigte oproepen). `komt` is de SV-imperatief-mv-`-t`-vorm en moet naar de stam `kom`. Zelfde vers draagt óók de διδάσκω-false-friend (RG40-004).",
+      "proposed_fix": "komt te hulp! → kom te hulp!",
+      "severity": "medium"
+    },
+    {
+      "id": "RG40-011",
+      "class": "fossiel_genitief",
+      "books": ["REV"],
+      "chapter": 14,
+      "verse": 12,
+      "quote": "de volharding der heiligen",
+      "in_kanttekening": false,
+      "rule_reference": "MODERNISATIE.md §2.3c losse possessief-genitief ontvouwt naar 'van'; rules_data.py FOSSIL_GENITIVE_PAIRS-entry ('der','heiligen') is bedoeld voor 'Heilige der heiligen' (allowlist-lek, R35-Joden/R37-aarde-precedent)",
+      "explanation": "ὑπομονὴ τῶν ἁγίων — een gewone possessief/subjectsgenitief ('de volharding van de heiligen'), GEEN gestolde formule. De whitelist-entry ('der','heiligen') in rules_data.py is gecommentarieerd 'Heilige der heiligen' (ἅγια τῶν ἁγίων, het tempelheiligdom) — die formule komt in heel REV/ACT NIET als hoofdtekst voor. De generieke (artikel,zn)-match maskeert dus uitsluitend gewone bezitsgenitieven 'der heiligen', exact het lek dat R35 voor 'der Joden' en R37 voor 'der aarde' al sloot. Idem 13:10 ('het geloof der heiligen', ἡ πίστις τῶν ἁγίων), 17:6 ('het bloed der heiligen', τοῦ αἵματος τῶν ἁγίων), 19:8 ('de rechtvaardigmakingen der heiligen', τὰ δικαιώματα τῶν ἁγίων). Aanbevolen: content-only ontvouwing in 13:10/14:12/17:6/19:8 (15:3 'Koning der heiligen' blijft titel-apposito, vgl. 'Koning der Joden').",
+      "proposed_fix": "de volharding der heiligen → de volharding van de heiligen (idem 13:10/17:6/19:8)",
+      "severity": "medium"
+    }
+  ],
+  "green": [
+    {
+      "point_id": "RG40-001",
+      "stance": "concede",
+      "rebuttal": "Akkoord. SRC: διδάσκων ἐν αὐτοῖς τὸν λόγον τοῦ Θεοῦ — participium van διδάσκω met leraar-subject (Paulus doceert anderhalf jaar te Korinthe het woord van God), geen μανθάνω. Modern `leerde` = false friend ('zelf opnemen'). R35 verdict[4] (decisions.jsonl regel 403, RG35-005) benoemde 18:11 expliciet als 'eigen apply-treffer, niet dit verdict' — nooit toegepast. ACT gebruikt elders onderwijzen/onderwees.",
+      "evidence": "ARCHAISMEN.md:147 διδάσκω; decisions.jsonl RG35-005 (deferred-niet-toegepast)",
+      "fixes": [
+        {"book": "ACT", "chapter": 18, "verse": 11, "old": "leerde onder hen het woord van God", "new": "onderwees onder hen het woord van God", "lemma": "διδάσκων", "in_kanttekening": false}
+      ]
+    },
+    {
+      "point_id": "RG40-002",
+      "stance": "concede",
+      "rebuttal": "Akkoord. SRC: τοῦ μὴ ἀναγγεῖλαι ὑμῖν καὶ διδάξαι ὑμᾶς — διδάξαι aoristus-infinitief van διδάσκω, leraar-subject (Paulus onderricht de gelovigen in het openbaar en bij de huizen). `te leren` false friend. Eveneens openstaande apply-treffer uit RG35-005, niet toegepast; naburig 5:42 'bij de huizen te onderwijzen' werd wél gefixt.",
+      "evidence": "ARCHAISMEN.md:147 διδάσκω (διδάξαι); decisions.jsonl RG35-005",
+      "fixes": [
+        {"book": "ACT", "chapter": 20, "verse": 20, "old": "u te leren", "new": "u te onderwijzen", "lemma": "διδάξαι", "in_kanttekening": false}
+      ]
+    },
+    {
+      "point_id": "RG40-003",
+      "stance": "concede",
+      "rebuttal": "Akkoord. SRC: μηδὲ διδάσκειν ἐπὶ τῷ ὀνόματι τοῦ Ἰησοῦ — διδάσκειν infinitief van διδάσκω; het Sanhedrin verbiedt de apostelen te spreken en te doceren in Jezus' naam (leraar-subject). `leren` false friend. Derde van de in RG35-005 genoemde-maar-niet-toegepaste treffers.",
+      "evidence": "ARCHAISMEN.md:147 διδάσκω (διδάσκειν); decisions.jsonl RG35-005",
+      "fixes": [
+        {"book": "ACT", "chapter": 4, "verse": 18, "old": "noch leren", "new": "noch onderwijzen", "lemma": "διδάσκειν", "in_kanttekening": false}
+      ]
+    },
+    {
+      "point_id": "RG40-004",
+      "stance": "concede",
+      "rebuttal": "Akkoord. SRC: ... πάντας πανταχοῦ διδάσκων — participium van διδάσκω, leraar-subject (de aanklacht dat Paulus overal aan iedereen onderricht tegen volk, wet en tempel). `leert` false friend. R33 (decisions.jsonl RG33-003, regel 384) benoemde 21:28 διδάσκων expliciet als parallel bij de toegepaste 21:21-fix, maar 21:28 zelf bleef ongewijzigd.",
+      "evidence": "ARCHAISMEN.md:147 διδάσκω (διδάσκων); decisions.jsonl RG33-003 (21:28 parallel benoemd, niet toegepast)",
+      "fixes": [
+        {"book": "ACT", "chapter": 21, "verse": 28, "old": "deze plaats overal aan [ieder] leert", "new": "deze plaats overal aan [ieder] onderwijst", "lemma": "διδάσκων", "in_kanttekening": false}
+      ]
+    },
+    {
+      "point_id": "RG40-005",
+      "stance": "concede",
+      "rebuttal": "Akkoord. SRC: ... καὶ διδάξαι ὄχλον ἱκανόν — διδάξαι aoristus-infinitief; subject is Barnabas en Saulus (vers 25-26) die een aanzienlijke schare onderrichten in de gemeente te Antiochië. Leraar-subject, geen μανθάνω. ὄχλος→schare is correct. `leerden` false friend.",
+      "evidence": "ARCHAISMEN.md:147 διδάσκω (διδάξαι), subject Barnabas+Saulus",
+      "fixes": [
+        {"book": "ACT", "chapter": 11, "verse": 26, "old": "een grote schare leerden", "new": "een grote schare onderwezen", "lemma": "διδάξαι", "in_kanttekening": false}
+      ]
+    },
+    {
+      "point_id": "RG40-006",
+      "stance": "concede",
+      "rebuttal": "Akkoord. SRC: ἐδίδασκον τοὺς ἀδελφούς — imperfectum van διδάσκω, leraar-subject (de uit Judea afgekomen mannen die de broeders dwaalleer onderrichten over besnijdenis). `leerden` false friend; identiek aan de in R33 beslechte Cerinthus-doceergevallen.",
+      "evidence": "ARCHAISMEN.md:147 διδάσκω (ἐδίδασκον)",
+      "fixes": [
+        {"book": "ACT", "chapter": 15, "verse": 1, "old": "leerden de broeders", "new": "onderwezen de broeders", "lemma": "ἐδίδασκον", "in_kanttekening": false}
+      ]
+    },
+    {
+      "point_id": "RG40-007",
+      "stance": "concede",
+      "rebuttal": "Akkoord. SRC: διδάσκοντες καὶ εὐαγγελιζόμενοι — διδάσκοντες participium, leraar-subject (Paulus en Barnabas onderwijzen en verkondigen te Antiochië). Exact dezelfde διδάσκοντες-stam die in RG35-005 voor 5:42 werd toegepast; 15:35 deelt de stam maar bleef `leerden`.",
+      "evidence": "ARCHAISMEN.md:147 διδάσκω (διδάσκοντες); precedent RG35-005",
+      "fixes": [
+        {"book": "ACT", "chapter": 15, "verse": 35, "old": "zij leerden en", "new": "zij onderwezen en", "lemma": "διδάσκοντες", "in_kanttekening": false}
+      ]
+    },
+    {
+      "point_id": "RG40-008",
+      "stance": "concede",
+      "rebuttal": "Akkoord op het archaïsme; doelvorm aangepast naar de huisvorm. SRC: ἀκούσατε τοὺς λόγους τούτους — aoristus-imperatief 2e-pers-mv. `hoort` = SV-imperatief-mv-`-t`. ACT rendert dit lemma elders consequent als `luister` (stem): 7:2 ('Mannen broeders en vaders, luister', ἀκούσατε) en 13:16 ('luister', ἀκούσατε). Voor concordantie binnen ACT wordt de huisvorm `luister naar ...` gevolgd, niet de bare stem `hoor`.",
+      "evidence": "ARCHAISMEN.md:78 imperatief-mv -t; intra-ACT huisvorm ACT 7:2 + 13:16 (ἀκούσατε→luister)",
+      "fixes": [
+        {"book": "ACT", "chapter": 2, "verse": 22, "old": "hoort deze woorden", "new": "luister naar deze woorden", "lemma": "ἀκούσατε", "in_kanttekening": false}
+      ]
+    },
+    {
+      "point_id": "RG40-009",
+      "stance": "concede",
+      "rebuttal": "Akkoord op het archaïsme; doelvorm de huisvorm. SRC: ἀκούσατέ μου τῆς ... ἀπολογίας — aoristus-imperatief 2e-pers-mv (Paulus tot de menigte). `hoort` inconsistent met 7:2/13:16 `luister`. Doelvorm `luister naar mijn verantwoording`.",
+      "evidence": "ARCHAISMEN.md:78 imperatief-mv -t; intra-ACT huisvorm ACT 7:2 + 13:16",
+      "fixes": [
+        {"book": "ACT", "chapter": 22, "verse": 1, "old": "hoort mijn verantwoording", "new": "luister naar mijn verantwoording", "lemma": "ἀκούσατε", "in_kanttekening": false}
+      ]
+    },
+    {
+      "point_id": "RG40-010",
+      "stance": "concede",
+      "rebuttal": "Akkoord. SRC: Ἄνδρες Ἰσραηλῖται, βοηθεῖτε — βοηθεῖτε praesens-imperatief 2e-pers-mv ('helpt!/komt te hulp!'). `komt` = SV-imperatief-mv-`-t` → stam `kom`. Niet de copula/non-imperatieven raken. Zelfde vers draagt ook RG40-004 (διδάσκω `leert`); old-strings zijn disjunct.",
+      "evidence": "ARCHAISMEN.md:78 imperatief-mv -t (βοηθεῖτε)",
+      "fixes": [
+        {"book": "ACT", "chapter": 21, "verse": 28, "old": "komt te hulp", "new": "kom te hulp", "lemma": "βοηθεῖτε", "in_kanttekening": false}
+      ]
+    },
+    {
+      "point_id": "RG40-011",
+      "stance": "concede",
+      "rebuttal": "Akkoord — allowlist-lek bevestigd, content-only ontvouwing aanbevolen. rules_data.py:117 bevat ('der','heiligen') in FOSSIL_GENITIVE_PAIRS met commentaar '# Heilige der heiligen'. Die gestolde tempelformule (ἅγια τῶν ἁγίων) komt in REV/ACT UITSLUITEND binnen kanttekeningen voor (REV 2:17, REV 9:13, ACT 27:9), NOOIT als hoofdtekst-'der heiligen'. De generieke (artikel,zn)-match maskeert dus alleen gewone bezitsgenitieven τῶν ἁγίων in de hoofdtekst — exact het lek dat R35 voor 'der Joden' (verplaatst naar FOSSIL_GENITIVE_HEAD_PAIRS) en R37 voor 'der aarde' al adresseerde. VOLLEDIGE INVENTARIS REV/ACT 'der heiligen': hoofdtekst-bezitsgenitieven (te ontvouwen) = REV 13:10 (ἡ πίστις τῶν ἁγίων), REV 14:12 (ὑπομονὴ τῶν ἁγίων), REV 17:6 (τοῦ αἵματος τῶν ἁγίων), REV 19:8 (τὰ δικαιώματα τῶν ἁγίων); BLIJFT = REV 15:3 'Koning der heiligen' (titel-apposito, vgl. Koning der Joden); BLIJFT (kanttekening, gestolde formule) = REV 2:17, REV 9:13, ACT 27:9 'Heilige der heiligen' en ACT 2:42 'der heiligen' (binnen note). 'Heilige der heiligen' komt NT-breed wél nog in de hoofdtekst voor in o.a. HEB (HEB 9:3 e.a.), MAT 27, LUK 1, dus de allowlist-entry blijft elders nodig. AANBEVELING: content-only ontvouwing van de 4 REV-hoofdteksttreffers (zoals R37 der-aarde), GEEN validator-wijziging — de allowlist-entry niet schrappen (HEB heeft hem nodig); een kop-gekwalificeerde variant ('heilige','der','heiligen') in FOSSIL_GENITIVE_HEAD_PAIRS zou de regelmatige fix robuuster maken maar vergt user-confirm en is niet vereist voor deze ronde.",
+      "evidence": "rules_data.py:117 ('der','heiligen') generieke pair; ἅγια τῶν ἁγίων alleen in notes REV 2:17/9:13/ACT 27:9; HEB 9:3 e.a. behoudbehoefte; precedent R35 der-Joden / R37 der-aarde",
+      "fixes": [
+        {"book": "REV", "chapter": 13, "verse": 10, "old": "het geloof der heiligen", "new": "het geloof van de heiligen", "lemma": "τῶν ἁγίων", "in_kanttekening": false},
+        {"book": "REV", "chapter": 14, "verse": 12, "old": "de volharding der heiligen", "new": "de volharding van de heiligen", "lemma": "τῶν ἁγίων", "in_kanttekening": false},
+        {"book": "REV", "chapter": 17, "verse": 6, "old": "het bloed der heiligen", "new": "het bloed van de heiligen", "lemma": "τῶν ἁγίων", "in_kanttekening": false},
+        {"book": "REV", "chapter": 19, "verse": 8, "old": "de rechtvaardigmakingen der heiligen", "new": "de rechtvaardigmakingen van de heiligen", "lemma": "τῶν ἁγίων", "in_kanttekening": false}
+      ]
+    }
+  ],
+  "verdicts": [
+    {
+      "point_id": "RG40-001",
+      "verdict": "red_wins",
+      "rationale": "Spot-verified: ACT 18:11 draagt nog letterlijk 'leerde onder hen het woord van God' (exacte, unieke substring bevestigd in output/ACT/ACT.18.json). διδάσκων = participium διδάσκω, leraar-subject (Paulus). False friend `leerde` → `onderwees`. Sluit een in R35 verdict[4]/RG35-005 expliciet benoemde-maar-nooit-toegepaste apply-treffer.",
+      "scope": "ACT 18:11 (hoofdtekst): 'leerde onder hen het woord van God' → 'onderwees onder hen het woord van God'.",
+      "applied": false
+    },
+    {
+      "point_id": "RG40-002",
+      "verdict": "red_wins",
+      "rationale": "διδάξαι aoristus-infinitief διδάσκω, leraar-subject (Paulus onderricht in openbaar en bij huizen). False friend `te leren` → `te onderwijzen`. Openstaande apply-treffer uit R35 verdict[4]/RG35-005, naburig 5:42 was wél gefixt. Sluit unapplied-deferred treffer.",
+      "scope": "ACT 20:20 (hoofdtekst): 'u te leren' → 'u te onderwijzen'.",
+      "applied": false
+    },
+    {
+      "point_id": "RG40-003",
+      "verdict": "red_wins",
+      "rationale": "διδάσκειν infinitief διδάσκω, leraar-subject (Sanhedrin verbiedt apostelen te doceren). False friend `leren` → `onderwijzen`. Derde van de in R35 verdict[4]/RG35-005 genoemde-maar-niet-toegepaste treffers. Sluit unapplied-deferred treffer.",
+      "scope": "ACT 4:18 (hoofdtekst): 'noch leren' → 'noch onderwijzen'.",
+      "applied": false
+    },
+    {
+      "point_id": "RG40-004",
+      "verdict": "red_wins",
+      "rationale": "Spot-verified: ACT 21:28 draagt nog 'deze plaats overal aan [ieder] leert' (exacte unieke substring bevestigd). διδάσκων participium, leraar-subject (aanklacht tegen Paulus). False friend `leert` → `onderwijst`. R33 verdict/RG33-003 benoemde 21:28 als parallel bij toegepaste 21:21-fix maar landde nooit. Sluit unapplied-deferred treffer.",
+      "scope": "ACT 21:28 (hoofdtekst): 'deze plaats overal aan [ieder] leert' → 'deze plaats overal aan [ieder] onderwijst'.",
+      "applied": false
+    },
+    {
+      "point_id": "RG40-005",
+      "verdict": "red_wins",
+      "rationale": "διδάξαι aoristus-infinitief, subject Barnabas+Saulus (vs 25-26) die schare onderrichten. Leraar-subject, geen μανθάνω; ὄχλος→schare correct. False friend `leerden` → `onderwezen`. Nieuwe concordantiedrift-treffer.",
+      "scope": "ACT 11:26 (hoofdtekst): 'een grote schare leerden' → 'een grote schare onderwezen'.",
+      "applied": false
+    },
+    {
+      "point_id": "RG40-006",
+      "verdict": "red_wins",
+      "rationale": "ἐδίδασκον imperfectum διδάσκω, leraar-subject (Judese mannen onderrichten broeders met dwaalleer). False friend `leerden` → `onderwezen`. Identiek aan de in R33 beslechte doceergevallen. Nieuwe hoofdtekst-treffer.",
+      "scope": "ACT 15:1 (hoofdtekst): 'leerden de broeders' → 'onderwezen de broeders'.",
+      "applied": false
+    },
+    {
+      "point_id": "RG40-007",
+      "verdict": "red_wins",
+      "rationale": "διδάσκοντες participium διδάσκω, leraar-subject (Paulus+Barnabas onderwijzen en verkondigen te Antiochië). Exact dezelfde διδάσκοντες-stam als de voor 5:42 toegepaste RG35-005-fix. False friend `leerden` → `onderwezen`.",
+      "scope": "ACT 15:35 (hoofdtekst): 'zij leerden en' → 'zij onderwezen en'.",
+      "applied": false
+    },
+    {
+      "point_id": "RG40-008",
+      "verdict": "red_wins",
+      "rationale": "Spot-verified: ACT 2:22 draagt nog 'hoort deze woorden' (exacte unieke substring). ἀκούσατε aoristus-imperatief 2e-pers-mv = SV-imperatief-mv-`-t`. HUISVORM-BEVESTIGING: ACT 7:2 ('Mannen broeders en vaders, luister', ἀκούσατε) én ACT 13:16 ('Israëlitische mannen ... luister', ἀκούσατε) renderen dit lemma reeds als `luister` (zelf gecontroleerd in de bestanden). Daarom de huisvorm `luister naar deze woorden` i.p.v. bare stem `hoor`; concordantie harmoniseert náár de bestaande ACT-huisvorm.",
+      "scope": "ACT 2:22 (hoofdtekst): 'hoort deze woorden' → 'luister naar deze woorden'.",
+      "applied": false
+    },
+    {
+      "point_id": "RG40-009",
+      "verdict": "red_wins",
+      "rationale": "Spot-verified: ACT 22:1 draagt nog 'hoort mijn verantwoording' (exacte unieke substring). ἀκούσατε aoristus-imperatief 2e-pers-mv (Paulus tot menigte). Huisvorm bevestigd via ACT 7:2/13:16 `luister`. Doelvorm `luister naar mijn verantwoording`.",
+      "scope": "ACT 22:1 (hoofdtekst): 'hoort mijn verantwoording' → 'luister naar mijn verantwoording'.",
+      "applied": false
+    },
+    {
+      "point_id": "RG40-010",
+      "verdict": "red_wins",
+      "rationale": "Spot-verified: ACT 21:28 draagt nog 'komt te hulp' (exacte unieke substring; disjunct van RG40-004 old-string in hetzelfde vers). βοηθεῖτε praesens-imperatief 2e-pers-mv = SV-imperatief-mv-`-t` → stam `kom`.",
+      "scope": "ACT 21:28 (hoofdtekst): 'komt te hulp' → 'kom te hulp'.",
+      "applied": false
+    },
+    {
+      "point_id": "RG40-011",
+      "verdict": "red_wins",
+      "rationale": "Spot-verified: REV 13:10/14:12/17:6/19:8 dragen elk de hoofdtekst-bezitsgenitief 'der heiligen' (exacte unieke substrings bevestigd: 'het geloof der heiligen', 'de volharding der heiligen', 'het bloed der heiligen', 'de rechtvaardigmakingen der heiligen'). Alle = gewone possessief/subjectsgenitief τῶν ἁγίων, geen gestolde formule → ontvouwen naar 'van de heiligen' (MODERNISATIE.md §2.3c; precedent R35 der-Joden / R37 der-aarde). BEVESTIGD: REV 15:3 'u Koning der heiligen' blijft (titel-apposito, vgl. Koning der Joden) — niet aangeraakt. BEVESTIGD: allowlist-entry ('der','heiligen') in rules_data.py:117 blijft staan, want 'Heilige der heiligen' komt NT-breed nog als hoofdtekst voor in HEB (geverifieerd: HEB.9.json e.a.). Content-only ontvouwing; allowlist niet geschrapt. SUB-ITEM (DEFERRED, needs_user_confirm): optionele kop-gekwalificeerde variant ('heilige','der','heiligen') in FOSSIL_GENITIVE_HEAD_PAIRS zou de validator-fix robuuster maken maar is GEEN onderdeel van deze ronde en vergt user-bevestiging; geen validator-wijziging dit ronde.",
+      "scope": "REV 13:10 ('het geloof der heiligen' → 'het geloof van de heiligen'), REV 14:12 ('de volharding der heiligen' → 'de volharding van de heiligen'), REV 17:6 ('het bloed der heiligen' → 'het bloed van de heiligen'), REV 19:8 ('de rechtvaardigmakingen der heiligen' → 'de rechtvaardigmakingen van de heiligen'). Content-only; REV 15:3 ongewijzigd; allowlist ongewijzigd.",
+      "applied": false,
+      "needs_user_confirm": true
+    }
+  ],
+  "no_rule_change": true,
+  "rule_change_note": "RG40-011 is content-only (4 REV-hoofdteksttreffers ontvouwd); de FOSSIL_GENITIVE_PAIRS-allowlist-entry ('der','heiligen') in rules_data.py:117 blijft ongewijzigd omdat 'Heilige der heiligen' NT-breed nog als hoofdtekst nodig is (HEB 9:3 e.a.). Geen validator-/regelwijziging deze ronde. De optionele FOSSIL_GENITIVE_HEAD_PAIRS-kopkwalificatie is gemarkeerd DEFERRED + needs_user_confirm.",
+  "didasko_completeness_ACT": {
+    "status": "not_fully_harmonized_after_round",
+    "harmonized_by_round_40": ["ACT 4:18", "ACT 11:26", "ACT 15:1", "ACT 15:35", "ACT 18:11", "ACT 20:20", "ACT 21:28"],
+    "remaining_teacher_subject_drift_DEFERRED": [
+      {"ref": "ACT 1:1", "current": "zowel te doen als te leren", "greek": "ποιεῖν τε καὶ διδάσκειν (διδάσκω, leraar-subject = Jezus)", "recommended": "zowel te doen als te onderwijzen", "note": "Niet in RG40-scope; verse genoemd in geen eerder verdict. Verse-0/inleidings-zin maar wél hoofdtekst-διδάσκω teacher-subject → drift; aanbevolen als nieuwe red-treffer in volgende ronde."},
+      {"ref": "ACT 18:25", "current": "sprak hij en leerde naarstig de zaken van de Heere", "greek": "ἐδίδασκεν ἀκριβῶς τὰ περὶ τοῦ Ἰησοῦ (διδάσκω, leraar-subject = Apollos)", "recommended": "sprak hij en onderwees naarstig de zaken van de Heere", "note": "Niet in RG40-scope; nieuwe ongeflagde διδάσκω-false-friend; aanbevolen als nieuwe red-treffer in volgende ronde. (Kanttekening van 18:25 bevat μανθάνω 'discipelen geleerd' en znw. 'leer' — die blijven.)"}
+    ],
+    "legitimate_leer_forms_stay": [
+      {"ref": "ACT 2:42", "form": "de leer van de Apostelen", "reason": "znw. διδαχή (teaching) — blijft"},
+      {"ref": "ACT 5:28", "form": "met deze uw leer", "reason": "znw. διδαχή — blijft"},
+      {"ref": "ACT 13:12", "form": "versteld over de leer van de Heere", "reason": "znw. διδαχή — blijft"},
+      {"ref": "ACT 17:19", "form": "welke deze nieuwe leer is", "reason": "znw. διδαχή — blijft"}
+    ]
+  }
+}
