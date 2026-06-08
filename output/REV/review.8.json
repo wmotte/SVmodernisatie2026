@@ -1,27 +1,13 @@
 {
   "book": "REV",
   "chapter": 8,
-  "reviewed_at": "2026-05-29T15:30:39+00:00",
+  "reviewed_at": "2026-06-08T13:20:44+00:00",
   "passes": [
     {
       "pass": 1,
-      "ran_at": "2026-05-29T15:28:22+00:00",
+      "ran_at": "2026-06-08T13:20:44+00:00",
       "mode": "scan",
       "issues_total": 7
-    },
-    {
-      "pass": 2,
-      "ran_at": "2026-05-29T15:30:39+00:00",
-      "mode": "verify",
-      "actions": [
-        "REV-8-1-001: rebuttal verified",
-        "REV-8-3-001: rebuttal verified",
-        "REV-8-5-001: rebuttal verified",
-        "REV-8-7-001: rebuttal verified",
-        "REV-8-8-001: rebuttal verified",
-        "REV-8-10-001: rebuttal verified",
-        "REV-8-2-001: rebuttal verified"
-      ]
     }
   ],
   "issues": [
@@ -35,9 +21,8 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-8-1-001",
-      "status": "verified",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
-      "verified_at": "2026-05-29T15:30:39+00:00"
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
     },
     {
       "category": "kanttekening-redundantie",
@@ -49,9 +34,8 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-8-3-001",
-      "status": "verified",
-      "rebuttal": "Lemma-gloss-conventie (KANTTEKENINGEN.md): de kanttekening citeert het lemma 'op het gouden altaar' en glosseert het direct exegetisch — 'Dat is, op zichzelf, aan God tot een aangename reuk offert'. De overlap is het geannoteerde tekstelement (altaar = Christus zelf), geen parafrastische herhaling zonder toegevoegde waarde. Redundantie-regel viseert waardeloze duplicatie, niet lemma-verankering met allegorische duiding.",
-      "verified_at": "2026-05-29T15:30:39+00:00"
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] Lemma-gloss-conventie (KANTTEKENINGEN.md): de kanttekening citeert het lemma 'op het gouden altaar' en glosseert het direct exegetisch — 'Dat is, op zichzelf, aan God tot een aangename reuk offert'. De overlap is het geannoteerde tekstelement (altaar = Christus zelf), geen parafrastische herhaling zonder toegevoegde waarde. Redundantie-regel viseert waardeloze duplicatie, niet lemma-verankering met allegorische duiding."
     },
     {
       "category": "kanttekening-redundantie",
@@ -63,9 +47,8 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-8-5-001",
-      "status": "verified",
-      "rebuttal": "Lemma-gloss-conventie (KANTTEKENINGEN.md): kanttekening citeert lemma 'het vuur van het altaar' en voegt unieke exegese toe — de vurige begeerte van Christus dat onze gebeden bij zijn verdiensten aan God aangenaam zijn ($Jh. 17:24$). Tekstelement-verankering met inhoudelijke uitleg, geen lege herhaling.",
-      "verified_at": "2026-05-29T15:30:39+00:00"
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] Lemma-gloss-conventie (KANTTEKENINGEN.md): kanttekening citeert lemma 'het vuur van het altaar' en voegt unieke exegese toe — de vurige begeerte van Christus dat onze gebeden bij zijn verdiensten aan God aangenaam zijn ($Jh. 17:24$). Tekstelement-verankering met inhoudelijke uitleg, geen lege herhaling."
     },
     {
       "category": "kanttekening-redundantie",
@@ -77,9 +60,8 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-8-7-001",
-      "status": "verified",
-      "rebuttal": "Lemma-gloss-conventie (KANTTEKENINGEN.md): kanttekening citeert lemma 'een derde deel van de bomen' en levert allegorische sleutel — 'dat is, van de Leraars en andere aanzienlijke leden van de gemeente zijn verleid'. De overlap draagt de exegetische identificatie bomen=Leraars; geen parafrastische duplicatie.",
-      "verified_at": "2026-05-29T15:30:39+00:00"
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] Lemma-gloss-conventie (KANTTEKENINGEN.md): kanttekening citeert lemma 'een derde deel van de bomen' en levert allegorische sleutel — 'dat is, van de Leraars en andere aanzienlijke leden van de gemeente zijn verleid'. De overlap draagt de exegetische identificatie bomen=Leraars; geen parafrastische duplicatie."
     },
     {
       "category": "§2.3 finiet participium",
@@ -91,9 +73,8 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "REV-8-8-001",
-      "status": "verified",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'brandende' is hier predicatief in parallelle constructie met 'omgord zijn' (gapped copula): 'Laat uw lendenen omgord zijn, en de kaarsen brandende [zijn]'. Vertaalt λύχνοι καιόμενοι (predicatief participium na ἔστωσαν). §2.3 betreft adverbiale -ende clauses; predicatieve constructies vallen buiten reikwijdte.",
-      "verified_at": "2026-05-29T15:30:39+00:00"
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'brandende' is hier predicatief in parallelle constructie met 'omgord zijn' (gapped copula): 'Laat uw lendenen omgord zijn, en de kaarsen brandende [zijn]'. Vertaalt λύχνοι καιόμενοι (predicatief participium na ἔστωσαν). §2.3 betreft adverbiale -ende clauses; predicatieve constructies vallen buiten reikwijdte."
     },
     {
       "category": "kanttekening-redundantie",
@@ -105,9 +86,8 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-8-10-001",
-      "status": "verified",
-      "rebuttal": "Lemma-gloss-conventie (KANTTEKENINGEN.md): kanttekening citeert lemma 'brandende als een fakkel' om de grote ster te identificeren met Nestorius (Bisschop van Constantinopel), met historische duiding. Tekstverankering plus exegese, geen lege herhaling.",
-      "verified_at": "2026-05-29T15:30:39+00:00"
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] Lemma-gloss-conventie (KANTTEKENINGEN.md): kanttekening citeert lemma 'brandende als een fakkel' om de grote ster te identificeren met Nestorius (Bisschop van Constantinopel), met historische duiding. Tekstverankering plus exegese, geen lege herhaling."
     },
     {
       "category": "concordantie-drift",
@@ -124,9 +104,8 @@
         13
       ],
       "id": "REV-8-2-001",
-      "status": "verified",
-      "rebuttal": "Scanner-prefix-heuristiek false-positive: SV-stam 'basuyne' (Gr. σάλπιγξ/σαλπίζω) verschijnt zowel nominaal ('bazuinen') als verbaal ('gebazuind'), zodat de prefix-match faalt terwijl de concordantie consistent is — beide uit dezelfde stam, §-conform vertaald. Geen drift.",
-      "verified_at": "2026-05-29T15:30:39+00:00"
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] Scanner-prefix-heuristiek false-positive: SV-stam 'basuyne' (Gr. σάλπιγξ/σαλπίζω) verschijnt zowel nominaal ('bazuinen') als verbaal ('gebazuind'), zodat de prefix-match faalt terwijl de concordantie consistent is — beide uit dezelfde stam, §-conform vertaald. Geen drift."
     }
   ]
 }

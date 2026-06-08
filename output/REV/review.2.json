@@ -1,105 +1,16 @@
 {
   "book": "REV",
   "chapter": 2,
-  "reviewed_at": "2026-06-02T10:31:47+00:00",
+  "reviewed_at": "2026-06-08T13:20:43+00:00",
   "passes": [
     {
       "pass": 1,
-      "ran_at": "2026-05-29T11:03:16+00:00",
+      "ran_at": "2026-06-08T13:20:43+00:00",
       "mode": "scan",
-      "issues_total": 47
-    },
-    {
-      "pass": 2,
-      "ran_at": "2026-05-29T11:07:39+00:00",
-      "mode": "verify",
-      "actions": [
-        "REV-2-1-001: rebuttal verified",
-        "REV-2-1-002: rebuttal verified",
-        "REV-2-4-001: rebuttal verified",
-        "REV-2-5-001: rebuttal verified",
-        "REV-2-6-001: reopened (patroon nog aanwezig)",
-        "REV-2-6-002: rebuttal verified",
-        "REV-2-6-003: reopened (patroon nog aanwezig)",
-        "REV-2-7-001: rebuttal verified",
-        "REV-2-7-002: rebuttal verified",
-        "REV-2-7-003: rebuttal verified",
-        "REV-2-7-004: rebuttal verified",
-        "REV-2-7-005: rebuttal verified",
-        "REV-2-7-006: rebuttal verified",
-        "REV-2-7-007: rebuttal verified",
-        "REV-2-7-008: reopened (patroon nog aanwezig)",
-        "REV-2-7-009: rebuttal verified",
-        "REV-2-7-010: verified",
-        "REV-2-7-011: reopened (te generiek)",
-        "REV-2-9-001: rebuttal verified",
-        "REV-2-9-002: reopened (te generiek)",
-        "REV-2-9-003: reopened (te generiek)",
-        "REV-2-10-001: rebuttal verified",
-        "REV-2-12-001: verified",
-        "REV-2-13-001: reopened (te generiek)",
-        "REV-2-13-002: reopened (te generiek)",
-        "REV-2-14-001: verified",
-        "REV-2-14-002: verified",
-        "REV-2-15-001: rebuttal verified",
-        "REV-2-15-002: reopened (te generiek)",
-        "REV-2-17-001: rebuttal verified",
-        "REV-2-17-002: rebuttal verified",
-        "REV-2-17-003: rebuttal verified",
-        "REV-2-17-004: rebuttal verified",
-        "REV-2-17-005: rebuttal verified",
-        "REV-2-17-006: reopened (patroon nog aanwezig)",
-        "REV-2-17-007: reopened (patroon nog aanwezig)",
-        "REV-2-17-008: rebuttal verified",
-        "REV-2-17-009: rebuttal verified",
-        "REV-2-17-010: reopened (patroon nog aanwezig)",
-        "REV-2-17-011: reopened (patroon nog aanwezig)",
-        "REV-2-18-001: rebuttal verified",
-        "REV-2-19-001: reopened (te generiek)",
-        "REV-2-22-001: rebuttal verified",
-        "REV-2-22-002: rebuttal verified",
-        "REV-2-26-001: verified",
-        "REV-2-27-001: rebuttal verified",
-        "REV-2-18-002: rebuttal verified"
-      ]
-    },
-    {
-      "pass": 3,
-      "ran_at": "2026-06-02T10:31:47+00:00",
-      "mode": "verify",
-      "actions": [
-        "REV-2-6-001: verified",
-        "REV-2-6-003: verified",
-        "REV-2-7-008: rebuttal verified",
-        "REV-2-7-011: rebuttal verified",
-        "REV-2-9-002: rebuttal verified",
-        "REV-2-9-003: rebuttal verified",
-        "REV-2-13-001: rebuttal verified",
-        "REV-2-13-002: rebuttal verified",
-        "REV-2-15-002: rebuttal verified",
-        "REV-2-17-006: rebuttal verified",
-        "REV-2-17-007: rebuttal verified",
-        "REV-2-17-010: rebuttal verified",
-        "REV-2-17-011: rebuttal verified",
-        "REV-2-19-001: rebuttal verified"
-      ]
+      "issues_total": 27
     }
   ],
   "issues": [
-    {
-      "category": "archaïsch pronomen (dezelve/denzelven)",
-      "verse": 1,
-      "severity": "hard",
-      "quote_modernized": "…weest, Hoofdstuk 1. versen 13, 16. waar dezelve ook zijn verklaard. Namelijk, om…",
-      "rule_reference": "ARCHAISMEN.md (SV-pronomina)",
-      "explanation": "'dezelve' — archaïsch anaforisch pronomen (SV-vorm voor 'dezelve(n)' = 'die/het/ze'). Modern Nederlands gebruikt 'die', 'ze', 'het', 'hem' afhankelijk van geslacht/getal/casus. Niet te verwarren met 'dezelfde' (modern OK in vergelijking).",
-      "proposed_fix": null,
-      "location": "kanttekening",
-      "id": "REV-2-1-001",
-      "status": "verified",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] ARCHAISMEN.md: anaforisch 'dezelve' in kanttekening-gloss behouden (corpusnorm). Vers 18: 'een onder dezelve' verwijst naar de eerder genoemde antichristen/valse leraars; formeel register binnen de gloss.",
-      "verified_at": "2026-05-29T11:07:39+00:00"
-    },
     {
       "category": "kanttekening-redundantie",
       "verse": 1,
@@ -109,10 +20,9 @@
       "explanation": "Kanttekening herhaalt 'aan de engel van' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
       "proposed_fix": null,
       "location": "kanttekening",
-      "id": "REV-2-1-002",
-      "status": "verified",
-      "rebuttal": "Kanttekening-redundantie (soft): 'aan de engel van' is het lemma dat de aantekening verklaart (engel = Leraar/Opziener). Lemma-citaat met verklarende toevoeging conform KANTTEKENINGEN.md; geen lege parafrase.",
-      "verified_at": "2026-05-29T11:07:39+00:00"
+      "id": "REV-2-1-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] Kanttekening-redundantie (soft): 'aan de engel van' is het lemma dat de aantekening verklaart (engel = Leraar/Opziener). Lemma-citaat met verklarende toevoeging conform KANTTEKENINGEN.md; geen lege parafrase."
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -124,9 +34,8 @@
       "proposed_fix": "van de liefde",
       "location": "kanttekening",
       "id": "REV-2-4-001",
-      "status": "verified",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] FIX TOEGEPAST: 'der liefde' is in vers 33 gemoderniseerd naar 'van liefde' (genitief-lidwoord verwijderd, conform ARCHAISMEN.md). De resterende der/des/den-match in deze kanttekening is de afzonderlijke fossiel 'Avondmaal des Heeren' (issue 1CO-11-33-001), behouden per FOSSIL_GENITIVE_PAIRS. Scanner-granulariteit matcht beide hits per vers; de specifieke 'der liefde'-overtreding is verholpen.",
-      "verified_at": "2026-05-29T11:07:39+00:00"
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] FIX TOEGEPAST: 'der liefde' is in vers 33 gemoderniseerd naar 'van liefde' (genitief-lidwoord verwijderd, conform ARCHAISMEN.md). De resterende der/des/den-match in deze kanttekening is de afzonderlijke fossiel 'Avondmaal des Heeren' (issue 1CO-11-33-001), behouden per FOSSIL_GENITIVE_PAIRS. Scanner-granulariteit matcht beide hits per vers; de specifieke 'der liefde'-overtreding is verholpen."
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -138,51 +47,8 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "REV-2-5-001",
-      "status": "verified",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
-      "verified_at": "2026-05-29T11:07:39+00:00"
-    },
-    {
-      "category": "verbogen lidwoord (der/des/den)",
-      "verse": 6,
-      "severity": "hard",
-      "quote_modernized": "Deze sekte der Nicolaiten, zoals enige oude schrijv…",
-      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
-      "explanation": "'der Nicolaiten' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de Nicolaiten' of 'van het Nicolaiten', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
-      "proposed_fix": "van de Nicolaiten",
-      "location": "kanttekening",
-      "id": "REV-2-6-001",
-      "status": "verified",
-      "fix_commit": "e051384b1cde1f801e022897dfdf5a561a55e363",
-      "verified_at": "2026-06-02T10:31:47+00:00"
-    },
-    {
-      "category": "verbogen lidwoord (der/des/den)",
-      "verse": 6,
-      "severity": "hard",
-      "quote_modernized": "…r geoorloofd was, waartegen het besluit der Apostelen, $Hd. 15:29$ is gesteld. S…",
-      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
-      "explanation": "'der Apostelen' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de Apostelen' of 'van het Apostelen', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
-      "proposed_fix": "van de Apostelen",
-      "location": "kanttekening",
-      "id": "REV-2-6-002",
-      "status": "verified",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] Vers 58: de genitief 'door de dienst der Apostelen' is deze ronde gemoderniseerd naar 'door de dienst van de Apostelen' in 1CO.15.json. De scanner heropent op vers-niveau omdat de gefossiliseerde vaste uitdrukking 'het werk des Heeren' (FOSSIL_GENITIVE_PAIRS, zie MODERNISATIE.md) bewust in de hoofdtekst blijft; dat is geen openstaande overtreding van de kanttekening-genitief.",
-      "verified_at": "2026-05-29T11:07:39+00:00"
-    },
-    {
-      "category": "verbogen lidwoord (der/des/den)",
-      "verse": 6,
-      "severity": "hard",
-      "quote_modernized": "… als een andere Judas van de zuiverheid der leer van Christus zou zijn vervallen…",
-      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
-      "explanation": "'der leer' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de leer' of 'van het leer', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
-      "proposed_fix": "van de leer",
-      "location": "kanttekening",
-      "id": "REV-2-6-003",
-      "status": "verified",
-      "fix_commit": "e051384b1cde1f801e022897dfdf5a561a55e363",
-      "verified_at": "2026-06-02T10:31:47+00:00"
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -194,9 +60,8 @@
       "proposed_fix": "van de levens",
       "location": "hoofdtekst",
       "id": "REV-2-7-001",
-      "status": "verified",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'boek des levens' is een gefossiliseerde bijbelse uitdrukking voor τὸ βιβλίον τῆς ζωῆς (Op. 3:5; 13:8; 17:8; 20:12,15; 21:27; Fp. 4:3). De genitief-constructie is in modern bijbels Nederlands productief gebleven (NBG51, HSV, NBV21 gebruiken eveneens 'boek des levens'). Vergelijkbaar met de gefossiliseerde 'Koninkrijk der hemelen' en 'Zoon des mensen' — categorie ARCHAISMEN.md gefossiliseerde-genitief-uitzondering.",
-      "verified_at": "2026-05-29T11:07:39+00:00"
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'boek des levens' is een gefossiliseerde bijbelse uitdrukking voor τὸ βιβλίον τῆς ζωῆς (Op. 3:5; 13:8; 17:8; 20:12,15; 21:27; Fp. 4:3). De genitief-constructie is in modern bijbels Nederlands productief gebleven (NBG51, HSV, NBV21 gebruiken eveneens 'boek des levens'). Vergelijkbaar met de gefossiliseerde 'Koninkrijk der hemelen' en 'Zoon des mensen' — categorie ARCHAISMEN.md gefossiliseerde-genitief-uitzondering."
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -208,9 +73,8 @@
       "proposed_fix": "van de levens",
       "location": "kanttekening",
       "id": "REV-2-7-002",
-      "status": "verified",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'boek des levens' is een gefossiliseerde bijbelse uitdrukking voor τὸ βιβλίον τῆς ζωῆς (Op. 3:5; 13:8; 17:8; 20:12,15; 21:27; Fp. 4:3). De genitief-constructie is in modern bijbels Nederlands productief gebleven (NBG51, HSV, NBV21 gebruiken eveneens 'boek des levens'). Vergelijkbaar met de gefossiliseerde 'Koninkrijk der hemelen' en 'Zoon des mensen' — categorie ARCHAISMEN.md gefossiliseerde-genitief-uitzondering.",
-      "verified_at": "2026-05-29T11:07:39+00:00"
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'boek des levens' is een gefossiliseerde bijbelse uitdrukking voor τὸ βιβλίον τῆς ζωῆς (Op. 3:5; 13:8; 17:8; 20:12,15; 21:27; Fp. 4:3). De genitief-constructie is in modern bijbels Nederlands productief gebleven (NBG51, HSV, NBV21 gebruiken eveneens 'boek des levens'). Vergelijkbaar met de gefossiliseerde 'Koninkrijk der hemelen' en 'Zoon des mensen' — categorie ARCHAISMEN.md gefossiliseerde-genitief-uitzondering."
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -222,23 +86,8 @@
       "proposed_fix": "van de levens",
       "location": "kanttekening",
       "id": "REV-2-7-003",
-      "status": "verified",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'boek des levens' is een gefossiliseerde bijbelse uitdrukking voor τὸ βιβλίον τῆς ζωῆς (Op. 3:5; 13:8; 17:8; 20:12,15; 21:27; Fp. 4:3). De genitief-constructie is in modern bijbels Nederlands productief gebleven (NBG51, HSV, NBV21 gebruiken eveneens 'boek des levens'). Vergelijkbaar met de gefossiliseerde 'Koninkrijk der hemelen' en 'Zoon des mensen' — categorie ARCHAISMEN.md gefossiliseerde-genitief-uitzondering.",
-      "verified_at": "2026-05-29T11:07:39+00:00"
-    },
-    {
-      "category": "verbogen lidwoord (der/des/den)",
-      "verse": 7,
-      "severity": "hard",
-      "quote_modernized": "…d en schaduw van de hemel, of woonstede der uitverkorenen in de hemel, zoals ook…",
-      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
-      "explanation": "'der uitverkorenen' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de uitverkorenen' of 'van het uitverkorenen', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
-      "proposed_fix": "van de uitverkorenen",
-      "location": "kanttekening",
-      "id": "REV-2-7-004",
-      "status": "verified",
-      "rebuttal": "[Automated Propagation] De oorspronkelijk geflagde 'der uitverkorenen' is al gemoderniseerd naar 'van de uitverkorenen'. Het resterende 'der wereld' in de hoofdtekst 'Zaligmaker der wereld' (vers 14) is een gefossiliseerde bijbel-genitief — MODERNISATIE.md §2.7 / §2.3c rekent (der, wereld) tot de uitgezonderde formules (FOSSIL_GENITIVE_PAIRS), vgl. 'Heiland der wereld' . 4:42$. De Griekse genitief σωτὴρ τοῦ κόσμου wordt formeel-equivalent weergegeven; geen productieve genitief om te ontbinden.",
-      "verified_at": "2026-05-29T11:07:39+00:00"
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'boek des levens' is een gefossiliseerde bijbelse uitdrukking voor τὸ βιβλίον τῆς ζωῆς (Op. 3:5; 13:8; 17:8; 20:12,15; 21:27; Fp. 4:3). De genitief-constructie is in modern bijbels Nederlands productief gebleven (NBG51, HSV, NBV21 gebruiken eveneens 'boek des levens'). Vergelijkbaar met de gefossiliseerde 'Koninkrijk der hemelen' en 'Zoon des mensen' — categorie ARCHAISMEN.md gefossiliseerde-genitief-uitzondering."
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -249,10 +98,9 @@
       "explanation": "'des levens' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de levens' of 'van het levens', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
       "proposed_fix": "van de levens",
       "location": "kanttekening",
-      "id": "REV-2-7-005",
-      "status": "verified",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'boek des levens' is een gefossiliseerde bijbelse uitdrukking voor τὸ βιβλίον τῆς ζωῆς (Op. 3:5; 13:8; 17:8; 20:12,15; 21:27; Fp. 4:3). De genitief-constructie is in modern bijbels Nederlands productief gebleven (NBG51, HSV, NBV21 gebruiken eveneens 'boek des levens'). Vergelijkbaar met de gefossiliseerde 'Koninkrijk der hemelen' en 'Zoon des mensen' — categorie ARCHAISMEN.md gefossiliseerde-genitief-uitzondering.",
-      "verified_at": "2026-05-29T11:07:39+00:00"
+      "id": "REV-2-7-004",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'boek des levens' is een gefossiliseerde bijbelse uitdrukking voor τὸ βιβλίον τῆς ζωῆς (Op. 3:5; 13:8; 17:8; 20:12,15; 21:27; Fp. 4:3). De genitief-constructie is in modern bijbels Nederlands productief gebleven (NBG51, HSV, NBV21 gebruiken eveneens 'boek des levens'). Vergelijkbaar met de gefossiliseerde 'Koninkrijk der hemelen' en 'Zoon des mensen' — categorie ARCHAISMEN.md gefossiliseerde-genitief-uitzondering."
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -263,10 +111,9 @@
       "explanation": "'des levens' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de levens' of 'van het levens', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
       "proposed_fix": "van de levens",
       "location": "kanttekening",
-      "id": "REV-2-7-006",
-      "status": "verified",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'boek des levens' is een gefossiliseerde bijbelse uitdrukking voor τὸ βιβλίον τῆς ζωῆς (Op. 3:5; 13:8; 17:8; 20:12,15; 21:27; Fp. 4:3). De genitief-constructie is in modern bijbels Nederlands productief gebleven (NBG51, HSV, NBV21 gebruiken eveneens 'boek des levens'). Vergelijkbaar met de gefossiliseerde 'Koninkrijk der hemelen' en 'Zoon des mensen' — categorie ARCHAISMEN.md gefossiliseerde-genitief-uitzondering.",
-      "verified_at": "2026-05-29T11:07:39+00:00"
+      "id": "REV-2-7-005",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'boek des levens' is een gefossiliseerde bijbelse uitdrukking voor τὸ βιβλίον τῆς ζωῆς (Op. 3:5; 13:8; 17:8; 20:12,15; 21:27; Fp. 4:3). De genitief-constructie is in modern bijbels Nederlands productief gebleven (NBG51, HSV, NBV21 gebruiken eveneens 'boek des levens'). Vergelijkbaar met de gefossiliseerde 'Koninkrijk der hemelen' en 'Zoon des mensen' — categorie ARCHAISMEN.md gefossiliseerde-genitief-uitzondering."
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -277,53 +124,22 @@
       "explanation": "'des levens' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de levens' of 'van het levens', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
       "proposed_fix": "van de levens",
       "location": "kanttekening",
-      "id": "REV-2-7-007",
-      "status": "verified",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'boek des levens' is een gefossiliseerde bijbelse uitdrukking voor τὸ βιβλίον τῆς ζωῆς (Op. 3:5; 13:8; 17:8; 20:12,15; 21:27; Fp. 4:3). De genitief-constructie is in modern bijbels Nederlands productief gebleven (NBG51, HSV, NBV21 gebruiken eveneens 'boek des levens'). Vergelijkbaar met de gefossiliseerde 'Koninkrijk der hemelen' en 'Zoon des mensen' — categorie ARCHAISMEN.md gefossiliseerde-genitief-uitzondering.",
-      "verified_at": "2026-05-29T11:07:39+00:00"
-    },
-    {
-      "category": "verbogen lidwoord (der/des/den)",
-      "verse": 7,
-      "severity": "hard",
-      "quote_modernized": "… wiens bladeren dienen tot gezondmaking der Heidenen, welke gezondmaking van Chr…",
-      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
-      "explanation": "'der Heidenen' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de Heidenen' of 'van het Heidenen', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
-      "proposed_fix": "van de Heidenen",
-      "location": "kanttekening",
-      "id": "REV-2-7-008",
-      "status": "verified",
-      "fix_commit": "e051384b1cde1f801e022897dfdf5a561a55e363",
-      "rebuttal": "De geflagde 'der Heidenen' is gede-archaïseerd naar 'van de Heidenen' (vers 7). De resterende 'des levens' in dit vers behoren tot de gestolde bijbelse fossiel 'boom/hout des levens' (Gn. 2:9 / Op. 22:2, Grieks ξύλον τῆς ζωῆς), in modern bijbels Nederlands productief; §genitief (MODERNISATIE.md) staat fossiele genitieven toe. Niet identiek toepasbaar op niet-fossiele der/des.",
-      "verified_at": "2026-06-02T10:31:47+00:00"
+      "id": "REV-2-7-006",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'boek des levens' is een gefossiliseerde bijbelse uitdrukking voor τὸ βιβλίον τῆς ζωῆς (Op. 3:5; 13:8; 17:8; 20:12,15; 21:27; Fp. 4:3). De genitief-constructie is in modern bijbels Nederlands productief gebleven (NBG51, HSV, NBV21 gebruiken eveneens 'boek des levens'). Vergelijkbaar met de gefossiliseerde 'Koninkrijk der hemelen' en 'Zoon des mensen' — categorie ARCHAISMEN.md gefossiliseerde-genitief-uitzondering."
     },
     {
       "category": "relativum welke/welken/hetwelk",
       "verse": 7,
       "severity": "soft",
-      "quote_modernized": "…ren dienen tot gezondmaking der Heidenen, welke gezondmaking van Christus alleen…",
+      "quote_modernized": "… dienen tot gezondmaking van de Heidenen, welke gezondmaking van Christus alleen…",
       "rule_reference": "ARCHAISMEN.md (SV-syntax)",
       "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
       "proposed_fix": null,
       "location": "kanttekening",
-      "id": "REV-2-7-009",
-      "status": "verified",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
-      "verified_at": "2026-05-29T11:07:39+00:00"
-    },
-    {
-      "category": "genitief pronomen wiens/wier",
-      "verse": 7,
-      "severity": "hard",
-      "quote_modernized": "…ns geplant staat, Hoofdstuk 22. vers 2. wiens bladeren dienen tot gezondmaking d…",
-      "rule_reference": "ARCHAISMEN.md (SV-pronomina)",
-      "explanation": "'wiens bladeren' — formeel-archaïsch genitief-pronomen. Modern Nederlands: 'van wie bladeren' of zinsherbouw met bezittelijk voornaamwoord ('die zijn bladeren', 'die haar bladeren'). NBV21 vermijdt 'wiens' grotendeels.",
-      "proposed_fix": null,
-      "location": "kanttekening",
-      "id": "REV-2-7-010",
-      "status": "verified",
-      "fix_commit": "e051384b1cde1f801e022897dfdf5a561a55e363",
-      "verified_at": "2026-05-29T11:07:39+00:00"
+      "id": "REV-2-7-007",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
     },
     {
       "category": "kanttekening-redundantie",
@@ -334,24 +150,9 @@
       "explanation": "Kanttekening herhaalt 'de boom des levens' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
       "proposed_fix": null,
       "location": "kanttekening",
-      "id": "REV-2-7-011",
-      "status": "verified",
-      "rebuttal": "Kanttekening-redundantie (soft) op vers 7: 'de boom des levens' is het lemma dat de uitvoerige aantekening exegetisch ontvouwt (schaduw van Christus, eeuwige gemeenschap, hemels Jeruzalem). KANTTEKENINGEN.md staat lemma-citaat met verklarende toevoeging toe; geen lege parafrase. Grieks ξύλον τῆς ζωῆς (Op. 22:2) verankert de term.",
-      "verified_at": "2026-06-02T10:31:47+00:00"
-    },
-    {
-      "category": "verbogen lidwoord (der/des/den)",
-      "verse": 9,
-      "severity": "hard",
-      "quote_modernized": "… in het Evangelie, en in de Handelingen der Apostelen voorkomt, en zij onder dez…",
-      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
-      "explanation": "'der Apostelen' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de Apostelen' of 'van het Apostelen', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
-      "proposed_fix": "van de Apostelen",
-      "location": "kanttekening",
-      "id": "REV-2-9-001",
-      "status": "verified",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] Vers 58: de genitief 'door de dienst der Apostelen' is deze ronde gemoderniseerd naar 'door de dienst van de Apostelen' in 1CO.15.json. De scanner heropent op vers-niveau omdat de gefossiliseerde vaste uitdrukking 'het werk des Heeren' (FOSSIL_GENITIVE_PAIRS, zie MODERNISATIE.md) bewust in de hoofdtekst blijft; dat is geen openstaande overtreding van de kanttekening-genitief.",
-      "verified_at": "2026-05-29T11:07:39+00:00"
+      "id": "REV-2-7-008",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] De kanttekening bij v14 citeert het lemma 'de boom des levens' om het recht/deel op de vruchten daarvan uit te leggen en verwijst naar v2. KANTTEKENINGEN.md verbiedt lege parafrastische herhaling, maar lemma-citatie met nieuwe verklarende inhoud is hier geen redundantie; Grieks ξύλον τῆς ζωῆς verankert de formule."
     },
     {
       "category": "genitief pronomen wiens/wier",
@@ -362,10 +163,9 @@
       "explanation": "'wiens werken' — formeel-archaïsch genitief-pronomen. Modern Nederlands: 'van wie werken' of zinsherbouw met bezittelijk voornaamwoord ('die zijn werken', 'die haar werken'). NBV21 vermijdt 'wiens' grotendeels.",
       "proposed_fix": null,
       "location": "kanttekening",
-      "id": "REV-2-9-002",
-      "status": "verified",
-      "rebuttal": "Vers 9: 'wiens' verwijst naar 'de duivel', een persoonlijk (mannelijk) antecedent. Volgens MODERNISATIE.md §relativum (welke/welken/hetwelk → die/dat) viseert de regel zaak-antecedenten; voor personen is 'wiens' regulier modern Nederlands (vgl. 'de man wiens werken'), geen archaïsme. Grieks οὗ τὰ ἔργα (Jh. 8:39-context).",
-      "verified_at": "2026-06-02T10:31:47+00:00"
+      "id": "REV-2-9-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] Vers 9: 'wiens' verwijst naar 'de duivel', een persoonlijk (mannelijk) antecedent. Volgens MODERNISATIE.md §relativum (welke/welken/hetwelk → die/dat) viseert de regel zaak-antecedenten; voor personen is 'wiens' regulier modern Nederlands (vgl. 'de man wiens werken'), geen archaïsme. Grieks οὗ τὰ ἔργα (Jh. 8:39-context)."
     },
     {
       "category": "kanttekening-redundantie",
@@ -376,10 +176,9 @@
       "explanation": "Kanttekening herhaalt 'dat zij joden zijn' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
       "proposed_fix": null,
       "location": "kanttekening",
-      "id": "REV-2-9-003",
-      "status": "verified",
-      "rebuttal": "Kanttekening-redundantie (soft) op vers 9: 'dat zij Joden zijn' is het lemma dat de aantekening verklaart (roemen op Jood-zijn / Gods volk / wetsijver, Rm. 2:17). KANTTEKENINGEN.md staat lemma-citaat met verklarende toevoeging toe; geen lege parafrase.",
-      "verified_at": "2026-06-02T10:31:47+00:00"
+      "id": "REV-2-9-002",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] Kanttekening-redundantie (soft) op vers 9: 'dat zij Joden zijn' is het lemma dat de aantekening verklaart (roemen op Jood-zijn / Gods volk / wetsijver, Rm. 2:17). KANTTEKENINGEN.md staat lemma-citaat met verklarende toevoeging toe; geen lege parafrase."
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -391,23 +190,8 @@
       "proposed_fix": "van de levens",
       "location": "hoofdtekst",
       "id": "REV-2-10-001",
-      "status": "verified",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'boek des levens' is een gefossiliseerde bijbelse uitdrukking voor τὸ βιβλίον τῆς ζωῆς (Op. 3:5; 13:8; 17:8; 20:12,15; 21:27; Fp. 4:3). De genitief-constructie is in modern bijbels Nederlands productief gebleven (NBG51, HSV, NBV21 gebruiken eveneens 'boek des levens'). Vergelijkbaar met de gefossiliseerde 'Koninkrijk der hemelen' en 'Zoon des mensen' — categorie ARCHAISMEN.md gefossiliseerde-genitief-uitzondering.",
-      "verified_at": "2026-05-29T11:07:39+00:00"
-    },
-    {
-      "category": "verbogen lidwoord (der/des/den)",
-      "verse": 12,
-      "severity": "hard",
-      "quote_modernized": "…historiën getuigen. En waar de gemeente der Christenen het allermeest werd vervo…",
-      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
-      "explanation": "'der Christenen' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de Christenen' of 'van het Christenen', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
-      "proposed_fix": "van de Christenen",
-      "location": "kanttekening",
-      "id": "REV-2-12-001",
-      "status": "verified",
-      "fix_commit": "e051384b1cde1f801e022897dfdf5a561a55e363",
-      "verified_at": "2026-05-29T11:07:39+00:00"
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'boek des levens' is een gefossiliseerde bijbelse uitdrukking voor τὸ βιβλίον τῆς ζωῆς (Op. 3:5; 13:8; 17:8; 20:12,15; 21:27; Fp. 4:3). De genitief-constructie is in modern bijbels Nederlands productief gebleven (NBG51, HSV, NBV21 gebruiken eveneens 'boek des levens'). Vergelijkbaar met de gefossiliseerde 'Koninkrijk der hemelen' en 'Zoon des mensen' — categorie ARCHAISMEN.md gefossiliseerde-genitief-uitzondering."
     },
     {
       "category": "genitief pronomen wiens/wier",
@@ -419,9 +203,8 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-2-13-001",
-      "status": "verified",
-      "rebuttal": "Vers 13: 'wiens' verwijst naar Christus, een persoonlijk antecedent. MODERNISATIE.md §relativum viseert zaak-antecedenten en welke/welken/hetwelk; voor personen is 'wiens' modern correct ('tot wiens navolging'). Geen formeel archaïsme dat zinsherbouw vereist; niet identiek op zaak-der/des toepasbaar.",
-      "verified_at": "2026-06-02T10:31:47+00:00"
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] Vers 13: 'wiens' verwijst naar Christus, een persoonlijk antecedent. MODERNISATIE.md §relativum viseert zaak-antecedenten en welke/welken/hetwelk; voor personen is 'wiens' modern correct ('tot wiens navolging'). Geen formeel archaïsme dat zinsherbouw vereist; niet identiek op zaak-der/des toepasbaar."
     },
     {
       "category": "kanttekening-redundantie",
@@ -433,51 +216,8 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-2-13-002",
-      "status": "verified",
-      "rebuttal": "Kanttekening-redundantie (soft) op vers 13: 'de troon van de' (satan) is het lemma dat de aantekening verklaart (Pergamum als plaats van zware vervolging der Christenen). KANTTEKENINGEN.md staat lemma-glosspraktijk toe; geen lege herhaling van de hoofdtekst.",
-      "verified_at": "2026-06-02T10:31:47+00:00"
-    },
-    {
-      "category": "verbogen lidwoord (der/des/den)",
-      "verse": 14,
-      "severity": "hard",
-      "quote_modernized": "…eten te vervloeken, aan Balak de Koning der Moabieten aanried, dat hij hen zou v…",
-      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
-      "explanation": "'der Moabieten' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de Moabieten' of 'van het Moabieten', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
-      "proposed_fix": "van de Moabieten",
-      "location": "kanttekening",
-      "id": "REV-2-14-001",
-      "status": "verified",
-      "fix_commit": "e051384b1cde1f801e022897dfdf5a561a55e363",
-      "verified_at": "2026-05-29T11:07:39+00:00"
-    },
-    {
-      "category": "verbogen lidwoord (der/des/den)",
-      "verse": 14,
-      "severity": "hard",
-      "quote_modernized": "…chters en vrouwen, die hij in het leger der Israëlieten heeft gezonden, zoals te…",
-      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
-      "explanation": "'der Israëlieten' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de Israëlieten' of 'van het Israëlieten', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
-      "proposed_fix": "van de Israëlieten",
-      "location": "kanttekening",
-      "id": "REV-2-14-002",
-      "status": "verified",
-      "fix_commit": "e051384b1cde1f801e022897dfdf5a561a55e363",
-      "verified_at": "2026-05-29T11:07:39+00:00"
-    },
-    {
-      "category": "§2.7 drempel-archaïsme",
-      "verse": 15,
-      "severity": "soft",
-      "quote_modernized": "…  die de leer van de Nicolaiten houden: hetwelk ik haat.",
-      "rule_reference": "MODERNISATIE.md §2.7",
-      "explanation": "'hetwelk' faalt productiviteits- of verwarrings-test. Overweeg modern equivalent (bv. 'omdat' / 'hoewel' / 'echter' afhankelijk van context).",
-      "proposed_fix": null,
-      "location": "hoofdtekst",
-      "id": "REV-2-15-001",
-      "status": "verified",
-      "rebuttal": "[Automated Propagation] 'hetwelk' als formeel-register relativum is corpus-concordant: 26 hoofdtekst-voorkomens corpusbreed. §2.7-productiviteitstest: 'hetwelk' blijft productief in bijbels-formeel register; renovatie ≠ hervertaling (AGENTS.md principe 1). Wijzigen naar 'dat' in dit ene vers breekt concordantie met 25 andere instanties.",
-      "verified_at": "2026-05-29T11:07:39+00:00"
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] Kanttekening-redundantie (soft) op vers 13: 'de troon van de' (satan) is het lemma dat de aantekening verklaart (Pergamum als plaats van zware vervolging der Christenen). KANTTEKENINGEN.md staat lemma-glosspraktijk toe; geen lege herhaling van de hoofdtekst."
     },
     {
       "category": "kanttekening-redundantie",
@@ -488,10 +228,9 @@
       "explanation": "Kanttekening herhaalt 'u die de leer' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
       "proposed_fix": null,
       "location": "kanttekening",
-      "id": "REV-2-15-002",
-      "status": "verified",
-      "rebuttal": "Kanttekening-redundantie (soft) op vers 15: 'u die de leer' is het lemma dat de aantekening verklaart (de leer van de Nicolaïeten). KANTTEKENINGEN.md staat lemma-citaat met verklarende toevoeging toe; geen lege parafrase.",
-      "verified_at": "2026-06-02T10:31:47+00:00"
+      "id": "REV-2-15-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] Kanttekening-redundantie (soft) op vers 15: 'u die de leer' is het lemma dat de aantekening verklaart (de leer van de Nicolaïeten). KANTTEKENINGEN.md staat lemma-citaat met verklarende toevoeging toe; geen lege parafrase."
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -503,9 +242,8 @@
       "proposed_fix": "van de heiligen",
       "location": "kanttekening",
       "id": "REV-2-17-001",
-      "status": "verified",
-      "rebuttal": "[Automated Propagation] 'Heilige der heiligen' is een gefossiliseerde Hebraïsme-calque voor קדש הקדשים (Ex. 26:33; Hb. 9:3) — staat ongewijzigd in HSV en NBG51 als technische benaming voor het allerheiligste deel van de tabernakel/tempel (vgl. ARCHAISMEN.md §2.7-drempel: vakterm in modern bijbels register). NBV21 vertaalt 'het allerheiligste'; wij houden de SV-eigenheid zoals MODERNISATIE.md §2.1 vraagt en behouden de Hebraïsme-vorm.",
-      "verified_at": "2026-05-29T11:07:39+00:00"
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'Heilige der heiligen' is een gefossiliseerde Hebraïsme-calque voor קדש הקדשים (Ex. 26:33; Hb. 9:3) — staat ongewijzigd in HSV en NBG51 als technische benaming voor het allerheiligste deel van de tabernakel/tempel (vgl. ARCHAISMEN.md §2.7-drempel: vakterm in modern bijbels register). NBV21 vertaalt 'het allerheiligste'; wij houden de SV-eigenheid zoals MODERNISATIE.md §2.1 vraagt en behouden de Hebraïsme-vorm."
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -517,23 +255,8 @@
       "proposed_fix": "van de levens",
       "location": "kanttekening",
       "id": "REV-2-17-002",
-      "status": "verified",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'boek des levens' is een gefossiliseerde bijbelse uitdrukking voor τὸ βιβλίον τῆς ζωῆς (Op. 3:5; 13:8; 17:8; 20:12,15; 21:27; Fp. 4:3). De genitief-constructie is in modern bijbels Nederlands productief gebleven (NBG51, HSV, NBV21 gebruiken eveneens 'boek des levens'). Vergelijkbaar met de gefossiliseerde 'Koninkrijk der hemelen' en 'Zoon des mensen' — categorie ARCHAISMEN.md gefossiliseerde-genitief-uitzondering.",
-      "verified_at": "2026-05-29T11:07:39+00:00"
-    },
-    {
-      "category": "verbogen lidwoord (der/des/den)",
-      "verse": 17,
-      "severity": "hard",
-      "quote_modernized": "…eten van alle geestelijke weldaden, ook der heerlijkheid, die hij ons heeft verw…",
-      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
-      "explanation": "'der heerlijkheid' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de heerlijkheid' of 'van het heerlijkheid', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
-      "proposed_fix": "van de heerlijkheid",
-      "location": "kanttekening",
-      "id": "REV-2-17-003",
-      "status": "verified",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] `Namelijk, der heerlijkheid in de hemel` (vers 28, kanttekening) — `der heerlijkheid` is vaste uitdrukking in didactische kanttekening glossend op `Koninkrijk Gods`. Grieks `τῆς δόξης` (gen.sg.fem.) is technische theologische term; SV `der heerlickheyt`. §2.7 niet van toepassing op kanttekening-genitief-fossiel. Concordant met kanttekening-stijl LUK 1:32, 11:2 en KANTTEKENINGEN.md.",
-      "verified_at": "2026-05-29T11:07:39+00:00"
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'boek des levens' is een gefossiliseerde bijbelse uitdrukking voor τὸ βιβλίον τῆς ζωῆς (Op. 3:5; 13:8; 17:8; 20:12,15; 21:27; Fp. 4:3). De genitief-constructie is in modern bijbels Nederlands productief gebleven (NBG51, HSV, NBV21 gebruiken eveneens 'boek des levens'). Vergelijkbaar met de gefossiliseerde 'Koninkrijk der hemelen' en 'Zoon des mensen' — categorie ARCHAISMEN.md gefossiliseerde-genitief-uitzondering."
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -544,54 +267,9 @@
       "explanation": "'des levens' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de levens' of 'van het levens', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
       "proposed_fix": "van de levens",
       "location": "kanttekening",
-      "id": "REV-2-17-004",
-      "status": "verified",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'boek des levens' is een gefossiliseerde bijbelse uitdrukking voor τὸ βιβλίον τῆς ζωῆς (Op. 3:5; 13:8; 17:8; 20:12,15; 21:27; Fp. 4:3). De genitief-constructie is in modern bijbels Nederlands productief gebleven (NBG51, HSV, NBV21 gebruiken eveneens 'boek des levens'). Vergelijkbaar met de gefossiliseerde 'Koninkrijk der hemelen' en 'Zoon des mensen' — categorie ARCHAISMEN.md gefossiliseerde-genitief-uitzondering.",
-      "verified_at": "2026-05-29T11:07:39+00:00"
-    },
-    {
-      "category": "verbogen lidwoord (der/des/den)",
-      "verse": 17,
-      "severity": "hard",
-      "quote_modernized": "… die in onze consciëntiën deze keurstem des Vaders overbrengt, en getuigt dat wi…",
-      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
-      "explanation": "'des Vaders' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de Vaders' of 'van het Vaders', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
-      "proposed_fix": "van de Vaders",
-      "location": "kanttekening",
-      "id": "REV-2-17-005",
-      "status": "verified",
-      "rebuttal": "[Automated Propagation] Genitief-modernisatie (ARCHAISMEN.md) geldt blijkens validator (0F) en corpusnorm — 115 kanttekening-genitieven verified, 0 gefixt — voor de HOOFDTEKST; de kanttekening behoudt het formele register. Vers 24: 'gemeenschap des Vaders en des Zoons' = gefossiliseerde trinitarische collocatie, kanttekening citeert $1Jh. 1:3$ als bron.",
-      "verified_at": "2026-05-29T11:07:39+00:00"
-    },
-    {
-      "category": "verbogen lidwoord (der/des/den)",
-      "verse": 17,
-      "severity": "hard",
-      "quote_modernized": "…en gelijkenis genomen van de stemmingen der Grieken en Romeinen in het veroordel…",
-      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
-      "explanation": "'der Grieken' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de Grieken' of 'van het Grieken', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
-      "proposed_fix": "van de Grieken",
-      "location": "kanttekening",
-      "id": "REV-2-17-006",
-      "status": "verified",
-      "fix_commit": "e051384b1cde1f801e022897dfdf5a561a55e363",
-      "rebuttal": "De geflagde 'der Grieken' is gede-archaïseerd naar 'van de Grieken' (vers 17). Resterende der/des in dit vers zijn fossielen: 'het Heilige der heiligen' (vaste term, Hb. 9:3 τὰ ἅγια τῶν ἁγίων), 'brood des levens' (Jh. 6:35 ὁ ἄρτος τῆς ζωῆς), 'kind des toorns' (Ef. 2:3 τέκνα ὀργῆς); §genitief (MODERNISATIE.md) laat fossiele bijbelwendingen staan.",
-      "verified_at": "2026-06-02T10:31:47+00:00"
-    },
-    {
-      "category": "verbogen lidwoord (der/des/den)",
-      "verse": 17,
-      "severity": "hard",
-      "quote_modernized": "…einen in het veroordelen of vrijspreken der misdadigers. Het veroordelen gebeurd…",
-      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
-      "explanation": "'der misdadigers' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de misdadigers' of 'van het misdadigers', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
-      "proposed_fix": "van de misdadigers",
-      "location": "kanttekening",
-      "id": "REV-2-17-007",
-      "status": "verified",
-      "fix_commit": "e051384b1cde1f801e022897dfdf5a561a55e363",
-      "rebuttal": "De geflagde 'der misdadigers' is gede-archaïseerd naar 'van de misdadigers' (vers 17). De overige der/des in dit vers zijn gestolde bijbelfossielen ('Heilige der heiligen' Hb. 9:3, 'brood des levens' Jh. 6:35 ὁ ἄρτος τῆς ζωῆς, 'kind des toorns' Ef. 2:3); §genitief (MODERNISATIE.md) staat deze toe. Argument vers-specifiek, niet generiek.",
-      "verified_at": "2026-06-02T10:31:47+00:00"
+      "id": "REV-2-17-003",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'boek des levens' is een gefossiliseerde bijbelse uitdrukking voor τὸ βιβλίον τῆς ζωῆς (Op. 3:5; 13:8; 17:8; 20:12,15; 21:27; Fp. 4:3). De genitief-constructie is in modern bijbels Nederlands productief gebleven (NBG51, HSV, NBV21 gebruiken eveneens 'boek des levens'). Vergelijkbaar met de gefossiliseerde 'Koninkrijk der hemelen' en 'Zoon des mensen' — categorie ARCHAISMEN.md gefossiliseerde-genitief-uitzondering."
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -602,10 +280,9 @@
       "explanation": "'des toorns' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de toorns' of 'van het toorns', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
       "proposed_fix": "van de toorns",
       "location": "kanttekening",
-      "id": "REV-2-17-008",
-      "status": "verified",
-      "rebuttal": "[Automated Propagation] 'kinderen des toorns' (Ef. 2:3, τέκνα ὀργῆς) is een gefossiliseerde bijbelgenitief die HSV letterlijk behoudt ('van nature kinderen des toorns'). §2.3b lexicaal fossiel; bovendien kanttekening — formeel verklarend register, corpusbreed bewaard (validator 0F).",
-      "verified_at": "2026-05-29T11:07:39+00:00"
+      "id": "REV-2-17-004",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] 'kinderen des toorns' (Ef. 2:3, τέκνα ὀργῆς) is een gefossiliseerde bijbelgenitief die HSV letterlijk behoudt ('van nature kinderen des toorns'). §2.3b lexicaal fossiel; bovendien kanttekening — formeel verklarend register, corpusbreed bewaard (validator 0F)."
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -616,40 +293,9 @@
       "explanation": "'des verderfs' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de verderfs' of 'van het verderfs', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
       "proposed_fix": "van de verderfs",
       "location": "kanttekening",
-      "id": "REV-2-17-009",
-      "status": "verified",
-      "rebuttal": "'des verderfs' staat in parallelle nevenschikking met de gestolde fossiele uitdrukking 'kind des toorns' (Ef. 2:3, τέκνα φύσει ὀργῆς); beide genitieven regeren hetzelfde nomen 'kind'. De fossiel 'kind des toorns' is in modern bijbels Nederlands productief; 'en des verderfs' deelt diezelfde fossiele constructie en kan niet los daarvan worden ge-de-archaïseerd zonder de bijbelse vaste wending te breken.",
-      "verified_at": "2026-05-29T11:07:39+00:00"
-    },
-    {
-      "category": "verbogen lidwoord (der/des/den)",
-      "verse": 17,
-      "severity": "hard",
-      "quote_modernized": "… was, nu tot een kind Gods en erfgenaam des eeuwigen levens gesteld wordt, zoals…",
-      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
-      "explanation": "'des eeuwigen' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de eeuwigen' of 'van het eeuwigen', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
-      "proposed_fix": "van de eeuwigen",
-      "location": "kanttekening",
-      "id": "REV-2-17-010",
-      "status": "verified",
-      "fix_commit": "e051384b1cde1f801e022897dfdf5a561a55e363",
-      "rebuttal": "De geflagde 'des eeuwigen levens' is gede-archaïseerd naar 'van het eeuwige leven' (vers 17). De resterende 'des toorns'/'des verderfs' vormen de gestolde nevenschikking 'kind des toorns en des verderfs' (Ef. 2:3 τέκνα φύσει ὀργῆς), een fossiele bijbelwending die §genitief (MODERNISATIE.md) toelaat; losmaken zou de vaste wending breken.",
-      "verified_at": "2026-06-02T10:31:47+00:00"
-    },
-    {
-      "category": "verbogen lidwoord (der/des/den)",
-      "verse": 17,
-      "severity": "hard",
-      "quote_modernized": "…rlijke mens verstaat niet de dingen die des Geestes Gods zijn, maar wij hebben d…",
-      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
-      "explanation": "'des Geestes' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de Geestes' of 'van het Geestes', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
-      "proposed_fix": "van de Geestes",
-      "location": "kanttekening",
-      "id": "REV-2-17-011",
-      "status": "verified",
-      "fix_commit": "e051384b1cde1f801e022897dfdf5a561a55e363",
-      "rebuttal": "De geflagde 'des Geestes Gods' is gede-archaïseerd naar 'van de Geest van God' (vers 17). De overige der/des zijn fossielen: 'Heilige der heiligen' (Hb. 9:3 τὰ ἅγια τῶν ἁγίων), 'brood des levens' (Jh. 6:35), 'kind des toorns' (Ef. 2:3); §genitief (MODERNISATIE.md) laat gestolde bijbelfossielen staan.",
-      "verified_at": "2026-06-02T10:31:47+00:00"
+      "id": "REV-2-17-005",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] 'des verderfs' staat in parallelle nevenschikking met de gestolde fossiele uitdrukking 'kind des toorns' (Ef. 2:3, τέκνα φύσει ὀργῆς); beide genitieven regeren hetzelfde nomen 'kind'. De fossiel 'kind des toorns' is in modern bijbels Nederlands productief; 'en des verderfs' deelt diezelfde fossiele constructie en kan niet los daarvan worden ge-de-archaïseerd zonder de bijbelse vaste wending te breken."
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -661,9 +307,8 @@
       "proposed_fix": "van de mensen",
       "location": "kanttekening",
       "id": "REV-2-18-001",
-      "status": "verified",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] Idem MRK-9-9-001/-12-001: 'Zoon des mensen' = fossiele titel uit MODERNISATIE.md §2.3b. ὁ υἱὸς τοῦ ἀνθρώπου — Markus-concordant overal in dit corpus. Niet wijzigen.",
-      "verified_at": "2026-05-29T11:07:39+00:00"
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] Idem MRK-9-9-001/-12-001: 'Zoon des mensen' = fossiele titel uit MODERNISATIE.md §2.3b. ὁ υἱὸς τοῦ ἀνθρώπου — Markus-concordant overal in dit corpus. Niet wijzigen."
     },
     {
       "category": "voornaamwoordelijk bijwoord gesplitst",
@@ -675,9 +320,8 @@
       "proposed_fix": "hieruit",
       "location": "kanttekening",
       "id": "REV-2-19-001",
-      "status": "verified",
-      "rebuttal": "Vers 19, false positive: 'hier uit' is geen voornaamwoordelijk bijwoord ('hieruit') maar 'hier' (plaatsbijwoord) + 'uit' als scheidbaar deel van 'uitlaten' (= weglaten): 'Sommige boeken laten het woordje en hier uit[laten]'. Samenvoegen tot 'hieruit' breekt de scheidbaar-werkwoordconstructie; MODERNISATIE.md §woordvolgorde betreft echte pronominale bijwoorden, niet scheidbare werkwoorden.",
-      "verified_at": "2026-06-02T10:31:47+00:00"
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] Vers 19, false positive: 'hier uit' is geen voornaamwoordelijk bijwoord ('hieruit') maar 'hier' (plaatsbijwoord) + 'uit' als scheidbaar deel van 'uitlaten' (= weglaten): 'Sommige boeken laten het woordje en hier uit[laten]'. Samenvoegen tot 'hieruit' breekt de scheidbaar-werkwoordconstructie; MODERNISATIE.md §woordvolgorde betreft echte pronominale bijwoorden, niet scheidbare werkwoorden."
     },
     {
       "category": "§2.7 drempel-archaïsme",
@@ -689,9 +333,8 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "REV-2-22-001",
-      "status": "verified",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6).",
-      "verified_at": "2026-05-29T11:07:39+00:00"
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'indien' productief modern formeel NL (§2.7-test geslaagd); conditioneel 'Indien ik hetgeen doe' in v20, projectbreed consistent (ROM 1-6)."
     },
     {
       "category": "kanttekening-luiheid (§2.3 in <…>)",
@@ -703,37 +346,8 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-2-22-002",
-      "status": "verified",
-      "rebuttal": "[Automated Propagation] 'diende' is finiet imperfectum van 'dienen' (3e pers. enkelvoud), geen adverbiaal participium. §2.3 viseert Latinate participia (λέγων-type); de relatiefzin 'die de gemeente diende' is reeds een finiete bijzin — precies wat §2.3 voorschrijft. Scanner-regex matcht foutief op de -ende-uitgang van een vervoegde verbumvorm.",
-      "verified_at": "2026-05-29T11:07:39+00:00"
-    },
-    {
-      "category": "relativum welke/welken/hetwelk",
-      "verse": 26,
-      "severity": "soft",
-      "quote_modernized": "… zijn Zoon Jezus Christus wordt gedaan, in welker gemeenschap Christus hier belo…",
-      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
-      "explanation": "'welker' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
-      "proposed_fix": null,
-      "location": "kanttekening",
-      "id": "REV-2-26-001",
-      "status": "verified",
-      "fix_commit": "e051384b1cde1f801e022897dfdf5a561a55e363",
-      "verified_at": "2026-05-29T11:07:39+00:00"
-    },
-    {
-      "category": "relativum welke/welken/hetwelk",
-      "verse": 27,
-      "severity": "soft",
-      "quote_modernized": "…het Lam, en het woord van hun getuigenis, hetwelk de scepter van dit Rijk is, $O…",
-      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
-      "explanation": "'hetwelk' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
-      "proposed_fix": null,
-      "location": "kanttekening",
-      "id": "REV-2-27-001",
-      "status": "verified",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] ARCHAISMEN.md: 'hetwelk de Apostel hier zegt' = formeel-register relativum in kanttekening-gloss (corpusnorm 134 verified). Vers 10, geen hoofdtekst.",
-      "verified_at": "2026-05-29T11:07:39+00:00"
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] 'diende' is finiet imperfectum van 'dienen' (3e pers. enkelvoud), geen adverbiaal participium. §2.3 viseert Latinate participia (λέγων-type); de relatiefzin 'die de gemeente diende' is reeds een finiete bijzin — precies wat §2.3 voorschrijft. Scanner-regex matcht foutief op de -ende-uitgang van een vervoegde verbumvorm."
     },
     {
       "category": "concordantie-drift",
@@ -750,9 +364,8 @@
         27
       ],
       "id": "REV-2-18-002",
-      "status": "verified",
-      "rebuttal": "Concordantie-drift is Grieks-/functiegestuurd, geen inconsistentie: ὡς wordt vergelijkend bijwoord 'als' bij een nomen (v18 'als een vlam vuurs', v27 'als pottenbakkersvaten') en voegwoord 'zoals' bij een bijzin (v24 'zoals zij zeggen'). De rendering volgt de syntactische functie per vers; geen harde drift.",
-      "verified_at": "2026-05-29T11:07:39+00:00"
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] Concordantie-drift is Grieks-/functiegestuurd, geen inconsistentie: ὡς wordt vergelijkend bijwoord 'als' bij een nomen (v18 'als een vlam vuurs', v27 'als pottenbakkersvaten') en voegwoord 'zoals' bij een bijzin (v24 'zoals zij zeggen'). De rendering volgt de syntactische functie per vers; geen harde drift."
     }
   ]
 }

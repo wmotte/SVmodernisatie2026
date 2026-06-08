@@ -1,47 +1,13 @@
 {
   "book": "REV",
   "chapter": 9,
-  "reviewed_at": "2026-05-29T16:19:33+00:00",
+  "reviewed_at": "2026-06-08T13:20:44+00:00",
   "passes": [
     {
       "pass": 1,
-      "ran_at": "2026-05-29T16:14:30+00:00",
+      "ran_at": "2026-06-08T13:20:44+00:00",
       "mode": "scan",
-      "issues_total": 16
-    },
-    {
-      "pass": 2,
-      "ran_at": "2026-05-29T16:17:30+00:00",
-      "mode": "verify",
-      "actions": [
-        "REV-9-1-001: rebuttal verified",
-        "REV-9-4-001: rebuttal verified",
-        "REV-9-7-001: rebuttal verified",
-        "REV-9-11-001: rebuttal verified",
-        "REV-9-12-001: verified",
-        "REV-9-13-001: rebuttal verified",
-        "REV-9-13-002: rebuttal verified",
-        "REV-9-14-001: rebuttal verified",
-        "REV-9-16-001: rebuttal verified",
-        "REV-9-20-001: reopened (te generiek)",
-        "REV-9-20-002: verified",
-        "REV-9-21-001: rebuttal verified",
-        "REV-9-3-001: reopened (te generiek)",
-        "REV-9-3-002: reopened (te generiek)",
-        "REV-9-4-002: rebuttal verified",
-        "REV-9-7-002: reopened (te generiek)"
-      ]
-    },
-    {
-      "pass": 3,
-      "ran_at": "2026-05-29T16:19:33+00:00",
-      "mode": "verify",
-      "actions": [
-        "REV-9-20-001: rebuttal verified",
-        "REV-9-3-001: rebuttal verified",
-        "REV-9-3-002: rebuttal verified",
-        "REV-9-7-002: rebuttal verified"
-      ]
+      "issues_total": 15
     }
   ],
   "issues": [
@@ -55,9 +21,8 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-9-1-001",
-      "status": "verified",
-      "rebuttal": "Lemma-gloss-conventie (KANTTEKENINGEN.md): de kanttekening duidt de Antichrist exegetisch en gebruikt 'uit de put van de afgrond tevoorschijn gebracht' als deel van die uitleg (Gr. ἄβυσσος). De overlap met de hoofdtekst is het geannoteerde beeld, geen parafrastische herhaling zonder toegevoegde waarde.",
-      "verified_at": "2026-05-29T16:17:30+00:00"
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] Lemma-gloss-conventie (KANTTEKENINGEN.md): de kanttekening duidt de Antichrist exegetisch en gebruikt 'uit de put van de afgrond tevoorschijn gebracht' als deel van die uitleg (Gr. ἄβυσσος). De overlap met de hoofdtekst is het geannoteerde beeld, geen parafrastische herhaling zonder toegevoegde waarde."
     },
     {
       "category": "voornaamwoordelijk bijwoord gesplitst",
@@ -69,9 +34,8 @@
       "proposed_fix": "hiervan",
       "location": "kanttekening",
       "id": "REV-9-4-001",
-      "status": "verified",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] ARCHAISMEN.md raakt gesplitste voornaamwoordelijke bijwoorden als 'daar ... van' -> 'daarvan'. In Ef. 2:15 is 'hier' locatief: de Apostel spreekt op deze plaats over alle gelovigen als één mens; 'van alle gelovigen' is een zelfstandige voorzetselgroep, geen te vormen 'hiervan'.",
-      "verified_at": "2026-05-29T16:17:30+00:00"
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] ARCHAISMEN.md raakt gesplitste voornaamwoordelijke bijwoorden als 'daar ... van' -> 'daarvan'. In Ef. 2:15 is 'hier' locatief: de Apostel spreekt op deze plaats over alle gelovigen als één mens; 'van alle gelovigen' is een zelfstandige voorzetselgroep, geen te vormen 'hiervan'."
     },
     {
       "category": "kanttekening-redundantie",
@@ -83,9 +47,8 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-9-7-001",
-      "status": "verified",
-      "rebuttal": "Lemma-gloss-conventie (KANTTEKENINGEN.md): de kanttekening levert de allegorische sleutel 'als paarden die tot de strijd gereed staan' om de sprinkhanen-gestalte te duiden (geestelijke oorlog tegen ware Christenen). Inhoudelijke exegese, geen lege duplicatie van de hoofdtekst.",
-      "verified_at": "2026-05-29T16:17:30+00:00"
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] Lemma-gloss-conventie (KANTTEKENINGEN.md): de kanttekening levert de allegorische sleutel 'als paarden die tot de strijd gereed staan' om de sprinkhanen-gestalte te duiden (geestelijke oorlog tegen ware Christenen). Inhoudelijke exegese, geen lege duplicatie van de hoofdtekst."
     },
     {
       "category": "genitief pronomen wiens/wier",
@@ -97,23 +60,8 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-9-11-001",
-      "status": "verified",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] Genitief-pronomen in kanttekening gemoderniseerd volgens ARCHAISMEN.md SV-pronomina: \"door wiens komst\" is vervangen door \"door zijn komst\".",
-      "verified_at": "2026-05-29T16:17:30+00:00"
-    },
-    {
-      "category": "SV-verbuiging (demonstratief dezer/dien/...)",
-      "verse": 12,
-      "severity": "hard",
-      "quote_modernized": "…gegaan, zie, er komen nog twee weeën na dezen.",
-      "rule_reference": "ARCHAISMEN.md (SV-verbuigingen)",
-      "explanation": "'dezen None' — verbogen demonstratief (SV-genitief/datief). Modern Nederlands: 'deze' / 'die' / 'in deze ...' / 'op die ...'. Gefossiliseerde uitdrukkingen ('dezer dagen', 'te dien einde') zijn whitelist; rebut zo nodig met register-argument.",
-      "proposed_fix": null,
-      "location": "hoofdtekst",
-      "id": "REV-9-12-001",
-      "status": "verified",
-      "fix_commit": "PENDING",
-      "verified_at": "2026-05-29T16:17:30+00:00"
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] Genitief-pronomen in kanttekening gemoderniseerd volgens ARCHAISMEN.md SV-pronomina: \"door wiens komst\" is vervangen door \"door zijn komst\"."
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -125,9 +73,8 @@
       "proposed_fix": "van de heiligen",
       "location": "kanttekening",
       "id": "REV-9-13-001",
-      "status": "verified",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'Heilige der heiligen' is een gefossiliseerde Hebraïsme-calque voor קדש הקדשים (Ex. 26:33; Hb. 9:3) — staat ongewijzigd in HSV en NBG51 als technische benaming voor het allerheiligste deel van de tabernakel/tempel (vgl. ARCHAISMEN.md §2.7-drempel: vakterm in modern bijbels register). NBV21 vertaalt 'het allerheiligste'; wij houden de SV-eigenheid zoals MODERNISATIE.md §2.1 vraagt en behouden de Hebraïsme-vorm.",
-      "verified_at": "2026-05-29T16:17:30+00:00"
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'Heilige der heiligen' is een gefossiliseerde Hebraïsme-calque voor קדש הקדשים (Ex. 26:33; Hb. 9:3) — staat ongewijzigd in HSV en NBG51 als technische benaming voor het allerheiligste deel van de tabernakel/tempel (vgl. ARCHAISMEN.md §2.7-drempel: vakterm in modern bijbels register). NBV21 vertaalt 'het allerheiligste'; wij houden de SV-eigenheid zoals MODERNISATIE.md §2.1 vraagt en behouden de Hebraïsme-vorm."
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -139,9 +86,8 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-9-13-002",
-      "status": "verified",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
-      "verified_at": "2026-05-29T16:17:30+00:00"
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -153,9 +99,8 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-9-14-001",
-      "status": "verified",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
-      "verified_at": "2026-05-29T16:17:30+00:00"
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
     },
     {
       "category": "kanttekening-redundantie",
@@ -167,9 +112,8 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-9-16-001",
-      "status": "verified",
-      "rebuttal": "Lemma-gloss-conventie (KANTTEKENINGEN.md): de overlap 'de legers van de' betreft hier 'de legers van de Christenen' (ander referent dan de hoofdtekst 'het getal van de ruiterij'); de kanttekening voegt het historische contrast toe (ruiterij overtrof de christelijke legers). Geen redundante herhaling.",
-      "verified_at": "2026-05-29T16:17:30+00:00"
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] Lemma-gloss-conventie (KANTTEKENINGEN.md): de overlap 'de legers van de' betreft hier 'de legers van de Christenen' (ander referent dan de hoofdtekst 'het getal van de ruiterij'); de kanttekening voegt het historische contrast toe (ruiterij overtrof de christelijke legers). Geen redundante herhaling."
     },
     {
       "category": "SV-verbuiging (demonstratief dezer/dien/...)",
@@ -181,24 +125,20 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-9-20-001",
-      "status": "verified",
-      "rebuttal": "§2.7 (drempel-archaïsme productiviteitstest): 'in dezen' in de v20-kanttekening (clause-finaal na 'de beelden van de Heidenen of Joden') is geen verbogen demonstratief-met-substantief maar een gefossiliseerde adverbiale uitdrukking (= 'op dit punt'), die de §2.7-productiviteitstest ruim slaagt — courant in modern juridisch-formeel Nederlands ('de bevoegde instantie in dezen'). De kanttekening becommentarieert hier εἴδωλα (beelden); 'in dezen' is de Nederlandse adverbiale slotbepaling van de annotator, niet de Griekse brontekst. Whitelist-categorie analoog aan 'te dien einde' (ARCHAISMEN.md).",
-      "verify_note": "rebuttal noemt geen regel (§), geen Griekse term en geen vers-specifiek argument — voeg referentie toe",
-      "verified_at": "2026-05-29T16:19:33+00:00"
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] §2.7 (drempel-archaïsme productiviteitstest): 'in dezen' in de v20-kanttekening (clause-finaal na 'de beelden van de Heidenen of Joden') is geen verbogen demonstratief-met-substantief maar een gefossiliseerde adverbiale uitdrukking (= 'op dit punt'), die de §2.7-productiviteitstest ruim slaagt — courant in modern juridisch-formeel Nederlands ('de bevoegde instantie in dezen'). De kanttekening becommentarieert hier εἴδωλα (beelden); 'in dezen' is de Nederlandse adverbiale slotbepaling van de annotator, niet de Griekse brontekst. Whitelist-categorie analoog aan 'te dien einde' (ARCHAISMEN.md)."
     },
     {
-      "category": "relativum welke/welken/hetwelk",
+      "category": "genitief pronomen wiens/wier",
       "verse": 20,
-      "severity": "soft",
-      "quote_modernized": "… deze straffen over hen heeft gezonden: aan welker voorbeeld de Kerken van het W…",
-      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
-      "explanation": "'welker' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "severity": "hard",
+      "quote_modernized": "…e straffen over hen heeft gezonden: aan wier voorbeeld de Kerken van het Westen …",
+      "rule_reference": "ARCHAISMEN.md (SV-pronomina)",
+      "explanation": "'wier voorbeeld' — formeel-archaïsch genitief-pronomen. Modern Nederlands: 'van wie voorbeeld' of zinsherbouw met bezittelijk voornaamwoord ('die zijn voorbeeld', 'die haar voorbeeld'). NBV21 vermijdt 'wiens' grotendeels.",
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-9-20-002",
-      "status": "verified",
-      "fix_commit": "PENDING",
-      "verified_at": "2026-05-29T16:17:30+00:00"
+      "status": "open"
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -210,9 +150,8 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-9-21-001",
-      "status": "verified",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
-      "verified_at": "2026-05-29T16:17:30+00:00"
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
     },
     {
       "category": "concordantie-drift",
@@ -229,10 +168,8 @@
         10
       ],
       "id": "REV-9-3-001",
-      "status": "verified",
-      "rebuttal": "§-concordantie (AGENTS.md vertaalprincipes): false-positive van de scanner-prefix-heuristiek. SV-stam 'scorpio' (Gr. σκορπίος) wordt in v3 én de overige verzen consistent 'schorpioen(en)'; de orthografische overgang s→sch breekt enkel de 4-teken-prefixmatch (bekend scanner-blindspot, vgl. s→z, sch→g). Lexicale concordantie ís behouden — geen betekenisdrift.",
-      "verify_note": "rebuttal noemt geen regel (§), geen Griekse term en geen vers-specifiek argument — voeg referentie toe",
-      "verified_at": "2026-05-29T16:19:33+00:00"
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] §-concordantie (AGENTS.md vertaalprincipes): false-positive van de scanner-prefix-heuristiek. SV-stam 'scorpio' (Gr. σκορπίος) wordt in v3 én de overige verzen consistent 'schorpioen(en)'; de orthografische overgang s→sch breekt enkel de 4-teken-prefixmatch (bekend scanner-blindspot, vgl. s→z, sch→g). Lexicale concordantie ís behouden — geen betekenisdrift."
     },
     {
       "category": "concordantie-drift",
@@ -250,10 +187,8 @@
         19
       ],
       "id": "REV-9-3-002",
-      "status": "verified",
-      "rebuttal": "§-concordantie (AGENTS.md): 'gelijck' (Gr. ὅμοιος in v7/10/19, ὡς in v3) is een vergelijkings-functiewoord, geen lexicaal inhoudswoord. De concordantie-eis geldt inhoudswoorden; v3 rendert ὡς contextueel als 'als/zoals' terwijl v7/10/19 ὅμοιος als 'gelijk' geven — verschillend Grieks lemma, dus geen drift maar brontrouw. Vers-specifiek: v3 heeft een ander grondwoord dan [7,10,19].",
-      "verify_note": "rebuttal noemt geen regel (§), geen Griekse term en geen vers-specifiek argument — voeg referentie toe",
-      "verified_at": "2026-05-29T16:19:33+00:00"
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] §-concordantie (AGENTS.md): 'gelijck' (Gr. ὅμοιος in v7/10/19, ὡς in v3) is een vergelijkings-functiewoord, geen lexicaal inhoudswoord. De concordantie-eis geldt inhoudswoorden; v3 rendert ὡς contextueel als 'als/zoals' terwijl v7/10/19 ὅμοιος als 'gelijk' geven — verschillend Grieks lemma, dus geen drift maar brontrouw. Vers-specifiek: v3 heeft een ander grondwoord dan [7,10,19]."
     },
     {
       "category": "concordantie-drift",
@@ -270,9 +205,8 @@
         19
       ],
       "id": "REV-9-4-002",
-      "status": "verified",
-      "rebuttal": "Bewuste false-friend-correctie naar object-type: 'beschadigen' (Gr. ἀδικέω) blijft bij zaak-object ('het gras', v4) maar wordt 'schade toebrengen' bij persoon-object ('de mensen', v10/v19) — een persoon 'beschadigen' leest modern absurd-technisch. Divergentie is doelbewust en semantisch correct, geen drift.",
-      "verified_at": "2026-05-29T16:17:30+00:00"
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] Bewuste false-friend-correctie naar object-type: 'beschadigen' (Gr. ἀδικέω) blijft bij zaak-object ('het gras', v4) maar wordt 'schade toebrengen' bij persoon-object ('de mensen', v10/v19) — een persoon 'beschadigen' leest modern absurd-technisch. Divergentie is doelbewust en semantisch correct, geen drift."
     },
     {
       "category": "concordantie-drift",
@@ -289,10 +223,8 @@
         17
       ],
       "id": "REV-9-7-002",
-      "status": "verified",
-      "rebuttal": "§-concordantie (AGENTS.md vertaalprincipes): false-positive van de scanner-prefix-heuristiek. SV-stam 'peerden' (Gr. ἵππος) wordt in v7 en de overige verzen consistent 'paarden'; de orthografische overgang ee→aa breekt enkel de prefixmatch. Lexicale concordantie ís behouden over alle 3 verzen — geen drift.",
-      "verify_note": "rebuttal noemt geen regel (§), geen Griekse term en geen vers-specifiek argument — voeg referentie toe",
-      "verified_at": "2026-05-29T16:19:33+00:00"
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] §-concordantie (AGENTS.md vertaalprincipes): false-positive van de scanner-prefix-heuristiek. SV-stam 'peerden' (Gr. ἵππος) wordt in v7 en de overige verzen consistent 'paarden'; de orthografische overgang ee→aa breekt enkel de prefixmatch. Lexicale concordantie ís behouden over alle 3 verzen — geen drift."
     }
   ]
 }

@@ -894,3 +894,6 @@ Red bracht 2 punt(en). Verdicts: red_wins=2, green_wins=0, rule_change=0.
 - **[RG42-002] (consistentie)** NT-brede fossiel-genitief allowlist-lek sweep
   - regel: MODERNISATIE.md §2.3c gefossiliseerde genitief; allowlist-lek der+zn; fix: ACT 4:26, REV 14:15, REV 14:18, REV 14:19, REV 17:5, REV 17:18, REV 18:11, REV 18:23, 1JN 4:14, JHN 4:42, JHN 6:51, LUK 12:30, MAT 13:35
   - verdict: **red_wins** (scope=nt-wide, applied=True) — 13 genitief-fixes toegepast: ACT 4:26, REV 14:15, REV 14:18, REV 14:19, REV 17:5, REV 17:18, REV 18:11, REV 18:23, 1JN 4:14, JHN 4:42, JHN 6:51, LUK 12:30, MAT 13:35. Onzeker DEFERRED: 1PE 4:14/5:4 'd
+
+## Ronde 43 — REV + ACT  (2026-06-08T13:23:27.657217+00:00)
+Red bracht 0 punt(en). Verdicts: red_wins=0, green_wins=0, rule_change=0.

@@ -1,103 +1,16 @@
 {
   "book": "REV",
   "chapter": 4,
-  "reviewed_at": "2026-05-29T10:30:09+00:00",
+  "reviewed_at": "2026-06-08T13:20:44+00:00",
   "passes": [
     {
       "pass": 1,
-      "ran_at": "2026-05-29T10:25:38+00:00",
+      "ran_at": "2026-06-08T13:20:44+00:00",
       "mode": "scan",
-      "issues_total": 21
-    },
-    {
-      "pass": 2,
-      "ran_at": "2026-05-29T10:28:30+00:00",
-      "mode": "verify",
-      "actions": [
-        "REV-4-1-001: rebuttal verified",
-        "REV-4-1-002: reopened (patroon nog aanwezig)",
-        "REV-4-1-003: reopened (patroon nog aanwezig)",
-        "REV-4-1-004: rebuttal verified",
-        "REV-4-1-005: rebuttal verified",
-        "REV-4-1-006: rebuttal verified",
-        "REV-4-2-001: verified",
-        "REV-4-2-002: rebuttal verified",
-        "REV-4-3-001: verified",
-        "REV-4-5-001: rebuttal verified",
-        "REV-4-5-002: rebuttal verified",
-        "REV-4-6-001: rebuttal verified",
-        "REV-4-6-002: rebuttal verified",
-        "REV-4-6-003: rebuttal verified",
-        "REV-4-6-004: rebuttal verified",
-        "REV-4-7-001: reopened (te generiek)",
-        "REV-4-7-002: reopened (te generiek)",
-        "REV-4-7-003: reopened (te generiek)",
-        "REV-4-7-004: reopened (te generiek)",
-        "REV-4-10-001: rebuttal verified",
-        "REV-4-3-002: rebuttal verified"
-      ]
-    },
-    {
-      "pass": 3,
-      "ran_at": "2026-05-29T10:30:09+00:00",
-      "mode": "verify",
-      "actions": [
-        "REV-4-1-002: verified",
-        "REV-4-1-003: verified",
-        "REV-4-7-001: rebuttal verified",
-        "REV-4-7-002: rebuttal verified",
-        "REV-4-7-003: rebuttal verified",
-        "REV-4-7-004: rebuttal verified"
-      ]
+      "issues_total": 15
     }
   ],
   "issues": [
-    {
-      "category": "verbogen lidwoord (der/des/den)",
-      "verse": 1,
-      "severity": "hard",
-      "quote_modernized": "… Dat is, van deze tijd af tot het einde der wereld, zoals de openbaring zelf hie…",
-      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
-      "explanation": "'der wereld' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de wereld' of 'van het wereld', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
-      "proposed_fix": "van de wereld",
-      "location": "kanttekening",
-      "id": "REV-4-1-001",
-      "status": "verified",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] 'der wereld' in 'de volken der wereld' = τὰ ἔθνη τοῦ κόσμου: gestolde genitief-constructie in bijbel-NL. HSV behoudt eveneens 'de volken van deze wereld'-vorm; fossielargument §2.3b van toepassing (vaste woordgroep, niet productieve verbuiging).",
-      "verified_at": "2026-05-29T10:28:30+00:00"
-    },
-    {
-      "category": "verbogen lidwoord (der/des/den)",
-      "verse": 1,
-      "severity": "hard",
-      "quote_modernized": "…ijzonder in de gemeente Gods, tot straf der bozen en tot beproeving en vertroost…",
-      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
-      "explanation": "'der bozen' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de bozen' of 'van het bozen', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
-      "proposed_fix": "van de bozen",
-      "location": "kanttekening",
-      "id": "REV-4-1-002",
-      "status": "verified",
-      "fix_commit": "pending",
-      "verify_note": "fix loste het patroon niet op",
-      "rebuttal": "",
-      "verified_at": "2026-05-29T10:30:09+00:00"
-    },
-    {
-      "category": "verbogen lidwoord (der/des/den)",
-      "verse": 1,
-      "severity": "hard",
-      "quote_modernized": "…bozen en tot beproeving en vertroosting der vromen, zoals $Op. 1:1; 22:6$.",
-      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
-      "explanation": "'der vromen' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de vromen' of 'van het vromen', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
-      "proposed_fix": "van de vromen",
-      "location": "kanttekening",
-      "id": "REV-4-1-003",
-      "status": "verified",
-      "fix_commit": "pending",
-      "verify_note": "fix loste het patroon niet op",
-      "rebuttal": "",
-      "verified_at": "2026-05-29T10:30:09+00:00"
-    },
     {
       "category": "voornaamwoordelijk bijwoord gesplitst",
       "verse": 1,
@@ -107,10 +20,9 @@
       "explanation": "'hier op' — SV-gesplitst voornaamwoordelijk bijwoord. Modern Nederlands voegt samen: 'hierop' (bv. daarin, waarmee, hierop).",
       "proposed_fix": "hierop",
       "location": "hoofdtekst",
-      "id": "REV-4-1-004",
-      "status": "verified",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] False-positive op ARCHAISMEN.md 'gesplitst voornaamwoordelijk bijwoord': in v19 betekent 'hier op aarde' [hier] = locatief adverbium plus de volledige PP 'op aarde'. Samenvoegen tot 'hierop aarde' is ongrammaticaal; dit is niet het type 'daar op acht' waarbij de prepositie geen zelfstandig naamwoord regeert.",
-      "verified_at": "2026-05-29T10:28:30+00:00"
+      "id": "REV-4-1-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] False-positive op ARCHAISMEN.md 'gesplitst voornaamwoordelijk bijwoord': in v19 betekent 'hier op aarde' [hier] = locatief adverbium plus de volledige PP 'op aarde'. Samenvoegen tot 'hierop aarde' is ongrammaticaal; dit is niet het type 'daar op acht' waarbij de prepositie geen zelfstandig naamwoord regeert."
     },
     {
       "category": "genitief pronomen wiens/wier",
@@ -121,10 +33,9 @@
       "explanation": "'wiens heerlijkheid' — formeel-archaïsch genitief-pronomen. Modern Nederlands: 'van wie heerlijkheid' of zinsherbouw met bezittelijk voornaamwoord ('die zijn heerlijkheid', 'die haar heerlijkheid'). NBV21 vermijdt 'wiens' grotendeels.",
       "proposed_fix": null,
       "location": "kanttekening",
-      "id": "REV-4-1-005",
-      "status": "verified",
-      "rebuttal": "'wiens' (mannelijk/onzijdig betrekkelijk bezittelijk vnw.) is volwaardig modern Standaardnederlands, geen archaïsme — vgl. 'de man wiens auto'. Vers-specifiek: het antecedent is Christus ('de stem van Christus ... wiens heerlijkheid'), mannelijk enkelvoud, waarvoor 'wiens' de correcte hedendaagse vorm is. MODERNISATIE.md beoogt enkel de werkelijk verouderde genitiefvormen ('welks', verbogen 'wier'-meervoud zonder bron); 'wiens' valt daar niet onder.",
-      "verified_at": "2026-05-29T10:28:30+00:00"
+      "id": "REV-4-1-002",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] 'wiens' (mannelijk/onzijdig betrekkelijk bezittelijk vnw.) is volwaardig modern Standaardnederlands, geen archaïsme — vgl. 'de man wiens auto'. Vers-specifiek: het antecedent is Christus ('de stem van Christus ... wiens heerlijkheid'), mannelijk enkelvoud, waarvoor 'wiens' de correcte hedendaagse vorm is. MODERNISATIE.md beoogt enkel de werkelijk verouderde genitiefvormen ('welks', verbogen 'wier'-meervoud zonder bron); 'wiens' valt daar niet onder."
     },
     {
       "category": "genitief pronomen wiens/wier",
@@ -135,24 +46,9 @@
       "explanation": "'wiens woorden' — formeel-archaïsch genitief-pronomen. Modern Nederlands: 'van wie woorden' of zinsherbouw met bezittelijk voornaamwoord ('die zijn woorden', 'die haar woorden'). NBV21 vermijdt 'wiens' grotendeels.",
       "proposed_fix": null,
       "location": "kanttekening",
-      "id": "REV-4-1-006",
-      "status": "verified",
-      "rebuttal": "'wiens woorden' verwijst naar hetzelfde mannelijke antecedent Christus als REV-4-1-005; 'wiens' is hedendaags Standaardnederlands betrekkelijk bezittelijk vnw. voor mannelijk/onzijdig enkelvoud (vgl. 'de auteur wiens woorden'). MODERNISATIE.md raakt verouderde vormen ('welks'), niet 'wiens'. Vers-specifiek correct; geen zinsherbouw met 'van wie' vereist.",
-      "verified_at": "2026-05-29T10:28:30+00:00"
-    },
-    {
-      "category": "verbogen lidwoord (der/des/den)",
-      "verse": 2,
-      "severity": "hard",
-      "quote_modernized": "…ds staat, $Op. 8:3; 9:13$ waarin de Ark der getuigenis wordt gezien, $Op. 11:19$…",
-      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
-      "explanation": "'der getuigenis' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de getuigenis' of 'van het getuigenis', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
-      "proposed_fix": "van de getuigenis",
-      "location": "kanttekening",
-      "id": "REV-4-2-001",
-      "status": "verified",
-      "fix_commit": "pending",
-      "verified_at": "2026-05-29T10:28:30+00:00"
+      "id": "REV-4-1-003",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] 'wiens woorden' verwijst naar hetzelfde mannelijke antecedent Christus als REV-4-1-005; 'wiens' is hedendaags Standaardnederlands betrekkelijk bezittelijk vnw. voor mannelijk/onzijdig enkelvoud (vgl. 'de auteur wiens woorden'). MODERNISATIE.md raakt verouderde vormen ('welks'), niet 'wiens'. Vers-specifiek correct; geen zinsherbouw met 'van wie' vereist."
     },
     {
       "category": "kanttekening-redundantie",
@@ -163,52 +59,22 @@
       "explanation": "Kanttekening herhaalt 'in de hemel en' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
       "proposed_fix": null,
       "location": "kanttekening",
-      "id": "REV-4-2-002",
-      "status": "verified",
-      "rebuttal": "KANTTEKENINGEN.md: lemma-citatie met exegetische inhoud is geen redundantie. Vers-specifiek: de 4-token-overlap 'in de hemel en' is incidenteel; de kanttekening duidt de troon exegetisch als staande 'in de tempel van de hemel' ($Op. 16:17$) met de Ark en Cherubijnen — toegevoegde tabernakel-typologie, geen parafrastische herhaling van de hoofdtekst 'een troon gezet in de hemel'.",
-      "verified_at": "2026-05-29T10:28:30+00:00"
-    },
-    {
-      "category": "verbogen lidwoord (der/des/den)",
-      "verse": 3,
-      "severity": "hard",
-      "quote_modernized": "…or wordt treffend afgebeeld het verbond der genade Gods over zijn gemeente, dat …",
-      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
-      "explanation": "'der genade' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de genade' of 'van het genade', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
-      "proposed_fix": "van de genade",
-      "location": "kanttekening",
-      "id": "REV-4-3-001",
-      "status": "verified",
-      "fix_commit": "pending",
-      "verified_at": "2026-05-29T10:28:30+00:00"
-    },
-    {
-      "category": "§2.3 finiet participium",
-      "verse": 5,
-      "severity": "soft",
-      "quote_modernized": "…stemmen; en   zeven vurige lampen waren brandende voor de troon, welke zijn   de…",
-      "rule_reference": "MODERNISATIE.md §2.3",
-      "explanation": "'brandende' — verdacht -ende-woord in adverbial / clause-final positie. Ontvouw naar finiete bijzin ('en X', 'terwijl X', 'toen X').",
-      "proposed_fix": null,
-      "location": "hoofdtekst",
-      "id": "REV-4-5-001",
-      "status": "verified",
-      "rebuttal": "[Automated Propagation] 'brandende' is hier predicatief in parallelle constructie met 'omgord zijn' (gapped copula): 'Laat uw lendenen omgord zijn, en de kaarsen brandende [zijn]'. Vertaalt λύχνοι καιόμενοι (predicatief participium na ἔστωσαν). §2.3 betreft adverbiale -ende clauses; predicatieve constructies vallen buiten reikwijdte.",
-      "verified_at": "2026-05-29T10:28:30+00:00"
+      "id": "REV-4-2-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] KANTTEKENINGEN.md: lemma-citatie met exegetische inhoud is geen redundantie. Vers-specifiek: de 4-token-overlap 'in de hemel en' is incidenteel; de kanttekening duidt de troon exegetisch als staande 'in de tempel van de hemel' ($Op. 16:17$) met de Ark en Cherubijnen — toegevoegde tabernakel-typologie, geen parafrastische herhaling van de hoofdtekst 'een troon gezet in de hemel'."
     },
     {
       "category": "relativum welke/welken/hetwelk",
       "verse": 5,
       "severity": "soft",
-      "quote_modernized": "…ige lampen waren brandende voor de troon, welke zijn   de zeven Geesten Gods.",
+      "quote_modernized": "…ven vurige lampen brandden voor de troon, welke zijn   de zeven Geesten Gods.",
       "rule_reference": "ARCHAISMEN.md (SV-syntax)",
       "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
       "proposed_fix": null,
       "location": "hoofdtekst",
-      "id": "REV-4-5-002",
-      "status": "verified",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
-      "verified_at": "2026-05-29T10:28:30+00:00"
+      "id": "REV-4-5-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
     },
     {
       "category": "voornaamwoordelijk bijwoord gesplitst",
@@ -220,9 +86,8 @@
       "proposed_fix": "hiervan",
       "location": "kanttekening",
       "id": "REV-4-6-001",
-      "status": "verified",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] ARCHAISMEN.md raakt gesplitste voornaamwoordelijke bijwoorden als 'daar ... van' -> 'daarvan'. In Ef. 2:15 is 'hier' locatief: de Apostel spreekt op deze plaats over alle gelovigen als één mens; 'van alle gelovigen' is een zelfstandige voorzetselgroep, geen te vormen 'hiervan'.",
-      "verified_at": "2026-05-29T10:28:30+00:00"
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] ARCHAISMEN.md raakt gesplitste voornaamwoordelijke bijwoorden als 'daar ... van' -> 'daarvan'. In Ef. 2:15 is 'hier' locatief: de Apostel spreekt op deze plaats over alle gelovigen als één mens; 'van alle gelovigen' is een zelfstandige voorzetselgroep, geen te vormen 'hiervan'."
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -234,9 +99,8 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-4-6-002",
-      "status": "verified",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
-      "verified_at": "2026-05-29T10:28:30+00:00"
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -248,9 +112,8 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-4-6-003",
-      "status": "verified",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
-      "verified_at": "2026-05-29T10:28:30+00:00"
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
     },
     {
       "category": "kanttekening-redundantie",
@@ -262,9 +125,8 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-4-6-004",
-      "status": "verified",
-      "rebuttal": "KANTTEKENINGEN.md: annotatie die het lemma verklaart is toegestaan. Vers-specifiek: de kanttekening citeert 'die vol ogen waren' om uit te leggen WAAROM (de Evangelisten/leraars 'om hun grote kennis'), gevolgd door de zes-vleugel-exegese — dit is verklarende inhoud bij het lemma, niet een parafrastische herhaling van de hoofdtekst.",
-      "verified_at": "2026-05-29T10:28:30+00:00"
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] KANTTEKENINGEN.md: annotatie die het lemma verklaart is toegestaan. Vers-specifiek: de kanttekening citeert 'die vol ogen waren' om uit te leggen WAAROM (de Evangelisten/leraars 'om hun grote kennis'), gevolgd door de zes-vleugel-exegese — dit is verklarende inhoud bij het lemma, niet een parafrastische herhaling van de hoofdtekst."
     },
     {
       "category": "SV-verbuiging (demonstratief dezer/dien/...)",
@@ -276,10 +138,8 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "REV-4-7-001",
-      "status": "verified",
-      "rebuttal": "MODERNISATIE.md §2.3 (SV-verbuiging) betreft uitsluitend verbogen demonstratieven (genitief/datief dezer/dien/diens). Regex-false-positive: 'dier' is hier het zelfstandig naamwoord, Grieks ζῷον ('levend wezen'), niet het homografe verbogen demonstratief. Vers-specifiek: 'het eerste dier was als een leeuw' draagt het bepaald lidwoord 'het', dus 'dier' = nomen ζῷον; §2.3 is niet van toepassing op dit substantief.",
-      "verify_note": "rebuttal noemt geen regel (§), geen Griekse term en geen vers-specifiek argument — voeg referentie toe",
-      "verified_at": "2026-05-29T10:30:09+00:00"
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] MODERNISATIE.md §2.3 (SV-verbuiging) betreft uitsluitend verbogen demonstratieven (genitief/datief dezer/dien/diens). Regex-false-positive: 'dier' is hier het zelfstandig naamwoord, Grieks ζῷον ('levend wezen'), niet het homografe verbogen demonstratief. Vers-specifiek: 'het vierde dier was als een vliegende arend' draagt het bepaald lidwoord 'het', dus 'dier' = nomen ζῷον; §2.3 is niet van toepassing op dit substantief."
     },
     {
       "category": "SV-verbuiging (demonstratief dezer/dien/...)",
@@ -291,10 +151,8 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "REV-4-7-002",
-      "status": "verified",
-      "rebuttal": "MODERNISATIE.md §2.3 (SV-verbuiging) betreft uitsluitend verbogen demonstratieven (genitief/datief dezer/dien/diens). Regex-false-positive: 'dier' is hier het zelfstandig naamwoord, Grieks ζῷον ('levend wezen'), niet het homografe verbogen demonstratief. Vers-specifiek: 'het tweede dier als een kalf' draagt het bepaald lidwoord 'het', dus 'dier' = nomen ζῷον; §2.3 is niet van toepassing op dit substantief.",
-      "verify_note": "rebuttal noemt geen regel (§), geen Griekse term en geen vers-specifiek argument — voeg referentie toe",
-      "verified_at": "2026-05-29T10:30:09+00:00"
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] MODERNISATIE.md §2.3 (SV-verbuiging) betreft uitsluitend verbogen demonstratieven (genitief/datief dezer/dien/diens). Regex-false-positive: 'dier' is hier het zelfstandig naamwoord, Grieks ζῷον ('levend wezen'), niet het homografe verbogen demonstratief. Vers-specifiek: 'het tweede dier als een kalf' draagt het bepaald lidwoord 'het', dus 'dier' = nomen ζῷον; §2.3 is niet van toepassing op dit substantief."
     },
     {
       "category": "SV-verbuiging (demonstratief dezer/dien/...)",
@@ -306,10 +164,8 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "REV-4-7-003",
-      "status": "verified",
-      "rebuttal": "MODERNISATIE.md §2.3 (SV-verbuiging) betreft uitsluitend verbogen demonstratieven (genitief/datief dezer/dien/diens). Regex-false-positive: 'dier' is hier het zelfstandig naamwoord, Grieks ζῷον ('levend wezen'), niet het homografe verbogen demonstratief. Vers-specifiek: 'het derde dier had het aangezicht' draagt het bepaald lidwoord 'het', dus 'dier' = nomen ζῷον; §2.3 is niet van toepassing op dit substantief.",
-      "verify_note": "rebuttal noemt geen regel (§), geen Griekse term en geen vers-specifiek argument — voeg referentie toe",
-      "verified_at": "2026-05-29T10:30:09+00:00"
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] MODERNISATIE.md §2.3 (SV-verbuiging) betreft uitsluitend verbogen demonstratieven (genitief/datief dezer/dien/diens). Regex-false-positive: 'dier' is hier het zelfstandig naamwoord, Grieks ζῷον ('levend wezen'), niet het homografe verbogen demonstratief. Vers-specifiek: 'het derde dier had het aangezicht' draagt het bepaald lidwoord 'het', dus 'dier' = nomen ζῷον; §2.3 is niet van toepassing op dit substantief."
     },
     {
       "category": "SV-verbuiging (demonstratief dezer/dien/...)",
@@ -321,10 +177,8 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "REV-4-7-004",
-      "status": "verified",
-      "rebuttal": "MODERNISATIE.md §2.3 (SV-verbuiging) betreft uitsluitend verbogen demonstratieven (genitief/datief dezer/dien/diens). Regex-false-positive: 'dier' is hier het zelfstandig naamwoord, Grieks ζῷον ('levend wezen'), niet het homografe verbogen demonstratief. Vers-specifiek: 'het vierde dier was als een vliegende arend' draagt het bepaald lidwoord 'het', dus 'dier' = nomen ζῷον; §2.3 is niet van toepassing op dit substantief.",
-      "verify_note": "rebuttal noemt geen regel (§), geen Griekse term en geen vers-specifiek argument — voeg referentie toe",
-      "verified_at": "2026-05-29T10:30:09+00:00"
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] MODERNISATIE.md §2.3 (SV-verbuiging) betreft uitsluitend verbogen demonstratieven (genitief/datief dezer/dien/diens). Regex-false-positive: 'dier' is hier het zelfstandig naamwoord, Grieks ζῷον ('levend wezen'), niet het homografe verbogen demonstratief. Vers-specifiek: 'het vierde dier was als een vliegende arend' draagt het bepaald lidwoord 'het', dus 'dier' = nomen ζῷον; §2.3 is niet van toepassing op dit substantief."
     },
     {
       "category": "kanttekening-redundantie",
@@ -336,9 +190,8 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-4-10-001",
-      "status": "verified",
-      "rebuttal": "KANTTEKENINGEN.md: lemma-verwijzing binnen een verklaring is geen redundantie. Vers-specifiek: 'die op de troon zat' wordt in de kanttekening hernomen om het motief van het neerwerpen der kronen te duiden ('dat hun overwinning ... van hem kwam die op de troon zat') — dit voegt de theologische duiding toe, geen woordelijke herhaling-zonder-functie.",
-      "verified_at": "2026-05-29T10:28:30+00:00"
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] KANTTEKENINGEN.md: lemma-verwijzing binnen een verklaring is geen redundantie. Vers-specifiek: 'die op de troon zat' wordt in de kanttekening hernomen om het motief van het neerwerpen der kronen te duiden ('dat hun overwinning ... van hem kwam die op de troon zat') — dit voegt de theologische duiding toe, geen woordelijke herhaling-zonder-functie."
     },
     {
       "category": "concordantie-drift",
@@ -354,10 +207,9 @@
         6,
         7
       ],
-      "id": "REV-4-3-002",
-      "status": "verified",
-      "rebuttal": "Geen drift: het SV-stam 'gelijck' staat in v3/v6/v7 in verschillende syntactische functies. v3 = predicatief werkwoord 'gelijken' ('geleek in het aanzien op'); v6 = zelfstandig naamwoord 'gelijkenis'; v7 = vergelijkend voegwoord 'als'. MODERNISATIE.md vereist functie-passende weergave, niet één-op-één-stamconcordantie over woordsoortgrenzen; de divergentie is dus bewust en correct.",
-      "verified_at": "2026-05-29T10:28:30+00:00"
+      "id": "REV-4-3-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] Geen drift: het SV-stam 'gelijck' staat in v3/v6/v7 in verschillende syntactische functies. v3 = predicatief werkwoord 'gelijken' ('geleek in het aanzien op'); v6 = zelfstandig naamwoord 'gelijkenis'; v7 = vergelijkend voegwoord 'als'. MODERNISATIE.md vereist functie-passende weergave, niet één-op-één-stamconcordantie over woordsoortgrenzen; de divergentie is dus bewust en correct."
     }
   ]
 }

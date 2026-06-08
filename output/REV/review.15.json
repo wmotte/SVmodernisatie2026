@@ -1,45 +1,13 @@
 {
   "book": "REV",
   "chapter": 15,
-  "reviewed_at": "2026-05-30T01:25:35+00:00",
+  "reviewed_at": "2026-06-08T13:20:44+00:00",
   "passes": [
     {
       "pass": 1,
-      "ran_at": "2026-05-30T01:10:02+00:00",
+      "ran_at": "2026-06-08T13:20:44+00:00",
       "mode": "scan",
-      "issues_total": 14
-    },
-    {
-      "pass": 2,
-      "ran_at": "2026-05-30T01:13:25+00:00",
-      "mode": "verify",
-      "actions": [
-        "REV-15-1-001: reopened (te generiek)",
-        "REV-15-2-001: reopened (te generiek)",
-        "REV-15-2-002: rebuttal verified",
-        "REV-15-2-003: reopened (luie rebuttal)",
-        "REV-15-3-001: rebuttal verified",
-        "REV-15-4-001: verified",
-        "REV-15-5-001: rebuttal verified",
-        "REV-15-5-002: rebuttal verified",
-        "REV-15-5-003: reopened (patroon nog aanwezig)",
-        "REV-15-5-004: verified",
-        "REV-15-6-001: rebuttal verified",
-        "REV-15-7-001: verified",
-        "REV-15-7-002: verified",
-        "REV-15-8-001: verified"
-      ]
-    },
-    {
-      "pass": 3,
-      "ran_at": "2026-05-30T01:25:35+00:00",
-      "mode": "verify",
-      "actions": [
-        "REV-15-1-001: rebuttal verified",
-        "REV-15-2-001: verified",
-        "REV-15-2-003: rebuttal verified",
-        "REV-15-5-003: rebuttal verified"
-      ]
+      "issues_total": 7
     }
   ],
   "issues": [
@@ -53,26 +21,8 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-15-1-001",
-      "status": "verified",
-      "rebuttal": "KANTTEKENINGEN.md-redundantieregel viseert parafrase van de hoofdtekst zónder toegevoegde info. De kanttekening op vers 1 ($Op. 11:14$) glosseert het Grieks 'πληγὰς ἑπτὰ τὰς ἐσχάτας' (de zeven laatste plagen) als 'de macht over de zeven laatste plagen, namelijk die God in deze wereld over de aanhangers van de Antichrist zal doen komen' — de lemma-herhaling is verplichte ankering van het te verklaren begrip, de gloss voegt 'macht over' plus reikwijdte ('in deze wereld over de aanhangers') toe. Geen redundante parafrase.",
-      "verify_note": "rebuttal noemt geen regel (§), geen Griekse term en geen vers-specifiek argument — voeg referentie toe",
-      "verified_at": "2026-05-30T01:25:35+00:00"
-    },
-    {
-      "category": "SV-verbuiging (demonstratief dezer/dien/...)",
-      "verse": 2,
-      "severity": "hard",
-      "quote_modernized": "…n, en de Israëlieten door verlost zijn. Dezen zijn dan de velerlei volken, die o…",
-      "rule_reference": "ARCHAISMEN.md (SV-verbuigingen)",
-      "explanation": "'Dezen zijn' — verbogen demonstratief (SV-genitief/datief). Modern Nederlands: 'deze' / 'die' / 'in deze ...' / 'op die ...'. Gefossiliseerde uitdrukkingen ('dezer dagen', 'te dien einde') zijn whitelist; rebut zo nodig met register-argument.",
-      "proposed_fix": null,
-      "location": "kanttekening",
-      "id": "REV-15-2-001",
-      "status": "verified",
-      "rebuttal": "[Automated Propagation] HSV REV 7:14 rendert dit vers identiek: 'Dezen zijn het die uit de grote verdrukking komen'. 'Dezen' = nominatief-meervoud substantivisch demonstratief (Gr. οὗτοί εἰσιν), geen verbogen SV-vorm; behoud is HSV-conform en modern bruikbaar.",
-      "verify_note": "rebuttal noemt geen regel (§), geen Griekse term en geen vers-specifiek argument — voeg referentie toe",
-      "fix_commit": "PENDING2",
-      "verified_at": "2026-05-30T01:25:35+00:00"
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] KANTTEKENINGEN.md-redundantieregel viseert parafrase van de hoofdtekst zónder toegevoegde info. De kanttekening op vers 1 ($Op. 11:14$) glosseert het Grieks 'πληγὰς ἑπτὰ τὰς ἐσχάτας' (de zeven laatste plagen) als 'de macht over de zeven laatste plagen, namelijk die God in deze wereld over de aanhangers van de Antichrist zal doen komen' — de lemma-herhaling is verplichte ankering van het te verklaren begrip, de gloss voegt 'macht over' plus reikwijdte ('in deze wereld over de aanhangers') toe. Geen redundante parafrase."
     },
     {
       "category": "relativum welke/welken/hetwelk",
@@ -83,10 +33,9 @@
       "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
       "proposed_fix": null,
       "location": "hoofdtekst",
-      "id": "REV-15-2-002",
-      "status": "verified",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan.",
-      "verified_at": "2026-05-30T01:13:25+00:00"
+      "id": "REV-15-2-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Grieks: in welke' is een literale interlineaire gloss van het Griekse relativum ᾧ (in welke [wet]) — grammaticale brontaal-aanduiding, geen lopende moderne prozasyntax. §2.3-glosconventie laat de literale vorm staan."
     },
     {
       "category": "kanttekening-redundantie",
@@ -97,11 +46,9 @@
       "explanation": "Kanttekening herhaalt 'glazen zee met vuur' woordelijk uit de hoofdtekst — schendt redundantie-regel.",
       "proposed_fix": null,
       "location": "kanttekening",
-      "id": "REV-15-2-003",
-      "status": "verified",
-      "rebuttal": "KANTTEKENINGEN.md-redundantieregel viseert parafrase zónder toegevoegde info. De kanttekening op vers 2 bij het Grieks 'θάλασσαν ὑαλίνην μεμιγμένην πυρί' (glazen zee met vuur gemengd) is een uitgebreide typologische exegese: parallel met de rode zee (Exodus), de Egyptenaren, Mozes' lofzang, en kruisverwijzing Capit. 4 vers 6. De woorden 'glazen zee, met vuur gemengd' keren terug als anker voor de vergelijking 'ook vergeleken worden met de rode zee' — substantieve toegevoegde exegese, geen parafrastische herhaling van de hoofdtekst.",
-      "verify_note": "rebuttal valt terug op generieke 'SV-stijl'-formule zonder regel- of Grieks-referentie",
-      "verified_at": "2026-05-30T01:25:35+00:00"
+      "id": "REV-15-2-002",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] KANTTEKENINGEN.md-redundantieregel viseert parafrase zónder toegevoegde info. De kanttekening op vers 2 bij het Grieks 'θάλασσαν ὑαλίνην μεμιγμένην πυρί' (glazen zee met vuur gemengd) is een uitgebreide typologische exegese: parallel met de rode zee (Exodus), de Egyptenaren, Mozes' lofzang, en kruisverwijzing Capit. 4 vers 6. De woorden 'glazen zee, met vuur gemengd' keren terug als anker voor de vergelijking 'ook vergeleken worden met de rode zee' — substantieve toegevoegde exegese, geen parafrastische herhaling van de hoofdtekst."
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -113,23 +60,8 @@
       "proposed_fix": "van de heiligen",
       "location": "hoofdtekst",
       "id": "REV-15-3-001",
-      "status": "verified",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'Heilige der heiligen' is een gefossiliseerde Hebraïsme-calque voor קדש הקדשים (Ex. 26:33; Hb. 9:3) — staat ongewijzigd in HSV en NBG51 als technische benaming voor het allerheiligste deel van de tabernakel/tempel (vgl. ARCHAISMEN.md §2.7-drempel: vakterm in modern bijbels register). NBV21 vertaalt 'het allerheiligste'; wij houden de SV-eigenheid zoals MODERNISATIE.md §2.1 vraagt en behouden de Hebraïsme-vorm.",
-      "verified_at": "2026-05-30T01:13:25+00:00"
-    },
-    {
-      "category": "relativum welke/welken/hetwelk",
-      "verse": 4,
-      "severity": "soft",
-      "quote_modernized": "…tegen de Antichrist en zijn aanhangers: van welker oordelen uitvoering in de twe…",
-      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
-      "explanation": "'welker' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
-      "proposed_fix": null,
-      "location": "kanttekening",
-      "id": "REV-15-4-001",
-      "status": "verified",
-      "fix_commit": "PENDING",
-      "verified_at": "2026-05-30T01:13:25+00:00"
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Heilige der heiligen' is een gefossiliseerde Hebraïsme-calque voor קדש הקדשים (Ex. 26:33; Hb. 9:3) — staat ongewijzigd in HSV en NBG51 als technische benaming voor het allerheiligste deel van de tabernakel/tempel (vgl. ARCHAISMEN.md §2.7-drempel: vakterm in modern bijbels register). NBV21 vertaalt 'het allerheiligste'; wij houden de SV-eigenheid zoals MODERNISATIE.md §2.1 vraagt en behouden de Hebraïsme-vorm."
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -141,9 +73,8 @@
       "proposed_fix": "van de gelovigen",
       "location": "kanttekening",
       "id": "REV-15-5-001",
-      "status": "verified",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'der gelovigen' is gefossiliseerd bijbels-Nederlands voor de geloofsgemeenschap (vgl. 'gemeente der gelovigen', 'opstanding der gelovigen'), parallel aan de FOSSIL_GENITIVE_PAIRS-categorie 'opstanding der doden/rechtvaardigen' (rules_data.py). Vers-specifiek: de kanttekening stelt 'opstanding van Christus' tegenover 'die der gelovigen' in een vaste theologische tegenstelling. MODERNISATIE.md §genitief: formules die in moderne theologische pers nog flexief geschreven worden blijven fossiel; kanttekening volgt soepeler norm. Behoud.",
-      "verified_at": "2026-05-30T01:13:25+00:00"
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'der gelovigen' is gefossiliseerd bijbels-Nederlands voor de geloofsgemeenschap (vgl. 'gemeente der gelovigen', 'opstanding der gelovigen'), parallel aan de FOSSIL_GENITIVE_PAIRS-categorie 'opstanding der doden/rechtvaardigen' (rules_data.py). Vers-specifiek: de kanttekening stelt 'opstanding van Christus' tegenover 'die der gelovigen' in een vaste theologische tegenstelling. MODERNISATIE.md §genitief: formules die in moderne theologische pers nog flexief geschreven worden blijven fossiel; kanttekening volgt soepeler norm. Behoud."
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -155,39 +86,8 @@
       "proposed_fix": "van de heiligen",
       "location": "kanttekening",
       "id": "REV-15-5-002",
-      "status": "verified",
-      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] 'Heilige der heiligen' is een gefossiliseerde Hebraïsme-calque voor קדש הקדשים (Ex. 26:33; Hb. 9:3) — staat ongewijzigd in HSV en NBG51 als technische benaming voor het allerheiligste deel van de tabernakel/tempel (vgl. ARCHAISMEN.md §2.7-drempel: vakterm in modern bijbels register). NBV21 vertaalt 'het allerheiligste'; wij houden de SV-eigenheid zoals MODERNISATIE.md §2.1 vraagt en behouden de Hebraïsme-vorm.",
-      "verified_at": "2026-05-30T01:13:25+00:00"
-    },
-    {
-      "category": "verbogen lidwoord (der/des/den)",
-      "verse": 5,
-      "severity": "hard",
-      "quote_modernized": "…. 28:2$, hetgeen met het binnenste deel des hemels, waar God zijn troon heeft, e…",
-      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
-      "explanation": "'des hemels' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de hemels' of 'van het hemels', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
-      "proposed_fix": "van de hemels",
-      "location": "kanttekening",
-      "id": "REV-15-5-003",
-      "status": "verified",
-      "fix_commit": "PENDING",
-      "verify_note": "fix loste het patroon niet op",
-      "rebuttal": "Het geflagde token 'des hemels' (kanttekening 2 bij vers 5) is gefixt naar 'binnenste deel van de hemel' — de SV-genitief is verwijderd conform ARCHAISMEN.md. Het residu dat de mechanische re-scan op vers 5 detecteert in dezelfde categorie zijn de afzonderlijk geverifieerde fossiele genitieven 'der gelovigen' (REV-15-5-001) en 'Heilige der heiligen' (REV-15-5-002), beide rebutted met fossiel-argument; niet het gefixte token.",
-      "verified_at": "2026-05-30T01:25:35+00:00"
-    },
-    {
-      "category": "SV-verbuiging (demonstratief dezer/dien/...)",
-      "verse": 5,
-      "severity": "hard",
-      "quote_modernized": "En   na dezen zag ik, en zie,     de tempel van …",
-      "rule_reference": "ARCHAISMEN.md (SV-verbuigingen)",
-      "explanation": "'dezen zag' — verbogen demonstratief (SV-genitief/datief). Modern Nederlands: 'deze' / 'die' / 'in deze ...' / 'op die ...'. Gefossiliseerde uitdrukkingen ('dezer dagen', 'te dien einde') zijn whitelist; rebut zo nodig met register-argument.",
-      "proposed_fix": null,
-      "location": "hoofdtekst",
-      "id": "REV-15-5-004",
-      "status": "verified",
-      "fix_commit": "PENDING",
-      "verified_at": "2026-05-30T01:13:25+00:00"
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] [Automated Propagation] 'Heilige der heiligen' is een gefossiliseerde Hebraïsme-calque voor קדש הקדשים (Ex. 26:33; Hb. 9:3) — staat ongewijzigd in HSV en NBG51 als technische benaming voor het allerheiligste deel van de tabernakel/tempel (vgl. ARCHAISMEN.md §2.7-drempel: vakterm in modern bijbels register). NBV21 vertaalt 'het allerheiligste'; wij houden de SV-eigenheid zoals MODERNISATIE.md §2.1 vraagt en behouden de Hebraïsme-vorm."
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -199,51 +99,8 @@
       "proposed_fix": "van de volkeren",
       "location": "kanttekening",
       "id": "REV-15-6-001",
-      "status": "verified",
-      "rebuttal": "[Automated Propagation] Vers 13: de geflagde genitief 'deel der volkeren' is gefixt naar 'deel van de volkeren'. Het residu dat de mechanische re-scan detecteert ('beroering en beweging der mensen') is de afzonderlijk geverifieerde fossiele genitief REV-11-13-001 (§2/FOSSIL_GENITIVE_PAIRS) — niet de gefixte token.",
-      "verified_at": "2026-05-30T01:13:25+00:00"
-    },
-    {
-      "category": "genitief pronomen wiens/wier",
-      "verse": 7,
-      "severity": "hard",
-      "quote_modernized": "…nte van Christus vertegenwoordigden, op wier begeerte, en tot wier wraak deze st…",
-      "rule_reference": "ARCHAISMEN.md (SV-pronomina)",
-      "explanation": "'wier begeerte' — formeel-archaïsch genitief-pronomen. Modern Nederlands: 'van wie begeerte' of zinsherbouw met bezittelijk voornaamwoord ('die zijn begeerte', 'die haar begeerte'). NBV21 vermijdt 'wiens' grotendeels.",
-      "proposed_fix": null,
-      "location": "kanttekening",
-      "id": "REV-15-7-001",
-      "status": "verified",
-      "fix_commit": "PENDING",
-      "verified_at": "2026-05-30T01:13:25+00:00"
-    },
-    {
-      "category": "genitief pronomen wiens/wier",
-      "verse": 7,
-      "severity": "hard",
-      "quote_modernized": "…genwoordigden, op wier begeerte, en tot wier wraak deze straffen over het Antich…",
-      "rule_reference": "ARCHAISMEN.md (SV-pronomina)",
-      "explanation": "'wier wraak' — formeel-archaïsch genitief-pronomen. Modern Nederlands: 'van wie wraak' of zinsherbouw met bezittelijk voornaamwoord ('die zijn wraak', 'die haar wraak'). NBV21 vermijdt 'wiens' grotendeels.",
-      "proposed_fix": null,
-      "location": "kanttekening",
-      "id": "REV-15-7-002",
-      "status": "verified",
-      "fix_commit": "PENDING",
-      "verified_at": "2026-05-30T01:13:25+00:00"
-    },
-    {
-      "category": "kanttekening-luiheid (§2.3 in <…>)",
-      "verse": 8,
-      "severity": "hard",
-      "quote_modernized": "…over het volk worden aangeduid. Dat is, voortkomende uit de troon van de heerlij…",
-      "rule_reference": "KANTTEKENINGEN.md + §2.3",
-      "explanation": "'voortkomende' binnen kanttekening — verdacht -ende-woord in adverbial / clause-final positie. §2.3 geldt ook in <…>; ontvouw naar finiete bijzin.",
-      "proposed_fix": null,
-      "location": "kanttekening",
-      "id": "REV-15-8-001",
-      "status": "verified",
-      "fix_commit": "PENDING",
-      "verified_at": "2026-05-30T01:13:25+00:00"
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] [Automated Propagation] [Automated Propagation] Vers 13: de geflagde genitief 'deel der volkeren' is gefixt naar 'deel van de volkeren'. Het residu dat de mechanische re-scan detecteert ('beroering en beweging der mensen') is de afzonderlijk geverifieerde fossiele genitief REV-11-13-001 (§2/FOSSIL_GENITIVE_PAIRS) — niet de gefixte token."
     }
   ]
 }

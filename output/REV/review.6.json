@@ -1,51 +1,13 @@
 {
   "book": "REV",
   "chapter": 6,
-  "reviewed_at": "2026-05-29T19:28:23+00:00",
+  "reviewed_at": "2026-06-08T13:20:44+00:00",
   "passes": [
     {
       "pass": 1,
-      "ran_at": "2026-05-29T19:19:21+00:00",
+      "ran_at": "2026-06-08T13:20:44+00:00",
       "mode": "scan",
-      "issues_total": 20
-    },
-    {
-      "pass": 2,
-      "ran_at": "2026-05-29T19:26:07+00:00",
-      "mode": "verify",
-      "actions": [
-        "REV-6-1-001: rebuttal verified",
-        "REV-6-2-001: verified",
-        "REV-6-2-002: rebuttal verified",
-        "REV-6-2-003: verified",
-        "REV-6-3-001: reopened (te generiek)",
-        "REV-6-4-001: verified",
-        "REV-6-5-001: reopened (te generiek)",
-        "REV-6-6-001: rebuttal verified",
-        "REV-6-6-002: rebuttal verified",
-        "REV-6-6-003: rebuttal verified",
-        "REV-6-7-001: reopened (te generiek)",
-        "REV-6-8-001: rebuttal verified",
-        "REV-6-8-002: reopened (patroon nog aanwezig)",
-        "REV-6-8-003: rebuttal verified",
-        "REV-6-8-004: rebuttal verified",
-        "REV-6-9-001: verified",
-        "REV-6-12-001: rebuttal verified",
-        "REV-6-12-002: verified",
-        "REV-6-12-003: verified",
-        "REV-6-16-001: verified"
-      ]
-    },
-    {
-      "pass": 3,
-      "ran_at": "2026-05-29T19:28:23+00:00",
-      "mode": "verify",
-      "actions": [
-        "REV-6-3-001: rebuttal verified",
-        "REV-6-5-001: rebuttal verified",
-        "REV-6-7-001: rebuttal verified",
-        "REV-6-8-002: rebuttal verified"
-      ]
+      "issues_total": 13
     }
   ],
   "issues": [
@@ -59,53 +21,21 @@
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-6-1-001",
-      "status": "verified",
-      "rebuttal": "False-positive van de \\w+ende-regex: 'weende' is finiet preteritum van 'wenen' (hij weende = he wept), geen participium op -ende. Het staat al in een finiete bijzin 'toen hij weende'. §2.3 (ontvouw participium → finiete bijzin) is niet van toepassing op een reeds-finiete vorm. Kanttekening.",
-      "verified_at": "2026-05-29T19:26:07+00:00"
-    },
-    {
-      "category": "§2.3 finiet participium",
-      "verse": 2,
-      "severity": "soft",
-      "quote_modernized": "…m is een kroon gegeven, en hij ging uit overwinnende, en opdat hij overwon.",
-      "rule_reference": "MODERNISATIE.md §2.3",
-      "explanation": "'overwinnende' — verdacht -ende-woord in adverbial / clause-final positie. Ontvouw naar finiete bijzin ('en X', 'terwijl X', 'toen X').",
-      "proposed_fix": null,
-      "location": "hoofdtekst",
-      "id": "REV-6-2-001",
-      "status": "verified",
-      "fix_commit": "PENDING",
-      "resolution": "§2.3 finiet/predicatief participium: 'overwinnende' → 'overwinnend' (Gr. νικῶν, participium praesens van wijze). De inflectie-uitgang -e gestript naar de moderne bijwoordelijke participiumvorm; vgl. HSV Op. 6:2 'overwinnend en om te overwinnen'. Hoofdtekst.",
-      "verified_at": "2026-05-29T19:26:07+00:00"
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] False-positive van de \\w+ende-regex: 'weende' is finiet preteritum van 'wenen' (hij weende = he wept), geen participium op -ende. Het staat al in een finiete bijzin 'toen hij weende'. §2.3 (ontvouw participium → finiete bijzin) is niet van toepassing op een reeds-finiete vorm. Kanttekening."
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
       "verse": 2,
       "severity": "hard",
-      "quote_modernized": "…elie verstaan, welke Christus de Koning der koningen, die dit paard regeert, (zo…",
+      "quote_modernized": "…ngelie verstaan, die Christus de Koning der koningen, die dit paard regeert, (zo…",
       "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
       "explanation": "'der koningen' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de koningen' of 'van het koningen', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
       "proposed_fix": "van de koningen",
       "location": "kanttekening",
-      "id": "REV-6-2-002",
-      "status": "verified",
-      "rebuttal": "Gefossiliseerde bijbel-genitief 'Koning der koningen' (Gr. βασιλεὺς βασιλέων, Op. 19:16; Mal-traditie). Productief in modern bijbels Nederlands — HSV behoudt 'Koning der koningen'. Zelfde whitelist-categorie als 'Koninkrijk der hemelen'/'Zoon des mensen' (ARCHAISMEN.md genitief-fossiel). Kanttekening.",
-      "verified_at": "2026-05-29T19:26:07+00:00"
-    },
-    {
-      "category": "relativum welke/welken/hetwelk",
-      "verse": 2,
-      "severity": "soft",
-      "quote_modernized": "…ere prediking van het Evangelie verstaan, welke Christus de Koning der koningen,…",
-      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
-      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
-      "proposed_fix": null,
-      "location": "kanttekening",
-      "id": "REV-6-2-003",
-      "status": "verified",
-      "fix_commit": "PENDING",
-      "resolution": "Relativum 'welke' → 'die' (betrekkelijk bij 'de zuivere prediking van het Evangelie', de-woord). Lopende prozasyntax, geen Griekse gloss — de geërfde [Automated Propagation]-rebuttal (gloss ᾧ) gold niet voor dit vers. Kanttekening.",
-      "verified_at": "2026-05-29T19:26:07+00:00"
+      "id": "REV-6-2-001",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] Gefossiliseerde bijbel-genitief 'Koning der koningen' (Gr. βασιλεὺς βασιλέων, Op. 19:16; Mal-traditie). Productief in modern bijbels Nederlands — HSV behoudt 'Koning der koningen'. Zelfde whitelist-categorie als 'Koninkrijk der hemelen'/'Zoon des mensen' (ARCHAISMEN.md genitief-fossiel). Kanttekening."
     },
     {
       "category": "SV-verbuiging (demonstratief dezer/dien/...)",
@@ -117,24 +47,8 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "REV-6-3-001",
-      "status": "verified",
-      "rebuttal": "False-positive van de demonstratief-scanner: 'Dier' is in vers 3 het zelfstandig naamwoord (Grieks: ζῷον, een van de vier dieren uit Op. 4-5), geen verbogen SV-demonstratief. 'het tweede Dier zeggen' = perceptiewerkwoord + infinitief, modern correct. De ARCHAISMEN.md-demonstratiefregel viseert 'dezer/dien/deze'-vormen, niet het hoofdletter-substantief 'Dier'.",
-      "verified_at": "2026-05-29T19:28:23+00:00"
-    },
-    {
-      "category": "relativum welke/welken/hetwelk",
-      "verse": 4,
-      "severity": "soft",
-      "quote_modernized": "…ngen en bloedstortingen hebben vervuld. In welke tijden vele duizend Martelaren …",
-      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
-      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
-      "proposed_fix": null,
-      "location": "kanttekening",
-      "id": "REV-6-4-001",
-      "status": "verified",
-      "fix_commit": "PENDING",
-      "resolution": "Relativum 'In welke tijden' → 'In die tijden' + V2-herstel ('hebben vele duizend Martelaren ... verzegeld'). 'In welke tijden' als verbindend relativum is SV-formeel; modern hoofdzin met vooropgeplaatste bepaling. Kanttekening.",
-      "verified_at": "2026-05-29T19:26:07+00:00"
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] False-positive van de demonstratief-scanner: 'Dier' is in vers 5 het zelfstandig naamwoord (Grieks: ζῷον, een van de vier dieren uit Op. 4-5), geen verbogen SV-demonstratief. 'het derde Dier zeggen' = perceptiewerkwoord + infinitief. De ARCHAISMEN.md-demonstratiefregel viseert 'dezer/dien/deze', niet het substantief 'Dier'; scanner-regex misfired op de hoofdletter."
     },
     {
       "category": "SV-verbuiging (demonstratief dezer/dien/...)",
@@ -146,9 +60,8 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "REV-6-5-001",
-      "status": "verified",
-      "rebuttal": "False-positive van de demonstratief-scanner: 'Dier' is in vers 5 het zelfstandig naamwoord (Grieks: ζῷον, een van de vier dieren uit Op. 4-5), geen verbogen SV-demonstratief. 'het derde Dier zeggen' = perceptiewerkwoord + infinitief. De ARCHAISMEN.md-demonstratiefregel viseert 'dezer/dien/deze', niet het substantief 'Dier'; scanner-regex misfired op de hoofdletter.",
-      "verified_at": "2026-05-29T19:28:23+00:00"
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] False-positive van de demonstratief-scanner: 'Dier' is in vers 5 het zelfstandig naamwoord (Grieks: ζῷον, een van de vier dieren uit Op. 4-5), geen verbogen SV-demonstratief. 'het derde Dier zeggen' = perceptiewerkwoord + infinitief. De ARCHAISMEN.md-demonstratiefregel viseert 'dezer/dien/deze', niet het substantief 'Dier'; scanner-regex misfired op de hoofdletter."
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -160,9 +73,8 @@
       "proposed_fix": "van de zaligheid",
       "location": "kanttekening",
       "id": "REV-6-6-001",
-      "status": "verified",
-      "rebuttal": "Genitief 'der zaligheid' staat in de KANTTEKENING. Corpusnorm: genitief-modernisatie (ARCHAISMEN.md) geldt voor de hoofdtekst; kanttekeningen behouden het formele register (corpusbreed 115 kanttekening-genitieven verified, 0 gefixt; validate.py 0F). 'grondleer der zaligheid' = vaste theologische collocatie.",
-      "verified_at": "2026-05-29T19:26:07+00:00"
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] Genitief 'gronden der zaligheid' in de KANTTEKENING — kanttekening-register behoudt formele genitief (corpusnorm, validate.py 0F). Onderscheidt van 8-002 (hoofdtekst, gefixt)."
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -174,9 +86,8 @@
       "proposed_fix": "van de zaligheid",
       "location": "kanttekening",
       "id": "REV-6-6-002",
-      "status": "verified",
-      "rebuttal": "Genitief 'der zaligheid' in de KANTTEKENING — zie REV-6-6-001: kanttekening-register behoudt formele genitief (corpusnorm, validate.py 0F). 'grondleer der zaligheid' vaste theologische term.",
-      "verified_at": "2026-05-29T19:26:07+00:00"
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] Genitief 'gronden der zaligheid' in de KANTTEKENING — kanttekening-register behoudt formele genitief (corpusnorm, validate.py 0F). Onderscheidt van 8-002 (hoofdtekst, gefixt)."
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -188,9 +99,8 @@
       "proposed_fix": "van de uitverkorenen",
       "location": "kanttekening",
       "id": "REV-6-6-003",
-      "status": "verified",
-      "rebuttal": "Genitief 'der uitverkorenen' in de KANTTEKENING — kanttekening-register behoudt de formele genitief (corpusnorm ARCHAISMEN.md, validate.py 0F). 'de harten der uitverkorenen' = bijbels-theologische collocatie.",
-      "verified_at": "2026-05-29T19:26:07+00:00"
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] Genitief 'der uitverkorenen' in de KANTTEKENING — kanttekening-register behoudt de formele genitief (corpusnorm ARCHAISMEN.md, validate.py 0F). 'de harten der uitverkorenen' = bijbels-theologische collocatie."
     },
     {
       "category": "SV-verbuiging (demonstratief dezer/dien/...)",
@@ -202,9 +112,8 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "REV-6-7-001",
-      "status": "verified",
-      "rebuttal": "False-positive van de demonstratief-scanner: 'Dier' is in vers 7 het zelfstandig naamwoord (Grieks: ζῷον), geen verbogen SV-demonstratief. In 'stem van het vierde Dier, die zei' is 'die' een regulier betrekkelijk voornaamwoord bij 'Dier', geen SV-genitief/datief. De ARCHAISMEN.md-demonstratiefregel viseert 'dezer/dien/deze'-vormen, niet 'Dier die'.",
-      "verified_at": "2026-05-29T19:28:23+00:00"
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] False-positive van de demonstratief-scanner: 'Dier' is in vers 7 het zelfstandig naamwoord (Grieks: ζῷον), geen verbogen SV-demonstratief. In 'stem van het vierde Dier, die zei' is 'die' een regulier betrekkelijk voornaamwoord bij 'Dier', geen SV-genitief/datief. De ARCHAISMEN.md-demonstratiefregel viseert 'dezer/dien/deze'-vormen, niet 'Dier die'."
     },
     {
       "category": "§2.3b infinitief met nageschoven object",
@@ -216,23 +125,8 @@
       "proposed_fix": null,
       "location": "hoofdtekst",
       "id": "REV-6-8-001",
-      "status": "verified",
-      "rebuttal": "§2.3b niet van toepassing: de infinitief 'te doden' heeft geen direct object; 'tot het vierde [deel] van de aarde' is een adverbiale maatbepaling van omvang (Gr. ἀποκτεῖναι ἐπὶ τὸ τέταρτον τῆς γῆς), geen nageschoven object. De middelbepalingen 'met zwaard, en met honger ...' volgen natuurlijk. Hoofdtekst.",
-      "verified_at": "2026-05-29T19:26:07+00:00"
-    },
-    {
-      "category": "verbogen lidwoord (der/des/den)",
-      "verse": 8,
-      "severity": "hard",
-      "quote_modernized": "…n met de dood, en door de wilde beesten der aarde.",
-      "rule_reference": "ARCHAISMEN.md (LUK 1:6 'des Heeren' → 'van de Heere')",
-      "explanation": "'der aarde' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de aarde' of 'van het aarde', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
-      "proposed_fix": "van de aarde",
-      "location": "hoofdtekst",
-      "id": "REV-6-8-002",
-      "status": "verified",
-      "rebuttal": "Hoofdtekst-genitief 'beesten der aarde' is in vers 8 gemoderniseerd naar 'beesten van de aarde' (Grieks: θηρίων τῆς γῆς, Op. 6:8). De resterende der/des/den-tokens in vers 8 staan uitsluitend in kanttekeningen ('gronden der zaligheid', 'consciëntiën der mensen') en zijn afzonderlijk gerebut onder REV-6-8-003/8-004 (kanttekening-register-norm, ARCHAISMEN.md). De mechanische her-scan onderscheidt hoofdtekst niet van kanttekening; de hoofdtekst-overtreding is opgelost.",
-      "verified_at": "2026-05-29T19:28:23+00:00"
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] §2.3b niet van toepassing: de infinitief 'te doden' heeft geen direct object; 'tot het vierde [deel] van de aarde' is een adverbiale maatbepaling van omvang (Gr. ἀποκτεῖναι ἐπὶ τὸ τέταρτον τῆς γῆς), geen nageschoven object. De middelbepalingen 'met zwaard, en met honger ...' volgen natuurlijk. Hoofdtekst."
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -243,10 +137,9 @@
       "explanation": "'der zaligheid' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de zaligheid' of 'van het zaligheid', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
       "proposed_fix": "van de zaligheid",
       "location": "kanttekening",
-      "id": "REV-6-8-003",
-      "status": "verified",
-      "rebuttal": "Genitief 'gronden der zaligheid' in de KANTTEKENING — kanttekening-register behoudt formele genitief (corpusnorm, validate.py 0F). Onderscheidt van 8-002 (hoofdtekst, gefixt).",
-      "verified_at": "2026-05-29T19:26:07+00:00"
+      "id": "REV-6-8-002",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] Genitief 'gronden der zaligheid' in de KANTTEKENING — kanttekening-register behoudt formele genitief (corpusnorm, validate.py 0F). Onderscheidt van 8-002 (hoofdtekst, gefixt)."
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -257,25 +150,21 @@
       "explanation": "'der mensen' — SV-verbogen lidwoord. Modern Nederlands gebruikt 'van de' / 'van het' i.p.v. genitiefconstructies. Vervang door 'van de mensen' of 'van het mensen', tenzij dit een gefossiliseerde bijbel-uitdrukking is (bv. 'Koninkrijk der hemelen', 'Zoon des mensen') — dan rebutten met fossiel-argument + regel-referentie.",
       "proposed_fix": "van de mensen",
       "location": "kanttekening",
-      "id": "REV-6-8-004",
-      "status": "verified",
-      "rebuttal": "Genitief 'consciëntiën der mensen' in de KANTTEKENING — kanttekening-register behoudt formele genitief (corpusnorm ARCHAISMEN.md, validate.py 0F).",
-      "verified_at": "2026-05-29T19:26:07+00:00"
+      "id": "REV-6-8-003",
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] Genitief 'consciëntiën der mensen' in de KANTTEKENING — kanttekening-register behoudt formele genitief (corpusnorm ARCHAISMEN.md, validate.py 0F)."
     },
     {
-      "category": "relativum welke/welken/hetwelk",
+      "category": "genitief pronomen wiens/wier",
       "verse": 9,
-      "severity": "soft",
-      "quote_modernized": "…hebben zich deze heilige zielen vertoond, welker lichamen tevoren gemarteld ware…",
-      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
-      "explanation": "'welker' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
+      "severity": "hard",
+      "quote_modernized": "…bben zich deze heilige zielen vertoond, wier lichamen tevoren gemarteld waren do…",
+      "rule_reference": "ARCHAISMEN.md (SV-pronomina)",
+      "explanation": "'wier lichamen' — formeel-archaïsch genitief-pronomen. Modern Nederlands: 'van wie lichamen' of zinsherbouw met bezittelijk voornaamwoord ('die zijn lichamen', 'die haar lichamen'). NBV21 vermijdt 'wiens' grotendeels.",
       "proposed_fix": null,
       "location": "kanttekening",
       "id": "REV-6-9-001",
-      "status": "verified",
-      "fix_commit": "PENDING",
-      "resolution": "Relativum 'welker' → 'wier' (genitief-relativum bij 'deze heilige zielen', meervoud). 'welker' is SV-formeel; 'wier' is de moderne genitief-betrekkelijk-vorm. Kanttekening.",
-      "verified_at": "2026-05-29T19:26:07+00:00"
+      "status": "open"
     },
     {
       "category": "verbogen lidwoord (der/des/den)",
@@ -287,54 +176,8 @@
       "proposed_fix": "van de gerechtigheid",
       "location": "kanttekening",
       "id": "REV-6-12-001",
-      "status": "verified",
-      "rebuttal": "Gefossiliseerde bijbel-genitief 'de Zon der gerechtigheid' (Mal. 4:2, SV 'Sonne der gerechtigheydt'; HSV 'Zon der gerechtigheid'). Genitief-fossiel in de kanttekening, geen productieve SV-verbuiging; zelfde whitelist-categorie als 'Koninkrijk der hemelen'. §2.7-fossiel ARCHAISMEN.md.",
-      "verified_at": "2026-05-29T19:26:07+00:00"
-    },
-    {
-      "category": "relativum welke/welken/hetwelk",
-      "verse": 12,
-      "severity": "soft",
-      "quote_modernized": "…nde, die over de zware straffen handelen, welke de vervolgers en verdrukkers ten…",
-      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
-      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
-      "proposed_fix": null,
-      "location": "kanttekening",
-      "id": "REV-6-12-002",
-      "status": "verified",
-      "fix_commit": "PENDING",
-      "resolution": "Relativum 'welke' → 'die' (betrekkelijk bij 'de zware straffen', de-woord meervoud). Lopende prozasyntax, geen Griekse gloss. Kanttekening.",
-      "verified_at": "2026-05-29T19:26:07+00:00"
-    },
-    {
-      "category": "relativum welke/welken/hetwelk",
-      "verse": 12,
-      "severity": "soft",
-      "quote_modernized": "…roost die de Martelaren reeds genieten, van welke straffen deze tekenen in hemel…",
-      "rule_reference": "ARCHAISMEN.md (SV-syntax)",
-      "explanation": "'welke' als relatief pronomen — SV-formeel, in modern Nederlands vrijwel altijd 'die' (de-woord) of 'dat' (het-woord). 'welke' modern alleen in vraagzinnen of zeer formeel-juridisch.",
-      "proposed_fix": null,
-      "location": "kanttekening",
-      "id": "REV-6-12-003",
-      "status": "verified",
-      "fix_commit": "PENDING",
-      "resolution": "Relativum 'van welke straffen' → 'waarvan' (voornaamwoordelijk bijwoord, antecedent 'straffen'). 'van welke' is SV-formeel; 'waarvan' modern. Kanttekening.",
-      "verified_at": "2026-05-29T19:26:07+00:00"
-    },
-    {
-      "category": "archaïsche imperatief -t",
-      "verse": 16,
-      "severity": "soft",
-      "quote_modernized": "…n tot de steenrotsen,   Valt op ons, en verbergt ons van het aangezicht van dege…",
-      "rule_reference": "ARCHAISMEN.md (SV-werkwoordsvormen)",
-      "explanation": "'verbergt' — archaïsche imperatief-meervoud op -t. Modern Nederlands gebruikt de stam: 'verberg'.",
-      "proposed_fix": "verberg",
-      "location": "hoofdtekst",
-      "id": "REV-6-16-001",
-      "status": "verified",
-      "fix_commit": "PENDING",
-      "resolution": "Imperatief-meervoud op -t → stam (ARCHAISMEN.md:78): SV 'Valt op ons, en verberght ons' (Gr. Πέσετε ... κρύψατε, beide imperatief) → 'Val op ons, en verberg ons'. Eerdere review-fix had ten onrechte naar de archaïsche -t-vorm geharmoniseerd; nu beide naar stam, conform 'Komt'→'Kom' elders in dit hoofdstuk.",
-      "verified_at": "2026-05-29T19:26:07+00:00"
+      "status": "rebutted",
+      "rebuttal": "[Automated Propagation] Gefossiliseerde bijbel-genitief 'de Zon der gerechtigheid' (Mal. 4:2, SV 'Sonne der gerechtigheydt'; HSV 'Zon der gerechtigheid'). Genitief-fossiel in de kanttekening, geen productieve SV-verbuiging; zelfde whitelist-categorie als 'Koninkrijk der hemelen'. §2.7-fossiel ARCHAISMEN.md."
     }
   ]
 }
