@@ -1,0 +1,97 @@
+{
+  "round_no": 23,
+  "books": [
+    "GAL",
+    "PHP"
+  ],
+  "red": [
+    {
+      "id": "RG23-001",
+      "class": "modernisatie",
+      "books": [
+        "GAL"
+      ],
+      "chapter": 5,
+      "verse": 16,
+      "quote": "ik zeg, $Rm. 13:14; 1Pt. 2:11$ wandelt <Wanneer",
+      "in_kanttekening": false,
+      "rule_reference": "ARCHAISMEN.md:80 'imperatief-meervoud op -t → gebruik de stam' (Wandelt → Wandel); MEMORY 'Imperatief-meervoud -t → stam'; precedent RG22-001/RG22-003 (Wandelt/wandelt → Wandel)",
+      "explanation": "Grieks περιπατεῖτε (Πνεύματι περιπατεῖτε) is een gebiedende wijs meervoud aan de gemeente ('wandelt door den Geest'). De SV-imperatiefvorm 'wandelt' is hier ongemoderniseerd blijven staan, terwijl de imperatief elders in ditzelfde corpus consequent naar de stam is geharmoniseerd: binnen hetzelfde hoofdstuk GAL 5:1 'Sta dan in de vrijheid' (στήκετε → stam), en cross-book PHP 1:27 'wandel waardig' (πολιτεύεσθε → stam), PHP 4:1 'sta zo in de Heere' (στήκετε → stam), PHP 3:17 'Wees mede mijn navolgers'. Exact dezelfde fout als de reeds-aanvaarde RG22-001/003 (COL 4:5 / EPH 5:8 'wandelt' → 'wandel').",
+      "proposed_fix": "ik zeg, $Rm. 13:14; 1Pt. 2:11$ wandel",
+      "severity": "hard"
+    },
+    {
+      "id": "RG23-002",
+      "class": "consistentie",
+      "books": [
+        "PHP"
+      ],
+      "chapter": 2,
+      "verse": 18,
+      "quote": "verblijdt u zich ook, en verblijdt u zich ook met mij.",
+      "in_kanttekening": false,
+      "rule_reference": "ARCHAISMEN.md:80 (imperatief-meervoud -t → stam) + congruentiefout; concordantie met χαίρετε elders in PHP (3:1, 4:4)",
+      "explanation": "Grieks χαίρετε καὶ συγχαίρετέ μοι is tweemaal een gebiedende wijs meervoud ('verheugt u, en verheugt u met mij'). De modernisatie behield enerzijds de SV-uitgang -t ('verblijdt') en koppelde die anderzijds aan het wederkerend voornaamwoord 'zich' (3e persoon), terwijl het onderwerp 'u' (2e persoon) is: 'verblijdt u zich' is grammaticaal incongruent (2e persoon vereist 'verblijd u'). Exact hetzelfde Griekse woord χαίρετε is in PHP 3:1 wél correct als 'verblijd u' en in PHP 4:1[4] tweemaal als 'Verblijd u' weergegeven; PHP 2:18 wijkt dus zowel grammaticaal als concordant af. De SV-kanttekening laat indicatief óf imperatief toe, maar in beide lezingen is 'u zich' fout.",
+      "proposed_fix": "verblijd u ook, en verblijd u ook met mij.",
+      "severity": "soft"
+    },
+    {
+      "id": "RG23-003",
+      "class": "consistentie",
+      "books": [
+        "PHP"
+      ],
+      "chapter": 4,
+      "verse": 4,
+      "quote": "Zie $Rm. 12:12; 2Kor. 13:11; Fp. 3:1$ ter vergelijking.>",
+      "in_kanttekening": true,
+      "rule_reference": "AGENTS.md §1 'Renovatie, geen hervertaling' en §2 'Geen vrije parafrase'; concordantie van de SV-kanttekeningformule 'Siet X' → 'Zie X'",
+      "explanation": "De SV-kanttekening luidt enkel 'Siet Rom. 12. vers 12. 2.Cor. 13. vers 11. Philip. 3.1.' De modernisatie voegt daar het editoriale staartje 'ter vergelijking' aan toe — informatie die niet in de bronnoot staat (parafrase-toevoeging). Dit is geen geïsoleerd geval: 'ter vergelijking' komt 7× voor, uitsluitend in PHP 4:4, 4:5 en 4:6 (de drie verzen met model gpt-5-codex), en 0× in de circa 700 andere kanttekeningen van GAL+PHP, waar 'Siet'/'Zie' kaal blijft. De drie codex-verzen zijn dus stilistische uitbijters die de noot-concordantie breken.",
+      "proposed_fix": "Verwijder 'ter vergelijking' overal in PHP 4:4-6 (7 voorkomens), zodat de noot luidt 'Zie $Rm. 12:12; 2Kor. 13:11; Fp. 3:1$.' conform de rest van het corpus.",
+      "severity": "soft"
+    }
+  ],
+  "green": [
+    {
+      "point_id": "RG23-001",
+      "stance": "concede",
+      "rebuttal": "Concede. GAL 5:16 source_text is 'Λέγω δέ, Πνεύματι περιπατεῖτε, καὶ ἐπιθυμίαν σαρκὸς οὐ μὴ τελέσητε' — περιπατεῖτε is hier gebiedende wijs meervoud (vermaning aan de gemeente), niet indicatief: dat blijkt uit de tegenstelling met de aoristus-conjunctief 'οὐ μὴ τελέσητε' (de toegezegde vrucht) en wordt bevestigd door de kanttekening zelf ('aanwijzende welke vrucht daaruit zal volgen, als men naar de Geest wandelt'). Binnen GAL 5 is de imperatief consequent naar de stam geharmoniseerd: 5:1 στήκετε → 'Sta', 5:13 δουλεύετε → 'dien'. Dus 'wandelt' is een ongemoderniseerde SV-imperatief en moet 'wandel' worden, conform ARCHAISMEN.md:80 en precedent RG22-001/003 (COL 4:5 / EPH 5:8 'wandelt' → 'wandel'). Let op: vers 25 'door de Geest wandelen' (στοιχῶμεν, cohortatief 'laat ons') blijft ongemoeid.",
+      "evidence": "ARCHAISMEN.md:80; MEMORY imperatief-meervoud -t → stam; GAL 5:16 source_text 'Πνεύματι περιπατεῖτε ... οὐ μὴ τελέσητε'; parallel GAL 5:1 στήκετε→'Sta', 5:13 δουλεύετε→'dien'; kanttekening-glosse 'als men naar de Geest wandelt'; precedent RG22-001/003."
+    },
+    {
+      "point_id": "RG23-002",
+      "stance": "concede",
+      "rebuttal": "Concede. PHP 2:18 source_text 'τὸ δ’ αὐτὸ καὶ ὑμεῖς χαίρετε καὶ συγχαίρετέ μοι'. De modernisatie 'verblijdt u zich ook, en verblijdt u zich ook met mij' is grammaticaal incongruent: onderwerp is 2e persoon 'u', maar 'zich' is 3e-persoons wederkerend; bij 'u' hoort 'u' ('verblijd u'). Bovendien blijft de SV-uitgang -t ('verblijdt') staan, een ongemoderniseerde imperatiefvorm (ARCHAISMEN.md:80). Concordant wijkt het vers af van exact hetzelfde χαίρετε elders in PHP: 3:1 en 4:4 (tweemaal) zijn correct 'Verblijd u'. RED's voorstel 'verblijd u ook, en verblijd u ook met mij' is correct en concordant.",
+      "evidence": "ARCHAISMEN.md:80; PHP 2:18 source_text 'χαίρετε καὶ συγχαίρετέ μοι'; congruentiefout 'u'(2e) + 'zich'(3e); concordantie PHP 3:1 'Verblijd u' en PHP 4:4 'Verblijd u ... Verblijd u' (zelfde χαίρετε)."
+    },
+    {
+      "point_id": "RG23-003",
+      "stance": "rebut",
+      "rebuttal": "De feitelijke kern van RED's punt is onjuist en daarmee valt de 'uitbijter/concordantiebreuk'-redenering weg. RED stelt expliciet dat 'ter vergelijking' '0× in de circa 700 andere kanttekeningen' voorkomt en 'uitsluitend in PHP 4:4, 4:5 en 4:6 (de drie verzen met model gpt-5-codex)'. Grep over de hele output-corpus weerlegt beide claims: de frase staat óók in ROM 11:7 — '<Grieks: vereelt. Zie $Mk. 3:5$ ter vergelijking.>' — en dat vers is gemodelleerd door claude-opus-4-7[1m], niet gpt-5-codex. Het is dus geen geïsoleerde gpt-5-codex-tic en evenmin '0× elders': het is een (zeldzaam) bestaand patroon van een opus-vers tot een codex-cluster. Daarmee mist RED twee van zijn drie dragende premissen (uniciteit én model-attributie), en het punt als geformuleerd faalt de gate. (Inhoudelijk merk ik wel op dat 'ter vergelijking' een editoriale toevoeging aan de kale 'Siet X' is; als RED dit louter als concordantie-harmonisatie had geframed zonder de onjuiste tellingen, ware het bespreekbaar — maar het hier voorgelegde punt steunt op falsifieerbare, gefalsificeerde feiten.)",
+      "evidence": "Telling PHP 4: 4:4=2×, 4:5=2×, 4:6=3× → 7× (klopt). Corpus-grep 'ter vergelijking' over output/*/*.json: voorkomens in PHP.4.json (7×) ÉN ROM.11.json (1×, vers 7, model claude-opus-4-7[1m]: 'Zie $Mk. 3:5$ ter vergelijking.'). RED-claim '0× elders / uitsluitend gpt-5-codex' dus weerlegd. AGENTS.md §4 (geen toevoeging aan noot) blijft een open observatie, maar is niet het punt zoals geformuleerd."
+    }
+  ],
+  "verdicts": [
+    {
+      "point_id": "RG23-001",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. GAL 5:16 source_text is 'Λέγω δέ, Πνεύματι περιπατεῖτε, καὶ ἐπιθυμίαν σαρκὸς οὐ μὴ τελέσητε' — περιπατεῖτε is hier gebiedende wijs meervoud (vermaning aan de gemeente), niet indicatief: dat blijkt uit de tegenstelling met de aoristus-conjun",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG23-002",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. PHP 2:18 source_text 'τὸ δ’ αὐτὸ καὶ ὑμεῖς χαίρετε καὶ συγχαίρετέ μοι'. De modernisatie 'verblijdt u zich ook, en verblijdt u zich ook met mij' is grammaticaal incongruent: onderwerp is 2e persoon 'u', maar 'zich' is 3e-persoons wederkerend",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG23-003",
+      "verdict": "green_wins",
+      "rationale": "Green wint: red-premisse weerlegd. De feitelijke kern van RED's punt is onjuist en daarmee valt de 'uitbijter/concordantiebreuk'-redenering weg. RED stelt expliciet dat 'ter vergelijking' '0× in de circa 700 andere kanttekeningen' voor",
+      "scope": "verse",
+      "applied": false
+    }
+  ]
+}

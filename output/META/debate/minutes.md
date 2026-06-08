@@ -534,3 +534,15 @@ Red bracht 6 punt(en). Verdicts: red_wins=4, green_wins=0, rule_change=2.
 - **[RG22-006] (consistentie)** volharding en lankmoedigheid
   - regel: MODERNISATIE.md §1 (concordantie); cross-book weergave van Gr. μακροθυμία; fix: Kies één weergave voor μακροθυμία (bv. overal 'geduld', of overal 'lankmoedigheid' met behoud van 'volharding' voor ὑπομονή) en harmoniseer COL 1:11 / COL 3:12 / EPH 4:2.
   - verdict: **rule_change** (scope=nt, applied=True) — Green concedeert. Gr. μακροθυμία wordt inconsistent weergegeven: COL 1:11 'lankmoedigheid' (hoofdtekst én kt., naast ὑπομονή→'volharding'), maar COL 3:12 en EPH 4:2 'geduld'. Ronde 21 heeft μακροθυμία
+
+## Ronde 23 — GAL + PHP  (2026-06-08T06:36:47.233812+00:00)
+Red bracht 3 punt(en). Verdicts: red_wins=2, green_wins=1, rule_change=0.
+- **[RG23-001] (modernisatie)** ik zeg, $Rm. 13:14; 1Pt. 2:11$ wandelt <Wanneer
+  - regel: ARCHAISMEN.md:80 'imperatief-meervoud op -t → gebruik de stam' (Wandelt → Wandel); MEMORY 'Imperatief-meervoud -t → stam'; precedent RG22-001/RG22-003 (Wandelt/wandelt → Wandel); fix: ik zeg, $Rm. 13:14; 1Pt. 2:11$ wandel
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert. GAL 5:16 source_text is 'Λέγω δέ, Πνεύματι περιπατεῖτε, καὶ ἐπιθυμίαν σαρκὸς οὐ μὴ τελέσητε' — περιπατεῖτε is hier gebiedende wijs meervoud (vermaning aan de gemeente), niet indicati
+- **[RG23-002] (consistentie)** verblijdt u zich ook, en verblijdt u zich ook met mij.
+  - regel: ARCHAISMEN.md:80 (imperatief-meervoud -t → stam) + congruentiefout; concordantie met χαίρετε elders in PHP (3:1, 4:4); fix: verblijd u ook, en verblijd u ook met mij.
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert. PHP 2:18 source_text 'τὸ δ’ αὐτὸ καὶ ὑμεῖς χαίρετε καὶ συγχαίρετέ μοι'. De modernisatie 'verblijdt u zich ook, en verblijdt u zich ook met mij' is grammaticaal incongruent: onderwerp
+- **[RG23-003] (consistentie)** Zie $Rm. 12:12; 2Kor. 13:11; Fp. 3:1$ ter vergelijking.>
+  - regel: AGENTS.md §1 'Renovatie, geen hervertaling' en §2 'Geen vrije parafrase'; concordantie van de SV-kanttekeningformule 'Siet X' → 'Zie X'; fix: Verwijder 'ter vergelijking' overal in PHP 4:4-6 (7 voorkomens), zodat de noot luidt 'Zie $Rm. 12:12; 2Kor. 13:11; Fp. 3:1$.' conform de rest van het corpus.
+  - verdict: **green_wins** (scope=verse, applied=False) — Green wint: red-premisse weerlegd. De feitelijke kern van RED's punt is onjuist en daarmee valt de 'uitbijter/concordantiebreuk'-redenering weg. RED stelt expliciet dat 'ter vergelijking' '0× in de ci
