@@ -1,0 +1,294 @@
+{
+  "round_no": 20,
+  "books": [
+    "1TH",
+    "2TH"
+  ],
+  "red": [
+    {
+      "id": "RG20-001",
+      "class": "modernisatie",
+      "books": [
+        "2TH"
+      ],
+      "chapter": 2,
+      "verse": 4,
+      "quote": "<Dat is, zodanige majesteit, macht en heerschappij aannemend en oefenend, alsof hij God was.> zichzelf vertonend dat hij God is.",
+      "in_kanttekening": true,
+      "rule_reference": "MODERNISATIE.md §2.3; KANTTEKENINGEN.md: Geen SV-participia in kanttekeningen",
+      "explanation": "De kanttekening houdt twee finiete participia over en de aansluitende hoofdtekst heeft eveneens een participium-carry-over. Dit is precies de categorie die ook binnen <...>-blokken moet worden ontvouwd.",
+      "proposed_fix": "<Dat is, alsof hij zodanige majesteit, macht en heerschappij aanneemt en uitoefent, alsof hij God was.> en toont zichzelf alsof hij God is.",
+      "severity": "hard"
+    },
+    {
+      "id": "RG20-002",
+      "class": "modernisatie",
+      "books": [
+        "2TH"
+      ],
+      "chapter": 2,
+      "verse": 7,
+      "quote": "de verborgenheid van de ongerechtigheid wordt al gewrocht",
+      "in_kanttekening": false,
+      "rule_reference": "MODERNISATIE.md §2.2 / §2.7; ARCHAISMEN.md drempel voor productiviteit",
+      "explanation": "`Gewrocht` functioneert in modern Nederlands niet meer als gewoon werkwoordelijk predikaat voor `werkt/is werkzaam`; het leest als archaïsche SV-schil.",
+      "proposed_fix": "de verborgenheid van de ongerechtigheid is al werkzaam",
+      "severity": "hard"
+    },
+    {
+      "id": "RG20-003",
+      "class": "modernisatie",
+      "books": [
+        "2TH"
+      ],
+      "chapter": 2,
+      "verse": 8,
+      "quote": "die de Heere <Of, verteren. ... Zo zal dan Christus op zijn tijd ook de Antichrist langzamerhand verdoen ...> verdoen zal",
+      "in_kanttekening": false,
+      "rule_reference": "MODERNISATIE.md §2.2 / §2.7; ARCHAISMEN.md false-friend/productiviteitstest",
+      "explanation": "`Verdoen` in de betekenis `vernietigen/te gronde richten` is archaïsch en heeft modern vooral de lading `verspillen`. De hoofdtekst en kanttekening laten daardoor een false-friend-restant staan.",
+      "proposed_fix": "die de Heere <Of, verteren. ... Zo zal dan Christus op zijn tijd ook de Antichrist langzamerhand te gronde richten en zijn aanzien benemen in de Christenheid.> te gronde richten zal",
+      "severity": "hard"
+    },
+    {
+      "id": "RG20-004",
+      "class": "modernisatie",
+      "books": [
+        "2TH"
+      ],
+      "chapter": 2,
+      "verse": 15,
+      "quote": "Zo dan, broeders, staat [vast], ... en houdt ... de inzettingen die u geleerd zijn",
+      "in_kanttekening": false,
+      "rule_reference": "ARCHAISMEN.md: imperatief-meervoud op `-t`; MODERNISATIE.md §2.7",
+      "explanation": "`staat` en `houdt` zijn SV-meervoudsimperatieven met -t. De projectregel moderniseert zulke gebiedende wijzen naar de stam.",
+      "proposed_fix": "Zo dan, broeders, sta [vast], en houd de inzettingen die u geleerd zijn",
+      "severity": "hard"
+    },
+    {
+      "id": "RG20-005",
+      "class": "modernisatie",
+      "books": [
+        "2TH"
+      ],
+      "chapter": 2,
+      "verse": 17,
+      "quote": "Vertrooste uw harten, en ... versterke u in alle ... goede woord en werk.",
+      "in_kanttekening": false,
+      "rule_reference": "MODERNISATIE.md §2.1 / §2.7; ARCHAISMEN.md spelling- en vormnormalisatie",
+      "explanation": "`Vertrooste` en `versterke` bewaren de oude optatief/conjunctiefvorm. Elders is dezelfde gebedsvorm al modern met `moge`; hier blijft de archaïsche verbuiging staan.",
+      "proposed_fix": "Moge Hij uw harten vertroosten en u versterken in alle goede woord en werk.",
+      "severity": "hard"
+    },
+    {
+      "id": "RG20-006",
+      "class": "modernisatie",
+      "books": [
+        "2TH"
+      ],
+      "chapter": 1,
+      "verse": 5,
+      "quote": "opdat zij ook daarna in zijn heerlijkheid hem zoals mogen worden",
+      "in_kanttekening": true,
+      "rule_reference": "MODERNISATIE.md §2.1 / §2.2; AGENTS.md formele equivalentie en behoud van betekenis",
+      "explanation": "Het origineel heeft `hem gelijck mogen worden`; `hem zoals mogen worden` is geen modern Nederlands en verliest de betekenis `hem gelijk worden`.",
+      "proposed_fix": "opdat zij ook daarna in zijn heerlijkheid Hem gelijk mogen worden",
+      "severity": "hard"
+    },
+    {
+      "id": "RG20-007",
+      "class": "modernisatie",
+      "books": [
+        "2TH"
+      ],
+      "chapter": 1,
+      "verse": 8,
+      "quote": "<Grieks: in het vuur van de vlam, wraak gevend. Een Hebreeuwse wijze van spreken, zoals tevoren Engelen van zijn kracht.>",
+      "in_kanttekening": true,
+      "rule_reference": "MODERNISATIE.md §2.3; KANTTEKENINGEN.md: Geen SV-participia in kanttekeningen",
+      "explanation": "`wraak gevend` is een letterlijke participiumglosse. Voor <Grieks: ...>-blokken met participia schrijft de regel infinitief/finiete ontvouwing voor.",
+      "proposed_fix": "<Grieks: in het vuur van de vlam, wraak geven. Een Hebreeuwse wijze van spreken, zoals tevoren Engelen van zijn kracht.>",
+      "severity": "hard"
+    },
+    {
+      "id": "RG20-008",
+      "class": "modernisatie",
+      "books": [
+        "1TH"
+      ],
+      "chapter": 5,
+      "verse": 23,
+      "quote": "uw geheel oprechte ... geest en ziel en lichaam worde onberispelijk bewaard",
+      "in_kanttekening": false,
+      "rule_reference": "MODERNISATIE.md §2.1 / §2.7; ARCHAISMEN.md spelling- en vormnormalisatie",
+      "explanation": "`worde ... bewaard` is een archaïsche conjunctiefvorm. De gebedswens kan modern blijven zonder betekenisverlies.",
+      "proposed_fix": "moge uw geheel oprechte geest en ziel en lichaam onberispelijk bewaard worden",
+      "severity": "hard"
+    },
+    {
+      "id": "RG20-009",
+      "class": "modernisatie",
+      "books": [
+        "1TH"
+      ],
+      "chapter": 4,
+      "verse": 6,
+      "quote": "<Grieks: hebzuchtig zij, wat betekent iemand uit gierigheid bedriegen of onrecht aandoen.>",
+      "in_kanttekening": true,
+      "rule_reference": "MODERNISATIE.md §2.3; KANTTEKENINGEN.md: Geen SV-participia in kanttekeningen; MODERNISATIE.md §2.7",
+      "explanation": "De Griekse glosse bewaart een archaïsche conjunctief (`zij`) in plaats van een modern lemma of moderne uitleg. Dit is kanttekening-luiheid: de vorm zelf is niet gemoderniseerd.",
+      "proposed_fix": "<Grieks: hebzuchtig zijn, wat betekent iemand uit gierigheid bedriegen of onrecht aandoen.>",
+      "severity": "hard"
+    },
+    {
+      "id": "RG20-010",
+      "class": "consistentie",
+      "books": [
+        "1TH",
+        "2TH"
+      ],
+      "chapter": 5,
+      "verse": 14,
+      "quote": "1Th. 5:14 `hen die ordeloos leven` tegenover 2Th. 3:6,11 `ongeregeld wandelt/wandelen`",
+      "in_kanttekening": false,
+      "rule_reference": "AGENTS.md concordantie; MODERNISATIE.md §5.3 concordantie",
+      "explanation": "Hetzelfde Thessalonicenzen-woordveld rond `atakto-` wordt binnen hetzelfde boekenpaar verschillend gemoderniseerd. 2TH gebruikt consequent `ongeregeld wandelen`; 1TH 5:14 wijkt uit naar `ordeloos leven`, waardoor de cross-book concordantie wegvalt.",
+      "proposed_fix": "Harmoniseer 1Th. 5:14 naar `vermaan hen die ongeregeld wandelen` of kies NT-breed één rendering voor `atakto-`.",
+      "severity": "soft"
+    }
+  ],
+  "green": [
+    {
+      "point_id": "RG20-001",
+      "stance": "concede",
+      "rebuttal": "Concede. In 2Th. 2:4 staan zowel de kanttekening `aannemend en oefenend` als de hoofdtekst `zichzelf vertonend`; beide bewaren een SV/Grieks participium als Nederlandse -end-constructie waar MODERNISATIE.md §2.3 juist finiete ontvouwing voorschrijft, ook binnen <...>-blokken.",
+      "evidence": "MODERNISATIE.md §2.3; KANTTEKENINGEN.md `Geen SV-participia in kanttekeningen`; 2Th. 2:4 Grieks `ἀποδεικνύντα ἑαυτόν`."
+    },
+    {
+      "point_id": "RG20-002",
+      "stance": "concede",
+      "rebuttal": "Concede. `Gewrocht` in 2Th. 2:7 is geen productief modern predikaat voor de werking van `het mysterie/de verborgenheid`; de kanttekening heeft zelf al modern `werkt al in het verborgen`, en het Griekse `ἐνεργεῖται` ondersteunt `werkt/is werkzaam`.",
+      "evidence": "MODERNISATIE.md §2.2; 2Th. 2:7 Grieks `ἐνεργεῖται`; versspecifiek contrast tussen hoofdtekst `wordt al gewrocht` en kanttekening `werkt al in het verborgen`."
+    },
+    {
+      "point_id": "RG20-003",
+      "stance": "concede",
+      "rebuttal": "Concede. `Verdoen` heeft in modern Nederlands primair een andere lading (`verspillen`) en is hier bij 2Th. 2:8 bedoeld als vernietigend/verterend handelen; de kanttekening verklaart `ἀναλώσει` met `ombrengen en tenietmaken`, zodat het SV-restant in hoofdtekst en kanttekening een false-friend-risico geeft.",
+      "evidence": "MODERNISATIE.md §2.2 en §2.7; 2Th. 2:8 Grieks `ἀναλώσει`; kanttekening: `ombrengen en tenietmaken`."
+    },
+    {
+      "point_id": "RG20-004",
+      "stance": "concede",
+      "rebuttal": "Concede. In 2Th. 2:15 zijn `staat` en `houdt` meervoudsimperatieven bij `broeders`; de modernisatie heeft de oude SV-vorm behouden terwijl de projectregel imperatiefvormen met -t als archaïsche schil behandelt. De Griekse vormen `στήκετε` en `κρατεῖτε` vragen wel om imperatieven, maar niet om de Nederlandse archaïsche -t-vorm.",
+      "evidence": "ARCHAISMEN.md imperatief-meervoud op -t; MODERNISATIE.md §2.1/§2.7; 2Th. 2:15 Grieks `στήκετε` en `κρατεῖτε`."
+    },
+    {
+      "point_id": "RG20-005",
+      "stance": "concede",
+      "rebuttal": "Concede. `Vertrooste` en `versterke` in 2Th. 2:17 zijn archaïsche wens-/conjunctiefvormen in de hoofdtekst; de gebedswens kan modern worden weergegeven zonder het gebedskarakter of de formele aansluiting op de voorafgaande zegenwens te verliezen.",
+      "evidence": "MODERNISATIE.md §2.1 en §2.2; 2Th. 2:16-17 gebedsconstructie met `παρακαλέσαι` en `στηρίξαι`; versspecifiek oude vormen `Vertrooste`/`versterke`."
+    },
+    {
+      "point_id": "RG20-006",
+      "stance": "concede",
+      "rebuttal": "Concede. `Hem zoals mogen worden` in de kanttekening bij 2Th. 1:5 is geen verdedigbare SV-eigenheid maar ongrammaticaal modern Nederlands en verliest de betekenis van het origineel `hem gelijck mogen worden`; de juiste moderne constructie is `Hem gelijk mogen worden`.",
+      "evidence": "MODERNISATIE.md §2.1/§2.2; AGENTS.md formele equivalentie; 2Th. 1:5 originele kanttekening `hem gelijck mogen worden`."
+    },
+    {
+      "point_id": "RG20-007",
+      "stance": "concede",
+      "rebuttal": "Concede. De kanttekening bij 2Th. 1:8 geeft `διδόντος ἐκδίκησιν` weer als `wraak gevend`; dit is precies het type literale participiumglosse dat volgens de kanttekeningregel als infinitief-lemma of finiete uitleg moet worden gemoderniseerd.",
+      "evidence": "MODERNISATIE.md §2.3; KANTTEKENINGEN.md `Geen SV-participia in kanttekeningen`; 2Th. 1:8 Grieks `διδόντος ἐκδίκησιν`."
+    },
+    {
+      "point_id": "RG20-008",
+      "stance": "concede",
+      "rebuttal": "Concede. `Worde onberispelijk bewaard` in 1Th. 5:23 bewaart de oude conjunctiefvorm; de Griekse optatief `τηρηθείη` rechtvaardigt een gebedswens, maar niet de archaïsche Nederlandse vorm `worde`.",
+      "evidence": "MODERNISATIE.md §2.1/§2.7; 1Th. 5:23 Grieks `τηρηθείη`; versspecifiek hoofdtekstfragment `worde onberispelijk bewaard`."
+    },
+    {
+      "point_id": "RG20-009",
+      "stance": "concede",
+      "rebuttal": "Concede. De kanttekening bij 1Th. 4:6 heeft `hebzuchtig zij`, wat noch een modern lemma noch een vloeiende uitleg is; bij het Griekse infinitief `πλεονεκτεῖν` past in deze glosse `hebzuchtig zijn` of een finiete omschrijving.",
+      "evidence": "MODERNISATIE.md §2.3; KANTTEKENINGEN.md over Griekse lemma-glossen; 1Th. 4:6 Grieks `πλεονεκτεῖν`."
+    },
+    {
+      "point_id": "RG20-010",
+      "stance": "concede",
+      "rebuttal": "Concede. De exacte voorgestelde fix hoeft niet noodzakelijk `wandelen` in 1Th. 5:14 in te voegen, omdat daar `περιπατεῖν` niet staat; maar het red-punt zelf is terecht: 1Th. 5:14 heeft `ἀτάκτους` en de SV `ongeregelde`, terwijl 2Th. 3:6,11 hetzelfde woordveld als `ongeregeld` bewaart. `Ordeloos leven` verbreekt die Thessalonicenzen-concordantie onnodig.",
+      "evidence": "AGENTS.md concordantie; MODERNISATIE.md §5.3; 1Th. 5:14 Grieks `ἀτάκτους` tegenover 2Th. 3:6/11 `ἀτάκτως` met `περιπατοῦντος/περιπατεῖν`."
+    }
+  ],
+  "verdicts": [
+    {
+      "point_id": "RG20-001",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. De opgegeven onderbouwing bevestigt dat 2Th. 2:4 in kanttekening en hoofdtekst participium-carry-over bewaart tegen MODERNISATIE.md §2.3 en de kanttekeningregel.",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG20-002",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. `Gewrocht` is hier een archaïsch predikaat; de versspecifieke verwijzing naar ἐνεργεῖται en de eigen kanttekening ondersteunen de correctie.",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG20-003",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. `Verdoen` levert in 2Th. 2:8 een modern false-friend-risico op en wordt door de Griekse term ἀναλώσει en de kanttekening zelf als vernietigen/tenietmaken geduid.",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG20-004",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. `Staat` en `houdt` zijn meervoudsimperatieven met archaïsche -t bij `broeders`; de Griekse imperatieven vragen geen behoud van die Nederlandse vorm.",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG20-005",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. `Vertrooste` en `versterke` bewaren oude wens-/conjunctiefvormen; de gebedsconstructie kan modern worden weergegeven zonder inhoudsverlies.",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG20-006",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. `Hem zoals mogen worden` is ongrammaticaal modern Nederlands en wijkt af van de betekenis van `hem gelijck mogen worden`.",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG20-007",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. De kanttekeningglosse `wraak gevend` is een literalistisch participium waar de regels een infinitief-lemma of finiete ontvouwing vragen.",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG20-008",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. `Worde onberispelijk bewaard` behoudt een archaïsche conjunctiefvorm; de Griekse optatief rechtvaardigt de wenswaarde, niet de oude Nederlandse vorm.",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG20-009",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. `Hebzuchtig zij` is geen modern lemma of vloeiende uitleg bij πλεονεκτεῖν; de kanttekening moet worden gemoderniseerd.",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG20-010",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert het concordantiepunt. De exacte fix kan versspecifiek worden gekozen, maar `ordeloos leven` verbreekt zonder noodzaak de Thessalonicenzen-concordantie met het ἀτακτ-woordveld.",
+      "scope": "verse",
+      "applied": true
+    }
+  ]
+}

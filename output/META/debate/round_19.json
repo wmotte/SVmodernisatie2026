@@ -1,0 +1,237 @@
+{
+  "round_no": 19,
+  "books": [
+    "1PE",
+    "JAS"
+  ],
+  "red": [
+    {
+      "id": "RG19-001",
+      "class": "modernisatie",
+      "books": [
+        "1PE"
+      ],
+      "chapter": 3,
+      "verse": 14,
+      "quote": "vreest niet uit vrees voor hen, en wordt niet ontsteld",
+      "in_kanttekening": false,
+      "rule_reference": "ARCHAISMEN.md: imperatief-meervoud op `-t` -> stam; MODERNISATIE.md §2.7",
+      "explanation": "De SV-gebiedende wijs `vreest` is in de modernisering blijven staan. Ook `wordt niet ontsteld` gebruikt de oude `-t`-vorm als gebod; modern Nederlands gebruikt hier de stam. Het Grieks heeft twee aoristus-imperatieven (`μὴ φοβηθῆτε`, `μηδὲ ταραχθῆτε`).",
+      "proposed_fix": "vrees niet uit vrees voor hen, en word niet ontsteld",
+      "severity": "hard"
+    },
+    {
+      "id": "RG19-002",
+      "class": "modernisatie",
+      "books": [
+        "1PE"
+      ],
+      "chapter": 4,
+      "verse": 1,
+      "quote": "wapent ook u zich met dezelfde gedachte",
+      "in_kanttekening": false,
+      "rule_reference": "ARCHAISMEN.md: imperatief-meervoud op `-t` -> stam; MODERNISATIE.md §2.7",
+      "explanation": "`wapent` is de ongewijzigde SV-meervoudsimperatief. De Griekse vorm `ὁπλίσασθε` is een imperatief; modern Nederlands vraagt `wapen`, niet `wapent`.",
+      "proposed_fix": "wapen ook uzelf met dezelfde gedachte",
+      "severity": "hard"
+    },
+    {
+      "id": "RG19-003",
+      "class": "modernisatie",
+      "books": [
+        "1PE"
+      ],
+      "chapter": 4,
+      "verse": 7,
+      "quote": "Wees dan nuchter, en waakt in de gebeden",
+      "in_kanttekening": false,
+      "rule_reference": "ARCHAISMEN.md: imperatief-meervoud op `-t` -> stam; MODERNISATIE.md §2.7",
+      "explanation": "`waakt` is een SV-gebiedende wijs op `-t`. Het Grieks heeft `νήψατε`; na `Wees dan nuchter` moet de tweede imperatief eveneens modern zijn.",
+      "proposed_fix": "Wees dan nuchter, en waak in de gebeden",
+      "severity": "hard"
+    },
+    {
+      "id": "RG19-004",
+      "class": "modernisatie",
+      "books": [
+        "1PE"
+      ],
+      "chapter": 4,
+      "verse": 13,
+      "quote": "[zo] verblijdt u",
+      "in_kanttekening": false,
+      "rule_reference": "ARCHAISMEN.md: imperatief-meervoud op `-t` -> stam; MODERNISATIE.md §2.7",
+      "explanation": "`verblijdt u` behoudt de oude imperatiefuitgang. Het Grieks `χαίρετε` is gebiedend; de projectregel moderniseert `-t`-imperatieven naar de stam.",
+      "proposed_fix": "[zo] verblijd u",
+      "severity": "hard"
+    },
+    {
+      "id": "RG19-005",
+      "class": "modernisatie",
+      "books": [
+        "1PE"
+      ],
+      "chapter": 5,
+      "verse": 6,
+      "quote": "Vernedert u dan onder de krachtige hand Gods, opdat hij u verhoge te zijner tijd",
+      "in_kanttekening": false,
+      "rule_reference": "ARCHAISMEN.md: imperatief-meervoud op `-t` -> stam; MODERNISATIE.md §2.7 constructie-test",
+      "explanation": "`Vernedert u` is opnieuw een SV-imperatief op `-t` bij Grieks `ταπεινώθητε`. Daarnaast blijft `te zijner tijd` een fossiele datiefconstructie; HSV spiegelt hier natuurlijk met `op Zijn tijd`, maar de correctie volgt al uit de projectregel.",
+      "proposed_fix": "Verneder u dan onder de krachtige hand Gods, opdat hij u op zijn tijd verhoge",
+      "severity": "hard"
+    },
+    {
+      "id": "RG19-006",
+      "class": "modernisatie",
+      "books": [
+        "1PE"
+      ],
+      "chapter": 5,
+      "verse": 7,
+      "quote": "Werpt alle uw bekommernis op hem",
+      "in_kanttekening": false,
+      "rule_reference": "ARCHAISMEN.md: imperatief-meervoud op `-t` -> stam; MODERNISATIE.md §2.7",
+      "explanation": "`Werpt` is de SV-gebiedende wijs op `-t` en is niet gemoderniseerd. De vorm staat aan het begin van de verszin en functioneert als gebod bij Grieks `ἐπιρρίψαντες` in de vermanende keten.",
+      "proposed_fix": "Werp alle uw bekommernis op hem",
+      "severity": "hard"
+    },
+    {
+      "id": "RG19-007",
+      "class": "modernisatie",
+      "books": [
+        "JAS"
+      ],
+      "chapter": 5,
+      "verse": 14,
+      "quote": "<Dat is, terwijl zij de Heere aanroepen, die de auteur is van zo'n wonderbaarlijke genezing.>",
+      "in_kanttekening": true,
+      "rule_reference": "MODERNISATIE.md §2.7 productiviteits-/verwarringtest; KANTTEKENINGEN.md",
+      "explanation": "`auteur` is hier een false friend uit SV `autheur`: in modern Nederlands betekent het primair schrijver/maker van een tekst en leest `auteur van een genezing` verwarrend. De context vraagt `bewerker` of `oorsprong` van de wondergenezing.",
+      "proposed_fix": "<Dat is, terwijl zij de Heere aanroepen, die de bewerker is van zo'n wonderbaarlijke genezing.>",
+      "severity": "hard"
+    },
+    {
+      "id": "RG19-008",
+      "class": "modernisatie",
+      "books": [
+        "JAS"
+      ],
+      "chapter": 5,
+      "verse": 17,
+      "quote": "Elia was een mens met gelijke <Of, lijden. Zie $Hd. 14:15$; ...> aandoeningen als wij",
+      "in_kanttekening": false,
+      "rule_reference": "MODERNISATIE.md §2.7 productiviteits-/verwarringtest",
+      "explanation": "`aandoeningen` behoudt de oude betekenis van SV `lijdingen/passies` bij Grieks `ὁμοιοπαθής`. In modern Nederlands leest `aandoeningen` als ziekten of emotionele beroeringen, niet als gedeelde menselijke zwakheid/natuur.",
+      "proposed_fix": "Elia was een mens met dezelfde zwakheden als wij",
+      "severity": "hard"
+    }
+  ],
+  "green": [
+    {
+      "point_id": "RG19-001",
+      "stance": "concede",
+      "rebuttal": "Concede: in 1Pe. 3:14 staan twee directe verboden bij de Griekse aoristus-imperatieven `μὴ φοβηθῆτε` en `μηδὲ ταραχθῆτε`. `ARCHAISMEN.md` schrijft voor dat SV-imperatieven op `-t` naar de stam gaan; in deze versconstructie zijn `vreest` en `wordt` dus niet verdedigbaar als moderne gebiedende wijs.",
+      "evidence": "ARCHAISMEN.md imperatief-meervoud op `-t`; MODERNISATIE.md §2.7 constructie-test; 1Pe. 3:14 `μὴ φοβηθῆτε`, `μηδὲ ταραχθῆτε`."
+    },
+    {
+      "point_id": "RG19-002",
+      "stance": "concede",
+      "rebuttal": "Concede: `wapent ... u` is niet slechts SV-woordvolgorde maar de ongewijzigde gebiedende wijs bij `ὁπλίσασθε`. Omdat het vers een rechtstreeks gebod aan de lezers geeft, valt dit onder de expliciete imperatiefregel; `wapen ook uzelf` behoudt de reflexieve strekking beter dan `wapent ook u zich`.",
+      "evidence": "ARCHAISMEN.md imperatief-meervoud op `-t`; MODERNISATIE.md §2.7 constructie-test; 1Pe. 4:1 `ὁπλίσασθε`."
+    },
+    {
+      "point_id": "RG19-003",
+      "stance": "concede",
+      "rebuttal": "Concede: 1Pe. 4:7 heeft twee parallelle imperatieven, `σωφρονήσατε` en `νήψατε`. De modernisering heeft de eerste al als `Wees dan nuchter` weergegeven, maar laat de tweede archaïsch als `waakt`; de parallel vraagt consequent modern `waak`.",
+      "evidence": "ARCHAISMEN.md imperatief-meervoud op `-t`; MODERNISATIE.md §2.7 productiviteits-/constructie-test; 1Pe. 4:7 `σωφρονήσατε` en `νήψατε`."
+    },
+    {
+      "point_id": "RG19-004",
+      "stance": "concede",
+      "rebuttal": "Concede: `verblijdt u` staat in 1Pe. 4:13 als gebiedende hoofdzin bij Grieks `χαίρετε`, niet als gewone tegenwoordige tijd. De haakinhoud `[zo]` moet blijven, maar de imperatiefvorm zelf moet volgens de regel naar de stam: `[zo] verblijd u`.",
+      "evidence": "ARCHAISMEN.md imperatief-meervoud op `-t`; AGENTS.md regel over exact behoud van vierkante haken; 1Pe. 4:13 `χαίρετε`."
+    },
+    {
+      "point_id": "RG19-005",
+      "stance": "concede",
+      "rebuttal": "Concede: `Vernedert u` is de SV-imperatief bij `ταπεινώθητε` en valt direct onder de `-t`-imperatiefregel. Daarnaast faalt `te zijner tijd` de constructie-test: het is een fossiele datiefvorm bij de Griekse tijdsbepaling `ἐν καιρῷ`, waarvoor modern Nederlands `op zijn tijd` gebruikt.",
+      "evidence": "ARCHAISMEN.md imperatief-meervoud op `-t`; MODERNISATIE.md §2.7 constructie-test; 1Pe. 5:6 `ταπεινώθητε`, `ἐν καιρῷ`."
+    },
+    {
+      "point_id": "RG19-006",
+      "stance": "concede",
+      "rebuttal": "Concede: hoewel het Grieks in 1Pe. 5:7 formeel een participium heeft (`ἐπιρρίψαντες`), zet de SV dit in de Nederlandse hoofdtekst als vermanende gebiedende wijs `Werpt`. Juist die Nederlandse SV-vorm is blijven staan en valt onder de archaïsmenregel; `Werp alle uw bekommernis op hem` houdt de vermanende functie zonder de oude `-t`-uitgang.",
+      "evidence": "ARCHAISMEN.md imperatief-meervoud op `-t`; MODERNISATIE.md §2.7 productiviteitstest; 1Pe. 5:7 SV `Werpt`, Grieks `ἐπιρρίψαντες` in de vermanende keten na 5:6."
+    },
+    {
+      "point_id": "RG19-007",
+      "stance": "concede",
+      "rebuttal": "Concede: de kanttekening bij Jk. 5:14 gebruikt SV `autheur` in de zin van degene die de wondergenezing bewerkt. In modern Nederlands leest `auteur van een genezing` primair als schrijver/maker van een tekst en faalt dus de verwarringtest; kanttekeningen moeten volgens dezelfde moderniseringsregels worden behandeld.",
+      "evidence": "MODERNISATIE.md §2.7 verwarringtest; KANTTEKENINGEN.md behoud en modernisering van kanttekeningblokken; Jk. 5:14 kanttekening bij `ἐν τῷ ὀνόματι τοῦ Κυρίου`."
+    },
+    {
+      "point_id": "RG19-008",
+      "stance": "concede",
+      "rebuttal": "Concede: in Jk. 5:17 gaat `ὁμοιοπαθής` over Elia als mens met dezelfde menselijke zwakheid/lijdensvatbaarheid als de lezers; de SV heeft `gelijke bewegingen` met toelichting `<Ofte, lijden>`. `Aandoeningen` heeft in 2026 een dominante medische of psychologische betekenis en trekt het vers weg van die context.",
+      "evidence": "MODERNISATIE.md §2.7 verwarringtest; ARCHAISMEN.md drempel voor moderne plaatsbaarheid; Jk. 5:17 `ὁμοιοπαθής`, SV-kanttekening `<Ofte, lijden>` en toelichting over Elia's zwakheden."
+    }
+  ],
+  "verdicts": [
+    {
+      "point_id": "RG19-001",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. Het punt valt onder de bestaande imperatiefregel: 1Pe. 3:14 heeft directe verboden bij `μὴ φοβηθῆτε` en `μηδὲ ταραχθῆτε`; daarom zijn `vreest` en `wordt` als oude gebiedende vormen te corrigeren.",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG19-002",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. `wapent ... u` is een ongewijzigde SV-imperatief bij `ὁπλίσασθε` en valt onder de bestaande regel voor imperatieven op `-t`; dit vraagt een versgerichte correctie.",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG19-003",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. 1Pe. 4:7 heeft parallelle imperatieven (`σωφρονήσατε`, `νήψατε`); `waakt` blijft archaïsch naast het al gemoderniseerde `Wees dan nuchter`.",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG19-004",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. `verblijdt u` staat bij Grieks `χαίρετε` als gebiedende hoofdzin; de haakinhoud blijft staan, maar de imperatiefvorm moet volgens de bestaande regel naar de stam.",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG19-005",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. `Vernedert u` is de SV-imperatief bij `ταπεινώθητε`, en `te zijner tijd` faalt de constructie-test bij `ἐν καιρῷ`; beide zijn versgerichte modernisatiekwesties.",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG19-006",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. Hoewel `ἐπιρρίψαντες` formeel een participium is, heeft de SV-hoofdtekst hier een vermanende gebiedende vorm `Werpt`; de oude `-t`-uitgang valt onder de bestaande imperatiefregel.",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG19-007",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. In de kanttekening bij Jk. 5:14 leest `auteur van een genezing` modern als false friend voor SV `autheur`; de verwarringtest vraagt hier een versgerichte correctie.",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG19-008",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. Bij `ὁμοιοπαθής` en de SV-kanttekening over `lijden` trekt `aandoeningen` het vers naar een moderne medische/psychologische lezing; dit is een versgerichte false-friendcorrectie.",
+      "scope": "verse",
+      "applied": true
+    }
+  ]
+}

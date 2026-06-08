@@ -441,3 +441,63 @@ Red bracht 10 punt(en). Verdicts: red_wins=10, green_wins=0, rule_change=0.
 - **[RG18-010] (modernisatie)** [zulks] van tevoren weet
   - regel: ARCHAISMEN.md: `sulcks`/`zulks`; MODERNISATIE.md §2.7; fix: [dit] van tevoren weet
   - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert; `[zulks]` moet binnen de haken gemoderniseerd worden.
+
+## Ronde 19 — 1PE + JAS  (2026-06-08T05:25:00.558073+00:00)
+Red bracht 8 punt(en). Verdicts: red_wins=8, green_wins=0, rule_change=0.
+- **[RG19-001] (modernisatie)** vreest niet uit vrees voor hen, en wordt niet ontsteld
+  - regel: ARCHAISMEN.md: imperatief-meervoud op `-t` -> stam; MODERNISATIE.md §2.7; fix: vrees niet uit vrees voor hen, en word niet ontsteld
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert. Het punt valt onder de bestaande imperatiefregel: 1Pe. 3:14 heeft directe verboden bij `μὴ φοβηθῆτε` en `μηδὲ ταραχθῆτε`; daarom zijn `vreest` en `wordt` als oude gebiedende vormen t
+- **[RG19-002] (modernisatie)** wapent ook u zich met dezelfde gedachte
+  - regel: ARCHAISMEN.md: imperatief-meervoud op `-t` -> stam; MODERNISATIE.md §2.7; fix: wapen ook uzelf met dezelfde gedachte
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert. `wapent ... u` is een ongewijzigde SV-imperatief bij `ὁπλίσασθε` en valt onder de bestaande regel voor imperatieven op `-t`; dit vraagt een versgerichte correctie.
+- **[RG19-003] (modernisatie)** Wees dan nuchter, en waakt in de gebeden
+  - regel: ARCHAISMEN.md: imperatief-meervoud op `-t` -> stam; MODERNISATIE.md §2.7; fix: Wees dan nuchter, en waak in de gebeden
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert. 1Pe. 4:7 heeft parallelle imperatieven (`σωφρονήσατε`, `νήψατε`); `waakt` blijft archaïsch naast het al gemoderniseerde `Wees dan nuchter`.
+- **[RG19-004] (modernisatie)** [zo] verblijdt u
+  - regel: ARCHAISMEN.md: imperatief-meervoud op `-t` -> stam; MODERNISATIE.md §2.7; fix: [zo] verblijd u
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert. `verblijdt u` staat bij Grieks `χαίρετε` als gebiedende hoofdzin; de haakinhoud blijft staan, maar de imperatiefvorm moet volgens de bestaande regel naar de stam.
+- **[RG19-005] (modernisatie)** Vernedert u dan onder de krachtige hand Gods, opdat hij u verhoge te zijner tijd
+  - regel: ARCHAISMEN.md: imperatief-meervoud op `-t` -> stam; MODERNISATIE.md §2.7 constructie-test; fix: Verneder u dan onder de krachtige hand Gods, opdat hij u op zijn tijd verhoge
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert. `Vernedert u` is de SV-imperatief bij `ταπεινώθητε`, en `te zijner tijd` faalt de constructie-test bij `ἐν καιρῷ`; beide zijn versgerichte modernisatiekwesties.
+- **[RG19-006] (modernisatie)** Werpt alle uw bekommernis op hem
+  - regel: ARCHAISMEN.md: imperatief-meervoud op `-t` -> stam; MODERNISATIE.md §2.7; fix: Werp alle uw bekommernis op hem
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert. Hoewel `ἐπιρρίψαντες` formeel een participium is, heeft de SV-hoofdtekst hier een vermanende gebiedende vorm `Werpt`; de oude `-t`-uitgang valt onder de bestaande imperatiefregel.
+- **[RG19-007] (modernisatie)** <Dat is, terwijl zij de Heere aanroepen, die de auteur is van zo'n wonderbaarlijke genezing.>
+  - regel: MODERNISATIE.md §2.7 productiviteits-/verwarringtest; KANTTEKENINGEN.md; fix: <Dat is, terwijl zij de Heere aanroepen, die de bewerker is van zo'n wonderbaarlijke genezing.>
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert. In de kanttekening bij Jk. 5:14 leest `auteur van een genezing` modern als false friend voor SV `autheur`; de verwarringtest vraagt hier een versgerichte correctie.
+- **[RG19-008] (modernisatie)** Elia was een mens met gelijke <Of, lijden. Zie $Hd. 14:15$; ...> aandoeningen als wij
+  - regel: MODERNISATIE.md §2.7 productiviteits-/verwarringtest; fix: Elia was een mens met dezelfde zwakheden als wij
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert. Bij `ὁμοιοπαθής` en de SV-kanttekening over `lijden` trekt `aandoeningen` het vers naar een moderne medische/psychologische lezing; dit is een versgerichte false-friendcorrectie.
+
+## Ronde 20 — 1TH + 2TH  (2026-06-08T05:46:39.149793+00:00)
+Red bracht 10 punt(en). Verdicts: red_wins=10, green_wins=0, rule_change=0.
+- **[RG20-001] (modernisatie)** <Dat is, zodanige majesteit, macht en heerschappij aannemend en oefenend, alsof hij God was.> zichzelf vertonend dat hij
+  - regel: MODERNISATIE.md §2.3; KANTTEKENINGEN.md: Geen SV-participia in kanttekeningen; fix: <Dat is, alsof hij zodanige majesteit, macht en heerschappij aanneemt en uitoefent, alsof hij God was.> en toont zichzelf alsof hij God is.
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert. De opgegeven onderbouwing bevestigt dat 2Th. 2:4 in kanttekening en hoofdtekst participium-carry-over bewaart tegen MODERNISATIE.md §2.3 en de kanttekeningregel.
+- **[RG20-002] (modernisatie)** de verborgenheid van de ongerechtigheid wordt al gewrocht
+  - regel: MODERNISATIE.md §2.2 / §2.7; ARCHAISMEN.md drempel voor productiviteit; fix: de verborgenheid van de ongerechtigheid is al werkzaam
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert. `Gewrocht` is hier een archaïsch predikaat; de versspecifieke verwijzing naar ἐνεργεῖται en de eigen kanttekening ondersteunen de correctie.
+- **[RG20-003] (modernisatie)** die de Heere <Of, verteren. ... Zo zal dan Christus op zijn tijd ook de Antichrist langzamerhand verdoen ...> verdoen za
+  - regel: MODERNISATIE.md §2.2 / §2.7; ARCHAISMEN.md false-friend/productiviteitstest; fix: die de Heere <Of, verteren. ... Zo zal dan Christus op zijn tijd ook de Antichrist langzamerhand te gronde richten en zijn aanzien benemen in de Christenheid.> te gronde richten zal
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert. `Verdoen` levert in 2Th. 2:8 een modern false-friend-risico op en wordt door de Griekse term ἀναλώσει en de kanttekening zelf als vernietigen/tenietmaken geduid.
+- **[RG20-004] (modernisatie)** Zo dan, broeders, staat [vast], ... en houdt ... de inzettingen die u geleerd zijn
+  - regel: ARCHAISMEN.md: imperatief-meervoud op `-t`; MODERNISATIE.md §2.7; fix: Zo dan, broeders, sta [vast], en houd de inzettingen die u geleerd zijn
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert. `Staat` en `houdt` zijn meervoudsimperatieven met archaïsche -t bij `broeders`; de Griekse imperatieven vragen geen behoud van die Nederlandse vorm.
+- **[RG20-005] (modernisatie)** Vertrooste uw harten, en ... versterke u in alle ... goede woord en werk.
+  - regel: MODERNISATIE.md §2.1 / §2.7; ARCHAISMEN.md spelling- en vormnormalisatie; fix: Moge Hij uw harten vertroosten en u versterken in alle goede woord en werk.
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert. `Vertrooste` en `versterke` bewaren oude wens-/conjunctiefvormen; de gebedsconstructie kan modern worden weergegeven zonder inhoudsverlies.
+- **[RG20-006] (modernisatie)** opdat zij ook daarna in zijn heerlijkheid hem zoals mogen worden
+  - regel: MODERNISATIE.md §2.1 / §2.2; AGENTS.md formele equivalentie en behoud van betekenis; fix: opdat zij ook daarna in zijn heerlijkheid Hem gelijk mogen worden
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert. `Hem zoals mogen worden` is ongrammaticaal modern Nederlands en wijkt af van de betekenis van `hem gelijck mogen worden`.
+- **[RG20-007] (modernisatie)** <Grieks: in het vuur van de vlam, wraak gevend. Een Hebreeuwse wijze van spreken, zoals tevoren Engelen van zijn kracht.
+  - regel: MODERNISATIE.md §2.3; KANTTEKENINGEN.md: Geen SV-participia in kanttekeningen; fix: <Grieks: in het vuur van de vlam, wraak geven. Een Hebreeuwse wijze van spreken, zoals tevoren Engelen van zijn kracht.>
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert. De kanttekeningglosse `wraak gevend` is een literalistisch participium waar de regels een infinitief-lemma of finiete ontvouwing vragen.
+- **[RG20-008] (modernisatie)** uw geheel oprechte ... geest en ziel en lichaam worde onberispelijk bewaard
+  - regel: MODERNISATIE.md §2.1 / §2.7; ARCHAISMEN.md spelling- en vormnormalisatie; fix: moge uw geheel oprechte geest en ziel en lichaam onberispelijk bewaard worden
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert. `Worde onberispelijk bewaard` behoudt een archaïsche conjunctiefvorm; de Griekse optatief rechtvaardigt de wenswaarde, niet de oude Nederlandse vorm.
+- **[RG20-009] (modernisatie)** <Grieks: hebzuchtig zij, wat betekent iemand uit gierigheid bedriegen of onrecht aandoen.>
+  - regel: MODERNISATIE.md §2.3; KANTTEKENINGEN.md: Geen SV-participia in kanttekeningen; MODERNISATIE.md §2.7; fix: <Grieks: hebzuchtig zijn, wat betekent iemand uit gierigheid bedriegen of onrecht aandoen.>
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert. `Hebzuchtig zij` is geen modern lemma of vloeiende uitleg bij πλεονεκτεῖν; de kanttekening moet worden gemoderniseerd.
+- **[RG20-010] (consistentie)** 1Th. 5:14 `hen die ordeloos leven` tegenover 2Th. 3:6,11 `ongeregeld wandelt/wandelen`
+  - regel: AGENTS.md concordantie; MODERNISATIE.md §5.3 concordantie; fix: Harmoniseer 1Th. 5:14 naar `vermaan hen die ongeregeld wandelen` of kies NT-breed één rendering voor `atakto-`.
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert het concordantiepunt. De exacte fix kan versspecifiek worden gekozen, maar `ordeloos leven` verbreekt zonder noodzaak de Thessalonicenzen-concordantie met het ἀτακτ-woordveld.

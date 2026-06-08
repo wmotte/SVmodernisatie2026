@@ -1,5 +1,5 @@
 {
-  "rounds_done": 18,
+  "rounds_done": 20,
   "pairs": [
     [
       "REV",
@@ -73,6 +73,14 @@
     [
       "1JN",
       "2PE"
+    ],
+    [
+      "1PE",
+      "JAS"
+    ],
+    [
+      "1TH",
+      "2TH"
     ]
   ],
   "debate_count": {
@@ -90,10 +98,15 @@
     "PHM": 1,
     "JUD": 1,
     "1JN": 1,
-    "2PE": 1
+    "2PE": 1,
+    "1PE": 1,
+    "JAS": 1,
+    "1TH": 1,
+    "2TH": 1
   },
   "closed_keys": [
     "consistentie|1JN,2PE|geliefde gelooft niet beproeft de geesten|modernisatie.md §2.3; concordantie grieks `ἀγαπητοί`",
+    "consistentie|1TH,2TH|1th 5 14 hen die ordeloos leven tegenover|agents.md concordantie; modernisatie.md §5.3 concordantie",
     "consistentie|2CO,ROM|om de aanleiding af te snijden voor hen|concordantie cross-book (grieks aphorme)",
     "consistentie|2JN,3JN|2jn 1 12 mond tot mond met u|modernisatie.md §5.3 concordantie; source_text in beide brieven: `στόμα πρὸς στόμα`",
     "consistentie|ACT,JHN|een grote menigte van kranken|agents.md concordantie; modernisatie.md §2.7; grieks: ασθενουντων",
@@ -118,6 +131,14 @@
     "modernisatie|1JN|die kan geenszins god liefhebben|scripts/rules_data.py drempel_archaismen; modernisatie.md §2.7; kanttekeningen.md",
     "modernisatie|1JN|en hebt de wereld niet lief|archaismen.md: imperatief-meervoud op `-t`; modernisatie.md §2.3",
     "modernisatie|1JN|om alzo de wortel ervan uit te trekken|modernisatie.md §2.7; kanttekeningen.md",
+    "modernisatie|1PE|vernedert u dan onder de krachtige hand gods|archaismen.md: imperatief-meervoud op `-t` -> stam; modernisatie.md §2.7 constructie-test",
+    "modernisatie|1PE|vreest niet uit vrees voor hen en wordt|archaismen.md: imperatief-meervoud op `-t` -> stam; modernisatie.md §2.7",
+    "modernisatie|1PE|wapent ook u zich met dezelfde gedachte|archaismen.md: imperatief-meervoud op `-t` -> stam; modernisatie.md §2.7",
+    "modernisatie|1PE|wees dan nuchter en waakt in de gebeden|archaismen.md: imperatief-meervoud op `-t` -> stam; modernisatie.md §2.7",
+    "modernisatie|1PE|werpt alle uw bekommernis op hem|archaismen.md: imperatief-meervoud op `-t` -> stam; modernisatie.md §2.7",
+    "modernisatie|1PE|zo verblijdt u|archaismen.md: imperatief-meervoud op `-t` -> stam; modernisatie.md §2.7",
+    "modernisatie|1TH|grieks hebzuchtig zij wat betekent iemand uit gierigheid|modernisatie.md §2.3; kanttekeningen.md: geen sv-participia in kanttekeningen; modernisatie.md §2.7",
+    "modernisatie|1TH|uw geheel oprechte geest en ziel en lichaam|modernisatie.md §2.1 / §2.7; archaismen.md spelling- en vormnormalisatie",
     "modernisatie|2CO|dat ons woord hetwelk tot u gekomen is|rules_data.py:340 archaisme-blacklist (hetwelk); drempel-archaisme relativum",
     "modernisatie|2JN|niet als een nieuw gebod aan u schrijvend|modernisatie.md §2.3; scripts/rules_data.py participle_bad_end_stems (`schrijvend`)",
     "modernisatie|2JN|om u te leren en te onderwijzen dat|archaismen.md false friends: `leren` / `leerde` als transitief didactisch werkwoord",
@@ -127,6 +148,13 @@
     "modernisatie|2PE|de besmettingen van de wereld ontvloden zijn|modernisatie.md §2.7",
     "modernisatie|2PE|maar allermeest degenen|modernisatie.md §2.7",
     "modernisatie|2PE|zulks van tevoren weet|archaismen.md: `sulcks`/`zulks`; modernisatie.md §2.7",
+    "modernisatie|2TH|dat is zodanige majesteit macht en heerschappij aannemend|modernisatie.md §2.3; kanttekeningen.md: geen sv-participia in kanttekeningen",
+    "modernisatie|2TH|de verborgenheid van de ongerechtigheid wordt al gewrocht|modernisatie.md §2.2 / §2.7; archaismen.md drempel voor productiviteit",
+    "modernisatie|2TH|die de heere of verteren zo zal dan|modernisatie.md §2.2 / §2.7; archaismen.md false-friend/productiviteitstest",
+    "modernisatie|2TH|grieks in het vuur van de vlam wraak|modernisatie.md §2.3; kanttekeningen.md: geen sv-participia in kanttekeningen",
+    "modernisatie|2TH|opdat zij ook daarna in zijn heerlijkheid hem|modernisatie.md §2.1 / §2.2; agents.md formele equivalentie en behoud van betekenis",
+    "modernisatie|2TH|vertrooste uw harten en versterke u in alle|modernisatie.md §2.1 / §2.7; archaismen.md spelling- en vormnormalisatie",
+    "modernisatie|2TH|zo dan broeders staat vast en houdt de|archaismen.md: imperatief-meervoud op `-t`; modernisatie.md §2.7",
     "modernisatie|3JN|boze woorden snaterende tegen ons|modernisatie.md §2.3; scripts/rules_data.py participle_bad_end_stems / adversarial_scan §2.3 finiet participium",
     "modernisatie|3JN|dit kan op twee manieren verstaan worden|archaismen.md false friends: `verstaan worden`",
     "modernisatie|3JN|een eind weegs met hen meegaande|kanttekeningen.md geen sv-participia in kanttekeningen; modernisatie.md §2.3",
@@ -142,6 +170,8 @@
     "modernisatie|ACT|maar zulks is na deze tijd gebeurd|archaismen.md (`sulcks`/`zulks`); modernisatie.md §2.7; kanttekeningen tellen volwaardig mee",
     "modernisatie|ACT|ontstond daar geen kleine beroerte|modernisatie.md §2.7; false-friend/productiviteitstest; grieks: ταραχος",
     "modernisatie|ACT|zijn rede uitstrekkend tot de middernacht|modernisatie.md §2.3 / §2.3b (finiet participium; intro volgt dezelfde principes)",
+    "modernisatie|JAS|dat is terwijl zij de heere aanroepen die|modernisatie.md §2.7 productiviteits-/verwarringtest; kanttekeningen.md",
+    "modernisatie|JAS|elia was een mens met gelijke of lijden|modernisatie.md §2.7 productiviteits-/verwarringtest",
     "modernisatie|JHN|dat u zult huilen en weeklagen|projectregel κλαίω→wenen",
     "modernisatie|JHN|de rechte tijd van de geestelijke oogst voorhanden|rules_data.py drempel_archaismen ('voorhanden'); modernisatie.md §2.7. scaffolding-gap: intro niet gescand.",
     "modernisatie|JHN|gaat u maar op naar dit feest|archaismen.md (imperatief meervoud -t -> stam)",
@@ -223,5 +253,5 @@
     "modernisatie|ROM|weest vrolijk u heidenen met zijn volk|archaismen.md:78 imperatief-meervoud sv-`-t` -> stam"
   ],
   "open_keys": [],
-  "updated_at": "2026-06-08T05:01:28.374449+00:00"
+  "updated_at": "2026-06-08T05:46:39.149473+00:00"
 }

@@ -30,11 +30,10 @@ taalmodellen gedaan, langs een streng gecontroleerd proces.
 
 - 🔍 [**Vergelijkingsviewer**](https://wmotte.github.io/SVmodernisatie2026/compare_all.html)
   — zet de versies naast elkaar met kleurmarkering van de verschillen.
-  Voor **Lucas** zijn dat er vijf: Statenvertaling 1657, GBS (met de
-  volledige kanttekeningen), de Herziene Statenvertaling, Initiatief
-  SV2027 en de modernisatie. Voor de overige boeken staan SV1657, de
-  HSV en de modernisatie naast elkaar. Zie hieronder welke rol elke
-  vergelijking speelt.
+  De viewer toont voorlopig alleen **Lucas**, met vijf versies naast
+  elkaar: Statenvertaling 1657, GBS (met de volledige kanttekeningen),
+  de Herziene Statenvertaling, Initiatief SV2027 en de modernisatie.
+  Zie hieronder welke rol elke vergelijking speelt.
 
 **Of download een voorbeeld-PDF** (parallelbijbel, oude en nieuwe tekst
 naast elkaar). De tabel hieronder toont meteen hoeveel van elk boek af

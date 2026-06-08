@@ -43,8 +43,8 @@ wordt:
 
 - [x] Ronde 17: `PHM + JUD`
 - [x] Ronde 18: `1JN + 2PE`
-- [ ] Ronde 19: `1PE + JAS`
-- [ ] Ronde 20: `1TH + 2TH`
+- [x] Ronde 19: `1PE + JAS`
+- [x] Ronde 20: `1TH + 2TH`
 - [ ] Ronde 21: `1TI + 2TI`
 - [ ] Ronde 22: `COL + EPH`
 - [ ] Ronde 23: `GAL + PHP`
@@ -232,8 +232,8 @@ Vul dit handmatig bij na elke afgeronde ronde.
 
 - [x] R17 `PHM+JUD` - status: afgerond; 10 red-punten, 10 red_wins toegepast, 0 rule_change; validate/lint/semantic PASS.
 - [x] R18 `1JN+2PE` - status: afgerond; 10 red-punten, 10 red_wins toegepast, 0 rule_change; validate/lint PASS; HSV-diffs en memory bijgewerkt.
-- [ ] R19 `1PE+JAS` - status:
-- [ ] R20 `1TH+2TH` - status:
+- [x] R19 `1PE+JAS` - status: afgerond; 8 red-punten, 8 red_wins toegepast, 0 rule_change; validate/lint PASS; HSV-diffs en memory bijgewerkt.
+- [x] R20 `1TH+2TH` - status: afgerond; 10 red-punten, 10 red_wins toegepast, 0 rule_change; validate/lint PASS; HSV-diffs en memory bijgewerkt.
 - [ ] R21 `1TI+2TI` - status:
 - [ ] R22 `COL+EPH` - status:
 - [ ] R23 `GAL+PHP` - status:
