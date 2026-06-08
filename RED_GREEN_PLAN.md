@@ -218,25 +218,25 @@ Afronding:
 
 Minimale dekking:
 
-- [ ] Alle 26 volledige NT-boeken zijn minstens 1x besproken.
-- [ ] Geen `open_keys`.
-- [ ] Geen onafgewerkte `red_wins` of `rule_change`.
+- [x] Alle 26 volledige NT-boeken zijn minstens 1x besproken. (2CO R6, 2TI R21, PHP R23/R44 — alle 26 werkset-boeken in ≥1 paar.)
+- [x] Geen `open_keys`. (state.json open_keys=0.)
+- [x] Geen onafgewerkte `red_wins` of `rule_change`. (R6-flags stale-False in roundfile maar content + ἀφορμή-rule geverifieerd toegepast; alle sessie-verdicts applied=true.)
 
 Goede dekking:
 
-- [ ] Fase 1 is volledig afgerond.
-- [ ] Fase 2 is volledig afgerond of per overgeslagen paar gemotiveerd.
-- [ ] Alle kleine brieven zitten minstens 1x in een inhoudelijk passend
-      cluster.
+- [x] Fase 1 is volledig afgerond. (R17-R24; acceptatie afgevinkt.)
+- [x] Fase 2 is volledig afgerond of per overgeslagen paar gemotiveerd. (R44 sloot PHP+PHM, laatste paar.)
+- [x] Alle kleine brieven zitten minstens 1x in een inhoudelijk passend
+      cluster. (Johannes: JHN/1-2-3JN R25-27; Paulus kort: EPH/COL/PHP/PHM/1-2TH/1-2TI/TIT/GAL R20-29,44; algemene: JAS/1-2PE/JUD/HEB R19,30-32.)
 
 Sterke dekking:
 
-- [ ] Fase 3 is afgerond.
-- [ ] Laatste 3 selector-rondes leveren samen minder dan 3 `red_wins` op, of
-      red vindt in een ronde 0 nieuwe punten.
-- [ ] `uv run python scripts/lint_all.py --root output --terse` eindigt met
+- [x] Fase 3 is afgerond. (R38-R43 + convergentie-sweep R42.)
+- [x] Laatste 3 selector-rondes leveren samen minder dan 3 `red_wins` op, of
+      red vindt in een ronde 0 nieuwe punten. (R43 REV+ACT = 0 punten.)
+- [x] `uv run python scripts/lint_all.py --root output --terse` eindigt met
       `[OK] All linters passed`.
-- [ ] Er is een laatste compact eindrapport in `output/META/debate/minutes.md`
+- [x] Er is een laatste compact eindrapport in `output/META/debate/minutes.md`
       via de normale append-flow.
 
 ## Statuslog
@@ -251,8 +251,9 @@ Vul dit handmatig bij na elke afgeronde ronde.
 - [x] R22 `COL+EPH` - status: afgerond; 6 red-punten, 4 red_wins (verse) + 2 rule_change (NT-breed) toegepast; validate/lint PASS; HSV-diffs + memory bijgewerkt. rule_change: μακροθυμία→lankmoedig(heid) (EPH4:2,COL3:12,1TH5:14,LUK18:7); Sendtbrief→Zendbrief colofon (1CO,1JN,1PE,2TH,COL,GAL,JUD,PHM,ROM).
 - [x] R23 `GAL+PHP` - status: afgerond; 3 red-punten, 2 red_wins (GAL 5:16 wandelt→wandel; PHP 2:18 verblijdt u zich→verblijd u) + 1 green_wins (PHP 4:4 'ter vergelijking' — red-premisse weerlegd, ook in ROM 11:7); validate/lint PASS; HSV+memory bijgewerkt.
 - [x] R24 `HEB+TIT` - status: afgerond; 3 red-punten, 3 red_wins toegepast (HEB 3:8 Verhardt→Verhard; HEB 10:5 + TIT-epiloog scaffolding-reparatie: ontbrekende <>-delimiters rond inline-glosse hersteld in input.sv én output, der Cretensen→van de Kretenzen); validate/lint PASS; HSV+memory bijgewerkt. FASE 1 COMPLEET: alle 26 boeken ≥1x, open_keys=0.
-- [ ] Cluster Johannes - status:
-- [ ] Cluster Paulus kort - status:
+- [x] Cluster Johannes - status: COMPLEET (JHN+1JN R25, 1JN+2JN R26, 2JN+3JN R27)
+- [x] Cluster Paulus kort - status: COMPLEET (EPH+COL R22, 1TH+2TH R20, 1TI+2TI R21, GAL+PHP R23, TIT+PHM R29, PHP+PHM R44)
 - [x] Cluster algemene brieven - status: COMPLEET (JAS+1PE R19, 1PE+2PE R30, JUD+2PE R31, HEB+JAS R32)
-- [ ] Grote-boek kalibratie - status:
-- [ ] Worst-first naloop - status:
+- [x] Grote-boek kalibratie - status: COMPLEET (ACT+ROM R33, MAT+MRK R34, LUK+ACT R35, REV+JUD R36, REV+2PE R37)
+- [x] Worst-first naloop - status: COMPLEET (R38 REV+ACT 5rw, R39 REV+MAT 2rw+wederom/geenszins-sweep, R40 REV+ACT 11rw, R41 REV+MAT 4rw, R42 convergentie-sweep διδάσκω+genitief, R43 REV+ACT 0 punten → convergentie)
+- [x] **ALLE FASEN AFGEROND** - status: Fase 1+2+3 compleet; 44 rondes; open_keys=0; lint_all --terse [OK]; eindrapport in minutes.md.

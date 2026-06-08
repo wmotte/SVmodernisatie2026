@@ -909,3 +909,28 @@ Red bracht 3 punt(en). Verdicts: red_wins=2, green_wins=1, rule_change=0.
 - **[RG44-003] (semantiek)** naar u allen verlang, <Grieks: in de ingewanden: een Hebreeuwse wijze van spreken, omdat door een grote innerlijke geneg
   - regel: MODERNISATIE.md §1/§2.7 (begrijpelijk modern NL; geen opake idiomatiek in hoofdtekst); fix: Overweeg in de hoofdtekst 'met de innige genegenheid van Jezus Christus' (PHP 1:8) en 'enige innige genegenheid en ontfermingen' (PHP 2:1); de bestaande Gr.-kanttekening blijft staan.
   - verdict: **green_wins** (scope=verse, applied=False) — σπλάγχνα 'innerlijke bewegingen' is consistente SV-renovatie NT-breed (COL 3:12, 2CO 7:15, PHP 1:8/2:1), met Griekse kanttekening-glosse. Renovatie ≠ hervertaling; geen per-vers fix. Eventueel apart N
+
+---
+
+## EINDRAPPORT — Red-Green Review NT compleet (2026-06-08)
+
+**Status: ALLE FASEN AFGEROND.** 44 rondes (R1-R44). `closed_keys`=258, `open_keys`=0. Alle 27 NT-boeken ≥1× besproken. `lint_all --terse` → `[OK] All linters passed`.
+
+### Fasen
+- **Fase 1 (Basisdekking, R17-R24):** alle 26 werkset-boeken in ≥1 paar; ἀφορμή→aanleiding + μακροθυμία→lankmoedig + Sendtbrief→Zendbrief rule_changes.
+- **Fase 2 (Clusterdekking, R25-R37, R44):** Johannes (R25-27), Paulus kort (R20-23,29,44), algemene brieven (R19,30-32), grote-boek kalibratie (R33-37). rule_changes: kanttekening-opener-cap (R27), genitief der-Joden kop-kwalificatie (R35), πόλεμος→oorlog (R36).
+- **Fase 3 (Worst-first naloop, R38-R43):** selector-gedreven; bracht twee systemische tail-patronen aan het licht → convergentie-sweep R42; R43 = 0 punten (convergentie bevestigd).
+
+### NT-brede sweeps afgerond (geen silent caps)
+- `wederom`→`opnieuw` (πάλιν): body NT-breed 0 (R39).
+- `geenszins`→`zeker/beslist/volstrekt niet` (Grieks-afhankelijk): body NT-breed 0 (R39).
+- διδάσκω leraar-subject `leren`→`onderwijzen`: NT-breed geharmoniseerd (R40/R42).
+- Fossiel-genitief allowlist-lek (der Joden/aarde/heiligen/wereld → van de): body NT-breed unfolded (R35/37/40/41/42).
+- πόλεμος→oorlog, geenszins/Μηδαμῶς, ὄχλος→schare (vs πλῆθος=menigte), κλαίω→wenen, μακροθυμία→lankmoedig: consistent.
+
+### Bewust openstaand (DEFERRED, met user-confirm)
+- Kop-kwalificatie `FOSSIL_GENITIVE_HEAD_PAIRS` voor `der aarde`/`der heiligen` (validator-LOGICA-wijziging): niet autonoom doorgevoerd; allowlist-lek nu via content-fixes gedicht maar regel-hardening wacht op gebruikersbesluit.
+- σπλάγχνα `innerlijke bewegingen` (green_wins R44): consistente SV-renovatie; eventueel apart NT-breed concordantie-besluit.
+- Passieve διδάσκω-vormen (1TH 4:9 θεοδίδακτοι, 2TH 2:15, COL 2:7, GAL 1:12, JHN 6:45): conservatief behouden als learner/adjectivaal.
+- Note-only residu `wederom` (32) / `geenszins` (4) in kanttekeningen: annotator-Nederlands zonder Grieks-grond, geen concordantie-issue.
+- Pre-existing: MAT 27:6 kanttekening-cap 'Schijnt' (1F, onaangeroerd vers); ROM 1:12 glosse-leak (memory project_gloss_leak_rom1_12).
