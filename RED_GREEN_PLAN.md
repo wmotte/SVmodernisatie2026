@@ -82,7 +82,7 @@ Algemene brieven:
 
 - [x] `JAS + 1PE` — gedekt door R19
 - [x] `1PE + 2PE` — R30 (7 red_wins + 2 rule_change: weersta→IMPERATIVE_T_STEMS, metterdaad→DREMPEL)
-- [ ] `JUD + 2PE`
+- [x] `JUD + 2PE` — R31 (4 red_wins: imperatief JUD 1:22, bibref-proza JUD 1:14, consistentie οὗτοί εἰσιν JUD↔2PE, Latinaat 2PE 2:1)
 - [ ] `HEB + JAS`
 
 Grote-boek kalibratie:

@@ -657,3 +657,18 @@ Red bracht 9 punt(en). Verdicts: red_wins=7, green_wins=0, rule_change=2.
 - **[RG30-009] (modernisatie)** onze leer, die wij u geleerd hebben
   - regel: ARCHAISMEN.md false-friends (didactisch leren); fix: `die wij u geleerd hebben` → `die wij u onderwezen hebben`.
   - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert. Transitief-didactisch 'geleerd' (Apostelen onderrichten lezers, διδάσκω-veld) = false friend → 'onderwezen'. GEEN rule_change: de bestaande false-friend-regel (rules_data.py:275 'lee
+
+## Ronde 31 — JUD + 2PE  (2026-06-08T10:07:18.923485+00:00)
+Red bracht 4 punt(en). Verdicts: red_wins=4, green_wins=0, rule_change=0.
+- **[RG31-001] (modernisatie)** ontfermt u over sommigen, en maakt
+  - regel: ARCHAISMEN.md:78/80 (imperatief-meervoud op `-t` → stam); MODERNISATIE.md §2.7; grieks ἐλεεῖτε; fix: ontferm u over sommigen, en maak ... onderscheid
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert terecht: 'ontfermt u over sommigen, en maakt' staat letterlijk in JUD 1:22, ἐλεεῖτε is praes.imp.2pl, διακρινόμενοι hier imperatief 'maakt onderscheid'; ARCHAISMEN.md:78/80 harmonisee
+- **[RG31-002] (modernisatie)** Zie Genes. cap. 5.
+  - regel: MODERNISATIE.md §2.5/§2.6 (bijbelref-normalisatie); bibref chapter-only gap (render als proza); fix: Zie Genesis hoofdstuk 5. (hoofdstuk-only → proza, conform 2PE 2:5)
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert terecht: 'Zie Genes. cap. 5.' staat ongenormaliseerd in de kanttekening van JUD 1:14, terwijl $Gn. 5:18$ in hetzelfde vers wél genormaliseerd is en 2PE 2:5 dezelfde hoofdstuk-only-ref
+- **[RG31-003] (consistentie)** Zij zijn
+  - regel: MODERNISATIE.md §1/§5.3 (cross-book concordantie); grieks oὗτοί εἰσι(ν); fix: Harmoniseer naar één weergave over beide boeken: in 2PE 2:17 'Deze zijn' → 'Zij zijn' (of omgekeerd in JUD), maar consistent.
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert terecht: οὗτοί εἰσι(ν) identiek in JUD 1:12/16/19 (3x 'Zij zijn') én 2PE 2:17 ('Deze zijn'); JUD 1:12 en 2PE 2:17 lexicaal parallel (waterloze wolken/fonteinen, agape-context). Echte 
+- **[RG31-004] (modernisatie)** ten aanzien dat zij
+  - regel: MODERNISATIE.md §2.7 (drempel-/verwarringstest); §2.3b (Latinaat-syntax); fix: omdat zij zich voor zodanigen uitgeven (of: gezien zij ...)
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert terecht: 'ten aanzien dat zij' staat in de kanttekening van 2PE 2:1; gestolde SV-Latinaat-voegwoordconstructie (= omdat/gezien dat), modern NL eist bij 'ten aanzien' verplicht 'van' +

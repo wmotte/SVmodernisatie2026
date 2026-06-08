@@ -1,5 +1,5 @@
 {
-  "rounds_done": 30,
+  "rounds_done": 31,
   "pairs": [
     [
       "REV",
@@ -121,6 +121,10 @@
     [
       "1PE",
       "2PE"
+    ],
+    [
+      "JUD",
+      "2PE"
     ]
   ],
   "debate_count": {
@@ -136,9 +140,9 @@
     "2JN": 3,
     "3JN": 2,
     "PHM": 3,
-    "JUD": 1,
+    "JUD": 2,
     "1JN": 3,
-    "2PE": 2,
+    "2PE": 3,
     "1PE": 2,
     "JAS": 1,
     "1TH": 1,
@@ -159,6 +163,7 @@
     "consistentie|2CO,ROM|om de aanleiding af te snijden voor hen|concordantie cross-book (grieks aphorme)",
     "consistentie|2JN,3JN|2jn 1 12 mond tot mond met u|modernisatie.md §5.3 concordantie; source_text in beide brieven: `στόμα πρὸς στόμα`",
     "consistentie|2JN,3JN|dat is oprecht zoals 1jh 3 18|kanttekeningen.md (afkorting-expansie `<d. ...>`); agents.md regel 5 (hoofdletterdiscipline); modernisatie.md §1 (cross-book concordantie)",
+    "consistentie|2PE,JUD|zij zijn|modernisatie.md §1/§5.3 (cross-book concordantie); grieks oὗτοί εἰσι(ν)",
     "consistentie|ACT,JHN|een grote menigte van kranken|agents.md concordantie; modernisatie.md §2.7; grieks: ασθενουντων",
     "consistentie|COL,EPH|einde van de zendbrief van paulus aan die|modernisatie.md §1 (concordantie behouden); cross-book consistentie van een identiek sv-lemma 'sendtbrief'",
     "consistentie|COL,EPH|volharding en lankmoedigheid|modernisatie.md §1 (concordantie); cross-book weergave van gr. μακροθυμία",
@@ -223,6 +228,7 @@
     "modernisatie|2PE|de besmettingen van de wereld ontvloden zijn|modernisatie.md §2.7",
     "modernisatie|2PE|maar allermeest degenen|modernisatie.md §2.7",
     "modernisatie|2PE|onze leer die wij u geleerd hebben|archaismen.md false-friends (didactisch leren)",
+    "modernisatie|2PE|ten aanzien dat zij|modernisatie.md §2.7 (drempel-/verwarringstest); §2.3b (latinaat-syntax)",
     "modernisatie|2PE|zulks van tevoren weet|archaismen.md: `sulcks`/`zulks`; modernisatie.md §2.7",
     "modernisatie|2TH|dat is zodanige majesteit macht en heerschappij aannemend|modernisatie.md §2.3; kanttekeningen.md: geen sv-participia in kanttekeningen",
     "modernisatie|2TH|de verborgenheid van de ongerechtigheid wordt al gewrocht|modernisatie.md §2.2 / §2.7; archaismen.md drempel voor productiviteit",
@@ -274,6 +280,8 @@
     "modernisatie|JUD|dit kan verstaan worden|archaismen.md false friends: `verstaan worden`; kanttekeningen.md",
     "modernisatie|JUD|maar ik wil u indachtig maken|modernisatie.md §2.7",
     "modernisatie|JUD|omdat hun loop niet eenparig is met de|modernisatie.md §2.7; kanttekeningen.md",
+    "modernisatie|JUD|ontfermt u over sommigen en maakt|archaismen.md:78/80 (imperatief-meervoud op `-t` → stam); modernisatie.md §2.7; grieks ἐλεεῖτε",
+    "modernisatie|JUD|zie genes cap 5|modernisatie.md §2.5/§2.6 (bijbelref-normalisatie); bibref chapter-only gap (render als proza)",
     "modernisatie|LUK|bidt en u zal gegeven worden zoekt en|archaismen.md (imperatief-meervoud op `-t` → stam); modernisatie.md imperatief-`-t`",
     "modernisatie|LUK|brengt dan vruchten voort die de bekering waardig|archaismen.md (imperatief-meervoud op `-t` → stam)",
     "modernisatie|LUK|de kaarsen brandende|modernisatie.md §2.3 (predicatief/periphrastisch participium / -ende)",
@@ -343,5 +351,5 @@
     "modernisatie|TIT|zowel in kleding als in hun gehele wandel|archaismen.md:29 (zelfst. 'wandel' = levenswijze → levenswandel / leven / gedrag); modernisatie.md §2.7 (verwarringstest)"
   ],
   "open_keys": [],
-  "updated_at": "2026-06-08T09:56:24.508481+00:00"
+  "updated_at": "2026-06-08T10:07:18.923190+00:00"
 }
