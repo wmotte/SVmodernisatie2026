@@ -1,0 +1,118 @@
+{
+  "round_no": 31,
+  "books": ["JUD", "2PE"],
+  "red": [
+    {
+      "id": "RG31-001",
+      "class": "modernisatie",
+      "books": ["JUD"],
+      "chapter": 1,
+      "verse": 22,
+      "quote": "ontfermt u over sommigen, en maakt",
+      "in_kanttekening": false,
+      "rule_reference": "ARCHAISMEN.md:78/80 (imperatief-meervoud op `-t` → stam); MODERNISATIE.md §2.7; grieks ἐλεεῖτε",
+      "explanation": "SV-imperatief-meervoud blijft op `-t` staan: `ontfermt u` en `maakt onderscheid` (vgl. ἐλεεῖτε + διακρινόμενοι). Dit is precies het NT-brede patroon dat al NT-breed naar de stam wordt geharmoniseerd (rg22/rg23/rg24 red_wins; precedent JUD 20 'bouwt'→'bouw' al closed). Binnen hetzelfde vers staat 'behoud' en 'grijp' al wel correct op de stam — interne inconsistentie.",
+      "proposed_fix": "ontferm u over sommigen, en maak ... onderscheid",
+      "severity": "hard"
+    },
+    {
+      "id": "RG31-002",
+      "class": "modernisatie",
+      "books": ["JUD"],
+      "chapter": 1,
+      "verse": 14,
+      "quote": "Zie Genes. cap. 5.",
+      "in_kanttekening": true,
+      "rule_reference": "MODERNISATIE.md §2.5/§2.6 (bijbelref-normalisatie); bibref chapter-only gap (render als proza)",
+      "explanation": "Onvertaalde SV1657-bijbelref in een gemoderniseerde kanttekening: `Genes. cap. 5.` is niet genormaliseerd, terwijl elders in dezelfde brief (JUD 1, 4, 6, 9) alle refs wel naar `$Boek H:V$`/proza zijn omgezet. 2PE 2:5 doet exact dezelfde hoofdstuk-only-verwijzing wel correct als proza ('Genesis hoofdstukken 6 en 7'). Cross-book inconsistentie + drempel-archaïsme dat door de note-strip aan de validator ontsnapt.",
+      "proposed_fix": "Zie Genesis hoofdstuk 5. (hoofdstuk-only → proza, conform 2PE 2:5)",
+      "severity": "hard"
+    },
+    {
+      "id": "RG31-003",
+      "class": "consistentie",
+      "books": ["JUD", "2PE"],
+      "chapter": 1,
+      "verse": 12,
+      "quote": "Zij zijn",
+      "in_kanttekening": false,
+      "rule_reference": "MODERNISATIE.md §1/§5.3 (cross-book concordantie); grieks oὗτοί εἰσι(ν)",
+      "explanation": "De identieke anaforische openingsformule oὗτοί εἰσι(ν) die de catalogus van valse leraars markeert, wordt in JUD drie keer als 'Zij zijn' weergegeven (1:12 σπιλάδες/'vlekken', 1:16 γογγυσταί, 1:19), maar in het direct-parallelle 2PE 2:17 (oὗτοί εἰσι πηγαὶ ἄνυδροι) als 'Deze zijn'. JUD 12 en 2PE 2:17 zijn bovendien lexicaal parallel (waterloze wolken/fonteinen, agape-maaltijd-context). Zelfde Grieks → zelfde demonstratief-rendering vereist.",
+      "proposed_fix": "Harmoniseer naar één weergave over beide boeken: in 2PE 2:17 'Deze zijn' → 'Zij zijn' (of omgekeerd in JUD), maar consistent.",
+      "severity": "soft"
+    },
+    {
+      "id": "RG31-004",
+      "class": "modernisatie",
+      "books": ["2PE"],
+      "chapter": 2,
+      "verse": 1,
+      "quote": "ten aanzien dat zij",
+      "in_kanttekening": true,
+      "rule_reference": "MODERNISATIE.md §2.7 (drempel-/verwarringstest); §2.3b (Latinaat-syntax)",
+      "explanation": "De voegwoordconstructie 'ten aanzien dat' (= omdat/gezien het feit dat) is een gestolde SV-Latinaat die in modern Nederlands niet meer productief is en de lezer struikelt; 'ten aanzien' eist normaal 'van' + zn, niet een 'dat'-bijzin. Half-gemoderniseerde kanttekening.",
+      "proposed_fix": "omdat zij zich voor zodanigen uitgeven (of: gezien zij ...)",
+      "severity": "soft"
+    }
+  ],
+  "green": [
+    {
+      "point_id": "RG31-001",
+      "stance": "concede",
+      "rebuttal": "Terecht. Quote 'ontfermt u over sommigen, en maakt' staat letterlijk in JUD 1:22 modernized. Grieks καὶ οὓς μὲν ἐλεεῖτε διακρινόμενοι: ἐλεεῖτε = praesens imperatief 2 mv (gebiedende wijs), διακρινόμενοι hier als imperatief 'maakt onderscheid' weergegeven. Beide staan op SV-imperatief-meervoud `-t` (ontfermt/maakt), wat ARCHAISMEN.md:82 expliciet naar de stam harmoniseert; Jd. 1:21,23 zijn daar al als precedent vermeld en v21 'Bewaar' / v23 'behoud'/'grijp' staan al correct op de stam — interne inconsistentie binnen dezelfde brief. proposed_fix 'ontferm u'/'maak onderscheid' is correct.",
+      "evidence": "ARCHAISMEN.md:82 (imperatief-meervoud `-t` → stam) + Grieks ἐλεεῖτε (praes.imp.2pl) + vers-specifiek (v21/v23 al stem, v22 holdout)"
+    },
+    {
+      "point_id": "RG31-002",
+      "stance": "concede",
+      "rebuttal": "Terecht. Quote 'Zie Genes. cap. 5.' staat letterlijk in de kanttekening van JUD 1:14 modernized. Dit is een ongenormaliseerde SV1657-ref: elders in dezelfde kanttekeningen zijn refs wél als $Boek H:V$ omgezet ($Gn. 5:18$ staat zelfs in hetzelfde vers), en het parallelle 2PE 2:5 doet exact dezelfde hoofdstuk-only-verwijzing wél correct als proza ('Genesis hoofdstukken 6 en 7'). §2.5/§2.6 eisen normalisatie van bijbelrefs ook binnen kanttekeningen; chapter-only → proza conform de bibref-norm. proposed_fix 'Zie Genesis hoofdstuk 5.' is correct.",
+      "evidence": "MODERNISATIE.md §2.5/§2.6 (bijbelref-normalisatie, ook in kanttekening) + cross-book parallel 2PE 2:5 'Genesis hoofdstukken 6 en 7' + vers-specifiek ($Gn. 5:18$ al genormaliseerd in hetzelfde vers)"
+    },
+    {
+      "point_id": "RG31-003",
+      "stance": "concede",
+      "rebuttal": "Terecht. Quote 'Zij zijn' staat in JUD 1:12 (οὗτοί εἰσιν ἐν ταῖς ἀγάπαις → 'Zij zijn'); 2PE 2:17 (οὗτοί εἰσι πηγαὶ ἄνυδροι → 'Deze zijn') is de divergerende parallel. De Griekse openingsformule is in beide identiek οὗτοί εἰσι(ν) — geen onderscheidend feit dat de afwijking rechtvaardigt. JUD rendert dezelfde formule drie keer consistent als 'Zij zijn' (1:12 σπιλάδες, 1:16 γογγυσταί, 1:19), terwijl het lexicaal-parallelle 2PE 2:17 (waterloze fonteinen, agape-context) als 'Deze zijn' afwijkt. Echte cross-book concordantie-drift; harmoniseren naar één weergave.",
+      "evidence": "Grieks οὗτοί εἰσι(ν) identiek in JUD 1:12/16/19 én 2PE 2:17 + cross-book divergentie 'Zij zijn' vs 'Deze zijn' + lexicale parallel (waterloze wolken/fonteinen)"
+    },
+    {
+      "point_id": "RG31-004",
+      "stance": "concede",
+      "rebuttal": "Terecht. Quote 'ten aanzien dat zij' staat letterlijk in de kanttekening van 2PE 2:1 modernized. 'Ten aanzien dat' is een gestolde SV-Latinaat-voegwoordconstructie (= omdat/gezien dat); in modern NL eist 'ten aanzien' verplicht 'van' + zn, nooit een 'dat'-bijzin (§2.3b Latinaat-syntax, §2.7 constructie-test: de SV-constructie werkt niet meer in modern NL → herformuleren). Half-gemoderniseerde kanttekening. proposed_fix 'omdat zij zich voor zodanigen uitgeven' dekt de SV-betekenis ('ten aensien datse haer voor soodanige uytgeven' = inzake/omdat zij zich als zodanig voordoen) correct.",
+      "evidence": "MODERNISATIE.md §2.3b (Latinaat-syntax) + §2.7 constructie-test (SV-constructie niet productief in modern NL) + vers-specifiek (SV-origineel 'ten aensien datse haer voor soodanige uytgeven')"
+    }
+  ],
+  "verdicts": [
+    {
+      "point_id": "RG31-001",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert terecht: 'ontfermt u over sommigen, en maakt' staat letterlijk in JUD 1:22, ἐλεεῖτε is praes.imp.2pl, διακρινόμενοι hier imperatief 'maakt onderscheid'; ARCHAISMEN.md:78/80 harmoniseert imperatief-meervoud -t naar de stam; v21/v23 ('Bewaar'/'behoud'/'grijp') al op de stam = interne inconsistentie. GEEN rule_change: scanner kan dit niet veilig vangen. (a) stam 'maak' uitsluiten — 'maakt' komt 917x NT-breed voor, vrijwel altijd 3ev-indicatief → onaanvaardbare collisie; (b) stam 'ontferm' levert niets op want het object 'u' is bewust uit IMPERATIVE_OBJECT_TOKENS gelaten (inversie-vraag-risico), dus 'ontfermt u' (15x) wordt sowieso niet gevangen, en 'ontfermt zich/hem' is overwegend 3ev ('hij ontfermt zich'). Per-vers fix.",
+      "scope": "verse",
+      "applied": true,
+      "rule_delta": null
+    },
+    {
+      "point_id": "RG31-002",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert terecht: 'Zie Genes. cap. 5.' staat ongenormaliseerd in de kanttekening van JUD 1:14, terwijl $Gn. 5:18$ in hetzelfde vers wél genormaliseerd is en 2PE 2:5 dezelfde hoofdstuk-only-ref correct als proza doet ('Genesis hoofdstukken 6 en 7'). Conform MEMORY feedback_bibref_chapter_only_gap: bibref.py corrumpeert hoofdstuk-only-refs → handmatig als proza renderen ('Zie Genesis hoofdstuk 5.'). GEEN code-rule_change: chapter-only normalisatie in bibref.py is niet triviaal veilig (bekende corruptie-gap); per-vers proza-fix.",
+      "scope": "verse",
+      "applied": true,
+      "rule_delta": null
+    },
+    {
+      "point_id": "RG31-003",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert terecht: οὗτοί εἰσι(ν) identiek in JUD 1:12/16/19 (3x 'Zij zijn') én 2PE 2:17 ('Deze zijn'); JUD 1:12 en 2PE 2:17 lexicaal parallel (waterloze wolken/fonteinen, agape-context). Echte cross-book concordantie-drift → harmoniseren naar één weergave. Per-vers concordantie-harmonisatie zonder validator-gate (vgl. durende concordantie-richtlijn in MEMORY); geen scanner-/regelbestand-delta.",
+      "scope": "verse",
+      "applied": true,
+      "rule_delta": null
+    },
+    {
+      "point_id": "RG31-004",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert terecht: 'ten aanzien dat zij' staat in de kanttekening van 2PE 2:1; gestolde SV-Latinaat-voegwoordconstructie (= omdat/gezien dat), modern NL eist bij 'ten aanzien' verplicht 'van' + zn, nooit een 'dat'-bijzin (§2.3b / §2.7 constructie-test). proposed_fix 'omdat zij zich voor zodanigen uitgeven' dekt SV 'ten aensien datse haer voor soodanige uytgeven'. Per-vers Latinaat-fix; geen structureel NT-breed patroon voor een regelbestand.",
+      "scope": "verse",
+      "applied": true,
+      "rule_delta": null
+    }
+  ]
+}
