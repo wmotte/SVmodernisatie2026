@@ -825,3 +825,12 @@ Red bracht 5 punt(en). Verdicts: red_wins=5, green_wins=0, rule_change=0.
 - **[RG38-005] (consistentie)** de menigte gestild had
   - regel: projectregel ὄχλος→schare (menigte=πλῆθος); AGENTS.md concordantie; precedent R35 (ACT 24:18 conceded); fix: de schare gestild had
   - verdict: **red_wins** (scope=ACT 19:35, applied=False) — Lemma ὄχλος ('menigte'→'schare'). Bron bevestigt τὸν ὄχλον; SV-origineel 'schare', moderne tekst dreef naar 'menigte'. Geen πλῆθος in dit vers. LOCKED substring-fix: 'de menigte gestild had' → 'de sch
+
+## Ronde 39 — REV + MAT  (2026-06-08T12:41:02.590494+00:00)
+Red bracht 2 punt(en). Verdicts: red_wins=2, green_wins=0, rule_change=0.
+- **[RG39-001] (consistentie)** En toen hij wederom voor de tweede maal was heengegaan
+  - regel: §false-friend wederom(πάλιν)→opnieuw; fix: wederom → opnieuw in MAT 26:42, 26:43, 26:44, 26:72
+  - verdict: **red_wins** (scope=nt-wide, applied=True) — red_wins. πάλιν→opnieuw. MAT 26:42/43/44/72 + NT-brede sweep van de staande deferred-lijst (RG36-004) afgerond: 29 fixes/26 verzen Grieks-geverifieerd (2CO 1:16, ACT 27:28, GAL 5:1 body, HEB 1:5, HEB 
+- **[RG39-002] (consistentie)** dit geslacht zal geenszins  voorbijgaan
+  - regel: §false-friend geenszins(οὐ μή)→beslist/zeker niet; fix: geenszins → beslist niet (of zeker niet) in MAT 2:6, 5:26, 10:42, 13:14(2x), 15:5, 16:22, 24:34, 24:35, 26:35
+  - verdict: **red_wins** (scope=nt-wide, applied=True) — red_wins. geenszins Grieks-afhankelijk: οὐ μή→'zeker niet', οὐδαμῶς→'beslist niet', plain οὐ→'volstrekt niet'. MAT 2:6 (οὐδαμῶς)/5:26/10:42/13:14×2/15:5/16:22/24:34/24:35/26:35 + NT-brede sweep van st

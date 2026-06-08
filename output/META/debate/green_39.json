@@ -1,0 +1,20 @@
+{"round_no":39,"green":[
+ {"point_id":"RG39-001","stance":"concede","rebuttal":"Conceded per verse. All four are body-text πάλιν that survived as the blacklisted 'wederom' (DREMPEL_ARCHAISMEN); MAT renders πάλIN consistently as 'opnieuw' elsewhere (verified 4:7 Πάλιν, 19:24, 20:5, 22:1, 27:50 — all 'opnieuw'), so 'opnieuw' is the house rendering. These exact four verses (26:42, 26:43, 26:44, 26:72) were explicitly placed on the standing DEFERRED list in RG36-004 (red_wins, nt-wide); this round clears them. Source_text confirmed πάλιν in each. None in a kanttekening.","evidence":"πάλιν","fixes":[
+   {"book":"MAT","chapter":26,"verse":42,"old":"hij wederom voor de tweede maal","new":"hij opnieuw voor de tweede maal","in_kanttekening":false,"lemma":"πάλιν"},
+   {"book":"MAT","chapter":26,"verse":43,"old":"vond hij hen wederom slapend","new":"vond hij hen opnieuw slapend","in_kanttekening":false,"lemma":"πάλιν"},
+   {"book":"MAT","chapter":26,"verse":44,"old":"ging wederom heen","new":"ging opnieuw heen","in_kanttekening":false,"lemma":"πάλιν"},
+   {"book":"MAT","chapter":26,"verse":72,"old":"loochende het wederom","new":"loochende het opnieuw","in_kanttekening":false,"lemma":"πάλιν"}
+ ]},
+ {"point_id":"RG39-002","stance":"concede","rebuttal":"Conceded per verse, with Greek-dependent targets. 'geenszins' is in DREMPEL_ARCHAISMEN with abundant red_wins precedent (RG15-008, RG18-004, RG25-006, RG32-003, RG36-003, RG38-002/003). Target rule (RG38-002/003): οὐ μή (emphatic predicate negation) -> 'zeker niet'; οὐδαμῶς/Μηδαμῶς (interjection/'by no means') -> 'beslist niet'. MAT already uses 'beslist niet' at 5:20 and 18:3 (both οὐ μή; verified source_text). NB the slight asymmetry vs ACT is acceptable: ACT 28:26 (οὐ μή, Isa.6:9 citation) -> 'zeker niet', ACT 11:8/10:14 (Μηδαμῶς interjection) -> 'beslist niet'. In MAT: 9 of the 10 instances are οὐ μή -> 'zeker niet'; only 2:6 is οὐδαμῶς. MAT 2:6 is adjectival οὐδαμῶς ('by no means the least', Micah citation), not an interjection — rendered 'beslist niet de minste', consistent with the οὐδαμῶς norm. The verse's own kanttekening discusses the word's force, so the body 'geenszins'->'beslist niet' is the only edit. All 'geenszins' instances listed are in BODY text (the kanttekening of 24:34 contains no 'geenszins'; 13:14 has two body οὐ μή, none in note). None excluded; no plain-οὐ ('volstrekt niet') cases among these. These exact verses were on the standing DEFERRED geenszins-list from RG36-003.","evidence":"οὐ μή/οὐδαμῶς","fixes":[
+   {"book":"MAT","chapter":2,"verse":6,"old":"bent geenszins de minste","new":"bent beslist niet de minste","in_kanttekening":false,"lemma":"οὐδαμῶς"},
+   {"book":"MAT","chapter":5,"verse":26,"old":"u zult daar geenszins uit komen","new":"u zult daar zeker niet uit komen","in_kanttekening":false,"lemma":"οὐ μή"},
+   {"book":"MAT","chapter":10,"verse":42,"old":"zijn loon geenszins verliezen","new":"zijn loon zeker niet verliezen","in_kanttekening":false,"lemma":"οὐ μή"},
+   {"book":"MAT","chapter":13,"verse":14,"old":"maar geenszins verstaan","new":"maar zeker niet verstaan","in_kanttekening":false,"lemma":"οὐ μή"},
+   {"book":"MAT","chapter":13,"verse":14,"old":"maar geenszins bemerken","new":"maar zeker niet bemerken","in_kanttekening":false,"lemma":"οὐ μή"},
+   {"book":"MAT","chapter":15,"verse":5,"old":"moeder geenszins zal eren","new":"moeder zeker niet zal eren","in_kanttekening":false,"lemma":"οὐ μή"},
+   {"book":"MAT","chapter":16,"verse":22,"old":"dit zal u geenszins gebeuren","new":"dit zal u zeker niet gebeuren","in_kanttekening":false,"lemma":"οὐ μή"},
+   {"book":"MAT","chapter":24,"verse":34,"old":"geslacht zal geenszins","new":"geslacht zal zeker niet","in_kanttekening":false,"lemma":"οὐ μή"},
+   {"book":"MAT","chapter":24,"verse":35,"old":"woorden zullen geenszins voorbijgaan","new":"woorden zullen zeker niet voorbijgaan","in_kanttekening":false,"lemma":"οὐ μή"},
+   {"book":"MAT","chapter":26,"verse":35,"old":"u geenszins verloochenen","new":"u zeker niet verloochenen","in_kanttekening":false,"lemma":"οὐ μή"}
+ ]}
+]}

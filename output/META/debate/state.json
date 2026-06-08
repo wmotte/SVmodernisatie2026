@@ -1,5 +1,5 @@
 {
-  "rounds_done": 38,
+  "rounds_done": 39,
   "pairs": [
     [
       "REV",
@@ -153,17 +153,21 @@
     [
       "REV",
       "ACT"
+    ],
+    [
+      "REV",
+      "MAT"
     ]
   ],
   "debate_count": {
-    "REV": 13,
+    "REV": 14,
     "JHN": 7,
     "1CO": 2,
     "LUK": 4,
     "ROM": 5,
     "2CO": 1,
     "MRK": 2,
-    "MAT": 4,
+    "MAT": 5,
     "ACT": 4,
     "2JN": 3,
     "3JN": 2,
@@ -212,6 +216,8 @@
     "consistentie|MAT,MRK|gaat heen naar de stad|archaismen.md:78 imperatief-meervoud `-t` → stam; concordantie ὑπάγετε",
     "consistentie|MAT,MRK|maar bidt dat uw vlucht|archaismen.md:78/80 imperatief-meervoud `-t` → stam; concordantie προσεύχεσθε",
     "consistentie|MAT,REV|en alle de engelen stonden rondom de troon|modernisatie.md §2.7 (fossiele sv-constructie); cross-book concordantie (πάντες οἱ → 'alle de')",
+    "consistentie|MAT|dit geslacht zal geenszins voorbijgaan|§false-friend geenszins(οὐ μή)→beslist/zeker niet",
+    "consistentie|MAT|en toen hij wederom voor de tweede maal|§false-friend wederom(πάλιν)→opnieuw",
     "consistentie|PHM,PHP|archippus onze namelijk in die krijg waarvan de|modernisatie.md §2.5 (bijbelverwijzingen genormaliseerd); bijbelverwijzingen.md; refdata/afkortingen.csv (kolossenzen -> ko.)",
     "consistentie|PHM,TIT|allen die met mij zijn groeten u|modernisatie.md §5.3 / §1 (cross-book concordantie); grieks ἀσπάζονται (ἀσπάζομαι)",
     "consistentie|PHP|verblijdt u zich ook en verblijdt u zich|archaismen.md:80 (imperatief-meervoud -t → stam) + congruentiefout; concordantie met χαίρετε elders in php (3:1, 4:4)",
@@ -423,5 +429,5 @@
     "modernisatie|TIT|zowel in kleding als in hun gehele wandel|archaismen.md:29 (zelfst. 'wandel' = levenswijze → levenswandel / leven / gedrag); modernisatie.md §2.7 (verwarringstest)"
   ],
   "open_keys": [],
-  "updated_at": "2026-06-08T12:27:24.732682+00:00"
+  "updated_at": "2026-06-08T12:41:02.590191+00:00"
 }

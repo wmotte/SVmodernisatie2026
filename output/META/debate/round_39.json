@@ -1,0 +1,202 @@
+{
+  "round_no": 39,
+  "books": [
+    "REV",
+    "MAT"
+  ],
+  "red": [
+    {
+      "id": "RG39-001",
+      "class": "consistentie",
+      "books": [
+        "MAT"
+      ],
+      "chapter": 26,
+      "verse": 42,
+      "quote": "En toen hij wederom voor de tweede maal was heengegaan",
+      "in_kanttekening": false,
+      "rule_reference": "§false-friend wederom(πάλιν)→opnieuw",
+      "explanation": "source_text begint met πάλιν. MAT vertaalt πάλιν elders consequent met 'opnieuw' (4:7, 19:24, 20:5, 22:1, 27:50 — alle πάλιν), maar hier (en in 26:43 'vond hij hen wederom slapend', 26:44 'ging wederom heen', 26:72 'loochende het wederom') staat het archaïsche 'wederom'. Interne MAT-inconsistentie; bovendien werd ditzelfde punt in REV al gefixt (RG36-004/005, REV 10:8/10:11).",
+      "proposed_fix": "wederom → opnieuw in MAT 26:42, 26:43, 26:44, 26:72",
+      "severity": "medium"
+    },
+    {
+      "id": "RG39-002",
+      "class": "consistentie",
+      "books": [
+        "MAT"
+      ],
+      "chapter": 24,
+      "verse": 34,
+      "quote": "dit geslacht zal geenszins  voorbijgaan",
+      "in_kanttekening": false,
+      "rule_reference": "§false-friend geenszins(οὐ μή)→beslist/zeker niet",
+      "explanation": "source_text οὐ μὴ παρέλθῃ. MAT rendert de emfatische ontkenning οὐ μή/οὐδαμῶς elders al modern als 'beslist niet' (5:20 'beslist niet zult ingaan', 18:3 'beslist niet ingaan'), maar laat 'geenszins' staan in o.a. 2:6 (οὐδαμῶς), 5:26, 10:42, 13:14 (2x), 15:5, 16:22, 24:34, 24:35, 26:35 — alle οὐ μή/οὐδαμῶς. Interne inconsistentie; in REV al gefixt (RG36-003, REV 3:5).",
+      "proposed_fix": "geenszins → beslist niet (of zeker niet) in MAT 2:6, 5:26, 10:42, 13:14(2x), 15:5, 16:22, 24:34, 24:35, 26:35",
+      "severity": "medium"
+    }
+  ],
+  "green": [
+    {
+      "point_id": "RG39-001",
+      "stance": "concede",
+      "rebuttal": "Conceded per verse. All four are body-text πάλιν that survived as the blacklisted 'wederom' (DREMPEL_ARCHAISMEN); MAT renders πάλιν consistently as 'opnieuw' elsewhere (verified 4:7 Πάλιν, 19:24, 20:5, 22:1, 27:50 — all 'opnieuw'), so 'opnieuw' is the house rendering. These exact four verses (26:42, 26:43, 26:44, 26:72) were explicitly placed on the standing DEFERRED list in RG36-004 (red_wins, nt-wide); this round clears them. Source_text confirmed πάλιν in each. None in a kanttekening.",
+      "evidence": "πάλιν",
+      "fixes": [
+        {
+          "book": "MAT",
+          "chapter": 26,
+          "verse": 42,
+          "old": "hij wederom voor de tweede maal",
+          "new": "hij opnieuw voor de tweede maal",
+          "in_kanttekening": false,
+          "lemma": "πάλιν"
+        },
+        {
+          "book": "MAT",
+          "chapter": 26,
+          "verse": 43,
+          "old": "vond hij hen wederom slapend",
+          "new": "vond hij hen opnieuw slapend",
+          "in_kanttekening": false,
+          "lemma": "πάλιν"
+        },
+        {
+          "book": "MAT",
+          "chapter": 26,
+          "verse": 44,
+          "old": "ging wederom heen",
+          "new": "ging opnieuw heen",
+          "in_kanttekening": false,
+          "lemma": "πάλιν"
+        },
+        {
+          "book": "MAT",
+          "chapter": 26,
+          "verse": 72,
+          "old": "loochende het wederom",
+          "new": "loochende het opnieuw",
+          "in_kanttekening": false,
+          "lemma": "πάλιν"
+        }
+      ]
+    },
+    {
+      "point_id": "RG39-002",
+      "stance": "concede",
+      "rebuttal": "Conceded per verse, with Greek-dependent targets. 'geenszins' is in DREMPEL_ARCHAISMEN with abundant red_wins precedent (RG15-008, RG18-004, RG25-006, RG32-003, RG36-003, RG38-002/003). Target rule (RG38-002/003): οὐ μή (emphatic predicate negation) -> 'zeker niet'; οὐδαμῶς/Μηδαμῶς (interjection/'by no means') -> 'beslist niet'. MAT already uses 'beslist niet' at 5:20 and 18:3 (both οὐ μή; verified source_text). NB the slight asymmetry vs ACT is acceptable: ACT 28:26 (οὐ μή, Isa.6:9 citation) -> 'zeker niet', ACT 11:8/10:14 (Μηδαμῶς interjection) -> 'beslist niet'. In MAT: 9 of the 10 instances are οὐ μή -> 'zeker niet'; only 2:6 is οὐδαμῶς. MAT 2:6 is adjectival οὐδαμῶς ('by no means the least', Micah citation), not an interjection — rendered 'beslist niet de minste', consistent with the οὐδαμῶς norm. The verse's own kanttekening discusses the word's force, so the body 'geenszins'->'beslist niet' is the only edit. All 'geenszins' instances listed are in BODY text (the kanttekening of 24:34 contains no 'geenszins'; 13:14 has two body οὐ μή, none in note). None excluded; no plain-οὐ ('volstrekt niet') cases among these. These exact verses were on the standing DEFERRED geenszins-list from RG36-003.",
+      "evidence": "οὐ μή/οὐδαμῶς",
+      "fixes": [
+        {
+          "book": "MAT",
+          "chapter": 2,
+          "verse": 6,
+          "old": "bent geenszins de minste",
+          "new": "bent beslist niet de minste",
+          "in_kanttekening": false,
+          "lemma": "οὐδαμῶς"
+        },
+        {
+          "book": "MAT",
+          "chapter": 5,
+          "verse": 26,
+          "old": "u zult daar geenszins uit komen",
+          "new": "u zult daar zeker niet uit komen",
+          "in_kanttekening": false,
+          "lemma": "οὐ μή"
+        },
+        {
+          "book": "MAT",
+          "chapter": 10,
+          "verse": 42,
+          "old": "zijn loon geenszins verliezen",
+          "new": "zijn loon zeker niet verliezen",
+          "in_kanttekening": false,
+          "lemma": "οὐ μή"
+        },
+        {
+          "book": "MAT",
+          "chapter": 13,
+          "verse": 14,
+          "old": "maar geenszins verstaan",
+          "new": "maar zeker niet verstaan",
+          "in_kanttekening": false,
+          "lemma": "οὐ μή"
+        },
+        {
+          "book": "MAT",
+          "chapter": 13,
+          "verse": 14,
+          "old": "maar geenszins bemerken",
+          "new": "maar zeker niet bemerken",
+          "in_kanttekening": false,
+          "lemma": "οὐ μή"
+        },
+        {
+          "book": "MAT",
+          "chapter": 15,
+          "verse": 5,
+          "old": "moeder geenszins zal eren",
+          "new": "moeder zeker niet zal eren",
+          "in_kanttekening": false,
+          "lemma": "οὐ μή"
+        },
+        {
+          "book": "MAT",
+          "chapter": 16,
+          "verse": 22,
+          "old": "dit zal u geenszins gebeuren",
+          "new": "dit zal u zeker niet gebeuren",
+          "in_kanttekening": false,
+          "lemma": "οὐ μή"
+        },
+        {
+          "book": "MAT",
+          "chapter": 24,
+          "verse": 34,
+          "old": "geslacht zal geenszins",
+          "new": "geslacht zal zeker niet",
+          "in_kanttekening": false,
+          "lemma": "οὐ μή"
+        },
+        {
+          "book": "MAT",
+          "chapter": 24,
+          "verse": 35,
+          "old": "woorden zullen geenszins voorbijgaan",
+          "new": "woorden zullen zeker niet voorbijgaan",
+          "in_kanttekening": false,
+          "lemma": "οὐ μή"
+        },
+        {
+          "book": "MAT",
+          "chapter": 26,
+          "verse": 35,
+          "old": "u geenszins verloochenen",
+          "new": "u zeker niet verloochenen",
+          "in_kanttekening": false,
+          "lemma": "οὐ μή"
+        }
+      ]
+    }
+  ],
+  "verdicts": [
+    {
+      "point_id": "RG39-001",
+      "verdict": "red_wins",
+      "scope": "nt-wide",
+      "applied": true,
+      "rule_change": false,
+      "rationale": "red_wins. πάλιν→opnieuw. MAT 26:42/43/44/72 + NT-brede sweep van de staande deferred-lijst (RG36-004) afgerond: 29 fixes/26 verzen Grieks-geverifieerd (2CO 1:16, ACT 27:28, GAL 5:1 body, HEB 1:5, HEB 2:13×2, JHN 1:35/3:3/3:7/4:3/4:46/4:54, MRK 2:1/2:13/3:1/10:1×2/10:32 body/11:27/14:39/14:40/14:69/14:70×2, ROM 8:15/15:10/15:11/15:12). Body NT-breed nu 0 'wederom'. Note-only residu (32 verzen, annotator-Nederlands zonder πάλιν-grond) bewust behouden — geen concordantie-issue. Zie sweep_39.json."
+    },
+    {
+      "point_id": "RG39-002",
+      "verdict": "red_wins",
+      "scope": "nt-wide",
+      "applied": true,
+      "rule_change": false,
+      "rationale": "red_wins. geenszins Grieks-afhankelijk: οὐ μή→'zeker niet', οὐδαμῶς→'beslist niet', plain οὐ→'volstrekt niet'. MAT 2:6 (οὐδαμῶς)/5:26/10:42/13:14×2/15:5/16:22/24:34/24:35/26:35 + NT-brede sweep van staande deferred-lijst (RG36-003/RG25) afgerond: 1CO 16:12 (plain οὐ→volstrekt niet), 1TH 5:3, LUK 12:59/21:32/21:33, MRK 9:41/13:31/14:31 (alle οὐ μή→zeker niet). Body NT-breed nu 0 'geenszins'. Note-only residu (4: 2CO 7:9, MAT 2:6-noot, GAL 1:10, GAL 3:21) behouden. Zie sweep_39.json."
+    }
+  ],
+  "arbiter_recommendation": "Do the full NT-wide Greek-aware sweep of wederom (26 verses/7 books) + geenszins (8 verses/4 books) NOW to finally close these recurring deferred items: the remaining set is small (34 verses) and each verse's source_text is already in the output JSON, so a per-verse lemma-checked pass (πάλιν→opnieuw; οὐ μή→zeker niet, οὐδαμῶς/Μηδαμῶς→beslist niet, plain-οὐ→volstrekt niet) is cheap — but a blind find-replace is FORBIDDEN."
+}
