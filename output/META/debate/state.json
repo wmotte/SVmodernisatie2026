@@ -1,5 +1,5 @@
 {
-  "rounds_done": 20,
+  "rounds_done": 21,
   "pairs": [
     [
       "REV",
@@ -81,6 +81,10 @@
     [
       "1TH",
       "2TH"
+    ],
+    [
+      "1TI",
+      "2TI"
     ]
   ],
   "debate_count": {
@@ -102,11 +106,14 @@
     "1PE": 1,
     "JAS": 1,
     "1TH": 1,
-    "2TH": 1
+    "2TH": 1,
+    "1TI": 1,
+    "2TI": 1
   },
   "closed_keys": [
     "consistentie|1JN,2PE|geliefde gelooft niet beproeft de geesten|modernisatie.md §2.3; concordantie grieks `ἀγαπητοί`",
     "consistentie|1TH,2TH|1th 5 14 hen die ordeloos leven tegenover|agents.md concordantie; modernisatie.md §5.3 concordantie",
+    "consistentie|1TI,2TI|geduld namelijk zowel tegenover de vijanden als tegenover|agents.md / project-richtlijn concordantie: gelijk grieks lemma → gelijke weergave tenzij contextueel gerechtvaardigd",
     "consistentie|2CO,ROM|om de aanleiding af te snijden voor hen|concordantie cross-book (grieks aphorme)",
     "consistentie|2JN,3JN|2jn 1 12 mond tot mond met u|modernisatie.md §5.3 concordantie; source_text in beide brieven: `στόμα πρὸς στόμα`",
     "consistentie|ACT,JHN|een grote menigte van kranken|agents.md concordantie; modernisatie.md §2.7; grieks: ασθενουντων",
@@ -139,6 +146,8 @@
     "modernisatie|1PE|zo verblijdt u|archaismen.md: imperatief-meervoud op `-t` -> stam; modernisatie.md §2.7",
     "modernisatie|1TH|grieks hebzuchtig zij wat betekent iemand uit gierigheid|modernisatie.md §2.3; kanttekeningen.md: geen sv-participia in kanttekeningen; modernisatie.md §2.7",
     "modernisatie|1TH|uw geheel oprechte geest en ziel en lichaam|modernisatie.md §2.1 / §2.7; archaismen.md spelling- en vormnormalisatie",
+    "modernisatie|1TI|en dat hij als mens ook ons zoals|modernisatie.md §2.3 (modern, grammaticaal correct nederlands); agents.md: source_text-trouw, geen betekenisverlies",
+    "modernisatie|1TI|uzelf behouden als degenen die u horen|agents.md: geen betekenisverlies; modernisatie.md §2.3 (idiomatisch modern nederlands)",
     "modernisatie|2CO|dat ons woord hetwelk tot u gekomen is|rules_data.py:340 archaisme-blacklist (hetwelk); drempel-archaisme relativum",
     "modernisatie|2JN|niet als een nieuw gebod aan u schrijvend|modernisatie.md §2.3; scripts/rules_data.py participle_bad_end_stems (`schrijvend`)",
     "modernisatie|2JN|om u te leren en te onderwijzen dat|archaismen.md false friends: `leren` / `leerde` als transitief didactisch werkwoord",
@@ -253,5 +262,5 @@
     "modernisatie|ROM|weest vrolijk u heidenen met zijn volk|archaismen.md:78 imperatief-meervoud sv-`-t` -> stam"
   ],
   "open_keys": [],
-  "updated_at": "2026-06-08T05:46:39.149473+00:00"
+  "updated_at": "2026-06-08T06:11:29.954600+00:00"
 }

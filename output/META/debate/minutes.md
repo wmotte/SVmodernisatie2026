@@ -501,3 +501,15 @@ Red bracht 10 punt(en). Verdicts: red_wins=10, green_wins=0, rule_change=0.
 - **[RG20-010] (consistentie)** 1Th. 5:14 `hen die ordeloos leven` tegenover 2Th. 3:6,11 `ongeregeld wandelt/wandelen`
   - regel: AGENTS.md concordantie; MODERNISATIE.md §5.3 concordantie; fix: Harmoniseer 1Th. 5:14 naar `vermaan hen die ongeregeld wandelen` of kies NT-breed één rendering voor `atakto-`.
   - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert het concordantiepunt. De exacte fix kan versspecifiek worden gekozen, maar `ordeloos leven` verbreekt zonder noodzaak de Thessalonicenzen-concordantie met het ἀτακτ-woordveld.
+
+## Ronde 21 — 1TI + 2TI  (2026-06-08T06:11:29.954988+00:00)
+Red bracht 3 punt(en). Verdicts: red_wins=3, green_wins=0, rule_change=0.
+- **[RG21-001] (modernisatie)** en dat hij als mens ook ons zoals is
+  - regel: MODERNISATIE.md §2.3 (modern, grammaticaal correct Nederlands); AGENTS.md: source_text-trouw, geen betekenisverlies; fix: en dat hij als mens ook gelijk aan ons is
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert. De kanttekening bij 1TI 2:5 leest in de bron 'ende dat hy als een mensche ons oock gelijck is'; de modernisatie heeft 'gelijck' verkeerd vervangen door 'zoals', wat 'en dat hij als m
+- **[RG21-002] (consistentie)** geduld, <Namelijk, zowel tegenover de vijanden als tegenover de vrienden betoond.> liefde,
+  - regel: AGENTS.md / project-richtlijn concordantie: gelijk Grieks lemma → gelijke weergave tenzij contextueel gerechtvaardigd; fix: lankmoedigheid, <Namelijk, zowel tegenover de vijanden als tegenover de vrienden betoond.> liefde,
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert. Drie keer hetzelfde lemma μακροθυμία / dezelfde SV-vorm 'lanckmoedigheyt', twee keer 'lankmoedigheid' en één keer 'geduld'. Geverifieerd: 1TI 1:16 (τὴν πᾶσαν μακροθυμίαν; SV 'lanckmo
+- **[RG21-003] (modernisatie)** uzelf behouden als degenen die u horen.
+  - regel: AGENTS.md: geen betekenisverlies; MODERNISATIE.md §2.3 (idiomatisch modern Nederlands); fix: zowel uzelf behouden als hen die u horen.
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert. De bron 1TI 4:16 (καὶ σεαυτὸν σώσεις καὶ τοὺς ἀκούοντάς σου; SV 'sult ghy ende u selven behouden, ende die u hooren') heeft een dubbel lijdend voorwerp van 'behouden' via καί...καί. 

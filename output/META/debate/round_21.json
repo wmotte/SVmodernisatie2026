@@ -1,0 +1,98 @@
+{
+  "round_no": 21,
+  "books": [
+    "1TI",
+    "2TI"
+  ],
+  "red": [
+    {
+      "id": "RG21-001",
+      "class": "modernisatie",
+      "books": [
+        "1TI"
+      ],
+      "chapter": 2,
+      "verse": 5,
+      "quote": "en dat hij als mens ook ons zoals is",
+      "in_kanttekening": true,
+      "rule_reference": "MODERNISATIE.md §2.3 (modern, grammaticaal correct Nederlands); AGENTS.md: source_text-trouw, geen betekenisverlies",
+      "explanation": "Onomzetbaar, grammaticaal kapot Nederlands. SV1657 leest 'ende dat hy als een mensche ons oock gelijck is' (= dat hij als mens ook aan ons gelijk is / op ons lijkt). In de modernisatie is het kernwoord 'gelijk' verdwenen en blijft 'ons zoals is' staan, wat geen zin oplevert; de betekenis (Christus is de mensen gelijk in zijn menselijke natuur) gaat verloren. Dit staat in de kanttekening bij 'de mens Christus Jezus', het hart van het Middelaars-argument.",
+      "proposed_fix": "en dat hij als mens ook gelijk aan ons is",
+      "severity": "hard"
+    },
+    {
+      "id": "RG21-002",
+      "class": "consistentie",
+      "books": [
+        "1TI",
+        "2TI"
+      ],
+      "chapter": 3,
+      "verse": 10,
+      "quote": "geduld, <Namelijk, zowel tegenover de vijanden als tegenover de vrienden betoond.> liefde,",
+      "in_kanttekening": false,
+      "rule_reference": "AGENTS.md / project-richtlijn concordantie: gelijk Grieks lemma → gelijke weergave tenzij contextueel gerechtvaardigd",
+      "explanation": "Het Griekse zelfstandig naamwoord μακροθυμία (SV consequent 'lanckmoedigheyt') wordt binnen hetzelfde corpus inconsistent weergegeven: 1TI 1:16 (μακροθυμίαν) → 'lankmoedigheid', 2TI 4:2 (μακροθυμίᾳ) → 'lankmoedigheid', maar 2TI 3:10 (μακροθυμίᾳ) → 'geduld'. Zelfs binnen 2TI staan 'geduld' (3:10) en 'lankmoedigheid' (4:2) naast elkaar voor exact hetzelfde lemma, zonder contextverschil. De deugdenlijst van 3:10 (geloof, μακροθυμία, liefde) spiegelt 1TI 6:11 / 2TI 4:2; harmoniseer naar de meerderheidspool 'lankmoedigheid'.",
+      "proposed_fix": "lankmoedigheid, <Namelijk, zowel tegenover de vijanden als tegenover de vrienden betoond.> liefde,",
+      "severity": "soft"
+    },
+    {
+      "id": "RG21-003",
+      "class": "modernisatie",
+      "books": [
+        "1TI"
+      ],
+      "chapter": 4,
+      "verse": 16,
+      "quote": "uzelf behouden als degenen die u horen.",
+      "in_kanttekening": false,
+      "rule_reference": "AGENTS.md: geen betekenisverlies; MODERNISATIE.md §2.3 (idiomatisch modern Nederlands)",
+      "explanation": "Het Grieks (καὶ σεαυτὸν σώσεις καὶ τοὺς ἀκούοντάς σου) en de SV ('sult ghy ende u selven behouden, ende die u hooren') drukken een dubbele behouding uit: én uzelf én uw toehoorders. De modernisatie opent met 'zult u zowel ...' maar het correlerende 'als ook hen die u horen' is gereduceerd tot 'als degenen die u horen', wat in modern Nederlands als vergelijking gelezen wordt ('uzelf behouden zoals/in dezelfde mate als zij die u horen') in plaats van een tweede object ('en ook hen'). Het 'ook'/'en' van het tweede behoudensobject is verloren; de zin betekent nu iets anders dan de bron.",
+      "proposed_fix": "zowel uzelf behouden als hen die u horen.",
+      "severity": "soft"
+    }
+  ],
+  "green": [
+    {
+      "point_id": "RG21-001",
+      "stance": "concede",
+      "rebuttal": "Concede. De kanttekening bij 1TI 2:5 leest in de bron 'ende dat hy als een mensche ons oock gelijck is'; de modernisatie heeft 'gelijck' verkeerd vervangen door 'zoals', wat 'en dat hij als mens ook ons zoals is' oplevert: ongrammaticaal en betekenisloos. De juiste moderne vorm is 'aan ons gelijk is' (of 'op ons lijkt'). Dit is precies hetzelfde 'gelijck'->'zoals'-defect dat in ronde 20 (RG20-006: 'hem gelijck mogen worden' -> foutief 'hem zoals mogen worden') als red_wins is beslecht; de fout zit hier midden in het Middelaars-argument bij 'de mens Christus Jezus', dus het betekenisverlies is inhoudelijk gewichtig.",
+      "evidence": "1TI 2:5 source_text kanttekening: 'dat hy als een mensche ons oock gelijck is'; modernized: 'dat hij als mens ook ons zoals is'; precedent RG20-006 (gelijck->zoals = red_wins); MODERNISATIE.md §2.3 grammaticaal correct Nederlands."
+    },
+    {
+      "point_id": "RG21-002",
+      "stance": "concede",
+      "rebuttal": "Concede. Drie keer hetzelfde lemma μακροθυμία / dezelfde SV-vorm 'lanckmoedigheyt', twee keer 'lankmoedigheid' en één keer 'geduld'. Geverifieerd: 1TI 1:16 (τὴν πᾶσαν μακροθυμίαν; SV 'lanckmoedigheyt') -> 'lankmoedigheid'; 2TI 4:2 (ἐν πάσῃ μακροθυμίᾳ; SV 'in alle lanckmoedigheyt') -> 'in alle lankmoedigheid'; 2TI 3:10 (τῇ μακροθυμίᾳ; SV 'lanckmoedigheyt') -> afwijkend 'geduld'. (NB: de 'geduld(ig)' in 2TI 4:2 zit alleen in een kanttekening die 'verdragende geduldelick' glost; de hoofdtekst-μακροθυμία daar is wel 'lankmoedigheid', zoals red zelf voorstelt.) De deugdenlijst 2TI 3:10 (πίστις, μακροθυμία, ἀγάπη = geloof, ..., liefde) is identiek van aard aan 2TI 4:2; geen contextverschil rechtvaardigt de afwijking. Harmoniseer 2TI 3:10 naar de meerderheidspool 'lankmoedigheid'.",
+      "evidence": "1TI 1:16 μακροθυμίαν->lankmoedigheid; 2TI 4:2 μακροθυμίᾳ->lankmoedigheid; 2TI 3:10 μακροθυμίᾳ + SV 'lanckmoedigheyt' -> 'geduld'; AGENTS.md / MODERNISATIE.md concordantie: gelijk lemma -> gelijke weergave tenzij contextueel gerechtvaardigd."
+    },
+    {
+      "point_id": "RG21-003",
+      "stance": "concede",
+      "rebuttal": "Concede. De bron 1TI 4:16 (καὶ σεαυτὸν σώσεις καὶ τοὺς ἀκούοντάς σου; SV 'sult ghy ende u selven behouden, ende die u hooren') heeft een dubbel lijdend voorwerp van 'behouden' via καί...καί. De modernisatie 'zult u zowel uzelf behouden als degenen die u horen' is grammaticaal kwetsbaar: doordat 'behouden' midden in de 'zowel...als'-constructie staat en het tweede lid met 'degenen' (geen ondubbelzinnig objectspronomen) opent, kan de lezer 'als degenen die u horen' als vergelijking ('net zoals zij die u horen') in plaats van als tweede object lezen. Red's fix met 'hen die u horen' dwingt de objectlezing af en herstelt het tweede behoudensobject; dit is een reële verbetering, geen stilistische voorkeur.",
+      "evidence": "1TI 4:16 Grieks καὶ σεαυτὸν σώσεις καὶ τοὺς ἀκούοντάς σου; SV 'ende u selven behouden, ende die u hooren'; 'degenen' (ambigu subject/object) vs 'hen' (eenduidig object); MODERNISATIE.md §2.3 / AGENTS.md geen betekenisverlies."
+    }
+  ],
+  "verdicts": [
+    {
+      "point_id": "RG21-001",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. De kanttekening bij 1TI 2:5 leest in de bron 'ende dat hy als een mensche ons oock gelijck is'; de modernisatie heeft 'gelijck' verkeerd vervangen door 'zoals', wat 'en dat hij als mens ook ons zoals is' oplevert: ongrammaticaal en betekeni",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG21-002",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. Drie keer hetzelfde lemma μακροθυμία / dezelfde SV-vorm 'lanckmoedigheyt', twee keer 'lankmoedigheid' en één keer 'geduld'. Geverifieerd: 1TI 1:16 (τὴν πᾶσαν μακροθυμίαν; SV 'lanckmoedigheyt') -> 'lankmoedigheid'; 2TI 4:2 (ἐν πάσῃ μακροθυμί",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG21-003",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. De bron 1TI 4:16 (καὶ σεαυτὸν σώσεις καὶ τοὺς ἀκούοντάς σου; SV 'sult ghy ende u selven behouden, ende die u hooren') heeft een dubbel lijdend voorwerp van 'behouden' via καί...καί. De modernisatie 'zult u zowel uzelf behouden als degenen d",
+      "scope": "verse",
+      "applied": true
+    }
+  ]
+}
