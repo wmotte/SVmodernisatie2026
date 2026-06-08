@@ -90,6 +90,12 @@ ARCHAISM_BLACKLIST = [
     # archaïsch), dus exacte sequentie → geen false positive. Red-green ronde 9
     # RG9-009 (MRK 8:34/8:35/8:38, LUK 17:33). HARD, nt-wide.
     r"\bzo\s+wie\b",
+    # Onzijdige tegenhanger 'zo wat' (Gr. ὃ ἐάν + correlatief). Zelfde
+    # drempel-archaïsme als 'zo wie'; modern NL = 'wat ... ook'. NT-brede grep:
+    # enige treffer 1JN 3:22 (gefixt), nergens anders → geen false positive.
+    # Red-green ronde 26 RG26-004 (intern inconsistent met 1JN 5:15 'wat wij
+    # ook bidden', zelfde Grieks). HARD, nt-wide.
+    r"\bzo\s+wat\b",
 ]
 
 # Allowlist als (artikel, zn)-paar in lowercase.
@@ -421,6 +427,13 @@ IMPERATIVE_T_STEMS: frozenset[str] = frozenset({
     # Red-green ronde 10 RG10-004 (MAT 26:27 'Drinkt allen daaruit', bronvorm
     # Πίετε aor. imp. 2pl van πίνω). 'drink' ontbrak; nt-wide.
     "drink",
+    # Red-green ronde 26 RG26-001 (2JN 1:10 'ontvangt hem niet in huis',
+    # bronvorm μὴ λαμβάνετε pres. imp. 2pl van λαμβάνω). NT-brede grep: enige
+    # imperatief-treffer was 2JN 1:10 (gefixt); geen collisie met 3ev/2mv-presens.
+    # NB: 'zeg' bewust NIET toegevoegd — 'zegt' botst met narratief 'zegt hij'
+    # (zie MEMORY 'Adversarial-scanner mist imperatief-t'); per-vers via
+    # semantic-review + grep i.p.v. scanner-lijst.
+    "ontvang",
 })
 IMPERATIVE_OBJECT_TOKENS: frozenset[str] = frozenset({
     "uzelf", "zich", "zichzelf", "hen", "hem", "haar", "ons", "elkaar",

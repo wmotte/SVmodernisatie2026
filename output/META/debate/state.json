@@ -1,5 +1,5 @@
 {
-  "rounds_done": 25,
+  "rounds_done": 26,
   "pairs": [
     [
       "REV",
@@ -101,6 +101,10 @@
     [
       "JHN",
       "1JN"
+    ],
+    [
+      "1JN",
+      "2JN"
     ]
   ],
   "debate_count": {
@@ -113,11 +117,11 @@
     "MRK": 1,
     "MAT": 3,
     "ACT": 1,
-    "2JN": 1,
+    "2JN": 2,
     "3JN": 1,
     "PHM": 1,
     "JUD": 1,
-    "1JN": 2,
+    "1JN": 3,
     "2PE": 1,
     "1PE": 1,
     "JAS": 1,
@@ -169,6 +173,7 @@
     "modernisatie|1JN|in uw harten al ontstoken is|archaismen.md:143 (false friends: ontsteken/ontstoken figuurlijk-emotioneel)",
     "modernisatie|1JN|om alzo de wortel ervan uit te trekken|modernisatie.md §2.7; kanttekeningen.md",
     "modernisatie|1JN|placht ontstoken te worden in het hart|archaismen.md:143 (false friends: ontsteken/ontstoken figuurlijk-emotioneel)",
+    "modernisatie|1JN|zo wat wij bidden|archaismen.md (`zo wie … die` → `wie … die`, sv-correlatief drempel-archaïsme dat de renovatie overleefde, rg9-009); modernisatie.md §2.7",
     "modernisatie|1PE|vernedert u dan onder de krachtige hand gods|archaismen.md: imperatief-meervoud op `-t` -> stam; modernisatie.md §2.7 constructie-test",
     "modernisatie|1PE|vreest niet uit vrees voor hen en wordt|archaismen.md: imperatief-meervoud op `-t` -> stam; modernisatie.md §2.7",
     "modernisatie|1PE|wapent ook u zich met dezelfde gedachte|archaismen.md: imperatief-meervoud op `-t` -> stam; modernisatie.md §2.7",
@@ -182,7 +187,10 @@
     "modernisatie|2CO|dat ons woord hetwelk tot u gekomen is|rules_data.py:340 archaisme-blacklist (hetwelk); drempel-archaisme relativum",
     "modernisatie|2JN|niet als een nieuw gebod aan u schrijvend|modernisatie.md §2.3; scripts/rules_data.py participle_bad_end_stems (`schrijvend`)",
     "modernisatie|2JN|om u te leren en te onderwijzen dat|archaismen.md false friends: `leren` / `leerde` als transitief didactisch werkwoord",
+    "modernisatie|2JN|ontvangt hem niet in huis|archaismen.md:80 (imperatief-meervoud op `-t` → gebruik de stam); precedent rg22-001 (wandelt), rg23-001 (gal 5:16), rg24-001 (heb 3:8) — alle red_wins",
+    "modernisatie|2JN|zegt tot hem niet|archaismen.md:80 (imperatief-meervoud op `-t` → gebruik de stam); precedent rg22-001/rg23-001/rg24-001 (red_wins)",
     "modernisatie|2JN|ziet toe voor uzelf|archaismen.md imperatief-meervoud op `-t`; archaismen.md `(hoort|ziet|zie) toe`",
+    "modernisatie|2JN|zijt gegroet|archaismen.md:80 (imperatief op `-t` → stam: weest → wees); archaismen.md drempel §2.7 (productiviteitstest)",
     "modernisatie|2PE|8 lerend dat zij dan werkelijk vruchtbaar zullen|modernisatie.md §2.3; intro_epiloog.md",
     "modernisatie|2PE|de aarde in het water bestaande|modernisatie.md §2.3",
     "modernisatie|2PE|de besmettingen van de wereld ontvloden zijn|modernisatie.md §2.7",
@@ -303,5 +311,5 @@
     "modernisatie|TIT|de zendbrief aan titus de eerste verkoren grieks|kanttekeningen.md:8 ('<…> blokken bewaren — nooit verwijderen, nooit samenvoegen'); agents.md §1 'renovatie, geen hervertaling' / leesbaar modern nederlands"
   ],
   "open_keys": [],
-  "updated_at": "2026-06-08T08:17:15.463696+00:00"
+  "updated_at": "2026-06-08T08:30:00.629187+00:00"
 }

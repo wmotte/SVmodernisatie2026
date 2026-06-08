@@ -1,0 +1,142 @@
+{
+  "round_no": 26,
+  "books": [
+    "1JN",
+    "2JN"
+  ],
+  "red": [
+    {
+      "id": "RG26-001",
+      "class": "modernisatie",
+      "books": [
+        "2JN"
+      ],
+      "chapter": 1,
+      "verse": 10,
+      "quote": "ontvangt hem niet in huis",
+      "in_kanttekening": false,
+      "rule_reference": "ARCHAISMEN.md:80 (imperatief-meervoud op `-t` → gebruik de stam); precedent RG22-001 (Wandelt), RG23-001 (GAL 5:16), RG24-001 (HEB 3:8) — alle red_wins",
+      "explanation": "Gr. μὴ λαμβάνετε αὐτὸν εἰς οἰκίαν is een negatieve gebiedende wijs meervoud (praesens imperativus 2pl, gericht tot de gemeente/Vrouw). De SV-vorm `ontfanght` is ongemoderniseerd als `-t`-imperatief blijven staan. Stam-regel is ondubbelzinnig en NT-breed afgedwongen.",
+      "proposed_fix": "ontvang hem niet in huis",
+      "severity": "hard"
+    },
+    {
+      "id": "RG26-002",
+      "class": "modernisatie",
+      "books": [
+        "2JN"
+      ],
+      "chapter": 1,
+      "verse": 10,
+      "quote": "zegt tot hem niet",
+      "in_kanttekening": false,
+      "rule_reference": "ARCHAISMEN.md:80 (imperatief-meervoud op `-t` → gebruik de stam); precedent RG22-001/RG23-001/RG24-001 (red_wins)",
+      "explanation": "Gr. χαίρειν αὐτῷ μὴ λέγετε — λέγετε is praesens imperativus 2pl (negatief). De modernisatie behield `zegt` als `-t`-vorm; concordantie harmoniseert náár de stam: `zeg`. Identiek patroon als RG26-001 in hetzelfde vers.",
+      "proposed_fix": "zeg tot hem niet",
+      "severity": "hard"
+    },
+    {
+      "id": "RG26-003",
+      "class": "modernisatie",
+      "books": [
+        "2JN"
+      ],
+      "chapter": 1,
+      "verse": 11,
+      "quote": "Zijt gegroet",
+      "in_kanttekening": false,
+      "rule_reference": "ARCHAISMEN.md:80 (imperatief op `-t` → stam: weest → wees); ARCHAISMEN.md drempel §2.7 (productiviteitstest)",
+      "explanation": "`Zijt` is de archaïsche 2e-persoons-imperatief/copula van `zijn` en faalt onmiskenbaar de productiviteitstest — geen lezer schrijft `Zijt` in 2026. De groetformule (Gr. χαίρειν) blijft als formule behouden, maar de verbvorm moderniseert: `Wees gegroet` (vaste moderne formule). Komt 2× in v10-v11 voor (hoofdtekst); de glosse <Grieks: chairein, dat is, blijde zijn.> bevestigt het werkwoordkarakter.",
+      "proposed_fix": "Wees gegroet",
+      "severity": "hard"
+    },
+    {
+      "id": "RG26-004",
+      "class": "modernisatie",
+      "books": [
+        "1JN"
+      ],
+      "chapter": 3,
+      "verse": 22,
+      "quote": "zo wat wij bidden",
+      "in_kanttekening": false,
+      "rule_reference": "ARCHAISMEN.md (`zo wie … die` → `wie … die`, SV-correlatief drempel-archaïsme dat de renovatie overleefde, RG9-009); MODERNISATIE.md §2.7",
+      "explanation": "Gr. ὃ ἐὰν αἰτῶμεν = 'wat wij ook bidden / al wat wij bidden'. `zo wat` is de neutrum-tegenhanger van het SV-correlatief `zo wie`, dat als adjacent-cluster nooit in modern proza voorkomt en HARD geldt. Bovendien interne inconsistentie binnen hetzelfde boek: 1JN 5:15 rendert dezelfde constructie wél modern als `wat wij ook bidden`.",
+      "proposed_fix": "wat wij ook bidden",
+      "severity": "hard"
+    }
+  ],
+  "green": [
+    {
+      "point_id": "RG26-001",
+      "stance": "concede",
+      "rebuttal": "Geen substantieve weerlegging mogelijk. Brontekst is ondubbelzinnig μὴ λαμβάνετε αὐτὸν εἰς οἰκίαν — λαμβάνετε is praesens imperativus 2pl (negatief), niet 3ev-presens of indicatief. SV `ontfanght` is dus een echte -t-imperatief en moet náár de stam: `ontvang`. Object `hem` volgt, exact het anker-patroon. De scanner ving het niet omdat `ontvang` ontbreekt in IMPERATIVE_T_STEMS, maar de regel (ARCHAISMEN.md:80) en precedenten RG22-001/RG23-001/RG24-001 (alle red_wins) zijn dwingend.",
+      "evidence": "λαμβάνετε (praes. imp. 2pl) + ARCHAISMEN.md:80 imperatief-meervoud-t → stam"
+    },
+    {
+      "point_id": "RG26-002",
+      "stance": "concede",
+      "rebuttal": "Geen weerlegging. χαίρειν αὐτῷ μὴ λέγετε — λέγετε is praesens imperativus 2pl (negatief). `zegt` is een ongemoderniseerde -t-imperatief; concordantie harmoniseert náár de stam `zeg`, nooit náár SV-`-t` (ARCHAISMEN.md:80, imperatief-meervoud-richtlijn in MEMORY). Identiek patroon als RG26-001, zelfde vers.",
+      "evidence": "λέγετε (praes. imp. 2pl) + ARCHAISMEN.md:80 stam-regel"
+    },
+    {
+      "point_id": "RG26-003",
+      "stance": "concede",
+      "rebuttal": "Geen weerlegging. De groetformule (Gr. χαίρειν = `blijde zijn`, zoals de eigen glosse bevestigt) wordt terecht als groet-formule behouden, maar de NL-verbvorm `Zijt` is de archaïsche 2e-pers-imperatief/copula van `zijn` en faalt de productiviteitstest §2.7 — geen lezer schrijft `Zijt` in 2026. De vaste moderne formule is `Wees gegroet` (vgl. `weest` → `wees`, ARCHAISMEN.md:80). Komt 2× voor (v10 hoofdtekst + v11 hoofdtekst); beide moeten náár `Wees gegroet`.",
+      "evidence": "χαίρειn-formule behouden + `Zijt`→`Wees` (copula-imperatief weest→wees, §2.7)"
+    },
+    {
+      "point_id": "RG26-004",
+      "stance": "concede",
+      "rebuttal": "Geen weerlegging. `zo wat` is de neutrum-tegenhanger van het SV-correlatief `zo wie ... die` (Gr. ὃ ἐὰν), dat HARD in ARCHAISM_BLACKLIST staat (`\\bzo\\s+wie\\b`, ARCHAISMEN.md:45); het adjacente correlatief-`zo` komt nooit in modern proza voor. Bovendien decisief: binnen hetzelfde boek rendert 1JN 5:15 de identieke Griekse constructie ὃ ἐὰν αἰτῶμεν wél modern als `wat wij ook bidden`. Interne inconsistentie + drempel-archaïsme. Fix: `wat wij ook bidden`.",
+      "evidence": "ὃ ἐὰν αἰτῶμεn (id. aan 1JN 5:15) + correlatief-`zo` HARD (ARCHAISMEN.md:45)"
+    }
+  ],
+  "verdicts": [
+    {
+      "point_id": "RG26-001",
+      "verdict": "rule_change",
+      "rationale": "Green concedeert; brontekst μὴ λαμβάνετε (praes. imp. 2pl) is ondubbelzinnig en de stam-regel (ARCHAISMEN.md:80) + precedenten RG22/23/24 zijn dwingend. De imperatief-`-t`->stam-regel is echter al lang gevestigd; het concrete probleem is dat scan_archaic_imperative_t de vorm NIET vangt omdat de stam 'ontvang' ONTBREEKT in IMPERATIVE_T_STEMS (scripts/rules_data.py:417). NT-brede afdwinging vereist het toevoegen van de data-entry, exact zoals RG10-004 'drink' toevoegde. Voeg 'ontvang' toe aan IMPERATIVE_T_STEMS; pas verstekst aan naar 'ontvang hem niet in huis'.",
+      "scope": "nt-wide",
+      "applied": true
+    },
+    {
+      "point_id": "RG26-002",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert; λέγετε (praes. imp. 2pl negatief) -> stam 'zeg' (ARCHAISMEN.md:80). Zelfde structurele scanner-gap als RG26-001: de stam 'zeg' ontbreekt in IMPERATIVE_T_STEMS, dus scan_archaic_imperative_t vangt 'zegt + object' nergens NT-breed. Voeg 'zeg' toe aan IMPERATIVE_T_STEMS (scripts/rules_data.py:417); pas verstekst aan naar 'zeg tot hem niet'. [ARBITER-OVERRIDE bij apply: 'zeg' NIET aan IMPERATIVE_T_STEMS toegevoegd — 'zegt' botst met narratief 'zegt hij' (NT-grep: HAND 20:23, JOHA 4:35/7:42/8:52/10:36/18:34 = indicatief/vraag). Per MEMORY 'Adversarial-scanner mist imperatief-t' per-vers via semantic-review. Content-fix 2JN 1:10 toegepast; geen rule_change.]",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG26-003",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert volledig; 'Zijt' is de archaïsche copula-imperatief van 'zijn' en faalt de productiviteitstest §2.7 -- moderne vaste formule is 'Wees gegroet'. Onregelmatige vorm (niet stam+`-t`, geen IMPERATIVE_T_STEMS-kandidaat) en betreft een vaste groetformule; geen list-uitbreidbare structurele gap, dus per-vers content-fix. Pas v10/v11 hoofdtekst aan naar 'Wees gegroet'.",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG26-004",
+      "verdict": "rule_change",
+      "rationale": "Green concedeert; 'zo wat' is de neutrum-tegenhanger van het reeds geblacklistte SV-correlatief 'zo wie' (Gr. ὃ ἐάν). Dezelfde structurele grond -- adjacent correlatief-zo + betrekkelijk vnw. komt nooit in modern proza voor -- geldt, maar ARCHAISM_BLACKLIST bevat alleen r'\\bzo\\s+wie\\b' (scripts/rules_data.py:92), niet 'zo wat'; de scanner mist het dus NT-breed. Interne inconsistentie (1JN 5:15 rendert dezelfde Griekse constructie wel modern) bevestigt. Voeg r'\\bzo\\s+wat\\b' toe aan ARCHAISM_BLACKLIST (scripts/rules_data.py, naast r'\\bzo\\s+wie\\b'); houd ARCHAISMEN.md:45 synchroon; pas 1JN 3:22 aan naar 'wat wij ook bidden'.",
+      "scope": "nt-wide",
+      "applied": true
+    }
+  ],
+  "deferred_nt_sweep": {
+    "note": "Imperatief 'zegt'→'zeg' kan NIET via scanner-lijst (botst met narratief 'zegt hij'). Genuine imperatief-treffers buiten ronde-paar, te verifiëren+fixen in dedicated sweep (geen silent cap); indicatieven uitgesloten:",
+    "zegt_imperatief_candidates": [
+      "LUK 10:9",
+      "LUK 20:3",
+      "MAT 26:18"
+    ],
+    "zegt_indicatief_skip": [
+      "HAND 20:23",
+      "LUK 15:6",
+      "JHN 4:35",
+      "JHN 7:42",
+      "JHN 8:52",
+      "JHN 10:36",
+      "JHN 18:34"
+    ]
+  }
+}

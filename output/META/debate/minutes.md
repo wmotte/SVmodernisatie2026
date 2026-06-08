@@ -582,3 +582,18 @@ Red bracht 7 punt(en). Verdicts: red_wins=7, green_wins=0, rule_change=0.
 - **[RG25-007] (modernisatie)** de grootsheid des levens
   - regel: MODERNISATIE.md §2.3c (gefossiliseerde genitief blijft, overige genitieven ontvouwen); fix: 'de grootsheid van het leven' (of, false-friend 'grootsheid' overwegend, 'de hoogmoed van het leven').
   - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert. 1JN 2:16 ἡ ἀλαζονεία τοῦ βίου ('grootsheid des levens'): losse possessief-genitief zonder formule-status, géén gefossiliseerde formule per §2.3c. FOSSIL_GENITIVE_PAIRS ('des','levens
+
+## Ronde 26 — 1JN + 2JN  (2026-06-08T08:30:00.629552+00:00)
+Red bracht 4 punt(en). Verdicts: red_wins=2, green_wins=0, rule_change=2.
+- **[RG26-001] (modernisatie)** ontvangt hem niet in huis
+  - regel: ARCHAISMEN.md:80 (imperatief-meervoud op `-t` → gebruik de stam); precedent RG22-001 (Wandelt), RG23-001 (GAL 5:16), RG24-001 (HEB 3:8) — alle red_wins; fix: ontvang hem niet in huis
+  - verdict: **rule_change** (scope=nt-wide, applied=True) — Green concedeert; brontekst μὴ λαμβάνετε (praes. imp. 2pl) is ondubbelzinnig en de stam-regel (ARCHAISMEN.md:80) + precedenten RG22/23/24 zijn dwingend. De imperatief-`-t`->stam-regel is echter al lan
+- **[RG26-002] (modernisatie)** zegt tot hem niet
+  - regel: ARCHAISMEN.md:80 (imperatief-meervoud op `-t` → gebruik de stam); precedent RG22-001/RG23-001/RG24-001 (red_wins); fix: zeg tot hem niet
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert; λέγετε (praes. imp. 2pl negatief) -> stam 'zeg' (ARCHAISMEN.md:80). Zelfde structurele scanner-gap als RG26-001: de stam 'zeg' ontbreekt in IMPERATIVE_T_STEMS, dus scan_archaic_imper
+- **[RG26-003] (modernisatie)** Zijt gegroet
+  - regel: ARCHAISMEN.md:80 (imperatief op `-t` → stam: weest → wees); ARCHAISMEN.md drempel §2.7 (productiviteitstest); fix: Wees gegroet
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert volledig; 'Zijt' is de archaïsche copula-imperatief van 'zijn' en faalt de productiviteitstest §2.7 -- moderne vaste formule is 'Wees gegroet'. Onregelmatige vorm (niet stam+`-t`, gee
+- **[RG26-004] (modernisatie)** zo wat wij bidden
+  - regel: ARCHAISMEN.md (`zo wie … die` → `wie … die`, SV-correlatief drempel-archaïsme dat de renovatie overleefde, RG9-009); MODERNISATIE.md §2.7; fix: wat wij ook bidden
+  - verdict: **rule_change** (scope=nt-wide, applied=True) — Green concedeert; 'zo wat' is de neutrum-tegenhanger van het reeds geblacklistte SV-correlatief 'zo wie' (Gr. ὃ ἐάν). Dezelfde structurele grond -- adjacent correlatief-zo + betrekkelijk vnw. komt noo
