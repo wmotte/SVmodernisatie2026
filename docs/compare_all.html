@@ -150,7 +150,6 @@
 
             <div class="flex items-center gap-4 self-stretch lg:self-start">
                 <nav class="flex rounded-lg shadow-sm gap-2">
-                    <select id="book-select" aria-label="Kies boek" class="px-4 py-2 bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-700 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors focus:outline-none focus:ring-2 focus:ring-sky-500"></select>
                     <select id="chapter-select" aria-label="Kies hoofdstuk" class="px-4 py-2 bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-700 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors focus:outline-none focus:ring-2 focus:ring-sky-500"></select>
                 </nav>
                 <button id="theme-toggle" aria-label="Wissel donker/licht" class="px-3 py-2 bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-700 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors">
@@ -481,18 +480,6 @@
 
             const contentEl = document.getElementById('content');
             const chapterLabel = document.getElementById('chapter-label');
-
-            const bookSelect = document.getElementById('book-select');
-            for (const b of Object.keys(MAX_CHAPTER)) {
-                const opt = document.createElement('option');
-                opt.value = b;
-                opt.textContent = BOOK_NAMES[b] || b;
-                if (b === book) opt.selected = true;
-                bookSelect.appendChild(opt);
-            }
-            bookSelect.onchange = () => {
-                window.location.search = `?book=${bookSelect.value}&chapter=1`;
-            };
 
             const chapterSelect = document.getElementById('chapter-select');
             for (let i = 1; i <= maxCh; i++) {
