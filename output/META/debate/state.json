@@ -1,5 +1,5 @@
 {
-  "rounds_done": 40,
+  "rounds_done": 41,
   "pairs": [
     [
       "REV",
@@ -161,17 +161,21 @@
     [
       "REV",
       "ACT"
+    ],
+    [
+      "REV",
+      "MAT"
     ]
   ],
   "debate_count": {
-    "REV": 15,
+    "REV": 16,
     "JHN": 7,
     "1CO": 2,
     "LUK": 4,
     "ROM": 5,
     "2CO": 1,
     "MRK": 2,
-    "MAT": 5,
+    "MAT": 6,
     "ACT": 5,
     "2JN": 3,
     "3JN": 2,
@@ -193,6 +197,7 @@
     "TIT": 2
   },
   "closed_keys": [
+    "consistentie/genitief-allowlist-lek|MAT|vele lichamen der heiligen|modernisatie.md §2.3c losse possessief-genitief ontvouwt naar 'van de'; rules_data.py:117 fossil_genitive_pairs-entry ('der','heiligen') is bedoeld voor 'heilige der heiligen' (ἅγια τῶν ἁγίων); precedent r35 der-joden, r37 der-aarde, r40 der-heiligen (rev 13:10/14:12/17:6/19:8)",
     "consistentie|1JN,2PE|geliefde gelooft niet beproeft de geesten|modernisatie.md §2.3; concordantie grieks `ἀγαπητοί`",
     "consistentie|1TH,2TH|1th 5 14 hen die ordeloos leven tegenover|agents.md concordantie; modernisatie.md §5.3 concordantie",
     "consistentie|1TI,2TI|geduld namelijk zowel tegenover de vijanden als tegenover|agents.md / project-richtlijn concordantie: gelijk grieks lemma → gelijke weergave tenzij contextueel gerechtvaardigd",
@@ -243,6 +248,9 @@
     "imperatief_meervoud_t|ACT|hoort deze woorden|archaismen.md:78 imperatief-mv `-t` → stam; concordantie harmoniseert náár stam",
     "imperatief_meervoud_t|ACT|hoort mijn verantwoording|archaismen.md:78 imperatief-mv `-t` → stam",
     "imperatief_meervoud_t|ACT|komt te hulp|archaismen.md:78 imperatief-mv `-t` → stam",
+    "modernisatie/false-friend|MAT|de mensen zo geleerd zal hebben|archaismen.md:147 false friend `leren`/`geleerd` (διδάσκω, transitief-didactisch, leraar-subject) → onderwijzen/onderwezen; nt-brede precedent rg-16-rg16-003 (2jn), rg-30-rg30-009 (2pe), rg-33-rg33-001..006 (act/rom), rg-35-rg35-003/004 (luk), allen red_wins",
+    "modernisatie/false-friend|MAT|deden zij zoals hun geleerd was|archaismen.md:147 false friend `geleerd` (διδάσκω passief, ἐδιδάχθησαν); per-vers semantische call (rg30-009)",
+    "modernisatie/false-friend|MAT|leer hen onderhouden alles|archaismen.md:147 false friend `leren` (διδάσκω, transitief-didactisch, leraar-subject) → onderwijzen; consistentie binnen dezelfde zendingsopdracht (v19 'onderwijs alle volken' = μαθητεύσατε al gefixt)",
     "modernisatie|1CO|die eet en drinkt zichzelf een oordeel niet|modernisatie.md §2.3 (finiet participium) + §2.3b (object nageschoven na participium)",
     "modernisatie|1CO|doet dat zo dikwijls als gij die zult|archaismen.md (imperatief-meervoud op `-t` → stam; ghy/gy/gij → u)",
     "modernisatie|1CO|en wordt geen afgodendienaars evenals sommigen van hen|archaismen.md:78 (imperatief-meervoud -t -> stam; wordt -> word)",
@@ -444,5 +452,5 @@
     "modernisatie|TIT|zowel in kleding als in hun gehele wandel|archaismen.md:29 (zelfst. 'wandel' = levenswijze → levenswandel / leven / gedrag); modernisatie.md §2.7 (verwarringstest)"
   ],
   "open_keys": [],
-  "updated_at": "2026-06-08T13:01:30.714920+00:00"
+  "updated_at": "2026-06-08T13:09:40.742359+00:00"
 }

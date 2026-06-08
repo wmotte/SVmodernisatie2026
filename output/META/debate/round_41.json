@@ -1,0 +1,178 @@
+{
+  "round_no": 41,
+  "books": [
+    "REV",
+    "MAT"
+  ],
+  "red": [
+    {
+      "id": "RG41-001",
+      "class": "modernisatie/false-friend",
+      "books": [
+        "MAT"
+      ],
+      "chapter": 5,
+      "verse": 19,
+      "quote": "de mensen zo geleerd zal hebben",
+      "in_kanttekening": false,
+      "rule_reference": "ARCHAISMEN.md:147 false friend `leren`/`geleerd` (διδάσκω, transitief-didactisch, leraar-subject) → onderwijzen/onderwezen; NT-brede precedent RG-16-RG16-003 (2JN), RG-30-RG30-009 (2PE), RG-33-RG33-001..006 (ACT/ROM), RG-35-RG35-003/004 (LUK), allen red_wins",
+      "explanation": "Bron heeft TWEE keer διδάξῃ (διδάσκω, aor. conj.): 'καὶ διδάξῃ οὕτω τοὺς ἀνθρώπους' en 'ὃς δ’ ἂν ποιήσῃ καὶ διδάξῃ'. Het subject is een mens die de geboden aan anderen onderricht — leraar-subject didactisch διδάσκω, geen μανθάνω/leerling. Beide voorkomens zijn als 'geleerd' weergegeven ('de mensen zo geleerd zal hebben' en 'zal gedaan en geleerd hebben'). Modern leest 'geleerd' als zelf-opnemen (leerling-rol). Dit is exact de NT-breed beslechte false friend; per-vers swap van beide finiete vormen. Vgl. RG30-009: voltooid deelwoord 'geleerd' wordt alleen gefixt bij leraar-subject; hier is beide διδάξῃ ondubbelzinnig leraar-subject.",
+      "proposed_fix": "'de mensen zo geleerd zal hebben' → 'de mensen zo onderwezen zal hebben'; en 'zal gedaan en geleerd hebben' → 'zal gedaan en onderwezen hebben' (beide διδάξῃ in dit vers).",
+      "severity": "hoog"
+    },
+    {
+      "id": "RG41-002",
+      "class": "consistentie/genitief-allowlist-lek",
+      "books": [
+        "MAT"
+      ],
+      "chapter": 27,
+      "verse": 52,
+      "quote": "vele lichamen der heiligen",
+      "in_kanttekening": false,
+      "rule_reference": "MODERNISATIE.md §2.3c losse possessief-genitief ontvouwt naar 'van de'; rules_data.py:117 FOSSIL_GENITIVE_PAIRS-entry ('der','heiligen') is bedoeld voor 'Heilige der heiligen' (ἅγια τῶν ἁγίων); precedent R35 der-Joden, R37 der-aarde, R40 der-heiligen (REV 13:10/14:12/17:6/19:8)",
+      "explanation": "σώματα τῶν κεκοιμημένων ἁγίων — gewone possessief-/subjectsgenitief ('lichamen van de heiligen'), GEEN gestolde formule. Overleeft de validator uitsluitend via de generieke ('der','heiligen')-allowlist-entry die 'Heilige der heiligen' (de tempelheiligdom-formule ἅγια τῶν ἁγίων) moet vrijwaren. Dat is exact het lek dat R40 voor REV sloot (13:10/14:12/17:6/19:8). De R40-weerlegging veronderstelde dat MAT 27 'Heilige der heiligen' in de HOOFDTEKST heeft, maar die formule staat in MAT alleen in de KANTTEKENING bij 27:51 (legitiem, blijft); de hoofdtekst-genitief in 27:52 is het ongedekte bezitslek. Content-only ontvouwing, geen validator-wijziging (allowlist-entry blijft nodig voor 'Heilige der heiligen' elders, o.a. HEB 9:3).",
+      "proposed_fix": "'vele lichamen der heiligen' → 'vele lichamen van de heiligen'.",
+      "severity": "hoog"
+    },
+    {
+      "id": "RG41-003",
+      "class": "modernisatie/false-friend",
+      "books": [
+        "MAT"
+      ],
+      "chapter": 28,
+      "verse": 20,
+      "quote": "leer hen onderhouden alles",
+      "in_kanttekening": false,
+      "rule_reference": "ARCHAISMEN.md:147 false friend `leren` (διδάσκω, transitief-didactisch, leraar-subject) → onderwijzen; consistentie binnen dezelfde zendingsopdracht (v19 'onderwijs alle volken' = μαθητεύσατε al gefixt)",
+      "explanation": "Bron heeft διδάσκοντες αὐτοὺς τηρεῖν πάντα — de discipelen die de volken onderrichten alles te onderhouden: leraar-subject didactisch διδάσκω, geen μανθάνω. Weergegeven als imperatief 'leer hen onderhouden'. In v19 is het parallelle μαθητεύσατε al correct als 'onderwijs alle volken' weergegeven; 'leer hen' valt daarmee binnen dezelfde opdracht uit de toon en leest modern als 'leer-zelf'. NT-brede precedent (LUK 11:1 'leer ons bidden' wordt elders besproken; hier διδάσκω, leraar-subject) → 'onderwijs hen'. Per-vers.",
+      "proposed_fix": "'leer hen onderhouden alles wat ik u geboden heb' → 'onderwijs hen alles te onderhouden wat ik u geboden heb' (of 'leer hen alles onderhouden' behouden uitsluitend mits het gerundium-idioom prefereert; primaire fix = onderwijs).",
+      "severity": "middel"
+    },
+    {
+      "id": "RG41-004",
+      "class": "modernisatie/false-friend",
+      "books": [
+        "MAT"
+      ],
+      "chapter": 28,
+      "verse": 15,
+      "quote": "deden zij zoals hun geleerd was",
+      "in_kanttekening": false,
+      "rule_reference": "ARCHAISMEN.md:147 false friend `geleerd` (διδάσκω passief, ἐδιδάχθησαν); per-vers semantische call (RG30-009)",
+      "explanation": "Bron ἐποίησαν ὡς ἐδιδάχθησαν (διδάσκω, aor. pass.): de soldaten deden 'zoals hun was onderricht/opgedragen' door de Overpriesters — leraar-subject (de priesters instrueren), geen leerling-zelf-opnemen. 'zoals hun geleerd was' leest modern dubbelzinnig als 'wat zij geleerd hadden'. Lichtere variant dan RG41-001 omdat het hier instructie betreft i.p.v. leerstuk; toch valt het binnen het διδάσκω-veld met leraar-subject. Aanbevolen ontvouwing naar 'onderricht/opgedragen' (HSV: 'zoals hun was geleerd'/'opgedragen').",
+      "proposed_fix": "'deden zij zoals hun geleerd was' → 'deden zij zoals hun was opgedragen' (of 'zoals hun onderricht was').",
+      "severity": "laag"
+    }
+  ],
+  "green": [
+    {
+      "point_id": "RG41-001",
+      "stance": "concede",
+      "rebuttal": "Bevestigd: het Grieks heeft TWEE keer διδάξῃ (διδάσκω, aor. conj. act.), geen μανθάνω. 'ὃς ἐὰν ... καὶ διδάξῃ οὕτω τοὺς ἀνθρώπους' en 'ὃς δ’ ἂν ποιήσῃ καὶ διδάξῃ' — beide subject = een mens die de geboden aan ANDEREN onderricht (leraar-subject, transitief-didactisch). Geen leerling-rol. Modern 'geleerd' leest als zelf-opnemen; correcte concordantie = onderwijzen/onderwezen. NT-breed beslecht (RG16-003, RG30-009, RG33-001..006, RG35-003/004, allen red_wins). Beide finiete vormen geconcedeerd.",
+      "evidence": "διδάσκω (διδάξῃ ×2, leraar-subject); ARCHAISMEN.md:147",
+      "fixes": [
+        {
+          "book": "MAT",
+          "chapter": 5,
+          "verse": 19,
+          "old": "zo geleerd zal hebben",
+          "new": "zo onderwezen zal hebben",
+          "lemma": "διδάξῃ",
+          "in_kanttekening": false
+        },
+        {
+          "book": "MAT",
+          "chapter": 5,
+          "verse": 19,
+          "old": "gedaan en geleerd hebben",
+          "new": "gedaan en onderwezen hebben",
+          "lemma": "διδάξῃ",
+          "in_kanttekening": false
+        }
+      ]
+    },
+    {
+      "point_id": "RG41-002",
+      "stance": "concede",
+      "rebuttal": "Bevestigd: σώματα τῶν κεκοιμημένων ἁγίων is een gewone possessief-/subjectsgenitief ('lichamen van de heiligen'), GEEN gestolde formule. De formule 'Heilige der heiligen' (ἅγια τῶν ἁγίων) komt in MAT 27 uitsluitend in de KANTTEKENING bij 27:51 voor ('voor het Heilige der heiligen hing') — legitiem, blijft staan. De hoofdtekst-genitief 27:52 overleeft de validator alleen via de generieke ('der','heiligen')-allowlist-entry die bedoeld is voor die tempelformule. Exact het R40-lek (REV 13:10/14:12/17:6/19:8). Content-only ontvouwing; allowlist-entry in rules_data.py:117 BLIJFT nodig (gebruikt voor 'Heilige der heiligen' elders, o.a. HEB 9:3 en de kanttekening op MAT 27:51 zelf).",
+      "evidence": "rules_data.py:117 ('der','heiligen'); MODERNISATIE.md §2.3c; kanttekening 27:51 bevat 'Heilige der heiligen'",
+      "fixes": [
+        {
+          "book": "MAT",
+          "chapter": 27,
+          "verse": 52,
+          "old": "lichamen der heiligen",
+          "new": "lichamen van de heiligen",
+          "lemma": "σώματα τῶν ἁγίων",
+          "in_kanttekening": false
+        }
+      ]
+    },
+    {
+      "point_id": "RG41-003",
+      "stance": "concede",
+      "rebuttal": "Bevestigd, MET correctie van de vers-aanduiding: het door RED geciteerde 'leer hen onderhouden alles' staat in MAT 28:19 (niet 28:20). De clausule διδάσκοντες αὐτοὺς τηρεῖν πάντα is de slotzin van het v19-Grieks en wordt in het v19-Nederlands weergegeven. Het is teacher-subject didactisch διδάσκω (de discipelen onderrichten de volken). Binnen exact dezelfde zendingsopdracht is μαθητεύσατε in v19 al correct als 'onderwijs alle volken' gerenderd — 'leer hen' valt daar qua concordantie en toon naast. Fix naar 'onderwijs hen'. Toegepaste fix dus op chapter 28, verse 19.",
+      "evidence": "διδάσκοντες (leraar-subject); v19 heeft reeds 'onderwijs alle volken' (μαθητεύσατε); ARCHAISMEN.md:147",
+      "fixes": [
+        {
+          "book": "MAT",
+          "chapter": 28,
+          "verse": 19,
+          "old": "leer hen onderhouden alles wat ik u geboden heb",
+          "new": "onderwijs hen onderhouden alles wat ik u geboden heb",
+          "lemma": "διδάσκοντες",
+          "in_kanttekening": false
+        }
+      ]
+    },
+    {
+      "point_id": "RG41-004",
+      "stance": "concede",
+      "rebuttal": "Bevestigd dat ἐδιδάχθησαν passief van διδάσκω is ('zij werden onderricht'). Context: de soldaten deden 'zoals hun was onderricht' door de Overpriesters — leraar-subject (priesters instrueren), geen leerling-zelf-opnemen. 'zoals hun geleerd was' leest modern dubbelzinnig als 'wat zij geleerd hadden' (zelf-opname). Dit is een echte false-friend, geen over-translation, dus geconcedeerd. AANBEVELING (let op): ik wijk af van RED's voorgestelde 'opgedragen'. 'Opgedragen' (= bevel, ἐντέλλομαι/προστάσσω-veld) laat de διδάσκω-concordantie volledig vallen; 'onderwezen' is de passieve concordantie-getrouwe vorm en past hier semantisch prima ('zoals hun onderwezen was' = zoals hun was ingeprent/voorgehouden). Daarom fix naar 'onderwezen', niet 'opgedragen'. Dit is het zwakste punt; concessie staat, maar de waarde ervan zit in concordantie-behoud, niet in een betekenisverschuiving naar 'bevel'.",
+      "evidence": "ἐδιδάχθησαν (διδάσκω aor. pass.); concordantie-behoud > betekenisverschuiving; HSV-spiegel 'zoals hun was geleerd/opgedragen'",
+      "fixes": [
+        {
+          "book": "MAT",
+          "chapter": 28,
+          "verse": 15,
+          "old": "zoals hun geleerd was",
+          "new": "zoals hun onderwezen was",
+          "lemma": "ἐδιδάχθησαν",
+          "in_kanttekening": false
+        }
+      ]
+    }
+  ],
+  "verdicts": [
+    {
+      "point_id": "RG41-001",
+      "verdict": "red_wins",
+      "scope": "verse",
+      "applied": true,
+      "rationale": "MAT 5:19 διδάξῃ ×2 (διδάσκω actief, leraar-subject, geen μανθάνω): 'geleerd'→'onderwezen' (2×). False friend ARCHAISMEN.md:147."
+    },
+    {
+      "point_id": "RG41-002",
+      "verdict": "red_wins",
+      "scope": "verse",
+      "applied": true,
+      "rationale": "MAT 27:52 σώματα τῶν ἁγίων bezitsgenitief 'lichamen der heiligen'→'van de heiligen' (content-only, allowlist-lek zoals R40). 'Heilige der heiligen' alleen in 27:51-noot, allowlist blijft."
+    },
+    {
+      "point_id": "RG41-003",
+      "verdict": "red_wins",
+      "scope": "verse",
+      "applied": true,
+      "rationale": "Verse-correctie: staat in MAT 28:19 (niet 28:20). διδάσκοντες leraar-subject 'leer hen'→'onderwijs hen', concordant met v19 'onderwijs alle volken'."
+    },
+    {
+      "point_id": "RG41-004",
+      "verdict": "red_wins",
+      "scope": "verse",
+      "applied": true,
+      "rationale": "MAT 28:15 ἐδιδάχθησαν (passief διδάσκω) 'geleerd was'→'onderwezen was' (concordantie-getrouw; red's 'opgedragen' verworpen want verschuift naar bevel-veld ἐντέλλομαι)."
+    }
+  ]
+}
