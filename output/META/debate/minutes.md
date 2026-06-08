@@ -897,3 +897,15 @@ Red bracht 2 punt(en). Verdicts: red_wins=2, green_wins=0, rule_change=0.
 
 ## Ronde 43 — REV + ACT  (2026-06-08T13:23:27.657217+00:00)
 Red bracht 0 punt(en). Verdicts: red_wins=0, green_wins=0, rule_change=0.
+
+## Ronde 44 — PHP + PHM  (2026-06-08T13:33:25.893391+00:00)
+Red bracht 3 punt(en). Verdicts: red_wins=2, green_wins=1, rule_change=0.
+- **[RG44-001] (bibref-format)** Zie over deze stad en het verblijf van de Apostel daarin $Hd. 17:1-9$.
+  - regel: BIJBELVERWIJZINGEN.md / MODERNISATIE.md §2.5; bibref chapter-only gap (MEMORY: bibref chapter-only -> proza); fix: Vervang `$Hd. 17:1-9$` door proza 'Handelingen 17' (consistent met PHP 3:12/3:15).
+  - verdict: **red_wins** (scope=verse, applied=True) — PHP 4:16-noot: gefabriceerde bibref $Hd. 17:1-9$ uit hoofdstuk-only bron 'Actor. cap. 17.' → proza 'Handelingen 17' (huisvorm PHP 3:12/3:15). Verse-range 1-9 bestond niet in SV-bron.
+- **[RG44-002] (consistentie)** $Rm. 16:3,9,21; Fp. 2:25; Flm. 1:1,24$
+  - regel: MODERNISATIE.md §2.5; refdata/afkortingen.csv (Filemon -> Fm.); cross-book concordantie van canonieke afkorting; fix: `Flm.` -> `Fm.` in beide kanttekeningen van PHP 4:3 (en NT-breed sweepen: ook HEB 13:22 heeft `Flm. 1:22`).
+  - verdict: **red_wins** (scope=nt-wide, applied=True) — Niet-canonieke afkorting 'Flm.'→'Fm.' (afkortingen.csv Filemon=Fm.; PHP 2:25 al 'Fm.'). 3 NT-instanties: PHP 4:3 ×2, HEB 13:19. NT-breed nu 0 'Flm.'.
+- **[RG44-003] (semantiek)** naar u allen verlang, <Grieks: in de ingewanden: een Hebreeuwse wijze van spreken, omdat door een grote innerlijke geneg
+  - regel: MODERNISATIE.md §1/§2.7 (begrijpelijk modern NL; geen opake idiomatiek in hoofdtekst); fix: Overweeg in de hoofdtekst 'met de innige genegenheid van Jezus Christus' (PHP 1:8) en 'enige innige genegenheid en ontfermingen' (PHP 2:1); de bestaande Gr.-kanttekening blijft staan.
+  - verdict: **green_wins** (scope=verse, applied=False) — σπλάγχνα 'innerlijke bewegingen' is consistente SV-renovatie NT-breed (COL 3:12, 2CO 7:15, PHP 1:8/2:1), met Griekse kanttekening-glosse. Renovatie ≠ hervertaling; geen per-vers fix. Eventueel apart N

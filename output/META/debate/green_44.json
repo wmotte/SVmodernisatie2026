@@ -1,0 +1,32 @@
+{
+  "round_no": 44,
+  "green": [
+    {
+      "point_id": "RG44-001",
+      "stance": "concede",
+      "rebuttal": "",
+      "evidence": "PHP 4:16 SV-origineel is chapter-only: `<Siet van dese stadt ende des Apostels verblijf in deselve, Actor. cap. 17.>` — geen verzenspan in de bron. De modernisatie fabriceerde `$Hd. 17:1-9$`; '1-9' staat NIET in het SV-origineel. Per bibref chapter-only gap (MEMORY) moet een hoofdstuk-only-ref als proza renderen. Huisformaat binnen ditzelfde boek: PHP 3:12 `Actor. cap. 9` -> 'Handelingen 9'; PHP 3:15 `Rom. cap. 14` -> 'Romeinen hoofdstuk 14'. De kortste consistente variant in dit boek is 'Handelingen 17' (vgl. 3:12 'Handelingen 9').",
+      "fixes": [
+        {"book": "PHP", "chapter": 4, "verse": 16, "old": "$Hd. 17:1-9$", "new": "Handelingen 17", "in_kanttekening": true}
+      ]
+    },
+    {
+      "point_id": "RG44-002",
+      "stance": "concede",
+      "rebuttal": "",
+      "evidence": "refdata/afkortingen.csv: `Filemon,Fm.` -> canoniek is `Fm.`. PHP 2:25 gebruikt correct `Fm. 1:23` in hetzelfde boek. `Flm.` is een non-canonieke leak. NT-brede grep van output/ (body+notes) levert exact 3 instanties op: PHP 4:3 (2x: `Fp. 2:25; Flm. 1:2` en `Rm. 16:3,9,21; Fp. 2:25; Flm. 1:1,24`) en HEB 13:19 (`Fp. 2:24; Flm. 1:22`). NB: RED gaf HEB 13:22 maar de werkelijke leak zit in HEB 13:19 (de ref-inhoud is 1:22); instantie bestaat, alleen vers-label klopte niet.",
+      "fixes": [
+        {"book": "PHP", "chapter": 4, "verse": 3, "old": "$Fp. 2:25; Flm. 1:2$", "new": "$Fp. 2:25; Fm. 1:2$", "in_kanttekening": true},
+        {"book": "PHP", "chapter": 4, "verse": 3, "old": "$Rm. 16:3,9,21; Fp. 2:25; Flm. 1:1,24$", "new": "$Rm. 16:3,9,21; Fp. 2:25; Fm. 1:1,24$", "in_kanttekening": true},
+        {"book": "HEB", "chapter": 13, "verse": 19, "old": "$Fp. 2:24; Flm. 1:22$", "new": "$Fp. 2:24; Fm. 1:22$", "in_kanttekening": true}
+      ]
+    },
+    {
+      "point_id": "RG44-003",
+      "stance": "rebut",
+      "rebuttal": "Renovatie != hervertaling. 'innerlijke bewegingen' is de CONSISTENTE SV-renovatie van sigma-pi-lambda-alpha-gamma-chi-nu-alpha door het hele NT, niet een eenmalige opake misser: het verschijnt identiek in COL 3:12 ('innerlijke bewegingen van barmhartigheid'), 2CO 7:15 ('zijn innerlijke bewegingen'), PHP 1:8 en PHP 2:1. De hoofdtekst wordt bovendien volledig en correct geglosseerd door de meegegeven Gr.-kanttekening ('Grieks: in de ingewanden ... door een grote innerlijke genegenheid ...'), die exact uitlegt wat bedoeld is — de term is dus niet misleidend maar gemarkeerd-archaisch-met-uitleg, precies het renovatiemodel. HSV's 'innige gevoelens/genegenheid' is een vertaalkeuze, geen correctie van een fout; PHP 1:8/2:1 ad hoc omzetten zou (a) de NT-brede sigma-pi-lambda-alpha-gamma-chi-nu-alpha-concordantie breken en (b) een functionerende SV-vorm hervertalen. Indien gewenst hoort dit als losse NT-brede concordantiebeslissing, niet als per-vers fix in PHP.",
+      "evidence": "sigma-pi-lambda-alpha-gamma-chi-nu-alpha NT-concordantie-inventaris (body-tekst): COL 3:12 'innerlijke bewegingen van barmhartigheid'; 2CO 7:15 'innerlijke bewegingen'; PHP 1:8 'innerlijke bewegingen'; PHP 2:1 'innerlijke bewegingen'; PHM 1:7/1:12/1:20 'ingewanden' (letterlijk, behouden); 2CO 6:12 'enghartig' (idiomatisch sigma-tau-epsilon-nu-omicron-chi-omega-rho-epsilon-omega-sigma-theta-alpha-iota); 1JN 3:17 'zijn hart toesluit'. De SV gebruikt nergens 'innige genegenheid' als hoofdtekst — dat is HSV. 'innerlijke bewegingen' is dus de stabiele SV-vorm, met kanttekening-gloss in PHP 1:8.",
+      "fixes": []
+    }
+  ]
+}

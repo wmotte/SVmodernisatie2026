@@ -73,7 +73,7 @@ Johannes-cluster:
 Paulus korte brieven:
 
 - [x] `EPH + COL` — gedekt door R22 (COL+EPH)
-- [ ] `PHP + PHM`
+- [x] `PHP + PHM` — R44 (2 red_wins + 1 green_wins: bibref-fabricatie PHP 4:16 $Hd. 17:1-9$→proza, Flm.→Fm. NT-breed ×3 PHP 4:3/HEB 13:19; σπλάγχνα 'innerlijke bewegingen' green_wins = consistente SV-renovatie)
 - [x] `1TH + 2TH` — gedekt door R20
 - [x] `1TI + 2TI` — gedekt door R21
 - [x] `TIT + PHM` — R29 (2 red_wins + 1 rule_change deftig + 1 green_wins)

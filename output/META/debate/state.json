@@ -1,5 +1,5 @@
 {
-  "rounds_done": 43,
+  "rounds_done": 44,
   "pairs": [
     [
       "REV",
@@ -172,6 +172,10 @@
     [
       "REV",
       "ACT"
+    ],
+    [
+      "PHP",
+      "PHM"
     ]
   ],
   "debate_count": {
@@ -186,7 +190,7 @@
     "ACT": 6,
     "2JN": 3,
     "3JN": 2,
-    "PHM": 3,
+    "PHM": 4,
     "JUD": 3,
     "1JN": 3,
     "2PE": 4,
@@ -199,12 +203,13 @@
     "COL": 1,
     "EPH": 1,
     "GAL": 1,
-    "PHP": 2,
+    "PHP": 3,
     "HEB": 2,
     "TIT": 2,
     "NT-wide": 1
   },
   "closed_keys": [
+    "bibref-format|PHP|zie over deze stad en het verblijf van|bijbelverwijzingen.md / modernisatie.md §2.5; bibref chapter-only gap (memory: bibref chapter-only -> proza)",
     "consistentie/genitief-allowlist-lek|MAT|vele lichamen der heiligen|modernisatie.md §2.3c losse possessief-genitief ontvouwt naar 'van de'; rules_data.py:117 fossil_genitive_pairs-entry ('der','heiligen') is bedoeld voor 'heilige der heiligen' (ἅγια τῶν ἁγίων); precedent r35 der-joden, r37 der-aarde, r40 der-heiligen (rev 13:10/14:12/17:6/19:8)",
     "consistentie|1CO,1JN,COL,HEB,JHN,LUK,MRK,TIT|nt brede sweep|archaismen.md:147 false friend leren (διδάσκω leraar-subject)→onderwijzen",
     "consistentie|1JN,2PE|geliefde gelooft niet beproeft de geesten|modernisatie.md §2.3; concordantie grieks `ἀγαπητοί`",
@@ -238,6 +243,7 @@
     "consistentie|MAT|dit geslacht zal geenszins voorbijgaan|§false-friend geenszins(οὐ μή)→beslist/zeker niet",
     "consistentie|MAT|en toen hij wederom voor de tweede maal|§false-friend wederom(πάλιν)→opnieuw",
     "consistentie|PHM,PHP|archippus onze namelijk in die krijg waarvan de|modernisatie.md §2.5 (bijbelverwijzingen genormaliseerd); bijbelverwijzingen.md; refdata/afkortingen.csv (kolossenzen -> ko.)",
+    "consistentie|PHM,PHP|rm 16 3 9 21 fp 2 25|modernisatie.md §2.5; refdata/afkortingen.csv (filemon -> fm.); cross-book concordantie van canonieke afkorting",
     "consistentie|PHM,TIT|allen die met mij zijn groeten u|modernisatie.md §5.3 / §1 (cross-book concordantie); grieks ἀσπάζονται (ἀσπάζομαι)",
     "consistentie|PHP|verblijdt u zich ook en verblijdt u zich|archaismen.md:80 (imperatief-meervoud -t → stam) + congruentiefout; concordantie met χαίρετε elders in php (3:1, 4:4)",
     "consistentie|PHP|zie rm 12 12 2kor 13 11 fp|agents.md §1 'renovatie, geen hervertaling' en §2 'geen vrije parafrase'; concordantie van de sv-kanttekeningformule 'siet x' → 'zie x'",
@@ -459,8 +465,9 @@
     "modernisatie|TIT|de zendbrief aan titus de eerste verkoren grieks|kanttekeningen.md:8 ('<…> blokken bewaren — nooit verwijderen, nooit samenvoegen'); agents.md §1 'renovatie, geen hervertaling' / leesbaar modern nederlands",
     "modernisatie|TIT|deftigheid oprechtheid|modernisatie.md §2.7 (false friend / verwarringstest); grieks σεμνότης / σεμνός",
     "modernisatie|TIT|ondeugdelijk|modernisatie.md §2.7 (false friend / verwarringstest); grieks ἀδόκιμος",
-    "modernisatie|TIT|zowel in kleding als in hun gehele wandel|archaismen.md:29 (zelfst. 'wandel' = levenswijze → levenswandel / leven / gedrag); modernisatie.md §2.7 (verwarringstest)"
+    "modernisatie|TIT|zowel in kleding als in hun gehele wandel|archaismen.md:29 (zelfst. 'wandel' = levenswijze → levenswandel / leven / gedrag); modernisatie.md §2.7 (verwarringstest)",
+    "semantiek|PHP|naar u allen verlang grieks in de ingewanden|modernisatie.md §1/§2.7 (begrijpelijk modern nl; geen opake idiomatiek in hoofdtekst)"
   ],
   "open_keys": [],
-  "updated_at": "2026-06-08T13:23:27.656876+00:00"
+  "updated_at": "2026-06-08T13:33:25.892821+00:00"
 }

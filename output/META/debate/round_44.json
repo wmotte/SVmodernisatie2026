@@ -1,0 +1,135 @@
+{
+  "round_no": 44,
+  "books": [
+    "PHP",
+    "PHM"
+  ],
+  "red": [
+    {
+      "id": "RG44-001",
+      "class": "bibref-format",
+      "books": [
+        "PHP"
+      ],
+      "chapter": 4,
+      "verse": 16,
+      "quote": "Zie over deze stad en het verblijf van de Apostel daarin $Hd. 17:1-9$.",
+      "in_kanttekening": true,
+      "rule_reference": "BIJBELVERWIJZINGEN.md / MODERNISATIE.md §2.5; bibref chapter-only gap (MEMORY: bibref chapter-only -> proza)",
+      "explanation": "Het SV-origineel verwijst chapter-only naar de hele stad-episode: `<Siet van dese stadt ende des Apostels verblijf in deselve, Actor. cap. 17.>`. De modernisatie verzint een specifieke verzenspan `$Hd. 17:1-9$` die NIET in de bron staat. Een hoofdstuk-only-ref mag niet worden opgewaardeerd naar een gefabriceerd vers-bereik; hij hoort als proza ('Handelingen 17'). Bovendien is dit inconsistent binnen hetzelfde boek: PHP 3:12 rendert chapter-only `Actor. cap. 9` correct als proza 'Handelingen 9' en PHP 3:15 `Rom. cap. 14` als 'Romeinen hoofdstuk 14'.",
+      "proposed_fix": "Vervang `$Hd. 17:1-9$` door proza 'Handelingen 17' (consistent met PHP 3:12/3:15).",
+      "severity": "hard"
+    },
+    {
+      "id": "RG44-002",
+      "class": "consistentie",
+      "books": [
+        "PHP",
+        "PHM"
+      ],
+      "chapter": 4,
+      "verse": 3,
+      "quote": "$Rm. 16:3,9,21; Fp. 2:25; Flm. 1:1,24$",
+      "in_kanttekening": true,
+      "rule_reference": "MODERNISATIE.md §2.5; refdata/afkortingen.csv (Filemon -> Fm.); cross-book concordantie van canonieke afkorting",
+      "explanation": "De canonieke afkorting voor Filemon is `Fm.` (refdata/afkortingen.csv: Filemon,Fm.) en NT-breed gebruikt (26x `Fm.`). PHP 4:3 gebruikt echter `Flm.` (2x: in deze kt en in de jukgenoot-kt `$Fp. 2:25; Flm. 1:2$`). Dit is óók intern inconsistent: PHP 2:25 schrijft correct `Fm. 1:23`. Zelfde non-canonieke-afkorting-leak als de RG28 Kol->Ko-sweep.",
+      "proposed_fix": "`Flm.` -> `Fm.` in beide kanttekeningen van PHP 4:3 (en NT-breed sweepen: ook HEB 13:22 heeft `Flm. 1:22`).",
+      "severity": "hard"
+    },
+    {
+      "id": "RG44-003",
+      "class": "semantiek",
+      "books": [
+        "PHP"
+      ],
+      "chapter": 1,
+      "verse": 8,
+      "quote": "naar u allen verlang, <Grieks: in de ingewanden: een Hebreeuwse wijze van spreken, omdat door een grote innerlijke genegenheid de ingewanden als verontrust en ontsteld worden. Zie $Lk. 1:78$.> met innerlijke bewegingen <Dat is, welke genegenheid of liefde in mij ontstaat om Christus’ wil, die u met geloof hebt aangenomen, of omdat wij Jezus Christus tot een gemeenschappelijke Zaligmaker hebben.> van Jezus Christus.",
+      "in_kanttekening": false,
+      "rule_reference": "MODERNISATIE.md §1/§2.7 (begrijpelijk modern NL; geen opake idiomatiek in hoofdtekst)",
+      "explanation": "Grieks σπλάγχνοις Ἰησοῦ Χριστοῦ = de innige genegenheid/erbarming van Christus (HSV: 'met de innige gevoelens van Christus Jezus'). De hoofdtekst 'met innerlijke bewegingen van Jezus Christus' is als kaal modern Nederlands opaak/misleidend (leest als fysieke beweging), en hangt volledig af van de kanttekening om begrijpelijk te zijn. Zelfde rendering staat in PHP 2:1 ('innerlijke bewegingen' voor σπλάγχνα), dus de keuze is consistent maar consequent onhelder.",
+      "proposed_fix": "Overweeg in de hoofdtekst 'met de innige genegenheid van Jezus Christus' (PHP 1:8) en 'enige innige genegenheid en ontfermingen' (PHP 2:1); de bestaande Gr.-kanttekening blijft staan.",
+      "severity": "soft"
+    }
+  ],
+  "green": [
+    {
+      "point_id": "RG44-001",
+      "stance": "concede",
+      "rebuttal": "",
+      "evidence": "PHP 4:16 SV-origineel is chapter-only: `<Siet van dese stadt ende des Apostels verblijf in deselve, Actor. cap. 17.>` — geen verzenspan in de bron. De modernisatie fabriceerde `$Hd. 17:1-9$`; '1-9' staat NIET in het SV-origineel. Per bibref chapter-only gap (MEMORY) moet een hoofdstuk-only-ref als proza renderen. Huisformaat binnen ditzelfde boek: PHP 3:12 `Actor. cap. 9` -> 'Handelingen 9'; PHP 3:15 `Rom. cap. 14` -> 'Romeinen hoofdstuk 14'. De kortste consistente variant in dit boek is 'Handelingen 17' (vgl. 3:12 'Handelingen 9').",
+      "fixes": [
+        {
+          "book": "PHP",
+          "chapter": 4,
+          "verse": 16,
+          "old": "$Hd. 17:1-9$",
+          "new": "Handelingen 17",
+          "in_kanttekening": true
+        }
+      ]
+    },
+    {
+      "point_id": "RG44-002",
+      "stance": "concede",
+      "rebuttal": "",
+      "evidence": "refdata/afkortingen.csv: `Filemon,Fm.` -> canoniek is `Fm.`. PHP 2:25 gebruikt correct `Fm. 1:23` in hetzelfde boek. `Flm.` is een non-canonieke leak. NT-brede grep van output/ (body+notes) levert exact 3 instanties op: PHP 4:3 (2x: `Fp. 2:25; Flm. 1:2` en `Rm. 16:3,9,21; Fp. 2:25; Flm. 1:1,24`) en HEB 13:19 (`Fp. 2:24; Flm. 1:22`). NB: RED gaf HEB 13:22 maar de werkelijke leak zit in HEB 13:19 (de ref-inhoud is 1:22); instantie bestaat, alleen vers-label klopte niet.",
+      "fixes": [
+        {
+          "book": "PHP",
+          "chapter": 4,
+          "verse": 3,
+          "old": "$Fp. 2:25; Flm. 1:2$",
+          "new": "$Fp. 2:25; Fm. 1:2$",
+          "in_kanttekening": true
+        },
+        {
+          "book": "PHP",
+          "chapter": 4,
+          "verse": 3,
+          "old": "$Rm. 16:3,9,21; Fp. 2:25; Flm. 1:1,24$",
+          "new": "$Rm. 16:3,9,21; Fp. 2:25; Fm. 1:1,24$",
+          "in_kanttekening": true
+        },
+        {
+          "book": "HEB",
+          "chapter": 13,
+          "verse": 19,
+          "old": "$Fp. 2:24; Flm. 1:22$",
+          "new": "$Fp. 2:24; Fm. 1:22$",
+          "in_kanttekening": true
+        }
+      ]
+    },
+    {
+      "point_id": "RG44-003",
+      "stance": "rebut",
+      "rebuttal": "Renovatie != hervertaling. 'innerlijke bewegingen' is de CONSISTENTE SV-renovatie van sigma-pi-lambda-alpha-gamma-chi-nu-alpha door het hele NT, niet een eenmalige opake misser: het verschijnt identiek in COL 3:12 ('innerlijke bewegingen van barmhartigheid'), 2CO 7:15 ('zijn innerlijke bewegingen'), PHP 1:8 en PHP 2:1. De hoofdtekst wordt bovendien volledig en correct geglosseerd door de meegegeven Gr.-kanttekening ('Grieks: in de ingewanden ... door een grote innerlijke genegenheid ...'), die exact uitlegt wat bedoeld is — de term is dus niet misleidend maar gemarkeerd-archaisch-met-uitleg, precies het renovatiemodel. HSV's 'innige gevoelens/genegenheid' is een vertaalkeuze, geen correctie van een fout; PHP 1:8/2:1 ad hoc omzetten zou (a) de NT-brede sigma-pi-lambda-alpha-gamma-chi-nu-alpha-concordantie breken en (b) een functionerende SV-vorm hervertalen. Indien gewenst hoort dit als losse NT-brede concordantiebeslissing, niet als per-vers fix in PHP.",
+      "evidence": "sigma-pi-lambda-alpha-gamma-chi-nu-alpha NT-concordantie-inventaris (body-tekst): COL 3:12 'innerlijke bewegingen van barmhartigheid'; 2CO 7:15 'innerlijke bewegingen'; PHP 1:8 'innerlijke bewegingen'; PHP 2:1 'innerlijke bewegingen'; PHM 1:7/1:12/1:20 'ingewanden' (letterlijk, behouden); 2CO 6:12 'enghartig' (idiomatisch sigma-tau-epsilon-nu-omicron-chi-omega-rho-epsilon-omega-sigma-theta-alpha-iota); 1JN 3:17 'zijn hart toesluit'. De SV gebruikt nergens 'innige genegenheid' als hoofdtekst — dat is HSV. 'innerlijke bewegingen' is dus de stabiele SV-vorm, met kanttekening-gloss in PHP 1:8.",
+      "fixes": []
+    }
+  ],
+  "verdicts": [
+    {
+      "point_id": "RG44-001",
+      "verdict": "red_wins",
+      "scope": "verse",
+      "applied": true,
+      "rationale": "PHP 4:16-noot: gefabriceerde bibref $Hd. 17:1-9$ uit hoofdstuk-only bron 'Actor. cap. 17.' → proza 'Handelingen 17' (huisvorm PHP 3:12/3:15). Verse-range 1-9 bestond niet in SV-bron."
+    },
+    {
+      "point_id": "RG44-002",
+      "verdict": "red_wins",
+      "scope": "nt-wide",
+      "applied": true,
+      "rationale": "Niet-canonieke afkorting 'Flm.'→'Fm.' (afkortingen.csv Filemon=Fm.; PHP 2:25 al 'Fm.'). 3 NT-instanties: PHP 4:3 ×2, HEB 13:19. NT-breed nu 0 'Flm.'."
+    },
+    {
+      "point_id": "RG44-003",
+      "verdict": "green_wins",
+      "scope": "verse",
+      "applied": false,
+      "rationale": "σπλάγχνα 'innerlijke bewegingen' is consistente SV-renovatie NT-breed (COL 3:12, 2CO 7:15, PHP 1:8/2:1), met Griekse kanttekening-glosse. Renovatie ≠ hervertaling; geen per-vers fix. Eventueel apart NT-breed concordantie-besluit."
+    }
+  ]
+}
