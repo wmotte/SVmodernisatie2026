@@ -58,7 +58,7 @@ BOOK_TITLES = {
 
 # Boeken waarvan de modernisatie nog niet compleet is. De titelpagina krijgt
 # dan een statusregel met het aantal afgewerkte hoofdstukken.
-IN_WORDING = {"ACT"}
+IN_WORDING: set[str] = set()
 
 # Token-grammar — segments of free text, <kanttekening>, $bibref$, [insertion].
 # Greedy match within each delimiter; delimiters do not nest in this project.
