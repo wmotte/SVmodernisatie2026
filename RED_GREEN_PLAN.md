@@ -107,19 +107,30 @@ Acceptatie voor Fase 2:
 
 Wanneer Fase 1 en Fase 2 klaar zijn, laat de selector weer kiezen:
 
-- [ ] Draai `uv run python scripts/redgreen_select.py`.
-- [ ] Neem het voorgestelde paar over, tenzij het exact net is afgerond zonder
+- [x] Draai `uv run python scripts/redgreen_select.py`.
+- [x] Neem het voorgestelde paar over, tenzij het exact net is afgerond zonder
       nieuwe punten.
-- [ ] Draai standaard 3 selector-rondes.
-- [ ] Stop eerder als red in een ronde 0 nieuwe punten vindt.
-- [ ] Draai 2 extra selector-rondes als een van de 3 rondes een `rule_change`
-      oplevert, omdat een regelwijziging NT-brede neveneffecten kan hebben.
+- [x] Draai standaard 3 selector-rondes. (R38-R43: 6 selector-rondes gedraaid —
+      de tail bleef twee systemische patronen opleveren tot de convergentie-sweep.)
+- [x] Stop eerder als red in een ronde 0 nieuwe punten vindt. (R43 REV+ACT = 0 punten.)
+- [x] Draai 2 extra selector-rondes als een van de 3 rondes een `rule_change`
+      oplevert. (Geen rule_change in Fase 3; R36/R35-rule_changes lagen in Fase 2.
+      Wel doorgedraaid t/m convergentie.)
+
+Selector-rondes Fase 3:
+- R38 REV+ACT — 5 red_wins (ontstoken, geenszins/Μηδαμῶς, ὄχλος)
+- R39 REV+MAT — 2 red_wins + NT-brede afronding deferred wederom/geenszins (body=0)
+- R40 REV+ACT — 11 red_wins (διδάσκω-cluster, ἀκούσατε, βοηθεῖτε, der heiligen)
+- R41 REV+MAT — 4 red_wins (διδάσκω, der heiligen MAT 27:52)
+- R42 convergentie-sweep — NT-brede διδάσκω (18) + fossiel-genitief-lek der aarde/wereld (13)
+- R43 REV+ACT — **0 punten (convergentie bevestigd)**
 
 Acceptatie voor Fase 3:
 
-- [ ] De laatste selector-sessie van 3 rondes levert samen minder dan 3
-      `red_wins` op, of red levert een ronde met 0 nieuwe punten.
-- [ ] Geen nieuw `rule_change`-verdict staat nog open.
+- [x] De laatste selector-sessie levert een ronde met 0 nieuwe punten op (R43).
+- [x] Geen nieuw `rule_change`-verdict staat nog open. (Openstaand-DEFERRED, met
+      user-confirm: kop-kwalificatie FOSSIL_GENITIVE_HEAD_PAIRS voor der aarde/der
+      heiligen — validator-logica-wijziging, bewust niet autonoom doorgevoerd.)
 
 ## Per-Ronde Checklist
 
