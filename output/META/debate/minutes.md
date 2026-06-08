@@ -597,3 +597,9 @@ Red bracht 4 punt(en). Verdicts: red_wins=2, green_wins=0, rule_change=2.
 - **[RG26-004] (modernisatie)** zo wat wij bidden
   - regel: ARCHAISMEN.md (`zo wie … die` → `wie … die`, SV-correlatief drempel-archaïsme dat de renovatie overleefde, RG9-009); MODERNISATIE.md §2.7; fix: wat wij ook bidden
   - verdict: **rule_change** (scope=nt-wide, applied=True) — Green concedeert; 'zo wat' is de neutrum-tegenhanger van het reeds geblacklistte SV-correlatief 'zo wie' (Gr. ὃ ἐάν). Dezelfde structurele grond -- adjacent correlatief-zo + betrekkelijk vnw. komt noo
+
+## Ronde 27 — 2JN + 3JN  (2026-06-08T08:40:00.924895+00:00)
+Red bracht 1 punt(en). Verdicts: red_wins=1, green_wins=0, rule_change=0.
+- **[RG27-001] (consistentie)** <dat is, oprecht, zoals $1Jh. 3:18$.>
+  - regel: KANTTEKENINGEN.md (afkorting-expansie `<D. ...>`); AGENTS.md regel 5 (hoofdletterdiscipline); MODERNISATIE.md §1 (cross-book concordantie); fix: Harmoniseer 2JN naar kapitaal: `<dat is, ...>` -> `<Dat is, ...>` (5 voorvallen in 2JN 1/4/6). NT-breed sweepen want het patroon (onderkast `dat is`-opener) kan elders voorkomen.
+  - verdict: **red_wins** (scope=nt-wide, applied=True) — Green conceedde: corpus-norm is kapitaal note-opener `<Dat is` (4517x) vs 376 kleine-letter `<dat is` outliers verspreid over ~alle boeken. Een `<...>`-kanttekening is een op zichzelf staande parenthe

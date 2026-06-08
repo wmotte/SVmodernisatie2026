@@ -1,0 +1,43 @@
+{
+  "round_no": 27,
+  "books": [
+    "2JN",
+    "3JN"
+  ],
+  "red": [
+    {
+      "id": "RG27-001",
+      "class": "consistentie",
+      "books": [
+        "2JN",
+        "3JN"
+      ],
+      "chapter": 1,
+      "verse": 1,
+      "quote": "<dat is, oprecht, zoals $1Jh. 3:18$.>",
+      "in_kanttekening": true,
+      "point_key": "consistentie|2JN,3JN|dat is kanttekening-opener kapitaal vs onderkast",
+      "rule_reference": "KANTTEKENINGEN.md (afkorting-expansie `<D. ...>`); AGENTS.md regel 5 (hoofdletterdiscipline); MODERNISATIE.md §1 (cross-book concordantie)",
+      "explanation": "De SV-afkorting `<D. ...>` wordt cross-book inconsistent geopend: 3JN gebruikt overal kapitaal `<Dat is, ...>` (vv. 1,3,5,6,7,9,10,11,12,15), terwijl 2JN op 5 plaatsen onderkast `<dat is, ...>` schrijft (2JN 1, 4 (2x), 6 (2x)). Bovendien is 2JN intern inconsistent: de zusters-kanttekeningen `<Namelijk, ...>`, `<Of, ...>`, `<Zie ...>`, `<Grieks: ...>` openen in 2JN WEL met kapitaal. `dat is` onderkast is dus de uitschieter; een kanttekening is een zelfstandige clausule en hoort als zin met hoofdletter te beginnen, conform de overige openers en conform 3JN.",
+      "proposed_fix": "Harmoniseer 2JN naar kapitaal: `<dat is, ...>` -> `<Dat is, ...>` (5 voorvallen in 2JN 1/4/6). NT-breed sweepen want het patroon (onderkast `dat is`-opener) kan elders voorkomen.",
+      "severity": "hard"
+    }
+  ],
+  "green": [
+    {
+      "point_id": "RG27-001",
+      "stance": "concede",
+      "rebuttal": "Geen weerlegging mogelijk: 2JN is de defecte zijde. De geverifieerde tellingen bevestigen rood exact - 2JN heeft 5x onderkast `<dat is` (regels 14, 41 (2x), 59 (2x), d.w.z. vv. 1/4/6) naast 14x kapitaal `<Dat is`; 3JN is volledig kapitaal (31x, 0x onderkast). De SV-1657-bron schrijft de glosse-afkorting consequent als `<D. ...>` met kapitale D (geverifieerd in 2JN.original, 18x), dus de hoofdletter is brongetrouw, niet toegevoegd. De NT-brede corpusnorm is unaniem kapitaal: 1JN 1-5 (20/60/56/31/41), JHN 1 en 3 (51/51), MAT 1 (5), ROM 1 (47) - in totaal honderden voorkomens, nul onderkast. Een `<...>`-kanttekening is een zelfstandige parenthetische zin en begint dus met een hoofdletter, conform de zusteropeners (`<Namelijk,`, `<Of,`, `<Grieks:`) die in 2JN zelf wel kapitaal openen. De 5 onderkast-gevallen zijn dus de uitschieter en moeten naar `<Dat is, ...>`.",
+      "evidence": "Tellingen: 2JN <dat is=5, <Dat is=14; 3JN <dat is=0, <Dat is=31. Bron: 2JN.original gebruikt `<D. >` (kapitale D, 18 markers). Corpusnorm low=0/cap>0 in 1JN.1-5, JHN.1, JHN.3, MAT.1, ROM.1. Defecte 2JN-regels: 14, 41 (2x), 59 (2x). Conventie: KANTTEKENINGEN.md afkorting-expansie `<D. ...>`; AGENTS.md regel 5 hoofdletterdiscipline; MODERNISATIE.md cross-book concordantie. Fix: 5x `<dat is,` -> `<Dat is,` in 2JN; NT-breed sweepen (geen andere boeken aangetroffen met onderkast-opener)."
+    }
+  ],
+  "verdicts": [
+    {
+      "point_id": "RG27-001",
+      "verdict": "red_wins",
+      "scope": "nt-wide",
+      "rationale": "Green conceedde: corpus-norm is kapitaal note-opener `<Dat is` (4517x) vs 376 kleine-letter `<dat is` outliers verspreid over ~alle boeken. Een `<...>`-kanttekening is een op zichzelf staande parenthetische zin -> zinsbegin-kapitaal. Geen rule_change: dit is een formatteer-norm, geen data-lijst/validator-entry (validator/scanner mag niet uitgebreid; KANTTEKENINGEN.md-norm volstaat). NT-brede sweep uitgevoerd: 378 `<dat is`->`<Dat is` + 2 stragglers (2CO 3:1 `<de Apostel`->`<De`, ROM 15:1 `<d'Apostel`->`<De Apostel`). 0 kleine-letter-openers resteren; sample-validate + lint_all PASS.",
+      "applied": true
+    }
+  ]
+}

@@ -8,6 +8,13 @@ modernisatie. Aanvulling op `AGENTS.md` (sectie "Kanttekening-conventies").
 `<…>` blokken **bewaren** (nooit verwijderen, nooit samenvoegen). Aantal
 in de modernisatie ≥ aantal in het origineel.
 
+Een `<…>`-kanttekening is een op zichzelf staande parenthetische zin en
+**begint met een hoofdletter** (zinsbegin). Norm: `<Dat is, …>`, niet
+`<dat is, …>`. NT-breed 4517× kapitaal vs. 376 outliers; genormaliseerd in
+red-green ronde 27 RG27-001. Geen validator-gate (formatteer-norm); handhaaf
+bij elke nieuwe modernisatie. Uitzondering: een opener die zelf een
+kleine-letter-eigennaam/woord is (zeldzaam) volgt het bronwoord.
+
 ## Standaard-vertalingen voor afkortingen
 
 Standaard-vertalingen voor afkortingen binnen kanttekeningen:

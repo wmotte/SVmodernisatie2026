@@ -92,7 +92,7 @@
     {
       "verse_number": 10,
       "original": "Noch male tot den wegh, noch <D. geen kleederen dan diese souden aen hebben.> twee rocken, noch schoenen, noch staf. $Levit. 19.13. Deuter. 24.14. ende 25.4. Luce 10.7. 1.Corinth. 9.4, 14. 1.Timoth. 5.18.$ Want de arbeyder is sijn voedsel weerdigh.",
-      "modernized": "Geen reiszak voor onderweg, geen <dat is, geen kleren dan die zij aan zouden hebben.> twee onderkleren, geen schoenen, geen staf. $Lv. 19:13; Dt. 24:14; 25:4; Lk. 10:7; 1Kor. 9:4,14; 1Tm. 5:18$ Want de arbeider is zijn voedsel waard.",
+      "modernized": "Geen reiszak voor onderweg, geen <Dat is, geen kleren dan die zij aan zouden hebben.> twee onderkleren, geen schoenen, geen staf. $Lv. 19:13; Dt. 24:14; 25:4; Lk. 10:7; 1Kor. 9:4,14; 1Tm. 5:18$ Want de arbeider is zijn voedsel waard.",
       "source_text": "μὴ πήραν εἰς ὁδόν, μηδὲ δύο χιτῶνας, μηδὲ ὑποδήματα, μηδὲ ῥάβδον· ἄξιος γὰρ ὁ ἐργάτης τῆς τροφῆς αὐτοῦ ἐστιν.",
       "generated_at": "2026-06-03T07:42:45.906677Z",
       "model": "claude-opus-4-7[1m]",
@@ -299,7 +299,7 @@
     {
       "verse_number": 32,
       "original": "$Marc. 8.38. Luce 9.26. ende 12.8. 2.Tim. 2.12.$ Een yegelick dan die my belijden sal voor de menschen, dien sal ick oock D. voor mijne ware discipelen erkennen. Gelijck verloochenen is voor sijne ware discipelen niet erkennen. Siet Matth. 7.23. belijden voor mijnen Vader die in de hemelen [is.]",
-      "modernized": "$Mk. 8:38; Lk. 9:26; 12:8; 2Tm. 2:12$ Een ieder dan die mij belijden zal voor de mensen, die zal ik ook <dat is, voor mijn ware discipelen erkennen. Zoals verloochenen is voor zijn ware discipelen niet erkennen. Zie $Mt. 7:23$.> belijden voor mijn Vader die in de hemelen [is.]",
+      "modernized": "$Mk. 8:38; Lk. 9:26; 12:8; 2Tm. 2:12$ Een ieder dan die mij belijden zal voor de mensen, die zal ik ook <Dat is, voor mijn ware discipelen erkennen. Zoals verloochenen is voor zijn ware discipelen niet erkennen. Zie $Mt. 7:23$.> belijden voor mijn Vader die in de hemelen [is.]",
       "source_text": "πᾶς οὖν ὅστις ὁμολογήσει ἐν ἐμοὶ ἔμπροσθεν τῶν ἀνθρώπων, ὁμολογήσω κἀγὼ ἐν αὐτῷ ἔμπροσθεν τοῦ Πατρός μου τοῦ ἐν οὐρανοῖς.",
       "generated_at": "2026-06-03T08:19:56.028846Z",
       "model": "claude-opus-4-7[1m]",
@@ -309,7 +309,7 @@
           "type": "context",
           "subject": "inline kanttekening hersteld",
           "context": "hoofdtekst, bij tweede \"belijden\"",
-          "choice": "De D.-glosse die in de invoer ongemarkeerd tussen \"ook\" en \"belijden\" in de lopende tekst stond (D. voor mijne ware discipelen erkennen ... Siet Matth. 7.23.) is als <dat is, ...>-kanttekening teruggezet op de positie van het tweede \"belijden\".",
+          "choice": "De D.-glosse die in de invoer ongemarkeerd tussen \"ook\" en \"belijden\" in de lopende tekst stond (D. voor mijne ware discipelen erkennen ... Siet Matth. 7.23.) is als <Dat is, ...>-kanttekening teruggezet op de positie van het tweede \"belijden\".",
           "reason": "De invoer-tekst bevatte geen <...>-markering; deze D.-glosse hoort volgens projectconventie in een kanttekeningblok, niet in de hoofdtekst (vgl. vers 29)."
         }
       ]
@@ -326,7 +326,7 @@
     {
       "verse_number": 34,
       "original": "$Luce 12.51.$ En meynt niet dat ick gekomen ben om vrede te brengen op de aerde: Ick en ben niet gekomen om vrede te brengen, maer het D. oneenigheyt ende vervolginge, die op de predicatie soude volgen, waer van oorsake is, niet eygentlick Christus, die de Vredevorst is, Iesa. 9.5. ofte sijn Euangelium ’twelck een Euangelium des vredes is, Ephes. 6. vers 15. maer de moetwille der gene, die het selve verwerpen, ende de geloovige haten ende vyandelick vervolgen. sweert.",
-      "modernized": "$Lk. 12:51$ Meent niet dat ik gekomen ben om vrede te brengen op de aarde; ik ben niet gekomen om vrede te brengen, maar het <dat is, onenigheid en vervolging, die op de prediking zou volgen, waarvan de oorzaak niet eigenlijk Christus is, die de Vredevorst is, $Js. 9:5$ of zijn Evangelie, dat een Evangelie van de vrede is, $Ef. 6:15$ maar de moedwil van degenen die het verwerpen, en de gelovigen haten en vijandig vervolgen.> zwaard.",
+      "modernized": "$Lk. 12:51$ Meent niet dat ik gekomen ben om vrede te brengen op de aarde; ik ben niet gekomen om vrede te brengen, maar het <Dat is, onenigheid en vervolging, die op de prediking zou volgen, waarvan de oorzaak niet eigenlijk Christus is, die de Vredevorst is, $Js. 9:5$ of zijn Evangelie, dat een Evangelie van de vrede is, $Ef. 6:15$ maar de moedwil van degenen die het verwerpen, en de gelovigen haten en vijandig vervolgen.> zwaard.",
       "source_text": "Μὴ νομίσητε ὅτι ἦλθον βαλεῖν εἰρήνην ἐπὶ τὴν γῆν· οὐκ ἦλθον βαλεῖν εἰρήνην, ἀλλὰ μάχαιραν.",
       "generated_at": "2026-06-03T08:24:31.669733Z",
       "model": "claude-opus-4-7[1m]",
@@ -371,7 +371,7 @@
     {
       "verse_number": 39,
       "original": "$Matth. 16.25. Marc. 8.35. Luce 9.24. ende 17 33. Ioan. 12.25.$ Die sijne D. die sijn leven sal willen behouden met verloocheninge mijnes naems, die sal het ware leven, namelick de saligheyt verliesen. ziele vindt, sal [de] selve verliesen: ende die sijn ziele sal verloren hebben om mijnent wille, sal deselve vinden.",
-      "modernized": "$Mt. 16:25; Mk. 8:35; Lk. 9:24; 17:33; Jh. 12:25$ Wie zijn <dat is, wie zijn leven zal willen behouden met verloochening van mijn naam, die zal het ware leven, namelijk de zaligheid verliezen.> ziel vindt, zal [die] verliezen; en wie zijn ziel zal verloren hebben omwille van mij, zal die vinden.",
+      "modernized": "$Mt. 16:25; Mk. 8:35; Lk. 9:24; 17:33; Jh. 12:25$ Wie zijn <Dat is, wie zijn leven zal willen behouden met verloochening van mijn naam, die zal het ware leven, namelijk de zaligheid verliezen.> ziel vindt, zal [die] verliezen; en wie zijn ziel zal verloren hebben omwille van mij, zal die vinden.",
       "source_text": "ὁ εὑρὼν τὴν ψυχὴν αὐτοῦ ἀπολέσει αὐτήν· καὶ ὁ ἀπολέσας τὴν ψυχὴν αὐτοῦ ἕνεκεν ἐμοῦ εὑρήσει αὐτήν.",
       "generated_at": "2026-06-03T08:30:00.410254Z",
       "model": "claude-opus-4-7[1m]",
@@ -401,7 +401,7 @@
     {
       "verse_number": 41,
       "original": "$1.Reg. 17.10. ende 18.4. 2.Reg. 4.8.$ Die eenen Propheet ontfanght D. om dies wille, dat hy een Propheet ofte oprecht Leeraer is des Heyligen Euangeliums. in den naem eens Propheten, sal den loon eens Propheten ontfangen: ende die eenen rechtveerdigen ontfanght in den naem eens rechtveerdigen, sal den loon eens rechtveerdigen ontfangen.",
-      "modernized": "$1Kn. 17:10; 18:4; 2Kn. 4:8$ Die een Profeet ontvangt <dat is, omwille daarvan, dat hij een Profeet of oprecht Leraar van het Heilige Evangelie is.> in de naam van een Profeet, zal het loon van een Profeet ontvangen; en die een rechtvaardige ontvangt in de naam van een rechtvaardige, zal het loon van een rechtvaardige ontvangen.",
+      "modernized": "$1Kn. 17:10; 18:4; 2Kn. 4:8$ Die een Profeet ontvangt <Dat is, omwille daarvan, dat hij een Profeet of oprecht Leraar van het Heilige Evangelie is.> in de naam van een Profeet, zal het loon van een Profeet ontvangen; en die een rechtvaardige ontvangt in de naam van een rechtvaardige, zal het loon van een rechtvaardige ontvangen.",
       "source_text": "ὁ δεχόμενος προφήτην εἰς ὄνομα προφήτου μισθὸν προφήτου λήψεται· καὶ ὁ δεχόμενος δίκαιον εἰς ὄνομα δικαίου μισθὸν δικαίου λήψεται.",
       "generated_at": "2026-06-03T08:34:46.796435Z",
       "model": "claude-opus-4-7[1m]",
@@ -410,7 +410,7 @@
     {
       "verse_number": 42,
       "original": "$Matth. 25.40. Marc. 9 41. Hebr. 6.10.$ Ende soo wie een van dese D. die hier kleyn geacht worden: ofte die voor de allerminste soude mogen gereeckent worden. kleyne te drincken geeft alleenlick D. oock de allerminste dienst ofte weldaet, om dat hy een recht discipel ende lidtmaet Christi is. eenen beker koudt [waters,] in den name eens discipels, voorwaer segge ick u, hy en sal sijnen loon geensins verliesen.",
-      "modernized": "$Mt. 25:40; Mk. 9:41; Hb. 6:10$ En wie een van deze <dat is, die hier klein geacht worden, of die voor de allergeringste gerekend zouden mogen worden.> kleinen alleen <dat is, ook de allergeringste dienst of weldaad, omdat hij een echt discipel en lidmaat van Christus is.> een beker koud [water] te drinken geeft in de naam van een discipel, voorwaar, ik zeg u: hij zal zijn loon geenszins verliezen.",
+      "modernized": "$Mt. 25:40; Mk. 9:41; Hb. 6:10$ En wie een van deze <Dat is, die hier klein geacht worden, of die voor de allergeringste gerekend zouden mogen worden.> kleinen alleen <Dat is, ook de allergeringste dienst of weldaad, omdat hij een echt discipel en lidmaat van Christus is.> een beker koud [water] te drinken geeft in de naam van een discipel, voorwaar, ik zeg u: hij zal zijn loon geenszins verliezen.",
       "source_text": "καὶ ὃς ἐὰν ποτίσῃ ἕνα τῶν μικρῶν τούτων ποτήριον ψυχροῦ μόνον εἰς ὄνομα μαθητοῦ, ἀμὴν λέγω ὑμῖν, οὐ μὴ ἀπολέσῃ τὸν μισθὸν αὐτοῦ.",
       "generated_at": "2026-06-03T08:34:53.470803Z",
       "model": "claude-opus-4-7[1m]",

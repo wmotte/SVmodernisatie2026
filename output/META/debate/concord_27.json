@@ -1,0 +1,168 @@
+{
+  "books": [
+    "2JN",
+    "3JN"
+  ],
+  "layers": [
+    "body",
+    "note"
+  ],
+  "shared_greek_tokens": {
+    "body": 20,
+    "note": 20
+  },
+  "divergence_candidates": 4,
+  "divergence_by_layer": {
+    "body": 1,
+    "note": 3
+  },
+  "note": "Lexicale seed; geen oordeel. Verifieer elke kandidaat in context. layer=note = kanttekening-concordantie.",
+  "candidates": [
+    {
+      "layer": "note",
+      "greek_token": "τέκνα",
+      "shared_frequency": 2,
+      "2JN_examples": [
+        {
+          "chapter": 1,
+          "verse": 13,
+          "excerpt": "Zie vers 1."
+        }
+      ],
+      "3JN_examples": [
+        {
+          "chapter": 1,
+          "verse": 4,
+          "excerpt": "Dat is, discipelen, die ik door de prediking van het Evangelie heb voortgebracht: zoals Paulus spreekt van de Korintiërs,  ."
+        }
+      ],
+      "2JN_words": [
+        "vers"
+      ],
+      "3JN_words": [
+        "discipelen",
+        "evangelie",
+        "korintiërs",
+        "paulus",
+        "prediking",
+        "spreekt",
+        "voortgebracht",
+        "zoals"
+      ]
+    },
+    {
+      "layer": "note",
+      "greek_token": "λίαν",
+      "shared_frequency": 2,
+      "2JN_examples": [
+        {
+          "chapter": 1,
+          "verse": 4,
+          "excerpt": "dat is, sommige van uw kinderen. dat is, de ware leer van het Evangelie belijden, en hun leven daarnaar inrichten, volgens de geboden van God. Namelijk, door de"
+        }
+      ],
+      "3JN_examples": [
+        {
+          "chapter": 1,
+          "verse": 3,
+          "excerpt": "Dat is, oprechtheid,  . Zie  ."
+        }
+      ],
+      "2JN_words": [
+        "belijden",
+        "daarnaar",
+        "evangelie",
+        "geboden",
+        "inrichten",
+        "kinderen",
+        "leer",
+        "leven"
+      ],
+      "3JN_words": [
+        "oprechtheid"
+      ]
+    },
+    {
+      "layer": "note",
+      "greek_token": "εἰρήνη",
+      "shared_frequency": 2,
+      "2JN_examples": [
+        {
+          "chapter": 1,
+          "verse": 3,
+          "excerpt": "Zie dergelijke groet  . Grieks: zal zijn. Dat is, tot versterking en vermeerdering van de kennis van de waarheid en van de liefde. Of, met waarheid en liefde."
+        }
+      ],
+      "3JN_examples": [
+        {
+          "chapter": 1,
+          "verse": 15,
+          "excerpt": "Dit was de gewone wijze van groeten onder de Joden of Hebreeën. Zie hiervan  . Dat is, de gelovigen die hier zijn. Dat is, de gelovigen die bij u zijn. Dat is, "
+        }
+      ],
+      "2JN_words": [
+        "dergelijke",
+        "grieks",
+        "groet",
+        "kennis",
+        "liefde",
+        "vermeerdering",
+        "versterking",
+        "waarheid"
+      ],
+      "3JN_words": [
+        "bijzonder",
+        "gelovigen",
+        "gewone",
+        "groeten",
+        "hebreeën",
+        "hiervan",
+        "ieder",
+        "joden"
+      ]
+    },
+    {
+      "layer": "body",
+      "greek_token": "ἀλλὰ",
+      "shared_frequency": 5,
+      "2JN_examples": [
+        {
+          "chapter": 1,
+          "verse": 1,
+          "excerpt": "De Ouderling aan de   uitverkoren   Vrouw, en aan haar kinderen,   die ik   in waarheid liefheb, en niet alleen ik, maar ook   allen die   de waarheid gekend he"
+        },
+        {
+          "chapter": 1,
+          "verse": 5,
+          "excerpt": "En nu vraag ik u, [uitverkoren] Vrouw, $1Jh. 2:7$ niet alsof ik u een nieuw gebod schrijf  , maar wat wij gehad hebben van het begin, [namelijk] $Jh. 13:34; 15:"
+        }
+      ],
+      "3JN_examples": [
+        {
+          "chapter": 1,
+          "verse": 11,
+          "excerpt": "Geliefde, $Ps. 37:27; Js. 1:16; 1Pt. 3:11$ volg het   kwaad niet na, maar het goede. Die   goeddoet, is uit God; maar   die kwaaddoet, $1Jh. 3:6$ heeft God   ni"
+        }
+      ],
+      "2JN_words": [
+        "alleen",
+        "allen",
+        "alsof",
+        "begin",
+        "blijdschap",
+        "elkaar",
+        "gearbeid",
+        "gebod"
+      ],
+      "3JN_words": [
+        "geliefde",
+        "gezien",
+        "goeddoet",
+        "goede",
+        "kwaad",
+        "kwaaddoet",
+        "volg"
+      ]
+    }
+  ]
+}
