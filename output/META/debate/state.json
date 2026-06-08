@@ -1,5 +1,5 @@
 {
-  "rounds_done": 33,
+  "rounds_done": 34,
   "pairs": [
     [
       "REV",
@@ -133,6 +133,10 @@
     [
       "ACT",
       "ROM"
+    ],
+    [
+      "MAT",
+      "MRK"
     ]
   ],
   "debate_count": {
@@ -142,8 +146,8 @@
     "LUK": 3,
     "ROM": 5,
     "2CO": 1,
-    "MRK": 1,
-    "MAT": 3,
+    "MRK": 2,
+    "MAT": 4,
     "ACT": 2,
     "2JN": 3,
     "3JN": 2,
@@ -182,6 +186,9 @@
     "consistentie|JHN|vrouw waarom huilt u wie zoekt u|projectregel κλαίω→wenen; agents.md concordantie",
     "consistentie|JHN|vrouw waarom huilt u|projectregel κλαίω→wenen; agents.md concordantie",
     "consistentie|LUK,MRK|maar dadelijk is nog niet het einde|agents.md concordantie (εὐθύς/εὐθέως cross-book); durende richtlijn red-green",
+    "consistentie|MAT,MRK|dan dat hij ergernis zou geven|archaismen.md:139 false friend `ergernis` (σκάνδαλον/σκανδαλίζω) → aanstoot/struikelblok; modernisatie.md §1 concordantie",
+    "consistentie|MAT,MRK|gaat heen naar de stad|archaismen.md:78 imperatief-meervoud `-t` → stam; concordantie ὑπάγετε",
+    "consistentie|MAT,MRK|maar bidt dat uw vlucht|archaismen.md:78/80 imperatief-meervoud `-t` → stam; concordantie προσεύχεσθε",
     "consistentie|MAT,REV|en alle de engelen stonden rondom de troon|modernisatie.md §2.7 (fossiele sv-constructie); cross-book concordantie (πάντες οἱ → 'alle de')",
     "consistentie|PHM,PHP|archippus onze namelijk in die krijg waarvan de|modernisatie.md §2.5 (bijbelverwijzingen genormaliseerd); bijbelverwijzingen.md; refdata/afkortingen.csv (kolossenzen -> ko.)",
     "consistentie|PHM,TIT|allen die met mij zijn groeten u|modernisatie.md §5.3 / §1 (cross-book concordantie); grieks ἀσπάζονται (ἀσπάζομαι)",
@@ -319,6 +326,7 @@
     "modernisatie|MAT,REV|want hoewel christus' gemeente nimmermeer vergaat|modernisatie.md §2.7 (drempel-archaïsme)",
     "modernisatie|MAT|de andere maria zittende tegenover het graf|modernisatie.md §2.3",
     "modernisatie|MAT|die en zei drinkt allen daaruit|archaismen.md:imperatief-meervoud op `-t` → stam",
+    "modernisatie|MAT|en vreest niet voor hen|archaismen.md:78 imperatief-meervoud `-t` → stam",
     "modernisatie|MAT|maar toen jezus zulks hoorde|archaismen.md: `sulcks` / `zulks`; modernisatie.md §2.7; agents.md vierkante haken behouden, inhoud moderniseren",
     "modernisatie|MAT|schudt wanneer u uit dat huis of uit|archaismen.md: imperatief-meervoud op `-t`; modernisatie.md §2.7",
     "modernisatie|MAT|weest dan niet niet dat wij ons van|archaismen.md: imperatief-meervoud op `-t`; modernisatie.md §2.7",
@@ -326,11 +334,16 @@
     "modernisatie|MAT|zo zal ik u geenszins verloochenen desgelijks zeiden|modernisatie.md §2.7 (drempel-archaïsme); rules_data.py drempel_archaismen (woord niet gelist)",
     "modernisatie|MRK|antwoordt mij|archaismen.md:78 (imperatief-meervoud sv-`-t` → stam)",
     "modernisatie|MRK|bereidt de weg van de heere maakt zijn|archaismen.md:78 (imperatief-meervoud sv-`-t` → stam)",
+    "modernisatie|MRK|blijft hier en waak|archaismen.md:78 imperatief-meervoud `-t` → stam (`blijft`→`blijf`); waak/waakt blijft (niet-lijst)",
+    "modernisatie|MRK|gaat heen en ziet het na|archaismen.md:78 imperatief-meervoud `-t` → stam (`gaat`→`ga`, `ziet`→`zie`)",
     "modernisatie|MRK|geeft dan de keizer wat van de keizer|archaismen.md:78 (imperatief-meervoud sv-`-t` → stam)",
     "modernisatie|MRK|geeft u hun te eten|archaismen.md:78 (imperatief-meervoud sv-`-t` → stam)",
     "modernisatie|MRK|hoort toe|archaismen.md:78 (imperatief-meervoud sv-`-t` → stam); `(hoort|ziet) toe` → let op",
     "modernisatie|MRK|neemt eet|archaismen.md:78 (imperatief-meervoud sv-`-t` → stam); modernisatie.md imperatief-`-t`",
     "modernisatie|MRK|waakt dan|archaismen.md:78 (imperatief-meervoud sv-`-t` → stam)",
+    "modernisatie|MRK|weest dan|archaismen.md:81 imperatief `-t` → stam (`weest`→`wees`)",
+    "modernisatie|MRK|ziet toe dat niemand u verleidt|archaismen.md:78 imperatief-meervoud `-t` → stam; `(hoort|ziet) toe` → let op",
+    "modernisatie|MRK|ziet toe waakt en bidt|archaismen.md:78 imperatief-meervoud `-t` → stam (`bidt`→`bid`, `ziet toe`→`let op`); waakt blijft (niet-lijst)",
     "modernisatie|MRK|zo wie achter mij wil komen|modernisatie.md drempel-archaïsme (correlatief 'zo wie ... die')",
     "modernisatie|PHM|inzonderheid voor mij|modernisatie.md §2.7",
     "modernisatie|PHM|opdat allen daardoor bekendgemaakt wordt al het goede|modernisatie.md §2.3b; kanttekeningen.md",
@@ -372,5 +385,5 @@
     "modernisatie|TIT|zowel in kleding als in hun gehele wandel|archaismen.md:29 (zelfst. 'wandel' = levenswijze → levenswandel / leven / gedrag); modernisatie.md §2.7 (verwarringstest)"
   ],
   "open_keys": [],
-  "updated_at": "2026-06-08T10:36:40.323169+00:00"
+  "updated_at": "2026-06-08T10:51:52.568732+00:00"
 }

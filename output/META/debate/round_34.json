@@ -1,0 +1,308 @@
+{
+  "round_no": 34,
+  "books": [
+    "MAT",
+    "MRK"
+  ],
+  "red": [
+    {
+      "id": "RG34-001",
+      "class": "consistentie",
+      "books": [
+        "MRK",
+        "MAT"
+      ],
+      "chapter": 9,
+      "verse": 42,
+      "quote": "dan dat hij ergernis zou geven",
+      "in_kanttekening": true,
+      "rule_reference": "ARCHAISMEN.md:139 false friend `ergernis` (σκάνδαλον/σκανδαλίζω) → aanstoot/struikelblok; MODERNISATIE.md §1 concordantie",
+      "explanation": "MRK 9:42 (parallel van MAT 18:6) gaat over σκανδαλίσῃ. De kanttekening glost dit met 'dan dat hij ergernis zou geven'. In MAT 18:7 én MAT 13:41 is ditzelfde σκάνδαλον/σκανδαλ- al consequent als 'struikelblok'/'struikelblokken' weergegeven (incl. body en note), met vastgelegd besluit (false friend, lint_false_friends, vgl. 1JN 2:10 aanstoot). Modern 'ergernis' = irritatie, niet σκάνδαλον. Cross-book drift: identieke Griekse stam, in MAT struikelblok, in MRK-noot nog 'ergernis'.",
+      "proposed_fix": "dan dat hij tot struikelen zou brengen / aanstoot zou geven",
+      "severity": "hard"
+    },
+    {
+      "id": "RG34-002",
+      "class": "consistentie",
+      "books": [
+        "MAT",
+        "MRK"
+      ],
+      "chapter": 24,
+      "verse": 20,
+      "quote": "Maar bidt dat uw vlucht",
+      "in_kanttekening": false,
+      "rule_reference": "ARCHAISMEN.md:78/80 imperatief-meervoud `-t` → stam; concordantie προσεύχεσθε",
+      "explanation": "MAT 24:20 'Maar bidt dat uw vlucht...' (προσεύχεσθε, imperatief mv) ∥ MRK 13:18 'Maar bidt dat uw vlucht...' (identiek προσεύχεσθε). Beide behouden de SV-`-t`-imperatief; norm harmoniseert náár de stam. Synoptische parallel, identiek fout in beide boeken.",
+      "proposed_fix": "Maar bid dat uw vlucht (beide verzen)",
+      "severity": "hard"
+    },
+    {
+      "id": "RG34-003",
+      "class": "consistentie",
+      "books": [
+        "MAT",
+        "MRK"
+      ],
+      "chapter": 26,
+      "verse": 18,
+      "quote": "Gaat heen naar de stad",
+      "in_kanttekening": false,
+      "rule_reference": "ARCHAISMEN.md:78 imperatief-meervoud `-t` → stam; concordantie Ὑπάγετε",
+      "explanation": "MAT 26:18 'Gaat heen naar de stad' (Ὑπάγετε, imperatief mv) ∥ MRK 14:13 'Gaat heen in de [stad]' (identiek Ὑπάγετε). SV-`-t` imperatief overleefde in beide synoptische parallellen; norm → stam.",
+      "proposed_fix": "Ga heen naar/in de stad (beide verzen)",
+      "severity": "hard"
+    },
+    {
+      "id": "RG34-004",
+      "class": "modernisatie",
+      "books": [
+        "MRK"
+      ],
+      "chapter": 13,
+      "verse": 33,
+      "quote": "Ziet toe, waakt en bidt",
+      "in_kanttekening": false,
+      "rule_reference": "ARCHAISMEN.md:78 imperatief-meervoud `-t` → stam (`bidt`→`bid`, `Ziet toe`→`Let op`); waakt blijft (NIET-lijst)",
+      "explanation": "βλέπετε, ἀγρυπνεῖτε, προσεύχεσθε — drie imperatieven mv. 'Ziet toe' en 'bidt' behouden de SV-`-t`; norm → stam (let op / bid). ('waakt' valt onder de NIET-lijst en blijft.)",
+      "proposed_fix": "Let op, waakt en bid",
+      "severity": "hard"
+    },
+    {
+      "id": "RG34-005",
+      "class": "modernisatie",
+      "books": [
+        "MRK"
+      ],
+      "chapter": 13,
+      "verse": 5,
+      "quote": "Ziet toe dat niemand u verleidt",
+      "in_kanttekening": false,
+      "rule_reference": "ARCHAISMEN.md:78 imperatief-meervoud `-t` → stam; `(hoort|ziet) toe` → let op",
+      "explanation": "Βλέπετε (imperatief mv) als 'Ziet toe'. SV-`-t` imperatief; norm harmoniseert náár stam / 'let op'. Vgl. closed-key MRK 'hoort toe' (zelfde patroon, ander vers).",
+      "proposed_fix": "Let op dat niemand u verleidt",
+      "severity": "hard"
+    },
+    {
+      "id": "RG34-006",
+      "class": "modernisatie",
+      "books": [
+        "MAT"
+      ],
+      "chapter": 10,
+      "verse": 28,
+      "quote": "En vreest niet voor hen",
+      "in_kanttekening": false,
+      "rule_reference": "ARCHAISMEN.md:78 imperatief-meervoud `-t` → stam",
+      "explanation": "φοβηθῆτε (imperatief mv) tweemaal in dit vers: 'vreest niet ... vreest veel meer'. SV-`-t` imperatief; norm → stam (vrees).",
+      "proposed_fix": "En vrees niet voor hen ... maar vrees veel meer",
+      "severity": "hard"
+    },
+    {
+      "id": "RG34-007",
+      "class": "modernisatie",
+      "books": [
+        "MRK"
+      ],
+      "chapter": 14,
+      "verse": 34,
+      "quote": "Blijft hier en waak",
+      "in_kanttekening": false,
+      "rule_reference": "ARCHAISMEN.md:78 imperatief-meervoud `-t` → stam (`Blijft`→`Blijf`); waak/waakt blijft (NIET-lijst)",
+      "explanation": "μείνατε (imperatief mv) als 'Blijft'; SV-`-t` overleefde naast het al-gestamde 'waak'. Inconsistent binnen hetzelfde vers: 'Blijft hier en waak'. Norm → stam: 'Blijf'.",
+      "proposed_fix": "Blijf hier en waak",
+      "severity": "hard"
+    },
+    {
+      "id": "RG34-008",
+      "class": "modernisatie",
+      "books": [
+        "MRK"
+      ],
+      "chapter": 13,
+      "verse": 11,
+      "quote": "weest dan",
+      "in_kanttekening": false,
+      "rule_reference": "ARCHAISMEN.md:81 imperatief `-t` → stam (`weest`→`wees`)",
+      "explanation": "μὴ προμεριμνᾶτε ('weest dan niet van tevoren bezorgd'). 'weest' is de SV-`-t`-imperatief; norm → stam 'wees'. Expliciet voorbeeld in de norm: weest → wees.",
+      "proposed_fix": "wees dan (niet van tevoren bezorgd)",
+      "severity": "hard"
+    },
+    {
+      "id": "RG34-009",
+      "class": "modernisatie",
+      "books": [
+        "MRK"
+      ],
+      "chapter": 6,
+      "verse": 38,
+      "quote": "Gaat heen en ziet [het.] na",
+      "in_kanttekening": false,
+      "rule_reference": "ARCHAISMEN.md:78 imperatief-meervoud `-t` → stam (`Gaat`→`Ga`, `ziet`→`zie`)",
+      "explanation": "Ὑπάγετε ... ἴδετε (twee imperatieven mv). 'Gaat heen en ziet [het.] na' behoudt beide SV-`-t`-vormen; norm → stam (ga / zie).",
+      "proposed_fix": "Ga heen en zie [het] na",
+      "severity": "hard"
+    }
+  ],
+  "green": [
+    {
+      "point_id": "RG34-001",
+      "stance": "concede",
+      "rebuttal": "Niet te verdedigen. Greek σκανδαλίσῃ (σκανδαλίζω) wordt in de synoptische parallel MAT 18:6 — identieke stam, identieke perikoop — al gerenderd als 'tot struikelen brengt'; de MRK 9:42-kanttekening glost dezelfde stam nog met false friend 'ergernis' (ARCHAISMEN.md:139: ergernis = struikelblok/aanstoot, σκάνδαλον/πρόσκομμα; modern 'ergernis' = irritatie). Cross-book concordantie-drift in een note die volwaardig meetelt.",
+      "evidence": "ARCHAISMEN.md:139 false friend `ergernis` (σκανδαλίζω) + vers-specifiek: MAT 18:6 parallel-note rendert dezelfde stam als 'tot struikelen brengt'"
+    },
+    {
+      "point_id": "RG34-002",
+      "stance": "concede",
+      "rebuttal": "Niet te verdedigen. προσεύχεσθε is genuine 2pl praesens imperatief (geen indicatief/narratief), identiek in MAT 24:20 en MRK 13:18. SV-`-t` 'bidt' overleeft in beide synoptische parallellen; norm harmoniseert náár de stam 'bid'. Geen collisie-risico.",
+      "evidence": "ARCHAISMEN.md:82 imperatief-mv `-t`→stam + Greek προσεύχεσθε (2pl imp) + cross-book identiek in MAT 24:20 ∥ MRK 13:18"
+    },
+    {
+      "point_id": "RG34-003",
+      "stance": "concede",
+      "rebuttal": "Niet te verdedigen. Ὑπάγετε is genuine 2pl praesens imperatief, identiek in MAT 26:18 en MRK 14:13. 'Gaat heen' draagt de SV-`-t` in beide synoptische parallellen; norm → stam 'Ga heen'. (NB: MRK 14:13 bevat verderop óók 'volgt hem' / ἀκολουθήσατε 2pl aor imp — buiten dit punt, maar bevestigt het patroon.)",
+      "evidence": "ARCHAISMEN.md:82 imperatief-mv `-t`→stam + Greek Ὑπάγετε (2pl imp) + cross-book identiek MAT 26:18 ∥ MRK 14:13"
+    },
+    {
+      "point_id": "RG34-004",
+      "stance": "concede_fix",
+      "rebuttal": "Punt terecht — βλέπετε, ἀγρυπνεῖτε én προσεύχεσθε zijn ALLE DRIE genuine 2pl praesens imperatieven. Maar red's proposed_fix 'Let op, waakt en bid' is fout: het laat 'waakt' staan op grond van een vermeende NIET-lijst. Die NIET-lijst bestaat NIET in ARCHAISMEN.md of rules_data.py; 'waakt' (ἀγρυπνεῖτε) draagt de SV-`-t` en moet óók de stam 'waak' worden. De scanner-collisie met 3ev 'waakt' (het beest waakt) is enkel een scanner-grens, geen reden om de content-fix achterwege te laten. 'Ziet toe' → 'Let op' (ARCHAISMEN.md:81, eschatologische waarschuwing βλέπετε).",
+      "evidence": "ARCHAISMEN.md:81 (Ziet toe→let op) + ARCHAISMEN.md:82 imperatief-mv `-t`→stam + Greek ἀγρυπνεῖτε 2pl imp (waakt is óók imperatief, geen 3ev hier)",
+      "corrected_proposal": "Let op, waak en bid"
+    },
+    {
+      "point_id": "RG34-005",
+      "stance": "concede",
+      "rebuttal": "Niet te verdedigen. Βλέπετε is genuine 2pl praesens imperatief (waarschuwing 'pas op/let op dat niemand u verleidt', μή τις ὑμᾶς πλανήσῃ). SV-formule 'Ziet toe' leeft niet meer; ARCHAISMEN.md:81 noemt MRK 13:5 expliciet als locus. Norm → 'Let op'.",
+      "evidence": "ARCHAISMEN.md:81 (Ziet toe→let op, MRK 13:5 expliciet genoemd) + Greek Βλέπετε 2pl imp + vers-specifiek: μή-clausule = waarschuwing"
+    },
+    {
+      "point_id": "RG34-006",
+      "stance": "concede",
+      "rebuttal": "Niet te verdedigen. μὴ φοβηθῆτε (aor subj 2pl in prohibitieve functie) en φοβήθητε (aor imp 2pl) zijn beide genuine 2pl imperatieven, geen indicatief/narratief. SV-`-t` 'vreest ... vreest' tweemaal; norm → stam 'vrees'. Geen collisie.",
+      "evidence": "ARCHAISMEN.md:82 imperatief-mv `-t`→stam + Greek φοβηθῆτε/φοβήθητε 2pl imp + vers-specifiek: beide occurrences in MAT 10:28"
+    },
+    {
+      "point_id": "RG34-007",
+      "stance": "concede",
+      "rebuttal": "Niet te verdedigen. μείνατε (aor imp 2pl) en γρηγορεῖτε (pres imp 2pl) zijn beide genuine 2pl imperatieven. De feitelijke tekst is 'Blijft hier en waakt.' — BEIDE dragen de SV-`-t` (red transcribeerde de quote als 'waak' maar de output heeft 'waakt'). Red's proposed_fix 'Blijf hier en waak' is volledig correct: beide → stam. Geen collisie.",
+      "evidence": "ARCHAISMEN.md:82 imperatief-mv `-t`→stam + Greek μείνατε 2pl aor imp + γρηγορεῖτε 2pl pres imp (beide imperatief in MRK 14:34)"
+    },
+    {
+      "point_id": "RG34-008",
+      "stance": "concede",
+      "rebuttal": "Niet te verdedigen. μὴ προμεριμνᾶτε is genuine 2pl praesens imperatief (prohibitief 'weest niet van tevoren bezorgd'). 'weest' = SV-`-t`-imperatief; norm → stam 'wees' (in feite verderop ook μηδὲ μελετᾶτε 'bedenkt het niet' → 'bedenk' en λαλεῖτε 'dat spreekt' bevestigen het 2pl-imperatief-cluster). Concede op 'weest'→'wees'.",
+      "evidence": "ARCHAISMEN.md:82 imperatief-mv `-t`→stam + Greek μὴ προμεριμνᾶτε 2pl pres imp + vers-specifiek: prohibitieve μή-constructie, geen narratief"
+    },
+    {
+      "point_id": "RG34-009",
+      "stance": "concede",
+      "rebuttal": "Niet te verdedigen. ὑπάγετε (pres imp 2pl) en ἴδετε (aor imp 2pl) zijn beide genuine 2pl imperatieven. 'Gaat heen en ziet [het.] na' draagt beide SV-`-t`-vormen; norm → stam 'Ga heen en zie ... na'. Red's proposed_fix corrigeert tevens de misvormde haak '[het.]' → '[het]'.",
+      "evidence": "ARCHAISMEN.md:82 imperatief-mv `-t`→stam + Greek ὑπάγετε/ἴδετε 2pl imp + vers-specifiek: twee imperatieven in MRK 6:38"
+    }
+  ],
+  "verdicts": [
+    {
+      "point_id": "RG34-001",
+      "verdict": "red_wins",
+      "rationale": "Green conceded. False friend 'ergernis' (σκανδαλίζω) in MRK 9:42-kanttekening; ARCHAISMEN.md:139 verbiedt 'ergernis' (modern=irritatie) voor σκάνδαλον/πρόσκομμα. Cross-book drift: MAT 18:6 parallel rendert dezelfde stam al als 'tot struikelen brengen'. Note telt volwaardig mee. Per-vers fix.",
+      "scope": "verse",
+      "applied": true,
+      "rule_delta": null,
+      "applied_fix_old": "<Namelijk, dan dat hij ergernis zou geven.>",
+      "applied_fix_new": "<Namelijk, dan dat hij tot struikelen zou brengen.>"
+    },
+    {
+      "point_id": "RG34-002",
+      "verdict": "red_wins",
+      "rationale": "Green conceded. προσεύχεσθε genuine 2pl pres imperatief, identiek in MAT 24:20 ∥ MRK 13:18. SV-`-t` 'bidt'→stam 'bid' (ARCHAISMEN.md:78/82). Geen rule_change: 'bidt' botst met 26 niet-imperatieve corpus-occurrences ('ieder die bidt', 'wanneer u bidt') en de imperatief hier neemt geen pronomen-object → object-gate vuurt sowieso niet; scanner-toevoeging geeft geen winst, wel FP-risico. Per-vers fix in beide synoptische parallellen.",
+      "scope": "verse",
+      "applied": true,
+      "rule_delta": null,
+      "applied_fix_old": "Maar bidt dat uw vlucht",
+      "applied_fix_new": "Maar bid dat uw vlucht"
+    },
+    {
+      "point_id": "RG34-003",
+      "verdict": "red_wins",
+      "rationale": "Green conceded. Ὑπάγετε genuine 2pl imperatief, MAT 26:18 ∥ MRK 14:13. 'Gaat heen'→'Ga heen'. Geen rule_change: 'gaat' heeft 64 niet-imperatieve corpus-occurrences (3ev 'hij gaat'); 'Gaat heen' neemt geen pronomen-object → object-gate vuurt niet → 'ga' toevoegen geeft nul scanner-winst en groot FP-risico. Per-vers in beide parallellen.",
+      "scope": "verse",
+      "applied": true,
+      "rule_delta": null,
+      "applied_fix_old": "Gaat heen naar de stad",
+      "applied_fix_new": "Ga heen naar de stad"
+    },
+    {
+      "point_id": "RG34-004",
+      "verdict": "red_wins",
+      "rationale": "Green conceded_fix met corrected_proposal 'Let op, waak en bid'. βλέπετε, ἀγρυπνεῖτε én προσεύχεσθε zijn alle drie 2pl pres imperatieven; er bestaat GEEN NIET-lijst die 'waakt' uitzondert, dus 'waakt'→'waak' óók. 'Ziet toe' (eschatologische βλέπετε-waarschuwing) → 'Let op' (ARCHAISMEN.md:81). Adopteer green's corrected_proposal. Geen rule_change (per-vers).",
+      "scope": "verse",
+      "applied": true,
+      "rule_delta": null,
+      "applied_fix_old": "Ziet toe, waakt en bidt",
+      "applied_fix_new": "Let op, waak en bid"
+    },
+    {
+      "point_id": "RG34-005",
+      "verdict": "red_wins",
+      "rationale": "Green conceded. Βλέπετε 2pl imperatief; μή-clausule = waarschuwing 'pas op/let op'. ARCHAISMEN.md:81 noemt MRK 13:5 expliciet als locus. SV-formule 'Ziet toe'→'Let op'. Contextueel correct hier: 'Let op' (waarschuwing). Geen blanket rule: 'Ziet toe' is context-gerenderd (Let op/pas op), geen simpele stam-swap; reeds gedekt door bestaande DREMPEL-patroon `(Hoort|Ziet|Zie) ... toe`. Per-vers.",
+      "scope": "verse",
+      "applied": true,
+      "rule_delta": null,
+      "applied_fix_old": "Ziet toe dat niemand u verleidt",
+      "applied_fix_new": "Let op dat niemand u verleidt"
+    },
+    {
+      "point_id": "RG34-006",
+      "verdict": "red_wins",
+      "rationale": "Green conceded. φοβηθῆτε/φοβήθητε beide 2pl imperatief (prohibitief + positief). 'vreest ... vreest'→'vrees ... vrees'. Geen rule_change: 'vreest' heeft 10 corpus-occurrences incl. 3ev ('die vreest, is niet volmaakt'); imperatief hier neemt geen pronomen-object ('vreest niet voor hen') → object-gate vuurt niet → geen scanner-winst. Per-vers.",
+      "scope": "verse",
+      "applied": true,
+      "rule_delta": null,
+      "applied_fix_old": "En vreest niet voor hen die het lichaam doden, en de ziel niet kunnen doden; maar vreest veel meer hem",
+      "applied_fix_new": "En vrees niet voor hen die het lichaam doden, en de ziel niet kunnen doden; maar vrees veel meer hem"
+    },
+    {
+      "point_id": "RG34-007",
+      "verdict": "red_wins",
+      "rationale": "Green conceded. Feitelijke tekst is 'Blijft hier en waakt.' (red's quote 'Blijft hier en waak' transcribeerde fout). μείνατε en γρηγορεῖτε beide 2pl imperatief → 'Blijf hier en waak.' Geen rule_change: 'blijft' heeft 69 niet-imperatieve corpus-occurrences (3ev 'wat blijft'); imperatief neemt geen pronomen-object → object-gate vuurt niet. Per-vers.",
+      "scope": "verse",
+      "applied": true,
+      "rule_delta": null,
+      "applied_fix_old": "Blijft hier en waakt.",
+      "applied_fix_new": "Blijf hier en waak."
+    },
+    {
+      "point_id": "RG34-008",
+      "verdict": "red_wins",
+      "rationale": "Green conceded. μὴ προμεριμνᾶτε 2pl pres imperatief (prohibitief). 'weest'→'wees'. Geen rule_change: 'weest' botst met 'geweest' (MEMORY) en heeft 7 occurrences; imperatief neemt geen pronomen-object ('weest dan niet bezorgd') → object-gate vuurt niet. Per-vers.",
+      "scope": "verse",
+      "applied": true,
+      "rule_delta": null,
+      "applied_fix_old": "weest dan niet van tevoren bezorgd",
+      "applied_fix_new": "wees dan niet van tevoren bezorgd"
+    },
+    {
+      "point_id": "RG34-009",
+      "verdict": "red_wins",
+      "rationale": "Green conceded. ὑπάγετε/ἴδετε beide 2pl imperatief. 'Gaat heen en ziet [het.] na'→'Ga heen en zie [het] na' (corrigeert tevens misvormde haak '[het.]'→'[het]'). Geen rule_change ('gaat'/'ziet' zie RG34-003/005-redenering; intransitief, geen pronomen-object). Per-vers.",
+      "scope": "verse",
+      "applied": true,
+      "rule_delta": null,
+      "applied_fix_old": "Gaat heen en ziet [het.] na.",
+      "applied_fix_new": "Ga heen en zie [het] na."
+    }
+  ],
+  "synoptic_partner_fixes": [
+    "MRK 13:18 bidt->bid (∥ MAT 24:20 RG34-002)",
+    "MRK 14:13 Gaat heen->Ga heen (∥ MAT 26:18 RG34-003)"
+  ],
+  "adversarial_scan_followup": {
+    "MRK 13": [
+      "v9 ziet u voor uzelf toe->let u voor uzelf op (βλέπετε)",
+      "v23 Maar u ziet toe->Maar let u op",
+      "v32-note der voorzienigheid Gods->van Gods voorzienigheid (genitief HARD)"
+    ],
+    "note": "scanner-hard-issues in touched chapter, niet door RED geselecteerd; gefixt om 0 open hard te halen. Resterende 2 open = soft concordantie-drift (geschiede/gelijk), advisory."
+  }
+}

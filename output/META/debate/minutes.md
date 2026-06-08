@@ -717,3 +717,33 @@ Red bracht 8 punt(en). Verdicts: red_wins=8, green_wins=0, rule_change=0.
 - **[RG33-008] (modernisatie)** om het vermijden van ergernis
   - regel: ARCHAISMEN.md:139 false friend `ergernis(se)` (σκάνδαλον/πρόσκομμα) → aanstoot/struikelblok; kanttekeningen tellen volwaardig mee; fix: 'om het vermijden van aanstoot' (en 14:22 'zonder aanstoot te geven aan de zwakke broeders'); harmoniseer met de body-keuze 'aanstoot'.
   - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert (én bevestigt de memory-decision feedback_false_friend_overrulet_renovatie: `ergernis` IS de false friend, `aanstoot` is correct — orchestrator-framing keerde dit om). Grieks σκάνδαλο
+
+## Ronde 34 — MAT + MRK  (2026-06-08T10:51:52.569219+00:00)
+Red bracht 9 punt(en). Verdicts: red_wins=9, green_wins=0, rule_change=0.
+- **[RG34-001] (consistentie)** dan dat hij ergernis zou geven
+  - regel: ARCHAISMEN.md:139 false friend `ergernis` (σκάνδαλον/σκανδαλίζω) → aanstoot/struikelblok; MODERNISATIE.md §1 concordantie; fix: dan dat hij tot struikelen zou brengen / aanstoot zou geven
+  - verdict: **red_wins** (scope=verse, applied=True) — Green conceded. False friend 'ergernis' (σκανδαλίζω) in MRK 9:42-kanttekening; ARCHAISMEN.md:139 verbiedt 'ergernis' (modern=irritatie) voor σκάνδαλον/πρόσκομμα. Cross-book drift: MAT 18:6 parallel re
+- **[RG34-002] (consistentie)** Maar bidt dat uw vlucht
+  - regel: ARCHAISMEN.md:78/80 imperatief-meervoud `-t` → stam; concordantie προσεύχεσθε; fix: Maar bid dat uw vlucht (beide verzen)
+  - verdict: **red_wins** (scope=verse, applied=True) — Green conceded. προσεύχεσθε genuine 2pl pres imperatief, identiek in MAT 24:20 ∥ MRK 13:18. SV-`-t` 'bidt'→stam 'bid' (ARCHAISMEN.md:78/82). Geen rule_change: 'bidt' botst met 26 niet-imperatieve corp
+- **[RG34-003] (consistentie)** Gaat heen naar de stad
+  - regel: ARCHAISMEN.md:78 imperatief-meervoud `-t` → stam; concordantie Ὑπάγετε; fix: Ga heen naar/in de stad (beide verzen)
+  - verdict: **red_wins** (scope=verse, applied=True) — Green conceded. Ὑπάγετε genuine 2pl imperatief, MAT 26:18 ∥ MRK 14:13. 'Gaat heen'→'Ga heen'. Geen rule_change: 'gaat' heeft 64 niet-imperatieve corpus-occurrences (3ev 'hij gaat'); 'Gaat heen' neemt 
+- **[RG34-004] (modernisatie)** Ziet toe, waakt en bidt
+  - regel: ARCHAISMEN.md:78 imperatief-meervoud `-t` → stam (`bidt`→`bid`, `Ziet toe`→`Let op`); waakt blijft (NIET-lijst); fix: Let op, waakt en bid
+  - verdict: **red_wins** (scope=verse, applied=True) — Green conceded_fix met corrected_proposal 'Let op, waak en bid'. βλέπετε, ἀγρυπνεῖτε én προσεύχεσθε zijn alle drie 2pl pres imperatieven; er bestaat GEEN NIET-lijst die 'waakt' uitzondert, dus 'waakt'
+- **[RG34-005] (modernisatie)** Ziet toe dat niemand u verleidt
+  - regel: ARCHAISMEN.md:78 imperatief-meervoud `-t` → stam; `(hoort|ziet) toe` → let op; fix: Let op dat niemand u verleidt
+  - verdict: **red_wins** (scope=verse, applied=True) — Green conceded. Βλέπετε 2pl imperatief; μή-clausule = waarschuwing 'pas op/let op'. ARCHAISMEN.md:81 noemt MRK 13:5 expliciet als locus. SV-formule 'Ziet toe'→'Let op'. Contextueel correct hier: 'Let 
+- **[RG34-006] (modernisatie)** En vreest niet voor hen
+  - regel: ARCHAISMEN.md:78 imperatief-meervoud `-t` → stam; fix: En vrees niet voor hen ... maar vrees veel meer
+  - verdict: **red_wins** (scope=verse, applied=True) — Green conceded. φοβηθῆτε/φοβήθητε beide 2pl imperatief (prohibitief + positief). 'vreest ... vreest'→'vrees ... vrees'. Geen rule_change: 'vreest' heeft 10 corpus-occurrences incl. 3ev ('die vreest, i
+- **[RG34-007] (modernisatie)** Blijft hier en waak
+  - regel: ARCHAISMEN.md:78 imperatief-meervoud `-t` → stam (`Blijft`→`Blijf`); waak/waakt blijft (NIET-lijst); fix: Blijf hier en waak
+  - verdict: **red_wins** (scope=verse, applied=True) — Green conceded. Feitelijke tekst is 'Blijft hier en waakt.' (red's quote 'Blijft hier en waak' transcribeerde fout). μείνατε en γρηγορεῖτε beide 2pl imperatief → 'Blijf hier en waak.' Geen rule_change
+- **[RG34-008] (modernisatie)** weest dan
+  - regel: ARCHAISMEN.md:81 imperatief `-t` → stam (`weest`→`wees`); fix: wees dan (niet van tevoren bezorgd)
+  - verdict: **red_wins** (scope=verse, applied=True) — Green conceded. μὴ προμεριμνᾶτε 2pl pres imperatief (prohibitief). 'weest'→'wees'. Geen rule_change: 'weest' botst met 'geweest' (MEMORY) en heeft 7 occurrences; imperatief neemt geen pronomen-object 
+- **[RG34-009] (modernisatie)** Gaat heen en ziet [het.] na
+  - regel: ARCHAISMEN.md:78 imperatief-meervoud `-t` → stam (`Gaat`→`Ga`, `ziet`→`zie`); fix: Ga heen en zie [het] na
+  - verdict: **red_wins** (scope=verse, applied=True) — Green conceded. ὑπάγετε/ἴδετε beide 2pl imperatief. 'Gaat heen en ziet [het.] na'→'Ga heen en zie [het] na' (corrigeert tevens misvormde haak '[het.]'→'[het]'). Geen rule_change ('gaat'/'ziet' zie RG3

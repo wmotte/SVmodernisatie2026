@@ -88,7 +88,7 @@ Algemene brieven:
 Grote-boek kalibratie:
 
 - [x] `ACT + ROM` — R33 (8 red_wins: 6× didactisch leren→onderwijzen, rechten→verordeningen ROM 10:19, ergernis→aanstoot ROM 14:21; ergernis NT-deferred 14×)
-- [ ] `MAT + MRK`
+- [x] `MAT + MRK` — R34 (9 red_wins: synoptic imperatief-t Ziet toe/Gaat heen/weest/vreest/blijft→stem, ergernis→struikelen MRK 9:42; +2 synoptic-partner + 3 scanner-followup MRK 13)
 - [ ] `LUK + ACT`
 - [ ] `REV + JUD`
 - [ ] `REV + 2PE`
