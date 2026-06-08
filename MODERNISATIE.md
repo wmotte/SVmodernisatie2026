@@ -189,15 +189,19 @@ het een fossiel.
 het paar in `FOSSIL_GENITIVE_PAIRS` (rules_data.py) staat, óf de
 kop-gekwalificeerde combinatie in `FOSSIL_GENITIVE_HEAD_PAIRS` zit
 (bv. `Koning der Joden` — alleen vrij ná de kop `Koning`; een gewoon
-`Synagoge/volk/feest der Joden` blijft HARD). De huidige
-allowlist dekt `Zoon des mensen`, `Koning der Joden` (kop-vereist) /
+`Synagoge/volk/feest der Joden` blijft HARD). **Kop-vereist** (alleen
+gefossiliseerd ná de genoemde kop, anders HARD): `Koning der Joden`;
+`einden/einde der aarde` (gewoon `Koningen/kooplieden/oogst der aarde`
+blijft HARD — R37/R42); `Heilige der heiligen` + `Koning der heiligen`
+(gewoon `geloof/bloed/volharding der heiligen` blijft HARD — R40/R42).
+De generieke allowlist dekt verder `Zoon des mensen`,
 `Koning der heerlijkheid`,
 `Koninkrijk der hemelen`, `Heer der heerscharen`, `dag des oordeels`,
 `dag der voorbereiding`, `heer des huizes`, `dag des Heeren`,
-`boek des levens`, `Heilige der heiligen`, `gruwel der verwoesting`,
+`boek des levens`, `gruwel der verwoesting`,
 `knersing der tanden`, `werkers der ongerechtigheid`,
 `opstanding der rechtvaardigen/doden`, `aanzien des persoons`,
-`einden der aarde`, `volken der wereld`. Moderne adverbiale formules
+`volken der wereld`. Moderne adverbiale formules
 met `des` (`des te meer`, `des avonds`, `des morgens`, `des nachts`,
 `des middags`, `des zondags`, …) zijn gemaskeerd. Vindt de validator
 een nieuw legitiem fossiel — voeg het paar toe aan de lijst met een

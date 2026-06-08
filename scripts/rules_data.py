@@ -114,7 +114,11 @@ FOSSIL_GENITIVE_PAIRS: frozenset[tuple[str, str]] = frozenset({
     ("des", "huizes"),         # heer des huizes
     ("des", "heeren"),         # dag des Heeren
     ("des", "levens"),         # boek des levens
-    ("der", "heiligen"),       # Heilige der heiligen
+    # ('der','heiligen') was GENERIEK: maskeerde gewone bezitsgenitieven
+    # (geloof/bloed/volharding/rechtvaardigmakingen/lichamen der heiligen),
+    # terwijl alleen de tempelformule 'Heilige der heiligen' (Gr. ἅγια τῶν
+    # ἁγίων) en de titel 'Koning der heiligen' (Op. 15:3) gestold zijn.
+    # Verplaatst naar FOSSIL_GENITIVE_HEAD_PAIRS. Red-green R40/R41/R42.
     ("der", "voorbereiding"),  # dag der voorbereiding
     ("der", "verwoesting"),    # gruwel der verwoesting
     ("der", "tanden"),         # knersing der tanden
@@ -122,7 +126,10 @@ FOSSIL_GENITIVE_PAIRS: frozenset[tuple[str, str]] = frozenset({
     ("der", "rechtvaardigen"), # opstanding der rechtvaardigen
     ("der", "doden"),          # opstanding der doden
     ("des", "persoons"),       # aanzien des persoons (Gr. προσωπολημψία)
-    ("der", "aarde"),          # einden der aarde
+    # ('der','aarde') was GENERIEK: maskeerde gewone bezitsgenitieven
+    # (Koningen/kooplieden/oogst/wijngaard/gruwelen/Groten der aarde),
+    # terwijl alleen 'einden der aarde' (Gr. τὰ πέρατα τῆς γῆς) gestold is.
+    # Verplaatst naar FOSSIL_GENITIVE_HEAD_PAIRS. Red-green R37/R42.
     ("der", "wereld"),         # volken der wereld
 })
 
@@ -132,7 +139,11 @@ FOSSIL_GENITIVE_PAIRS: frozenset[tuple[str, str]] = frozenset({
 # bezitsgenitieven (Synagoge/volk der Joden) doorlaten. Red-green ronde 35
 # RG35-006.
 FOSSIL_GENITIVE_HEAD_PAIRS: frozenset[tuple[str, str, str]] = frozenset({
-    ("koning", "der", "joden"),  # Koning der Joden (Gr. ὁ βασιλεὺς τῶν Ἰουδαίων)
+    ("koning", "der", "joden"),     # Koning der Joden (Gr. ὁ βασιλεὺς τῶν Ἰουδαίων)
+    ("einden", "der", "aarde"),     # einden der aarde (Gr. τὰ πέρατα τῆς γῆς); R37/R42
+    ("einde", "der", "aarde"),      # einde der aarde (enkelvoudsvariant)
+    ("heilige", "der", "heiligen"), # Heilige der heiligen (Gr. ἅγια τῶν ἁγίων); R40/R42
+    ("koning", "der", "heiligen"),  # Koning der heiligen (Op. 15:3, titel-appositie)
 })
 
 # 2. Participle Rules (from validate.py)
