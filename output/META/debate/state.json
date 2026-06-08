@@ -1,5 +1,5 @@
 {
-  "rounds_done": 24,
+  "rounds_done": 25,
   "pairs": [
     [
       "REV",
@@ -97,11 +97,15 @@
     [
       "HEB",
       "TIT"
+    ],
+    [
+      "JHN",
+      "1JN"
     ]
   ],
   "debate_count": {
     "REV": 10,
-    "JHN": 6,
+    "JHN": 7,
     "1CO": 2,
     "LUK": 3,
     "ROM": 4,
@@ -113,7 +117,7 @@
     "3JN": 1,
     "PHM": 1,
     "JUD": 1,
-    "1JN": 1,
+    "1JN": 2,
     "2PE": 1,
     "1PE": 1,
     "JAS": 1,
@@ -158,9 +162,13 @@
     "modernisatie|1CO|weest zonder aanstoot te geven en de joden|archaismen.md:78 (imperatief-meervoud -t -> stam; weest -> wees)",
     "modernisatie|1CO|zei neemt eet dat is mijn lichaam dat|archaismen.md (imperatief-meervoud op `-t` → stam); modernisatie.md imperatief-`-t`",
     "modernisatie|1JN|bewaart uzelf geenszins kan bestaan|archaismen.md: imperatief-meervoud op `-t`; scripts/rules_data.py drempel_archaismen",
+    "modernisatie|1JN|de grootsheid des levens|modernisatie.md §2.3c (gefossiliseerde genitief blijft, overige genitieven ontvouwen)",
     "modernisatie|1JN|die kan geenszins god liefhebben|scripts/rules_data.py drempel_archaismen; modernisatie.md §2.7; kanttekeningen.md",
     "modernisatie|1JN|en hebt de wereld niet lief|archaismen.md: imperatief-meervoud op `-t`; modernisatie.md §2.3",
+    "modernisatie|1JN|het geloof in hem gewrocht heeft|modernisatie.md §2.2 / §2.7; archaismen.md drempel-productiviteit; precedent rg20-002 (2th 2:7 'gewrocht', red_wins)",
+    "modernisatie|1JN|in uw harten al ontstoken is|archaismen.md:143 (false friends: ontsteken/ontstoken figuurlijk-emotioneel)",
     "modernisatie|1JN|om alzo de wortel ervan uit te trekken|modernisatie.md §2.7; kanttekeningen.md",
+    "modernisatie|1JN|placht ontstoken te worden in het hart|archaismen.md:143 (false friends: ontsteken/ontstoken figuurlijk-emotioneel)",
     "modernisatie|1PE|vernedert u dan onder de krachtige hand gods|archaismen.md: imperatief-meervoud op `-t` -> stam; modernisatie.md §2.7 constructie-test",
     "modernisatie|1PE|vreest niet uit vrees voor hen en wordt|archaismen.md: imperatief-meervoud op `-t` -> stam; modernisatie.md §2.7",
     "modernisatie|1PE|wapent ook u zich met dezelfde gedachte|archaismen.md: imperatief-meervoud op `-t` -> stam; modernisatie.md §2.7",
@@ -213,13 +221,16 @@
     "modernisatie|JHN|dat u zult huilen en weeklagen|projectregel κλαίω→wenen",
     "modernisatie|JHN|de rechte tijd van de geestelijke oogst voorhanden|rules_data.py drempel_archaismen ('voorhanden'); modernisatie.md §2.7. scaffolding-gap: intro niet gescand.",
     "modernisatie|JHN|gaat u maar op naar dit feest|archaismen.md (imperatief meervoud -t -> stam)",
+    "modernisatie|JHN|haat tegen hem hoe langer hoe meer ontstoken|archaismen.md:143 (false friends: ontsteken/ontstoken figuurlijk-emotioneel)",
     "modernisatie|JHN|hetwelk het begin is van zijn wonderwerken|rules_data.py drempel_archaismen ('hetwelk'); modernisatie.md §2.7 (relativum). scaffolding-gap: lint_archaismen scant hoofdstuk-introductie niet (intro is dict-veld 'modernized', lint geeft 0 voor jhn).",
     "modernisatie|JHN|in god gewrocht zijn|modernisatie.md §2.7 (drempel-archaïsme)",
+    "modernisatie|JHN|kwamen te kapernaüm jezus zoekend|modernisatie.md §2.3 / §2.3b (patroon 2: bijwoord-/participium-coda achteraf)",
     "modernisatie|JHN|maakt de weg van de heere recht|archaismen.md (imperatief meervoud -t -> stam)",
     "modernisatie|JHN|neemt u hem en kruisig hem|archaismen.md (imperatief meervoud -t -> stam); interne consistentie binnen het vers",
     "modernisatie|JHN|neemt u hem en oordeelt hem naar uw|archaismen.md (imperatief meervoud -t -> stam)",
     "modernisatie|JHN|terwijl zij smadelijk spreken van christus en van|rules_data.py drempel_archaismen ('smadelijk'); modernisatie.md §2.7. scaffolding-gap: intro niet gescand.",
     "modernisatie|JHN|want ik weet vanwaar ik gekomen ben en|modernisatie.md §2.7 (drempel-archaïsme)",
+    "modernisatie|JHN|zullen zij geenszins volgen|scripts/rules_data.py drempel_archaismen ('geenszins'); modernisatie.md §2.7; precedent 1jn 4 'die kan geenszins god liefhebben' (red_wins)",
     "modernisatie|JUD|bouwt u uzelf op en bidt in de|archaismen.md: imperatief-meervoud op `-t`; modernisatie.md §2.3",
     "modernisatie|JUD|de eerste christenen plachten met elkaar tot versterking|modernisatie.md §2.7; kanttekeningen.md",
     "modernisatie|JUD|de genadige sententie of het vonnis|modernisatie.md §2.7; kanttekeningen.md",
@@ -292,5 +303,5 @@
     "modernisatie|TIT|de zendbrief aan titus de eerste verkoren grieks|kanttekeningen.md:8 ('<…> blokken bewaren — nooit verwijderen, nooit samenvoegen'); agents.md §1 'renovatie, geen hervertaling' / leesbaar modern nederlands"
   ],
   "open_keys": [],
-  "updated_at": "2026-06-08T06:51:46.934994+00:00"
+  "updated_at": "2026-06-08T08:17:15.463696+00:00"
 }

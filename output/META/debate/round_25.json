@@ -1,0 +1,242 @@
+{
+  "round_no": 25,
+  "books": [
+    "JHN",
+    "1JN"
+  ],
+  "red": [
+    {
+      "id": "RG25-001",
+      "class": "modernisatie",
+      "books": [
+        "JHN"
+      ],
+      "chapter": 6,
+      "verse": 24,
+      "quote": "kwamen te Kapernaüm, Jezus zoekend",
+      "in_kanttekening": false,
+      "rule_reference": "MODERNISATIE.md §2.3 / §2.3b (patroon 2: bijwoord-/participium-coda achteraf)",
+      "explanation": "Het Griekse finiete tegenwoordige participium ζητοῦντες τὸν Ἰησοῦν (SV: 'soeckende Iesum') is als nageschoven participiale coda blijven staan ('Jezus zoekend') in plaats van ontvouwd naar een finiete bijzin. Dit is precies de latinate carry-over die §2.3 invariant ontvouwt; de scanner mist het omdat het op '-end' (niet '-ende') eindigt.",
+      "proposed_fix": "Ontvouw naar finiet werkwoord: '... en kwamen te Kapernaüm, op zoek naar Jezus' of '... en kwamen te Kapernaüm om Jezus te zoeken'.",
+      "severity": "hard"
+    },
+    {
+      "id": "RG25-002",
+      "class": "modernisatie",
+      "books": [
+        "JHN"
+      ],
+      "chapter": 4,
+      "verse": 1,
+      "quote": "haat tegen hem hoe langer hoe meer ontstoken werden",
+      "in_kanttekening": true,
+      "rule_reference": "ARCHAISMEN.md:143 (False friends: ontsteken/ontstoken figuurlijk-emotioneel)",
+      "explanation": "'Ontstoken' in figuurlijk-emotioneel register (nijd en haat die ontvlammen) is een false friend: de dominante moderne lading van 'ontstoken' is medische infectie. ARCHAISMEN.md:143 schrijft expliciet voor dit ook in kanttekeningen te vermijden ('ontvlamd' / 'aangewakkerd'). Niet linter-gevangen — leeft alleen in de regeltabel.",
+      "proposed_fix": "'nijd en haat tegen hem hoe langer hoe meer ontvlamden' of '... aangewakkerd werden'.",
+      "severity": "hard"
+    },
+    {
+      "id": "RG25-003",
+      "class": "modernisatie",
+      "books": [
+        "1JN"
+      ],
+      "chapter": 1,
+      "verse": 4,
+      "quote": "in uw harten al ontstoken is",
+      "in_kanttekening": true,
+      "rule_reference": "ARCHAISMEN.md:143 (False friends: ontsteken/ontstoken figuurlijk-emotioneel)",
+      "explanation": "De kanttekening glosseert blijdschap die 'in uw harten al ontstoken is' (Rm. 14:17) — vuurmetafoor van emotie. 'Ontstoken' leest modern primair als geïnfecteerd/geïrriteerd weefsel; ARCHAISMEN.md:143 verbiedt deze vorm uitdrukkelijk ook in kanttekeningen.",
+      "proposed_fix": "'die ... in uw harten al ontvlamd is' of '... ontstoken' → 'ontwaakt/gewekt is'.",
+      "severity": "hard"
+    },
+    {
+      "id": "RG25-004",
+      "class": "modernisatie",
+      "books": [
+        "1JN"
+      ],
+      "chapter": 4,
+      "verse": 20,
+      "quote": "placht ontstoken te worden in het hart",
+      "in_kanttekening": true,
+      "rule_reference": "ARCHAISMEN.md:143 (False friends: ontsteken/ontstoken figuurlijk-emotioneel)",
+      "explanation": "Kanttekening: 'door welk zien de liefde en barmhartigheid placht ontstoken te worden in het hart' — opnieuw de figuurlijk-emotionele vuurmetafoor die ARCHAISMEN.md:143 als false friend markeert (modern: infectie). Zelfde defect als RG25-003; consistente correctie binnen 1JN nodig.",
+      "proposed_fix": "'placht ontvlamd/gewekt te worden in het hart'.",
+      "severity": "hard"
+    },
+    {
+      "id": "RG25-005",
+      "class": "modernisatie",
+      "books": [
+        "1JN"
+      ],
+      "chapter": 5,
+      "verse": 10,
+      "quote": "het geloof in hem gewrocht heeft",
+      "in_kanttekening": true,
+      "rule_reference": "MODERNISATIE.md §2.2 / §2.7; ARCHAISMEN.md drempel-productiviteit; precedent RG20-002 (2TH 2:7 'gewrocht', red_wins)",
+      "explanation": "Kanttekening: 'de Heilige Geest, die het geloof in hem gewrocht heeft'. 'Gewrocht' is een drempel-archaïsch predikaat dat in ronde 20 (2TH 2:7) al red_wins kreeg; het faalt de productiviteitstest §2.7. §2.3/§2.6 gelden volledig binnen kanttekeningen.",
+      "proposed_fix": "'die het geloof in hem gewerkt heeft' / '... bewerkt heeft'.",
+      "severity": "hard"
+    },
+    {
+      "id": "RG25-006",
+      "class": "modernisatie",
+      "books": [
+        "JHN"
+      ],
+      "chapter": 10,
+      "verse": 5,
+      "quote": "zullen zij geenszins volgen",
+      "in_kanttekening": false,
+      "rule_reference": "scripts/rules_data.py DREMPEL_ARCHAISMEN ('geenszins'); MODERNISATIE.md §2.7; precedent 1JN 4 'die kan geenszins God liefhebben' (red_wins)",
+      "explanation": "'Geenszins' staat in DREMPEL_ARCHAISMEN (severity hard) en werd in 1JN 4 als red_wins gemoderniseerd, maar overleeft in de JHN-hoofdtekst (οὐ μὴ-emfatische ontkenning) op meerdere plaatsen (6:35, 6:37, 10:5, 20:25). Scaffolding-gap: deze JHN-verzen zijn niet door adversarial_scan op DREMPEL_ARCHAISMEN geveegd. Modern emfatisch: 'beslist niet' / 'echt niet'.",
+      "proposed_fix": "'een vreemde zullen zij beslist niet volgen'; harmoniseer alle JHN-instanties (6:35, 6:37, 10:5, 20:25).",
+      "severity": "hard"
+    },
+    {
+      "id": "RG25-007",
+      "class": "modernisatie",
+      "books": [
+        "1JN"
+      ],
+      "chapter": 2,
+      "verse": 16,
+      "quote": "de grootsheid des levens",
+      "in_kanttekening": false,
+      "rule_reference": "MODERNISATIE.md §2.3c (gefossiliseerde genitief blijft, overige genitieven ontvouwen)",
+      "explanation": "ἡ ἀλαζονεία τοῦ βίου ('de grootsheid des levens') is geen gefossiliseerde formule in de zin van §2.3c — het is geen vaste theologische uitdrukking zoals 'boek des levens'. De validator laat het toch door omdat FOSSIL_GENITIVE_PAIRS grof op het paar (des, levens) matcht, niet op de formule. HSV: 'de hoogmoed van het leven'. Hoort als losse possessief-genitief ontvouwd te worden.",
+      "proposed_fix": "'de grootsheid van het leven' (of, false-friend 'grootsheid' overwegend, 'de hoogmoed van het leven').",
+      "severity": "soft"
+    }
+  ],
+  "green": [
+    {
+      "point_id": "RG25-001",
+      "stance": "concede",
+      "rebuttal": "Concede. JHN 6:24 source_text bevestigt ζητοῦντες τὸν Ἰησοῦν: een finiet tegenwoordig participium dat als bijwoordelijke coda achter de hoofdzin hangt. §2.3 schrijft expliciet voor dat het finiete tegenwoordige participium dat als bijwoordelijke bepaling fungeert (voorbeeld 'wandelende in alle de geboden') ontvouwd wordt naar nevenschikking met finiet werkwoord — 'Jezus zoekend' is precies de latinate carry-over die de regel verbiedt. Onderscheidend van de andere punten: dit is geen false-friend of genitief maar syntaxis. Red's fix ('om Jezus te zoeken' / 'op zoek naar Jezus') is correct.",
+      "evidence": "MODERNISATIE.md §2.3 (finiet tegenw. participium als bijwoordelijke bepaling → finiete nevenschikking); Grieks ζητοῦντες τὸν Ἰησοῦν."
+    },
+    {
+      "point_id": "RG25-002",
+      "stance": "concede",
+      "rebuttal": "Concede. De quote staat letterlijk in de kanttekening van JHN 4:1 ('met nijd en haat tegen hem hoe langer hoe meer ontstoken werden'). 'Ontstoken' in figuurlijk-emotioneel register (vuurmetafoor van nijd/haat) is een door ARCHAISMEN.md:143 expliciet benoemde false friend; de dominante moderne lading is medische infectie. Die regel verbiedt de vorm uitdrukkelijk 'ook in kanttekeningen'. §2.3-discipline geldt zonder citatie-uitzondering binnen <…>. Geen rebuttal-grond: 'ontvlamden' / 'aangewakkerd werden' is de juiste vorm.",
+      "evidence": "ARCHAISMEN.md:143 (ontsteken/ontstoken vuurmetafoor → ontvlamd; expliciet ook in kanttekeningen); figuurlijk-emotioneel register."
+    },
+    {
+      "point_id": "RG25-003",
+      "stance": "concede",
+      "rebuttal": "Concede. Quote bevestigd in 1JN 1:4-kanttekening ('in uw harten al ontstoken is', glossering van blijdschap met verwijzing Rm. 14:17). Vuurmetafoor van emotie = dezelfde false friend als RG25-002; ARCHAISMEN.md:143 verbiedt deze ook in kanttekeningen. Onderscheidend: object is 'blijdschap' (niet haat), maar zelfde defect — 'ontstoken' leest modern als geïnfecteerd weefsel. 'ontvlamd is' / 'gewekt is' juist.",
+      "evidence": "ARCHAISMEN.md:143 (figuurlijk-emotioneel ontstoken, ook in kanttekeningen); 1JN 1:4 kanttekening, vuurmetafoor van blijdschap."
+    },
+    {
+      "point_id": "RG25-004",
+      "stance": "concede",
+      "rebuttal": "Concede. Quote letterlijk in 1JN 4:20-kanttekening ('door welk zien de liefde en barmhartigheid placht ontstoken te worden in het hart'). Figuurlijk-emotionele vuurmetafoor → ARCHAISMEN.md:143 false friend, ook in kanttekeningen te vermijden. Binnen-1JN-consistentie met RG25-003 vereist gelijke correctie. 'placht ontvlamd/gewekt te worden' juist.",
+      "evidence": "ARCHAISMEN.md:143 (ontsteken vuurmetafoor, ook kanttekening); 1JN 4:20 kanttekening, liefde/barmhartigheid die 'ontstoken' wordt in het hart."
+    },
+    {
+      "point_id": "RG25-005",
+      "stance": "concede",
+      "rebuttal": "Concede. Quote bevestigd in 1JN 5:10-kanttekening ('de Heilige Geest, die het geloof in hem gewrocht heeft'). 'Gewrocht' is een drempel-archaïsch predikaat dat in ronde 20 (2TH 2:7, RG20-002) reeds red_wins kreeg en in decisions.jsonl als precedent staat; het faalt de productiviteitstest §2.7 en §2.2 geldt volledig binnen kanttekeningen (§2.3-clausule: geen citatie-uitzondering). 'gewerkt/bewerkt heeft' juist.",
+      "evidence": "MODERNISATIE.md §2.2/§2.7; precedent RG20-002 (2TH 2:7 'gewrocht', red_wins) in decisions.jsonl; kanttekening valt onder dezelfde drempelregel."
+    },
+    {
+      "point_id": "RG25-006",
+      "stance": "concede",
+      "rebuttal": "Concede. 'Geenszins' staat in scripts/rules_data.py DREMPEL_ARCHAISMEN (regel 341, severity hard) en kreeg meermaals red_wins (RG15-008 ACT 10:14; RG18-004 1JN 4:20). JHN 10:5 (οὐ μὴ ... ἀκολουθήσωσιν, emfatische ontkenning) bewaart de vorm in de hoofdtekst — een scaffolding-gap omdat adversarial_scan deze JHN-verzen niet op DREMPEL_ARCHAISMEN veegde. Cross-book-consistentie met 1JN 4 eist correctie naar emfatisch modern ('beslist niet'/'echt niet'). NT-brede harmonisatie (6:35, 6:37, 10:5, 20:25) terecht.",
+      "evidence": "scripts/rules_data.py DREMPEL_ARCHAISMEN ('geenszins', regel 341); MODERNISATIE.md §2.7; precedent RG15-008 / RG18-004 red_wins; Grieks οὐ μή."
+    },
+    {
+      "point_id": "RG25-007",
+      "stance": "concede",
+      "rebuttal": "Concede. Source_text bevestigt ἡ ἀλαζονεία τοῦ βίου in 1JN 2:16. De fossiel-allowlist-pair ('des','levens') is in §2.3c/FOSSIL_GENITIVE_PAIRS gemotiveerd door uitsluitend de formule 'boek des levens' (βίβλος τῆς ζωῆς, ζωή). Hier is het βίος, een losse possessief-genitief zonder formule-status — precies de categorie die §2.3c als 'wat dus niet fossielt' aanwijst (vgl. 'hant des Heeren' → 'hand van de Heer'). De validator matcht grof op het paar, niet op de formule; dat is de scaffolding-gap. 'de grootsheid/hoogmoed van het leven' juist.",
+      "evidence": "MODERNISATIE.md §2.3c ('losse possessief-genitieven zonder formule-status ontvouwen'); FOSSIL_GENITIVE_PAIRS ('des','levens') gemotiveerd als 'boek des levens' (ζωή), niet βίος; Grieks ἡ ἀλαζονεία τοῦ βίου."
+    }
+  ],
+  "verdicts": [
+    {
+      "point_id": "RG25-001",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. JHN 6:24 source_text bevestigt ζητοῦντες τὸν Ἰησοῦν: finiet tegenwoordig participium als nageschoven bijwoordelijke coda ('Jezus zoekend'). §2.3 ontvouwt dit naar finiete nevenschikking; scanner mist het wegens '-end' i.p.v. '-ende'. Eén-vers-syntaxfix.",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG25-002",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. Kanttekening JHN 4:1: 'ontstoken' in figuurlijk-emotioneel register (nijd/haat-vuurmetafoor) is false friend per ARCHAISMEN.md:143 (modern: medische infectie), expliciet ook in kanttekeningen te vermijden. Eén-vers-kanttekeningfix → 'ontvlamden'/'aangewakkerd'.",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG25-003",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. Kanttekening 1JN 1:4: blijdschap die 'in uw harten al ontstoken is' = zelfde figuurlijk-emotionele vuurmetafoor-false-friend (ARCHAISMEN.md:143). Eén-vers-kanttekeningfix → 'ontvlamd is'/'gewekt is'.",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG25-004",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. Kanttekening 1JN 4:20: liefde/barmhartigheid die 'placht ontstoken te worden in het hart' = ARCHAISMEN.md:143 false friend; binnen-1JN-consistentie met RG25-003. Eén-vers-kanttekeningfix → 'ontvlamd/gewekt te worden'.",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG25-005",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. Kanttekening 1JN 5:10 'gewrocht': drempel-archaïsch predikaat dat in RG20-002 (2TH 2:7) reeds red_wins kreeg (decisions.jsonl-precedent); faalt productiviteitstest §2.7; §2.2 geldt binnen kanttekeningen. Eén-vers-kanttekeningfix → 'gewerkt/bewerkt heeft'.",
+      "scope": "verse",
+      "applied": true
+    },
+    {
+      "point_id": "RG25-006",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. 'geenszins' staat AL in scripts/rules_data.py DREMPEL_ARCHAISMEN (regel 341, severity hard) en kreeg eerder red_wins (RG15-008, RG18-004) — dus GEEN regel-delta nodig. Dit is een sweep-/scaffolding-gap: 4 reeds-blacklisted-maar-gemiste instances overleven in JHN-hoofdtekst (6:35, 6:37, 10:5, 20:25; geverifieerd via grep). Geen nieuwe blacklist-entry, alleen een NT-brede sweep van bestaande-regel-treffers → scope nt-wide, geen rule_change.",
+      "scope": "nt-wide",
+      "applied": true
+    },
+    {
+      "point_id": "RG25-007",
+      "verdict": "red_wins",
+      "rationale": "Green concedeert. 1JN 2:16 ἡ ἀλαζονεία τοῦ βίου ('grootsheid des levens'): losse possessief-genitief zonder formule-status, géén gefossiliseerde formule per §2.3c. FOSSIL_GENITIVE_PAIRS ('des','levens') is gemotiveerd door 'boek des levens' (ζωή), niet βίος; validator matcht grof op het paar. Eén-vers-fix → 'grootsheid/hoogmoed van het leven'. (Validator-grofheid is een latente gap, maar de fix hier is per-vers; geen rule-delta gevraagd.)",
+      "scope": "verse",
+      "applied": true
+    }
+  ],
+  "deferred_nt_sweep": {
+    "note": "geenszins is een advisory DREMPEL_ARCHAISME (geen validate/lint-gate; alleen adversarial_scan). In-round JHN-instanties toegepast (6:35,6:37,10:5,20:25). Resterende NT-brede body-instanties expliciet gelogd voor een aparte sweep (GEEN silent cap):",
+    "geenszins_body_remaining": [
+      "1KO 16:12",
+      "1TE 5:3",
+      "HAN 28:26",
+      "LUK 12:59",
+      "LUK 21:32",
+      "LUK 21:33",
+      "MAT 10:42",
+      "MAT 13:14",
+      "MAT 15:5",
+      "MAT 16:22",
+      "MAT 2:6",
+      "MAT 24:34",
+      "MAT 24:35",
+      "MAT 26:35",
+      "MAT 5:26",
+      "MRK 13:31",
+      "MRK 14:31",
+      "MRK 9:41",
+      "OPB 3:5"
+    ],
+    "geenszins_note_remaining": [
+      "2KO 7:9",
+      "GAL 1:10",
+      "GAL 3:21",
+      "JAK 4:17"
+    ],
+    "gewrocht_remaining": [
+      "ROM 14:17"
+    ]
+  }
+}

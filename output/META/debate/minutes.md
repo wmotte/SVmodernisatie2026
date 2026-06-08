@@ -558,3 +558,27 @@ Red bracht 3 punt(en). Verdicts: red_wins=3, green_wins=0, rule_change=0.
 - **[RG24-003] (modernisatie)** Daarom, Namelijk, wanneer hij de menselijke natuur aannam en die in één persoon met hem verenigde, zoals hiervoor $Hb. 1
   - regel: KANTTEKENINGEN.md:8 ('<…> blokken bewaren — nooit verwijderen, nooit samenvoegen'); MODERNISATIE.md §2.3 (geen lopende tekst van noot maken); fix: Wikkel de glosse: 'Daarom <Namelijk, wanneer hij de menselijke natuur aannam en die in één persoon met hem verenigde, zoals hiervoor $Hb. 1:6; 9:11$.> zegt hij, als hij in de wereld komt:'
   - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert (geherclassificeerd als scaffolding/bron-delimiter-reparatie: defect echt, maar bron mist <> al; fix input.sv + output). Concede op het defect, met hetzelfde geherclassificeerde mecha
+
+## Ronde 25 — JHN + 1JN  (2026-06-08T08:17:15.464067+00:00)
+Red bracht 7 punt(en). Verdicts: red_wins=7, green_wins=0, rule_change=0.
+- **[RG25-001] (modernisatie)** kwamen te Kapernaüm, Jezus zoekend
+  - regel: MODERNISATIE.md §2.3 / §2.3b (patroon 2: bijwoord-/participium-coda achteraf); fix: Ontvouw naar finiet werkwoord: '... en kwamen te Kapernaüm, op zoek naar Jezus' of '... en kwamen te Kapernaüm om Jezus te zoeken'.
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert. JHN 6:24 source_text bevestigt ζητοῦντες τὸν Ἰησοῦν: finiet tegenwoordig participium als nageschoven bijwoordelijke coda ('Jezus zoekend'). §2.3 ontvouwt dit naar finiete nevenschikk
+- **[RG25-002] (modernisatie)** haat tegen hem hoe langer hoe meer ontstoken werden
+  - regel: ARCHAISMEN.md:143 (False friends: ontsteken/ontstoken figuurlijk-emotioneel); fix: 'nijd en haat tegen hem hoe langer hoe meer ontvlamden' of '... aangewakkerd werden'.
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert. Kanttekening JHN 4:1: 'ontstoken' in figuurlijk-emotioneel register (nijd/haat-vuurmetafoor) is false friend per ARCHAISMEN.md:143 (modern: medische infectie), expliciet ook in kantt
+- **[RG25-003] (modernisatie)** in uw harten al ontstoken is
+  - regel: ARCHAISMEN.md:143 (False friends: ontsteken/ontstoken figuurlijk-emotioneel); fix: 'die ... in uw harten al ontvlamd is' of '... ontstoken' → 'ontwaakt/gewekt is'.
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert. Kanttekening 1JN 1:4: blijdschap die 'in uw harten al ontstoken is' = zelfde figuurlijk-emotionele vuurmetafoor-false-friend (ARCHAISMEN.md:143). Eén-vers-kanttekeningfix → 'ontvlamd
+- **[RG25-004] (modernisatie)** placht ontstoken te worden in het hart
+  - regel: ARCHAISMEN.md:143 (False friends: ontsteken/ontstoken figuurlijk-emotioneel); fix: 'placht ontvlamd/gewekt te worden in het hart'.
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert. Kanttekening 1JN 4:20: liefde/barmhartigheid die 'placht ontstoken te worden in het hart' = ARCHAISMEN.md:143 false friend; binnen-1JN-consistentie met RG25-003. Eén-vers-kanttekenin
+- **[RG25-005] (modernisatie)** het geloof in hem gewrocht heeft
+  - regel: MODERNISATIE.md §2.2 / §2.7; ARCHAISMEN.md drempel-productiviteit; precedent RG20-002 (2TH 2:7 'gewrocht', red_wins); fix: 'die het geloof in hem gewerkt heeft' / '... bewerkt heeft'.
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert. Kanttekening 1JN 5:10 'gewrocht': drempel-archaïsch predikaat dat in RG20-002 (2TH 2:7) reeds red_wins kreeg (decisions.jsonl-precedent); faalt productiviteitstest §2.7; §2.2 geldt b
+- **[RG25-006] (modernisatie)** zullen zij geenszins volgen
+  - regel: scripts/rules_data.py DREMPEL_ARCHAISMEN ('geenszins'); MODERNISATIE.md §2.7; precedent 1JN 4 'die kan geenszins God liefhebben' (red_wins); fix: 'een vreemde zullen zij beslist niet volgen'; harmoniseer alle JHN-instanties (6:35, 6:37, 10:5, 20:25).
+  - verdict: **red_wins** (scope=nt-wide, applied=True) — Green concedeert. 'geenszins' staat AL in scripts/rules_data.py DREMPEL_ARCHAISMEN (regel 341, severity hard) en kreeg eerder red_wins (RG15-008, RG18-004) — dus GEEN regel-delta nodig. Dit is een swe
+- **[RG25-007] (modernisatie)** de grootsheid des levens
+  - regel: MODERNISATIE.md §2.3c (gefossiliseerde genitief blijft, overige genitieven ontvouwen); fix: 'de grootsheid van het leven' (of, false-friend 'grootsheid' overwegend, 'de hoogmoed van het leven').
+  - verdict: **red_wins** (scope=verse, applied=True) — Green concedeert. 1JN 2:16 ἡ ἀλαζονεία τοῦ βίου ('grootsheid des levens'): losse possessief-genitief zonder formule-status, géén gefossiliseerde formule per §2.3c. FOSSIL_GENITIVE_PAIRS ('des','levens
